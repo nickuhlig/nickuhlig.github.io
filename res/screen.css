@@ -43,6 +43,10 @@ pre, code, tt {
   font-weight:300;
   font-size: 14px;
 }
+/*pre strong, code strong, tt strong,
+pre b, code b, tt b {
+  font-weight:400;
+}*/
 img { border:none; vertical-align:bottom; }
 strong { font-weight:400; }
 hr { height:1px; border:none; background-color:#ddd; }
@@ -199,7 +203,6 @@ div.content.photo {
   }
   div.content code {
     background-color: #f6f9fa;
-    color:black;
     /*border: 1px solid #eaeaea;*/
     border-radius: 3px;
     padding:0 0.3em;
