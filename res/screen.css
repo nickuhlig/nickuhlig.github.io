@@ -1,26 +1,11 @@
 @viewport {
   width: device-width;
 }
-/*@font-face {
-  font-family: 'M+ 1mn';
-  font-style: normal;
-  font-weight: 300;
-  src: local('mplus-1mn-light'), local('M+ 1mn light'), url('/res/mplus-1mn-light.ttf')
-       format('truetype');
-}
-@font-face {
-  font-family: 'M+ 1mn';
-  font-style: normal;
-  font-weight: 600;
-  src: local('mplus-1mn-regular'), local('M+ 1mn regular'), url('/res/mplus-1mn-regular.ttf')
-       format('truetype');
-}*/
 
-/* Base */
 * { margin:0; padding:0; font-family:inherit; }
 body {
   background:#ddd;
-  color:#222;
+  color:#000;
   font:16px 'Roboto Slab', georgia, serif;
   line-height:1.625;
   font-weight: 300;
@@ -30,6 +15,7 @@ body {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-overflow-scrolling: touch;
 }
 
 div.breaker { clear:both; }
@@ -345,16 +331,6 @@ a.post-excerpt {
       border:none;
       /*margin-bottom:10px;*/
     }
-      /*a.post-excerpt.photo div.padded-content {
-        padding:0;
-        width:100%;
-        height:100%;
-        background: transparent no-repeat center center scroll;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-      }*/
       a.post-excerpt.photo:hover div.padded-content {
         opacity:0.9;
       }
@@ -595,8 +571,8 @@ footer {
 @media only screen and (max-device-width: 1024px) {
   /* To constrain pre-formatted text to body width */
   body { color:black; }
-  html.ios pre { overflow:scroll; }
-  html.ios pre, html.ios code, html.ios tt { font-size:0.95em; }
+  html pre { overflow:scroll; -webkit-overflow-scrolling: touch; }
+  html pre, html code, html tt { font-size:0.95em; }
   header { margin:0 60px 0 45px; }
   header ul.navigation li a { font-size:14px; }
   div.content { font-size:1.2em; }
@@ -632,12 +608,11 @@ footer {
     div.content div.quotation blockquote { margin-left:0px; }
     div.content:not(.sub) h1:first-child { font-size:210%; }
     div.content pre {
-      margin: 0 -1em;
-      padding:1em;
-      background-color: #eee;
-      border-left: none;
-      border-top: 1px solid #ddd;
-      border-bottom: 1px solid #ddd;
+      margin: 0 -0.4em;
+      padding: 0.5em;
+      border-radius:1px;
+      /*border: none;
+      background-color: #eee;*/
     }
     div.content *[align="right"] {
       display:block;
@@ -657,7 +632,7 @@ footer {
     font-size:80%;
   }
     a.post-excerpt div.padded-content {
-      padding: 2em 2em;
+      padding: 2em 2em !important;
     }
     a.post-excerpt:nth-child(1) div.padded-content,
     a.post-excerpt:nth-child(2) div.padded-content {
