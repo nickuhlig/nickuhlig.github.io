@@ -301,7 +301,7 @@ def main():
 
 Assembly:
 
-```
+```llvm
 define main 0
   CONST 5           # K(0) = 5
   CONST 0           # K(1) = 0

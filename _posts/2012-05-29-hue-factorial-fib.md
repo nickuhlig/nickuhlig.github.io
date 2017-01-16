@@ -75,48 +75,52 @@ This will compile, although the program will still crash when `foo` is given a v
 
 Let's get all nerdy and look at the IR produced by Hue for the `factorial` function example from the beginning of this article:
 
-    define i64 @main() nounwind readnone {
-      br label %tailrecurse.i
+```llvm
+define i64 @main() nounwind readnone {
+  br label %tailrecurse.i
 
-    tailrecurse.i:                                    ; preds = %else.i, %0
-      %accumulator.tr.i = phi i64 [ 1, %0 ], [ %multmp.i, %else.i ]
-      %n.tr.i = phi i64 [ 10, %0 ], [ %subtmp.i, %else.i ]
-      %eqtmp.i = icmp eq i64 %n.tr.i, 0
-      br i1 %eqtmp.i, label %"hello:factorial$x$x.exit", label %else.i
+tailrecurse.i:                                    ; preds = %else.i, %0
+  %accumulator.tr.i = phi i64 [ 1, %0 ], [ %multmp.i, %else.i ]
+  %n.tr.i = phi i64 [ 10, %0 ], [ %subtmp.i, %else.i ]
+  %eqtmp.i = icmp eq i64 %n.tr.i, 0
+  br i1 %eqtmp.i, label %"hello:factorial$x$x.exit", label %else.i
 
-    else.i:                                           ; preds = %tailrecurse.i
-      %subtmp.i = add i64 %n.tr.i, -1
-      %multmp.i = mul i64 %accumulator.tr.i, %n.tr.i
-      br label %tailrecurse.i
+else.i:                                           ; preds = %tailrecurse.i
+  %subtmp.i = add i64 %n.tr.i, -1
+  %multmp.i = mul i64 %accumulator.tr.i, %n.tr.i
+  br label %tailrecurse.i
 
-    "hello:factorial$x$x.exit":                       ; preds = %tailrecurse.i
-      ret i64 0
-    }
+"hello:factorial$x$x.exit":                       ; preds = %tailrecurse.i
+  ret i64 0
+}
+```
 
 Note how there's actually _no function calls_ involved here. The compiler (mostly thanks to LLVM) were able to optimize the recursive call by unrolling the calls. The above code is very efficient.
 
 Let's have look at what Hue does with the `fib` example function (from earlier in this article):
 
-    define i64 @main() nounwind readnone {
-      %fib_res = tail call i64 @"hello:fib$x$x"(i64 32)
-      ret i64 0
-    }
+```llvm
+define i64 @main() nounwind readnone {
+  %fib_res = tail call i64 @"hello:fib$x$x"(i64 32)
+  ret i64 0
+}
 
-    define private i64 @"hello:fib$x$x"(i64 %n) nounwind readnone {
-      %lttmp = icmp slt i64 %n, 2
-      br i1 %lttmp, label %endif, label %else
+define private i64 @"hello:fib$x$x"(i64 %n) nounwind readnone {
+  %lttmp = icmp slt i64 %n, 2
+  br i1 %lttmp, label %endif, label %else
 
-    else:                                             ; preds = %0
-      %subtmp = add i64 %n, -1
-      %fib_res = tail call i64 @"hello:fib$x$x"(i64 %subtmp)
-      %subtmp1 = add i64 %n, -2
-      %fib_res2 = tail call i64 @"hello:fib$x$x"(i64 %subtmp1)
-      %addtmp = add i64 %fib_res2, %fib_res
-      ret i64 %addtmp
+else:                                             ; preds = %0
+  %subtmp = add i64 %n, -1
+  %fib_res = tail call i64 @"hello:fib$x$x"(i64 %subtmp)
+  %subtmp1 = add i64 %n, -2
+  %fib_res2 = tail call i64 @"hello:fib$x$x"(i64 %subtmp1)
+  %addtmp = add i64 %fib_res2, %fib_res
+  ret i64 %addtmp
 
-    endif:                                            ; preds = %0
-      ret i64 %n
-    }
+endif:                                            ; preds = %0
+  ret i64 %n
+}
+```
 
 We didn't get the royal unroll treatment, but the calls became tail recursive and the true-branch of the conditional expression was short-circuited into the end of the conditional ("endif"), saving us a "PHI" virtual instruction. This code is also very efficient and has linear time complexity.
 
