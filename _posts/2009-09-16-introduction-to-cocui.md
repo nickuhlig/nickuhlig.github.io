@@ -6,6 +6,7 @@ date: 2009-09-16 00:18:00 UTC
 title: Introduction to Cocui
 redirect_from: ["/2009/09/16/introduction-to-cocui.html"]
 
+archived: yes
 ---
 
 <iframe src="//player.vimeo.com/video/6600826?byline=0&amp;portrait=0&amp;color=ffffff" width="640" height="400" frameborder="0"></iframe>

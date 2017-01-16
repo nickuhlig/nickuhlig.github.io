@@ -6,6 +6,7 @@ date: 2008-01-30 19:42:56 UTC
 title: Leica M upgrade kits instead of new cameras
 redirect_from: ["/2008/01/30/leica-m-upgrade-kits-instead-of-new-cameras.html"]
 
+archived: yes
 ---
 
 <img src="/attachments/2008/01/m8-best-before.jpg" style="margin-left: 1em; margin-bottom: 1em" align="right" />Today, recent Leica M customers received this message:

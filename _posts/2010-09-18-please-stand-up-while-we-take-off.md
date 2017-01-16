@@ -6,6 +6,7 @@ date: 2010-09-18 14:08:40 UTC
 title: Please stand up while we take off
 redirect_from: ["/2010/09/18/please-stand-up-while-we-take-off.html"]
 
+archived: yes
 ---
 
 [<img src="//f.cl.ly/items/40400acb758329c37745/www.reuters-1.png" width="640" height="312">](http://blogs.reuters.com/photo/2010/09/16/standing-room-only/)

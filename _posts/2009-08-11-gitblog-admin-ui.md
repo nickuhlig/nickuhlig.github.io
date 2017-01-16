@@ -6,6 +6,7 @@ date: 2009-08-11 02:03:00 UTC
 title: Gitblog admin user interface
 redirect_from: ["/2009/08/11/gitblog-admin-ui.html"]
 
+archived: yes
 ---
 
 I've laid the groundwork for the upcoming <a href="http://gitblog.se/">Gitblog</a> user interface.

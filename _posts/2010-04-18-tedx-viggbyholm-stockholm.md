@@ -6,6 +6,7 @@ date: 2010-04-18 22:23:33 UTC
 title: TEDx Viggbyholm, Stockholm
 redirect_from: ["/2010/04/18/tedx-viggbyholm-stockholm.html"]
 
+archived: yes
 ---
 
 Spend the Sunday evening in a great way -- speaking (and listening) at [TEDx Viggbyholm](http://www.tedxviggbyholm.com/) in Stockholm. I held a relatively short session on natural beauty, taking the opportunity to speak about something else that "design". Here are my slides:

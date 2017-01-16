@@ -6,6 +6,7 @@ date: 2010-02-03 14:01:21 UTC
 title: Beautiful packaging from ChocoLate Orgániko
 redirect_from: ["/2010/02/03/beautiful-packaging-from-chocolate-organiko.html"]
 
+archived: yes
 ---
 
 Came by a set of beautifully designed chocolate bars today at [Betsy Sandberg](http://www.betsychoklad.se/) while strolling through 

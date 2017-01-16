@@ -6,6 +6,7 @@ date: 2007-06-21 18:28:29 UTC
 title: Happy Midsummer!
 redirect_from: ["/2007/06/21/happy-midsummer.html"]
 
+archived: yes
 ---
 
 <embed style="width:400px; height:326px;" id="VideoPlayback" align="middle" type="application/x-shockwave-flash" src="//video.google.com/googleplayer.swf?videoUrl=http%3A%2F%2Fvp.video.google.com%2Fvideodownload%3Fversion%3D0%26secureurl%3DlAAAAOjyAZ7NHc2rm24KOxQYHGEaQlQZz44JviGur5NC6mef1guy0JQgWLfQGvTyXfqybV6akypwqTSATKbxo8oNMwmPm-R8Kbw0ilveRHDA_FA4AwHMBVSdnlvgXjKQxT3iE4QelMj6VAuSPhAPoYVrvcaBGsqv0r6-97fnaJrxVk4XyuvLlqZzDF_Ry4u6Jo7VcsjhZBAnYqnKgppZP9tbHdI%26sigh%3D0aOqlx_JwgbZ9d7BGK883M68WFU%26begin%3D0%26len%3D25960%26docid%3D-1938863255512962005&#038;thumbnailUrl=http%3A%2F%2Fvideo.google.com%2FThumbnailServer%3Fcontentid%3Dd3011693c9f21558%26second%3D5%26itag%3Dw320%26urlcreated%3D1139679791%26sigh%3Dk9gsqdKime87pn-lkNzegvUoxL4&#038;playerId=-1938863255512962005&#038;playerMode=embedded" allowScriptAccess="sameDomain" quality="best" bgcolor="#ffffff" scale="noScale" wmode="window" salign="TL"></embed>

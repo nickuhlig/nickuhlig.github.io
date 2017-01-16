@@ -6,6 +6,7 @@ date: 2008-06-27 08:36:46 UTC
 title: Martin the Tailor
 redirect_from: ["/2008/06/27/martin-the-tailor.html"]
 
+archived: yes
 ---
 
 Take a few minutes to check out this video about legendary tailor Martin Greenfield.

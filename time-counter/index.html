@@ -1,7 +1,7 @@
-<html manifest="index.appcache">
+<html>
   <head>
     <meta charset="utf-8">
-    <title>That Wednesday</title>
+    <title>Time counter</title>
     <meta name="viewport" content="width=720">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57-precomposed.png">
@@ -44,10 +44,23 @@ svg circle.bg {
 svg text.arc {
   fill: white;
   font-size:28;
-  font-family: 'M+ 2c', helvetica, sans-serif;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol";
   font-kerning: normal;
   text-rendering: optimizeLegibility; -moz-text-rendering: optimizeLegibility; -webkit-text-rendering: optimizeLegibility;
-  font-weight: lighter;
+  font-weight: 300;
   baseline-shift: sub;
   alignment-baseline: hanging;
   transition: opacity 200ms ease-in; -webkit-transition: opacity 200ms ease-in;
@@ -94,21 +107,38 @@ body.dark { background:black; }
   </head>
   <body>
     <!-- viewBox="0 0 1000 300"-->
-    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%">
     </svg>
     <script>
 
-var ref_date = new Date('Wed Jan 29 2014 18:17:00 GMT-0800 (PST)');
+function parseDate(str) {
+  var d = new Date(str);
+  return (d && !isNaN(d.getTime())) ? d : null;
+}
 
-var qs = document.location.search.toLowerCase();
+var qs = {};
+document.location.search.substr(1).split('&').forEach(function (pair) {
+  var v = pair.split('=').map(decodeURIComponent)
+  qs[v[0].toLowerCase()] = v[1] || true
+})
+
 var meta_apple_mobile_web_app_status_bar_style = document.createElement('meta');
 meta_apple_mobile_web_app_status_bar_style.setAttribute('name', 'apple-mobile-web-app-status-bar-style');
 document.querySelector('head').appendChild(meta_apple_mobile_web_app_status_bar_style);
-if (qs.indexOf('dark') !== -1) {
+
+if (qs.dark && qs.dark != 'false' && qs.dark != 'no' && qs.dark != '0') {
   document.body.className = 'dark';
   meta_apple_mobile_web_app_status_bar_style.setAttribute('content', 'black');
 } else {
   meta_apple_mobile_web_app_status_bar_style.setAttribute('content', 'default');
+}
+
+var ref_date = parseDate(qs.refdate)
+if (ref_date === null) {
+  if (qs.refdate) {
+    alert('Invalid date ' + qs.refdate)
+  }
+  ref_date = parseDate('Wed Jan 29 2014 18:17:00 GMT-0800 (PST)');
 }
 
 if (!window.requestAnimationFrame) {

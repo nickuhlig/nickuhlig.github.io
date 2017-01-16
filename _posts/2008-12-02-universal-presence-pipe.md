@@ -6,6 +6,7 @@ date: 2008-12-02 17:36:02 UTC
 title: Universal presence pipe
 redirect_from: ["/2008/12/02/universal-presence-pipe.html"]
 
+archived: yes
 ---
 
 <a href="http://pipes.yahoo.com/pipes/pipe.info?_id=d0a66b6ca2b1dbd74a157ef909171775"><img src="/attachments/2008/12/up-pipe-overview.png" alt="up-pipe-overview" width="180" height="173" class="alignright size-full wp-image-932" /></a>About two years ago I created a simple <a href="http://pipes.yahoo.com/pipes/pipe.info?_id=eCESRQti3BGEibnMl7okhQ">presence/alert/observer Yahoo! Pipe for Spotify</a>. Now, that pipe works pretty OK for that specific task, but as soon as I wanted to try something else the need for a modified pipe clone stopped me. Later I thought: "well, shouldn't be too much hustle designing a universal pipe...".

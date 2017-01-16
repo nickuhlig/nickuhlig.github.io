@@ -6,6 +6,7 @@ date: 2007-06-03 13:51:56 UTC
 title: Play! A Video Game Symphony
 redirect_from: ["/2007/06/03/play-a-video-game-symphony.html"]
 
+archived: yes
 ---
 
 <a href="http://www.flickr.com/photos/62437618@N00/188898648/"><img src="https://farm1.static.flickr.com/52/188898648_4f95b0dc84_m.jpg" style="float:right;margin-bottom:10px;margin-left:10px;" /></a>I experienced the <a href="http://www.play-symphony.com/">Play! Video Game Symphony</a> yesterday and it was amazingly good! A big multi-disciplinary orchestra and a choir almost as big.

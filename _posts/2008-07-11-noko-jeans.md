@@ -6,6 +6,7 @@ date: 2008-07-11 08:01:57 UTC
 title: Noko Jeans
 redirect_from: ["/2008/07/11/noko-jeans.html"]
 
+archived: yes
 ---
 
 <a href="http://www.nokojeans.com/">Noko Jeans</a> consisting of <a href="http://www.jourtor.se/">Tor Rauden Källstigen</a>, <a href="http://pirjeta.blogspot.com/">Jacob Åström</a> and Jakob Ohlsson are aiming to produce fashion clothes, or more precisely Jeans, in North Korea. A very exciting project!

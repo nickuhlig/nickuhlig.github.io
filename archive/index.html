@@ -2,13 +2,12 @@
 layout: page
 title: Archive
 ---
-<img src="/res/archive.png" width="64" height="64" align="right" alt="archive">
-
+<h1>Archive</h1>
 <form action="http://www.google.com/cse" id="cse-search-box">
   <p>
     <input type="hidden" name="cx" value="006553118601910168903:-x3qflztwei" />
     <input type="hidden" name="ie" value="UTF-8" />
-    <input type="text" name="q" id="cse-search-field" placeholder="Search Rasmus' stuff" />
+    <input type="text" name="q" id="cse-search-field" placeholder="Search site:rsms.me with Google" />
     <!--input type="submit" name="sa" value="Search" id="cse-search-button" /-->
   </p>
 </form>
@@ -25,18 +24,17 @@ if (window.rsmsHostIsIOS) {
 search_field.addEventListener('blur', function (ev) {
   this.style.background = null;
 });
-
 </script>
 <style type="text/css">
 #cse-search-field {
   width: 70%;
   font-size: inherit;
   font-family: helvetica, sans-serif;
-  padding:0.5em 1em;
+  padding:0.5em 0.5em;
 }
 #cse-search-field {
-  border:2px solid #ddd;
-  border-radius: 90px;
+  border:1px solid #ddd;
+  border-radius: 3px;
 }
 #cse-search-field:focus {
   outline:none;
@@ -50,11 +48,10 @@ html.ios #cse-search-button {
   display: none;
 }
 </style>
-
-<ul>
+<ul class="minimal">
 {% for post in site.posts %}
   <li>
-    {{ post.date | date: "%b %d, %Y"  }} &mdash; <a href="{{ post.url }}">{{ post.title }}</a>
+    {{ post.date | date: "%b %d, %Y"  }} &mdash; <a href="{% if post.external_url %}{{ post.external_url }}{% else %}{{ post.url }}{% endif %}">{% if post.title != "" %}{{ post.title }}{% else %}{{ post.slug }}{% endif %}</a>
   </li>
 {% endfor %}
 </ul>

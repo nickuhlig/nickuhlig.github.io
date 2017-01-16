@@ -6,6 +6,7 @@ date: 2008-05-16 11:21:52 UTC
 title: Amazon Clips Widget
 redirect_from: ["/2008/05/16/amazon-clips-widget.html"]
 
+archived: yes
 ---
 
 Well, this was a disappointment for sure:

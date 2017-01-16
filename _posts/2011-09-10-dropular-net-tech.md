@@ -4,7 +4,6 @@ layout: post
 tags: dropular, programming
 fb_comments: 25
 redirect_from: ["/2011/09/10/dropular-net-tech.html"]
-
 ---
 
 <img src="//farm7.static.flickr.com/6191/6134324977_eca6c1f6e0_o.png" width="32" height="32" align="right">[One and a half years ago](http://rsms.me/2010/04/21/dropular-released.html) me and [Andreas](http://suprb.com/) released a new version of [dropular.net](http://dropular.net/) — a new kind of web app that runs completely in the browser. Today, this approach to designing web-based applications running client-side has become popular, so I thought I'd share some of the issues, approaches and design choices made during the development of Dropular.

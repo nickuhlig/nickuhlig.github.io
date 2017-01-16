@@ -6,6 +6,7 @@ date: 2008-12-02 17:07:51 UTC
 title: Peace & Love & Spotify
 redirect_from: ["/2008/12/02/peace-love-spotify.html"]
 
+archived: yes
 ---
 
 <a class="img" href="http://www.peaceandlove.nu/festival/nyheter/biljetterna_slappta/"><img src="/attachments/2008/12/peaceandlovespotify.png" alt="peaceandlovespotify" width="428" height="119" class="alignnone size-full wp-image-923" /></a>

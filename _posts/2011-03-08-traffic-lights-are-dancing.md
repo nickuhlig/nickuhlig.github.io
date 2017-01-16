@@ -5,6 +5,7 @@ tags: apple, ux
 fb_comments: 25
 redirect_from: ["/2011/03/08/traffic-lights-are-dancing.html"]
 
+archived: yes
 ---
 
 Recently Apple released the App Store for Macs (that is, a way to distribute and purchase applications in OS X). The App Store application has received a lot of criticism — both for it's initially buggy technical implementation but foremost for the non-standard and "off-Apple" style user interface.

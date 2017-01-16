@@ -6,6 +6,7 @@ date: 2009-10-24 12:10:44 UTC
 title: Improving the Spotify installation experience
 redirect_from: ["/2009/10/24/improving-spotify-installation-experience.html"]
 
+archived: yes
 ---
 
 At the time of writing this, we distribute [Spotify for Mac OS X](http://www.spotify.com/download/mac/) as a regular DMG (disk image). The user experience is not really what I would call smooth:

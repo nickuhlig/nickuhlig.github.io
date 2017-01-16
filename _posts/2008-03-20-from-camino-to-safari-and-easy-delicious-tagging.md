@@ -6,6 +6,7 @@ date: 2008-03-20 15:45:00 UTC
 title: From Camino to Safari and easy Del.icio.us tagging
 redirect_from: ["/2008/03/20/from-camino-to-safari-and-easy-delicious-tagging.html"]
 
+archived: yes
 ---
 
 I've been using Mozilla Camino for a long time, mostly due to my heavy keyword usage. I don't even have any bookmarks in the classic sense, only tags on del.icio.us (keyword <tt>t TAGS...</tt>) and frequently used sites as short keywords. (i.e. <tt>http://www.facebook.com/home.php</tt> becomes <tt>fb</tt>)

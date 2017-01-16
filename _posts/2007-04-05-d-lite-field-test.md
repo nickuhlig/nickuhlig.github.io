@@ -6,6 +6,7 @@ date: 2007-04-05 16:19:25 UTC
 title: D-Lite Field Test
 redirect_from: ["/2007/04/05/d-lite-field-test.html"]
 
+archived: yes
 ---
 
 <a href="http://www.flickr.com/photos/rsms/sets/72157600080233691/"><img src="https://farm1.static.flickr.com/222/445848740_7f18960d2e_b.jpg" alt="Photograph" /></a>

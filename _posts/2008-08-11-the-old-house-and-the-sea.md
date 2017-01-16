@@ -6,6 +6,7 @@ date: 2008-08-11 16:32:31 UTC
 title: The Old House and the Sea
 redirect_from: ["/2008/08/11/the-old-house-and-the-sea.html"]
 
+archived: yes
 ---
 
 <a href="http://www.nytimes.com/2008/08/07/garden/07clingstone.html"><img src="//graphics8.nytimes.com/images/2008/08/06/garden/24243141.JPG"></a>

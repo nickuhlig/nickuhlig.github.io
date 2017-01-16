@@ -3,6 +3,7 @@ layout: post
 title: Moved from Tumblr to Jekyll+GitHub  
 redirect_from: ["/2011/01/24/moved-from-tumblr.html"]
 
+archived: yes
 ---
 
 As many other people running their blogs on [Tumblr](http://www.tumblr.com/) I've become painfully aware of their failures to provide an acceptable service. Hours and sometimes days of downtime is unacceptable, even for a free service, when one of the most important parts of the service is availability.

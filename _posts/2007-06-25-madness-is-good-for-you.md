@@ -6,6 +6,7 @@ date: 2007-06-25 05:27:20 UTC
 title: Madness is Good For You
 redirect_from: ["/2007/06/25/madness-is-good-for-you.html"]
 
+archived: yes
 ---
 
 I LOVE this video.

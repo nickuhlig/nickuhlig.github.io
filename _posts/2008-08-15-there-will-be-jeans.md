@@ -6,6 +6,7 @@ date: 2008-08-15 08:41:04 UTC
 title: There Will Be Jeans
 redirect_from: ["/2008/08/15/there-will-be-jeans.html"]
 
+archived: yes
 ---
 
 <object width="500" height="405"><param name="movie" value="http://www.youtube.com/v/TAqs742WyEk&hl=en&fs=1&rel=0&color1=0x3a3a3a&color2=0x999999"></param><param name="allowFullScreen" value="true"></param><embed src="//www.youtube.com/v/TAqs742WyEk&hl=en&fs=1&rel=0&color1=0x3a3a3a&color2=0x999999" type="application/x-shockwave-flash" allowfullscreen="true" width="500" height="405"></embed></object>

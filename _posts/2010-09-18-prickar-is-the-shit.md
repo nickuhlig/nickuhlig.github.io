@@ -6,6 +6,7 @@ date: 2010-09-18 16:55:42 UTC
 title: Prickar is the shit
 redirect_from: ["/2010/09/18/prickar-is-the-shit.html"]
 
+archived: yes
 ---
 
 I'm going through old data backups, moving everything to a new location, and am finding a lot of long-lost goodies on my way. Like this polka dots pattern I created back in 2005 when I—for a short period of time—was kind of obsessed with tiny polka dots in slanting patterns. Yeah I know, weird.

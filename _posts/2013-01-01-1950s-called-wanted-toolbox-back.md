@@ -7,7 +7,6 @@ tags: programming
 category: languages
 comments: yes
 redirect_from: ["/2013/01/01/1950s-called-wanted-toolbox-back.html"]
-
 ---
 
 <img src="//farm9.staticflickr.com/8358/8336375923_9f0dca4da9_o.png" width="50%" align="right">Your favourite fancy-pants modern programming language is from the 1950s.

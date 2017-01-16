@@ -6,6 +6,7 @@ date: 2008-02-27 14:44:03 UTC
 title: Stuff for iPhone
 redirect_from: ["/2008/02/27/stuff-for-iphone.html"]
 
+archived: yes
 ---
 
 <a href="http://hunch.se/stuff/"><img src='/attachments/2008/02/dsc01357-s.jpg' alt='' align="right" class="right" /></a>I've added <tt>iphone</tt> to the list of output formats available from <a href="http://hunch.se/stuff/">Stuff</a>. Features progressive list loading and iPhone-ish look-and-feel.

@@ -6,6 +6,7 @@ date: 2008-09-12 15:06:18 UTC
 title: Så Godt Som Hjemme
 redirect_from: ["/2008/09/12/sa-godt-som-hjemme.html"]
 
+archived: yes
 ---
 
 <p><a href="javascript:/* Play video */;" title="Play video" onclick="this.parentNode.innerHTML='&lt;object type=&quot;application/x-shockwave-flash&quot; data=&quot;/attachments/2008/09/sasvideoplayer.swf&quot; width=&quot;500&quot; height=&quot;280&quot; id=&quot;mainflash&quot; style=&quot;visibility: visible; &quot;&gt;&lt;param name=&quot;flashvars&quot; value=&quot;width=500&amp;amp;height=280&amp;amp;file=/attachments/2008/09/sas-sa-godt-som-hjemme.flv&amp;amp;title=S&aring;%20Godt%20Som%20Hjemme%20(As%20Good%20As%20Home)&amp;amp;play=0&quot; /&gt;&lt;/object&gt;'"><img src="/attachments/2008/09/sas-sa-godt-som-hjemme.jpg" alt="sas-sa-godt-som-hjemme" title="" width="500" height="210" class="size-full wp-image-744" /></a></p>

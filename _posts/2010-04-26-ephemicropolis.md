@@ -7,6 +7,7 @@ title: Ephemicropolis
 description: "Ephemicropolis by Peter Root"
 redirect_from: ["/2010/04/26/ephemicropolis.html"]
 
+archived: yes
 ---
 
 [<img src="//farm4.static.flickr.com/3509/4556133606_fd1d4d987c_o.jpg" width="920">](http://www.peterroot.com/index.php?/projects/ephemicropolis/)

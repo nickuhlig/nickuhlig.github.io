@@ -6,6 +6,7 @@ date: 2007-09-06 09:01:40 UTC
 title: Alternative to RAW development – Capture One 4
 redirect_from: ["/2007/09/06/a-new-alternative-to-raw-photography-capture-one-4.html"]
 
+archived: yes
 ---
 
 Today, <a href="http://www.phaseone.com/">Phase One</a> released a beta of their new photo manager and RAW developer application <em><a href="http://www.phaseone.com/4/">Capture One</a></em>.

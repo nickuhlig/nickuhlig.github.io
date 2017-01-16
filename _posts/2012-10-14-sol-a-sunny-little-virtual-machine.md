@@ -7,7 +7,6 @@ tags: programming
 category: languages
 comments: yes
 redirect_from: ["/2012/10/14/sol-a-sunny-little-virtual-machine.html"]
-
 ---
 
 During this weekend, together with a few evenings earlier this week, I created a rather simple [virtual machine](http://en.wikipedia.org/wiki/Virtual_machine) dubbed ["Sol"](https://github.com/rsms/sol), after the Swedish word for "sun". I've read a lot about VM design and I'm into stuff like OS design, programming languages and other seeminlgy obscure and nerdy stuff surrounding the concept of a computer as a generic tool.
@@ -50,18 +49,22 @@ The ***program counter*** is simply a number that corresponds to an offset into 
 
 The ***registry*** is essentially a region of temporary memory that the executing program can use to store variable data. Imagine this simple function:
 
-    def foo(x, y):
-      x = x * 5
-      x = x * y
-      return x
+```py
+def foo(x, y):
+  x = x * 5
+  x = x * y
+  return x
+```
 
 Here the program needs a way to store the value created by `x * 5` that it can then pass to `x * y` which also needs to store its resulting value somewhere before using it with `return`. All local variables are stored in registers and thus access is very efficient. Something like this happens when executing the "foo" function ("R(x)" means "register x"):
 
-    argument 0 and 1 are already in R(0) and R(1)
-    load constant "5" into R(2)
-    multiply value-of R(0) with value-of R(2), put the result in R(0)
-    multiply value-of R(0) with value-of R(1), put the result in R(0)
-    return R(0)
+```txt
+argument 0 and 1 are already in R(0) and R(1)
+load constant "5" into R(2)
+multiply value-of R(0) with value-of R(2), put the result in R(0)
+multiply value-of R(0) with value-of R(1), put the result in R(0)
+return R(0)
+```
 
 Sol is a register-based virtual machine. Operands and results are read and stored from and to numbered registers, rather than "pushed" and "popped" to and from a stack (as with *stack-based virtual machines*). Register-based virtual machines avoid the push and pop operations usually surrounding other instructions, reducing code size, but in several cases also increases speed of execution (compared to stack-based virtual machines).
 
@@ -217,11 +220,13 @@ Most systems that communicate with its environment and abroad, like a web server
 
 What Sol provides is essentially [coroutines](http://en.wikipedia.org/wiki/Coroutine) for concurrency. A nice feature with coroutines (aka "green threads" aka "user threads") is their ability to run sequential code in a concurrent system. A task like this:
 
-    def read_file(name):
-      f = open(name)
-      data = read(f)
-      close(f)
-      return data
+```py
+def read_file(name):
+  f = open(name)
+  data = read(f)
+  close(f)
+  return data
+```
 
 Involves three "blocking" calls to the environment which causes the task to yield:
 
@@ -253,10 +258,12 @@ Comparing the above synchronous program to an asynchronous version:
 
 Clearly harder to follow. A task in Sol can spawn new tasks in order to perform several things at the same time, like writing a file while replying over the network.
 
-    def write_and_reply(destination_id, message):
-      writer = write_file(destination_id + ".msg", message)
-      send_message(destination_id, message)
-      while (recv(writer) != TaskEnd) noop  # wait for write_file to end
+```py
+def write_and_reply(destination_id, message):
+  writer = write_file(destination_id + ".msg", message)
+  send_message(destination_id, message)
+  while (recv(writer) != TaskEnd) noop  # wait for write_file to end
+```
 
 However, as the [Wikipedia section on cooperative multitasking](http://en.wikipedia.org/wiki/Computer_multitasking#Cooperative_multitasking.2Ftime-sharing) mentions...
 
@@ -294,7 +301,7 @@ def main():
 
 Assembly:
 
-```asm
+```
 define main 0
   CONST 5           # K(0) = 5
   CONST 0           # K(1) = 0
@@ -311,7 +318,7 @@ define main 0
 
 Output when running in debug mode:
 
-```
+```txt
 $ build/debug/bin/sol
 Sol 0.1.0 x64
 [vm] ______________ ______________ __________ _______ ____ ______________
@@ -347,7 +354,7 @@ finally returns, causing the task to exit and subsequently the scheduler and the
 
 Assembly:
 
-```asm
+```
 define kitten 1     # Arguments: (R(0)=sleep_ms)
   CONST  123        # K(0) = 123
   entry:
@@ -368,7 +375,7 @@ define main 0       # Arguments: ()
 
 Output when running in debug mode:
 
-```
+```txt
 $ time build/debug/bin/sol
 Sol 0.1.0 x64
 [vm] ______________ ______________ __________ _______ ____ ______________
@@ -400,7 +407,7 @@ sys   0m0.001s
 
 Here we run three tasks, each running the program in *Example 1*:
 
-```
+```txt
 $ build/debug/bin/sol
 Sol 0.1.0 x64
 [sched 0x7fc219403930] run queue:

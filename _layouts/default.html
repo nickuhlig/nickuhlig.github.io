@@ -4,19 +4,15 @@
     <meta charset="utf-8">
     <title>{% if page.title %}{{ page.title }} &mdash; {% endif %}Rasmus Andersson</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    {% if page.title != "Archive (sidebar)" %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    {% endif %}
-    <!-- <link href='//fonts.googleapis.com/css?family=Poly:400' rel='stylesheet' type='text/css'> -->
-    <link href='//fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:300,400' rel='stylesheet' type='text/css'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <link rel="stylesheet" media="all" href="/res/screen.css" type="text/css">
     <link rel="alternate" type="application/atom+xml" title="Rasmus Andersson" href="/atom.xml">
     <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" href="/res/apple-touch-icon-57x57-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/res/apple-touch-icon-{% if page.ios_app_name %}{{page.ios_app_name}}-{% endif %}72x72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/res/apple-touch-icon-114x114-precomposed.png">
+    <link rel="icon" type="image/svg+xml" sizes="any" href="/res/icon/icon.svg">
+    <link rel="apple-touch-icon" href="/res/icon/icon-256.png">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@rsms">
     {% if page.ios_app_name %}
@@ -35,7 +31,7 @@
       <meta name="og:description" content="{{ content | strip_html | truncatewords: 25 }}">
       {% endif %}
     {% else %}
-      <meta name="description" content="Ramblings by Rasmus Andersson -- a Swedish designer with a passion for technology">
+      <meta name="description" content="Ramblings by Rasmus Andersson">
     {% endif %}
     {% if page.og_image_url %}
     <meta property="og:image" content="{{ page.og_image_url }}">
@@ -54,43 +50,22 @@
     <script>window.initFuncs = [];</script>
   </head>
   <body{% if page.wide_layout %} class="wide"{% endif %}>
-    <header>
-      <h1 class="logo" onclick="document.location.href='/';"><a href="/"><img src="/res/signature-2-2.png" width="160" height="50" alt="Signature"></a></h1>
+    <header{% unless page.date %} class="main"{% endunless %}>
+      <h1 class="logo"><a href="/"><img src="/res/icon/icon.svg" width="32" height="32"></a></h1>
       <ul class="navigation">
         <li><a href="//rsms.tumblr.com/" title="A selection of recent photography">Photography</a></li>
         <li><a href="/projects/"{% if page.url contains "/projects/" %}class="active"{% endif %} title="Projects I am or was involved in">Projects</a></li>
-        <li><a href="/archive/"{% if page.url contains "/archive/" %}class="active"{% endif %} title="Archived articles">Archive</a></li>
+        <!-- <li><a href="/archive/"{% if page.url contains "/archive/" %}class="active"{% endif %} title="Archived articles">Archive</a></li> -->
         <li><a href="/about/"{% if page.url contains "/about/" %}class="active"{% endif %}>About me</a></li>
       </ul>
     </header>
-    <!--div class="wrapper content"-->
-      {{ content }}
-    <!--/div-->
-    
-    {% if page.fb_comments or page.comments %}
-    <!--div class="content sub">
-      <h2 id="comments">Comments</h2>
-      <div class="fb-comments" data-href="//rsms.me{{ page.url }}" data-num-posts="{{ page.fb_comments }}" data-width="550" data-font="arial"></div>
-    </div-->
-    {% endif %}
-    
-    {% if paginator.page %}
-    <div id="paginator" class="content">
-      {% if paginator.next_page %}
-      <a href="/page{{ paginator.next_page }}/">Older entries</a>
-      {% endif %}
-      {% if paginator.previous_page %}
-      <a href="/page{{ paginator.previous_page }}/">Newer entries</a>
-      {% endif %}
-    </div>
-    {% endif %}
-    
+
+    {{ content }}
+
     {% unless page.no_footer %}
     <footer>
       <p>
-        <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US" class="cc"><img src="/res/cc-cc.png" class="cc">
-        <img src="/res/cc-by.png" class="cc"></a>
-        This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons License</a>
+        This content is licensed under <a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed">CC BY 3.0</a>
       </p>
     </footer>
     {% endunless %}

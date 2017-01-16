@@ -6,6 +6,7 @@ date: 2008-06-09 12:43:48 UTC
 title: Nude Remix by James Houston
 redirect_from: ["/2008/06/09/nude-remix-by-james-houston.html"]
 
+archived: yes
 ---
 
 <object width="500" height="281">

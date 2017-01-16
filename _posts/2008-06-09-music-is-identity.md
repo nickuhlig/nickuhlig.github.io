@@ -6,6 +6,7 @@ date: 2008-06-09 08:11:29 UTC
 title: Music is Identity
 redirect_from: ["/2008/06/09/music-is-identity.html"]
 
+archived: yes
 ---
 
 <img src="/attachments/2008/06/silhouette-person.png" alt="Silhouette of a person" title="" width="200" height="167" class="alignright size-full wp-image-499" />Music has always been a way for people to communicate and create an identity. From the traditional and world music of tribes and alike to the modern multitude of genres and subgenres, many closely associated with social groups.

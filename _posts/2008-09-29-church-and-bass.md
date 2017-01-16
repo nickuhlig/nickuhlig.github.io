@@ -6,6 +6,7 @@ date: 2008-09-29 17:24:10 UTC
 title: Church and Bass
 redirect_from: ["/2008/09/29/church-and-bass.html"]
 
+archived: yes
 ---
 
 I think this is hilarious.

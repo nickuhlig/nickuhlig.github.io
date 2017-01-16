@@ -6,6 +6,7 @@ date: 2008-08-05 08:44:11 UTC
 title: Britain visualized from above
 redirect_from: ["/2008/08/05/britain-visualized-from-above.html"]
 
+archived: yes
 ---
 
 <object id="bbc_emp_fmtj_embed_obj" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" height="315" width="500"> 

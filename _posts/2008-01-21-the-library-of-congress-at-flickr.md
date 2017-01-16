@@ -6,6 +6,7 @@ date: 2008-01-21 15:49:12 UTC
 title: The Library of Congress at Flickr
 redirect_from: ["/2008/01/21/the-library-of-congress-at-flickr.html"]
 
+archived: yes
 ---
 
 <a href="http://flickr.com/photos/library_of_congress/2179931268/"><img src="//farm3.static.flickr.com/2073/2179931268_25d04dc51f_t.jpg" style="margin-left: 10px; margin-bottom: 10px" align="right" height="70" width="100" /></a>The United States Library of Congress has partnered with the immensely popular flickr photo sharing site. The goal is to increase the profile of their archive of over 14 million prints, photos and other visual materials (and to demonstrate that government collections can be surprisingly cool).

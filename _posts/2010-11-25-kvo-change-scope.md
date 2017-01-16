@@ -6,6 +6,7 @@ date: 2010-11-25 01:48:00 UTC
 title: A more convenient approach to manual KVO notifications
 redirect_from: ["/2010/11/25/kvo-change-scope.html"]
 
+archived: yes
 ---
 
 [Key-Value Observing (KVO)](http://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/KeyValueObserving/KeyValueObserving.html) in Cocoa programming is for the most part a dance on roses -- less code, less confusion, higher portability and ultimately converts your code into othogonal "modules" of awesomeness.

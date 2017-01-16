@@ -5,6 +5,7 @@ date: 2007-05-15 22:06:23 UTC
 title: Thank you and good bye, JPG Magazine
 redirect_from: ["/2007/05/15/thank-you-and-good-bye-jpg-magazine.html"]
 
+archived: yes
 ---
 
 <img src='/attachments/2007/05/jpgmag.png' style="float:right;margin-left:10px;margin-bottom:10px;" />I just read Derek Powazeks <a href="http://powazek.com/posts/534">story on what is happening</a> to <a href="http://jpgmag.com/">JPG Magazine</a>, the (until now) fantastic digital photography magazine. It's a sad story, and you should take your time and <a href="http://powazek.com/posts/534">read it.</a>

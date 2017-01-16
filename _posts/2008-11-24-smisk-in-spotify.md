@@ -6,6 +6,7 @@ date: 2008-11-24 00:51:27 UTC
 title: Smisk in Spotify
 redirect_from: ["/2008/11/24/smisk-in-spotify.html"]
 
+archived: yes
 ---
 
 <a href="http://python-smisk.org/"><img src="/attachments/2008/11/smisk.png" alt="Smisk" width="500" height="317" class="alignnone size-full wp-image-915" /></a>

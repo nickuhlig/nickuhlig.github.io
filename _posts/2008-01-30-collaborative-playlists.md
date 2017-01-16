@@ -6,6 +6,7 @@ date: 2008-01-30 14:54:45 UTC
 title: Collaborative Playlists
 redirect_from: ["/2008/01/30/collaborative-playlists.html"]
 
+archived: yes
 ---
 
 <img src="//img.skitch.com/20080130-kx4pcnj43dt85fmrcdf65x7huu.png" style="margin-left: 1em; margin-bottom: 1em" align="right" />We released a feature called Collaborative Playlists yesterday, which basically is a playlist who anyone subscribing to it can modify.

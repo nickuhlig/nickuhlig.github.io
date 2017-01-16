@@ -6,6 +6,7 @@ date: 2009-09-15 13:56:27 UTC
 title: Spotify Green
 redirect_from: ["/2009/09/15/spotify-green-pantone-c-u-376-ce-53-cyan.html"]
 
+archived: yes
 ---
 
 ![](//farm6.static.flickr.com/5130/5383262568_fcf94e9acb_o.png)

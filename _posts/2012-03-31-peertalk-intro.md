@@ -6,7 +6,6 @@ fb_comments: 25
 og_image_url: http://rsms.me/peertalk/etc/peertalk-icon.png
 description: A small iOS and OS X Cocoa library for communicating over USB and TCP
 redirect_from: ["/2012/03/31/peertalk.html"]
-
 ---
 
 [PeerTalk](http://rsms.me/peertalk/) is a small iOS and OS X Cocoa library for communicating over USB and TCP.

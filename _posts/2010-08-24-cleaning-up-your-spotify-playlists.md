@@ -6,6 +6,7 @@ date: 2010-08-24 12:45:00 UTC
 title: Cleaning up your Spotify playlists
 redirect_from: ["/2010/08/24/cleaning-up-your-spotify-playlists.html"]
 
+archived: yes
 ---
 
 With the [release of playlist groups in Spotify](https://www.spotify.com/uk/blog/archives/2010/08/24/playlist-folders/) you are now able to clean up that messy sidebar. Here's a little trick I like myself, using the magic "-" playlist separators to add "dynamic" group dividers.

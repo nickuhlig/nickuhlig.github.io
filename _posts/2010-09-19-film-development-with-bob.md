@@ -8,6 +8,7 @@ description: "Instructional comic on b/w film development I drew back in 2000. F
 photo_url: //farm5.static.flickr.com/4109/5005392376_b47cc552b4_z.jpg
 redirect_from: ["/2010/09/19/film-development-with-bob.html"]
 
+archived: yes
 ---
 
 ![Film development with Bob](//farm5.static.flickr.com/4109/5005392376_b47cc552b4_z.jpg)

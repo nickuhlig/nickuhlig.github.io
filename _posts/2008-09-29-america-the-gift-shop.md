@@ -6,6 +6,7 @@ date: 2008-09-29 17:36:09 UTC
 title: America the Gift Shop
 redirect_from: ["/2008/09/29/america-the-gift-shop.html"]
 
+archived: yes
 ---
 
 <a href="http://www.americathegiftshop.com/#/6"><img src="/attachments/2008/09/america-the-gift-shop-i-love-tshirt.jpg" alt="" title="america-the-gift-shop-i-love-tshirt" width="500" height="428" class="alignnone size-full wp-image-783" /><a/>

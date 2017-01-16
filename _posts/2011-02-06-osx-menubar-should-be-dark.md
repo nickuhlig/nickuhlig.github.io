@@ -3,6 +3,7 @@ layout: post
 title: Why the OS X Menubar should be dark and not bright  
 redirect_from: ["/2011/02/06/osx-menubar-should-be-dark.html"]
 
+archived: yes
 ---
 
 The OS X Menubar is that light-grey thing stuck to the upper edge of the screen. It's stationary (with the exception for "fullscreen" modes) and thus is always visible. The Menubar is one of the core concepts of OS X's UX which I really appreciate and which makes it hard to use OS'es which have one menu bar for each window.

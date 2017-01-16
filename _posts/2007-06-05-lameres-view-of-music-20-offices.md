@@ -6,6 +6,7 @@ date: 2007-06-05 11:36:10 UTC
 title: Lameres' view of Music 2.0 Offices
 redirect_from: ["/2007/06/05/lameres-view-of-music-20-offices.html"]
 
+archived: yes
 ---
 
 <a href="http://www.flickr.com/photos/rsms/484869436/"><img src="https://farm1.static.flickr.com/210/484869436_90af33af55.jpg" alt="Picture of the Spotify Office" class="alignnone" /></a>

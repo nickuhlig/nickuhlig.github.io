@@ -6,6 +6,7 @@ date: 2008-08-14 16:10:13 UTC
 title: eBoy on future Arla milk dispensers
 redirect_from: ["/2008/08/14/eboy-on-future-arla-milk-dispensers.html"]
 
+archived: yes
 ---
 
 <a href="http://hello.eboy.com/eboy/2008/06/30/kht_arla_06spng/"><img src="/attachments/2008/08/kht-arla-06s-3-cropped.png" alt="kht-arla-06s-3-cropped" width="476" height="261" class="alignnone size-full wp-image-610" /></a>

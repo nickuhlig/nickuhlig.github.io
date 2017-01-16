@@ -6,6 +6,7 @@ date: 2008-12-03 16:46:56 UTC
 title: Typographical interpretation of Max Ernst
 redirect_from: ["/2008/12/03/typographical-interpretation-of-max-ernst.html"]
 
+archived: yes
 ---
 
 <a href="http://www.resume.se/nyheter/2008/12/03/han-gjorde-basta-snittet/"><img src="/attachments/2008/12/martin-nicolausson-max-ernst-price.jpg" alt="martin-nicolausson-max-ernst-price" width="500" height="257" class="alignnone size-full wp-image-974" /></a>

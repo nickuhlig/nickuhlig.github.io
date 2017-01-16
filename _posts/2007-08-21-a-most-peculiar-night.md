@@ -6,6 +6,7 @@ date: 2007-08-21 20:24:53 UTC
 title: A Most Peculiar Night
 redirect_from: ["/2007/08/21/a-most-peculiar-night.html"]
 
+archived: yes
 ---
 
 <small>Theme song: <a href="spotify:track:5dSFtKVJvmaXiHtztUzDgU">La Niña de Puerta Oscura</a></small>

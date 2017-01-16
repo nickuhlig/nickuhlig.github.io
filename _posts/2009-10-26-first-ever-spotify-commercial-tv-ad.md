@@ -6,6 +6,7 @@ date: 2009-10-26 13:04:11 UTC
 title: First ever Spotify commercial TV ad
 redirect_from: ["/2009/10/26/first-ever-spotify-commercial-tv-ad.html"]
 
+archived: yes
 ---
 
 Our/Spotify's first ever commercial television advert premieres today on [Kanal 5](http://kanal5.se/) in Sweden.

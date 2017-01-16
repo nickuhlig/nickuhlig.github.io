@@ -6,6 +6,7 @@ date: 2009-09-21 20:59:00 UTC
 title: Aircraft identification cards
 redirect_from: ["/2009/09/21/aircraft-identification-cards.html"]
 
+archived: yes
 ---
 
 Got this book from a friend as a spontaneous gift. She found it in an old bookstore at Birgerjarlsgatan in Stockholm.

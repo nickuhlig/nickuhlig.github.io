@@ -5,7 +5,6 @@ tags: facebook
 fb_comments: 25
 photo_url: //farm3.static.flickr.com/2111/5821627543_0d25a9079d_z.jpg
 redirect_from: ["/2011/06/15/three-months-at-facebook.html"]
-
 ---
 
 I've now been at [Facebook](http://www.facebook.com/design) in Palo Alto, California for almost three months. And I love it.

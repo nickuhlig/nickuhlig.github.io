@@ -6,6 +6,7 @@ date: 2009-10-12 00:11:46 UTC
 title: Manage posts in Gitblog web admin UI
 redirect_from: ["/2009/10/12/post-manager-in-gitblog.html"]
 
+archived: yes
 ---
 
 The latest version of Gitblog got a new posts manager, which has been inspired by the inbox of Google Mail.

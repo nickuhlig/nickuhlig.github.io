@@ -7,6 +7,7 @@ title: A quick review of John's Phone
 description: "One thing I really quite like about this phone is the looks of it. I mean, who wouldn’t want a phone that uses the classic The Bomb for the “end call” button?!"
 redirect_from: ["/2010/12/17/a-quick-review-of-johns-phone.html"]
 
+archived: yes
 ---
 
 ![Picture of John's Phone with accessories](//farm6.static.flickr.com/5001/5268844082_388e53b758_z.jpg)

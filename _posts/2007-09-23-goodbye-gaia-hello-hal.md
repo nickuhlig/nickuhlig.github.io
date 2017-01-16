@@ -6,6 +6,7 @@ date: 2007-09-23 22:25:20 UTC
 title: Goodbye Gaia, hello HAL
 redirect_from: ["/2007/09/23/goodbye-gaia-hello-hal.html"]
 
+archived: yes
 ---
 
 <img src="/attachments/2007/09/apache2-scary-errors.png" style="margin: 0pt 0pt 10px 10px; float: right" />Today our old server, <em>Gaia</em>, begun to crash in havoc. HTTP/S is out and the file system is trash beyond repair. It's been on it's way down for quite some time now and we have luckily invested in a replacement machine, which we have given the extremely cool name <em>HAL</em>.

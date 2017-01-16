@@ -6,6 +6,7 @@ date: 2009-01-08 14:40:00 UTC
 title: Book cover archive
 redirect_from: ["/2009/01/08/book-cover-archive.html"]
 
+archived: yes
 ---
 
 <a href="http://bookcoverarchive.com/"><img src="//farm5.static.flickr.com/4109/4993127266_4680925271_o.jpg" alt="bookcoverarchive.com" /></a>

@@ -6,6 +6,7 @@ date: 2008-09-15 10:59:07 UTC
 title: Fred Wilsons Web 2.0 NYC Slides
 redirect_from: ["/2008/09/15/fred-wilsons-web-20-nyc-slides.html"]
 
+archived: yes
 ---
 
 <a href="http://flickr.com/photos/gyroxide/sets/72157607162224672/show/"><img src="//farm4.static.flickr.com/3247/2836442063_af17a66a09.jpg" width="500" height="375" alt="First slide" /></a>

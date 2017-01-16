@@ -6,6 +6,7 @@ date: 2008-02-12 13:55:17 UTC
 title: Apple Announces Aperture 2
 redirect_from: ["/2008/02/12/apple-announces-aperture-2.html"]
 
+archived: yes
 ---
 
 <img src="/attachments/2008/02/contentfooter_aperture20080206.png" alt="" style="float:right;margin-left:10px;margin-bottom:10px;" />Finally!

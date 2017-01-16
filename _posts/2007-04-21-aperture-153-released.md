@@ -6,6 +6,7 @@ date: 2007-04-21 12:43:18 UTC
 title: Aperture 1.5.3 Released
 redirect_from: ["/2007/04/21/aperture-153-released.html"]
 
+archived: yes
 ---
 
 <img src="/attachments/2007/04/aperture.png" alt="" style="float:right;margin-left:10px;margin-bottom:10px;" />My favourite photo tool <a href="http://www.apple.com/aperture/">Apple Aperture</a> has been updated.

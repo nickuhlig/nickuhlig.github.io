@@ -5,7 +5,6 @@ tags: spotify, ux
 fb_comments: 25
 published: 2011-03-24 18:00:00 CET
 redirect_from: ["/2011/03/24/jordi-parras-spotify-box.html"]
-
 ---
 
 Fellow designer [Jordi Parra](http://zenona.com/) recently finished his masters degree project ["Spotify box"](http://blog.zenona.com/) — a beautiful little radio-like device which plays music through the [Spotify](http://spotify.com/) platform. What's really neat about Jordi's Spotify box—except from its gorgeous design—is that it brings back the physical interaction with music as an object, but adjusted to the 21st century. A playable item is represented by a small token, conveying a link by wireless RFID technology.

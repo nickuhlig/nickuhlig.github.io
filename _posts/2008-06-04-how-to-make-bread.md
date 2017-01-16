@@ -6,6 +6,7 @@ date: 2008-06-04 19:43:10 UTC
 title: How to make bread
 redirect_from: ["/2008/06/04/how-to-make-bread.html"]
 
+archived: yes
 ---
 
 <object width="500" height="418"><param name="movie" value="http://www.youtube.com/v/bHK0uFb6Vzw&fmt=18"></param><param name="wmode" value="transparent"></param><embed src="//www.youtube.com/v/bHK0uFb6Vzw&fmt=18" type="application/x-shockwave-flash" wmode="transparent" width="500" height="418"></embed></object>

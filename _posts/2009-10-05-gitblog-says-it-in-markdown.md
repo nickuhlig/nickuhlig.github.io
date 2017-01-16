@@ -6,6 +6,7 @@ date: 2009-10-05 07:24:16 UTC
 title: Gitblog says it in Markdown
 redirect_from: ["/2009/10/05/gitblog-says-it-in-markdown.html"]
 
+archived: yes
 ---
 
 Yesterday [Markdown](http://daringfireball.net/projects/markdown/) support was introduced in a new version of [Gitblog](http://gitblog.se/). [Markdown](http://daringfireball.net/projects/markdown/) is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format.

@@ -6,7 +6,6 @@ category: hue
 description: "The “Hello World” of functional programming, result type inference, and multiple implementations in Hue"
 comments: yes
 redirect_from: ["/2012/05/29/hue-factorial-fib.html"]
-
 ---
 
 As I slowly make progress on my little functional programming language [Hue](https://github.com/rsms/hue), I'd just wanted to share the "Hello World" of functional programming — `factorial` and `fib`.

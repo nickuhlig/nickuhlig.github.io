@@ -6,6 +6,7 @@ date: 2009-10-07 21:59:00 UTC
 title: Happy birthday, Spotify.app!
 redirect_from: ["/2009/10/07/happy-birthday-spotify-app.html"]
 
+archived: yes
 ---
 
 Today (Oct 7th, 2009) was the 1 year anniversary of the [Spotify](http://www.spotify.com/) desktop client. We celebrated with cake, of course.

@@ -6,6 +6,7 @@ date: 2009-09-16 15:42:00 UTC
 title: Robert Highsmith's Workstead table
 redirect_from: ["/2009/09/16/designer-robert-andrew-highsmiths-new-workstead.html"]
 
+archived: yes
 ---
 
 [![](//farm6.static.flickr.com/5090/5383267626_d2cc6ae3ac_z.jpg)](http://www.designspongeonline.com/2009/09/workstead.html)

@@ -4,7 +4,6 @@ layout: post
 tags: move, programming
 fb_comments: 25
 redirect_from: ["/2011/07/30/an-update-on-move.html"]
-
 ---
 
 A [few months back](http://rsms.me/2011/03/02/move-programming-language.html) I wrote a programming language called [Move](https://github.com/rsms/move). Before the advent of Move, JavaScript (on Node.js) was my universal language of choice. Two years earlier it was Python. During the last four months I have basically been exclusive with Move -- quick hacks, data mangling scripts, network services, websites, iphone apps... you name it. What initially was a fun week of language research and interviews with people, turned into a very usable programming language and library.

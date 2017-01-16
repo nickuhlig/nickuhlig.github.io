@@ -6,6 +6,7 @@ date: 2009-10-01 23:06:00 UTC
 title: Comet/HTTP push with nginx
 redirect_from: ["/2009/10/01/comethttp-push-with-nginx.html"]
 
+archived: yes
 ---
 
 One of the most cumbersome problems of implementing some kind of HTTP push a.k.a. <a href="http://en.wikipedia.org/wiki/Comet_(programming)">Comet</a> functionality is that the client (website) need to be served from the same host and on the same port as the actual push (long-polling or multipart response) mechanism. Now, as we need to maintain a high number of concurrent client connections we can <em>not</em> use traditional server-side applications like PHP or Ruby on Rails. Using PHP for instance would require one PHP process per client connection -- the main memory would quickly become saturated and we'll most likely hit some scary limit of fds and processes the kernel handles without being a sad little kernel.

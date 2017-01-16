@@ -7,6 +7,7 @@ title: New Dropular released
 photo_url: //farm3.static.flickr.com/2786/4539649287_5ea6ac927a_o.png
 redirect_from: ["/2010/04/21/dropular-released.html"]
 
+archived: yes
 ---
 
 <img src="//farm3.static.flickr.com/2786/4539649287_5ea6ac927a_o.png">

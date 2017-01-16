@@ -6,6 +6,7 @@ date: 2010-11-30 20:11:49 UTC
 title: Natural document grouping with Levenstein distance
 redirect_from: ["/2010/11/30/natural-document-grouping-with-levenstein-distance.html"]
 
+archived: yes
 ---
 
 When you edit many files where there are natural pairs (for instance, interface + implementation pairs when dealing with C source code) I tend to get lost in the maze of open documents and often end up doing a project-wide search or similar to find my way between the messy graph.

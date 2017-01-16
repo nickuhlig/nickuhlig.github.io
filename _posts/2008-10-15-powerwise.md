@@ -6,6 +6,7 @@ date: 2008-10-15 15:17:40 UTC
 title: Powerwise
 redirect_from: ["/2008/10/15/powerwise.html"]
 
+archived: yes
 ---
 
 <a href="http://www.lifeiscarbon.com/weblog/2008/10/smart-swedish-d.html"><img src="/attachments/2008/10/powerwise.jpg" alt="powerwise" title="" width="500" height="324" class="alignnone size-full wp-image-842" /></a>

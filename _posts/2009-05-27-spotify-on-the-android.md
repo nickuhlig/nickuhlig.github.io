@@ -6,6 +6,7 @@ date: 2009-05-27 14:59:00 UTC
 title: Spotify on the Android
 redirect_from: ["/2009/05/27/spotify-on-the-android.html"]
 
+archived: yes
 ---
 
 <object width="500" height="306"><param name="movie" value="http://www.youtube-nocookie.com/v/7ALGPknOsiU&hl=en&fs=1&rel=0&hd=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube-nocookie.com/v/7ALGPknOsiU&hl=en&fs=1&rel=0&hd=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="500" height="306"></embed></object>

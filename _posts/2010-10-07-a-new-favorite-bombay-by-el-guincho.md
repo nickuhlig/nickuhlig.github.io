@@ -7,6 +7,7 @@ title: "A new favorite: Bombay by El Guincho"
 description: "Found this song/video on Vimeo a while back and was reminded by it’s brilliance last Tuesday while listening through Mattias recommends. You can find this track on the album Pop Negro."
 redirect_from: ["/2010/10/07/a-new-favorite-bombay-by-el-guincho.html"]
 
+archived: yes
 ---
 
 <iframe src="//player.vimeo.com/video/15247292?byline=0&amp;portrait=0&amp;color=ffffff" width="640" height="480" frameborder="0"></iframe>

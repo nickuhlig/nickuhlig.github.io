@@ -6,6 +6,7 @@ date: 2008-05-04 20:21:00 UTC
 title: Extending Xcode
 redirect_from: ["/2008/05/04/extending-xcode.html"]
 
+archived: yes
 ---
 
 A lot of software enables the user to extend it in order to enhance productivity and customize her work environment. An excellent example of this kind of software is <a href="http://macromates.com/">TextMate</a>. But I'm not going to talk about TextMate today, but instead another very popular development tool for the Mac OS – Apple Xcode.

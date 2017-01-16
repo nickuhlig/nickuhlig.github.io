@@ -6,6 +6,7 @@ date: 2007-06-26 21:36:58 UTC
 title: Spotify has moved
 redirect_from: ["/2007/06/26/spotify-has-moved.html"]
 
+archived: yes
 ---
 
 <a href="http://www.flickr.com/photos/rsms/633639759"><img src="https://farm2.static.flickr.com/1195/633639759_425f9823f9_m.jpg" alt="Commotion" class="alignright" /></a>Aaaaah! I'm sooo releaved, happy and tired right now. We finally made the move from Riddargatan to Humlegårdsgatan. After sitting with blueprints, layout charts, placing maps and furniture lists for almost 4 months, I'm really glad everything worked out well. Spotify now has a brand new, luxury, 800 sqm office with space to grow in. This marks the real serious beginning of Spotify.

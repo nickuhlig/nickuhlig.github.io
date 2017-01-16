@@ -5,6 +5,7 @@ tags: ec2
 fb_comments: 25
 redirect_from: ["/2011/03/23/ec2-wep-app-template.html"]
 
+archived: yes
 ---
 
 Quick web hacks are great fun — getting an idea, realizing it and publishing it during a day or three. What usually sucks the fun out of these things—when building websites—is the whole "server setup" dance. You need to fix access to a server, install an operating system, registering a domain name, configure software, etc.

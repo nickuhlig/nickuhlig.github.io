@@ -6,6 +6,7 @@ date: 2008-12-15 09:18:34 UTC
 title: An ode to Coffee
 redirect_from: ["/2008/12/15/an-ode-to-coffee.html"]
 
+archived: yes
 ---
 
 <a href="http://niemann.blogs.nytimes.com/2008/12/02/coffee/"><img src="/attachments/2008/12/niemann-coffee.jpg" alt="niemann-coffee" /></a>

@@ -6,6 +6,7 @@ date: 2008-10-15 13:03:25 UTC
 title: Sean Freeman
 redirect_from: ["/2008/10/15/sean-freeman.html"]
 
+archived: yes
 ---
 
 <a href="http://www.thereis.co.uk/"><img src="/attachments/2008/10/sean-freeman.png" alt="sean-freeman" title="" width="500" height="500" class="alignnone size-full wp-image-837" /></a>

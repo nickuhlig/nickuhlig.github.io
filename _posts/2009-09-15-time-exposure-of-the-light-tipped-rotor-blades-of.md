@@ -7,6 +7,7 @@ title: Time exposure of light tipped rotor blades
 
 redirect_from: ["/2009/09/15/time-exposure-of-the-light-tipped-rotor-blades-of.html"]
 
+archived: yes
 ---
 
 ![Photo](//farm6.static.flickr.com/5124/5382661473_8e39417bc3_o.jpg)

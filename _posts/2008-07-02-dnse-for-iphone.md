@@ -6,6 +6,7 @@ date: 2008-07-02 20:32:04 UTC
 title: DN.se for iPhone
 redirect_from: ["/2008/07/02/dnse-for-iphone.html"]
 
+archived: yes
 ---
 
 <a href='/attachments/2008/07/dnse-iphone-start.png'><img src="/attachments/2008/07/dnse-iphone-start-161x300.png" alt="Screenshot of mobil.dn.se" width="161" height="300" class="alignnone size-medium wp-image-509" /></a><a href='/attachments/2008/07/dnse-iphone-kultur.png'><img src="/attachments/2008/07/dnse-iphone-kultur-161x300.png" alt="Screenshot of mobil.dn.se" title="" width="161" height="300" class="alignnone size-medium wp-image-513" /></a><a href='/attachments/2008/07/dnse-iphone-3more.png'><img src="/attachments/2008/07/dnse-iphone-3more-161x300.png" alt="Screenshot of mobil.dn.se" width="161" height="300" class="alignnone size-medium wp-image-512" /></a>

@@ -5,6 +5,7 @@ date: 2009-09-15 14:03:00 UTC
 title: The Personas art experiment
 redirect_from: ["/2009/09/15/the-personas-art-experiment.html"]
 
+archived: yes
 ---
 
 ![](//farm6.static.flickr.com/5085/5383264946_5d11612c74_o.png)

@@ -7,7 +7,7 @@ tags: facebook, dropbox
 category: career
 comments: yes
 redirect_from: ["/2013/03/21/hello-dropbox.html"]
-
+archived: yes
 ---
 
 <img src="//farm9.staticflickr.com/8225/8580803186_ccf9d4337b_o.png" width="50%" align="right">I'm very excited to let you know that I'm joining [Dropbox](https://www.dropbox.com/).

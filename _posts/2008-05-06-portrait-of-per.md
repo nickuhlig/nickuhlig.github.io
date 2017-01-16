@@ -6,6 +6,7 @@ date: 2008-05-06 22:56:00 UTC
 title: Portrait of Per
 redirect_from: ["/2008/05/06/portrait-of-per.html"]
 
+archived: yes
 ---
 
 <a href="http://flickr.com/photos/rsms/2443349682/"><img src="//farm3.static.flickr.com/2356/2443349682_10c63975e1_z.jpg" alt="Portrait of Per" /></a>

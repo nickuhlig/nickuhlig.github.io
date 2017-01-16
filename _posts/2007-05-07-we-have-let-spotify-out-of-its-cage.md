@@ -6,6 +6,7 @@ date: 2007-05-07 11:32:58 UTC
 title: We have let Spotify out of it's cage
 redirect_from: ["/2007/05/07/we-have-let-spotify-out-of-its-cage.html"]
 
+archived: yes
 ---
 
 <img src="/attachments/2008/04/spotify-140x140.png" alt="Spotify" width="140" height="140" class="alignright size-full wp-image-466" />We have launched <a href="http://spotify.com/">Spotify</a> closed beta and here's a few bloggers writing about it:

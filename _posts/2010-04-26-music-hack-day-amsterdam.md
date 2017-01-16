@@ -6,6 +6,7 @@ date: 2010-04-26 23:40:52 UTC
 title: Music Hack day, Amsterdam
 redirect_from: ["/2010/04/26/music-hack-day-amsterdam.html"]
 
+archived: yes
 ---
 
 Had a *wonderful* weekend in Amsterdam attending [Music Hack day](http://amsterdam.musichackday.org/). [We released libspotify](http://developer.spotify.com/blog/archives/2010/04/24/libspotify-004-adds-support-for-mac-os-x-and-windows/) for Mac and Windows as well as [announced the upcoming playlist web API](http://github.com/spotify/playlist-api).

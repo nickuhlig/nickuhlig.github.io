@@ -6,6 +6,7 @@ date: 2009-10-05 00:00:00 UTC
 title: 10 000 comet connections
 redirect_from: ["/2009/10/05/10k-comet-connections.html"]
 
+archived: yes
 ---
 
 Q: How well does the [Nginx HTTP push module](http://github.com/rsms/nginx_http_push_module) perform with 10 000 concurrent clients? (Ye olde [C10k problem](http://www.kegel.com/c10k.html)).

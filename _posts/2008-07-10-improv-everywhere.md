@@ -6,6 +6,7 @@ date: 2008-07-10 07:38:56 UTC
 title: Improv Everywhere
 redirect_from: ["/2008/07/10/improv-everywhere.html"]
 
+archived: yes
 ---
 
 <a href="http://improveverywhere.com/2008/07/06/human-mirror/"><img src="//farm4.static.flickr.com/3184/2645107558_784552e4f0.jpg" alt="Human Mirror" /></a>

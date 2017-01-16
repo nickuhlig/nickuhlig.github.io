@@ -6,6 +6,7 @@ date: 2009-12-16 22:02:14 UTC
 title: Large-scale distributed processing on the web
 redirect_from: ["/2009/12/16/large-scale-distributed-processing-using-javascript.html"]
 
+archived: yes
 ---
 
 <img src="//farm3.static.flickr.com/2539/4190869543_28ea74d5bd_m.jpg" width="233" height="240" alt="Silly drawing illustrating the awesomeness of people and the internets" align="right"> The title probably gives you goose bumps. No? It doesn't? Maybe it should.

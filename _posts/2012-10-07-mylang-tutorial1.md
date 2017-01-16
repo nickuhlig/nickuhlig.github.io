@@ -6,7 +6,8 @@ tags: programming
 category: languages
 comments: yes
 redirect_from: ["/2012/10/07/mylang-tutorial1.html"]
-
+archived: yes
+archived: yes
 ---
 
 Let's write our own programming language. It'll be fun and we will learn some key tools for processing structured data, performing semantic analysis, how to make a computer execute code, and all this using modern JavaScript.

@@ -6,6 +6,7 @@ date: 2007-10-27 17:33:15 UTC
 title: Mac OS X v5, aka Leopard
 redirect_from: ["/2007/10/27/mac-os-x-v5-aka-leopard.html"]
 
+archived: yes
 ---
 
 <img src='/attachments/2007/10/macosx_index_leopardishere20071026.png' alt='macosx_index_leopardishere20071026.png' class="right" />The new version of Mac OS X has been released and here's my somewhat incomplete review.

@@ -6,6 +6,7 @@ date: 2009-11-25 23:21:39 UTC
 title: Easy data visualization with WebKit
 redirect_from: ["/2009/11/25/easy-data-visualization-with-webkit.html"]
 
+archived: yes
 ---
 
 At Spotify, we recently put up two large TV screens on the walls of our Stockholm office (most R&D is done there). The idea is to visualize & communicate that *"stuff is happening"* without actually revealing any critical data (since a lot of external people are visiting the office).

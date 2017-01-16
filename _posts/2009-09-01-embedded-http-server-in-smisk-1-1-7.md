@@ -6,6 +6,7 @@ date: 2009-09-01 13:33:00 UTC
 title: Embedded HTTP server in Smisk 1.1.7
 redirect_from: ["/2009/09/01/embedded-http-server-in-smisk-1-1-7.html"]
 
+archived: yes
 ---
 
 <a href="http://python-smisk.org/">Smisk</a> 1.1.7 will not bring many new features, but one of them is a built-in HTTP server which can be used for local development, removing the need for a "real" HTTP server (e.g. Lighttpd or Apache httpd).

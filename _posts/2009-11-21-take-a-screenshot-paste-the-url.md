@@ -6,6 +6,7 @@ date: 2009-11-21 11:39:49 UTC
 title: Take a screenshot, paste the URL
 redirect_from: ["/2009/11/21/take-a-screenshot-paste-the-url.html"]
 
+archived: yes
 ---
 
 [<img src="//farm3.static.flickr.com/2567/4121191747_3002198bb5_o.png" width="251" height="192" alt="Scrup icon" align="right">](http://github.com/rsms/scrup)

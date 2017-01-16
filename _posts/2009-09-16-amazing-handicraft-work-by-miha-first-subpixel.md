@@ -6,6 +6,7 @@ date: 2009-09-16 20:59:00 UTC
 title: First subpixel typeface, ever
 redirect_from: ["/2009/09/16/amazing-handicraft-work-by-miha-first-subpixel.html"]
 
+archived: yes
 ---
 
 ![](//28.media.tumblr.com/tumblr_kq30zsDaIJ1qzdllao1_500.png)

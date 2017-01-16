@@ -2,7 +2,6 @@
 layout: post
 title: "Move — a programming language"  
 redirect_from: ["/2011/03/02/move-programming-language.html"]
-
 ---
 
 As I'm very interested in human-computer interaction, programming languages and the act of looking at things from a wider perspective, I decided to design a programming language. First, I scribbled down some key points:

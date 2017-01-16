@@ -6,6 +6,7 @@ date: 2008-10-07 06:09:44 UTC
 title: Spotify Official Release
 redirect_from: ["/2008/10/07/spotify-official-release.html"]
 
+archived: yes
 ---
 
 <object width="500" height="281"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=1900024&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=0&amp;show_portrait=0&amp;color=5dcd12&amp;fullscreen=1" /><embed src="//vimeo.com/moogaloop.swf?clip_id=1900024&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=0&amp;show_portrait=0&amp;color=5dcd12&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="500" height="281"></embed></object>

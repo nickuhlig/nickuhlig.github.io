@@ -6,6 +6,7 @@ date: 2008-06-24 06:54:13 UTC
 title: TVC/Junkyard Movie Released
 redirect_from: ["/2008/06/24/tvcjunkyard-movie-released.html"]
 
+archived: yes
 ---
 
 <embed src="//www.junkyard.se/swf/the_junk_project.swf" width="500" height="302" allowfullscreen="true" />

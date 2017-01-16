@@ -6,6 +6,7 @@ date: 2008-12-08 13:30:54 UTC
 title: Google Reader UI update
 redirect_from: ["/2008/12/08/google-reader-ui-update.html"]
 
+archived: yes
 ---
 
 <a href="/attachments/2008/12/google-reader-ui-update.png"><img src="/attachments/2008/12/google-reader-ui-update-small.png" alt="google-reader-ui-update-small" width="500" height="336" class="alignnone size-full wp-image-988" /></a>

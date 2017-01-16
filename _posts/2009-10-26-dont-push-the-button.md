@@ -6,6 +6,7 @@ date: 2009-10-26 13:48:01 UTC
 title: Don't push the button
 redirect_from: ["/2009/10/26/dont-push-the-button.html"]
 
+archived: yes
 ---
 
 A fun and inspiring advertising/art project I've been involved in (wrote the server and client software) is currently running (Mon 26 – Tue 27, 2009) at Stockholm Central station.

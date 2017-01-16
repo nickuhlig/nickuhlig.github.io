@@ -5,7 +5,6 @@ tumblr_id: 2843044421
 date: 2011-01-20 16:17:00 UTC
 title: Why I wrote a programmer's text editor
 redirect_from: ["/2011/01/20/why-i-wrote-a-programmers-text-editor.html"]
-
 ---
 
 In mid August 2010 I [left Spotify to eventually work for Facebook](http://rsms.me/2010/06/11/moving-on.html) in California. However, as the US Visa process is apparently not the simplest of constructions I've been having a sort of involuntary (but much appreciated) vacation.

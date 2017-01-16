@@ -6,6 +6,7 @@ date: 2007-07-18 08:02:39 UTC
 title: An Introduction to Spotify URI:s
 redirect_from: ["/2007/07/18/an-introduction-to-spotify-uris.html"]
 
+archived: yes
 ---
 
 Version 0.1.3 of <a href="http://spotify.com/">Spotify</a> introduces <a href="http://en.wikipedia.org/wiki/Uniform_Resource_Identifier">Uniform Resource Identifiers</a> for sharing and locating artists, albums, searches, playlists and songs within the Spotify library.

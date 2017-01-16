@@ -5,6 +5,7 @@ tags: apple, stevejobs
 fb_comments: 25
 redirect_from: ["/2011/10/05/steve-jobs.html"]
 
+archived: yes
 ---
 
 ## Here’s to the crazy ones

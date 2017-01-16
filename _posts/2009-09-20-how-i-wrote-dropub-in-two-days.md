@@ -6,6 +6,7 @@ date: 2009-09-20 13:21:00 UTC
 title: How I wrote DroPub in two days
 redirect_from: ["/2009/09/20/how-i-wrote-dropub-in-two-days.html"]
 
+archived: yes
 ---
 
 Yesterday I wrote <a href="http://rsms.me/2009/09/20/dropub-1-0.html">DroPub</a> -- a simple but powerful little OS X application which transparently handles file transfers "from the desktop".

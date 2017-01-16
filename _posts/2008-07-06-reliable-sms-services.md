@@ -6,6 +6,7 @@ date: 2008-07-06 16:24:03 UTC
 title: Reliable SMS services?
 redirect_from: ["/2008/07/06/reliable-sms-services.html"]
 
+archived: yes
 ---
 
 <a href='/attachments/2008/07/2008-07-06_17-47-04.jpg'><img src="/attachments/2008/07/2008-07-06_17-47-04-150x150.jpg" alt="Sender" width="150" height="150" class="alignnone size-thumbnail wp-image-516" /></a> <a href='/attachments/2008/07/2008-07-06_17-21-32.jpg'><img src="/attachments/2008/07/2008-07-06_17-21-32-150x150.jpg" alt="Receiver" width="150" height="150" class="alignnone size-thumbnail wp-image-517" /></a>

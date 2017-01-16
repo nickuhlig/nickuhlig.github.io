@@ -6,6 +6,7 @@ date: 2008-10-28 15:30:29 UTC
 title: The Hidden Cost of War
 redirect_from: ["/2008/10/28/the-hidden-cost-of-war.html"]
 
+archived: yes
 ---
 
 <object height="311" width="500"><param name="movie" value="http://www.good.is/wp-content/plugins/video/component.swf"/><param name="allowScriptAccess" value="always" /><param name="allowFullScreen" value="true"/><param name="flashvars" value="video=http://s3.amazonaws.com/www.goodmagazine.com/videos/cost_of_war.mp4&image=http://www.good.is/wp-content/themes/goodv1/images/defaultimg_video.gif&title=The Hidden Cost of War&doubleClickUrl=http://www.good.is/?p=12104"/><embed src="//www.good.is/wp-content/plugins/video/component.swf?video=http://s3.amazonaws.com/www.goodmagazine.com/videos/cost_of_war.mp4&image=http://www.good.is/wp-content/themes/goodv1/images/defaultimg_video.gif&title=The Hidden Cost of War&doubleClickUrl=http://www.good.is/?p=12104" type="application/x-shockwave-flash" width="500" height="311" allowFullScreen="true"></embed></object>

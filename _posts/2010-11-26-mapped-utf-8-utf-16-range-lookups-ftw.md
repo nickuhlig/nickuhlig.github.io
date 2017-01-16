@@ -6,6 +6,7 @@ date: 2010-11-26 15:48:00 UTC
 title: Mapped UTF-8 → UTF-16 range lookups FTW
 redirect_from: ["/2010/11/26/mapped-utf-8-utf-16-range-lookups-ftw.html"]
 
+archived: yes
 ---
 
 I'm writing [a little OS X app](http://kodapp.com/) which among other things highlight source code. To avoid re-inventing the wheel I'm using [GNU Source-highlight][][^1] to tokenize the input data. However, [GNU Source-highlight][] only accept UTF-8 and Cocoa strings are UTF-16 so conversion is needed, which can be quite expensive.

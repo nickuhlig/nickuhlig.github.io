@@ -6,6 +6,7 @@ date: 2008-08-13 10:50:39 UTC
 title: Google Trends – The Big Picture
 redirect_from: ["/2008/08/13/google-trends-the-big-picture.html"]
 
+archived: yes
 ---
 
 <a href="http://www.coverpop.com/bigpicture/"><img src="/attachments/2008/08/bigpicture.png" alt="bigpicture" width="500" height="167" class="alignnone size-full wp-image-602" /></a>

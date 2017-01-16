@@ -7,6 +7,7 @@ title: Spotify next generation
 description: "Internally at Spotify, we are calling this the Monster Release. Yeah, green and all, but the thing is that we’ve been working on this release for 6 months."
 redirect_from: ["/2010/04/27/spotify-next-generation.html"]
 
+archived: yes
 ---
 
 [<img src="//farm4.static.flickr.com/3614/4556571669_8a3c2636b0_z.jpg" width="640" alt="Next generation">](http://www.spotify.com/)

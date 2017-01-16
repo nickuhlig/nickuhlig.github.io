@@ -6,6 +6,7 @@ date: 2009-07-01 00:00:00 UTC
 title: Spotify for the iPhone
 redirect_from: ["/2009/07/01/spotify-for-iphone.html"]
 
+archived: yes
 ---
 
 <object width="640" height="385"><param name="movie" value="http://www.youtube-nocookie.com/v/QNCb1IdmJ_0&hl=en&fs=1&rel=0&hd=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube-nocookie.com/v/QNCb1IdmJ_0&hl=en&fs=1&rel=0&hd=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="385"></embed></object>
