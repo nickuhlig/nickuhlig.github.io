@@ -164,7 +164,7 @@ header * {
   header ul li a {
     /*background: rgba(255,60,90,0.3);*/
     cursor: pointer;
-    padding: 0 1em;
+    padding: 0 0.8em;
     color: #aaa;
     text-decoration: none;
     text-rendering: optimizeLegibility;
@@ -202,10 +202,10 @@ div.content.photo {
   div.content *[align="right"] { margin:0 0 1em 1.5em; }
   div.content *[align="left"] { margin:0 1.5em 1em 0; }
 
-  div.content li { margin-left: 2em; margin-bottom:0.5em; }
+  div.content li { margin-left: 2em; margin-bottom:0.2em; }
     div.content ul > li { margin-left:1.4em; }
   div.content ul.minimal { list-style:none; }
-    div.content ul.minimal > li { margin-left:0; margin-bottom: 0.2em; }
+    div.content ul.minimal > li { margin-left:0; }
 
   div.content blockquote {
     border-left:4px solid #ddd;
@@ -214,11 +214,18 @@ div.content.photo {
     text-rendering: optimizelegibility;
   }
   div.content div.quotation blockquote { margin-left:-30px; }
+
   div.content pre,
-  div.content p > code {
+  div.content code {
     background-color: rgba(0,0,0,0.04);
     border-radius: 3px;
   }
+
+  div.content pre > code {
+    background-color: none;
+    border-radius: 0;
+  }
+
   div.content pre {
     line-height:1.25;
     overflow-x: auto;
@@ -226,11 +233,11 @@ div.content.photo {
     padding:16px;
   }
   
-  div.content p > code {
+  div.content code {
     padding:0.2em 0;
   }
-  div.content p > code::before,
-  div.content p > code::after {
+  div.content code::before,
+  div.content code::after {
     letter-spacing: -0.2em;
     content: "\00a0";
   }
@@ -239,6 +246,11 @@ div.content.photo {
     padding:0;
     background-color:transparent;
     border-radius: none;
+  }
+  div.content pre > code::before,
+  div.content pre > code::after {
+    letter-spacing: inherit;
+    content: none;
   }
   div.content *:target { background:#fe0; }
   div.content sup:target a { padding:2px 5px; }
