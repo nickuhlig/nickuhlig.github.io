@@ -16,7 +16,7 @@ h3 {
   display: flex;
 }
 
-a.post-excerpt {
+a[href].post-excerpt {
   display: block;
   color: inherit;
   background: none;
@@ -25,28 +25,28 @@ a.post-excerpt {
   margin-bottom:15px;
   /*border-bottom: 8px solid #ddd;*/
 }
-a.post-excerpt, a.post-excerpt a {
+a[href].post-excerpt, a[href].post-excerpt a[href] {
   background: none;
   text-shadow: none;
 }
-  a.post-excerpt:hover {
+  a[href].post-excerpt:hover {
     /*color: white; background-color:#444;*/
     color:black; /*background-color:#BCEBC8;*/
     /*text-decoration:none;*/
     /*padding:0  20px 1px  20px;
     margin: 0 -20px  15px -20px;*/
   }
-    a.post-excerpt:hover h3 {
+    a[href].post-excerpt:hover h3 {
       background-color:black; color: white;
     }
 
-  a.post-excerpt.photo {
+  a[href].post-excerpt.photo {
     height:300px;
     position:relative;
     background:black;
     margin-bottom:32px;
   }
-    a.post-excerpt.photo h3 {
+    a[href].post-excerpt.photo h3 {
       font-family: 'Roboto Condensed', helvetica, sans-serif;
       padding:10px 40px;
       font-size: 200%;
@@ -65,13 +65,13 @@ a.post-excerpt, a.post-excerpt a {
       line-height:1.1;
       padding-bottom:1em;
     }
-    a.post-excerpt.photo div.c {
+    a[href].post-excerpt.photo div.c {
       padding:0;
       background: transparent no-repeat center center scroll;
       position: absolute;
       left:0; top:0; right:0; bottom:0;
     }
-    a.post-excerpt.photo div.c div.image {
+    a[href].post-excerpt.photo div.c div.image {
       position: absolute;
       left:0; top:0; right:0; bottom:0;
       z-index:1;
@@ -81,14 +81,14 @@ a.post-excerpt, a.post-excerpt a {
       -o-background-size: cover;
       background-size: cover;
     }
-    a.post-excerpt.photo:hover div.c {
+    a[href].post-excerpt.photo:hover div.c {
       opacity: 1;
     }
-    a.post-excerpt.photo:hover div.c div.image {
+    a[href].post-excerpt.photo:hover div.c div.image {
       opacity:0.8;
     }
 
-a.post-excerpt:hover .body {
+a[href].post-excerpt:hover .body {
   color: inherit;
 }
 
