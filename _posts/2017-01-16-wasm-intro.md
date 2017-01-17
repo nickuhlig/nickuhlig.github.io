@@ -166,7 +166,7 @@ There are a few more ways to manage data and state in your modules.
 - [**Elements**](#elements): "Handles" for opaque foreign values (like OS file handles.)
 
 <a name="locals">**Locals**</a> are like variables in many higher-level programming languages:
-we can name them, store values to them and load values onto them. Locals are named using function-local integer index.
+we can name them, store values to them and load values from them. Locals are named using function-local integer index.
 
 When defining a function body, we can declare any number of locals for the function's code. Parameters to a function are also locals and the "name" index of locals start at 0 with the first function parameter and continue incrementing with each additional parameter and eventually with each listed local of the function body. Locals are always initialized to zero (all their bits are 0.)
 
