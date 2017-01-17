@@ -59,7 +59,7 @@ This includes any signatures of imported functions. The position in the list is 
 [^1]: Some *crazy* footnote definition.
 
 WebAssembly has only four concrete types: 32-bit integer, 64-bit integer, 32-bit floating-point number and 64-bit floating-point number where the integer types are sign-agnostic ([more on this later](#sign-agnostic)) and floating-point numbers following the [IEEE 754-2008](http://ieeexplore.ieee.org/document/4610935/) standard. Any complex types can be built on top of these basic types by a compiler.
-The rest of this article, as well as the [WebAssembly documentation], will refer to these basic types with the short names i32, i64, f32, and f64 respectively.
+The rest of this article, as well as the [WebAssembly documentation](http://webassembly.org/docs/semantics/#types), will refer to these basic types with the short names i32, i64, f32, and f64 respectively.
 
 The <a name="import_section">**import section**</a> declares any external dependencies by listing module name, field name and type for each function, value or data required:
 
