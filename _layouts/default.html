@@ -15,6 +15,7 @@
     <link rel="apple-touch-icon" href="/res/icon/icon-256.png?v={{ build_version }}">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@rsms">
+    <meta name="twitter:creator" content="@rsms">
     {% if page.ios_app_name %}
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -23,21 +24,26 @@
     <meta property="fb:app_id" content="38027689216">
     {% if page.title %}
     <meta property="og:title" content="{{ page.title }}">
+    <meta name="twitter:title" content="{{ page.title }}">
       {% if page.description %}
       <meta name="description" content="{{ page.description }}">
       <meta name="og:description" content="{{ page.description }}">
+      <meta name="twitter:description" content="{{ page.description }}">
       {% else if content %}
       <meta name="description" content="{{ content | strip_html | truncatewords: 25 }}">
       <meta name="og:description" content="{{ content | strip_html | truncatewords: 25 }}">
+      <meta name="twitter:description" content="{{ content | strip_html | truncatewords: 25 }}">
       {% endif %}
     {% else %}
       <meta name="description" content="Ramblings by Rasmus Andersson">
     {% endif %}
     {% if page.og_image_url %}
     <meta property="og:image" content="{{ page.og_image_url }}">
+    <meta name="twitter:image" content="{{ page.og_image_url }}">
     {% else %}
     {% if page.photo_url %}
     <meta property="og:image" content="{{ page.photo_url }}">
+    <meta name="twitter:image" content="{{ page.og_image_url }}">
     {% endif %}
     {% endif %}
     <meta property="og:url" content="https://rsms.me{{ page.url | remove_first:'index.html' }}">
