@@ -111,7 +111,7 @@ The <a name="code_section">**code section**</a> is probably the bulk of most Web
 ```wasm
 get_local 0  // push parameter #0 on stack (our dividend)
 i64.const 2  // push constant int64 "2" on stack (our divisor)
-i64.div_s    // signed division; pushes result onto stack
+i64.div_u    // unsigned division; pushes result onto stack
 end          // ends function, resulting in one i64 (top of stack)
 ```
 
@@ -132,8 +132,7 @@ A few things to note about this diagram:
    available on the stack.
 
 There are [quite a lot of number operators defined by WASM 1](https://github.com/WebAssembly/design/blob/master/Semantics.md#32-bit-integer-operators) — too many to list here.
-However, you might find it comforting knowing that in addition to all basic operations,
-there are several useful higher-level numeric operations defined as opcodes rather than being left to be implemented on top of other, simpler instructions. For example:
+However, you might find it comforting knowing that in addition to all basic operations you'd expect, like `div` and `add`, there are several other useful common numeric operations defined as opcodes rather than being left to be implemented on top of other, simpler instructions. For example:
 
 - `eqz` efficiently tests if an integer operand is zero, minimizing stack thrash from otherwise pushing the constant `0` and calling `eq`.
 - `popcnt` counts the number of bits set in an integer
