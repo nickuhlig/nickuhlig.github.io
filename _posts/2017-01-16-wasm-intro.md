@@ -199,7 +199,9 @@ Elements are cool, but **memory** is a lot more interesting, so let's get back t
 Future versions of WASM might allow multiple memory segments to be used, but version 1 only uses a single segment per module, which simplifies a lot of things, like memory operators:
 
 - `i32.load alignment offset` loads a 32-bit integer from the byte range [start..start+4), where `start` is an integer operand popped from the stack
-- `i64.store16 alignment offset` stores a 16 bit, from wrapping a 64-bit integer popped off of the stack, to the byte range `[start-start+4)`, where `start` is an integer operand which is also popped from the stack.
+- `i64.store16 alignment offset` stores a 16 bit integer, by wrapping a 64-bit integer popped off of the stack, to the byte range `[start-start+2)`, where `start` is an integer operand which is also popped from the stack.
+
+The following code stores an i32 "123" at byte range [4..7]:
 
 ```wasm
 i32.const 4    // byte-sized address
@@ -207,7 +209,7 @@ i32.const 123  // value to store
 i32.store 2 0  // 2 = 32-bit/4-byte alignment, 0 = offset
 ```
 
-The above code stored the i32 "123" at byte range [4..7]. We can load the value back onto the stack at a later time:
+We can load the value back onto the stack at a later time:
 
 ```wasm
 i32.const 4
