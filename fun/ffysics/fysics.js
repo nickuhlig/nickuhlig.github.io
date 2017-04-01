@@ -1139,14 +1139,12 @@ let colors = visibleShapes.map(shape => shape.color).concat([
   '#FFFFFF', '#FFDB29', '#5375FF', '#FF77C3', '#37ECD2',
 ])
 
+const maxRandomParts = 30
+
 function spawnRandomPart(nth) {
-  if (nth < 30) {
+  if (nth < maxRandomParts) {
     setTimeout(spawnRandomPart.bind(null, nth + 1), 500 + (Math.random() * 2000))
   }
-
-  // if (nth == 3) {
-  //   return World.add(world, createFMesh(shapesOffset.x + 150, shapesOffset.y))
-  // }
 
   let shape = Common.choose(visibleShapes)
   let x = Math.random() * (viewportSize.width - 50)
@@ -1172,7 +1170,7 @@ function spawnRandomPart(nth) {
   })
   // let a = randomPart.bounds.min, b = randomPart.bounds.max
   // randomPart.position.y = b.y - a.y
-  World.add(world, randomPart)
+  return World.add(world, randomPart)
 }
 
 setTimeout(spawnRandomPart.bind(null, 0), 2000)
@@ -1238,7 +1236,12 @@ window.addEventListener('resize', ev => {
 // make it easy to mess around with stuff via the console
 window['toy'] = {
   render: render,
-  engine: engine,
+  spawnRandomPart: function() {
+    return spawnRandomPart(maxRandomParts)
+  },
+  spawnFMesh: function() {
+    return World.add(world, createFMesh(150, 100))
+  },
 }
 
 // ——————————————————————————————————————————————————————————————————————————————
