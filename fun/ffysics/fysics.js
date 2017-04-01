@@ -821,8 +821,6 @@ const $ = function(target, query) {
   return Array.prototype.slice.call(target.querySelectorAll(query))
 }
 
-// var Example = Example || {};
-// Example.svg = function() {
 const Engine = Matter.Engine,
       Render = Matter.Render,
       Runner = Matter.Runner,
@@ -887,13 +885,8 @@ var render = Render.create({
 
 Render.run(render)
 
-// create runner
 const runner = Runner.create()
 Runner.run(runner, engine)
-
-// add SVGs
-// let svg0 = $('svg')[0]
-// let vertexSets = []
 
 const fMeshFillerShape = { color: '#ff0', 
   origin: {x:0, y:0},
@@ -917,8 +910,6 @@ function mdecomp(a) {
     scaleY: scaleY,                  // scaleY factor
     // skewX:  skewX, // / (Math.PI / 180),  // skewX angle degrees
     // skewY:  0,                        // skewY angle degrees
-    //translateX: a[4],                // translation point  x
-    //translateY: a[5]                 // translation point  y
   };
 }
 
@@ -969,8 +960,6 @@ function shapesFromSVGPaths(svg, scale, detailGranularity) {
         origin.y = m[5] * scale
       }
     }
-
-    // console.log('origin', origin.x, origin.y)
 
     switch (color) {
       // case '#F24E1E': { // top-left; red half-pill
@@ -1059,7 +1048,7 @@ const detailGranularity = (
   pixelScale <= 1 ? 2 :
                     1
 )
-console.log('shape detailGranularity', detailGranularity)
+// console.log('shape detailGranularity', detailGranularity)
 // document.querySelector('#ui').innerText = detailGranularity
 const shapes = shapeData[detailGranularity]
 
@@ -1246,7 +1235,11 @@ window.addEventListener('resize', ev => {
   })
 }, {passive:true, capture:false})
 
-// console.log('render', render)
+// make it easy to mess around with stuff via the console
+window['toy'] = {
+  render: render,
+  engine: engine,
+}
 
 // ——————————————————————————————————————————————————————————————————————————————
 
