@@ -34,6 +34,19 @@ body {
   font-feature-settings:"kern" 1, "liga" 1;
 }
 
+body h1,h2,h3,h4,h5,h6 {
+  font-family: 'ITCAvantGardePro-Bold';
+  font-weight:400;
+  color: #040404;
+  margin: 1.618em 0 0.7em 0;
+  /*-webkit-font-smoothing: antialiased;*/
+}
+
+body h1 { font-size: 28px; }
+body h2 { font-size: 24px; }
+body h3 { font-size: 18px; color: #282828}
+body h4, h5, h6 { font-size: 16px; margin:1em 0 -0.2em 0; color: #686868}
+
 div.breaker { clear:both; }
 .template { display:none; }
 
