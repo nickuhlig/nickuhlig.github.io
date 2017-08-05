@@ -151,7 +151,7 @@ header * {
   }
   header a[href]:hover {
     color: #c0c0c0;
-    cursor: default;
+    cursor: pointer;
   }
     header h1 a[href] {
       display: block;
@@ -205,7 +205,7 @@ header * {
   header ul li:first-child { margin-left: 0; }
   header ul li a[href] {
     /*background: rgba(255,60,90,0.3);*/
-    cursor: default;
+    cursor: pointer;
     padding: 0 0.8em;
     color: #aaa;
     text-decoration: none;
