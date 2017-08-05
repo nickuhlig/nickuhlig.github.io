@@ -119,7 +119,7 @@ info {
         <h3>{{ post.title }}</h3>
         <div class="image" style="background-image:url('{{ post.photo_url }}')"></div>
       {% else %}
-        <h3 class="text">{{ post.title }}</h3>
+        <h3>{{ post.title }}</h3>
         <div class="body">
           <p>{% if post.description %}
           {{ post.description | markdownify | strip_html }}
