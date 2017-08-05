@@ -12,6 +12,9 @@
 body {
   background: #fff;
   color: #222;
+  font-family: Inconsolata, Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size:16px;
+  line-height:1.5;
 
   width: 100%;
   max-width:720px;
@@ -29,12 +32,6 @@ body {
   -o-font-feature-settings:"kern" 1, "liga" 1; 
   -webkit-font-feature-settings:"kern" 1, "liga" 1; 
   font-feature-settings:"kern" 1, "liga" 1;
-}
-
-body p {
-  font-family: Inconsolata, Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  font-size: 16px;
-  line-height:1.5;
 }
 
 div.breaker { clear:both; }
