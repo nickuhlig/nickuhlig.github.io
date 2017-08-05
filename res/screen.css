@@ -130,9 +130,8 @@ header * {
   cursor: default;
 }
   header h1 {
-    /*background: lightblue;*/
     font-family: 'ITCAvantGardePro-Bold';
-    font-size:24px
+    font-size:28px
     flex: 0 0 auto;
     margin: 0;
     display: flex;
@@ -143,19 +142,28 @@ header * {
     color: inherit;
     background: none;
     text-shadow: none;
+   -o-transition:.5s;
+   -ms-transition:.5s;
+   -moz-transition:.5s;
+   -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
   }
   header a[href]:hover {
-    color: black;
-    background: none;
+    color: #c0c0c0;
   }
     header h1 a[href] {
       display: block;
-      transform: translate3d(0,0,0); -webkit-transform: translate3d(0,0,0);
-      transition: 160ms transform ease-out; -webkit-transition: 160ms -webkit-transform ease-out;
+       -o-transition:.5s;
+       -ms-transition:.5s;
+       -moz-transition:.5s;
+       -webkit-transition:.5s;
+       /* ...and now for the proper property */
+       transition:.5s;
     }
+
     header h1 a[href]:hover {
-      transform: translate3d(0,2px,0); -webkit-transform: translate3d(0,2px,0);
-      cursor:pointer;
+      color: #c0c0c0
     }
     header h1 img { display:block; }
 
