@@ -430,13 +430,13 @@ footer {
   padding:0 0 1em 0;
   /*text-align: center;*/
 }
-  footer img.cc {
+  footer img {
     display: inline-block;
     vertical-align: -0.2em;
     border: none;
     width:1em;
     height:1em;
-    opacity:0.6;
+    opacity:1;
   }
   footer a {
     color: #333;
@@ -452,8 +452,8 @@ footer {
   footer a.cc:hover {
     text-decoration: none;
   }
-  footer a.cc:hover img.cc {
-    opacity:1;
+  footer a:hover img {
+    opacity:0.6;
   }
 
 
