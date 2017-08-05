@@ -9,7 +9,7 @@ I have compiled a list of clothing labels and companies that manufacture their p
 
 The list was posted on reddit twice ([1](https://www.reddit.com/r/canada/comments/4bkiwa/madeincanada_clothing_a_list/), [2](https://www.reddit.com/r/canada/comments/58n18s/made_in_canada_clothing_a_list_v_20/)), and received a lot of feedback, as well as suggestions for brands to be added/included in the list.
 
-Recently, the process of translating it into Français has begun, though it has not yet been completed.
+Recently, the process of translating it into FranÃ§ais has begun, though it has not yet been completed.
 
 To download the list you have two options.
 
@@ -27,4 +27,8 @@ This won't happen until I have time, but when it does, I will probably post abou
 
 ### Contributing
 
+<<<<<<< HEAD
 Own a company that manufactures its clothing within Canada? Know of one that I haven't listed? [Contact me!](mailto:clothingfromcanada@gmail.com)
+=======
+Own a company that manufactures its clothing within Canada? Know of one that I haven't listed? [Contact me!](mailto:clothingfromcanada@gmail.com)
+>>>>>>> origin/master
