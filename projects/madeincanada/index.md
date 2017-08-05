@@ -27,8 +27,4 @@ This won't happen until I have time, but when it does, I will probably post abou
 
 ### Contributing
 
-<<<<<<< HEAD
 Own a company that manufactures its clothing within Canada? Know of one that I haven't listed? [Contact me!](mailto:clothingfromcanada@gmail.com)
-=======
-Own a company that manufactures its clothing within Canada? Know of one that I haven't listed? [Contact me!](mailto:clothingfromcanada@gmail.com)
->>>>>>> origin/master
