@@ -19,7 +19,7 @@ hide_subdirindex: true
 
   {% capture url_prefix %}{{ page.url | remove_first:'index.html' }}{% endcapture %}
   {% capture key_prefix %}:{{url_prefix}}{% endcapture %}
-  <ul class="pages">
+  <ul class="minimal">
   {% for subpage in site.pages %}
     {% capture subpage_key %}:{{ subpage.url }}{% endcapture %}
     {% if subpage_key contains key_prefix and subpage.url != page.url %}
