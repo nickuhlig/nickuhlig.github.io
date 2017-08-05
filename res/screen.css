@@ -206,7 +206,7 @@ header * {
     /*background: rgba(255,60,90,0.3);*/
     cursor: pointer;
     padding: 0 0.8em;
-    color: #aaa;
+    color: #c0c0c0;
     text-decoration: none;
     text-rendering: optimizeLegibility;
     text-rendering: geometricPrecision;
@@ -214,7 +214,7 @@ header * {
   header ul li:last-child a[href] {
     padding-right:0;
   }
-  header ul li a[href]:hover { color: black; text-decoration: none; }
+  header ul li a[href]:hover { color: #040404; text-decoration: none; }
   header ul li a[href].active {
     /*font-weight:bold;*/
     color:black;
@@ -458,14 +458,14 @@ footer {
     border: none;
     width:1em;
     height:1em;
-    opacity:1;
+    opacity:0.5;
   }
   footer a {
     color: #333;
-    opacity: 0.3;
+    opacity: 0.5;
   }
   footer a:hover {
-    opacity:0.6;
+    opacity:1.0;
   }
   footer a.cc {
     background: none;
@@ -475,7 +475,7 @@ footer {
     text-decoration: none;
   }
   footer a:hover img {
-    opacity:0.6;
+    opacity:1.0;
   }
 
 
