@@ -3,31 +3,23 @@ layout: page
 title: About
 ---
 
-<img src="portrait.jpg" class="profile-picture" width="128" align="right">
+# Hello there.
 
-Hello. My name is Rasmus Andersson.
-I'm a Swedish maker–of–software living in San Francisco with a passion for art and technology
-who have worked with a number of different companies since the 1990s, including 
-[Dropbox](https://www.dropbox.com/jobs/product/design),
-[Facebook](https://facebook.com/design),
-[Spotify](https://www.spotify.com/),
-[Lear Corporation](http://lear.com/),
-Spray, and my own company Notion.
-More information can be found through [LinkedIn](http://www.linkedin.com/in/rasmusandersson).
+<img src="me.jpg" class="profile-picture" width="128" align="right">
 
-I currently work at [Figma](https://www.figma.com/) building the next–generation interaction–design tool.
+My name is Nick Uhlig. I'm a Canadian chemist currently living in Edmonton, Alberta. I currently work for Gilead Alberta ULC, a subsidiary of [Gilead Sciences](https://www.gilead.com), a California-based pharmaceutical company.
 
-[Read more about my work with Spotify &rarr;](/about/spotify/)
+I'm originally from Sault Ste. Marie, Ontario, and I lived in Montréal, Québec for several years while attending [McGill University](https://www.mcgill.ca) for my PhD studies.
 
-### Etcetera
+I frequently work on projects that have nothing to do with my field of study. Some of these projects can be lumped under music & arts, fashion, and design. Mostly I just consider them dumb shit that I do to entertain myself.
 
-- [Favorite technical papers](https://www.dropbox.com/sh/is0sy5350lr4v9j/AADQlhVSQcRw6vCNKQgGWelqa)
-- [Transcript of "The Definition of Design" with Charles Eames](/eames-design)
+### This site
 
-You can find me on a variety of world–wild–interweb sites where my username is usually `rsms`
+This is a site maintained as a portal to my online presence, and also a rarely-updated set of writings about things related to chemistry, beer brewing, clothing, and music.
 
-- [Twitter](http://twitter.com/rsms) — say hi
-- [GitHub](https://github.com/rsms) — code, yummy code
-- [Instagram](http://instagram.com/rasmusfabbe/) — short stories
-- [Flickr](http://www.flickr.com/photos/rsms/) — archived photos
-- [Facebook](http://www.facebook.com/rsms)
+You can find me elsewhere on the internet using the links at the bottom of the page. 
+
+The typefaces used on this website are ITC Avant Garde Pro Bold and Roboto. Icons used were created by [DaanKirk](https://thenounproject.com/daandirk/collection/platonic-solids/). Almost all of the base code for this website was gratuitously stolen from [someone much smarter than me](https://rsms.me). These shameless thefts are fortunately forgiven due to the kind use of the Creative Commons license by their originators.
+
+
+
