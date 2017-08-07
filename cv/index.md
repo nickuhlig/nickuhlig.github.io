@@ -27,5 +27,19 @@ What follows is an abbreviated list of my work experience, education, and public
 
 ### Publications
 
+Research publications to which I have contributed can be found [here](https://scholar.google.ca/scholar?hl=en&q=author%3A%22Nick+Uhlig%22&btnG=&as_sdt=1%2C5&as_sdtp=). These include four original research articles, one review article, and one book chapter.
 
+Conference presentations that I have made include the following:
+
+1. "Aniline carbamates: a versatile and removable motif for Pd(II)-catalyzed C-H activation"
+  * Poster presented at CGCC Symposium in Montréal, Québec 2014-05-09
+  * Poster presented at 2nd International Symposium on C-H Activation in Rennes, France 2014-07-01
+  * Talk presented at 98th Annual Canadian Chemistry Conference and Exhibition in Ottawa, Ontario 2015-06-14.
+2. "Neighbourhood art hives: small and sustainable spaces for creative inquiry"
+  * Workshop presented at Community-University Expo in Corner Brook, Newfoundland & Labrador 2013-06-14
+3. "Site-specific modification of amino acids and peptides by A3 coupling under ambient aqueous conditions"
+  * Poster presented at 96th Annual Canadian Chemistry Conference and Exhibition in Québec City, Québec 2013-05-27
+  * Winner of first prize in the Biomedical/Medicinal Chemistry Graduate Student Poster Symposium
+4. "The aldehyde-alkyne-amine coupling: Propargylamines and beyond"
+  * Poster presented at the Catalysis Research Centre International Symposium at York University, Toronto, Ontario 2012-02-04
 
