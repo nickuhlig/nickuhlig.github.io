@@ -3,11 +3,11 @@ layout: page
 title: C.V.
 ---
 
-# Curriculum vitae.
+## Curriculum vitae.
 
 What follows is an abbreviated list of my work experience, education, and publication history, in reverse chronological order. More detail can be found on my [LinkedIn](https://www.linkedin.com/in/nickuhlig) page.
 
-## Education
+### Education
 
 **2010 to 2015** — Studied as a PhD candidate in the [Li Research Group](http://www.cjlimcgill.ca/prof-chao-jun-li/) at McGill University. I worked on developing new methods for the formation of carbon-carbon bonds in aqueous and semi-aqueous media, especially using transition metal catalysis. Successfully defended my PhD thesis, entitled *Make mine nearly neat: aqueous and high-concentration reactions for selective carbon-carbon bond formation.* on 2015-06-19.
 
@@ -15,7 +15,7 @@ What follows is an abbreviated list of my work experience, education, and public
 
 **2004 to 2005** — Completed one year of foreign exchange study in Prague, Czech Republic. Attended První obnovené reálné gymnázium in the septima class. Became almost fluent in the Czech language and drank a lot of beer. 
 
-## Work
+### Work
 
 **2016 to present** — Process chemist at Gilead Alberta ULC. Areas of focus include sustainable chemistry and the use of continuous flow chemistry for efficient synthesis of preclinical APIs and intermediates.
 
