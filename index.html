@@ -117,10 +117,10 @@ info {
     class="post-excerpt{% if post.photo_url %} photo{% endif %}">
       <div class="c">
       {% if post.photo_url %}
-        <h3>{{ post.title }}</h3>
+        <h2>{{ post.title }}</h2>
         <div class="image" style="background-image:url('{{ post.photo_url }}')"></div>
       {% else %}
-        <h3>{{ post.title }}</h3>
+        <h2>{{ post.title }}</h2>
         <div class="body">
           <p>{% if post.description %}
           {{ post.description | markdownify | strip_html }}
