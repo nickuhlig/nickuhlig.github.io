@@ -471,7 +471,7 @@ footer {
     height:1em;
     opacity:0.5;
   }
-  footer a {
+  footer a[href] {
     color: #333;
     background: none;
     background-image: none;
@@ -479,7 +479,7 @@ footer {
     text-shadow: none;
     opacity: 0.5;
   }
-  footer a:hover {
+  footer a[href]:hover {
     opacity:1.0;
   }
   footer a.cc {
@@ -489,7 +489,7 @@ footer {
   footer a.cc:hover {
     text-decoration: none;
   }
-  footer a:hover img {
+  footer a[href]:hover img {
     opacity:1.0;
   }
 
