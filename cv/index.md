@@ -9,11 +9,11 @@ What follows is an abbreviated list of my work experience, education, and public
 
 ### Education
 
-**2010 to 2015** — Studied as a PhD candidate in the [Li Research Group](http://www.cjlimcgill.ca/prof-chao-jun-li/) at McGill University. I worked on developing new methods for the formation of carbon-carbon bonds in aqueous and semi-aqueous media, especially using transition metal catalysis. Successfully defended my PhD thesis, entitled *Make mine nearly neat: aqueous and high-concentration reactions for selective carbon-carbon bond formation.* on 2015-06-19.
+**2010 to 2015** — Studied as a PhD candidate in the [Li Research Group](http://www.cjlimcgill.ca/prof-chao-jun-li/) at [McGill University](https://www.mcgill.ca). I worked on developing new methods for the formation of carbon-carbon bonds in aqueous and semi-aqueous media, especially using transition metal catalysis. Successfully defended my PhD thesis, entitled *Make mine nearly neat: aqueous and high-concentration reactions for selective carbon-carbon bond formation.* on 2015-06-19.
 
 **2005 to 2009** — Studied as a B.Sc. student at the [University of Guelph](https://www.uoguelph.ca), with a concentration in biological chemistry. Graduated *magna cum laude* with an honours thesis project on the synthesis of benzonorbornene derivatives and cyclopropanation reactions thereof, directed towards the asymmetric synthesis of fused 6/7-membered ring systems.
 
-**2004 to 2005** — Completed one year of foreign exchange study in Prague, Czech Republic. Attended První obnovené reálné gymnázium in the septima class. Became almost fluent in the Czech language and drank a lot of beer. 
+**2004 to 2005** — Completed one year of foreign exchange study in Prague, Czech Republic. Attended [První obnovené reálné gymnázium](http://www.porg.cz/cz/) in the septima class. Became almost fluent in the Czech language and drank a lot of beer. 
 
 ### Work
 
@@ -26,6 +26,8 @@ What follows is an abbreviated list of my work experience, education, and public
 **At various times, interspersed throughout the above dates** — I have worked other jobs as well, including at grocery stores, gas stations, and in the kitchens of restaurants. Of these the work in the kitchen was the most agreeable, but was highly stressful and paid very little. All of them, however, were very educational in one way or another.
 
 ### Publications
+
+My graduate thesis/dissertation can be found in the McGill e-thesis database, [here](http://digitool.library.mcgill.ca/R/EE2ECRCY7HJGYPMD3DP23H2CL4PCG2MF4196X7SRM27MQE9TH4-00198).
 
 Research publications to which I have contributed can be found [here](https://scholar.google.ca/citations?user=IbtYnaIAAAAJ&hl=en). These include four original research articles, one review article, and one book chapter.
 
