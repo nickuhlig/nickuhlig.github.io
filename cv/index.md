@@ -27,7 +27,7 @@ What follows is an abbreviated list of my work experience, education, and public
 
 ### Publications
 
-Research publications to which I have contributed can be found [here](https://scholar.google.ca/scholar?hl=en&q=author%3A%22Nick+Uhlig%22&btnG=&as_sdt=1%2C5&as_sdtp=). These include four original research articles, one review article, and one book chapter.
+Research publications to which I have contributed can be found [here](https://scholar.google.ca/citations?user=IbtYnaIAAAAJ&hl=en). These include four original research articles, one review article, and one book chapter.
 
 Conference presentations that I have made include the following:
 
