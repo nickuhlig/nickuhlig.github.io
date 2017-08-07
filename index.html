@@ -10,7 +10,6 @@ div.posts div.end {
 h2 {
   font-family:'ITCAvantGardePro-Bold';
   margin:0;
-  display:inline-block;
 }
 
 .content {
@@ -26,6 +25,16 @@ a[href].post-excerpt {
   margin-bottom:15px;
   /*border-bottom: 8px solid #ddd;*/
 }
+  
+a[href].post-excerpt h2 {
+   -o-transition:.5s;
+   -ms-transition:.5s;
+   -moz-transition:.5s;
+   -webkit-transition:.5s;
+  /* ...and now for the proper property */
+    transition:.5s;
+}
+  
 a[href].post-excerpt, a[href].post-excerpt a[href] {
   background: none;
   text-shadow: none;
@@ -38,7 +47,7 @@ a[href].post-excerpt, a[href].post-excerpt a[href] {
     margin: 0 -20px  15px -20px;*/
   }
     a[href].post-excerpt:hover h2 {
-      background-color:black; color: white;
+      color: #c0c0c0;
     }
 
   a[href].post-excerpt.photo {
