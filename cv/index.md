@@ -27,9 +27,9 @@ What follows is an abbreviated list of my work experience, education, and public
 
 ### Publications
 
-My graduate thesis/dissertation can be found in the McGill e-thesis database, [here](http://digitool.library.mcgill.ca/R/EE2ECRCY7HJGYPMD3DP23H2CL4PCG2MF4196X7SRM27MQE9TH4-00198).
+My graduate thesis/dissertation can be found in the [McGill e-thesis database](http://digitool.library.mcgill.ca/R/EE2ECRCY7HJGYPMD3DP23H2CL4PCG2MF4196X7SRM27MQE9TH4-00198).
 
-Research publications to which I have contributed can be found [here](https://scholar.google.ca/citations?user=IbtYnaIAAAAJ&hl=en). These include four original research articles, one review article, and one book chapter.
+Research publications to which I have contributed can be found on [Google Scholar](https://scholar.google.ca/citations?user=IbtYnaIAAAAJ&hl=en). These include four original research articles, one review article, and one book chapter.
 
 Conference presentations that I have made include the following:
 
