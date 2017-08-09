@@ -3,7 +3,7 @@ layout: page
 title: C.V.
 ---
 
-## Curriculum vitae.
+## Curriculum vitae
 
 What follows is an abbreviated list of my work experience, education, and publication history, in reverse chronological order. More detail can be found on my [LinkedIn](https://www.linkedin.com/in/nickuhlig) page.
 
@@ -47,9 +47,9 @@ Conference presentations that I have made include the following:
   
 ### Press I have received
 
-My Valentine's Day cards have received some press ([1](http://cen.acs.org/articles/94/i6/Valentines-Day-Cards-Heart-Felt.html), [2](http://www.freshphotons.com/post/138476273992/chemistry-valentines-day-cards-by-nick-uhlig_), [3](http://www.freshphotons.com/post/156353057281/chemistry-valentines-cards-by-nick-uhlig), [4](https://www.mcgill.ca/chemistry/channels/news/punny-valentines-day-cards-258398), [5](https://chemjobber.blogspot.ca/2016/01/man-today-was-busy-day-back-tomorrow.html), [6](https://chemjobber.blogspot.ca/2017/01/chemistry-themed-valentines-day-cards.html)).
+For my Valentine's Day cards ([1](http://cen.acs.org/articles/94/i6/Valentines-Day-Cards-Heart-Felt.html), [2](http://www.freshphotons.com/post/138476273992/chemistry-valentines-day-cards-by-nick-uhlig_), [3](http://www.freshphotons.com/post/156353057281/chemistry-valentines-cards-by-nick-uhlig), [4](https://www.mcgill.ca/chemistry/channels/news/punny-valentines-day-cards-258398), [5](https://chemjobber.blogspot.ca/2016/01/man-today-was-busy-day-back-tomorrow.html), [6](https://chemjobber.blogspot.ca/2017/01/chemistry-themed-valentines-day-cards.html)).
 
-My TTC-inspired ringtones have received some press ([1](http://www.blogto.com/city/2015/08/you_can_now_download_ttc_ringtones_for_your_phone/), [2](https://www.thestar.com/news/gta/transportation/2015/08/25/mcgill-student-creates-ttc-ringtones-for-commuters.html)).
+For my TTC-inspired ringtones ([1](http://www.blogto.com/city/2015/08/you_can_now_download_ttc_ringtones_for_your_phone/), [2](https://www.thestar.com/news/gta/transportation/2015/08/25/mcgill-student-creates-ttc-ringtones-for-commuters.html)).
 
-A Chemistry Blog post of mine once received some press ([1](https://www.nature.com/nchem/journal/v4/n2/full/nchem.1262.html?foxtrotcallback=true)).
+For my contributions to Chemistry Blog ([1](https://www.nature.com/nchem/journal/v4/n2/full/nchem.1262.html?foxtrotcallback=true)).
 
