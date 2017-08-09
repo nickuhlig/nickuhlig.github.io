@@ -13,9 +13,9 @@ Recently, the process of translating it into Français has begun, though it has 
 
 To download the list you have two options.
 
-The first is for a printable version. All sections start on right-hand pages. You can find this one [here](https://drive.google.com/uc?download=view&id=0Bz5r07H3CVJAeF9icE9wN3hBeTA).
+The first is for a [printable version](https://drive.google.com/uc?download=view&id=0Bz5r07H3CVJAeF9icE9wN3hBeTA). All sections start on right-hand pages.
 
-The second is for a version to be kept on your computer. Sections start on any new page, reducing the overall page count. You can find this one [here](https://drive.google.com/uc?download=view&id=0Bz5r07H3CVJAdThnREJ2bXhaMHM).
+The second is for a [digital version](https://drive.google.com/uc?download=view&id=0Bz5r07H3CVJAdThnREJ2bXhaMHM). Sections start on any new page, reducing the overall page count.
 
 Both are living documents and will be updated semi-regularly by me, when I have time. Usually I wait until I have a stck of 20 or 30 changes to make. All updates are captured in the documents' changelogs.
 
