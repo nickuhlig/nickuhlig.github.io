@@ -1,0 +1,8 @@
+---
+layout: default
+---
+<script type="text/javascript">getRandomImage(random_images_array);</script>
+<div class="content">
+  {{ content }}
+</div>
+{% include autoreload-in-debug.html %}
