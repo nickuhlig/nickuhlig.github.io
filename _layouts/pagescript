@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-<script type="text/javascript">getRandomImage(random_images_array);</script>
 <div class="content">
+<script type="text/javascript">getRandomImage(random_images_array);</script>
   {{ content }}
 </div>
 {% include autoreload-in-debug.html %}
