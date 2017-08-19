@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: pagescript
 title: Made in Canada - a guide.
 ---
 
