@@ -2,7 +2,7 @@
 layout: page
 title: Made in Canada - a guide.
 ---
-![Farine Five Roses in Montreal](/res/farine5roses.jpg) "Farine Five Roses")
+![Farine Five Roses in Montreal](/res/farine5roses.jpg "Farine Five Roses")
 
 ## Made in Canada — a guide.
 
