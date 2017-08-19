@@ -2,17 +2,6 @@
 layout: page
 title: Made in Canada - a guide.
 ---
-<script type="text/javascript">
-var random_images_array = ['farine5roses_1.jpg', 'lynncanyon_1.jpg', 'maligne_1.jpg', 'nipekamewriversaskatchewan_1.jpg', 'openicenunavut_1.jpg', 'torontoskyline_1.jpg', 'woodbinehotelwinnipeg_1.jpg'];
-
-function getRandomImage(imgAr, path) {
-path = path || '/res/'; // default path here
-var num = Math.floor( Math.random() * imgAr.length );
-var img = imgAr[ num ];
-var imgStr = '<img src="' + path + img + '" alt = "">';
-document.write(imgStr); document.close();
-}
-</script>
 
 ## Made in Canada — a guide.
 
