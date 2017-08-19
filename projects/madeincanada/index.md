@@ -3,6 +3,8 @@ layout: page
 title: Made in Canada - a guide.
 ---
 
+<script type="text/javascript">getRandomImage(random_images_array);</script>
+
 ## Made in Canada — a guide.
 
 I have compiled a list of clothing labels and companies that manufacture their products (at least some of them) in Canada. 
