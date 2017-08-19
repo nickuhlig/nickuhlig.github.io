@@ -1,4 +1,4 @@
-﻿---
+---
 layout: page
 title: About
 ---
@@ -11,12 +11,12 @@ My name is Nick Uhlig. I'm a Canadian chemist currently living in Edmonton, Albe
 
 I'm originally from Sault Ste. Marie, Ontario, and I lived in Montréal, Québec for several years while attending [McGill University](https://www.mcgill.ca) for my PhD studies.
 
-I frequently work on projects that have nothing to do with my field of study. Some of these projects can be lumped under music & arts, fashion, and design. Mostly I just consider them dumb shit that I do to entertain myself.
+You can find me elsewhere on the internet using the links at the bottom of the page. 
 
 ### This site
 
 This is a site maintained as a portal to my online presence, and also a rarely-updated set of writings about things related to chemistry, beer brewing, clothing, and music.
 
-You can find me elsewhere on the internet using the links at the bottom of the page. 
+I frequently work on projects that have nothing to do with my field of study. Some of these projects can be lumped under music & arts, fashion, and design. Mostly I just consider them dumb shit that I do to entertain myself. You can find these here as well.
 
-The typefaces used on this website are ITC Avant Garde Pro Bold and Roboto. Icons used were created by [DaanKirk](https://thenounproject.com/daandirk/collection/platonic-solids/). Almost all of the base code for this website was gratuitously stolen from [someone much smarter than me](https://rsms.me). These shameless thefts are fortunately forgiven due to the kind use of the Creative Commons license by their originators.
+The typefaces used on this website are ITC Avant Garde Pro Bold and Inconsolata. Icons used were created by [DaanKirk](https://thenounproject.com/daandirk/collection/platonic-solids/). Code for this website was mostly stolen/adapted from [someone much smarter than me](https://rsms.me). These are licensed under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
