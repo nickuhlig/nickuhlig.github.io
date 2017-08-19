@@ -3,7 +3,7 @@ layout: page
 title: Made in Canada - a guide.
 ---
 
-<pre><code><script type="text/javascript">getRandomImage(random_images_array);</script></code></pre>
+<pre><script type="text/javascript">getRandomImage(random_images_array);</script></pre>
 
 ## Made in Canada — a guide.
 
