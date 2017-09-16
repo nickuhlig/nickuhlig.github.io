@@ -54,7 +54,11 @@ p, ul, ol, pre, blockquote, hr, object { margin: 1em 0; }
 pre, code, tt {
   font-family: inherit;
 }
+
 img { border:none; vertical-align:bottom; }
+
+img.inlineblock (display:inline-block; vertical-align:middle; }
+
 hr { height:1px; border:none; background-color:#ddd; }
 
 /* headings */
