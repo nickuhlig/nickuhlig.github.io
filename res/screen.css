@@ -57,7 +57,11 @@ pre, code, tt {
 
 img { border:none; vertical-align:bottom; }
 
-img.inlineblock { display:inline-block; vertical-align:middle; }
+img.inline { 
+   display:inline; 
+   text-align:center; 
+   vertical-align:middle; 
+                }
 
 hr { height:1px; border:none; background-color:#ddd; }
 
