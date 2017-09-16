@@ -380,9 +380,12 @@ img.profile-picture {
 }
 
 img.inline { 
-   display:inline; 
+   display:inline-block; 
+   margin-left: auto;
+   margin-right: auto;
    text-align:center; 
    vertical-align:middle; 
+   max-width:128px;
 }
 
 
