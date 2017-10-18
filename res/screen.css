@@ -4,15 +4,20 @@
 
 
 @font-face {
-  font-family: 'Radikal-Black';
-  src: url('Radikal-Black.woff') format('woff'), url('Radikal-Black.ttf') format('truetype'), url('radikal-black.otf') format('opentype'), url('Radikal-Black.eot') format('eot');
+  font-family: 'ITCAvantGardePro-Bold';
+  src: url('ITCAvantGardePro-Bold.woff') format('woff'), url('ITCAvantGardePro-Bold.ttf') format('truetype'), url('ITCAvantGardePro-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'RepilicaStd-Regular';
+  src: url('RepilicaStd-Regular.woff') format('woff'), url('RepilicaStd-Regular.ttf') format('truetype'), url('RepilicaStd-Regular.otf') format('opentype'), url('RepilicaStd-Regular.eot') format('eot?');
 }
 
 * { margin:0; padding:0; font-family:inherit;}
 body {
   background: #fff;
   color: #222;
-  font-family: Inconsolata, Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-family: "ReplicaStd-Regular", Inconsolata, Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size:16px;
   line-height:1.5;
 
@@ -35,7 +40,7 @@ body {
 }
 
 body h1,h2,h3,h4,h5,h6 {
-  font-family: 'Radikal-Black';
+  font-family: 'ITCAvantGardePro-Bold';
   font-weight:400;
   color: #040404;
   margin: 1.618em 0 0.7em 0;
@@ -61,7 +66,7 @@ hr { height:1px; border:none; background-color:#ddd; }
 
 /* headings */
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Radikal-Black';
+  font-family: 'ITCAvantGardePro-Bold';
   font-weight:400;
   color: #040404;
   margin: 1.618em 0 0.7em 0;
@@ -184,6 +189,7 @@ header * {
     /*background: rgba(0,255,190,0.3);*/
     font-size:12px;
     font-family:
+    "ReplicaStd-Regular",
     -apple-system,
     BlinkMacSystemFont,
     "Segoe UI",
