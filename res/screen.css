@@ -492,6 +492,12 @@ footer {
     width:1em;
     height:1em;
     opacity:0.5;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+  /* ...and now for the proper property */
+     transition:.5s;
   }
   footer a[href] {
     color: #333;
@@ -500,6 +506,12 @@ footer {
     text-decoration: none;
     text-shadow: none;
     opacity: 0.5;
+    -o-transition:.5s;
+   -ms-transition:.5s;
+   -moz-transition:.5s;
+   -webkit-transition:.5s;
+  /* ...and now for the proper property */
+    transition:.5s;
   }
   footer a[href]:hover {
     opacity:1.0;
