@@ -130,25 +130,31 @@ a[href^="#"]:hover {
 
 a.img { border:none; background:transparent !important; }
 
-header a.img {
+#cf {
+  position:relative;
+  height:36;
+  width:300px;
+  margin: auto 0;
+}
+
+#cf img {
   position:absolute;
-  vertical-align:middle;
-  left:0;
+    left:0;
   -webkit-transition: opacity 0.5s ease-in-out;
   -moz-transition: opacity 0.5s ease-in-out;
   -o-transition: opacity 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out;
 }
 
-a.img.bottom {
+#cf img.bottom {
   opacity: 0;
 }
 
-header a.img.bottom:hover {
+#cf img.bottom:hover {
   opacity: 1;
 }
 
-a.img.top:hover {
+#cf img.top:hover {
   opacity:0;
 }
 
