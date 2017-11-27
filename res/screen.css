@@ -130,14 +130,7 @@ a[href^="#"]:hover {
 
 a.img { border:none; background:transparent !important; }
 
-#cf {
-  position:relative;
-  height:inherit;
-  width:250px;
-  margin:0;
-}
-
-#cf img {
+header a.img {
   position:absolute;
   vertical-align:middle;
   left:0;
@@ -147,7 +140,15 @@ a.img { border:none; background:transparent !important; }
   transition: opacity 0.5s ease-in-out;
 }
 
-#cf img.top:hover {
+a.img.bottom {
+  opacity: 0;
+}
+
+header a.img.bottom:hover {
+  opacity: 1;
+}
+
+a.img.top:hover {
   opacity:0;
 }
 
