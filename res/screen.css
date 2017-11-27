@@ -132,13 +132,14 @@ a.img { border:none; background:transparent !important; }
 
 #cf {
   position:relative;
-  height:32px;
-  width:215.517px;
+  height:inherit;
+  width:250px;
   margin:0;
 }
 
 #cf img {
   position:absolute;
+  vertical-align:middle;
   left:0;
   -webkit-transition: opacity 0.5s ease-in-out;
   -moz-transition: opacity 0.5s ease-in-out;
@@ -371,7 +372,7 @@ div.content.photo {
     border-right:1px solid rgba(0,0,0,0.1);
   }
   div.content sup {
-    vertical-align: super;
+    f-align: super;
     font-size: 65%;
     padding:0;
     margin:0;
