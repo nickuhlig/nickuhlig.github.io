@@ -131,13 +131,24 @@ a[href^="#"]:hover {
 a.img { border:none; background:transparent !important; }
 
 a img.hover {
-    display: none;
+    display: inherit;
+    opacity: 0;
+    background-image: url(/res/logo normal.svg);
+    background-repeat: no-repeat;
+    background-size: inherit;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+  /* ...and now for the proper property */
+    transition:.5s;
 }
 a img.default {
     display: inherit;
 }
 a:hover img.hover {
     display: inherit;
+    opacity: 1;
 }
 a:hover img.default {
     display: none;
