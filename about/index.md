@@ -19,4 +19,6 @@ This is a site maintained as a portal to my online presence, and also a rarely-u
 
 I frequently work on projects that have nothing to do with my field of study. Some of these projects can be lumped under music & arts, fashion, and design. Mostly I just consider them dumb shit that I do to entertain myself. You can find these here as well.
 
+The picture of me shown here was taken by my good friend [@internetpat](https://www.instagram.com/internetpat/?hl=en).
+
 The typefaces used on this website are MEGAZERO by [Alex Trochut](https://alextrochut.com/), ITC Avant Garde Pro Bold, and Replica (in its Light and Regular weights). Code for this website was mostly adapted from [someone much smarter than me](https://rsms.me). This code is licensed under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
