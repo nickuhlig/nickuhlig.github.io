@@ -152,6 +152,22 @@ a.img { border:none; background:transparent !important; }
   cursor: pointer;
 }
 
+/* Special Rules for Mobile */
+@media only screen and (max-width: 480px) {
+.mobile {display:inherit}
+.desktop {display:none}
+}
+
+/* Special Rules for Tablets */
+@media only screen and (min-width: 481px) {
+.mobile {display:none}
+}
+
+/* Special Rules for Desktops */
+@media only screen and (min-width: 1024px) {
+.mobile {display:none}
+}
+
 /* anchors: headings */
 h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a, h1 > a:hover,
     h2 > a:hover, h3 > a:hover, h4 > a:hover, h5 > a:hover, h6 > a:hover {
