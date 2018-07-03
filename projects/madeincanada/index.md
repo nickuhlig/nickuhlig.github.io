@@ -7,7 +7,9 @@ title: Made in Canada - a guide.
 
 I have compiled a list of clothing labels and companies that manufacture their products (at least some of them) in Canada. 
 
-The list was posted on reddit twice ([1](https://www.reddit.com/r/canada/comments/4bkiwa/madeincanada_clothing_a_list/), [2](https://www.reddit.com/r/canada/comments/58n18s/made_in_canada_clothing_a_list_v_20/)), and received a lot of feedback, as well as suggestions for brands to be added/included in the list.
+The list was posted on reddit thrice ([1](https://www.reddit.com/r/canada/comments/4bkiwa/madeincanada_clothing_a_list/), [2](https://www.reddit.com/r/canada/comments/58n18s/made_in_canada_clothing_a_list_v_20/), [3](https://www.reddit.com/r/canada/comments/7fo5wm/made_in_canada_clothing_a_list_v_30/)), and received a lot of feedback, as well as suggestions for brands to be added/included in the list.
+
+The list now numbers over 400 companies ranging from diapers to cosmetics to leather to eyewear.
 
 Recently, the process of translating it into Français has begun, though it has not yet been completed.
 
@@ -21,7 +23,7 @@ Both are living documents and will be updated semi-regularly by me, when I have 
 
 ### Reasons for making this list
 
-I made the list because I felt that at the time there was no single, truly excellent resource for finding this information. The initial version of the list was cobbled together from random observations that I had made, and included maybe thirty brands and companies. It has now expanded to nearly two hundred, spanning things from cosmetics to eyeglasses to diapers. 
+I made the list because I felt that at the time there was no single, truly excellent resource for finding this information. The initial version of the list was cobbled together from random observations that I had made, and included maybe thirty brands and companies. It has now expanded to more than four hundred.
 
 I want to support companies and organizations that employ Canadians, treat their employees fairly, and adhere to Canada's higher standards of environmental and ethical practices. While buying things made in Canada is not an iron-clad guarantee of this, it is a start. Additionally, I feel that how we dress and provide for ourselves has a lot to do with developing local culture, something of which Canada is often accused of having very little.
 
