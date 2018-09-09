@@ -1,6 +1,14 @@
 {% capture build_version %}{{ site.time | date: "%Y%m%d%H%M%S" }}{% endcapture %}<!DOCTYPE HTML>
 <html lang="en" prefix="og: http://ogp.me/ns#">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+	  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125483736-1"></script>
+	  <script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		  gtag('config', 'UA-125483736-1');
+	  </script>
     <meta charset="utf-8">
     <title>{% if page.title %}{{ page.title }} &mdash; {% endif %}Nick Uhlig</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -9,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
     <link rel="stylesheet" media="all" href="/res/screen.css?v={{ build_version }}" type="text/css">
-    <link rel="alternate" type="application/atom+xml" title="Rasmus Andersson" href="/atom.xml">
+    <link rel="alternate" type="application/atom+xml" title="Nick Uhlig" href="/atom.xml">
     <link rel="shortcut icon" href="/favicon.ico?v={{ build_version }}">
     <link rel="icon" type="image/ico" sizes="any" href="/favicon.ico?v={{ build_version }}">
     <link rel="apple-touch-icon" href="/favicon.ico?v={{ build_version }}">
@@ -54,7 +62,6 @@
     {% endif %}
 	<script type="text/javascript">
 		var random_images_array = ['farine5roses_1.jpg', 'lynncanyon_1.jpg', 'maligne_1.jpg', 'nipekamewriversaskatchewan_1.jpg', 'openicenunavut_1.jpg', 'torontoskyline_1.jpg', 'woodbinehotelwinnipeg_1.jpg'];
-
 		function getRandomImage(imgAr, path) {
 		path = path || '/res/'; // default path here
 		var num = Math.floor( Math.random() * imgAr.length );
