@@ -1,14 +1,6 @@
 {% capture build_version %}{{ site.time | date: "%Y%m%d%H%M%S" }}{% endcapture %}<!DOCTYPE HTML>
 <html lang="en" prefix="og: http://ogp.me/ns#">
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-	  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125483736-1"></script>
-	  <script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-		  gtag('config', 'UA-125483736-1');
-	  </script>
     <meta charset="utf-8">
     <title>{% if page.title %}{{ page.title }} &mdash; {% endif %}Nick Uhlig</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -99,8 +91,7 @@
       </p>
     </footer>
     {% endunless %}
-    
     {% include highlight.html %}
     {% include analytics.html %}
-  </body>
+	  </body>
 </html>
