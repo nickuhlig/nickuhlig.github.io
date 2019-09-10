@@ -15,11 +15,9 @@ The typefaces used on this website are MEGAZERO by [Alex Trochut](https://alextr
 
 ## About me
 
-<img src="me.jpg" class="profile-picture" width="128" align="right">
-
 I'm a Canadian chemist living in Edmonton, Alberta. I currently work for Gilead Alberta ULC, a subsidiary of [Gilead Sciences](https://www.gilead.com), a California-based pharmaceutical company.
 
-I'm originally from Sault Ste. Marie, Ontario, and I lived in Montréal, Québec for several years while attending [McGill University](https://www.mcgill.ca) for my PhD studies.
+I'm originally from Sault Ste. Marie, Ontario. I speak English natively, French at an intermediate level, and Czech at an ever-decaying level (I was, at one time, fluent).
 
 You can find me elsewhere on the internet using the links at the bottom of the page. 
 
