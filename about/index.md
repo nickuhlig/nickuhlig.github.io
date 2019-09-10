@@ -26,10 +26,17 @@ You can find me elsewhere on the internet using the links at the bottom of the p
 ### Charities & initiatives I support
 
 [Canadian Civil Liberties Association](https://ccla.org/)
+
 [Eden Reforestation Projects](https://edenprojects.org/)
+
 [Edmonton Food Bank](https://www.edmontonsfoodbank.com/)
+
 [Edmonton Humane Society](https://www.edmontonhumanesociety.com/)
+
 [Evergreen](https://www.evergreen.ca/)
+
 [Kiva](https://www.kiva.org/)
+
 [Project Wren](https://projectwren.com/)
+
 
