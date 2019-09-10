@@ -17,7 +17,7 @@ The typefaces used on this website are MEGAZERO by [Alex Trochut](https://alextr
 
 <img src="me.jpg" class="profile-picture" width="128" align="right">
 
-My name is Nick Uhlig. I'm a Canadian chemist living in Edmonton, Alberta. I currently work for Gilead Alberta ULC, a subsidiary of [Gilead Sciences](https://www.gilead.com), a California-based pharmaceutical company.
+I'm a Canadian chemist living in Edmonton, Alberta. I currently work for Gilead Alberta ULC, a subsidiary of [Gilead Sciences](https://www.gilead.com), a California-based pharmaceutical company.
 
 I'm originally from Sault Ste. Marie, Ontario, and I lived in Montréal, Québec for several years while attending [McGill University](https://www.mcgill.ca) for my PhD studies.
 
