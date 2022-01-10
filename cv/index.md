@@ -5,9 +5,11 @@ title: C.V.
 
 ## Curriculum vitae
 
-What follows is an abbreviated list of my work experience, education, and publication history, in reverse chronological order. More detail can be found on my [LinkedIn](https://www.linkedin.com/in/nickuhlig) page.
+What follows is an abbreviated list of my work experience, education, and publication history, in reverse chronological order. More detail can be found on my [LinkedIn](https://www.linkedin.com/in/nickuhlig) page. A regularly-updated PDF copy of my CV can be found [here](https://drive.google.com/file/d/1-8Mr0312DrqyfxUzTAjTLFc53KQXcF60/view?usp=sharing).
 
 ### Education
+
+**2021 to present** — Completing an online [professional program in regulatory affairs](https://extension.berkeley.edu/public/category/courseCategoryCertificateProfile.do?method=load&certificateId=17180) from [UC Berkeley Extension](https://extension.berkeley.edu/) to further my knowledge of regulatory aspects in API manufacture and marketing.
 
 **2010 to 2015** — Studied as a PhD candidate in the [Li Research Group](http://www.cjlimcgill.ca/prof-chao-jun-li/) at [McGill University](https://www.mcgill.ca). I worked on developing new methods for the formation of carbon-carbon bonds in aqueous and semi-aqueous media, especially using transition metal catalysis. Successfully defended my PhD thesis, entitled *Make mine nearly neat: aqueous and high-concentration reactions for selective carbon-carbon bond formation.* on 2015-06-19.
 
@@ -17,7 +19,9 @@ What follows is an abbreviated list of my work experience, education, and public
 
 ### Work
 
-**2016 to present** — Process chemist at Gilead Alberta ULC. Areas of focus include sustainable chemistry and the use of continuous flow chemistry for efficient synthesis of preclinical APIs and intermediates.
+**2022 to Present** — Senior scientist in chemical development for Sage Therapeutics. Helping to develop new GABA and NMDA positive allosteric modulators as APIs for the treatment of brain and neuropsychiatric disorders.
+
+**2016 to 2022** — Process chemist at Gilead Alberta ULC. Areas of focus include sustainable chemistry and the use of continuous flow chemistry for efficient synthesis of preclinical APIs and intermediates. Projects have included APIs for liver diseases, HIV, COVID-19, inflammation, and IBD.
 
 **2010 to 2015** — During my PhD studies, aside from the many hours spent doing research, I supervised six undergraduate research assistants, and acted as a laboratory and tutorial teaching assistant for several organic and general chemistry classes.
 
