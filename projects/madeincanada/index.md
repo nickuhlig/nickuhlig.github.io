@@ -39,6 +39,6 @@ This won't happen until I have time, but when it does, I will probably post abou
 
 Own a company that manufactures its clothing within Canada? Know of one that I haven't listed? [Contact me!](mailto:clothingfromcanada@gmail.com)
 
-###Buy me a coffee
+### Buy me a coffee
 
 This list took a great deal of time to put together. If you find it useful and would like to show your appreciation, please consider [sending me a few bucks on PayPal](https://www.paypal.com/donate?hosted_button_id=CAJTZYXP6EG3W). I promise to only use it for frivolous purchases.
