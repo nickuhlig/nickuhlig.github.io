@@ -5,13 +5,13 @@ title: Made in Canada - a guide.
 
 ## Made in Canada — a guide.
 
+**Note: this project has not been updated sionce 2019 and should be considered deprecated. I plan to add a large number of updates in 2022, and I apologize to anyone who has contacted me at the below e-mail address and not received a reply.**
+
 I have compiled a list of clothing labels and companies that manufacture their products (at least some of them) in Canada. 
 
 The list was posted on reddit thrice ([1](https://www.reddit.com/r/canada/comments/4bkiwa/madeincanada_clothing_a_list/), [2](https://www.reddit.com/r/canada/comments/58n18s/made_in_canada_clothing_a_list_v_20/), [3](https://www.reddit.com/r/canada/comments/7fo5wm/made_in_canada_clothing_a_list_v_30/)), and received a lot of feedback, as well as suggestions for brands to be added/included in the list.
 
 The list now numbers over 400 companies ranging from diapers to cosmetics to leather to eyewear.
-
-Recently, the process of translating it into Français has begun, though it has not yet been completed.
 
 To download the list you have two options.
 
@@ -38,3 +38,7 @@ This won't happen until I have time, but when it does, I will probably post abou
 ### Contributing
 
 Own a company that manufactures its clothing within Canada? Know of one that I haven't listed? [Contact me!](mailto:clothingfromcanada@gmail.com)
+
+###Buy me a coffee
+
+This list took a great deal of time to put together. If you find it useful and would like to show your appreciation, please consider [sending me a few bucks on PayPal](https://www.paypal.com/donate?hosted_button_id=CAJTZYXP6EG3W). I promise to only use it for frivolous purchases.
