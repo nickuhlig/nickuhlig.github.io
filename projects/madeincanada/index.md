@@ -5,7 +5,7 @@ title: Made in Canada - a guide.
 
 ## Made in Canada — a guide.
 
-**Note: this project has not been updated sionce 2019 and should be considered deprecated. I plan to add a large number of updates in 2022, and I apologize to anyone who has contacted me at the below e-mail address and not received a reply.**
+**Note: this project has not been updated sionce 2019 and should be considered deprecated. I apologize to anyone who has contacted me at the below e-mail address and not received a reply.**
 
 I have compiled a list of clothing labels and companies that manufacture their products (at least some of them) in Canada. 
 
