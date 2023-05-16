@@ -13,9 +13,9 @@ The typefaces used on this website are MEGAZERO by [Alex Trochut](https://alextr
 
 ## About me
 
-I'm a Canadian chemist currently living in Edmonton, Alberta. I currently work for [Sage Therapeutics](https://www.sagerx.com), a Boston-based pharmaceutical company.
+I'm a Canadian chemist currently living in Toronto, Ontario. I currently work for [Sage Therapeutics](https://www.sagerx.com), a Boston-based pharmaceutical company.
 
-I'm originally from Sault Ste. Marie, Ontario. I speak English natively, French at an intermediate level, and Czech at an ever-decaying level (I was, at one time, fluent).
+I'm originally from Sault Ste. Marie, Ontario and I've lived in Guelph, Toronto, Montreal, Edmonton, and Prague (Czechia). I speak English natively, French at an intermediate level, and Czech at an ever-decaying level (I was, at one time, fluent).
 
 You can find me elsewhere on the internet using the links at the bottom of the page. 
 
