@@ -13,7 +13,7 @@ The typefaces used on this website are MEGAZERO by [Alex Trochut](https://alextr
 
 ## About me
 
-I'm a Canadian chemist currently living in Toronto, Ontario. I currently work for [Sage Therapeutics](https://www.sagerx.com), a Boston-based pharmaceutical company.
+I'm a Canadian chemist currently living in the Boston, Massachusetts area. I currently work for a pharmaceutical company in the area.
 
 I'm originally from Sault Ste. Marie, Ontario and I've lived in Guelph, Toronto, Montreal, Edmonton, and Prague (Czechia). I speak English natively, French at an intermediate level, and Czech at an ever-decaying level (I was, at one time, fluent).
 
@@ -25,14 +25,8 @@ You can find me elsewhere on the internet using the links at the bottom of the p
 
 [Eden Reforestation Projects](https://edenprojects.org/)
 
-[RCFordward's](https://rcforward.org/) [Climate Change](https://rcforward.org/fund/rc-forward-climate-change-fund/) and [Human Empowerment](https://rcforward.org/fund/human-empowerment/) funds
-
 [Evergreen](https://www.evergreen.ca/)
 
-[Kiva](https://www.kiva.org/)
-
 [Project Wren](https://projectwren.com/)
-
-[Bullfrog Power](https://bullfrogpower.com/)
 
 
