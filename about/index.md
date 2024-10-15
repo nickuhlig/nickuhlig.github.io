@@ -13,7 +13,7 @@ The typefaces used on this website are MEGAZERO by [Alex Trochut](https://alextr
 
 ## About me
 
-I'm a Canadian chemist currently living in the Boston, Massachusetts area. I currently work for a pharmaceutical company in the area.
+I'm a Canadian chemist currently living in the Boston, Massachusetts area. I work in biotech doing process chemistry.
 
 I'm originally from Sault Ste. Marie, Ontario and I've lived in Guelph, Toronto, Montreal, Edmonton, and Prague (Czechia). I speak English natively, French at an intermediate level, and Czech at an ever-decaying level (I was, at one time, fluent).
 
