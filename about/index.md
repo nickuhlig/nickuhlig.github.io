@@ -5,7 +5,7 @@ title: About
 
 ## About this site
 
-This is a site maintained as a portal to my online presence, and also a rarely-updated set of writings about things related to chemistry, beer brewing, clothing, and music.
+This is a site maintained as a portal to my online presence, and also a rarely-updated set of writings about things related to chemistry, beer brewing, clothing, and music. As of 2024 I also write some novice poetry.
 
 I frequently work on projects that have nothing to do with my field of study. Some of these projects can be lumped under music & arts, fashion, and design. Mostly I just consider them things that I do to entertain myself. You can find these here as well, usually under [projects](https://nickuhlig.github.io/projects/).
 
@@ -18,15 +18,3 @@ I'm a Canadian chemist currently living in the Boston, Massachusetts area. I wor
 I'm originally from Sault Ste. Marie, Ontario and I've lived in Guelph, Toronto, Montreal, Edmonton, and Prague (Czechia). I speak English natively, French at an intermediate level, and Czech at an ever-decaying level (I was, at one time, fluent).
 
 You can find me elsewhere on the internet using the links at the bottom of the page. 
-
-### Charities & initiatives I support
-
-[United Nations Population Fund](https://www.unfpa.org/)
-
-[Eden Reforestation Projects](https://edenprojects.org/)
-
-[Evergreen](https://www.evergreen.ca/)
-
-[Project Wren](https://projectwren.com/)
-
-
