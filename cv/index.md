@@ -19,7 +19,9 @@ What follows is an abbreviated list of my work experience, education, and public
 
 ### Work
 
-**2022 to Present** — Senior scientist in chemical development for Sage Therapeutics. Helping to develop new GABA and NMDA positive allosteric modulators as APIs for the treatment of brain and neuropsychiatric disorders.
+**2024 to present** - Principal scientist in process chemistry for Kymera Therapeutics. Overseeing development of pre-clinical and clinical-stage heterobifunctional degraders (often called PROTACS, though this is in fact a registered trademark, not a generic term) for treatment of inflammatory and immunological diseases.
+
+**2022 to 2023** — Senior scientist in chemical development for Sage Therapeutics. Helping to develop new GABA and NMDA positive allosteric modulators as APIs for the treatment of brain and neuropsychiatric disorders.
 
 **2016 to 2022** — Process chemist at Gilead Alberta ULC. Areas of focus include sustainable chemistry and the use of continuous flow chemistry for efficient synthesis of preclinical APIs and intermediates. Projects have included APIs for liver diseases, HIV, COVID-19, inflammation, and IBD.
 
