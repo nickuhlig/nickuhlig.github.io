@@ -61,7 +61,10 @@
 		var imgStr = '<img src="' + path + img + '" alt = "">';
 		document.write(imgStr); document.close();
 							}
-	</script>
+	</script> 
+  	{% if site.tags != "" %}
+  		{% include collecttags.html %}
+	{% endif %}
   </head>
   <body{% if page.wide_layout %} class="wide"{% endif %}>
     <header{% unless page.date %} class="main"{% endunless %}>
