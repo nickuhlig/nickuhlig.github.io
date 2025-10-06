@@ -71,10 +71,10 @@
 	    <div id="cf"><a href="/"><img class="desktop bottom" src="/res/logo glitch.svg"><img class="desktop top" src="/res/logo normal.svg"><img class="mobile bottom" src="/res/short logo glitch.svg"><img class="mobile top" src="/res/short logo normal.svg"></a></div>
       <ul class="navigation">
         <!-- <li><a href="//perjuhlig.tumblr.com/" title="My wedding website">Another thing I did</a></li> -->
-        <li><a href="/about/"{% if page.url contains "/about/" %}class="active"{% endif %}>About</a></li>
+        <li><a href="/about/"{% if page.url contains "/about/" %}class="active"{% endif %} title="About me">About</a></li>
 	<li><a href="/projects/"{% if page.url contains "/projects/" %}class="active"{% endif %} title="Projects I am or was involved in">Projects</a></li>
-        <!-- <li><a href="/archive/"{% if page.url contains "/archive/" %}class="active"{% endif %} title="Archived articles">Archive</a></li> -->
-	<li><a href="/cv/"{% if page.url contains "/cv/" %}class="active"{% endif %}>C.V.</a></li>
+    <li><a href="/archive/"{% if page.url contains "/archive/" %}class="active"{% endif %} title="Tag cloud">Archive</a></li>
+	<li><a href="/cv/"{% if page.url contains "/cv/" %}class="active"{% endif %} title="My curriculum vitae">C.V.</a></li>
 	<li><a href="mailto:nickuhlig@gmail.com">Contact</a></li>
       </ul>
     </header>
