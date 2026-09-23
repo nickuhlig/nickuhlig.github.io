@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-## About this site
+## about this site
 
 This is a site maintained as a portal to my online presence, and also a rarely-updated set of writings about things related to chemistry, beer brewing, clothing, and music. As of 2024 I also write some novice poetry.
 
@@ -11,7 +11,7 @@ I frequently work on projects that have nothing to do with my field of study. So
 
 The typefaces used on this website are MEGAZERO by [Alex Trochut](https://alextrochut.com/), ITC Avant Garde Pro Bold, and Replica (in its Light and Regular weights). Code for this website was mostly adapted from [someone much smarter than me](https://rsms.me). This code is licensed under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
 
-## About me
+## about me
 
 I'm a Canadian chemist currently living in the Boston, Massachusetts area. I work in biotech doing process chemistry.
 
