@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: chemistry"
+title: "CHEMISTRY"
 tag: chemistry
 ---
