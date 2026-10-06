@@ -94,6 +94,12 @@
       </p>
     </footer>
     {% endunless %}
+	<script>
+  		document.querySelector('.nav-toggle').addEventListener('click', function () {
+    		var open = document.querySelector('header').classList.toggle('nav-open');
+    		this.setAttribute('aria-expanded', open);
+  		});
+	</script>
     {% include analytics.html %}
 	  </body>
 </html>
