@@ -1,50 +1,9 @@
 ---
+layout: page
 title: Free Recipe Database
 tags: cooking
 ---
 
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Free Recipe Database</title>
-<!--
-  Client-side export tool for a scraped recipe library hosted alongside this page
-  (families/<recipe_id>/<id>_<slug>.json, same shape recipe_export.py uses).
-  Ports that script's HTML/ORF/Paprika builders to JS so the whole thing can run as a
-  static GitHub Pages site with no backend -- PDF is intentionally NOT offered here
-  (client-side PDF rendering is meaningfully lower quality; use recipe_export.py
-  locally for that).
-
-  SETUP:
-    1. Generate manifest.json locally: python mealime_generate_manifest.py --out-file <clone>/manifest.json
-    2. Publish this folder as-is (index.html, export-logic.js, manifest.json, families/)
-       on any static host. Everything is fetched by relative path, so no token or API
-       access is needed.
--->
-<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, Segoe UI, Arial, sans-serif; max-width: 760px; margin: 2em auto; padding: 0 1em; background: #fff; color: #1a1a1a; }
-h1 { font-size: 1.5em; }
-fieldset { border: 1px solid #ccc; border-radius: 8px; margin-bottom: 1em; padding: 0.8em 1em; }
-legend { font-weight: 600; padding: 0 0.4em; }
-label.opt { display: inline-flex; align-items: center; gap: 0.35em; margin: 0.2em 1em 0.2em 0; }
-input[type="text"], input[type="password"] { width: 100%; padding: 0.5em; box-sizing: border-box; font-family: monospace; }
-button { padding: 0.6em 1.2em; font-size: 1em; cursor: pointer; border-radius: 6px; border: 1px solid #888; background: #f0f0f0; }
-button:disabled { opacity: 0.5; cursor: default; }
-#status { white-space: pre-wrap; font-family: monospace; font-size: 0.85em; background: #f7f7f7; border-radius: 6px; padding: 0.8em; margin-top: 1em; max-height: 300px; overflow-y: auto; }
-.hint { color: #666; font-size: 0.85em; }
-@media (prefers-color-scheme: dark) {
-  body { background: #1a1a1a; color: #eee; }
-  fieldset { border-color: #444; }
-  #status { background: #262626; }
-  button { background: #333; color: #eee; border-color: #555; }
-  .hint { color: #aaa; }
-}
-</style>
-</head>
-<body>
 <h1>Recipe Export</h1>
 <p class="hint">A big database of freely-available recipes in structured JSON format, which can be exported to fit into your favourite meal planning or recipe keeper app. Pick your units, servings, filters and format, then export -- everything happens in this browser tab; the recipe files are downloaded from this site and nothing is uploaded anywhere. This process will take a few minutes.</p>
 
