@@ -1,19 +1,13 @@
 "use strict";
 /*
  * Client-side port of the local export tool's JSON/HTML/ORF/Paprika/Norish builders, plus a
- * GitHub Contents API layer to pull recipe JSON straight from a private repo. Kept
- * as one plain script (no build step) so this whole thing is just static files
- * GitHub Pages can serve as-is. Mirrors the local Python tool's logic closely and
- * deliberately.
+ * small fetch layer that pulls manifest.json and the recipe files from alongside this page
+ * (same folder on the same site -- no token, no API). Kept as one plain script (no build
+ * step) so this whole thing is just static files GitHub Pages can serve as-is. Mirrors the
+ * local Python tool's logic closely and deliberately.
  */
 
-const REPO_OWNER = "nickuhlig";
-const REPO_NAME = "free-recipe-database";
-const PAT_STORAGE_KEY = "recipe_export_pat";
 const CONCURRENCY = 6;
-const LARGE_EXPORT_WARNING_THRESHOLD = 3000; // GitHub REST API allows 5000 req/hour
-
-document.getElementById("repo-label").textContent = `${REPO_OWNER}/${REPO_NAME}`;
 
 // --- id reference tables (mirrors the local Python tool's id reference module) --
 
@@ -651,15 +645,11 @@ function sanitizeFilename(name) {
   return (cleaned || "untitled").slice(0, 150);
 }
 
-// --- GitHub API layer ------------------------------------------------------------
+// --- Fetch layer -----------------------------------------------------------------
 
-function githubHeaders(pat) {
-  return { Authorization: `Bearer ${pat}`, Accept: "application/vnd.github.raw" };
-}
-
-async function fetchRepoFile(pat, path, asBinary) {
-  const url = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${path}`;
-  const resp = await fetch(url, { headers: githubHeaders(pat) });
+// Paths are relative to this page, so it works wherever the folder is hosted.
+async function fetchRepoFile(path, asBinary) {
+  const resp = await fetch(path);
   if (!resp.ok) throw new Error(`${resp.status} fetching ${path}`);
   return asBinary ? resp.arrayBuffer() : resp.text();
 }
@@ -689,15 +679,9 @@ function log(msg) {
   statusEl.scrollTop = statusEl.scrollHeight;
 }
 
-const patInput = document.getElementById("pat");
-patInput.value = localStorage.getItem(PAT_STORAGE_KEY) || "";
-
 document.getElementById("export-btn").addEventListener("click", async () => {
   const btn = document.getElementById("export-btn");
   statusEl.textContent = "";
-  const pat = patInput.value.trim();
-  if (!pat) { log("Enter a GitHub personal access token first."); return; }
-  localStorage.setItem(PAT_STORAGE_KEY, pat);
 
   const selectedUnits = [...document.querySelectorAll('input[name="units"]:checked')].map(el => el.value);
   const selectedServings = [...document.querySelectorAll('input[name="servings"]:checked')].map(el => Number(el.value));
@@ -710,7 +694,7 @@ document.getElementById("export-btn").addEventListener("click", async () => {
   btn.disabled = true;
   try {
     log("Fetching manifest.json...");
-    const manifestText = await fetchRepoFile(pat, "manifest.json", false);
+    const manifestText = await fetchRepoFile("manifest.json", false);
     const manifest = JSON.parse(manifestText);
     log(`Manifest loaded: ${Object.keys(manifest.entries).length} recipes total.`);
 
@@ -744,14 +728,6 @@ document.getElementById("export-btn").addEventListener("click", async () => {
     log(`${matches.length} recipe(s) match your filters.`);
     if (!matches.length) { log("Nothing to export."); return; }
 
-    if (matches.length > LARGE_EXPORT_WARNING_THRESHOLD) {
-      const proceed = confirm(
-        `This will fetch ${matches.length} files from GitHub's API, which allows 5,000 ` +
-        `requests/hour. That may take a while and could hit the limit. Continue anyway?`
-      );
-      if (!proceed) { log("Cancelled."); return; }
-    }
-
     const familyIds = [...new Set(matches.map(([, e]) => e.recipe_id))];
     log(`Spanning ${familyIds.length} recipe families. Fetching recipe files (concurrency ${CONCURRENCY})...`);
 
@@ -761,7 +737,7 @@ document.getElementById("export-btn").addEventListener("click", async () => {
     let done = 0, failed = 0;
 
     await mapWithConcurrency(matches, CONCURRENCY, async ([id, entry]) => {
-      const text = await fetchRepoFile(pat, entry.path, false);
+      const text = await fetchRepoFile(entry.path, false);
       const record = JSON.parse(text);
       const familyFolder = zip.folder("families").folder(String(entry.recipe_id));
       const baseName = `${record.id}_${record.slug}`;
@@ -804,7 +780,7 @@ document.getElementById("export-btn").addEventListener("click", async () => {
       const thumbFamilies = familyIds.filter(fid => manifest.family_thumbnails[String(fid)]);
       await mapWithConcurrency(thumbFamilies, CONCURRENCY, async fid => {
         const thumbName = manifest.family_thumbnails[String(fid)];
-        const bytes = await fetchRepoFile(pat, `families/${fid}/${thumbName}`, true);
+        const bytes = await fetchRepoFile(`families/${fid}/${thumbName}`, true);
         thumbBytes.set(String(fid), bytes);
         if (selectedFormats.includes("html")) zip.folder("families").folder(String(fid)).file(thumbName, bytes);
       });
