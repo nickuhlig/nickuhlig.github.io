@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Recipe Export</title>
+<!--
+  Client-side export tool for a scraped recipe library hosted alongside this page
+  (families/<recipe_id>/<id>_<slug>.json, same shape recipe_export.py uses).
+  Ports that script's HTML/ORF/Paprika builders to JS so the whole thing can run as a
+  static GitHub Pages site with no backend -- PDF is intentionally NOT offered here
+  (client-side PDF rendering is meaningfully lower quality; use recipe_export.py
+  locally for that).
+
+  SETUP:
+    1. Generate manifest.json locally: python mealime_generate_manifest.py --out-file <clone>/manifest.json
+    2. Publish this folder as-is (index.html, export-logic.js, manifest.json, families/)
+       on any static host. Everything is fetched by relative path, so no token or API
+       access is needed.
+-->
+<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, Segoe UI, Arial, sans-serif; max-width: 760px; margin: 2em auto; padding: 0 1em; background: #fff; color: #1a1a1a; }
+h1 { font-size: 1.5em; }
+fieldset { border: 1px solid #ccc; border-radius: 8px; margin-bottom: 1em; padding: 0.8em 1em; }
+legend { font-weight: 600; padding: 0 0.4em; }
+label.opt { display: inline-flex; align-items: center; gap: 0.35em; margin: 0.2em 1em 0.2em 0; }
+input[type="text"], input[type="password"] { width: 100%; padding: 0.5em; box-sizing: border-box; font-family: monospace; }
+button { padding: 0.6em 1.2em; font-size: 1em; cursor: pointer; border-radius: 6px; border: 1px solid #888; background: #f0f0f0; }
+button:disabled { opacity: 0.5; cursor: default; }
+#status { white-space: pre-wrap; font-family: monospace; font-size: 0.85em; background: #f7f7f7; border-radius: 6px; padding: 0.8em; margin-top: 1em; max-height: 300px; overflow-y: auto; }
+.hint { color: #666; font-size: 0.85em; }
+@media (prefers-color-scheme: dark) {
+  body { background: #1a1a1a; color: #eee; }
+  fieldset { border-color: #444; }
+  #status { background: #262626; }
+  button { background: #333; color: #eee; border-color: #555; }
+  .hint { color: #aaa; }
+}
+</style>
+</head>
+<body>
+<h1>Recipe Export</h1>
+<p class="hint">Pick your filters and format, then export -- everything happens in this browser tab; the recipe files are downloaded from this site and nothing is uploaded anywhere.</p>
+
+<fieldset>
+<legend>Units</legend>
+<label class="opt"><input type="radio" name="units" value="US"> US customary</label>
+<label class="opt"><input type="radio" name="units" value="Metric" checked> Metric</label>
+</fieldset>
+
+<fieldset>
+<legend>Servings</legend>
+<label class="opt"><input type="radio" name="servings" value="2"> 2</label>
+<label class="opt"><input type="radio" name="servings" value="4" checked> 4</label>
+<label class="opt"><input type="radio" name="servings" value="6"> 6</label>
+</fieldset>
+
+<fieldset>
+<legend>Menu <span class="hint">(exports one recipe per family -- the closest match to your choice, see below)</span></legend>
+<label class="opt"><input type="radio" name="menu" value="classic" checked> Classic</label>
+<label class="opt"><input type="radio" name="menu" value="vegetarian"> Vegetarian</label>
+<label class="opt"><input type="radio" name="menu" value="pescatarian"> Pescatarian</label>
+<label class="opt"><input type="radio" name="menu" value="paleo"> Paleo</label>
+<label class="opt"><input type="radio" name="menu" value="vegan"> Vegan</label>
+<label class="opt"><input type="radio" name="menu" value="low-carb"> Low Carb</label>
+<label class="opt"><input type="radio" name="menu" value="keto"> Keto</label>
+<p class="hint">A family with several diet-swap versions of the same recipe (Classic, Vegan, a gluten-free version, ...) only ever exports ONE of them &mdash; the one that matches your choice here, avoids everything checked below, and (if more than one still qualifies) is explicitly labeled for your choice, then closest to the original. Want more than one menu? Export them in separate runs. A family with no recipe matching your choice (and avoiding everything checked below) is excluded entirely.</p>
+</fieldset>
+
+<fieldset>
+<legend>Dietary restrictions to avoid <span class="hint">(checking any drops, before the Menu pick above is made, any candidate that violates one or more of the checked restrictions &mdash; unknown restrictions are treated as violating; a family left with nothing that satisfies both Menu and these is excluded entirely)</span></legend>
+<div id="restriction-checkboxes"></div>
+</fieldset>
+
+<fieldset>
+<legend>Formats</legend>
+<label class="opt"><input type="checkbox" name="formats" value="json"> Original JSON</label>
+<label class="opt"><input type="checkbox" name="formats" value="html" checked> HTML (schema.org)</label>
+<label class="opt"><input type="checkbox" name="formats" value="orf"> Open Recipe Format (YAML)</label>
+<label class="opt"><input type="checkbox" name="formats" value="paprika"> Paprika</label>
+<label class="opt"><input type="checkbox" name="formats" value="norish"> Norish (.norishrecipes)</label>
+<p class="hint">Norish scales servings and converts units itself, which is why units and servings above are single-choice. A recipe whose family has nothing at all at the serving size you picked is still included, at whichever size it does offer (see Menu above) -- true for every format, not just Norish.</p>
+</fieldset>
+
+<button id="export-btn">Export &amp; Download</button>
+<div id="status"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pako/2.1.0/pako.min.js"></script>
+<script src="export-logic.js"></script>
+</body>
+</html>
