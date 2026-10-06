@@ -76,6 +76,13 @@ fieldset {
   margin-bottom: 1em;
 }
 
+label.opt {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;               /* space between the checkbox and its label text */
+  margin-right: 1.2em;      /* space between one option and the next */
+}
+
 body h1,h2,h3,h4,h5,h6 {
   font-family: 'Radikal-Black-Italic';
   font-weight:400;
