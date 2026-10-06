@@ -193,14 +193,14 @@ a.img { border:none; background:transparent !important; }
 }
 
 /* Special Rules for Mobile */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
 .mobile {display:inherit}
 .desktop {display:none}
 #cf {max-width:64px}
 }
 
 /* Special Rules for Tablets */
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 701px) {
 .mobile {display:none}
 }
 
