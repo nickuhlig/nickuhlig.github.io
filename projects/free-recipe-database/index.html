@@ -8,13 +8,13 @@ tags: cooking
 <p class="hint">A big database of freely-available recipes in structured JSON format, which can be exported to fit into your favourite meal planning or recipe keeper app. Pick your units, servings, filters and format, then export -- everything happens in this browser tab; the recipe files are downloaded from this site and nothing is uploaded anywhere. This process will take a few minutes.</p>
 
 <fieldset>
-<legend>Units</legend>
+<legend> Units </legend>
 <label class="opt"><input type="radio" name="units" value="US"> US customary</label>
 <label class="opt"><input type="radio" name="units" value="Metric" checked> Metric</label>
 </fieldset>
 
 <fieldset>
-<legend>Number of servings</legend>
+<legend> Number of servings </legend>
 <label class="opt"><input type="radio" name="servings" value="2"> 2</label>
 <label class="opt"><input type="radio" name="servings" value="4" checked> 4</label>
 <label class="opt"><input type="radio" name="servings" value="6"> 6</label>
@@ -22,7 +22,7 @@ tags: cooking
 </fieldset>
 
 <fieldset>
-<legend>Menu <span class="hint">(exports one recipe per family -- the closest match to your choice, see below)</span></legend>
+<legend> Menu <span class="hint"></span></legend>
 <label class="opt"><input type="radio" name="menu" value="classic" checked> Classic</label>
 <label class="opt"><input type="radio" name="menu" value="vegetarian"> Vegetarian</label>
 <label class="opt"><input type="radio" name="menu" value="pescatarian"> Pescatarian</label>
@@ -30,17 +30,17 @@ tags: cooking
 <label class="opt"><input type="radio" name="menu" value="vegan"> Vegan</label>
 <label class="opt"><input type="radio" name="menu" value="low-carb"> Low Carb</label>
 <label class="opt"><input type="radio" name="menu" value="keto"> Keto</label>
-<p class="hint">Want more than one menu? Export them in separate runs. A family with no recipe matching your choice (and avoiding everything checked below) is excluded entirely.</p>
+<p class="hint">Exports one recipe per famil, selecting the closest match to your choice. Want more than one menu? Export them in separate runs. A family with no recipe matching your choice (and avoiding everything checked below) is excluded entirely.</p>
 </fieldset>
 
 <fieldset>
-<legend>Ingredients to avoid</legend>
+<legend> Ingredients to avoid </legend>
 <div id="restriction-checkboxes"></div>
 <p class="hint">Eliminates any candidate that violates one or more of the checked restrictions. Unknown restrictions are treated as violating. A family left with nothing that satisfies both Menu and these is excluded entirely.</p>
 </fieldset>
 
 <fieldset>
-<legend>Formats</legend>
+<legend> Formats </legend>
 <label class="opt"><input type="checkbox" name="formats" value="json"> Original JSON</label>
 <label class="opt"><input type="checkbox" name="formats" value="html" checked> HTML (schema.org)</label>
 <label class="opt"><input type="checkbox" name="formats" value="orf"> Open Recipe Format (YAML)</label>
@@ -49,7 +49,7 @@ tags: cooking
 <p class="hint">Norish scales servings and converts units itself, which is why units and servings above are single-choice. A recipe whose family has nothing at all at the serving size you picked is still included, at whichever size it does offer (see Menu above) -- true for every format, not just Norish.</p>
 </fieldset>
 
-<button id="export-btn">Export &amp; Download</button>
+<button id="export-btn"> Export &amp; Download </button>
 <div id="status"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
