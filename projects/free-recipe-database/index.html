@@ -8,7 +8,7 @@ tags: cooking
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Recipe Export</title>
+<title>Free Recipe Database</title>
 <!--
   Client-side export tool for a scraped recipe library hosted alongside this page
   (families/<recipe_id>/<id>_<slug>.json, same shape recipe_export.py uses).
@@ -55,10 +55,11 @@ button:disabled { opacity: 0.5; cursor: default; }
 </fieldset>
 
 <fieldset>
-<legend>Servings</legend>
+<legend>Number of servings</legend>
 <label class="opt"><input type="radio" name="servings" value="2"> 2</label>
 <label class="opt"><input type="radio" name="servings" value="4" checked> 4</label>
 <label class="opt"><input type="radio" name="servings" value="6"> 6</label>
+<p class="hint">Some recipes are only available in a single scale--these will be included no matter what. Also, be aware that in Paprika, scaling only impacts the master ingredient list, not ingredient quantities written within steps.</p>
 </fieldset>
 
 <fieldset>
@@ -70,11 +71,11 @@ button:disabled { opacity: 0.5; cursor: default; }
 <label class="opt"><input type="radio" name="menu" value="vegan"> Vegan</label>
 <label class="opt"><input type="radio" name="menu" value="low-carb"> Low Carb</label>
 <label class="opt"><input type="radio" name="menu" value="keto"> Keto</label>
-<p class="hint">A family with several diet-swap versions of the same recipe (Classic, Vegan, a gluten-free version, ...) only ever exports ONE of them &mdash; the one that matches your choice here, avoids everything checked below, and (if more than one still qualifies) is explicitly labeled for your choice, then closest to the original. Want more than one menu? Export them in separate runs. A family with no recipe matching your choice (and avoiding everything checked below) is excluded entirely.</p>
+<p class="hint">Want more than one menu? Export them in separate runs. A family with no recipe matching your choice (and avoiding everything checked below) is excluded entirely.</p>
 </fieldset>
 
 <fieldset>
-<legend>Dietary restrictions to avoid <span class="hint">(checking any drops, before the Menu pick above is made, any candidate that violates one or more of the checked restrictions &mdash; unknown restrictions are treated as violating; a family left with nothing that satisfies both Menu and these is excluded entirely)</span></legend>
+<legend>Ingredients to avoid<span class="hint">(checking any drops, before the Menu pick above is made, any candidate that violates one or more of the checked restrictions &mdash; unknown restrictions are treated as violating; a family left with nothing that satisfies both Menu and these is excluded entirely)</span></legend>
 <div id="restriction-checkboxes"></div>
 </fieldset>
 
