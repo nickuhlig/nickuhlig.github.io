@@ -322,6 +322,54 @@ header * {
     color:black;
   }
 
+/* hamburger button: hidden on desktop */
+.nav-toggle { display: none; }
+
+@media only screen and (max-width: 700px) {
+  header { position: relative; }
+
+  .nav-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    align-self: center;
+    padding: 8px;
+    background: none;
+    border: 0;
+    cursor: pointer;
+  }
+  .nav-toggle span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: #040404;
+  }
+
+  /* the menu becomes a dropdown panel under the header */
+  header ul.navigation {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 10;
+    flex-direction: column;
+    min-width: 10em;
+    padding: 0.5em 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    opacity: 1;
+  }
+  header.nav-open ul.navigation { display: flex; }
+
+  header ul.navigation li a[href],
+  header ul.navigation li:last-child a[href] {
+    display: block;
+    padding: 0.6em 1.2em;
+    color: #040404;
+  }
+}
+
 /* main */
 #main { margin-bottom: 3em; }
 
