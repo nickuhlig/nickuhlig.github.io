@@ -78,12 +78,26 @@ const NUTRITION_DISPLAY = [
   ["carbs", "Carbohydrates", "g", 1], ["fiber", "Fiber", "g", 1], ["sugars", "Sugars", "g", 1],
   ["protein", "Protein", "g", 1], ["sodium", "Sodium", "mg", 1], ["cholesterol", "Cholesterol", "mg", 1],
 ];
+// Python's f"{value:.{decimals}f}" rounds the EXACT binary value, ties (only possible when
+// value*2^(decimals+1) is an odd integer, e.g. 46.25 at 1 decimal) to even. JS toFixed also rounds
+// the exact binary value but sends ties up (46.25 -> "46.3" vs Python's "46.2"), so only ties need
+// special handling to keep every format identical to the local Python tool's output.
+function pyToFixed(value, decimals) {
+  const doubled = value * 2 ** (decimals + 1);
+  if (Number.isInteger(doubled) && Math.abs(doubled % 2) === 1) {
+    const scaled = value * 10 ** decimals;
+    const floor = Math.floor(scaled);
+    return ((floor % 2 === 0 ? floor : floor + 1) / 10 ** decimals).toFixed(decimals);
+  }
+  return value.toFixed(decimals);
+}
+
 function nutritionLines(nutrition) {
   const lines = [];
   for (const [key, label, unit, decimals] of NUTRITION_DISPLAY) {
     const value = nutrition[key];
     if (value === undefined || value === null) continue;
-    lines.push(`${label}: ${value.toFixed(decimals)}${unit ? " " + unit : ""}`);
+    lines.push(`${label}: ${pyToFixed(value, decimals)}${unit ? " " + unit : ""}`);
   }
   return lines;
 }
@@ -101,7 +115,7 @@ function aminoAcidLines(nutrition) {
   for (const [key, label] of AMINO_ACID_FIELDS) {
     const value = nutrition[key];
     if (value === undefined || value === null) continue;
-    lines.push(`${label}: ${value.toFixed(2)} g`);
+    lines.push(`${label}: ${pyToFixed(value, 2)} g`);
   }
   return lines;
 }
@@ -290,7 +304,140 @@ function buildOrf(record) {
 
 // --- Paprika --------------------------------------------------------------------
 
-function buildPaprika(record) {
+// Port of recipe_export.py's build_paprika(): same field set (reverse-engineered from a real
+// .paprikarecipe export) -- Paprika rejects records that lack the uid/created/hash/photo fields it
+// writes itself. Keep the two in step.
+
+const PAPRIKA_UUID_NAMESPACE_HEX = "d38f3b0a6e0a4b0d9c8f9e6f1e6e6c9a";  // same as the Python tool
+const SHA1_INIT = [0x67452301, 0xEFCDAB89, 0x98BADCFE, 0x10325476, 0xC3D2E1F0];
+const SHA256_INIT = [0x6a09e667, 0xbb67ae85, 0x3c6ef372, 0xa54ff53a, 0x510e527f, 0x9b05688c, 0x1f83d9ab, 0x5be0cd19];
+const SHA256_K = new Uint32Array([
+  0x428a2f98, 0x71374491, 0xb5c0fbcf, 0xe9b5dba5, 0x3956c25b, 0x59f111f1, 0x923f82a4, 0xab1c5ed5,
+  0xd807aa98, 0x12835b01, 0x243185be, 0x550c7dc3, 0x72be5d74, 0x80deb1fe, 0x9bdc06a7, 0xc19bf174,
+  0xe49b69c1, 0xefbe4786, 0x0fc19dc6, 0x240ca1cc, 0x2de92c6f, 0x4a7484aa, 0x5cb0a9dc, 0x76f988da,
+  0x983e5152, 0xa831c66d, 0xb00327c8, 0xbf597fc7, 0xc6e00bf3, 0xd5a79147, 0x06ca6351, 0x14292967,
+  0x27b70a85, 0x2e1b2138, 0x4d2c6dfc, 0x53380d13, 0x650a7354, 0x766a0abb, 0x81c2c92e, 0x92722c85,
+  0xa2bfe8a1, 0xa81a664b, 0xc24b8b70, 0xc76c51a3, 0xd192e819, 0xd6990624, 0xf40e3585, 0x106aa070,
+  0x19a4c116, 0x1e376c08, 0x2748774c, 0x34b0bcb5, 0x391c0cb3, 0x4ed8aa4a, 0x5b9cca4f, 0x682e6ff3,
+  0x748f82ee, 0x78a5636f, 0x84c87814, 0x8cc70208, 0x90befffa, 0xa4506ceb, 0xbef9a3f7, 0xc67178f2,
+]);
+
+// Pads a message the way SHA-1 and SHA-256 both require (0x80, zeros, 64-bit big-endian bit length).
+function shaPad(bytes) {
+  const padded = new Uint8Array(((bytes.length + 9 + 63) >> 6) << 6);
+  padded.set(bytes);
+  padded[bytes.length] = 0x80;
+  const view = new DataView(padded.buffer);
+  const bitLength = bytes.length * 8;
+  view.setUint32(padded.length - 8, Math.floor(bitLength / 0x100000000));
+  view.setUint32(padded.length - 4, bitLength >>> 0);
+  return view;
+}
+
+// Synchronous SHA-1/SHA-256 (crypto.subtle is async and only exists in secure contexts). Used only
+// to derive ids and content fingerprints, nothing security-sensitive.
+function sha1Bytes(bytes) {
+  const view = shaPad(bytes);
+  const h = [...SHA1_INIT];
+  const w = new Uint32Array(80);
+  for (let off = 0; off < view.byteLength; off += 64) {
+    for (let i = 0; i < 16; i++) w[i] = view.getUint32(off + i * 4);
+    for (let i = 16; i < 80; i++) {
+      const x = w[i - 3] ^ w[i - 8] ^ w[i - 14] ^ w[i - 16];
+      w[i] = (x << 1) | (x >>> 31);
+    }
+    let [a, b, c, d, e] = h;
+    for (let i = 0; i < 80; i++) {
+      let f, k;
+      if (i < 20) { f = (b & c) | (~b & d); k = 0x5A827999; }
+      else if (i < 40) { f = b ^ c ^ d; k = 0x6ED9EBA1; }
+      else if (i < 60) { f = (b & c) | (b & d) | (c & d); k = 0x8F1BBCDC; }
+      else { f = b ^ c ^ d; k = 0xCA62C1D6; }
+      const t = (((a << 5) | (a >>> 27)) + f + e + k + w[i]) >>> 0;
+      e = d; d = c; c = ((b << 30) | (b >>> 2)) >>> 0; b = a; a = t;
+    }
+    h[0] = (h[0] + a) >>> 0; h[1] = (h[1] + b) >>> 0; h[2] = (h[2] + c) >>> 0;
+    h[3] = (h[3] + d) >>> 0; h[4] = (h[4] + e) >>> 0;
+  }
+  const out = new Uint8Array(20);
+  const outView = new DataView(out.buffer);
+  h.forEach((v, i) => outView.setUint32(i * 4, v));
+  return out;
+}
+
+function sha256Bytes(bytes) {
+  const view = shaPad(bytes);
+  const h = [...SHA256_INIT];
+  const w = new Uint32Array(64);
+  const rotr = (x, n) => (x >>> n) | (x << (32 - n));
+  for (let off = 0; off < view.byteLength; off += 64) {
+    for (let i = 0; i < 16; i++) w[i] = view.getUint32(off + i * 4);
+    for (let i = 16; i < 64; i++) {
+      const s0 = rotr(w[i - 15], 7) ^ rotr(w[i - 15], 18) ^ (w[i - 15] >>> 3);
+      const s1 = rotr(w[i - 2], 17) ^ rotr(w[i - 2], 19) ^ (w[i - 2] >>> 10);
+      w[i] = w[i - 16] + s0 + w[i - 7] + s1;
+    }
+    let [a, b, c, d, e, f, g, hh] = h;
+    for (let i = 0; i < 64; i++) {
+      const t1 = (hh + (rotr(e, 6) ^ rotr(e, 11) ^ rotr(e, 25)) + ((e & f) ^ (~e & g)) + SHA256_K[i] + w[i]) >>> 0;
+      const t2 = ((rotr(a, 2) ^ rotr(a, 13) ^ rotr(a, 22)) + ((a & b) ^ (a & c) ^ (b & c))) >>> 0;
+      hh = g; g = f; f = e; e = (d + t1) >>> 0; d = c; c = b; b = a; a = (t1 + t2) >>> 0;
+    }
+    h[0] = (h[0] + a) >>> 0; h[1] = (h[1] + b) >>> 0; h[2] = (h[2] + c) >>> 0; h[3] = (h[3] + d) >>> 0;
+    h[4] = (h[4] + e) >>> 0; h[5] = (h[5] + f) >>> 0; h[6] = (h[6] + g) >>> 0; h[7] = (h[7] + hh) >>> 0;
+  }
+  const out = new Uint8Array(32);
+  const outView = new DataView(out.buffer);
+  h.forEach((v, i) => outView.setUint32(i * 4, v));
+  return out;
+}
+
+function bytesToHex(bytes) { return [...bytes].map(b => b.toString(16).padStart(2, "0")).join(""); }
+function hexToUuid(hex) {
+  return `${hex.slice(0, 8)}-${hex.slice(8, 12)}-${hex.slice(12, 16)}-${hex.slice(16, 20)}-${hex.slice(20)}`;
+}
+
+// uuid5(PAPRIKA_UUID_NAMESPACE, String(recordId)), uppercased -- identical to the Python tool's uid,
+// so re-importing an updated export overwrites rather than duplicates in apps that dedupe on it.
+function paprikaUid(recordId) {
+  const nsBytes = Uint8Array.from(PAPRIKA_UUID_NAMESPACE_HEX.match(/../g).map(b => parseInt(b, 16)));
+  const nameBytes = new TextEncoder().encode(String(recordId));
+  const input = new Uint8Array(nsBytes.length + nameBytes.length);
+  input.set(nsBytes);
+  input.set(nameBytes, nsBytes.length);
+  const bytes = sha1Bytes(input).slice(0, 16);
+  bytes[6] = (bytes[6] & 0x0f) | 0x50;
+  bytes[8] = (bytes[8] & 0x3f) | 0x80;
+  return hexToUuid(bytesToHex(bytes)).toUpperCase();
+}
+
+function randomUuid4() {
+  const bytes = crypto.getRandomValues(new Uint8Array(16));
+  bytes[6] = (bytes[6] & 0x0f) | 0x40;
+  bytes[8] = (bytes[8] & 0x3f) | 0x80;
+  return hexToUuid(bytesToHex(bytes));
+}
+
+function bytesToBase64(bytes) {
+  let binary = "";
+  for (let i = 0; i < bytes.length; i += 0x8000) binary += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
+  return btoa(binary);
+}
+
+// JSON with object keys sorted at every level, like Python's json.dumps(sort_keys=True).
+function sortedJson(value) {
+  return JSON.stringify(value, (key, v) => (v && typeof v === "object" && !Array.isArray(v))
+    ? Object.fromEntries(Object.entries(v).sort(([a], [b]) => (a < b ? -1 : a > b ? 1 : 0)))
+    : v);
+}
+
+function localTimestamp(date) {
+  const p = n => String(n).padStart(2, "0");
+  return `${date.getFullYear()}-${p(date.getMonth() + 1)}-${p(date.getDate())} ` +
+         `${p(date.getHours())}:${p(date.getMinutes())}:${p(date.getSeconds())}`;
+}
+
+function buildPaprika(record, imageBytes = null, imageExt = ".jpg") {
   const ingredientsText = record.ingredients.map(ingredientLine).join("\n");
 
   const directionsParts = record.instructions.map(step => {
@@ -306,20 +453,51 @@ function buildPaprika(record) {
   if (restrictions.length) notesParts.push("Contains/violates: " + restrictions.join(", "));
   if (record.cookwares && record.cookwares.length) notesParts.push("Equipment: " + record.cookwares.map(c => c.name).join(", "));
 
-  return {
-    uid: `RECIPE-${record.id}`,
+  const fields = {
+    uid: paprikaUid(record.id),
+    created: localTimestamp(new Date()),
     name: record.name,
+    description: "",
     ingredients: ingredientsText,
     directions: directionsText,
-    servings: String(record.serving_count),
-    total_time: record.cooking_minutes ? `${record.cooking_minutes} min` : "",
-    source: "",
-    categories: exportTagNames(record),
     notes: notesParts.join("\n"),
     nutritional_info: [...nutritionLines(record.nutrition || {}), ...aminoAcidLines(record.nutrition || {})].join("\n"),
-    image_url: "",
+    prep_time: "",
+    cook_time: record.cooking_minutes ? `${record.cooking_minutes} min` : "",
+    total_time: "",
+    difficulty: "",
+    servings: `${record.serving_count} servings`,
     rating: 0,
+    source: "",
+    source_url: record.source_url || "",
+    photo: null,
+    photo_large: null,
+    photo_hash: null,
+    image_url: null,
+    categories: exportTagNames(record),
+    photos: [],
   };
+
+  // Real Paprika exports store the image twice: a top-level photo/photo_data/photo_hash trio plus a
+  // "photos" array entry whose "filename" matches photo_large and whose own "hash" is the SHA-256 of
+  // ITS data. There's only one source image, so it's reused for both slots (confirmed against a real
+  // export: photo_hash == sha256(photo_data's decoded bytes), uppercase).
+  if (imageBytes) {
+    const photoFilename = `${randomUuid4().toUpperCase()}${imageExt}`;
+    const photoLargeFilename = `${randomUuid4().toUpperCase()}${imageExt}`;
+    const photoB64 = bytesToBase64(imageBytes);
+    const photoHash = bytesToHex(sha256Bytes(imageBytes)).toUpperCase();
+    fields.photo = photoFilename;
+    fields.photo_data = photoB64;
+    fields.photo_hash = photoHash;
+    fields.photo_large = photoLargeFilename;
+    fields.photos = [{ name: "1", filename: photoLargeFilename, hash: photoHash, data: photoB64 }];
+  }
+
+  // No known-correct formula for the top-level hash from a single example, so (like the Python tool)
+  // it's a content fingerprint: SHA-256 of the other fields, canonically serialized.
+  fields.hash = bytesToHex(sha256Bytes(new TextEncoder().encode(sortedJson(fields)))).toUpperCase();
+  return fields;
 }
 
 // --- Norish -----------------------------------------------------------------------
@@ -733,6 +911,7 @@ document.getElementById("export-btn").addEventListener("click", async () => {
 
     const zip = new JSZip();
     const paprikaBundleEntries = [];
+    const paprikaPending = [];
     const norishEntries = [];
     let done = 0, failed = 0;
 
@@ -758,10 +937,8 @@ document.getElementById("export-btn").addEventListener("click", async () => {
         familyFolder.file(`${baseName}.orf.yaml`, jsyaml.dump(buildOrf(record), { sortKeys: false }));
       }
       if (selectedFormats.includes("paprika")) {
-        const paprikaJson = JSON.stringify(buildPaprika(record));
-        const gz = pako.gzip(paprikaJson);
-        familyFolder.file(`${baseName}.paprikarecipe`, gz);
-        paprikaBundleEntries.push([`${sanitizeFilename(record.name)}_${record.id}.paprikarecipe`, gz]);
+        // Built after the thumbnails are fetched (below): Paprika embeds the photo in each record.
+        paprikaPending.push({ record, recipeId: entry.recipe_id, familyFolder, baseName });
       }
 
       done++;
@@ -774,8 +951,8 @@ document.getElementById("export-btn").addEventListener("click", async () => {
       }
     });
 
-    const thumbBytes = new Map();  // family id -> thumbnail bytes, for the Norish archive
-    if (selectedFormats.includes("html") || wantNorish) {
+    const thumbBytes = new Map();  // family id -> thumbnail bytes, for the Norish archive and Paprika photos
+    if (selectedFormats.includes("html") || wantNorish || paprikaPending.length) {
       log("Fetching thumbnails...");
       const thumbFamilies = familyIds.filter(fid => manifest.family_thumbnails[String(fid)]);
       await mapWithConcurrency(thumbFamilies, CONCURRENCY, async fid => {
@@ -784,6 +961,19 @@ document.getElementById("export-btn").addEventListener("click", async () => {
         thumbBytes.set(String(fid), bytes);
         if (selectedFormats.includes("html")) zip.folder("families").folder(String(fid)).file(thumbName, bytes);
       });
+    }
+
+    if (paprikaPending.length) {
+      log("Building Paprika recipes...");
+      for (const { record, recipeId, familyFolder, baseName } of paprikaPending) {
+        const thumbName = manifest.family_thumbnails[String(recipeId)];
+        const thumbData = thumbBytes.get(String(recipeId));
+        const imageExt = thumbName ? thumbName.slice(thumbName.lastIndexOf(".")) : ".jpg";
+        const paprikaJson = JSON.stringify(buildPaprika(record, thumbData ? new Uint8Array(thumbData) : null, imageExt));
+        const gz = pako.gzip(paprikaJson);
+        familyFolder.file(`${baseName}.paprikarecipe`, gz);
+        paprikaBundleEntries.push([`${sanitizeFilename(record.name)}_${record.id}.paprikarecipe`, gz]);
+      }
     }
 
     if (wantNorish && norishEntries.length) {
