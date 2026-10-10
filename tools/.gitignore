@@ -1,0 +1,17 @@
+# The captured Albertsons login session -- NEVER commit this (it carries account details and tokens).
+albertsons_headers.json
+
+# Generated, machine-local files
+albertsons_sweep_results/
+logs/
+.weekly_refresh.lock
+*_report.json
+*.tmp
+*.rejected.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.idea/

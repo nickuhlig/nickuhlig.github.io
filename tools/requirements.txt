@@ -1,0 +1,6 @@
+# Python 3.10 or newer.
+requests>=2.31
+
+# Only for recipe_export.py (not needed by the weekly refresh):
+pyyaml>=6.0
+# playwright>=1.40     # only for recipe_export.py --formats pdf (then: playwright install chromium)

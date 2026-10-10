@@ -1,0 +1,12 @@
+# Runs recipe-refresh.service every Sunday at 03:00 (the Pi's local time). Persistent=true means a run
+# missed because the Pi was off or rebooting happens at the next boot instead of being skipped.
+[Unit]
+Description=Weekly recipe library refresh
+
+[Timer]
+OnCalendar=Sun *-*-* 03:00:00
+Persistent=true
+RandomizedDelaySec=15min
+
+[Install]
+WantedBy=timers.target

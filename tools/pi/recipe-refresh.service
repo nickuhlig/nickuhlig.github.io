@@ -1,0 +1,21 @@
+# systemd unit for the weekly library refresh. Install (as the user that owns the repo checkout):
+#   sudo cp recipe-refresh.service recipe-refresh.timer /etc/systemd/system/
+#   sudo systemctl daemon-reload && sudo systemctl enable --now recipe-refresh.timer
+# Edit User and the two paths below to match your Pi first.
+[Unit]
+Description=Weekly recipe library refresh (Albertsons pipeline, manifest, git push)
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=pi
+WorkingDirectory=/home/pi/nickuhlig.github.io/tools
+# Optional: put NTFY_URL=https://ntfy.sh/your-secret-topic (and NOTIFY_ON_SUCCESS=1) in this file.
+EnvironmentFile=-/home/pi/.config/recipe-refresh.env
+ExecStart=/home/pi/nickuhlig.github.io/tools/.venv/bin/python weekly_refresh.py
+# The full sweep alone can take ~40 minutes.
+TimeoutStartSec=4h
+# Exit code 2 = finished and pushed, but the network stages were skipped/failed; that is "attention",
+# not a crash, so don't let systemd mark the unit failed for it.
+SuccessExitStatus=2

@@ -5,6 +5,9 @@ markdown: kramdown
 # Since GH pages override this to "true", we test this value to see if we are running locally
 safe: false
 include: [".well-known"]
+# tools/ holds the refresh scripts (not part of the site). Note: setting `exclude` replaces Jekyll's
+# default list, so the usual suspects are repeated here.
+exclude: [tools, Gemfile, Gemfile.lock, node_modules, vendor]
 encoding: UTF-8
 # highlighter: none
 # syntax_highlighter: none
