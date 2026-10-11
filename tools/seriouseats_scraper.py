@@ -1,0 +1,308 @@
+#!/usr/bin/env python3
+"""
+Step 1 of importing Serious Eats recipes: find the recipe pages and fetch them. This tool does NOT
+interpret a page -- turning one into a library record is external_recipes.py (step 2). Keeping them
+apart means a parsing mistake is fixed by re-running step 2 over the pages already saved, not by
+fetching thousands of pages again. Later the two can be chained in one pass (fetch_page() returns the
+HTML, so a parser can be handed it directly instead of via the saved file).
+
+COMMANDS
+    python seriouseats_scraper.py discover           read the sitemap, record every recipe URL
+    python seriouseats_scraper.py fetch --limit 5    fetch pages that are new or changed (try a few first)
+    python seriouseats_scraper.py fetch              ... all of them (~1.5 h for ~5,400 pages at 1/s)
+    python seriouseats_scraper.py status             counts by state
+    python seriouseats_scraper.py run                discover, then fetch (what a scheduled job would call)
+
+THE REGISTRY  <library>/source_registry.csv  (committed with the library; one row per URL)
+    source,url,id,lastmod,fetched_lastmod,fetched_at,status
+  `id` is the URL's permanent library id (SOURCE_ID_BASE + n, handed out in sorted URL order, never
+  reused), so the same recipe keeps the same id on every machine. `lastmod` is the sitemap's
+  last-modified date (checked against each page's own dateModified: they agree). A page is re-fetched
+  only when its lastmod is newer than the one it was fetched at ("stale").
+  status:  new -> ok | gone (404/410) | norecipe (page has no Recipe data) | error (retried next run)
+           ok -> stale (changed on the site) -> ok
+
+THE SAVED PAGES  <raw-dir>/<source>/<id>.html.gz   (default tools/raw_pages/, git-ignored)
+
+POLITE AND SAFE
+  * ~1 request per second (--delay, with jitter), resumable: the registry is saved every 25 pages and
+    on Ctrl-C, so a rerun carries on where it stopped.
+  * Plain, honest user agent; no attempt to look like a browser.
+  * If the site starts refusing (403/429/503, or a challenge page instead of a recipe) five times in a
+    row, the run STOPS with exit code 3 and says so -- it never tries to get around a block.
+
+Needs `pip install requests`.
+"""
+
+import argparse
+import csv
+import gzip
+import random
+import re
+import sys
+import time
+from datetime import datetime
+from pathlib import Path
+
+import requests
+
+from external_recipes import SOURCE_ID_BASE
+from library_paths import DEFAULT_LIBRARY_DIR, TOOLS_DIR
+
+SOURCE = "seriouseats"
+BASE_URL = "https://www.seriouseats.com"
+RECIPE_PATH_RE = re.compile(r"-recipe(-\d{6,})?$")   # "...-recipe" (older) and "...-recipe-12168126" (newer)
+USER_AGENT = "Mozilla/5.0 (compatible; recipe-library-scraper/1.0)"
+COLUMNS = ["source", "url", "id", "lastmod", "fetched_lastmod", "fetched_at", "status"]
+DEFAULT_RAW_DIR = TOOLS_DIR / "raw_pages"
+MAX_CONSECUTIVE_BLOCKS = 5
+SAVE_EVERY = 25
+EXIT_OK, EXIT_ERROR, EXIT_BLOCKED = 0, 1, 3
+
+
+class Blocked(Exception):
+    """The site is refusing requests; stop rather than push on."""
+
+
+# --- registry -------------------------------------------------------------------------------
+
+def load_registry(path: Path) -> dict[tuple[str, str], dict]:
+    rows = {}
+    if path.exists():
+        with path.open(newline="", encoding="utf-8") as handle:
+            for row in csv.DictReader(handle):
+                rows[(row["source"], row["url"])] = row
+    return rows
+
+
+def save_registry(path: Path, rows: dict[tuple[str, str], dict]) -> None:
+    ordered = sorted(rows.values(), key=lambda r: (r["source"], int(r["id"])))
+    temp = path.with_name(path.name + ".tmp")
+    with temp.open("w", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(handle, fieldnames=COLUMNS, lineterminator="\n")
+        writer.writeheader()
+        writer.writerows(ordered)
+    temp.replace(path)
+
+
+def parse_time(value: str) -> datetime | None:
+    try:
+        return datetime.fromisoformat(value) if value else None
+    except ValueError:
+        return None
+
+
+def is_stale(row: dict) -> bool:
+    lastmod, fetched = parse_time(row["lastmod"]), parse_time(row["fetched_lastmod"])
+    return bool(lastmod and fetched and lastmod > fetched)
+
+
+# --- discovery -------------------------------------------------------------------------------
+
+def http_get(session: requests.Session, url: str, retries: int = 4) -> requests.Response:
+    """GET with retries for connection trouble and 5xx (except 503, which counts as a possible block)."""
+    last = None
+    for attempt in range(1, retries + 1):
+        try:
+            response = session.get(url, timeout=30)
+            if response.status_code < 500 or response.status_code == 503:
+                return response
+            last = RuntimeError(f"HTTP {response.status_code}")
+        except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as exc:
+            last = exc
+        if attempt < retries:
+            wait = 2 * 2 ** (attempt - 1)
+            print(f"    [retry] {url} ({last}); waiting {wait}s (attempt {attempt}/{retries})")
+            time.sleep(wait)
+    raise RuntimeError(f"giving up on {url}: {last}")
+
+
+def sitemap_entries(session: requests.Session, sitemap_url: str) -> list[tuple[str, str]]:
+    """[(url, lastmod)] from a sitemap, following a sitemap index into its children."""
+    response = http_get(session, sitemap_url)
+    if response.status_code != 200:
+        raise RuntimeError(f"{sitemap_url}: HTTP {response.status_code}")
+    xml = response.text
+    if "<sitemapindex" in xml:
+        found = []
+        for child in re.findall(r"<sitemap>.*?<loc>([^<]+)</loc>.*?</sitemap>", xml, re.S):
+            found += sitemap_entries(session, child.strip())
+        return found
+    entries = []
+    for block in re.findall(r"<url>(.*?)</url>", xml, re.S):
+        loc = re.search(r"<loc>([^<]+)</loc>", block)
+        mod = re.search(r"<lastmod>([^<]+)</lastmod>", block)
+        if loc:
+            entries.append((loc.group(1).strip(), mod.group(1).strip() if mod else ""))
+    return entries
+
+
+def discover(session: requests.Session, base_url: str, rows: dict, urls_file: Path | None = None) -> tuple[int, int, int]:
+    """Add new recipe URLs to the registry and refresh lastmods. Returns (new, changed, total_recipe_urls)."""
+    if urls_file:
+        entries = [(line.strip(), "") for line in urls_file.read_text(encoding="utf-8").splitlines() if line.strip()]
+    else:
+        entries = sitemap_entries(session, base_url + "/sitemap.xml")
+    recipes = {url: mod for url, mod in entries if RECIPE_PATH_RE.search(re.sub(r"^https?://[^/]+", "", url))}
+
+    mine = [r for (src, _), r in rows.items() if src == SOURCE]
+    next_id = max((int(r["id"]) for r in mine), default=SOURCE_ID_BASE[SOURCE]) + 1
+    new = changed = 0
+    for url in sorted(recipes):
+        key = (SOURCE, url)
+        if key not in rows:
+            rows[key] = {"source": SOURCE, "url": url, "id": str(next_id), "lastmod": recipes[url],
+                         "fetched_lastmod": "", "fetched_at": "", "status": "new"}
+            next_id += 1
+            new += 1
+        elif recipes[url] and recipes[url] != rows[key]["lastmod"]:
+            rows[key]["lastmod"] = recipes[url]
+            if rows[key]["status"] in ("ok", "norecipe") and is_stale(rows[key]):
+                rows[key]["status"] = "stale"
+                changed += 1
+    return new, changed, len(recipes)
+
+
+# --- fetching --------------------------------------------------------------------------------
+
+RECIPE_MARKER = re.compile(r'application/ld\+json.*?"@type":\s*\[?\s*"Recipe"', re.S)
+CHALLENGE_HINT = re.compile(r"captcha|are you a (human|robot)|access denied|unusual traffic|challenge-platform", re.I)
+
+
+def fetch_page(session: requests.Session, url: str) -> tuple[str, bytes | None]:
+    """(status, page bytes): status is ok | gone | norecipe | error; the bytes are the page EXACTLY as served
+    (never response.text -- requests guesses Latin-1 when a server omits the charset, which would mangle
+    accented characters like the e in Gruyere). Raises Blocked if the site is refusing."""
+    try:
+        response = http_get(session, url)
+    except RuntimeError as exc:
+        print(f"    -> error: {exc}")
+        return "error", None
+    code = response.status_code
+    if code in (403, 429, 503):
+        raise Blocked(f"HTTP {code} from {url}")
+    if code in (404, 410):
+        return "gone", None
+    if code != 200:
+        print(f"    -> unexpected HTTP {code}")
+        return "error", None
+    body = response.content.decode("utf-8", errors="replace")  # for looking at only; what gets saved is response.content
+    if RECIPE_MARKER.search(body):
+        return "ok", response.content
+    if len(body) < 30_000 and CHALLENGE_HINT.search(body):
+        raise Blocked(f"a challenge page instead of a recipe at {url}")
+    return "norecipe", None
+
+
+def raw_path(raw_dir: Path, row: dict) -> Path:
+    return raw_dir / row["source"] / f"{row['id']}.html.gz"
+
+
+def needs_fetch(row: dict) -> bool:
+    return row["status"] in ("new", "stale", "error")
+
+
+def run_fetch(session: requests.Session, rows: dict, registry_path: Path, raw_dir: Path, *, delay: float,
+              limit: int | None, match: str | None, ids: set[int] | None) -> dict[str, int]:
+    todo = sorted((r for (src, _), r in rows.items() if src == SOURCE and needs_fetch(r)), key=lambda r: int(r["id"]))
+    if match:
+        todo = [r for r in todo if match in r["url"]]
+    if ids:
+        todo = [r for r in todo if int(r["id"]) in ids]
+    if limit is not None:
+        todo = todo[:limit]
+    print(f"{len(todo)} page(s) to fetch")
+    counts: dict[str, int] = {}
+    consecutive_blocks = 0
+    try:
+        for n, row in enumerate(todo, start=1):
+            print(f"[{n}/{len(todo)}] {row['id']} {row['url']}")
+            try:
+                status, page = fetch_page(session, row["url"])
+                consecutive_blocks = 0
+            except Blocked as exc:
+                consecutive_blocks += 1
+                print(f"    -> blocked ({consecutive_blocks}/{MAX_CONSECUTIVE_BLOCKS}): {exc}")
+                if consecutive_blocks >= MAX_CONSECUTIVE_BLOCKS:
+                    raise Blocked(f"{MAX_CONSECUTIVE_BLOCKS} refusals in a row; the site is blocking us. "
+                                  f"Stopping -- progress is saved. Wait, then rerun (or run from elsewhere).") from exc
+                time.sleep(delay * 3)
+                continue
+            if page is not None:
+                path = raw_path(raw_dir, row)
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_bytes(gzip.compress(page))
+            row["status"] = status
+            if status in ("ok", "norecipe", "gone"):
+                row["fetched_lastmod"] = row["lastmod"]
+                row["fetched_at"] = datetime.now().isoformat(timespec="seconds")
+            counts[status] = counts.get(status, 0) + 1
+            print(f"    -> {status}" + (f" ({len(page) // 1024} KB)" if page else ""))
+            if n % SAVE_EVERY == 0:
+                save_registry(registry_path, rows)
+            time.sleep(delay * random.uniform(0.8, 1.4))
+    finally:
+        save_registry(registry_path, rows)   # also on Ctrl-C or a block
+    return counts
+
+
+# --- command line ----------------------------------------------------------------------------
+
+def make_session() -> requests.Session:
+    session = requests.Session()
+    session.headers.update({"User-Agent": USER_AGENT, "Accept": "text/html,application/xml;q=0.9,*/*;q=0.8"})
+    return session
+
+
+def print_status(rows: dict) -> None:
+    mine = [r for (src, _), r in rows.items() if src == SOURCE]
+    counts: dict[str, int] = {}
+    for r in mine:
+        counts[r["status"]] = counts.get(r["status"], 0) + 1
+    print(f"{SOURCE}: {len(mine)} recipe URL(s) in the registry")
+    for status in ("new", "stale", "ok", "norecipe", "gone", "error"):
+        if counts.get(status):
+            print(f"  {status:9} {counts[status]}")
+    print(f"  to fetch next run: {sum(1 for r in mine if needs_fetch(r))}")
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument("command", choices=["discover", "fetch", "status", "run"])
+    parser.add_argument("--base-url", default=BASE_URL, help=f"Site root (default {BASE_URL}; changed only for testing)")
+    parser.add_argument("--library-dir", type=Path, default=DEFAULT_LIBRARY_DIR, help="Library root (holds source_registry.csv)")
+    parser.add_argument("--raw-dir", type=Path, default=DEFAULT_RAW_DIR, help=f"Where saved pages go (default {DEFAULT_RAW_DIR})")
+    parser.add_argument("--urls-file", type=Path, help="discover from a file of URLs (one per line) instead of the sitemap")
+    parser.add_argument("--delay", type=float, default=1.0, help="Seconds between page fetches (default 1.0)")
+    parser.add_argument("--limit", type=int, help="fetch at most this many pages")
+    parser.add_argument("--match", help="fetch only URLs containing this text (e.g. 'kimchi')")
+    parser.add_argument("--ids", help="fetch only these library ids (comma-separated)")
+    args = parser.parse_args()
+
+    registry_path = args.library_dir / "source_registry.csv"
+    rows = load_registry(registry_path)
+    session = make_session()
+    base = args.base_url.rstrip("/")
+    try:
+        if args.command in ("discover", "run"):
+            new, changed, total = discover(session, base, rows, args.urls_file)
+            save_registry(registry_path, rows)
+            print(f"Discovered {total} recipe URL(s): {new} new, {changed} changed since last fetched.")
+        if args.command in ("fetch", "run"):
+            ids = {int(x) for x in args.ids.split(",")} if args.ids else None
+            counts = run_fetch(session, rows, registry_path, args.raw_dir, delay=args.delay,
+                               limit=args.limit, match=args.match, ids=ids)
+            print("Fetched:", counts or "nothing")
+        print_status(rows)
+    except Blocked as exc:
+        print(f"\nSTOPPED: {exc}")
+        print_status(rows)
+        return EXIT_BLOCKED
+    except RuntimeError as exc:
+        print(f"\nERROR: {exc}")
+        return EXIT_ERROR
+    return EXIT_OK
+
+
+if __name__ == "__main__":
+    sys.exit(main())
