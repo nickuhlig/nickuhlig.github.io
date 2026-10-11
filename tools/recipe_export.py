@@ -444,6 +444,25 @@ def ingredient_line(ing: dict) -> str:
     return f"{quantity} {ing['name']}".strip() if quantity else ing["name"]
 
 
+def recipe_description(record: dict) -> str:
+    """The recipe's own blurb. Only recipes imported from other sites carry one (Mealime/Albertsons
+    records have no `description`), so for them this is "" and nothing about their exports changes."""
+    return (record.get("description") or "").strip()
+
+
+def recipe_notes(record: dict) -> list[str]:
+    """Notes paragraphs ("Notes: ...", "Make-ahead and storage: ...", "Optional or for serving: ..."),
+    again only on imported recipes. They belong at the TOP of the recipe -- a cook needs "kombu is dried
+    kelp" or "make the broth a day ahead" before starting, not after the last step."""
+    return [p.strip() for p in (record.get("notes") or "").split("\n\n") if p.strip()]
+
+
+def recipe_intro_text(record: dict) -> str:
+    """Description plus notes as one block, for apps (Paprika, Norish) whose only slot shown at the top of
+    a recipe is the description."""
+    return "\n\n".join(p for p in [recipe_description(record), *recipe_notes(record)] if p)
+
+
 def step_text_and_callouts(step: dict) -> tuple[str, list[str]]:
     primary = step["primary_message"].strip()
     secondary = (step.get("secondary_message") or "").strip()
@@ -596,6 +615,8 @@ def build_schema_org(record: dict, image_src: str | None) -> dict:
         "recipeIngredient": ingredients,
         "recipeInstructions": steps,
     }
+    if recipe_description(record):
+        schema["description"] = recipe_description(record)
     if record.get("cooking_minutes"):
         schema["totalTime"] = f"PT{int(record['cooking_minutes'])}M"
     if image_src:
@@ -691,6 +712,16 @@ def render_html(record: dict, image_src: str | None, show_amino_acids: bool = Tr
 
     schema_json = json.dumps(schema, indent=2, ensure_ascii=False)
 
+    # Each piece starts with its own newline and is empty when absent, so a recipe without a description or
+    # notes (every Mealime/Albertsons one) renders byte-for-byte as before.
+    description_html = f'\n<p class="description">{html_escape(recipe_description(record))}</p>' if recipe_description(record) else ""
+    notes_paragraphs = recipe_notes(record)
+    notes_html = ('\n<div class="notes">\n<h2>Before you start</h2>\n'
+                  + "\n".join(f"<p>{html_escape(p)}</p>" for p in notes_paragraphs) + "\n</div>") if notes_paragraphs else ""
+    extra_css = ("\n.description { font-style: italic; color: #444; }"
+                 "\n.notes { background: #fff8e1; border-left: 4px solid #e0b100; border-radius: 4px; padding: 0.2em 1em; margin: 1em 0; }"
+                 "\n.notes h2 { font-size: 1.05em; margin: 0.6em 0 0.2em; }") if description_html or notes_html else ""
+
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -711,14 +742,14 @@ table {{ border-collapse: collapse; }}
 td {{ padding: 2px 12px 2px 0; }}
 .two-col {{ display: flex; gap: 2.5em; align-items: flex-start; }}
 .two-col > div {{ flex: 1; min-width: 0; }}
-.page-break {{ page-break-before: always; }}
+.page-break {{ page-break-before: always; }}{extra_css}
 </style>
 </head>
 <body>
 <h1>{html_escape(record['name'])}</h1>
 {image_html}
-<p class="meta">{record['serving_count']} servings &middot; {record.get('cooking_minutes', '?')} min &middot; {html_escape(record.get('units', ''))} units</p>
-<div>{badges}{warnings}</div>
+<p class="meta">{record['serving_count']} servings &middot; {record.get('cooking_minutes', '?')} min &middot; {html_escape(record.get('units', ''))} units</p>{description_html}
+<div>{badges}{warnings}</div>{notes_html}
 {ingredients_section}
 <div class="page-break">
 <h2>Instructions</h2>
@@ -768,7 +799,7 @@ def build_orf(record: dict) -> dict:
         "steps": steps_orf,
     }
 
-    notes = []
+    notes = [p for p in [recipe_description(record), *recipe_notes(record)] if p]   # imported recipes: first, so they lead
     if record.get("cooking_minutes"):
         notes.append(f"Total cook time: {record['cooking_minutes']} minutes")
     types = decode_types(record.get("allowed_type_ids") or [])
@@ -814,7 +845,7 @@ def build_paprika(record: dict, image_bytes: bytes | None = None, image_ext: str
         "uid": str(uuid.uuid5(PAPRIKA_UUID_NAMESPACE, str(record["id"]))).upper(),
         "created": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "name": record["name"],
-        "description": "",
+        "description": recipe_intro_text(record),   # description + notes: the one slot Paprika shows up top
         "ingredients": ingredients_text,
         "directions": directions_text,
         "notes": "\n".join(notes_parts),
@@ -1108,7 +1139,7 @@ def build_norish_recipe(record: dict) -> dict:
 
     return {
         "name": record["name"],
-        "description": None,
+        "description": recipe_intro_text(record) or None,   # description + notes, shown at the top in Norish
         "url": None,
         "notes": None,
         "servings": record["serving_count"],

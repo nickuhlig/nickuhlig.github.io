@@ -110,6 +110,13 @@ ALBERTSONS_VARIETY_TAGS = {
     43: "Kid friendly",   # the kids-recipe-hub cookbook; the kid_friendly boolean is kept alongside it
 }
 
+# Ours too, for recipes imported from other sites (external_align.py maps a page's own categories onto
+# these and onto the tags above). 44+ continue the numbering after the Albertsons ones.
+EXTERNAL_VARIETY_TAGS = {
+    44: "Drinks",
+    45: "Cocktails",
+}
+
 VARIETY_TAGS = {
     1: "Pasta & pizza",
     2: "Soups, stews, & chilis",
@@ -133,6 +140,7 @@ VARIETY_TAGS = {
     32: "Skillets & sautés",
     33: "Pan-fried",
     **ALBERTSONS_VARIETY_TAGS,
+    **EXTERNAL_VARIETY_TAGS,
 }
 
 COOKBOOK_SLUG_TO_VARIETY_TAG_ID = {

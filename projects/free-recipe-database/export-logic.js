@@ -71,6 +71,13 @@ function stepTextAndCallouts(step) {
   return [primary, callouts];
 }
 
+// Imported recipes (other sites) carry a `description` and `notes`; Mealime/Albertsons records have neither,
+// so for them all three helpers return empty and nothing about their exports changes. Mirrors the local
+// tool's recipe_description / recipe_notes / recipe_intro_text.
+function recipeDescription(record) { return (record.description || "").trim(); }
+function recipeNotes(record) { return (record.notes || "").split("\n\n").map(p => p.trim()).filter(Boolean); }
+function recipeIntroText(record) { return [recipeDescription(record), ...recipeNotes(record)].filter(Boolean).join("\n\n"); }
+
 // --- nutrition + amino acids (mirrors the local Python tool) ---------------------
 
 const NUTRITION_DISPLAY = [
@@ -160,6 +167,7 @@ function buildSchemaOrg(record, imageSrc) {
     recipeIngredient: ingredients,
     recipeInstructions: steps,
   };
+  if (recipeDescription(record)) schema.description = recipeDescription(record);
   if (record.cooking_minutes) schema.totalTime = `PT${Math.trunc(record.cooking_minutes)}M`;
   if (imageSrc) schema.image = [imageSrc];
   const meta = record.schema_metadata || {};
@@ -224,6 +232,17 @@ function renderHtml(record, imageSrc) {
 
   const schemaJson = JSON.stringify(schema, null, 2);
 
+  // Each piece starts with its own newline and is empty when absent, so a recipe without a description or
+  // notes (every Mealime/Albertsons one) renders exactly as before. Mirrors render_html.
+  const descriptionHtml = recipeDescription(record) ? `\n<p class="description">${escapeHtml(recipeDescription(record))}</p>` : "";
+  const notesParagraphs = recipeNotes(record);
+  const notesHtml = notesParagraphs.length
+    ? `\n<div class="notes">\n<h2>Before you start</h2>\n${notesParagraphs.map(p => `<p>${escapeHtml(p)}</p>`).join("\n")}\n</div>` : "";
+  const extraCss = (descriptionHtml || notesHtml)
+    ? "\n.description { font-style: italic; color: #444; }"
+      + "\n.notes { background: #fff8e1; border-left: 4px solid #e0b100; border-radius: 4px; padding: 0.2em 1em; margin: 1em 0; }"
+      + "\n.notes h2 { font-size: 1.05em; margin: 0.6em 0 0.2em; }" : "";
+
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -244,14 +263,14 @@ table { border-collapse: collapse; }
 td { padding: 2px 12px 2px 0; }
 .two-col { display: flex; gap: 2.5em; align-items: flex-start; }
 .two-col > div { flex: 1; min-width: 0; }
-.page-break { page-break-before: always; }
+.page-break { page-break-before: always; }${extraCss}
 </style>
 </head>
 <body>
 <h1>${escapeHtml(record.name)}</h1>
 ${imageHtml}
-<p class="meta">${record.serving_count} servings &middot; ${record.cooking_minutes ?? "?"} min &middot; ${escapeHtml(record.units || "")} units</p>
-<div>${badges}${warnings}</div>
+<p class="meta">${record.serving_count} servings &middot; ${record.cooking_minutes ?? "?"} min &middot; ${escapeHtml(record.units || "")} units</p>${descriptionHtml}
+<div>${badges}${warnings}</div>${notesHtml}
 ${ingredientsSection}
 <div class="page-break">
 <h2>Instructions</h2>
@@ -288,7 +307,7 @@ function buildOrf(record) {
     steps: stepsOrf,
   };
 
-  const notes = [];
+  const notes = [recipeDescription(record), ...recipeNotes(record)].filter(Boolean);   // imported recipes: first, so they lead
   if (record.cooking_minutes) notes.push(`Total cook time: ${record.cooking_minutes} minutes`);
   const types = decodeTypes(record.allowed_type_ids);
   if (types.length) notes.push("Suitable menus: " + types.join(", "));
@@ -457,7 +476,7 @@ function buildPaprika(record, imageBytes = null, imageExt = ".jpg") {
     uid: paprikaUid(record.id),
     created: localTimestamp(new Date()),
     name: record.name,
-    description: "",
+    description: recipeIntroText(record),   // description + notes: the one slot Paprika shows up top
     ingredients: ingredientsText,
     directions: directionsText,
     notes: notesParts.join("\n"),
@@ -519,6 +538,8 @@ const VARIETY_TAGS = {
   "35": "Dessert", "36": "Breakfast", "37": "Snacks", "38": "Super simple",
   "39": "Mediterranean", "40": "Set it & forget it", "41": "Under 15 minutes",
   "42": "Sports fan favorites", "43": "Kid friendly",
+  // ids 44+ are ours too: tags for recipes imported from other sites (EXTERNAL_VARIETY_TAGS in the local tool).
+  "44": "Drinks", "45": "Cocktails",
 };
 // Menu types worth tagging: Classic is every recipe and Flexitarian nearly so, so both are left out.
 const MENU_TYPE_TAG_IDS = [2, 4, 5, 6, 7, 8];  // Vegetarian, Pescatarian, Paleo, Vegan, Low Carb, Keto
@@ -690,7 +711,7 @@ function buildNorishRecipe(record) {
 
   const recipe = {
     name: record.name,
-    description: null,
+    description: recipeIntroText(record) || null,   // description + notes, shown at the top in Norish
     url: null,
     notes: null,
     servings: record.serving_count,

@@ -1,17 +1,25 @@
 #!/usr/bin/env python3
 """
-Step 1 of importing Serious Eats recipes: find the recipe pages and fetch them. This tool does NOT
-interpret a page -- turning one into a library record is external_recipes.py (step 2). Keeping them
-apart means a parsing mistake is fixed by re-running step 2 over the pages already saved, not by
-fetching thousands of pages again. Later the two can be chained in one pass (fetch_page() returns the
-HTML, so a parser can be handed it directly instead of via the saved file).
+Imports Serious Eats recipes: finds the recipe pages, fetches them, and (with --align) turns each into
+library records via external_align.py -- so what lands in the library already has the library's format and
+the exporters need no special cases.
+
+Fetching and aligning are separate steps on purpose. Pages are kept on disk (default; --no-raw to skip), so
+a mistake in the alignment rules is fixed by re-running `align` over the saved pages -- no network, no
+refetching thousands of pages. Once the rules are settled, `fetch --align --no-raw` does it in one pass.
 
 COMMANDS
-    python seriouseats_scraper.py discover           read the sitemap, record every recipe URL
-    python seriouseats_scraper.py fetch --limit 5    fetch pages that are new or changed (try a few first)
-    python seriouseats_scraper.py fetch              ... all of them (~1.5 h for ~5,400 pages at 1/s)
-    python seriouseats_scraper.py status             counts by state
-    python seriouseats_scraper.py run                discover, then fetch (what a scheduled job would call)
+    python seriouseats_scraper.py discover                  read the sitemap, record every recipe URL
+    python seriouseats_scraper.py fetch --limit 5           fetch pages that are new or changed (try a few first)
+    python seriouseats_scraper.py fetch --limit 5 --align   ... and align each into library records as it arrives
+    python seriouseats_scraper.py align --limit 5           re-align pages already saved (no network): the dev loop
+    python seriouseats_scraper.py fetch                     all of them (~1.5 h for ~5,400 pages at 1/s)
+    python seriouseats_scraper.py status                    counts by state
+    python seriouseats_scraper.py run                       discover, then fetch + align (what a scheduled job would call)
+
+  While developing, add --out-dir C:/scratch/lib: records and a COPY of the ingredient master go there, so
+  experiments never touch the real library. After each run read tools/external_review_report.json (new
+  ingredients with suggested restrictions, loose matches, optional lines moved to notes, untagged categories).
 
 THE REGISTRY  <library>/source_registry.csv  (committed with the library; one row per URL)
     source,url,id,lastmod,fetched_lastmod,fetched_at,status
@@ -46,6 +54,7 @@ from pathlib import Path
 
 import requests
 
+from external_align import Aligner
 from external_recipes import SOURCE_ID_BASE
 from library_paths import DEFAULT_LIBRARY_DIR, TOOLS_DIR
 
@@ -202,15 +211,36 @@ def needs_fetch(row: dict) -> bool:
     return row["status"] in ("new", "stale", "error")
 
 
-def run_fetch(session: requests.Session, rows: dict, registry_path: Path, raw_dir: Path, *, delay: float,
-              limit: int | None, match: str | None, ids: set[int] | None) -> dict[str, int]:
-    todo = sorted((r for (src, _), r in rows.items() if src == SOURCE and needs_fetch(r)), key=lambda r: int(r["id"]))
+def select_rows(rows: dict, predicate, *, limit: int | None, match: str | None, ids: set[int] | None) -> list[dict]:
+    chosen = sorted((r for (src, _), r in rows.items() if src == SOURCE and predicate(r)), key=lambda r: int(r["id"]))
     if match:
-        todo = [r for r in todo if match in r["url"]]
+        chosen = [r for r in chosen if match in r["url"]]
     if ids:
-        todo = [r for r in todo if int(r["id"]) in ids]
-    if limit is not None:
-        todo = todo[:limit]
+        chosen = [r for r in chosen if int(r["id"]) in ids]
+    return chosen[:limit] if limit is not None else chosen
+
+
+def run_align(rows: dict, raw_dir: Path, aligner, *, limit: int | None, match: str | None, ids: set[int] | None) -> int:
+    """Re-aligns pages already saved on disk -- no network. This is the loop for improving the rules."""
+    todo = [r for r in select_rows(rows, lambda r: r["status"] == "ok", limit=limit, match=match, ids=ids)
+            if raw_path(raw_dir, r).exists()]
+    print(f"{len(todo)} saved page(s) to align")
+    failed = 0
+    for n, row in enumerate(todo, start=1):
+        try:
+            aligner.align(row, gzip.decompress(raw_path(raw_dir, row).read_bytes()))
+            if n % 100 == 0:
+                print(f"  ...{n}/{len(todo)} aligned")
+        except Exception as exc:  # noqa: BLE001  one odd page must not stop the batch
+            failed += 1
+            print(f"    -> could not align {row['id']} {row['url']}: {type(exc).__name__}: {exc}")
+    return failed
+
+
+def run_fetch(session: requests.Session, rows: dict, registry_path: Path, raw_dir: Path, *, delay: float,
+              limit: int | None, match: str | None, ids: set[int] | None,
+              keep_raw: bool = True, on_page=None) -> dict[str, int]:
+    todo = select_rows(rows, needs_fetch, limit=limit, match=match, ids=ids)
     print(f"{len(todo)} page(s) to fetch")
     counts: dict[str, int] = {}
     consecutive_blocks = 0
@@ -229,9 +259,16 @@ def run_fetch(session: requests.Session, rows: dict, registry_path: Path, raw_di
                 time.sleep(delay * 3)
                 continue
             if page is not None:
-                path = raw_path(raw_dir, row)
-                path.parent.mkdir(parents=True, exist_ok=True)
-                path.write_bytes(gzip.compress(page))
+                if keep_raw:
+                    path = raw_path(raw_dir, row)
+                    path.parent.mkdir(parents=True, exist_ok=True)
+                    path.write_bytes(gzip.compress(page))
+                if on_page is not None:
+                    try:
+                        on_page(row, page)
+                    except Exception as exc:  # noqa: BLE001  the page is fetched; a parsing problem must not lose the run
+                        counts["align_error"] = counts.get("align_error", 0) + 1
+                        print(f"    -> fetched, but could not align: {type(exc).__name__}: {exc}")
             row["status"] = status
             if status in ("ok", "norecipe", "gone"):
                 row["fetched_lastmod"] = row["lastmod"]
@@ -268,7 +305,7 @@ def print_status(rows: dict) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("command", choices=["discover", "fetch", "status", "run"])
+    parser.add_argument("command", choices=["discover", "fetch", "align", "status", "run"])
     parser.add_argument("--base-url", default=BASE_URL, help=f"Site root (default {BASE_URL}; changed only for testing)")
     parser.add_argument("--library-dir", type=Path, default=DEFAULT_LIBRARY_DIR, help="Library root (holds source_registry.csv)")
     parser.add_argument("--raw-dir", type=Path, default=DEFAULT_RAW_DIR, help=f"Where saved pages go (default {DEFAULT_RAW_DIR})")
@@ -277,24 +314,47 @@ def main() -> int:
     parser.add_argument("--limit", type=int, help="fetch at most this many pages")
     parser.add_argument("--match", help="fetch only URLs containing this text (e.g. 'kimchi')")
     parser.add_argument("--ids", help="fetch only these library ids (comma-separated)")
+    parser.add_argument("--align", action="store_true",
+                        help="fetch: also align each page into library records as it arrives (implied by `run`)")
+    parser.add_argument("--no-raw", action="store_true", help="fetch: don't keep the page on disk (fetch -> align in one pass)")
+    parser.add_argument("--out-dir", type=Path, default=None,
+                        help="where aligned records and the ingredient master are written (default: the library). Point it "
+                             "at a scratch folder while developing: the master is copied there, so the real one is untouched")
+    parser.add_argument("--review-file", type=Path, default=TOOLS_DIR / "external_review_report.json",
+                        help="where the alignment review report goes (default: tools/external_review_report.json)")
     args = parser.parse_args()
 
     registry_path = args.library_dir / "source_registry.csv"
     rows = load_registry(registry_path)
     session = make_session()
     base = args.base_url.rstrip("/")
+    aligner = None
+    if args.command == "align" or args.align or args.command == "run":
+        aligner = Aligner(args.library_dir, args.out_dir or args.library_dir, args.review_file)
+    ids = {int(x) for x in args.ids.split(",")} if args.ids else None
     try:
         if args.command in ("discover", "run"):
             new, changed, total = discover(session, base, rows, args.urls_file)
             save_registry(registry_path, rows)
             print(f"Discovered {total} recipe URL(s): {new} new, {changed} changed since last fetched.")
         if args.command in ("fetch", "run"):
-            ids = {int(x) for x in args.ids.split(",")} if args.ids else None
             counts = run_fetch(session, rows, registry_path, args.raw_dir, delay=args.delay,
-                               limit=args.limit, match=args.match, ids=ids)
+                               limit=args.limit, match=args.match, ids=ids,
+                               keep_raw=not args.no_raw, on_page=aligner.align if aligner else None)
             print("Fetched:", counts or "nothing")
+        if args.command == "align":
+            failed = run_align(rows, args.raw_dir, aligner, limit=args.limit, match=args.match, ids=ids)
+            print(f"Aligned {aligner.aligned} recipe(s)" + (f", {failed} could not be aligned" if failed else ""))
+        if aligner is not None:
+            review = aligner.finish()
+            new_ings = review["new_ingredients"]
+            print(f"Review report: {args.review_file}\n  new ingredients: {new_ings['count']} ({new_ings['undecided']} still need a "
+                  f"restriction decision) | loose matches: {len(review['loose_matches'])} | optional lines moved to notes: "
+                  f"{len(review['optional_lines_moved_to_notes'])} | categories without a tag: {len(review['categories_without_a_tag'])}")
         print_status(rows)
     except Blocked as exc:
+        if aligner is not None:
+            aligner.finish()
         print(f"\nSTOPPED: {exc}")
         print_status(rows)
         return EXIT_BLOCKED

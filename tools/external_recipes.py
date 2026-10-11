@@ -255,7 +255,13 @@ def parse_page(page: str, url: str | None = None) -> dict:
         authors = [authors]
     image = ld.get("image")
     image_url = image.get("url") if isinstance(image, dict) else (image[0] if isinstance(image, list) and image else image)
+    agg = ld.get("aggregateRating") if isinstance(ld.get("aggregateRating"), dict) else None
+    try:
+        rating = (float(agg["ratingValue"]), int(float(agg.get("ratingCount") or agg.get("reviewCount") or 0))) if agg else None
+    except (KeyError, TypeError, ValueError):
+        rating = None
     return {
+        "rating": rating,                  # (value out of 5, number of ratings) or None
         "name": re.sub(r"\s+Recipe$", "", html_lib.unescape(ld.get("name") or ld.get("headline") or "")).strip(),
         "description": html_lib.unescape(ld.get("description") or "") or None,
         "url": page_url,

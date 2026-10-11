@@ -50,6 +50,13 @@ from pathlib import Path
 
 MASTER_FILENAME = "ingredient_master.json"
 
+# Recipes imported from other sites (external_align.py). They arrive with ingredient_id already set,
+# matched on the CLEAN ingredient name, while their displayed `name` carries prep text ("yellow onion,
+# split in half") -- so the index's learn-every-spelling pass must skip them, or the master would fill
+# with thousands of one-off prep phrases. The restriction backfill, by contrast, DOES cover them: it
+# completes violated_restriction_ids once the master has decided the new ingredients.
+EXTERNAL_SOURCES = {"seriouseats"}
+
 
 def master_path_for(recipes_dir: Path) -> Path:
     """The master lives at the library root (next to manifest.json), not beside the scripts: it is

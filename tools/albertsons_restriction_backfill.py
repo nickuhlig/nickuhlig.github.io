@@ -31,9 +31,11 @@ import json
 from collections import Counter
 from pathlib import Path
 
-from ingredient_master import IngredientMaster, load_master, master_path_for
+from ingredient_master import EXTERNAL_SOURCES, IngredientMaster, load_master, master_path_for
 
-ALBERTSONS_SOURCES = {"albertsons_native", "albertsons_native_gap_fill"}
+# Records whose restrictions come from the ingredient master (not from the source site): Albertsons-native
+# ones, and recipes imported from other sites.
+ALBERTSONS_SOURCES = {"albertsons_native", "albertsons_native_gap_fill"} | EXTERNAL_SOURCES
 DEFAULT_REPORT_PATH = Path(__file__).with_name("restriction_backfill_report.json")
 NON_RECIPE_FILENAMES = {
     "ingredient_index.json", "ingredient_restrictions.json", "ingredient_aliases.json",

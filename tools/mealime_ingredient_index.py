@@ -45,7 +45,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 from ingredient_master import (
-    IngredientMaster, NEW_ID_START, load_master, master_path_for, normalize_name, save_master,
+    EXTERNAL_SOURCES, IngredientMaster, NEW_ID_START, load_master, master_path_for, normalize_name, save_master,
 )
 
 from library_paths import DEFAULT_LIBRARY_DIR as DEFAULT_RECIPES_DIR
@@ -81,6 +81,8 @@ def sync_master(recipes_dir: Path, master: IngredientMaster) -> None:
         if record is None:
             continue
         scanned += 1
+        if record.get("source") in EXTERNAL_SOURCES:
+            continue  # ids already assigned on the clean name; its displayed names carry prep text
         for ing in record.get("ingredients") or []:
             if not isinstance(ing, dict):
                 continue
