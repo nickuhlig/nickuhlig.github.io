@@ -39,6 +39,7 @@ INGREDIENTS  each page line is parsed from its text (the page's own span markup 
 Everything that needed a judgement call is recorded in the review report (external_review_report.json).
 """
 
+import dataclasses
 import json
 import math
 import re
@@ -85,7 +86,7 @@ for _s, _p in [("clove", "cloves"), ("head", "heads"), ("sprig", "sprigs"), ("st
                ("fillet", "fillets"), ("pkg", "pkgs"), ("package", "pkgs"), ("jar", "jars"), ("bulb", "bulbs"),
                ("round", "rounds"), ("handful", "handfuls"), ("bottle", "bottles"), ("bag", "bags"), ("box", "boxes"),
                ("container", "containers"), ("cube", "cubes"), ("drop", "drops"), ("serving", "servings"),
-               ("scoop", "scoops"), ("shot", "shots")]:
+               ("scoop", "scoops"), ("shot", "shots"), ("block", "blocks"), ("envelope", "envelopes"), ("packet", "packets")]:
     COUNT_FORMS[_s] = (_s if _s != "package" else "pkg", _p)
     COUNT_FORMS[_p] = COUNT_FORMS[_s]
 ADVERB_OR_PREP_WORDS = {"sliced", "chopped", "diced", "minced", "grated", "shredded", "crushed", "peeled", "trimmed",
@@ -214,7 +215,8 @@ _LIST_ITEM = r"(?![^,]*\b\w{3,}(?:ed|ly)\b)[A-Za-z][A-Za-z' -]{1,30}?"
 PREPARED_TAIL = (r"\s+(?:(?:grated|peeled|trimmed|cored|seeded|halved|quartered|cubed|crushed|drained|rinsed|thawed|softened|beaten|sifted)"
                  r"\s+(?:on|and|into|in|at|to|with|lengthwise|crosswise|if)|cut\s+(?:into|in|at|to))\b.*$")
 LIST_OF_ALTERNATIVES_RE = re.compile(rf"^((?:{_LIST_ITEM}, ){{1,4}}(?:and/or |or ){_LIST_ITEM}(?= *(?:,|$)))( ?.*)$")
-GARNISH_LINE_RE = re.compile(r"^\s*(?:garnish(?:es)?\s*:|toppings?\b)", re.I)     # "Garnish: mint sprig", "Toppings of your choice, ..."
+GARNISH_LINE_RE = re.compile(r"^\s*(?:garnish(?:es)?\s*:|toppings?\b)|\bof your choice\b|\bany of the following\b|\bcomposed of\b", re.I)
+# "Garnish: mint sprig", "Toppings of your choice, ...", "Vegetables of your choice"
 
 
 def is_optional_line(raw: str) -> bool:
@@ -236,8 +238,17 @@ def normalize_raw(raw: str) -> str:
     'One 16-ounce can beans' -> '1 (16-ounce) can beans'; 'Four 5- to 6-ounce each thighs' -> '4 (5- to 6-ounce) thighs';
     'boneless, skinless' / 'bone-in, skin-on' pairs lose their comma so they are not read as 'name, prep'."""
     s = " ".join(raw.replace("\xa0", " ").split())
+    s = re.sub(rf"^(?:about|approximately|roughly|scant|generous|heaping|rounded|a scant|a generous|just over|just under)\s+(?=\d|[{VG}])", "", s, flags=re.I)
+    s = re.sub(rf"(?<=[\d/{VG}])\s+(?:scant|heaping|generous|rounded|level)\s+(?=(?:tablespoons?|teaspoons?|cups?)\b)", " ", s, flags=re.I)
     s = re.sub(rf"^({NUMBER_WORD_RE})\b(?=\s+[\d(a-z])", lambda m: str(NUMBER_WORDS[m.group(1).lower()]), s, flags=re.I)
-    s = re.sub(r"^(\d+)\s+(\d+(?:\s*-?\s*to\s*\d+)?)-(ounces?|pounds?|inch(?:es)?)\b(?:\s+each)?", r"\1 (\2-\3)", s, flags=re.I)
+    s = re.sub(rf"^(\d+)\s+pounds?\s+({NUM})\s+ounces?\b",                                  # "1 pound 10.5 ounces" -> "26.5 ounces"
+               lambda m: f"{int(m.group(1)) * 16 + (parse_number(m.group(2)) or 0):g} ounces", s, flags=re.I)
+    s = re.sub(r"^(\d+(?:\.\d+)?)(g|kg|ml)\b", r"\1 \2", s)                              # "555g flour" -> "555 g flour"
+    s = re.sub(rf"^({NUM})\s+of\s+(?:an?|the)\s+", r"\1 ", s)                              # "1/2 of a jalapeño" -> "1/2 jalapeño"
+    s = re.sub(rf"^({NUM})\s*[-–]\s*(inch|ounce|pound)s?\b(?=\s+(?:\([^)]*\)\s*)?(?:knob|piece|block|chunk|slab|stick|strip|segment)\b)",
+               lambda m: f"1 ({m.group(1)}-{m.group(2)})", s, flags=re.I)                    # "1/2-inch knob ginger" -> "1 (1/2-inch) knob ginger"
+    size = rf"{NUM}(?:\s*-?\s*(?:to|by)\s*{NUM})?"                                            # "5- to 6", "3- by 1", "1 1/2"
+    s = re.sub(rf"^(\d+)\s+({size})\s*[-–]\s*(ounces?|pounds?|inch(?:es)?)\b(?:\s+each)?", r"\1 (\2-\3)", s, flags=re.I)
     s = re.sub(rf"\b({PRODUCT_ATTRIBUTES}),\s+(?=(?:{PRODUCT_ATTRIBUTES})\b)", r"\1 ", s, flags=re.I)
     return s
 
@@ -245,7 +256,7 @@ def normalize_raw(raw: str) -> str:
 def split_plus_clause(raw: str) -> list[str]:
     """'1 chipotle chile, chopped, plus 1 tablespoon adobo sauce' -> two lines. A 'plus' that only adds more of the
     same ingredient ('1 whole bun, plus 1 bottom bun'; 'plus more to taste') stays one line."""
-    m = PLUS_AMOUNT_RE.search(raw)
+    m = next((x for x in PLUS_AMOUNT_RE.finditer(raw) if raw[:x.start()].count("(") <= raw[:x.start()].count(")")), None)   # not inside brackets
     if not m:
         return [raw]
     before, after = raw[:m.start()].strip(), raw[m.end():].strip()
@@ -268,6 +279,7 @@ class Line:
     parens: list = field(default_factory=list)        # bracket texts that follow the amount, in order
     trailing: list = field(default_factory=list)      # bracket texts after the name starts ("(about 1 cup)", "(1 pound)")
     alts: list = field(default_factory=list)          # alternatives that carry their own amount ("or four 8-ounce bone-in thighs")
+    extra: str = ""                                   # a trailing part of the amount: "minus 1 teaspoon", "plus 1 tablespoon"
     tail: list = field(default_factory=list)          # size / count words ("medium", "cloves")
     name: str = ""                                    # clean name, no prep
     prep: str | None = None
@@ -288,6 +300,10 @@ def parse_line(raw: str) -> Line:
         tokens = TOKEN_RE.findall(s)
         i = 0
     else:
+        minus = re.match(rf"^({NUM}\s+(?:{PROSE_UNIT}))\s+(minus\s+{NUM}\s+(?:{PROSE_UNIT}))\b", s, re.I)    # "1/4 cup minus 1 teaspoon (55 g) milk"
+        if minus:
+            s = s[:minus.start(2)] + s[minus.end(2):]
+            line.extra = re.sub(r"\s+", " ", localize_units_short(minus.group(2)))
         m = AMOUNT_RE.match(s)
         tokens = TOKEN_RE.findall(s[m.end():] if m else s)
         i = 0
@@ -311,7 +327,7 @@ def parse_line(raw: str) -> Line:
                 line.tail.append(bare); i += 1; continue
             if bare == "whole" and i + 1 < len(tokens) and tokens[i + 1].strip(".,;:").lower() in COUNT_FORMS:
                 line.tail.append(bare); i += 1; continue
-            if bare in COUNT_FORMS and i + 1 < len(tokens):
+            if bare in COUNT_FORMS and i + 1 < len(tokens) and not tok.endswith(","):    # "24 whole cloves, divided": cloves IS the name
                 line.tail.append(bare); i += 1; continue
             j = i
             while j < len(tokens) and j - i < 3 and _is_prefix_word(tokens[j]):
@@ -328,14 +344,29 @@ def parse_line(raw: str) -> Line:
     line.trailing = [t[1:-1].strip() for t in tokens[i:] if t.startswith("(")]
     text = " ".join(prefix + [t for t in tokens[i:] if not t.startswith("(")])
     text = re.sub(r"^[\s.,;:)\]]+", "", text)
-    text = re.sub(r"^(fresh|ripe|dry|dried|raw|cooked|frozen),\s+", r"\1 ", text, flags=re.I)         # "fresh, crustless bread"
+    text = re.sub(r"^(fresh|ripe|dry|dried|raw|cooked|frozen|whole),\s+", r"\1 ", text, flags=re.I)  # "fresh, crustless bread"
     text = re.sub(r"\b(?:homemade or store[- ]bought|store[- ]bought or homemade)\s+", "", text, flags=re.I)   # either is fine: no alternative
+    such_as = re.search(r",?\s+such as\b.*$", text, re.I)                      # "neutral oil, such as peanut, canola, or vegetable oil": examples, not alternatives
+    examples = ""
+    if such_as:
+        text, examples = text[:such_as.start()], such_as.group(0).strip(" ,")
     text = LIST_OF_ALTERNATIVES_RE.sub(lambda m: re.sub(r",\s+(?:and/or\s+|or\s+)?|\s+and/or\s+", " or ", m.group(1)) + m.group(2), text, count=1)
     text = re.sub(r"\band/or\b", "or", text)                                                          # "Tajín and/or kosher salt"
     cut = re.search(r"[,;]", text)                       # name ends at the first comma or semicolon; the rest is prep
     head, prep = (text[:cut.start()], text[cut.end():]) if cut else (text, "")
     line.name = re.sub(r"\s+", " ", head).strip(" .,;:")
-    line.prep = prep.strip() or None
+    line.name = re.sub(r"\b(\w+) \1\b", r"\1", line.name, flags=re.I)             # a typo on the page: "ground ground cumin"
+    line.name = re.sub(r"^fruit\s+", "", line.name, flags=re.I)                     # "1 fruit (2-3/8" dia) lemon"
+    line.prep = " ".join(x for x in (prep.strip(), examples) if x) or None
+    if line.amount is not None and not line.tail and line.unit is None:             # "4 garlic cloves" -> "4 cloves garlic" (the library's order)
+        noun = re.match(r"^(.+?)\s+(cloves?|sprigs?|stalks?)$", line.name, re.I)
+        if noun:
+            line.tail = [noun.group(2).lower()]
+            line.name = noun.group(1)
+    lead_or = re.match(r"^or\s+(\d.*)$", line.name, re.I)                           # "1 large or 2 medium waxy potato"
+    if lead_or:
+        line.alts.append(lead_or.group(1))
+        line.name = parse_line(lead_or.group(1)).name
     # an alternative with its own amount ("... or four 8-ounce bone-in thighs") is kept for the substitutions note
     alt = re.search(rf"\s+or\s+((?:\d[\d/ ]*|(?:{NUMBER_WORD_RE}))\s+\S.*)$", line.name, re.I)
     if alt and alt.start() > 0:
@@ -345,6 +376,9 @@ def parse_line(raw: str) -> Line:
     for pattern in (r"\s+(?:and|with)\s+(?:their|its)\s+(?:juices?|liquid)\b.*$",    # "whole peeled tomatoes and their juices"
                     r"\s+from\s+(?:about\s+)?\d.*$",                                 # "chipotle chile from 1 can of ..."
                     r"\s+per\s+\w+(?:\s+\w+)?$",                                     # "mole poblano per tortilla"
+                    r"\s+plus\s+(?:more|extra|additional)\b.*$",                     # "kosher salt plus more for seasoning"
+                    r"\s+for\s+(?:deep[- ])?(?:frying|coating|greasing|brushing|dusting|drizzling|rubbing|seasoning)\b.*$",
+                    r"\s+from\s+the\s+.+$",                                          # "seasoning oil from the chinese vinaigrette"
                     PREPARED_TAIL):                                                  # "onion grated on a microplane grater"
         m = re.search(pattern, line.name, re.I)
         if m and m.start() > 0 and not CHIPOTLE_CANNED_RE.search(line.name) and not FRUIT_SOURCE_RE.match(line.name):
@@ -356,7 +390,8 @@ def parse_line(raw: str) -> Line:
 # --- a count of sized pieces becomes one weight -------------------------------------------------------------------------------------
 
 CONTAINER_WORDS = {"can", "cans", "pkg", "pkgs", "package", "jar", "jars", "bottle", "bottles", "bag", "bags", "box", "boxes",
-                   "container", "containers", "carton", "cartons", "tub", "tubs", "bunch", "bunches"}
+                   "container", "containers", "carton", "cartons", "tub", "tubs", "bunch", "bunches", "envelope", "envelopes",
+                   "packet", "packets"}
 
 
 def collapse_package_weight(line: Line) -> None:
@@ -456,6 +491,10 @@ def apply_renames(line: Line) -> str | None:
     if CHIPOTLE_DRIED_RE.search(name):
         line.name = DRIED_CHIPOTLE_NAME
         return line.name
+    batch = re.match(r"^(?:recipe|batch)\s+(.+)$", name, re.I)    # "1/2 recipe vanilla pastry cream": the generic ingredient, no measurable amount
+    if batch:
+        line.name, line.amount, line.amount_hi, line.unit, line.parens, line.tail = batch.group(1).lower(), None, None, None, [], []
+        return line.name
     if re.search(r"\s+recipe$", name, re.I):                # a reference to another recipe: becomes the generic ingredient
         line.name = re.sub(r"\s+recipe$", "", name, flags=re.I).lower()
         for text in line.trailing:                          # "(1 pound)" after the name gives the quantity
@@ -505,15 +544,54 @@ def _paren_us(text: str) -> str | None:
     return None                       # metric-only or free-text brackets are dropped from a US quantity
 
 
+def localize_units_short(text: str) -> str:
+    """'minus 1 teaspoon' -> 'minus 1 tsp' (the library's short unit names)."""
+    return re.sub(rf"\b({PROSE_UNIT})\b", lambda m: _canon_prose_unit(m.group(1)), text, flags=re.I)
+
+
+VOLUME_IN_PAREN = re.compile(rf"(?:about\s+|approximately\s+)?(?P<a>{NUM})(?:{RANGE_SEP}(?P<b>{NUM}))?\s*(?P<u>cups?|tablespoons?|teaspoons?|tbsp|tsp)\b", re.I)
+
+
+def us_equivalent(line: Line) -> tuple[float, float | None, str, str]:
+    """For a line the page wrote metric-first ('555g (19 1/2 ounces; about 4 1/4 cups) flour'): its US measure, as
+    (amount, amount_hi, unit, extra). Cups and spoons are preferred (the library writes them; '1 1/2 cups plus 1 tablespoon'
+    keeps its 'plus 1 tbsp' as extra), then ounces / pounds; the table fills in when the page gives neither."""
+    for text in line.parens:
+        for part in text.split(";"):
+            m = VOLUME_IN_PAREN.search(part)
+            if m:
+                plus = re.match(rf"\s*plus\s+({NUM})\s*({PROSE_UNIT})\b", part[m.end():], re.I)
+                extra = f"plus {fmt_number(parse_number(plus.group(1)) or 0)} {_canon_prose_unit(plus.group(2))}" if plus else ""
+                return parse_number(m["a"]) or 0.0, (parse_number(m["b"]) if m["b"] else None), UNIT_MAP[m["u"].lower()], extra
+    for text in line.parens:
+        for part in text.split(";"):
+            imp = imperial_part(part)
+            if imp and imp[1] in ("oz", "lb", "fl oz"):
+                return imp[0], None, imp[1], ""
+    top = line.amount_hi if line.amount_hi is not None else line.amount
+    if line.unit in ("g", "kg"):
+        return max(0.25, round(top * (1000 if line.unit == "kg" else 1) / G_PER_OZ * 4) / 4), None, "oz", ""
+    if line.unit in ("ml", "l"):
+        return max(0.25, round(top * (1000 if line.unit == "l" else 1) / ML_PER_FL_OZ * 4) / 4), None, "fl oz", ""
+    return top, None, line.unit, ""
+
+
 def render_us(line: Line) -> str:
     if line.amount is None:
         return ""
+    if line.unit in ("g", "kg", "ml", "l"):                    # the US recipe carries no metric figures
+        amount, amount_hi, unit, extra = us_equivalent(line)
+        us = dataclasses.replace(line, amount=amount, amount_hi=amount_hi, unit=unit, parens=[], extra=extra or line.extra)
+        pounds_if_large(us)
+        return render_us(us)
     top = line.amount_hi if line.amount_hi is not None else line.amount
     parts = [_amount_text(line)]
     if line.unit:
         parts.append("cups" if line.unit == "cup" and top > 1.01 else line.unit)
     parts += [p for p in (_paren_us(t) for t in line.parens) if p]
     parts += [_pluralize(w, top, line.unit) if w in COUNT_FORMS else w for w in line.tail]
+    if line.extra:
+        parts.append(line.extra)
     return " ".join(parts)
 
 
@@ -692,6 +770,8 @@ DESCRIPTORS = PREP_DESCRIPTORS + ("bone in skin on", "skin on bone in", "skin-on
                                   "low sodium", "boneless skinless", "boneless", "skinless")
 MODIFIERS = ("bone in skin on", "boneless skinless", "unsalted", "salted", "boneless", "skinless", "bone in", "ground", "dried", "frozen",
              "smoked", "light", "dark", "reduced sodium", "low sodium")
+GENERIC_HEADS = {"oil", "cheese", "sauce", "vinegar", "sugar", "flour", "salt", "milk", "cream", "butter", "broth", "paste", "powder",
+                 "seeds", "beans", "rice", "noodles", "wine", "juice", "syrup", "mustard", "yogurt", "stock"}
 BROTH_RE = re.compile(r"\b(broth|stock|bouillon)\b")
 FRUIT_PRODUCT_RE = re.compile(r"^(lime|lemon|orange|grapefruit)s? (?:juice|zest|peel)$")
 # a page's wording -> the master's: plain words the master spells more specifically
@@ -705,7 +785,7 @@ ADVERB_RE = re.compile(r"^(?!only\b|family\b|early\b|daily\b|jelly\b|belly\b|hol
 # (the match is still on the generic ingredient). (pattern, generic replacement)
 BRAND_RULES = [
     (r"\bFrank'?s(?:\s+Red\s?Hot)?(?:\s+(?:Original|Buffalo|Wings))*(?:\s+Sauce)?", "hot sauce"),
-    (r"\bDiamond Crystal\s+", ""), (r"\bMorton(?:'s)?\s+", ""), (r"\bDuke'?s\s+", ""), (r"\bHellmann'?s\s+", ""),
+    (r"(?i:\bdiamond crystal\s+)", ""), (r"\bMorton(?:'s)?\s+", ""), (r"\bDuke'?s\s+", ""), (r"\bHellmann'?s\s+", ""),
     (r"\bBest Foods\s+", ""), (r"\bKikkoman\s+", ""), (r"\bHeinz\s+", ""), (r"\bBarilla\s+", ""), (r"\bKnorr\s+", ""),
     (r"\bSwanson\s+", ""), (r"\bPepperidge Farm\s+", ""), (r"\bSargento\s+", ""), (r"\bMaldon\s+", ""), (r"\bKerrygold\s+", ""),
     (r"\bLand O'?\s?Lakes\s+", ""), (r"\bPhiladelphia\s+", ""), (r"\bVelveeta\s+", ""), (r"\bTabasco\s+", ""),
@@ -862,7 +942,7 @@ class Resolver:
         """'vegetable or canola oil' -> ['vegetable oil', 'canola oil']; 'A or B' -> [A, B]; single names unchanged."""
         n = re.split(r",|\bsuch as\b", name)[0].strip()
         n = re.sub(r"\s+or\s*$", "", n)                                               # "neutral oil or" (the rest was cut as prep)
-        parts = [p.strip() for p in re.split(r"\s+or\s+", n) if p.strip()]
+        parts = [re.sub(r"^(?:other|any other)\s+", "", p.strip()) for p in re.split(r"\s+or\s+", n) if p.strip()]    # "peanut or other neutral oil"
         parts = [p for p in parts if not re.match(r"(?:an?|any)\s+(?:mix|combination|blend)\b", p, re.I)]   # "white or black sesame seeds or a mix"
         if len(parts) < 2:
             return [parts[0] if parts else n]
@@ -870,7 +950,12 @@ class Resolver:
         out = []
         for p in parts[:-1]:
             pw = p.split()
-            out.append(f"{p} {' '.join(last[1:])}" if len(pw) == 1 and len(last) >= 2 else p)
+            if len(pw) == 1 and len(last) >= 2:
+                out.append(f"{p} {' '.join(last[1:])}")                 # "vegetable or canola oil" -> "vegetable oil"
+            elif len(pw) <= 2 and last and last[-1] in GENERIC_HEADS and pw[-1] != last[-1]:
+                out.append(f"{p} {last[-1]}")                           # "peanut, rice bran, or neutral oil" -> "rice bran oil"
+            else:
+                out.append(p)
         return out + [parts[-1]]
 
     def resolve_line(self, name: str, recipe_name: str = "") -> int | None:
@@ -993,6 +1078,9 @@ def build_ingredients(parsed: dict, ctx: Context, recipe_name: str, is_drink: bo
             if FROM_ABOVE_RE.search(whole) and not re.match(r"^\s*\d", whole) and not item.get("quantity"):
                 continue                                                # a back-reference to an earlier line
             for raw in split_plus_clause(whole):                        # "X, plus 1 tablespoon Y" -> two lines
+                if re.match(r"^or\s+\S", raw, re.I) and lines:          # "or 2 medium waxy potatoes": an alternative to the line above
+                    lines[-1][0].alts.append(re.sub(r"^or\s+", "", raw, flags=re.I).strip())
+                    continue
                 if is_optional_line(raw):
                     optional.append(raw.strip())
                     ctx.review["optional"].append((recipe_name, raw.strip()))
