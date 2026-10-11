@@ -39,6 +39,7 @@ INGREDIENTS  each page line is parsed from its text (the page's own span markup 
 Everything that needed a judgement call is recorded in the review report (external_review_report.json).
 """
 
+import csv
 import dataclasses
 import json
 import math
@@ -280,6 +281,8 @@ class Line:
     trailing: list = field(default_factory=list)      # bracket texts after the name starts ("(about 1 cup)", "(1 pound)")
     alts: list = field(default_factory=list)          # alternatives that carry their own amount ("or four 8-ounce bone-in thighs")
     extra: str = ""                                   # a trailing part of the amount: "minus 1 teaspoon", "plus 1 tablespoon"
+    fixed_us: str | None = None                       # a quantity written by hand (external_line_overrides.csv)
+    fixed_metric: str | None = None
     tail: list = field(default_factory=list)          # size / count words ("medium", "cloves")
     name: str = ""                                    # clean name, no prep
     prep: str | None = None
@@ -556,7 +559,19 @@ def us_equivalent(line: Line) -> tuple[float, float | None, str, str]:
     """For a line the page wrote metric-first ('555g (19 1/2 ounces; about 4 1/4 cups) flour'): its US measure, as
     (amount, amount_hi, unit, extra). Cups and spoons are preferred (the library writes them; '1 1/2 cups plus 1 tablespoon'
     keeps its 'plus 1 tbsp' as extra), then ounces / pounds; the table fills in when the page gives neither."""
-    for text in line.parens:
+    for text in line.parens:                                      # ounces first, as the author gives them (never converted to pounds)
+        for part in text.split(";"):
+            both = re.search(rf"({NUM})\s*(?:pounds?|lbs?)\s*(?:and\s*)?({NUM})\s*(?:ounces?|oz)\b", part, re.I)
+            if both:
+                return (parse_number(both.group(1)) or 0.0) * 16 + (parse_number(both.group(2)) or 0.0), None, "oz", ""
+            ounces = re.search(rf"(?<![\w/]){NUM}\s*(?:ounces?|oz)\b(?!\s*\))", part, re.I) if not re.search(r"fl(?:uid)?\.?\s*oz", part, re.I) else None
+            if ounces:
+                number = re.match(NUM, ounces.group(0))
+                return parse_number(number.group(0)) or 0.0, None, "oz", ""
+            pounds = re.search(rf"({NUM})\s*(?:pounds?|lbs?)\b", part, re.I)
+            if pounds:
+                return (parse_number(pounds.group(1)) or 0.0) * 16, None, "oz", ""
+    for text in line.parens:                                      # no weight given: cups and spoons
         for part in text.split(";"):
             m = VOLUME_IN_PAREN.search(part)
             if m:
@@ -566,7 +581,7 @@ def us_equivalent(line: Line) -> tuple[float, float | None, str, str]:
     for text in line.parens:
         for part in text.split(";"):
             imp = imperial_part(part)
-            if imp and imp[1] in ("oz", "lb", "fl oz"):
+            if imp and imp[1] == "fl oz":
                 return imp[0], None, imp[1], ""
     top = line.amount_hi if line.amount_hi is not None else line.amount
     if line.unit in ("g", "kg"):
@@ -577,13 +592,14 @@ def us_equivalent(line: Line) -> tuple[float, float | None, str, str]:
 
 
 def render_us(line: Line) -> str:
+    if line.fixed_us is not None:
+        return line.fixed_us
     if line.amount is None:
         return ""
     if line.unit in ("g", "kg", "ml", "l"):                    # the US recipe carries no metric figures
         amount, amount_hi, unit, extra = us_equivalent(line)
         us = dataclasses.replace(line, amount=amount, amount_hi=amount_hi, unit=unit, parens=[], extra=extra or line.extra)
-        pounds_if_large(us)
-        return render_us(us)
+        return render_us(us)                                    # baking-by-weight lines stay in ounces: no pounds conversion here
     top = line.amount_hi if line.amount_hi is not None else line.amount
     parts = [_amount_text(line)]
     if line.unit:
@@ -604,6 +620,8 @@ def _author_metric_for(line: Line) -> tuple[float, str] | None:
 
 
 def render_metric(line: Line) -> str:
+    if line.fixed_us is not None:
+        return line.fixed_metric if line.fixed_metric is not None else line.fixed_us
     if line.amount is None:
         return ""
     top = line.amount_hi if line.amount_hi is not None else line.amount
@@ -973,7 +991,7 @@ SUGGEST = [
     (5, "peanut", r"\bpeanuts?\b"),
     (6, "tree nut", r"\b(almonds?|walnuts?|pecans?|cashews?|pistachios?|hazelnuts?|macadamias?|pine nuts?|amaretto|marzipan)\b"),
     (9, "soy", r"\b(soy|tofu|tempeh|edamame|miso)\b"),
-    (10, "nightshade", r"\b(tomato(?:es)?|potato(?:es)?|eggplants?|paprika|cayenne|chil(?:i|e|li|es|is)|bell peppers?|jalape[nñ]os?|serranos?|poblanos?|habaneros?|guajillos?|anchos?|arbol|aji|pepperoncini|pimientos?|tajin|taj[ií]n|harissa|sriracha|gochujang|peppers?|tomatillo|goji)\b"),
+    (10, "nightshade", r"\b(tomato(?:es)?|potato(?:es)?|eggplants?|paprika|cayenne|chil(?:i|e|li|es|is)|bell peppers?|jalape[nñ]os?|serranos?|poblanos?|habaneros?|guajillos?|anchos?|arbol|aji|pepperoncini|pimientos?|pimentos?|tajin|taj[ií]n|harissa|sriracha|gochujang|peppers?|tomatillo|goji)\b"),
     (11, "egg", r"\b(eggs?|mayonnaise|mayo|aioli|meringue)\b"),
     (12, "sesame", r"\b(sesame|tahini)\b"),
     (13, "mustard", r"\bmustard\b"),
@@ -996,13 +1014,21 @@ def suggest_restrictions(name: str) -> list[dict]:
 CATEGORY_TAGS = {
     "dessert": 35, "desserts": 35, "breakfast": 36, "breakfast and brunch": 36, "brunch": 36,
     "snacks": 37, "snack": 37, "appetizers and hors d'oeuvres": 37, "appetizer": 37,
-    "soups and stews": 2, "soup": 2, "stew": 2, "chili": 2,
+    "soups and stews": 2, "soup": 2, "stew": 2, "chili": 2, "cold soup": 2, "gazpacho": 2,
     "pasta": 1, "pizza": 1, "pasta and pizza": 1,
-    "sandwiches": 4, "burgers": 4, "sandwich": 4,
+    "sandwiches": 4, "burgers": 4, "burger": 4, "sandwich": 4,
     "curry": 6, "curries": 6, "stir fry": 11, "stir-fry": 11,
     "grilling": 22, "barbecue": 22, "bbq": 22,
     "cocktail": 45, "cocktails": 45, "drinks": 44, "drink": 44, "beverages": 44, "beverage": 44, "smoothies": 44, "smoothie": 44,
+    "rum": 45, "whiskey": 45, "whisky": 45, "tequila": 45, "gin": 45, "vodka": 45, "coffee": 44,     # spirit categories are cocktails
+    "cake": [46, 35], "cakes": [46, 35], "pie": [47, 35], "pies": [47, 35], "ice cream": [48, 35],   # their own tag AND dessert
+    "quick and easy": 38, "quick dinners": 38,
 }
+
+
+# categories that name a meal type or a kind of food, not a dish style: deliberately without a tag
+UNTAGGED_CATEGORIES = {"dinner", "lunch", "entree", "mains", "side dish", "condiment", "condiments", "condiments and sauces", "ingredient",
+                       "spice mix", "bread", "salsa", "sauce", "salad", "salads"}
 
 
 def tag_ids_for(categories: list, keywords, name: str) -> list[int]:
@@ -1012,7 +1038,7 @@ def tag_ids_for(categories: list, keywords, name: str) -> list[int]:
         words += [k.strip().lower() for k in keywords.split(",")]
     for w in words:
         if w in CATEGORY_TAGS:
-            found.add(CATEGORY_TAGS[w])
+            found.update(CATEGORY_TAGS[w] if isinstance(CATEGORY_TAGS[w], list) else [CATEGORY_TAGS[w]])
     if re.search(r"\bcocktail\b", name, re.I):
         found.add(45)
     if 45 in found:
@@ -1050,14 +1076,36 @@ def build_review(ctx: "Context", aligned: int) -> dict:
 def split_equipment(text: str | None) -> list[str]:
     items = []
     for chunk in re.split(r"\n", text or ""):
-        parts = [chunk] if "(" in chunk else re.split(r",\s+(?![^()]*\))", chunk)
+        parts = re.split(r",\s+(?![^()]*\))", chunk)             # commas inside brackets do not split
         items += [p.strip(" .;") for p in parts if p.strip(" .;")]
     return [i[0].lower() + i[1:] if i[0].isalpha() and not i[1:2].isupper() else i for i in items]
+
+
+OVERRIDES_FILENAME = "external_line_overrides.csv"
+
+
+def line_key(raw: str) -> str:
+    return " ".join(raw.replace("\xa0", " ").split()).lower()
+
+
+def load_overrides(library_dir: Path) -> dict:
+    """external_line_overrides.csv (next to the registry): hand-written answers for one-off ingredient lines the parser
+    can't read. Columns: raw_line, kind (ingredient | cookware | drop), name, match_as (the master entry), us_quantity,
+    metric_quantity (blank = same as US). Several rows with the same raw_line give several ingredients."""
+    path = library_dir / OVERRIDES_FILENAME
+    table: dict[str, list] = {}
+    if path.exists():
+        with path.open(newline="", encoding="utf-8") as handle:
+            for row in csv.DictReader(handle):
+                table.setdefault(line_key(row["raw_line"]), []).append(row)
+    return table
 
 
 @dataclass
 class Context:
     resolver: Resolver
+    overrides: dict = field(default_factory=dict)
+    page_cookware: list = field(default_factory=list)       # equipment found among the ingredient lines of the page being aligned
     review: dict = field(default_factory=lambda: {"optional": [], "substitutions": [], "dropped_prep": [], "split_lines": [], "unknown_units": Counter(),
                                                   "unmapped_categories": Counter(), "no_servings": [], "twins": 0})
 
@@ -1070,9 +1118,21 @@ def build_ingredients(parsed: dict, ctx: Context, recipe_name: str, is_drink: bo
     In a drink recipe the brand names stay in the shown ingredient names; the match is on the generic ingredient either way."""
     lines = []
     optional = []
+    ctx.page_cookware = []
     for section in parsed["ingredient_sections"]:
         for item in section["items"]:
             whole = item["raw"]
+            overridden = ctx.overrides.get(line_key(whole))
+            if overridden:                                              # a hand-written answer for this exact line
+                for row in overridden:
+                    if row["kind"] == "cookware":
+                        ctx.page_cookware.append(row["name"].strip())
+                    elif row["kind"] == "ingredient":
+                        us_text = (row["us_quantity"] or "").strip()
+                        metric_text = (row.get("metric_quantity") or "").strip()
+                        lines.append((Line(raw=whole, name=row["name"].strip(), fixed_us=us_text,
+                                           fixed_metric=metric_text or us_text), (row["match_as"] or row["name"]).strip()))
+                continue
             if re.search(r"\bfrom\s+above\b", whole, re.I):
                 continue                                                # a mix made earlier on the page: its parts are listed above
             if FROM_ABOVE_RE.search(whole) and not re.match(r"^\s*\d", whole) and not item.get("quantity"):
@@ -1165,7 +1225,7 @@ class Aligner:
             shutil.copy2(source, self.master_path)
         self.master = IngredientMaster(load_master(self.master_path))
         self._before = json.dumps(self.master.data, sort_keys=True)
-        self.ctx = Context(Resolver(self.master))
+        self.ctx = Context(Resolver(self.master), overrides=load_overrides(library_dir))
 
     def align(self, row: dict, page: bytes) -> None:
         parsed = parse_page(page.decode("utf-8", errors="replace"), row["url"])
@@ -1196,10 +1256,11 @@ def align_page(parsed: dict, family_id: int, ctx: Context, source_url: str | Non
         servings = 4
         ctx.review["no_servings"].append(name)
     for cat in parsed["categories"] or []:
-        if cat.lower() not in CATEGORY_TAGS:
+        if cat.lower() not in CATEGORY_TAGS and cat.lower() not in UNTAGGED_CATEGORIES:
             ctx.review["unmapped_categories"][cat] += 1
     rating = parsed.get("rating")
-    equipment = [{"id": None, "name": e, "slug": slugify(e)} for e in split_equipment((parsed.get("extra_sections") or {}).get("Special Equipment"))]
+    equipment = [{"id": None, "name": e, "slug": slugify(e)}
+                 for e in split_equipment((parsed.get("extra_sections") or {}).get("Special Equipment")) + ctx.page_cookware]
     slug = slugify(name) or "recipe"
     variants = []
     for position, system in enumerate(("US", "Metric")):

@@ -539,7 +539,7 @@ const VARIETY_TAGS = {
   "39": "Mediterranean", "40": "Set it & forget it", "41": "Under 15 minutes",
   "42": "Sports fan favorites", "43": "Kid friendly",
   // ids 44+ are ours too: tags for recipes imported from other sites (EXTERNAL_VARIETY_TAGS in the local tool).
-  "44": "Drinks", "45": "Cocktails",
+  "44": "Drinks", "45": "Cocktails", "46": "Cakes", "47": "Pies", "48": "Ice cream",
 };
 // Menu types worth tagging: Classic is every recipe and Flexitarian nearly so, so both are left out.
 const MENU_TYPE_TAG_IDS = [2, 4, 5, 6, 7, 8];  // Vegetarian, Pescatarian, Paleo, Vegan, Low Carb, Keto

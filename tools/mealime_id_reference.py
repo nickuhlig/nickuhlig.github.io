@@ -115,6 +115,9 @@ ALBERTSONS_VARIETY_TAGS = {
 EXTERNAL_VARIETY_TAGS = {
     44: "Drinks",
     45: "Cocktails",
+    46: "Cakes",
+    47: "Pies",
+    48: "Ice cream",
 }
 
 VARIETY_TAGS = {
