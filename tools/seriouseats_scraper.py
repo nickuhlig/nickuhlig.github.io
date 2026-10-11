@@ -182,18 +182,30 @@ def renumber(rows: dict, registry_path: Path, raw_dir: Path, *dirs: Path) -> int
         if source_page.exists():
             source_page.rename(source_page.with_name(f"{new}.html.gz"))
             moved += 1
-    removed = 0
-    for base in dirs:
-        for old in mapping:
-            family = base / "families" / old
-            if family.is_dir():
-                shutil.rmtree(family)
-                removed += 1
     for old, new in mapping.items():
         old_ids[old]["id"] = new
-    save_registry(registry_path, rows)
+    save_registry(registry_path, rows)               # the registry first: clearing out old output below is only tidying
+    removed, stuck = 0, []
+    for base in dict.fromkeys(dirs):
+        for old in mapping:
+            family = base / "families" / old
+            if not family.is_dir():
+                continue
+            for attempt in range(3):                 # Google Drive / Explorer can hold a folder for a moment
+                try:
+                    shutil.rmtree(family)
+                    removed += 1
+                    break
+                except OSError:
+                    time.sleep(1)
+            else:
+                stuck.append(family)
     print(f"Renumbered {len(mapping)} recipe(s): ids {min(int(v) for v in mapping.values())} .. {max(int(v) for v in mapping.values())}; "
           f"renamed {moved} saved page(s); removed {removed} old family folder(s) (run `align` to rewrite them).")
+    if stuck:
+        print(f"{len(stuck)} old folder(s) could not be deleted (in use?) -- harmless, but delete them by hand when you can:")
+        for family in stuck[:10]:
+            print(f"    {family}")
     return len(mapping)
 
 
