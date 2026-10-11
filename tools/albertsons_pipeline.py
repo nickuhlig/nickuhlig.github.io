@@ -11,7 +11,7 @@ file adds no new logic of its own beyond threading the file paths between them):
   1. sweep         albertsons_full_sweep.py            NETWORK -- needs HEADERS filled in
                     that file (a captured, logged-in Albertsons session). Writes
                     <sweep-dir>/albertsons_full_sweep.json. This is the slow stage (can be
-                    ~40 minutes with --restriction-discovery/--pair-restriction-discovery),
+                    about 3 hours with --restriction-discovery/--pair-restriction-discovery),
                     so it's opt-in: pass --sweep to run it. Without --sweep, the existing
                     sweep file in --sweep-dir is reused as-is.
   2. diff           albertsons_library_diff.py          LOCAL. Compares the sweep against

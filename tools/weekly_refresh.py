@@ -139,6 +139,19 @@ class Git:
         return ["-c", "user.name=Weekly refresh", "-c", "user.email=noreply@users.noreply.github.com"]
 
 
+def ensure_writable(directory: Path) -> None:
+    """Fail in seconds, not after a multi-hour sweep, if this user can't write somewhere the run will
+    need to (e.g. a folder copied over with scp from Windows can arrive with odd permissions)."""
+    probe = directory / ".write_test"
+    try:
+        directory.mkdir(parents=True, exist_ok=True)
+        probe.write_text("x", encoding="utf-8")
+        probe.unlink()
+    except OSError as exc:
+        raise RuntimeError(f"{directory} is not writable by this user ({exc}). Fix with: "
+                           f"sudo chown -R $USER: '{directory}' && chmod -R u+rwX '{directory}'") from exc
+
+
 def manifest_entry_count(path: Path) -> int:
     try:
         return len(json.loads(path.read_text(encoding="utf-8")).get("entries", {}))
@@ -208,6 +221,9 @@ def refresh(args) -> int:
         if pulled.returncode != 0:
             git.run("rebase", "--abort", check=False)
             raise RuntimeError(f"git pull failed: {(pulled.stderr or pulled.stdout).strip()[:600]}")
+
+    for needed in (sweep_dir, library, TOOLS_DIR / "logs", *( [git.repo / ".git"] if git else [] )):
+        ensure_writable(needed)
 
     have_headers = len(load_headers(("Authorization", "Ocp-Apim-Subscription-Key"))) == 2
     network = have_headers and not args.local_only

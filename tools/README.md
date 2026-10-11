@@ -6,7 +6,7 @@ so the same scripts run on the PC and on the Raspberry Pi. Needs Python 3.10+.
 
 ## What runs weekly (`weekly_refresh.py`)
 
-`git pull` → Albertsons pipeline (sweep with both restriction-discovery passes, diff, fetch, ingredients,
+A full run takes about 3 hours (the sweep dominates). `git pull` → Albertsons pipeline (sweep with both restriction-discovery passes, diff, fetch, ingredients,
 restrictions, cookbooks) → regenerate `manifest.json` → commit **only** the library → `git push origin master`.
 
 * No session headers, or Albertsons rejects them, or a network stage fails → the local steps still run on the

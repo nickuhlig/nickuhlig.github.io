@@ -14,8 +14,8 @@ WorkingDirectory=/home/pi/nickuhlig.github.io/tools
 # Optional: put NTFY_URL=https://ntfy.sh/your-secret-topic (and NOTIFY_ON_SUCCESS=1) in this file.
 EnvironmentFile=-/home/pi/.config/recipe-refresh.env
 ExecStart=/home/pi/nickuhlig.github.io/tools/.venv/bin/python weekly_refresh.py
-# The full sweep alone can take ~40 minutes.
-TimeoutStartSec=4h
+# A full run takes about 3 hours (measured on the Pi), so leave generous headroom.
+TimeoutStartSec=8h
 # Exit code 2 = finished and pushed, but the network stages were skipped/failed; that is "attention",
 # not a crash, so don't let systemd mark the unit failed for it.
 SuccessExitStatus=2
