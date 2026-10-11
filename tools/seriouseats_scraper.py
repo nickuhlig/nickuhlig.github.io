@@ -15,6 +15,7 @@ COMMANDS
     python seriouseats_scraper.py align --limit 5           re-align pages already saved (no network): the dev loop
     python seriouseats_scraper.py fetch                     all of them (~1.5 h for ~5,400 pages at 1/s)
     python seriouseats_scraper.py status                    counts by state
+    python seriouseats_scraper.py renumber                  one-off: move an old-scheme registry to the 5,000,000 block
     python seriouseats_scraper.py run                       discover, then fetch + align (what a scheduled job would call)
 
   While developing, add --out-dir C:/scratch/lib: records and a COPY of the ingredient master go there, so
@@ -23,8 +24,9 @@ COMMANDS
 
 THE REGISTRY  <library>/source_registry.csv  (committed with the library; one row per URL)
     source,url,id,lastmod,fetched_lastmod,fetched_at,status
-  `id` is the URL's permanent library id (SOURCE_ID_BASE + n, handed out in sorted URL order, never
-  reused), so the same recipe keeps the same id on every machine. `lastmod` is the sitemap's
+  `id` is the URL's permanent family id, from a block starting at 5,000,000 (see external_recipes.py; the
+  Metric twin is id + 71). New URLs are numbered in order of the site's own page number where the URL has one,
+  never reused, so the same recipe keeps the same id on every machine. `lastmod` is the sitemap's
   last-modified date (checked against each page's own dateModified: they agree). A page is re-fetched
   only when its lastmod is newer than the one it was fetched at ("stale").
   status:  new -> ok | gone (404/410) | norecipe (page has no Recipe data) | error (retried next run)
@@ -47,6 +49,7 @@ import csv
 import gzip
 import random
 import re
+import shutil
 import sys
 import time
 from datetime import datetime
@@ -55,7 +58,7 @@ from pathlib import Path
 import requests
 
 from external_align import Aligner
-from external_recipes import SOURCE_ID_BASE
+from external_recipes import family_index, is_family_id, nth_family_id, site_number
 from library_paths import DEFAULT_LIBRARY_DIR, TOOLS_DIR
 
 SOURCE = "seriouseats"
@@ -65,6 +68,8 @@ USER_AGENT = "Mozilla/5.0 (compatible; recipe-library-scraper/1.0)"
 COLUMNS = ["source", "url", "id", "lastmod", "fetched_lastmod", "fetched_at", "status"]
 DEFAULT_RAW_DIR = TOOLS_DIR / "raw_pages"
 MAX_CONSECUTIVE_BLOCKS = 5
+RETRIES = 2          # extra tries for a refused page, after RETRY_WAIT and then 2 x RETRY_WAIT seconds
+RETRY_WAIT = 30.0
 SAVE_EVERY = 25
 EXIT_OK, EXIT_ERROR, EXIT_BLOCKED = 0, 1, 3
 
@@ -146,6 +151,52 @@ def sitemap_entries(session: requests.Session, sitemap_url: str) -> list[tuple[s
     return entries
 
 
+def id_order_key(url: str):
+    number = site_number(url)
+    return (number is None, number or 0, url)
+
+
+def check_ids_current(mine: list[dict]) -> None:
+    if any(not is_family_id(int(r["id"])) for r in mine):
+        raise RuntimeError("the registry still has ids from the earlier numbering scheme -- run "
+                           "`python seriouseats_scraper.py renumber` once first")
+
+
+def renumber(rows: dict, registry_path: Path, raw_dir: Path, *dirs: Path) -> int:
+    """One-off move from the first numbering (50,000,001...) to the 5,000,000 block. Reassigns every row's id,
+    renames the saved pages to match, and deletes the records written under the old ids in the given library /
+    scratch folders (they are only derived output: `align` rewrites them under the new ids)."""
+    mine = sorted((r for (src, _), r in rows.items() if src == SOURCE), key=lambda r: id_order_key(r["url"]))
+    if not any(not is_family_id(int(r["id"])) for r in mine):
+        print("Nothing to renumber: every id is already in the 5,000,000 block.")
+        return 0
+    old_ids = {r["id"]: r for r in mine}
+    mapping = {}
+    for n, row in enumerate(mine):
+        mapping[row["id"]] = str(nth_family_id(n))
+    if set(mapping.values()) & set(mapping):
+        raise RuntimeError("old and new ids overlap; refusing to renumber")
+    moved = 0
+    for old, new in mapping.items():
+        source_page = raw_dir / SOURCE / f"{old}.html.gz"
+        if source_page.exists():
+            source_page.rename(source_page.with_name(f"{new}.html.gz"))
+            moved += 1
+    removed = 0
+    for base in dirs:
+        for old in mapping:
+            family = base / "families" / old
+            if family.is_dir():
+                shutil.rmtree(family)
+                removed += 1
+    for old, new in mapping.items():
+        old_ids[old]["id"] = new
+    save_registry(registry_path, rows)
+    print(f"Renumbered {len(mapping)} recipe(s): ids {min(int(v) for v in mapping.values())} .. {max(int(v) for v in mapping.values())}; "
+          f"renamed {moved} saved page(s); removed {removed} old family folder(s) (run `align` to rewrite them).")
+    return len(mapping)
+
+
 def discover(session: requests.Session, base_url: str, rows: dict, urls_file: Path | None = None) -> tuple[int, int, int]:
     """Add new recipe URLs to the registry and refresh lastmods. Returns (new, changed, total_recipe_urls)."""
     if urls_file:
@@ -155,14 +206,17 @@ def discover(session: requests.Session, base_url: str, rows: dict, urls_file: Pa
     recipes = {url: mod for url, mod in entries if RECIPE_PATH_RE.search(re.sub(r"^https?://[^/]+", "", url))}
 
     mine = [r for (src, _), r in rows.items() if src == SOURCE]
-    next_id = max((int(r["id"]) for r in mine), default=SOURCE_ID_BASE[SOURCE]) + 1
+    check_ids_current(mine)
+    next_index = max((family_index(int(r["id"])) for r in mine), default=-1) + 1
     new = changed = 0
-    for url in sorted(recipes):
+    # New URLs are numbered in order of the site's own page number where the URL has one (older URLs have none
+    # and follow, by URL). Ids are permanent once handed out, so this only orders each batch.
+    for url in sorted(recipes, key=id_order_key):
         key = (SOURCE, url)
         if key not in rows:
-            rows[key] = {"source": SOURCE, "url": url, "id": str(next_id), "lastmod": recipes[url],
+            rows[key] = {"source": SOURCE, "url": url, "id": str(nth_family_id(next_index)), "lastmod": recipes[url],
                          "fetched_lastmod": "", "fetched_at": "", "status": "new"}
-            next_id += 1
+            next_index += 1
             new += 1
         elif recipes[url] and recipes[url] != rows[key]["lastmod"]:
             rows[key]["lastmod"] = recipes[url]
@@ -203,6 +257,21 @@ def fetch_page(session: requests.Session, url: str) -> tuple[str, bytes | None]:
     return "norecipe", None
 
 
+def fetch_with_retries(session: requests.Session, url: str, retry_wait: float) -> tuple[str, bytes | None]:
+    """fetch_page, but a refusal gets RETRIES more tries after a pause (retry_wait, then 2x) before it counts as
+    blocked -- the site's refusals are intermittent. Plain backoff; nothing about the request changes."""
+    for attempt in range(RETRIES + 1):
+        try:
+            return fetch_page(session, url)
+        except Blocked as exc:
+            if attempt == RETRIES or retry_wait <= 0:
+                raise
+            pause = retry_wait * 2 ** attempt
+            print(f"    -> refused ({exc}); retry {attempt + 1}/{RETRIES} in {pause:g}s")
+            time.sleep(pause)
+    raise AssertionError("unreachable")
+
+
 def raw_path(raw_dir: Path, row: dict) -> Path:
     return raw_dir / row["source"] / f"{row['id']}.html.gz"
 
@@ -239,7 +308,7 @@ def run_align(rows: dict, raw_dir: Path, aligner, *, limit: int | None, match: s
 
 def run_fetch(session: requests.Session, rows: dict, registry_path: Path, raw_dir: Path, *, delay: float,
               limit: int | None, match: str | None, ids: set[int] | None,
-              keep_raw: bool = True, on_page=None) -> dict[str, int]:
+              keep_raw: bool = True, on_page=None, retry_wait: float = RETRY_WAIT) -> dict[str, int]:
     todo = select_rows(rows, needs_fetch, limit=limit, match=match, ids=ids)
     print(f"{len(todo)} page(s) to fetch")
     counts: dict[str, int] = {}
@@ -248,11 +317,11 @@ def run_fetch(session: requests.Session, rows: dict, registry_path: Path, raw_di
         for n, row in enumerate(todo, start=1):
             print(f"[{n}/{len(todo)}] {row['id']} {row['url']}")
             try:
-                status, page = fetch_page(session, row["url"])
+                status, page = fetch_with_retries(session, row["url"], retry_wait)
                 consecutive_blocks = 0
             except Blocked as exc:
                 consecutive_blocks += 1
-                print(f"    -> blocked ({consecutive_blocks}/{MAX_CONSECUTIVE_BLOCKS}): {exc}")
+                print(f"    -> blocked, retries exhausted ({consecutive_blocks}/{MAX_CONSECUTIVE_BLOCKS}): {exc}")
                 if consecutive_blocks >= MAX_CONSECUTIVE_BLOCKS:
                     raise Blocked(f"{MAX_CONSECUTIVE_BLOCKS} refusals in a row; the site is blocking us. "
                                   f"Stopping -- progress is saved. Wait, then rerun (or run from elsewhere).") from exc
@@ -305,12 +374,15 @@ def print_status(rows: dict) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("command", choices=["discover", "fetch", "align", "status", "run"])
+    parser.add_argument("command", choices=["discover", "fetch", "align", "status", "run", "renumber"])
     parser.add_argument("--base-url", default=BASE_URL, help=f"Site root (default {BASE_URL}; changed only for testing)")
     parser.add_argument("--library-dir", type=Path, default=DEFAULT_LIBRARY_DIR, help="Library root (holds source_registry.csv)")
     parser.add_argument("--raw-dir", type=Path, default=DEFAULT_RAW_DIR, help=f"Where saved pages go (default {DEFAULT_RAW_DIR})")
     parser.add_argument("--urls-file", type=Path, help="discover from a file of URLs (one per line) instead of the sitemap")
     parser.add_argument("--delay", type=float, default=1.0, help="Seconds between page fetches (default 1.0)")
+    parser.add_argument("--retry-wait", type=float, default=RETRY_WAIT,
+                        help=f"fetch: seconds to wait before retrying a refused page (then double; {RETRIES} retries; "
+                             f"0 = no retries; default {RETRY_WAIT:g})")
     parser.add_argument("--limit", type=int, help="fetch at most this many pages")
     parser.add_argument("--match", help="fetch only URLs containing this text (e.g. 'kimchi')")
     parser.add_argument("--ids", help="fetch only these library ids (comma-separated)")
@@ -328,6 +400,19 @@ def main() -> int:
     rows = load_registry(registry_path)
     session = make_session()
     base = args.base_url.rstrip("/")
+    if args.command == "renumber":
+        try:
+            renumber(rows, registry_path, args.raw_dir, args.library_dir, args.out_dir or args.library_dir)
+        except (RuntimeError, ValueError) as exc:
+            print(f"\nERROR: {exc}")
+            return EXIT_ERROR
+        print_status(rows)
+        return EXIT_OK
+    try:
+        check_ids_current([r for (src, _), r in rows.items() if src == SOURCE])
+    except RuntimeError as exc:
+        print(f"\nERROR: {exc}")
+        return EXIT_ERROR
     aligner = None
     if args.command == "align" or args.align or args.command == "run":
         aligner = Aligner(args.library_dir, args.out_dir or args.library_dir, args.review_file)
@@ -340,7 +425,8 @@ def main() -> int:
         if args.command in ("fetch", "run"):
             counts = run_fetch(session, rows, registry_path, args.raw_dir, delay=args.delay,
                                limit=args.limit, match=args.match, ids=ids,
-                               keep_raw=not args.no_raw, on_page=aligner.align if aligner else None)
+                               keep_raw=not args.no_raw, on_page=aligner.align if aligner else None,
+                               retry_wait=args.retry_wait)
             print("Fetched:", counts or "nothing")
         if args.command == "align":
             failed = run_align(rows, args.raw_dir, aligner, limit=args.limit, match=args.match, ids=ids)

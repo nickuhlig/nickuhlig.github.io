@@ -7,7 +7,8 @@ restriction filters and web page need no special cases. It runs during the fetch
 
 WHAT IT PRODUCES  one family = two records (the library's usual US/Metric pair):
     US      id = family id (the registry id)        units "US"      unit_family_id 2   position 0
-    Metric  id = family id * 10 + 1                 units "Metric"  unit_family_id 1   position 1
+    Metric  id = family id + 71                     units "Metric"  unit_family_id 1   position 1
+  (family ids come from the 5,000,000 block described in external_recipes.py; +71 never lands on another id)
   with the same fields as an Albertsons-native record, plus a few the exporters pass through when present
   (description, notes) and some that are just kept (author, thumbnail_image_url).
 
@@ -42,7 +43,7 @@ from collections import Counter
 from dataclasses import dataclass, field
 from pathlib import Path
 
-from external_recipes import parse_page, slugify
+from external_recipes import active_minutes, metric_id, parse_page, slugify, total_time_note
 from fetch_albertsons_native_recipes import format_quantity_number
 from ingredient_master import IngredientMaster, load_master, master_path_for, name_key, protected_qualifiers, save_master
 
@@ -741,6 +742,8 @@ def build_ingredients(parsed: dict, ctx: Context, recipe_name: str):
 
 def build_notes(parsed: dict, optional: list, system: str) -> str | None:
     paragraphs = []
+    if total_time_note(parsed):
+        paragraphs.append(total_time_note(parsed))
     if optional:
         paragraphs.append("Optional or for serving: " + "; ".join(localize_text(o, system) for o in optional))
     extra = parsed.get("extra_sections") or {}
@@ -802,7 +805,7 @@ def align_page(parsed: dict, family_id: int, ctx: Context, source_url: str | Non
     slug = slugify(name) or "recipe"
     variants = []
     for position, system in enumerate(("US", "Metric")):
-        variant_id = family_id if system == "US" else family_id * 10 + 1
+        variant_id = family_id if system == "US" else metric_id(family_id)
         variants.append({
             "id": variant_id,
             "recipe_id": family_id,
@@ -811,7 +814,7 @@ def align_page(parsed: dict, family_id: int, ctx: Context, source_url: str | Non
             "source_url": source_url or parsed["url"],
             "canonical_variant_url": None,
             "serving_count": servings,
-            "cooking_minutes": parsed["total_minutes"],
+            "cooking_minutes": active_minutes(parsed),
             "units": system,
             "group_label": "Default",
             "position": position,
@@ -831,7 +834,7 @@ def align_page(parsed: dict, family_id: int, ctx: Context, source_url: str | Non
                              for i, text in enumerate(parsed["steps"])],
             "nutrition": parsed["nutrition"],
             "schema_metadata": {"category": parsed["categories"], "cuisine": parsed["cuisines"], "keywords": parsed["keywords"]},
-            "sibling_variant_ids": [family_id, family_id * 10 + 1],
+            "sibling_variant_ids": [family_id, metric_id(family_id)],
             "family_dir": f"families/{family_id}/",
             "source": SOURCE,
             "backfill_bonus_fields": None,

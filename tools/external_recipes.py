@@ -40,9 +40,52 @@ import html as html_lib
 import json
 import re
 import sys
+import unicodedata
 from pathlib import Path
 
-SOURCE_ID_BASE = {"seriouseats": 50_000_000}  # one id range per site, well clear of Mealime/Albertsons ids
+SOURCES = ("seriouseats",)
+
+# Ids for imported recipes. Every recipe gets a family id from one block starting at 5,000,000 and its Metric
+# twin is family id + 71. The block is laid out 71 family ids, then 71 numbers left free for their Metric twins,
+# then the next 71 families ...:  5,000,000-5,000,070 (families) | 5,000,071-5,000,141 (their Metric twins) |
+# 5,000,142-... so no id is ever another recipe's Metric id. Kept clear of the Mealime/Albertsons ids: those are
+# below 1,036,000, and Albertsons Metric twins (family x 10 + 1) start at 10,000,001.
+ID_BLOCK_START = 5_000_000
+METRIC_ID_OFFSET = 71
+ID_LIMIT = 10_000_000
+
+
+def nth_family_id(n: int) -> int:
+    """The n-th (0-based) family id handed out, in the layout described above."""
+    family_id = ID_BLOCK_START + (n // METRIC_ID_OFFSET) * 2 * METRIC_ID_OFFSET + n % METRIC_ID_OFFSET
+    if family_id + METRIC_ID_OFFSET >= ID_LIMIT:
+        raise ValueError(f"the imported-recipe id block is full (id {family_id})")
+    return family_id
+
+
+def family_index(family_id: int) -> int:
+    """Inverse of nth_family_id (how many family ids come before this one)."""
+    offset = family_id - ID_BLOCK_START
+    return (offset // (2 * METRIC_ID_OFFSET)) * METRIC_ID_OFFSET + offset % (2 * METRIC_ID_OFFSET)
+
+
+def metric_id(family_id: int) -> int:
+    return family_id + METRIC_ID_OFFSET
+
+
+def is_family_id(value: int) -> bool:
+    """True for an id in a family slot of the block (not a Metric slot, not outside the block)."""
+    offset = value - ID_BLOCK_START
+    return offset >= 0 and offset % (2 * METRIC_ID_OFFSET) < METRIC_ID_OFFSET and value + METRIC_ID_OFFSET < ID_LIMIT
+
+
+SITE_NUMBER_RE = re.compile(r"-recipe-(\d{6,})$")
+
+
+def site_number(url: str) -> int | None:
+    """The numeric page id some Serious Eats URLs end in ('...-recipe-12168126'); older URLs have none."""
+    m = SITE_NUMBER_RE.search(url)
+    return int(m.group(1)) if m else None
 # Classic + Flexitarian: what every recipe satisfies. Without a 1 here the exporter's mandatory
 # Classic menu would drop the recipe from every export. Vegetarian/Vegan etc. can't be read from the
 # page, so they are left out rather than guessed.
@@ -71,14 +114,52 @@ def normalize_quantity(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
-def iso_minutes(duration: str | None) -> int | None:
-    if not duration:
+def iso_minutes(duration, longest: bool = False) -> int | None:
+    """Minutes from an ISO-8601 duration. Recipes with long rests give a range object instead of a string
+    ({"@type": "Duration", "minValue": "PT105M", "maxValue": "PT1485M"}); the shortest figure is used unless
+    longest=True."""
+    if isinstance(duration, dict):
+        low, high = duration.get("minValue"), duration.get("maxValue")
+        duration = (high or low) if longest else (low or high)
+    if not duration or not isinstance(duration, str):
         return None
     m = re.fullmatch(r"P(?:(\d+)D)?T?(?:(\d+)H)?(?:(\d+)M)?", duration.strip())
     if not m or not any(m.groups()):
         return None
     days, hours, minutes = (int(g) if g else 0 for g in m.groups())
     return days * 1440 + hours * 60 + minutes
+
+
+MAX_UNSPLIT_TOTAL_MINUTES = 90   # a lone totalTime above this is mostly waiting, not work
+
+
+def active_minutes(parsed: dict) -> int | None:
+    """Hands-on time, which is what the library's cooking_minutes means (median 35, 99% <= 60): prep + cook
+    when the page gives either, else totalTime only if it is short enough not to be mostly waiting."""
+    prep, cook = parsed.get("prep_minutes"), parsed.get("cook_minutes")
+    if prep or cook:
+        return (prep or 0) + (cook or 0)
+    total = parsed.get("total_minutes")
+    return total if total is not None and total <= MAX_UNSPLIT_TOTAL_MINUTES else None
+
+
+def format_duration(minutes: int) -> str:
+    days, rest = divmod(minutes, 1440)
+    hours, mins = divmod(rest, 60)
+    parts = [f"{days} day{'s' if days != 1 else ''}" if days else "", f"{hours} hr" if hours else "", f"{mins} min" if mins else ""]
+    return " ".join(p for p in parts if p) or "0 min"
+
+
+def total_time_note(parsed: dict) -> str | None:
+    """'Total time, including resting: ...' when the whole recipe takes clearly longer than the hands-on time."""
+    low, high = parsed.get("total_minutes"), parsed.get("total_minutes_max")
+    active = active_minutes(parsed)
+    if not low or (active is not None and low - active < 30):
+        return None
+    if active is None and low <= MAX_UNSPLIT_TOTAL_MINUTES:
+        return None
+    span = format_duration(low) if not high or high == low else f"{format_duration(low)} to {format_duration(high)}"
+    return f"Total time, including resting: {span}."
 
 
 def first_number(value) -> int | None:
@@ -92,6 +173,7 @@ def number_with_unit(value: str | None) -> float | None:
 
 
 def slugify(text: str) -> str:
+    text = "".join(c for c in unicodedata.normalize("NFKD", text) if not unicodedata.combining(c))   # Albóndigas -> Albondigas
     text = re.sub(r"['’]", "", text.lower())
     return re.sub(r"[^a-z0-9]+", "-", text).strip("-")
 
@@ -268,6 +350,9 @@ def parse_page(page: str, url: str | None = None) -> dict:
         "authors": [a.get("name") for a in authors if isinstance(a, dict) and a.get("name")],
         "servings": first_number(ld.get("recipeYield")),
         "total_minutes": iso_minutes(ld.get("totalTime")),
+        "total_minutes_max": iso_minutes(ld.get("totalTime"), longest=True),
+        "prep_minutes": iso_minutes(ld.get("prepTime")),
+        "cook_minutes": iso_minutes(ld.get("cookTime")),
         "categories": ld.get("recipeCategory") or [],
         "cuisines": ld.get("recipeCuisine") or [],
         "keywords": ld.get("keywords"),
@@ -303,7 +388,7 @@ def to_library_record(parsed: dict, record_id: int, source: str = "seriouseats")
         "source_url": parsed["url"],
         "canonical_variant_url": None,
         "serving_count": parsed["servings"],
-        "cooking_minutes": parsed["total_minutes"],
+        "cooking_minutes": active_minutes(parsed),
         "units": "US",
         "group_label": "Default",
         "position": 0,
@@ -338,12 +423,12 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("html_files", nargs="+", type=Path, help="Saved recipe page(s) (.html)")
     parser.add_argument("--out-dir", type=Path, required=True, help="Library root to write families/<id>/ into")
-    parser.add_argument("--source", default="seriouseats", choices=sorted(SOURCE_ID_BASE))
-    parser.add_argument("--start-id", type=int, default=None, help="First id to use (default: the site's base + 1)")
+    parser.add_argument("--source", default="seriouseats", choices=SOURCES)
+    parser.add_argument("--start-id", type=int, default=None, help=f"First id to use (default: {ID_BLOCK_START})")
     parser.add_argument("--url", default=None, help="The page's URL (single file only; else read from the page)")
     args = parser.parse_args()
 
-    next_id = args.start_id or SOURCE_ID_BASE[args.source] + 1
+    next_id = args.start_id or ID_BLOCK_START
     for path in args.html_files:
         parsed = parse_page(path.read_text(encoding="utf-8", errors="replace"), args.url)
         record = to_library_record(parsed, next_id, args.source)
@@ -352,7 +437,7 @@ def main() -> int:
         out = fdir / f"{next_id}_{record['slug']}.json"
         out.write_text(json.dumps(record, indent=2, ensure_ascii=False), encoding="utf-8")
         print(f"{next_id}: {record['name']} -> {out}")
-        next_id += 1
+        next_id = nth_family_id(family_index(next_id) + 1)
     return 0
 
 

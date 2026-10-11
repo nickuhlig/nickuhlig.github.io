@@ -21,6 +21,7 @@ Usage:
 
 import argparse
 import json
+import sys
 from pathlib import Path
 
 from library_paths import DEFAULT_LIBRARY_DIR as DEFAULT_RECIPES_DIR
@@ -50,6 +51,11 @@ def build_manifest(recipes_dir: Path) -> dict:
         if not isinstance(record, dict) or "id" not in record:
             continue
 
+        if str(record["id"]) in entries:
+            # Two files claiming one id: the later silently replaced the earlier. Say so -- ids from different
+            # sources (Mealime, Albertsons, imported sites) must never overlap.
+            print(f"WARNING: duplicate recipe id {record['id']}: {path} replaces "
+                  f"{entries[str(record['id'])]['path']}", file=sys.stderr)
         entries[str(record["id"])] = {
             "recipe_id": record["recipe_id"],
             # Lets the site tell which variants belong to one dish ((recipe_id, group_label, name) --
