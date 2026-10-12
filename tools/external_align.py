@@ -78,6 +78,11 @@ UNIT_MAP = {
 }
 SPELLED_OUT = {"tbsp", "tsp", "cup", "oz", "lb", "quart", "pint", "gallon", "inch"}   # US units that may need converting
 SIZE_WORDS = {"small", "medium", "large", "extra-large", "big", "generous"}   # "whole" is handled separately: "2 whole heads" vs "whole peeled tomatoes"
+SIZE_RE = r"small|medium|large|extra[- ]large|jumbo|big"
+# words that only describe (no noun): a name made of nothing else is really the start of "adjectives, noun"
+LEADING_ADJECTIVES = {"cubed", "sweet", "ripe", "fresh", "firm", "soft", "hard", "hot", "mild", "spicy", "bitter", "sour", "crisp", "crunchy",
+                      "tender", "juicy", "sliced", "chopped", "diced", "minced", "shredded", "grated", "dried", "raw", "cooked", "frozen",
+                      "large", "small", "medium", "thick", "thin", "lean", "fatty", "young", "baby", "mini", "whole", "toasted", "roasted"}
 # (singular, plural) the library's way: "1 clove", "2 cloves"
 COUNT_FORMS = {}
 for _s, _p in [("clove", "cloves"), ("head", "heads"), ("sprig", "sprigs"), ("stalk", "stalks"), ("slice", "slices"),
@@ -87,7 +92,8 @@ for _s, _p in [("clove", "cloves"), ("head", "heads"), ("sprig", "sprigs"), ("st
                ("fillet", "fillets"), ("pkg", "pkgs"), ("package", "pkgs"), ("jar", "jars"), ("bulb", "bulbs"),
                ("round", "rounds"), ("handful", "handfuls"), ("bottle", "bottles"), ("bag", "bags"), ("box", "boxes"),
                ("container", "containers"), ("cube", "cubes"), ("drop", "drops"), ("serving", "servings"),
-               ("scoop", "scoops"), ("shot", "shots"), ("block", "blocks"), ("envelope", "envelopes"), ("packet", "packets")]:
+               ("scoop", "scoops"), ("shot", "shots"), ("block", "blocks"), ("envelope", "envelopes"), ("packet", "packets"),
+               ("dozen", "dozen"), ("loaf", "loaves"), ("rack", "racks")]:
     COUNT_FORMS[_s] = (_s if _s != "package" else "pkg", _p)
     COUNT_FORMS[_p] = COUNT_FORMS[_s]
 ADVERB_OR_PREP_WORDS = {"sliced", "chopped", "diced", "minced", "grated", "shredded", "crushed", "peeled", "trimmed",
@@ -214,7 +220,8 @@ CROSS_REF_RE = re.compile(r"\bmade through step \d+\b|\(\s*(?:see|below|above)[^
 _LIST_ITEM = r"(?![^,]*\b\w{3,}(?:ed|ly)\b)[A-Za-z][A-Za-z' -]{1,30}?"
 # preparation described after the name without a comma: "onion grated on a microplane grater", "potatoes peeled and cut into chunks"
 PREPARED_TAIL = (r"\s+(?:(?:grated|peeled|trimmed|cored|seeded|halved|quartered|cubed|crushed|drained|rinsed|thawed|softened|beaten|sifted)"
-                 r"\s+(?:on|and|into|in|at|to|with|lengthwise|crosswise|if)|cut\s+(?:into|in|at|to))\b.*$")
+                 r"\s+(?:on|and|into|in|at|to|with|lengthwise|crosswise|if)|cut\s+(?:into|in|at|to)|"
+                 r"(?:stirred|mixed|whisked|dissolved|combined|blended)\s+(?:in|into|with)|dissolved\b)\b.*$")
 LIST_OF_ALTERNATIVES_RE = re.compile(rf"^((?:{_LIST_ITEM}, ){{1,4}}(?:and/or |or ){_LIST_ITEM}(?= *(?:,|$)))( ?.*)$")
 GARNISH_LINE_RE = re.compile(r"^\s*(?:garnish(?:es)?\s*:|toppings?\b)|\bof your choice\b|\bany of the following\b|\bcomposed of\b", re.I)
 # "Garnish: mint sprig", "Toppings of your choice, ...", "Vegetables of your choice"
@@ -227,7 +234,8 @@ def is_optional_line(raw: str) -> bool:
 
 
 NUMBER_WORDS = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7, "eight": 8, "nine": 9,
-                "ten": 10, "eleven": 11, "twelve": 12}
+                "ten": 10, "eleven": 11, "twelve": 12, "thirteen": 13, "fourteen": 14, "fifteen": 15, "sixteen": 16,
+                "seventeen": 17, "eighteen": 18, "nineteen": 19, "twenty": 20}
 NUMBER_WORD_RE = "|".join(NUMBER_WORDS)
 PRODUCT_ATTRIBUTES = r"boneless|skinless|bone-in|skin-on"
 PLUS_AMOUNT_RE = re.compile(rf"(?:,\s*|\s+)plus\s+(?=(?:\d|[{VG}]|a\s|an\s|(?:{NUMBER_WORD_RE})\s))", re.I)
@@ -242,14 +250,22 @@ def normalize_raw(raw: str) -> str:
     s = re.sub(rf"^(?:about|approximately|roughly|scant|generous|heaping|rounded|a scant|a generous|just over|just under)\s+(?=\d|[{VG}])", "", s, flags=re.I)
     s = re.sub(rf"(?<=[\d/{VG}])\s+(?:scant|heaping|generous|rounded|level)\s+(?=(?:tablespoons?|teaspoons?|cups?)\b)", " ", s, flags=re.I)
     s = re.sub(rf"^({NUMBER_WORD_RE})\b(?=\s+[\d(a-z])", lambda m: str(NUMBER_WORDS[m.group(1).lower()]), s, flags=re.I)
+    s = re.sub(r"^(?:and|to|plus)\s+(?=\d)", "", s, flags=re.I)                           # "and 1 teaspoon Cajun seasoning"
+    s = re.sub(rf"^half of ({NUM})\s+", lambda m: f"{fmt_number((parse_number(m.group(1)) or 0) / 2)} ", s, flags=re.I)   # "Half of 1 yellow onion"
     s = re.sub(rf"^(\d+)\s+pounds?\s+({NUM})\s+ounces?\b",                                  # "1 pound 10.5 ounces" -> "26.5 ounces"
                lambda m: f"{int(m.group(1)) * 16 + (parse_number(m.group(2)) or 0):g} ounces", s, flags=re.I)
     s = re.sub(r"^(\d+(?:\.\d+)?)(g|kg|ml)\b", r"\1 \2", s)                              # "555g flour" -> "555 g flour"
+    s = re.sub(r"\((\d+(?:\.\d+)?)\)\s?(g|kg|ml)\b", r"(\1 \2)", s)                       # "8 tablespoons (113)g butter" -> "(113 g)"
+    s = re.sub(r"\b(\w+(?: \w+)?) \(\d[^)]*\) \1\b", r"\1", s)                            # "unsalted butter (113 g) unsalted butter": the name said twice
     s = re.sub(rf"^({NUM})\s+of\s+(?:an?|the)\s+", r"\1 ", s)                              # "1/2 of a jalapeño" -> "1/2 jalapeño"
     s = re.sub(rf"^({NUM})\s*[-–]\s*(inch|ounce|pound)s?\b(?=\s+(?:\([^)]*\)\s*)?(?:knob|piece|block|chunk|slab|stick|strip|segment)\b)",
                lambda m: f"1 ({m.group(1)}-{m.group(2)})", s, flags=re.I)                    # "1/2-inch knob ginger" -> "1 (1/2-inch) knob ginger"
     size = rf"{NUM}(?:\s*-?\s*(?:to|by)\s*{NUM})?"                                            # "5- to 6", "3- by 1", "1 1/2"
-    s = re.sub(rf"^(\d+)\s+({size})\s*[-–]\s*(ounces?|pounds?|inch(?:es)?)\b(?:\s+each)?", r"\1 (\2-\3)", s, flags=re.I)
+    s = re.sub(rf"^(\d+)\s+((?:whole|large|small|medium)\s+)?({size})\s*[-–]\s*(ounces?|pounds?|inch(?:es)?)\b(?:\s+each)?",
+               lambda m: f"{m.group(1)} ({m.group(3)}-{m.group(4)}) {m.group(2) or ''}".rstrip() + " ", s, flags=re.I)
+    s = re.sub(rf"^((?:whole\s+)?)({size})\s*[-–]\s*(ounces?|pounds?)\b(?!\s*\))",                  # "12-ounce English cucumber", "1-pound loaf soft Italian"
+               lambda m: f"1 ({m.group(2)}-{m.group(3)}) {m.group(1)}".rstrip() + " ", s, flags=re.I)
+    s = re.sub(r"\b\d{2,3}%\s*(?=lean|juice|pure|natural)", "", s, flags=re.I)                    # "80% lean ground beef", "100% pineapple juice"
     s = re.sub(rf"\b({PRODUCT_ATTRIBUTES}),\s+(?=(?:{PRODUCT_ATTRIBUTES})\b)", r"\1 ", s, flags=re.I)
     return s
 
@@ -326,8 +342,13 @@ def parse_line(raw: str) -> Line:
                 line.unit = "fl oz"; i += 2; continue
             if line.unit is None and not line.tail and bare in UNIT_MAP:
                 line.unit = UNIT_MAP[bare]; i += 1; continue
+            if bare in SIZE_WORDS and line.unit:
+                break                                               # "1 pound large shrimp": with a weight the size stays in the text and becomes prep (below)
             if bare in SIZE_WORDS:
-                line.tail.append(bare); i += 1; continue
+                line.tail.append(bare); i += 1
+                while i + 1 < len(tokens) and tokens[i].lower() == "or" and tokens[i + 1].strip(".,;:").lower() in SIZE_WORDS:
+                    i += 2                                          # "3 large or medium eggs": the first size is kept
+                continue
             if bare == "whole" and i + 1 < len(tokens) and tokens[i + 1].strip(".,;:").lower() in COUNT_FORMS:
                 line.tail.append(bare); i += 1; continue
             if bare in COUNT_FORMS and i + 1 < len(tokens) and not tok.endswith(","):    # "24 whole cloves, divided": cloves IS the name
@@ -358,8 +379,19 @@ def parse_line(raw: str) -> Line:
     cut = re.search(r"[,;]", text)                       # name ends at the first comma or semicolon; the rest is prep
     head, prep = (text[:cut.start()], text[cut.end():]) if cut else (text, "")
     line.name = re.sub(r"\s+", " ", head).strip(" .,;:")
+    if prep.strip() and line.name and all(w in LEADING_ADJECTIVES for w in line.name.lower().split()):
+        noun, _, rest = prep.strip().partition(",")                               # "cubed sweet, ripe mango, from 2 mangoes": the noun follows the comma
+        if noun.strip():
+            prep = ", ".join(x for x in (line.name, rest.strip()) if x)
+            line.name = noun.strip()
+    if line.unit and line.amount is not None:                                      # "1 pound large or medium shrimp": sizes are prep, not the name
+        sizes = re.match(rf"^((?:{SIZE_RE})(?:\s+or\s+(?:{SIZE_RE}))*)\s+(?=\S)", line.name, re.I)
+        if sizes:
+            prep = ", ".join(x for x in (sizes.group(1), prep.strip()) if x)
+            line.name = line.name[sizes.end():]
     line.name = re.sub(r"\b(\w+) \1\b", r"\1", line.name, flags=re.I)             # a typo on the page: "ground ground cumin"
     line.name = re.sub(r"^fruit\s+", "", line.name, flags=re.I)                     # "1 fruit (2-3/8" dia) lemon"
+    line.name = re.sub(r"^(roll|bun|loaf|slice|piece|head|bulb|can|jar)s?\s+(.*\b\1s?)$", r"\2", line.name, flags=re.I)   # "4 roll potato rolls": the unit said twice
     line.prep = " ".join(x for x in (prep.strip(), examples) if x) or None
     if line.amount is not None and not line.tail and line.unit is None:             # "4 garlic cloves" -> "4 cloves garlic" (the library's order)
         noun = re.match(r"^(.+?)\s+(cloves?|sprigs?|stalks?)$", line.name, re.I)
@@ -458,8 +490,8 @@ class Substitution:
 FRUITS = r"limes?|lemons?|oranges?|grapefruits?"
 # "juice from about 2 limes", "freshly squeezed juice from 1 whole lemon", "zest of 1 orange", "zest and juice from 1 lime"
 FRUIT_SOURCE_RE = re.compile(
-    rf"^(?:(?:fresh|freshly[- ]squeezed|squeezed)\s+)*(?P<kind>juice|zest)(?:\s+and\s+(?:juice|zest))?\s+(?:from|of)\s+"
-    rf"(?:about\s+|approximately\s+|roughly\s+)?(?:(?P<n>\d+|{NUMBER_WORD_RE}|half(?:\s+an?)?|an?)\s+)?"
+    rf"^(?:(?:fresh|freshly[- ]squeezed|squeezed|grated|finely grated|freshly grated)\s+)*(?P<kind>juice|zest|peels?|rinds?)(?:\s+and\s+(?:juice|zest))?\s+(?:from|of)\s+"
+    rf"(?:about\s+|approximately\s+|roughly\s+)?(?:(?P<n>\d+(?:\s+\d+/\d+)?|\d+/\d+|{NUMBER_WORD_RE}|half(?:\s+an?)?|an?)\s+)?"
     rf"(?:(?:whole|large|medium|small|big)\s+)?(?P<fruit>{FRUITS})\b", re.I)
 # chipotles that come from a can of chipotles in adobo, however the author words it
 CHIPOTLE_CANNED_RE = re.compile(r"\bchipotles?\b(?:\s+(?:chil(?:i|e)s?|peppers?))?.*?\b(?:in\s+adobo|adobo|from\s+\d+\s+cans?)\b", re.I)
@@ -474,16 +506,38 @@ def apply_renames(line: Line) -> str | None:
     """Rewrites a line in the library's words where a kind of line has a fixed wording (the user's rename table).
     Returns the name to MATCH against the master when it differs from the name shown (None = match the shown name)."""
     name = line.name
+    bare = re.match(r"^(?:(?:fresh|freshly squeezed|squeezed|grated|finely grated|freshly grated)\s+)*(juice|zest)$", name, re.I)
+    if bare:                                                # "fresh juice (from 1 lemon)", "3/4 cup juice (4 whole lemons)": the fruit is named beside it
+        context = " ".join([line.prep or "", *line.trailing, line.raw])
+        fruit_in = re.search(rf"\b({FRUITS})\b", context, re.I)
+        if fruit_in:
+            fruit = re.sub(r"s$", "", fruit_in.group(1).lower())
+            if line.unit is None:                           # "Fresh juice from 1/2 lemon (about 1 tablespoon; 15ml)": the bracket gives the volume
+                for text in line.trailing + line.parens:
+                    vol = next((VOLUME_IN_PAREN.search(part) for part in text.split(";") if VOLUME_IN_PAREN.search(part)), None)
+                    if vol:
+                        line.amount, line.amount_hi, line.unit = parse_number(vol["a"]) or 1.0, None, UNIT_MAP[vol["u"].lower()]
+                        break
+            if line.unit:
+                line.name = f"{fruit} {bare.group(1).lower()}"
+                return line.name
     m = FRUIT_SOURCE_RE.match(name)
     if m:
         fruit = re.sub(r"s$", "", m["fruit"].lower())
+        if line.unit is None:                               # "Fresh juice from 1/2 lemon (about 1 tablespoon; 15ml)": the bracket gives a volume
+            for text in line.trailing + line.parens:
+                vol = next((VOLUME_IN_PAREN.search(part) for part in text.split(";") if VOLUME_IN_PAREN.search(part)), None)
+                if vol:
+                    line.amount, line.amount_hi, line.unit = parse_number(vol["a"]) or 1.0, None, UNIT_MAP[vol["u"].lower()]
+                    break
         if line.unit:                                       # a volume is given: "2 tablespoons juice from 2 limes" -> "2 tbsp lime juice"
             line.name = f"{fruit} {m['kind'].lower()}"
             return line.name
         word = (m["n"] or "1").lower()
-        count = NUMBER_WORDS.get(word) or (0.5 if word.startswith("half") else 1 if word in ("a", "an") else float(word))
+        count = NUMBER_WORDS.get(word) or (0.5 if word.startswith("half") else 1 if word in ("a", "an") else parse_number(word) or 1.0)
         line.amount = line.amount if line.amount is not None else float(count)
-        line.name = f"{fruit}{'s' if (line.amount or 1) > 1 else ''}, {'juiced' if m['kind'].lower() == 'juice' else 'zested'}"
+        verb = {"juice": "juiced", "zest": "zested"}.get(m["kind"].lower(), "peel only")
+        line.name = f"{fruit}{'s' if (line.amount or 1) > 1 else ''}, {verb}"
         return fruit
     if CHIPOTLE_CANNED_RE.search(name) and not CHIPOTLE_DRIED_RE.search(name):
         lead = PREP_BEFORE_CHIPOTLE.match(name)
@@ -790,19 +844,23 @@ MODIFIERS = ("bone in skin on", "boneless skinless", "unsalted", "salted", "bone
              "smoked", "light", "dark", "reduced sodium", "low sodium")
 GENERIC_HEADS = {"oil", "cheese", "sauce", "vinegar", "sugar", "flour", "salt", "milk", "cream", "butter", "broth", "paste", "powder",
                  "seeds", "beans", "rice", "noodles", "wine", "juice", "syrup", "mustard", "yogurt", "stock"}
+HEAD_NOUNS = GENERIC_HEADS | {"drippings", "fat", "lard", "shortening", "margarine", "creamer", "spray", "mayonnaise", "mayo", "ketchup", "honey",
+                              "buttermilk", "water", "beer", "rum", "whiskey", "bourbon", "gin", "vodka", "tequila", "brandy", "molasses", "jam", "jelly"}
 BROTH_RE = re.compile(r"\b(broth|stock|bouillon)\b")
 FRUIT_PRODUCT_RE = re.compile(r"^(lime|lemon|orange|grapefruit)s? (?:juice|zest|peel)$")
 # a page's wording -> the master's: plain words the master spells more specifically
 ALIASES = {"ground black pepper": "black pepper", "ground white pepper": "white pepper", "freshly ground black pepper": "black pepper",
            "sugar": "granulated sugar", "olive oil": "extra virgin olive oil", "parmigiano reggiano": "parmesan cheese",
            "parmigiano reggiano cheese": "parmesan cheese", "grated parmigiano reggiano": "parmesan cheese",
-           "buffalo hot sauce": "hot sauce", "louisiana style hot sauce": "hot sauce", "other louisiana style hot sauce": "hot sauce"}
+           "buffalo hot sauce": "hot sauce", "louisiana style hot sauce": "hot sauce", "other louisiana style hot sauce": "hot sauce",
+           "pepper": "black pepper", "cracked pepper": "black pepper", "fresh cracked pepper": "black pepper", "freshly ground pepper": "black pepper",
+           "ground pepper": "black pepper", "fresh ground pepper": "black pepper", "freshly cracked pepper": "black pepper"}
 ADVERB_RE = re.compile(r"^(?!only\b|family\b|early\b|daily\b|jelly\b|belly\b|holly\b|lily\b|italy\b)[a-z]{4,}ly\s+(?=\S)")   # "freshly minced garlic"
 
 # Brand names are stripped to the generic ingredient (the user's rule); in drink recipes they stay in the shown name
 # (the match is still on the generic ingredient). (pattern, generic replacement)
 BRAND_RULES = [
-    (r"\bFrank'?s(?:\s+Red\s?Hot)?(?:\s+(?:Original|Buffalo|Wings))*(?:\s+Sauce)?", "hot sauce"),
+    (r"\bFrank['’]?s(?:\s+Red\s?Hot)?(?:\s+(?:Original|Buffalo|Wings))*(?i:\s+sauce)?", "hot sauce"),
     (r"(?i:\bdiamond crystal\s+)", ""), (r"\bMorton(?:'s)?\s+", ""), (r"\bDuke'?s\s+", ""), (r"\bHellmann'?s\s+", ""),
     (r"\bBest Foods\s+", ""), (r"\bKikkoman\s+", ""), (r"\bHeinz\s+", ""), (r"\bBarilla\s+", ""), (r"\bKnorr\s+", ""),
     (r"\bSwanson\s+", ""), (r"\bPepperidge Farm\s+", ""), (r"\bSargento\s+", ""), (r"\bMaldon\s+", ""), (r"\bKerrygold\s+", ""),
@@ -924,11 +982,12 @@ class Resolver:
                 ing_id = self.lookup.get(key)
                 if ing_id is not None and self.master._qualifiers_ok(ing_id, wanted):
                     return ing_id, ("direct" if i == 0 else "cleaned")
-        fruit = FRUIT_PRODUCT_RE.match(squash(name))            # "lime juice", "lemon zest": the fruit's own entry
-        if fruit:
-            for key in (fruit.group(1), fruit.group(1) + "s"):
-                if self.lookup.get(key) is not None:
-                    return self.lookup[key], "cleaned"
+        for cand in self.candidates(name):                      # "lime juice", "grated fresh lemon zest": the fruit's own entry
+            fruit = FRUIT_PRODUCT_RE.match(cand)
+            if fruit:
+                for key in (fruit.group(1), fruit.group(1) + "s"):
+                    if self.lookup.get(key) is not None:
+                        return self.lookup[key], "cleaned"
         return None, "new"
 
     def resolve(self, name: str, recipe_name: str = "") -> tuple[int | None, str]:
@@ -968,7 +1027,10 @@ class Resolver:
         out = []
         for p in parts[:-1]:
             pw = p.split()
-            if len(pw) == 1 and len(last) >= 2:
+            complete = pw[-1].lower() in HEAD_NOUNS or pw[-1].lower().endswith(("milk", "cream", "butter", "cheese", "yogurt"))   # "sour cream", "buttermilk": already a whole ingredient
+            if complete:
+                out.append(p)
+            elif len(pw) == 1 and len(last) >= 2:
                 out.append(f"{p} {' '.join(last[1:])}")                 # "vegetable or canola oil" -> "vegetable oil"
             elif len(pw) <= 2 and last and last[-1] in GENERIC_HEADS and pw[-1] != last[-1]:
                 out.append(f"{p} {last[-1]}")                           # "peanut, rice bran, or neutral oil" -> "rice bran oil"
@@ -983,31 +1045,39 @@ class Resolver:
 
 # --- suggestions for the review report ---------------------------------------------------------------------------------------
 
+# Suggestions only (the user decides): (restriction id, label, pattern that suggests it, pattern that cancels the suggestion).
+# The "cancels" patterns are the false positives found so far: plant milks and nut butters are not dairy, rice / tapioca
+# flours and noodles are not gluten, sweet potatoes are not nightshades, oyster crackers / king oyster mushrooms are not shellfish...
 SUGGEST = [
-    (2, "dairy", r"\b(milk|cream|butter|cheese|yogh?urt|ghee|whey|buttermilk|mozzarella|parmesan|parmigiano|reggiano|pecorino|romano|grana padano|manchego|halloumi|brie|gouda|provolone|asiago|ricotta|cr[eè]me fra[iî]che|custard|kefir|paneer|mascarpone|gruy[eè]re|cotija|feta|cheddar|queso)\b"),
-    (1, "gluten", r"\b(flour|bread|pasta|noodles?|couscous|barley|rye|wheat|seitan|panko|breadcrumbs?|tortilla|pita|lavash|cracker|soy sauce|beer|ramen|orzo|bulgur|farro|semolina|marmite|malt)\b"),
-    (3, "fish", r"\b(fish|salmon|tuna|cod|anchov(?:y|ies)|sardines?|trout|halibut|mackerel|worcestershire|bonito|snapper|tilapia|haddock)\b"),
-    (4, "shellfish", r"\b(shrimp|prawns?|crab|lobster|clams?|mussels?|oysters?|scallops?|crawfish)\b"),
-    (5, "peanut", r"\bpeanuts?\b"),
-    (6, "tree nut", r"\b(almonds?|walnuts?|pecans?|cashews?|pistachios?|hazelnuts?|macadamias?|pine nuts?|amaretto|marzipan)\b"),
-    (9, "soy", r"\b(soy|tofu|tempeh|edamame|miso)\b"),
-    (10, "nightshade", r"\b(tomato(?:es)?|potato(?:es)?|eggplants?|paprika|cayenne|chil(?:i|e|li|es|is)|bell peppers?|jalape[nñ]os?|serranos?|poblanos?|habaneros?|guajillos?|anchos?|arbol|aji|pepperoncini|pimientos?|pimentos?|tajin|taj[ií]n|harissa|sriracha|gochujang|peppers?|tomatillo|goji)\b"),
-    (11, "egg", r"\b(eggs?|mayonnaise|mayo|aioli|meringue)\b"),
-    (12, "sesame", r"\b(sesame|tahini)\b"),
-    (13, "mustard", r"\bmustard\b"),
-    (14, "sulfite", r"\b(wine|dried (?:apricots?|fruit)|sherry|vermouth)\b"),
+    (2, "dairy", r"\b(milk|cream|butter|cheese|yogh?urt|ghee|whey|buttermilk|mozzarella|parmesan|parmigiano|reggiano|pecorino|romano|grana padano|manchego|halloumi|brie|gouda|provolone|asiago|fontina|ricotta|mascarpone|cr[eè]me fra[iî]che|custard|kefir|paneer|gruy[eè]re|cotija|feta|cheddar|queso|jocoque|stracchino|casein|shokupan|ranch dressing|malted milk|nutella)\b",
+        r"\b(?:coconut|almond|oat|soy|rice|cashew|hemp|nut|peanut|cocoa|shea|apple|vegan|non-?dairy|dairy-free)\s+(?:milk|cream|butter|yogh?urt|cheese|creamer)\b|\bbutter (?:lettuce|beans?|nut|pickle|oil)\b|\bbutternut\b|\bcream of tartar\b|\bice cream (?:cone|sandwich)\b"),
+    (1, "gluten", r"\b(flour|bread|breadcrumbs?|crumbs|pasta|spaghetti|linguine|penne|orzo|macaroni|noodles?|ramen|udon|couscous|barley|rye|wheat|seitan|panko|tortillas?|pita|lavash|naan|brioche|baguette|rolls?|buns?|bagels?|croissants?|crackers?|cookies?|biscuits?|pretzels?|dough|pastry|crust|phyllo|filo|wonton wrappers?|dumpling wrappers?|semolina|bulgur|farro|spelt|matzo|graham|soy sauce|shoyu|teriyaki|beer|lager|ale|malt|stout|pancake mix|shokupan|festivals?|hoagie|malted)\b",
+        r"\b(?:rice|tapioca|chickpea|almond|coconut|corn|potato|mung bean|glass|cellophane|bean thread|buckwheat|cassava|sweet rice|glutinous|oat|gram|besan|masa|arrowroot|sorghum|teff|millet|pho|rice stick)\b[ -]*(?:flour|noodles?|vermicelli|paper|starch|pasta|crackers?|cakes?)|\bgluten[- ]free\b|\bpretzel salt\b|\b(?:corn|rice|almond|coconut) (?:flour|tortillas?)\b|\bflour tortillas? chips\b|\bginger ale\b|\bcorn tortillas?\b"),
+    (3, "fish", r"\b(fish|salmon|tuna|cod|anchov(?:y|ies)|sardines?|trout|halibut|mackerel|worcestershire|bonito|dashi|snapper|tilapia|haddock|haddie|herring|sea bass|bass|sole|carp|eel|pollock|surimi|mahi|swordfish|branzino|sierra|flounder|catfish|kippers?)\b",
+        r"\bfish mint\b|\bfish sauce substitute\b|\bbass guitar\b"),
+    (4, "shellfish", r"\b(shrimps?|prawns?|crabs?|lobsters?|clams?|mussels?|oysters?|scallops?|crawfish|crayfish|squid|calamari|octopus|cuttlefish|abalone|conch|langoustines?)\b",
+        r"\boyster (?:crackers?|mushrooms?)\b|\bking oyster\b|\bscallop squash\b|\bsea scallions\b"),
+    (5, "peanut", r"\bpeanuts?\b", r"\bpeanut[- ]free\b"),
+    (6, "tree nut", r"\b(almonds?|walnuts?|pecans?|cashews?|pistachios?|hazelnuts?|macadamias?|pine nuts?|brazil nuts?|chestnuts?|candlenuts?|praline|amaretto|marzipan|nutella|dukkah|frangelico|filberts?)\b", r"\bwater chestnuts?\b"),
+    (9, "soy", r"\b(soy|soya|soybeans?|tofu|tempeh|edamame|miso|natto|tamari|shoyu|teriyaki|hoisin|doubanjiang|douchi|gochujang|maggi|ponzu|kecap|fermented bean curd|bean curd)\b", r"\bsoy[- ]free\b|\bsoy lecithin\b"),
+    (10, "nightshade", r"\b(tomato(?:es)?|tomatillos?|potato(?:es)?|eggplants?|aubergines?|paprika|piment[oó]n|cayenne|chil(?:i|e|li|es|is|ies)|chiltep[ií]n|bell peppers?|jalape[nñ]os?|serranos?|poblanos?|habaneros?|guajillos?|anchos?|arbol|[aá]rbol|aji|aj[ií]|pepperoncini|pimientos?|pimentos?|tajin|taj[ií]n|harissa|sriracha|gochujang|gochugaru|goji|salsa|ketchup|hot sauce|hot pepper|peppers?|merken|giardiniera|chorizo|chamoy|pico de gallo|shatta|sambal|french fries|fries|hash browns?|tater tots?|british chips)\b",
+        r"\b(?:black|white|pink|green|sichuan|szechuan|long)\s+(?:pepper|peppercorns?)\b|\bpeppercorns?\b|\b(?:sweet|yam)\s+potato(?:es)?\b|\bpeppermint\b|\bpepper mint\b"),
+    (11, "egg", r"\b(eggs?|mayonnaise|mayo|aioli|meringue|hollandaise|egg noodles?|custard|cole slaw|coleslaw)\b", r"\beggplants?\b|\bvegan mayo\b|\begg[- ]free\b"),
+    (12, "sesame", r"\b(sesame|tahini|halva|halvah|za'?atar|benne|dukkah)\b", r""),
+    (13, "mustard", r"\b(mustard|dijon)\b", r""),
+    (14, "sulfite", r"\b(wine|sherry|vermouth|port|marsala|madeira|champagne|prosecco|dried (?:apricots?|fruit|mango|cherries|cranberries|currants)|olives?|pickles?|pickled|cornichons?|vinegar|balsamic|capers?|beer|lager|sauerkraut|horseradish|giardiniera|chimichurri)\b",
+        r"\b(?:distilled )?white vinegar\b(?!.*(?:wine|cider|rice|balsamic))|\bdistilled vinegar\b|\bcream of tartar\b"),
 ]
 
 
 def suggest_restrictions(name: str) -> list[dict]:
-    low = name.lower()
+    low = name.lower().replace("’", "'")
     found = []
-    for rid, label, pattern in SUGGEST:
+    for rid, label, pattern, unless in SUGGEST:
         m = re.search(pattern, low)
-        if m and not (rid == 10 and re.search(r"(?:black|white|pink|green) pepper|peppercorn", low) and m.group(0) in ("pepper", "peppers")):
+        if m and not (unless and re.search(unless, low)):
             found.append({"id": rid, "restriction": label, "because": m.group(0)})
     return found
-
 
 # --- tags ---------------------------------------------------------------------------------------------------------------------------
 
@@ -1127,6 +1197,9 @@ def build_ingredients(parsed: dict, ctx: Context, recipe_name: str, is_drink: bo
                 for row in overridden:
                     if row["kind"] == "cookware":
                         ctx.page_cookware.append(row["name"].strip())
+                    elif row["kind"] == "note":                         # not an ingredient: goes to the notes at the top ("Optional or for serving")
+                        optional.append(row["name"].strip())
+                        ctx.review["optional"].append((recipe_name, row["name"].strip()))
                     elif row["kind"] == "ingredient":
                         us_text = (row["us_quantity"] or "").strip()
                         metric_text = (row.get("metric_quantity") or "").strip()
@@ -1148,7 +1221,7 @@ def build_ingredients(parsed: dict, ctx: Context, recipe_name: str, is_drink: bo
                 line = parse_line(raw)
                 if not line.name:
                     continue
-                if line.amount is None and re.search(r"\sand\s", line.name) and "," not in line.raw:
+                if line.amount is None and re.search(r"\sand\s", line.name):
                     for piece in re.split(r"\s+and\s+", line.name):             # "salt and pepper" -> two lines
                         lines.append((Line(raw=raw, name=piece.strip(), prep=None), None))
                     ctx.review["split_lines"].append((recipe_name, raw))
@@ -1156,6 +1229,13 @@ def build_ingredients(parsed: dict, ctx: Context, recipe_name: str, is_drink: bo
                 if line.unit and line.unit not in ("tbsp", "tsp", "cup", "oz", "lb", "fl oz", "g", "kg", "ml", "l", "cm", "inch",
                                                    "quart", "pint", "gallon"):
                     ctx.review["unknown_units"][line.unit] += 1
+                both = re.match(r"^(\S.*?)\s+and\s+(\d[\d/ ]*\s?(?:" + PROSE_UNIT + r")\b.+)$", line.name, re.I) if line.amount is not None else None
+                if both:                                                    # "1 teaspoon juice and 1 teaspoon grated zest from 1 lemon" -> two lines
+                    second = parse_line(both.group(2) + (", " + line.prep if line.prep else ""))
+                    line.name = both.group(1)
+                    lines.append((line, apply_renames(line)))
+                    lines.append((second, apply_renames(second)))
+                    continue
                 lines.append((line, apply_renames(line)))
     us, metric, ids, subs = [], [], [], []
     keep_brand = (lambda n: n) if is_drink else strip_brands
