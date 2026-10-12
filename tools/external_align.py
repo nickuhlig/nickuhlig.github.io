@@ -49,6 +49,7 @@ from collections import Counter
 from dataclasses import dataclass, field
 from pathlib import Path
 
+from diet_rules import fill_missing_flags, recipe_menu_types, suggest_flags
 from external_recipes import active_minutes, metric_id, parse_page, slugify, total_time_note
 from fetch_albertsons_native_recipes import format_quantity_number
 from ingredient_master import IngredientMaster, load_master, master_path_for, name_key, protected_qualifiers, save_master
@@ -82,7 +83,8 @@ SIZE_RE = r"small|medium|large|extra[- ]large|jumbo|big"
 # words that only describe (no noun): a name made of nothing else is really the start of "adjectives, noun"
 LEADING_ADJECTIVES = {"cubed", "sweet", "ripe", "fresh", "firm", "soft", "hard", "hot", "mild", "spicy", "bitter", "sour", "crisp", "crunchy",
                       "tender", "juicy", "sliced", "chopped", "diced", "minced", "shredded", "grated", "dried", "raw", "cooked", "frozen",
-                      "large", "small", "medium", "thick", "thin", "lean", "fatty", "young", "baby", "mini", "whole", "toasted", "roasted"}
+                      "large", "small", "medium", "thick", "thin", "lean", "fatty", "young", "baby", "mini", "whole", "toasted", "roasted",
+                      "packed", "loosely", "firmly", "tightly", "lightly", "roughly", "finely", "coarsely", "thinly", "freshly"}
 # (singular, plural) the library's way: "1 clove", "2 cloves"
 COUNT_FORMS = {}
 for _s, _p in [("clove", "cloves"), ("head", "heads"), ("sprig", "sprigs"), ("stalk", "stalks"), ("slice", "slices"),
@@ -209,7 +211,8 @@ def convert_us_to_metric(amount: float, unit: str) -> str | None:
 AMOUNT_RE = re.compile(rf"^(?P<a>{NUM})(?:{RANGE_SEP}(?P<b>{NUM}))?(?=\s|\(|$)")
 TOKEN_RE = re.compile(r"\([^)]*\)|[^\s()]+")
 OPTIONAL_RE = re.compile(r"\boptional\b", re.I)
-SERVING_RE = re.compile(r"\b(?:for|as(?:\s+an?)?|to)\s+(?:serv(?:ing|e)|garnish(?:ing)?|top(?:ping)?)\b", re.I)
+SERVING_RE = re.compile(r"\b(?:for|as(?:\s+an?)?|to)\s+(?:serv(?:ing|e)|garnish(?:ing)?)\b|\b(?:for|as(?:\s+an?)?)\s+topping\b|\bto top\b(?!\s+(?:or|and|round|sirloin))", re.I)
+# ("such as top or bottom sirloin" is not a serving suggestion)
 PLUS_MORE_RE = re.compile(r"\bplus\s+(more|extra|additional)\b", re.I)
 A_PINCH_RE = re.compile(r"^(?:(?:a|an|one)\s+)?(pinch|dash|handful|splash|drizzle)(?:\s+of)?\s+", re.I)   # "a pinch of salt", "Pinch kosher salt"
 CROSS_REF_RE = re.compile(r"\bmade through step \d+\b|\(\s*(?:see|below|above)[^)]*\)|\b(?:see|noted?)\s+(?:note|notes|below|above|recipe)\b|\((?:above|below)\)", re.I)
@@ -419,7 +422,8 @@ def parse_line(raw: str) -> Line:
                     r"\s+about\s+\d[\d/ ]*\s*(?:inch|inches|cm|-inch)\b.*$",         # "French bread about 12 inches long"
                     PREPARED_TAIL):                                                  # "onion grated on a microplane grater"
         m = re.search(pattern, line.name, re.I)
-        if m and m.start() > 0 and not CHIPOTLE_CANNED_RE.search(line.name) and not FRUIT_SOURCE_RE.match(line.name):
+        if (m and m.start() > 0 and not CHIPOTLE_CANNED_RE.search(line.name) and not FRUIT_SOURCE_RE.match(line.name)
+                and not all(w in LEADING_ADJECTIVES for w in line.name[:m.start()].lower().split())):     # "raw peeled and deveined shrimp": 'raw' is not the name
             line.prep = " ".join(x for x in (m.group(0).strip(), line.prep) if x)
             line.name = line.name[:m.start()].strip()
     return line
@@ -836,7 +840,7 @@ def localize_text(text: str, system: str) -> str:
 
 # Words about HOW an ingredient is prepared or presented, not WHAT it is: peeled off when matching, and when a new
 # master entry has to be made (so "stemmed and chopped lacinato kale" is entered as "lacinato kale").
-PREP_DESCRIPTORS = ("homemade or store bought", "store bought or homemade", "homemade", "store bought", "melted", "stemmed and chopped",
+PREP_DESCRIPTORS = ("peeled and deveined", "deveined", "jumbo", "extra large", "homemade or store bought", "store bought or homemade", "homemade", "store bought", "melted", "stemmed and chopped",
                     "very thinly sliced", "thinly sliced", "roughly chopped", "finely chopped", "finely minced", "finely diced",
                     "chopped", "grated", "shredded", "minced", "diced", "sliced", "crumbled", "pitted", "drained", "peeled",
                     "freshly picked", "fresh picked", "picked", "freshly squeezed", "freshly cracked", "freshly ground",
@@ -1134,8 +1138,10 @@ def build_review(ctx: "Context", aligned: int) -> dict:
     new_rows = []
     for ing_id, recipe in sorted(resolver.new.items()):
         entry = master.entries[str(ing_id)]
+        suggested = suggest_restrictions(entry["name"])
         new_rows.append({"id": ing_id, "name": entry["name"], "first_seen_in": recipe, "violates": entry.get("violates"),
-                         "suggested_restrictions": suggest_restrictions(entry["name"])})
+                         "suggested_restrictions": suggested,
+                         "suggested_diet_flags": sorted(suggest_flags({"name": entry["name"], "violates": [s["id"] for s in suggested]}))})
     return {
         "recipes_aligned": aligned,
         "new_ingredients": {"count": len(new_rows), "undecided": sum(1 for r in new_rows if r["violates"] is None), "items": new_rows},
@@ -1325,6 +1331,7 @@ class Aligner:
             shutil.copy2(source, self.master_path)
         self.master = IngredientMaster(load_master(self.master_path))
         self._before = json.dumps(self.master.data, sort_keys=True)
+        fill_missing_flags(self.master)                       # decided entries get their diet_flags (the master is where the importer reads them); saved by finish()
         self.ctx = Context(Resolver(self.master), overrides=load_overrides(library_dir))
 
     def align(self, row: dict, page: bytes) -> dict:
@@ -1368,6 +1375,7 @@ def align_page(parsed: dict, family_id: int, ctx: Context, source_url: str | Non
         if cat.lower() not in CATEGORY_TAGS and cat.lower() not in UNTAGGED_CATEGORIES:
             ctx.review["unmapped_categories"][cat] += 1
     rating = parsed.get("rating")
+    menu_types = recipe_menu_types([i["ingredient_id"] for i in us_ings], ctx.resolver.master, parsed["nutrition"])       # vegetarian / pescatarian / vegan / paleo from the ingredients, low carb / keto from the nutrition
     equipment = [{"id": None, "name": e, "slug": slugify(e)}
                  for e in split_equipment((parsed.get("extra_sections") or {}).get("Special Equipment")) + ctx.page_cookware]
     slug = slugify(name) or "recipe"
@@ -1390,7 +1398,7 @@ def align_page(parsed: dict, family_id: int, ctx: Context, source_url: str | Non
             "is_pro": None,
             "average_rating": round(rating[0] / 5, 3) if rating else None,
             "rating_count": rating[1] if rating else 0,
-            "allowed_type_ids": [1, 3],
+            "allowed_type_ids": list(menu_types),
             "violated_restriction_ids": violated,
             "variety_tag_ids": tag_ids,
             "cuisine_tag_ids": [],
