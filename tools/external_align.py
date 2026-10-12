@@ -93,7 +93,7 @@ for _s, _p in [("clove", "cloves"), ("head", "heads"), ("sprig", "sprigs"), ("st
                ("round", "rounds"), ("handful", "handfuls"), ("bottle", "bottles"), ("bag", "bags"), ("box", "boxes"),
                ("container", "containers"), ("cube", "cubes"), ("drop", "drops"), ("serving", "servings"),
                ("scoop", "scoops"), ("shot", "shots"), ("block", "blocks"), ("envelope", "envelopes"), ("packet", "packets"),
-               ("dozen", "dozen"), ("loaf", "loaves"), ("rack", "racks")]:
+               ("dozen", "dozen"), ("loaf", "loaves"), ("rack", "racks"), ("portion", "portions")]:
     COUNT_FORMS[_s] = (_s if _s != "package" else "pkg", _p)
     COUNT_FORMS[_p] = COUNT_FORMS[_s]
 ADVERB_OR_PREP_WORDS = {"sliced", "chopped", "diced", "minced", "grated", "shredded", "crushed", "peeled", "trimmed",
@@ -257,11 +257,13 @@ def normalize_raw(raw: str) -> str:
     s = re.sub(r"^(\d+(?:\.\d+)?)(g|kg|ml)\b", r"\1 \2", s)                              # "555g flour" -> "555 g flour"
     s = re.sub(r"\((\d+(?:\.\d+)?)\)\s?(g|kg|ml)\b", r"(\1 \2)", s)                       # "8 tablespoons (113)g butter" -> "(113 g)"
     s = re.sub(r"\b(\w+(?: \w+)?) \(\d[^)]*\) \1\b", r"\1", s)                            # "unsalted butter (113 g) unsalted butter": the name said twice
+    s += ")" * max(0, s.count("(") - s.count(")"))                                          # "(about 8 ounces each, ends trimmed" -> a missing closing bracket
+    s = re.sub(rf"^({NUM})\s+({PROSE_UNIT})\s+to\s+({NUM})\s+\2\b", r"\1 to \3 \2", s, flags=re.I)   # "1 1/2 teaspoons to 3 teaspoons" -> "1 1/2 to 3 teaspoons"
     s = re.sub(rf"^({NUM})\s+of\s+(?:an?|the)\s+", r"\1 ", s)                              # "1/2 of a jalapeño" -> "1/2 jalapeño"
     s = re.sub(rf"^({NUM})\s*[-–]\s*(inch|ounce|pound)s?\b(?=\s+(?:\([^)]*\)\s*)?(?:knob|piece|block|chunk|slab|stick|strip|segment)\b)",
                lambda m: f"1 ({m.group(1)}-{m.group(2)})", s, flags=re.I)                    # "1/2-inch knob ginger" -> "1 (1/2-inch) knob ginger"
     size = rf"{NUM}(?:\s*-?\s*(?:to|by)\s*{NUM})?"                                            # "5- to 6", "3- by 1", "1 1/2"
-    s = re.sub(rf"^(\d+)\s+((?:whole|large|small|medium)\s+)?({size})\s*[-–]\s*(ounces?|pounds?|inch(?:es)?)\b(?:\s+each)?",
+    s = re.sub(rf"^(\d+)\s+(?:(?:roughly|about|approximately|nearly)\s+)?((?:whole|large|small|medium)\s+)?({size})\s*[-–]\s*(ounces?|pounds?|inch(?:es)?)\b(?:\s+each)?",
                lambda m: f"{m.group(1)} ({m.group(3)}-{m.group(4)}) {m.group(2) or ''}".rstrip() + " ", s, flags=re.I)
     s = re.sub(rf"^((?:whole\s+)?)({size})\s*[-–]\s*(ounces?|pounds?)\b(?!\s*\))",                  # "12-ounce English cucumber", "1-pound loaf soft Italian"
                lambda m: f"1 ({m.group(2)}-{m.group(3)}) {m.group(1)}".rstrip() + " ", s, flags=re.I)
@@ -414,6 +416,7 @@ def parse_line(raw: str) -> Line:
                     r"\s+plus\s+(?:more|extra|additional)\b.*$",                     # "kosher salt plus more for seasoning"
                     r"\s+for\s+(?:deep[- ])?(?:frying|coating|greasing|brushing|dusting|drizzling|rubbing|seasoning)\b.*$",
                     r"\s+from\s+the\s+.+$",                                          # "seasoning oil from the chinese vinaigrette"
+                    r"\s+about\s+\d[\d/ ]*\s*(?:inch|inches|cm|-inch)\b.*$",         # "French bread about 12 inches long"
                     PREPARED_TAIL):                                                  # "onion grated on a microplane grater"
         m = re.search(pattern, line.name, re.I)
         if m and m.start() > 0 and not CHIPOTLE_CANNED_RE.search(line.name) and not FRUIT_SOURCE_RE.match(line.name):
@@ -476,8 +479,11 @@ class Substitution:
     """'brown sugar or granulated sugar': the first is the ingredient; the rest are listed in the notes."""
     main: str
     alts: list                       # (Line | None, name): a Line when the alternative has its own amount
+    metric_text: str | None = None   # hand-written substitutions (overrides csv) can word the Metric side differently
 
     def text(self, system: str) -> str:
+        if system == "Metric" and self.metric_text:
+            return f"{self.main} → {self.metric_text}"
         parts = []
         for line, name in self.alts:
             amount = (render_us(line) if system == "US" else render_metric(line)) if line is not None else ""
@@ -843,7 +849,7 @@ DESCRIPTORS = PREP_DESCRIPTORS + ("bone in skin on", "skin on bone in", "skin-on
 MODIFIERS = ("bone in skin on", "boneless skinless", "unsalted", "salted", "boneless", "skinless", "bone in", "ground", "dried", "frozen",
              "smoked", "light", "dark", "reduced sodium", "low sodium")
 GENERIC_HEADS = {"oil", "cheese", "sauce", "vinegar", "sugar", "flour", "salt", "milk", "cream", "butter", "broth", "paste", "powder",
-                 "seeds", "beans", "rice", "noodles", "wine", "juice", "syrup", "mustard", "yogurt", "stock"}
+                 "seeds", "beans", "rice", "noodles", "wine", "juice", "syrup", "mustard", "yogurt", "stock", "bread", "pasta", "rolls", "buns", "crackers"}
 HEAD_NOUNS = GENERIC_HEADS | {"drippings", "fat", "lard", "shortening", "margarine", "creamer", "spray", "mayonnaise", "mayo", "ketchup", "honey",
                               "buttermilk", "water", "beer", "rum", "whiskey", "bourbon", "gin", "vodka", "tequila", "brandy", "molasses", "jam", "jelly"}
 BROTH_RE = re.compile(r"\b(broth|stock|bouillon)\b")
@@ -1093,12 +1099,16 @@ CATEGORY_TAGS = {
     "rum": 45, "whiskey": 45, "whisky": 45, "tequila": 45, "gin": 45, "vodka": 45, "coffee": 44,     # spirit categories are cocktails
     "cake": [46, 35], "cakes": [46, 35], "pie": [47, 35], "pies": [47, 35], "ice cream": [48, 35],   # their own tag AND dessert
     "quick and easy": 38, "quick dinners": 38,
+    "fruit desserts": 35, "candy": 35, "frosting": 35, "pastry": 35, "pancake": 36, "breakfast sweets": 36,
+    "beer and wine": 44, "non-alcoholic": 44,
+    "sides": 49, "side dish": 49, "side dishes": 49,                                                    # Sides: its own tag
+    "jam / jelly": 50, "jam": 50, "jams and jellies": 50, "jelly": 50, "jams": 50,                      # Jams & jellies: its own tag
+    "rubs and marinades": 51, "sauce": 51, "sauces": 51, "condiments and sauces": 51, "marinades": 51, "rubs": 51,   # Rubs, marinades & sauces: one tag
 }
 
 
 # categories that name a meal type or a kind of food, not a dish style: deliberately without a tag
-UNTAGGED_CATEGORIES = {"dinner", "lunch", "entree", "mains", "side dish", "condiment", "condiments", "condiments and sauces", "ingredient",
-                       "spice mix", "bread", "salsa", "sauce", "salad", "salads"}
+UNTAGGED_CATEGORIES = {"dinner", "lunch", "entree", "mains", "condiment", "condiments", "ingredient", "spice mix", "bread", "salsa", "salad", "salads"}
 
 
 def tag_ids_for(categories: list, keywords, name: str) -> list[int]:
@@ -1151,6 +1161,8 @@ def split_equipment(text: str | None) -> list[str]:
     return [i[0].lower() + i[1:] if i[0].isalpha() and not i[1:2].isupper() else i for i in items]
 
 
+EQUIPMENT_LINE_RE = re.compile(r"^(?:cheesecloth|(?:kitchen|butcher'?s|cotton) twine|aluminum foil|tin foil|parchment(?: paper)?|plastic wrap|wax paper|"
+                               r"toothpicks?|(?:wooden |bamboo |metal )?skewers?|paper towels?|butcher'?s paper)\b", re.I)
 OVERRIDES_FILENAME = "external_line_overrides.csv"
 
 
@@ -1188,6 +1200,7 @@ def build_ingredients(parsed: dict, ctx: Context, recipe_name: str, is_drink: bo
     In a drink recipe the brand names stay in the shown ingredient names; the match is on the generic ingredient either way."""
     lines = []
     optional = []
+    override_subs = []
     ctx.page_cookware = []
     for section in parsed["ingredient_sections"]:
         for item in section["items"]:
@@ -1197,6 +1210,10 @@ def build_ingredients(parsed: dict, ctx: Context, recipe_name: str, is_drink: bo
                 for row in overridden:
                     if row["kind"] == "cookware":
                         ctx.page_cookware.append(row["name"].strip())
+                    elif row["kind"] == "substitution":                 # name = the ingredient, us/metric_quantity = what can replace it
+                        us_text = (row["us_quantity"] or "").strip()
+                        override_subs.append(Substitution(main=row["name"].strip(), alts=[(None, us_text)],
+                                                          metric_text=(row.get("metric_quantity") or "").strip() or None))
                     elif row["kind"] == "note":                         # not an ingredient: goes to the notes at the top ("Optional or for serving")
                         optional.append(row["name"].strip())
                         ctx.review["optional"].append((recipe_name, row["name"].strip()))
@@ -1221,6 +1238,9 @@ def build_ingredients(parsed: dict, ctx: Context, recipe_name: str, is_drink: bo
                 line = parse_line(raw)
                 if not line.name:
                     continue
+                if EQUIPMENT_LINE_RE.match(line.name):                         # "Cheesecloth", "Kitchen twine", "Aluminum foil": cookware, not food
+                    ctx.page_cookware.append(line.name.strip())
+                    continue
                 if line.amount is None and re.search(r"\sand\s", line.name):
                     for piece in re.split(r"\s+and\s+", line.name):             # "salt and pepper" -> two lines
                         lines.append((Line(raw=raw, name=piece.strip(), prep=None), None))
@@ -1237,7 +1257,7 @@ def build_ingredients(parsed: dict, ctx: Context, recipe_name: str, is_drink: bo
                     lines.append((second, apply_renames(second)))
                     continue
                 lines.append((line, apply_renames(line)))
-    us, metric, ids, subs = [], [], [], []
+    us, metric, ids, subs = [], [], [], list(override_subs)
     keep_brand = (lambda n: n) if is_drink else strip_brands
     for line, match_as in lines:
         collapse_package_weight(line)

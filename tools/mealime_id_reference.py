@@ -118,6 +118,9 @@ EXTERNAL_VARIETY_TAGS = {
     46: "Cakes",
     47: "Pies",
     48: "Ice cream",
+    49: "Sides",
+    50: "Jams & jellies",
+    51: "Rubs, marinades & sauces",
 }
 
 VARIETY_TAGS = {
