@@ -957,7 +957,8 @@ def file_source(path: Path) -> str | None:
 
 
 def run(ids_json: Path, out_dir: Path, delay: float, only_legacy_id_over: int | None,
-        overwrite: bool = False) -> None:
+        overwrite: bool = False) -> list[Path]:
+    """Returns the paths of the recipe files written this run (albertsons_diet_labels.py checks exactly those)."""
     if not any(HEADERS.values()):
         raise SystemExit("No session headers -- albertsons_headers.json is missing or empty. Capture "
                           "them from DevTools and load them with set_headers.py (see albertsons_auth.py).")
@@ -970,6 +971,7 @@ def run(ids_json: Path, out_dir: Path, delay: float, only_legacy_id_over: int | 
     session.headers.update(HEADERS)
 
     saved, skipped, failed, gap_filled = 0, 0, 0, 0
+    written: list[Path] = []
     for i, record in enumerate(targets, start=1):
         existing = existing_files_for(out_dir, record["parent_id"], record["legacy_id"])
         if existing and not overwrite:
@@ -1050,6 +1052,7 @@ def run(ids_json: Path, out_dir: Path, delay: float, only_legacy_id_over: int | 
             for v in gap_variants:
                 out_path = fdir / f"{v['id']}_{v['slug']}.json"
                 out_path.write_text(json.dumps(v, indent=2, ensure_ascii=False), encoding="utf-8")
+                written.append(out_path)
             gap_filled += 1
             time.sleep(delay)
             continue
@@ -1058,12 +1061,14 @@ def run(ids_json: Path, out_dir: Path, delay: float, only_legacy_id_over: int | 
         for variant in variants:
             out_path = fdir / f"{variant['id']}_{variant['slug']}.json"
             out_path.write_text(json.dumps(variant, indent=2, ensure_ascii=False), encoding="utf-8")
+            written.append(out_path)
         saved += 1
         time.sleep(delay)
 
     print(f"\nDone. Saved {saved} native recipe(s) (US+Metric each), filled {gap_filled} missing "
           f"variant slot(s) in existing families (US+Metric each), skipped (already had) {skipped}, "
           f"failed {failed}.")
+    return written
 
 
 def parse_args():

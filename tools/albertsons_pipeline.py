@@ -2,7 +2,7 @@
 Runs the whole Albertsons refresh cycle in one command, instead of remembering to run
 albertsons_full_sweep.py, albertsons_library_diff.py, fetch_albertsons_native_recipes.py,
 mealime_ingredient_index.py, albertsons_restriction_backfill.py and
-albertsons_cookbook_slugs_sync.py yourself in the right order, each one's output file fed
+albertsons_cookbook_slugs_sync.py and albertsons_diet_labels.py yourself in the right order, each one's output file fed
 into the next by hand.
 
 STAGES, in order (each is just a call into that script's own run()/sync() function -- this
@@ -28,6 +28,10 @@ file adds no new logic of its own beyond threading the file paths between them):
                     ingredients, since it needs the ids that stage just resolved.
   6. cookbooks      albertsons_cookbook_slugs_sync.py   LOCAL. Stamps cookbook_slugs and the
                     variety_tag_ids they imply, from the sweep file.
+  7. diet           albertsons_diet_labels.py           LOCAL. Applies diet_rules.py (strict Paleo, vegan,
+                    vegetarian, pescatarian) to the files THIS run's fetch wrote, plus earlier ones still
+                    waiting on an undecided ingredient (<sweep-dir>/diet_label_pending.json). Removes
+                    labels only; recipes already in the library are never revisited.
 
 Skip any stage with --skip-<stage> (sweep is already opt-in via --sweep instead -- there's no
 --skip-sweep). A skipped stage that a later one depends on (diff needs a sweep file to exist;
@@ -61,6 +65,7 @@ import argparse
 from pathlib import Path
 
 import albertsons_cookbook_slugs_sync
+import albertsons_diet_labels
 import albertsons_full_sweep
 import albertsons_library_diff
 import albertsons_restriction_backfill
@@ -82,11 +87,11 @@ def run(recipes_dir: Path, sweep_dir: Path, *,
         do_sweep: bool, skip_diff: bool, skip_fetch: bool, skip_ingredients: bool,
         skip_restrictions: bool, skip_cookbooks: bool,
         restriction_discovery: bool, pair_restriction_discovery: bool,
-        overwrite_fetch: bool, dry_run: bool) -> None:
+        overwrite_fetch: bool, dry_run: bool, skip_diet: bool = False) -> None:
     sweep_json = sweep_dir / SWEEP_FILENAME
 
     if do_sweep:
-        banner("1/6", "sweep")
+        banner("1/7", "sweep")
         albertsons_full_sweep.run(sweep_dir, albertsons_full_sweep.SERVING_COUNTS, None, 0.4,
                                    restriction_discovery, pair_restriction_discovery)
     elif not sweep_json.exists():
@@ -98,7 +103,7 @@ def run(recipes_dir: Path, sweep_dir: Path, *,
 
     new_recipes_path = sweep_dir / "albertsons_new_recipes.json"
     if not skip_diff:
-        banner("2/6", "diff")
+        banner("2/7", "diff")
         new_recipes_path = albertsons_library_diff.run(sweep_json, recipes_dir, sweep_dir)
     elif not skip_fetch and not new_recipes_path.exists():
         # only the fetch stage reads it, so a local-only run (diff and fetch both skipped) doesn't need it
@@ -107,30 +112,37 @@ def run(recipes_dir: Path, sweep_dir: Path, *,
     else:
         print(f"\nSkipping diff; reusing existing output: {new_recipes_path}")
 
+    fetched: list[Path] = []                  # the files this run's fetch wrote -- exactly what the diet stage checks
     if not skip_fetch:
-        banner("3/6", "fetch")
-        fetch_albertsons_native_recipes.run(new_recipes_path, recipes_dir, 0.5, None, overwrite=overwrite_fetch)
+        banner("3/7", "fetch")
+        fetched = fetch_albertsons_native_recipes.run(new_recipes_path, recipes_dir, 0.5, None, overwrite=overwrite_fetch) or []
     else:
         print("\nSkipping fetch.")
 
     if not skip_ingredients:
-        banner("4/6", "ingredients")
+        banner("4/7", "ingredients")
         mealime_ingredient_index.run(recipes_dir, dry_run=dry_run)
     else:
         print("\nSkipping ingredient index.")
 
     if not skip_restrictions:
-        banner("5/6", "restrictions")
+        banner("5/7", "restrictions")
         albertsons_restriction_backfill.run(recipes_dir, master_path_for(recipes_dir),
                                              albertsons_restriction_backfill.DEFAULT_REPORT_PATH, dry_run)
     else:
         print("\nSkipping restriction backfill.")
 
     if not skip_cookbooks:
-        banner("6/6", "cookbooks")
+        banner("6/7", "cookbooks")
         albertsons_cookbook_slugs_sync.sync(recipes_dir, sweep_json, dry_run)
     else:
         print("\nSkipping cookbook/variety sync.")
+
+    if not skip_diet:
+        banner("7/7", "diet labels")
+        albertsons_diet_labels.run(recipes_dir, fetched, sweep_dir, dry_run)
+    else:
+        print("\nSkipping diet labels.")
 
     print("\nPipeline done.")
 
@@ -156,6 +168,7 @@ def parse_args():
     parser.add_argument("--skip-ingredients", action="store_true")
     parser.add_argument("--skip-restrictions", action="store_true")
     parser.add_argument("--skip-cookbooks", action="store_true")
+    parser.add_argument("--skip-diet", action="store_true")
     parser.add_argument("--overwrite-fetch", action="store_true",
                         help="Passed through to fetch_albertsons_native_recipes.py's --overwrite")
     parser.add_argument("--dry-run", action="store_true",
@@ -169,7 +182,7 @@ def main():
     run(args.recipes_dir, args.sweep_dir,
         do_sweep=args.sweep, skip_diff=args.skip_diff, skip_fetch=args.skip_fetch,
         skip_ingredients=args.skip_ingredients, skip_restrictions=args.skip_restrictions,
-        skip_cookbooks=args.skip_cookbooks,
+        skip_cookbooks=args.skip_cookbooks, skip_diet=args.skip_diet,
         restriction_discovery=args.restriction_discovery,
         pair_restriction_discovery=args.pair_restriction_discovery,
         overwrite_fetch=args.overwrite_fetch, dry_run=args.dry_run)
