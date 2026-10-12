@@ -18,7 +18,10 @@ blanket label is shared by all variants of a recipe family, so they are noisy):
                    Honey, maple syrup and dates are allowed.
     7  low carb    digestible carbohydrate (carbs minus fibre) <= LOW_CARB_SHARE of the calories  (Mealime: 20 %)
     8  keto        digestible carbohydrate <= KETO_SHARE of the calories                           (about 10 %; also low carb)
-    The share is a ratio, so it is the same whether the source's nutrition is per serving or for the whole recipe.
+    The share is a ratio, so it does not depend on the portion size.  It does depend on the calorie total being honest: some sources
+    (Serious Eats) count all the frying oil or a whole batch as eaten, which inflates the fat and shrinks the carb share.  So 7 and 8
+    are withheld when the energy is above MAX_KCAL_PER_SERVING (Mealime's own library tops out at 881 kcal; every Low Carb / Keto
+    recipe in it is below 850).  Data-quality guard, not part of the diet definition.
 
 Each ingredient has a set of animal-product flags, stored on its entry in ingredient_master.json as "diet_flags"
 (the master is the single source of truth -- fix a flag there and every recipe follows):
@@ -44,6 +47,8 @@ DIET_FLAGS = ANIMAL_FLAGS + ("not_paleo",)
 # share of the calories that comes from digestible carbohydrate (4 kcal per gram of carbs minus fibre)
 LOW_CARB_SHARE = 0.20
 KETO_SHARE = 0.10
+# above this many kcal per serving the nutrition is assumed to be batch / frying-oil totals, so no Low Carb / Keto label is given
+MAX_KCAL_PER_SERVING = 1000
 
 # words that say "this is the plant-based version", which switch the meat words off
 PLANT = re.compile(r"\b(veggie|vegan|plant[- ]based|meatless|vegetarian|imitation|faux|tofu|seitan|tempeh|jackfruit|mushrooms?|impossible|beyond|"
@@ -187,7 +192,7 @@ def carb_share(nutrition) -> float | None:
 def carb_types(nutrition) -> list:
     """7 Low Carb / 8 Keto from the carbohydrate share of the calories (independent of which ingredients are decided)."""
     share = carb_share(nutrition)
-    if share is None:
+    if share is None or nutrition["energy"] > MAX_KCAL_PER_SERVING:
         return []
     return [t for t, limit in ((7, LOW_CARB_SHARE), (8, KETO_SHARE)) if share <= limit]
 
