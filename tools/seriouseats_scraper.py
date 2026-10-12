@@ -14,6 +14,8 @@ COMMANDS
     python seriouseats_scraper.py fetch --limit 5 --align   ... and align each into library records as it arrives
     python seriouseats_scraper.py align --limit 5           re-align pages already saved (no network): the dev loop
     python seriouseats_scraper.py fetch                     all of them (~1.5 h for ~5,400 pages at 1/s)
+    python seriouseats_scraper.py thumbnails                download the picture of every recipe that has none (thumbnail.jpg, ~300 px, ~16 KB)
+                                                            (fetch --align does this by itself for each new or changed page; --no-thumbs skips it)
     python seriouseats_scraper.py status                    counts by state
     python seriouseats_scraper.py renumber                  one-off: move an old-scheme registry to the 5,000,000 block
     python seriouseats_scraper.py run                       discover, then fetch + align (what a scheduled job would call)
@@ -58,7 +60,7 @@ from pathlib import Path
 import requests
 
 from external_align import Aligner
-from external_recipes import family_index, is_family_id, nth_family_id, site_number
+from external_recipes import family_index, is_family_id, nth_family_id, parse_page, site_number
 from library_paths import DEFAULT_LIBRARY_DIR, TOOLS_DIR
 
 SOURCE = "seriouseats"
@@ -301,6 +303,74 @@ def select_rows(rows: dict, predicate, *, limit: int | None, match: str | None, 
     return chosen[:limit] if limit is not None else chosen
 
 
+# --- thumbnails -------------------------------------------------------------------------------------------------------------
+
+THUMB_NAME = "thumbnail.jpg"        # what the manifest builder and the exporters look for in a family folder
+THUMB_SIZE = 300                    # the library's other thumbnails are about 300 px, median 17 KB: this fits them in
+THUMB_QUALITY = 82
+MAX_THUMB_FAILURES = 5              # this many in a row and the run stops, like a block on the pages themselves
+THUMB_COUNTS: dict[str, int] = {}
+
+
+def make_thumbnail(data: bytes) -> bytes:
+    """The site's image (about 1500 px, 150 KB) shrunk to fit 300 x 300 and saved as a small JPEG. Needs Pillow."""
+    from io import BytesIO
+    from PIL import Image, ImageOps
+    image = ImageOps.exif_transpose(Image.open(BytesIO(data))).convert("RGB")
+    image.thumbnail((THUMB_SIZE, THUMB_SIZE), Image.Resampling.LANCZOS)         # never enlarges
+    out = BytesIO()
+    image.save(out, "JPEG", quality=THUMB_QUALITY, optimize=True, progressive=True)
+    return out.getvalue()
+
+
+def ensure_thumbnail(session: requests.Session, family_dir: Path, image_url: str | None, previous_url: str | None = None) -> str:
+    """Downloads the recipe's picture into family_dir/thumbnail.jpg unless it is already there for the same picture.
+    Returns downloaded | kept | no_image | error: ... (an error never stops the run by itself)."""
+    target = family_dir / THUMB_NAME
+    if not image_url:
+        return "no_image"
+    if target.exists() and previous_url in (None, image_url):
+        return "kept"
+    try:
+        response = session.get(image_url, timeout=30)
+        if response.status_code != 200:
+            return f"error: HTTP {response.status_code}"
+        target.write_bytes(make_thumbnail(response.content))
+    except ImportError:
+        return "error: Pillow is not installed (pip install Pillow)"
+    except Exception as exc:  # noqa: BLE001  a bad image must not lose the recipe
+        return f"error: {type(exc).__name__}: {exc}"
+    return "downloaded"
+
+
+def note_thumbnail(result: str, row: dict) -> None:
+    kind = result.split(":")[0]
+    THUMB_COUNTS[kind] = THUMB_COUNTS.get(kind, 0) + 1
+    if kind == "error":
+        print(f"    -> thumbnail for {row['id']}: {result}")
+        if THUMB_COUNTS.get("error", 0) >= MAX_THUMB_FAILURES and not THUMB_COUNTS.get("downloaded"):
+            raise Blocked(f"{MAX_THUMB_FAILURES} thumbnail downloads failed and none succeeded; stopping. Last: {result}")
+
+
+def run_thumbnails(session: requests.Session, rows: dict, raw_dir: Path, out_dir: Path, *, delay: float,
+                   limit: int | None, match: str | None, ids: set[int] | None) -> None:
+    """Fills in the missing thumbnail.jpg of every recipe that has a saved page (the picture's address is read from it)."""
+    todo = [r for r in select_rows(rows, lambda r: r["status"] == "ok", limit=None, match=match, ids=ids)
+            if raw_path(raw_dir, r).exists() and not (out_dir / "families" / r["id"] / THUMB_NAME).exists()]
+    todo = todo[:limit] if limit is not None else todo
+    print(f"{len(todo)} recipe(s) without a thumbnail")
+    for n, row in enumerate(todo, start=1):
+        parsed = parse_page(gzip.decompress(raw_path(raw_dir, row).read_bytes()).decode("utf-8", errors="replace"), row["url"])
+        family_dir = out_dir / "families" / row["id"]
+        family_dir.mkdir(parents=True, exist_ok=True)
+        result = ensure_thumbnail(session, family_dir, parsed.get("image_url"))
+        note_thumbnail(result, row)
+        if n % 50 == 0:
+            print(f"  ...{n}/{len(todo)}")
+        if result == "downloaded":
+            time.sleep(delay * random.uniform(0.5, 1.0))
+
+
 def run_align(rows: dict, raw_dir: Path, aligner, *, limit: int | None, match: str | None, ids: set[int] | None) -> int:
     """Re-aligns pages already saved on disk -- no network. This is the loop for improving the rules."""
     todo = [r for r in select_rows(rows, lambda r: r["status"] == "ok", limit=limit, match=match, ids=ids)
@@ -347,6 +417,10 @@ def run_fetch(session: requests.Session, rows: dict, registry_path: Path, raw_di
                 if on_page is not None:
                     try:
                         on_page(row, page)
+                    except Blocked:
+                        row["status"] = status                          # keep this page recorded, then stop the run
+                        row["fetched_lastmod"], row["fetched_at"] = row["lastmod"], datetime.now().isoformat(timespec="seconds")
+                        raise
                     except Exception as exc:  # noqa: BLE001  the page is fetched; a parsing problem must not lose the run
                         counts["align_error"] = counts.get("align_error", 0) + 1
                         print(f"    -> fetched, but could not align: {type(exc).__name__}: {exc}")
@@ -386,7 +460,7 @@ def print_status(rows: dict) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("command", choices=["discover", "fetch", "align", "status", "run", "renumber"])
+    parser.add_argument("command", choices=["discover", "fetch", "align", "thumbnails", "status", "run", "renumber"])
     parser.add_argument("--base-url", default=BASE_URL, help=f"Site root (default {BASE_URL}; changed only for testing)")
     parser.add_argument("--library-dir", type=Path, default=DEFAULT_LIBRARY_DIR, help="Library root (holds source_registry.csv)")
     parser.add_argument("--raw-dir", type=Path, default=DEFAULT_RAW_DIR, help=f"Where saved pages go (default {DEFAULT_RAW_DIR})")
@@ -401,6 +475,7 @@ def main() -> int:
     parser.add_argument("--align", action="store_true",
                         help="fetch: also align each page into library records as it arrives (implied by `run`)")
     parser.add_argument("--no-raw", action="store_true", help="fetch: don't keep the page on disk (fetch -> align in one pass)")
+    parser.add_argument("--no-thumbs", action="store_true", help="fetch --align: don't download each recipe's picture (thumbnail.jpg)")
     parser.add_argument("--out-dir", type=Path, default=None,
                         help="where aligned records and the ingredient master are written (default: the library). Point it "
                              "at a scratch folder while developing: the master is copied there, so the real one is untouched")
@@ -435,11 +510,20 @@ def main() -> int:
             save_registry(registry_path, rows)
             print(f"Discovered {total} recipe URL(s): {new} new, {changed} changed since last fetched.")
         if args.command in ("fetch", "run"):
+            def align_and_thumbnail(row: dict, page: bytes) -> None:
+                info = aligner.align(row, page)
+                if not args.no_thumbs:                                  # the picture is fetched with the page, only when new or changed
+                    note_thumbnail(ensure_thumbnail(session, info["family_dir"], info["image_url"], info["previous_url"]), row)
             counts = run_fetch(session, rows, registry_path, args.raw_dir, delay=args.delay,
                                limit=args.limit, match=args.match, ids=ids,
-                               keep_raw=not args.no_raw, on_page=aligner.align if aligner else None,
+                               keep_raw=not args.no_raw, on_page=align_and_thumbnail if aligner else None,
                                retry_wait=args.retry_wait)
             print("Fetched:", counts or "nothing")
+        if args.command == "thumbnails":
+            run_thumbnails(session, rows, args.raw_dir, args.out_dir or args.library_dir, delay=args.delay,
+                           limit=args.limit, match=args.match, ids=ids)
+        if THUMB_COUNTS:
+            print("Thumbnails:", THUMB_COUNTS)
         if args.command == "align":
             failed = run_align(rows, args.raw_dir, aligner, limit=args.limit, match=args.match, ids=ids)
             print(f"Aligned {aligner.aligned} recipe(s)" + (f", {failed} could not be aligned" if failed else ""))

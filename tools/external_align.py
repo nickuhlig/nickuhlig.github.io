@@ -1327,16 +1327,25 @@ class Aligner:
         self._before = json.dumps(self.master.data, sort_keys=True)
         self.ctx = Context(Resolver(self.master), overrides=load_overrides(library_dir))
 
-    def align(self, row: dict, page: bytes) -> None:
+    def align(self, row: dict, page: bytes) -> dict:
+        """Writes the family's records. Returns {"family_dir", "image_url", "previous_url"} so the caller can fetch the
+        thumbnail (a network step, kept out of here so re-aligning saved pages stays offline)."""
         parsed = parse_page(page.decode("utf-8", errors="replace"), row["url"])
         records = align_page(parsed, int(row["id"]), self.ctx, row["url"])
         fdir = self.out_dir / "families" / str(row["id"])
         fdir.mkdir(parents=True, exist_ok=True)
+        previous_url = None
+        for old in fdir.glob(f"{row['id']}_*.json"):
+            try:
+                previous_url = json.loads(old.read_text(encoding="utf-8")).get("thumbnail_image_url")
+            except (OSError, ValueError):
+                pass
         for rec in records:                                  # replace this family's earlier version (the slug may have changed)
             for old in fdir.glob(f"{rec['id']}_*.json"):
                 old.unlink()
             (fdir / f"{rec['id']}_{rec['slug']}.json").write_text(json.dumps(rec, indent=2, ensure_ascii=False), encoding="utf-8")
         self.aligned += 1
+        return {"family_dir": fdir, "image_url": parsed.get("image_url"), "previous_url": previous_url}
 
     def finish(self) -> dict:
         if json.dumps(self.master.data, sort_keys=True) != self._before:
