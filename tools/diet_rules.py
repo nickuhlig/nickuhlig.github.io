@@ -16,8 +16,8 @@ blanket label is shared by all variants of a recipe family, so they are noisy):
                    canola / soybean / corn / sunflower / safflower oil, trans fats, canned meals, boxed snacks, deli meats with
                    nitrates, frozen dinners, soda, fruit juice, sweetened tea, beer, wine, sweetened coffee drinks.
                    Honey, maple syrup and dates are allowed.
-    7  low carb    carbohydrates (starch and sugar, fibre included) <= LOW_CARB_SHARE of the calories  (Mealime: 20 %)
-    8  keto        carbohydrates <= KETO_SHARE of the calories                                    (about 10 %; also low carb)
+    7  low carb    digestible carbohydrate (carbs minus fibre) <= LOW_CARB_SHARE of the calories  (Mealime: 20 %)
+    8  keto        digestible carbohydrate <= KETO_SHARE of the calories                           (about 10 %; also low carb)
     The share is a ratio, so it is the same whether the source's nutrition is per serving or for the whole recipe.
 
 Each ingredient has a set of animal-product flags, stored on its entry in ingredient_master.json as "diet_flags"
@@ -41,7 +41,7 @@ from pathlib import Path
 BASE_TYPES = [1, 3]
 ANIMAL_FLAGS = ("meat", "fish", "shellfish", "dairy", "egg", "honey")
 DIET_FLAGS = ANIMAL_FLAGS + ("not_paleo",)
-# share of the calories that comes from carbohydrate (4 kcal per gram of total carbs, fibre and starch included)
+# share of the calories that comes from digestible carbohydrate (4 kcal per gram of carbs minus fibre)
 LOW_CARB_SHARE = 0.20
 KETO_SHARE = 0.10
 
@@ -174,13 +174,14 @@ def suggest_flags(entry: dict) -> set:
 
 
 def carb_share(nutrition) -> float | None:
-    """Share of the calories that is carbohydrate (4 kcal / g of total carbs), or None when the source gave no usable nutrition."""
+    """Share of the calories that is digestible carbohydrate (4 kcal / g of carbs MINUS fibre: fibre is not digested, so it adds no
+    calories), or None when the source gave no usable nutrition."""
     if not isinstance(nutrition, dict):
         return None
-    carbs, energy = nutrition.get("carbs"), nutrition.get("energy")
+    carbs, energy, fiber = nutrition.get("carbs"), nutrition.get("energy"), nutrition.get("fiber")
     if not isinstance(carbs, (int, float)) or not isinstance(energy, (int, float)) or energy <= 0:
         return None
-    return carbs * 4 / energy
+    return max(carbs - (fiber if isinstance(fiber, (int, float)) else 0), 0) * 4 / energy
 
 
 def carb_types(nutrition) -> list:
