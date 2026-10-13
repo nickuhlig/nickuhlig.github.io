@@ -64,7 +64,8 @@
     "salmon fillet": 805
    },
    "aliases": [
-    "boneless skinless salmon"
+    "boneless skinless salmon",
+    "raw skinless sashimi-grade salmon"
    ],
    "exact_only": [],
    "violates": [
@@ -195,7 +196,8 @@
    "aliases": [
     "Thai eggplants",
     "Chinese eggplant",
-    "Japanese eggplants"
+    "Japanese eggplants",
+    "Italian eggplant"
    ],
    "exact_only": [],
    "violates": [
@@ -214,7 +216,8 @@
    },
    "aliases": [
     "button mushrooms",
-    "fresh baby button mushrooms"
+    "fresh baby button mushrooms",
+    "white button mushroom"
    ],
    "exact_only": [],
    "violates": [],
@@ -260,7 +263,8 @@
    },
    "aliases": [
     "garlic cloves",
-    "garlic finely chopped"
+    "garlic finely chopped",
+    "black garlic"
    ],
    "exact_only": [],
    "violates": [],
@@ -344,7 +348,8 @@
     "almonds": 220
    },
    "aliases": [
-    "Marcona almonds"
+    "Marcona almonds",
+    "ground almonds"
    ],
    "exact_only": [],
    "violates": [
@@ -562,7 +567,8 @@
     "toasted sesame oil": 2636
    },
    "aliases": [
-    "A drop of toasted sesame oil"
+    "A drop of toasted sesame oil",
+    "toasted sesame seed oil"
    ],
    "exact_only": [],
    "violates": [
@@ -614,7 +620,8 @@
     "Golden Mountain Seasoning Soy Sauce",
     "Koikuchi shoyu",
     "Thai dark soy sauce",
-    "Thai light soy sauce"
+    "Thai light soy sauce",
+    "Chinese dark soy sauce"
    ],
    "exact_only": [],
    "violates": [
@@ -883,16 +890,28 @@
   "75": {
    "name": "chili powder",
    "names": {
-    "chili powder": 2450
+    "chili powder": 2450,
+    "chile powder": 1
    },
-   "aliases": [],
+   "aliases": [
+    "ground Kashmiri chile powder",
+    "Kashmiri red chile powder",
+    "ground red chile powder",
+    "roasted chile powder",
+    "Ancho chile powder",
+    "red chile powder",
+    "Kashmiri chile powder",
+    "Pequin chile powder",
+    "ground red chilli",
+    "red chilli powder"
+   ],
    "exact_only": [],
    "violates": [
     10
    ],
    "source": "mealime_learned",
    "recipes_seen": 420,
-   "note": null,
+   "note": "merged from 1870 (chile powder)",
    "added": null,
    "diet_flags": []
   },
@@ -901,7 +920,9 @@
    "names": {
     "coriander, ground": 1212
    },
-   "aliases": [],
+   "aliases": [
+    "coriander"
+   ],
    "exact_only": [],
    "violates": [],
    "source": "mealime_learned",
@@ -1202,7 +1223,9 @@
    "names": {
     "diced tomatoes": 1196
    },
-   "aliases": [],
+   "aliases": [
+    "canned diced tomatoes"
+   ],
    "exact_only": [],
    "violates": [
     10
@@ -1237,7 +1260,8 @@
     "pure pumpkin purée": 204
    },
    "aliases": [
-    "pumpkin purée"
+    "pumpkin purée",
+    "canned pumpkin purée"
    ],
    "exact_only": [],
    "violates": [],
@@ -1386,7 +1410,8 @@
    "aliases": [
     "whole roasted and salted cashews",
     "roasted cashews",
-    "roasted and salted cashews"
+    "roasted and salted cashews",
+    "toasted cashews"
    ],
    "exact_only": [],
    "violates": [
@@ -1589,7 +1614,8 @@
     "egg yolk lightly",
     "a large white",
     "poached eggs",
-    "Egg wash"
+    "Egg wash",
+    "preserved eggs"
    ],
    "exact_only": [],
    "violates": [
@@ -1821,7 +1847,9 @@
    "names": {
     "butternut squash": 344
    },
-   "aliases": [],
+   "aliases": [
+    "skinned and cubed butternut squash"
+   ],
    "exact_only": [],
    "violates": [],
    "source": "mealime_learned",
@@ -2276,7 +2304,8 @@
    },
    "aliases": [
     "Cuban black beans",
-    "dried black beans"
+    "dried black beans",
+    "canned black beans"
    ],
    "exact_only": [],
    "violates": [],
@@ -2415,7 +2444,9 @@
    "names": {
     "no-boil lasagna noodles": 62
    },
-   "aliases": [],
+   "aliases": [
+    "flat no-boil lasagna noodles"
+   ],
    "exact_only": [],
    "violates": [
     1
@@ -2714,7 +2745,8 @@
    },
    "aliases": [
     "curly kale",
-    "baby Russian kale leaves"
+    "baby Russian kale leaves",
+    "Sautéed kale"
    ],
    "exact_only": [],
    "violates": [],
@@ -2816,7 +2848,8 @@
    },
    "aliases": [
     "navel orange rind",
-    "packed blood orange zest"
+    "packed blood orange zest",
+    "Orange wedges"
    ],
    "exact_only": [],
    "violates": [],
@@ -2906,7 +2939,9 @@
    "names": {
     "raspberries": 300
    },
-   "aliases": [],
+   "aliases": [
+    "mixed raspberries and blackberries"
+   ],
    "exact_only": [],
    "violates": [],
    "source": "mealime_learned",
@@ -2923,7 +2958,9 @@
    "aliases": [
     "frozen strawberries",
     "freeze-dried strawberries",
-    "very ripe strawberries"
+    "very ripe strawberries",
+    "seedless strawberry",
+    "quartered strawberries"
    ],
    "exact_only": [],
    "violates": [],
@@ -2949,7 +2986,8 @@
     "crushed dried mint leaves",
     "mint",
     "fresh spearmint leaves",
-    "mint leaves"
+    "mint leaves",
+    "mint chiffonade"
    ],
    "exact_only": [],
    "violates": [],
@@ -3337,7 +3375,8 @@
     "striploin (new york strip) steak": 1136
    },
    "aliases": [
-    "New York strip steaks"
+    "New York strip steaks",
+    "strip steak"
    ],
    "exact_only": [],
    "violates": [],
@@ -3405,11 +3444,14 @@
    ]
   },
   "285": {
-   "name": "baby bok choy",
+   "name": "bok choy",
    "names": {
-    "baby bok choy": 374
+    "baby bok choy": 374,
+    "bok choy": 1
    },
-   "aliases": [],
+   "aliases": [
+    "baby bok choy"
+   ],
    "exact_only": [],
    "violates": [],
    "source": "mealime_learned",
@@ -3634,7 +3676,8 @@
     "bacon drippings",
     "center-cut applewood smoked bacon",
     "uncooked thin-sliced bacon",
-    "Cooked crisp bacon"
+    "Cooked crisp bacon",
+    "center-cut bacon slices"
    ],
    "exact_only": [],
    "violates": [],
@@ -3818,7 +3861,8 @@
     "pork sausage": 24
    },
    "aliases": [
-    "pork breakfast sausage"
+    "pork breakfast sausage",
+    "garlicky pork sausages"
    ],
    "exact_only": [],
    "violates": [],
@@ -4162,7 +4206,8 @@
     "unsweetened cocoa powder",
     "unsweetened Dutch-processed cocoa powder",
     "cocoa",
-    "Dutch cocoa powder"
+    "Dutch cocoa powder",
+    "high-fat Dutch cocoa powder"
    ],
    "exact_only": [],
    "violates": [],
@@ -4195,7 +4240,9 @@
    "names": {
     "frozen raspberries": 12
    },
-   "aliases": [],
+   "aliases": [
+    "Frozen raspberries for the center"
+   ],
    "exact_only": [],
    "violates": [],
    "source": "mealime_learned",
@@ -4287,7 +4334,8 @@
     "lean ground pork": 338
    },
    "aliases": [
-    "ground pork"
+    "ground pork",
+    "pork"
    ],
    "exact_only": [],
    "violates": [],
@@ -4377,7 +4425,8 @@
     "Sanding sugar",
     "white sugar",
     "raw sugar",
-    "turbinado brown sugar"
+    "turbinado brown sugar",
+    "priming sugar for bottling"
    ],
    "exact_only": [],
    "violates": [],
@@ -4394,7 +4443,9 @@
    "names": {
     "powdered sugar": 86
    },
-   "aliases": [],
+   "aliases": [
+    "organic powdered sugar"
+   ],
    "exact_only": [],
    "violates": [],
    "source": "mealime_learned",
@@ -4505,7 +4556,9 @@
    "names": {
     "dark chocolate chips": 86
    },
-   "aliases": [],
+   "aliases": [
+    "bittersweet chocolate morsels"
+   ],
    "exact_only": [],
    "violates": [],
    "source": "mealime_learned",
@@ -7218,11 +7271,14 @@
    "diet_flags": []
   },
   "1063": {
-   "name": "diced green chiles, canned",
+   "name": "diced green chilies, canned",
    "names": {
-    "diced green chiles, canned": 8
+    "diced green chiles, canned": 8,
+    "diced green chilies, canned": 1
    },
-   "aliases": [],
+   "aliases": [
+    "diced green chiles, canned"
+   ],
    "exact_only": [],
    "violates": [
     10
@@ -7238,7 +7294,9 @@
    "names": {
     "beef broth": 22
    },
-   "aliases": [],
+   "aliases": [
+    "brown beef broth"
+   ],
    "exact_only": [],
    "violates": [],
    "source": "curated",
@@ -7934,7 +7992,9 @@
    "names": {
     "smoked ham, boneless": 2
    },
-   "aliases": [],
+   "aliases": [
+    "smoked ham"
+   ],
    "exact_only": [],
    "violates": [],
    "source": "curated",
@@ -8342,7 +8402,8 @@
     "active dry yeast": 2
    },
    "aliases": [
-    "yeast"
+    "yeast",
+    "starter of American Ale yeast"
    ],
    "exact_only": [],
    "violates": [],
@@ -9411,7 +9472,8 @@
   "1185": {
    "name": "sweet chili sauce",
    "names": {
-    "sweet chili sauce": 4
+    "sweet chili sauce": 4,
+    "sweet chile sauce": 1
    },
    "aliases": [],
    "exact_only": [],
@@ -9420,7 +9482,7 @@
    ],
    "source": "curated",
    "recipes_seen": 0,
-   "note": null,
+   "note": "merged from 2487 (sweet chile sauce)",
    "added": null,
    "diet_flags": []
   },
@@ -10384,7 +10446,8 @@
     "blue cheese": 2
    },
    "aliases": [
-    "mild blue cheese"
+    "mild blue cheese",
+    "soft blue cheese"
    ],
    "exact_only": [],
    "violates": [
@@ -10815,7 +10878,8 @@
    },
    "aliases": [
     "American cheese singles",
-    "prepared “american” cheese"
+    "prepared “american” cheese",
+    "block American cheese"
    ],
    "exact_only": [],
    "violates": [
@@ -11077,7 +11141,9 @@
    "names": {
     "non-fat dry milk powder": 2
    },
-   "aliases": [],
+   "aliases": [
+    "dry milk powder"
+   ],
    "exact_only": [],
    "violates": [
     2
@@ -11777,7 +11843,9 @@
    "names": {
     "oats, steel-cut": 2
    },
-   "aliases": [],
+   "aliases": [
+    "steel-cut oats"
+   ],
    "exact_only": [],
    "violates": [],
    "source": "curated",
@@ -12173,7 +12241,9 @@
    "names": {
     "oats, old fashioned": 8
    },
-   "aliases": [],
+   "aliases": [
+    "old-fashioned oats"
+   ],
    "exact_only": [],
    "violates": [],
    "source": "curated",
@@ -12561,7 +12631,9 @@
    "names": {
     "semi-sweet chocolate chips": 4
    },
-   "aliases": [],
+   "aliases": [
+    "chocolate chips"
+   ],
    "exact_only": [],
    "violates": [
     2
@@ -13006,7 +13078,9 @@
    "names": {
     "egg noodles, wide": 4
    },
-   "aliases": [],
+   "aliases": [
+    "wide egg noodles"
+   ],
    "exact_only": [],
    "violates": [
     1,
@@ -14807,7 +14881,8 @@
    },
    "aliases": [
     "salted homemade vegetable broth",
-    "hearty vegetable broth"
+    "hearty vegetable broth",
+    "quick vegetable broth"
    ],
    "exact_only": [],
    "violates": [],
@@ -14923,7 +14998,8 @@
     "beef short ribs, bone-in": 2
    },
    "aliases": [
-    "full short ribs"
+    "full short ribs",
+    "beef short ribs"
    ],
    "exact_only": [],
    "violates": [],
@@ -14957,7 +15033,8 @@
     "low-sodium chicken broth": 2
    },
    "aliases": [
-    "unsalted chicken broth"
+    "unsalted chicken broth",
+    "low-sodium canned broth"
    ],
    "exact_only": [],
    "violates": [],
@@ -15160,7 +15237,8 @@
     "instant espresso powder": 2
    },
    "aliases": [
-    "espresso powder"
+    "espresso powder",
+    "fine instant espresso powder"
    ],
    "exact_only": [],
    "violates": [],
@@ -16006,7 +16084,9 @@
    "names": {
     "fennel seeds": 6
    },
-   "aliases": [],
+   "aliases": [
+    "ground fennel seeds"
+   ],
    "exact_only": [],
    "violates": [],
    "source": "curated",
@@ -16024,7 +16104,8 @@
     "peanut butter",
     "smooth peanut butter",
     "creamy peanut butter spread",
-    "creamy peanut butter"
+    "creamy peanut butter",
+    "unsweetened creamy peanut butter"
    ],
    "exact_only": [],
    "violates": [
@@ -18193,7 +18274,9 @@
     "medium-sized Cripps Pink apples",
     "tart apples",
     "very crisp apples",
-    "cooking apples"
+    "cooking apples",
+    "crisp baking apples",
+    "tart baking apples"
    ],
    "exact_only": [],
    "violates": [],
@@ -18292,7 +18375,8 @@
     "sherry": 1
    },
    "aliases": [
-    "sweet sherry"
+    "sweet sherry",
+    "sherry wine"
    ],
    "exact_only": [],
    "violates": [
@@ -18956,7 +19040,9 @@
    "names": {
     "whole peeled tomatoes packed in juice": 1
    },
-   "aliases": [],
+   "aliases": [
+    "whole peeled tomatoes in the juices"
+   ],
    "exact_only": [],
    "violates": [
     10
@@ -18990,7 +19076,8 @@
    },
    "aliases": [
     "cooked turkey meat",
-    "roasted turkey meat"
+    "roasted turkey meat",
+    "leftover roast turkey meat"
    ],
    "exact_only": [],
    "violates": [],
@@ -19363,9 +19450,10 @@
    "diet_flags": []
   },
   "1762": {
-   "name": "Thai chiles",
+   "name": "Thai chilies",
    "names": {
-    "thai chiles": 1
+    "thai chiles": 1,
+    "thai chilies": 1
    },
    "aliases": [
     "fresh green Thai chiles",
@@ -19373,7 +19461,9 @@
     "fresh Thai red chiles",
     "green Thai chiles",
     "Thai green chiles",
-    "fresh red Thai chile"
+    "fresh red Thai chile",
+    "Thai chiles",
+    "red Thai chile"
    ],
    "exact_only": [],
    "violates": [
@@ -19589,11 +19679,13 @@
   "1776": {
    "name": "chiles de arbol",
    "names": {
-    "chiles de arbol": 1
+    "chiles de arbol": 1,
+    "chilies de arbol": 1
    },
    "aliases": [
     "dried árbol chiles",
-    "árbol chiles"
+    "árbol chiles",
+    "chilies de arbol"
    ],
    "exact_only": [],
    "violates": [
@@ -19675,7 +19767,9 @@
    "names": {
     "bourbon": 1
    },
-   "aliases": [],
+   "aliases": [
+    "bourbon whiskey"
+   ],
    "exact_only": [],
    "violates": [],
    "source": "curated",
@@ -20096,7 +20190,8 @@
     "fresh parsley leaves and tender stems",
     "packed parsley leaves",
     "Parsley stems",
-    "mixed fresh parsley"
+    "mixed fresh parsley",
+    "dried parsley"
    ],
    "exact_only": [],
    "violates": [],
@@ -20128,15 +20223,17 @@
    ]
   },
   "1810": {
-   "name": "bird’s eye chile",
+   "name": "bird’s eye chili",
    "names": {
-    "bird’s eye chile": 1
+    "bird’s eye chile": 1,
+    "bird’s eye chili": 1
    },
    "aliases": [
     "green bird’s eye chiles",
     "red bird's eye chiles",
     "Thai bird chiles",
-    "Thai bird peppers"
+    "Thai bird peppers",
+    "bird’s eye chile"
    ],
    "exact_only": [],
    "violates": [
@@ -20159,7 +20256,8 @@
     "headless small shrimp",
     "tiger prawns",
     "shell-on shrimp",
-    "shell-on head-on shrimp"
+    "shell-on head-on shrimp",
+    "colossal shrimp"
    ],
    "exact_only": [],
    "violates": [
@@ -20496,7 +20594,9 @@
    },
    "aliases": [
     "unflavored powdered gelatin",
-    "powdered gelatin"
+    "powdered gelatin",
+    "powdered unflavored gelatin",
+    "gelatin"
    ],
    "exact_only": [],
    "violates": [],
@@ -20625,11 +20725,14 @@
    "diet_flags": []
   },
   "1838": {
-   "name": "long red hot chile pepper",
+   "name": "long red hot chili pepper",
    "names": {
-    "long red hot chile pepper": 1
+    "long red hot chile pepper": 1,
+    "long red hot chili pepper": 1
    },
-   "aliases": [],
+   "aliases": [
+    "long red hot chile pepper"
+   ],
    "exact_only": [],
    "violates": [
     10
@@ -20693,12 +20796,14 @@
    ]
   },
   "1842": {
-   "name": "Sichuan-style chile bean paste",
+   "name": "Sichuan-style chili bean paste",
    "names": {
-    "sichuan-style chile bean paste": 1
+    "sichuan-style chile bean paste": 1,
+    "sichuan-style chili bean paste": 1
    },
    "aliases": [
-    "doubanjiang"
+    "doubanjiang",
+    "Sichuan-style chile bean paste"
    ],
    "exact_only": [],
    "violates": [
@@ -20826,9 +20931,10 @@
    ]
   },
   "1850": {
-   "name": "hot green chiles",
+   "name": "hot green chilies",
    "names": {
-    "hot green chiles": 1
+    "hot green chiles": 1,
+    "hot green chilies": 1
    },
    "aliases": [
     "long green hot chile pepper",
@@ -20836,7 +20942,10 @@
     "mild green chile",
     "green chiles slit lengthwise",
     "Indian green chiles",
-    "green chillis"
+    "green chillis",
+    "hot green chiles",
+    "long green Chinese hot pepper",
+    "pepper green chilies"
    ],
    "exact_only": [],
    "violates": [
@@ -21138,9 +21247,10 @@
    "diet_flags": []
   },
   "1869": {
-   "name": "dried red chiles",
+   "name": "dried red chilies",
    "names": {
-    "dried red chiles": 1
+    "dried red chiles": 1,
+    "dried red chilies": 1
    },
    "aliases": [
     "dried chile",
@@ -21150,34 +21260,9 @@
     "dried puya chiles",
     "dried Kashmiri chiles",
     "California chiles",
-    "guajillo chiles"
-   ],
-   "exact_only": [],
-   "violates": [
-    10
-   ],
-   "source": "curated",
-   "recipes_seen": 0,
-   "note": "decided by the user 2026-10-11 (Serious Eats batch 2)",
-   "added": "2026-10-11",
-   "diet_flags": []
-  },
-  "1870": {
-   "name": "chile powder",
-   "names": {
-    "chile powder": 1
-   },
-   "aliases": [
-    "ground Kashmiri chile powder",
-    "Kashmiri red chile powder",
-    "ground red chile powder",
-    "roasted chile powder",
-    "Ancho chile powder",
-    "red chile powder",
-    "Kashmiri chile powder",
-    "Pequin chile powder",
-    "ground red chilli",
-    "red chilli powder"
+    "guajillo chiles",
+    "dried red chiles",
+    "hot Chinese dry chile peppers"
    ],
    "exact_only": [],
    "violates": [
@@ -21274,12 +21359,15 @@
    "diet_flags": []
   },
   "1876": {
-   "name": "thin wheat flour “yangchun” noodles",
+   "name": "wheat noodles",
    "names": {
-    "thin wheat flour “yangchun” noodles": 1
+    "thin wheat flour “yangchun” noodles": 1,
+    "wheat noodles": 1
    },
    "aliases": [
-    "thin dried Chinese wheat noodles"
+    "thin dried Chinese wheat noodles",
+    "thin wheat flour “yangchun” noodles",
+    "fresh wheat noodles"
    ],
    "exact_only": [],
    "violates": [
@@ -21346,11 +21434,14 @@
    "diet_flags": []
   },
   "1880": {
-   "name": "chile pepper oil",
+   "name": "chili pepper oil",
    "names": {
-    "chile pepper oil": 1
+    "chile pepper oil": 1,
+    "chili pepper oil": 1
    },
-   "aliases": [],
+   "aliases": [
+    "chile pepper oil"
+   ],
    "exact_only": [],
    "violates": [
     10
@@ -22173,7 +22264,8 @@
     "shiitake mushrooms": 1
    },
    "aliases": [
-    "whole dried shiitake mushrooms"
+    "whole dried shiitake mushrooms",
+    "dried shiitake mushrooms"
    ],
    "exact_only": [],
    "violates": [],
@@ -22921,7 +23013,8 @@
     "pork rib racks",
     "St. Louis–cut ribs",
     "baby back ribs",
-    "pork spareribs"
+    "pork spareribs",
+    "St. Louis-cut pork ribs"
    ],
    "exact_only": [],
    "violates": [],
@@ -23343,11 +23436,14 @@
    ]
   },
   "2001": {
-   "name": "jalapeño eye chile",
+   "name": "jalapeño eye chili",
    "names": {
-    "jalapeño eye chile": 1
+    "jalapeño eye chile": 1,
+    "jalapeño eye chili": 1
    },
-   "aliases": [],
+   "aliases": [
+    "jalapeño eye chile"
+   ],
    "exact_only": [],
    "violates": [
     10
@@ -23681,15 +23777,17 @@
    ]
   },
   "2021": {
-   "name": "serrano chile",
+   "name": "serrano chili",
    "names": {
-    "serrano chile": 1
+    "serrano chile": 1,
+    "serrano chili": 1
    },
    "aliases": [
     "fresh serrano chiles",
     "serrano pepper",
     "serrano chile peppers",
-    "green serrano peppers slit lengthwise"
+    "green serrano peppers slit lengthwise",
+    "serrano chile"
    ],
    "exact_only": [],
    "violates": [
@@ -24117,7 +24215,9 @@
    "names": {
     "whipped cream": 1
    },
-   "aliases": [],
+   "aliases": [
+    "sweetened whipped cream"
+   ],
    "exact_only": [],
    "violates": [
     2
@@ -24289,7 +24389,9 @@
    "names": {
     "orecchiette pasta": 1
    },
-   "aliases": [],
+   "aliases": [
+    "dried orecchiette"
+   ],
    "exact_only": [],
    "violates": [
     1
@@ -24526,13 +24628,15 @@
    "diet_flags": []
   },
   "2066": {
-   "name": "poblano chile peppers",
+   "name": "poblano chili peppers",
    "names": {
-    "poblano chile peppers": 1
+    "poblano chile peppers": 1,
+    "poblano chili peppers": 1
    },
    "aliases": [
     "poblano chile",
-    "poblano pepper"
+    "poblano pepper",
+    "poblano chile peppers"
    ],
    "exact_only": [],
    "violates": [
@@ -24545,12 +24649,14 @@
    "diet_flags": []
   },
   "2067": {
-   "name": "habanero chiles",
+   "name": "habanero chilies",
    "names": {
-    "habanero chiles": 1
+    "habanero chiles": 1,
+    "habanero chilies": 1
    },
    "aliases": [
-    "habaneros"
+    "habaneros",
+    "habanero chiles"
    ],
    "exact_only": [],
    "violates": [
@@ -24613,13 +24719,15 @@
    "diet_flags": []
   },
   "2071": {
-   "name": "chiles",
+   "name": "chilies",
    "names": {
-    "chiles": 1
+    "chiles": 1,
+    "chilies": 1
    },
    "aliases": [
     "Fresh chiles",
-    "pepper chile"
+    "pepper chile",
+    "chiles"
    ],
    "exact_only": [],
    "violates": [
@@ -24632,11 +24740,14 @@
    "diet_flags": []
   },
   "2072": {
-   "name": "yellow Güero chiles",
+   "name": "yellow Güero chilies",
    "names": {
-    "yellow güero chiles": 1
+    "yellow güero chiles": 1,
+    "yellow güero chilies": 1
    },
-   "aliases": [],
+   "aliases": [
+    "yellow Güero chiles"
+   ],
    "exact_only": [],
    "violates": [
     10
@@ -24763,11 +24874,14 @@
    ]
   },
   "2080": {
-   "name": "Chile-coated tamarind straws",
+   "name": "Chili-coated tamarind straws",
    "names": {
-    "chile-coated tamarind straws": 1
+    "chile-coated tamarind straws": 1,
+    "chili-coated tamarind straws": 1
    },
-   "aliases": [],
+   "aliases": [
+    "Chile-coated tamarind straws"
+   ],
    "exact_only": [],
    "violates": [
     10
@@ -24797,13 +24911,15 @@
    "diet_flags": []
   },
   "2082": {
-   "name": "pickled chile peppers",
+   "name": "pickled chili peppers",
    "names": {
-    "pickled chile peppers": 1
+    "pickled chile peppers": 1,
+    "pickled chili peppers": 1
    },
    "aliases": [
     "pickled chile pepper",
-    "Pickled Scotch bonnet peppers"
+    "Pickled Scotch bonnet peppers",
+    "pickled chile peppers"
    ],
    "exact_only": [],
    "violates": [
@@ -24868,12 +24984,14 @@
    "diet_flags": []
   },
   "2086": {
-   "name": "diced tomatoes and green chiles",
+   "name": "diced tomatoes and green chilies",
    "names": {
-    "diced tomatoes and green chiles": 1
+    "diced tomatoes and green chiles": 1,
+    "diced tomatoes and green chilies": 1
    },
    "aliases": [
-    "tomatoes and green chiles"
+    "tomatoes and green chiles",
+    "diced tomatoes and green chiles"
    ],
    "exact_only": [],
    "violates": [
@@ -24902,13 +25020,16 @@
    "diet_flags": []
   },
   "2088": {
-   "name": "red chiles",
+   "name": "red chilies",
    "names": {
-    "red chiles": 1
+    "red chiles": 1,
+    "red chilies": 1
    },
    "aliases": [
     "fresh medium-hot red chiles",
-    "medium-hot fresh red chiles"
+    "medium-hot fresh red chiles",
+    "red chiles",
+    "crushed red chiles"
    ],
    "exact_only": [],
    "violates": [
@@ -25614,7 +25735,8 @@
     "mustard greens": 1
    },
    "aliases": [
-    "mustard green leaves"
+    "mustard green leaves",
+    "Chinese mustard greens"
    ],
    "exact_only": [],
    "violates": [
@@ -26415,7 +26537,9 @@
    "names": {
     "chicken": 1
    },
-   "aliases": [],
+   "aliases": [
+    "roasted chicken"
+   ],
    "exact_only": [],
    "violates": [],
    "source": "curated",
@@ -26443,11 +26567,14 @@
    ]
   },
   "2179": {
-   "name": "Chilean pisco",
+   "name": "pisco",
    "names": {
-    "chilean pisco": 1
+    "chilean pisco": 1,
+    "pisco": 1
    },
-   "aliases": [],
+   "aliases": [
+    "Chilean pisco"
+   ],
    "exact_only": [],
    "violates": [],
    "source": "curated",
@@ -26927,7 +27054,8 @@
     "fine white cornmeal",
     "fine yellow cornmeal",
     "yellow cornmeal",
-    "ground yellow cornmeal"
+    "ground yellow cornmeal",
+    "plain yellow cornmeal"
    ],
    "exact_only": [],
    "violates": [],
@@ -27464,7 +27592,10 @@
    "names": {
     "masa harina": 1
    },
-   "aliases": [],
+   "aliases": [
+    "masa harina para tamales",
+    "masa harina para tortillas"
+   ],
    "exact_only": [],
    "violates": [],
    "source": "curated",
@@ -27529,7 +27660,8 @@
     "mixed mushrooms": 1
    },
    "aliases": [
-    "mixed wild mushrooms"
+    "mixed wild mushrooms",
+    "mixed fresh mushrooms"
    ],
    "exact_only": [],
    "violates": [],
@@ -27545,7 +27677,8 @@
     "molasses": 1
    },
    "aliases": [
-    "dark molasses"
+    "dark molasses",
+    "blackstrap molasses"
    ],
    "exact_only": [],
    "violates": [],
@@ -29640,12 +29773,14 @@
    "added": "2026-10-12"
   },
   "2393": {
-   "name": "fresh Hatch chiles",
+   "name": "fresh Hatch chilies",
    "names": {
-    "fresh hatch chiles": 1
+    "fresh hatch chiles": 1,
+    "fresh hatch chilies": 1
    },
    "aliases": [
-    "Hatch chiles"
+    "Hatch chiles",
+    "fresh Hatch chiles"
    ],
    "exact_only": [],
    "violates": [
@@ -29657,11 +29792,14 @@
    "added": "2026-10-12"
   },
   "2394": {
-   "name": "Korean cheongyang chiles",
+   "name": "Korean cheongyang chilies",
    "names": {
-    "korean cheongyang chiles": 1
+    "korean cheongyang chiles": 1,
+    "korean cheongyang chilies": 1
    },
-   "aliases": [],
+   "aliases": [
+    "Korean cheongyang chiles"
+   ],
    "exact_only": [],
    "violates": [
     10
@@ -29740,7 +29878,9 @@
    "names": {
     "cooked linguiça sausage": 1
    },
-   "aliases": [],
+   "aliases": [
+    "linguiça"
+   ],
    "exact_only": [],
    "violates": [
     10
@@ -29751,13 +29891,15 @@
    "added": "2026-10-12"
   },
   "2400": {
-   "name": "chipotle chile powder",
+   "name": "chipotle chili powder",
    "names": {
-    "chipotle chile powder": 1
+    "chipotle chile powder": 1,
+    "chipotle chili powder": 1
    },
    "aliases": [
     "Chipotle powder",
-    "ground chipotle"
+    "ground chipotle",
+    "chipotle chile powder"
    ],
    "exact_only": [],
    "violates": [
@@ -29769,13 +29911,15 @@
    "added": "2026-10-12"
   },
   "2401": {
-   "name": "ancho chile powder",
+   "name": "ancho chili powder",
    "names": {
-    "ancho chile powder": 1
+    "ancho chile powder": 1,
+    "ancho chili powder": 1
    },
    "aliases": [
     "ground ancho chile powder",
-    "ground ancho powder"
+    "ground ancho powder",
+    "ancho chile powder"
    ],
    "exact_only": [],
    "violates": [
@@ -29787,12 +29931,14 @@
    "added": "2026-10-12"
   },
   "2402": {
-   "name": "fresh red chiles",
+   "name": "fresh red chilies",
    "names": {
-    "fresh red chiles": 1
+    "fresh red chiles": 1,
+    "fresh red chilies": 1
    },
    "aliases": [
-    "spicy fresh red chiles"
+    "spicy fresh red chiles",
+    "fresh red chiles"
    ],
    "exact_only": [],
    "violates": [
@@ -29858,7 +30004,8 @@
     "sparkling wine": 1
    },
    "aliases": [
-    "dry sparkling rosé"
+    "dry sparkling rosé",
+    "dry sparkling wine"
    ],
    "exact_only": [],
    "violates": [
@@ -30051,7 +30198,9 @@
    "names": {
     "salt pork": 1
    },
-   "aliases": [],
+   "aliases": [
+    "salt pork backfat"
+   ],
    "exact_only": [],
    "violates": [],
    "source": "curated",
@@ -30262,7 +30411,8 @@
     "dry rub": 1
    },
    "aliases": [
-    "spice rub"
+    "spice rub",
+    "barbecue rub"
    ],
    "exact_only": [],
    "violates": [],
@@ -30276,7 +30426,9 @@
    "names": {
     "fresh herbs": 1
    },
-   "aliases": [],
+   "aliases": [
+    "packed herb leaves"
+   ],
    "exact_only": [],
    "violates": [],
    "source": "curated",
@@ -30623,7 +30775,8 @@
     "pork trotters": 1
    },
    "aliases": [
-    "fresh trotters"
+    "fresh trotters",
+    "pig trotters"
    ],
    "exact_only": [],
    "violates": [],
@@ -30697,7 +30850,9 @@
    "names": {
     "malt extract": 1
    },
-   "aliases": [],
+   "aliases": [
+    "Light liquid malt extract"
+   ],
    "exact_only": [],
    "violates": [
     1
@@ -30992,21 +31147,6 @@
    "name": "santa maria-style salsa",
    "names": {
     "santa maria-style salsa": 1
-   },
-   "aliases": [],
-   "exact_only": [],
-   "violates": [
-    10
-   ],
-   "source": "curated",
-   "recipes_seen": 0,
-   "note": "decided by the user 2026-10-12 (Serious Eats batch5)",
-   "added": "2026-10-12"
-  },
-  "2487": {
-   "name": "sweet chile sauce",
-   "names": {
-    "sweet chile sauce": 1
    },
    "aliases": [],
    "exact_only": [],
@@ -31380,11 +31520,14 @@
    "added": "2026-10-12"
   },
   "2514": {
-   "name": "dark agave nectar",
+   "name": "agave nectar",
    "names": {
-    "dark agave nectar": 1
+    "dark agave nectar": 1,
+    "agave nectar": 1
    },
-   "aliases": [],
+   "aliases": [
+    "dark agave nectar"
+   ],
    "exact_only": [],
    "violates": [],
    "source": "curated",
@@ -31594,11 +31737,15 @@
    "added": "2026-10-12"
   },
   "2530": {
-   "name": "cooked Israeli couscous",
+   "name": "pearl couscous",
    "names": {
-    "cooked israeli couscous": 1
+    "cooked israeli couscous": 1,
+    "pearl couscous": 1
    },
-   "aliases": [],
+   "aliases": [
+    "cooked Israeli couscous",
+    "Israeli couscous"
+   ],
    "exact_only": [],
    "violates": [
     1
@@ -31763,11 +31910,14 @@
    "added": "2026-10-12"
   },
   "2541": {
-   "name": "dried ancho chiles",
+   "name": "dried ancho chilies",
    "names": {
-    "dried ancho chiles": 1
+    "dried ancho chiles": 1,
+    "dried ancho chilies": 1
    },
-   "aliases": [],
+   "aliases": [
+    "dried ancho chiles"
+   ],
    "exact_only": [],
    "violates": [
     10
@@ -31778,11 +31928,14 @@
    "added": "2026-10-12"
   },
   "2542": {
-   "name": "dried New Mexico chiles",
+   "name": "dried New Mexico chilies",
    "names": {
-    "dried new mexico chiles": 1
+    "dried new mexico chiles": 1,
+    "dried new mexico chilies": 1
    },
-   "aliases": [],
+   "aliases": [
+    "dried New Mexico chiles"
+   ],
    "exact_only": [],
    "violates": [
     10
@@ -31797,7 +31950,10 @@
    "names": {
     "chili bean paste": 1
    },
-   "aliases": [],
+   "aliases": [
+    "Sichuan broad bean chili paste",
+    "fermented chile broad bean paste"
+   ],
    "exact_only": [],
    "violates": [
     9,
@@ -32093,7 +32249,9 @@
    "names": {
     "morel mushrooms": 1
    },
-   "aliases": [],
+   "aliases": [
+    "dried morel mushrooms"
+   ],
    "exact_only": [],
    "violates": [],
    "source": "curated",
@@ -32216,7 +32374,9 @@
    "names": {
     "blended scotch": 1
    },
-   "aliases": [],
+   "aliases": [
+    "Black Grouse scotch"
+   ],
    "exact_only": [],
    "violates": [],
    "source": "curated",
@@ -32261,6 +32421,763 @@
    "source": "curated",
    "recipes_seen": 0,
    "note": "decided by the user 2026-10-12 (Serious Eats batch6)",
+   "added": "2026-10-12"
+  },
+  "2577": {
+   "name": "barley malt",
+   "names": {
+    "barley malt": 1
+   },
+   "aliases": [
+    "Black Roasted Barley malt",
+    "CaraRed malt",
+    "Crystal 60 L malt"
+   ],
+   "exact_only": [],
+   "violates": [
+    1
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2578": {
+   "name": "classic fresh egg pasta",
+   "names": {
+    "classic fresh egg pasta": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [
+    1,
+    11
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2579": {
+   "name": "babka",
+   "names": {
+    "babka": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [
+    1,
+    2,
+    11
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2580": {
+   "name": "butterscotch chips",
+   "names": {
+    "butterscotch chips": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [
+    2
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2581": {
+   "name": "white chocolate",
+   "names": {
+    "white chocolate": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [
+    2
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2582": {
+   "name": "kasseri cheese",
+   "names": {
+    "kasseri cheese": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [
+    2
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2583": {
+   "name": "ricotta salata",
+   "names": {
+    "ricotta salata": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [
+    2
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2584": {
+   "name": "mackerel",
+   "names": {
+    "mackerel": 1
+   },
+   "aliases": [
+    "mackerels"
+   ],
+   "exact_only": [],
+   "violates": [
+    3
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2585": {
+   "name": "geoduck",
+   "names": {
+    "geoduck": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [
+    4
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2586": {
+   "name": "ají",
+   "names": {
+    "ají": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [
+    10
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2587": {
+   "name": "pasilla negro chilies",
+   "names": {
+    "pasilla negro chilies": 1
+   },
+   "aliases": [
+    "pasilla negro chiles"
+   ],
+   "exact_only": [],
+   "violates": [
+    10
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2588": {
+   "name": "chili oil",
+   "names": {
+    "chili oil": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [
+    10
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2589": {
+   "name": "chu hou sauce",
+   "names": {
+    "chu hou sauce": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [
+    9
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2590": {
+   "name": "orgeat",
+   "names": {
+    "orgeat": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [
+    6
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2591": {
+   "name": "pistachio cream",
+   "names": {
+    "pistachio cream": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [
+    2,
+    6
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2592": {
+   "name": "pistachio milk",
+   "names": {
+    "pistachio milk": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [
+    6
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2593": {
+   "name": "pistachio oil",
+   "names": {
+    "pistachio oil": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [
+    6
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2594": {
+   "name": "port wine",
+   "names": {
+    "port wine": 1
+   },
+   "aliases": [
+    "ruby port wine"
+   ],
+   "exact_only": [],
+   "violates": [
+    14
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2595": {
+   "name": "pickled mustard root",
+   "names": {
+    "pickled mustard root": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [
+    13,
+    14
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2596": {
+   "name": "peanut butter chips",
+   "names": {
+    "peanut butter chips": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [
+    5
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2597": {
+   "name": "coconut palm sugar",
+   "names": {
+    "coconut palm sugar": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2598": {
+   "name": "pork liver",
+   "names": {
+    "pork liver": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2599": {
+   "name": "cooked turkey wings",
+   "names": {
+    "cooked turkey wings": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2600": {
+   "name": "leftover roast turkey carcass",
+   "names": {
+    "leftover roast turkey carcass": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2601": {
+   "name": "whole suckling pig",
+   "names": {
+    "whole suckling pig": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2602": {
+   "name": "salted pig parts",
+   "names": {
+    "salted pig parts": 1
+   },
+   "aliases": [
+    "salted pig parts - ears"
+   ],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2603": {
+   "name": "foie gras",
+   "names": {
+    "foie gras": 1
+   },
+   "aliases": [
+    "fresh grade \"A\" foie gras"
+   ],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2604": {
+   "name": "frying fat",
+   "names": {
+    "frying fat": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2605": {
+   "name": "beef rib bones racks",
+   "names": {
+    "beef rib bones racks": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2606": {
+   "name": "buckwheat flour",
+   "names": {
+    "buckwheat flour": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2607": {
+   "name": "grits",
+   "names": {
+    "grits": 1
+   },
+   "aliases": [
+    "coarse ground grits"
+   ],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2608": {
+   "name": "endive",
+   "names": {
+    "endive": 1
+   },
+   "aliases": [
+    "red endive"
+   ],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2609": {
+   "name": "Farofa",
+   "names": {
+    "farofa": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2610": {
+   "name": "ginger garlic paste",
+   "names": {
+    "ginger garlic paste": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2611": {
+   "name": "jellyfish packed in salt",
+   "names": {
+    "jellyfish packed in salt": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2612": {
+   "name": "long pepper",
+   "names": {
+    "long pepper": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2613": {
+   "name": "cassia bark",
+   "names": {
+    "cassia bark": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2614": {
+   "name": "mango juice",
+   "names": {
+    "mango juice": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2615": {
+   "name": "soy oil",
+   "names": {
+    "soy oil": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2616": {
+   "name": "turkey drippings",
+   "names": {
+    "turkey drippings": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2617": {
+   "name": "poultry seasoning",
+   "names": {
+    "poultry seasoning": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2618": {
+   "name": "Fried Chicken Seasoning",
+   "names": {
+    "fried chicken seasoning": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2619": {
+   "name": "Perfect Roast Seasoning",
+   "names": {
+    "perfect roast seasoning": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2620": {
+   "name": "crispy mushroom \"bacon\"",
+   "names": {
+    "crispy mushroom \"bacon\"": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2621": {
+   "name": "Strawberry-Thyme Syrup",
+   "names": {
+    "strawberry-thyme syrup": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2622": {
+   "name": "Bonal",
+   "names": {
+    "bonal": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2623": {
+   "name": "genever",
+   "names": {
+    "genever": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2624": {
+   "name": "Rothman & Winter Orchard Pear",
+   "names": {
+    "rothman & winter orchard pear": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2625": {
+   "name": "St Elizabeth allspice dram",
+   "names": {
+    "st elizabeth allspice dram": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2626": {
+   "name": "hops",
+   "names": {
+    "hops": 1
+   },
+   "aliases": [
+    "Amarillo Hops",
+    "Centennial Hops"
+   ],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2627": {
+   "name": "pearl onions",
+   "names": {
+    "pearl onions": 1
+   },
+   "aliases": [
+    "frozen pearl onions"
+   ],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2628": {
+   "name": "hog casings",
+   "names": {
+    "hog casings": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7)",
+   "added": "2026-10-12"
+  },
+  "2629": {
+   "name": "packed roughly chopped",
+   "names": {
+    "packed roughly chopped": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "decided by the user 2026-10-12 (Serious Eats batch7) - parsing fragment, ignore",
    "added": "2026-10-12"
   }
  }
