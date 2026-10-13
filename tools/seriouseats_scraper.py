@@ -12,8 +12,9 @@ COMMANDS
     python seriouseats_scraper.py discover                  read the sitemap, record every recipe URL
     python seriouseats_scraper.py fetch --limit 5           fetch pages that are new or changed (try a few first)
     python seriouseats_scraper.py fetch --limit 5 --align   ... and align each into library records as it arrives
+    python seriouseats_scraper.py fetch --sample 100 --align --out-dir ../scratch_lib6    a random test batch of 100, into a scratch folder
     python seriouseats_scraper.py align --limit 5           re-align pages already saved (no network): the dev loop
-    python seriouseats_scraper.py fetch                     all of them (~1.5 h for ~5,400 pages at 1/s)
+    python seriouseats_scraper.py fetch                     all of them (~4.5 h for ~4,900 pages at the 3 s default)
     python seriouseats_scraper.py thumbnails                download the picture of every recipe that has none (thumbnail.jpg, ~300 px, ~16 KB)
                                                             (fetch --align does this by itself for each new or changed page; --no-thumbs skips it)
     python seriouseats_scraper.py status                    counts by state
@@ -37,7 +38,7 @@ THE REGISTRY  <library>/source_registry.csv  (committed with the library; one ro
 THE SAVED PAGES  <raw-dir>/<source>/<id>.html.gz   (default tools/raw_pages/, git-ignored)
 
 POLITE AND SAFE
-  * ~1 request per second (--delay, with jitter), resumable: the registry is saved every 25 pages and
+  * about one request every 3 seconds (--delay, with jitter; at 1 s the site refuses every third or fourth page), resumable: the registry is saved every 25 pages and
     on Ctrl-C, so a rerun carries on where it stopped.
   * Plain, honest user agent; no attempt to look like a browser.
   * If the site starts refusing (403/429/503, or a challenge page instead of a recipe) five times in a
@@ -294,12 +295,15 @@ def needs_fetch(row: dict) -> bool:
     return row["status"] in ("new", "stale", "error")
 
 
-def select_rows(rows: dict, predicate, *, limit: int | None, match: str | None, ids: set[int] | None) -> list[dict]:
+def select_rows(rows: dict, predicate, *, limit: int | None, match: str | None, ids: set[int] | None,
+                sample: int | None = None, seed: int | None = None) -> list[dict]:
     chosen = sorted((r for (src, _), r in rows.items() if src == SOURCE and predicate(r)), key=lambda r: int(r["id"]))
     if match:
         chosen = [r for r in chosen if match in r["url"]]
     if ids:
         chosen = [r for r in chosen if int(r["id"]) in ids]
+    if sample is not None and sample < len(chosen):                    # a random sample, back in id order (a seed makes it repeatable)
+        chosen = sorted(random.Random(seed).sample(chosen, sample), key=lambda r: int(r["id"]))
     return chosen[:limit] if limit is not None else chosen
 
 
@@ -390,8 +394,9 @@ def run_align(rows: dict, raw_dir: Path, aligner, *, limit: int | None, match: s
 
 def run_fetch(session: requests.Session, rows: dict, registry_path: Path, raw_dir: Path, *, delay: float,
               limit: int | None, match: str | None, ids: set[int] | None,
-              keep_raw: bool = True, on_page=None, retry_wait: float = RETRY_WAIT) -> dict[str, int]:
-    todo = select_rows(rows, needs_fetch, limit=limit, match=match, ids=ids)
+              keep_raw: bool = True, on_page=None, retry_wait: float = RETRY_WAIT,
+              sample: int | None = None, seed: int | None = None) -> dict[str, int]:
+    todo = select_rows(rows, needs_fetch, limit=limit, match=match, ids=ids, sample=sample, seed=seed)
     print(f"{len(todo)} page(s) to fetch")
     counts: dict[str, int] = {}
     consecutive_blocks = 0
@@ -465,13 +470,15 @@ def main() -> int:
     parser.add_argument("--library-dir", type=Path, default=DEFAULT_LIBRARY_DIR, help="Library root (holds source_registry.csv)")
     parser.add_argument("--raw-dir", type=Path, default=DEFAULT_RAW_DIR, help=f"Where saved pages go (default {DEFAULT_RAW_DIR})")
     parser.add_argument("--urls-file", type=Path, help="discover from a file of URLs (one per line) instead of the sitemap")
-    parser.add_argument("--delay", type=float, default=1.0, help="Seconds between page fetches (default 1.0)")
+    parser.add_argument("--delay", type=float, default=3.0, help="Seconds between page fetches (default 3.0; 1.0 gets many 403s)")
     parser.add_argument("--retry-wait", type=float, default=RETRY_WAIT,
                         help=f"fetch: seconds to wait before retrying a refused page (then double; {RETRIES} retries; "
                              f"0 = no retries; default {RETRY_WAIT:g})")
     parser.add_argument("--limit", type=int, help="fetch at most this many pages")
     parser.add_argument("--match", help="fetch only URLs containing this text (e.g. 'kimchi')")
     parser.add_argument("--ids", help="fetch only these library ids (comma-separated)")
+    parser.add_argument("--sample", type=int, help="fetch: a random sample of this many of the pages still to fetch (for test batches)")
+    parser.add_argument("--seed", type=int, help="with --sample: makes the random sample repeatable")
     parser.add_argument("--align", action="store_true",
                         help="fetch: also align each page into library records as it arrives (implied by `run`)")
     parser.add_argument("--no-raw", action="store_true", help="fetch: don't keep the page on disk (fetch -> align in one pass)")
@@ -517,7 +524,7 @@ def main() -> int:
             counts = run_fetch(session, rows, registry_path, args.raw_dir, delay=args.delay,
                                limit=args.limit, match=args.match, ids=ids,
                                keep_raw=not args.no_raw, on_page=align_and_thumbnail if aligner else None,
-                               retry_wait=args.retry_wait)
+                               retry_wait=args.retry_wait, sample=args.sample, seed=args.seed)
             print("Fetched:", counts or "nothing")
         if args.command == "thumbnails":
             run_thumbnails(session, rows, args.raw_dir, args.out_dir or args.library_dir, delay=args.delay,

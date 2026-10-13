@@ -121,6 +121,8 @@ EXTERNAL_VARIETY_TAGS = {
     49: "Sides",
     50: "Jams & jellies",
     51: "Rubs, marinades & sauces",
+    52: "Dips",
+    53: "Breads",
 }
 
 VARIETY_TAGS = {
