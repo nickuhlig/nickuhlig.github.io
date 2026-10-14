@@ -277,6 +277,11 @@ def normalize_raw(raw: str) -> str:
     s = re.sub(r"\s*[—–]\s*(?:for dry hopping[^,]*|\d+\s+minutes?)$", "", s, flags=re.I)                    # "Centennial Hops—60 minutes"
     s = re.sub(r"\b(\w+)-\s+or\s+\w+-(\w+)\b", r"\1-\2", s)                                                 # "oil- or salt-packed" -> "oil-packed"
     s = re.sub(r"\b(torn|cubed|diced|crumbled)\s+pieces\s+of\s+", "", s, flags=re.I)                         # "6 cups torn pieces of babka"
+    s = re.sub(r"^half\s+(?:an?\s+)?(?=(?:pound|cup|ounce|teaspoon|tablespoon|quart|pint|gallon)s?\b)", "1/2 ", s, flags=re.I)   # "Half pound dry elbow macaroni"
+    s = re.sub(r"^quarter\s+of\s+1\s+", "1/4 ", s, flags=re.I)                                                            # "Quarter of 1 Spanish onion"
+    s = re.sub(r"\b(?:nickel|thumb|quarter|golf[- ]ball|walnut|egg|fist)-sized\s+", "", s, flags=re.I)                       # "10 nickel-sized slices ginger"
+    s = re.sub(r"\bvery\s+(?=(?:large|small|big)\b)", "", s, flags=re.I)                                                    # "1 very large shallot"
+    s = re.sub(r"\s*;\s*(?:for\s+table\s+salt|use\s+half\s+as\s+much)\b.*$", "", s, flags=re.I)                            # "kosher salt; for table salt, use half as much"
     s = re.sub(rf"^({NUM})\s+(?:additional|extra)\s+(?=(?:tablespoons?|teaspoons?|cups?)\b)", r"\1 ", s, flags=re.I)         # "1 additional tablespoon for pan"
     s = re.sub(r"^(\d+)\s+(large|medium|small)\s+pound\s+(?=[a-z])", r"\1 \2 ", s, flags=re.I)             # "1 large pound butternut squash": a typo for "1 large butternut squash"
     s = re.sub(r"\bfresh or frozen(?: and thawed)?\b", "fresh", s, flags=re.I)                                    # either is fine: no alternative
@@ -442,7 +447,7 @@ def parse_line(raw: str) -> Line:
                     r"\s+(?:tough\s+)?stems?\s+(?:removed|trimmed|discarded)\b.*$",                       # "kale tough stems removed"
                     r"\s+at\s+room\s+temperature\b.*$",
                     r"\s+tied\s+(?:together|with|up)\b.*$",
-                    r"\s+(?:divided|cut)\s+into\s+\d+\b.*$",                                      # "1 whole lime divided into 8 wedges"                                  # "thyme tied together"
+                    r"\s+(?:divided|cut)\s+(?:lengthwise\s+)?into\s+\d+\b.*$",                                      # "1 whole lime divided into 8 wedges"                                  # "thyme tied together"
                     r"\s+for\s+(?:the\s+)?(?:pasta|boiling|cooking|blanching|poaching)\s+water\b.*$",   # "kosher salt for pasta water"
                     PREPARED_TAIL):                                                  # "onion grated on a microplane grater"
         m = re.search(pattern, line.name, re.I)
@@ -902,6 +907,7 @@ BRAND_RULES = [
     (r"\bLand O'?\s?Lakes\s+", ""), (r"\bPhiladelphia\s+", ""), (r"\bVelveeta\s+", ""), (r"\bTabasco\s+", ""),
     (r"\bKing Arthur(?: Baking| Flour)?\s+", ""), (r"\bBob'?s Red Mill\s+", ""), (r"\bGold Medal\s+", ""), (r"\bDomino\s+", ""),
     (r"\bBulleit\s+", ""), (r"\bCruzan\s+", ""), (r"\bCarpano Antica\s+", ""), (r"\bJack Daniel'?s\s+", ""), (r"\bMakers? Mark\s+", ""),
+    (r"\bDiamond(?:\s+Crystal)?\s+(?=kosher\s+salt)", ""),
     (r"\b[A-Z][\w'’.&-]*\s+brand\s+", ""),                                 # "Wonderbread brand hamburger bun"
 ]
 
@@ -914,11 +920,12 @@ def strip_brands(name: str) -> str:
 
 
 def chili(text: str) -> str:
-    """'chile' / 'chiles' -> 'chili' / 'chilies' (the library's spelling; the user's ruling). Keeps the capital of the first letter."""
-    text = re.sub(r"\bChiles\b(?!\s+de\b)", "Chilies", text)
-    text = re.sub(r"\bChile\b", "Chili", text)
-    text = re.sub(r"\bchiles\b(?!\s+de\b)", "chilies", text)    # (Spanish "chiles de arbol" keeps its spelling)
-    return re.sub(r"\bchile\b", "chili", text)
+    """'chile' -> 'chili'; 'chiles' / 'chilies' -> 'chilis' (the library's spelling; the user's ruling). Keeps the capital of the first letter.
+    Spanish names ("chiles de arbol") keep 'chile(s)'."""
+    text = re.sub(r"\bChiles\b(?!\s+de\b)|\bChilies\b", "Chilis", text)
+    text = re.sub(r"\bChile\b(?!\s+de\b)", "Chili", text)
+    text = re.sub(r"\bchiles\b(?!\s+de\b)|\bchilies\b", "chilis", text)
+    return re.sub(r"\bchile\b(?!\s+de\b)", "chili", text)
 
 
 def squash(text: str) -> str:
@@ -1162,7 +1169,7 @@ CATEGORY_TAGS = {
     "bread": 53, "breads": 53, "quick bread": 53, "quick breads": 53,
     "crepe": 36, "crepes": 36, "yeast bread": 53, "bread pudding": 35,
     "popsicles": 35, "popsicle": 35, "shortbread cookies": 35, "brownies": 35, "tea": 44, "sangria": 45, "muffins": [36, 46],        # muffins: Breakfast + Cakes
-    "tacos": 12, "layer cakes": [46, 35], "icebox cakes": [46, 35], "sheet cakes": [46, 35], "doughnuts": 35, "tarts": [47, 35], "brandy and cognac": 45, "cheesecakes": [46, 35], "cheesecake": [46, 35], "waffle": 36, "waffles": 36,                                                                                                     # Breads: its own tag
+    "tacos": 12, "layer cakes": [46, 35], "icebox cakes": [46, 35], "sheet cakes": [46, 35], "doughnuts": 35, "tarts": [47, 35], "brandy and cognac": 45, "hot chocolate and cocoa": [44, 35], "hot chocolate": [44, 35], "biscuit": 53, "biscuits": 53, "mezcal": 45, "cheesecakes": [46, 35], "cheesecake": [46, 35], "waffle": 36, "waffles": 36,                                                                                                     # Breads: its own tag
 }
 
 
@@ -1224,12 +1231,17 @@ def split_equipment(text: str | None) -> list[str]:
 
 EQUIPMENT_LINE_RE = re.compile(r"^(?:cheesecloth|(?:kitchen|butcher'?s|cotton) twine|aluminum foil|tin foil|parchment(?: paper)?|plastic wrap|wax paper|"
                                r"(?:(?:metal|wooden|bamboo) (?:or (?:metal|wooden|bamboo) )?)?toothpicks?|(?:wooden |bamboo |metal )?skewers?|paper towels?|butcher'?s paper|"
-                               r"(?:canning\s+jars?)|(?:(?:fist[- ]size[d]?\s+)?(?:(?:chunks?|pieces?|chips?)(?:\s+of)?\s+)?(?:an?\s+)?(?:(?:medium|large|small|light|heavy)\s+)?"
+                               r"(?:canning\s+jars?)|(?:disposable\s+)?(?:aluminum|foil)\s+(?:pans?|trays?)|(?:(?:fist[- ]size[d]?\s+)?(?:(?:chunks?|pieces?|chips?)(?:\s+of)?\s+)?(?:an?\s+)?(?:(?:medium|large|small|light|heavy)\s+)?"
                                r"(?:smoking\s+wood|(?:apple|oak|cherry|pecan|hickory|mesquite|maple)\s*wood|hickory|mesquite|(?:wood|oak|cherry|apple)\s+(?:chunks?|chips?)|(?:lump\s+)?charcoal|briquettes?|wood(?!\s*ears?)|(?:(?:cedar|wood|grilling)\s+)+planks?)))\b(?!-)", re.I)
 # ("hickory-smoked bacon" is food: the hyphen after the word rules the wood out)
 SALT_AND_PEPPER_RE = re.compile(r"^((?:kosher |sea |fine |flaky |coarse )?salt)\s+and\s+((?:freshly |fresh )?(?:ground |cracked )?(?:black |white )?pepper)$", re.I)
 # "1/4 teaspoon salt and freshly ground black pepper": two different ingredients, never one entry (the salt keeps the quantity)
 OVERRIDES_FILENAME = "external_line_overrides.csv"
+# pages with no servings whose nutrition figures are for the WHOLE recipe: url -> servings assumed (the figures are divided by it)
+WHOLE_RECIPE_NUTRITION = {
+    "https://www.seriouseats.com/french-in-a-flash-drunken-angel-hair-with-leeks-and-cream-recipe": 4,
+    "https://www.seriouseats.com/indoor-beer-braised-ribs-recipe": 4,
+}
 
 
 def line_key(raw: str) -> str:
@@ -1434,7 +1446,11 @@ def align_page(parsed: dict, family_id: int, ctx: Context, source_url: str | Non
     tag_ids = tag_ids_for(parsed["categories"], parsed["keywords"], name)
     us_ings, metric_ings, optional, subs, violated = build_ingredients(parsed, ctx, name, is_drink=bool({44, 45} & set(tag_ids)))
     servings = parsed["servings"]
-    if not servings:
+    if not servings and parsed["url"] in WHOLE_RECIPE_NUTRITION:
+        servings = WHOLE_RECIPE_NUTRITION[parsed["url"]]
+        parsed["nutrition"] = {k: (round(v / servings) if v / servings >= 10 else round(v / servings, 1)) if isinstance(v, (int, float)) else v
+                               for k, v in (parsed["nutrition"] or {}).items()}
+    elif not servings:
         servings = 4
         ctx.review["no_servings"].append(name)
     for cat in parsed["categories"] or []:
