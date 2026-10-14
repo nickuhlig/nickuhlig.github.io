@@ -95,7 +95,7 @@ for _s, _p in [("clove", "cloves"), ("head", "heads"), ("sprig", "sprigs"), ("st
                ("round", "rounds"), ("handful", "handfuls"), ("bottle", "bottles"), ("bag", "bags"), ("box", "boxes"),
                ("container", "containers"), ("cube", "cubes"), ("drop", "drops"), ("serving", "servings"),
                ("scoop", "scoops"), ("shot", "shots"), ("block", "blocks"), ("envelope", "envelopes"), ("packet", "packets"),
-               ("dozen", "dozen"), ("loaf", "loaves"), ("rack", "racks"), ("portion", "portions"), ("chunk", "chunks"), ("link", "links"), ("foot", "feet"), ("slab", "slabs")]:
+               ("dozen", "dozen"), ("loaf", "loaves"), ("rack", "racks"), ("portion", "portions"), ("chunk", "chunks"), ("link", "links"), ("foot", "feet"), ("slab", "slabs"), ("pack", "packs")]:
     COUNT_FORMS[_s] = (_s if _s != "package" else "pkg", _p)
     COUNT_FORMS[_p] = COUNT_FORMS[_s]
 ADVERB_OR_PREP_WORDS = {"sliced", "chopped", "diced", "minced", "grated", "shredded", "crushed", "peeled", "trimmed",
@@ -211,7 +211,7 @@ def convert_us_to_metric(amount: float, unit: str) -> str | None:
 AMOUNT_RE = re.compile(rf"^(?P<a>{NUM})(?:{RANGE_SEP}(?P<b>{NUM}))?(?=\s|\(|$)")
 TOKEN_RE = re.compile(r"\([^)]*\)|[^\s()]+")
 OPTIONAL_RE = re.compile(r"\boptional\b", re.I)
-SERVING_RE = re.compile(r"\b(?:for|as(?:\s+an?)?|to)\s+(?:serv(?:ing|e)|garnish(?:ing)?)\b|\b(?:for|as(?:\s+an?)?)\s+topping\b|\bto top\b(?!\s+(?:or|and|round|sirloin))|\bfor\s+dipping\b|\bas\s+desired\b", re.I)
+SERVING_RE = re.compile(r"\b(?:for|as(?:\s+an?)?|to)\s+(?:serv(?:ing|e)|garnish(?:ing)?)\b|\b(?:for|as(?:\s+an?)?)\s+topping\b|\bto top\b(?!\s+(?:or|and|round|sirloin))|\bfor\s+(?:dipping|sprinkling)\b|\bas\s+desired\b", re.I)
 # ("such as top or bottom sirloin" is not a serving suggestion)
 PLUS_MORE_RE = re.compile(r"\bplus\s+(more|extra|additional)\b", re.I)
 A_PINCH_RE = re.compile(r"^(?:(?:a|an|one)\s+)?(?:(large|small|big|generous|good|healthy|heaping|scant|tiny|little)\s+)?(pinch|dash|handful|splash|drizzle|dab)(?:\s+of)?\s+", re.I)
@@ -457,7 +457,7 @@ def parse_line(raw: str) -> Line:
 
 CONTAINER_WORDS = {"can", "cans", "pkg", "pkgs", "package", "jar", "jars", "bottle", "bottles", "bag", "bags", "box", "boxes",
                    "container", "containers", "carton", "cartons", "tub", "tubs", "bunch", "bunches", "envelope", "envelopes",
-                   "packet", "packets"}
+                   "packet", "packets", "pack", "packs"}
 
 
 def collapse_package_weight(line: Line) -> None:
@@ -864,7 +864,7 @@ def localize_text(text: str, system: str) -> str:
 
 # Words about HOW an ingredient is prepared or presented, not WHAT it is: peeled off when matching, and when a new
 # master entry has to be made (so "stemmed and chopped lacinato kale" is entered as "lacinato kale").
-PREP_DESCRIPTORS = ("skinned and cubed", "skinned", "well packed", "peeled and deveined", "deveined", "jumbo", "extra large", "homemade or store bought", "store bought or homemade", "homemade", "store bought", "melted", "stemmed and chopped",
+PREP_DESCRIPTORS = ("single-serving", "mildly flavored", "slab", "skinned and cubed", "skinned", "well packed", "peeled and deveined", "deveined", "jumbo", "extra large", "homemade or store bought", "store bought or homemade", "homemade", "store bought", "melted", "stemmed and chopped",
                     "very thinly sliced", "thinly sliced", "roughly chopped", "finely chopped", "finely minced", "finely diced",
                     "chopped", "grated", "shredded", "minced", "diced", "sliced", "crumbled", "pitted", "drained", "peeled",
                     "freshly picked", "fresh picked", "picked", "freshly squeezed", "freshly cracked", "freshly ground",
@@ -1162,7 +1162,7 @@ CATEGORY_TAGS = {
     "bread": 53, "breads": 53, "quick bread": 53, "quick breads": 53,
     "crepe": 36, "crepes": 36, "yeast bread": 53, "bread pudding": 35,
     "popsicles": 35, "popsicle": 35, "shortbread cookies": 35, "brownies": 35, "tea": 44, "sangria": 45, "muffins": [36, 46],        # muffins: Breakfast + Cakes
-    "tacos": 12, "layer cakes": [46, 35], "icebox cakes": [46, 35], "sheet cakes": [46, 35], "doughnuts": 35, "tarts": [47, 35], "brandy and cognac": 45,                                                                                                      # Breads: its own tag
+    "tacos": 12, "layer cakes": [46, 35], "icebox cakes": [46, 35], "sheet cakes": [46, 35], "doughnuts": 35, "tarts": [47, 35], "brandy and cognac": 45, "cheesecakes": [46, 35], "cheesecake": [46, 35], "waffle": 36, "waffles": 36,                                                                                                     # Breads: its own tag
 }
 
 
