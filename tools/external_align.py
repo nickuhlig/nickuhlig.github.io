@@ -277,6 +277,19 @@ def normalize_raw(raw: str) -> str:
     s = re.sub(r"\s*[—–]\s*(?:for dry hopping[^,]*|\d+\s+minutes?)$", "", s, flags=re.I)                    # "Centennial Hops—60 minutes"
     s = re.sub(r"\b(\w+)-\s+or\s+\w+-(\w+)\b", r"\1-\2", s)                                                 # "oil- or salt-packed" -> "oil-packed"
     s = re.sub(r"\b(torn|cubed|diced|crumbled)\s+pieces\s+of\s+", "", s, flags=re.I)                         # "6 cups torn pieces of babka"
+    s = re.sub(r"\b(tablespoons?|teaspoons?|cups?|ounces?|pounds?|grams?|pieces?|slices?|strips?|\d|\))\s+(bone-in|boneless|skin-on|skin on|skinless|creamy|crunchy|smooth|full-fat|low-fat|nonfat|reduced-fat|plump|pure|thick-cut|thin-cut|thick cut|unsalted|salted|unsweetened|sweetened|plain|ripe|firm|mild|spicy|lean|crusty|fresh|dried|frozen|canned|good-quality|high-quality)\s*,\s+(?=[a-z])", r"\1 \2 ", s, flags=re.I)   # "3 tablespoons creamy, unsweetened peanut butter"
+    s = re.sub(r"\s*\*+\s*$", "", s)                                                                                          # "falernum*"
+    s = re.sub(r"^for\s+the\s+[^:]{1,40}:\s*", "", s, flags=re.I)                                                          # "For the Glaze:One 10-ounce can ..."
+    s = re.sub(r"^(\d+(?:\.\d+)?)(ml|kg|g|oz|lbs?|teaspoons?|tablespoons?|cups?)\b", r"\1 \2", s, flags=re.I)              # "750ml bottle", "28gDutch cocoa", "2teaspoons"
+    s = re.sub(r"(\d)[–-]fluid\s+ounces?\b", r"\1 fl oz", s, flags=re.I)                                                  # "8–fluid ounce bottles"
+    s = re.sub(r"^\d+[”\"]\s+by\s+\d+[”\"]\s+", "", s)                                                                        # '1” by 3” strips orange peel'
+    s = re.sub(r"^(?:shy|up\s+to|at\s+least|a\s+total\s+of)\s+", "", s, flags=re.I)                                         # "Shy 3/4 teaspoon", "Up to 2 tablespoons"
+    s = re.sub(r"^\d+(?:-\d+)?[- ]proof\s+", "", s, flags=re.I)                                                              # "80-proof vodka"
+    s = re.sub(r"^(?:[5-9]\d|100)(?:-\d+)?\s?%\s+", "", s)                                                                  # "100% cranberry juice", "68-71% dark chocolate"
+    s = re.sub(r"^(?:\d{2}/\d{2}|\d:\d|U-?\d+)\s+(?=[a-z])", "", s, flags=re.I)                                             # "80/20 ground beef", "2:1 simple syrup", "U-10 scallops"
+    s = re.sub(r"\s*:\s*(?:for\s+table\s+salt|use\s+half\s+as\s+much)\b.*$", "", s, flags=re.I)                              # "kosher salt: for table salt use half as much"
+    s = re.sub(r":\s+[^:]*\b(?:good\s+choices?|a\s+good\s+choice)\s*$", "", s, flags=re.I)                                   # "Demerara rum: Lemon Hart is a good choice"
+    s = re.sub(r"\s+-\s+\d+\s+minutes?$", "", s, flags=re.I)                                                                  # "Saaz hops - 90 minutes"
     s = re.sub(r"^half\s+(?:an?\s+)?(?=(?:pound|cup|ounce|teaspoon|tablespoon|quart|pint|gallon)s?\b)", "1/2 ", s, flags=re.I)   # "Half pound dry elbow macaroni"
     s = re.sub(r"^quarter\s+of\s+1\s+", "1/4 ", s, flags=re.I)                                                            # "Quarter of 1 Spanish onion"
     s = re.sub(r"\b(?:nickel|thumb|quarter|golf[- ]ball|walnut|egg|fist)-sized\s+", "", s, flags=re.I)                       # "10 nickel-sized slices ginger"
@@ -529,9 +542,9 @@ class Substitution:
 FRUITS = r"limes?|lemons?|oranges?|grapefruits?"
 # "juice from about 2 limes", "freshly squeezed juice from 1 whole lemon", "zest of 1 orange", "zest and juice from 1 lime"
 FRUIT_SOURCE_RE = re.compile(
-    rf"^(?:the\s+)?(?:(?:fresh|freshly[- ]squeezed|squeezed|grated|finely grated|freshly grated)\s+)*(?P<kind>juice|zest|peels?|rinds?)(?:\s+and\s+(?:juice|zest))?\s+(?:from|of)\s+"
-    rf"(?:about\s+|approximately\s+|roughly\s+)?(?:(?P<n>\d+(?:\s+\d+/\d+)?|\d+/\d+|{NUMBER_WORD_RE}|half(?:\s+an?)?|an?)\s+)?"
-    rf"(?:(?:whole|large|medium|small|big)\s+)?(?P<fruit>{FRUITS})\b", re.I)
+    rf"^(?:the\s+)?(?:(?:fresh|freshly[- ]squeezed|squeezed|grated|finely grated|freshly grated)\s+)*(?P<kind>juice|zest|peels?|rinds?)(?:\s+and\s+(?:juice|zest))?\s+(?:(?:from|of)\s+)?"
+    rf"(?:about\s+|approximately\s+|roughly\s+)?(?:(?P<n>\d+(?:\s+\d+/\d+)?|\d+/\d+|{NUMBER_WORD_RE}|half(?:\s+an?)?|an?)\s+(?:to\s+\d+\s+)?(?:an?\s+)?)?"
+    rf"(?:(?:whole|large|medium|small|big|navel|Meyer|fruit|ripe)\s+)*(?P<fruit>{FRUITS})\b", re.I)
 # chipotles that come from a can of chipotles in adobo, however the author words it
 CHIPOTLE_CANNED_RE = re.compile(r"\bchipotles?\b(?:\s+(?:chil(?:i|e)s?|peppers?))?.*?\b(?:in\s+adobo|adobo|from\s+\d+\s+cans?)\b", re.I)
 CHIPOTLE_DRIED_RE = re.compile(r"\bdried\b.*\bchipotles?\b|\bchipotles?\b.*\bdried\b", re.I)
@@ -1093,7 +1106,7 @@ class Resolver:
             complete = pw[-1].lower() in HEAD_NOUNS or pw[-1].lower().endswith(("milk", "cream", "butter", "cheese", "yogurt"))   # "sour cream", "buttermilk": already a whole ingredient
             if complete:
                 out.append(p)
-            elif len(pw) == 1 and len(last) >= 2 and not (last[0][:1].isupper() and last[-1][:1].isupper()):   # not "curacao or Grand Marnier" -> "curacao Marnier"
+            elif len([w for w in pw if w.lower() not in ADVERB_OR_PREP_WORDS]) == 1 and len(last) >= 2 and not (last[0][:1].isupper() and last[-1][:1].isupper()):   # not "curacao or Grand Marnier" -> "curacao Marnier"
                 out.append(f"{p} {' '.join(last[1:])}")                 # "vegetable or canola oil" -> "vegetable oil"
             elif len([w for w in pw if not (w.lower() in ADVERB_OR_PREP_WORDS or w.lower().endswith("ly"))]) <= 2 and last and last[-1] in GENERIC_HEADS and pw[-1] != last[-1]:
                 out.append(f"{p} {last[-1]}")                           # "peanut, rice bran, or neutral oil" -> "rice bran oil"
@@ -1234,7 +1247,7 @@ EQUIPMENT_LINE_RE = re.compile(r"^(?:cheesecloth|(?:kitchen|butcher'?s|cotton) t
                                r"(?:canning\s+jars?)|(?:disposable\s+)?(?:aluminum|foil)\s+(?:pans?|trays?)|(?:(?:fist[- ]size[d]?\s+)?(?:(?:chunks?|pieces?|chips?)(?:\s+of)?\s+)?(?:an?\s+)?(?:(?:medium|large|small|light|heavy)\s+)?"
                                r"(?:smoking\s+wood|(?:apple|oak|cherry|pecan|hickory|mesquite|maple)\s*wood|hickory|mesquite|(?:wood|oak|cherry|apple)\s+(?:chunks?|chips?)|(?:lump\s+)?charcoal|briquettes?|wood(?!\s*ears?)|(?:(?:cedar|wood|grilling)\s+)+planks?)))\b(?!-)", re.I)
 # ("hickory-smoked bacon" is food: the hyphen after the word rules the wood out)
-SALT_AND_PEPPER_RE = re.compile(r"^((?:kosher |sea |fine |flaky |coarse )?salt)\s+and\s+((?:freshly |fresh )?(?:ground |cracked )?(?:black |white )?pepper)$", re.I)
+SALT_AND_PEPPER_RE = re.compile(r"^((?:kosher |sea |fine |flaky |coarse )?salt)\s+and\s+((?:freshly |fresh )?(?:ground |cracked )?(?:black |white )?pepper)(?:,?\s+(?:to taste|as needed))?$", re.I)
 # "1/4 teaspoon salt and freshly ground black pepper": two different ingredients, never one entry (the salt keeps the quantity)
 OVERRIDES_FILENAME = "external_line_overrides.csv"
 # pages with no servings whose nutrition figures are for the WHOLE recipe: url -> servings assumed (the figures are divided by it)
