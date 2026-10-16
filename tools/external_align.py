@@ -277,8 +277,11 @@ def normalize_raw(raw: str) -> str:
     s = re.sub(r"\s*[—–]\s*(?:for dry hopping[^,]*|\d+\s+minutes?)$", "", s, flags=re.I)                    # "Centennial Hops—60 minutes"
     s = re.sub(r"\b(\w+)-\s+or\s+\w+-(\w+)\b", r"\1-\2", s)                                                 # "oil- or salt-packed" -> "oil-packed"
     s = re.sub(r"\b(torn|cubed|diced|crumbled)\s+pieces\s+of\s+", "", s, flags=re.I)                         # "6 cups torn pieces of babka"
-    s = re.sub(r"\b(tablespoons?|teaspoons?|cups?|ounces?|pounds?|grams?|pieces?|slices?|strips?|\d|\))\s+(bone-in|boneless|skin-on|skin on|skinless|creamy|crunchy|smooth|full-fat|low-fat|nonfat|reduced-fat|plump|pure|thick-cut|thin-cut|thick cut|unsalted|salted|unsweetened|sweetened|plain|ripe|firm|mild|spicy|lean|crusty|fresh|dried|frozen|canned|good-quality|high-quality)\s*,\s+(?=[a-z])", r"\1 \2 ", s, flags=re.I)   # "3 tablespoons creamy, unsweetened peanut butter"
+    s = re.sub(r"\b(tablespoons?|teaspoons?|cups?|ounces?|pounds?|grams?|pieces?|slices?|strips?|\d|\))\s+(bone-in|boneless|skin-on|skin on|skinless|creamy|crunchy|smooth|full-fat|low-fat|nonfat|reduced-fat|plump|pure|thick-cut|thin-cut|thick cut|unsalted|salted|unsweetened|sweetened|plain|ripe|firm|mild|spicy|lean|crusty|fresh|dried|frozen|canned|good-quality|high-quality|mixed|assorted)\s*,\s+(?=[a-z])", r"\1 \2 ", s, flags=re.I)   # "3 tablespoons creamy, unsweetened peanut butter"
     s = re.sub(r"\s*\*+\s*$", "", s)                                                                                          # "falernum*"
+    s = re.sub(r"\s*\([^()]*\([^()]*\)[^()]*\b(?:bags?|packages?|cans?|jars?|containers?|boxes?)\)", "", s, flags=re.I)        # "(two 5.2-ounce (150g) bags)", "(2 (8-ounce) packages)"
+    s = re.sub(r"^a\s+half\s+dozen\s+", "6 ", s, flags=re.I)                                                              # "A half dozen dried red whole chiles"
+    s = re.sub(r"^quick\s+and\s+easy\s+", "", s, flags=re.I)                                                              # "Quick and easy Italian-American red sauce"
     s = re.sub(r"^for\s+the\s+[^:]{1,40}:\s*", "", s, flags=re.I)                                                          # "For the Glaze:One 10-ounce can ..."
     s = re.sub(r"^(\d+(?:\.\d+)?)(ml|kg|g|oz|lbs?|teaspoons?|tablespoons?|cups?)\b", r"\1 \2", s, flags=re.I)              # "750ml bottle", "28gDutch cocoa", "2teaspoons"
     s = re.sub(r"(\d)[–-]fluid\s+ounces?\b", r"\1 fl oz", s, flags=re.I)                                                  # "8–fluid ounce bottles"
@@ -290,6 +293,8 @@ def normalize_raw(raw: str) -> str:
     s = re.sub(r"\s*:\s*(?:for\s+table\s+salt|use\s+half\s+as\s+much)\b.*$", "", s, flags=re.I)                              # "kosher salt: for table salt use half as much"
     s = re.sub(r":\s+[^:]*\b(?:good\s+choices?|a\s+good\s+choice)\s*$", "", s, flags=re.I)                                   # "Demerara rum: Lemon Hart is a good choice"
     s = re.sub(r"\s+-\s+\d+\s+minutes?$", "", s, flags=re.I)                                                                  # "Saaz hops - 90 minutes"
+    s = re.sub(r"^half\s+(?:of\s+)?an?\s+(?=[a-z])", "1/2 ", s, flags=re.I)                                                 # "Half a large cucumber", "Half an onion"
+    s = re.sub(r"\b((?:to\s+)?\d+\s+(?:(?:fresh|large|small|medium|ripe)\s+)?(?:tart|crisp|juicy|tender|young|sweet|sour)),\s+(?=[a-z])", r"\1 ", s, flags=re.I)   # "3 to 4 fresh tart, crisp apples"
     s = re.sub(r"^half\s+(?:an?\s+)?(?=(?:pound|cup|ounce|teaspoon|tablespoon|quart|pint|gallon)s?\b)", "1/2 ", s, flags=re.I)   # "Half pound dry elbow macaroni"
     s = re.sub(r"^quarter\s+of\s+1\s+", "1/4 ", s, flags=re.I)                                                            # "Quarter of 1 Spanish onion"
     s = re.sub(r"\b(?:nickel|thumb|quarter|golf[- ]ball|walnut|egg|fist)-sized\s+", "", s, flags=re.I)                       # "10 nickel-sized slices ginger"
@@ -451,6 +456,7 @@ def parse_line(raw: str) -> Line:
     # clauses that belong to prep rather than the name
     for pattern in (r"\s+(?:and|with)\s+(?:their|its)\s+(?:juices?|liquid)\b.*$",    # "whole peeled tomatoes and their juices"
                     r"\s+from\s+(?:about\s+)?\d.*$",                                 # "chipotle chile from 1 can of ..."
+                    r"\s+per\s+(?:pound|ounce|cup|quart|serving|portion)s?\s+of\s+.*$",                  # "Frank's RedHot per pound of chicken wings"
                     r"\s+per\s+\w+(?:\s+\w+)?$",                                     # "mole poblano per tortilla"
                     r"\s+plus\s+(?:more|extra|additional)\b.*$",                     # "kosher salt plus more for seasoning"
                     r"\s+for\s+(?:deep[- ])?(?:frying|coating|greasing|brushing|dusting|drizzling|rubbing|seasoning)\b.*$",
@@ -600,7 +606,7 @@ def apply_renames(line: Line) -> str | None:
     if CHIPOTLE_DRIED_RE.search(name):
         line.name = DRIED_CHIPOTLE_NAME
         return line.name
-    batch = re.match(r"^(?:recipe|batch)\s+(.+)$", name, re.I)    # "1/2 recipe vanilla pastry cream": the generic ingredient, no measurable amount
+    batch = re.match(r"^(?:recipe|batch)\s+(?:for\s+)?(.+)$", name, re.I)    # "1/2 recipe vanilla pastry cream": the generic ingredient, no measurable amount
     if batch:
         line.name, line.amount, line.amount_hi, line.unit, line.parens, line.tail = batch.group(1).lower(), None, None, None, [], []
         return line.name
@@ -894,10 +900,12 @@ DESCRIPTORS = PREP_DESCRIPTORS + ("bone in skin on", "skin on bone in", "skin-on
                                   "low sodium", "boneless skinless", "boneless", "skinless")
 MODIFIERS = ("bone in skin on", "boneless skinless", "unsalted", "salted", "boneless", "skinless", "bone in", "ground", "dried", "frozen",
              "smoked", "light", "dark", "reduced sodium", "low sodium")
-GENERIC_HEADS = {"oil", "cheese", "sauce", "vinegar", "sugar", "flour", "salt", "milk", "cream", "butter", "broth", "paste", "powder",
+GENERIC_HEADS = {"lettuce", "oil", "cheese", "sauce", "vinegar", "sugar", "flour", "salt", "milk", "cream", "butter", "broth", "paste", "powder",
                  "seeds", "beans", "rice", "noodles", "wine", "juice", "syrup", "mustard", "yogurt", "stock", "bread", "pasta", "rolls", "buns", "crackers",
                  "chorizo", "sausage", "sausages", "chiles", "chilies", "chillies", "peppers", "olives", "oregano", "chocolate", "clams", "potatoes", "peas"}
-HEAD_NOUNS = GENERIC_HEADS | {"drippings", "fat", "lard", "shortening", "margarine", "creamer", "spray", "mayonnaise", "mayo", "ketchup", "honey",
+ALT_ADJECTIVES = {"green", "red", "white", "black", "yellow", "orange", "brown", "purple", "pink", "golden", "sweet", "hot", "mild", "spicy", "dark", "light", "regular", "plain", "smoked",
+                  "large", "small", "baby", "wild", "fresh", "dried", "frozen", "ripe", "firm"}
+HEAD_NOUNS = GENERIC_HEADS | {"ghee", "schmaltz", "tallow", "drippings", "fat", "lard", "shortening", "margarine", "creamer", "spray", "mayonnaise", "mayo", "ketchup", "honey",
                               "buttermilk", "water", "beer", "rum", "whiskey", "bourbon", "gin", "vodka", "tequila", "brandy", "molasses", "jam", "jelly"}
 BROTH_RE = re.compile(r"\b(broth|stock|bouillon)\b")
 FRUIT_PRODUCT_RE = re.compile(r"^(lime|lemon|orange|grapefruit)s? (?:juice|zest|peel)$")
@@ -1106,7 +1114,7 @@ class Resolver:
             complete = pw[-1].lower() in HEAD_NOUNS or pw[-1].lower().endswith(("milk", "cream", "butter", "cheese", "yogurt"))   # "sour cream", "buttermilk": already a whole ingredient
             if complete:
                 out.append(p)
-            elif len([w for w in pw if w.lower() not in ADVERB_OR_PREP_WORDS]) == 1 and len(last) >= 2 and not (last[0][:1].isupper() and last[-1][:1].isupper()):   # not "curacao or Grand Marnier" -> "curacao Marnier"
+            elif (len(pw) == 1 or (all(w.lower() in ADVERB_OR_PREP_WORDS for w in pw[:-1]) and pw[-1].lower() in ALT_ADJECTIVES)) and len(last) >= 2 and not (last[0][:1].isupper() and last[-1][:1].isupper()):   # not "curacao or Grand Marnier" -> "curacao Marnier"
                 out.append(f"{p} {' '.join(last[1:])}")                 # "vegetable or canola oil" -> "vegetable oil"
             elif len([w for w in pw if not (w.lower() in ADVERB_OR_PREP_WORDS or w.lower().endswith("ly"))]) <= 2 and last and last[-1] in GENERIC_HEADS and pw[-1] != last[-1]:
                 out.append(f"{p} {last[-1]}")                           # "peanut, rice bran, or neutral oil" -> "rice bran oil"
