@@ -4,24 +4,23 @@ layout: null
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Nick Uhlig</title>
-  <link href="http://nickuhlig.github.io/atom.xml" rel="self"/>
-  <link href="http://nickuhlig.github.io/"/>
+  <link href="{{ site.url }}/atom.xml" rel="self"/>
+  <link href="{{ site.url }}/"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>http://rsms.me/</id>
+  <id>{{ site.url }}/</id>
   <author>
-    <name>Rasmus Andersson</name>
-    <email>rasmus@notion.se</email>
+    <name>Nick Uhlig</name>
   </author>
   {% for post in site.posts limit:10 %}
   <entry>
     <title>{{ post.title }}</title>
-    <link href="http://nickuhlig.github.io{{ post.url }}"/>
+    <link href="{{ site.url }}{{ post.url }}"/>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
-    <id>http://nickuhlig.github.io{{ post.id }}</id>
+    <id>{{ site.url }}{{ post.id }}</id>
     <content type="html">{{ post.content | xml_escape }}</content>
     <author>
       <name>Nick Uhlig</name>
-      <uri>http://nickuhlig.github.io/about/</uri>
+      <uri>{{ site.url }}/about/</uri>
     </author>
   </entry>
   {% endfor %}

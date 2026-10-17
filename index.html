@@ -133,7 +133,7 @@ info {
           {% else %}
           {{ post.excerpt | strip_html }}
           {% endif %}
-          <info datetime="{{ page.date | date: "%Y-%m-%d" }}">
+          <info datetime="{{ post.date | date: "%Y-%m-%d" }}">
             {{ post.date | date: "%b %Y" }}
           </info>
           </p>

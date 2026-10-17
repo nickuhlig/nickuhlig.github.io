@@ -23,11 +23,11 @@
     <meta name="twitter:title" content="{{ page.title }}">
       {% if page.description %}
       <meta name="description" content="{{ page.description }}">
-      <meta name="og:description" content="{{ page.description }}">
+      <meta property="og:description" content="{{ page.description }}">
       <meta name="twitter:description" content="{{ page.description }}">
-      {% else if content %}
+      {% elsif content %}
       <meta name="description" content="{{ content | strip_html | truncatewords: 25 }}">
-      <meta name="og:description" content="{{ content | strip_html | truncatewords: 25 }}">
+      <meta property="og:description" content="{{ content | strip_html | truncatewords: 25 }}">
       <meta name="twitter:description" content="{{ content | strip_html | truncatewords: 25 }}">
       {% endif %}
     {% else %}
@@ -36,14 +36,12 @@
     {% if page.og_image_url %}
     <meta property="og:image" content="{{ page.og_image_url }}">
     <meta name="twitter:image" content="{{ page.og_image_url }}">
-    {% else %}
-    {% if page.photo_url %}
+    {% elsif page.photo_url %}
     <meta property="og:image" content="{{ page.photo_url }}">
-    <meta name="twitter:image" content="{{ page.og_image_url }}">
+    <meta name="twitter:image" content="{{ page.photo_url }}">
     {% endif %}
-    {% endif %}
-    <meta property="og:url" content="https://nickuhlig.github.io{{ page.url | remove_first:'index.html' }}">
-    <meta property="og:site_name" content="nickuhlig.github.io">
+    <meta property="og:url" content="{{ site.url }}{{ page.url | remove_first:'index.html' }}">
+    <meta property="og:site_name" content="Nick Uhlig">
     <meta property="og:type" content="article">
     <meta property="og:locale" content="en_CA" />
     {% if page.date %}
@@ -69,12 +67,12 @@
     	<button class="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="site-nav">
     		<span></span><span></span><span></span>
   		</button>  
-		<ul class="navigation" id="site nav">
+		<ul class="navigation" id="site-nav">
         	<!-- <li><a href="//perjuhlig.tumblr.com/" title="My wedding website">Another thing I did</a></li> -->
-        	<li><a href="/about/"{% if page.url contains "/about/" %}class="active"{% endif %} title="About me">about</a></li>
-			<li><a href="/projects/"{% if page.url contains "/projects/" %}class="active"{% endif %} title="Projects I am or was involved in">projects</a></li>
-    		<li><a href="/archive/"{% if page.url contains "/archive/" %}class="active"{% endif %} title="Tag cloud">archive</a></li>
-			<li><a href="/cv/"{% if page.url contains "/cv/" %}class="active"{% endif %} title="My curriculum vitae">cv</a></li>
+        	<li><a href="/about/"{% if page.url contains "/about/" %} class="active"{% endif %} title="About me">about</a></li>
+			<li><a href="/projects/"{% if page.url contains "/projects/" %} class="active"{% endif %} title="Projects I am or was involved in">projects</a></li>
+    		<li><a href="/archive/"{% if page.url contains "/archive/" %} class="active"{% endif %} title="Tag cloud">archive</a></li>
+			<li><a href="/cv/"{% if page.url contains "/cv/" %} class="active"{% endif %} title="My curriculum vitae">cv</a></li>
 			<li><a href="mailto:nickuhlig@gmail.com">contact</a></li>
       	</ul>
     </header>
@@ -99,6 +97,5 @@
     		this.setAttribute('aria-expanded', open);
   		});
 	</script>
-    {% include analytics.html %}
 	  </body>
 </html>

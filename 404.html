@@ -5,13 +5,10 @@ title: You dun fuq'd up.
 
 <h2>404</h2>
 <p>Seems you're looking for something that doesn't exist. While I'm a fan of the metaphysical and Platonism, I recommend that you adjust your expectations, and try searching this site:</p>
-<form action="http://www.google.com/cse" id="cse-search-box">
-
- <div>
-   <input type="hidden" name="cx" value="006553118601910168903:-x3qflztwei" />
-   <input type="hidden" name="ie" value="UTF-8" />
-   <input type="text" id="search_box" name="q" size="31" />
-   <input type="submit" name="sa" value="Search" />
-   </div>
- </form>
- </div>
+<form action="https://www.google.com/search">
+  <div>
+    <input type="hidden" name="as_sitesearch" value="{{ site.url | remove_first:'https://' }}" />
+    <input type="text" id="search_box" name="q" size="31" />
+    <input type="submit" value="Search" />
+  </div>
+</form>
