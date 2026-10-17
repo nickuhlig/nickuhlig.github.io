@@ -7,8 +7,6 @@ div.posts div.end {
   padding-top:40px;
 }
 
-/*h2 {  font-family:'ITCAvantGardePro-Bold';  margin:0;} */
-
 .content {
   display: flex;
 }
@@ -20,33 +18,22 @@ a[href].post-excerpt {
   text-shadow: none;
   padding-bottom:1px;
   margin-bottom:15px;
-  /*border-bottom: 8px solid #ddd;*/
 }
-  
-a[href].post-excerpt h2 {
-   -o-transition:.5s;
-   -ms-transition:.5s;
-   -moz-transition:.5s;
-   -webkit-transition:.5s;
-  /* ...and now for the proper property */
-    transition:.5s;
-}
-  
-a[href].post-excerpt, a[href].post-excerpt a[href] {
+a[href].post-excerpt a[href] {
   background: none;
   text-shadow: none;
 }
+a[href].post-excerpt h2 {
+  transition:.5s;
+}
   a[href].post-excerpt:hover {
-    /*color: white; background-color:#444;*/
-    color:black; /*background-color:#BCEBC8;*/
-    /*text-decoration:none;*/
-    /*padding:0  20px 1px  20px;
-    margin: 0 -20px  15px -20px;*/
+    color:black;
   }
     a[href].post-excerpt:hover h2 {
       color: #c0c0c0;
     }
 
+  /* posts with a photo_url get a full-width image tile */
   a[href].post-excerpt.photo {
     height:300px;
     position:relative;
@@ -54,21 +41,16 @@ a[href].post-excerpt, a[href].post-excerpt a[href] {
     margin-bottom:32px;
   }
     a[href].post-excerpt.photo h2 {
-      font-family: 'Roboto Condensed', helvetica, sans-serif;
+      font-family: helvetica, sans-serif;
       padding:10px 40px;
       font-size: 200%;
       font-weight: 400;
       color: white;
-      /*background:rgba(255,200,0,0.1);*/
-      -webkit-text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
-      -moz-text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
       text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
       position: absolute;
       left:0; right:0; bottom:0;
       z-index:2;
-      /*font-family:inherit;*/
       text-transform: none;
-      /*font-weight:400;*/
       line-height:1.1;
       padding-bottom:1em;
     }
@@ -83,13 +65,7 @@ a[href].post-excerpt, a[href].post-excerpt a[href] {
       left:0; top:0; right:0; bottom:0;
       z-index:1;
       background-position: center center;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
       background-size: cover;
-    }
-    a[href].post-excerpt.photo:hover div.c {
-      opacity: 1;
     }
     a[href].post-excerpt.photo:hover div.c div.image {
       opacity:0.8;
@@ -102,9 +78,6 @@ a[href].post-excerpt:hover .body {
 .body {
   color: #555;
 }
-  h2.text {
-    font-weight:400;
-  }
   .body > p:first-child {
     margin-top:8px;
   }

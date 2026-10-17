@@ -1,44 +1,14 @@
-@viewport {
-  width: device-width;
-}
-
-
-@font-face {
-  font-family: 'ITCAvantGardePro-Bold';
-  src: url('ITCAvantGardePro-Bold.woff') format('woff'), url('ITCAvantGardePro-Bold.ttf') format('truetype'), url('ITCAvantGardePro-Bold.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'ReplicaStd-Light';
-  src: url('ReplicaStd-Light.woff') format('woff'), url('ReplicaStd-Light.ttf') format('truetype'), url('ReplicaStd-Light.otf') format('opentype'), url('ReplicaStd-Light.eot') format('eot?');
-}
-
-@font-face {
-  font-family: 'ReplicaStd-Regular';
-  src: url('ReplicaStd-Regular.woff') format('woff'), url('ReplicaStd-Regular.ttf') format('truetype'), url('ReplicaStd-Regular.otf') format('opentype'), url('ReplicaStd-Regular.eot') format('eot?');
- }
-
 @font-face {
   font-family: 'DecimaMonoPro';
   src: url('DecimaMonoPro.otf') format('opentype');
- }
-
-@font-face {
-  font-family: 'DecimaMonoPro-Lt';
-  src: url('DecimaMonoPro-Lt.otf') format('opentype');
- }
-
-@font-face {
-  font-family: 'DecimaMonoPro-Bold';
-  src: url('DecimaMonoPro-Bold.otf') format('opentype');
- }
+}
 
 @font-face {
   font-family: 'Radikal-Black-Italic';
   src: url('Nootype - Radikal Black Italic.otf') format('opentype');
- }
+}
 
-* { margin:0; padding:0; font-family:inherit;}
+* { margin:0; padding:0; font-family:inherit; }
 body {
   background: #fff;
   color: #222;
@@ -50,20 +20,14 @@ body {
   max-width:720px;
   margin: 0 auto;
   -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  font-smoothing: subpixel-antialiased; -webkit-font-smoothing: subpixel-antialiased;
-  -webkit-overflow-scrolling: touch;
+  -webkit-font-smoothing: subpixel-antialiased;
   scroll-behavior: smooth;
 
-  text-rendering: optimizeLegibility;
   text-rendering: geometricPrecision;
-  -moz-font-feature-settings:"kern" 1, "liga" 1; 
-  -ms-font-feature-settings:"kern" 1, "liga" 1; 
-  -o-font-feature-settings:"kern" 1, "liga" 1; 
-  -webkit-font-feature-settings:"kern" 1, "liga" 1; 
   font-feature-settings:"kern" 1, "liga" 1;
 }
 
+/* form bits used by the recipe database page */
 .hint {
   color: #666;
   font-size:14px;
@@ -83,21 +47,7 @@ label.opt {
   margin-right: 1.2em;      /* space between one option and the next */
 }
 
-body h1,h2,h3,h4,h5,h6 {
-  font-family: 'Radikal-Black-Italic';
-  font-weight:400;
-  color: #040404;
-  margin: 1.618em 0 0.7em 0;
-  -webkit-font-smoothing: antialiased;
-}
-
-body h1 { font-size: 30px; }
-body h2 { font-size: 26px; color: #242424}
-body h3 { font-size: 20px; color: #444}
-body h4, h5, h6 { font-size: 18px; margin:1em 0 -0.2em 0; color: #646464}
-
 div.breaker { clear:both; }
-.template { display:none; }
 
 p, ul, ol, pre, blockquote, hr, object { margin: 1em 0; }
 pre, code, tt {
@@ -114,18 +64,19 @@ h1,h2,h3,h4,h5,h6 {
   font-weight:400;
   color: #040404;
   margin: 1.618em 0 0.7em 0;
-  /*-webkit-font-smoothing: antialiased;*/
+  -webkit-font-smoothing: antialiased;
 }
 h1 { font-size: 30px; }
-h2 { font-size: 26px; }
-h3 { font-size: 20px; color: #282828}
-h4, h5, h6 { font-size: 18px; margin:1em 0 -0.2em 0; color: #686868}
+h2 { font-size: 26px; color: #242424; }
+h3 { font-size: 20px; color: #444; }
+h4, h5, h6 { font-size: 18px; margin:1em 0 -0.2em 0; }
+h4 { color: #646464; }
+h5, h6 { color: #686868; }
 
 /* anchors */
 a[href] {
-color: inherit;
+  color: inherit;
   text-decoration: none;
-  /*display: inline-block;*/
   padding-bottom:0.025em;
   background-image: linear-gradient(to bottom, rgba(0,0,0,.5) 50%, rgba(0,0,0,0) 50%);
   background-repeat: repeat-x;
@@ -136,39 +87,14 @@ color: inherit;
     1px -1px 0 #fff,
     -1px 1px 0 #fff,
      1px 1px 0 #fff;
-  /*here ends rasmus' code, the following is the fade to a lighter colour*/
-   -o-transition:.5s;
-   -ms-transition:.5s;
-   -moz-transition:.5s;
-   -webkit-transition:.5s;
-  /* ...and now for the proper property */
-  transition:.5s;
-}
-
-a[href^="#"] {
-  color: inherit;
-  text-decoration: none;
-  /*display: inline-block;*/
-  padding-bottom:0.025em;
-   -o-transition:.5s;
-   -ms-transition:.5s;
-   -moz-transition:.5s;
-   -webkit-transition:.5s;
-  /* ...and now for the proper property */
-  transition:.5s;
+  transition:.5s; /* fade to a lighter colour on hover */
 }
 
 a[href]:hover {
   color: #c0c0c0;
 }
 
-a[href^="#"]:hover {
-  color: #c0c0c0;
-}
-
-
-a.img { border:none; background:transparent !important; }
-
+/* logo: the "glitch" version sits under the normal one and shows on hover */
 #cf {
   position:relative;
   height:36px;
@@ -181,9 +107,6 @@ a.img { border:none; background:transparent !important; }
   position:absolute;
   max-height:36px;
   left:-5px;
-  -webkit-transition: opacity 0.25s ease-in-out;
-  -moz-transition: opacity 0.25s ease-in-out;
-  -o-transition: opacity 0.25s ease-in-out;
   transition: opacity 0.25s ease-in-out;
 }
 
@@ -192,21 +115,15 @@ a.img { border:none; background:transparent !important; }
   cursor: pointer;
 }
 
-/* Special Rules for Mobile */
+/* short logo on phones, full logo everywhere else */
 @media only screen and (max-width: 500px) {
-.mobile {display:inherit}
-.desktop {display:none}
-#cf {max-width:64px}
+  .mobile { display:inherit; }
+  .desktop { display:none; }
+  #cf { max-width:64px; }
 }
 
-/* Special Rules for Tablets */
 @media only screen and (min-width: 501px) {
-.mobile {display:none}
-}
-
-/* Special Rules for Desktops */
-@media only screen and (min-width: 1024px) {
-.mobile {display:none}
+  .mobile { display:none; }
 }
 
 /* anchors: headings */
@@ -221,7 +138,6 @@ header, div.content, footer {
 
 /* header */
 header {
-  /*background: salmon;*/
   display: flex;
   justify-content: space-between;
   height: 100px;
@@ -230,46 +146,18 @@ header {
 header * {
   cursor: default;
 }
-  header h1 {
-    font-family: 'ITCAvantGardePro-Bold';
-    font-size:30px
-    flex: 0 0 auto;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
   header a[href] {
     color: inherit;
     background: none;
     text-shadow: none;
-   -o-transition:.5s;
-   -ms-transition:.5s;
-   -moz-transition:.5s;
-   -webkit-transition:.5s;
-  /* ...and now for the proper property */
-  transition:.5s;
+    transition:.5s;
   }
   header a[href]:hover {
     color: #FF0000;
     cursor: pointer;
   }
-    /*header h1 a[href] {
-      display: block;
-       -o-transition:.5s;
-       -ms-transition:.5s;
-       -moz-transition:.5s;
-       -webkit-transition:.5s;
-        ...and now for the proper property
-       transition:.5s;
-    }*/
-
-    /*header h1 a[href]:hover {
-      color: #c0c0c0;
-    }*/
 
   header ul {
-    /*background: rgba(0,255,190,0.3);*/
     font-size:14px;
     font-family:
     "DecimaMonoPro",
@@ -296,21 +184,17 @@ header * {
     opacity: 1;
   }
   header ul li {
-    /*background: rgba(55,255,90,0.3);*/
     list-style: none;
     margin:0; padding:0;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  header ul li:first-child { margin-left: 0; }
   header ul li a[href] {
-    /*background: rgba(255,60,90,0.3);*/
     cursor: pointer;
     padding: 0 0.8em;
     color: #c0c0c0;
     text-decoration: none;
-    text-rendering: optimizeLegibility;
     text-rendering: geometricPrecision;
   }
   header ul li:last-child a[href] {
@@ -318,7 +202,6 @@ header * {
   }
   header ul li a[href]:hover { color: #040404; text-decoration: none; }
   header ul li a[href].active {
-    /*font-weight:bold;*/
     color:black;
   }
 
@@ -370,9 +253,6 @@ header * {
   }
 }
 
-/* main */
-#main { margin-bottom: 3em; }
-
 /* ------------------------------------------------------------------------------------------- */
 /* main content */
 div.content {
@@ -380,14 +260,10 @@ div.content {
   margin-top: 0;
   margin-bottom: 60px;
 }
-div.content.photo {
-  padding: 0;
-  margin:0;
-}
-  div.content:not(.sub) h1:first-child {
+  div.content h1:first-child {
     margin-top:0;
   }
-  
+
   div.content img, div.content iframe { display:block; max-width:100%; margin:1em 0; }
   div.content iframe { border:none; }
   div.content *[align="right"] { margin:0 0 1em 1.5em; }
@@ -404,17 +280,11 @@ div.content.photo {
     color: #777;
     text-rendering: optimizelegibility;
   }
-  div.content div.quotation blockquote { margin-left:-30px; }
 
   div.content pre,
   div.content code {
     background-color: rgba(0,0,0,0.04);
     border-radius: 3px;
-  }
-
-  div.content pre > code {
-    background-color: none;
-    border-radius: 0;
   }
 
   div.content pre {
@@ -423,7 +293,7 @@ div.content.photo {
     color: #333;
     padding:16px;
   }
-  
+
   div.content code {
     padding:3px 0;
   }
@@ -436,13 +306,15 @@ div.content.photo {
   div.content pre > code {
     padding:0;
     background-color:transparent;
-    border-radius: none;
+    border-radius: 0;
   }
   div.content pre > code::before,
   div.content pre > code::after {
     letter-spacing: inherit;
     content: none;
   }
+
+  /* briefly highlight the element a #fragment link jumps to */
   @keyframes outline-fade-out {
     0%   { background-color: #fe0; outline-color: #fe0; }
     90%   { background-color: #fe0; outline-color: #fe0; }
@@ -454,17 +326,13 @@ div.content.photo {
   div.content *:target {
     outline: 4px solid #fe0;
     animation: outline-fade-out 4500ms 1;
-    animation-direction: alternate; /* or: normal */
+    animation-direction: alternate;
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
-    animation-delay: 0;
+    animation-delay: 0s;
   }
-  div.content center {
-    margin:2em 0;
-    user-select:none;
-    cursor: default;
-    color: #ccc;
-  }
+
+  /* kramdown footnotes */
   div.content a.footnote {
     display: inline-block;
     padding: 0 1px;
@@ -478,7 +346,7 @@ div.content.photo {
     border-right:1px solid rgba(0,0,0,0.1);
   }
   div.content sup {
-    f-align: super;
+    vertical-align: super;
     font-size: 65%;
     padding:0;
     margin:0;
@@ -494,7 +362,6 @@ div.content.photo {
   div.content a.footnote:hover {
     color: black;
     background: #eee;
-    /*text-decoration: underline;*/
   }
   div.content a.footnote::before { letter-spacing: -0.3em; content: "\00a0"; }
   div.content a.footnote::after { letter-spacing: -0.3em; content: "\00a0"; }
@@ -505,24 +372,9 @@ div.content.photo {
   div.content div.footnotes li { color:#999; }
   div.content div.footnotes li > p { margin:0; }
   div.content div.footnotes li:target { background:#ffc; color:inherit; }
-  
-
-div.content.sub {
-  margin-top:-50px;
-  padding-top:20px;
-}
 
 img.profile-picture {
   border-radius: 2px;
-}
-
-img.inline { 
-   display:inline; 
-   margin-left: auto;
-   margin-right: auto;
-   text-align:center; 
-   vertical-align:middle; 
-   max-width:128px;
 }
 
 
@@ -534,82 +386,16 @@ div.post {
   page-break-before: always;
 }
   div.post.single, div.post:last-child { border-bottom:none; }
-  
-  div.post actions, div.post info {
-    color: #ccc;
-  }
-  
-  div.post actions {
-    background: blue;
-    display:inline-block;
-    float:right;
-  }
-  
+
   div.post info {
     display:block;
-  }
-  div.post.photo info {
-    margin:0;
-    padding:0;
-    border:0;
-    display:block;
-  }
-
-
-/* meta */
-div.meta { margin:1em 0; }
-  div.meta p, div.meta .item { margin:0; }
-  div.meta .item, div.meta .tag {
-    background-repeat:no-repeat;
-    background-position:0 0.36em;
-    padding-left:15px;
-    color:black;
-    opacity:0.4;
-    display:block;
-    float:left;
-    margin-left:2em;
-  }
-  div.meta .item:hover { opacity:1.0; }
-  div.meta .item:first-child { margin-left:0; }
-  div.meta .item a, div.meta a.item, div.meta .item a:hover,
-      div.meta a.item:hover {
-    color:inherit;
-  }
-  div.meta .item.reblogged {
-    background-image:
-        url(http://static.tumblr.com/9njdies/592l8jd17/reblogged.png);
-  }
-  div.meta .item.tags { padding-left:0; }
-    div.meta .tag {
-      margin-left:1em;
-      margin-right:0;
-      opacity:1.0;
-      background-image:
-          url(http://static.tumblr.com/9njdies/YO7l8jd2b/tag.png);
-    }
-    div.meta .tag:first-child { margin-left:0; }
-  div.meta .item.time {
-    background-image:
-        url(http://static.tumblr.com/9njdies/zkFl8jd2w/time.png);
-    float:right;
-  }
-  div.meta .item.note-count {
-    float:right;
-    background-image:
-        url(http://static.tumblr.com/9njdies/ykvl8nmzz/note-count.png);
-  }
-  div.meta .item.dsq-comment-count {
-    float:right;
-    background-image:
-        url(http://static.tumblr.com/9njdies/dbPl8uqid/comment-count.png);
-    display:none;
+    color: #ccc;
   }
 
 footer {
   color: #ccc;
   display: block;
   padding:0 0 1em 0;
-  /*text-align: center;*/
 }
   footer img {
     display: inline-block;
@@ -618,12 +404,7 @@ footer {
     width:1.2em;
     opacity:0.5;
     padding-right:4px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-  /* ...and now for the proper property */
-     transition:.5s;
+    transition:.5s;
   }
   footer a[href] {
     color: #333;
@@ -632,28 +413,11 @@ footer {
     text-decoration: none;
     text-shadow: none;
     opacity: 0.5;
-    -o-transition:.5s;
-   -ms-transition:.5s;
-   -moz-transition:.5s;
-   -webkit-transition:.5s;
-  /* ...and now for the proper property */
     transition:.5s;
   }
   footer a[href]:hover {
     opacity:1.0;
   }
-  footer a.cc {
-    background: none;
-    text-shadow: none;
-  }
-  footer a.cc:hover {
-    text-decoration: none;
-  }
   footer a[href]:hover img {
     opacity:1.0;
   }
-
-
-/* small screens */
-/*@media only screen and (max-device-width: 480px) {
-}*/
