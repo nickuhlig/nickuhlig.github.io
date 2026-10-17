@@ -7,16 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin-ext" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
     <link rel="stylesheet" media="all" href="/res/screen.css?v={{ build_version }}" type="text/css">
     <link rel="alternate" type="application/atom+xml" title="Nick Uhlig" href="/atom.xml">
     <link rel="shortcut icon" href="/favicon.ico?v={{ build_version }}">
     <link rel="icon" type="image/ico" sizes="any" href="/favicon.ico?v={{ build_version }}">
     <link rel="apple-touch-icon" href="/favicon.ico?v={{ build_version }}">
-    {% if page.ios_app_name %}
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    {% endif %}
     <meta property="fb:admins" content="10101750446693799">
     {% if page.title %}
     <meta property="og:title" content="{{ page.title }}">
@@ -47,28 +42,14 @@
     {% if page.date %}
     <meta property="article:published_time" content="{{ page.date | date: "%Y-%m-%d" }}">
     {% endif %}
-	<script type="text/javascript">
-		var random_images_array = ['farine5roses_1.jpg', 'lynncanyon_1.jpg', 'maligne_1.jpg', 'nipekamewriversaskatchewan_1.jpg', 'openicenunavut_1.jpg', 'torontoskyline_1.jpg', 'woodbinehotelwinnipeg_1.jpg'];
-		function getRandomImage(imgAr, path) {
-		path = path || '/res/'; // default path here
-		var num = Math.floor( Math.random() * imgAr.length );
-		var img = imgAr[ num ];
-		var imgStr = '<img src="' + path + img + '" alt = "">';
-		document.write(imgStr); document.close();
-							}
-	</script> 
-  	{% if site.tags != "" %}
-  		{% include collecttags.html %}
-	{% endif %}
   </head>
-  <body{% if page.wide_layout %} class="wide"{% endif %}>
+  <body>
     <header{% unless page.date %} class="main"{% endunless %}>
 	    <div id="cf"><a href="/"><img class="desktop bottom" src="/res/logo glitch.svg"><img class="desktop top" src="/res/logo normal.svg"><img class="mobile bottom" src="/res/short logo glitch.svg"><img class="mobile top" src="/res/short logo normal.svg"></a></div>
     	<button class="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="site-nav">
     		<span></span><span></span><span></span>
   		</button>  
 		<ul class="navigation" id="site-nav">
-        	<!-- <li><a href="//perjuhlig.tumblr.com/" title="My wedding website">Another thing I did</a></li> -->
         	<li><a href="/about/"{% if page.url contains "/about/" %} class="active"{% endif %} title="About me">about</a></li>
 			<li><a href="/projects/"{% if page.url contains "/projects/" %} class="active"{% endif %} title="Projects I am or was involved in">projects</a></li>
     		<li><a href="/archive/"{% if page.url contains "/archive/" %} class="active"{% endif %} title="Tag cloud">archive</a></li>

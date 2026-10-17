@@ -1,5 +1,4 @@
 port: 3000
-lsi: false
 url: https://www.nuhlig.com
 permalink: /:title
 markdown: kramdown
@@ -10,14 +9,9 @@ include: [".well-known"]
 # default list, so the usual suspects are repeated here.
 exclude: [tools, Gemfile, Gemfile.lock, node_modules, vendor]
 encoding: UTF-8
-# highlighter: none
-# syntax_highlighter: none
 kramdown:
   input: GFM
   auto_ids: true
   hard_wrap: false
-  # transliterated_header_ids: true
   syntax_highlighter_opts:
       disable: true
-gems:
-  - jekyll-redirect-from
