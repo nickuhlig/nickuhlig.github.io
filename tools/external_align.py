@@ -277,14 +277,19 @@ def normalize_raw(raw: str) -> str:
     s = re.sub(r"\s*[—–]\s*(?:for dry hopping[^,]*|\d+\s+minutes?)$", "", s, flags=re.I)                    # "Centennial Hops—60 minutes"
     s = re.sub(r"\b(\w+)-\s+or\s+\w+-(\w+)\b", r"\1-\2", s)                                                 # "oil- or salt-packed" -> "oil-packed"
     s = re.sub(r"\b(torn|cubed|diced|crumbled)\s+pieces\s+of\s+", "", s, flags=re.I)                         # "6 cups torn pieces of babka"
-    s = re.sub(r"\b(tablespoons?|teaspoons?|cups?|ounces?|pounds?|grams?|pieces?|slices?|strips?|\d|\))\s+(bone-in|boneless|skin-on|skin on|skinless|creamy|crunchy|smooth|full-fat|low-fat|nonfat|reduced-fat|plump|pure|thick-cut|thin-cut|thick cut|unsalted|salted|unsweetened|sweetened|plain|ripe|firm|mild|spicy|lean|crusty|fresh|dried|frozen|canned|good-quality|high-quality|mixed|assorted)\s*,\s+(?=[a-z])", r"\1 \2 ", s, flags=re.I)   # "3 tablespoons creamy, unsweetened peanut butter"
+    s = re.sub(r"\b(tablespoons?|teaspoons?|cups?|ounces?|pounds?|grams?|pieces?|slices?|strips?|\d|\))\s+(bone-in|boneless|skin-on|skin on|skinless|creamy|crunchy|smooth|full-fat|low-fat|nonfat|reduced-fat|plump|pure|thick-cut|thin-cut|thick cut|unsalted|salted|unsweetened|sweetened|plain|ripe|firm|mild|spicy|lean|crusty|fresh|dried|frozen|canned|good-quality|high-quality|mixed|assorted|unflavored|low-protein|short)\s*,\s+(?=[a-z])", r"\1 \2 ", s, flags=re.I)   # "3 tablespoons creamy, unsweetened peanut butter"
     s = re.sub(r"\s*\*+\s*$", "", s)                                                                                          # "falernum*"
     s = re.sub(r"\s*\([^()]*\([^()]*\)[^()]*\b(?:bags?|packages?|cans?|jars?|containers?|boxes?)\)", "", s, flags=re.I)        # "(two 5.2-ounce (150g) bags)", "(2 (8-ounce) packages)"
+    s = re.sub(r"^(?:a\s+few|several)\s+(?=(?:dash|dashes|drops?|pinch|pinches|splash|splashes)\b)", "3 ", s, flags=re.I)                 # "Several dashes hot sauce"
+    s = re.sub(r"^a\s+couple\s+(?:of\s+)?", "2 ", s, flags=re.I)
+    s = re.sub(r"^(\d+|an?|one)\s+(limes?|lemons?|oranges?)\s+yields?\s+(?:fresh\s+)?(?:lime\s+|lemon\s+|orange\s+)?juice\b", r"juice of \1 \2", s, flags=re.I)   # "1 lime yields fresh lime juice, to taste"
     s = re.sub(r"^a\s+half\s+dozen\s+", "6 ", s, flags=re.I)                                                              # "A half dozen dried red whole chiles"
     s = re.sub(r"^quick\s+and\s+easy\s+", "", s, flags=re.I)                                                              # "Quick and easy Italian-American red sauce"
     s = re.sub(r"^for\s+the\s+[^:]{1,40}:\s*", "", s, flags=re.I)                                                          # "For the Glaze:One 10-ounce can ..."
-    s = re.sub(r"^(\d+(?:\.\d+)?)(ml|kg|g|oz|lbs?|teaspoons?|tablespoons?|cups?)\b", r"\1 \2", s, flags=re.I)              # "750ml bottle", "28gDutch cocoa", "2teaspoons"
-    s = re.sub(r"(\d)[–-]fluid\s+ounces?\b", r"\1 fl oz", s, flags=re.I)                                                  # "8–fluid ounce bottles"
+    s = re.sub(r"^(\d+(?:\.\d+)?)\s*grams?\s*/\s*([\d./ ]+\s*(?:ounces?|oz|pounds?|lbs?))\s+", r"\1 g (\2) ", s, flags=re.I)                # "100 grams/3 1/2 ounces kosher salt"
+    s = re.sub(r"(?<![\w.])(\d+(?:\.\d+)?)(ml|kg|g|oz|lbs?|teaspoons?|tablespoons?|cups?)\b", r"\1 \2", s, flags=re.I)                 # "750ml bottle", "28gDutch cocoa", "2teaspoons"
+    s = re.sub(r"(\d)[–-]fluid\s+ounces?\b", r"\1 fl oz", s, flags=re.I)
+    s = re.sub(r"^(one|two|three|four|\d+)\s+(\d+(?:\.\d+)?)\s*(ml|l|fl\s*oz|oz)\s+(bottles?|cans?|jars?|packages?|bags?)\b", r"\1 (\2 \3) \4", s, flags=re.I)   # "1 750ml bottle red wine" -> "1 (750 ml) bottle red wine"                                                  # "8–fluid ounce bottles"
     s = re.sub(r"^\d+[”\"]\s+by\s+\d+[”\"]\s+", "", s)                                                                        # '1” by 3” strips orange peel'
     s = re.sub(r"^(?:shy|up\s+to|at\s+least|a\s+total\s+of)\s+", "", s, flags=re.I)                                         # "Shy 3/4 teaspoon", "Up to 2 tablespoons"
     s = re.sub(r"^\d+(?:-\d+)?[- ]proof\s+", "", s, flags=re.I)                                                              # "80-proof vodka"
@@ -903,8 +908,9 @@ MODIFIERS = ("bone in skin on", "boneless skinless", "unsalted", "salted", "bone
 GENERIC_HEADS = {"lettuce", "oil", "cheese", "sauce", "vinegar", "sugar", "flour", "salt", "milk", "cream", "butter", "broth", "paste", "powder",
                  "seeds", "beans", "rice", "noodles", "wine", "juice", "syrup", "mustard", "yogurt", "stock", "bread", "pasta", "rolls", "buns", "crackers",
                  "chorizo", "sausage", "sausages", "chiles", "chilies", "chillies", "peppers", "olives", "oregano", "chocolate", "clams", "potatoes", "peas"}
-ALT_ADJECTIVES = {"green", "red", "white", "black", "yellow", "orange", "brown", "purple", "pink", "golden", "sweet", "hot", "mild", "spicy", "dark", "light", "regular", "plain", "smoked",
-                  "large", "small", "baby", "wild", "fresh", "dried", "frozen", "ripe", "firm"}
+ALT_ADJECTIVES = {"whole", "green", "red", "white", "black", "yellow", "orange", "brown", "purple", "pink", "golden", "sweet", "hot", "mild", "spicy", "dark", "light", "regular", "plain", "smoked",
+                  "large", "small", "baby", "wild", "fresh", "dried", "frozen", "ripe", "firm", "natural", "unsweetened", "flat", "short", "long",
+                  "Chinese", "Japanese", "Italian", "Thai", "Greek", "Mexican", "Spanish", "Hungarian", "French", "Korean", "Indian", "American"}
 HEAD_NOUNS = GENERIC_HEADS | {"ghee", "schmaltz", "tallow", "drippings", "fat", "lard", "shortening", "margarine", "creamer", "spray", "mayonnaise", "mayo", "ketchup", "honey",
                               "buttermilk", "water", "beer", "rum", "whiskey", "bourbon", "gin", "vodka", "tequila", "brandy", "molasses", "jam", "jelly"}
 BROTH_RE = re.compile(r"\b(broth|stock|bouillon)\b")
@@ -1114,8 +1120,9 @@ class Resolver:
             complete = pw[-1].lower() in HEAD_NOUNS or pw[-1].lower().endswith(("milk", "cream", "butter", "cheese", "yogurt"))   # "sour cream", "buttermilk": already a whole ingredient
             if complete:
                 out.append(p)
-            elif (len(pw) == 1 or (all(w.lower() in ADVERB_OR_PREP_WORDS for w in pw[:-1]) and pw[-1].lower() in ALT_ADJECTIVES)) and len(last) >= 2 and not (last[0][:1].isupper() and last[-1][:1].isupper()):   # not "curacao or Grand Marnier" -> "curacao Marnier"
-                out.append(f"{p} {' '.join(last[1:])}")                 # "vegetable or canola oil" -> "vegetable oil"
+            elif (len(pw) == 1 or (all(w.lower() in ADVERB_OR_PREP_WORDS or w in ALT_ADJECTIVES or w.lower() in ALT_ADJECTIVES for w in pw[:-1]) and (pw[-1] in ALT_ADJECTIVES or pw[-1].lower() in ALT_ADJECTIVES))) and len(last) >= 2 and not (last[0][:1].isupper() and last[-1][:1].isupper()):   # not "curacao or Grand Marnier" -> "curacao Marnier"
+                tail = last[1:] if len(pw) == 1 else last[-1:]           # "sweet Hungarian or smoked Spanish paprika" -> "sweet Hungarian paprika"
+                out.append(f"{p} {' '.join(tail)}")                     # "vegetable or canola oil" -> "vegetable oil"
             elif len([w for w in pw if not (w.lower() in ADVERB_OR_PREP_WORDS or w.lower().endswith("ly"))]) <= 2 and last and last[-1] in GENERIC_HEADS and pw[-1] != last[-1]:
                 out.append(f"{p} {last[-1]}")                           # "peanut, rice bran, or neutral oil" -> "rice bran oil"
             else:
@@ -1190,7 +1197,8 @@ CATEGORY_TAGS = {
     "bread": 53, "breads": 53, "quick bread": 53, "quick breads": 53,
     "crepe": 36, "crepes": 36, "yeast bread": 53, "bread pudding": 35,
     "popsicles": 35, "popsicle": 35, "shortbread cookies": 35, "brownies": 35, "tea": 44, "sangria": 45, "muffins": [36, 46],        # muffins: Breakfast + Cakes
-    "tacos": 12, "layer cakes": [46, 35], "icebox cakes": [46, 35], "sheet cakes": [46, 35], "doughnuts": 35, "tarts": [47, 35], "brandy and cognac": 45, "hot chocolate and cocoa": [44, 35], "hot chocolate": [44, 35], "biscuit": 53, "biscuits": 53, "mezcal": 45, "cheesecakes": [46, 35], "cheesecake": [46, 35], "waffle": 36, "waffles": 36,                                                                                                     # Breads: its own tag
+    "tacos": 12, "layer cakes": [46, 35], "icebox cakes": [46, 35], "sheet cakes": [46, 35], "doughnuts": 35, "tarts": [47, 35], "brandy and cognac": 45, "hot chocolate and cocoa": [44, 35], "hot chocolate": [44, 35], "biscuit": 53, "biscuits": 53, "mezcal": 45, "cheesecakes": [46, 35], "dressings and vinaigrettes": 51, "chimichurri": 51, "hummus": 52, "bars": 35, "blondies": 35, "crumbles": 35, "hot dog": 4, "popcorn": 37,
+    "rolls": 53, "banana bread": [46, 35], "french toast": 36, "ice cream sandwiches and bars": [48, 35], "gelato": [48, 35], "cheesecake": [46, 35], "waffle": 36, "waffles": 36,                                                                                                     # Breads: its own tag
 }
 
 
@@ -1237,6 +1245,7 @@ def build_review(ctx: "Context", aligned: int) -> dict:
         "unrecognised_units": dict(review["unknown_units"]),
         "categories_without_a_tag": dict(review["unmapped_categories"].most_common()),
         "recipes_without_servings": review["no_servings"],
+        "nutrition_divided": review.get("nutrition_divided", []),
     }
 
 
@@ -1258,11 +1267,32 @@ EQUIPMENT_LINE_RE = re.compile(r"^(?:cheesecloth|(?:kitchen|butcher'?s|cotton) t
 SALT_AND_PEPPER_RE = re.compile(r"^((?:kosher |sea |fine |flaky |coarse )?salt)\s+and\s+((?:freshly |fresh )?(?:ground |cracked )?(?:black |white )?pepper)(?:,?\s+(?:to taste|as needed))?$", re.I)
 # "1/4 teaspoon salt and freshly ground black pepper": two different ingredients, never one entry (the salt keeps the quantity)
 OVERRIDES_FILENAME = "external_line_overrides.csv"
-# pages with no servings whose nutrition figures are for the WHOLE recipe: url -> servings assumed (the figures are divided by it)
-WHOLE_RECIPE_NUTRITION = {
-    "https://www.seriouseats.com/french-in-a-flash-drunken-angel-hair-with-leeks-and-cream-recipe": 4,
-    "https://www.seriouseats.com/indoor-beer-braised-ribs-recipe": 4,
-}
+SERVINGS_FILENAME = "external_servings_overrides.csv"
+IMPLAUSIBLE_KCAL, IMPLAUSIBLE_PROTEIN_G, IMPLAUSIBLE_FAT_G = 1500, 150, 130        # per serving
+
+
+def divide_nutrition(nut: dict, divisor: float) -> dict:
+    """Every numeric figure divided (kcal and grams to whole numbers from 10 up, one decimal below)."""
+    return {k: (round(v / divisor) if v / divisor >= 10 else round(v / divisor, 1)) if isinstance(v, (int, float)) else v for k, v in nut.items()}
+
+
+def meat_inflated_nutrition(nut: dict, servings: int) -> dict:
+    fixed = {k: (v / 10 if k in ("fat", "saturated", "protein", "cholesterol") and isinstance(v, (int, float)) else v) for k, v in nut.items()}
+    fixed["energy"] = 9 * fixed.get("fat", 0) + 4 * fixed.get("carbs", 0) + 4 * fixed.get("protein", 0)
+    return divide_nutrition(fixed, servings)
+
+
+def load_servings(library_dir: Path) -> dict:
+    """external_servings_overrides.csv (next to the registry): url, servings, nutrition, note. For pages with no servings (or a wrong one) whose nutrition
+    figures are for the WHOLE recipe. nutrition = whole (divide every figure by the servings) | keep (as printed) | drop (figures not trustworthy) | meat10 (meat figures are 10x too big: fat, saturated, protein, cholesterol /10, then all /servings) | a number
+    (divide every figure by that number)."""
+    path = library_dir / SERVINGS_FILENAME
+    table: dict[str, dict] = {}
+    if path.exists():
+        with path.open(newline="", encoding="utf-8") as handle:
+            for row in csv.DictReader(handle):
+                table[row["url"].strip()] = row
+    return table
 
 
 def line_key(raw: str) -> str:
@@ -1286,6 +1316,7 @@ def load_overrides(library_dir: Path) -> dict:
 class Context:
     resolver: Resolver
     overrides: dict = field(default_factory=dict)
+    servings: dict = field(default_factory=dict)
     page_cookware: list = field(default_factory=list)       # equipment found among the ingredient lines of the page being aligned
     review: dict = field(default_factory=lambda: {"optional": [], "substitutions": [], "dropped_prep": [], "split_lines": [], "unknown_units": Counter(),
                                                   "unmapped_categories": Counter(), "no_servings": [], "twins": 0})
@@ -1431,7 +1462,7 @@ class Aligner:
         self.master = IngredientMaster(load_master(self.master_path))
         self._before = json.dumps(self.master.data, sort_keys=True)
         fill_missing_flags(self.master)                       # decided entries get their diet_flags (the master is where the importer reads them); saved by finish()
-        self.ctx = Context(Resolver(self.master), overrides=load_overrides(library_dir))
+        self.ctx = Context(Resolver(self.master), overrides=load_overrides(library_dir), servings=load_servings(library_dir))
 
     def align(self, row: dict, page: bytes) -> dict:
         """Writes the family's records. Returns {"family_dir", "image_url", "previous_url"} so the caller can fetch the
@@ -1467,13 +1498,25 @@ def align_page(parsed: dict, family_id: int, ctx: Context, source_url: str | Non
     tag_ids = tag_ids_for(parsed["categories"], parsed["keywords"], name)
     us_ings, metric_ings, optional, subs, violated = build_ingredients(parsed, ctx, name, is_drink=bool({44, 45} & set(tag_ids)))
     servings = parsed["servings"]
-    if not servings and parsed["url"] in WHOLE_RECIPE_NUTRITION:
-        servings = WHOLE_RECIPE_NUTRITION[parsed["url"]]
-        parsed["nutrition"] = {k: (round(v / servings) if v / servings >= 10 else round(v / servings, 1)) if isinstance(v, (int, float)) else v
-                               for k, v in (parsed["nutrition"] or {}).items()}
+    ruling = ctx.servings.get(parsed["url"])
+    if ruling:
+        servings = int(ruling["servings"])
+        if ruling["nutrition"] == "drop":
+            parsed["nutrition"] = None
+        elif ruling["nutrition"] == "whole" and parsed["nutrition"]:
+            parsed["nutrition"] = divide_nutrition(parsed["nutrition"], servings)
+        elif ruling["nutrition"] == "meat10" and parsed["nutrition"]:
+            parsed["nutrition"] = meat_inflated_nutrition(parsed["nutrition"], servings)
+        elif ruling["nutrition"] not in ("keep", "") and parsed["nutrition"]:
+            parsed["nutrition"] = divide_nutrition(parsed["nutrition"], float(ruling["nutrition"]))
     elif not servings:
         servings = 4
         ctx.review["no_servings"].append(name)
+    nut = parsed["nutrition"]
+    if (nut and not ruling and (parsed["servings"] or 0) > 1
+            and ((nut.get("energy") or 0) > IMPLAUSIBLE_KCAL or (nut.get("protein") or 0) > IMPLAUSIBLE_PROTEIN_G or (nut.get("fat") or 0) > IMPLAUSIBLE_FAT_G)):
+        ctx.review.setdefault("nutrition_divided", []).append(name)            # impossible per serving: an older post's whole-recipe total (user's ruling)
+        parsed["nutrition"] = divide_nutrition(nut, parsed["servings"])
     for cat in parsed["categories"] or []:
         if cat.lower() not in CATEGORY_TAGS and cat.lower() not in UNTAGGED_CATEGORIES:
             ctx.review["unmapped_categories"][cat] += 1
