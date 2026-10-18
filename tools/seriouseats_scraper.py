@@ -364,7 +364,11 @@ def run_thumbnails(session: requests.Session, rows: dict, raw_dir: Path, out_dir
     todo = todo[:limit] if limit is not None else todo
     print(f"{len(todo)} recipe(s) without a thumbnail")
     for n, row in enumerate(todo, start=1):
-        parsed = parse_page(gzip.decompress(raw_path(raw_dir, row).read_bytes()).decode("utf-8", errors="replace"), row["url"])
+        try:
+            parsed = parse_page(gzip.decompress(raw_path(raw_dir, row).read_bytes()).decode("utf-8", errors="replace"), row["url"])
+        except Exception as exc:  # noqa: BLE001  a page with no recipe data (like the two without an ingredient list) must not stop the run
+            print(f"    -> skipped {row['id']} {row['url']}: {type(exc).__name__}: {exc}")
+            continue
         family_dir = out_dir / "families" / row["id"]
         family_dir.mkdir(parents=True, exist_ok=True)
         result = ensure_thumbnail(session, family_dir, parsed.get("image_url"))
