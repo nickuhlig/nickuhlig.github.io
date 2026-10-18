@@ -1,0 +1,483 @@
+"""
+Recipe nutrition from ingredient lines: parse each line's quantity, convert it to grams, look up
+the ingredient's food in nutrition_foods.json, and sum per serving into the library's 66 fields.
+
+Mealime recipes keep Mealime's own nutrition (never recalculated); this is for Albertsons native,
+gap-fill and imported-site recipes. Running it on Mealime recipes is how the method is checked
+(`validate`), since Mealime's numbers are the answer key.
+
+GRAMS PER LINE, by quantity shape (shares are of non-Mealime lines):
+  weight      "8 oz", "450 g"                 direct (7-15%)
+  package     "½ (15 oz) can", "1 (227 g) block"  count x stated size (1-9%); a can matched to a
+                                              "drained solids" food keeps DRAINED_YIELD of its weight
+  volume      "¾ cup", "2 tbsp", "4 fl oz"    mL x the food's density from its portion data (55%);
+                                              prep words in the line ("chopped", "sliced") pick the
+                                              matching portion, e.g. onion: cup chopped 160 g vs sliced 115 g
+  piece       "2 medium", "4 cloves", "1 head"   the food's portion for that word (12-14%)
+  bare count  "1", "24 whole"                 the food's "medium" (else first per-piece) portion (7-12%)
+  pinch etc.  pinch = 1/16 tsp, dash = 1/8 tsp, drop = 0.05 mL, spritz = 0.25 g
+  no quantity "to taste" -- counts as zero (user rule), listed in coverage
+
+Rules agreed with the user: "to taste" lines count as zero; salt that goes into drained cooking water
+(a step listing 4+ cups of water with salt -- pasta, boiled potatoes) is subtracted from the salt line,
+while salt absorbed by rice or couscous still counts; flour for dredging and marinades count in full;
+added salt (a salt line with an amount)
+DOES count toward sodium -- Mealime's own numbers leave it out, so `validate` drops salt lines
+before comparing sodium; deep-fried items absorb oil equal to
+15% of their weight (not yet automated -- frying-oil lines are listed in coverage for now);
+imported-site nutrition is overwritten by the calculated values.
+Kosher salt is weighed at 2.8 g/tsp (Diamond Crystal, what Serious Eats uses), not table salt's 6 g.
+
+    python recipe_nutrition.py line "<quantity>" <ingredient id> ["<line name>"]   debug one line
+    python recipe_nutrition.py validate --snapshot <recipes.json>                  vs Mealime
+"""
+
+import argparse
+import json
+import re
+import statistics
+import sys
+from pathlib import Path
+
+import nutrition_composite as nc
+from library_paths import DEFAULT_LIBRARY_DIR
+
+FRACTIONS = {"½": 0.5, "¼": 0.25, "¾": 0.75, "⅓": 1 / 3, "⅔": 2 / 3, "⅛": 0.125, "⅜": 0.375, "⅝": 0.625, "⅞": 0.875}
+NUM = r"(?:\d+(?:[.,]\d+)?(?:\s*[½¼¾⅓⅔⅛⅜⅝⅞])?|[½¼¾⅓⅔⅛⅜⅝⅞]|\d+\s*/\s*\d+|\d+\s+\d+\s*/\s*\d+)"
+AMOUNT = rf"(?P<a>{NUM})(?:\s*(?:-|–|to)\s*(?P<b>{NUM}))?"
+
+GRAMS_PER = {"g": 1.0, "kg": 1000.0, "oz": 28.3495, "lb": 453.592}
+ML_PER = {"tsp": 4.92892, "tbsp": 14.7868, "cup": 236.588, "fl oz": 29.5735, "ml": 1.0, "l": 1000.0,
+          "pint": 473.176, "quart": 946.353, "gallon": 3785.41}
+UNIT_ALIASES = {
+    "g": "g", "gram": "g", "grams": "g", "kg": "kg", "kilogram": "kg", "kilograms": "kg",
+    "oz": "oz", "ounce": "oz", "ounces": "oz", "lb": "lb", "lbs": "lb", "pound": "lb", "pounds": "lb",
+    "tsp": "tsp", "teaspoon": "tsp", "teaspoons": "tsp", "tbsp": "tbsp", "tablespoon": "tbsp",
+    "tablespoons": "tbsp", "cup": "cup", "cups": "cup", "fl oz": "fl oz", "ml": "ml", "l": "l",
+    "liter": "l", "liters": "l", "litre": "l", "pint": "pint", "pints": "pint", "quart": "quart",
+    "quarts": "quart", "gallon": "gallon", "gallons": "gallon",
+}
+SIZES = {"small", "medium", "large"}
+SIZE_FACTOR = {"small": 0.7, "medium": 1.0, "large": 1.35}   # relative to a medium piece
+NOUNS = {"clove", "head", "bunch", "stalk", "sprig", "slice", "ear", "leaf", "rib", "stick", "crown", "heart",
+         "cap", "piece", "knob", "fillet", "strip", "stem", "wedge", "pkg", "package", "whole",
+         "sheet", "packet", "envelope", "rack", "bottle", "loaf", "can", "jar", "bag", "block", "pod", "berry"}
+# nouns a line NAME may supply for a bare size ("2 medium" + "garlic cloves" = 2 medium cloves);
+# others ("cut into wedges") describe preparation, not the unit
+NAME_NOUNS = ("clove", "stalk", "sprig", "head", "leaf")
+PIECES = SIZES | NOUNS
+VAGUE_ML = {"pinch": ML_PER["tsp"] / 16, "dash": ML_PER["tsp"] / 8, "drop": 0.05, "splash": ML_PER["tsp"] / 2,
+            "handful": ML_PER["cup"] / 4}
+SPRITZ_G = 0.25
+DRAINED_YIELD = 0.6           # a 15 oz can of beans drains to ~250 g of its 425 g
+KOSHER_SALT_G_PER_ML = 2.8 / ML_PER["tsp"]
+PREP_WORDS = ("chopped", "diced", "minced", "sliced", "grated", "shredded", "crumbled", "cubed", "mashed",
+              "packed", "sifted", "whole", "halves", "pieces", "julienned", "ground")
+
+
+def _num(text: str) -> float:
+    text = text.strip().replace(",", ".")
+    total = 0.0
+    for part in re.findall(r"\d+\s*/\s*\d+|\d+(?:\.\d+)?|[½¼¾⅓⅔⅛⅜⅝⅞]", text):
+        if "/" in part:
+            n, d = part.split("/")
+            total += float(n) / float(d)
+        elif part in FRACTIONS:
+            total += FRACTIONS[part]
+        else:
+            total += float(part)
+    return total
+
+
+def _singular(word: str) -> str:
+    word = word.lower().rstrip(".")
+    if word in ("leaves",):
+        return "leaf"
+    if word in ("berries",):
+        return "berry"
+    if word.endswith("es") and word[:-2] in ("bunch",):
+        return word[:-2]
+    return word[:-1] if word.endswith("s") and word[:-1] in PIECES else word
+
+
+def parse_quantity(q: str) -> dict:
+    """{"kind": weight|volume|package|piece|count|vague|spritz|size|empty|unknown, ...}"""
+    q = re.sub(r"^(about|approx\.?|approximately|roughly|generous|heaping|scant)\s+", "", (q or "").strip(), flags=re.I)
+    if not q:
+        return {"kind": "empty"}
+    m = re.match(rf"^\s*{AMOUNT}\s*(?P<rest>.*)$", q)
+    if not m:
+        return {"kind": "unknown", "text": q}
+    amount = _num(m["a"]) if not m["b"] else (_num(m["a"]) + _num(m["b"])) / 2
+    rest = m["rest"].strip()
+    # package / size in parentheses: "(15 oz) can", "(2 inch) piece", "(794 g) (794 g) can"
+    p = re.match(rf"^\(\s*(?P<n>{NUM})\s*(?P<u>fl\.? oz|[a-zA-Z]+)\.?\s*\)\s*(?:\([^)]*\)\s*)*(?P<what>.*)$", rest)
+    if p:
+        unit = p["u"].lower().replace("fl. oz", "fl oz")
+        inner = _num(p["n"])
+        what = p["what"].strip().lower()
+        if unit in ("inch", "in", "cm"):
+            return {"kind": "size", "count": amount, "size": inner, "size_unit": unit, "what": what}
+        unit = UNIT_ALIASES.get(unit)
+        if unit in GRAMS_PER:
+            return {"kind": "package", "count": amount, "grams_each": inner * GRAMS_PER[unit], "what": what}
+        if unit in ML_PER:
+            return {"kind": "package", "count": amount, "ml_each": inner * ML_PER[unit], "what": what}
+        return {"kind": "unknown", "text": q}
+    words = rest.lower().split()
+    first = words[0].rstrip(".,") if words else ""
+    two = " ".join(words[:2]).rstrip(".,").replace("fl. oz", "fl oz")
+    if two == "fl oz":
+        return {"kind": "volume", "ml": amount * ML_PER["fl oz"]}
+    unit = UNIT_ALIASES.get(first)
+    if unit in GRAMS_PER:
+        return {"kind": "weight", "grams": amount * GRAMS_PER[unit]}
+    if unit in ML_PER:
+        return {"kind": "volume", "ml": amount * ML_PER[unit], "text": rest.lower()}
+    # "1 inch piece", "½ inch" written without parentheses
+    if first in ("inch", "inches", "in", "cm"):
+        return {"kind": "size", "count": 1.0, "size": amount, "size_unit": "cm" if first == "cm" else "inch",
+                "what": " ".join(words[1:])}
+    # "1 large pinch", "1 small handful", "1 generous pinch": a sized vague amount
+    scale = {"small": 0.7, "tiny": 0.5, "large": 1.5, "big": 1.5, "generous": 1.5, "good": 1.5}
+    if first in scale and len(words) > 1:
+        inner = parse_quantity(f"1 {' '.join(words[1:])}")
+        if inner.get("vague"):
+            return {**inner, "ml": amount * inner["ml"] * scale[first], "vague": f"{first} {inner['vague']}"}
+    base = _singular(first)
+    if base in VAGUE_ML or base.rstrip("e") in VAGUE_ML or first in ("pinches", "dashes", "drops", "handfuls"):
+        key = next(k for k in VAGUE_ML if first.startswith(k))
+        return {"kind": "volume", "ml": amount * VAGUE_ML[key], "vague": key}
+    if first.startswith("spritz"):
+        return {"kind": "spritz", "count": amount}
+    if base in PIECES:
+        size = base if base in SIZES else None
+        noun = base if base in NOUNS else None
+        if size and len(words) > 1 and _singular(words[1].rstrip(".,")) in NOUNS:
+            noun = _singular(words[1].rstrip(".,"))
+        if noun == "package":
+            noun = "pkg"
+        return {"kind": "piece", "count": amount, "size": size, "noun": noun,
+                "word": " ".join(w for w in (size, noun) if w), "text": rest.lower()}
+    if not first:
+        return {"kind": "count", "count": amount}
+    return {"kind": "unknown", "text": q}
+
+
+# --- portions -> grams ---------------------------------------------------------------------------
+
+def _portion_ml(unit: str):
+    """mL in one portion whose unit is a volume ("cup, chopped", "tbsp", "fl oz", "100ml")."""
+    u = unit.lower()
+    m = re.match(r"^(\d+)\s*ml", u)
+    if m:
+        return float(m[1])
+    for word, key in (("cup", "cup"), ("tbsp", "tbsp"), ("tablespoon", "tbsp"), ("tsp", "tsp"),
+                      ("teaspoon", "tsp"), ("fl oz", "fl oz"), ("pint", "pint"), ("ml", "ml")):
+        if u.startswith(word):
+            return ML_PER[key]
+    return None
+
+
+def density(food: dict, line_text: str = ""):
+    """(grams per mL, portion label) from the food's volume portions; a prep word in the line
+    ("chopped", "sliced") selects the matching portion when there is one."""
+    vols = [(p, _portion_ml(p["unit"])) for p in food.get("portions", [])]
+    vols = [(p, ml) for p, ml in vols if ml]
+    if not vols:
+        return None, None
+    text = line_text.lower()
+    for word in PREP_WORDS:
+        if word in text:
+            for p, ml in vols:
+                if word in p["unit"].lower():
+                    return p["grams"] / (p["amount"] * ml), p["unit"]
+    p, ml = vols[0]
+    return p["grams"] / (p["amount"] * ml), p["unit"]
+
+
+def _has_word(label: str, word: str) -> bool:
+    forms = {"leaf": r"lea(f|ves)"}.get(word, re.escape(word) + r"(e?s)?")
+    return re.search(r"\b" + forms + r"\b", label.lower()) is not None
+
+
+def piece_grams(food: dict, word: str, size: str = None):
+    """Grams of one piece from the food's portions: a label containing the word ("clove",
+    'head medium (5" dia)', "Potato medium"), preferring one that also names the size."""
+    hits = [p for p in food.get("portions", []) if _has_word(p["unit"], word)]
+    if size:
+        sized = [p for p in hits if _has_word(p["unit"], size)]
+        if sized:
+            return sized[0]["grams"] / sized[0]["amount"], sized[0]["unit"]
+    if hits:
+        p = hits[0]
+        labelled = any(_has_word(p["unit"], z) for z in SIZES)
+        factor = SIZE_FACTOR.get(size, 1.0) if size and not labelled else 1.0
+        return factor * p["grams"] / p["amount"], p["unit"] + (f" x {factor}" if factor != 1.0 else "")
+    return None, None
+
+
+def size_grams(food: dict, size: str):
+    """Grams of one whole item of a size: a portion whose name part (before any "(" or ",") has
+    the size word, e.g. "large", "medium (2-1/2\" dia)", "Potato medium" -- not "cup (4.86 large
+    eggs)" or "slice, medium"."""
+    hits = []
+    for p in food.get("portions", []):
+        head = re.split(r"[(,]", p["unit"].lower())[0].split()
+        if (size in head and not _portion_ml(p["unit"]) and head[0] not in ("slice", "slices", "ring", "rings")
+                and not {"extra", "jumbo"} & set(head)):
+            hits.append((head != [size], p))           # a label that is just the size word wins
+    if hits:
+        p = min(hits, key=lambda h: h[0])[1]
+        return p["grams"] / p["amount"], p["unit"]
+    return None, None
+
+
+def count_grams(food: dict, line_name: str = ""):
+    """Grams of one item for a bare count: a portion named after the item itself ("1 tortilla"
+    for "corn tortillas"), else "medium", else the first portion that is neither a volume nor a
+    weight nor a serving/package label."""
+    items = [p for p in food.get("portions", [])
+             if not _portion_ml(p["unit"]) and not re.match(r"^(oz|lb|nlea|serving|package|container|can|cubic|\d)",
+                                                            p["unit"].lower())]
+    words = {w[:-1] if w.endswith("s") else w for w in re.findall(r"[a-z]{4,}", line_name.lower())}
+    for p in items:   # the label must START with the item ("tortilla (approx 12\" dia)"), so
+        first = re.findall(r"[a-z]+", p["unit"].lower())[:1]   # "wedge or slice (1/8 of one lemon)" is skipped
+        if first and (first[0][:-1] if first[0].endswith("s") else first[0]) in words:
+            return p["grams"] / p["amount"], p["unit"]
+    g, label = size_grams(food, "medium")
+    if g:
+        return g, label
+    return (items[0]["grams"] / items[0]["amount"], items[0]["unit"]) if items else (None, None)
+
+
+def line_grams(parsed: dict, food: dict, line_name: str = "", measures: dict = None):
+    """(grams, how) for one parsed line, or (None, reason). measures: the ingredient's reviewed
+    overrides from nutrition_foods.json ("small bunch": 30, "inch": 6, "item": 25, "density": 1.01),
+    consulted before the food's own portion data."""
+    measures = measures or {}
+    kind = parsed["kind"]
+    if kind == "empty":
+        return 0.0, "to taste (counted as zero)"
+    if kind == "weight":
+        return parsed["grams"], "weight"
+    if kind == "package":
+        if "grams_each" in parsed:
+            grams = parsed["count"] * parsed["grams_each"]
+            if parsed["what"].startswith("can") and "drained" in (food.get("name") or "").lower():
+                return grams * DRAINED_YIELD, "can, drained"
+            return grams, "package weight"
+        d, label = (measures["density"], "reviewed density") if "density" in measures else density(food, line_name)
+        return (parsed["count"] * parsed["ml_each"] * d, f"package volume @ {label}") if d else (None, "no density")
+    if kind == "volume":
+        if "salt" in line_name.lower() and "kosher" in line_name.lower():
+            return parsed["ml"] * KOSHER_SALT_G_PER_ML, "kosher salt 2.8 g/tsp"
+        if "density" in measures:
+            return parsed["ml"] * measures["density"], f"volume @ reviewed density {measures['density']} g/mL"
+        d, label = density(food, line_name + " " + parsed.get("text", ""))
+        return (parsed["ml"] * d, f"volume @ {label}") if d else (None, "no density")
+    if kind == "spritz":
+        return parsed["count"] * SPRITZ_G, "spritz"
+    if kind == "piece":
+        size, noun = parsed["size"], parsed["noun"]
+        if not noun:   # "2 medium" with the noun in the line name: "garlic cloves" -> medium cloves
+            noun = next((n for n in NAME_NOUNS if _has_word(line_name, n)), None)
+        for key in filter(None, (" ".join(w for w in (size, noun) if w), noun, size and "item")):
+            if key in measures:
+                factor = SIZE_FACTOR.get(size, 1.0) if key in (noun, "item") and size else 1.0
+                return parsed["count"] * measures[key] * factor, f"reviewed '{key}'" + (f" x {factor}" if factor != 1 else "")
+        if noun in (None, "whole"):
+            g, label = size_grams(food, size) if size else (None, None)
+            if not g:
+                g, label = count_grams(food, line_name)
+                if g and size:
+                    g, label = g * SIZE_FACTOR[size], f"{label} x {SIZE_FACTOR[size]}"
+        else:
+            g, label = piece_grams(food, noun, size)
+            if not g and size and parsed["noun"] is None:      # the name's noun had no portion
+                g, label = size_grams(food, size)
+        return (parsed["count"] * g, f"piece @ {label}") if g else (None, f"no '{size or ''} {noun or ''}' portion".replace("  ", " "))
+    if kind == "count":
+        if "baby item" in measures and re.search(r"\bbaby\b", line_name, re.I):   # "6 baby bok choy"
+            return parsed["count"] * measures["baby item"], "reviewed per-item weight (baby)"
+        if "item" in measures:
+            return parsed["count"] * measures["item"], "reviewed per-item weight"
+        g, label = count_grams(food, line_name)
+        return (parsed["count"] * g, f"count @ {label}") if g else (None, "no per-item portion")
+    if kind == "size":
+        unit = "inch" if parsed["size_unit"] in ("inch", "in") else "cm"
+        per = measures.get(unit) or (measures["inch"] / 2.54 if unit == "cm" and "inch" in measures else None)
+        if per:
+            return parsed["count"] * parsed["size"] * per, f"reviewed per-{unit} weight"
+        if parsed["what"] in ("", "round", "rounds") or "tortilla" in parsed["what"]:
+            g, label = (measures["item"], "reviewed per-item weight") if "item" in measures else count_grams(food, line_name)
+            if g:
+                return parsed["count"] * g, f"count (diameter given) @ {label}"
+        return None, f"no per-{unit} weight"
+    return None, f"cannot parse ({kind})"
+
+
+# --- recipes -------------------------------------------------------------------------------------
+
+SALT_IDS = {"88", "1472", "1508"}   # salt, flaky sea salt, fine sea salt; Mealime's nutrition never counts these
+DRAINED_WATER_ML = 4 * ML_PER["cup"]   # this much water with salt in one step = drained cooking water
+
+
+BOILED_AND_DRAINED = re.compile(
+    r"\b(pasta|noodles?|spaghetti|rotini|penne|macaroni|orzo|fusilli|linguine|fettuccine|gnocchi|ravioli|"
+    r"tortellini|rigatoni|farfalle|ziti|udon|soba|potato(es)?|drain)\b", re.I)
+
+
+def drained_water_salt(recipe: dict) -> list:
+    """Salt quantities ("1 tbsp") from steps that salt a pot of cooking water that gets drained.
+    Mealime-format steps list their ingredients one per line: "about 7 cups water / 1 tbsp salt /
+    6 oz rotini". A step counts when it has 4+ cups of water and salt AND a sign the water is
+    drained -- the water is "about" N cups (a pasta pot), the step lists pasta or potatoes, or its
+    text says drain -- so a soup's 6 cups of water keeps its salt."""
+    out = []
+    if re.search(r"\bone[- ]pot\b", recipe.get("name") or "", re.I):   # the pasta absorbs that water
+        return out
+    for step in recipe.get("instructions", []):
+        text = step.get("secondary_message") if isinstance(step, dict) else step
+        primary = step.get("primary_message", "") if isinstance(step, dict) else ""
+        lines = [l.strip() for l in (text or "").split("\n") if l.strip()]
+        water = [(l, parse_quantity(l)) for l in lines if re.search(r"\bwater\b", l, re.I)]
+        big = [l for l, w in water if w.get("kind") == "volume" and w["ml"] >= DRAINED_WATER_ML]
+        if big and (any(l.lower().startswith("about") for l in big) or BOILED_AND_DRAINED.search(f"{text} {primary}")):
+            out += [l for l in lines if re.search(r"\bsalt\b", l, re.I)]
+    return out
+
+
+FRYING_OIL = re.compile(r"for (deep[- ]?)?fry|deep[- ]?fry|for frying", re.I)
+FRY_STEP = re.compile(r"\b(deep[- ]?)?(fry|fries|fried|frying)\b|\boil (to|reaches|registers) 3\d\d", re.I)
+SIDE_COMPONENT = re.compile(r"^\s*for (the )?[^:]{0,40}\b(sauce|dip|dipping|dressing|glaze|salsa|aioli|mayo|"
+                            r"mayonnaise|topping|garnish|slaw|salad|relish|chutney|syrup|serving|pickles?)\b[^:]{0,20}:", re.I)
+OIL_ABSORBED = 0.15            # user rule: deep-fried items absorb oil equal to 15% of their weight
+GENERIC_WORDS = {"fresh", "freshly", "large", "small", "medium", "white", "kosher", "ground", "plus", "more",
+                 "about", "sliced", "chopped", "minced", "peeled", "cold", "ice", "cut", "into", "pieces",
+                 "finely", "thinly", "divided", "optional", "whole", "extra", "virgin", "dried", "packed"}
+
+
+def _keywords(name: str) -> set:
+    words = re.findall(r"[a-z]{4,}", re.split(r",|\(", (name or "").lower())[0])
+    return {w[:-1] if w.endswith("s") else w for w in words if w not in GENERIC_WORDS}
+
+
+def _mentions(step_text: str, keywords: set) -> bool:
+    text = {w[:-1] if w.endswith("s") else w for w in re.findall(r"[a-z]{4,}", step_text.lower())}
+    return bool(keywords & text)
+
+
+def apply_deep_frying(recipe: dict, lines: list) -> None:
+    """Frying-oil lines ("vegetable oil, for frying -- 2 quarts") count only the oil absorbed: 15%
+    of the weight of what is fried. That is every other counted line except ones that appear only
+    in side-component steps ("For the Dipping Sauce: ...") or only in steps after the last frying
+    step (serving, garnish). Imported-site steps have no ingredient lists, so mentions are matched
+    by name words."""
+    oil = [l for l in lines if l.get("ref") and FRYING_OIL.search(f"{l['name']} {l['quantity'] or ''}")]
+    if not oil:
+        return
+    steps = [s.get("primary_message", "") if isinstance(s, dict) else (s or "") for s in recipe.get("instructions", [])]
+    fry_idx = [i for i, s in enumerate(steps) if FRY_STEP.search(s)]
+    last_fry = fry_idx[-1] if fry_idx else len(steps) - 1
+    fried_g = 0.0
+    for l in lines:
+        if l in oil or not l.get("grams"):
+            continue
+        kw = _keywords(l["name"])
+        where = [i for i, s in enumerate(steps) if kw and _mentions(s, kw)]
+        if where and all(SIDE_COMPONENT.search(steps[i]) or i > last_fry for i in where):
+            continue
+        fried_g += l["grams"]
+    absorbed = fried_g * OIL_ABSORBED
+    for i, l in enumerate(oil):
+        l["grams_listed"] = l.get("grams")
+        l["grams"] = round(absorbed, 1) if i == 0 else 0.0
+        l["how"] = f"deep frying: {OIL_ABSORBED:.0%} of {fried_g:.0f} g fried" if i == 0 else "deep frying: counted on first oil line"
+        l["status"] = "counted" if l["grams"] else "zero"
+
+
+def recipe_nutrition(recipe: dict, db: dict, skip_ids=()) -> dict:
+    """Per-serving totals plus coverage: which lines were counted, zero, or left out and why.
+    skip_ids: ingredient ids to leave out of the totals (validate uses SALT_IDS)."""
+    totals, lines = {}, []
+    drained_salt = drained_water_salt(recipe)
+    for ing in recipe.get("ingredients", []):
+        iid = str(ing.get("ingredient_id"))
+        if iid in skip_ids:
+            continue
+        assign = db["ingredients"].get(iid)
+        entry = {"ingredient_id": iid, "name": ing.get("name"), "quantity": ing.get("quantity")}
+        if not assign:
+            entry.update(status="unmatched ingredient")
+            lines.append(entry)
+            continue
+        food = db["foods"][assign["ref"]]
+        grams, how = line_grams(parse_quantity(ing.get("quantity")), food, ing.get("name") or "",
+                                db.get("measures", {}).get(iid))
+        if grams and iid in SALT_IDS and drained_salt:
+            water_g = sum(line_grams(parse_quantity(q), food, q)[0] or 0 for q in drained_salt)
+            grams, how = max(0.0, grams - water_g), f"{how}, minus {water_g:.1f} g for cooking water"
+            drained_salt = []
+        entry.update(grams=None if grams is None else round(grams, 1), how=how, ref=assign["ref"],
+                     status="counted" if grams else ("zero" if grams == 0 else "not converted"))
+        lines.append(entry)
+    apply_deep_frying(recipe, lines)
+    for l in lines:
+        if l.get("grams"):
+            for field, v in db["foods"][l["ref"]]["per_100g"].items():
+                totals[field] = totals.get(field, 0.0) + v * l["grams"] / 100
+    servings = recipe.get("serving_count") or recipe.get("servings") or 1
+    per_serving = {f: round(v / servings, 2) for f, v in totals.items()}
+    return {"per_serving": per_serving, "lines": lines,
+            "complete": all(l["status"] in ("counted", "zero") for l in lines)}
+
+
+def cmd_validate(args, db):
+    recipes = json.loads(Path(args.snapshot).read_text(encoding="utf-8"))
+    mealime = [r for r in recipes if r["source"] in (None, "authenticated_backfill")
+               and r["units"] == "US" and r.get("nutrition")]
+    complete, fields = [], ("energy", "protein", "fat", "carbs", "fiber", "sugars", "sodium", "saturated")
+    problems = {}
+    for r in mealime:
+        res = recipe_nutrition(r, db, skip_ids=SALT_IDS)
+        for l in res["lines"]:
+            if l["status"] not in ("counted", "zero"):
+                key = (l["status"], l.get("how"), l["name"])
+                problems[key] = problems.get(key, 0) + 1
+        if res["complete"]:
+            complete.append((r, res))
+    print(f"Mealime US recipes: {len(mealime)}; fully converted: {len(complete)}")
+    for f in fields:
+        ratios = [res["per_serving"].get(f, 0) / r["nutrition"][f] for r, res in complete
+                  if r["nutrition"].get(f) and r["nutrition"][f] > 0.5]
+        if ratios:
+            q = statistics.quantiles(ratios, n=10)
+            within = sum(0.85 <= x <= 1.15 for x in ratios) / len(ratios)
+            print(f"  {f:<10} ours/Mealime median {statistics.median(ratios):.2f}  "
+                  f"p10 {q[0]:.2f}  p90 {q[-1]:.2f}  within ±15%: {within:.0%}")
+    print("\nmost common lines not converted:")
+    for (status, how, name), n in sorted(problems.items(), key=lambda kv: -kv[1])[:args.top]:
+        print(f"  {n:>6}  {status:<22} {how or '':<28} {name}")
+    return complete
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument("--recipes-dir", default=str(DEFAULT_LIBRARY_DIR))
+    sub = parser.add_subparsers(dest="cmd", required=True)
+    p = sub.add_parser("line"); p.add_argument("quantity"); p.add_argument("ingredient_id"); p.add_argument("name", nargs="?", default="")
+    p = sub.add_parser("validate"); p.add_argument("--snapshot", required=True); p.add_argument("--top", type=int, default=40)
+    args = parser.parse_args()
+    db = nc.load_db(Path(args.recipes_dir))
+    if args.cmd == "line":
+        parsed = parse_quantity(args.quantity)
+        food = db["foods"][db["ingredients"][args.ingredient_id]["ref"]]
+        print(parsed, "->", line_grams(parsed, food, args.name, db.get("measures", {}).get(args.ingredient_id)),
+              "|", food["name"])
+    elif args.cmd == "validate":
+        cmd_validate(args, db)
+
+
+if __name__ == "__main__":
+    main()
