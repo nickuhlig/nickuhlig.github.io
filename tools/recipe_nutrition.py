@@ -42,8 +42,9 @@ from pathlib import Path
 import nutrition_composite as nc
 from library_paths import DEFAULT_LIBRARY_DIR
 
-FRACTIONS = {"½": 0.5, "¼": 0.25, "¾": 0.75, "⅓": 1 / 3, "⅔": 2 / 3, "⅛": 0.125, "⅜": 0.375, "⅝": 0.625, "⅞": 0.875}
-NUM = r"(?:\d+(?:[.,]\d+)?(?:\s*[½¼¾⅓⅔⅛⅜⅝⅞])?|[½¼¾⅓⅔⅛⅜⅝⅞]|\d+\s*/\s*\d+|\d+\s+\d+\s*/\s*\d+)"
+FRACTIONS = {"½": 0.5, "¼": 0.25, "¾": 0.75, "⅓": 1 / 3, "⅔": 2 / 3, "⅛": 0.125, "⅜": 0.375, "⅝": 0.625, "⅞": 0.875,
+             "⅙": 1 / 6, "⅚": 5 / 6, "⅕": 0.2, "⅖": 0.4, "⅗": 0.6, "⅘": 0.8}
+NUM = r"(?:\d+(?:[.,]\d+)?(?:\s*[½¼¾⅓⅔⅛⅜⅝⅞⅙⅚⅕⅖⅗⅘])?|[½¼¾⅓⅔⅛⅜⅝⅞⅙⅚⅕⅖⅗⅘]|\d+\s*/\s*\d+|\d+\s+\d+\s*/\s*\d+)"
 AMOUNT = rf"(?P<a>{NUM})(?:\s*(?:-|–|to)\s*(?P<b>{NUM}))?"
 
 GRAMS_PER = {"g": 1.0, "kg": 1000.0, "oz": 28.3495, "lb": 453.592}
@@ -57,17 +58,18 @@ UNIT_ALIASES = {
     "liter": "l", "liters": "l", "litre": "l", "pint": "pint", "pints": "pint", "quart": "quart",
     "quarts": "quart", "gallon": "gallon", "gallons": "gallon",
 }
-SIZES = {"small", "medium", "large"}
-SIZE_FACTOR = {"small": 0.7, "medium": 1.0, "large": 1.35}   # relative to a medium piece
+SIZES = {"small", "medium", "large", "extra-large"}
+SIZE_FACTOR = {"small": 0.7, "medium": 1.0, "large": 1.35, "extra-large": 1.6}   # relative to a medium piece
 NOUNS = {"clove", "head", "bunch", "stalk", "sprig", "slice", "ear", "leaf", "rib", "stick", "crown", "heart",
          "cap", "piece", "knob", "fillet", "strip", "stem", "wedge", "pkg", "package", "whole",
-         "sheet", "packet", "envelope", "rack", "bottle", "loaf", "can", "jar", "bag", "block", "pod", "berry"}
+         "sheet", "packet", "envelope", "rack", "bottle", "loaf", "can", "jar", "bag", "block", "pod", "berry",
+         "link", "cube", "bulb", "pack", "chunk", "serving", "portion"}
 # nouns a line NAME may supply for a bare size ("2 medium" + "garlic cloves" = 2 medium cloves);
 # others ("cut into wedges") describe preparation, not the unit
 NAME_NOUNS = ("clove", "stalk", "sprig", "head", "leaf")
 PIECES = SIZES | NOUNS
 VAGUE_ML = {"pinch": ML_PER["tsp"] / 16, "dash": ML_PER["tsp"] / 8, "drop": 0.05, "splash": ML_PER["tsp"] / 2,
-            "handful": ML_PER["cup"] / 4}
+            "handful": ML_PER["cup"] / 4, "drizzle": ML_PER["tsp"]}
 SPRITZ_G = 0.25
 DRAINED_YIELD = 0.6           # a 15 oz can of beans drains to ~250 g of its 425 g
 KOSHER_SALT_G_PER_ML = 2.8 / ML_PER["tsp"]
@@ -78,7 +80,7 @@ PREP_WORDS = ("chopped", "diced", "minced", "sliced", "grated", "shredded", "cru
 def _num(text: str) -> float:
     text = text.strip().replace(",", ".")
     total = 0.0
-    for part in re.findall(r"\d+\s*/\s*\d+|\d+(?:\.\d+)?|[½¼¾⅓⅔⅛⅜⅝⅞]", text):
+    for part in re.findall(r"\d+\s*/\s*\d+|\d+(?:\.\d+)?|[½¼¾⅓⅔⅛⅜⅝⅞⅙⅚⅕⅖⅗⅘]", text):
         if "/" in part:
             n, d = part.split("/")
             total += float(n) / float(d)
@@ -111,10 +113,13 @@ def parse_quantity(q: str) -> dict:
     amount = _num(m["a"]) if not m["b"] else (_num(m["a"]) + _num(m["b"])) / 2
     rest = m["rest"].strip()
     # package / size in parentheses: "(15 oz) can", "(2 inch) piece", "(794 g) (794 g) can"
-    p = re.match(rf"^\(\s*(?P<n>{NUM})\s*(?P<u>fl\.? oz|[a-zA-Z]+)\.?\s*\)\s*(?:\([^)]*\)\s*)*(?P<what>.*)$", rest)
+    p = re.match(rf"^\(\s*(?P<n>{NUM})(?:\s*(?P<op>-|–|to|x|×)\s*(?P<n2>{NUM}))?\s*-?\s*(?P<u>fl\.? oz|[a-zA-Z]+)\.?\s*\)"
+                 rf"\s*(?:\([^)]*\)\s*)*(?P<what>.*)$", rest)
     if p:
         unit = p["u"].lower().replace("fl. oz", "fl oz")
         inner = _num(p["n"])
+        if p["n2"] and p["op"] not in ("x", "×"):        # "7 to 8 inch" -> 7.5
+            inner = (inner + _num(p["n2"])) / 2
         what = p["what"].strip().lower()
         if unit in ("inch", "in", "cm"):
             return {"kind": "size", "count": amount, "size": inner, "size_unit": unit, "what": what}
@@ -134,6 +139,11 @@ def parse_quantity(q: str) -> dict:
         return {"kind": "weight", "grams": amount * GRAMS_PER[unit]}
     if unit in ML_PER:
         return {"kind": "volume", "ml": amount * ML_PER[unit], "text": rest.lower()}
+    if first == "dozen":                       # "1 dozen" eggs/clams -> 12 of them
+        return parse_quantity(f"{amount * 12:g} {' '.join(words[1:])}".strip())
+    if first == "extra" and len(words) > 1 and words[1].startswith("large"):
+        words = ["extra-large"] + words[2:]
+        first = "extra-large"
     # "1 inch piece", "½ inch" written without parentheses
     if first in ("inch", "inches", "in", "cm"):
         return {"kind": "size", "count": 1.0, "size": amount, "size_unit": "cm" if first == "cm" else "inch",
@@ -145,7 +155,7 @@ def parse_quantity(q: str) -> dict:
         if inner.get("vague"):
             return {**inner, "ml": amount * inner["ml"] * scale[first], "vague": f"{first} {inner['vague']}"}
     base = _singular(first)
-    if base in VAGUE_ML or base.rstrip("e") in VAGUE_ML or first in ("pinches", "dashes", "drops", "handfuls"):
+    if base in VAGUE_ML or base.rstrip("e") in VAGUE_ML or first in ("pinches", "dashes", "drops", "handfuls", "drizzles"):
         key = next(k for k in VAGUE_ML if first.startswith(k))
         return {"kind": "volume", "ml": amount * VAGUE_ML[key], "vague": key}
     if first.startswith("spritz"):
@@ -179,13 +189,32 @@ def _portion_ml(unit: str):
     return None
 
 
+def estimated_density(food: dict):
+    """g/mL from a food's composition when it has no volume portion: oils ~0.92; syrups and honey
+    ~1.35; watery or alcoholic liquids ~1.0, heavier with sugar, lighter with alcohol. Thick or dry
+    foods (spice blends, spreads, seeds) get no estimate -- they need a reviewed density."""
+    n = food.get("per_100g", {})
+    water, fat, sugars, alcohol = (n.get(k, 0.0) for k in ("water", "fat", "sugars", "alcohol"))
+    if fat >= 95:
+        return 0.92
+    if sugars >= 60 and water >= 15:
+        return 1.35
+    if water + alcohol >= 55 and fat < 10:
+        return round(1.0 + 0.0045 * sugars - 0.002 * alcohol, 3)
+    if "water" not in n and n.get("energy", 999) <= 40 and fat < 1:
+        return 1.0      # grocery labels list no water: a near-zero-calorie, fat-free item is water-like
+    return None
+
+
 def density(food: dict, line_text: str = ""):
     """(grams per mL, portion label) from the food's volume portions; a prep word in the line
-    ("chopped", "sliced") selects the matching portion when there is one."""
+    ("chopped", "sliced") selects the matching portion when there is one. With no volume portion,
+    a liquid's density is estimated from its composition (estimated_density)."""
     vols = [(p, _portion_ml(p["unit"])) for p in food.get("portions", [])]
     vols = [(p, ml) for p, ml in vols if ml]
     if not vols:
-        return None, None
+        d = estimated_density(food)
+        return (d, f"estimated density {d} g/mL") if d else (None, None)
     text = line_text.lower()
     for word in PREP_WORDS:
         if word in text:
@@ -309,10 +338,9 @@ def line_grams(parsed: dict, food: dict, line_name: str = "", measures: dict = N
         per = measures.get(unit) or (measures["inch"] / 2.54 if unit == "cm" and "inch" in measures else None)
         if per:
             return parsed["count"] * parsed["size"] * per, f"reviewed per-{unit} weight"
-        if parsed["what"] in ("", "round", "rounds") or "tortilla" in parsed["what"]:
-            g, label = (measures["item"], "reviewed per-item weight") if "item" in measures else count_grams(food, line_name)
-            if g:
-                return parsed["count"] * g, f"count (diameter given) @ {label}"
+        g, label = (measures["item"], "reviewed per-item weight") if "item" in measures else count_grams(food, line_name)
+        if g:
+            return parsed["count"] * g, f"count (size given) @ {label}"
         return None, f"no per-{unit} weight"
     return None, f"cannot parse ({kind})"
 

@@ -100187,7 +100187,13 @@
     "iron": "label",
     "sodium": "label"
    },
-   "portions": []
+   "portions": [
+    {
+     "amount": 2.0,
+     "unit": "tbsp",
+     "grams": 30.0
+    }
+   ]
   },
   "branded:737602": {
    "name": "ORIGINAL DASHI STOCK POWDER, ORIGINAL",
@@ -100223,7 +100229,13 @@
     "iron": "label",
     "sodium": "label"
    },
-   "portions": []
+   "portions": [
+    {
+     "amount": 0.28,
+     "unit": "onz",
+     "grams": 8.0
+    }
+   ]
   },
   "branded:2032516": {
    "name": "HSIN TUNG YANG, CHILI SAUCE WITH BEAN PASTE & GARLIC",
@@ -100259,7 +100271,13 @@
     "iron": "label",
     "sodium": "label"
    },
-   "portions": []
+   "portions": [
+    {
+     "amount": 2.0,
+     "unit": "tsp",
+     "grams": 10.0
+    }
+   ]
   },
   "branded:2039206": {
    "name": "KIKKOMAN, AJI-MIRIN",
@@ -100317,7 +100335,13 @@
     "iron": "label",
     "sodium": "label"
    },
-   "portions": []
+   "portions": [
+    {
+     "amount": 0.25,
+     "unit": "cup",
+     "grams": 30.0
+    }
+   ]
   },
   "branded:2084850": {
    "name": "CHILI OIL",
@@ -100375,7 +100399,13 @@
     "iron": "label",
     "sodium": "label"
    },
-   "portions": []
+   "portions": [
+    {
+     "amount": 1.0,
+     "unit": "onz",
+     "grams": 28.0
+    }
+   ]
   },
   "branded:2436644": {
    "name": "CHINKIANG VINEGAR",
@@ -100445,7 +100475,13 @@
     "potassium": "label",
     "sodium": "label"
    },
-   "portions": []
+   "portions": [
+    {
+     "amount": 2.0,
+     "unit": "oz",
+     "grams": 57.0
+    }
+   ]
   },
   "branded:2776732": {
    "name": "Pork Ears",
@@ -100473,7 +100509,13 @@
     "iron": "label",
     "sodium": "label"
    },
-   "portions": []
+   "portions": [
+    {
+     "amount": 4.0,
+     "unit": "oz serving, servings per container",
+     "grams": 112.0
+    }
+   ]
   },
   "recipe:nuoc-cham": {
    "name": "nuoc cham (water, lime juice, sugar, fish sauce)",
@@ -119611,6 +119653,12 @@
   }
  },
  "measures": {
+  "2": {
+   "item": 85
+  },
+  "15": {
+   "item": 2
+  },
   "24": {
    "head": 45
   },
@@ -119619,7 +119667,9 @@
    "bunch": 454
   },
   "28": {
-   "small pkg": 21
+   "small pkg": 21,
+   "large sprig": 2,
+   "bunch": 30
   },
   "74": {
    "inch": 0.9,
@@ -119641,6 +119691,9 @@
   },
   "122": {
    "density": 1.05
+  },
+  "126": {
+   "density": 0.5
   },
   "132": {
    "density": 1.01
@@ -119670,6 +119723,10 @@
   "192": {
    "inch": 1.0
   },
+  "195": {
+   "item": 17,
+   "pkg": 255
+  },
   "221": {
    "inch": 10
   },
@@ -119678,6 +119735,9 @@
   },
   "228": {
    "density": 1.0
+  },
+  "231": {
+   "cap": 84
   },
   "232": {
    "inch": 1.0
@@ -119702,13 +119762,15 @@
   },
   "286": {
    "small pkg": 21,
-   "sprig": 1.0
+   "sprig": 1.0,
+   "item": 1.0
   },
   "287": {
    "small pkg": 21,
    "sprig": 0.25,
    "item": 0.25,
-   "bunch": 15
+   "bunch": 15,
+   "stem": 0.25
   },
   "288": {
    "density": 0.34
@@ -119717,10 +119779,17 @@
    "medium head": 900
   },
   "302": {
-   "strip": 28
+   "strip": 28,
+   "density": 0.6
+  },
+  "314": {
+   "item": 1100
   },
   "320": {
    "small bunch": 25
+  },
+  "329": {
+   "item": 14.7
   },
   "339": {
    "small pkg": 21
@@ -119730,6 +119799,9 @@
   },
   "349": {
    "item": 6
+  },
+  "352": {
+   "density": 0.8
   },
   "354": {
    "density": 0.72
@@ -119743,8 +119815,26 @@
   "409": {
    "density": 1.12
   },
+  "423": {
+   "density": 1.0
+  },
+  "432": {
+   "density": 0.97
+  },
   "440": {
    "heart": 180
+  },
+  "443": {
+   "density": 0.11
+  },
+  "452": {
+   "item": 75
+  },
+  "470": {
+   "medium head": 234
+  },
+  "471": {
+   "bunch": 350
   },
   "475": {
    "loaf": 680
@@ -119754,6 +119844,15 @@
   },
   "1021": {
    "sheet": 245
+  },
+  "1022": {
+   "density": 0.6
+  },
+  "1073": {
+   "density": 1.0
+  },
+  "1081": {
+   "density": 0.68
   },
   "1082": {
    "item": 2.5,
@@ -119765,20 +119864,91 @@
   "1093": {
    "density": 1.05
   },
+  "1098": {
+   "density": 0.55
+  },
+  "1132": {
+   "density": 0.6
+  },
+  "1141": {
+   "item": 85
+  },
+  "1156": {
+   "density": 0.48,
+   "slice": 21
+  },
   "1174": {
    "inch": 50
+  },
+  "1185": {
+   "density": 1.25
+  },
+  "1260": {
+   "density": 0.09
   },
   "1270": {
    "item": 0.2
   },
+  "1293": {
+   "density": 0.55
+  },
+  "1308": {
+   "density": 0.2
+  },
+  "1312": {
+   "density": 0.4
+  },
+  "1368": {
+   "density": 0.15
+  },
   "1373": {
    "item": 2
+  },
+  "1420": {
+   "density": 0.62
+  },
+  "1423": {
+   "density": 1.3
+  },
+  "1460": {
+   "density": 0.65
+  },
+  "1495": {
+   "density": 0.5
+  },
+  "1515": {
+   "item": 9
+  },
+  "1516": {
+   "density": 1.25
+  },
+  "1522": {
+   "item": 1.5,
+   "density": 0.09
   },
   "1526": {
    "density": 1.01
   },
+  "1535": {
+   "density": 0.12
+  },
+  "1586": {
+   "density": 1.35
+  },
+  "1600": {
+   "density": 0.57
+  },
+  "1635": {
+   "density": 0.72
+  },
   "1647": {
    "density": 0.46
+  },
+  "1670": {
+   "density": 0.57
+  },
+  "1675": {
+   "bunch": 450
   },
   "1679": {
    "density": 0.42
@@ -119786,11 +119956,23 @@
   "1699": {
    "density": 1.04
   },
+  "1708": {
+   "density": 1.35
+  },
   "1714": {
    "bottle": 743
   },
+  "1720": {
+   "item": 40
+  },
+  "1723": {
+   "large bunch": 300
+  },
   "1726": {
    "density": 1.01
+  },
+  "1729": {
+   "density": 0.6
   },
   "1730": {
    "density": 1.0
@@ -119812,10 +119994,14 @@
    "whole": 0.1
   },
   "1766": {
-   "sprig": 1.0
+   "sprig": 1.0,
+   "inch": 0.2
   },
   "1770": {
    "density": 0.55
+  },
+  "1771": {
+   "density": 1.25
   },
   "1787": {
    "density": 1.03
@@ -119833,12 +120019,21 @@
    "density": 0.6,
    "item": 10
   },
+  "1812": {
+   "item": 0.15
+  },
   "1815": {
    "inch": 10
   },
   "1816": {
    "stalk": 20,
    "inch": 3
+  },
+  "1817": {
+   "density": 1.2
+  },
+  "1827": {
+   "item": 70
   },
   "1831": {
    "density": 0.47,
@@ -119860,20 +120055,61 @@
   "1882": {
    "item": 0.15
   },
+  "1918": {
+   "item": 450
+  },
+  "1932": {
+   "bunch": 40
+  },
+  "1944": {
+   "density": 0.35
+  },
   "1953": {
    "density": 1.27
   },
+  "1954": {
+   "density": 0.8
+  },
   "1975": {
    "rack": 1300
+  },
+  "1984": {
+   "density": 1.1
   },
   "1990": {
    "inch": 1.0
   },
   "1994": {
-   "sprig": 0.25
+   "sprig": 0.25,
+   "stem": 0.25,
+   "inch": 0.05
   },
   "2015": {
    "item": 0.3
+  },
+  "2022": {
+   "density": 0.6
+  },
+  "2046": {
+   "density": 1.25
+  },
+  "2057": {
+   "density": 0.5
+  },
+  "2091": {
+   "item": 5
+  },
+  "2122": {
+   "item": 2.5
+  },
+  "2162": {
+   "item": 2300
+  },
+  "2171": {
+   "density": 0.68
+  },
+  "2175": {
+   "density": 0.8
   },
   "2177": {
    "density": 0.59
@@ -119881,17 +120117,113 @@
   "2195": {
    "item": 0.1
   },
+  "2205": {
+   "item": 0.06
+  },
   "2221": {
    "sprig": 0.5
+  },
+  "2232": {
+   "density": 0.8
+  },
+  "2275": {
+   "item": 12
+  },
+  "2297": {
+   "density": 1.2
+  },
+  "2299": {
+   "bunch": 30
+  },
+  "2401": {
+   "density": 0.55
+  },
+  "2406": {
+   "bottle": 743
+  },
+  "2423": {
+   "item": 2000
+  },
+  "2435": {
+   "density": 0.6
+  },
+  "2462": {
+   "item": 450
+  },
+  "2483": {
+   "bunch": 120
+  },
+  "2484": {
+   "density": 0.5
+  },
+  "2506": {
+   "item": 2300
+  },
+  "2510": {
+   "item": 0.3
+  },
+  "2520": {
+   "small head": 150
   },
   "2543": {
    "density": 1.2
   },
+  "2572": {
+   "item": 1100
+  },
   "2588": {
    "density": 0.92
   },
+  "2594": {
+   "bottle": 773
+  },
+  "2633": {
+   "density": 0.04
+  },
+  "2635": {
+   "density": 0.5
+  },
+  "2652": {
+   "density": 1.05
+  },
+  "2671": {
+   "serving": 200
+  },
+  "2701": {
+   "density": 0.05
+  },
+  "2702": {
+   "density": 0.5
+  },
   "2714": {
    "density": 0.65
+  },
+  "2724": {
+   "link": 40
+  },
+  "2741": {
+   "serving": 81
+  },
+  "2794": {
+   "item": 1300
+  },
+  "2808": {
+   "density": 0.34
+  },
+  "2824": {
+   "density": 0.5
+  },
+  "2829": {
+   "item": 70
+  },
+  "2860": {
+   "density": 1.35
+  },
+  "2937": {
+   "item": 200
+  },
+  "3547": {
+   "inch": 6
   }
  },
  "corrections": {}

@@ -202,6 +202,15 @@ def portions(food: dict) -> list[dict]:
         if unit and p.get("gramWeight"):
             out.append({"amount": p.get("amount") or 1.0, "unit": unit.strip(),
                         "grams": float(p["gramWeight"])})
+    # Branded labels have no foodPortions, but state a household serving ("2 Tbsp") and its
+    # weight; only a gram serving says what the household measure weighs
+    household = (food.get("householdServingFullText") or "").strip()
+    m = re.match(r"^(\d+(?:\.\d+)?|\d+/\d+)\s+(.+)$", household)
+    if not out and m and food.get("servingSize") and (food.get("servingSizeUnit") or "").lower() in ("g", "grm"):
+        n = m[1].split("/")
+        amount = float(n[0]) / float(n[1]) if len(n) == 2 else float(n[0])
+        if amount > 0:
+            out.append({"amount": amount, "unit": m[2].lower(), "grams": float(food["servingSize"])})
     return out
 
 
