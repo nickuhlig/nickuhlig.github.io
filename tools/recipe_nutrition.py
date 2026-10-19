@@ -412,8 +412,20 @@ def recipe_nutrition(recipe: dict, db: dict, skip_ids=()) -> dict:
             entry.update(status="unmatched ingredient")
             lines.append(entry)
             continue
+        if assign["ref"].startswith("none:"):      # removed before eating (bouquet garni, husks)
+            entry.update(grams=0.0, how="removed before eating (counted as zero)", ref=assign["ref"], status="zero")
+            lines.append(entry)
+            continue
+        parsed = parse_quantity(ing.get("quantity"))
+        if assign.get("removed_when_whole") and parsed["kind"] in ("count", "piece", "size"):
+            # whole spices that are fished out ("2 bay leaves", "1 cinnamon stick", "2 stalks
+            # lemongrass"); measured by volume or weight ("2 tbsp minced lemongrass") they count
+            entry.update(grams=0.0, how="whole spice, removed before eating (counted as zero)",
+                         ref=assign["ref"], status="zero")
+            lines.append(entry)
+            continue
         food = db["foods"][assign["ref"]]
-        grams, how = line_grams(parse_quantity(ing.get("quantity")), food, ing.get("name") or "",
+        grams, how = line_grams(parsed, food, ing.get("name") or "",
                                 db.get("measures", {}).get(iid))
         if grams and iid in SALT_IDS and drained_salt:
             water_g = sum(line_grams(parse_quantity(q), food, q)[0] or 0 for q in drained_salt)

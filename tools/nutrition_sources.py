@@ -300,13 +300,66 @@ def import_opennutrition(tsv: Path, extra_ids=()) -> dict:
             if common.get("unit") and metric.get("unit") == "g" and metric.get("quantity"):
                 portions.append({"amount": float(common.get("quantity") or 1), "unit": common["unit"],
                                  "grams": float(metric["quantity"])})
-            sources = [s.get("database") for s in json.loads(row["source"] or "[]")]
+            sources = [{"db": s.get("database"), "id": str(s.get("id")), "name": s.get("name")}
+                       for s in json.loads(row["source"] or "[]")]
             key = f"on:{row['id']}"
             out[key] = {"key": key, "source": "on", "id": row["id"], "name": row["name"],
                         "alt_names": json.loads(row["alternate_names"] or "[]"),
                         "per_100g": per_100g, "quality": {k: "estimated" for k in per_100g},
                         "portions": portions, "cites": sources}
     return out
+
+
+def grocery_base_name(name: str) -> str:
+    """'Aleppo Pepper by Morton & Bassett Spices' -> 'aleppo pepper' (normalized, singularized)."""
+    base = re.split(r"\s+by\s+", name or "", maxsplit=1)[0]
+    base = re.sub(r"\s+", " ", re.sub(r"[^a-z ]", " ", base.lower().replace("-", " "))).strip()
+    return " ".join(w[:-1] if w.endswith("s") and len(w) > 3 else w for w in base.split())
+
+
+ZERO_CALORIE_WORDS = re.compile(r"\b(water|vinegar|tea|coffee|seltzer|club soda|extract|bitters|spray|"
+                                r"salt|sweetener|stevia|sucralose|zero|diet)\b", re.I)
+ALCOHOL_WORDS = re.compile(r"\b(wine|liqueur|rum|vodka|whiske?y|brandy|gin|tequila|vermouth|sake|mirin|"
+                           r"beer|cider|spirit|aperitivo|amaro|bitters)\b", re.I)
+
+
+def label_problem(name: str, kcal, protein, fat, carbs, sodium=None):
+    """Why a grocery product's label numbers can't be trusted (None = plausible). Labels round
+    tiny servings, so a 1-tsp spice reads 0 kcal; the same test fdc_client.label_problems applies
+    to USDA Branded labels: all-zero macros, or calories that don't fit 4/4/9 kcal per gram."""
+    if kcal is None or protein is None or fat is None or carbs is None:
+        return "missing calories or macros"
+    if max(protein, fat, carbs) > 100 or kcal > 900:
+        return "impossible per-100 g values"
+    if sodium is not None and sodium > 40000:        # more than pure salt (~38,800 mg)
+        return f"impossible sodium ({sodium:g} mg)"
+    if kcal == 0 and protein == 0 and fat == 0 and carbs == 0:
+        return None if ZERO_CALORIE_WORDS.search(name or "") else "all zero (rounded label)"
+    atwater = 4 * protein + 4 * carbs + 9 * fat
+    gap = kcal - atwater
+    if gap > 0 and (ALCOHOL_WORDS.search(name or "") or "vinegar" in (name or "").lower()):
+        return None        # labels leave out alcohol and acetic acid calories
+    if kcal == 0 or abs(gap) > max(25.0, 0.25 * kcal):
+        return f"{kcal:g} kcal doesn't fit its macros (~{atwater:.0f})"
+    return None
+
+
+def import_on_grocery_index(tsv: Path) -> dict:
+    """Names of OpenNutrition's ~313k grocery (branded) products, keyed by base name, so the
+    matcher can find exact product matches without importing every product's nutrients. A chosen
+    product is then imported in full with --on-extra-ids."""
+    csv.field_size_limit(10 ** 9)
+    index = {}
+    with open(tsv, encoding="utf-8", newline="") as f:
+        for row in csv.DictReader(f, delimiter="\t", quoting=csv.QUOTE_NONE):
+            if row["type"] != "grocery":
+                continue
+            n = json.loads(row["nutrition_100g"] or "{}")
+            fields = sum(v is not None for v in n.values())
+            index.setdefault(grocery_base_name(row["name"]), []).append(
+                [row["id"], row["name"], fields, n.get("calories"), n.get("protein"), n.get("total_fat"),
+                 n.get("carbohydrates"), n.get("sodium")])
+    return index
 
 
 # --- storage -------------------------------------------------------------------------------------
@@ -345,10 +398,22 @@ def main() -> None:
     p.add_argument("--cnf", help="folder with the CNF 2015 CSV files")
     p.add_argument("--frida", help="Frida_5.5_Dataset.xlsx")
     p.add_argument("--opennutrition", help="opennutrition_foods.tsv")
+    p.add_argument("--on-grocery-index", help="opennutrition_foods.tsv: write the grocery product name index")
     p.add_argument("--on-extra-ids", default="",
                    help="comma-separated OpenNutrition grocery ids to import besides the generic foods")
     args = parser.parse_args()
-    on_reader = lambda tsv: import_opennutrition(tsv, [i for i in args.on_extra_ids.split(",") if i])
+    if args.on_grocery_index:
+        index = import_on_grocery_index(Path(args.on_grocery_index))
+        print(f"on_grocery_index: {len(index)} names -> {save('on_grocery_index', index)}", file=sys.stderr)
+    # grocery products already chosen in nutrition_foods.json are always kept, so a re-import can't
+    # silently drop one that was picked earlier
+    from library_paths import DEFAULT_LIBRARY_DIR
+    chosen = DEFAULT_LIBRARY_DIR / "nutrition_foods.json"
+    extra = {i for i in args.on_extra_ids.split(",") if i}
+    if chosen.exists():
+        refs = [a["ref"] for a in json.loads(chosen.read_text(encoding="utf-8"))["ingredients"].values()]
+        extra |= {r[3:] for r in refs if r.startswith("on:")}
+    on_reader = lambda tsv: import_opennutrition(tsv, extra)
     for source, arg, reader in (("cnf", args.cnf, import_cnf), ("frida", args.frida, import_frida),
                                 ("on", args.opennutrition, on_reader)):
         if arg:

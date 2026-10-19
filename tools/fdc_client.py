@@ -223,6 +223,9 @@ MIN_SERVING = 10.0      # g or ml; labels round each serving to whole grams, so 
                         # up to 50/serving g -- a 5 g mustard serving can be off by 10 g per 100 g
 
 
+MAX_SODIUM_MG = 40000      # per 100 g; pure table salt is ~38,800 mg
+
+
 def label_problems(label_food: dict) -> list[str]:
     """Why a Branded product's label is unfit to override the stand-in ([] = usable). Labels
     round tiny per-serving amounts (a 1-tsp serving of chili sauce reads 0 kcal), so a product
@@ -234,6 +237,8 @@ def label_problems(label_food: dict) -> list[str]:
     if serving is not None and serving < MIN_SERVING:
         problems.append(f"serving only {serving:g} {label_food.get('servingSizeUnit', '')}, too coarse")
     impossible = [f for f in ("fat", "carbs", "protein", "sugars") if label.get(f, 0) > 100]
+    if label.get("sodium", 0) > MAX_SODIUM_MG:      # more than pure salt: a unit slip on the label
+        impossible.append("sodium")
     if impossible or label.get("energy", 0) > 900:
         problems.append("impossible per-100 g values (" + ", ".join(impossible or ["energy"]) + ")")
     if not problems and all(label[f] == 0 for f in ("energy", "fat", "carbs", "protein")):
