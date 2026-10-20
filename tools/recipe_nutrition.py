@@ -23,8 +23,8 @@ Rules agreed with the user: "to taste" lines count as zero; salt that goes into 
 while salt absorbed by rice or couscous still counts; flour for dredging and marinades count in full;
 added salt (a salt line with an amount)
 DOES count toward sodium -- Mealime's own numbers leave it out, so `validate` drops salt lines
-before comparing sodium; deep-fried items absorb oil equal to
-15% of their weight (not yet automated -- frying-oil lines are listed in coverage for now);
+before comparing sodium; deep- and pan-fried items absorb oil equal to 15% of their weight, capped
+at the oil listed (see apply_deep_frying for which oil lines count as frying oil);
 imported-site nutrition is overwritten by the calculated values.
 Kosher salt is weighed at 2.8 g/tsp (Diamond Crystal, what Serious Eats uses), not table salt's 6 g.
 
@@ -376,7 +376,16 @@ def drained_water_salt(recipe: dict) -> list:
     return out
 
 
-FRYING_OIL = re.compile(r"for (deep[- ]?)?fry|deep[- ]?fry|for frying", re.I)
+FRYING_OIL = re.compile(r"for (deep[- ]?)?fry|deep[- ]?fry|for frying|frying (oil|fat)", re.I)
+FAT_FOOD_MIN = 90              # g fat per 100 g: oils, lard, shortening, ghee, schmaltz
+FRYING_ALWAYS_G = 800          # ~1 quart of oil (about 860 g): no recipe eats that much, so it is frying oil
+FRYING_WITH_STEP_G = 100       # ~1/2 cup: frying oil when the steps show it is a frying medium
+FRY_MEDIUM = re.compile(r"paper towel|drain (them |it |well )?on|\b3[2-9]\d ?(°|degrees|F\b)|oil (to|reaches|registers|is) (about )?3\d\d|"
+                        r"in batches|deep[- ]?fr|shallow[- ]?fr|pan[- ]?fr|until (golden|crisp)\w*,? (about )?\d+ (to \d+ )?min|"
+                        r"hot (fat|oil)|wire rack|slotted spoon|spider|a (few|couple)( of)?( \w+)? at a time", re.I)
+OIL_KEPT = re.compile(r"reserv\w* (the )?(frying |cooking )?oil|strain (the )?oil|pour (the )?(hot |infused |chile |chili )?oil over|"
+                      r"oil (in|into|to) a (jar|heatproof|bowl|container)|infused|chili oil|chile oil", re.I)
+OIL_PRODUCT_NAME = re.compile(r"\boil\b|salsa macha|vinaigrette|dressing|mayo|aioli|pesto|chimichurri|crisp\b", re.I)
 FRY_STEP = re.compile(r"\b(deep[- ]?)?(fry|fries|fried|frying)\b|\boil (to|reaches|registers) 3\d\d", re.I)
 SIDE_COMPONENT = re.compile(r"^\s*for (the )?[^:]{0,40}\b(sauce|dip|dipping|dressing|glaze|salsa|aioli|mayo|"
                             r"mayonnaise|topping|garnish|slaw|salad|relish|chutney|syrup|serving|pickles?)\b[^:]{0,20}:", re.I)
@@ -396,16 +405,42 @@ def _mentions(step_text: str, keywords: set) -> bool:
     return bool(keywords & text)
 
 
-def apply_deep_frying(recipe: dict, lines: list) -> None:
-    """Frying-oil lines ("vegetable oil, for frying -- 2 quarts") count only the oil absorbed: 15%
-    of the weight of what is fried. That is every other counted line except ones that appear only
-    in side-component steps ("For the Dipping Sauce: ...") or only in steps after the last frying
-    step (serving, garnish). Imported-site steps have no ingredient lists, so mentions are matched
-    by name words."""
-    oil = [l for l in lines if l.get("ref") and FRYING_OIL.search(f"{l['name']} {l['quantity'] or ''}")]
+def frying_oil_lines(lines: list, steps: list, foods: dict, recipe_name: str = "") -> list:
+    """Oil/fat lines that are frying oil: worded so ("vegetable oil, for frying"), or a fat
+    (>= 90% fat) of about a quart or more, or about 1/2 cup or more when the steps show the oil
+    is a frying medium (drain on paper towels, heat to 350 deg, fry in batches -- deep or pan
+    frying; Serious Eats drops "for frying" from its ingredient names). The 1/2-cup case is
+    skipped when the oil is kept and eaten (strained and reserved, poured over, an infused or
+    chili oil) or the recipe makes an oil, dressing or sauce."""
+    text = " ".join(steps)
+    fries = (any(FRY_STEP.search(s) for s in steps) and FRY_MEDIUM.search(text)
+             and not OIL_KEPT.search(text) and not OIL_PRODUCT_NAME.search(recipe_name))
+    out = []
+    for l in lines:
+        if not l.get("ref"):
+            continue
+        if FRYING_OIL.search(f"{l['name']} {l['quantity'] or ''}"):
+            out.append(l)
+            continue
+        if re.search(r"dripping", l["name"] or "", re.I):     # pan drippings are juices + fat, not a frying medium
+            continue
+        fat = (foods.get(l["ref"]) or {}).get("per_100g", {}).get("fat") or 0
+        grams = l.get("grams") or 0
+        if fat >= FAT_FOOD_MIN and (grams >= FRYING_ALWAYS_G or (fries and grams >= FRYING_WITH_STEP_G)):
+            out.append(l)
+    return out
+
+
+def apply_deep_frying(recipe: dict, lines: list, foods: dict) -> None:
+    """Frying-oil lines (frying_oil_lines) count only the oil absorbed: 15% of the weight of what
+    is fried, never more than the oil listed. What is fried is every other counted line except
+    ones that appear only in side-component steps ("For the Dipping Sauce: ...") or only in steps
+    after the last frying step (serving, garnish). Imported-site steps have no ingredient lists,
+    so mentions are matched by name words."""
+    steps = [(s.get("primary_message") or "") if isinstance(s, dict) else (s or "") for s in recipe.get("instructions", [])]
+    oil = frying_oil_lines(lines, steps, foods, recipe.get("name") or "")
     if not oil:
         return
-    steps = [s.get("primary_message", "") if isinstance(s, dict) else (s or "") for s in recipe.get("instructions", [])]
     fry_idx = [i for i, s in enumerate(steps) if FRY_STEP.search(s)]
     last_fry = fry_idx[-1] if fry_idx else len(steps) - 1
     fried_g = 0.0
@@ -417,11 +452,15 @@ def apply_deep_frying(recipe: dict, lines: list) -> None:
         if where and all(SIDE_COMPONENT.search(steps[i]) or i > last_fry for i in where):
             continue
         fried_g += l["grams"]
-    absorbed = fried_g * OIL_ABSORBED
+    # cap at the oil listed -- unless a line has no amount ("vegetable oil, for frying")
+    listed = sum(l.get("grams") or 0 for l in oil) if all(l.get("grams") for l in oil) else float("inf")
+    absorbed = min(fried_g * OIL_ABSORBED, listed)
     for i, l in enumerate(oil):
         l["grams_listed"] = l.get("grams")
         l["grams"] = round(absorbed, 1) if i == 0 else 0.0
-        l["how"] = f"deep frying: {OIL_ABSORBED:.0%} of {fried_g:.0f} g fried" if i == 0 else "deep frying: counted on first oil line"
+        l["how"] = (f"deep frying: {OIL_ABSORBED:.0%} of {fried_g:.0f} g fried"
+                    + (" (capped at the oil listed)" if absorbed == listed else "")) if i == 0 \
+            else "deep frying: counted on first oil line"
         l["status"] = "counted" if l["grams"] else "zero"
 
 
@@ -462,7 +501,7 @@ def recipe_nutrition(recipe: dict, db: dict, skip_ids=()) -> dict:
         entry.update(grams=None if grams is None else round(grams, 1), how=how, ref=assign["ref"],
                      status="counted" if grams else ("zero" if grams == 0 else "not converted"))
         lines.append(entry)
-    apply_deep_frying(recipe, lines)
+    apply_deep_frying(recipe, lines, db["foods"])
     for l in lines:
         if l.get("grams"):
             for field, v in db["foods"][l["ref"]]["per_100g"].items():
