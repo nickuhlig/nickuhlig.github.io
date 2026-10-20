@@ -19,7 +19,9 @@ from, and the per-100 g values of those foods, in one library file next to the m
       "measures":    {"188": {"small bunch": 40, "bunch": 65}, "257": {"density": 1.01}, ...}
                      reviewed gram weights per ingredient for units the source portions lack
                      (recipe_nutrition.py checks these first); "item" = one medium piece,
-                     "inch" = per inch, "density" = g per mL
+                     "inch" = per inch, "density" = g per mL; "drained" = yield of a can/jar's
+                     contents eaten drained, "package yield" = edible share of a package weight
+                     (whole rotisserie chicken), "can ref" = the food used for can/jar lines
 
 Kept separate from ingredient_master.json on purpose: the weekly refresh rewrites the master, and
 nutrition choices must not depend on that code preserving extra keys.
@@ -140,6 +142,7 @@ def apply_corrections(db: dict, ref: str, per_100g: dict, quality: dict) -> tupl
 
 def cmd_build(db: dict) -> None:
     refs = {a["ref"] for a in db["ingredients"].values()}
+    refs |= {m["can ref"] for m in db.get("measures", {}).values() if m.get("can ref")}
     for definition in db["composites"].values():
         refs |= {p["ref"] for p in definition["parts"]}
     missing = {r for r in refs if source_of(r) == "recipe" and r not in db["composites"]}

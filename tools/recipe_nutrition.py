@@ -30,10 +30,13 @@ Kosher salt is weighed at 2.8 g/tsp (Diamond Crystal, what Serious Eats uses), n
 
     python recipe_nutrition.py line "<quantity>" <ingredient id> ["<line name>"]   debug one line
     python recipe_nutrition.py validate --snapshot <recipes.json>                  vs Mealime
+    python recipe_nutrition.py validate --snapshot <recipes.json> --by-ingredient 15 [--field fat]
+        ... plus the ingredients whose recipes lean consistently high or low
 """
 
 import argparse
 import json
+import math
 import re
 import statistics
 import sys
@@ -72,6 +75,7 @@ VAGUE_ML = {"pinch": ML_PER["tsp"] / 16, "dash": ML_PER["tsp"] / 8, "drop": 0.05
             "handful": ML_PER["cup"] / 4, "drizzle": ML_PER["tsp"]}
 SPRITZ_G = 0.25
 DRAINED_YIELD = 0.6           # a 15 oz can of beans drains to ~250 g of its 425 g
+CAN_G_PER_ML = 425 / 398      # a 398 mL can holds the same 15 oz (425 g) as a US can
 KOSHER_SALT_G_PER_ML = 2.8 / ML_PER["tsp"]
 PREP_WORDS = ("chopped", "diced", "minced", "sliced", "grated", "shredded", "crumbled", "cubed", "mashed",
               "packed", "sifted", "whole", "halves", "pieces", "julienned", "ground")
@@ -216,6 +220,9 @@ def density(food: dict, line_text: str = ""):
         d = estimated_density(food)
         return (d, f"estimated density {d} g/mL") if d else (None, None)
     text = line_text.lower()
+    if "whipped" not in text:   # "cup, whipped" is half the weight of a cup of liquid cream ("heavy whipping cream")
+        vols = [(p, ml) for p, ml in vols
+                if "whip" not in p["unit"].lower() or "fluid" in p["unit"].lower()] or vols
     for word in PREP_WORDS:
         if word in text:
             for p, ml in vols:
@@ -291,10 +298,18 @@ def line_grams(parsed: dict, food: dict, line_name: str = "", measures: dict = N
     if kind == "weight":
         return parsed["grams"], "weight"
     if kind == "package":
+        # cans and jars of foods eaten drained (beans, lentils, marinated artichokes): the food is
+        # a drained-solids entry, or the ingredient has a reviewed "drained" yield
+        drained = measures.get("drained") or (DRAINED_YIELD if "drained" in (food.get("name") or "").lower() else None)
+        if drained and re.match(r"(can|jar|tin)", parsed["what"]):
+            each = parsed.get("grams_each") or parsed["ml_each"] * CAN_G_PER_ML
+            if 245 <= each <= 265:       # "(255 g) can": Mealime's metric cans give the drained weight
+                return parsed["count"] * each, "can, drained weight given"
+            return parsed["count"] * each * drained, f"can/jar, drained ({drained:.0%} of contents)"
         if "grams_each" in parsed:
             grams = parsed["count"] * parsed["grams_each"]
-            if parsed["what"].startswith("can") and "drained" in (food.get("name") or "").lower():
-                return grams * DRAINED_YIELD, "can, drained"
+            if "package yield" in measures:      # "1 (30 oz) whole rotisserie chicken": bones
+                return grams * measures["package yield"], f"package weight x reviewed yield {measures['package yield']}"
             return grams, "package weight"
         d, label = (measures["density"], "reviewed density") if "density" in measures else density(food, line_name)
         return (parsed["count"] * parsed["ml_each"] * d, f"package volume @ {label}") if d else (None, "no density")
@@ -491,14 +506,17 @@ def recipe_nutrition(recipe: dict, db: dict, skip_ids=()) -> dict:
                          ref=assign["ref"], status="zero")
             lines.append(entry)
             continue
-        food = db["foods"][assign["ref"]]
-        grams, how = line_grams(parsed, food, ing.get("name") or "",
-                                db.get("measures", {}).get(iid))
+        ref = assign["ref"]
+        measures = db.get("measures", {}).get(iid) or {}
+        if parsed["kind"] == "package" and measures.get("can ref") and re.match(r"(can|jar|tin)", parsed["what"]):
+            ref = measures["can ref"]      # "1 (15 oz) can lentils": cooked, not the dry lentils the cup lines use
+        food = db["foods"][ref]
+        grams, how = line_grams(parsed, food, ing.get("name") or "", measures)
         if grams and iid in SALT_IDS and drained_salt:
             water_g = sum(line_grams(parse_quantity(q), food, q)[0] or 0 for q in drained_salt)
             grams, how = max(0.0, grams - water_g), f"{how}, minus {water_g:.1f} g for cooking water"
             drained_salt = []
-        entry.update(grams=None if grams is None else round(grams, 1), how=how, ref=assign["ref"],
+        entry.update(grams=None if grams is None else round(grams, 1), how=how, ref=ref,
                      status="counted" if grams else ("zero" if grams == 0 else "not converted"))
         lines.append(entry)
     apply_deep_frying(recipe, lines, db["foods"])
@@ -533,12 +551,47 @@ def cmd_validate(args, db):
         if ratios:
             q = statistics.quantiles(ratios, n=10)
             within = sum(0.85 <= x <= 1.15 for x in ratios) / len(ratios)
+            high = sum(x > 1.15 for x in ratios) / len(ratios)
+            off50 = sum(x > 1.5 or x < 1 / 1.5 for x in ratios) / len(ratios)
             print(f"  {f:<10} ours/Mealime median {statistics.median(ratios):.2f}  "
-                  f"p10 {q[0]:.2f}  p90 {q[-1]:.2f}  within ±15%: {within:.0%}")
+                  f"p10 {q[0]:.2f}  p90 {q[-1]:.2f}  within ±15%: {within:.0%}  "
+                  f"(high {high:.0%}, low {1 - within - high:.0%}; >50% off {off50:.1%})")
     print("\nmost common lines not converted:")
     for (status, how, name), n in sorted(problems.items(), key=lambda kv: -kv[1])[:args.top]:
         print(f"  {n:>6}  {status:<22} {how or '':<28} {name}")
+    if args.by_ingredient:
+        by_ingredient_report(complete, db, args.field, args.by_ingredient)
     return complete
+
+
+def by_ingredient_report(complete: list, db: dict, field: str = "energy", top: int = 15) -> None:
+    """Which ingredients pull recipes away from Mealime: for each recipe, log(ours/Mealime) for the
+    field, credited to each ingredient by its share of our total. An ingredient whose recipes all
+    lean the same way (a bad per-item weight, a can counted undrained, a different food) rises to
+    the top; scattered noise cancels out. Ingredients in fewer than 15 recipes are left out."""
+    acc = {}
+    for r, res in complete:
+        theirs, ours = r["nutrition"].get(field), res["per_serving"].get(field, 0)
+        if not theirs or theirs < (20 if field == "sodium" else 0.5) or ours <= 0:
+            continue
+        err = math.log(ours / theirs)
+        total = ours * (r.get("serving_count") or r.get("servings") or 1)
+        for l in res["lines"]:
+            if not l.get("grams"):
+                continue
+            share = db["foods"][l["ref"]]["per_100g"].get(field, 0) * l["grams"] / 100 / total
+            if share <= 0:
+                continue
+            a = acc.setdefault(l["ingredient_id"], [0.0, 0.0, 0, l["name"], l["ref"], l.get("how") or ""])
+            a[0] += share * err
+            a[1] += share
+            a[2] += 1
+    rows = [a for a in acc.values() if a[2] >= 15]
+    for title, key in (("pulling HIGH (ours > Mealime)", lambda a: -a[0]), ("pulling LOW (ours < Mealime)", lambda a: a[0])):
+        print(f"\n{field}: ingredients {title}, by total impact")
+        for impact, share, n, name, ref, how in sorted(rows, key=key)[:top]:
+            print(f"  {name[:32]:<32} in {n:>4} recipes, avg share {share / n:4.0%}, those recipes {math.exp(impact / share):.2f}x"
+                  f" | {db['foods'][ref]['name'][:34]:<34} | {how.split(' @')[0][:30]}")
 
 
 def main() -> None:
@@ -547,6 +600,9 @@ def main() -> None:
     sub = parser.add_subparsers(dest="cmd", required=True)
     p = sub.add_parser("line"); p.add_argument("quantity"); p.add_argument("ingredient_id"); p.add_argument("name", nargs="?", default="")
     p = sub.add_parser("validate"); p.add_argument("--snapshot", required=True); p.add_argument("--top", type=int, default=40)
+    p.add_argument("--by-ingredient", type=int, default=0, metavar="N",
+                   help="also list the N ingredients that pull recipes furthest high and low")
+    p.add_argument("--field", default="energy", help="field for --by-ingredient (energy, fat, carbs, protein, ...)")
     args = parser.parse_args()
     db = nc.load_db(Path(args.recipes_dir))
     if args.cmd == "line":

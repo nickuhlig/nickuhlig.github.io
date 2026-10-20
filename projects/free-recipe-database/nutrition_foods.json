@@ -112190,6 +112190,143 @@
     }
    ]
   },
+  "sr:172421": {
+   "name": "Lentils, mature seeds, cooked, boiled, without salt",
+   "source": "sr",
+   "tier": 1,
+   "per_100g": {
+    "energy": 116.0,
+    "alcohol": 0.0,
+    "ash": 0.83,
+    "caffeine": 0.0,
+    "water": 69.64,
+    "carbs": 20.13,
+    "fiber": 7.9,
+    "sugars": 1.8,
+    "fat": 0.38,
+    "monounsaturated": 0.064,
+    "polyunsaturated": 0.175,
+    "omega_3": 0.037,
+    "omega_6": 0.137,
+    "saturated": 0.053,
+    "transfats": 0.0,
+    "cholesterol": 0.0,
+    "protein": 9.02,
+    "alanine": 0.377,
+    "arginine": 0.697,
+    "aspartic_acid": 0.998,
+    "cystine": 0.118,
+    "glutamic_acid": 1.399,
+    "glycine": 0.367,
+    "histidine": 0.254,
+    "isoleucine": 0.39,
+    "leucine": 0.654,
+    "lysine": 0.63,
+    "methionine": 0.077,
+    "phenylalanine": 0.445,
+    "proline": 0.377,
+    "serine": 0.416,
+    "threonine": 0.323,
+    "tryptophan": 0.081,
+    "tyrosine": 0.241,
+    "valine": 0.448,
+    "b1_thiamine": 0.169,
+    "b2_riboflavin": 0.073,
+    "b3_niacin": 1.06,
+    "b5_pantothenic_acid": 0.638,
+    "b6_pyridoxine": 0.178,
+    "b12_cobalamin": 0.0,
+    "choline": 32.7,
+    "folate": 181.0,
+    "vitamin_a": 0.0,
+    "vitamin_c": 1.5,
+    "vitamin_d": 0.0,
+    "vitamin_e": 0.11,
+    "vitamin_k": 1.7,
+    "calcium": 19.0,
+    "copper": 0.251,
+    "iron": 3.33,
+    "magnesium": 36.0,
+    "manganese": 0.494,
+    "phosphorus": 180.0,
+    "potassium": 369.0,
+    "selenium": 2.8,
+    "sodium": 2.0,
+    "zinc": 1.27
+   },
+   "quality": {
+    "energy": "calculated",
+    "alcohol": "unknown",
+    "ash": "unknown",
+    "caffeine": "assumed_zero",
+    "water": "unknown",
+    "carbs": "calculated",
+    "fiber": "unknown",
+    "sugars": "borrowed",
+    "fat": "unknown",
+    "monounsaturated": "unknown",
+    "polyunsaturated": "unknown",
+    "omega_3": "unknown",
+    "omega_6": "unknown",
+    "saturated": "unknown",
+    "transfats": "assumed_zero",
+    "cholesterol": "unknown",
+    "protein": "unknown",
+    "alanine": "unknown",
+    "arginine": "unknown",
+    "aspartic_acid": "unknown",
+    "cystine": "unknown",
+    "glutamic_acid": "unknown",
+    "glycine": "unknown",
+    "histidine": "unknown",
+    "isoleucine": "unknown",
+    "leucine": "unknown",
+    "lysine": "unknown",
+    "methionine": "unknown",
+    "phenylalanine": "unknown",
+    "proline": "unknown",
+    "serine": "unknown",
+    "threonine": "unknown",
+    "tryptophan": "unknown",
+    "tyrosine": "unknown",
+    "valine": "unknown",
+    "b1_thiamine": "unknown",
+    "b2_riboflavin": "unknown",
+    "b3_niacin": "unknown",
+    "b5_pantothenic_acid": "unknown",
+    "b6_pyridoxine": "unknown",
+    "b12_cobalamin": "unknown",
+    "choline": "unknown",
+    "folate": "calculated",
+    "vitamin_a": "calculated",
+    "vitamin_c": "unknown",
+    "vitamin_d": "assumed_zero",
+    "vitamin_e": "imputed",
+    "vitamin_k": "imputed",
+    "calcium": "unknown",
+    "copper": "unknown",
+    "iron": "unknown",
+    "magnesium": "unknown",
+    "manganese": "unknown",
+    "phosphorus": "unknown",
+    "potassium": "unknown",
+    "selenium": "imputed",
+    "sodium": "unknown",
+    "zinc": "unknown"
+   },
+   "portions": [
+    {
+     "amount": 1.0,
+     "unit": "cup",
+     "grams": 198.0
+    },
+    {
+     "amount": 1.0,
+     "unit": "tbsp",
+     "grams": 12.3
+    }
+   ]
+  },
   "sr:172428": {
    "name": "Peas, green, split, mature seeds, raw",
    "source": "sr",
@@ -205848,6 +205985,9 @@
    "inch": 0.9,
    "stick": 2.5
   },
+  "91": {
+   "drained": 0.6
+  },
   "92": {
    "density": 0.69
   },
@@ -205899,6 +206039,9 @@
   "195": {
    "item": 17,
    "pkg": 255
+  },
+  "213": {
+   "item": 30
   },
   "221": {
    "inch": 10
@@ -205955,6 +206098,9 @@
    "strip": 28,
    "density": 0.6
   },
+  "313": {
+   "item": 113
+  },
   "314": {
    "item": 1100
   },
@@ -205969,6 +206115,12 @@
   },
   "343": {
    "bunch": 150
+  },
+  "344": {
+   "drained": 0.65
+  },
+  "345": {
+   "item": 90
   },
   "349": {
    "item": 6
@@ -205985,8 +206137,15 @@
   "358": {
    "density": 0.56
   },
+  "395": {
+   "package yield": 0.55
+  },
   "409": {
    "density": 1.12
+  },
+  "420": {
+   "can ref": "sr:172421",
+   "drained": 0.6
   },
   "423": {
    "density": 1.0
@@ -206010,7 +206169,8 @@
    "bunch": 350
   },
   "475": {
-   "loaf": 680
+   "loaf": 680,
+   "slice": 50
   },
   "1012": {
    "loaf": 250
