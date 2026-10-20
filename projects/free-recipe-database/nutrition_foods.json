@@ -9677,9 +9677,9 @@
    "flag": false
   },
   "2616": {
-   "ref": "sr:173571",
-   "note": "turkey drippings -> turkey fat",
-   "flag": false
+   "ref": "recipe:turkey-drippings",
+   "note": "turkey pan drippings = mostly skimmed juices (broth 95, turkey fat 5; your pick). FNDDS only has drippings as rendered fat and finished gravy",
+   "flag": true
   },
   "2617": {
    "ref": "sr:171331",
@@ -15322,6 +15322,19 @@
     {
      "ref": "sr:173647",
      "grams": 100
+    }
+   ]
+  },
+  "recipe:turkey-drippings": {
+   "name": "turkey pan drippings (broth 95, turkey fat 5)",
+   "parts": [
+    {
+     "ref": "sr:174536",
+     "grams": 95
+    },
+    {
+     "ref": "sr:173571",
+     "grams": 5
     }
    ]
   },
@@ -203994,6 +204007,140 @@
    },
    "portions": []
   },
+  "recipe:turkey-drippings": {
+   "name": "turkey pan drippings (broth 95, turkey fat 5)",
+   "source": "recipe",
+   "tier": 5,
+   "parts": [
+    {
+     "ref": "sr:174536",
+     "grams": 95
+    },
+    {
+     "ref": "sr:173571",
+     "grams": 5
+    }
+   ],
+   "per_100g": {
+    "energy": 50.7,
+    "alcohol": 0.0,
+    "ash": 0.855,
+    "caffeine": 0.0,
+    "water": 92.9295,
+    "carbs": 0.418,
+    "fiber": 0.0,
+    "sugars": 0.4085,
+    "fat": 5.1895,
+    "monounsaturated": 2.1631,
+    "polyunsaturated": 1.1636,
+    "omega_3": 0.07,
+    "omega_6": 1.0826,
+    "saturated": 1.4824,
+    "cholesterol": 7.0,
+    "protein": 0.608,
+    "alanine": 0.0,
+    "arginine": 0.0,
+    "aspartic_acid": 0.0,
+    "cystine": 0.0,
+    "glutamic_acid": 0.0,
+    "glycine": 0.0,
+    "histidine": 0.0,
+    "isoleucine": 0.0,
+    "leucine": 0.0,
+    "lysine": 0.0,
+    "methionine": 0.0,
+    "phenylalanine": 0.0,
+    "proline": 0.0,
+    "serine": 0.0,
+    "threonine": 0.0,
+    "tryptophan": 0.0,
+    "tyrosine": 0.0,
+    "valine": 0.0,
+    "b1_thiamine": 0.02,
+    "b2_riboflavin": 0.056,
+    "b3_niacin": 0.208,
+    "b5_pantothenic_acid": 0.0,
+    "b6_pyridoxine": 0.0,
+    "b12_cobalamin": 0.019,
+    "choline": 7.07,
+    "folate": 0.0,
+    "vitamin_a": 0.0,
+    "vitamin_c": 0.0,
+    "vitamin_d": 0.24,
+    "vitamin_e": 0.183,
+    "vitamin_k": 0.0,
+    "calcium": 3.8,
+    "copper": 0.0143,
+    "iron": 0.0665,
+    "magnesium": 0.95,
+    "manganese": 0.0143,
+    "phosphorus": 3.8,
+    "potassium": 17.1,
+    "selenium": 0.39,
+    "sodium": 352.45,
+    "zinc": 0.0665
+   },
+   "quality": {
+    "energy": "calculated",
+    "alcohol": "calculated",
+    "ash": "calculated",
+    "caffeine": "calculated",
+    "water": "calculated",
+    "carbs": "calculated",
+    "fiber": "calculated",
+    "sugars": "calculated",
+    "fat": "calculated",
+    "monounsaturated": "calculated",
+    "polyunsaturated": "calculated",
+    "omega_3": "calculated",
+    "omega_6": "calculated",
+    "saturated": "calculated",
+    "cholesterol": "calculated",
+    "protein": "calculated",
+    "alanine": "calculated",
+    "arginine": "calculated",
+    "aspartic_acid": "calculated",
+    "cystine": "calculated",
+    "glutamic_acid": "calculated",
+    "glycine": "calculated",
+    "histidine": "calculated",
+    "isoleucine": "calculated",
+    "leucine": "calculated",
+    "lysine": "calculated",
+    "methionine": "calculated",
+    "phenylalanine": "calculated",
+    "proline": "calculated",
+    "serine": "calculated",
+    "threonine": "calculated",
+    "tryptophan": "calculated",
+    "tyrosine": "calculated",
+    "valine": "calculated",
+    "b1_thiamine": "calculated",
+    "b2_riboflavin": "calculated",
+    "b3_niacin": "calculated",
+    "b5_pantothenic_acid": "calculated",
+    "b6_pyridoxine": "calculated",
+    "b12_cobalamin": "calculated",
+    "choline": "calculated",
+    "folate": "calculated",
+    "vitamin_a": "calculated",
+    "vitamin_c": "calculated",
+    "vitamin_d": "calculated",
+    "vitamin_e": "calculated",
+    "vitamin_k": "calculated",
+    "calcium": "calculated",
+    "copper": "calculated",
+    "iron": "calculated",
+    "magnesium": "calculated",
+    "manganese": "calculated",
+    "phosphorus": "calculated",
+    "potassium": "calculated",
+    "selenium": "calculated",
+    "sodium": "calculated",
+    "zinc": "calculated"
+   },
+   "portions": []
+  },
   "recipe:aquafaba-meringue": {
    "name": "aquafaba meringue (aquafaba 55, sugar 45; e.g. 3/4 cup each)",
    "source": "recipe",
@@ -206055,6 +206202,9 @@
   },
   "2594": {
    "bottle": 773
+  },
+  "2616": {
+   "density": 0.99
   },
   "2633": {
    "density": 0.04
