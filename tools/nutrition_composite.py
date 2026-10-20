@@ -22,6 +22,9 @@ from, and the per-100 g values of those foods, in one library file next to the m
                      "inch" = per inch, "density" = g per mL; "drained" = yield of a can/jar's
                      contents eaten drained, "package yield" = edible share of a package weight
                      (whole rotisserie chicken), "can ref" = the food used for can/jar lines
+      "recipe_overrides": {"5005151": {"scale": {"2": 0.2, ...}, "note": "..."}, ...}
+                     reviewed per-recipe fixes keyed by recipe id: "scale" multiplies the grams of
+                     ingredient lines by index (0-based), e.g. one of five alternative glazes = 0.2
 
 Kept separate from ingredient_master.json on purpose: the weekly refresh rewrites the master, and
 nutrition choices must not depend on that code preserving extra keys.
@@ -39,6 +42,7 @@ COMMANDS
     python nutrition_composite.py set <ingredient id> <ref> [--note ...] [--flag]
     python nutrition_composite.py composite <recipe:slug> "<name>" <ref>=<grams> [<ref>=<grams> ...]
     python nutrition_composite.py measures-approved <measures.json>     merge reviewed gram weights
+    python nutrition_composite.py overrides-approved <overrides.json>   merge reviewed per-recipe overrides
     python nutrition_composite.py build                                 (re)generate "foods"
     python nutrition_composite.py report
 """
@@ -84,7 +88,7 @@ def save_db(db: dict, library_dir: Path) -> None:
     db["meta"] = {"built": date.today().isoformat(), "sources": CITATIONS,
                   "fields": ns.FIELDS, "quality_tags": ns.QUALITY_ORDER}
     # sorted keys so a rebuild that changes nothing produces an identical file
-    for section in ("ingredients", "composites", "foods", "measures", "corrections"):
+    for section in ("ingredients", "composites", "foods", "measures", "corrections", "recipe_overrides"):
         db[section] = dict(sorted(db.get(section, {}).items(), key=lambda kv: (len(kv[0]), kv[0])))
     path_for(library_dir).write_text(json.dumps(db, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
@@ -177,6 +181,7 @@ def main() -> None:
     sub = parser.add_subparsers(dest="cmd", required=True)
     p = sub.add_parser("assign-approved"); p.add_argument("approved")
     p = sub.add_parser("measures-approved"); p.add_argument("measures")
+    p = sub.add_parser("overrides-approved"); p.add_argument("overrides")
     p = sub.add_parser("assign-picks"); p.add_argument("picks")
     p = sub.add_parser("set"); p.add_argument("ingredient_id"); p.add_argument("ref")
     p.add_argument("--note"); p.add_argument("--flag", action="store_true")
@@ -203,6 +208,10 @@ def main() -> None:
         for ref, fix in data.get("corrections", {}).items():
             db.setdefault("corrections", {}).setdefault(ref, {}).update(fix)
         print(f"assigned {len(data['picks'])} ingredients", file=sys.stderr)
+    elif args.cmd == "overrides-approved":
+        approved = json.loads(Path(args.overrides).read_text(encoding="utf-8"))
+        db.setdefault("recipe_overrides", {}).update(approved)
+        print(f"merged overrides for {len(approved)} recipes", file=sys.stderr)
     elif args.cmd == "measures-approved":
         approved = json.loads(Path(args.measures).read_text(encoding="utf-8"))
         db.setdefault("measures", {})

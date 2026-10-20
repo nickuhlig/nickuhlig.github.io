@@ -519,6 +519,12 @@ def recipe_nutrition(recipe: dict, db: dict, skip_ids=()) -> dict:
         entry.update(grams=None if grams is None else round(grams, 1), how=how, ref=ref,
                      status="counted" if grams else ("zero" if grams == 0 else "not converted"))
         lines.append(entry)
+    override = db.get("recipe_overrides", {}).get(str(recipe.get("id")), {})
+    for idx, factor in override.get("scale", {}).items():      # e.g. one of five alternative glazes
+        l = lines[int(idx)]
+        if l.get("grams"):
+            l["grams"] = round(l["grams"] * factor, 1)
+            l["how"] = f"{l['how']}, x {factor:g} ({override.get('note', 'recipe override')})"
     apply_deep_frying(recipe, lines, db["foods"])
     for l in lines:
         if l.get("grams"):
