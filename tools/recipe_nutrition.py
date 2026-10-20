@@ -362,6 +362,68 @@ def line_grams(parsed: dict, food: dict, line_name: str = "", measures: dict = N
 
 # --- recipes -------------------------------------------------------------------------------------
 
+# Bone-in cuts bought by weight: the line weighs bone too, while the food (meat and skin, or
+# separable lean and fat) is per gram of edible meat. Edible share of the purchased weight,
+# from USDA refuse figures, rounded; the first pattern that matches the line name wins.
+BONE_IN_YIELDS = [
+    (r"\bwings?\b|\bwingettes?\b|\bdrumettes?\b", 0.55),
+    (r"\boxtails?\b|\bnecks?\b|\bfeet\b|\btrotters?\b|\bhocks?\b", 0.45),
+    (r"\bshort ribs?\b", 0.55),
+    (r"\b(spare|back|baby back|st\.? louis|country[- ]style)? ?ribs?\b(?! ?eye)|\brack of\b|\bracks?\b", 0.65),
+    (r"\bshanks?\b|\bosso buco\b", 0.60),
+    (r"\bwhole (chicken|turkey|duck|goose|hen|bird|fish|branzin\w*|trout|snapper|bass|mackerel|sardines?)|\bcornish hens?\b|\bspatchcock", 0.65),
+    (r"\bdrumsticks?\b|\bleg quarters?\b|\b(chicken|duck|turkey) legs?\b", 0.72),
+    (r"\b(chicken|turkey) (parts|pieces)\b", 0.72),
+    (r"\bthighs?\b", 0.80),
+    (r"\bbreasts?\b", 0.85),
+    (r"\bchops?\b|\bsteaks?\b|\bribeye|\bt-bone|\bporterhouse|\bleg of lamb\b|\bshoulder\b|\broast\b|\bbutt\b", 0.85),
+]
+BONE_IN = re.compile(r"\bbone-in\b|\bon the bone\b|\bwings?\b|\bdrumsticks?\b|\bwhole (chicken|turkey|duck|goose|hen|bird|fish|"
+                     r"branzin\w*|trout|snapper|bass|mackerel)|\bcornish hens?\b|\bleg quarters?\b|\b(chicken|duck|turkey) legs?\b|"
+                     r"\b(spare|back|short)\s?ribs?\b|\bbaby back\b|\boxtails?\b|\bshanks?\b|\bosso buco\b|"
+                     r"\b(chicken|turkey) (parts|pieces)\b", re.I)
+MEAT_FOOD = re.compile(r"^(Chicken|Turkey|Duck|Goose|Pork|Beef|Lamb|Veal|Goat|Game meat|Fish|Quail|Pheasant|Cornish)", re.I)
+
+
+def bone_in_yield(line_name: str, food: dict):
+    """Edible share for a bone-in cut bought by weight, or None. "boneless" lines never match."""
+    name = line_name or ""
+    if re.search(r"\bboneless\b|\bbone(s)? removed\b|\bdeboned\b|\bmeat (only|from)\b|\bpicked\b|\bshredded\b", name, re.I):
+        return None
+    if not BONE_IN.search(name) or not MEAT_FOOD.match(food.get("name") or ""):
+        return None
+    return next((y for pat, y in BONE_IN_YIELDS if re.search(pat, name, re.I)), 0.75)
+
+
+# Recipes that ARE a stock or broth (not a soup that keeps its meat): the solids are strained out.
+STOCK_NAME = re.compile(r"\b(stock|broth|dashi|consomm[eé]|fumet|brodo)\b", re.I)
+NOT_STOCK = re.compile(r"\b(tonkotsu|paitan|creamy|soup|noodles?|udon|mazemen|mussels|salmon|halibut|cod|hot pot|vinaigrette|tamago|ohitashi|"
+                       r"choy|spinach|caldo|arroz|scotch broth|with|poached)\b", re.I)
+
+
+def strained_stock(recipe: dict) -> bool:
+    name = recipe.get("name") or ""
+    steps = " ".join((s.get("primary_message") or "") if isinstance(s, dict) else (s or "") for s in recipe.get("instructions", []))
+    return bool(STOCK_NAME.search(name) and not NOT_STOCK.search(name) and re.search(r"\bstrain", steps, re.I))
+
+
+def apply_strained_stock(recipe: dict, lines: list, foods: dict) -> None:
+    """A stock's bones, meat, vegetables and aromatics are strained out and discarded, so they count
+    as zero; the liquids (water, wine, sake, soy sauce: volume lines that are mostly water) and salt
+    stay in the stock."""
+    if not strained_stock(recipe):
+        return
+    for l in lines:
+        if not l.get("grams"):
+            continue
+        n = foods[l["ref"]]["per_100g"]
+        liquid = (l.get("how") or "").startswith("volume") and n.get("water", 0) + n.get("alcohol", 0) >= 80
+        if liquid or l["ingredient_id"] in SALT_IDS or "salt" in (l["name"] or "").lower():
+            continue
+        l["grams_listed"], l["grams"] = l["grams"], 0.0
+        l["how"], l["status"] = "strained out of the stock (counted as zero)", "zero"
+
+
 SALT_IDS = {"88", "1472", "1508"}   # salt, flaky sea salt, fine sea salt; Mealime's nutrition never counts these
 DRAINED_WATER_ML = 4 * ML_PER["cup"]   # this much water with salt in one step = drained cooking water
 
@@ -512,6 +574,10 @@ def recipe_nutrition(recipe: dict, db: dict, skip_ids=()) -> dict:
             ref = measures["can ref"]      # "1 (15 oz) can lentils": cooked, not the dry lentils the cup lines use
         food = db["foods"][ref]
         grams, how = line_grams(parsed, food, ing.get("name") or "", measures)
+        if grams and parsed["kind"] in ("weight", "package") and not measures.get("package yield"):
+            y = bone_in_yield(ing.get("name"), food)
+            if y:
+                grams, how = grams * y, f"{how}, x {y} edible (bone-in)"
         if grams and iid in SALT_IDS and drained_salt:
             water_g = sum(line_grams(parse_quantity(q), food, q)[0] or 0 for q in drained_salt)
             grams, how = max(0.0, grams - water_g), f"{how}, minus {water_g:.1f} g for cooking water"
@@ -525,6 +591,7 @@ def recipe_nutrition(recipe: dict, db: dict, skip_ids=()) -> dict:
         if l.get("grams"):
             l["grams"] = round(l["grams"] * factor, 1)
             l["how"] = f"{l['how']}, x {factor:g} ({override.get('note', 'recipe override')})"
+    apply_strained_stock(recipe, lines, db["foods"])
     apply_deep_frying(recipe, lines, db["foods"])
     for l in lines:
         if l.get("grams"):
