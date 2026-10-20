@@ -26,6 +26,11 @@ from, and the per-100 g values of those foods, in one library file next to the m
                      reviewed per-recipe fixes keyed by recipe id: "scale" multiplies the grams of
                      ingredient lines by index (0-based), e.g. one of five alternative glazes = 0.2;
                      "quantity" gives an amount ("1 tsp") for a line the recipe left blank
+      "component_links": {"easy pie dough": {"recipe": 5005254, "share": 0.5, "note": "..."}, ...}
+                     a blank line naming a component another library recipe makes counts that
+                     share of the recipe's batch (recipe_nutrition.py build-batches fills "batches")
+      "served_to_taste": {"hot sauce": "note", ...}   blank lines counted as zero, noted
+      "batches":     {"batch:5005254": {name, per_100g, batch_grams, ...}}   generated, never edited
 
 Kept separate from ingredient_master.json on purpose: the weekly refresh rewrites the master, and
 nutrition choices must not depend on that code preserving extra keys.
@@ -44,6 +49,7 @@ COMMANDS
     python nutrition_composite.py composite <recipe:slug> "<name>" <ref>=<grams> [<ref>=<grams> ...]
     python nutrition_composite.py measures-approved <measures.json>     merge reviewed gram weights
     python nutrition_composite.py overrides-approved <overrides.json>   merge reviewed per-recipe overrides
+    python nutrition_composite.py links-approved <links.json>           merge reviewed component links
     python nutrition_composite.py build                                 (re)generate "foods"
     python nutrition_composite.py report
 """
@@ -89,7 +95,8 @@ def save_db(db: dict, library_dir: Path) -> None:
     db["meta"] = {"built": date.today().isoformat(), "sources": CITATIONS,
                   "fields": ns.FIELDS, "quality_tags": ns.QUALITY_ORDER}
     # sorted keys so a rebuild that changes nothing produces an identical file
-    for section in ("ingredients", "composites", "foods", "measures", "corrections", "recipe_overrides"):
+    for section in ("ingredients", "composites", "foods", "measures", "corrections", "recipe_overrides",
+                    "component_links", "served_to_taste", "batches"):
         db[section] = dict(sorted(db.get(section, {}).items(), key=lambda kv: (len(kv[0]), kv[0])))
     path_for(library_dir).write_text(json.dumps(db, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
@@ -183,6 +190,7 @@ def main() -> None:
     p = sub.add_parser("assign-approved"); p.add_argument("approved")
     p = sub.add_parser("measures-approved"); p.add_argument("measures")
     p = sub.add_parser("overrides-approved"); p.add_argument("overrides")
+    p = sub.add_parser("links-approved"); p.add_argument("links")
     p = sub.add_parser("assign-picks"); p.add_argument("picks")
     p = sub.add_parser("set"); p.add_argument("ingredient_id"); p.add_argument("ref")
     p.add_argument("--note"); p.add_argument("--flag", action="store_true")
@@ -213,6 +221,16 @@ def main() -> None:
         approved = json.loads(Path(args.overrides).read_text(encoding="utf-8"))
         db.setdefault("recipe_overrides", {}).update(approved)
         print(f"merged overrides for {len(approved)} recipes", file=sys.stderr)
+    elif args.cmd == "links-approved":
+        approved = json.loads(Path(args.links).read_text(encoding="utf-8"))
+        links = db.setdefault("component_links", {})
+        for key, (rid, share, note) in approved.get("link", {}).items():
+            links[key] = {"recipe": rid, "share": share, "note": note or None}
+        served = db.setdefault("served_to_taste", {})
+        for key in approved.get("zero_served_to_taste", []):
+            served[key] = "served to taste, no amount given"
+        print(f"merged {len(approved.get('link', {}))} links, {len(approved.get('zero_served_to_taste', []))} served-to-taste",
+              file=sys.stderr)
     elif args.cmd == "measures-approved":
         approved = json.loads(Path(args.measures).read_text(encoding="utf-8"))
         db.setdefault("measures", {})

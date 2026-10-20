@@ -29,6 +29,7 @@ imported-site nutrition is overwritten by the calculated values.
 Kosher salt is weighed at 2.8 g/tsp (Diamond Crystal, what Serious Eats uses), not table salt's 6 g.
 
     python recipe_nutrition.py line "<quantity>" <ingredient id> ["<line name>"]   debug one line
+    python recipe_nutrition.py build-batches        whole-batch foods for component_links targets
     python recipe_nutrition.py validate --snapshot <recipes.json>                  vs Mealime
     python recipe_nutrition.py validate --snapshot <recipes.json> --by-ingredient 15 [--field fat]
         ... plus the ingredients whose recipes lean consistently high or low
@@ -541,10 +542,38 @@ def apply_deep_frying(recipe: dict, lines: list, foods: dict) -> None:
         l["status"] = "counted" if l["grams"] else "zero"
 
 
+# --- ingredient lines left blank ------------------------------------------------------------------
+# A blank line ("easy pie dough", "vegetable oil", "lime wedges") is, in order: a component another
+# library recipe makes (component_links: a share of that recipe's batch); served to taste
+# (served_to_taste: zero, noted); cooking oil or butter (assumed 1 tbsp); a component nobody has
+# linked yet (not converted, so the recipe is partial); anything else is to taste (zero).
+COOKING_FAT = re.compile(r"^(a few tablespoons (of )?)?(extra[- ]virgin olive oil|olive oil|vegetable oil|neutral oil|canola oil|"
+                         r"peanut oil|grapeseed oil|sunflower oil|rice bran oil|cooking oil|oil|unsalted butter|butter|"
+                         r"clarified butter|ghee|lard)\b", re.I)
+BLANK_SMALL = re.compile(r"\b(for (garnish|dusting|serving|sprinkling|decorating|topping|rolling)|to (garnish|serve|taste)|"
+                         r"optional|if desired|garnish|wedges?|twists?|zest|peel|leaves|club soda|seltzer|soda water)\b", re.I)
+BLANK_COMPONENT = re.compile(r"\b(dough|crust|pastry|batter|buttercream|frosting|icing|filling|stuffing|gravy|sauce|aioli|"
+                             r"dressing|vinaigrette|salsa|chutney|curd|ganache|meringue|chips|shells|tortillas?|bread|"
+                             r"rolls?|buns?|rice|noodles|pasta|stock|broth|pickled|pickles|jam|syrup|recipe|homemade)\b", re.I)
+
+
+def component_key(name: str) -> str:
+    """The lookup key for a blank component line: the name before any comma, parenthesis or
+    "such as/from/for/prepared/made" clause, without a leading count ("double recipe ...")."""
+    key = re.split(r",|\(| such as | from | for | prepared | made ", (name or "").lower())[0].strip()
+    return re.sub(r"^(\d+|one|two|double|half|½|1/2)?\s*(batch(es)? of |recipes? |recipe )?", "", key).strip()
+
+
+def foods_of(db: dict) -> dict:
+    """Source foods plus the batch foods of linked recipes ("batch:<recipe id>")."""
+    return {**db["foods"], **db.get("batches", {})}
+
+
 def recipe_nutrition(recipe: dict, db: dict, skip_ids=()) -> dict:
     """Per-serving totals plus coverage: which lines were counted, zero, or left out and why.
     skip_ids: ingredient ids to leave out of the totals (validate uses SALT_IDS)."""
     totals, lines = {}, []
+    foods = foods_of(db)
     drained_salt = drained_water_salt(recipe)
     override = db.get("recipe_overrides", {}).get(str(recipe.get("id")), {})
     for index, ing in enumerate(recipe.get("ingredients", [])):
@@ -576,8 +605,35 @@ def recipe_nutrition(recipe: dict, db: dict, skip_ids=()) -> dict:
         measures = db.get("measures", {}).get(iid) or {}
         if parsed["kind"] == "package" and measures.get("can ref") and re.match(r"(can|jar|tin)", parsed["what"]):
             ref = measures["can ref"]      # "1 (15 oz) can lentils": cooked, not the dry lentils the cup lines use
-        food = db["foods"][ref]
+        # Mealime's blank lines are optional extras its own numbers leave out, so they stay "to taste"
+        if parsed["kind"] == "empty" and recipe.get("source") not in (None, "authenticated_backfill"):
+            name = ing.get("name") or ""
+            key = component_key(name)
+            link = db.get("component_links", {}).get(key)
+            if link:
+                batch = foods.get(f"batch:{link['recipe']}")
+                if batch:
+                    entry.update(grams=round(batch["batch_grams"] * link["share"], 1), ref=f"batch:{link['recipe']}",
+                                 how=f"linked recipe: {link['share']:g} x batch of {batch['name']}", status="counted")
+                else:
+                    entry.update(grams=None, how="linked recipe not built yet", status="not converted")
+                lines.append(entry)
+                continue
+            if key in db.get("served_to_taste", {}):
+                entry.update(grams=0.0, ref=ref, how="served to taste (not counted)", status="zero")
+                lines.append(entry)
+                continue
+            if COOKING_FAT.match(name) and not FRYING_OIL.search(name):
+                parsed = parse_quantity("1 tbsp")
+                entry["assumed"] = "1 tbsp"
+            elif BLANK_COMPONENT.search(name) and not BLANK_SMALL.search(name):
+                entry.update(grams=None, ref=ref, how="component with no amount", status="not converted")
+                lines.append(entry)
+                continue
+        food = foods[ref]
         grams, how = line_grams(parsed, food, ing.get("name") or "", measures)
+        if entry.get("assumed"):
+            how = f"{how} (amount not given; assumed {entry['assumed']})"
         if grams and parsed["kind"] in ("weight", "package") and not measures.get("package yield"):
             y = bone_in_yield(ing.get("name"), food)
             if y:
@@ -595,11 +651,11 @@ def recipe_nutrition(recipe: dict, db: dict, skip_ids=()) -> dict:
         if l.get("grams"):
             l["grams"] = round(l["grams"] * factor, 1)
             l["how"] = f"{l['how']}, x {factor:g} ({override.get('note', 'recipe override')})"
-    apply_strained_stock(recipe, lines, db["foods"])
-    apply_deep_frying(recipe, lines, db["foods"])
+    apply_strained_stock(recipe, lines, foods)
+    apply_deep_frying(recipe, lines, foods)
     for l in lines:
         if l.get("grams"):
-            for field, v in db["foods"][l["ref"]]["per_100g"].items():
+            for field, v in foods[l["ref"]]["per_100g"].items():
                 totals[field] = totals.get(field, 0.0) + v * l["grams"] / 100
     servings = recipe.get("serving_count") or recipe.get("servings") or 1
     per_serving = {f: round(v / servings, 2) for f, v in totals.items()}
@@ -656,7 +712,7 @@ def by_ingredient_report(complete: list, db: dict, field: str = "energy", top: i
         for l in res["lines"]:
             if not l.get("grams"):
                 continue
-            share = db["foods"][l["ref"]]["per_100g"].get(field, 0) * l["grams"] / 100 / total
+            share = foods_of(db)[l["ref"]]["per_100g"].get(field, 0) * l["grams"] / 100 / total
             if share <= 0:
                 continue
             a = acc.setdefault(l["ingredient_id"], [0.0, 0.0, 0, l["name"], l["ref"], l.get("how") or ""])
@@ -668,7 +724,34 @@ def by_ingredient_report(complete: list, db: dict, field: str = "energy", top: i
         print(f"\n{field}: ingredients {title}, by total impact")
         for impact, share, n, name, ref, how in sorted(rows, key=key)[:top]:
             print(f"  {name[:32]:<32} in {n:>4} recipes, avg share {share / n:4.0%}, those recipes {math.exp(impact / share):.2f}x"
-                  f" | {db['foods'][ref]['name'][:34]:<34} | {how.split(' @')[0][:30]}")
+                  f" | {foods_of(db)[ref]['name'][:34]:<34} | {how.split(' @')[0][:30]}")
+
+
+def cmd_build_batches(db: dict, library_dir: Path) -> None:
+    """Batch foods for the recipes that component_links point to: the linked recipe's whole-batch
+    totals as a food ("batch:<id>") with its batch weight, so a blank line can count a share of
+    it. Two passes, so a linked recipe that itself links another one picks up that batch."""
+    ids = sorted({link["recipe"] for link in db.get("component_links", {}).values()})
+    paths = {}
+    for rid in ids:
+        hits = list(library_dir.glob(f"families/*/{rid}_*.json"))
+        if hits:
+            paths[rid] = hits[0]
+    db.setdefault("batches", {})
+    for _ in range(2):
+        for rid, path in paths.items():
+            recipe = json.loads(path.read_text(encoding="utf-8"))
+            res = recipe_nutrition(recipe, db)
+            grams = sum(l.get("grams") or 0 for l in res["lines"])
+            servings = recipe.get("serving_count") or 1
+            if grams <= 0:
+                continue
+            per_100g = {f: round(v * servings / grams * 100, 4) for f, v in res["per_serving"].items()}
+            db["batches"][f"batch:{rid}"] = {"name": recipe.get("name"), "source": "recipe", "tier": nc.TIERS["recipe"],
+                                            "per_100g": per_100g, "quality": {f: "calculated" for f in per_100g},
+                                            "portions": [], "batch_grams": round(grams, 1), "complete": res["complete"]}
+    missing = [rid for rid in ids if rid not in paths]
+    print(f"built {len(paths)} batch foods" + (f"; recipes not found: {missing}" if missing else ""), file=sys.stderr)
 
 
 def main() -> None:
@@ -676,6 +759,7 @@ def main() -> None:
     parser.add_argument("--recipes-dir", default=str(DEFAULT_LIBRARY_DIR))
     sub = parser.add_subparsers(dest="cmd", required=True)
     p = sub.add_parser("line"); p.add_argument("quantity"); p.add_argument("ingredient_id"); p.add_argument("name", nargs="?", default="")
+    sub.add_parser("build-batches")
     p = sub.add_parser("validate"); p.add_argument("--snapshot", required=True); p.add_argument("--top", type=int, default=40)
     p.add_argument("--by-ingredient", type=int, default=0, metavar="N",
                    help="also list the N ingredients that pull recipes furthest high and low")
@@ -687,6 +771,9 @@ def main() -> None:
         food = db["foods"][db["ingredients"][args.ingredient_id]["ref"]]
         print(parsed, "->", line_grams(parsed, food, args.name, db.get("measures", {}).get(args.ingredient_id)),
               "|", food["name"])
+    elif args.cmd == "build-batches":
+        cmd_build_batches(db, Path(args.recipes_dir))
+        nc.save_db(db, Path(args.recipes_dir))
     elif args.cmd == "validate":
         cmd_validate(args, db)
 
