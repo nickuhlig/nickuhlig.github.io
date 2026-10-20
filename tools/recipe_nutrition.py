@@ -546,12 +546,16 @@ def recipe_nutrition(recipe: dict, db: dict, skip_ids=()) -> dict:
     skip_ids: ingredient ids to leave out of the totals (validate uses SALT_IDS)."""
     totals, lines = {}, []
     drained_salt = drained_water_salt(recipe)
-    for ing in recipe.get("ingredients", []):
+    override = db.get("recipe_overrides", {}).get(str(recipe.get("id")), {})
+    for index, ing in enumerate(recipe.get("ingredients", [])):
         iid = str(ing.get("ingredient_id"))
         if iid in skip_ids:
             continue
         assign = db["ingredients"].get(iid)
-        entry = {"ingredient_id": iid, "name": ing.get("name"), "quantity": ing.get("quantity")}
+        quantity = ing.get("quantity")
+        if str(index) in override.get("quantity", {}) and not (quantity or "").strip():
+            quantity = override["quantity"][str(index)]       # reviewed amount for a line the recipe left blank
+        entry = {"ingredient_id": iid, "name": ing.get("name"), "quantity": quantity, "index": index}
         if not assign:
             entry.update(status="unmatched ingredient")
             lines.append(entry)
@@ -560,7 +564,7 @@ def recipe_nutrition(recipe: dict, db: dict, skip_ids=()) -> dict:
             entry.update(grams=0.0, how="removed before eating (counted as zero)", ref=assign["ref"], status="zero")
             lines.append(entry)
             continue
-        parsed = parse_quantity(ing.get("quantity"))
+        parsed = parse_quantity(quantity)
         if assign.get("removed_when_whole") and parsed["kind"] in ("count", "piece", "size"):
             # whole spices that are fished out ("2 bay leaves", "1 cinnamon stick", "2 stalks
             # lemongrass"); measured by volume or weight ("2 tbsp minced lemongrass") they count
@@ -585,9 +589,9 @@ def recipe_nutrition(recipe: dict, db: dict, skip_ids=()) -> dict:
         entry.update(grams=None if grams is None else round(grams, 1), how=how, ref=ref,
                      status="counted" if grams else ("zero" if grams == 0 else "not converted"))
         lines.append(entry)
-    override = db.get("recipe_overrides", {}).get(str(recipe.get("id")), {})
+    by_index = {l["index"]: l for l in lines}
     for idx, factor in override.get("scale", {}).items():      # e.g. one of five alternative glazes
-        l = lines[int(idx)]
+        l = by_index.get(int(idx), {})
         if l.get("grams"):
             l["grams"] = round(l["grams"] * factor, 1)
             l["how"] = f"{l['how']}, x {factor:g} ({override.get('note', 'recipe override')})"

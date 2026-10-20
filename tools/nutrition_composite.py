@@ -24,7 +24,8 @@ from, and the per-100 g values of those foods, in one library file next to the m
                      (whole rotisserie chicken), "can ref" = the food used for can/jar lines
       "recipe_overrides": {"5005151": {"scale": {"2": 0.2, ...}, "note": "..."}, ...}
                      reviewed per-recipe fixes keyed by recipe id: "scale" multiplies the grams of
-                     ingredient lines by index (0-based), e.g. one of five alternative glazes = 0.2
+                     ingredient lines by index (0-based), e.g. one of five alternative glazes = 0.2;
+                     "quantity" gives an amount ("1 tsp") for a line the recipe left blank
 
 Kept separate from ingredient_master.json on purpose: the weekly refresh rewrites the master, and
 nutrition choices must not depend on that code preserving extra keys.
