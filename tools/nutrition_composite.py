@@ -28,7 +28,9 @@ from, and the per-100 g values of those foods, in one library file next to the m
                      "quantity" gives an amount ("1 tsp") for a line the recipe left blank
       "component_links": {"easy pie dough": {"recipe": 5005254, "share": 0.5, "note": "..."}, ...}
                      a blank line naming a component another library recipe makes counts that
-                     share of the recipe's batch (recipe_nutrition.py build-batches fills "batches")
+                     share of the recipe's batch (recipe_nutrition.py build-batches fills "batches");
+                     a line whose amount is "½ recipe" counts that many batches instead of the share.
+                     {"food": <ref>, "grams": 227, ...} stands a food in for a recipe the library lacks
       "served_to_taste": {"hot sauce": "note", ...}   blank lines counted as zero, noted
       "batches":     {"batch:5005254": {name, per_100g, batch_grams, ...}}   generated, never edited
 
@@ -226,6 +228,8 @@ def main() -> None:
         links = db.setdefault("component_links", {})
         for key, (rid, share, note) in approved.get("link", {}).items():
             links[key] = {"recipe": rid, "share": share, "note": note or None}
+        for key, (ref, grams, note) in approved.get("link_food", {}).items():     # a food standing in for a recipe
+            links[key] = {"food": ref, "grams": grams, "share": 1, "note": note or None}
         served = db.setdefault("served_to_taste", {})
         for key in approved.get("zero_served_to_taste", []):
             served[key] = "served to taste, no amount given"

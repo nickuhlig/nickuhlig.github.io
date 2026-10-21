@@ -406,7 +406,8 @@
   "28": {
    "name": "fresh basil",
    "names": {
-    "fresh basil": 2393
+    "fresh basil": 2393,
+    "fresh basil with leaves attached": 1
    },
    "aliases": [
     "torn fresh basil leaves",
@@ -423,7 +424,7 @@
    "violates": [],
    "source": "mealime_learned",
    "recipes_seen": 414,
-   "note": null,
+   "note": "merged from 3640 (fresh basil with leaves attached)",
    "added": null,
    "diet_flags": []
   },
@@ -5529,7 +5530,8 @@
   "350": {
    "name": "cardamom, ground",
    "names": {
-    "cardamom, ground": 268
+    "cardamom, ground": 268,
+    "ground green cardamom": 1
    },
    "aliases": [
     "ground cardamom seeds",
@@ -5543,7 +5545,7 @@
    "violates": [],
    "source": "mealime_learned",
    "recipes_seen": 43,
-   "note": null,
+   "note": "merged from 3639 (ground green cardamom)",
    "added": null,
    "diet_flags": []
   },
@@ -24332,7 +24334,8 @@
   "1907": {
    "name": "vanilla pastry cream",
    "names": {
-    "vanilla pastry cream": 1
+    "vanilla pastry cream": 1,
+    "vanilla or chocolate or lemon pastry cream": 1
    },
    "aliases": [],
    "exact_only": [],
@@ -24342,7 +24345,7 @@
    ],
    "source": "curated",
    "recipes_seen": 0,
-   "note": "decided by the user 2026-10-11 (Serious Eats batch 2)",
+   "note": "decided by the user 2026-10-11 (Serious Eats batch 2); merged from 3641 (vanilla or chocolate or lemon pastry cream)",
    "added": "2026-10-11",
    "diet_flags": [
     "dairy",
@@ -49470,7 +49473,9 @@
    "names": {
     "pickling liquid": 1
    },
-   "aliases": [],
+   "aliases": [
+    "pickling liquid from a can of pickled jalapeño peppers"
+   ],
    "exact_only": [],
    "violates": [
     14
@@ -54130,6 +54135,24 @@
    "recipes_seen": 0,
    "note": null,
    "added": "2026-10-18"
+  },
+  "3640": {
+   "name": "caramelized white chocolate",
+   "names": {
+    "caramelized white chocolate": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [
+    2
+   ],
+   "source": "auto",
+   "recipes_seen": 0,
+   "note": "from seriouseats: Caramelized White Chocolate Ganache; dairy decided by the user 2026-10-21",
+   "added": "2026-10-20",
+   "diet_flags": [
+    "dairy"
+   ]
   }
  }
 }

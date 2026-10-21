@@ -547,6 +547,8 @@ def apply_deep_frying(recipe: dict, lines: list, foods: dict) -> None:
 # library recipe makes (component_links: a share of that recipe's batch); served to taste
 # (served_to_taste: zero, noted); cooking oil or butter (assumed 1 tbsp); a component nobody has
 # linked yet (not converted, so the recipe is partial); anything else is to taste (zero).
+# A line whose amount is "½ recipe" / "1 batch" names another recipe too: it counts that many of the
+# linked batch (link "per_recipe" scales a stand-in batch; default 1), and is not converted when unlinked.
 COOKING_FAT = re.compile(r"^(a few tablespoons (of )?)?(extra[- ]virgin olive oil|olive oil|vegetable oil|neutral oil|canola oil|"
                          r"peanut oil|grapeseed oil|sunflower oil|rice bran oil|cooking oil|oil|unsalted butter|butter|"
                          r"clarified butter|ghee|lard)\b", re.I)
@@ -562,6 +564,17 @@ def component_key(name: str) -> str:
     "such as/from/for/prepared/made" clause, without a leading count ("double recipe ...")."""
     key = re.split(r",|\(| such as | from | for | prepared | made ", (name or "").lower())[0].strip()
     return re.sub(r"^(\d+|one|two|double|half|½|1/2)?\s*(batch(es)? of |recipes? |recipe )?", "", key).strip()
+
+
+RECIPE_AMOUNT = re.compile(rf"^\s*{AMOUNT}\s*(recipes?|batch(es)?)\b", re.I)
+
+
+def recipe_amount(quantity: str | None) -> float | None:
+    """"½ recipe" / "1 batch" / "2 recipes" -> how many batches of another recipe; None otherwise."""
+    m = RECIPE_AMOUNT.match(quantity or "")
+    if not m:
+        return None
+    return _num(m["a"]) if not m["b"] else (_num(m["a"]) + _num(m["b"])) / 2
 
 
 def foods_of(db: dict) -> dict:
@@ -606,21 +619,32 @@ def recipe_nutrition(recipe: dict, db: dict, skip_ids=()) -> dict:
         if parsed["kind"] == "package" and measures.get("can ref") and re.match(r"(can|jar|tin)", parsed["what"]):
             ref = measures["can ref"]      # "1 (15 oz) can lentils": cooked, not the dry lentils the cup lines use
         # Mealime's blank lines are optional extras its own numbers leave out, so they stay "to taste"
-        if parsed["kind"] == "empty" and recipe.get("source") not in (None, "authenticated_backfill"):
+        recipes_n = recipe_amount(quantity)
+        if (parsed["kind"] == "empty" or recipes_n is not None) and recipe.get("source") not in (None, "authenticated_backfill"):
             name = ing.get("name") or ""
             key = component_key(name)
             link = db.get("component_links", {}).get(key)
             if link:
-                batch = foods.get(f"batch:{link['recipe']}")
+                # a library recipe's batch, or a food standing in for a recipe the library lacks ("food" + its "grams")
+                bref = link["food"] if "food" in link else f"batch:{link['recipe']}"
+                batch = foods.get(bref)
+                if batch and "food" in link:
+                    batch = {**batch, "batch_grams": link["grams"]}
+                # "½ recipe X" counts half of X's batch; with no amount the link's share is the reviewed guess
+                share = recipes_n * link.get("per_recipe", 1) if recipes_n is not None else link["share"]
                 if batch:
-                    entry.update(grams=round(batch["batch_grams"] * link["share"], 1), ref=f"batch:{link['recipe']}",
-                                 how=f"linked recipe: {link['share']:g} x batch of {batch['name']}", status="counted")
+                    entry.update(grams=round(batch["batch_grams"] * share, 1), ref=bref,
+                                 how=f"linked recipe: {share:g} x batch of {batch['name']}", status="counted")
                 else:
                     entry.update(grams=None, how="linked recipe not built yet", status="not converted")
                 lines.append(entry)
                 continue
             if key in db.get("served_to_taste", {}):
                 entry.update(grams=0.0, ref=ref, how="served to taste (not counted)", status="zero")
+                lines.append(entry)
+                continue
+            if recipes_n is not None:
+                entry.update(grams=None, ref=ref, how=f"{quantity} of a recipe not linked yet", status="not converted")
                 lines.append(entry)
                 continue
             if COOKING_FAT.match(name) and not FRYING_OIL.search(name):
@@ -731,7 +755,7 @@ def cmd_build_batches(db: dict, library_dir: Path) -> None:
     """Batch foods for the recipes that component_links point to: the linked recipe's whole-batch
     totals as a food ("batch:<id>") with its batch weight, so a blank line can count a share of
     it. Two passes, so a linked recipe that itself links another one picks up that batch."""
-    ids = sorted({link["recipe"] for link in db.get("component_links", {}).values()})
+    ids = sorted({link["recipe"] for link in db.get("component_links", {}).values() if "recipe" in link})
     paths = {}
     for rid in ids:
         hits = list(library_dir.glob(f"families/*/{rid}_*.json"))

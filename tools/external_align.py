@@ -231,7 +231,12 @@ GARNISH_LINE_RE = re.compile(r"^\s*(?:garnish(?:es)?\s*:|toppings?\b)|\bof your 
 # "Garnish: mint sprig", "Toppings of your choice, ...", "Vegetables of your choice"
 
 
+RECIPE_REF_RE = re.compile(r"^\s*(?:\S+\s+)?(?:recipes?|batch(?:es)?)\b", re.I)
+
+
 def is_optional_line(raw: str) -> bool:
+    if RECIPE_REF_RE.match(raw):          # "1 recipe Choux Pastry (made with ... the optional sugar)": "optional" in a bracket is about that recipe
+        raw = re.sub(r"\([^)]*\)", "", raw)
     if OPTIONAL_RE.search(raw) or GARNISH_LINE_RE.search(raw):
         return True
     return bool(SERVING_RE.search(raw)) and not PLUS_MORE_RE.search(raw)
@@ -611,9 +616,16 @@ def apply_renames(line: Line) -> str | None:
     if CHIPOTLE_DRIED_RE.search(name):
         line.name = DRIED_CHIPOTLE_NAME
         return line.name
-    batch = re.match(r"^(?:recipe|batch)\s+(?:for\s+)?(.+)$", name, re.I)    # "1/2 recipe vanilla pastry cream": the generic ingredient, no measurable amount
+    # "1/2 recipe vanilla pastry cream": the generic ingredient, and the amount kept as written ("½ recipe"), which is
+    # how much of the other recipe's batch the nutrition counts
+    batch = re.match(r"^(?:(double|half)\s+)?(recipes?|batch(?:es)?)\s+(?:of\s+|for\s+)?(.+)$", name, re.I)
     if batch:
-        line.name, line.amount, line.amount_hi, line.unit, line.parens, line.tail = batch.group(1).lower(), None, None, None, [], []
+        n = (line.amount if line.amount is not None else 1.0) * {"double": 2, "half": 0.5}.get((batch.group(1) or "").lower(), 1)
+        word = "batch" if batch.group(2).lower().startswith("batch") else "recipe"
+        if n > 1.01:
+            word += "es" if word == "batch" else "s"
+        line.name, line.amount, line.amount_hi, line.unit, line.parens, line.tail = batch.group(3).lower(), None, None, None, [], []
+        line.fixed_us = line.fixed_metric = f"{fmt_range(n, None)} {word}"
         return line.name
     if re.search(r"\s+recipe$", name, re.I):                # a reference to another recipe: becomes the generic ingredient
         line.name = re.sub(r"\s+recipe$", "", name, flags=re.I).lower()

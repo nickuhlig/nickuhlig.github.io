@@ -218,7 +218,9 @@ def discover(session: requests.Session, base_url: str, rows: dict, urls_file: Pa
         entries = [(line.strip(), "") for line in urls_file.read_text(encoding="utf-8").splitlines() if line.strip()]
     else:
         entries = sitemap_entries(session, base_url + "/sitemap.xml")
-    recipes = {url: mod for url, mod in entries if RECIPE_PATH_RE.search(re.sub(r"^https?://[^/]+", "", url))}
+    # A hand-made URL list is taken as given (sub-recipes like ".../fresh-egg-pasta" have no "-recipe" in the
+    # slug); fetch still marks a page without Recipe data as norecipe.
+    recipes = {url: mod for url, mod in entries if urls_file or RECIPE_PATH_RE.search(re.sub(r"^https?://[^/]+", "", url))}
 
     mine = [r for (src, _), r in rows.items() if src == SOURCE]
     check_ids_current(mine)
