@@ -1993,21 +1993,14 @@
     "egg": 620
    },
    "aliases": [
-    "egg yolk",
-    "egg white",
     "soft-boiled eggs",
     "hard-boiled eggs",
-    "yolks",
-    "egg yolk lightly",
-    "a large white",
     "poached eggs",
     "Egg wash",
     "preserved eggs",
     "organic egg",
-    "organic egg yolk",
     "very fresh egg",
     "room temperature eggs",
-    "very fresh egg white",
     "fresh homemade plain egg",
     "Fried eggs",
     "beaten egg",
@@ -2018,14 +2011,10 @@
     "Scrambled eggs",
     "marinated eggs",
     "foolproof poached eggs",
-    "powdered egg whites",
     "egg beaten lightly with 1 tablespoon water",
     "egg beaten lightly with 1 teaspoon water",
     "Egg wash: 1 egg",
-    "Egg wash: 1 large egg",
-    "egg yolks plus 1 large egg",
-    "yolk from a large egg",
-    "hard-boiled egg yolks pushed through a fine mesh strainer"
+    "Egg wash: 1 large egg"
    ],
    "exact_only": [],
    "violates": [
@@ -54152,6 +54141,84 @@
    "added": "2026-10-20",
    "diet_flags": [
     "dairy"
+   ]
+  },
+  "3641": {
+   "name": "egg yolks",
+   "names": {
+    "egg yolk": 180,
+    "yolks": 40,
+    "egg yolks": 412,
+    "organic egg yolk": 4,
+    "egg yolks plus 1 large egg": 2,
+    "yolk": 8,
+    "hard-boiled egg yolks pushed through a fine mesh strainer": 2,
+    "yolk from a large egg": 2
+   },
+   "aliases": [
+    "egg yolk",
+    "yolks",
+    "egg yolk lightly",
+    "organic egg yolk",
+    "egg yolks plus 1 large egg",
+    "yolk from a large egg",
+    "hard-boiled egg yolks pushed through a fine mesh strainer"
+   ],
+   "exact_only": [],
+   "violates": [
+    11
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 121 eggs; decided by the user 2026-10-21",
+   "added": "2026-10-21",
+   "diet_flags": [
+    "egg"
+   ]
+  },
+  "3642": {
+   "name": "egg whites",
+   "names": {
+    "egg white": 106,
+    "a large white": 2,
+    "egg whites": 132,
+    "cold egg whites": 6,
+    "very fresh egg white": 2,
+    "fresh egg white": 4
+   },
+   "aliases": [
+    "egg white",
+    "a large white",
+    "very fresh egg white"
+   ],
+   "exact_only": [],
+   "violates": [
+    11
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 121 eggs; decided by the user 2026-10-21",
+   "added": "2026-10-21",
+   "diet_flags": [
+    "egg"
+   ]
+  },
+  "3643": {
+   "name": "powdered egg whites",
+   "names": {
+    "powdered egg whites": 2
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [
+    11
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 121 eggs; decided by the user 2026-10-21",
+   "added": "2026-10-21",
+   "diet_flags": [
+    "egg"
    ]
   }
  }
