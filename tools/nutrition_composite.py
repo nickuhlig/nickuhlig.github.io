@@ -15,7 +15,9 @@ from, and the per-100 g values of those foods, in one library file next to the m
       "corrections": {"branded:2456621": {"sodium": null, "note": "..."}, ...}
                      reviewed fixes to a food's values (a source food or a composite), applied by
                      `build`; null drops a field (e.g. a label's impossible sodium), a number replaces it
-                     (e.g. the calcium of a calcium chloride composite)
+                     (e.g. the calcium of a calcium chloride composite); a one-part composite with
+                     corrections puts reviewed label values (e.g. Open Food Facts medians) on top of a
+                     food and keeps that food's household portions
       "fills":       {"ciqual:12110": {"from": "on:fd_...", "note": "..."}, ...}
                      a lab food that measures fewer fields than the food it replaced keeps every value
                      it has and takes only the missing fields (amino acids, choline...) from "from",
@@ -203,6 +205,8 @@ def cmd_build(db: dict) -> None:
                       "per_100g": per_100g, "quality": quality, "portions": portions}
     for ref, definition in db["composites"].items():
         built = build_composite(definition, records)
+        if len(definition["parts"]) == 1:            # one food with reviewed label values on top: keep its portions
+            built["portions"] = records[definition["parts"][0]["ref"]].get("portions", [])
         built["per_100g"], built["quality"] = apply_corrections(db, ref, built["per_100g"], built["quality"])
         foods[ref] = {"name": definition["name"], "source": "recipe", "tier": TIERS["recipe"],
                       "parts": definition["parts"], **built}
