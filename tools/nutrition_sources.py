@@ -1,5 +1,5 @@
 """
-The four food-composition sources behind the composite nutrition database, each read into one
+The food-composition sources behind the composite nutrition database, each read into one
 shape: the library's 66 nutrition fields (Mealime's names and units) per 100 g, a quality tag on
 every value, and household portions where the source has them.
 
@@ -7,6 +7,8 @@ PRIORITY (agreed with the user; nutrition_composite.py applies it):
   1. sr     USDA SR Legacy, via fdc_client (API + fdc_cache/).        Public domain.
   2. cnf    Canadian Nutrient File 2015 (Health Canada CSVs).          Open Government Licence - Canada.
      frida  Frida 5.5, Danish Food Composition Database (DTU, xlsx).   CC BY 4.0.
+     cofid  CoFID 2021, UK McCance and Widdowson's (xlsx).             Open Government Licence v3.0.
+     ciqual Ciqual 2025, French ANSES table (XML).                     Licence Ouverte / Etalab 2.0.
   3. on     OpenNutrition 2025.1 (TSV), generic foods only.           ODbL; every value tagged "estimated".
   4. branded / fndds  USDA Branded product labels and FNDDS (USDA survey foods), via fdc_client.
   5. recipe-built from better-tier foods (simple syrup = sugar + water), then a last-resort fallback.
@@ -22,12 +24,13 @@ values or a recipe), borrowed (copied from another country's table), imputed (fr
 food), label (manufacturer label), assumed_zero, estimated (OpenNutrition: unsourced or
 zero-filled, so nothing is known about any single value), unknown (source gives no code).
 
-IMPORT: CNF, Frida and OpenNutrition are parsed once from the downloaded files into compact
+IMPORT: CNF, Frida, CoFID, Ciqual and OpenNutrition are parsed once from the downloaded files into compact
 gzipped JSON in nutrition_data/ (git-ignored), so later runs (and the Raspberry Pi) never re-read
 the 280 MB TSV or the xlsx:
 
     python nutrition_sources.py import --cnf <dir with CNF CSVs> --frida <Frida_5.5_Dataset.xlsx>
                                        --opennutrition <opennutrition_foods.tsv>
+                                       --cofid <CoFID_2021.xlsx> [<CoFID_oldFoods.xlsx>] --ciqual <xml dir>
 
 Reading the xlsx needs openpyxl (import step only).
 """
@@ -260,6 +263,187 @@ def import_frida(xlsx: Path) -> dict:
     return out
 
 
+# --- CoFID (UK, McCance and Widdowson's Composition of Foods Integrated Dataset 2021) --------------
+
+# UK starch and sugars are monosaccharide equivalents: starch x 1.10, disaccharides x 1.05 of their
+# weight. The library's fields are weights, and its carbs are by difference (fibre included), so
+# carbs = starch + sugars + oligosaccharides + fibre, each as a weight.
+COFID_SIMPLE = {
+    "energy": "KCALS", "water": "WATER", "protein": "PROT", "fat": "FAT", "alcohol": "ALCO",
+    "fructose": "FRUCT", "galactose": "GALACT", "glucose": "GLUC",
+    "saturated": "SATFOD", "monounsaturated": "MONOFOD", "polyunsaturated": "POLYFOD", "transfats": "FODTRANS",
+    "cholesterol": "CHOL", "sodium": "NA", "potassium": "K", "calcium": "CA", "magnesium": "MG",
+    "phosphorus": "P", "iron": "FE", "copper": "CU", "zinc": "ZN", "manganese": "MN", "selenium": "SE",
+    "vitamin_d": "VITD", "vitamin_k": "VITK1", "b1_thiamine": "THIA", "b2_riboflavin": "RIBO",
+    "b3_niacin": "NIAC", "b5_pantothenic_acid": "PANTO", "b6_pyridoxine": "VITB6", "b12_cobalamin": "VITB12",
+    "folate": "FOLT", "vitamin_c": "VITC",
+}
+COFID_DISACCHARIDES = {"sucrose": "SUCR", "maltose": "MALT", "lactose": "LACT"}
+COFID_SHEETS = ("1.3 Proximates", "1.4 Inorganics", "1.5 Vitamins", "1.6 Vitamin Fractions", "1.12 (PUFA per 100gFood)")
+
+
+def import_cofid(*xlsx_paths: Path) -> dict:
+    """CoFID 2021 (and its "old foods" file): values per 100 g food -- alcoholic drinks are per 100 ml
+    in CoFID, converted with their specific gravity. "Tr" (trace) is 0; "N" (present, amount unknown)
+    is left out. CoFID has no per-value codes: foods whose data references say "calculated" or
+    "recipe" are tagged calculated, the rest measured."""
+    import openpyxl
+    out = {}
+    for path in xlsx_paths:
+        wb = openpyxl.load_workbook(path, read_only=True, data_only=True)
+        rows = wb["1.2 Factors"].iter_rows(values_only=True)
+        head = next(rows)
+        col = {name.strip(): i for i, name in enumerate(head) if name}      # the old-foods file pads some names
+        foods = {}
+        for r in rows:
+            if not r[0] or r[0] in ("Food Code",) or not r[1]:
+                continue
+            refs = " ".join(str(r[col[k]] or "") for k in ("Description", "Main data references"))
+            foods[str(r[0])] = {"name": str(r[1]).strip(), "group": str(r[col["Group"]] or ""),
+                                "sg": _num(r[col["Specific gravity"]]),
+                                "quality": "calculated" if re.search(r"calculat|recipe", refs, re.I) else "measured",
+                                "vals": {}}
+        for sheet in COFID_SHEETS:
+            if sheet not in wb.sheetnames:
+                continue
+            rows = wb[sheet].iter_rows(values_only=True)
+            next(rows)
+            codes = next(rows)                            # second header row: the INFOODS-style codes
+            for r in rows:
+                food = foods.get(str(r[0]))
+                if not food:
+                    continue
+                for i, code in enumerate(codes):
+                    if not code or i < 7 or r[i] is None:
+                        continue
+                    v = 0.0 if str(r[i]).strip() == "Tr" else _num(r[i])
+                    if v is not None:
+                        food["vals"][code] = v
+        for code, food in foods.items():
+            key = f"cofid:{code}"
+            if key in out:                                # the 2021 dataset wins over the old-foods file
+                continue
+            v, q = food["vals"], food["quality"]
+            scale = 1 / food["sg"] if food["group"].startswith("Q") and food["sg"] else 1.0   # drinks: per 100 ml
+            per_100g = {f: v[c] for f, c in COFID_SIMPLE.items() if c in v}
+            for f, c in COFID_DISACCHARIDES.items():
+                if c in v:
+                    per_100g[f] = v[c] / 1.05
+            if "STAR" in v:
+                per_100g["starch"] = v["STAR"] / 1.10
+            # Total sugars as a weight: the six sugars when all are known, else CoFID's total (left in
+            # monosaccharide equivalents, at most ~5% high); summing only the known ones would read a
+            # food with "galactose 0, lactose 0, the rest N" as sugar-free.
+            six = ("glucose", "galactose", "fructose", "sucrose", "maltose", "lactose")
+            if all(k in per_100g for k in six):
+                per_100g["sugars"] = sum(per_100g[k] for k in six)
+            elif "TOTSUG" in v:
+                per_100g["sugars"] = v["TOTSUG"]
+            fibre = v.get("AOACFIB", v.get("ENGFIB"))
+            if fibre is not None:
+                per_100g["fiber"] = fibre
+            # Carbs by difference (fibre included): from starch and sugars when both are known, else
+            # from CoFID's total; when CoFID's total is unknown ("N") the field is left out.
+            if "starch" in per_100g and "sugars" in per_100g:
+                per_100g["carbs"] = per_100g["starch"] + per_100g["sugars"] + v.get("OLIGO", 0.0) + (fibre or 0.0)
+            elif "CHO" in v:
+                per_100g["carbs"] = v["CHO"] / 1.05 + (fibre or 0.0)
+            if "RET" in v or "CAREQU" in v:               # RAE: retinol + beta-carotene equivalents / 12
+                per_100g["vitamin_a"] = v.get("RET", 0.0) + v.get("CAREQU", 0.0) / 12
+            if "ATOPH" in v or "VITE" in v:
+                per_100g["vitamin_e"] = v.get("ATOPH", v.get("VITE"))
+            n3 = [c for c in ("FOD18:3cn3", "FOD20:5cn3", "FOD22:5cn3", "FOD22:6cn3") if c in v]
+            per_100g.update({"omega_3": sum(v[c] for c in n3)} if n3 else
+                            ({"omega_3": v["TOTn3PFOD"]} if "TOTn3PFOD" in v else {}))
+            n6 = [c for c in ("FOD18:2cn6", "FOD20:4cn6") if c in v]
+            per_100g.update({"omega_6": sum(v[c] for c in n6)} if n6 else
+                            ({"omega_6": v["TOTn6PFOD"]} if "TOTn6PFOD" in v else {}))
+            per_100g = {f: round(x * scale, 4) for f, x in per_100g.items()}
+            quality = {f: q for f in per_100g}
+            if "fiber" in quality and "AOACFIB" not in v:
+                quality["fiber"] = "imputed"              # NSP (Englyst) fibre reads lower than AOAC
+            out[key] = {"key": key, "source": "cofid", "id": code, "name": food["name"],
+                        "alt_names": [] if "old" not in path.name.lower() else ["CoFID old foods"],
+                        "per_100g": per_100g, "quality": quality, "portions": []}
+    return out
+
+
+# --- Ciqual (France, ANSES 2025) -----------------------------------------------------------------
+
+# Library field -> Ciqual constituent code(s); a tuple sums parts, a list gives alternatives.
+# Ciqual carbohydrate is "available" (no fibre), so the library's by-difference carbs add the fibre.
+CIQUAL_CONSTS = {
+    "energy": ["328"], "water": ["400"], "ash": ["10000"], "alcohol": ["60000"], "protein": ["25000", "25003"],
+    "carbs": [("31000", "34100")], "fiber": ["34100"], "starch": ["33110"], "sugars": ["32000"],
+    "fructose": ["32210"], "galactose": ["32220"], "glucose": ["32250"], "lactose": ["32410"],
+    "maltose": ["32430"], "sucrose": ["32480"], "sugar_alcohol": ["34000"], "fat": ["40000"],
+    "saturated": ["40302"], "monounsaturated": ["40303"], "polyunsaturated": ["40304"],
+    "omega_3": [("41833", "42053", "42263")], "omega_6": [("41826", "42046")], "cholesterol": ["75100"],
+    "vitamin_d": ["52100"], "vitamin_e": ["71010", "53100"], "vitamin_k": [("54101", "54104")],
+    "vitamin_c": ["55100"], "b1_thiamine": ["56100"], "b2_riboflavin": ["56200"], "b3_niacin": ["56310"],
+    "b5_pantothenic_acid": ["56400"], "b6_pyridoxine": ["56500"], "b12_cobalamin": ["56600"],
+    "folate": ["56702", "56700"], "sodium": ["10110"], "magnesium": ["10120"], "phosphorus": ["10150"],
+    "potassium": ["10190"], "calcium": ["10200"], "manganese": ["10251"], "iron": ["10260"],
+    "copper": ["10290"], "zinc": ["10300"], "selenium": ["10340"],
+}
+CIQUAL_CONFIDENCE = {"A": "measured", "B": "measured", "C": "calculated", "D": "imputed"}
+
+
+def _ciqual_value(text: str):
+    """'0,02' -> 0.02; 'traces' -> 0; '< 0,08' (below the detection limit) -> 0, assumed_zero; '-' -> None.
+    Half the bound would put 0.125 mg iron in cheddar and 0.2 g omega-3 in carrots."""
+    t = (text or "").strip().replace(",", ".")
+    if not t or t == "-":
+        return None, None
+    if t == "traces":
+        return 0.0, None
+    if t.startswith("<"):
+        return 0.0, "assumed_zero"
+    return _num(t), None
+
+
+def import_ciqual(xml_dir: Path) -> dict:
+    """Ciqual 2025 XML (alim_*.xml, compo_*.xml). Each value's confidence code A-D becomes its
+    quality tag; vitamin A is recomputed as RAE (retinol + beta-carotene / 12)."""
+    import xml.etree.ElementTree as ET
+    alim = next(xml_dir.glob("alim_2*.xml"))
+    compo = next(xml_dir.glob("compo_*.xml"))
+    foods = {}
+    for el in ET.parse(alim).getroot():
+        code = (el.findtext("alim_code") or "").strip()
+        foods[code] = {"name": (el.findtext("alim_nom_eng") or "").strip(),
+                       "name_fr": (el.findtext("alim_nom_fr") or "").strip(), "vals": {}}
+    for ev, el in ET.iterparse(compo):
+        if el.tag != "COMPO":
+            continue
+        food = foods.get((el.findtext("alim_code") or "").strip())
+        value, forced = _ciqual_value(el.findtext("teneur"))
+        if food is not None and value is not None:
+            conf = (el.findtext("code_confiance") or "").strip()
+            food["vals"][(el.findtext("const_code") or "").strip()] = (value, forced or CIQUAL_CONFIDENCE.get(conf, "unknown"))
+        el.clear()
+    out = {}
+    for code, food in foods.items():
+        vals, per_100g, quality = food["vals"], {}, {}
+        for field, options in CIQUAL_CONSTS.items():
+            for option in options:
+                parts = option if isinstance(option, tuple) else (option,)
+                if parts[0] in vals:
+                    per_100g[field] = round(sum(vals[p][0] for p in parts if p in vals), 4)
+                    quality[field] = vals[parts[0]][1]
+                    break
+        retinol, carotene = vals.get("51200"), vals.get("51330")
+        if retinol or carotene:
+            per_100g["vitamin_a"] = round((retinol[0] if retinol else 0.0) + (carotene[0] / 12 if carotene else 0.0), 4)
+            quality["vitamin_a"] = (retinol or carotene)[1]
+        elif "51104" in vals:
+            per_100g["vitamin_a"], quality["vitamin_a"] = vals["51104"][0], vals["51104"][1]
+        out[f"ciqual:{code}"] = {"key": f"ciqual:{code}", "source": "ciqual", "id": code, "name": food["name"],
+                                 "alt_names": [food["name_fr"]], "per_100g": per_100g, "quality": quality,
+                                 "portions": []}
+    return out
+
+
 # --- OpenNutrition -------------------------------------------------------------------------------
 
 # Library field -> OpenNutrition key (same units). It has no ash, starch or individual sugars.
@@ -373,7 +557,7 @@ def save(source: str, records: dict) -> Path:
 
 
 def load(source: str) -> dict:
-    """Imported records of one source (cnf, frida or on); SR Legacy goes through sr_records()."""
+    """Imported records of one source (cnf, frida, cofid, ciqual or on); SR Legacy goes through sr_records()."""
     path = DATA_DIR / f"{source}.json.gz"
     if not path.exists():
         raise SystemExit(f"{path} is missing -- run: python nutrition_sources.py import ...")
@@ -398,6 +582,8 @@ def main() -> None:
     p.add_argument("--cnf", help="folder with the CNF 2015 CSV files")
     p.add_argument("--frida", help="Frida_5.5_Dataset.xlsx")
     p.add_argument("--opennutrition", help="opennutrition_foods.tsv")
+    p.add_argument("--cofid", nargs="+", help="CoFID 2021 xlsx, then optionally the old-foods xlsx")
+    p.add_argument("--ciqual", help="folder with the Ciqual 2025 XML files")
     p.add_argument("--on-grocery-index", help="opennutrition_foods.tsv: write the grocery product name index")
     p.add_argument("--on-extra-ids", default="",
                    help="comma-separated OpenNutrition grocery ids to import besides the generic foods")
@@ -415,9 +601,11 @@ def main() -> None:
         extra |= {r[3:] for r in refs if r.startswith("on:")}
     on_reader = lambda tsv: import_opennutrition(tsv, extra)
     for source, arg, reader in (("cnf", args.cnf, import_cnf), ("frida", args.frida, import_frida),
-                                ("on", args.opennutrition, on_reader)):
+                                ("on", args.opennutrition, on_reader),
+                                ("cofid", args.cofid, lambda paths: import_cofid(*map(Path, paths))),
+                                ("ciqual", args.ciqual, import_ciqual)):
         if arg:
-            records = reader(Path(arg))
+            records = reader(arg if isinstance(arg, list) else Path(arg))
             print(f"{source}: {len(records)} foods -> {save(source, records)}", file=sys.stderr)
 
 

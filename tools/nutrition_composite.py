@@ -16,6 +16,12 @@ from, and the per-100 g values of those foods, in one library file next to the m
                      reviewed fixes to a food's values (a source food or a composite), applied by
                      `build`; null drops a field (e.g. a label's impossible sodium), a number replaces it
                      (e.g. the calcium of a calcium chloride composite)
+      "fills":       {"ciqual:12110": {"from": "on:fd_...", "note": "..."}, ...}
+                     a lab food that measures fewer fields than the food it replaced keeps every value
+                     it has and takes only the missing fields (amino acids, choline...) from "from",
+                     with that food's quality tags; a lab food with macros but no energy gets
+                     energy from them (4 protein, 4 available carbs, 2 fibre, 9 fat, 7 alcohol);
+                     a lab food without household portions uses the "from" food's portions
       "measures":    {"188": {"small bunch": 40, "bunch": 65}, "257": {"density": 1.01}, ...}
                      reviewed gram weights per ingredient for units the source portions lack
                      (recipe_nutrition.py checks these first); "item" = one medium piece,
@@ -39,7 +45,7 @@ nutrition choices must not depend on that code preserving extra keys.
 
 TIERS (the priority agreed with the user; a lower tier is preferred when choosing a ref):
     0 none:removed (removed before eating; counts as zero)
-    1 sr (USDA SR Legacy)  2 cnf / frida  3 on (OpenNutrition, all values "estimated")
+    1 sr (USDA SR Legacy)  2 cnf / frida / cofid / ciqual  3 on (OpenNutrition, all values "estimated")
     4 branded (a USDA Branded product label) / fndds (USDA survey database)
     5 recipe (composite of better-tier foods)  6 fallback
 
@@ -68,7 +74,7 @@ import nutrition_sources as ns
 from library_paths import DEFAULT_LIBRARY_DIR
 
 FILENAME = "nutrition_foods.json"
-TIERS = {"none": 0, "sr": 1, "cnf": 2, "frida": 2, "on": 3, "branded": 4, "fndds": 4, "recipe": 5, "fallback": 6}
+TIERS = {"none": 0, "sr": 1, "cnf": 2, "frida": 2, "cofid": 2, "ciqual": 2, "on": 3, "branded": 4, "fndds": 4, "recipe": 5, "fallback": 6}
 # "none:removed" -- the ingredient is removed before eating (bouquet garni, corn husks, steeped tea
 # leaves): no source food, counted as zero by recipe_nutrition.py (user rule)
 NO_FOOD = "none"
@@ -77,6 +83,9 @@ CITATIONS = [
     "Health Canada, Canadian Nutrient File 2015. Open Government Licence - Canada.",
     "© Food Data (http://frida.fooddata.dk), version 5.5, November 2025. National Food Institute, "
     "Technical University of Denmark. CC BY 4.0.",
+    "Public Health England, McCance and Widdowson's Composition of Foods Integrated Dataset (CoFID) 2021. "
+    "Open Government Licence v3.0.",
+    "ANSES, Ciqual French food composition table 2025 (https://ciqual.anses.fr). Licence Ouverte / Etalab 2.0.",
     "OpenNutrition (https://www.opennutrition.app), dataset 2025.1. ODbL 1.0.",
     "USDA FoodData Central, Branded Foods and FNDDS. Public domain.",
 ]
@@ -97,7 +106,7 @@ def save_db(db: dict, library_dir: Path) -> None:
     db["meta"] = {"built": date.today().isoformat(), "sources": CITATIONS,
                   "fields": ns.FIELDS, "quality_tags": ns.QUALITY_ORDER}
     # sorted keys so a rebuild that changes nothing produces an identical file
-    for section in ("ingredients", "composites", "foods", "measures", "corrections", "recipe_overrides",
+    for section in ("ingredients", "composites", "foods", "measures", "corrections", "fills", "recipe_overrides",
                     "component_links", "served_to_taste", "batches"):
         db[section] = dict(sorted(db.get(section, {}).items(), key=lambda kv: (len(kv[0]), kv[0])))
     path_for(library_dir).write_text(json.dumps(db, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
@@ -116,7 +125,7 @@ def records_for(refs) -> dict:
     for source, wanted in by_source.items():
         if source in ("sr", "branded", "fndds"):
             out.update(ns.fdc_records([int(r.split(":", 1)[1]) for r in wanted], source))
-        elif source in ("cnf", "frida", "on"):
+        elif source in ("cnf", "frida", "cofid", "ciqual", "on"):
             recs = ns.load(source)
             missing = wanted - recs.keys()
             if missing:
@@ -154,8 +163,27 @@ def apply_corrections(db: dict, ref: str, per_100g: dict, quality: dict) -> tupl
     return per_100g, quality
 
 
+def fill_gaps(db: dict, ref: str, per_100g: dict, quality: dict, records: dict) -> tuple[dict, dict]:
+    """Energy from macros when a food has macros but no energy, then the fields it lacks from its
+    reviewed "fills" base (see the module docstring)."""
+    per_100g, quality = dict(per_100g), dict(quality)
+    if "energy" not in per_100g and all(f in per_100g for f in ("protein", "fat", "carbs")):
+        fibre = per_100g.get("fiber", 0.0)
+        per_100g["energy"] = round(4 * per_100g["protein"] + 4 * max(per_100g["carbs"] - fibre, 0.0) + 2 * fibre
+                                   + 9 * per_100g["fat"] + 7 * per_100g.get("alcohol", 0.0), 1)
+        quality["energy"] = "calculated"
+    fill = db.get("fills", {}).get(ref)
+    if fill and fill["from"] in records:
+        base = records[fill["from"]]
+        for field, value in base["per_100g"].items():
+            if field not in per_100g:
+                per_100g[field], quality[field] = value, base["quality"].get(field, "unknown")
+    return per_100g, quality
+
+
 def cmd_build(db: dict) -> None:
     refs = {a["ref"] for a in db["ingredients"].values()}
+    refs |= {f["from"] for f in db.get("fills", {}).values()}
     refs |= {m["can ref"] for m in db.get("measures", {}).values() if m.get("can ref")}
     for definition in db["composites"].values():
         refs |= {p["ref"] for p in definition["parts"]}
@@ -165,9 +193,14 @@ def cmd_build(db: dict) -> None:
     records = records_for(r for r in refs if source_of(r) not in ("recipe", NO_FOOD))
     foods = {}
     for ref, rec in records.items():
-        per_100g, quality = apply_corrections(db, ref, rec["per_100g"], rec["quality"])
+        per_100g, quality = fill_gaps(db, ref, rec["per_100g"], rec["quality"], records)
+        per_100g, quality = apply_corrections(db, ref, per_100g, quality)
+        portions = rec["portions"]
+        fill = db.get("fills", {}).get(ref)
+        if not portions and fill and fill["from"] in records:      # CoFID / Ciqual give no household measures
+            portions = records[fill["from"]]["portions"]
         foods[ref] = {"name": rec["name"], "source": rec["source"], "tier": TIERS[rec["source"]],
-                      "per_100g": per_100g, "quality": quality, "portions": rec["portions"]}
+                      "per_100g": per_100g, "quality": quality, "portions": portions}
     for ref, definition in db["composites"].items():
         built = build_composite(definition, records)
         built["per_100g"], built["quality"] = apply_corrections(db, ref, built["per_100g"], built["quality"])
@@ -218,6 +251,8 @@ def main() -> None:
             db["composites"][ref] = {"name": name, "parts": [{"ref": r, "grams": g} for r, g in parts.items()]}
         for ref, fix in data.get("corrections", {}).items():
             db.setdefault("corrections", {}).setdefault(ref, {}).update(fix)
+        for ref, (base, note) in data.get("fills", {}).items():
+            db.setdefault("fills", {})[ref] = {"from": base, "note": note or None}
         print(f"assigned {len(data['picks'])} ingredients", file=sys.stderr)
     elif args.cmd == "overrides-approved":
         approved = json.loads(Path(args.overrides).read_text(encoding="utf-8"))
