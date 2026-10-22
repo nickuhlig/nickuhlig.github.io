@@ -243,16 +243,17 @@ def main() -> None:
     elif args.cmd == "assign-picks":
         data = json.loads(Path(args.picks).read_text(encoding="utf-8"))
         for ing_id, (ref, note) in data["picks"].items():
+            kept = {k: v for k, v in db["ingredients"].get(ing_id, {}).items() if k not in ("ref", "note", "flag")}
             db["ingredients"][ing_id] = {"ref": ref, "note": re.sub(r"\s*->\s*FLAG$", "", note) or None,
-                                         "flag": "FLAG" in note}
+                                         "flag": "FLAG" in note, **kept}      # keeps removed_when_whole etc.
         for ing_id in data.get("removed_when_whole", []):
             db["ingredients"][ing_id]["removed_when_whole"] = True
         for ref, (name, parts) in data.get("composites", {}).items():
             db["composites"][ref] = {"name": name, "parts": [{"ref": r, "grams": g} for r, g in parts.items()]}
         for ref, fix in data.get("corrections", {}).items():
             db.setdefault("corrections", {}).setdefault(ref, {}).update(fix)
-        for ref, (base, note) in data.get("fills", {}).items():
-            db.setdefault("fills", {})[ref] = {"from": base, "note": note or None}
+        for ref, (base, note) in data.get("fills", {}).items():     # a lab food shared by two ingredients keeps its first fill
+            db.setdefault("fills", {}).setdefault(ref, {"from": base, "note": note or None})
         print(f"assigned {len(data['picks'])} ingredients", file=sys.stderr)
     elif args.cmd == "overrides-approved":
         approved = json.loads(Path(args.overrides).read_text(encoding="utf-8"))
