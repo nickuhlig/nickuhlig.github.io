@@ -12,6 +12,7 @@ PRIORITY (agreed with the user; nutrition_composite.py applies it):
      mext   Standard Tables of Food Composition in Japan, 8th ed. 2023 (MEXT, xlsx, Japanese names).
      afcd   Australian Food Composition Database, Release 3 (FSANZ, xlsx).
      nevo   NEVO-online 2025 v9.0, Dutch Food Composition Database (RIVM, CSV).
+     ifct   Indian Food Composition Tables 2017 (NIN-ICMR), via github.com/nodef/ifct2017 (CSV).
   3. on     OpenNutrition 2025.1 (TSV), generic foods only.           ODbL; every value tagged "estimated".
   4. branded / fndds  USDA Branded product labels and FNDDS (USDA survey foods), via fdc_client.
   5. recipe-built from better-tier foods (simple syrup = sugar + water), then a last-resort fallback.
@@ -679,6 +680,75 @@ def import_nevo(folder: Path) -> dict:
     return out
 
 
+# --- IFCT (India, Indian Food Composition Tables 2017, NIN-ICMR; data via github.com/nodef/ifct2017) ---
+
+# Every mass in the CSV is grams per 100 g (energy kJ). Library field -> (IFCT code(s), factor to the
+# library's unit); a tuple of codes is summed.
+IFCT_COLUMNS = {
+    "water": ("water", 1), "protein": ("protcnt", 1), "fat": ("fatce", 1), "fiber": ("fibtg", 1), "starch": ("starch", 1),
+    "sugars": ("fsugar", 1), "fructose": ("frus", 1), "glucose": ("glus", 1), "sucrose": ("sucs", 1), "maltose": ("mals", 1),
+    "lactose": ("lactose", 1), "ash": ("ash", 1), "saturated": ("fasat", 1), "monounsaturated": ("fams", 1),
+    "polyunsaturated": ("fapu", 1), "transfats": ("fatrn", 1),
+    "omega_3": (("f18d3n3", "f20d5n3", "f22d5n3", "f22d6n3"), 1), "omega_6": (("f18d2cn6", "f20d4n6"), 1),
+    "cholesterol": ("cholc", 1000), "calcium": ("ca", 1000), "iron": ("fe", 1000), "magnesium": ("mg", 1000),
+    "phosphorus": ("p", 1000), "potassium": ("k", 1000), "sodium": ("na", 1000), "copper": ("cu", 1000),
+    "manganese": ("mn", 1000), "zinc": ("zn", 1000), "selenium": ("se", 1e6), "b1_thiamine": ("thia", 1000),
+    "b2_riboflavin": ("ribf", 1000), "b3_niacin": ("nia", 1000), "b5_pantothenic_acid": ("pantac", 1000),
+    "b6_pyridoxine": ("vitb6c", 1000), "folate": ("folsum", 1e6), "vitamin_c": ("vitc", 1000),
+    "vitamin_e": ("tocpha", 1000), "vitamin_k": (("vitk1", "vitk2"), 1e6), "vitamin_d": (("ergcal", "chocal"), 1e6),
+    **{f: (c, 1) for f, c in (("histidine", "his"), ("isoleucine", "ile"), ("leucine", "leu"), ("lysine", "lys"),
+                              ("methionine", "met"), ("cystine", "cys"), ("phenylalanine", "phe"), ("threonine", "thr"),
+                              ("tryptophan", "trp"), ("valine", "val"), ("alanine", "ala"), ("arginine", "arg"),
+                              ("aspartic_acid", "asp"), ("glutamic_acid", "glu"), ("glycine", "gly"), ("proline", "pro"),
+                              ("serine", "ser"), ("tyrosine", "tyr"))},
+}
+# Fields where IFCT's "0 ± 0" usually means "not analysed" (whole milk shows 0 cholesterol and 0 retinol),
+# so such a zero is left out; macros and fatty acids keep their zeros.
+IFCT_ZERO_UNKNOWN = {"cholesterol", "calcium", "iron", "magnesium", "phosphorus", "potassium", "sodium", "copper",
+                     "manganese", "zinc", "selenium", "b1_thiamine", "b2_riboflavin", "b3_niacin", "b5_pantothenic_acid",
+                     "b6_pyridoxine", "folate", "vitamin_c", "vitamin_e", "vitamin_k", "vitamin_d", "vitamin_a",
+                     "histidine", "isoleucine", "leucine", "lysine", "methionine", "cystine", "phenylalanine", "threonine",
+                     "tryptophan", "valine", "alanine", "arginine", "aspartic_acid", "glutamic_acid", "glycine", "proline",
+                     "serine", "tyrosine"}
+
+
+def import_ifct(csv_path: Path) -> dict:
+    """IFCT 2017: 542 foods analysed across six regions of India (all values measured). Carbs by difference
+    = available carbohydrate (choavldf) + fibre; vitamin A as RAE (retinol + beta-carotene equivalents / 12)."""
+    out = {}
+    with open(csv_path, encoding="utf-8", newline="") as f:
+        for r in csv.DictReader(f):
+            def val(code):
+                v, e = _num(r.get(code)), _num(r.get(code + "_e"))
+                return v, (v == 0 and (e or 0) == 0)
+            per_100g = {}
+            for field, (codes, factor) in IFCT_COLUMNS.items():
+                parts = [val(c) for c in (codes if isinstance(codes, tuple) else (codes,))]
+                known = [(v, z) for v, z in parts if v is not None]
+                if not known:
+                    continue
+                total = sum(v for v, _ in known)
+                if total == 0 and field in IFCT_ZERO_UNKNOWN and all(z for _, z in known):
+                    continue
+                per_100g[field] = round(total * factor, 4)
+            kj = _num(r.get("enerc"))
+            if kj:
+                per_100g["energy"] = round(kj / 4.184, 1)
+            cho = _num(r.get("choavldf"))
+            if cho is not None:
+                per_100g["carbs"] = round(cho + per_100g.get("fiber", 0.0), 4)
+            retinol, carot = _num(r.get("retol")), _num(r.get("cartbeq") or r.get("cartb"))
+            animal = re.search(r"milk|egg|meat|poultry|fish|mollus|shellfish", r.get("grup") or "", re.I)
+            retinol_unknown = animal and val("retol")[1]       # an animal food's "0 ± 0" retinol was not analysed
+            if not retinol_unknown and ((retinol or 0) > 0 or (carot or 0) > 0):
+                per_100g["vitamin_a"] = round(((retinol or 0.0) + (carot or 0.0) / 12) * 1e6, 4)
+            key = f"ifct:{r['code']}"
+            out[key] = {"key": key, "source": "ifct", "id": r["code"], "name": r["name"].strip(),
+                        "alt_names": [r.get("scie") or "", r.get("lang") or ""], "per_100g": per_100g,
+                        "quality": {k: "measured" for k in per_100g}, "portions": []}
+    return out
+
+
 # --- OpenNutrition -------------------------------------------------------------------------------
 
 # Library field -> OpenNutrition key (same units). It has no ash, starch or individual sugars.
@@ -792,7 +862,7 @@ def save(source: str, records: dict) -> Path:
 
 
 def load(source: str) -> dict:
-    """Imported records of one source (cnf, frida, cofid, ciqual, mext, afcd, nevo or on); SR Legacy goes
+    """Imported records of one source (cnf, frida, cofid, ciqual, mext, afcd, nevo, ifct or on); SR Legacy goes
     through sr_records()."""
     path = DATA_DIR / f"{source}.json.gz"
     if not path.exists():
@@ -823,6 +893,7 @@ def main() -> None:
     p.add_argument("--mext", help="folder with the MEXT 2023 xlsx files (main, carbohydrates, fatty_acids, amino_acids)")
     p.add_argument("--afcd", help="AFCD Release 3 - Nutrient profiles.xlsx")
     p.add_argument("--nevo", help="folder with the NEVO 2025 CSV files")
+    p.add_argument("--ifct", help="IFCT 2017 compositions CSV (github.com/nodef/ifct2017, compositions/index.csv)")
     p.add_argument("--on-grocery-index", help="opennutrition_foods.tsv: write the grocery product name index")
     p.add_argument("--on-extra-ids", default="",
                    help="comma-separated OpenNutrition grocery ids to import besides the generic foods")
@@ -843,7 +914,8 @@ def main() -> None:
                                 ("on", args.opennutrition, on_reader),
                                 ("cofid", args.cofid, lambda paths: import_cofid(*map(Path, paths))),
                                 ("ciqual", args.ciqual, import_ciqual), ("mext", args.mext, import_mext),
-                                ("afcd", args.afcd, import_afcd), ("nevo", args.nevo, import_nevo)):
+                                ("afcd", args.afcd, import_afcd), ("nevo", args.nevo, import_nevo),
+                                ("ifct", args.ifct, import_ifct)):
         if arg:
             records = reader(arg if isinstance(arg, list) else Path(arg))
             print(f"{source}: {len(records)} foods -> {save(source, records)}", file=sys.stderr)

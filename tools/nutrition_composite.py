@@ -47,7 +47,7 @@ nutrition choices must not depend on that code preserving extra keys.
 
 TIERS (the priority agreed with the user; a lower tier is preferred when choosing a ref):
     0 none:removed (removed before eating; counts as zero)
-    1 sr (USDA SR Legacy)  2 cnf / frida / cofid / ciqual / mext / afcd / nevo  3 on (OpenNutrition, all values "estimated")
+    1 sr (USDA SR Legacy)  2 cnf / frida / cofid / ciqual / mext / afcd / nevo / ifct  3 on (OpenNutrition, all values "estimated")
     4 branded (a USDA Branded product label) / fndds (USDA survey database)
     5 recipe (composite of better-tier foods)  6 fallback
 
@@ -76,7 +76,7 @@ import nutrition_sources as ns
 from library_paths import DEFAULT_LIBRARY_DIR
 
 FILENAME = "nutrition_foods.json"
-TIERS = {"none": 0, "sr": 1, "cnf": 2, "frida": 2, "cofid": 2, "ciqual": 2, "mext": 2, "afcd": 2, "nevo": 2, "on": 3, "branded": 4, "fndds": 4, "recipe": 5, "fallback": 6}
+TIERS = {"none": 0, "sr": 1, "cnf": 2, "frida": 2, "cofid": 2, "ciqual": 2, "mext": 2, "afcd": 2, "nevo": 2, "ifct": 2, "on": 3, "branded": 4, "fndds": 4, "recipe": 5, "fallback": 6}
 # "none:removed" -- the ingredient is removed before eating (bouquet garni, corn husks, steeped tea
 # leaves): no source food, counted as zero by recipe_nutrition.py (user rule)
 NO_FOOD = "none"
@@ -91,6 +91,8 @@ CITATIONS = [
     "MEXT, Standard Tables of Food Composition in Japan - 2020 - (Eighth Revised Edition), Updated and Enlarged 2023.",
     "Food Standards Australia New Zealand, Australian Food Composition Database - Release 3.",
     "RIVM, NEVO-online 2025 v9.0, Dutch Food Composition Database.",
+    "Longvah T, Ananthan R, Bhaskarachary K, Venkaiah K. Indian Food Composition Tables 2017. National Institute "
+    "of Nutrition (ICMR), Hyderabad. Data via github.com/nodef/ifct2017.",
     "OpenNutrition (https://www.opennutrition.app), dataset 2025.1. ODbL 1.0.",
     "USDA FoodData Central, Branded Foods and FNDDS. Public domain.",
 ]
@@ -130,7 +132,7 @@ def records_for(refs) -> dict:
     for source, wanted in by_source.items():
         if source in ("sr", "branded", "fndds"):
             out.update(ns.fdc_records([int(r.split(":", 1)[1]) for r in wanted], source))
-        elif source in ("cnf", "frida", "cofid", "ciqual", "mext", "afcd", "nevo", "on"):
+        elif source in ("cnf", "frida", "cofid", "ciqual", "mext", "afcd", "nevo", "ifct", "on"):
             recs = ns.load(source)
             missing = wanted - recs.keys()
             if missing:
