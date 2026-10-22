@@ -9,6 +9,9 @@ PRIORITY (agreed with the user; nutrition_composite.py applies it):
      frida  Frida 5.5, Danish Food Composition Database (DTU, xlsx).   CC BY 4.0.
      cofid  CoFID 2021, UK McCance and Widdowson's (xlsx).             Open Government Licence v3.0.
      ciqual Ciqual 2025, French ANSES table (XML).                     Licence Ouverte / Etalab 2.0.
+     mext   Standard Tables of Food Composition in Japan, 8th ed. 2023 (MEXT, xlsx, Japanese names).
+     afcd   Australian Food Composition Database, Release 3 (FSANZ, xlsx).
+     nevo   NEVO-online 2025 v9.0, Dutch Food Composition Database (RIVM, CSV).
   3. on     OpenNutrition 2025.1 (TSV), generic foods only.           ODbL; every value tagged "estimated".
   4. branded / fndds  USDA Branded product labels and FNDDS (USDA survey foods), via fdc_client.
   5. recipe-built from better-tier foods (simple syrup = sugar + water), then a last-resort fallback.
@@ -444,6 +447,238 @@ def import_ciqual(xml_dir: Path) -> dict:
     return out
 
 
+# --- MEXT (Japan, Standard Tables of Food Composition, 8th ed., 2023 enlarged) -------------------
+
+# Japanese-language Excel; columns are read by their INFOODS-style identifiers (成分識別子 row).
+# "(1.2)" is an estimate (calculated), "Tr" / "(Tr)" a trace (0), "(0)" assumed zero, "-" / "*" unknown.
+MEXT_MAIN = {
+    "energy": "ENERC_KCAL", "water": "WATER", "protein": "PROT-", "fat": "FAT-", "carbs": "CHOCDF-", "fiber": "FIB-",
+    "sugar_alcohol": "POLYL", "ash": "ASH", "alcohol": "ALC", "cholesterol": "CHOLE", "sodium": "NA", "potassium": "K",
+    "calcium": "CA", "magnesium": "MG", "phosphorus": "P", "iron": "FE", "zinc": "ZN", "copper": "CU", "manganese": "MN",
+    "selenium": "SE", "vitamin_a": "VITA_RAE", "vitamin_d": "VITD", "vitamin_e": "TOCPHA", "vitamin_k": "VITK",
+    "b1_thiamine": "THIA", "b2_riboflavin": "RIBF", "b3_niacin": "NIA", "b5_pantothenic_acid": "PANTAC",
+    "b6_pyridoxine": "VITB6A", "b12_cobalamin": "VITB12", "folate": "FOL", "vitamin_c": "VITC",
+}
+MEXT_CARBS = {"starch": "STARCH", "glucose": "GLUS", "fructose": "FRUS", "galactose": "GALS", "sucrose": "SUCS",
+              "maltose": "MALS", "lactose": "LACS"}
+MEXT_FATS = {"saturated": "FASAT", "monounsaturated": "FAMS", "polyunsaturated": "FAPU"}
+MEXT_AMINO = {"isoleucine": "ILE", "leucine": "LEU", "lysine": "LYS", "methionine": "MET", "cystine": "CYS",
+              "phenylalanine": "PHE", "tyrosine": "TYR", "threonine": "THR", "tryptophan": "TRP", "valine": "VAL",
+              "histidine": "HIS", "arginine": "ARG", "alanine": "ALA", "aspartic_acid": "ASP", "glutamic_acid": "GLU",
+              "glycine": "GLY", "proline": "PRO", "serine": "SER"}
+
+
+def _mext_value(cell):
+    """(value, quality) for one MEXT cell, or None when unknown."""
+    t = str(cell).strip() if cell is not None else ""
+    if t in ("", "-", "*", "†"):
+        return None
+    estimated = t.startswith("(") and t.endswith(")")
+    t = t.strip("()").strip()
+    if t == "Tr":
+        return 0.0, "calculated" if estimated else "measured"
+    v = _num(t)
+    if v is None:
+        return None
+    if estimated:
+        return v, "assumed_zero" if v == 0 else "calculated"
+    return v, "measured"
+
+
+def _mext_table(path: Path) -> dict:
+    """{food number: {identifier: (value, quality)}, "_names": {food number: name}} from the whole-table sheet."""
+    import openpyxl
+    ws = openpyxl.load_workbook(path, read_only=True, data_only=True).worksheets[0]
+    ids, out, names = None, {}, {}
+    for r in ws.iter_rows(values_only=True):
+        if r and "成分識別子" in [str(x).strip() for x in r[:5] if x is not None]:   # the label sits in column D
+            ids = [str(x).strip() if x is not None else "" for x in r]
+            continue
+        if ids is None or len(r) < 4 or not re.fullmatch(r"\d{5}", str(r[1] or "").strip()):
+            continue
+        code = str(r[1]).strip()
+        names[code] = re.sub(r"[　\s]+", " ", str(r[3] or "")).strip()
+        out[code] = {ids[i]: v for i in range(4, len(r)) if i < len(ids) and ids[i] for v in [_mext_value(r[i])] if v}
+    out["_names"] = names
+    return out
+
+
+def import_mext(folder: Path) -> dict:
+    """MEXT 2023: main table + carbohydrate, fatty-acid and amino-acid tables (each per 100 g edible portion).
+    Names stay Japanese (the tables have no English names); fatty acids and amino acids in mg become g."""
+    main = _mext_table(next(folder.glob("*main*.xlsx")))
+    carbs = _mext_table(next(folder.glob("*carbohydrates*.xlsx")))
+    fats = _mext_table(next(folder.glob("*fatty_acids*.xlsx")))
+    amino = _mext_table(next(folder.glob("*amino_acids*.xlsx")))
+    out = {}
+    for code, name in main["_names"].items():
+        v, per_100g, quality = main[code], {}, {}
+        for field, ident in MEXT_MAIN.items():
+            if ident in v:
+                per_100g[field], quality[field] = v[ident]
+        c = carbs.get(code, {})
+        for field, ident in MEXT_CARBS.items():
+            if ident in c:
+                per_100g[field], quality[field] = c[ident]
+        sugar_parts = [c[i] for i in ("GLUS", "FRUS", "GALS", "SUCS", "MALS", "LACS", "TRES") if i in c]
+        if {"GLUS", "FRUS", "SUCS"} <= set(c):
+            per_100g["sugars"], quality["sugars"] = round(sum(p[0] for p in sugar_parts), 4), sugar_parts[0][1]
+        f = fats.get(code, {})
+        for field, ident in MEXT_FATS.items():
+            if ident in f:
+                per_100g[field], quality[field] = f[ident]
+        n3 = [f[i] for i in ("F18D3N3", "F20D5N3", "F22D5N3", "F22D6N3") if i in f]
+        if n3:
+            per_100g["omega_3"], quality["omega_3"] = round(sum(x[0] for x in n3) / 1000, 4), n3[0][1]
+        n6 = [f[i] for i in ("F18D2N6", "F20D4N6") if i in f]
+        if n6:
+            per_100g["omega_6"], quality["omega_6"] = round(sum(x[0] for x in n6) / 1000, 4), n6[0][1]
+        a = amino.get(code, {})
+        for field, ident in MEXT_AMINO.items():
+            if ident in a:
+                per_100g[field], quality[field] = round(a[ident][0] / 1000, 4), a[ident][1]
+        out[f"mext:{code}"] = {"key": f"mext:{code}", "source": "mext", "id": code, "name": name, "alt_names": [],
+                               "per_100g": per_100g, "quality": quality, "portions": []}
+    return out
+
+
+# --- AFCD (Australia, FSANZ Australian Food Composition Database, Release 3) ----------------------
+
+AFCD_COLUMNS = {   # library field -> AFCD column name (units as in AFCD; see AFCD_SCALE)
+    "water": "Moisture (water)  (g)", "protein": "Protein  (g)", "fat": "Fat, total  (g)", "ash": "Ash  (g)",
+    "fiber": "Total dietary fibre  (g)", "alcohol": "Alcohol  (g)", "fructose": "Fructose  (g)", "glucose": "Glucose  (g)",
+    "sucrose": "Sucrose (g)", "maltose": "Maltose  (g)", "lactose": "Lactose  (g)", "galactose": "Galactose  (g)",
+    "sugars": "Total sugars (g)", "starch": "Starch  (g)", "calcium": "Calcium (Ca)  (mg)", "copper": "Copper (Cu)  (mg)",
+    "iron": "Iron (Fe)  (mg)", "magnesium": "Magnesium (Mg)  (mg)", "manganese": "Manganese (Mn)  (mg)",
+    "phosphorus": "Phosphorus (P)  (mg)", "potassium": "Potassium (K)  (mg)", "selenium": "Selenium (Se)  (ug)",
+    "sodium": "Sodium (Na)  (mg)", "zinc": "Zinc (Zn)  (mg)", "b1_thiamine": "Thiamin (B1)  (mg)",
+    "b2_riboflavin": "Riboflavin (B2)  (mg)", "b3_niacin": "Niacin (B3)  (mg)", "b5_pantothenic_acid": "Pantothenic acid (B5)  (mg)",
+    "b6_pyridoxine": "Pyridoxine (B6)  (mg)", "b12_cobalamin": "Cobalamin (B12)  (ug)", "folate": "Dietary folate equivalents  (ug)",
+    "vitamin_c": "Vitamin C  (mg)", "vitamin_d": "Vitamin D3 equivalents  (ug)", "vitamin_e": "Alpha tocopherol  (mg)",
+    "saturated": "Total saturated fatty acids, equated  (g)", "monounsaturated": "Total monounsaturated fatty acids, equated  (g)",
+    "polyunsaturated": "Total polyunsaturated fatty acids, equated  (g)", "transfats": "Total trans fatty acids, imputed  (mg)",
+    "caffeine": "Caffeine  (mg)", "cholesterol": "Cholesterol  (mg)",
+    **{f: f"{n}  (mg)" for f, n in (("alanine", "Alanine"), ("arginine", "Arginine"), ("aspartic_acid", "Aspartic acid"),
+                                    ("cystine", "Cystine plus cysteine"), ("glutamic_acid", "Glutamic acid"), ("glycine", "Glycine"),
+                                    ("histidine", "Histidine"), ("isoleucine", "Isoleucine"), ("leucine", "Leucine"),
+                                    ("lysine", "Lysine"), ("methionine", "Methionine"), ("phenylalanine", "Phenylalanine"),
+                                    ("proline", "Proline"), ("serine", "Serine"), ("threonine", "Threonine"),
+                                    ("tyrosine", "Tyrosine"), ("tryptophan", "Tryptophan"), ("valine", "Valine"))},
+}
+AFCD_SCALE = {"transfats": 0.001, **{f: 0.001 for f in ("alanine", "arginine", "aspartic_acid", "cystine", "glutamic_acid",
+                                                       "glycine", "histidine", "isoleucine", "leucine", "lysine", "methionine",
+                                                       "phenylalanine", "proline", "serine", "threonine", "tyrosine",
+                                                       "tryptophan", "valine")}}
+AFCD_DERIVATION = {"Analysed": "measured", "Recipe": "calculated", "Borrowed": "borrowed", "Imputed": "imputed",
+                   "Label Data": "label", "Estimated": "imputed"}
+
+
+def import_afcd(xlsx: Path) -> dict:
+    """AFCD Release 3, all foods per 100 g. Energy is kJ (with fibre) / 4.184; carbs by difference are the
+    available carbohydrate (with sugar alcohols) plus fibre; vitamin A as RAE (retinol + beta-carotene eq. / 12)."""
+    import openpyxl
+    ws = openpyxl.load_workbook(xlsx, read_only=True, data_only=True)["All solids & liquids per 100 g"]
+    rows = ws.iter_rows(min_row=3, values_only=True)
+    head = [re.sub(r"\s*\n\s*", " ", str(h)).strip() if h else "" for h in next(rows)]
+    col = {h: i for i, h in enumerate(head)}
+    norm = {re.sub(r"\s+", " ", k): k for k in col}
+    def c(name):
+        return col.get(norm.get(re.sub(r"\s+", " ", name)))
+    out = {}
+    for r in rows:
+        if not r or not r[0]:
+            continue
+        q = AFCD_DERIVATION.get(r[col["Derivation"]], "unknown")
+        val = lambda name: _num(r[c(name)]) if c(name) is not None else None
+        per_100g = {}
+        for field, name in AFCD_COLUMNS.items():
+            v = val(name)
+            if v is not None:
+                per_100g[field] = round(v * AFCD_SCALE.get(field, 1.0), 4)
+        kj = val("Energy with dietary fibre, equated (kJ)")
+        if kj is not None:
+            per_100g["energy"] = round(kj / 4.184, 1)
+        avail = val("Available carbohydrate, with sugar alcohols (g)")
+        if avail is not None:
+            per_100g["carbs"] = round(avail + per_100g.get("fiber", 0.0), 4)
+        retinol, carotene = val("Retinol (preformed vitamin A) (ug)"), val("Beta-carotene equivalents (provitamin A) (ug)")
+        if retinol is not None or carotene is not None:
+            per_100g["vitamin_a"] = round((retinol or 0.0) + (carotene or 0.0) / 12, 4)
+        n3 = [(val("C18:3w3 (g)"), 1), (val("C20:5w3 (mg)"), 1000), (val("C22:5w3 (mg)"), 1000), (val("C22:6w3 (mg)"), 1000)]
+        if any(v is not None for v, _ in n3):
+            per_100g["omega_3"] = round(sum((v or 0.0) / d for v, d in n3), 4)
+        n6 = [(val("C18:2w6 (g)"), 1), (val("C20:4w6 (mg)"), 1000)]
+        if any(v is not None for v, _ in n6):
+            per_100g["omega_6"] = round(sum((v or 0.0) / d for v, d in n6), 4)
+        key = f"afcd:{r[0]}"
+        out[key] = {"key": key, "source": "afcd", "id": str(r[0]), "name": str(r[col["Food Name"]]).strip(), "alt_names": [],
+                    "per_100g": per_100g, "quality": {f: q for f in per_100g}, "portions": []}
+    return out
+
+
+# --- NEVO (Netherlands, RIVM NEVO-online 2025) ---------------------------------------------------
+
+NEVO_CODES = {   # library field -> NEVO code (units as in NEVO; tryptophan mg -> g)
+    "energy": "ENERCC", "water": "WATER", "protein": "PROT", "fat": "FAT", "fiber": "FIBT", "starch": "STARCH",
+    "sugars": "SUGAR", "sugar_alcohol": "POLYL", "alcohol": "ALC", "ash": "ASH", "saturated": "FASAT",
+    "monounsaturated": "FAMSCIS", "polyunsaturated": "FAPU", "transfats": "FATRS", "cholesterol": "CHORL",
+    "sodium": "NA", "potassium": "K", "calcium": "CA", "phosphorus": "P", "magnesium": "MG", "iron": "FE",
+    "copper": "CU", "selenium": "SE", "zinc": "ZN", "vitamin_a": "VITA_RAE", "vitamin_d": "VITD", "vitamin_k": "VITK",
+    "b1_thiamine": "THIA", "b2_riboflavin": "RIBF", "b6_pyridoxine": "VITB6", "b12_cobalamin": "VITB12",
+    "b3_niacin": "NIA", "folate": "FOL", "vitamin_c": "VITC", "tryptophan": "TRP",
+}
+
+
+def import_nevo(folder: Path) -> dict:
+    """NEVO 2025 (pipe-separated, decimal commas). Carbs by difference = available carbohydrate + fibre +
+    polyols. Each value's source code (Details file) sets its quality: MI* calculated, REF.* measured."""
+    main = next(p for p in folder.glob("NEVO*.csv") if re.fullmatch(r"NEVO\d{4}_v[\d.]+\.csv", p.name))
+    num = lambda s: _num((s or "").strip().strip('"').replace(",", "."))
+    quality = {}
+    details = next(folder.glob("*_Details.csv"), None)
+    if details:
+        with open(details, encoding="utf-8", newline="") as f:
+            for row in csv.reader(f, delimiter="|"):
+                if len(row) > 15 and row[3].isdigit():
+                    src = row[15].strip()
+                    quality[(row[3], row[9].strip())] = "calculated" if src.startswith("MI") else "measured" if src else "unknown"
+    out = {}
+    with open(main, encoding="utf-8", newline="") as f:
+        reader = csv.reader(f, delimiter="|")
+        head = [h.strip().strip('"') for h in next(reader)]
+        col = {h.split(" (")[0].split("/")[-1].strip(): i for i, h in enumerate(head)}
+        for r in reader:
+            if len(r) < len(head) or not r[col["NEVO-code"]].strip().isdigit():
+                continue
+            code = r[col["NEVO-code"]].strip()
+            per_100g, qual = {}, {}
+            for field, nc_ in NEVO_CODES.items():
+                v = num(r[col[nc_]]) if nc_ in col else None
+                if v is not None:
+                    per_100g[field] = round(v / 1000, 4) if field == "tryptophan" else v
+                    qual[field] = quality.get((code, nc_), "unknown")
+            cho = num(r[col["CHO"]])
+            if cho is not None:
+                per_100g["carbs"] = round(cho + per_100g.get("fiber", 0.0) + per_100g.get("sugar_alcohol", 0.0), 4)
+                qual["carbs"] = quality.get((code, "CHO"), "unknown")
+            ve = num(r[col["TOCPHA"]]) if "TOCPHA" in col else None
+            if ve is None and "VITE" in col:
+                ve = num(r[col["VITE"]])
+            if ve is not None:
+                per_100g["vitamin_e"], qual["vitamin_e"] = ve, quality.get((code, "TOCPHA"), "unknown")
+            n3 = [num(r[col[c]]) for c in ("F18:3CN3", "F20:5CN3", "F22:5CN3", "F22:6CN3") if c in col]
+            if any(v is not None for v in n3):
+                per_100g["omega_3"], qual["omega_3"] = round(sum(v or 0.0 for v in n3), 4), qual.get("polyunsaturated", "unknown")
+            n6 = [num(r[col[c]]) for c in ("F18:2CN6", "F20:4CN6") if c in col]
+            if any(v is not None for v in n6):
+                per_100g["omega_6"], qual["omega_6"] = round(sum(v or 0.0 for v in n6), 4), qual.get("polyunsaturated", "unknown")
+            key = f"nevo:{code}"
+            out[key] = {"key": key, "source": "nevo", "id": code, "name": r[col["Food name"]].strip(),
+                        "alt_names": [r[col["Dutch food name"]].strip(), r[col["Synoniem"]].strip()],
+                        "per_100g": per_100g, "quality": qual, "portions": []}
+    return out
+
+
 # --- OpenNutrition -------------------------------------------------------------------------------
 
 # Library field -> OpenNutrition key (same units). It has no ash, starch or individual sugars.
@@ -557,7 +792,8 @@ def save(source: str, records: dict) -> Path:
 
 
 def load(source: str) -> dict:
-    """Imported records of one source (cnf, frida, cofid, ciqual or on); SR Legacy goes through sr_records()."""
+    """Imported records of one source (cnf, frida, cofid, ciqual, mext, afcd, nevo or on); SR Legacy goes
+    through sr_records()."""
     path = DATA_DIR / f"{source}.json.gz"
     if not path.exists():
         raise SystemExit(f"{path} is missing -- run: python nutrition_sources.py import ...")
@@ -584,6 +820,9 @@ def main() -> None:
     p.add_argument("--opennutrition", help="opennutrition_foods.tsv")
     p.add_argument("--cofid", nargs="+", help="CoFID 2021 xlsx, then optionally the old-foods xlsx")
     p.add_argument("--ciqual", help="folder with the Ciqual 2025 XML files")
+    p.add_argument("--mext", help="folder with the MEXT 2023 xlsx files (main, carbohydrates, fatty_acids, amino_acids)")
+    p.add_argument("--afcd", help="AFCD Release 3 - Nutrient profiles.xlsx")
+    p.add_argument("--nevo", help="folder with the NEVO 2025 CSV files")
     p.add_argument("--on-grocery-index", help="opennutrition_foods.tsv: write the grocery product name index")
     p.add_argument("--on-extra-ids", default="",
                    help="comma-separated OpenNutrition grocery ids to import besides the generic foods")
@@ -603,7 +842,8 @@ def main() -> None:
     for source, arg, reader in (("cnf", args.cnf, import_cnf), ("frida", args.frida, import_frida),
                                 ("on", args.opennutrition, on_reader),
                                 ("cofid", args.cofid, lambda paths: import_cofid(*map(Path, paths))),
-                                ("ciqual", args.ciqual, import_ciqual)):
+                                ("ciqual", args.ciqual, import_ciqual), ("mext", args.mext, import_mext),
+                                ("afcd", args.afcd, import_afcd), ("nevo", args.nevo, import_nevo)):
         if arg:
             records = reader(arg if isinstance(arg, list) else Path(arg))
             print(f"{source}: {len(records)} foods -> {save(source, records)}", file=sys.stderr)
