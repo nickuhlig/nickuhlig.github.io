@@ -29,7 +29,9 @@ from, and the per-100 g values of those foods, in one library file next to the m
                      (recipe_nutrition.py checks these first); "item" = one medium piece,
                      "inch" = per inch, "density" = g per mL; "drained" = yield of a can/jar's
                      contents eaten drained, "package yield" = edible share of a package weight
-                     (whole rotisserie chicken), "can ref" = the food used for can/jar lines
+                     (whole rotisserie chicken), "can ref" = the food used for can/jar lines,
+                     "bone in" = edible share of a weight line for an ingredient that is bone-in
+                     even when the line doesn't say so ("4 lb chicken, cut into 8 pieces")
       "recipe_overrides": {"5005151": {"scale": {"2": 0.2, ...}, "note": "..."}, ...}
                      reviewed per-recipe fixes keyed by recipe id: "scale" multiplies the grams of
                      ingredient lines by index (0-based), e.g. one of five alternative glazes = 0.2;

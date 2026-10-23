@@ -386,14 +386,20 @@ BONE_IN = re.compile(r"\bbone-in\b|\bon the bone\b|\bwings?\b|\bdrumsticks?\b|\b
 MEAT_FOOD = re.compile(r"^(Chicken|Turkey|Duck|Goose|Pork|Beef|Lamb|Veal|Goat|Game meat|Fish|Quail|Pheasant|Cornish)", re.I)
 
 
-def bone_in_yield(line_name: str, food: dict):
-    """Edible share for a bone-in cut bought by weight, or None. "boneless" lines never match."""
+BONELESS = re.compile(r"\bboneless\b|\bbone(s)? removed\b|\bdeboned\b|\bmeat (only|from)\b|\bpicked\b|\bshredded\b", re.I)
+
+
+def bone_in_yield(line_name: str, food: dict, reviewed: float = None):
+    """Edible share for a bone-in cut bought by weight, or None. "boneless" lines never match. `reviewed` is the
+    ingredient's own "bone in" measure, for lines whose name doesn't say it ("4 lb chicken, cut into 8 pieces")."""
     name = line_name or ""
-    if re.search(r"\bboneless\b|\bbone(s)? removed\b|\bdeboned\b|\bmeat (only|from)\b|\bpicked\b|\bshredded\b", name, re.I):
+    if BONELESS.search(name):
         return None
-    if not BONE_IN.search(name) or not MEAT_FOOD.match(food.get("name") or ""):
+    if not MEAT_FOOD.match(food.get("name") or ""):
         return None
-    return next((y for pat, y in BONE_IN_YIELDS if re.search(pat, name, re.I)), 0.75)
+    if not BONE_IN.search(name):
+        return reviewed
+    return next((y for pat, y in BONE_IN_YIELDS if re.search(pat, name, re.I)), reviewed or 0.75)
 
 
 # Recipes that ARE a stock or broth (not a soup that keeps its meat): the solids are strained out.
@@ -659,7 +665,7 @@ def recipe_nutrition(recipe: dict, db: dict, skip_ids=()) -> dict:
         if entry.get("assumed"):
             how = f"{how} (amount not given; assumed {entry['assumed']})"
         if grams and parsed["kind"] in ("weight", "package") and not measures.get("package yield"):
-            y = bone_in_yield(ing.get("name"), food)
+            y = bone_in_yield(ing.get("name"), food, measures.get("bone in"))
             if y:
                 grams, how = grams * y, f"{how}, x {y} edible (bone-in)"
         if grams and iid in SALT_IDS and drained_salt:

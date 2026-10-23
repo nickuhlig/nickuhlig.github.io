@@ -253,8 +253,17 @@ def parse_ingredient_item(li_html: str) -> dict:
     if len(words) > 1 and words[0].lower() in COUNT_WORDS:
         quantity, name = f"{quantity} {words[0]}".strip(), " ".join(words[1:])
 
-    tail = "".join(t for _, t in tokens[last + 1:])
-    note = " ".join(x for x in (lead_note, " ".join(tail.split()).lstrip(",; ").strip()) if x) or None
+    split = re.match(r"\)\s*|\(([^()]*)\)\s*", name)               # the spans cut a bracketed amount: "7 cups (1.65 L" + ") chicken stock"
+    if split and (name.startswith(")") and quantity.count("(") > quantity.count(")")
+                  or name.startswith("(") and re.match(r"\(\s*[\d.,/ ]+\s*[a-zA-Z]{0,6}\s*\)", split.group(0))):
+        quantity, name = f"{quantity}{split.group(0).strip()}" if name.startswith(")") else f"{quantity} {split.group(0).strip()}", name[split.end():]
+    name = re.sub(r"^(cold|chilled|softened|melted|warm|hot),\s+", r"\1 ", name, flags=re.I)   # "cold, unsalted butter" is one name
+
+    tail = " ".join("".join(t for _, t in tokens[last + 1:]).split())
+    head = re.match(r"(?:or [a-z' -]+? )?(?:broth|stock)\b", tail, re.I)   # "low-sodium chicken" marked up as the name, "broth" left outside it
+    if head:
+        name, tail = f"{name} {head.group(0)}", tail[head.end():]
+    note = " ".join(x for x in (lead_note, tail.lstrip(",; ").strip()) if x) or None
     return {"quantity": normalize_quantity(quantity), "name": name, "note": note, "raw": raw}
 
 

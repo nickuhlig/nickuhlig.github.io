@@ -1834,7 +1834,8 @@
     "unsalted butter for finishing",
     "unsalted butter for the pan",
     "packages European-style butter",
-    "unsalted butter plus 4 tablespoons melted unsalted butter"
+    "unsalted butter plus 4 tablespoons melted unsalted butter",
+    "cold unsalted butter"
    ],
    "exact_only": [],
    "violates": [
@@ -4330,7 +4331,8 @@
     "coconut flakes",
     "unsweetened dessicated coconut",
     "dried coconut flakes",
-    "unsweetened coconut flakes"
+    "unsweetened coconut flakes",
+    "dried unsweetened coconut"
    ],
    "exact_only": [],
    "violates": [],
@@ -9071,7 +9073,10 @@
    "names": {
     "cooked chicken (shredded)": 36
    },
-   "aliases": [],
+   "aliases": [
+    "roasted chicken",
+    "shredded chicken"
+   ],
    "exact_only": [],
    "violates": [],
    "source": "curated",
@@ -10745,7 +10750,6 @@
     "long-grain rice",
     "uncooked white long-grain rice",
     "uncooked long-grain rice",
-    "leftover cooked long-grain rice",
     "uncooked long rice",
     "long-grain fragrant rice",
     "long-grained rice"
@@ -11822,7 +11826,8 @@
     "rich homemade chicken broth",
     "A few tablespoons broth",
     "gelatinous homemade chicken broth",
-    "reserved chicken broth from cooking chicken above"
+    "reserved chicken broth from cooking chicken above",
+    "hot homemade chicken broth"
    ],
    "exact_only": [],
    "violates": [],
@@ -14761,7 +14766,8 @@
    "aliases": [
     "wide egg noodles",
     "dried wide egg noodles",
-    "fresh wide noodles"
+    "fresh wide noodles",
+    "dried egg noodles"
    ],
    "exact_only": [],
    "violates": [
@@ -15528,7 +15534,8 @@
    },
    "aliases": [
     "dried navy beans",
-    "dry navy beans"
+    "dry navy beans",
+    "dried beans"
    ],
    "exact_only": [],
    "violates": [],
@@ -17902,8 +17909,6 @@
     "creamy peanut butter",
     "unsweetened creamy peanut butter",
     "commercial creamy peanut butter",
-    "unsalted peanut butter",
-    "creamy unsalted peanut butter",
     "creamy unsweetened peanut butter",
     "no-stir peanut butter",
     "Smooth Operator peanut butter",
@@ -19676,7 +19681,14 @@
    "names": {
     "dried shitake mushrooms": 1
    },
-   "aliases": [],
+   "aliases": [
+    "dried shiitake mushrooms",
+    "whole dried shiitake mushrooms",
+    "dried shiitakes",
+    "dried shiitake mushroom caps",
+    "dried shiitake mushroom",
+    "sliced dried shiitake mushrooms"
+   ],
    "exact_only": [],
    "violates": [],
    "source": "auto",
@@ -20396,10 +20408,9 @@
     "whole buttermilk": 1
    },
    "aliases": [
-    "cultured lowfat buttermilk",
     "buttermilk",
     "room-temperature buttermilk",
-    "low-fat buttermilk"
+    "full-fat buttermilk"
    ],
    "exact_only": [],
    "violates": [
@@ -22519,7 +22530,6 @@
     "shell-on head-on shrimp",
     "colossal shrimp",
     "sashimi-grade head-on shrimp",
-    "dried shrimp",
     "head-on shell-on shrimp",
     "head-on shrimp",
     "cleaned and deveined shrimp",
@@ -23324,7 +23334,11 @@
    "names": {
     "kasuri methi": 1
    },
-   "aliases": [],
+   "aliases": [
+    "dried fenugreek leaves",
+    "fenugreek leaves",
+    "crushed dried fenugreek leaves"
+   ],
    "exact_only": [],
    "violates": [],
    "source": "curated",
@@ -24290,7 +24304,14 @@
     "cooked white sushi rice",
     "cool cooked white rice",
     "Boiled rice",
-    "Rice as an accompaniment"
+    "Rice as an accompaniment",
+    "cooked rice",
+    "cooked short-grain white rice",
+    "cooked short-grain rice",
+    "cooked long-grain white rice",
+    "cold cooked rice",
+    "hot cooked short-grain rice",
+    "leftover cooked long-grain rice"
    ],
    "exact_only": [],
    "violates": [],
@@ -24716,14 +24737,10 @@
     "shiitake mushrooms": 1
    },
    "aliases": [
-    "whole dried shiitake mushrooms",
-    "dried shiitake mushrooms",
     "shiitake mushroom caps",
-    "dried shiitake mushroom caps",
     "fresh mushrooms like shiitake",
     "shiitake",
     "shitake mushrooms",
-    "dried shiitakes",
     "shitake mushroons"
    ],
    "exact_only": [],
@@ -24742,8 +24759,6 @@
    "aliases": [
     "short-grain sushi rice",
     "short grain rice",
-    "hot cooked short-grain rice",
-    "Cooked short-grain white rice",
     "short-grain Asian rice",
     "short-grain Egyptian rice",
     "dry short-grain white rice",
@@ -27221,7 +27236,6 @@
     "fresh egg wonton noodles",
     "thin fresh egg noodles",
     "egg noodles",
-    "dried egg noodles",
     "homestyle egg noodles"
    ],
    "exact_only": [],
@@ -27488,7 +27502,9 @@
    "names": {
     "chipotle chilis, dried": 1
    },
-   "aliases": [],
+   "aliases": [
+    "dried chipotle chilis"
+   ],
    "exact_only": [],
    "violates": [
     10
@@ -29333,10 +29349,7 @@
    "names": {
     "chicken": 1
    },
-   "aliases": [
-    "roasted chicken",
-    "hot homemade chicken"
-   ],
+   "aliases": [],
    "exact_only": [],
    "violates": [],
    "source": "curated",
@@ -29495,7 +29508,6 @@
     "frozen grated fresh coconut",
     "fresh coconut flesh",
     "macapuno",
-    "dried unsweetened coconut",
     "unsweetened coconut",
     "unsweetened grated coconut",
     "coconut flesh",
@@ -29808,7 +29820,8 @@
     "dried porcini mushrooms": 1
    },
    "aliases": [
-    "dried porcini"
+    "dried porcini",
+    "dried mushrooms"
    ],
    "exact_only": [],
    "violates": [],
@@ -31694,9 +31707,6 @@
    "aliases": [
     "fenugreek seeds",
     "fenugreek",
-    "fenugreek leaves",
-    "dried fenugreek leaves",
-    "crushed dried fenugreek leaves",
     "toasted and ground fenugreek seed"
    ],
    "exact_only": [],
@@ -32132,8 +32142,7 @@
    "aliases": [
     "cooked drained beans",
     "beans",
-    "can of large cooked beans",
-    "dried beans"
+    "can of large cooked beans"
    ],
    "exact_only": [],
    "violates": [],
@@ -34382,11 +34391,13 @@
     "buttermilk": 1
    },
    "aliases": [
-    "full-fat buttermilk",
     "cultured buttermilk",
     "cultured low-fat buttermilk",
     "low-fat cultured buttermilk",
-    "Buttermilk to cover the fish"
+    "Buttermilk to cover the fish",
+    "cultured lowfat buttermilk",
+    "low-fat buttermilk",
+    "lowfat buttermilk"
    ],
    "exact_only": [],
    "violates": [
@@ -35977,8 +35988,6 @@
     "morel mushrooms": 1
    },
    "aliases": [
-    "dried morel mushrooms",
-    "dried morel",
     "sautéed morel mushrooms"
    ],
    "exact_only": [],
@@ -38890,7 +38899,6 @@
     "mushrooms": 1
    },
    "aliases": [
-    "dried mushrooms",
     "fresh mushrooms",
     "mushrooms cleaned"
    ],
@@ -41539,7 +41547,8 @@
    },
    "aliases": [
     "dried golden figs",
-    "plump sticky dried Mission figs"
+    "plump sticky dried Mission figs",
+    "dried figs"
    ],
    "exact_only": [],
    "violates": [
@@ -45502,7 +45511,6 @@
     "packages fresh black mission figs",
     "figs",
     "Calmyrna figs",
-    "dried figs",
     "fresh black mission figs"
    ],
    "exact_only": [],
@@ -54218,6 +54226,60 @@
    "added": "2026-10-21",
    "diet_flags": [
     "egg"
+   ]
+  },
+  "3644": {
+   "name": "dried shrimp",
+   "names": {
+    "dried shrimp": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [
+    4
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 1811 (shrimp) by the user 2026-10-22",
+   "added": "2026-10-22",
+   "diet_flags": [
+    "shellfish"
+   ]
+  },
+  "3645": {
+   "name": "dried morel mushrooms",
+   "names": {
+    "dried morel mushrooms": 1
+   },
+   "aliases": [
+    "dried morel"
+   ],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 2564 (morel mushrooms) by the user 2026-10-22",
+   "added": "2026-10-22",
+   "diet_flags": []
+  },
+  "3646": {
+   "name": "unsalted peanut butter",
+   "names": {
+    "unsalted peanut butter": 1
+   },
+   "aliases": [
+    "creamy unsalted peanut butter"
+   ],
+   "exact_only": [],
+   "violates": [
+    5
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 1567 (peanut butter, creamy) by the user 2026-10-22",
+   "added": "2026-10-22",
+   "diet_flags": [
+    "not_paleo"
    ]
   }
  }
