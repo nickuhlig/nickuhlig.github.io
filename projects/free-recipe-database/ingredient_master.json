@@ -765,20 +765,15 @@
     "Thai thin soy sauce",
     "Yangjo ganjang soy sauce",
     "yanjo ganjang soy sauce",
-    "dark soy sauce",
     "Golden Mountain Seasoning Soy Sauce",
     "Koikuchi shoyu",
-    "Thai dark soy sauce",
     "Thai light soy sauce",
-    "Chinese dark soy sauce",
-    "dark Chinese soy sauce",
     "Japanese shoyu",
     "shoyu",
     "yangjo ganjang",
     "all-purpose soy sauce",
     "usukuchi soy sauce",
     "Japanese light soy sauce",
-    "dark Japanese soy sauce",
     "more soy sauce for dressing",
     "Joseon ganjang",
     "light Japanese soy sauce"
@@ -8460,8 +8455,7 @@
    },
    "aliases": [
     "brown beef broth",
-    "brown broth",
-    "Pressure Cooker Beef broth"
+    "brown broth"
    ],
    "exact_only": [],
    "violates": [],
@@ -11705,16 +11699,10 @@
     "canned chicken broth",
     "Spiced Chicken Broth",
     "hot chicken broth",
-    "reserved chicken broth",
     "chicken chicken broth",
     "white broth",
-    "chintan chicken broth",
-    "gelatinous chicken broth",
-    "rich homemade chicken broth",
     "A few tablespoons broth",
-    "gelatinous homemade chicken broth",
-    "reserved chicken broth from cooking chicken above",
-    "hot homemade chicken broth"
+    "reserved chicken broth from cooking chicken above"
    ],
    "exact_only": [],
    "violates": [],
@@ -13648,7 +13636,12 @@
    "names": {
     "less sodium soy sauce": 2
    },
-   "aliases": [],
+   "aliases": [
+    "reduced-sodium soy sauce",
+    "low-sodium soy sauce",
+    "low sodium soy sauce",
+    "reduced sodium soy sauce"
+   ],
    "exact_only": [],
    "violates": [
     1,
@@ -19938,7 +19931,8 @@
     "ground mustard seeds",
     "toasted and ground mustard seed",
     "Japanese mustard powder",
-    "ground mustard powder"
+    "ground mustard powder",
+    "dried mustard"
    ],
    "exact_only": [],
    "violates": [
@@ -39177,9 +39171,7 @@
    "names": {
     "mustard": 1
    },
-   "aliases": [
-    "dried mustard"
-   ],
+   "aliases": [],
    "exact_only": [],
    "violates": [
     13
@@ -54997,6 +54989,82 @@
    "source": "curated",
    "recipes_seen": 0,
    "note": "split from 1953 (simple syrup) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": [
+    "not_paleo"
+   ]
+  },
+  "3686": {
+   "name": "homemade chicken stock",
+   "names": {
+    "homemade chicken stock": 1
+   },
+   "aliases": [
+    "homemade chicken broth",
+    "rich homemade chicken stock",
+    "rich homemade chicken broth",
+    "gelatinous homemade chicken stock",
+    "gelatinous homemade chicken broth",
+    "gelatinous chicken stock",
+    "gelatinous chicken broth",
+    "reserved chicken stock",
+    "reserved chicken broth",
+    "chintan chicken stock",
+    "chintan chicken broth",
+    "good-quality homemade chicken stock",
+    "hot homemade chicken stock",
+    "hot homemade chicken broth"
+   ],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 1231 (chicken broth) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": [
+    "meat"
+   ]
+  },
+  "3687": {
+   "name": "homemade beef stock",
+   "names": {
+    "homemade beef stock": 1
+   },
+   "aliases": [
+    "homemade beef broth",
+    "homemade brown stock",
+    "pressure cooker beef stock",
+    "Pressure Cooker Beef broth"
+   ],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 1064 (beef broth) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": [
+    "meat"
+   ]
+  },
+  "3688": {
+   "name": "dark soy sauce",
+   "names": {
+    "dark soy sauce": 1
+   },
+   "aliases": [
+    "chinese dark soy sauce",
+    "thai dark soy sauce",
+    "dark chinese soy sauce",
+    "dark japanese soy sauce"
+   ],
+   "exact_only": [],
+   "violates": [
+    1,
+    9
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 53 (soy sauce) by the user 2026-10-24",
    "added": "2026-10-24",
    "diet_flags": [
     "not_paleo"
