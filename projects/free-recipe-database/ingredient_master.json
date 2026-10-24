@@ -4421,9 +4421,7 @@
    "names": {
     "fettuccine pasta": 212
    },
-   "aliases": [
-    "fresh fettuccine"
-   ],
+   "aliases": [],
    "exact_only": [],
    "violates": [
     1
@@ -4777,9 +4775,7 @@
     "jasmine rice": 1292
    },
    "aliases": [
-    "Steamed jasmine rice",
     "broken jasmine rice",
-    "day-old cooked jasmine rice",
     "uncooked jasmine rice"
    ],
    "exact_only": [],
@@ -12945,7 +12941,6 @@
    },
    "aliases": [
     "Gluten-Free Flour Blend",
-    "gluten-free corn flour",
     "Bob’s Red Mill gluten-free corn flour"
    ],
    "exact_only": [],
@@ -16880,11 +16875,7 @@
    },
    "aliases": [
     "frozen rice cakes",
-    "Korean rice cake sticks",
-    "rice cake sticks",
-    "Korean rice cakes",
-    "smoked rice cakes",
-    "mini cylindrical Korean rice cakes"
+    "smoked rice cakes"
    ],
    "exact_only": [],
    "violates": [],
@@ -23697,12 +23688,8 @@
    "aliases": [
     "thin dried Chinese wheat noodles",
     "thin wheat flour “yangchun” noodles",
-    "fresh wheat noodles",
-    "fresh Chinese noodles",
     "Asian wheat flour noodles",
-    "Chinese noodles",
-    "fresh Chinese wheat noodles",
-    "thin fresh Chinese wheat noodles"
+    "Chinese noodles"
    ],
    "exact_only": [],
    "violates": [
@@ -24232,7 +24219,12 @@
     "cooked long-grain white rice",
     "cold cooked rice",
     "hot cooked short-grain rice",
-    "leftover cooked long-grain rice"
+    "leftover cooked long-grain rice",
+    "cooked jasmine rice",
+    "steamed jasmine rice",
+    "day-old cooked jasmine rice",
+    "cold cooked jasmine rice",
+    "sumeshi"
    ],
    "exact_only": [],
    "violates": [],
@@ -24683,8 +24675,7 @@
     "short-grain Asian rice",
     "short-grain Egyptian rice",
     "dry short-grain white rice",
-    "prepared Asian-style short grain rice",
-    "sumeshi"
+    "prepared Asian-style short grain rice"
    ],
    "exact_only": [],
    "violates": [],
@@ -35019,7 +35010,9 @@
    "names": {
     "corn flour": 1
    },
-   "aliases": [],
+   "aliases": [
+    "gluten-free corn flour"
+   ],
    "exact_only": [],
    "violates": [],
    "source": "curated",
@@ -35419,7 +35412,12 @@
    "aliases": [
     "fresh tagliatelle",
     "fresh wide pasta",
-    "fresh pasta"
+    "fresh pasta",
+    "fresh lasagna noodles",
+    "store-bought fresh lasagna noodles",
+    "fresh fettuccine",
+    "fresh fettuccine pasta",
+    "fresh spaghetti"
    ],
    "exact_only": [],
    "violates": [
@@ -41994,9 +41992,7 @@
    "names": {
     "lo-mein noodles": 1
    },
-   "aliases": [
-    "fresh lo mein noodles"
-   ],
+   "aliases": [],
    "exact_only": [],
    "violates": [
     1
@@ -54872,6 +54868,53 @@
    "note": "split from 247 (pears) by the user 2026-10-24",
    "added": "2026-10-24",
    "diet_flags": []
+  },
+  "3679": {
+   "name": "fresh Chinese wheat noodles",
+   "names": {
+    "fresh Chinese wheat noodles": 1
+   },
+   "aliases": [
+    "thin fresh chinese wheat noodles",
+    "fresh chinese noodles",
+    "fresh wheat noodles",
+    "fresh lo mein noodles",
+    "cooked lo mein noodles"
+   ],
+   "exact_only": [],
+   "violates": [
+    1
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 1876 (wheat noodles) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": [
+    "not_paleo"
+   ]
+  },
+  "3680": {
+   "name": "Korean rice cakes (tteok)",
+   "names": {
+    "Korean rice cakes (tteok)": 1
+   },
+   "aliases": [
+    "korean rice cakes",
+    "korean rice cake sticks",
+    "rice cake sticks",
+    "sliced rice cakes",
+    "mini cylindrical korean rice cakes",
+    "tteok"
+   ],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 1515 (rice cake) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": [
+    "not_paleo"
+   ]
   }
  }
 }
