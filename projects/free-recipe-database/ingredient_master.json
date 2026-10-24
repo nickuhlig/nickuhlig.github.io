@@ -304,7 +304,6 @@
    "aliases": [
     "garlic cloves",
     "garlic finely chopped",
-    "black garlic",
     "crushed and finely chopped garlic",
     "garlic cloves chopped garlic",
     "crushed garlic",
@@ -377,7 +376,6 @@
     "corn": 146
    },
    "aliases": [
-    "canned whole kernel sweet corn",
     "frozen corn kernels",
     "corn kernels",
     "sweet corn",
@@ -2366,7 +2364,6 @@
    "aliases": [
     "pepper red bell pepper",
     "red pepper",
-    "hot red peppers",
     "sweet peppers",
     "zucchini peppers",
     "sweet red peppers",
@@ -3989,7 +3986,6 @@
     "chives": 744
    },
    "aliases": [
-    "dried chives",
     "yellow chives",
     "fresh chives leaves",
     "scallions chives",
@@ -4066,7 +4062,8 @@
     "frozen sweet peas",
     "shelled fresh sweet peas",
     "frozen baby sweet peas",
-    "fresh shell peas"
+    "fresh shell peas",
+    "fresh green peas"
    ],
    "exact_only": [],
    "violates": [],
@@ -4312,7 +4309,6 @@
    "aliases": [
     "pepper green bell pepper",
     "green pepper",
-    "hot green peppers",
     "stemmed and seeded medium green bell pepper"
    ],
    "exact_only": [],
@@ -10419,7 +10415,10 @@
    "names": {
     "whole kernel corn, canned": 10
    },
-   "aliases": [],
+   "aliases": [
+    "drained canned whole kernel sweet corn",
+    "canned whole kernel sweet corn"
+   ],
    "exact_only": [],
    "violates": [],
    "source": "curated",
@@ -12904,7 +12903,8 @@
     "canned tomatoes",
     "canned whole tomatoes",
     "whole canned plum tomatoes",
-    "diced canned tomatoes"
+    "diced canned tomatoes",
+    "peeled whole tomatoes"
    ],
    "exact_only": [],
    "violates": [
@@ -23245,7 +23245,8 @@
     "slit green chilis",
     "green chili peppers",
     "fresh Korean green chili pepper",
-    "long hot peppers"
+    "long hot peppers",
+    "hot green peppers"
    ],
    "exact_only": [],
    "violates": [
@@ -27910,11 +27911,7 @@
    },
    "aliases": [
     "mixed Greek olives",
-    "oil-cured olives",
     "mixed oil-packed olives",
-    "oil-cured black olives",
-    "oil-cured black olives pitted",
-    "cured black olives",
     "mixed pitted Italian olives",
     "Marinated olives",
     "Picholine olives",
@@ -33057,7 +33054,8 @@
     "fresh chile",
     "fresh chiles",
     "fresh hot chile",
-    "fresh hot chili"
+    "fresh hot chili",
+    "hot red peppers"
    ],
    "exact_only": [],
    "violates": [
@@ -35967,9 +35965,7 @@
    "names": {
     "pea greens": 1
    },
-   "aliases": [
-    "fresh green peas"
-   ],
+   "aliases": [],
    "exact_only": [],
    "violates": [],
    "source": "curated",
@@ -38879,9 +38875,7 @@
    "names": {
     "artichokes": 1
    },
-   "aliases": [
-    "canned artichokes"
-   ],
+   "aliases": [],
    "exact_only": [],
    "violates": [],
    "source": "curated",
@@ -39618,7 +39612,8 @@
     "canned artichoke hearts",
     "frozen artichoke hearts",
     "can artichoke hearts",
-    "jar artichoke hearts"
+    "jar artichoke hearts",
+    "canned artichokes"
    ],
    "exact_only": [],
    "violates": [],
@@ -54728,6 +54723,42 @@
    "diet_flags": [
     "dairy"
    ]
+  },
+  "3670": {
+   "name": "oil-cured black olives",
+   "names": {
+    "oil-cured black olives": 1
+   },
+   "aliases": [
+    "oil-cured olives",
+    "pitted oil-cured olives",
+    "cured black olives",
+    "oil-cured black olives pitted",
+    "dry-cured black olives"
+   ],
+   "exact_only": [],
+   "violates": [
+    14
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 2100 (olives) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": []
+  },
+  "3671": {
+   "name": "black garlic",
+   "names": {
+    "black garlic": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 24 (garlic) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": []
   }
  }
 }
