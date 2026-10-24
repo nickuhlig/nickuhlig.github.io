@@ -1004,12 +1004,7 @@
     "cayenne pepper powder",
     "cayenne powder",
     "ground hot pepper",
-    "piquillo peppers",
-    "fresh cayenne chili peppers",
     "ground red pepper",
-    "canned piquillo peppers",
-    "jarred piquillo peppers",
-    "roasted piquillo peppers",
     "1 tablespoon ground cayenne pepper"
    ],
    "exact_only": [],
@@ -1034,8 +1029,6 @@
     "back pepper",
     "coarse black pepper",
     "ground fresh black pepper",
-    "jarred peppers",
-    "canned peppers",
     "ground black peppercorns",
     "twists on the black pepper mill",
     "Tellicherry black pepper",
@@ -1104,31 +1097,9 @@
     "chile powder": 1
    },
    "aliases": [
-    "ground Kashmiri chile powder",
-    "Kashmiri red chile powder",
-    "ground red chile powder",
     "roasted chile powder",
-    "Ancho chile powder",
-    "red chile powder",
-    "Kashmiri chile powder",
-    "Pequin chile powder",
-    "ground red chilli",
-    "red chilli powder",
-    "ground chili",
-    "ground medium-hot chili",
     "mild chili powder",
-    "chilli powder",
-    "Reshampatti chili powder",
-    "dried red pepper powder",
-    "ground red chili",
-    "morita chilis",
-    "powdered red chilli",
-    "Chinese ground chili powder",
-    "red kashmiri chili powder",
-    "ground Kashmiri red chili powder",
-    "Morita chili peppers",
-    "ground chili pepper",
-    "Resham Patti powder"
+    "chilli powder"
    ],
    "exact_only": [],
    "violates": [
@@ -1147,8 +1118,7 @@
    },
    "aliases": [
     "coriander",
-    "coriander powder",
-    "coriander leaves"
+    "coriander powder"
    ],
    "exact_only": [],
    "violates": [],
@@ -1212,7 +1182,6 @@
    },
    "aliases": [
     "dry oregano",
-    "fresh oregano leaves",
     "oregano",
     "dried Mexican oregano",
     "dried Greek oregano",
@@ -1268,7 +1237,10 @@
    "names": {
     "parsley flakes": 380
    },
-   "aliases": [],
+   "aliases": [
+    "dried parsley",
+    "dry parsley"
+   ],
    "exact_only": [],
    "violates": [],
    "source": "mealime_learned",
@@ -1384,7 +1356,9 @@
    "aliases": [
     "dried thyme leaves",
     "dried fresh thyme",
-    "ground thyme"
+    "ground thyme",
+    "dry lemon thyme",
+    "dried lemon thyme"
    ],
    "exact_only": [],
    "violates": [],
@@ -2922,7 +2896,9 @@
     "fresh parsley and cilantro leaves",
     "scallions chopped fresh cilantro leaves",
     "fresh cilantro leaves and most tender stems",
-    "packed fresh mint leaves and cilantro sprigs"
+    "packed fresh mint leaves and cilantro sprigs",
+    "coriander leaves",
+    "chopped coriander leaves"
    ],
    "exact_only": [],
    "violates": [],
@@ -3662,7 +3638,6 @@
     "fresh mint sprigs",
     "torn fresh mint leaves",
     "fresh coarsely chopped mint leaves",
-    "dried mint",
     "mint",
     "fresh spearmint leaves",
     "mint leaves",
@@ -4185,11 +4160,9 @@
     "red chili pepper": 86
    },
    "aliases": [
-    "dried red chili pepper",
     "red hot chili peppers",
     "chili peppers",
-    "pepper chilis",
-    "Nigerian red dry pepper"
+    "pepper chilis"
    ],
    "exact_only": [],
    "violates": [
@@ -6854,7 +6827,11 @@
     "roasted red peppers",
     "jarred roasted red peppers",
     "roasted peppers",
-    "jarred roasted red bell pepper"
+    "jarred roasted red bell pepper",
+    "piquillo peppers",
+    "canned piquillo peppers",
+    "jarred piquillo peppers",
+    "roasted piquillo peppers"
    ],
    "exact_only": [],
    "violates": [
@@ -22241,10 +22218,7 @@
    },
    "aliases": [
     "serrano chilies",
-    "Serrano chili slit lengthwise",
-    "jamón serrano",
-    "jámon serrano",
-    "Spanish dry-cured ham"
+    "Serrano chili slit lengthwise"
    ],
    "exact_only": [],
    "violates": [
@@ -22398,11 +22372,9 @@
     "packed parsley leaves",
     "Parsley stems",
     "mixed fresh parsley",
-    "dried parsley",
     "parsley leaves",
     "Parsley sprigs",
     "Sprigs of fresh parsley",
-    "dry parsley",
     "A few parsley stems",
     "fresh parsely"
    ],
@@ -23612,10 +23584,6 @@
     "dried Chinese chiles",
     "dried chiltepín chiles",
     "dried Pequin chile peppers",
-    "dried puya chiles",
-    "dried Kashmiri chiles",
-    "California chiles",
-    "guajillo chiles",
     "dried red chiles",
     "hot Chinese dry chile peppers",
     "dried red chilies",
@@ -23634,7 +23602,17 @@
     "dried Thai chiles",
     "dried Thai red chilis",
     "dried green Thai bird chilis",
-    "dried thai chilis"
+    "dried thai chilis",
+    "dried red chile pepper",
+    "dried red chile peppers",
+    "dried red chili pepper",
+    "Nigerian red dry pepper",
+    "dry red chiles",
+    "dry red chilis",
+    "whole dry red chiles",
+    "whole dry red chilis",
+    "dry red hot chilies",
+    "dry red hot chilis"
    ],
    "exact_only": [],
    "violates": [
@@ -25366,7 +25344,11 @@
     "pimiento",
     "pimiento peppers",
     "pimento",
-    "jarred diced pimentos"
+    "jarred diced pimentos",
+    "jarred peppers",
+    "canned peppers",
+    "drained jarred peppers",
+    "drained canned peppers"
    ],
    "exact_only": [],
    "violates": [
@@ -27388,7 +27370,6 @@
     "chilis": 1
    },
    "aliases": [
-    "Fresh chiles",
     "pepper chile",
     "chiles",
     "chilies",
@@ -27396,8 +27377,7 @@
     "mild chilis",
     "dried chilis",
     "hot dried chilis",
-    "dried hot chilis",
-    "fresh hot chili"
+    "dried hot chilis"
    ],
    "exact_only": [],
    "violates": [
@@ -27468,7 +27448,11 @@
     "chipotle chilis, dried": 1
    },
    "aliases": [
-    "dried chipotle chilis"
+    "dried chipotle chilis",
+    "morita chiles",
+    "morita chilis",
+    "morita chile peppers",
+    "Morita chili peppers"
    ],
    "exact_only": [],
    "violates": [
@@ -27711,12 +27695,9 @@
     "red chilies",
     "hot red chili",
     "mild red chilis",
-    "whole dry red chilis",
     "red chili",
     "hot red chilis",
-    "red hot chili",
-    "dry red chilis",
-    "dry red hot chilis"
+    "red hot chili"
    ],
    "exact_only": [],
    "violates": [
@@ -30739,7 +30720,6 @@
     "peppermint": 1
    },
    "aliases": [
-    "peppermint extract",
     "peppermint mint"
    ],
    "exact_only": [],
@@ -33073,7 +33053,13 @@
     "spicy fresh red chiles",
     "fresh red chiles",
     "fresh red chilies",
-    "finger-length red chilis"
+    "finger-length red chilis",
+    "fresh cayenne chile peppers",
+    "fresh cayenne chili peppers",
+    "fresh chile",
+    "fresh chiles",
+    "fresh hot chile",
+    "fresh hot chili"
    ],
    "exact_only": [],
    "violates": [
@@ -35590,7 +35576,9 @@
     "dried New Mexico chiles",
     "dried New Mexico chilies",
     "dried New Mexico",
-    "whole New Mexico red"
+    "whole New Mexico red",
+    "California chiles",
+    "California chilis"
    ],
    "exact_only": [],
    "violates": [
@@ -38979,9 +38967,7 @@
    "names": {
     "mexican oregano": 1
    },
-   "aliases": [
-    "fresh Mexican oregano"
-   ],
+   "aliases": [],
    "exact_only": [],
    "violates": [],
    "source": "curated",
@@ -41489,7 +41475,9 @@
     "dried chili guajillos",
     "whole dried guajillo chilis",
     "ground guajillo",
-    "guajillo chili powder"
+    "guajillo chili powder",
+    "guajillo chiles",
+    "guajillo chilis"
    ],
    "exact_only": [],
    "violates": [
@@ -46233,7 +46221,6 @@
     "lemon thyme": 1
    },
    "aliases": [
-    "dry lemon thyme",
     "fresh lemon thyme"
    ],
    "exact_only": [],
@@ -49513,7 +49500,10 @@
     "dried kashmiri chilis": 1
    },
    "aliases": [
-    "Kashmiri chilis"
+    "Kashmiri chilis",
+    "dried Kashmiri chiles",
+    "whole dried Kashmiri chiles",
+    "whole dried Kashmiri chilis"
    ],
    "exact_only": [],
    "violates": [
@@ -49596,7 +49586,10 @@
    "names": {
     "puya chilis": 1
    },
-   "aliases": [],
+   "aliases": [
+    "dried puya chiles",
+    "dried puya chilis"
+   ],
    "exact_only": [],
    "violates": [
     10
@@ -54373,6 +54366,152 @@
     "meat",
     "not_paleo"
    ]
+  },
+  "3652": {
+   "name": "jamón serrano",
+   "names": {
+    "jamón serrano": 1
+   },
+   "aliases": [
+    "jámon serrano",
+    "Spanish dry-cured ham",
+    "chopped jamón serrano"
+   ],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 329 (prosciutto) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": [
+    "meat",
+    "not_paleo"
+   ]
+  },
+  "3653": {
+   "name": "peppermint extract",
+   "names": {
+    "peppermint extract": 1
+   },
+   "aliases": [
+    "mint extract"
+   ],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 353 (vanilla extract) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": []
+  },
+  "3654": {
+   "name": "fresh oregano",
+   "names": {
+    "fresh oregano": 1
+   },
+   "aliases": [
+    "fresh oregano leaves",
+    "fresh Mexican oregano",
+    "oregano sprigs",
+    "chopped fresh oregano",
+    "minced fresh oregano"
+   ],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 82 (oregano, dried) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": []
+  },
+  "3655": {
+   "name": "dried tarragon",
+   "names": {
+    "dried tarragon": 1
+   },
+   "aliases": [
+    "tarragon, dried"
+   ],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 2221 (fresh tarragon) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": []
+  },
+  "3656": {
+   "name": "dried chives",
+   "names": {
+    "dried chives": 1
+   },
+   "aliases": [
+    "chives, dried",
+    "freeze-dried chives"
+   ],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 270 (chives) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": []
+  },
+  "3657": {
+   "name": "Kashmiri chile powder",
+   "names": {
+    "Kashmiri chile powder": 1
+   },
+   "aliases": [
+    "ground Kashmiri chile powder",
+    "Kashmiri red chile powder",
+    "red kashmiri chili powder",
+    "ground Kashmiri red chili powder",
+    "Kashmiri chili powder"
+   ],
+   "exact_only": [],
+   "violates": [
+    10
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 1721 (crushed red pepper flakes) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": []
+  },
+  "3658": {
+   "name": "ground red chile",
+   "names": {
+    "ground red chile": 1
+   },
+   "aliases": [
+    "ground red chile powder",
+    "red chile powder",
+    "Pequin chile powder",
+    "ground red chilli",
+    "red chilli powder",
+    "ground chili",
+    "ground medium-hot chili",
+    "Reshampatti chili powder",
+    "dried red pepper powder",
+    "ground red chili",
+    "powdered red chilli",
+    "Chinese ground chili powder",
+    "ground chili pepper",
+    "Resham Patti powder",
+    "ground chile",
+    "ground medium-hot chile",
+    "ground chile pepper"
+   ],
+   "exact_only": [],
+   "violates": [
+    10
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 1721 (crushed red pepper flakes) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": []
   }
  }
 }
