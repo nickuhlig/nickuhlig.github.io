@@ -20239,13 +20239,11 @@
     "sherry": 1
    },
    "aliases": [
-    "sweet sherry",
     "sherry wine",
     "dry sherry",
     "dry sherry wine",
     "Amontillado sherry",
     "fino sherry",
-    "Oloroso sherry",
     "glass dry sherry"
    ],
    "exact_only": [],
@@ -21861,12 +21859,9 @@
    },
    "aliases": [
     "bourbon whiskey",
-    "Booker's bourbon",
-    "bonded bourbon",
     "Buffalo Trace Bourbon",
     "Elijah Craig Bourbon",
-    "Knob Creek Bourbon",
-    "101-proof bourbon"
+    "Knob Creek Bourbon"
    ],
    "exact_only": [],
    "violates": [],
@@ -31521,10 +31516,7 @@
    },
    "aliases": [
     "Lemongrass-Infused Vodka",
-    "100 proof vodka",
-    "100-proof vodka",
     "80-proof vodka",
-    "140-proof vodka",
     "80-proof liquor",
     "Square 1 Cucumber Vodka"
    ],
@@ -37077,10 +37069,8 @@
     "apple brandy": 1
    },
    "aliases": [
-    "Laird's Bonded Apple Brandy",
     "straight apple brandy",
-    "Calvados",
-    "Laird's 100 Proof Apple Brandy"
+    "Calvados"
    ],
    "exact_only": [],
    "violates": [],
@@ -54310,7 +54300,9 @@
    "aliases": [
     "151-proof Demerara rum",
     "Navy-strength Jamaican rum",
-    "151-proof rum"
+    "151-proof rum",
+    "140-proof vodka",
+    "booker's bourbon"
    ],
    "exact_only": [],
    "violates": [],
@@ -55065,6 +55057,47 @@
    "source": "curated",
    "recipes_seen": 0,
    "note": "split from 53 (soy sauce) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": [
+    "not_paleo"
+   ]
+  },
+  "3689": {
+   "name": "100-proof spirits",
+   "names": {
+    "100-proof spirits": 1
+   },
+   "aliases": [
+    "100-proof vodka",
+    "100 proof vodka",
+    "101-proof bourbon",
+    "bonded bourbon",
+    "laird's bonded apple brandy",
+    "laird's 100 proof apple brandy"
+   ],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 2315 (vodka) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": []
+  },
+  "3690": {
+   "name": "sweet sherry",
+   "names": {
+    "sweet sherry": 1
+   },
+   "aliases": [
+    "oloroso sherry"
+   ],
+   "exact_only": [],
+   "violates": [
+    14
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 1698 (sherry) by the user 2026-10-24",
    "added": "2026-10-24",
    "diet_flags": [
     "not_paleo"
