@@ -4315,7 +4315,6 @@
    "aliases": [
     "light brown sugar",
     "dark brown sugar",
-    "light brown candi sugar",
     "muscovado brown sugar",
     "packed golden brown sugar",
     "muscovado sugar",
@@ -5315,8 +5314,6 @@
     "white cane sugar",
     "Sanding sugar",
     "white sugar",
-    "raw sugar",
-    "turbinado brown sugar",
     "priming sugar for bottling",
     "plain granulated sugar",
     "white toasted sugar",
@@ -7539,7 +7536,8 @@
    },
    "aliases": [
     "unsweetened chocolate",
-    "unsweetened baking chocolate"
+    "unsweetened baking chocolate",
+    "100% cacao baking chocolate"
    ],
    "exact_only": [],
    "violates": [],
@@ -25059,7 +25057,6 @@
     "simple syrup": 1
    },
    "aliases": [
-    "rich simple syrup",
     "brown sugar simple syrup",
     "syrup",
     "Cinnamon Simple Syrup",
@@ -25072,8 +25069,7 @@
     "barrel-aged simple syrup",
     "turbinado sugar simple syrup",
     "rock-candy syrup",
-    "1:1 turbinado simple syrup",
-    "2:1 simple syrup"
+    "1:1 turbinado simple syrup"
    ],
    "exact_only": [],
    "violates": [],
@@ -29354,7 +29350,6 @@
    "aliases": [
     "65% chocolate",
     "61% chocolate",
-    "34% chocolate",
     "chocolate bar"
    ],
    "exact_only": [],
@@ -29597,7 +29592,10 @@
     "demerara sugar": 1
    },
    "aliases": [
-    "turbinado sugar"
+    "turbinado sugar",
+    "raw sugar",
+    "raw cane sugar",
+    "turbinado brown sugar"
    ],
    "exact_only": [],
    "violates": [],
@@ -39047,7 +39045,8 @@
     "milk chocolate": 1
    },
    "aliases": [
-    "dark milk chocolate"
+    "dark milk chocolate",
+    "34% chocolate"
    ],
    "exact_only": [],
    "violates": [
@@ -49331,9 +49330,7 @@
    "names": {
     "demerara syrup": 1
    },
-   "aliases": [
-    "strong Demerara syrup"
-   ],
+   "aliases": [],
    "exact_only": [],
    "violates": [],
    "source": "curated",
@@ -50139,7 +50136,8 @@
    },
    "aliases": [
     "Belgian candi sugar",
-    "light Belgian candy sugar"
+    "light Belgian candy sugar",
+    "light brown candi sugar"
    ],
    "exact_only": [],
    "violates": [],
@@ -54984,6 +54982,25 @@
    "note": "split from 29 (almonds) by the user 2026-10-24",
    "added": "2026-10-24",
    "diet_flags": []
+  },
+  "3685": {
+   "name": "rich simple syrup",
+   "names": {
+    "rich simple syrup": 1
+   },
+   "aliases": [
+    "2:1 simple syrup",
+    "strong demerara syrup"
+   ],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 1953 (simple syrup) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": [
+    "not_paleo"
+   ]
   }
  }
 }

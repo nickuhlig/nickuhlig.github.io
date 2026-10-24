@@ -15019,6 +15019,11 @@
    "ref": "sr:169419",
    "note": "Marcona almonds (sold fried and salted): Nuts, almonds, oil roasted, with salt added",
    "flag": false
+  },
+  "3685": {
+   "ref": "recipe:rich-simple-syrup",
+   "note": "rich simple syrup, 2:1 sugar to water by volume",
+   "flag": false
   }
  },
  "composites": {
@@ -15852,6 +15857,19 @@
     {
      "ref": "on:fd_DXWVjcP1LIPX",
      "grams": 100
+    }
+   ]
+  },
+  "recipe:rich-simple-syrup": {
+   "name": "rich simple syrup, 2:1 by volume (sugar 62.8, water 37.2)",
+   "parts": [
+    {
+     "ref": "sr:169655",
+     "grams": 62.8
+    },
+    {
+     "ref": "sr:173647",
+     "grams": 37.2
     }
    ]
   },
@@ -223189,6 +223207,118 @@
     }
    ]
   },
+  "recipe:rich-simple-syrup": {
+   "name": "rich simple syrup, 2:1 by volume (sugar 62.8, water 37.2)",
+   "source": "recipe",
+   "tier": 5,
+   "parts": [
+    {
+     "ref": "sr:169655",
+     "grams": 62.8
+    },
+    {
+     "ref": "sr:173647",
+     "grams": 37.2
+    }
+   ],
+   "per_100g": {
+    "energy": 243.036,
+    "alcohol": 0.0,
+    "ash": 0.0435,
+    "caffeine": 0.0,
+    "water": 37.1754,
+    "carbs": 62.7874,
+    "fiber": 0.0,
+    "sugars": 62.6744,
+    "fructose": 0.0,
+    "galactose": 0.0,
+    "glucose": 0.0,
+    "lactose": 0.0,
+    "maltose": 0.0,
+    "sucrose": 62.6744,
+    "fat": 0.0,
+    "monounsaturated": 0.0,
+    "polyunsaturated": 0.0,
+    "omega_3": 0.0,
+    "omega_6": 0.0,
+    "saturated": 0.0,
+    "transfats": 0.0,
+    "cholesterol": 0.0,
+    "protein": 0.0,
+    "b1_thiamine": 0.0,
+    "b2_riboflavin": 0.0119,
+    "b3_niacin": 0.0,
+    "b5_pantothenic_acid": 0.0,
+    "b6_pyridoxine": 0.0,
+    "b12_cobalamin": 0.0,
+    "choline": 0.0,
+    "folate": 0.0,
+    "vitamin_a": 0.0,
+    "vitamin_c": 0.0,
+    "vitamin_d": 0.0,
+    "vitamin_e": 0.0,
+    "vitamin_k": 0.0,
+    "calcium": 1.744,
+    "copper": 0.0081,
+    "iron": 0.0314,
+    "magnesium": 0.372,
+    "manganese": 0.0025,
+    "phosphorus": 0.0,
+    "potassium": 1.256,
+    "selenium": 0.3768,
+    "sodium": 2.116,
+    "zinc": 0.01
+   },
+   "quality": {
+    "energy": "calculated",
+    "alcohol": "calculated",
+    "ash": "calculated",
+    "caffeine": "calculated",
+    "water": "calculated",
+    "carbs": "calculated",
+    "fiber": "calculated",
+    "sugars": "calculated",
+    "fructose": "calculated",
+    "galactose": "calculated",
+    "glucose": "calculated",
+    "lactose": "calculated",
+    "maltose": "calculated",
+    "sucrose": "calculated",
+    "fat": "calculated",
+    "monounsaturated": "calculated",
+    "polyunsaturated": "calculated",
+    "omega_3": "calculated",
+    "omega_6": "calculated",
+    "saturated": "calculated",
+    "transfats": "calculated",
+    "cholesterol": "calculated",
+    "protein": "calculated",
+    "b1_thiamine": "calculated",
+    "b2_riboflavin": "calculated",
+    "b3_niacin": "calculated",
+    "b5_pantothenic_acid": "calculated",
+    "b6_pyridoxine": "calculated",
+    "b12_cobalamin": "calculated",
+    "choline": "calculated",
+    "folate": "calculated",
+    "vitamin_a": "calculated",
+    "vitamin_c": "calculated",
+    "vitamin_d": "calculated",
+    "vitamin_e": "calculated",
+    "vitamin_k": "calculated",
+    "calcium": "calculated",
+    "copper": "calculated",
+    "iron": "calculated",
+    "magnesium": "calculated",
+    "manganese": "calculated",
+    "phosphorus": "calculated",
+    "potassium": "calculated",
+    "selenium": "calculated",
+    "sodium": "calculated",
+    "zinc": "calculated"
+   },
+   "portions": []
+  },
   "recipe:seafood-seasoning": {
    "name": "seafood seasoning (salt and paprika; label sodium ~23,300 mg/100 g)",
    "source": "recipe",
@@ -227099,6 +227229,9 @@
   },
   "3680": {
    "density": 0.6
+  },
+  "3685": {
+   "density": 1.33
   }
  },
  "corrections": {
@@ -240129,14 +240262,14 @@
    "source": "recipe",
    "tier": 5,
    "per_100g": {
-    "energy": 466.1065,
+    "energy": 467.1923,
     "alcohol": 0.4653,
     "ash": 1.396,
     "caffeine": 8.9964,
     "water": 10.5992,
     "carbs": 58.6834,
     "fiber": 2.0164,
-    "sugars": 39.7599,
+    "sugars": 39.7082,
     "fat": 24.1972,
     "monounsaturated": 7.0834,
     "polyunsaturated": 1.0341,
@@ -240176,22 +240309,22 @@
     "vitamin_d": 0.1034,
     "vitamin_e": 0.6721,
     "vitamin_k": 3.2573,
-    "calcium": 40.2253,
+    "calcium": 41.2076,
     "copper": 0.2585,
-    "iron": 2.8954,
-    "magnesium": 38.2088,
+    "iron": 2.9471,
+    "magnesium": 38.364,
     "manganese": 0.4653,
-    "phosphorus": 80.8125,
-    "potassium": 180.8586,
-    "selenium": 9.6685,
-    "sodium": 395.066,
+    "phosphorus": 80.9159,
+    "potassium": 183.3404,
+    "selenium": 9.6168,
+    "sodium": 395.2728,
     "zinc": 0.6721,
     "fructose": 0.2068,
     "galactose": 0.0,
     "glucose": 0.3102,
     "lactose": 0.3619,
     "maltose": 0.0,
-    "sucrose": 38.6225,
+    "sucrose": 38.5708,
     "transfats": 0.0
    },
    "quality": {
