@@ -14954,6 +14954,41 @@
    "ref": "on:fd_jns8BGhjHO2w",
    "note": "black garlic (OpenNutrition; no lab entry)",
    "flag": false
+  },
+  "3672": {
+   "ref": "sr:167746",
+   "note": "lemon wedges and slices (lemon, raw)",
+   "flag": false
+  },
+  "3673": {
+   "ref": "sr:168155",
+   "note": "lime wedges, wheels and slices (lime, raw)",
+   "flag": false
+  },
+  "3674": {
+   "ref": "sr:169097",
+   "note": "orange slices and wedges (orange, raw)",
+   "flag": false
+  },
+  "3675": {
+   "ref": "none:removed",
+   "note": "spent citrus rinds steeped in a syrup or sauce, then strained out",
+   "flag": false
+  },
+  "3676": {
+   "ref": "on:fd_f6yIvo03VIoK",
+   "note": "FLAG freeze-dried strawberries: OpenNutrition dried strawberries (no lab entry)",
+   "flag": true
+  },
+  "3677": {
+   "ref": "sr:168158",
+   "note": "freeze-dried blueberries: SR dried blueberries (dried-fruit macros)",
+   "flag": false
+  },
+  "3678": {
+   "ref": "cnf:1649",
+   "note": "CNF Pear, dried halves, sulphured, uncooked",
+   "flag": false
   }
  },
  "composites": {
@@ -16896,6 +16931,159 @@
      "amount": 1.0,
      "unit": "30g",
      "grams": 30.0
+    }
+   ]
+  },
+  "cnf:1649": {
+   "name": "Pear, dried halves, sulphured, uncooked",
+   "source": "cnf",
+   "tier": 2,
+   "per_100g": {
+    "energy": 262.0,
+    "alcohol": 0.0,
+    "ash": 1.11,
+    "caffeine": 0.0,
+    "water": 26.69,
+    "carbs": 69.7,
+    "fiber": 7.5,
+    "sugars": 62.2,
+    "fat": 0.63,
+    "monounsaturated": 0.132,
+    "polyunsaturated": 0.148,
+    "omega_3": 0.002,
+    "omega_6": 0.146,
+    "saturated": 0.035,
+    "cholesterol": 0.0,
+    "protein": 1.87,
+    "alanine": 0.062,
+    "arginine": 0.032,
+    "aspartic_acid": 0.368,
+    "cystine": 0.018,
+    "glutamic_acid": 0.135,
+    "glycine": 0.054,
+    "histidine": 0.02,
+    "isoleucine": 0.054,
+    "leucine": 0.094,
+    "lysine": 0.066,
+    "methionine": 0.022,
+    "phenylalanine": 0.049,
+    "proline": 0.051,
+    "serine": 0.067,
+    "threonine": 0.049,
+    "tyrosine": 0.016,
+    "valine": 0.066,
+    "b1_thiamine": 0.008,
+    "b2_riboflavin": 0.145,
+    "b3_niacin": 1.372,
+    "b5_pantothenic_acid": 0.153,
+    "b6_pyridoxine": 0.072,
+    "b12_cobalamin": 0.0,
+    "choline": 23.0,
+    "folate": 0.0,
+    "vitamin_a": 0.0,
+    "vitamin_c": 7.0,
+    "vitamin_d": 0.0,
+    "vitamin_e": 0.06,
+    "vitamin_k": 20.4,
+    "calcium": 34.0,
+    "copper": 0.371,
+    "iron": 2.1,
+    "magnesium": 33.0,
+    "manganese": 0.327,
+    "phosphorus": 59.0,
+    "potassium": 533.0,
+    "selenium": 0.2,
+    "sodium": 6.0,
+    "zinc": 0.39
+   },
+   "quality": {
+    "energy": "borrowed",
+    "alcohol": "borrowed",
+    "ash": "borrowed",
+    "caffeine": "borrowed",
+    "water": "borrowed",
+    "carbs": "borrowed",
+    "fiber": "borrowed",
+    "sugars": "borrowed",
+    "fat": "borrowed",
+    "monounsaturated": "borrowed",
+    "polyunsaturated": "borrowed",
+    "omega_3": "imputed",
+    "omega_6": "borrowed",
+    "saturated": "borrowed",
+    "cholesterol": "borrowed",
+    "protein": "borrowed",
+    "alanine": "borrowed",
+    "arginine": "borrowed",
+    "aspartic_acid": "borrowed",
+    "cystine": "borrowed",
+    "glutamic_acid": "borrowed",
+    "glycine": "borrowed",
+    "histidine": "borrowed",
+    "isoleucine": "borrowed",
+    "leucine": "borrowed",
+    "lysine": "borrowed",
+    "methionine": "borrowed",
+    "phenylalanine": "borrowed",
+    "proline": "borrowed",
+    "serine": "borrowed",
+    "threonine": "borrowed",
+    "tyrosine": "borrowed",
+    "valine": "borrowed",
+    "b1_thiamine": "borrowed",
+    "b2_riboflavin": "borrowed",
+    "b3_niacin": "borrowed",
+    "b5_pantothenic_acid": "borrowed",
+    "b6_pyridoxine": "borrowed",
+    "b12_cobalamin": "borrowed",
+    "choline": "borrowed",
+    "folate": "calculated",
+    "vitamin_a": "borrowed",
+    "vitamin_c": "borrowed",
+    "vitamin_d": "borrowed",
+    "vitamin_e": "borrowed",
+    "vitamin_k": "borrowed",
+    "calcium": "borrowed",
+    "copper": "borrowed",
+    "iron": "borrowed",
+    "magnesium": "borrowed",
+    "manganese": "borrowed",
+    "phosphorus": "borrowed",
+    "potassium": "borrowed",
+    "selenium": "borrowed",
+    "sodium": "borrowed",
+    "zinc": "borrowed"
+   },
+   "portions": [
+    {
+     "amount": 1.0,
+     "unit": "10 halves",
+     "grams": 175.0
+    },
+    {
+     "amount": 1.0,
+     "unit": "100ml halves",
+     "grams": 76.08
+    },
+    {
+     "amount": 1.0,
+     "unit": "125ml halves",
+     "grams": 95.1
+    },
+    {
+     "amount": 1.0,
+     "unit": "250ml halves",
+     "grams": 190.19
+    },
+    {
+     "amount": 1.0,
+     "unit": "2 halves",
+     "grams": 35.0
+    },
+    {
+     "amount": 1.0,
+     "unit": "40g",
+     "grams": 40.0
     }
    ]
   },
@@ -226247,6 +226435,32 @@
    "item": 3,
    "clove": 3,
    "head": 45
+  },
+  "3672": {
+   "item": 7,
+   "wedge": 7,
+   "slice": 7
+  },
+  "3673": {
+   "item": 8,
+   "wedge": 8,
+   "wheel": 8,
+   "slice": 8
+  },
+  "3674": {
+   "item": 20,
+   "slice": 20,
+   "wedge": 20
+  },
+  "3676": {
+   "density": 0.13,
+   "item": 2
+  },
+  "3677": {
+   "density": 0.15
+  },
+  "3678": {
+   "item": 18
   }
  },
  "corrections": {

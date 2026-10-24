@@ -1757,7 +1757,6 @@
     "blueberries": 362
    },
    "aliases": [
-    "freeze-dried blueberries",
     "packages blueberries",
     "wild blueberries",
     "8 ounces blueberries"
@@ -2930,13 +2929,9 @@
     "lemons": 2294
    },
    "aliases": [
-    "lemon rind",
-    "Lemon wedges",
     "lemon peel strips",
     "Meyer lemons",
-    "Lemon twist",
     "room-temperature lemons",
-    "Lemon slices",
     "\"used\" lemon rinds",
     "Sections of lemon",
     "lemon half",
@@ -3294,7 +3289,6 @@
     "grapefruit": 24
    },
    "aliases": [
-    "Grapefruit twist",
     "ruby red grapefruits",
     "ruby grapefruits",
     "pink grapefruit",
@@ -3377,11 +3371,8 @@
     "limes": 2089
    },
    "aliases": [
-    "Lime wedges",
     "extra lime",
     "lime limes",
-    "Wedges of lime",
-    "Lime wheel",
     "juicy limes",
     "centimeter-thick lime slices",
     "Quarters of lime to squeeze over the tacos"
@@ -3458,12 +3449,9 @@
     "orange": 340
    },
    "aliases": [
-    "Orange wedges",
     "firm thin-skinned orange",
-    "Orange twist",
     "navel orange",
     "whole navel orange",
-    "orange slices",
     "seedless oranges",
     "blood orange",
     "cara orange",
@@ -3535,11 +3523,8 @@
    "aliases": [
     "fresh pineapple",
     "-thick pineapple ring",
-    "crushed pineapple in juice",
-    "pineapple rings in juice",
     "fresh pineapple rings",
     "pineapple cubes",
-    "crushed pineapple",
     "cored fresh pineapple"
    ],
    "exact_only": [],
@@ -3599,11 +3584,9 @@
    },
    "aliases": [
     "frozen strawberries",
-    "freeze-dried strawberries",
     "very ripe strawberries",
     "seedless strawberry",
     "quartered strawberries",
-    "crushed freeze-dried strawberries",
     "Halved fresh strawberries",
     "frozen whole strawberries",
     "pureed strawberries",
@@ -3672,7 +3655,6 @@
    "aliases": [
     "Asian pear",
     "Seckel pears",
-    "dried pears",
     "firm but ripe medium pears",
     "Bosc pears",
     "ripe juicy pears",
@@ -5587,7 +5569,6 @@
    },
    "aliases": [
     "frozen pitted sweet cherries",
-    "frozen pitted sour cherries",
     "frozen sweet cherries",
     "frozen pitted cherries",
     "frozen pitted sweet dark cherries"
@@ -6930,9 +6911,7 @@
    "aliases": [
     "black plums",
     "firm plum",
-    "dried plums",
     "red plums",
-    "dried red plums",
     "red-fleshed plums",
     "firm but ripe plums",
     "ripe but firm black plums",
@@ -9888,7 +9867,10 @@
     "pineapple chunks": 8
    },
    "aliases": [
-    "canned pineapple chunks"
+    "canned pineapple chunks",
+    "crushed pineapple",
+    "crushed pineapple in juice",
+    "pineapple rings in juice"
    ],
    "exact_only": [],
    "violates": [],
@@ -28028,7 +28010,9 @@
    },
    "aliases": [
     "dried prunes",
-    "soft pitted prunes"
+    "soft pitted prunes",
+    "dried plums",
+    "dried red plums"
    ],
    "exact_only": [],
    "violates": [
@@ -28048,7 +28032,8 @@
    },
    "aliases": [
     "dried tart cherries",
-    "dried sweetened tart cherries"
+    "dried sweetened tart cherries",
+    "dried sour cherries"
    ],
    "exact_only": [],
    "violates": [
@@ -32016,7 +32001,24 @@
     "piece of orange zest",
     "wide strips orange zest",
     "orange peel segment",
-    "1” by 3” strips fresh orange peel"
+    "1” by 3” strips fresh orange peel",
+    "lemon zest",
+    "grated lemon zest",
+    "finely grated lemon zest",
+    "freshly grated lemon zest",
+    "lime zest",
+    "grated lime zest",
+    "freshly grated lime zest",
+    "key lime zest",
+    "grated key lime zest",
+    "grapefruit zest",
+    "tangerine zest",
+    "lemon peel",
+    "lemon rind",
+    "lime peel",
+    "lemon twist",
+    "orange twist",
+    "grapefruit twist"
    ],
    "exact_only": [],
    "violates": [],
@@ -38713,8 +38715,7 @@
     "tangerine": 1
    },
    "aliases": [
-    "dried tangerine",
-    "tangerine zest"
+    "dried tangerine"
    ],
    "exact_only": [],
    "violates": [],
@@ -40513,9 +40514,9 @@
     "sour cherries": 1
    },
    "aliases": [
-    "dried sour cherries",
     "fresh sour cherries",
-    "frozen sour cherries"
+    "frozen sour cherries",
+    "frozen pitted sour cherries"
    ],
    "exact_only": [],
    "violates": [],
@@ -43086,9 +43087,7 @@
    "names": {
     "limes": 1
    },
-   "aliases": [
-    "Key lime zest"
-   ],
+   "aliases": [],
    "exact_only": [],
    "violates": [],
    "source": "curated",
@@ -54757,6 +54756,120 @@
    "source": "curated",
    "recipes_seen": 0,
    "note": "split from 24 (garlic) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": []
+  },
+  "3672": {
+   "name": "lemon wedges",
+   "names": {
+    "lemon wedges": 1
+   },
+   "aliases": [
+    "lemon wedge",
+    "lemon slices"
+   ],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 192 (lemon) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": []
+  },
+  "3673": {
+   "name": "lime wedges",
+   "names": {
+    "lime wedges": 1
+   },
+   "aliases": [
+    "lime wedge",
+    "lime wheel",
+    "lime slices",
+    "wedges of lime",
+    "fresh lime wedges"
+   ],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 228 (lime) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": []
+  },
+  "3674": {
+   "name": "orange slices",
+   "names": {
+    "orange slices": 1
+   },
+   "aliases": [
+    "orange wedges"
+   ],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 232 (oranges) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": []
+  },
+  "3675": {
+   "name": "spent citrus rinds",
+   "names": {
+    "spent citrus rinds": 1
+   },
+   "aliases": [
+    "used lemon rinds"
+   ],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 192 (lemon) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": []
+  },
+  "3676": {
+   "name": "freeze-dried strawberries",
+   "names": {
+    "freeze-dried strawberries": 1
+   },
+   "aliases": [
+    "freeze dried strawberries",
+    "crushed freeze-dried strawberries"
+   ],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 242 (strawberries) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": []
+  },
+  "3677": {
+   "name": "freeze-dried blueberries",
+   "names": {
+    "freeze-dried blueberries": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 114 (blueberries) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": []
+  },
+  "3678": {
+   "name": "dried pears",
+   "names": {
+    "dried pears": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 247 (pears) by the user 2026-10-24",
    "added": "2026-10-24",
    "diet_flags": []
   }
