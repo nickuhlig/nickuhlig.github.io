@@ -666,8 +666,6 @@
     "boneless skinless chicken breast half",
     "boneless skinless chicken cutlets",
     "very cold boneless skinless chicken breast half",
-    "poached chicken breasts",
-    "leftover grilled chicken breasts",
     "thin-cut chicken cutlets"
    ],
    "exact_only": [],
@@ -825,7 +823,6 @@
     "extra firm tofu": 1792
    },
    "aliases": [
-    "firm tofu",
     "extra-firm cottony tofu"
    ],
    "exact_only": [],
@@ -1395,16 +1392,11 @@
     "white beans": 1
    },
    "aliases": [
-    "dried small white beans",
     "cannellini (white kidney) beans",
     "canned white cannellini beans",
-    "dried Great Northern",
     "cannellini beans",
     "cooked dry white beans",
-    "dried cannellini beans",
-    "great Northern beans",
-    "dried cannelini beans",
-    "dried cannellini"
+    "great Northern beans"
    ],
    "exact_only": [],
    "violates": [],
@@ -1443,11 +1435,8 @@
     "kidney beans": 164
    },
    "aliases": [
-    "dried red kidney beans",
     "red kidney beans",
-    "dark red kidney beans",
-    "dried dark red kidney beans",
-    "dried rajma beans"
+    "dark red kidney beans"
    ],
    "exact_only": [],
    "violates": [],
@@ -1465,8 +1454,7 @@
     "pinto beans": 215
    },
    "aliases": [
-    "canned pinto beans",
-    "dried pinto beans"
+    "canned pinto beans"
    ],
    "exact_only": [],
    "violates": [],
@@ -1684,7 +1672,11 @@
    "aliases": [
     "firm fresh mozzarella cheese",
     "best-quality fresh mozzarella cheese",
-    "ball of fresh mozzarella"
+    "ball of fresh mozzarella",
+    "fresh mozzarella",
+    "diced fresh mozzarella",
+    "grated fresh mozzarella",
+    "shredded fresh mozzarella"
    ],
    "exact_only": [],
    "violates": [
@@ -2025,9 +2017,6 @@
     "full-fat strained yogurt",
     "plain whole milk Greek-style yogurt",
     "whole-milk Greek yogurt",
-    "nonfat Greek-style yogurt",
-    "plain non-fat Greek yogurt",
-    "plain non-fat Greek-style yogurt",
     "plain whole-fat Greek-style strained yogurt",
     "plain full-fat regular"
    ],
@@ -2606,7 +2595,12 @@
    "names": {
     "chicken thighs, boneless skinless": 1132
    },
-   "aliases": [],
+   "aliases": [
+    "skinless boneless chicken thighs",
+    "skinless chicken thighs",
+    "diced skinless boneless chicken thigh",
+    "boneless chicken thighs"
+   ],
    "exact_only": [],
    "violates": [],
    "source": "mealime_learned",
@@ -2806,10 +2800,8 @@
    },
    "aliases": [
     "Cuban black beans",
-    "dried black beans",
     "canned black beans",
-    "canned cooked black beans",
-    "dry black beans"
+    "canned cooked black beans"
    ],
    "exact_only": [],
    "violates": [],
@@ -4476,7 +4468,6 @@
     "slab of bacon",
     "center-cut applewood smoked bacon",
     "uncooked thin-sliced bacon",
-    "Cooked crisp bacon",
     "center-cut bacon slices",
     "slices of bacon",
     "halved bacon slices",
@@ -4484,16 +4475,13 @@
     "bacon bacon slices",
     "thin-sliced bacon",
     "bacon finely chopped",
-    "crisp cooked bacon",
     "thick-sliced bacon",
     "cured bacon",
     "smoked bacon",
     "bacon strips",
     "center-cut bacon",
     "extra-thick-cut bacon",
-    "crisp bacon",
-    "bacon swizzle sticks",
-    "crisp slices bacon"
+    "bacon swizzle sticks"
    ],
    "exact_only": [],
    "violates": [],
@@ -6906,7 +6894,6 @@
     "cottage cheese": 164
    },
    "aliases": [
-    "2% small-curd cottage cheese",
     "small-curd cottage cheese",
     "full-fat cottage cheese"
    ],
@@ -9780,7 +9767,8 @@
     "cooked shrimp, peeled, tail off": 4
    },
    "aliases": [
-    "Cooked cocktail shrimp"
+    "Cooked cocktail shrimp",
+    "cooked shrimp"
    ],
    "exact_only": [],
    "violates": [
@@ -12661,9 +12649,10 @@
    "aliases": [
     "dry milk powder",
     "milk powder",
-    "whole milk powder",
     "non-fat milk powder",
-    "nonfat milk powder"
+    "nonfat milk powder",
+    "nonfat powdered milk",
+    "nonfat dry milk"
    ],
    "exact_only": [],
    "violates": [
@@ -13828,10 +13817,7 @@
    "names": {
     "nonfat milk": 4
    },
-   "aliases": [
-    "nonfat powdered milk",
-    "nonfat dry milk"
-   ],
+   "aliases": [],
    "exact_only": [],
    "violates": [
     2
@@ -13885,7 +13871,10 @@
    },
    "aliases": [
     "plain unsweetened nonfat Greek yogurt",
-    "plain nonfat Greek yogurt"
+    "plain nonfat Greek yogurt",
+    "nonfat greek-style yogurt",
+    "plain non-fat greek yogurt",
+    "plain non-fat greek-style yogurt"
    ],
    "exact_only": [],
    "violates": [
@@ -14638,7 +14627,6 @@
     "butter beans": 2
    },
    "aliases": [
-    "dried large butter beans",
     "butterbeans"
    ],
    "exact_only": [],
@@ -16335,7 +16323,8 @@
    },
    "aliases": [
     "80/20 ground beef",
-    "80/20 ground chuck"
+    "80/20 ground chuck",
+    "freshly ground beef"
    ],
    "exact_only": [],
    "violates": [],
@@ -18665,7 +18654,9 @@
     "firm silken tofu",
     "soft silken tofu",
     "cake silken tofu",
-    "carton extra-silken tofu"
+    "carton extra-silken tofu",
+    "soft tofu",
+    "soft tofu packed in water"
    ],
    "exact_only": [],
    "violates": [
@@ -20352,8 +20343,6 @@
     "whole buttermilk": 1
    },
    "aliases": [
-    "buttermilk",
-    "room-temperature buttermilk",
     "full-fat buttermilk"
    ],
    "exact_only": [],
@@ -20404,7 +20393,11 @@
     "whole airline chicken breasts",
     "whole bone-in skin-on split chicken breast halves",
     "bone-in split chicken breasts",
-    "bone-in skin-on chicken breast half"
+    "bone-in skin-on chicken breast half",
+    "bone-in skin-on chicken breasts",
+    "boneless skin-on chicken breasts",
+    "whole bone-in skin-on chicken breast",
+    "bone-in skin-on chicken breast"
    ],
    "exact_only": [],
    "violates": [],
@@ -20453,7 +20446,9 @@
    "names": {
     "dehydrated whole milk powder": 1
    },
-   "aliases": [],
+   "aliases": [
+    "whole milk powder"
+   ],
    "exact_only": [],
    "violates": [
     2
@@ -24908,7 +24903,11 @@
    "names": {
     "dried split fava beans": 1
    },
-   "aliases": [],
+   "aliases": [
+    "dried mini fava beans",
+    "dried small fava beans",
+    "dried fava beans"
+   ],
    "exact_only": [],
    "violates": [],
    "source": "curated",
@@ -29474,7 +29473,6 @@
    },
    "aliases": [
     "unsweetened coconut cream",
-    "cream of coconut",
     "unsweetened canned coconut cream"
    ],
    "exact_only": [],
@@ -29800,9 +29798,7 @@
     "fava beans": 1
    },
    "aliases": [
-    "dried mini fava beans",
     "sheeled and peeled fava beans",
-    "dried small fava beans",
     "shelled fava beans",
     "shelled and peeled fava beans",
     "fava beans in their pods",
@@ -30140,7 +30136,9 @@
     "ground beef chuck": 1
    },
    "aliases": [
-    "ground chuck"
+    "ground chuck",
+    "freshly ground beef chuck",
+    "freshly ground chuck"
    ],
    "exact_only": [],
    "violates": [],
@@ -34358,7 +34356,8 @@
     "Buttermilk to cover the fish",
     "cultured lowfat buttermilk",
     "low-fat buttermilk",
-    "lowfat buttermilk"
+    "lowfat buttermilk",
+    "room-temperature buttermilk"
    ],
    "exact_only": [],
    "violates": [
@@ -34419,12 +34418,10 @@
    },
    "aliases": [
     "bean curd",
-    "soft tofu",
     "carton cubed regular tofu",
-    "soft tofu packed in water",
     "\"cotton\" tofu",
-    "fried tofu",
-    "pressed tofu"
+    "pressed tofu",
+    "firm tofu"
    ],
    "exact_only": [],
    "violates": [
@@ -43479,7 +43476,8 @@
    "aliases": [
     "dried beancurd sticks",
     "dried beancurd",
-    "bean curd stick"
+    "bean curd stick",
+    "dried bean-curd skin"
    ],
    "exact_only": [],
    "violates": [
@@ -47855,7 +47853,8 @@
     "sweetened cream of coconut": 1
    },
    "aliases": [
-    "sweetened canned coconut cream"
+    "sweetened canned coconut cream",
+    "cream of coconut"
    ],
    "exact_only": [],
    "violates": [],
@@ -48041,7 +48040,9 @@
    "names": {
     "tofu puffs": 1
    },
-   "aliases": [],
+   "aliases": [
+    "fried tofu"
+   ],
    "exact_only": [],
    "violates": [
     9
@@ -49621,10 +49622,7 @@
    "names": {
     "duck eggs": 1
    },
-   "aliases": [
-    "raw salted duck egg yolks",
-    "egg salted duck eggs"
-   ],
+   "aliases": [],
    "exact_only": [],
    "violates": [
     11
@@ -54512,6 +54510,224 @@
    "note": "split from 1721 (crushed red pepper flakes) by the user 2026-10-24",
    "added": "2026-10-24",
    "diet_flags": []
+  },
+  "3659": {
+   "name": "dried kidney beans",
+   "names": {
+    "dried kidney beans": 1
+   },
+   "aliases": [
+    "dried red kidney beans",
+    "dried dark red kidney beans",
+    "dried rajma beans"
+   ],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 93 (kidney beans) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": [
+    "not_paleo"
+   ]
+  },
+  "3660": {
+   "name": "dried black beans",
+   "names": {
+    "dried black beans": 1
+   },
+   "aliases": [
+    "dry black beans"
+   ],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 185 (black beans) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": [
+    "not_paleo"
+   ]
+  },
+  "3661": {
+   "name": "dried white beans",
+   "names": {
+    "dried white beans": 1
+   },
+   "aliases": [
+    "dried cannellini beans",
+    "dried cannellini",
+    "dried cannelini beans",
+    "dried great northern",
+    "dried small white beans"
+   ],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 91 (white beans) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": [
+    "not_paleo"
+   ]
+  },
+  "3662": {
+   "name": "dried pinto beans",
+   "names": {
+    "dried pinto beans": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 94 (pinto beans) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": [
+    "not_paleo"
+   ]
+  },
+  "3663": {
+   "name": "dried lima beans",
+   "names": {
+    "dried lima beans": 1
+   },
+   "aliases": [
+    "dried large butter beans"
+   ],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 1388 (butter beans) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": [
+    "not_paleo"
+   ]
+  },
+  "3664": {
+   "name": "cooked chicken breast",
+   "names": {
+    "cooked chicken breast": 1
+   },
+   "aliases": [
+    "cooked boneless skinless chicken breast",
+    "cooked boneless chicken breasts",
+    "shredded cooked chicken breast",
+    "poached chicken breasts",
+    "leftover grilled chicken breasts"
+   ],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 44 (chicken breasts, boneless skinless) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": [
+    "meat"
+   ]
+  },
+  "3665": {
+   "name": "cooked bacon",
+   "names": {
+    "cooked bacon": 1
+   },
+   "aliases": [
+    "Cooked crisp bacon",
+    "crisp cooked bacon",
+    "crisply cooked bacon",
+    "crisp bacon",
+    "cooked and chopped bacon",
+    "crisp slices bacon"
+   ],
+   "exact_only": [],
+   "violates": [],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 302 (bacon) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": [
+    "meat",
+    "not_paleo"
+   ]
+  },
+  "3666": {
+   "name": "smoked mackerel",
+   "names": {
+    "smoked mackerel": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [
+    3
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 2584 (mackerel) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": [
+    "fish"
+   ]
+  },
+  "3667": {
+   "name": "fresh sardines",
+   "names": {
+    "fresh sardines": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [
+    3
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 1599 (sardines (packed in water)) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": [
+    "fish"
+   ]
+  },
+  "3668": {
+   "name": "salted duck eggs",
+   "names": {
+    "salted duck eggs": 1
+   },
+   "aliases": [
+    "egg salted duck eggs",
+    "raw salted duck egg yolks"
+   ],
+   "exact_only": [],
+   "violates": [
+    11
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 3359 (duck eggs) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": [
+    "egg",
+    "meat"
+   ]
+  },
+  "3669": {
+   "name": "2% cottage cheese",
+   "names": {
+    "2% cottage cheese": 1
+   },
+   "aliases": [
+    "2% small-curd cottage cheese"
+   ],
+   "exact_only": [],
+   "violates": [
+    2
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 467 (cottage cheese) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": [
+    "dairy"
+   ]
   }
  }
 }
