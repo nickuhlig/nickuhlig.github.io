@@ -1,6 +1,6 @@
 {
  "meta": {
-  "built": "2026-10-22",
+  "built": "2026-10-23",
   "sources": [
    "USDA FoodData Central, SR Legacy (2018). Public domain.",
    "Health Canada, Canadian Nutrient File 2015. Open Government Licence - Canada.",
@@ -14829,6 +14829,31 @@
    "ref": "sr:172470",
    "note": "Peanut butter, smooth style, without salt",
    "flag": false
+  },
+  "3647": {
+   "ref": "cnf:502270",
+   "note": "CNF Bread, focaccia, Italian flatbread, plain",
+   "flag": false
+  },
+  "3648": {
+   "ref": "recipe:off-thin-mints",
+   "note": "Thin Mints: Little Brownie Bakers label (OFF) on SR chocolate wafers",
+   "flag": false
+  },
+  "3649": {
+   "ref": "sr:172239",
+   "note": "Spearmint, dried",
+   "flag": false
+  },
+  "3650": {
+   "ref": "recipe:overproof-rum",
+   "note": "overproof rum: SR 80-proof rum with alcohol energy scaled to ~130 proof (151-proof, navy strength)",
+   "flag": false
+  },
+  "3651": {
+   "ref": "sr:172097",
+   "note": "Chili con carne with beans, canned entree",
+   "flag": false
   }
  },
  "composites": {
@@ -15394,6 +15419,15 @@
     }
    ]
   },
+  "recipe:overproof-rum": {
+   "name": "overproof rum (~130 proof; energy scaled from sr:174817)",
+   "parts": [
+    {
+     "ref": "sr:174817",
+     "grams": 100
+    }
+   ]
+  },
   "recipe:beef-drippings": {
    "name": "beef pan drippings (beef broth 95, tallow 5)",
    "parts": [
@@ -15464,6 +15498,15 @@
    "parts": [
     {
      "ref": "on:fd_VGnUg9Oi2m3x",
+     "grams": 100
+    }
+   ]
+  },
+  "recipe:off-thin-mints": {
+   "name": "Thin Mints cookies (Little Brownie Bakers label values on sr:172714)",
+   "parts": [
+    {
+     "ref": "sr:172714",
      "grams": 100
     }
    ]
@@ -109179,6 +109222,116 @@
     }
    ]
   },
+  "sr:172097": {
+   "name": "Chili con carne with beans, canned entree",
+   "source": "sr",
+   "tier": 1,
+   "per_100g": {
+    "energy": 107.0,
+    "alcohol": 0.0,
+    "ash": 1.94,
+    "caffeine": 0.0,
+    "water": 75.69,
+    "carbs": 13.1,
+    "fiber": 3.3,
+    "starch": 6.9,
+    "sugars": 1.87,
+    "fructose": 0.49,
+    "galactose": 0.0,
+    "glucose": 0.34,
+    "lactose": 0.0,
+    "maltose": 0.0,
+    "sucrose": 1.03,
+    "fat": 3.47,
+    "monounsaturated": 1.412,
+    "polyunsaturated": 0.4,
+    "omega_3": 0.117,
+    "omega_6": 0.239,
+    "saturated": 1.253,
+    "transfats": 0.166,
+    "cholesterol": 9.0,
+    "protein": 5.8,
+    "b1_thiamine": 0.019,
+    "b2_riboflavin": 0.029,
+    "b3_niacin": 0.782,
+    "b5_pantothenic_acid": 0.297,
+    "b6_pyridoxine": 0.105,
+    "b12_cobalamin": 0.28,
+    "choline": 22.5,
+    "folate": 21.0,
+    "vitamin_a": 23.0,
+    "vitamin_c": 0.2,
+    "vitamin_d": 0.0,
+    "vitamin_e": 0.5,
+    "vitamin_k": 4.6,
+    "calcium": 33.0,
+    "copper": 0.096,
+    "iron": 1.34,
+    "magnesium": 28.0,
+    "manganese": 0.205,
+    "phosphorus": 87.0,
+    "potassium": 264.0,
+    "selenium": 3.6,
+    "sodium": 449.0,
+    "zinc": 0.89
+   },
+   "quality": {
+    "energy": "calculated",
+    "alcohol": "assumed_zero",
+    "ash": "measured",
+    "caffeine": "imputed",
+    "water": "measured",
+    "carbs": "calculated",
+    "fiber": "measured",
+    "starch": "measured",
+    "sugars": "measured",
+    "fructose": "measured",
+    "galactose": "measured",
+    "glucose": "measured",
+    "lactose": "measured",
+    "maltose": "measured",
+    "sucrose": "measured",
+    "fat": "measured",
+    "monounsaturated": "calculated",
+    "polyunsaturated": "calculated",
+    "omega_3": "measured",
+    "omega_6": "measured",
+    "saturated": "calculated",
+    "transfats": "calculated",
+    "cholesterol": "measured",
+    "protein": "measured",
+    "b1_thiamine": "measured",
+    "b2_riboflavin": "measured",
+    "b3_niacin": "measured",
+    "b5_pantothenic_acid": "measured",
+    "b6_pyridoxine": "measured",
+    "b12_cobalamin": "measured",
+    "choline": "imputed",
+    "folate": "calculated",
+    "vitamin_a": "unknown",
+    "vitamin_c": "measured",
+    "vitamin_d": "imputed",
+    "vitamin_e": "measured",
+    "vitamin_k": "measured",
+    "calcium": "measured",
+    "copper": "measured",
+    "iron": "measured",
+    "magnesium": "measured",
+    "manganese": "measured",
+    "phosphorus": "measured",
+    "potassium": "measured",
+    "selenium": "measured",
+    "sodium": "measured",
+    "zinc": "measured"
+   },
+   "portions": [
+    {
+     "amount": 1.0,
+     "unit": "cup",
+     "grams": 242.0
+    }
+   ]
+  },
   "sr:172112": {
    "name": "Chicken, nuggets, white meat, precooked, frozen, not reheated",
    "source": "sr",
@@ -155415,6 +155568,107 @@
      "amount": 1.0,
      "unit": "30ml",
      "grams": 32.2
+    }
+   ]
+  },
+  "cnf:502270": {
+   "name": "Bread, focaccia, Italian flatbread, plain",
+   "source": "cnf",
+   "tier": 2,
+   "per_100g": {
+    "energy": 249.0,
+    "alcohol": 0.0,
+    "ash": 1.6,
+    "caffeine": 0.0,
+    "water": 45.91,
+    "carbs": 35.82,
+    "fiber": 1.8,
+    "sugars": 1.75,
+    "fat": 7.89,
+    "monounsaturated": 5.67,
+    "polyunsaturated": 0.994,
+    "omega_3": 0.072,
+    "omega_6": 0.923,
+    "saturated": 0.877,
+    "transfats": 0.0,
+    "cholesterol": 0.0,
+    "protein": 8.77,
+    "b1_thiamine": 0.47,
+    "b2_riboflavin": 0.301,
+    "b3_niacin": 3.67,
+    "b5_pantothenic_acid": 0.645,
+    "b6_pyridoxine": 0.113,
+    "b12_cobalamin": 0.0,
+    "choline": 2.9,
+    "folate": 175.0,
+    "vitamin_a": 0.0,
+    "vitamin_c": 0.0,
+    "vitamin_d": 0.0,
+    "vitamin_e": 1.42,
+    "vitamin_k": 5.7,
+    "calcium": 35.0,
+    "copper": 0.091,
+    "iron": 3.16,
+    "magnesium": 20.0,
+    "manganese": 0.364,
+    "phosphorus": 128.0,
+    "potassium": 114.0,
+    "selenium": 15.9,
+    "sodium": 561.0,
+    "zinc": 1.33
+   },
+   "quality": {
+    "energy": "borrowed",
+    "alcohol": "borrowed",
+    "ash": "borrowed",
+    "caffeine": "borrowed",
+    "water": "borrowed",
+    "carbs": "borrowed",
+    "fiber": "borrowed",
+    "sugars": "borrowed",
+    "fat": "borrowed",
+    "monounsaturated": "borrowed",
+    "polyunsaturated": "borrowed",
+    "omega_3": "borrowed",
+    "omega_6": "borrowed",
+    "saturated": "borrowed",
+    "transfats": "borrowed",
+    "cholesterol": "borrowed",
+    "protein": "borrowed",
+    "b1_thiamine": "borrowed",
+    "b2_riboflavin": "borrowed",
+    "b3_niacin": "borrowed",
+    "b5_pantothenic_acid": "borrowed",
+    "b6_pyridoxine": "borrowed",
+    "b12_cobalamin": "borrowed",
+    "choline": "borrowed",
+    "folate": "borrowed",
+    "vitamin_a": "borrowed",
+    "vitamin_c": "borrowed",
+    "vitamin_d": "borrowed",
+    "vitamin_e": "borrowed",
+    "vitamin_k": "borrowed",
+    "calcium": "borrowed",
+    "copper": "borrowed",
+    "iron": "borrowed",
+    "magnesium": "borrowed",
+    "manganese": "borrowed",
+    "phosphorus": "borrowed",
+    "potassium": "borrowed",
+    "selenium": "borrowed",
+    "sodium": "borrowed",
+    "zinc": "borrowed"
+   },
+   "portions": [
+    {
+     "amount": 1.0,
+     "unit": "1 piece",
+     "grams": 57.0
+    },
+    {
+     "amount": 1.0,
+     "unit": "50g",
+     "grams": 50.0
     }
    ]
   },
@@ -217596,6 +217850,149 @@
     }
    ]
   },
+  "recipe:overproof-rum": {
+   "name": "overproof rum (~130 proof; energy scaled from sr:174817)",
+   "source": "recipe",
+   "tier": 5,
+   "parts": [
+    {
+     "ref": "sr:174817",
+     "grams": 100
+    }
+   ],
+   "per_100g": {
+    "energy": 375.0,
+    "alcohol": 33.4,
+    "ash": 0.01,
+    "caffeine": 0.0,
+    "water": 66.6,
+    "carbs": 0.0,
+    "fiber": 0.0,
+    "sugars": 0.0,
+    "fat": 0.0,
+    "monounsaturated": 0.0,
+    "polyunsaturated": 0.0,
+    "omega_3": 0.0,
+    "omega_6": 0.0,
+    "saturated": 0.0,
+    "transfats": 0.0,
+    "cholesterol": 0.0,
+    "protein": 0.0,
+    "alanine": 0.0,
+    "arginine": 0.0,
+    "aspartic_acid": 0.0,
+    "cystine": 0.0,
+    "glutamic_acid": 0.0,
+    "glycine": 0.0,
+    "histidine": 0.0,
+    "isoleucine": 0.0,
+    "leucine": 0.0,
+    "lysine": 0.0,
+    "methionine": 0.0,
+    "phenylalanine": 0.0,
+    "proline": 0.0,
+    "serine": 0.0,
+    "threonine": 0.0,
+    "tryptophan": 0.0,
+    "tyrosine": 0.0,
+    "valine": 0.0,
+    "b1_thiamine": 0.008,
+    "b2_riboflavin": 0.0,
+    "b3_niacin": 0.0,
+    "b5_pantothenic_acid": 0.0,
+    "b6_pyridoxine": 0.0,
+    "b12_cobalamin": 0.0,
+    "choline": 0.0,
+    "folate": 0.0,
+    "vitamin_a": 0.0,
+    "vitamin_c": 0.0,
+    "vitamin_d": 0.0,
+    "vitamin_e": 0.0,
+    "vitamin_k": 0.0,
+    "calcium": 0.0,
+    "copper": 0.05,
+    "iron": 0.12,
+    "magnesium": 0.0,
+    "manganese": 0.018,
+    "phosphorus": 5.0,
+    "potassium": 2.0,
+    "selenium": 0.0,
+    "sodium": 1.0,
+    "zinc": 0.07
+   },
+   "quality": {
+    "energy": "corrected",
+    "alcohol": "calculated",
+    "ash": "calculated",
+    "caffeine": "calculated",
+    "water": "calculated",
+    "carbs": "calculated",
+    "fiber": "calculated",
+    "sugars": "calculated",
+    "fat": "calculated",
+    "monounsaturated": "calculated",
+    "polyunsaturated": "calculated",
+    "omega_3": "calculated",
+    "omega_6": "calculated",
+    "saturated": "calculated",
+    "transfats": "calculated",
+    "cholesterol": "calculated",
+    "protein": "calculated",
+    "alanine": "calculated",
+    "arginine": "calculated",
+    "aspartic_acid": "calculated",
+    "cystine": "calculated",
+    "glutamic_acid": "calculated",
+    "glycine": "calculated",
+    "histidine": "calculated",
+    "isoleucine": "calculated",
+    "leucine": "calculated",
+    "lysine": "calculated",
+    "methionine": "calculated",
+    "phenylalanine": "calculated",
+    "proline": "calculated",
+    "serine": "calculated",
+    "threonine": "calculated",
+    "tryptophan": "calculated",
+    "tyrosine": "calculated",
+    "valine": "calculated",
+    "b1_thiamine": "calculated",
+    "b2_riboflavin": "calculated",
+    "b3_niacin": "calculated",
+    "b5_pantothenic_acid": "calculated",
+    "b6_pyridoxine": "calculated",
+    "b12_cobalamin": "calculated",
+    "choline": "calculated",
+    "folate": "calculated",
+    "vitamin_a": "calculated",
+    "vitamin_c": "calculated",
+    "vitamin_d": "calculated",
+    "vitamin_e": "calculated",
+    "vitamin_k": "calculated",
+    "calcium": "calculated",
+    "copper": "calculated",
+    "iron": "calculated",
+    "magnesium": "calculated",
+    "manganese": "calculated",
+    "phosphorus": "calculated",
+    "potassium": "calculated",
+    "selenium": "calculated",
+    "sodium": "calculated",
+    "zinc": "calculated"
+   },
+   "portions": [
+    {
+     "amount": 1.0,
+     "unit": "fl oz",
+     "grams": 27.8
+    },
+    {
+     "amount": 1.5,
+     "unit": "fl oz",
+     "grams": 42.0
+    }
+   ]
+  },
   "recipe:beef-drippings": {
    "name": "beef pan drippings (beef broth 95, tallow 5)",
    "source": "recipe",
@@ -218413,6 +218810,152 @@
     "zinc": "calculated"
    },
    "portions": []
+  },
+  "recipe:off-thin-mints": {
+   "name": "Thin Mints cookies (Little Brownie Bakers label values on sr:172714)",
+   "source": "recipe",
+   "tier": 5,
+   "parts": [
+    {
+     "ref": "sr:172714",
+     "grams": 100
+    }
+   ],
+   "per_100g": {
+    "energy": 501.0,
+    "alcohol": 0.0,
+    "ash": 2.0,
+    "caffeine": 10.0,
+    "water": 4.5,
+    "carbs": 67.1,
+    "fiber": 2.3,
+    "sugars": 30.7,
+    "fat": 24.0,
+    "monounsaturated": 4.865,
+    "polyunsaturated": 4.153,
+    "omega_3": 0.273,
+    "omega_6": 3.872,
+    "saturated": 15.4,
+    "cholesterol": 2.0,
+    "protein": 4.4,
+    "alanine": 0.238,
+    "arginine": 0.286,
+    "aspartic_acid": 0.407,
+    "cystine": 0.127,
+    "glutamic_acid": 1.753,
+    "glycine": 0.236,
+    "histidine": 0.128,
+    "isoleucine": 0.261,
+    "leucine": 0.447,
+    "lysine": 0.281,
+    "methionine": 0.105,
+    "phenylalanine": 0.308,
+    "proline": 0.577,
+    "serine": 0.335,
+    "threonine": 0.22,
+    "tryptophan": 0.096,
+    "tyrosine": 0.205,
+    "valine": 0.323,
+    "b1_thiamine": 0.203,
+    "b2_riboflavin": 0.266,
+    "b3_niacin": 2.858,
+    "b5_pantothenic_acid": 0.381,
+    "b6_pyridoxine": 0.051,
+    "b12_cobalamin": 0.09,
+    "choline": 14.3,
+    "folate": 75.0,
+    "vitamin_a": 3.0,
+    "vitamin_c": 0.0,
+    "vitamin_d": 0.0,
+    "vitamin_e": 0.72,
+    "vitamin_k": 2.4,
+    "calcium": 31.0,
+    "copper": 0.463,
+    "iron": 4.01,
+    "magnesium": 53.0,
+    "manganese": 0.696,
+    "phosphorus": 132.0,
+    "potassium": 210.0,
+    "selenium": 5.7,
+    "sodium": 388.0,
+    "zinc": 1.09
+   },
+   "quality": {
+    "energy": "corrected",
+    "alcohol": "calculated",
+    "ash": "calculated",
+    "caffeine": "calculated",
+    "water": "calculated",
+    "carbs": "corrected",
+    "fiber": "corrected",
+    "sugars": "corrected",
+    "fat": "corrected",
+    "monounsaturated": "calculated",
+    "polyunsaturated": "calculated",
+    "omega_3": "calculated",
+    "omega_6": "calculated",
+    "saturated": "corrected",
+    "cholesterol": "calculated",
+    "protein": "corrected",
+    "alanine": "calculated",
+    "arginine": "calculated",
+    "aspartic_acid": "calculated",
+    "cystine": "calculated",
+    "glutamic_acid": "calculated",
+    "glycine": "calculated",
+    "histidine": "calculated",
+    "isoleucine": "calculated",
+    "leucine": "calculated",
+    "lysine": "calculated",
+    "methionine": "calculated",
+    "phenylalanine": "calculated",
+    "proline": "calculated",
+    "serine": "calculated",
+    "threonine": "calculated",
+    "tryptophan": "calculated",
+    "tyrosine": "calculated",
+    "valine": "calculated",
+    "b1_thiamine": "calculated",
+    "b2_riboflavin": "calculated",
+    "b3_niacin": "calculated",
+    "b5_pantothenic_acid": "calculated",
+    "b6_pyridoxine": "calculated",
+    "b12_cobalamin": "calculated",
+    "choline": "calculated",
+    "folate": "calculated",
+    "vitamin_a": "calculated",
+    "vitamin_c": "calculated",
+    "vitamin_d": "calculated",
+    "vitamin_e": "calculated",
+    "vitamin_k": "calculated",
+    "calcium": "calculated",
+    "copper": "calculated",
+    "iron": "calculated",
+    "magnesium": "calculated",
+    "manganese": "calculated",
+    "phosphorus": "calculated",
+    "potassium": "calculated",
+    "selenium": "calculated",
+    "sodium": "corrected",
+    "zinc": "calculated"
+   },
+   "portions": [
+    {
+     "amount": 1.0,
+     "unit": "oz",
+     "grams": 28.35
+    },
+    {
+     "amount": 1.0,
+     "unit": "cup, crumbs",
+     "grams": 112.0
+    },
+    {
+     "amount": 1.0,
+     "unit": "wafer",
+     "grams": 6.0
+    }
+   ]
   },
   "recipe:shawarma-spice": {
    "name": "shawarma spice (cumin, paprika, salt)",
@@ -223736,6 +224279,10 @@
   "2299": {
    "bunch": 30
   },
+  "2346": {
+   "inch": 1,
+   "item": 3
+  },
   "2381": {
    "density": 0.4227
   },
@@ -223768,6 +224315,9 @@
   },
   "2520": {
    "small head": 150
+  },
+  "2534": {
+   "slice": 40
   },
   "2543": {
    "density": 1.2
@@ -223861,6 +224411,9 @@
   "3003": {
    "item": 30
   },
+  "3111": {
+   "density": 0.36
+  },
   "3236": {
    "density": 1.2
   },
@@ -223872,6 +224425,12 @@
   },
   "3644": {
    "density": 0.5
+  },
+  "3647": {
+   "item": 75
+  },
+  "3648": {
+   "item": 8
   }
  },
  "corrections": {
@@ -223919,6 +224478,10 @@
    "sodium": 1120.0,
    "note": "Open Food Facts median of 5 labels; e.g. Guanciale [Citterio]"
   },
+  "recipe:overproof-rum": {
+   "energy": 375.0,
+   "note": "alcohol energy scales with proof: 231 kcal at 80 proof -> ~375 at 130 proof"
+  },
   "recipe:off-rice-paper": {
    "energy": 338.0,
    "fat": 0.0,
@@ -223936,6 +224499,17 @@
    "sugars": 78.35,
    "sodium": 0.0,
    "note": "Open Food Facts median of 8 labels; e.g. Premium rose water syrup [Ziyad,  Zb Importing Inc.]"
+  },
+  "recipe:off-thin-mints": {
+   "energy": 501.0,
+   "fat": 24.0,
+   "saturated": 15.4,
+   "carbs": 67.1,
+   "sugars": 30.7,
+   "fiber": 2.3,
+   "protein": 4.4,
+   "sodium": 388.0,
+   "note": "Little Brownie Bakers Thin Mints label (Open Food Facts), 4 cookies = 32 g"
   },
   "recipe:off-apple-chips": {
    "energy": 393.0,
