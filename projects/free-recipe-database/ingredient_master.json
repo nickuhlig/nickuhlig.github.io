@@ -432,7 +432,6 @@
     "almonds": 220
    },
    "aliases": [
-    "Marcona almonds",
     "ground almonds",
     "roasted salted almonds",
     "ground blanched almonds",
@@ -1694,18 +1693,12 @@
     "cashews, roasted unsalted": 474
    },
    "aliases": [
-    "whole roasted and salted cashews",
     "roasted cashews",
-    "roasted and salted cashews",
     "toasted cashews",
-    "salted roasted cashews",
     "plain roasted cashews",
     "cashews",
-    "raw cashews",
-    "salted cashews",
     "cashew nuts",
-    "toasted cashew nuts",
-    "unroasted cashews"
+    "toasted cashew nuts"
    ],
    "exact_only": [],
    "violates": [
@@ -3208,7 +3201,6 @@
     "unsalted roasted peanuts",
     "roasted peanuts",
     "dry roasted peanuts",
-    "unsalted raw peanuts",
     "peanuts",
     "dry roasted, unsalted peanuts",
     "roasted shelled peanuts",
@@ -3216,16 +3208,12 @@
     "roasted unsalted peanuts",
     "crushed unsalted dry-roasted peanuts",
     "unsalted peanuts",
-    "salted dry-roasted peanuts",
-    "salted peanuts",
     "roasted and crushed peanuts",
     "shelled unsalted peanuts",
     "plain roasted peanuts",
     "crushed roasted peanuts",
     "shelled peanuts",
     "crushed unsalted peanuts",
-    "salted cocktail peanuts",
-    "salted party peanuts",
     "toasted and ground peanuts",
     "roasted and coarsely ground peanuts",
     "roasted-garlic-flavored peanuts"
@@ -4494,7 +4482,6 @@
    "aliases": [
     "hulled pumpkin seeds",
     "green pumpkin seeds",
-    "roasted salted pumpkin seeds",
     "hulled untoasted pumpkin seeds"
    ],
    "exact_only": [],
@@ -15185,7 +15172,12 @@
     "salted roasted peanuts",
     "crushed roasted salted peanuts",
     "roasted salted peanuts",
-    "salted salted roasted peanuts"
+    "salted salted roasted peanuts",
+    "salted peanuts",
+    "salted party peanuts",
+    "salted cocktail peanuts",
+    "salted dry-roasted peanuts",
+    "chopped salted peanuts"
    ],
    "exact_only": [],
    "violates": [
@@ -28294,8 +28286,7 @@
     "macadamia nuts": 1
    },
    "aliases": [
-    "dry-roasted macadamia nuts",
-    "salted macadamia nuts"
+    "dry-roasted macadamia nuts"
    ],
    "exact_only": [],
    "violates": [
@@ -28522,7 +28513,9 @@
     "raw peanuts": 1
    },
    "aliases": [
-    "raw shelled red- skin peanuts"
+    "raw shelled red- skin peanuts",
+    "unsalted raw peanuts",
+    "raw shelled peanuts"
    ],
    "exact_only": [],
    "violates": [
@@ -30675,7 +30668,8 @@
    },
    "aliases": [
     "roasted and salted pepitas",
-    "roasted pepitas"
+    "roasted pepitas",
+    "roasted salted pumpkin seeds"
    ],
    "exact_only": [],
    "violates": [],
@@ -32317,8 +32311,6 @@
    "aliases": [
     "shelled roasted pistachios",
     "shelled pistachios",
-    "salted pistachios",
-    "salted roasted pistachios",
     "Very finely chopped raw pistachios",
     "roasted shelled pistachios",
     "roasted pistachios",
@@ -35725,7 +35717,11 @@
     "cashews, raw unsalted": 1
    },
    "aliases": [
-    "raw unsalted cashews"
+    "raw unsalted cashews",
+    "raw cashews",
+    "whole raw cashews",
+    "whole raw cashew nuts",
+    "unroasted cashews"
    ],
    "exact_only": [],
    "violates": [
@@ -54915,6 +54911,79 @@
    "diet_flags": [
     "not_paleo"
    ]
+  },
+  "3681": {
+   "name": "salted roasted cashews",
+   "names": {
+    "salted roasted cashews": 1
+   },
+   "aliases": [
+    "salted cashews",
+    "roasted and salted cashews",
+    "whole roasted and salted cashews"
+   ],
+   "exact_only": [],
+   "violates": [
+    6
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 108 (cashews, roasted unsalted) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": []
+  },
+  "3682": {
+   "name": "salted roasted pistachios",
+   "names": {
+    "salted roasted pistachios": 1
+   },
+   "aliases": [
+    "salted pistachios",
+    "lightly salted pistachios"
+   ],
+   "exact_only": [],
+   "violates": [
+    6
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 2365 (pistachios) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": []
+  },
+  "3683": {
+   "name": "salted macadamia nuts",
+   "names": {
+    "salted macadamia nuts": 1
+   },
+   "aliases": [],
+   "exact_only": [],
+   "violates": [
+    6
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 2121 (macadamia nuts) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": []
+  },
+  "3684": {
+   "name": "Marcona almonds",
+   "names": {
+    "Marcona almonds": 1
+   },
+   "aliases": [
+    "toasted marcona almonds"
+   ],
+   "exact_only": [],
+   "violates": [
+    6
+   ],
+   "source": "curated",
+   "recipes_seen": 0,
+   "note": "split from 29 (almonds) by the user 2026-10-24",
+   "added": "2026-10-24",
+   "diet_flags": []
   }
  }
 }
