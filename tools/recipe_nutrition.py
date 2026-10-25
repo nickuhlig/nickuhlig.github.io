@@ -270,6 +270,23 @@ def size_grams(food: dict, size: str):
     return None, None
 
 
+def variety_grams(food: dict, line_name: str = ""):
+    """Grams of one item when the food has a portion for the variety the line names ("plum
+    tomato" for "4 medium plum tomatoes"), so a size word scales that, not the generic medium.
+    Portions that are themselves sizes ("Potato medium", "large whole") are left to size_grams, and
+    cut pieces ("slice, thin", "cantaloupe balls") never count; only the item part of the name
+    (before any comma: "plum tomatoes, cut into slices") is read."""
+    item = line_name.lower().split(",")[0]
+    words = {w[:-1] if w.endswith("s") else w for w in re.findall(r"[a-z]{4,}", item)}
+    for p in food.get("portions", []):
+        label = re.findall(r"[a-z]+", p["unit"].lower())
+        if (label and (label[0][:-1] if label[0].endswith("s") else label[0]) in words and not _portion_ml(p["unit"])
+                and not any(_has_word(p["unit"], z) for z in SIZES)
+                and not re.search(r"\b(slices?|rings?|balls?|wedges?|strips?|cubes?|pieces?|sticks?|chopped|diced|sliced)\b", p["unit"].lower())):
+            return p["grams"] / p["amount"], p["unit"]
+    return None, None
+
+
 def count_grams(food: dict, line_name: str = ""):
     """Grams of one item for a bare count: a portion named after the item itself ("1 tortilla"
     for "corn tortillas"), else "medium", else the first portion that is neither a volume nor a
@@ -332,7 +349,11 @@ def line_grams(parsed: dict, food: dict, line_name: str = "", measures: dict = N
                 factor = SIZE_FACTOR.get(size, 1.0) if key in (noun, "item") and size else 1.0
                 return parsed["count"] * measures[key] * factor, f"reviewed '{key}'" + (f" x {factor}" if factor != 1 else "")
         if noun in (None, "whole"):
-            g, label = size_grams(food, size) if size else (None, None)
+            g, label = variety_grams(food, line_name) if size else (None, None)
+            if g:
+                g, label = g * SIZE_FACTOR.get(size, 1.0), f"{label} x {SIZE_FACTOR.get(size, 1.0)}"
+            else:
+                g, label = size_grams(food, size) if size else (None, None)
             if not g:
                 g, label = count_grams(food, line_name)
                 if g and size:
