@@ -600,7 +600,8 @@ def recipe_nutrition(recipe: dict, db: dict, skip_ids=()) -> dict:
         if iid in skip_ids:
             continue
         assign = db["ingredients"].get(iid)
-        quantity = ing.get("quantity")
+        # "weigh_as": the source's own amount ("1 ½ lb"), kept for nutrition when the line shows a house unit ("3 medium")
+        quantity = ing.get("weigh_as") or ing.get("quantity")
         if str(index) in override.get("quantity", {}) and not (quantity or "").strip():
             quantity = override["quantity"][str(index)]       # reviewed amount for a line the recipe left blank
         entry = {"ingredient_id": iid, "name": ing.get("name"), "quantity": quantity, "index": index}
