@@ -17,7 +17,8 @@
   "allowed_type_ids": [
     1,
     3,
-    4
+    4,
+    7
   ],
   "violated_restriction_ids": [
     3,
@@ -179,15 +180,94 @@
     }
   ],
   "nutrition": {
-    "energy": 498.0,
-    "fat": 38.0,
-    "saturated": 6.0,
-    "carbs": 33.0,
-    "fiber": 4.0,
-    "sugars": 2.0,
-    "protein": 8.0,
-    "sodium": 694.0,
-    "cholesterol": 22.0
+    "energy": 679.79,
+    "alcohol": 0.0,
+    "ash": 2.92,
+    "caffeine": 0.0,
+    "water": 161.84,
+    "carbs": 28.15,
+    "fiber": 3.57,
+    "sugars": 1.71,
+    "fructose": 0.56,
+    "galactose": 0.0,
+    "glucose": 0.62,
+    "lactose": 0.0,
+    "maltose": 0.0,
+    "sucrose": 0.32,
+    "fat": 59.77,
+    "monounsaturated": 33.44,
+    "polyunsaturated": 15.29,
+    "omega_3": 1.58,
+    "omega_6": 13.58,
+    "saturated": 8.81,
+    "cholesterol": 35.54,
+    "protein": 10.37,
+    "alanine": 0.53,
+    "arginine": 0.59,
+    "aspartic_acid": 1.47,
+    "glutamic_acid": 1.59,
+    "glycine": 0.42,
+    "histidine": 0.26,
+    "isoleucine": 0.44,
+    "leucine": 0.74,
+    "lysine": 0.8,
+    "methionine": 0.26,
+    "phenylalanine": 0.42,
+    "proline": 0.36,
+    "serine": 0.45,
+    "threonine": 0.42,
+    "tyrosine": 0.32,
+    "valine": 0.55,
+    "b1_thiamine": 0.14,
+    "b2_riboflavin": 0.12,
+    "b3_niacin": 4.31,
+    "b5_pantothenic_acid": 0.7,
+    "b6_pyridoxine": 0.51,
+    "b12_cobalamin": 0.5,
+    "choline": 51.52,
+    "folate": 38.23,
+    "vitamin_a": 39.0,
+    "vitamin_c": 40.63,
+    "vitamin_e": 7.45,
+    "vitamin_k": 145.52,
+    "calcium": 44.44,
+    "copper": 0.22,
+    "iron": 2.64,
+    "magnesium": 47.54,
+    "phosphorus": 171.46,
+    "potassium": 746.1,
+    "selenium": 18.71,
+    "sodium": 246.46,
+    "zinc": 0.85
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-25",
+    "lines": 20,
+    "counted": 15,
+    "partial": true,
+    "missing": [
+      "chopped Calabrian chiles in oil"
+    ],
+    "not_counted": [
+      "Kosher salt",
+      "Kosher salt",
+      "freshly ground black pepper",
+      "Kosher salt"
+    ],
+    "assumed": [
+      "Extra-virgin olive oil, for pan-frying"
+    ],
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "starch",
+      "sugar_alcohol",
+      "transfats",
+      "cystine",
+      "tryptophan",
+      "vitamin_d",
+      "manganese"
+    ]
   },
   "schema_metadata": {
     "category": [

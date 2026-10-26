@@ -17,7 +17,9 @@
   "allowed_type_ids": [
     1,
     3,
-    4
+    4,
+    7,
+    8
   ],
   "violated_restriction_ids": [
     2,
@@ -148,15 +150,91 @@
     }
   ],
   "nutrition": {
-    "energy": 951.0,
-    "fat": 64.0,
-    "saturated": 42.0,
-    "carbs": 71.0,
-    "fiber": 8.0,
-    "sugars": 34.0,
-    "protein": 35.0,
-    "sodium": 229.0,
-    "cholesterol": 93.0
+    "energy": 725.93,
+    "water": 286.38,
+    "carbs": 17.3,
+    "fat": 61.69,
+    "monounsaturated": 10.55,
+    "polyunsaturated": 6.07,
+    "omega_6": 2.63,
+    "saturated": 42.39,
+    "cholesterol": 93.82,
+    "protein": 30.56,
+    "alanine": 2.1,
+    "arginine": 2.64,
+    "aspartic_acid": 3.61,
+    "cystine": 0.28,
+    "glutamic_acid": 5.3,
+    "glycine": 1.98,
+    "histidine": 0.74,
+    "isoleucine": 1.11,
+    "leucine": 1.88,
+    "lysine": 2.3,
+    "methionine": 0.81,
+    "phenylalanine": 1.05,
+    "proline": 1.33,
+    "serine": 1.47,
+    "threonine": 1.0,
+    "tryptophan": 0.37,
+    "tyrosine": 1.07,
+    "valine": 1.29,
+    "b1_thiamine": 0.2,
+    "b2_riboflavin": 0.62,
+    "b3_niacin": 9.52,
+    "b5_pantothenic_acid": 1.58,
+    "b6_pyridoxine": 0.71,
+    "b12_cobalamin": 9.08,
+    "choline": 102.59,
+    "folate": 52.63,
+    "vitamin_a": 65.96,
+    "vitamin_c": 16.63,
+    "vitamin_d": 11.34,
+    "calcium": 86.42,
+    "copper": 0.56,
+    "iron": 7.13,
+    "magnesium": 129.63,
+    "manganese": 1.52,
+    "phosphorus": 420.31,
+    "potassium": 1037.33,
+    "sodium": 934.59,
+    "zinc": 1.73
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-25",
+    "lines": 14,
+    "counted": 12,
+    "partial": true,
+    "missing": [
+      "very green bananas"
+    ],
+    "not_counted": [
+      "Kosher salt"
+    ],
+    "assumed": [
+      "Unsalted butter, softened"
+    ],
+    "estimated_share": 0.284,
+    "omitted_fields": [
+      "alcohol",
+      "ash",
+      "caffeine",
+      "fiber",
+      "starch",
+      "sugars",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "omega_3",
+      "transfats",
+      "vitamin_e",
+      "vitamin_k",
+      "selenium"
+    ]
   },
   "schema_metadata": {
     "category": [

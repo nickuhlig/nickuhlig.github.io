@@ -33,6 +33,7 @@ Kosher salt is weighed at 2.8 g/tsp (Diamond Crystal, what Serious Eats uses), n
     python recipe_nutrition.py validate --snapshot <recipes.json>                  vs Mealime
     python recipe_nutrition.py validate --snapshot <recipes.json> --by-ingredient 15 [--field fat]
         ... plus the ingredients whose recipes lean consistently high or low
+    python recipe_nutrition.py write [--apply]      imported recipes: report, or write nutrition into the files
 """
 
 import argparse
@@ -806,6 +807,147 @@ def cmd_build_batches(db: dict, library_dir: Path) -> None:
     print(f"built {len(paths)} batch foods" + (f"; recipes not found: {missing}" if missing else ""), file=sys.stderr)
 
 
+# --- writing results into recipe files ------------------------------------------------------------
+# Rules agreed with the user (2026-10-19): Mealime is never written; imported-site nutrition is
+# overwritten; a recipe is written when at most one line could not be converted (marked partial, the
+# line named); a field is written only when foods covering >= 95% of the recipe's grams have it
+# (missing = unknown, not zero); the US result goes to both twins and >3% US/Metric gaps are reported.
+WRITE_SOURCES = ("seriouseats", "albertsons_native", "albertsons_native_gap_fill")
+FIELD_COVERAGE = 0.95
+TWIN_GAP = 0.03
+# A food with no value for a field still covers it when the field's parent is zero in that food: oil
+# and sugar have no protein, so their amino acids are known to be zero, not unknown.
+AMINO_ACIDS = ("alanine", "arginine", "aspartic_acid", "cystine", "glutamic_acid", "glycine", "histidine", "isoleucine",
+               "leucine", "lysine", "methionine", "phenylalanine", "proline", "serine", "threonine", "tryptophan",
+               "tyrosine", "valine")
+PARENT_FIELD = {**{a: "protein" for a in AMINO_ACIDS},
+                **{f: "fat" for f in ("monounsaturated", "polyunsaturated", "omega_3", "omega_6", "saturated", "transfats")},
+                **{f: "carbs" for f in ("starch", "sugars", "fiber", "sugar_alcohol")},
+                **{f: "sugars" for f in ("fructose", "galactose", "glucose", "lactose", "maltose", "sucrose")}}
+
+
+def covers(food: dict, field: str) -> bool:
+    values = food["per_100g"]
+    if field in values:
+        return True
+    parent = PARENT_FIELD.get(field)
+    while parent is not None:
+        if parent in values:
+            return values[parent] == 0
+        parent = PARENT_FIELD.get(parent)
+    return False
+
+
+def nutrition_record(res: dict, db: dict, today: str) -> tuple[dict, dict]:
+    """(nutrition, nutrition_meta) for one calculated recipe, in Mealime's field order."""
+    import fdc_client
+    foods = foods_of(db)
+    counted = [l for l in res["lines"] if l["status"] == "counted" and l.get("grams")]
+    total_g = sum(l["grams"] for l in counted)
+    nutrition, omitted = {}, []
+    for field in fdc_client.NUTRIENTS:
+        covered = sum(l["grams"] for l in counted if covers(foods[l["ref"]], field))
+        if total_g and covered >= FIELD_COVERAGE * total_g:
+            nutrition[field] = round(res["per_serving"].get(field, 0.0), 2)
+        else:
+            omitted.append(field)
+    estimated = sum(l["grams"] for l in counted if foods[l["ref"]].get("quality", {}).get("energy") == "estimated")
+    names = lambda pred: [l["name"] for l in res["lines"] if pred(l)]
+    meta = {"source": "calculated", "date": today,
+            "lines": len(res["lines"]), "counted": len(counted),
+            "partial": not res["complete"],
+            "missing": names(lambda l: l["status"] not in ("counted", "zero")),
+            "not_counted": names(lambda l: l["status"] == "zero" and l.get("how", "").startswith(("to taste", "served"))),
+            "assumed": names(lambda l: l.get("assumed")),
+            "stand_ins": names(lambda l: l["status"] == "counted" and db["ingredients"].get(l["ingredient_id"], {}).get("flag")),
+            "estimated_share": round(estimated / total_g, 3) if total_g else 0.0,
+            "omitted_fields": omitted}
+    return nutrition, {k: v for k, v in meta.items() if v not in ([], None)}
+
+
+def cmd_write(db: dict, library_dir: Path, apply: bool) -> None:
+    """Calculate every imported recipe and (with --apply) write nutrition + nutrition_meta to it and its twin."""
+    import collections
+    from datetime import date
+    from diet_rules import recipe_menu_types
+    from ingredient_master import IngredientMaster, load_master, master_path_for
+    master = IngredientMaster(load_master(master_path_for(library_dir)))
+    today = date.today().isoformat()
+    recs = {}
+    for path in library_dir.glob("families/*/*.json"):
+        r = json.loads(path.read_text(encoding="utf-8"))
+        if isinstance(r, dict) and r.get("source") in WRITE_SOURCES:
+            recs[r["id"]] = (path, r)
+    manifest_path = library_dir / "manifest.json"
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    by_path = {v.get("path"): k for k, v in manifest["entries"].items()}
+    stats, gaps, labels, shifts = collections.Counter(), [], collections.Counter(), []
+    for rid, (path, r) in recs.items():
+        if r["units"] != "US":
+            continue
+        # the Metric twin: same servings and ingredient list -- a family's other Metric siblings are other
+        # serving sizes or gluten-/dairy-free variants, each written from its own US record
+        ids = [g.get("ingredient_id") for g in r["ingredients"]]
+        twins = [recs[s] for s in r.get("sibling_variant_ids") or [] if s in recs and recs[s][1]["units"] == "Metric"
+                 and recs[s][1].get("serving_count") == r.get("serving_count")
+                 and [g.get("ingredient_id") for g in recs[s][1]["ingredients"]] == ids]
+        res = recipe_nutrition(r, db)
+        bad = [l for l in res["lines"] if l["status"] not in ("counted", "zero")]
+        if len(bad) > 1:
+            stats[(r["source"], "skipped: 2+ lines not converted")] += 1
+            continue
+        nutrition, meta = nutrition_record(res, db, today)
+        if "energy" not in nutrition:           # nothing countable (a strained stock): keep what the recipe has
+            stats[(r["source"], "skipped: nothing countable")] += 1
+            continue
+        stats[(r["source"], "written, partial" if bad else "written, complete")] += 1
+        for tpath, t in twins:
+            tm = recipe_nutrition(t, db)["per_serving"].get("energy", 0)
+            if nutrition.get("energy") and abs(tm - nutrition["energy"]) > TWIN_GAP * nutrition["energy"]:
+                gaps.append((rid, r["name"][:50], nutrition["energy"], round(tm, 1)))
+        old = (r.get("nutrition") or {}).get("energy")
+        if old:
+            shifts.append(nutrition.get("energy", 0) / old)
+        new_types = None
+        if r["source"] == "seriouseats":           # labels from the master + nutrition (Low Carb / Keto); Albertsons' come from the site
+            new_types = set(recipe_menu_types(ids, master, nutrition))
+            for tid in set(r.get("allowed_type_ids") or []) ^ new_types:
+                labels[(tid, "gained" if tid in new_types else "lost")] += 1
+            if new_types == set(r.get("allowed_type_ids") or []):
+                new_types = None
+        if apply:
+            for tpath, t in [(path, r)] + twins:
+                if new_types is not None:
+                    t["allowed_type_ids"] = sorted(new_types)
+                    rel = tpath.relative_to(library_dir).as_posix()
+                    if rel in by_path:
+                        manifest["entries"][by_path[rel]]["allowed_type_ids"] = sorted(new_types)
+                out = {}
+                for k, v in t.items():
+                    if k == "nutrition_meta":
+                        continue
+                    out[k] = nutrition if k == "nutrition" else v
+                    if k == "nutrition":
+                        out["nutrition_meta"] = meta
+                if "nutrition" not in t:
+                    out["nutrition"], out["nutrition_meta"] = nutrition, meta
+                tpath.write_text(json.dumps(out, indent=2, ensure_ascii=False), encoding="utf-8")
+    if apply:
+        manifest_path.write_text(json.dumps(manifest, separators=(",", ":"), ensure_ascii=False), encoding="utf-8")
+    print(("WROTE" if apply else "DRY RUN") + f" ({today}); US recipes by source:")
+    for (src, what), n in sorted(stats.items()):
+        print(f"  {src:<28} {what:<34} {n:>6}")
+    if shifts:
+        q = statistics.quantiles(shifts, n=10)
+        print(f"site calories replaced: new/old median {statistics.median(shifts):.2f}, p10 {q[0]:.2f}, p90 {q[-1]:.2f}, "
+              f"within ±15% {sum(.85 <= x <= 1.15 for x in shifts) / len(shifts):.0%} (n={len(shifts)})")
+    print(f"US/Metric calorie gaps over {TWIN_GAP:.0%}: {len(gaps)}")
+    for g in gaps[:25]:
+        print(f"  {g[0]} {g[1]:<50} US {g[2]} vs Metric {g[3]}")
+    print("Serious Eats menu types changed by the new nutrition" + ("" if apply else " (not written in a dry run)") + ":",
+          {f"type {t} {how}": n for (t, how), n in sorted(labels.items())})
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--recipes-dir", default=str(DEFAULT_LIBRARY_DIR))
@@ -816,6 +958,8 @@ def main() -> None:
     p.add_argument("--by-ingredient", type=int, default=0, metavar="N",
                    help="also list the N ingredients that pull recipes furthest high and low")
     p.add_argument("--field", default="energy", help="field for --by-ingredient (energy, fat, carbs, protein, ...)")
+    p = sub.add_parser("write", help="calculate imported recipes; dry run unless --apply")
+    p.add_argument("--apply", action="store_true", help="write nutrition + nutrition_meta into the recipe files")
     args = parser.parse_args()
     db = nc.load_db(Path(args.recipes_dir))
     if args.cmd == "line":
@@ -828,6 +972,8 @@ def main() -> None:
         nc.save_db(db, Path(args.recipes_dir))
     elif args.cmd == "validate":
         cmd_validate(args, db)
+    elif args.cmd == "write":
+        cmd_write(db, Path(args.recipes_dir), args.apply)
 
 
 if __name__ == "__main__":
