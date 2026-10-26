@@ -7,7 +7,8 @@ weekly. Does, in order:
   2. git pull --rebase --autostash origin master          (skipped with --no-git)
   3. the Albertsons pipeline, in FULL mode: sweep (with both restriction-discovery passes -- they
      are 2/3 of what a sweep finds, so a plain sweep would shrink the file), diff, fetch, then the
-     local steps (ingredients, restrictions, cookbooks). The network stages need the session
+     local steps (ingredients, restrictions, cookbooks, diet labels, nutrition for recipes that have
+     none yet). The network stages need the session
      headers in albertsons_headers.json (see set_headers.py); without them, or if Albertsons
      rejects them mid-run, or any network stage fails, the run does NOT stop: the local steps
      still run on the existing sweep and the result is flagged (exit code 2 + a notification).

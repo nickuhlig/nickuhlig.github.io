@@ -34,6 +34,7 @@ Kosher salt is weighed at 2.8 g/tsp (Diamond Crystal, what Serious Eats uses), n
     python recipe_nutrition.py validate --snapshot <recipes.json> --by-ingredient 15 [--field fat]
         ... plus the ingredients whose recipes lean consistently high or low
     python recipe_nutrition.py write [--apply]      imported recipes: report, or write nutrition into the files
+    python recipe_nutrition.py write --missing-only [--apply]   only recipes not written yet (weekly refresh)
 """
 
 import argparse
@@ -865,8 +866,15 @@ def nutrition_record(res: dict, db: dict, today: str) -> tuple[dict, dict]:
     return nutrition, {k: v for k, v in meta.items() if v not in ([], None)}
 
 
-def cmd_write(db: dict, library_dir: Path, apply: bool) -> None:
-    """Calculate every imported recipe and (with --apply) write nutrition + nutrition_meta to it and its twin."""
+def write_missing(library_dir: Path, dry_run: bool = False) -> None:
+    """The weekly refresh's nutrition stage: write every imported recipe that has none yet."""
+    cmd_write(nc.load_db(library_dir), library_dir, apply=not dry_run, missing_only=True)
+
+
+def cmd_write(db: dict, library_dir: Path, apply: bool, missing_only: bool = False) -> None:
+    """Calculate every imported recipe and (with --apply) write nutrition + nutrition_meta to it and its twin.
+    missing_only: just the recipes with no nutrition_meta yet -- new ones, and ones that couldn't be
+    calculated before (the weekly refresh's nutrition stage)."""
     import collections
     from datetime import date
     from diet_rules import recipe_menu_types
@@ -883,7 +891,7 @@ def cmd_write(db: dict, library_dir: Path, apply: bool) -> None:
     by_path = {v.get("path"): k for k, v in manifest["entries"].items()}
     stats, gaps, labels, shifts = collections.Counter(), [], collections.Counter(), []
     for rid, (path, r) in recs.items():
-        if r["units"] != "US":
+        if r["units"] != "US" or (missing_only and "nutrition_meta" in r):
             continue
         # the Metric twin: same servings and ingredient list -- a family's other Metric siblings are other
         # serving sizes or gluten-/dairy-free variants, each written from its own US record
@@ -932,7 +940,7 @@ def cmd_write(db: dict, library_dir: Path, apply: bool) -> None:
                 if "nutrition" not in t:
                     out["nutrition"], out["nutrition_meta"] = nutrition, meta
                 tpath.write_text(json.dumps(out, indent=2, ensure_ascii=False), encoding="utf-8")
-    if apply:
+    if apply and labels:
         manifest_path.write_text(json.dumps(manifest, separators=(",", ":"), ensure_ascii=False), encoding="utf-8")
     print(("WROTE" if apply else "DRY RUN") + f" ({today}); US recipes by source:")
     for (src, what), n in sorted(stats.items()):
@@ -960,6 +968,7 @@ def main() -> None:
     p.add_argument("--field", default="energy", help="field for --by-ingredient (energy, fat, carbs, protein, ...)")
     p = sub.add_parser("write", help="calculate imported recipes; dry run unless --apply")
     p.add_argument("--apply", action="store_true", help="write nutrition + nutrition_meta into the recipe files")
+    p.add_argument("--missing-only", action="store_true", help="only recipes with no nutrition_meta yet (new or not calculable before)")
     args = parser.parse_args()
     db = nc.load_db(Path(args.recipes_dir))
     if args.cmd == "line":
@@ -973,7 +982,7 @@ def main() -> None:
     elif args.cmd == "validate":
         cmd_validate(args, db)
     elif args.cmd == "write":
-        cmd_write(db, Path(args.recipes_dir), args.apply)
+        cmd_write(db, Path(args.recipes_dir), args.apply, args.missing_only)
 
 
 if __name__ == "__main__":
