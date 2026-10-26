@@ -7542,7 +7542,9 @@
    "names": {
     "extra dark chocolate chips (60-65%)": 2
    },
-   "aliases": [],
+   "aliases": [
+    "dark chocolate chips (60-65%)"
+   ],
    "exact_only": [],
    "violates": [],
    "source": "curated",
@@ -12471,7 +12473,9 @@
    "names": {
     "dijon mustard, course ground": 2
    },
-   "aliases": [],
+   "aliases": [
+    "coarse ground dijon mustard"
+   ],
    "exact_only": [],
    "violates": [
     13,
@@ -19886,7 +19890,8 @@
    },
    "aliases": [
     "chicken wings",
-    "chicken drummettes"
+    "chicken drummettes",
+    "chicken wings, whole"
    ],
    "exact_only": [],
    "violates": [],
@@ -20331,7 +20336,8 @@
     "bone-in skin-on chicken thighs",
     "bone-in skin-on chicken thighs and drumsticks",
     "skin-in on",
-    "skin-on"
+    "skin-on",
+    "chicken thighs, bone-in skin-on"
    ],
    "exact_only": [],
    "violates": [],
@@ -25139,7 +25145,8 @@
     "passata di pomodoro",
     "passata",
     "passata purée",
-    "Passata de Pomodoro"
+    "Passata de Pomodoro",
+    "passata (tomato puree)"
    ],
    "exact_only": [],
    "violates": [
@@ -29178,7 +29185,8 @@
     "cans/ bottles lemon-lime soda": 1
    },
    "aliases": [
-    "lemon-lime soda"
+    "lemon-lime soda",
+    "lemon lime soda"
    ],
    "exact_only": [],
    "violates": [],
@@ -38160,7 +38168,9 @@
    "names": {
     "green plantains": 1
    },
-   "aliases": [],
+   "aliases": [
+    "plantain (green & unripe)"
+   ],
    "exact_only": [],
    "violates": [],
    "source": "curated",
@@ -53930,11 +53940,12 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-10-18"
+   "note": "decided by the user 2026-10-25 (weekly Albertsons review) - not a food: a cookware line in a Serious Eats ingredient list",
+   "added": "2026-10-18",
+   "diet_flags": []
   },
   "3627": {
    "name": "chicken thighs, bone-in skin-on",
@@ -53943,11 +53954,14 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-10-18"
+   "note": "decided by the user 2026-10-25 (weekly Albertsons review) - merged into 1702 (chicken thighs); lines re-pointed there",
+   "added": "2026-10-18",
+   "diet_flags": [
+    "meat"
+   ]
   },
   "3628": {
    "name": "French onion soup",
@@ -53956,11 +53970,12 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-10-18"
+   "note": "decided by the user 2026-10-25 (weekly Albertsons review) - brand-dependent (some brands use wheat or soy)",
+   "added": "2026-10-18",
+   "diet_flags": []
   },
   "3629": {
    "name": "frozen pepper and onion strips (fajita vegetable blend)",
@@ -53969,11 +53984,14 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [
+    10
+   ],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-10-18"
+   "note": "decided by the user 2026-10-25 (weekly Albertsons review)",
+   "added": "2026-10-18",
+   "diet_flags": []
   },
   "3630": {
    "name": "lemon lime soda",
@@ -53982,11 +54000,14 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-10-18"
+   "note": "decided by the user 2026-10-25 (weekly Albertsons review) - merged into 2172 (cans/ bottles lemon-lime soda); lines re-pointed there",
+   "added": "2026-10-18",
+   "diet_flags": [
+    "not_paleo"
+   ]
   },
   "3631": {
    "name": "plantain (green & unripe)",
@@ -53995,11 +54016,12 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-10-18"
+   "note": "decided by the user 2026-10-25 (weekly Albertsons review) - merged into 2691 (green plantains); lines re-pointed there",
+   "added": "2026-10-18",
+   "diet_flags": []
   },
   "3632": {
    "name": "coarse ground dijon mustard",
@@ -54008,11 +54030,15 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [
+    13,
+    14
+   ],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-10-18"
+   "note": "decided by the user 2026-10-25 (weekly Albertsons review) - merged into 1273 (Dijon mustard, course ground); lines re-pointed there",
+   "added": "2026-10-18",
+   "diet_flags": []
   },
   "3633": {
    "name": "turkey breakfast sausage patties, fully cooked",
@@ -54021,11 +54047,14 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-10-18"
+   "note": "decided by the user 2026-10-25 (weekly Albertsons review)",
+   "added": "2026-10-18",
+   "diet_flags": [
+    "meat"
+   ]
   },
   "3634": {
    "name": "passata (tomato puree)",
@@ -54034,11 +54063,14 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [
+    10
+   ],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-10-18"
+   "note": "decided by the user 2026-10-25 (weekly Albertsons review) - merged into 1957 (tomato passata); lines re-pointed there",
+   "added": "2026-10-18",
+   "diet_flags": []
   },
   "3635": {
    "name": "chicken wings, whole",
@@ -54047,11 +54079,14 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-10-18"
+   "note": "decided by the user 2026-10-25 (weekly Albertsons review) - merged into 1681 (whole chicken wings); lines re-pointed there",
+   "added": "2026-10-18",
+   "diet_flags": [
+    "meat"
+   ]
   },
   "3636": {
    "name": "pancake & waffle mix",
@@ -54060,24 +54095,39 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [
+    1
+   ],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-10-18"
+   "note": "decided by the user 2026-10-25 (weekly Albertsons review)",
+   "added": "2026-10-18",
+   "diet_flags": [
+    "not_paleo"
+   ]
   },
   "3637": {
    "name": "reduced fat 2% milk",
    "names": {
     "reduced fat 2% milk": 1
    },
-   "aliases": [],
+   "aliases": [
+    "2% milk",
+    "reduced-fat milk",
+    "reduced fat milk",
+    "partly skimmed milk"
+   ],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [
+    2
+   ],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-10-18"
+   "note": "decided by the user 2026-10-25 (weekly Albertsons review)",
+   "added": "2026-10-18",
+   "diet_flags": [
+    "dairy"
+   ]
   },
   "3638": {
    "name": "jumbo pasta shells",
@@ -54086,11 +54136,16 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [
+    1
+   ],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-10-18"
+   "note": "decided by the user 2026-10-25 (weekly Albertsons review)",
+   "added": "2026-10-18",
+   "diet_flags": [
+    "not_paleo"
+   ]
   },
   "3640": {
    "name": "caramelized white chocolate",
@@ -55120,11 +55175,15 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-10-25"
+   "note": "decided by the user 2026-10-25 (weekly Albertsons review) - merged into 1018 (extra dark chocolate chips (60-65%)); lines re-pointed there",
+   "added": "2026-10-25",
+   "diet_flags": [
+    "dairy",
+    "not_paleo"
+   ]
   }
  }
 }
