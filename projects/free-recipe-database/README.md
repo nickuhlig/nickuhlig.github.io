@@ -54,3 +54,27 @@ I also added *dietary restrictions* which are *negative filters* (recipes are *e
 12. Sulfite-free
 
 The JSON files contain numeric tags which indicate which menu types each recipe is part of, and which dietary restrictions each recipe *violates*. 
+
+Additionally, recipes come equipped with copious tags to categorize meals (breakfast, mediterranean, vegetarian, snacks, smoothies, desserts, etc.). This is preserved when exporting to Paprika or Norish format.
+
+### Limitations
+
+This collection draws from multiple sources, each of which has its own editorial style and policies. Some are very rigrous and predictable and use a relatively limited set of ingredients. Others (think of a site like Serious Eats) are so haphazardly written, measured, and annotated that it's a wonder anyone is ever able to reproduce them. Recipes like that also make shopping a nightmare because of highly variable ingredient names and an extremely annoying habit of inserting instructions into the ingredient itself (e.g. "potatoes, peeled and diced" is not an ingredient, it is an ingredient and two prep instructions). I have done my best to deal with the inconsistencies inherent in internet recipes, but this is a work in progress.
+
+### Nutrition sources
+
+I obtained item sizes/weights, and nutritional info from a wide variety of openly available global sources, including but not limited to:
+
+* [OpenFoodFacts](https://world.openfoodfacts.org/)
+* [OpenNutrition](https://www.opennutrition.app/search)
+* [FDA Food Data Central](https://fdc.nal.usda.gov/)
+* [Canadian Nutrient File](https://construction.hres.ca/)
+* [CoFID](https://www.gov.uk/government/publications/composition-of-foods-integrated-dataset-cofid)
+* [CIQUAL/ANSES](https://ciqual.anses.fr/)
+* [FRIDA](https://fcdb.fooddata.dk/search)
+* [NEVO 2025](https://www.rivm.nl/en/dutch-food-composition-database/use-of-nevo-online/request-dataset)
+* [MEXT](https://fooddb.mext.go.jp/)
+* [AFCD](https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd)
+* [IFCT](https://github.com/nodef/ifct2017)
+
+Many thanks to all the people who did the research to populate those databases and to the government agencies who make these data public.
