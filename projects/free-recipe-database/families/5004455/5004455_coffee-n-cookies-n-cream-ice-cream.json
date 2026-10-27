@@ -54,8 +54,9 @@
     },
     {
       "ingredient_id": 1938,
-      "name": "Tahitian vanilla bean, split and scraped",
-      "quantity": "1"
+      "name": "Tahitian vanilla bean",
+      "quantity": "1",
+      "prep": "split and scraped"
     },
     {
       "ingredient_id": 3641,
@@ -89,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split and scrape the Tahitian vanilla bean.",
+      "secondary_message": "1 Tahitian vanilla bean"
+    },
     {
       "id": 1,
       "primary_message": "Bring cream and milk to a simmer in a heavy saucepan. Stir in vanilla bean, cover, and let steep for 30 minutes. Remove vanilla pod and reserve for another use.",

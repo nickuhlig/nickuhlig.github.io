@@ -72,11 +72,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, melted",
-      "quantity": "2 tbsp"
+      "name": "butter",
+      "quantity": "2 tbsp",
+      "prep": "melted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the butter.",
+      "secondary_message": "2 tbsp butter"
+    },
     {
       "id": 1,
       "primary_message": "Pat chicken dry with paper towels. Sprinkle with salt all over outside and in cavity. Set chicken on a wire rack set in a baking sheet and place in refrigerator overnight.",

@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 1897,
-      "name": "potatoes, peeled and cubed into 1/2 inch cubes",
-      "quantity": "4 medium"
+      "name": "potatoes",
+      "quantity": "4 medium",
+      "prep": "peeled and cubed into 1/2 inch cubes"
     },
     {
       "ingredient_id": 47,
@@ -70,6 +71,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cube the potatoes into 1/2 inch cubes.",
+      "secondary_message": "4 medium potatoes"
+    },
     {
       "id": 1,
       "primary_message": "Bring a 3-quart pan of water to boil. Add potatoes and parboil for 3 to 5 minutes until just tender. Drain potatoes and set aside.",

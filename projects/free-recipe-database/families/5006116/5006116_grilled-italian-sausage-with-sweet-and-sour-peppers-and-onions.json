@@ -59,8 +59,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, sliced into 1/4-inch strips",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "sliced into 1/4-inch strips"
     },
     {
       "ingredient_id": 150,
@@ -99,6 +100,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the onion into 1/4-inch strips.",
+      "secondary_message": "1 large onion"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in a large skillet over medium-high heat until shimmering. Add onions and peppers and cook, stirring frequently, until softened and browned in spots, about 8 minutes. Add vinegar and sugar. Remove from heat and stir until sugar is dissolved. Season to taste with salt and pepper.",

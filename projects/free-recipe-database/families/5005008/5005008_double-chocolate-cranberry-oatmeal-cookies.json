@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, room temperature",
-      "quantity": "10 tbsp"
+      "name": "unsalted butter",
+      "quantity": "10 tbsp",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 346,
@@ -101,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature.",
+      "secondary_message": "10 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Position rack in center of oven and preheat to 350°F. Line 2 large rimmed baking sheets with parchment paper. Whisk flour, baking soda, cinnamon, and salt in medium bowl to blend. Using electric mixer, beat butter and both sugars in large bowl until smooth. Beat in egg and vanilla. Add flour mixture and oats and stir until blended. Stir in all chocolate chips and cranberries.",

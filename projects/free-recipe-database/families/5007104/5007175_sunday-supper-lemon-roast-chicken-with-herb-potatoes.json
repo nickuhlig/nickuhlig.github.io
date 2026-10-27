@@ -41,18 +41,21 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, crushed",
-      "quantity": "8 medium cloves"
+      "name": "garlic",
+      "quantity": "8 medium cloves",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, halved",
-      "quantity": "3 medium"
+      "name": "onions",
+      "quantity": "3 medium",
+      "prep": "halved"
     },
     {
       "ingredient_id": 192,
-      "name": "lemons, halved",
-      "quantity": "2"
+      "name": "lemons",
+      "quantity": "2",
+      "prep": "halved"
     },
     {
       "ingredient_id": 1897,
@@ -81,6 +84,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Crush the garlic. Halve the onions. Halve the lemons.",
+      "secondary_message": "8 medium cloves garlic\n3 medium onions\n2 lemons"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 425°. Rinse chicken well and pat dry, remove bag of giblets and discard or save for another use. Trim excess fat from opening of chicken cavity if necessary.",

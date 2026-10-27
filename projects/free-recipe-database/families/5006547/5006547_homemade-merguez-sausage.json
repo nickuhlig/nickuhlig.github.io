@@ -86,8 +86,9 @@
     },
     {
       "ingredient_id": 2503,
-      "name": "lamb fat, cut into 3/4-inch cubes",
-      "quantity": "1 lb"
+      "name": "lamb fat",
+      "quantity": "1 lb",
+      "prep": "cut into 3/4-inch cubes"
     },
     {
       "ingredient_id": 1191,
@@ -111,6 +112,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the lamb fat into 3/4-inch cubes.",
+      "secondary_message": "1 lb lamb fat"
+    },
     {
       "id": 1,
       "primary_message": "Place cumin, coriander, and fennel seeds in a cast iron skillet over medium heat and toast until fragrant, about 2 minutes. Transfer to a spice grinder and grind into a fine powder. Transfer spice mixture to a small bowl and mix in paprika, salt, and cayenne.",

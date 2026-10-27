@@ -40,8 +40,9 @@
     },
     {
       "ingredient_id": 1975,
-      "name": "full rack St. Louis-style spareribs, cut into individual ribs",
-      "quantity": "1"
+      "name": "full rack St. Louis-style spareribs",
+      "quantity": "1",
+      "prep": "cut into individual ribs"
     },
     {
       "ingredient_id": 400,
@@ -65,6 +66,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the full rack St. Louis-style spareribs into individual ribs.",
+      "secondary_message": "1 full rack St. Louis-style spareribs"
+    },
     {
       "id": 1,
       "primary_message": "Sprinkle five-spice powder evenly over ribs and rub until thoroughly coated. Set ribs aside.",

@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 359,
@@ -76,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic.",
+      "secondary_message": "4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Place egg yolk, garlic, water, and lemon juice in the bottom of an immersion blender cup. Pour oil on top and allow to settle for 15 seconds. Place head of immersion blender at bottom of cup and switch it on. As mayonnaise forms, slowly tilt and lift the head of the immersion blender until all oil is emulsified. (For food processor instructions, see note).",

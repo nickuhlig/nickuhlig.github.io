@@ -63,18 +63,21 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onions, finely chopped",
-      "quantity": "3 medium"
+      "name": "yellow onions",
+      "quantity": "3 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1541,
-      "name": "plum tomato, seeded and diced",
-      "quantity": "1 medium"
+      "name": "plum tomato",
+      "quantity": "1 medium",
+      "prep": "seeded and diced"
     },
     {
       "ingredient_id": 1039,
-      "name": "russet potato, cut into 1/2-inch pieces",
-      "quantity": "1 medium"
+      "name": "russet potato",
+      "quantity": "1 medium",
+      "prep": "cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 116,
@@ -148,6 +151,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the yellow onions. Seed and dice the plum tomato. Cut the russet potato into 1/2-inch pieces.",
+      "secondary_message": "3 medium yellow onions\n1 medium plum tomato\n1 medium russet potato"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 190°C (375°F).",

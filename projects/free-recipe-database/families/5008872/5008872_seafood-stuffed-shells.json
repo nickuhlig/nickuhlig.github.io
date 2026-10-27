@@ -63,13 +63,15 @@
     },
     {
       "ingredient_id": 2494,
-      "name": "lump crabmeat, picked over for shells",
-      "quantity": "1 lb"
+      "name": "lump crabmeat",
+      "quantity": "1 lb",
+      "prep": "picked over for shells"
     },
     {
       "ingredient_id": 326,
-      "name": "dry-packed sea scallops, cut into small pieces",
-      "quantity": "8 oz"
+      "name": "dry-packed sea scallops",
+      "quantity": "8 oz",
+      "prep": "cut into small pieces"
     },
     {
       "ingredient_id": 117,
@@ -88,8 +90,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, minced",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 106,
@@ -128,6 +131,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the lump crabmeat over for shells. Cut the dry-packed sea scallops into small pieces. Mince the shallot.",
+      "secondary_message": "1 lb lump crabmeat\n8 oz dry-packed sea scallops\n1 medium shallot"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 325°F and set rack to middle position. In a large pot of salted boiling water, cook shells according to package instructions for baked shells. (Many packages of jumbo shells will give a specific boiling time for dishes that are to be subsequently baked; if yours does not, cook shells for 3 minutes less than the package's recommended cooking time.) Using a spider, slotted spoon, or mesh strainer, carefully transfer shells to a large bowl of cold water until cooled slightly, then drain. (Reserve pasta-cooking water for next step.) Drizzle shells very lightly with oil and toss to coat. Set aside.",

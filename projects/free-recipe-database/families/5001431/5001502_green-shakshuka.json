@@ -87,8 +87,9 @@
     },
     {
       "ingredient_id": 2021,
-      "name": "serrano chile, stemmed, seeded , and chopped",
-      "quantity": "1 (9 cm)"
+      "name": "serrano chile",
+      "quantity": "1 (9 cm)",
+      "prep": "stemmed, seeded, and chopped"
     },
     {
       "ingredient_id": 47,
@@ -97,8 +98,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely chopped",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 186,
@@ -157,6 +159,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem, seed, and chop the serrano chile. Finely chop the garlic.",
+      "secondary_message": "1 (9 cm) serrano chile\n3 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "In an 8-quart or larger pot or Dutch oven, bring water, baking soda, and 2 tablespoons salt to a boil over medium-high heat. Place a large bowl of ice water next to stovetop.",

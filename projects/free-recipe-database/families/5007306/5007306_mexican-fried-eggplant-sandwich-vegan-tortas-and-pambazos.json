@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 18,
-      "name": "eggplant, cut into 1/2-inch planks",
-      "quantity": "1 medium"
+      "name": "eggplant",
+      "quantity": "1 medium",
+      "prep": "cut into 1/2-inch planks"
     },
     {
       "ingredient_id": 88,
@@ -71,8 +72,9 @@
     },
     {
       "ingredient_id": 1618,
-      "name": "chipotle chilis, canned in adobo sauce, finely chopped",
-      "quantity": "2 tbsp"
+      "name": "chipotle chilis, canned in adobo sauce",
+      "quantity": "2 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2251,
@@ -101,8 +103,9 @@
     },
     {
       "ingredient_id": 183,
-      "name": "avocado, sliced",
-      "quantity": "1"
+      "name": "avocado",
+      "quantity": "1",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 1353,
@@ -111,6 +114,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the eggplant into 1/2-inch planks. Finely chop the chipotle chilis. Slice the avocado.",
+      "secondary_message": "1 medium eggplant\n2 tbsp chipotle chilis, canned in adobo sauce\n1 avocado"
+    },
     {
       "id": 1,
       "primary_message": "Place poblano peppers directly over flame of a gas burner and cook, turning occasionally, until blackened on all sides, about 10 minutes. Alternatively, broil as close as you can get to broiler element, turning occasionally, until blackened on all sides, about 10 minutes. Transfer to a bowl, cover tightly in plastic wrap, and set aside.",

@@ -50,8 +50,9 @@
   "ingredients": [
     {
       "ingredient_id": 121,
-      "name": "eggs, separated",
-      "quantity": "8 large"
+      "name": "eggs",
+      "quantity": "8 large",
+      "prep": "separated"
     },
     {
       "ingredient_id": 1707,
@@ -80,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Separate the eggs.",
+      "secondary_message": "8 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Place egg whites in the bowl of a stand mixer and whisk on low speed until frothy, about 30 seconds. Increase speed to medium-high and, watching carefully, beat until they are about the consistency of shaving cream, about 90 seconds. Reduce speed to medium. With mixer running, add half of maple syrup and beat until incorporated, about 30 seconds. Transfer whites to a large bowl. Do not wash bowl.",

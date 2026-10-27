@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "1 (227 g) (226 g) pkg"
+      "name": "cream cheese",
+      "quantity": "1 (227 g) (226 g) pkg",
+      "prep": "softened"
     },
     {
       "ingredient_id": 122,
@@ -86,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the cream cheese.",
+      "secondary_message": "1 (227 g) (226 g) pkg cream cheese"
+    },
     {
       "id": 1,
       "primary_message": "In a medium skillet, toast almonds over medium heat, stirring often, until aromatic and just starting to brown, 3 to 5 minutes. Transfer to a bowl and set aside.",

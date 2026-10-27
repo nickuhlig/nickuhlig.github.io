@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 247,
-      "name": "red anjou pears, cored and sliced thin",
-      "quantity": "2"
+      "name": "red anjou pears",
+      "quantity": "2",
+      "prep": "cored and sliced thin"
     },
     {
       "ingredient_id": 359,
@@ -80,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Core and slice the red anjou pears thin.",
+      "secondary_message": "2 red anjou pears"
+    },
     {
       "id": 1,
       "primary_message": "For the Pear Syrup: Combine pear and water in a pot, bring to a boil and cook until pears have softened and turned slightly translucent, about 6 minutes. Reduce heat to a simmer. Add brown sugar and let simmer 30 minutes. Stir in lemon zest. Let cool 10 minutes, then strain. Syrup can be kept in a sealed container in the refrigerator up to 5 days.",

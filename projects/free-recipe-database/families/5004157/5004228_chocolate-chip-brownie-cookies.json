@@ -48,13 +48,15 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "70% bittersweet chocolate, finely chopped",
-      "quantity": "142 g"
+      "name": "70% bittersweet chocolate",
+      "quantity": "142 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1017,
-      "name": "unsweetened chocolate, finely chopped",
-      "quantity": "28 g"
+      "name": "unsweetened chocolate",
+      "quantity": "28 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 121,
@@ -93,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the 70% bittersweet chocolate. Finely chop the unsweetened chocolate.",
+      "secondary_message": "142 g 70% bittersweet chocolate\n28 g unsweetened chocolate"
+    },
     {
       "id": 1,
       "primary_message": "In heatproof bowl, melt butter, 70% chocolate, and unsweetened chocolate in the microwave or over a pan of barely simmering water until just-melted and smooth. Let cool slightly.",

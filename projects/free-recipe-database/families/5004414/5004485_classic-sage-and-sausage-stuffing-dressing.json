@@ -54,8 +54,9 @@
   "ingredients": [
     {
       "ingredient_id": 1216,
-      "name": "high-quality sandwich bread, cut into 3/4-inch dice",
-      "quantity": "1.25 kg"
+      "name": "high-quality sandwich bread",
+      "quantity": "1.25 kg",
+      "prep": "cut into 3/4-inch dice"
     },
     {
       "ingredient_id": 115,
@@ -64,23 +65,27 @@
     },
     {
       "ingredient_id": 2728,
-      "name": "sage sausage, removed from casing",
-      "quantity": "0.68 kg"
+      "name": "sage sausage",
+      "quantity": "0.68 kg",
+      "prep": "removed from casing"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, finely chopped",
-      "quantity": "4 large ribs"
+      "name": "celery",
+      "quantity": "4 large ribs",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced or grated on a Microplane grater",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "minced or grated on a Microplane grater"
     },
     {
       "ingredient_id": 2015,
@@ -114,6 +119,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the high-quality sandwich bread into 3/4-inch dice. Remove the sage sausage from casing. Finely chop the onion. Finely chop the celery. Mince or grate the garlic on a Microplane grater.",
+      "secondary_message": "1.25 kg high-quality sandwich bread\n0.68 kg sage sausage\n1 large onion\n4 large ribs celery\n2 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven racks to lower-middle and upper-middle positions. Preheat oven to 135°C (275°F). Spread bread evenly over 2 rimmed baking sheets. Stagger trays on oven racks and bake until completely dried, about 50 minutes total, rotating trays and stirring bread cubes several times during baking. Remove from oven and allow to cool. Increase oven temperature to 180°C (350°F).",

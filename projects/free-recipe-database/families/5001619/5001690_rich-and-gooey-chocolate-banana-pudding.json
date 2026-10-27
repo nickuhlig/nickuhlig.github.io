@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 3641,
-      "name": "egg yolks, cold",
-      "quantity": "8 large"
+      "name": "egg yolks",
+      "quantity": "8 large",
+      "prep": "cold"
     },
     {
       "ingredient_id": 264,
@@ -65,13 +66,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 1-inch cubes",
-      "quantity": "57 g"
+      "name": "unsalted butter",
+      "quantity": "57 g",
+      "prep": "cut into 1-inch cubes"
     },
     {
       "ingredient_id": 1730,
-      "name": "crème fraîche, at room temperature",
-      "quantity": "227 g"
+      "name": "crème fraîche",
+      "quantity": "227 g",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 353,
@@ -85,8 +88,9 @@
     },
     {
       "ingredient_id": 317,
-      "name": "ripe bananas, sliced into 1/2-inch rounds",
-      "quantity": "7 medium"
+      "name": "ripe bananas",
+      "quantity": "7 medium",
+      "prep": "sliced into 1/2-inch rounds"
     },
     {
       "ingredient_id": 1710,
@@ -95,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the egg yolks cold until you use them. Cut the unsalted butter into 1-inch cubes. Bring the crème fraîche to room temperature. Slice the ripe bananas into 1/2-inch rounds.",
+      "secondary_message": "8 large egg yolks\n57 g unsalted butter\n227 g crème fraîche\n7 medium ripe bananas"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, set up an ice bath by partially filling it with a combination of cold water and ice. Set aside.",

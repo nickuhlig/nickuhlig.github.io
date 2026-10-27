@@ -67,13 +67,15 @@
   "ingredients": [
     {
       "ingredient_id": 1915,
-      "name": "Old-fashioned flaky pie dough, prepared as for a blind baked pie",
-      "quantity": ""
+      "name": "Old-fashioned flaky pie dough",
+      "quantity": "",
+      "prep": "prepared as for a blind baked pie"
     },
     {
       "ingredient_id": 1729,
-      "name": "72% dark chocolate, roughly chopped",
-      "quantity": "113 g"
+      "name": "72% dark chocolate",
+      "quantity": "113 g",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 353,
@@ -122,6 +124,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Prepare the Old-fashioned flaky pie dough as for a blind baked pie. Roughly chop the 72% dark chocolate.",
+      "secondary_message": "Old-fashioned flaky pie dough\n113 g 72% dark chocolate"
+    },
     {
       "id": 1,
       "primary_message": "For the Filling: Place chopped chocolate in a medium bowl, add vanilla, and suspend a large, single-mesh sieve over the top. Whisk sugar, salt, espresso powder, cocoa powder, and cornstarch together in a 3-quart stainless steel saucier. Add egg yolks and roughly 1/2 cup of the milk and whisk until smooth before adding the rest of the milk. Cook over medium-low, stirring gently with a whisk until hot to the touch; about 6 minutes.",

@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 2572,
-      "name": "kabocha squash, quartered, seeds discarded",
-      "quantity": "1 small"
+      "name": "kabocha squash",
+      "quantity": "1 small",
+      "prep": "quartered, seeds discarded"
     },
     {
       "ingredient_id": 47,
@@ -131,6 +132,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Quarter the kabocha squash, then discard the seeds.",
+      "secondary_message": "1 small kabocha squash"
+    },
     {
       "id": 1,
       "primary_message": "Place each ball of pizza dough in a lightly oiled bowl and cover tightly with plastic wrap. Set aside.",

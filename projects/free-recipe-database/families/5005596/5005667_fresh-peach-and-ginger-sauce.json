@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 293,
@@ -86,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the garlic.",
+      "secondary_message": "1 medium clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "Bring a medium saucepan filled with water to a boil over high heat. Blanch peaches in boiling water for 1 minute. Remove, let sit until cool enough to handle, then peel, pit, and roughly chop the peach flesh. Discard peels and pits.",

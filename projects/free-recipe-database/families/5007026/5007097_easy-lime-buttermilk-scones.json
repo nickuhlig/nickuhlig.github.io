@@ -62,8 +62,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into cubes",
-      "quantity": "9 tbsp (4 ½ oz)"
+      "name": "cold unsalted butter",
+      "quantity": "9 tbsp (4 ½ oz)",
+      "prep": "cut into cubes"
     },
     {
       "ingredient_id": 2346,
@@ -82,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cold unsalted butter into cubes.",
+      "secondary_message": "9 tbsp (4 ½ oz) cold unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 190°C (375°F). Line baking sheet with parchment paper. Place flour, sugar, baking powder, salt, baking soda, and butter in large bowl. Using a pastry cutter, cut butter into flour until much of the butter is the size of very small peas.",

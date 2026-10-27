@@ -33,13 +33,15 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, 1 minced",
-      "quantity": "5 cloves"
+      "name": "garlic",
+      "quantity": "5 cloves",
+      "prep": "1 minced"
     },
     {
       "ingredient_id": 221,
@@ -63,18 +65,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, quartered",
-      "quantity": "1"
+      "name": "onion",
+      "quantity": "1",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 1799,
-      "name": "serrano chiles, seeded and thinly sliced",
-      "quantity": "2"
+      "name": "serrano chiles",
+      "quantity": "2",
+      "prep": "seeded and thinly sliced"
     },
     {
       "ingredient_id": 228,
-      "name": "lime, quartered",
-      "quantity": "1"
+      "name": "lime",
+      "quantity": "1",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 1231,
@@ -88,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter. Mince the 1 of the garlic. Quarter the onion. Seed and thinly slice the serrano chiles. Quarter the lime.",
+      "secondary_message": "2 tbsp unsalted butter\n5 cloves garlic\n1 onion\n2 serrano chiles\n1 lime"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 220°C (425°F). Set rack in the lower third of the oven. In a small bowl, mix together the butter, minced garlic, and grated ginger.",

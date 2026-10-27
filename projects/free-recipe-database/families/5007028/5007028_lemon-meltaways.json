@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into 1/4-inch dice",
-      "quantity": "4 oz"
+      "name": "cold unsalted butter",
+      "quantity": "4 oz",
+      "prep": "cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 347,
@@ -76,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cold unsalted butter into 1/4-inch dice.",
+      "secondary_message": "4 oz cold unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "To Make the Dough: In the bowl of a food processor, combine flour, tapioca starch, powdered sugar, lemon zest, and salt. Cover with a sheet of plastic wrap to contain the fine dust, close lid, and process until zest disappears. Add butter and lemon oil, if using, and pulse to form a smooth dough. With flour-dusted hands, roll dough into a 10-inch log about 1 inch thick. Wrap tightly in plastic and refrigerate until cold, about 4 hours or up to 1 week.",

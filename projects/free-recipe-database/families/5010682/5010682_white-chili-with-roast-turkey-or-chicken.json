@@ -43,18 +43,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, minced",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "minced"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño peppers, minced",
-      "quantity": "2"
+      "name": "jalapeño peppers",
+      "quantity": "2",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2066,
-      "name": "poblano peppers, finely diced",
-      "quantity": "2"
+      "name": "poblano peppers",
+      "quantity": "2",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 2393,
@@ -63,8 +66,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 186,
@@ -93,8 +97,9 @@
     },
     {
       "ingredient_id": 1740,
-      "name": "leftover turkey meat, torn into rough bite-sized pieces",
-      "quantity": "2 lb"
+      "name": "leftover turkey meat",
+      "quantity": "2 lb",
+      "prep": "torn into rough bite-sized pieces"
     },
     {
       "ingredient_id": 1421,
@@ -113,6 +118,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the onion. Mince the jalapeño peppers. Finely dice the poblano peppers. Mince the garlic. Tear the leftover turkey meat into rough bite-sized pieces.",
+      "secondary_message": "1 large onion\n2 jalapeño peppers\n2 poblano peppers\n4 medium cloves garlic\n2 lb leftover turkey meat"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in a large Dutch oven or saucepan over medium-high heat until shimmering. Add onions, jalapeño, and poblano peppers and cook, stirring frequently, until pale golden brown, about 12 minutes total. Add chopped Hatch or canned chiles, garlic, cumin, and coriander, and cook, stirring frequently, until fragrant, about 2 minutes. Add stock, beans and their liquid, half of cilantro, and turkey. Stir to combine.",

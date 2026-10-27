@@ -45,8 +45,9 @@
   "ingredients": [
     {
       "ingredient_id": 3352,
-      "name": "whole dried Kashmiri chiles, stemmed",
-      "quantity": "10"
+      "name": "whole dried Kashmiri chiles",
+      "quantity": "10",
+      "prep": "stemmed"
     },
     {
       "ingredient_id": 3644,
@@ -90,29 +91,34 @@
     },
     {
       "ingredient_id": 144,
-      "name": "Asian shallots, peeled and roughly chopped",
-      "quantity": "10 to 12 small"
+      "name": "Asian shallots",
+      "quantity": "10 to 12 small",
+      "prep": "peeled and roughly chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and smashed",
-      "quantity": "5 medium cloves"
+      "name": "garlic",
+      "quantity": "5 medium cloves",
+      "prep": "peeled and smashed"
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, peeled and thinly sliced",
+      "name": "fresh ginger",
       "quantity": "3 (1 inch) pieces",
-      "weigh_as": "30 g"
+      "weigh_as": "30 g",
+      "prep": "peeled and thinly sliced"
     },
     {
       "ingredient_id": 1815,
-      "name": "fresh galangal, peeled and thinly sliced",
-      "quantity": "30 g"
+      "name": "fresh galangal",
+      "quantity": "30 g",
+      "prep": "peeled and thinly sliced"
     },
     {
       "ingredient_id": 3547,
-      "name": "fresh turmeric, peeled and thinly sliced",
-      "quantity": "1 (2 ½ cm) piece"
+      "name": "fresh turmeric",
+      "quantity": "1 (2 ½ cm) piece",
+      "prep": "peeled and thinly sliced"
     },
     {
       "ingredient_id": 2088,
@@ -131,8 +137,9 @@
     },
     {
       "ingredient_id": 1816,
-      "name": "lemongrass, pale white parts only, thinly sliced",
-      "quantity": "4 stalks"
+      "name": "lemongrass, pale white parts only",
+      "quantity": "4 stalks",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1682,
@@ -181,18 +188,21 @@
     },
     {
       "ingredient_id": 3245,
-      "name": "soy puffs, halved",
-      "quantity": "12"
+      "name": "soy puffs",
+      "quantity": "12",
+      "prep": "halved"
     },
     {
       "ingredient_id": 1761,
-      "name": "bean sprouts, blanched",
-      "quantity": "99 g"
+      "name": "bean sprouts",
+      "quantity": "99 g",
+      "prep": "blanched"
     },
     {
       "ingredient_id": 2814,
-      "name": "long beans, blanched",
-      "quantity": "155 g"
+      "name": "long beans",
+      "quantity": "155 g",
+      "prep": "blanched"
     },
     {
       "ingredient_id": 1811,
@@ -206,8 +216,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "boiled eggs, peeled and halved",
-      "quantity": "2 large"
+      "name": "boiled eggs",
+      "quantity": "2 large",
+      "prep": "peeled and halved"
     },
     {
       "ingredient_id": 155,
@@ -216,13 +227,15 @@
     },
     {
       "ingredient_id": 2313,
-      "name": "Vietnamese mint leaves, thinly sliced",
-      "quantity": ""
+      "name": "Vietnamese mint leaves",
+      "quantity": "",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2169,
-      "name": "calamansi limes, halved crosswise",
-      "quantity": "4"
+      "name": "calamansi limes",
+      "quantity": "4",
+      "prep": "halved crosswise"
     },
     {
       "ingredient_id": 1977,
@@ -231,6 +244,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem the whole dried Kashmiri chiles. Peel and roughly chop the Asian shallots. Peel and smash the garlic. Peel and thinly slice the fresh ginger. Peel and thinly slice the fresh galangal. Peel and thinly slice the fresh turmeric. Thinly slice the lemongrass. Halve the soy puffs. Blanch the bean sprouts. Blanch the long beans. Peel and halve the boiled eggs. Thinly slice the Vietnamese mint leaves. Halve the calamansi limes crosswise.",
+      "secondary_message": "10 whole dried Kashmiri chiles\n10 to 12 small Asian shallots\n5 medium cloves garlic\n3 (1 inch) pieces fresh ginger\n30 g fresh galangal\n1 (2 ½ cm) piece fresh turmeric\n4 stalks lemongrass, pale white parts only\n12 soy puffs\n99 g bean sprouts\n155 g long beans\n2 large boiled eggs\nVietnamese mint leaves\n4 calamansi limes"
+    },
     {
       "id": 1,
       "primary_message": "For the Spice Paste: Using scissors or kitchen shears, cut dried chiles diagonally into 0.5-cm strips. Using your hands, massage strips gently to release as many seeds as possible into a bowl.",

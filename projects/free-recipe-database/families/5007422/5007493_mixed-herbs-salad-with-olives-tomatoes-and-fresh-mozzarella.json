@@ -44,8 +44,9 @@
   "ingredients": [
     {
       "ingredient_id": 277,
-      "name": "grape tomatoes, halved",
-      "quantity": "1 cup"
+      "name": "grape tomatoes",
+      "quantity": "1 cup",
+      "prep": "halved"
     },
     {
       "ingredient_id": 88,
@@ -69,8 +70,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested",
-      "quantity": "½"
+      "name": "lemon",
+      "quantity": "½",
+      "prep": "zested"
     },
     {
       "ingredient_id": 117,
@@ -129,6 +131,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the grape tomatoes. Zest the lemon.",
+      "secondary_message": "1 cup grape tomatoes\n½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "In a mixing bowl, season tomatoes with 1/4 teaspoon salt and toss to coat. Transfer tomatoes to a fine-mesh strainer and set over bowl. Set aside to drain for 20 minutes.",

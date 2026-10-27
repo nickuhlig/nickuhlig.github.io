@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 1618,
-      "name": "chipotle chilis, canned in adobo sauce, finely chopped",
-      "quantity": "1"
+      "name": "chipotle chilis, canned in adobo sauce",
+      "quantity": "1",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2747,
@@ -96,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the chipotle chilis.",
+      "secondary_message": "1 chipotle chilis, canned in adobo sauce"
+    },
     {
       "id": 1,
       "primary_message": "Light one chimney full of charcoal. When all the charcoal is lit and covered with gray ash, pour out and spread the coals evenly over half of coal grate. Alternatively, set half the burners of a gas grill to high heat. Set cooking grate in place, cover grill and allow to preheat for 5 minutes. Clean and oil the grilling grate.",

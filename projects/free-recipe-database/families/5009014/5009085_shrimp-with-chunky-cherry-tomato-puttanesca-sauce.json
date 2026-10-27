@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, sliced or chopped",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "sliced or chopped"
     },
     {
       "ingredient_id": 2805,
@@ -51,13 +52,15 @@
     },
     {
       "ingredient_id": 15,
-      "name": "capers, drained and rinsed",
-      "quantity": "1 tbsp"
+      "name": "capers",
+      "quantity": "1 tbsp",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 2012,
-      "name": "pitted Kalamata olives, halved",
-      "quantity": "35"
+      "name": "pitted Kalamata olives",
+      "quantity": "35",
+      "prep": "halved"
     },
     {
       "ingredient_id": 2111,
@@ -96,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice or chop the garlic. Drain and rinse the capers. Halve the pitted Kalamata olives.",
+      "secondary_message": "3 medium cloves garlic\n1 tbsp capers\n35 pitted Kalamata olives"
+    },
     {
       "id": 1,
       "primary_message": "Heat the olive oil in a large skillet over medium heat until shimmering. Add the garlic and chilies and cook, stirring frequently, until fragrant, about 1 minute. Add the capers, olives, and anchovy paste, and stir around to combine. Add the tomatoes, toss to combine, cover, and cook, shaking occasionally, until tomatoes are cooked through and softened, about 10 minutes. Use a potato masher to roughly mash tomatoes. Add the shrimp, season to taste with salt and pepper, and cook just until opaque, 2 to 3 minutes (do not overcook). Add oregano and lemon zest and toss to combine. Serve as-is, or on top of cooked pasta.",

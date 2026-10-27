@@ -81,11 +81,18 @@
     },
     {
       "ingredient_id": 3312,
-      "name": "raclette cheese, cubed",
-      "quantity": "225 g"
+      "name": "raclette cheese",
+      "quantity": "225 g",
+      "prep": "cubed"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cube the raclette cheese.",
+      "secondary_message": "225 g raclette cheese"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 190°C (375°F). Using a fork or paring knife, puncture potatoes in several spots. Rub each potato with a light coat of oil. Arrange on a rack set on a baking sheet, or directly on an oven rack, and bake until just tender, 30 to 45 minutes. Alternatively, microwave pricked and oiled potatoes until just tender, about 5 minutes.",

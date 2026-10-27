@@ -63,8 +63,9 @@
   "ingredients": [
     {
       "ingredient_id": 1990,
-      "name": "dried kombu, cut into eight 3- by 5-inch pieces",
-      "quantity": "2 oz"
+      "name": "dried kombu",
+      "quantity": "2 oz",
+      "prep": "cut into eight 3- by 5-inch pieces"
     },
     {
       "ingredient_id": 1998,
@@ -73,13 +74,15 @@
     },
     {
       "ingredient_id": 56,
-      "name": "extra-firm tofu, cut into 1/2-inch wide strips",
-      "quantity": "7 oz"
+      "name": "extra-firm tofu",
+      "quantity": "7 oz",
+      "prep": "cut into 1/2-inch wide strips"
     },
     {
       "ingredient_id": 121,
-      "name": "hard boiled eggs, peeled",
-      "quantity": "5"
+      "name": "hard boiled eggs",
+      "quantity": "5",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 53,
@@ -103,8 +106,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and smashed",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "peeled and smashed"
     },
     {
       "ingredient_id": 153,
@@ -113,8 +117,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, unpeeled and sliced",
-      "quantity": "2 (1 inch) pieces"
+      "name": "fresh ginger",
+      "quantity": "2 (1 inch) pieces",
+      "prep": "unpeeled and sliced"
     },
     {
       "ingredient_id": 1084,
@@ -143,6 +148,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the dried kombu into eight 3- by 5-inch pieces. Cut the extra-firm tofu into 1/2-inch wide strips. Peel the hard boiled eggs. Peel and smash the garlic. Leave unpeeled and slice the fresh ginger.",
+      "secondary_message": "2 oz dried kombu\n7 oz extra-firm tofu\n5 hard boiled eggs\n4 medium cloves garlic\n2 (1 inch) pieces fresh ginger"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, cover dried kombu with water, and soak until pliable, about 30 minutes. Lift kombu out of the bowl; reserve liquid for another use. (See notes below for suggestions on using the reserved liquid.) If rehydrated kombu pieces are more than 12 inches long, cut each in half cross-wise. Lay kombu pieces on cutting board, roll each piece tightly, and pierce a toothpick through each roll to secure; set aside.",

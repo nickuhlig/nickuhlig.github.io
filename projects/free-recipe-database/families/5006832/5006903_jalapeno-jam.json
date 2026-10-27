@@ -36,14 +36,16 @@
   "ingredients": [
     {
       "ingredient_id": 151,
-      "name": "jalapeño peppers, stemmed",
-      "quantity": "0.34 kg"
+      "name": "jalapeño peppers",
+      "quantity": "0.34 kg",
+      "prep": "stemmed"
     },
     {
       "ingredient_id": 291,
-      "name": "green bell peppers, stemmed, seeded, and roughly chopped",
+      "name": "green bell peppers",
       "quantity": "3",
-      "weigh_as": "0.45 kg"
+      "weigh_as": "0.45 kg",
+      "prep": "stemmed, seeded, and roughly chopped"
     },
     {
       "ingredient_id": 346,
@@ -72,6 +74,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem the jalapeño peppers. Stem, seed, and roughly chop the green bell peppers.",
+      "secondary_message": "0.34 kg jalapeño peppers\n3 green bell peppers"
+    },
     {
       "id": 1,
       "primary_message": "Place jalapeño and green bell peppers in the workbowl of a food processor fitted with a steel blade. Pulse until peppers are finely chopped, scraping down sides of bowl as needed. Transfer peppers to a large saucepan or dutch oven.",

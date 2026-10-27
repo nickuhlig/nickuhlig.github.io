@@ -52,8 +52,9 @@
   "ingredients": [
     {
       "ingredient_id": 1012,
-      "name": "baguettes, thinly sliced",
-      "quantity": "2"
+      "name": "baguettes",
+      "quantity": "2",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 47,
@@ -62,13 +63,15 @@
     },
     {
       "ingredient_id": 449,
-      "name": "frozen chopped spinach, thawed with the liquid pressed out",
-      "quantity": "1 lb"
+      "name": "frozen chopped spinach",
+      "quantity": "1 lb",
+      "prep": "thawed with the liquid pressed out"
     },
     {
       "ingredient_id": 2778,
-      "name": "artichoke hearts, drained and finely chopped",
-      "quantity": "1 (14 oz) can"
+      "name": "artichoke hearts",
+      "quantity": "1 (14 oz) can",
+      "prep": "drained and finely chopped"
     },
     {
       "ingredient_id": 1008,
@@ -77,13 +80,15 @@
     },
     {
       "ingredient_id": 1538,
-      "name": "garlic and herb Boursin, room temperature",
-      "quantity": "5 ½ oz"
+      "name": "garlic and herb Boursin",
+      "quantity": "5 ½ oz",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, room temperature",
-      "quantity": "8 oz"
+      "name": "cream cheese",
+      "quantity": "8 oz",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 2017,
@@ -102,6 +107,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the baguettes. Thaw the frozen chopped spinach with the liquid pressed out. Drain and finely chop the artichoke hearts. Bring the garlic and herb Boursin to room temperature. Bring the cream cheese to room temperature.",
+      "secondary_message": "2 baguettes\n1 lb frozen chopped spinach\n1 (14 oz) can artichoke hearts\n5 ½ oz garlic and herb Boursin\n8 oz cream cheese"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350°F. Arrange baguette slices in an even layer on a baking sheet (you will need at least two baking sheets). Drizzle very lightly with olive oil, and toast until crisp and golden around the edges, about 10 to 12 minutes. Repeat with any remaining baguette slices.",

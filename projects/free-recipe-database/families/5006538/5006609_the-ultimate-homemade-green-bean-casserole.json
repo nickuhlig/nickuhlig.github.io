@@ -81,8 +81,9 @@
     },
     {
       "ingredient_id": 19,
-      "name": "white button mushrooms, rinsed and spun dry in a salad spinner",
-      "quantity": "0.68 kg"
+      "name": "white button mushrooms",
+      "quantity": "0.68 kg",
+      "prep": "rinsed and spun dry in a salad spinner"
     },
     {
       "ingredient_id": 53,
@@ -126,11 +127,18 @@
     },
     {
       "ingredient_id": 111,
-      "name": "green beans, ends trimmed, cut into 2-inch segments",
-      "quantity": "0.9 kg"
+      "name": "green beans",
+      "quantity": "0.9 kg",
+      "prep": "ends trimmed, cut into 2-inch segments"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse and spin the white button mushrooms dry in a salad spinner. Trim the ends of the green beans, then cut them into 2-inch segments.",
+      "secondary_message": "0.68 kg white button mushrooms\n0.9 kg green beans"
+    },
     {
       "id": 1,
       "primary_message": "Combine shallots and oil in a wok or medium nonstick saucepan. Shallots should barely stick out above level of oil. Place over high heat and cook, stirring frequently, until shallots are completely soft, about 12 minutes.",

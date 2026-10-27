@@ -56,13 +56,15 @@
   "ingredients": [
     {
       "ingredient_id": 2982,
-      "name": "washed, quartered strawberries",
-      "quantity": "3 cups"
+      "name": "washed",
+      "quantity": "3 cups",
+      "prep": "quartered strawberries"
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested, removed with a vegetable peeler",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "zested, removed with a vegetable peeler"
     },
     {
       "ingredient_id": 346,
@@ -81,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Quarter the washed strawberries. Zest and remove the lemon with a vegetable peeler.",
+      "secondary_message": "3 cups washed\n1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "Combine berries, lemon zest, sugar, and salt in a heavy saucepan over medium heat. Cook, stirring occasionally, until juices leave the berries and begin to simmer, about 4 minutes, then reduce heat to low. Continue to cook, stirring occasionally, until juices thicken slightly and berries are very tender, about 7 minutes.",

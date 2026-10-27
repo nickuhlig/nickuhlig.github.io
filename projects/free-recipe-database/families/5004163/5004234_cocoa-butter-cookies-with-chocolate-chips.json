@@ -98,13 +98,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, soft but cool, about 60°F",
-      "quantity": "113 g"
+      "name": "unsalted butter",
+      "quantity": "113 g",
+      "prep": "soft but cool, about 60°F"
     },
     {
       "ingredient_id": 121,
-      "name": "egg, straight from the fridge",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "straight from the fridge"
     },
     {
       "ingredient_id": 353,
@@ -123,6 +125,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Let the unsalted butter soften slightly but keep it cool and bring it to 60°F. Keep the egg cold until you use it.",
+      "secondary_message": "113 g unsalted butter\n1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "In a 1-quart stainless steel saucier, melt cocoa butter over medium-low heat, stirring frequently with a flexible spatula to speed the process along. When cocoa butter is fully melted, pour into the bowl of a stand mixer and cool to approximately 32°C (90°F). Meanwhile, adjust oven rack to middle position and preheat oven to 180°C (350°F).",

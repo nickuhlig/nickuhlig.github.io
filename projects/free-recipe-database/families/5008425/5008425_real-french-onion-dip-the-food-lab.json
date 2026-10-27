@@ -44,8 +44,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onions, finely diced",
-      "quantity": "3 large"
+      "name": "yellow onions",
+      "quantity": "3 large",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 115,
@@ -99,6 +100,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the yellow onions.",
+      "secondary_message": "3 large yellow onions"
+    },
     {
       "id": 1,
       "primary_message": "Heat sugar in a 12-inch stainless-steel skillet over medium-high heat until completely melted and light brown, about 3 minutes. Immediately add onions and stir with wooden spoon to coat onions in sugar. Add butter, salt, and black pepper. Stir to combine. Cook, shaking pan occasionally until onions release all their liquid and brown coating builds up on bottom of pan, 6 to 8 minutes.",

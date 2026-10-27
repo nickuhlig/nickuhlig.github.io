@@ -29,8 +29,9 @@
   "ingredients": [
     {
       "ingredient_id": 2507,
-      "name": "skin-on boned-out pork brisket, to be rolled and tied up",
-      "quantity": "4 lb"
+      "name": "skin-on boned-out pork brisket",
+      "quantity": "4 lb",
+      "prep": "to be rolled and tied up"
     },
     {
       "ingredient_id": 88,
@@ -74,16 +75,24 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, juiced",
-      "quantity": "½"
+      "name": "lemon",
+      "quantity": "½",
+      "prep": "juiced"
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "zested"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roll and tie up the to be of the skin-on boned-out pork brisket. Juice the lemon. Zest the lemon.",
+      "secondary_message": "4 lb skin-on boned-out pork brisket\n½ lemon\n1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "Rub salt, pepper, and herbs all over meat. Depending on the size of your roast, you will need about 1 1/2 to 2 teaspoons of salt and pepper, each. Roll and tie up roast into a cylinder. The roast will benefit from being salted and kept in the refrigerator overnight, or you can proceed with the recipe immediately.",

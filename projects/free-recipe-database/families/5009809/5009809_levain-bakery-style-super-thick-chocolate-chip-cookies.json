@@ -53,8 +53,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted American butter, softened to about 65°F",
-      "quantity": "4 oz"
+      "name": "unsalted American butter",
+      "quantity": "4 oz",
+      "prep": "softened to about 65°F"
     },
     {
       "ingredient_id": 293,
@@ -93,8 +94,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, straight from the fridge",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "straight from the fridge"
     },
     {
       "ingredient_id": 116,
@@ -113,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted American butter to about 65°F. Keep the eggs cold until you use them.",
+      "secondary_message": "4 oz unsalted American butter\n2 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "To Prepare the Dough: Combine butter, light brown sugar, white sugar, vanilla extract, salt, baking powder, baking soda, and nutmeg in the bowl of a stand mixer fitted with a paddle attachment.",

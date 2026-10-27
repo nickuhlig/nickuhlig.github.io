@@ -62,18 +62,21 @@
     },
     {
       "ingredient_id": 118,
-      "name": "whole milk, room temperature",
-      "quantity": "⅔ cup"
+      "name": "whole milk",
+      "quantity": "⅔ cup",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 121,
-      "name": "egg, room temperature",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 353,
@@ -87,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the whole milk to room temperature. Bring the egg to room temperature. Melt the unsalted butter.",
+      "secondary_message": "⅔ cup whole milk\n1 large egg\n2 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, whisk flour, sugar, baking powder, and salt until combined. In a medium bowl, whisk milk, egg, butter, and vanilla until well combined. Pour egg mixture into flour mixture and stir gently until just combined (batter should remain lumpy with a few streaks of flour). Let batter sit for 10 to 15 minutes before cooking.",

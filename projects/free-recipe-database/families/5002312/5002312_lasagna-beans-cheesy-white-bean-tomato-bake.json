@@ -43,13 +43,15 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, chopped",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely chopped",
-      "quantity": "6 medium cloves"
+      "name": "garlic",
+      "quantity": "6 medium cloves",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 323,
@@ -73,8 +75,9 @@
     },
     {
       "ingredient_id": 1388,
-      "name": "butterbeans, drained and rinsed",
-      "quantity": "2 (16 oz) cans"
+      "name": "butterbeans",
+      "quantity": "2 (16 oz) cans",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 88,
@@ -98,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the yellow onion. Finely chop the garlic. Drain and rinse the butterbeans.",
+      "secondary_message": "1 medium yellow onion\n6 medium cloves garlic\n2 (16 oz) cans butterbeans"
+    },
     {
       "id": 1,
       "primary_message": "In a large broiler-safe skillet, heat oil over medium-high heat until shimmering. Add sausage, if using, and cook, stirring often with a wooden spoon to break into small chunks, until browned, 5 to 7 minutes. Transfer to a bowl using a slotted spoon; leave drippings in skillet. (If not using sausage, proceed directly to Step 2.)",

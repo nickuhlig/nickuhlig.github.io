@@ -39,8 +39,9 @@
   "ingredients": [
     {
       "ingredient_id": 2879,
-      "name": "cracked freekeh, picked over and rinsed",
-      "quantity": "1 cup"
+      "name": "cracked freekeh",
+      "quantity": "1 cup",
+      "prep": "picked over and rinsed"
     },
     {
       "ingredient_id": 1267,
@@ -49,8 +50,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, cut into 1/2-inch thick pieces",
-      "quantity": "½ medium"
+      "name": "yellow onion",
+      "quantity": "½ medium",
+      "prep": "cut into 1/2-inch thick pieces"
     },
     {
       "ingredient_id": 74,
@@ -84,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the cracked freekeh over, then rinse it. Cut the yellow onion into 1/2-inch thick pieces.",
+      "secondary_message": "1 cup cracked freekeh\n½ medium yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, cover freekeh with at least 1 inch of room temperature water and let sit at room temperature for 30 minutes. Use a fine-mesh strainer to drain well.",

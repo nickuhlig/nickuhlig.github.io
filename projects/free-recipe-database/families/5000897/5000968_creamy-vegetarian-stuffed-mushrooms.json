@@ -48,14 +48,16 @@
   "ingredients": [
     {
       "ingredient_id": 230,
-      "name": "cremini mushrooms, cleaned and stemmed, stems reserved",
+      "name": "cremini mushrooms",
       "quantity": "0.34 kg",
-      "weigh_as": "12 large"
+      "weigh_as": "12 large",
+      "prep": "cleaned and stemmed, stems reserved"
     },
     {
       "ingredient_id": 162,
-      "name": "julienned sun-dried tomatoes packed in oil, drained and finely chopped",
-      "quantity": "¼ cup"
+      "name": "julienned sun-dried tomatoes packed in oil",
+      "quantity": "¼ cup",
+      "prep": "drained and finely chopped"
     },
     {
       "ingredient_id": 47,
@@ -69,13 +71,15 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, at room temperature",
-      "quantity": "3 tbsp"
+      "name": "cream cheese",
+      "quantity": "3 tbsp",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 120,
-      "name": "Parmigiano-Reggiano, finely grated",
-      "quantity": "¼ cup"
+      "name": "Parmigiano-Reggiano",
+      "quantity": "¼ cup",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 1684,
@@ -99,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Clean and stem the cremini mushrooms, then reserve the stems. Drain and finely chop the julienned sun-dried tomatoes packed in oil. Bring the cream cheese to room temperature. Finely grate the Parmigiano-Reggiano.",
+      "secondary_message": "0.34 kg cremini mushrooms\n¼ cup julienned sun-dried tomatoes packed in oil\n3 tbsp cream cheese\n¼ cup Parmigiano-Reggiano"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 220°C (425°F) (220ºC). Finely chop reserved mushroom stems; set aside. In a 25-cm cast iron skillet, heat 1 tablespoon sun-dried tomato oil over medium heat until just shimmering, about 3 minutes. Add mushroom stems and salt; cook, stirring, frequently, until mushroom stems are browned, about 3 minutes. Transfer mushroom stems to a medium bowl; let cool for 5 minutes. Wipe skillet clean.",

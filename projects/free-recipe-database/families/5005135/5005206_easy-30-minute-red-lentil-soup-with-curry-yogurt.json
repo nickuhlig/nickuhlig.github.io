@@ -52,33 +52,39 @@
   "ingredients": [
     {
       "ingredient_id": 159,
-      "name": "carrot, peeled and roughly chopped",
-      "quantity": "1 small"
+      "name": "carrot",
+      "quantity": "1 small",
+      "prep": "peeled and roughly chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, roughly chopped",
-      "quantity": "1 stalk"
+      "name": "celery",
+      "quantity": "1 stalk",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, white parts only, roughly chopped",
-      "quantity": "6"
+      "name": "scallions, white parts only",
+      "quantity": "6",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, split in half",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "split in half"
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, peeled and roughly chopped",
-      "quantity": "1 (2 ½ cm) knob"
+      "name": "ginger",
+      "quantity": "1 (2 ½ cm) knob",
+      "prep": "peeled and roughly chopped"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño chile, roughly chopped",
-      "quantity": "1"
+      "name": "jalapeño chile",
+      "quantity": "1",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 47,
@@ -132,6 +138,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and roughly chop the carrot. Roughly chop the celery. Roughly chop the scallions. Split the garlic in half. Peel and roughly chop the ginger. Roughly chop the jalapeño chile.",
+      "secondary_message": "1 small carrot\n1 stalk celery\n6 scallions, white parts only\n2 cloves garlic\n1 (2 ½ cm) knob ginger\n1 jalapeño chile"
+    },
     {
       "id": 1,
       "primary_message": "Combine carrots, celery, scallions, garlic, ginger, and chile in the bowl of a food processor. Pulse until very finely chopped, about 15 short pulses, scraping down bowl as necessary.",

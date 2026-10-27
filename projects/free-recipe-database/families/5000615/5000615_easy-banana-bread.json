@@ -75,8 +75,9 @@
     },
     {
       "ingredient_id": 317,
-      "name": "very ripe bananas, peeled",
-      "quantity": "6"
+      "name": "very ripe bananas",
+      "quantity": "6",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 115,
@@ -90,8 +91,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, lightly beaten",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 353,
@@ -100,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the very ripe bananas. Lightly beat the eggs.",
+      "secondary_message": "6 very ripe bananas\n2 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and heat oven to 350℉(175℃). Spray bottom and sides of a 9-by-5-­inch metal loaf pan with vegetable oil spray.",

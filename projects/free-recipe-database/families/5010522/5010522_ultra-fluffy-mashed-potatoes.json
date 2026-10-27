@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, room temperature, cut into 1/2-inch pats",
-      "quantity": "6 tbsp"
+      "name": "unsalted butter",
+      "quantity": "6 tbsp",
+      "prep": "room temperature, cut into 1/2-inch pats"
     },
     {
       "ingredient_id": 72,
@@ -66,6 +67,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into 1/2-inch pats and bring it to room temperature.",
+      "secondary_message": "6 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Peel potatoes and cut into 1- or 2-inch cubes. Transfer to a pot of cold water and rinse, changing water 2 or 3 times until it runs clear. Cover potatoes with fresh cold water and season generously with salt.",

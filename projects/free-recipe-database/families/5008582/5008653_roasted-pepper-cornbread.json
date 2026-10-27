@@ -115,11 +115,18 @@
     },
     {
       "ingredient_id": 303,
-      "name": "frozen corn kernels, thawed",
-      "quantity": "1 cup"
+      "name": "frozen corn kernels",
+      "quantity": "1 cup",
+      "prep": "thawed"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thaw the frozen corn kernels.",
+      "secondary_message": "1 cup frozen corn kernels"
+    },
     {
       "id": 1,
       "primary_message": "Place a 25-cm cast iron skillet on the middle rack of oven and preheat to 220°C (425°F). Roast red bell pepper and poblano over an open flame on a gas stove or grill until skins are completely charred. Place in a bowl, cover with plastic wrap, and let sit until cooled, 5 to 10 minutes. Peel off charred skins; remove stems and seeds. Finely chop flesh of peppers.",

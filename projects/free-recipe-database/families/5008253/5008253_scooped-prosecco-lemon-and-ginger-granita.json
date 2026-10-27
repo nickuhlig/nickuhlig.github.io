@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "zested"
     },
     {
       "ingredient_id": 1480,
@@ -70,6 +71,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the lemon.",
+      "secondary_message": "1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "In a small saucepan, heat water, sugar, ginger, and salt on low heat for five minutes, stirring to dissolve sugar. Remove from heat and pour into a wide, flat container like a take-out container or a baking dish. Stir in prosecco, lemon zest, and lemon juice.",

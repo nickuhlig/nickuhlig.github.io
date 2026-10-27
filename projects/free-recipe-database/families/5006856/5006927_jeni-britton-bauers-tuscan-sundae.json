@@ -72,8 +72,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "43 g"
+      "name": "cream cheese",
+      "quantity": "43 g",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1508,
@@ -142,8 +143,9 @@
     },
     {
       "ingredient_id": 2216,
-      "name": "fresh black cherries, pitted, or frozen black cherries",
-      "quantity": "0.45 kg"
+      "name": "fresh black cherries, or frozen black cherries",
+      "quantity": "0.45 kg",
+      "prep": "pitted"
     },
     {
       "ingredient_id": 346,
@@ -157,6 +159,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the cream cheese. Pit the fresh black cherries.",
+      "secondary_message": "43 g cream cheese\n0.45 kg fresh black cherries, or frozen black cherries"
+    },
     {
       "id": 1,
       "primary_message": "Make Ice Cream: Mix about 2 tablespoons of the milk with the cornstarch in a small bowl to make a smooth slurry. Whisk the cream cheese and salt in a medium bowl until smooth. Mix the cream with the corn syrup in a measuring cup with a spout. Fill a large bowl with ice and water.",

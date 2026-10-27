@@ -42,8 +42,9 @@
     },
     {
       "ingredient_id": 228,
-      "name": "lime, halved",
-      "quantity": "1"
+      "name": "lime",
+      "quantity": "1",
+      "prep": "halved"
     },
     {
       "ingredient_id": 88,
@@ -62,13 +63,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1993,
-      "name": "Scotch bonnet pepper, stemmed, seeded, and minced",
-      "quantity": "1 small"
+      "name": "Scotch bonnet pepper",
+      "quantity": "1 small",
+      "prep": "stemmed, seeded, and minced"
     },
     {
       "ingredient_id": 73,
@@ -107,8 +110,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, diced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1994,
@@ -137,6 +141,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the lime. Mince the garlic. Stem, seed, and mince the Scotch bonnet pepper. Dice the yellow onion.",
+      "secondary_message": "1 lime\n3 medium cloves garlic\n1 small Scotch bonnet pepper\n1 medium yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "For the Marinated Chicken: Rub chicken all over with lime (or lemon), then season all over with salt and pepper.",

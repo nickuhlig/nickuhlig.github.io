@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced or grated",
-      "quantity": "1 small clove"
+      "name": "garlic",
+      "quantity": "1 small clove",
+      "prep": "minced or grated"
     },
     {
       "ingredient_id": 2346,
@@ -70,8 +71,9 @@
     },
     {
       "ingredient_id": 428,
-      "name": "broccoli florets, cut into 1 1/2 to 2-inch pieces",
-      "quantity": "0.45 kg"
+      "name": "broccoli florets",
+      "quantity": "0.45 kg",
+      "prep": "cut into 1 1/2 to 2-inch pieces"
     },
     {
       "ingredient_id": 47,
@@ -100,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince or grate the garlic. Cut the broccoli florets into 1 1/2 to 2-inch pieces.",
+      "secondary_message": "1 small clove garlic\n0.45 kg broccoli florets"
+    },
     {
       "id": 1,
       "primary_message": "For the Caesar breadcrumbs: In a small nonstick skillet, melt butter over medium-low heat. Stir in anchovy paste and garlic and cook until fragrant, about 1 minute. Add breadcrumbs and, using a flexible spatula, toss to coat. Cook, stirring constantly until breadcrumbs are golden brown, about 3 minutes. Off heat, stir in the lemon zest and season with salt to taste. Transfer to a bowl and let cool completely.",

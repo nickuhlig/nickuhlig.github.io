@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "6 tbsp"
+      "name": "unsalted butter",
+      "quantity": "6 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 1065,
@@ -65,6 +66,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter.",
+      "secondary_message": "6 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 375°F. Line a baking sheet with parchment paper. Combine fruit and 1 tablespoon sugar in a medium bowl; set aside.",

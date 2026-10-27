@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 1681,
-      "name": "whole chicken wings, cut at joints into drumettes and flats",
-      "quantity": "0.9 kg"
+      "name": "whole chicken wings",
+      "quantity": "0.9 kg",
+      "prep": "cut at joints into drumettes and flats"
     },
     {
       "ingredient_id": 331,
@@ -56,8 +57,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "¼ cup"
+      "name": "unsalted butter",
+      "quantity": "¼ cup",
+      "prep": "melted"
     },
     {
       "ingredient_id": 448,
@@ -66,6 +68,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the whole chicken wings at joints into drumettes and flats. Melt the unsalted butter.",
+      "secondary_message": "0.9 kg whole chicken wings\n¼ cup unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Preheat air fryer to 205°C (400°F) for 5 minutes. Pat chicken wings dry with paper towels. In a large bowl, toss wings with baking powder and salt until evenly coated (see notes).",

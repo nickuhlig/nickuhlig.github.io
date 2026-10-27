@@ -35,38 +35,45 @@
   "ingredients": [
     {
       "ingredient_id": 3654,
-      "name": "oregano, finely chopped",
-      "quantity": "2 sprigs"
+      "name": "oregano",
+      "quantity": "2 sprigs",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1994,
-      "name": "thyme, finely chopped",
-      "quantity": "3 sprigs"
+      "name": "thyme",
+      "quantity": "3 sprigs",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2221,
-      "name": "tarragon, finely chopped",
-      "quantity": "1 sprig"
+      "name": "tarragon",
+      "quantity": "1 sprig",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 188,
-      "name": "cilantro, finely chopped",
-      "quantity": "5 sprigs"
+      "name": "cilantro",
+      "quantity": "5 sprigs",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1808,
-      "name": "parsley, finely chopped",
-      "quantity": "3 sprigs"
+      "name": "parsley",
+      "quantity": "3 sprigs",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely chopped",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1762,
-      "name": "whole Thai chile, finely chopped",
-      "quantity": "1"
+      "name": "whole Thai chile",
+      "quantity": "1",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 47,
@@ -75,8 +82,9 @@
     },
     {
       "ingredient_id": 228,
-      "name": "lime, juiced",
-      "quantity": "1"
+      "name": "lime",
+      "quantity": "1",
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -95,8 +103,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "8"
+      "name": "eggs",
+      "quantity": "8",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 115,
@@ -115,6 +124,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the oregano. Finely chop the thyme. Finely chop the tarragon. Finely chop the cilantro. Finely chop the parsley. Finely chop the garlic. Finely chop the whole Thai chile. Juice the lime. Beat the eggs.",
+      "secondary_message": "2 sprigs oregano\n3 sprigs thyme\n1 sprig tarragon\n5 sprigs cilantro\n3 sprigs parsley\n2 cloves garlic\n1 whole Thai chile\n1 lime\n8 eggs"
+    },
     {
       "id": 1,
       "primary_message": "For the Steak: In a large bowl, mix together oregano, thyme, tarragon, cilantro, parsley, garlic, chile, olive oil, and lime juice until all ingredients are evenly incorporated, then season to taste with salt and pepper. Or, combine all ingredients in a food processor and pulse until an even paste is formed.",

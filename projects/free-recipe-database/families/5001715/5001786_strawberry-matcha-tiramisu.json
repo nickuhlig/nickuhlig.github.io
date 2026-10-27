@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 242,
-      "name": "fresh strawberries, hulled and quartered",
-      "quantity": "0.45 kg"
+      "name": "fresh strawberries",
+      "quantity": "0.45 kg",
+      "prep": "hulled and quartered"
     },
     {
       "ingredient_id": 346,
@@ -75,8 +76,9 @@
     },
     {
       "ingredient_id": 316,
-      "name": "heavy whipping cream, chilled",
-      "quantity": "1 cup"
+      "name": "heavy whipping cream",
+      "quantity": "1 cup",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 1442,
@@ -100,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Hull and quarter the fresh strawberries. Keep the heavy whipping cream cold until you use it.",
+      "secondary_message": "0.45 kg fresh strawberries\n1 cup heavy whipping cream"
+    },
     {
       "id": 1,
       "primary_message": "In a medium saucepan, combine strawberries, sugar, and lemon juice. Bring to a simmer over medium heat and cook, stirring occasionally, until strawberries are soft and mixture has thickened, 15 to 20 minutes. Remove from heat and stir in St. Germain, if using. Transfer to a shallow dish and allow to cool to room temperature, about 20 minutes.",

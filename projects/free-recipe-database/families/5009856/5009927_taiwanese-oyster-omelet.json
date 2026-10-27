@@ -118,16 +118,24 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallion, chopped",
-      "quantity": "1"
+      "name": "scallion",
+      "quantity": "1",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery leaves, roughly torn or chopped",
-      "quantity": "¼ cup"
+      "name": "celery leaves",
+      "quantity": "¼ cup",
+      "prep": "roughly torn or chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the scallion. Roughly tear or chop the celery leaves.",
+      "secondary_message": "1 scallion\n¼ cup celery leaves"
+    },
     {
       "id": 1,
       "primary_message": "For the Sauce: Combine ketchup, vinegar, sugar, soy sauce, and miso paste in a small saucepan over medium-low heat. Cook, stirring, until sugar dissolves, about 2 minutes. In a separate bowl, whisk together cornstarch with 1/2 cup cold or room-temperature water. Whisk cornstarch mixture into ketchup mixture and cook, stirring, until bubbling and thickened, about 1 minute. Remove from heat and set aside.",

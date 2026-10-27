@@ -49,8 +49,9 @@
   "ingredients": [
     {
       "ingredient_id": 3617,
-      "name": "Bones from breaking down 2 to 3 ducks, cut into 3- to 4-inch pieces",
-      "quantity": ""
+      "name": "Bones from breaking down 2 to 3 ducks",
+      "quantity": "",
+      "prep": "cut into 3- to 4-inch pieces"
     },
     {
       "ingredient_id": 1044,
@@ -59,19 +60,22 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, cut into 2-inch pieces",
+      "name": "yellow onion",
       "quantity": "2 ½ medium",
-      "weigh_as": "255 g"
+      "weigh_as": "255 g",
+      "prep": "cut into 2-inch pieces"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and cut into 2-inch pieces",
-      "quantity": "2"
+      "name": "carrots",
+      "quantity": "2",
+      "prep": "peeled and cut into 2-inch pieces"
     },
     {
       "ingredient_id": 1720,
-      "name": "celery ribs, cut into 2-inch pieces",
-      "quantity": "2"
+      "name": "celery ribs",
+      "quantity": "2",
+      "prep": "cut into 2-inch pieces"
     },
     {
       "ingredient_id": 323,
@@ -100,6 +104,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the Bones from breaking down 2 to 3 ducks into 3- to 4-inch pieces. Cut the yellow onion into 2-inch pieces. Peel and cut the carrots into 2-inch pieces. Cut the celery ribs into 2-inch pieces.",
+      "secondary_message": "Bones from breaking down 2 to 3 ducks\n2 ½ medium yellow onion\n2 carrots\n2 celery ribs"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 200°C (400°F) with rack set in middle position. In a large bowl, toss duck parts with oil until lightly coated on all sides. Then arrange in an even layer on a rimmed baking sheet or in a roasting pan; don't clean out bowl. Roast, turning bones once or twice, until beginning to turn golden brown, about 30 minutes.",

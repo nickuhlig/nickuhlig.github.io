@@ -47,21 +47,24 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onions, diced",
+      "name": "yellow onions",
       "quantity": "6 medium",
-      "weigh_as": "1 ½ lb"
+      "weigh_as": "1 ½ lb",
+      "prep": "diced"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, diced",
+      "name": "carrots",
       "quantity": "6 medium",
-      "weigh_as": "12 oz"
+      "weigh_as": "12 oz",
+      "prep": "diced"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, diced",
+      "name": "celery",
       "quantity": "6 sticks",
-      "weigh_as": "8 oz"
+      "weigh_as": "8 oz",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
@@ -80,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the yellow onions. Dice the carrots. Dice the celery.",
+      "secondary_message": "6 medium yellow onions\n6 medium carrots\n6 sticks celery"
+    },
     {
       "id": 1,
       "primary_message": "Combine all ingredients in a stovetop or electric pressure cooker and cover with cold water, about 2 quarts. Make sure not to let liquid exceed the cooker's max-fill line; it's okay if a few things poke above the water's surface.",

@@ -86,8 +86,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "12 tbsp"
+      "name": "unsalted butter",
+      "quantity": "12 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 354,
@@ -101,13 +102,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into small pieces",
-      "quantity": "6 tbsp"
+      "name": "unsalted butter",
+      "quantity": "6 tbsp",
+      "prep": "cut into small pieces"
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -161,8 +164,9 @@
     },
     {
       "ingredient_id": 1752,
-      "name": "heavy cream, chilled",
-      "quantity": "3 ½ cups"
+      "name": "heavy cream",
+      "quantity": "3 ½ cups",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 1710,
@@ -176,6 +180,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Cut the unsalted butter into small pieces. Bring the eggs to room temperature. Keep the heavy cream cold until you use it.",
+      "secondary_message": "12 tbsp unsalted butter\n6 tbsp unsalted butter\n3 large eggs\n3 ½ cups heavy cream"
+    },
     {
       "id": 1,
       "primary_message": "For the Cookie Crust: Adjust oven rack to upper-middle position and preheat oven to 175°C (350°F). Lightly coat a 9- by 33-cm metal baking pan with cooking spray. Line bottom and sides of pan with parchment paper, leaving a 5-cm overhang on both long sides; lightly coat parchment with cooking spray.",

@@ -48,8 +48,9 @@
     },
     {
       "ingredient_id": 470,
-      "name": "fennel bulb, trimmed and thinly sliced",
-      "quantity": "1"
+      "name": "fennel bulb",
+      "quantity": "1",
+      "prep": "trimmed and thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -68,9 +69,10 @@
     },
     {
       "ingredient_id": 26,
-      "name": "asparagus, trimmed and cut into 1 1/2–inch lengths",
+      "name": "asparagus",
       "quantity": "2 bunches",
-      "weigh_as": "0.9 kg"
+      "weigh_as": "0.9 kg",
+      "prep": "trimmed and cut into 1 1/2–inch lengths"
     },
     {
       "ingredient_id": 2221,
@@ -89,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim and thinly slice the fennel bulb. Trim and cut the asparagus into 1 1/2–inch lengths.",
+      "secondary_message": "1 fennel bulb\n2 bunches asparagus"
+    },
     {
       "id": 1,
       "primary_message": "Heat olive oil in a large saucepan over medium-low heat until shimmering. Add leek and fennel and a large pinch of salt. Cook, stirring frequently, until fully softened but not browned, about 5 minutes. Add flour and cook, stirring, until incorporated, about 30 seconds. Stir in stock and bring to a simmer.",

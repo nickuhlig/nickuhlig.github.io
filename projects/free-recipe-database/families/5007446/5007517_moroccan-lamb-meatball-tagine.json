@@ -48,8 +48,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely minced , and 4 shallots, sliced",
-      "quantity": "1"
+      "name": "shallot, and 4 shallots",
+      "quantity": "1",
+      "prep": "finely minced, sliced"
     },
     {
       "ingredient_id": 243,
@@ -58,13 +59,15 @@
     },
     {
       "ingredient_id": 243,
-      "name": "mint leaves, roughly chopped",
-      "quantity": "10"
+      "name": "mint leaves",
+      "quantity": "10",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 188,
-      "name": "chopped fresh cilantro, plus 1/4 cup, roughly chopped",
-      "quantity": "2 tbsp"
+      "name": "chopped fresh cilantro, plus 1/4 cup",
+      "quantity": "2 tbsp",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 2702,
@@ -103,13 +106,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, chopped",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, peeled and thinly sliced on a bias",
-      "quantity": "1 medium"
+      "name": "carrot",
+      "quantity": "1 medium",
+      "prep": "peeled and thinly sliced on a bias"
     },
     {
       "ingredient_id": 323,
@@ -118,8 +123,9 @@
     },
     {
       "ingredient_id": 260,
-      "name": "whole tomatoes, drained",
-      "quantity": "1 (794 g) can"
+      "name": "whole tomatoes",
+      "quantity": "1 (794 g) can",
+      "prep": "drained"
     },
     {
       "ingredient_id": 2695,
@@ -133,6 +139,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the shallot. Slice the shallot. Roughly chop the mint leaves. Roughly chop the chopped fresh cilantro. Chop the garlic. Peel and thinly slice the carrot on a bias. Drain the whole tomatoes.",
+      "secondary_message": "1 shallot, and 4 shallots\n10 mint leaves\n2 tbsp chopped fresh cilantro, plus 1/4 cup\n2 medium cloves garlic\n1 medium carrot\n1 (794 g) can whole tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 175°C (350°F). In a large bowl, stir together the breadcrumbs and milk until the milk is absorbed into the bread. Add the egg. Add 1 shallot, finely minced, 1 tablespoon chopped mint, 2 tablespoons chopped cilantro, 1 1/2 teaspoons ras el hanout, the piment d’Espelette, and season with salt and pepper. Stir together until combined. Add the lamb, and gently toss together until evenly mixed. Divide the mixture into 8 meatballs. Place the meatballs on a plate with the flour, and dust on all sides. Reserve the excess flour.",

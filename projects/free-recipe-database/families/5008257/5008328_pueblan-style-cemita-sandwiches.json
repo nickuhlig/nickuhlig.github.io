@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 3005,
-      "name": "beef cutlets, very thinly pounded",
-      "quantity": "0.68 kg"
+      "name": "beef cutlets",
+      "quantity": "0.68 kg",
+      "prep": "very thinly pounded"
     },
     {
       "ingredient_id": 118,
@@ -76,13 +77,15 @@
     },
     {
       "ingredient_id": 183,
-      "name": "ripe Hass avocados, halved, pitted, and sliced",
-      "quantity": "2 medium"
+      "name": "ripe Hass avocados",
+      "quantity": "2 medium",
+      "prep": "halved, pitted, and sliced"
     },
     {
       "ingredient_id": 2378,
-      "name": "cemita buns, halved",
-      "quantity": "4"
+      "name": "cemita buns",
+      "quantity": "4",
+      "prep": "halved"
     },
     {
       "ingredient_id": 2036,
@@ -111,6 +114,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Very thinly pound the beef cutlets. Halve, pit, and slice the ripe Hass avocados. Halve the cemita buns.",
+      "secondary_message": "0.68 kg beef cutlets\n2 medium ripe Hass avocados\n4 cemita buns"
+    },
     {
       "id": 1,
       "primary_message": "Set wire rack on a sheet pan. Place milk in a shallow dish. Place flour in another shallow dish. Place bread crumbs in third shallow dish. Working one at a time, dip cutlets in milk, then dredge in flour, shaking off excess. Return to milk, then dredge in bread crumbs, pressing to adhere. Place breaded cutlets on a baking sheet.",

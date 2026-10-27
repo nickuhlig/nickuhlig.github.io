@@ -84,13 +84,15 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "68-71% dark chocolate, chopped",
-      "quantity": "1 ¾ oz"
+      "name": "68-71% dark chocolate",
+      "quantity": "1 ¾ oz",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1017,
-      "name": "unsweetened chocolate, chopped",
-      "quantity": "1 ¾ oz"
+      "name": "unsweetened chocolate",
+      "quantity": "1 ¾ oz",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 333,
@@ -124,6 +126,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the 68-71% dark chocolate. Chop the unsweetened chocolate.",
+      "secondary_message": "1 ¾ oz 68-71% dark chocolate\n1 ¾ oz unsweetened chocolate"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 400°F with the convection fan turned off and oven rack in center position. Liberally butter the interiors of eight 4-ounce ramekins, making sure to butter right up to the upper edge of the rim of each ramekin. Sugar the buttered insides evenly, tapping out excess, and set ramekins aside.",

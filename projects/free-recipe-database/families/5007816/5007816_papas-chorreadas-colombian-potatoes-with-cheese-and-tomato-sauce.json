@@ -49,13 +49,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, thinly sliced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1294,
-      "name": "whole peeled tomatoes, drained and cut into 1/4-inch strips",
-      "quantity": "1 (28 oz) can"
+      "name": "whole peeled tomatoes",
+      "quantity": "1 (28 oz) can",
+      "prep": "drained and cut into 1/4-inch strips"
     },
     {
       "ingredient_id": 1752,
@@ -69,6 +71,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the onion. Drain and cut the whole peeled tomatoes into 1/4-inch strips.",
+      "secondary_message": "1 medium onion\n1 (28 oz) can whole peeled tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "Place potatoes in a large pot and cover with cold water by 2 inches. Salt water generously, then place over high heat. Bring to a boil, and cook until potatoes are completely tender, about 20 minutes after boiling is achieved.",

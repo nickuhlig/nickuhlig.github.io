@@ -77,8 +77,9 @@
     },
     {
       "ingredient_id": 1938,
-      "name": "vanilla bean, split and scraped",
-      "quantity": "1"
+      "name": "vanilla bean",
+      "quantity": "1",
+      "prep": "split and scraped"
     },
     {
       "ingredient_id": 2475,
@@ -87,8 +88,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "1 ½ oz"
+      "name": "unsalted butter",
+      "quantity": "1 ½ oz",
+      "prep": "melted"
     },
     {
       "ingredient_id": 3642,
@@ -102,6 +104,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split and scrape the vanilla bean. Melt the unsalted butter.",
+      "secondary_message": "1 vanilla bean\n1 ½ oz unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Batter: In a large bowl, combine flour, powdered sugar, salt, baking soda, baking powder, and scrapings of one large vanilla bean, mixing by hand until the seeds are well dispersed. Add buttermilk, melted butter, egg whites, and vanilla extract and whisk until smooth.",

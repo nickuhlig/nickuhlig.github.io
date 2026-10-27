@@ -71,8 +71,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "1 cup"
+      "name": "unsalted butter",
+      "quantity": "1 cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1710,
@@ -96,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature.",
+      "secondary_message": "1 cup unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 175°C (350°F). Spread almonds on a baking sheet and toast until golden, about 12 minutes. Let cool. Place almonds in a food processor with 1 tablespoon sugar. Pulse until almonds are finely ground. Set aside. Oven can be turned off.",

@@ -92,8 +92,9 @@
     },
     {
       "ingredient_id": 30,
-      "name": "dried cranberries, chopped, plus more for garnish",
-      "quantity": "¼ cup (1 oz)"
+      "name": "dried cranberries, plus more for garnish",
+      "quantity": "¼ cup (1 oz)",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2365,
@@ -107,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the dried cranberries.",
+      "secondary_message": "¼ cup (1 oz) dried cranberries, plus more for garnish"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 425°F. Slice off the top 1/4 inch of the head of garlic, exposing the tops of the cloves. Peel off any excess papery skin but leave the head intact. Drizzle the top of the exposed garlic with 1 tablespoon olive oil and wrap in foil. Place on a large rimmed baking sheet and roast until softened, about 35 minutes.",

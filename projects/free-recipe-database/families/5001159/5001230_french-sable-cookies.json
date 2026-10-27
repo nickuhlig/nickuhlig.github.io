@@ -52,18 +52,21 @@
   "ingredients": [
     {
       "ingredient_id": 116,
-      "name": "all-purpose flour, sifted, plus more for dusting",
-      "quantity": "250 g"
+      "name": "all-purpose flour, plus more for dusting",
+      "quantity": "250 g",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 1710,
-      "name": "confectioners’ sugar, sifted",
-      "quantity": "125 g"
+      "name": "confectioners’ sugar",
+      "quantity": "125 g",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 253,
-      "name": "blanched almond flour, sifted",
-      "quantity": "50 g"
+      "name": "blanched almond flour",
+      "quantity": "50 g",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 88,
@@ -72,8 +75,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cold and cut into 1/2-inch cubes",
-      "quantity": "125 g"
+      "name": "unsalted butter",
+      "quantity": "125 g",
+      "prep": "cold and cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 121,
@@ -82,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Sift the all-purpose flour. Sift the confectioners’ sugar. Sift the blanched almond flour. Cut the unsalted butter into 1/2-inch cubes and keep it cold until you use it.",
+      "secondary_message": "250 g all-purpose flour, plus more for dusting\n125 g confectioners’ sugar\n50 g blanched almond flour\n125 g unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a large mixing bowl, whisk flour, confectioners’ sugar, almond flour, and salt to combine. Add butter to flour mixture and toss with fingers until butter pieces are thoroughly coated with flour mixture. Using your fingertips, pinch and flatten butter, then rub it between your fingertips until a sandy texture forms, 3 to 4 minutes.",

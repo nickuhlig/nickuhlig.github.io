@@ -58,8 +58,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, pliable but cool",
-      "quantity": "113 g"
+      "name": "unsalted butter",
+      "quantity": "113 g",
+      "prep": "pliable but cool"
     },
     {
       "ingredient_id": 1848,
@@ -88,8 +89,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, straight from the fridge",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "straight from the fridge"
     },
     {
       "ingredient_id": 116,
@@ -98,11 +100,18 @@
     },
     {
       "ingredient_id": 1655,
-      "name": "Oreos, chopped and frozen until cold",
-      "quantity": "227 g"
+      "name": "Oreos",
+      "quantity": "227 g",
+      "prep": "chopped and frozen until cold"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Let the unsalted butter soften slightly but keep it cool. Keep the egg cold until you use it. Chop and freeze the Oreos until cold.",
+      "secondary_message": "113 g unsalted butter\n1 large egg\n227 g Oreos"
+    },
     {
       "id": 1,
       "primary_message": "Make the Dough: Adjust oven rack to middle position and preheat to 180°C (350°F). Combine butter, coconut oil, sugar, salt, baking powder, and vanilla in the bowl of a stand mixer fitted with a paddle attachment. Mix on low to moisten, then increase to medium and beat until light and fluffy, about 5 minutes, pausing to scrape bowl with a flexible spatula halfway through. With mixer running, add egg and continue beating until smooth.\nReduce speed to low, add flour, and mix to form a stiff dough, then add frozen cookie pieces and continue mixing until well combined.",

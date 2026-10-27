@@ -37,8 +37,9 @@
   "ingredients": [
     {
       "ingredient_id": 3119,
-      "name": "fresh figs, halved",
-      "quantity": "10"
+      "name": "fresh figs",
+      "quantity": "10",
+      "prep": "halved"
     },
     {
       "ingredient_id": 2721,
@@ -62,8 +63,9 @@
     },
     {
       "ingredient_id": 126,
-      "name": "goat cheese, crumbled",
-      "quantity": "85 g"
+      "name": "goat cheese",
+      "quantity": "85 g",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 103,
@@ -72,6 +74,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the fresh figs. Crumble the goat cheese.",
+      "secondary_message": "10 fresh figs\n85 g goat cheese"
+    },
     {
       "id": 1,
       "primary_message": "Place figs, cut side up, on a plate. Drizzle with Grand Marnier and season heavily with pepper and lightly with salt. Let sit for 15 minutes. Wrap each fig with one strip of pancetta; secure with toothpick.",

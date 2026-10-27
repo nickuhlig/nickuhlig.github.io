@@ -34,23 +34,27 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and cut into 2-inch sticks",
-      "quantity": "7"
+      "name": "carrots",
+      "quantity": "7",
+      "prep": "peeled and cut into 2-inch sticks"
     },
     {
       "ingredient_id": 233,
-      "name": "parsnips, peeled and cut into 2-inch sticks",
-      "quantity": "7"
+      "name": "parsnips",
+      "quantity": "7",
+      "prep": "peeled and cut into 2-inch sticks"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, broken into unpeeled cloves",
-      "quantity": "2 whole heads"
+      "name": "garlic",
+      "quantity": "2 whole heads",
+      "prep": "broken into unpeeled cloves"
     },
     {
       "ingredient_id": 1757,
-      "name": "cloves, minced",
-      "quantity": "3"
+      "name": "cloves",
+      "quantity": "3",
+      "prep": "minced"
     },
     {
       "ingredient_id": 47,
@@ -74,6 +78,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the carrots into 2-inch sticks. Peel and cut the parsnips into 2-inch sticks. Break the garlic into unpeeled cloves. Mince the cloves.",
+      "secondary_message": "7 carrots\n7 parsnips\n2 whole heads garlic\n3 cloves"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 400°F. Line sheet pan with aluminum foil and spread out chicken skin side up, carrots, parsnips, and garlic cloves in single layer. Drizzle everything with olive oil, then sprinkle evenly with salt, pepper, and thyme leaves. Rub chicken pieces with minced garlic.",

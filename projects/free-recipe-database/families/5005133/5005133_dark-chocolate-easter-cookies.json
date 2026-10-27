@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, soft but cool, about 65°F",
-      "quantity": "8 oz"
+      "name": "unsalted butter",
+      "quantity": "8 oz",
+      "prep": "soft but cool, about 65°F"
     },
     {
       "ingredient_id": 346,
@@ -86,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Let the unsalted butter soften slightly but keep it cool and bring it to 65°F.",
+      "secondary_message": "8 oz unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower-middle position and preheat oven to 350°F. Sift flour and cocoa powder together in a medium bowl. Chop candy into roughly 1/4-inch pieces.",

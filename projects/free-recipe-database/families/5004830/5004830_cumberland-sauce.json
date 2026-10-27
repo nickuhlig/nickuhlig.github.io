@@ -46,13 +46,15 @@
   "ingredients": [
     {
       "ingredient_id": 2346,
-      "name": "orange, peel only, finely julienned",
-      "quantity": "1"
+      "name": "orange, peel only",
+      "quantity": "1",
+      "prep": "finely julienned"
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, peel only, finely julienned",
-      "quantity": "1"
+      "name": "lemon, peel only",
+      "quantity": "1",
+      "prep": "finely julienned"
     },
     {
       "ingredient_id": 2594,
@@ -86,6 +88,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely julienne the orange. Finely julienne the lemon.",
+      "secondary_message": "1 orange, peel only\n1 lemon, peel only"
+    },
     {
       "id": 1,
       "primary_message": "Fill a small saucepan with 2 inches of water and bring to a boil over high heat. Place orange and lemon rinds in boiling water and blanch for 5 minutes. Strain rinds from water.",

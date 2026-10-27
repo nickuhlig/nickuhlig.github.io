@@ -103,8 +103,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, separated",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "separated"
     },
     {
       "ingredient_id": 118,
@@ -128,6 +129,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Separate the eggs.",
+      "secondary_message": "3 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Put the walnuts in an even layer on a microwave-safe plate. Microwave the walnuts for 1 minute. Stir the walnuts on the plate and microwave for 1 minute longer. Stir the walnuts again and continue to microwave the walnuts in 1-minute intervals for a total of 5 minutes. Let the walnuts cool on the plate.",

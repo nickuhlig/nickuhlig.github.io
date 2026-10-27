@@ -52,8 +52,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 76,
@@ -107,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the garlic.",
+      "secondary_message": "1 medium clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "Bring 2 cups of water to a boil over high heat. Add bulgur wheat and cook, stirring occasionally, until tender, about 10 to 12 minutes. Drain thoroughly. (Bulgur will absorb much of the water; draining simply gets rid of excess moisture, if any.)",

@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 1072,
-      "name": "peeled Yukon Gold potato, cut into 3/4-inch cubes",
-      "quantity": "5 oz"
+      "name": "peeled Yukon Gold potato",
+      "quantity": "5 oz",
+      "prep": "cut into 3/4-inch cubes"
     },
     {
       "ingredient_id": 111,
@@ -70,6 +71,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the peeled Yukon Gold potato into 3/4-inch cubes.",
+      "secondary_message": "5 oz peeled Yukon Gold potato"
+    },
     {
       "id": 1,
       "primary_message": "In a large pot of salted boiling water, boil pasta, potato, and green beans until pasta is al dente and potato and green beans are very tender. Drain, reserving 1 cup cooking water, and transfer pasta, potato, and green beans to a large mixing or serving bowl.",

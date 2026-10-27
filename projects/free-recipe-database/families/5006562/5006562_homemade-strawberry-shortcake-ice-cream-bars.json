@@ -112,8 +112,9 @@
     },
     {
       "ingredient_id": 2581,
-      "name": "30% white chocolate, such as Green & Black's , finely chopped",
-      "quantity": "8 oz"
+      "name": "30% white chocolate, such as Green & Black's",
+      "quantity": "8 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1848,
@@ -132,6 +133,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the 30% white chocolate.",
+      "secondary_message": "8 oz 30% white chocolate, such as Green & Black's"
+    },
     {
       "id": 1,
       "primary_message": "Getting Ready: Prepare a water bath in a wide pot, with a thick ring of crumpled tinfoil set inside to later prevent the bowl from touching the bottom of the pot or the water itself. Place over high heat until bubbling-hot, then adjust to maintain a gentle simmer.",

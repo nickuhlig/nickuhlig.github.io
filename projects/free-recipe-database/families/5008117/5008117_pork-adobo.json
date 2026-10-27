@@ -63,11 +63,18 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and lightly crushed",
-      "quantity": "8 cloves"
+      "name": "garlic",
+      "quantity": "8 cloves",
+      "prep": "peeled and lightly crushed"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and lightly crush the garlic.",
+      "secondary_message": "8 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in a large straight-sided sauté pan on very high heat until oil begins to smoke. Sear pork in batches, leaving plenty of open space in the pan, until a light crust forms, about 1 to 2 minutes per side.",

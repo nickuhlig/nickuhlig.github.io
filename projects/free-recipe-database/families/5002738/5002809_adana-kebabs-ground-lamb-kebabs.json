@@ -77,8 +77,9 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, thinly sliced",
-      "quantity": "1"
+      "name": "red onion",
+      "quantity": "1",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1779,
@@ -92,8 +93,9 @@
     },
     {
       "ingredient_id": 260,
-      "name": "tomatoes, thinly sliced",
-      "quantity": "2 medium"
+      "name": "tomatoes",
+      "quantity": "2 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1780,
@@ -102,6 +104,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the red onion. Thinly slice the tomatoes.",
+      "secondary_message": "1 red onion\n2 medium tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "For the Kebabs: Combine lamb with 7.5 grams (about 2 teaspoons) kosher salt, 1 teaspoon cumin, 2 teaspoons sumac, and 1 tablespoon pepper flakes. Knead by hand or in a stand mixer fitted with a paddle attachment until mixture turns tacky and starts sticking to the side of the bowl. Add water and continue kneading until incorporated. Place in refrigerator and chill well.",

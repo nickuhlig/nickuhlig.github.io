@@ -36,28 +36,33 @@
   "ingredients": [
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and shredded",
-      "quantity": "4 small"
+      "name": "carrots",
+      "quantity": "4 small",
+      "prep": "peeled and shredded"
     },
     {
       "ingredient_id": 2012,
-      "name": "pitted kalamata olives, finely chopped",
-      "quantity": "½ cup"
+      "name": "pitted kalamata olives",
+      "quantity": "½ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1600,
-      "name": "pitted green olives, finely chopped",
-      "quantity": "½ cup"
+      "name": "pitted green olives",
+      "quantity": "½ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 452,
-      "name": "drained roasted red peppers, finely chopped",
-      "quantity": "¼ cup"
+      "name": "drained roasted red peppers",
+      "quantity": "¼ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated on a microplane grater",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "grated on a microplane grater"
     },
     {
       "ingredient_id": 130,
@@ -101,11 +106,18 @@
     },
     {
       "ingredient_id": 107,
-      "name": "fresh mozzarella, drained and thinly sliced",
-      "quantity": "0.45 kg"
+      "name": "fresh mozzarella",
+      "quantity": "0.45 kg",
+      "prep": "drained and thinly sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and shred the carrots. Finely chop the pitted kalamata olives. Finely chop the pitted green olives. Finely chop the drained roasted red peppers. Grate the garlic on a microplane grater. Drain and thinly slice the fresh mozzarella.",
+      "secondary_message": "4 small carrots\n½ cup pitted kalamata olives\n½ cup pitted green olives\n¼ cup drained roasted red peppers\n1 medium clove garlic\n0.45 kg fresh mozzarella"
+    },
     {
       "id": 1,
       "primary_message": "Combine carrots, olives, peppers, garlic, vinegar, and olive oil in a medium bowl. Season to taste with salt and pepper. Open ciabatti and place cut-side up on a cutting board. Spread 1/3 of mixture evenly over bottom half of each loaf of ciabatta. Divide remaining mixture evenly over top half of each loaf. Arrange mortadella evenly over bottom halves, then layer on finocchiona, capicola, and mozzarella. Drizzle with more olive oil. Close sandwiches, cut as desired, and serve.",

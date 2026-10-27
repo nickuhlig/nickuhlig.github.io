@@ -64,8 +64,9 @@
     },
     {
       "ingredient_id": 1483,
-      "name": "freshly ground beef, formed gently into 4 patties",
-      "quantity": "1 ¼ lb"
+      "name": "freshly ground beef",
+      "quantity": "1 ¼ lb",
+      "prep": "formed gently into 4 patties"
     },
     {
       "ingredient_id": 72,
@@ -94,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Form the freshly ground beef gently into 4 patties.",
+      "secondary_message": "1 ¼ lb freshly ground beef"
+    },
     {
       "id": 1,
       "primary_message": "Rinse cut potatoes in a bowl of cold water, changing water as necessary until water runs clear. Drain carefully and dry on paper towels.",

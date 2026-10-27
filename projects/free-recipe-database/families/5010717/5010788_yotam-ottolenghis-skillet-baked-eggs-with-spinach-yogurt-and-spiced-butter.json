@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic clove, minced or pressed through a garlic press",
-      "quantity": "1 medium"
+      "name": "garlic clove",
+      "quantity": "1 medium",
+      "prep": "minced or pressed through a garlic press"
     },
     {
       "ingredient_id": 88,
@@ -61,13 +62,15 @@
     },
     {
       "ingredient_id": 309,
-      "name": "leek, chopped",
-      "quantity": "1 large"
+      "name": "leek",
+      "quantity": "1 large",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, chopped",
-      "quantity": "4"
+      "name": "scallions",
+      "quantity": "4",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1879,
@@ -96,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince or press the garlic clove through a garlic press. Chop the leek. Chop the scallions.",
+      "secondary_message": "1 medium garlic clove\n1 large leek\n4 scallions"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, combine the yogurt, garlic, and a pinch of salt. Set aside.",

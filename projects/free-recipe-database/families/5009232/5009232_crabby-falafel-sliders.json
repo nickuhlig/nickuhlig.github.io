@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 92,
-      "name": "chickpeas beans, drained",
-      "quantity": "1 (14.4 oz) can"
+      "name": "chickpeas beans",
+      "quantity": "1 (14.4 oz) can",
+      "prep": "drained"
     },
     {
       "ingredient_id": 331,
@@ -55,8 +56,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, roughly chopped",
-      "quantity": "2"
+      "name": "scallions",
+      "quantity": "2",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 2346,
@@ -90,8 +92,9 @@
     },
     {
       "ingredient_id": 470,
-      "name": "fennel bulb, cored, and thinly sliced on a mandoline",
-      "quantity": "½"
+      "name": "fennel bulb",
+      "quantity": "½",
+      "prep": "cored, and thinly sliced on a mandoline"
     },
     {
       "ingredient_id": 1480,
@@ -105,8 +108,9 @@
     },
     {
       "ingredient_id": 1198,
-      "name": "slider-sized potato rolls, toasted",
-      "quantity": "12"
+      "name": "slider-sized potato rolls",
+      "quantity": "12",
+      "prep": "toasted"
     },
     {
       "ingredient_id": 3129,
@@ -130,6 +134,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain the chickpeas beans. Roughly chop the scallions. Core and thinly slice the fennel bulb on a mandoline. Toast the slider-sized potato rolls.",
+      "secondary_message": "1 (14.4 oz) can chickpeas beans\n2 scallions\n½ fennel bulb\n12 slider-sized potato rolls"
+    },
     {
       "id": 1,
       "primary_message": "Place chickpeas, baking powder, cumin, cilantro, scallions, lemon zest, jalapeño (if desired), garlic clove, and flour in bowl of food processor. Pulse until mixture holds together, but chunky bits of chickpea still remain, about 8-10 one-second pulses (do not process into paste). Transfer mixture to large bowl and gently fold in crab meat. Season to taste with salt and pepper, and mix again until homogenous.",

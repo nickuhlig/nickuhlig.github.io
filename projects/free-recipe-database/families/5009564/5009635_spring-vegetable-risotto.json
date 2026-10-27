@@ -38,8 +38,9 @@
     },
     {
       "ingredient_id": 36,
-      "name": "sugar snap peas, cut into 1/2-inch segments on the bias",
-      "quantity": "0.23 kg"
+      "name": "sugar snap peas",
+      "quantity": "0.23 kg",
+      "prep": "cut into 1/2-inch segments on the bias"
     },
     {
       "ingredient_id": 2208,
@@ -48,8 +49,9 @@
     },
     {
       "ingredient_id": 2324,
-      "name": "baby zucchini, split in half lengthwise",
-      "quantity": "0.23 kg"
+      "name": "baby zucchini",
+      "quantity": "0.23 kg",
+      "prep": "split in half lengthwise"
     },
     {
       "ingredient_id": 3645,
@@ -73,13 +75,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated on a microplane grater",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "grated on a microplane grater"
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, finely minced",
-      "quantity": "2 small"
+      "name": "shallots",
+      "quantity": "2 small",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 88,
@@ -93,8 +97,9 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "fresh parsley leaves, finely chopped",
-      "quantity": "¼ cup"
+      "name": "fresh parsley leaves",
+      "quantity": "¼ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1480,
@@ -108,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the sugar snap peas into 1/2-inch segments on the bias. Split the baby zucchini in half lengthwise. Grate the garlic on a microplane grater. Finely mince the shallots. Finely chop the fresh parsley leaves.",
+      "secondary_message": "0.23 kg sugar snap peas\n0.23 kg baby zucchini\n2 medium cloves garlic\n2 small shallots\n¼ cup fresh parsley leaves"
+    },
     {
       "id": 1,
       "primary_message": "Bring 2 quarts of lightly salted water to a boil. Prepare an ice bath. Working with one vegetable at a time, cook asparagus stalks, asparagus tips, snap peas, fava beans, and zucchini by adding to water and cooking until just tender, 2 to 3 minutes (taste as they cook to confirm doneness). Transfer to ice bath to stop cooking, then drain and transfer to a bowl. Carefully peel skins off of fava beans. Set all vegetables aside while you prepare the risotto.",

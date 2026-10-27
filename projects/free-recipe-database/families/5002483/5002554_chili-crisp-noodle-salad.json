@@ -42,8 +42,9 @@
   "ingredients": [
     {
       "ingredient_id": 1399,
-      "name": "Persian cucumbers, thinly sliced",
-      "quantity": "6"
+      "name": "Persian cucumbers",
+      "quantity": "6",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -87,8 +88,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, trimmed and thinly sliced crosswise",
-      "quantity": "5"
+      "name": "scallions",
+      "quantity": "5",
+      "prep": "trimmed and thinly sliced crosswise"
     },
     {
       "ingredient_id": 188,
@@ -97,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the Persian cucumbers. Trim and thinly slice the scallions crosswise.",
+      "secondary_message": "6 Persian cucumbers\n5 scallions"
+    },
     {
       "id": 1,
       "primary_message": "In a large colander, combine cucumbers, salt, and 1 teaspoon sugar and toss to combine. Let sit until cucumbers release their liquid, about 20 minutes. Set aside.",

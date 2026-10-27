@@ -33,8 +33,9 @@
   "ingredients": [
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, chopped, divided",
-      "quantity": "7 oz"
+      "name": "bittersweet chocolate, divided",
+      "quantity": "7 oz",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 346,
@@ -73,6 +74,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the bittersweet chocolate.",
+      "secondary_message": "7 oz bittersweet chocolate, divided"
+    },
     {
       "id": 1,
       "primary_message": "In a microwave or in a bowl set over a pan of barely simmering water, melt 5 ounces chocolate until smooth. Cool slightly.",

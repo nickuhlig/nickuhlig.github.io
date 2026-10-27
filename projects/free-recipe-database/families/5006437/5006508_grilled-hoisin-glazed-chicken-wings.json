@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 1681,
-      "name": "chicken wings, cut into drumettes and flats",
-      "quantity": "1.36 kg"
+      "name": "chicken wings",
+      "quantity": "1.36 kg",
+      "prep": "cut into drumettes and flats"
     },
     {
       "ingredient_id": 331,
@@ -100,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the chicken wings into drumettes and flats.",
+      "secondary_message": "1.36 kg chicken wings"
+    },
     {
       "id": 1,
       "primary_message": "Pat chicken wings dry with paper towels. Place wings in a large bowl and sprinkle with baking powder and salt, tossing to coat evenly. Arrange wings in a single layer on wire rack placed over a baking sheet. Refrigerate uncovered for at least 8 hours.",

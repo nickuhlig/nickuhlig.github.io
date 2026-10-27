@@ -84,8 +84,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely sliced",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 121,
@@ -99,6 +100,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely slice the onion.",
+      "secondary_message": "1 small onion"
+    },
     {
       "id": 1,
       "primary_message": "For the Cheaty Allioli: Combine mayonnaise and garlic in a medium bowl. Whisking constantly, slowly drizzle in extra-virgin olive oil. Whisk in water. Season to taste with salt and pepper and set aside.",

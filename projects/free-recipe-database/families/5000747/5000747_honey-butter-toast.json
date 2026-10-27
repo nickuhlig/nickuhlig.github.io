@@ -48,8 +48,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 293,
@@ -88,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter.",
+      "secondary_message": "2 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 325°F. Line a small rimmed baking sheet with parchment. In a small bowl, stir together butter, brown sugar, 1 1/2 teaspoons of the honey, salt, cinnamon, and cardamom (if using) until smooth.",

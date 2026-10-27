@@ -74,8 +74,9 @@
     },
     {
       "ingredient_id": 1716,
-      "name": "hazelnuts, toasted, skinned, and roughly chopped",
-      "quantity": "½ cup"
+      "name": "hazelnuts",
+      "quantity": "½ cup",
+      "prep": "toasted, skinned, and roughly chopped"
     },
     {
       "ingredient_id": 120,
@@ -89,13 +90,15 @@
     },
     {
       "ingredient_id": 1825,
-      "name": "delicata squash, washed and dried",
-      "quantity": "2 medium"
+      "name": "delicata squash",
+      "quantity": "2 medium",
+      "prep": "washed and dried"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 88,
@@ -114,6 +117,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Toast, skin, and roughly chop the hazelnuts. Wash and dry the delicata squash. Melt the unsalted butter.",
+      "secondary_message": "½ cup hazelnuts\n2 medium delicata squash\n2 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lowest position and preheat oven to 425°F.",

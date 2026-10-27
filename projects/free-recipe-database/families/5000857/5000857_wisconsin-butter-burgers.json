@@ -49,8 +49,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "8 tbsp"
+      "name": "unsalted butter",
+      "quantity": "8 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1338,
@@ -64,8 +65,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, diced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 359,
@@ -99,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter. Dice the yellow onion.",
+      "secondary_message": "8 tbsp unsalted butter\n1 medium yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, use a fork to thoroughly blend the softened butter and soy sauce until thoroughly mixed with a uniform color and texture. On a sheet of plastic wrap, form the compound butter into a roughly 5-inch long log. Wrap tightly and freeze until firm, about 15 minutes or refrigerate until ready to use.",

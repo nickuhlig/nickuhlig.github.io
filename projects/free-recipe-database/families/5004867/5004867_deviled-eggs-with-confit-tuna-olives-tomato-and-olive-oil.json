@@ -38,13 +38,15 @@
   "ingredients": [
     {
       "ingredient_id": 3072,
-      "name": "hard boiled, peeled and halved lengthwise",
-      "quantity": "6"
+      "name": "hard-boiled eggs",
+      "quantity": "6",
+      "prep": "peeled and halved lengthwise"
     },
     {
       "ingredient_id": 2654,
-      "name": "high quality tuna packed in olive oil, drained",
-      "quantity": "6 oz"
+      "name": "high quality tuna packed in olive oil",
+      "quantity": "6 oz",
+      "prep": "drained"
     },
     {
       "ingredient_id": 1808,
@@ -58,8 +60,9 @@
     },
     {
       "ingredient_id": 260,
-      "name": "tomato, peeled, seeded, and finely diced",
-      "quantity": "1 small"
+      "name": "tomato",
+      "quantity": "1 small",
+      "prep": "peeled, seeded, and finely diced"
     },
     {
       "ingredient_id": 117,
@@ -98,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and halve the hard-boiled eggs lengthwise. Drain the high quality tuna packed in olive oil. Peel, seed, and finely dice the tomato.",
+      "secondary_message": "6 hard-boiled eggs\n6 oz high quality tuna packed in olive oil\n1 small tomato"
+    },
     {
       "id": 1,
       "primary_message": "Place all of the yolks in a medium bowl. Add tuna, parsley, olives, tomato, mustard, lemon juice, vinegar, and olive oil. Season to taste with salt and pepper, and using a rubber spatula, gently fold until combined.",

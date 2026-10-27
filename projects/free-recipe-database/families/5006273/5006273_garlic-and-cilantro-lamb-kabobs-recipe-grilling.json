@@ -38,8 +38,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 214,
@@ -83,11 +84,18 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, cut into 3/4-inch pieces",
-      "quantity": "1 large"
+      "name": "red onion",
+      "quantity": "1 large",
+      "prep": "cut into 3/4-inch pieces"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the garlic. Cut the red onion into 3/4-inch pieces.",
+      "secondary_message": "3 medium cloves garlic\n1 large red onion"
+    },
     {
       "id": 1,
       "primary_message": "Process all of the marinade ingredients in workbowl of food processor fitted with steel blade until smooth, about 1 minute, stopping to scrape sides of workbowl with rubber spatula as needed.",

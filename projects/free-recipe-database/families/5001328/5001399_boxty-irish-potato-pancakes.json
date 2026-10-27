@@ -86,8 +86,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, thinly sliced, plus more for garnish",
-      "quantity": "4"
+      "name": "scallions, plus more for garnish",
+      "quantity": "4",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 121,
@@ -126,6 +127,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the scallions.",
+      "secondary_message": "4 scallions, plus more for garnish"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 200℉ (95℃); line a baking sheet with a wire rack and set aside.",

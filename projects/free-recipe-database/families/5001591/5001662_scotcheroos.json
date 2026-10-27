@@ -90,11 +90,18 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, 60% cacao, roughly chopped",
-      "quantity": "225 g"
+      "name": "bittersweet chocolate, 60% cacao",
+      "quantity": "225 g",
+      "prep": "roughly chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the bittersweet chocolate.",
+      "secondary_message": "225 g bittersweet chocolate, 60% cacao"
+    },
     {
       "id": 1,
       "primary_message": "Lightly grease a 9-by-33-cm baking pan with cooking spray; set aside. In a minimum 3-quart saucepan or Dutch oven, heat corn syrup and sugar over medium heat, whisking occasionally, until mixture is just bubbling around the edges, about 2 minutes.",

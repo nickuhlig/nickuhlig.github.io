@@ -95,13 +95,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened to about 68°F",
-      "quantity": "8 oz"
+      "name": "unsalted butter",
+      "quantity": "8 oz",
+      "prep": "softened to about 68°F"
     },
     {
       "ingredient_id": 2361,
-      "name": "pastry cream, at room temperature, about 68°F",
-      "quantity": "1 recipe"
+      "name": "pastry cream",
+      "quantity": "1 recipe",
+      "prep": "at room temperature, about 68°F"
     },
     {
       "ingredient_id": 2285,
@@ -110,8 +112,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 1/2-inch cubes",
-      "quantity": "2 oz"
+      "name": "unsalted butter",
+      "quantity": "2 oz",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 2240,
@@ -125,6 +128,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter to about 68°F. Bring the pastry cream to room temperature and bring it to 68°F. Cut the unsalted butter into 1/2-inch cubes.",
+      "secondary_message": "8 oz unsalted butter\n1 recipe pastry cream\n2 oz unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Prepare the Choux: Adjust oven rack to middle position and preheat oven to 425°F (220ºC). Using a pen or pencil, trace an 8-inch circle in the center of a 12- by 16-inch sheet of parchment paper. Flip parchment over so that drawn ring is on underside and set on a large, rimmed baking sheet. Pipe a small amount of choux dough under each corner of parchment paper lining baking sheet (dough acts as a glue and keeps paper in place as you pipe).",

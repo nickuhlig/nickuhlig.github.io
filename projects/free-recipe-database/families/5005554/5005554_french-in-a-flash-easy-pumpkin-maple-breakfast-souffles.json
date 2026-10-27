@@ -34,8 +34,9 @@
   "ingredients": [
     {
       "ingredient_id": 121,
-      "name": "eggs, separated",
-      "quantity": "4"
+      "name": "eggs",
+      "quantity": "4",
+      "prep": "separated"
     },
     {
       "ingredient_id": 100,
@@ -59,6 +60,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Separate the eggs.",
+      "secondary_message": "4 eggs"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center position and preheat oven to 375°F. In medium bowl, whisk together yolks, pumpkin, syrup, nutmeg, and pinch of salt until well combined.",

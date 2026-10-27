@@ -34,8 +34,9 @@
   "ingredients": [
     {
       "ingredient_id": 15,
-      "name": "capers, drained, rinsed, and roughly chopped",
-      "quantity": "2 tbsp"
+      "name": "capers",
+      "quantity": "2 tbsp",
+      "prep": "drained, rinsed, and roughly chopped"
     },
     {
       "ingredient_id": 2100,
@@ -44,13 +45,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, minced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1810,
-      "name": "Thai bird, seeded and chopped",
-      "quantity": "1"
+      "name": "Thai bird",
+      "quantity": "1",
+      "prep": "seeded and chopped"
     },
     {
       "ingredient_id": 1746,
@@ -59,13 +62,15 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, finely sliced",
-      "quantity": "2"
+      "name": "scallions",
+      "quantity": "2",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 325,
-      "name": "anchovy fillets, finely chopped",
-      "quantity": "3"
+      "name": "anchovy fillets",
+      "quantity": "3",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 103,
@@ -109,12 +114,19 @@
     },
     {
       "ingredient_id": 285,
-      "name": "baby bok choy, leaves cleaned and rinsed, but not dried",
+      "name": "baby bok choy, but not dried",
       "quantity": "7",
-      "weigh_as": "0.68 kg"
+      "weigh_as": "0.68 kg",
+      "prep": "leaves cleaned and rinsed"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain, rinse, and roughly chop the capers. Mince the shallot. Seed and chop the Thai bird. Finely slice the scallions. Finely chop the anchovy fillets. Clean and rinse the leaves of the baby bok choy.",
+      "secondary_message": "2 tbsp capers\n1 small shallot\n1 Thai bird\n2 scallions\n3 anchovy fillets\n7 baby bok choy, but not dried"
+    },
     {
       "id": 1,
       "primary_message": "Combine capers, olives, shallots, peppers, basil, scallion, anchovy, honey, lemon juice, and vinegar in a medium bowl. Whisking constantly, add olive oil in a thin steady stream. Season to taste with salt and pepper. Set aside",

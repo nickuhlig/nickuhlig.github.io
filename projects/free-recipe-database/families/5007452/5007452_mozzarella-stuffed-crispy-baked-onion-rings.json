@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 1676,
-      "name": "sweet onion, cut into 1/2 inch thick rings",
-      "quantity": "1 large"
+      "name": "sweet onion",
+      "quantity": "1 large",
+      "prep": "cut into 1/2 inch thick rings"
     },
     {
       "ingredient_id": 2475,
@@ -46,8 +47,9 @@
     },
     {
       "ingredient_id": 2016,
-      "name": "part skim mozzarella cheese sticks, frozen",
-      "quantity": "12 sticks"
+      "name": "part skim mozzarella cheese sticks",
+      "quantity": "12 sticks",
+      "prep": "frozen"
     },
     {
       "ingredient_id": 1193,
@@ -71,8 +73,9 @@
     },
     {
       "ingredient_id": 2793,
-      "name": "Corn Chex, crushed",
-      "quantity": "½ cup"
+      "name": "Corn Chex",
+      "quantity": "½ cup",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 88,
@@ -91,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the sweet onion into 1/2 inch thick rings. Keep the part skim mozzarella cheese sticks frozen until you use them. Crush the Corn Chex.",
+      "secondary_message": "1 large sweet onion\n12 sticks part skim mozzarella cheese sticks\n½ cup Corn Chex"
+    },
     {
       "id": 1,
       "primary_message": "In a large, shallow container, combine onion slices and buttermilk, making sure to coat all of the onions. Cover and refrigerate for at least one hour, or overnight (longer soaking will yield more tender onions).",

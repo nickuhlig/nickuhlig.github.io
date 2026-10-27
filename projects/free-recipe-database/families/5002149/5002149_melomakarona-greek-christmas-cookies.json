@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 232,
-      "name": "orange, unpeeled and quartered",
-      "quantity": "1 large"
+      "name": "orange",
+      "quantity": "1 large",
+      "prep": "unpeeled and quartered"
     },
     {
       "ingredient_id": 103,
@@ -120,6 +121,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Leave unpeeled and quarter the orange.",
+      "secondary_message": "1 large orange"
+    },
     {
       "id": 1,
       "primary_message": "For the Syrup: In a medium saucepan, combine sugar, quartered orange, and 1 cup water. Add cloves and cinnamon or pumpkin pie spice.",

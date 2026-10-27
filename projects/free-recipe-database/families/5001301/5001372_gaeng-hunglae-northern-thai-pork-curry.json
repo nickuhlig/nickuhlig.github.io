@@ -50,8 +50,9 @@
   "ingredients": [
     {
       "ingredient_id": 1869,
-      "name": "dried Thai red chiles, stemmed and seeded",
-      "quantity": "10"
+      "name": "dried Thai red chiles",
+      "quantity": "10",
+      "prep": "stemmed and seeded"
     },
     {
       "ingredient_id": 88,
@@ -60,13 +61,15 @@
     },
     {
       "ingredient_id": 1815,
-      "name": "fresh galangal, finely chopped",
-      "quantity": "1 tbsp"
+      "name": "fresh galangal",
+      "quantity": "1 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1816,
-      "name": "lemongrass, thinly sliced cross-wise",
-      "quantity": "2 stalks"
+      "name": "lemongrass",
+      "quantity": "2 stalks",
+      "prep": "thinly sliced cross-wise"
     },
     {
       "ingredient_id": 24,
@@ -75,8 +78,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, thinly sliced cross-wise",
-      "quantity": "1 large"
+      "name": "shallot",
+      "quantity": "1 large",
+      "prep": "thinly sliced cross-wise"
     },
     {
       "ingredient_id": 1817,
@@ -90,13 +94,15 @@
     },
     {
       "ingredient_id": 1958,
-      "name": "skin-on pork belly, cut into 1-inch cubes",
-      "quantity": "0.45 kg"
+      "name": "skin-on pork belly",
+      "quantity": "0.45 kg",
+      "prep": "cut into 1-inch cubes"
     },
     {
       "ingredient_id": 2712,
-      "name": "pork shoulder, cut into 1-inch cubes",
-      "quantity": "0.45 kg"
+      "name": "pork shoulder",
+      "quantity": "0.45 kg",
+      "prep": "cut into 1-inch cubes"
     },
     {
       "ingredient_id": 3466,
@@ -125,13 +131,15 @@
     },
     {
       "ingredient_id": 2095,
-      "name": "pickled garlic cloves, lightly smashed",
-      "quantity": "½ cup"
+      "name": "pickled garlic cloves",
+      "quantity": "½ cup",
+      "prep": "lightly smashed"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and lightly smashed",
-      "quantity": "10 medium cloves"
+      "name": "garlic",
+      "quantity": "10 medium cloves",
+      "prep": "peeled and lightly smashed"
     },
     {
       "ingredient_id": 221,
@@ -140,6 +148,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem and seed the dried Thai red chiles. Finely chop the fresh galangal. Thinly slice the lemongrass cross-wise. Thinly slice the shallot cross-wise. Cut the skin-on pork belly into 1-inch cubes. Cut the pork shoulder into 1-inch cubes. Lightly smash the pickled garlic cloves. Peel and lightly smash the garlic.",
+      "secondary_message": "10 dried Thai red chiles\n1 tbsp fresh galangal\n2 stalks lemongrass\n1 large shallot\n0.45 kg skin-on pork belly\n0.45 kg pork shoulder\n½ cup pickled garlic cloves\n10 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Curry Paste: In a small bowl, soak chiles in just enough hot water to cover; let sit until softened, about 5 minutes. Using a fine-mesh sieve, drain chiles.",

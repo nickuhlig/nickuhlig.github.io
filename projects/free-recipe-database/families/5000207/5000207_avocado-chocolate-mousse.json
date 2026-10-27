@@ -44,8 +44,9 @@
   "ingredients": [
     {
       "ingredient_id": 183,
-      "name": "ripe Hass avocados, pitted and flesh scooped",
-      "quantity": "3 medium"
+      "name": "ripe Hass avocados",
+      "quantity": "3 medium",
+      "prep": "pitted and flesh scooped"
     },
     {
       "ingredient_id": 333,
@@ -74,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pit the ripe Hass avocados, then scoop the flesh.",
+      "secondary_message": "3 medium ripe Hass avocados"
+    },
     {
       "id": 1,
       "primary_message": "In the bowl of a food processor, process avocados, cocoa powder, and salt until just blended. Using a silicone spatula, scrape down sides of the bowl; add vanilla paste, oat milk, and agave syrup, and process until creamy, 3 to 4 minutes.",

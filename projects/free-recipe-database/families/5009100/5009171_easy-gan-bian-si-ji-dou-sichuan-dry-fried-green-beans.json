@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 221,
@@ -80,8 +81,9 @@
     },
     {
       "ingredient_id": 111,
-      "name": "green beans, trimmed",
-      "quantity": "0.45 kg"
+      "name": "green beans",
+      "quantity": "0.45 kg",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 88,
@@ -100,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic. Trim the green beans.",
+      "secondary_message": "4 medium cloves garlic\n0.45 kg green beans"
+    },
     {
       "id": 1,
       "primary_message": "Crush half of Sichuan peppercorns in a mortar and pestle into a rough powder. In a medium skillet, heat 2 tablespoons oil, remaining whole Sichuan peppercorns, and dried chiles over medium-low heat, stirring frequently, until sizzling and aromatic, about 2 minutes. Add garlic, ginger, scallions, and mustard root and cook, stirring, until aromatic, about 1 minute. Remove from heat and set aside.",

@@ -80,8 +80,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "14 tbsp"
+      "name": "unsalted butter",
+      "quantity": "14 tbsp",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 121,
@@ -100,11 +101,18 @@
     },
     {
       "ingredient_id": 113,
-      "name": "Granny smith apples, peeled, cored, and diced",
-      "quantity": "2"
+      "name": "Granny smith apples",
+      "quantity": "2",
+      "prep": "peeled, cored, and diced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature. Peel, core, and dice the Granny smith apples.",
+      "secondary_message": "14 tbsp unsalted butter\n2 Granny smith apples"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 175°C (350°F). Grease muffin cups.",

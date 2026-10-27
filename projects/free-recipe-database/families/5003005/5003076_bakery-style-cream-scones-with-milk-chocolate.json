@@ -64,8 +64,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into 1/2-inch cubes",
-      "quantity": "57 g"
+      "name": "cold unsalted butter",
+      "quantity": "57 g",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 2742,
@@ -89,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cold unsalted butter into 1/2-inch cubes.",
+      "secondary_message": "57 g cold unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower-middle position and preheat to 200°C (400°F). Sift flour into a medium bowl, then whisk in baking powder, sugar, and salt. Add butter and toss to break up the pieces, then smash each one flat between your fingertips. Continue smashing and rubbing until butter disappears into a coarse meal. Add milk chocolate and toss to combine, then stir in milk and cream to form a soft dough.",

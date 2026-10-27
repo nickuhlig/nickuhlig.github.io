@@ -39,13 +39,15 @@
     },
     {
       "ingredient_id": 2697,
-      "name": "pancetta, finely diced",
-      "quantity": "113 g"
+      "name": "pancetta",
+      "quantity": "113 g",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 121,
-      "name": "hard-boiled eggs, peeled and halved lengthwise",
-      "quantity": "6 large"
+      "name": "hard-boiled eggs",
+      "quantity": "6 large",
+      "prep": "peeled and halved lengthwise"
     },
     {
       "ingredient_id": 267,
@@ -59,6 +61,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the pancetta. Peel and halve the hard-boiled eggs lengthwise.",
+      "secondary_message": "113 g pancetta\n6 large hard-boiled eggs"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 150°C (300°F) and line a baking sheet with silpat. Sprinkle 4 tablespoons of Parmigiano-Reggiano in two 10-cm rounds on silpat and bake until lightly browned and melted, about 10 minutes. Let cheese crisps cool until crisp. Break each cheese crisp into 4 pieces.",

@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 8 pieces",
-      "quantity": "8 tbsp"
+      "name": "unsalted butter",
+      "quantity": "8 tbsp",
+      "prep": "cut into 8 pieces"
     },
     {
       "ingredient_id": 29,
@@ -85,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into 8 pieces.",
+      "secondary_message": "8 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Pat trout fillets dry with paper towels. Sprinkle all over with 1 teaspoon salt and pepper. In a shallow dish such as a pie plate, spread cornstarch in an even layer. Working with 1 fillet at a time, dredge both sides in the cornstarch, pressing gently to adhere. Shake off excess cornstarch and transfer to a large plate.",

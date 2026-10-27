@@ -93,8 +93,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1701,
@@ -118,6 +119,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the eggs to room temperature.",
+      "secondary_message": "2 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven 350°F (175°F). Lightly spray a 9-inch round cake pan with cooking spray. Line bottom of pan with parchment paper, and set aside.",

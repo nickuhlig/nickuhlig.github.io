@@ -77,8 +77,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "1 lb"
+      "name": "unsalted butter",
+      "quantity": "1 lb",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -92,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature.",
+      "secondary_message": "1 lb unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Whisk together white rice flour, corn powder, corn flour, baking powder, baking soda, and salt in a medium bowl. Set aside.",

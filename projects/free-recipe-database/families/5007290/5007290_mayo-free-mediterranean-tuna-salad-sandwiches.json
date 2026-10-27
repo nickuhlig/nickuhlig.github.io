@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 184,
-      "name": "red onion, thinly sliced",
-      "quantity": "½ medium"
+      "name": "red onion",
+      "quantity": "½ medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 130,
@@ -50,18 +51,21 @@
     },
     {
       "ingredient_id": 157,
-      "name": "celery, sliced thinly on the bias",
-      "quantity": "1 stalk"
+      "name": "celery",
+      "quantity": "1 stalk",
+      "prep": "sliced thinly on the bias"
     },
     {
       "ingredient_id": 470,
-      "name": "fennel, cored and thinly sliced",
-      "quantity": "¼ medium bulb"
+      "name": "fennel",
+      "quantity": "¼ medium bulb",
+      "prep": "cored and thinly sliced"
     },
     {
       "ingredient_id": 106,
-      "name": "flat-leaf parsley leaves, roughly chopped",
-      "quantity": "1 handful"
+      "name": "flat-leaf parsley leaves",
+      "quantity": "1 handful",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 15,
@@ -70,8 +74,9 @@
     },
     {
       "ingredient_id": 1534,
-      "name": "drained pitted briny black olives, quartered lengthwise",
-      "quantity": "¼ cup"
+      "name": "drained pitted briny black olives",
+      "quantity": "¼ cup",
+      "prep": "quartered lengthwise"
     },
     {
       "ingredient_id": 47,
@@ -105,6 +110,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the red onion. Slice the celery thinly on the bias. Core and thinly slice the fennel. Roughly chop the flat-leaf parsley leaves. Quarter the drained pitted briny black olives lengthwise.",
+      "secondary_message": "½ medium red onion\n1 stalk celery\n¼ medium bulb fennel\n1 handful flat-leaf parsley leaves\n¼ cup drained pitted briny black olives"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, combine onion and vinegar (vinegar should just cover onion; add more if it does not) and let stand 15 minutes.",

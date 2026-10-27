@@ -42,13 +42,15 @@
   "ingredients": [
     {
       "ingredient_id": 1552,
-      "name": "bone-in beef chuck roast, cut into 2-inch pieces",
-      "quantity": "0.23 kg"
+      "name": "bone-in beef chuck roast",
+      "quantity": "0.23 kg",
+      "prep": "cut into 2-inch pieces"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, thinly sliced",
-      "quantity": "1 small"
+      "name": "red onion",
+      "quantity": "1 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 3127,
@@ -102,8 +104,9 @@
     },
     {
       "ingredient_id": 1993,
-      "name": "fresh Scotch bonnet, stemmed, seeded , and finely chopped",
-      "quantity": "¼ to 1"
+      "name": "fresh Scotch bonnet",
+      "quantity": "¼ to 1",
+      "prep": "stemmed, seeded, and finely chopped"
     },
     {
       "ingredient_id": 1869,
@@ -112,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the bone-in beef chuck roast into 2-inch pieces. Thinly slice the red onion. Stem, seed, and finely chop the fresh Scotch bonnet.",
+      "secondary_message": "0.23 kg bone-in beef chuck roast\n1 small red onion\n¼ to 1 fresh Scotch bonnet"
+    },
     {
       "id": 1,
       "primary_message": "For the Beef: In a medium pot, combine beef, onion, crayfish, salt, dry pepper, and 3 cups water and bring to a boil. Lower heat to maintain a simmer, cover, and cook until beef is tender, about 1 hour. Using a slotted spoon, remove beef and transfer to a medium heatproof bowl and set aside. Reserve stock (you should have about 1 cup; see note).",

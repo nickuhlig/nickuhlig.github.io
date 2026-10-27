@@ -39,9 +39,10 @@
   "ingredients": [
     {
       "ingredient_id": 1692,
-      "name": "mixed good cooking apples, peeled, cored, and cut into large chunks",
+      "name": "mixed good cooking apples",
       "quantity": "8",
-      "weigh_as": "1.81 kg"
+      "weigh_as": "1.81 kg",
+      "prep": "peeled, cored, and cut into large chunks"
     },
     {
       "ingredient_id": 2150,
@@ -80,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel, core, and cut the mixed good cooking apples into large chunks.",
+      "secondary_message": "8 mixed good cooking apples"
+    },
     {
       "id": 1,
       "primary_message": "Place apple and apple cider in a large heavy pot and bring to a simmer over medium heat. Cover and cook until apples are completely tender, about 20 to 30 minutes.",

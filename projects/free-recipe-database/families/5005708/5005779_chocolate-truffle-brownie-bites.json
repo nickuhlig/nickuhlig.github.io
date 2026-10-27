@@ -52,13 +52,15 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "283 g"
+      "name": "bittersweet chocolate",
+      "quantity": "283 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2742,
-      "name": "milk chocolate, finely chopped",
-      "quantity": "113 g"
+      "name": "milk chocolate",
+      "quantity": "113 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1700,
@@ -92,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the bittersweet chocolate. Finely chop the milk chocolate.",
+      "secondary_message": "283 g bittersweet chocolate\n113 g milk chocolate"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and heat oven to 190°C (375°F). Generously grease muffin pan with butter. Sift cocoa over muffin cups and tilt pan to coat. Gently knock out excess cocoa.",

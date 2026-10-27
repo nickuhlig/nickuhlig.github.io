@@ -64,8 +64,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemons, zested",
-      "quantity": "3"
+      "name": "lemons",
+      "quantity": "3",
+      "prep": "zested"
     },
     {
       "ingredient_id": 2013,
@@ -94,13 +95,15 @@
     },
     {
       "ingredient_id": 3642,
-      "name": "egg white, beaten",
-      "quantity": "1"
+      "name": "egg white",
+      "quantity": "1",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 2820,
-      "name": "pink peppercorns, finely crushed",
-      "quantity": "2 tsp"
+      "name": "pink peppercorns",
+      "quantity": "2 tsp",
+      "prep": "finely crushed"
     },
     {
       "ingredient_id": 2221,
@@ -109,8 +112,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "zested"
     },
     {
       "ingredient_id": 1863,
@@ -119,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the lemons. Beat the egg white. Finely crush the pink peppercorns. Zest the lemon.",
+      "secondary_message": "3 lemons\n1 egg white\n2 tsp pink peppercorns\n1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "To make the pasta dough. Whisk together the oil and eggs. Put the flour, turmeric and lemon zest in a food processor, add the oil and egg mixture and blend to a crumbly dough. It might require extra flour or oil. Once the dough has come together and is smooth (you may need to work it a little by hand), divide it into four thick, rectangular blocks. Wrap them in plastic wrap and chill for at least 30 minutes, or up to 2 days.",

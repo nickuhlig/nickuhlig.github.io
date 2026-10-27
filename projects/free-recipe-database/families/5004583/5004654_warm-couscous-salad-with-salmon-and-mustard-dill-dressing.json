@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, thinly sliced",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2530,
@@ -80,8 +81,9 @@
     },
     {
       "ingredient_id": 1932,
-      "name": "picked dill, roughly chopped, plus more for garnish",
-      "quantity": "½ cup"
+      "name": "picked dill, plus more for garnish",
+      "quantity": "½ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1879,
@@ -90,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the shallot. Roughly chop the picked dill.",
+      "secondary_message": "1 medium shallot\n½ cup picked dill, plus more for garnish"
+    },
     {
       "id": 1,
       "primary_message": "Season salmon with salt and pepper. Heat 1/3 cup oil in a 30-cm stainless steel skillet over medium-high heat until shimmering. Add salmon, skin-side down, and immediately reduce heat to medium-low. Cook, pressing down gently with a spatula to ensure contact, until skin is rendered and crisp, about 6 minutes. If skin shows resistance when attempting to lift with a spatula, allow it to continue to cook until it lifts easily.",

@@ -63,23 +63,27 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, diced",
-      "quantity": "1 large"
+      "name": "yellow onion",
+      "quantity": "1 large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 309,
-      "name": "leek, washed of any grit and diced",
-      "quantity": "1 large"
+      "name": "leek",
+      "quantity": "1 large",
+      "prep": "washed of any grit and diced"
     },
     {
       "ingredient_id": 470,
-      "name": "fennel bulb, cored and diced",
-      "quantity": "1 medium"
+      "name": "fennel bulb",
+      "quantity": "1 medium",
+      "prep": "cored and diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, crushed",
-      "quantity": "5 medium cloves"
+      "name": "garlic",
+      "quantity": "5 medium cloves",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 1566,
@@ -93,8 +97,9 @@
     },
     {
       "ingredient_id": 232,
-      "name": "orange, zested",
-      "quantity": "1 (5 cm) strip"
+      "name": "orange",
+      "quantity": "1 (5 cm) strip",
+      "prep": "zested"
     },
     {
       "ingredient_id": 71,
@@ -113,8 +118,9 @@
     },
     {
       "ingredient_id": 1541,
-      "name": "plum tomatoes, cored, seeded, and diced",
-      "quantity": "6"
+      "name": "plum tomatoes",
+      "quantity": "6",
+      "prep": "cored, seeded, and diced"
     },
     {
       "ingredient_id": 2968,
@@ -198,6 +204,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the yellow onion. Wash the leek of any grit, then dice it. Core and dice the fennel bulb. Crush the garlic. Zest the orange. Core, seed, and dice the plum tomatoes.",
+      "secondary_message": "1 large yellow onion\n1 large leek\n1 medium fennel bulb\n5 medium cloves garlic\n1 (5 cm) strip orange\n6 plum tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "For the Broth: In a 7-quart Dutch oven, heat olive oil over medium heat until shimmering. Add onion, leek, fennel, garlic, fennel seeds, saffron, orange zest, cayenne pepper, and thyme sprigs. Cook, stirring occasionally, until vegetables have softened, about 10 minutes; lower heat if necessary to prevent browning.",

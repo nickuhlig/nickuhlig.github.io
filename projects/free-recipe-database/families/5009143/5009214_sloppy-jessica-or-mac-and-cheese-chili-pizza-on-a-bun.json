@@ -45,18 +45,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, chopped",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 291,
-      "name": "green bell pepper, stemmed, seeded, chopped",
-      "quantity": "1"
+      "name": "green bell pepper",
+      "quantity": "1",
+      "prep": "stemmed, seeded, chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "3 medium"
+      "name": "garlic cloves",
+      "quantity": "3 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 75,
@@ -85,8 +88,9 @@
     },
     {
       "ingredient_id": 1294,
-      "name": "whole peeled tomatoes, roughly chopped, juice reserved",
-      "quantity": "1 (794 g) can"
+      "name": "whole peeled tomatoes",
+      "quantity": "1 (794 g) can",
+      "prep": "roughly chopped, juice reserved"
     },
     {
       "ingredient_id": 448,
@@ -110,11 +114,18 @@
     },
     {
       "ingredient_id": 57,
-      "name": "dry whole-milk mozzarella, grated",
-      "quantity": "0.45 kg"
+      "name": "dry whole-milk mozzarella",
+      "quantity": "0.45 kg",
+      "prep": "grated"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the onion. Stem, seed, and chop the green bell pepper. Mince the garlic cloves. Roughly chop the whole peeled tomatoes, then reserve the juice. Grate the dry whole-milk mozzarella.",
+      "secondary_message": "1 large onion\n1 green bell pepper\n3 medium garlic cloves\n1 (794 g) can whole peeled tomatoes\n0.45 kg dry whole-milk mozzarella"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 220°C (425°F). Bring a large pot of salted water to a boil over high heat.",

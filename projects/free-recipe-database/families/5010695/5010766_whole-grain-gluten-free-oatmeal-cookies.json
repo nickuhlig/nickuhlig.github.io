@@ -75,8 +75,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, softened",
-      "quantity": "1 cup (8 oz)"
+      "name": "butter",
+      "quantity": "1 cup (8 oz)",
+      "prep": "softened"
     },
     {
       "ingredient_id": 293,
@@ -105,11 +106,18 @@
     },
     {
       "ingredient_id": 1366,
-      "name": "chocolate chips, raisins, chopped dried fruits, or nuts",
-      "quantity": "1 ½ cups"
+      "name": "chocolate chips, raisins, or nuts",
+      "quantity": "1 ½ cups",
+      "prep": "chopped dried fruits"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the butter. Chop the chocolate chips dried fruits.",
+      "secondary_message": "1 cup (8 oz) butter\n1 ½ cups chocolate chips, raisins, or nuts"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position. Preheat oven to 165°C (325°F). Line two baking sheets with parchment paper. Set aside.",

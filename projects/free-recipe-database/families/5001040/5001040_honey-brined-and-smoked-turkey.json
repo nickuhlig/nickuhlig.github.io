@@ -76,8 +76,9 @@
     },
     {
       "ingredient_id": 2555,
-      "name": "12 to 14 pound turkey, neck and giblets discarded",
-      "quantity": "1"
+      "name": "12 to 14 pound turkey",
+      "quantity": "1",
+      "prep": "neck and giblets discarded"
     },
     {
       "ingredient_id": 1044,
@@ -86,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Discard the neck and giblets from the 12 to 14 pound turkey.",
+      "secondary_message": "1 12 to 14 pound turkey"
+    },
     {
       "id": 1,
       "primary_message": "In a medium saucepan, heat 1 quart water, honey and salt over medium heat, stirring often, until salt is completely dissolved, about 5 minutes. Remove from heat. Pour mixture into a large brining container and add remaining 6 quarts cold water, vegetable stock, thyme, and peppercorns and stir to combine. Place the turkey in the brine, adding a weight (large heavy plate or saucepan) on top to keep it completely submerged, if needed. Refrigerate and brine for 12 to 18 hours.",

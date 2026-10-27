@@ -62,8 +62,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, diced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 470,
@@ -72,13 +73,15 @@
     },
     {
       "ingredient_id": 1720,
-      "name": "celery ribs, diced",
-      "quantity": "2 large"
+      "name": "celery ribs",
+      "quantity": "2 large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 323,
@@ -157,8 +160,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely diced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 470,
@@ -167,8 +171,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "6 medium cloves"
+      "name": "garlic",
+      "quantity": "6 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1721,
@@ -192,31 +197,42 @@
     },
     {
       "ingredient_id": 1839,
-      "name": "cleaned squid bodies and tentacles, bodies cut crosswise into 1/2-inch rings",
-      "quantity": "0.34 kg"
+      "name": "cleaned squid bodies and tentacles",
+      "quantity": "0.34 kg",
+      "prep": "bodies cut crosswise into 1/2-inch rings"
     },
     {
       "ingredient_id": 2132,
-      "name": "mussels, de-bearded and rinsed",
-      "quantity": "0.91 kg"
+      "name": "mussels",
+      "quantity": "0.91 kg",
+      "prep": "de-bearded and rinsed"
     },
     {
       "ingredient_id": 2536,
-      "name": "littleneck clams, purged",
-      "quantity": "1 dozen"
+      "name": "littleneck clams",
+      "quantity": "1 dozen",
+      "prep": "purged"
     },
     {
       "ingredient_id": 179,
-      "name": "halibut white-fleshed fish, cut into 2-ounce portions",
-      "quantity": "0.45 kg"
+      "name": "halibut white-fleshed fish",
+      "quantity": "0.45 kg",
+      "prep": "cut into 2-ounce portions"
     },
     {
       "ingredient_id": 1811,
-      "name": "shrimp, shelled and deveined",
-      "quantity": "0.34 kg"
+      "name": "shrimp",
+      "quantity": "0.34 kg",
+      "prep": "shelled and deveined"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the yellow onion. Dice the celery ribs. Smash the garlic. Finely dice the yellow onion. Mince the garlic. Cut the bodies of the cleaned squid bodies and tentacles crosswise into 1/2-inch rings. De-beard and rinse the mussels. Purge the littleneck clams. Cut the halibut white-fleshed fish into 2-ounce portions. Shell and devein the shrimp.",
+      "secondary_message": "1 medium yellow onion\n2 large celery ribs\n4 medium cloves garlic\n1 medium yellow onion\n6 medium cloves garlic\n0.34 kg cleaned squid bodies and tentacles\n0.91 kg mussels\n1 dozen littleneck clams\n0.45 kg halibut white-fleshed fish\n0.34 kg shrimp"
+    },
     {
       "id": 1,
       "primary_message": "For the Seafood Stock: In a large, 8- or 12-quart heavy-bottomed pot, heat olive oil over medium-high heat until shimmering. Add onion, fennel, celery, and garlic, and cook, stirring, until softened and beginning to brown, about 7 minutes. Stir in tomato paste and cook for 1 minute.",

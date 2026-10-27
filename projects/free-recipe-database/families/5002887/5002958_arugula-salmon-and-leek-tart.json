@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 6,
-      "name": "salmon, skinned and cut into 1 inch pieces",
-      "quantity": "0.34 kg"
+      "name": "salmon",
+      "quantity": "0.34 kg",
+      "prep": "skinned and cut into 1 inch pieces"
     },
     {
       "ingredient_id": 88,
@@ -77,8 +78,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "3"
+      "name": "eggs",
+      "quantity": "3",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 47,
@@ -92,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Skin and cut the salmon into 1 inch pieces. Beat the eggs.",
+      "secondary_message": "0.34 kg salmon\n3 eggs"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat to 425[°]. Roll our pie crust and place in a 30 cm tart pan. Trim edges. Prick pie crust all over with a fork. Transfer to freezer for at least 15 minutes. When ready to bake, place on a rimmed baking sheet and bake until golden, about 15 minutes. Remove from oven.",

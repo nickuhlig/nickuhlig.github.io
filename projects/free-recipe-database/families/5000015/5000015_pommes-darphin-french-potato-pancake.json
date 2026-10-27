@@ -55,8 +55,9 @@
   "ingredients": [
     {
       "ingredient_id": 1039,
-      "name": "russet Gold potatoes, peeled",
-      "quantity": "2 medium"
+      "name": "russet Gold potatoes",
+      "quantity": "2 medium",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 88,
@@ -70,6 +71,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the russet Gold potatoes.",
+      "secondary_message": "2 medium russet Gold potatoes"
+    },
     {
       "id": 1,
       "primary_message": "Using the julienne setting on a mandoline slicer or the fine shredding disc on a food processor, shred potatoes into strands. Transfer to a medium bowl, season with salt, and toss to combine. Immediately proceed to Step 2.",

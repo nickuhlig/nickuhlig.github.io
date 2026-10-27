@@ -45,8 +45,9 @@
   "ingredients": [
     {
       "ingredient_id": 106,
-      "name": "flat-leaf parsley, larger stems removed",
-      "quantity": "1 large bunch"
+      "name": "flat-leaf parsley",
+      "quantity": "1 large bunch",
+      "prep": "larger stems removed"
     },
     {
       "ingredient_id": 130,
@@ -55,8 +56,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "1 clove"
+      "name": "garlic",
+      "quantity": "1 clove",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 1721,
@@ -85,9 +87,10 @@
     },
     {
       "ingredient_id": 26,
-      "name": "asparagus, cut into 1/2-inch pieces",
+      "name": "asparagus",
       "quantity": "1 bunch",
-      "weigh_as": "0.45 kg"
+      "weigh_as": "0.45 kg",
+      "prep": "cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 88,
@@ -96,18 +99,21 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and finely minced",
-      "quantity": "1 clove"
+      "name": "garlic",
+      "quantity": "1 clove",
+      "prep": "peeled and finely minced"
     },
     {
       "ingredient_id": 1434,
-      "name": "navy beans, drained and rinsed",
-      "quantity": "1 (397 g) can"
+      "name": "navy beans",
+      "quantity": "1 (397 g) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 475,
-      "name": "sourdough bread, lightly toasted",
-      "quantity": "4 pieces"
+      "name": "sourdough bread",
+      "quantity": "4 pieces",
+      "prep": "lightly toasted"
     },
     {
       "ingredient_id": 1678,
@@ -116,6 +122,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the larger stems from the flat-leaf parsley. Peel the garlic. Cut the asparagus into 1/2-inch pieces. Peel and finely mince the garlic. Drain and rinse the navy beans. Lightly toast the sourdough bread.",
+      "secondary_message": "1 large bunch flat-leaf parsley\n1 clove garlic\n1 bunch asparagus\n1 clove garlic\n1 (397 g) can navy beans\n4 pieces sourdough bread"
+    },
     {
       "id": 1,
       "primary_message": "For the Chimichurri: In the bowl of a food processor fitted with the blade attachment, add parsley, 1 tablespoon vinegar, garlic, and chile flakes. Pulse until a fine consistency is achieved. With the machine running, slowly stream in the olive oil until well combined. Season to taste with salt, pepper, and additional vinegar. Transfer to an airtight container and refrigerate for at least 20 minutes and up to 4 days.",

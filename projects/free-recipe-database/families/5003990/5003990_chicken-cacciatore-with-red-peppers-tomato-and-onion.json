@@ -38,8 +38,9 @@
   "ingredients": [
     {
       "ingredient_id": 1864,
-      "name": "bone-in skin-on chicken legs, thighs and drumsticks split",
-      "quantity": "3 to 4 lb"
+      "name": "bone-in skin-on chicken legs",
+      "quantity": "3 to 4 lb",
+      "prep": "thighs and drumsticks split"
     },
     {
       "ingredient_id": 88,
@@ -58,20 +59,23 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, thinly sliced",
+      "name": "yellow onion",
       "quantity": "2 medium",
-      "weigh_as": "8 oz"
+      "weigh_as": "8 oz",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell pepper, stemmed, seeded, and thinly sliced",
+      "name": "red bell pepper",
       "quantity": "1 ½",
-      "weigh_as": "8 oz"
+      "weigh_as": "8 oz",
+      "prep": "stemmed, seeded, and thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "5 medium cloves"
+      "name": "garlic",
+      "quantity": "5 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1008,
@@ -80,8 +84,9 @@
     },
     {
       "ingredient_id": 1294,
-      "name": "peeled whole tomatoes, drained and crushed by hand",
-      "quantity": "1 (28 oz) can"
+      "name": "peeled whole tomatoes",
+      "quantity": "1 (28 oz) can",
+      "prep": "drained and crushed by hand"
     },
     {
       "ingredient_id": 1479,
@@ -100,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the thighs and drumsticks of the bone-in skin-on chicken legs. Thinly slice the yellow onion. Stem, seed, and thinly slice the red bell pepper. Thinly slice the garlic. Drain and crush the peeled whole tomatoes by hand.",
+      "secondary_message": "3 to 4 lb bone-in skin-on chicken legs\n2 medium yellow onion\n1 ½ red bell pepper\n5 medium cloves garlic\n1 (28 oz) can peeled whole tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 350°F. Season chicken all over with salt and pepper.",

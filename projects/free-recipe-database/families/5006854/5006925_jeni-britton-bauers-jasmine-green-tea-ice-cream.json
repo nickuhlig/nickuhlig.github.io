@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "43 g"
+      "name": "cream cheese",
+      "quantity": "43 g",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1752,
@@ -90,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the cream cheese.",
+      "secondary_message": "43 g cream cheese"
+    },
     {
       "id": 1,
       "primary_message": "Make Cherries: Put the cherries in a heatproof bowl. Combine the water and sugar in a small saucepan and bring to a boil, stirring to dissolve the sugar. Pour the syrup over the cherries and let cool to room temperature. Refrigerate until chilled (the cherries will keep for up to a month in the refrigerator).",

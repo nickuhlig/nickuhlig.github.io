@@ -88,8 +88,9 @@
     },
     {
       "ingredient_id": 1938,
-      "name": "vanilla bean, split and scraped",
-      "quantity": "1"
+      "name": "vanilla bean",
+      "quantity": "1",
+      "prep": "split and scraped"
     },
     {
       "ingredient_id": 293,
@@ -108,6 +109,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split and scrape the vanilla bean.",
+      "secondary_message": "1 vanilla bean"
+    },
     {
       "id": 1,
       "primary_message": "Combine 2 quarts water, sassafras, sarsaparilla, birch, mint, star anise, ginger, and vanilla in a medium saucepan. Bring to a boil, reduce to a simmer, and cook for 10 minutes. Remove pot from heat, cover, and let steep for 2 hours.",

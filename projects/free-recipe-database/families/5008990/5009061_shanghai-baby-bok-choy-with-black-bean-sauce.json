@@ -63,9 +63,10 @@
     },
     {
       "ingredient_id": 285,
-      "name": "Shanghai baby bok choy, split in half",
+      "name": "Shanghai baby bok choy",
       "quantity": "3 ½",
-      "weigh_as": "340 g"
+      "weigh_as": "340 g",
+      "prep": "split in half"
     },
     {
       "ingredient_id": 53,
@@ -104,11 +105,18 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "6 medium cloves"
+      "name": "garlic",
+      "quantity": "6 medium cloves",
+      "prep": "roughly chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the Shanghai baby bok choy in half. Roughly chop the garlic.",
+      "secondary_message": "3 ½ Shanghai baby bok choy\n6 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Bring a large pot of salted water to a boil. Add bok choy and blanch until bright green, about 40 seconds. Transfer to a colander set in the sink and let drain well.",

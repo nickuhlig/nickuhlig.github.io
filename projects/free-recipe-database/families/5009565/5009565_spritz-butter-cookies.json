@@ -62,8 +62,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "8 oz"
+      "name": "unsalted butter",
+      "quantity": "8 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 346,
@@ -72,8 +73,9 @@
     },
     {
       "ingredient_id": 1938,
-      "name": "vanilla bean, seeds scraped",
-      "quantity": "1 bean"
+      "name": "vanilla bean",
+      "quantity": "1 bean",
+      "prep": "seeds scraped"
     },
     {
       "ingredient_id": 88,
@@ -87,11 +89,18 @@
     },
     {
       "ingredient_id": 116,
-      "name": "all-purpose flour, sifted",
-      "quantity": "11 ½ oz"
+      "name": "all-purpose flour",
+      "quantity": "11 ½ oz",
+      "prep": "sifted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter. Scrape the seeds from the vanilla bean. Sift the all-purpose flour.",
+      "secondary_message": "8 oz unsalted butter\n1 bean vanilla bean\n11 ½ oz all-purpose flour"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 375°F (see note). In the bowl of a stand mixer fitted with the paddle attachment, cream butter, sugar, vanilla bean seeds, salt, and cardamom on high speed, stopping often to scrape down the sides, until the mixture is light and fluffy, about 7 minutes total. Add the egg and beat again, stopping often to scrape down the sides and beater, until light and fluffy, 5 to 7 minutes.",

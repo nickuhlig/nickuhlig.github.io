@@ -56,8 +56,9 @@
   "ingredients": [
     {
       "ingredient_id": 29,
-      "name": "raw almonds, sliced",
-      "quantity": "⅓ cup"
+      "name": "raw almonds",
+      "quantity": "⅓ cup",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 1757,
@@ -86,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the raw almonds.",
+      "secondary_message": "⅓ cup raw almonds"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 400°F and toast almonds on a rimmed baking sheet until slightly darkened and fragrant, about 5 minutes. Be careful not to let them burn. Let cool before using.",

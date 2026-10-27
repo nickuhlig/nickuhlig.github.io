@@ -86,8 +86,9 @@
     },
     {
       "ingredient_id": 118,
-      "name": "whole milk, cold",
-      "quantity": "¼ cup minus 1 tsp"
+      "name": "whole milk",
+      "quantity": "¼ cup minus 1 tsp",
+      "prep": "cold"
     },
     {
       "ingredient_id": 121,
@@ -96,8 +97,9 @@
     },
     {
       "ingredient_id": 3641,
-      "name": "egg yolk, divided, straight from the fridge",
-      "quantity": "1 large"
+      "name": "egg yolk, divided",
+      "quantity": "1 large",
+      "prep": "straight from the fridge"
     },
     {
       "ingredient_id": 1903,
@@ -111,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the whole milk cold until you use it. Keep the egg yolk cold until you use it.",
+      "secondary_message": "¼ cup minus 1 tsp whole milk\n1 large egg yolk, divided"
+    },
     {
       "id": 1,
       "primary_message": "In the bowl of a stand mixer fitted with the dough hook attachment, add flour, salt, and yeast, making sure to place yeast and salt apart from one another in the bowl. Add milk, 3 eggs, and the egg yolk and mix on low speed until no dry flour remains, about 1 minute. Increase speed to medium and mix for 3 minutes, then let rest for 3 minutes. Repeat mixing on medium speed and resting dough, scraping down bowl and hook as needed, until dough is homogenous and somewhat elastic (you can stretch it but the dough will tear fairly easily).",

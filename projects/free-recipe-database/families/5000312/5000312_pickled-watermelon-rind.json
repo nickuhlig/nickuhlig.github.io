@@ -75,11 +75,18 @@
     },
     {
       "ingredient_id": 2316,
-      "name": "trimmed watermelon rind, cut into 1.5-inch chunks",
-      "quantity": "2 lb"
+      "name": "trimmed watermelon rind",
+      "quantity": "2 lb",
+      "prep": "cut into 1.5-inch chunks"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the trimmed watermelon rind into 1.5-inch chunks.",
+      "secondary_message": "2 lb trimmed watermelon rind"
+    },
     {
       "id": 1,
       "primary_message": "In a 3-quart saucepan, combine cider vinegar, sugar, candied ginger, salt, cloves, allspice berries, cinnamon stick, and lemon rind. Set over medium-high heat, bring to a boil, and cook for 15 minutes.",

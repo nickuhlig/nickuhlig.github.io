@@ -78,8 +78,9 @@
     },
     {
       "ingredient_id": 2014,
-      "name": "king oyster mushrooms, cut into 1/4-inch cubes",
-      "quantity": "14 oz"
+      "name": "king oyster mushrooms",
+      "quantity": "14 oz",
+      "prep": "cut into 1/4-inch cubes"
     },
     {
       "ingredient_id": 47,
@@ -93,18 +94,21 @@
     },
     {
       "ingredient_id": 1994,
-      "name": "thyme, leaves picked and minced",
-      "quantity": "6 sprigs"
+      "name": "thyme",
+      "quantity": "6 sprigs",
+      "prep": "leaves picked and minced"
     },
     {
       "ingredient_id": 2015,
-      "name": "sage, leaves picked and minced",
-      "quantity": "4 sprigs"
+      "name": "sage",
+      "quantity": "4 sprigs",
+      "prep": "leaves picked and minced"
     },
     {
       "ingredient_id": 1766,
-      "name": "rosemary, stems discarded and needles minced",
-      "quantity": "2 sprigs"
+      "name": "rosemary",
+      "quantity": "2 sprigs",
+      "prep": "stems discarded and needles minced"
     },
     {
       "ingredient_id": 83,
@@ -123,13 +127,15 @@
     },
     {
       "ingredient_id": 2016,
-      "name": "low-moisture mozzarella, shredded",
-      "quantity": "8 oz"
+      "name": "low-moisture mozzarella",
+      "quantity": "8 oz",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 120,
-      "name": "Parmigiano-Reggiano, grated",
-      "quantity": "3 ½ oz"
+      "name": "Parmigiano-Reggiano",
+      "quantity": "3 ½ oz",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1721,
@@ -148,8 +154,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 286,
@@ -158,8 +165,9 @@
     },
     {
       "ingredient_id": 1294,
-      "name": "whole peeled tomatoes, with their juices crushed by hand",
-      "quantity": "1 (14 oz) can"
+      "name": "whole peeled tomatoes",
+      "quantity": "1 (14 oz) can",
+      "prep": "with their juices crushed by hand"
     },
     {
       "ingredient_id": 1752,
@@ -168,6 +176,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the king oyster mushrooms into 1/4-inch cubes. Pick and mince the leaves from the thyme. Pick and mince the leaves from the sage. Discard the stems from the rosemary, then mince the needles. Shred the low-moisture mozzarella. Grate the Parmigiano-Reggiano. Mince the garlic. Crush the with their juices of the whole peeled tomatoes by hand.",
+      "secondary_message": "14 oz king oyster mushrooms\n6 sprigs thyme\n4 sprigs sage\n2 sprigs rosemary\n8 oz low-moisture mozzarella\n3 ½ oz Parmigiano-Reggiano\n4 medium cloves garlic\n1 (14 oz) can whole peeled tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "For the Pasta Dough: In a large bowl, combine semolina and salt. Form a well in the center about 4 inches wide. Pour egg yolks into well and, using a fork, beat thoroughly, then gradually begin incorporating the semolina into the eggs until a moist crumble forms. Gradually add water while using your hands to combine until a uniform, soft dough is formed. Wrap in plastic and let rest at room temperature for 1 hour 30 minutes.",

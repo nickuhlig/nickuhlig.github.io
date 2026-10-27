@@ -34,13 +34,15 @@
   "ingredients": [
     {
       "ingredient_id": 2320,
-      "name": "whole duck, giblets removed",
-      "quantity": "1"
+      "name": "whole duck",
+      "quantity": "1",
+      "prep": "giblets removed"
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, peeled and halved",
-      "quantity": "1 medium"
+      "name": "white onion",
+      "quantity": "1 medium",
+      "prep": "peeled and halved"
     },
     {
       "ingredient_id": 53,
@@ -74,8 +76,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, unpeeled",
-      "quantity": "1 head"
+      "name": "garlic",
+      "quantity": "1 head",
+      "prep": "unpeeled"
     },
     {
       "ingredient_id": 1815,
@@ -114,8 +117,9 @@
     },
     {
       "ingredient_id": 1940,
-      "name": "pandan leaves, washed",
-      "quantity": "3"
+      "name": "pandan leaves",
+      "quantity": "3",
+      "prep": "washed"
     },
     {
       "ingredient_id": 1574,
@@ -134,8 +138,9 @@
     },
     {
       "ingredient_id": 2180,
-      "name": "Chinese broccoli, sliced into 1/4-inch pieces",
-      "quantity": "113 g"
+      "name": "Chinese broccoli",
+      "quantity": "113 g",
+      "prep": "sliced into 1/4-inch pieces"
     },
     {
       "ingredient_id": 2062,
@@ -144,11 +149,18 @@
     },
     {
       "ingredient_id": 1720,
-      "name": "Chinese celery including leaves, cut into 1/2-inch lengths",
-      "quantity": "6 stems"
+      "name": "Chinese celery including leaves",
+      "quantity": "6 stems",
+      "prep": "cut into 1/2-inch lengths"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the giblets from the whole duck. Peel and halve the white onion. Leave the garlic unpeeled. Wash the pandan leaves. Slice the Chinese broccoli into 1/4-inch pieces. Cut the Chinese celery including leaves into 1/2-inch lengths.",
+      "secondary_message": "1 whole duck\n1 medium white onion\n1 head garlic\n3 pandan leaves\n113 g Chinese broccoli\n6 stems Chinese celery including leaves"
+    },
     {
       "id": 1,
       "primary_message": "For the Broth: Butcher duck (you can see our guide here) by first removing duck head and neck (if attached) and wings. Trim excess skin and fat from neck and cavity area, then remove both legs. Cut away backbone, then remove breasts from bone cage. Cut neck and backbone into roughly 8-cm pieces.",

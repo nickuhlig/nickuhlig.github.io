@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "4 tbsp (2 oz)"
+      "name": "unsalted butter",
+      "quantity": "4 tbsp (2 oz)",
+      "prep": "melted"
     },
     {
       "ingredient_id": 293,
@@ -67,8 +68,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "1 tbsp"
+      "name": "unsalted butter",
+      "quantity": "1 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 116,
@@ -172,8 +174,9 @@
     },
     {
       "ingredient_id": 3642,
-      "name": "egg whites, at room temperature",
-      "quantity": "6 large"
+      "name": "egg whites",
+      "quantity": "6 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 88,
@@ -182,11 +185,18 @@
     },
     {
       "ingredient_id": 327,
-      "name": "toasted pecans, chopped",
-      "quantity": "2 cups"
+      "name": "toasted pecans",
+      "quantity": "2 cups",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Soften the unsalted butter. Bring the egg whites to room temperature. Chop the toasted pecans.",
+      "secondary_message": "4 tbsp (2 oz) unsalted butter\n1 tbsp unsalted butter\n6 large egg whites\n2 cups toasted pecans"
+    },
     {
       "id": 1,
       "primary_message": "For the Sweet Potatoes: Adjust oven rack to middle position and preheat oven to 375°F. Arrange sweet potato slices in foil-lined 13- by 9-inch baking dish or foil-lined rimmed baking sheet.",

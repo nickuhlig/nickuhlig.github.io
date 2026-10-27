@@ -41,13 +41,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "2 medium"
+      "name": "garlic cloves",
+      "quantity": "2 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, peeled, minced",
-      "quantity": "1 (2 ½ cm) piece"
+      "name": "fresh ginger",
+      "quantity": "1 (2 ½ cm) piece",
+      "prep": "peeled, minced"
     },
     {
       "ingredient_id": 226,
@@ -76,6 +78,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic cloves. Peel and mince the fresh ginger.",
+      "secondary_message": "2 medium garlic cloves\n1 (2 ½ cm) piece fresh ginger"
+    },
     {
       "id": 1,
       "primary_message": "Heat 1 tablespoon sesame oil in a large skillet over medium heat until shimmering. Add garlic and ginger and cook, stirring, until aromatic, about 30 seconds. Add kale, and, using tongs, toss to coat. Add rice wine. Bring to a simmer, cover and cook until kale leaves are tender, 8 to 10 minutes.",

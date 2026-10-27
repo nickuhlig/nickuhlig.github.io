@@ -45,18 +45,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 260,
-      "name": "tomatoes, finely chopped",
-      "quantity": "2 medium"
+      "name": "tomatoes",
+      "quantity": "2 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1850,
-      "name": "green chile peppers, slit lengthwise",
-      "quantity": "3"
+      "name": "green chile peppers",
+      "quantity": "3",
+      "prep": "slit lengthwise"
     },
     {
       "ingredient_id": 2610,
@@ -75,8 +78,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, lightly beaten",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 88,
@@ -95,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the onion. Finely chop the tomatoes. Slit the green chile peppers lengthwise. Lightly beat the eggs.",
+      "secondary_message": "1 medium onion\n2 medium tomatoes\n3 green chile peppers\n4 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "In a 25-cm nonstick skillet, heat oil over medium-high heat until shimmering. Add onions and stir until softened, about 5-6 minutes. Add tomatoes, mix well, and cook until most of the excess moisture has evaporated, about 1 minute.",

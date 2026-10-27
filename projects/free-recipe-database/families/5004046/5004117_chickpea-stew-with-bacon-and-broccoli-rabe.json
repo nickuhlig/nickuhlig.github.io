@@ -35,18 +35,21 @@
   "ingredients": [
     {
       "ingredient_id": 302,
-      "name": "thick-cut bacon, cut crosswise into 1/4-inch strips",
-      "quantity": "115 g"
+      "name": "thick-cut bacon",
+      "quantity": "115 g",
+      "prep": "cut crosswise into 1/4-inch strips"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, cut into 1/4-inch dice",
-      "quantity": "1 medium"
+      "name": "red onion",
+      "quantity": "1 medium",
+      "prep": "cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 286,
@@ -90,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the thick-cut bacon crosswise into 1/4-inch strips. Cut the red onion into 1/4-inch dice. Thinly slice the garlic.",
+      "secondary_message": "115 g thick-cut bacon\n1 medium red onion\n4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "In a medium pot or Dutch oven, cook bacon over medium heat, stirring often, until fat has mostly rendered and bacon is lightly browned, about 6 minutes. Add onion and garlic and cook, stirring often, until it is soft and lightly golden, about 6 minutes longer. Stir in rosemary and cook for 1 minute.",

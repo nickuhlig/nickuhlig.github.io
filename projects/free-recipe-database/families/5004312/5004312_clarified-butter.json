@@ -51,11 +51,18 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cubed",
-      "quantity": "1 lb"
+      "name": "unsalted butter",
+      "quantity": "1 lb",
+      "prep": "cubed"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cube the unsalted butter.",
+      "secondary_message": "1 lb unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a small saucepan, melt butter over medium-high heat.",

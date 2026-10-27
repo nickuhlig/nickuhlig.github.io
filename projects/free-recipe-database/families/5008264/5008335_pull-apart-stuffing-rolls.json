@@ -49,23 +49,27 @@
     },
     {
       "ingredient_id": 2728,
-      "name": "sage sausage, removed from casings",
-      "quantity": "225 g"
+      "name": "sage sausage",
+      "quantity": "225 g",
+      "prep": "removed from casings"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, finely chopped",
-      "quantity": "1 rib"
+      "name": "celery",
+      "quantity": "1 rib",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely chopped",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2015,
@@ -104,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the sage sausage from casings. Finely chop the onion. Finely chop the celery. Finely chop the garlic.",
+      "secondary_message": "225 g sage sausage\n1 small onion\n1 rib celery\n4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Melt 2 tablespoons butter in a large skillet over medium-high heat. Add sausage and mash with a stiff whisk or potato masher to break up into fine pieces (the largest pieces should be no bigger than 0.5 cm). Cook, stirring frequently, until only a few bits of pink remain, about 8 minutes. Add onion, celery, garlic, and sage and cook, stirring frequently, until vegetables are softened, about 10 minutes. Add parsley and season to taste with salt and pepper. Transfer contents to a large bowl and set aside until completely cool.",

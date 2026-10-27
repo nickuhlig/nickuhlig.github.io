@@ -44,13 +44,15 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, thinly sliced",
-      "quantity": "¼ small"
+      "name": "red onion",
+      "quantity": "¼ small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 232,
-      "name": "navel oranges, cut into trimmed segments",
-      "quantity": "2"
+      "name": "navel oranges",
+      "quantity": "2",
+      "prep": "cut into trimmed segments"
     },
     {
       "ingredient_id": 117,
@@ -84,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the red onion. Cut the navel oranges into trimmed segments.",
+      "secondary_message": "¼ small red onion\n2 navel oranges"
+    },
     {
       "id": 1,
       "primary_message": "Combine the arugula, fennel, fennel fronds, and orange segments in a large bowl.",

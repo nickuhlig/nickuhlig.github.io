@@ -42,8 +42,9 @@
   "ingredients": [
     {
       "ingredient_id": 3520,
-      "name": "sashimi-grade arctic char fillet, skinned and trimmed of any dark flesh",
-      "quantity": "¾ lb"
+      "name": "sashimi-grade arctic char fillet",
+      "quantity": "¾ lb",
+      "prep": "skinned and trimmed of any dark flesh"
     },
     {
       "ingredient_id": 88,
@@ -52,8 +53,9 @@
     },
     {
       "ingredient_id": 2485,
-      "name": "stemmed and seeded habanero pepper, roughly chopped",
-      "quantity": "½"
+      "name": "stemmed and seeded habanero pepper",
+      "quantity": "½",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 359,
@@ -67,8 +69,9 @@
     },
     {
       "ingredient_id": 243,
-      "name": "packed mint leaves, roughly chopped",
-      "quantity": "¼ cup"
+      "name": "packed mint leaves",
+      "quantity": "¼ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 72,
@@ -92,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Skin and trim the sashimi-grade arctic char fillet of any dark flesh. Roughly chop the stemmed and seeded habanero pepper. Roughly chop the packed mint leaves.",
+      "secondary_message": "¾ lb sashimi-grade arctic char fillet\n½ stemmed and seeded habanero pepper\n¼ cup packed mint leaves"
+    },
     {
       "id": 1,
       "primary_message": "Split fillet lengthwise along natural division, trimming away center line with any sinew or bones. Then slice the fillet halves crosswise into thin strips. Arrange sliced fish on a large plate and sprinkle all over with salt. Cover with plastic and refrigerate for at least 1 hour and up to 2 hours.",

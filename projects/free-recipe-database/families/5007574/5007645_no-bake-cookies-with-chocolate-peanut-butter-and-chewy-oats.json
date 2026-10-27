@@ -82,8 +82,9 @@
     },
     {
       "ingredient_id": 1729,
-      "name": "dark chocolate, about 72% , melted",
-      "quantity": "28 g"
+      "name": "dark chocolate, about 72%",
+      "quantity": "28 g",
+      "prep": "melted"
     },
     {
       "ingredient_id": 1567,
@@ -107,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the dark chocolate.",
+      "secondary_message": "28 g dark chocolate, about 72%"
+    },
     {
       "id": 1,
       "primary_message": "Whisk sugar, milk, cocoa, and salt together in a 3-quart stainless steel saucier. Bring to a boil over medium heat (this should take about 5 minutes), then clip-on a digital thermometer and continue cooking until mixture is bubbly, thick, and exactly 110°C, about 6 minutes longer. For best results, avoid handheld thermometers, which may not perform well due to unsteady placement during long-term projects such as candy.",

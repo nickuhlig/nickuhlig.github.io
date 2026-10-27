@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 242,
-      "name": "strawberries, hulled and sliced",
-      "quantity": "2 cups"
+      "name": "strawberries",
+      "quantity": "2 cups",
+      "prep": "hulled and sliced"
     },
     {
       "ingredient_id": 346,
@@ -50,13 +51,15 @@
     },
     {
       "ingredient_id": 242,
-      "name": "strawberries, hulled, plus more for garnish",
-      "quantity": "4 large"
+      "name": "strawberries, plus more for garnish",
+      "quantity": "4 large",
+      "prep": "hulled"
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, cut into half-moons",
-      "quantity": "1 round slice"
+      "name": "lemon",
+      "quantity": "1 round slice",
+      "prep": "cut into half-moons"
     },
     {
       "ingredient_id": 3252,
@@ -75,6 +78,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Hull and slice the strawberries. Hull the strawberries. Cut the lemon into half-moons.",
+      "secondary_message": "2 cups strawberries\n4 large strawberries, plus more for garnish\n1 round slice lemon"
+    },
     {
       "id": 1,
       "primary_message": "For the Strawberry Syrup: In a small saucepan, combine strawberries, sugar, and lemon rind. Cover and let stand, stirring occasionally, for 1 hour at room temperature.",

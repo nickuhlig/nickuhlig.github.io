@@ -97,8 +97,9 @@
     },
     {
       "ingredient_id": 3396,
-      "name": "bluefish fillets, cut into 4 even portions",
-      "quantity": "0.68 kg"
+      "name": "bluefish fillets",
+      "quantity": "0.68 kg",
+      "prep": "cut into 4 even portions"
     },
     {
       "ingredient_id": 106,
@@ -107,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the bluefish fillets into 4 even portions.",
+      "secondary_message": "0.68 kg bluefish fillets"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 205°C (400°F) and arrange oven rack 20 cm from broiler element. Line a rimmed baking sheet with foil or parchment paper.",

@@ -92,8 +92,9 @@
     },
     {
       "ingredient_id": 1848,
-      "name": "refined coconut oil, at room temperature",
-      "quantity": "⅓ cup"
+      "name": "refined coconut oil",
+      "quantity": "⅓ cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -102,8 +103,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "5 ½ tbsp"
+      "name": "unsalted butter",
+      "quantity": "5 ½ tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 3641,
@@ -127,8 +129,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "12 tbsp"
+      "name": "unsalted butter",
+      "quantity": "12 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 353,
@@ -162,6 +165,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the refined coconut oil to room temperature. Soften the unsalted butter. Soften the unsalted butter.",
+      "secondary_message": "⅓ cup refined coconut oil\n5 ½ tbsp unsalted butter\n12 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Cookies: Adjust oven racks to upper-middle and lower-middle positions and preheat oven to 325°F. In a medium bowl, whisk flour, cocoa powder, salt, and baking powder until well combined. Set aside.",

@@ -67,8 +67,9 @@
     },
     {
       "ingredient_id": 3253,
-      "name": "sugar cones, roughly crumbled",
-      "quantity": "6"
+      "name": "sugar cones",
+      "quantity": "6",
+      "prep": "roughly crumbled"
     },
     {
       "ingredient_id": 2315,
@@ -82,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly crumble the sugar cones.",
+      "secondary_message": "6 sugar cones"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat to 350°F.",

@@ -82,8 +82,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "1 oz"
+      "name": "unsalted butter",
+      "quantity": "1 oz",
+      "prep": "melted"
     },
     {
       "ingredient_id": 1782,
@@ -112,13 +113,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "4 oz"
+      "name": "unsalted butter",
+      "quantity": "4 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "3 oz"
+      "name": "cream cheese",
+      "quantity": "3 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 116,
@@ -132,6 +135,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Soften the unsalted butter. Soften the cream cheese.",
+      "secondary_message": "1 oz unsalted butter\n4 oz unsalted butter\n3 oz cream cheese"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350°F (175ºC). On a 13- by 18-inch rimmed baking sheet, spread pecan halves in a single layer. Select 24 perfect, unbroken pecan halves; transfer to a small bowl and set aside for topping. Bake remaining pecan halves in preheated oven until fragrant and toasted, 7 to 8 minutes. Let cool slightly, about 5 minutes.",

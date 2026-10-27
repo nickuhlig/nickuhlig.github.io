@@ -31,9 +31,10 @@
   "ingredients": [
     {
       "ingredient_id": 3064,
-      "name": "Yukon gold potatoes, cut into 3/4-inch dice",
+      "name": "Yukon gold potatoes",
       "quantity": "3 medium",
-      "weigh_as": "1 ½ lb"
+      "weigh_as": "1 ½ lb",
+      "prep": "cut into 3/4-inch dice"
     },
     {
       "ingredient_id": 1574,
@@ -52,9 +53,10 @@
     },
     {
       "ingredient_id": 26,
-      "name": "asparagus, woody ends trimmed",
+      "name": "asparagus",
       "quantity": "⅔ bunch",
-      "weigh_as": "10 oz"
+      "weigh_as": "10 oz",
+      "prep": "woody ends trimmed"
     },
     {
       "ingredient_id": 2021,
@@ -68,8 +70,9 @@
     },
     {
       "ingredient_id": 1058,
-      "name": "roast pork shoulder, pulled into 2-inch long pieces",
-      "quantity": "12 oz"
+      "name": "roast pork shoulder",
+      "quantity": "12 oz",
+      "prep": "pulled into 2-inch long pieces"
     },
     {
       "ingredient_id": 76,
@@ -98,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the Yukon gold potatoes into 3/4-inch dice. Trim the woody ends of the asparagus. Pull the roast pork shoulder into 2-inch long pieces.",
+      "secondary_message": "3 medium Yukon gold potatoes\n⅔ bunch asparagus\n12 oz roast pork shoulder"
+    },
     {
       "id": 1,
       "primary_message": "For the Hash: Place potatoes in a 3-quart saucepan and cover with 2 quarts cold water. Add vinegar and 2 tablespoons kosher salt. Bring to a boil over high heat. Reduce to a simmer and cook until barely tender, about 7 minutes after coming to a boil. Drain potatoes in a colander, then set aside.",

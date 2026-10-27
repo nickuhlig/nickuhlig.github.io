@@ -37,8 +37,9 @@
   "ingredients": [
     {
       "ingredient_id": 184,
-      "name": "red onions, peeled and thinly sliced",
-      "quantity": "2"
+      "name": "red onions",
+      "quantity": "2",
+      "prep": "peeled and thinly sliced"
     },
     {
       "ingredient_id": 1721,
@@ -52,8 +53,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and thinly sliced",
-      "quantity": "1 clove"
+      "name": "garlic",
+      "quantity": "1 clove",
+      "prep": "peeled and thinly sliced"
     },
     {
       "ingredient_id": 130,
@@ -62,6 +64,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and thinly slice the red onions. Peel and thinly slice the garlic.",
+      "secondary_message": "2 red onions\n1 clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "Place onions, pepper flakes, salt, and garlic in a bowl. Cover with red wine vinegar. Stir to combine.",

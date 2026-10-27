@@ -140,8 +140,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, soft but cool, about 68°F",
-      "quantity": "170 g"
+      "name": "unsalted butter",
+      "quantity": "170 g",
+      "prep": "soft but cool, about 68°F"
     },
     {
       "ingredient_id": 100,
@@ -155,8 +156,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, cold",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "cold"
     },
     {
       "ingredient_id": 353,
@@ -165,6 +167,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Let the unsalted butter soften slightly but keep it cool and bring it to 68°F. Keep the eggs cold until you use them.",
+      "secondary_message": "170 g unsalted butter\n2 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "For the Streusel: Combine rolled oats, brown sugar, flour, cinnamon, salt, and butter in the bowl of a stand mixer fitted with a paddle attachment. Mix on low to form a crumbly meal, then fold in pumpkin seeds by hand. Transfer to a small bowl, cover with plastic, and freeze until needed, up to 1 month.",

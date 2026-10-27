@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, diced",
-      "quantity": "5 tbsp"
+      "name": "cold unsalted butter",
+      "quantity": "5 tbsp",
+      "prep": "diced"
     },
     {
       "ingredient_id": 2475,
@@ -66,6 +67,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the cold unsalted butter.",
+      "secondary_message": "5 tbsp cold unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 400°F. Line a baking sheet with parchment paper.",

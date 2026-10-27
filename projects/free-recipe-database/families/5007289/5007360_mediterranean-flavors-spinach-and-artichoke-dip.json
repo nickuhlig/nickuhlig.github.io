@@ -41,18 +41,21 @@
     },
     {
       "ingredient_id": 1879,
-      "name": "spinach, large stems removed",
-      "quantity": "283 g"
+      "name": "spinach",
+      "quantity": "283 g",
+      "prep": "large stems removed"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and crushed",
-      "quantity": "6 cloves"
+      "name": "garlic",
+      "quantity": "6 cloves",
+      "prep": "peeled and crushed"
     },
     {
       "ingredient_id": 344,
-      "name": "jar of marinated artichokes, drained",
-      "quantity": "28 g"
+      "name": "jar of marinated artichokes",
+      "quantity": "28 g",
+      "prep": "drained"
     },
     {
       "ingredient_id": 122,
@@ -66,6 +69,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the large stems from the spinach. Peel and crush the garlic. Drain the jar of marinated artichokes.",
+      "secondary_message": "283 g spinach\n6 cloves garlic\n28 g jar of marinated artichokes"
+    },
     {
       "id": 1,
       "primary_message": "Heat olive oil on medium-low heat, then add spinach. Add a good pinch of salt and stir often until the spinach wilts down. Let it cook till it becomes glossy, limp, and feathery in texture.",

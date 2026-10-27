@@ -64,18 +64,21 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, softened plus more for greasing pans",
-      "quantity": "8 oz"
+      "name": "butter",
+      "quantity": "8 oz",
+      "prep": "softened plus more for greasing pans"
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, room temperature",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 3641,
-      "name": "egg yolks, room temperature",
-      "quantity": "2 large"
+      "name": "egg yolks",
+      "quantity": "2 large",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 353,
@@ -84,8 +87,9 @@
     },
     {
       "ingredient_id": 2475,
-      "name": "buttermilk, room temperature",
-      "quantity": "1 ⅔ cups"
+      "name": "buttermilk",
+      "quantity": "1 ⅔ cups",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 359,
@@ -114,8 +118,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, room temperature",
-      "quantity": "1 lb"
+      "name": "butter",
+      "quantity": "1 lb",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 353,
@@ -129,6 +134,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the butter plus more for greasing pans. Bring the eggs to room temperature. Bring the egg yolks to room temperature. Bring the buttermilk to room temperature. Bring the butter to room temperature.",
+      "secondary_message": "8 oz butter\n4 large eggs\n2 large egg yolks\n1 ⅔ cups buttermilk\n1 lb butter"
+    },
     {
       "id": 1,
       "primary_message": "For the cake: Preheat oven to 350°F. Grease three 8-inch cake pans with butter and line with rounds of parchment paper. Set aside.",

@@ -49,8 +49,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1483,
@@ -84,8 +85,9 @@
     },
     {
       "ingredient_id": 260,
-      "name": "tomatoes, broken up, with juice",
-      "quantity": "1 (794 g) can"
+      "name": "tomatoes, with juice",
+      "quantity": "1 (794 g) can",
+      "prep": "broken up"
     },
     {
       "ingredient_id": 1070,
@@ -94,11 +96,18 @@
     },
     {
       "ingredient_id": 2351,
-      "name": "beans, drained",
-      "quantity": "1 (425 g) can"
+      "name": "beans",
+      "quantity": "1 (425 g) can",
+      "prep": "drained"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic. Break up the tomatoes. Drain the beans.",
+      "secondary_message": "3 cloves garlic\n1 (794 g) can tomatoes, with juice\n1 (425 g) can beans"
+    },
     {
       "id": 1,
       "primary_message": "In a dry large skillet over high heat, lightly toast both sides of the chilies for a few minutes. After roasting, remove from pan to slice open, then remove and discard the stem and seeds. Cover the chilies in boiling water and let soften for 5 minutes. In a blender or food processor, puree the chiles with enough soaking liquid to form a thick paste.",

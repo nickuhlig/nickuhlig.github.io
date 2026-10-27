@@ -34,8 +34,9 @@
   "ingredients": [
     {
       "ingredient_id": 19,
-      "name": "white button mushrooms, stems remove and thickly sliced",
-      "quantity": "397 g"
+      "name": "white button mushrooms",
+      "quantity": "397 g",
+      "prep": "stems remove and thickly sliced"
     },
     {
       "ingredient_id": 47,
@@ -44,13 +45,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño pepper, stemmed, seeded, and finely chopped",
-      "quantity": "1"
+      "name": "jalapeño pepper",
+      "quantity": "1",
+      "prep": "stemmed, seeded, and finely chopped"
     },
     {
       "ingredient_id": 1191,
@@ -99,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thickly slice the stems remove and of the white button mushrooms. Finely chop the onion. Stem, seed, and finely chop the jalapeño pepper.",
+      "secondary_message": "397 g white button mushrooms\n1 medium onion\n1 jalapeño pepper"
+    },
     {
       "id": 1,
       "primary_message": "Pour the oil into a pot set over medium heat. Toss in the onion and the jalapeño and cook for 6 minutes, stirring occasionally. Add the garlic, stir well, and cook for 2 minutes. Sprinkle in the cumin, coriander, and chile powder, stir well, and cook for 1 minutes.",

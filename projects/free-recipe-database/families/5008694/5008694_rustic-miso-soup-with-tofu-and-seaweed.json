@@ -39,8 +39,9 @@
     },
     {
       "ingredient_id": 1990,
-      "name": "dried kombu piece, rinsed in cold water",
-      "quantity": "½ oz"
+      "name": "dried kombu piece",
+      "quantity": "½ oz",
+      "prep": "rinsed in cold water"
     },
     {
       "ingredient_id": 359,
@@ -54,8 +55,9 @@
     },
     {
       "ingredient_id": 1610,
-      "name": "cake silken tofu, cut into 1/2-inch pieces",
-      "quantity": "⅓"
+      "name": "cake silken tofu",
+      "quantity": "⅓",
+      "prep": "cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 1718,
@@ -74,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse the dried kombu piece in cold water. Cut the cake silken tofu into 1/2-inch pieces.",
+      "secondary_message": "½ oz dried kombu piece\n⅓ cake silken tofu"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, cover wakame with enough cold water to cover and let stand at room temperature until soft, about 15 minutes.",

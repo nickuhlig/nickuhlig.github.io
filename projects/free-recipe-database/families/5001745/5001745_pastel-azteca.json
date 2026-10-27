@@ -77,8 +77,9 @@
     },
     {
       "ingredient_id": 1541,
-      "name": "plum tomatoes, halved",
-      "quantity": "4"
+      "name": "plum tomatoes",
+      "quantity": "4",
+      "prep": "halved"
     },
     {
       "ingredient_id": 3686,
@@ -107,8 +108,9 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, thinly sliced",
-      "quantity": "1"
+      "name": "white onion",
+      "quantity": "1",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2402,
@@ -117,8 +119,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 303,
@@ -157,11 +160,18 @@
     },
     {
       "ingredient_id": 57,
-      "name": "Mozzarella, shredded",
-      "quantity": ""
+      "name": "Mozzarella",
+      "quantity": "",
+      "prep": "shredded"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the plum tomatoes. Thinly slice the white onion. Thinly slice the garlic. Shred the Mozzarella.",
+      "secondary_message": "4 plum tomatoes\n1 white onion\n3 cloves garlic\nMozzarella"
+    },
     {
       "id": 1,
       "primary_message": "For the Requeson-Crema Mixture: In a bowl, whisk together requeson and crema. Cover and refrigerate until ready to use.",

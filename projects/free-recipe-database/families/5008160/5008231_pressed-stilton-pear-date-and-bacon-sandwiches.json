@@ -34,8 +34,9 @@
   "ingredients": [
     {
       "ingredient_id": 302,
-      "name": "thick cut bacon, coarsely chopped",
-      "quantity": "8 slices"
+      "name": "thick cut bacon",
+      "quantity": "8 slices",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 117,
@@ -59,11 +60,18 @@
     },
     {
       "ingredient_id": 1012,
-      "name": "baguette, split in half lengthwise",
-      "quantity": "4 (15 cm) pieces"
+      "name": "baguette",
+      "quantity": "4 (15 cm) pieces",
+      "prep": "split in half lengthwise"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Coarsely chop the thick cut bacon. Split the baguette in half lengthwise.",
+      "secondary_message": "8 slices thick cut bacon\n4 (15 cm) pieces baguette"
+    },
     {
       "id": 1,
       "primary_message": "Cook bacon in large skillet over medium heat, stirring occasionally, until crisp and golden, about 8 minutes. With slotted spoon, transfer to paper towel-lined plate. Pour rendered fat into bowl; reserve.",

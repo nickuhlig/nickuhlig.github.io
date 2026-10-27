@@ -39,8 +39,9 @@
   "ingredients": [
     {
       "ingredient_id": 14,
-      "name": "Brussels sprouts, trimmed and split in half",
-      "quantity": "1 ½ lb (24 oz)"
+      "name": "Brussels sprouts",
+      "quantity": "1 ½ lb (24 oz)",
+      "prep": "trimmed and split in half"
     },
     {
       "ingredient_id": 47,
@@ -59,6 +60,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim and split the Brussels sprouts in half.",
+      "secondary_message": "1 ½ lb (24 oz) Brussels sprouts"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to upper-third position, place a foil-lined rimmed baking sheet on it, and preheat oven to 500°F. Toss sprouts with olive oil and season to taste with salt and pepper. Remove baking sheet from oven and add Brussels sprouts, working quickly to turn them all cut-side-down. Return to oven and roast until tender and deeply browned, about 20 minutes total. Serve immediately.",

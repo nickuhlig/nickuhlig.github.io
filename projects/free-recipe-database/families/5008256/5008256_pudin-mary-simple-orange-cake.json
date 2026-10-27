@@ -93,13 +93,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "1 lb"
+      "name": "unsalted butter",
+      "quantity": "1 lb",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 118,
@@ -113,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature. Bring the eggs to room temperature.",
+      "secondary_message": "1 lb unsalted butter\n3 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350°F. Lightly spray Bundt pan with baking spray.",

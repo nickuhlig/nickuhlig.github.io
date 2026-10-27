@@ -44,8 +44,9 @@
   "ingredients": [
     {
       "ingredient_id": 469,
-      "name": "ripe black plum, quartered",
-      "quantity": "1"
+      "name": "ripe black plum",
+      "quantity": "1",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 346,
@@ -54,8 +55,9 @@
     },
     {
       "ingredient_id": 228,
-      "name": "lime, cut in half",
-      "quantity": "½"
+      "name": "lime",
+      "quantity": "½",
+      "prep": "cut in half"
     },
     {
       "ingredient_id": 243,
@@ -74,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Quarter the ripe black plum. Cut the lime in half.",
+      "secondary_message": "1 ripe black plum\n½ lime"
+    },
     {
       "id": 1,
       "primary_message": "Muddle plum or pluot with sugar into a rough pulp. Add lime and mint leaves and muddle lightly. Fill cocktail shaker with ice, add rum, and shake until very cold, about 15 seconds.",

@@ -62,8 +62,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "0.45 kg"
+      "name": "unsalted butter",
+      "quantity": "0.45 kg",
+      "prep": "softened"
     },
     {
       "ingredient_id": 293,
@@ -72,8 +73,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 353,
@@ -82,13 +84,15 @@
     },
     {
       "ingredient_id": 2475,
-      "name": "buttermilk, at room temperature",
-      "quantity": "1 ¼ cups"
+      "name": "buttermilk",
+      "quantity": "1 ¼ cups",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, chopped",
-      "quantity": "227 g"
+      "name": "bittersweet chocolate",
+      "quantity": "227 g",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1752,
@@ -107,11 +111,18 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, chopped",
-      "quantity": "85 g"
+      "name": "bittersweet chocolate",
+      "quantity": "85 g",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter. Bring the eggs to room temperature. Bring the buttermilk to room temperature. Chop the bittersweet chocolate. Chop the bittersweet chocolate.",
+      "secondary_message": "0.45 kg unsalted butter\n4 large eggs\n1 ¼ cups buttermilk\n227 g bittersweet chocolate\n85 g bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Adjust oven rack to middle position and preheat oven to 175°C (350°F). Coat a 17 1/4- by 29-cm jelly roll pan with baking spray.",

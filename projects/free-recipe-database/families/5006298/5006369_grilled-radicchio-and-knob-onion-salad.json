@@ -34,13 +34,15 @@
   "ingredients": [
     {
       "ingredient_id": 2521,
-      "name": "red leaf lettuce, torn into pieces, rinsed, and dried",
-      "quantity": "1 medium head"
+      "name": "red leaf lettuce, and dried",
+      "quantity": "1 medium head",
+      "prep": "torn into pieces, rinsed"
     },
     {
       "ingredient_id": 2520,
-      "name": "radicchio, cut in half and rinsed",
-      "quantity": "1 head"
+      "name": "radicchio",
+      "quantity": "1 head",
+      "prep": "cut in half and rinsed"
     },
     {
       "ingredient_id": 1713,
@@ -79,11 +81,18 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely minced",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "finely minced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Tear the red leaf lettuce into pieces, then rinse it. Cut the radicchio in half, then rinse it. Finely mince the shallot.",
+      "secondary_message": "1 medium head red leaf lettuce, and dried\n1 head radicchio\n1 medium shallot"
+    },
     {
       "id": 1,
       "primary_message": "Whisk together all of the ingredients for the vinaigrette a small bowl and set aside.",

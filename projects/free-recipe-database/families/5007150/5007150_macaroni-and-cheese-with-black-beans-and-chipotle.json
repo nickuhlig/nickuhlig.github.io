@@ -57,13 +57,15 @@
     },
     {
       "ingredient_id": 185,
-      "name": "black beans, drained and rinsed",
-      "quantity": "1 (15 oz) can"
+      "name": "black beans",
+      "quantity": "1 (15 oz) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 1618,
-      "name": "chipotle chilis, canned in adobo sauce, minced",
-      "quantity": "2"
+      "name": "chipotle chilis, canned in adobo sauce",
+      "quantity": "2",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2747,
@@ -72,18 +74,21 @@
     },
     {
       "ingredient_id": 2021,
-      "name": "serrano chile, finely minced",
-      "quantity": "1"
+      "name": "serrano chile",
+      "quantity": "1",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 1264,
-      "name": "American cheese, roughly grated or diced",
-      "quantity": "6 oz"
+      "name": "American cheese",
+      "quantity": "6 oz",
+      "prep": "roughly grated or diced"
     },
     {
       "ingredient_id": 43,
-      "name": "sharp cheddar cheese, roughly grated or diced",
-      "quantity": "6 oz"
+      "name": "sharp cheddar cheese",
+      "quantity": "6 oz",
+      "prep": "roughly grated or diced"
     },
     {
       "ingredient_id": 188,
@@ -97,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain and rinse the black beans. Mince the chipotle chilis. Finely mince the serrano chile. Roughly grate or dice the American cheese. Roughly grate or dice the sharp cheddar cheese.",
+      "secondary_message": "1 (15 oz) can black beans\n2 chipotle chilis, canned in adobo sauce\n1 serrano chile\n6 oz American cheese\n6 oz sharp cheddar cheese"
+    },
     {
       "id": 1,
       "primary_message": "Combine cornstarch, evaporated milk, and eggs in a medium bowl and whisk until homogenous. Set aside.",

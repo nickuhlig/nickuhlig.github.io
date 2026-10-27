@@ -46,8 +46,9 @@
   "ingredients": [
     {
       "ingredient_id": 152,
-      "name": "yellow/white onion, peeled and halved",
-      "quantity": "1 medium"
+      "name": "yellow/white onion",
+      "quantity": "1 medium",
+      "prep": "peeled and halved"
     },
     {
       "ingredient_id": 221,
@@ -67,8 +68,9 @@
     },
     {
       "ingredient_id": 1995,
-      "name": "black cardamom pods, slightly crushed to reveal seeds",
-      "quantity": "2"
+      "name": "black cardamom pods",
+      "quantity": "2",
+      "prep": "slightly crushed to reveal seeds"
     },
     {
       "ingredient_id": 1082,
@@ -127,13 +129,15 @@
     },
     {
       "ingredient_id": 2001,
-      "name": "jalapeño eye chile, thinly sliced",
-      "quantity": "1"
+      "name": "jalapeño eye chile",
+      "quantity": "1",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 228,
-      "name": "limes, cut into wedges",
-      "quantity": "2"
+      "name": "limes",
+      "quantity": "2",
+      "prep": "cut into wedges"
     },
     {
       "ingredient_id": 184,
@@ -157,16 +161,24 @@
     },
     {
       "ingredient_id": 2002,
-      "name": "Vietnamese beef meatballs, halved",
-      "quantity": "11 oz"
+      "name": "Vietnamese beef meatballs",
+      "quantity": "11 oz",
+      "prep": "halved"
     },
     {
       "ingredient_id": 2003,
-      "name": "beef round, very thinly sliced",
-      "quantity": "1 lb"
+      "name": "beef round",
+      "quantity": "1 lb",
+      "prep": "very thinly sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and halve the yellow/white onion. Slightly crush the black cardamom pods to reveal seeds. Thinly slice the jalapeño eye chile. Cut the limes into wedges. Halve the Vietnamese beef meatballs. Very thinly slice the beef round.",
+      "secondary_message": "1 medium yellow/white onion\n2 black cardamom pods\n1 jalapeño eye chile\n2 limes\n11 oz Vietnamese beef meatballs\n1 lb beef round"
+    },
     {
       "id": 1,
       "primary_message": "For the Soup: Using a broiler with the oven rack in the highest position, in a dry cast iron skillet over high heat, or over an open medium gas flame, char onion and ginger, using tongs to rotate for even charring, until softened and lightly blackened, about 10-12 minutes. Allow to cool, then peel the ginger and discard any heavily blackened parts and set aside.",

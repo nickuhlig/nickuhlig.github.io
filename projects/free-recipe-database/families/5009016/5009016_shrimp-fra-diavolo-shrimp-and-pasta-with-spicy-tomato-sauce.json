@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 82,
@@ -90,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the garlic.",
+      "secondary_message": "4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Bring a large pot of salted water to a boil. In a medium bowl, toss the shrimp well with the 1/2 teaspoon salt and the baking soda. Set aside.",

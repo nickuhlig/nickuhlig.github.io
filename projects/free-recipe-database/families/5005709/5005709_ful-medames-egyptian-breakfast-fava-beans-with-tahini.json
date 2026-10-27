@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 1271,
-      "name": "cumin seeds, freshly toasted",
-      "quantity": "1 tsp"
+      "name": "cumin seeds",
+      "quantity": "1 tsp",
+      "prep": "freshly toasted"
     },
     {
       "ingredient_id": 88,
@@ -72,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Freshly toast the cumin seeds.",
+      "secondary_message": "1 tsp cumin seeds"
+    },
     {
       "id": 1,
       "primary_message": "Put garlic cloves, cumin seeds, and a pinch of salt in a mortar and pestle and crush until seeds are cracked and garlic is in small, flimsy chunks. If you don't have a mortar and pestle, mince garlic very fine.",

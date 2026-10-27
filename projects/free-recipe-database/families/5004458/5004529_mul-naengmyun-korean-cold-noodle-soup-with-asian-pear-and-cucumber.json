@@ -59,8 +59,9 @@
     },
     {
       "ingredient_id": 3141,
-      "name": "Korean pickled radish with brine, julienned, plus brine to taste",
-      "quantity": "1 (350 g) pkg"
+      "name": "Korean pickled radish with brine, plus brine to taste",
+      "quantity": "1 (350 g) pkg",
+      "prep": "julienned"
     },
     {
       "ingredient_id": 3140,
@@ -69,11 +70,18 @@
     },
     {
       "ingredient_id": 121,
-      "name": "hard-boiled eggs, peeled and halved lengthwise",
-      "quantity": "4 large"
+      "name": "hard-boiled eggs",
+      "quantity": "4 large",
+      "prep": "peeled and halved lengthwise"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Julienne the Korean pickled radish with brine. Peel and halve the hard-boiled eggs lengthwise.",
+      "secondary_message": "1 (350 g) pkg Korean pickled radish with brine, plus brine to taste\n4 large hard-boiled eggs"
+    },
     {
       "id": 1,
       "primary_message": "In a medium pot, bring stock, whole scallion, ginger, and garlic to a simmer over medium-high heat. Reduce heat to medium-low; cover and simmer, for 20 minutes. If using store-bought broth, stir in optional softened gelatin until dissolved.",

@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, 60% cacao, chopped , divided",
-      "quantity": "6 oz"
+      "name": "bittersweet chocolate, 60% cacao, divided",
+      "quantity": "6 oz",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1420,
@@ -107,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the bittersweet chocolate.",
+      "secondary_message": "6 oz bittersweet chocolate, 60% cacao, divided"
+    },
     {
       "id": 1,
       "primary_message": "Grease an 8x8-inch baking pan with cooking spray, then line with parchment paper, letting the parchment overhang on 2 sides by at least 1 inch.",

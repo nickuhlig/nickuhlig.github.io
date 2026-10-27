@@ -71,18 +71,21 @@
     },
     {
       "ingredient_id": 153,
-      "name": "whole scallions, roughly chopped",
-      "quantity": "2"
+      "name": "whole scallions",
+      "quantity": "2",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, peeled and roughly chopped",
-      "quantity": "1 (2 inch) chunk"
+      "name": "ginger",
+      "quantity": "1 (2 inch) chunk",
+      "prep": "peeled and roughly chopped"
     },
     {
       "ingredient_id": 1958,
@@ -111,6 +114,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the whole scallions. Roughly chop the garlic. Peel and roughly chop the ginger.",
+      "secondary_message": "2 whole scallions\n3 medium cloves garlic\n1 (2 inch) chunk ginger"
+    },
     {
       "id": 1,
       "primary_message": "Preheat a sous-vide style water bath to 170°F. Combine soy sauce, mirin, sugar, fish sauce, scallions, garlic, and ginger in the bowl of a food processor. Process until vegetables are roughly pureed. Transfer pork belly and marinade to a food-saver style vacuum bag and seal. Alternatively, transfer to a heavy duty gallon-sized freezer bag and seal by slowly submerging into a pot full of water, sealing the top just before it goes underwater to remove all air. Transfer to sous vide cooker and cook until completely tender, about 10 hours. Remove bag from cooker and chill thoroughly. Pork belly can be stored in the refrigerator for up to 2 weeks after cooking if the bag remains sealed.",

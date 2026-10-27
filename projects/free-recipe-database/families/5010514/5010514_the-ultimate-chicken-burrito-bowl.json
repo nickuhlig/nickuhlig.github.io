@@ -43,8 +43,9 @@
   "ingredients": [
     {
       "ingredient_id": 185,
-      "name": "black beans, picked over and rinsed",
-      "quantity": "1 cup"
+      "name": "black beans",
+      "quantity": "1 cup",
+      "prep": "picked over and rinsed"
     },
     {
       "ingredient_id": 1505,
@@ -53,18 +54,21 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, diced",
-      "quantity": "1 small"
+      "name": "red onion",
+      "quantity": "1 small",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "5 medium cloves"
+      "name": "garlic",
+      "quantity": "5 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño, seeded and minced",
-      "quantity": "1 medium"
+      "name": "jalapeño",
+      "quantity": "1 medium",
+      "prep": "seeded and minced"
     },
     {
       "ingredient_id": 186,
@@ -88,8 +92,9 @@
     },
     {
       "ingredient_id": 1744,
-      "name": "whole boneless skinless chicken breast halves, trimmed of visible fat",
-      "quantity": "2"
+      "name": "whole boneless skinless chicken breast halves",
+      "quantity": "2",
+      "prep": "trimmed of visible fat"
     },
     {
       "ingredient_id": 1421,
@@ -128,18 +133,21 @@
     },
     {
       "ingredient_id": 183,
-      "name": "ripe avocados, peeled and pitted, flesh chopped",
-      "quantity": "2"
+      "name": "ripe avocados",
+      "quantity": "2",
+      "prep": "peeled and pitted, flesh chopped"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, diced",
-      "quantity": "½ small"
+      "name": "red onion",
+      "quantity": "½ small",
+      "prep": "diced"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño pepper, seeded and minced",
-      "quantity": "½ medium"
+      "name": "jalapeño pepper",
+      "quantity": "½ medium",
+      "prep": "seeded and minced"
     },
     {
       "ingredient_id": 47,
@@ -153,8 +161,9 @@
     },
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, chopped",
-      "quantity": "1 cup"
+      "name": "cherry tomatoes",
+      "quantity": "1 cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 88,
@@ -163,8 +172,9 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, chopped",
-      "quantity": "½ small"
+      "name": "red onion",
+      "quantity": "½ small",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 47,
@@ -173,13 +183,15 @@
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño, minced",
-      "quantity": "½ medium"
+      "name": "jalapeño",
+      "quantity": "½ medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 188,
-      "name": "fresh cilantro leaves, washed and coarsely chopped",
-      "quantity": "½ cup"
+      "name": "fresh cilantro leaves",
+      "quantity": "½ cup",
+      "prep": "washed and coarsely chopped"
     },
     {
       "ingredient_id": 1421,
@@ -193,8 +205,9 @@
     },
     {
       "ingredient_id": 43,
-      "name": "cheddar cheese, grated on large holes of box grater",
-      "quantity": "3 oz"
+      "name": "cheddar cheese",
+      "quantity": "3 oz",
+      "prep": "grated on large holes of box grater"
     },
     {
       "ingredient_id": 303,
@@ -213,6 +226,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the black beans over, then rinse them. Dice the red onion. Mince the garlic. Seed and mince the jalapeño. Trim the whole boneless skinless chicken breast halves of visible fat. Peel and pit the ripe avocados, then chop the flesh. Dice the red onion. Seed and mince the jalapeño pepper. Chop the cherry tomatoes. Chop the red onion. Mince the jalapeño. Wash and coarsely chop the fresh cilantro leaves. Grate the cheddar cheese on large holes of box grater.",
+      "secondary_message": "1 cup black beans\n1 small red onion\n5 medium cloves garlic\n1 medium jalapeño\n2 whole boneless skinless chicken breast halves\n2 ripe avocados\n½ small red onion\n½ medium jalapeño pepper\n1 cup cherry tomatoes\n½ small red onion\n½ medium jalapeño\n½ cup fresh cilantro leaves\n3 oz cheddar cheese"
+    },
     {
       "id": 1,
       "primary_message": "For the beans: In medium saucepan, cover beans with inch of water and bring to a boil over medium-high heat. Turn off heat and let stand 1 hour. Drain beans and return to pot. Add chicken broth, 1 cup water, onion, garlic, jalapeño, cumin, and 1 teaspoon salt. Bring to boil over medium-high heat. Reduce heat and simmer until beans are fully tender, stirring occasionally, about 1 hour. Add water as necessary if beans become dry before they are tender. Season to taste with salt and pepper and set aside.",

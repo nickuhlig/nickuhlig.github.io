@@ -54,13 +54,15 @@
     },
     {
       "ingredient_id": 1264,
-      "name": "block American cheese, roughly grated or diced",
-      "quantity": "6 oz"
+      "name": "block American cheese",
+      "quantity": "6 oz",
+      "prep": "roughly grated or diced"
     },
     {
       "ingredient_id": 43,
-      "name": "sharp cheddar cheese, roughly grated or diced",
-      "quantity": "6 oz"
+      "name": "sharp cheddar cheese",
+      "quantity": "6 oz",
+      "prep": "roughly grated or diced"
     },
     {
       "ingredient_id": 448,
@@ -84,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly grate or dice the block American cheese. Roughly grate or dice the sharp cheddar cheese.",
+      "secondary_message": "6 oz block American cheese\n6 oz sharp cheddar cheese"
+    },
     {
       "id": 1,
       "primary_message": "Combine cornstarch, evaporated milk, and eggs in a medium bowl and whisk until homogenous. Set aside.",

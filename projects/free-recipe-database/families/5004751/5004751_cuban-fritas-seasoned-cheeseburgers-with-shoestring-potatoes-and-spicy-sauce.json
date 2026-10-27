@@ -68,8 +68,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced , divided",
-      "quantity": "2 cloves"
+      "name": "garlic, divided",
+      "quantity": "2 cloves",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 1574,
@@ -108,6 +109,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the garlic.",
+      "secondary_message": "2 cloves garlic, divided"
+    },
     {
       "id": 1,
       "primary_message": "Rinse cut potatoes in a bowl of cold water, changing water as necessary until water runs clear. Drain carefully and dry on paper towels.",

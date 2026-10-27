@@ -37,8 +37,9 @@
     },
     {
       "ingredient_id": 2950,
-      "name": "sausage, sliced or crumbled",
-      "quantity": "1 lb"
+      "name": "sausage",
+      "quantity": "1 lb",
+      "prep": "sliced or crumbled"
     },
     {
       "ingredient_id": 1713,
@@ -52,8 +53,9 @@
     },
     {
       "ingredient_id": 420,
-      "name": "Puy lentils, rinsed",
-      "quantity": "1 lb"
+      "name": "Puy lentils",
+      "quantity": "1 lb",
+      "prep": "rinsed"
     },
     {
       "ingredient_id": 1747,
@@ -77,6 +79,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice or crumble the sausage. Rinse the Puy lentils.",
+      "secondary_message": "1 lb sausage\n1 lb Puy lentils"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in a large, straight-sided pan that has a lid until oil shimmers, then add sausage. Stir sausage to brown for several minutes, cooking until fat has rendered out and sausage is very crispy. Reduce heat if sausage looks like it will burn.",

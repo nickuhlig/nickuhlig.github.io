@@ -53,8 +53,9 @@
   "ingredients": [
     {
       "ingredient_id": 302,
-      "name": "center-cut bacon slices, cut in half crosswise",
-      "quantity": "15"
+      "name": "center-cut bacon slices",
+      "quantity": "15",
+      "prep": "cut in half crosswise"
     },
     {
       "ingredient_id": 356,
@@ -63,11 +64,18 @@
     },
     {
       "ingredient_id": 1239,
-      "name": "blue cheese, crumbled",
-      "quantity": "4 oz"
+      "name": "blue cheese",
+      "quantity": "4 oz",
+      "prep": "crumbled"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the center-cut bacon slices in half crosswise. Crumble the blue cheese.",
+      "secondary_message": "15 center-cut bacon slices\n4 oz blue cheese"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven racks to upper-middle and lower-middle positions, and preheat oven to 400°F. Line 3 rimmed baking sheets with aluminum foil. Arrange bacon halves in a single layer on 2 prepared baking sheets. Bake both sheets at same time until edges begin to curl and fat begins to render, 8 to 10 minutes, rotating sheets halfway through baking. Let cool on baking sheet until cool enough to handle, about 5 minutes.",

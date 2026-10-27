@@ -54,11 +54,18 @@
     },
     {
       "ingredient_id": 1938,
-      "name": "vanilla bean, split and seeds scraped",
-      "quantity": "1"
+      "name": "vanilla bean",
+      "quantity": "1",
+      "prep": "split and seeds scraped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the vanilla bean, then scrape the seeds.",
+      "secondary_message": "1 vanilla bean"
+    },
     {
       "id": 1,
       "primary_message": "In the bowl of a stand mixer fitted with a whisk attachment, combine cream, brown sugar, salt, and vanilla seeds. Whip on medium-high speed until fluffy and thick, about 5 minutes. Use immediately or refrigerate for up to 1 week in an airtight container.",

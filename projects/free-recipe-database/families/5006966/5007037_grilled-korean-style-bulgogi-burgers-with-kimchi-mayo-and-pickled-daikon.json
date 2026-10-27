@@ -52,8 +52,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated or minced",
-      "quantity": "3 large cloves"
+      "name": "garlic",
+      "quantity": "3 large cloves",
+      "prep": "grated or minced"
     },
     {
       "ingredient_id": 221,
@@ -102,8 +103,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated or minced",
-      "quantity": "1 small clove"
+      "name": "garlic",
+      "quantity": "1 small clove",
+      "prep": "grated or minced"
     },
     {
       "ingredient_id": 153,
@@ -127,8 +129,9 @@
     },
     {
       "ingredient_id": 1158,
-      "name": "sesame seed buns, split",
-      "quantity": "4"
+      "name": "sesame seed buns",
+      "quantity": "4",
+      "prep": "split"
     },
     {
       "ingredient_id": 310,
@@ -142,6 +145,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate or mince the garlic. Grate or mince the garlic. Split the sesame seed buns.",
+      "secondary_message": "3 large cloves garlic\n1 small clove garlic\n4 sesame seed buns"
+    },
     {
       "id": 1,
       "primary_message": "For the Bulgogi Sauce: In a small saucepan, mix soy sauce, gochujang, garlic, ginger, vinegar, and brown sugar together. Bring mixture to a boil over medium-high heat, reduce to a simmer, and cook until thickened enough to coat a spoon, 5 to 7 minutes. Remove from heat, add sesame oil and let cool. Use immediately or refrigerate in an airtight container for up to 1 week.",

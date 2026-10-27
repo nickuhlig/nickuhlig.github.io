@@ -49,8 +49,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, sliced",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 1721,
@@ -59,13 +60,15 @@
     },
     {
       "ingredient_id": 1811,
-      "name": "shrimp, medium, peeled and deveined",
-      "quantity": "0.45 kg"
+      "name": "shrimp, medium",
+      "quantity": "0.45 kg",
+      "prep": "peeled and deveined"
     },
     {
       "ingredient_id": 2151,
-      "name": "arugula leaves, roughly chopped",
-      "quantity": "113 g"
+      "name": "arugula leaves",
+      "quantity": "113 g",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1189,
@@ -74,11 +77,18 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "fresh parsley, chopped",
-      "quantity": "1 tbsp"
+      "name": "fresh parsley",
+      "quantity": "1 tbsp",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the garlic. Peel and devein the shrimp. Roughly chop the arugula leaves. Chop the fresh parsley.",
+      "secondary_message": "4 cloves garlic\n0.45 kg shrimp, medium\n113 g arugula leaves\n1 tbsp fresh parsley"
+    },
     {
       "id": 1,
       "primary_message": "Bring a large pot of water seasoned with 2 tablespoons salt to a boil. Cook the bucatini according to the directions on the packaging. With three minutes remaining, add the arugula. When done, set aside 1/4 cup of pasta water, and drain the pasta and arugula in a colander.",

@@ -38,13 +38,15 @@
     },
     {
       "ingredient_id": 302,
-      "name": "good-quality slab bacon, trimmed of rind, cut into 1-inch cubes",
-      "quantity": "8 oz"
+      "name": "good-quality slab bacon",
+      "quantity": "8 oz",
+      "prep": "trimmed of rind, cut into 1-inch cubes"
     },
     {
       "ingredient_id": 302,
-      "name": "bacon, cut into 1/4-inch lardons",
-      "quantity": "¼ lb"
+      "name": "bacon",
+      "quantity": "¼ lb",
+      "prep": "cut into 1/4-inch lardons"
     },
     {
       "ingredient_id": 346,
@@ -73,8 +75,9 @@
     },
     {
       "ingredient_id": 3665,
-      "name": "crisp cooked bacon, crumbled",
-      "quantity": "4 slices"
+      "name": "crisp cooked bacon",
+      "quantity": "4 slices",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 121,
@@ -98,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the good-quality slab bacon of rind, then cut it into 1-inch cubes. Cut the bacon into 1/4-inch lardons. Crumble the crisp cooked bacon.",
+      "secondary_message": "8 oz good-quality slab bacon\n¼ lb bacon\n4 slices crisp cooked bacon"
+    },
     {
       "id": 1,
       "primary_message": "For the Burger Patties: Place feed shaft, blade, and 1/4-inch die of meat grinder in freezer until well-chilled. Meanwhile, place meat and bacon chunks on rimmed baking sheet, leaving space between each piece and place in freezer for 10 minutes until meat is firm, but not frozen. Combine meat in large bowl and toss to combine. Pass meat through grinder twice. Form into four patties, about 4-inches wide and 1/2-inch tall. Refrigerate until ready for use.",

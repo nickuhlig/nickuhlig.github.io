@@ -41,13 +41,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "whole small shallots, unpeeled",
-      "quantity": "4"
+      "name": "whole small shallots",
+      "quantity": "4",
+      "prep": "unpeeled"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, unpeeled",
-      "quantity": "5 medium cloves"
+      "name": "garlic",
+      "quantity": "5 medium cloves",
+      "prep": "unpeeled"
     },
     {
       "ingredient_id": 1817,
@@ -71,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Leave the whole small shallots unpeeled. Leave the garlic unpeeled.",
+      "secondary_message": "4 whole small shallots\n5 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Preheat a broiler to high heat and adjust rack to 8 cm below heating element. The goal is to get it as close as possible while still allowing a cast iron skillet to be placed underneath. Preheat cast iron skillet on a burner over high heat until lightly smoking, about 5 minutes.",

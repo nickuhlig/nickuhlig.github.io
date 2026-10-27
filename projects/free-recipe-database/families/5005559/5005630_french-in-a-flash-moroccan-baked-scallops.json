@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, room temperature",
-      "quantity": "4 tbsp"
+      "name": "unsalted butter",
+      "quantity": "4 tbsp",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 2702,
@@ -76,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature.",
+      "secondary_message": "4 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the broiler. Slice the scallops in half horizontally. Spray two small or one large gratin dish lightly with cooking spray. Arrange the scallops in a single layer in the dishes, and season with salt.",

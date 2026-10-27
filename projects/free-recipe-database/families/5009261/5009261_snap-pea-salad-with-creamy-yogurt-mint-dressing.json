@@ -40,8 +40,9 @@
     },
     {
       "ingredient_id": 36,
-      "name": "sugar snap peas, trimmed",
-      "quantity": "1 lb"
+      "name": "sugar snap peas",
+      "quantity": "1 lb",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 2744,
@@ -65,8 +66,9 @@
     },
     {
       "ingredient_id": 243,
-      "name": "mint leaves, minced",
-      "quantity": "8"
+      "name": "mint leaves",
+      "quantity": "8",
+      "prep": "minced"
     },
     {
       "ingredient_id": 144,
@@ -81,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the sugar snap peas. Mince the mint leaves.",
+      "secondary_message": "1 lb sugar snap peas\n8 mint leaves"
+    },
     {
       "id": 1,
       "primary_message": "Bring a large saucepan of heavily salted water to a boil and prepare an ice bath. Add snap peas to boiling water and cook until crisp-tender, about 2 minutes. Using a slotted spoon or mesh strainer, transfer snap peas to ice bath to chill.",

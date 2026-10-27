@@ -89,8 +89,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, lightly beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 1442,
@@ -119,8 +120,9 @@
     },
     {
       "ingredient_id": 256,
-      "name": "unsalted pistachios, lightly toasted and coarsely chopped",
-      "quantity": "2 oz"
+      "name": "unsalted pistachios",
+      "quantity": "2 oz",
+      "prep": "lightly toasted and coarsely chopped"
     },
     {
       "ingredient_id": 2184,
@@ -134,6 +136,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly beat the egg. Lightly toast and coarsely chop the unsalted pistachios.",
+      "secondary_message": "1 large egg\n2 oz unsalted pistachios"
+    },
     {
       "id": 1,
       "primary_message": "For the Scald: Place sweet rice flour in a medium bowl. In a small saucepan, combine whole milk and honey, and bring to a boil over medium heat, 3 to 5 minutes. Pour boiling milk and honey over sweet rice flour and rapidly whisk until mixture thickens to a pudding-like consistency and registers between 155 to 170°F (68 to 77°C).",

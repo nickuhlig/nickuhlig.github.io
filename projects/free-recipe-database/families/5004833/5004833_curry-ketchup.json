@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, thinly sliced",
-      "quantity": "1 (1 inch) piece"
+      "name": "fresh ginger",
+      "quantity": "1 (1 inch) piece",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1882,
@@ -61,8 +62,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, chopped medium",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "chopped medium"
     },
     {
       "ingredient_id": 1191,
@@ -111,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the fresh ginger. Chop the onion medium.",
+      "secondary_message": "1 (1 inch) piece fresh ginger\n1 medium onion"
+    },
     {
       "id": 1,
       "primary_message": "Place cinnamon stick, ginger, cardamom, and cloves in an 8-inch square piece of cheesecloth and tie close.",

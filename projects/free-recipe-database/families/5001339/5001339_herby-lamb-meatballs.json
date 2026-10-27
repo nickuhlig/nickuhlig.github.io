@@ -55,8 +55,9 @@
   "ingredients": [
     {
       "ingredient_id": 1216,
-      "name": "white bread, crust removed and cut into small pieces",
-      "quantity": "2 slices"
+      "name": "white bread",
+      "quantity": "2 slices",
+      "prep": "crust removed and cut into small pieces"
     },
     {
       "ingredient_id": 118,
@@ -65,8 +66,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, grated",
-      "quantity": "½ medium"
+      "name": "yellow onion",
+      "quantity": "½ medium",
+      "prep": "grated"
     },
     {
       "ingredient_id": 121,
@@ -95,8 +97,9 @@
     },
     {
       "ingredient_id": 243,
-      "name": "loosely packed fresh mint leaves, finely chopped, divided",
-      "quantity": "½ cup"
+      "name": "loosely packed fresh mint leaves, divided",
+      "quantity": "½ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 122,
@@ -120,8 +123,9 @@
     },
     {
       "ingredient_id": 32,
-      "name": "feta cheese in brine, drained and crumbled",
-      "quantity": "2 oz"
+      "name": "feta cheese in brine",
+      "quantity": "2 oz",
+      "prep": "drained and crumbled"
     },
     {
       "ingredient_id": 2346,
@@ -130,6 +134,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the crust from the white bread, then cut it into small pieces. Grate the yellow onion. Finely chop the loosely packed fresh mint leaves. Drain and crumble the feta cheese in brine.",
+      "secondary_message": "2 slices white bread\n½ medium yellow onion\n½ cup loosely packed fresh mint leaves, divided\n2 oz feta cheese in brine"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 400°F. Line a rimmed baking sheet with parchment paper and set aside. In a large bowl, combine bread with milk and toss to coat. Let stand, stirring occasionally, until bread is completely moist, about 5 minutes. Squeeze bread between your fingers or mash with a spoon to make sure there are no dry spots.",

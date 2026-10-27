@@ -49,8 +49,9 @@
     },
     {
       "ingredient_id": 2218,
-      "name": "fresh ham hocks, cut into 1- to 2-inch-thick rounds",
-      "quantity": "0.68 kg"
+      "name": "fresh ham hocks",
+      "quantity": "0.68 kg",
+      "prep": "cut into 1- to 2-inch-thick rounds"
     },
     {
       "ingredient_id": 1682,
@@ -64,8 +65,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, halved through root end",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "halved through root end"
     },
     {
       "ingredient_id": 1816,
@@ -114,28 +116,33 @@
     },
     {
       "ingredient_id": 2191,
-      "name": "cooked coagulated pork blood cake, sliced 1/2 inch thick",
-      "quantity": "0.46 kg"
+      "name": "cooked coagulated pork blood cake",
+      "quantity": "0.46 kg",
+      "prep": "sliced 1/2 inch thick"
     },
     {
       "ingredient_id": 2314,
-      "name": "Vietnamese steamed ham, sliced 1/4 inch thick",
-      "quantity": "0.46 kg"
+      "name": "Vietnamese steamed ham",
+      "quantity": "0.46 kg",
+      "prep": "sliced 1/4 inch thick"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, white and green parts, thinly sliced",
-      "quantity": "1 bunch"
+      "name": "scallions, white and green parts",
+      "quantity": "1 bunch",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, thinly sliced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 188,
-      "name": "fresh cilantro leaves, tender stems chopped",
-      "quantity": "1 bunch"
+      "name": "fresh cilantro leaves",
+      "quantity": "1 bunch",
+      "prep": "tender stems chopped"
     },
     {
       "ingredient_id": 243,
@@ -164,6 +171,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the fresh ham hocks into 1- to 2-inch-thick rounds. Halve through the yellow onion root end. Slice the cooked coagulated pork blood cake 1/2 inch thick. Slice the Vietnamese steamed ham 1/4 inch thick. Thinly slice the scallions. Thinly slice the yellow onion. Chop the tender stems of the fresh cilantro leaves.",
+      "secondary_message": "0.68 kg fresh ham hocks\n1 medium yellow onion\n0.46 kg cooked coagulated pork blood cake\n0.46 kg Vietnamese steamed ham\n1 bunch scallions, white and green parts\n1 medium yellow onion\n1 bunch fresh cilantro leaves"
+    },
     {
       "id": 1,
       "primary_message": "For the broth: In a stockpot, add beef shanks, beef bones, and ham hocks, and add enough water to cover by 2.5 cm. Let soak at room temperature for 30 minutes to draw out any blood. Drain, rinse, then return meat and bones to the same pot. Add fresh water to cover by 2.5 cm, then bring to a rolling boil over high heat. Cook for 10 minutes (there should be foam and cloudy proteins that float to the top.) Drain and rinse meat and bones well, transfer to a large bowl, and set aside.",

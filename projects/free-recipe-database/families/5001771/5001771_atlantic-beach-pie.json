@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted and cooled",
-      "quantity": "8 tbsp"
+      "name": "unsalted butter",
+      "quantity": "8 tbsp",
+      "prep": "melted and cooled"
     },
     {
       "ingredient_id": 346,
@@ -106,8 +107,9 @@
     },
     {
       "ingredient_id": 1752,
-      "name": "heavy cream, chilled",
-      "quantity": "1 cup"
+      "name": "heavy cream",
+      "quantity": "1 cup",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 346,
@@ -121,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter and let it cool. Keep the heavy cream cold until you use it.",
+      "secondary_message": "8 tbsp unsalted butter\n1 cup heavy cream"
+    },
     {
       "id": 1,
       "primary_message": "For the Crust: Adjust oven rack to middle position and heat oven to 350°F. In a medium bowl, crush crackers into uneven coarse crumbs by hand. Add butter and sugar. Continue using hands to mix until crumbs are moistened, breaking up any remaining larger pieces.",

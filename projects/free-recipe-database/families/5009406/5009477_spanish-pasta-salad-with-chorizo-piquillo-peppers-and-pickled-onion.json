@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely diced",
-      "quantity": "½ medium"
+      "name": "yellow onion",
+      "quantity": "½ medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 1726,
@@ -60,13 +61,15 @@
     },
     {
       "ingredient_id": 1754,
-      "name": "Spanish chorizo, diced",
-      "quantity": "170 g"
+      "name": "Spanish chorizo",
+      "quantity": "170 g",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 452,
@@ -80,8 +83,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, thinly sliced on the bias",
-      "quantity": "2"
+      "name": "scallions",
+      "quantity": "2",
+      "prep": "thinly sliced on the bias"
     },
     {
       "ingredient_id": 2346,
@@ -95,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the yellow onion. Dice the Spanish chorizo. Mince the garlic. Thinly slice the scallions on the bias.",
+      "secondary_message": "½ medium yellow onion\n170 g Spanish chorizo\n4 medium cloves garlic\n2 scallions"
+    },
     {
       "id": 1,
       "primary_message": "In a small mixing bowl, cover onion with sherry vinegar and let stand until lightly pickled, at least 15 minutes and up to 1 hour.",

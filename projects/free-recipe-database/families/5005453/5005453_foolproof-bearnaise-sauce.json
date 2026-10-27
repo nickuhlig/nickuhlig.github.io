@@ -78,8 +78,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, roughly chopped",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1784,
@@ -103,6 +104,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the shallot.",
+      "secondary_message": "1 small shallot"
+    },
     {
       "id": 1,
       "primary_message": "Combine wine, vinegar, herb stems, shallot, and black peppercorns in a small saucepan. Bring to a simmer over medium-high heat and lower heat to maintain a gentle simmer. Cook until reduced to about 1 1/2 tablespoons of liquid, about 15 minutes. Carefully strain liquid through a fine-mesh strainer into a small bowl, pressing on the solids with the back of a spoon to extract as much liquid as possible.",

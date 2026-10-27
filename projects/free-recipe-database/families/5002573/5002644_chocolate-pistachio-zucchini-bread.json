@@ -58,8 +58,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "4 tbsp"
+      "name": "unsalted butter",
+      "quantity": "4 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1007,
@@ -119,6 +120,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter.",
+      "secondary_message": "4 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 175°C (350°F). Spray a 9-by-13-cm metal loaf pan with cooking spray; set aside.",

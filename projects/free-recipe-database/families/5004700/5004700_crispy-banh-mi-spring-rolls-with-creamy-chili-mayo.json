@@ -68,8 +68,9 @@
     },
     {
       "ingredient_id": 2531,
-      "name": "frozen spring roll wrappers, thawed",
-      "quantity": "30 to 40 (5 inch)"
+      "name": "frozen spring roll wrappers",
+      "quantity": "30 to 40 (5 inch)",
+      "prep": "thawed"
     },
     {
       "ingredient_id": 1980,
@@ -113,6 +114,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thaw the frozen spring roll wrappers.",
+      "secondary_message": "30 to 40 (5 inch) frozen spring roll wrappers"
+    },
     {
       "id": 1,
       "primary_message": "Combine carrots, daikon, sugar, salt, and vinegar in a large bowl and massage with hands until vegetables are softened and salt and sugar are dissolved. Set aside for 15 minutes at room temperature.",

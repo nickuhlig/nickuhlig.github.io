@@ -45,8 +45,9 @@
   "ingredients": [
     {
       "ingredient_id": 2106,
-      "name": "packed pitted prunes, chopped",
-      "quantity": "1 ½ cups"
+      "name": "packed pitted prunes",
+      "quantity": "1 ½ cups",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 359,
@@ -115,8 +116,9 @@
     },
     {
       "ingredient_id": 272,
-      "name": "walnuts, chopped",
-      "quantity": "4 oz"
+      "name": "walnuts",
+      "quantity": "4 oz",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1710,
@@ -135,6 +137,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the packed pitted prunes. Chop the walnuts.",
+      "secondary_message": "1 ½ cups packed pitted prunes\n4 oz walnuts"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350°F. Grease 10-inch tube pan and line bottom with parchment paper. Place prunes in medium bowl and pour boiling water over; let sit 15 minutes.",

@@ -35,9 +35,10 @@
   "ingredients": [
     {
       "ingredient_id": 143,
-      "name": "sweet potatoes, scrubbed",
+      "name": "sweet potatoes",
       "quantity": "0.57 kg",
-      "weigh_as": "4 medium"
+      "weigh_as": "4 medium",
+      "prep": "scrubbed"
     },
     {
       "ingredient_id": 47,
@@ -76,8 +77,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "cilantro, chopped",
-      "quantity": "3 tbsp"
+      "name": "cilantro",
+      "quantity": "3 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1421,
@@ -91,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Scrub the sweet potatoes. Chop the cilantro.",
+      "secondary_message": "0.57 kg sweet potatoes\n3 tbsp cilantro"
+    },
     {
       "id": 1,
       "primary_message": "For the Sweet Potatoes: Preheat the oven to 205°C (400°F). Set a baking sheet in the oven while warming.",

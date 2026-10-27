@@ -72,8 +72,9 @@
     },
     {
       "ingredient_id": 118,
-      "name": "milk, at room temperature",
-      "quantity": "¾ cup"
+      "name": "milk",
+      "quantity": "¾ cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 353,
@@ -82,8 +83,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, separated and at room temperature",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "separated and at room temperature"
     },
     {
       "ingredient_id": 88,
@@ -92,8 +94,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "1 lb"
+      "name": "unsalted butter",
+      "quantity": "1 lb",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -187,6 +190,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the milk to room temperature. Separate the eggs and bring them to room temperature. Bring the unsalted butter to room temperature.",
+      "secondary_message": "¾ cup milk\n4 large eggs\n1 lb unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Lemon Cake: Lightly coat two 9-inch round cake pans with baking spray. Line bottoms with parchment paper rounds and coat once again with baking spray. Adjust oven rack to middle position and preheat oven to 350°F. In food processor, pulse 1 1/2 cups sugar and lemon zest until no zest strands remain. Whisk flour, baking powder, and baking soda together in medium bowl; reserve. Combine milk, lemon juice, and vanilla in glass measuring cup; reserve.",

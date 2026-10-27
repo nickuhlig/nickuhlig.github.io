@@ -59,8 +59,9 @@
     },
     {
       "ingredient_id": 216,
-      "name": "pine nuts, toasted",
-      "quantity": "¼ cup"
+      "name": "pine nuts",
+      "quantity": "¼ cup",
+      "prep": "toasted"
     },
     {
       "ingredient_id": 1579,
@@ -74,11 +75,18 @@
     },
     {
       "ingredient_id": 212,
-      "name": "Flatbread, such as pita or lavash, warm",
-      "quantity": ""
+      "name": "Flatbread, such as pita or lavash",
+      "quantity": "",
+      "prep": "warm"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Toast the pine nuts. Warm the Flatbread.",
+      "secondary_message": "¼ cup pine nuts\nFlatbread, such as pita or lavash"
+    },
     {
       "id": 1,
       "primary_message": "Gently beat eggs with a big pinch of salt and some pepper in a medium bowl with a fork. Heat oil in a medium non-stick or cast iron skillet over medium heat until shimmering. Add eggs and cook, stirring constantly with a rubber spatula, until barely set and still slightly runny (eggs will continue to cook after removing from pan), about 1 minute. Immediately transfer to a serving dish. Sprinkle with pine nuts, sumac, and parsley. Drizzle with olive oil and serve immediately with flatbread.",

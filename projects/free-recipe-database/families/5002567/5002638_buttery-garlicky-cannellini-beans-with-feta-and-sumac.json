@@ -42,13 +42,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "12 cloves"
+      "name": "garlic",
+      "quantity": "12 cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 91,
-      "name": "cannellini beans, drained and rinsed",
-      "quantity": "2 (425 g) cans"
+      "name": "cannellini beans",
+      "quantity": "2 (425 g) cans",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 1994,
@@ -62,8 +64,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into small pieces",
-      "quantity": "2 tbsp"
+      "name": "cold unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "cut into small pieces"
     },
     {
       "ingredient_id": 88,
@@ -92,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the garlic. Drain and rinse the cannellini beans. Cut the cold unsalted butter into small pieces.",
+      "secondary_message": "12 cloves garlic\n2 (425 g) cans cannellini beans\n2 tbsp cold unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a large skillet, combine olive oil and garlic. Cook over medium heat until garlic is very lightly golden, about 5 minutes. Add thyme and cook until fragrant and thyme makes a sizzling sound, about 30 seconds.",

@@ -71,11 +71,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "4 tbsp"
+      "name": "unsalted butter",
+      "quantity": "4 tbsp",
+      "prep": "softened"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter.",
+      "secondary_message": "4 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Combine milk, water, yeast, and sugar in small bowl or 2-cup glass measure. Let stand 5 minutes until foamy.",

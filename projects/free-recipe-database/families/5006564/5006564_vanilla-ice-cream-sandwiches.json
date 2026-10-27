@@ -54,8 +54,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, room temperature",
-      "quantity": "4 oz"
+      "name": "unsalted butter",
+      "quantity": "4 oz",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 346,
@@ -99,13 +100,15 @@
     },
     {
       "ingredient_id": 116,
-      "name": "all-purpose flour, sifted",
-      "quantity": "5 ¼ oz"
+      "name": "all-purpose flour",
+      "quantity": "5 ¼ oz",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 333,
-      "name": "unsweetened cocoa powder, sifted",
-      "quantity": "4 oz"
+      "name": "unsweetened cocoa powder",
+      "quantity": "4 oz",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 2526,
@@ -119,6 +122,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature. Sift the all-purpose flour. Sift the unsweetened cocoa powder.",
+      "secondary_message": "4 oz unsalted butter\n5 ¼ oz all-purpose flour\n4 oz unsweetened cocoa powder"
+    },
     {
       "id": 1,
       "primary_message": "For the Chocolate Wafers: Adjust oven rack to middle position. Preheat the oven to 350°F (175℃) and line 2 rimmed baking sheets with parchment paper; set aside. With a hand mixer or stand mixer fitted with a paddle attachment, cream butter, granulated sugar, brown sugar, vanilla, espresso powder, salt, baking powder, and baking soda on medium speed until light and fluffy, about 2 minutes.",

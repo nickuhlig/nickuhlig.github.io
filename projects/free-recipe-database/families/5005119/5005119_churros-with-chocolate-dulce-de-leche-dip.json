@@ -102,13 +102,15 @@
     },
     {
       "ingredient_id": 118,
-      "name": "milk, at room temperature",
-      "quantity": "2 cups"
+      "name": "milk",
+      "quantity": "2 cups",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 115,
-      "name": "butter, cut into 4 pieces",
-      "quantity": "4 tbsp"
+      "name": "butter",
+      "quantity": "4 tbsp",
+      "prep": "cut into 4 pieces"
     },
     {
       "ingredient_id": 88,
@@ -137,8 +139,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 2801,
@@ -162,6 +165,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the milk to room temperature. Cut the butter into 4 pieces. Bring the eggs to room temperature.",
+      "secondary_message": "2 cups milk\n4 tbsp butter\n3 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "For the Churros: Heat oil in Dutch oven or large pot over medium-high heat until temperature registers 350°F on deep-fat thermometer. (Oil should be 1 to 1 1/2 inches deep.)",

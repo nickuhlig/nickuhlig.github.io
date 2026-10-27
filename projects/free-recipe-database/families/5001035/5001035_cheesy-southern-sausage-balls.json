@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 43,
-      "name": "sharp cheddar cheese, shredded",
-      "quantity": "8 oz"
+      "name": "sharp cheddar cheese",
+      "quantity": "8 oz",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 313,
@@ -70,8 +71,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 267,
@@ -90,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shred the sharp cheddar cheese. Melt the unsalted butter.",
+      "secondary_message": "8 oz sharp cheddar cheese\n2 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Sausage Balls: Remove ground sausage from refrigerator and let sit at room temperature for 30 minutes before preparing.",

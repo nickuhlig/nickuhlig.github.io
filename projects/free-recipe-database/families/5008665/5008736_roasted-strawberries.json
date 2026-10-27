@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 242,
-      "name": "whole strawberries, washed and drained",
-      "quantity": "0.91 kg"
+      "name": "whole strawberries",
+      "quantity": "0.91 kg",
+      "prep": "washed and drained"
     },
     {
       "ingredient_id": 346,
@@ -71,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash and drain the whole strawberries.",
+      "secondary_message": "0.91 kg whole strawberries"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to the middle position and preheat to 190°C (375°F). Slice off the strawberries' leafy caps, removing as little fruit as possible. Leave small and medium berries whole, but cut the largest ones in half. Toss with sugar, salt, and lemon juice in a 2-quart glass or ceramic baking dish. Add the empty vanilla pod, if using.",

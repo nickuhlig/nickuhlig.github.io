@@ -46,8 +46,9 @@
   "ingredients": [
     {
       "ingredient_id": 121,
-      "name": "eggs, left at room temperature for 30 minutes",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "left at room temperature for 30 minutes"
     },
     {
       "ingredient_id": 346,
@@ -76,16 +77,24 @@
     },
     {
       "ingredient_id": 118,
-      "name": "milk, at room temperature",
-      "quantity": "⅔ cup"
+      "name": "milk",
+      "quantity": "⅔ cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 4 pieces",
-      "quantity": "4 tbsp"
+      "name": "unsalted butter",
+      "quantity": "4 tbsp",
+      "prep": "cut into 4 pieces"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Let the eggs sit at room temperature for 30 minutes. Bring the milk to room temperature. Cut the unsalted butter into 4 pieces.",
+      "secondary_message": "3 large eggs\n⅔ cup milk\n4 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Place an oven-safe 25-cm skillet in oven on middle rack and preheat to 200°C (400°F). In the bowl of a food processor, combine eggs, sugar, cinnamon, salt, and vanilla extract. Pulse until combined. Add flour and pulse to combine. With motor running, add milk, and process for 30 seconds.",

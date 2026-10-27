@@ -34,8 +34,9 @@
   "ingredients": [
     {
       "ingredient_id": 242,
-      "name": "fresh strawberries, washed, hulled, and chopped",
-      "quantity": "0.68 kg"
+      "name": "fresh strawberries",
+      "quantity": "0.68 kg",
+      "prep": "washed, hulled, and chopped"
     },
     {
       "ingredient_id": 346,
@@ -64,6 +65,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash, hull, and chop the fresh strawberries.",
+      "secondary_message": "0.68 kg fresh strawberries"
+    },
     {
       "id": 1,
       "primary_message": "Place half of the strawberries and 3 tablespoons sugar in small saucepan. Cook over medium-low heat, stirring, until berries have softened and slightly thickened, about 5 minutes. Remove from heat, stir in lemon juice; add sugar to taste. Chill completely before using, about 1 hour.",

@@ -69,8 +69,9 @@
   "ingredients": [
     {
       "ingredient_id": 142,
-      "name": "butternut squash, halved lengthwise and seeded",
-      "quantity": "1 large"
+      "name": "butternut squash",
+      "quantity": "1 large",
+      "prep": "halved lengthwise and seeded"
     },
     {
       "ingredient_id": 359,
@@ -139,11 +140,18 @@
     },
     {
       "ingredient_id": 1915,
-      "name": "old-fashioned flaky pie dough, blind-baked",
-      "quantity": "½ recipe"
+      "name": "old-fashioned flaky pie dough",
+      "quantity": "½ recipe",
+      "prep": "blind-baked"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the butternut squash lengthwise, then seed it. Blind-bake the old-fashioned flaky pie dough.",
+      "secondary_message": "1 large butternut squash\n½ recipe old-fashioned flaky pie dough"
+    },
     {
       "id": 1,
       "primary_message": "For the Pumpkin Base: Adjust oven rack to lower-middle position and preheat to 205°C (400°F). Place squash halves cut-side down on a foil-lined aluminum baking sheet. Roast until fork-tender, about 45 minutes. Let stand until cool enough to handle, 15 to 20 minutes. Scrape pulp into a food processor, discarding skins, and purée until smooth, about 1 to 2 minutes. Measure out 395 g squash purée (leftovers can be refrigerated for another use). Use warm, or refrigerate in an airtight container for up to 1 week.",

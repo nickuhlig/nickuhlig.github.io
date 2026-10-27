@@ -95,11 +95,18 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, juiced, to taste",
-      "quantity": "1"
+      "name": "lemon, to taste",
+      "quantity": "1",
+      "prep": "juiced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "1 lemon, to taste"
+    },
     {
       "id": 1,
       "primary_message": "Arrange cutlets on a work surface, cover with a sheet or two of plastic wrap, and pound each with a meat pounder or the bottom of a small heavy saucepan or skillet until no more than 1/4-inch thick throughout. Season lightly on one side only with salt and pepper.",

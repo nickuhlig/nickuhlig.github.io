@@ -53,8 +53,9 @@
     },
     {
       "ingredient_id": 1716,
-      "name": "hazelnuts, roughly chopped",
-      "quantity": "½ cup (2 ½ oz)"
+      "name": "hazelnuts",
+      "quantity": "½ cup (2 ½ oz)",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 71,
@@ -73,11 +74,18 @@
     },
     {
       "ingredient_id": 243,
-      "name": "fresh mint leaves, roughly torn, plus more for garnish",
-      "quantity": "15"
+      "name": "fresh mint leaves, plus more for garnish",
+      "quantity": "15",
+      "prep": "roughly torn"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the hazelnuts. Roughly tear the fresh mint leaves.",
+      "secondary_message": "½ cup (2 ½ oz) hazelnuts\n15 fresh mint leaves, plus more for garnish"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 400°F. Line a rimmed baking sheet with aluminum foil and set aside. Using a large knife, trim off stem end of spaghetti squash. Cut squash in half lengthwise, then scrape out and discard seeds. Arrange, cut side up, on prepared baking sheet. Drizzle lightly with olive oil, and rub all over until evenly coated. Season with salt.",

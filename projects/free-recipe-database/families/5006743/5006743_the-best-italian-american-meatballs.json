@@ -49,8 +49,9 @@
   "ingredients": [
     {
       "ingredient_id": 1216,
-      "name": "crustless fresh white bread, cut into 1/2-inch cubes",
-      "quantity": "6 oz"
+      "name": "crustless fresh white bread",
+      "quantity": "6 oz",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 2475,
@@ -64,23 +65,27 @@
     },
     {
       "ingredient_id": 2697,
-      "name": "fatty pancetta, finely minced",
-      "quantity": "3 oz"
+      "name": "fatty pancetta",
+      "quantity": "3 oz",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 120,
-      "name": "Parmigiano-Reggiano, grated , plus more for serving",
-      "quantity": "2 oz"
+      "name": "Parmigiano-Reggiano, plus more for serving",
+      "quantity": "2 oz",
+      "prep": "grated"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "8 medium cloves"
+      "name": "garlic",
+      "quantity": "8 medium cloves",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 106,
-      "name": "loosely packed fresh flat-leaf parsley leaves, minced",
-      "quantity": "½ cup"
+      "name": "loosely packed fresh flat-leaf parsley leaves",
+      "quantity": "½ cup",
+      "prep": "minced"
     },
     {
       "ingredient_id": 3641,
@@ -124,6 +129,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the crustless fresh white bread into 1/2-inch cubes. Finely mince the fatty pancetta. Grate the Parmigiano-Reggiano. Finely mince the garlic. Mince the loosely packed fresh flat-leaf parsley leaves.",
+      "secondary_message": "6 oz crustless fresh white bread\n3 oz fatty pancetta\n2 oz Parmigiano-Reggiano, plus more for serving\n8 medium cloves garlic\n½ cup loosely packed fresh flat-leaf parsley leaves"
+    },
     {
       "id": 1,
       "primary_message": "In a heatproof measuring cup, sprinkle gelatin all over surface of stock and let stand for 5 minutes. (If not using stock and gelatin, proceed to Step 2.) Microwave stock, stirring once or twice, until gelatin completely dissolves, 1 to 2 minutes. Pour stock into a wide heatproof bowl and refrigerate until fully set, about 30 minutes.",

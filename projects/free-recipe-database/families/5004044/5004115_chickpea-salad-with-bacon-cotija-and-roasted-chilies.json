@@ -43,18 +43,21 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, cut into 3-inch segments",
-      "quantity": "1"
+      "name": "carrot",
+      "quantity": "1",
+      "prep": "cut into 3-inch segments"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, split in half",
-      "quantity": "1"
+      "name": "onion",
+      "quantity": "1",
+      "prep": "split in half"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, cut into 3-inch segments, divided",
-      "quantity": "1 stalk"
+      "name": "celery, divided",
+      "quantity": "1 stalk",
+      "prep": "cut into 3-inch segments"
     },
     {
       "ingredient_id": 88,
@@ -68,18 +71,21 @@
     },
     {
       "ingredient_id": 302,
-      "name": "bacon, cut into 1/2-inch pieces",
-      "quantity": "113 g"
+      "name": "bacon",
+      "quantity": "113 g",
+      "prep": "cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, thinly sliced",
-      "quantity": "1"
+      "name": "shallot",
+      "quantity": "1",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "minced"
     },
     {
       "ingredient_id": 47,
@@ -93,8 +99,9 @@
     },
     {
       "ingredient_id": 228,
-      "name": "extra lime, cut into wedges",
-      "quantity": "1"
+      "name": "extra lime",
+      "quantity": "1",
+      "prep": "cut into wedges"
     },
     {
       "ingredient_id": 1612,
@@ -113,6 +120,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the carrot into 3-inch segments. Split the onion in half. Cut the celery into 3-inch segments. Cut the bacon into 1/2-inch pieces. Thinly slice the shallot. Mince the garlic. Cut the extra lime into wedges.",
+      "secondary_message": "1 carrot\n1 onion\n1 stalk celery, divided\n113 g bacon\n1 shallot\n1 medium clove garlic\n1 extra lime"
+    },
     {
       "id": 1,
       "primary_message": "Drain chickpeas and place in a large pot with bay leaf, carrot, onion, and celery. Cover with cold water by 5 cm, season with salt, bring to a boil, reduce to a simmer, and cook until the chickpeas are tender but still hold their shape, about 1 hour. Discard bay leaf, carrot, onion, and celery. Drain and rinse under cold running water until chilled. Let drain in a colander set in the sink.",

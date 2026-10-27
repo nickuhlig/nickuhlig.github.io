@@ -40,8 +40,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, crushed",
-      "quantity": "3"
+      "name": "garlic",
+      "quantity": "3",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 1301,
@@ -56,11 +57,18 @@
     },
     {
       "ingredient_id": 1746,
-      "name": "basil leaves, torn",
-      "quantity": "10 to 15"
+      "name": "basil leaves",
+      "quantity": "10 to 15",
+      "prep": "torn"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Crush the garlic. Tear the basil leaves.",
+      "secondary_message": "3 garlic\n10 to 15 basil leaves"
+    },
     {
       "id": 1,
       "primary_message": "In a large Dutch oven, heat olive oil with garlic over medium heat, stirring occasionally, until garlic is softened, fragrant, and just beginning to turn golden, about 4 minutes.",

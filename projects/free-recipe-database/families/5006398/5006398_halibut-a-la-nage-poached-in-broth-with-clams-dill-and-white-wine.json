@@ -46,18 +46,21 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, diced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, diced",
-      "quantity": "1 stalk"
+      "name": "celery",
+      "quantity": "1 stalk",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1008,
@@ -86,8 +89,9 @@
     },
     {
       "ingredient_id": 2536,
-      "name": "littleneck clams, scrubbed",
-      "quantity": "1 dozen"
+      "name": "littleneck clams",
+      "quantity": "1 dozen",
+      "prep": "scrubbed"
     },
     {
       "ingredient_id": 1932,
@@ -96,6 +100,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the yellow onion. Roughly chop the garlic. Dice the celery. Scrub the littleneck clams.",
+      "secondary_message": "1 medium yellow onion\n2 medium cloves garlic\n1 stalk celery\n1 dozen littleneck clams"
+    },
     {
       "id": 1,
       "primary_message": "In a large, straight-sided sauté pan, heat 2 tablespoons butter over medium-high heat until foaming. Add onion, diced fennel, garlic, and celery and cook, stirring, until vegetables are softened and onion is translucent, about 3 minutes.",

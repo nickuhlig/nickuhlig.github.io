@@ -99,8 +99,9 @@
     },
     {
       "ingredient_id": 2696,
-      "name": "Malt vinegar, placed in a spray bottle",
-      "quantity": ""
+      "name": "Malt vinegar",
+      "quantity": "",
+      "prep": "placed in a spray bottle"
     },
     {
       "ingredient_id": 2064,
@@ -109,6 +110,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Place the Malt vinegar in a spray bottle.",
+      "secondary_message": "Malt vinegar"
+    },
     {
       "id": 1,
       "primary_message": "Using paper towels, pat fish fillets dry and lightly season each fillet all over with salt. Place fish fillets on a wire rack set in a 13- by 18-inch rimmed baking sheet and refrigerate uncovered to dry out exterior, at least 4 hours and up to 8 hours.",

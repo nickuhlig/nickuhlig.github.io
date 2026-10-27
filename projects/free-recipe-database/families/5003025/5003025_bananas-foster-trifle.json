@@ -43,8 +43,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "2 ½ sticks"
+      "name": "unsalted butter",
+      "quantity": "2 ½ sticks",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1044,
@@ -63,8 +64,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 116,
@@ -108,8 +110,9 @@
     },
     {
       "ingredient_id": 3641,
-      "name": "egg yolks, at room temperature",
-      "quantity": "8 large"
+      "name": "egg yolks",
+      "quantity": "8 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -163,8 +166,9 @@
     },
     {
       "ingredient_id": 3642,
-      "name": "egg whites, at room temperature",
-      "quantity": "4 large"
+      "name": "egg whites",
+      "quantity": "4 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 88,
@@ -198,8 +202,9 @@
     },
     {
       "ingredient_id": 317,
-      "name": "firm bananas, peeled and cut into 1/2-inch rings",
-      "quantity": "6"
+      "name": "firm bananas",
+      "quantity": "6",
+      "prep": "peeled and cut into 1/2-inch rings"
     },
     {
       "ingredient_id": 1480,
@@ -213,6 +218,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature. Bring the eggs to room temperature. Bring the egg yolks to room temperature. Bring the egg whites to room temperature. Peel and cut the firm bananas into 1/2-inch rings.",
+      "secondary_message": "2 ½ sticks unsalted butter\n4 large eggs\n8 large egg yolks\n4 large egg whites\n6 firm bananas"
+    },
     {
       "id": 1,
       "primary_message": "For the Brown Sugar-Walnut Poundcake: Adjust oven rack to middle position and preheat oven to 325°F. Spray tube pan with baking spray. Beat butter, oil, brown sugar, and sugar on medium speed until light and fluffy, about 3 minutes. Add eggs, one at a time, beating well after each addition.",

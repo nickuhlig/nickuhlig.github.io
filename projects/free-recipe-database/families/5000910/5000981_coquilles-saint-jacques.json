@@ -67,8 +67,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 88,
@@ -147,6 +148,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter.",
+      "secondary_message": "2 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Breadcrumb Topping: In a small bowl, stir together panko, Gruyere, and thyme until thoroughly combined. Drizzle in melted butter, stirring until panko is evenly coated. Season lightly with salt.",

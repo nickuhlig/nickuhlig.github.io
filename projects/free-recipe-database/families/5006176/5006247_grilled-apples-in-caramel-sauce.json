@@ -34,8 +34,9 @@
   "ingredients": [
     {
       "ingredient_id": 1021,
-      "name": "frozen puff pastry, thawed",
-      "quantity": "1 sheet"
+      "name": "frozen puff pastry",
+      "quantity": "1 sheet",
+      "prep": "thawed"
     },
     {
       "ingredient_id": 293,
@@ -59,8 +60,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "¼ cup"
+      "name": "unsalted butter",
+      "quantity": "¼ cup",
+      "prep": "melted"
     },
     {
       "ingredient_id": 2044,
@@ -69,6 +71,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thaw the frozen puff pastry. Melt the unsalted butter.",
+      "secondary_message": "1 sheet frozen puff pastry\n¼ cup unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Using 10-cm biscuit cutter, cut 4 rounds from the pastry sheet. Using fork, prick each pastry round about 12 times to prevent dough from rising too much in oven. Following package directions, bake pastry rounds on baking sheet until golden brown. Transfer to wire rack to cool.",

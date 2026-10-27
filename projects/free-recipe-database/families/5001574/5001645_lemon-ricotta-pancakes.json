@@ -82,8 +82,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, separated",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "separated"
     },
     {
       "ingredient_id": 353,
@@ -122,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Separate the eggs.",
+      "secondary_message": "4 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, combine 1 tablespoon granulated sugar and lemon zest, using your fingers to rub them together until mixture is fragrant, about 30 seconds; set aside.",

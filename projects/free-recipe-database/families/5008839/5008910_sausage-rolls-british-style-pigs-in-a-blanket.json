@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 1021,
-      "name": "puff pastry, thawed if frozen",
-      "quantity": "0.45 kg"
+      "name": "puff pastry",
+      "quantity": "0.45 kg",
+      "prep": "thawed if frozen"
     },
     {
       "ingredient_id": 313,
@@ -56,11 +57,18 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten",
-      "quantity": "1"
+      "name": "egg",
+      "quantity": "1",
+      "prep": "beaten"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thaw the puff pastry if frozen. Beat the egg.",
+      "secondary_message": "0.45 kg puff pastry\n1 egg"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat the oven to 190°C (375°F). Unroll puff pastry and cut into 12 rectangles about 4- by 13-cm. Divide the sausage into 12 equal balls. Shape each ball into a cylinder about 10 cm in length. Set aside.",

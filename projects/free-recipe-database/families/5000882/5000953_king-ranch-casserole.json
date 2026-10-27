@@ -67,8 +67,9 @@
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño chiles, halved and unseeded",
-      "quantity": "2 small"
+      "name": "jalapeño chiles",
+      "quantity": "2 small",
+      "prep": "halved and unseeded"
     },
     {
       "ingredient_id": 88,
@@ -92,23 +93,27 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, chopped",
-      "quantity": "1 large"
+      "name": "yellow onion",
+      "quantity": "1 large",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell peppers, chopped",
-      "quantity": "2 large"
+      "name": "red bell peppers",
+      "quantity": "2 large",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2066,
-      "name": "poblano pepper, seeded and chopped",
-      "quantity": "1 large"
+      "name": "poblano pepper",
+      "quantity": "1 large",
+      "prep": "seeded and chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely chopped",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 116,
@@ -127,8 +132,9 @@
     },
     {
       "ingredient_id": 2086,
-      "name": "diced tomatoes and green chiles, such as Rotel, drained",
-      "quantity": "1 (283 g) can"
+      "name": "diced tomatoes and green chiles, such as Rotel",
+      "quantity": "1 (283 g) can",
+      "prep": "drained"
     },
     {
       "ingredient_id": 1752,
@@ -152,11 +158,18 @@
     },
     {
       "ingredient_id": 1069,
-      "name": "Monterey Jack cheese, shredded , divided",
-      "quantity": "2 ½ cups"
+      "name": "Monterey Jack cheese, divided",
+      "quantity": "2 ½ cups",
+      "prep": "shredded"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve and unseed the jalapeño chiles. Chop the yellow onion. Chop the red bell peppers. Seed and chop the poblano pepper. Finely chop the garlic. Drain the diced tomatoes and green chiles. Shred the Monterey Jack cheese.",
+      "secondary_message": "2 small jalapeño chiles\n1 large yellow onion\n2 large red bell peppers\n1 large poblano pepper\n3 medium cloves garlic\n1 (283 g) can diced tomatoes and green chiles, such as Rotel\n2 ½ cups Monterey Jack cheese, divided"
+    },
     {
       "id": 1,
       "primary_message": "For the Poached Chicken: In a medium pot set over medium heat, toast cumin seeds, stirring constantly, until fragrant, about 40 seconds. Add chicken, chicken broth, chiles, and salt. Increase heat to medium-high and cook until broth is just shy of a simmer and the temperature registers between 150º and 160ºF (65 to 70ºC) on an instant-read thermometer, about 12 minutes. (See notes.)",

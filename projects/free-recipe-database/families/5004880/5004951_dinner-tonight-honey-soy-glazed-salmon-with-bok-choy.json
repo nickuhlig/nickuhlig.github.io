@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "peeled fresh ginger, thinly sliced",
-      "quantity": "2 ½ cm"
+      "name": "peeled fresh ginger",
+      "quantity": "2 ½ cm",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
@@ -62,11 +63,18 @@
     },
     {
       "ingredient_id": 285,
-      "name": "baby bok choy, root ends trimmed off",
-      "quantity": "4 to 6 heads"
+      "name": "baby bok choy",
+      "quantity": "4 to 6 heads",
+      "prep": "root ends trimmed off"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the peeled fresh ginger. Trim off the root ends of the baby bok choy.",
+      "secondary_message": "2 ½ cm peeled fresh ginger\n4 to 6 heads baby bok choy"
+    },
     {
       "id": 1,
       "primary_message": "Whisk soy sauce, honey, lemon juice, ginger, and garlic together until honey dissolves. Reserve 1/4 cup of marinade in separate bowl, then place salmon fillets, skin-side up, in marinade. Allow to marinate for at least 10 minutes, preferably for 30.",

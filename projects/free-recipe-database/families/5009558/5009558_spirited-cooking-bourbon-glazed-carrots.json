@@ -70,8 +70,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, cut into chunks",
-      "quantity": "2 tbsp"
+      "name": "butter",
+      "quantity": "2 tbsp",
+      "prep": "cut into chunks"
     },
     {
       "ingredient_id": 1468,
@@ -80,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the butter into chunks.",
+      "secondary_message": "2 tbsp butter"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 375°F. Toss carrots in olive oil, smoked paprika, and a generous sprinkle of salt and black pepper. Roast for 30 minutes or until carrots are tender when pierced with a fork.",

@@ -45,8 +45,9 @@
   "ingredients": [
     {
       "ingredient_id": 2284,
-      "name": "seedless watermelon, cut into rough 1/2-inch cubes",
-      "quantity": "4 ½ cups"
+      "name": "seedless watermelon",
+      "quantity": "4 ½ cups",
+      "prep": "cut into rough 1/2-inch cubes"
     },
     {
       "ingredient_id": 88,
@@ -70,6 +71,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the seedless watermelon into rough 1/2-inch cubes.",
+      "secondary_message": "4 ½ cups seedless watermelon"
+    },
     {
       "id": 1,
       "primary_message": "Add watermelon, salt, lime juice, St. Germain, and tequila to a blender. Puree until smooth. Strain through a fine-mesh strainer into a pitcher, using the bottom of a ladle or a rubber spatula to press liquid through strainer.",

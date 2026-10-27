@@ -47,18 +47,21 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and thinly sliced",
-      "quantity": "2 medium"
+      "name": "carrots",
+      "quantity": "2 medium",
+      "prep": "peeled and thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, peeled and finely chopped",
-      "quantity": "1 (4 cm) piece"
+      "name": "fresh ginger",
+      "quantity": "1 (4 cm) piece",
+      "prep": "peeled and finely chopped"
     },
     {
       "ingredient_id": 186,
@@ -82,8 +85,9 @@
     },
     {
       "ingredient_id": 1004,
-      "name": "green cabbage, cut into 3/4-inch pieces",
-      "quantity": "½ head"
+      "name": "green cabbage",
+      "quantity": "½ head",
+      "prep": "cut into 3/4-inch pieces"
     },
     {
       "ingredient_id": 3686,
@@ -92,8 +96,9 @@
     },
     {
       "ingredient_id": 92,
-      "name": "chickpeas, rinsed and drained",
-      "quantity": "1 (425 g) can"
+      "name": "chickpeas",
+      "quantity": "1 (425 g) can",
+      "prep": "rinsed and drained"
     },
     {
       "ingredient_id": 97,
@@ -102,9 +107,10 @@
     },
     {
       "ingredient_id": 158,
-      "name": "cauliflower, cut into 1-inch florets",
+      "name": "cauliflower",
       "quantity": "½ medium head",
-      "weigh_as": "283 g"
+      "weigh_as": "283 g",
+      "prep": "cut into 1-inch florets"
     },
     {
       "ingredient_id": 88,
@@ -113,11 +119,18 @@
     },
     {
       "ingredient_id": 41,
-      "name": "unsweetened full-fat coconut milk, shaken well before use",
-      "quantity": "1 (383 g) can"
+      "name": "unsweetened full-fat coconut milk",
+      "quantity": "1 (383 g) can",
+      "prep": "shaken well before use"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and thinly slice the carrots. Mince the garlic. Peel and finely chop the fresh ginger. Cut the green cabbage into 3/4-inch pieces. Rinse and drain the chickpeas. Cut the cauliflower into 1-inch florets. Shake the unsweetened full-fat coconut milk well before use.",
+      "secondary_message": "2 medium carrots\n4 medium cloves garlic\n1 (4 cm) piece fresh ginger\n½ head green cabbage\n1 (425 g) can chickpeas\n½ medium head cauliflower\n1 (383 g) can unsweetened full-fat coconut milk"
+    },
     {
       "id": 1,
       "primary_message": "In a large Dutch oven, heat oil over medium-high until shimmering. Add onion and carrots. Cook, stirring occasionally, until softened, 3 to 5 minutes. Stir in garlic, ginger, cumin, pepper, turmeric, and smoked paprika, and cook until fragrant, about 1 minute. Add cabbage and cook, stirring often, until cabbage turns bright green, about 2 minutes.",

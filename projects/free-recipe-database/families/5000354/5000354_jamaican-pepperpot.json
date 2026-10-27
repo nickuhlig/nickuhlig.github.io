@@ -44,8 +44,9 @@
   "ingredients": [
     {
       "ingredient_id": 2097,
-      "name": "pickled pig tail, cut into 1-inch segments",
-      "quantity": "8 oz"
+      "name": "pickled pig tail",
+      "quantity": "8 oz",
+      "prep": "cut into 1-inch segments"
     },
     {
       "ingredient_id": 2194,
@@ -59,28 +60,33 @@
     },
     {
       "ingredient_id": 2186,
-      "name": "coco heart, rinsed well",
-      "quantity": "1 lb"
+      "name": "coco heart",
+      "quantity": "1 lb",
+      "prep": "rinsed well"
     },
     {
       "ingredient_id": 2322,
-      "name": "yellow yam, peeled and diced into 1-inch cubes",
-      "quantity": "1 lb"
+      "name": "yellow yam",
+      "quantity": "1 lb",
+      "prep": "peeled and diced into 1-inch cubes"
     },
     {
       "ingredient_id": 2185,
-      "name": "coco, peeled and cut into 1-inch cubes",
-      "quantity": "1 lb"
+      "name": "coco",
+      "quantity": "1 lb",
+      "prep": "peeled and cut into 1-inch cubes"
     },
     {
       "ingredient_id": 2257,
-      "name": "okra, cut into 1-inch lengths",
-      "quantity": "12 pieces"
+      "name": "okra",
+      "quantity": "12 pieces",
+      "prep": "cut into 1-inch lengths"
     },
     {
       "ingredient_id": 291,
-      "name": "green bell pepper, stemmed, seeded, and diced",
-      "quantity": "1"
+      "name": "green bell pepper",
+      "quantity": "1",
+      "prep": "stemmed, seeded, and diced"
     },
     {
       "ingredient_id": 88,
@@ -94,8 +100,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, root ends trimmed",
-      "quantity": "3"
+      "name": "scallions",
+      "quantity": "3",
+      "prep": "root ends trimmed"
     },
     {
       "ingredient_id": 287,
@@ -104,8 +111,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 41,
@@ -129,6 +137,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the pickled pig tail into 1-inch segments. Rinse the coco heart well. Peel and dice the yellow yam into 1-inch cubes. Peel and cut the coco into 1-inch cubes. Cut the okra into 1-inch lengths. Stem, seed, and dice the green bell pepper. Trim the root ends of the scallions. Thinly slice the garlic.",
+      "secondary_message": "8 oz pickled pig tail\n1 lb coco heart\n1 lb yellow yam\n1 lb coco\n12 pieces okra\n1 green bell pepper\n3 scallions\n1 medium clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Soup: Place pig tail and cured salt beef in a large bowl and cover with ample cold water. Cover, transfer to refrigerator, and let soak for at least 2 hours or up to 12 hours. Drain and rinse.",

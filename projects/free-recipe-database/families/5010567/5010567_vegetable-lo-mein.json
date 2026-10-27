@@ -38,8 +38,9 @@
     },
     {
       "ingredient_id": 1929,
-      "name": "shiitake mushrooms, sliced",
-      "quantity": "4 oz"
+      "name": "shiitake mushrooms",
+      "quantity": "4 oz",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 292,
@@ -63,8 +64,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "grated"
     },
     {
       "ingredient_id": 221,
@@ -73,8 +75,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, sliced",
-      "quantity": "3"
+      "name": "scallions",
+      "quantity": "3",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 3679,
@@ -88,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the shiitake mushrooms. Grate the garlic. Slice the scallions.",
+      "secondary_message": "4 oz shiitake mushrooms\n1 medium clove garlic\n3 scallions"
+    },
     {
       "id": 1,
       "primary_message": "Heat 1 teaspoon oil in a wide nonstick skillet over high heat until shimmering. Add mushrooms and cabbage and season lightly with salt. Cook, stirring and tossing frequently, until barely cooked through but still bright, about 3 minutes. Transfer to a medium bowl. Add 1 more teaspoon oil to wok and return to high heat until lightly smoking. Add carrot and snow peas and season lightly with salt. Cook, stirring and tossing frequently, until barely cooked through but still bright, about 3 minutes. Transfer to bowl with mushrooms and cabbage.",

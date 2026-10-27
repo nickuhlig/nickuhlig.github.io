@@ -77,8 +77,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, thinly sliced",
-      "quantity": "½ medium"
+      "name": "yellow onion",
+      "quantity": "½ medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2695,
@@ -117,6 +118,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the yellow onion.",
+      "secondary_message": "½ medium yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "For the Burger Patties: In a medium bowl, combine beef, panko, Worcestershire sauce, and garlic powder until just combined. Shape beef into 4 (2.5-cm-thick) patties, about 8 cm in diameter. Press your thumb into center of each patty to create an indention (about 1.5-cm deep).",

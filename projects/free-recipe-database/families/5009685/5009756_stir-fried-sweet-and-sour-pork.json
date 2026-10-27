@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 2163,
-      "name": "pork loin, sliced 1/8 inch thick",
-      "quantity": "0.23 kg"
+      "name": "pork loin",
+      "quantity": "0.23 kg",
+      "prep": "sliced 1/8 inch thick"
     },
     {
       "ingredient_id": 359,
@@ -125,11 +126,18 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, sliced 1/2 inch thick",
-      "quantity": "½ small"
+      "name": "white onion",
+      "quantity": "½ small",
+      "prep": "sliced 1/2 inch thick"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the pork loin 1/8 inch thick. Slice the white onion 1/2 inch thick.",
+      "secondary_message": "0.23 kg pork loin\n½ small white onion"
+    },
     {
       "id": 1,
       "primary_message": "For the Pork: In a small bowl, stir together egg white, cornstarch, rice wine, and salt until thoroughly mixed. Place sliced pork in a bowl, pour cornstarch mixture on top, tossing to coat thoroughly. Refrigerate for 30 minutes.",

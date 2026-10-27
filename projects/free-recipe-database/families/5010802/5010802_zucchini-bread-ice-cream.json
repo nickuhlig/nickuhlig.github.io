@@ -43,9 +43,10 @@
     },
     {
       "ingredient_id": 2324,
-      "name": "zucchini, grated",
+      "name": "zucchini",
       "quantity": "2 ½ medium",
-      "weigh_as": "1 lb"
+      "weigh_as": "1 lb",
+      "prep": "grated"
     },
     {
       "ingredient_id": 88,
@@ -104,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the zucchini.",
+      "secondary_message": "2 ½ medium zucchini"
+    },
     {
       "id": 1,
       "primary_message": "Melt butter in a large saucepan over medium heat, then add zucchini with 1/4 teaspoon salt and cook until it has significantly reduced in volume, forms a loose paste, and is browned slightly on edges.",

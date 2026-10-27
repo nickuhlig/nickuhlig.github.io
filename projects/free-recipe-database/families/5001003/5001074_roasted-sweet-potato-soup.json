@@ -44,8 +44,9 @@
   "ingredients": [
     {
       "ingredient_id": 143,
-      "name": "sweet potato, peeled and cut into 1/2-inch dice",
-      "quantity": "1.81 kg"
+      "name": "sweet potato",
+      "quantity": "1.81 kg",
+      "prep": "peeled and cut into 1/2-inch dice"
     },
     {
       "ingredient_id": 1044,
@@ -59,18 +60,21 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and diced",
-      "quantity": "4 medium"
+      "name": "carrots",
+      "quantity": "4 medium",
+      "prep": "peeled and diced"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, chopped",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, crushed",
-      "quantity": "5 cloves"
+      "name": "garlic",
+      "quantity": "5 cloves",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 1505,
@@ -114,6 +118,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the sweet potato into 1/2-inch dice. Peel and dice the carrots. Chop the onion. Crush the garlic.",
+      "secondary_message": "1.81 kg sweet potato\n4 medium carrots\n1 medium onion\n5 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 150°C (300°F) (65°C (150°F)). Toss sweet potato with 4 tablespoons vegetable oil and salt. Spread sweet potato on 2 rimmed baking sheets and bake for 1 hour, rotating pans front to back and top to bottom halfway through cooking. Increase oven temperature to 190°C (375°F) and cook until sweet potatoes are tender and lightly browned around the edges, about 25 minutes.",

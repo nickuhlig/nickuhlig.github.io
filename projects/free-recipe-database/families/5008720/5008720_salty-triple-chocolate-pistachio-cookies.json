@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "20 tbsp"
+      "name": "unsalted butter",
+      "quantity": "20 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 293,
@@ -91,8 +92,9 @@
     },
     {
       "ingredient_id": 2365,
-      "name": "shelled pistachios, coarsely chopped",
-      "quantity": "1 cup"
+      "name": "shelled pistachios",
+      "quantity": "1 cup",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 88,
@@ -101,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter. Coarsely chop the shelled pistachios.",
+      "secondary_message": "20 tbsp unsalted butter\n1 cup shelled pistachios"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven racks to lower-middle and upper-middle positions and preheat oven to 350°F. Line 2 baking sheets with parchment paper.",

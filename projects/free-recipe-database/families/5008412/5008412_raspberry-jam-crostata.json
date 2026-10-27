@@ -64,8 +64,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, diced",
-      "quantity": "12 tbsp"
+      "name": "cold unsalted butter",
+      "quantity": "12 tbsp",
+      "prep": "diced"
     },
     {
       "ingredient_id": 121,
@@ -104,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the cold unsalted butter.",
+      "secondary_message": "12 tbsp cold unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In the bowl of a food processor, combine flour, sugar, salt, baking powder, and lemon zest. Pulse to combine, about 5 short pulses. Add butter and pulse until it is the size of peas, about 5 pulses more. Add egg, egg yolk, vanilla extract, and milk and pulse until dough forms, adding the ice water (and more if needed) to help it come together. Wrap dough in plastic wrap and chill in refrigerator for 2 hours.",

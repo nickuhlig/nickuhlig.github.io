@@ -45,8 +45,9 @@
   "ingredients": [
     {
       "ingredient_id": 2380,
-      "name": "easy pie dough, rolled out to a 12-inch circle",
-      "quantity": "½ recipe"
+      "name": "easy pie dough",
+      "quantity": "½ recipe",
+      "prep": "rolled out to a 12-inch circle"
     },
     {
       "ingredient_id": 1752,
@@ -75,11 +76,18 @@
     },
     {
       "ingredient_id": 3488,
-      "name": "mixed rindless soft and semi-soft cheeses, cubed or broken into small clumps",
-      "quantity": "8 oz"
+      "name": "mixed rindless soft and semi-soft cheeses",
+      "quantity": "8 oz",
+      "prep": "cubed or broken into small clumps"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roll out the easy pie dough to a 12-inch circle. Cube or break the mixed rindless soft and semi-soft cheeses into small clumps.",
+      "secondary_message": "½ recipe easy pie dough\n8 oz mixed rindless soft and semi-soft cheeses"
+    },
     {
       "id": 1,
       "primary_message": "Lay pie dough into an 8-inch tart pan or pie dish (at least 1 1/2 inches deep), and trim excess dough around the edge. Press dough gently into edges, then, with a docker or the tines of a fork, poke holes in even rows across the base and around the wall of dough. Freeze for at least 30 minutes and up to overnight.",

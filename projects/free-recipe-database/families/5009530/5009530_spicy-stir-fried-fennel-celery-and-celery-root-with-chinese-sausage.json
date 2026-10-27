@@ -41,23 +41,27 @@
     },
     {
       "ingredient_id": 2558,
-      "name": "celery root, cut into 1/4 inch-thick matchsticks",
-      "quantity": "1 medium"
+      "name": "celery root",
+      "quantity": "1 medium",
+      "prep": "cut into 1/4 inch-thick matchsticks"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "8 cloves"
+      "name": "garlic",
+      "quantity": "8 cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 470,
-      "name": "fennel, sliced thinly",
-      "quantity": "1 small head"
+      "name": "fennel",
+      "quantity": "1 small head",
+      "prep": "sliced thinly"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, cut into 1/4 inch-thick matchsticks",
-      "quantity": "3 stalks"
+      "name": "celery",
+      "quantity": "3 stalks",
+      "prep": "cut into 1/4 inch-thick matchsticks"
     },
     {
       "ingredient_id": 88,
@@ -81,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the celery root into 1/4 inch-thick matchsticks. Thinly slice the garlic. Slice the fennel thinly. Cut the celery into 1/4 inch-thick matchsticks.",
+      "secondary_message": "1 medium celery root\n8 cloves garlic\n1 small head fennel\n3 stalks celery"
+    },
     {
       "id": 1,
       "primary_message": "Place sausage in a large wok or skillet over high heat. Cook, stirring, until sausages have released oil and a crisp, about 4 minutes. Transfer sausage to a plate, leaving the oil in the pan.",

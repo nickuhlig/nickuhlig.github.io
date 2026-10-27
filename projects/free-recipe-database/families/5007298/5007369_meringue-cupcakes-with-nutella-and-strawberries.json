@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 3642,
-      "name": "egg whites, at room temperature",
-      "quantity": "8 large"
+      "name": "egg whites",
+      "quantity": "8 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1574,
@@ -76,11 +77,18 @@
     },
     {
       "ingredient_id": 242,
-      "name": "strawberries, hulled and sliced",
-      "quantity": "24"
+      "name": "strawberries",
+      "quantity": "24",
+      "prep": "hulled and sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the egg whites to room temperature. Hull and slice the strawberries.",
+      "secondary_message": "8 large egg whites\n24 strawberries"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 95°C (200°F). Spray a 12-cup muffin tin with baking spray, then line tin with cupcake liners and once again lightly spray tin with baking spray, making sure to coat surface of tin.",

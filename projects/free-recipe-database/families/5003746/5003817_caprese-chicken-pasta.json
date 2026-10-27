@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 1629,
-      "name": "skinless boneless chicken breast, trimmed of visible fat",
-      "quantity": "0.57 kg"
+      "name": "skinless boneless chicken breast",
+      "quantity": "0.57 kg",
+      "prep": "trimmed of visible fat"
     },
     {
       "ingredient_id": 1505,
@@ -50,8 +51,9 @@
     },
     {
       "ingredient_id": 1746,
-      "name": "lightly packed basil leaves, torn",
-      "quantity": "¼ cup"
+      "name": "lightly packed basil leaves",
+      "quantity": "¼ cup",
+      "prep": "torn"
     },
     {
       "ingredient_id": 88,
@@ -95,21 +97,30 @@
     },
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, halved",
-      "quantity": "946 ml"
+      "name": "cherry tomatoes",
+      "quantity": "946 ml",
+      "prep": "halved"
     },
     {
       "ingredient_id": 107,
-      "name": "fresh mozzarella, cut into 1/2-inch pieces",
-      "quantity": "340 g"
+      "name": "fresh mozzarella",
+      "quantity": "340 g",
+      "prep": "cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 1746,
-      "name": "lightly packed basil leaves, rough chopped",
-      "quantity": "1 cup"
+      "name": "lightly packed basil leaves",
+      "quantity": "1 cup",
+      "prep": "rough chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the skinless boneless chicken breast of visible fat. Tear the lightly packed basil leaves. Halve the cherry tomatoes. Cut the fresh mozzarella into 1/2-inch pieces. Roughly chop the lightly packed basil leaves.",
+      "secondary_message": "0.57 kg skinless boneless chicken breast\n¼ cup lightly packed basil leaves\n946 ml cherry tomatoes\n340 g fresh mozzarella\n1 cup lightly packed basil leaves"
+    },
     {
       "id": 1,
       "primary_message": "Place chicken breasts in saucepan with chicken broth, basil, 2 teaspoons kosher salt, peppercorns, and zest. If needed, add water to just cover chicken. Heat over medium heat until broth comes to simmer. Reduce heat to low and gently simmer until chicken reads 68°C on instant read thermometer, about 10 minutes. Remove from heat.",

@@ -67,23 +67,27 @@
     },
     {
       "ingredient_id": 150,
-      "name": "red bell pepper, chopped",
-      "quantity": "1 medium"
+      "name": "red bell pepper",
+      "quantity": "1 medium",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1541,
-      "name": "plum tomatoes, chopped",
-      "quantity": "2 medium"
+      "name": "plum tomatoes",
+      "quantity": "2 medium",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, peeled and grated",
-      "quantity": "1 (4 inch) piece"
+      "name": "fresh ginger",
+      "quantity": "1 (4 inch) piece",
+      "prep": "peeled and grated"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 89,
@@ -102,13 +106,15 @@
     },
     {
       "ingredient_id": 164,
-      "name": "boneless skinless chicken thighs, cut into 2-inch pieces",
-      "quantity": "1 lb"
+      "name": "boneless skinless chicken thighs",
+      "quantity": "1 lb",
+      "prep": "cut into 2-inch pieces"
     },
     {
       "ingredient_id": 1922,
-      "name": "boneless beef chuck, cut into 1 1/2-inch pieces",
-      "quantity": "1 lb"
+      "name": "boneless beef chuck",
+      "quantity": "1 lb",
+      "prep": "cut into 1 1/2-inch pieces"
     },
     {
       "ingredient_id": 1747,
@@ -122,9 +128,10 @@
     },
     {
       "ingredient_id": 285,
-      "name": "baby bok choy, leaves pulled apart and rinsed",
+      "name": "baby bok choy",
       "quantity": "5",
-      "weigh_as": "1 lb"
+      "weigh_as": "1 lb",
+      "prep": "leaves pulled apart and rinsed"
     },
     {
       "ingredient_id": 1905,
@@ -133,6 +140,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the red bell pepper. Chop the plum tomatoes. Peel and grate the fresh ginger. Mince the garlic. Cut the boneless skinless chicken thighs into 2-inch pieces. Cut the boneless beef chuck into 1 1/2-inch pieces. Pull apart the leaves of the baby bok choy, then rinse them.",
+      "secondary_message": "1 medium red bell pepper\n2 medium plum tomatoes\n1 (4 inch) piece fresh ginger\n4 medium cloves garlic\n1 lb boneless skinless chicken thighs\n1 lb boneless beef chuck\n5 baby bok choy"
+    },
     {
       "id": 1,
       "primary_message": "In a colander, rinse peanuts well under running cold tap water. Drain and transfer to a large heat-proof bowl and add 1 teaspoon kosher salt, then cover with boiling water by about 2 inches. Cover loosely and let soak at room temperature until all the peanuts sink, have absorbed some water, and the liquid is cooler, at least 1 hour or up to 12 hours.",

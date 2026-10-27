@@ -42,8 +42,9 @@
   "ingredients": [
     {
       "ingredient_id": 1716,
-      "name": "blanched hazelnuts, coarsely chopped",
-      "quantity": "1 cup"
+      "name": "blanched hazelnuts",
+      "quantity": "1 cup",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 293,
@@ -102,8 +103,9 @@
     },
     {
       "ingredient_id": 247,
-      "name": "ripe but firm d’Anjou, each cored and quartered",
-      "quantity": "2 medium"
+      "name": "ripe but firm d’Anjou",
+      "quantity": "2 medium",
+      "prep": "each cored and quartered"
     },
     {
       "ingredient_id": 1725,
@@ -122,11 +124,18 @@
     },
     {
       "ingredient_id": 3057,
-      "name": "aged gouda, shaved",
-      "quantity": "90 g"
+      "name": "aged gouda",
+      "quantity": "90 g",
+      "prep": "shaved"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Coarsely chop the blanched hazelnuts. Core and quarter each ripe but firm d’Anjou. Shave the aged gouda.",
+      "secondary_message": "1 cup blanched hazelnuts\n2 medium ripe but firm d’Anjou\n90 g aged gouda"
+    },
     {
       "id": 1,
       "primary_message": "For the Candied Hazelnuts: In an 20-cm skillet, toast the hazelnuts over medium heat, stirring occasionally, until lightly toasted and fragrant, about 3 minutes. Add brown sugar, water, rosemary, cayenne pepper (if using), and salt; stir until combined and melted, about 20 seconds. Cook until mixture reduces slightly and hazelnuts look sticky, about 2 minutes. Pour nuts onto a parchment-lined plate or baking sheet and spread into a single layer. Allow to cool completely, about 10 minutes. Store in a sealed container until ready to use.",

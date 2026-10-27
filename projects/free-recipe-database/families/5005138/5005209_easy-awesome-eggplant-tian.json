@@ -79,8 +79,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated",
-      "quantity": "1 large clove"
+      "name": "garlic",
+      "quantity": "1 large clove",
+      "prep": "grated"
     },
     {
       "ingredient_id": 72,
@@ -94,8 +95,9 @@
     },
     {
       "ingredient_id": 107,
-      "name": "fresh mozzarella, torn in small chunks",
-      "quantity": "255 g"
+      "name": "fresh mozzarella",
+      "quantity": "255 g",
+      "prep": "torn in small chunks"
     },
     {
       "ingredient_id": 120,
@@ -109,6 +111,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the garlic. Tear the fresh mozzarella in small chunks.",
+      "secondary_message": "1 large clove garlic\n255 g fresh mozzarella"
+    },
     {
       "id": 1,
       "primary_message": "Slice the eggplant into 1.5-cm rounds. Toss the eggplant with the salt in a large colander, and allow to sit and drain in the sink for 30 minutes.",

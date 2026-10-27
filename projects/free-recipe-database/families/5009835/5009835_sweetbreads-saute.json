@@ -48,8 +48,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, thinly sliced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 115,
@@ -78,6 +79,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the onion.",
+      "secondary_message": "1 medium onion"
+    },
     {
       "id": 1,
       "primary_message": "Remove membranes and sinew from sweetbreads. Cut into 1-inch cubes.",

@@ -63,8 +63,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced or grated",
-      "quantity": "1 small clove"
+      "name": "garlic",
+      "quantity": "1 small clove",
+      "prep": "finely minced or grated"
     },
     {
       "ingredient_id": 1007,
@@ -88,13 +89,15 @@
     },
     {
       "ingredient_id": 191,
-      "name": "high-quality bread, toasted",
-      "quantity": "4 slices"
+      "name": "high-quality bread",
+      "quantity": "4 slices",
+      "prep": "toasted"
     },
     {
       "ingredient_id": 260,
-      "name": "ripe tomato, cored and sliced into irregular wedges",
-      "quantity": "1 large"
+      "name": "ripe tomato",
+      "quantity": "1 large",
+      "prep": "cored and sliced into irregular wedges"
     },
     {
       "ingredient_id": 1472,
@@ -103,6 +106,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince or grate the garlic. Toast the high-quality bread. Core and slice the ripe tomato into irregular wedges.",
+      "secondary_message": "1 small clove garlic\n4 slices high-quality bread\n1 large ripe tomato"
+    },
     {
       "id": 1,
       "primary_message": "For the mayonnaise: Combine egg yolks, lemon juice, mustard, and garlic in the bowl of a food processor or stand mixer fitted with a whisk attachment. With machine running, slowly drizzle in canola oil, stopping machine to scrape down sides as necessary. Mixture should begin to form a thick emulsion. If using a food processor, transfer to a large bowl set in a heavy pot lined with a dish towel to stabilize, then, whisking constantly, slowly drizzle in olive oil until a thick mayonnaise forms. Alternatively, if using a stand mixer, continue to use the mixer's whisk attachment to add the olive oil. Add up to 1 tablespoon water, whisking constantly, until mixture lightens in color and is thin enough to slowly fall off of a spoon when held vertically. Season to taste with salt and black pepper.",

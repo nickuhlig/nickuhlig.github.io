@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cubed",
-      "quantity": "16 tbsp (8 oz)"
+      "name": "cold unsalted butter",
+      "quantity": "16 tbsp (8 oz)",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 346,
@@ -87,6 +88,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cube the cold unsalted butter.",
+      "secondary_message": "16 tbsp (8 oz) cold unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350°F. Butter inside of 9-inch springform pan.",

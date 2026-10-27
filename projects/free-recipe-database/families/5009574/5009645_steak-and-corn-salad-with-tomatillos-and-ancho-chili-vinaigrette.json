@@ -90,8 +90,9 @@
     },
     {
       "ingredient_id": 2021,
-      "name": "serrano chili, thinly sliced",
-      "quantity": "1 small"
+      "name": "serrano chili",
+      "quantity": "1 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 188,
@@ -105,6 +106,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the serrano chili.",
+      "secondary_message": "1 small serrano chili"
+    },
     {
       "id": 1,
       "primary_message": "Season steak generously with salt and pepper. Rub with half of chili powder, half of garlic, and 2 teaspoons olive oil. Set aside.",

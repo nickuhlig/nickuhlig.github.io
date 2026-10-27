@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "butter, softened",
-      "quantity": "7 tbsp"
+      "name": "butter",
+      "quantity": "7 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 346,
@@ -51,13 +52,15 @@
     },
     {
       "ingredient_id": 116,
-      "name": "all-purpose flour, sifted",
-      "quantity": "1 cup"
+      "name": "all-purpose flour",
+      "quantity": "1 cup",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 333,
-      "name": "Dutch-processed cocoa powder, sifted",
-      "quantity": "½ cup"
+      "name": "Dutch-processed cocoa powder",
+      "quantity": "½ cup",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 88,
@@ -66,11 +69,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, melted and cooled",
-      "quantity": "3 tbsp"
+      "name": "butter",
+      "quantity": "3 tbsp",
+      "prep": "melted and cooled"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the butter. Sift the all-purpose flour. Sift the Dutch-processed cocoa powder. Melt the butter and let it cool.",
+      "secondary_message": "7 tbsp butter\n1 cup all-purpose flour\n½ cup Dutch-processed cocoa powder\n3 tbsp butter"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 350° Fahrenheit. Line a baking sheet with parchment paper and set aside. In the bowl of a mixer fitted with a paddle attachment, cream butter and sugar for 4 to 5 minutes on medium to high speed, scraping down the sides of the bowl as needed.",

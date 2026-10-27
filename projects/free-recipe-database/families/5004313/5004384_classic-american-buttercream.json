@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened to room temperature",
-      "quantity": "¾ cup"
+      "name": "unsalted butter",
+      "quantity": "¾ cup",
+      "prep": "softened to room temperature"
     },
     {
       "ingredient_id": 347,
@@ -66,6 +67,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter to room temperature.",
+      "secondary_message": "¾ cup unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Add the butter to a stand mixer fitted with the whisk or paddle, or a medium mixing bowl if using a handheld mixer. Beat butter at medium speed until creamy, smooth, and lightened in color, about 2 minutes.",

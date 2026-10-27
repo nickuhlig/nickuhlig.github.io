@@ -67,8 +67,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, room temperature",
-      "quantity": "113 g"
+      "name": "unsalted butter",
+      "quantity": "113 g",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 346,
@@ -102,8 +103,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "28 g"
+      "name": "unsalted butter",
+      "quantity": "28 g",
+      "prep": "softened"
     },
     {
       "ingredient_id": 2240,
@@ -112,13 +114,15 @@
     },
     {
       "ingredient_id": 2285,
-      "name": "semi-sweet chocolate, finely chopped",
-      "quantity": "284 g"
+      "name": "semi-sweet chocolate",
+      "quantity": "284 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 333,
-      "name": "28gDutch processed cocoa powder, sifted",
-      "quantity": ""
+      "name": "28gDutch processed cocoa powder",
+      "quantity": "",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 353,
@@ -132,6 +136,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature. Soften the unsalted butter. Finely chop the semi-sweet chocolate. Sift the 28gDutch processed cocoa powder.",
+      "secondary_message": "113 g unsalted butter\n28 g unsalted butter\n284 g semi-sweet chocolate\n28gDutch processed cocoa powder"
+    },
     {
       "id": 1,
       "primary_message": "For the Cookies: Adjust oven rack to middle position and preheat oven to 165°C (325°F) (160℃). In a medium bowl, whisk flour, baking powder, and salt until well combined; set aside.",

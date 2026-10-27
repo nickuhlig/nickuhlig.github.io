@@ -62,13 +62,15 @@
     },
     {
       "ingredient_id": 1929,
-      "name": "shiitake mushrooms, finely chopped",
-      "quantity": "½ lb"
+      "name": "shiitake mushrooms",
+      "quantity": "½ lb",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 51,
@@ -82,8 +84,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, peeled and grated",
-      "quantity": "1 (3 inch) piece"
+      "name": "fresh ginger",
+      "quantity": "1 (3 inch) piece",
+      "prep": "peeled and grated"
     },
     {
       "ingredient_id": 24,
@@ -97,13 +100,15 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, chopped",
-      "quantity": "1 bunch"
+      "name": "scallions",
+      "quantity": "1 bunch",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 188,
-      "name": "fresh cilantro, chopped",
-      "quantity": "2 cups"
+      "name": "fresh cilantro",
+      "quantity": "2 cups",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1338,
@@ -132,6 +137,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the shiitake mushrooms. Beat the eggs. Peel and grate the fresh ginger. Chop the scallions. Chop the fresh cilantro.",
+      "secondary_message": "½ lb shiitake mushrooms\n2 large eggs\n1 (3 inch) piece fresh ginger\n1 bunch scallions\n2 cups fresh cilantro"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 400°F. Remove 24 large outer leaves from the heads of cabbage (take 12 from each). Roll each leaf with a rolling pin gently to flatten and smooth it. Core the remaining cabbage and chop it very fine. Sprinkle it with the salt and set aside in a colander.",

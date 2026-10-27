@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 2069,
-      "name": "tomatillos, split in half",
-      "quantity": "4 medium"
+      "name": "tomatillos",
+      "quantity": "4 medium",
+      "prep": "split in half"
     },
     {
       "ingredient_id": 2066,
@@ -50,8 +51,9 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, thinly sliced",
-      "quantity": "1"
+      "name": "white onion",
+      "quantity": "1",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1044,
@@ -60,8 +62,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 186,
@@ -90,8 +93,9 @@
     },
     {
       "ingredient_id": 94,
-      "name": "pinto beans, drained and rinsed",
-      "quantity": "1 (425 g) can"
+      "name": "pinto beans",
+      "quantity": "1 (425 g) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 1270,
@@ -110,11 +114,18 @@
     },
     {
       "ingredient_id": 183,
-      "name": "avocado, sliced",
-      "quantity": "1"
+      "name": "avocado",
+      "quantity": "1",
+      "prep": "sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the tomatillos in half. Thinly slice the white onion. Thinly slice the garlic. Drain and rinse the pinto beans. Slice the avocado.",
+      "secondary_message": "4 medium tomatillos\n1 white onion\n4 medium cloves garlic\n1 (425 g) can pinto beans\n1 avocado"
+    },
     {
       "id": 1,
       "primary_message": "For the Salsa Verde: Preheat broiler or toaster oven broiler to high. Place tomatillos cut side down on a foil-lined rimmed baking sheet along with poblano or Hatch chile. Broil until chile is blackened on one side, about 10 minute. Flip chile and continue broiling until blackened on second side, about 6 minutes longer. Transfer vegetables to a small bowl and cover tightly with foil. Let steam for 5 minutes.",

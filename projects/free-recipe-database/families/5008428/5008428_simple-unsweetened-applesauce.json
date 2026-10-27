@@ -41,9 +41,10 @@
   "ingredients": [
     {
       "ingredient_id": 1692,
-      "name": "mixed apples, cored and roughly chopped",
+      "name": "mixed apples",
       "quantity": "9",
-      "weigh_as": "3 ½ lb"
+      "weigh_as": "3 ½ lb",
+      "prep": "cored and roughly chopped"
     },
     {
       "ingredient_id": 359,
@@ -57,6 +58,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Core and roughly chop the mixed apples.",
+      "secondary_message": "9 mixed apples"
+    },
     {
       "id": 1,
       "primary_message": "Combine apples and water in a large pot. Bring to a boil, then reduce to a bare simmer. Cook, uncovered, until apples break down easily when squeezed with tongs, about 15 minutes.",

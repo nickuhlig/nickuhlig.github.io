@@ -102,8 +102,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted European-style butter, cut into 1/2-inch cubes, divided",
-      "quantity": "18 tbsp"
+      "name": "unsalted European-style butter, divided",
+      "quantity": "18 tbsp",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 118,
@@ -117,8 +118,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "8 oz"
+      "name": "cream cheese",
+      "quantity": "8 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 3641,
@@ -127,8 +129,9 @@
     },
     {
       "ingredient_id": 347,
-      "name": "powdered sugar, sifted, plus more for garnish",
-      "quantity": "¼ cup"
+      "name": "powdered sugar, plus more for garnish",
+      "quantity": "¼ cup",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 1480,
@@ -152,6 +155,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted European-style butter into 1/2-inch cubes. Soften the cream cheese. Sift the powdered sugar.",
+      "secondary_message": "18 tbsp unsalted European-style butter, divided\n8 oz cream cheese\n¼ cup powdered sugar, plus more for garnish"
+    },
     {
       "id": 1,
       "primary_message": "For the Danish Dough: In a medium bowl, whisk together warm water and the 1/2 teaspoon granulated sugar until the sugar dissolves. Whisk in yeast until well-combined; let stand, uncovered, at room temperature until foamy, 5 to 10 minutes.",

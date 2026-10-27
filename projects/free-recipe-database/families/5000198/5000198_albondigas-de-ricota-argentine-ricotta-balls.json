@@ -42,13 +42,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1534,
-      "name": "pitted black olives, halved lengthwise",
-      "quantity": "1 cup"
+      "name": "pitted black olives",
+      "quantity": "1 cup",
+      "prep": "halved lengthwise"
     },
     {
       "ingredient_id": 15,
@@ -132,8 +134,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 47,
@@ -147,6 +150,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic. Halve the pitted black olives lengthwise. Beat the egg.",
+      "secondary_message": "4 medium cloves garlic\n1 cup pitted black olives\n1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "For the Tomato Sauce: In a 5-quart Dutch oven, combine olive oil and garlic and set over medium heat. Cook, stirring often, until garlic just begins to turn very lightly golden. Stir in olives and capers and cook until just heated through, about 45 seconds.",

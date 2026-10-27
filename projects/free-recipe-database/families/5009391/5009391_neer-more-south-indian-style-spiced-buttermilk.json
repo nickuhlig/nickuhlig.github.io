@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 2475,
-      "name": "buttermilk, chilled",
-      "quantity": "1 cup"
+      "name": "buttermilk",
+      "quantity": "1 cup",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 359,
@@ -61,13 +62,15 @@
     },
     {
       "ingredient_id": 151,
-      "name": "fresh jalapeño, seeded and minced",
-      "quantity": "½"
+      "name": "fresh jalapeño",
+      "quantity": "½",
+      "prep": "seeded and minced"
     },
     {
       "ingredient_id": 188,
-      "name": "fresh cilantro leaves, roughly chopped",
-      "quantity": "½ cup"
+      "name": "fresh cilantro leaves",
+      "quantity": "½ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 2152,
@@ -96,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the buttermilk cold until you use it. Seed and mince the fresh jalapeño. Roughly chop the fresh cilantro leaves.",
+      "secondary_message": "1 cup buttermilk\n½ fresh jalapeño\n½ cup fresh cilantro leaves"
+    },
     {
       "id": 1,
       "primary_message": "In a blender combine buttermilk, water, lemon juice, ginger, jalapeno, cilantro, asafoetida, and a pinch of salt. Cover and blend on high speed until mixture takes on a greenish tint, about 10 seconds. Taste and adjust for salt, then set aside.",

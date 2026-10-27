@@ -41,23 +41,27 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, minced",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "minced"
     },
     {
       "ingredient_id": 309,
-      "name": "leek, minced",
-      "quantity": "½"
+      "name": "leek",
+      "quantity": "½",
+      "prep": "minced"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, minced",
-      "quantity": "1 medium"
+      "name": "carrot",
+      "quantity": "1 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, minced",
-      "quantity": "1 stalk"
+      "name": "celery",
+      "quantity": "1 stalk",
+      "prep": "minced"
     },
     {
       "ingredient_id": 338,
@@ -81,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the onion. Mince the leek. Mince the carrot. Mince the celery.",
+      "secondary_message": "1 small onion\n½ leek\n1 medium carrot\n1 stalk celery"
+    },
     {
       "id": 1,
       "primary_message": "Pour the oil into a large Dutch oven set over medium heat. When warm, add the minced onion, leek, carrot, and celery. Cook, stirring occasionally, until the vegetables soften but don't brown.",

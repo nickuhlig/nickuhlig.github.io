@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 1003,
@@ -55,18 +56,21 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened, divided",
-      "quantity": "7 tbsp"
+      "name": "unsalted butter, divided",
+      "quantity": "7 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "2 large cloves"
+      "name": "garlic",
+      "quantity": "2 large cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 449,
-      "name": "frozen chopped spinach, thawed and drained",
-      "quantity": "10 oz"
+      "name": "frozen chopped spinach",
+      "quantity": "10 oz",
+      "prep": "thawed and drained"
     },
     {
       "ingredient_id": 2778,
@@ -75,8 +79,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "8 oz"
+      "name": "cream cheese",
+      "quantity": "8 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 120,
@@ -110,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Beat the egg. Soften the unsalted butter. Mince the garlic. Thaw and drain the frozen chopped spinach. Soften the cream cheese.",
+      "secondary_message": "1 large egg\n7 tbsp unsalted butter, divided\n2 large cloves garlic\n10 oz frozen chopped spinach\n8 oz cream cheese"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, whisk together flour and 1 teaspoon salt. Add egg, 1 cup sour cream, and 4 tablespoons softened butter. Stir until well combined and the dough pulls away from the bowl. If dough is too dry, add one tablespoon of water at a time until it comes together. Cover and refrigerate for at least 30 minutes or up to 48 hours.",

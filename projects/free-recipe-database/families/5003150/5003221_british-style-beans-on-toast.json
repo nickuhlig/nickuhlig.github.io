@@ -47,8 +47,9 @@
   "ingredients": [
     {
       "ingredient_id": 1434,
-      "name": "dry navy beans, picked over and rinsed",
-      "quantity": "0.45 kg"
+      "name": "dry navy beans",
+      "quantity": "0.45 kg",
+      "prep": "picked over and rinsed"
     },
     {
       "ingredient_id": 88,
@@ -62,13 +63,15 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, halved",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "halved"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, halved crosswise",
-      "quantity": "1 large head"
+      "name": "garlic",
+      "quantity": "1 large head",
+      "prep": "halved crosswise"
     },
     {
       "ingredient_id": 1994,
@@ -82,13 +85,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into pieces, divided",
-      "quantity": "6 tbsp"
+      "name": "unsalted butter, divided",
+      "quantity": "6 tbsp",
+      "prep": "cut into pieces"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely chopped",
-      "quantity": "1 small"
+      "name": "yellow onion",
+      "quantity": "1 small",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 293,
@@ -107,8 +112,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, finely chopped",
-      "quantity": "3 medium"
+      "name": "garlic cloves",
+      "quantity": "3 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 88,
@@ -132,11 +138,18 @@
     },
     {
       "ingredient_id": 475,
-      "name": "-thick sourdough bread slices, toasted",
-      "quantity": "6 (2 cm)"
+      "name": "-thick sourdough bread slices",
+      "quantity": "6 (2 cm)",
+      "prep": "toasted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the dry navy beans over, then rinse them. Halve the yellow onion. Halve the garlic crosswise. Cut the unsalted butter into pieces. Finely chop the yellow onion. Finely chop the garlic cloves. Toast the -thick sourdough bread slices.",
+      "secondary_message": "0.45 kg dry navy beans\n1 medium yellow onion\n1 large head garlic\n6 tbsp unsalted butter, divided\n1 small yellow onion\n3 medium garlic cloves\n6 (2 cm) -thick sourdough bread slices"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, cover beans with 8 1/2 cups water. Add 3 tablespoons of the salt along with the baking soda, stirring briefly to combine, then cover loosely and let soak at room temperature at least 8 and up to 12 hours. Drain the beans, then rinse well under running tap water.",

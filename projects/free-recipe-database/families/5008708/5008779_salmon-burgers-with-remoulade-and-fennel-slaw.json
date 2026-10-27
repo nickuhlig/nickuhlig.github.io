@@ -54,8 +54,9 @@
   "ingredients": [
     {
       "ingredient_id": 6,
-      "name": "boneless skinless salmon, very finely chopped by hand",
-      "quantity": "0.68 kg"
+      "name": "boneless skinless salmon",
+      "quantity": "0.68 kg",
+      "prep": "very finely chopped by hand"
     },
     {
       "ingredient_id": 1808,
@@ -69,8 +70,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "fresh peeled ginger, grated",
-      "quantity": "1 (2 ½ cm) knob"
+      "name": "fresh peeled ginger",
+      "quantity": "1 (2 ½ cm) knob",
+      "prep": "grated"
     },
     {
       "ingredient_id": 88,
@@ -89,13 +91,15 @@
     },
     {
       "ingredient_id": 15,
-      "name": "drained brined capers, minced",
-      "quantity": "1 tbsp"
+      "name": "drained brined capers",
+      "quantity": "1 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2091,
-      "name": "cornichons, minced",
-      "quantity": "4"
+      "name": "cornichons",
+      "quantity": "4",
+      "prep": "minced"
     },
     {
       "ingredient_id": 106,
@@ -129,8 +133,9 @@
     },
     {
       "ingredient_id": 2558,
-      "name": "peeled celery root, julienned",
-      "quantity": "50 g"
+      "name": "peeled celery root",
+      "quantity": "50 g",
+      "prep": "julienned"
     },
     {
       "ingredient_id": 2520,
@@ -139,9 +144,10 @@
     },
     {
       "ingredient_id": 470,
-      "name": "fennel, julienned",
+      "name": "fennel",
       "quantity": "¼",
-      "weigh_as": "50 g"
+      "weigh_as": "50 g",
+      "prep": "julienned"
     },
     {
       "ingredient_id": 47,
@@ -150,8 +156,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, juiced, for drizzling",
-      "quantity": "1"
+      "name": "lemon, for drizzling",
+      "quantity": "1",
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -175,11 +182,18 @@
     },
     {
       "ingredient_id": 1059,
-      "name": "brioche hamburger buns, buttered and toasted",
-      "quantity": "4"
+      "name": "brioche hamburger buns",
+      "quantity": "4",
+      "prep": "buttered and toasted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Very finely chop the boneless skinless salmon by hand. Grate the fresh peeled ginger. Mince the drained brined capers. Mince the cornichons. Julienne the peeled celery root. Julienne the fennel. Juice the lemon. Butter and toast the brioche hamburger buns.",
+      "secondary_message": "0.68 kg boneless skinless salmon\n1 (2 ½ cm) knob fresh peeled ginger\n1 tbsp drained brined capers\n4 cornichons\n50 g peeled celery root\n¼ fennel\n1 lemon, for drizzling\n4 brioche hamburger buns"
+    },
     {
       "id": 1,
       "primary_message": "For the Salmon Patties: In a medium bowl, combine salmon, herbs, coriander seeds, and ginger. Stir well, then season with salt and pepper. (You can cook a very small amount in a nonstick skillet to check salt levels, and then adjust accordingly). Set in refrigerator.",

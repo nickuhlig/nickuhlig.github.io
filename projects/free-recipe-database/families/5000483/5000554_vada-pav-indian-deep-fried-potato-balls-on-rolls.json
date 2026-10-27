@@ -94,8 +94,9 @@
     },
     {
       "ingredient_id": 1850,
-      "name": "green chiles, such as serrano or bird’s eye, stemmed",
-      "quantity": "2 small"
+      "name": "green chiles, such as serrano or bird’s eye",
+      "quantity": "2 small",
+      "prep": "stemmed"
     },
     {
       "ingredient_id": 217,
@@ -124,8 +125,9 @@
     },
     {
       "ingredient_id": 1039,
-      "name": "russet potatoes, peeled and cut into 2-inch chunks",
-      "quantity": "3"
+      "name": "russet potatoes",
+      "quantity": "3",
+      "prep": "peeled and cut into 2-inch chunks"
     },
     {
       "ingredient_id": 1682,
@@ -214,16 +216,24 @@
     },
     {
       "ingredient_id": 1762,
-      "name": "green Thai chiles, slit lengthwise",
-      "quantity": "4 to 5"
+      "name": "green Thai chiles",
+      "quantity": "4 to 5",
+      "prep": "slit lengthwise"
     },
     {
       "ingredient_id": 1027,
-      "name": "dinner rolls, split",
-      "quantity": "10"
+      "name": "dinner rolls",
+      "quantity": "10",
+      "prep": "split"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem the green chiles. Peel and cut the russet potatoes into 2-inch chunks. Slit the green Thai chiles lengthwise. Split the dinner rolls.",
+      "secondary_message": "2 small green chiles, such as serrano or bird’s eye\n3 russet potatoes\n4 to 5 green Thai chiles\n10 dinner rolls"
+    },
     {
       "id": 1,
       "primary_message": "For the Cilantro Chutney: In a food processor, blend cilantro, mint, green chiles, peanuts, salt, sugar, lemon juice, and water until smooth, using a rubber spatula to scrape down as needed, about 2 minutes. Set aside.",

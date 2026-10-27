@@ -47,9 +47,10 @@
   "ingredients": [
     {
       "ingredient_id": 260,
-      "name": "ripe tomatoes, cut into 1/4- to 1/2-inch dice",
+      "name": "ripe tomatoes",
       "quantity": "6",
-      "weigh_as": "1 ½ lb"
+      "weigh_as": "1 ½ lb",
+      "prep": "cut into 1/4- to 1/2-inch dice"
     },
     {
       "ingredient_id": 88,
@@ -58,13 +59,15 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, finely diced",
-      "quantity": "½ large"
+      "name": "white onion",
+      "quantity": "½ large",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 1799,
-      "name": "serrano chiles, finely diced",
-      "quantity": "1 to 2"
+      "name": "serrano chiles",
+      "quantity": "1 to 2",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 188,
@@ -78,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the ripe tomatoes into 1/4- to 1/2-inch dice. Finely dice the white onion. Finely dice the serrano chiles.",
+      "secondary_message": "6 ripe tomatoes\n½ large white onion\n1 to 2 serrano chiles"
+    },
     {
       "id": 1,
       "primary_message": "Season tomatoes with 1 teaspoon salt and toss to combine. Transfer to a fine-mesh strainer or colander set in a bowl and allow to drain for 20 to 30 minutes. Discard liquid.",

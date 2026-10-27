@@ -40,9 +40,10 @@
   "ingredients": [
     {
       "ingredient_id": 469,
-      "name": "plums, stoned and halved",
+      "name": "plums",
       "quantity": "12",
-      "weigh_as": "0.91 kg"
+      "weigh_as": "0.91 kg",
+      "prep": "stoned and halved"
     },
     {
       "ingredient_id": 221,
@@ -71,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stone and halve the plums.",
+      "secondary_message": "12 plums"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 260°C (500°F) with a rack in the middle. Line a rimmed baking sheet with aluminum foil and arrange plums, cut side up, in a single layer. Roast for 15 minutes, until plums are jammy and offer no resistance to a paring knife. Remove from oven and wrap in aluminum foil to cool for 10 minutes.",

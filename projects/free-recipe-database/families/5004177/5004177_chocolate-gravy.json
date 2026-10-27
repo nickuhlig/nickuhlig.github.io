@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, sliced into 1 tablespoon pieces",
-      "quantity": "4 tbsp"
+      "name": "butter",
+      "quantity": "4 tbsp",
+      "prep": "sliced into 1 tablespoon pieces"
     },
     {
       "ingredient_id": 353,
@@ -70,6 +71,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the butter into 1 tablespoon pieces.",
+      "secondary_message": "4 tbsp butter"
+    },
     {
       "id": 1,
       "primary_message": "Whisk together sugar, cocoa, and flour in a medium saucepan until completely smooth.",

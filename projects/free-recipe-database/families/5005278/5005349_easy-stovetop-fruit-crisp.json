@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 1716,
-      "name": "hazelnuts, finely chopped",
-      "quantity": "½ cup"
+      "name": "hazelnuts",
+      "quantity": "½ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 293,
@@ -97,12 +98,19 @@
     },
     {
       "ingredient_id": 469,
-      "name": "red plums, pitted and cut into 1/2-inch wedges",
+      "name": "red plums",
       "quantity": "10",
-      "weigh_as": "0.79 kg"
+      "weigh_as": "0.79 kg",
+      "prep": "pitted and cut into 1/2-inch wedges"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the hazelnuts. Pit and cut the red plums into 1/2-inch wedges.",
+      "secondary_message": "½ cup hazelnuts\n10 red plums"
+    },
     {
       "id": 1,
       "primary_message": "For the Streusel: Combine flour, nuts, brown sugar, salt, and cinnamon in a small bowl. Melt butter in 25-cm nonstick skillet over medium heat. Remove from heat and stir in flour mixture until moistened and mixture forms small clumps. Return to low heat and cook, stirring frequently, until streusel is golden brown and well toasted, 6 to 9 minutes. Transfer streusel to a large plate to cool (see note). Streusel can be made up to 5 days ahead. After cooling completely, store in an airtight container at room temperature.",

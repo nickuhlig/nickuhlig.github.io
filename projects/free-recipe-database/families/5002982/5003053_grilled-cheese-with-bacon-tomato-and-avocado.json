@@ -34,8 +34,9 @@
   "ingredients": [
     {
       "ingredient_id": 302,
-      "name": "bacon, sliced in half crosswise",
-      "quantity": "2 slices"
+      "name": "bacon",
+      "quantity": "2 slices",
+      "prep": "sliced in half crosswise"
     },
     {
       "ingredient_id": 1216,
@@ -59,8 +60,9 @@
     },
     {
       "ingredient_id": 183,
-      "name": "ripe avocado, thinly sliced",
-      "quantity": "½"
+      "name": "ripe avocado",
+      "quantity": "½",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -69,6 +71,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the bacon in half crosswise. Thinly slice the ripe avocado.",
+      "secondary_message": "2 slices bacon\n½ ripe avocado"
+    },
     {
       "id": 1,
       "primary_message": "Place bacon in a large nonstick or cast iron skillet and cook over medium-low heat, turning occasionally, until crisp all over, about 8 minutes. Transfer bacon to a paper towel-lined plate and bacon fat to a small bowl.",

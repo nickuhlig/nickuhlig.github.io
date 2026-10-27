@@ -75,18 +75,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, roughly chopped",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, peeled and roughly chopped",
-      "quantity": "1 medium"
+      "name": "carrot",
+      "quantity": "1 medium",
+      "prep": "peeled and roughly chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, roughly chopped",
-      "quantity": "1 medium rib"
+      "name": "celery",
+      "quantity": "1 medium rib",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1270,
@@ -120,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the onion. Peel and roughly chop the carrot. Roughly chop the celery.",
+      "secondary_message": "1 medium onion\n1 medium carrot\n1 medium rib celery"
+    },
     {
       "id": 1,
       "primary_message": "Place oven rack in upper-middle position and preheat oven to 450°F. Using sharp kitchen shears, remove backbone from chicken and cut spine into 5 to 6 one-inch-long pieces. Set backbone aside. Flatten chicken by placing skin side up on a cutting board and applying firm pressure to breastbone. Transfer to a wire rack set in a foil-lined rimmed baking sheet. Position chicken so that breasts are aligned with center of baking sheet and legs are close to edge.",

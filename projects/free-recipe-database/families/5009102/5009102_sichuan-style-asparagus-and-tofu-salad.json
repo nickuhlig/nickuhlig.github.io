@@ -39,8 +39,9 @@
   "ingredients": [
     {
       "ingredient_id": 1869,
-      "name": "whole hot Chinese dried red peppers, stems removed",
-      "quantity": "4 to 8"
+      "name": "whole hot Chinese dried red peppers",
+      "quantity": "4 to 8",
+      "prep": "stems removed"
     },
     {
       "ingredient_id": 1837,
@@ -84,9 +85,10 @@
     },
     {
       "ingredient_id": 26,
-      "name": "thin asparagus stalks, ends trimmed, cut into 2-inch pieces",
+      "name": "thin asparagus stalks",
       "quantity": "1 bunch",
-      "weigh_as": "1 lb"
+      "weigh_as": "1 lb",
+      "prep": "ends trimmed, cut into 2-inch pieces"
     },
     {
       "ingredient_id": 2772,
@@ -95,11 +97,18 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, sliced thinly on a sharp bias",
-      "quantity": "4"
+      "name": "scallions",
+      "quantity": "4",
+      "prep": "sliced thinly on a sharp bias"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the stems from the whole hot Chinese dried red peppers. Trim the ends of the thin asparagus stalks, then cut them into 2-inch pieces. Slice the scallions thinly on a sharp bias.",
+      "secondary_message": "4 to 8 whole hot Chinese dried red peppers\n1 bunch thin asparagus stalks\n4 scallions"
+    },
     {
       "id": 1,
       "primary_message": "For the Sauce: Place chiles and Sichuan peppercorns on a microwave-safe plate and microwave on high until toasted and aromatic, about 15 seconds. Transfer to a mortar and pestle or a food processor and crush until it's about the texture of store-bought crushed red pepper flakes. Transfer to a small saucepan.",

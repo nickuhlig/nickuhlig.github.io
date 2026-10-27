@@ -48,8 +48,9 @@
     },
     {
       "ingredient_id": 41,
-      "name": "full-fat coconut milk, blended well to incorporate fat, divided",
-      "quantity": "1 (400 ml) can"
+      "name": "full-fat coconut milk, divided",
+      "quantity": "1 (400 ml) can",
+      "prep": "blended well to incorporate fat"
     },
     {
       "ingredient_id": 346,
@@ -68,11 +69,18 @@
     },
     {
       "ingredient_id": 229,
-      "name": "Ataúlfo mangoes, peeled, pitted, and sliced",
-      "quantity": "2"
+      "name": "Ataúlfo mangoes",
+      "quantity": "2",
+      "prep": "peeled, pitted, and sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Blend the full-fat coconut milk well to incorporate fat. Peel, pit, and slice the Ataúlfo mangoes.",
+      "secondary_message": "1 (400 ml) can full-fat coconut milk, divided\n2 Ataúlfo mangoes"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, cover rice with water by several inches and let stand at room temperature 1 hour or up to overnight.",

@@ -50,23 +50,27 @@
   "ingredients": [
     {
       "ingredient_id": 1174,
-      "name": "country white bread, cut into 1 1/2-inch pieces",
-      "quantity": "1 lb"
+      "name": "country white bread",
+      "quantity": "1 lb",
+      "prep": "cut into 1 1/2-inch pieces"
     },
     {
       "ingredient_id": 302,
-      "name": "thick-cut bacon, chopped",
-      "quantity": "8 oz"
+      "name": "thick-cut bacon",
+      "quantity": "8 oz",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, chopped",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2066,
-      "name": "poblano chiles, stemmed, seeded, and chopped",
-      "quantity": "2 small"
+      "name": "poblano chiles",
+      "quantity": "2 small",
+      "prep": "stemmed, seeded, and chopped"
     },
     {
       "ingredient_id": 75,
@@ -95,8 +99,9 @@
     },
     {
       "ingredient_id": 2071,
-      "name": "chopped mild chiles, drained",
-      "quantity": "1 (4 oz) can"
+      "name": "chopped mild chiles",
+      "quantity": "1 (4 oz) can",
+      "prep": "drained"
     },
     {
       "ingredient_id": 188,
@@ -120,21 +125,30 @@
     },
     {
       "ingredient_id": 1541,
-      "name": "plum tomato, chopped",
-      "quantity": "1 large"
+      "name": "plum tomato",
+      "quantity": "1 large",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 43,
-      "name": "sharp cheddar cheese, shredded",
-      "quantity": "4 oz"
+      "name": "sharp cheddar cheese",
+      "quantity": "4 oz",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 1069,
-      "name": "Monterey Jack cheese, shredded",
-      "quantity": "4 oz"
+      "name": "Monterey Jack cheese",
+      "quantity": "4 oz",
+      "prep": "shredded"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the country white bread into 1 1/2-inch pieces. Chop the thick-cut bacon. Chop the yellow onion. Stem, seed, and chop the poblano chiles. Drain the chopped mild chiles. Chop the plum tomato. Shred the sharp cheddar cheese. Shred the Monterey Jack cheese.",
+      "secondary_message": "1 lb country white bread\n8 oz thick-cut bacon\n1 medium yellow onion\n2 small poblano chiles\n1 (4 oz) can chopped mild chiles\n1 large plum tomato\n4 oz sharp cheddar cheese\n4 oz Monterey Jack cheese"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and heat oven to 275°F. On a rimmed baking sheet, spread bread in an even layer and bake, rotating sheet and stirring bread cubes several times during baking, until bread is completely dried, but not browned or changed in color, 30 to 40 minutes. Remove from oven and set aside to cool. Increase oven temperature to 375°F.",

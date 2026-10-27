@@ -42,8 +42,9 @@
   "ingredients": [
     {
       "ingredient_id": 1824,
-      "name": "rendered duck fat, melted",
-      "quantity": "¾ cup"
+      "name": "rendered duck fat",
+      "quantity": "¾ cup",
+      "prep": "melted"
     },
     {
       "ingredient_id": 1007,
@@ -77,8 +78,9 @@
     },
     {
       "ingredient_id": 228,
-      "name": "lime, juiced",
-      "quantity": "1"
+      "name": "lime",
+      "quantity": "1",
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -97,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the rendered duck fat. Juice the lime.",
+      "secondary_message": "¾ cup rendered duck fat\n1 lime"
+    },
     {
       "id": 1,
       "primary_message": "Combine duck fat and canola oil in 2-cup liquid measuring cup. Whisk to combine.",

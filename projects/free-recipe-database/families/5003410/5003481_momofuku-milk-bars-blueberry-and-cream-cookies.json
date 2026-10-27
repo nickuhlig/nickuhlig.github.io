@@ -37,8 +37,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "butter, at room temperature",
-      "quantity": "16 tbsp"
+      "name": "butter",
+      "quantity": "16 tbsp",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -117,8 +118,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, melted",
-      "quantity": "4 tbsp"
+      "name": "butter",
+      "quantity": "4 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 1280,
@@ -127,11 +129,18 @@
     },
     {
       "ingredient_id": 2581,
-      "name": "white chocolate, melted",
-      "quantity": "90 g"
+      "name": "white chocolate",
+      "quantity": "90 g",
+      "prep": "melted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the butter to room temperature. Melt the butter. Melt the white chocolate.",
+      "secondary_message": "16 tbsp butter\n4 tbsp butter\n90 g white chocolate"
+    },
     {
       "id": 1,
       "primary_message": "For the Milk Crumb: Heat the oven to 120°C (250°F).",

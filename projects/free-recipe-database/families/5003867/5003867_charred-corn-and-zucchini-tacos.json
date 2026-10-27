@@ -39,29 +39,34 @@
     },
     {
       "ingredient_id": 303,
-      "name": "fresh corn, kernels removed",
+      "name": "fresh corn",
       "quantity": "2 ½ cups",
-      "weigh_as": "408 g"
+      "weigh_as": "408 g",
+      "prep": "kernels removed"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely diced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño pepper, seeds and ribs removed, finely minced",
-      "quantity": "1"
+      "name": "jalapeño pepper",
+      "quantity": "1",
+      "prep": "seeds and ribs removed, finely minced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated on a microplane grater",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "grated on a microplane grater"
     },
     {
       "ingredient_id": 2324,
-      "name": "zucchini, cut into 1/2-inch cubes",
-      "quantity": "2 cups"
+      "name": "zucchini",
+      "quantity": "2 cups",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 188,
@@ -90,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the kernels from the fresh corn. Finely dice the onion. Remove the seeds and ribs from the jalapeño pepper, then finely mince it. Grate the garlic on a microplane grater. Cut the zucchini into 1/2-inch cubes.",
+      "secondary_message": "2 ½ cups fresh corn\n1 medium onion\n1 jalapeño pepper\n2 cloves garlic\n2 cups zucchini"
+    },
     {
       "id": 1,
       "primary_message": "Heat half of oil in a 12-inch stainless steel skillet over high heat until smoking. Add corn, toss once or twice, and cook without moving until charred on one side, about 2 minutes. Toss corn, stir, and repeat until charred on second side, about 2 minutes longer. Continue tossing and charring until well charred all over, about 10 minutes total. Add onions and jalapeño and cook, tossing and stirring occasionally until softened, about 1 minute. Add garlic and cook, stirring constantly until fragrant, about 1 minute longer. Transfer corn to a clean bowl. Rinse out pan (there might be corn sugars burnt onto the bottom, but they should come off easily with water).",

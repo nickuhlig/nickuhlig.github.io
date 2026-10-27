@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 1216,
-      "name": "white sandwich bread, crusts removed and lightly toasted",
-      "quantity": "4 slices"
+      "name": "white sandwich bread",
+      "quantity": "4 slices",
+      "prep": "crusts removed and lightly toasted"
     },
     {
       "ingredient_id": 115,
@@ -75,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the crusts from the white sandwich bread, then lightly toast it.",
+      "secondary_message": "4 slices white sandwich bread"
+    },
     {
       "id": 1,
       "primary_message": "Using an offset spatula or butter knife, spread a thin layer of unsalted butter on one side of each piece of lightly toasted bread. Set aside.",

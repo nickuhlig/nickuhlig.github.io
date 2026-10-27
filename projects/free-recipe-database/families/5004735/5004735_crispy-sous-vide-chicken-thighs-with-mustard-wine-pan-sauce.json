@@ -64,8 +64,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, minced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1008,
@@ -94,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the shallot.",
+      "secondary_message": "1 small shallot"
+    },
     {
       "id": 1,
       "primary_message": "Preheat a water bath to desired final temperature using a sous-vide cooker, according to the chart below. Season chicken generously with salt and pepper. Place chicken in a single layer in zipper-lock bags or vacuum bags and add thyme or rosemary sprigs, if using.",

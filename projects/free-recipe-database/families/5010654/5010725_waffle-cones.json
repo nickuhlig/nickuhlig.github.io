@@ -96,8 +96,9 @@
     },
     {
       "ingredient_id": 1124,
-      "name": "bread flour, sifted",
-      "quantity": "85 g"
+      "name": "bread flour",
+      "quantity": "85 g",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 1809,
@@ -106,6 +107,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Sift the bread flour.",
+      "secondary_message": "85 g bread flour"
+    },
     {
       "id": 1,
       "primary_message": "At least 30 minutes in advance, plug in the waffle maker and preheat to 150°C (300°F); on machines that lack specific settings, start with the medium setting and adjust as needed along the way. If a machine does not allow for temperature control, the ideal time for a given amount of batter will need to be determined individually.",

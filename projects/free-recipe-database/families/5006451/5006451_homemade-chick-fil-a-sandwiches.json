@@ -62,8 +62,9 @@
     },
     {
       "ingredient_id": 44,
-      "name": "boneless skinless chicken breasts, split horizontally into 4 cutlets",
-      "quantity": "2 large"
+      "name": "boneless skinless chicken breasts",
+      "quantity": "2 large",
+      "prep": "split horizontally into 4 cutlets"
     },
     {
       "ingredient_id": 72,
@@ -112,8 +113,9 @@
     },
     {
       "ingredient_id": 1772,
-      "name": "soft hamburger buns, toasted in butter",
-      "quantity": "4"
+      "name": "soft hamburger buns",
+      "quantity": "4",
+      "prep": "toasted in butter"
     },
     {
       "ingredient_id": 1522,
@@ -122,6 +124,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the boneless skinless chicken breasts horizontally into 4 cutlets. Toast the soft hamburger buns in butter.",
+      "secondary_message": "2 large boneless skinless chicken breasts\n4 soft hamburger buns"
+    },
     {
       "id": 1,
       "primary_message": "Dissolve 1/2 cup kosher salt (see note) and 1/4 cup sugar in 1 quart of cold water. Place chicken breasts in a zipper-lock bag and add brine. Transfer to refrigerator and let sit no longer than 6 hours.",

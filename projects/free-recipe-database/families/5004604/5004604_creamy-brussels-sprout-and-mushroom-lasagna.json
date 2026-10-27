@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 19,
-      "name": "button mushrooms, cleaned and trimmed",
-      "quantity": "1 ½ lb"
+      "name": "button mushrooms",
+      "quantity": "1 ½ lb",
+      "prep": "cleaned and trimmed"
     },
     {
       "ingredient_id": 14,
@@ -65,13 +66,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, finely chopped",
-      "quantity": "2 medium"
+      "name": "shallots",
+      "quantity": "2 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "4 medium"
+      "name": "garlic cloves",
+      "quantity": "4 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1677,
@@ -115,8 +118,9 @@
     },
     {
       "ingredient_id": 57,
-      "name": "whole milk mozzarella cheese, grated, divided",
-      "quantity": "1 lb"
+      "name": "whole milk mozzarella cheese, divided",
+      "quantity": "1 lb",
+      "prep": "grated"
     },
     {
       "ingredient_id": 120,
@@ -130,6 +134,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Clean and trim the button mushrooms. Finely chop the shallots. Mince the garlic cloves. Grate the whole milk mozzarella cheese.",
+      "secondary_message": "1 ½ lb button mushrooms\n2 medium shallots\n4 medium garlic cloves\n1 lb whole milk mozzarella cheese, divided"
+    },
     {
       "id": 1,
       "primary_message": "Place lasagna noodles in a 9- by 13-inch baking dish and cover with warm water. Let soak 15 minutes, then arrange on a clean kitchen towel or paper towels to dry. Set aside.",

@@ -34,8 +34,9 @@
   "ingredients": [
     {
       "ingredient_id": 242,
-      "name": "strawberries, hulled and split in quarters lengthwise",
-      "quantity": "946 ml"
+      "name": "strawberries",
+      "quantity": "946 ml",
+      "prep": "hulled and split in quarters lengthwise"
     },
     {
       "ingredient_id": 151,
@@ -69,6 +70,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Hull and split the strawberries in quarters lengthwise.",
+      "secondary_message": "946 ml strawberries"
+    },
     {
       "id": 1,
       "primary_message": "Combine strawberries, jalepeño slices, sugar, and salt in a medium bowl and toss to coat. Let rest for 30 minutes.",

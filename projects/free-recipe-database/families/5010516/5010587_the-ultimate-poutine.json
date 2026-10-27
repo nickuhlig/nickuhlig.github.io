@@ -77,8 +77,9 @@
     },
     {
       "ingredient_id": 1039,
-      "name": "russet potatoes, cut into 1/4-inch sticks on a mandoline",
-      "quantity": "4 large"
+      "name": "russet potatoes",
+      "quantity": "4 large",
+      "prep": "cut into 1/4-inch sticks on a mandoline"
     },
     {
       "ingredient_id": 1828,
@@ -92,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the russet potatoes into 1/4-inch sticks on a mandoline.",
+      "secondary_message": "4 large russet potatoes"
+    },
     {
       "id": 1,
       "primary_message": "For the Gravy:\nMelt butter in a medium saucepan over medium-high heat until foaming. Whisk in flour and cook, stirring constantly, until golden blonde, about 2 minutes. In a steady stream, gradually whisk in stock. Bring to a boil, reduce to a simmer, and cook until reduced to 2 cups, 10 to 15 minutes. Remove from heat, stir in vinegar, and season with salt.",

@@ -137,8 +137,9 @@
     },
     {
       "ingredient_id": 3641,
-      "name": "egg yolk, white reserved for the shells",
-      "quantity": "1 large"
+      "name": "egg yolk",
+      "quantity": "1 large",
+      "prep": "white reserved for the shells"
     },
     {
       "ingredient_id": 118,
@@ -172,8 +173,9 @@
     },
     {
       "ingredient_id": 3642,
-      "name": "egg white, well beaten",
-      "quantity": "1 large"
+      "name": "egg white",
+      "quantity": "1 large",
+      "prep": "well beaten"
     },
     {
       "ingredient_id": 1729,
@@ -187,6 +189,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Reserve the white of the egg yolk for the shells. Well beat the egg white.",
+      "secondary_message": "1 large egg yolk\n1 large egg white"
+    },
     {
       "id": 1,
       "primary_message": "For the Dough: In the bowl of a food processor, combine flour, butter, salt, and cinnamon. Pulse until the butter disappears, about 30 seconds, then add water and continue processing until dough rides up on the blade and forms a silky but stringy dough. This will take about 2 minutes, but the timing will vary depending on the size and horsepower of the food processor. Transfer to a lightly greased bowl, cover tightly, and allow the dough to relax at least 2 hours at room temperature, or up to 24 hours at cool room temperature.",

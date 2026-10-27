@@ -68,8 +68,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 1777,
@@ -78,13 +79,15 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, chopped into 1-inch segments",
-      "quantity": "3"
+      "name": "scallions",
+      "quantity": "3",
+      "prep": "chopped into 1-inch segments"
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, thinly sliced",
-      "quantity": "1 (1 inch)"
+      "name": "ginger",
+      "quantity": "1 (1 inch)",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 359,
@@ -93,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Beat the egg. Chop the scallions into 1-inch segments. Thinly slice the ginger.",
+      "secondary_message": "1 large egg\n3 scallions\n1 (1 inch) ginger"
+    },
     {
       "id": 1,
       "primary_message": "Cut the meat into slices 1-inch long and about 1/4 inch thick. Combine 1 teaspoon salt and rice wine in a medium bowl and stir to combine. Add the pork and transfer to refrigerate. Allow to marinate at least 30 minutes and up to overnight.",

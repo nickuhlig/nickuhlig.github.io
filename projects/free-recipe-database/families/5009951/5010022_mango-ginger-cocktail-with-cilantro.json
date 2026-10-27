@@ -49,13 +49,15 @@
   "ingredients": [
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, about 1 1/2 ounces, peeled",
-      "quantity": "1 (5 to 7 ½ cm) knob"
+      "name": "fresh ginger, about 1 1/2 ounces",
+      "quantity": "1 (5 to 7 ½ cm) knob",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 229,
-      "name": "fresh ripe mango, diced",
-      "quantity": "43 g"
+      "name": "fresh ripe mango",
+      "quantity": "43 g",
+      "prep": "diced"
     },
     {
       "ingredient_id": 188,
@@ -84,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the fresh ginger. Dice the fresh ripe mango.",
+      "secondary_message": "1 (5 to 7 ½ cm) knob fresh ginger, about 1 1/2 ounces\n43 g fresh ripe mango"
+    },
     {
       "id": 1,
       "primary_message": "For the Ginger Juice: Slice ginger into chunks and place in bottom of mixing glass. Muddle until broken up well, about 1 minute. Strain juice through fine-mesh strainer, pressing on solids with the back of a spoon to extract juice.",

@@ -47,8 +47,9 @@
   "ingredients": [
     {
       "ingredient_id": 1541,
-      "name": "plum tomatoes, cored and diced",
-      "quantity": "2 medium"
+      "name": "plum tomatoes",
+      "quantity": "2 medium",
+      "prep": "cored and diced"
     },
     {
       "ingredient_id": 88,
@@ -62,14 +63,16 @@
     },
     {
       "ingredient_id": 18,
-      "name": "Italian eggplant, sliced into 1/2-inch-thick rounds",
+      "name": "Italian eggplant",
       "quantity": "⅔",
-      "weigh_as": "¾ lb"
+      "weigh_as": "¾ lb",
+      "prep": "sliced into 1/2-inch-thick rounds"
     },
     {
       "ingredient_id": 1980,
-      "name": "seedless cucumber, diced",
-      "quantity": "½ large"
+      "name": "seedless cucumber",
+      "quantity": "½ large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1480,
@@ -83,8 +86,9 @@
     },
     {
       "ingredient_id": 2715,
-      "name": "cored cabbage, thinly shredded",
-      "quantity": "¼ head"
+      "name": "cored cabbage",
+      "quantity": "¼ head",
+      "prep": "thinly shredded"
     },
     {
       "ingredient_id": 132,
@@ -108,11 +112,18 @@
     },
     {
       "ingredient_id": 121,
-      "name": "hard-boiled eggs, peeled and sliced",
-      "quantity": "4"
+      "name": "hard-boiled eggs",
+      "quantity": "4",
+      "prep": "peeled and sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Core and dice the plum tomatoes. Slice the Italian eggplant into 1/2-inch-thick rounds. Dice the seedless cucumber. Thinly shred the cored cabbage. Peel and slice the hard-boiled eggs.",
+      "secondary_message": "2 medium plum tomatoes\n⅔ Italian eggplant\n½ large seedless cucumber\n¼ head cored cabbage\n4 hard-boiled eggs"
+    },
     {
       "id": 1,
       "primary_message": "Place tomatoes in a fine-mesh strainer set over a bowl and toss with a generous pinch of salt. Let stand 30 minutes.",

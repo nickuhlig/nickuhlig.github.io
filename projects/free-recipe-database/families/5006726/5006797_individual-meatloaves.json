@@ -50,18 +50,21 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and finely chopped",
-      "quantity": "2 medium"
+      "name": "carrots",
+      "quantity": "2 medium",
+      "prep": "peeled and finely chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, finely chopped",
-      "quantity": "1 stalk"
+      "name": "celery",
+      "quantity": "1 stalk",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 121,
@@ -110,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and finely chop the carrots. Finely chop the celery. Finely chop the onion.",
+      "secondary_message": "2 medium carrots\n1 stalk celery\n1 medium onion"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 175°C (350°F). In a small bowl, combine bread crumbs and milk. Set aside. In a large skillet, heat oil over medium high heat until shimmering. Add carrots, celery, and onion, and cook, stirring frequently, until softened but not browned, about 8 minutes. Let cool.",

@@ -57,9 +57,10 @@
     },
     {
       "ingredient_id": 18,
-      "name": "eggplant, sliced into 1/4-inch-thick rounds",
+      "name": "eggplant",
       "quantity": "1 ⅔",
-      "weigh_as": "2 lb"
+      "weigh_as": "2 lb",
+      "prep": "sliced into 1/4-inch-thick rounds"
     },
     {
       "ingredient_id": 88,
@@ -73,16 +74,24 @@
     },
     {
       "ingredient_id": 107,
-      "name": "shredded fresh mozzarella, patted dry of excess moisture",
-      "quantity": "¾ lb"
+      "name": "shredded fresh mozzarella",
+      "quantity": "¾ lb",
+      "prep": "patted dry of excess moisture"
     },
     {
       "ingredient_id": 3654,
-      "name": "Fresh oregano leaves, torn",
-      "quantity": ""
+      "name": "Fresh oregano leaves",
+      "quantity": "",
+      "prep": "torn"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the eggplant into 1/4-inch-thick rounds. Pat the shredded fresh mozzarella dry of excess moisture. Tear the Fresh oregano leaves.",
+      "secondary_message": "1 ⅔ eggplant\n¾ lb shredded fresh mozzarella\nFresh oregano leaves"
+    },
     {
       "id": 1,
       "primary_message": "Set wire racks in two rimmed baking sheets. Arrange eggplant slices on racks and sprinkle lightly on both sides with salt. Let stand 20 minutes, then blot dry with towels.",

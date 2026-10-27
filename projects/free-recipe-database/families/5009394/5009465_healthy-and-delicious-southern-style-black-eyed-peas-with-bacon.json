@@ -36,18 +36,21 @@
     },
     {
       "ingredient_id": 302,
-      "name": "bacon, cut into 3/4-inch squares",
-      "quantity": "142 g"
+      "name": "bacon",
+      "quantity": "142 g",
+      "prep": "cut into 3/4-inch squares"
     },
     {
       "ingredient_id": 184,
-      "name": "red onions, peeled and sliced",
-      "quantity": "2"
+      "name": "red onions",
+      "quantity": "2",
+      "prep": "peeled and sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and chopped",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "peeled and chopped"
     },
     {
       "ingredient_id": 82,
@@ -76,6 +79,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the bacon into 3/4-inch squares. Peel and slice the red onions. Peel and chop the garlic.",
+      "secondary_message": "142 g bacon\n2 red onions\n4 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "The day before you plan to serve this dish, put the peas in a bowl, cover with water by at least 5 cm, and refrigerate. The next day, drain well before using.",

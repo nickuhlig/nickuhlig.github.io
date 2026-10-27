@@ -60,8 +60,9 @@
   "ingredients": [
     {
       "ingredient_id": 2541,
-      "name": "whole Ancho chiles, stemmed, seeded, and torn into strips",
-      "quantity": "2"
+      "name": "whole Ancho chiles",
+      "quantity": "2",
+      "prep": "stemmed, seeded, and torn into strips"
     },
     {
       "ingredient_id": 2542,
@@ -70,8 +71,9 @@
     },
     {
       "ingredient_id": 2967,
-      "name": "whole Cascabel, stemmed, seeded, and torn in half",
-      "quantity": "1"
+      "name": "whole Cascabel",
+      "quantity": "1",
+      "prep": "stemmed, seeded, and torn in half"
     },
     {
       "ingredient_id": 115,
@@ -80,8 +82,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, diced fine",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "diced fine"
     },
     {
       "ingredient_id": 24,
@@ -90,23 +93,27 @@
     },
     {
       "ingredient_id": 1271,
-      "name": "whole cumin seeds, toasted and ground",
-      "quantity": "1 ½ tsp"
+      "name": "whole cumin seeds",
+      "quantity": "1 ½ tsp",
+      "prep": "toasted and ground"
     },
     {
       "ingredient_id": 1514,
-      "name": "coriander seeds, toasted and ground",
-      "quantity": "1 tsp"
+      "name": "coriander seeds",
+      "quantity": "1 tsp",
+      "prep": "toasted and ground"
     },
     {
       "ingredient_id": 1757,
-      "name": "clove, toasted and ground",
-      "quantity": "1 whole"
+      "name": "clove",
+      "quantity": "1 whole",
+      "prep": "toasted and ground"
     },
     {
       "ingredient_id": 1084,
-      "name": "whole star anise, toasted and ground",
-      "quantity": "1"
+      "name": "whole star anise",
+      "quantity": "1",
+      "prep": "toasted and ground"
     },
     {
       "ingredient_id": 82,
@@ -155,6 +162,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem, seed, and tear the whole Ancho chiles into strips. Stem, seed, and tear the whole Cascabel in half. Dice the yellow onion fine. Toast and grind the whole cumin seeds. Toast and grind the coriander seeds. Toast and grind the clove. Toast and grind the whole star anise.",
+      "secondary_message": "2 whole Ancho chiles\n1 whole Cascabel\n1 medium yellow onion\n1 ½ tsp whole cumin seeds\n1 tsp coriander seeds\n1 whole clove\n1 whole star anise"
+    },
     {
       "id": 1,
       "primary_message": "Combine all chiles in a medium microwave-safe bowl and cover with water. Microwave on full power for 2 minutes. Remove bowl from microwave and allow chiles to soak for 10 minutes. Using an immersion blender or upright blender, blend soaked chiles until smooth, adding soaking water as needed to keep texture loose.",

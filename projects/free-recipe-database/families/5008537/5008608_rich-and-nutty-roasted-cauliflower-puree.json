@@ -46,9 +46,10 @@
   "ingredients": [
     {
       "ingredient_id": 158,
-      "name": "cauliflower, trimmed and cut into florets",
+      "name": "cauliflower",
       "quantity": "1 ½ medium heads",
-      "weigh_as": "0.93 kg"
+      "weigh_as": "0.93 kg",
+      "prep": "trimmed and cut into florets"
     },
     {
       "ingredient_id": 47,
@@ -72,14 +73,16 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, thinly sliced",
+      "name": "yellow onion",
       "quantity": "2 medium",
-      "weigh_as": "225 g"
+      "weigh_as": "225 g",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 71,
@@ -98,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim and cut the cauliflower into florets. Thinly slice the yellow onion. Thinly slice the garlic.",
+      "secondary_message": "1 ½ medium heads cauliflower\n2 medium yellow onion\n4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 260°C (500°F). Place cauliflower on a foil-lined rimmed baking sheet, toss with olive oil, and season with salt and pepper. Roast, flipping cauliflower with a thin metal spatula halfway through roasting, until cauliflower is tender and deeply browned on both sides, about 20 minutes total.",

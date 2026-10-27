@@ -59,8 +59,9 @@
   "ingredients": [
     {
       "ingredient_id": 1729,
-      "name": "dark chocolate, about 70%, roughly chopped",
-      "quantity": "113 g"
+      "name": "dark chocolate, about 70%",
+      "quantity": "113 g",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 467,
@@ -99,6 +100,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the dark chocolate.",
+      "secondary_message": "113 g dark chocolate, about 70%"
+    },
     {
       "id": 1,
       "primary_message": "In a medium microwave-safe liquid measuring cup, add chocolate. Microwave on high power in 30-second intervals, stirring with a rubber spatula after each interval, until melted, about 90 seconds. Let cool slightly, about 5 minutes.",

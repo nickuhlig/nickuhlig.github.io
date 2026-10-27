@@ -43,8 +43,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, greens thinly sliced, whites left whole",
-      "quantity": "6"
+      "name": "scallions",
+      "quantity": "6",
+      "prep": "greens thinly sliced, whites left whole"
     },
     {
       "ingredient_id": 221,
@@ -73,6 +74,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the greens of the scallions, then leave the whites whole.",
+      "secondary_message": "6 scallions"
+    },
     {
       "id": 1,
       "primary_message": "Combine stock, ham, scallion whites, ginger, and peppercorns in a small stockpot and bring to a boil over high heat. Reduce to a bare simmer and cook for 30 minutes. Strain broth, discard solids, and season to taste with salt.",

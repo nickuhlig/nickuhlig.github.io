@@ -39,8 +39,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, sliced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 1721,
@@ -64,8 +65,9 @@
     },
     {
       "ingredient_id": 1749,
-      "name": "whole tomatoes with juices, crushed by hand",
-      "quantity": "1 (794 g) can"
+      "name": "whole tomatoes with juices",
+      "quantity": "1 (794 g) can",
+      "prep": "crushed by hand"
     },
     {
       "ingredient_id": 243,
@@ -74,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the garlic. Crush the whole tomatoes with juices by hand.",
+      "secondary_message": "3 medium cloves garlic\n1 (794 g) can whole tomatoes with juices"
+    },
     {
       "id": 1,
       "primary_message": "In a large sauté pan, add 3 tablespoons olive oil, garlic, and red pepper flakes. Set over medium heat and cook, stirring, until garlic is lightly golden, about 4 minutes.",

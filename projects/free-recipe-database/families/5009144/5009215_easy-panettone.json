@@ -85,13 +85,15 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "zested"
     },
     {
       "ingredient_id": 1716,
-      "name": "hazelnuts, crushed and toasted",
-      "quantity": "75 g"
+      "name": "hazelnuts",
+      "quantity": "75 g",
+      "prep": "crushed and toasted"
     },
     {
       "ingredient_id": 346,
@@ -105,8 +107,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, cold but softened",
-      "quantity": "150 g"
+      "name": "butter",
+      "quantity": "150 g",
+      "prep": "cold but softened"
     },
     {
       "ingredient_id": 121,
@@ -115,6 +118,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the lemon. Crush and toast the hazelnuts. Soften the cold but of the butter.",
+      "secondary_message": "1 lemon\n75 g hazelnuts\n150 g butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Biga: The night before you plan to bake, combine 200g flour, 125g buttermilk, and a small pinch of yeast in a medium bowl with your hands until all of the flour and yeast is hydrated and no clumps remain. Cover tightly with plastic wrap and let sit at room temperature for 12 to 16 hours. The biga should double in size.",

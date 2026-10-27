@@ -139,13 +139,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "16 tbsp"
+      "name": "unsalted butter",
+      "quantity": "16 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, chilled",
-      "quantity": "4 oz"
+      "name": "cream cheese",
+      "quantity": "4 oz",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 104,
@@ -164,11 +166,18 @@
     },
     {
       "ingredient_id": 1710,
-      "name": "confectioners' sugar, sifted",
-      "quantity": "14 oz"
+      "name": "confectioners' sugar",
+      "quantity": "14 oz",
+      "prep": "sifted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter. Keep the cream cheese cold until you use it. Sift the confectioners' sugar.",
+      "secondary_message": "16 tbsp unsalted butter\n4 oz cream cheese\n14 oz confectioners' sugar"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Adjust oven rack to middle position and preheat oven to 350°F. Lightly spray 2 (8-inch) round cake pans with cooking spray. Line bottoms of pans with parchment paper; set aside.",

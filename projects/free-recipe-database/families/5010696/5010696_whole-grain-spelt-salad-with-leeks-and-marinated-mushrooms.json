@@ -40,24 +40,28 @@
     },
     {
       "ingredient_id": 230,
-      "name": "cremini mushrooms, diced",
-      "quantity": "1 lb"
+      "name": "cremini mushrooms",
+      "quantity": "1 lb",
+      "prep": "diced"
     },
     {
       "ingredient_id": 309,
-      "name": "leek, diced",
+      "name": "leek",
       "quantity": "4",
-      "weigh_as": "12 oz"
+      "weigh_as": "12 oz",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1677,
-      "name": "picked thyme leaves, minced",
-      "quantity": "1 tsp"
+      "name": "picked thyme leaves",
+      "quantity": "1 tsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 88,
@@ -96,6 +100,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the cremini mushrooms. Dice the leek. Thinly slice the garlic. Mince the picked thyme leaves.",
+      "secondary_message": "1 lb cremini mushrooms\n4 leek\n2 medium cloves garlic\n1 tsp picked thyme leaves"
+    },
     {
       "id": 1,
       "primary_message": "In a large skillet, heat 3 tablespoons oil over medium-high heat until shimmering. Add mushrooms and cook, stirring, until tender and their water has evaporated, about 5 minutes. Add leek, garlic, and thyme, season with salt and pepper, and cook until leak is tender, about 4 minutes. Transfer to large bowl and stir in 1/4 cup cider vinegar. Let stand 15 minutes.",

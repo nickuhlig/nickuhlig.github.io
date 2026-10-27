@@ -53,8 +53,9 @@
   "ingredients": [
     {
       "ingredient_id": 118,
-      "name": "whole milk, warmed to 90°F",
-      "quantity": "1 ⅛ cups"
+      "name": "whole milk",
+      "quantity": "1 ⅛ cups",
+      "prep": "warmed to 90°F"
     },
     {
       "ingredient_id": 346,
@@ -68,13 +69,15 @@
     },
     {
       "ingredient_id": 121,
-      "name": "whole eggs, beaten, at room temperature",
-      "quantity": "2"
+      "name": "whole eggs",
+      "quantity": "2",
+      "prep": "beaten, at room temperature"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted and cooled",
-      "quantity": "¾ cup"
+      "name": "unsalted butter",
+      "quantity": "¾ cup",
+      "prep": "melted and cooled"
     },
     {
       "ingredient_id": 1124,
@@ -113,6 +116,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Warm the whole milk to 90°F. Beat the whole eggs and bring them to room temperature. Melt the unsalted butter and let it cool.",
+      "secondary_message": "1 ⅛ cups whole milk\n2 whole eggs\n¾ cup unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Doughnuts: In a small bowl, whisk to combine the warm milk and sugar. Stir in the yeast and let mixture sit until it begins to foam on top, about five minutes.",

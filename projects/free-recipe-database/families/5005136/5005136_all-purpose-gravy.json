@@ -37,13 +37,15 @@
     },
     {
       "ingredient_id": 157,
-      "name": "celery, chopped into rough 1/2-inch pieces",
-      "quantity": "1 small rib"
+      "name": "celery",
+      "quantity": "1 small rib",
+      "prep": "chopped into rough 1/2-inch pieces"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, chopped into rough 1/2-inch pieces",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "chopped into rough 1/2-inch pieces"
     },
     {
       "ingredient_id": 115,
@@ -92,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the celery into rough 1/2-inch pieces. Chop the onion into rough 1/2-inch pieces.",
+      "secondary_message": "1 small rib celery\n1 small onion"
+    },
     {
       "id": 1,
       "primary_message": "In food processor, pulse carrot until broken into rough 1/4-inch pieces, about five 1-second pulses. Add celery and onion; pulse until all vegetables are broken into 1/8-inch pieces, about five 1-second pulses.",

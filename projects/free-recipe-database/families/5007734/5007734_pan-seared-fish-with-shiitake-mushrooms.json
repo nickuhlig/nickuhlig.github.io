@@ -39,8 +39,9 @@
     },
     {
       "ingredient_id": 1929,
-      "name": "fresh mushrooms like shiitake, shiitakes stemmed and thinly sliced",
-      "quantity": "1 lb"
+      "name": "fresh mushrooms like shiitake",
+      "quantity": "1 lb",
+      "prep": "shiitakes stemmed and thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -79,6 +80,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem and thinly slice the shiitakes of the fresh mushrooms like shiitake.",
+      "secondary_message": "1 lb fresh mushrooms like shiitake"
+    },
     {
       "id": 1,
       "primary_message": "Heat 2 tablespoons olive oil in a 12-inch skillet over medium-high heat until barely starting to smoke. Add the mushrooms, season with salt, pepper, and chili flakes, and cook, stirring occasionally, until well browned, 3 to 4 minutes. Transfer to a warmed serving plate and set aside.",

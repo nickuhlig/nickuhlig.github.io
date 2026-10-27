@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely sliced",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 88,
@@ -70,8 +71,9 @@
     },
     {
       "ingredient_id": 43,
-      "name": "sharp cheddar cheese, sliced",
-      "quantity": "6 oz"
+      "name": "sharp cheddar cheese",
+      "quantity": "6 oz",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 115,
@@ -80,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely slice the onion. Slice the sharp cheddar cheese.",
+      "secondary_message": "1 small onion\n6 oz sharp cheddar cheese"
+    },
     {
       "id": 1,
       "primary_message": "Heat 2 teaspoons olive oil in a medium cast iron pan or skillet over medium heat until shimmering. Add onions, season with salt and pepper, and cook, stirring frequently, until golden brown, 15 to 20 minutes. Transfer to a bowl and wipe out skillet.",

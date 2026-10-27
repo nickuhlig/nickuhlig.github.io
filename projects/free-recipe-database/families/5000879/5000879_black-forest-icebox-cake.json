@@ -77,8 +77,9 @@
   "ingredients": [
     {
       "ingredient_id": 357,
-      "name": "frozen pitted sweet cherries, thawed and coarsely chopped",
-      "quantity": "1 lb"
+      "name": "frozen pitted sweet cherries",
+      "quantity": "1 lb",
+      "prep": "thawed and coarsely chopped"
     },
     {
       "ingredient_id": 346,
@@ -102,8 +103,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, separated",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "separated"
     },
     {
       "ingredient_id": 88,
@@ -152,6 +154,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thaw and coarsely chop the frozen pitted sweet cherries. Separate the eggs.",
+      "secondary_message": "1 lb frozen pitted sweet cherries\n3 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "In a medium saucepan, combine cherries, sugar, and lemon juice. Bring to a simmer over medium heat and cook, stirring occasionally, until cherries are soft and jammy, about 18 minutes.",

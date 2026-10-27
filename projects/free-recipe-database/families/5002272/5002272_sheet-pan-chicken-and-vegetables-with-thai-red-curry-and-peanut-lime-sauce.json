@@ -68,8 +68,9 @@
     },
     {
       "ingredient_id": 1702,
-      "name": "bone-in skin-on chicken thighs, trimmed",
-      "quantity": "1 ¾ lb"
+      "name": "bone-in skin-on chicken thighs",
+      "quantity": "1 ¾ lb",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 159,
@@ -79,8 +80,9 @@
     },
     {
       "ingredient_id": 428,
-      "name": "broccoli florets, cut into 1 1/2- to 2-inch pieces",
-      "quantity": "12 oz"
+      "name": "broccoli florets",
+      "quantity": "12 oz",
+      "prep": "cut into 1 1/2- to 2-inch pieces"
     },
     {
       "ingredient_id": 188,
@@ -94,8 +96,9 @@
     },
     {
       "ingredient_id": 1762,
-      "name": "red Thai chile, finely chopped",
-      "quantity": "1 large"
+      "name": "red Thai chile",
+      "quantity": "1 large",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1421,
@@ -109,8 +112,9 @@
     },
     {
       "ingredient_id": 41,
-      "name": "canned unsweetened coconut milk, well-shaken and stirred",
-      "quantity": "½ cup"
+      "name": "canned unsweetened coconut milk",
+      "quantity": "½ cup",
+      "prep": "well-shaken and stirred"
     },
     {
       "ingredient_id": 101,
@@ -139,6 +143,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the bone-in skin-on chicken thighs. Cut the broccoli florets into 1 1/2- to 2-inch pieces. Finely chop the red Thai chile. Stir the canned unsweetened coconut milk and shake it well.",
+      "secondary_message": "1 ¾ lb bone-in skin-on chicken thighs\n12 oz broccoli florets\n1 large red Thai chile\n½ cup canned unsweetened coconut milk"
+    },
     {
       "id": 1,
       "primary_message": "For the Chicken and Vegetables: Adjust oven rack to upper-middle position and preheat oven to 450°F. In a large bowl, stir to combine curry paste, oil, salt, fish sauce, and black pepper. Add chicken, carrots, and broccoli, and use hands to toss to coat evenly. On a rimmed sheet pan, place chicken thighs, skin side up, 1 thigh in each corner. Reserve carrots and broccoli in the bowl; set aside.",

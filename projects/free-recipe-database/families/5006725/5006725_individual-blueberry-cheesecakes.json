@@ -40,13 +40,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, at room temperature",
-      "quantity": "4 oz"
+      "name": "cream cheese",
+      "quantity": "4 oz",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1449,
@@ -70,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Bring the cream cheese to room temperature.",
+      "secondary_message": "2 tbsp unsalted butter\n4 oz cream cheese"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, blend together crumbs and butter until combined. Divide mixture between two 8-ounce mugs and press into bottom with fingers. Place mugs in freezer and let chill for ten minutes.",

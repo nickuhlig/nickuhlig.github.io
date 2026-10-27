@@ -42,8 +42,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, thinly sliced on a sharp bias",
-      "quantity": "2 medium"
+      "name": "scallions",
+      "quantity": "2 medium",
+      "prep": "thinly sliced on a sharp bias"
     },
     {
       "ingredient_id": 24,
@@ -57,8 +58,9 @@
     },
     {
       "ingredient_id": 1762,
-      "name": "green Thai chile, finely chopped",
-      "quantity": "1 small"
+      "name": "green Thai chile",
+      "quantity": "1 small",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 293,
@@ -77,13 +79,15 @@
     },
     {
       "ingredient_id": 1541,
-      "name": "Roma tomato, split in half and thinly sliced",
-      "quantity": "1"
+      "name": "Roma tomato",
+      "quantity": "1",
+      "prep": "split in half and thinly sliced"
     },
     {
       "ingredient_id": 1761,
-      "name": "mung bean sprouts, washed, trimmed, and dried",
-      "quantity": "1 cup"
+      "name": "mung bean sprouts, and dried",
+      "quantity": "1 cup",
+      "prep": "washed, trimmed"
     },
     {
       "ingredient_id": 2701,
@@ -102,6 +106,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the scallions on a sharp bias. Finely chop the green Thai chile. Split the Roma tomato in half, then thinly slice it. Wash and trim the mung bean sprouts.",
+      "secondary_message": "2 medium scallions\n1 small green Thai chile\n1 Roma tomato\n1 cup mung bean sprouts, and dried"
+    },
     {
       "id": 1,
       "primary_message": "Place onions and scallions in a bowl, cover with cold water, add 6 ice cubes, and place in refrigerator until ready to use, at least 5 minutes.",

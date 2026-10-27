@@ -68,8 +68,9 @@
   "ingredients": [
     {
       "ingredient_id": 224,
-      "name": "seedless purple grapes, stemmed",
-      "quantity": "2 cups"
+      "name": "seedless purple grapes",
+      "quantity": "2 cups",
+      "prep": "stemmed"
     },
     {
       "ingredient_id": 47,
@@ -98,8 +99,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, lightly beaten",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 346,
@@ -143,6 +145,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem the seedless purple grapes. Lightly beat the eggs.",
+      "secondary_message": "2 cups seedless purple grapes\n4 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Roast the grapes: Adjust oven rack to middle position and preheat oven to 325°F. Place grapes on baking sheet and toss with olive oil. Roast until soft and shriveled, about 1 hour. Let cool completely.",

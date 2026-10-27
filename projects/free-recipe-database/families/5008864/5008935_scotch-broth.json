@@ -68,8 +68,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1505,
@@ -78,18 +79,21 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, finely diced",
-      "quantity": "2 medium"
+      "name": "carrots",
+      "quantity": "2 medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 233,
-      "name": "parsnip, finely diced",
-      "quantity": "1 medium"
+      "name": "parsnip",
+      "quantity": "1 medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 1039,
-      "name": "russet potato, finely diced",
-      "quantity": "1 medium"
+      "name": "russet potato",
+      "quantity": "1 medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 2699,
@@ -103,6 +107,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the onion. Finely dice the carrots. Finely dice the parsnip. Finely dice the russet potato.",
+      "secondary_message": "1 medium onion\n2 medium carrots\n1 medium parsnip\n1 medium russet potato"
+    },
     {
       "id": 1,
       "primary_message": "Season lamb shank with salt and pepper. Heat oil in a Dutch oven over high heat until lightly smoking. Add lamb shanks and cook, turning occasionally, until well browned on all sides, about 10 minutes total. Remove shanks and set aside. Add onions and cook, stirring constantly, until lightly softened, about 2 minutes. Add garlic and bay leaves and cook, stirring constantly, until fragrant, about 30 seconds. Add broth and return shanks to pot. Bring to a boil, reduce to a bare simmer, cover, and cook until lamb shanks are tender and meat is pulling away from the bone, about 2 hours. For best results, let broth cool completely overnight in refrigerator, scrape off fat, and return to heat the next day. Otherwise, skim fat with a ladle or large spoon and continue to step 2.",

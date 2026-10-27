@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 1784,
-      "name": "black peppercorns, crushed",
-      "quantity": "½ tsp"
+      "name": "black peppercorns",
+      "quantity": "½ tsp",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 88,
@@ -71,8 +72,9 @@
     },
     {
       "ingredient_id": 1837,
-      "name": "Sichuan peppercorns, toasted and ground",
-      "quantity": "1 tsp"
+      "name": "Sichuan peppercorns",
+      "quantity": "1 tsp",
+      "prep": "toasted and ground"
     },
     {
       "ingredient_id": 1877,
@@ -101,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Crush the black peppercorns. Toast and grind the Sichuan peppercorns.",
+      "secondary_message": "½ tsp black peppercorns\n1 tsp Sichuan peppercorns"
+    },
     {
       "id": 1,
       "primary_message": "Rinse brisket and tripe in water and then place into a large stockpot. Add water to cover completely (About 2 quarts). Bring to a boil over high heat, reduce heat to low, and add cinnamon, black pepper, salt, and ginger. Simmer until tender, 2 to 2 1/2 hours. Remove from heat and allow brisket and tripe to cool in broth.",

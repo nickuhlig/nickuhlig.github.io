@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 2691,
-      "name": "green plantains, peeled and cut into 1-inch segments",
-      "quantity": "4"
+      "name": "green plantains",
+      "quantity": "4",
+      "prep": "peeled and cut into 1-inch segments"
     },
     {
       "ingredient_id": 2066,
@@ -61,8 +62,9 @@
     },
     {
       "ingredient_id": 183,
-      "name": "avocados, thinly sliced",
-      "quantity": "1 to 2"
+      "name": "avocados",
+      "quantity": "1 to 2",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -81,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the green plantains into 1-inch segments. Thinly slice the avocados.",
+      "secondary_message": "4 green plantains\n1 to 2 avocados"
+    },
     {
       "id": 1,
       "primary_message": "In a large wok or Dutch oven, heat oil to 300°F. Add plantains and cook until pierced easily with a knife, but not browned, about 8 minutes. Transfer to a paper towel-lined plate and set aside.",

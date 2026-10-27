@@ -42,8 +42,9 @@
     },
     {
       "ingredient_id": 1601,
-      "name": "slivered raw almonds, lightly toasted",
-      "quantity": "1 cup"
+      "name": "slivered raw almonds",
+      "quantity": "1 cup",
+      "prep": "lightly toasted"
     },
     {
       "ingredient_id": 74,
@@ -62,8 +63,9 @@
     },
     {
       "ingredient_id": 1567,
-      "name": "peanut butter, chilled",
-      "quantity": "1 cup"
+      "name": "peanut butter",
+      "quantity": "1 cup",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 293,
@@ -77,6 +79,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly toast the slivered raw almonds. Keep the peanut butter cold until you use it.",
+      "secondary_message": "1 cup slivered raw almonds\n1 cup peanut butter"
+    },
     {
       "id": 1,
       "primary_message": "In a blender or food processor, grind rice, almonds, and cinnamon to a coarse powder. Add to a medium bowl with coffee and 2 1/2 cups water. Stir until all ingredients are covered in water, then cover and refrigerate for 8 to 12 hours.",

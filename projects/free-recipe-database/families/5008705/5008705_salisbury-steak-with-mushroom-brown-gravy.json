@@ -58,8 +58,9 @@
   "ingredients": [
     {
       "ingredient_id": 1216,
-      "name": "crustless white sandwich bread, diced",
-      "quantity": "4 oz"
+      "name": "crustless white sandwich bread",
+      "quantity": "4 oz",
+      "prep": "diced"
     },
     {
       "ingredient_id": 118,
@@ -123,8 +124,9 @@
     },
     {
       "ingredient_id": 230,
-      "name": "cremini mushrooms, stemmed, caps thinly sliced",
-      "quantity": "10 oz"
+      "name": "cremini mushrooms",
+      "quantity": "10 oz",
+      "prep": "stemmed, caps thinly sliced"
     },
     {
       "ingredient_id": 273,
@@ -148,6 +150,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the crustless white sandwich bread. Stem the cremini mushrooms, then thinly slice the caps.",
+      "secondary_message": "4 oz crustless white sandwich bread\n10 oz cremini mushrooms"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, combine bread with milk and soak well, breaking up bread pieces with your fingers until no firm or dry bits remain. Set aside.",

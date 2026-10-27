@@ -49,8 +49,9 @@
     },
     {
       "ingredient_id": 1618,
-      "name": "chipotle chilis, canned in adobo sauce, finely chopped",
-      "quantity": "2 tsp"
+      "name": "chipotle chilis, canned in adobo sauce",
+      "quantity": "2 tsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1191,
@@ -74,18 +75,21 @@
     },
     {
       "ingredient_id": 291,
-      "name": "green pepper, cut into 1/4-inch strips",
-      "quantity": "1 large"
+      "name": "green pepper",
+      "quantity": "1 large",
+      "prep": "cut into 1/4-inch strips"
     },
     {
       "ingredient_id": 150,
-      "name": "red pepper, cut into 1/4-inch strips",
-      "quantity": "1 large"
+      "name": "red pepper",
+      "quantity": "1 large",
+      "prep": "cut into 1/4-inch strips"
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, cut into 1/4-inch slices",
-      "quantity": "1 medium"
+      "name": "white onion",
+      "quantity": "1 medium",
+      "prep": "cut into 1/4-inch slices"
     },
     {
       "ingredient_id": 187,
@@ -99,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the chipotle chilis. Cut the green pepper into 1/4-inch strips. Cut the red pepper into 1/4-inch strips. Cut the white onion into 1/4-inch slices.",
+      "secondary_message": "2 tsp chipotle chilis, canned in adobo sauce\n1 large green pepper\n1 large red pepper\n1 medium white onion"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, mix together mole, 1/4 cup olive oil, peanut butter, chipotle, and garlic. Season with salt to taste.",

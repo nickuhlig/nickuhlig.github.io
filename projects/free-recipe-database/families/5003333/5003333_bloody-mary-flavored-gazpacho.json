@@ -39,23 +39,27 @@
   "ingredients": [
     {
       "ingredient_id": 260,
-      "name": "tomatoes, cut into large chunks",
-      "quantity": "3 large"
+      "name": "tomatoes",
+      "quantity": "3 large",
+      "prep": "cut into large chunks"
     },
     {
       "ingredient_id": 1980,
-      "name": "cucumber, cut into 1-inch pieces",
-      "quantity": "1"
+      "name": "cucumber",
+      "quantity": "1",
+      "prep": "cut into 1-inch pieces"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, cut into 1-inch pieces",
-      "quantity": "1 small"
+      "name": "red onion",
+      "quantity": "1 small",
+      "prep": "cut into 1-inch pieces"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, cut into 1-inch pieces",
-      "quantity": "1 rib"
+      "name": "celery",
+      "quantity": "1 rib",
+      "prep": "cut into 1-inch pieces"
     },
     {
       "ingredient_id": 88,
@@ -69,8 +73,9 @@
     },
     {
       "ingredient_id": 1216,
-      "name": "white bread, crust removed, torn into pieces",
-      "quantity": "1 slice"
+      "name": "white bread",
+      "quantity": "1 slice",
+      "prep": "crust removed, torn into pieces"
     },
     {
       "ingredient_id": 47,
@@ -94,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the tomatoes into large chunks. Cut the cucumber into 1-inch pieces. Cut the red onion into 1-inch pieces. Cut the celery into 1-inch pieces. Remove the crust from the white bread, then tear it into pieces.",
+      "secondary_message": "3 large tomatoes\n1 cucumber\n1 small red onion\n1 rib celery\n1 slice white bread"
+    },
     {
       "id": 1,
       "primary_message": "Toss tomatoes, cucumber, red onion, and celery with a good pinch of salt. Place in a strainer over a large bowl, then place torn bread beneath the strainer and let sit for 30 minutes.",

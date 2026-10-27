@@ -46,8 +46,9 @@
   "ingredients": [
     {
       "ingredient_id": 184,
-      "name": "red onion, diced",
-      "quantity": "1 medium"
+      "name": "red onion",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 130,
@@ -56,8 +57,9 @@
     },
     {
       "ingredient_id": 2654,
-      "name": "oil-packed tuna, drained",
-      "quantity": "4 (5 oz) cans"
+      "name": "oil-packed tuna",
+      "quantity": "4 (5 oz) cans",
+      "prep": "drained"
     },
     {
       "ingredient_id": 2652,
@@ -66,13 +68,15 @@
     },
     {
       "ingredient_id": 157,
-      "name": "celery, cut into 1/4-inch dice",
-      "quantity": "2 ribs"
+      "name": "celery",
+      "quantity": "2 ribs",
+      "prep": "cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and shredded",
-      "quantity": "2 medium"
+      "name": "carrots",
+      "quantity": "2 medium",
+      "prep": "peeled and shredded"
     },
     {
       "ingredient_id": 1932,
@@ -106,6 +110,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the red onion. Drain the oil-packed tuna. Cut the celery into 1/4-inch dice. Peel and shred the carrots.",
+      "secondary_message": "1 medium red onion\n4 (5 oz) cans oil-packed tuna\n2 ribs celery\n2 medium carrots"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, combine onion with vinegar, adding more vinegar if needed to just cover the onion. Let stand for at least 15 minutes and up to 45, then drain, reserving vinegar for another use.",

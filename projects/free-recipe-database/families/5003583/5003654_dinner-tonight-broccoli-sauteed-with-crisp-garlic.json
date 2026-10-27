@@ -43,8 +43,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 51,
@@ -53,8 +54,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, thinly sliced",
-      "quantity": "1"
+      "name": "onion",
+      "quantity": "1",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1935,
@@ -73,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the garlic. Thinly slice the onion.",
+      "secondary_message": "2 cloves garlic\n1 onion"
+    },
     {
       "id": 1,
       "primary_message": "Bring a large pot of water to a boil. Also, get a large bowl of ice water ready. When water is boiling, dump broccoli in and blanch for 2 minutes. Drain broccoli and transfer to ice water. When cooled, dry broccoli in a towel.",

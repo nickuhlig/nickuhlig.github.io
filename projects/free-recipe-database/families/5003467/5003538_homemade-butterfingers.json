@@ -70,8 +70,9 @@
     },
     {
       "ingredient_id": 1938,
-      "name": "vanilla bean, split and scraped",
-      "quantity": "1"
+      "name": "vanilla bean",
+      "quantity": "1",
+      "prep": "split and scraped"
     },
     {
       "ingredient_id": 1420,
@@ -95,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split and scrape the vanilla bean.",
+      "secondary_message": "1 vanilla bean"
+    },
     {
       "id": 1,
       "primary_message": "Prepare the candy:\nLine a jelly roll pan (a 1/2 sheet pan) with a silicon mat and preheat oven to 95°C (200°F).\nIn a medium pot, combine water, molasses, corn syrup, sugar and vanilla bean seeds. Set over medium heat and stir gently with a fork, taking care not to splash, until sugar dissolves and the mixture begins to simmer. Simmer, undisturbed, until the mixture reaches between 280 and 143°C on a candy thermometer. Due to the molasses, the mixture will have a sketchy burning smell, but remain within the recommended temperatures and rest assured that it’s not actually burning. Cooking molasses just smells funky.\nWhile the syrup is cooking, grind the peanuts and powdered sugar together in a food processor until the mixture forms a thick, damp mass with a texture like wet sand. Set aside.\nWhen the syrup comes to temperature, immediately pour the mixture onto the silicon mat in the sheet pan, taking care to keep the syrup within the center of the mat. Wearing a pair of oven mitts, tilt the pan left and right to help the syrup evenly coat the silicon mat into a roughly 14” by 10” rectangular shape.\nYou can fold the candy back over on itself if any places flow out too far.",

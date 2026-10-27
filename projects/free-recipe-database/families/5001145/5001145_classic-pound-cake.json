@@ -58,8 +58,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, room temperature",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 353,
@@ -68,8 +69,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened plus extra for greasing pan",
-      "quantity": "8 oz"
+      "name": "unsalted butter",
+      "quantity": "8 oz",
+      "prep": "softened plus extra for greasing pan"
     },
     {
       "ingredient_id": 88,
@@ -83,11 +85,18 @@
     },
     {
       "ingredient_id": 118,
-      "name": "whole milk, room temperature",
-      "quantity": "¼ cup"
+      "name": "whole milk",
+      "quantity": "¼ cup",
+      "prep": "room temperature"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the eggs to room temperature. Soften the unsalted butter plus extra for greasing pan. Bring the whole milk to room temperature.",
+      "secondary_message": "4 large eggs\n8 oz unsalted butter\n¼ cup whole milk"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and heat oven to 325°F. Generously butter a 9- by 5-inch (or 8 1/2- by 4 1/2-inch) loaf pan; dust pan liberally with flour and knock out excess flour.",

@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 3383,
-      "name": "baby gem lettuce, finely sliced",
-      "quantity": "1 head"
+      "name": "baby gem lettuce",
+      "quantity": "1 head",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 106,
@@ -76,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely slice the baby gem lettuce.",
+      "secondary_message": "1 head baby gem lettuce"
+    },
     {
       "id": 1,
       "primary_message": "In a large nonstick skillet, heat the olive oil over high heat until shimmering. Season the cod with salt and pepper and place presentation-side-down in the hot skillet. Cook without moving until the fish takes on a nice golden crust and lifts easily from the spatula, about 4 minutes. Carefully flip fish with a thin metal spatula and cook on second side until cooked through, about 1 minute longer. Remove skillet from heat and transfer cod to a paper towel-lined plate.",

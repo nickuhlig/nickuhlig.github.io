@@ -51,9 +51,10 @@
   "ingredients": [
     {
       "ingredient_id": 18,
-      "name": "Italian eggplant, sliced into 1/2-inch slices lengthwise",
+      "name": "Italian eggplant",
       "quantity": "2",
-      "weigh_as": "1.13 kg"
+      "weigh_as": "1.13 kg",
+      "prep": "sliced into 1/2-inch slices lengthwise"
     },
     {
       "ingredient_id": 88,
@@ -77,8 +78,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated on a microplane grater",
-      "quantity": "6 cloves"
+      "name": "garlic",
+      "quantity": "6 cloves",
+      "prep": "grated on a microplane grater"
     },
     {
       "ingredient_id": 82,
@@ -92,8 +94,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, peeled and split in half",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "peeled and split in half"
     },
     {
       "ingredient_id": 1808,
@@ -112,8 +115,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, thoroughly beaten",
-      "quantity": "3"
+      "name": "eggs",
+      "quantity": "3",
+      "prep": "thoroughly beaten"
     },
     {
       "ingredient_id": 1684,
@@ -137,6 +141,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the Italian eggplant into 1/2-inch slices lengthwise. Grate the garlic on a microplane grater. Peel and split the onion in half. Beat the thoroughly of the eggs.",
+      "secondary_message": "2 Italian eggplant\n6 cloves garlic\n1 large onion\n3 eggs"
+    },
     {
       "id": 1,
       "primary_message": "Season eggplant slices lightly on both sides with salt. Place a double layer of paper towels or clean kitchen towel on a large plate and lay a single layer of eggplant slices on top. Top with 2 more layers paper towels or clean kitchen towel. Top with second large plate and place another layer of paper towels and eggplant on top. Top with third large plate. Microwave on high power until eggplant is easily compressed, about 3 minutes (be careful, plates will be hot). To prepare eggplant in oven, see notes.",

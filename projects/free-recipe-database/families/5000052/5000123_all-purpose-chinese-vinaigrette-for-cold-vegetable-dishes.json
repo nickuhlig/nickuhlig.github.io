@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 1869,
-      "name": "dried chile, such as tianjin, stemmed",
-      "quantity": "1"
+      "name": "dried chile, such as tianjin",
+      "quantity": "1",
+      "prep": "stemmed"
     },
     {
       "ingredient_id": 1270,
@@ -70,24 +71,28 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallion, ends trimmed cut into 1-inch segments",
-      "quantity": "1"
+      "name": "scallion",
+      "quantity": "1",
+      "prep": "ends trimmed cut into 1-inch segments"
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, thinly sliced",
+      "name": "shallot",
       "quantity": "⅔",
-      "weigh_as": "25 g"
+      "weigh_as": "25 g",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, peeled and sliced thinly into coins",
-      "quantity": "1 (1 ½ cm) knob"
+      "name": "fresh ginger",
+      "quantity": "1 (1 ½ cm) knob",
+      "prep": "peeled and sliced thinly into coins"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 53,
@@ -111,6 +116,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem the dried chile. Trim the ends of the scallion, then cut it into 1-inch segments. Thinly slice the shallot. Peel and slice the fresh ginger thinly into coins. Smash the garlic.",
+      "secondary_message": "1 dried chile, such as tianjin\n1 scallion\n⅔ shallot\n1 (1 ½ cm) knob fresh ginger\n4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Seasoning Oil: In a small bowl, cover Sichuan peppercorns, dried chile, bay leaf, and star anise pod with cold water and soak for 5 minutes. Drain well.",

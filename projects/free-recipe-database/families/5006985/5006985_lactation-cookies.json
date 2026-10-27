@@ -68,8 +68,9 @@
     },
     {
       "ingredient_id": 2121,
-      "name": "toasted macadamia nuts, roughly chopped",
-      "quantity": "5 oz"
+      "name": "toasted macadamia nuts",
+      "quantity": "5 oz",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1511,
@@ -93,8 +94,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, soft but cool, about 65°F",
-      "quantity": "8 oz"
+      "name": "unsalted butter",
+      "quantity": "8 oz",
+      "prep": "soft but cool, about 65°F"
     },
     {
       "ingredient_id": 346,
@@ -133,11 +135,18 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, straight from the fridge",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "straight from the fridge"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the toasted macadamia nuts. Let the unsalted butter soften slightly but keep it cool and bring it to 65°F. Keep the egg cold until you use it.",
+      "secondary_message": "5 oz toasted macadamia nuts\n8 oz unsalted butter\n1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "For the Dry Mix: In a large bowl, combine rolled oats, chocolate chips, macadamia nuts, oat flour, brewer's yeast powder, all-purpose flour, and flax meal, tossing with a flexible spatula until mixture is completely homogenized. Proceed immediately to the next step or transfer the dry mix to an airtight container and store at cool room temperature until the date stamped on the package of macadamia nuts.",

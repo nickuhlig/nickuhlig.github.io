@@ -44,23 +44,27 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "½ medium"
+      "name": "onion",
+      "quantity": "½ medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 482,
-      "name": "roast beef, diced in 1/4 inch cubes",
-      "quantity": "2 cups"
+      "name": "roast beef",
+      "quantity": "2 cups",
+      "prep": "diced in 1/4 inch cubes"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 287,
-      "name": "fresh thyme, chopped",
-      "quantity": "1 tsp"
+      "name": "fresh thyme",
+      "quantity": "1 tsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 71,
@@ -94,6 +98,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the onion. Dice the roast beef in 1/4 inch cubes. Mince the garlic. Chop the fresh thyme.",
+      "secondary_message": "½ medium onion\n2 cups roast beef\n2 cloves garlic\n1 tsp fresh thyme"
+    },
     {
       "id": 1,
       "primary_message": "Bring a large pot of water to a boil. Add the potatoes and cook until tender, about 15-20 minutes. A knife should easily slip into them. Remove and stash in the fridge for 15 minutes or so while you prep the rest of the ingredients. Then dice the potatoes into 0.5 cm cubes.",

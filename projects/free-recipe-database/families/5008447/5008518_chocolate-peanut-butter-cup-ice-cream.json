@@ -71,8 +71,9 @@
     },
     {
       "ingredient_id": 3181,
-      "name": "chopped peanut butter cups, chilled in freezer",
-      "quantity": "1 cup"
+      "name": "chopped peanut butter cups",
+      "quantity": "1 cup",
+      "prep": "chilled in freezer"
     },
     {
       "ingredient_id": 2240,
@@ -111,6 +112,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chill the chopped peanut butter cups in freezer.",
+      "secondary_message": "1 cup chopped peanut butter cups"
+    },
     {
       "id": 1,
       "primary_message": "For Peanut Butter Ice Cream: Combine half and half, peanut butter, sugar, salt, and vanilla in blender. Blend until smooth, then transfer to an airtight container and chill for 3 hours or until very cold.",

@@ -83,8 +83,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "¾ cup (6 oz)"
+      "name": "unsalted butter",
+      "quantity": "¾ cup (6 oz)",
+      "prep": "melted"
     },
     {
       "ingredient_id": 121,
@@ -118,11 +119,18 @@
     },
     {
       "ingredient_id": 272,
-      "name": "walnuts chopped, chopped",
-      "quantity": "¾ cup"
+      "name": "walnuts chopped",
+      "quantity": "¾ cup",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Chop the walnuts chopped.",
+      "secondary_message": "¾ cup (6 oz) unsalted butter\n¾ cup walnuts chopped"
+    },
     {
       "id": 1,
       "primary_message": "Make crust: Adjust oven rack to lower-middle position and preheat oven to 190°C (375°F). Butter 23-cm pie or tart plate. In large bowl stir flour, brown sugar, granulated sugar, and salt to combine. Stir in melted butter until moist crumbs form. Press into bottom and sides of pan.",

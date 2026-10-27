@@ -77,13 +77,15 @@
     },
     {
       "ingredient_id": 6,
-      "name": "skinless salmon fillet, cut into 1 1/2-inch pieces",
-      "quantity": "0.45 kg"
+      "name": "skinless salmon fillet",
+      "quantity": "0.45 kg",
+      "prep": "cut into 1 1/2-inch pieces"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled",
-      "quantity": "2 medium"
+      "name": "carrots",
+      "quantity": "2 medium",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 155,
@@ -92,8 +94,9 @@
     },
     {
       "ingredient_id": 320,
-      "name": "fresh dill fronds, chopped, plus more for garnish",
-      "quantity": "¼ cup"
+      "name": "fresh dill fronds, plus more for garnish",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1480,
@@ -107,6 +110,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the skinless salmon fillet into 1 1/2-inch pieces. Peel the carrots. Chop the fresh dill fronds.",
+      "secondary_message": "0.45 kg skinless salmon fillet\n2 medium carrots\n¼ cup fresh dill fronds, plus more for garnish"
+    },
     {
       "id": 1,
       "primary_message": "For the Salmon: In a small bowl, whisk to combine harissa, honey, oil, garlic, cumin, 1 teaspoon salt, and 1/2 teaspoon pepper. Transfer 1/4 cup harissa sauce to a medium bowl; add salmon, gently tossing to coat. Set aside while air fryer preheats. Reserve remaining harissa sauce for serving.",

@@ -52,13 +52,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely diced",
-      "quantity": "1 large"
+      "name": "shallot",
+      "quantity": "1 large",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely chopped",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2250,
@@ -107,6 +109,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the shallot. Finely chop the garlic.",
+      "secondary_message": "1 large shallot\n3 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Place the chicken and wine in a large baggie and refrigerate over night. Remove the chicken, and pat dry. Reserve the wine.",

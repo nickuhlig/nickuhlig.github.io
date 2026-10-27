@@ -36,28 +36,33 @@
   "ingredients": [
     {
       "ingredient_id": 2100,
-      "name": "mixed pitted Italian olives, finely chopped",
-      "quantity": "½ cup"
+      "name": "mixed pitted Italian olives",
+      "quantity": "½ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1199,
-      "name": "giardiniera, finely chopped",
-      "quantity": "½ cup"
+      "name": "giardiniera",
+      "quantity": "½ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1253,
-      "name": "jarred peperoncini, stems removed, finely chopped",
-      "quantity": "2"
+      "name": "jarred peperoncini",
+      "quantity": "2",
+      "prep": "stems removed, finely chopped"
     },
     {
       "ingredient_id": 15,
-      "name": "capers, drained and roughly chopped",
-      "quantity": "1 tbsp"
+      "name": "capers",
+      "quantity": "1 tbsp",
+      "prep": "drained and roughly chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic clove, grated on microplane grater",
-      "quantity": "1 medium"
+      "name": "garlic clove",
+      "quantity": "1 medium",
+      "prep": "grated on microplane grater"
     },
     {
       "ingredient_id": 47,
@@ -71,8 +76,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely sliced",
-      "quantity": "6 cloves"
+      "name": "garlic",
+      "quantity": "6 cloves",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 1675,
@@ -106,16 +112,24 @@
     },
     {
       "ingredient_id": 344,
-      "name": "marinated artichoke hearts, cut into 1/4-inch thick slices",
-      "quantity": "0.15 kg"
+      "name": "marinated artichoke hearts",
+      "quantity": "0.15 kg",
+      "prep": "cut into 1/4-inch thick slices"
     },
     {
       "ingredient_id": 162,
-      "name": "sun-dried tomatoes, sliced into thin strips",
-      "quantity": "0.11 kg"
+      "name": "sun-dried tomatoes",
+      "quantity": "0.11 kg",
+      "prep": "sliced into thin strips"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the mixed pitted Italian olives. Finely chop the giardiniera. Remove the stems from the jarred peperoncini, then finely chop it. Drain and roughly chop the capers. Grate the garlic clove on microplane grater. Finely slice the garlic. Cut the marinated artichoke hearts into 1/4-inch thick slices. Slice the sun-dried tomatoes into thin strips.",
+      "secondary_message": "½ cup mixed pitted Italian olives\n½ cup giardiniera\n2 jarred peperoncini\n1 tbsp capers\n1 medium garlic clove\n6 cloves garlic\n0.15 kg marinated artichoke hearts\n0.11 kg sun-dried tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "For the Olive Salad: Combine olives, giardiniera, peperoncini, capers, garlic, and olive oil in a small bowl. Stir to combine and set aside.",

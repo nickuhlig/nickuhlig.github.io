@@ -52,8 +52,9 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, finely diced",
-      "quantity": "1 small"
+      "name": "red onion",
+      "quantity": "1 small",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 1421,
@@ -92,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the red onion.",
+      "secondary_message": "1 small red onion"
+    },
     {
       "id": 1,
       "primary_message": "Using a very sharp knife, cut the fish into 1.5-cm cubes. Transfer to a large plate or baking sheet in a single layer and freeze until the fish is firm to the touch but not fully frozen, about 30 minutes. Meanwhile, place a food processor bowl and its blade into the freezer to chill while the fish is freezing.",

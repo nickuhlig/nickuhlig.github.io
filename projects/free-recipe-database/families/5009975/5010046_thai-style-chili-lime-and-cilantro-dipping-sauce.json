@@ -33,8 +33,9 @@
   "ingredients": [
     {
       "ingredient_id": 24,
-      "name": "garlic, grated on a microplane grater",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "grated on a microplane grater"
     },
     {
       "ingredient_id": 52,
@@ -53,8 +54,9 @@
     },
     {
       "ingredient_id": 1762,
-      "name": "red Thai chiles, finely minced",
-      "quantity": "2 to 4"
+      "name": "red Thai chiles",
+      "quantity": "2 to 4",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 188,
@@ -68,6 +70,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the garlic on a microplane grater. Finely mince the red Thai chiles.",
+      "secondary_message": "2 cloves garlic\n2 to 4 red Thai chiles"
+    },
     {
       "id": 1,
       "primary_message": "Whisk all ingredients together in a medium bowl. Serve with fried chicken.",

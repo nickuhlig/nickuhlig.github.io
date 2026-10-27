@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 2813,
-      "name": "kumquats, washed and minced, seeds removed",
-      "quantity": "1 cup (6 ½ oz)"
+      "name": "kumquats",
+      "quantity": "1 cup (6 ½ oz)",
+      "prep": "washed and minced, seeds removed"
     },
     {
       "ingredient_id": 3641,
@@ -76,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash and mince the kumquats, then remove the seeds.",
+      "secondary_message": "1 cup (6 ½ oz) kumquats"
+    },
     {
       "id": 1,
       "primary_message": "In a heavy medium saucepan, bring cream and milk to a simmer over medium heat. When dairy begins to bubble, add lemongrass, cover, shut off heat, and let steep for 2 hours. Pour through a fine-mesh strainer into a 1 quart liquid measure. Discard lemongrass.",

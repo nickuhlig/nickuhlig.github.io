@@ -52,8 +52,9 @@
     },
     {
       "ingredient_id": 155,
-      "name": "English cucumber, peeled and grated",
-      "quantity": "1"
+      "name": "English cucumber",
+      "quantity": "1",
+      "prep": "peeled and grated"
     },
     {
       "ingredient_id": 1480,
@@ -82,18 +83,21 @@
     },
     {
       "ingredient_id": 2910,
-      "name": "freshly ground lamb, well chilled",
-      "quantity": "½ lb"
+      "name": "freshly ground lamb",
+      "quantity": "½ lb",
+      "prep": "well chilled"
     },
     {
       "ingredient_id": 2228,
-      "name": "freshly ground beef chuck, well chilled",
-      "quantity": "½ lb"
+      "name": "freshly ground beef chuck",
+      "quantity": "½ lb",
+      "prep": "well chilled"
     },
     {
       "ingredient_id": 2660,
-      "name": "pork fatback, diced and well chilled",
-      "quantity": "3 oz"
+      "name": "pork fatback",
+      "quantity": "3 oz",
+      "prep": "diced and well chilled"
     },
     {
       "ingredient_id": 1191,
@@ -122,11 +126,18 @@
     },
     {
       "ingredient_id": 1198,
-      "name": "slider-size potato rolls, split",
-      "quantity": "9"
+      "name": "slider-size potato rolls",
+      "quantity": "9",
+      "prep": "split"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and grate the English cucumber. Keep the freshly ground lamb cold until you use it. Keep the freshly ground beef chuck cold until you use it. Dice the pork fatback and keep it cold until you use it. Split the slider-size potato rolls.",
+      "secondary_message": "1 English cucumber\n½ lb freshly ground lamb\n½ lb freshly ground beef chuck\n3 oz pork fatback\n9 slider-size potato rolls"
+    },
     {
       "id": 1,
       "primary_message": "For the Tzatziki: Mix together yogurt, cucumber, lemon juice, garlic, olive oil, and dill in a medium bowl. Season with salt. Transfer to an airtight container and refrigerate for at least 1 hour before using.",

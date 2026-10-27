@@ -50,13 +50,15 @@
   "ingredients": [
     {
       "ingredient_id": 325,
-      "name": "anchovy fillets packed in oil, rinsed",
-      "quantity": "4"
+      "name": "anchovy fillets packed in oil",
+      "quantity": "4",
+      "prep": "rinsed"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "2 medium"
+      "name": "garlic cloves",
+      "quantity": "2 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 88,
@@ -80,8 +82,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "plain full-fat cream cheese, softened",
-      "quantity": "225 g"
+      "name": "plain full-fat cream cheese",
+      "quantity": "225 g",
+      "prep": "softened"
     },
     {
       "ingredient_id": 267,
@@ -100,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse the anchovy fillets packed in oil. Mince the garlic cloves. Soften the plain full-fat cream cheese.",
+      "secondary_message": "4 anchovy fillets packed in oil\n2 medium garlic cloves\n225 g plain full-fat cream cheese"
+    },
     {
       "id": 1,
       "primary_message": "Place anchovies and garlic in a pile on a cutting board and sprinkle with salt. Roughly chop and mash the mixture with the side of a chef’s knife to form a paste, about 2 minutes. Transfer mixture to the base of a food processor and add the lemon juice, mustard and Worcestershire sauce and pulse until well combined.",

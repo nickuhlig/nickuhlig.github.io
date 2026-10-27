@@ -53,8 +53,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 3198,
@@ -93,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the garlic.",
+      "secondary_message": "4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Place cilantro, parsley, and garlic in the workbowl of a food processor fitted with a steel blade. Pulse until all ingredients are finely chopped, stopping to scrape down sides of bowl as necessary.",

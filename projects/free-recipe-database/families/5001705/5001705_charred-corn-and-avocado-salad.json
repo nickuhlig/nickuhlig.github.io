@@ -34,8 +34,9 @@
   "ingredients": [
     {
       "ingredient_id": 27,
-      "name": "fresh corn, husked",
-      "quantity": "3 ears"
+      "name": "fresh corn",
+      "quantity": "3 ears",
+      "prep": "husked"
     },
     {
       "ingredient_id": 2066,
@@ -59,18 +60,21 @@
     },
     {
       "ingredient_id": 188,
-      "name": "cilantro leaves, tender stems finely chopped",
-      "quantity": "¼ cup"
+      "name": "cilantro leaves",
+      "quantity": "¼ cup",
+      "prep": "tender stems finely chopped"
     },
     {
       "ingredient_id": 2021,
-      "name": "serrano chile, thinly sliced",
-      "quantity": "1"
+      "name": "serrano chile",
+      "quantity": "1",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 88,
@@ -99,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Husk the fresh corn. Finely chop the tender stems of the cilantro leaves. Thinly slice the serrano chile. Mince the garlic.",
+      "secondary_message": "3 ears fresh corn\n¼ cup cilantro leaves\n1 serrano chile\n2 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Preheat a large cast iron skillet over medium-high until hot, about 5 minutes. Meanwhile, coat corn ears and poblano with 1 tablespoon oil. Add corn and poblano to hot skillet and cook, turning occasionally, until tender and lightly charred, 13 to 16 minutes. Transfer corn to large plate.",

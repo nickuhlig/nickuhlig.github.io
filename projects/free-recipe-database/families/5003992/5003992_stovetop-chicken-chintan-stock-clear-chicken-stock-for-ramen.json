@@ -31,8 +31,9 @@
   "ingredients": [
     {
       "ingredient_id": 1230,
-      "name": "whole chicken, cut up into 14 parts",
-      "quantity": "1"
+      "name": "whole chicken",
+      "quantity": "1",
+      "prep": "cut up into 14 parts"
     },
     {
       "ingredient_id": 309,
@@ -41,23 +42,27 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, peeled and diced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "peeled and diced"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, peeled and diced",
-      "quantity": "1 medium"
+      "name": "carrot",
+      "quantity": "1 medium",
+      "prep": "peeled and diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "6 medium cloves"
+      "name": "garlic",
+      "quantity": "6 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, peeled and thinly sliced",
-      "quantity": "1 (1 inch) piece"
+      "name": "ginger",
+      "quantity": "1 (1 inch) piece",
+      "prep": "peeled and thinly sliced"
     },
     {
       "ingredient_id": 1990,
@@ -66,6 +71,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut up the whole chicken into 14 parts. Peel and dice the yellow onion. Peel and dice the carrot. Mince the garlic. Peel and thinly slice the ginger.",
+      "secondary_message": "1 whole chicken\n1 medium yellow onion\n1 medium carrot\n6 medium cloves garlic\n1 (1 inch) piece ginger"
+    },
     {
       "id": 1,
       "primary_message": "Place chicken breast meat in the bowl of a food processor. Pulse until meat is well chopped up and roughly resembles ground beef.",

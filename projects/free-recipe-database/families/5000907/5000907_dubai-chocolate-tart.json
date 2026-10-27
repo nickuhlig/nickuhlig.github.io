@@ -58,8 +58,9 @@
     },
     {
       "ingredient_id": 333,
-      "name": "Dutch-processed cocoa powder, sifted",
-      "quantity": "¾ oz"
+      "name": "Dutch-processed cocoa powder",
+      "quantity": "¾ oz",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 346,
@@ -73,8 +74,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted and cooled slightly",
-      "quantity": "4 oz"
+      "name": "unsalted butter",
+      "quantity": "4 oz",
+      "prep": "melted and cooled slightly"
     },
     {
       "ingredient_id": 359,
@@ -93,8 +95,9 @@
     },
     {
       "ingredient_id": 2365,
-      "name": "raw pistachios, chopped, plus more for garnish",
-      "quantity": "2 oz"
+      "name": "raw pistachios, plus more for garnish",
+      "quantity": "2 oz",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2591,
@@ -113,8 +116,9 @@
     },
     {
       "ingredient_id": 1729,
-      "name": "bittersweet cacao, 60% cacao, chopped",
-      "quantity": "3 oz"
+      "name": "bittersweet cacao, 60% cacao",
+      "quantity": "3 oz",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1752,
@@ -128,6 +132,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Sift the Dutch-processed cocoa powder. Melt and cool the unsalted butter slightly. Chop the raw pistachios. Chop the bittersweet cacao.",
+      "secondary_message": "¾ oz Dutch-processed cocoa powder\n4 oz unsalted butter\n2 oz raw pistachios, plus more for garnish\n3 oz bittersweet cacao, 60% cacao"
+    },
     {
       "id": 1,
       "primary_message": "For the Crust: Adjust oven rack to middle position and preheat oven to 350ºF (175ºC). In a large bowl, whisk flour, cocoa powder, sugar, and salt together. Pour butter and water into the flour mixture and, using a flexible spatula, stir until well combined and a uniform dough forms.",

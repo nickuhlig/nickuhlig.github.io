@@ -55,13 +55,15 @@
   "ingredients": [
     {
       "ingredient_id": 1776,
-      "name": "chiles de árbol, stems and seeds removed",
-      "quantity": "16"
+      "name": "chiles de árbol",
+      "quantity": "16",
+      "prep": "stems and seeds removed"
     },
     {
       "ingredient_id": 3357,
-      "name": "puya chiles, stems and seeds removed",
-      "quantity": "10"
+      "name": "puya chiles",
+      "quantity": "10",
+      "prep": "stems and seeds removed"
     },
     {
       "ingredient_id": 1826,
@@ -130,6 +132,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the stems and seeds from the chiles de árbol. Remove the stems and seeds from the puya chiles.",
+      "secondary_message": "16 chiles de árbol\n10 puya chiles"
+    },
     {
       "id": 1,
       "primary_message": "Working in batches, wearing gloves, crumble árbol, puya, and habanero chiles with your fingertips into a spice grinder so chiles fit into grinder. Add chicken bouillon powder, garlic powder, onion powder, cumin seeds, coriander seeds, dried oregano, and sugar. Grind until chiles are finely ground. (Alternatively a mortar and pestle may be used to grind the mixture.) Set aside in a small heatproof bowl.",

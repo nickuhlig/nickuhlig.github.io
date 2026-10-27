@@ -95,8 +95,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, very soft",
-      "quantity": "43 g"
+      "name": "unsalted butter",
+      "quantity": "43 g",
+      "prep": "very soft"
     },
     {
       "ingredient_id": 353,
@@ -110,6 +111,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter.",
+      "secondary_message": "43 g unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Dough: Trim a sheet of parchment paper to fit the interior of a half sheet pan. Adjust oven rack to lower-middle position and preheat to 175°C (350°F). Combine brown sugar, cinnamon, ginger, cloves, salt, corn syrup, butter, and vanilla in the bowl of a stand mixer fitted with a paddle attachment. Mix on low until smooth, then sprinkle in flour and continue mixing to form a stiff dough. Turn onto a lightly floured surface and knead until smooth. Proceed immediately, or wrap in plastic and set aside at room temperature until needed, up to 24 hours. (Larger batches should be divided into 397 g portions.)",

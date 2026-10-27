@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 2196,
-      "name": "daikon radish, peeled and finely grated on a box grater",
-      "quantity": "1.3 kg"
+      "name": "daikon radish",
+      "quantity": "1.3 kg",
+      "prep": "peeled and finely grated on a box grater"
     },
     {
       "ingredient_id": 293,
@@ -56,18 +57,21 @@
     },
     {
       "ingredient_id": 2787,
-      "name": "Chinese bacon, such as lap yuk, diced",
-      "quantity": "85 g"
+      "name": "Chinese bacon, such as lap yuk",
+      "quantity": "85 g",
+      "prep": "diced"
     },
     {
       "ingredient_id": 2724,
-      "name": "Chinese sausages, such as lap cheong, diced",
-      "quantity": "2"
+      "name": "Chinese sausages, such as lap cheong",
+      "quantity": "2",
+      "prep": "diced"
     },
     {
       "ingredient_id": 3644,
-      "name": "dried shrimp, small, rinsed and patted dry",
-      "quantity": "¼ cup"
+      "name": "dried shrimp, small",
+      "quantity": "¼ cup",
+      "prep": "rinsed and patted dry"
     },
     {
       "ingredient_id": 53,
@@ -86,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and finely grate the daikon radish on a box grater. Dice the Chinese bacon. Dice the Chinese sausages. Rinse and pat the dried shrimp dry.",
+      "secondary_message": "1.3 kg daikon radish\n85 g Chinese bacon, such as lap yuk\n2 Chinese sausages, such as lap cheong\n¼ cup dried shrimp, small"
+    },
     {
       "id": 1,
       "primary_message": "Place dried shiitakes in a heatproof bowl and pour over enough hot water to cover. Soak until rehydrated and plump, about 30 minutes. Drain mushrooms, rinse under cold running water, and squeeze out excess water. Trim and discard stems and dice caps.",

@@ -40,13 +40,15 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, light green sections finely chopped",
-      "quantity": "6"
+      "name": "scallions",
+      "quantity": "6",
+      "prep": "light green sections finely chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, finely chopped",
-      "quantity": "2 ribs"
+      "name": "celery",
+      "quantity": "2 ribs",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1496,
@@ -110,6 +112,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the light green sections of the scallions. Finely chop the celery.",
+      "secondary_message": "6 scallions\n2 ribs celery"
+    },
     {
       "id": 1,
       "primary_message": "In a large soup pot, heat olive oil over medium high heat. Add scallions and celery and saute until soft, about 8 minutes.",

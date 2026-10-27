@@ -88,8 +88,9 @@
     },
     {
       "ingredient_id": 264,
-      "name": "cornstarch, dissolved in 2 tablespoons water",
-      "quantity": "1 ½ tsp"
+      "name": "cornstarch",
+      "quantity": "1 ½ tsp",
+      "prep": "dissolved in 2 tablespoons water"
     },
     {
       "ingredient_id": 2503,
@@ -103,8 +104,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and crushed",
-      "quantity": "5 cloves"
+      "name": "garlic",
+      "quantity": "5 cloves",
+      "prep": "peeled and crushed"
     },
     {
       "ingredient_id": 153,
@@ -113,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dissolve the cornstarch in 2 tablespoons water. Peel and crush the garlic.",
+      "secondary_message": "1 ½ tsp cornstarch\n5 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Cut the lamb across the grain into 1/4 inch thick slices, approximately 2 inches long and 1 inch wide. In a medium bowl, mix the lamb slices with the egg, cornstarch, and wine. Cover and refrigerate for 30 minutes.",

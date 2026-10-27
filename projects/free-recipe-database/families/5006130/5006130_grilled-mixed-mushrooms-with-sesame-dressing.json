@@ -64,8 +64,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "3 tbsp"
+      "name": "unsalted butter",
+      "quantity": "3 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 53,
@@ -74,8 +75,9 @@
     },
     {
       "ingredient_id": 181,
-      "name": "toasted sesame seeds, roughly chopped",
-      "quantity": "1 tbsp"
+      "name": "toasted sesame seeds",
+      "quantity": "1 tbsp",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1801,
@@ -84,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Roughly chop the toasted sesame seeds.",
+      "secondary_message": "3 tbsp unsalted butter\n1 tbsp toasted sesame seeds"
+    },
     {
       "id": 1,
       "primary_message": "If using wooden skewers, soak in water for 30 minutes just prior to grilling. Clean and prepare mushrooms: Remove woody stems of portobello, shiitake, cremini, and button mushrooms. Keep portobello and shiitake caps whole. Slice large button or cremini mushrooms 1/2 inch thick, then skewer with bamboo skewers. Leave smaller cremini and button mushrooms whole and skewer through the caps with bamboo skewers. Separate enoki mushrooms into large bunches and tie each with butcher's twine. Slice large mushrooms with edible thick stems lengthwise 1/2 inch thick, then skewer with bamboo skewers.",

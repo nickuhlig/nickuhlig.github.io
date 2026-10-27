@@ -39,8 +39,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely chopped , divided",
-      "quantity": "1 medium"
+      "name": "yellow onion, divided",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1176,
@@ -59,8 +60,9 @@
     },
     {
       "ingredient_id": 291,
-      "name": "green bell pepper, cored and seeded",
-      "quantity": "½"
+      "name": "green bell pepper",
+      "quantity": "½",
+      "prep": "cored and seeded"
     },
     {
       "ingredient_id": 3144,
@@ -74,11 +76,18 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, peeled",
-      "quantity": "4 medium"
+      "name": "garlic cloves",
+      "quantity": "4 medium",
+      "prep": "peeled"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the yellow onion. Core and seed the green bell pepper. Peel the garlic cloves.",
+      "secondary_message": "1 medium yellow onion, divided\n½ green bell pepper\n4 medium garlic cloves"
+    },
     {
       "id": 1,
       "primary_message": "For the Rice: In a large heavy-bottomed saucepan, heat 2 tablespoons oil over medium heat until shimmering. Add two-thirds of onion and cook, stirring, until softened and translucent, about 5 minutes. Add rice and cook, stirring, until grains are shiny and evenly coated with oil, 2 to 3 minutes. Add water or stock and salt, increase heat to high, and bring to a boil. Place bell pepper on top of rice.",

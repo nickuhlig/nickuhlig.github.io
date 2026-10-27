@@ -35,13 +35,15 @@
     },
     {
       "ingredient_id": 2294,
-      "name": "Italian sausage, sliced into 1/2-inch thick pieces",
-      "quantity": "8 oz"
+      "name": "Italian sausage",
+      "quantity": "8 oz",
+      "prep": "sliced into 1/2-inch thick pieces"
     },
     {
       "ingredient_id": 1230,
-      "name": "whole chicken, broken down into 8 pieces",
-      "quantity": "3 lb"
+      "name": "whole chicken",
+      "quantity": "3 lb",
+      "prep": "broken down into 8 pieces"
     },
     {
       "ingredient_id": 88,
@@ -55,18 +57,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, finely chopped",
-      "quantity": "2 medium"
+      "name": "onions",
+      "quantity": "2 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 291,
-      "name": "green bell pepper, finely chopped",
-      "quantity": "1 large"
+      "name": "green bell pepper",
+      "quantity": "1 large",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "5 cloves"
+      "name": "garlic",
+      "quantity": "5 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 82,
@@ -100,13 +105,15 @@
     },
     {
       "ingredient_id": 260,
-      "name": "whole tomatoes, puréed",
-      "quantity": "1 (14 oz) can"
+      "name": "whole tomatoes",
+      "quantity": "1 (14 oz) can",
+      "prep": "puréed"
     },
     {
       "ingredient_id": 92,
-      "name": "garbanzo beans, drained and rinsed",
-      "quantity": "1 (14 oz) can"
+      "name": "garbanzo beans",
+      "quantity": "1 (14 oz) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 346,
@@ -115,6 +122,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the Italian sausage into 1/2-inch thick pieces. Break down the whole chicken into 8 pieces. Finely chop the onions. Finely chop the green bell pepper. Mince the garlic. Purée the whole tomatoes. Drain and rinse the garbanzo beans.",
+      "secondary_message": "8 oz Italian sausage\n3 lb whole chicken\n2 medium onions\n1 large green bell pepper\n5 cloves garlic\n1 (14 oz) can whole tomatoes\n1 (14 oz) can garbanzo beans"
+    },
     {
       "id": 1,
       "primary_message": "In large Dutch oven or 12-inch straight sided skillet, heat 1 tablespoon oil over medium heat until shimmering. Brown sausage pieces on both sides, about 4 minutes. Transfer to plate.",

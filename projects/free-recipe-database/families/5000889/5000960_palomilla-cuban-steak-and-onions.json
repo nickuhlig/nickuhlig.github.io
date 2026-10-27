@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, grated or finely minced",
-      "quantity": "6 medium"
+      "name": "garlic cloves",
+      "quantity": "6 medium",
+      "prep": "grated or finely minced"
     },
     {
       "ingredient_id": 1682,
@@ -85,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate or finely mince the garlic cloves.",
+      "secondary_message": "6 medium garlic cloves"
+    },
     {
       "id": 1,
       "primary_message": "If using a top sirloin roast, slice roast against the grain into six 1.5-cm-thick slices.",

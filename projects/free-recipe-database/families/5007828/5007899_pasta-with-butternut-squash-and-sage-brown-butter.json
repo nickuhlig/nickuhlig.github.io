@@ -71,13 +71,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely minced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 2015,
-      "name": "fresh sage leaves, finely minced",
-      "quantity": "1 handful"
+      "name": "fresh sage leaves",
+      "quantity": "1 handful",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 1480,
@@ -96,6 +98,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the shallot. Finely mince the fresh sage leaves.",
+      "secondary_message": "1 small shallot\n1 handful fresh sage leaves"
+    },
     {
       "id": 1,
       "primary_message": "Heat olive oil in a large stainless steel or cast-iron skillet over high heat until very lightly smoking. Immediately add squash, season with salt and pepper, and cook, stirring and tossing occasionally, until well-browned and squash is tender, about 5 minutes. Add butter and shallot and continue cooking, stirring frequently, until butter is lightly browned and smells nutty, about 1 minute longer. Add sage and stir to combine (sage should crackle and let off a great aroma). Remove from heat and stir in lemon juice. Set aside.",

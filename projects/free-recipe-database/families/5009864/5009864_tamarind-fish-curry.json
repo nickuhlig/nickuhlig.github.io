@@ -90,11 +90,18 @@
     },
     {
       "ingredient_id": 1936,
-      "name": "rice flour, dissolved in 1/4 cup water",
-      "quantity": "2 tsp"
+      "name": "rice flour",
+      "quantity": "2 tsp",
+      "prep": "dissolved in 1/4 cup water"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dissolve the rice flour in 1/4 cup water.",
+      "secondary_message": "2 tsp rice flour"
+    },
     {
       "id": 1,
       "primary_message": "In a bowl, toss fish with turmeric and salt. Meanwhile, heat oil in a medium saucepan over medium-low heat until shimmering. Add garlic and stir until fragrant, about 30 seconds. Add curry leaves and stir until fragrant, about 30 seconds longer. Reduce heat to low. In quick succession, add red chilli powder, coriander powder, cumin powder, and fennel powder, and stir until fragrant, about 1 minute (take care not to burn the spices. Add a few teaspoons of water if you smell burning and stir it vigorously).",

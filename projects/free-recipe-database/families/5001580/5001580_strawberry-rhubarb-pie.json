@@ -72,8 +72,9 @@
     },
     {
       "ingredient_id": 242,
-      "name": "strawberries, trimmed and cut into 1/2-inch pieces",
-      "quantity": "2 cups"
+      "name": "strawberries",
+      "quantity": "2 cups",
+      "prep": "trimmed and cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 346,
@@ -112,11 +113,18 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, lightly beaten, for glazing",
-      "quantity": "1 large"
+      "name": "egg, for glazing",
+      "quantity": "1 large",
+      "prep": "lightly beaten"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim and cut the strawberries into 1/2-inch pieces. Lightly beat the egg.",
+      "secondary_message": "2 cups strawberries\n1 large egg, for glazing"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, use a silicone spatula to toss rhubarb and strawberries with sugar to evenly coat. Set aside to macerate for 1 hour.",

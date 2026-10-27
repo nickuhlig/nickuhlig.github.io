@@ -61,21 +61,24 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onions, sliced 1/4 inch thick",
+      "name": "yellow onions",
       "quantity": "8 medium",
-      "weigh_as": "0.91 kg"
+      "weigh_as": "0.91 kg",
+      "prep": "sliced 1/4 inch thick"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, cut into large dice",
+      "name": "carrots",
       "quantity": "7 medium",
-      "weigh_as": "0.45 kg"
+      "weigh_as": "0.45 kg",
+      "prep": "cut into large dice"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, cut into large dice",
+      "name": "celery",
       "quantity": "6 sticks",
-      "weigh_as": "0.23 kg"
+      "weigh_as": "0.23 kg",
+      "prep": "cut into large dice"
     },
     {
       "ingredient_id": 24,
@@ -89,8 +92,9 @@
     },
     {
       "ingredient_id": 1294,
-      "name": "whole peeled tomatoes, crushed by hand, with the juices",
-      "quantity": "1 (400 g) can"
+      "name": "whole peeled tomatoes, with the juices",
+      "quantity": "1 (400 g) can",
+      "prep": "crushed by hand"
     },
     {
       "ingredient_id": 273,
@@ -109,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the yellow onions 1/4 inch thick. Cut the carrots into large dice. Cut the celery into large dice. Crush the whole peeled tomatoes by hand.",
+      "secondary_message": "8 medium yellow onions\n7 medium carrots\n6 sticks celery\n1 (400 g) can whole peeled tomatoes, with the juices"
+    },
     {
       "id": 1,
       "primary_message": "If Using a Stainless Steel Roasting Pan: Season brisket all over with salt and pepper. Set a large stainless steel roasting pan over 2 burners set to medium-high heat, add oil, and heat until shimmering. Add brisket and brown on both sides, about 6 minutes per side. Transfer brisket to a work surface. Add onion, carrot, celery, and garlic to roasting pan and cook, stirring, until just starting to brown in spots, about 6 minutes; season with salt. Add wine and bring to a simmer while scraping up browned bits from bottom of pan. Stir in tomatoes and ketchup and return brisket to roasting pan, nestling it among vegetables.",

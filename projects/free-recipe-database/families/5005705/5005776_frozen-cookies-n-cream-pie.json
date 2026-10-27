@@ -42,8 +42,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted and cooled",
-      "quantity": "4 tbsp"
+      "name": "unsalted butter",
+      "quantity": "4 tbsp",
+      "prep": "melted and cooled"
     },
     {
       "ingredient_id": 88,
@@ -52,11 +53,18 @@
     },
     {
       "ingredient_id": 358,
-      "name": "vanilla ice cream, softened",
-      "quantity": "946 ml"
+      "name": "vanilla ice cream",
+      "quantity": "946 ml",
+      "prep": "softened"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter and let it cool. Soften the vanilla ice cream.",
+      "secondary_message": "4 tbsp unsalted butter\n946 ml vanilla ice cream"
+    },
     {
       "id": 1,
       "primary_message": "In the bowl of a food processor, pulverize 439 g of the Oreos until they make uniform crumbs, about 30 seconds. Add the butter and salt. Process until the crumbs have the consistency of wet sand, loose but can be pressed into a shapes, about 15 seconds.",

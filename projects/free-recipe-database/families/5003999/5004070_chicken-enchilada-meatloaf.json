@@ -36,28 +36,33 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell pepper, finely chopped",
-      "quantity": "1 large"
+      "name": "red bell pepper",
+      "quantity": "1 large",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeno peppers, halved, seeded, finely chopped",
-      "quantity": "2"
+      "name": "jalapeno peppers",
+      "quantity": "2",
+      "prep": "halved, seeded, finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1271,
-      "name": "cumin seeds, ground with spice grinder",
-      "quantity": "1 tbsp"
+      "name": "cumin seeds",
+      "quantity": "1 tbsp",
+      "prep": "ground with spice grinder"
     },
     {
       "ingredient_id": 71,
@@ -101,8 +106,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "cilantro leaves, chopped",
-      "quantity": "½ cup"
+      "name": "cilantro leaves",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1421,
@@ -116,22 +122,31 @@
     },
     {
       "ingredient_id": 43,
-      "name": "cheddar cheese, grated on box grater",
-      "quantity": "170 g"
+      "name": "cheddar cheese",
+      "quantity": "170 g",
+      "prep": "grated on box grater"
     },
     {
       "ingredient_id": 443,
-      "name": "tortilla chips, finely crushed",
-      "quantity": "255 g"
+      "name": "tortilla chips",
+      "quantity": "255 g",
+      "prep": "finely crushed"
     },
     {
       "ingredient_id": 2069,
-      "name": "tomatillos, pulsed in processor until crushed",
+      "name": "tomatillos",
       "quantity": "7",
-      "weigh_as": "227 g"
+      "weigh_as": "227 g",
+      "prep": "pulsed in processor until crushed"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the onion. Finely chop the red bell pepper. Halve, seed, and finely chop the jalapeno peppers. Mince the garlic. Grind the cumin seeds with spice grinder. Chop the cilantro leaves. Grate the cheddar cheese on box grater. Finely crush the tortilla chips. Pulse the tomatillos in processor until crushed.",
+      "secondary_message": "1 large onion\n1 large red bell pepper\n2 jalapeno peppers\n2 medium cloves garlic\n1 tbsp cumin seeds\n½ cup cilantro leaves\n170 g cheddar cheese\n255 g tortilla chips\n7 tomatillos"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 190°C (375°F). Line 9- by 13-cm loaf pan with foil and spray with pan spray. Heat oil in large nonstick skillet over medium heat to shimmering. Add onions, pepper, jalapeños, and 1 teaspoon salt. Cook, stirring occasionally, until vegetables are softened, 6 to 8 minutes.",

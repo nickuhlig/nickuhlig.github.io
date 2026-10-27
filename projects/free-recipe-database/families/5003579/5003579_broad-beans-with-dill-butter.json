@@ -44,8 +44,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, minced",
-      "quantity": "3"
+      "name": "shallots",
+      "quantity": "3",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2208,
@@ -59,8 +60,9 @@
     },
     {
       "ingredient_id": 1932,
-      "name": "dill, minced",
-      "quantity": "1 large bunch"
+      "name": "dill",
+      "quantity": "1 large bunch",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1480,
@@ -74,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the shallots. Mince the dill.",
+      "secondary_message": "3 shallots\n1 large bunch dill"
+    },
     {
       "id": 1,
       "primary_message": "Bring water to boil in a large pot and salt liberally. Add beans and boil until just tender (about 5 minutes). Drain beans and thoroughly rinse well under cold water.",

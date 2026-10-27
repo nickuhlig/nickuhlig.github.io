@@ -44,8 +44,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, hard-boiled, cooled, and peeled",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "hard-boiled, cooled, and peeled"
     },
     {
       "ingredient_id": 267,
@@ -69,8 +70,9 @@
     },
     {
       "ingredient_id": 3670,
-      "name": "cured black olives, pitted and minced",
-      "quantity": "2 tbsp"
+      "name": "cured black olives",
+      "quantity": "2 tbsp",
+      "prep": "pitted and minced"
     },
     {
       "ingredient_id": 88,
@@ -89,31 +91,42 @@
     },
     {
       "ingredient_id": 15,
-      "name": "capers, drained",
-      "quantity": "1 ½ tbsp"
+      "name": "capers",
+      "quantity": "1 ½ tbsp",
+      "prep": "drained"
     },
     {
       "ingredient_id": 320,
-      "name": "fresh dill, finely chopped",
-      "quantity": "2 tbsp"
+      "name": "fresh dill",
+      "quantity": "2 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 342,
-      "name": "smoked salmon, thinly sliced",
-      "quantity": "4 oz"
+      "name": "smoked salmon",
+      "quantity": "4 oz",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 343,
-      "name": "radishes, trimmed and thinly sliced",
-      "quantity": "4 large"
+      "name": "radishes",
+      "quantity": "4 large",
+      "prep": "trimmed and thinly sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Hard-boil and peel the eggs and let them cool. Pit and mince the cured black olives. Drain the capers. Finely chop the fresh dill. Thinly slice the smoked salmon. Soften the unsalted butter. Trim and thinly slice the radishes.",
+      "secondary_message": "3 large eggs\n2 tbsp cured black olives\n1 ½ tbsp capers\n2 tbsp fresh dill\n4 oz smoked salmon\n2 tbsp unsalted butter\n4 large radishes"
+    },
     {
       "id": 1,
       "primary_message": "Finely chop eggs. In medium bowl, combine eggs, mayonnaise, lemon juice, mustard, and olives. Break eggs with hands or a potato masher until no pieces larger than 1/4-inch remain. Season to taste with salt and pepper. In second bowl, combine crème fraîche, capers, lemon zest, and dill. Season to taste with salt and pepper.",

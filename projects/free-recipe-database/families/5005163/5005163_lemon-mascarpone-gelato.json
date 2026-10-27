@@ -35,13 +35,15 @@
   "ingredients": [
     {
       "ingredient_id": 1442,
-      "name": "mascarpone cheese, chilled",
-      "quantity": "2 cups"
+      "name": "mascarpone cheese",
+      "quantity": "2 cups",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 118,
-      "name": "whole milk, chilled",
-      "quantity": "1 ½ cups"
+      "name": "whole milk",
+      "quantity": "1 ½ cups",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 346,
@@ -65,6 +67,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the mascarpone cheese cold until you use it. Keep the whole milk cold until you use it.",
+      "secondary_message": "2 cups mascarpone cheese\n1 ½ cups whole milk"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, slowly whisk together all ingredients until well combined. If cheese and milk are not already chilled, chill mixture in refrigerator for 2 to 3 hours.",

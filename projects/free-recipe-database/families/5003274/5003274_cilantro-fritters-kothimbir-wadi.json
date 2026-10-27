@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "fresh cilantro leaves, tender stems roughly chopped",
-      "quantity": "2 cups"
+      "name": "fresh cilantro leaves",
+      "quantity": "2 cups",
+      "prep": "tender stems roughly chopped"
     },
     {
       "ingredient_id": 88,
@@ -81,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the tender stems of the fresh cilantro leaves.",
+      "secondary_message": "2 cups fresh cilantro leaves"
+    },
     {
       "id": 1,
       "primary_message": "In a bowl mix chickpea flour, cilantro leaves and stalks, a pinch of salt, red chilli powder, asafoetida powder, turmeric powder, and peanuts. Slowly pour in the water and keep stirring with a fork or whisk until a thick batter forms.",

@@ -47,13 +47,15 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, room temperature",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted and cooled",
-      "quantity": "½ cup"
+      "name": "unsalted butter",
+      "quantity": "½ cup",
+      "prep": "melted and cooled"
     },
     {
       "ingredient_id": 118,
@@ -92,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the eggs to room temperature. Melt the unsalted butter and let it cool.",
+      "secondary_message": "4 large eggs\n½ cup unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to the lowest position and preheat oven to 425°F. Lightly prick chilled pie shell all over bottom in 1/2-inch intervals. Line pie shell with a double layer 14-inch square of parchment paper or aluminum foil. Fill with sugar, pie weights, or dried beans.",

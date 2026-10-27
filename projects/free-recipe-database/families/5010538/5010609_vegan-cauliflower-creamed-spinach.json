@@ -57,13 +57,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 349,
@@ -72,9 +74,10 @@
     },
     {
       "ingredient_id": 226,
-      "name": "mature curly, washed well and roughly chopped",
+      "name": "mature curly",
       "quantity": "2 ½ bunches",
-      "weigh_as": "0.45 kg"
+      "weigh_as": "0.45 kg",
+      "prep": "washed well and roughly chopped"
     },
     {
       "ingredient_id": 88,
@@ -88,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the onion. Mince the garlic. Wash the mature curly well, then roughly chop it.",
+      "secondary_message": "1 medium onion\n3 medium cloves garlic\n2 ½ bunches mature curly"
+    },
     {
       "id": 1,
       "primary_message": "Combine cauliflower and milk of choice in a small saucepan. Bring to a simmer over medium heat, cover, reduce heat to lowest setting, and let cook until cauliflower is completely tender, about 10 minutes. Using an immersion blender or countertop blender, blend into a smooth purée. Set aside.",

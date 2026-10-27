@@ -102,8 +102,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, diced",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 148,
@@ -157,8 +158,9 @@
     },
     {
       "ingredient_id": 260,
-      "name": "tomato, diced",
-      "quantity": "1 large"
+      "name": "tomato",
+      "quantity": "1 large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 188,
@@ -167,11 +169,18 @@
     },
     {
       "ingredient_id": 1871,
-      "name": "paneer cheese, crumbled",
-      "quantity": "170 g"
+      "name": "paneer cheese",
+      "quantity": "170 g",
+      "prep": "crumbled"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the onion. Dice the tomato. Crumble the paneer cheese.",
+      "secondary_message": "1 large onion\n1 large tomato\n170 g paneer cheese"
+    },
     {
       "id": 1,
       "primary_message": "For the Chicken Vindaloo: In a small bowl, combine vinegar, chiles, garlic, and ginger and let stand for 30 minutes. Transfer to a blender and blend until smooth. Scrape vinegar mixture into a large zipper-lock bag, add chicken, and toss to coat. Press out excess air and seal bag. Refrigerate chicken for at least 30 minutes.",

@@ -64,8 +64,9 @@
     },
     {
       "ingredient_id": 1703,
-      "name": "boneless skin-on chicken breasts, patted dry",
-      "quantity": "4"
+      "name": "boneless skin-on chicken breasts",
+      "quantity": "4",
+      "prep": "patted dry"
     },
     {
       "ingredient_id": 88,
@@ -89,8 +90,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cubed",
-      "quantity": "4 tbsp"
+      "name": "unsalted butter",
+      "quantity": "4 tbsp",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 1677,
@@ -99,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pat the boneless skin-on chicken breasts dry. Cube the unsalted butter.",
+      "secondary_message": "4 boneless skin-on chicken breasts\n4 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position, and preheat to 400°F (205ºC). Using a microplane grater, zest lemon to yield 2 teaspoons zest; set aside. Halve lemon crosswise; set aside separately from zest.",

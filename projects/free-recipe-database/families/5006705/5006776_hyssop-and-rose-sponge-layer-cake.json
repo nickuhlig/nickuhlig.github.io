@@ -54,8 +54,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, separated, at room temperature",
-      "quantity": "6"
+      "name": "eggs",
+      "quantity": "6",
+      "prep": "separated, at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -89,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Separate the eggs and bring them to room temperature.",
+      "secondary_message": "6 eggs"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center position and preheat oven to 165°C (325°F). Pour boiling water over the hyssop leaves in a small bowl and steep for 3 minutes. Strain through fine mesh strainer into 1-cup liquid measure and add cold water to get back to 6 tablespoons total (1/4 cup plus two tablespoons). Set aside to cool.",

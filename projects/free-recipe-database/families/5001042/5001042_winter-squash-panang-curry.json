@@ -75,8 +75,9 @@
     },
     {
       "ingredient_id": 2244,
-      "name": "makrut lime leaves, deveined and cut into chiffonade",
-      "quantity": "3"
+      "name": "makrut lime leaves",
+      "quantity": "3",
+      "prep": "deveined and cut into chiffonade"
     },
     {
       "ingredient_id": 2299,
@@ -85,11 +86,18 @@
     },
     {
       "ingredient_id": 217,
-      "name": "roasted peanuts finely chopped, crushed in a mortar and pestle",
-      "quantity": "2 tbsp"
+      "name": "roasted peanuts finely chopped",
+      "quantity": "2 tbsp",
+      "prep": "crushed in a mortar and pestle"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Devein and cut the makrut lime leaves into chiffonade. Crush the roasted peanuts finely chopped in a mortar and pestle.",
+      "secondary_message": "3 makrut lime leaves\n2 tbsp roasted peanuts finely chopped"
+    },
     {
       "id": 1,
       "primary_message": "In a 2-quart saucepan, heat 1/4 coconut cream over medium-high heat until it breaks and looks oily. Add 2 tablespoons curry paste for a milder curry or 3 tablespoons for a spicier curry. Stir until paste deepens in color and is fragrant, about 2 minutes.",

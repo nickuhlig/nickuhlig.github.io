@@ -40,9 +40,10 @@
   "ingredients": [
     {
       "ingredient_id": 1039,
-      "name": "russet potatoes, unpeeled",
+      "name": "russet potatoes",
       "quantity": "2 medium",
-      "weigh_as": "0.45 kg"
+      "weigh_as": "0.45 kg",
+      "prep": "unpeeled"
     },
     {
       "ingredient_id": 1007,
@@ -61,11 +62,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, softened",
-      "quantity": "4 tbsp"
+      "name": "butter",
+      "quantity": "4 tbsp",
+      "prep": "softened"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Leave the russet potatoes unpeeled. Soften the butter.",
+      "secondary_message": "2 medium russet potatoes\n4 tbsp butter"
+    },
     {
       "id": 1,
       "primary_message": "Using a fork or paring knife, lightly prick each potato all over several times. Rub each potato with oil. Sprinkle evenly with salt and pepper.",

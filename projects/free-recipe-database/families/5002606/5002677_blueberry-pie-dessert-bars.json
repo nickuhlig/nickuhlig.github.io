@@ -75,8 +75,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "1 ¼ cups"
+      "name": "unsalted butter",
+      "quantity": "1 ¼ cups",
+      "prep": "melted"
     },
     {
       "ingredient_id": 114,
@@ -115,6 +116,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter.",
+      "secondary_message": "1 ¼ cups unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Shortbread Crust: Adjust oven rack to upper-middle position and preheat oven to 175°C (350°F). Lightly coat a 13- x 23-cm metal baking pan with cooking spray. Line bottom and sides of pan with two long strips of parchment to cover the bottom and sides, leaving a 5-cm overhang on long ends, and creasing as needed to ensure a secure fit. Lightly coat parchment with cooking spray.",

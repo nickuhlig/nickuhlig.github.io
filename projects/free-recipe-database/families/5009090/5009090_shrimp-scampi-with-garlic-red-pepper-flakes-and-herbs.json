@@ -79,8 +79,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into tablespoon-size pieces",
-      "quantity": "3 tbsp"
+      "name": "unsalted butter",
+      "quantity": "3 tbsp",
+      "prep": "cut into tablespoon-size pieces"
     },
     {
       "ingredient_id": 1480,
@@ -99,6 +100,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into tablespoon-size pieces.",
+      "secondary_message": "3 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, toss together shrimp with 3/4 teaspoon kosher salt and baking soda until evenly coated. Let stand for at least 10 minutes and up to 1 hour.",

@@ -52,11 +52,18 @@
     },
     {
       "ingredient_id": 1772,
-      "name": "burger buns, toasted",
-      "quantity": "4"
+      "name": "burger buns",
+      "quantity": "4",
+      "prep": "toasted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Toast the burger buns.",
+      "secondary_message": "4 burger buns"
+    },
     {
       "id": 1,
       "primary_message": "Set oven rack to lower middle position and preheat oven to 200°F. Divide meat into four even 1/2-pound portions. Form into four 4-inch-wide patties, leaving slight depression in center of each. Season liberally with kosher salt and black pepper and place patties on wire rack set in rimmed baking sheet. Place in oven and cook until center of each patty registers 120°F on an instant read thermometer for medium rare (110°F for rare, 135°F and up for medium well to well), 15 to 30 minutes (time may vary depending on oven temperature cycling). Tent burgers loosely with foil.",

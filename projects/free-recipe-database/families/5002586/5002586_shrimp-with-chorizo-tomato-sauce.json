@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, 2 minced and 3 smashed, divided",
-      "quantity": "5 medium cloves"
+      "name": "garlic, divided",
+      "quantity": "5 medium cloves",
+      "prep": "2 minced and 3 smashed"
     },
     {
       "ingredient_id": 88,
@@ -80,13 +81,15 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, chopped",
-      "quantity": "1 small"
+      "name": "yellow onion",
+      "quantity": "1 small",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1541,
-      "name": "plum tomatoes, cored and chopped",
-      "quantity": "2"
+      "name": "plum tomatoes",
+      "quantity": "2",
+      "prep": "cored and chopped"
     },
     {
       "ingredient_id": 1618,
@@ -105,8 +108,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into four pieces",
-      "quantity": "4 tbsp"
+      "name": "unsalted butter",
+      "quantity": "4 tbsp",
+      "prep": "cut into four pieces"
     },
     {
       "ingredient_id": 1480,
@@ -120,6 +124,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince 2 of the garlic and smash the other 3. Chop the yellow onion. Core and chop the plum tomatoes. Cut the unsalted butter into four pieces.",
+      "secondary_message": "5 medium cloves garlic, divided\n1 small yellow onion\n2 plum tomatoes\n4 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, toss shrimp, 2 minced garlic cloves, 1 teaspoon kosher salt, and pepper to combine; set aside.",

@@ -83,13 +83,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, thinly sliced",
-      "quantity": "1 large"
+      "name": "shallot",
+      "quantity": "1 large",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed and peeled",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "smashed and peeled"
     },
     {
       "ingredient_id": 41,
@@ -113,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the shallot. Smash and peel the garlic.",
+      "secondary_message": "1 large shallot\n4 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "In a spice grinder or small blender, process dried mushrooms to a fine powder, about 1 minute. Transfer powder to a medium saucepan and toast over medium-low heat, stirring constantly, until it browns and the aroma turns nutty, 5 to 6 minutes. Immediately transfer toasted powder to a small bowl to prevent further darkening; set aside.",

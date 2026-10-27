@@ -73,16 +73,24 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into 1/2-inch cubes",
-      "quantity": "113 g"
+      "name": "cold unsalted butter",
+      "quantity": "113 g",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 2744,
-      "name": "plain yogurt, straight from the fridge",
-      "quantity": "255 g"
+      "name": "plain yogurt",
+      "quantity": "255 g",
+      "prep": "straight from the fridge"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cold unsalted butter into 1/2-inch cubes. Keep the plain yogurt cold until you use it.",
+      "secondary_message": "113 g cold unsalted butter\n255 g plain yogurt"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower-middle position and preheat to 200°C (400°F). Should your kitchen be warmer than 24°C (75°F), please see our guide to baking in a hot kitchen before getting started; the specifics are focused on pie dough, but the overall principles are true of biscuits as well.",

@@ -50,13 +50,15 @@
   "ingredients": [
     {
       "ingredient_id": 192,
-      "name": "lemons, juiced",
-      "quantity": "8"
+      "name": "lemons",
+      "quantity": "8",
+      "prep": "juiced"
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, at room temperature thinly sliced",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "at room temperature thinly sliced"
     },
     {
       "ingredient_id": 346,
@@ -70,8 +72,9 @@
     },
     {
       "ingredient_id": 2934,
-      "name": "chilled pickle brine, strained",
-      "quantity": "227 g"
+      "name": "chilled pickle brine",
+      "quantity": "227 g",
+      "prep": "strained"
     },
     {
       "ingredient_id": 1697,
@@ -80,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemons. Thinly slice the at room temperature of the lemon. Strain the chilled pickle brine.",
+      "secondary_message": "8 lemons\n1 lemon\n227 g chilled pickle brine"
+    },
     {
       "id": 1,
       "primary_message": "For the Pickle Lemonade: In a serving pitcher, place lemon slices. Add 1 cup sugar and use a muddler (or a wooden spoon) to mash sugar into lemon slices until all sugar is moistened. Let sit for 10 minutes at room temperature.",

@@ -41,13 +41,15 @@
     },
     {
       "ingredient_id": 2069,
-      "name": "tomatillos, husked, washed, and halved",
-      "quantity": "1 lb"
+      "name": "tomatillos",
+      "quantity": "1 lb",
+      "prep": "husked, washed, and halved"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed and peeled",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "smashed and peeled"
     },
     {
       "ingredient_id": 188,
@@ -86,11 +88,18 @@
     },
     {
       "ingredient_id": 2201,
-      "name": "dried corn husks, soaked in water for at least 1 hour",
-      "quantity": "3 dozen"
+      "name": "dried corn husks",
+      "quantity": "3 dozen",
+      "prep": "soaked in water for at least 1 hour"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Husk, wash, and halve the tomatillos. Smash and peel the garlic. Soak the dried corn husks in water for at least 1 hour.",
+      "secondary_message": "1 lb tomatillos\n3 medium cloves garlic\n3 dozen dried corn husks"
+    },
     {
       "id": 1,
       "primary_message": "Preheat broiler. Roast poblanos and jalapeño peppers directly over the flame of a gas stove, grill, or under a hot broiler, turning occasionally, until skin is completely charred and blackened all over. Place in a bowl, cover with plastic wrap, and let stand until cool enough to handle, 10 to 15 minutes. Using paper towels, run off charred skins, then stem and seed peppers. Transfer to the jar of a blender and set aside.",

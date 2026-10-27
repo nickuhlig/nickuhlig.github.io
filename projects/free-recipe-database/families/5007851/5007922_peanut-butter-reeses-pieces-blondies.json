@@ -76,8 +76,9 @@
     },
     {
       "ingredient_id": 217,
-      "name": "roasted peanuts, chopped",
-      "quantity": "½ cup"
+      "name": "roasted peanuts",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 3515,
@@ -86,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the roasted peanuts.",
+      "secondary_message": "½ cup roasted peanuts"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 190°C (375°F). Line bottom and two sides of 8- by 20-cm pan with foil or parchment paper, allowing ends to overhand sides. Lightly grease pan.",

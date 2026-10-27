@@ -60,11 +60,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into pieces",
-      "quantity": "4 tbsp"
+      "name": "unsalted butter",
+      "quantity": "4 tbsp",
+      "prep": "cut into pieces"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into pieces.",
+      "secondary_message": "4 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Put the water, yeast, sugar, and 2 cups of the bread flour into the bowl of your stand mixer. Stir to combine. I will be loose and gooey. Put the remaining flour on top. Add the salt. Cover with plastic wrap (yes, you're just leaving that flour on top for now) and set aside for 20 minutes.",

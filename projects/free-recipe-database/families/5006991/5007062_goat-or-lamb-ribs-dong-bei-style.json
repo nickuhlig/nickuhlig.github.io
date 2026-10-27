@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, roughly chopped",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 88,
@@ -71,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the onion.",
+      "secondary_message": "1 medium onion"
+    },
     {
       "id": 1,
       "primary_message": "Place ribs in a saute pan or a roasting pan. If cooking on stove, add wine and enough water to barely cover. Add onions and salt. Cover pan with lid or aluminum foil, bring to a simmer and cook until tender, about 2 hours. If using oven, adjust oven rack to center position and preheat oven to 165°C (325°F). Place rack of ribs in a roasting pan and add wine and scatter onions all around. Add water to cover 3/4 of the way. Cover pan, with lid or aluminum foil, bring to a simmer on the stovetop, then transfer to oven and cook until tender, about 2 hours.",

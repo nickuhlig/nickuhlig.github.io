@@ -43,8 +43,9 @@
   "ingredients": [
     {
       "ingredient_id": 1675,
-      "name": "broccoli rabe, washed and trimmed",
-      "quantity": "1 lb"
+      "name": "broccoli rabe",
+      "quantity": "1 lb",
+      "prep": "washed and trimmed"
     },
     {
       "ingredient_id": 88,
@@ -68,6 +69,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash and trim the broccoli rabe.",
+      "secondary_message": "1 lb broccoli rabe"
+    },
     {
       "id": 1,
       "primary_message": "Place broccoli rabe in a large bowl. Toss with salt and one tablespoon olive oil. Let stand for 10 minutes.",

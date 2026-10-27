@@ -85,8 +85,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely chopped",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2009,
@@ -100,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the garlic.",
+      "secondary_message": "4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Beef: In a medium bowl, whisk together oyster sauce, soy sauce, sugar, oil, and freshly ground black pepper. Add beef, tossing to coat, and let marinate for 30 minutes.",

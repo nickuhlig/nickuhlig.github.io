@@ -70,8 +70,9 @@
     },
     {
       "ingredient_id": 302,
-      "name": "bacon, roughly chopped",
-      "quantity": "113 g"
+      "name": "bacon",
+      "quantity": "113 g",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 341,
@@ -80,8 +81,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "disk fresh ginger, roughly chopped",
-      "quantity": "1 (½ cm)"
+      "name": "disk fresh ginger",
+      "quantity": "1 (½ cm)",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 53,
@@ -130,6 +132,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the bacon. Roughly chop the disk fresh ginger.",
+      "secondary_message": "113 g bacon\n1 (½ cm) disk fresh ginger"
+    },
     {
       "id": 1,
       "primary_message": "For the Dough: place flour in bowl of food processor. With machine running, slowly drizzle in water until cohesive dough is formed (you probably won't need all the water). Allow dough to ride around processor for 30 seconds. Form into a ball using floured hands and transfer to a bowl. Cover with a damp towel and let rest for at least 30 minutes.",

@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, minced",
-      "quantity": "½ medium"
+      "name": "shallot",
+      "quantity": "½ medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 117,
@@ -81,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the shallot.",
+      "secondary_message": "½ medium shallot"
+    },
     {
       "id": 1,
       "primary_message": "Cut slab bacon into 1/4-inch thick slices then cut each slice crosswise into 1/2-inch wide pieces. If using thick-cut bacon, stack slices on top of each other and cut into strips about 1/2-inch wide. In a 10-inch stainless-steel or cast iron skillet, add bacon and cook over medium-low heat, stirring frequently and adjusting heat to avoid burning, until fat is rendered from the bacon and it’s evenly browned but still chewy, 6 to 8 minutes. Use a slotted spoon to transfer bacon to a paper towel–lined plate. Reserve 1/4 cup of the rendered bacon fat in the skillet, and discard any extra bacon fat.",

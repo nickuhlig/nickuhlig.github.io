@@ -69,8 +69,9 @@
     },
     {
       "ingredient_id": 356,
-      "name": "dates, pitted",
-      "quantity": "1 cup"
+      "name": "dates",
+      "quantity": "1 cup",
+      "prep": "pitted"
     },
     {
       "ingredient_id": 327,
@@ -89,11 +90,18 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, separated",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "separated"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pit the dates. Separate the eggs.",
+      "secondary_message": "1 cup dates\n2 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to upper middle position and preheat oven to 165°C (325°F). Butter two 12-cup mini-muffin tins.",

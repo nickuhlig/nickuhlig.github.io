@@ -41,13 +41,15 @@
   "ingredients": [
     {
       "ingredient_id": 356,
-      "name": "Medjool dates, pitted, and chopped",
-      "quantity": "2 to 3"
+      "name": "Medjool dates",
+      "quantity": "2 to 3",
+      "prep": "pitted, and chopped"
     },
     {
       "ingredient_id": 317,
-      "name": "banana, peeled, sliced, and frozen",
-      "quantity": "1 medium"
+      "name": "banana",
+      "quantity": "1 medium",
+      "prep": "peeled, sliced, and frozen"
     },
     {
       "ingredient_id": 118,
@@ -61,8 +63,9 @@
     },
     {
       "ingredient_id": 1619,
-      "name": "cold brew concentrate, chilled",
-      "quantity": "3 tbsp"
+      "name": "cold brew concentrate",
+      "quantity": "3 tbsp",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 3463,
@@ -86,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pit and chop the Medjool dates. Peel and slice the banana and keep it frozen until you use it. Keep the cold brew concentrate cold until you use it.",
+      "secondary_message": "2 to 3 Medjool dates\n1 medium banana\n3 tbsp cold brew concentrate"
+    },
     {
       "id": 1,
       "primary_message": "In a small heatproof bowl, add dates and cover with hot water. Soak until softened, about 10 minutes. Drain well.",

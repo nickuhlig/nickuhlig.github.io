@@ -102,13 +102,15 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1483,
@@ -187,6 +189,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the yellow onion. Mince the garlic.",
+      "secondary_message": "1 medium yellow onion\n3 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Pasta: In a medium pot of salted boiling water, cook pasta until just shy of al dente, about 2 minutes less than package instructions. Reserve 1 cup of pasta water; set aside. Using a colander, drain pasta, then transfer pasta to a large mixing bowl and toss with 2 tablespoons ghee or butter until fat is melted and pasta is evenly coated. Set aside.",

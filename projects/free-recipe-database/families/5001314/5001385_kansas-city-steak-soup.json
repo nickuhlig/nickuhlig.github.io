@@ -64,23 +64,27 @@
     },
     {
       "ingredient_id": 230,
-      "name": "cremini mushrooms, trimmed and thinly sliced",
-      "quantity": "227 g"
+      "name": "cremini mushrooms",
+      "quantity": "227 g",
+      "prep": "trimmed and thinly sliced"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, diced",
-      "quantity": "½ medium"
+      "name": "yellow onion",
+      "quantity": "½ medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, peeled and diced",
-      "quantity": "1 medium"
+      "name": "carrot",
+      "quantity": "1 medium",
+      "prep": "peeled and diced"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, halved lengthwise, then sliced",
-      "quantity": "2 small ribs"
+      "name": "celery",
+      "quantity": "2 small ribs",
+      "prep": "halved lengthwise, then sliced"
     },
     {
       "ingredient_id": 323,
@@ -99,8 +103,9 @@
     },
     {
       "ingredient_id": 97,
-      "name": "canned diced tomatoes, drained",
-      "quantity": ""
+      "name": "canned diced tomatoes",
+      "quantity": "",
+      "prep": "drained"
     },
     {
       "ingredient_id": 3332,
@@ -114,6 +119,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim and thinly slice the cremini mushrooms. Dice the yellow onion. Peel and dice the carrot. Halve the celery lengthwise, then slice it. Drain the canned diced tomatoes.",
+      "secondary_message": "227 g cremini mushrooms\n½ medium yellow onion\n1 medium carrot\n2 small ribs celery\ncanned diced tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "In a microwave-safe container, heat chicken stock and dried porcini mushrooms until stock is hot and mushrooms are fully hydrated, about 3 minutes on high. Use a slotted spoon to transfer hydrated porcini to a cutting board. Chop porcini and return to stock. Set aside.",

@@ -67,8 +67,9 @@
     },
     {
       "ingredient_id": 1938,
-      "name": "Tahitian vanilla bean, split lengthwise, seeds reserved",
-      "quantity": "1"
+      "name": "Tahitian vanilla bean",
+      "quantity": "1",
+      "prep": "split lengthwise, seeds reserved"
     },
     {
       "ingredient_id": 346,
@@ -97,6 +98,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the Tahitian vanilla bean lengthwise, then reserve the seeds.",
+      "secondary_message": "1 Tahitian vanilla bean"
+    },
     {
       "id": 1,
       "primary_message": "For the Flavored Base: In a 3-quart stainless steel saucier, combine cream, milk, and vanilla bean pod over medium heat. When it is steaming-hot, remove from heat, cover to prevent evaporation, and steep between 1 and 24 hours, depending on your schedule or preferred intensity of flavor (see note). Meanwhile, rub vanilla seeds into sugar to break up clumps, then combine with salt.",

@@ -79,8 +79,9 @@
     },
     {
       "ingredient_id": 1483,
-      "name": "ground beef, formed into two 5-ounce patties",
-      "quantity": "10 oz"
+      "name": "ground beef",
+      "quantity": "10 oz",
+      "prep": "formed into two 5-ounce patties"
     },
     {
       "ingredient_id": 1216,
@@ -109,6 +110,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Form the ground beef into two 5-ounce patties.",
+      "secondary_message": "10 oz ground beef"
+    },
     {
       "id": 1,
       "primary_message": "Melt butter in a small saucepan over medium-high heat. Add flour and whisk to combine. Continue to cook, whisking constantly until pale golden blond, about 1 minute. Slowly pour in heavy cream, whisking constantly. Bring to a simmer then remove from heat. Whisk in grated cheese, then season to taste with salt and pepper.",

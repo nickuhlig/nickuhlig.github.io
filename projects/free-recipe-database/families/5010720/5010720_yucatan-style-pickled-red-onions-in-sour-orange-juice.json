@@ -34,8 +34,9 @@
   "ingredients": [
     {
       "ingredient_id": 184,
-      "name": "red onion, finely diced",
-      "quantity": "1"
+      "name": "red onion",
+      "quantity": "1",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 1784,
@@ -79,6 +80,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the red onion.",
+      "secondary_message": "1 red onion"
+    },
     {
       "id": 1,
       "primary_message": "Place onion, peppercorns, allspice, and bay leaves in a small saucepan and cover with water. Bring to a boil over high heat. Remove from heat, drain carefully, and transfer onions to a sealable container, such as a Mason jar.",

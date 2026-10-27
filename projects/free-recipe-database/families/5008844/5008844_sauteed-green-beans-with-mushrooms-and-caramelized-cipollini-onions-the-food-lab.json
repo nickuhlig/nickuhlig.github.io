@@ -40,8 +40,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "cipollini onions, trimmed and peeled",
-      "quantity": "1 lb"
+      "name": "cipollini onions",
+      "quantity": "1 lb",
+      "prep": "trimmed and peeled"
     },
     {
       "ingredient_id": 88,
@@ -55,8 +56,9 @@
     },
     {
       "ingredient_id": 111,
-      "name": "green beans, trimmed",
-      "quantity": "2 lb"
+      "name": "green beans",
+      "quantity": "2 lb",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 1007,
@@ -65,18 +67,21 @@
     },
     {
       "ingredient_id": 19,
-      "name": "button mushrooms, washed, trimmed, and cut into quarters",
-      "quantity": "1 lb"
+      "name": "button mushrooms",
+      "quantity": "1 lb",
+      "prep": "washed, trimmed, and cut into quarters"
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely chopped",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1677,
@@ -95,6 +100,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim and peel the cipollini onions. Trim the green beans. Wash, trim, and cut the button mushrooms into quarters. Finely chop the shallot. Mince the garlic.",
+      "secondary_message": "1 lb cipollini onions\n2 lb green beans\n1 lb button mushrooms\n1 medium shallot\n4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Melt 3 tablespoons butter (or heat olive oil) in a large non-stick or cast iron skillet over medium heat. Add cipollini onions, season well with salt and pepper, reduce heat to low, and cook, turning occasionally, until onions are a deep, caramel brown, about 45 minutes total.",

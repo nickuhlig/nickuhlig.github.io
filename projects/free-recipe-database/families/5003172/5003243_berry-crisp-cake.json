@@ -48,8 +48,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, chilled and cut into small pieces",
-      "quantity": "6 tbsp"
+      "name": "unsalted butter",
+      "quantity": "6 tbsp",
+      "prep": "chilled and cut into small pieces"
     },
     {
       "ingredient_id": 1691,
@@ -113,8 +114,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "0.45 kg"
+      "name": "unsalted butter",
+      "quantity": "0.45 kg",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 2346,
@@ -123,8 +125,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1908,
@@ -148,6 +151,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into small pieces and keep it cold until you use it. Bring the unsalted butter to room temperature. Bring the eggs to room temperature.",
+      "secondary_message": "6 tbsp unsalted butter\n0.45 kg unsalted butter\n3 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "For the Crisp Topping: In medium bowl, combine brown sugar and flour. Add butter, and with fingertips, rub together and toss until mixture resembles coarse meal. Stir in oats, almonds, and salt. Refrigerate until needed.",

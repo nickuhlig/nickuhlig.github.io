@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 43,
-      "name": "extra sharp cheddar cheese, grated",
-      "quantity": "227 g"
+      "name": "extra sharp cheddar cheese",
+      "quantity": "227 g",
+      "prep": "grated"
     },
     {
       "ingredient_id": 264,
@@ -60,8 +61,9 @@
     },
     {
       "ingredient_id": 1071,
-      "name": "pretzel buns, split",
-      "quantity": "4"
+      "name": "pretzel buns",
+      "quantity": "4",
+      "prep": "split"
     },
     {
       "ingredient_id": 1003,
@@ -95,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the extra sharp cheddar cheese. Split the pretzel buns.",
+      "secondary_message": "227 g extra sharp cheddar cheese\n4 pretzel buns"
+    },
     {
       "id": 1,
       "primary_message": "For the Cheddar Cheese Sauce: Add grated cheese and cornstarch to a large bowl, and toss until combined. Transfer to medium-sized saucepan. Pour in 1 cup evaporated milk and the hot sauce. Cook over low heat, whisking occasionally, until sauce is bubbly and homogenous, about 5 minutes. It will thicken considerably as it warms up. Keep warm, thinning cheese sauce with additional evaporated milk if it becomes too thick.",

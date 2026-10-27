@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, soft but cool",
-      "quantity": "113 g"
+      "name": "unsalted butter",
+      "quantity": "113 g",
+      "prep": "soft but cool"
     },
     {
       "ingredient_id": 1567,
@@ -71,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Let the unsalted butter soften slightly but keep it cool.",
+      "secondary_message": "113 g unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Combine butter, peanut butter, honey, salt, and vanilla in the bowl of a stand mixer fitted with a paddle attachment. Mix on medium speed until creamy and pale, about 3 minutes, then reduce speed to low and sprinkle in powdered sugar, a little at a time. After the last addition, increase speed to medium and continue beating until creamy and light, about 3 minutes. Scrape bowl and beater with a flexible spatula, then continue beating a minute more. If you like, adjust to taste with more vanilla or salt. Use immediately. Frosted desserts will keep up to 1 week at room temperature.",

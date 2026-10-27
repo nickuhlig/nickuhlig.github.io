@@ -42,8 +42,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, slightly softened",
-      "quantity": "½ tsp"
+      "name": "unsalted butter",
+      "quantity": "½ tsp",
+      "prep": "slightly softened"
     },
     {
       "ingredient_id": 3137,
@@ -52,11 +53,18 @@
     },
     {
       "ingredient_id": 1932,
-      "name": "dill, roughly chopped",
-      "quantity": "1 tbsp"
+      "name": "dill",
+      "quantity": "1 tbsp",
+      "prep": "roughly chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter. Roughly chop the dill.",
+      "secondary_message": "½ tsp unsalted butter\n1 tbsp dill"
+    },
     {
       "id": 1,
       "primary_message": "If not already trimmed, cut rye bread to a 3- by 13-cm rectangle.",

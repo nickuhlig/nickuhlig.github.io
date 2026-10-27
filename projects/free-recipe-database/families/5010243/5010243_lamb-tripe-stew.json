@@ -59,23 +59,27 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, sliced",
-      "quantity": "2 medium"
+      "name": "carrots",
+      "quantity": "2 medium",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, sliced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 309,
-      "name": "leek, cleaned and sliced",
-      "quantity": "1"
+      "name": "leek",
+      "quantity": "1",
+      "prep": "cleaned and sliced"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, sliced",
-      "quantity": "1 rib"
+      "name": "celery",
+      "quantity": "1 rib",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 2437,
@@ -109,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the carrots. Slice the onion. Clean and slice the leek. Slice the celery.",
+      "secondary_message": "2 medium carrots\n1 medium onion\n1 leek\n1 rib celery"
+    },
     {
       "id": 1,
       "primary_message": "Two days in advance, scrub the pig's feet or snouts and dry. Rub with 1 tablespoon of salt and the mixed herbs. Cover loosely with plastic wrap and refrigerate overnight.",

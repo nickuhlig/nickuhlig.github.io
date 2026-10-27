@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 3671,
-      "name": "black garlic, peeled",
-      "quantity": "7 cloves"
+      "name": "black garlic",
+      "quantity": "7 cloves",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 1421,
@@ -56,8 +57,9 @@
     },
     {
       "ingredient_id": 1514,
-      "name": "coriander seed, toasted and ground",
-      "quantity": "1 tbsp"
+      "name": "coriander seed",
+      "quantity": "1 tbsp",
+      "prep": "toasted and ground"
     },
     {
       "ingredient_id": 88,
@@ -71,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the black garlic. Toast and grind the coriander seed.",
+      "secondary_message": "7 cloves black garlic\n1 tbsp coriander seed"
+    },
     {
       "id": 1,
       "primary_message": "Toss beets and parsley in large bowl. Combine black garlic, lime juice, olive oil, and coriander in blender and blend until smooth. Season to taste with salt and sugar (start with 1 teaspoon sugar and add more totaste). Toss beets with vinaigrette and serve immediately.",

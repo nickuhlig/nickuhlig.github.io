@@ -44,8 +44,9 @@
   "ingredients": [
     {
       "ingredient_id": 242,
-      "name": "fresh strawberries, tops removed",
-      "quantity": "¾ cup"
+      "name": "fresh strawberries",
+      "quantity": "¾ cup",
+      "prep": "tops removed"
     },
     {
       "ingredient_id": 359,
@@ -74,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the tops from the fresh strawberries.",
+      "secondary_message": "¾ cup fresh strawberries"
+    },
     {
       "id": 1,
       "primary_message": "For the Strawberry Layer: In a blender, blend strawberries, water, and granulated sugar (if using) until smooth, about 1 minute. Add more water if the mixture looks too thick. Season to taste with additional sugar as needed. Transfer to a bowl; set aside. Rinse blender jar clean.",

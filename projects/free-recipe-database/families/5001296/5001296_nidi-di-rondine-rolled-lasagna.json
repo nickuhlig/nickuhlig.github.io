@@ -85,8 +85,9 @@
     },
     {
       "ingredient_id": 2535,
-      "name": "fresh lasagna noodles, cut into 6- by 12-inch rectangles",
-      "quantity": "1 lb"
+      "name": "fresh lasagna noodles",
+      "quantity": "1 lb",
+      "prep": "cut into 6- by 12-inch rectangles"
     },
     {
       "ingredient_id": 1044,
@@ -105,11 +106,18 @@
     },
     {
       "ingredient_id": 329,
-      "name": "prosciutto cotto, torn into into 2-inch pieces",
-      "quantity": "8 oz"
+      "name": "prosciutto cotto",
+      "quantity": "8 oz",
+      "prep": "torn into into 2-inch pieces"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the fresh lasagna noodles into 6- by 12-inch rectangles. Tear the prosciutto cotto into into 2-inch pieces.",
+      "secondary_message": "1 lb fresh lasagna noodles\n8 oz prosciutto cotto"
+    },
     {
       "id": 1,
       "primary_message": "For the Besciamella: In a small saucepan, melt butter over medium-high heat. Add flour and whisk to form a paste. Continue to cook, stirring, until raw flour scent is gone, about 1 minute. Whisking constantly, add milk in a thin, steady stream until fully combined. Sauce will initially become very thick, then get very thin once all the milk is added.",

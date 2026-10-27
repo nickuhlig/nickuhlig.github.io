@@ -66,8 +66,9 @@
   "ingredients": [
     {
       "ingredient_id": 27,
-      "name": "fresh corn, shucked",
-      "quantity": "6 ears"
+      "name": "fresh corn",
+      "quantity": "6 ears",
+      "prep": "shucked"
     },
     {
       "ingredient_id": 1742,
@@ -101,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shuck the fresh corn.",
+      "secondary_message": "6 ears fresh corn"
+    },
     {
       "id": 1,
       "primary_message": "Freeze ice cream maker insert according to manufacturer’s instructions.",

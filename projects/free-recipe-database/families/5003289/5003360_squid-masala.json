@@ -32,8 +32,9 @@
   "ingredients": [
     {
       "ingredient_id": 1839,
-      "name": "squid bodies, finely sliced",
-      "quantity": "0.23 kg"
+      "name": "squid bodies",
+      "quantity": "0.23 kg",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 1044,
@@ -52,8 +53,9 @@
     },
     {
       "ingredient_id": 1799,
-      "name": "Serrano chilies, finely minced",
-      "quantity": "2"
+      "name": "Serrano chilies",
+      "quantity": "2",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 24,
@@ -92,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely slice the squid bodies. Finely mince the Serrano chilies.",
+      "secondary_message": "0.23 kg squid bodies\n2 Serrano chilies"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil over medium heat in a large, heavy-bottomed skillet until shimmering. Add the onions and cook, stirring, until lightly browned, about 5 minutes. Add the tomatoes and cook, stirring, until they have broken down, about 2 minutes. Add chilies and garlic and cook, stirring, until fragrant, about 1 minute. In quick succession add the turmeric, coriander, and red chili. Stir until fragrant, about 1 minute. If spices stick to the bottom, add a few drops of water to prevent burning. Add the grated coconut, stir until mixed in and colored with the spices. Add the minced squid, stir until mixed and allow to cook until just cooked through, 5 to 7 minutes. Stir in cilantro. Serve hot with naan, onion, and lime.",

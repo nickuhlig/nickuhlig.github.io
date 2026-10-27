@@ -108,13 +108,15 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, cold",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "cold"
     },
     {
       "ingredient_id": 3641,
-      "name": "egg yolks, cold",
-      "quantity": "2 large"
+      "name": "egg yolks",
+      "quantity": "2 large",
+      "prep": "cold"
     },
     {
       "ingredient_id": 1124,
@@ -148,8 +150,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 1/2-inch cubes",
-      "quantity": "4 oz"
+      "name": "unsalted butter",
+      "quantity": "4 oz",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 346,
@@ -198,6 +201,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the eggs cold until you use them. Keep the egg yolks cold until you use them. Cut the unsalted butter into 1/2-inch cubes.",
+      "secondary_message": "3 large eggs\n2 large egg yolks\n4 oz unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Tangzhong: In a medium microwave-safe bowl, whisk water and bread flour together until smooth. Microwave for 20 seconds. Whisk, then repeat 1 to 2 more times, whisking after each interval, until mixture thickens to a pudding-like consistency. If needed, continue heating mixture in 10-second intervals, stirring each time, until pudding-like consistency is achieved. Let cool, stirring occasionally, until room temperature, about 5 minutes. Once cool, add milk to the tangzhong and whisk to combine. Add whole eggs and yolks to the tangzhong mixture and whisk until well-combined and no streaks remain. Set aside.",

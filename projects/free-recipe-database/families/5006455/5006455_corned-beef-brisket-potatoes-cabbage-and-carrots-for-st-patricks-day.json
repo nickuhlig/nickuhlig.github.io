@@ -47,8 +47,9 @@
   "ingredients": [
     {
       "ingredient_id": 2506,
-      "name": "whole flat brisket, trimmed, about 2250 grams/5 pounds",
-      "quantity": "1"
+      "name": "whole flat brisket, about 2250 grams/5 pounds",
+      "quantity": "1",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 88,
@@ -97,27 +98,37 @@
     },
     {
       "ingredient_id": 1747,
-      "name": "bay leaves, roughly torn",
-      "quantity": "6"
+      "name": "bay leaves",
+      "quantity": "6",
+      "prep": "roughly torn"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and roughly chopped",
-      "quantity": "2 lb"
+      "name": "carrots",
+      "quantity": "2 lb",
+      "prep": "peeled and roughly chopped"
     },
     {
       "ingredient_id": 1039,
-      "name": "russet potatoes, peeled and roughly diced",
+      "name": "russet potatoes",
       "quantity": "4 medium",
-      "weigh_as": "2 lb"
+      "weigh_as": "2 lb",
+      "prep": "peeled and roughly diced"
     },
     {
       "ingredient_id": 2715,
-      "name": "white cabbage, cut into 6 to 8 wedges",
-      "quantity": "1 whole head"
+      "name": "white cabbage",
+      "quantity": "1 whole head",
+      "prep": "cut into 6 to 8 wedges"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the whole flat brisket. Roughly tear the bay leaves. Peel and roughly chop the carrots. Peel and roughly dice the russet potatoes. Cut the white cabbage into 6 to 8 wedges.",
+      "secondary_message": "1 whole flat brisket, about 2250 grams/5 pounds\n6 bay leaves\n2 lb carrots\n4 medium russet potatoes\n1 whole head white cabbage"
+    },
     {
       "id": 1,
       "primary_message": "Eight days before serving, combine salt, pink salt (or saltpeter), and brown sugar in a small bowl and whisk until homogeneous. Rub evenly over every surface of brisket. Combine peppercorns, mustard, coriander, allspice, cloves, ginger, and bay leaves and sprinkle evenly over both sides of beef, pressing spices gently into the meat until they stick. Seal the beef in a vacuum sealed bag or a zipper-lock bag with all of the air pressed out of it. Place in the coldest part of the refrigerator and let rest for 7 days, flipping once a day.",

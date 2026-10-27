@@ -48,8 +48,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, roughly chopped",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 117,
@@ -78,8 +79,9 @@
     },
     {
       "ingredient_id": 25,
-      "name": "romaine lettuce, chopped",
-      "quantity": "4 small heads"
+      "name": "romaine lettuce",
+      "quantity": "4 small heads",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 3664,
@@ -88,31 +90,42 @@
     },
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, halved",
-      "quantity": "6 oz"
+      "name": "cherry tomatoes",
+      "quantity": "6 oz",
+      "prep": "halved"
     },
     {
       "ingredient_id": 3665,
-      "name": "cooked bacon, roughly chopped",
-      "quantity": "8 slices"
+      "name": "cooked bacon",
+      "quantity": "8 slices",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 183,
-      "name": "avocado, chopped",
-      "quantity": "1 large"
+      "name": "avocado",
+      "quantity": "1 large",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 121,
-      "name": "hard-boiled eggs, quartered lengthwise into wedges",
-      "quantity": "3"
+      "name": "hard-boiled eggs",
+      "quantity": "3",
+      "prep": "quartered lengthwise into wedges"
     },
     {
       "ingredient_id": 1239,
-      "name": "blue cheese, crumbled",
-      "quantity": "4 oz"
+      "name": "blue cheese",
+      "quantity": "4 oz",
+      "prep": "crumbled"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the shallot. Chop the romaine lettuce. Halve the cherry tomatoes. Roughly chop the cooked bacon. Chop the avocado. Quarter the hard-boiled eggs lengthwise into wedges. Crumble the blue cheese.",
+      "secondary_message": "1 small shallot\n4 small heads romaine lettuce\n6 oz cherry tomatoes\n8 slices cooked bacon\n1 large avocado\n3 hard-boiled eggs\n4 oz blue cheese"
+    },
     {
       "id": 1,
       "primary_message": "In a blender, process red wine vinegar, shallot, Dijon, honey, salt, and pepper on high until smooth, about 20 seconds. With machine running, slowly add oil in a steady stream until emulsified, about 1 minute. Pour vinaigrette into a bowl; set aside.",

@@ -64,8 +64,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1683,
@@ -84,13 +85,15 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "113 g"
+      "name": "cream cheese",
+      "quantity": "113 g",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1966,
-      "name": "drained jarred peppers, finely chopped",
-      "quantity": "⅓ cup"
+      "name": "drained jarred peppers",
+      "quantity": "⅓ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 136,
@@ -114,6 +117,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic. Soften the cream cheese. Finely chop the drained jarred peppers.",
+      "secondary_message": "2 medium cloves garlic\n113 g cream cheese\n⅓ cup drained jarred peppers"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in large skillet over medium-high heat until shimmering. Add chilies and cook, covered and turning once halfway through cooking, reducing heat if threatening to burn, until spotty black and softened, about 10 minutes. Transfer to cutting board. When cool enough to handle, finely chop chilies and place in large bowl. Wipe out skillet with paper towel.",

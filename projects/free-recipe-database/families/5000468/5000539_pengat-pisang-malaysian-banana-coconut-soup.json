@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 317,
-      "name": "under-ripe bananas, peeled and sliced into 2-inch pieces",
-      "quantity": "2 to 3 large"
+      "name": "under-ripe bananas",
+      "quantity": "2 to 3 large",
+      "prep": "peeled and sliced into 2-inch pieces"
     },
     {
       "ingredient_id": 1820,
@@ -80,11 +81,18 @@
     },
     {
       "ingredient_id": 41,
-      "name": "fresh coconut milk, stirred or shaken well",
-      "quantity": "1 ⅔ cups"
+      "name": "fresh coconut milk",
+      "quantity": "1 ⅔ cups",
+      "prep": "stirred or shaken well"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and slice the under-ripe bananas into 2-inch pieces. Stir or shake the fresh coconut milk well.",
+      "secondary_message": "2 to 3 large under-ripe bananas\n1 ⅔ cups fresh coconut milk"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, cover dried sago pearls with about 2.5 cm of cold or room-temperature water. (Using hot water will cause the sago pearls to expand too quickly.) Set aside.",

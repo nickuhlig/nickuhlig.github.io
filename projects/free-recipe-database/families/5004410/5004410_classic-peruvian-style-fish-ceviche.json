@@ -44,8 +44,9 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, finely sliced",
-      "quantity": "1 small"
+      "name": "red onion",
+      "quantity": "1 small",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 188,
@@ -69,6 +70,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely slice the red onion.",
+      "secondary_message": "1 small red onion"
+    },
     {
       "id": 1,
       "primary_message": "Combine fish, juice, onion, cilantro, and jalapeño in a large bowl and gently fold with your hands to combine. Season to taste with salt and pepper. Allow to marinate for at least 5 minutes, folding occasionally. (See chart and image above for marinating time guidance.) Transfer to a serving platter and serve immediately with boiled corn and sweet potatoes, if desired.",

@@ -32,9 +32,10 @@
   "ingredients": [
     {
       "ingredient_id": 1897,
-      "name": "waxy potatoes, peeled, cut into 2-inch cubes",
+      "name": "waxy potatoes",
       "quantity": "2 ½ medium",
-      "weigh_as": "1 ¼ lb"
+      "weigh_as": "1 ¼ lb",
+      "prep": "peeled, cut into 2-inch cubes"
     },
     {
       "ingredient_id": 1007,
@@ -53,13 +54,15 @@
     },
     {
       "ingredient_id": 1271,
-      "name": "cumin seeds, coarse ground in spice grinder",
-      "quantity": "1 ½ tsp"
+      "name": "cumin seeds",
+      "quantity": "1 ½ tsp",
+      "prep": "coarse ground in spice grinder"
     },
     {
       "ingredient_id": 1850,
-      "name": "pepper green chilies, sliced thin",
-      "quantity": "2"
+      "name": "pepper green chilies",
+      "quantity": "2",
+      "prep": "sliced thin"
     },
     {
       "ingredient_id": 90,
@@ -68,8 +71,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, sliced into 1/4-inch thick wedges",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "sliced into 1/4-inch thick wedges"
     },
     {
       "ingredient_id": 2195,
@@ -88,11 +92,18 @@
     },
     {
       "ingredient_id": 44,
-      "name": "boneless skinless chicken breast, cut into 1-inch cubes",
-      "quantity": "1 lb"
+      "name": "boneless skinless chicken breast",
+      "quantity": "1 lb",
+      "prep": "cut into 1-inch cubes"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the waxy potatoes into 2-inch cubes. Coarsely grind the cumin seeds in spice grinder. Slice the pepper green chilies thin. Slice the onion into 1/4-inch thick wedges. Cut the boneless skinless chicken breast into 1-inch cubes.",
+      "secondary_message": "2 ½ medium waxy potatoes\n1 ½ tsp cumin seeds\n2 pepper green chilies\n1 medium onion\n1 lb boneless skinless chicken breast"
+    },
     {
       "id": 1,
       "primary_message": "Place potatoes in medium saucepan and cover with water. Season with salt. Bring to boil over medium-high heat, and simmer until potatoes are cooked but still quite firm, about 7 minutes. Drain; set aside.",

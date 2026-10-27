@@ -70,8 +70,9 @@
     },
     {
       "ingredient_id": 3642,
-      "name": "egg whites, at room temperature",
-      "quantity": "5 large"
+      "name": "egg whites",
+      "quantity": "5 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1574,
@@ -90,8 +91,9 @@
     },
     {
       "ingredient_id": 2220,
-      "name": "kiwis, peeled and thinly sliced",
-      "quantity": "3 medium"
+      "name": "kiwis",
+      "quantity": "3 medium",
+      "prep": "peeled and thinly sliced"
     },
     {
       "ingredient_id": 1752,
@@ -105,6 +107,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the egg whites to room temperature. Peel and thinly slice the kiwis.",
+      "secondary_message": "5 large egg whites\n3 medium kiwis"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat to 135°C (275°F). Line a 13- by 46-cm rimmed baking sheet with parchment paper; set aside. In a medium bowl, whisk cornstarch and 1 1/2 cups sugar; set aside.",

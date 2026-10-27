@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, split in half",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "split in half"
     },
     {
       "ingredient_id": 157,
@@ -86,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the onion in half.",
+      "secondary_message": "1 small onion"
+    },
     {
       "id": 1,
       "primary_message": "Combine beans, 1 teaspoon baking soda, and 2 tablespoons kosher salt in a large bowl and cover with 6 cups cold water. Stir to dissolve salt and baking soda. Let stand at room temperature overnight. Drain and rinse beans thoroughly.",

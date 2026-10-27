@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 2727,
-      "name": "cubed ripe watermelon, seeds removed",
-      "quantity": "1 cup"
+      "name": "cubed ripe watermelon",
+      "quantity": "1 cup",
+      "prep": "seeds removed"
     },
     {
       "ingredient_id": 1785,
@@ -80,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the seeds from the cubed ripe watermelon.",
+      "secondary_message": "1 cup cubed ripe watermelon"
+    },
     {
       "id": 1,
       "primary_message": "Place 1 ounce lime juice in a saucer. Mix kosher salt, sugar, and ancho chile powder. Place in second saucer. Dip serving glass into lime juice, rotating so outer edge of the glass becomes moist. Repeat in the second saucer with the chile salt mixture.",

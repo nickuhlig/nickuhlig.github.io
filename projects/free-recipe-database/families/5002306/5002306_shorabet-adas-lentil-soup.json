@@ -58,8 +58,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely chopped",
-      "quantity": "1 large"
+      "name": "yellow onion",
+      "quantity": "1 large",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 186,
@@ -73,20 +74,23 @@
     },
     {
       "ingredient_id": 148,
-      "name": "yellow potatoes, peeled and chopped",
+      "name": "yellow potatoes",
       "quantity": "1 ⅓ medium",
-      "weigh_as": "10 oz"
+      "weigh_as": "10 oz",
+      "prep": "peeled and chopped"
     },
     {
       "ingredient_id": 338,
-      "name": "dried red lentils, picked over and rinsed",
-      "quantity": "1 cup"
+      "name": "dried red lentils",
+      "quantity": "1 cup",
+      "prep": "picked over and rinsed"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and chopped",
+      "name": "carrots",
       "quantity": "3 medium",
-      "weigh_as": "6 oz"
+      "weigh_as": "6 oz",
+      "prep": "peeled and chopped"
     },
     {
       "ingredient_id": 1505,
@@ -100,8 +104,9 @@
     },
     {
       "ingredient_id": 1079,
-      "name": "pita rounds, cut into 3/4-inch squares",
-      "quantity": "2"
+      "name": "pita rounds",
+      "quantity": "2",
+      "prep": "cut into 3/4-inch squares"
     },
     {
       "ingredient_id": 47,
@@ -115,6 +120,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the yellow onion. Peel and chop the yellow potatoes. Pick the dried red lentils over, then rinse them. Peel and chop the carrots. Cut the pita rounds into 3/4-inch squares.",
+      "secondary_message": "1 large yellow onion\n1 ⅓ medium yellow potatoes\n1 cup dried red lentils\n3 medium carrots\n2 pita rounds"
+    },
     {
       "id": 1,
       "primary_message": "For the Soup: In a large pot, heat 2 tablespoons olive oil over medium heat until shimmering. Add onion and cook, stirring occasionally, until lightly golden, about 7 minutes. Add cumin and pepper and cook until fragrant, about 30 seconds.",

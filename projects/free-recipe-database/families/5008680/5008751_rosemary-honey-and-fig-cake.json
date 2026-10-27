@@ -77,8 +77,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "6 tbsp (3 oz)"
+      "name": "unsalted butter",
+      "quantity": "6 tbsp (3 oz)",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 47,
@@ -87,8 +88,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 103,
@@ -97,8 +99,9 @@
     },
     {
       "ingredient_id": 118,
-      "name": "milk, at room temperature",
-      "quantity": "1 cup"
+      "name": "milk",
+      "quantity": "1 cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 353,
@@ -112,8 +115,9 @@
     },
     {
       "ingredient_id": 3119,
-      "name": "figs, stems trimmed and quartered lengthwise",
-      "quantity": "12"
+      "name": "figs",
+      "quantity": "12",
+      "prep": "stems trimmed and quartered lengthwise"
     },
     {
       "ingredient_id": 88,
@@ -132,6 +136,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature. Bring the eggs to room temperature. Bring the milk to room temperature. Trim the stems of the figs, then quarter them lengthwise.",
+      "secondary_message": "6 tbsp (3 oz) unsalted butter\n2 large eggs\n1 cup milk\n12 figs"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Adjust oven rack to middle position and preheat oven to 175°C (350°F). Coat 23-cm round springform pan with cooking spray. In medium bowl, whisk together flour, baking powder, baking soda, and salt; set aside. Pulse sugar, rosemary, and orange zest in food processor until no zest strands remain and rosemary is coarsely chopped (see note).",

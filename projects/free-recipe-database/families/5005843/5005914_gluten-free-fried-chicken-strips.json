@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 44,
-      "name": "boneless skinless chicken breasts, cut into 2-inch strips",
-      "quantity": "0.45 kg"
+      "name": "boneless skinless chicken breasts",
+      "quantity": "0.45 kg",
+      "prep": "cut into 2-inch strips"
     },
     {
       "ingredient_id": 2557,
@@ -81,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the boneless skinless chicken breasts into 2-inch strips.",
+      "secondary_message": "0.45 kg boneless skinless chicken breasts"
+    },
     {
       "id": 1,
       "primary_message": "In large bowl, whisk together 2 cups buttermilk, kosher salt, and Tabasco until the salt is dissolved. Add chicken pieces. Cover bowl and refrigerate 30 minutes.",

@@ -39,18 +39,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell pepper, diced",
-      "quantity": "1"
+      "name": "red bell pepper",
+      "quantity": "1",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, microplaned",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "microplaned"
     },
     {
       "ingredient_id": 75,
@@ -74,13 +77,15 @@
     },
     {
       "ingredient_id": 1738,
-      "name": "whole peeled tomatoes packed in juice, roughly chopped, juice reserved",
-      "quantity": "1 (794 g) can"
+      "name": "whole peeled tomatoes packed in juice",
+      "quantity": "1 (794 g) can",
+      "prep": "roughly chopped, juice reserved"
     },
     {
       "ingredient_id": 93,
-      "name": "kidney beans, rinsed and drained",
-      "quantity": "2 (425 g) cans"
+      "name": "kidney beans",
+      "quantity": "2 (425 g) cans",
+      "prep": "rinsed and drained"
     },
     {
       "ingredient_id": 448,
@@ -124,6 +129,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the onion. Dice the red bell pepper. Microplane the garlic. Roughly chop the whole peeled tomatoes packed in juice, then reserve the juice. Rinse and drain the kidney beans.",
+      "secondary_message": "1 large onion\n1 red bell pepper\n3 medium cloves garlic\n1 (794 g) can whole peeled tomatoes packed in juice\n2 (425 g) cans kidney beans"
+    },
     {
       "id": 1,
       "primary_message": "Heat the vegetable in a large saucepan over high heat until shimmering. Add the onion and red pepper and cook, stirring frequently, until lightly softened, about 2 minutes. Add the garlic, chili powder, cumin, and oregano. Cook, stirring constantly until fragrant, about 1 minute. Add the beef and cook, stirring occasionally and using a wooden spoon to break up the meat until it is no longer pink, about 7 minutes. Add the tomatoes and their juice, the beans, and the hot sauce. Season to taste with salt and pepper. Simmer until thickened, about 30 minutes.",

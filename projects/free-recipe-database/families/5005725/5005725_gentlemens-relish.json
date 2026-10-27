@@ -36,13 +36,15 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "butter, room temperature",
-      "quantity": "8 oz"
+      "name": "butter",
+      "quantity": "8 oz",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 325,
-      "name": "flat anchovies, drained",
-      "quantity": "8 oz"
+      "name": "flat anchovies",
+      "quantity": "8 oz",
+      "prep": "drained"
     },
     {
       "ingredient_id": 74,
@@ -81,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the butter to room temperature. Drain the flat anchovies.",
+      "secondary_message": "8 oz butter\n8 oz flat anchovies"
+    },
     {
       "id": 1,
       "primary_message": "Combine butter, anchovies, cinnamon, white pepper, cayenne pepper, nutmeg, and lemon juice in a food processor and pulse until well combined. Taste for seasoning and add additional salt, pepper, and lemon juice if necessary. Alternatively, mash butter with a wooden spoon in a large bowl and then finely chop the anchovies. Add anchovies, cinnamon, white pepper, cayenne pepper, nutmeg, and lemon juice to the bowl, and mix to combine. Season to taste with salt, pepper, and lemon juice and mix again.",

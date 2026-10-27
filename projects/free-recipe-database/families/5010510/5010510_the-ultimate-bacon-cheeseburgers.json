@@ -102,8 +102,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely sliced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 1522,
@@ -112,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely slice the onion.",
+      "secondary_message": "1 medium onion"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center and bottom positions, place a 12-inch cast iron skillet on the bottom rack, and preheat oven to 400°F.",

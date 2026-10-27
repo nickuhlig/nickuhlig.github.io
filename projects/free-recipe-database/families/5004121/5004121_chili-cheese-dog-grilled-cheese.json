@@ -34,13 +34,15 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "butter, cut into three even pieces",
-      "quantity": "2 tbsp"
+      "name": "butter",
+      "quantity": "2 tbsp",
+      "prep": "cut into three even pieces"
     },
     {
       "ingredient_id": 1105,
-      "name": "hot dog, cut into 4 thin slices lengthwise",
-      "quantity": "1"
+      "name": "hot dog",
+      "quantity": "1",
+      "prep": "cut into 4 thin slices lengthwise"
     },
     {
       "ingredient_id": 1216,
@@ -64,6 +66,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the butter into three even pieces. Cut the hot dog into 4 thin slices lengthwise.",
+      "secondary_message": "2 tbsp butter\n1 hot dog"
+    },
     {
       "id": 1,
       "primary_message": "Melt one third of butter in a large non-stick skillet over medium heat until foaming subsides. Add hot dog slices and cook, turning occasionally, until browned on all sides. Transfer to a plate. Add both bread slices and cook, swirling occasionally, until pale golden brown on bottom side, about 2 minutes.",

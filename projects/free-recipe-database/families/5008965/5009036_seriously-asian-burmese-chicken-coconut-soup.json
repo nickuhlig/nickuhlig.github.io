@@ -34,23 +34,27 @@
   "ingredients": [
     {
       "ingredient_id": 1713,
-      "name": "onion, chopped",
-      "quantity": "½ medium"
+      "name": "onion",
+      "quantity": "½ medium",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, finely sliced in half-rings",
-      "quantity": "1 ½ medium"
+      "name": "onions",
+      "quantity": "1 ½ medium",
+      "prep": "finely sliced in half-rings"
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, peeled and chopped",
-      "quantity": "1 (2 ½ cm) piece"
+      "name": "fresh ginger",
+      "quantity": "1 (2 ½ cm) piece",
+      "prep": "peeled and chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, chopped",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1702,
@@ -114,13 +118,15 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, cut into thin rounds",
-      "quantity": "4"
+      "name": "scallions",
+      "quantity": "4",
+      "prep": "cut into thin rounds"
     },
     {
       "ingredient_id": 121,
-      "name": "hard-boiled eggs, cut crosswise into slices",
-      "quantity": "2"
+      "name": "hard-boiled eggs",
+      "quantity": "2",
+      "prep": "cut crosswise into slices"
     },
     {
       "ingredient_id": 75,
@@ -129,6 +135,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the onion. Finely slice the onions in half-rings. Peel and chop the fresh ginger. Chop the garlic. Cut the scallions into thin rounds. Cut the hard-boiled eggs crosswise into slices.",
+      "secondary_message": "½ medium onion\n1 ½ medium onions\n1 (2 ½ cm) piece fresh ginger\n2 cloves garlic\n4 scallions\n2 hard-boiled eggs"
+    },
     {
       "id": 1,
       "primary_message": "Place the chopped onion, ginger, garlic, and 4 tablespoons of water into a blender. Puree until smooth.",

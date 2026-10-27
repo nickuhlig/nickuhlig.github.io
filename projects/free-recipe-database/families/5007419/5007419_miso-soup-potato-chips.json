@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 2666,
-      "name": "seasoned nori snack sheets, crumbled",
-      "quantity": "10 sheets"
+      "name": "seasoned nori snack sheets",
+      "quantity": "10 sheets",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 88,
@@ -55,6 +56,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Crumble the seasoned nori snack sheets.",
+      "secondary_message": "10 sheets seasoned nori snack sheets"
+    },
     {
       "id": 1,
       "primary_message": "While chips are still hot and fresh from the oil, and working in batches if necessary, set in a large paper-towel-lined bowl and sprinkle miso soup mix and nori all over. Using clean hands, toss to coat chips evenly, then transfer to a serving bowl; season with salt if necessary. Cooled chips can be stored in a zipper-lock bag or airtight container for up to 2 days.",

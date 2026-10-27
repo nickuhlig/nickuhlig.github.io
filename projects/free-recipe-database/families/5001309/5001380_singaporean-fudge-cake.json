@@ -70,8 +70,9 @@
     },
     {
       "ingredient_id": 2526,
-      "name": "black coffee, cooled slightly",
-      "quantity": "6 tbsp"
+      "name": "black coffee",
+      "quantity": "6 tbsp",
+      "prep": "cooled slightly"
     },
     {
       "ingredient_id": 116,
@@ -125,11 +126,18 @@
     },
     {
       "ingredient_id": 1729,
-      "name": "dark chocolate, 60 to 70% cocoa , roughly chopped",
-      "quantity": "128 g"
+      "name": "dark chocolate, 60 to 70% cocoa",
+      "quantity": "128 g",
+      "prep": "roughly chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cool the black coffee slightly. Roughly chop the dark chocolate.",
+      "secondary_message": "6 tbsp black coffee\n128 g dark chocolate, 60 to 70% cocoa"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Adjust oven rack to lower-middle position and preheat to 180°C (350°F). Lightly grease one 9- by 10-cm aluminum Pullman loaf pan with neutral oil and line with parchment cross-wise so that there is a 2.5-cm overhang on both sides. (See notes below if you do not have a Pullman loaf pan.)",

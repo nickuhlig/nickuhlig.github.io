@@ -79,8 +79,9 @@
     },
     {
       "ingredient_id": 15,
-      "name": "capers, drained",
-      "quantity": "1 tsp"
+      "name": "capers",
+      "quantity": "1 tsp",
+      "prep": "drained"
     },
     {
       "ingredient_id": 1044,
@@ -89,8 +90,9 @@
     },
     {
       "ingredient_id": 2654,
-      "name": "oil-packed tuna, such as Ortiz, drained",
-      "quantity": "4 oz"
+      "name": "oil-packed tuna, such as Ortiz",
+      "quantity": "4 oz",
+      "prep": "drained"
     },
     {
       "ingredient_id": 2963,
@@ -115,6 +117,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain the capers. Drain the oil-packed tuna.",
+      "secondary_message": "1 tsp capers\n4 oz oil-packed tuna, such as Ortiz"
+    },
     {
       "id": 1,
       "primary_message": "For the Spicy Tonnato: Using a sharp chef's knife or serrated knife, slice off the very bottom of the tomato. Place a box grater in a medium bowl. Rub cut face of tomato over large holes of box grater, using the flat palm of your hand to move the tomato back and forth. The flesh should be grated off while the skin remains intact in your hand. Discard skin and season tomato pulp lightly with kosher salt to taste. Transfer tomato pulp to a liquid measuring cup and set aside along with the bowl (no need to wash it).",

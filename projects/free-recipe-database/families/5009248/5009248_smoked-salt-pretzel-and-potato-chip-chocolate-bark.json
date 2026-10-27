@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped, divided",
-      "quantity": "1 lb"
+      "name": "bittersweet chocolate, divided",
+      "quantity": "1 lb",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1260,
@@ -56,6 +57,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the bittersweet chocolate.",
+      "secondary_message": "1 lb bittersweet chocolate, divided"
+    },
     {
       "id": 1,
       "primary_message": "Line baking sheet with parchment paper. Place chocolate in large heatproof bowl. Using microwave or setting the bowl over a pan of barely simmering water, heat 2/3 of the chocolate, stirring until melted and smooth.",

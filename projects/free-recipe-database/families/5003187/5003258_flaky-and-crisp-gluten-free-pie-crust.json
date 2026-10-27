@@ -85,8 +85,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cold",
-      "quantity": "227 g"
+      "name": "unsalted butter",
+      "quantity": "227 g",
+      "prep": "cold"
     },
     {
       "ingredient_id": 359,
@@ -95,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the unsalted butter cold until you use it.",
+      "secondary_message": "227 g unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Dough: Whisk white rice flour, cornstarch, tapioca flour, coconut flour, sugar, salt, and xanthan gum together in a medium bowl. Cut butter into 1.5-cm cubes and toss with flour mixture to break up the pieces. With your fingertips, smash each cube into a thin sheet—that's it! Stir in water, then knead dough against the sides of the bowl until it comes together in a shaggy ball.",

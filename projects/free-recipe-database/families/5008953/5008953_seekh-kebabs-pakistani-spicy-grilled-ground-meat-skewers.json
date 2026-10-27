@@ -94,8 +94,9 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, roughly chopped",
-      "quantity": "1 medium"
+      "name": "red onion",
+      "quantity": "1 medium",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 188,
@@ -104,18 +105,21 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 221,
-      "name": "grated fresh ginger, roughly chopped",
-      "quantity": "1 ½ tbsp"
+      "name": "grated fresh ginger",
+      "quantity": "1 ½ tbsp",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1762,
-      "name": "green Thai bird chiles, stems removed",
-      "quantity": "1 to 4"
+      "name": "green Thai bird chiles",
+      "quantity": "1 to 4",
+      "prep": "stems removed"
     },
     {
       "ingredient_id": 346,
@@ -139,6 +143,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the red onion. Roughly chop the garlic. Roughly chop the grated fresh ginger. Remove the stems from the green Thai bird chiles.",
+      "secondary_message": "1 medium red onion\n4 medium cloves garlic\n1 ½ tbsp grated fresh ginger\n1 to 4 green Thai bird chiles"
+    },
     {
       "id": 1,
       "primary_message": "Toast peppercorns, coriander, cumin, and cloves in a dry skillet over medium heat, tossing and shaking frequently, until fragrant, about 1 minute. Transfer to a spice grinder. Add bay leaves and grind to a fine powder. Transfer to the bowl of a food processor.",

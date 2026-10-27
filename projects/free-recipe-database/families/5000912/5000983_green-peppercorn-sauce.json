@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 2751,
-      "name": "drained, rinsed green peppercorns packed in brine",
-      "quantity": "3 tbsp"
+      "name": "drained",
+      "quantity": "3 tbsp",
+      "prep": "rinsed green peppercorns packed in brine"
     },
     {
       "ingredient_id": 144,
@@ -95,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse the drained green peppercorns packed in brine.",
+      "secondary_message": "3 tbsp drained"
+    },
     {
       "id": 1,
       "primary_message": "1. Before making the sauce, sear your protein (steak, chicken, or pork) in a 30-cm skillet until well browned and desired internal doneness has been reached; transfer to a warm place to rest. Pour off all but 1 tablespoon remaining fat from the skillet.",

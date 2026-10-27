@@ -40,13 +40,15 @@
   "ingredients": [
     {
       "ingredient_id": 239,
-      "name": "raspberries, cold",
-      "quantity": "1 cup (4 oz)"
+      "name": "raspberries",
+      "quantity": "1 cup (4 oz)",
+      "prep": "cold"
     },
     {
       "ingredient_id": 118,
-      "name": "whole milk, cold",
-      "quantity": "1 cup"
+      "name": "whole milk",
+      "quantity": "1 cup",
+      "prep": "cold"
     },
     {
       "ingredient_id": 103,
@@ -60,6 +62,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the raspberries cold until you use them. Keep the whole milk cold until you use it.",
+      "secondary_message": "1 cup (4 oz) raspberries\n1 cup whole milk"
+    },
     {
       "id": 1,
       "primary_message": "Purée raspberries in blender until smooth, then blend in milk and honey until a light froth forms. Divide into two glasses, stir in soaked basil seeds, and garnish rim with a slice of candied ginger. Serve chilled.",

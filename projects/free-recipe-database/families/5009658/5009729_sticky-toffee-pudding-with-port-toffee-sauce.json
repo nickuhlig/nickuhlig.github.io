@@ -73,13 +73,15 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "5 tbsp"
+      "name": "unsalted butter",
+      "quantity": "5 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 2106,
-      "name": "pitted prunes, quartered",
-      "quantity": "227 g"
+      "name": "pitted prunes",
+      "quantity": "227 g",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 2594,
@@ -163,6 +165,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Quarter the pitted prunes.",
+      "secondary_message": "5 tbsp unsalted butter\n227 g pitted prunes"
+    },
     {
       "id": 1,
       "primary_message": "For the Pudding: Adjust oven rack to middle position and heat oven to 175°C (350°F). Grease a 23-cm round baking pan with 1 tablespoon butter. Set pan in large roasting pan lined with clean kitchen towel. Bring kettle or medium saucepan of water to boil over high heat.",

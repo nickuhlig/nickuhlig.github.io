@@ -52,8 +52,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, cut into small pieces",
-      "quantity": "2 sticks"
+      "name": "butter",
+      "quantity": "2 sticks",
+      "prep": "cut into small pieces"
     },
     {
       "ingredient_id": 121,
@@ -72,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the butter into small pieces.",
+      "secondary_message": "2 sticks butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat to 400[°]. In a large bowl, whisk together flour, baking powder, and grated cheddar cheese. Using your fingers or a pastry cutter incorporate butter into flour until the mixture resembles wet sand or cornmeal.",

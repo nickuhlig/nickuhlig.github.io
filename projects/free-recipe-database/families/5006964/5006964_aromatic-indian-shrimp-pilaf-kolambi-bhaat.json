@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 1799,
-      "name": "serrano chiles, split lengthwise",
-      "quantity": "3"
+      "name": "serrano chiles",
+      "quantity": "3",
+      "prep": "split lengthwise"
     },
     {
       "ingredient_id": 188,
@@ -66,8 +67,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, grated",
-      "quantity": "½ inch piece"
+      "name": "ginger",
+      "quantity": "½ inch piece",
+      "prep": "grated"
     },
     {
       "ingredient_id": 359,
@@ -111,8 +113,9 @@
     },
     {
       "ingredient_id": 269,
-      "name": "Basmati rice, rinsed and drained",
-      "quantity": "2 cups"
+      "name": "Basmati rice",
+      "quantity": "2 cups",
+      "prep": "rinsed and drained"
     },
     {
       "ingredient_id": 41,
@@ -121,6 +124,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the serrano chiles lengthwise. Grate the ginger. Rinse and drain the Basmati rice.",
+      "secondary_message": "3 serrano chiles\n½ inch piece ginger\n2 cups Basmati rice"
+    },
     {
       "id": 1,
       "primary_message": "Combine shrimp, turmeric, and lime juice in a bowl and toss to combine. Cover and refrigerate until ready to use.",

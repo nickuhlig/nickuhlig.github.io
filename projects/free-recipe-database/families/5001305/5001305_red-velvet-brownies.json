@@ -81,8 +81,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 353,
@@ -111,13 +112,15 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "4 oz"
+      "name": "cream cheese",
+      "quantity": "4 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "2 oz"
+      "name": "unsalted butter",
+      "quantity": "2 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 353,
@@ -136,6 +139,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the eggs to room temperature. Soften the cream cheese. Soften the unsalted butter.",
+      "secondary_message": "3 large eggs\n4 oz cream cheese\n2 oz unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat to 350ºF (175ºC). Line an 8- by 8-inch baking pan with parchment paper.",

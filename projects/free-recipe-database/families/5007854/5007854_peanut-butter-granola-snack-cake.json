@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "3 tbsp"
+      "name": "unsalted butter",
+      "quantity": "3 tbsp",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1567,
@@ -91,8 +92,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "8 tbsp"
+      "name": "unsalted butter",
+      "quantity": "8 tbsp",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1567,
@@ -131,8 +133,9 @@
     },
     {
       "ingredient_id": 2475,
-      "name": "buttermilk, at room temperature",
-      "quantity": "1 cup"
+      "name": "buttermilk",
+      "quantity": "1 cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 353,
@@ -141,6 +144,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature. Bring the unsalted butter to room temperature. Bring the buttermilk to room temperature.",
+      "secondary_message": "3 tbsp unsalted butter\n8 tbsp unsalted butter\n1 cup buttermilk"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350°F.",

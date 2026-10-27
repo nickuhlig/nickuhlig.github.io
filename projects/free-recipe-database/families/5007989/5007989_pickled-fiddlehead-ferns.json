@@ -82,11 +82,18 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed",
-      "quantity": "1 clove"
+      "name": "garlic",
+      "quantity": "1 clove",
+      "prep": "smashed"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Smash the garlic.",
+      "secondary_message": "1 clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "Place fiddlehead ferns in a large bowl of cold water and wash well. Rub away any brown chaff and trim cut ends.",

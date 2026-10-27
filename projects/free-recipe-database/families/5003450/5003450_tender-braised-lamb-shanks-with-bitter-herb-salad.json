@@ -99,28 +99,33 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, cut into large dice",
-      "quantity": "3 medium"
+      "name": "carrots",
+      "quantity": "3 medium",
+      "prep": "cut into large dice"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, cut into large dice",
-      "quantity": "2 large stalks"
+      "name": "celery",
+      "quantity": "2 large stalks",
+      "prep": "cut into large dice"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, cut into large dice",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "cut into large dice"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, crushed",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 325,
-      "name": "oil-packed anchovy fillets, chopped",
-      "quantity": "3"
+      "name": "oil-packed anchovy fillets",
+      "quantity": "3",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 323,
@@ -149,13 +154,15 @@
     },
     {
       "ingredient_id": 157,
-      "name": "celery, sliced thinly on the bias",
-      "quantity": "1 large stalk"
+      "name": "celery",
+      "quantity": "1 large stalk",
+      "prep": "sliced thinly on the bias"
     },
     {
       "ingredient_id": 2608,
-      "name": "red endive, cored and very thinly sliced crosswise",
-      "quantity": "2 small heads"
+      "name": "red endive",
+      "quantity": "2 small heads",
+      "prep": "cored and very thinly sliced crosswise"
     },
     {
       "ingredient_id": 2436,
@@ -179,6 +186,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the carrots into large dice. Cut the celery into large dice. Cut the yellow onion into large dice. Crush the garlic. Chop the oil-packed anchovy fillets. Slice the celery thinly on the bias. Core and very thinly slice the red endive crosswise.",
+      "secondary_message": "3 medium carrots\n2 large stalks celery\n1 medium yellow onion\n4 medium cloves garlic\n3 oil-packed anchovy fillets\n1 large stalk celery\n2 small heads red endive"
+    },
     {
       "id": 1,
       "primary_message": "For the Braised Lamb: Preheat oven to 300°F. In a small bowl, stir together coriander seed, fennel seeds, cumin, and smoked paprika until thoroughly combined. Season lamb shanks all over with salt and pepper, then rub spice mixture all over meat.",

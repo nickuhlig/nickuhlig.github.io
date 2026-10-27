@@ -47,8 +47,9 @@
   "ingredients": [
     {
       "ingredient_id": 1216,
-      "name": "white bread, cut into 1 1/2-inch cubes",
-      "quantity": "1 lb"
+      "name": "white bread",
+      "quantity": "1 lb",
+      "prep": "cut into 1 1/2-inch cubes"
     },
     {
       "ingredient_id": 1044,
@@ -57,13 +58,15 @@
     },
     {
       "ingredient_id": 309,
-      "name": "leek, white and pale green parts only, diced",
-      "quantity": "1 large"
+      "name": "leek, white and pale green parts only",
+      "quantity": "1 large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 26,
@@ -83,13 +86,15 @@
     },
     {
       "ingredient_id": 230,
-      "name": "cremini mushrooms, trimmed and sliced",
-      "quantity": "½ lb"
+      "name": "cremini mushrooms",
+      "quantity": "½ lb",
+      "prep": "trimmed and sliced"
     },
     {
       "ingredient_id": 2294,
-      "name": "Italian sausage, casings discarded",
-      "quantity": "1 lb"
+      "name": "Italian sausage",
+      "quantity": "1 lb",
+      "prep": "casings discarded"
     },
     {
       "ingredient_id": 1060,
@@ -118,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the white bread into 1 1/2-inch cubes. Dice the leek. Thinly slice the garlic. Trim and slice the cremini mushrooms. Discard the casings from the Italian sausage.",
+      "secondary_message": "1 lb white bread\n1 large leek, white and pale green parts only\n2 medium cloves garlic\n½ lb cremini mushrooms\n1 lb Italian sausage"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven racks to lower-middle and upper-middle positions. Preheat oven to 275°F. Spread bread evenly over 2 rimmed baking sheets. Stagger trays on oven racks and bake until mostly dried, about 35 minutes, rotating trays and stirring bread cubes several times during baking. Remove from oven and allow to cool.",

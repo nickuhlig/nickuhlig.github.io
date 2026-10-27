@@ -107,13 +107,15 @@
     },
     {
       "ingredient_id": 116,
-      "name": "all-purpose flour, sifted",
-      "quantity": "85 g"
+      "name": "all-purpose flour",
+      "quantity": "85 g",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 333,
-      "name": "cocoa powder, sifted",
-      "quantity": "28 g"
+      "name": "cocoa powder",
+      "quantity": "28 g",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 2475,
@@ -167,6 +169,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Sift the all-purpose flour. Sift the cocoa powder.",
+      "secondary_message": "85 g all-purpose flour\n28 g cocoa powder"
+    },
     {
       "id": 1,
       "primary_message": "To Make the Chocolate Cake: Preheat oven to 180°C (350°F) and have a cupcake pan, lightly greased, set aside (see note). With a hand or stand mixer, cream together butter, sugar, salt, baking powder, and baking soda until light and fluffy, about 3 minutes. Add egg and mix another minute more until fully incorporated. With the mixer set to low, add in flour all at once, followed by the cocoa powder. Finally, drizzle in buttermilk and vanilla. Continue mixing only until homogenous. Divide batter evenly between the cupcake cups and bake for about 12 minutes, or until puffed and set. Set aside and cool for at least 2 hours before filling.",

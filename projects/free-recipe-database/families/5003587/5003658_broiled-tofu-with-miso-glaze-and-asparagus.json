@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "2 medium"
+      "name": "garlic cloves",
+      "quantity": "2 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 359,
@@ -70,8 +71,9 @@
     },
     {
       "ingredient_id": 2478,
-      "name": "firm tofu, drained",
-      "quantity": "1 (539 g) pkg"
+      "name": "firm tofu",
+      "quantity": "1 (539 g) pkg",
+      "prep": "drained"
     },
     {
       "ingredient_id": 1007,
@@ -80,8 +82,9 @@
     },
     {
       "ingredient_id": 26,
-      "name": "asparagus, tough ends trimmed",
-      "quantity": "1 bunch"
+      "name": "asparagus",
+      "quantity": "1 bunch",
+      "prep": "tough ends trimmed"
     },
     {
       "ingredient_id": 181,
@@ -90,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic cloves. Drain the firm tofu. Trim the tough ends of the asparagus.",
+      "secondary_message": "2 medium garlic cloves\n1 (539 g) pkg firm tofu\n1 bunch asparagus"
+    },
     {
       "id": 1,
       "primary_message": "Heat miso, gochujang, apple cider vinegar, honey, ginger, garlic, and water in a medium saucepan over medium-low heat. Stir occasionally and cook until mixture reduces to a thick glaze, 10 to 15 minutes.",

@@ -62,13 +62,15 @@
     },
     {
       "ingredient_id": 1442,
-      "name": "mascarpone, slightly softened",
-      "quantity": "2 cups (17 ½ oz)"
+      "name": "mascarpone",
+      "quantity": "2 cups (17 ½ oz)",
+      "prep": "slightly softened"
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, melted",
-      "quantity": "3 oz"
+      "name": "bittersweet chocolate",
+      "quantity": "3 oz",
+      "prep": "melted"
     },
     {
       "ingredient_id": 1710,
@@ -82,8 +84,9 @@
     },
     {
       "ingredient_id": 1752,
-      "name": "heavy cream, very cold",
-      "quantity": "2 cups"
+      "name": "heavy cream",
+      "quantity": "2 cups",
+      "prep": "very cold"
     },
     {
       "ingredient_id": 333,
@@ -92,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the mascarpone. Melt the bittersweet chocolate. Keep the heavy cream cold until you use it.",
+      "secondary_message": "2 cups (17 ½ oz) mascarpone\n3 oz bittersweet chocolate\n2 cups heavy cream"
+    },
     {
       "id": 1,
       "primary_message": "In a liquid measuring cup, stir together coffee, granulated sugar, 1 tablespoon cocoa, and 4 tablespoons (1/4 cup) coffee liquor. Lay 14 ladyfinger cookies in single layer in bottom of pan. With pastry brush or spoon, douse ladyfingers with 1/2 of coffee mixture.",

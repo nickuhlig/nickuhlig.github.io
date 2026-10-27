@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into 1/2-inch pieces",
-      "quantity": "0.45 kg"
+      "name": "cold unsalted butter",
+      "quantity": "0.45 kg",
+      "prep": "cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 3641,
@@ -65,6 +66,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cold unsalted butter into 1/2-inch pieces.",
+      "secondary_message": "0.45 kg cold unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Place the flour, 3/4 cup of the sugar, and the salt in the bowl of the stand mixer and beat on low speed for 15 seconds, just to blend the ingredients. You can also use a hand mixer and a medium bowl, though it may take a little longer to achieve the same results. Add the butter and mix on low until the butter is broken into tiny pieces, 2 to 3 minutes. Turn the mixer to medium-low and mix until the mixture forms small clumps about the size of peas, 2 to 3 minutes longer.",

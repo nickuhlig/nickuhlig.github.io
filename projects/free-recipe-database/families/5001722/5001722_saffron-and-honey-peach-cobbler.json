@@ -102,8 +102,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted, plus more for greasing",
-      "quantity": "10 tbsp"
+      "name": "unsalted butter, plus more for greasing",
+      "quantity": "10 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 118,
@@ -112,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter.",
+      "secondary_message": "10 tbsp unsalted butter, plus more for greasing"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat the oven to 350°F. Grease an 8-inch square or 9-inch round cake pan with cooking spray.",

@@ -45,13 +45,15 @@
     },
     {
       "ingredient_id": 29,
-      "name": "almonds, slivered",
-      "quantity": "⅓ cup"
+      "name": "almonds",
+      "quantity": "⅓ cup",
+      "prep": "slivered"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "1 clove"
+      "name": "garlic",
+      "quantity": "1 clove",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 74,
@@ -70,11 +72,18 @@
     },
     {
       "ingredient_id": 126,
-      "name": "goat cheese, torn into small bits",
-      "quantity": "57 g"
+      "name": "goat cheese",
+      "quantity": "57 g",
+      "prep": "torn into small bits"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Sliver the almonds. Thinly slice the garlic. Tear the goat cheese into small bits.",
+      "secondary_message": "⅓ cup almonds\n1 clove garlic\n57 g goat cheese"
+    },
     {
       "id": 1,
       "primary_message": "Bring a large pot of salted water to a boil. Cook the pasta according to the directions on the packaging. Drain, reserving 1/4 cup of cooking liquid.",

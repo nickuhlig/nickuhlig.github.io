@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 2520,
-      "name": "radicchio, cored, leaves torn into bite-size pieces",
-      "quantity": "113 g"
+      "name": "radicchio",
+      "quantity": "113 g",
+      "prep": "cored, leaves torn into bite-size pieces"
     },
     {
       "ingredient_id": 2483,
@@ -46,8 +47,9 @@
     },
     {
       "ingredient_id": 343,
-      "name": "radishes, very thinly sliced",
-      "quantity": "2"
+      "name": "radishes",
+      "quantity": "2",
+      "prep": "very thinly sliced"
     },
     {
       "ingredient_id": 1480,
@@ -66,6 +68,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Core the radicchio, then tear the leaves into bite-size pieces. Very thinly slice the radishes.",
+      "secondary_message": "113 g radicchio\n2 radishes"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, toss together radicchio, watercress or arugula, radishes, lemon juice, and olive oil. Season with salt. Serve immediately.",

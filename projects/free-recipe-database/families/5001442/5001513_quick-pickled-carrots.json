@@ -48,8 +48,9 @@
   "ingredients": [
     {
       "ingredient_id": 159,
-      "name": "trimmed carrots, peeled",
-      "quantity": "3 small"
+      "name": "trimmed carrots",
+      "quantity": "3 small",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 88,
@@ -58,8 +59,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, thinly sliced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1574,
@@ -88,8 +90,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, scrubbed and thinly sliced",
-      "quantity": "1 (1 ½ cm) piece"
+      "name": "fresh ginger",
+      "quantity": "1 (1 ½ cm) piece",
+      "prep": "scrubbed and thinly sliced"
     },
     {
       "ingredient_id": 1784,
@@ -98,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the trimmed carrots. Thinly slice the shallot. Scrub and thinly slice the fresh ginger.",
+      "secondary_message": "3 small trimmed carrots\n1 small shallot\n1 (1 ½ cm) piece fresh ginger"
+    },
     {
       "id": 1,
       "primary_message": "Using a Y-peeler, shave carrots lengthwise into ribbons, rotating carrot as needed. Alternatively, use a mandolin to shave the carrots. Once carrot can no longer be peeled, thinly slice any remaining carrot. In a large bowl, toss carrots and 1/2 teaspoon salt. Chill, uncovered, for 30 minutes.",

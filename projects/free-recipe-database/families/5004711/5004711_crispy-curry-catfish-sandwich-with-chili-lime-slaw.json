@@ -89,8 +89,9 @@
     },
     {
       "ingredient_id": 2387,
-      "name": "catfish fillets, cut in half",
-      "quantity": "2"
+      "name": "catfish fillets",
+      "quantity": "2",
+      "prep": "cut in half"
     },
     {
       "ingredient_id": 1936,
@@ -114,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the catfish fillets in half.",
+      "secondary_message": "2 catfish fillets"
+    },
     {
       "id": 1,
       "primary_message": "For the Slaw: whisk together the canola oil, lime juice, fish sauce, sugar, and sambal in a large bowl. Add the shredded cabbages and cilantro and toss to combine. Set aside in the refrigerator until ready to serve.",

@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 1980,
-      "name": "Kirby cucumbers, thinly sliced",
-      "quantity": "2"
+      "name": "Kirby cucumbers",
+      "quantity": "2",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 359,
@@ -55,8 +56,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly sliced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "roughly sliced"
     },
     {
       "ingredient_id": 1784,
@@ -75,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the Kirby cucumbers. Roughly slice the garlic.",
+      "secondary_message": "2 Kirby cucumbers\n2 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Place cucumber slices in a bowl that just fits them. Heat water, vinegar, salt, pepper flakes, garlic, black peppercorns, mustard seeds, and dill in a skillet over high heat until salt has dissolved and mixture is simmering. Immediately pour brine over cucumbers. Cover bowl with a paper towel pressed directly against the surface of the liquid to keep cucumbers submerged. Wait at least 30 minutes before serving (do not drain brine). Pickles can be stored in their brine in a sealed container in the refrigerator for up to a month.",

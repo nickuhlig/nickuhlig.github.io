@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 106,
-      "name": "loosely packed fresh flat leaf parsley, roughly chopped",
-      "quantity": "1 cup"
+      "name": "loosely packed fresh flat leaf parsley",
+      "quantity": "1 cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1746,
@@ -51,8 +52,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 130,
@@ -81,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the loosely packed fresh flat leaf parsley. Roughly chop the garlic.",
+      "secondary_message": "1 cup loosely packed fresh flat leaf parsley\n2 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Combine parsley, basil, oregano, garlic, vinegar, and honey in the bowl of a food processor and process until a paste forms. With the machine running, drizzle in the olive oil to form an emulsion. Season to taste with salt and pepper. Vinaigrette is best used immediately, but can be stored in a sealed container in the refrigerator for up to 5 days.",

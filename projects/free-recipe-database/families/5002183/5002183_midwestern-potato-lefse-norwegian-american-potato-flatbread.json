@@ -66,14 +66,16 @@
   "ingredients": [
     {
       "ingredient_id": 1039,
-      "name": "russet potatoes, peeled and cut into 1-inch chunks",
+      "name": "russet potatoes",
       "quantity": "5 medium",
-      "weigh_as": "40 oz"
+      "weigh_as": "40 oz",
+      "prep": "peeled and cut into 1-inch chunks"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into tablespoons",
-      "quantity": "5 tbsp"
+      "name": "unsalted butter",
+      "quantity": "5 tbsp",
+      "prep": "cut into tablespoons"
     },
     {
       "ingredient_id": 1752,
@@ -97,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the russet potatoes into 1-inch chunks. Cut the unsalted butter into tablespoons.",
+      "secondary_message": "5 medium russet potatoes\n5 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a large pot, place potatoes and enough cold water to cover by about 1 inch. Add a generous pinch of salt, bring to a gentle boil over medium-high heat, and cook until fully tender, 12 to 15 minutes from the start of the boil. Drain well, then return potatoes to pot and heat over low heat, stirring to drive off surface moisture, until dried out, 1 to 2 minutes.",

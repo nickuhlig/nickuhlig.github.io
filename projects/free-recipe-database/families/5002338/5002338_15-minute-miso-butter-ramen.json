@@ -49,8 +49,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated or finely minced",
-      "quantity": "1 clove"
+      "name": "garlic",
+      "quantity": "1 clove",
+      "prep": "grated or finely minced"
     },
     {
       "ingredient_id": 359,
@@ -69,11 +70,18 @@
     },
     {
       "ingredient_id": 285,
-      "name": "baby bok choy, cut into 1-inch pieces",
-      "quantity": "1 medium"
+      "name": "baby bok choy",
+      "quantity": "1 medium",
+      "prep": "cut into 1-inch pieces"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate or finely mince the garlic. Cut the baby bok choy into 1-inch pieces.",
+      "secondary_message": "1 clove garlic\n1 medium baby bok choy"
+    },
     {
       "id": 1,
       "primary_message": "In a 10-inch skillet, melt butter over medium heat. Whisk in miso and garlic; cook, stirring constantly, until miso is smooth and garlic is fragrant, about 1 minute. Whisk in water and soy sauce and bring to a simmer.",

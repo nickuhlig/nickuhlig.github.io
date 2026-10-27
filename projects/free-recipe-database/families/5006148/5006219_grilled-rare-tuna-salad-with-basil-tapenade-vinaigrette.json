@@ -75,31 +75,42 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic clove, grated, about 1/4 to 1/2 teaspoon",
-      "quantity": "½ to 1 small"
+      "name": "garlic clove, about 1/4 to 1/2 teaspoon",
+      "quantity": "½ to 1 small",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1746,
-      "name": "basil leaves, thinly sliced, plus extra for the salad",
-      "quantity": "10"
+      "name": "basil leaves, plus extra for the salad",
+      "quantity": "10",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 260,
-      "name": "beefsteak tomato, thinly sliced",
-      "quantity": "1"
+      "name": "beefsteak tomato",
+      "quantity": "1",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 308,
-      "name": "Bibb lettuce, torn",
-      "quantity": "1 head"
+      "name": "Bibb lettuce",
+      "quantity": "1 head",
+      "prep": "torn"
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, quartered",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "quartered"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the garlic clove. Thinly slice the basil leaves. Thinly slice the beefsteak tomato. Tear the Bibb lettuce. Quarter the lemon.",
+      "secondary_message": "½ to 1 small garlic clove, about 1/4 to 1/2 teaspoon\n10 basil leaves, plus extra for the salad\n1 beefsteak tomato\n1 head Bibb lettuce\n1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "Preheat a grill or grill pan over high heat for at least 10 minutes. Season the tuna liberally with salt, pepper, and herbes de Provence. Rub 1 tablespoon of olive oil all over the outside of the seasoned fish. Grill without until lightly seared and grill marks appear about 30 seconds. Flip and repeat on second side. Set aside.",

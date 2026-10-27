@@ -49,8 +49,9 @@
   "ingredients": [
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, peeled",
-      "quantity": "2 small"
+      "name": "garlic cloves",
+      "quantity": "2 small",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 88,
@@ -59,8 +60,9 @@
     },
     {
       "ingredient_id": 1762,
-      "name": "fresh Thai red chiles, stemmed",
-      "quantity": "6"
+      "name": "fresh Thai red chiles",
+      "quantity": "6",
+      "prep": "stemmed"
     },
     {
       "ingredient_id": 346,
@@ -79,13 +81,15 @@
     },
     {
       "ingredient_id": 1814,
-      "name": "coriander roots, cleaned",
-      "quantity": "4"
+      "name": "coriander roots",
+      "quantity": "4",
+      "prep": "cleaned"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, peeled",
-      "quantity": "5 small"
+      "name": "garlic cloves",
+      "quantity": "5 small",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 88,
@@ -144,11 +148,18 @@
     },
     {
       "ingredient_id": 121,
-      "name": "soft-boiled eggs, peeled",
-      "quantity": "7 large"
+      "name": "soft-boiled eggs",
+      "quantity": "7 large",
+      "prep": "peeled"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the garlic cloves. Stem the fresh Thai red chiles. Clean the coriander roots. Peel the garlic cloves. Peel the soft-boiled eggs.",
+      "secondary_message": "2 small garlic cloves\n6 fresh Thai red chiles\n4 coriander roots\n5 small garlic cloves\n7 large soft-boiled eggs"
+    },
     {
       "id": 1,
       "primary_message": "For the Dipping Sauce: In a granite mortar and pestle, combine garlic, a small pinch of kosher salt, and chiles and pound until a coarse paste forms, about 30 seconds. Add sugar and continue to pound into a mostly fine paste (some larger pieces are okay), about 1 minute. Stir in vinegar, transfer to a small bowl, and set aside. Wipe out mortar and pestle.",

@@ -49,8 +49,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced , divided",
-      "quantity": "6 cloves"
+      "name": "garlic, divided",
+      "quantity": "6 cloves",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 81,
@@ -89,8 +90,9 @@
     },
     {
       "ingredient_id": 1676,
-      "name": "sweet onions, thinly sliced",
-      "quantity": "2 medium"
+      "name": "sweet onions",
+      "quantity": "2 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -109,11 +111,18 @@
     },
     {
       "ingredient_id": 1141,
-      "name": "Italian sub rolls, split lengthwise and lightly toasted",
-      "quantity": "4 (20 ½ cm)"
+      "name": "Italian sub rolls",
+      "quantity": "4 (20 ½ cm)",
+      "prep": "split lengthwise and lightly toasted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the garlic. Thinly slice the sweet onions. Split the Italian sub rolls lengthwise, then lightly toast them.",
+      "secondary_message": "6 cloves garlic, divided\n2 medium sweet onions\n4 (20 ½ cm) Italian sub rolls"
+    },
     {
       "id": 1,
       "primary_message": "In a large saucepan, heat 2 tablespoons oil over medium heat until shimmering. Add half of the garlic, Italian seasoning, fennel seeds, and crushed red pepper and cook, stirring constantly, until fragrant and garlic is lightly browned, about 1 minute. Pour in the wine and cook, stirring, for 1 minute. Stir in chicken stock and tomato sauce and bring to a simmer.",

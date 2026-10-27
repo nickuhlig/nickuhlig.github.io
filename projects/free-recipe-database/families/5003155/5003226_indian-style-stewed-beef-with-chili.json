@@ -53,13 +53,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, fine sliced",
-      "quantity": "2 large"
+      "name": "onions",
+      "quantity": "2 large",
+      "prep": "fine sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, roughly chopped",
-      "quantity": "12 medium"
+      "name": "garlic cloves",
+      "quantity": "12 medium",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 221,
@@ -73,8 +75,9 @@
     },
     {
       "ingredient_id": 1541,
-      "name": "roma tomatoes, cut lengthwise into 8 wedges",
-      "quantity": "2 medium"
+      "name": "roma tomatoes",
+      "quantity": "2 medium",
+      "prep": "cut lengthwise into 8 wedges"
     },
     {
       "ingredient_id": 90,
@@ -93,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely slice the onions. Roughly chop the garlic cloves. Cut the roma tomatoes lengthwise into 8 wedges.",
+      "secondary_message": "2 large onions\n12 medium garlic cloves\n2 medium roma tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "Toss beef in a large bowl with 1 tablespoon salt and 1/2 tablespoon pepper. Set aside. Heat oil in a large lidded saucepan over medium heat until shimmering. Add onions and cook, stirring frequently, until softened, about 5 minutes. Add garlic, ginger, chillies, tomatoes and stir vigorously until fragrant , about 3 minutes. Add turmeric, 1/2 tablespoon pepper, and ground cumin. Cook, stirring constantly, until fragrant and oil is tinged yellow with the spices, about 3 minutes.",

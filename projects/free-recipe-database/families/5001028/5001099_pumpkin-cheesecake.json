@@ -63,8 +63,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted and slightly cooled",
-      "quantity": "6 tbsp"
+      "name": "unsalted butter",
+      "quantity": "6 tbsp",
+      "prep": "melted and slightly cooled"
     },
     {
       "ingredient_id": 293,
@@ -88,8 +89,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, separated and at room temperature",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "separated and at room temperature"
     },
     {
       "ingredient_id": 88,
@@ -103,8 +105,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, at room temperature",
-      "quantity": "0.45 kg"
+      "name": "cream cheese",
+      "quantity": "0.45 kg",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 116,
@@ -113,8 +116,9 @@
     },
     {
       "ingredient_id": 232,
-      "name": "orange, zested",
-      "quantity": "1"
+      "name": "orange",
+      "quantity": "1",
+      "prep": "zested"
     },
     {
       "ingredient_id": 74,
@@ -148,8 +152,9 @@
     },
     {
       "ingredient_id": 3642,
-      "name": "egg white, at room temperature",
-      "quantity": "1 large"
+      "name": "egg white",
+      "quantity": "1 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1468,
@@ -193,6 +198,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter and let it cool slightly. Separate the eggs and bring them to room temperature. Bring the cream cheese to room temperature. Zest the orange. Bring the egg white to room temperature.",
+      "secondary_message": "6 tbsp unsalted butter\n4 large eggs\n0.45 kg cream cheese\n1 orange\n1 large egg white"
+    },
     {
       "id": 1,
       "primary_message": "For the Crust: Adjust oven rack to middle position and preheat oven to 175°C (350°F).",

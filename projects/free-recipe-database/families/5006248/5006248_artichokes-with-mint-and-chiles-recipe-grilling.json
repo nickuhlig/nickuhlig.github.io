@@ -37,13 +37,15 @@
   "ingredients": [
     {
       "ingredient_id": 2732,
-      "name": "artichokes, trimmed",
-      "quantity": "6 large"
+      "name": "artichokes",
+      "quantity": "6 large",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 192,
-      "name": "lemons, halved",
-      "quantity": "2"
+      "name": "lemons",
+      "quantity": "2",
+      "prep": "halved"
     },
     {
       "ingredient_id": 243,
@@ -52,8 +54,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "6 cloves"
+      "name": "garlic",
+      "quantity": "6 cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 47,
@@ -67,8 +70,9 @@
     },
     {
       "ingredient_id": 283,
-      "name": "red hot chile peppers, chopped fine",
-      "quantity": "2 to 4 small"
+      "name": "red hot chile peppers",
+      "quantity": "2 to 4 small",
+      "prep": "chopped fine"
     },
     {
       "ingredient_id": 88,
@@ -77,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the artichokes. Halve the lemons. Thinly slice the garlic. Chop the red hot chile peppers fine.",
+      "secondary_message": "6 large artichokes\n2 lemons\n6 cloves garlic\n2 to 4 small red hot chile peppers"
+    },
     {
       "id": 1,
       "primary_message": "Fill a large bowl with 6 cups of water and the juice of the 1 1/2 of the lemons. As you trim the artichokes, place them in the bowl of lemon water.",

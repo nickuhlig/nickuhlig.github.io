@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, crushed",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 1721,
@@ -81,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Crush the garlic.",
+      "secondary_message": "4 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "In a large pot, combine oil and garlic, and heat over moderately low heat until garlic begins to very gently sizzle. Add red pepper flakes and cook, stirring, until garlic just begins to turn a light golden color, about 3 minutes. Add oregano and continue to cook, stirring, for 1 minute.",

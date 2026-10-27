@@ -92,9 +92,10 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, thinly sliced",
+      "name": "shallots",
       "quantity": "11",
-      "weigh_as": "1 lb"
+      "weigh_as": "1 lb",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 53,
@@ -103,6 +104,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the shallots.",
+      "secondary_message": "11 shallots"
+    },
     {
       "id": 1,
       "primary_message": "The Day Before Roasting: Using butcher's twine, tie tri-tip at 1-inch intervals using butcher's knots. Season generously with salt and pepper. Transfer to a wire rack set in a foil-lined rimmed baking sheet and refrigerate, uncovered, at least overnight and up to 2 nights.",

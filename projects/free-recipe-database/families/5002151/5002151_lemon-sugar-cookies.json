@@ -72,13 +72,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "8 oz"
+      "name": "unsalted butter",
+      "quantity": "8 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 121,
-      "name": "egg, room temperature",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 353,
@@ -117,6 +119,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter. Bring the egg to room temperature.",
+      "secondary_message": "8 oz unsalted butter\n1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "For the Cookies: In a large bowl, combine sugar and lemon zest, using your fingers to rub them together until mixture is fragrant, about 30 seconds. Transfer 1/4 cup lemon-sugar mixture to a small bowl. Set aside.",

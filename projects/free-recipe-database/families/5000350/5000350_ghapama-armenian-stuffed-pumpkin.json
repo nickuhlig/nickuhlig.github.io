@@ -76,8 +76,9 @@
     },
     {
       "ingredient_id": 272,
-      "name": "walnut halves, larger pieces broken up",
-      "quantity": "½ cup"
+      "name": "walnut halves",
+      "quantity": "½ cup",
+      "prep": "larger pieces broken up"
     },
     {
       "ingredient_id": 115,
@@ -86,8 +87,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 88,
@@ -96,8 +98,9 @@
     },
     {
       "ingredient_id": 215,
-      "name": "dried apricots, halved",
-      "quantity": "¼ cup"
+      "name": "dried apricots",
+      "quantity": "¼ cup",
+      "prep": "halved"
     },
     {
       "ingredient_id": 2107,
@@ -106,8 +109,9 @@
     },
     {
       "ingredient_id": 2106,
-      "name": "dried prunes, halved",
-      "quantity": "¼ cup"
+      "name": "dried prunes",
+      "quantity": "¼ cup",
+      "prep": "halved"
     },
     {
       "ingredient_id": 1268,
@@ -126,6 +130,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Break up the larger pieces of the walnut halves. Finely chop the yellow onion. Halve the dried apricots. Halve the dried prunes.",
+      "secondary_message": "½ cup walnut halves\n1 medium yellow onion\n¼ cup dried apricots\n¼ cup dried prunes"
+    },
     {
       "id": 1,
       "primary_message": "In a medium saucepan, bring water to boil over high heat. Add rice and return to full boil, stirring occasionally, until rice is al dente, 5 to 7 minutes (there should still be a firm core of undercooked rice in the center of each grain). Drain through a fine-mesh strainer over the sink, then immediately rinse with cold running water until rice is cool and water runs clear, about 1 minute. Set strainer over now empty pot and set aside to drain.",

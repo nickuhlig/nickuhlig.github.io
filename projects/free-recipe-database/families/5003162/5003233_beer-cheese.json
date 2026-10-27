@@ -52,8 +52,9 @@
   "ingredients": [
     {
       "ingredient_id": 43,
-      "name": "sharp cheddar cheese, shredded",
-      "quantity": "340 g"
+      "name": "sharp cheddar cheese",
+      "quantity": "340 g",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 264,
@@ -92,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shred the sharp cheddar cheese.",
+      "secondary_message": "340 g sharp cheddar cheese"
+    },
     {
       "id": 1,
       "primary_message": "Toss cheese with cornstarch in a medium bowl; set aside.",

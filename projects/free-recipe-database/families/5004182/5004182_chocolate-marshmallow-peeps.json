@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 333,
-      "name": "cocoa powder, sifted",
-      "quantity": "⅔ cup"
+      "name": "cocoa powder",
+      "quantity": "⅔ cup",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 2285,
@@ -65,6 +66,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Sift the cocoa powder.",
+      "secondary_message": "⅔ cup cocoa powder"
+    },
     {
       "id": 1,
       "primary_message": "Place 2/3 cup water in mixing bowl of standing mixer and sprinkle gelatin over top. Let sit until gelatin is absorbed into water, about 5 minutes. Set aside. Sprinkle enough sugar to generously coat bottom of rimmed baking sheet. Set aside.",

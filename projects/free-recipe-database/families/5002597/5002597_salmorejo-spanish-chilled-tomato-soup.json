@@ -40,19 +40,22 @@
   "ingredients": [
     {
       "ingredient_id": 260,
-      "name": "ripe tomatoes, cored and roughly chopped",
+      "name": "ripe tomatoes",
       "quantity": "9",
-      "weigh_as": "2 ½ lb"
+      "weigh_as": "2 ½ lb",
+      "prep": "cored and roughly chopped"
     },
     {
       "ingredient_id": 1012,
-      "name": "baguette white bread, torn into bite-sized pieces",
-      "quantity": "3 ½ oz"
+      "name": "baguette white bread",
+      "quantity": "3 ½ oz",
+      "prep": "torn into bite-sized pieces"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "5 medium cloves"
+      "name": "garlic",
+      "quantity": "5 medium cloves",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 47,
@@ -71,8 +74,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "hard-boiled eggs, chopped",
-      "quantity": "2"
+      "name": "hard-boiled eggs",
+      "quantity": "2",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 3652,
@@ -86,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Core and roughly chop the ripe tomatoes. Tear the baguette white bread into bite-sized pieces. Roughly chop the garlic. Chop the hard-boiled eggs.",
+      "secondary_message": "9 ripe tomatoes\n3 ½ oz baguette white bread\n5 medium cloves garlic\n2 hard-boiled eggs"
+    },
     {
       "id": 1,
       "primary_message": "In a blender, combine tomatoes, bread, garlic, olive oil, sherry vinegar, and salt. Blend on high speed until completely smooth and creamy, 1 to 2 minutes. For a punchier soup, season with an additional 1/8 teaspoon sherry vinegar.",

@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 428,
-      "name": "broccoli florets, cut into 1 1/2 to 2-inch pieces",
-      "quantity": "1 lb"
+      "name": "broccoli florets",
+      "quantity": "1 lb",
+      "prep": "cut into 1 1/2 to 2-inch pieces"
     },
     {
       "ingredient_id": 47,
@@ -60,6 +61,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the broccoli florets into 1 1/2 to 2-inch pieces.",
+      "secondary_message": "1 lb broccoli florets"
+    },
     {
       "id": 1,
       "primary_message": "Preheat a 6-quart air fryer to 400°F (205ºC) for 5 minutes. Meanwhile, in a large bowl, toss broccoli with oil, salt, and pepper and toss to evenly coat. Pour broccoli into air fryer basket and cook until broccoli is still bright green but starting to char around edges, about 5 minutes. Remove basket from air fryer and shake to toss broccoli florets. Return to air fryer and decrease temperature to 340°F (170ºC). Cook until broccoli is crisp-tender, about 3 more minutes. Remove and transfer broccoli to a serving platter or plates.",

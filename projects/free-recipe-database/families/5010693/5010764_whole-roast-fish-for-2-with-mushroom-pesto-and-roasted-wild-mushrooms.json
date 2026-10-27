@@ -33,8 +33,9 @@
   "ingredients": [
     {
       "ingredient_id": 230,
-      "name": "cremini mushrooms, thinly sliced",
-      "quantity": "397 g"
+      "name": "cremini mushrooms",
+      "quantity": "397 g",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 115,
@@ -53,8 +54,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1044,
@@ -78,8 +80,9 @@
     },
     {
       "ingredient_id": 2033,
-      "name": "whole sea bass, cleaned",
-      "quantity": "1"
+      "name": "whole sea bass",
+      "quantity": "1",
+      "prep": "cleaned"
     },
     {
       "ingredient_id": 2250,
@@ -88,11 +91,18 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, cut into wedges",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "cut into wedges"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the cremini mushrooms. Mince the garlic. Clean the whole sea bass. Cut the lemon into wedges.",
+      "secondary_message": "397 g cremini mushrooms\n2 cloves garlic\n1 whole sea bass\n1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 205°C (400°F). Melt the butter in a large skillet over high heat and add the mushrooms. Season with salt and pepper and cook, stirring often, until the mushrooms have released all of their liquid and the pan has just gone dry. Add the garlic, and cook, stirring, until fragrant, about 1 minute longer. Transfer to a bowl and set aside to cool completely.",

@@ -45,8 +45,9 @@
   "ingredients": [
     {
       "ingredient_id": 234,
-      "name": "whole peaches, pitted and chopped",
-      "quantity": "4"
+      "name": "whole peaches",
+      "quantity": "4",
+      "prep": "pitted and chopped"
     },
     {
       "ingredient_id": 1752,
@@ -75,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pit and chop the whole peaches.",
+      "secondary_message": "4 whole peaches"
+    },
     {
       "id": 1,
       "primary_message": "In a blender or food processor combine peaches, cream, brown sugar, and corn syrup. Blend on high until all ingredients are very well combined, about 30 seconds.",

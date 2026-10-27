@@ -44,8 +44,9 @@
   "ingredients": [
     {
       "ingredient_id": 242,
-      "name": "strawberries, washed",
-      "quantity": "1893 ml"
+      "name": "strawberries",
+      "quantity": "1893 ml",
+      "prep": "washed"
     },
     {
       "ingredient_id": 346,
@@ -64,6 +65,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash the strawberries.",
+      "secondary_message": "1893 ml strawberries"
+    },
     {
       "id": 1,
       "primary_message": "Remove tops from strawberries and purée in a blender or food processor until smooth. 2 quarts whole strawberries should yield 1 quart of purée. Add sugar and blend for 30 seconds. Add lemon and salt, blend to incorporate, and adjust to taste.",

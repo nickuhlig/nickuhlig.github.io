@@ -46,8 +46,9 @@
   "ingredients": [
     {
       "ingredient_id": 1728,
-      "name": "halloumi cheese block, cut into 1- to 1 1/2–inch cubes",
-      "quantity": "1 lb"
+      "name": "halloumi cheese block",
+      "quantity": "1 lb",
+      "prep": "cut into 1- to 1 1/2–inch cubes"
     },
     {
       "ingredient_id": 1682,
@@ -56,6 +57,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the halloumi cheese block into 1- to 1 1/2–inch cubes.",
+      "secondary_message": "1 lb halloumi cheese block"
+    },
     {
       "id": 1,
       "primary_message": "Pat halloumi cubes dry with paper towels. In a medium bowl, toss halloumi cubes with oil until evenly coated.",

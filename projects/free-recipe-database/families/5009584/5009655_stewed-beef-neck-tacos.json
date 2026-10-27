@@ -52,8 +52,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, roughly chopped",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 88,
@@ -72,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the onion.",
+      "secondary_message": "1 small onion"
+    },
     {
       "id": 1,
       "primary_message": "Rinse beef neck under cold running water and place into a pot along with all braising ingredients. Add enough water to cover beef neck. Bring water to boil, skimming off scum as necessary. Reduce heat to a simmer and cook for 3 hours, until meat falls off bone and liquid is reduced by at least one-half.",

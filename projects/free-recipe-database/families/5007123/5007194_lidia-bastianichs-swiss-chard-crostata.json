@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 309,
-      "name": "leeks, chopped",
-      "quantity": "2 cups"
+      "name": "leeks",
+      "quantity": "2 cups",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 47,
@@ -67,14 +68,16 @@
     },
     {
       "ingredient_id": 471,
-      "name": "Swiss chard green, cleaned and cut into strips",
+      "name": "Swiss chard green",
       "quantity": "4 bunches",
-      "weigh_as": "1.36 kg"
+      "weigh_as": "1.36 kg",
+      "prep": "cleaned and cut into strips"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, chopped",
-      "quantity": "2 cups"
+      "name": "scallions",
+      "quantity": "2 cups",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 88,
@@ -88,8 +91,9 @@
     },
     {
       "ingredient_id": 2898,
-      "name": "fresh marjoram, chopped",
-      "quantity": "2 tbsp"
+      "name": "fresh marjoram",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 121,
@@ -103,8 +107,9 @@
     },
     {
       "ingredient_id": 120,
-      "name": "Parmigiano Reggiano, grated",
-      "quantity": "1 cup"
+      "name": "Parmigiano Reggiano",
+      "quantity": "1 cup",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1752,
@@ -113,6 +118,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the leeks. Clean and cut the Swiss chard green into strips. Chop the scallions. Chop the fresh marjoram. Grate the Parmigiano Reggiano.",
+      "secondary_message": "2 cups leeks\n4 bunches Swiss chard green\n2 cups scallions\n2 tbsp fresh marjoram\n1 cup Parmigiano Reggiano"
+    },
     {
       "id": 1,
       "primary_message": "Make dough with flour, oil, salt and water (as needed). Once the dough obtains a smooth consistency, cover it with saran wrap and allow it to rest for approximately 30 minutes.",

@@ -56,18 +56,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, cut into 1-inch chunks",
-      "quantity": "½ medium"
+      "name": "onion",
+      "quantity": "½ medium",
+      "prep": "cut into 1-inch chunks"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, sliced",
-      "quantity": "1 clove"
+      "name": "garlic",
+      "quantity": "1 clove",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 302,
-      "name": "slab bacon, cut into 1-inch pieces",
-      "quantity": "85 g"
+      "name": "slab bacon",
+      "quantity": "85 g",
+      "prep": "cut into 1-inch pieces"
     },
     {
       "ingredient_id": 2744,
@@ -96,8 +99,9 @@
     },
     {
       "ingredient_id": 1079,
-      "name": "hand-pulled-style pita, soft",
-      "quantity": "4 pieces"
+      "name": "hand-pulled-style pita",
+      "quantity": "4 pieces",
+      "prep": "soft"
     },
     {
       "ingredient_id": 260,
@@ -121,6 +125,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the onion into 1-inch chunks. Slice the garlic. Cut the slab bacon into 1-inch pieces. Soften the hand-pulled-style pita.",
+      "secondary_message": "½ medium onion\n1 clove garlic\n85 g slab bacon\n4 pieces hand-pulled-style pita"
+    },
     {
       "id": 1,
       "primary_message": "Combine lamb, salt, pepper, and oregano in a medium bowl. Mix with hands until homogeneous. Cover and refrigerate at least 1 hour or up to overnight. Meanwhile, place yogurt in a fine-mesh strainer set over a small bowl. Allow to drain in refrigerator for 1 hour. Adjust oven rack to middle position and preheat oven to 150°C (300°F). Place cold lamb mixture in bowl of food processor with onion, garlic, and bacon. Process until smooth a purée is formed, about 1 minute total, scraping down sides with rubber spatula as necessary.",

@@ -71,18 +71,21 @@
     },
     {
       "ingredient_id": 107,
-      "name": "fresh mozzarella, torn into rough chunks and drained",
-      "quantity": "1 lb"
+      "name": "fresh mozzarella",
+      "quantity": "1 lb",
+      "prep": "torn into rough chunks and drained"
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, very thinly sliced, seeds removed",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "very thinly sliced, seeds removed"
     },
     {
       "ingredient_id": 32,
-      "name": "goat milk feta cheese, roughly crumbled into 1/2-inch pieces",
-      "quantity": "8 oz"
+      "name": "goat milk feta cheese",
+      "quantity": "8 oz",
+      "prep": "roughly crumbled into 1/2-inch pieces"
     },
     {
       "ingredient_id": 47,
@@ -96,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Tear the fresh mozzarella into rough chunks, then drain it. Very thinly slice the lemon, then remove the seeds. Roughly crumble the goat milk feta cheese into 1/2-inch pieces.",
+      "secondary_message": "1 lb fresh mozzarella\n1 lemon\n8 oz goat milk feta cheese"
+    },
     {
       "id": 1,
       "primary_message": "Divide dough into four equal parts and place each in a covered quart-sized deli container or in a zipper-lock freezer bag. Allow to rest at room temperature for at least 2 hours before baking.",

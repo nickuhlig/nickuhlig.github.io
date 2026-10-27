@@ -90,11 +90,18 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten with a pinch of salt",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "beaten with a pinch of salt"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Beat the eggs with a pinch of salt.",
+      "secondary_message": "4 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "If using day-old rice, transfer to a medium bowl and break rice up with your hands into individual grains before proceeding. Heat 1 tablespoon vegetable oil in a 25-cm carbon steel or nonstick skillet over high heat until lightly smoking. Add half of rice and cook, stirring and tossing, until rice is pale brown and toasted and has a lightly chewy texture, about 3 minutes. Transfer to a medium bowl. Repeat with another tablespoon (15ml) oil and remaining rice.",

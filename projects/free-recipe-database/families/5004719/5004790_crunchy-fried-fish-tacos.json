@@ -96,18 +96,21 @@
     },
     {
       "ingredient_id": 2026,
-      "name": "white fish, cut into eight 2-ounce fingers",
-      "quantity": "0.45 kg"
+      "name": "white fish",
+      "quantity": "0.45 kg",
+      "prep": "cut into eight 2-ounce fingers"
     },
     {
       "ingredient_id": 321,
-      "name": "corn tortillas, warmed",
-      "quantity": "16"
+      "name": "corn tortillas",
+      "quantity": "16",
+      "prep": "warmed"
     },
     {
       "ingredient_id": 2715,
-      "name": "cabbage, finely shredded",
-      "quantity": "1 small head"
+      "name": "cabbage",
+      "quantity": "1 small head",
+      "prep": "finely shredded"
     },
     {
       "ingredient_id": 1624,
@@ -121,11 +124,18 @@
     },
     {
       "ingredient_id": 228,
-      "name": "limes, cut into wedges",
-      "quantity": "2"
+      "name": "limes",
+      "quantity": "2",
+      "prep": "cut into wedges"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the white fish into eight 2-ounce fingers. Warm the corn tortillas. Finely shred the cabbage. Cut the limes into wedges.",
+      "secondary_message": "0.45 kg white fish\n16 corn tortillas\n1 small head cabbage\n2 limes"
+    },
     {
       "id": 1,
       "primary_message": "Combine flour, paprika, black pepper, and salt and whisk to combine. Transfer half of mixture to a large bowl and set aside. Add beer and egg to remaining mixture and whisk until a smooth batter is formed. Batter should have the consistency of thick paint (add up to 1/2 cup more beer as necessary until proper consistency is reached). Set aside.",

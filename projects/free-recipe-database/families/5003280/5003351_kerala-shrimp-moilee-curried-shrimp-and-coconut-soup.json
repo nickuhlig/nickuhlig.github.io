@@ -80,8 +80,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, thinly sliced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1850,
@@ -105,8 +106,9 @@
     },
     {
       "ingredient_id": 260,
-      "name": "tomato, cut in thin rounds",
-      "quantity": "1 large"
+      "name": "tomato",
+      "quantity": "1 large",
+      "prep": "cut in thin rounds"
     },
     {
       "ingredient_id": 41,
@@ -115,6 +117,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the yellow onion. Cut the tomato in thin rounds.",
+      "secondary_message": "1 medium yellow onion\n1 large tomato"
+    },
     {
       "id": 1,
       "primary_message": "Toss shrimp in a small bowl with 1/2 teaspoon turmeric, 1/2 teaspoon ginger and ground red pepper. Let rest 15 minutes.",

@@ -48,8 +48,9 @@
     },
     {
       "ingredient_id": 1938,
-      "name": "vanilla bean, split lengthwise",
-      "quantity": "½"
+      "name": "vanilla bean",
+      "quantity": "½",
+      "prep": "split lengthwise"
     },
     {
       "ingredient_id": 2216,
@@ -58,8 +59,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "zested"
     },
     {
       "ingredient_id": 2713,
@@ -73,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the vanilla bean lengthwise. Zest the lemon.",
+      "secondary_message": "½ vanilla bean\n1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "Whisk the sugar and pectin in a medium bowl and set aside.",

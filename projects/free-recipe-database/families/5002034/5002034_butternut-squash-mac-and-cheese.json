@@ -53,8 +53,9 @@
   "ingredients": [
     {
       "ingredient_id": 142,
-      "name": "2- to 2 3/4 pound butternut squash, halved and seeded",
-      "quantity": "1"
+      "name": "2- to 2 3/4 pound butternut squash",
+      "quantity": "1",
+      "prep": "halved and seeded"
     },
     {
       "ingredient_id": 47,
@@ -68,8 +69,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, peeled and smashed",
-      "quantity": "4 medium"
+      "name": "garlic cloves",
+      "quantity": "4 medium",
+      "prep": "peeled and smashed"
     },
     {
       "ingredient_id": 1255,
@@ -118,18 +120,21 @@
     },
     {
       "ingredient_id": 2039,
-      "name": "fontina cheese, shredded",
-      "quantity": "12 oz"
+      "name": "fontina cheese",
+      "quantity": "12 oz",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 43,
-      "name": "extra-sharp cheddar, shredded",
-      "quantity": "12 oz"
+      "name": "extra-sharp cheddar",
+      "quantity": "12 oz",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 1060,
-      "name": "Gruyère cheese, shredded",
-      "quantity": "8 oz"
+      "name": "Gruyère cheese",
+      "quantity": "8 oz",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 1684,
@@ -143,6 +148,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve and seed the 2- to 2 3/4 pound butternut squash. Peel and smash the garlic cloves. Shred the fontina cheese. Shred the extra-sharp cheddar. Shred the Gruyère cheese.",
+      "secondary_message": "1 2- to 2 3/4 pound butternut squash\n4 medium garlic cloves\n12 oz fontina cheese\n12 oz extra-sharp cheddar\n8 oz Gruyère cheese"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 400°F (205ºC). Line a 13- by 18-inch rimmed baking sheet with foil or parchment. Set aside.",

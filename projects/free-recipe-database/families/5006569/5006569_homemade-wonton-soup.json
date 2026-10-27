@@ -39,8 +39,9 @@
     },
     {
       "ingredient_id": 2462,
-      "name": "pig's trotters, split or sliced",
-      "quantity": "1 ½ lb"
+      "name": "pig's trotters",
+      "quantity": "1 ½ lb",
+      "prep": "split or sliced"
     },
     {
       "ingredient_id": 2418,
@@ -59,8 +60,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, whites and greens reserved separately",
-      "quantity": "8 medium"
+      "name": "scallions",
+      "quantity": "8 medium",
+      "prep": "whites and greens reserved separately"
     },
     {
       "ingredient_id": 221,
@@ -69,13 +71,15 @@
     },
     {
       "ingredient_id": 292,
-      "name": "Napa cabbage, cut into 2-inch pieces, divided",
-      "quantity": "12 leaves"
+      "name": "Napa cabbage, divided",
+      "quantity": "12 leaves",
+      "prep": "cut into 2-inch pieces"
     },
     {
       "ingredient_id": 1811,
-      "name": "shrimp, shells removed and reserved for stock",
-      "quantity": "24 small"
+      "name": "shrimp",
+      "quantity": "24 small",
+      "prep": "shells removed and reserved for stock"
     },
     {
       "ingredient_id": 348,
@@ -109,8 +113,9 @@
     },
     {
       "ingredient_id": 270,
-      "name": "yellow chives, thinly sliced, divided",
-      "quantity": "½ cup"
+      "name": "yellow chives, divided",
+      "quantity": "½ cup",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2056,
@@ -119,6 +124,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split or slice the pig's trotters. Reserve the whites and greens of the scallions separately. Cut the Napa cabbage into 2-inch pieces. Remove and reserve the shells from the shrimp for stock. Thinly slice the yellow chives.",
+      "secondary_message": "1 ½ lb pig's trotters\n8 medium scallions\n12 leaves Napa cabbage, divided\n24 small shrimp\n½ cup yellow chives, divided"
+    },
     {
       "id": 1,
       "primary_message": "For the Broth: Combine chicken, pork trotters, and ham in a large stockpot and cover with water. Bring to a boil over high heat. Boil for 10 minutes, then dump contents into the sink and let liquid drain. Clean bones and meat under cold running water, rubbing off any scum or blood clots that may appear and return to the stockpot.",

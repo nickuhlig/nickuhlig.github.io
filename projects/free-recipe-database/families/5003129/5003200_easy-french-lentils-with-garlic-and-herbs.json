@@ -40,18 +40,21 @@
   "ingredients": [
     {
       "ingredient_id": 420,
-      "name": "French Le Puy lentils, picked over for stones",
-      "quantity": "1 cup (7 oz)"
+      "name": "French Le Puy lentils",
+      "quantity": "1 cup (7 oz)",
+      "prep": "picked over for stones"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, trimmed and peeled",
-      "quantity": "1 medium"
+      "name": "carrot",
+      "quantity": "1 medium",
+      "prep": "trimmed and peeled"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, halved through the root",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "halved through the root"
     },
     {
       "ingredient_id": 157,
@@ -106,6 +109,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the French Le Puy lentils over for stones. Trim and peel the carrot. Halve through the yellow onion the root.",
+      "secondary_message": "1 cup (7 oz) French Le Puy lentils\n1 medium carrot\n1 medium yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "For the Lentils: In a large saucepan, combine lentils with carrot, onion, and celery. Tie garlic cloves and herbs into a cheesecloth sachet and add to pot. Cover lentils with at least 5 cm of water, season generously with salt (the water should taste as salty as you like your food to be), and set over medium heat.",

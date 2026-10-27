@@ -44,8 +44,9 @@
   "ingredients": [
     {
       "ingredient_id": 1729,
-      "name": "dark chocolate, chopped",
-      "quantity": "350 g"
+      "name": "dark chocolate",
+      "quantity": "350 g",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 359,
@@ -64,6 +65,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the dark chocolate.",
+      "secondary_message": "350 g dark chocolate"
+    },
     {
       "id": 1,
       "primary_message": "Put equal parts water and ice into a medium bowl for the ice bath. Boil the water in a saucepan, or in the microwave, and pour it into a second medium bowl.",

@@ -45,20 +45,23 @@
     },
     {
       "ingredient_id": 1079,
-      "name": "pita bread, roughly torn",
-      "quantity": "3 ½ oz"
+      "name": "pita bread",
+      "quantity": "3 ½ oz",
+      "prep": "roughly torn"
     },
     {
       "ingredient_id": 260,
-      "name": "tomato, cored and roughly diced",
+      "name": "tomato",
       "quantity": "1 ⅓",
-      "weigh_as": "6 oz"
+      "weigh_as": "6 oz",
+      "prep": "cored and roughly diced"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, roughly diced",
+      "name": "yellow onion",
       "quantity": "1 ½ medium",
-      "weigh_as": "6 oz"
+      "weigh_as": "6 oz",
+      "prep": "roughly diced"
     },
     {
       "ingredient_id": 24,
@@ -112,8 +115,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, crushed",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 88,
@@ -132,6 +136,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly tear the pita bread. Core and roughly dice the tomato. Roughly dice the yellow onion. Crush the garlic.",
+      "secondary_message": "3 ½ oz pita bread\n1 ⅓ tomato\n1 ½ medium yellow onion\n2 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Meat: Preheat oven to 425°F. On a rimmed baking sheet, toss potatoes with olive oil and a large pinch of salt, then arrange in a single layer. Roast until nicely browned, about 35 minutes. Set aside.",

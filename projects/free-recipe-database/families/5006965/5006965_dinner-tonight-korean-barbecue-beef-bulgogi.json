@@ -59,18 +59,21 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, grated",
-      "quantity": "1 tsp"
+      "name": "ginger",
+      "quantity": "1 tsp",
+      "prep": "grated"
     },
     {
       "ingredient_id": 181,
-      "name": "sesame seeds, toasted",
-      "quantity": "1 tsp"
+      "name": "sesame seeds",
+      "quantity": "1 tsp",
+      "prep": "toasted"
     },
     {
       "ingredient_id": 72,
@@ -79,8 +82,9 @@
     },
     {
       "ingredient_id": 307,
-      "name": "rib eye, thinly sliced",
-      "quantity": "1 lb"
+      "name": "rib eye",
+      "quantity": "1 lb",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2733,
@@ -104,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic. Grate the ginger. Toast the sesame seeds. Thinly slice the rib eye.",
+      "secondary_message": "2 cloves garlic\n1 tsp ginger\n1 tsp sesame seeds\n1 lb rib eye"
+    },
     {
       "id": 1,
       "primary_message": "Add the soy sauce, sugar, sesame oil, mirin, onion, garlic, ginger, sesame seeds, and black pepper to a large bowl. Whisk until combined. Toss in the meat, cover, and set in the fridge for 30 minutes.",

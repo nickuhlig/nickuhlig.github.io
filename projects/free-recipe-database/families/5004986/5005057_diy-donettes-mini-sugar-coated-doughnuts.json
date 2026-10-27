@@ -59,8 +59,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "28 g"
+      "name": "unsalted butter",
+      "quantity": "28 g",
+      "prep": "melted"
     },
     {
       "ingredient_id": 353,
@@ -74,8 +75,9 @@
     },
     {
       "ingredient_id": 1348,
-      "name": "plain unsweetened nonfat Greek yogurt, room temperature",
-      "quantity": "113 g"
+      "name": "plain unsweetened nonfat Greek yogurt",
+      "quantity": "113 g",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 116,
@@ -94,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Bring the plain unsweetened nonfat Greek yogurt to room temperature.",
+      "secondary_message": "28 g unsalted butter\n113 g plain unsweetened nonfat Greek yogurt"
+    },
     {
       "id": 1,
       "primary_message": "Making and Shaping the Dough: Combine granulated sugar, baking powder, baking soda, and salt in a medium bowl, then stir in melted butter, vanilla, egg yolks, and Greek yogurt. When well combined, sift in flour and stir to form a soft dough, no more than 30 seconds. Turn onto a lightly floured work surface and knead until easy to handle. Dusting with as much flour as needed, roll to 1 cm thick. Brush off excess flour with a damp pastry brush and cut into 1 3/4–inch rounds. Arrange upside down on a paper towel–lined baking sheet, then brush away excess flour. Gather scraps, briefly knead, and repeat as before.",

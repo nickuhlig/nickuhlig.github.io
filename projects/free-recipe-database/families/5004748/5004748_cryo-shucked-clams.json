@@ -44,11 +44,18 @@
     },
     {
       "ingredient_id": 2536,
-      "name": "littleneck clams, rinsed",
-      "quantity": "50"
+      "name": "littleneck clams",
+      "quantity": "50",
+      "prep": "rinsed"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse the littleneck clams.",
+      "secondary_message": "50 littleneck clams"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, combine water and salt and stir until salt is dissolved. Transfer one-third of brine to another large bowl and add clams. Set clams in refrigerator and let soak for 30 minutes.",

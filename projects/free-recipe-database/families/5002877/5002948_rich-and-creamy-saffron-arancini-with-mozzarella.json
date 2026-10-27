@@ -70,8 +70,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely diced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 1930,
@@ -115,13 +116,15 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 2016,
-      "name": "low-moisture mozzarella, diced",
-      "quantity": "0.45 kg"
+      "name": "low-moisture mozzarella",
+      "quantity": "0.45 kg",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1044,
@@ -130,6 +133,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the yellow onion. Beat the eggs. Dice the low-moisture mozzarella.",
+      "secondary_message": "1 medium yellow onion\n2 large eggs\n0.45 kg low-moisture mozzarella"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 150°C (300°F). Place bread cubes on a rack set in a rimmed baking sheet and bake in oven until completely dried out, about 30 minutes.",

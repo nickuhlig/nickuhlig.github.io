@@ -46,18 +46,21 @@
     },
     {
       "ingredient_id": 2021,
-      "name": "serrano chile peppers, 1 whole and 1 finely chopped, divided",
-      "quantity": "2"
+      "name": "serrano chile peppers, divided",
+      "quantity": "2",
+      "prep": "1 whole and 1 finely chopped"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, cut into 3/4-inch pieces",
-      "quantity": "1 large"
+      "name": "yellow onion",
+      "quantity": "1 large",
+      "prep": "cut into 3/4-inch pieces"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and thinly sliced",
-      "quantity": "1 head"
+      "name": "garlic",
+      "quantity": "1 head",
+      "prep": "peeled and thinly sliced"
     },
     {
       "ingredient_id": 72,
@@ -66,8 +69,9 @@
     },
     {
       "ingredient_id": 260,
-      "name": "mixed ripe tomatoes, roughly chopped",
-      "quantity": "4 lb"
+      "name": "mixed ripe tomatoes",
+      "quantity": "4 lb",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 88,
@@ -76,6 +80,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the 1 whole and 1 of the serrano chile peppers. Cut the yellow onion into 3/4-inch pieces. Peel and thinly slice the garlic. Roughly chop the mixed ripe tomatoes.",
+      "secondary_message": "2 serrano chile peppers, divided\n1 large yellow onion\n1 head garlic\n4 lb mixed ripe tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "In a large stainless steel skillet, heat oil over medium heat until shimmering. Add whole serrano and cook, turning occasionally, until spotty brown on all sides, 3 to 5 minutes. Transfer serrano to plate and set aside. Allow skillet to cool down slightly, about 2 minutes.",

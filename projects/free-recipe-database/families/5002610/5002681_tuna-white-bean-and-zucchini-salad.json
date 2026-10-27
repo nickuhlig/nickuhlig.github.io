@@ -42,8 +42,9 @@
   "ingredients": [
     {
       "ingredient_id": 2324,
-      "name": "zucchini, trimmed",
-      "quantity": "2 small"
+      "name": "zucchini",
+      "quantity": "2 small",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 88,
@@ -52,8 +53,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, thinly sliced",
-      "quantity": "1 large"
+      "name": "shallot",
+      "quantity": "1 large",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2346,
@@ -62,8 +64,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated or minced",
-      "quantity": "1 large clove"
+      "name": "garlic",
+      "quantity": "1 large clove",
+      "prep": "grated or minced"
     },
     {
       "ingredient_id": 1760,
@@ -82,16 +85,24 @@
     },
     {
       "ingredient_id": 1388,
-      "name": "butter beans, drained and rinsed, and patted dry",
-      "quantity": "1 (425 g) can"
+      "name": "butter beans",
+      "quantity": "1 (425 g) can",
+      "prep": "drained and rinsed, and patted dry"
     },
     {
       "ingredient_id": 2654,
-      "name": "oil-packed tuna, drained and flaked into large pieces",
-      "quantity": "1 (190 g) jar"
+      "name": "oil-packed tuna",
+      "quantity": "1 (190 g) jar",
+      "prep": "drained and flaked into large pieces"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the zucchini. Thinly slice the shallot. Grate or mince the garlic. Drain, rinse, and pat the butter beans dry. Drain and flake the oil-packed tuna into large pieces.",
+      "secondary_message": "2 small zucchini\n1 large shallot\n1 large clove garlic\n1 (425 g) can butter beans\n1 (190 g) jar oil-packed tuna"
+    },
     {
       "id": 1,
       "primary_message": "Using a vegetable peeler or mandoline, shave zucchini lengthwise into long, thin ribbons.",

@@ -34,8 +34,9 @@
   "ingredients": [
     {
       "ingredient_id": 1216,
-      "name": "fresh crustless white bread, cut into 1/2-inch cubes",
-      "quantity": "2 ½ oz"
+      "name": "fresh crustless white bread",
+      "quantity": "2 ½ oz",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 118,
@@ -44,23 +45,27 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, minced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "6 medium cloves"
+      "name": "garlic",
+      "quantity": "6 medium cloves",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 120,
-      "name": "Parmigiano-Reggiano, grated",
-      "quantity": "1 ½ oz"
+      "name": "Parmigiano-Reggiano",
+      "quantity": "1 ½ oz",
+      "prep": "grated"
     },
     {
       "ingredient_id": 2697,
-      "name": "pancetta, finely minced",
-      "quantity": "3 oz"
+      "name": "pancetta",
+      "quantity": "3 oz",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 3641,
@@ -69,8 +74,9 @@
     },
     {
       "ingredient_id": 106,
-      "name": "loosely packed flat-leaf parsley leaves, tender stems minced",
-      "quantity": "⅓ cup"
+      "name": "loosely packed flat-leaf parsley leaves",
+      "quantity": "⅓ cup",
+      "prep": "tender stems minced"
     },
     {
       "ingredient_id": 88,
@@ -129,6 +135,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the fresh crustless white bread into 1/2-inch cubes. Mince the yellow onion. Finely mince the garlic. Grate the Parmigiano-Reggiano. Finely mince the pancetta. Mince the tender stems of the loosely packed flat-leaf parsley leaves.",
+      "secondary_message": "2 ½ oz fresh crustless white bread\n1 medium yellow onion\n6 medium cloves garlic\n1 ½ oz Parmigiano-Reggiano\n3 oz pancetta\n⅓ cup loosely packed flat-leaf parsley leaves"
+    },
     {
       "id": 1,
       "primary_message": "For the Meatballs and Sauce: In the bowl of a stand mixer (see notes below for instructions if not using a stand mixer), combine bread with milk, tossing to coat. Let stand, tossing occasionally, until bread is completely moist, about 10 minutes. Squeeze bread between your fingers or mash with a spoon to make sure there are no dry spots.",

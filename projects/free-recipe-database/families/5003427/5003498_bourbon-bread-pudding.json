@@ -52,8 +52,9 @@
   "ingredients": [
     {
       "ingredient_id": 2534,
-      "name": "ciabatta, cut into 2-inch cubes",
-      "quantity": "0.68 kg"
+      "name": "ciabatta",
+      "quantity": "0.68 kg",
+      "prep": "cut into 2-inch cubes"
     },
     {
       "ingredient_id": 1061,
@@ -82,8 +83,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, lightly beaten",
-      "quantity": "5 large"
+      "name": "eggs",
+      "quantity": "5 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 1268,
@@ -112,6 +114,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the ciabatta into 2-inch cubes. Lightly beat the eggs.",
+      "secondary_message": "0.68 kg ciabatta\n5 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Position a rack in the lower third of the oven and preheat the oven to 180°C (350°F). Lightly butter a 9-by-33-cm baking dish.",

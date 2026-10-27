@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated or minced",
-      "quantity": "1 small clove"
+      "name": "garlic",
+      "quantity": "1 small clove",
+      "prep": "grated or minced"
     },
     {
       "ingredient_id": 88,
@@ -76,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate or mince the garlic.",
+      "secondary_message": "1 small clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, whisk together vinegar, shallot, garlic, salt, and pepper. Let mixture sit for 10 minutes. Whisk in Dijon and honey, then gradually whisk in oil in a steady stream to form an emulsified vinaigrette. Use immediately or refrigerate in an airtight container until ready to use, whisking or shaking vigorously if the vinaigrette has separated.",

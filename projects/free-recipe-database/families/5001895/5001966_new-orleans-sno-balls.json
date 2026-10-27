@@ -55,8 +55,9 @@
   "ingredients": [
     {
       "ingredient_id": 239,
-      "name": "fresh raspberries, thawed and drained well",
-      "quantity": "2 cups"
+      "name": "fresh raspberries",
+      "quantity": "2 cups",
+      "prep": "thawed and drained well"
     },
     {
       "ingredient_id": 346,
@@ -75,8 +76,9 @@
     },
     {
       "ingredient_id": 2216,
-      "name": "fresh pitted dark cherries, thawed and drained well",
-      "quantity": "3 cups"
+      "name": "fresh pitted dark cherries",
+      "quantity": "3 cups",
+      "prep": "thawed and drained well"
     },
     {
       "ingredient_id": 359,
@@ -130,6 +132,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thaw and drain the fresh raspberries well. Thaw and drain the fresh pitted dark cherries well.",
+      "secondary_message": "2 cups fresh raspberries\n3 cups fresh pitted dark cherries"
+    },
     {
       "id": 1,
       "primary_message": "For the Raspberry Lemonade Syrup: Set a fine-mesh strainer over a medium bowl; set aside. In a medium saucepan, bring raspberries, sugar, lemon, and water to a simmer over medium heat. Reduce heat to medium-low and cook, stirring occasionally and gently mashing raspberries with the back of a spoon or spatula, until thickened to a thin syrup consistency, about 10 minutes, adjusting heat as needed to maintain a simmer. Strain through prepared strainer, pressing with a spatula to extract as much liquid as possible; discard solids. Chill, uncovered, until completely cold, about 1 hour. Cover and store in an airtight container for up to 2 weeks.",

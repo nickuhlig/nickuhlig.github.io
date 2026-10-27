@@ -41,23 +41,27 @@
     },
     {
       "ingredient_id": 1621,
-      "name": "Halloumi cheese, sliced 1/4 inch thick",
-      "quantity": "0.45 kg"
+      "name": "Halloumi cheese",
+      "quantity": "0.45 kg",
+      "prep": "sliced 1/4 inch thick"
     },
     {
       "ingredient_id": 1541,
-      "name": "plum tomatoes, sliced crosswise 1/4 inch thick",
-      "quantity": "2"
+      "name": "plum tomatoes",
+      "quantity": "2",
+      "prep": "sliced crosswise 1/4 inch thick"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, thinly sliced",
-      "quantity": "1 small"
+      "name": "red onion",
+      "quantity": "1 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2521,
-      "name": "red leaf lettuce, rinsed and dried",
-      "quantity": "1 small head"
+      "name": "red leaf lettuce",
+      "quantity": "1 small head",
+      "prep": "rinsed and dried"
     },
     {
       "ingredient_id": 401,
@@ -66,6 +70,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the Halloumi cheese 1/4 inch thick. Slice the plum tomatoes crosswise 1/4 inch thick. Thinly slice the red onion. Rinse and dry the red leaf lettuce.",
+      "secondary_message": "0.45 kg Halloumi cheese\n2 plum tomatoes\n1 small red onion\n1 small head red leaf lettuce"
+    },
     {
       "id": 1,
       "primary_message": "Light one chimney full of charcoal. When all charcoal is lit and covered with gray ash, pour out and spread the coals evenly over entire surface of coal grate. Set cooking grate in place, cover grill and allow to preheat for 5 minutes. Clean and oil the grilling grate. Place pita on grill and cook until warm and pliable, about 30 seconds per side. Remove pita from grill.",

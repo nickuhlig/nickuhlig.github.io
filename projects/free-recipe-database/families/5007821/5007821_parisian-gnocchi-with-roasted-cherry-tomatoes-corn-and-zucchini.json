@@ -37,8 +37,9 @@
   "ingredients": [
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, each tomato split in half",
-      "quantity": "1 pint"
+      "name": "cherry tomatoes",
+      "quantity": "1 pint",
+      "prep": "each tomato split in half"
     },
     {
       "ingredient_id": 47,
@@ -47,8 +48,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "minced"
     },
     {
       "ingredient_id": 88,
@@ -97,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the tomato of the cherry tomatoes in half. Mince the garlic.",
+      "secondary_message": "1 pint cherry tomatoes\n1 medium clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center position and preheat oven to 300°F. Toss cherry tomatoes in a large bowl with 1 tablespoon olive oil and garlic. Season to taste with salt and pepper. Transfer to a foil-lined rimmed baking sheet and roast until tomatoes are tender and softened, about 20 minutes.",

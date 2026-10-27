@@ -57,11 +57,18 @@
     },
     {
       "ingredient_id": 1480,
-      "name": "lemon juice, plus 1 lemon, cut into wedges",
-      "quantity": "1 tbsp"
+      "name": "lemon juice, plus 1 lemon",
+      "quantity": "1 tbsp",
+      "prep": "cut into wedges"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the lemon juice into wedges.",
+      "secondary_message": "1 tbsp lemon juice, plus 1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "For the Sumac Syrup: Combine water and sugar in a small saucepan. Heat over medium heat, stirring occasionally, until the sugar is dissolved. All to cool to room temperature. Add sumac, stir to combine, and allow to infuse for 5 minutes. Strain through a fine mesh strainer. Sumac syrup can be stored in a sealed container in the refrigerator for up to 5 days.",

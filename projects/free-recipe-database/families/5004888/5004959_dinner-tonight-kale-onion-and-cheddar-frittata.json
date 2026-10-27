@@ -41,14 +41,16 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, halved and sliced into half moons",
-      "quantity": "1 small"
+      "name": "red onion",
+      "quantity": "1 small",
+      "prep": "halved and sliced into half moons"
     },
     {
       "ingredient_id": 1723,
-      "name": "lacinato kale, sliced crosswise into ribbons",
+      "name": "lacinato kale",
       "quantity": "⅔ bunch",
-      "weigh_as": "113 to 142 g"
+      "weigh_as": "113 to 142 g",
+      "prep": "sliced crosswise into ribbons"
     },
     {
       "ingredient_id": 121,
@@ -67,6 +69,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve and slice the red onion into half moons. Slice the lacinato kale crosswise into ribbons.",
+      "secondary_message": "1 small red onion\n⅔ bunch lacinato kale"
+    },
     {
       "id": 1,
       "primary_message": "Over medium heat in a heavy 25-cm, broiler-safe skillet (not non-stick), heat the olive oil and add the onion, cooking until softened but not browned. Add the kale, an additional tablespoon of olive oil, and a couple pinches of salt. Stir until the kale begins to wilt, then cover, reduce the heat to low, and cook for 15-20 minutes. Stir occasionally.",

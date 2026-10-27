@@ -31,18 +31,21 @@
   "ingredients": [
     {
       "ingredient_id": 3269,
-      "name": "turkey bacon, finely diced",
-      "quantity": "4 slices"
+      "name": "turkey bacon",
+      "quantity": "4 slices",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1713,
-      "name": "Spanish onion, cut into small dice",
-      "quantity": "½ large"
+      "name": "Spanish onion",
+      "quantity": "½ large",
+      "prep": "cut into small dice"
     },
     {
       "ingredient_id": 1505,
@@ -51,8 +54,9 @@
     },
     {
       "ingredient_id": 14,
-      "name": "Brussels sprouts, large, trimmed and quartered",
-      "quantity": "1 lb"
+      "name": "Brussels sprouts, large",
+      "quantity": "1 lb",
+      "prep": "trimmed and quartered"
     },
     {
       "ingredient_id": 115,
@@ -66,6 +70,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the turkey bacon. Thinly slice the garlic. Cut the Spanish onion into small dice. Trim and quarter the Brussels sprouts.",
+      "secondary_message": "4 slices turkey bacon\n3 cloves garlic\n½ large Spanish onion\n1 lb Brussels sprouts, large"
+    },
     {
       "id": 1,
       "primary_message": "Bring a large pot of water to a boil over high heat.",

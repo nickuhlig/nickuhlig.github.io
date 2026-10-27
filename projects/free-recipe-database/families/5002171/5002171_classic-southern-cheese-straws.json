@@ -87,13 +87,15 @@
     },
     {
       "ingredient_id": 43,
-      "name": "extra sharp cheddar cheese, finely shredded",
-      "quantity": "8 oz"
+      "name": "extra sharp cheddar cheese",
+      "quantity": "8 oz",
+      "prep": "finely shredded"
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cubed",
-      "quantity": "½ cup"
+      "name": "cold unsalted butter",
+      "quantity": "½ cup",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 359,
@@ -102,6 +104,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely shred the extra sharp cheddar cheese. Cube the cold unsalted butter.",
+      "secondary_message": "8 oz extra sharp cheddar cheese\n½ cup cold unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to upper-middle and lower-middle positions and preheat oven to 400°F. Line 2 rimmed baking sheets with parchment paper; set aside.",

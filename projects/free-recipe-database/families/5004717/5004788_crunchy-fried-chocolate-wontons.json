@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "85 g"
+      "name": "bittersweet chocolate",
+      "quantity": "85 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 359,
@@ -71,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the bittersweet chocolate.",
+      "secondary_message": "85 g bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "Working six at a time, lay out wonton wrappers on a work surface, with one corner pointing toward the top. (Keep unused wontons covered while working to keep them from drying out.) Place 1/2 teaspoon chopped chocolate in the center of the top half of each wonton, keeping chocolate about 1.5-cm from edge.",

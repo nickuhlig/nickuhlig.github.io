@@ -81,11 +81,18 @@
     },
     {
       "ingredient_id": 1420,
-      "name": "salted roasted peanuts, chopped",
-      "quantity": "¼ cup"
+      "name": "salted roasted peanuts",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the salted roasted peanuts.",
+      "secondary_message": "¼ cup salted roasted peanuts"
+    },
     {
       "id": 1,
       "primary_message": "Place the baking soda in a small bowl and line a baking sheet with parchment paper. Set aside.",

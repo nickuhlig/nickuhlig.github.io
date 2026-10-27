@@ -67,8 +67,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, thinly sliced",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 287,
@@ -77,6 +78,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the shallot.",
+      "secondary_message": "1 medium shallot"
+    },
     {
       "id": 1,
       "primary_message": "Pat pork chops dry with a paper towel. Season pork chops generously on all sides with all of the sugar. Season with salt to taste. Transfer to a wire rack set in a rimmed baking sheet and refrigerate, uncovered, at least 8 hours and up to 24.",

@@ -109,8 +109,9 @@
     },
     {
       "ingredient_id": 3676,
-      "name": "freeze-dried strawberries, finely ground",
-      "quantity": "¾ oz"
+      "name": "freeze-dried strawberries",
+      "quantity": "¾ oz",
+      "prep": "finely ground"
     },
     {
       "ingredient_id": 116,
@@ -124,8 +125,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cubed",
-      "quantity": "7 oz"
+      "name": "cold unsalted butter",
+      "quantity": "7 oz",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 2240,
@@ -164,6 +166,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely grind the freeze-dried strawberries. Cube the cold unsalted butter.",
+      "secondary_message": "¾ oz freeze-dried strawberries\n7 oz cold unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Filling: In a medium saucepan, combine rhubarb and sugar. Cook over medium-low, stirring occasionally, until sugar has dissolved, about 5 minutes. Increase heat to medium, and bring to a boil. Cook, stirring occasionally, until rhubarb thickens to a gel-like consistency, about 15 minutes. Remove from heat, and stir in vanilla paste, orange zest, and salt. Using a fine-mesh strainer, sift freeze-dried strawberry powder into rhubarb mixture, discarding any seeds and solids in the strainer. Stir until combined. Using an immersion blender, blend mixture in saucepan until smooth, 1 to 2 minutes, taking care to break up any clumps of strawberry powder. (The mixture should be a very thick and sticky paste.) Spread filling into a shallow dish; set aside to cool to room temperature, about 30 minutes; chill in the refrigerator until cold, about 30 minutes.",

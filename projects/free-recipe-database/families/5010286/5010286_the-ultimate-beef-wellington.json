@@ -86,8 +86,9 @@
     },
     {
       "ingredient_id": 2731,
-      "name": "mushrooms cleaned, trimmed, and roughly chopped",
-      "quantity": "1 lb"
+      "name": "mushrooms cleaned",
+      "quantity": "1 lb",
+      "prep": "trimmed, and roughly chopped"
     },
     {
       "ingredient_id": 115,
@@ -96,8 +97,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, finely diced",
-      "quantity": "2 medium"
+      "name": "shallots",
+      "quantity": "2 medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 1677,
@@ -131,8 +133,9 @@
     },
     {
       "ingredient_id": 329,
-      "name": "prosciutto, sliced paper thin",
-      "quantity": "¼ lb"
+      "name": "prosciutto",
+      "quantity": "¼ lb",
+      "prep": "sliced paper thin"
     },
     {
       "ingredient_id": 2529,
@@ -141,13 +144,15 @@
     },
     {
       "ingredient_id": 1021,
-      "name": "frozen puff pastry, thawed",
-      "quantity": "14 oz"
+      "name": "frozen puff pastry",
+      "quantity": "14 oz",
+      "prep": "thawed"
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten",
-      "quantity": "1"
+      "name": "egg",
+      "quantity": "1",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 1472,
@@ -161,6 +166,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim and roughly chop the mushrooms cleaned. Finely dice the shallots. Slice the prosciutto paper thin. Thaw the frozen puff pastry. Beat the egg.",
+      "secondary_message": "1 lb mushrooms cleaned\n2 medium shallots\n¼ lb prosciutto\n14 oz frozen puff pastry\n1 egg"
+    },
     {
       "id": 1,
       "primary_message": "Using butcher's twine, tie tenderloin at 1-inch intervals. Trim ends of twine. Season liberally with salt and pepper.",

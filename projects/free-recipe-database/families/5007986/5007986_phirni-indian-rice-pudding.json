@@ -59,16 +59,24 @@
     },
     {
       "ingredient_id": 29,
-      "name": "raw almonds, roughly chopped",
-      "quantity": "¼ cup"
+      "name": "raw almonds",
+      "quantity": "¼ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 2365,
-      "name": "raw pistachios, roughly chopped",
-      "quantity": "¼ cup"
+      "name": "raw pistachios",
+      "quantity": "¼ cup",
+      "prep": "roughly chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the raw almonds. Roughly chop the raw pistachios.",
+      "secondary_message": "¼ cup raw almonds\n¼ cup raw pistachios"
+    },
     {
       "id": 1,
       "primary_message": "Place rice in a large bowl and cover by 2 inches with cool water. Using your hands, vigorously swish rice until water turns cloudy, about 30 seconds. Using a fine-mesh strainer, drain rice, discarding the cloudy soaking water. Refill the bowl with cool water, and repeat rinsing and draining process until rinsing water runs clear.",

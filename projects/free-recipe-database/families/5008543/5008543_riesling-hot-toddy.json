@@ -59,8 +59,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, halved",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "halved"
     },
     {
       "ingredient_id": 2346,
@@ -69,6 +70,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the lemon.",
+      "secondary_message": "1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "Toast cardamom pods in a dry skillet over high heat, tossing often, until fragrant, about 3 minutes. Gently crush with a mortar and pestle.",

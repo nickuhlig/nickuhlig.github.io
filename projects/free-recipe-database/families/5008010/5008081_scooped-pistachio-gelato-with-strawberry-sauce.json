@@ -55,13 +55,15 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "zested"
     },
     {
       "ingredient_id": 242,
-      "name": "strawberries, white leafy tops removed",
-      "quantity": "0.23 kg"
+      "name": "strawberries",
+      "quantity": "0.23 kg",
+      "prep": "white leafy tops removed"
     },
     {
       "ingredient_id": 346,
@@ -80,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the lemon. Remove the white leafy tops from the strawberries.",
+      "secondary_message": "1 lemon\n0.23 kg strawberries"
+    },
     {
       "id": 1,
       "primary_message": "For pistachio gelato: In a large skillet, toast pistachios over high heat, stirring constantly for two to four minutes, or until you can easily smell toasted nuts. Transfer pistachios to a food processor and crush into very fine, almost powdery crumbs for five to seven minutes.",

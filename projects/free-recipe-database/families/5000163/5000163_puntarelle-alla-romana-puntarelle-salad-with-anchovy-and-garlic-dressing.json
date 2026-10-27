@@ -42,13 +42,15 @@
   "ingredients": [
     {
       "ingredient_id": 1923,
-      "name": "puntarelle endive, trimmed",
-      "quantity": "1 ¼ lb"
+      "name": "puntarelle endive",
+      "quantity": "1 ¼ lb",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 325,
-      "name": "oil-packed anchovies, drained",
-      "quantity": "8"
+      "name": "oil-packed anchovies",
+      "quantity": "8",
+      "prep": "drained"
     },
     {
       "ingredient_id": 24,
@@ -77,8 +79,9 @@
     },
     {
       "ingredient_id": 15,
-      "name": "capers, drained and roughly chopped",
-      "quantity": "3 tbsp"
+      "name": "capers",
+      "quantity": "3 tbsp",
+      "prep": "drained and roughly chopped"
     },
     {
       "ingredient_id": 72,
@@ -87,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the puntarelle endive. Drain the oil-packed anchovies. Drain and roughly chop the capers.",
+      "secondary_message": "1 ¼ lb puntarelle endive\n8 oil-packed anchovies\n3 tbsp capers"
+    },
     {
       "id": 1,
       "primary_message": "Pluck the outer leaves off the heads of puntarelle, tear or cut into bite-sized pieces, and set aside. Remove the shoots from the heads and, if present, trim and discard the woody bottom end of each. Cut shoots into 1/4-inch-thick strips (you may need to halve or quarter them lengthwise first). If there’s a fatter core, trim off the tougher base, cut it in half lengthwise, and then cut the halves into strips.",

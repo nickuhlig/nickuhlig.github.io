@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated on a microplane grater",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "grated on a microplane grater"
     },
     {
       "ingredient_id": 3679,
@@ -86,18 +87,21 @@
     },
     {
       "ingredient_id": 217,
-      "name": "roasted peanuts, lightly crushed in a mortar and pestle",
-      "quantity": "57 g"
+      "name": "roasted peanuts",
+      "quantity": "57 g",
+      "prep": "lightly crushed in a mortar and pestle"
     },
     {
       "ingredient_id": 1837,
-      "name": "Sichuan peppercorns, finely ground in a mortar and pestle",
-      "quantity": "1 tbsp"
+      "name": "Sichuan peppercorns",
+      "quantity": "1 tbsp",
+      "prep": "finely ground in a mortar and pestle"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated on a microplane",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "grated on a microplane"
     },
     {
       "ingredient_id": 153,
@@ -106,6 +110,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the garlic on a microplane grater. Lightly crush the roasted peanuts in a mortar and pestle. Finely grind the Sichuan peppercorns in a mortar and pestle. Grate the garlic on a microplane.",
+      "secondary_message": "2 cloves garlic\n57 g roasted peanuts\n1 tbsp Sichuan peppercorns\n2 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Roasted Chile Vinaigrette: Combine all vinaigrette ingredients in a bowl and stir vigorously to mix.",

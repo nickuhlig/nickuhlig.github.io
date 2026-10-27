@@ -49,8 +49,9 @@
   "ingredients": [
     {
       "ingredient_id": 144,
-      "name": "Asian shallots, coarsely chopped",
-      "quantity": "8 small"
+      "name": "Asian shallots",
+      "quantity": "8 small",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 2402,
@@ -59,24 +60,28 @@
     },
     {
       "ingredient_id": 1815,
-      "name": "fresh galangal, peeled and chopped",
-      "quantity": "30 g"
+      "name": "fresh galangal",
+      "quantity": "30 g",
+      "prep": "peeled and chopped"
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, peeled and chopped",
+      "name": "fresh ginger",
       "quantity": "1 ½ (1 inch) pieces",
-      "weigh_as": "15 g"
+      "weigh_as": "15 g",
+      "prep": "peeled and chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, crushed",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 2122,
-      "name": "candlenuts macadamias, smashed",
-      "quantity": "7"
+      "name": "candlenuts macadamias",
+      "quantity": "7",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 1514,
@@ -125,6 +130,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Coarsely chop the Asian shallots. Peel and chop the fresh galangal. Peel and chop the fresh ginger. Crush the garlic. Smash the candlenuts macadamias.",
+      "secondary_message": "8 small Asian shallots\n30 g fresh galangal\n1 ½ (1 inch) pieces fresh ginger\n4 medium cloves garlic\n7 candlenuts macadamias"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat to 325ºF (160ºC).",

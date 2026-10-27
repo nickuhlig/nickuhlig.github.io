@@ -45,8 +45,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted, plus more for greasing",
-      "quantity": "1 tbsp"
+      "name": "unsalted butter, plus more for greasing",
+      "quantity": "1 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 303,
@@ -85,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter.",
+      "secondary_message": "1 tbsp unsalted butter, plus more for greasing"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350°F. Generously butter a 7-inch round or a 8- by 8-inch baking dish.",

@@ -70,16 +70,24 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled, flattened",
-      "quantity": "6 cloves"
+      "name": "garlic",
+      "quantity": "6 cloves",
+      "prep": "peeled, flattened"
     },
     {
       "ingredient_id": 164,
-      "name": "skinless boneless chicken, cut into 1 1/4-inch cubes",
-      "quantity": "2 ¼ lb"
+      "name": "skinless boneless chicken",
+      "quantity": "2 ¼ lb",
+      "prep": "cut into 1 1/4-inch cubes"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and flatten the garlic. Cut the skinless boneless chicken into 1 1/4-inch cubes.",
+      "secondary_message": "6 cloves garlic\n2 ¼ lb skinless boneless chicken"
+    },
     {
       "id": 1,
       "primary_message": "If using Aleppo pepper, place in large bowl and mix in 1 tablespoon of warm water. Let stand until thick paste forms, about 5 minutes. If using dried crushed red pepper and paprika combination, place in large bowl and stir in 2 tablespoons warm water and let stand until paste forms, about 5 minutes.",

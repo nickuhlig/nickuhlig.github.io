@@ -63,8 +63,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced on a microplane grater",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced on a microplane grater"
     },
     {
       "ingredient_id": 47,
@@ -73,6 +74,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic on a microplane grater.",
+      "secondary_message": "3 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Pat hens dry with paper towels and place breast-side-down on a large cutting board. Using sharp kitchen shears, remove the backbone by cutting along either side of it. Turn chicken over and lay out flat. Press firmly on breast to flatten the chicken. For added stability, run a metal or wooden skewer horizontally, entering through one thigh, going through both breast halves, and exiting through the other thigh. Tuck wing tips behind back of breasts. Repeat with remaining hens.",

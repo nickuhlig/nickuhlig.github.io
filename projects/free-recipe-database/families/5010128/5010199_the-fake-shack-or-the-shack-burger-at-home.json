@@ -63,8 +63,9 @@
     },
     {
       "ingredient_id": 1377,
-      "name": "kosher dill pickle, finely chopped",
-      "quantity": "4 slices"
+      "name": "kosher dill pickle",
+      "quantity": "4 slices",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 79,
@@ -103,8 +104,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 3334,
@@ -143,6 +145,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the kosher dill pickle. Melt the unsalted butter.",
+      "secondary_message": "4 slices kosher dill pickle\n2 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Shack Sauce: Combine all ingredients in a countertop blender jar and blend on high until smooth, scraping down sides of blender with rubber spatula as necessary, 30 seconds to 1 minute. Transfer sauce to an airtight container and refrigerate until ready to use (sauce can be refrigerated for up to 5 days).",

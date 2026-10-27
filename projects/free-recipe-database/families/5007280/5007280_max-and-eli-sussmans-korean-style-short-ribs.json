@@ -63,8 +63,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, chopped",
-      "quantity": "½ large"
+      "name": "yellow onion",
+      "quantity": "½ large",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 153,
@@ -73,8 +74,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, chopped",
-      "quantity": "8 to 10 cloves"
+      "name": "garlic",
+      "quantity": "8 to 10 cloves",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1503,
@@ -83,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the yellow onion. Chop the garlic.",
+      "secondary_message": "½ large yellow onion\n8 to 10 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, whisk together soy sauce, 1 cup water, rice vinegar, white vinegar, brown sugar, sriracha, and pepper. Add yellow onion, green onions, and garlic and stir to blend well. Add short ribs and turn to coat well with marinade. Cover with plastic wrap and let marinate in refrigerator for at least 12 hours or, preferably, 24 hours.",

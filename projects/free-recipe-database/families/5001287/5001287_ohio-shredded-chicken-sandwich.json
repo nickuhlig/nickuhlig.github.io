@@ -79,18 +79,21 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, diced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, any leaves included, diced",
-      "quantity": "2 oz"
+      "name": "celery, any leaves included",
+      "quantity": "2 oz",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "1 clove"
+      "name": "garlic",
+      "quantity": "1 clove",
+      "prep": "minced"
     },
     {
       "ingredient_id": 72,
@@ -104,6 +107,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the yellow onion. Dice the celery. Mince the garlic.",
+      "secondary_message": "1 medium yellow onion\n2 oz celery, any leaves included\n1 clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "Pat chicken thighs dry with paper towels then lightly season all over with salt. In a large skillet or Dutch oven, melt 1 tablespoon butter over medium-high heat. Working in batches, add chicken and cook until browned on both sides, 3 to 4 minutes per side.",

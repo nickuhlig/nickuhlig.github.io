@@ -52,13 +52,15 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, diced",
-      "quantity": "113 g"
+      "name": "cream cheese",
+      "quantity": "113 g",
+      "prep": "diced"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, diced",
-      "quantity": "8 tbsp"
+      "name": "unsalted butter",
+      "quantity": "8 tbsp",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1356,
@@ -77,6 +79,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the cream cheese. Dice the unsalted butter.",
+      "secondary_message": "113 g cream cheese\n8 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In the bowl of a food processor, combine flour, salt, and 2 tablespoon sugar and pulse twice to combine. Add cream cheese and butter and pulse until dough is just starting to come together, but not a coherent ball, about 10 short pulses. Transfer to a lightly floured work surface and form dough into a ball, then cut ball into two equal pieces. Form each half into a disk, wrap tightly in plastic wrap, and chill in refrigerator for 1 hour.",

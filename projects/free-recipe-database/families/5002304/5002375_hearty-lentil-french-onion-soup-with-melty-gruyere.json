@@ -54,9 +54,10 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onions, thinly sliced",
+      "name": "yellow onions",
       "quantity": "8 medium",
-      "weigh_as": "0.9 kg"
+      "weigh_as": "0.9 kg",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -105,11 +106,18 @@
     },
     {
       "ingredient_id": 1060,
-      "name": "Gruyère cheese, grated",
-      "quantity": "226 g"
+      "name": "Gruyère cheese",
+      "quantity": "226 g",
+      "prep": "grated"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the yellow onions. Grate the Gruyère cheese.",
+      "secondary_message": "8 medium yellow onions\n226 g Gruyère cheese"
+    },
     {
       "id": 1,
       "primary_message": "In a large Dutch oven, melt butter over medium-high heat until foaming. Add onions, salt, and pepper; cook, stirring occasionally, until onions are softened, 6 to 8 minutes.",

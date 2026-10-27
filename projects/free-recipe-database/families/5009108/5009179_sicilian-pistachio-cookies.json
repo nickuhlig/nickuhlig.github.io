@@ -76,11 +76,18 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "zested"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the lemon.",
+      "secondary_message": "1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 165°C (325°F). Line a rimmed baking sheet with parchment paper. Grease parchment paper with butter.",

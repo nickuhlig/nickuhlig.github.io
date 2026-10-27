@@ -38,8 +38,9 @@
   "ingredients": [
     {
       "ingredient_id": 2164,
-      "name": "boneless pork shoulder, cut into thin 2-inch strips",
-      "quantity": "0.23 kg"
+      "name": "boneless pork shoulder",
+      "quantity": "0.23 kg",
+      "prep": "cut into thin 2-inch strips"
     },
     {
       "ingredient_id": 264,
@@ -73,8 +74,9 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, julienned",
-      "quantity": "1 large"
+      "name": "carrot",
+      "quantity": "1 large",
+      "prep": "julienned"
     },
     {
       "ingredient_id": 1212,
@@ -83,8 +85,9 @@
     },
     {
       "ingredient_id": 2268,
-      "name": "pork stock, warmed",
-      "quantity": "2 cups"
+      "name": "pork stock",
+      "quantity": "2 cups",
+      "prep": "warmed"
     },
     {
       "ingredient_id": 1086,
@@ -108,6 +111,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the boneless pork shoulder into thin 2-inch strips. Julienne the carrot. Warm the pork stock.",
+      "secondary_message": "0.23 kg boneless pork shoulder\n1 large carrot\n2 cups pork stock"
+    },
     {
       "id": 1,
       "primary_message": "Combine pork, cornstarch, 1 teaspoon soy sauce, and sesame oil in a medium bowl and mix thoroughly. Cover and chill for at least 20 minutes, or up to overnight.",

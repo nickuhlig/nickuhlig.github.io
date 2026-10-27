@@ -76,8 +76,9 @@
     },
     {
       "ingredient_id": 2541,
-      "name": "ancho chiles, stemmed and seeded",
-      "quantity": "2"
+      "name": "ancho chiles",
+      "quantity": "2",
+      "prep": "stemmed and seeded"
     },
     {
       "ingredient_id": 1505,
@@ -91,13 +92,15 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, chopped",
-      "quantity": "1 medium"
+      "name": "white onion",
+      "quantity": "1 medium",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, chopped",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 185,
@@ -116,6 +119,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem and seed the ancho chiles. Chop the white onion. Chop the garlic.",
+      "secondary_message": "2 ancho chiles\n1 medium white onion\n3 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "In a large mixing bowl, combine masa harina and broth.",

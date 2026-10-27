@@ -84,9 +84,10 @@
     },
     {
       "ingredient_id": 3064,
-      "name": "Yukon Gold potatoes, peeled and cut into 1 1/2-inch cubes",
+      "name": "Yukon Gold potatoes",
       "quantity": "3 medium",
-      "weigh_as": "0.68 kg"
+      "weigh_as": "0.68 kg",
+      "prep": "peeled and cut into 1 1/2-inch cubes"
     },
     {
       "ingredient_id": 303,
@@ -115,6 +116,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the Yukon Gold potatoes into 1 1/2-inch cubes.",
+      "secondary_message": "3 medium Yukon Gold potatoes"
+    },
     {
       "id": 1,
       "primary_message": "Place chicken in large Dutch oven. Add halved onion, halved celery stalks, bay leaves, peppercorns, and 4 sprigs thyme. Add just enough water to cover (about 3 quarts). Bring to boil over high heat, reduce to a bare simmer, cover, and cook until chicken is falling off the bone, about 1 hour.",

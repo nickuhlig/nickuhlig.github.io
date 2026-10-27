@@ -45,23 +45,27 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely chopped",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño peppers, seeded and finely chopped",
-      "quantity": "3"
+      "name": "jalapeño peppers",
+      "quantity": "3",
+      "prep": "seeded and finely chopped"
     },
     {
       "ingredient_id": 1039,
-      "name": "russet potato, peeled and cut into rough 1/4-inch cubes",
-      "quantity": "1"
+      "name": "russet potato",
+      "quantity": "1",
+      "prep": "peeled and cut into rough 1/4-inch cubes"
     },
     {
       "ingredient_id": 303,
@@ -75,18 +79,21 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, roughly chopped",
-      "quantity": "3"
+      "name": "scallions",
+      "quantity": "3",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, quartered",
-      "quantity": "1 small"
+      "name": "red onion",
+      "quantity": "1 small",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 1421,
@@ -110,6 +117,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the onion. Finely chop the garlic. Seed and finely chop the jalapeño peppers. Peel and cut the russet potato into rough 1/4-inch cubes. Beat the egg. Roughly chop the scallions. Quarter the red onion.",
+      "secondary_message": "1 medium onion\n2 medium cloves garlic\n3 jalapeño peppers\n1 russet potato\n1 large egg\n3 scallions\n1 small red onion"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 205°C (400°F). Heat oil in a large stainless steel skillet over medium high heat until shimmering. Add onion and garlic and cook, stirring, until soft, about 4 minutes. Add 1 jalapeño, potato, corn, and 1/2 cup water. Bring to a simmer and cover with a lid. Cook, stirring often until potatoes are just soft, about 8 minutes. Season to taste with salt and pepper and allow to cool.",

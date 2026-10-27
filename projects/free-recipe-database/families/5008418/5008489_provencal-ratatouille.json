@@ -77,8 +77,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "6 medium cloves"
+      "name": "garlic",
+      "quantity": "6 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 150,
@@ -97,6 +98,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic.",
+      "secondary_message": "6 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Place summer squash in a wire mesh strainer set over a bowl; place eggplant in a second wire mesh strainer and set over a second bowl. Toss both with a liberal amount of kosher salt and let stand to drain at least 15 minutes and up to 1 hour. Discard any liquid that collects in the bowls.",

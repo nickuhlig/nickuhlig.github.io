@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, finely diced",
-      "quantity": "1 small"
+      "name": "red onion",
+      "quantity": "1 small",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 1984,
@@ -75,13 +76,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 1176,
-      "name": "long-grain rice, well rinsed and drained",
-      "quantity": "1 cup"
+      "name": "long-grain rice",
+      "quantity": "1 cup",
+      "prep": "well rinsed and drained"
     },
     {
       "ingredient_id": 359,
@@ -95,8 +98,9 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, thinly sliced",
-      "quantity": "1 small"
+      "name": "red onion",
+      "quantity": "1 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 188,
@@ -105,8 +109,9 @@
     },
     {
       "ingredient_id": 228,
-      "name": "lime, juiced",
-      "quantity": "1"
+      "name": "lime",
+      "quantity": "1",
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -145,6 +150,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the red onion. Finely mince the garlic. Well rinse and drain the long-grain rice. Thinly slice the red onion. Juice the lime.",
+      "secondary_message": "1 small red onion\n2 medium cloves garlic\n1 cup long-grain rice\n1 small red onion\n1 lime"
+    },
     {
       "id": 1,
       "primary_message": "For the Beans: In a large bowl, cover beans with at least 5 cm cold water. Stir in 2 teaspoons salt and let soak at room temperature for at least 8 and up to 24 hours.",

@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 473,
-      "name": "flank steak, sliced about 1/8 inch thick",
-      "quantity": "½ lb"
+      "name": "flank steak",
+      "quantity": "½ lb",
+      "prep": "sliced about 1/8 inch thick"
     },
     {
       "ingredient_id": 88,
@@ -85,8 +86,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "6 cloves"
+      "name": "garlic",
+      "quantity": "6 cloves",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1337,
@@ -111,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the flank steak about 1/8 inch thick. Roughly chop the garlic.",
+      "secondary_message": "½ lb flank steak\n6 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Combine beef, sugar, black pepper, Shaoxing wine, 1/2 teaspoon soy sauce, 1/2 teaspoon cornstarch, and 1 teaspoon vegetable oil in a medium bowl. Mix well and set aside.",

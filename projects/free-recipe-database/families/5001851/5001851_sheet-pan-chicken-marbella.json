@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely grated",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 293,
@@ -96,8 +97,9 @@
     },
     {
       "ingredient_id": 2106,
-      "name": "prunes, halved if large",
-      "quantity": "5 oz"
+      "name": "prunes",
+      "quantity": "5 oz",
+      "prep": "halved if large"
     },
     {
       "ingredient_id": 359,
@@ -106,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely grate the garlic. Halve the prunes if large.",
+      "secondary_message": "3 medium cloves garlic\n5 oz prunes"
+    },
     {
       "id": 1,
       "primary_message": "In a 2-cup liquid measuring cup or small bowl, whisk olive oil, vinegar, wine or chicken broth, garlic, brown sugar, and oregano to combine.",

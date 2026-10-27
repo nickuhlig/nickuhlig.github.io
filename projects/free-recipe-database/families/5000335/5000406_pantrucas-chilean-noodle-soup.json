@@ -64,28 +64,33 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, cut into 2-inch pieces",
-      "quantity": "2 medium"
+      "name": "carrots",
+      "quantity": "2 medium",
+      "prep": "cut into 2-inch pieces"
     },
     {
       "ingredient_id": 1720,
-      "name": "celery ribs with leaves, cut into 2-inch pieces",
-      "quantity": "2 medium"
+      "name": "celery ribs with leaves",
+      "quantity": "2 medium",
+      "prep": "cut into 2-inch pieces"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, quartered",
-      "quantity": "1 medium"
+      "name": "white onion",
+      "quantity": "1 medium",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell pepper, cut into chunks",
-      "quantity": "⅔"
+      "name": "red bell pepper",
+      "quantity": "⅔",
+      "prep": "cut into chunks"
     },
     {
       "ingredient_id": 1784,
@@ -109,8 +114,9 @@
     },
     {
       "ingredient_id": 116,
-      "name": "all-purpose flour, sifted, plus more for dusting",
-      "quantity": "285 g"
+      "name": "all-purpose flour, plus more for dusting",
+      "quantity": "285 g",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 88,
@@ -129,28 +135,33 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, julienned",
-      "quantity": "1 medium"
+      "name": "carrot",
+      "quantity": "1 medium",
+      "prep": "julienned"
     },
     {
       "ingredient_id": 1720,
-      "name": "celery rib, finely diced",
-      "quantity": "1 medium"
+      "name": "celery rib",
+      "quantity": "1 medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "white onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell pepper, julienned",
-      "quantity": "⅓"
+      "name": "red bell pepper",
+      "quantity": "⅓",
+      "prep": "julienned"
     },
     {
       "ingredient_id": 82,
@@ -179,9 +190,10 @@
     },
     {
       "ingredient_id": 1897,
-      "name": "waxy potatoes, peeled and cut into 1-inch pieces",
+      "name": "waxy potatoes",
       "quantity": "2 medium",
-      "weigh_as": "0.46 kg"
+      "weigh_as": "0.46 kg",
+      "prep": "peeled and cut into 1-inch pieces"
     },
     {
       "ingredient_id": 275,
@@ -190,8 +202,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "2 large large"
+      "name": "eggs",
+      "quantity": "2 large large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 188,
@@ -205,6 +218,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the carrots into 2-inch pieces. Cut the celery ribs with leaves into 2-inch pieces. Smash the garlic. Quarter the white onion. Cut the red bell pepper into chunks. Sift the all-purpose flour. Julienne the carrot. Finely dice the celery rib. Mince the garlic. Finely chop the white onion. Julienne the red bell pepper. Peel and cut the waxy potatoes into 1-inch pieces. Beat the eggs.",
+      "secondary_message": "2 medium carrots\n2 medium celery ribs with leaves\n2 medium cloves garlic\n1 medium white onion\n⅔ red bell pepper\n285 g all-purpose flour, plus more for dusting\n1 medium carrot\n1 medium celery rib\n1 medium clove garlic\n1 medium white onion\n⅓ red bell pepper\n2 medium waxy potatoes\n2 large large eggs"
+    },
     {
       "id": 1,
       "primary_message": "For the Beef Broth: In a large stockpot, combine short ribs, carrots, celery, garlic, onion, bell pepper, peppercorns, bay leaf, and salt. Cover with water and bring to a boil over high heat. Adjust heat to medium-low and simmer, partially covered, adjusting heat as needed to maintain simmer, until short rib meat is tender and can be pierced easily with a fork, 60 to 90 minutes. (If meat takes longer than 1 hour to cook, and excessive evaporation occurs, add more water as needed.)",

@@ -77,8 +77,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cubed",
-      "quantity": "1 tbsp"
+      "name": "unsalted butter",
+      "quantity": "1 tbsp",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 116,
@@ -117,8 +118,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, room temperature",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 1682,
@@ -127,8 +129,9 @@
     },
     {
       "ingredient_id": 118,
-      "name": "whole milk, room temperature",
-      "quantity": "1 ¼ cups"
+      "name": "whole milk",
+      "quantity": "1 ¼ cups",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 353,
@@ -142,6 +145,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cube the unsalted butter. Bring the eggs to room temperature. Bring the whole milk to room temperature.",
+      "secondary_message": "1 tbsp unsalted butter\n2 large eggs\n1 ¼ cups whole milk"
+    },
     {
       "id": 1,
       "primary_message": "For the Cherry Compote: In a medium saucepan, combine cherries and sugar and bring to a boil over medium heat. Cook, stirring often, until sugar dissolves and cherries begin to soften, about 4 minutes. In a small bowl, whisk together cornstarch and lemon zest and juice.",

@@ -44,18 +44,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, sliced thin",
-      "quantity": "2 large"
+      "name": "onions",
+      "quantity": "2 large",
+      "prep": "sliced thin"
     },
     {
       "ingredient_id": 479,
-      "name": "sauerkraut, drained",
-      "quantity": "0.45 kg"
+      "name": "sauerkraut",
+      "quantity": "0.45 kg",
+      "prep": "drained"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "8 medium cloves"
+      "name": "garlic",
+      "quantity": "8 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 3090,
@@ -109,6 +112,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the onions thin. Drain the sauerkraut. Mince the garlic.",
+      "secondary_message": "2 large onions\n0.45 kg sauerkraut\n8 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the stew: Heat 1 teaspoon fat in a 5-quart Dutch oven on medium heat until lightly smoking. Add sausages and cook, stirring occasionally, until browned, about 10 minutes. Transfer to paper towel-lined plate to drain (leave excess fat in pan).",

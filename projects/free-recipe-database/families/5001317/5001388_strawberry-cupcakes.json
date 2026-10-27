@@ -82,8 +82,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "113 g"
+      "name": "unsalted butter",
+      "quantity": "113 g",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -92,8 +93,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, at room temperature",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 353,
@@ -102,13 +104,15 @@
     },
     {
       "ingredient_id": 1003,
-      "name": "sour cream, at room temperature",
-      "quantity": "57 g"
+      "name": "sour cream",
+      "quantity": "57 g",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 118,
-      "name": "whole milk, at room temperature",
-      "quantity": "57 g"
+      "name": "whole milk",
+      "quantity": "57 g",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 242,
@@ -117,8 +121,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "170 g"
+      "name": "unsalted butter",
+      "quantity": "170 g",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 88,
@@ -157,6 +162,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature. Bring the egg to room temperature. Bring the sour cream to room temperature. Bring the whole milk to room temperature. Bring the unsalted butter to room temperature.",
+      "secondary_message": "113 g unsalted butter\n1 large egg\n57 g sour cream\n57 g whole milk\n170 g unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position, and preheat to 175°C (350°F) (175ºC). Line a 12-cup muffin pan with paper liners; set aside. Fit a piping bag with desired piping tip for frosting; set aside.",

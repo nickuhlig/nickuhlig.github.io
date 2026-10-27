@@ -61,13 +61,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, roughly chopped",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, roughly chopped",
-      "quantity": "3 medium"
+      "name": "garlic cloves",
+      "quantity": "3 medium",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 88,
@@ -106,9 +108,10 @@
     },
     {
       "ingredient_id": 1039,
-      "name": "russet potatoes, cut into 3/4- to 1-inch cubes",
+      "name": "russet potatoes",
       "quantity": "4 medium",
-      "weigh_as": "0.9 kg"
+      "weigh_as": "0.9 kg",
+      "prep": "cut into 3/4- to 1-inch cubes"
     },
     {
       "ingredient_id": 1574,
@@ -132,6 +135,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the onion. Roughly chop the garlic cloves. Cut the russet potatoes into 3/4- to 1-inch cubes.",
+      "secondary_message": "1 small onion\n3 medium garlic cloves\n4 medium russet potatoes"
+    },
     {
       "id": 1,
       "primary_message": "For the Salsa Brava: In a 3-quart saucepan, heat oil over medium heat until shimmering. Add onion and garlic, season lightly with salt, and cook, stirring frequently, until onion is softened and just beginning to brown on the edges, 5 to 7 minutes.",

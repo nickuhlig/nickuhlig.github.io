@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 1721,
@@ -92,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the garlic.",
+      "secondary_message": "4 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to upper position and preheat oven to 425°F. Heat butter and 3 tablespoons olive oil in a medium saucepan over medium-low heat until butter is melted. Add garlic, pepper flakes, and oregano and cook, stirring occasionally, until garlic is softened but not browned, about 2 minutes. Stir in half of parsley/basil and a big pinch of salt. Remove from heat.",

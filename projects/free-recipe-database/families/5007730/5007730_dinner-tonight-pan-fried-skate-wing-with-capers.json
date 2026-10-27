@@ -70,18 +70,21 @@
     },
     {
       "ingredient_id": 150,
-      "name": "sweet red peppers, chopped",
-      "quantity": "¼ cup"
+      "name": "sweet red peppers",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 15,
-      "name": "capers, drained",
-      "quantity": "2 ½ tbsp"
+      "name": "capers",
+      "quantity": "2 ½ tbsp",
+      "prep": "drained"
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, finely chopped",
-      "quantity": "1 tbsp"
+      "name": "shallots",
+      "quantity": "1 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 130,
@@ -90,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the sweet red peppers. Drain the capers. Finely chop the shallots.",
+      "secondary_message": "¼ cup sweet red peppers\n2 ½ tbsp capers\n1 tbsp shallots"
+    },
     {
       "id": 1,
       "primary_message": "Pour the milk into a medium sized bowl, along with a pinch of salt and pepper. Add the flour to a plate. Pour the oil into a non-stick skillet set over medium-high heat. Place the skate wings in the milk, dredge them evenly in the flour, and then place them in the skillet. Cook for 3 minutes per side. Set aside on a clean plate when done.",

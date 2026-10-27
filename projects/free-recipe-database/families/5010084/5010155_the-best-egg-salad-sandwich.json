@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 121,
-      "name": "hard steamed eggs, chilled and peeled",
-      "quantity": "6 large"
+      "name": "hard steamed eggs",
+      "quantity": "6 large",
+      "prep": "chilled and peeled"
     },
     {
       "ingredient_id": 267,
@@ -86,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the hard steamed eggs and keep them cold until you use them.",
+      "secondary_message": "6 large hard steamed eggs"
+    },
     {
       "id": 1,
       "primary_message": "Combine eggs, mayonnaise, lemon juice, celery, scallions, and parsley in a medium bowl. Using your hands, squeeze eggs through your fingers, mixing contents of bowl until reduced to desired consistency; alternatively, smash and mix with a firm whisk. Season generously with salt and pepper. Serve as sandwiches with sliced radishes, lettuce, and bread, or as desired.",

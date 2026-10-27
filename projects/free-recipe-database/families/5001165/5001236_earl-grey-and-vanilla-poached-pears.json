@@ -63,16 +63,24 @@
     },
     {
       "ingredient_id": 1938,
-      "name": "vanilla bean, split and scraped",
-      "quantity": "1"
+      "name": "vanilla bean",
+      "quantity": "1",
+      "prep": "split and scraped"
     },
     {
       "ingredient_id": 247,
-      "name": "firm but ripe medium pears, peeled",
-      "quantity": "6"
+      "name": "firm but ripe medium pears",
+      "quantity": "6",
+      "prep": "peeled"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split and scrape the vanilla bean. Peel the firm but ripe medium pears.",
+      "secondary_message": "1 vanilla bean\n6 firm but ripe medium pears"
+    },
     {
       "id": 1,
       "primary_message": "In a 5-quart pot or Dutch oven, bring 5 cups water to a boil. Remove from heat, add tea bags, and let steep until fragrant and dark brown, 3 to 5 minutes. Using a slotted spoon, lift tea bags and, carefully using a small spoon, press down on tea bags to extract excess liquid. Discard.",

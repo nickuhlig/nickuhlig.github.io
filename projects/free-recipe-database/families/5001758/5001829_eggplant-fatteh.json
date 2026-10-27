@@ -82,8 +82,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely grated",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 88,
@@ -117,6 +118,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely grate the garlic.",
+      "secondary_message": "2 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 175°C (350°F).",

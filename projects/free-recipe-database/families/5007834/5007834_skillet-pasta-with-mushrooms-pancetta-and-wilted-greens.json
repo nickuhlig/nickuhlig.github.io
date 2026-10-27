@@ -39,23 +39,27 @@
     },
     {
       "ingredient_id": 2697,
-      "name": "pancetta, diced",
-      "quantity": "¼ lb"
+      "name": "pancetta",
+      "quantity": "¼ lb",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1929,
-      "name": "sliced shiitake mushrooms, woody stems trimmed",
-      "quantity": "2 cups"
+      "name": "sliced shiitake mushrooms",
+      "quantity": "2 cups",
+      "prep": "woody stems trimmed"
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, thinly sliced",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2021,
-      "name": "serrano chile pepper, stemmed and minced",
-      "quantity": "½"
+      "name": "serrano chile pepper",
+      "quantity": "½",
+      "prep": "stemmed and minced"
     },
     {
       "ingredient_id": 1505,
@@ -94,6 +98,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the pancetta. Trim the woody stems of the sliced shiitake mushrooms. Thinly slice the shallot. Stem and mince the serrano chile pepper.",
+      "secondary_message": "¼ lb pancetta\n2 cups sliced shiitake mushrooms\n1 medium shallot\n½ serrano chile pepper"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in a large saucepan over medium-high heat until shimmering. Add pancetta and cook until fat begins to render and pancetta is lightly browned, about 2 minutes. Stir in mushrooms, tossing until coated with oil. Cook, stirring, until mushrooms have browned and pancetta has rendered most of its fat, about 5 minutes longer. Stir in shallots and serrano and cook until softened, about 1 minute. Remove from heat and scrape pancetta mixture into a bowl. Set aside.",

@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, yolks and whites separated",
-      "quantity": "3"
+      "name": "eggs",
+      "quantity": "3",
+      "prep": "yolks and whites separated"
     },
     {
       "ingredient_id": 1609,
@@ -91,8 +92,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested",
-      "quantity": "½"
+      "name": "lemon",
+      "quantity": "½",
+      "prep": "zested"
     },
     {
       "ingredient_id": 1480,
@@ -106,11 +108,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, diced",
-      "quantity": "4 tbsp"
+      "name": "butter",
+      "quantity": "4 tbsp",
+      "prep": "diced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Separate the yolks and whites of the eggs. Zest the lemon. Dice the butter.",
+      "secondary_message": "3 eggs\n½ lemon\n4 tbsp butter"
+    },
     {
       "id": 1,
       "primary_message": "Combine the flour, baking powder, sugar, and salt in a bowl. In another slightly larger bowl, stir together the ricotta, milk, egg yolks, and vanilla.",

@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 232,
-      "name": "orange, zested",
-      "quantity": "½"
+      "name": "orange",
+      "quantity": "½",
+      "prep": "zested"
     },
     {
       "ingredient_id": 1903,
@@ -61,8 +62,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, lightly beaten",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 118,
@@ -71,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the orange. Lightly beat the eggs.",
+      "secondary_message": "½ orange\n3 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 205°C (400°F).",

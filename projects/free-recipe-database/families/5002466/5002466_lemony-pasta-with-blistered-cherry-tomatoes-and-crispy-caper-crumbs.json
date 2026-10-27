@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 15,
-      "name": "capers, rinsed and patted dry",
-      "quantity": "⅓ cup"
+      "name": "capers",
+      "quantity": "⅓ cup",
+      "prep": "rinsed and patted dry"
     },
     {
       "ingredient_id": 1684,
@@ -91,8 +92,9 @@
     },
     {
       "ingredient_id": 325,
-      "name": "anchovy fillet, rinsed, patted dry, and minced",
-      "quantity": "1"
+      "name": "anchovy fillet",
+      "quantity": "1",
+      "prep": "rinsed, patted dry, and minced"
     },
     {
       "ingredient_id": 47,
@@ -101,13 +103,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 325,
-      "name": "anchovy fillets, rinsed, patted dry, and minced",
-      "quantity": "2"
+      "name": "anchovy fillets",
+      "quantity": "2",
+      "prep": "rinsed, patted dry, and minced"
     },
     {
       "ingredient_id": 277,
@@ -141,11 +145,18 @@
     },
     {
       "ingredient_id": 1746,
-      "name": "fresh basil leaves, roughly torn into 1-inch pieces",
-      "quantity": "½ cup"
+      "name": "fresh basil leaves",
+      "quantity": "½ cup",
+      "prep": "roughly torn into 1-inch pieces"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse and pat the capers dry. Rinse and pat the anchovy fillet dry, then mince it. Thinly slice the garlic. Rinse and pat the anchovy fillets dry, then mince them. Roughly tear the fresh basil leaves into 1-inch pieces.",
+      "secondary_message": "⅓ cup capers\n1 anchovy fillet\n3 cloves garlic\n2 anchovy fillets\n½ cup fresh basil leaves"
+    },
     {
       "id": 1,
       "primary_message": "For the Topping: In a small saucepan or skillet, heat oil over medium heat until shimmering. Add capers and anchovies and cook, stirring frequently, until capers have darkened and shrunk, 3 to 4 minutes. Using a slotted spoon, transfer caper mixture to a paper towel-lined plate; set aside. Leave oil in skillet and return to medium heat. Add panko, salt, and pepper, then cook, stirring constantly, until golden brown, 4 to 5 minutes. Transfer panko to a medium bowl. Stir in parsley, lemon zest, and reserved caper mixture.",

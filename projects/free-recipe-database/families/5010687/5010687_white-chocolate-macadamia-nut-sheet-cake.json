@@ -63,8 +63,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "1 lb"
+      "name": "unsalted butter",
+      "quantity": "1 lb",
+      "prep": "softened"
     },
     {
       "ingredient_id": 293,
@@ -73,8 +74,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 353,
@@ -83,8 +85,9 @@
     },
     {
       "ingredient_id": 2475,
-      "name": "buttermilk, at room temperature",
-      "quantity": "1 ¼ cups"
+      "name": "buttermilk",
+      "quantity": "1 ¼ cups",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1137,
@@ -93,8 +96,9 @@
     },
     {
       "ingredient_id": 3683,
-      "name": "salted macadamia nuts, coarsely chopped roasted",
-      "quantity": "½ cup"
+      "name": "salted macadamia nuts",
+      "quantity": "½ cup",
+      "prep": "coarsely chopped roasted"
     },
     {
       "ingredient_id": 346,
@@ -123,6 +127,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter. Bring the eggs to room temperature. Bring the buttermilk to room temperature. Coarsely chop and roast the salted macadamia nuts.",
+      "secondary_message": "1 lb unsalted butter\n4 large eggs\n1 ¼ cups buttermilk\n½ cup salted macadamia nuts"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Adjust oven rack to middle position and preheat oven to 350°F. Coat a 17 1/4- by 11 1/2-inch jelly roll pan with baking spray.",

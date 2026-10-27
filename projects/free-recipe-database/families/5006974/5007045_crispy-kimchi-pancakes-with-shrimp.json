@@ -56,13 +56,15 @@
     },
     {
       "ingredient_id": 1214,
-      "name": "kimchi brine plus 1 cup drained kimchi, coarsely chopped",
-      "quantity": "¼ cup"
+      "name": "kimchi brine plus 1 cup drained kimchi",
+      "quantity": "¼ cup",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 121,
-      "name": "egg, lightly beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 153,
@@ -111,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Coarsely chop the kimchi brine plus 1 cup drained kimchi. Lightly beat the egg.",
+      "secondary_message": "¼ cup kimchi brine plus 1 cup drained kimchi\n1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, stir together the all-purpose flour, rice flour, water, kimchi brine, and egg; the mixture should be the consistency of slightly lumpy pancake batter. Stir in the chopped kimchi, scallion segments, shrimp, and salt. Add a little more water if needed. Set batter aside.",

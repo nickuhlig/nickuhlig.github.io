@@ -69,8 +69,9 @@
     },
     {
       "ingredient_id": 1747,
-      "name": "bay leaves, lightly crushed",
-      "quantity": "2"
+      "name": "bay leaves",
+      "quantity": "2",
+      "prep": "lightly crushed"
     },
     {
       "ingredient_id": 159,
@@ -85,8 +86,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, peeled, divided",
-      "quantity": "8 medium"
+      "name": "garlic cloves, divided",
+      "quantity": "8 medium",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 106,
@@ -115,6 +117,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly crush the bay leaves. Peel the garlic cloves.",
+      "secondary_message": "2 bay leaves\n8 medium garlic cloves, divided"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, combine mustard, coriander, peppercorns, allspice, Aleppo pepper, and bay leaves. Stir until evenly combined, then set spice mixture aside.",

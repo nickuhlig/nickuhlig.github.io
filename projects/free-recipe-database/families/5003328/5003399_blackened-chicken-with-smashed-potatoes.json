@@ -101,19 +101,22 @@
     },
     {
       "ingredient_id": 3064,
-      "name": "Yukon Gold potatoes, unpeeled, washed, cut into 2-inch pieces",
+      "name": "Yukon Gold potatoes",
       "quantity": "4 medium",
-      "weigh_as": "0.91 kg"
+      "weigh_as": "0.91 kg",
+      "prep": "unpeeled, washed, cut into 2-inch pieces"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 1/2-inch pieces",
-      "quantity": "8 tbsp (4 oz)"
+      "name": "unsalted butter",
+      "quantity": "8 tbsp (4 oz)",
+      "prep": "cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 118,
-      "name": "whole milk, warmed",
-      "quantity": "1 to 1 ½ cups"
+      "name": "whole milk",
+      "quantity": "1 to 1 ½ cups",
+      "prep": "warmed"
     },
     {
       "ingredient_id": 1044,
@@ -122,6 +125,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Leave unpeeled, wash, and cut the Yukon Gold potatoes into 2-inch pieces. Cut the unsalted butter into 1/2-inch pieces. Warm the whole milk.",
+      "secondary_message": "4 medium Yukon Gold potatoes\n8 tbsp (4 oz) unsalted butter\n1 to 1 ½ cups whole milk"
+    },
     {
       "id": 1,
       "primary_message": "Place chicken in a container with 4 cups water and 3 tablespoons salt. Swish salt to dissolve. Let the chicken brine in refrigerator 2 to 3 hours. In medium bowl, stir together paprika, oregano, thyme, onion powder, garlic powder, cayenne powder, black pepper, 1 teaspoon white pepper, and half teaspoon salt.",

@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, minced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "minced"
     },
     {
       "ingredient_id": 47,
@@ -75,8 +76,9 @@
     },
     {
       "ingredient_id": 44,
-      "name": "boneless skinless chicken breasts, cut into 1-inch cubes",
-      "quantity": "1 ½ lb"
+      "name": "boneless skinless chicken breasts",
+      "quantity": "1 ½ lb",
+      "prep": "cut into 1-inch cubes"
     },
     {
       "ingredient_id": 234,
@@ -90,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the shallot. Cut the boneless skinless chicken breasts into 1-inch cubes.",
+      "secondary_message": "1 small shallot\n1 ½ lb boneless skinless chicken breasts"
+    },
     {
       "id": 1,
       "primary_message": "For the Marinade: In a large bowl, combine wine, lemon juice, soy sauce, chopped sage, and shallot. Whisk in olive oil and red pepper flakes, then season with salt.",

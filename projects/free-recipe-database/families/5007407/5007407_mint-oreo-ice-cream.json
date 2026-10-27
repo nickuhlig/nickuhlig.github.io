@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 243,
-      "name": "mint leaves, well packed and washed",
-      "quantity": "2 cups"
+      "name": "mint leaves",
+      "quantity": "2 cups",
+      "prep": "well packed and washed"
     },
     {
       "ingredient_id": 346,
@@ -71,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Well pack and wash the mint leaves.",
+      "secondary_message": "2 cups mint leaves"
+    },
     {
       "id": 1,
       "primary_message": "In a heavy saucepan, bring cream and milk to a simmer. Remove from heat and stir in mint leaves. Cover and let steep for 2 hours.",

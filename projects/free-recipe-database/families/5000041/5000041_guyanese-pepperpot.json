@@ -29,8 +29,9 @@
   "ingredients": [
     {
       "ingredient_id": 1854,
-      "name": "cow foot, cut into roughly 1- by 2-inch pieces",
-      "quantity": "2 lb"
+      "name": "cow foot",
+      "quantity": "2 lb",
+      "prep": "cut into roughly 1- by 2-inch pieces"
     },
     {
       "ingredient_id": 88,
@@ -69,13 +70,15 @@
     },
     {
       "ingredient_id": 1856,
-      "name": "bone-in beef chuck, cut into roughly 2-inch pieces",
-      "quantity": "1 lb"
+      "name": "bone-in beef chuck",
+      "quantity": "1 lb",
+      "prep": "cut into roughly 2-inch pieces"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "6 medium cloves"
+      "name": "garlic",
+      "quantity": "6 medium cloves",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 1857,
@@ -89,21 +92,30 @@
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, peeled and grated",
-      "quantity": "1 (2 ½ inch) knob"
+      "name": "fresh ginger",
+      "quantity": "1 (2 ½ inch) knob",
+      "prep": "peeled and grated"
     },
     {
       "ingredient_id": 349,
-      "name": "whole nutmeg, grated",
-      "quantity": "½"
+      "name": "whole nutmeg",
+      "quantity": "½",
+      "prep": "grated"
     },
     {
       "ingredient_id": 2346,
-      "name": "orange peel, trimmed of excess white pith",
-      "quantity": "1 (1 inch) strip"
+      "name": "orange peel",
+      "quantity": "1 (1 inch) strip",
+      "prep": "trimmed of excess white pith"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cow foot into roughly 1- by 2-inch pieces. Cut the bone-in beef chuck into roughly 2-inch pieces. Finely mince the garlic. Peel and grate the fresh ginger. Grate the whole nutmeg. Trim the orange peel of excess white pith.",
+      "secondary_message": "2 lb cow foot\n1 lb bone-in beef chuck\n6 medium cloves garlic\n1 (2 ½ inch) knob fresh ginger\n½ whole nutmeg\n1 (1 inch) strip orange peel"
+    },
     {
       "id": 1,
       "primary_message": "Season cow foot all over with salt and 1/2 teaspoon chicken bouillon. In a stovetop pressure cooker or electric multicooker (such as an Instant Pot), combine cow foot with 1/2 cup cassareep, 7 sprigs thyme, 8 whole cloves, 1 cinnamon stick, and 4 cups water. Bring to high pressure and cook for 60 minutes. Depressurize the cooker using the rapid release valve, then transfer cow foot and cooking juices into a large pot or Dutch oven and set aside.",

@@ -35,9 +35,10 @@
   "ingredients": [
     {
       "ingredient_id": 260,
-      "name": "best quality tomatoes, cored and chopped",
+      "name": "best quality tomatoes",
       "quantity": "11",
-      "weigh_as": "3 lb"
+      "weigh_as": "3 lb",
+      "prep": "cored and chopped"
     },
     {
       "ingredient_id": 346,
@@ -76,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Core and chop the best quality tomatoes.",
+      "secondary_message": "11 best quality tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "If you are going to preserve jam, prepare jars and lids: place 3 half-pint jars on a rack in a large pot. Add enough water to cover jars, and bring to a boil over high heat. Boil for 10 minutes, then turn off heat and allow jars to rest in hot water. Meanwhile, put bands and lids in a small saucepan and cover with water. Heat over medium heat until water is simmering, then remove pan from heat and allow bands and lids to rest in hot water until ready to use.",

@@ -108,8 +108,9 @@
     },
     {
       "ingredient_id": 339,
-      "name": "fresh sage, roughly chopped",
-      "quantity": "7 g"
+      "name": "fresh sage",
+      "quantity": "7 g",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 88,
@@ -123,6 +124,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the fresh sage.",
+      "secondary_message": "7 g fresh sage"
+    },
     {
       "id": 1,
       "primary_message": "Make the marshmallows: Prepare an 20-cm square pan (or a similarly sized pan) by greasing it lightly with pan spray. In the bottom of a stand-mixer bowl, combine the gelatin and water. Whisk with a fork to break up any lumps of gelatin. Set aside.",

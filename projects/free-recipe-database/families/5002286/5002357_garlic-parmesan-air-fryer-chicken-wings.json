@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 1681,
-      "name": "whole chicken wings, cut at joints into drumettes and flats",
-      "quantity": "0.91 kg"
+      "name": "whole chicken wings",
+      "quantity": "0.91 kg",
+      "prep": "cut at joints into drumettes and flats"
     },
     {
       "ingredient_id": 88,
@@ -60,8 +61,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "5 medium"
+      "name": "garlic cloves",
+      "quantity": "5 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 120,
@@ -70,11 +72,18 @@
     },
     {
       "ingredient_id": 106,
-      "name": "fresh flat-leaf parsley, finely chopped",
-      "quantity": "¼ cup"
+      "name": "fresh flat-leaf parsley",
+      "quantity": "¼ cup",
+      "prep": "finely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the whole chicken wings at joints into drumettes and flats. Mince the garlic cloves. Finely chop the fresh flat-leaf parsley.",
+      "secondary_message": "0.91 kg whole chicken wings\n5 medium garlic cloves\n¼ cup fresh flat-leaf parsley"
+    },
     {
       "id": 1,
       "primary_message": "Pat chicken wings dry with paper towels. In a large bowl, toss wings with baking powder and 2 teaspoons of kosher salt until evenly coated. At this point, the wings can be cooked immediately or transferred to a wire rack set in a rimmed baking sheet and refrigerated, uncovered, for up to 24 hours. (The final seasoning level will improve the longer the wings are dry-brined.)",

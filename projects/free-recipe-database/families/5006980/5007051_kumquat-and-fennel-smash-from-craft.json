@@ -33,8 +33,9 @@
   "ingredients": [
     {
       "ingredient_id": 2813,
-      "name": "kumquats, cut in half",
-      "quantity": "3"
+      "name": "kumquats",
+      "quantity": "3",
+      "prep": "cut in half"
     },
     {
       "ingredient_id": 470,
@@ -68,6 +69,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the kumquats in half.",
+      "secondary_message": "3 kumquats"
+    },
     {
       "id": 1,
       "primary_message": "Combine and muddle the 3 kumquats, the chopped fennel, lemon juice and agave nectar in a shaker.",

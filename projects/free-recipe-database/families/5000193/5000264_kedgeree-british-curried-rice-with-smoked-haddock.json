@@ -69,8 +69,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, thinly sliced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1982,
@@ -99,6 +100,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the yellow onion.",
+      "secondary_message": "1 medium yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "In a large pot, bring 2800 ml water to a boil. Carefully lower eggs into pot and continue to boil for 30 seconds. Cover tightly, reduce heat to low (water should maintain a bare simmer), and continue cooking for 8 minutes. Drain, then fill pot with cold water. Let stand, then peel and quarter eggs.",

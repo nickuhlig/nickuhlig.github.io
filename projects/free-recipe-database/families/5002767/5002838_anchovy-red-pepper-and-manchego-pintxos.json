@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, cut in half",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "cut in half"
     },
     {
       "ingredient_id": 2035,
@@ -56,13 +57,15 @@
     },
     {
       "ingredient_id": 452,
-      "name": "jarred roasted red bell pepper, drained and cut into 12 slivers",
-      "quantity": "1"
+      "name": "jarred roasted red bell pepper",
+      "quantity": "1",
+      "prep": "drained and cut into 12 slivers"
     },
     {
       "ingredient_id": 325,
-      "name": "olive oil-packed anchovy fillets, drained",
-      "quantity": "12"
+      "name": "olive oil-packed anchovy fillets",
+      "quantity": "12",
+      "prep": "drained"
     },
     {
       "ingredient_id": 1726,
@@ -71,6 +74,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the garlic in half. Drain and cut the jarred roasted red bell pepper into 12 slivers. Drain the olive oil-packed anchovy fillets.",
+      "secondary_message": "1 medium clove garlic\n1 jarred roasted red bell pepper\n12 olive oil-packed anchovy fillets"
+    },
     {
       "id": 1,
       "primary_message": "Brush both sides of the baguette slices with the olive oil, then place the baguette slices on a baking sheet. Lightly toast the bread directly under the broiler until golden brown, 30-seconds to 1 minute per side. Remove the bread from the broiler and rub the top of each baguette slice with the cut side of the garlic.",

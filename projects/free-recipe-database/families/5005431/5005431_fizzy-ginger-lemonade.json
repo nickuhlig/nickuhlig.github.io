@@ -32,8 +32,9 @@
   "ingredients": [
     {
       "ingredient_id": 221,
-      "name": "ginger, peeled and cut into small chunks",
-      "quantity": "1 (2 inch) knob"
+      "name": "ginger",
+      "quantity": "1 (2 inch) knob",
+      "prep": "peeled and cut into small chunks"
     },
     {
       "ingredient_id": 1480,
@@ -67,6 +68,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the ginger into small chunks.",
+      "secondary_message": "1 (2 inch) knob ginger"
+    },
     {
       "id": 1,
       "primary_message": "Combine ginger, lemon juice, sugar, salt, and water in a blender. Blend on high speed for 1 minute. Strain through a fine mesh strainer into a pitcher. Add club soda and ice and stir to combine. Serve immediately in ice-filled glasses.",

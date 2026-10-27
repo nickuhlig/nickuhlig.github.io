@@ -48,8 +48,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, very cold",
-      "quantity": "½ cup"
+      "name": "unsalted butter",
+      "quantity": "½ cup",
+      "prep": "very cold"
     },
     {
       "ingredient_id": 2238,
@@ -58,6 +59,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the unsalted butter cold until you use it.",
+      "secondary_message": "½ cup unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Place the flour and salt into a bowl. Add the butter and cut it into the flour with a knife or pastry bench scraper until the butter is in pea-sized pieces. Add the lard and cut it into the flour until it is in pea-sized pieces as well.",

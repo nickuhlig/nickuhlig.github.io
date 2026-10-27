@@ -54,8 +54,9 @@
     },
     {
       "ingredient_id": 1882,
-      "name": "cardamom pods, pressed until they just crack open",
-      "quantity": "4"
+      "name": "cardamom pods",
+      "quantity": "4",
+      "prep": "pressed until they just crack open"
     },
     {
       "ingredient_id": 1514,
@@ -74,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Press the cardamom pods until they just crack open.",
+      "secondary_message": "4 cardamom pods"
+    },
     {
       "id": 1,
       "primary_message": "Turn slow cooker to high and add apple cider. Cover and set aside.",

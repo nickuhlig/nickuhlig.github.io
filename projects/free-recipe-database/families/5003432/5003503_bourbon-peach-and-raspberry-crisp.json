@@ -76,8 +76,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "zested"
     },
     {
       "ingredient_id": 327,
@@ -86,11 +87,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, chilled cut into small cubes",
-      "quantity": "10 tbsp"
+      "name": "butter",
+      "quantity": "10 tbsp",
+      "prep": "chilled cut into small cubes"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the lemon. Chill the butter cut into small cubes.",
+      "secondary_message": "1 lemon\n10 tbsp butter"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 190°C (375°F) with a rack in the middle. In a 9 by 9 glass baking dish, toss peaches and raspberries with bourbon and 1/4 teaspoon salt. Set aside.",

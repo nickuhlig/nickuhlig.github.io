@@ -54,8 +54,9 @@
     },
     {
       "ingredient_id": 2447,
-      "name": "brewed hibiscus tea, cooled",
-      "quantity": "4 ½ cups"
+      "name": "brewed hibiscus tea",
+      "quantity": "4 ½ cups",
+      "prep": "cooled"
     },
     {
       "ingredient_id": 1067,
@@ -69,6 +70,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cool the brewed hibiscus tea.",
+      "secondary_message": "4 ½ cups brewed hibiscus tea"
+    },
     {
       "id": 1,
       "primary_message": "Place mint leaves and simple syrup in bottom of a lidded pitcher. Juice lemons and add lemon juice, cooled hibiscus tea, and rum to pitcher. Add 1 cup ice, stir and cover. Continue to step 2, or refrigerate for up to 6 hours.",

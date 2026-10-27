@@ -94,8 +94,9 @@
     },
     {
       "ingredient_id": 1239,
-      "name": "blue cheese, crumbled",
-      "quantity": "4 oz"
+      "name": "blue cheese",
+      "quantity": "4 oz",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 29,
@@ -104,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Crumble the blue cheese.",
+      "secondary_message": "4 oz blue cheese"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 400°F.",

@@ -32,8 +32,9 @@
   "ingredients": [
     {
       "ingredient_id": 2888,
-      "name": "dried figs, split into quarters",
-      "quantity": "6"
+      "name": "dried figs",
+      "quantity": "6",
+      "prep": "split into quarters"
     },
     {
       "ingredient_id": 2448,
@@ -87,6 +88,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the dried figs into quarters.",
+      "secondary_message": "6 dried figs"
+    },
     {
       "id": 1,
       "primary_message": "Make the Fig Mostarda: Combine dried figs, cognac, sugar, whole grain mustard, and mustard powder in a small saucepan and bring to a simmer over medium-high heat. Reduce heat to maintain a bare simmer and cook until reduced and syrupy, about 30 minutes. Transfer to a bowl and set aside until cool. Season with a pinch of salt.",

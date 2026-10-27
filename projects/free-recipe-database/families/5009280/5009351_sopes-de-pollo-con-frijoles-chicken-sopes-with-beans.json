@@ -75,8 +75,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, peeled and roughly chopped",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "peeled and roughly chopped"
     },
     {
       "ingredient_id": 188,
@@ -110,6 +111,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and roughly chop the onion.",
+      "secondary_message": "1 small onion"
+    },
     {
       "id": 1,
       "primary_message": "Place chicken in a medium saucepan and add chicken stock. Bring to a boil over high heat, reduce to a bare simmer, and cook, turning chicken occasionally, until center of chicken registers 66°C on an instant read thermometer, about 20 minutes. Remove chicken from broth and allow to cool.",

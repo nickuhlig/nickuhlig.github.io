@@ -45,8 +45,9 @@
   "ingredients": [
     {
       "ingredient_id": 242,
-      "name": "fresh strawberries, washed, hulled, and divided",
-      "quantity": "0.91 kg"
+      "name": "fresh strawberries, and divided",
+      "quantity": "0.91 kg",
+      "prep": "washed, hulled"
     },
     {
       "ingredient_id": 346,
@@ -80,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash and hull the fresh strawberries.",
+      "secondary_message": "0.91 kg fresh strawberries, and divided"
+    },
     {
       "id": 1,
       "primary_message": "Quarter 170 g (about 1 cup) strawberries, then slice quarters crosswise into very thin pieces. In a mixing bowl, combine strawberries with 1/2 cup sugar and alcohol and let stand in refrigerator for at least 2 hours and up to 2 days.",

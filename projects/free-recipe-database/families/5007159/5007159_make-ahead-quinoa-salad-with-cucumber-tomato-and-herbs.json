@@ -51,13 +51,15 @@
     },
     {
       "ingredient_id": 277,
-      "name": "grape tomatoes, split into quarters",
-      "quantity": "1 pint"
+      "name": "grape tomatoes",
+      "quantity": "1 pint",
+      "prep": "split into quarters"
     },
     {
       "ingredient_id": 1980,
-      "name": "cucumber, seeds removed, cut into 1/2-inch pieces",
-      "quantity": "1 large"
+      "name": "cucumber",
+      "quantity": "1 large",
+      "prep": "seeds removed, cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 88,
@@ -66,8 +68,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, minced",
-      "quantity": "2 small"
+      "name": "shallots",
+      "quantity": "2 small",
+      "prep": "minced"
     },
     {
       "ingredient_id": 106,
@@ -96,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the grape tomatoes into quarters. Remove the seeds from the cucumber, then cut it into 1/2-inch pieces. Mince the shallots.",
+      "secondary_message": "1 pint grape tomatoes\n1 large cucumber\n2 small shallots"
+    },
     {
       "id": 1,
       "primary_message": "Combine quinoa and 2 cups water in a small saucepan. Bring to a boil, stir, reduce heat to low, cover, and cook for 7 minutes. Shut off heat and let rest until water is absorbed, about 5 minutes longer. Transfer quinoa to a fine-mesh strainer and rinse under cold water until thoroughly chilled. Let drain for 10 minutes.",

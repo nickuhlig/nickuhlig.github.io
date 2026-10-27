@@ -52,8 +52,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "¾ cup"
+      "name": "unsalted butter",
+      "quantity": "¾ cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -82,8 +83,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, roughly cut into pieces",
-      "quantity": "6 tbsp"
+      "name": "unsalted butter",
+      "quantity": "6 tbsp",
+      "prep": "roughly cut into pieces"
     },
     {
       "ingredient_id": 1609,
@@ -97,11 +99,18 @@
     },
     {
       "ingredient_id": 327,
-      "name": "roughly chopped pecans, toasted",
-      "quantity": "2 cups"
+      "name": "roughly chopped pecans",
+      "quantity": "2 cups",
+      "prep": "toasted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature. Roughly cut the unsalted butter into pieces. Toast the roughly chopped pecans.",
+      "secondary_message": "¾ cup unsalted butter\n6 tbsp unsalted butter\n2 cups roughly chopped pecans"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 375°F. Line a 13 by 9 inch baking pan with foil. Grease foil with butter.",

@@ -50,8 +50,9 @@
   "ingredients": [
     {
       "ingredient_id": 3190,
-      "name": "pilsner malt, crushed",
-      "quantity": "7 lb"
+      "name": "pilsner malt",
+      "quantity": "7 lb",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 359,
@@ -95,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Crush the pilsner malt.",
+      "secondary_message": "7 lb pilsner malt"
+    },
     {
       "id": 1,
       "primary_message": "Line the 7.5 gallon kettle with the mesh bag, fill with 2.5 gallons of tap water and bring to 157°F. Remove from heat.",

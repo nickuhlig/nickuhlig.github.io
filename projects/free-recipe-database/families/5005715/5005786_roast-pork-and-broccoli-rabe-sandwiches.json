@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 1675,
-      "name": "broccoli rabe, tough stems trimmed",
-      "quantity": "0.45 kg"
+      "name": "broccoli rabe",
+      "quantity": "0.45 kg",
+      "prep": "tough stems trimmed"
     },
     {
       "ingredient_id": 47,
@@ -61,13 +62,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "6 medium cloves"
+      "name": "garlic",
+      "quantity": "6 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 325,
-      "name": "anchovy fillets, mashed",
-      "quantity": "4"
+      "name": "anchovy fillets",
+      "quantity": "4",
+      "prep": "mashed"
     },
     {
       "ingredient_id": 1721,
@@ -96,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the tough stems of the broccoli rabe. Thinly slice the garlic. Mash the anchovy fillets.",
+      "secondary_message": "0.45 kg broccoli rabe\n6 medium cloves garlic\n4 anchovy fillets"
+    },
     {
       "id": 1,
       "primary_message": "Cook pork according to our Ultra-Crispy Slow-Cooked Pork Recipe.",

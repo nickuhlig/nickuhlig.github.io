@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 1811,
-      "name": "shrimp, peeled and deveined",
-      "quantity": "½ lb"
+      "name": "shrimp",
+      "quantity": "½ lb",
+      "prep": "peeled and deveined"
     },
     {
       "ingredient_id": 326,
@@ -46,13 +47,15 @@
     },
     {
       "ingredient_id": 260,
-      "name": "tomato, diced",
-      "quantity": "½"
+      "name": "tomato",
+      "quantity": "½",
+      "prep": "diced"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño, minced",
-      "quantity": "1"
+      "name": "jalapeño",
+      "quantity": "1",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1421,
@@ -76,6 +79,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and devein the shrimp. Dice the tomato. Mince the jalapeño.",
+      "secondary_message": "½ lb shrimp\n½ tomato\n1 jalapeño"
+    },
     {
       "id": 1,
       "primary_message": "Combine shrimp, scallops, tomato, jalapeño and optional vegetables if using in large bowl. Toss with lemon and lime juice and let sit in the refrigerator for 20 minutes, or until shrimp are pink. Season to taste with salt and serve over Bibb lettuce.",

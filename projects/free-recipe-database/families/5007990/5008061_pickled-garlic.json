@@ -47,8 +47,9 @@
   "ingredients": [
     {
       "ingredient_id": 24,
-      "name": "fresh garlic, peeled",
-      "quantity": "0.45 kg"
+      "name": "fresh garlic",
+      "quantity": "0.45 kg",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 130,
@@ -67,6 +68,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the fresh garlic.",
+      "secondary_message": "0.45 kg fresh garlic"
+    },
     {
       "id": 1,
       "primary_message": "Prepare a small canning pot and 3 half-pint jars. Place 3 new lids in a small pot of water and bring to the barest simmer.",

@@ -144,13 +144,15 @@
     },
     {
       "ingredient_id": 150,
-      "name": "red bell pepper, stemmed, seeded, and thinly sliced",
-      "quantity": "1 medium"
+      "name": "red bell pepper",
+      "quantity": "1 medium",
+      "prep": "stemmed, seeded, and thinly sliced"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, thinly sliced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1250,
@@ -159,6 +161,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem, seed, and thinly slice the red bell pepper. Thinly slice the onion.",
+      "secondary_message": "1 medium red bell pepper\n1 medium onion"
+    },
     {
       "id": 1,
       "primary_message": "For the Spice Blend: In a small mixing bowl, whisk ground Sichuan peppercorns, garlic powder, onion powder, five-spice, white pepper, sugar, MSG, chicken bouillon powder, and Sichuan chili flakes to combine. Season to taste with additional garlic powder, sugar, and/or chili flakes as desired; set aside.",

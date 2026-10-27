@@ -33,8 +33,9 @@
   "ingredients": [
     {
       "ingredient_id": 1612,
-      "name": "cotija cheese, crumbled",
-      "quantity": "8 oz"
+      "name": "cotija cheese",
+      "quantity": "8 oz",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 346,
@@ -73,6 +74,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Crumble the cotija cheese.",
+      "secondary_message": "8 oz cotija cheese"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 375°F.",

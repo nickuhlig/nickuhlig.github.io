@@ -48,9 +48,10 @@
   "ingredients": [
     {
       "ingredient_id": 13,
-      "name": "beets, unpeeled, greens removed, scrubbed clean",
+      "name": "beets",
       "quantity": "11 medium",
-      "weigh_as": "2 lb"
+      "weigh_as": "2 lb",
+      "prep": "unpeeled, greens removed, scrubbed clean"
     },
     {
       "ingredient_id": 47,
@@ -94,8 +95,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, minced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "minced"
     },
     {
       "ingredient_id": 103,
@@ -109,11 +111,18 @@
     },
     {
       "ingredient_id": 2365,
-      "name": "pistachios, toasted and roughly chopped",
-      "quantity": "4 oz"
+      "name": "pistachios",
+      "quantity": "4 oz",
+      "prep": "toasted and roughly chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Leave unpeeled the beets, then remove the greens, then scrub them clean. Mince the shallot. Toast and roughly chop the pistachios.",
+      "secondary_message": "11 medium beets\n1 small shallot\n4 oz pistachios"
+    },
     {
       "id": 1,
       "primary_message": "For the Beets: Preheat oven to 375°F. Fold a 12- by 24-inch sheet of aluminum foil in half to form a square. Crimp together foil on 2 sides of the square to form a pouch with an opening on one side. In a medium bowl, toss together beets, 1 tablespoon olive oil, and salt and pepper to taste until beets are coated. Add to pouch and crimp remaining side to seal. (If using beets of multiple colors, roast in separate pouches.)\nTransfer to a rimmed baking sheet and place in oven. Roast until beets are completely tender and a toothpick or cake tester inserted into a beet through foil meets little to no resistance, about 1 1/2 hours. Remove from oven and allow to cool. When beets are cool enough to handle, peel by gently rubbing skin under cold running water. Cut beets into 1 1/2–inch chunks. Beets can be cooked and stored in the refrigerator for up to 5 days.",

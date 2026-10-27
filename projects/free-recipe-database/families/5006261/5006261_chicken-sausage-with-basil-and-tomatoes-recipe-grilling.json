@@ -32,8 +32,9 @@
   "ingredients": [
     {
       "ingredient_id": 164,
-      "name": "boneless chicken thighs, cubed",
-      "quantity": "5 lb"
+      "name": "boneless chicken thighs",
+      "quantity": "5 lb",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 88,
@@ -67,8 +68,9 @@
     },
     {
       "ingredient_id": 130,
-      "name": "red wine vinegar, chilled",
-      "quantity": "¼ cup"
+      "name": "red wine vinegar",
+      "quantity": "¼ cup",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 47,
@@ -77,8 +79,9 @@
     },
     {
       "ingredient_id": 1714,
-      "name": "dry red wine, chilled",
-      "quantity": "¼ cup"
+      "name": "dry red wine",
+      "quantity": "¼ cup",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 2628,
@@ -87,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cube the boneless chicken thighs. Keep the red wine vinegar cold until you use it. Keep the dry red wine cold until you use it.",
+      "secondary_message": "5 lb boneless chicken thighs\n¼ cup red wine vinegar\n¼ cup dry red wine"
+    },
     {
       "id": 1,
       "primary_message": "Combine the meat, salt, pepper, garlic, basil, and tomatoes and toss together until evenly mixed. Chill until ready to grind.",

@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 359,
-      "name": "tap water, split",
-      "quantity": "6 gallon"
+      "name": "tap water",
+      "quantity": "6 gallon",
+      "prep": "split"
     },
     {
       "ingredient_id": 2467,
@@ -50,18 +51,21 @@
     },
     {
       "ingredient_id": 2577,
-      "name": "CaraRed malt, crushed",
-      "quantity": "1 lb"
+      "name": "CaraRed malt",
+      "quantity": "1 lb",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 2577,
-      "name": "Crystal 60 L malt, crushed",
-      "quantity": "½ lb"
+      "name": "Crystal 60 L malt",
+      "quantity": "½ lb",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 2577,
-      "name": "Black Roasted Barley malt, crushed",
-      "quantity": "2 oz"
+      "name": "Black Roasted Barley malt",
+      "quantity": "2 oz",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 2626,
@@ -95,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the tap water. Crush the CaraRed malt. Crush the Crystal 60 L malt. Crush the Black Roasted Barley malt.",
+      "secondary_message": "6 gallon tap water\n1 lb CaraRed malt\n½ lb Crystal 60 L malt\n2 oz Black Roasted Barley malt"
+    },
     {
       "id": 1,
       "primary_message": "If possible, place 3 gallons water in the refrigerator to cool in a sanitized container.",

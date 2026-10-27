@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "butter, cut into small chunks",
-      "quantity": "1 stick"
+      "name": "butter",
+      "quantity": "1 stick",
+      "prep": "cut into small chunks"
     },
     {
       "ingredient_id": 2150,
@@ -80,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the butter into small chunks.",
+      "secondary_message": "1 stick butter"
+    },
     {
       "id": 1,
       "primary_message": "In a skillet, melt butter on medium heat. When fully melted, increase heat and let butter brown to a rich amber. When the color has darkened significantly and you see black particles in the pan, pour off into a heat-proof container, straining out the black particles on the bottom, and set aside to cool.",

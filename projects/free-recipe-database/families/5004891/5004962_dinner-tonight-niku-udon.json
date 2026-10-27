@@ -34,8 +34,9 @@
   "ingredients": [
     {
       "ingredient_id": 359,
-      "name": "water, at room temperature",
-      "quantity": "946 ml"
+      "name": "water",
+      "quantity": "946 ml",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1990,
@@ -59,18 +60,21 @@
     },
     {
       "ingredient_id": 2413,
-      "name": "beef, very thinly sliced",
-      "quantity": "227 g"
+      "name": "beef",
+      "quantity": "227 g",
+      "prep": "very thinly sliced"
     },
     {
       "ingredient_id": 2478,
-      "name": "firm tofu, cut into 1/4-inch cubes",
-      "quantity": "½ cup"
+      "name": "firm tofu",
+      "quantity": "½ cup",
+      "prep": "cut into 1/4-inch cubes"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, ends trimmed, chopped into 1-inch pieces",
-      "quantity": "2"
+      "name": "scallions",
+      "quantity": "2",
+      "prep": "ends trimmed, chopped into 1-inch pieces"
     },
     {
       "ingredient_id": 2671,
@@ -84,6 +88,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the water to room temperature. Very thinly slice the beef. Cut the firm tofu into 1/4-inch cubes. Trim the ends of the scallions, then chop them into 1-inch pieces.",
+      "secondary_message": "946 ml water\n227 g beef\n½ cup firm tofu\n2 scallions"
+    },
     {
       "id": 1,
       "primary_message": "Fill a large pot halfway up with water and bring to a boil.",

@@ -49,24 +49,28 @@
     },
     {
       "ingredient_id": 2021,
-      "name": "Serrano pepper, roughly sliced",
-      "quantity": "1"
+      "name": "Serrano pepper",
+      "quantity": "1",
+      "prep": "roughly sliced"
     },
     {
       "ingredient_id": 1541,
-      "name": "roma tomatoes, roughly chopped",
+      "name": "roma tomatoes",
       "quantity": "7",
-      "weigh_as": "0.45 kg"
+      "weigh_as": "0.45 kg",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, sliced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 1618,
@@ -145,6 +149,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly slice the Serrano pepper. Roughly chop the roma tomatoes. Slice the onion. Smash the garlic.",
+      "secondary_message": "1 Serrano pepper\n7 roma tomatoes\n1 medium onion\n4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Chicken and Sauce: Trim tops of chiles and discard seeds (see here for more detailed instructions). Place on a microwave-safe plate and microwave on high power until pliable and fragrant, about 15 seconds. Cut chiles into thin strips using kitchen shears or a sharp knife.",

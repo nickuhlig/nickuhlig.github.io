@@ -63,8 +63,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, about 65°F",
-      "quantity": "113 g"
+      "name": "unsalted butter",
+      "quantity": "113 g",
+      "prep": "about 65°F"
     },
     {
       "ingredient_id": 1848,
@@ -88,8 +89,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, brought to about 65°F",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "brought to about 65°F"
     },
     {
       "ingredient_id": 116,
@@ -108,6 +110,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to 65°F. Bring the eggs to about 65°F.",
+      "secondary_message": "113 g unsalted butter\n3 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower-middle position and preheat to 190°C (375°F). Lightly grease a 0.45 kg aluminum loaf pan and dust with flour. In the bowl of a stand mixer fitted with a paddle attachment, combine sugar, butter, coconut oil, baking powder, salt, and vanilla seeds. Mix on low to combine, then increase to medium and cream until fluffy and light, about 5 minutes. About halfway through, pause to scrape bowl and beater with a flexible spatula.",

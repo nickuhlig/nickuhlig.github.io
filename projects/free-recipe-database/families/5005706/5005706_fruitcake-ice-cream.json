@@ -48,8 +48,9 @@
     },
     {
       "ingredient_id": 215,
-      "name": "dried apricots, minced",
-      "quantity": "¼ cup"
+      "name": "dried apricots",
+      "quantity": "¼ cup",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1268,
@@ -108,16 +109,24 @@
     },
     {
       "ingredient_id": 327,
-      "name": "toasted pecans, chopped",
-      "quantity": "½ cup"
+      "name": "toasted pecans",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 272,
-      "name": "toasted walnuts, chopped",
-      "quantity": "½ cup"
+      "name": "toasted walnuts",
+      "quantity": "½ cup",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the dried apricots. Chop the toasted pecans. Chop the toasted walnuts.",
+      "secondary_message": "¼ cup dried apricots\n½ cup toasted pecans\n½ cup toasted walnuts"
+    },
     {
       "id": 1,
       "primary_message": "Combine cherries, apricots, raisins, and ginger in a bowl and add 3/4 cup rum. Stir to submerge fruit, cover with plastic wrap, and let soak at room temperature for 24 hours.",

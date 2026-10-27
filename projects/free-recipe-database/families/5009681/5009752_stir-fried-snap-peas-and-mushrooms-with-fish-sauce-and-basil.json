@@ -65,23 +65,27 @@
     },
     {
       "ingredient_id": 2250,
-      "name": "packages hon-shimeji mushrooms, bottoms trimmed",
-      "quantity": "2"
+      "name": "packages hon-shimeji mushrooms",
+      "quantity": "2",
+      "prep": "bottoms trimmed"
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely minced",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced or grated on a microplane grater",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "minced or grated on a microplane grater"
     },
     {
       "ingredient_id": 36,
-      "name": "sugar snap peas, trimmed and strings removed",
-      "quantity": "0.45 kg"
+      "name": "sugar snap peas",
+      "quantity": "0.45 kg",
+      "prep": "trimmed and strings removed"
     },
     {
       "ingredient_id": 28,
@@ -95,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the bottoms of the packages hon-shimeji mushrooms. Finely mince the shallot. Mince or grate the garlic on a microplane grater. Trim the sugar snap peas, then remove the strings.",
+      "secondary_message": "2 packages hon-shimeji mushrooms\n1 medium shallot\n2 medium cloves garlic\n0.45 kg sugar snap peas"
+    },
     {
       "id": 1,
       "primary_message": "Combine fish sauce, soy sauce, sugar, and lime juice in a small bowl and set aside. Heat 1 tablespoon oil in a large wok over high heat until smoking. Add mushrooms and cook, stirring and tossing frequently until browned on a few surfaces and cooked through, about 5 minutes total. Add shallots and garlic and cook, stirring and tossing constantly, until fragrant, about 30 seconds. Transfer mushrooms to a medium bowl and set aside.",

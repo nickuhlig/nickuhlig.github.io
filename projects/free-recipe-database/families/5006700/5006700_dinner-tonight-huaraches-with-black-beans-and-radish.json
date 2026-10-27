@@ -44,8 +44,9 @@
     },
     {
       "ingredient_id": 185,
-      "name": "canned cooked black beans, drained",
-      "quantity": "¾ cup"
+      "name": "canned cooked black beans",
+      "quantity": "¾ cup",
+      "prep": "drained"
     },
     {
       "ingredient_id": 1044,
@@ -64,26 +65,36 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, chopped",
-      "quantity": "⅔ cup"
+      "name": "white onion",
+      "quantity": "⅔ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 188,
-      "name": "cilantro, chopped",
-      "quantity": "½ cup"
+      "name": "cilantro",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 343,
-      "name": "radishes, cut into matchsticks",
-      "quantity": "3 to 4"
+      "name": "radishes",
+      "quantity": "3 to 4",
+      "prep": "cut into matchsticks"
     },
     {
       "ingredient_id": 228,
-      "name": "limes, cut into wedges",
-      "quantity": "2"
+      "name": "limes",
+      "quantity": "2",
+      "prep": "cut into wedges"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain the canned cooked black beans. Chop the white onion. Chop the cilantro. Cut the radishes into matchsticks. Cut the limes into wedges.",
+      "secondary_message": "¾ cup canned cooked black beans\n⅔ cup white onion\n½ cup cilantro\n3 to 4 radishes\n2 limes"
+    },
     {
       "id": 1,
       "primary_message": "If using masa harina, mix with 1 cup plus 2 tablespoons hot tap water and 3/4 teaspoon salt and allow to hydrate for 5 minutes, covered with plastic wrap. If using fresh masa, combine with 3/4 teaspoon salt. Divide mixture into 8 balls. Cover with plastic wrap.",

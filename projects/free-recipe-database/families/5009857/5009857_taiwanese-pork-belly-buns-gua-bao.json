@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, crushed",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 221,
@@ -111,6 +112,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Crush the garlic.",
+      "secondary_message": "2 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Pork Belly: Heat the oil over medium-high heat in a large skillet or wok. Cook pork belly until lightly browned on the bottom, about 3 minutes. Flip pork belly and cook until lightly browned, about 2 minutes longer. Transfer pork belly to a plate and set aside.",

@@ -81,8 +81,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 1/2-inch cubes",
-      "quantity": "10 tbsp"
+      "name": "unsalted butter",
+      "quantity": "10 tbsp",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 1691,
@@ -91,11 +92,18 @@
     },
     {
       "ingredient_id": 327,
-      "name": "pecans, toasted and coarsely chopped",
-      "quantity": "½ cup"
+      "name": "pecans",
+      "quantity": "½ cup",
+      "prep": "toasted and coarsely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into 1/2-inch cubes. Toast and coarsely chop the pecans.",
+      "secondary_message": "10 tbsp unsalted butter\n½ cup pecans"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350ºF (175ºC). Bring a large pot of water to a boil over high heat. In a large bowl, set up an ice bath by filling it halfway with cold water and ice. Set aside.",

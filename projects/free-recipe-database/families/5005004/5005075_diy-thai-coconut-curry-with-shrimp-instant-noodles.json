@@ -76,8 +76,9 @@
     },
     {
       "ingredient_id": 19,
-      "name": "button mushrooms, thinly sliced",
-      "quantity": "240 ml"
+      "name": "button mushrooms",
+      "quantity": "240 ml",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1827,
@@ -91,11 +92,18 @@
     },
     {
       "ingredient_id": 228,
-      "name": "whole lime, cut into 4 wedges",
-      "quantity": "1"
+      "name": "whole lime",
+      "quantity": "1",
+      "prep": "cut into 4 wedges"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the button mushrooms. Cut the whole lime into 4 wedges.",
+      "secondary_message": "240 ml button mushrooms\n1 whole lime"
+    },
     {
       "id": 1,
       "primary_message": "Divide chicken base, sugar, curry paste, chile-garlic sauce, fish sauce, shrimp, mushrooms, coconut milk, and noodles between 4 resealable glass jars. Divide scallions and lime wedges between 4 small zipper-lock bags and seal bags, squeezing out all of the air. Tuck bags into jars and seal. Refrigerate for up to 4 days.",

@@ -102,8 +102,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "20 tbsp"
+      "name": "unsalted butter",
+      "quantity": "20 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1710,
@@ -132,11 +133,18 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, melted and cooled",
-      "quantity": "10 oz"
+      "name": "bittersweet chocolate",
+      "quantity": "10 oz",
+      "prep": "melted and cooled"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter. Melt the bittersweet chocolate and let it cool.",
+      "secondary_message": "20 tbsp unsalted butter\n10 oz bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Adjust oven rack to middle position and preheat oven to 350°F. Line bottoms of two 9-inch cake pans with parchment paper and lightly coat the inside with nonstick cooking spray.",

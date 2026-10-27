@@ -98,13 +98,15 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, at room temperature",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 3641,
-      "name": "egg yolk, at room temperature",
-      "quantity": "1 large"
+      "name": "egg yolk",
+      "quantity": "1 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 2525,
@@ -118,11 +120,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "at room temperature"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the egg to room temperature. Bring the egg yolk to room temperature. Bring the unsalted butter to room temperature.",
+      "secondary_message": "1 large egg\n1 large egg yolk\n2 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in Dutch oven or large pot over medium-high heat until temperature registers 350°F (oil should be about 1 1/2 inches deep). Line a baking sheet with two layers of paper towels.",

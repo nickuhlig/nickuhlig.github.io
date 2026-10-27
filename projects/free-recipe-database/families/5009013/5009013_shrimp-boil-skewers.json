@@ -98,21 +98,30 @@
     },
     {
       "ingredient_id": 2489,
-      "name": "andouille, cut into 1-inch rounds",
-      "quantity": "¾ lb"
+      "name": "andouille",
+      "quantity": "¾ lb",
+      "prep": "cut into 1-inch rounds"
     },
     {
       "ingredient_id": 1811,
-      "name": "shrimp, large, peeled and deveined",
-      "quantity": "1 lb"
+      "name": "shrimp, large",
+      "quantity": "1 lb",
+      "prep": "peeled and deveined"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "¼ cup"
+      "name": "unsalted butter",
+      "quantity": "¼ cup",
+      "prep": "melted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the andouille into 1-inch rounds. Peel and devein the shrimp. Melt the unsalted butter.",
+      "secondary_message": "¾ lb andouille\n1 lb shrimp, large\n¼ cup unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, mix together paprika, salt, garlic powder, onion powder, thyme, black pepper, oregano,cumin, white pepper, and cayenne pepper. Set aside.",

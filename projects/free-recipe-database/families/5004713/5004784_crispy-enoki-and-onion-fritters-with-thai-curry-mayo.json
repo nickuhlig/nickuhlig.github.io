@@ -59,13 +59,15 @@
     },
     {
       "ingredient_id": 2802,
-      "name": "Enoki mushrooms, bottoms trimmed",
-      "quantity": "2 (99 g) pkgs"
+      "name": "Enoki mushrooms",
+      "quantity": "2 (99 g) pkgs",
+      "prep": "bottoms trimmed"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely sliced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 2529,
@@ -119,6 +121,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the bottoms of the Enoki mushrooms. Finely slice the onion.",
+      "secondary_message": "2 (99 g) pkgs Enoki mushrooms\n1 medium onion"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center position and preheat oven to 95°C (200°F). Whisk together mayonnaise, curry paste, and lime juice in a small bowl until homogenous. Set aside. Heat oil in a large wok, Dutch oven, or deep fryer to 165°C (325°F) and adjust flame to maintain temperature.",

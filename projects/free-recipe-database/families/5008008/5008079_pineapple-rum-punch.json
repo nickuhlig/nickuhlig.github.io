@@ -43,8 +43,9 @@
     },
     {
       "ingredient_id": 1135,
-      "name": "ripe pineapple chunks, cut about 1 inch square",
-      "quantity": "3 cups"
+      "name": "ripe pineapple chunks",
+      "quantity": "3 cups",
+      "prep": "cut about 1 inch square"
     },
     {
       "ingredient_id": 1067,
@@ -68,6 +69,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the ripe pineapple chunks about 1 inch square.",
+      "secondary_message": "3 cups ripe pineapple chunks"
+    },
     {
       "id": 1,
       "primary_message": "Mix hot water and sugar until sugar dissolves. Add pineapple chunks and stir, mashing pineapple lightly. Let sit at room temperature 2 hours, or cover and refrigerate overnight to infuse.",

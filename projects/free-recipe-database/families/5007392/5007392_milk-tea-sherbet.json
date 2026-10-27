@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 1061,
-      "name": "half and half, cold",
-      "quantity": "2 cups"
+      "name": "half and half",
+      "quantity": "2 cups",
+      "prep": "cold"
     },
     {
       "ingredient_id": 88,
@@ -65,6 +66,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the half and half cold until you use it.",
+      "secondary_message": "2 cups half and half"
+    },
     {
       "id": 1,
       "primary_message": "Combine corn syrup and water in a heavy saucepan and bring to a boil. Stir in tea leaves, cover, and steep until syrup is dark, flavorful, and slightly bitter, about 10 minutes.",

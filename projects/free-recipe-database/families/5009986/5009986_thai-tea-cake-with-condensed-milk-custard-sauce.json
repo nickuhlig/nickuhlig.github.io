@@ -38,8 +38,9 @@
   "ingredients": [
     {
       "ingredient_id": 118,
-      "name": "whole milk, room temperature, divided",
-      "quantity": "2 cups"
+      "name": "whole milk, divided",
+      "quantity": "2 cups",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 2705,
@@ -48,8 +49,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "8 tbsp"
+      "name": "unsalted butter",
+      "quantity": "8 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 346,
@@ -58,8 +60,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, room temperature",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 116,
@@ -88,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the whole milk to room temperature. Soften the unsalted butter. Bring the eggs to room temperature.",
+      "secondary_message": "2 cups whole milk, divided\n8 tbsp unsalted butter\n3 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Place 1 1/4 cups milk in a heat-proof bowl or glass measuring cup; microwave until warm, about 30 seconds. Add tea leaves and set aside.",

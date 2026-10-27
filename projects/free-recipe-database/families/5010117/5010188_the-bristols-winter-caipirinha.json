@@ -49,8 +49,9 @@
     },
     {
       "ingredient_id": 2813,
-      "name": "kumquats, cut in half",
-      "quantity": "4"
+      "name": "kumquats",
+      "quantity": "4",
+      "prep": "cut in half"
     },
     {
       "ingredient_id": 286,
@@ -74,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the kumquats in half.",
+      "secondary_message": "4 kumquats"
+    },
     {
       "id": 1,
       "primary_message": "In a mixing glass, muddle lime wedges, kumquats, rosemary needles, and sugar. Add cachaça and fill with ice. Shake well. Pour ingredients unstrained into a rocks glass. Garnish with rosemary sprig and additional sliced kumquats.",

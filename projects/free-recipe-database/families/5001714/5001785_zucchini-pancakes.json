@@ -72,8 +72,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 120,
@@ -112,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the garlic.",
+      "secondary_message": "1 medium clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "Using the large holes of a box grater or a food processor fitted with the shredding disk, shred zucchini and onion. Place zucchini and onion in a colander set over a sink, sprinkle with salt, and toss to evenly coat. Let drain for 30 minutes, then press against the sides to extract liquid. Wrap vegetables in a clean kitchen towel or cheesecloth and squeeze to remove excess liquid; set aside.",

@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 121,
-      "name": "egg, separated",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "separated"
     },
     {
       "ingredient_id": 1806,
@@ -61,6 +62,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Separate the egg.",
+      "secondary_message": "1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "Place egg yolk in cocktail shaker with a few ice cubes. Seal shaker and shake vigorously for 10 seconds. Open shaker, fill with ice, and add gin, buttermilk, egg white, and maple syrup. Shake vigorously for 20 seconds and strain into chilled coupe or sour glass. Grate nutmeg over top and serve.",

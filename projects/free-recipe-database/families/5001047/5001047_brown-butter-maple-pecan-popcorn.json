@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 327,
-      "name": "pecans, lightly crushed",
-      "quantity": "2 cups"
+      "name": "pecans",
+      "quantity": "2 cups",
+      "prep": "lightly crushed"
     },
     {
       "ingredient_id": 88,
@@ -56,11 +57,18 @@
     },
     {
       "ingredient_id": 1970,
-      "name": "popcorn kernels, popped",
-      "quantity": "½ cup"
+      "name": "popcorn kernels",
+      "quantity": "½ cup",
+      "prep": "popped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly crush the pecans. Pop the popcorn kernels.",
+      "secondary_message": "2 cups pecans\n½ cup popcorn kernels"
+    },
     {
       "id": 1,
       "primary_message": "In a small saucepan, melt butter over medium-high heat, stirring and swirling, until foaming has subsided and milk solids have turned a chestnut-brown color, about 3 minutes.",

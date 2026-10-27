@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 302,
-      "name": "slab bacon, cut into 1- by 1/4- by 1/4-inch sticks",
-      "quantity": "0.11 kg"
+      "name": "slab bacon",
+      "quantity": "0.11 kg",
+      "prep": "cut into 1- by 1/4- by 1/4-inch sticks"
     },
     {
       "ingredient_id": 88,
@@ -75,13 +76,15 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, diced",
-      "quantity": "3 medium"
+      "name": "carrots",
+      "quantity": "3 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, crushed",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 1994,
@@ -100,8 +103,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cubed",
-      "quantity": "3 tbsp"
+      "name": "cold unsalted butter",
+      "quantity": "3 tbsp",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 106,
@@ -110,6 +114,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the slab bacon into 1- by 1/4- by 1/4-inch sticks. Dice the carrots. Crush the garlic. Cube the cold unsalted butter.",
+      "secondary_message": "0.11 kg slab bacon\n3 medium carrots\n4 medium cloves garlic\n3 tbsp cold unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 180°C (350°F). Add chicken to a 1-gallon zipper-lock bag. Pour in wine and seal bag, pressing out air. Let stand while you prepare the remaining ingredients.",

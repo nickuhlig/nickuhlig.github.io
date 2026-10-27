@@ -63,8 +63,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, halved",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "halved"
     },
     {
       "ingredient_id": 2346,
@@ -98,8 +99,9 @@
     },
     {
       "ingredient_id": 111,
-      "name": "blanched and cooled haricots verts, cut into 1/2-inch lengths",
-      "quantity": "6 tbsp"
+      "name": "blanched and cooled haricots verts",
+      "quantity": "6 tbsp",
+      "prep": "cut into 1/2-inch lengths"
     },
     {
       "ingredient_id": 277,
@@ -133,6 +135,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the garlic. Cut the blanched and cooled haricots verts into 1/2-inch lengths.",
+      "secondary_message": "1 medium clove garlic\n6 tbsp blanched and cooled haricots verts"
+    },
     {
       "id": 1,
       "primary_message": "Rub the tuna steak in 1 1/2 teaspoons olive oil. Season with herbes de Provence, salt, and pepper. Heat 2 teaspoons oil in a small nonstick skillet over medium-high heat until shimmering. Sear the tuna for 45 seconds on each side, and immediately rub the hot fish with the cut side of the garlic. Set aside to cool for a few minutes, then cut into 1.5-cm cubes",

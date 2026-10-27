@@ -34,8 +34,9 @@
   "ingredients": [
     {
       "ingredient_id": 1012,
-      "name": "baguette, cut in half then halved lengthwise",
-      "quantity": "1"
+      "name": "baguette",
+      "quantity": "1",
+      "prep": "cut in half then halved lengthwise"
     },
     {
       "ingredient_id": 115,
@@ -44,8 +45,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced or pressed through garlic press",
-      "quantity": "14 cloves"
+      "name": "garlic",
+      "quantity": "14 cloves",
+      "prep": "minced or pressed through garlic press"
     },
     {
       "ingredient_id": 88,
@@ -54,8 +56,9 @@
     },
     {
       "ingredient_id": 120,
-      "name": "Parmesan cheese, grated",
-      "quantity": "3 oz"
+      "name": "Parmesan cheese",
+      "quantity": "3 oz",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1808,
@@ -69,13 +72,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, minced",
-      "quantity": "4 small"
+      "name": "shallots",
+      "quantity": "4 small",
+      "prep": "minced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "4 medium"
+      "name": "garlic cloves",
+      "quantity": "4 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1738,
@@ -124,6 +129,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the baguette in half, then halve it lengthwise. Mince or press the garlic through garlic press. Grate the Parmesan cheese. Mince the shallots. Mince the garlic cloves.",
+      "secondary_message": "1 baguette\n14 cloves garlic\n3 oz Parmesan cheese\n4 small shallots\n4 medium garlic cloves"
+    },
     {
       "id": 1,
       "primary_message": "Prepare Garlic Bread (see note): Adjust oven rack to upper-middle position and preheat oven to 400°F. Line rimmed baking sheet with foil. Place bread on sheet, cut side up.",

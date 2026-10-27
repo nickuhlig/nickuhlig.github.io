@@ -54,38 +54,45 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onions, diced",
-      "quantity": "3 medium"
+      "name": "yellow onions",
+      "quantity": "3 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, diced",
-      "quantity": "2 stalks"
+      "name": "celery",
+      "quantity": "2 stalks",
+      "prep": "diced"
     },
     {
       "ingredient_id": 309,
-      "name": "leek, white and light green parts only, diced",
-      "quantity": "1"
+      "name": "leek, white and light green parts only",
+      "quantity": "1",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed",
-      "quantity": "6 medium cloves"
+      "name": "garlic",
+      "quantity": "6 medium cloves",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño pepper, stemmed and roughly chopped",
-      "quantity": "1"
+      "name": "jalapeño pepper",
+      "quantity": "1",
+      "prep": "stemmed and roughly chopped"
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, peeled sliced",
-      "quantity": "1 (5 cm) piece"
+      "name": "fresh ginger",
+      "quantity": "1 (5 cm) piece",
+      "prep": "peeled sliced"
     },
     {
       "ingredient_id": 233,
-      "name": "parsnips, peeled and roughly chopped",
-      "quantity": "1.36 kg"
+      "name": "parsnips",
+      "quantity": "1.36 kg",
+      "prep": "peeled and roughly chopped"
     },
     {
       "ingredient_id": 1505,
@@ -114,6 +121,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the yellow onions. Dice the celery. Dice the leek. Smash the garlic. Stem and roughly chop the jalapeño pepper. Peel the fresh ginger sliced. Peel and roughly chop the parsnips.",
+      "secondary_message": "3 medium yellow onions\n2 stalks celery\n1 leek, white and light green parts only\n6 medium cloves garlic\n1 jalapeño pepper\n1 (5 cm) piece fresh ginger\n1.36 kg parsnips"
+    },
     {
       "id": 1,
       "primary_message": "In a Dutch oven, heat oil over medium-high heat until shimmering. Add coriander seeds and cook until fragrant, about 30 seconds. Add onion, celery, leek, garlic, jalapeño, and ginger, and cook, stirring occasionally, until softened, about 10 minutes.",

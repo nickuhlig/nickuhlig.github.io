@@ -33,13 +33,15 @@
   "ingredients": [
     {
       "ingredient_id": 144,
-      "name": "shallots, roughly chopped",
-      "quantity": "3 medium"
+      "name": "shallots",
+      "quantity": "3 medium",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 230,
-      "name": "cremini mushrooms, roughly chopped",
-      "quantity": "0.57 kg"
+      "name": "cremini mushrooms",
+      "quantity": "0.57 kg",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 115,
@@ -48,8 +50,9 @@
     },
     {
       "ingredient_id": 2898,
-      "name": "loosely packed fresh marjoram leaves, finely chopped",
-      "quantity": "1 tbsp"
+      "name": "loosely packed fresh marjoram leaves",
+      "quantity": "1 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 88,
@@ -83,8 +86,9 @@
     },
     {
       "ingredient_id": 1027,
-      "name": "onion rolls, split and toasted",
-      "quantity": "4"
+      "name": "onion rolls",
+      "quantity": "4",
+      "prep": "split and toasted"
     },
     {
       "ingredient_id": 1944,
@@ -93,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the shallots. Roughly chop the cremini mushrooms. Finely chop the loosely packed fresh marjoram leaves. Split and toast the onion rolls.",
+      "secondary_message": "3 medium shallots\n0.57 kg cremini mushrooms\n1 tbsp loosely packed fresh marjoram leaves\n4 onion rolls"
+    },
     {
       "id": 1,
       "primary_message": "In a food processor, process shallots until minced, then scrape into a small bowl. Add mushrooms and process until minced, scraping down sides as necessary. Heat 3 tablespoons butter in a medium pot over medium-high heat until foaming. Add shallots and cook, stirring, until tender, about 3 minutes. Add mushrooms and cook, stirring, until water has released and evaporated, about 3 minutes. Continue to cook mushrooms, scraping up browned bits from bottom frequently, until darkened and fragrant, about 8 minutes. Stir in marjoram, season with salt and pepper and cook mushroom duxelles for 1 minute longer. Set aside.",

@@ -65,8 +65,9 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "170 g"
+      "name": "bittersweet chocolate",
+      "quantity": "170 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 115,
@@ -85,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the bittersweet chocolate.",
+      "secondary_message": "170 g bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "In medium bowl, whisk 1/2 cup sugar, cocoa, cornstarch, and salt. Place in large saucepan and whisk in milk until combined. Heat over medium heat until scalding, stirring occasionally.",

@@ -74,8 +74,9 @@
     },
     {
       "ingredient_id": 347,
-      "name": "powdered sugar, sifted",
-      "quantity": "180 g"
+      "name": "powdered sugar",
+      "quantity": "180 g",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 88,
@@ -84,8 +85,9 @@
     },
     {
       "ingredient_id": 3642,
-      "name": "egg whites, lightly beaten",
-      "quantity": "4 large"
+      "name": "egg whites",
+      "quantity": "4 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 29,
@@ -94,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Sift the powdered sugar. Lightly beat the egg whites.",
+      "secondary_message": "180 g powdered sugar\n4 large egg whites"
+    },
     {
       "id": 1,
       "primary_message": "In a 2-quart stainless steel saucepan or saucier, melt butter over medium-low heat. Increase heat to medium and simmer, stirring with a heat-resistant spatula while butter hisses and pops. Continue cooking and stirring until foaming subsides, scraping up brown bits that form on bottom, and butter is golden yellow and milk solids are chestnut brown in color, about 5 minutes. Transfer to a small heatproof bowl and set aside.",

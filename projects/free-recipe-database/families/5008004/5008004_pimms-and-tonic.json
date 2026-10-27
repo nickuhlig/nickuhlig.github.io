@@ -54,11 +54,18 @@
     },
     {
       "ingredient_id": 2302,
-      "name": "Fever Tree tonic, chilled",
-      "quantity": ""
+      "name": "Fever Tree tonic",
+      "quantity": "",
+      "prep": "chilled"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the Fever Tree tonic cold until you use it.",
+      "secondary_message": "Fever Tree tonic"
+    },
     {
       "id": 1,
       "primary_message": "Add Pimm's, lemon, and simple syrup to a cocktail shaker and fill with ice. Shake until well chilled, about 15 seconds. Strain, dividing evenly between two Collins glasses filled with ice. Top with tonic, stir gently, and serve.",

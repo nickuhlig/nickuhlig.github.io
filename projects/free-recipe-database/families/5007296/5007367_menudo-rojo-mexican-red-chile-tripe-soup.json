@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 2462,
-      "name": "pork trotter, halved lengthwise",
-      "quantity": "1"
+      "name": "pork trotter",
+      "quantity": "1",
+      "prep": "halved lengthwise"
     },
     {
       "ingredient_id": 82,
@@ -72,13 +73,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, crushed, divided",
-      "quantity": "10 medium cloves"
+      "name": "garlic, divided",
+      "quantity": "10 medium cloves",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, chopped , divided",
-      "quantity": "1 large"
+      "name": "white onion, divided",
+      "quantity": "1 large",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1271,
@@ -92,8 +95,9 @@
     },
     {
       "ingredient_id": 2648,
-      "name": "white hominy, drained",
-      "quantity": "1 (822 g) can"
+      "name": "white hominy",
+      "quantity": "1 (822 g) can",
+      "prep": "drained"
     },
     {
       "ingredient_id": 3673,
@@ -117,6 +121,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the pork trotter lengthwise. Crush the garlic. Chop the white onion. Drain the white hominy.",
+      "secondary_message": "1 pork trotter\n10 medium cloves garlic, divided\n1 large white onion, divided\n1 (822 g) can white hominy"
+    },
     {
       "id": 1,
       "primary_message": "For the Soup: Wash and rinse tripe thoroughly in warm water. Place in a large bowl, then sprinkle with lime juice and 1 tablespoon salt, and scrub vigorously. Let soak 30 minutes, then rinse and wash the tripe again in warm water. Drain.",

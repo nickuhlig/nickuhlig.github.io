@@ -56,8 +56,9 @@
   "ingredients": [
     {
       "ingredient_id": 93,
-      "name": "kidney beans, rinsed and drained",
-      "quantity": "2 (425 g) cans"
+      "name": "kidney beans",
+      "quantity": "2 (425 g) cans",
+      "prep": "rinsed and drained"
     },
     {
       "ingredient_id": 1505,
@@ -76,23 +77,27 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, roughly chopped",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, peeled and roughly chopped",
-      "quantity": "1 small"
+      "name": "carrot",
+      "quantity": "1 small",
+      "prep": "peeled and roughly chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, roughly chopped",
-      "quantity": "2 stalks"
+      "name": "celery",
+      "quantity": "2 stalks",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 115,
@@ -136,8 +141,9 @@
     },
     {
       "ingredient_id": 43,
-      "name": "cheddar cheese, finely shredded",
-      "quantity": "115 g"
+      "name": "cheddar cheese",
+      "quantity": "115 g",
+      "prep": "finely shredded"
     },
     {
       "ingredient_id": 1808,
@@ -176,6 +182,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse and drain the kidney beans. Roughly chop the onion. Peel and roughly chop the carrot. Roughly chop the celery. Roughly chop the garlic. Finely shred the cheddar cheese.",
+      "secondary_message": "2 (425 g) cans kidney beans\n1 small onion\n1 small carrot\n2 stalks celery\n2 medium cloves garlic\n115 g cheddar cheese"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 175°C (350°F). On a foil-lined rimmed baking sheet, spread kidney beans in a single layer. Roast until beans split and their skins look dry and slightly crisp, about 20 minutes. Remove from oven and let cool slightly.",

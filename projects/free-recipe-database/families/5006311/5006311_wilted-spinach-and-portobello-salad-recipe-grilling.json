@@ -35,9 +35,10 @@
   "ingredients": [
     {
       "ingredient_id": 231,
-      "name": "fresh portobellos, scrubbed clean and stems removed",
+      "name": "fresh portobellos",
       "quantity": "5 caps",
-      "weigh_as": "1 lb"
+      "weigh_as": "1 lb",
+      "prep": "scrubbed clean and stems removed"
     },
     {
       "ingredient_id": 2551,
@@ -61,8 +62,9 @@
     },
     {
       "ingredient_id": 1879,
-      "name": "spinach, stems removed",
-      "quantity": "10 oz"
+      "name": "spinach",
+      "quantity": "10 oz",
+      "prep": "stems removed"
     },
     {
       "ingredient_id": 2966,
@@ -81,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Scrub the fresh portobellos clean, then remove the stems. Remove the stems from the spinach.",
+      "secondary_message": "5 caps fresh portobellos\n10 oz spinach"
+    },
     {
       "id": 1,
       "primary_message": "Light one chimney full of charcoal. While the charcoal is lighting, brush the mushrooms with the safflower oil and sprinkle with the sage and pepper, set aside.",

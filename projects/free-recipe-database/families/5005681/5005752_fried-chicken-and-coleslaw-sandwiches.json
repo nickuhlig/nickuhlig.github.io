@@ -91,11 +91,18 @@
     },
     {
       "ingredient_id": 1772,
-      "name": "soft hamburger buns, toasted",
-      "quantity": "8"
+      "name": "soft hamburger buns",
+      "quantity": "8",
+      "prep": "toasted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Toast the soft hamburger buns.",
+      "secondary_message": "8 soft hamburger buns"
+    },
     {
       "id": 1,
       "primary_message": "Combine 1/4 cup kosher salt and 1/4 cup sugar with 1 quart water and stir to dissolve. Place chicken thighs in a gallon-size zipper-lock bag. Add brine and seal bag, pressing out as much air as possible. Let chicken brine at least 6 hours and up to overnight.",

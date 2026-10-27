@@ -68,13 +68,15 @@
     },
     {
       "ingredient_id": 1091,
-      "name": "cooked ham, cut into 1/2-inch cubes",
-      "quantity": "8 oz"
+      "name": "cooked ham",
+      "quantity": "8 oz",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 1060,
-      "name": "Gruyère cheese, shredded , divided",
-      "quantity": "12 oz"
+      "name": "Gruyère cheese, divided",
+      "quantity": "12 oz",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 121,
@@ -108,6 +110,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cooked ham into 1/2-inch cubes. Shred the Gruyère cheese.",
+      "secondary_message": "8 oz cooked ham\n12 oz Gruyère cheese, divided"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 375°F. Place potatoes in a microwave-safe bowl; cover with plastic wrap, and cut a small slit in plastic wrap to allow steam to escape. Microwave on high, stirring and turning potatoes halfway through cooking, until fork-tender, 8 to 9 minutes. Transfer potatoes to a rimmed baking sheet, spread in a single layer, and let cool, about 10 minutes.",

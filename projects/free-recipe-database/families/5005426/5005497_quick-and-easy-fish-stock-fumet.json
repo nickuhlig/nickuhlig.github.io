@@ -64,8 +64,9 @@
     },
     {
       "ingredient_id": 309,
-      "name": "leek, minced",
-      "quantity": "1 medium"
+      "name": "leek",
+      "quantity": "1 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 157,
@@ -74,8 +75,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, crushed",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 1008,
@@ -109,6 +111,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the leek. Crush the garlic.",
+      "secondary_message": "1 medium leek\n2 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Place fish bones and heads in a large bowl and cover with cold water. Stir in kosher salt until dissolved. Let stand 1 hour. Drain, then rinse fish under cold running water, washing away any large areas of blood, such as near spine (see notes).",

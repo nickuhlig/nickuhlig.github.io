@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 3009,
@@ -96,11 +97,18 @@
     },
     {
       "ingredient_id": 1869,
-      "name": "dried red chile pepper, broken up, or 1 jalapeño, sliced",
-      "quantity": "1 oz"
+      "name": "dried red chile pepper, or 1 jalapeño",
+      "quantity": "1 oz",
+      "prep": "broken up, sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the garlic. Break up the dried red chile pepper. Slice the dried red chile pepper.",
+      "secondary_message": "2 cloves garlic\n1 oz dried red chile pepper, or 1 jalapeño"
+    },
     {
       "id": 1,
       "primary_message": "Wash feet thoroughly in cold water. With kitchen shears, clip off the toenails.",

@@ -87,8 +87,9 @@
     },
     {
       "ingredient_id": 118,
-      "name": "whole milk, room temperature",
-      "quantity": "2 cups"
+      "name": "whole milk",
+      "quantity": "2 cups",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 353,
@@ -117,6 +118,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the whole milk to room temperature.",
+      "secondary_message": "2 cups whole milk"
+    },
     {
       "id": 1,
       "primary_message": "For the Pumpkin: In a large bowl, toss pumpkin with sugar until evenly coated. Transfer to a colander and set over now-empty bowl. Set aside for at least 1 hour and up to 8 hours to draw out excess water. Reserve liquid; you should have at least 1 cup.",

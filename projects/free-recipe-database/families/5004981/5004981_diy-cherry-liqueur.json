@@ -54,8 +54,9 @@
   "ingredients": [
     {
       "ingredient_id": 2216,
-      "name": "Bing cherries, pitted",
-      "quantity": "6 cups"
+      "name": "Bing cherries",
+      "quantity": "6 cups",
+      "prep": "pitted"
     },
     {
       "ingredient_id": 2525,
@@ -79,6 +80,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pit the Bing cherries.",
+      "secondary_message": "6 cups Bing cherries"
+    },
     {
       "id": 1,
       "primary_message": "Place pitted cherries in a sealable glass jar and, using a wooden spoon or muddler, muddle them to release some juice. Drain juice into a small pot and set aside. Add brandy, vodka, and cinnamon stick to jar with muddled cherries. Seal and shake jar. Let muddled cherries mixture steep for one week at room temperature, shaking every few days; keep out of direct sunlight.",

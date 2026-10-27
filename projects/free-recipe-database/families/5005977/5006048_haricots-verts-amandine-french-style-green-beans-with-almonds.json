@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 111,
-      "name": "green beans, trimmed",
-      "quantity": "0.45 kg"
+      "name": "green beans",
+      "quantity": "0.45 kg",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 115,
@@ -72,13 +73,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, thinly sliced",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1480,
@@ -92,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the green beans. Thinly slice the garlic. Thinly slice the shallot.",
+      "secondary_message": "0.45 kg green beans\n2 medium cloves garlic\n1 medium shallot"
+    },
     {
       "id": 1,
       "primary_message": "Blanch the beans. Bring a large pot of salted water to a boil and prepare an ice bath. Add green beans to boiling water and cook until tender-crisp, about 3 minutes. Transfer to ice bath using a wire mesh spider or tongs. Allow to chill completely, then drain and dry thoroughly with kitchen towels or paper towels.",

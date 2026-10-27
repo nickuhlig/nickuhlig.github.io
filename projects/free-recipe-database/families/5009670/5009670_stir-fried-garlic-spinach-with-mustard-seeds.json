@@ -54,13 +54,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 33,
-      "name": "fresh baby spinach, washed and dried",
-      "quantity": "5 oz"
+      "name": "fresh baby spinach",
+      "quantity": "5 oz",
+      "prep": "washed and dried"
     },
     {
       "ingredient_id": 1833,
@@ -79,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic. Wash and dry the fresh baby spinach.",
+      "secondary_message": "3 cloves garlic\n5 oz fresh baby spinach"
+    },
     {
       "id": 1,
       "primary_message": "Heat a wok on high till smoking, then swirl in oil. Heat till shimmering, about 30 seconds, then add mustard seeds. Stir to coat with oil. When seeds begin to pop, press a lid down in the wok for 10 seconds until popping begins to subside. Remove lid and add garlic, stirring vigorously to evenly distribute heat and keep mustard seeds from burning, until garlic is fragrant (about 30 seconds).",

@@ -40,8 +40,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 293,
@@ -65,8 +66,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, thinly sliced",
-      "quantity": "2 medium"
+      "name": "shallots",
+      "quantity": "2 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2015,
@@ -80,11 +82,18 @@
     },
     {
       "ingredient_id": 43,
-      "name": "sharp cheddar cheese, grated",
-      "quantity": "2 cups (8 oz)"
+      "name": "sharp cheddar cheese",
+      "quantity": "2 cups (8 oz)",
+      "prep": "grated"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Thinly slice the shallots. Grate the sharp cheddar cheese.",
+      "secondary_message": "2 tbsp unsalted butter\n2 medium shallots\n2 cups (8 oz) sharp cheddar cheese"
+    },
     {
       "id": 1,
       "primary_message": "Adjust an oven rack to middle position and preheat oven to 425°F. Arrange squash, cut sides up, on a baking sheet. Brush with butter, then sprinkle with brown sugar. Rub sugar into squash and season with salt and pepper. Roast squash until fork tender, about 1 hour. Transfer to cooling rack and cool for about 10 minutes. Using a fork, scrape the squash’s flesh out and transfer to a medium bowl. Reserve.",

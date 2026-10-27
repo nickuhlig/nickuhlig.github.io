@@ -52,13 +52,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, diced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2401,
@@ -77,13 +79,15 @@
     },
     {
       "ingredient_id": 303,
-      "name": "frozen corn kernels, thawed if frozen",
-      "quantity": "1 cup"
+      "name": "frozen corn kernels",
+      "quantity": "1 cup",
+      "prep": "thawed if frozen"
     },
     {
       "ingredient_id": 185,
-      "name": "black beans, drained and rinsed",
-      "quantity": "1 (15 oz) can"
+      "name": "black beans",
+      "quantity": "1 (15 oz) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 1294,
@@ -102,13 +106,15 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, thinly sliced",
-      "quantity": "3"
+      "name": "scallions",
+      "quantity": "3",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 188,
-      "name": "fresh cilantro leaves, fine stems minced",
-      "quantity": "½ cup"
+      "name": "fresh cilantro leaves",
+      "quantity": "½ cup",
+      "prep": "fine stems minced"
     },
     {
       "ingredient_id": 88,
@@ -167,6 +173,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the onion. Thinly slice the garlic. Thaw the frozen corn kernels if frozen. Drain and rinse the black beans. Thinly slice the scallions. Finely mince the stems of the fresh cilantro leaves.",
+      "secondary_message": "1 medium onion\n4 medium cloves garlic\n1 cup frozen corn kernels\n1 (15 oz) can black beans\n3 scallions\n½ cup fresh cilantro leaves"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center position and preheat oven to 425°F. Heat butter in a 12-inch cast iron or stainless steel skillet over medium heat until melted. Continue to cook, swirling pan gently until butter is nutty-smelling and solids are a toasty brown. Transfer to a heatproof cup or bowl and reserve for Brown Butter Cornbread Crust.",

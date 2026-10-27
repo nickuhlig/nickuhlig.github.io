@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 158,
-      "name": "cauliflower, trimmed and cut into florets",
-      "quantity": "1 head"
+      "name": "cauliflower",
+      "quantity": "1 head",
+      "prep": "trimmed and cut into florets"
     },
     {
       "ingredient_id": 47,
@@ -80,13 +81,15 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, thinly sliced",
-      "quantity": "1 large"
+      "name": "yellow onion",
+      "quantity": "1 large",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 71,
@@ -115,6 +118,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim and cut the cauliflower into florets. Thinly slice the yellow onion. Thinly slice the garlic.",
+      "secondary_message": "1 head cauliflower\n1 large yellow onion\n4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "In a bowl, cover pecans with at least 2.5 cm water and let soak for 1 hour.",

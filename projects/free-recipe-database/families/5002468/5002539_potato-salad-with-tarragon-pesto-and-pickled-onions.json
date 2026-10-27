@@ -52,9 +52,10 @@
   "ingredients": [
     {
       "ingredient_id": 3064,
-      "name": "yukon gold potatoes, cut into 1/2-inch cubes",
+      "name": "yukon gold potatoes",
       "quantity": "3 medium",
-      "weigh_as": "0.7 kg"
+      "weigh_as": "0.7 kg",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 88,
@@ -68,8 +69,9 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, thinly sliced",
-      "quantity": "1 small"
+      "name": "red onion",
+      "quantity": "1 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2221,
@@ -108,6 +110,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the yukon gold potatoes into 1/2-inch cubes. Thinly slice the red onion.",
+      "secondary_message": "3 medium yukon gold potatoes\n1 small red onion"
+    },
     {
       "id": 1,
       "primary_message": "Place potatoes, 1 tablespoon salt, 1/2 tablespoon vinegar, and 3 cups tepid water in a medium saucepan. Bring to a boil over high heat, stirring occasionally until salt is dissolved. Reduce heat to low to maintain a bare simmer and cook until potatoes are completely tender and show no resistance when poked with a paring knife or cake tester, about 17 minutes. Drain potatoes and allow to cool to warm room temperature, about 10 minutes.",

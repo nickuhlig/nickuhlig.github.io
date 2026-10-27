@@ -78,8 +78,9 @@
     },
     {
       "ingredient_id": 1949,
-      "name": "mastic resin crystals, crushed",
-      "quantity": "2"
+      "name": "mastic resin crystals",
+      "quantity": "2",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 355,
@@ -108,8 +109,9 @@
     },
     {
       "ingredient_id": 1882,
-      "name": "cardamom pods, bruised",
-      "quantity": "3"
+      "name": "cardamom pods",
+      "quantity": "3",
+      "prep": "bruised"
     },
     {
       "ingredient_id": 1082,
@@ -128,8 +130,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "Unsalted butter, softened, for preparing the pan",
-      "quantity": ""
+      "name": "Unsalted butter, for preparing the pan",
+      "quantity": "",
+      "prep": "softened"
     },
     {
       "ingredient_id": 116,
@@ -168,13 +171,15 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 2346,
-      "name": "orange zest, finely grated",
-      "quantity": "1 tbsp"
+      "name": "orange zest",
+      "quantity": "1 tbsp",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 353,
@@ -198,6 +203,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Crush the mastic resin crystals. Bruise the cardamom pods. Soften the Unsalted butter. Bring the eggs to room temperature. Finely grate the orange zest.",
+      "secondary_message": "2 mastic resin crystals\n3 cardamom pods\nUnsalted butter, for preparing the pan\n3 large eggs\n1 tbsp orange zest"
+    },
     {
       "id": 1,
       "primary_message": "For the Ashta (Cream Filling): In a medium saucepan, whisk together milk, cream, and cornstarch over low heat until cornstarch is completely dissolved. Whisk in flour until thoroughly incorporated, about 1 minute. Add sugar and whisk until dissolved.",

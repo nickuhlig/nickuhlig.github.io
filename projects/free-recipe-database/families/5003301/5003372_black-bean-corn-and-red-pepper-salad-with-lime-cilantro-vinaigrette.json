@@ -34,24 +34,28 @@
   "ingredients": [
     {
       "ingredient_id": 185,
-      "name": "black beans, rinsed and drained",
-      "quantity": "2 (425 g) cans"
+      "name": "black beans",
+      "quantity": "2 (425 g) cans",
+      "prep": "rinsed and drained"
     },
     {
       "ingredient_id": 303,
-      "name": "fresh cooked corn, kernels cut off the cob",
+      "name": "fresh cooked corn",
       "quantity": "1 ¾ cups",
-      "weigh_as": "306 g"
+      "weigh_as": "306 g",
+      "prep": "kernels cut off the cob"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell peppers, diced",
-      "quantity": "2"
+      "name": "red bell peppers",
+      "quantity": "2",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 144,
@@ -95,11 +99,18 @@
     },
     {
       "ingredient_id": 183,
-      "name": "Hass avocados, chopped",
-      "quantity": "2"
+      "name": "Hass avocados",
+      "quantity": "2",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse and drain the black beans. Cut off the kernels of the fresh cooked corn the cob. Dice the red bell peppers. Mince the garlic. Chop the Hass avocados.",
+      "secondary_message": "2 (425 g) cans black beans\n1 ¾ cups fresh cooked corn\n2 red bell peppers\n2 medium cloves garlic\n2 Hass avocados"
+    },
     {
       "id": 1,
       "primary_message": "Combine black beans, corn, red peppers, garlic, shallots, and salt in a large bowl and mix well.",

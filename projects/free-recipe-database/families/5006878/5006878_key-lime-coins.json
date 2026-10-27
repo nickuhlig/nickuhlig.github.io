@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "1 stick"
+      "name": "unsalted butter",
+      "quantity": "1 stick",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -80,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature.",
+      "secondary_message": "1 stick unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, whisk together flour and salt; set aside. In a large bowl, cream together butter, sugar, and confectioners sugar until creamy, about 3 minutes. Beat in vanilla, egg yolk, juice, and zest until combined. Add flour and salt mixture and beat just until dough comes together. Form dough into two 1 1/2-inch wide logs and wrap in plastic wrap. Let chill in refrigerator at least one hour.",

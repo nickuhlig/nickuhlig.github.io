@@ -36,13 +36,15 @@
   "ingredients": [
     {
       "ingredient_id": 3661,
-      "name": "dried cannelini beans, small, soaked overnight",
-      "quantity": "0.45 kg"
+      "name": "dried cannelini beans, small",
+      "quantity": "0.45 kg",
+      "prep": "soaked overnight"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and smashed",
-      "quantity": "6 cloves"
+      "name": "garlic",
+      "quantity": "6 cloves",
+      "prep": "peeled and smashed"
     },
     {
       "ingredient_id": 47,
@@ -56,13 +58,15 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemons, zested",
-      "quantity": "2"
+      "name": "lemons",
+      "quantity": "2",
+      "prep": "zested"
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, juiced",
-      "quantity": "½"
+      "name": "lemon",
+      "quantity": "½",
+      "prep": "juiced"
     },
     {
       "ingredient_id": 346,
@@ -71,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soak the dried cannelini beans overnight. Peel and smash the garlic. Zest the lemons. Juice the lemon.",
+      "secondary_message": "0.45 kg dried cannelini beans, small\n6 cloves garlic\n2 lemons\n½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "Bring your beans and the garlic to a boil in a large, heavy pot for a couple minutes, then reduce to a simmer. Half-cover the pot and let the beans cook till very tender. Add salt to taste and let them cool in the pot. If you don’t have time for dried beans, two 425 g cans of beans are also fine.",

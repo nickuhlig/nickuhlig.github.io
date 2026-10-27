@@ -45,8 +45,9 @@
   "ingredients": [
     {
       "ingredient_id": 2492,
-      "name": "pickled cherry peppers, seeds and stems removed, roughly chopped",
-      "quantity": "1 ½ cups"
+      "name": "pickled cherry peppers",
+      "quantity": "1 ½ cups",
+      "prep": "seeds and stems removed, roughly chopped"
     },
     {
       "ingredient_id": 302,
@@ -100,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the seeds and stems from the pickled cherry peppers, then roughly chop them.",
+      "secondary_message": "1 ½ cups pickled cherry peppers"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 205°C (400°F). Arrange half of bacon on a rimmed baking sheet and cook in oven until crisp and well browned, about 15 minutes. Drain on paper towels.",

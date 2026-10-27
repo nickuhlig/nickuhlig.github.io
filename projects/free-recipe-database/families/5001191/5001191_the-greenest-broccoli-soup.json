@@ -75,8 +75,9 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "loosely packed fresh parsley leaves, tender stems roughly chopped",
-      "quantity": "2 cups"
+      "name": "loosely packed fresh parsley leaves",
+      "quantity": "2 cups",
+      "prep": "tender stems roughly chopped"
     },
     {
       "ingredient_id": 1044,
@@ -90,8 +91,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "grated"
     },
     {
       "ingredient_id": 52,
@@ -100,11 +102,18 @@
     },
     {
       "ingredient_id": 36,
-      "name": "snap peas, trimmed and halved crosswise on a bias",
-      "quantity": "4 oz"
+      "name": "snap peas",
+      "quantity": "4 oz",
+      "prep": "trimmed and halved crosswise on a bias"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the tender stems of the loosely packed fresh parsley leaves. Grate the garlic. Trim and halve the snap peas crosswise on a bias.",
+      "secondary_message": "2 cups loosely packed fresh parsley leaves\n2 medium cloves garlic\n4 oz snap peas"
+    },
     {
       "id": 1,
       "primary_message": "In a Dutch oven, stir together 3 quarts water, 1 tablespoon salt, and baking soda until evenly distributed. Bring liquid to boil over high heat. Add the 2-inch pieces broccoli (8 ounces) to pot and cook until vibrant green and a knife pierces easily into the stem, 5 to 6 minutes. Use a spider skimmer or large slotted spoon to remove and set aside. Return water to a boil and add sliced dark green leek tops and parsley and cook until vibrant green and wilted, 1 to 2 minutes longer. In a fine-mesh strainer or colander, drain vegetables and discard water.",

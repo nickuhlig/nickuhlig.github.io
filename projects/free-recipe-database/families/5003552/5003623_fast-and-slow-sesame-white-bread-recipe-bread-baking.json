@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, at room temperature",
-      "quantity": "2 tbsp"
+      "name": "butter",
+      "quantity": "2 tbsp",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 121,
@@ -76,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the butter to room temperature.",
+      "secondary_message": "2 tbsp butter"
+    },
     {
       "id": 1,
       "primary_message": "Combine the water, yeast, honey, and 1 1/2 cups of flour in the bowl of your stand mixer (or a mixing bowl, if you will be hand kneading. Cover the bowl with plastic wrap and set aside to rest for 30 minutes (for the short version) or 90 minutes (for the long version). Or, really, any time in between. At 30 minutes, the mixture will be very lively and bubbly. At 90 minutes it will have rising in the bowl and will be bubbling somewhat violently; it may have started to collapse, but that's fine, too.",

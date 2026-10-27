@@ -81,13 +81,15 @@
     },
     {
       "ingredient_id": 180,
-      "name": "boneless pork loin chops, diced into 1-inch cubes",
-      "quantity": "8 oz"
+      "name": "boneless pork loin chops",
+      "quantity": "8 oz",
+      "prep": "diced into 1-inch cubes"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, diced",
-      "quantity": "½ medium"
+      "name": "yellow onion",
+      "quantity": "½ medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 479,
@@ -96,8 +98,9 @@
     },
     {
       "ingredient_id": 1763,
-      "name": "ham steak, diced",
-      "quantity": "8 oz"
+      "name": "ham steak",
+      "quantity": "8 oz",
+      "prep": "diced"
     },
     {
       "ingredient_id": 118,
@@ -106,8 +109,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 1684,
@@ -121,6 +125,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the boneless pork loin chops into 1-inch cubes. Dice the yellow onion. Dice the ham steak. Beat the eggs.",
+      "secondary_message": "8 oz boneless pork loin chops\n½ medium yellow onion\n8 oz ham steak\n2 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, whisk to combine 1/2 cup flour, salt, pepper, and mustard. Set aside.",

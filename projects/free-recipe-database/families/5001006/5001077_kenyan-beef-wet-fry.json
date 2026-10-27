@@ -58,13 +58,15 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, finely chopped",
-      "quantity": "1 small"
+      "name": "red onion",
+      "quantity": "1 small",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 291,
-      "name": "green bell pepper, finely chopped",
-      "quantity": "½"
+      "name": "green bell pepper",
+      "quantity": "½",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 411,
@@ -88,11 +90,18 @@
     },
     {
       "ingredient_id": 1541,
-      "name": "plum tomatoes, finely chopped",
-      "quantity": "4 medium"
+      "name": "plum tomatoes",
+      "quantity": "4 medium",
+      "prep": "finely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the red onion. Finely chop the green bell pepper. Finely chop the plum tomatoes.",
+      "secondary_message": "1 small red onion\n½ green bell pepper\n4 medium plum tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "In a 30-cm stainless-steel skillet, heat 1 tablespoon oil over high heat until just smoking. Add half of the beef, spreading it out in a single layer. Season lightly with salt and pepper and cook without moving until lightly browned on first side, about 1 minute. Toss and continue to cook, stirring frequently, until fully browned, 2 to 4 minutes. Transfer to a large bowl. Repeat with 1 tablespoon oil and remaining beef.",

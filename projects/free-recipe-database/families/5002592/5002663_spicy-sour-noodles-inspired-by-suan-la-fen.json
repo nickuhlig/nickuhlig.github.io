@@ -38,18 +38,21 @@
   "ingredients": [
     {
       "ingredient_id": 1792,
-      "name": "white sesame seeds, toasted",
-      "quantity": "1 tbsp"
+      "name": "white sesame seeds",
+      "quantity": "1 tbsp",
+      "prep": "toasted"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, thinly sliced",
-      "quantity": "2"
+      "name": "scallions",
+      "quantity": "2",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1682,
@@ -93,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Toast the white sesame seeds. Mince the garlic. Thinly slice the scallions.",
+      "secondary_message": "1 tbsp white sesame seeds\n3 medium cloves garlic\n2 scallions"
+    },
     {
       "id": 1,
       "primary_message": "For the Broth Base: In a heat-safe serving bowl, add sesame seeds, garlic, and scallions. In a small saucepan or skillet, heat neutral oil over medium-high heat until just smoking. Immediately pour hot oil over the aromatics in the bowl to bloom.",

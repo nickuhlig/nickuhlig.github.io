@@ -53,13 +53,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely sliced from pole-to-pole",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "finely sliced from pole-to-pole"
     },
     {
       "ingredient_id": 153,
-      "name": "scallion greens, cut into 1-inch segments",
-      "quantity": "2 cups"
+      "name": "scallion greens",
+      "quantity": "2 cups",
+      "prep": "cut into 1-inch segments"
     },
     {
       "ingredient_id": 2366,
@@ -78,6 +80,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely slice the onion from pole-to-pole. Cut the scallion greens into 1-inch segments.",
+      "secondary_message": "1 large onion\n2 cups scallion greens"
+    },
     {
       "id": 1,
       "primary_message": "Slice noodles lengthwise into 2 to 2.5-cm segments and set aside. Heat 1 tablespoon oil in large wok over high heat until smoking. Add Chinese broccoli and cook without disturbing until well-browned, about 1 minute. Toss and continue to cook, stirring occasionally until tender but still bright green, about 2 minutes longer. Transfer broccoli to large bowl and set aside.",

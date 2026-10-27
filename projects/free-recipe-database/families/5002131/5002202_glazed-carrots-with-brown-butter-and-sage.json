@@ -38,8 +38,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 6 pieces",
-      "quantity": "6 tbsp"
+      "name": "unsalted butter",
+      "quantity": "6 tbsp",
+      "prep": "cut into 6 pieces"
     },
     {
       "ingredient_id": 339,
@@ -88,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into 6 pieces.",
+      "secondary_message": "6 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a deep 30-cm stainless-steel skillet, melt butter over medium heat, stirring often, until melted, about 2 minutes. Once melted, continue to cook, stirring constantly, just until milk solids separate and sink to the bottom of the skillet and begin to darken, 2 to 3 minutes. (Butter can go from brown to burnt quickly, so keep a close eye on it as you stir it.) Add sage sprigs; cook, stirring constantly, until sage leaves darken and crisp and butter foams and browns, 1 to 2 minutes.",

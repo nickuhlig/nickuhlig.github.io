@@ -112,8 +112,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 1684,
@@ -132,6 +133,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter.",
+      "secondary_message": "2 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat the oven to 375ºF (190ºC). Line a large rimmed baking sheet with parchment paper; spread cauliflower in an even layer. Season to taste with salt. Bake cauliflower until starting to brown, 30 to 35 minutes, stirring halfway through. Set aside.",

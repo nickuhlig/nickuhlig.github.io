@@ -36,18 +36,21 @@
   "ingredients": [
     {
       "ingredient_id": 2631,
-      "name": "honeycomb beef, rinsed",
-      "quantity": "0.45 kg"
+      "name": "honeycomb beef",
+      "quantity": "0.45 kg",
+      "prep": "rinsed"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, split in half",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "split in half"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, split in half",
-      "quantity": "1 whole head"
+      "name": "garlic",
+      "quantity": "1 whole head",
+      "prep": "split in half"
     },
     {
       "ingredient_id": 1747,
@@ -71,8 +74,9 @@
     },
     {
       "ingredient_id": 2366,
-      "name": "fermented black beans, roughly chopped",
-      "quantity": "1 tbsp"
+      "name": "fermented black beans",
+      "quantity": "1 tbsp",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 153,
@@ -91,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse the honeycomb beef. Split the onion in half. Split the garlic in half. Roughly chop the fermented black beans.",
+      "secondary_message": "0.45 kg honeycomb beef\n1 medium onion\n1 whole head garlic\n1 tbsp fermented black beans"
+    },
     {
       "id": 1,
       "primary_message": "Combine tripe, onion, garlic, bay leaf, and wine in a large stockpot. Cover with cold water. Bring to a boil over high heat. Reduce to a simmer and cook uncovered until tripe is very tender, about three hours. Remove from heat and allow tripe to cool in liquid until cool enough to handle. Remove tripe, dry carefully, and cut into strips 0.5-cm wide and 5-cm long.",

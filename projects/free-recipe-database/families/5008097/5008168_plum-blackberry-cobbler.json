@@ -37,8 +37,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, chilled",
-      "quantity": "7 tbsp"
+      "name": "unsalted butter",
+      "quantity": "7 tbsp",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 293,
@@ -47,8 +48,9 @@
     },
     {
       "ingredient_id": 469,
-      "name": "ripe but firm plums, pitted and sliced into 1-inch wedges",
-      "quantity": "5 cups"
+      "name": "ripe but firm plums",
+      "quantity": "5 cups",
+      "prep": "pitted and sliced into 1-inch wedges"
     },
     {
       "ingredient_id": 88,
@@ -97,11 +99,18 @@
     },
     {
       "ingredient_id": 2475,
-      "name": "buttermilk, chilled",
-      "quantity": "¾ cup"
+      "name": "buttermilk",
+      "quantity": "¾ cup",
+      "prep": "chilled"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the unsalted butter cold until you use it. Pit and slice the ripe but firm plums into 1-inch wedges. Keep the buttermilk cold until you use it.",
+      "secondary_message": "7 tbsp unsalted butter\n5 cups ripe but firm plums\n¾ cup buttermilk"
+    },
     {
       "id": 1,
       "primary_message": "Melt 3 tablespoons butter in large skillet over medium heat. Add 1/4 cup brown sugar and cook, stirring, until dissolved, 1 to 2 minutes. Add plums and 1/4 teaspoon salt and cook, stirring occasionally, until they begin to release juices, 3 to 5 minutes. Increase heat to medium-high and continue cooking and stirring until juices are thickened, 3 to 5 minutes.Stir in blackberries and ginger.",

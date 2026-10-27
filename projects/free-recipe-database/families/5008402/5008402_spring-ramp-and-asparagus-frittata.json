@@ -53,9 +53,10 @@
     },
     {
       "ingredient_id": 26,
-      "name": "asparagus, woody ends trimmed",
+      "name": "asparagus",
       "quantity": "1 bunch",
-      "weigh_as": "1 lb"
+      "weigh_as": "1 lb",
+      "prep": "woody ends trimmed"
     },
     {
       "ingredient_id": 47,
@@ -79,6 +80,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the woody ends of the asparagus.",
+      "secondary_message": "1 bunch asparagus"
+    },
     {
       "id": 1,
       "primary_message": "In a large mixing bowl, beat eggs with 2 large pinches salt. Set aside.",

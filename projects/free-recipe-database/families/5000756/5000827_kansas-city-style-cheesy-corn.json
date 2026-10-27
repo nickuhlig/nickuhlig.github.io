@@ -48,13 +48,15 @@
     },
     {
       "ingredient_id": 1763,
-      "name": "smoked ham steak, diced into 1/2-inch cubes",
-      "quantity": "114 g"
+      "name": "smoked ham steak",
+      "quantity": "114 g",
+      "prep": "diced into 1/2-inch cubes"
     },
     {
       "ingredient_id": 27,
-      "name": "corn, husked",
-      "quantity": "6 ears"
+      "name": "corn",
+      "quantity": "6 ears",
+      "prep": "husked"
     },
     {
       "ingredient_id": 118,
@@ -63,13 +65,15 @@
     },
     {
       "ingredient_id": 355,
-      "name": "full-fat cream cheese, softened and cut into half-inch pieces",
-      "quantity": "170 g"
+      "name": "full-fat cream cheese",
+      "quantity": "170 g",
+      "prep": "softened and cut into half-inch pieces"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated with a microplane",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "grated with a microplane"
     },
     {
       "ingredient_id": 88,
@@ -93,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the smoked ham steak into 1/2-inch cubes. Husk the corn. Cut the full-fat cream cheese into half-inch pieces and soften it. Grate the garlic with a microplane.",
+      "secondary_message": "114 g smoked ham steak\n6 ears corn\n170 g full-fat cream cheese\n2 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "In a 8- or 25-cm cast-iron or nonstick skillet, heat 1 teaspoon oil over medium-high until shimmering. Add cubed ham steak and cook, stirring frequently, until ham is lightly browned, about 4 minutes; set aside.",

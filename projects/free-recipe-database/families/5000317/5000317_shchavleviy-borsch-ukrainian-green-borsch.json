@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, halved",
-      "quantity": "1 small"
+      "name": "yellow onion",
+      "quantity": "1 small",
+      "prep": "halved"
     },
     {
       "ingredient_id": 1784,
@@ -75,8 +76,9 @@
     },
     {
       "ingredient_id": 238,
-      "name": "new potatoes, halved",
-      "quantity": "12 medium"
+      "name": "new potatoes",
+      "quantity": "12 medium",
+      "prep": "halved"
     },
     {
       "ingredient_id": 1804,
@@ -90,13 +92,15 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, thinly sliced crosswise into rounds",
-      "quantity": "1 small"
+      "name": "carrot",
+      "quantity": "1 small",
+      "prep": "thinly sliced crosswise into rounds"
     },
     {
       "ingredient_id": 2323,
-      "name": "young green garlic, root end trimmed and diced",
-      "quantity": "1 stalk"
+      "name": "young green garlic",
+      "quantity": "1 stalk",
+      "prep": "root end trimmed and diced"
     },
     {
       "ingredient_id": 2158,
@@ -110,8 +114,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, well beaten",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "well beaten"
     },
     {
       "ingredient_id": 2290,
@@ -120,13 +125,15 @@
     },
     {
       "ingredient_id": 1932,
-      "name": "dill, finely chopped",
-      "quantity": "1 ½ oz"
+      "name": "dill",
+      "quantity": "1 ½ oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 121,
-      "name": "hard boiled eggs, peeled and roughly chopped",
-      "quantity": "4"
+      "name": "hard boiled eggs",
+      "quantity": "4",
+      "prep": "peeled and roughly chopped"
     },
     {
       "ingredient_id": 1730,
@@ -140,6 +147,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the yellow onion. Halve the new potatoes. Thinly slice the carrot crosswise into rounds. Trim the root end of the young green garlic, then dice it. Well beat the eggs. Finely chop the dill. Peel and roughly chop the hard boiled eggs.",
+      "secondary_message": "1 small yellow onion\n12 medium new potatoes\n1 small carrot\n1 stalk young green garlic\n2 large eggs\n1 ½ oz dill\n4 hard boiled eggs"
+    },
     {
       "id": 1,
       "primary_message": "For the Pork Broth: In a 6-quart enameled Dutch oven, add the pork ribs, carrot, onion, peppercorns, bay leaves, and salt. Cover with no more than 2 quarts (8 cups) water and bring to boil over medium-high heat. Lower heat to maintain a gentle simmer and cook, uncovered, until ribs are fork-tender, about 1 1/2 hours. Skim off any impurities that rise to the surface. Discard the carrot and onion.",

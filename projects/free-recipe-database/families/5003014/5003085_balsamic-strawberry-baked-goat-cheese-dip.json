@@ -37,8 +37,9 @@
   "ingredients": [
     {
       "ingredient_id": 1012,
-      "name": "baguette, cut into 1/4-inch slices",
-      "quantity": "1"
+      "name": "baguette",
+      "quantity": "1",
+      "prep": "cut into 1/4-inch slices"
     },
     {
       "ingredient_id": 47,
@@ -47,13 +48,15 @@
     },
     {
       "ingredient_id": 126,
-      "name": "goat cheese, at room temperature",
-      "quantity": "397 g"
+      "name": "goat cheese",
+      "quantity": "397 g",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, at room temperature",
-      "quantity": "227 g"
+      "name": "cream cheese",
+      "quantity": "227 g",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 103,
@@ -72,16 +75,24 @@
     },
     {
       "ingredient_id": 242,
-      "name": "strawberries, hulled and diced",
-      "quantity": "340 g"
+      "name": "strawberries",
+      "quantity": "340 g",
+      "prep": "hulled and diced"
     },
     {
       "ingredient_id": 1746,
-      "name": "lightly packed fresh basil leaves, cut into ribbons",
-      "quantity": "¼ cup"
+      "name": "lightly packed fresh basil leaves",
+      "quantity": "¼ cup",
+      "prep": "cut into ribbons"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the baguette into 1/4-inch slices. Bring the goat cheese to room temperature. Bring the cream cheese to room temperature. Hull and dice the strawberries. Cut the lightly packed fresh basil leaves into ribbons.",
+      "secondary_message": "1 baguette\n397 g goat cheese\n227 g cream cheese\n340 g strawberries\n¼ cup lightly packed fresh basil leaves"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 220°C (425°F). Place the baguette slices on a baking sheet and brush both sides lightly with olive oil. Bake until golden, about 8 minutes.",

@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 232,
-      "name": "whole orange, scrubbed clean",
-      "quantity": "1"
+      "name": "whole orange",
+      "quantity": "1",
+      "prep": "scrubbed clean"
     },
     {
       "ingredient_id": 74,
@@ -95,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Scrub the whole orange clean.",
+      "secondary_message": "1 whole orange"
+    },
     {
       "id": 1,
       "primary_message": "For the Orange Purée: Use the tip of a sharp knife to cut several slits in the skin of the orange.",

@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 1866,
-      "name": "green cardamom pods, lightly crushed",
-      "quantity": "8"
+      "name": "green cardamom pods",
+      "quantity": "8",
+      "prep": "lightly crushed"
     },
     {
       "ingredient_id": 1757,
@@ -46,8 +47,9 @@
     },
     {
       "ingredient_id": 1082,
-      "name": "cinnamon sticks, broken into pieces",
-      "quantity": "2"
+      "name": "cinnamon sticks",
+      "quantity": "2",
+      "prep": "broken into pieces"
     },
     {
       "ingredient_id": 359,
@@ -66,8 +68,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, peeled and diced",
-      "quantity": "1 (2 inch) piece"
+      "name": "ginger",
+      "quantity": "1 (2 inch) piece",
+      "prep": "peeled and diced"
     },
     {
       "ingredient_id": 1714,
@@ -96,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly crush the green cardamom pods. Break the cinnamon sticks into pieces. Peel and dice the ginger.",
+      "secondary_message": "8 green cardamom pods\n2 cinnamon sticks\n1 (2 inch) piece ginger"
+    },
     {
       "id": 1,
       "primary_message": "In a 3-quart saucier or saucepan, toast cardamom, cloves, and cinnamon over medium heat, shaking the pan occasionally, until fragrant, about 1 minute. Add the water, sugar, orange peel, and ginger. Bring to a simmer over medium heat, then stir until sugar is dissolved, about 30 seconds. Turn off heat.",

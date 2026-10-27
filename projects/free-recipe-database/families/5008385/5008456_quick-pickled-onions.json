@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 1713,
-      "name": "Raw onion, sliced, cut into rings, or diced",
-      "quantity": ""
+      "name": "Raw onion, or diced",
+      "quantity": "",
+      "prep": "sliced, cut into rings"
     },
     {
       "ingredient_id": 88,
@@ -50,6 +51,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice and cut the Raw onion into rings.",
+      "secondary_message": "Raw onion, or diced"
+    },
     {
       "id": 1,
       "primary_message": "Put the onion in a non-reactive vessel along with a large pinch of salt. Pour enough vinegar on top to just cover. Let stand, stirring once or twice, for at least 15 minutes and up to 1 hour (the onion will grow softer and more pickled-tasting as it sits). Drain, then add to sandwiches, salads, and other dishes where raw onion would be used.",

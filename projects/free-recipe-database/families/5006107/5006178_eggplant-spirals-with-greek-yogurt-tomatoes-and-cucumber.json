@@ -102,8 +102,9 @@
     },
     {
       "ingredient_id": 155,
-      "name": "English cucumber, seeded and cut into 1/4-inch dice",
-      "quantity": "1"
+      "name": "English cucumber",
+      "quantity": "1",
+      "prep": "seeded and cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 88,
@@ -117,6 +118,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Seed and cut the English cucumber into 1/4-inch dice.",
+      "secondary_message": "1 English cucumber"
+    },
     {
       "id": 1,
       "primary_message": "For the Filling: Whisk together yogurt, feta, lemon juice, oregano, mint, dill, and garlic in a medium bowl. Season with salt and pepper.",

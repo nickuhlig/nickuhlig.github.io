@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated on microplane grater",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "grated on microplane grater"
     },
     {
       "ingredient_id": 82,
@@ -86,8 +87,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, peeled and split in half",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "peeled and split in half"
     },
     {
       "ingredient_id": 28,
@@ -101,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the garlic on microplane grater. Peel and split the yellow onion in half.",
+      "secondary_message": "2 medium cloves garlic\n1 medium yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "Process tomatoes and their juice through food mill, pulse in food processor until puréed, or purée with immersion blender. Purée should not be completely smooth, but should have no chunks larger than 1/16th of an inch. Set tomatoes aside.",

@@ -114,8 +114,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, room temperature",
-      "quantity": "170 g"
+      "name": "unsalted butter",
+      "quantity": "170 g",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 346,
@@ -124,18 +125,21 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, room temperature",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 1003,
-      "name": "sour cream, room temperature",
-      "quantity": "170 g"
+      "name": "sour cream",
+      "quantity": "170 g",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, room temperature and cubed",
-      "quantity": "227 g"
+      "name": "unsalted butter",
+      "quantity": "227 g",
+      "prep": "room temperature and cubed"
     },
     {
       "ingredient_id": 2240,
@@ -149,6 +153,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature. Bring the eggs to room temperature. Bring the sour cream to room temperature. Cube the unsalted butter and bring it to room temperature.",
+      "secondary_message": "170 g unsalted butter\n3 large eggs\n170 g sour cream\n227 g unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Adjust oven rack to middle position and preheat to 160°C (325°F). Grease a 9- by 5-inch (preferably straight-sided) loaf pan with nonstick spray (see notes.) Line pan with a 5-by-46-cm piece of parchment so the length of the pan is covered by a 2.5-cm overhang. (This creates a sling that can be used to remove the cake from the pan later.)",

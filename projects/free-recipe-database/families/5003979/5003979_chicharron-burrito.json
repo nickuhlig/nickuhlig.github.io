@@ -34,13 +34,15 @@
     },
     {
       "ingredient_id": 321,
-      "name": "tortillas, as many as needed",
-      "quantity": "4 to 6"
+      "name": "tortillas",
+      "quantity": "4 to 6",
+      "prep": "as many as needed"
     },
     {
       "ingredient_id": 3662,
-      "name": "dried pinto beans, rinsed",
-      "quantity": "1 lb"
+      "name": "dried pinto beans",
+      "quantity": "1 lb",
+      "prep": "rinsed"
     },
     {
       "ingredient_id": 359,
@@ -59,8 +61,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 43,
@@ -79,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Need the as many as of the tortillas. Rinse the dried pinto beans. Smash the garlic.",
+      "secondary_message": "4 to 6 tortillas\n1 lb dried pinto beans\n4 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Place water and beans in a pot and bring to a boil, stirring occasionally. Reduce heat to medium-low, cover partially, and simmer until beans are just tender, 1 hour to 1 1/2 hours. Drain the beans, reserving the cooking water.",

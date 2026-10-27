@@ -87,8 +87,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 6 pieces",
-      "quantity": "6 tbsp (3 oz)"
+      "name": "unsalted butter",
+      "quantity": "6 tbsp (3 oz)",
+      "prep": "cut into 6 pieces"
     },
     {
       "ingredient_id": 116,
@@ -132,6 +133,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into 6 pieces.",
+      "secondary_message": "6 tbsp (3 oz) unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Chocolate Pudding Layer: Stir espresso powder into boiling water; reserve.",

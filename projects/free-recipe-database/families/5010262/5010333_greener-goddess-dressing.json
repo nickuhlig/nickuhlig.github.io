@@ -47,13 +47,15 @@
     },
     {
       "ingredient_id": 183,
-      "name": "Hass avocado, roughly chopped",
-      "quantity": "½"
+      "name": "Hass avocado",
+      "quantity": "½",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, trimmed and quartered",
-      "quantity": "2 medium"
+      "name": "scallions",
+      "quantity": "2 medium",
+      "prep": "trimmed and quartered"
     },
     {
       "ingredient_id": 24,
@@ -77,8 +79,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, juiced",
-      "quantity": "¾"
+      "name": "lemon",
+      "quantity": "¾",
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -92,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the Hass avocado. Trim and quarter the scallions. Juice the lemon.",
+      "secondary_message": "½ Hass avocado\n2 medium scallions\n¾ lemon"
+    },
     {
       "id": 1,
       "primary_message": "Put everything in the blender, and whiz on full blast until completely smooth. Serve over an iceberg wedge, with crudités, with shrimp cocktail, or with anything you want.",

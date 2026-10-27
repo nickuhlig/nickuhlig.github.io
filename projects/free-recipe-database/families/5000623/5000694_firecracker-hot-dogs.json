@@ -105,8 +105,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 1/2-inch cubes and chilled",
-      "quantity": "8 tbsp"
+      "name": "unsalted butter",
+      "quantity": "8 tbsp",
+      "prep": "cut into 1/2-inch cubes and chilled"
     },
     {
       "ingredient_id": 1602,
@@ -140,6 +141,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into 1/2-inch cubes and keep it cold until you use it.",
+      "secondary_message": "8 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the dough: Adjust oven rack to middle position and preheat oven to 200°C (400°F). Line a rimmed baking sheet with parchment paper. Spray parchment with cooking spray; set aside.",

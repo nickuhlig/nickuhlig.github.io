@@ -73,8 +73,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, cold",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "cold"
     },
     {
       "ingredient_id": 116,
@@ -103,6 +104,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the egg cold until you use it.",
+      "secondary_message": "1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "For the Batter: Melt butter in a 3-quart stainless steel saucier or saucepan, stirring and scraping with a heat-resistant spatula as it bubbles, and cook until golden brown. Remove from heat and immediately stir in sugar, salt, and milk, followed by egg. Sift in flour and stir until smooth. Add yeast and baking soda last, stirring to combine. Cover and refrigerate overnight, between 12 and 18 hours. The batter should be gooey and spongy at this point.",

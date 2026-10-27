@@ -45,8 +45,9 @@
   "ingredients": [
     {
       "ingredient_id": 1004,
-      "name": "green cabbage, cut through core",
-      "quantity": "½ medium head"
+      "name": "green cabbage",
+      "quantity": "½ medium head",
+      "prep": "cut through core"
     },
     {
       "ingredient_id": 47,
@@ -105,6 +106,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut through the green cabbage core.",
+      "secondary_message": "½ medium head green cabbage"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to upper-middle position and heat oven to 500℉. Cut cabbage half through core into 2 pieces, then cut each piece through core into 2 wedges for a total of 4 wedges. Leave core intact. Arrange wedges, 1 flat side down, on 1 side of rimmed baking sheet, leaving other half of sheet empty.",

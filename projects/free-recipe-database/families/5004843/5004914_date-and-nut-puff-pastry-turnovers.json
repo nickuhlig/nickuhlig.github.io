@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 349,
-      "name": "nutmeg, freshly ground",
-      "quantity": "¼ tsp"
+      "name": "nutmeg",
+      "quantity": "¼ tsp",
+      "prep": "freshly ground"
     },
     {
       "ingredient_id": 88,
@@ -76,26 +77,36 @@
     },
     {
       "ingredient_id": 272,
-      "name": "walnuts, toasted",
-      "quantity": "1 cup"
+      "name": "walnuts",
+      "quantity": "1 cup",
+      "prep": "toasted"
     },
     {
       "ingredient_id": 256,
-      "name": "pistachio nuts, toasted",
-      "quantity": "1 cup"
+      "name": "pistachio nuts",
+      "quantity": "1 cup",
+      "prep": "toasted"
     },
     {
       "ingredient_id": 356,
-      "name": "dates, pitted and roughly chopped",
-      "quantity": "1 cup (4 oz)"
+      "name": "dates",
+      "quantity": "1 cup (4 oz)",
+      "prep": "pitted and roughly chopped"
     },
     {
       "ingredient_id": 1021,
-      "name": "puff pastry, thawed",
-      "quantity": "3 sheets"
+      "name": "puff pastry",
+      "quantity": "3 sheets",
+      "prep": "thawed"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Freshly grind the nutmeg. Toast the walnuts. Toast the pistachio nuts. Pit and roughly chop the dates. Thaw the puff pastry.",
+      "secondary_message": "¼ tsp nutmeg\n1 cup walnuts\n1 cup pistachio nuts\n1 cup (4 oz) dates\n3 sheets puff pastry"
+    },
     {
       "id": 1,
       "primary_message": "Make the syrup: Combine all syrup ingredients except orange blossom water in a medium saucepan and bring to a simmer. Remove from heat, stir in orange blossom water, and set aside to cool for 15 minutes.",

@@ -47,8 +47,9 @@
   "ingredients": [
     {
       "ingredient_id": 1230,
-      "name": "whole butterflied chicken, neck and backbone reserved",
-      "quantity": "1"
+      "name": "whole butterflied chicken",
+      "quantity": "1",
+      "prep": "neck and backbone reserved"
     },
     {
       "ingredient_id": 88,
@@ -72,9 +73,10 @@
     },
     {
       "ingredient_id": 26,
-      "name": "asparagus stalks, trimmed and peeled if necessary",
+      "name": "asparagus stalks",
       "quantity": "1 ½ bunches",
-      "weigh_as": "0.68 kg"
+      "weigh_as": "0.68 kg",
+      "prep": "trimmed and peeled if necessary"
     },
     {
       "ingredient_id": 47,
@@ -88,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Reserve the neck and backbone of the whole butterflied chicken. Trim and peel the asparagus stalks if necessary.",
+      "secondary_message": "1 whole butterflied chicken\n1 ½ bunches asparagus stalks"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center position and preheat oven to 260°C (500°F). Pat chicken dry with paper towels and season on all sides generously with salt and pepper. Line heavy-duty rimmed baking sheet with foil. Place chicken on foil, skin-side up. Transfer to oven and roast until thickest part of breast registers 66°C (150°F) on an instant-read thermometer, about 45 minutes (see note). Remove from oven, transfer chicken to a cutting board, and allow to rest for 15 minutes.",

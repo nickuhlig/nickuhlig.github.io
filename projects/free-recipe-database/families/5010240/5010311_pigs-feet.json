@@ -47,8 +47,9 @@
   "ingredients": [
     {
       "ingredient_id": 3505,
-      "name": "pigs' feet, halved lengthwise",
-      "quantity": "4 to 5"
+      "name": "pigs' feet",
+      "quantity": "4 to 5",
+      "prep": "halved lengthwise"
     },
     {
       "ingredient_id": 2131,
@@ -92,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the pigs' feet lengthwise.",
+      "secondary_message": "4 to 5 pigs' feet"
+    },
     {
       "id": 1,
       "primary_message": "Rinse all of the trotters and place them in a Dutch oven. Loosely pour the kecap manis and the sriracha over the trotters. Add the salt and water and cover the pan.",

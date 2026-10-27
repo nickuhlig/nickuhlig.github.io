@@ -69,18 +69,21 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "minced"
     },
     {
       "ingredient_id": 355,
-      "name": "plain full-fat cream cheese, cut into 8 pieces and softened",
-      "quantity": "8 oz"
+      "name": "plain full-fat cream cheese",
+      "quantity": "8 oz",
+      "prep": "cut into 8 pieces and softened"
     },
     {
       "ingredient_id": 449,
-      "name": "frozen cut-leaf spinach, thawed and squeezed dry",
-      "quantity": "15 oz"
+      "name": "frozen cut-leaf spinach",
+      "quantity": "15 oz",
+      "prep": "thawed and squeezed dry"
     },
     {
       "ingredient_id": 2274,
@@ -89,16 +92,24 @@
     },
     {
       "ingredient_id": 1069,
-      "name": "Monterey Jack cheese, shredded , divided",
-      "quantity": "12 oz"
+      "name": "Monterey Jack cheese, divided",
+      "quantity": "12 oz",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 120,
-      "name": "Parmigiano-Reggiano cheese, grated , divided",
-      "quantity": "4 oz"
+      "name": "Parmigiano-Reggiano cheese, divided",
+      "quantity": "4 oz",
+      "prep": "grated"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic. Cut the plain full-fat cream cheese into 8 pieces and soften it. Thaw and squeeze the frozen cut-leaf spinach dry. Shred the Monterey Jack cheese. Grate the Parmigiano-Reggiano cheese.",
+      "secondary_message": "1 medium clove garlic\n8 oz plain full-fat cream cheese\n15 oz frozen cut-leaf spinach\n12 oz Monterey Jack cheese, divided\n4 oz Parmigiano-Reggiano cheese, divided"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 375°F. Grease a 2-quart baking dish with cooking spray; set aside.",

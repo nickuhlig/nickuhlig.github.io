@@ -47,8 +47,9 @@
   "ingredients": [
     {
       "ingredient_id": 3546,
-      "name": "trevisano, split in half through core",
-      "quantity": "2 whole heads"
+      "name": "trevisano",
+      "quantity": "2 whole heads",
+      "prep": "split in half through core"
     },
     {
       "ingredient_id": 88,
@@ -77,6 +78,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the trevisano in half through core.",
+      "secondary_message": "2 whole heads trevisano"
+    },
     {
       "id": 1,
       "primary_message": "Light one half chimney full of charcoal. When all the charcoal is lit and covered with gray ash, pour out and spread the coals evenly over half of coal grate. Alternatively, set half the burners of a gas grill to medium-high heat. Set cooking grate in place, cover grill and allow to preheat for 5 minutes. Clean and oil the grilling grate.",

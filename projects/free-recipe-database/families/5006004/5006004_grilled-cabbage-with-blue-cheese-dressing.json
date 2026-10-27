@@ -78,8 +78,9 @@
     },
     {
       "ingredient_id": 1004,
-      "name": "green cabbage, cut into 6 wedges, with core left intact",
-      "quantity": "1 medium head"
+      "name": "green cabbage",
+      "quantity": "1 medium head",
+      "prep": "cut into 6 wedges, with core left intact"
     },
     {
       "ingredient_id": 47,
@@ -93,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the green cabbage into 6 wedges, then leave the with core intact.",
+      "secondary_message": "1 medium head green cabbage"
+    },
     {
       "id": 1,
       "primary_message": "Place blue cheese in a medium bowl and mash with a fork or whisk. Add mayonnaise, sour cream, and lemon juice and whisk to combine. Season to taste with salt and pepper and set aside.",

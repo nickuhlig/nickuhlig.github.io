@@ -38,8 +38,9 @@
   "ingredients": [
     {
       "ingredient_id": 2199,
-      "name": "dried black-eyed peas, picked over and rinsed",
-      "quantity": "1 lb"
+      "name": "dried black-eyed peas",
+      "quantity": "1 lb",
+      "prep": "picked over and rinsed"
     },
     {
       "ingredient_id": 88,
@@ -53,13 +54,15 @@
     },
     {
       "ingredient_id": 150,
-      "name": "red bell peppers, stemmed, seeded, and roughly chopped",
-      "quantity": "2 medium"
+      "name": "red bell peppers",
+      "quantity": "2 medium",
+      "prep": "stemmed, seeded, and roughly chopped"
     },
     {
       "ingredient_id": 1541,
-      "name": "plum tomatoes, cored and roughly chopped",
-      "quantity": "2"
+      "name": "plum tomatoes",
+      "quantity": "2",
+      "prep": "cored and roughly chopped"
     },
     {
       "ingredient_id": 2306,
@@ -73,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the dried black-eyed peas over, then rinse them. Stem, seed, and roughly chop the red bell peppers. Core and roughly chop the plum tomatoes.",
+      "secondary_message": "1 lb dried black-eyed peas\n2 medium red bell peppers\n2 plum tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "In a large pot, cover beans with cold water by at least 2 inches. Cover and leave to soak for at least 4 and up to 12 hours.",

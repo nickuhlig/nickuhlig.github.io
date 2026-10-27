@@ -47,8 +47,9 @@
   "ingredients": [
     {
       "ingredient_id": 158,
-      "name": "cauliflower, trimmed and cut into 8 wedges",
-      "quantity": "1 head"
+      "name": "cauliflower",
+      "quantity": "1 head",
+      "prep": "trimmed and cut into 8 wedges"
     },
     {
       "ingredient_id": 47,
@@ -77,8 +78,9 @@
     },
     {
       "ingredient_id": 15,
-      "name": "capers, rinsed, drained, and roughly chopped",
-      "quantity": "2 tbsp"
+      "name": "capers",
+      "quantity": "2 tbsp",
+      "prep": "rinsed, drained, and roughly chopped"
     },
     {
       "ingredient_id": 216,
@@ -97,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim and cut the cauliflower into 8 wedges. Rinse, drain, and roughly chop the capers.",
+      "secondary_message": "1 head cauliflower\n2 tbsp capers"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 260°C (500°F). Toss cauliflower with 3 tablespoons olive oil. Season to taste with salt and pepper. Transfer to a foil-lined rimmed baking sheet. Roast until cauliflower is tender and deeply browned on both sides, about 20 minutes total, flipping cauliflower with a thin metal spatula halfway through roasting.",

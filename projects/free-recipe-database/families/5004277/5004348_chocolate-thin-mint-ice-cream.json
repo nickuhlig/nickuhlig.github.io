@@ -62,8 +62,9 @@
     },
     {
       "ingredient_id": 1729,
-      "name": "dark chocolate, chopped fine",
-      "quantity": "142 g"
+      "name": "dark chocolate",
+      "quantity": "142 g",
+      "prep": "chopped fine"
     },
     {
       "ingredient_id": 88,
@@ -72,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the dark chocolate fine.",
+      "secondary_message": "142 g dark chocolate"
+    },
     {
       "id": 1,
       "primary_message": "In a medium saucepan off heat, whisk together egg yolks and sugar until light in color and slightly thickened, 3 to 5 minutes. Whisk in cocoa powder until no lumps remain. Slowly add half and half, whisking constantly. Finely chop 10 Thin Mints (crumbs should be no larger than a pea) and stir into dairy.",

@@ -44,13 +44,15 @@
     },
     {
       "ingredient_id": 158,
-      "name": "cauliflower, cut into 1/4-inch thin slices",
-      "quantity": "½ head"
+      "name": "cauliflower",
+      "quantity": "½ head",
+      "prep": "cut into 1/4-inch thin slices"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 359,
@@ -74,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cauliflower into 1/4-inch thin slices. Smash the garlic.",
+      "secondary_message": "½ head cauliflower\n3 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in a large wok over high heat until smoking. Add the cauliflower and stir-fry until tender-crisp, about 4 minutes. Push to the sides and add garlic to center. Stir-fry until golden, about 30 seconds. Toss garlic and cauliflower together.",

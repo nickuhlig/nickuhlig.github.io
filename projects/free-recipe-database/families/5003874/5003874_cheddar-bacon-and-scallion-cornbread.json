@@ -42,8 +42,9 @@
   "ingredients": [
     {
       "ingredient_id": 302,
-      "name": "bacon, cut into 1/2-inch pieces",
-      "quantity": "6 slices"
+      "name": "bacon",
+      "quantity": "6 slices",
+      "prep": "cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 2210,
@@ -92,13 +93,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "melted butter, cooled slightly",
-      "quantity": "3 tbsp"
+      "name": "melted butter",
+      "quantity": "3 tbsp",
+      "prep": "cooled slightly"
     },
     {
       "ingredient_id": 43,
-      "name": "cheddar cheese, shredded",
-      "quantity": "6 oz"
+      "name": "cheddar cheese",
+      "quantity": "6 oz",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 153,
@@ -107,6 +110,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the bacon into 1/2-inch pieces. Cool the melted butter slightly. Shred the cheddar cheese.",
+      "secondary_message": "6 slices bacon\n3 tbsp melted butter\n6 oz cheddar cheese"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 425°F. Cook bacon in a 10-inch cast iron skillet over medium-high heat until fat renders and bacon crisps, about 10 minutes. Transfer bacon to a paper towel-lined plate. Pour bacon fat out into a small bowl. Return 2 tablespoons to pan and place pan in oven. Reserve an additional 2 tablespoons fat and discard the rest or save for another use.",

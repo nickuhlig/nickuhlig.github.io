@@ -58,13 +58,15 @@
   "ingredients": [
     {
       "ingredient_id": 1811,
-      "name": "shrimp, shelled and deveined",
-      "quantity": "1 lb"
+      "name": "shrimp",
+      "quantity": "1 lb",
+      "prep": "shelled and deveined"
     },
     {
       "ingredient_id": 3642,
-      "name": "egg white, beaten with a fork until frothy",
-      "quantity": "1"
+      "name": "egg white",
+      "quantity": "1",
+      "prep": "beaten with a fork until frothy"
     },
     {
       "ingredient_id": 153,
@@ -128,13 +130,15 @@
     },
     {
       "ingredient_id": 283,
-      "name": "chile peppers, julienned",
-      "quantity": "2"
+      "name": "chile peppers",
+      "quantity": "2",
+      "prep": "julienned"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, julienned",
-      "quantity": "6"
+      "name": "scallions",
+      "quantity": "6",
+      "prep": "julienned"
     },
     {
       "ingredient_id": 188,
@@ -143,8 +147,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "thin slices of ginger, julienned",
-      "quantity": "4"
+      "name": "thin slices of ginger",
+      "quantity": "4",
+      "prep": "julienned"
     },
     {
       "ingredient_id": 1828,
@@ -193,8 +198,9 @@
     },
     {
       "ingredient_id": 228,
-      "name": "lime, juiced, to taste",
-      "quantity": "1"
+      "name": "lime, to taste",
+      "quantity": "1",
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2997,
@@ -203,6 +209,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shell and devein the shrimp. Beat the egg white with a fork until frothy. Julienne the chile peppers. Julienne the scallions. Julienne the thin slices of ginger. Juice the lime.",
+      "secondary_message": "1 lb shrimp\n1 egg white\n2 chile peppers\n6 scallions\n4 thin slices of ginger\n1 lime, to taste"
+    },
     {
       "id": 1,
       "primary_message": "For the Shrimp Balls (optional, see note): Pat shrimp dry with paper towels and transfer to a food processor. Pulse 20 times, stopping to scrape down the sides every few pulses for even mincing. Transfer minced shrimp to a large bowl.",

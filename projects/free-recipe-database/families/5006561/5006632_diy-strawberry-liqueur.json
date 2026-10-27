@@ -44,8 +44,9 @@
   "ingredients": [
     {
       "ingredient_id": 242,
-      "name": "strawberries, roughly sliced",
-      "quantity": "227 g"
+      "name": "strawberries",
+      "quantity": "227 g",
+      "prep": "roughly sliced"
     },
     {
       "ingredient_id": 2221,
@@ -69,6 +70,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly slice the strawberries.",
+      "secondary_message": "227 g strawberries"
+    },
     {
       "id": 1,
       "primary_message": "Place the strawberries and tarragon in a sealable glass jar, then add vodka. Seal and shake. Let mixture steep for 2 days at room temperature away from direct sunlight. Strain strawberries and tarragon, then filter mixture through a coffee filter or through two layers of cheesecloth, pressing down to extract liquid.",

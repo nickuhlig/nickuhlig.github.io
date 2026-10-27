@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 1882,
-      "name": "cardamom pods, crushed to release seeds",
-      "quantity": "5"
+      "name": "cardamom pods",
+      "quantity": "5",
+      "prep": "crushed to release seeds"
     },
     {
       "ingredient_id": 1706,
@@ -80,13 +81,15 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "57 g"
+      "name": "bittersweet chocolate",
+      "quantity": "57 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted and cooled",
-      "quantity": "1 ½ tbsp"
+      "name": "unsalted butter",
+      "quantity": "1 ½ tbsp",
+      "prep": "melted and cooled"
     },
     {
       "ingredient_id": 118,
@@ -105,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Crush the cardamom pods to release seeds. Finely chop the bittersweet chocolate. Melt the unsalted butter and let it cool.",
+      "secondary_message": "5 cardamom pods\n57 g bittersweet chocolate\n1 ½ tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In large saucepan over medium heat, combine sugar, water, honey, saffron, and cardamom. Heat, stirring to dissolve sugar, until mixture just comes to boil. Turn off heat and keep warm.",

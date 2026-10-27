@@ -49,8 +49,9 @@
   "ingredients": [
     {
       "ingredient_id": 1103,
-      "name": "smoked ham, coarsely chopped",
-      "quantity": "8 oz"
+      "name": "smoked ham",
+      "quantity": "8 oz",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 267,
@@ -99,8 +100,9 @@
     },
     {
       "ingredient_id": 1129,
-      "name": "minced sweet gherkins, drained",
-      "quantity": "¼ cup"
+      "name": "minced sweet gherkins",
+      "quantity": "¼ cup",
+      "prep": "drained"
     },
     {
       "ingredient_id": 2340,
@@ -119,8 +121,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "3 tbsp"
+      "name": "unsalted butter",
+      "quantity": "3 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 2483,
@@ -129,6 +132,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Coarsely chop the smoked ham. Drain the minced sweet gherkins. Soften the unsalted butter.",
+      "secondary_message": "8 oz smoked ham\n¼ cup minced sweet gherkins\n3 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Deviled Ham Salad: Pulse ham, mayonnaise, mustard, honey, Worcestershire, pepper, garlic powder, onion powder, cloves, and cayenne in food processor until a coarse paste forms, 6 to 8 pulses. Scrape sides and bottom of food processor with rubber spatula and pulse for 1 second. Transfer to medium bowl. Stir gherkins and onion into ham salad.",

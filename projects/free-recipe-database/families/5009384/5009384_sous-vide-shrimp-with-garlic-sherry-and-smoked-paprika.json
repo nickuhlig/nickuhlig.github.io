@@ -63,8 +63,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "6 medium cloves"
+      "name": "garlic",
+      "quantity": "6 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 478,
@@ -93,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the garlic.",
+      "secondary_message": "6 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Set your sous vide water bath to desired temperature according to the chart above.",

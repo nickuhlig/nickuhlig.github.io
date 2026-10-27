@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 1268,
-      "name": "golden raisins, coarsely chopped",
-      "quantity": "½ cup"
+      "name": "golden raisins",
+      "quantity": "½ cup",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 1480,
@@ -85,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Coarsely chop the golden raisins.",
+      "secondary_message": "½ cup golden raisins"
+    },
     {
       "id": 1,
       "primary_message": "Combine sugar and pectin in a medium bowl. Wash the oranges and remove rind in quarters. Scrape away as much of the white pith as possible. Thinly slice rind lengthwise, then roughly chop crosswise into smaller pieces. Transfer rind to a large pot and add baking soda, and 2 1/2 cups of water. Bring to a boil, then reduce heat, cover, and simmer gently for 15 minutes.",

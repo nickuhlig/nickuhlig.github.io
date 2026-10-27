@@ -93,11 +93,18 @@
     },
     {
       "ingredient_id": 232,
-      "name": "oranges, cut into supremes",
-      "quantity": "3"
+      "name": "oranges",
+      "quantity": "3",
+      "prep": "cut into supremes"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the oranges into supremes.",
+      "secondary_message": "3 oranges"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Adjust oven rack to middle position and preheat to 175°C (350°F). Place the egg whites in the bowl of a stand mixer fitted with the whisk attachment. In a separate bowl sift together confectioner's sugar, cake flour, and salt. Whisk the egg whites on medium-high until they form soft peaks, about 1 1/2 minutes. With the mixer running, add the granulated sugar in a steady stream and continue to beat until stiff peaks form, about 1 minute longer.",

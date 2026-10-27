@@ -75,8 +75,9 @@
     },
     {
       "ingredient_id": 1849,
-      "name": "medium-grain rice, rinsed and drained well",
-      "quantity": "½ cup"
+      "name": "medium-grain rice",
+      "quantity": "½ cup",
+      "prep": "rinsed and drained well"
     },
     {
       "ingredient_id": 152,
@@ -86,15 +87,17 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, cut into 1/4-inch dice",
+      "name": "carrots",
       "quantity": "3 medium",
-      "weigh_as": "6 oz"
+      "weigh_as": "6 oz",
+      "prep": "cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, cut into 1/4-inch dice",
+      "name": "celery",
       "quantity": "4 sticks",
-      "weigh_as": "6 oz"
+      "weigh_as": "6 oz",
+      "prep": "cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 275,
@@ -108,6 +111,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse and drain the medium-grain rice well. Cut the carrots into 1/4-inch dice. Cut the celery into 1/4-inch dice.",
+      "secondary_message": "½ cup medium-grain rice\n3 medium carrots\n4 sticks celery"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat to 500°F. Spread chicken wings directly on an unlined rimmed baking sheet. Roast wings until golden brown, about 30 minutes.",

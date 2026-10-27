@@ -59,8 +59,9 @@
     },
     {
       "ingredient_id": 1039,
-      "name": "russet potatoes, unpeeled and scrubbed clean",
-      "quantity": "4 small"
+      "name": "russet potatoes",
+      "quantity": "4 small",
+      "prep": "unpeeled and scrubbed clean"
     },
     {
       "ingredient_id": 359,
@@ -114,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Leave unpeeled and scrub the russet potatoes clean.",
+      "secondary_message": "4 small russet potatoes"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven racks to the upper-middle and lower-middle positions and preheat oven to 450°F. Using a pastry brush or fingers, coat a large rimmed baking sheet with 2 tablespoons of olive oil.",

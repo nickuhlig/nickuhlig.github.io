@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely diced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 1008,
@@ -70,8 +71,9 @@
     },
     {
       "ingredient_id": 1496,
-      "name": "homemade vegetable broth, heated",
-      "quantity": "2000 ml"
+      "name": "homemade vegetable broth",
+      "quantity": "2000 ml",
+      "prep": "heated"
     },
     {
       "ingredient_id": 120,
@@ -80,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the yellow onion. Heat the homemade vegetable broth.",
+      "secondary_message": "1 medium yellow onion\n2000 ml homemade vegetable broth"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 220°C (425°F). On a rimmed baking sheet, toss butternut squash with 2 tablespoons olive oil and a large pinch of salt, then spread in an even layer and roast until squash is very soft and lightly browned, about 25 minutes.",

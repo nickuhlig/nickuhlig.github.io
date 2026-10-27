@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, chilled and cut into small pieces",
-      "quantity": "57 g"
+      "name": "butter",
+      "quantity": "57 g",
+      "prep": "chilled and cut into small pieces"
     },
     {
       "ingredient_id": 359,
@@ -101,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the butter into small pieces and keep it cold until you use it.",
+      "secondary_message": "57 g butter"
+    },
     {
       "id": 1,
       "primary_message": "For the crust: In bowl of food processor, combine sorghum flour, tapioca starch, and salt. Pulse to combine. Add butter. Pulse until pieces are no larger than 0.5-cm. Whisk together 1/4 cup water and egg. Add egg mixture. Run food processor until a dough ball forms, about 45 seconds. If dough is dry, add an additional tablespoon of water until dough comes together.",

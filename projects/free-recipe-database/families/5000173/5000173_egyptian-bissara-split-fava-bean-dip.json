@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, thinly sliced",
-      "quantity": "10 medium"
+      "name": "shallots",
+      "quantity": "10 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -55,8 +56,9 @@
     },
     {
       "ingredient_id": 1942,
-      "name": "dried split fava beans, rinsed",
-      "quantity": "2 cups"
+      "name": "dried split fava beans",
+      "quantity": "2 cups",
+      "prep": "rinsed"
     },
     {
       "ingredient_id": 188,
@@ -80,8 +82,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 243,
@@ -150,6 +153,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the shallots. Rinse the dried split fava beans. Peel the garlic.",
+      "secondary_message": "10 medium shallots\n2 cups dried split fava beans\n3 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Shallot-Infused Oil and Fried Shallots: In an 8-inch skillet, combine oil and shallots over medium-low heat, and cook, stirring often, until shallots are golden brown and crisp, about 20 minutes.",

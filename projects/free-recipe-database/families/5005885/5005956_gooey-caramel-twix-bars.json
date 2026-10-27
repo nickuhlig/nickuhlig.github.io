@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into cubes, divided",
-      "quantity": "10 tbsp (5 oz)"
+      "name": "cold unsalted butter, divided",
+      "quantity": "10 tbsp (5 oz)",
+      "prep": "cut into cubes"
     },
     {
       "ingredient_id": 1752,
@@ -82,18 +83,21 @@
     },
     {
       "ingredient_id": 327,
-      "name": "pecans, rough chopped",
-      "quantity": "⅔ cup"
+      "name": "pecans",
+      "quantity": "⅔ cup",
+      "prep": "rough chopped"
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, chopped",
-      "quantity": "170 g"
+      "name": "bittersweet chocolate",
+      "quantity": "170 g",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 3548,
-      "name": "Twix candy bars, cut into 3/4-inch lengths",
-      "quantity": "6"
+      "name": "Twix candy bars",
+      "quantity": "6",
+      "prep": "cut into 3/4-inch lengths"
     },
     {
       "ingredient_id": 1449,
@@ -107,6 +111,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cold unsalted butter into cubes. Roughly chop the pecans. Chop the bittersweet chocolate. Cut the Twix candy bars into 3/4-inch lengths.",
+      "secondary_message": "10 tbsp (5 oz) cold unsalted butter, divided\n⅔ cup pecans\n170 g bittersweet chocolate\n6 Twix candy bars"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 190°C (375°F). Line bottom and two sides of an 8- by 8- by 5-cm baking pan with foil, allowing edges to hang over the side.",

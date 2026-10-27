@@ -43,13 +43,15 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onions, sliced into 2-inch lengths",
-      "quantity": "2 medium"
+      "name": "yellow onions",
+      "quantity": "2 medium",
+      "prep": "sliced into 2-inch lengths"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, crushed",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 3686,
@@ -73,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the yellow onions into 2-inch lengths. Crush the garlic.",
+      "secondary_message": "2 medium yellow onions\n4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "In a large pot or Dutch oven, combine ham hocks, onions, garlic, and chicken stock and bring to a simmer. Cover and cook at a bare simmer until hocks are very tender, 2 to 3 hours.",

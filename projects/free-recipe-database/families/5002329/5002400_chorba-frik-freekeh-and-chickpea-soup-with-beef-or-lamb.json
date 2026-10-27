@@ -75,13 +75,15 @@
     },
     {
       "ingredient_id": 2162,
-      "name": "boneless lamb leg, cut into 3/4-inch cubes",
-      "quantity": "0.45 kg"
+      "name": "boneless lamb leg",
+      "quantity": "0.45 kg",
+      "prep": "cut into 3/4-inch cubes"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 323,
@@ -120,8 +122,9 @@
     },
     {
       "ingredient_id": 260,
-      "name": "tomatoes, peeled, and finely chopped",
-      "quantity": "2 medium"
+      "name": "tomatoes",
+      "quantity": "2 medium",
+      "prep": "peeled, and finely chopped"
     },
     {
       "ingredient_id": 188,
@@ -130,8 +133,9 @@
     },
     {
       "ingredient_id": 2879,
-      "name": "cracked freekeh, picked over and rinsed",
-      "quantity": "½ cup"
+      "name": "cracked freekeh",
+      "quantity": "½ cup",
+      "prep": "picked over and rinsed"
     },
     {
       "ingredient_id": 359,
@@ -145,6 +149,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the boneless lamb leg into 3/4-inch cubes. Finely chop the yellow onion. Peel and finely chop the tomatoes. Pick the cracked freekeh over, then rinse it.",
+      "secondary_message": "0.45 kg boneless lamb leg\n1 medium yellow onion\n2 medium tomatoes\n½ cup cracked freekeh"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, cover chickpeas with 2.5 cm of room temperature water. Add 2 1/2 teaspoons salt and baking soda, stirring briefly to combine, then cover loosely and let soak at room temperature at least 8 and up to 12 hours. Drain and rinse before using.",

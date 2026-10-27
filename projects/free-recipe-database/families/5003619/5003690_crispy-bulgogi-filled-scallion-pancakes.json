@@ -73,18 +73,21 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, sliced, plus more to garnish",
-      "quantity": "2"
+      "name": "scallions, plus more to garnish",
+      "quantity": "2",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, grated",
-      "quantity": "1 tsp"
+      "name": "ginger",
+      "quantity": "1 tsp",
+      "prep": "grated"
     },
     {
       "ingredient_id": 72,
@@ -93,8 +96,9 @@
     },
     {
       "ingredient_id": 473,
-      "name": "beef flank steak, thinly sliced against the grain",
-      "quantity": "0.45 kg"
+      "name": "beef flank steak",
+      "quantity": "0.45 kg",
+      "prep": "thinly sliced against the grain"
     },
     {
       "ingredient_id": 3441,
@@ -113,6 +117,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the scallions. Mince the garlic. Grate the ginger. Thinly slice the beef flank steak against the grain.",
+      "secondary_message": "2 scallions, plus more to garnish\n3 cloves garlic\n1 tsp ginger\n0.45 kg beef flank steak"
+    },
     {
       "id": 1,
       "primary_message": "In a plastic zipper-lock bag, combine soy sauce, brown sugar, gochujang, sesame oil, rice vinegar, scallions, garlic, ginger, and black pepper. Mix well. Add sliced beef and close the bag, squeezing out any excess air. Shake well and toss to coat. Refrigerate for at least 30 minutes and up to 8 hours, turning bag occasionally to redistribute marinade.",

@@ -112,8 +112,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 221,
@@ -132,6 +133,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the garlic.",
+      "secondary_message": "4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Chicken: Combine chicken, soy sauce, cornstarch, wine, and salt in a small bowl and turn until well mixed and chicken is evenly coated in a thin film of the cornstarch paste. Set aside.",

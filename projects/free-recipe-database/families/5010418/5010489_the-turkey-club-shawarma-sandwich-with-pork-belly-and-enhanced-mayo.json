@@ -59,8 +59,9 @@
     },
     {
       "ingredient_id": 1958,
-      "name": "fresh pork belly, skin removed",
-      "quantity": "1000 g"
+      "name": "fresh pork belly",
+      "quantity": "1000 g",
+      "prep": "skin removed"
     },
     {
       "ingredient_id": 2475,
@@ -84,13 +85,15 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, peeled and quartered",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "peeled and quartered"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onions, peeled and left whole",
-      "quantity": "2 large"
+      "name": "yellow onions",
+      "quantity": "2 large",
+      "prep": "peeled and left whole"
     },
     {
       "ingredient_id": 24,
@@ -139,8 +142,9 @@
     },
     {
       "ingredient_id": 191,
-      "name": "Sliced bread, such as potato bread, toasted",
-      "quantity": ""
+      "name": "Sliced bread, such as potato bread",
+      "quantity": "",
+      "prep": "toasted"
     },
     {
       "ingredient_id": 260,
@@ -154,6 +158,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the skin from the fresh pork belly. Peel and quarter the yellow onion. Peel and leave the yellow onions whole. Toast the Sliced bread.",
+      "secondary_message": "1000 g fresh pork belly\n1 medium yellow onion\n2 large yellow onions\nSliced bread, such as potato bread"
+    },
     {
       "id": 1,
       "primary_message": "For the Turkey Shawarma: Cut turkey thighs into roughly 5-cm pieces, following along the natural seams of the meat when possible. Discard any fat and sinew. Set aside.",

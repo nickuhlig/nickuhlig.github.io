@@ -37,13 +37,15 @@
     },
     {
       "ingredient_id": 1230,
-      "name": "chicken, cut into 8 pieces",
-      "quantity": "1.36 kg"
+      "name": "chicken",
+      "quantity": "1.36 kg",
+      "prep": "cut into 8 pieces"
     },
     {
       "ingredient_id": 3642,
-      "name": "egg whites, whisked",
-      "quantity": "4 large"
+      "name": "egg whites",
+      "quantity": "4 large",
+      "prep": "whisked"
     },
     {
       "ingredient_id": 2057,
@@ -122,6 +124,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the chicken into 8 pieces. Whisk the egg whites.",
+      "secondary_message": "1.36 kg chicken\n4 large egg whites"
+    },
     {
       "id": 1,
       "primary_message": "Fill a large pot with about 8 cm of oil. Heat the oil over medium-high heat until a deep-fat thermometer reads 191°C.",

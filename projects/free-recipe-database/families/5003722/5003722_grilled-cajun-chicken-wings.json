@@ -97,8 +97,9 @@
     },
     {
       "ingredient_id": 1681,
-      "name": "chicken wings, cut into drumettes and flats",
-      "quantity": "3 lb"
+      "name": "chicken wings",
+      "quantity": "3 lb",
+      "prep": "cut into drumettes and flats"
     },
     {
       "ingredient_id": 115,
@@ -117,6 +118,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the chicken wings into drumettes and flats.",
+      "secondary_message": "3 lb chicken wings"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, mix together baking powder, paprika, garlic powder, onion powder, thyme, oregano, cumin, salt, pepper, and cayenne.",

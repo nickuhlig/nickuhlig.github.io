@@ -34,13 +34,15 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, room temperature, plus 1 1/2 tablespoons",
-      "quantity": "1 tbsp"
+      "name": "unsalted butter, plus 1 1/2 tablespoons",
+      "quantity": "1 tbsp",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely diced",
-      "quantity": "1 large"
+      "name": "shallot",
+      "quantity": "1 large",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 88,
@@ -54,8 +56,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely chopped",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1008,
@@ -69,8 +72,9 @@
     },
     {
       "ingredient_id": 2324,
-      "name": "zucchini, diagonally sliced 1/2-inch thick",
-      "quantity": "6 medium"
+      "name": "zucchini",
+      "quantity": "6 medium",
+      "prep": "diagonally sliced 1/2-inch thick"
     },
     {
       "ingredient_id": 287,
@@ -109,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature. Finely dice the shallot. Finely chop the garlic. Slice the diagonally of the zucchini 1/2-inch thick.",
+      "secondary_message": "1 tbsp unsalted butter, plus 1 1/2 tablespoons\n1 large shallot\n2 medium cloves garlic\n6 medium zucchini"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center position and preheat the oven to 400°F. In a medium skillet, melt 1 tablespoon butter over medium-low heat. Add the shallot, season with salt and pepper, and cook, stirring frequently, until softened, about 2 minutes. Add the garlic, and cook until fragrant, about 1 minute longer. Add the wine, bring the mixture up to a boil, then add the crème fraîche. Stir until melted, then remove from heat.",

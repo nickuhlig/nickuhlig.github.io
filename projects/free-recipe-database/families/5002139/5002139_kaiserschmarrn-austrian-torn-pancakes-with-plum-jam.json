@@ -68,8 +68,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested",
-      "quantity": "½"
+      "name": "lemon",
+      "quantity": "½",
+      "prep": "zested"
     },
     {
       "ingredient_id": 1480,
@@ -88,8 +89,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, separated",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "separated"
     },
     {
       "ingredient_id": 1938,
@@ -113,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the lemon. Separate the eggs.",
+      "secondary_message": "½ lemon\n4 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "For the Plum Jam (If Making): Cut the plums into 1/2-inch-thick wedges, discarding the pits. Add plum slices to a 3- or 4-quart saucepan along with the granulated sugar, brown sugar, cinnamon stick, reserved scraped vanilla pod (or extract), salt, and 1/4 cup water.",

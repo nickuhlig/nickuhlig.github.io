@@ -51,9 +51,10 @@
   "ingredients": [
     {
       "ingredient_id": 105,
-      "name": "broccoli, stalk trimmed and heads cut into florets",
+      "name": "broccoli",
       "quantity": "6 crowns",
-      "weigh_as": "0.91 kg"
+      "weigh_as": "0.91 kg",
+      "prep": "stalk trimmed and heads cut into florets"
     },
     {
       "ingredient_id": 47,
@@ -62,13 +63,15 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, thinly sliced",
-      "quantity": "1 large"
+      "name": "yellow onion",
+      "quantity": "1 large",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, crushed",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 1514,
@@ -122,11 +125,18 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "zested"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the stalk of the broccoli, then cut the heads into florets. Thinly slice the yellow onion. Crush the garlic. Zest the lemon.",
+      "secondary_message": "6 crowns broccoli\n1 large yellow onion\n4 medium cloves garlic\n1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 190°C (375°F). Toss broccoli with 2 tablespoons olive oil and spread in an even layer on 2 rimmed baking sheets. Transfer to oven and roast until broccoli is tender and browned, about 25 minutes.",

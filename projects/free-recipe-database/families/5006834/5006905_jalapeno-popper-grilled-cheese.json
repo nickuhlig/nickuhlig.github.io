@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 302,
-      "name": "bacon, sliced in half crosswise",
-      "quantity": "2 slices"
+      "name": "bacon",
+      "quantity": "2 slices",
+      "prep": "sliced in half crosswise"
     },
     {
       "ingredient_id": 115,
@@ -61,8 +62,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "57 g"
+      "name": "cream cheese",
+      "quantity": "57 g",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1264,
@@ -76,6 +78,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the bacon in half crosswise. Soften the cream cheese.",
+      "secondary_message": "2 slices bacon\n57 g cream cheese"
+    },
     {
       "id": 1,
       "primary_message": "Place jalapeño peppers directly over a gas burner, turning occasionally, until charred on all sides, about 5 minutes total. Alternatively, place under a preheated broiler as close as possible to the heat source, turning occasionally, until charred on all sides, about 10 minutes. Transfer charred jalapeños to a sheet of aluminum foil and wrap tightly to seal. Let rest 5 minutes.",

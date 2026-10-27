@@ -53,23 +53,27 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, thinly sliced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 188,
-      "name": "cilantro, cut into 1-inch segments",
-      "quantity": "1 oz"
+      "name": "cilantro",
+      "quantity": "1 oz",
+      "prep": "cut into 1-inch segments"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 221,
-      "name": "fresh peeled ginger, sliced thinly",
-      "quantity": "1 (1 inch) knob"
+      "name": "fresh peeled ginger",
+      "quantity": "1 (1 inch) knob",
+      "prep": "sliced thinly"
     },
     {
       "ingredient_id": 1833,
@@ -163,8 +167,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "fresh peeled ginger, peeled, smashed, and sliced thinly",
-      "quantity": "1 (1 inch) knob"
+      "name": "fresh peeled ginger",
+      "quantity": "1 (1 inch) knob",
+      "prep": "peeled, smashed, and sliced thinly"
     },
     {
       "ingredient_id": 1664,
@@ -173,6 +178,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the shallot. Cut the cilantro into 1-inch segments. Smash the garlic. Slice the fresh peeled ginger thinly. Peel, smash, and slice the fresh peeled ginger thinly.",
+      "secondary_message": "1 small shallot\n1 oz cilantro\n4 medium cloves garlic\n1 (1 inch) knob fresh peeled ginger\n1 (1 inch) knob fresh peeled ginger"
+    },
     {
       "id": 1,
       "primary_message": "For the Seasoned Soy Sauce: In a small saucepan, melt lard over medium heat until shimmering, about 1 minute. Reduce heat to medium-low and add scallions, shallot, cilantro, garlic, and ginger, and cook, swirling the pan occasionally, until the aromatics are fragrant and begin to turn golden, about 2 minutes. Add Shaoxing wine, water, light soy sauce, dark soy sauce, and sugar. Bring to a boil over high heat, then reduce heat and simmer for 7 minutes, until thickened. The sauce should be dark, smooth, and slightly thicker than bottled light soy sauce. Pour seasoned soy sauce through a fine-mesh strainer set over a medium heatproof bowl. Refrigerate until chilled.",

@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 1065,
-      "name": "croissants, homemade or store-bought, split",
-      "quantity": "4 large"
+      "name": "croissants, homemade or store-bought",
+      "quantity": "4 large",
+      "prep": "split"
     },
     {
       "ingredient_id": 267,
@@ -66,13 +67,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, thinly sliced crosswise",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "thinly sliced crosswise"
     },
     {
       "ingredient_id": 230,
-      "name": "cremini mushrooms, stemmed and cut into 1/4-inch slices",
-      "quantity": "1 lb"
+      "name": "cremini mushrooms",
+      "quantity": "1 lb",
+      "prep": "stemmed and cut into 1/4-inch slices"
     },
     {
       "ingredient_id": 1677,
@@ -106,6 +109,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the croissants. Thinly slice the shallot crosswise. Stem and cut the cremini mushrooms into 1/4-inch slices.",
+      "secondary_message": "4 large croissants, homemade or store-bought\n1 small shallot\n1 lb cremini mushrooms"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat to 375ºF (190°C). On a 13-by-18-inch rimmed baking sheet, place croissants cut-side up and toast until edges are lightly browned and slightly crisp, 6 to 8 minutes. Set aside.",

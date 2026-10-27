@@ -40,13 +40,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "16 tbsp (8 oz)"
+      "name": "unsalted butter",
+      "quantity": "16 tbsp (8 oz)",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 2006,
@@ -80,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature. Bring the eggs to room temperature.",
+      "secondary_message": "16 tbsp (8 oz) unsalted butter\n2 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Position the racks in the upper and lower thirds of the oven and preheat oven to 400°F. Line two baking sheets with parchment paper.",

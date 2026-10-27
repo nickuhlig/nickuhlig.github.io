@@ -78,13 +78,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 4 pieces",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "cut into 4 pieces"
     },
     {
       "ingredient_id": 121,
-      "name": "egg, lightly beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 353,
@@ -93,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into 4 pieces. Lightly beat the egg.",
+      "secondary_message": "2 tbsp unsalted butter\n1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, whisk flour, sugar, cocoa, baking powder, and salt together. To a 12-ounce mug, add half of chocolate pieces with butter. Microwave butter and chocolate pieces at 50% power, stirring every 30 seconds, until melted, 1 to 2 minutes. (See notes regarding microwave power below.)",

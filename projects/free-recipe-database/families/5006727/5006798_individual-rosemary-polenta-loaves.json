@@ -75,8 +75,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, lightly beaten",
-      "quantity": "2"
+      "name": "eggs",
+      "quantity": "2",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 47,
@@ -90,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly beat the eggs.",
+      "secondary_message": "2 eggs"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 220°C (425°F). Grease bottoms of each mini loaf holder.",

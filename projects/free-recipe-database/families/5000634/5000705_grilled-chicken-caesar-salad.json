@@ -70,8 +70,9 @@
     },
     {
       "ingredient_id": 1744,
-      "name": "boneless skinless chicken breast halves, tendon removed",
-      "quantity": "6"
+      "name": "boneless skinless chicken breast halves",
+      "quantity": "6",
+      "prep": "tendon removed"
     },
     {
       "ingredient_id": 2362,
@@ -85,31 +86,42 @@
     },
     {
       "ingredient_id": 1012,
-      "name": "baguette, cut on bias into 1/2-inch-thick slices",
-      "quantity": "1 (30 ½ cm)"
+      "name": "baguette",
+      "quantity": "1 (30 ½ cm)",
+      "prep": "cut on bias into 1/2-inch-thick slices"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "1 clove"
+      "name": "garlic",
+      "quantity": "1 clove",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 440,
-      "name": "romaine lettuce hearts, halved lengthwise through cores",
-      "quantity": "3"
+      "name": "romaine lettuce hearts",
+      "quantity": "3",
+      "prep": "halved lengthwise through cores"
     },
     {
       "ingredient_id": 120,
-      "name": "Parmigiano-Reggiano cheese, grated",
-      "quantity": "¼ cup"
+      "name": "Parmigiano-Reggiano cheese",
+      "quantity": "¼ cup",
+      "prep": "grated"
     },
     {
       "ingredient_id": 192,
-      "name": "lemons, halved",
-      "quantity": "2"
+      "name": "lemons",
+      "quantity": "2",
+      "prep": "halved"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the tendon from the boneless skinless chicken breast halves. Cut the baguette on bias into 1/2-inch-thick slices. Peel the garlic. Halve the romaine lettuce hearts lengthwise through cores. Grate the Parmigiano-Reggiano cheese. Halve the lemons.",
+      "secondary_message": "6 boneless skinless chicken breast halves\n1 (30 ½ cm) baguette\n1 clove garlic\n3 romaine lettuce hearts\n¼ cup Parmigiano-Reggiano cheese\n2 lemons"
+    },
     {
       "id": 1,
       "primary_message": "For the Chicken: Place 1 chicken breast in a resealable plastic bag or between two pieces of plastic wrap. Using a meat pounder, rolling pin, or small skillet, pound chicken breast into an even thickness, about 2 cm thick. Repeat with the remaining 5 breasts.",

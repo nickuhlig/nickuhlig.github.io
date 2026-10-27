@@ -44,18 +44,21 @@
   "ingredients": [
     {
       "ingredient_id": 183,
-      "name": "ripe Haas avocados, seeded and roughly diced",
-      "quantity": "2"
+      "name": "ripe Haas avocados",
+      "quantity": "2",
+      "prep": "seeded and roughly diced"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, quartered",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 291,
-      "name": "green bell pepper, stemmed, seeded, and roughly chopped",
-      "quantity": "1 small"
+      "name": "green bell pepper",
+      "quantity": "1 small",
+      "prep": "stemmed, seeded, and roughly chopped"
     },
     {
       "ingredient_id": 24,
@@ -99,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Seed and roughly dice the ripe Haas avocados. Quarter the onion. Stem, seed, and roughly chop the green bell pepper.",
+      "secondary_message": "2 ripe Haas avocados\n1 small onion\n1 small green bell pepper"
+    },
     {
       "id": 1,
       "primary_message": "Place avocados, onion, bell pepper, jalapeño (if using), garlic, cilantro, parsley, vinegar, and lime juice in the workbowl of a food processor fitted with a steel blade. Pulse until everything is finely chopped, stopping to scrape down sides of bowl as needed.",

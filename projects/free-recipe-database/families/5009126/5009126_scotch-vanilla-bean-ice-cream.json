@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 1938,
-      "name": "vanilla bean, split and scraped",
-      "quantity": "1"
+      "name": "vanilla bean",
+      "quantity": "1",
+      "prep": "split and scraped"
     },
     {
       "ingredient_id": 3641,
@@ -81,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split and scrape the vanilla bean.",
+      "secondary_message": "1 vanilla bean"
+    },
     {
       "id": 1,
       "primary_message": "In a heavy saucepan, bring cream and milk to a bare simmer. Stir in vanilla bean and seeds, cover, and let steep for 1 hour. Remove bean, wash away dairy, and set aside to dry. Spent bean can be added to a jar of sugar to make vanilla sugar.",

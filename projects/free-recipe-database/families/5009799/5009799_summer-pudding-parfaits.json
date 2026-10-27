@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 242,
-      "name": "strawberries, sliced",
-      "quantity": "1 lb"
+      "name": "strawberries",
+      "quantity": "1 lb",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 239,
@@ -81,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the strawberries.",
+      "secondary_message": "1 lb strawberries"
+    },
     {
       "id": 1,
       "primary_message": "Cut crust off bread and cut bread into circles to fit your parfait glass. Place 1 piece bread in bottom of each glass.",

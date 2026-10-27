@@ -44,8 +44,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, finely chopped",
-      "quantity": "2 medium"
+      "name": "onions",
+      "quantity": "2 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 88,
@@ -84,11 +85,18 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "fresh parsley leaves, chopped",
-      "quantity": "⅓ cup"
+      "name": "fresh parsley leaves",
+      "quantity": "⅓ cup",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the onions. Chop the fresh parsley leaves.",
+      "secondary_message": "2 medium onions\n⅓ cup fresh parsley leaves"
+    },
     {
       "id": 1,
       "primary_message": "Heat butter in a skillet over medium heat until melted. Add onions and 1 teaspoon salt. Cook, stirring, until onions have softened, 6 to 8 minutes. Stir in caraway seeds and cook until fragrant, about 30 seconds.",

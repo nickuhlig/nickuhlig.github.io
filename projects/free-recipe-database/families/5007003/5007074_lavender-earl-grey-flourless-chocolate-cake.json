@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 1 tablespoon pieces",
-      "quantity": "1 tbsp"
+      "name": "unsalted butter",
+      "quantity": "1 tbsp",
+      "prep": "cut into 1 tablespoon pieces"
     },
     {
       "ingredient_id": 88,
@@ -70,18 +71,21 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "0.45 kg"
+      "name": "bittersweet chocolate",
+      "quantity": "0.45 kg",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, separated and at room temperature",
-      "quantity": "9 large"
+      "name": "eggs",
+      "quantity": "9 large",
+      "prep": "separated and at room temperature"
     },
     {
       "ingredient_id": 333,
-      "name": "unsweetened cocoa powder, sifted",
-      "quantity": "¼ cup"
+      "name": "unsweetened cocoa powder",
+      "quantity": "¼ cup",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 353,
@@ -110,6 +114,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into 1 tablespoon pieces. Finely chop the bittersweet chocolate. Separate the eggs and bring them to room temperature. Sift the unsweetened cocoa powder.",
+      "secondary_message": "1 tbsp unsalted butter\n0.45 kg bittersweet chocolate\n9 large eggs\n¼ cup unsweetened cocoa powder"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Adjust oven rack to middle position and preheat oven to 175°C (350°F). Grease a 25-cm springform pan with 1 tablespoon butter and line exterior of pan with foil. Sprinkle 1 teaspoon Maldon salt over pan bottom.",

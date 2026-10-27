@@ -76,8 +76,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened to about 65°F",
-      "quantity": "0.57 kg"
+      "name": "unsalted butter",
+      "quantity": "0.57 kg",
+      "prep": "softened to about 65°F"
     },
     {
       "ingredient_id": 353,
@@ -96,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter to about 65°F.",
+      "secondary_message": "0.57 kg unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Fill a wide pot with at least 4 cm of water, with a thick ring of crumpled tinfoil placed on the bottom to act as a \"booster seat\" that will prevent the bowl from touching the bottom of the pot. Place over high heat until steaming-hot and adjust temperature to maintain a gentle simmer. Combine egg whites, sugar, salt, and cream of tartar in the bowl of a stand mixer.",

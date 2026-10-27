@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 468,
-      "name": "apricots, halved and pitted",
-      "quantity": "2"
+      "name": "apricots",
+      "quantity": "2",
+      "prep": "halved and pitted"
     },
     {
       "ingredient_id": 1344,
@@ -70,11 +71,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "3 tbsp"
+      "name": "unsalted butter",
+      "quantity": "3 tbsp",
+      "prep": "melted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve and pit the apricots. Melt the unsalted butter.",
+      "secondary_message": "2 apricots\n3 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 220°C (425°F). Place apricots cut-site up in baking dish.",

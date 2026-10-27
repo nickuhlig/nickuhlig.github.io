@@ -33,8 +33,9 @@
   "ingredients": [
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, chopped, divided",
-      "quantity": "198 g"
+      "name": "bittersweet chocolate, divided",
+      "quantity": "198 g",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 346,
@@ -73,6 +74,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the bittersweet chocolate.",
+      "secondary_message": "198 g bittersweet chocolate, divided"
+    },
     {
       "id": 1,
       "primary_message": "In a microwave or in a bowl set over a pan of barely simmering water, melt 142 g chocolate until smooth. Cool slightly.",

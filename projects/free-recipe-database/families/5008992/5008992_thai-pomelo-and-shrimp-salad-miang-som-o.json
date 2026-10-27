@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 1811,
-      "name": "shrimp, medium, peeled and deveined",
-      "quantity": "1 lb"
+      "name": "shrimp, medium",
+      "quantity": "1 lb",
+      "prep": "peeled and deveined"
     },
     {
       "ingredient_id": 359,
@@ -61,18 +62,21 @@
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger that has been, peeled and cut into 1/4-inch dice",
-      "quantity": "¾ cup"
+      "name": "fresh ginger that has been",
+      "quantity": "¾ cup",
+      "prep": "peeled and cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, peeled and cut into 1/4-inch dice",
-      "quantity": "3 medium"
+      "name": "shallots",
+      "quantity": "3 medium",
+      "prep": "peeled and cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 1980,
-      "name": "cucumber, seeded and cut into 1/4-inch dice",
-      "quantity": "½ large"
+      "name": "cucumber",
+      "quantity": "½ large",
+      "prep": "seeded and cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 108,
@@ -81,8 +85,9 @@
     },
     {
       "ingredient_id": 1810,
-      "name": "pepper bird’s eye chilies, cut crosswise into 1/8-inch slices",
-      "quantity": "4"
+      "name": "pepper bird’s eye chilies",
+      "quantity": "4",
+      "prep": "cut crosswise into 1/8-inch slices"
     },
     {
       "ingredient_id": 228,
@@ -101,6 +106,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and devein the shrimp. Peel and cut the fresh ginger that has been into 1/4-inch dice. Peel and cut the shallots into 1/4-inch dice. Seed and cut the cucumber into 1/4-inch dice. Cut the pepper bird’s eye chilies crosswise into 1/8-inch slices.",
+      "secondary_message": "1 lb shrimp, medium\n¾ cup fresh ginger that has been\n3 medium shallots\n½ large cucumber\n4 pepper bird’s eye chilies"
+    },
     {
       "id": 1,
       "primary_message": "In a small condiment bowl, mix together chili jam and fish sauce; set aside.",

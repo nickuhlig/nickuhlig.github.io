@@ -43,8 +43,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated",
-      "quantity": "½ clove"
+      "name": "garlic",
+      "quantity": "½ clove",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1731,
@@ -118,6 +119,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the garlic.",
+      "secondary_message": "½ clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "First, prepare the salad dressing. In a jar, combine the vinegar, olive oil, garlic, grain mustard, honey, crème fraiche, and salt and pepper. Twist on the cap and shake vigorously.",

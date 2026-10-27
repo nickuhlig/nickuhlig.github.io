@@ -70,8 +70,9 @@
     },
     {
       "ingredient_id": 343,
-      "name": "Korean Moo radish, peeled and julienned 1mm thick",
-      "quantity": "300 g"
+      "name": "Korean Moo radish",
+      "quantity": "300 g",
+      "prep": "peeled and julienned 1mm thick"
     },
     {
       "ingredient_id": 88,
@@ -105,8 +106,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "spring onion, sliced 1/4-inch thick crosswise",
-      "quantity": "1"
+      "name": "spring onion",
+      "quantity": "1",
+      "prep": "sliced 1/4-inch thick crosswise"
     },
     {
       "ingredient_id": 181,
@@ -175,9 +177,10 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and julienned 3mm thick",
+      "name": "carrots",
       "quantity": "3 medium",
-      "weigh_as": "200 g"
+      "weigh_as": "200 g",
+      "prep": "peeled and julienned 3mm thick"
     },
     {
       "ingredient_id": 88,
@@ -196,9 +199,10 @@
     },
     {
       "ingredient_id": 1301,
-      "name": "summer squash, cut into 1/4-in-thick strips",
+      "name": "summer squash",
       "quantity": "1 ⅓ medium",
-      "weigh_as": "250 g"
+      "weigh_as": "250 g",
+      "prep": "cut into 1/4-in-thick strips"
     },
     {
       "ingredient_id": 1926,
@@ -222,8 +226,9 @@
     },
     {
       "ingredient_id": 1929,
-      "name": "shiitake mushrooms, stemmed and thinly sliced",
-      "quantity": "200 g"
+      "name": "shiitake mushrooms",
+      "quantity": "200 g",
+      "prep": "stemmed and thinly sliced"
     },
     {
       "ingredient_id": 359,
@@ -277,6 +282,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and julienne the Korean Moo radish 1mm thick. Slice the spring onion 1/4-inch thick crosswise. Peel and julienne the carrots 3mm thick. Cut the summer squash into 1/4-in-thick strips. Stem and thinly slice the shiitake mushrooms.",
+      "secondary_message": "300 g Korean Moo radish\n1 spring onion\n3 medium carrots\n1 ⅓ medium summer squash\n200 g shiitake mushrooms"
+    },
     {
       "id": 1,
       "primary_message": "To Marinate the Beef: In a medium bowl, season ground beef with soy sauce, sugar, sesame oil, black pepper, and garlic. Let marinate for at least 10 minutes and up to 45 minutes.",

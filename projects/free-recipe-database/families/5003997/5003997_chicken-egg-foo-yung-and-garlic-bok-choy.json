@@ -45,8 +45,9 @@
   "ingredients": [
     {
       "ingredient_id": 44,
-      "name": "boneless skinless chicken breast, cut into 1-inch cubes",
-      "quantity": "10 oz"
+      "name": "boneless skinless chicken breast",
+      "quantity": "10 oz",
+      "prep": "cut into 1-inch cubes"
     },
     {
       "ingredient_id": 1833,
@@ -105,8 +106,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, diced",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "diced"
     },
     {
       "ingredient_id": 153,
@@ -120,17 +122,25 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, sliced thin",
-      "quantity": "8 cloves"
+      "name": "garlic",
+      "quantity": "8 cloves",
+      "prep": "sliced thin"
     },
     {
       "ingredient_id": 285,
-      "name": "baby bok choy, washed but not dried, halved vertically",
+      "name": "baby bok choy",
       "quantity": "5",
-      "weigh_as": "1 lb"
+      "weigh_as": "1 lb",
+      "prep": "washed but not dried, halved vertically"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the boneless skinless chicken breast into 1-inch cubes. Dice the onion. Slice the garlic thin. Wash the baby bok choy but not dried, then halve it vertically.",
+      "secondary_message": "10 oz boneless skinless chicken breast\n1 small onion\n8 cloves garlic\n5 baby bok choy"
+    },
     {
       "id": 1,
       "primary_message": "In medium bowl, toss chicken pieces with 2 tablespoons rice wine and 1/2 teaspoon salt; set aside.",

@@ -55,13 +55,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, roughly chopped",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 2069,
-      "name": "tomatillos, husks removed",
-      "quantity": "1 ½ lb"
+      "name": "tomatillos",
+      "quantity": "1 ½ lb",
+      "prep": "husks removed"
     },
     {
       "ingredient_id": 2021,
@@ -115,6 +117,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the onion. Remove the husks from the tomatillos.",
+      "secondary_message": "1 large onion\n1 ½ lb tomatillos"
+    },
     {
       "id": 1,
       "primary_message": "Adjust broiler rack to 8 inches below element and preheat broiler to high. Place poblanos, onion, tomatillos, serranos, and garlic on a foil-lined rimmed baking sheet. Place under broiler and broil, turning vegetables occasionally, until tomatillos are completely softened and lightly charred, about 10 minutes. Transfer tomatillos to a bowl. Continue broiling until poblanos are charred on all sides, about 2 minutes longer. Transfer to a separate bowl and cover tightly with foil. Continue broiling until onion, serranos, and garlic are softened and charred, about 5 minutes longer. Transfer to bowl with tomatillos along with any juices and set aside.",

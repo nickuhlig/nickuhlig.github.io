@@ -70,8 +70,9 @@
     },
     {
       "ingredient_id": 2613,
-      "name": "cassia bark, broken by hand into 1/2-inch pieces",
-      "quantity": "4 g"
+      "name": "cassia bark",
+      "quantity": "4 g",
+      "prep": "broken by hand into 1/2-inch pieces"
     },
     {
       "ingredient_id": 1784,
@@ -90,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Break the cassia bark by hand into 1/2-inch pieces.",
+      "secondary_message": "4 g cassia bark"
+    },
     {
       "id": 1,
       "primary_message": "In a medium stainless steel skillet, heat 1/2 teaspoon oil over medium-low heat until shimmering. Add coriander seeds. Toast, stirring often to prevent burning, until golden and fragrant, 45 to 60 seconds. Immediately transfer to a mixing bowl.",

@@ -51,8 +51,9 @@
   "ingredients": [
     {
       "ingredient_id": 1385,
-      "name": "whole pork tenderloins, trimmed of silverskin",
-      "quantity": "0.91 kg"
+      "name": "whole pork tenderloins",
+      "quantity": "0.91 kg",
+      "prep": "trimmed of silverskin"
     },
     {
       "ingredient_id": 88,
@@ -66,6 +67,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the whole pork tenderloins of silverskin.",
+      "secondary_message": "0.91 kg whole pork tenderloins"
+    },
     {
       "id": 1,
       "primary_message": "Sprinkle pork tenderloins all over with salt, place on a wire rack set over a rimmed baking sheet, and refrigerate for at least 45 minutes and up to 24 hours.",

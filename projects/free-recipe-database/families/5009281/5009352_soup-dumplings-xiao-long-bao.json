@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, whites separated, greens roughly chopped",
-      "quantity": "6"
+      "name": "scallions",
+      "quantity": "6",
+      "prep": "whites separated, greens roughly chopped"
     },
     {
       "ingredient_id": 221,
@@ -85,8 +86,9 @@
     },
     {
       "ingredient_id": 1811,
-      "name": "raw shrimp, peeled",
-      "quantity": "0.12 kg"
+      "name": "raw shrimp",
+      "quantity": "0.12 kg",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 53,
@@ -125,6 +127,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Separate the whites of the scallions, then roughly chop the greens. Peel the raw shrimp.",
+      "secondary_message": "6 scallions\n0.12 kg raw shrimp"
+    },
     {
       "id": 1,
       "primary_message": "Combine chicken bones, ham, scallion whites, half of scallion greens, ginger, and white peppercorns in a stockpot and cover with cold water. Bring to a boil over high heat, reduce to a simmer, and simmer, uncovered, for 2 1/2 hours. Line a fine-mesh strainer with cheesecloth, and set over a large heatproof bowl. Carefully pour bone broth through strainer into bowl until the liquid has been strained. Discard solids in strainer. Season to taste with salt, cover, and refrigerate until set into a semi-firm jelly, at least 8 hours. Scrape off the fat that sets on top of the chilled bone broth and discard.",

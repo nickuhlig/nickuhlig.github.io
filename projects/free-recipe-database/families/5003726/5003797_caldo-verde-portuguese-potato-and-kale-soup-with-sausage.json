@@ -44,13 +44,15 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely diced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, sliced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 88,
@@ -89,11 +91,18 @@
     },
     {
       "ingredient_id": 2399,
-      "name": "cooked linguiça sausage, cut into 1/4- to 1/2-inch slices",
-      "quantity": "340 g"
+      "name": "cooked linguiça sausage",
+      "quantity": "340 g",
+      "prep": "cut into 1/4- to 1/2-inch slices"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the yellow onion. Slice the garlic. Cut the cooked linguiça sausage into 1/4- to 1/2-inch slices.",
+      "secondary_message": "1 medium yellow onion\n3 medium cloves garlic\n340 g cooked linguiça sausage"
+    },
     {
       "id": 1,
       "primary_message": "Heat butter in a large Dutch oven or saucepan over medium heat until melted. Add onion (or leek) and garlic, season with salt and pepper, and cook, stirring frequently, until softened but not browned, about 5 minutes, adding olive oil as necessary to keep the mixture loose and moist.",

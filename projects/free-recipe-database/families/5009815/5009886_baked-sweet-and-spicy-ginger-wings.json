@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 1681,
-      "name": "chicken wings, separated at the joint, wingtips removed",
-      "quantity": "0.91 kg"
+      "name": "chicken wings",
+      "quantity": "0.91 kg",
+      "prep": "separated at the joint, wingtips removed"
     },
     {
       "ingredient_id": 115,
@@ -96,11 +97,18 @@
     },
     {
       "ingredient_id": 153,
-      "name": "green onion, very thinly sliced",
-      "quantity": "1"
+      "name": "green onion",
+      "quantity": "1",
+      "prep": "very thinly sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Separate the chicken wings at the joint, then remove the wingtips. Very thinly slice the green onion.",
+      "secondary_message": "0.91 kg chicken wings\n1 green onion"
+    },
     {
       "id": 1,
       "primary_message": "To make the marinade, combine 1/2 cup ginger beer, 2 tablespoons soy sauce, canola oil, and red pepper flakes in small bowl. Place the chicken wings in a large zip-top bag, then pour the marinade over the wings. Close the bag and marinate the chicken in the refrigerator for 1 hour, flipping the bag over halfway through.",

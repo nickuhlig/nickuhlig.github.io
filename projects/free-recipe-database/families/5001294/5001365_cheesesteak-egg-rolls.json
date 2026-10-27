@@ -64,13 +64,15 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, cut into 1/4-inch dice",
-      "quantity": "¼ medium"
+      "name": "yellow onion",
+      "quantity": "¼ medium",
+      "prep": "cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 1145,
-      "name": "thin slices provolone cheese, torn into 1-inch pieces, divided",
-      "quantity": "4"
+      "name": "thin slices provolone cheese, divided",
+      "quantity": "4",
+      "prep": "torn into 1-inch pieces"
     },
     {
       "ingredient_id": 88,
@@ -84,8 +86,9 @@
     },
     {
       "ingredient_id": 1252,
-      "name": "egg roll wrappers, thawed",
-      "quantity": "8"
+      "name": "egg roll wrappers",
+      "quantity": "8",
+      "prep": "thawed"
     },
     {
       "ingredient_id": 1682,
@@ -94,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the yellow onion into 1/4-inch dice. Tear the thin slices provolone cheese into 1-inch pieces. Thaw the egg roll wrappers.",
+      "secondary_message": "¼ medium yellow onion\n4 thin slices provolone cheese, divided\n8 egg roll wrappers"
+    },
     {
       "id": 1,
       "primary_message": "For the Cheesesteak Filling: If using a whole steak, trim and cut steak crosswise with grain into roughly 8-cm wide sections, then set on large plate and freeze until firm but not frozen solid, about 1 hour. If using pre-sliced steak, skip to chopping instructions in Step 2.",

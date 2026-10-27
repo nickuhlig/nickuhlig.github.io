@@ -63,11 +63,18 @@
     },
     {
       "ingredient_id": 228,
-      "name": "lime, cut into 2 pieces",
-      "quantity": "½"
+      "name": "lime",
+      "quantity": "½",
+      "prep": "cut into 2 pieces"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the lime into 2 pieces.",
+      "secondary_message": "½ lime"
+    },
     {
       "id": 1,
       "primary_message": "To make the rhubarb syrup, place chopped rhubarb, water, and sugar in a heavy-bottomed pot. Cook over medium low heat, covered, stirring occasionally, for 7 minutes or until rhubarb is tender and begins to fall apart. Strain and let cool.",

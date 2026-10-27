@@ -58,8 +58,9 @@
     },
     {
       "ingredient_id": 2805,
-      "name": "Fresno chile pepper, stemmed and seeded",
-      "quantity": "1"
+      "name": "Fresno chile pepper",
+      "quantity": "1",
+      "prep": "stemmed and seeded"
     },
     {
       "ingredient_id": 346,
@@ -105,6 +106,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem and seed the Fresno chile pepper.",
+      "secondary_message": "1 Fresno chile pepper"
+    },
     {
       "id": 1,
       "primary_message": "For the Chili Vinaigrette: Add all ingredients except cream to the jar of a blender and blend on high until smooth, scraping down sides of blender jar as needed with a flexible spatula. Turn blender on low speed and slowly add cream to emulsify. Season vinaigrette to taste with salt and pepper.",

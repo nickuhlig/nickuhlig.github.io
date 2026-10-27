@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 1729,
-      "name": "dark chocolate, about 72%, roughly chopped",
-      "quantity": "57 g"
+      "name": "dark chocolate, about 72%",
+      "quantity": "57 g",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1752,
@@ -60,8 +61,9 @@
     },
     {
       "ingredient_id": 2581,
-      "name": "white chocolate, about 35%, roughly chopped",
-      "quantity": "85 g"
+      "name": "white chocolate, about 35%",
+      "quantity": "85 g",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 88,
@@ -70,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the dark chocolate. Roughly chop the white chocolate.",
+      "secondary_message": "57 g dark chocolate, about 72%\n85 g white chocolate, about 35%"
+    },
     {
       "id": 1,
       "primary_message": "For the Dark Chocolate Ganache: In a 1-quart stainless steel saucier, bring the cream to a gentle simmer. When it's bubbling hard around the edges, pour over dark chocolate in a medium bowl. Let stand 30 seconds, then whisk gently to combine. Stand at room temperature until 29°C, about 8 minutes.",

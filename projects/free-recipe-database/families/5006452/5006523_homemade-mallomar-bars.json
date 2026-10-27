@@ -54,8 +54,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "255 g"
+      "name": "unsalted butter",
+      "quantity": "255 g",
+      "prep": "melted"
     },
     {
       "ingredient_id": 1831,
@@ -84,8 +85,9 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "113 g"
+      "name": "bittersweet chocolate",
+      "quantity": "113 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1752,
@@ -94,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Finely chop the bittersweet chocolate.",
+      "secondary_message": "255 g unsalted butter\n113 g bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "In large bowl, stir graham crumbs and butter until crumbs are evenly moistened. Press firmly into bottom of 9- by 33-cm pan; set aside. Place 1/4 cup water in small bowl and sprinkle gelatin over top. Let sit at least 5 minutes to soften.",

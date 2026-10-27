@@ -59,13 +59,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed",
-      "quantity": "4 whole cloves"
+      "name": "garlic",
+      "quantity": "4 whole cloves",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, peeled and roughly chopped",
-      "quantity": "1 small"
+      "name": "yellow onion",
+      "quantity": "1 small",
+      "prep": "peeled and roughly chopped"
     },
     {
       "ingredient_id": 153,
@@ -89,8 +91,9 @@
     },
     {
       "ingredient_id": 270,
-      "name": "yellow chives, cut into 2-inch pieces",
-      "quantity": "½ cup"
+      "name": "yellow chives",
+      "quantity": "½ cup",
+      "prep": "cut into 2-inch pieces"
     },
     {
       "ingredient_id": 188,
@@ -104,6 +107,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Smash the garlic. Peel and roughly chop the yellow onion. Cut the yellow chives into 2-inch pieces.",
+      "secondary_message": "4 whole cloves garlic\n1 small yellow onion\n½ cup yellow chives"
+    },
     {
       "id": 1,
       "primary_message": "Place chicken, roughly sliced ginger, garlic, onion, and scallion greens in a large pot. Cover with cold water by 5 cm. Bring to a boil over high heat, reduce to a simmer, and cook, skimming scum and fat from surface regularly, until chicken breast pieces are cooked through, about 15 minutes. Transfer breast pieces to a small bowl, cover, and set aside. Continue cooking broth until leg pieces are fall-apart tender, about 1 hour longer. Remove leg pieces and add to bowl with breasts. Strain broth through a fine-mesh strainer, discard solids, and return broth to a large pot (you should have about 2 quarts of broth)",

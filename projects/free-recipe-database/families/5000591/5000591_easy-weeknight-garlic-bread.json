@@ -51,13 +51,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 1/4-inch pieces and softened",
-      "quantity": "6 tbsp"
+      "name": "unsalted butter",
+      "quantity": "6 tbsp",
+      "prep": "cut into 1/4-inch pieces and softened"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced to a paste",
-      "quantity": "6 medium"
+      "name": "garlic cloves",
+      "quantity": "6 medium",
+      "prep": "minced to a paste"
     },
     {
       "ingredient_id": 88,
@@ -71,11 +73,18 @@
     },
     {
       "ingredient_id": 1174,
-      "name": "soft Italian bread, about 12 inches long halved horizontally",
-      "quantity": "1 lb"
+      "name": "soft Italian bread",
+      "quantity": "1 lb",
+      "prep": "about 12 inches long halved horizontally"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into 1/4-inch pieces and soften it. Mince the garlic cloves to a paste. Halve the about 12 inches long of the soft Italian bread horizontally.",
+      "secondary_message": "6 tbsp unsalted butter\n6 medium garlic cloves\n1 lb soft Italian bread"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower-middle position and heat oven to 425℉(220℃). In a medium bowl, combine garlic powder and water; set aside.",

@@ -74,8 +74,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "227 g"
+      "name": "unsalted butter",
+      "quantity": "227 g",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 2796,
@@ -104,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature.",
+      "secondary_message": "227 g unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 180°C (350°F). Adjust oven racks to upper-middle and lower-middle positions. Line 2 baking sheets with parchment paper. In a large bowl, whisk together flour, baking soda, baking powder, and salt.",

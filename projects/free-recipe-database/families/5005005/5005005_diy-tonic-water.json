@@ -58,8 +58,9 @@
     },
     {
       "ingredient_id": 1816,
-      "name": "lemongrass, sliced",
-      "quantity": "1 stalk"
+      "name": "lemongrass",
+      "quantity": "1 stalk",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 346,
@@ -73,6 +74,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the lemongrass.",
+      "secondary_message": "1 stalk lemongrass"
+    },
     {
       "id": 1,
       "primary_message": "Zest lemon and lime and place in a medium saucepan. Juice lemon and lime and add juice to saucepan, along with water, cinchona bark, citric acid powder, lemongrass, and sugar. Bring to a boil on high heat.",

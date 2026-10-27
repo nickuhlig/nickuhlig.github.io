@@ -80,11 +80,18 @@
     },
     {
       "ingredient_id": 256,
-      "name": "untoasted pistachios, roughly chopped",
-      "quantity": "30 g"
+      "name": "untoasted pistachios",
+      "quantity": "30 g",
+      "prep": "roughly chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the untoasted pistachios.",
+      "secondary_message": "30 g untoasted pistachios"
+    },
     {
       "id": 1,
       "primary_message": "For the Pudding: In a large saucepan, combine sugar, rice flour, caraway, cinnamon, ground anise, and salt. Gradually whisk in water until mixture is smooth.",

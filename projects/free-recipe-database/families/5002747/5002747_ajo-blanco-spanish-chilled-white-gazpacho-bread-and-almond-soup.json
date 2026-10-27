@@ -65,8 +65,9 @@
     },
     {
       "ingredient_id": 1803,
-      "name": "fresh crustless rustic bread, cut into 1-inch cubes",
-      "quantity": "½ lb"
+      "name": "fresh crustless rustic bread",
+      "quantity": "½ lb",
+      "prep": "cut into 1-inch cubes"
     },
     {
       "ingredient_id": 88,
@@ -85,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the fresh crustless rustic bread into 1-inch cubes.",
+      "secondary_message": "½ lb fresh crustless rustic bread"
+    },
     {
       "id": 1,
       "primary_message": "In a blender, combine almonds with water and garlic and blend at high speed until milky; you may need to stop and scrape down sides of blender jar once or twice. Add bread and blend until very smooth. Season with salt, then blend in vinegar and olive oil. If using a less powerful blender, you may want to pass the soup through a fine-mesh strainer at this point; with a high-powered blender, that won't be necessary.",

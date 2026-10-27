@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed and peeled",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "smashed and peeled"
     },
     {
       "ingredient_id": 2069,
@@ -105,6 +106,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Smash and peel the garlic.",
+      "secondary_message": "2 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in a Dutch oven or large pot over medium-high heat until shimmering. Add chicken thighs skin-side down and cook until well browned, about 6 minutes. Flip thighs and continue to cook until other side is lightly browned, about 3 minutes. Transfer chicken to a plate, leaving fat in pan, and set aside.",

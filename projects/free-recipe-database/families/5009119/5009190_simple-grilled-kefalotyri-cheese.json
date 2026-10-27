@@ -40,8 +40,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, halved",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "halved"
     },
     {
       "ingredient_id": 72,
@@ -50,6 +51,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the lemon.",
+      "secondary_message": "1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "Light one chimney full of charcoal. When all charcoal is lit and covered with gray ash, pour out and spread the coals evenly over entire surface of coal grate. Set cooking grate in place, cover grill and allow to preheat for 5 minutes. Alternatively, set all the burners of a gas grill to high heat. Clean and oil the grilling grate. Grill cheese until well browned on both sides, 1-2 minutes per side. Transfer to a serving platter, squeeze on lemon juice, and season with black pepper. Serve immediately.",

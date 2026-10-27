@@ -70,13 +70,15 @@
     },
     {
       "ingredient_id": 359,
-      "name": "warm water, at 90ºF",
-      "quantity": "90 g"
+      "name": "warm water",
+      "quantity": "90 g",
+      "prep": "at 90ºF"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted and slightly cooled",
-      "quantity": "14 g"
+      "name": "unsalted butter",
+      "quantity": "14 g",
+      "prep": "melted and slightly cooled"
     },
     {
       "ingredient_id": 1074,
@@ -100,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the warm water to 90ºF. Melt the unsalted butter and let it cool slightly.",
+      "secondary_message": "90 g warm water\n14 g unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Poolish: In a medium bowl, whisk together flour and yeast to combine. Add water and, using a dough whisk or wooden spoon, stir until combined and no dry bits remain. Cover tightly and let sit at warm room temperature (72 to 77˚F; 22 to 25ºC) until dough is bubbly and has expanded by about half, 3 to 4 hours. Refrigerate for at least 8 hours or up to 24 hours.",

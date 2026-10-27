@@ -64,13 +64,15 @@
     },
     {
       "ingredient_id": 232,
-      "name": "whole orange, cut into quarters",
-      "quantity": "1"
+      "name": "whole orange",
+      "quantity": "1",
+      "prep": "cut into quarters"
     },
     {
       "ingredient_id": 1082,
-      "name": "cinnamon stick, broken into 4 shards",
-      "quantity": "1"
+      "name": "cinnamon stick",
+      "quantity": "1",
+      "prep": "broken into 4 shards"
     },
     {
       "ingredient_id": 24,
@@ -109,6 +111,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the whole orange into quarters. Break the cinnamon stick into 4 shards.",
+      "secondary_message": "1 whole orange\n1 cinnamon stick"
+    },
     {
       "id": 1,
       "primary_message": "For the Castacán: Adjust oven rack to center position and preheat oven to 135°C (275°F). Season pork with salt and pepper on both sides. Place in a cast iron skillet or baking dish not much larger than it. Pour melted lard or vegetable oil on top. Stick 1 clove and 1 cinnamon shard into each orange segment. Nestle oranges and garlic around pork. Cover with foil and place in oven. Cook until pork shows almost no resistance when poked with a knife, about 5 hours. Allow to cool completely at room temperature. Discard garlic and oranges. Drain fat and reserve for another use. Proceed to step 2, or wrap pork in foil and refrigerate for up to 5 days before proceeding as directed.",

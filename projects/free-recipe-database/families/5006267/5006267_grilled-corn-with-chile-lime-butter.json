@@ -50,8 +50,9 @@
   "ingredients": [
     {
       "ingredient_id": 27,
-      "name": "corn, husked",
-      "quantity": "6 ears"
+      "name": "corn",
+      "quantity": "6 ears",
+      "prep": "husked"
     },
     {
       "ingredient_id": 115,
@@ -70,13 +71,15 @@
     },
     {
       "ingredient_id": 228,
-      "name": "lime, zested",
-      "quantity": "1"
+      "name": "lime",
+      "quantity": "1",
+      "prep": "zested"
     },
     {
       "ingredient_id": 228,
-      "name": "lime, juiced",
-      "quantity": "½"
+      "name": "lime",
+      "quantity": "½",
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -90,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Husk the corn. Zest the lime. Juice the lime.",
+      "secondary_message": "6 ears corn\n1 lime\n½ lime"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, whisk together 1/4 pound of the butter, chili powder, cayenne pepper, lime zest, and lime juice until thoroughly combined. Set aside.",

@@ -38,13 +38,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, minced",
-      "quantity": "2 large"
+      "name": "shallots",
+      "quantity": "2 large",
+      "prep": "minced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1721,
@@ -63,8 +65,9 @@
     },
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, halved",
-      "quantity": "0.5 kg"
+      "name": "cherry tomatoes",
+      "quantity": "0.5 kg",
+      "prep": "halved"
     },
     {
       "ingredient_id": 2101,
@@ -83,8 +86,9 @@
     },
     {
       "ingredient_id": 3667,
-      "name": "fresh sardines, about 1 pound , cleaned and gutted",
-      "quantity": "8 to 10 small"
+      "name": "fresh sardines, about 1 pound",
+      "quantity": "8 to 10 small",
+      "prep": "cleaned and gutted"
     },
     {
       "ingredient_id": 88,
@@ -108,6 +112,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the shallots. Mince the garlic. Halve the cherry tomatoes. Clean and gut the fresh sardines.",
+      "secondary_message": "2 large shallots\n4 cloves garlic\n0.5 kg cherry tomatoes\n8 to 10 small fresh sardines, about 1 pound"
+    },
     {
       "id": 1,
       "primary_message": "Heat 2 tablespoons of the olive oil in a large oven-proof sauté pan over moderately high heat. Add the shallot, garlic, dried red pepper flakes, and paprika and cook until the shallot becomes soft and translucent, 3-5 minutes. Add the tomato paste and stir to combine, continuing to cook until the tomato paste just begins to brown, 1 minute more.",

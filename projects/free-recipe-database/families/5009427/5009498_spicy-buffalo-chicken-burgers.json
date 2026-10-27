@@ -60,13 +60,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted and cooled",
-      "quantity": "4 tbsp (2 oz)"
+      "name": "unsalted butter",
+      "quantity": "4 tbsp (2 oz)",
+      "prep": "melted and cooled"
     },
     {
       "ingredient_id": 1239,
-      "name": "blue cheese, crumbled",
-      "quantity": "57 g"
+      "name": "blue cheese",
+      "quantity": "57 g",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 267,
@@ -85,11 +87,18 @@
     },
     {
       "ingredient_id": 157,
-      "name": "celery, finely chopped",
-      "quantity": "2 stalks"
+      "name": "celery",
+      "quantity": "2 stalks",
+      "prep": "finely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter and let it cool. Crumble the blue cheese. Finely chop the celery.",
+      "secondary_message": "4 tbsp (2 oz) unsalted butter\n57 g blue cheese\n2 stalks celery"
+    },
     {
       "id": 1,
       "primary_message": "Stir milk and salt into bread crumbs in a medium bowl to moisten. Add chicken, 1/4 cup hot sauce, and butter, and mix gently with fingers until just combined (don't overmix). Chill until slightly firm, about 30 minutes. Shape into four patties that are just wider than the buns.",

@@ -67,8 +67,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature, lightly beaten",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "at room temperature, lightly beaten"
     },
     {
       "ingredient_id": 103,
@@ -82,8 +83,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "4 tbsp (2 oz)"
+      "name": "unsalted butter",
+      "quantity": "4 tbsp (2 oz)",
+      "prep": "softened"
     },
     {
       "ingredient_id": 2719,
@@ -97,8 +99,9 @@
     },
     {
       "ingredient_id": 3307,
-      "name": "Latin American firm white cheese, finely grated",
-      "quantity": "227 g"
+      "name": "Latin American firm white cheese",
+      "quantity": "227 g",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 293,
@@ -117,8 +120,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "4 tbsp (2 oz)"
+      "name": "unsalted butter",
+      "quantity": "4 tbsp (2 oz)",
+      "prep": "softened"
     },
     {
       "ingredient_id": 293,
@@ -132,6 +136,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly beat the eggs and bring them to room temperature. Soften the unsalted butter. Finely grate the Latin American firm white cheese. Soften the unsalted butter.",
+      "secondary_message": "2 large eggs\n4 tbsp (2 oz) unsalted butter\n227 g Latin American firm white cheese\n4 tbsp (2 oz) unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Dough: Combine 1/4 cup milk, yeast, and 1/4 teaspoon sugar in small bowl. Let stand until mixture foams, 5 to 10 minutes.",

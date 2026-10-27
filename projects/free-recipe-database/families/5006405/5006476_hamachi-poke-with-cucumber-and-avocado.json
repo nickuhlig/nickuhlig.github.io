@@ -39,8 +39,9 @@
   "ingredients": [
     {
       "ingredient_id": 3512,
-      "name": "raw sashimi-grade hamachi, cut into 1/2-inch cubes",
-      "quantity": "340 g"
+      "name": "raw sashimi-grade hamachi",
+      "quantity": "340 g",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 1676,
@@ -60,18 +61,21 @@
     },
     {
       "ingredient_id": 183,
-      "name": "avocado, cut into 1/2-inch dice",
-      "quantity": "1 small"
+      "name": "avocado",
+      "quantity": "1 small",
+      "prep": "cut into 1/2-inch dice"
     },
     {
       "ingredient_id": 1810,
-      "name": "Thai bird, thinly sliced",
-      "quantity": "1"
+      "name": "Thai bird",
+      "quantity": "1",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 192,
-      "name": "lemons, zested, sliced as thinly as possible",
-      "quantity": "2 (4 cm) strips"
+      "name": "lemons",
+      "quantity": "2 (4 cm) strips",
+      "prep": "zested, sliced as thinly as possible"
     },
     {
       "ingredient_id": 1792,
@@ -100,6 +104,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the raw sashimi-grade hamachi into 1/2-inch cubes. Cut the avocado into 1/2-inch dice. Thinly slice the Thai bird. Zest and slice the lemons as thinly as possible.",
+      "secondary_message": "340 g raw sashimi-grade hamachi\n1 small avocado\n1 Thai bird\n2 (4 cm) strips lemons"
+    },
     {
       "id": 1,
       "primary_message": "Combine hamachi, onion, scallion, cucumber, avocado, chile, lemon zest, sesame seeds, soy sauce, and olive oil in a medium bowl. Season with a small pinch of kosher salt and gently fold to combine. Taste and adjust with more soy sauce, olive oil, or salt as desired. Let stand 5 minutes at room temperature, then serve on its own or on top of steamed rice.",

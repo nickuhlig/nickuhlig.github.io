@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 2529,
-      "name": "flour, sifted",
-      "quantity": "2 ¼ cups (12 oz)"
+      "name": "flour",
+      "quantity": "2 ¼ cups (12 oz)",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 353,
@@ -106,6 +107,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Sift the flour.",
+      "secondary_message": "2 ¼ cups (12 oz) flour"
+    },
     {
       "id": 1,
       "primary_message": "In the bowl of a stand mixer fitted with the paddle attachment, mix sugar, butter, and salt on low speed until combined. Add egg, and beat on medium speed for 1 minute.",

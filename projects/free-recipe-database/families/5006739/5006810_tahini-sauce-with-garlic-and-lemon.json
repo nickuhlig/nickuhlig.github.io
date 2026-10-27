@@ -42,8 +42,9 @@
   "ingredients": [
     {
       "ingredient_id": 24,
-      "name": "garlic, broken into individual unpeeled cloves",
-      "quantity": "1 whole head"
+      "name": "garlic",
+      "quantity": "1 whole head",
+      "prep": "broken into individual unpeeled cloves"
     },
     {
       "ingredient_id": 1480,
@@ -72,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Break the garlic into individual unpeeled cloves.",
+      "secondary_message": "1 whole head garlic"
+    },
     {
       "id": 1,
       "primary_message": "Combine garlic and lemon juice in a blender. Pulse until a pulpy puree is formed, about 15 short pulses. Transfer to a fine mesh strainer set over a large bowl. Press out as much liquid as you can with the back of a spoon or a rubber spatula, then discard solids.",

@@ -58,13 +58,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, chopped",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 150,
-      "name": "red pepper, stemmed and chopped",
-      "quantity": "1 small"
+      "name": "red pepper",
+      "quantity": "1 small",
+      "prep": "stemmed and chopped"
     },
     {
       "ingredient_id": 1421,
@@ -93,8 +95,9 @@
     },
     {
       "ingredient_id": 305,
-      "name": "French green lentils, picked over and rinsed",
-      "quantity": "1 ½ cups"
+      "name": "French green lentils",
+      "quantity": "1 ½ cups",
+      "prep": "picked over and rinsed"
     },
     {
       "ingredient_id": 88,
@@ -103,23 +106,27 @@
     },
     {
       "ingredient_id": 234,
-      "name": "ripe but firm medium peaches, pitted and cut into wedges",
-      "quantity": "2"
+      "name": "ripe but firm medium peaches",
+      "quantity": "2",
+      "prep": "pitted and cut into wedges"
     },
     {
       "ingredient_id": 243,
-      "name": "loosely packed fresh mint leaves, roughly chopped",
-      "quantity": "⅓ cup"
+      "name": "loosely packed fresh mint leaves",
+      "quantity": "⅓ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 2299,
-      "name": "loosely packed fresh Thai leaves, roughly torn",
-      "quantity": "⅓ cup"
+      "name": "loosely packed fresh Thai leaves",
+      "quantity": "⅓ cup",
+      "prep": "roughly torn"
     },
     {
       "ingredient_id": 188,
-      "name": "loosely packed fresh cilantro leaves, tender stems roughly chopped",
-      "quantity": "⅓ cup"
+      "name": "loosely packed fresh cilantro leaves",
+      "quantity": "⅓ cup",
+      "prep": "tender stems roughly chopped"
     },
     {
       "ingredient_id": 1944,
@@ -128,8 +135,9 @@
     },
     {
       "ingredient_id": 283,
-      "name": "red chile peppers, thinly sliced",
-      "quantity": "1 to 2 small"
+      "name": "red chile peppers",
+      "quantity": "1 to 2 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 243,
@@ -148,6 +156,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the garlic. Stem and chop the red pepper. Pick the French green lentils over, then rinse them. Pit and cut the ripe but firm medium peaches into wedges. Roughly chop the loosely packed fresh mint leaves. Roughly tear the loosely packed fresh Thai leaves. Roughly chop the tender stems of the loosely packed fresh cilantro leaves. Thinly slice the red chile peppers.",
+      "secondary_message": "2 medium cloves garlic\n1 small red pepper\n1 ½ cups French green lentils\n2 ripe but firm medium peaches\n⅓ cup loosely packed fresh mint leaves\n⅓ cup loosely packed fresh Thai leaves\n⅓ cup loosely packed fresh cilantro leaves\n1 to 2 small red chile peppers"
+    },
     {
       "id": 1,
       "primary_message": "For the Dressing: In a blender, combine lemongrass, ginger, garlic, chile, lime juice, rice vinegar, fish sauce, palm sugar, and olive oil. Blend on high speed until sugar has dissolved and dressing is smooth, scraping down sides of blender as needed, about 1 minute. Set aside.",

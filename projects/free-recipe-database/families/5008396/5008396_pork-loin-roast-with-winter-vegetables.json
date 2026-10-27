@@ -81,13 +81,15 @@
     },
     {
       "ingredient_id": 233,
-      "name": "parsnips, peeled and cut into 1-inch pieces",
-      "quantity": "2 large"
+      "name": "parsnips",
+      "quantity": "2 large",
+      "prep": "peeled and cut into 1-inch pieces"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and cut into 1-inch pieces",
-      "quantity": "8 medium"
+      "name": "carrots",
+      "quantity": "8 medium",
+      "prep": "peeled and cut into 1-inch pieces"
     },
     {
       "ingredient_id": 343,
@@ -111,13 +113,15 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "zested"
     },
     {
       "ingredient_id": 221,
-      "name": "peeled fresh ginger, minced or grated on a Microplane",
-      "quantity": "1 (2 inch) knob"
+      "name": "peeled fresh ginger",
+      "quantity": "1 (2 inch) knob",
+      "prep": "minced or grated on a Microplane"
     },
     {
       "ingredient_id": 1143,
@@ -126,6 +130,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the parsnips into 1-inch pieces. Peel and cut the carrots into 1-inch pieces. Zest the lemon. Mince or grate the peeled fresh ginger on a Microplane.",
+      "secondary_message": "2 large parsnips\n8 medium carrots\n1 lemon\n1 (2 inch) knob peeled fresh ginger"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 250°F and adjust oven rack to center position. Season pork roast liberally with salt and pepper. In a small bowl, mix together smoked paprika, brown sugar, and garlic powder. Rub spice mixture all over pork.",

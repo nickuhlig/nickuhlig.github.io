@@ -68,13 +68,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "6 cloves"
+      "name": "garlic",
+      "quantity": "6 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 153,
-      "name": "green onions, minced",
-      "quantity": "3"
+      "name": "green onions",
+      "quantity": "3",
+      "prep": "minced"
     },
     {
       "ingredient_id": 247,
@@ -93,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic. Mince the green onions.",
+      "secondary_message": "6 cloves garlic\n3 green onions"
+    },
     {
       "id": 1,
       "primary_message": "Whisk together the soy sauce, sugar, honey, sesame oil, Sprite, mirin, garlic, green onions, Asian pear, black pepper, and sesame seeds in a medium bowl.",

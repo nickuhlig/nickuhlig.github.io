@@ -52,23 +52,27 @@
     },
     {
       "ingredient_id": 3376,
-      "name": "anardana seeds, ground",
-      "quantity": "1 ½ tbsp"
+      "name": "anardana seeds",
+      "quantity": "1 ½ tbsp",
+      "prep": "ground"
     },
     {
       "ingredient_id": 1271,
-      "name": "cumin seed, toasted and ground",
-      "quantity": "1 tsp"
+      "name": "cumin seed",
+      "quantity": "1 tsp",
+      "prep": "toasted and ground"
     },
     {
       "ingredient_id": 1514,
-      "name": "coriander seed, toasted and ground",
-      "quantity": "2 tsp"
+      "name": "coriander seed",
+      "quantity": "2 tsp",
+      "prep": "toasted and ground"
     },
     {
       "ingredient_id": 72,
-      "name": "black pepper, toasted and ground",
-      "quantity": "½ tsp"
+      "name": "black pepper",
+      "quantity": "½ tsp",
+      "prep": "toasted and ground"
     },
     {
       "ingredient_id": 75,
@@ -82,14 +86,16 @@
     },
     {
       "ingredient_id": 3064,
-      "name": "Yukon Gold potatoes, scrubbed and cut into 1/2-inch dice",
+      "name": "Yukon Gold potatoes",
       "quantity": "3 medium",
-      "weigh_as": "1 ½ lb"
+      "weigh_as": "1 ½ lb",
+      "prep": "scrubbed and cut into 1/2-inch dice"
     },
     {
       "ingredient_id": 158,
-      "name": "cauliflower, broken into small florets",
-      "quantity": "1 large head"
+      "name": "cauliflower",
+      "quantity": "1 large head",
+      "prep": "broken into small florets"
     },
     {
       "ingredient_id": 88,
@@ -103,6 +109,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grind the anardana seeds. Toast and grind the cumin seed. Toast and grind the coriander seed. Toast and grind the black pepper. Scrub and cut the Yukon Gold potatoes into 1/2-inch dice. Break the cauliflower into small florets.",
+      "secondary_message": "1 ½ tbsp anardana seeds\n1 tsp cumin seed\n2 tsp coriander seed\n½ tsp black pepper\n3 medium Yukon Gold potatoes\n1 large head cauliflower"
+    },
     {
       "id": 1,
       "primary_message": "Heat butter or oil on medium heat in a 12-inch heavy-bottomed straight-sided stainless steel sauté until shimmering. Add mustard seed and cook until they begin to pop, about 2 minutes. Add asafoetida, anardana, cumin, coriander, black pepper, chile, and turmeric. Cook, stirring constantly, until fragrant, about 30 seconds.",

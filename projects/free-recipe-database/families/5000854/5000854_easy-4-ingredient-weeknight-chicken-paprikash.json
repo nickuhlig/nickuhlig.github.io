@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, diced or thinly sliced",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "diced or thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -60,8 +61,9 @@
     },
     {
       "ingredient_id": 1864,
-      "name": "whole chicken legs, split into thighs and drumsticks",
-      "quantity": "4"
+      "name": "whole chicken legs",
+      "quantity": "4",
+      "prep": "split into thighs and drumsticks"
     },
     {
       "ingredient_id": 1003,
@@ -70,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice or thinly slice the onion. Split the whole chicken legs into thighs and drumsticks.",
+      "secondary_message": "1 large onion\n4 whole chicken legs"
+    },
     {
       "id": 1,
       "primary_message": "In a large straight-sided sauté pan or Dutch oven, heat oil over medium heat until shimmering. Add onions, season with salt, and cook, stirring, until completely softened and just starting to brown, about 8 minutes. Add paprika and cook, stirring, until nutty and fragrant, about 1 minute. Add chicken pieces, season with a little more salt, and turn them with tongs until well-coated in the onion/paprika mixture. Nestle the chicken in a single layer in the bottom of the pan, cover with a tight-fitting lid, reduce heat to the lowest setting, and cook until chicken is completely tender and pulls easily from the bone, 30 to 45 minutes.",

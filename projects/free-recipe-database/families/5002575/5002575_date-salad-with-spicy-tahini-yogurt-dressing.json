@@ -38,8 +38,9 @@
   "ingredients": [
     {
       "ingredient_id": 356,
-      "name": "Medjool dates, pitted and quartered",
-      "quantity": "10"
+      "name": "Medjool dates",
+      "quantity": "10",
+      "prep": "pitted and quartered"
     },
     {
       "ingredient_id": 1480,
@@ -78,8 +79,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely grated or minced",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "finely grated or minced"
     },
     {
       "ingredient_id": 88,
@@ -103,13 +105,15 @@
     },
     {
       "ingredient_id": 1399,
-      "name": "Persian cucumbers, halved lengthwise and thinly sliced",
-      "quantity": "3"
+      "name": "Persian cucumbers",
+      "quantity": "3",
+      "prep": "halved lengthwise and thinly sliced"
     },
     {
       "ingredient_id": 343,
-      "name": "radishes, thinly sliced",
-      "quantity": "2 small"
+      "name": "radishes",
+      "quantity": "2 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 243,
@@ -128,6 +132,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pit and quarter the Medjool dates. Finely grate or mince the garlic. Halve the Persian cucumbers lengthwise, then thinly slice them. Thinly slice the radishes.",
+      "secondary_message": "10 Medjool dates\n1 medium clove garlic\n3 Persian cucumbers\n2 small radishes"
+    },
     {
       "id": 1,
       "primary_message": "For the Dates: In a small bowl, combine dates, lemon juice, and orange blossom water, if using. Toss well and let stand at room temperature until softened, at least 15 minutes. (Continue to step 2 while dates soak.)",

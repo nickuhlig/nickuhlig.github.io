@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 43,
-      "name": "sharp cheddar cheese, cut into 1/2-inch cubes",
-      "quantity": "0.23 kg"
+      "name": "sharp cheddar cheese",
+      "quantity": "0.23 kg",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 264,
@@ -82,8 +83,9 @@
     },
     {
       "ingredient_id": 97,
-      "name": "canned diced tomatoes, drained",
-      "quantity": "1 cup"
+      "name": "canned diced tomatoes",
+      "quantity": "1 cup",
+      "prep": "drained"
     },
     {
       "ingredient_id": 1365,
@@ -97,8 +99,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, thinly sliced",
-      "quantity": "4"
+      "name": "scallions",
+      "quantity": "4",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 188,
@@ -107,6 +110,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the sharp cheddar cheese into 1/2-inch cubes. Drain the canned diced tomatoes. Thinly slice the scallions.",
+      "secondary_message": "0.23 kg sharp cheddar cheese\n1 cup canned diced tomatoes\n4 scallions"
+    },
     {
       "id": 1,
       "primary_message": "Place chile directly over flame of a gas burner (no pan), or on a rimmed baking sheet under the broiler. Cook, turning occasionally until completely blackened, about 4 minutes on the burner or 8 minutes under the broiler. Place roasted chile in a bowl and cover with a plate. Let rest for 5 minutes. Peel under cool running water and discard stem and seeds. Chop finely and set aside.",

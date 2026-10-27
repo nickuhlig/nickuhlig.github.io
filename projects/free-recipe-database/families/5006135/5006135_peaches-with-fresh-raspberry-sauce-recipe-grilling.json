@@ -63,11 +63,18 @@
     },
     {
       "ingredient_id": 234,
-      "name": "ripe but firm peaches, halved, pitted",
-      "quantity": "6 medium"
+      "name": "ripe but firm peaches",
+      "quantity": "6 medium",
+      "prep": "halved, pitted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve and pit the ripe but firm peaches.",
+      "secondary_message": "6 medium ripe but firm peaches"
+    },
     {
       "id": 1,
       "primary_message": "Purée the raspberries and water in a food processor until smooth. Strain raspberry purée through fine-mesh strainer, pressing on solids to release as much liquid as possible; discard solids in strainer. Stir in 3 tablespoons sugar and 1 tablespoon fresh lemon juice until blended.",

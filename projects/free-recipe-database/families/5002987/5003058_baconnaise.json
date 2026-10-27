@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 2826,
-      "name": "rendered bacon fat, melted",
-      "quantity": "¾ cup"
+      "name": "rendered bacon fat",
+      "quantity": "¾ cup",
+      "prep": "melted"
     },
     {
       "ingredient_id": 1007,
@@ -81,11 +82,18 @@
     },
     {
       "ingredient_id": 3665,
-      "name": "crisp bacon, crumbled",
-      "quantity": "4 strips"
+      "name": "crisp bacon",
+      "quantity": "4 strips",
+      "prep": "crumbled"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the rendered bacon fat. Crumble the crisp bacon.",
+      "secondary_message": "¾ cup rendered bacon fat\n4 strips crisp bacon"
+    },
     {
       "id": 1,
       "primary_message": "Combine bacon fat and canola oil in 2-cup liquid measuring cup. Whisk to combine.",

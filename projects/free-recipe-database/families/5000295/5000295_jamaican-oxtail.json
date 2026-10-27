@@ -37,8 +37,9 @@
   "ingredients": [
     {
       "ingredient_id": 152,
-      "name": "yellow onion, roughly chopped",
-      "quantity": "½ medium"
+      "name": "yellow onion",
+      "quantity": "½ medium",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 153,
@@ -52,8 +53,9 @@
     },
     {
       "ingredient_id": 1993,
-      "name": "Scotch bonnet pepper, stemmed, seeded, and chopped",
-      "quantity": "½"
+      "name": "Scotch bonnet pepper",
+      "quantity": "½",
+      "prep": "stemmed, seeded, and chopped"
     },
     {
       "ingredient_id": 1845,
@@ -87,18 +89,21 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, cut into large chunks",
-      "quantity": "½ medium"
+      "name": "yellow onion",
+      "quantity": "½ medium",
+      "prep": "cut into large chunks"
     },
     {
       "ingredient_id": 153,
-      "name": "scallion, root end trimmed and roughly chopped",
-      "quantity": "1"
+      "name": "scallion",
+      "quantity": "1",
+      "prep": "root end trimmed and roughly chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 287,
@@ -122,8 +127,9 @@
     },
     {
       "ingredient_id": 1388,
-      "name": "butter beans, drained",
-      "quantity": "2 cans"
+      "name": "butter beans",
+      "quantity": "2 cans",
+      "prep": "drained"
     },
     {
       "ingredient_id": 72,
@@ -132,6 +138,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the yellow onion. Stem, seed, and chop the Scotch bonnet pepper. Cut the yellow onion into large chunks. Trim the root end of the scallion, then roughly chop it. Roughly chop the garlic. Drain the butter beans.",
+      "secondary_message": "½ medium yellow onion\n½ Scotch bonnet pepper\n½ medium yellow onion\n1 scallion\n4 medium cloves garlic\n2 cans butter beans"
+    },
     {
       "id": 1,
       "primary_message": "Remove oxtail from marinade and scrape off excess marinade. Reserve marinade for later use.",

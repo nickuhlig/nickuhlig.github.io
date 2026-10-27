@@ -71,11 +71,18 @@
     },
     {
       "ingredient_id": 29,
-      "name": "sliced almonds, toasted",
-      "quantity": "½ cup"
+      "name": "sliced almonds",
+      "quantity": "½ cup",
+      "prep": "toasted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Toast the sliced almonds.",
+      "secondary_message": "½ cup sliced almonds"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, combine milk and gelatin. Stir well to incorporate. Set aside and let gelatin bloom for 5 minutes.",

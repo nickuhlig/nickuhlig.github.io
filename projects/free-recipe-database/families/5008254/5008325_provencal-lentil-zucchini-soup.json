@@ -34,8 +34,9 @@
   "ingredients": [
     {
       "ingredient_id": 420,
-      "name": "lentils, rinsed",
-      "quantity": "1 cup"
+      "name": "lentils",
+      "quantity": "1 cup",
+      "prep": "rinsed"
     },
     {
       "ingredient_id": 1270,
@@ -54,8 +55,9 @@
     },
     {
       "ingredient_id": 157,
-      "name": "celery, diced",
-      "quantity": "2 ribs"
+      "name": "celery",
+      "quantity": "2 ribs",
+      "prep": "diced"
     },
     {
       "ingredient_id": 159,
@@ -64,18 +66,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, chopped",
-      "quantity": "2"
+      "name": "onions",
+      "quantity": "2",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, ground to a paste in a mortar and pestle",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "ground to a paste in a mortar and pestle"
     },
     {
       "ingredient_id": 2324,
-      "name": "zucchini, quartered and chopped",
-      "quantity": "2"
+      "name": "zucchini",
+      "quantity": "2",
+      "prep": "quartered and chopped"
     },
     {
       "ingredient_id": 1541,
@@ -105,6 +110,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse the lentils. Dice the celery. Chop the onions. Grind the garlic to a paste in a mortar and pestle. Quarter and chop the zucchini.",
+      "secondary_message": "1 cup lentils\n2 ribs celery\n2 onions\n3 cloves garlic\n2 zucchini"
+    },
     {
       "id": 1,
       "primary_message": "Place 1 garlic clove, lentils, bay leaf, and water in a medium pot. Bring to a boil, then reduce heat, cover, and simmer for 20 minutes. Drain lentils and set aside.",

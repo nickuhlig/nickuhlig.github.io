@@ -87,8 +87,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, room temperature",
-      "quantity": "85 g"
+      "name": "unsalted butter",
+      "quantity": "85 g",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 346,
@@ -132,6 +133,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature.",
+      "secondary_message": "85 g unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Make the Cookie Dough:\nUse a fine-mesh strainer to sift flour. Set aside.\nUsing a hand or stand mixer (fitted with a paddle attachment) cream together the butter and sugar, along with the powdered milk, nutmeg, salt and baking soda, on medium speed. Not until light and fluffy, but only until well combined. About a minute. Scrape the bowl down with a flexible spatula and cream a minute more.\nSet the mixer to low. Drizzle in the vanilla. With the mixer still running, add half the flour and mix until just incorporated. Then add half the egg whites. Repeat with the remaining flour and egg whites. Mix until homogenous, then shut off the mixer.\nUse a spatula to scrape the cookie dough onto a large sheet of plastic wrap. Wrap the dough and refrigerate for at least 3 hours, or overnight, before rolling.",

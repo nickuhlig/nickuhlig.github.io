@@ -39,8 +39,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onions, sliced 1/8 inch thick",
-      "quantity": "3 lb"
+      "name": "yellow onions",
+      "quantity": "3 lb",
+      "prep": "sliced 1/8 inch thick"
     },
     {
       "ingredient_id": 88,
@@ -79,8 +80,9 @@
     },
     {
       "ingredient_id": 1174,
-      "name": "bowl-size slices rustic bread, toasted until crisp",
-      "quantity": "16"
+      "name": "bowl-size slices rustic bread",
+      "quantity": "16",
+      "prep": "toasted until crisp"
     },
     {
       "ingredient_id": 24,
@@ -89,11 +91,18 @@
     },
     {
       "ingredient_id": 1060,
-      "name": "Gruyère cheese, grated",
-      "quantity": "1 lb"
+      "name": "Gruyère cheese",
+      "quantity": "1 lb",
+      "prep": "grated"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the yellow onions 1/8 inch thick. Toast the bowl-size slices rustic bread until crisp. Grate the Gruyère cheese.",
+      "secondary_message": "3 lb yellow onions\n16 bowl-size slices rustic bread\n1 lb Gruyère cheese"
+    },
     {
       "id": 1,
       "primary_message": "Melt butter in an electric or stovetop pressure cooker over medium heat. Without stirring, add onions. Season with salt and pepper. Seal pressure cooker and heat to high pressure (12.5 to 15 psi). Cook at high pressure for 20 minutes. Remove from heat. Let the pressure release naturally (float valve will drop; this will take about 30 minutes.) Remove lid from cooker.",

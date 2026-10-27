@@ -85,8 +85,9 @@
     },
     {
       "ingredient_id": 1101,
-      "name": "center-cut filets mignon, 1 1/2 to 2 inches thick, trimmed",
-      "quantity": "1 lb"
+      "name": "center-cut filets mignon, 1 1/2 to 2 inches thick",
+      "quantity": "1 lb",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 88,
@@ -115,8 +116,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, thinly sliced",
-      "quantity": "½ large"
+      "name": "shallot",
+      "quantity": "½ large",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2221,
@@ -155,9 +157,10 @@
     },
     {
       "ingredient_id": 26,
-      "name": "fresh asparagus, woody ends trimmed",
+      "name": "fresh asparagus",
       "quantity": "½ bunch",
-      "weigh_as": "8 oz"
+      "weigh_as": "8 oz",
+      "prep": "woody ends trimmed"
     },
     {
       "ingredient_id": 1682,
@@ -181,8 +184,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "1 clove"
+      "name": "garlic",
+      "quantity": "1 clove",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2494,
@@ -196,6 +200,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the center-cut filets mignon. Thinly slice the shallot. Trim the woody ends of the fresh asparagus. Mince the garlic.",
+      "secondary_message": "1 lb center-cut filets mignon, 1 1/2 to 2 inches thick\n½ large shallot\n½ bunch fresh asparagus\n1 clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Breadcrumb Topping: In a microwave-safe bowl, toss panko with oil, salt, and pepper. Microwave panko, stirring occasionally, until deep golden brown, 2 to 4 minutes; let cool completely. Stir in chives, lemon zest, and pepper flakes; set aside (Topping can be refrigerated for up to 2 days; bring to room temperature before using.)",

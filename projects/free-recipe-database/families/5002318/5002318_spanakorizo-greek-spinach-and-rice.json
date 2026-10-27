@@ -37,8 +37,9 @@
   "ingredients": [
     {
       "ingredient_id": 152,
-      "name": "yellow onion, chopped",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 47,
@@ -52,8 +53,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 82,
@@ -67,8 +69,9 @@
     },
     {
       "ingredient_id": 1100,
-      "name": "medium-grain brown rice, rinsed",
-      "quantity": "1 cup"
+      "name": "medium-grain brown rice",
+      "quantity": "1 cup",
+      "prep": "rinsed"
     },
     {
       "ingredient_id": 3686,
@@ -77,11 +80,18 @@
     },
     {
       "ingredient_id": 1879,
-      "name": "mature spinach, a mixture, with stems, roughly chopped",
-      "quantity": "14 oz"
+      "name": "mature spinach, a mixture, with stems",
+      "quantity": "14 oz",
+      "prep": "roughly chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the yellow onion. Roughly chop the garlic. Rinse the medium-grain brown rice. Roughly chop the mature spinach.",
+      "secondary_message": "1 medium yellow onion\n2 cloves garlic\n1 cup medium-grain brown rice\n14 oz mature spinach, a mixture, with stems"
+    },
     {
       "id": 1,
       "primary_message": "In a large, heavy-bottomed pot, heat 4 tablespoons olive oil over medium-high heat until shimmering. Add onion and 1 teaspoon salt, and cook until onion is translucent, about 7 minutes. Add garlic, oregano, tomato paste, and miso (if using), and cook until fragrant, about 1 minute. Add rice and stir well until rice is coated with oil mixture and smells slightly toasted, about 1 minute.",

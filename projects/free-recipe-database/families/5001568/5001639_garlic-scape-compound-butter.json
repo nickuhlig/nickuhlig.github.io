@@ -48,8 +48,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "0.23 kg"
+      "name": "unsalted butter",
+      "quantity": "0.23 kg",
+      "prep": "softened"
     },
     {
       "ingredient_id": 88,
@@ -58,6 +59,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter.",
+      "secondary_message": "0.23 kg unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, prepare an ice bath. In a pot of salted boiling water, blanch scapes until just tender, 1 to 2 minutes. Drain, then immediately plunge scapes into ice bath, stirring to chill rapidly. Drain scapes, transfer to a work surface, then mince finely along with the parsley.",

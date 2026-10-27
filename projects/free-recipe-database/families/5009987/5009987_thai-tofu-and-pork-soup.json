@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 1813,
@@ -70,16 +71,24 @@
     },
     {
       "ingredient_id": 1610,
-      "name": "soft tofu packed in water, drained and cut into 1-inch cubes",
-      "quantity": "1 lb"
+      "name": "soft tofu packed in water",
+      "quantity": "1 lb",
+      "prep": "drained and cut into 1-inch cubes"
     },
     {
       "ingredient_id": 153,
-      "name": "green onions, cut into 1-inch pieces",
-      "quantity": "2"
+      "name": "green onions",
+      "quantity": "2",
+      "prep": "cut into 1-inch pieces"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the garlic. Drain and cut the soft tofu packed in water into 1-inch cubes. Cut the green onions into 1-inch pieces.",
+      "secondary_message": "2 medium cloves garlic\n1 lb soft tofu packed in water\n2 green onions"
+    },
     {
       "id": 1,
       "primary_message": "In a mortar and pestle, combine garlic, cilantro stems, and peppercorns and pound until a fine paste forms, about 3 minutes. Transfer to a medium bowl.",

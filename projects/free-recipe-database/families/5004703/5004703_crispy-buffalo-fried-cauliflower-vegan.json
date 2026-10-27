@@ -72,8 +72,9 @@
     },
     {
       "ingredient_id": 158,
-      "name": "cauliflower, cut into 1-inch florets",
-      "quantity": "1 head"
+      "name": "cauliflower",
+      "quantity": "1 head",
+      "prep": "cut into 1-inch florets"
     },
     {
       "ingredient_id": 448,
@@ -82,11 +83,18 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "minced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cauliflower into 1-inch florets. Mince the garlic.",
+      "secondary_message": "1 head cauliflower\n1 medium clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oil to 350°F in a large wok, Dutch oven, or deep fryer.",

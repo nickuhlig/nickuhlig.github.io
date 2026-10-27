@@ -34,8 +34,9 @@
   "ingredients": [
     {
       "ingredient_id": 1239,
-      "name": "bleu cheese, crumbled",
-      "quantity": "142 g"
+      "name": "bleu cheese",
+      "quantity": "142 g",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 1061,
@@ -59,6 +60,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Crumble the bleu cheese.",
+      "secondary_message": "142 g bleu cheese"
+    },
     {
       "id": 1,
       "primary_message": "Cook the half and half over medium-low heat with the peppercorns until hot to the touch. Put about 2/3 of the crumbled cheese into a mixing bowl, and pour the hot half and half through a strainer over the cheese, add the sugar and lemon juice and whisk until all the chunks (cheese, sugar) are dissolved. Chill overnight, or at least four hours.",

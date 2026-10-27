@@ -75,8 +75,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, melted",
-      "quantity": "½ cup"
+      "name": "butter",
+      "quantity": "½ cup",
+      "prep": "melted"
     },
     {
       "ingredient_id": 118,
@@ -85,8 +86,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten",
-      "quantity": "1"
+      "name": "egg",
+      "quantity": "1",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 1609,
@@ -95,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the butter. Beat the egg.",
+      "secondary_message": "½ cup butter\n1 egg"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 375[°]. In a mixing bowl combine flour, baking powder, salt, 1/2 cup shredded coconut and sugar and mix until combined then toss chocolate with dry ingredients until evenly distributed. In a separate bowl combine melted butter, milk, egg and vanilla and beat until well combined. Fold wet ingredients into dry ingredients with a rubber spatula, mixing until just combined (some lumps are ok).",

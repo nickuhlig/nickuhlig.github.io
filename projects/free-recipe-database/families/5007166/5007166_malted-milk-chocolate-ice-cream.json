@@ -62,8 +62,9 @@
     },
     {
       "ingredient_id": 2742,
-      "name": "good quality milk chocolate, chopped",
-      "quantity": "6 oz"
+      "name": "good quality milk chocolate",
+      "quantity": "6 oz",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 353,
@@ -82,11 +83,18 @@
     },
     {
       "ingredient_id": 2920,
-      "name": "malted milk balls, roughly chopped, chilled in freezer",
-      "quantity": "¾ to 1 cup"
+      "name": "malted milk balls",
+      "quantity": "¾ to 1 cup",
+      "prep": "roughly chopped, chilled in freezer"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the good quality milk chocolate. Roughly chop and chill the malted milk balls in freezer.",
+      "secondary_message": "6 oz good quality milk chocolate\n¾ to 1 cup malted milk balls"
+    },
     {
       "id": 1,
       "primary_message": "In a medium saucepan off the stove, whisk egg yolks, malted milk powder, and sugar into a paste. When thoroughly combined, whisk in half-and-half, slowly to clear out any lumps. Put to low heat and stir frequently until custard thickens but does not yet simmer. Custard should coat the back of a spoon and a swiped finger should leave a clean line.",

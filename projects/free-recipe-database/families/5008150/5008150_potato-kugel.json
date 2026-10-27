@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, peeled and cut into chunks",
-      "quantity": "2 medium"
+      "name": "onions",
+      "quantity": "2 medium",
+      "prep": "peeled and cut into chunks"
     },
     {
       "ingredient_id": 2057,
@@ -71,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the onions into chunks.",
+      "secondary_message": "2 medium onions"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 350°F.",

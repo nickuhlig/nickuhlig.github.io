@@ -47,8 +47,9 @@
   "ingredients": [
     {
       "ingredient_id": 2033,
-      "name": "sea bass, whole, head-on, scaled and gutted",
-      "quantity": "1 (450 g)"
+      "name": "sea bass, whole, head-on",
+      "quantity": "1 (450 g)",
+      "prep": "scaled and gutted"
     },
     {
       "ingredient_id": 88,
@@ -67,8 +68,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, thinly sliced",
-      "quantity": "1 large"
+      "name": "shallot",
+      "quantity": "1 large",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 260,
@@ -93,11 +95,18 @@
     },
     {
       "ingredient_id": 1810,
-      "name": "bird’s-eye chile, thinly sliced",
-      "quantity": "1"
+      "name": "bird’s-eye chile",
+      "quantity": "1",
+      "prep": "thinly sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Scale and gut the sea bass. Thinly slice the shallot. Thinly slice the bird’s-eye chile.",
+      "secondary_message": "1 (450 g) sea bass, whole, head-on\n1 large shallot\n1 bird’s-eye chile"
+    },
     {
       "id": 1,
       "primary_message": "For the Soup: Lightly season fish with salt and pepper. In a 25-cm nonstick skillet, heat 2 teaspoons oil over medium-high heat until shimmering, then, working in batches if necessary to avoid crowding the pan, sear fish until lightly golden on each side but not cooked through, 2 to 3 minutes per side (add more oil if skillet runs dry). Transfer partially cooked fish to a plate and set aside.",

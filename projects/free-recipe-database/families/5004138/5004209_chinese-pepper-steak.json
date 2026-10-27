@@ -45,8 +45,9 @@
   "ingredients": [
     {
       "ingredient_id": 473,
-      "name": "flank steak, cut into 1/4-inch thick strips",
-      "quantity": "0.45 kg"
+      "name": "flank steak",
+      "quantity": "0.45 kg",
+      "prep": "cut into 1/4-inch thick strips"
     },
     {
       "ingredient_id": 53,
@@ -85,23 +86,27 @@
     },
     {
       "ingredient_id": 291,
-      "name": "green bell peppers, cored and cut into 1-inch squares",
-      "quantity": "2"
+      "name": "green bell peppers",
+      "quantity": "2",
+      "prep": "cored and cut into 1-inch squares"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell pepper, cored and cut into 1-inch squares",
-      "quantity": "1"
+      "name": "red bell pepper",
+      "quantity": "1",
+      "prep": "cored and cut into 1-inch squares"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, cut into 1-inch strips from pole to pole",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "cut into 1-inch strips from pole to pole"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 221,
@@ -110,8 +115,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, whites only, finely minced",
-      "quantity": "3"
+      "name": "scallions, whites only",
+      "quantity": "3",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 1044,
@@ -125,6 +131,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the flank steak into 1/4-inch thick strips. Core and cut the green bell peppers into 1-inch squares. Core and cut the red bell pepper into 1-inch squares. Cut the onion into 1-inch strips from pole to pole. Finely mince the garlic. Finely mince the scallions.",
+      "secondary_message": "0.45 kg flank steak\n2 green bell peppers\n1 red bell pepper\n1 medium onion\n2 medium cloves garlic\n3 scallions, whites only"
+    },
     {
       "id": 1,
       "primary_message": "Combine beef, 1 tablespoon soy sauce, and 1 tablespoon Shaoxing wine in a bowl and toss to coat. Let marinate for at least 20 minutes at room temperature and up to 3 hours.",

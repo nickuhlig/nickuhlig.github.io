@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened to 65°F",
-      "quantity": "12 oz"
+      "name": "unsalted butter",
+      "quantity": "12 oz",
+      "prep": "softened to 65°F"
     },
     {
       "ingredient_id": 353,
@@ -76,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter to 65°F.",
+      "secondary_message": "12 oz unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a 3-quart stainless steel saucier, bring the syrup to a boil over high heat. This should take no more than 4 or 5 minutes. If the timing is substantially different, this is simply an indication the heat needs adjustment due to equipment variation or differences in water content among potential syrups.",

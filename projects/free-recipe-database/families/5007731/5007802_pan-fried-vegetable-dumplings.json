@@ -52,8 +52,9 @@
     },
     {
       "ingredient_id": 1933,
-      "name": "dried wood ear mushrooms, rehydrated and finely diced",
-      "quantity": "7 g"
+      "name": "dried wood ear mushrooms",
+      "quantity": "7 g",
+      "prep": "rehydrated and finely diced"
     },
     {
       "ingredient_id": 2715,
@@ -127,11 +128,18 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallion, sliced",
-      "quantity": "1"
+      "name": "scallion",
+      "quantity": "1",
+      "prep": "sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rehydrate and finely dice the dried wood ear mushrooms. Slice the scallion.",
+      "secondary_message": "7 g dried wood ear mushrooms\n1 scallion"
+    },
     {
       "id": 1,
       "primary_message": "For the Dumplings: Combine carrots, tofu, seitan, mushroom, cabbage, garlic, scallion, sugar, sesame oil, soy sauce, white pepper, salt, and cornstarch in a large bowl and mix well. Filling can be made up to 2 hours in advance. Stir well just before using.",

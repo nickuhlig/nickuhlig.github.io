@@ -76,8 +76,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated",
-      "quantity": "1 clove"
+      "name": "garlic",
+      "quantity": "1 clove",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1784,
@@ -91,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the garlic.",
+      "secondary_message": "1 clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "Wash and dry 2 quart-size canning jars. Set aside.",

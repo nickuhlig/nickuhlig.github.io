@@ -42,8 +42,9 @@
   "ingredients": [
     {
       "ingredient_id": 2352,
-      "name": "or jar of chickpeas, drained and rinsed well",
-      "quantity": "1 (14 oz) can"
+      "name": "chickpeas",
+      "quantity": "1 (14 oz) can",
+      "prep": "drained and rinsed well"
     },
     {
       "ingredient_id": 359,
@@ -52,8 +53,9 @@
     },
     {
       "ingredient_id": 334,
-      "name": "tahini, stirred well before measuring",
-      "quantity": "⅓ cup"
+      "name": "tahini",
+      "quantity": "⅓ cup",
+      "prep": "stirred well before measuring"
     },
     {
       "ingredient_id": 1480,
@@ -77,6 +79,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain and rinse the chickpeas well. Stir the tahini well before measuring.",
+      "secondary_message": "1 (14 oz) can chickpeas\n⅓ cup tahini"
+    },
     {
       "id": 1,
       "primary_message": "Set aside 1 tablespoon of chickpeas to garnish with, if desired. In a tall container wide enough to fit the head of an immersion blender, combine remaining chickpeas, water, tahini, lemon juice, and salt. Place head of immersion blender into bottom of the cup and blend, moving it up and down and over the top until smooth, about 2 minutes. Alternatively, place chickpeas, water, tahini, lemon juice, and salt into a small food processor and process until smooth, scraping down as needed, about 2 minutes. Hummus should be thick and creamy; if it is too thick, add 1 tablespoon of water at a time to thin to desired consistency. Season to taste with salt and lemon juice.",

@@ -39,8 +39,9 @@
     },
     {
       "ingredient_id": 2346,
-      "name": "lemon zest, finely grated",
-      "quantity": "1 ½ tbsp"
+      "name": "lemon zest",
+      "quantity": "1 ½ tbsp",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 1480,
@@ -64,6 +65,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely grate the lemon zest.",
+      "secondary_message": "1 ½ tbsp lemon zest"
+    },
     {
       "id": 1,
       "primary_message": "Put a medium sized double boiler over simmering water. In bowl of double boiler, combine sugar, lemon zest and lemon juice. Stir until combined. Add eggs and egg yolks and whisk constantly until mixture has thickened and darkened in color, and a thermometer reads 160 degrees, about 6 minutes. Take lemon curd off the heat, cover, and chill in the refrigerator until cool.",

@@ -41,13 +41,15 @@
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, sliced",
-      "quantity": "1 (3 inch) piece"
+      "name": "ginger",
+      "quantity": "1 (3 inch) piece",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 151,
-      "name": "jalepeño chile, sliced",
-      "quantity": "1"
+      "name": "jalepeño chile",
+      "quantity": "1",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 90,
@@ -91,18 +93,21 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, sliced thin",
-      "quantity": "2"
+      "name": "shallots",
+      "quantity": "2",
+      "prep": "sliced thin"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, sliced thin",
-      "quantity": "2 bunches"
+      "name": "scallions",
+      "quantity": "2 bunches",
+      "prep": "sliced thin"
     },
     {
       "ingredient_id": 151,
-      "name": "jalepeño chile, sliced thin",
-      "quantity": "1"
+      "name": "jalepeño chile",
+      "quantity": "1",
+      "prep": "sliced thin"
     },
     {
       "ingredient_id": 1980,
@@ -111,8 +116,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "Cilantro, roughly chopped",
-      "quantity": ""
+      "name": "Cilantro",
+      "quantity": "",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1572,
@@ -126,6 +132,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the ginger. Slice the jalepeño chile. Slice the shallots thin. Slice the scallions thin. Slice the jalepeño chile thin. Roughly chop the Cilantro.",
+      "secondary_message": "1 (3 inch) piece ginger\n1 jalepeño chile\n2 shallots\n2 bunches scallions\n1 jalepeño chile\nCilantro"
+    },
     {
       "id": 1,
       "primary_message": "Rinse rice in a fine-mesh strainer until water runs clear. Set aside in a bowl and cover with several inches of water.",

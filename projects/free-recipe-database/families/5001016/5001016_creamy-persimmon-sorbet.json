@@ -49,8 +49,9 @@
   "ingredients": [
     {
       "ingredient_id": 3504,
-      "name": "persimmons, peeled and chopped",
-      "quantity": "4 to 5 large"
+      "name": "persimmons",
+      "quantity": "4 to 5 large",
+      "prep": "peeled and chopped"
     },
     {
       "ingredient_id": 346,
@@ -74,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and chop the persimmons.",
+      "secondary_message": "4 to 5 large persimmons"
+    },
     {
       "id": 1,
       "primary_message": "In a blender or food processor, combine persimmons with sugar. Blend on high speed until very smooth, about 30 seconds. Using a fine-mesh sieve, strain mixture; measure out 2 cups of purée, and reserve remainder for another use.",

@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 3065,
-      "name": "ball buffalo mozzarella, at room temperature",
-      "quantity": "0.45 kg"
+      "name": "ball buffalo mozzarella",
+      "quantity": "0.45 kg",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 47,
@@ -76,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the ball buffalo mozzarella to room temperature.",
+      "secondary_message": "0.45 kg ball buffalo mozzarella"
+    },
     {
       "id": 1,
       "primary_message": "Combine flour, salt, and yeast in a large bowl. Whisk until homogenous. Add water and stir with hands until dough comes together and no dry flour remains. Dough will be very sticky. Cover bowl tightly with plastic wrap and let sit at room temperature for 8 to 16 hours.",

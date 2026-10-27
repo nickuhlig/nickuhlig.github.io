@@ -79,8 +79,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 3255,
@@ -89,8 +90,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, separated",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "separated"
     },
     {
       "ingredient_id": 353,
@@ -109,8 +111,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "4 oz"
+      "name": "cream cheese",
+      "quantity": "4 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1710,
@@ -119,8 +122,9 @@
     },
     {
       "ingredient_id": 2121,
-      "name": "dry-roasted macadamia nuts, chopped",
-      "quantity": "½ cup"
+      "name": "dry-roasted macadamia nuts",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1752,
@@ -134,11 +138,18 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "9 oz"
+      "name": "bittersweet chocolate",
+      "quantity": "9 oz",
+      "prep": "finely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter. Separate the eggs. Soften the cream cheese. Chop the dry-roasted macadamia nuts. Finely chop the bittersweet chocolate.",
+      "secondary_message": "2 tbsp unsalted butter\n4 large eggs\n4 oz cream cheese\n½ cup dry-roasted macadamia nuts\n9 oz bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven racks to upper middle and lower middle positions and preheat oven to 350°F. Butter and flour (or spray with baking spray) three 9-inch round cake pans.",

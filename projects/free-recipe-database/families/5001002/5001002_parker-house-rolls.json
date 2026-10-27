@@ -67,8 +67,9 @@
     },
     {
       "ingredient_id": 118,
-      "name": "whole milk, at room temperature",
-      "quantity": "1 ¼ cups"
+      "name": "whole milk",
+      "quantity": "1 ¼ cups",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -97,8 +98,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "4 tbsp"
+      "name": "unsalted butter",
+      "quantity": "4 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 121,
@@ -117,6 +119,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the whole milk to room temperature. Melt the unsalted butter.",
+      "secondary_message": "1 ¼ cups whole milk\n4 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Dough: In the bowl of a stand mixer, whisk together flour, yeast, and salt until combined. In medium bowl or 2-cup liquid measuring cup, whisk milk, sugar, egg, and egg yolk until combined. Set mixer bowl into stand mixer base and fit mixer with dough hook. On medium-low speed, slowly pour in the liquid mixture until dough comes together and no dry flour remains, about 2 minutes, scraping down bowl and dough hook frequently. Increase speed to medium and, with mixer running, add 4 tablespoons butter, 1 piece at a time, allowing each piece to incorporate before adding next, about 2 minutes total, scraping down bowl and dough hook as needed. Continue to knead on medium speed until dough is elastic, sticky, and pulls away cleanly from sides of bowl, about 10 minutes longer.",

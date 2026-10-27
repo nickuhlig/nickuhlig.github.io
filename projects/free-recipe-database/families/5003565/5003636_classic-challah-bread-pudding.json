@@ -81,11 +81,18 @@
     },
     {
       "ingredient_id": 3321,
-      "name": "stale challah, cut into rough 1-inch pieces",
-      "quantity": "0.68 kg"
+      "name": "stale challah",
+      "quantity": "0.68 kg",
+      "prep": "cut into rough 1-inch pieces"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the stale challah into rough 1-inch pieces.",
+      "secondary_message": "0.68 kg stale challah"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 160°C (325°F). Thoroughly grease the sides and bottom of a baking dish with butter and set aside.",

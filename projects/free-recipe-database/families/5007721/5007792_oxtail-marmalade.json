@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 1845,
-      "name": "oxtail, trimmed of fat",
-      "quantity": "1.81 kg"
+      "name": "oxtail",
+      "quantity": "1.81 kg",
+      "prep": "trimmed of fat"
     },
     {
       "ingredient_id": 1714,
@@ -46,8 +47,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, halved crosswise",
-      "quantity": "1 head"
+      "name": "garlic",
+      "quantity": "1 head",
+      "prep": "halved crosswise"
     },
     {
       "ingredient_id": 287,
@@ -77,9 +79,10 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, peeled and finely diced",
+      "name": "shallots",
       "quantity": "11",
-      "weigh_as": "0.45 kg"
+      "weigh_as": "0.45 kg",
+      "prep": "peeled and finely diced"
     },
     {
       "ingredient_id": 88,
@@ -108,6 +111,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the oxtail of fat. Halve the garlic crosswise. Peel and finely dice the shallots.",
+      "secondary_message": "1.81 kg oxtail\n1 head garlic\n11 shallots"
+    },
     {
       "id": 1,
       "primary_message": "Place the oxtail, 4 cups of the red wine, garlic, thyme, and peppercorns in a large pot or sauté pan. Add water to cover by 1.5 cm. Bring the mixture to a boil, reduce the heat, and simmer until meat is falling off bones, about 3 hours.",

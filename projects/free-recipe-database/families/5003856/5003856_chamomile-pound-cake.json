@@ -96,8 +96,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "1 ½ lb"
+      "name": "unsalted butter",
+      "quantity": "1 ½ lb",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -111,8 +112,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "6 large"
+      "name": "eggs",
+      "quantity": "6 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 353,
@@ -126,6 +128,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature. Bring the eggs to room temperature.",
+      "secondary_message": "1 ½ lb unsalted butter\n6 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Adjust oven rack to middle position and preheat oven to 350°F. Lightly spray 9- by 5-inch loaf pan with baking spray.",

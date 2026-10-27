@@ -55,8 +55,9 @@
   "ingredients": [
     {
       "ingredient_id": 184,
-      "name": "red onion, thinly sliced",
-      "quantity": "½ small"
+      "name": "red onion",
+      "quantity": "½ small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 133,
@@ -70,8 +71,9 @@
     },
     {
       "ingredient_id": 302,
-      "name": "thick-cut bacon, chopped",
-      "quantity": "6 slices"
+      "name": "thick-cut bacon",
+      "quantity": "6 slices",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 275,
@@ -90,8 +92,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely grated",
-      "quantity": "1 clove"
+      "name": "garlic",
+      "quantity": "1 clove",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 103,
@@ -125,11 +128,18 @@
     },
     {
       "ingredient_id": 43,
-      "name": "sharp cheddar cheese, shredded",
-      "quantity": "3 oz"
+      "name": "sharp cheddar cheese",
+      "quantity": "3 oz",
+      "prep": "shredded"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the red onion. Chop the thick-cut bacon. Finely grate the garlic. Shred the sharp cheddar cheese.",
+      "secondary_message": "½ small red onion\n6 slices thick-cut bacon\n1 clove garlic\n3 oz sharp cheddar cheese"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, add red onion, 1 tablespoon vinegar, and water and toss to combine; let sit at room temperature until ready to use, at least 15 minutes, or refrigerate up to 24 hours. When ready to use, drain and discard liquid.",

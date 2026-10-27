@@ -39,13 +39,15 @@
   "ingredients": [
     {
       "ingredient_id": 2016,
-      "name": "low-moisture whole-milk mozzarella cheese, grated",
-      "quantity": "½ lb"
+      "name": "low-moisture whole-milk mozzarella cheese",
+      "quantity": "½ lb",
+      "prep": "grated"
     },
     {
       "ingredient_id": 2039,
-      "name": "Italian fontina cheese, grated",
-      "quantity": "½ lb"
+      "name": "Italian fontina cheese",
+      "quantity": "½ lb",
+      "prep": "grated"
     },
     {
       "ingredient_id": 264,
@@ -114,6 +116,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the low-moisture whole-milk mozzarella cheese. Grate the Italian fontina cheese.",
+      "secondary_message": "½ lb low-moisture whole-milk mozzarella cheese\n½ lb Italian fontina cheese"
+    },
     {
       "id": 1,
       "primary_message": "Place mozzarella and fontina in a medium bowl and toss with cornstarch until evenly coated. Set aside.",

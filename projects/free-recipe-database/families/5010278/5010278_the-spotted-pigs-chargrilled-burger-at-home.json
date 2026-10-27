@@ -33,8 +33,9 @@
   "ingredients": [
     {
       "ingredient_id": 1503,
-      "name": "well-marbled boneless short rib, cut into 1-inch pieces",
-      "quantity": "10 oz"
+      "name": "well-marbled boneless short rib",
+      "quantity": "10 oz",
+      "prep": "cut into 1-inch pieces"
     },
     {
       "ingredient_id": 2506,
@@ -43,8 +44,9 @@
     },
     {
       "ingredient_id": 1552,
-      "name": "well-marbled chuck roast, cut into 1-inch pieces",
-      "quantity": "12 oz"
+      "name": "well-marbled chuck roast",
+      "quantity": "12 oz",
+      "prep": "cut into 1-inch pieces"
     },
     {
       "ingredient_id": 88,
@@ -58,8 +60,9 @@
     },
     {
       "ingredient_id": 1239,
-      "name": "Roquefort cheese, room temperature",
-      "quantity": "8 oz"
+      "name": "Roquefort cheese",
+      "quantity": "8 oz",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 1772,
@@ -68,6 +71,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the well-marbled boneless short rib into 1-inch pieces. Cut the well-marbled chuck roast into 1-inch pieces. Bring the Roquefort cheese to room temperature.",
+      "secondary_message": "10 oz well-marbled boneless short rib\n12 oz well-marbled chuck roast\n8 oz Roquefort cheese"
+    },
     {
       "id": 1,
       "primary_message": "If Using A Meat Grinder: Place feed shaft, blade, and 3/8-inch grinding plate of meat grinder in freezer for at least 30 minutes before grinding. Combine well-chilled meat in large bowl and grind, passing through grinder twice, re-chilling grinder and meat in between grinds if necessary (i.e. if fat starts to smear).",

@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, thinly sliced",
-      "quantity": "½ medium"
+      "name": "onion",
+      "quantity": "½ medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 121,
@@ -82,11 +83,18 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "2 medium"
+      "name": "garlic cloves",
+      "quantity": "2 medium",
+      "prep": "minced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the onion. Mince the garlic cloves.",
+      "secondary_message": "½ medium onion\n2 medium garlic cloves"
+    },
     {
       "id": 1,
       "primary_message": "Adjust rack to middle position and preheat oven to 205°C (400°F). Wrap each roll in aluminum foil and set on a baking sheet. Transfer to the oven to warm while preparing the rest of the meal.",

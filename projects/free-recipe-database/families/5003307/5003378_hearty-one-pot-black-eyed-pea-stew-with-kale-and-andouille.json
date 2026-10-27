@@ -43,13 +43,15 @@
     },
     {
       "ingredient_id": 2489,
-      "name": "andouille sausage, cut into 1/4-inch slices",
-      "quantity": "340 g"
+      "name": "andouille sausage",
+      "quantity": "340 g",
+      "prep": "cut into 1/4-inch slices"
     },
     {
       "ingredient_id": 2419,
-      "name": "salt pork, cut into 1/2-inch lardons",
-      "quantity": "170 g"
+      "name": "salt pork",
+      "quantity": "170 g",
+      "prep": "cut into 1/2-inch lardons"
     },
     {
       "ingredient_id": 309,
@@ -58,23 +60,27 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, finely diced",
-      "quantity": "2 stalks"
+      "name": "celery",
+      "quantity": "2 stalks",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 291,
-      "name": "green bell pepper, finely chopped",
-      "quantity": "1 large"
+      "name": "green bell pepper",
+      "quantity": "1 large",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño pepper, minced",
-      "quantity": "1"
+      "name": "jalapeño pepper",
+      "quantity": "1",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1721,
@@ -83,13 +89,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 226,
-      "name": "kale, stems removed, leaves roughly chopped",
-      "quantity": "1 bunch"
+      "name": "kale",
+      "quantity": "1 bunch",
+      "prep": "stems removed, leaves roughly chopped"
     },
     {
       "ingredient_id": 2199,
@@ -123,6 +131,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the andouille sausage into 1/4-inch slices. Cut the salt pork into 1/2-inch lardons. Finely chop the onion. Finely dice the celery. Finely chop the green bell pepper. Mince the jalapeño pepper. Thinly slice the garlic. Remove the stems from the kale, then roughly chop the leaves.",
+      "secondary_message": "340 g andouille sausage\n170 g salt pork\n1 large onion\n2 stalks celery\n1 large green bell pepper\n1 jalapeño pepper\n3 medium cloves garlic\n1 bunch kale"
+    },
     {
       "id": 1,
       "primary_message": "Heat olive oil in a large Dutch oven over medium heat until shimmering. Add sausage and salt pork and cook, stirring occasionally, until lightly browned on all sides, about 12 minutes. Add leek, onion, celery, pepper, jalapeño, pepper flakes, and garlic and cook, stirring and scraping up browned bits from the bottom of the pan until softened and lightly browned, about 10 minutes. Stir in kale, cover, and cook until kale starts to wilt, about 3 minutes. Uncover, stir, and continue to cook uncovered until kale is completely wilted, another 5 minutes.",

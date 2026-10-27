@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 14,
-      "name": "Brussels sprouts, trimmed and halved lengthwise",
-      "quantity": "0.91 kg"
+      "name": "Brussels sprouts",
+      "quantity": "0.91 kg",
+      "prep": "trimmed and halved lengthwise"
     },
     {
       "ingredient_id": 1007,
@@ -75,13 +76,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "1 clove"
+      "name": "garlic",
+      "quantity": "1 clove",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1762,
-      "name": "fresh red Thai chile, thinly sliced crosswise, including seeds",
-      "quantity": "1 (4 cm)"
+      "name": "fresh red Thai chile, including seeds",
+      "quantity": "1 (4 cm)",
+      "prep": "thinly sliced crosswise"
     },
     {
       "ingredient_id": 1360,
@@ -100,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim and halve the Brussels sprouts lengthwise. Mince the garlic. Thinly slice the fresh red Thai chile crosswise.",
+      "secondary_message": "0.91 kg Brussels sprouts\n1 clove garlic\n1 (4 cm) fresh red Thai chile, including seeds"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 230°C (450°F) with a rack in the upper third of the oven. Trim and halve the Brussels sprouts, toss with oil, and roast, cut side down on baking sheet, for 20-35 minutes, depending on size and desired taste. They should brown but remain somewhat firm.",

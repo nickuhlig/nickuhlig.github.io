@@ -39,8 +39,9 @@
     },
     {
       "ingredient_id": 44,
-      "name": "boneless skinless chicken breasts, cut into 3/4-inch cubes",
-      "quantity": "1 lb"
+      "name": "boneless skinless chicken breasts",
+      "quantity": "1 lb",
+      "prep": "cut into 3/4-inch cubes"
     },
     {
       "ingredient_id": 264,
@@ -64,26 +65,36 @@
     },
     {
       "ingredient_id": 1869,
-      "name": "dried red chiles, roughly chopped or crushed",
-      "quantity": "2"
+      "name": "dried red chiles",
+      "quantity": "2",
+      "prep": "roughly chopped or crushed"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and very thinly sliced",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "peeled and very thinly sliced"
     },
     {
       "ingredient_id": 221,
-      "name": "ginger root, peeled and very thinly sliced",
-      "quantity": "1 (1 inch) knob"
+      "name": "ginger root",
+      "quantity": "1 (1 inch) knob",
+      "prep": "peeled and very thinly sliced"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, trimmed and roughly chopped",
-      "quantity": "4"
+      "name": "scallions",
+      "quantity": "4",
+      "prep": "trimmed and roughly chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the boneless skinless chicken breasts into 3/4-inch cubes. Roughly chop or crush the dried red chiles. Peel and very thinly slice the garlic. Peel and very thinly slice the ginger root. Trim and roughly chop the scallions.",
+      "secondary_message": "1 lb boneless skinless chicken breasts\n2 dried red chiles\n2 cloves garlic\n1 (1 inch) knob ginger root\n4 scallions"
+    },
     {
       "id": 1,
       "primary_message": "Combine the chicken, corn starch, and half the soy sauce in a small bowl. Toss the chicken until it's well-coated in the mixture, and set aside.",

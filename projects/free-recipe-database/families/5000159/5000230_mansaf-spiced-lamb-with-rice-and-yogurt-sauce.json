@@ -42,9 +42,10 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, peeled but left whole",
+      "name": "yellow onion",
       "quantity": "2 medium",
-      "weigh_as": "226 g"
+      "weigh_as": "226 g",
+      "prep": "peeled but left whole"
     },
     {
       "ingredient_id": 1865,
@@ -103,8 +104,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, crushed or minced",
-      "quantity": "8 medium cloves"
+      "name": "garlic",
+      "quantity": "8 medium cloves",
+      "prep": "crushed or minced"
     },
     {
       "ingredient_id": 319,
@@ -138,11 +140,18 @@
     },
     {
       "ingredient_id": 1601,
-      "name": "slivered almonds, toasted until golden",
-      "quantity": "1 cup"
+      "name": "slivered almonds",
+      "quantity": "1 cup",
+      "prep": "toasted until golden"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the yellow onion but left whole. Crush or mince the garlic. Toast the slivered almonds until golden.",
+      "secondary_message": "2 medium yellow onion\n8 medium cloves garlic\n1 cup slivered almonds"
+    },
     {
       "id": 1,
       "primary_message": "For the Broth: In a large pot or Dutch oven, cover the lamb shanks with enough water to barely submerge. Set over medium-high heat and cook just until water comes to a boil and foam rises to the surface. Remove from heat, drain shanks, then wash with water to remove any foam clinging to them.",

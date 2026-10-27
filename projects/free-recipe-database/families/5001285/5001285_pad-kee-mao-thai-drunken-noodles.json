@@ -84,13 +84,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 1762,
-      "name": "fresh Thai red chiles, such as bird's eye, stemmed",
-      "quantity": "7"
+      "name": "fresh Thai red chiles, such as bird's eye",
+      "quantity": "7",
+      "prep": "stemmed"
     },
     {
       "ingredient_id": 1682,
@@ -99,13 +101,15 @@
     },
     {
       "ingredient_id": 3453,
-      "name": "grachai, julienned if needed",
-      "quantity": "½ oz"
+      "name": "grachai",
+      "quantity": "½ oz",
+      "prep": "julienned if needed"
     },
     {
       "ingredient_id": 1818,
-      "name": "fresh makrut lime leaves, middle ribs removed",
-      "quantity": "5"
+      "name": "fresh makrut lime leaves",
+      "quantity": "5",
+      "prep": "middle ribs removed"
     },
     {
       "ingredient_id": 2712,
@@ -114,18 +118,21 @@
     },
     {
       "ingredient_id": 2814,
-      "name": "long beans, sliced into 1-inch pieces on a bias",
-      "quantity": "1 oz"
+      "name": "long beans",
+      "quantity": "1 oz",
+      "prep": "sliced into 1-inch pieces on a bias"
     },
     {
       "ingredient_id": 1248,
-      "name": "fresh baby corn, sliced into 1/2-inch pieces",
-      "quantity": "1 oz"
+      "name": "fresh baby corn",
+      "quantity": "1 oz",
+      "prep": "sliced into 1/2-inch pieces"
     },
     {
       "ingredient_id": 2180,
-      "name": "Chinese broccoli, sliced into 1 1/2–inch pieces on a bias",
-      "quantity": "1 ½ oz"
+      "name": "Chinese broccoli",
+      "quantity": "1 ½ oz",
+      "prep": "sliced into 1 1/2–inch pieces on a bias"
     },
     {
       "ingredient_id": 1838,
@@ -139,6 +146,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the garlic. Stem the fresh Thai red chiles. Julienne the grachai if needed. Remove the middle ribs from the fresh makrut lime leaves. Slice the long beans into 1-inch pieces on a bias. Slice the fresh baby corn into 1/2-inch pieces. Slice the Chinese broccoli into 1 1/2–inch pieces on a bias.",
+      "secondary_message": "4 medium cloves garlic\n7 fresh Thai red chiles, such as bird's eye\n½ oz grachai\n5 fresh makrut lime leaves\n1 oz long beans\n1 oz fresh baby corn\n1 ½ oz Chinese broccoli"
+    },
     {
       "id": 1,
       "primary_message": "If Using Fresh Noodle Sheets: Cut fresh noodle sheets into 1 1/2-inch wide strips and place in a mixing bowl; set aside.",

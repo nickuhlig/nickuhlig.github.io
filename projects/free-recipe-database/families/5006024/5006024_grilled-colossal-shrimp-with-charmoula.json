@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 1811,
-      "name": "colossal shrimp, shelled and deveined",
-      "quantity": "16"
+      "name": "colossal shrimp",
+      "quantity": "16",
+      "prep": "shelled and deveined"
     },
     {
       "ingredient_id": 88,
@@ -80,8 +81,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested",
-      "quantity": "½"
+      "name": "lemon",
+      "quantity": "½",
+      "prep": "zested"
     },
     {
       "ingredient_id": 47,
@@ -95,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shell and devein the colossal shrimp. Zest the lemon.",
+      "secondary_message": "16 colossal shrimp\n½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "Grill shrimp: Preheat a gas grill or ridged grill pan over medium high heat.",

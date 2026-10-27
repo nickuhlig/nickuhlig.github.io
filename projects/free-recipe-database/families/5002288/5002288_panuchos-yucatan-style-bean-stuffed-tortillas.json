@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "5 cloves"
+      "name": "garlic",
+      "quantity": "5 cloves",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 1468,
@@ -90,8 +91,9 @@
     },
     {
       "ingredient_id": 2949,
-      "name": "store-bought rotisserie chicken, shredded into bite-size pieces",
-      "quantity": "1 lb"
+      "name": "store-bought rotisserie chicken",
+      "quantity": "1 lb",
+      "prep": "shredded into bite-size pieces"
     },
     {
       "ingredient_id": 2246,
@@ -115,6 +117,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the garlic. Shred the store-bought rotisserie chicken into bite-size pieces.",
+      "secondary_message": "5 cloves garlic\n1 lb store-bought rotisserie chicken"
+    },
     {
       "id": 1,
       "primary_message": "For the Meat Topping: Adjust oven rack to upper position and preheat broiler on high. Line a rimmed baking sheet with aluminum foil or parchment paper, then spread the habanero and garlic on top. Broil, turning once, until habanero and garlic are charred in spots on both sides, 2 to 5 minutes per side.",

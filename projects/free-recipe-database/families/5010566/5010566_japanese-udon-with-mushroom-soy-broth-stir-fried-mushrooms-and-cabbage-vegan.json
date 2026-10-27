@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 2250,
-      "name": "mixed small fresh mushrooms, trimmed, stems and scraps reserved",
-      "quantity": "4 oz"
+      "name": "mixed small fresh mushrooms",
+      "quantity": "4 oz",
+      "prep": "trimmed, stems and scraps reserved"
     },
     {
       "ingredient_id": 153,
@@ -55,13 +56,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, skin-on, split in half",
-      "quantity": "1 small"
+      "name": "yellow onion, skin-on",
+      "quantity": "1 small",
+      "prep": "split in half"
     },
     {
       "ingredient_id": 1990,
@@ -90,8 +93,9 @@
     },
     {
       "ingredient_id": 292,
-      "name": "Napa cabbage, cut into 3/4-inch strips",
-      "quantity": "1 cup"
+      "name": "Napa cabbage",
+      "quantity": "1 cup",
+      "prep": "cut into 3/4-inch strips"
     },
     {
       "ingredient_id": 2671,
@@ -105,6 +109,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the mixed small fresh mushrooms and stems, then reserve the scraps. Smash the garlic. Split the yellow onion in half. Cut the Napa cabbage into 3/4-inch strips.",
+      "secondary_message": "4 oz mixed small fresh mushrooms\n2 cloves garlic\n1 small yellow onion, skin-on\n1 cup Napa cabbage"
+    },
     {
       "id": 1,
       "primary_message": "Combine wood ear and morel mushrooms in a medium saucepan and cover with 1 1/2 quarts water. Bring to a boil over high heat, then remove from heat and let rest 10 minutes while mushrooms rehydrate. Remove mushrooms with a slotted spoon and set aside. Add fresh mushroom scraps and stems, bottom 1-inch of scallions, garlic cloves, onion, and kombu to pot. Bring to a boil and reduce to a low simmer. Cook for 20 minutes.",

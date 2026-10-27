@@ -42,8 +42,9 @@
     },
     {
       "ingredient_id": 2021,
-      "name": "fresh Serrano chiles, stemmed and halved lengthwise",
-      "quantity": "2"
+      "name": "fresh Serrano chiles",
+      "quantity": "2",
+      "prep": "stemmed and halved lengthwise"
     },
     {
       "ingredient_id": 1872,
@@ -62,8 +63,9 @@
     },
     {
       "ingredient_id": 217,
-      "name": "roasted peanuts, roughly chopped",
-      "quantity": "2 tbsp"
+      "name": "roasted peanuts",
+      "quantity": "2 tbsp",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 2195,
@@ -102,6 +104,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem and halve the fresh Serrano chiles lengthwise. Roughly chop the roasted peanuts.",
+      "secondary_message": "2 fresh Serrano chiles\n2 tbsp roasted peanuts"
+    },
     {
       "id": 1,
       "primary_message": "In a medium skillet, heat oil or ghee over medium heat until shimmering. Add chiles and cook, stirring, until fragrant, about 30 seconds. Add mustard seeds and continue to cook, stirring, until seeds pop.",

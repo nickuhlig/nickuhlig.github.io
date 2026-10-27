@@ -52,8 +52,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "¾ cup"
+      "name": "unsalted butter",
+      "quantity": "¾ cup",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1567,
@@ -82,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter.",
+      "secondary_message": "¾ cup unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 350°F. Line two baking sheets with parchment paper.",

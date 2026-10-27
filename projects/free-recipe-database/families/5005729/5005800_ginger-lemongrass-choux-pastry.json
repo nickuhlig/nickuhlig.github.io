@@ -55,13 +55,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "113 g"
+      "name": "unsalted butter",
+      "quantity": "113 g",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1816,
-      "name": "lemongrass, smashed and cut into 1/4-inch pieces",
-      "quantity": "1 stalk"
+      "name": "lemongrass",
+      "quantity": "1 stalk",
+      "prep": "smashed and cut into 1/4-inch pieces"
     },
     {
       "ingredient_id": 221,
@@ -90,8 +92,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, sliced",
-      "quantity": "0.45 kg"
+      "name": "unsalted butter",
+      "quantity": "0.45 kg",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 346,
@@ -110,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter. Smash and cut the lemongrass into 1/4-inch pieces. Slice the unsalted butter.",
+      "secondary_message": "113 g unsalted butter\n1 stalk lemongrass\n0.45 kg unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Craquelin: Put cornflakes, flour, maple sugar, and salt in a food processor and pulse 5 times to break up cornflakes. Then process mixture until it turns into a fine flour, about 1 minute. With the processor off, add butter. Pulse about 10 times, until the dough forms a ball.",

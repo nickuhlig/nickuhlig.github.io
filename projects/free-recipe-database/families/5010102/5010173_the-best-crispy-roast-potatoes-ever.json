@@ -71,13 +71,15 @@
     },
     {
       "ingredient_id": 286,
-      "name": "picked fresh rosemary leaves, finely chopped",
-      "quantity": "1 small handful"
+      "name": "picked fresh rosemary leaves",
+      "quantity": "1 small handful",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 72,
@@ -86,11 +88,18 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "fresh parsley leaves, minced",
-      "quantity": "1 small handful"
+      "name": "fresh parsley leaves",
+      "quantity": "1 small handful",
+      "prep": "minced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the picked fresh rosemary leaves. Mince the garlic. Mince the fresh parsley leaves.",
+      "secondary_message": "1 small handful picked fresh rosemary leaves\n3 medium cloves garlic\n1 small handful fresh parsley leaves"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center position and preheat oven to 230°C (450°F) or 200°C (400°F) if using convection. Heat 2000 ml water in a large pot over high heat until boiling. Add 2 tablespoons kosher salt (about 28 g; 25g), baking soda, and potatoes and stir. Return to a boil, reduce to a simmer, and cook until a knife meets little resistance when inserted into a potato chunk, about 10 minutes after returning to a boil.",

@@ -103,14 +103,16 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and trimmed",
-      "quantity": "2 medium"
+      "name": "carrots",
+      "quantity": "2 medium",
+      "prep": "peeled and trimmed"
     },
     {
       "ingredient_id": 440,
-      "name": "romaine lettuce hearts, thinly sliced",
+      "name": "romaine lettuce hearts",
       "quantity": "2 ½ hearts",
-      "weigh_as": "0.45 kg"
+      "weigh_as": "0.45 kg",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 310,
@@ -139,11 +141,18 @@
     },
     {
       "ingredient_id": 183,
-      "name": "ripe Hass avocado, pitted and thinly sliced",
-      "quantity": "1 medium"
+      "name": "ripe Hass avocado",
+      "quantity": "1 medium",
+      "prep": "pitted and thinly sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and trim the carrots. Thinly slice the romaine lettuce hearts. Pit and thinly slice the ripe Hass avocado.",
+      "secondary_message": "2 medium carrots\n2 ½ hearts romaine lettuce hearts\n1 medium ripe Hass avocado"
+    },
     {
       "id": 1,
       "primary_message": "For the Chicken: In a medium bowl, whisk together hot sauce and lemon juice. Add chicken and turn to coat evenly. Let stand at room temperature for 30 minutes.",

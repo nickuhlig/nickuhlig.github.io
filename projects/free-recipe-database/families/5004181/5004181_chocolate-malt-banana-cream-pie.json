@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 2742,
-      "name": "milk chocolate, finely chopped",
-      "quantity": "6 oz"
+      "name": "milk chocolate",
+      "quantity": "6 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2052,
@@ -61,13 +62,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted, divided",
-      "quantity": "9 tbsp (4 ½ oz)"
+      "name": "unsalted butter, divided",
+      "quantity": "9 tbsp (4 ½ oz)",
+      "prep": "melted"
     },
     {
       "ingredient_id": 317,
-      "name": "bananas, sliced",
-      "quantity": "3 medium"
+      "name": "bananas",
+      "quantity": "3 medium",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 333,
@@ -96,8 +99,9 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "4 oz"
+      "name": "bittersweet chocolate",
+      "quantity": "4 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 353,
@@ -106,6 +110,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the milk chocolate. Melt the unsalted butter. Slice the bananas. Finely chop the bittersweet chocolate.",
+      "secondary_message": "6 oz milk chocolate\n9 tbsp (4 ½ oz) unsalted butter, divided\n3 medium bananas\n4 oz bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "In small saucepan over medium heat, heat cream until simmering. Remove from heat and stir in 3 tablespoons malted milk powder and milk chocolate until melted. Transfer to container and refrigerate until well-chilled, about 4 hours.",

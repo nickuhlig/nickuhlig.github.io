@@ -76,11 +76,18 @@
     },
     {
       "ingredient_id": 126,
-      "name": "fresh goat cheese, crumbled",
-      "quantity": "85 g"
+      "name": "fresh goat cheese",
+      "quantity": "85 g",
+      "prep": "crumbled"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Crumble the fresh goat cheese.",
+      "secondary_message": "85 g fresh goat cheese"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, combine squash, fennel, dill, olive oil, and lemon juice and toss to combine. Season with salt and pepper. Add goat cheese, gently toss, and serve right away.",

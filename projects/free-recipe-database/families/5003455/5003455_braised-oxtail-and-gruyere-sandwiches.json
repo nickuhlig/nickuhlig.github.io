@@ -51,18 +51,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, roughly chopped",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, roughly chopped",
-      "quantity": "1 large"
+      "name": "carrot",
+      "quantity": "1 large",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, roughly chopped",
-      "quantity": "2 stalks"
+      "name": "celery",
+      "quantity": "2 stalks",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 323,
@@ -106,11 +109,18 @@
     },
     {
       "ingredient_id": 2872,
-      "name": "Comté, Gruyère, or Swiss cheese, thinly sliced",
-      "quantity": "12 oz"
+      "name": "Comté, Gruyère, or Swiss cheese",
+      "quantity": "12 oz",
+      "prep": "thinly sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the onion. Roughly chop the carrot. Roughly chop the celery. Thinly slice the Comté.",
+      "secondary_message": "1 large onion\n1 large carrot\n2 stalks celery\n12 oz Comté, Gruyère, or Swiss cheese"
+    },
     {
       "id": 1,
       "primary_message": "For the Oxtail: Adjust oven rack to center position and preheat oven to 250°F. Heat oil in a large Dutch oven over high heat until shimmering. Add as many oxtail pieces as will fit in a single layer. Cook until well browned, about 6 minutes. Flip pieces and cook until second side is browned, about 4 minutes longer. Transfer to a large plate and repeat with remaining oxtails until all oxtails are browned.",

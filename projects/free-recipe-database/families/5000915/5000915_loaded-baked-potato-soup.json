@@ -54,18 +54,21 @@
   "ingredients": [
     {
       "ingredient_id": 302,
-      "name": "bacon, diced",
-      "quantity": "12 slices"
+      "name": "bacon",
+      "quantity": "12 slices",
+      "prep": "diced"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, diced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1039,
@@ -100,8 +103,9 @@
     },
     {
       "ingredient_id": 43,
-      "name": "extra-sharp cheddar, finely grated",
-      "quantity": "½ cup"
+      "name": "extra-sharp cheddar",
+      "quantity": "½ cup",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 2545,
@@ -115,6 +119,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the bacon. Dice the yellow onion. Mince the garlic. Finely grate the extra-sharp cheddar.",
+      "secondary_message": "12 slices bacon\n1 medium yellow onion\n3 medium cloves garlic\n½ cup extra-sharp cheddar"
+    },
     {
       "id": 1,
       "primary_message": "Using a fork or paring knife, prick skin of potatoes all over. Working in batches if needed, place potatoes on microwave-safe plate and microwave on high power, flipping halfway through, until potatoes can be easily pierced with a paring knife, 12 to 14 minutes. (If they aren't ready, continue to microwave in 30-second increments until soft.) Let potatoes sit until cool enough to handle. Peel the potatoes and pass through a ricer into a medium bowl; set aside. (See notes if you’d prefer to use a blender instead.)",

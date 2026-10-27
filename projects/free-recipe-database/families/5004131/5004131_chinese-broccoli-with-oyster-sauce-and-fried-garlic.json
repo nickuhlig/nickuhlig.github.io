@@ -46,8 +46,9 @@
   "ingredients": [
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "1 whole head"
+      "name": "garlic",
+      "quantity": "1 whole head",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 88,
@@ -76,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the garlic.",
+      "secondary_message": "1 whole head garlic"
+    },
     {
       "id": 1,
       "primary_message": "Transfer garlic to the bowl of a food processor or mini food processor. Pulse until garlic is very finely chopped but not a paste, about 12 short pulses, scraping down sides as necessary. Add 1/4 teaspoon salt and toss to combine.",

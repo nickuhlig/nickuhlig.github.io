@@ -58,13 +58,15 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, peeled, ends trimmed",
-      "quantity": "½ medium"
+      "name": "white onion",
+      "quantity": "½ medium",
+      "prep": "peeled, ends trimmed"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, peeled",
-      "quantity": "1"
+      "name": "carrot",
+      "quantity": "1",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 24,
@@ -83,8 +85,9 @@
     },
     {
       "ingredient_id": 1776,
-      "name": "dried chiles árbol chiles, stem removed",
-      "quantity": "5"
+      "name": "dried chiles árbol chiles",
+      "quantity": "5",
+      "prep": "stem removed"
     },
     {
       "ingredient_id": 1682,
@@ -113,8 +116,9 @@
     },
     {
       "ingredient_id": 1799,
-      "name": "serrano chiles, stems removed",
-      "quantity": "2 to 3"
+      "name": "serrano chiles",
+      "quantity": "2 to 3",
+      "prep": "stems removed"
     },
     {
       "ingredient_id": 24,
@@ -133,6 +137,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the white onion, then trim the ends. Peel the carrot. Remove the stem from the dried chiles árbol chiles. Remove the stems from the serrano chiles.",
+      "secondary_message": "½ medium white onion\n1 carrot\n5 dried chiles árbol chiles\n2 to 3 serrano chiles"
+    },
     {
       "id": 1,
       "primary_message": "In a large pot, combine pork, onion, carrot, garlic, bay leaves, and 2 teaspoons kosher salt. Cover with 3000 ml water. Bring to a boil over high heat, then reduce heat to low and cook, covered, at a gentle simmer until the pork begins to become tender and a knife inserted meats no resistance, about 2 hours. Add beans and continue to cook until pork can be easily pierced with a fork and beans are tender, 1 ½ to 2 hours longer.",

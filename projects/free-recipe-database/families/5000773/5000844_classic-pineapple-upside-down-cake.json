@@ -78,8 +78,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 293,
@@ -88,8 +89,9 @@
     },
     {
       "ingredient_id": 2245,
-      "name": "maraschino cherries, stems removed and patted dry",
-      "quantity": "7"
+      "name": "maraschino cherries",
+      "quantity": "7",
+      "prep": "stems removed and patted dry"
     },
     {
       "ingredient_id": 116,
@@ -113,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the eggs to room temperature. Remove the stems from the maraschino cherries, then pat them dry.",
+      "secondary_message": "2 large eggs\n7 maraschino cherries"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 175°C (350°F)(175℃). In a small saucepan, bring 3/4 cup reserved canned pineapple juice to a simmer over medium-high heat. Once simmering, reduce heat to medium, and continue to simmer until reduced to about 1/4 cup, about 10 minutes. Remove from heat, and whisk in coconut oil and 4 tablespoons butter until melted. Transfer to a large heatproof bowl. Whisk in granulated sugar, rum, and vanilla into the melted butter mixture until smooth; whisk in eggs until incorporated. Set aside while preparing the skillet.",

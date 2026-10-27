@@ -70,8 +70,9 @@
   "ingredients": [
     {
       "ingredient_id": 1214,
-      "name": "kimchi juice, drained from 1 jar of kimchi",
-      "quantity": "100 ml"
+      "name": "kimchi juice",
+      "quantity": "100 ml",
+      "prep": "drained from 1 jar of kimchi"
     },
     {
       "ingredient_id": 2475,
@@ -85,8 +86,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 88,
@@ -115,8 +117,9 @@
     },
     {
       "ingredient_id": 1214,
-      "name": "drained kimchi, roughly chopped",
-      "quantity": "1 cup"
+      "name": "drained kimchi",
+      "quantity": "1 cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 267,
@@ -130,8 +133,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 1925,
@@ -255,6 +259,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain the kimchi juice from 1 jar of kimchi. Smash the garlic. Roughly chop the drained kimchi. Smash the garlic.",
+      "secondary_message": "100 ml kimchi juice\n3 medium cloves garlic\n1 cup drained kimchi\n2 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Brine: Combine kimchi juice, buttermilk, egg, garlic, salt, soy sauce, gochugaru, and black pepper in a large bowl. Add chicken pieces and toss and turn to coat. Transfer the contents of the bowl to a 1-gallon zipper-lock freezer bag and refrigerate for at least 4 hours and up to overnight, flipping the bag occasionally to redistribute the contents and coat the chicken evenly. Meanwhile, make the kimchi mayonnaise, the sauce, the spice rub, and the dredge.",

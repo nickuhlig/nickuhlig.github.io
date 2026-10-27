@@ -33,8 +33,9 @@
   "ingredients": [
     {
       "ingredient_id": 1860,
-      "name": "ripe yellow plantains with black spots, peeled",
-      "quantity": "2 large"
+      "name": "ripe yellow plantains with black spots",
+      "quantity": "2 large",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 88,
@@ -48,6 +49,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the ripe yellow plantains with black spots.",
+      "secondary_message": "2 large ripe yellow plantains with black spots"
+    },
     {
       "id": 1,
       "primary_message": "Using a sharp knife, cut plantains into the shape and size of your choosing: 1.5-cm dice, 1-cm thick rounds, or 1-cm thick slices on the bias.",

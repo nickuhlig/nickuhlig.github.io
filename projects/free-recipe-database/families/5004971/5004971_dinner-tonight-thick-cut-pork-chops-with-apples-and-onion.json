@@ -57,13 +57,15 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, sliced",
-      "quantity": "1 large"
+      "name": "white onion",
+      "quantity": "1 large",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 1692,
-      "name": "apples, cored and sliced, about 3 cups",
-      "quantity": "2 to 3 medium"
+      "name": "apples, about 3 cups",
+      "quantity": "2 to 3 medium",
+      "prep": "cored and sliced"
     },
     {
       "ingredient_id": 1070,
@@ -72,6 +74,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the white onion. Core and slice the apples.",
+      "secondary_message": "1 large white onion\n2 to 3 medium apples, about 3 cups"
+    },
     {
       "id": 1,
       "primary_message": "Trim any excess fat from the chops and season liberally with salt and pepper. In a very large, heavy skillet (large enough to hold the chops with room to spare, preferably cast iron), heat the oil over high heat. Once it is shimmering and very hot, add the chops carefully and cook undisturbed for a few minutes for a good sear, about 5 minutes. Turn and sear the other side, then remove the chops to a plate.",

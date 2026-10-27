@@ -58,8 +58,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "cold butter, cubed",
-      "quantity": "8 oz"
+      "name": "cold butter",
+      "quantity": "8 oz",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 116,
@@ -83,8 +84,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "1 oz"
+      "name": "unsalted butter",
+      "quantity": "1 oz",
+      "prep": "melted"
     },
     {
       "ingredient_id": 293,
@@ -138,6 +140,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cube the cold butter. Melt the unsalted butter.",
+      "secondary_message": "8 oz cold butter\n1 oz unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Make the Tart Dough:\nWith your fingers, cut butter into flour, along with salt, until reduced to pea sized lumps. Add corn syrup all at once and mix with a fork until it forms a ball. Dust your hands with a little flour, scoop out the dough, and knead lightly until smooth. Flatten dough into a squarish shape, wrap in plastic, and chill at least 30 minutes.",

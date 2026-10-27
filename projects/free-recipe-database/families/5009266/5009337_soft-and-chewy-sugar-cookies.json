@@ -63,8 +63,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, firm but pliable, about 60°F",
-      "quantity": "227 g"
+      "name": "unsalted butter, firm but pliable",
+      "quantity": "227 g",
+      "prep": "about 60°F"
     },
     {
       "ingredient_id": 346,
@@ -93,8 +94,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, cold",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "cold"
     },
     {
       "ingredient_id": 116,
@@ -108,6 +110,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to 60°F. Keep the egg cold until you use it.",
+      "secondary_message": "227 g unsalted butter, firm but pliable\n1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position, preheat to 180°C (350°F), and line 2 aluminum half sheet pans with parchment paper (not wax paper!).",

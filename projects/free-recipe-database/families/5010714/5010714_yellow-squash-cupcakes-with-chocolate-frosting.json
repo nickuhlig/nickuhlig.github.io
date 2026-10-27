@@ -114,8 +114,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 353,
@@ -139,8 +140,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, at room temperature",
-      "quantity": "8 oz"
+      "name": "cream cheese",
+      "quantity": "8 oz",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1710,
@@ -159,11 +161,18 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, melted and slightly cooled",
-      "quantity": "4 oz"
+      "name": "bittersweet chocolate",
+      "quantity": "4 oz",
+      "prep": "melted and slightly cooled"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the eggs to room temperature. Bring the cream cheese to room temperature. Melt the bittersweet chocolate and let it cool slightly.",
+      "secondary_message": "2 large eggs\n8 oz cream cheese\n4 oz bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "For the Cupcakes: Adjust oven rack to middle position and preheat oven to 325°F. Line 12-cup muffin tin with cupcake liners. Spray tin with baking spray.",

@@ -58,8 +58,9 @@
   "ingredients": [
     {
       "ingredient_id": 2478,
-      "name": "firm tofu, drained",
-      "quantity": "395 g"
+      "name": "firm tofu",
+      "quantity": "395 g",
+      "prep": "drained"
     },
     {
       "ingredient_id": 328,
@@ -83,13 +84,15 @@
     },
     {
       "ingredient_id": 28,
-      "name": "fresh basil leaves from one large bunch, chopped",
-      "quantity": "25"
+      "name": "fresh basil leaves from one large bunch",
+      "quantity": "25",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 88,
@@ -123,8 +126,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, crushed",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 1848,
@@ -153,6 +157,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain the firm tofu. Chop the fresh basil leaves from one large bunch. Mince the garlic. Crush the garlic.",
+      "secondary_message": "395 g firm tofu\n25 fresh basil leaves from one large bunch\n3 medium cloves garlic\n3 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Vegan \"Ricotta\": Cut tofu into 2.5 cm thick slabs. Set tofu on paper towels, lay more paper towels on top and press to extract any excess moisture. Set aside.",

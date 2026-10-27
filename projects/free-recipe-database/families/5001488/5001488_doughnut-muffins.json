@@ -82,8 +82,9 @@
     },
     {
       "ingredient_id": 1003,
-      "name": "sour cream, at room temperature",
-      "quantity": "6 oz"
+      "name": "sour cream",
+      "quantity": "6 oz",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -92,8 +93,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted, plus more for greasing",
-      "quantity": "4 oz"
+      "name": "unsalted butter, plus more for greasing",
+      "quantity": "4 oz",
+      "prep": "melted"
     },
     {
       "ingredient_id": 1682,
@@ -107,8 +109,9 @@
     },
     {
       "ingredient_id": 3641,
-      "name": "egg yolk, at room temperature",
-      "quantity": "1"
+      "name": "egg yolk",
+      "quantity": "1",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -127,11 +130,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "1 oz"
+      "name": "unsalted butter",
+      "quantity": "1 oz",
+      "prep": "melted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the sour cream to room temperature. Melt the unsalted butter. Bring the egg yolk to room temperature. Melt the unsalted butter.",
+      "secondary_message": "6 oz sour cream\n4 oz unsalted butter, plus more for greasing\n1 egg yolk\n1 oz unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position, and preheat oven to 400°F. Grease a 12-cup muffin pan with butter; set aside.",

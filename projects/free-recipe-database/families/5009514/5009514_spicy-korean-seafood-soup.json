@@ -99,8 +99,9 @@
     },
     {
       "ingredient_id": 2478,
-      "name": "firm tofu, cubed",
-      "quantity": "¼ block"
+      "name": "firm tofu",
+      "quantity": "¼ block",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 2802,
@@ -114,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cube the firm tofu.",
+      "secondary_message": "¼ block firm tofu"
+    },
     {
       "id": 1,
       "primary_message": "Cut fish into 2 inch strips diagonally across grain. Place fish in bowl with sake, sesame oil, chili powder, gochujang paste, and garlic. Toss gently. Leave standing for about 30 minutes.",

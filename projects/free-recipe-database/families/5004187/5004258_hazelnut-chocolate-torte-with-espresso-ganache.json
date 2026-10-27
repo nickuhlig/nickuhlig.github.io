@@ -55,8 +55,9 @@
   "ingredients": [
     {
       "ingredient_id": 121,
-      "name": "eggs, separated",
-      "quantity": "8 large"
+      "name": "eggs",
+      "quantity": "8 large",
+      "prep": "separated"
     },
     {
       "ingredient_id": 346,
@@ -75,8 +76,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "12 tbsp (6 oz)"
+      "name": "unsalted butter",
+      "quantity": "12 tbsp (6 oz)",
+      "prep": "softened"
     },
     {
       "ingredient_id": 88,
@@ -95,8 +97,9 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "170 g"
+      "name": "bittersweet chocolate",
+      "quantity": "170 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1752,
@@ -110,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Separate the eggs. Soften the unsalted butter. Finely chop the bittersweet chocolate.",
+      "secondary_message": "8 large eggs\n12 tbsp (6 oz) unsalted butter\n170 g bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 175°C (350°F). Butter 23-cm springform pan. In food processor, pulse 1 cup sugar with hazelnuts until finely ground.",

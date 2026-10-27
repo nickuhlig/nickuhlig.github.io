@@ -46,13 +46,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, thinly sliced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1747,
@@ -101,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the shallot. Thinly slice the garlic.",
+      "secondary_message": "1 small shallot\n4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "In a medium Dutch oven or large saucepan, melt 1 tablespoon butter over medium-low heat. Add leeks, shallot, garlic, and bay leaves. Season lightly with salt and heavily with black pepper and cook, stirring, until vegetables are very soft but not browned, about 10 minutes.",

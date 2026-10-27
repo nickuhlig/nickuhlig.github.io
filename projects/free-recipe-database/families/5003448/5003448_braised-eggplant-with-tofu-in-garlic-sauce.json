@@ -52,8 +52,9 @@
   "ingredients": [
     {
       "ingredient_id": 18,
-      "name": "Chinese Italian eggplant, cut into 2-inch chunks",
-      "quantity": "2 lb"
+      "name": "Chinese Italian eggplant",
+      "quantity": "2 lb",
+      "prep": "cut into 2-inch chunks"
     },
     {
       "ingredient_id": 1835,
@@ -112,8 +113,9 @@
     },
     {
       "ingredient_id": 1610,
-      "name": "firm silken tofu, cut into 1-inch chunks",
-      "quantity": "1 (12.3 oz) box"
+      "name": "firm silken tofu",
+      "quantity": "1 (12.3 oz) box",
+      "prep": "cut into 1-inch chunks"
     },
     {
       "ingredient_id": 188,
@@ -122,6 +124,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the Chinese Italian eggplant into 2-inch chunks. Cut the firm silken tofu into 1-inch chunks.",
+      "secondary_message": "2 lb Chinese Italian eggplant\n1 (12.3 oz) box firm silken tofu"
+    },
     {
       "id": 1,
       "primary_message": "Place eggplant in a large bamboo steamer and set over a wok filled with 2 inches of water. Bring to a boil over high heat, reduce to a simmer, cover steamer, and cook until eggplant is completely tender, about 10 minutes. Set aside.",

@@ -88,14 +88,16 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely chopped",
+      "name": "yellow onion",
       "quantity": "2 ½ medium",
-      "weigh_as": "10 oz"
+      "weigh_as": "10 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "3 medium"
+      "name": "garlic cloves",
+      "quantity": "3 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 186,
@@ -119,14 +121,16 @@
     },
     {
       "ingredient_id": 93,
-      "name": "dark red kidney beans, undrained",
-      "quantity": "1 (15 oz) can"
+      "name": "dark red kidney beans",
+      "quantity": "1 (15 oz) can",
+      "prep": "undrained"
     },
     {
       "ingredient_id": 142,
-      "name": "peeled and seeded butternut squash, cut into 1/2 inch cubes",
+      "name": "peeled and seeded butternut squash",
       "quantity": "⅓ small",
-      "weigh_as": "10 oz"
+      "weigh_as": "10 oz",
+      "prep": "cut into 1/2 inch cubes"
     },
     {
       "ingredient_id": 133,
@@ -150,6 +154,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the yellow onion. Mince the garlic cloves. Don't drain the dark red kidney beans. Cut the peeled and seeded butternut squash into 1/2 inch cubes.",
+      "secondary_message": "2 ½ medium yellow onion\n3 medium garlic cloves\n1 (15 oz) can dark red kidney beans\n⅓ small peeled and seeded butternut squash"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, toss turkey, 1 tablespoon water, 1/4 teaspoon kosher salt, and baking soda until thoroughly combined. Set aside for 20 minutes.",

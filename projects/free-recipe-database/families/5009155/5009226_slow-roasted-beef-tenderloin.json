@@ -72,11 +72,18 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, roughly sliced",
-      "quantity": "1"
+      "name": "shallot",
+      "quantity": "1",
+      "prep": "roughly sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly slice the shallot.",
+      "secondary_message": "1 shallot"
+    },
     {
       "id": 1,
       "primary_message": "The Day Before: Using butcher's twine, tie tenderloin at 2.5-cm intervals using butcher's knots. Season generously with salt and pepper. Transfer to a wire rack set in a foil-lined rimmed baking sheet and refrigerate uncovered at least overnight and up to 2 nights.",

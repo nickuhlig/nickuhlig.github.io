@@ -52,8 +52,9 @@
     },
     {
       "ingredient_id": 19,
-      "name": "white button, thinly sliced",
-      "quantity": "283 g"
+      "name": "white button",
+      "quantity": "283 g",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -67,8 +68,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely sliced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 1879,
@@ -82,8 +84,9 @@
     },
     {
       "ingredient_id": 1618,
-      "name": "chipotle chilis, canned in adobo sauce, finely chopped",
-      "quantity": "2 tbsp"
+      "name": "chipotle chilis, canned in adobo sauce",
+      "quantity": "2 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2251,
@@ -97,8 +100,9 @@
     },
     {
       "ingredient_id": 1373,
-      "name": "whole pickled jalapeño peppers, stems and seeds removed, cut into strips",
-      "quantity": "3"
+      "name": "whole pickled jalapeño peppers",
+      "quantity": "3",
+      "prep": "stems and seeds removed, cut into strips"
     },
     {
       "ingredient_id": 1624,
@@ -112,11 +116,18 @@
     },
     {
       "ingredient_id": 183,
-      "name": "avocado, sliced",
-      "quantity": "1"
+      "name": "avocado",
+      "quantity": "1",
+      "prep": "sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the white button. Finely slice the garlic. Finely chop the chipotle chilis. Remove the stems and seeds from the whole pickled jalapeño peppers, then cut them into strips. Slice the avocado.",
+      "secondary_message": "283 g white button\n2 medium cloves garlic\n2 tbsp chipotle chilis, canned in adobo sauce\n3 whole pickled jalapeño peppers\n1 avocado"
+    },
     {
       "id": 1,
       "primary_message": "Place poblano peppers directly over flame of a gas burner and cook, turning occasionally, until blackened on all sides, about 10 minutes. Alternatively, broil as close as you can get to broiler element, turning occasionally, until blackened on all sides, about 10 minutes. Transfer to a bowl, cover tightly in plastic wrap, and set aside.",

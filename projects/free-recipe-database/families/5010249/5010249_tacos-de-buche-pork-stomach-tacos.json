@@ -50,13 +50,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, roughly chopped",
-      "quantity": "1"
+      "name": "onion",
+      "quantity": "1",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 82,
@@ -125,6 +127,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the onion. Smash the garlic.",
+      "secondary_message": "1 onion\n4 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Rinse the stomachs in cold water. Place the stomachs in a large bowl and add 3 tablespoons of white vinegar. Wash the stomachs in the water and vinegar by vigorously rubbing the folds of the stomachs against one another. Rinse and repeat.",

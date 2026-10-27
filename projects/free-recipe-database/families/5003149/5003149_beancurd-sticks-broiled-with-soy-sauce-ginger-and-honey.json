@@ -62,11 +62,18 @@
     },
     {
       "ingredient_id": 3003,
-      "name": "dried beancurd, rehydrated in water",
-      "quantity": "8 oz"
+      "name": "dried beancurd",
+      "quantity": "8 oz",
+      "prep": "rehydrated in water"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rehydrate the dried beancurd in water.",
+      "secondary_message": "8 oz dried beancurd"
+    },
     {
       "id": 1,
       "primary_message": "Combine soy sauce, honey, pepper, ginger, and red pepper flakes in a medium bowl and set aside.",

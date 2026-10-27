@@ -109,8 +109,9 @@
     },
     {
       "ingredient_id": 347,
-      "name": "powdered sugar, sifted",
-      "quantity": "1 ⅓ cups"
+      "name": "powdered sugar",
+      "quantity": "1 ⅓ cups",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 1480,
@@ -119,6 +120,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Sift the powdered sugar.",
+      "secondary_message": "1 ⅓ cups powdered sugar"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position. Preheat oven to 350°F. Spray an 8-inch square baking pan with nonstick cooking spray.",

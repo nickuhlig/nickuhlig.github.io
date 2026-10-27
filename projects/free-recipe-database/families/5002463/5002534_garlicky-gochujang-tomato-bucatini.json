@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "1 head"
+      "name": "garlic",
+      "quantity": "1 head",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1527,
@@ -80,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the garlic.",
+      "secondary_message": "1 head garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Pasta: Bring a large pot of salted water to a boil. Cook pasta until al dente, following timing on package's instructions. Reserve 1/2 cup pasta water, then drain.",

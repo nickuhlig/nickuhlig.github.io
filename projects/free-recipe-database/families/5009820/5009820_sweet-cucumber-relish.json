@@ -62,18 +62,21 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onions, quartered",
-      "quantity": "2 medium"
+      "name": "white onions",
+      "quantity": "2 medium",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell peppers, seeded",
-      "quantity": "2 medium"
+      "name": "red bell peppers",
+      "quantity": "2 medium",
+      "prep": "seeded"
     },
     {
       "ingredient_id": 291,
-      "name": "green bell peppers, seeded",
-      "quantity": "1 large"
+      "name": "green bell peppers",
+      "quantity": "1 large",
+      "prep": "seeded"
     },
     {
       "ingredient_id": 88,
@@ -102,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Quarter the white onions. Seed the red bell peppers. Seed the green bell peppers.",
+      "secondary_message": "2 medium white onions\n2 medium red bell peppers\n1 large green bell peppers"
+    },
     {
       "id": 1,
       "primary_message": "Grate the cucumbers using the grating disc of a food processor, or the medium-sized holes of a box grater. Use the steel blade of the food processor to pulse cucumbers until finely chopped. Repeat with onions and both peppers.",

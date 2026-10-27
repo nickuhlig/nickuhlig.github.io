@@ -58,18 +58,21 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, thinly sliced",
-      "quantity": "2 large"
+      "name": "shallots",
+      "quantity": "2 large",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 1720,
-      "name": "celery rib, thinly sliced",
-      "quantity": "1"
+      "name": "celery rib",
+      "quantity": "1",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 323,
@@ -98,8 +101,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely minced",
-      "quantity": "1 large"
+      "name": "shallot",
+      "quantity": "1 large",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 116,
@@ -143,6 +147,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the shallots. Smash the garlic. Thinly slice the celery rib. Finely mince the shallot.",
+      "secondary_message": "2 large shallots\n4 medium cloves garlic\n1 celery rib\n1 large shallot"
+    },
     {
       "id": 1,
       "primary_message": "On a work surface, kill each lobster by pressing the tip of a heavy chef's knife in the crack just behind the eyes in the center of the carapace, pressing down to split the head in half.",

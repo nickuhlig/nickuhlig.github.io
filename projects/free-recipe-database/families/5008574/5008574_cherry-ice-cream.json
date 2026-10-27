@@ -65,8 +65,9 @@
   "ingredients": [
     {
       "ingredient_id": 2216,
-      "name": "whole cherries, washed and stemmed but not pitted",
-      "quantity": "3 ½ lb"
+      "name": "whole cherries",
+      "quantity": "3 ½ lb",
+      "prep": "washed and stemmed but not pitted"
     },
     {
       "ingredient_id": 346,
@@ -90,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash and stem the whole cherries but not pitted.",
+      "secondary_message": "3 ½ lb whole cherries"
+    },
     {
       "id": 1,
       "primary_message": "For Oven-Roasted Cherries: Adjust oven rack to middle position and preheat to 450°F. Combine cherries and sugar in a deep, 10-inch stainless steel skillet. Roast, stirring occasionally, until cherries are wilted, tender, and juicy, about 40 minutes.",

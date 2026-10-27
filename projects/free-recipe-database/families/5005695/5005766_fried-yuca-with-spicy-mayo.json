@@ -78,8 +78,9 @@
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño pepper, stems and seeds removed, roughly chopped",
-      "quantity": "1"
+      "name": "jalapeño pepper",
+      "quantity": "1",
+      "prep": "stems and seeds removed, roughly chopped"
     },
     {
       "ingredient_id": 188,
@@ -98,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the stems and seeds from the jalapeño pepper, then roughly chop it.",
+      "secondary_message": "1 jalapeño pepper"
+    },
     {
       "id": 1,
       "primary_message": "Peel yuca, split in half crosswise, and cut into 1.5 to 2-cm thick batons. Place in a pot and cover with cold water by 5 cm. Season well with salt. Bring to a boil over high heat, reduce to a simmer, and cook until tender and yuca is starting to fray, about 15 minutes. Drain.",

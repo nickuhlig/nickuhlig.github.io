@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 2380,
-      "name": "easy pie dough, shaped and chilled in a pie plate",
-      "quantity": ""
+      "name": "easy pie dough",
+      "quantity": "",
+      "prep": "shaped and chilled in a pie plate"
     },
     {
       "ingredient_id": 118,
@@ -86,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shape and chill the easy pie dough in a pie plate.",
+      "secondary_message": "easy pie dough"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 220°C (425°F). Line the bottom and sides of the chilled, shaped pie crust with parchment or foil and fill with pie weights (I re-use dried beans for this purpose). On the bottom rack of the oven, bake the shell for 20 minutes rotating halfway through, then remove the weights and liner and bake for an additional 10 minutes, or until the bottom of the pie is golden brown. Remove the shell from the oven and allow it to cool completely.",

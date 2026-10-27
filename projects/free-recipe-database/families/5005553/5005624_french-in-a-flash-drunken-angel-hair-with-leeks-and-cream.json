@@ -70,8 +70,9 @@
     },
     {
       "ingredient_id": 2421,
-      "name": "chervil, chopped",
-      "quantity": "1 tbsp"
+      "name": "chervil",
+      "quantity": "1 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 88,
@@ -85,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the chervil.",
+      "secondary_message": "1 tbsp chervil"
+    },
     {
       "id": 1,
       "primary_message": "In a wide, preferably nonstick sauté pan, melt the butter in 1/4 cup water on medium-high heat. Add the leeks and cover with a lid, lowering the heat all the way down. Cook until soft and spaghetti-like, about 20 minutes, adding water whenever the pan gets too dry, to avoid burning the leeks, and conversely evaporating off any extra liquid once the leeks are soft and sweet.",

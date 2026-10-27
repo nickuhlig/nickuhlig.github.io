@@ -54,8 +54,9 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, melted",
-      "quantity": "4 oz"
+      "name": "bittersweet chocolate",
+      "quantity": "4 oz",
+      "prep": "melted"
     },
     {
       "ingredient_id": 118,
@@ -129,6 +130,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the bittersweet chocolate.",
+      "secondary_message": "4 oz bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "For the Crust: Combine all ingredients for crust in the food processor. Pulse until completely combined. Pour contents into a spring form pan and press with your fingers to form a crust that comes up 2 inches around the edge. Chill in refrigerator until ready to use.",

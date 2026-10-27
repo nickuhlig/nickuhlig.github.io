@@ -65,13 +65,15 @@
     },
     {
       "ingredient_id": 264,
-      "name": "cornstarch, mixed with 1/4 cup water to form a paste",
-      "quantity": "5 tbsp"
+      "name": "cornstarch",
+      "quantity": "5 tbsp",
+      "prep": "mixed with 1/4 cup water to form a paste"
     },
     {
       "ingredient_id": 3642,
-      "name": "egg whites, lightly beaten",
-      "quantity": "4"
+      "name": "egg whites",
+      "quantity": "4",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 1086,
@@ -85,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mix the cornstarch with 1/4 cup water to form a paste. Lightly beat the egg whites.",
+      "secondary_message": "5 tbsp cornstarch\n4 egg whites"
+    },
     {
       "id": 1,
       "primary_message": "In a medium-sized mixing bowl, combine meat with 1 teaspoon salt, soy sauce, and rice wine and set aside.",

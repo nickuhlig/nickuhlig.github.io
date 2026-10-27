@@ -40,23 +40,27 @@
     },
     {
       "ingredient_id": 2950,
-      "name": "sausage, cases removed and crumbled",
-      "quantity": "0.34 kg"
+      "name": "sausage",
+      "quantity": "0.34 kg",
+      "prep": "cases removed and crumbled"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 150,
-      "name": "whole red pepper, finely chopped",
-      "quantity": "1"
+      "name": "whole red pepper",
+      "quantity": "1",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 291,
-      "name": "green pepper, finely chopped",
-      "quantity": "½"
+      "name": "green pepper",
+      "quantity": "½",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 88,
@@ -90,8 +94,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely chopped",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 121,
@@ -105,8 +110,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, melted",
-      "quantity": "4 tbsp"
+      "name": "butter",
+      "quantity": "4 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 153,
@@ -115,6 +121,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the cases from the sausage, then crumble it. Finely chop the onion. Finely chop the whole red pepper. Finely chop the green pepper. Finely chop the garlic. Melt the butter.",
+      "secondary_message": "0.34 kg sausage\n1 medium onion\n1 whole red pepper\n½ green pepper\n1 medium clove garlic\n4 tbsp butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat to 95°C (200°F). Heat 1 tablespoon vegetable oil in a large stainless steel skillet over medium high heat until shimmering then add crumbled sausage. Cook, stirring, until sausage is browned and no longer pink, about 5 minutes. Drain all but about 1 tablespoon fat. Add onion and peppers. Cook until onions are beginning to soften, about 4 minutes. Season to taste with salt and pepper. Transfer to a bowl and keep warm.",

@@ -52,8 +52,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, soft but cool, about 60°F",
-      "quantity": "113 g"
+      "name": "unsalted butter",
+      "quantity": "113 g",
+      "prep": "soft but cool, about 60°F"
     },
     {
       "ingredient_id": 129,
@@ -62,8 +63,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, brought to about 65°F",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "brought to about 65°F"
     },
     {
       "ingredient_id": 353,
@@ -97,11 +99,18 @@
     },
     {
       "ingredient_id": 462,
-      "name": "sweetened coconut flakes, lightly toasted",
-      "quantity": "195 g"
+      "name": "sweetened coconut flakes",
+      "quantity": "195 g",
+      "prep": "lightly toasted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Let the unsalted butter soften slightly but keep it cool and bring it to 60°F. Bring the eggs to about 65°F. Lightly toast the sweetened coconut flakes.",
+      "secondary_message": "113 g unsalted butter\n3 large eggs\n195 g sweetened coconut flakes"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Adjust oven rack to lower-middle position and preheat to 180°C (350°F). Lightly grease three 20-cm anodized aluminum cake pans and line with parchment (explanation and tutorial here). If you don’t have three pans, it’s okay to bake the cakes in stages; the batter will keep at room temperature until it's needed.",

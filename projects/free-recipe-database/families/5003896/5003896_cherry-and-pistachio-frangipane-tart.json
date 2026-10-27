@@ -48,8 +48,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, brought to about 70°F",
-      "quantity": "1 ½ oz"
+      "name": "unsalted butter",
+      "quantity": "1 ½ oz",
+      "prep": "brought to about 70°F"
     },
     {
       "ingredient_id": 2120,
@@ -63,13 +64,15 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, brought to roughly 70°F",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "brought to roughly 70°F"
     },
     {
       "ingredient_id": 1752,
-      "name": "heavy cream, brought to roughly 70°F",
-      "quantity": "1 oz"
+      "name": "heavy cream",
+      "quantity": "1 oz",
+      "prep": "brought to roughly 70°F"
     },
     {
       "ingredient_id": 121,
@@ -93,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to about 70°F. Bring the egg to roughly 70°F. Bring the heavy cream to roughly 70°F.",
+      "secondary_message": "1 ½ oz unsalted butter\n1 large egg\n1 oz heavy cream"
+    },
     {
       "id": 1,
       "primary_message": "Getting Ready: Pit cherries and slice each in half. The prepared fruit (you should have approximately 10 ounces or 285g) can be refrigerated in an airtight container for up to 24 hours (see note). If desired, reserve pits to make Cherry Pit Whipped Cream; the cream and cherry pits will need to infuse at least 4 hours prior to whipping, a final step that can be accomplished while the baked tart is cooling.",

@@ -49,8 +49,9 @@
   "ingredients": [
     {
       "ingredient_id": 338,
-      "name": "dried red lentils, rinsed and drained",
-      "quantity": "1 cup"
+      "name": "dried red lentils",
+      "quantity": "1 cup",
+      "prep": "rinsed and drained"
     },
     {
       "ingredient_id": 359,
@@ -69,8 +70,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, diced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 47,
@@ -94,8 +96,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, thinly sliced, plus more for garnish",
-      "quantity": "3"
+      "name": "scallions, plus more for garnish",
+      "quantity": "3",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 106,
@@ -104,6 +107,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse and drain the dried red lentils. Dice the yellow onion. Thinly slice the scallions.",
+      "secondary_message": "1 cup dried red lentils\n1 medium yellow onion\n3 scallions, plus more for garnish"
+    },
     {
       "id": 1,
       "primary_message": "In a medium sauce pan, add red lentils, 3 cups water and 1 teaspoon kosher salt. Bring to boil over high heat, then reduce to medium heat and simmer, with lid ajar, until lentils are fully cooked, slightly broken, and mushy, 20 to 25 minutes.",

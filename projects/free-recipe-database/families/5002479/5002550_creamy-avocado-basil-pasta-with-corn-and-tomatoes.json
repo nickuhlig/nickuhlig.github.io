@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 183,
-      "name": "ripe Hass avocados, pitted, peeled, and chopped",
-      "quantity": "4 medium"
+      "name": "ripe Hass avocados",
+      "quantity": "4 medium",
+      "prep": "pitted, peeled, and chopped"
     },
     {
       "ingredient_id": 1742,
@@ -76,8 +77,9 @@
     },
     {
       "ingredient_id": 2021,
-      "name": "serrano chile, stemmed, seeded, and chopped",
-      "quantity": "1"
+      "name": "serrano chile",
+      "quantity": "1",
+      "prep": "stemmed, seeded, and chopped"
     },
     {
       "ingredient_id": 24,
@@ -86,8 +88,9 @@
     },
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, halved",
-      "quantity": "0.34 kg"
+      "name": "cherry tomatoes",
+      "quantity": "0.34 kg",
+      "prep": "halved"
     },
     {
       "ingredient_id": 303,
@@ -101,6 +104,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pit, peel, and chop the ripe Hass avocados. Stem, seed, and chop the serrano chile. Halve the cherry tomatoes.",
+      "secondary_message": "4 medium ripe Hass avocados\n1 serrano chile\n0.34 kg cherry tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "Bring a large pot of salted water to a boil. Cook pasta until al dente according to the package's instructions. Reserve 1 cup pasta water, then drain. Allow pasta to cool slightly, about 5 minutes.",

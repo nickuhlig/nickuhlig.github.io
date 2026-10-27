@@ -38,8 +38,9 @@
   "ingredients": [
     {
       "ingredient_id": 2196,
-      "name": "daikon radish, about 2 inches wide, peeled",
-      "quantity": "1 (6 inch) piece"
+      "name": "daikon radish, about 2 inches wide",
+      "quantity": "1 (6 inch) piece",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 1800,
@@ -89,8 +90,9 @@
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño pepper, split in half",
-      "quantity": "1"
+      "name": "jalapeño pepper",
+      "quantity": "1",
+      "prep": "split in half"
     },
     {
       "ingredient_id": 340,
@@ -119,6 +121,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the daikon radish. Split the jalapeño pepper in half.",
+      "secondary_message": "1 (6 inch) piece daikon radish, about 2 inches wide\n1 jalapeño pepper"
+    },
     {
       "id": 1,
       "primary_message": "Cut daikon into twelve 1/2-inch slices. Combine sake, mirin, soy, 2 tablespoons sugar, 1/2 cup water, and kombu (if using) in a medium saucepan. Add daikon slices and shiitake. Bring to a boil over high heat. Reduce to a bare simmer. Cover and cook, turning and rotating daikon occasinally until daikon is completely tender and colored all the way through, about 30 minutes. Transfer daikon and mushrooms to a paper towel-lined plate to drain. Return remaining liquid to a gently boil over medium heat and cook until reduced to 1/4 cup, about 10 minutes. Set aside.",

@@ -37,8 +37,9 @@
     },
     {
       "ingredient_id": 27,
-      "name": "fresh corn, husks and silks removed",
-      "quantity": "5 ears"
+      "name": "fresh corn",
+      "quantity": "5 ears",
+      "prep": "husks and silks removed"
     },
     {
       "ingredient_id": 47,
@@ -47,13 +48,15 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, chopped",
-      "quantity": "1"
+      "name": "red onion",
+      "quantity": "1",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely chopped",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 88,
@@ -77,6 +80,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the husks and silks from the fresh corn. Chop the red onion. Finely chop the garlic.",
+      "secondary_message": "5 ears fresh corn\n1 red onion\n2 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to upper middle position and preheat oven to 375°F.",

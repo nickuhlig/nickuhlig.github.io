@@ -77,8 +77,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 115,
@@ -107,11 +108,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "1 tbsp"
+      "name": "unsalted butter",
+      "quantity": "1 tbsp",
+      "prep": "melted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Melt the unsalted butter.",
+      "secondary_message": "2 tbsp unsalted butter\n1 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Make crepes: Place milk, water, eggs, and salt into the bowl of a food processor or blender and pulse five times to combine. Add flour and butter and blend 1 minute. Place batter in refrigerator and chill for two hours.",

@@ -48,8 +48,9 @@
   "ingredients": [
     {
       "ingredient_id": 1986,
-      "name": "bone-in chicken pieces, skin removed",
-      "quantity": "2.27 kg"
+      "name": "bone-in chicken pieces",
+      "quantity": "2.27 kg",
+      "prep": "skin removed"
     },
     {
       "ingredient_id": 186,
@@ -108,13 +109,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, thinly sliced",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1294,
-      "name": "whole peeled tomatoes, roughly mashed",
-      "quantity": "1 (794 g) can"
+      "name": "whole peeled tomatoes",
+      "quantity": "1 (794 g) can",
+      "prep": "roughly mashed"
     },
     {
       "ingredient_id": 188,
@@ -128,6 +131,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the skin from the bone-in chicken pieces. Thinly slice the onion. Roughly mash the whole peeled tomatoes.",
+      "secondary_message": "2.27 kg bone-in chicken pieces\n1 large onion\n1 (794 g) can whole peeled tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "Place chicken pieces on a cutting board flesh-side up. Score deeply at 2.5-cm intervals with a sharp knife. Place in a large rimmed baking dish.",

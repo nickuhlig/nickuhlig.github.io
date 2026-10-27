@@ -42,13 +42,15 @@
   "ingredients": [
     {
       "ingredient_id": 1019,
-      "name": "full-size graham crackers, pulverized to crumbs",
-      "quantity": "8"
+      "name": "full-size graham crackers",
+      "quantity": "8",
+      "prep": "pulverized to crumbs"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "4 tbsp"
+      "name": "unsalted butter",
+      "quantity": "4 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 2183,
@@ -87,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pulverize the full-size graham crackers to crumbs. Melt the unsalted butter.",
+      "secondary_message": "8 full-size graham crackers\n4 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Make the crust: Preheat the oven to 350°F. Combine the graham cracker crumbs and melted butter in a bowl and stir to combine. Press the mixture evenly into the bottom and sides of the pie plate. Bake for 15 minutes, until the crust gets slightly browned. Allow the crust to cool completely.",

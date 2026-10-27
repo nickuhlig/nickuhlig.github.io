@@ -60,13 +60,15 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 119,
-      "name": "panko bread crumbs, roughly crushed by hand if large",
-      "quantity": "2 cups"
+      "name": "panko bread crumbs",
+      "quantity": "2 cups",
+      "prep": "roughly crushed by hand if large"
     },
     {
       "ingredient_id": 120,
@@ -75,8 +77,9 @@
     },
     {
       "ingredient_id": 44,
-      "name": "boneless skinless chicken cutlets, pounded to about 1/4 inch thick",
-      "quantity": "8"
+      "name": "boneless skinless chicken cutlets",
+      "quantity": "8",
+      "prep": "pounded to about 1/4 inch thick"
     },
     {
       "ingredient_id": 88,
@@ -120,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Beat the eggs. Roughly crush the panko bread crumbs by hand if large. Pound the boneless skinless chicken cutlets to about 1/4 inch thick.",
+      "secondary_message": "3 large eggs\n2 cups panko bread crumbs\n8 boneless skinless chicken cutlets"
+    },
     {
       "id": 1,
       "primary_message": "Set 3 wide, shallow bowls on a work surface. Add flour to the first one, beaten eggs to the second, and panko and Parmesan cheese to the third. Mix panko and Parmesan thoroughly.",

@@ -44,13 +44,15 @@
     },
     {
       "ingredient_id": 2744,
-      "name": "full-fat yogurt, room temperature",
-      "quantity": "½ cup"
+      "name": "full-fat yogurt",
+      "quantity": "½ cup",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, room temperature",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 1580,
@@ -89,8 +91,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 115,
@@ -114,6 +117,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the full-fat yogurt to room temperature. Bring the eggs to room temperature. Melt the unsalted butter.",
+      "secondary_message": "½ cup full-fat yogurt\n2 large eggs\n2 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the dough: In a large bowl, heat the butter in the microwave at medium power until it is just melted. Add the yogurt, eggs, yeast, kosher salt, and sugar and whisk until the ingredients are well combined. Add the flour and stir with a wooden spoon until the dough forms a ball. Transfer to the bowl of a standing mixer fitted with a dough hook attachment and knead on low speed for 10 minutes, adding flour as necessary until the dough just barely pulls away from the sides of the bowl. Transfer to a large greased bowl, cover with plastic wrap, and allow the dough to rise until doubled in volume, about 2 hours.",

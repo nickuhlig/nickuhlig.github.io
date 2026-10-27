@@ -62,8 +62,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, separated",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "separated"
     },
     {
       "ingredient_id": 2475,
@@ -77,8 +78,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted, plus more for serving",
-      "quantity": "4 tbsp"
+      "name": "unsalted butter, plus more for serving",
+      "quantity": "4 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 1707,
@@ -87,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Separate the eggs. Melt the unsalted butter.",
+      "secondary_message": "2 large eggs\n4 tbsp unsalted butter, plus more for serving"
+    },
     {
       "id": 1,
       "primary_message": "For the Dry Pancake Mix: Combine flour, baking powder, baking soda, salt, and sugar in a medium bowl and whisk until homogenous. Transfer to an airtight container. The mix will stay good for 3 months. (See note.)",

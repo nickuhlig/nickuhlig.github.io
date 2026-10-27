@@ -47,9 +47,10 @@
   "ingredients": [
     {
       "ingredient_id": 143,
-      "name": "sweet potatoes, washed, scrubbed, and dried",
+      "name": "sweet potatoes, and dried",
       "quantity": "1 ¼ lb",
-      "weigh_as": "4 medium"
+      "weigh_as": "4 medium",
+      "prep": "washed, scrubbed"
     },
     {
       "ingredient_id": 1007,
@@ -58,8 +59,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, diced",
-      "quantity": "4 tbsp"
+      "name": "unsalted butter",
+      "quantity": "4 tbsp",
+      "prep": "diced"
     },
     {
       "ingredient_id": 88,
@@ -73,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash and scrub the sweet potatoes. Dice the unsalted butter.",
+      "secondary_message": "1 ¼ lb sweet potatoes, and dried\n4 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat to 375ºF (190ºC). Using a fork or paring knife, puncture sweet potatoes in several spots. Rub each sweet potato all over with a light coating of oil. Arrange on a wire rack set on a rimmed baking sheet and bake until a fork can easily be inserted into the center of each sweet potato and skin is crisp and lightly browned, about 1 hour 15 minutes.",

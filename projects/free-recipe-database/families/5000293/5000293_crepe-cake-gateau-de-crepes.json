@@ -111,8 +111,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "5 tbsp"
+      "name": "unsalted butter",
+      "quantity": "5 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 88,
@@ -151,8 +152,9 @@
     },
     {
       "ingredient_id": 347,
-      "name": "powdered sugar, sifted",
-      "quantity": "¼ cup"
+      "name": "powdered sugar",
+      "quantity": "¼ cup",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 1809,
@@ -166,6 +168,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Sift the powdered sugar.",
+      "secondary_message": "5 tbsp unsalted butter\n¼ cup powdered sugar"
+    },
     {
       "id": 1,
       "primary_message": "For the Crêpe Batter: Place eggs, milk, flour, sugar, melted butter, and salt in a blender. Start blender on low speed and increase to high. Blend until smooth, about 1 minute. Cover blender with plastic wrap, and refrigerate for at least 2 hours or up to 24 hours. (Leaving the batter in the blender will help with portioning the batter during cooking.)",

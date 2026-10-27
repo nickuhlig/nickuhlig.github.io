@@ -76,13 +76,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into large chunks",
-      "quantity": "16 tbsp"
+      "name": "unsalted butter",
+      "quantity": "16 tbsp",
+      "prep": "cut into large chunks"
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, cut into large chunks",
-      "quantity": "227 g"
+      "name": "cream cheese",
+      "quantity": "227 g",
+      "prep": "cut into large chunks"
     },
     {
       "ingredient_id": 3317,
@@ -96,8 +98,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten with 1 teaspoon water",
-      "quantity": "1"
+      "name": "egg",
+      "quantity": "1",
+      "prep": "beaten with 1 teaspoon water"
     },
     {
       "ingredient_id": 346,
@@ -106,6 +109,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into large chunks. Cut the cream cheese into large chunks. Beat the egg with 1 teaspoon water.",
+      "secondary_message": "16 tbsp unsalted butter\n227 g cream cheese\n1 egg"
+    },
     {
       "id": 1,
       "primary_message": "Make Dough: In a medium bowl, whisk together flour, cinnamon, nutmeg, cloves, ginger, allspice, and salt; set aside.",

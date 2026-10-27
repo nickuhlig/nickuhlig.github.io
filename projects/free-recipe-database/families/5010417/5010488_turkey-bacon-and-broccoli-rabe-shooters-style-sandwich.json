@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 2740,
-      "name": "hearty pumpernickel bread, un-sliced",
-      "quantity": "1 loaf"
+      "name": "hearty pumpernickel bread",
+      "quantity": "1 loaf",
+      "prep": "un-sliced"
     },
     {
       "ingredient_id": 302,
@@ -51,8 +52,9 @@
     },
     {
       "ingredient_id": 1675,
-      "name": "broccoli rabe, trimmed and washed",
-      "quantity": "1 bunch"
+      "name": "broccoli rabe",
+      "quantity": "1 bunch",
+      "prep": "trimmed and washed"
     },
     {
       "ingredient_id": 47,
@@ -61,8 +63,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "16 cloves"
+      "name": "garlic",
+      "quantity": "16 cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1721,
@@ -86,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Leave the hearty pumpernickel bread unsliced. Trim and wash the broccoli rabe. Thinly slice the garlic.",
+      "secondary_message": "1 loaf hearty pumpernickel bread\n1 bunch broccoli rabe\n16 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center position and preheat oven to 205°C (400°F). Slice off the top 2.5 to 4-cm of the loaf of bread using a bread knife. Cut around the perimeter of the interior crumb, making sure not to break through the bottom crust, then use your hand to lift out the excess bread from the inside, leaving you with a hollow bread boat.",

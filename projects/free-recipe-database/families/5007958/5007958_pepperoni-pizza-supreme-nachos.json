@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, chopped",
-      "quantity": "12 oz"
+      "name": "cherry tomatoes",
+      "quantity": "12 oz",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 82,
@@ -70,18 +71,21 @@
     },
     {
       "ingredient_id": 1387,
-      "name": "pepperoni, sliced thin",
-      "quantity": "6 oz"
+      "name": "pepperoni",
+      "quantity": "6 oz",
+      "prep": "sliced thin"
     },
     {
       "ingredient_id": 150,
-      "name": "sweet peppers, seeded and sliced thin",
-      "quantity": "2"
+      "name": "sweet peppers",
+      "quantity": "2",
+      "prep": "seeded and sliced thin"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, sliced thin",
-      "quantity": "1 small"
+      "name": "red onion",
+      "quantity": "1 small",
+      "prep": "sliced thin"
     },
     {
       "ingredient_id": 1534,
@@ -90,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the cherry tomatoes. Slice the pepperoni thin. Seed and slice the sweet peppers thin. Slice the red onion thin.",
+      "secondary_message": "12 oz cherry tomatoes\n6 oz pepperoni\n2 sweet peppers\n1 small red onion"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat to 375°F. Scatter chips in 13- by 9-inch baking dish. Stir tomato paste, tomatoes, oregano, and 3/4 teaspoon salt in bowl to combine.",

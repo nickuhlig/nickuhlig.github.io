@@ -37,8 +37,9 @@
   "ingredients": [
     {
       "ingredient_id": 2478,
-      "name": "firm tofu, cut into slices 1-inch thick",
-      "quantity": "1 (14 to 16 oz) pkg"
+      "name": "firm tofu",
+      "quantity": "1 (14 to 16 oz) pkg",
+      "prep": "cut into slices 1-inch thick"
     },
     {
       "ingredient_id": 1007,
@@ -72,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the firm tofu into slices 1-inch thick.",
+      "secondary_message": "1 (14 to 16 oz) pkg firm tofu"
+    },
     {
       "id": 1,
       "primary_message": "Preheat waffle iron. If it has temperature controls, set it to medium. Place tofu slices on paper towels, top with more paper towels, and press gently but firmly to remove excess moisture.",

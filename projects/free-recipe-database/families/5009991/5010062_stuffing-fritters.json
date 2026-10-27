@@ -92,8 +92,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, lightly beaten",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 346,
@@ -122,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly beat the eggs.",
+      "secondary_message": "2 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Melt butter in a 30-cm skillet over medium heat. When foaming subsides, add onions, apple, and celery. Cook, stirring occasionally, until onions, apple, and celery have softened, but not browned, about 7 minutes. Stir in sage and thyme and cook until fragrant, about 30 seconds. Remove from heat and season with salt and pepper to taste.",

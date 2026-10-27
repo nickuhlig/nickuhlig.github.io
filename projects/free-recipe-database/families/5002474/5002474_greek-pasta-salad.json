@@ -73,8 +73,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated or minced",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "grated or minced"
     },
     {
       "ingredient_id": 82,
@@ -98,33 +99,39 @@
     },
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, halved",
-      "quantity": "¾ lb"
+      "name": "cherry tomatoes",
+      "quantity": "¾ lb",
+      "prep": "halved"
     },
     {
       "ingredient_id": 1399,
-      "name": "Persian cucumbers, chopped",
-      "quantity": "3 medium"
+      "name": "Persian cucumbers",
+      "quantity": "3 medium",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2100,
-      "name": "pitted mixed Greek olives, halved",
-      "quantity": "1 cup"
+      "name": "pitted mixed Greek olives",
+      "quantity": "1 cup",
+      "prep": "halved"
     },
     {
       "ingredient_id": 1253,
-      "name": "jarred sliced pepperoncini peppers, drained",
-      "quantity": "¾ cup"
+      "name": "jarred sliced pepperoncini peppers",
+      "quantity": "¾ cup",
+      "prep": "drained"
     },
     {
       "ingredient_id": 1624,
-      "name": "sliced pickled red onions, roughly chopped",
-      "quantity": "⅓ cup"
+      "name": "sliced pickled red onions",
+      "quantity": "⅓ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 32,
-      "name": "block feta cheese packed in brine, crumbled",
-      "quantity": "8 oz"
+      "name": "block feta cheese packed in brine",
+      "quantity": "8 oz",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 320,
@@ -133,6 +140,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate or mince the garlic. Halve the cherry tomatoes. Chop the Persian cucumbers. Halve the pitted mixed Greek olives. Drain the jarred sliced pepperoncini peppers. Roughly chop the sliced pickled red onions. Crumble the block feta cheese packed in brine.",
+      "secondary_message": "1 medium clove garlic\n¾ lb cherry tomatoes\n3 medium Persian cucumbers\n1 cup pitted mixed Greek olives\n¾ cup jarred sliced pepperoncini peppers\n⅓ cup sliced pickled red onions\n8 oz block feta cheese packed in brine"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, whisk oil, red wine vinegar, lemon juice, Dijon mustard, honey, garlic, oregano, 1 1/2 teaspoons kosher salt, and pepper until combined; set aside.",

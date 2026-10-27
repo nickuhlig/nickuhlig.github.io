@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 18,
-      "name": "globe eggplant, cut into 3/4-inch dice",
-      "quantity": "1 small"
+      "name": "globe eggplant",
+      "quantity": "1 small",
+      "prep": "cut into 3/4-inch dice"
     },
     {
       "ingredient_id": 88,
@@ -75,18 +76,21 @@
     },
     {
       "ingredient_id": 157,
-      "name": "celery, finely diced",
-      "quantity": "1 rib"
+      "name": "celery",
+      "quantity": "1 rib",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell pepper, cut into 1/2-inch dice",
-      "quantity": "1"
+      "name": "red bell pepper",
+      "quantity": "1",
+      "prep": "cut into 1/2-inch dice"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 243,
@@ -115,8 +119,9 @@
     },
     {
       "ingredient_id": 15,
-      "name": "capers, drained and rinsed",
-      "quantity": "2 tbsp"
+      "name": "capers",
+      "quantity": "2 tbsp",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 346,
@@ -135,6 +140,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the globe eggplant into 3/4-inch dice. Finely dice the celery. Cut the red bell pepper into 1/2-inch dice. Thinly slice the garlic. Drain and rinse the capers.",
+      "secondary_message": "1 small globe eggplant\n1 rib celery\n1 red bell pepper\n4 medium cloves garlic\n2 tbsp capers"
+    },
     {
       "id": 1,
       "primary_message": "Toss pine nuts with 1 teaspoon olive oil and transfer to a large plate. Toast by microwaving on high power for 2 minutes. Continue microwaving at 30-second intervals until golden brown and nutty, 3 to 8 minutes total. Alternatively, toast in a toaster oven set at 375°F until golden brown and nutty, about 15 minutes. Set aside.",

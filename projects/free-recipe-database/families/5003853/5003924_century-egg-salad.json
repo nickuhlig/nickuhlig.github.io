@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 121,
-      "name": "preserved eggs, peeled, rinsed, quartered lengthwise",
-      "quantity": "2"
+      "name": "preserved eggs",
+      "quantity": "2",
+      "prep": "peeled, rinsed, quartered lengthwise"
     },
     {
       "ingredient_id": 1044,
@@ -81,18 +82,21 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, sliced",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 1762,
-      "name": "red Thai chile, sliced",
-      "quantity": "1"
+      "name": "red Thai chile",
+      "quantity": "1",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 153,
-      "name": "scallion, sliced",
-      "quantity": "1"
+      "name": "scallion",
+      "quantity": "1",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 188,
@@ -101,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel, rinse, and quarter the preserved eggs lengthwise. Slice the garlic. Slice the red Thai chile. Slice the scallion.",
+      "secondary_message": "2 preserved eggs\n1 medium clove garlic\n1 red Thai chile\n1 scallion"
+    },
     {
       "id": 1,
       "primary_message": "Arrange preserved eggs on a plate. In a medium bowl, whisk vegetable oil, soy sauce, rice vinegar, sesame oil, salt, sugar, and garlic. Pour over eggs and sprinkle with chile, scallion, and cilantro. Serve.",

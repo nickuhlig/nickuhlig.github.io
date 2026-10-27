@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "1 oz"
+      "name": "unsalted butter",
+      "quantity": "1 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 359,
@@ -65,11 +66,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into 1/2-inch thick pieces",
-      "quantity": "4 ¼ oz"
+      "name": "cold unsalted butter",
+      "quantity": "4 ¼ oz",
+      "prep": "cut into 1/2-inch thick pieces"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter. Cut the cold unsalted butter into 1/2-inch thick pieces.",
+      "secondary_message": "1 oz unsalted butter\n4 ¼ oz cold unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Détrempe: In a large bowl, whisk bread flour, sugar, and salt to combine. Add butter to flour mixture and toss with fingers until butter pieces are thoroughly coated with flour mixture. Using your fingertips, pinch and flatten butter, then rub it between your fingertips until a sandy texture forms, 3 to 4 minutes.",

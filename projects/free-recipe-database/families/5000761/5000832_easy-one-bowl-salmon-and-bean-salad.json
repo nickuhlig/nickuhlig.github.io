@@ -35,8 +35,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, halved",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "halved"
     },
     {
       "ingredient_id": 24,
@@ -50,13 +51,15 @@
     },
     {
       "ingredient_id": 157,
-      "name": "celery stalks, finely diced, divided",
-      "quantity": "2 stalks"
+      "name": "celery stalks, divided",
+      "quantity": "2 stalks",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, peeled",
-      "quantity": "1"
+      "name": "carrot",
+      "quantity": "1",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 1747,
@@ -75,8 +78,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, halved and juiced",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "halved and juiced"
     },
     {
       "ingredient_id": 1480,
@@ -90,13 +94,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, minced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1932,
-      "name": "dill, minced",
-      "quantity": "1 tbsp"
+      "name": "dill",
+      "quantity": "1 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 72,
@@ -116,6 +122,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the yellow onion. Finely dice the celery stalks. Peel the carrot. Halve and juice the lemon. Mince the shallot. Mince the dill.",
+      "secondary_message": "1 medium yellow onion\n2 stalks celery stalks, divided\n1 carrot\n1 lemon\n1 small shallot\n1 tbsp dill"
+    },
     {
       "id": 1,
       "primary_message": "For the Beans (see note): In a large bowl, cover beans by at least 10 cm water and let soak overnight. The next day, drain, transfer beans to a large pot, and cover with at least 5 cm of fresh cold water. Add halved onion, garlic, 1 celery stalk, carrot, and 1 bay leaf to pot. Season with salt. Bring to a gentle simmer over medium-high heat, then lower heat to maintain gentle simmer. Cook until beans are fully tender, about 45 minutes. (Bean cooking time will vary depending on age and exact type of bean; taste every 5 minutes until done.) Set aside to cool.",

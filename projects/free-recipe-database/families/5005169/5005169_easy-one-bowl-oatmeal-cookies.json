@@ -58,8 +58,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, cold",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "cold"
     },
     {
       "ingredient_id": 293,
@@ -103,6 +104,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the egg cold until you use it.",
+      "secondary_message": "1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position, preheat to 350°F, and line 2 rimmed baking sheets with parchment (not wax paper).",

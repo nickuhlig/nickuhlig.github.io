@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 2691,
-      "name": "green plantains, peeled and cut into 1-inch chunks",
-      "quantity": "4"
+      "name": "green plantains",
+      "quantity": "4",
+      "prep": "peeled and cut into 1-inch chunks"
     },
     {
       "ingredient_id": 47,
@@ -65,8 +66,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely chopped",
-      "quantity": "1 small"
+      "name": "yellow onion",
+      "quantity": "1 small",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1505,
@@ -90,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the green plantains into 1-inch chunks. Finely chop the yellow onion.",
+      "secondary_message": "4 green plantains\n1 small yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "Heat vegetable oil in a wok or deep-sided cast iron skillet until it registers 149°C on an instant-read thermometer. Add plantains and cook, turning occasionally, until softened, about 5 minutes. Remove with slotted spoon and transfer to a plate lined with paper towels.",

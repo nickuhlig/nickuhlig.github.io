@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 2830,
-      "name": "pitted sour cherries, halved",
-      "quantity": "3 pint"
+      "name": "pitted sour cherries",
+      "quantity": "3 pint",
+      "prep": "halved"
     },
     {
       "ingredient_id": 346,
@@ -55,6 +56,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the pitted sour cherries.",
+      "secondary_message": "3 pint pitted sour cherries"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 425°F. In a bowl, mix sour cherries, sugar, and cornstarch. Toss together and allow it to sit for 5 minutes.",

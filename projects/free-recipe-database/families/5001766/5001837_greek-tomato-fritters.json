@@ -63,8 +63,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, diced",
-      "quantity": "½ medium"
+      "name": "yellow onion",
+      "quantity": "½ medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 32,
@@ -73,13 +74,15 @@
     },
     {
       "ingredient_id": 106,
-      "name": "fresh flat leaf parsley leaves, tender stems roughly chopped",
-      "quantity": "28 g"
+      "name": "fresh flat leaf parsley leaves",
+      "quantity": "28 g",
+      "prep": "tender stems roughly chopped"
     },
     {
       "ingredient_id": 320,
-      "name": "fresh dill fronds, roughly chopped",
-      "quantity": "15 g"
+      "name": "fresh dill fronds",
+      "quantity": "15 g",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 89,
@@ -118,6 +121,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the yellow onion. Roughly chop the tender stems of the fresh flat leaf parsley leaves. Roughly chop the fresh dill fronds.",
+      "secondary_message": "½ medium yellow onion\n28 g fresh flat leaf parsley leaves\n15 g fresh dill fronds"
+    },
     {
       "id": 1,
       "primary_message": "For the Batter: Coarsely chop 227 g tomatoes (about 2 tomatoes) and either gently pulse in blender or food processor until just combined or shred on large holes of box grater set over a bowl, flesh side facing the blades.",

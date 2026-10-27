@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, lightly beaten",
-      "quantity": "1"
+      "name": "egg",
+      "quantity": "1",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 2796,
@@ -66,6 +67,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly beat the egg.",
+      "secondary_message": "1 egg"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 175°C (350°F). Place sesame seeds in a small saucepan over medium heat. Saute until toasted and golden, about 2 minutes. Let cool.",

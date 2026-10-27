@@ -65,8 +65,9 @@
     },
     {
       "ingredient_id": 185,
-      "name": "black beans, drained, 3 tablespoons liquid reserved",
-      "quantity": "1 (15 oz) can"
+      "name": "black beans",
+      "quantity": "1 (15 oz) can",
+      "prep": "drained, 3 tablespoons liquid reserved"
     },
     {
       "ingredient_id": 183,
@@ -80,13 +81,15 @@
     },
     {
       "ingredient_id": 260,
-      "name": "tomato, thinly sliced",
-      "quantity": "1"
+      "name": "tomato",
+      "quantity": "1",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1773,
-      "name": "A few leaves iceberg lettuce, shredded",
-      "quantity": ""
+      "name": "A few leaves iceberg lettuce",
+      "quantity": "",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 1742,
@@ -95,6 +98,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain the black beans, then reserve the 3 tablespoons liquid. Thinly slice the tomato. Shred the A few leaves iceberg lettuce.",
+      "secondary_message": "1 (15 oz) can black beans\n1 tomato\nA few leaves iceberg lettuce"
+    },
     {
       "id": 1,
       "primary_message": "Place tongue in a medium saucepan Split one onion in half and add to pot. Add cold water to cover and season generously with salt. Place on a burner over high heat. Bring to a boil, then reduce heat to lowest setting. Cover and cook until completely tender, about 2 1/2 hours, topping up with extra water if necessary.",

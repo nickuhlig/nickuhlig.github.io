@@ -75,13 +75,15 @@
     },
     {
       "ingredient_id": 1692,
-      "name": "red apple, sliced",
-      "quantity": "1"
+      "name": "red apple",
+      "quantity": "1",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, sliced",
-      "quantity": "½"
+      "name": "onion",
+      "quantity": "½",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 1082,
@@ -105,6 +107,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the red apple. Slice the onion.",
+      "secondary_message": "1 red apple\n½ onion"
+    },
     {
       "id": 1,
       "primary_message": "Bring vegetable stock, salt, brown sugar, peppercorns, allspice berries, and candied ginger to a boil in large stockpot over medium-high heat, stirring occasionally to dissolve solids. Remove from heat, cool to room temperature, and refrigerate to 4°C.",

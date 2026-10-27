@@ -67,8 +67,9 @@
   "ingredients": [
     {
       "ingredient_id": 1692,
-      "name": "apples, peeled, cored, and sliced 1/2 inch thick",
-      "quantity": "2.25 kg"
+      "name": "apples",
+      "quantity": "2.25 kg",
+      "prep": "peeled, cored, and sliced 1/2 inch thick"
     },
     {
       "ingredient_id": 346,
@@ -107,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel, core, and slice the apples 1/2 inch thick.",
+      "secondary_message": "2.25 kg apples"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower-middle position and place a heavy rimmed baking sheet on it. Preheat oven to 220°C (425°F). Toss apple slices with sugar, cornstarch, cinnamon, and lemon juice and zest until well coated. Let rest for 10 minutes.",

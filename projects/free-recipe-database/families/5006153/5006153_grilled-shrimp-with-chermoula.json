@@ -52,8 +52,9 @@
   "ingredients": [
     {
       "ingredient_id": 1811,
-      "name": "shrimp, large, peeled and deveined",
-      "quantity": "2 ½ lb"
+      "name": "shrimp, large",
+      "quantity": "2 ½ lb",
+      "prep": "peeled and deveined"
     },
     {
       "ingredient_id": 348,
@@ -72,8 +73,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 47,
@@ -87,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and devein the shrimp. Mince the garlic.",
+      "secondary_message": "2 ½ lb shrimp, large\n2 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Combine shrimp, baking soda, salt, and sugar in a medium bowl and toss to coat. Thread shrimp onto sets of 2 skewers, alternating heads to tails and pushing shrimp together so that they fit tightly on skewers; you should have about 6 shrimp on each set of 2 skewers. Lay skewers on top of a baking dish so that shrimp are suspended above bottom of dish. Transfer to refrigerator and allow to rest for 1 hour. Meanwhile, combine garlic and olive oil in a small bowl.",

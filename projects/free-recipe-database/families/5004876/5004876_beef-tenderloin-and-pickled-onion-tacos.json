@@ -53,8 +53,9 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, sliced thinly",
-      "quantity": "1"
+      "name": "red onion",
+      "quantity": "1",
+      "prep": "sliced thinly"
     },
     {
       "ingredient_id": 3291,
@@ -68,13 +69,15 @@
     },
     {
       "ingredient_id": 321,
-      "name": "corn tortillas, warmed according to these instructions",
-      "quantity": "10 (4 ½ inch) small"
+      "name": "corn tortillas",
+      "quantity": "10 (4 ½ inch) small",
+      "prep": "warmed according to these instructions"
     },
     {
       "ingredient_id": 1914,
-      "name": "queso fresco or cotija, diced or grated",
-      "quantity": "1 cup"
+      "name": "queso fresco or cotija",
+      "quantity": "1 cup",
+      "prep": "diced or grated"
     },
     {
       "ingredient_id": 188,
@@ -83,11 +86,18 @@
     },
     {
       "ingredient_id": 228,
-      "name": "lime, cut in small wedges",
-      "quantity": "1"
+      "name": "lime",
+      "quantity": "1",
+      "prep": "cut in small wedges"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the red onion thinly. Warm the corn tortillas according to these instructions. Dice or grate the queso fresco or cotija. Cut the lime in small wedges.",
+      "secondary_message": "1 red onion\n10 (4 ½ inch) small corn tortillas\n1 cup queso fresco or cotija\n1 lime"
+    },
     {
       "id": 1,
       "primary_message": "Season the filet steaks with cumin, chili powders, and salt. Set aside. Place red onion, vinegar, and 1/2 teaspoon salt in a bowl and stir to combine. Let sit for 15 minutes.",

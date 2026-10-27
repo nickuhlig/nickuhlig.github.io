@@ -76,8 +76,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "8 oz"
+      "name": "unsalted butter",
+      "quantity": "8 oz",
+      "prep": "melted"
     },
     {
       "ingredient_id": 346,
@@ -86,11 +87,18 @@
     },
     {
       "ingredient_id": 2818,
-      "name": "phyllo dough, thawed",
-      "quantity": "1 lb"
+      "name": "phyllo dough",
+      "quantity": "1 lb",
+      "prep": "thawed"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Thaw the phyllo dough.",
+      "secondary_message": "8 oz unsalted butter\n1 lb phyllo dough"
+    },
     {
       "id": 1,
       "primary_message": "For the Simple Syrup: In a small pot, combine 2 cups granulated sugar with 1 cup water and bring to a boil over medium-high heat. Reduce heat to medium, add the lemon juice, and simmer, stirring occasionally, until the sugar has dissolved and the syrup starts to thicken, about 6 minutes. Stir in the orange blossom syrup and set aside to cool to room temperature.",

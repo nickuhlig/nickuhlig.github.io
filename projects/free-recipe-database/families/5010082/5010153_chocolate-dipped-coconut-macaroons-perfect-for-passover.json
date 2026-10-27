@@ -52,8 +52,9 @@
   "ingredients": [
     {
       "ingredient_id": 2774,
-      "name": "dried unsweetened, shredded coconut",
-      "quantity": "170 g"
+      "name": "dried unsweetened",
+      "quantity": "170 g",
+      "prep": "shredded coconut"
     },
     {
       "ingredient_id": 1449,
@@ -72,8 +73,9 @@
     },
     {
       "ingredient_id": 3642,
-      "name": "egg white, at room temperature",
-      "quantity": "1 large"
+      "name": "egg white",
+      "quantity": "1 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 88,
@@ -87,11 +89,18 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, chopped",
-      "quantity": "115 g"
+      "name": "bittersweet chocolate",
+      "quantity": "115 g",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shred the dried unsweetened coconut. Bring the egg white to room temperature. Chop the bittersweet chocolate.",
+      "secondary_message": "170 g dried unsweetened\n1 large egg white\n115 g bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center position and preheat oven to 165°C (325°F). Spread coconut out on a baking sheet and toast until lightly golden, stirring occasionally, about 12 minutes. Alternatively, place coconut in a single layer on a microwave-safe plate and microwave at 30-second intervals until lightly golden, about 2 minutes total. Let cool completely.",

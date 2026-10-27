@@ -39,9 +39,10 @@
   "ingredients": [
     {
       "ingredient_id": 234,
-      "name": "fresh peaches, diced",
+      "name": "fresh peaches",
       "quantity": "9",
-      "weigh_as": "3 lb"
+      "weigh_as": "3 lb",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1421,
@@ -60,6 +61,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the fresh peaches.",
+      "secondary_message": "9 fresh peaches"
+    },
     {
       "id": 1,
       "primary_message": "Combine peaches, lime juice, and sugar in a food processor or blender and purée until very smooth with no large chunks. You should have about 1 quart of purée. Pour through a fine-mesh strainer into an airtight container and add salt to taste. Press a piece of plastic wrap against surface of purée and chill for 2 to 3 hours, or until very cold.",

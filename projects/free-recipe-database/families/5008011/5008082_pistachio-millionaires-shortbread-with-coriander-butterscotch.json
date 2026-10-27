@@ -55,8 +55,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "1 cup"
+      "name": "unsalted butter",
+      "quantity": "1 cup",
+      "prep": "softened"
     },
     {
       "ingredient_id": 346,
@@ -70,8 +71,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "zested"
     },
     {
       "ingredient_id": 256,
@@ -115,8 +117,9 @@
     },
     {
       "ingredient_id": 1729,
-      "name": "dark chocolate, about 70% cacao, chopped fine",
-      "quantity": "227 g"
+      "name": "dark chocolate, about 70% cacao",
+      "quantity": "227 g",
+      "prep": "chopped fine"
     },
     {
       "ingredient_id": 115,
@@ -125,6 +128,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter. Zest the lemon. Chop the dark chocolate fine.",
+      "secondary_message": "1 cup unsalted butter\n1 lemon\n227 g dark chocolate, about 70% cacao"
+    },
     {
       "id": 1,
       "primary_message": "For the Pistachio Lemon Shortbread: Preheat oven to 180°C (350°F). In a stand mixer fitted with the paddle attachment, cream butter, sugar, salt, and lemon zest on high until pale, fluffy, and almost smooth. Scrape down sides of bowl with a rubber spatula as needed.",

@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 1754,
-      "name": "Spanish chorizo, finely diced",
-      "quantity": "56 g"
+      "name": "Spanish chorizo",
+      "quantity": "56 g",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 88,
@@ -62,8 +63,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and minced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "peeled and minced"
     },
     {
       "ingredient_id": 1723,
@@ -72,13 +74,15 @@
     },
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, halved",
-      "quantity": "170 g"
+      "name": "cherry tomatoes",
+      "quantity": "170 g",
+      "prep": "halved"
     },
     {
       "ingredient_id": 91,
-      "name": "cannellini beans, drained and rinsed",
-      "quantity": "1 (439 g) can"
+      "name": "cannellini beans",
+      "quantity": "1 (439 g) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 1505,
@@ -87,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the Spanish chorizo. Peel and mince the garlic. Halve the cherry tomatoes. Drain and rinse the cannellini beans.",
+      "secondary_message": "56 g Spanish chorizo\n2 medium cloves garlic\n170 g cherry tomatoes\n1 (439 g) can cannellini beans"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 160°C (325°F). Using a paper towel, pat chicken thighs dry. Season chicken on all sides with salt; set aside.",

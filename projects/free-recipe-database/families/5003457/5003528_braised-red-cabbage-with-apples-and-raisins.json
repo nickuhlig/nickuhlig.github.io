@@ -39,13 +39,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "1 clove"
+      "name": "garlic",
+      "quantity": "1 clove",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2272,
-      "name": "purple cabbage, chopped, about 12 cups",
-      "quantity": "1 medium head"
+      "name": "purple cabbage, about 12 cups",
+      "quantity": "1 medium head",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2150,
@@ -64,8 +66,9 @@
     },
     {
       "ingredient_id": 296,
-      "name": "gala apple, cut into matchsticks",
-      "quantity": "1"
+      "name": "gala apple",
+      "quantity": "1",
+      "prep": "cut into matchsticks"
     },
     {
       "ingredient_id": 133,
@@ -84,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic. Chop the purple cabbage. Cut the gala apple into matchsticks.",
+      "secondary_message": "1 clove garlic\n1 medium head purple cabbage, about 12 cups\n1 gala apple"
+    },
     {
       "id": 1,
       "primary_message": "Melt butter in a large saucepan over medium high heat. Add garlic and cook for one minute. Add cabbage, raisins, caraway seeds, and apple cider and cook, covered, for 10 minutes, stirring occasionally.",

@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "¼ cup"
+      "name": "unsalted butter",
+      "quantity": "¼ cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 2249,
@@ -86,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature.",
+      "secondary_message": "¼ cup unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Cookies: In the bowl of a stand mixer fitted with a paddle attachment, cream together peanut butter, brown sugar, and sugar until fluffy, about 3 minutes. Beat in egg and baking powder. Stir in oats on low speed just until combined. Cover with plastic wrap and chill dough for 30 minutes.",

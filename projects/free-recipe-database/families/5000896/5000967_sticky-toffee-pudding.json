@@ -108,8 +108,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "5 large"
+      "name": "eggs",
+      "quantity": "5 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 353,
@@ -143,6 +144,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the eggs to room temperature.",
+      "secondary_message": "5 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat to 350ºF (175ºC). Grease a 9- by 33-cm baking pan with butter, then dust with all-purpose flour, shaking out excess.",

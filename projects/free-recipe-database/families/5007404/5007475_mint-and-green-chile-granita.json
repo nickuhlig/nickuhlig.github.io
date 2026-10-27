@@ -35,13 +35,15 @@
   "ingredients": [
     {
       "ingredient_id": 243,
-      "name": "densely packed mint leaves, washed",
-      "quantity": "4 cups"
+      "name": "densely packed mint leaves",
+      "quantity": "4 cups",
+      "prep": "washed"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño chiles, sliced, seeds removed",
-      "quantity": "2"
+      "name": "jalapeño chiles",
+      "quantity": "2",
+      "prep": "sliced, seeds removed"
     },
     {
       "ingredient_id": 359,
@@ -65,6 +67,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash the densely packed mint leaves. Slice the jalapeño chiles, then remove the seeds.",
+      "secondary_message": "4 cups densely packed mint leaves\n2 jalapeño chiles"
+    },
     {
       "id": 1,
       "primary_message": "In a medium saucepan, combine mint leaves, jalapeño, water, and sugar. Bring to a boil and immediately reduce to below a simmer. Cook for about half an hour, adding small pinches of salt to taste, or until base tastes like bright mint. Do not cook base longer than 45 minutes, or \"cooked\" flavors will develop.",

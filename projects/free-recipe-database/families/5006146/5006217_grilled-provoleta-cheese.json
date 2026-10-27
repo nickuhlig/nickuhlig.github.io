@@ -42,8 +42,9 @@
   "ingredients": [
     {
       "ingredient_id": 1012,
-      "name": "baguette, cut into 1/2-inch slices on the bias",
-      "quantity": "1 small"
+      "name": "baguette",
+      "quantity": "1 small",
+      "prep": "cut into 1/2-inch slices on the bias"
     },
     {
       "ingredient_id": 47,
@@ -67,6 +68,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the baguette into 1/2-inch slices on the bias.",
+      "secondary_message": "1 small baguette"
+    },
     {
       "id": 1,
       "primary_message": "Light one chimney full of charcoal. When all charcoal is lit and covered with gray ash, pour out and spread the coals evenly over entire surface of coal grate. Set cooking grate in place, cover grill and allow to preheat for 5 minutes. Clean and oil the grilling grate. Brush slices of baguette lightly with oil on both sides. Place on grill and cook until lightly toasted, 30-60 seconds per side. Transfer to serving tray.",

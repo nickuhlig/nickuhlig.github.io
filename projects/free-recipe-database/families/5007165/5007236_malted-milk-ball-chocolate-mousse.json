@@ -44,13 +44,15 @@
     },
     {
       "ingredient_id": 2742,
-      "name": "milk chocolate, finely chopped",
-      "quantity": "170 g"
+      "name": "milk chocolate",
+      "quantity": "170 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2920,
-      "name": "malted milk balls, chopped",
-      "quantity": "⅓ cup"
+      "name": "malted milk balls",
+      "quantity": "⅓ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 346,
@@ -64,6 +66,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the milk chocolate. Chop the malted milk balls.",
+      "secondary_message": "170 g milk chocolate\n⅓ cup malted milk balls"
+    },
     {
       "id": 1,
       "primary_message": "Heat 1 1/4 cups cream and malted milk powder in small saucepan over medium heat, stirring, just until milk powder dissolves. Transfer to medium bowl. Chill until fully cold, about an hour.",

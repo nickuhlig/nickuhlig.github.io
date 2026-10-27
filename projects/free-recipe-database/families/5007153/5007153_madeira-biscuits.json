@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "¾ cup"
+      "name": "unsalted butter",
+      "quantity": "¾ cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -70,6 +71,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature.",
+      "secondary_message": "¾ cup unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, whisk together flour and salt.",

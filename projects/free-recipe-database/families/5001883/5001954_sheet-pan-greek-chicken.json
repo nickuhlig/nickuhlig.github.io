@@ -79,8 +79,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, grated , divided",
-      "quantity": "4 medium"
+      "name": "garlic cloves, divided",
+      "quantity": "4 medium",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1702,
@@ -110,8 +111,9 @@
     },
     {
       "ingredient_id": 1422,
-      "name": "fresh Broccolini, thicker stems halved lengthwise",
-      "quantity": "227 g"
+      "name": "fresh Broccolini",
+      "quantity": "227 g",
+      "prep": "thicker stems halved lengthwise"
     },
     {
       "ingredient_id": 277,
@@ -120,16 +122,24 @@
     },
     {
       "ingredient_id": 2012,
-      "name": "pitted kalamata olives, drained",
-      "quantity": "⅔ cup"
+      "name": "pitted kalamata olives",
+      "quantity": "⅔ cup",
+      "prep": "drained"
     },
     {
       "ingredient_id": 32,
-      "name": "feta cheese, crumbled into 1/2-inch pieces",
-      "quantity": "85 g"
+      "name": "feta cheese",
+      "quantity": "85 g",
+      "prep": "crumbled into 1/2-inch pieces"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the garlic cloves. Halve the thicker stems of the fresh Broccolini lengthwise. Drain the pitted kalamata olives. Crumble the feta cheese into 1/2-inch pieces.",
+      "secondary_message": "4 medium garlic cloves, divided\n227 g fresh Broccolini\n⅔ cup pitted kalamata olives\n85 g feta cheese"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lowest position and preheat oven to 245°C (475°F). In a small bowl, whisk together lemon juice, red wine vinegar, thyme, dried oregano, black pepper, coriander, 6 tablespoons olive oil, 2 teaspoons salt, and 1 1/2 teaspoons grated garlic. In a large bowl, toss chicken and 6 tablespoons prepared lemon vinaigrette until evenly coated, and set aside at room temperature for 30 minutes; set aside remaining lemon vinaigrette (about 3 tablespoons).",

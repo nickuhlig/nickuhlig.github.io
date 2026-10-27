@@ -84,8 +84,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, thinly sliced",
-      "quantity": "½ medium"
+      "name": "yellow onion",
+      "quantity": "½ medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -104,13 +105,15 @@
     },
     {
       "ingredient_id": 260,
-      "name": "beefsteak tomato, sliced into 1/4-inch rounds",
-      "quantity": "1"
+      "name": "beefsteak tomato",
+      "quantity": "1",
+      "prep": "sliced into 1/4-inch rounds"
     },
     {
       "ingredient_id": 1773,
-      "name": "iceberg lettuce, outer leaves discarded, finely shredded",
-      "quantity": "¼ head"
+      "name": "iceberg lettuce",
+      "quantity": "¼ head",
+      "prep": "outer leaves discarded, finely shredded"
     },
     {
       "ingredient_id": 1264,
@@ -119,6 +122,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the yellow onion. Slice the beefsteak tomato into 1/4-inch rounds. Discard the outer leaves from the iceberg lettuce, then finely shred it.",
+      "secondary_message": "½ medium yellow onion\n1 beefsteak tomato\n¼ head iceberg lettuce"
+    },
     {
       "id": 1,
       "primary_message": "Divide meat into 2 even portions, about 115 g each. Form into two 10-cm patties. Season patties liberally with kosher salt and pepper, transfer to a plate, and set aside.",

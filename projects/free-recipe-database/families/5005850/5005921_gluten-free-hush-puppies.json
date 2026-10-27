@@ -91,11 +91,18 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "beaten"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Beat the egg.",
+      "secondary_message": "1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, whisk together cornmeal, white rice flour, granulated sugar, baking powder, salt, baking soda, chipotle powder (if using), and xanthan gum.",

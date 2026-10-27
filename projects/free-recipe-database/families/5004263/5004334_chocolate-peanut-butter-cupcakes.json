@@ -97,8 +97,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "softened unsalted butter, cut into 1/2-inch pieces",
-      "quantity": "12 tbsp"
+      "name": "softened unsalted butter",
+      "quantity": "12 tbsp",
+      "prep": "cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 1567,
@@ -112,8 +113,9 @@
     },
     {
       "ingredient_id": 2285,
-      "name": "semi sweet chocolate, finely chopped",
-      "quantity": "227 g"
+      "name": "semi sweet chocolate",
+      "quantity": "227 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1044,
@@ -122,6 +124,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the softened unsalted butter into 1/2-inch pieces. Finely chop the semi sweet chocolate.",
+      "secondary_message": "12 tbsp softened unsalted butter\n227 g semi sweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and heat oven to 175°C (350°F). Line muffin pan with 10 cupcake cups. In medium bowl, whisk flour, cocoa, baking soda, and salt until combined; set aside.",

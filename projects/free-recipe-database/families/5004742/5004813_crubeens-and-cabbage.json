@@ -30,8 +30,9 @@
   "ingredients": [
     {
       "ingredient_id": 2462,
-      "name": "pig's trotters with hocks attached, split lengthwise",
-      "quantity": "2"
+      "name": "pig's trotters with hocks attached",
+      "quantity": "2",
+      "prep": "split lengthwise"
     },
     {
       "ingredient_id": 1747,
@@ -40,18 +41,21 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, coarsely chopped",
-      "quantity": "4 medium"
+      "name": "carrots",
+      "quantity": "4 medium",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, coarsely chopped",
-      "quantity": "2 medium"
+      "name": "onions",
+      "quantity": "2 medium",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, coarsely chopped",
-      "quantity": "5 medium"
+      "name": "garlic cloves",
+      "quantity": "5 medium",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 1784,
@@ -60,8 +64,9 @@
     },
     {
       "ingredient_id": 1039,
-      "name": "russet potatoes, peeled and cut into 2 inch pieces",
-      "quantity": "4 medium"
+      "name": "russet potatoes",
+      "quantity": "4 medium",
+      "prep": "peeled and cut into 2 inch pieces"
     },
     {
       "ingredient_id": 2472,
@@ -85,16 +90,24 @@
     },
     {
       "ingredient_id": 302,
-      "name": "thick cut bacon, chopped",
-      "quantity": "4 strips"
+      "name": "thick cut bacon",
+      "quantity": "4 strips",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1004,
-      "name": "green cabbage, finely sliced",
-      "quantity": "½ small"
+      "name": "green cabbage",
+      "quantity": "½ small",
+      "prep": "finely sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the pig's trotters with hocks attached lengthwise. Coarsely chop the carrots. Coarsely chop the onions. Coarsely chop the garlic cloves. Peel and cut the russet potatoes into 2 inch pieces. Chop the thick cut bacon. Finely slice the green cabbage.",
+      "secondary_message": "2 pig's trotters with hocks attached\n4 medium carrots\n2 medium onions\n5 medium garlic cloves\n4 medium russet potatoes\n4 strips thick cut bacon\n½ small green cabbage"
+    },
     {
       "id": 1,
       "primary_message": "Place the trotter halves together and wrap tightly with cheese cloth. Place trotters in a large stock pot with bay leaves, carrots, onions, garlic and peppercorns. Cover with water then bring to a simmer skimming foam off the top of the pot until trotters are tender (test with a knife) 2-3 hours. Remove trotters then strain liquid through a strainer. Reserve liquid.",

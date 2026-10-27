@@ -47,26 +47,30 @@
   "ingredients": [
     {
       "ingredient_id": 1541,
-      "name": "plum tomatoes, cored and roughly chopped",
+      "name": "plum tomatoes",
       "quantity": "7",
-      "weigh_as": "1 lb"
+      "weigh_as": "1 lb",
+      "prep": "cored and roughly chopped"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell peppers, stemmed, seeded, and roughly chopped",
+      "name": "red bell peppers",
       "quantity": "2 ½",
-      "weigh_as": "14 oz"
+      "weigh_as": "14 oz",
+      "prep": "stemmed, seeded, and roughly chopped"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, roughly chopped",
+      "name": "red onion",
       "quantity": "2 medium",
-      "weigh_as": "8 oz"
+      "weigh_as": "8 oz",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1993,
-      "name": "Scotch bonnet, stemmed and seeded",
-      "quantity": "¼"
+      "name": "Scotch bonnet",
+      "quantity": "¼",
+      "prep": "stemmed and seeded"
     },
     {
       "ingredient_id": 1891,
@@ -80,9 +84,10 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, thinly sliced, divided",
+      "name": "red onion, divided",
       "quantity": "2 medium",
-      "weigh_as": "8 oz"
+      "weigh_as": "8 oz",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1747,
@@ -126,8 +131,9 @@
     },
     {
       "ingredient_id": 1889,
-      "name": "converted long-grain rice, rinsed",
-      "quantity": "2 cups"
+      "name": "converted long-grain rice",
+      "quantity": "2 cups",
+      "prep": "rinsed"
     },
     {
       "ingredient_id": 1541,
@@ -136,6 +142,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Core and roughly chop the plum tomatoes. Stem, seed, and roughly chop the red bell peppers. Roughly chop the red onion. Stem and seed the Scotch bonnet. Thinly slice the red onion. Rinse the converted long-grain rice.",
+      "secondary_message": "7 plum tomatoes\n2 ½ red bell peppers\n2 medium red onion\n¼ Scotch bonnet\n2 medium red onion, divided\n2 cups converted long-grain rice"
+    },
     {
       "id": 1,
       "primary_message": "For the Stew Base: In a blender jar, combine tomatoes, red pepper, onion, Scotch bonnet or habanero, and stock. Blend until a smooth puree forms, about 2 minutes. This will yield just shy of 5 cups.",

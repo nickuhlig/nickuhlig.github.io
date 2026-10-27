@@ -39,8 +39,9 @@
   "ingredients": [
     {
       "ingredient_id": 3662,
-      "name": "dried pinto beans, picked over",
-      "quantity": "0.45 kg"
+      "name": "dried pinto beans",
+      "quantity": "0.45 kg",
+      "prep": "picked over"
     },
     {
       "ingredient_id": 88,
@@ -54,18 +55,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely diced",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, finely diced",
-      "quantity": "2 stalks"
+      "name": "celery",
+      "quantity": "2 stalks",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 186,
@@ -94,8 +98,9 @@
     },
     {
       "ingredient_id": 3158,
-      "name": "leftover smoked beef, pork, or turkey, chopped",
-      "quantity": "227 to 340 g"
+      "name": "leftover smoked beef, pork, or turkey",
+      "quantity": "227 to 340 g",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1747,
@@ -114,6 +119,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the dried pinto beans over. Finely dice the onion. Finely dice the celery. Mince the garlic. Chop the leftover smoked beef.",
+      "secondary_message": "0.45 kg dried pinto beans\n1 large onion\n2 stalks celery\n4 medium cloves garlic\n227 to 340 g leftover smoked beef, pork, or turkey"
+    },
     {
       "id": 1,
       "primary_message": "To Cook on the Stovetop: Place beans in a large bowl and cover with water by at least 5 cm. Add 1 tablespoon salt, stir to dissolve, and let beans stand on the countertop overnight.",

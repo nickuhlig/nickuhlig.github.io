@@ -69,8 +69,9 @@
     },
     {
       "ingredient_id": 1541,
-      "name": "Roma tomatoes, cut into 1/2-inch dice",
-      "quantity": "2"
+      "name": "Roma tomatoes",
+      "quantity": "2",
+      "prep": "cut into 1/2-inch dice"
     },
     {
       "ingredient_id": 47,
@@ -109,6 +110,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the Roma tomatoes into 1/2-inch dice.",
+      "secondary_message": "2 Roma tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "For the Salsa Criolla: In a medium-sized bowl, combine onion, bell peppers, and tomatoes. Stir in the olive oil, apple cider vinegar, salt, and pepper until well combined. Set aside in the refrigerator. (For best results, let salsa criolla rest for 3 hours in the fridge.)",

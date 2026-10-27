@@ -92,8 +92,9 @@
     },
     {
       "ingredient_id": 1027,
-      "name": "soft hamburger rolls, buttered and toasted",
-      "quantity": "4"
+      "name": "soft hamburger rolls",
+      "quantity": "4",
+      "prep": "buttered and toasted"
     },
     {
       "ingredient_id": 2037,
@@ -102,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Butter and toast the soft hamburger rolls.",
+      "secondary_message": "4 soft hamburger rolls"
+    },
     {
       "id": 1,
       "primary_message": "For the Sauce: In a small bowl, whisk together ketchup, vinegar, mayonnaise, and the two hot pepper sauces until well combined.",

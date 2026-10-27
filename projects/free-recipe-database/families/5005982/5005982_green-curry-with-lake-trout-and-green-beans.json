@@ -48,8 +48,9 @@
     },
     {
       "ingredient_id": 18,
-      "name": "baby eggplants, cut into 1/2-inch cubes",
-      "quantity": "1 cup"
+      "name": "baby eggplants",
+      "quantity": "1 cup",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 275,
@@ -58,8 +59,9 @@
     },
     {
       "ingredient_id": 3060,
-      "name": "lake trout, skin removed, cut into 1-inch cubes",
-      "quantity": "8 oz"
+      "name": "lake trout",
+      "quantity": "8 oz",
+      "prep": "skin removed, cut into 1-inch cubes"
     },
     {
       "ingredient_id": 52,
@@ -78,8 +80,9 @@
     },
     {
       "ingredient_id": 1746,
-      "name": "basil leaves, roughly chopped",
-      "quantity": "8 leaves"
+      "name": "basil leaves",
+      "quantity": "8 leaves",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 228,
@@ -88,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the baby eggplants into 1/2-inch cubes. Remove the skin from the lake trout, then cut it into 1-inch cubes. Roughly chop the basil leaves.",
+      "secondary_message": "1 cup baby eggplants\n8 oz lake trout\n8 leaves basil leaves"
+    },
     {
       "id": 1,
       "primary_message": "Without shaking the coconut milk can, remove the lid and spoon off a 1/4 cup of the thick cream on top. Transfer this to a 12-inch non-stick skillet, and turn the heat to medium-high. When the fat separates and liquid starts to sizzle, stir in the green curry paste and reduce the heat to medium-low. Cook, stirring occasionally, until the paste is very fragrant, about 3 minutes.",

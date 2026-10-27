@@ -54,8 +54,9 @@
   "ingredients": [
     {
       "ingredient_id": 56,
-      "name": "extra-firm tofu, cut into 10 slabs about 1/2-inch thick",
-      "quantity": "14 oz"
+      "name": "extra-firm tofu",
+      "quantity": "14 oz",
+      "prep": "cut into 10 slabs about 1/2-inch thick"
     },
     {
       "ingredient_id": 53,
@@ -74,8 +75,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "grated"
     },
     {
       "ingredient_id": 3657,
@@ -99,18 +101,21 @@
     },
     {
       "ingredient_id": 183,
-      "name": "Hass avocado, mashed",
-      "quantity": "1 medium"
+      "name": "Hass avocado",
+      "quantity": "1 medium",
+      "prep": "mashed"
     },
     {
       "ingredient_id": 155,
-      "name": "unpeeled English cucumber, sliced into 1/8-inch thick rounds",
-      "quantity": "¼"
+      "name": "unpeeled English cucumber",
+      "quantity": "¼",
+      "prep": "sliced into 1/8-inch thick rounds"
     },
     {
       "ingredient_id": 452,
-      "name": "jarred roasted red peppers, thinly sliced",
-      "quantity": "3 to 4"
+      "name": "jarred roasted red peppers",
+      "quantity": "3 to 4",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1624,
@@ -129,6 +134,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the extra-firm tofu into 10 slabs about 1/2-inch thick. Grate the garlic. Mash the Hass avocado. Slice the unpeeled English cucumber into 1/8-inch thick rounds. Thinly slice the jarred roasted red peppers.",
+      "secondary_message": "14 oz extra-firm tofu\n3 medium cloves garlic\n1 medium Hass avocado\n¼ unpeeled English cucumber\n3 to 4 jarred roasted red peppers"
+    },
     {
       "id": 1,
       "primary_message": "To dry tofu, line a 9-by-13-inch rimmed baking sheet with paper towels. Place tofu slices on top in a single layer. Cover with another layer of paper towels and press gently to remove excess moisture.",

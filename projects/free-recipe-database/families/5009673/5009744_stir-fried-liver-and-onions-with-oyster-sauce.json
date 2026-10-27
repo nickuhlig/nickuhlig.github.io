@@ -60,26 +60,36 @@
     },
     {
       "ingredient_id": 3162,
-      "name": "liver, cut roughly into 2-inch segments",
-      "quantity": "283 g"
+      "name": "liver",
+      "quantity": "283 g",
+      "prep": "cut roughly into 2-inch segments"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, cut into 1-inch segments",
-      "quantity": "2"
+      "name": "scallions",
+      "quantity": "2",
+      "prep": "cut into 1-inch segments"
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, thinly sliced",
-      "quantity": "1 (2 ½ cm) piece"
+      "name": "ginger",
+      "quantity": "1 (2 ½ cm) piece",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, thinly sliced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the liver roughly into 2-inch segments. Cut the scallions into 1-inch segments. Thinly slice the ginger. Thinly slice the onion.",
+      "secondary_message": "283 g liver\n2 scallions\n1 (2 ½ cm) piece ginger\n1 medium onion"
+    },
     {
       "id": 1,
       "primary_message": "Combine oyster sauce, soy sauce, wine, and cornstarch in a small bowl and whisk with a fork to combine. Set aside.",

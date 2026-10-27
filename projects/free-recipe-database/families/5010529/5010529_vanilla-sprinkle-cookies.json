@@ -67,8 +67,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "¾ cup"
+      "name": "unsalted butter",
+      "quantity": "¾ cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1007,
@@ -102,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature.",
+      "secondary_message": "¾ cup unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, combine flour, baking soda, and salt; set aside. In the bowl of a stand mixer fitted with a paddle attachment, cream together butter, oil, sugar, and confectioners' sugar until fluffy, about 3 minutes. Add egg and vanilla and beat to combine. Add dry ingredients and mix just until dough comes together. Dough will be very soft but wrap it in plastic wrap and refrigerate for at least one hour.",

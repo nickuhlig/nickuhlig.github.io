@@ -45,13 +45,15 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, coarsely chopped",
-      "quantity": "3"
+      "name": "carrots",
+      "quantity": "3",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, halved",
-      "quantity": "1"
+      "name": "onion",
+      "quantity": "1",
+      "prep": "halved"
     },
     {
       "ingredient_id": 1784,
@@ -65,8 +67,9 @@
     },
     {
       "ingredient_id": 1763,
-      "name": "ham steak, cut into 1 inch cubes",
-      "quantity": "1 lb"
+      "name": "ham steak",
+      "quantity": "1 lb",
+      "prep": "cut into 1 inch cubes"
     },
     {
       "ingredient_id": 341,
@@ -110,11 +113,18 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten",
-      "quantity": "1"
+      "name": "egg",
+      "quantity": "1",
+      "prep": "beaten"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Coarsely chop the carrots. Halve the onion. Cut the ham steak into 1 inch cubes. Beat the egg.",
+      "secondary_message": "3 carrots\n1 onion\n1 lb ham steak\n1 egg"
+    },
     {
       "id": 1,
       "primary_message": "For the Stock: Combine trotter with hock, bay leaves, carrot, onion and peppercorns in a large stock pot. Cover with cold water and bring to a boil over medium high heat. Reduce to a simmer and cook for 4 hours, topping off the pot with additional water if trotters become exposed. Strain stock into a large pot, reserving trotter meat if desired. Discard solids. Place strained stock over medium-high heat and simmer until reduced to about 3 cups. Season to taste with salt. Transfer to a container, let cool, cover, and refrigerate overnight. The next day, skim fat off of surface.",

@@ -52,9 +52,10 @@
     },
     {
       "ingredient_id": 1039,
-      "name": "russet Gold potatoes, peeled and cut into 2- to 3-inch chunks",
+      "name": "russet Gold potatoes",
       "quantity": "9 medium",
-      "weigh_as": "2 kg"
+      "weigh_as": "2 kg",
+      "prep": "peeled and cut into 2- to 3-inch chunks"
     },
     {
       "ingredient_id": 47,
@@ -63,13 +64,15 @@
     },
     {
       "ingredient_id": 325,
-      "name": "anchovy fillets packed in oil, minced",
-      "quantity": "4 to 6"
+      "name": "anchovy fillets packed in oil",
+      "quantity": "4 to 6",
+      "prep": "minced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2346,
@@ -103,6 +106,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the russet Gold potatoes into 2- to 3-inch chunks. Mince the anchovy fillets packed in oil. Mince the garlic.",
+      "secondary_message": "9 medium russet Gold potatoes\n4 to 6 anchovy fillets packed in oil\n3 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center position and preheat oven to 230°C (450°F) or 200°C (400°F) if using convection. In a large pot, heat 2000 ml water over high heat until boiling. Add 2 tablespoons kosher salt (about 28 g; 25g), baking soda, and potatoes and stir. Return to a boil, reduce to a simmer, and cook until a knife meets little resistance when inserted into a potato chunk, about 10 minutes after returning to a boil.",

@@ -67,8 +67,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into 1/2-inch cubes",
-      "quantity": "4 oz"
+      "name": "cold unsalted butter",
+      "quantity": "4 oz",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 359,
@@ -77,8 +78,9 @@
     },
     {
       "ingredient_id": 26,
-      "name": "fresh asparagus, woody ends trimmed",
-      "quantity": "1 bunch"
+      "name": "fresh asparagus",
+      "quantity": "1 bunch",
+      "prep": "woody ends trimmed"
     },
     {
       "ingredient_id": 47,
@@ -92,13 +94,15 @@
     },
     {
       "ingredient_id": 126,
-      "name": "goat cheese, crumbled",
-      "quantity": "4 oz"
+      "name": "goat cheese",
+      "quantity": "4 oz",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 1060,
-      "name": "Gruyère cheese, shredded",
-      "quantity": "1 oz"
+      "name": "Gruyère cheese",
+      "quantity": "1 oz",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 1752,
@@ -132,6 +136,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cold unsalted butter into 1/2-inch cubes. Trim the woody ends of the fresh asparagus. Crumble the goat cheese. Shred the Gruyère cheese.",
+      "secondary_message": "4 oz cold unsalted butter\n1 bunch fresh asparagus\n4 oz goat cheese\n1 oz Gruyère cheese"
+    },
     {
       "id": 1,
       "primary_message": "For the Crust: In the bowl of a food processor, pulse flour, sugar, and salt until combined, about 3 pulses. Scatter butter over top of flour mixture, and pulse until mixture resembles coarse crumbs, 8 to 10 pulses. Add ice water, 1 tablespoon at a time, and pulse until mixture starts to clump together, about 8 pulses total. (You may not need all the water.) Transfer onto a lightly floured surface, and gently press until dough just comes together, 2 or 3 times. Flatten dough into a 6-inch disk. Wrap tightly in plastic wrap, and refrigerate until firm, at least 1 hour or up to 24 hours.",

@@ -39,13 +39,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, ends trimmed and quartered",
-      "quantity": "2 medium"
+      "name": "onions",
+      "quantity": "2 medium",
+      "prep": "ends trimmed and quartered"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, ends trimmed",
-      "quantity": "1 small head"
+      "name": "garlic",
+      "quantity": "1 small head",
+      "prep": "ends trimmed"
     },
     {
       "ingredient_id": 1784,
@@ -54,8 +56,9 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "parsley, stems reserved, leaves chopped, divided",
-      "quantity": "1 bunch"
+      "name": "parsley, divided",
+      "quantity": "1 bunch",
+      "prep": "stems reserved, leaves chopped"
     },
     {
       "ingredient_id": 88,
@@ -74,8 +77,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "2 tbsp (1 oz)"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp (1 oz)",
+      "prep": "softened"
     },
     {
       "ingredient_id": 2310,
@@ -99,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the ends of the onions, then quarter them. Trim the ends of the garlic. Reserve the stems of the parsley, then chop the leaves. Soften the unsalted butter.",
+      "secondary_message": "2 medium onions\n1 small head garlic\n1 bunch parsley, divided\n2 tbsp (1 oz) unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Place chicken, onions, garlic, peppercorns, parsley stems, and 1 1/2 teaspoons salt in a large saucepan or Dutch oven. Add water to pot to just cover chicken (about 10 cups). Bring to a boil over medium-high heat and then reduce heat to simmer. Cook until chicken is tender and falling off the bone, about 1 hour.",

@@ -48,8 +48,9 @@
   "ingredients": [
     {
       "ingredient_id": 13,
-      "name": "beets, trimmed",
-      "quantity": "2 large"
+      "name": "beets",
+      "quantity": "2 large",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 33,
@@ -88,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the beets.",
+      "secondary_message": "2 large beets"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 220°C (425°F). Place beets on a baking sheet. Roast until fork tender, about 1 hour depending on size of the beets. When cool enough to handle, peel beets and roughly chop.",

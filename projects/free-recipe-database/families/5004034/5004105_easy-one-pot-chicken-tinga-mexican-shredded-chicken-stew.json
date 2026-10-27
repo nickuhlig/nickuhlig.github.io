@@ -67,9 +67,10 @@
     },
     {
       "ingredient_id": 2069,
-      "name": "tomatillos, peeled",
+      "name": "tomatillos",
       "quantity": "5",
-      "weigh_as": "170 g"
+      "weigh_as": "170 g",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 1541,
@@ -84,8 +85,9 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, finely chopped",
-      "quantity": "1 small"
+      "name": "white onion",
+      "quantity": "1 small",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 82,
@@ -124,6 +126,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the tomatillos. Finely chop the white onion.",
+      "secondary_message": "5 tomatillos\n1 small white onion"
+    },
     {
       "id": 1,
       "primary_message": "Season chicken generously with salt and pepper. Heat oil in a medium saucepan over high heat until shimmering. Add chicken skin-side-down and cook, without moving, until well-browned, 6 to 8 minutes. (Lower heat if pot is smoking excessively or chicken starts to burn). Flip chicken and cook on second side for 2 minutes. Transfer to a large plate and immediately add tomatillos, tomatoes, and garlic to pot. Cook, flipping occasionally, until blistered and browned in spots, about 5 minutes.",

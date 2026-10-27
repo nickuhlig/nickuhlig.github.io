@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 2346,
-      "name": "limes, zested",
-      "quantity": "9"
+      "name": "limes",
+      "quantity": "9",
+      "prep": "zested"
     },
     {
       "ingredient_id": 221,
@@ -106,6 +107,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the limes.",
+      "secondary_message": "9 limes"
+    },
     {
       "id": 1,
       "primary_message": "For the falernum: Combine cloves, lime zest, and ginger with rum for 24 to 48 hours. Strain through cheesecloth; combine with simple syrup and almond extract.",

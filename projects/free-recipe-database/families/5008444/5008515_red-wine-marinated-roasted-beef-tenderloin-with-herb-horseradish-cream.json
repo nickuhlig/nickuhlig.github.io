@@ -43,8 +43,9 @@
   "ingredients": [
     {
       "ingredient_id": 2157,
-      "name": "whole beef tenderloin, trimmed of visible fat and silver skin",
-      "quantity": "1"
+      "name": "whole beef tenderloin",
+      "quantity": "1",
+      "prep": "trimmed of visible fat and silver skin"
     },
     {
       "ingredient_id": 1714,
@@ -63,8 +64,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 82,
@@ -123,6 +125,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the whole beef tenderloin of visible fat and silver skin. Mince the garlic.",
+      "secondary_message": "1 whole beef tenderloin\n3 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Place trimmed beef tenderloin in a resealable bag. Add wine, 1 tablespoon lemon juice, 1 1/2 tablespoons olive oil, garlic, oregano, thyme, 2 teaspoons dill, and 1/2 teaspoon each salt and pepper. Seal, squish around to combine, and place in the refrigerator to marinate for 4 to 6 hours.",

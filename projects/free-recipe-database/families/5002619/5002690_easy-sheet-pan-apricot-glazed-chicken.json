@@ -49,8 +49,9 @@
   "ingredients": [
     {
       "ingredient_id": 1702,
-      "name": "bone-in skin-on chicken thighs, patted dry",
-      "quantity": "8"
+      "name": "bone-in skin-on chicken thighs",
+      "quantity": "8",
+      "prep": "patted dry"
     },
     {
       "ingredient_id": 88,
@@ -64,8 +65,9 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, halved and cut into 1-inch wedges",
-      "quantity": "1 large"
+      "name": "red onion",
+      "quantity": "1 large",
+      "prep": "halved and cut into 1-inch wedges"
     },
     {
       "ingredient_id": 47,
@@ -104,6 +106,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pat the bone-in skin-on chicken thighs dry. Halve and cut the red onion into 1-inch wedges.",
+      "secondary_message": "8 bone-in skin-on chicken thighs\n1 large red onion"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 230°C (450°F). Line a rimmed baking sheet with aluminum foil. Season chicken with 1 1/2 teaspoons kosher salt and black pepper on both sides, and arrange skin-side up on prepared baking sheet. (For even better seasoning and crispier skin, let chicken stand at room temperature for at least 45 minutes, or refrigerate uncovered for up to 24 hours.) Bake for 15 minutes.",

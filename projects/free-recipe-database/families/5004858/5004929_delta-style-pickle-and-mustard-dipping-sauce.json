@@ -68,11 +68,18 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated on a microplane grater",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "grated on a microplane grater"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the garlic on a microplane grater.",
+      "secondary_message": "1 medium clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "Whisk all ingredients together in a medium bowl. Serve with fried chicken.",

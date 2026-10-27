@@ -47,13 +47,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated on a microplane grater",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "grated on a microplane grater"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely sliced",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 82,
@@ -87,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the garlic on a microplane grater. Finely slice the onion.",
+      "secondary_message": "2 cloves garlic\n1 small onion"
+    },
     {
       "id": 1,
       "primary_message": "Heat 2 tablespoons olive oil in a large saucepan over medium-high heat until shimmering. Add garlic, onions, oregano, and red pepper flakes. Cook, stirring frequently until onions are softened but not browned, about 4 minutes. Add bread and tomatoes. Roughly mash tomatoes with a whisk or a potato masher. Add 2 cups water. Bring to a boil over high heat, then reduce to a simmer. Cook for 5 minutes.",

@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 1938,
-      "name": "vanilla bean, split and scraped",
-      "quantity": "1"
+      "name": "vanilla bean",
+      "quantity": "1",
+      "prep": "split and scraped"
     },
     {
       "ingredient_id": 346,
@@ -80,11 +81,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 1/2-inch cubes",
-      "quantity": "28 g"
+      "name": "unsalted butter",
+      "quantity": "28 g",
+      "prep": "cut into 1/2-inch cubes"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split and scrape the vanilla bean. Cut the unsalted butter into 1/2-inch cubes.",
+      "secondary_message": "1 vanilla bean\n28 g unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a 2-quart stainless steel saucier, combine milk and scraped vanilla bean along with its seeds. Bring to a bare simmer over medium heat. Remove from heat, cover to prevent evaporation, and let steep for 30 minutes.",

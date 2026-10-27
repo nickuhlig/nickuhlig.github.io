@@ -44,8 +44,9 @@
     },
     {
       "ingredient_id": 43,
-      "name": "cheddar cheese, grated",
-      "quantity": "57 g"
+      "name": "cheddar cheese",
+      "quantity": "57 g",
+      "prep": "grated"
     },
     {
       "ingredient_id": 121,
@@ -54,8 +55,9 @@
     },
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, halved",
-      "quantity": "6"
+      "name": "cherry tomatoes",
+      "quantity": "6",
+      "prep": "halved"
     },
     {
       "ingredient_id": 88,
@@ -64,6 +66,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the cheddar cheese. Halve the cherry tomatoes.",
+      "secondary_message": "57 g cheddar cheese\n6 cherry tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat to 205°C (400°F). Line baking sheet with parchment paper. Roll out puff pastry to a 5 1/2- by 51-cm rectangle that's about 0.5-cm thick. Trim edges and cut into four rectangular pieces.",

@@ -85,8 +85,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, soft but cool, about 65°F/18°C",
-      "quantity": "5 oz"
+      "name": "unsalted butter",
+      "quantity": "5 oz",
+      "prep": "soft but cool, about 65°F/18°C"
     },
     {
       "ingredient_id": 293,
@@ -125,13 +126,15 @@
     },
     {
       "ingredient_id": 3641,
-      "name": "egg yolks, straight from the fridge",
-      "quantity": "3 large"
+      "name": "egg yolks",
+      "quantity": "3 large",
+      "prep": "straight from the fridge"
     },
     {
       "ingredient_id": 2888,
-      "name": "plump sticky dried Mission figs, stems trimmed",
-      "quantity": "12 oz"
+      "name": "plump sticky dried Mission figs",
+      "quantity": "12 oz",
+      "prep": "stems trimmed"
     },
     {
       "ingredient_id": 1046,
@@ -145,6 +148,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Let the unsalted butter soften slightly but keep it cool and bring it to 65°F/18°C. Keep the egg yolks cold until you use them. Trim the stems of the plump sticky dried Mission figs.",
+      "secondary_message": "5 oz unsalted butter\n3 large egg yolks\n12 oz plump sticky dried Mission figs"
+    },
     {
       "id": 1,
       "primary_message": "Prepare the Dough: Combine butter, brown sugar, baking soda, salt, cinnamon, honey, and orange zest in the bowl of a stand mixer fitted with a paddle attachment. Mix on low speed to moisten, then increase to medium and cream until light and fluffy, about 5 minutes. Add orange juice, then add the egg yolks one at a time and continue beating until smooth. Reduce the speed to low and sprinkle in the flour, mixing until well combined.",

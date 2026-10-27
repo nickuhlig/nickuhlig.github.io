@@ -55,8 +55,9 @@
   "ingredients": [
     {
       "ingredient_id": 469,
-      "name": "pitted black plums, unpeeled, cut into quarters",
-      "quantity": "1.8 kg"
+      "name": "pitted black plums",
+      "quantity": "1.8 kg",
+      "prep": "unpeeled, cut into quarters"
     },
     {
       "ingredient_id": 346,
@@ -75,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Leave unpeeled and cut the pitted black plums into quarters.",
+      "secondary_message": "1.8 kg pitted black plums"
+    },
     {
       "id": 1,
       "primary_message": "Combine plums, sugar, and pectin (if using) in a large bowl and toss. Cover and refrigerate for at least 8 and up to 24 hours.",

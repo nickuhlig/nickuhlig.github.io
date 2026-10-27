@@ -53,8 +53,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, juiced",
-      "quantity": "½"
+      "name": "lemon",
+      "quantity": "½",
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -68,6 +69,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "Place the pig's head in the pot along with the rest of the ingredients. Cover with water by 2 inches. Bring to a simmer, then reduce the heat and very gently simmer for 5 hours, or until all the meat is tender.",

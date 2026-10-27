@@ -77,8 +77,9 @@
     },
     {
       "ingredient_id": 2156,
-      "name": "beef sirloin tips, cut into 1 1/2-inch cubes",
-      "quantity": "0.68 kg"
+      "name": "beef sirloin tips",
+      "quantity": "0.68 kg",
+      "prep": "cut into 1 1/2-inch cubes"
     },
     {
       "ingredient_id": 236,
@@ -87,16 +88,24 @@
     },
     {
       "ingredient_id": 1676,
-      "name": "sweet onion, sliced into 1 1/2-inch cubes",
-      "quantity": "1 large"
+      "name": "sweet onion",
+      "quantity": "1 large",
+      "prep": "sliced into 1 1/2-inch cubes"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell peppers, cut into 1 1/2-inch squares",
-      "quantity": "2 medium"
+      "name": "red bell peppers",
+      "quantity": "2 medium",
+      "prep": "cut into 1 1/2-inch squares"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the beef sirloin tips into 1 1/2-inch cubes. Slice the sweet onion into 1 1/2-inch cubes. Cut the red bell peppers into 1 1/2-inch squares.",
+      "secondary_message": "0.68 kg beef sirloin tips\n1 large sweet onion\n2 medium red bell peppers"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in a small saucepan over medium-high heat until shimmering. Add ginger, garlic, and red pepper and cook until fragrant, about 1 minute. Stir in teriyaki sauce, 1/4 cup of pineapple juice, soy sauce, and brown sugar. Bring to a boil, then reduce heat to low and simmer for 5 minutes. Remove from heat and let cool.",

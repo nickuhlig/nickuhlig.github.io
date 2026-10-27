@@ -42,8 +42,9 @@
     },
     {
       "ingredient_id": 228,
-      "name": "lime, zested",
-      "quantity": "1"
+      "name": "lime",
+      "quantity": "1",
+      "prep": "zested"
     },
     {
       "ingredient_id": 75,
@@ -72,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the lime.",
+      "secondary_message": "1 lime"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 250oF. Whisk lime juice, lime zest, chili powder, salt, sugar, and cayenne pepper together in large bowl. Add peanuts and stir until evenly coated. Scrape nuts onto large, rimmed baking sheet. Bake until nuts are fragrant, dry, and beginning to darken, about 30 minutes.",

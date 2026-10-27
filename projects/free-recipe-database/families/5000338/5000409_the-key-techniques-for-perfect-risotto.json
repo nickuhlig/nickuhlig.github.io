@@ -41,9 +41,10 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely minced",
+      "name": "yellow onion",
       "quantity": "1 medium",
-      "weigh_as": "112 g"
+      "weigh_as": "112 g",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 88,
@@ -72,11 +73,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cubed",
-      "quantity": "4 tbsp"
+      "name": "cold unsalted butter",
+      "quantity": "4 tbsp",
+      "prep": "cubed"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the yellow onion. Cube the cold unsalted butter.",
+      "secondary_message": "1 medium yellow onion\n4 tbsp cold unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Set serving plates in a very low over or other warm location to keep warm until serving time. In a 3- or 5-quart saucier or medium Dutch oven, heat olive oil over medium heat until shimmering. Add onion, season lightly with salt, and cook, stirring frequently, until onion is translucent and soft but not browned, about 5 minutes.",

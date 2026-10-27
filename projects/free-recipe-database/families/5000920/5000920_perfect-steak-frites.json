@@ -57,8 +57,9 @@
   "ingredients": [
     {
       "ingredient_id": 2960,
-      "name": "bone-in steaks, 1 1/4 to 1 1/2 inches thick, trimmed",
-      "quantity": "2 lb"
+      "name": "bone-in steaks, 1 1/4 to 1 1/2 inches thick",
+      "quantity": "2 lb",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 88,
@@ -108,8 +109,9 @@
     },
     {
       "ingredient_id": 2751,
-      "name": "drained, rinsed green peppercorns packed in brine",
-      "quantity": "3 tbsp"
+      "name": "drained",
+      "quantity": "3 tbsp",
+      "prep": "rinsed green peppercorns packed in brine"
     },
     {
       "ingredient_id": 144,
@@ -148,6 +150,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the bone-in steaks. Rinse the drained green peppercorns packed in brine.",
+      "secondary_message": "2 lb bone-in steaks, 1 1/4 to 1 1/2 inches thick\n3 tbsp drained"
+    },
     {
       "id": 1,
       "primary_message": "For the Steaks: Pat steaks dry with paper towels. Season liberally with salt. Allow to rest at room temperature for at least 40 minutes and up to 2 hours. Alternatively, place on a plate or on a rack over a baking sheet in the refrigerator for up to 24 hours. Remove from refrigerator at least 40 minutes before cooking.",

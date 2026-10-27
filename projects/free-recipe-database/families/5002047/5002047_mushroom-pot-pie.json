@@ -88,8 +88,9 @@
     },
     {
       "ingredient_id": 2206,
-      "name": "dried porcini mushrooms, rinsed and drained",
-      "quantity": "½ oz"
+      "name": "dried porcini mushrooms",
+      "quantity": "½ oz",
+      "prep": "rinsed and drained"
     },
     {
       "ingredient_id": 115,
@@ -98,18 +99,21 @@
     },
     {
       "ingredient_id": 2627,
-      "name": "frozen pearl onions, thawed",
-      "quantity": "1 cup"
+      "name": "frozen pearl onions",
+      "quantity": "1 cup",
+      "prep": "thawed"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and cut into 1/2-inch pieces",
-      "quantity": "2 large"
+      "name": "carrots",
+      "quantity": "2 large",
+      "prep": "peeled and cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 233,
-      "name": "parsnip, peeled and cut into 1/2-inch pieces",
-      "quantity": "1 medium"
+      "name": "parsnip",
+      "quantity": "1 medium",
+      "prep": "peeled and cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 1677,
@@ -148,16 +152,24 @@
     },
     {
       "ingredient_id": 1021,
-      "name": "9 1/2 x 9-inch sheet frozen puff pastry, thawed",
-      "quantity": "1"
+      "name": "9 1/2 x 9-inch sheet frozen puff pastry",
+      "quantity": "1",
+      "prep": "thawed"
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten with 1 teaspoon water",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "beaten with 1 teaspoon water"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse and drain the dried porcini mushrooms. Thaw the frozen pearl onions. Peel and cut the carrots into 1/2-inch pieces. Peel and cut the parsnip into 1/2-inch pieces. Thaw the 9 1/2 x 9-inch sheet frozen puff pastry. Beat the egg with 1 teaspoon water.",
+      "secondary_message": "½ oz dried porcini mushrooms\n1 cup frozen pearl onions\n2 large carrots\n1 medium parsnip\n1 9 1/2 x 9-inch sheet frozen puff pastry\n1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven racks to upper-middle and lower-middle positions and preheat oven to 425°F (220℃). If using shiitake mushrooms, remove and discard stems; for portobello and cremini mushrooms remove and reserve stems, discarding any woody stems. Cut shiitake and portobello mushrooms into 1/2-inch pieces. Halve cremini mushrooms or quarter if larger than 1 1/2 inches wide.",

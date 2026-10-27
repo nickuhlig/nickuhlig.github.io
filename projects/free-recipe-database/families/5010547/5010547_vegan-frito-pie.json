@@ -58,13 +58,15 @@
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño, sliced into 1/4-inch rings",
-      "quantity": "1"
+      "name": "jalapeño",
+      "quantity": "1",
+      "prep": "sliced into 1/4-inch rings"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, thinly sliced",
-      "quantity": "1 small"
+      "name": "red onion",
+      "quantity": "1 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2901,
@@ -73,11 +75,18 @@
     },
     {
       "ingredient_id": 3214,
-      "name": "leftover vegan, heated",
-      "quantity": "1 cup"
+      "name": "leftover vegan",
+      "quantity": "1 cup",
+      "prep": "heated"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the jalapeño into 1/4-inch rings. Thinly slice the red onion. Heat the leftover vegan.",
+      "secondary_message": "1 jalapeño\n1 small red onion\n1 cup leftover vegan"
+    },
     {
       "id": 1,
       "primary_message": "Combine vinegar, water, sugar, and salt in a small saucepan. Bring to a boil over high heat. Add jalapeño and red onion. Cook, stirring frequently, until onions have lightly softened and are translucent and jalapeños have become dirty green, about 2 minutes. Remove from heat and set aside. See note.",

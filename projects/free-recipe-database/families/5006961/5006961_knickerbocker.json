@@ -49,11 +49,18 @@
     },
     {
       "ingredient_id": 228,
-      "name": "lime, juiced",
-      "quantity": "½"
+      "name": "lime",
+      "quantity": "½",
+      "prep": "juiced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "½ lime"
+    },
     {
       "id": 1,
       "primary_message": "Combine ingredients in a cocktail shaker and fill with ice; shake well and pour, unstrained, into a chilled old fashioned glass. Garnish with raspberries, blackberries, or most any kind of fresh fruit you have on hand.",

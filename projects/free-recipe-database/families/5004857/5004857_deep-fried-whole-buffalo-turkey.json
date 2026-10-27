@@ -78,8 +78,9 @@
     },
     {
       "ingredient_id": 157,
-      "name": "celery, rinsed",
-      "quantity": "1 head"
+      "name": "celery",
+      "quantity": "1 head",
+      "prep": "rinsed"
     },
     {
       "ingredient_id": 425,
@@ -88,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse the celery.",
+      "secondary_message": "1 head celery"
+    },
     {
       "id": 1,
       "primary_message": "Place turkey on frying rig according to manufacturer's instructions, with legs pointing down. Add to empty frying vessel. Add oil until turkey is barely submerged. Remove turkey, allow excess oil to drip back into pot, and transfer to a rimmed baking sheet.",

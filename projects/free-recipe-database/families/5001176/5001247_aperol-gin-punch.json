@@ -76,16 +76,24 @@
     },
     {
       "ingredient_id": 2406,
-      "name": "sparkling wine, chilled",
-      "quantity": "1 (750 ml) bottle"
+      "name": "sparkling wine",
+      "quantity": "1 (750 ml) bottle",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 232,
-      "name": "oranges, sliced in thin round slices",
-      "quantity": "2"
+      "name": "oranges",
+      "quantity": "2",
+      "prep": "sliced in thin round slices"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the sparkling wine cold until you use it. Slice the oranges in thin round slices.",
+      "secondary_message": "1 (750 ml) bottle sparkling wine\n2 oranges"
+    },
     {
       "id": 1,
       "primary_message": "In a large punch bowl or beverage dispenser, mix gin, Aperol, Chartreuse, lime juice, grapefruit juice, and orange juice. Add bitters and stir. Add several cups of ice, stir, and let chill, 15 minutes. Ice should dilute the punch slightly. Top with sparkling wine, stir gently, and garnish with orange slices. Serve over additional ice.",

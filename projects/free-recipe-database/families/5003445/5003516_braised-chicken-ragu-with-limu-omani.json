@@ -47,13 +47,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, diced, about 3 cups",
-      "quantity": "2 medium"
+      "name": "onions, about 3 cups",
+      "quantity": "2 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, diced, about 2 cups",
-      "quantity": "5 medium"
+      "name": "carrots, about 2 cups",
+      "quantity": "5 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 323,
@@ -87,8 +89,9 @@
     },
     {
       "ingredient_id": 1469,
-      "name": "allspice, ground",
-      "quantity": "1 tsp"
+      "name": "allspice",
+      "quantity": "1 tsp",
+      "prep": "ground"
     },
     {
       "ingredient_id": 2205,
@@ -97,6 +100,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the onions. Dice the carrots. Grind the allspice.",
+      "secondary_message": "2 medium onions, about 3 cups\n5 medium carrots, about 2 cups\n1 tsp allspice"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower middle position and preheat an oven to 150°C (300°F). Cut the chicken into 8 pieces (for detailed instructions, see here) and remove the skin. Pat them very dry and rub both sides with kosher salt.",

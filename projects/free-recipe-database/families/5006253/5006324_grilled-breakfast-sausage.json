@@ -39,13 +39,15 @@
   "ingredients": [
     {
       "ingredient_id": 1821,
-      "name": "trimmed boneless pork butt, diced into 1/2-inch cubes",
-      "quantity": "0.91 kg"
+      "name": "trimmed boneless pork butt",
+      "quantity": "0.91 kg",
+      "prep": "diced into 1/2-inch cubes"
     },
     {
       "ingredient_id": 2660,
-      "name": "fat back, diced into 1/2-inch cubes",
-      "quantity": "0.23 kg"
+      "name": "fat back",
+      "quantity": "0.23 kg",
+      "prep": "diced into 1/2-inch cubes"
     },
     {
       "ingredient_id": 88,
@@ -59,18 +61,21 @@
     },
     {
       "ingredient_id": 2015,
-      "name": "fresh sage leaves, finely chopped",
-      "quantity": "2 tsp"
+      "name": "fresh sage leaves",
+      "quantity": "2 tsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1677,
-      "name": "fresh thyme leaves, finely chopped",
-      "quantity": "2 tsp"
+      "name": "fresh thyme leaves",
+      "quantity": "2 tsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 286,
-      "name": "fresh rosemary leaves, finely chopped",
-      "quantity": "½ tsp"
+      "name": "fresh rosemary leaves",
+      "quantity": "½ tsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 293,
@@ -99,6 +104,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the trimmed boneless pork butt into 1/2-inch cubes. Dice the fat back into 1/2-inch cubes. Finely chop the fresh sage leaves. Finely chop the fresh thyme leaves. Finely chop the fresh rosemary leaves.",
+      "secondary_message": "0.91 kg trimmed boneless pork butt\n0.23 kg fat back\n2 tsp fresh sage leaves\n2 tsp fresh thyme leaves\n½ tsp fresh rosemary leaves"
+    },
     {
       "id": 1,
       "primary_message": "Add pork butt, fatback, salt, pepper, sage, thyme, rosemary, brown sugar, nutmeg, cayenne, and pepper flakes to medium bowl and toss to combine. Refrigerate for at least 1 hour.",

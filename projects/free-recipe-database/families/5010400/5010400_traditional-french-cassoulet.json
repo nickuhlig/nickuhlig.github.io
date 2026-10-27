@@ -51,13 +51,15 @@
     },
     {
       "ingredient_id": 2419,
-      "name": "salt pork, cut into 3/4-inch cubes",
-      "quantity": "8 oz"
+      "name": "salt pork",
+      "quantity": "8 oz",
+      "prep": "cut into 3/4-inch cubes"
     },
     {
       "ingredient_id": 2164,
-      "name": "boneless pork shoulder, cut into 1-inch cubes",
-      "quantity": "8 oz"
+      "name": "boneless pork shoulder",
+      "quantity": "8 oz",
+      "prep": "cut into 1-inch cubes"
     },
     {
       "ingredient_id": 1702,
@@ -76,18 +78,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely diced",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, unpeeled and cut into 3-inch sections",
-      "quantity": "1 medium"
+      "name": "carrot",
+      "quantity": "1 medium",
+      "prep": "unpeeled and cut into 3-inch sections"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, cut into 3-inch sections",
-      "quantity": "2 ribs"
+      "name": "celery",
+      "quantity": "2 ribs",
+      "prep": "cut into 3-inch sections"
     },
     {
       "ingredient_id": 24,
@@ -111,6 +116,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the salt pork into 3/4-inch cubes. Cut the boneless pork shoulder into 1-inch cubes. Finely dice the onion. Leave unpeeled and cut the carrot into 3-inch sections. Cut the celery into 3-inch sections.",
+      "secondary_message": "8 oz salt pork\n8 oz boneless pork shoulder\n1 large onion\n1 medium carrot\n2 ribs celery"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, cover beans with 3 quarts water and add salt. Stir to combine, then let stand at room temperature overnight. Drain and rinse beans; set aside.",

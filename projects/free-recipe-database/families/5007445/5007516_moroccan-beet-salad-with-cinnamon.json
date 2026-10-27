@@ -30,8 +30,9 @@
   "ingredients": [
     {
       "ingredient_id": 13,
-      "name": "beets, greens removed but skin left on",
-      "quantity": "4 large"
+      "name": "beets",
+      "quantity": "4 large",
+      "prep": "greens removed but skin left on"
     },
     {
       "ingredient_id": 74,
@@ -65,6 +66,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the greens from the beets but skin left on.",
+      "secondary_message": "4 large beets"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 220°C (425°F). Line a baking sheet with foil.",

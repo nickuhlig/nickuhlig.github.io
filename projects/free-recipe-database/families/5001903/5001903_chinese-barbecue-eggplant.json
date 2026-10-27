@@ -56,13 +56,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "8 medium cloves"
+      "name": "garlic",
+      "quantity": "8 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1762,
-      "name": "fresh red Thai chiles, sliced",
-      "quantity": "2"
+      "name": "fresh red Thai chiles",
+      "quantity": "2",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 1935,
@@ -86,6 +88,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic. Slice the fresh red Thai chiles.",
+      "secondary_message": "8 medium cloves garlic\n2 fresh red Thai chiles"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat the oven to 425°F. Place eggplant on a foil-lined rimmed baking sheet and brush each eggplant all over with 1 tablespoon oil. Roast until tender and brown, 20 to 25 minutes.",

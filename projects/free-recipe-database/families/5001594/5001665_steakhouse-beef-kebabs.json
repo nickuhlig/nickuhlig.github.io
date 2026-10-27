@@ -77,8 +77,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "gloves garlic, minced",
-      "quantity": "3"
+      "name": "gloves garlic",
+      "quantity": "3",
+      "prep": "minced"
     },
     {
       "ingredient_id": 293,
@@ -92,13 +93,15 @@
     },
     {
       "ingredient_id": 2156,
-      "name": "beef sirloin tips, cut into 1 1/2-inch cubes",
-      "quantity": "0.68 kg"
+      "name": "beef sirloin tips",
+      "quantity": "0.68 kg",
+      "prep": "cut into 1 1/2-inch cubes"
     },
     {
       "ingredient_id": 230,
-      "name": "cremini mushrooms, cleaned and halved",
-      "quantity": "226 g"
+      "name": "cremini mushrooms",
+      "quantity": "226 g",
+      "prep": "cleaned and halved"
     },
     {
       "ingredient_id": 184,
@@ -107,6 +110,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the gloves garlic. Cut the beef sirloin tips into 1 1/2-inch cubes. Clean and halve the cremini mushrooms.",
+      "secondary_message": "3 gloves garlic\n0.68 kg beef sirloin tips\n226 g cremini mushrooms"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, whisk together oil, Worcestershire sauce, soy sauce, lemon juice, mustard, garlic, brown sugar, and black pepper. Place beef cubes and mushrooms in a large resealable plastic bag. Add marinade and seal bag, pressing out as much air as possible, and moving bag as needed to ensure meat is well coated in the marinade. Refrigerate for at least 1 hour and up to 5 hours.",

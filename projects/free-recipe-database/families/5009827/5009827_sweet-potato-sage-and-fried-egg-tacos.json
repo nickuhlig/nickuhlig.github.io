@@ -48,9 +48,10 @@
     },
     {
       "ingredient_id": 143,
-      "name": "sweet potato, cut into 1/4- to 1/2-inch dice",
+      "name": "sweet potato",
       "quantity": "⅓ lb",
-      "weigh_as": "1 large"
+      "weigh_as": "1 large",
+      "prep": "cut into 1/4- to 1/2-inch dice"
     },
     {
       "ingredient_id": 88,
@@ -64,8 +65,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "2 medium"
+      "name": "garlic cloves",
+      "quantity": "2 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2015,
@@ -94,8 +96,9 @@
     },
     {
       "ingredient_id": 343,
-      "name": "radish, thinly sliced",
-      "quantity": "1 large"
+      "name": "radish",
+      "quantity": "1 large",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 188,
@@ -104,11 +107,18 @@
     },
     {
       "ingredient_id": 228,
-      "name": "lime, cut into wedges",
-      "quantity": "1"
+      "name": "lime",
+      "quantity": "1",
+      "prep": "cut into wedges"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the sweet potato into 1/4- to 1/2-inch dice. Mince the garlic cloves. Thinly slice the radish. Cut the lime into wedges.",
+      "secondary_message": "⅓ lb sweet potato\n2 medium garlic cloves\n1 large radish\n1 lime"
+    },
     {
       "id": 1,
       "primary_message": "Heat 2 tablespoons oil in a large non-stick or cast iron skillet over medium-high heat until shimmering. Add sweet potato, season with salt and pepper, and cook, stirring and tossing frequently, until softened and lightly browned on all sides, about 8 minutes. Add garlic and sage and cook, stirring constantly, until fragrant, about 30 seconds. Transfer mixture to a bowl, cover, and keep warm.",

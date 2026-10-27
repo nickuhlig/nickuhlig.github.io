@@ -39,8 +39,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "5 tbsp"
+      "name": "unsalted butter",
+      "quantity": "5 tbsp",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 116,
@@ -84,13 +85,15 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 118,
-      "name": "milk, at room temperature",
-      "quantity": "1 cup"
+      "name": "milk",
+      "quantity": "1 cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 353,
@@ -119,8 +122,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "5 tbsp"
+      "name": "unsalted butter",
+      "quantity": "5 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 118,
@@ -149,6 +153,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature. Bring the eggs to room temperature. Bring the milk to room temperature. Melt the unsalted butter.",
+      "secondary_message": "5 tbsp unsalted butter\n2 large eggs\n1 cup milk\n5 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the cake: Adjust oven rack to middle position and preheat oven to 175°C (350°F). Grease bundt pan with 1 tablespoon butter.",

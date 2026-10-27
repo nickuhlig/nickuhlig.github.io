@@ -34,28 +34,33 @@
   "ingredients": [
     {
       "ingredient_id": 1980,
-      "name": "cucumber, sliced thin",
-      "quantity": "½ small"
+      "name": "cucumber",
+      "quantity": "½ small",
+      "prep": "sliced thin"
     },
     {
       "ingredient_id": 242,
-      "name": "strawberries, sliced thin",
-      "quantity": "8"
+      "name": "strawberries",
+      "quantity": "8",
+      "prep": "sliced thin"
     },
     {
       "ingredient_id": 232,
-      "name": "orange, sliced thin",
-      "quantity": "½"
+      "name": "orange",
+      "quantity": "½",
+      "prep": "sliced thin"
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, sliced thin",
-      "quantity": "½"
+      "name": "lemon",
+      "quantity": "½",
+      "prep": "sliced thin"
     },
     {
       "ingredient_id": 1692,
-      "name": "green apple, sliced thin",
-      "quantity": "½"
+      "name": "green apple",
+      "quantity": "½",
+      "prep": "sliced thin"
     },
     {
       "ingredient_id": 1840,
@@ -74,6 +79,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the cucumber thin. Slice the strawberries thin. Slice the orange thin. Slice the lemon thin. Slice the green apple thin.",
+      "secondary_message": "½ small cucumber\n8 strawberries\n½ orange\n½ lemon\n½ green apple"
+    },
     {
       "id": 1,
       "primary_message": "Layer fruit slices and ice in a pitcher. Add Pimm's and soda. Stir gently with a wooden spoon to combine. Pour into glasses, making sure to get fruit and ice in each glass. Garnish with mint, and serve.",

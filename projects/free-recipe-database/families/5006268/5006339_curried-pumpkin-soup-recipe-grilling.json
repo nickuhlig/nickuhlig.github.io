@@ -34,13 +34,15 @@
   "ingredients": [
     {
       "ingredient_id": 2423,
-      "name": "sugar pumpkins, halved and seeded",
-      "quantity": "2 medium"
+      "name": "sugar pumpkins",
+      "quantity": "2 medium",
+      "prep": "halved and seeded"
     },
     {
       "ingredient_id": 115,
-      "name": "butter, melted",
-      "quantity": "2 tbsp"
+      "name": "butter",
+      "quantity": "2 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 47,
@@ -49,8 +51,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, chopped medium",
-      "quantity": "1 large"
+      "name": "yellow onion",
+      "quantity": "1 large",
+      "prep": "chopped medium"
     },
     {
       "ingredient_id": 221,
@@ -104,6 +107,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve and seed the sugar pumpkins. Melt the butter. Chop the yellow onion medium.",
+      "secondary_message": "2 medium sugar pumpkins\n2 tbsp butter\n1 large yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "Light one chimney full of charcoal. When all the charcoal is lit and covered with gray ash, pour out and arrange the coals on one side of the charcoal grate. Set cooking grate in place, cover grill and allow to preheat for 5 minutes. Clean and oil the grilling grate. Brush exposed flesh of pumpkin with melted butter, then season lightly with salt and pepper. Place pumpkin halves over cool side of grill, cover, and cook at medium heat until paring knife can be inserted in middle of pumpkin with no resistance, about 45-60 minutes. Remove pumpkin from grill and let sit until cool enough to handle. Scoop out flesh of pumpkin halves into bowl and discard skin, you should have about 4 cups of pumpkin.",

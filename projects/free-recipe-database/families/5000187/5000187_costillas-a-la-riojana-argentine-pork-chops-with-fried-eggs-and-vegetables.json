@@ -54,18 +54,21 @@
     },
     {
       "ingredient_id": 150,
-      "name": "red bell pepper, stemmed, seeded, and very thinly sliced",
-      "quantity": "1 medium"
+      "name": "red bell pepper",
+      "quantity": "1 medium",
+      "prep": "stemmed, seeded, and very thinly sliced"
     },
     {
       "ingredient_id": 291,
-      "name": "green bell pepper, stemmed, seeded, and very thinly sliced",
-      "quantity": "1 medium"
+      "name": "green bell pepper",
+      "quantity": "1 medium",
+      "prep": "stemmed, seeded, and very thinly sliced"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, thinly sliced",
-      "quantity": "1 large"
+      "name": "yellow onion",
+      "quantity": "1 large",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 115,
@@ -99,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem, seed, and very thinly slice the red bell pepper. Stem, seed, and very thinly slice the green bell pepper. Thinly slice the yellow onion.",
+      "secondary_message": "1 medium red bell pepper\n1 medium green bell pepper\n1 large yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "Season pork chops all over with salt and set on a wire rack set in a rimmed baking sheet for at least 40 minutes or refrigerate, uncovered, for up to 24 hours.",

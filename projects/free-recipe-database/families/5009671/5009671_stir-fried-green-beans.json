@@ -37,13 +37,15 @@
   "ingredients": [
     {
       "ingredient_id": 111,
-      "name": "green beans, washed and dried",
-      "quantity": "½ lb"
+      "name": "green beans",
+      "quantity": "½ lb",
+      "prep": "washed and dried"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 1891,
@@ -62,6 +64,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash and dry the green beans. Peel the garlic.",
+      "secondary_message": "½ lb green beans\n2 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Stem and snap each green bean in half; set aside. Smash the garlic cloves with the blunt side of the cleaver until the cloves are flattened.",

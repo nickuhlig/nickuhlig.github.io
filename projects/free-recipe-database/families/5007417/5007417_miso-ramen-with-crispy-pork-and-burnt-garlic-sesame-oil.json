@@ -42,8 +42,9 @@
     },
     {
       "ingredient_id": 2639,
-      "name": "chicken backs and carcasses, skin and excess fat removed",
-      "quantity": "2 lb"
+      "name": "chicken backs and carcasses",
+      "quantity": "2 lb",
+      "prep": "skin and excess fat removed"
     },
     {
       "ingredient_id": 1044,
@@ -52,8 +53,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, skin on, roughly chopped",
-      "quantity": "1 large"
+      "name": "onion, skin on",
+      "quantity": "1 large",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 24,
@@ -62,13 +64,15 @@
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, roughly chopped",
-      "quantity": "1 (3 inch) knob"
+      "name": "ginger",
+      "quantity": "1 (3 inch) knob",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 309,
-      "name": "whole leeks, washed and roughly chopped",
-      "quantity": "2"
+      "name": "whole leeks",
+      "quantity": "2",
+      "prep": "washed and roughly chopped"
     },
     {
       "ingredient_id": 2250,
@@ -117,6 +121,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the skin and excess fat from the chicken backs and carcasses. Roughly chop the onion. Roughly chop the ginger. Wash and roughly chop the whole leeks.",
+      "secondary_message": "2 lb chicken backs and carcasses\n1 large onion, skin on\n1 (3 inch) knob ginger\n2 whole leeks"
+    },
     {
       "id": 1,
       "primary_message": "Place pork and chicken bones in a large stockpot and cover with cold water. Place on a burner over high heat and bring to a boil. Remove from heat as soon as boil is reached.",

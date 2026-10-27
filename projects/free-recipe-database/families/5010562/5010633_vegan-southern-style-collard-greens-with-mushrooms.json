@@ -47,18 +47,21 @@
     },
     {
       "ingredient_id": 230,
-      "name": "cremini mushrooms, stems trimmed and caps sliced",
-      "quantity": "0.45 kg"
+      "name": "cremini mushrooms",
+      "quantity": "0.45 kg",
+      "prep": "stems trimmed and caps sliced"
     },
     {
       "ingredient_id": 1496,
-      "name": "hearty vegetable stock, rehydrated dried mushrooms reserved",
-      "quantity": "1900 ml"
+      "name": "hearty vegetable stock",
+      "quantity": "1900 ml",
+      "prep": "rehydrated dried mushrooms reserved"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, sliced into 2-inch lengths",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "sliced into 2-inch lengths"
     },
     {
       "ingredient_id": 478,
@@ -82,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the stems of the cremini mushrooms, then slice the caps. Rehydrate the hearty vegetable stock dried mushrooms reserved. Slice the yellow onion into 2-inch lengths.",
+      "secondary_message": "0.45 kg cremini mushrooms\n1900 ml hearty vegetable stock\n1 medium yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "In a large, heavy-bottomed pot or Dutch oven, heat 3 tablespoons oil over medium-high heat until shimmering. Add cremini mushrooms and reserved rehydrated mushrooms (from stock) and cook, stirring, until lightly browned, about 8 minutes. Add onion and cook, scraping up any browned bits, until softened, about 3 minutes; lower heat if necessary to prevent scorching.",

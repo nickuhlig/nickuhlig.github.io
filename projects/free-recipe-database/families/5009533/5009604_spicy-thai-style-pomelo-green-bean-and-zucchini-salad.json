@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 1762,
-      "name": "green Thai chili, finely chopped",
-      "quantity": "1 small"
+      "name": "green Thai chili",
+      "quantity": "1 small",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 293,
@@ -66,8 +67,9 @@
     },
     {
       "ingredient_id": 111,
-      "name": "trimmed green beans, cut into 1-inch segments",
-      "quantity": "340 g"
+      "name": "trimmed green beans",
+      "quantity": "340 g",
+      "prep": "cut into 1-inch segments"
     },
     {
       "ingredient_id": 2324,
@@ -76,8 +78,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, thinly sliced",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2822,
@@ -91,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the green Thai chili. Cut the trimmed green beans into 1-inch segments. Thinly slice the shallot.",
+      "secondary_message": "1 small green Thai chili\n340 g trimmed green beans\n1 medium shallot"
+    },
     {
       "id": 1,
       "primary_message": "Bring a large pot of salted water to a boil. Meanwhile, Combine garlic, pepper flakes, and Thai chilies in a mortar and pestle and pound into a fine paste (see note). Add sugar, fish sauce, and lime juice, and pound until the sugar is dissolved. Taste dressing and add more sugar, fish sauce, lime juice, or pepper flakes to taste. It should be strongly spicy, sweet, salty, and acidic.",

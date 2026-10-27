@@ -62,23 +62,27 @@
     },
     {
       "ingredient_id": 1019,
-      "name": "graham crackers, finely crushed",
-      "quantity": "15"
+      "name": "graham crackers",
+      "quantity": "15",
+      "prep": "finely crushed"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "3 ½ oz"
+      "name": "unsalted butter",
+      "quantity": "3 ½ oz",
+      "prep": "melted"
     },
     {
       "ingredient_id": 2581,
-      "name": "white chocolate, finely chopped",
-      "quantity": "12 oz"
+      "name": "white chocolate",
+      "quantity": "12 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, at room temperature",
-      "quantity": "1 lb"
+      "name": "cream cheese",
+      "quantity": "1 lb",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -92,8 +96,9 @@
     },
     {
       "ingredient_id": 1003,
-      "name": "sour cream, at room temperature",
-      "quantity": "20 oz"
+      "name": "sour cream",
+      "quantity": "20 oz",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1480,
@@ -112,6 +117,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely crush the graham crackers. Melt the unsalted butter. Finely chop the white chocolate. Bring the cream cheese to room temperature. Bring the sour cream to room temperature.",
+      "secondary_message": "15 graham crackers\n3 ½ oz unsalted butter\n12 oz white chocolate\n1 lb cream cheese\n20 oz sour cream"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350°F. Using nonstick cooking spray, lightly grease a 9-inch springform pan. Using aluminum foil, wrap bottom half of the pan to create a waterproof seal.",

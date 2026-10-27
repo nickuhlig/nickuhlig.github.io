@@ -38,23 +38,27 @@
   "ingredients": [
     {
       "ingredient_id": 184,
-      "name": "red onion, finely sliced",
-      "quantity": "1 small"
+      "name": "red onion",
+      "quantity": "1 small",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, split in half",
-      "quantity": "2 cups"
+      "name": "cherry tomatoes",
+      "quantity": "2 cups",
+      "prep": "split in half"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell pepper, cut into 3/4-inch pieces",
-      "quantity": "1 medium"
+      "name": "red bell pepper",
+      "quantity": "1 medium",
+      "prep": "cut into 3/4-inch pieces"
     },
     {
       "ingredient_id": 291,
-      "name": "green bell pepper, cut into 3/4-inch pieces",
-      "quantity": "1 medium"
+      "name": "green bell pepper",
+      "quantity": "1 medium",
+      "prep": "cut into 3/4-inch pieces"
     },
     {
       "ingredient_id": 88,
@@ -83,8 +87,9 @@
     },
     {
       "ingredient_id": 32,
-      "name": "feta cheese, cut into 1/2-inch cubes",
-      "quantity": "113 g"
+      "name": "feta cheese",
+      "quantity": "113 g",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 1746,
@@ -93,6 +98,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely slice the red onion. Split the cherry tomatoes in half. Cut the red bell pepper into 3/4-inch pieces. Cut the green bell pepper into 3/4-inch pieces. Cut the feta cheese into 1/2-inch cubes.",
+      "secondary_message": "1 small red onion\n2 cups cherry tomatoes\n1 medium red bell pepper\n1 medium green bell pepper\n113 g feta cheese"
+    },
     {
       "id": 1,
       "primary_message": "Place onions in a small bowl and cover with cold water. Set aside. Combine tomatoes and peppers in a colander set over a bowl and season with 1/2 teaspoon kosher salt and a few grinds black pepper. Allow to rest at room temperature for 20 minutes. You should end up with about 2 tablespoons juice in the bowl. If excess juice is collected, discard all but 2 tablespoons.",

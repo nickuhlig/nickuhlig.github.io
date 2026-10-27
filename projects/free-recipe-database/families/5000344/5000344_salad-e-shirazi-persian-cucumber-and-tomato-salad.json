@@ -60,19 +60,22 @@
     },
     {
       "ingredient_id": 260,
-      "name": "ripe tomatoes, cut into 1/4-inch dice",
+      "name": "ripe tomatoes",
       "quantity": "3",
-      "weigh_as": "14 oz"
+      "weigh_as": "14 oz",
+      "prep": "cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 1399,
-      "name": "Persian cucumbers, peeled and cut into 1/4-inch dice",
-      "quantity": "3"
+      "name": "Persian cucumbers",
+      "quantity": "3",
+      "prep": "peeled and cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, cut into 1/8-inch dice",
-      "quantity": "1 medium"
+      "name": "red onion",
+      "quantity": "1 medium",
+      "prep": "cut into 1/8-inch dice"
     },
     {
       "ingredient_id": 1579,
@@ -81,6 +84,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the ripe tomatoes into 1/4-inch dice. Peel and cut the Persian cucumbers into 1/4-inch dice. Cut the red onion into 1/8-inch dice.",
+      "secondary_message": "3 ripe tomatoes\n3 Persian cucumbers\n1 medium red onion"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, whisk verjuice (or vinegar or citrus juice), oil, dried mint, salt, and pepper until combined. Stir in tomato, cucumber, and onion and toss until well coated.",

@@ -89,8 +89,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, straight from the fridge",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "straight from the fridge"
     },
     {
       "ingredient_id": 1950,
@@ -104,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the egg cold until you use it.",
+      "secondary_message": "1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "Getting Ready: Adjust oven rack to lower-middle position and preheat to 350°F. Line an 8- by 3-inch anodized aluminum cake pan with parchment (see our explanation and tutorial on how to cut a parchment round) and grease lightly with pan spray.",

@@ -91,13 +91,15 @@
     },
     {
       "ingredient_id": 1747,
-      "name": "bay leaves, crushed",
-      "quantity": "2"
+      "name": "bay leaves",
+      "quantity": "2",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 1082,
-      "name": "cinnamon stick, broken into pieces",
-      "quantity": "1 (2 inch) small"
+      "name": "cinnamon stick",
+      "quantity": "1 (2 inch) small",
+      "prep": "broken into pieces"
     },
     {
       "ingredient_id": 1565,
@@ -121,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Crush the bay leaves. Break the cinnamon stick into pieces.",
+      "secondary_message": "2 bay leaves\n1 (2 inch) small cinnamon stick"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, combine 1 quart cold water with 1/4 cup of salt, stirring to dissolve the salt. Meanwhile, wash cucumbers, then trim off the flower-end (opposite of the stem) using a paring knife. Place cucumbers in cold saltwater bath. Let stand while you prepare the spice mixture.",

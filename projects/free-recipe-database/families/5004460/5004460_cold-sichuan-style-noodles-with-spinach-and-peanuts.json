@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 1879,
-      "name": "spinach, trimmed and washed",
-      "quantity": "1 large bunch"
+      "name": "spinach",
+      "quantity": "1 large bunch",
+      "prep": "trimmed and washed"
     },
     {
       "ingredient_id": 2088,
@@ -91,8 +92,9 @@
     },
     {
       "ingredient_id": 217,
-      "name": "toasted peanuts, roughly chopped",
-      "quantity": "¼ cup"
+      "name": "toasted peanuts",
+      "quantity": "¼ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 2595,
@@ -101,8 +103,9 @@
     },
     {
       "ingredient_id": 2402,
-      "name": "fresh red chiles, sliced",
-      "quantity": "2 small"
+      "name": "fresh red chiles",
+      "quantity": "2 small",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 153,
@@ -111,6 +114,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim and wash the spinach. Roughly chop the toasted peanuts. Slice the fresh red chiles.",
+      "secondary_message": "1 large bunch spinach\n¼ cup toasted peanuts\n2 small fresh red chiles"
+    },
     {
       "id": 1,
       "primary_message": "Bring a large pot of salted water to a boil over high heat. Add spinach and cook just until wilted, about 30 seconds. Remove with a strainer and run under cold water until chilled. Press out excess moisture, then wrap in a clean kitchen towel and squeeze to wring out water until spinach is dry and compressed. Roll the spinach into a tight ball and slice finely. Set aside.",

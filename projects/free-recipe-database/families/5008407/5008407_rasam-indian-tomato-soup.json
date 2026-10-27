@@ -45,13 +45,15 @@
     },
     {
       "ingredient_id": 1850,
-      "name": "green chile, such as a serrano, sliced",
-      "quantity": "1"
+      "name": "green chile, such as a serrano",
+      "quantity": "1",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 3375,
@@ -70,8 +72,9 @@
     },
     {
       "ingredient_id": 1514,
-      "name": "coriander seeds, ground",
-      "quantity": "2 tsp"
+      "name": "coriander seeds",
+      "quantity": "2 tsp",
+      "prep": "ground"
     },
     {
       "ingredient_id": 2869,
@@ -100,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the green chile. Mince the garlic. Grind the coriander seeds.",
+      "secondary_message": "1 green chile, such as a serrano\n4 cloves garlic\n2 tsp coriander seeds"
+    },
     {
       "id": 1,
       "primary_message": "Heat your soup pot on medium-high. Separate your spices into three groups that can be added to the pot easily: mustard seeds, \"wet\" spices (the curry leaves, chile, and garlic), and the dry spices (reserving a teaspoon of the amchoor for later).",

@@ -78,8 +78,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "3 oz"
+      "name": "unsalted butter",
+      "quantity": "3 oz",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -93,8 +94,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, room temperature",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 1032,
@@ -168,8 +170,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "1 oz"
+      "name": "unsalted butter",
+      "quantity": "1 oz",
+      "prep": "melted"
     },
     {
       "ingredient_id": 118,
@@ -193,6 +196,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature. Bring the egg to room temperature. Melt the unsalted butter.",
+      "secondary_message": "3 oz unsalted butter\n1 large egg\n1 oz unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Almond Cream: Adjust oven rack to middle position and preheat to 350°F (175ºC). Add almond flour to a parchment-lined rimmed baking sheet and spread into a thin, even layer. Toast, stirring every 3 minutes, until the almond flour is fragrant and light golden brown, about 10 minutes. Remove from oven and let cool to room temperature, about 20 minutes.",

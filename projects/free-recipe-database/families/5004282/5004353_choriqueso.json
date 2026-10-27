@@ -76,8 +76,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated on a microplane grater",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "grated on a microplane grater"
     },
     {
       "ingredient_id": 88,
@@ -96,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the garlic on a microplane grater.",
+      "secondary_message": "1 medium clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "Preheat broiler to high. Combine pork, vinegar, cinnamon, paprika, oregano, cumin, cayenne, garlic, and salt in a medium bowl and mix with your hands until combined. Heat vegetable oil in a 25-cm broiler-safe skillet over medium-high heat until shimmering. Add chorizo mixture and cook, stirring with a wooden spoon and breaking up the meat until it is no longer pink, about 5 minutes. Season to taste with more salt and remove from heat.",

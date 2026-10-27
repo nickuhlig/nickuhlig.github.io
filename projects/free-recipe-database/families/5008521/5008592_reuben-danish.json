@@ -81,13 +81,15 @@
     },
     {
       "ingredient_id": 2878,
-      "name": "corned beef, thinly sliced or chopped",
-      "quantity": "0.45 kg"
+      "name": "corned beef",
+      "quantity": "0.45 kg",
+      "prep": "thinly sliced or chopped"
     },
     {
       "ingredient_id": 479,
-      "name": "sauerkraut, drained",
-      "quantity": "2 cups"
+      "name": "sauerkraut",
+      "quantity": "2 cups",
+      "prep": "drained"
     },
     {
       "ingredient_id": 1234,
@@ -101,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice or chop the corned beef. Drain the sauerkraut.",
+      "secondary_message": "0.45 kg corned beef\n2 cups sauerkraut"
+    },
     {
       "id": 1,
       "primary_message": "To Make the Pastry: Combine the yeast and water in a medium bowl. Stir to combine. Place the rye flour, bread flour, gluten, sugar, and salt in the bowl of your food processor. Pulse several times to combine. Cut the butter into chunks and add it to the food processor. Pulse until you have pieces about the size of a garbanzo bean. It's fine if there are some larger and smaller pieces.",

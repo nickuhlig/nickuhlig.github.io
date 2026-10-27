@@ -31,8 +31,9 @@
   "ingredients": [
     {
       "ingredient_id": 18,
-      "name": "eggplants, halved lengthwise",
-      "quantity": "4 medium"
+      "name": "eggplants",
+      "quantity": "4 medium",
+      "prep": "halved lengthwise"
     },
     {
       "ingredient_id": 47,
@@ -56,8 +57,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, finely chopped",
-      "quantity": "2 medium"
+      "name": "onions",
+      "quantity": "2 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1491,
@@ -71,8 +73,9 @@
     },
     {
       "ingredient_id": 106,
-      "name": "flat-leaf parsley, chopped",
-      "quantity": "20 g"
+      "name": "flat-leaf parsley",
+      "quantity": "20 g",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 323,
@@ -116,6 +119,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the eggplants lengthwise. Finely chop the onions. Chop the flat-leaf parsley.",
+      "secondary_message": "4 medium eggplants\n2 medium onions\n20 g flat-leaf parsley"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 220°C (425°F)/220°C. Place the eggplant halves, skin side down, in a roasting pan large enough to accommodate them snugly. Brush the flesh with 4 tablespoons of the olive oil and season with 1 teaspoon salt and plenty of black pepper. Roast for about 20 minutes, until golden brown. Remove from the oven and allow to cool slightly.",

@@ -64,13 +64,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into 1/2-inch cubes",
-      "quantity": "57 g"
+      "name": "cold unsalted butter",
+      "quantity": "57 g",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 1091,
-      "name": "fully cooked ham, diced",
-      "quantity": "198 g"
+      "name": "fully cooked ham",
+      "quantity": "198 g",
+      "prep": "diced"
     },
     {
       "ingredient_id": 153,
@@ -95,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cold unsalted butter into 1/2-inch cubes. Dice the fully cooked ham.",
+      "secondary_message": "57 g cold unsalted butter\n198 g fully cooked ham"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower-middle position and preheat oven to 200°C (400°F). Sift flour into a medium bowl, then whisk in baking powder, sugar, and salt. Add butter and toss to break up the pieces, then smash each one flat between your fingertips. Continue smashing and rubbing until butter disappears into a coarse meal.",

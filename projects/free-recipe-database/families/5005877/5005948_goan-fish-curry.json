@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 2187,
-      "name": "coconut, scraped",
-      "quantity": "½ medium"
+      "name": "coconut",
+      "quantity": "½ medium",
+      "prep": "scraped"
     },
     {
       "ingredient_id": 1514,
@@ -90,8 +91,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, slivered",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "slivered"
     },
     {
       "ingredient_id": 359,
@@ -110,6 +112,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Scrape the coconut. Sliver the onion.",
+      "secondary_message": "½ medium coconut\n1 small onion"
+    },
     {
       "id": 1,
       "primary_message": "Grind chiles, coconut, coriander, cumin, turmeric, garlic, and ginger in a spice grinder or blender until very smooth. Set aside. Heat oil in a large heavy-bottomed lidded saucepan over high heat until shimmering. Add the curry leaves and chiles and stir till they splutter and release their aroma, about 15 seconds. Reduce heat to medium. Add the onion and cook, stirring occasionally, until softened but not browned, about 5 minutes.",

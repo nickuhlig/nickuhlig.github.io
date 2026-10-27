@@ -74,16 +74,24 @@
     },
     {
       "ingredient_id": 1754,
-      "name": "Spanish chorizo, thinly sliced",
-      "quantity": "2 oz"
+      "name": "Spanish chorizo",
+      "quantity": "2 oz",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 91,
-      "name": "cannellini beans, drained and rinsed",
-      "quantity": "1 (14 ½ oz) can"
+      "name": "cannellini beans",
+      "quantity": "1 (14 ½ oz) can",
+      "prep": "drained and rinsed"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the Spanish chorizo. Drain and rinse the cannellini beans.",
+      "secondary_message": "2 oz Spanish chorizo\n1 (14 ½ oz) can cannellini beans"
+    },
     {
       "id": 1,
       "primary_message": "Place the oven rack in the lower middle position. Preheat the oven to 400°F. Put the garlic, arugula, Pecorino, and 1/4 cup olive oil in a food processor and process until a rough paste is formed. Season to taste with salt and pepper.",

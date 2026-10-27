@@ -36,9 +36,10 @@
   "ingredients": [
     {
       "ingredient_id": 1980,
-      "name": "cucumbers, ends removed and sliced lengthwise",
+      "name": "cucumbers",
       "quantity": "1 ½",
-      "weigh_as": "0.45 kg"
+      "weigh_as": "0.45 kg",
+      "prep": "ends removed and sliced lengthwise"
     },
     {
       "ingredient_id": 122,
@@ -47,21 +48,30 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced fine",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "minced fine"
     },
     {
       "ingredient_id": 1932,
-      "name": "dill, minced",
-      "quantity": "1 large handful"
+      "name": "dill",
+      "quantity": "1 large handful",
+      "prep": "minced"
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, juiced",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "juiced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the ends from the cucumbers, then slice them lengthwise. Mince the garlic fine. Mince the dill. Juice the lemon.",
+      "secondary_message": "1 ½ cucumbers\n4 cloves garlic\n1 large handful dill\n1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "With a teaspoon, scoop out the seeds of the cucumbers. You should be left with a neat half-moon shape. Slice them thin, but not paper-thin—they should still have some crunch.",

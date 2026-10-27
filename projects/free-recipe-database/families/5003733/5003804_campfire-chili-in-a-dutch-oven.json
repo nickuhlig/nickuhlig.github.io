@@ -38,8 +38,9 @@
   "ingredients": [
     {
       "ingredient_id": 91,
-      "name": "cannellini beans, soaked in water for at least 4 hours",
-      "quantity": "0.45 kg"
+      "name": "cannellini beans",
+      "quantity": "0.45 kg",
+      "prep": "soaked in water for at least 4 hours"
     },
     {
       "ingredient_id": 1044,
@@ -48,23 +49,27 @@
     },
     {
       "ingredient_id": 2712,
-      "name": "pork shoulder, cut into 1- to 2-inch chunks",
-      "quantity": "1.36 kg"
+      "name": "pork shoulder",
+      "quantity": "1.36 kg",
+      "prep": "cut into 1- to 2-inch chunks"
     },
     {
       "ingredient_id": 2294,
-      "name": "raw hot Italian sausage, removed from casing",
-      "quantity": "0.45 kg"
+      "name": "raw hot Italian sausage",
+      "quantity": "0.45 kg",
+      "prep": "removed from casing"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño chile, finely chopped",
-      "quantity": "1"
+      "name": "jalapeño chile",
+      "quantity": "1",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 75,
@@ -108,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soak the cannellini beans in water for at least 4 hours. Cut the pork shoulder into 1- to 2-inch chunks. Remove the raw hot Italian sausage from casing. Finely chop the onion. Finely chop the jalapeño chile.",
+      "secondary_message": "0.45 kg cannellini beans\n1.36 kg pork shoulder\n0.45 kg raw hot Italian sausage\n1 large onion\n1 jalapeño chile"
+    },
     {
       "id": 1,
       "primary_message": "Rinse and drain soaked beans. Heat oil in Dutch oven over hot coals until smoking. Add half of pork and cook until well-browned on all sides, about 10 minutes. Transfer to a large bowl and repeat with remaining half of pork. Transfer second batch to bowl with the first batch.",

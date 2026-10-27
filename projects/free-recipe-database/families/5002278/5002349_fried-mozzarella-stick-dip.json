@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "packages full-fat cream cheese, cut into 1-inch pieces",
-      "quantity": "0.45 kg"
+      "name": "packages full-fat cream cheese",
+      "quantity": "0.45 kg",
+      "prep": "cut into 1-inch pieces"
     },
     {
       "ingredient_id": 409,
@@ -97,6 +98,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the packages full-fat cream cheese into 1-inch pieces.",
+      "secondary_message": "0.45 kg packages full-fat cream cheese"
+    },
     {
       "id": 1,
       "primary_message": "For the Dip: Adjust oven rack to middle position and preheat oven to 205°C (400°F).",

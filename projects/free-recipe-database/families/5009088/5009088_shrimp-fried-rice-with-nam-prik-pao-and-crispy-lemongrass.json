@@ -42,8 +42,9 @@
     },
     {
       "ingredient_id": 1811,
-      "name": "shrimp, medium, peeled and deveined",
-      "quantity": "¾ lb"
+      "name": "shrimp, medium",
+      "quantity": "¾ lb",
+      "prep": "peeled and deveined"
     },
     {
       "ingredient_id": 1905,
@@ -62,16 +63,24 @@
     },
     {
       "ingredient_id": 228,
-      "name": "lime, quartered",
-      "quantity": "1"
+      "name": "lime",
+      "quantity": "1",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 155,
-      "name": "English cucumber, peeled and sliced",
-      "quantity": "½"
+      "name": "English cucumber",
+      "quantity": "½",
+      "prep": "peeled and sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and devein the shrimp. Quarter the lime. Peel and slice the English cucumber.",
+      "secondary_message": "¾ lb shrimp, medium\n1 lime\n½ English cucumber"
+    },
     {
       "id": 1,
       "primary_message": "In an 8-inch skillet or 1-quart saucepan, combine lemongrass slices and oil. Place over low heat and cook, stirring constantly, until lemongrass turns light brown, about 20 minutes. Pour lemongrass mixture through a fine-mesh strainer set over a medium bowl (lemongrass will continue cooking for a brief period after draining, so do not allow them to get too dark). Set aside.",

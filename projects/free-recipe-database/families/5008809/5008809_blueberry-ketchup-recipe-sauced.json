@@ -49,8 +49,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic clove, minced",
-      "quantity": "1 medium"
+      "name": "garlic clove",
+      "quantity": "1 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 114,
@@ -74,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic clove.",
+      "secondary_message": "1 medium garlic clove"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil over medium heat in a medium sauce until shimmering. Add in shallot and cook until softened, but not browned, about 4 minutes. Add in ginger and garlic and cook until fragrant, about 30 seconds.",

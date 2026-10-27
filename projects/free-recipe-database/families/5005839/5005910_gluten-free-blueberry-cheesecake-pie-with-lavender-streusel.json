@@ -96,13 +96,15 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, diced, at room temperature",
-      "quantity": "0.23 kg"
+      "name": "cream cheese",
+      "quantity": "0.23 kg",
+      "prep": "diced, at room temperature"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "1 tbsp (½ oz)"
+      "name": "unsalted butter",
+      "quantity": "1 tbsp (½ oz)",
+      "prep": "melted"
     },
     {
       "ingredient_id": 346,
@@ -121,11 +123,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, diced",
-      "quantity": "8 tbsp (4 oz)"
+      "name": "cold unsalted butter",
+      "quantity": "8 tbsp (4 oz)",
+      "prep": "diced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the cream cheese and bring it to room temperature. Melt the unsalted butter. Dice the cold unsalted butter.",
+      "secondary_message": "0.23 kg cream cheese\n1 tbsp (½ oz) unsalted butter\n8 tbsp (4 oz) cold unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 180°C (350°F). Lightly butter a deep 23-cm pie pan.",

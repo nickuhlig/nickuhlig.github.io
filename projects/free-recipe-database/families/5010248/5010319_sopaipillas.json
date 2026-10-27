@@ -54,8 +54,9 @@
     },
     {
       "ingredient_id": 2238,
-      "name": "lard, rendered",
-      "quantity": "1 tbsp"
+      "name": "lard",
+      "quantity": "1 tbsp",
+      "prep": "rendered"
     },
     {
       "ingredient_id": 1125,
@@ -69,8 +70,9 @@
     },
     {
       "ingredient_id": 118,
-      "name": "scalded milk, cooled",
-      "quantity": "1 ¼ cups"
+      "name": "scalded milk",
+      "quantity": "1 ¼ cups",
+      "prep": "cooled"
     },
     {
       "ingredient_id": 2238,
@@ -79,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Render the lard. Cool the scalded milk.",
+      "secondary_message": "1 tbsp lard\n1 ¼ cups scalded milk"
+    },
     {
       "id": 1,
       "primary_message": "Place all the dry ingredients in a bowl and cut in the lard with a fork, until there are only small flakes of in the flour.",

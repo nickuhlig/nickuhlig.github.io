@@ -49,8 +49,9 @@
     },
     {
       "ingredient_id": 2649,
-      "name": "hot cherry peppers, stemmed and seeded",
-      "quantity": "20"
+      "name": "hot cherry peppers",
+      "quantity": "20",
+      "prep": "stemmed and seeded"
     },
     {
       "ingredient_id": 329,
@@ -59,6 +60,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem and seed the hot cherry peppers.",
+      "secondary_message": "20 hot cherry peppers"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, mix together ricotta, provolone, and basil.",

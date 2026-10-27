@@ -43,13 +43,15 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, minced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 3534,
-      "name": "minced speck, casing removed",
-      "quantity": "113 g"
+      "name": "minced speck",
+      "quantity": "113 g",
+      "prep": "casing removed"
     },
     {
       "ingredient_id": 121,
@@ -83,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the yellow onion. Remove the casing from the minced speck.",
+      "secondary_message": "1 medium yellow onion\n113 g minced speck"
+    },
     {
       "id": 1,
       "primary_message": "In a large mixing bowl, stir together bread with milk until bread is evenly moistened. Set aside to allow milk to fully soak in.",

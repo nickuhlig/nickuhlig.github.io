@@ -40,8 +40,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, finely diced",
-      "quantity": "2 medium"
+      "name": "shallots",
+      "quantity": "2 medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 1008,
@@ -55,13 +56,15 @@
     },
     {
       "ingredient_id": 1239,
-      "name": "Roquefort, roughly crumbled",
-      "quantity": "1 ¾ oz"
+      "name": "Roquefort",
+      "quantity": "1 ¾ oz",
+      "prep": "roughly crumbled"
     },
     {
       "ingredient_id": 2132,
-      "name": "mussels, cleaned and debearded",
-      "quantity": "2 lb"
+      "name": "mussels",
+      "quantity": "2 lb",
+      "prep": "cleaned and debearded"
     },
     {
       "ingredient_id": 88,
@@ -80,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the shallots. Roughly crumble the Roquefort. Clean and debeard the mussels.",
+      "secondary_message": "2 medium shallots\n1 ¾ oz Roquefort\n2 lb mussels"
+    },
     {
       "id": 1,
       "primary_message": "Heat the olive oil in a large straight-sided sauté pan or saucepan over medium heat until shimmering. Add the shallots, and cook, stirring constantly until just soft, about 2 minutes.",

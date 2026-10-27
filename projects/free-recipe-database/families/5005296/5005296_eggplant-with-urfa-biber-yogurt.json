@@ -35,14 +35,16 @@
   "ingredients": [
     {
       "ingredient_id": 18,
-      "name": "eggplant, chopped into large cubes",
+      "name": "eggplant",
       "quantity": "¾",
-      "weigh_as": "1 lb"
+      "weigh_as": "1 lb",
+      "prep": "chopped into large cubes"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "6 cloves"
+      "name": "garlic",
+      "quantity": "6 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2672,
@@ -51,8 +53,9 @@
     },
     {
       "ingredient_id": 1271,
-      "name": "cumin seed, toasted",
-      "quantity": "2 tsp"
+      "name": "cumin seed",
+      "quantity": "2 tsp",
+      "prep": "toasted"
     },
     {
       "ingredient_id": 122,
@@ -61,6 +64,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the eggplant into large cubes. Mince the garlic. Toast the cumin seed.",
+      "secondary_message": "¾ eggplant\n6 cloves garlic\n2 tsp cumin seed"
+    },
     {
       "id": 1,
       "primary_message": "Toss eggplant with several heavy pinches of salt and place in a colander over sink. Let sit for 30 minutes.",

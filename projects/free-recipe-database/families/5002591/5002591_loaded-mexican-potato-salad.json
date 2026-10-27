@@ -51,19 +51,22 @@
   "ingredients": [
     {
       "ingredient_id": 3357,
-      "name": "dried puya chiles, seeded and stemmed",
-      "quantity": "2 to 4"
+      "name": "dried puya chiles",
+      "quantity": "2 to 4",
+      "prep": "seeded and stemmed"
     },
     {
       "ingredient_id": 1776,
-      "name": "dried chiles de árbol, seeded and stemmed",
-      "quantity": "2 to 5"
+      "name": "dried chiles de árbol",
+      "quantity": "2 to 5",
+      "prep": "seeded and stemmed"
     },
     {
       "ingredient_id": 1039,
-      "name": "russet potatoes, peeled and cut into 1/2-inch chunks",
+      "name": "russet potatoes",
       "quantity": "9 medium",
-      "weigh_as": "4 lb"
+      "weigh_as": "4 lb",
+      "prep": "peeled and cut into 1/2-inch chunks"
     },
     {
       "ingredient_id": 88,
@@ -87,8 +90,9 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, finely diced",
-      "quantity": "½ medium"
+      "name": "red onion",
+      "quantity": "½ medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 1612,
@@ -102,16 +106,24 @@
     },
     {
       "ingredient_id": 1799,
-      "name": "serrano chiles, stemmed and finely chopped",
-      "quantity": "1 to 2"
+      "name": "serrano chiles",
+      "quantity": "1 to 2",
+      "prep": "stemmed and finely chopped"
     },
     {
       "ingredient_id": 188,
-      "name": "loosely packed cilantro leaves, minced",
-      "quantity": "1 cup"
+      "name": "loosely packed cilantro leaves",
+      "quantity": "1 cup",
+      "prep": "minced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Seed and stem the dried puya chiles. Seed and stem the dried chiles de árbol. Peel and cut the russet potatoes into 1/2-inch chunks. Finely dice the red onion. Stem and finely chop the serrano chiles. Mince the loosely packed cilantro leaves.",
+      "secondary_message": "2 to 4 dried puya chiles\n2 to 5 dried chiles de árbol\n9 medium russet potatoes\n½ medium red onion\n1 to 2 serrano chiles\n1 cup loosely packed cilantro leaves"
+    },
     {
       "id": 1,
       "primary_message": "Add 3 quarts water, puyas, and chiles de árbol to a large pot. Bring to a boil over high heat. Once water is boiling, transfer chiles and 1/2 cup cooking water to a blender. Set aside. Add potatoes and 2 tablespoons kosher salt to remaining water in large pot. Cook, stirring occasionally, until potatoes are tender when pierced with a knife, about 8 minutes.",

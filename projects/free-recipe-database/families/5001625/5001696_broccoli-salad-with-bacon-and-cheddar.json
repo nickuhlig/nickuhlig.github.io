@@ -90,18 +90,21 @@
     },
     {
       "ingredient_id": 3665,
-      "name": "thick-cut bacon, cooked until crispy and coarsely chopped",
-      "quantity": "9 slices"
+      "name": "thick-cut bacon",
+      "quantity": "9 slices",
+      "prep": "cooked until crispy and coarsely chopped"
     },
     {
       "ingredient_id": 296,
-      "name": "Gala apples, cored and chopped",
-      "quantity": "2"
+      "name": "Gala apples",
+      "quantity": "2",
+      "prep": "cored and chopped"
     },
     {
       "ingredient_id": 3239,
-      "name": "smoked cheddar cheese, shredded",
-      "quantity": "113 g"
+      "name": "smoked cheddar cheese",
+      "quantity": "113 g",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 1604,
@@ -110,11 +113,18 @@
     },
     {
       "ingredient_id": 29,
-      "name": "sliced almonds, toasted",
-      "quantity": "½ cup"
+      "name": "sliced almonds",
+      "quantity": "½ cup",
+      "prep": "toasted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cook the thick-cut bacon until crispy, then coarsely chop it. Core and chop the Gala apples. Shred the smoked cheddar cheese. Toast the sliced almonds.",
+      "secondary_message": "9 slices thick-cut bacon\n2 Gala apples\n113 g smoked cheddar cheese\n½ cup sliced almonds"
+    },
     {
       "id": 1,
       "primary_message": "For the Pickled Raisins: In a small saucepan, combine vinegar, water, sugar, salt, and mustard seeds, if using, and bring to a boil over medium-high heat. Cook, whisking occasionally, until sugar is dissolved, about 1 minute. Remove from heat.",

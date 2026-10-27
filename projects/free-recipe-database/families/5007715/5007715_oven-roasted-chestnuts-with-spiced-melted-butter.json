@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 2870,
-      "name": "chestnuts, rinsed and dried",
-      "quantity": "1 lb"
+      "name": "chestnuts",
+      "quantity": "1 lb",
+      "prep": "rinsed and dried"
     },
     {
       "ingredient_id": 115,
@@ -80,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse and dry the chestnuts.",
+      "secondary_message": "1 lb chestnuts"
+    },
     {
       "id": 1,
       "primary_message": "Place a large cast iron pan in oven and pre-heat oven to 425°F.",

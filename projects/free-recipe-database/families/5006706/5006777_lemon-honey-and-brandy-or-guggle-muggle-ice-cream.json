@@ -72,8 +72,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemons, zested",
-      "quantity": "3"
+      "name": "lemons",
+      "quantity": "3",
+      "prep": "zested"
     },
     {
       "ingredient_id": 2525,
@@ -82,16 +83,24 @@
     },
     {
       "ingredient_id": 215,
-      "name": "dried apricots, diced small",
-      "quantity": "½ cup"
+      "name": "dried apricots",
+      "quantity": "½ cup",
+      "prep": "diced small"
     },
     {
       "ingredient_id": 2171,
-      "name": "candied ginger, diced small",
-      "quantity": "½ cup"
+      "name": "candied ginger",
+      "quantity": "½ cup",
+      "prep": "diced small"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the lemons. Dice the dried apricots small. Dice the candied ginger small.",
+      "secondary_message": "3 lemons\n½ cup dried apricots\n½ cup candied ginger"
+    },
     {
       "id": 1,
       "primary_message": "In a three-quart saucepan, combine milk, cream, ginger, and salt. Heat on medium-low, just below a simmer, for 10 minutes.",

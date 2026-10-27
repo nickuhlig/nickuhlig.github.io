@@ -54,13 +54,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, minced",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 341,
@@ -124,6 +126,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the shallot. Mince the garlic.",
+      "secondary_message": "1 medium shallot\n3 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Filling: Rinse wood ear mushrooms under cold running water. In a medium bowl, cover mushrooms with hot water and let soak until softened (they will swell significantly and become very flexible with a slight rubbery texture), 15 to 30 minutes. Alternatively, cover with cold water and soak for at least 1 and up to 8 hours. Drain, rinse again to remove any lingering sand or grit, and trim of any tough/woody parts. Mince finely and set aside.",

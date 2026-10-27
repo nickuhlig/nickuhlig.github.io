@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 2216,
-      "name": "cherries, stems removed",
-      "quantity": "946 ml"
+      "name": "cherries",
+      "quantity": "946 ml",
+      "prep": "stems removed"
     },
     {
       "ingredient_id": 88,
@@ -66,16 +67,24 @@
     },
     {
       "ingredient_id": 1729,
-      "name": "dark chocolate, chopped fine",
-      "quantity": "57 g"
+      "name": "dark chocolate",
+      "quantity": "57 g",
+      "prep": "chopped fine"
     },
     {
       "ingredient_id": 29,
-      "name": "roasted almonds, toasted and chopped fine",
-      "quantity": "57 g"
+      "name": "roasted almonds",
+      "quantity": "57 g",
+      "prep": "toasted and chopped fine"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the stems from the cherries. Chop the dark chocolate fine. Toast and chop the roasted almonds fine.",
+      "secondary_message": "946 ml cherries\n57 g dark chocolate\n57 g roasted almonds"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 230°C (450°F). Toss cherries in 13- by 23-cm ceramic or glass baking dish with 1/4 teaspoon salt. Roast until juices stack in high bubbles and cherries offer no resistance to a paring knife, 30 to 40 minutes. Set aside to cool.",

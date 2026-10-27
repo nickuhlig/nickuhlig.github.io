@@ -38,8 +38,9 @@
   "ingredients": [
     {
       "ingredient_id": 2485,
-      "name": "habanero peppers, stemmed, deseeded, and cut into strips",
-      "quantity": "3 medium"
+      "name": "habanero peppers",
+      "quantity": "3 medium",
+      "prep": "stemmed, deseeded, and cut into strips"
     },
     {
       "ingredient_id": 1785,
@@ -48,6 +49,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem, deseed, and cut the habanero peppers into strips.",
+      "secondary_message": "3 medium habanero peppers"
+    },
     {
       "id": 1,
       "primary_message": "Add habanero strips to tequila bottle and reseal jar. Let rest 5 hours at room temperature. Taste and allow to steep longer if stronger flavor is desired, up to 24 hours.",

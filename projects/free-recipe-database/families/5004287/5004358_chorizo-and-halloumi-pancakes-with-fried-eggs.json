@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 1754,
-      "name": "Spanish chorizo, finely diced",
-      "quantity": "227 g"
+      "name": "Spanish chorizo",
+      "quantity": "227 g",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 47,
@@ -95,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the Spanish chorizo.",
+      "secondary_message": "227 g Spanish chorizo"
+    },
     {
       "id": 1,
       "primary_message": "Combine chorizo and olive oil in a large non-stick or cast iron skillet over medium heat and cook, stirring constantly, until chorizo is crisp. Transfer to a bowl, making sure to get all of the excess oil. Add oregano to chorizo and toss to combine. Wipe out skillet and set aside.",

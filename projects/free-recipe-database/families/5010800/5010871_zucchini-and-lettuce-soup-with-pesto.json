@@ -49,18 +49,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, chopped",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, chopped",
-      "quantity": "2 medium stalks"
+      "name": "celery",
+      "quantity": "2 medium stalks",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, chopped",
-      "quantity": "1 large"
+      "name": "carrot",
+      "quantity": "1 large",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 88,
@@ -95,8 +98,9 @@
     },
     {
       "ingredient_id": 2733,
-      "name": "lettuce, washed",
-      "quantity": "170 g"
+      "name": "lettuce",
+      "quantity": "170 g",
+      "prep": "washed"
     },
     {
       "ingredient_id": 1747,
@@ -125,6 +129,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the onion. Chop the celery. Chop the carrot. Wash the lettuce.",
+      "secondary_message": "1 medium onion\n2 medium stalks celery\n1 large carrot\n170 g lettuce"
+    },
     {
       "id": 1,
       "primary_message": "Melt butter in a large saucepan or Dutch oven over medium heat. Add onion, celery, and carrot and season with salt and pepper. Cook, stirring, until vegetables are softened but not browned, about 8 minutes. Add coriander, fennel seed, and rice and cook, stirring, until fragrant, about 2 minutes. Add zucchini and stir to combine. Add lettuce, a handful at a time, stirring until wilted, until all the lettuce is incorporated.",

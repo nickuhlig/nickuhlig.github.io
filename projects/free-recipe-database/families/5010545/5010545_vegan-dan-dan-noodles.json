@@ -38,8 +38,9 @@
   "ingredients": [
     {
       "ingredient_id": 19,
-      "name": "white button mushrooms, quartered",
-      "quantity": "6 oz"
+      "name": "white button mushrooms",
+      "quantity": "6 oz",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 1044,
@@ -88,8 +89,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 1833,
@@ -113,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Quarter the white button mushrooms. Finely mince the garlic.",
+      "secondary_message": "6 oz white button mushrooms\n2 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Place mushrooms in the bowl of a food processor and process until pieces no larger than 1/2-inch remain, about 6 short pulses. Transfer to a small saucepan. Add vegetable oil and stir to combine. Place over medium-high heat and cook, stirring occasionally, until mushroom pieces shrink and are deep golden brown, about 8 minutes. Pour through a fine-mesh strainer set over a small bowl. Reserve mushroom pieces and discard all but 1 tablespoon oil.",

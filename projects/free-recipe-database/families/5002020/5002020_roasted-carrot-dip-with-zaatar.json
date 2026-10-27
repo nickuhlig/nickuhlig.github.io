@@ -49,8 +49,9 @@
   "ingredients": [
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and cut into 1-inch pieces",
-      "quantity": "4 medium"
+      "name": "carrots",
+      "quantity": "4 medium",
+      "prep": "peeled and cut into 1-inch pieces"
     },
     {
       "ingredient_id": 24,
@@ -94,11 +95,18 @@
     },
     {
       "ingredient_id": 3682,
-      "name": "salted roasted pistachios, coarsely chopped",
-      "quantity": "¼ cup"
+      "name": "salted roasted pistachios",
+      "quantity": "¼ cup",
+      "prep": "coarsely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the carrots into 1-inch pieces. Coarsely chop the salted roasted pistachios.",
+      "secondary_message": "4 medium carrots\n¼ cup salted roasted pistachios"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 400°F. On a 13- by 18-inch rimmed baking sheet, toss carrots, garlic, and za’atar with 1 tablespoon of olive oil until evenly coated. Roast until tender, 30 to 35 minutes, tossing halfway through.",

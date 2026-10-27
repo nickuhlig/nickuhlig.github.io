@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 3478,
-      "name": "lychees, peeled and seeded",
-      "quantity": "0.45 kg"
+      "name": "lychees",
+      "quantity": "0.45 kg",
+      "prep": "peeled and seeded"
     },
     {
       "ingredient_id": 1480,
@@ -75,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and seed the lychees.",
+      "secondary_message": "0.45 kg lychees"
+    },
     {
       "id": 1,
       "primary_message": "Combine 1 cup of lychees, lemon juice, sugar, salt, and Thai chili in a blender. Blend on high speed until smooth, about 1 minute. Strain through a fine mesh strainer into pitcher. Discard solids. Add cold water and whisk to combine. Chop remaining lychee flesh into 0.5-cm pieces and add to pitcher. Add ice. Serve in ice-filled glasses garnished with additional whole chilis if desired.",

@@ -76,13 +76,15 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely chopped",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 99,
@@ -111,11 +113,18 @@
     },
     {
       "ingredient_id": 1772,
-      "name": "soft burger buns, split and toasted",
-      "quantity": "4"
+      "name": "soft burger buns",
+      "quantity": "4",
+      "prep": "split and toasted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the yellow onion. Finely chop the garlic. Split and toast the soft burger buns.",
+      "secondary_message": "1 medium yellow onion\n2 medium cloves garlic\n4 soft burger buns"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, whisk 1 tablespoon water with cornstarch to combine; set aside. In a separate bowl, combine stock, salt, and MSG, if using. Mix well and set aside.",

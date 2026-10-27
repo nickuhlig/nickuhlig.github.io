@@ -71,8 +71,9 @@
     },
     {
       "ingredient_id": 2561,
-      "name": "guava paste, sliced to 1/4 inch thick slices",
-      "quantity": "0.45 kg"
+      "name": "guava paste",
+      "quantity": "0.45 kg",
+      "prep": "sliced to 1/4 inch thick slices"
     },
     {
       "ingredient_id": 1344,
@@ -81,8 +82,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, diced",
-      "quantity": "8 tbsp"
+      "name": "unsalted butter",
+      "quantity": "8 tbsp",
+      "prep": "diced"
     },
     {
       "ingredient_id": 88,
@@ -101,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the guava paste to 1/4 inch thick slices. Dice the unsalted butter.",
+      "secondary_message": "0.45 kg guava paste\n8 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Grease a 9- by 33-cm baking pan with butter. Adjust oven rack to middle position and preheat oven to 180°C (350°F).",

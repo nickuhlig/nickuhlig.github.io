@@ -36,33 +36,39 @@
   "ingredients": [
     {
       "ingredient_id": 303,
-      "name": "fresh corn kernels, cut from 3 to 4 cobs",
-      "quantity": "3 cups"
+      "name": "fresh corn kernels",
+      "quantity": "3 cups",
+      "prep": "cut from 3 to 4 cobs"
     },
     {
       "ingredient_id": 277,
-      "name": "grape tomatoes, halved",
-      "quantity": "2 cups"
+      "name": "grape tomatoes",
+      "quantity": "2 cups",
+      "prep": "halved"
     },
     {
       "ingredient_id": 343,
-      "name": "red radishes, halved and thinly sliced",
-      "quantity": "6 to 8 medium"
+      "name": "red radishes",
+      "quantity": "6 to 8 medium",
+      "prep": "halved and thinly sliced"
     },
     {
       "ingredient_id": 1980,
-      "name": "cucumber, sliced",
-      "quantity": "1 large"
+      "name": "cucumber",
+      "quantity": "1 large",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely sliced",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 32,
-      "name": "feta cheese, crumbled",
-      "quantity": "85 g"
+      "name": "feta cheese",
+      "quantity": "85 g",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 131,
@@ -91,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the fresh corn kernels from 3 to 4 cobs. Halve the grape tomatoes. Halve and thinly slice the red radishes. Slice the cucumber. Finely slice the shallot. Crumble the feta cheese.",
+      "secondary_message": "3 cups fresh corn kernels\n2 cups grape tomatoes\n6 to 8 medium red radishes\n1 large cucumber\n1 medium shallot\n85 g feta cheese"
+    },
     {
       "id": 1,
       "primary_message": "For the Salad: Combine corn, tomatoes, radishes, cucumber, shallot, feta cheese, and herbs in a large bowl. Toss gently to combine.",

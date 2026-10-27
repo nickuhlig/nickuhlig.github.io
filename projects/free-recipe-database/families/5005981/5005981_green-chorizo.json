@@ -54,13 +54,15 @@
     },
     {
       "ingredient_id": 2712,
-      "name": "pork shoulder, cubed",
-      "quantity": "2 ½ lb"
+      "name": "pork shoulder",
+      "quantity": "2 ½ lb",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 2660,
-      "name": "pork fatback, cubed",
-      "quantity": "½ lb"
+      "name": "pork fatback",
+      "quantity": "½ lb",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 188,
@@ -69,8 +71,9 @@
     },
     {
       "ingredient_id": 2021,
-      "name": "fresh serrano chiles, finely chopped",
-      "quantity": "2"
+      "name": "fresh serrano chiles",
+      "quantity": "2",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 88,
@@ -99,8 +102,9 @@
     },
     {
       "ingredient_id": 133,
-      "name": "cider vinegar, chilled",
-      "quantity": "¼ cup"
+      "name": "cider vinegar",
+      "quantity": "¼ cup",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 2628,
@@ -109,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cube the pork shoulder. Cube the pork fatback. Finely chop the fresh serrano chiles. Keep the cider vinegar cold until you use it.",
+      "secondary_message": "2 ½ lb pork shoulder\n½ lb pork fatback\n2 fresh serrano chiles\n¼ cup cider vinegar"
+    },
     {
       "id": 1,
       "primary_message": "Roast poblanos over an open flame on a gas stove or grill until skins are completely charred. Place in a bowl, cover with plastic wrap, and let sit for 30 minutes. Remove charred outer skins, cut in half, and remove the seeds and cores; finely chop poblanos.",

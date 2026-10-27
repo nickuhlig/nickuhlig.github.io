@@ -43,13 +43,15 @@
   "ingredients": [
     {
       "ingredient_id": 1958,
-      "name": "skin-off pork belly, cut into 1/2-inch pieces",
-      "quantity": "2 lb"
+      "name": "skin-off pork belly",
+      "quantity": "2 lb",
+      "prep": "cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "peeled and minced"
     },
     {
       "ingredient_id": 359,
@@ -83,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the skin-off pork belly into 1/2-inch pieces. Peel and mince the garlic.",
+      "secondary_message": "2 lb skin-off pork belly\n3 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "In an electric multicooker (such as an Instant Pot) set to the sauté function, cook pork belly, stirring often, until opaque and some of its fat has rendered, about 5 minutes. Add the garlic and cook, stirring to combine, until fragrant, about 1 minute.",

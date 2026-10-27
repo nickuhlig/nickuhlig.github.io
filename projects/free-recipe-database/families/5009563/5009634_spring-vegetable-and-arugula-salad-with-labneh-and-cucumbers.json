@@ -54,8 +54,9 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, thinly sliced",
-      "quantity": "1 small"
+      "name": "red onion",
+      "quantity": "1 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2208,
@@ -115,8 +116,9 @@
     },
     {
       "ingredient_id": 107,
-      "name": "fresh mozzarella cheese, cut or torn into 1/2-inch chunks",
-      "quantity": "170 g"
+      "name": "fresh mozzarella cheese",
+      "quantity": "170 g",
+      "prep": "cut or torn into 1/2-inch chunks"
     },
     {
       "ingredient_id": 2652,
@@ -125,6 +127,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the red onion. Cut or tear the fresh mozzarella cheese into 1/2-inch chunks.",
+      "secondary_message": "1 small red onion\n170 g fresh mozzarella cheese"
+    },
     {
       "id": 1,
       "primary_message": "Season cucumber slices with kosher salt and set in a fine-mesh strainer or colander over the sink or a bowl. Set aside while you prepare the rest of the vegetables.",

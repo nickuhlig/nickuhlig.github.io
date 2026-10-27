@@ -53,8 +53,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "Spanish onions, thinly sliced",
-      "quantity": "3 large"
+      "name": "Spanish onions",
+      "quantity": "3 large",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 346,
@@ -68,8 +69,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1677,
@@ -88,8 +90,9 @@
     },
     {
       "ingredient_id": 2532,
-      "name": "Italian bread loaf, cut into 1-inch cubes",
-      "quantity": "1 large"
+      "name": "Italian bread loaf",
+      "quantity": "1 large",
+      "prep": "cut into 1-inch cubes"
     },
     {
       "ingredient_id": 121,
@@ -128,6 +131,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the Spanish onions. Mince the garlic. Cut the Italian bread loaf into 1-inch cubes.",
+      "secondary_message": "3 large Spanish onions\n3 medium cloves garlic\n1 large Italian bread loaf"
+    },
     {
       "id": 1,
       "primary_message": "For the Caramelized Onions: In a large skillet, melt butter over medium heat, then add onions, sugar, and 1 teaspoon salt. Cover and cook, stirring every few minutes, until onions have softened, about 10 minutes. Remove lid and cook, stirring frequently and keeping skillet uncovered, until onions are deep golden brown, 20 to 25 minutes; if onions threaten to burn at any point, stir in a tablespoon or two of water as needed, and/or lower heat. Add garlic and thyme and cook 1 minute longer. Add sherry and wine and cook until liquid has almost completely evaporated, about 3 minutes. Remove from heat and set aside.",

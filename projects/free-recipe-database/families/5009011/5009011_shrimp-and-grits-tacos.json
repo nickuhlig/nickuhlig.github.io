@@ -64,51 +64,66 @@
     },
     {
       "ingredient_id": 43,
-      "name": "cheddar cheese, finely grated",
-      "quantity": "4 oz"
+      "name": "cheddar cheese",
+      "quantity": "4 oz",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 1811,
-      "name": "shrimp, medium, peeled and deveined",
-      "quantity": "1 lb"
+      "name": "shrimp, medium",
+      "quantity": "1 lb",
+      "prep": "peeled and deveined"
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, chopped",
-      "quantity": "1 medium"
+      "name": "white onion",
+      "quantity": "1 medium",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1799,
-      "name": "serrano chiles, stemmed, seeded, and chopped",
-      "quantity": "2"
+      "name": "serrano chiles",
+      "quantity": "2",
+      "prep": "stemmed, seeded, and chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "2 medium"
+      "name": "garlic cloves",
+      "quantity": "2 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, quartered",
-      "quantity": "1 lb"
+      "name": "cherry tomatoes",
+      "quantity": "1 lb",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 188,
-      "name": "fresh cilantro leaves, roughly chopped",
-      "quantity": "½ cup"
+      "name": "fresh cilantro leaves",
+      "quantity": "½ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 321,
-      "name": "corn tortillas, warmed",
-      "quantity": "12"
+      "name": "corn tortillas",
+      "quantity": "12",
+      "prep": "warmed"
     },
     {
       "ingredient_id": 228,
-      "name": "limes, quartered",
-      "quantity": "2"
+      "name": "limes",
+      "quantity": "2",
+      "prep": "quartered"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely grate the cheddar cheese. Peel and devein the shrimp. Chop the white onion. Stem, seed, and chop the serrano chiles. Mince the garlic cloves. Quarter the cherry tomatoes. Roughly chop the fresh cilantro leaves. Warm the corn tortillas. Quarter the limes.",
+      "secondary_message": "4 oz cheddar cheese\n1 lb shrimp, medium\n1 medium white onion\n2 serrano chiles\n2 medium garlic cloves\n1 lb cherry tomatoes\n½ cup fresh cilantro leaves\n12 corn tortillas\n2 limes"
+    },
     {
       "id": 1,
       "primary_message": "Bring water and milk to a boil in a saucepan over high heat. Whisk in the grits and 2 teaspoons kosher salt. Reduce heat to a bare simmer and cook, stirring every other minute, until grits are creamy, 20 to 25 minutes.",

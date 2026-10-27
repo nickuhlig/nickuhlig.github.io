@@ -87,8 +87,9 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, melted and slightly cooled",
-      "quantity": "85 g"
+      "name": "bittersweet chocolate",
+      "quantity": "85 g",
+      "prep": "melted and slightly cooled"
     },
     {
       "ingredient_id": 1752,
@@ -97,8 +98,9 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "57 g"
+      "name": "bittersweet chocolate",
+      "quantity": "57 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2240,
@@ -107,11 +109,18 @@
     },
     {
       "ingredient_id": 2581,
-      "name": "white chocolate, finely chopped",
-      "quantity": "85 g"
+      "name": "white chocolate",
+      "quantity": "85 g",
+      "prep": "finely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the bittersweet chocolate and let it cool slightly. Finely chop the bittersweet chocolate. Finely chop the white chocolate.",
+      "secondary_message": "85 g bittersweet chocolate\n57 g bittersweet chocolate\n85 g white chocolate"
+    },
     {
       "id": 1,
       "primary_message": "For the Crust: Adjust oven rack to middle position and preheat oven to 175°C (350°F). Line muffin tin with paper liners. In food processor, pulse wafers until they turn into fine crumbs. Add butter, sugar, and salt and pulse just to combine. Use fingertips or a 1/4-cup measure to press 1 tablespoon cookie mixture into bottom of each cup. Bake just until set, 5 to 7 minutes. Transfer tin to cooling rack. Decrease oven temperature to 150°C (300°F).",

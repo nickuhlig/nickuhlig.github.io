@@ -78,8 +78,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, thinly sliced",
-      "quantity": "3 medium"
+      "name": "garlic cloves",
+      "quantity": "3 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1231,
@@ -88,11 +89,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 5 pieces and chilled",
-      "quantity": "5 tbsp"
+      "name": "unsalted butter",
+      "quantity": "5 tbsp",
+      "prep": "cut into 5 pieces and chilled"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the garlic cloves. Cut the unsalted butter into 5 pieces and keep it cold until you use it.",
+      "secondary_message": "3 medium garlic cloves\n5 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 400°F ( 205℃). Zest lemons to yield 4 teaspoons zest. Juice 1 zested lemon to yield 2 tablespoons of juice (save any remaining lemon juice for another use); set aside. Halve remaining lemon crosswise and set aside. Place zest in a small bowl and add 3 tablespoons oil, black pepper, and 1 tablespoon thyme leaves; stir until well-combined.",

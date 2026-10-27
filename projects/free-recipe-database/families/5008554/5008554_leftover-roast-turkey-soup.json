@@ -36,8 +36,9 @@
     },
     {
       "ingredient_id": 2600,
-      "name": "leftover roast turkey carcass, cut into rough chunks",
-      "quantity": "1"
+      "name": "leftover roast turkey carcass",
+      "quantity": "1",
+      "prep": "cut into rough chunks"
     },
     {
       "ingredient_id": 1747,
@@ -51,23 +52,27 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely sliced",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, diced medium",
-      "quantity": "2 medium"
+      "name": "carrots",
+      "quantity": "2 medium",
+      "prep": "diced medium"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, sliced on the bias",
-      "quantity": "3 ribs"
+      "name": "celery",
+      "quantity": "3 ribs",
+      "prep": "sliced on the bias"
     },
     {
       "ingredient_id": 1740,
-      "name": "leftover roast turkey meat, roughly torn into bite-sized pieces",
-      "quantity": "1 lb"
+      "name": "leftover roast turkey meat",
+      "quantity": "1 lb",
+      "prep": "roughly torn into bite-sized pieces"
     },
     {
       "ingredient_id": 88,
@@ -86,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the leftover roast turkey carcass into rough chunks. Finely slice the onion. Dice the carrots medium. Slice the celery on the bias. Roughly tear the leftover roast turkey meat into bite-sized pieces.",
+      "secondary_message": "1 leftover roast turkey carcass\n1 large onion\n2 medium carrots\n3 ribs celery\n1 lb leftover roast turkey meat"
+    },
     {
       "id": 1,
       "primary_message": "Combine stock, turkey parts, bay leaves, and thyme sprigs in a large stockpot. Bring to a boil over high heat, reduce to a bare simmer, and cook for 1 hour. Strain broth into a medium saucepan and discard solids.",

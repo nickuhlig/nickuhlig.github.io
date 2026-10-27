@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 2506,
-      "name": "freshly smoked brisket point, separated from flat if cooked whole",
-      "quantity": "1"
+      "name": "freshly smoked brisket point",
+      "quantity": "1",
+      "prep": "separated from flat if cooked whole"
     },
     {
       "ingredient_id": 399,
@@ -56,6 +57,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Separate the freshly smoked brisket point from flat if cooked whole.",
+      "secondary_message": "1 freshly smoked brisket point"
+    },
     {
       "id": 1,
       "primary_message": "Cut smoked brisket point into 1.5-cm cubes and place in a large disposable tray. Add in 1 cup of barbecue and brisket drippings, if reserved, and toss to thoroughly coat brisket pieces.",

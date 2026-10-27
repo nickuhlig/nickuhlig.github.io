@@ -65,8 +65,9 @@
     },
     {
       "ingredient_id": 2715,
-      "name": "cabbage, core removed, thinly sliced",
-      "quantity": "½ head"
+      "name": "cabbage",
+      "quantity": "½ head",
+      "prep": "core removed, thinly sliced"
     },
     {
       "ingredient_id": 1105,
@@ -85,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the core from the cabbage, then thinly slice it.",
+      "secondary_message": "½ head cabbage"
+    },
     {
       "id": 1,
       "primary_message": "Make the Cole Slaw: In a large bowl, combine the vinegar, mayonnaise, salt, celery seed, dry mustard, and black pepper. Stir until combined. Add the cabbage, and mix until it is evenly coated in the dressing. Set aside.",

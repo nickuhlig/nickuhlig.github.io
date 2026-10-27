@@ -94,23 +94,27 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced, divided",
-      "quantity": "3 medium cloves"
+      "name": "garlic, divided",
+      "quantity": "3 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1702,
-      "name": "bone-in skin-on chicken thighs, patted dry",
-      "quantity": "1.02 kg"
+      "name": "bone-in skin-on chicken thighs",
+      "quantity": "1.02 kg",
+      "prep": "patted dry"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, cut into 1-inch-thick wedges",
-      "quantity": "1 medium"
+      "name": "red onion",
+      "quantity": "1 medium",
+      "prep": "cut into 1-inch-thick wedges"
     },
     {
       "ingredient_id": 92,
-      "name": "chickpeas, drained and rinsed",
-      "quantity": "1 (425 g) can"
+      "name": "chickpeas",
+      "quantity": "1 (425 g) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 122,
@@ -129,11 +133,18 @@
     },
     {
       "ingredient_id": 150,
-      "name": "red bell peppers, sliced 1/4-inch thick",
-      "quantity": "2 small"
+      "name": "red bell peppers",
+      "quantity": "2 small",
+      "prep": "sliced 1/4-inch thick"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic. Pat the bone-in skin-on chicken thighs dry. Cut the red onion into 1-inch-thick wedges. Drain and rinse the chickpeas. Slice the red bell peppers 1/4-inch thick.",
+      "secondary_message": "3 medium cloves garlic, divided\n1.02 kg bone-in skin-on chicken thighs\n1 medium red onion\n1 (425 g) can chickpeas\n2 small red bell peppers"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, whisk together coriander, cumin, paprika, black pepper, cardamom, turmeric, and cinnamon; set spice mixture aside. In a large bowl, whisk together 6 tablespoons oil, 2 tablespoons lemon juice, 2 teaspoons kosher salt, half the garlic, and 2 tablespoons reserved spice mixture. Add chicken and toss until evenly coated. Cover and let stand at room temperature for 30 minutes or refrigerate for up to 24 hours.",

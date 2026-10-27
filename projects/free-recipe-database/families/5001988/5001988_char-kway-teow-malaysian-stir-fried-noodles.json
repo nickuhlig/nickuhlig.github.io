@@ -90,18 +90,21 @@
     },
     {
       "ingredient_id": 3033,
-      "name": "Chinese-style fish cakes, sliced into 1/2-inch pieces, divided",
-      "quantity": "2 oz"
+      "name": "Chinese-style fish cakes, divided",
+      "quantity": "2 oz",
+      "prep": "sliced into 1/2-inch pieces"
     },
     {
       "ingredient_id": 1811,
-      "name": "shrimp, shelled and deveined, divided",
-      "quantity": "8 medium"
+      "name": "shrimp, divided",
+      "quantity": "8 medium",
+      "prep": "shelled and deveined"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely chopped, divided",
-      "quantity": "3 medium cloves"
+      "name": "garlic, divided",
+      "quantity": "3 medium cloves",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 3115,
@@ -135,6 +138,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the Chinese-style fish cakes into 1/2-inch pieces. Shell and devein the shrimp. Finely chop the garlic.",
+      "secondary_message": "2 oz Chinese-style fish cakes, divided\n8 medium shrimp, divided\n3 medium cloves garlic, divided"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, whisk light soy sauce, dark soy sauce, oyster sauce, fish sauce, salt, sugar, and white pepper to combine, stirring well until salt and sugar are dissolved. Set aside.",

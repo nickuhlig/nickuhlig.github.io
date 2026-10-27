@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, mashed with 1 pinch of salt into a paste",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "mashed with 1 pinch of salt into a paste"
     },
     {
       "ingredient_id": 1480,
@@ -101,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mash the garlic with 1 pinch of salt into a paste.",
+      "secondary_message": "2 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "To make the brine: Whisk together water, salt, and sugar in a large container until salt and sugar are dissolved. Cut 3-4 slashes down to the bone on skin side of chicken. Submerge chicken quarters in brine. Place container in refrigerator and brine for 1 hour.",

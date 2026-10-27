@@ -65,13 +65,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, thinly sliced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell pepper, thinly sliced",
-      "quantity": "1 large"
+      "name": "red bell pepper",
+      "quantity": "1 large",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2015,
@@ -80,8 +82,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "6 cloves"
+      "name": "garlic",
+      "quantity": "6 cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2492,
@@ -105,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the onion. Thinly slice the red bell pepper. Thinly slice the garlic.",
+      "secondary_message": "1 medium onion\n1 large red bell pepper\n6 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center position and preheat oven to 175°C (350°F). Season chicken generously with salt and pepper. Heat oil in a 4- to 5-quart straight-sided sauté pan or Dutch oven over medium-high heat until shimmering. Add chicken, skin side down, and cook, without moving, until well browned and crisp, about 8 minutes total, lowering heat if pan starts to smoke excessively. Flip chicken and brown lightly on second side, about 3 minutes. Transfer chicken to a large plate and set aside.",

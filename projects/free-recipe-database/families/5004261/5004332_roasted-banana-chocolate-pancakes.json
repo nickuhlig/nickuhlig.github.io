@@ -76,8 +76,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, lightly beaten",
-      "quantity": "1"
+      "name": "egg",
+      "quantity": "1",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 118,
@@ -91,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly beat the egg.",
+      "secondary_message": "1 egg"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 175°C (350°F). Heat 1 tablespoon butter in a skillet over medium high heat. Add one banana's worth of slices and fry until just golden. Transfer slices to a baking dish. Repeat with remaining bananas. Sprinkle fried bananas with 4 tablespoons sugar and bake until bubbling, 15 minutes. Clean skillet.",

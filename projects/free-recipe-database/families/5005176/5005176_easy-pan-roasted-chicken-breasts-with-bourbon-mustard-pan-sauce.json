@@ -64,8 +64,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, minced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1782,
@@ -99,6 +100,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the shallot.",
+      "secondary_message": "1 small shallot"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center position and preheat oven to 450°F. Pat chicken breasts dry and season generously with salt and pepper. Heat oil in an oven-safe medium stainless steel skillet over high heat until just starting to smoke. Carefully lay chicken breasts into hot skillet skin side down. Cook without moving until skin is deep golden brown and very crisp, about 6 minutes. Carefully flip chicken breasts and transfer skillet to the oven.",

@@ -75,11 +75,18 @@
     },
     {
       "ingredient_id": 2216,
-      "name": "cherries, stemmed and pitted if desired",
-      "quantity": "0.45 kg"
+      "name": "cherries",
+      "quantity": "0.45 kg",
+      "prep": "stemmed and pitted if desired"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem and pit the cherries if desired.",
+      "secondary_message": "0.45 kg cherries"
+    },
     {
       "id": 1,
       "primary_message": "In a medium saucepan, combine sugar, cherry juice (or water), cinnamon, nutmeg, and salt. Bring to a low simmer. Simmer, stirring until sugar is fully dissolved.",

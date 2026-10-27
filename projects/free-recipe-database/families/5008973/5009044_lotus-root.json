@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 157,
-      "name": "celery, cut into 1/4-inch slices on the diagonal",
-      "quantity": "2 stalks"
+      "name": "celery",
+      "quantity": "2 stalks",
+      "prep": "cut into 1/4-inch slices on the diagonal"
     },
     {
       "ingredient_id": 1191,
@@ -112,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the celery into 1/4-inch slices on the diagonal.",
+      "secondary_message": "2 stalks celery"
+    },
     {
       "id": 1,
       "primary_message": "To Prepare Lotus Root Stir-Fry: Peel the lotus root, rinse under cold water, and slice into 0.5-cm rounds. Rinse again, then set in a bowl with cold water and splash of vinegar to prevent discoloration.",

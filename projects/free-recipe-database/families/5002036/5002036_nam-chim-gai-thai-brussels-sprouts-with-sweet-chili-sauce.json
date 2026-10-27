@@ -39,13 +39,15 @@
   "ingredients": [
     {
       "ingredient_id": 14,
-      "name": "Brussels sprouts, stems trimmed, cut in half lengthwise",
-      "quantity": "2 lb"
+      "name": "Brussels sprouts",
+      "quantity": "2 lb",
+      "prep": "stems trimmed, cut in half lengthwise"
     },
     {
       "ingredient_id": 2697,
-      "name": "diced pancetta, cut into 1/4-inch strips",
-      "quantity": "4 oz"
+      "name": "diced pancetta",
+      "quantity": "4 oz",
+      "prep": "cut into 1/4-inch strips"
     },
     {
       "ingredient_id": 1682,
@@ -94,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the stems of the Brussels sprouts, then cut them in half lengthwise. Cut the diced pancetta into 1/4-inch strips.",
+      "secondary_message": "2 lb Brussels sprouts\n4 oz diced pancetta"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and place a rimmed baking sheet on rack. Preheat oven with sheet to 500°F.",

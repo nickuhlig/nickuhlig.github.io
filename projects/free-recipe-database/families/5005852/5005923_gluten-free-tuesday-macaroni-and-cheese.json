@@ -68,13 +68,15 @@
     },
     {
       "ingredient_id": 43,
-      "name": "cheddar cheese, grated",
-      "quantity": "227 g"
+      "name": "cheddar cheese",
+      "quantity": "227 g",
+      "prep": "grated"
     },
     {
       "ingredient_id": 3097,
-      "name": "extra sharp Colby cheese, grated",
-      "quantity": "113 g"
+      "name": "extra sharp Colby cheese",
+      "quantity": "113 g",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1647,
@@ -88,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the cheddar cheese. Grate the extra sharp Colby cheese.",
+      "secondary_message": "227 g cheddar cheese\n113 g extra sharp Colby cheese"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 190°C (375°F).",

@@ -61,17 +61,25 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, thickly sliced",
-      "quantity": "1 large"
+      "name": "shallot",
+      "quantity": "1 large",
+      "prep": "thickly sliced"
     },
     {
       "ingredient_id": 26,
-      "name": "asparagus, woody ends trimmed",
+      "name": "asparagus",
       "quantity": "1 bunch",
-      "weigh_as": "0.45 kg"
+      "weigh_as": "0.45 kg",
+      "prep": "woody ends trimmed"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thickly slice the shallot. Trim the woody ends of the asparagus.",
+      "secondary_message": "1 large shallot\n1 bunch asparagus"
+    },
     {
       "id": 1,
       "primary_message": "In a medium saucepan, combine vinegar, water, sugar, and salt. Bring to a boil, stirring, until solids are dissolved. Remove from heat and add tarragon and shallot. Let stand 5 minutes.",

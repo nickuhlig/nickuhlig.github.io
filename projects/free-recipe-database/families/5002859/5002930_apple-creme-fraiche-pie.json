@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, lightly beaten",
-      "quantity": "1"
+      "name": "egg",
+      "quantity": "1",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 88,
@@ -91,11 +92,18 @@
     },
     {
       "ingredient_id": 121,
-      "name": "Egg wash: 1 egg, beaten with a big pinch of salt",
-      "quantity": ""
+      "name": "Egg wash: 1 egg",
+      "quantity": "",
+      "prep": "beaten with a big pinch of salt"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly beat the egg. Beat the Egg wash: 1 egg with a big pinch of salt.",
+      "secondary_message": "1 egg\nEgg wash: 1 egg"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, whisk together crème fraîche, sugar, egg, salt, vanilla, cinnamon, and flour and set aside. In the bowl of a food processor, combine the oats and brown sugar and pulse until they are a sandy consistency, about 15 seconds.",

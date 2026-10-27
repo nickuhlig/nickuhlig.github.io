@@ -58,8 +58,9 @@
     },
     {
       "ingredient_id": 2221,
-      "name": "fresh tarragon, minced",
-      "quantity": "3 sprigs"
+      "name": "fresh tarragon",
+      "quantity": "3 sprigs",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2826,
@@ -68,6 +69,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the fresh tarragon.",
+      "secondary_message": "3 sprigs fresh tarragon"
+    },
     {
       "id": 1,
       "primary_message": "Halve plums, remove pits, and dice into 0.5-cm pieces. Peel and slice banana into 0.5-cm rounds. Halve dates, remove pits, and slice into narrow strips. Toss fruit together with pecan pieces, maple syrup, tarragon, and bacon drippings or butter in a medium bowl. Serve immediately, spooned over yogurt, waffles, or oatmeal. Leftovers can be refrigerated up to 24 hours in an airtight container.",

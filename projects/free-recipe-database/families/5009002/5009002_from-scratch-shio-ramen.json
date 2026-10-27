@@ -78,16 +78,24 @@
     },
     {
       "ingredient_id": 1777,
-      "name": "aromatic oil, heated until liquid",
-      "quantity": "½ cup"
+      "name": "aromatic oil",
+      "quantity": "½ cup",
+      "prep": "heated until liquid"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, sliced as thinly as possible",
-      "quantity": "2"
+      "name": "scallions",
+      "quantity": "2",
+      "prep": "sliced as thinly as possible"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Heat the aromatic oil until liquid. Slice the scallions as thinly as possible.",
+      "secondary_message": "½ cup aromatic oil\n2 scallions"
+    },
     {
       "id": 1,
       "primary_message": "For the Dashi: Combine kombu and shiitake mushrooms with 1 quart water in a sealable container and refrigerate for at least 8 and up to 24 hours.",

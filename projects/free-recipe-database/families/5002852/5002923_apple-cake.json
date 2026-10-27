@@ -42,8 +42,9 @@
   "ingredients": [
     {
       "ingredient_id": 113,
-      "name": "Granny Smith apples, peeled and cored",
-      "quantity": "8 to 9 medium"
+      "name": "Granny Smith apples",
+      "quantity": "8 to 9 medium",
+      "prep": "peeled and cored"
     },
     {
       "ingredient_id": 1480,
@@ -62,8 +63,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into small pieces and chilled",
-      "quantity": "3 tbsp"
+      "name": "unsalted butter",
+      "quantity": "3 tbsp",
+      "prep": "cut into small pieces and chilled"
     },
     {
       "ingredient_id": 116,
@@ -102,6 +104,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and core the Granny Smith apples. Cut the unsalted butter into small pieces and keep it cold until you use it.",
+      "secondary_message": "8 to 9 medium Granny Smith apples\n3 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 165°C (325°F) and adjust oven rack to middle position. Grease 25-cm springform pan and place on a foil-lined baking sheet.",

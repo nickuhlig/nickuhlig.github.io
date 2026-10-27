@@ -68,8 +68,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "2"
+      "name": "eggs",
+      "quantity": "2",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 116,
@@ -88,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Beat the eggs.",
+      "secondary_message": "2 eggs"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 150°C (300°F). Butter an 8- by 10-cm loaf pan and set aside. In a mixing bowl, combine tea, 1 1/4 cup malt extract, sugar, and raisins and mix until ingredients are well combined. Add beaten eggs and mix again.",

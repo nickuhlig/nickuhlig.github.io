@@ -58,13 +58,15 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "zested"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cold, cut into small even cubes",
-      "quantity": "¾ cup (6 oz)"
+      "name": "unsalted butter",
+      "quantity": "¾ cup (6 oz)",
+      "prep": "cold, cut into small even cubes"
     },
     {
       "ingredient_id": 121,
@@ -93,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the lemon. Cut the unsalted butter into small even cubes and keep it cold until you use it.",
+      "secondary_message": "1 lemon\n¾ cup (6 oz) unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Place the cooked grain, milk, sugar, lemon zest and cinnamon in a 2-quart saucepan and cook over low heat, stirring often with a wooden spoon until the mixture is creamy—the grains will retain their shape, but the rest of the mixture should be soft and smooth and there should be no huge clumps of grain; it should resemble creamy oatmeal. Transfer the grain mixture to a shallow bowl and allow it to cool completely.",

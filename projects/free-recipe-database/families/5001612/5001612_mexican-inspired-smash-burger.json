@@ -114,11 +114,18 @@
     },
     {
       "ingredient_id": 1059,
-      "name": "brioche hamburger buns, buttered and toasted",
-      "quantity": "2"
+      "name": "brioche hamburger buns",
+      "quantity": "2",
+      "prep": "buttered and toasted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Butter and toast the brioche hamburger buns.",
+      "secondary_message": "2 brioche hamburger buns"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, combine cilantro with lime juice. Set aside.",

@@ -37,13 +37,15 @@
   "ingredients": [
     {
       "ingredient_id": 1069,
-      "name": "Monterey Jack cheese, grated",
-      "quantity": "0.23 kg"
+      "name": "Monterey Jack cheese",
+      "quantity": "0.23 kg",
+      "prep": "grated"
     },
     {
       "ingredient_id": 43,
-      "name": "sharp cheddar cheese, grated",
-      "quantity": "0.23 kg"
+      "name": "sharp cheddar cheese",
+      "quantity": "0.23 kg",
+      "prep": "grated"
     },
     {
       "ingredient_id": 264,
@@ -62,8 +64,9 @@
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño, stemmed, seeded, and finely diced",
-      "quantity": "1 small"
+      "name": "jalapeño",
+      "quantity": "1 small",
+      "prep": "stemmed, seeded, and finely diced"
     },
     {
       "ingredient_id": 1191,
@@ -122,6 +125,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the Monterey Jack cheese. Grate the sharp cheddar cheese. Stem, seed, and finely dice the jalapeño.",
+      "secondary_message": "0.23 kg Monterey Jack cheese\n0.23 kg sharp cheddar cheese\n1 small jalapeño"
+    },
     {
       "id": 1,
       "primary_message": "Place Monterey Jack and cheddar cheese in a medium bowl and toss with cornstarch until evenly coated. Set aside.",

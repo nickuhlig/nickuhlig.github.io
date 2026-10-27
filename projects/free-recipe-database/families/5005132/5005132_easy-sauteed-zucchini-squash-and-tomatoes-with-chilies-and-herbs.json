@@ -61,18 +61,21 @@
     },
     {
       "ingredient_id": 2021,
-      "name": "serrano chile, finely minced",
-      "quantity": "1"
+      "name": "serrano chile",
+      "quantity": "1",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely minced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, split in half",
-      "quantity": "1 cup"
+      "name": "cherry tomatoes",
+      "quantity": "1 cup",
+      "prep": "split in half"
     },
     {
       "ingredient_id": 1480,
@@ -91,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the serrano chile. Finely mince the shallot. Split the cherry tomatoes in half.",
+      "secondary_message": "1 serrano chile\n1 small shallot\n1 cup cherry tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "Toss zucchini and squash with 1 1/2 tablespoons oil in a large bowl, making sure that no pieces are stuck together. Season with salt and pepper.",

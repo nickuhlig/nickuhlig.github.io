@@ -41,13 +41,15 @@
   "ingredients": [
     {
       "ingredient_id": 143,
-      "name": "sweet potatoes in jackets, poked all over with a fork",
-      "quantity": "1 lb"
+      "name": "sweet potatoes in jackets",
+      "quantity": "1 lb",
+      "prep": "poked all over with a fork"
     },
     {
       "ingredient_id": 272,
-      "name": "walnut halves, crumbled",
-      "quantity": "1 cup"
+      "name": "walnut halves",
+      "quantity": "1 cup",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 47,
@@ -91,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Poke the sweet potatoes in jackets all over with a fork. Crumble the walnut halves.",
+      "secondary_message": "1 lb sweet potatoes in jackets\n1 cup walnut halves"
+    },
     {
       "id": 1,
       "primary_message": "Microwave sweet potatoes until tender and easily pierced with a fork, about 5 minutes. Set aside to cool slightly. If desired, peel and discard jackets. Cut into medium cubes and allow to cool to room temperature.",

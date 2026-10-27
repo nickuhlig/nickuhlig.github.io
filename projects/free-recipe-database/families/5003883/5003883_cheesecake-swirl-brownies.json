@@ -93,11 +93,18 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "8 oz"
+      "name": "cream cheese",
+      "quantity": "8 oz",
+      "prep": "softened"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the cream cheese.",
+      "secondary_message": "8 oz cream cheese"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350°F. Grease a 9- by 9-inch baking pan.",

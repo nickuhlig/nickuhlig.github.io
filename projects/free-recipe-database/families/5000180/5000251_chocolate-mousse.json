@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, separated",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "separated"
     },
     {
       "ingredient_id": 88,
@@ -85,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Separate the eggs.",
+      "secondary_message": "3 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Place 4 cups of water in a 3-quart saucepan and bring to a gentle simmer over medium heat. In a stainless-steel mixing bowl large enough to nest in the saucepan without touching the water, combine chocolate and heavy cream, set it over the saucepan, and, stirring occasionally with a silicone spatula, cook until the chocolate has melted. Stir until homogenous, then remove the bowl from the saucepan and set on a heatproof work surface.",

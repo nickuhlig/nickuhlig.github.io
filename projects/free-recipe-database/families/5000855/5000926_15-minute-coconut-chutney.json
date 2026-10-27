@@ -92,8 +92,9 @@
     },
     {
       "ingredient_id": 2308,
-      "name": "urad dal, a.k.a. split black gram lentils",
-      "quantity": "1 tsp"
+      "name": "urad dal",
+      "quantity": "1 tsp",
+      "prep": "a.k.a. split black gram lentils"
     },
     {
       "ingredient_id": 1872,
@@ -107,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the a.k.a. of the urad dal black gram lentils.",
+      "secondary_message": "1 tsp urad dal"
+    },
     {
       "id": 1,
       "primary_message": "In a small skillet over medium heat, heat ghee and chana dal. Toast dal until fragrant and golden. Set aside.",

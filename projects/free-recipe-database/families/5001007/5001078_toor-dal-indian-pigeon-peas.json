@@ -55,13 +55,15 @@
     },
     {
       "ingredient_id": 1541,
-      "name": "ripe plum tomato, cut into 1-inch pieces",
-      "quantity": "1 medium"
+      "name": "ripe plum tomato",
+      "quantity": "1 medium",
+      "prep": "cut into 1-inch pieces"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, thinly sliced",
-      "quantity": "1 small"
+      "name": "yellow onion",
+      "quantity": "1 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 90,
@@ -90,8 +92,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and smashed",
-      "quantity": "5 medium cloves"
+      "name": "garlic",
+      "quantity": "5 medium cloves",
+      "prep": "peeled and smashed"
     },
     {
       "ingredient_id": 76,
@@ -120,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the ripe plum tomato into 1-inch pieces. Thinly slice the yellow onion. Peel and smash the garlic.",
+      "secondary_message": "1 medium ripe plum tomato\n1 small yellow onion\n5 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Dal: Place toor dal in a large bowl and cover by 5 cm with cool water. Using your hands, vigorously swish toor dal until water turns cloudy, about 30 seconds. Using a fine-mesh strainer, drain toor dal, discarding the cloudy water.",

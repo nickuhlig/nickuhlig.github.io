@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, peeled and sliced",
-      "quantity": "1 small"
+      "name": "white onion",
+      "quantity": "1 small",
+      "prep": "peeled and sliced"
     },
     {
       "ingredient_id": 168,
@@ -110,6 +111,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and slice the white onion.",
+      "secondary_message": "1 small white onion"
+    },
     {
       "id": 1,
       "primary_message": "For the Beef and Onion Topping: In a large skillet, heat oil over medium-high until shimmering. Add onions and cook, stirring occasionally, until soft, about 5 minutes. Add ground beef and cook, using a wooden spoon to stir and scrape bottom of skillet, until beef is well browned and broken into small crumbles, 6 to 8 minutes. Season to taste with salt and pepper. Using a slotted spoon, transfer beef and onion mixture to a medium bowl, allowing any excess grease to drip off. Let cool to room temperature, about 10 minutes; set aside.",

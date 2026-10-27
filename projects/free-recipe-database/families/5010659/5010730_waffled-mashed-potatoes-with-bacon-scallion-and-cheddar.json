@@ -69,8 +69,9 @@
     },
     {
       "ingredient_id": 3665,
-      "name": "cooked bacon, chopped into 1/2-inch pieces",
-      "quantity": "1 cup"
+      "name": "cooked bacon",
+      "quantity": "1 cup",
+      "prep": "chopped into 1/2-inch pieces"
     },
     {
       "ingredient_id": 43,
@@ -109,6 +110,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the cooked bacon into 1/2-inch pieces.",
+      "secondary_message": "1 cup cooked bacon"
+    },
     {
       "id": 1,
       "primary_message": "Preheat waffle iron. (If it has temperature adjustment, set it to medium.) If you want to keep finished waffled mashed potatoes warm, preheat oven to 110°C (225°F).",

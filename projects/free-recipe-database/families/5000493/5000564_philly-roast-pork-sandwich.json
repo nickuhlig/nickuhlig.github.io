@@ -38,8 +38,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 88,
@@ -73,8 +74,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, halved and thinly sliced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "halved and thinly sliced"
     },
     {
       "ingredient_id": 2268,
@@ -88,8 +90,9 @@
     },
     {
       "ingredient_id": 1675,
-      "name": "broccoli rabe, trimmed and cut into 1-inch pieces",
-      "quantity": "0.57 kg"
+      "name": "broccoli rabe",
+      "quantity": "0.57 kg",
+      "prep": "trimmed and cut into 1-inch pieces"
     },
     {
       "ingredient_id": 88,
@@ -103,8 +106,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1721,
@@ -128,6 +132,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic. Halve and thinly slice the yellow onion. Trim and cut the broccoli rabe into 1-inch pieces. Mince the garlic.",
+      "secondary_message": "3 medium cloves garlic\n1 medium yellow onion\n0.57 kg broccoli rabe\n2 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Pork: In a bowl, combine garlic, salt, rosemary, thyme, black pepper, and red pepper flakes. If needed, use a sharp knife to trim fat cap on pork to 0.5 cm, then cut a 2.5-cm crosshatch pattern in fat cap.",

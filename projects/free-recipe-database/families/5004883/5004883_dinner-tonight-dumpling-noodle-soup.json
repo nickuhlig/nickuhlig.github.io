@@ -47,13 +47,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 221,
-      "name": "thumb-size piece ginger, peeled and minced",
-      "quantity": "1"
+      "name": "thumb-size piece ginger",
+      "quantity": "1",
+      "prep": "peeled and minced"
     },
     {
       "ingredient_id": 3094,
@@ -62,6 +64,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic. Peel and mince the thumb-size piece ginger.",
+      "secondary_message": "2 cloves garlic\n1 thumb-size piece ginger"
+    },
     {
       "id": 1,
       "primary_message": "Bring the broth, soy sauce, and vegetables to a boil over medium heat. Reserve some raw scallions for topping the soup.",

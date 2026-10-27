@@ -42,14 +42,16 @@
     },
     {
       "ingredient_id": 1929,
-      "name": "shiitake mushrooms, stems discarded, caps finely chopped",
+      "name": "shiitake mushrooms",
       "quantity": "½ lb",
-      "weigh_as": "10"
+      "weigh_as": "10",
+      "prep": "stems discarded, caps finely chopped"
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, diced",
-      "quantity": "3 medium"
+      "name": "shallots",
+      "quantity": "3 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1800,
@@ -63,8 +65,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, ends trimmed, and chopped",
-      "quantity": "2 stalks"
+      "name": "scallions",
+      "quantity": "2 stalks",
+      "prep": "ends trimmed, and chopped"
     },
     {
       "ingredient_id": 294,
@@ -73,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Discard the stems from the shiitake mushrooms, then finely chop the caps. Dice the shallots. Trim the ends of the scallions, then chop them.",
+      "secondary_message": "½ lb shiitake mushrooms\n3 medium shallots\n2 stalks scallions"
+    },
     {
       "id": 1,
       "primary_message": "Pour the oil into a large wok or skillet set over high heat. When hot, add the pork. Stir well, and cook until there is no more pink, about 3 to 5 minutes. Remove the pork with a slotted spoon and set aside.",

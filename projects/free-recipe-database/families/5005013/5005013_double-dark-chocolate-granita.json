@@ -53,11 +53,18 @@
     },
     {
       "ingredient_id": 2285,
-      "name": "semisweet chocolate, finely chopped",
-      "quantity": "3 oz"
+      "name": "semisweet chocolate",
+      "quantity": "3 oz",
+      "prep": "finely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the semisweet chocolate.",
+      "secondary_message": "3 oz semisweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "In medium saucepan over medium heat, whisk coffee, sugar, and cocoa until melted and smooth. Whisk in vanilla and chocolate until smooth. Transfer to bowl and chill until cold, about 2 hours.",

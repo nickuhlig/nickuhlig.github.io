@@ -83,13 +83,15 @@
     },
     {
       "ingredient_id": 1675,
-      "name": "broccoli rabe, trimmed and cut into 1 1/2–inch pieces",
-      "quantity": "10 oz"
+      "name": "broccoli rabe",
+      "quantity": "10 oz",
+      "prep": "trimmed and cut into 1 1/2–inch pieces"
     },
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, halved",
-      "quantity": "8 oz"
+      "name": "cherry tomatoes",
+      "quantity": "8 oz",
+      "prep": "halved"
     },
     {
       "ingredient_id": 24,
@@ -113,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim and cut the broccoli rabe into 1 1/2–inch pieces. Halve the cherry tomatoes.",
+      "secondary_message": "10 oz broccoli rabe\n8 oz cherry tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower-middle position, and place a rimmed baking sheet on oven rack. Preheat oven to 425°F (220℃). In a large bowl, toss together gnocchi, onion, 2 tablespoons oil, 1 teaspoon salt, red pepper, fennel seeds, and black pepper until gnocchi is evenly coated. Remove baking sheet from oven, and spread gnocchi mixture in an even layer on preheated baking sheet. Place sausage pieces directly on baking sheet between gnocchi.",

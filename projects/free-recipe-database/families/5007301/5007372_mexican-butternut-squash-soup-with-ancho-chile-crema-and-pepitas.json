@@ -58,23 +58,27 @@
     },
     {
       "ingredient_id": 2541,
-      "name": "ancho chiles, stemmed",
-      "quantity": "2"
+      "name": "ancho chiles",
+      "quantity": "2",
+      "prep": "stemmed"
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, diced",
-      "quantity": "2 medium"
+      "name": "onions",
+      "quantity": "2 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, diced",
-      "quantity": "2 medium"
+      "name": "carrots",
+      "quantity": "2 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, crushed",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 1231,
@@ -93,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem the ancho chiles. Dice the onions. Dice the carrots. Crush the garlic.",
+      "secondary_message": "2 ancho chiles\n2 medium onions\n2 medium carrots\n2 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 220°C (425°F). Toss squash with 2 tablespoons oil, season with salt, and spread in an even layer on a rimmed baking sheet. Roast squash, stirring occasionally, until browned and tender, about 35 minutes.",

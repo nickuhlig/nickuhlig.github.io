@@ -46,13 +46,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, thinly sliced",
-      "quantity": "2 large"
+      "name": "shallots",
+      "quantity": "2 large",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1743,
@@ -86,21 +88,30 @@
     },
     {
       "ingredient_id": 2132,
-      "name": "mussels, de-bearded and scrubbed",
-      "quantity": "1.13 to 1.36 kg"
+      "name": "mussels",
+      "quantity": "1.13 to 1.36 kg",
+      "prep": "de-bearded and scrubbed"
     },
     {
       "ingredient_id": 188,
-      "name": "Small bunch cilantro leaves, tender stems roughly chopped",
-      "quantity": ""
+      "name": "Small bunch cilantro leaves",
+      "quantity": "",
+      "prep": "tender stems roughly chopped"
     },
     {
       "ingredient_id": 1964,
-      "name": "Small bunch sweet, roughly chopped",
-      "quantity": ""
+      "name": "Small bunch sweet",
+      "quantity": "",
+      "prep": "roughly chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the shallots. Mince the garlic. De-beard and scrub the mussels. Roughly chop the tender stems of the Small bunch cilantro leaves. Roughly chop the Small bunch sweet.",
+      "secondary_message": "2 large shallots\n2 cloves garlic\n1.13 to 1.36 kg mussels\nSmall bunch cilantro leaves\nSmall bunch sweet"
+    },
     {
       "id": 1,
       "primary_message": "Boil a kettle of water (or use very hot tap water). Place noodles in a large bowl and pour hot water over until they are covered. Separate strands with a fork and leave to soften, about 5 minutes. Drain and set aside.",

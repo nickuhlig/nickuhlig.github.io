@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 1938,
-      "name": "vanilla bean, split lengthwise and scraped",
-      "quantity": "1"
+      "name": "vanilla bean",
+      "quantity": "1",
+      "prep": "split lengthwise and scraped"
     },
     {
       "ingredient_id": 88,
@@ -75,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the vanilla bean lengthwise, then scrape it.",
+      "secondary_message": "1 vanilla bean"
+    },
     {
       "id": 1,
       "primary_message": "In a 3-quart saucepan, combine heavy cream, whole milk, vanilla bean and seeds, and salt. Bring to a gentle simmer over medium-low heat, then remove from heat, cover, and let stand 1 hour.",

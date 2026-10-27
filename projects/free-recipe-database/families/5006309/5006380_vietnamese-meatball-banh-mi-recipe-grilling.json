@@ -37,18 +37,21 @@
   "ingredients": [
     {
       "ingredient_id": 2911,
-      "name": "lean pork, very thinly sliced",
-      "quantity": "0.45 kg"
+      "name": "lean pork",
+      "quantity": "0.45 kg",
+      "prep": "very thinly sliced"
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, minced",
-      "quantity": "¼ cup"
+      "name": "shallots",
+      "quantity": "¼ cup",
+      "prep": "minced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "¼ cup"
+      "name": "garlic",
+      "quantity": "¼ cup",
+      "prep": "minced"
     },
     {
       "ingredient_id": 52,
@@ -67,8 +70,9 @@
     },
     {
       "ingredient_id": 2823,
-      "name": "pork fat, minced",
-      "quantity": "57 g"
+      "name": "pork fat",
+      "quantity": "57 g",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1974,
@@ -92,11 +96,18 @@
     },
     {
       "ingredient_id": 188,
-      "name": "cilantro, very coarsely chopped",
-      "quantity": "1 bunch"
+      "name": "cilantro",
+      "quantity": "1 bunch",
+      "prep": "very coarsely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Very thinly slice the lean pork. Mince the shallots. Mince the garlic. Mince the pork fat. Very coarsely chop the cilantro.",
+      "secondary_message": "0.45 kg lean pork\n¼ cup shallots\n¼ cup garlic\n57 g pork fat\n1 bunch cilantro"
+    },
     {
       "id": 1,
       "primary_message": "Whisk together the shallots, garlic, fish sauce, sugar and pepper in a small bowl. Place pork slices in a large zipper-lock bag, pour in marinade, seal bag and toss to coat well. Open bag and reseal, removing as much air as possible. Place in the refrigerator and marinate at least 1 hour, or up to 24. Thirty minutes prior to making the meatballs, transfer the pork to the freezer to firm up.",

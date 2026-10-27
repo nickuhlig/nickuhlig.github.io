@@ -112,8 +112,9 @@
     },
     {
       "ingredient_id": 1442,
-      "name": "mascarpone, straight from the fridge",
-      "quantity": "1 ½ lb"
+      "name": "mascarpone",
+      "quantity": "1 ½ lb",
+      "prep": "straight from the fridge"
     },
     {
       "ingredient_id": 2909,
@@ -127,6 +128,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the mascarpone cold until you use it.",
+      "secondary_message": "1 ½ lb mascarpone"
+    },
     {
       "id": 1,
       "primary_message": "For the Coffee Syrup: In a deep bowl, whisk together cocoa powder, hot espresso, crème de cacao, Cardamaro, and vanilla extract until homogeneous. Set aside.",

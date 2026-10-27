@@ -34,18 +34,21 @@
   "ingredients": [
     {
       "ingredient_id": 1294,
-      "name": "tomato, about 3 canned plum tomatoes, chopped",
-      "quantity": "1 large"
+      "name": "tomato, about 3 canned plum tomatoes",
+      "quantity": "1 large",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "6 cloves"
+      "name": "garlic",
+      "quantity": "6 cloves",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, peeled",
-      "quantity": "1 (1 ½ cm)"
+      "name": "fresh ginger",
+      "quantity": "1 (1 ½ cm)",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 74,
@@ -74,13 +77,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, ends trimmed, cut into thin half moons",
-      "quantity": "½ medium"
+      "name": "onion",
+      "quantity": "½ medium",
+      "prep": "ends trimmed, cut into thin half moons"
     },
     {
       "ingredient_id": 1897,
-      "name": "potatoes, peeled and chopped into 1/2-inch cubes",
-      "quantity": "2 medium"
+      "name": "potatoes",
+      "quantity": "2 medium",
+      "prep": "peeled and chopped into 1/2-inch cubes"
     },
     {
       "ingredient_id": 88,
@@ -114,6 +119,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the tomato. Peel the garlic. Peel the fresh ginger. Trim the ends of the onion, then cut it into thin half moons. Peel and chop the potatoes into 1/2-inch cubes.",
+      "secondary_message": "1 large tomato, about 3 canned plum tomatoes\n6 cloves garlic\n1 (1 ½ cm) fresh ginger\n½ medium onion\n2 medium potatoes"
+    },
     {
       "id": 1,
       "primary_message": "In a blender, combine the tomato, garlic, and ginger. Puree until smooth. Set aside.",

@@ -136,8 +136,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten with 1 tablespoon water",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "beaten with 1 tablespoon water"
     },
     {
       "ingredient_id": 1682,
@@ -161,6 +162,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Beat the egg with 1 tablespoon water.",
+      "secondary_message": "1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "Line a rimmed baking sheet with parchment paper; set aside. Remove pie dough from refrigerator. If using homemade dough, let stand at room temperature until slightly softened, 5 to 10 minutes.",

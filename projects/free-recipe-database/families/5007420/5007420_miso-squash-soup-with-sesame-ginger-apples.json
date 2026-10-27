@@ -67,18 +67,21 @@
     },
     {
       "ingredient_id": 309,
-      "name": "leek, white and light green parts only, diced",
-      "quantity": "1 medium"
+      "name": "leek, white and light green parts only",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, diced",
-      "quantity": "2 medium"
+      "name": "carrots",
+      "quantity": "2 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, sliced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 221,
@@ -112,8 +115,9 @@
     },
     {
       "ingredient_id": 1692,
-      "name": "crisp apple, such as Fuji, peeled, cored, and diced",
-      "quantity": "1 large"
+      "name": "crisp apple, such as Fuji",
+      "quantity": "1 large",
+      "prep": "peeled, cored, and diced"
     },
     {
       "ingredient_id": 153,
@@ -137,6 +141,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the leek. Dice the carrots. Slice the garlic. Peel, core, and dice the crisp apple.",
+      "secondary_message": "1 medium leek, white and light green parts only\n2 medium carrots\n2 medium cloves garlic\n1 large crisp apple, such as Fuji"
+    },
     {
       "id": 1,
       "primary_message": "Combine 1 1/2 quarts water, kombu, and bonito flakes in a large saucepan and bring to a boil over high heat. Reduce to a bare simmer and cook for 5 minutes. Remove from heat, let cool for 5 minutes, then strain through a fine-mesh strainer. Discard solids and set dashi aside.",

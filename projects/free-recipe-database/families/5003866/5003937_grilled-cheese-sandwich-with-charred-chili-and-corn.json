@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 27,
-      "name": "fresh corn, shucked",
-      "quantity": "4 ears"
+      "name": "fresh corn",
+      "quantity": "4 ears",
+      "prep": "shucked"
     },
     {
       "ingredient_id": 151,
@@ -71,23 +72,27 @@
     },
     {
       "ingredient_id": 1027,
-      "name": "crusty rolls, split lengthwise",
-      "quantity": "4"
+      "name": "crusty rolls",
+      "quantity": "4",
+      "prep": "split lengthwise"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, finely diced",
-      "quantity": "1 small"
+      "name": "white onion",
+      "quantity": "1 small",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 188,
-      "name": "cilantro leaves, chopped",
-      "quantity": "½ cup"
+      "name": "cilantro leaves",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1421,
@@ -96,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shuck the fresh corn. Split the crusty rolls lengthwise. Soften the unsalted butter. Finely dice the white onion. Chop the cilantro leaves.",
+      "secondary_message": "4 ears fresh corn\n4 crusty rolls\n2 tbsp unsalted butter\n1 small white onion\n½ cup cilantro leaves"
+    },
     {
       "id": 1,
       "primary_message": "Heat grill or grill pan over medium-high heat. Preheat for 5 minutes. Brush corn, jalapeños, and poblanos with vegetable oil. Grill until charred on all sides, turning occasionally with tongs, 7 to 10 minutes for corn, 5 to 7 minutes for chilis. Transfer to cutting board. When cool enough to handle, cut corn kernels from cob into a large bowl and slice the chilies into thin strips.",

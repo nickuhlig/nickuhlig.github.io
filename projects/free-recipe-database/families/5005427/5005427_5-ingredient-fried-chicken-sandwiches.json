@@ -85,11 +85,18 @@
     },
     {
       "ingredient_id": 1772,
-      "name": "soft hamburger buns, toasted",
-      "quantity": "4"
+      "name": "soft hamburger buns",
+      "quantity": "4",
+      "prep": "toasted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Toast the soft hamburger buns.",
+      "secondary_message": "4 soft hamburger buns"
+    },
     {
       "id": 1,
       "primary_message": "Pour 3/4 cup pickle juice out of pickle jar into a measuring cup. Reserve pickles.",

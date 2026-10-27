@@ -39,8 +39,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, thinly sliced",
-      "quantity": "2 medium"
+      "name": "onions",
+      "quantity": "2 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -59,11 +60,18 @@
     },
     {
       "ingredient_id": 2872,
-      "name": "Comté cheese, sliced",
-      "quantity": "113 g"
+      "name": "Comté cheese",
+      "quantity": "113 g",
+      "prep": "sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the onions. Slice the Comté cheese.",
+      "secondary_message": "2 medium onions\n113 g Comté cheese"
+    },
     {
       "id": 1,
       "primary_message": "Heat 1 tablespoon in a large non-stick of cast iron skillet over medium-low heat until melted. Add onions, season with salt and pepper and cook, stirring frequently, until deeply caramelized and rich brown, about 45 minutes (If onions threaten to burn, add 1 tablespoon of water). Transfer onions to a bowl and wipe out skillet.",

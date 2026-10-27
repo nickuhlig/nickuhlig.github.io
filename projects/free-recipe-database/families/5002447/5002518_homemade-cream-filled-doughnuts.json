@@ -172,8 +172,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into small pieces",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "cut into small pieces"
     },
     {
       "ingredient_id": 353,
@@ -187,6 +188,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into small pieces.",
+      "secondary_message": "2 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Dough: In the bowl of a stand mixer fitted with the dough hook attachment, combine milk, eggs, and egg yolk and whisk briefly to break up the eggs. Add flour, sugar, salt, and yeast. Mix on low speed for 5 to 7 minutes or until a smooth-ish, cohesive dough forms. Cover bowl with plastic wrap or a damp towel and let rest for 5 minutes.",

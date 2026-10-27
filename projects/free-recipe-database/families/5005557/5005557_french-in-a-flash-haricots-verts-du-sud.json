@@ -40,13 +40,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, chopped",
-      "quantity": "4 small"
+      "name": "shallots",
+      "quantity": "4 small",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "grated"
     },
     {
       "ingredient_id": 323,
@@ -65,8 +67,9 @@
     },
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, pureed in a blender until almost smooth",
-      "quantity": "¾ lb"
+      "name": "cherry tomatoes",
+      "quantity": "¾ lb",
+      "prep": "pureed in a blender until almost smooth"
     },
     {
       "ingredient_id": 88,
@@ -80,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the shallots. Grate the garlic. Puree the cherry tomatoes in a blender until almost smooth.",
+      "secondary_message": "4 small shallots\n3 cloves garlic\n¾ lb cherry tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "Heat the oil in a wide high-sided sauté pan over medium-high heat until it shimmers. Add the shallots, and sauté for 3 1/2 minutes, stirring often.",

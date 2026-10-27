@@ -62,13 +62,15 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "6 oz"
+      "name": "cream cheese",
+      "quantity": "6 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 43,
-      "name": "sharp cheddar cheese, shredded",
-      "quantity": "4 oz"
+      "name": "sharp cheddar cheese",
+      "quantity": "4 oz",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 2824,
@@ -77,16 +79,24 @@
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño peppers, halved, seeded, and membranes removed",
-      "quantity": "12"
+      "name": "jalapeño peppers",
+      "quantity": "12",
+      "prep": "halved, seeded, and membranes removed"
     },
     {
       "ingredient_id": 302,
-      "name": "bacon, cut in half",
-      "quantity": "12 slices"
+      "name": "bacon",
+      "quantity": "12 slices",
+      "prep": "cut in half"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the cream cheese. Shred the sharp cheddar cheese. Halve and seed the jalapeño peppers, then remove the membranes. Cut the bacon in half.",
+      "secondary_message": "6 oz cream cheese\n4 oz sharp cheddar cheese\n12 jalapeño peppers\n12 slices bacon"
+    },
     {
       "id": 1,
       "primary_message": "In a saucepan, combine the raspberries, sugar, and apple cider vinegar and heat over medium-low heat, stirring occasionally, until the raspberries are broken down into a thick sauce the mixture coats the back of a spoon, about 20 minutes. Stir in chipotle chili powder and season with salt. If desired, strain to remove seeds. Let cool to room temperature.",

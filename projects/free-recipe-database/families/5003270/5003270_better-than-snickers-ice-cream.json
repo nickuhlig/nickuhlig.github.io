@@ -96,16 +96,24 @@
     },
     {
       "ingredient_id": 1729,
-      "name": "dark chocolate, chopped fine, chilled in freezer",
-      "quantity": "2 oz"
+      "name": "dark chocolate",
+      "quantity": "2 oz",
+      "prep": "chopped fine, chilled in freezer"
     },
     {
       "ingredient_id": 217,
-      "name": "roasted unsalted peanuts, chilled in freezer",
-      "quantity": "½ to ¾ cup"
+      "name": "roasted unsalted peanuts",
+      "quantity": "½ to ¾ cup",
+      "prep": "chilled in freezer"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the dark chocolate fine, then chill it in freezer. Chill the roasted unsalted peanuts in freezer.",
+      "secondary_message": "2 oz dark chocolate\n½ to ¾ cup roasted unsalted peanuts"
+    },
     {
       "id": 1,
       "primary_message": "In a blender, combine half and half, peanut butter, 3/4 cup sugar, 1/2 teaspoon salt, and vanilla. Blend until smooth, then transfer to an airtight container and chill for 3 hours or until very cold.",

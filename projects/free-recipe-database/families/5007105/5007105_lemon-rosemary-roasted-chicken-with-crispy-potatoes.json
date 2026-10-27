@@ -86,12 +86,19 @@
     },
     {
       "ingredient_id": 1039,
-      "name": "russet potatoes, peeled, cut into 2-inch chunks",
+      "name": "russet potatoes",
       "quantity": "4 medium",
-      "weigh_as": "2 lb"
+      "weigh_as": "2 lb",
+      "prep": "peeled, cut into 2-inch chunks"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the russet potatoes into 2-inch chunks.",
+      "secondary_message": "4 medium russet potatoes"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven racks to upper-middle and lower-middle position and preheat oven to 400°F. Heat 12-inch cast iron skillet in oven for 15 minutes.",

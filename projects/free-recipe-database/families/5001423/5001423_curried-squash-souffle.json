@@ -61,9 +61,10 @@
   "ingredients": [
     {
       "ingredient_id": 142,
-      "name": "peeled and seeded butternut squash flesh, cut into 1-inch cubes",
+      "name": "peeled and seeded butternut squash flesh",
       "quantity": "1 small",
-      "weigh_as": "1 ½ lb"
+      "weigh_as": "1 ½ lb",
+      "prep": "cut into 1-inch cubes"
     },
     {
       "ingredient_id": 1682,
@@ -102,8 +103,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, separated",
-      "quantity": "5 large"
+      "name": "eggs",
+      "quantity": "5 large",
+      "prep": "separated"
     },
     {
       "ingredient_id": 264,
@@ -117,8 +119,9 @@
     },
     {
       "ingredient_id": 1818,
-      "name": "fresh makrut lime leaves, de-ribbed and cut into very thin ribbons",
-      "quantity": "2"
+      "name": "fresh makrut lime leaves",
+      "quantity": "2",
+      "prep": "de-ribbed and cut into very thin ribbons"
     },
     {
       "ingredient_id": 2088,
@@ -127,6 +130,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the peeled and seeded butternut squash flesh into 1-inch cubes. Separate the eggs. De-rib and cut the fresh makrut lime leaves into very thin ribbons.",
+      "secondary_message": "1 small peeled and seeded butternut squash flesh\n5 large eggs\n2 fresh makrut lime leaves"
+    },
     {
       "id": 1,
       "primary_message": "For the Squash: Adjust oven rack to middle position and preheat oven to 400°F. Toss squash with oil and salt, then arrange on a rimmed 13- by 18-inch baking sheet, making sure to not overcrowd. Roast, stirring occasionally, until squash is tender and beginning to brown, 30 to 45 minutes. Remove from oven and set aside. Reduce oven to 375°F.",

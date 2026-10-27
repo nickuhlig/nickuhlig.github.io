@@ -141,8 +141,9 @@
     },
     {
       "ingredient_id": 3641,
-      "name": "egg yolks, at room temperature",
-      "quantity": "3 large"
+      "name": "egg yolks",
+      "quantity": "3 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1044,
@@ -161,8 +162,9 @@
     },
     {
       "ingredient_id": 3642,
-      "name": "egg whites, at room temperature",
-      "quantity": "4 large"
+      "name": "egg whites",
+      "quantity": "4 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 88,
@@ -186,9 +188,10 @@
     },
     {
       "ingredient_id": 234,
-      "name": "frozen peaches, thawed",
+      "name": "frozen peaches",
       "quantity": "1 ½",
-      "weigh_as": "227 g"
+      "weigh_as": "227 g",
+      "prep": "thawed"
     },
     {
       "ingredient_id": 221,
@@ -237,8 +240,9 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, chopped",
-      "quantity": "255 g"
+      "name": "bittersweet chocolate",
+      "quantity": "255 g",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1312,
@@ -247,6 +251,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the egg yolks to room temperature. Bring the egg whites to room temperature. Thaw the frozen peaches. Chop the bittersweet chocolate.",
+      "secondary_message": "3 large egg yolks\n4 large egg whites\n1 ½ frozen peaches\n255 g bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Adjust oven rack to middle position and preheat oven to 165°C (325°F). Lightly coat springform pan with baking spray. Line bottom with parchment paper and once again lightly coat with baking spray.",

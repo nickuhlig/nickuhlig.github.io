@@ -72,8 +72,9 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet dark chocolate, chopped , divided",
-      "quantity": "7 oz"
+      "name": "bittersweet dark chocolate, divided",
+      "quantity": "7 oz",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 333,
@@ -97,8 +98,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, room temperature",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 116,
@@ -107,8 +109,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "2 sticks"
+      "name": "unsalted butter",
+      "quantity": "2 sticks",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1567,
@@ -137,8 +140,9 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, chopped",
-      "quantity": "4 ½ oz"
+      "name": "bittersweet chocolate",
+      "quantity": "4 ½ oz",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 316,
@@ -157,6 +161,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the bittersweet dark chocolate. Bring the eggs to room temperature. Bring the unsalted butter to room temperature. Chop the bittersweet chocolate.",
+      "secondary_message": "7 oz bittersweet dark chocolate, divided\n3 large eggs\n2 sticks unsalted butter\n4 ½ oz bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "For the Brownies: Adjust oven rack to middle position and preheat oven to 350°F. Coat a 13- x 9-inch metal baking pan (at least 2 inches deep) with cooking spray. Line with parchment paper, leaving at least 2 inches overhang on two opposite sides to remove brownies from pan. Spray parchment paper with cooking spray. Set pan aside.",

@@ -39,8 +39,9 @@
   "ingredients": [
     {
       "ingredient_id": 2538,
-      "name": "skate wing fillet, cut into 4 sections",
-      "quantity": "0.45 kg"
+      "name": "skate wing fillet",
+      "quantity": "0.45 kg",
+      "prep": "cut into 4 sections"
     },
     {
       "ingredient_id": 2529,
@@ -54,18 +55,21 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely chopped",
-      "quantity": "1"
+      "name": "shallot",
+      "quantity": "1",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 260,
-      "name": "tomatoes, finely chopped",
-      "quantity": "2 medium"
+      "name": "tomatoes",
+      "quantity": "2 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 15,
-      "name": "capers, finely chopped",
-      "quantity": "2 tbsp"
+      "name": "capers",
+      "quantity": "2 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 47,
@@ -84,6 +88,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the skate wing fillet into 4 sections. Finely chop the shallot. Finely chop the tomatoes. Finely chop the capers.",
+      "secondary_message": "0.45 kg skate wing fillet\n1 shallot\n2 medium tomatoes\n2 tbsp capers"
+    },
     {
       "id": 1,
       "primary_message": "To cook fillets: Dredge each section of skate wing with flour and shake fillets to remove excess flour. Heat skillet over medium heat and add half of the butter to pan. Add skate fillets to pan and pan-fry on one side until surface is golden-brown, then add the rest of the butter to pan and pan-fry on other side, 1 to 2 minutes per side. Remove fillets from pan and keep on warmed plates.",

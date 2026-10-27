@@ -112,13 +112,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted and cooled",
-      "quantity": "3 ½ oz"
+      "name": "unsalted butter",
+      "quantity": "3 ½ oz",
+      "prep": "melted and cooled"
     },
     {
       "ingredient_id": 317,
-      "name": "very ripe bananas, peeled",
-      "quantity": "3 large"
+      "name": "very ripe bananas",
+      "quantity": "3 large",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 293,
@@ -157,8 +159,9 @@
     },
     {
       "ingredient_id": 327,
-      "name": "pecans, coarsely chopped",
-      "quantity": "4 oz"
+      "name": "pecans",
+      "quantity": "4 oz",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 1752,
@@ -167,6 +170,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter and let it cool. Peel the very ripe bananas. Coarsely chop the pecans.",
+      "secondary_message": "3 ½ oz unsalted butter\n3 large very ripe bananas\n4 oz pecans"
+    },
     {
       "id": 1,
       "primary_message": "For the Salted Caramel Sauce: In a medium saucepan, cook sugar, undisturbed, until it begins to melt, 3 to 5 minutes. Using a clean, heatproof spatula, continue to cook, stirring occasionally, until sugar is fully melted and amber. (Only stir as much as you need to help sugar dissolve; try not to get any sugar granules on sides of the pot.) Continue cooking until sugar turns a deep amber and just begins to smoke lightly, another 30 seconds to 1 minute.",

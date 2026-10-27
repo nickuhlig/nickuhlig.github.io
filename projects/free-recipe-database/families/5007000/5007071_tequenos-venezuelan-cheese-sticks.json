@@ -57,13 +57,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold butter, cut into 1/4-inch cubes",
-      "quantity": "6 tbsp"
+      "name": "cold butter",
+      "quantity": "6 tbsp",
+      "prep": "cut into 1/4-inch cubes"
     },
     {
       "ingredient_id": 121,
-      "name": "egg, lightly beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 359,
@@ -82,6 +84,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cold butter into 1/4-inch cubes. Lightly beat the egg.",
+      "secondary_message": "6 tbsp cold butter\n1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "Place flour and salt in workbowl of a food processor fitted with a steel blade; pulse to combine. Sprinkle butter evenly over flour and pulse until butter is cut into pieces slightly smaller than a pea, about 8 one-second pulses. Transfer dough to a large bowl.",

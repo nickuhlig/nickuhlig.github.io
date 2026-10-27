@@ -62,8 +62,9 @@
   "ingredients": [
     {
       "ingredient_id": 1612,
-      "name": "Cotija cheese, finely crumbled , plus more for serving",
-      "quantity": "2 oz"
+      "name": "Cotija cheese, plus more for serving",
+      "quantity": "2 oz",
+      "prep": "finely crumbled"
     },
     {
       "ingredient_id": 267,
@@ -92,18 +93,21 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "grated"
     },
     {
       "ingredient_id": 27,
-      "name": "corn, shucked",
-      "quantity": "4 ears"
+      "name": "corn",
+      "quantity": "4 ears",
+      "prep": "shucked"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "4 tbsp"
+      "name": "unsalted butter",
+      "quantity": "4 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 88,
@@ -127,6 +131,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely crumble the Cotija cheese. Grate the garlic. Shuck the corn. Melt the unsalted butter.",
+      "secondary_message": "2 oz Cotija cheese, plus more for serving\n1 medium clove garlic\n4 ears corn\n4 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Cotija crema: Stir together cheese, mayonnaise, crema, water, lime juice, chile powder, and garlic in a large bowl until mostly smooth; set aside.",

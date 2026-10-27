@@ -67,28 +67,33 @@
     },
     {
       "ingredient_id": 1259,
-      "name": "hot dog buns, toasted or steamed",
-      "quantity": "8"
+      "name": "hot dog buns",
+      "quantity": "8",
+      "prep": "toasted or steamed"
     },
     {
       "ingredient_id": 183,
-      "name": "avocado, diced",
-      "quantity": "1"
+      "name": "avocado",
+      "quantity": "1",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, diced",
-      "quantity": "1 small"
+      "name": "white onion",
+      "quantity": "1 small",
+      "prep": "diced"
     },
     {
       "ingredient_id": 260,
-      "name": "tomato, diced",
-      "quantity": "1 large"
+      "name": "tomato",
+      "quantity": "1 large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1373,
-      "name": "pickled jalapeño peppers, diced",
-      "quantity": "3 to 4"
+      "name": "pickled jalapeño peppers",
+      "quantity": "3 to 4",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1421,
@@ -107,8 +112,9 @@
     },
     {
       "ingredient_id": 1260,
-      "name": "potato chips, crushed",
-      "quantity": "1 small bag"
+      "name": "potato chips",
+      "quantity": "1 small bag",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 188,
@@ -117,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Toast or steam the hot dog buns. Dice the avocado. Dice the white onion. Dice the tomato. Dice the pickled jalapeño peppers. Crush the potato chips.",
+      "secondary_message": "8 hot dog buns\n1 avocado\n1 small white onion\n1 large tomato\n3 to 4 pickled jalapeño peppers\n1 small bag potato chips"
+    },
     {
       "id": 1,
       "primary_message": "Wrap each hot dog with bacon in a spiral pattern, securing ends of bacon with toothpicks. In a deep fryer, wok, or Dutch oven, heat peanut oil to 175°C (350°F). Add hot dogs and cook until bacon is crisp, about 4 minutes. Transfer to a paper towel-lined plate.",

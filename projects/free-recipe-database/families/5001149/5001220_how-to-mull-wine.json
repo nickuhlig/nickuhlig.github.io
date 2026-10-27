@@ -44,8 +44,9 @@
     },
     {
       "ingredient_id": 1882,
-      "name": "cardamom pods, lightly crushed",
-      "quantity": "4"
+      "name": "cardamom pods",
+      "quantity": "4",
+      "prep": "lightly crushed"
     },
     {
       "ingredient_id": 2510,
@@ -69,8 +70,9 @@
     },
     {
       "ingredient_id": 232,
-      "name": "whole navel orange, juiced and hull retained",
-      "quantity": "1"
+      "name": "whole navel orange",
+      "quantity": "1",
+      "prep": "juiced and hull retained"
     },
     {
       "ingredient_id": 1707,
@@ -84,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly crush the cardamom pods. Juice the whole navel orange, then retain the hull.",
+      "secondary_message": "4 cardamom pods\n1 whole navel orange"
+    },
     {
       "id": 1,
       "primary_message": "In a small saucepan, toast spices over medium-high heat while stirring often until fragrant, about 1 minute. Remove from heat and transfer all spices except cinnamon stick to a spice infuser bag, tea ball, or cheesecloth sachet.",

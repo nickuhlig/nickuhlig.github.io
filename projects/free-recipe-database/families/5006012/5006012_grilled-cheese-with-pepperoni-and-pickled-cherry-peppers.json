@@ -35,13 +35,15 @@
   "ingredients": [
     {
       "ingredient_id": 1387,
-      "name": "pepperoni, thinly sliced",
-      "quantity": "1 oz"
+      "name": "pepperoni",
+      "quantity": "1 oz",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 115,
-      "name": "butter, cut into 3 even pieces",
-      "quantity": "2 tbsp"
+      "name": "butter",
+      "quantity": "2 tbsp",
+      "prep": "cut into 3 even pieces"
     },
     {
       "ingredient_id": 1216,
@@ -65,6 +67,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the pepperoni. Cut the butter into 3 even pieces.",
+      "secondary_message": "1 oz pepperoni\n2 tbsp butter"
+    },
     {
       "id": 1,
       "primary_message": "Place pepperoni slices on a paper towel-lined microwave-safe plate. Microwave on high power until crispa and rendered, about 30 seconds.",

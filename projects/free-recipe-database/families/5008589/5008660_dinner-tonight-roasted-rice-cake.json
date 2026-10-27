@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, thinly sliced",
-      "quantity": "1 medium"
+      "name": "white onion",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -106,11 +107,18 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, ends trimmed, green parts thinly sliced",
-      "quantity": "2"
+      "name": "scallions, green parts thinly sliced",
+      "quantity": "2",
+      "prep": "ends trimmed"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the white onion. Trim the ends of the scallions.",
+      "secondary_message": "1 medium white onion\n2 scallions, green parts thinly sliced"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in 30-cm cast-iron skillet over medium-high heat until lightly smoking. Add onions and cook, stirring occasionally until onions begin to brown, about 10 minutes. Season with salt and reduce heat to medium-low. Continue cooking, stirring occasionally until richly caramelized, about 30 minutes longer. Adjust heat as needed to prevent burning. Transfer cooked onions to bowl.",

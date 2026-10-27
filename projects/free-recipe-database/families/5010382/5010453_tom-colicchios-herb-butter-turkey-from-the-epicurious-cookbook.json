@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, at room temperature",
-      "quantity": "1 cup"
+      "name": "butter",
+      "quantity": "1 cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 287,
@@ -115,6 +116,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the butter to room temperature.",
+      "secondary_message": "1 cup butter"
+    },
     {
       "id": 1,
       "primary_message": "Make Gravy Base: Melt the butter in a heavy large deep skillet over high heat. Add the turkey necks and/or wings and sauté until deep brown, about 15 minutes. Add the onions, carrots, and celery and sauté until vegetables are deep brown, about 15 minutes. Add the 6 cups chicken broth and bring to boil. Reduce the heat to medium-low and simmer uncovered 45 minutes, stirring occasionally.",

@@ -124,8 +124,9 @@
     },
     {
       "ingredient_id": 1027,
-      "name": "pineapple buns, halved horizontally",
-      "quantity": "4"
+      "name": "pineapple buns",
+      "quantity": "4",
+      "prep": "halved horizontally"
     },
     {
       "ingredient_id": 115,
@@ -139,6 +140,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the pineapple buns horizontally.",
+      "secondary_message": "4 pineapple buns"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, whisk together salt, MSG, baking soda, five spice powder, and dark brown sugar until well combined. Set aside.",

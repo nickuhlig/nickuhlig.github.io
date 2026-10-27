@@ -38,8 +38,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "ginger root, thinly sliced",
-      "quantity": "1 (½ inch)"
+      "name": "ginger root",
+      "quantity": "1 (½ inch)",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1757,
@@ -48,8 +49,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, halved",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "halved"
     },
     {
       "ingredient_id": 103,
@@ -63,6 +65,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the ginger root. Halve the lemon.",
+      "secondary_message": "1 (½ inch) ginger root\n1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "In a medium saucepan, add water, gingerroot slices and cloves. Squeeze lemon juice into the saucepan, adding lemon halves into the liquid. Bring to a boil over high heat, and then reduce to medium heat, so the liquid is bubbling. Cook for 10 to 20 minutes, until the mixture has reduced and has enough of a gingery taste to your liking. Strain, removing cloves, lemon halves and ginger from the liquid. Pour into two mugs. Add enough honey and rum or bourbon to your tastes. Garnish with lemon slices, and serve.",

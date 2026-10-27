@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 2128,
-      "name": "mustard green leaves, roots trimmed",
-      "quantity": "3 bunches"
+      "name": "mustard green leaves",
+      "quantity": "3 bunches",
+      "prep": "roots trimmed"
     },
     {
       "ingredient_id": 88,
@@ -55,6 +56,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the roots of the mustard green leaves.",
+      "secondary_message": "3 bunches mustard green leaves"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, wash the mustard leaves in several changes of cold water to remove any sand or grit. Using a salad spinner, spin dry.",

@@ -63,8 +63,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced, divided",
-      "quantity": "2 cloves"
+      "name": "garlic, divided",
+      "quantity": "2 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 226,
@@ -84,8 +85,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, thinly sliced",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 181,
@@ -94,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic. Thinly slice the shallot.",
+      "secondary_message": "2 cloves garlic, divided\n1 medium shallot"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to upper-middle position and heat oven to 205°C (400°F). In a small bowl, whisk tahini, 2 tablespoons water, lemon juice, 1 tablespoon oil, and half of garlic together to combine. Season with salt and pepper to taste, and adjust consistency with extra water as needed until sauce slowly drips from spoon; set aside.",

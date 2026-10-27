@@ -40,8 +40,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 47,
@@ -70,11 +71,18 @@
     },
     {
       "ingredient_id": 107,
-      "name": "fresh mozzarella, sliced, drained between paper towels",
-      "quantity": "1 lb"
+      "name": "fresh mozzarella",
+      "quantity": "1 lb",
+      "prep": "sliced, drained between paper towels"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic. Slice and drain the fresh mozzarella between paper towels.",
+      "secondary_message": "4 medium cloves garlic\n1 lb fresh mozzarella"
+    },
     {
       "id": 1,
       "primary_message": "Use a knife or bench scraper to divide dough into four even pieces. With lightly floured hands, form into tight balls. Lightly oil 4 medium containers (large soup bowls work great) and place 1 dough ball in each one. Lightly grease the tops of the dough balls then cover each bowl with plastic wrap. Allow to rise at room temperature until doubled in volume, about 2 hours.",

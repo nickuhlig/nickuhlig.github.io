@@ -59,13 +59,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, minced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "minced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 159,
@@ -74,8 +76,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, halved and thinly sliced crosswise",
-      "quantity": "½ small"
+      "name": "yellow onion",
+      "quantity": "½ small",
+      "prep": "halved and thinly sliced crosswise"
     },
     {
       "ingredient_id": 88,
@@ -104,6 +107,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the shallot. Mince the garlic. Halve and thinly slice the yellow onion crosswise.",
+      "secondary_message": "1 small shallot\n3 medium cloves garlic\n½ small yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "Bring a medium pot of water to boil. Add the noodles and cook for 1 minute less than package directions; the noodles should retain a slight chew and not be fully cooked. Using a colander, drain immediately and rinse with cold running water to stop the cooking process. Shake the colander well, allowing any excess water to drip off.",

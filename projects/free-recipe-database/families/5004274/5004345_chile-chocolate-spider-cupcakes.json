@@ -99,8 +99,9 @@
     },
     {
       "ingredient_id": 2581,
-      "name": "white chocolate, finely chopped",
-      "quantity": "113 g"
+      "name": "white chocolate",
+      "quantity": "113 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1752,
@@ -114,8 +115,9 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "283 g"
+      "name": "bittersweet chocolate",
+      "quantity": "283 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1752,
@@ -144,6 +146,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the white chocolate. Finely chop the bittersweet chocolate.",
+      "secondary_message": "113 g white chocolate\n283 g bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "For the Cupcakes: Adjust oven rack to middle position and preheat oven to 175°C (350°F). Line standard muffin tin with cupcake liners (see note). In medium bowl, whisk flour, cocoa, baking soda, and salt to combine; set aside. In large bowl, whisk sugar, brown sugar, buttermilk, oil, eggs, and vanilla to combine.",

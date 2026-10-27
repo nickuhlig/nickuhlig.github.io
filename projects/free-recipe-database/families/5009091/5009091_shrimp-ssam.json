@@ -35,13 +35,15 @@
   "ingredients": [
     {
       "ingredient_id": 221,
-      "name": "ginger, finely chopped",
-      "quantity": "1 (2 inch) piece"
+      "name": "ginger",
+      "quantity": "1 (2 inch) piece",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely chopped",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 188,
@@ -70,13 +72,15 @@
     },
     {
       "ingredient_id": 228,
-      "name": "limes, cut into wedges",
-      "quantity": "2"
+      "name": "limes",
+      "quantity": "2",
+      "prep": "cut into wedges"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, finely sliced",
-      "quantity": "1 bunch"
+      "name": "scallions",
+      "quantity": "1 bunch",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 88,
@@ -85,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the ginger. Finely chop the garlic. Cut the limes into wedges. Finely slice the scallions.",
+      "secondary_message": "1 (2 inch) piece ginger\n3 medium cloves garlic\n2 limes\n1 bunch scallions"
+    },
     {
       "id": 1,
       "primary_message": "Combine ginger, garlic, 1/4 cup chopped cilantro, 3 tablespoons vegetable oil and chili paste in a large dish. Toss shrimp in marinade and allow to stand for 15 minutes (or up to 2 hours).",

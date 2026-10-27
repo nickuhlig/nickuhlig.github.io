@@ -50,8 +50,9 @@
   "ingredients": [
     {
       "ingredient_id": 242,
-      "name": "strawberries, washed, hulled, and quartered",
-      "quantity": "0.45 kg"
+      "name": "strawberries",
+      "quantity": "0.45 kg",
+      "prep": "washed, hulled, and quartered"
     },
     {
       "ingredient_id": 239,
@@ -65,8 +66,9 @@
     },
     {
       "ingredient_id": 2346,
-      "name": "lemon zest, finely grated from 1 lemon",
-      "quantity": "1 tsp"
+      "name": "lemon zest",
+      "quantity": "1 tsp",
+      "prep": "finely grated from 1 lemon"
     },
     {
       "ingredient_id": 2063,
@@ -95,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash, hull, and quarter the strawberries. Finely grate the lemon zest from 1 lemon.",
+      "secondary_message": "0.45 kg strawberries\n1 tsp lemon zest"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, toss strawberries and raspberries with sugar and lemon zest to evenly coat. Set aside.",

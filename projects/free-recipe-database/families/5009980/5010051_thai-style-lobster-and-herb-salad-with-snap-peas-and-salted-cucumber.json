@@ -40,8 +40,9 @@
     },
     {
       "ingredient_id": 1980,
-      "name": "cucumber, seeded and cut into 1/2-inch cubes",
-      "quantity": "1 small"
+      "name": "cucumber",
+      "quantity": "1 small",
+      "prep": "seeded and cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 88,
@@ -50,18 +51,21 @@
     },
     {
       "ingredient_id": 36,
-      "name": "snap peas, cut on a sharp bias into 1/2-inch pieces",
-      "quantity": "113 g"
+      "name": "snap peas",
+      "quantity": "113 g",
+      "prep": "cut on a sharp bias into 1/2-inch pieces"
     },
     {
       "ingredient_id": 1762,
-      "name": "red Thai bird chiles, finely sliced",
-      "quantity": "2"
+      "name": "red Thai bird chiles",
+      "quantity": "2",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 1820,
@@ -80,8 +84,9 @@
     },
     {
       "ingredient_id": 2299,
-      "name": "fresh Thai basil leaves, roughly chopped",
-      "quantity": "60 ml"
+      "name": "fresh Thai basil leaves",
+      "quantity": "60 ml",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 188,
@@ -90,8 +95,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, thinly sliced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 3644,
@@ -105,6 +111,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Seed and cut the cucumber into 1/2-inch cubes. Cut the snap peas on a sharp bias into 1/2-inch pieces. Finely slice the red Thai bird chiles. Finely mince the garlic. Roughly chop the fresh Thai basil leaves. Thinly slice the shallot.",
+      "secondary_message": "1 small cucumber\n113 g snap peas\n2 red Thai bird chiles\n2 medium cloves garlic\n60 ml fresh Thai basil leaves\n1 small shallot"
+    },
     {
       "id": 1,
       "primary_message": "Cut lobster meat into rough 1.5-cm chunks. Refrigerate until ready to use. Toss cucumber with 1/2 teaspoon kosher salt and place in a fine mesh strainer or colander set over a bowl to drain.",

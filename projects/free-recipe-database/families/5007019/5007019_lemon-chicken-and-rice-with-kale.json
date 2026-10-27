@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, thinly sliced",
-      "quantity": "2 large"
+      "name": "shallots",
+      "quantity": "2 large",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 186,
@@ -87,6 +88,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the shallots.",
+      "secondary_message": "2 large shallots"
+    },
     {
       "id": 1,
       "primary_message": "Season the chicken on all sides with salt and pepper. Heat the oil in a 12-inch skillet over medium-high heat until lightly smoking. Add the chicken and cook until well-browned on first side, about 6 minutes, then turn and cook until browned on the second side, about 5 minutes longer. Remove with tongs and set aside.",

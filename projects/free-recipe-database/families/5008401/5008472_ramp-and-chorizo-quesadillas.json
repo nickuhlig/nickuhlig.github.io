@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 1390,
-      "name": "fresh chorizo, diced or crumbled finely",
-      "quantity": "57 g"
+      "name": "fresh chorizo",
+      "quantity": "57 g",
+      "prep": "diced or crumbled finely"
     },
     {
       "ingredient_id": 2275,
@@ -55,8 +56,9 @@
     },
     {
       "ingredient_id": 1069,
-      "name": "Jack cheese, grated",
-      "quantity": "115 g"
+      "name": "Jack cheese",
+      "quantity": "115 g",
+      "prep": "grated"
     },
     {
       "ingredient_id": 187,
@@ -70,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice or crumble the fresh chorizo finely. Grate the Jack cheese.",
+      "secondary_message": "57 g fresh chorizo\n115 g Jack cheese"
+    },
     {
       "id": 1,
       "primary_message": "Heat chorizo in a 25-cm non-stick or cast iron skillet over medium heat and cook, stirring occasionally, until fat has rendered and chorizo is browned and crisp, about 4 minutes. Transfer chorizo to a large bowl, leaving rendered fat in skillet.",

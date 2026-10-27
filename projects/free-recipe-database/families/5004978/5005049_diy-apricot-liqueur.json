@@ -35,13 +35,15 @@
   "ingredients": [
     {
       "ingredient_id": 468,
-      "name": "fresh apricots, pitted and diced",
-      "quantity": "¾ cup"
+      "name": "fresh apricots",
+      "quantity": "¾ cup",
+      "prep": "pitted and diced"
     },
     {
       "ingredient_id": 215,
-      "name": "unsweetened dried apricots, diced",
-      "quantity": "¾ cup"
+      "name": "unsweetened dried apricots",
+      "quantity": "¾ cup",
+      "prep": "diced"
     },
     {
       "ingredient_id": 2315,
@@ -55,6 +57,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pit and dice the fresh apricots. Dice the unsweetened dried apricots.",
+      "secondary_message": "¾ cup fresh apricots\n¾ cup unsweetened dried apricots"
+    },
     {
       "id": 1,
       "primary_message": "Place the fresh and dried apricots in a clean quart jar and pour in vodka. Fruit should be covered in liquid. Seal jar and set aside to infuse for a week at room temperature.",

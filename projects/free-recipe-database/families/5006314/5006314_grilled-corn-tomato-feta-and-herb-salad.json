@@ -55,14 +55,16 @@
     },
     {
       "ingredient_id": 27,
-      "name": "sweet corn, husks removed",
-      "quantity": "4 ears"
+      "name": "sweet corn",
+      "quantity": "4 ears",
+      "prep": "husks removed"
     },
     {
       "ingredient_id": 260,
-      "name": "ripe tomatoes, cut into bite-size chunks",
+      "name": "ripe tomatoes",
       "quantity": "7",
-      "weigh_as": "2 lb"
+      "weigh_as": "2 lb",
+      "prep": "cut into bite-size chunks"
     },
     {
       "ingredient_id": 106,
@@ -81,8 +83,9 @@
     },
     {
       "ingredient_id": 32,
-      "name": "feta cheese, cut into 1/2-inch chunks",
-      "quantity": "8 oz"
+      "name": "feta cheese",
+      "quantity": "8 oz",
+      "prep": "cut into 1/2-inch chunks"
     },
     {
       "ingredient_id": 88,
@@ -96,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the husks from the sweet corn. Cut the ripe tomatoes into bite-size chunks. Cut the feta cheese into 1/2-inch chunks.",
+      "secondary_message": "4 ears sweet corn\n7 ripe tomatoes\n8 oz feta cheese"
+    },
     {
       "id": 1,
       "primary_message": "Combine olive oil and lemon juice in a small bowl and whisk to combine. Set aside.",

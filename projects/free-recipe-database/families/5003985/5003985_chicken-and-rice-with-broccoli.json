@@ -49,18 +49,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, chopped",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 105,
-      "name": "broccoli, cut into florets",
-      "quantity": "2 small heads"
+      "name": "broccoli",
+      "quantity": "2 small heads",
+      "prep": "cut into florets"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced or grated with a microplane",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced or grated with a microplane"
     },
     {
       "ingredient_id": 186,
@@ -99,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the onion. Cut the broccoli into florets. Mince or grate the garlic with a microplane.",
+      "secondary_message": "1 large onion\n2 small heads broccoli\n3 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Season chicken on all sides with salt and pepper. Heat oil in a 12-inch skillet over medium-high heat until lightly smoking. Add chicken skin-side down and cook without moving until well browned, 6 to 7 minutes. Flip and brown second side, about 5 minutes longer. Transfer chicken to a plate and set aside.",

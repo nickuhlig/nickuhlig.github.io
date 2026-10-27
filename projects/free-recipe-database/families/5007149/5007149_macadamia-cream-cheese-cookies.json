@@ -52,13 +52,15 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "4 oz"
+      "name": "cream cheese",
+      "quantity": "4 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "8 tbsp"
+      "name": "unsalted butter",
+      "quantity": "8 tbsp",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 293,
@@ -82,11 +84,18 @@
     },
     {
       "ingredient_id": 3683,
-      "name": "salted macadamia nuts, very roughly chopped",
-      "quantity": "6 oz"
+      "name": "salted macadamia nuts",
+      "quantity": "6 oz",
+      "prep": "very roughly chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the cream cheese. Bring the unsalted butter to room temperature. Very roughly chop the salted macadamia nuts.",
+      "secondary_message": "4 oz cream cheese\n8 tbsp unsalted butter\n6 oz salted macadamia nuts"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, whisk together flour, baking powder, and salt; set aside. In a large bowl, beat together cream cheese and butter until smooth. Add brown sugar and sugar and beat until fluffy, about 3 minutes. Add vanilla and egg and beat until combined. Add dry ingredients to bowl and beat until just incorporated. Stir in macadamia nuts. Cover dough with plastic wrap and let chill in refrigerator for at least three hours.",

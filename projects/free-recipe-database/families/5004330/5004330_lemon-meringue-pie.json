@@ -92,8 +92,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into 1/2-inch pieces",
-      "quantity": "3 tbsp"
+      "name": "cold unsalted butter",
+      "quantity": "3 tbsp",
+      "prep": "cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 3642,
@@ -122,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cold unsalted butter into 1/2-inch pieces.",
+      "secondary_message": "3 tbsp cold unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Crust: Adjust oven racks to upper middle position (about 8-inches from broiler) and lowest position and preheat the oven to 425°F. Lightly prick chilled pie shell all over bottom in 1/2-inch intervals. Line pie shell with a double layer of 14-inch square of parchment paper or aluminum foil, covering edges to prevent burning. Fill with sugar, pie weights, or dried beans.",

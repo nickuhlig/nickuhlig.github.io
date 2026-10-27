@@ -57,18 +57,21 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and finely minced",
-      "quantity": "2 large"
+      "name": "carrots",
+      "quantity": "2 large",
+      "prep": "peeled and finely minced"
     },
     {
       "ingredient_id": 1720,
-      "name": "celery ribs, finely minced",
-      "quantity": "3 medium"
+      "name": "celery ribs",
+      "quantity": "3 medium",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onions, finely minced",
-      "quantity": "2 medium"
+      "name": "yellow onions",
+      "quantity": "2 medium",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 1898,
@@ -112,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and finely mince the carrots. Finely mince the celery ribs. Finely mince the yellow onions.",
+      "secondary_message": "2 large carrots\n3 medium celery ribs\n2 medium yellow onions"
+    },
     {
       "id": 1,
       "primary_message": "In a wide container, sprinkle gelatin on top of stock and set aside.",

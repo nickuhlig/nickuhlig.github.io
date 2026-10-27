@@ -51,8 +51,9 @@
   "ingredients": [
     {
       "ingredient_id": 1864,
-      "name": "chicken legs, split into drumsticks and thighs",
-      "quantity": "4"
+      "name": "chicken legs",
+      "quantity": "4",
+      "prep": "split into drumsticks and thighs"
     },
     {
       "ingredient_id": 90,
@@ -116,8 +117,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "minced"
     },
     {
       "ingredient_id": 221,
@@ -136,6 +138,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the chicken legs into drumsticks and thighs. Mince the garlic.",
+      "secondary_message": "4 chicken legs\n1 medium clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "Rub the chicken pieces in turmeric powder and seat aside. Heat the cast iron skillet over medium heat until hot. Add coriander seeds, fennel seeds, bay leaf, cinnamon, peppercorns, cardamon, and red chiles. (if you're using the red chile powder, do not add it now). Cook, stirring constantly, until the spices are fragrant, a few minutes. Transfer to a plate and allow to cool. Transfer to a spice blender (along with chile powder if using) and blend until powdered.",

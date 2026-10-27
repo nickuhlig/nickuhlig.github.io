@@ -42,8 +42,9 @@
     },
     {
       "ingredient_id": 1551,
-      "name": "prepared pie crust, thawed but cold",
-      "quantity": "1"
+      "name": "prepared pie crust",
+      "quantity": "1",
+      "prep": "thawed but cold"
     },
     {
       "ingredient_id": 359,
@@ -77,6 +78,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thaw the prepared pie crust but cold.",
+      "secondary_message": "1 prepared pie crust"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 450°F.",

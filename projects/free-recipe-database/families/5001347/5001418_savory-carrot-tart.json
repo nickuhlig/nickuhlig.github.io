@@ -48,8 +48,9 @@
   "ingredients": [
     {
       "ingredient_id": 159,
-      "name": "carrots, medium, peeled and trimmed",
-      "quantity": "0.91 kg"
+      "name": "carrots, medium",
+      "quantity": "0.91 kg",
+      "prep": "peeled and trimmed"
     },
     {
       "ingredient_id": 47,
@@ -88,8 +89,9 @@
     },
     {
       "ingredient_id": 1021,
-      "name": "frozen puff pastry, thawed",
-      "quantity": "1 sheet"
+      "name": "frozen puff pastry",
+      "quantity": "1 sheet",
+      "prep": "thawed"
     },
     {
       "ingredient_id": 116,
@@ -98,16 +100,24 @@
     },
     {
       "ingredient_id": 1200,
-      "name": "double cream Brie cheese, thinly sliced",
-      "quantity": "226 g"
+      "name": "double cream Brie cheese",
+      "quantity": "226 g",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 3641,
-      "name": "egg yolk, beaten",
-      "quantity": "1 large"
+      "name": "egg yolk",
+      "quantity": "1 large",
+      "prep": "beaten"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and trim the carrots. Thaw the frozen puff pastry. Thinly slice the double cream Brie cheese. Beat the egg yolk.",
+      "secondary_message": "0.91 kg carrots, medium\n1 sheet frozen puff pastry\n226 g double cream Brie cheese\n1 large egg yolk"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower third position; preheat oven to 205°C (400°F). Slice 2 carrots crosswise into 1.5-cm-thick rounds; halve remaining carrots lengthwise.",

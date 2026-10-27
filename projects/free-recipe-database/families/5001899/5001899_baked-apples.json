@@ -70,8 +70,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "2 oz"
+      "name": "unsalted butter",
+      "quantity": "2 oz",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1692,
@@ -100,11 +101,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 4 equal pieces",
-      "quantity": "½ oz"
+      "name": "unsalted butter",
+      "quantity": "½ oz",
+      "prep": "cut into 4 equal pieces"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature. Cut the unsalted butter into 4 equal pieces.",
+      "secondary_message": "2 oz unsalted butter\n½ oz unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 400°F.",

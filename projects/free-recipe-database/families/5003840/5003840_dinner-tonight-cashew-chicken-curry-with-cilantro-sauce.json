@@ -39,13 +39,15 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, 1/2 chopped, 1/2 thinly sliced",
-      "quantity": "1"
+      "name": "red onion",
+      "quantity": "1",
+      "prep": "1/2 chopped, 1/2 thinly sliced"
     },
     {
       "ingredient_id": 188,
-      "name": "cilantro, chopped",
-      "quantity": "¼ cup"
+      "name": "cilantro",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1007,
@@ -54,8 +56,9 @@
     },
     {
       "ingredient_id": 44,
-      "name": "boneless skinless chicken breasts, sliced into 1-inch by 3-inch strips",
-      "quantity": "2"
+      "name": "boneless skinless chicken breasts",
+      "quantity": "2",
+      "prep": "sliced into 1-inch by 3-inch strips"
     },
     {
       "ingredient_id": 88,
@@ -74,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop and thinly slice the 1/2 of the red onion. Chop the cilantro. Slice the boneless skinless chicken breasts into 1-inch by 3-inch strips.",
+      "secondary_message": "1 red onion\n¼ cup cilantro\n2 boneless skinless chicken breasts"
+    },
     {
       "id": 1,
       "primary_message": "Add the cashews, chopped red onion, and cilantro to a blender. Pour in 1/2 cup of water. Blend into it is a smooth puree.",

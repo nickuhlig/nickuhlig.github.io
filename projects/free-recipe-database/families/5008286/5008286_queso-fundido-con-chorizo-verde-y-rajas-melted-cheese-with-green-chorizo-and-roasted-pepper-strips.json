@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated on a microplane grater",
-      "quantity": "1 clove"
+      "name": "garlic",
+      "quantity": "1 clove",
+      "prep": "grated on a microplane grater"
     },
     {
       "ingredient_id": 341,
@@ -70,6 +71,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the garlic on a microplane grater.",
+      "secondary_message": "1 clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 350 degrees F. Cook poblano pepper directly over an open gas flame until charred on all sides, about 10 minutes. Alternatively, cook under a broiler preheated to high, turning occasionally until charred on all sides. Transfer to a bowl and cover with plastic wrap. Allow to rest 10 minutes, then peel and discard skin. Slit in half with a sharp chefs knife and discard seeds and stem. Cut flesh into 1/4-inch-wide strips and set aside.",

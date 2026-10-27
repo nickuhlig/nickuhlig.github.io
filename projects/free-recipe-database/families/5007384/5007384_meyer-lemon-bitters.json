@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 1866,
-      "name": "green cardamom pods, lightly crushed",
-      "quantity": "4"
+      "name": "green cardamom pods",
+      "quantity": "4",
+      "prep": "lightly crushed"
     },
     {
       "ingredient_id": 221,
@@ -106,6 +107,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly crush the green cardamom pods.",
+      "secondary_message": "4 green cardamom pods"
+    },
     {
       "id": 1,
       "primary_message": "In an airtight container, combine all of the zest, cardamom, ginger, coriander, white pepper, lime leaves, gentian root, and fennel seed. Pour vodka over the ingredients and seal container. Swirl to combine. Keep the container in a cool, dark place for two weeks, swirling mixture once daily.",

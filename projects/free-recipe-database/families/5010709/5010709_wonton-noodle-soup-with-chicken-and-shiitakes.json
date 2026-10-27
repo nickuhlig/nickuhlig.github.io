@@ -89,8 +89,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, chopped",
-      "quantity": "3"
+      "name": "scallions",
+      "quantity": "3",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1337,
@@ -99,6 +100,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the scallions.",
+      "secondary_message": "3 scallions"
+    },
     {
       "id": 1,
       "primary_message": "Scrub mushrooms under cold running water to remove excess grit. Place in a large bowl and cover with 2 1/2 cups boiling water. Let rest for 30 minutes (see note). When hydrated, squeeze out excess liquid and snip off stems and discard. Rinse under cold running water again, then transfer to a small bowl. Add sugar, 1 teaspoon vegetable oil, and 1 teaspoon cornstarch and toss to combine. Let rest for 15 minutes.",

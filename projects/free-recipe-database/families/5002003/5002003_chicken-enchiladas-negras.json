@@ -45,8 +45,9 @@
   "ingredients": [
     {
       "ingredient_id": 1541,
-      "name": "plum tomato, halved",
-      "quantity": "1"
+      "name": "plum tomato",
+      "quantity": "1",
+      "prep": "halved"
     },
     {
       "ingredient_id": 1565,
@@ -55,18 +56,21 @@
     },
     {
       "ingredient_id": 3671,
-      "name": "black garlic, about 13 cloves, separated and peeled",
-      "quantity": "1 head"
+      "name": "black garlic, about 13 cloves",
+      "quantity": "1 head",
+      "prep": "separated and peeled"
     },
     {
       "ingredient_id": 2587,
-      "name": "pasilla negro chiles, stemmed",
-      "quantity": "3"
+      "name": "pasilla negro chiles",
+      "quantity": "3",
+      "prep": "stemmed"
     },
     {
       "ingredient_id": 1776,
-      "name": "chiles de arbol, stemmed",
-      "quantity": "3"
+      "name": "chiles de arbol",
+      "quantity": "3",
+      "prep": "stemmed"
     },
     {
       "ingredient_id": 3686,
@@ -90,8 +94,9 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, thinly sliced",
-      "quantity": "½ medium"
+      "name": "white onion",
+      "quantity": "½ medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1004,
@@ -100,11 +105,18 @@
     },
     {
       "ingredient_id": 188,
-      "name": "fresh cilantro leaves, finely minced",
-      "quantity": "1 cup"
+      "name": "fresh cilantro leaves",
+      "quantity": "1 cup",
+      "prep": "finely minced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the plum tomato. Separate and peel the black garlic. Stem the pasilla negro chiles. Stem the chiles de arbol. Thinly slice the white onion. Finely mince the fresh cilantro leaves.",
+      "secondary_message": "1 plum tomato\n1 head black garlic, about 13 cloves\n3 pasilla negro chiles\n3 chiles de arbol\n½ medium white onion\n1 cup fresh cilantro leaves"
+    },
     {
       "id": 1,
       "primary_message": "For the Salsa: Adjust oven rack to upper-middle position and preheat oven broiler to high setting. Line a rimmed baking sheet with aluminum foil, then add tomato and onion layers spread in an even layer. Broil until well charred, 3 to 5 minutes. Flip and broil until second side is charred, about 3 more minutes. Set baking sheet aside to cool.",

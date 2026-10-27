@@ -66,13 +66,15 @@
     },
     {
       "ingredient_id": 2260,
-      "name": "pastrami, sliced very thin",
-      "quantity": "½ lb"
+      "name": "pastrami",
+      "quantity": "½ lb",
+      "prep": "sliced very thin"
     },
     {
       "ingredient_id": 1027,
-      "name": "hearty burger buns, toasted",
-      "quantity": "4"
+      "name": "hearty burger buns",
+      "quantity": "4",
+      "prep": "toasted"
     },
     {
       "ingredient_id": 88,
@@ -96,6 +98,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the pastrami very thin. Toast the hearty burger buns.",
+      "secondary_message": "½ lb pastrami\n4 hearty burger buns"
+    },
     {
       "id": 1,
       "primary_message": "Divide beef into four even five ounce portions, gently pressing each into a patty about 4 1/2 inches wide. Cover with plastic and refrigerate until needed. Meanwhile, combine mayonnaise, ketchup, vinegar, sugar, and relish in small bowl. Stir with spoon until smooth. Set aside.",

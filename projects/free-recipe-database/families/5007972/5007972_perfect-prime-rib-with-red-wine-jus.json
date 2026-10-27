@@ -68,18 +68,21 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, peeled and roughly chopped",
-      "quantity": "1 large"
+      "name": "carrot",
+      "quantity": "1 large",
+      "prep": "peeled and roughly chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, roughly chopped",
-      "quantity": "2 ribs"
+      "name": "celery",
+      "quantity": "2 ribs",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, peeled and roughly chopped",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "peeled and roughly chopped"
     },
     {
       "ingredient_id": 1714,
@@ -128,6 +131,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and roughly chop the carrot. Roughly chop the celery. Peel and roughly chop the onion.",
+      "secondary_message": "1 large carrot\n2 ribs celery\n1 large onion"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower position and preheat oven to 250°F. Heat oil in a large Dutch oven over high heat until lightly smoking. Add beef shins or oxtail and soup bones. Cook, flipping and stirring pieces occasionally, until well browned on all surfaces, about 15 minutes. Using tongs, transfer beef to a large plate and set aside.",

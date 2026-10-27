@@ -40,13 +40,15 @@
     },
     {
       "ingredient_id": 272,
-      "name": "walnuts, chopped",
-      "quantity": "½ cup"
+      "name": "walnuts",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 317,
-      "name": "ripe bananas, sliced",
-      "quantity": "3"
+      "name": "ripe bananas",
+      "quantity": "3",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 1707,
@@ -85,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the walnuts. Slice the ripe bananas.",
+      "secondary_message": "½ cup walnuts\n3 ripe bananas"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350°F. Lightly grease 2-quart shallow baking dish with butter. Scatter oats, walnuts, and bananas into baking dish.",

@@ -67,11 +67,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "Butter, softened or melted, for finishing",
-      "quantity": ""
+      "name": "Butter, for finishing",
+      "quantity": "",
+      "prep": "softened or melted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften or melt the Butter.",
+      "secondary_message": "Butter, for finishing"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 350 degrees F.",

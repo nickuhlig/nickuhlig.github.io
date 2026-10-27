@@ -67,8 +67,9 @@
     },
     {
       "ingredient_id": 2724,
-      "name": "Chinese sausage, cut at a diagonal into 1 inch slices",
-      "quantity": "2 links"
+      "name": "Chinese sausage",
+      "quantity": "2 links",
+      "prep": "cut at a diagonal into 1 inch slices"
     },
     {
       "ingredient_id": 2028,
@@ -77,6 +78,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the Chinese sausage at a diagonal into 1 inch slices.",
+      "secondary_message": "2 links Chinese sausage"
+    },
     {
       "id": 1,
       "primary_message": "Cook glutinous rice in a rice cooker and let cool slightly (see notes). Mix in soy sauce, sesame oil, and sugar until seasonings are well-distributed.",

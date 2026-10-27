@@ -36,8 +36,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and crushed",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "peeled and crushed"
     },
     {
       "ingredient_id": 339,
@@ -91,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and crush the garlic.",
+      "secondary_message": "3 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Combine 3 1/2 tablespoons oil, the garlic, and 5 sage leaves in a large skillet. Heat over high heat. When the garlic and sage begin to brown, about 5 minutes, remove them from the pan and reserve.",

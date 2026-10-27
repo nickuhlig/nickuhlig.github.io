@@ -96,9 +96,10 @@
     },
     {
       "ingredient_id": 260,
-      "name": "ripe tomatoes, halved, stem ends cored",
+      "name": "ripe tomatoes",
       "quantity": "3 ½",
-      "weigh_as": "1 lb"
+      "weigh_as": "1 lb",
+      "prep": "halved, stem ends cored"
     },
     {
       "ingredient_id": 47,
@@ -122,11 +123,18 @@
     },
     {
       "ingredient_id": 2634,
-      "name": "burrata, sliced into small pieces",
-      "quantity": "4 oz"
+      "name": "burrata",
+      "quantity": "4 oz",
+      "prep": "sliced into small pieces"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the ripe tomatoes, then core the stem ends. Slice the burrata into small pieces.",
+      "secondary_message": "3 ½ ripe tomatoes\n4 oz burrata"
+    },
     {
       "id": 1,
       "primary_message": "For the Pesto: In a food processor, combine basil, arugula, garlic, almonds, lemon juice, and lemon zest. Pulse until almonds are broken up into fine pieces. Add olive oil and process until fairly smooth. Season with salt. Transfer to an airtight container and refrigerate until ready to use. The pesto can be made in advance and refrigerated for up to 3 days.",

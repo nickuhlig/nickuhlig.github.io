@@ -108,13 +108,15 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1003,
-      "name": "sour cream, at room temperature",
-      "quantity": "1 cup"
+      "name": "sour cream",
+      "quantity": "1 cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1044,
@@ -133,31 +135,42 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "113 g"
+      "name": "bittersweet chocolate",
+      "quantity": "113 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1752,
-      "name": "heavy cream, chilled",
-      "quantity": "2 ½ cups"
+      "name": "heavy cream",
+      "quantity": "2 ½ cups",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 1710,
-      "name": "confectioners' sugar, sifted",
-      "quantity": "¾ cup"
+      "name": "confectioners' sugar",
+      "quantity": "¾ cup",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 2216,
-      "name": "pitted fresh cherries, quartered",
-      "quantity": "3 cups (36 oz)"
+      "name": "pitted fresh cherries",
+      "quantity": "3 cups (36 oz)",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "57 g"
+      "name": "bittersweet chocolate",
+      "quantity": "57 g",
+      "prep": "finely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the eggs to room temperature. Bring the sour cream to room temperature. Finely chop the bittersweet chocolate. Keep the heavy cream cold until you use it. Sift the confectioners' sugar. Quarter the pitted fresh cherries. Finely chop the bittersweet chocolate.",
+      "secondary_message": "2 large eggs\n1 cup sour cream\n113 g bittersweet chocolate\n2 ½ cups heavy cream\n¾ cup confectioners' sugar\n3 cups (36 oz) pitted fresh cherries\n57 g bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Bring kirsch and cherries to boil over high heat in small saucepan or in liquid measuring cup in microwave. Set aside.",

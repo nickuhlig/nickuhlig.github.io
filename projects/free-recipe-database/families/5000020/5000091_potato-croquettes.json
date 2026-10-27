@@ -108,9 +108,10 @@
     },
     {
       "ingredient_id": 3064,
-      "name": "Yukon Gold potatoes, peeled and cut into 1-inch cubes",
+      "name": "Yukon Gold potatoes",
       "quantity": "2 medium",
-      "weigh_as": "0.46 kg"
+      "weigh_as": "0.46 kg",
+      "prep": "peeled and cut into 1-inch cubes"
     },
     {
       "ingredient_id": 359,
@@ -124,8 +125,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "3 tbsp"
+      "name": "unsalted butter",
+      "quantity": "3 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 72,
@@ -134,13 +136,15 @@
     },
     {
       "ingredient_id": 116,
-      "name": "all-purpose flour, transferred to a shallow bowl",
-      "quantity": "½ cup"
+      "name": "all-purpose flour",
+      "quantity": "½ cup",
+      "prep": "transferred to a shallow bowl"
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten in a shallow bowl",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "beaten in a shallow bowl"
     },
     {
       "ingredient_id": 1684,
@@ -154,6 +158,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the Yukon Gold potatoes into 1-inch cubes. Melt the unsalted butter. Transfer the all-purpose flour to a shallow bowl. Beat the eggs in a shallow bowl.",
+      "secondary_message": "2 medium Yukon Gold potatoes\n3 tbsp unsalted butter\n½ cup all-purpose flour\n2 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "For the Béchamel: In a small saucepan, melt butter over medium-high heat until foaming. Add flour and whisk to form a paste. Lower heat to medium and cook, whisking constantly, until raw flour smell is gone but flour has not browned, about 1 minute. While whisking constantly, slowly pour milk in a thin, steady stream until all of it has been added, and continue to cook, stirring often, until béchamel is thick enough to coat the back of a spoon, about 2 minutes. Season with salt, pepper, and nutmeg to taste. Transfer to small bowl and cover with plastic wrap, pressing plastic against surface to prevent a skin from forming. Set aside.",

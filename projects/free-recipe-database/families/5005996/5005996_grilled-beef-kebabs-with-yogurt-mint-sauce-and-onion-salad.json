@@ -74,8 +74,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, lightly beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 106,
@@ -164,6 +165,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly beat the egg.",
+      "secondary_message": "1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "For the Kebabs: Grate one onion using the large side of a box grater. Add grated onion, beef, 2 cloves garlic, and egg to the bowl of a food processor and pulse to combine. Add 2 1/2 tablespoons parsley, cumin, 1 tablespoon sumac, allspice, cinnamon, mint and 1 teaspoon hot pepper. Season with 1/2 teaspoon each kosher salt and black pepper. Blend until meat mixture appears sticky and smooth and all spices are evenly distributed. Place a small amount on a plate and microwave for 10 seconds. Taste and add more salt to mixture to taste.",

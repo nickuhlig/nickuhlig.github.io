@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 2715,
-      "name": "cabbage, finely shredded",
-      "quantity": "½ small head"
+      "name": "cabbage",
+      "quantity": "½ small head",
+      "prep": "finely shredded"
     },
     {
       "ingredient_id": 153,
@@ -81,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely shred the cabbage.",
+      "secondary_message": "½ small head cabbage"
+    },
     {
       "id": 1,
       "primary_message": "Combine cabbage, scallion whites and half of greens, half of beni-shoga, 3/4 of katsuobushi, yamaimo, eggs, and water (or dashi) in a large bowl. Sprinkle with flour. Stir with a fork and beat heavily until a thick batter with plenty of bubbles forms. Set aside.",

@@ -43,9 +43,10 @@
   "ingredients": [
     {
       "ingredient_id": 13,
-      "name": "beets, unpeeled, greens removed, scrubbed clean",
+      "name": "beets",
       "quantity": "11 medium",
-      "weigh_as": "1 kg"
+      "weigh_as": "1 kg",
+      "prep": "unpeeled, greens removed, scrubbed clean"
     },
     {
       "ingredient_id": 47,
@@ -84,8 +85,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely minced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 1808,
@@ -104,6 +106,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Leave unpeeled the beets, then remove the greens, then scrub them clean. Finely mince the shallot.",
+      "secondary_message": "11 medium beets\n1 small shallot"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 190°C (375°F). Fold a 12- by 61-cm sheet of aluminum foil in half to form a square. Crimp 2 edges to form a pouch. Toss beets, 1 tablespoon olive oil, thyme or rosemary sprigs (if using), and salt and pepper to taste in a medium bowl until beets are coated. Add to pouch and crimp remaining edge to seal. (If using multiple colors of beets, roast in separate pouches.) Transfer to a rimmed baking sheet and place in oven. Roast until beets are completely tender and a toothpick or cake tester inserted into a beet through foil meets little to no resistance, about 1 1/2 hours. Remove from oven and allow to cool. When beets are cool enough to handle, peel by gently rubbing skin under cold running water. Cut beets into 1 1/2–inch chunks. Beets can be cooked and stored in the refrigerator for up to 5 days.",

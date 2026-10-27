@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemons, zested",
-      "quantity": "3"
+      "name": "lemons",
+      "quantity": "3",
+      "prep": "zested"
     },
     {
       "ingredient_id": 121,
@@ -71,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the lemons.",
+      "secondary_message": "3 lemons"
+    },
     {
       "id": 1,
       "primary_message": "Getting ready: Have a thermometer, preferably an instant-read, a strainer and a blender (first choice) or food processor at the ready. Bring a few inches of water to a simmer in a saucepan.",

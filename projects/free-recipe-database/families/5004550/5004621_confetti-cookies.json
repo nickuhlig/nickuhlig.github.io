@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "butter, at room temperature",
-      "quantity": "16 tbsp"
+      "name": "butter",
+      "quantity": "16 tbsp",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -136,6 +137,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the butter to room temperature.",
+      "secondary_message": "16 tbsp butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Birthday Cake Crumb: Heat the oven to 150°C (300°F).",

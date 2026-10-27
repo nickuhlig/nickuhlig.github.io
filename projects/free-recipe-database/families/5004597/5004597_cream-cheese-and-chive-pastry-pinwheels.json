@@ -35,13 +35,15 @@
   "ingredients": [
     {
       "ingredient_id": 1021,
-      "name": "puff pastry, thawed but cold",
-      "quantity": "1 sheet"
+      "name": "puff pastry",
+      "quantity": "1 sheet",
+      "prep": "thawed but cold"
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "12 oz"
+      "name": "cream cheese",
+      "quantity": "12 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 2436,
@@ -50,6 +52,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thaw the puff pastry but cold. Soften the cream cheese.",
+      "secondary_message": "1 sheet puff pastry\n12 oz cream cheese"
+    },
     {
       "id": 1,
       "primary_message": "On a floured work surface, roll puff pastry out to between 1/16 and 1/8 inch thickness, about a 16 by 16 inch square. With an icing or offset spatula, spread cream cheese in a thin layer across pastry, leaving 1 inch of one side bare. Evenly sprinkle on herbs (as well as any optional additions) and add salt.",

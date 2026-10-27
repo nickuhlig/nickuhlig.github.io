@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 307,
-      "name": "beef rib eye, sliced 1/3-inch thick across the grain",
-      "quantity": "1 ½ lb"
+      "name": "beef rib eye",
+      "quantity": "1 ½ lb",
+      "prep": "sliced 1/3-inch thick across the grain"
     },
     {
       "ingredient_id": 53,
@@ -55,8 +56,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced or grated",
-      "quantity": "1 tbsp"
+      "name": "garlic",
+      "quantity": "1 tbsp",
+      "prep": "finely minced or grated"
     },
     {
       "ingredient_id": 1801,
@@ -85,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the beef rib eye 1/3-inch thick across the grain. Finely mince or grate the garlic.",
+      "secondary_message": "1 ½ lb beef rib eye\n1 tbsp garlic"
+    },
     {
       "id": 1,
       "primary_message": "Put all ingredients except meat in bowl and mix well. If making non-spicy version, omit chili pepper powder. Add meat, taking care the sauce evenly coats slices of meat. Cover bowl with plastic wrap and let marinate at least 2 hours and up to one day before cooking.",

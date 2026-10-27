@@ -73,8 +73,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, separated",
-      "quantity": "2"
+      "name": "eggs",
+      "quantity": "2",
+      "prep": "separated"
     },
     {
       "ingredient_id": 118,
@@ -83,8 +84,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "3 tbsp"
+      "name": "unsalted butter",
+      "quantity": "3 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 2651,
@@ -93,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Separate the eggs. Melt the unsalted butter.",
+      "secondary_message": "2 eggs\n3 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, whisk together flour, baking powder, salt, and sugar; set aside. In a large bowl, whisk together egg yolks, milk, and 2 tablespoons melted butter until combined. Stir in dry ingredients. Mixture should be lumpy—do not overmix.",

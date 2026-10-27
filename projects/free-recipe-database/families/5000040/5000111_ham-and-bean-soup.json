@@ -60,23 +60,27 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, roughly chopped",
-      "quantity": "1 large"
+      "name": "yellow onion",
+      "quantity": "1 large",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and roughly chopped",
-      "quantity": "2 medium"
+      "name": "carrots",
+      "quantity": "2 medium",
+      "prep": "peeled and roughly chopped"
     },
     {
       "ingredient_id": 1720,
-      "name": "celery ribs, roughly chopped",
-      "quantity": "2"
+      "name": "celery ribs",
+      "quantity": "2",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, roughly chopped",
-      "quantity": "2 medium"
+      "name": "garlic cloves",
+      "quantity": "2 medium",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 287,
@@ -110,6 +114,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the yellow onion. Peel and roughly chop the carrots. Roughly chop the celery ribs. Roughly chop the garlic cloves.",
+      "secondary_message": "1 large yellow onion\n2 medium carrots\n2 celery ribs\n2 medium garlic cloves"
+    },
     {
       "id": 1,
       "primary_message": "In a 4-quart saucier, combine beans and 2800 ml salted water. Bring to a boil over high heat. Remove from heat, cover, and let soak for 1 hour. Drain and rinse beans; set aside.",

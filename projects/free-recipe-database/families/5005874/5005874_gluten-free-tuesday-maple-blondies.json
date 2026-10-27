@@ -65,8 +65,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, softened",
-      "quantity": "½ cup"
+      "name": "butter",
+      "quantity": "½ cup",
+      "prep": "softened"
     },
     {
       "ingredient_id": 293,
@@ -95,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the butter.",
+      "secondary_message": "½ cup butter"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 350°F. Spray 9-inch baking pan with gluten-free cooking spray.",

@@ -27,8 +27,9 @@
   "ingredients": [
     {
       "ingredient_id": 1091,
-      "name": "country ham, 10 to 15 pounds, soaked",
-      "quantity": "1"
+      "name": "country ham, 10 to 15 pounds",
+      "quantity": "1",
+      "prep": "soaked"
     },
     {
       "ingredient_id": 2683,
@@ -62,6 +63,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soak the country ham.",
+      "secondary_message": "1 country ham, 10 to 15 pounds"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower position and preheat oven to 120°C (250°F). Place ham fat-side up on rack set over roasting pan. Pour 2 cups water and 2 cups Coke into bottom of pan and seal tightly with aluminum foil (you may need 2 or 3 pieces). Transfer to oven and cook until ham reaches 50°C (125°F) in center when tested with an instant-read thermometer, 3 to 4 hours, depending on size and shape.",

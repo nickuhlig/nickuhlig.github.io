@@ -53,8 +53,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, thinly sliced",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 188,
@@ -63,13 +64,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 221,
-      "name": "fresh peeled ginger, sliced thinly",
-      "quantity": "1 (2 ½ cm) knob"
+      "name": "fresh peeled ginger",
+      "quantity": "1 (2 ½ cm) knob",
+      "prep": "sliced thinly"
     },
     {
       "ingredient_id": 1833,
@@ -108,13 +111,15 @@
     },
     {
       "ingredient_id": 1682,
-      "name": "neutral oil, melted if solid",
-      "quantity": "1 tbsp"
+      "name": "neutral oil",
+      "quantity": "1 tbsp",
+      "prep": "melted if solid"
     },
     {
       "ingredient_id": 2724,
-      "name": "Chinese sausage, sliced thinly on a bias",
-      "quantity": "2 links"
+      "name": "Chinese sausage",
+      "quantity": "2 links",
+      "prep": "sliced thinly on a bias"
     },
     {
       "ingredient_id": 2182,
@@ -128,6 +133,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the shallot. Smash the garlic. Slice the fresh peeled ginger thinly. Melt the neutral oil if solid. Slice the Chinese sausage thinly on a bias.",
+      "secondary_message": "1 medium shallot\n4 medium cloves garlic\n1 (2 ½ cm) knob fresh peeled ginger\n1 tbsp neutral oil\n2 links Chinese sausage"
+    },
     {
       "id": 1,
       "primary_message": "For the Seasoned Soy Sauce: In a small saucepan, melt lard over medium heat until shimmering, about 1 minute. Reduce heat to medium-low and add scallions, shallot, cilantro, garlic, and ginger, and cook, swirling the pan occasionally, until the aromatics are fragrant and begin to turn golden, about 2 minutes. Add Shaoxing wine, water, light soy sauce, dark soy sauce, and sugar. Bring to a boil over high heat, then reduce heat and simmer for 7 minutes, until thickened. The sauce should be dark, smooth, and slightly thicker than bottled light soy sauce. Pour seasoned soy sauce through a fine-mesh strainer set over a medium heatproof bowl. Refrigerate until chilled.",

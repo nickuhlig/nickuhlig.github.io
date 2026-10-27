@@ -75,8 +75,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, peeled and finely sliced",
-      "quantity": "4 medium"
+      "name": "shallots",
+      "quantity": "4 medium",
+      "prep": "peeled and finely sliced"
     },
     {
       "ingredient_id": 24,
@@ -85,8 +86,9 @@
     },
     {
       "ingredient_id": 1929,
-      "name": "shiitake mushrooms, sliced",
-      "quantity": "3 oz"
+      "name": "shiitake mushrooms",
+      "quantity": "3 oz",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 285,
@@ -96,13 +98,15 @@
     },
     {
       "ingredient_id": 1811,
-      "name": "raw shrimp, medium, peeled, deveined, tail left on",
-      "quantity": "8 oz"
+      "name": "raw shrimp, medium",
+      "quantity": "8 oz",
+      "prep": "peeled, deveined, tail left on"
     },
     {
       "ingredient_id": 1827,
-      "name": "dried rice vermicelli, soaked in hot water for 15 minutes",
-      "quantity": "5 oz"
+      "name": "dried rice vermicelli",
+      "quantity": "5 oz",
+      "prep": "soaked in hot water for 15 minutes"
     },
     {
       "ingredient_id": 1086,
@@ -116,6 +120,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and finely slice the shallots. Slice the shiitake mushrooms. Peel and devein the raw shrimp, then leave the tail on. Soak the dried rice vermicelli in hot water for 15 minutes.",
+      "secondary_message": "4 medium shallots\n3 oz shiitake mushrooms\n8 oz raw shrimp, medium\n5 oz dried rice vermicelli"
+    },
     {
       "id": 1,
       "primary_message": "Place sliced chiles in a small bowl. Pour boiling water over to cover. Let sit for 10 minutes, then drain. Add vinegar, 1 teaspoon soy sauce, sugar, and 1/2 teaspoon salt and stir to combine and sugar has dissolved. Chill for at least 30 minutes. For best results, refrigerate overnight. Chiles can be stored in an airtight container in the refrigerator for up to 1 month.",

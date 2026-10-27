@@ -34,13 +34,15 @@
   "ingredients": [
     {
       "ingredient_id": 91,
-      "name": "cannellini beans, drained and rinsed",
-      "quantity": "1 (15 ½ oz) can"
+      "name": "cannellini beans",
+      "quantity": "1 (15 ½ oz) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 1480,
@@ -74,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain and rinse the cannellini beans. Peel the garlic.",
+      "secondary_message": "1 (15 ½ oz) can cannellini beans\n2 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Place beans, garlic, and lemon juice in the workbowl of a food processor fitted with a steel blade. Pulse until beans are roughly chopped.",

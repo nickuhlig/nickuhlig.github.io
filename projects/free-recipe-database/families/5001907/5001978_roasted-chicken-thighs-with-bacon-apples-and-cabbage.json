@@ -46,13 +46,15 @@
   "ingredients": [
     {
       "ingredient_id": 302,
-      "name": "thick-cut bacon, cut into 1/2-inch pieces",
-      "quantity": "4 slices"
+      "name": "thick-cut bacon",
+      "quantity": "4 slices",
+      "prep": "cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 1004,
-      "name": "green cabbage, cored and cut into 1-inch thick wedges",
-      "quantity": "1 small head"
+      "name": "green cabbage",
+      "quantity": "1 small head",
+      "prep": "cored and cut into 1-inch thick wedges"
     },
     {
       "ingredient_id": 1702,
@@ -91,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the thick-cut bacon into 1/2-inch pieces. Core and cut the green cabbage into 1-inch thick wedges.",
+      "secondary_message": "4 slices thick-cut bacon\n1 small head green cabbage"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 205°C (400°F).",

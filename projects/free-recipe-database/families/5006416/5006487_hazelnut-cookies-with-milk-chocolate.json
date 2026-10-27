@@ -54,13 +54,15 @@
   "ingredients": [
     {
       "ingredient_id": 1716,
-      "name": "whole hazelnuts, toasted and skinned",
-      "quantity": "198 g"
+      "name": "whole hazelnuts",
+      "quantity": "198 g",
+      "prep": "toasted and skinned"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, pliable but cool, about 60°F",
-      "quantity": "113 g"
+      "name": "unsalted butter",
+      "quantity": "113 g",
+      "prep": "pliable but cool, about 60°F"
     },
     {
       "ingredient_id": 346,
@@ -94,8 +96,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, straight from the fridge",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "straight from the fridge"
     },
     {
       "ingredient_id": 116,
@@ -104,11 +107,18 @@
     },
     {
       "ingredient_id": 1729,
-      "name": "dark chocolate, not chips , tempered",
-      "quantity": "170 g"
+      "name": "dark chocolate, not chips",
+      "quantity": "170 g",
+      "prep": "tempered"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Toast and skin the whole hazelnuts. Let the unsalted butter soften slightly but keep it cool and bring it to 60°F. Keep the egg cold until you use it. Temper the dark chocolate.",
+      "secondary_message": "198 g whole hazelnuts\n113 g unsalted butter\n1 large egg\n170 g dark chocolate, not chips"
+    },
     {
       "id": 1,
       "primary_message": "Make the Dough: Adjust oven rack to middle position and preheat to 180°C (350°F). In the bowl of a food processor, grind hazelnuts to form a smooth and creamy paste. Combine hazelnut paste, butter, sugar, salt, baking powder, baking soda, nutmeg, and vanilla in the bowl of a stand mixer fitted with a paddle attachment. Mix on low to moisten, then increase to medium and beat until light and fluffy, about 5 minutes. With mixer running, add egg and continue beating only until smooth. Reduce speed to low, add flour all at once, and mix to form a stiff dough. If not tempering the chocolate, fold chopped pieces into the dough now.",

@@ -49,8 +49,9 @@
   "ingredients": [
     {
       "ingredient_id": 3118,
-      "name": "fresh masa for tortillas, covered, for 15 minutes",
-      "quantity": "1 lb"
+      "name": "fresh masa for tortillas, for 15 minutes",
+      "quantity": "1 lb",
+      "prep": "covered"
     },
     {
       "ingredient_id": 1828,
@@ -134,8 +135,9 @@
     },
     {
       "ingredient_id": 1773,
-      "name": "iceberg lettuce, shredded",
-      "quantity": "½ head"
+      "name": "iceberg lettuce",
+      "quantity": "½ head",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 43,
@@ -144,16 +146,24 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, finely diced",
-      "quantity": "1 small"
+      "name": "white onion",
+      "quantity": "1 small",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 1541,
-      "name": "Roma tomatoes, seeded and finely diced",
-      "quantity": "2"
+      "name": "Roma tomatoes",
+      "quantity": "2",
+      "prep": "seeded and finely diced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cover the fresh masa for tortillas. Shred the iceberg lettuce. Finely dice the white onion. Seed and finely dice the Roma tomatoes.",
+      "secondary_message": "1 lb fresh masa for tortillas, for 15 minutes\n½ head iceberg lettuce\n1 small white onion\n2 Roma tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "For the Shells: Fill a wok or Dutch oven with 2-3 inches oil and heat to 375°F over high heat. Pull off a 2-tablespoon-sized piece of masa and form into a ball. Press dough into a thin round between two sheets of plastic in a tortilla press, or roll out using a rolling pin.",

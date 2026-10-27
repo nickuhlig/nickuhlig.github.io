@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 2361,
-      "name": "pastry cream, at room temperature, about 68°F",
-      "quantity": "1 recipe"
+      "name": "pastry cream",
+      "quantity": "1 recipe",
+      "prep": "at room temperature, about 68°F"
     },
     {
       "ingredient_id": 2285,
@@ -71,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the pastry cream to room temperature and bring it to 68°F.",
+      "secondary_message": "1 recipe pastry cream"
+    },
     {
       "id": 1,
       "primary_message": "Place about 7 of the graham cracker sheets in an even layer in a 9- by 33-cm baking dish, breaking up crackers as needed to fill space; set aside.",

@@ -50,18 +50,21 @@
   "ingredients": [
     {
       "ingredient_id": 1039,
-      "name": "russet potatoes, scrubbed",
-      "quantity": "4 medium"
+      "name": "russet potatoes",
+      "quantity": "4 medium",
+      "prep": "scrubbed"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "4 large cloves"
+      "name": "garlic",
+      "quantity": "4 large cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 120,
-      "name": "parmesan cheese, 2 ounces thinly sliced, 2 ounces grated",
-      "quantity": "4 oz"
+      "name": "parmesan cheese",
+      "quantity": "4 oz",
+      "prep": "2 ounces thinly sliced, 2 ounces grated"
     },
     {
       "ingredient_id": 47,
@@ -80,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Scrub the russet potatoes. Thinly slice the garlic. Thinly slice and grate the 2 ounces of the parmesan cheese.",
+      "secondary_message": "4 medium russet potatoes\n4 large cloves garlic\n4 oz parmesan cheese"
+    },
     {
       "id": 1,
       "primary_message": "Cut off a thin slice of each potato lengthwise to create a even base for potato to rest on. Slice off ends of each potato. Rest potato between two chopsticks or wooden spoons to act as a stop for the knife and carefully cut vertical slits in each potato about every 1/8-inch.",

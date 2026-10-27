@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 1692,
-      "name": "tart apples, cored and chunked; do not peel",
-      "quantity": "3"
+      "name": "tart apples",
+      "quantity": "3",
+      "prep": "cored and chunked; do not peel"
     },
     {
       "ingredient_id": 445,
@@ -100,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Core the tart apples and chunked; do not peel.",
+      "secondary_message": "3 tart apples"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 165°C (325°F).",

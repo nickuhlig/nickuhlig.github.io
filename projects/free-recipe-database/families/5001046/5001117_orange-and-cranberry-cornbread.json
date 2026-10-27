@@ -95,8 +95,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "melted butter, cooled slightly, divided",
-      "quantity": "4 tbsp"
+      "name": "melted butter, divided",
+      "quantity": "4 tbsp",
+      "prep": "cooled slightly"
     },
     {
       "ingredient_id": 1007,
@@ -115,6 +116,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cool the melted butter slightly.",
+      "secondary_message": "4 tbsp melted butter, divided"
+    },
     {
       "id": 1,
       "primary_message": "Place a 25-cm cast iron skillet on the middle rack of the oven and preheat to 220°C (425°F). In a medium bowl, whisk together cornmeal, flour, brown sugar, baking powder, salt, and baking soda. In a separate medium bowl, whisk together sour cream, buttermilk, honey, eggs, 3 tablespoons melted butter, and canola oil. Pour wet ingredients into bowl with dry ingredients and whisk until completely combined. Fold in in cranberries and orange zest.",

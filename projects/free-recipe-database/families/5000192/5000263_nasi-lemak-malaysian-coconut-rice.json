@@ -56,13 +56,15 @@
     },
     {
       "ingredient_id": 1940,
-      "name": "pandan leaves, cut crosswise into 2-inch pieces",
-      "quantity": "2"
+      "name": "pandan leaves",
+      "quantity": "2",
+      "prep": "cut crosswise into 2-inch pieces"
     },
     {
       "ingredient_id": 221,
-      "name": "fresh peeled ginger, julienned",
-      "quantity": "1 (2 ½ cm) (25 g) knob"
+      "name": "fresh peeled ginger",
+      "quantity": "1 (2 ½ cm) (25 g) knob",
+      "prep": "julienned"
     },
     {
       "ingredient_id": 88,
@@ -101,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the pandan leaves crosswise into 2-inch pieces. Julienne the fresh peeled ginger.",
+      "secondary_message": "2 pandan leaves\n1 (2 ½ cm) (25 g) knob fresh peeled ginger"
+    },
     {
       "id": 1,
       "primary_message": "Set up a tiered steamer (see notes), filling the bottom section with about 8 cm of water. Bring to a boil over high heat. Line the steamer tier with cheesecloth.",

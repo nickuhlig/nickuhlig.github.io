@@ -45,13 +45,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, finely chopped",
-      "quantity": "3 large"
+      "name": "shallots",
+      "quantity": "3 large",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "6 large cloves"
+      "name": "garlic",
+      "quantity": "6 large cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2101,
@@ -75,8 +77,9 @@
     },
     {
       "ingredient_id": 2132,
-      "name": "fresh mussels, scrubbed",
-      "quantity": "1.8 kg"
+      "name": "fresh mussels",
+      "quantity": "1.8 kg",
+      "prep": "scrubbed"
     },
     {
       "ingredient_id": 2346,
@@ -100,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the shallots. Thinly slice the garlic. Scrub the fresh mussels.",
+      "secondary_message": "3 large shallots\n6 large cloves garlic\n1.8 kg fresh mussels"
+    },
     {
       "id": 1,
       "primary_message": "In a 6- to 8-quart Dutch oven or large pot set over medium-low heat, melt butter. Add shallots and garlic and cook, stirring occasionally, until very softened but not browned, 8 to 10 minutes.",

@@ -65,8 +65,9 @@
     },
     {
       "ingredient_id": 1879,
-      "name": "spinach, washed and rinsed, cut into thin strips",
-      "quantity": "¾ lb"
+      "name": "spinach",
+      "quantity": "¾ lb",
+      "prep": "washed and rinsed, cut into thin strips"
     },
     {
       "ingredient_id": 349,
@@ -80,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash, rinse, and cut the spinach into thin strips.",
+      "secondary_message": "¾ lb spinach"
+    },
     {
       "id": 1,
       "primary_message": "Season ribeye well with salt and pepper. Heat oil in a 12-inch heavy-bottomed cast-iron skillet over high heat until just beginning to smoke. Carefully add steak and cook, flipping every 30 seconds or so with a pair of tongs, until a pale golden brown crust starts to develop, about 4 minutes total.",

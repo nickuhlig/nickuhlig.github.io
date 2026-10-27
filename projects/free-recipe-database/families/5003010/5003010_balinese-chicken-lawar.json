@@ -39,13 +39,15 @@
   "ingredients": [
     {
       "ingredient_id": 144,
-      "name": "shallot, peeled and quartered",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "peeled and quartered"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 2122,
@@ -59,8 +61,9 @@
     },
     {
       "ingredient_id": 3547,
-      "name": "fresh turmeric, chopped",
-      "quantity": "1 (½ inch) piece"
+      "name": "fresh turmeric",
+      "quantity": "1 (½ inch) piece",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 221,
@@ -69,8 +72,9 @@
     },
     {
       "ingredient_id": 1816,
-      "name": "lemongrass, chopped",
-      "quantity": "1 (½ inch) piece"
+      "name": "lemongrass",
+      "quantity": "1 (½ inch) piece",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1784,
@@ -94,8 +98,9 @@
     },
     {
       "ingredient_id": 111,
-      "name": "green beans, cut into 1-inch pieces",
-      "quantity": "8 oz"
+      "name": "green beans",
+      "quantity": "8 oz",
+      "prep": "cut into 1-inch pieces"
     },
     {
       "ingredient_id": 1044,
@@ -104,13 +109,15 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, lightly beaten",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 2244,
-      "name": "makrut lime leaves, finely sliced",
-      "quantity": "2"
+      "name": "makrut lime leaves",
+      "quantity": "2",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 442,
@@ -149,6 +156,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and quarter the shallot. Peel the garlic. Chop the fresh turmeric. Chop the lemongrass. Cut the green beans into 1-inch pieces. Lightly beat the eggs. Finely slice the makrut lime leaves.",
+      "secondary_message": "1 medium shallot\n2 medium cloves garlic\n1 (½ inch) piece fresh turmeric\n1 (½ inch) piece lemongrass\n8 oz green beans\n2 large eggs\n2 makrut lime leaves"
+    },
     {
       "id": 1,
       "primary_message": "For the sambal: Place all the ingredients for the sambal in a food processor and process until mixture forms a paste, about 30 seconds; set aside.",

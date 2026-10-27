@@ -40,18 +40,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, minced",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "minced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and smashed",
-      "quantity": "6 cloves"
+      "name": "garlic",
+      "quantity": "6 cloves",
+      "prep": "peeled and smashed"
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, peeled and sliced thin",
-      "quantity": "2 inch"
+      "name": "ginger",
+      "quantity": "2 inch",
+      "prep": "peeled and sliced thin"
     },
     {
       "ingredient_id": 74,
@@ -85,6 +88,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the onion. Peel and smash the garlic. Peel and slice the ginger thin.",
+      "secondary_message": "1 small onion\n6 cloves garlic\n2 inch ginger"
+    },
     {
       "id": 1,
       "primary_message": "In a saucepan, slowly melt the butter on low heat. Meanwhile, toast the spices. If grinding, toast beforehand.",

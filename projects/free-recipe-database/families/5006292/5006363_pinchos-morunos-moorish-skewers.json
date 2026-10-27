@@ -48,8 +48,9 @@
     },
     {
       "ingredient_id": 1385,
-      "name": "pork tenderloin, trimmed of silverskin and excess fat",
-      "quantity": "0.91 kg"
+      "name": "pork tenderloin",
+      "quantity": "0.91 kg",
+      "prep": "trimmed of silverskin and excess fat"
     },
     {
       "ingredient_id": 47,
@@ -58,8 +59,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1480,
@@ -108,6 +110,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the pork tenderloin of silverskin and excess fat. Mince the garlic.",
+      "secondary_message": "0.91 kg pork tenderloin\n4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "To make the brine, whisk salt and sugar in cold water until completely dissolved. Place tenderloin in brine and place in refrigerator for 1 1/2 hours.",

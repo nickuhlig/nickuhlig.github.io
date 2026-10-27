@@ -71,8 +71,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold butter, cut into small pieces",
-      "quantity": "6 tbsp"
+      "name": "cold butter",
+      "quantity": "6 tbsp",
+      "prep": "cut into small pieces"
     },
     {
       "ingredient_id": 2475,
@@ -81,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cold butter into small pieces.",
+      "secondary_message": "6 tbsp cold butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position. Preheat oven to 220°C (425°F). In large bowl, whisk together white rice flour, sweet rice flour, potato starch, baking powder, sugar, salt, and baking soda. Cut butter (or shortening) into flour mixture with your fingertips or a pastry cutter until no large pieces of butter remain. Mixture should resemble a coarse meal.",

@@ -62,8 +62,9 @@
     },
     {
       "ingredient_id": 2483,
-      "name": "watercress, thick stems discarded",
-      "quantity": "½ bunch"
+      "name": "watercress",
+      "quantity": "½ bunch",
+      "prep": "thick stems discarded"
     },
     {
       "ingredient_id": 1265,
@@ -72,13 +73,15 @@
     },
     {
       "ingredient_id": 155,
-      "name": "english cucumber, sliced",
-      "quantity": "¼"
+      "name": "english cucumber",
+      "quantity": "¼",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, thinly sliced",
-      "quantity": "¼ small"
+      "name": "red onion",
+      "quantity": "¼ small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1337,
@@ -102,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thickly discard the stems from the watercress. Slice the english cucumber. Thinly slice the red onion.",
+      "secondary_message": "½ bunch watercress\n¼ english cucumber\n¼ small red onion"
+    },
     {
       "id": 1,
       "primary_message": "Heat water and ginger in a small saucepan until simmering. Add sake and salt and stir to combine. Add chicken. Return to a simmer, cover, remove from heat, and let rest for 15 minutes.",

@@ -113,8 +113,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, thinly sliced",
-      "quantity": "1 small"
+      "name": "yellow onion",
+      "quantity": "1 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -123,13 +124,15 @@
     },
     {
       "ingredient_id": 260,
-      "name": "garden tomatoes, cored and diced",
-      "quantity": "2 large"
+      "name": "garden tomatoes",
+      "quantity": "2 large",
+      "prep": "cored and diced"
     },
     {
       "ingredient_id": 2195,
-      "name": "curry leaves, woody stems removed",
-      "quantity": "25"
+      "name": "curry leaves",
+      "quantity": "25",
+      "prep": "woody stems removed"
     },
     {
       "ingredient_id": 2298,
@@ -163,6 +166,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the yellow onion. Core and dice the garden tomatoes. Remove the woody stems from the curry leaves.",
+      "secondary_message": "1 small yellow onion\n2 large garden tomatoes\n25 curry leaves"
+    },
     {
       "id": 1,
       "primary_message": "For the Curry Powder: In a dry skillet, toast coriander seeds, cumin seeds, fennel seeds, black peppercorns, and white peppercorns over medium heat until they darken slightly and become fragrant, about 1 minute. Remove from heat and transfer the toasted spices to a mortar or spice grinder. Allow spices to cool for 1 minute, then grind spices until finely ground. Transfer to a small bowl and stir in the chile powder and turmeric. Set aside.",

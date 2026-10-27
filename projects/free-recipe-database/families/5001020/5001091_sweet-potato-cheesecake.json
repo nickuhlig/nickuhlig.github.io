@@ -103,8 +103,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "30 g"
+      "name": "unsalted butter",
+      "quantity": "30 g",
+      "prep": "melted"
     },
     {
       "ingredient_id": 88,
@@ -128,8 +129,9 @@
     },
     {
       "ingredient_id": 143,
-      "name": "roasted sweet potato flesh, brought to about 70°F",
-      "quantity": "0.68 kg"
+      "name": "roasted sweet potato flesh",
+      "quantity": "0.68 kg",
+      "prep": "brought to about 70°F"
     },
     {
       "ingredient_id": 1707,
@@ -183,11 +185,18 @@
     },
     {
       "ingredient_id": 272,
-      "name": "toasted walnut halves, coarsely chopped",
-      "quantity": "85 g"
+      "name": "toasted walnut halves",
+      "quantity": "85 g",
+      "prep": "coarsely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Bring the roasted sweet potato flesh to about 70°F. Coarsely chop the toasted walnut halves.",
+      "secondary_message": "30 g unsalted butter\n0.68 kg roasted sweet potato flesh\n85 g toasted walnut halves"
+    },
     {
       "id": 1,
       "primary_message": "For the Cookie Crust: If using a two-piece pan, wrap the bottom piece in foil before assembly, then tear away the excess so the pan sits flat. If using a traditional cake pan, line the bottom with a parchment round (explanation and tutorial here). In either case, lightly grease the pan.",

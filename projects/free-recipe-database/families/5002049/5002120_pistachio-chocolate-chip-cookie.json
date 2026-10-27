@@ -53,13 +53,15 @@
   "ingredients": [
     {
       "ingredient_id": 1729,
-      "name": "dark chocolate, chopped",
-      "quantity": "250 g"
+      "name": "dark chocolate",
+      "quantity": "250 g",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 256,
-      "name": "roasted unsalted shelled pistachios, coarsely chopped",
-      "quantity": "135 g"
+      "name": "roasted unsalted shelled pistachios",
+      "quantity": "135 g",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 116,
@@ -68,8 +70,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "16 tbsp"
+      "name": "unsalted butter",
+      "quantity": "16 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 346,
@@ -103,16 +106,24 @@
     },
     {
       "ingredient_id": 2591,
-      "name": "pistachio cream, stirred well",
-      "quantity": "140 g"
+      "name": "pistachio cream",
+      "quantity": "140 g",
+      "prep": "stirred well"
     },
     {
       "ingredient_id": 121,
-      "name": "egg, chilled",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "chilled"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the dark chocolate. Coarsely chop the roasted unsalted shelled pistachios. Soften the unsalted butter. Stir the pistachio cream well. Keep the egg cold until you use it.",
+      "secondary_message": "250 g dark chocolate\n135 g roasted unsalted shelled pistachios\n16 tbsp unsalted butter\n140 g pistachio cream\n1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "For the Cookie Dough: Adjust oven racks to upper-middle and lower-middle positions and preheat to 180°C (350°F). In a medium bowl, stir chopped chocolate and pistachios until combined. Sift flour on top of chocolate and pistachios. Set aside.",

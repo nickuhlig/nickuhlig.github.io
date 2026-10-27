@@ -63,8 +63,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, firm but pliable, about 60°F",
-      "quantity": "113 g"
+      "name": "unsalted butter, firm but pliable",
+      "quantity": "113 g",
+      "prep": "about 60°F"
     },
     {
       "ingredient_id": 129,
@@ -93,8 +94,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, straight from the fridge",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "straight from the fridge"
     },
     {
       "ingredient_id": 116,
@@ -118,6 +120,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to 60°F. Keep the egg cold until you use it.",
+      "secondary_message": "113 g unsalted butter, firm but pliable\n1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat to 200°C (400°F). Combine butter, coconut oil, sugar, salt, baking powder, and vanilla in the bowl of a stand mixer fitted with the paddle attachment. Mix at low speed to combine, then increase to medium and beat until soft, fluffy, and pale, about 5 minutes, although the exact timing will vary. Halfway through, pausing to scrape the bowl and beater with a flexible spatula, and then resume mixing on medium speed. Add egg and continue beating until smooth. Reduce speed to low, add flour, and mix to form a stiff dough.",

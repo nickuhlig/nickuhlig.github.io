@@ -39,8 +39,9 @@
   "ingredients": [
     {
       "ingredient_id": 1702,
-      "name": "bone-in skin-on chicken thighs, patted dry",
-      "quantity": "1.53 kg"
+      "name": "bone-in skin-on chicken thighs",
+      "quantity": "1.53 kg",
+      "prep": "patted dry"
     },
     {
       "ingredient_id": 88,
@@ -54,8 +55,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely chopped",
-      "quantity": "1 large"
+      "name": "shallot",
+      "quantity": "1 large",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1677,
@@ -74,13 +76,15 @@
     },
     {
       "ingredient_id": 162,
-      "name": "sun-dried tomatoes in oil, chopped",
-      "quantity": "½ cup"
+      "name": "sun-dried tomatoes in oil",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 323,
@@ -109,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pat the bone-in skin-on chicken thighs dry. Finely chop the shallot. Chop the sun-dried tomatoes in oil. Mince the garlic.",
+      "secondary_message": "1.53 kg bone-in skin-on chicken thighs\n1 large shallot\n½ cup sun-dried tomatoes in oil\n4 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Season chicken thighs evenly with kosher salt and pepper. (For even better seasoning and crispier skin, let chicken stand at room temperature for at least 45 minutes, or refrigerate uncovered for up to 24 hours.) Place chicken, skin side down, into a room-temperature 30-cm skillet. Set over medium heat and cook, undisturbed, until fat is rendered and skin is light golden, 10 to 15 minutes. Continue cooking, flipping every 2 to 3 minutes, until thighs are deeply golden and cooked through to at least 80°C, about 10 minutes. Transfer to a plate. Reserve 1 tablespoon of the drippings in skillet, and discard remaining chicken fat (or save for another use).",

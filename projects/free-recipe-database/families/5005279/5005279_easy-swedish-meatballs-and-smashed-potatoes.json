@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 313,
-      "name": "sweet pork sausage, removed from its casing",
-      "quantity": "14 oz"
+      "name": "sweet pork sausage",
+      "quantity": "14 oz",
+      "prep": "removed from its casing"
     },
     {
       "ingredient_id": 1189,
@@ -86,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the sweet pork sausage from its casing.",
+      "secondary_message": "14 oz sweet pork sausage"
+    },
     {
       "id": 1,
       "primary_message": "Put the potatoes in a stockpot, and cover by an inch of water. Season with salt and boil until tender, about 10 minutes.",

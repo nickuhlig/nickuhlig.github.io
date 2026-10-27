@@ -35,18 +35,21 @@
   "ingredients": [
     {
       "ingredient_id": 2278,
-      "name": "best-quality ripe figs, split in half",
-      "quantity": "340 g"
+      "name": "best-quality ripe figs",
+      "quantity": "340 g",
+      "prep": "split in half"
     },
     {
       "ingredient_id": 126,
-      "name": "aged goat cheese, such as crottin, torn into small pieces",
-      "quantity": "85 g"
+      "name": "aged goat cheese, such as crottin",
+      "quantity": "85 g",
+      "prep": "torn into small pieces"
     },
     {
       "ingredient_id": 3684,
-      "name": "whole kernels small handful marcona almonds, split with a knife",
-      "quantity": "1 cup"
+      "name": "whole kernels small handful marcona almonds",
+      "quantity": "1 cup",
+      "prep": "split with a knife"
     },
     {
       "ingredient_id": 1677,
@@ -70,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the best-quality ripe figs in half. Tear the aged goat cheese into small pieces. Split the whole kernels small handful marcona almonds with a knife.",
+      "secondary_message": "340 g best-quality ripe figs\n85 g aged goat cheese, such as crottin\n1 cup whole kernels small handful marcona almonds"
+    },
     {
       "id": 1,
       "primary_message": "Arrange figs, goat cheese, almonds, and basil or thyme leaves on a serving platter. Sprinkle lightly with flaky sea salt and drizzle with olive oil and honey. Serve.",

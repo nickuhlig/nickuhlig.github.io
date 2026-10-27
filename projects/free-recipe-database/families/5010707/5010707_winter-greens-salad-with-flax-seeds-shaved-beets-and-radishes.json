@@ -58,8 +58,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely minced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 47,
@@ -78,13 +79,15 @@
     },
     {
       "ingredient_id": 2608,
-      "name": "Belgian endive, separated into individual leaves",
-      "quantity": "1"
+      "name": "Belgian endive",
+      "quantity": "1",
+      "prep": "separated into individual leaves"
     },
     {
       "ingredient_id": 2520,
-      "name": "radicchio, leaves separated and roughly torn",
-      "quantity": "1 small head"
+      "name": "radicchio",
+      "quantity": "1 small head",
+      "prep": "leaves separated and roughly torn"
     },
     {
       "ingredient_id": 2222,
@@ -98,13 +101,15 @@
     },
     {
       "ingredient_id": 343,
-      "name": "whole watermelon radish, thinly sliced on a mandoline",
-      "quantity": "1"
+      "name": "whole watermelon radish",
+      "quantity": "1",
+      "prep": "thinly sliced on a mandoline"
     },
     {
       "ingredient_id": 13,
-      "name": "chioggia beet, thinly sliced on a mandoline",
-      "quantity": "1 small"
+      "name": "chioggia beet",
+      "quantity": "1 small",
+      "prep": "thinly sliced on a mandoline"
     },
     {
       "ingredient_id": 2896,
@@ -118,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the shallot. Separate the Belgian endive into individual leaves. Separate and roughly tear the leaves of the radicchio. Thinly slice the whole watermelon radish on a mandoline. Thinly slice the chioggia beet on a mandoline.",
+      "secondary_message": "1 small shallot\n1 Belgian endive\n1 small head radicchio\n1 whole watermelon radish\n1 small chioggia beet"
+    },
     {
       "id": 1,
       "primary_message": "Combine lemon juice, mustard, and shallot in a medium bowl. Whisking constantly, slowly drizzle in olive oil. Season to taste with salt and pepper.",

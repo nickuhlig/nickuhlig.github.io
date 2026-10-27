@@ -45,8 +45,9 @@
   "ingredients": [
     {
       "ingredient_id": 1824,
-      "name": "duck skin and fat, cut into 2-inch pieces",
-      "quantity": "0.9 kg"
+      "name": "duck skin and fat",
+      "quantity": "0.9 kg",
+      "prep": "cut into 2-inch pieces"
     },
     {
       "ingredient_id": 359,
@@ -65,6 +66,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the duck skin and fat into 2-inch pieces.",
+      "secondary_message": "0.9 kg duck skin and fat"
+    },
     {
       "id": 1,
       "primary_message": "In a 3-quart saucier or saucepan, combine duck skin and fat with water and set over medium-low heat. Cook, stirring occasionally with rubber spatula to prevent skin from sticking to the bottom of the saucepan, until mixture begins to simmer and bubble rapidly, and liquid is cloudy, 10 to 15 minutes.",

@@ -77,8 +77,9 @@
     },
     {
       "ingredient_id": 1236,
-      "name": "Swiss cheese, shredded",
-      "quantity": "90 g"
+      "name": "Swiss cheese",
+      "quantity": "90 g",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 2567,
@@ -122,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shred the Swiss cheese.",
+      "secondary_message": "90 g Swiss cheese"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle positions, and preheat oven to 165°C (325°F) (160℃). Lightly coat a 12-cup muffin pan with cooking spray; set aside.",

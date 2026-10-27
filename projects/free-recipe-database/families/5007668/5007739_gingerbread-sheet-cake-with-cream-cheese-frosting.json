@@ -110,13 +110,15 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, straight from the fridge",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "straight from the fridge"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted and cooled to about 100°F",
-      "quantity": "227 g"
+      "name": "unsalted butter",
+      "quantity": "227 g",
+      "prep": "melted and cooled to about 100°F"
     },
     {
       "ingredient_id": 116,
@@ -135,6 +137,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the eggs cold until you use them. Melt and cool the unsalted butter to about 100°F.",
+      "secondary_message": "3 large eggs\n227 g unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat to 180°C (350°F). Line a 9- by 33-cm anodized aluminum cake pan with parchment, then grease lightly with pan spray.",

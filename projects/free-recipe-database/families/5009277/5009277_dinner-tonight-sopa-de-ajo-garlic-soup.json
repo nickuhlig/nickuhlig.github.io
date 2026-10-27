@@ -38,13 +38,15 @@
     },
     {
       "ingredient_id": 2832,
-      "name": "stale bread, crusts removed, cut into 1/2 inch cubes",
-      "quantity": "¼ lb"
+      "name": "stale bread",
+      "quantity": "¼ lb",
+      "prep": "crusts removed, cut into 1/2 inch cubes"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 83,
@@ -68,6 +70,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the crusts from the stale bread, then cut it into 1/2 inch cubes. Mince the garlic.",
+      "secondary_message": "¼ lb stale bread\n4 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Pour the olive oil into a pot. Turn the heat to medium-high and add the cubed bread. Cook for 5 minutes, stirring often, until the bread is lightly browned. Toss in the garlic, pimentón, and a pinch of salt. Stir well, and cook for 3 minutes.",

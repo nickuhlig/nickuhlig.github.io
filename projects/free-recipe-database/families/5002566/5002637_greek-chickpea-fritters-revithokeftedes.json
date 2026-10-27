@@ -55,23 +55,27 @@
   "ingredients": [
     {
       "ingredient_id": 92,
-      "name": "chickpeas, drained of liquid",
-      "quantity": "2 (439 g) (880 g) cans"
+      "name": "chickpeas",
+      "quantity": "2 (439 g) (880 g) cans",
+      "prep": "drained of liquid"
     },
     {
       "ingredient_id": 106,
-      "name": "fresh flat leaf parsley, finely chopped",
-      "quantity": "14 g"
+      "name": "fresh flat leaf parsley",
+      "quantity": "14 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 320,
-      "name": "fresh dill fronds, finely chopped",
-      "quantity": "14 g"
+      "name": "fresh dill fronds",
+      "quantity": "14 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely chopped",
-      "quantity": "½ medium"
+      "name": "yellow onion",
+      "quantity": "½ medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 82,
@@ -95,8 +99,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "whole egg, lightly beaten",
-      "quantity": "1 large"
+      "name": "whole egg",
+      "quantity": "1 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 1682,
@@ -105,6 +110,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain the chickpeas of liquid. Finely chop the fresh flat leaf parsley. Finely chop the fresh dill fronds. Finely chop the yellow onion. Lightly beat the whole egg.",
+      "secondary_message": "2 (439 g) (880 g) cans chickpeas\n14 g fresh flat leaf parsley\n14 g fresh dill fronds\n½ medium yellow onion\n1 large whole egg"
+    },
     {
       "id": 1,
       "primary_message": "In a food processor, gently pulse chickpeas. Alternatively, mash with a potato masher, a fork, or your hands. Aim for a mixture with about 3/4 mashed and the rest whole/broken.",

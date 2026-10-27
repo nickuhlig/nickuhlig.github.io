@@ -83,8 +83,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "8 tbsp"
+      "name": "unsalted butter",
+      "quantity": "8 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 293,
@@ -98,8 +99,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "0.91 kg"
+      "name": "cream cheese",
+      "quantity": "0.91 kg",
+      "prep": "softened"
     },
     {
       "ingredient_id": 346,
@@ -108,8 +110,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1003,
@@ -133,8 +136,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, melted",
-      "quantity": "4 tbsp"
+      "name": "butter",
+      "quantity": "4 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 2240,
@@ -148,11 +152,18 @@
     },
     {
       "ingredient_id": 327,
-      "name": "pecans, toasted and roughly chopped",
-      "quantity": "162 g"
+      "name": "pecans",
+      "quantity": "162 g",
+      "prep": "toasted and roughly chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Soften the cream cheese. Bring the eggs to room temperature. Melt the butter. Toast and roughly chop the pecans.",
+      "secondary_message": "8 tbsp unsalted butter\n0.91 kg cream cheese\n4 large eggs\n4 tbsp butter\n162 g pecans"
+    },
     {
       "id": 1,
       "primary_message": "For the Cheesecake: Adjust oven rack to middle position and preheat oven to 175°C (350°F). Lightly grease a 23-cm springform pan with cooking spray. Using aluminum foil, wrap bottom half of pan to create a waterproof seal.",

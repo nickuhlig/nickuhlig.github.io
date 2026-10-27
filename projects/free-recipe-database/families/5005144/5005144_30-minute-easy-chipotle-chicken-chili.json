@@ -36,8 +36,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, diced",
-      "quantity": "2 medium"
+      "name": "onions",
+      "quantity": "2 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 88,
@@ -46,13 +47,15 @@
     },
     {
       "ingredient_id": 151,
-      "name": "jalapenos, finely chopped",
-      "quantity": "2"
+      "name": "jalapenos",
+      "quantity": "2",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 186,
@@ -76,13 +79,15 @@
     },
     {
       "ingredient_id": 1618,
-      "name": "chipotle chilis, canned in adobo sauce, finely chopped",
-      "quantity": "2"
+      "name": "chipotle chilis, canned in adobo sauce",
+      "quantity": "2",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 91,
-      "name": "white beans, drained and rinsed",
-      "quantity": "3 (15 oz) cans"
+      "name": "white beans",
+      "quantity": "3 (15 oz) cans",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 1505,
@@ -91,16 +96,24 @@
     },
     {
       "ingredient_id": 303,
-      "name": "frozen corn, thawed",
-      "quantity": "1 ½ cups"
+      "name": "frozen corn",
+      "quantity": "1 ½ cups",
+      "prep": "thawed"
     },
     {
       "ingredient_id": 188,
-      "name": "fresh cilantro leaves, chopped",
-      "quantity": "½ cup"
+      "name": "fresh cilantro leaves",
+      "quantity": "½ cup",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the onions. Finely chop the jalapenos. Mince the garlic. Finely chop the chipotle chilis. Drain and rinse the white beans. Thaw the frozen corn. Chop the fresh cilantro leaves.",
+      "secondary_message": "2 medium onions\n2 jalapenos\n3 medium cloves garlic\n2 chipotle chilis, canned in adobo sauce\n3 (15 oz) cans white beans\n1 ½ cups frozen corn\n½ cup fresh cilantro leaves"
+    },
     {
       "id": 1,
       "primary_message": "In large saucepan or dutch oven, heat oil over medium heat until shimmering. Add onion and 1 teaspoon salt. Cook, stirring, until softened and beginning to turn golden, 6 to 8 minutes. Add jalapeños, garlic, cumin, oregano, and cayenne. Cook until fragrant, about 1 minute.",

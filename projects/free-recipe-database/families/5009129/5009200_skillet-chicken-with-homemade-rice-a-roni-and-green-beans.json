@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 59,
-      "name": "uncooked thin spaghetti, broken into 1/2-inch pieces",
-      "quantity": "71 g"
+      "name": "uncooked thin spaghetti",
+      "quantity": "71 g",
+      "prep": "broken into 1/2-inch pieces"
     },
     {
       "ingredient_id": 1176,
@@ -97,16 +98,24 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 111,
-      "name": "green beans, trimmed and halved crosswise",
-      "quantity": "0.45 kg"
+      "name": "green beans",
+      "quantity": "0.45 kg",
+      "prep": "trimmed and halved crosswise"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Break the uncooked thin spaghetti into 1/2-inch pieces. Mince the garlic. Trim and halve the green beans crosswise.",
+      "secondary_message": "71 g uncooked thin spaghetti\n4 medium cloves garlic\n0.45 kg green beans"
+    },
     {
       "id": 1,
       "primary_message": "Pat chicken dry with paper towels and season both sides with salt and pepper. Heat 1 tablespoon oil in a 30-cm skillet over medium heat until shimmering. Working in batches, add half of the chicken skin side down. Cook until well browned, about 8 minutes per side. Transfer chicken to plate, leave oil in pan, and repeat with second batch of chicken.",

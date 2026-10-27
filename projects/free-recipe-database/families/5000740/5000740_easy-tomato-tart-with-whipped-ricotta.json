@@ -73,9 +73,10 @@
     },
     {
       "ingredient_id": 260,
-      "name": "tomatoes, sliced 1/4 inch thick",
+      "name": "tomatoes",
       "quantity": "3 ½",
-      "weigh_as": "1 lb"
+      "weigh_as": "1 lb",
+      "prep": "sliced 1/4 inch thick"
     },
     {
       "ingredient_id": 88,
@@ -104,8 +105,9 @@
     },
     {
       "ingredient_id": 1746,
-      "name": "Fresh basil leaves, torn",
-      "quantity": ""
+      "name": "Fresh basil leaves",
+      "quantity": "",
+      "prep": "torn"
     },
     {
       "ingredient_id": 131,
@@ -114,6 +116,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the tomatoes 1/4 inch thick. Tear the Fresh basil leaves.",
+      "secondary_message": "3 ½ tomatoes\nFresh basil leaves"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 400°F. Line a rimmed baking sheet with parchment paper. On a lightly floured surface, place one sheet of puff pastry directly on top of the other. Using a rolling pin, roll pastry into a 11- by 15-inch rectangle. Transfer pastry to prepared baking sheet and, using a fork, poke pastry all over. Cover the pastry with a sheet of parchment and place another rimmed baking sheet on top. Bake until pastry is light golden brown, about 25 minutes.",

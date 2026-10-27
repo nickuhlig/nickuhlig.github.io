@@ -49,8 +49,9 @@
   "ingredients": [
     {
       "ingredient_id": 44,
-      "name": "boneless skinless chicken breasts, pounded to about 3/4 inch thick",
-      "quantity": "0.91 kg"
+      "name": "boneless skinless chicken breasts",
+      "quantity": "0.91 kg",
+      "prep": "pounded to about 3/4 inch thick"
     },
     {
       "ingredient_id": 47,
@@ -69,8 +70,9 @@
     },
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, halved",
-      "quantity": "283 g"
+      "name": "cherry tomatoes",
+      "quantity": "283 g",
+      "prep": "halved"
     },
     {
       "ingredient_id": 153,
@@ -84,16 +86,24 @@
     },
     {
       "ingredient_id": 32,
-      "name": "feta cheese, crumbled",
-      "quantity": "113 g"
+      "name": "feta cheese",
+      "quantity": "113 g",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 2012,
-      "name": "pitted kalamata olives, roughly chopped",
-      "quantity": "½ cup"
+      "name": "pitted kalamata olives",
+      "quantity": "½ cup",
+      "prep": "roughly chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pound the boneless skinless chicken breasts to about 3/4 inch thick. Halve the cherry tomatoes. Crumble the feta cheese. Roughly chop the pitted kalamata olives.",
+      "secondary_message": "0.91 kg boneless skinless chicken breasts\n283 g cherry tomatoes\n113 g feta cheese\n½ cup pitted kalamata olives"
+    },
     {
       "id": 1,
       "primary_message": "If you don't have time to dry brine: Pat chicken dry with paper towels. Sprinkle chicken with 1 1/2 teaspoons salt and 1/4 teaspoon pepper.If you have time to dry brine: Set a wire rack over a rimmed baking sheet and arrange chicken breasts on it. Sprinkle all over with 1 1/2 teaspoons salt and 1/4 teaspoon pepper, then refrigerate, uncovered, for at least 30 minutes or up to 12 hours.",

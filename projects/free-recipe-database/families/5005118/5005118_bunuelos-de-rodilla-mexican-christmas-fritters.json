@@ -90,8 +90,9 @@
     },
     {
       "ingredient_id": 116,
-      "name": "all-purpose flour, sifted twice",
-      "quantity": "3 cups"
+      "name": "all-purpose flour",
+      "quantity": "3 cups",
+      "prep": "sifted twice"
     },
     {
       "ingredient_id": 331,
@@ -105,13 +106,15 @@
     },
     {
       "ingredient_id": 2238,
-      "name": "lard, cut into 1/2-inch pieces and chilled",
-      "quantity": "½ cup"
+      "name": "lard",
+      "quantity": "½ cup",
+      "prep": "cut into 1/2-inch pieces and chilled"
     },
     {
       "ingredient_id": 121,
-      "name": "room temperature eggs, beaten",
-      "quantity": "2 large"
+      "name": "room temperature eggs",
+      "quantity": "2 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 1809,
@@ -145,6 +148,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Sift the all-purpose flour twice. Cut the lard into 1/2-inch pieces and keep it cold until you use it. Beat the room temperature eggs.",
+      "secondary_message": "3 cups all-purpose flour\n½ cup lard\n2 large room temperature eggs"
+    },
     {
       "id": 1,
       "primary_message": "For the Buñuelos: In a small saucepan, bring water, sugar, and liqueur (if using) to a simmer over medium heat, stirring occasionally to dissolve. Remove from heat and cover to keep warm.",

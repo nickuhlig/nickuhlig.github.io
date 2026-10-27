@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, split in half",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "split in half"
     },
     {
       "ingredient_id": 24,
@@ -76,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the onion in half.",
+      "secondary_message": "1 small onion"
+    },
     {
       "id": 1,
       "primary_message": "Combine chickpeas, 1 teaspoon baking soda, and 2 tablespoons salt in a large bowl. Cover with 6 cups cold water. Stir to dissolve salt and baking soda. Let stand at room temperature overnight. Drain and rinse chickpeas thoroughly.",

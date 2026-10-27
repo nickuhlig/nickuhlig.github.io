@@ -68,8 +68,9 @@
     },
     {
       "ingredient_id": 1214,
-      "name": "kimchi, drained and roughly chopped",
-      "quantity": "1 (12 oz) jar"
+      "name": "kimchi",
+      "quantity": "1 (12 oz) jar",
+      "prep": "drained and roughly chopped"
     },
     {
       "ingredient_id": 2953,
@@ -78,8 +79,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, roughly chopped",
-      "quantity": "12"
+      "name": "scallions",
+      "quantity": "12",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 221,
@@ -88,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain and roughly chop the kimchi. Roughly chop the scallions.",
+      "secondary_message": "1 (12 oz) jar kimchi\n12 scallions"
+    },
     {
       "id": 1,
       "primary_message": "At least 45 minutes before baking, place a baking stone or steel on an oven rack set to the top position and preheat oven to 550°F. Toss mushrooms in a medium bowl with olive oil. Season with salt and pepper.",

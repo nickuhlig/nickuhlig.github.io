@@ -50,21 +50,30 @@
     },
     {
       "ingredient_id": 2036,
-      "name": "Oaxaca cheese, shredded by hand",
-      "quantity": "340 g"
+      "name": "Oaxaca cheese",
+      "quantity": "340 g",
+      "prep": "shredded by hand"
     },
     {
       "ingredient_id": 1624,
-      "name": "pickled red onions, drained in a salad spinner",
-      "quantity": "1 ½ cups"
+      "name": "pickled red onions",
+      "quantity": "1 ½ cups",
+      "prep": "drained in a salad spinner"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño peppers, finely sliced",
-      "quantity": "2 to 3"
+      "name": "jalapeño peppers",
+      "quantity": "2 to 3",
+      "prep": "finely sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shred the Oaxaca cheese by hand. Drain the pickled red onions in a salad spinner. Finely slice the jalapeño peppers.",
+      "secondary_message": "340 g Oaxaca cheese\n1 ½ cups pickled red onions\n2 to 3 jalapeño peppers"
+    },
     {
       "id": 1,
       "primary_message": "Slice off the top 2.5 to 4-cm of the loaf of bread using a bread knife. Cut around the perimeter of the interior crumb, making sure not to break through the bottom crust, then use your hand to lift out the excess bread from the inside, leaving you with a hollow bread boat.",

@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 234,
-      "name": "overripe peach, cut into slices",
-      "quantity": "¼"
+      "name": "overripe peach",
+      "quantity": "¼",
+      "prep": "cut into slices"
     },
     {
       "ingredient_id": 3518,
@@ -80,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the overripe peach into slices.",
+      "secondary_message": "¼ overripe peach"
+    },
     {
       "id": 1,
       "primary_message": "For Rooibos Tea Syrup: Pour boiling water over tea bags and let steep 5 minutes. Remove tea bags. Stir in sugar to dissolve. Let cool before using. Syrup can be stored in refrigerator for up to 1 week.",

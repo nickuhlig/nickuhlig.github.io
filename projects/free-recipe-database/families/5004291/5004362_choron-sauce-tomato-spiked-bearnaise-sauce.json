@@ -64,9 +64,10 @@
   "ingredients": [
     {
       "ingredient_id": 1541,
-      "name": "ripe plum tomatoes, diced",
+      "name": "ripe plum tomatoes",
       "quantity": "9",
-      "weigh_as": "0.57 kg"
+      "weigh_as": "0.57 kg",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1008,
@@ -85,8 +86,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, roughly chopped",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1784,
@@ -110,6 +112,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the ripe plum tomatoes. Roughly chop the shallot.",
+      "secondary_message": "9 ripe plum tomatoes\n1 small shallot"
+    },
     {
       "id": 1,
       "primary_message": "In a medium saucepan, heat tomatoes over medium-high heat, stirring occasionally, until tomatoes begin to release their liquid, 3 to 5 minutes. Bring to a simmer, then lower heat to medium and cook, stirring occasionally, until much of the excess liquid has cooked off but the tomatoes aren't totally dry, 10 to 15 minutes.",

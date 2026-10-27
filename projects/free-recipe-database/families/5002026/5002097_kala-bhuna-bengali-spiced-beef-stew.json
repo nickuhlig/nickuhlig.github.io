@@ -92,8 +92,9 @@
     },
     {
       "ingredient_id": 1922,
-      "name": "boneless chuck, cut into 1 1/2 to 2-inch cubes",
-      "quantity": "1.13 to 1.36 kg"
+      "name": "boneless chuck",
+      "quantity": "1.13 to 1.36 kg",
+      "prep": "cut into 1 1/2 to 2-inch cubes"
     },
     {
       "ingredient_id": 184,
@@ -137,8 +138,9 @@
     },
     {
       "ingredient_id": 1850,
-      "name": "Indian green chiles, split in half lengthwise, divided",
-      "quantity": "6"
+      "name": "Indian green chiles, divided",
+      "quantity": "6",
+      "prep": "split in half lengthwise"
     },
     {
       "ingredient_id": 1574,
@@ -177,13 +179,15 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, thinly sliced lengthwise",
-      "quantity": "½ medium"
+      "name": "red onion",
+      "quantity": "½ medium",
+      "prep": "thinly sliced lengthwise"
     },
     {
       "ingredient_id": 155,
-      "name": "English cucumber, thinly sliced cross-wise",
-      "quantity": "1"
+      "name": "English cucumber",
+      "quantity": "1",
+      "prep": "thinly sliced cross-wise"
     },
     {
       "ingredient_id": 3673,
@@ -192,11 +196,18 @@
     },
     {
       "ingredient_id": 1850,
-      "name": "Indian green chiles, thinly sliced cross-wise",
-      "quantity": "2 to 3"
+      "name": "Indian green chiles",
+      "quantity": "2 to 3",
+      "prep": "thinly sliced cross-wise"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the boneless chuck into 1 1/2 to 2-inch cubes. Split the Indian green chiles in half lengthwise. Thinly slice the red onion lengthwise. Thinly slice the English cucumber cross-wise. Thinly slice the Indian green chiles cross-wise.",
+      "secondary_message": "1.13 to 1.36 kg boneless chuck\n6 Indian green chiles, divided\n½ medium red onion\n1 English cucumber\n2 to 3 Indian green chiles"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat to 300ºF (150ºC).",

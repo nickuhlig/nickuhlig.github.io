@@ -83,8 +83,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into small pieces",
-      "quantity": "226 g"
+      "name": "cold unsalted butter",
+      "quantity": "226 g",
+      "prep": "cut into small pieces"
     },
     {
       "ingredient_id": 359,
@@ -98,8 +99,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, lightly whisked",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "lightly whisked"
     },
     {
       "ingredient_id": 1483,
@@ -113,13 +115,15 @@
     },
     {
       "ingredient_id": 1993,
-      "name": "Scotch bonnet pepper, stemmed, seeded, and minced",
-      "quantity": "1"
+      "name": "Scotch bonnet pepper",
+      "quantity": "1",
+      "prep": "stemmed, seeded, and minced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2695,
@@ -183,6 +187,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cold unsalted butter into small pieces. Lightly whisk the egg. Stem, seed, and mince the Scotch bonnet pepper. Mince the garlic.",
+      "secondary_message": "226 g cold unsalted butter\n1 large egg\n1 Scotch bonnet pepper\n2 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Dough: In the bowl of a food processor, pulse together flour, salt, curry powder, turmeric, and butter until butter is broken into pea-size pieces, about 10 pulses.",

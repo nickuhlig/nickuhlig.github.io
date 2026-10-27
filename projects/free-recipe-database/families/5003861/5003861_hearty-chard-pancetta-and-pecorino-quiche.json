@@ -38,13 +38,15 @@
     },
     {
       "ingredient_id": 2697,
-      "name": "pancetta, cut into 1/4-inch cubes",
-      "quantity": "2 oz"
+      "name": "pancetta",
+      "quantity": "2 oz",
+      "prep": "cut into 1/4-inch cubes"
     },
     {
       "ingredient_id": 471,
-      "name": "Swiss chard, tough ends removed, leaves chopped",
-      "quantity": "14 oz"
+      "name": "Swiss chard",
+      "quantity": "14 oz",
+      "prep": "tough ends removed, leaves chopped"
     },
     {
       "ingredient_id": 88,
@@ -83,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the pancetta into 1/4-inch cubes. Remove the tough ends from the Swiss chard, then chop the leaves.",
+      "secondary_message": "2 oz pancetta\n14 oz Swiss chard"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 400°F. Line a pie plate with the piecrust. Dock, and bake until golden, 12 to 15 minutes. Remove from oven and allow to cool.",

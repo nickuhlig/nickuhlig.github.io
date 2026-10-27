@@ -77,8 +77,9 @@
     },
     {
       "ingredient_id": 118,
-      "name": "milk, at room temperature",
-      "quantity": "¾ cup"
+      "name": "milk",
+      "quantity": "¾ cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 353,
@@ -87,13 +88,15 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, separated and at room temperature",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "separated and at room temperature"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "227 g"
+      "name": "unsalted butter",
+      "quantity": "227 g",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -117,13 +120,15 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "6 large"
+      "name": "eggs",
+      "quantity": "6 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 3641,
-      "name": "egg yolks, at room temperature",
-      "quantity": "2 large"
+      "name": "egg yolks",
+      "quantity": "2 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 88,
@@ -132,8 +137,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into small pieces",
-      "quantity": "57 g"
+      "name": "unsalted butter",
+      "quantity": "57 g",
+      "prep": "cut into small pieces"
     },
     {
       "ingredient_id": 1710,
@@ -142,6 +148,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the milk to room temperature. Separate the eggs and bring them to room temperature. Bring the unsalted butter to room temperature. Bring the eggs to room temperature. Bring the egg yolks to room temperature. Cut the unsalted butter into small pieces.",
+      "secondary_message": "¾ cup milk\n4 large eggs\n227 g unsalted butter\n6 large eggs\n2 large egg yolks\n57 g unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Lightly coat two 23-cm round cake pans with baking spray. Line bottoms with parchment paper rounds and coat once again with baking spray. Adjust oven rack to middle position and preheat oven to 175°C (350°F).",

@@ -56,13 +56,15 @@
     },
     {
       "ingredient_id": 1039,
-      "name": "russet potatoes, scrubbed",
-      "quantity": "4"
+      "name": "russet potatoes",
+      "quantity": "4",
+      "prep": "scrubbed"
     },
     {
       "ingredient_id": 43,
-      "name": "sharp cheddar cheese, grated",
-      "quantity": "170 g"
+      "name": "sharp cheddar cheese",
+      "quantity": "170 g",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1003,
@@ -71,8 +73,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, melted, divided",
-      "quantity": "6 tbsp"
+      "name": "butter, divided",
+      "quantity": "6 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 83,
@@ -96,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Scrub the russet potatoes. Grate the sharp cheddar cheese. Melt the butter.",
+      "secondary_message": "4 russet potatoes\n170 g sharp cheddar cheese\n6 tbsp butter, divided"
+    },
     {
       "id": 1,
       "primary_message": "Roast pepper over gas stove, grill, or broiler until skin is completely charred. Place in a bowl, cover with plastic wrap, and let sit until cool enough to handle, about 10 to 15 minutes. Remove the charred outer skin, cut in half and remove the seeds and core. Finely chop pepper.",

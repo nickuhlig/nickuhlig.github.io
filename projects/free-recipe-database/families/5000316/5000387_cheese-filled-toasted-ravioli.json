@@ -112,8 +112,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 118,
@@ -162,6 +163,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Beat the eggs.",
+      "secondary_message": "2 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "For the Pasta Dough: In a food processor, pulse flour with salt and semolina until combined, about 3 pulses. Add the eggs and yolks and pulse until incorporated, about 7 pulses. With the machine on, add olive oil in a thin stream and process until mixture forms a cohesive dough, about 4 pulses.",

@@ -71,8 +71,9 @@
     },
     {
       "ingredient_id": 2738,
-      "name": "cornflakes, crushed",
-      "quantity": "2 cups"
+      "name": "cornflakes",
+      "quantity": "2 cups",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 2046,
@@ -86,13 +87,15 @@
     },
     {
       "ingredient_id": 317,
-      "name": "bananas, sliced thin",
-      "quantity": "2 medium"
+      "name": "bananas",
+      "quantity": "2 medium",
+      "prep": "sliced thin"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 1/2-inch pieces",
-      "quantity": "2 to 4 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 to 4 tbsp",
+      "prep": "cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 1710,
@@ -101,6 +104,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Crush the cornflakes. Slice the bananas thin. Cut the unsalted butter into 1/2-inch pieces.",
+      "secondary_message": "2 cups cornflakes\n2 medium bananas\n2 to 4 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In medium bowl, whisk cream, milk, eggs, yolk, sugar, vanilla, and salt to combine. Place cornflakes in pie plate or shallow bowl.",

@@ -49,13 +49,15 @@
     },
     {
       "ingredient_id": 1938,
-      "name": "vanilla bean, split, or 1 teaspoon vanilla extract",
-      "quantity": "1"
+      "name": "vanilla bean, or 1 teaspoon vanilla extract",
+      "quantity": "1",
+      "prep": "split"
     },
     {
       "ingredient_id": 2216,
-      "name": "fresh sweet cherries, pitted",
-      "quantity": "1 lb"
+      "name": "fresh sweet cherries",
+      "quantity": "1 lb",
+      "prep": "pitted"
     },
     {
       "ingredient_id": 88,
@@ -94,8 +96,9 @@
     },
     {
       "ingredient_id": 1938,
-      "name": "vanilla bean, split, or 1 teaspoon vanilla extract",
-      "quantity": "1"
+      "name": "vanilla bean, or 1 teaspoon vanilla extract",
+      "quantity": "1",
+      "prep": "split"
     },
     {
       "ingredient_id": 88,
@@ -134,8 +137,9 @@
     },
     {
       "ingredient_id": 1938,
-      "name": "vanilla bean, split, or 1 teaspoon vanilla extract",
-      "quantity": "1"
+      "name": "vanilla bean, or 1 teaspoon vanilla extract",
+      "quantity": "1",
+      "prep": "split"
     },
     {
       "ingredient_id": 88,
@@ -159,8 +163,9 @@
     },
     {
       "ingredient_id": 2291,
-      "name": "pitted sour cherries in light syrup, drained and 1/4 cup syrup reserved",
-      "quantity": "1 (24.7 oz) jar"
+      "name": "pitted sour cherries in light syrup",
+      "quantity": "1 (24.7 oz) jar",
+      "prep": "drained and 1/4 cup syrup reserved"
     },
     {
       "ingredient_id": 1468,
@@ -169,8 +174,9 @@
     },
     {
       "ingredient_id": 1938,
-      "name": "vanilla bean, split, or 1 teaspoon vanilla extract",
-      "quantity": "1"
+      "name": "vanilla bean, or 1 teaspoon vanilla extract",
+      "quantity": "1",
+      "prep": "split"
     },
     {
       "ingredient_id": 88,
@@ -189,6 +195,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the vanilla bean. Pit the fresh sweet cherries. Split the vanilla bean. Split the vanilla bean. Drain the pitted sour cherries in light syrup, then reserve the 1/4 cup syrup. Split the vanilla bean.",
+      "secondary_message": "1 vanilla bean, or 1 teaspoon vanilla extract\n1 lb fresh sweet cherries\n1 vanilla bean, or 1 teaspoon vanilla extract\n1 vanilla bean, or 1 teaspoon vanilla extract\n1 (24.7 oz) jar pitted sour cherries in light syrup\n1 vanilla bean, or 1 teaspoon vanilla extract"
+    },
     {
       "id": 1,
       "primary_message": "In a 12-inch stainless-steel skillet, combine sugar, water, orange juice, and vanilla and cook over medium-high heat until simmering and sugar is dissolved.",

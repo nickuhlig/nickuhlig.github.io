@@ -83,8 +83,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -98,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the garlic.",
+      "secondary_message": "2 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "To Cryo-Blanch the Green Beans: Lay green beans out in a single layer on a rimmed baking sheet and place them in the freezer, uncovered. Once they are completely frozen, after about 3 hours, transfer them to a zipper-lock freezer bag, squeeze out any excess air, seal, and return to the freezer; they should be good for at least a few months and can be cooked directly from frozen. To proceed with this recipe, thaw green beans for about 30 minutes, then dry thoroughly with paper towels.",

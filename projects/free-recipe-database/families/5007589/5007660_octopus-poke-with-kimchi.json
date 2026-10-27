@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 2969,
-      "name": "boiled octopus, cut into 1/2-inch cubes",
-      "quantity": "340 g"
+      "name": "boiled octopus",
+      "quantity": "340 g",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 1676,
@@ -52,8 +53,9 @@
     },
     {
       "ingredient_id": 1214,
-      "name": "kimchi, roughly chopped",
-      "quantity": "115 g"
+      "name": "kimchi",
+      "quantity": "115 g",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1480,
@@ -92,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the boiled octopus into 1/2-inch cubes. Roughly chop the kimchi.",
+      "secondary_message": "340 g boiled octopus\n115 g kimchi"
+    },
     {
       "id": 1,
       "primary_message": "Combine octopus, onion, scallion, kimchi and its juice, soy sauce, sesame oil, and honey in a bowl and toss to combine. Season to taste with chile flakes and salt. Let stand 5 minutes at room temperature, then serve on its own or on top of steamed rice.",

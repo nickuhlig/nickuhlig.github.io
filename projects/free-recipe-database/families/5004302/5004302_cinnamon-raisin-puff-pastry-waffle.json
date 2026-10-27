@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 1021,
-      "name": "frozen puff pastry, thawed",
-      "quantity": "½ lb"
+      "name": "frozen puff pastry",
+      "quantity": "½ lb",
+      "prep": "thawed"
     },
     {
       "ingredient_id": 355,
@@ -61,6 +62,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thaw the frozen puff pastry.",
+      "secondary_message": "½ lb frozen puff pastry"
+    },
     {
       "id": 1,
       "primary_message": "Preheat a Belgian waffle iron according to manufacturer directions. Lightly dust a work surface. Lay out puff pastry sheet, lightly flour top, and roll into an approximate 16- by 16-inch square. Spread cream cheese in an even strip across center of puff pastry, leaving a 1-inch border both ends of strip. Sprinkle all over with raisins, leaving a 1-inch border on all edges. Lightly dust all over with cinnamon and sprinkle with sugar.",

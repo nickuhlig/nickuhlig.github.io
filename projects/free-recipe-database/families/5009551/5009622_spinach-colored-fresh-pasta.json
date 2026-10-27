@@ -34,8 +34,9 @@
   "ingredients": [
     {
       "ingredient_id": 1879,
-      "name": "fresh spinach, rinsed and stems trimmed",
-      "quantity": "1 bunch"
+      "name": "fresh spinach",
+      "quantity": "1 bunch",
+      "prep": "rinsed and stems trimmed"
     },
     {
       "ingredient_id": 116,
@@ -64,6 +65,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse the fresh spinach, then trim the stems.",
+      "secondary_message": "1 bunch fresh spinach"
+    },
     {
       "id": 1,
       "primary_message": "For the Spinach Purée: Bring a large pot of water to a boil. Meanwhile, fill a large bowl with cold water and ice. Add rinsed and trimmed spinach and cook 15-30 seconds. Drain and plunge spinach into bowl of water. When spinach is cold, drain and spin in salad spinner. Using a hand blender or food processor purée the spinach until smooth.",

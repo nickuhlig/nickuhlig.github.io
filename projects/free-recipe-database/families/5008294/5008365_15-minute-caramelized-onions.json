@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, finely sliced",
-      "quantity": "2 to 3 large"
+      "name": "onions",
+      "quantity": "2 to 3 large",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 359,
@@ -60,6 +61,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely slice the onions.",
+      "secondary_message": "2 to 3 large onions"
+    },
     {
       "id": 1,
       "primary_message": "Melt butter in a large heavy-bottomed stainless steel or enameled cast iron saucepan over high heat. Add onions and cook, stirring frequently, until bottom of saucepan is glazed in a pale brown fond, about 5 minutes. Add 2 tablespoons water and scrape up fond with wooden spoon.",

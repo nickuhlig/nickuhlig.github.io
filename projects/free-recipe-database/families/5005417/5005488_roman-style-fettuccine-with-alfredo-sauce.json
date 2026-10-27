@@ -52,8 +52,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, diced",
-      "quantity": "1 stick"
+      "name": "unsalted butter",
+      "quantity": "1 stick",
+      "prep": "diced"
     },
     {
       "ingredient_id": 120,
@@ -72,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the unsalted butter.",
+      "secondary_message": "1 stick unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a large heatproof bowl, combine butter and cheese. In a medium pot of salted boiling water, cook pasta until al dente. Using tongs, a strainer, or a spider, transfer pasta to bowl with cheese and butter.",

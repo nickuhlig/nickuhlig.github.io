@@ -71,8 +71,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic clove, minced",
-      "quantity": "1 medium"
+      "name": "garlic clove",
+      "quantity": "1 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 228,
@@ -81,11 +82,18 @@
     },
     {
       "ingredient_id": 27,
-      "name": "sweet corn, shucked",
-      "quantity": "4 ears"
+      "name": "sweet corn",
+      "quantity": "4 ears",
+      "prep": "shucked"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic clove. Shuck the sweet corn.",
+      "secondary_message": "1 medium garlic clove\n4 ears sweet corn"
+    },
     {
       "id": 1,
       "primary_message": "Light 1 chimney full of charcoal. When all charcoal is lit and covered with gray ash, pour out and spread coals evenly over half of coal grate. Alternatively, set half the burners of a gas grill to high heat. Set cooking grate in place, cover grill, and allow to preheat for 5 minutes. Clean and oil grilling grate.",

@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 1811,
-      "name": "shrimp, peeled",
-      "quantity": "57 g"
+      "name": "shrimp",
+      "quantity": "57 g",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 264,
@@ -126,6 +127,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the shrimp.",
+      "secondary_message": "57 g shrimp"
+    },
     {
       "id": 1,
       "primary_message": "Cut eggplants into 1.5 cm wide by 5 cm long sticks. Bring a 3-quart large pot of water to boil and add eggplants. Blanch 1 to 2 minutes until eggplant is tender. Drain in colander.",

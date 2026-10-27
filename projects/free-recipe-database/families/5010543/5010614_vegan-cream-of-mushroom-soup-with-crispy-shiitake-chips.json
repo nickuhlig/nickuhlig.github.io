@@ -53,23 +53,27 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, thinly sliced",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 19,
-      "name": "white button mushrooms, thinly sliced",
-      "quantity": "0.45 kg"
+      "name": "white button mushrooms",
+      "quantity": "0.45 kg",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1929,
-      "name": "shiitake mushrooms, thinly sliced, divided",
-      "quantity": "340 g"
+      "name": "shiitake mushrooms, divided",
+      "quantity": "340 g",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 116,
@@ -103,8 +107,9 @@
     },
     {
       "ingredient_id": 1216,
-      "name": "vegan white sandwich bread, crusts removed, bread torn into pieces",
-      "quantity": "2 slices"
+      "name": "vegan white sandwich bread",
+      "quantity": "2 slices",
+      "prep": "crusts removed, bread torn into pieces"
     },
     {
       "ingredient_id": 1044,
@@ -123,6 +128,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the onion. Thinly slice the garlic. Thinly slice the white button mushrooms. Thinly slice the shiitake mushrooms. Remove the crusts from the vegan white sandwich bread, then tear the bread into pieces.",
+      "secondary_message": "1 small onion\n3 medium cloves garlic\n0.45 kg white button mushrooms\n340 g shiitake mushrooms, divided\n2 slices vegan white sandwich bread"
+    },
     {
       "id": 1,
       "primary_message": "If using dried mushrooms, place in a large bowl and add vegetable stock. Set aside.",

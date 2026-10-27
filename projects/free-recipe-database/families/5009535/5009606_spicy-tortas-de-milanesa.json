@@ -34,8 +34,9 @@
   "ingredients": [
     {
       "ingredient_id": 1618,
-      "name": "chipotle chilis, canned in adobo sauce, minced",
-      "quantity": "1"
+      "name": "chipotle chilis, canned in adobo sauce",
+      "quantity": "1",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1421,
@@ -59,8 +60,9 @@
     },
     {
       "ingredient_id": 3195,
-      "name": "pork cutlets, pounded to 1/4-inch thick",
-      "quantity": "0.45 kg"
+      "name": "pork cutlets",
+      "quantity": "0.45 kg",
+      "prep": "pounded to 1/4-inch thick"
     },
     {
       "ingredient_id": 116,
@@ -69,8 +71,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, lightly whisked",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "lightly whisked"
     },
     {
       "ingredient_id": 1189,
@@ -89,8 +92,9 @@
     },
     {
       "ingredient_id": 25,
-      "name": "Romaine lettuce, torn",
-      "quantity": "4 leaves"
+      "name": "Romaine lettuce",
+      "quantity": "4 leaves",
+      "prep": "torn"
     },
     {
       "ingredient_id": 183,
@@ -99,8 +103,9 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, thinly sliced",
-      "quantity": "½"
+      "name": "white onion",
+      "quantity": "½",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1373,
@@ -114,6 +119,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the chipotle chilis. Pound the pork cutlets to 1/4-inch thick. Lightly whisk the eggs. Tear the Romaine lettuce. Thinly slice the white onion.",
+      "secondary_message": "1 chipotle chilis, canned in adobo sauce\n0.45 kg pork cutlets\n2 large eggs\n4 leaves Romaine lettuce\n½ white onion"
+    },
     {
       "id": 1,
       "primary_message": "For the Chipotle Mayonnaise: In a medium-sized bowl, combine the minced chipotle chile, lime juice, and mayonnaise. Season to taste with salt and pepper. Set aside.",

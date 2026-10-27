@@ -47,13 +47,15 @@
     },
     {
       "ingredient_id": 238,
-      "name": "new potatoes, washed and cut in half",
-      "quantity": "1.13 kg"
+      "name": "new potatoes",
+      "quantity": "1.13 kg",
+      "prep": "washed and cut in half"
     },
     {
       "ingredient_id": 302,
-      "name": "thick cut bacon, cut into 1/4\" dice",
-      "quantity": "0.23 kg"
+      "name": "thick cut bacon",
+      "quantity": "0.23 kg",
+      "prep": "cut into 1/4\" dice"
     },
     {
       "ingredient_id": 1713,
@@ -72,8 +74,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "green onions, thinly sliced crosswise",
-      "quantity": "6"
+      "name": "green onions",
+      "quantity": "6",
+      "prep": "thinly sliced crosswise"
     },
     {
       "ingredient_id": 106,
@@ -112,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash and cut the new potatoes in half. Cut the thick cut bacon into 1/4\" dice. Thinly slice the green onions crosswise.",
+      "secondary_message": "1.13 kg new potatoes\n0.23 kg thick cut bacon\n6 green onions"
+    },
     {
       "id": 1,
       "primary_message": "Light a chimney 3/4 full of charcoal. When the charcoal is fully lit and covered in gray ash, pour coals out and arrange them on one side of the charcoal grate, keeping the other side empty. Clean and oil the grilling grate.",

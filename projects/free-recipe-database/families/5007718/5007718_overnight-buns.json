@@ -75,8 +75,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, at room temperature",
-      "quantity": "2 tbsp"
+      "name": "butter",
+      "quantity": "2 tbsp",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1704,
@@ -85,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the butter to room temperature.",
+      "secondary_message": "2 tbsp butter"
+    },
     {
       "id": 1,
       "primary_message": "Combine water, honey, instant yeast, bread flour, semolina flour, dry milk, and potato flakes in bowl of stand mixer fitted with dough hook. Knead on low speed until the dough is smooth and elastic, about 10 minutes. Add salt and butter and continue kneading until completely incorporated and dough is smooth, shiny, and elastic. Cover bowl with plastic wrap and set aside for 45 minutes. Line a half-sheet rimmed baking sheet with parchment paper.",

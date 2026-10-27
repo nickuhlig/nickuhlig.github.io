@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 6,
-      "name": "raw skinless sashimi-grade salmon, cut into 1/2-inch cubes",
-      "quantity": "12 oz"
+      "name": "raw skinless sashimi-grade salmon",
+      "quantity": "12 oz",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 1676,
@@ -61,8 +62,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallion, thinly sliced",
-      "quantity": "1"
+      "name": "scallion",
+      "quantity": "1",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1792,
@@ -101,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the raw skinless sashimi-grade salmon into 1/2-inch cubes. Thinly slice the scallion.",
+      "secondary_message": "12 oz raw skinless sashimi-grade salmon\n1 scallion"
+    },
     {
       "id": 1,
       "primary_message": "Heat vegetable oil and macadamia nuts in a small skillet over medium heat. Cook, tossing and stirring frequently, until nuts are golden brown on most surfaces, about 5 minutes. Transfer to a paper towel–lined plate and allow to cool for 5 minutes. Transfer to a large bowl.",

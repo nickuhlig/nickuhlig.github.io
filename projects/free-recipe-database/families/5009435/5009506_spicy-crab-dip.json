@@ -58,8 +58,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "packages cream cheese, softened",
-      "quantity": "0.45 kg"
+      "name": "packages cream cheese",
+      "quantity": "0.45 kg",
+      "prep": "softened"
     },
     {
       "ingredient_id": 267,
@@ -93,8 +94,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "green onions, thinly sliced",
-      "quantity": "2"
+      "name": "green onions",
+      "quantity": "2",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 188,
@@ -113,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the packages cream cheese. Thinly slice the green onions.",
+      "secondary_message": "0.45 kg packages cream cheese\n2 green onions"
+    },
     {
       "id": 1,
       "primary_message": "Heat the oil in a small skillet pan over medium high heat until shimmering. Add the shallots, garlic, and chili peppers and cook until the shallots soften and the garlic just begins to brown, 2 to 4 minutes. Transfer mixture to a medium bowl and allow to cool completely.",

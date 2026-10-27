@@ -44,18 +44,21 @@
   "ingredients": [
     {
       "ingredient_id": 183,
-      "name": "ripe Hass avocado, halved, pitted, and flesh scooped",
-      "quantity": "1"
+      "name": "ripe Hass avocado",
+      "quantity": "1",
+      "prep": "halved, pitted, and flesh scooped"
     },
     {
       "ingredient_id": 188,
-      "name": "cilantro leaves, tender stems washed and dried",
-      "quantity": "¼ cup"
+      "name": "cilantro leaves",
+      "quantity": "¼ cup",
+      "prep": "tender stems washed and dried"
     },
     {
       "ingredient_id": 2021,
-      "name": "serrano chile, seeded if desired to reduce spiciness",
-      "quantity": "1"
+      "name": "serrano chile",
+      "quantity": "1",
+      "prep": "seeded if desired to reduce spiciness"
     },
     {
       "ingredient_id": 359,
@@ -69,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve and pit the ripe Hass avocado, then scoop the flesh. Wash and dry the tender stems of the cilantro leaves. Seed the serrano chile if desired to reduce spiciness.",
+      "secondary_message": "1 ripe Hass avocado\n¼ cup cilantro leaves\n1 serrano chile"
+    },
     {
       "id": 1,
       "primary_message": "In a blender, blend avocado, cilantro, serrano, water, and 1 teaspoon salt until completely smooth. Season to taste with additional salt as needed. Serve.",

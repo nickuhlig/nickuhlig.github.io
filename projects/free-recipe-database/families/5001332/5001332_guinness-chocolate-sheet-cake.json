@@ -147,8 +147,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "4 oz"
+      "name": "cream cheese",
+      "quantity": "4 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 346,
@@ -177,6 +178,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the cream cheese.",
+      "secondary_message": "4 oz cream cheese"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Adjust oven rack to middle position and preheat to 350°F. Grease a 10- by 15-inch rimmed baking sheet or 9- by 13-inch baking pan with butter and dust with cocoa powder, shaking out excess. (See notes.)",

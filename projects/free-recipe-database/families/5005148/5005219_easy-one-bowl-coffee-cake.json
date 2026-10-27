@@ -75,8 +75,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, soft, about 70°F",
-      "quantity": "57 g"
+      "name": "unsalted butter",
+      "quantity": "57 g",
+      "prep": "soft, about 70°F"
     },
     {
       "ingredient_id": 346,
@@ -85,8 +86,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, about 65°F",
-      "quantity": "170 g"
+      "name": "unsalted butter",
+      "quantity": "170 g",
+      "prep": "about 65°F"
     },
     {
       "ingredient_id": 331,
@@ -120,6 +122,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter and bring it to 70°F. Bring the unsalted butter to 65°F.",
+      "secondary_message": "57 g unsalted butter\n170 g unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Topping: In the bowl of a stand mixer fitted with a paddle attachment, combine brown sugar, whole wheat flour, cinnamon, salt, cardamom, and butter. Mix on low speed until sandy and well combined. Scrape onto a large plate or sheet of parchment.\nAlternatively, the crumb topping can be transferred to an airtight container and refrigerated for up to 1 week, or frozen for 6 months. Wipe bowl and paddle with a paper towel and proceed to the next step—no need to wash!",

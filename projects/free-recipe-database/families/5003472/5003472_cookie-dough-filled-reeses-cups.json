@@ -79,11 +79,18 @@
     },
     {
       "ingredient_id": 2183,
-      "name": "chocolate, finely chopped",
-      "quantity": "12 oz"
+      "name": "chocolate",
+      "quantity": "12 oz",
+      "prep": "finely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the chocolate.",
+      "secondary_message": "12 oz chocolate"
+    },
     {
       "id": 1,
       "primary_message": "Make the cookie dough:\nWith a hand or stand mixer, cream together the butter, brown sugar, sugar, salt, baking soda and nutmeg on medium speed until light and fluffy.\nReduce mixer speed to low and add the flour all at once. Drizzle in the vanilla and then add the chocolate chips.\nUse a rubber spatula to transfer the dough to a pastry bag fitted with a large, plain tip.",

@@ -40,8 +40,9 @@
     },
     {
       "ingredient_id": 1401,
-      "name": "Canadian bacon, cut into English muffin-sized pieces",
-      "quantity": "8 slices"
+      "name": "Canadian bacon",
+      "quantity": "8 slices",
+      "prep": "cut into English muffin-sized pieces"
     },
     {
       "ingredient_id": 466,
@@ -50,8 +51,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "foolproof poached eggs, drained",
-      "quantity": "8"
+      "name": "foolproof poached eggs",
+      "quantity": "8",
+      "prep": "drained"
     },
     {
       "ingredient_id": 88,
@@ -65,11 +67,18 @@
     },
     {
       "ingredient_id": 2897,
-      "name": "foolproof hollandaise, kept warm",
-      "quantity": "1 recipe"
+      "name": "foolproof hollandaise",
+      "quantity": "1 recipe",
+      "prep": "kept warm"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the Canadian bacon into English muffin-sized pieces. Drain the foolproof poached eggs. Keep the foolproof hollandaise warm.",
+      "secondary_message": "8 slices Canadian bacon\n8 foolproof poached eggs\n1 recipe foolproof hollandaise"
+    },
     {
       "id": 1,
       "primary_message": "Melt butter in a large skillet over medium heat until foaming. Add ham slices and cook, turning occasionally, until heated through, golden brown, and crisp on both sides. Transfer to a paper towel-lined plate to drain.",

@@ -37,8 +37,9 @@
   "ingredients": [
     {
       "ingredient_id": 94,
-      "name": "cooked pinto beans, drained",
-      "quantity": "2 (15 oz) cans"
+      "name": "cooked pinto beans",
+      "quantity": "2 (15 oz) cans",
+      "prep": "drained"
     },
     {
       "ingredient_id": 399,
@@ -62,6 +63,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain the cooked pinto beans.",
+      "secondary_message": "2 (15 oz) cans cooked pinto beans"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 375°F. Dump the beans into an 8-inch by 8-inch baking dish. Add the barbecue sauce, brown sugar, water and ham chunk (if using) and stir until it is mixed together. Drizzle on the Worcestershire sauce.",

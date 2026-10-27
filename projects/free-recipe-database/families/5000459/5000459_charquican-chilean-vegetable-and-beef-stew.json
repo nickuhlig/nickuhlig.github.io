@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 1565,
-      "name": "white onions, peeled",
-      "quantity": "6 small"
+      "name": "white onions",
+      "quantity": "6 small",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 130,
@@ -71,23 +72,27 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely diced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, finely diced",
-      "quantity": "1 medium"
+      "name": "carrot",
+      "quantity": "1 medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell pepper, finely diced",
-      "quantity": "½"
+      "name": "red bell pepper",
+      "quantity": "½",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "2 medium"
+      "name": "garlic cloves",
+      "quantity": "2 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 82,
@@ -106,15 +111,17 @@
     },
     {
       "ingredient_id": 149,
-      "name": "red potatoes, peeled and cut into 1-inch chunks",
+      "name": "red potatoes",
       "quantity": "5 medium",
-      "weigh_as": "2 ½ lb"
+      "weigh_as": "2 ½ lb",
+      "prep": "peeled and cut into 1-inch chunks"
     },
     {
       "ingredient_id": 142,
-      "name": "butternut squash, peeled and cut into 1-inch cubes",
+      "name": "butternut squash",
       "quantity": "⅔ small",
-      "weigh_as": "1 lb"
+      "weigh_as": "1 lb",
+      "prep": "peeled and cut into 1-inch cubes"
     },
     {
       "ingredient_id": 111,
@@ -138,6 +145,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the white onions. Finely dice the yellow onion. Finely dice the carrot. Finely dice the red bell pepper. Mince the garlic cloves. Peel and cut the red potatoes into 1-inch chunks. Peel and cut the butternut squash into 1-inch cubes.",
+      "secondary_message": "6 small white onions\n1 medium yellow onion\n1 medium carrot\n½ red bell pepper\n2 medium garlic cloves\n5 medium red potatoes\n⅔ small butternut squash"
+    },
     {
       "id": 1,
       "primary_message": "For the Escabeche Onions (Optional): Using a sharp knife, make a 1/2-inch-deep cross cut “X” on each cut side (root and stem ends) of the peeled onions.",

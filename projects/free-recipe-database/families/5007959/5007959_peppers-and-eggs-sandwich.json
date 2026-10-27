@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 1141,
-      "name": "Italian hero loaves, halved lengthwise",
-      "quantity": "4 (10 inch)"
+      "name": "Italian hero loaves",
+      "quantity": "4 (10 inch)",
+      "prep": "halved lengthwise"
     },
     {
       "ingredient_id": 1044,
@@ -46,23 +47,27 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "Spanish onion, cut into 1-inch pieces",
-      "quantity": "1 large"
+      "name": "Spanish onion",
+      "quantity": "1 large",
+      "prep": "cut into 1-inch pieces"
     },
     {
       "ingredient_id": 291,
-      "name": "green bell peppers, quartered, deseeded, and diced",
-      "quantity": "2"
+      "name": "green bell peppers",
+      "quantity": "2",
+      "prep": "quartered, deseeded, and diced"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell peppers, quartered, deseeded, and diced",
-      "quantity": "2"
+      "name": "red bell peppers",
+      "quantity": "2",
+      "prep": "quartered, deseeded, and diced"
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "16"
+      "name": "eggs",
+      "quantity": "16",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 88,
@@ -81,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the Italian hero loaves lengthwise. Cut the Spanish onion into 1-inch pieces. Quarter, deseed, and dice the green bell peppers. Quarter, deseed, and dice the red bell peppers. Beat the eggs.",
+      "secondary_message": "4 (10 inch) Italian hero loaves\n1 large Spanish onion\n2 green bell peppers\n2 red bell peppers\n16 eggs"
+    },
     {
       "id": 1,
       "primary_message": "Lay each hero roll on a plate. Add the 2 teaspoons of oil to a skillet. Add the onion and sweat until soft, about 3 minutes. Place the cooked onions and the raw peppers in a medium pot, and cover with water. Bring to a boil. Lower the heat, and cook until soft, about 8 minutes. Drain.",

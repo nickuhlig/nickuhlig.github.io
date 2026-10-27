@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 2895,
-      "name": "flat iron, diced into 1/3- to 1/2-inch cubes",
-      "quantity": "0.68 kg"
+      "name": "flat iron",
+      "quantity": "0.68 kg",
+      "prep": "diced into 1/3- to 1/2-inch cubes"
     },
     {
       "ingredient_id": 88,
@@ -81,9 +82,10 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onions, finely diced",
+      "name": "white onions",
       "quantity": "8 medium",
-      "weigh_as": "0.91 kg"
+      "weigh_as": "0.91 kg",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 2084,
@@ -157,8 +159,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "hard boiled eggs, peeled and cut into quarters",
-      "quantity": "3"
+      "name": "hard boiled eggs",
+      "quantity": "3",
+      "prep": "peeled and cut into quarters"
     },
     {
       "ingredient_id": 1534,
@@ -172,6 +175,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the flat iron into 1/3- to 1/2-inch cubes. Finely dice the white onions. Peel and cut the hard boiled eggs into quarters.",
+      "secondary_message": "0.68 kg flat iron\n8 medium white onions\n3 hard boiled eggs"
+    },
     {
       "id": 1,
       "primary_message": "For the Beef Filling: In a large stainless steel skillet, cast iron skillet or wok, heat 1 tablespoon oil over high heat until shimmering. Add half the diced beef, distributing it in an even layer and cook without stirring until juicy on top and browned underneath, about 3 minutes. Season with 1 teaspoon salt and a 1/8 teaspoon pepper, then use a wooden spoon to stir to release beef from bottom of skillet. Transfer beef to a medium bowl. Repeat with 1 tablespoon oil, remaining beef, remaining 1 teaspoon salt, and remaining 1/8 teaspoon pepper.",

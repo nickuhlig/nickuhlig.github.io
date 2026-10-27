@@ -48,13 +48,15 @@
     },
     {
       "ingredient_id": 221,
-      "name": "grated ginger, grated on a microplane grater",
-      "quantity": "2 tsp"
+      "name": "grated ginger",
+      "quantity": "2 tsp",
+      "prep": "grated on a microplane grater"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, grated on a microplane grater",
-      "quantity": "2 medium"
+      "name": "garlic cloves",
+      "quantity": "2 medium",
+      "prep": "grated on a microplane grater"
     },
     {
       "ingredient_id": 359,
@@ -88,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the grated ginger on a microplane grater. Grate the garlic cloves on a microplane grater.",
+      "secondary_message": "2 tsp grated ginger\n2 medium garlic cloves"
+    },
     {
       "id": 1,
       "primary_message": "Soak bok choy in a large bowl of cold water, swishing to loosen any grit. Drain, cut in half lengthwise, and dry carefully with paper towels. Heat oil in a large, heavy-bottomed saucepan or Dutch oven over high heat until shimmering. Add halved bok choy, cut side down, working in batches if necessary to avoid crowding pan, and sear until deeply browned, about 6 minutes. Remove to a large plate or sheet pan.",

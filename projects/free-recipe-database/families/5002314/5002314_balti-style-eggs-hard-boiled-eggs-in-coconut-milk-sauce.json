@@ -55,13 +55,15 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, thinly sliced",
-      "quantity": "1 medium"
+      "name": "white onion",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1850,
-      "name": "green chiles, such as bird's eye, thinly sliced",
-      "quantity": "1 to 2 small"
+      "name": "green chiles, such as bird's eye",
+      "quantity": "1 to 2 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 186,
@@ -95,8 +97,9 @@
     },
     {
       "ingredient_id": 41,
-      "name": "coconut milk, shaken in the can",
-      "quantity": "1 (13 ½ oz) can"
+      "name": "coconut milk",
+      "quantity": "1 (13 ½ oz) can",
+      "prep": "shaken in the can"
     },
     {
       "ingredient_id": 188,
@@ -105,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the white onion. Thinly slice the green chiles. Shake the coconut milk in the can.",
+      "secondary_message": "1 medium white onion\n1 to 2 small green chiles, such as bird's eye\n1 (13 ½ oz) can coconut milk"
+    },
     {
       "id": 1,
       "primary_message": "In a medium saucepan, heat oil over medium-high heat until just smoking. Reduce heat to medium-low. Add mustard seeds and immediately cover with a lid. Cook until mustard seeds mostly stop sputtering, about 10 seconds.",

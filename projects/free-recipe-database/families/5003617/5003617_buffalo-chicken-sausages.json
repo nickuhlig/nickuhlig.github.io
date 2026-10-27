@@ -33,8 +33,9 @@
   "ingredients": [
     {
       "ingredient_id": 1702,
-      "name": "skin on boneless chicken thighs, cubed",
-      "quantity": "4 lb"
+      "name": "skin on boneless chicken thighs",
+      "quantity": "4 lb",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 448,
@@ -63,11 +64,18 @@
     },
     {
       "ingredient_id": 133,
-      "name": "apple cider vinegar, chilled",
-      "quantity": "¼ cup"
+      "name": "apple cider vinegar",
+      "quantity": "¼ cup",
+      "prep": "chilled"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cube the skin on boneless chicken thighs. Keep the apple cider vinegar cold until you use it.",
+      "secondary_message": "4 lb skin on boneless chicken thighs\n¼ cup apple cider vinegar"
+    },
     {
       "id": 1,
       "primary_message": "Combine chicken, buffalo wing sauce, hot sauce, salt, paprika, and cayenne in a large bowl. Chill until ready to grind.",

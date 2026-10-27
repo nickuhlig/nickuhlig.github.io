@@ -80,8 +80,9 @@
     },
     {
       "ingredient_id": 1762,
-      "name": "green Thai chile, finely chopped",
-      "quantity": "1 small"
+      "name": "green Thai chile",
+      "quantity": "1 small",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 293,
@@ -100,13 +101,15 @@
     },
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, sliced in half lengthwise",
-      "quantity": "180 g"
+      "name": "cherry tomatoes",
+      "quantity": "180 g",
+      "prep": "sliced in half lengthwise"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, thinly sliced",
-      "quantity": "½ small"
+      "name": "red onion",
+      "quantity": "½ small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 243,
@@ -120,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the green Thai chile. Slice the cherry tomatoes in half lengthwise. Thinly slice the red onion.",
+      "secondary_message": "1 small green Thai chile\n180 g cherry tomatoes\n½ small red onion"
+    },
     {
       "id": 1,
       "primary_message": "In a small skillet, combine vegetable oil and lemongrass and place over medium heat. Cook, stirring frequently, until lemongrass is golden brown and crisp, about 6 minutes. Strain through a fine-mesh strainer set in a small saucepan. Transfer crisp lemongrass to a paper towel-lined plate and season with salt. Set aside.",

@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 1135,
-      "name": "fresh pineapple chunks, drained",
-      "quantity": "½ cup"
+      "name": "fresh pineapple chunks",
+      "quantity": "½ cup",
+      "prep": "drained"
     },
     {
       "ingredient_id": 355,
@@ -81,8 +82,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, whites only, finely sliced",
-      "quantity": "6"
+      "name": "scallions, whites only",
+      "quantity": "6",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 2056,
@@ -101,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain the fresh pineapple chunks. Finely slice the scallions.",
+      "secondary_message": "½ cup fresh pineapple chunks\n6 scallions, whites only"
+    },
     {
       "id": 1,
       "primary_message": "Combine vinegar, brown sugar, ketchup, chile flakes, and 1/2 cup water in a small saucepan and bring to a simmer over medium-high heat, whisking to combine until sugar is dissolved. Combine remaining tablespoon water and cornstarch in a small bowl and whisk with a fork to form a slurry. Whisk into sauce and bring to a boil. Allow to cool while you form the crab rangoon.",

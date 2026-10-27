@@ -88,8 +88,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "2 medium"
+      "name": "eggs",
+      "quantity": "2 medium",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 116,
@@ -128,6 +129,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Beat the eggs.",
+      "secondary_message": "2 medium eggs"
+    },
     {
       "id": 1,
       "primary_message": "For the Crust: Pulse flour, pinch of salt, and baking powder in a food processor until combined, about 10 short pulses. Add cream cheese and pulse until coarsely incorporated, about 8 short pulses. Add butter cubes and pulse until dough forms pea-sized balls, about 8 short pulses. Add cream, vanilla, and vinegar and continue to pulse until dough pulls away from sides, 8 to 12 short pulses. Transfer dough to a large sheet of plastic wrap and shape into a 1/4-inch thick disc. Cover with plastic wrap and refrigerate for at least 2 hours and up to 3 days. Remove from refrigerator and press into a 9-inch pie plate, using fingertips to form an even layer.",

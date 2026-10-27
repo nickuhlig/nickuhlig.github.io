@@ -68,11 +68,18 @@
     },
     {
       "ingredient_id": 1610,
-      "name": "silken tofu, cut into 1/2-inch cubes",
-      "quantity": "½ block"
+      "name": "silken tofu",
+      "quantity": "½ block",
+      "prep": "cut into 1/2-inch cubes"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the silken tofu into 1/2-inch cubes.",
+      "secondary_message": "½ block silken tofu"
+    },
     {
       "id": 1,
       "primary_message": "Prepare mushrooms (this will vary depending on the type): wash away any dirt, discard tough stems, slice shiitake caps and any other large mushroom caps, and separate mushroom clusters into manageable groups. Meanwhile, in a medium saucepan, bring dashi to a simmer over medium-high heat. Add vegetables and mushrooms, cover, and reduce heat to medium-low. Simmer until tender, 8 to 10 minutes. Uncover, stir in wakame, and remove soup from heat.",

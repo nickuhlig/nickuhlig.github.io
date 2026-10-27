@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "0.45 kg"
+      "name": "bittersweet chocolate",
+      "quantity": "0.45 kg",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 88,
@@ -61,8 +62,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, separated",
-      "quantity": "10 large"
+      "name": "eggs",
+      "quantity": "10 large",
+      "prep": "separated"
     },
     {
       "ingredient_id": 1322,
@@ -76,6 +78,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the bittersweet chocolate. Separate the eggs.",
+      "secondary_message": "0.45 kg bittersweet chocolate\n10 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 175°C (350°F). Grease bottom and sides of 23-cm springform pan and dust with cocoa. Set pan on baking sheet.",

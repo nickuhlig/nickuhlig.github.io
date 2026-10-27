@@ -37,8 +37,9 @@
   "ingredients": [
     {
       "ingredient_id": 2216,
-      "name": "sweet cherries, halved and pitted",
-      "quantity": "1 pint"
+      "name": "sweet cherries",
+      "quantity": "1 pint",
+      "prep": "halved and pitted"
     },
     {
       "ingredient_id": 103,
@@ -67,11 +68,18 @@
     },
     {
       "ingredient_id": 3684,
-      "name": "Marcona almonds, roughly crushed",
-      "quantity": "½ cup"
+      "name": "Marcona almonds",
+      "quantity": "½ cup",
+      "prep": "roughly crushed"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve and pit the sweet cherries. Roughly crush the Marcona almonds.",
+      "secondary_message": "1 pint sweet cherries\n½ cup Marcona almonds"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, toss together cherries, honey, and vinegar. Season with salt and a generous grating of pepper.",

@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, roughly chopped",
-      "quantity": "3"
+      "name": "onions",
+      "quantity": "3",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 88,
@@ -51,8 +52,9 @@
     },
     {
       "ingredient_id": 126,
-      "name": "goat cheese, at room temperature",
-      "quantity": "227 g"
+      "name": "goat cheese",
+      "quantity": "227 g",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 72,
@@ -61,8 +63,9 @@
     },
     {
       "ingredient_id": 1021,
-      "name": "frozen puff pastry, defrosted",
-      "quantity": "1 sheet"
+      "name": "frozen puff pastry",
+      "quantity": "1 sheet",
+      "prep": "defrosted"
     },
     {
       "ingredient_id": 287,
@@ -71,6 +74,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the onions. Bring the goat cheese to room temperature. Defrost the frozen puff pastry.",
+      "secondary_message": "3 onions\n227 g goat cheese\n1 sheet frozen puff pastry"
+    },
     {
       "id": 1,
       "primary_message": "Place olive oil in a large sauce pan over medium heat. Add onions and cook, stirring occasionally, until caramelized, about 35 minutes. Season with salt. Let come to room temperature.",

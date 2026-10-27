@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 2196,
-      "name": "daikon radish, sliced crosswise into thin rounds",
-      "quantity": "1 small"
+      "name": "daikon radish",
+      "quantity": "1 small",
+      "prep": "sliced crosswise into thin rounds"
     },
     {
       "ingredient_id": 153,
@@ -67,8 +68,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, peeled",
-      "quantity": "1 (2 inch) knob"
+      "name": "ginger",
+      "quantity": "1 (2 inch) knob",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 1925,
@@ -87,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the daikon radish crosswise into thin rounds. Peel the ginger.",
+      "secondary_message": "1 small daikon radish\n1 (2 inch) knob ginger"
+    },
     {
       "id": 1,
       "primary_message": "Place cabbage leaves, daikon, and scallion greens in a large bowl and sprinkle with 2 tablespoons kosher salt. Toss to combine, cover, then let sit at room temperature until cabbage is wilted, at least 1 hour and up to 12. It should release about 1/4 to 1/2 cup liquid.",

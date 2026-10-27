@@ -83,8 +83,9 @@
     },
     {
       "ingredient_id": 56,
-      "name": "extra-firm tofu, cut into 3/4-inch cubes, carefully dried",
-      "quantity": "1 lb"
+      "name": "extra-firm tofu, carefully dried",
+      "quantity": "1 lb",
+      "prep": "cut into 3/4-inch cubes"
     },
     {
       "ingredient_id": 359,
@@ -158,6 +159,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the extra-firm tofu into 3/4-inch cubes.",
+      "secondary_message": "1 lb extra-firm tofu, carefully dried"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in a wok to 350°F. Whisk together 1/2 cup cornstarch, flour, baking powder, and 1 teaspoon kosher salt. Add water and vodka and whisk until a smooth batter is formed, adding up to 2 tablespoons additional water if batter is too thick. It should have the consistency of thin paint and fall off of the whisk in thin ribbons that instantly disappear as they hit the surface of the batter in the bowl.",

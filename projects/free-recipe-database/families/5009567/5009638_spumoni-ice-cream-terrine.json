@@ -42,23 +42,27 @@
   "ingredients": [
     {
       "ingredient_id": 3168,
-      "name": "pistachio ice cream, softened",
-      "quantity": "3 cups"
+      "name": "pistachio ice cream",
+      "quantity": "3 cups",
+      "prep": "softened"
     },
     {
       "ingredient_id": 358,
-      "name": "vanilla ice cream, softened",
-      "quantity": "3 cups"
+      "name": "vanilla ice cream",
+      "quantity": "3 cups",
+      "prep": "softened"
     },
     {
       "ingredient_id": 2245,
-      "name": "maraschino cherries, chopped",
-      "quantity": "1 cup"
+      "name": "maraschino cherries",
+      "quantity": "1 cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 29,
-      "name": "sliced almonds, chopped",
-      "quantity": "⅓ cup"
+      "name": "sliced almonds",
+      "quantity": "⅓ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2858,
@@ -77,11 +81,18 @@
     },
     {
       "ingredient_id": 358,
-      "name": "chocolate ice cream, softened",
-      "quantity": "3 cups"
+      "name": "chocolate ice cream",
+      "quantity": "3 cups",
+      "prep": "softened"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the pistachio ice cream. Soften the vanilla ice cream. Chop the maraschino cherries. Chop the sliced almonds. Soften the chocolate ice cream.",
+      "secondary_message": "3 cups pistachio ice cream\n3 cups vanilla ice cream\n1 cup maraschino cherries\n⅓ cup sliced almonds\n3 cups chocolate ice cream"
+    },
     {
       "id": 1,
       "primary_message": "Line a 9- by 13-cm loaf pan with plastic wrap. Place a 12- by 20-cm piece of parchment paper into pan, letting sides overhang the edges. Spread pistachio ice cream into pan and smooth the top. Freeze until semi-frozen, about 20 minutes.",

@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 1629,
-      "name": "skinless boneless chicken breasts, pounded to about 3/4 inch thick",
-      "quantity": "4"
+      "name": "skinless boneless chicken breasts",
+      "quantity": "4",
+      "prep": "pounded to about 3/4 inch thick"
     },
     {
       "ingredient_id": 88,
@@ -71,13 +72,15 @@
     },
     {
       "ingredient_id": 230,
-      "name": "cremini button mushrooms, thinly sliced",
-      "quantity": "0.45 kg"
+      "name": "cremini button mushrooms",
+      "quantity": "0.45 kg",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, halved and thinly sliced",
-      "quantity": "2 medium"
+      "name": "shallots",
+      "quantity": "2 medium",
+      "prep": "halved and thinly sliced"
     },
     {
       "ingredient_id": 1677,
@@ -126,6 +129,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pound the skinless boneless chicken breasts to about 3/4 inch thick. Thinly slice the cremini button mushrooms. Halve and thinly slice the shallots.",
+      "secondary_message": "4 skinless boneless chicken breasts\n0.45 kg cremini button mushrooms\n2 medium shallots"
+    },
     {
       "id": 1,
       "primary_message": "Season chicken all over with kosher salt and pepper, transfer to a large plate, and refrigerate uncovered for at least 30 minutes and up to 4 hours. In a large skillet or Dutch oven, heat 1 tablespoon butter over medium-high heat until melted. Sear chicken in skillet, turning once, until browned on both sides, about 3 minutes per side. Transfer chicken to a plate. Do not wipe out skillet.",

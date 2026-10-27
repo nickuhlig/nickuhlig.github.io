@@ -33,9 +33,10 @@
   "ingredients": [
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, peeled",
+      "name": "fresh ginger",
       "quantity": "4 (1 inch) pieces",
-      "weigh_as": "1 ½ oz"
+      "weigh_as": "1 ½ oz",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 346,
@@ -59,6 +60,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the fresh ginger.",
+      "secondary_message": "4 (1 inch) pieces fresh ginger"
+    },
     {
       "id": 1,
       "primary_message": "For the Ginger Syrup: Slice ginger into chunks and place in bottom of mixing glass. Muddle until broken up well. Strain juice through fine-mesh tea strainer, pressing on solids to extract juice. Measure out 1/2 ounce fresh ginger juice, pour into small glass, mix with sugar until dissolved, stirring well. Mixture will be very thick.",

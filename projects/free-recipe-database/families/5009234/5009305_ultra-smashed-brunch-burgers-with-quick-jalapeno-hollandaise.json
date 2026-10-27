@@ -82,13 +82,15 @@
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño, stemmed, seeded, and chopped, divided",
-      "quantity": "1"
+      "name": "jalapeño, divided",
+      "quantity": "1",
+      "prep": "stemmed, seeded, and chopped"
     },
     {
       "ingredient_id": 466,
-      "name": "English muffins, split, toasted, and buttered",
-      "quantity": "4"
+      "name": "English muffins",
+      "quantity": "4",
+      "prep": "split, toasted, and buttered"
     },
     {
       "ingredient_id": 2228,
@@ -112,8 +114,9 @@
     },
     {
       "ingredient_id": 183,
-      "name": "avocado, pitted and sliced",
-      "quantity": "¼"
+      "name": "avocado",
+      "quantity": "¼",
+      "prep": "pitted and sliced"
     },
     {
       "ingredient_id": 115,
@@ -127,6 +130,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem, seed, and chop the jalapeño. Split, toast, and butter the English muffins. Pit and slice the avocado.",
+      "secondary_message": "1 jalapeño, divided\n4 English muffins\n¼ avocado"
+    },
     {
       "id": 1,
       "primary_message": "For the Bacon: Preheat oven to 205°C (400°F). Line a rimmed baking sheet with foil and arrange bacon on top in a single layer. Bake until crisp and evenly cooked, about 16 minutes, rotating baking sheet once front to back during cooking. Place bacon on a paper towel–lined plate and set aside.",

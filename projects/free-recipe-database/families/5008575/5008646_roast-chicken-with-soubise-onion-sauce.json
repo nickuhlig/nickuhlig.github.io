@@ -57,13 +57,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, 1 tablespoon softened",
-      "quantity": "3 tbsp"
+      "name": "unsalted butter",
+      "quantity": "3 tbsp",
+      "prep": "1 tablespoon softened"
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, thinly sliced",
-      "quantity": "2 medium"
+      "name": "onions",
+      "quantity": "2 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1752,
@@ -72,6 +74,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the 1 tablespoon of the unsalted butter. Thinly slice the onions.",
+      "secondary_message": "3 tbsp unsalted butter\n2 medium onions"
+    },
     {
       "id": 1,
       "primary_message": "Set oven rack to upper-middle position and preheat oven to 205°C (400°F). Using sharp kitchen shears, remove spine from chicken and reserve for another use (such as homemade chicken stock). Flatten chicken by placing skin side up on cutting board and applying firm pressure to breast bone. Season generously with salt and pepper.",

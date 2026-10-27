@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 1752,
-      "name": "heavy cream, at room temperature",
-      "quantity": "1 ¾ cups"
+      "name": "heavy cream",
+      "quantity": "1 ¾ cups",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -66,6 +67,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the heavy cream to room temperature.",
+      "secondary_message": "1 ¾ cups heavy cream"
+    },
     {
       "id": 1,
       "primary_message": "For the Caramel: Set the measured cream by the stove so it's at hand when you need it. Measure out 1/2 cup of the sugar and keep near the stove; you'll use this for the caramel (the rest will go in with the yolks). Put 2 tablespoons of the sugar for the caramel in a heavy stainless steel pan over medium-high heat. When the sugar is melted around the edges and starts to turn amber in places (about 2 minutes), stir the mixture gently and add another 2 tablespoons sugar to the pan.",

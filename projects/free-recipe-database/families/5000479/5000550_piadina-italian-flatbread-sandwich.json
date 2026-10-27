@@ -74,8 +74,9 @@
     },
     {
       "ingredient_id": 118,
-      "name": "whole milk, warm",
-      "quantity": "½ cup"
+      "name": "whole milk",
+      "quantity": "½ cup",
+      "prep": "warm"
     },
     {
       "ingredient_id": 47,
@@ -114,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Warm the whole milk.",
+      "secondary_message": "½ cup whole milk"
+    },
     {
       "id": 1,
       "primary_message": "For the Dough: Adjust oven rack to middle position and preheat oven to 250℉ (120℃). In a medium bowl, thoroughly whisk together flour, salt, and baking soda. Use your finger to pinch the lard into the flour mixture until lard is broken into pea-sized or smaller pieces and coated with flour. Add milk and stir until a shaggy dough forms. Transfer dough to a clean work surface and knead until smooth, 3 to 5 minutes. Shape into a ball, cover dough loosely with plastic wrap and let rest for 20 minutes.",

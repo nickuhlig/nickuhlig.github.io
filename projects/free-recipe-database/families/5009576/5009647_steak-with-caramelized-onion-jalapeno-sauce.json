@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 2502,
-      "name": "hanger steak, trimmed",
-      "quantity": "0.68 kg"
+      "name": "hanger steak",
+      "quantity": "0.68 kg",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 88,
@@ -76,18 +77,21 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onions, thinly sliced",
-      "quantity": "2 medium"
+      "name": "yellow onions",
+      "quantity": "2 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 151,
-      "name": "fresh jalapeño peppers, thinly sliced",
-      "quantity": "2"
+      "name": "fresh jalapeño peppers",
+      "quantity": "2",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 136,
@@ -111,11 +115,18 @@
     },
     {
       "ingredient_id": 1027,
-      "name": "sturdy rolls, such as ciabatta, halved lengthwise",
-      "quantity": "4"
+      "name": "sturdy rolls, such as ciabatta",
+      "quantity": "4",
+      "prep": "halved lengthwise"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the hanger steak. Thinly slice the yellow onions. Thinly slice the fresh jalapeño peppers. Thinly slice the garlic. Halve the sturdy rolls lengthwise.",
+      "secondary_message": "0.68 kg hanger steak\n2 medium yellow onions\n2 fresh jalapeño peppers\n2 cloves garlic\n4 sturdy rolls, such as ciabatta"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in large skillet over medium-high heat until just smoking. Pat steak dry with paper towels and season with salt and pepper. Cook steak until well browned, 5 to 7 minutes per side. Transfer to cutting board and tent with foil.",

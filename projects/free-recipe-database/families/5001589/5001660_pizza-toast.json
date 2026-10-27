@@ -52,8 +52,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely grated",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 273,
@@ -77,8 +78,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, thinly sliced cross-wise",
-      "quantity": "½ medium"
+      "name": "yellow onion",
+      "quantity": "½ medium",
+      "prep": "thinly sliced cross-wise"
     },
     {
       "ingredient_id": 19,
@@ -92,16 +94,24 @@
     },
     {
       "ingredient_id": 291,
-      "name": "green bell pepper, thinly sliced",
-      "quantity": "½ large"
+      "name": "green bell pepper",
+      "quantity": "½ large",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, halved",
-      "quantity": "½ cup"
+      "name": "cherry tomatoes",
+      "quantity": "½ cup",
+      "prep": "halved"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely grate the garlic. Thinly slice the yellow onion cross-wise. Thinly slice the green bell pepper. Halve the cherry tomatoes.",
+      "secondary_message": "4 medium cloves garlic\n½ medium yellow onion\n½ large green bell pepper\n½ cup cherry tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 200°C (400°F). Line a 13- by 46-cm rimmed baking sheet with foil; place milk bread on lined baking sheet and toast until lightly golden brown, about 2 minutes each side. Remove and set aside to cool, leaving oven on.",

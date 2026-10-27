@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 1799,
-      "name": "serrano chiles, stemmed and cut into 1/4-inch pieces",
-      "quantity": "2"
+      "name": "serrano chiles",
+      "quantity": "2",
+      "prep": "stemmed and cut into 1/4-inch pieces"
     },
     {
       "ingredient_id": 359,
@@ -77,6 +78,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem and cut the serrano chiles into 1/4-inch pieces.",
+      "secondary_message": "2 serrano chiles"
+    },
     {
       "id": 1,
       "primary_message": "Split shrimp in half lengthwise and discard any veins. Transfer to a plate, sprinkle all over with salt, cover with plastic, and refrigerate at least 1 hour and up to 2 hours.",

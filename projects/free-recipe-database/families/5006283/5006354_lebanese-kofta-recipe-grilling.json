@@ -37,13 +37,15 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "parsley, washed and coarsely chopped",
-      "quantity": "1 bunch"
+      "name": "parsley",
+      "quantity": "1 bunch",
+      "prep": "washed and coarsely chopped"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, coarsely chopped",
-      "quantity": "1 large"
+      "name": "red onion",
+      "quantity": "1 large",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 74,
@@ -72,6 +74,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash and coarsely chop the parsley. Coarsely chop the red onion.",
+      "secondary_message": "1 bunch parsley\n1 large red onion"
+    },
     {
       "id": 1,
       "primary_message": "Soak bamboo skewers in water for at least 30 minutes prior to use.\nPulse onion and parsley in a food processor until finely chopped. Transfer to a large bowl and add the ground lamb, cinnamon, cloves, nutmeg, salt, and pepper and mix with your hands until thoroughly combined.",

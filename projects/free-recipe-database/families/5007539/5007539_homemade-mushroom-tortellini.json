@@ -53,18 +53,21 @@
   "ingredients": [
     {
       "ingredient_id": 1929,
-      "name": "shiitake mushrooms, cleaned and trimmed",
-      "quantity": "5 oz"
+      "name": "shiitake mushrooms",
+      "quantity": "5 oz",
+      "prep": "cleaned and trimmed"
     },
     {
       "ingredient_id": 230,
-      "name": "cremini mushrooms, cleaned and trimmed",
-      "quantity": "5 oz"
+      "name": "cremini mushrooms",
+      "quantity": "5 oz",
+      "prep": "cleaned and trimmed"
     },
     {
       "ingredient_id": 2730,
-      "name": "oyster mushrooms, cleaned and trimmed",
-      "quantity": "5 oz"
+      "name": "oyster mushrooms",
+      "quantity": "5 oz",
+      "prep": "cleaned and trimmed"
     },
     {
       "ingredient_id": 115,
@@ -73,18 +76,21 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, finely minced",
-      "quantity": "2 small"
+      "name": "shallots",
+      "quantity": "2 small",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1677,
-      "name": "fresh thyme leaves, minced",
-      "quantity": "1 tsp"
+      "name": "fresh thyme leaves",
+      "quantity": "1 tsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 88,
@@ -118,6 +124,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Clean and trim the shiitake mushrooms. Clean and trim the cremini mushrooms. Clean and trim the oyster mushrooms. Finely mince the shallots. Mince the garlic. Mince the fresh thyme leaves.",
+      "secondary_message": "5 oz shiitake mushrooms\n5 oz cremini mushrooms\n5 oz oyster mushrooms\n2 small shallots\n3 medium cloves garlic\n1 tsp fresh thyme leaves"
+    },
     {
       "id": 1,
       "primary_message": "Place mushrooms in the work bowl of a food processor. Pulse until chopped into pieces no larger than 1/4 inch, 8 to 10 short pulses.",

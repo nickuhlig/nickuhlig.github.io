@@ -76,8 +76,9 @@
     },
     {
       "ingredient_id": 228,
-      "name": "limes, juiced",
-      "quantity": "2"
+      "name": "limes",
+      "quantity": "2",
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -156,8 +157,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, melted and cooled",
-      "quantity": "¼ cup"
+      "name": "butter",
+      "quantity": "¼ cup",
+      "prep": "melted and cooled"
     },
     {
       "ingredient_id": 116,
@@ -231,6 +233,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the limes. Melt the butter and let it cool.",
+      "secondary_message": "2 limes\n¼ cup butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Fried Chicken: Place chicken thighs in a large bowl and add buttermilk, hot sauce, lime juice, and 1 tablespoon kosher salt. Toss to coat, cover, and refrigerate for at least 1 hour and up to overnight.",

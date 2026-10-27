@@ -71,11 +71,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "1 tbsp"
+      "name": "unsalted butter",
+      "quantity": "1 tbsp",
+      "prep": "melted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter.",
+      "secondary_message": "1 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Using paper towels, pat shrimp dry. In a medium bowl, toss shrimp with salt, baking soda, and sugar until evenly coated. Arrange shrimp on a wire rack set over a rimmed baking sheet and refrigerate, uncovered, for 20 to 30 minutes.",

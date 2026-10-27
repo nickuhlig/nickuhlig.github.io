@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted and cooled",
-      "quantity": "4 ½ oz"
+      "name": "unsalted butter",
+      "quantity": "4 ½ oz",
+      "prep": "melted and cooled"
     },
     {
       "ingredient_id": 88,
@@ -87,16 +88,24 @@
     },
     {
       "ingredient_id": 355,
-      "name": "full-fat cream cheese, softened to about 65°F/18°C",
-      "quantity": "4 oz"
+      "name": "full-fat cream cheese",
+      "quantity": "4 oz",
+      "prep": "softened to about 65°F/18°C"
     },
     {
       "ingredient_id": 1914,
-      "name": "queso fresco, brought to about 65°F/18°C",
-      "quantity": "2 oz"
+      "name": "queso fresco",
+      "quantity": "2 oz",
+      "prep": "brought to about 65°F/18°C"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter and let it cool. Soften the full-fat cream cheese to about 65°F/18°C. Bring the queso fresco to about 65°F/18°C.",
+      "secondary_message": "4 ½ oz unsalted butter\n4 oz full-fat cream cheese\n2 oz queso fresco"
+    },
     {
       "id": 1,
       "primary_message": "To make the crust: Place cookies in the bowl of a food processor fitted with a metal blade and pulse until broken down into fine, sandy crumbs, about 1 minute. Transfer crumbs to a medium bowl, add melted butter and a pinch of salt and, using a flexible spatula, mix until crumbs are fully moistened, about 30 seconds.",

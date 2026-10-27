@@ -51,9 +51,10 @@
   "ingredients": [
     {
       "ingredient_id": 1541,
-      "name": "ripe plum tomatoes, diced",
+      "name": "ripe plum tomatoes",
       "quantity": "22",
-      "weigh_as": "1.37 kg"
+      "weigh_as": "1.37 kg",
+      "prep": "diced"
     },
     {
       "ingredient_id": 88,
@@ -62,6 +63,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the ripe plum tomatoes.",
+      "secondary_message": "22 ripe plum tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "In a large saucepan, bring tomatoes bring to a simmer over medium-high heat, stirring occasionally, about 5 minutes. Reduce heat to medium and continue to cook, stirring occasionally, until much of the excess liquid has cooked off but the tomatoes aren’t totally dry, about 15 minutes.",

@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, soft but cool, about 70°F or 21°C",
-      "quantity": "85 g"
+      "name": "unsalted butter, about 70°F or 21°C",
+      "quantity": "85 g",
+      "prep": "soft but cool"
     },
     {
       "ingredient_id": 348,
@@ -116,6 +117,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Let the unsalted butter soften slightly but keep it cool.",
+      "secondary_message": "85 g unsalted butter, about 70°F or 21°C"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower-middle position, and preheat to 180°C (350°F). In the bowl of a stand mixer fitted with a paddle attachment, combine candi or toasted sugar with butter, baking soda, cinnamon, kinako, nutmeg, salt, cloves, cardamom, and anise. Cream on medium speed until fluffy, soft, and pale, about 10 minutes, pausing to scrape the bowl and paddle as needed if the sugar seems dense and compacted at the bottom of the bowl.",

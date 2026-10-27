@@ -69,8 +69,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, finely chopped, divided",
-      "quantity": "4 medium"
+      "name": "onions, divided",
+      "quantity": "4 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1869,
@@ -139,8 +140,9 @@
     },
     {
       "ingredient_id": 260,
-      "name": "tomatoes, diced",
-      "quantity": "5 medium"
+      "name": "tomatoes",
+      "quantity": "5 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 2325,
@@ -154,23 +156,27 @@
     },
     {
       "ingredient_id": 1850,
-      "name": "green small chiles, minced",
-      "quantity": "2"
+      "name": "green small chiles",
+      "quantity": "2",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1271,
-      "name": "cumin seeds, crushed",
-      "quantity": "2 tsp"
+      "name": "cumin seeds",
+      "quantity": "2 tsp",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2257,
-      "name": "fresh okra, washed, trimmed, cut into 1-inch lengths",
-      "quantity": "1 lb"
+      "name": "fresh okra",
+      "quantity": "1 lb",
+      "prep": "washed, trimmed, cut into 1-inch lengths"
     },
     {
       "ingredient_id": 1505,
@@ -179,6 +185,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the onions. Dice the tomatoes. Mince the green small chiles. Crush the cumin seeds. Mince the garlic. Wash, trim, and cut the fresh okra into 1-inch lengths.",
+      "secondary_message": "4 medium onions, divided\n5 medium tomatoes\n2 green small chiles\n2 tsp cumin seeds\n4 medium cloves garlic\n1 lb fresh okra"
+    },
     {
       "id": 1,
       "primary_message": "Place chicken in medium bowl and mix with yogurt, turmeric, and 1 teaspoon salt.",

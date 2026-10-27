@@ -39,8 +39,9 @@
     },
     {
       "ingredient_id": 1090,
-      "name": "Hawaiian sweet rolls, cut in half",
-      "quantity": "4"
+      "name": "Hawaiian sweet rolls",
+      "quantity": "4",
+      "prep": "cut in half"
     },
     {
       "ingredient_id": 236,
@@ -59,6 +60,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the Hawaiian sweet rolls in half.",
+      "secondary_message": "4 Hawaiian sweet rolls"
+    },
     {
       "id": 1,
       "primary_message": "Melt 1 tablespoon of the butter in a large non-stick skillet over moderately high heat. Place the sweet rolls, cut side-down, into the skillet and cook until just toasted, 1-2 minutes. Transfer the toasted rolls to a large platter, and spread the jelly onto each toasted side of the rolls.",

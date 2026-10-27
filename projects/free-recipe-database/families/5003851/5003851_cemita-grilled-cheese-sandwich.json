@@ -37,8 +37,9 @@
   "ingredients": [
     {
       "ingredient_id": 1618,
-      "name": "chipotle chilis, canned in adobo sauce, finely chopped",
-      "quantity": "1"
+      "name": "chipotle chilis, canned in adobo sauce",
+      "quantity": "1",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2747,
@@ -47,13 +48,15 @@
     },
     {
       "ingredient_id": 183,
-      "name": "avocado, peeled and pitted",
-      "quantity": "½"
+      "name": "avocado",
+      "quantity": "½",
+      "prep": "peeled and pitted"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 3 even pats",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "cut into 3 even pats"
     },
     {
       "ingredient_id": 1216,
@@ -62,8 +65,9 @@
     },
     {
       "ingredient_id": 2036,
-      "name": "Oaxacan cheese, grated",
-      "quantity": "2 oz"
+      "name": "Oaxacan cheese",
+      "quantity": "2 oz",
+      "prep": "grated"
     },
     {
       "ingredient_id": 3218,
@@ -77,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the chipotle chilis. Peel and pit the avocado. Cut the unsalted butter into 3 even pats. Grate the Oaxacan cheese.",
+      "secondary_message": "1 chipotle chilis, canned in adobo sauce\n½ avocado\n2 tbsp unsalted butter\n2 oz Oaxacan cheese"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, combine chipotle in adobo and avocado. Mash with a fork to combine.",

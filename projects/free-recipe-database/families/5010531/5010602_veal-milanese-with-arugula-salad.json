@@ -43,8 +43,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten with 2 tablespoons water",
-      "quantity": "1"
+      "name": "egg",
+      "quantity": "1",
+      "prep": "beaten with 2 tablespoons water"
     },
     {
       "ingredient_id": 120,
@@ -88,8 +89,9 @@
     },
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, cut into sixths",
-      "quantity": "6"
+      "name": "cherry tomatoes",
+      "quantity": "6",
+      "prep": "cut into sixths"
     },
     {
       "ingredient_id": 28,
@@ -103,11 +105,18 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, cut in half",
-      "quantity": "½"
+      "name": "lemon",
+      "quantity": "½",
+      "prep": "cut in half"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Beat the egg with 2 tablespoons water. Cut the cherry tomatoes into sixths. Cut the lemon in half.",
+      "secondary_message": "1 egg\n6 cherry tomatoes\n½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "Place flour in one shallow bowl or pie plate and beaten egg in a second. Combine parmesan and breadcrumbs in third and season to taste with salt and pepper.",

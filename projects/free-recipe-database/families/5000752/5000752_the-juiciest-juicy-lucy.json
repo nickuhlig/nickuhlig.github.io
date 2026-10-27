@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 43,
-      "name": "extra-sharp cheddar cheese, shredded",
-      "quantity": "8 oz"
+      "name": "extra-sharp cheddar cheese",
+      "quantity": "8 oz",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 115,
@@ -71,8 +72,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion peeled, halved, and cut into thin slices",
-      "quantity": "1 medium"
+      "name": "yellow onion peeled",
+      "quantity": "1 medium",
+      "prep": "halved, and cut into thin slices"
     },
     {
       "ingredient_id": 88,
@@ -121,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shred the extra-sharp cheddar cheese. Halve and cut the yellow onion peeled into thin slices.",
+      "secondary_message": "8 oz extra-sharp cheddar cheese\n1 medium yellow onion peeled"
+    },
     {
       "id": 1,
       "primary_message": "For the “American” cheese (if making): Adjust oven rack to its middle position and preheat oven to 200℉. Line a 9.5 x 9.5” baking pan with a piece of parchment paper, and place lined pan into the oven to keep warm. (Warming the pan ensures that the cheese will not cool and set before it settles into an even layer.)",

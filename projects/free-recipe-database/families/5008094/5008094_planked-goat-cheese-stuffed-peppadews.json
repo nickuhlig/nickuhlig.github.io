@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 3503,
-      "name": "Peppadews, drained",
-      "quantity": "1 (14 oz) jar"
+      "name": "Peppadews",
+      "quantity": "1 (14 oz) jar",
+      "prep": "drained"
     },
     {
       "ingredient_id": 47,
@@ -71,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain the Peppadews.",
+      "secondary_message": "1 (14 oz) jar Peppadews"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, mix together goat cheese, 1 1/2 tablespoons chives, and parsley.",

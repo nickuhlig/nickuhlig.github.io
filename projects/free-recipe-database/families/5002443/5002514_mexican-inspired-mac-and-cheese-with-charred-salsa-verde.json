@@ -66,18 +66,21 @@
   "ingredients": [
     {
       "ingredient_id": 2069,
-      "name": "tomatillos, husks removed, halved",
-      "quantity": "3"
+      "name": "tomatillos",
+      "quantity": "3",
+      "prep": "husks removed, halved"
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, peeled, split into petals",
-      "quantity": "½ small"
+      "name": "white onion",
+      "quantity": "½ small",
+      "prep": "peeled, split into petals"
     },
     {
       "ingredient_id": 1799,
-      "name": "serrano chiles, stem removed",
-      "quantity": "3"
+      "name": "serrano chiles",
+      "quantity": "3",
+      "prep": "stem removed"
     },
     {
       "ingredient_id": 24,
@@ -101,8 +104,9 @@
     },
     {
       "ingredient_id": 1776,
-      "name": "dried árbol chiles, stem removed",
-      "quantity": "2 to 4"
+      "name": "dried árbol chiles",
+      "quantity": "2 to 4",
+      "prep": "stem removed"
     },
     {
       "ingredient_id": 61,
@@ -141,6 +145,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the husks from the tomatillos, then halve them. Peel and split the white onion into petals. Remove the stem from the serrano chiles. Remove the stem from the dried árbol chiles.",
+      "secondary_message": "3 tomatillos\n½ small white onion\n3 serrano chiles\n2 to 4 dried árbol chiles"
+    },
     {
       "id": 1,
       "primary_message": "For the Salsa Verde: Adjust oven rack to upper-middle position and preheat oven broiler to high. Arrange serranos, tomatillos, onion, and garlic on an aluminum foil–lined baking sheet and broil, flipping vegetables halfway through, until well charred, 5 to 8 minutes total. Transfer to blender and add 1/4 cup water. Blend on high speed until smooth. If needed, add up to an additional 1/4 cup water, 1 tablespoon at a time, to achieve a smooth texture. Season with salt to taste; set aside.",

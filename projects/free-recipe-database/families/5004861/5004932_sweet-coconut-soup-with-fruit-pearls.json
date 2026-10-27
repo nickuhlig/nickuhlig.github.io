@@ -48,8 +48,9 @@
     },
     {
       "ingredient_id": 228,
-      "name": "lime, zested",
-      "quantity": "1"
+      "name": "lime",
+      "quantity": "1",
+      "prep": "zested"
     },
     {
       "ingredient_id": 88,
@@ -78,6 +79,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the lime.",
+      "secondary_message": "1 lime"
+    },
     {
       "id": 1,
       "primary_message": "For coconut soup: Combine coconut milk and sugar, whisk until fully dissolved. Thin out with coconut water to desired consistency, between 2 and 2 1/2 cups. Whisk in lime juice and salt to taste, then chill in refrigerator.",

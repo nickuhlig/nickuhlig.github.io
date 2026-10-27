@@ -109,8 +109,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, straight from the fridge",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "straight from the fridge"
     },
     {
       "ingredient_id": 1682,
@@ -139,6 +140,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the eggs cold until you use them.",
+      "secondary_message": "4 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "For the Cakes: Adjust oven rack to middle position and preheat oven to 350°F. Lightly grease two 8-inch anodized aluminum cake pans and line with parchment (explanation and tutorial here). Sift flour and cocoa together to combine. In the bowl of a stand mixer fitted with a whisk attachment, combine sugar, vanilla extract, baking soda, salt, cinnamon, almond extract, and eggs. Whip on medium-high until foamy and light, about 5 minutes, then drizzle in oil. Reduce speed to low and add tart cherry juice, followed by sifted flour/cocoa mixture. When mixture is well combined, divide between prepared cake pans, adding about 17 3/4 ounces to each. Bake until puffed and firm, about 22 minutes; a toothpick inserted into the center of a cake will leave a few crumbs attached. Cool cakes in their pans until no trace of warmth remains, about 45 minutes.",

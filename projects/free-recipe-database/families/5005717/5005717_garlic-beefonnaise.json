@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 2944,
-      "name": "rendered beef fat, melted",
-      "quantity": "¼ cup"
+      "name": "rendered beef fat",
+      "quantity": "¼ cup",
+      "prep": "melted"
     },
     {
       "ingredient_id": 1007,
@@ -86,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the rendered beef fat.",
+      "secondary_message": "¼ cup rendered beef fat"
+    },
     {
       "id": 1,
       "primary_message": "Combine beef fat and canola oil in 2-cup liquid measuring cup. Whisk to combine.",

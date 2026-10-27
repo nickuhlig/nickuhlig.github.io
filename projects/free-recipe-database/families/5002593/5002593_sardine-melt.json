@@ -36,13 +36,15 @@
   "ingredients": [
     {
       "ingredient_id": 157,
-      "name": "celery, finely diced",
-      "quantity": "6 ribs"
+      "name": "celery",
+      "quantity": "6 ribs",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely diced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 47,
@@ -66,8 +68,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, very finely minced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "very finely minced"
     },
     {
       "ingredient_id": 1932,
@@ -76,13 +79,15 @@
     },
     {
       "ingredient_id": 1720,
-      "name": "celery rib, finely diced",
-      "quantity": "1"
+      "name": "celery rib",
+      "quantity": "1",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "zested"
     },
     {
       "ingredient_id": 3672,
@@ -121,6 +126,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the celery. Finely dice the yellow onion. Very finely mince the garlic. Finely dice the celery rib. Zest the lemon.",
+      "secondary_message": "6 ribs celery\n1 medium yellow onion\n2 medium cloves garlic\n1 celery rib\n1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "For the Celery Confit (Optional): In a small saucepan, combine celery, onion, olive oil, and a pinch of salt. Set over medium heat and cook, stirring often, until the vegetables’ water has been released and fully cooked off and the vegetables have become meltingly tender, about 30 minutes; reduce heat at any point to prevent browning. Set aside.",

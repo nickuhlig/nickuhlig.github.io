@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 1958,
-      "name": "boneless skinless pork belly, cut into 1-inch cubes",
-      "quantity": "1 ¼ lb"
+      "name": "boneless skinless pork belly",
+      "quantity": "1 ¼ lb",
+      "prep": "cut into 1-inch cubes"
     },
     {
       "ingredient_id": 2324,
@@ -81,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the boneless skinless pork belly into 1-inch cubes.",
+      "secondary_message": "1 ¼ lb boneless skinless pork belly"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, mix together gochujang, honey, sake, soy sauce, and oil. Reserve 2 tablespoons of marinade in refrigerator. In a large bowl, toss pork with remaining marinade until thoroughly coated and refrigerate for at least 1 hour and up to overnight.",

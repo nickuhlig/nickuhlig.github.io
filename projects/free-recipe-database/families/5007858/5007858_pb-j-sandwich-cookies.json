@@ -59,8 +59,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cool but firm, about 65°F",
-      "quantity": "3 oz"
+      "name": "unsalted butter, cool but firm",
+      "quantity": "3 oz",
+      "prep": "about 65°F"
     },
     {
       "ingredient_id": 1567,
@@ -84,8 +85,9 @@
     },
     {
       "ingredient_id": 3642,
-      "name": "egg whites, well beaten",
-      "quantity": "2 large"
+      "name": "egg whites",
+      "quantity": "2 large",
+      "prep": "well beaten"
     },
     {
       "ingredient_id": 116,
@@ -104,6 +106,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to 65°F. Well beat the egg whites.",
+      "secondary_message": "3 oz unsalted butter, cool but firm\n2 large egg whites"
+    },
     {
       "id": 1,
       "primary_message": "For the Cookies: Combine butter, peanut butter, sugar, baking soda, and salt in the bowl of a stand mixer fitted with a paddle attachment. Cream on medium speed until soft, about 5 minutes, then add egg whites in 4 or 5 additions. After incorporating, scrape bowl and beater with a flexible spatula; resume mixing on low and sprinkle in flour to form a soft dough. Divide in half and flatten into disks. If dough is too soft to roll, wrap in plastic and refrigerate until firm, about 30 minutes.",

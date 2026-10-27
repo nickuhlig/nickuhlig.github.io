@@ -52,8 +52,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "1 tbsp"
+      "name": "unsalted butter",
+      "quantity": "1 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 1752,
@@ -67,8 +68,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened at room temperature",
-      "quantity": "141 g"
+      "name": "cream cheese",
+      "quantity": "141 g",
+      "prep": "softened at room temperature"
     },
     {
       "ingredient_id": 2046,
@@ -92,8 +94,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened at room temperature",
-      "quantity": "141 g"
+      "name": "cream cheese",
+      "quantity": "141 g",
+      "prep": "softened at room temperature"
     },
     {
       "ingredient_id": 333,
@@ -117,6 +120,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Soften the cream cheese at room temperature. Soften the cream cheese at room temperature.",
+      "secondary_message": "1 tbsp unsalted butter\n141 g cream cheese\n141 g cream cheese"
+    },
     {
       "id": 1,
       "primary_message": "For the Crust: In a food processor, pulse Oreos until finely ground. Add melted butter and pulse for another few seconds until evenly coated. Alternatively, put the cookies in a zipper-lock bag and crush with a rolling pin before adding the melted butter. Spoon Oreo mixture into 4 to 6 serving glasses in an even layer. Set aside.",

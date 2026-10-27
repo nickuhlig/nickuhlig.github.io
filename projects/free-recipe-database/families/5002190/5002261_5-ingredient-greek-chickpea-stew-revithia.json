@@ -38,18 +38,21 @@
   "ingredients": [
     {
       "ingredient_id": 152,
-      "name": "yellow onion, halved and thinly sliced",
-      "quantity": "1 small"
+      "name": "yellow onion",
+      "quantity": "1 small",
+      "prep": "halved and thinly sliced"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, roughly chopped into 1-inch pieces",
-      "quantity": "2 medium"
+      "name": "carrots",
+      "quantity": "2 medium",
+      "prep": "roughly chopped into 1-inch pieces"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, chopped",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 47,
@@ -68,11 +71,18 @@
     },
     {
       "ingredient_id": 1718,
-      "name": "miso paste, whisked into 1 cup warm water",
-      "quantity": "2 tbsp"
+      "name": "miso paste",
+      "quantity": "2 tbsp",
+      "prep": "whisked into 1 cup warm water"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve and thinly slice the yellow onion. Roughly chop the carrots into 1-inch pieces. Chop the garlic. Whisk the miso paste into 1 cup warm water.",
+      "secondary_message": "1 small yellow onion\n2 medium carrots\n2 medium cloves garlic\n2 tbsp miso paste"
+    },
     {
       "id": 1,
       "primary_message": "In a large saucepan, heat 3 tablespoons oil over medium-high heat until shimmering. Add onion and 1 teaspoon salt and cook until onion is soft and translucent, about 7 minutes. Add carrots, garlic, oregano (if using), and remaining 1 tablespoon olive oil and cook, stirring frequently until fragrant, 2 minutes.",

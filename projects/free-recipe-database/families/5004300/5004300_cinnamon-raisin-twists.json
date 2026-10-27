@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 2843,
-      "name": "all-butter puff pastry, defrosted",
-      "quantity": "14 oz"
+      "name": "all-butter puff pastry",
+      "quantity": "14 oz",
+      "prep": "defrosted"
     },
     {
       "ingredient_id": 346,
@@ -56,11 +57,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, melted",
-      "quantity": "3 tbsp"
+      "name": "butter",
+      "quantity": "3 tbsp",
+      "prep": "melted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Defrost the all-butter puff pastry. Melt the butter.",
+      "secondary_message": "14 oz all-butter puff pastry\n3 tbsp butter"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 350°F. Line a baking sheet with parchment paper.",

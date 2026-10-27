@@ -49,8 +49,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 88,
@@ -94,8 +95,9 @@
     },
     {
       "ingredient_id": 107,
-      "name": "fresh mozzarella cheese, cut into 1/2-inch chunks",
-      "quantity": "283 g"
+      "name": "fresh mozzarella cheese",
+      "quantity": "283 g",
+      "prep": "cut into 1/2-inch chunks"
     },
     {
       "ingredient_id": 1808,
@@ -104,6 +106,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic. Cut the fresh mozzarella cheese into 1/2-inch chunks.",
+      "secondary_message": "2 medium cloves garlic\n283 g fresh mozzarella cheese"
+    },
     {
       "id": 1,
       "primary_message": "With a sharp chef's knife, split chicken breasts in half horizontally. Working one piece at a time, place inside a plastic zipper-lock bag and pound with a meat pounder or the bottom of a skillet to an even 0.5-cm thickness. Transfer to a large bowl.",

@@ -45,23 +45,27 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, chopped",
-      "quantity": "½ medium"
+      "name": "onion",
+      "quantity": "½ medium",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 151,
-      "name": "whole jalapeño, stemmed, seeded, and chopped",
-      "quantity": "1"
+      "name": "whole jalapeño",
+      "quantity": "1",
+      "prep": "stemmed, seeded, and chopped"
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, minced",
-      "quantity": "1 tsp"
+      "name": "fresh ginger",
+      "quantity": "1 tsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "2 medium"
+      "name": "garlic cloves",
+      "quantity": "2 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 260,
@@ -85,8 +89,9 @@
     },
     {
       "ingredient_id": 1879,
-      "name": "spinach, well rinsed, dried, and chopped",
-      "quantity": "1 lb"
+      "name": "spinach, dried",
+      "quantity": "1 lb",
+      "prep": "well rinsed, and chopped"
     },
     {
       "ingredient_id": 1421,
@@ -105,6 +110,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the onion. Stem, seed, and chop the whole jalapeño. Mince the fresh ginger. Mince the garlic cloves. Well rinse the spinach. Chop the spinach.",
+      "secondary_message": "½ medium onion\n1 whole jalapeño\n1 tsp fresh ginger\n2 medium garlic cloves\n1 lb spinach, dried"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in a large 12-inch cast-skillet set over medium-high. Add cumin seeds and stir constantly with a wooden spoon until seeds sizzle and turn slightly red, about 10 seconds. Add onion and jalapeño, and cook until onion starts to brown, 3 to 5 minutes. Stir in ginger and garlic and cook until fragrant, about 10 seconds.",

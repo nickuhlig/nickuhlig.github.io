@@ -51,8 +51,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened , plus more for serving",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter, plus more for serving",
+      "quantity": "2 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1677,
@@ -81,14 +82,16 @@
     },
     {
       "ingredient_id": 1039,
-      "name": "russet potatoes, peeled and cut into 1-inch chunks",
+      "name": "russet potatoes",
       "quantity": "3 medium",
-      "weigh_as": "1 ½ lb"
+      "weigh_as": "1 ½ lb",
+      "prep": "peeled and cut into 1-inch chunks"
     },
     {
       "ingredient_id": 111,
-      "name": "green beans, ends trimmed",
-      "quantity": "10 oz"
+      "name": "green beans",
+      "quantity": "10 oz",
+      "prep": "ends trimmed"
     },
     {
       "ingredient_id": 47,
@@ -107,6 +110,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter. Peel and cut the russet potatoes into 1-inch chunks. Trim the ends of the green beans.",
+      "secondary_message": "2 tbsp unsalted butter, plus more for serving\n3 medium russet potatoes\n10 oz green beans"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 400°F.",

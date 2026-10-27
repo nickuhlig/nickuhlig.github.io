@@ -101,8 +101,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1522,
@@ -126,6 +127,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the yellow onion.",
+      "secondary_message": "1 medium yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "For the Special Sauce: In a small bowl, stir together mayonnaise, ketchup, pickles or relish, sugar, and vinegar. Set aside or refrigerate if using later.",

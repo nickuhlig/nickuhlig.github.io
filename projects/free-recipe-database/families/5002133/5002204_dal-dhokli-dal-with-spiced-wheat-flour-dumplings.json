@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 1541,
-      "name": "ripe plum tomato, cut into 1-inch pieces",
-      "quantity": "1"
+      "name": "ripe plum tomato",
+      "quantity": "1",
+      "prep": "cut into 1-inch pieces"
     },
     {
       "ingredient_id": 90,
@@ -120,8 +121,9 @@
     },
     {
       "ingredient_id": 1267,
-      "name": "ghee, melted",
-      "quantity": "1 tsp"
+      "name": "ghee",
+      "quantity": "1 tsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 2152,
@@ -160,6 +162,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the ripe plum tomato into 1-inch pieces. Melt the ghee.",
+      "secondary_message": "1 ripe plum tomato\n1 tsp ghee"
+    },
     {
       "id": 1,
       "primary_message": "For the Dal: Place toor dal in a large bowl and cover by 5 cm with cool water. Using your hands, vigorously swish toor dal until water turns cloudy, about 30 seconds. Using a fine-mesh strainer, drain toor dal, discarding the cloudy water.",

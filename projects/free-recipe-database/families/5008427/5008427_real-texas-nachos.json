@@ -40,13 +40,15 @@
     },
     {
       "ingredient_id": 321,
-      "name": "corn tortillas, cut into quarters",
-      "quantity": "6"
+      "name": "corn tortillas",
+      "quantity": "6",
+      "prep": "cut into quarters"
     },
     {
       "ingredient_id": 2474,
-      "name": "Longhorn cheese, grated",
-      "quantity": "4 oz"
+      "name": "Longhorn cheese",
+      "quantity": "4 oz",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1373,
@@ -60,6 +62,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the corn tortillas into quarters. Grate the Longhorn cheese.",
+      "secondary_message": "6 corn tortillas\n4 oz Longhorn cheese"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 425°F. Heat oil in a 12-inch cast iron skillet, Dutch oven, or wok over medium-high heat until it registers 375°F. Adjust flame to maintain temperature. Working in batches, add tortillas and fry, agitating with a metal spider, until edges just start to brown. Flip chips over and continue to cook until crisp and light golden brown. Transfer chips to a paper towel lined tray, sprinkle with salt to taste, and let sit for 2-3 minutes to drain. Repeat with remaining batches.",

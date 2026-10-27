@@ -49,8 +49,9 @@
     },
     {
       "ingredient_id": 2220,
-      "name": "ripe kiwis, peeled and very finely diced",
-      "quantity": "3 large"
+      "name": "ripe kiwis",
+      "quantity": "3 large",
+      "prep": "peeled and very finely diced"
     },
     {
       "ingredient_id": 1480,
@@ -74,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and very finely dice the ripe kiwis.",
+      "secondary_message": "3 large ripe kiwis"
+    },
     {
       "id": 1,
       "primary_message": "Whisk the sugar and pectin in a medium bowl and set aside.",

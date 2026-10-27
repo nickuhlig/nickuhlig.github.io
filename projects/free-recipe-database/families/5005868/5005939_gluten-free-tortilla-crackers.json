@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 321,
-      "name": "gluten-free corn tortillas, at room temperature",
-      "quantity": "10 (15 cm)"
+      "name": "gluten-free corn tortillas",
+      "quantity": "10 (15 cm)",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 88,
@@ -65,6 +66,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the gluten-free corn tortillas to room temperature.",
+      "secondary_message": "10 (15 cm) gluten-free corn tortillas"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven racks to the upper and lower middle positions and preheat oven to 205°C (400°F). In a small bowl, whisk together the olive oil, cumin, and chili powder. Using a pastry brush, lightly brush each tortilla on both sides with the oil. Using a chef’s knife or pizza wheel, cut each tortilla into strips about 2.5 cm thick. Cut strips into 2.5-cm pieces",

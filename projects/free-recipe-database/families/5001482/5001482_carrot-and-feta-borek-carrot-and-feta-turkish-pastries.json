@@ -56,8 +56,9 @@
   "ingredients": [
     {
       "ingredient_id": 162,
-      "name": "drained julienne-cut sun-dried tomatoes packed in oil, chopped",
-      "quantity": "½ cup"
+      "name": "drained julienne-cut sun-dried tomatoes packed in oil",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 47,
@@ -82,8 +83,9 @@
     },
     {
       "ingredient_id": 32,
-      "name": "feta cheese, crumbled",
-      "quantity": "8 oz"
+      "name": "feta cheese",
+      "quantity": "8 oz",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 1760,
@@ -102,8 +104,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, chopped",
-      "quantity": "2 medium"
+      "name": "scallions",
+      "quantity": "2 medium",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1721,
@@ -137,6 +140,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the drained julienne-cut sun-dried tomatoes packed in oil. Crumble the feta cheese. Chop the scallions.",
+      "secondary_message": "½ cup drained julienne-cut sun-dried tomatoes packed in oil\n8 oz feta cheese\n2 medium scallions"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower-middle position and preheat oven to 400°F. Line a rimmed baking sheet with parchment paper. Set aside.",

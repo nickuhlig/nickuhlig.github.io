@@ -87,8 +87,9 @@
     },
     {
       "ingredient_id": 1664,
-      "name": "dried shiitakes, rehydrated and minced",
-      "quantity": "3"
+      "name": "dried shiitakes",
+      "quantity": "3",
+      "prep": "rehydrated and minced"
     },
     {
       "ingredient_id": 1505,
@@ -107,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rehydrate and mince the dried shiitakes.",
+      "secondary_message": "3 dried shiitakes"
+    },
     {
       "id": 1,
       "primary_message": "Soak tofu skin in a large bowl of water until softened, about 30 minutes. Remove from water. Line the sheets up on a cutting board and roll into a cylinder. Cut crosswise into 1-inch segments, at least a foot in length.",

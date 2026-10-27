@@ -41,13 +41,15 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, thinly sliced into rounds",
-      "quantity": "½"
+      "name": "lemon",
+      "quantity": "½",
+      "prep": "thinly sliced into rounds"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "8 medium cloves"
+      "name": "garlic",
+      "quantity": "8 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1932,
@@ -56,13 +58,15 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and cut into thin rounds",
-      "quantity": "5 medium"
+      "name": "carrots",
+      "quantity": "5 medium",
+      "prep": "peeled and cut into thin rounds"
     },
     {
       "ingredient_id": 158,
-      "name": "cauliflower, cored and cut into 1-inch florets",
-      "quantity": "1 medium"
+      "name": "cauliflower",
+      "quantity": "1 medium",
+      "prep": "cored and cut into 1-inch florets"
     },
     {
       "ingredient_id": 150,
@@ -86,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the lemon into rounds. Mince the garlic. Peel and cut the carrots into thin rounds. Core and cut the cauliflower into 1-inch florets.",
+      "secondary_message": "½ lemon\n8 medium cloves garlic\n5 medium carrots\n1 medium cauliflower"
+    },
     {
       "id": 1,
       "primary_message": "In two clean 1-quart glass canning jars, tightly pack cabbage until jars are about 1/3 full; press down as much as possible to minimize air space.",

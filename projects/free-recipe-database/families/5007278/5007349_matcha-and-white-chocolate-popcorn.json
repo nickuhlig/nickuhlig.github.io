@@ -43,8 +43,9 @@
     },
     {
       "ingredient_id": 1970,
-      "name": "popcorn kernels, popped",
-      "quantity": "½ cup"
+      "name": "popcorn kernels",
+      "quantity": "½ cup",
+      "prep": "popped"
     },
     {
       "ingredient_id": 88,
@@ -53,6 +54,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pop the popcorn kernels.",
+      "secondary_message": "½ cup popcorn kernels"
+    },
     {
       "id": 1,
       "primary_message": "Place white chocolate in a microwave-safe bowl and microwave at full power in 10-second intervals, stirring between each one, until melted.",

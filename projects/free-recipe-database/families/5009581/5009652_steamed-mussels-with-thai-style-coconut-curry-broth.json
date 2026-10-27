@@ -53,13 +53,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, thinly sliced",
-      "quantity": "2 small"
+      "name": "shallots",
+      "quantity": "2 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1514,
@@ -118,11 +120,18 @@
     },
     {
       "ingredient_id": 1762,
-      "name": "Thai chile, thinly sliced",
-      "quantity": "1 small"
+      "name": "Thai chile",
+      "quantity": "1 small",
+      "prep": "thinly sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the garlic. Thinly slice the shallots. Thinly slice the Thai chile.",
+      "secondary_message": "4 medium cloves garlic\n2 small shallots\n1 small Thai chile"
+    },
     {
       "id": 1,
       "primary_message": "Combine cilantro stems, half of garlic, half of shallot, coriander seeds, dried chile, lime zest and a small pinch of kosher salt in a mortar and pestle. Pound and grind until a smooth paste is formed.",

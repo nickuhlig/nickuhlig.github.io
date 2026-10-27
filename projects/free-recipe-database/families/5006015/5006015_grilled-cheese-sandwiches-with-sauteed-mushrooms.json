@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, thinly sliced",
-      "quantity": "4 medium"
+      "name": "shallots",
+      "quantity": "4 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 293,
@@ -91,8 +92,9 @@
     },
     {
       "ingredient_id": 3313,
-      "name": "Taleggio cheese, sliced",
-      "quantity": "12 oz"
+      "name": "Taleggio cheese",
+      "quantity": "12 oz",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 2740,
@@ -101,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the shallots. Slice the Taleggio cheese.",
+      "secondary_message": "4 medium shallots\n12 oz Taleggio cheese"
+    },
     {
       "id": 1,
       "primary_message": "Melt 2 tablespoons butter and olive oil in large skillet over medium-high heat. Add shallots and brown sugar and cook, stirring, until softened and beginning to brown, about 5 minutes. Add mushrooms and thyme and cook, stirring, until mushrooms are browned, about 7 minutes. Stir in sherry vinegar and cook an additional 1 minute. Season to taste with salt and pepper. Transfer mushroom mixture to plate and wipe out skillet.",

@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into small pieces and chilled",
-      "quantity": "3 tbsp"
+      "name": "unsalted butter",
+      "quantity": "3 tbsp",
+      "prep": "cut into small pieces and chilled"
     },
     {
       "ingredient_id": 293,
@@ -90,8 +91,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "8 oz"
+      "name": "unsalted butter",
+      "quantity": "8 oz",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -100,8 +102,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 116,
@@ -160,11 +163,18 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, chopped",
-      "quantity": "4 oz"
+      "name": "bittersweet chocolate",
+      "quantity": "4 oz",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into small pieces and keep it cold until you use it. Bring the unsalted butter to room temperature. Bring the eggs to room temperature. Chop the bittersweet chocolate.",
+      "secondary_message": "3 tbsp unsalted butter\n8 oz unsalted butter\n3 large eggs\n4 oz bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "For the Hazelnut-Cocoa Nib Crunch: Pulse hazelnuts, sugar, butter, brown sugar, flour, and salt in food processor; transfer to bowl. Stir in cocoa nibs and set aside.",

@@ -63,8 +63,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted and cooled slightly",
-      "quantity": "5 tbsp"
+      "name": "unsalted butter",
+      "quantity": "5 tbsp",
+      "prep": "melted and cooled slightly"
     },
     {
       "ingredient_id": 118,
@@ -78,6 +79,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt and cool the unsalted butter slightly.",
+      "secondary_message": "5 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a large mixing bowl, whisk to fully combine semolina flour, sugar, baking powder, and salt. Add melted butter and mix with your fingers until mixture has a sandy, crumbly texture.",

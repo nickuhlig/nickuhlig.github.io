@@ -42,8 +42,9 @@
     },
     {
       "ingredient_id": 1541,
-      "name": "plum tomatoes, cut into 1/4-inch-thick wedges",
-      "quantity": "2"
+      "name": "plum tomatoes",
+      "quantity": "2",
+      "prep": "cut into 1/4-inch-thick wedges"
     },
     {
       "ingredient_id": 152,
@@ -52,8 +53,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, thinly sliced",
-      "quantity": "2 medium"
+      "name": "garlic cloves",
+      "quantity": "2 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -72,8 +74,9 @@
     },
     {
       "ingredient_id": 1027,
-      "name": "crusty rolls, such as ciabatta, halved",
-      "quantity": "2 (15 cm)"
+      "name": "crusty rolls, such as ciabatta",
+      "quantity": "2 (15 cm)",
+      "prep": "halved"
     },
     {
       "ingredient_id": 267,
@@ -92,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the plum tomatoes into 1/4-inch-thick wedges. Thinly slice the garlic cloves. Halve the crusty rolls.",
+      "secondary_message": "2 plum tomatoes\n2 medium garlic cloves\n2 (15 cm) crusty rolls, such as ciabatta"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in large skillet over medium-high heat until shimmering. Add the onion, tomatoes, and garlic and season with salt and pepper. Cook, stirring occasionally, until the onion and tomatoes are softened and the mixture has a sauce-like consistency, about 5 minutes. Stir in the vinegar and cook, stirring, for 1 minute longer. Remove from heat.",

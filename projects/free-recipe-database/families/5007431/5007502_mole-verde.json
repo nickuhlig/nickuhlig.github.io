@@ -44,9 +44,10 @@
     },
     {
       "ingredient_id": 2069,
-      "name": "tomatillos, husked and halved",
+      "name": "tomatillos",
       "quantity": "7",
-      "weigh_as": "0.23 kg"
+      "weigh_as": "0.23 kg",
+      "prep": "husked and halved"
     },
     {
       "ingredient_id": 1505,
@@ -60,8 +61,9 @@
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño peppers, stemmed and roughly chopped",
-      "quantity": "2 medium"
+      "name": "jalapeño peppers",
+      "quantity": "2 medium",
+      "prep": "stemmed and roughly chopped"
     },
     {
       "ingredient_id": 188,
@@ -95,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Husk and halve the tomatillos. Stem and roughly chop the jalapeño peppers.",
+      "secondary_message": "7 tomatillos\n2 medium jalapeño peppers"
+    },
     {
       "id": 1,
       "primary_message": "In a medium cast iron skillet over medium-high heat, toast pepitas until they start to pop and turn a light golden brown, about 5 minutes. Transfer to a spice grinder or blender and process until finely ground.",

@@ -64,13 +64,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, roughly chopped",
-      "quantity": "3 tbsp"
+      "name": "shallot",
+      "quantity": "3 tbsp",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1820,
@@ -144,6 +146,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the shallot. Roughly chop the garlic.",
+      "secondary_message": "3 tbsp shallot\n4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Marinated Pork: In a large zipper-lock bag, combine baking soda with 1/2 cup water and swish until baking soda is dissolved. Add pork, press out air, and seal bag. Refrigerate for 15 minutes. Drain pork, rinse under cold running water, and pat dry. Rinse zipper-lock bag and reserve.",

@@ -63,8 +63,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, minced",
-      "quantity": "1 tsp"
+      "name": "shallot",
+      "quantity": "1 tsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 117,
@@ -73,8 +74,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "½ clove"
+      "name": "garlic",
+      "quantity": "½ clove",
+      "prep": "minced"
     },
     {
       "ingredient_id": 88,
@@ -88,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the shallot. Mince the garlic.",
+      "secondary_message": "1 tsp shallot\n½ clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "Bring a large pot of water to boil. With a large knife, cut off the top quarter of the artichokes and then remove the stem. Sprinkle the 1/4 teaspoon of salt on top of the them and then place them in a steamer basket over the boiling water. Cook for 45 minutes.",

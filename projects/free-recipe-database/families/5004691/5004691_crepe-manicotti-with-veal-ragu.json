@@ -57,25 +57,29 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, minced",
+      "name": "yellow onion",
       "quantity": "2 ½ medium",
-      "weigh_as": "9 oz"
+      "weigh_as": "9 oz",
+      "prep": "minced"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, minced",
+      "name": "carrot",
       "quantity": "2 ½ medium",
-      "weigh_as": "5 oz"
+      "weigh_as": "5 oz",
+      "prep": "minced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 286,
-      "name": "fresh rosemary, stems discarded and needles minced",
-      "quantity": "2 sprigs"
+      "name": "fresh rosemary",
+      "quantity": "2 sprigs",
+      "prep": "stems discarded and needles minced"
     },
     {
       "ingredient_id": 2809,
@@ -174,6 +178,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the yellow onion. Mince the carrot. Mince the garlic. Discard the stems from the fresh rosemary, then mince the needles.",
+      "secondary_message": "2 ½ medium yellow onion\n2 ½ medium carrot\n4 medium cloves garlic\n2 sprigs fresh rosemary"
+    },
     {
       "id": 1,
       "primary_message": "For the Ragù: In a Dutch oven, heat olive oil over medium-high heat until shimmering. Add onion, carrot, and garlic and cook, stirring frequently, until softened and beginning to turn golden, about 6 minutes. Add rosemary and half of veal and cook, stirring and scraping the bottom of the pot frequently, until well browned, 8 to 10 minutes; make sure to break up veal into tiny bits as you go. Season with salt and pepper.",

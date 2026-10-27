@@ -98,18 +98,21 @@
     },
     {
       "ingredient_id": 333,
-      "name": "unsweetened cocoa powder, sifted",
-      "quantity": "26 g"
+      "name": "unsweetened cocoa powder",
+      "quantity": "26 g",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "84 g"
+      "name": "unsalted butter",
+      "quantity": "84 g",
+      "prep": "softened"
     },
     {
       "ingredient_id": 347,
@@ -148,6 +151,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Sift the unsweetened cocoa powder. Beat the egg. Soften the unsalted butter.",
+      "secondary_message": "26 g unsweetened cocoa powder\n1 large egg\n84 g unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Using nonstick baking spray, grease an 8- by 20-cm baking pan. Alternatively, line the baking pan with 2 long strips of parchment to cover the bottom and sides, creasing as needed to ensure a secure fit.",

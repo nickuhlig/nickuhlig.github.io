@@ -37,9 +37,10 @@
   "ingredients": [
     {
       "ingredient_id": 184,
-      "name": "red onion, thinly sliced pole to pole",
+      "name": "red onion",
       "quantity": "½ medium",
-      "weigh_as": "55 g"
+      "weigh_as": "55 g",
+      "prep": "thinly sliced pole to pole"
     },
     {
       "ingredient_id": 130,
@@ -48,8 +49,9 @@
     },
     {
       "ingredient_id": 260,
-      "name": "mixed ripe tomatoes, cut into slices and chunks",
-      "quantity": "340 g"
+      "name": "mixed ripe tomatoes",
+      "quantity": "340 g",
+      "prep": "cut into slices and chunks"
     },
     {
       "ingredient_id": 1980,
@@ -84,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the red onion pole to pole. Cut the mixed ripe tomatoes into slices and chunks.",
+      "secondary_message": "½ medium red onion\n340 g mixed ripe tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, combine onion with vinegar and let soak while you prepare the other ingredients, about 15 minutes. Drain onions, reserving vinegar.",

@@ -48,8 +48,9 @@
     },
     {
       "ingredient_id": 243,
-      "name": "well-packed mint leaves, thoroughly washed",
-      "quantity": "2 cups"
+      "name": "well-packed mint leaves",
+      "quantity": "2 cups",
+      "prep": "thoroughly washed"
     },
     {
       "ingredient_id": 3641,
@@ -73,6 +74,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash the thoroughly of the well-packed mint leaves.",
+      "secondary_message": "2 cups well-packed mint leaves"
+    },
     {
       "id": 1,
       "primary_message": "Bring cream and milk to a simmer in a medium saucepan, stirring frequently. Stir in mint leaves, cover, and remove from heat. Let mint infuse for 2 hours at room temperature.",

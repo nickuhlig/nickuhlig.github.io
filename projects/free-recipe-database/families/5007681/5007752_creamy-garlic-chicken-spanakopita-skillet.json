@@ -44,8 +44,9 @@
   "ingredients": [
     {
       "ingredient_id": 33,
-      "name": "fresh baby spinach leaves, washed",
-      "quantity": "0.45 kg"
+      "name": "fresh baby spinach leaves",
+      "quantity": "0.45 kg",
+      "prep": "washed"
     },
     {
       "ingredient_id": 115,
@@ -54,8 +55,9 @@
     },
     {
       "ingredient_id": 44,
-      "name": "boneless skinless chicken breasts, chopped into 1-inch chunks",
-      "quantity": "0.68 kg"
+      "name": "boneless skinless chicken breasts",
+      "quantity": "0.68 kg",
+      "prep": "chopped into 1-inch chunks"
     },
     {
       "ingredient_id": 88,
@@ -69,8 +71,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "5 medium cloves"
+      "name": "garlic",
+      "quantity": "5 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 116,
@@ -89,8 +92,9 @@
     },
     {
       "ingredient_id": 32,
-      "name": "feta cheese, crumbled",
-      "quantity": "170 g"
+      "name": "feta cheese",
+      "quantity": "170 g",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 153,
@@ -99,16 +103,24 @@
     },
     {
       "ingredient_id": 1932,
-      "name": "dill, chopped, plus more for garnish",
-      "quantity": "1 small bunch"
+      "name": "dill, plus more for garnish",
+      "quantity": "1 small bunch",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2818,
-      "name": "phyllo dough, thawed and covered with a towel",
-      "quantity": "6 to 8 sheets"
+      "name": "phyllo dough",
+      "quantity": "6 to 8 sheets",
+      "prep": "thawed and covered with a towel"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash the fresh baby spinach leaves. Chop the boneless skinless chicken breasts into 1-inch chunks. Mince the garlic. Crumble the feta cheese. Chop the dill. Thaw and cover the phyllo dough with a towel.",
+      "secondary_message": "0.45 kg fresh baby spinach leaves\n0.68 kg boneless skinless chicken breasts\n5 medium cloves garlic\n170 g feta cheese\n1 small bunch dill, plus more for garnish\n6 to 8 sheets phyllo dough"
+    },
     {
       "id": 1,
       "primary_message": "Heat a large cast iron skillet over medium heat. Add spinach, a handful at a time, until the pan is full; you may have to cook the spinach in batches to ensure that it cooks evenly. Turn the spinach often until just wilted, then transfer to a colander and press out as much water as you can. Continue until all of the spinach is wilted and pressed.",

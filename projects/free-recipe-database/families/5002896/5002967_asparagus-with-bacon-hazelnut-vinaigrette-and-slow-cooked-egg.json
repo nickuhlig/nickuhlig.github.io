@@ -41,19 +41,22 @@
     },
     {
       "ingredient_id": 26,
-      "name": "thick asparagus, trimmed and peeled",
+      "name": "thick asparagus",
       "quantity": "1 ½ bunches",
-      "weigh_as": "0.68 kg"
+      "weigh_as": "0.68 kg",
+      "prep": "trimmed and peeled"
     },
     {
       "ingredient_id": 302,
-      "name": "thick cut bacon, cut crosswise into 1/2-inch pieces",
-      "quantity": "8 slices"
+      "name": "thick cut bacon",
+      "quantity": "8 slices",
+      "prep": "cut crosswise into 1/2-inch pieces"
     },
     {
       "ingredient_id": 1716,
-      "name": "hazelnuts, peeled, toasted, and roughly chopped",
-      "quantity": "¾ cup"
+      "name": "hazelnuts",
+      "quantity": "¾ cup",
+      "prep": "peeled, toasted, and roughly chopped"
     },
     {
       "ingredient_id": 103,
@@ -87,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim and peel the thick asparagus. Cut the thick cut bacon crosswise into 1/2-inch pieces. Peel, toast, and roughly chop the hazelnuts.",
+      "secondary_message": "1 ½ bunches thick asparagus\n8 slices thick cut bacon\n¾ cup hazelnuts"
+    },
     {
       "id": 1,
       "primary_message": "Preheat water oven to 60°C (142°F). Place eggs in water bath and cook at least 45 minutes, and up to 4 hours.",

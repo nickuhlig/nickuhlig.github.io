@@ -59,8 +59,9 @@
     },
     {
       "ingredient_id": 420,
-      "name": "Puy lentils, drained and rinsed",
-      "quantity": "2 (411 g) cans"
+      "name": "Puy lentils",
+      "quantity": "2 (411 g) cans",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 359,
@@ -74,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain and rinse the Puy lentils.",
+      "secondary_message": "2 (411 g) cans Puy lentils"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center position and preheat the oven to 230°C (450°F). Heat the oil in a large ovenproof skillet over medium heat until shimmering. Add shallots and sausages, and season with salt and pepper. Shake to coat everything in the oil, transfer to oven, and bake until the shallots are soft and caramelized and the sausages blistered, about 30 minutes, stirring once or twice.",

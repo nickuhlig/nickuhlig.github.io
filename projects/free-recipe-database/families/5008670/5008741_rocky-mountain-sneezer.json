@@ -44,8 +44,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, juiced",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "juiced"
     },
     {
       "ingredient_id": 346,
@@ -59,6 +60,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "Combine ingredients in a cocktail shaker and stir until sugar is dissolved. Add a good handful of snow—\"preferably from the Rocky Mountains,\" Cedric writes—and shake well; pour into a old-fashioned glass and top with fresh snow.",

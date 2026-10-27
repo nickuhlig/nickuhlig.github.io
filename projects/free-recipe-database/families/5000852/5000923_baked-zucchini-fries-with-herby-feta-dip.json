@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic clove, coarsely chopped",
-      "quantity": "1 small"
+      "name": "garlic clove",
+      "quantity": "1 small",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 1480,
@@ -121,6 +122,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Coarsely chop the garlic clove.",
+      "secondary_message": "1 small garlic clove"
+    },
     {
       "id": 1,
       "primary_message": "For the Feta-Herb Dip: In a food processor, combine feta, yogurt, water, olive oil, garlic, lemon juice, thyme, and dill and process until smooth, scraping down sides of processor bowl as needed, about 30 seconds. Transfer to a shallow serving bowl and refrigerate until ready to serve.",

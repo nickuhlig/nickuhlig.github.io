@@ -44,13 +44,15 @@
     },
     {
       "ingredient_id": 309,
-      "name": "leek, finely chopped",
-      "quantity": "1"
+      "name": "leek",
+      "quantity": "1",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1994,
-      "name": "thyme, leaves removed",
-      "quantity": "2 sprigs"
+      "name": "thyme",
+      "quantity": "2 sprigs",
+      "prep": "leaves removed"
     },
     {
       "ingredient_id": 2471,
@@ -99,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the leek. Remove the leaves from the thyme.",
+      "secondary_message": "1 leek\n2 sprigs thyme"
+    },
     {
       "id": 1,
       "primary_message": "Melt butter in a large skillet over medium high heat. Add leek and thyme leaves and cook, stirring, until onions are soft and just beginning to brown, about 5 minutes. Remove from heat and set aside.",

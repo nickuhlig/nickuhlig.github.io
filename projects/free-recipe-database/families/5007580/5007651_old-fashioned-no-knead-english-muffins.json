@@ -76,8 +76,9 @@
     },
     {
       "ingredient_id": 3642,
-      "name": "egg white, cold",
-      "quantity": "1 large"
+      "name": "egg white",
+      "quantity": "1 large",
+      "prep": "cold"
     },
     {
       "ingredient_id": 2210,
@@ -91,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the egg white cold until you use it.",
+      "secondary_message": "1 large egg white"
+    },
     {
       "id": 1,
       "primary_message": "Make the Dough and Let Rise: In a large bowl, mix bread flour, whole wheat flour, kosher salt, and yeast together until well combined. Add milk, honey, and egg white, stirring with a flexible spatula until smooth, about 5 minutes. Cover with plastic and set aside until spongy, light, and more than doubled, 4 to 5 hours at 21°C. (The timing is flexible depending on your schedule.)",

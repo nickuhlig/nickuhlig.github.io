@@ -64,8 +64,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely diced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 1714,
@@ -79,8 +80,9 @@
     },
     {
       "ingredient_id": 2216,
-      "name": "Bing cherries, pitted, stemmed, and halved",
-      "quantity": "7 oz"
+      "name": "Bing cherries",
+      "quantity": "7 oz",
+      "prep": "pitted, stemmed, and halved"
     },
     {
       "ingredient_id": 131,
@@ -104,6 +106,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the shallot. Pit, stem, and halve the Bing cherries.",
+      "secondary_message": "1 small shallot\n7 oz Bing cherries"
+    },
     {
       "id": 1,
       "primary_message": "Take duck breasts out of the fridge 15 minutes before cooking. Preheat the oven to 400°F. Score skin on top of the breasts in a crosshatch fashion, being careful to score only the fat and not the flesh beneath it. Season duck on all sides with salt.",

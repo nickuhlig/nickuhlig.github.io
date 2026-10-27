@@ -39,23 +39,27 @@
   "ingredients": [
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and roughly diced",
-      "quantity": "4 medium"
+      "name": "carrots",
+      "quantity": "4 medium",
+      "prep": "peeled and roughly diced"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, roughly diced",
-      "quantity": "4 stalks"
+      "name": "celery",
+      "quantity": "4 stalks",
+      "prep": "roughly diced"
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, roughly diced",
-      "quantity": "2 large"
+      "name": "onions",
+      "quantity": "2 large",
+      "prep": "roughly diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 84,
@@ -64,6 +68,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and roughly dice the carrots. Roughly dice the celery. Roughly dice the onions. Smash the garlic.",
+      "secondary_message": "4 medium carrots\n4 stalks celery\n2 large onions\n4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Fill a large pot with 4 quarts of water and add carrots, celery, onion, garlic, and herbs. Bring to a low boil over high heat, then reduce to a simmer and let cook for at least 20 minutes and up to 40 minutes. Strain and use as needed.",

@@ -67,13 +67,15 @@
     },
     {
       "ingredient_id": 2506,
-      "name": "beef brisket, cut with the grain into 3 steaks",
-      "quantity": "3 lb"
+      "name": "beef brisket",
+      "quantity": "3 lb",
+      "prep": "cut with the grain into 3 steaks"
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, peeled and thinly sliced",
-      "quantity": "1 (3 inch) piece"
+      "name": "ginger",
+      "quantity": "1 (3 inch) piece",
+      "prep": "peeled and thinly sliced"
     },
     {
       "ingredient_id": 1756,
@@ -117,16 +119,24 @@
     },
     {
       "ingredient_id": 2196,
-      "name": "daikon radish, peeled and cut into 2-inch cubes",
-      "quantity": "1 lb"
+      "name": "daikon radish",
+      "quantity": "1 lb",
+      "prep": "peeled and cut into 2-inch cubes"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and cut into 2-inch cubes",
-      "quantity": "3 large"
+      "name": "carrots",
+      "quantity": "3 large",
+      "prep": "peeled and cut into 2-inch cubes"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the beef brisket with the grain into 3 steaks. Peel and thinly slice the ginger. Peel and cut the daikon radish into 2-inch cubes. Peel and cut the carrots into 2-inch cubes.",
+      "secondary_message": "3 lb beef brisket\n1 (3 inch) piece ginger\n1 lb daikon radish\n3 large carrots"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 300°F.",

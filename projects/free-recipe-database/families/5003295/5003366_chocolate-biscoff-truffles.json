@@ -34,8 +34,9 @@
   "ingredients": [
     {
       "ingredient_id": 1729,
-      "name": "dark chocolate, chopped",
-      "quantity": "85 g"
+      "name": "dark chocolate",
+      "quantity": "85 g",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1752,
@@ -59,6 +60,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the dark chocolate.",
+      "secondary_message": "85 g dark chocolate"
+    },
     {
       "id": 1,
       "primary_message": "In a medium, heavy-bottomed sauce pan, heat heavy cream over medium low heat until warm. Add chocolate and cook, stirring frequently, until melted. Stir in vanilla, take off heat, and immediately stir in Biscoff spread until mixture is smooth.",

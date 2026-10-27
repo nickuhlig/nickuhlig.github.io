@@ -63,8 +63,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, thinly sliced",
-      "quantity": "4 medium"
+      "name": "onions",
+      "quantity": "4 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -83,6 +84,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the onions.",
+      "secondary_message": "4 medium onions"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat the oven to 245°C (475°F). Shape dough into ball and place in medium bowl coated lightly with olive oil or nonstick spray. Cover tightly with plastic and set aside at room temperature.",

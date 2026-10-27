@@ -79,8 +79,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, crushed",
-      "quantity": "8 medium"
+      "name": "garlic cloves",
+      "quantity": "8 medium",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 90,
@@ -109,8 +110,9 @@
     },
     {
       "ingredient_id": 2156,
-      "name": "beef sirloin, sliced into 1/8-inch thick strips",
-      "quantity": "1 lb"
+      "name": "beef sirloin",
+      "quantity": "1 lb",
+      "prep": "sliced into 1/8-inch thick strips"
     },
     {
       "ingredient_id": 52,
@@ -124,6 +126,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Crush the garlic cloves. Slice the beef sirloin into 1/8-inch thick strips.",
+      "secondary_message": "8 medium garlic cloves\n1 lb beef sirloin"
+    },
     {
       "id": 1,
       "primary_message": "In a mortar and pestle or mini food processor, combine lemongrass, bay leaves, thyme, lemon zest, lime zest, ginger, and garlic and pound until well crushed and a coarse paste forms. Add turmeric, lemon juice, salt, sugar, and cinnamon. Pound again, mix well, and set the paste aside. The paste can be made ahead and refrigerated up to 3 days.",

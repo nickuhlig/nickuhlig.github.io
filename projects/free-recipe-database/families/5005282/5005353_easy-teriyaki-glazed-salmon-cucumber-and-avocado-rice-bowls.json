@@ -65,18 +65,21 @@
     },
     {
       "ingredient_id": 183,
-      "name": "avocado, diced",
-      "quantity": "1"
+      "name": "avocado",
+      "quantity": "1",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1399,
-      "name": "Persian cucumber, diced",
-      "quantity": "1"
+      "name": "Persian cucumber",
+      "quantity": "1",
+      "prep": "diced"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, thinly sliced",
-      "quantity": "6 to 8"
+      "name": "scallions",
+      "quantity": "6 to 8",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1685,
@@ -85,6 +88,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the avocado. Dice the Persian cucumber. Thinly slice the scallions.",
+      "secondary_message": "1 avocado\n1 Persian cucumber\n6 to 8 scallions"
+    },
     {
       "id": 1,
       "primary_message": "Press salmon fillets between paper towels to dry surfaces thoroughly. Season on all sides with salt and pepper. Heat oil in a large stainless steel skillet over medium-high heat until shimmering. Add salmon fillets, skin side down. Immediately reduce heat to medium-low. Cook, pressing gently on back of fillets to ensure good contact between the skin and the pan, until skin is rendered and crisp, about 6 minutes. If skin shows resistance when you attempt to lift with a spatula, allow it to continue to cook until it lifts easily.",

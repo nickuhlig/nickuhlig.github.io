@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 2112,
-      "name": "homemade dashi, chilled",
-      "quantity": "¾ cup"
+      "name": "homemade dashi",
+      "quantity": "¾ cup",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 2671,
@@ -60,6 +61,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the homemade dashi cold until you use it.",
+      "secondary_message": "¾ cup homemade dashi"
+    },
     {
       "id": 1,
       "primary_message": "Combine mirin, sugar, and soy sauce in a small saucepan and set over medium heat. Cook, stirring, until sugar is dissolved. Transfer to a bowl and set in the refrigerator to chill. (You can also rapidly cool by pouring mixture into a stainless steel mixing bowl and nesting that bowl in a slightly larger mixing bowl filled with ice water.)",

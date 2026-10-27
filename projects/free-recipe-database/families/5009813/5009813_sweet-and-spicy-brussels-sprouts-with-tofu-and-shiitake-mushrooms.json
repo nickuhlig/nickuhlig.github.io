@@ -64,8 +64,9 @@
     },
     {
       "ingredient_id": 2478,
-      "name": "firm tofu, cut into 1/2-inch cubes",
-      "quantity": "5 oz"
+      "name": "firm tofu",
+      "quantity": "5 oz",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 14,
@@ -89,18 +90,21 @@
     },
     {
       "ingredient_id": 2088,
-      "name": "fresh red chile, stemmed, seeded, and diced",
-      "quantity": "½"
+      "name": "fresh red chile",
+      "quantity": "½",
+      "prep": "stemmed, seeded, and diced"
     },
     {
       "ingredient_id": 1929,
-      "name": "shiitake mushrooms, stemmed and quartered",
-      "quantity": "1 ½ cups"
+      "name": "shiitake mushrooms",
+      "quantity": "1 ½ cups",
+      "prep": "stemmed and quartered"
     },
     {
       "ingredient_id": 188,
-      "name": "cilantro leaves, chopped",
-      "quantity": "1 cup"
+      "name": "cilantro leaves",
+      "quantity": "1 cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 181,
@@ -109,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the firm tofu into 1/2-inch cubes. Stem, seed, and dice the fresh red chile. Stem and quarter the shiitake mushrooms. Chop the cilantro leaves.",
+      "secondary_message": "5 oz firm tofu\n½ fresh red chile\n1 ½ cups shiitake mushrooms\n1 cup cilantro leaves"
+    },
     {
       "id": 1,
       "primary_message": "In a bowl, combine the sweet chile sauce, soy sauce, rice vinegar, maple syrup, and sesame oil. Add the tofu cubes and stir until combined. Set aside.",

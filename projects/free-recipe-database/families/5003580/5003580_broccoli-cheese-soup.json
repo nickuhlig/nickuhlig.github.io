@@ -73,18 +73,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, sliced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, peeled and finely diced",
-      "quantity": "1 medium"
+      "name": "carrot",
+      "quantity": "1 medium",
+      "prep": "peeled and finely diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 359,
@@ -98,18 +101,21 @@
     },
     {
       "ingredient_id": 1039,
-      "name": "russet potato, peeled and sliced",
-      "quantity": "1 small"
+      "name": "russet potato",
+      "quantity": "1 small",
+      "prep": "peeled and sliced"
     },
     {
       "ingredient_id": 43,
-      "name": "sharp cheddar cheese, grated",
-      "quantity": "12 oz"
+      "name": "sharp cheddar cheese",
+      "quantity": "12 oz",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1264,
-      "name": "deli-style American cheese, diced",
-      "quantity": "8 oz"
+      "name": "deli-style American cheese",
+      "quantity": "8 oz",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1683,
@@ -123,6 +129,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the onion. Peel and finely dice the carrot. Thinly slice the garlic. Peel and slice the russet potato. Grate the sharp cheddar cheese. Dice the deli-style American cheese.",
+      "secondary_message": "1 medium onion\n1 medium carrot\n3 medium cloves garlic\n1 small russet potato\n12 oz sharp cheddar cheese\n8 oz deli-style American cheese"
+    },
     {
       "id": 1,
       "primary_message": "Separate broccoli into florets and stems. Cut florets into bite-size pieces and set aside. Roughly chop stems and reserve separately.",

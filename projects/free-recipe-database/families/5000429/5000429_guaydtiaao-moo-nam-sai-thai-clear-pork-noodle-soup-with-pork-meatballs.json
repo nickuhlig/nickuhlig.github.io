@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 2163,
-      "name": "boneless pork loin, sliced 1/8-inch thick",
-      "quantity": "8 oz"
+      "name": "boneless pork loin",
+      "quantity": "8 oz",
+      "prep": "sliced 1/8-inch thick"
     },
     {
       "ingredient_id": 52,
@@ -110,16 +111,24 @@
     },
     {
       "ingredient_id": 188,
-      "name": "cilantro, cut into 1/2-inch pieces",
-      "quantity": "5 sprigs"
+      "name": "cilantro",
+      "quantity": "5 sprigs",
+      "prep": "cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 1720,
-      "name": "Chinese celery leaves and stalks, cut into 1/2-inch pieces",
-      "quantity": "5 sprigs"
+      "name": "Chinese celery leaves and stalks",
+      "quantity": "5 sprigs",
+      "prep": "cut into 1/2-inch pieces"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the boneless pork loin 1/8-inch thick. Cut the cilantro into 1/2-inch pieces. Cut the Chinese celery leaves and stalks into 1/2-inch pieces.",
+      "secondary_message": "8 oz boneless pork loin\n5 sprigs cilantro\n5 sprigs Chinese celery leaves and stalks"
+    },
     {
       "id": 1,
       "primary_message": "For the Marinated Pork and Meatballs: In a mixing bowl, toss sliced pork with 2 teaspoons fish sauce, 1/8 teaspoon white pepper, and a pinch of salt until evenly coated. Set aside.",

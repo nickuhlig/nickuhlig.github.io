@@ -108,8 +108,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cubed and softened at room temperature",
-      "quantity": "1 ⅓ sticks"
+      "name": "unsalted butter",
+      "quantity": "1 ⅓ sticks",
+      "prep": "cubed and softened at room temperature"
     },
     {
       "ingredient_id": 3217,
@@ -133,6 +134,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cube and soften the unsalted butter at room temperature.",
+      "secondary_message": "1 ⅓ sticks unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Adjust oven rack to lower position and preheat oven to 175°C (350°F). Grease a rimmed jelly roll pan with a little butter and line with baking parchment on bottom and sides.",

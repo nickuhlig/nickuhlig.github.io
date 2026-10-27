@@ -59,13 +59,15 @@
   "ingredients": [
     {
       "ingredient_id": 121,
-      "name": "egg, at room temperature",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "2 (10 g) medium cloves"
+      "name": "garlic",
+      "quantity": "2 (10 g) medium cloves",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1480,
@@ -109,8 +111,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "5 (25 g) medium cloves"
+      "name": "garlic",
+      "quantity": "5 (25 g) medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 3690,
@@ -164,13 +167,15 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, thinly sliced",
-      "quantity": "2"
+      "name": "scallions",
+      "quantity": "2",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely chopped",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2243,
@@ -209,6 +214,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the egg to room temperature. Roughly chop the garlic. Mince the garlic. Thinly slice the scallions. Finely chop the shallot.",
+      "secondary_message": "1 large egg\n2 (10 g) medium cloves garlic\n5 (25 g) medium cloves garlic\n2 scallions\n1 small shallot"
+    },
     {
       "id": 1,
       "primary_message": "For the Aioli: In a food processor bowl, combine egg, garlic, lemon juice, and salt and process until a cohesive yellow mixture forms, about 10 seconds. With the machine running, slowly drizzle in oil through the feed tube in a slow and steady stream, until fully emulsified, stopping to scrape down the sides as needed. Season with salt and pepper to taste. Refrigerate aioli in an airtight container until ready to use. (Aioli can be refrigerated for up to one week.)",

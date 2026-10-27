@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 1039,
-      "name": "russet potatoes, peeled and cut into large pieces",
-      "quantity": "2 medium"
+      "name": "russet potatoes",
+      "quantity": "2 medium",
+      "prep": "peeled and cut into large pieces"
     },
     {
       "ingredient_id": 2428,
@@ -70,8 +71,9 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, roughly chopped",
-      "quantity": "1 large"
+      "name": "white onion",
+      "quantity": "1 large",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 24,
@@ -80,11 +82,18 @@
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, peeled and sliced",
-      "quantity": "1 (1 ½ inch) piece"
+      "name": "ginger",
+      "quantity": "1 (1 ½ inch) piece",
+      "prep": "peeled and sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the russet potatoes into large pieces. Roughly chop the white onion. Peel and slice the ginger.",
+      "secondary_message": "2 medium russet potatoes\n1 large white onion\n1 (1 ½ inch) piece ginger"
+    },
     {
       "id": 1,
       "primary_message": "For the Porridge: Add peeled potatoes to a saucepan and cover with enough water to submerge. Bring to a simmer and cook until soft enough to pierce with a fork, about 20 minutes. While potatoes are hot, break up with a fork. Using an immersion blender or countertop blender, purée potatoes with the cooking water until smooth. Set aside to cool to room temperature.",

@@ -74,8 +74,9 @@
     },
     {
       "ingredient_id": 19,
-      "name": "button mushrooms, quartered",
-      "quantity": "340 g"
+      "name": "button mushrooms",
+      "quantity": "340 g",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 2627,
@@ -89,8 +90,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, thinly sliced",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 287,
@@ -139,6 +141,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Quarter the button mushrooms. Thinly slice the shallot.",
+      "secondary_message": "340 g button mushrooms\n1 medium shallot"
+    },
     {
       "id": 1,
       "primary_message": "Sprinkle gelatin over chicken stock in a small bowl or liquid measuring cup. Set aside. Bring a large pot of salted water to a boil.",

@@ -50,8 +50,9 @@
   "ingredients": [
     {
       "ingredient_id": 164,
-      "name": "boneless skinless chicken thighs, cut into 3/4-inch pieces",
-      "quantity": "2"
+      "name": "boneless skinless chicken thighs",
+      "quantity": "2",
+      "prep": "cut into 3/4-inch pieces"
     },
     {
       "ingredient_id": 1800,
@@ -80,8 +81,9 @@
     },
     {
       "ingredient_id": 1879,
-      "name": "spinach, washed well",
-      "quantity": "1 (115 g) bunch"
+      "name": "spinach",
+      "quantity": "1 (115 g) bunch",
+      "prep": "washed well"
     },
     {
       "ingredient_id": 2865,
@@ -126,6 +128,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the boneless skinless chicken thighs into 3/4-inch pieces. Wash the spinach well.",
+      "secondary_message": "2 boneless skinless chicken thighs\n1 (115 g) bunch spinach"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, stir together chicken, sake, and 1 teaspoon kosher salt. Refrigerate for 1 hour.",

@@ -66,11 +66,18 @@
     },
     {
       "ingredient_id": 359,
-      "name": "water, room temperature",
-      "quantity": "347 g"
+      "name": "water",
+      "quantity": "347 g",
+      "prep": "room temperature"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the water to room temperature.",
+      "secondary_message": "347 g water"
+    },
     {
       "id": 1,
       "primary_message": "Combine flour, salt, yeast, and 2 tablespoons olive oil in bowl of stand mixer (see note for mixer-free version). Whisk to combine. Add water to mixer and mix on medium speed until it comes together and no dry flour remains. Increase speed to medium-high and mix until the dough is stretchy and smooth, about 6 minutes. The dough should stick to the bottom of the bowl but pull away from the sides.",

@@ -59,8 +59,9 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, diced",
-      "quantity": "3 large"
+      "name": "carrots",
+      "quantity": "3 large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 152,
@@ -74,8 +75,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1231,
@@ -104,6 +106,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the carrots. Roughly chop the garlic.",
+      "secondary_message": "3 large carrots\n4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Season beef with salt and pepper. In a large pot or Dutch oven, heat oil over high heat until lightly smoking. Working in batches if necessary, add beef and cook, turning occasionally, until well browned on all sides, about 5 minutes per side. Transfer to a large platter.",

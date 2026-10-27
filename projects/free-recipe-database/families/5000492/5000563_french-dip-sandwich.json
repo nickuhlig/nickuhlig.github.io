@@ -58,8 +58,9 @@
     },
     {
       "ingredient_id": 2206,
-      "name": "dried porcini mushrooms, rinsed",
-      "quantity": "7 g"
+      "name": "dried porcini mushrooms",
+      "quantity": "7 g",
+      "prep": "rinsed"
     },
     {
       "ingredient_id": 1044,
@@ -68,8 +69,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, halved and thinly sliced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "halved and thinly sliced"
     },
     {
       "ingredient_id": 115,
@@ -113,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse the dried porcini mushrooms. Halve and thinly slice the yellow onion.",
+      "secondary_message": "7 g dried porcini mushrooms\n1 medium yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "For the Roast Beef and the Jus: Set roast on a wire rack set in a rimmed baking sheet or on a platter and sprinkle evenly with the 4 teaspoons salt and refrigerate uncovered for at least 1 hour or up to 24 hours.",

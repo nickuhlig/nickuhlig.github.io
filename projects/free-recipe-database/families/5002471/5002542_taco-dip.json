@@ -83,8 +83,9 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "white onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 359,
@@ -118,14 +119,16 @@
     },
     {
       "ingredient_id": 183,
-      "name": "avocado, diced into 1/4 inch pieces",
-      "quantity": "1"
+      "name": "avocado",
+      "quantity": "1",
+      "prep": "diced into 1/4 inch pieces"
     },
     {
       "ingredient_id": 1541,
-      "name": "plum tomatoes, diced into 1/4-inch pieces",
+      "name": "plum tomatoes",
       "quantity": "1 ¾",
-      "weigh_as": "113 g"
+      "weigh_as": "113 g",
+      "prep": "diced into 1/4-inch pieces"
     },
     {
       "ingredient_id": 1373,
@@ -149,6 +152,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the white onion. Dice the avocado into 1/4 inch pieces. Dice the plum tomatoes into 1/4-inch pieces.",
+      "secondary_message": "1 medium white onion\n1 avocado\n1 ¾ plum tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "In a large skillet, heat oil over medium until shimmering. Add chili powder, cumin, garlic powder, oregano, salt, and smoked paprika, and stir until fragrant, about 30 seconds. Stir in onions, water, and lime juice and cook, stirring occasionally, until onions soften and a light sauce forms, about 4 minutes. Transfer the mixture to a plate or small bowl to cool slightly, about 5 minutes.",

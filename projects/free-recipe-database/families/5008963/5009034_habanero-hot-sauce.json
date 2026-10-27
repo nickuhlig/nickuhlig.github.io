@@ -40,33 +40,39 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, chopped",
-      "quantity": "2 large"
+      "name": "carrots",
+      "quantity": "2 large",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 260,
-      "name": "red tomatoes, cut into quarters",
-      "quantity": "2 medium"
+      "name": "red tomatoes",
+      "quantity": "2 medium",
+      "prep": "cut into quarters"
     },
     {
       "ingredient_id": 1713,
-      "name": "Spanish onion, cut into strips",
-      "quantity": "¼"
+      "name": "Spanish onion",
+      "quantity": "¼",
+      "prep": "cut into strips"
     },
     {
       "ingredient_id": 2485,
-      "name": "habanero peppers, cut in half",
-      "quantity": "3"
+      "name": "habanero peppers",
+      "quantity": "3",
+      "prep": "cut in half"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, cut in half",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "cut in half"
     },
     {
       "ingredient_id": 228,
-      "name": "lime, juiced",
-      "quantity": "1"
+      "name": "lime",
+      "quantity": "1",
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1574,
@@ -80,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the carrots. Cut the red tomatoes into quarters. Cut the Spanish onion into strips. Cut the habanero peppers in half. Cut the garlic in half. Juice the lime.",
+      "secondary_message": "2 large carrots\n2 medium red tomatoes\n¼ Spanish onion\n3 habanero peppers\n3 cloves garlic\n1 lime"
+    },
     {
       "id": 1,
       "primary_message": "Heat the oil in a skillet on medium heat. Add the carrots and let them cook for about 5 minutes. Then add to the skillet the tomatoes, onion, habaneros and garlic cloves and cook, stirring occasionally.",

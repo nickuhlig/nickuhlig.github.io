@@ -60,8 +60,9 @@
   "ingredients": [
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, about 70% cacao, finely chopped",
-      "quantity": "128 g"
+      "name": "bittersweet chocolate, about 70% cacao",
+      "quantity": "128 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 118,
@@ -95,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the bittersweet chocolate.",
+      "secondary_message": "128 g bittersweet chocolate, about 70% cacao"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat to 325ºF (160ºF). Set four 113 g ramekins in a large roasting pan; set aside.",

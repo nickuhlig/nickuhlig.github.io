@@ -47,13 +47,15 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "8 large"
+      "name": "eggs",
+      "quantity": "8 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 57,
-      "name": "mozzarella, diced",
-      "quantity": "6 oz"
+      "name": "mozzarella",
+      "quantity": "6 oz",
+      "prep": "diced"
     },
     {
       "ingredient_id": 32,
@@ -77,11 +79,18 @@
     },
     {
       "ingredient_id": 2029,
-      "name": "freshly baked large drop biscuits, split",
-      "quantity": "4"
+      "name": "freshly baked large drop biscuits",
+      "quantity": "4",
+      "prep": "split"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Beat the eggs. Dice the mozzarella. Split the freshly baked large drop biscuits.",
+      "secondary_message": "8 large eggs\n6 oz mozzarella\n4 freshly baked large drop biscuits"
+    },
     {
       "id": 1,
       "primary_message": "In a medium nonstick skillet, heat butter over medium heat until starting to foam. Add onion and cook, stirring, until translucent, about 5 minutes. Add eggs and cook, stirring constantly, until loosely curds form throughout. Add feta and mozzarella and cook, stirring, until mozzarella is melted and eggs are softly scrambled, about 1 minute. Stir in dill and remove from heat. Season lightly with salt and pepper.",

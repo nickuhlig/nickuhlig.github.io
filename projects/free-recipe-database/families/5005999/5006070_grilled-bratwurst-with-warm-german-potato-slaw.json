@@ -34,24 +34,28 @@
   "ingredients": [
     {
       "ingredient_id": 302,
-      "name": "bacon, chopped",
-      "quantity": "6 strips"
+      "name": "bacon",
+      "quantity": "6 strips",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell pepper, stemmed, seeded, and sliced",
-      "quantity": "1"
+      "name": "red bell pepper",
+      "quantity": "1",
+      "prep": "stemmed, seeded, and sliced"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, sliced",
-      "quantity": "1 small"
+      "name": "yellow onion",
+      "quantity": "1 small",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 149,
-      "name": "mini red potatoes, sliced",
+      "name": "mini red potatoes",
       "quantity": "2 ½ medium",
-      "weigh_as": "0.57 kg"
+      "weigh_as": "0.57 kg",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 359,
@@ -70,9 +74,10 @@
     },
     {
       "ingredient_id": 310,
-      "name": "red cabbage, sliced",
+      "name": "red cabbage",
       "quantity": "½ small head",
-      "weigh_as": "283 g"
+      "weigh_as": "283 g",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 2783,
@@ -91,11 +96,18 @@
     },
     {
       "ingredient_id": 1027,
-      "name": "thick sausage rolls, split",
-      "quantity": "5"
+      "name": "thick sausage rolls",
+      "quantity": "5",
+      "prep": "split"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the bacon. Stem, seed, and slice the red bell pepper. Slice the yellow onion. Slice the mini red potatoes. Slice the red cabbage. Split the thick sausage rolls.",
+      "secondary_message": "6 strips bacon\n1 red bell pepper\n1 small yellow onion\n2 ½ medium mini red potatoes\n½ small head red cabbage\n5 thick sausage rolls"
+    },
     {
       "id": 1,
       "primary_message": "Heat one half of the grill, either by arranging the coals on one side of the charcoal grate or by setting half of the burners to high. Cover and preheat for 10 minutes. Clean and oil the grates.",

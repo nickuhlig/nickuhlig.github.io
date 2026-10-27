@@ -50,13 +50,15 @@
     },
     {
       "ingredient_id": 29,
-      "name": "toasted almonds, finely ground",
-      "quantity": "½ cup"
+      "name": "toasted almonds",
+      "quantity": "½ cup",
+      "prep": "finely ground"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "3 tbsp"
+      "name": "unsalted butter",
+      "quantity": "3 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 88,
@@ -65,8 +67,9 @@
     },
     {
       "ingredient_id": 2216,
-      "name": "fresh cherries, stemmed, pitted, and halved",
-      "quantity": "1 ½ lb"
+      "name": "fresh cherries",
+      "quantity": "1 ½ lb",
+      "prep": "stemmed, pitted, and halved"
     },
     {
       "ingredient_id": 2775,
@@ -100,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely grind the toasted almonds. Melt the unsalted butter. Stem, pit, and halve the fresh cherries.",
+      "secondary_message": "½ cup toasted almonds\n3 tbsp unsalted butter\n1 ½ lb fresh cherries"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350°F.",

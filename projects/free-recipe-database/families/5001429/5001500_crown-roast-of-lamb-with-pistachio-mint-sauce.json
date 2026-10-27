@@ -67,13 +67,15 @@
     },
     {
       "ingredient_id": 215,
-      "name": "dried apricots, diced",
-      "quantity": "½ cup"
+      "name": "dried apricots",
+      "quantity": "½ cup",
+      "prep": "diced"
     },
     {
       "ingredient_id": 2106,
-      "name": "pitted prunes, diced",
-      "quantity": "½ cup"
+      "name": "pitted prunes",
+      "quantity": "½ cup",
+      "prep": "diced"
     },
     {
       "ingredient_id": 2365,
@@ -87,8 +89,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, minced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 76,
@@ -97,8 +100,9 @@
     },
     {
       "ingredient_id": 2530,
-      "name": "warm cooked Israeli couscous, fluffed",
-      "quantity": "4 cups"
+      "name": "warm cooked Israeli couscous",
+      "quantity": "4 cups",
+      "prep": "fluffed"
     },
     {
       "ingredient_id": 1808,
@@ -152,6 +156,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the dried apricots. Dice the pitted prunes. Mince the onion. Fluff the warm cooked Israeli couscous.",
+      "secondary_message": "½ cup dried apricots\n½ cup pitted prunes\n1 medium onion\n4 cups warm cooked Israeli couscous"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 90°C (200°F) and position oven rack low enough to fit crown roast in oven. Generously season crown roast all over with salt and pepper. Place roast on a rack set in a rimmed baking sheet and roast until lamb registers 46°C (115°F) on an instant-read thermometer inserted into center of loin, 1 to 1 1/2 hours.",

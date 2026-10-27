@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "2"
+      "name": "eggs",
+      "quantity": "2",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 1684,
@@ -95,8 +96,9 @@
     },
     {
       "ingredient_id": 1198,
-      "name": "Martin's Sandwich-sized Potato Rolls, toasted in butter",
-      "quantity": "2"
+      "name": "Martin's Sandwich-sized Potato Rolls",
+      "quantity": "2",
+      "prep": "toasted in butter"
     },
     {
       "ingredient_id": 1265,
@@ -110,6 +112,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Beat the eggs. Toast the Martin's Sandwich-sized Potato Rolls in butter.",
+      "secondary_message": "2 eggs\n2 Martin's Sandwich-sized Potato Rolls"
+    },
     {
       "id": 1,
       "primary_message": "Divide beef evenly into four 113 g patties and shape each into a puck approximately 5 cm tall by 6 cm wide. Set aside in refrigerator.",

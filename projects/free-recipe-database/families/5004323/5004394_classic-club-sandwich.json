@@ -69,8 +69,9 @@
     },
     {
       "ingredient_id": 260,
-      "name": "beefsteak tomato, sliced",
-      "quantity": "1 large"
+      "name": "beefsteak tomato",
+      "quantity": "1 large",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 88,
@@ -84,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the beefsteak tomato.",
+      "secondary_message": "1 large beefsteak tomato"
+    },
     {
       "id": 1,
       "primary_message": "Spread both sides of each bread slice with 4 tablespoons mayonnaise. Toast bread in 2 batches over medium heat, about 5 minutes, turning once halfway through cooking. Transfer to cooling rack.",

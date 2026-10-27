@@ -52,8 +52,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, grated",
-      "quantity": "3 tbsp"
+      "name": "ginger",
+      "quantity": "3 tbsp",
+      "prep": "grated"
     },
     {
       "ingredient_id": 334,
@@ -102,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the ginger.",
+      "secondary_message": "3 tbsp ginger"
+    },
     {
       "id": 1,
       "primary_message": "In a medium saucepan, combine cream, milk, carrots, ginger, tahini, and spices over medium heat. Heat on a bare simmer, stirring now and then, for 15 to 20 minutes, until carrots and ginger have softened. Add salt in small pinches to taste. Remove the cloves and cardamom.",

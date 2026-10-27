@@ -80,8 +80,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "9 medium cloves"
+      "name": "garlic",
+      "quantity": "9 medium cloves",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 82,
@@ -115,8 +116,9 @@
     },
     {
       "ingredient_id": 1387,
-      "name": "natural-casing pepperoni, cut into 1/8-inch-thick slices",
-      "quantity": "325 g"
+      "name": "natural-casing pepperoni",
+      "quantity": "325 g",
+      "prep": "cut into 1/8-inch-thick slices"
     },
     {
       "ingredient_id": 1679,
@@ -125,6 +127,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the garlic. Cut the natural-casing pepperoni into 1/8-inch-thick slices.",
+      "secondary_message": "9 medium cloves garlic\n325 g natural-casing pepperoni"
+    },
     {
       "id": 1,
       "primary_message": "To Make the Dough in a Food Processor (recommended): Combine flour, salt, yeast, 20g olive oil, and water in the bowl of a food processor fitted with the blade or dough blade attachment. Process until a dough that rides around the blade forms, then continue processing for 30 seconds. Continue with Step 4 below.",

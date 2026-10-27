@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 3665,
-      "name": "crisp slices bacon, cut in half",
-      "quantity": "4"
+      "name": "crisp slices bacon",
+      "quantity": "4",
+      "prep": "cut in half"
     },
     {
       "ingredient_id": 1264,
@@ -67,6 +68,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the crisp slices bacon in half.",
+      "secondary_message": "4 crisp slices bacon"
+    },
     {
       "id": 1,
       "primary_message": "Divide beef into 2 equal parts. Shape into square patties slightly larger than the grilled cheese sandwiches that will serve as buns. Create a slight indentation in the center of the patties.",

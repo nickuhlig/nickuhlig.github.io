@@ -45,8 +45,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, very soft",
-      "quantity": "8 tbsp (4 oz)"
+      "name": "unsalted butter",
+      "quantity": "8 tbsp (4 oz)",
+      "prep": "very soft"
     },
     {
       "ingredient_id": 346,
@@ -85,11 +86,18 @@
     },
     {
       "ingredient_id": 1135,
-      "name": "drained pineapple cubes, chopped",
-      "quantity": "1 cup (6 oz)"
+      "name": "drained pineapple cubes",
+      "quantity": "1 cup (6 oz)",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter. Chop the drained pineapple cubes.",
+      "secondary_message": "8 tbsp (4 oz) unsalted butter\n1 cup (6 oz) drained pineapple cubes"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to upper-middle position and preheat oven to 375°F. Line a 12-cup muffin pan with cupcake liners. Stir butter with sugar and salt in a large bowl until creamy. Whisk in eggs, one by one, until combined. Whisk in coconut milk and 3/4 cup coconut.",

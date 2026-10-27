@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into small chunks",
-      "quantity": "4 tbsp"
+      "name": "unsalted butter",
+      "quantity": "4 tbsp",
+      "prep": "cut into small chunks"
     },
     {
       "ingredient_id": 1752,
@@ -77,6 +78,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into small chunks.",
+      "secondary_message": "4 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a heavy-bottomed saucepan, heat sugar, moistened with two tablespoons of water, on high. Let sugar melt, bubble, and caramelize undisturbed until it reaches a rich, dark amber, rotating the pan to avoid hot spots. Let sugar smoke for 3 seconds, then quickly stir in butter and turn heat to low.",

@@ -78,16 +78,24 @@
     },
     {
       "ingredient_id": 1725,
-      "name": "escarole, washed and roughly chopped",
-      "quantity": "1 head"
+      "name": "escarole",
+      "quantity": "1 head",
+      "prep": "washed and roughly chopped"
     },
     {
       "ingredient_id": 470,
-      "name": "fennel, shaved on a mandoline",
-      "quantity": "1 large bulb"
+      "name": "fennel",
+      "quantity": "1 large bulb",
+      "prep": "shaved on a mandoline"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash and roughly chop the escarole. Shave the fennel on a mandoline.",
+      "secondary_message": "1 head escarole\n1 large bulb fennel"
+    },
     {
       "id": 1,
       "primary_message": "Combine 1/4 cup citrus juice with mayonnaise and lemon juice in a medium bowl (save remaining citrus juice for another use). Whisk in honey. Whisking constantly, slowly add olive oil in a thin, steady stream. Season to taste with salt and pepper.",

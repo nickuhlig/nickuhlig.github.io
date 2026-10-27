@@ -50,13 +50,15 @@
   "ingredients": [
     {
       "ingredient_id": 2164,
-      "name": "boneless pork shoulder, cut into 2-inch-thick slabs",
-      "quantity": "4 lb"
+      "name": "boneless pork shoulder",
+      "quantity": "4 lb",
+      "prep": "cut into 2-inch-thick slabs"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, roughly chopped",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 24,
@@ -65,8 +67,9 @@
     },
     {
       "ingredient_id": 74,
-      "name": "cinnamon, broken into 3 to 4 pieces",
-      "quantity": "1 stick"
+      "name": "cinnamon",
+      "quantity": "1 stick",
+      "prep": "broken into 3 to 4 pieces"
     },
     {
       "ingredient_id": 1747,
@@ -110,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the boneless pork shoulder into 2-inch-thick slabs. Roughly chop the onion. Break the cinnamon into 3 to 4 pieces.",
+      "secondary_message": "4 lb boneless pork shoulder\n1 medium onion\n1 stick cinnamon"
+    },
     {
       "id": 1,
       "primary_message": "Combine pork, onion, garlic, cinnamon stick, and bay leaves in a large bowl. Split orange into quarters and squeeze juice into bowl before adding rest of orange. Season generously with kosher salt and toss to combine.",

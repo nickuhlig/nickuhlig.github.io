@@ -58,8 +58,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "8 large"
+      "name": "garlic cloves",
+      "quantity": "8 large",
+      "prep": "minced"
     },
     {
       "ingredient_id": 293,
@@ -163,6 +164,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic cloves.",
+      "secondary_message": "8 large garlic cloves"
+    },
     {
       "id": 1,
       "primary_message": "Make the Sauce: Heat vegetable oil in a large saucepan over medium high heat. Add scallions and onion and sauté until soft, about 6 minutes.",

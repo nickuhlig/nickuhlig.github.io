@@ -56,18 +56,21 @@
   "ingredients": [
     {
       "ingredient_id": 2712,
-      "name": "bone-in pork shoulder, fat cap trimmed to 1/2-inch thick",
-      "quantity": "3 lb"
+      "name": "bone-in pork shoulder",
+      "quantity": "3 lb",
+      "prep": "fat cap trimmed to 1/2-inch thick"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, roughly chopped",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, roughly chopped",
-      "quantity": "3 stalks"
+      "name": "celery",
+      "quantity": "3 stalks",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1747,
@@ -101,6 +104,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the fat cap of the bone-in pork shoulder to 1/2-inch thick. Roughly chop the onion. Roughly chop the celery.",
+      "secondary_message": "3 lb bone-in pork shoulder\n1 large onion\n3 stalks celery"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat the oven to 350℉ (175℃). In a large pot or Dutch oven, add pork, onion, celery, and bay leaves and cover with 10 cups of water. Bring to a boil on the stovetop over high heat, then cover pot, transfer to oven, and cook until pork is falling off the bone, 2 1/2 to 3 hours.",

@@ -54,8 +54,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, thinly sliced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 150,
@@ -69,8 +70,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "2 to 3 cloves"
+      "name": "garlic",
+      "quantity": "2 to 3 cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 83,
@@ -109,6 +111,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the onion. Thinly slice the garlic.",
+      "secondary_message": "1 medium onion\n2 to 3 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Heat olive oil in a large, deep skillet or straight-sided sauté pan over high heat until shimmering. Add onion, red pepper, and chile and spread into an even layer. Cook, without moving, until vegetables on the bottom are deeply browned and beginning to char in spots, about 6 minutes. Stir and repeat. Continue to cook until vegetables are fully softened and spottily charred, about another 4 minutes. Add garlic and cook, stirring, until softened and fragrant, about 30 seconds. Add paprika and cumin and cook, stirring, until fragrant, about 30 seconds. Immediately add tomatoes and stir to combine (see notes). Reduce heat to a bare simmer and simmer for 10 minutes, then season to taste with salt and pepper and stir in half of cilantro or parsley.",

@@ -97,8 +97,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, cold",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "cold"
     },
     {
       "ingredient_id": 116,
@@ -112,8 +113,9 @@
     },
     {
       "ingredient_id": 2285,
-      "name": "semisweet chocolate, finely chopped",
-      "quantity": "3 oz"
+      "name": "semisweet chocolate",
+      "quantity": "3 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 3163,
@@ -122,6 +124,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the eggs cold until you use them. Finely chop the semisweet chocolate.",
+      "secondary_message": "2 large eggs\n3 oz semisweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "In the bowl of a stand mixer fitted with a paddle attachment, cream together butter, sugar, baking soda, and salt on medium speed until mixture is light, fluffy, and pale, about 4 minutes. Alternatively, use an electric hand mixer.",

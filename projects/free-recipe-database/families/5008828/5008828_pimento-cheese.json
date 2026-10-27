@@ -38,8 +38,9 @@
   "ingredients": [
     {
       "ingredient_id": 43,
-      "name": "sharp cheddar cheese, grated",
-      "quantity": "1 lb"
+      "name": "sharp cheddar cheese",
+      "quantity": "1 lb",
+      "prep": "grated"
     },
     {
       "ingredient_id": 267,
@@ -48,8 +49,9 @@
     },
     {
       "ingredient_id": 1966,
-      "name": "pimentos, drained and finely diced",
-      "quantity": "1 (7 oz) jar"
+      "name": "pimentos",
+      "quantity": "1 (7 oz) jar",
+      "prep": "drained and finely diced"
     },
     {
       "ingredient_id": 448,
@@ -63,6 +65,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the sharp cheddar cheese. Drain and finely dice the pimentos.",
+      "secondary_message": "1 lb sharp cheddar cheese\n1 (7 oz) jar pimentos"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl mix together cheese, mayonnaise, pimentos, hot sauce, and cayenne. Serve immediately or store in an airtight container in the refrigerator for up to a week.",

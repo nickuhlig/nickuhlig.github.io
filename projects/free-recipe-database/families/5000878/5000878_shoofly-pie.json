@@ -118,11 +118,18 @@
     },
     {
       "ingredient_id": 3641,
-      "name": "egg yolk, at room temperature",
-      "quantity": "1 large"
+      "name": "egg yolk",
+      "quantity": "1 large",
+      "prep": "at room temperature"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the egg yolk to room temperature.",
+      "secondary_message": "1 large egg yolk"
+    },
     {
       "id": 1,
       "primary_message": "If using homemade pie crust: On a clean, lightly floured work surface, roll pie crust into a 12-inch circle about 1/8-inch thick. Transfer to an 8-inch aluminum pie plate. Using a pastry brush, dust off excess flour; nestle dough into corners of pan. With scissors or kitchen shears, trim dough to edge of pie plate. Press a fork into the edges of the dough to create small indents around the entire perimeter of the pie crust. Cover with plastic wrap and refrigerate until cold, at least 1 hour, or up to 24 hours.",

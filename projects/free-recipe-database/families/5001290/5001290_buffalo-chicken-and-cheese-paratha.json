@@ -71,8 +71,9 @@
     },
     {
       "ingredient_id": 359,
-      "name": "water, at about 98 to 110ºF",
-      "quantity": "1 cup"
+      "name": "water",
+      "quantity": "1 cup",
+      "prep": "at about 98 to 110ºF"
     },
     {
       "ingredient_id": 3664,
@@ -81,8 +82,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, at room temperature",
-      "quantity": "6 oz"
+      "name": "cream cheese",
+      "quantity": "6 oz",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 448,
@@ -121,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the water to 98 to 110ºF. Bring the cream cheese to room temperature.",
+      "secondary_message": "1 cup water\n6 oz cream cheese"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, add atta. Make a well in the center of the flour. Pour salt and vegetable oil into the well. Slowly pour lukewarm water into the well. Gradually incorporate flour and salt into the oil and water until a shaggy dough forms. (If dough is too dry, add water, 1 tablespoon at a time, until it forms a shaggy dough.) Knead until a smooth dough forms, about 3 minutes; it should be soft and pillowy. Transfer the dough to a zip-top bag, seal, and let rest at room temperature for 30 minutes.",

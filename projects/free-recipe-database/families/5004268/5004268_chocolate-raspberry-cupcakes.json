@@ -58,8 +58,9 @@
     },
     {
       "ingredient_id": 2581,
-      "name": "white chocolate, finely chopped, plus extra for garnish",
-      "quantity": "2 ½ oz"
+      "name": "white chocolate, plus extra for garnish",
+      "quantity": "2 ½ oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 116,
@@ -118,6 +119,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the white chocolate.",
+      "secondary_message": "2 ½ oz white chocolate, plus extra for garnish"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350°F. Line standard muffin tin with cupcake liners.",

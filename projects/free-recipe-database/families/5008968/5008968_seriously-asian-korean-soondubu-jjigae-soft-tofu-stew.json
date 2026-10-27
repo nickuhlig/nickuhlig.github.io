@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 307,
-      "name": "ribeye steak, sliced thinly across the grain",
-      "quantity": "1 oz"
+      "name": "ribeye steak",
+      "quantity": "1 oz",
+      "prep": "sliced thinly across the grain"
     },
     {
       "ingredient_id": 2347,
@@ -105,6 +106,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the ribeye steak thinly across the grain.",
+      "secondary_message": "1 oz ribeye steak"
+    },
     {
       "id": 1,
       "primary_message": "Slowly heat clay pot over a low flame on stovetop.",

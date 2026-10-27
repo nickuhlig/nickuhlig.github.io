@@ -34,13 +34,15 @@
   "ingredients": [
     {
       "ingredient_id": 159,
-      "name": "carrot, diced as finely as possible",
-      "quantity": "1 small"
+      "name": "carrot",
+      "quantity": "1 small",
+      "prep": "diced as finely as possible"
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, diced as finely as possible",
-      "quantity": "2 small"
+      "name": "shallots",
+      "quantity": "2 small",
+      "prep": "diced as finely as possible"
     },
     {
       "ingredient_id": 47,
@@ -84,13 +86,15 @@
     },
     {
       "ingredient_id": 6,
-      "name": "salmon fillet, skin on, cut into 4 portions",
-      "quantity": "1 ¼ lb"
+      "name": "salmon fillet, skin on",
+      "quantity": "1 ¼ lb",
+      "prep": "cut into 4 portions"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, room temperature",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 47,
@@ -114,11 +118,18 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "zested"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the carrot as finely as possible. Dice the shallots as finely as possible. Cut the salmon fillet into 4 portions. Bring the unsalted butter to room temperature. Zest the lemon.",
+      "secondary_message": "1 small carrot\n2 small shallots\n1 ¼ lb salmon fillet, skin on\n2 tbsp unsalted butter\n1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "Begin by making the lentils. Over medium-low heat, sauté the carrots and shallot in 1 tablespoon of olive oil. Season them with the thyme leaves, salt, and pepper, and cook for 5 minutes, until they are just sweating and soft and fragrant.",

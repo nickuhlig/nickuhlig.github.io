@@ -67,16 +67,24 @@
     },
     {
       "ingredient_id": 317,
-      "name": "very ripe bananas, mashed",
-      "quantity": "2 medium"
+      "name": "very ripe bananas",
+      "quantity": "2 medium",
+      "prep": "mashed"
     },
     {
       "ingredient_id": 115,
-      "name": "butter, melted",
-      "quantity": "3 tbsp"
+      "name": "butter",
+      "quantity": "3 tbsp",
+      "prep": "melted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mash the very ripe bananas. Melt the butter.",
+      "secondary_message": "2 medium very ripe bananas\n3 tbsp butter"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 375°F. Grease a 8-inch square baking pan.",

@@ -36,8 +36,9 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, sliced",
-      "quantity": "1 medium"
+      "name": "red onion",
+      "quantity": "1 medium",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 1618,
@@ -46,18 +47,21 @@
     },
     {
       "ingredient_id": 236,
-      "name": "pineapple, peeled and sliced",
-      "quantity": "½ cup chunk"
+      "name": "pineapple",
+      "quantity": "½ cup chunk",
+      "prep": "peeled and sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, peeled",
-      "quantity": "3 cloves"
+      "name": "garlic cloves",
+      "quantity": "3 cloves",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 3545,
-      "name": "tomatillas, husk removed and sliced in half",
-      "quantity": "4"
+      "name": "tomatillas",
+      "quantity": "4",
+      "prep": "husk removed and sliced in half"
     },
     {
       "ingredient_id": 88,
@@ -71,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the red onion. Peel and slice the pineapple. Peel the garlic cloves. Remove the husk from the tomatillas, then slice them in half.",
+      "secondary_message": "1 medium red onion\n½ cup chunk pineapple\n3 cloves garlic cloves\n4 tomatillas"
+    },
     {
       "id": 1,
       "primary_message": "Heat a skillet over medium-high heat. Add the tomatillos cut side down and toss in the garlic cloves. Cook for about 3 minutes, and then flip everything and cook for another 3 minutes. Transfer ingredients to a blender or food processor. Add two of the chilies in adobo. Purée mixture until very smooth. Season with salt to taste. Then transfer to the fridge to cool while making the tacos.",

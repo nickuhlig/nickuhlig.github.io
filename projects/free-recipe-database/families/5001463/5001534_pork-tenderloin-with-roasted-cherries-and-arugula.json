@@ -47,8 +47,9 @@
   "ingredients": [
     {
       "ingredient_id": 2216,
-      "name": "fresh sweet cherries, pitted",
-      "quantity": "4 cups"
+      "name": "fresh sweet cherries",
+      "quantity": "4 cups",
+      "prep": "pitted"
     },
     {
       "ingredient_id": 293,
@@ -162,6 +163,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pit the fresh sweet cherries.",
+      "secondary_message": "4 cups fresh sweet cherries"
+    },
     {
       "id": 1,
       "primary_message": "For the Roasted Cherry Compote: Adjust oven rack to middle position, and preheat oven to 230°C (450°F) (230℃). In a large oven-safe skillet, add cherries, sugar, and salt; stir until evenly coated. Transfer skillet to oven, and bake until cherries are tender and liquid begins to caramelize, 30 to 35 minutes.",

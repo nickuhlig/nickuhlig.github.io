@@ -59,8 +59,9 @@
     },
     {
       "ingredient_id": 183,
-      "name": "ripe avocado, halved",
-      "quantity": "1 small"
+      "name": "ripe avocado",
+      "quantity": "1 small",
+      "prep": "halved"
     },
     {
       "ingredient_id": 342,
@@ -89,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the ripe avocado.",
+      "secondary_message": "1 small ripe avocado"
+    },
     {
       "id": 1,
       "primary_message": "Peel and slice the cucumber to yield 12 rounds that are each 1/4-inch thick. Reserve the unused cucumber for another use. In a small bowl, combine the vinegar, salt, sugar, and red pepper flakes. Add the sliced cucumbers to the vinegar mixture and toss to combine. Place in the refrigerator for 30 minutes.",

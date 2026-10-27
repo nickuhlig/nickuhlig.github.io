@@ -42,8 +42,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "A few cloves of garlic, smashed",
-      "quantity": ""
+      "name": "A few cloves of garlic",
+      "quantity": "",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 2972,
@@ -77,11 +78,18 @@
     },
     {
       "ingredient_id": 192,
-      "name": "whole lemon, cut into wedges",
-      "quantity": "1"
+      "name": "whole lemon",
+      "quantity": "1",
+      "prep": "cut into wedges"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Smash the A few cloves of garlic. Cut the whole lemon into wedges.",
+      "secondary_message": "A few cloves of garlic\n1 whole lemon"
+    },
     {
       "id": 1,
       "primary_message": "To prepare sweetbreads: place poaching ingredients in a 3-quart sauté pan and add enough water to fully immerse sweetbreads. Bring water to boil, then add in sweetbreads and simmer gently for 5 to 7 minutes, until sweetbreads are firm but still soft to the touch.",

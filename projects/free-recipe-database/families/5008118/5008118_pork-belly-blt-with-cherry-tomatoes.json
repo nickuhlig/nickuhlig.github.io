@@ -33,8 +33,9 @@
   "ingredients": [
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, stems removed, quartered",
-      "quantity": "½ lb"
+      "name": "cherry tomatoes",
+      "quantity": "½ lb",
+      "prep": "stems removed, quartered"
     },
     {
       "ingredient_id": 88,
@@ -48,13 +49,15 @@
     },
     {
       "ingredient_id": 1958,
-      "name": "pork belly, sliced into 1/4-inch thick pieces",
-      "quantity": "½ lb"
+      "name": "pork belly",
+      "quantity": "½ lb",
+      "prep": "sliced into 1/4-inch thick pieces"
     },
     {
       "ingredient_id": 191,
-      "name": "bread, toasted",
-      "quantity": "8 slices"
+      "name": "bread",
+      "quantity": "8 slices",
+      "prep": "toasted"
     },
     {
       "ingredient_id": 267,
@@ -68,6 +71,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the stems from the cherry tomatoes, then quarter them. Slice the pork belly into 1/4-inch thick pieces. Toast the bread.",
+      "secondary_message": "½ lb cherry tomatoes\n½ lb pork belly\n8 slices bread"
+    },
     {
       "id": 1,
       "primary_message": "Season cherry tomatoes with 1/2 teaspoon of salt and toss in a strainer or colander set over a bowl. Let drain for at least 20 minutes. Discard liquid in the bowl.",

@@ -50,23 +50,27 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely diced",
-      "quantity": "½ medium"
+      "name": "yellow onion",
+      "quantity": "½ medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 1541,
-      "name": "plum tomato, cored and finely diced",
-      "quantity": "½ medium"
+      "name": "plum tomato",
+      "quantity": "½ medium",
+      "prep": "cored and finely diced"
     },
     {
       "ingredient_id": 153,
-      "name": "scallion, end trimmed and scallions minced",
-      "quantity": "1"
+      "name": "scallion",
+      "quantity": "1",
+      "prep": "end trimmed and scallions minced"
     },
     {
       "ingredient_id": 1993,
-      "name": "Scotch bonnet pepper, stemmed, seeded, and minced",
-      "quantity": "½"
+      "name": "Scotch bonnet pepper",
+      "quantity": "½",
+      "prep": "stemmed, seeded, and minced"
     },
     {
       "ingredient_id": 1677,
@@ -95,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the yellow onion. Core and finely dice the plum tomato. Trim the end of the scallion, then mince the scallions. Stem, seed, and mince the Scotch bonnet pepper.",
+      "secondary_message": "½ medium yellow onion\n½ medium plum tomato\n1 scallion\n½ Scotch bonnet pepper"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, cover salt cod completely with cold water, transfer to refrigerator, and let soak for at least 8 or up to 12 hours. Drain and rinse salt cod with cold water, then transfer to cutting board.",

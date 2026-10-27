@@ -39,8 +39,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, sliced thick",
-      "quantity": "1 (2 ½ cm) piece"
+      "name": "ginger",
+      "quantity": "1 (2 ½ cm) piece",
+      "prep": "sliced thick"
     },
     {
       "ingredient_id": 359,
@@ -54,8 +55,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, sliced into thin rings",
-      "quantity": "4"
+      "name": "shallots",
+      "quantity": "4",
+      "prep": "sliced into thin rings"
     },
     {
       "ingredient_id": 1044,
@@ -74,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the ginger thick. Slice the shallots into thin rings.",
+      "secondary_message": "1 (2 ½ cm) piece ginger\n4 shallots"
+    },
     {
       "id": 1,
       "primary_message": "In a heavy bottomed saucepan over medium heat, bring rice, chicken broth, ginger, and 1 teaspoon salt to simmer. Reduce heat to low and gently simmer, stirring and gently mashing occasionally, until rice is softened, broken down, and mixture is creamy and the consistency of porridge, 60 to 75 minutes. Add water to adjust consistency as it cooks. (See notes.)",

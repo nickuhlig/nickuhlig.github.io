@@ -71,8 +71,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cold",
-      "quantity": "170 g"
+      "name": "unsalted butter",
+      "quantity": "170 g",
+      "prep": "cold"
     },
     {
       "ingredient_id": 359,
@@ -81,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the unsalted butter cold until you use it.",
+      "secondary_message": "170 g unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Dough: Whisk all-purpose flour, whole wheat flour, sugar, and salt together in a medium bowl. Cut butter into 1.5-cm cubes (this size is important, as smaller pieces will melt too fast) and toss with flour mixture to break up the pieces. Using your fingertips, smash each cube flat—that's it! No rubbing or cutting. Stir in water, then knead dough against the sides of the bowl until it comes together in a shaggy ball. Dough temperature should register between 65 and 21°C (18 and 21°C); if not, refrigerate briefly before rolling and folding (see notes).",

@@ -34,13 +34,15 @@
   "ingredients": [
     {
       "ingredient_id": 158,
-      "name": "cauliflower, chopped into 1/2 inch pieces",
-      "quantity": "1 head"
+      "name": "cauliflower",
+      "quantity": "1 head",
+      "prep": "chopped into 1/2 inch pieces"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, chopped",
-      "quantity": "1"
+      "name": "red onion",
+      "quantity": "1",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1007,
@@ -54,8 +56,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "cilantro, chopped",
-      "quantity": "½ cup"
+      "name": "cilantro",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 88,
@@ -69,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the cauliflower into 1/2 inch pieces. Chop the red onion. Chop the cilantro.",
+      "secondary_message": "1 head cauliflower\n1 red onion\n½ cup cilantro"
+    },
     {
       "id": 1,
       "primary_message": "Heat a large pan over medium-high heat. Add the oil, let it warm up for a bit and then dump in the cauliflower, onion, and curry powder.",

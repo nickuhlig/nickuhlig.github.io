@@ -70,8 +70,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "6 tbsp"
+      "name": "unsalted butter",
+      "quantity": "6 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 24,
@@ -130,6 +131,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter.",
+      "secondary_message": "6 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "To make the brine: Whisk together water, salt, and sugar in a large container until salt and sugar are dissolved. Submerge turkey breasts in brine. Place container in refrigerator and brine for 8 to 12 hours.",

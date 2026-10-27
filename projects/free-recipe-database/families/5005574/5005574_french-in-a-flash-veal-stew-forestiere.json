@@ -42,13 +42,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, diced",
-      "quantity": "4"
+      "name": "shallots",
+      "quantity": "4",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, diced",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "diced"
     },
     {
       "ingredient_id": 2250,
@@ -77,8 +79,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, room temperature",
-      "quantity": "1 tbsp"
+      "name": "butter",
+      "quantity": "1 tbsp",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 2529,
@@ -102,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the shallots. Dice the garlic. Bring the butter to room temperature.",
+      "secondary_message": "4 shallots\n2 cloves garlic\n1 tbsp butter"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 450°F.",

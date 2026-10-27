@@ -43,8 +43,9 @@
   "ingredients": [
     {
       "ingredient_id": 1702,
-      "name": "bone-in skin-on chicken thighs, patted dry",
-      "quantity": "6"
+      "name": "bone-in skin-on chicken thighs",
+      "quantity": "6",
+      "prep": "patted dry"
     },
     {
       "ingredient_id": 88,
@@ -63,9 +64,10 @@
     },
     {
       "ingredient_id": 143,
-      "name": "sweet potato, peeled and cut into 1 1/2-inch cubes",
+      "name": "sweet potato",
       "quantity": "⅓ lb",
-      "weigh_as": "1 large"
+      "weigh_as": "1 large",
+      "prep": "peeled and cut into 1 1/2-inch cubes"
     },
     {
       "ingredient_id": 144,
@@ -114,11 +116,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into small pieces",
-      "quantity": "2 tbsp"
+      "name": "cold unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "cut into small pieces"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pat the bone-in skin-on chicken thighs dry. Peel and cut the sweet potato into 1 1/2-inch cubes. Cut the cold unsalted butter into small pieces.",
+      "secondary_message": "6 bone-in skin-on chicken thighs\n⅓ lb sweet potato\n2 tbsp cold unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 450°F. Season chicken evenly with 2 teaspoons kosher salt and 1/2 teaspoon pepper. In a 12-inch cast iron or stainless steel skillet, add oil and heat over medium-high heat until shimmering. Arrange chicken skin side down in skillet and cook, undisturbed, until skin is deeply browned and releases easily from skillet, about 8 minutes. Transfer chicken to a large plate, skin side up.",

@@ -74,8 +74,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "12 tbsp (6 oz)"
+      "name": "unsalted butter",
+      "quantity": "12 tbsp (6 oz)",
+      "prep": "melted"
     },
     {
       "ingredient_id": 355,
@@ -134,6 +135,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter.",
+      "secondary_message": "12 tbsp (6 oz) unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center and preheat oven to 325ºF (163ºC).",

@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, coarsely chopped",
-      "quantity": "2"
+      "name": "onions",
+      "quantity": "2",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 1932,
@@ -71,8 +72,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemons, quartered",
-      "quantity": "2"
+      "name": "lemons",
+      "quantity": "2",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 88,
@@ -126,6 +128,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Coarsely chop the onions. Quarter the lemons.",
+      "secondary_message": "2 onions\n2 lemons"
+    },
     {
       "id": 1,
       "primary_message": "For the Poached Salmon: Bring a kettle of water to a boil then remove from heat. Heat white wine, vegetable stock (or water) onion, dill, sage leaves, bay leaves to a large skillet and bring to a simmer. Add lemon quarters to liquid squeezing each one into the skillet before adding it, then simmer for an additional 15 minutes. Season to taste with salt and pepper.",

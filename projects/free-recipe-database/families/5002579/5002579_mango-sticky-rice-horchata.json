@@ -49,13 +49,15 @@
   "ingredients": [
     {
       "ingredient_id": 2464,
-      "name": "uncooked white jasmine rice, rinsed until water runs clear",
-      "quantity": "1 cup"
+      "name": "uncooked white jasmine rice",
+      "quantity": "1 cup",
+      "prep": "rinsed until water runs clear"
     },
     {
       "ingredient_id": 1866,
-      "name": "green cardamom pod, crushed",
-      "quantity": "1"
+      "name": "green cardamom pod",
+      "quantity": "1",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 359,
@@ -74,8 +76,9 @@
     },
     {
       "ingredient_id": 41,
-      "name": "unsweetened canned coconut milk, shaken",
-      "quantity": "1 (13 ½ oz) can"
+      "name": "unsweetened canned coconut milk",
+      "quantity": "1 (13 ½ oz) can",
+      "prep": "shaken"
     },
     {
       "ingredient_id": 1421,
@@ -94,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse the uncooked white jasmine rice until water runs clear. Crush the green cardamom pod. Shake the unsweetened canned coconut milk.",
+      "secondary_message": "1 cup uncooked white jasmine rice\n1 green cardamom pod\n1 (13 ½ oz) can unsweetened canned coconut milk"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, combine rice, cardamom, and 3 cups water. Cover, refrigerate, and let rice soak until starch is released and grains have softened slightly, at least 8 hours or up to 12 hours.",

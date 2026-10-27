@@ -33,8 +33,9 @@
   "ingredients": [
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, peeled",
-      "quantity": "450 g"
+      "name": "fresh ginger",
+      "quantity": "450 g",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 359,
@@ -103,11 +104,18 @@
     },
     {
       "ingredient_id": 2266,
-      "name": "Seltzer, chilled",
-      "quantity": ""
+      "name": "Seltzer",
+      "quantity": "",
+      "prep": "chilled"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the fresh ginger. Keep the Seltzer cold until you use it.",
+      "secondary_message": "450 g fresh ginger\nSeltzer"
+    },
     {
       "id": 1,
       "primary_message": "To make spicy ginger syrup: If you're going to include the alcoholic tincture, combine the cayenne pepper and vodka for 5 minutes. Strain out the cayenne pepper, or just let the solids sink to the bottom of the bowl. Slice peeled ginger in centimeter-long slices and simmer in 475 grams of water for 20 minutes. Strain out the ginger solids. Add sugar and citric acid and stir until dissolved. If you're using the spicy tincture, add 3/4 teaspoon of the tincture to your ginger syrup. Adjust to taste. Store extra syrup sealed in the refrigerator, about 1 week.",

@@ -40,18 +40,21 @@
   "ingredients": [
     {
       "ingredient_id": 302,
-      "name": "bacon, cut into 1/2-inch pieces",
-      "quantity": "6 oz"
+      "name": "bacon",
+      "quantity": "6 oz",
+      "prep": "cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, thinly sliced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1721,
@@ -70,8 +73,9 @@
     },
     {
       "ingredient_id": 111,
-      "name": "green beans, trimmed",
-      "quantity": "2 ½ lb"
+      "name": "green beans",
+      "quantity": "2 ½ lb",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 1505,
@@ -90,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the bacon into 1/2-inch pieces. Thinly slice the onion. Thinly slice the garlic. Trim the green beans.",
+      "secondary_message": "6 oz bacon\n1 medium onion\n3 medium cloves garlic\n2 ½ lb green beans"
+    },
     {
       "id": 1,
       "primary_message": "Heat bacon in a large Dutch oven over medium-high heat and cook, stirring frequently, until fat has rendered and bacon is beginning to crisp, about 6 minutes. Add onion, garlic, and pepper flakes and cook, stirring, until onions are softened but not browned, about 8 minutes. Season with salt and pepper.",

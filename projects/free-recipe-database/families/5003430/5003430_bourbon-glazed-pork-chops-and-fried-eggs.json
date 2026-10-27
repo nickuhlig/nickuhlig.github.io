@@ -80,11 +80,18 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, sliced",
-      "quantity": "2"
+      "name": "scallions",
+      "quantity": "2",
+      "prep": "sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the scallions.",
+      "secondary_message": "2 scallions"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl combine brown sugar, smoked paprika, 1 teaspoon salt, and 1 teaspoon pepper. Rub brown sugar mixture over pork chops.",

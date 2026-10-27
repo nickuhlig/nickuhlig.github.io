@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 1990,
-      "name": "dried kombu, rinsed in cold water",
-      "quantity": "½ oz"
+      "name": "dried kombu",
+      "quantity": "½ oz",
+      "prep": "rinsed in cold water"
     },
     {
       "ingredient_id": 359,
@@ -75,11 +76,18 @@
     },
     {
       "ingredient_id": 3178,
-      "name": "pea shoots, thick stems picked",
-      "quantity": "12"
+      "name": "pea shoots",
+      "quantity": "12",
+      "prep": "thick stems picked"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse the dried kombu in cold water. Thickly pick the stems from the pea shoots.",
+      "secondary_message": "½ oz dried kombu\n12 pea shoots"
+    },
     {
       "id": 1,
       "primary_message": "In a medium saucepan, combine kombu with cold water and cook for 8 minutes over medium heat; lower heat to prevent it from exceeding a bare simmer. Remove kombu with tongs and discard or reserve for another use. (Kombu can be sliced thinly and tossed into a salad.)",

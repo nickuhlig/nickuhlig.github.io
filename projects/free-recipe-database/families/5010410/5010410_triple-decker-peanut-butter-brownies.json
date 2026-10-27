@@ -36,13 +36,15 @@
   "ingredients": [
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "6 oz"
+      "name": "bittersweet chocolate",
+      "quantity": "6 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 1/2-inch pieces",
-      "quantity": "8 tbsp (4 oz)"
+      "name": "unsalted butter",
+      "quantity": "8 tbsp (4 oz)",
+      "prep": "cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 346,
@@ -96,8 +98,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "6 tbsp (3 oz)"
+      "name": "unsalted butter",
+      "quantity": "6 tbsp (3 oz)",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1710,
@@ -116,8 +119,9 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "6 oz"
+      "name": "bittersweet chocolate",
+      "quantity": "6 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1710,
@@ -136,6 +140,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the bittersweet chocolate. Cut the unsalted butter into 1/2-inch pieces. Soften the unsalted butter. Finely chop the bittersweet chocolate.",
+      "secondary_message": "6 oz bittersweet chocolate\n8 tbsp (4 oz) unsalted butter\n6 tbsp (3 oz) unsalted butter\n6 oz bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "For the Brownie Layer: Adjust rack to middle position and preheat oven to 350°F. Grease 8- by 8-inch baking pan and line with 8- by 14-inch piece of parchment paper, allowing both ends to overhang the edge of the pan.",

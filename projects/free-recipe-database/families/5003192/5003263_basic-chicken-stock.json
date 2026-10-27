@@ -52,18 +52,21 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onions, diced",
-      "quantity": "2 large"
+      "name": "yellow onions",
+      "quantity": "2 large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, diced",
-      "quantity": "4 large"
+      "name": "carrots",
+      "quantity": "4 large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1720,
-      "name": "celery ribs, diced",
-      "quantity": "4 large"
+      "name": "celery ribs",
+      "quantity": "4 large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
@@ -77,6 +80,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the yellow onions. Dice the carrots. Dice the celery ribs.",
+      "secondary_message": "2 large yellow onions\n4 large carrots\n4 large celery ribs"
+    },
     {
       "id": 1,
       "primary_message": "Combine chicken, water, onions, carrots, celery, garlic, and parsley in a large stockpot and bring to a simmer over low heat. Lower heat, maintaining a very gentle simmer, and cook for 1 hour 30 minutes. Strain stock through a fine-mesh strainer, let cool, then transfer to containers and refrigerate until completely chilled, about 6 hours. Skim off and remove any fat and scum on the surface. Refrigerate for up to 5 days or freeze for up to 6 months. If stock is thin even after being fully refrigerated, add optional gelatin solution to stock and bring to a boil until fully dissolved, then refrigerate or freeze.",

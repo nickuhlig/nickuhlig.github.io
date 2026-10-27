@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 13,
-      "name": "beets, trimmed, peeled and finely chopped",
-      "quantity": "2 small"
+      "name": "beets",
+      "quantity": "2 small",
+      "prep": "trimmed, peeled and finely chopped"
     },
     {
       "ingredient_id": 1082,
@@ -70,8 +71,9 @@
     },
     {
       "ingredient_id": 2216,
-      "name": "fresh sweet red cherries, pitted, divided",
-      "quantity": "2 cups"
+      "name": "fresh sweet red cherries, divided",
+      "quantity": "2 cups",
+      "prep": "pitted"
     },
     {
       "ingredient_id": 88,
@@ -95,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim, peel, and finely chop the beets. Pit the fresh sweet red cherries.",
+      "secondary_message": "2 small beets\n2 cups fresh sweet red cherries, divided"
+    },
     {
       "id": 1,
       "primary_message": "In a medium saucepan, combine water, beets, cinnamon, star anise, and 1 cup cherries. Bring to a simmer over medium-high heat. Reduce heat to medium to maintain a simmer and cook, stirring occasionally, until beets are tender, 15 to 20 minutes.",

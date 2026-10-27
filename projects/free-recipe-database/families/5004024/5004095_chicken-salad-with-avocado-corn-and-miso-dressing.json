@@ -67,8 +67,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, thinly sliced",
-      "quantity": "1 (2 ½ cm) knob"
+      "name": "ginger",
+      "quantity": "1 (2 ½ cm) knob",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2345,
@@ -97,8 +98,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "1 small clove"
+      "name": "garlic",
+      "quantity": "1 small clove",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2484,
@@ -112,12 +114,19 @@
     },
     {
       "ingredient_id": 183,
-      "name": "whole avocado, cut into 1/2-inch dice",
+      "name": "whole avocado",
       "quantity": "1 ¼",
-      "weigh_as": "170 g"
+      "weigh_as": "170 g",
+      "prep": "cut into 1/2-inch dice"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the ginger. Mince the garlic. Cut the whole avocado into 1/2-inch dice.",
+      "secondary_message": "1 (2 ½ cm) knob ginger\n1 small clove garlic\n1 ¼ whole avocado"
+    },
     {
       "id": 1,
       "primary_message": "Season chicken generously with salt and pepper. Slice 1 lemon into 0.5 to 0.5-cm slices. Place chicken in zipper-lock bags or vacuum bags and add whole roughly chopped scallions and ginger. Remove air from zipper-lock bags by closing the bags, leaving the last inch of the top unsealed. Slowly lower into a pot of water, sealing the bag completely just before it fully submerges. If using a vacuum bag, seal according to manufacturer instructions.",

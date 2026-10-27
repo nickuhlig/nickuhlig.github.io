@@ -40,13 +40,15 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, quartered and thinly sliced",
-      "quantity": "1 small"
+      "name": "yellow onion",
+      "quantity": "1 small",
+      "prep": "quartered and thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1008,
@@ -60,8 +62,9 @@
     },
     {
       "ingredient_id": 1294,
-      "name": "whole peeled tomatoes, preferably San Marzano, crushed by hand",
-      "quantity": "1 (28 oz) can"
+      "name": "whole peeled tomatoes, preferably San Marzano",
+      "quantity": "1 (28 oz) can",
+      "prep": "crushed by hand"
     },
     {
       "ingredient_id": 287,
@@ -100,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Quarter and thinly slice the yellow onion. Thinly slice the garlic. Crush the whole peeled tomatoes by hand.",
+      "secondary_message": "1 small yellow onion\n4 medium cloves garlic\n1 (28 oz) can whole peeled tomatoes, preferably San Marzano"
+    },
     {
       "id": 1,
       "primary_message": "In a large saucepan, heat olive oil over medium-high heat until shimmering. Add onion and garlic and cook, stirring, until softened but not browned, about 4 minutes.",

@@ -54,9 +54,10 @@
     },
     {
       "ingredient_id": 303,
-      "name": "corn kernels cut off from cobs, cobs and kernels reserved separately",
+      "name": "corn kernels cut off from cobs",
       "quantity": "3 ½ cups",
-      "weigh_as": "612 g"
+      "weigh_as": "612 g",
+      "prep": "cobs and kernels reserved separately"
     },
     {
       "ingredient_id": 3686,
@@ -70,13 +71,15 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, diced",
-      "quantity": "½ medium"
+      "name": "white onion",
+      "quantity": "½ medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 (15 g) medium cloves"
+      "name": "garlic",
+      "quantity": "3 (15 g) medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 422,
@@ -105,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Reserve the cobs and kernels of the corn kernels cut off from cobs separately. Dice the white onion. Mince the garlic.",
+      "secondary_message": "3 ½ cups corn kernels cut off from cobs\n½ medium white onion\n3 (15 g) medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "In a large stock pot or Dutch oven, heat oil over medium heat until shimmering. Add bare cobs and cook, flipping occasionally, until brown in some spots, about 5 minutes. Add chicken or vegetable stock. Bring to a boil over high heat, then reduce to medium heat to maintain a simmer. Simmer for 30 minutes. Strain and reserve 2 cups for soup.",

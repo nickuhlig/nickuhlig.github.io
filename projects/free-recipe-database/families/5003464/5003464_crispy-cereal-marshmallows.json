@@ -58,8 +58,9 @@
     },
     {
       "ingredient_id": 1938,
-      "name": "Tahitian vanilla bean, split and scraped, seeds reserved",
-      "quantity": "1"
+      "name": "Tahitian vanilla bean",
+      "quantity": "1",
+      "prep": "split and scraped, seeds reserved"
     },
     {
       "ingredient_id": 1953,
@@ -93,9 +94,10 @@
     },
     {
       "ingredient_id": 27,
-      "name": "corn cobs, sliced into 1-inch thick rounds",
+      "name": "corn cobs",
       "quantity": "4 ears",
-      "weigh_as": "14 oz"
+      "weigh_as": "14 oz",
+      "prep": "sliced into 1-inch thick rounds"
     },
     {
       "ingredient_id": 359,
@@ -104,8 +106,9 @@
     },
     {
       "ingredient_id": 1938,
-      "name": "vanilla bean, split and scraped",
-      "quantity": "1"
+      "name": "vanilla bean",
+      "quantity": "1",
+      "prep": "split and scraped"
     },
     {
       "ingredient_id": 346,
@@ -119,6 +122,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split and scrape the Tahitian vanilla bean, then reserve the seeds. Slice the corn cobs into 1-inch thick rounds. Split and scrape the vanilla bean.",
+      "secondary_message": "1 Tahitian vanilla bean\n4 ears corn cobs\n1 vanilla bean"
+    },
     {
       "id": 1,
       "primary_message": "For the Corn Simple Syrup: In a medium pot, combine sliced corn cobs and water. Bring the water to a boil, then reduce heat to medium and simmer gently until water has reduced by half; about 30 minutes. Use a pair of tongs to fish out the corn cob pieces; discard. Add vanilla bean and seed scrapings, sugar, and salt. Stir constantly until sugar dissolves. Simmer for 20 minutes, or until the mixture has taken on a thick, syrupy consistency. Cool. Store indefinitely in the fridge along with the vanilla bean.",

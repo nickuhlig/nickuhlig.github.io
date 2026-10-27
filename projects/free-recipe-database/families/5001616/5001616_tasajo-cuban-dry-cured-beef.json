@@ -65,8 +65,9 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, halved and thinly sliced",
-      "quantity": "1 small"
+      "name": "white onion",
+      "quantity": "1 small",
+      "prep": "halved and thinly sliced"
     },
     {
       "ingredient_id": 1421,
@@ -75,8 +76,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "5 medium"
+      "name": "garlic cloves",
+      "quantity": "5 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 72,
@@ -95,13 +97,15 @@
     },
     {
       "ingredient_id": 291,
-      "name": "green bell pepper, stemmed, seeded, and thinly sliced",
-      "quantity": "1"
+      "name": "green bell pepper",
+      "quantity": "1",
+      "prep": "stemmed, seeded, and thinly sliced"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell pepper, stemmed, seeded, and thinly sliced",
-      "quantity": "1"
+      "name": "red bell pepper",
+      "quantity": "1",
+      "prep": "stemmed, seeded, and thinly sliced"
     },
     {
       "ingredient_id": 99,
@@ -135,6 +139,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve and thinly slice the white onion. Mince the garlic cloves. Stem, seed, and thinly slice the green bell pepper. Stem, seed, and thinly slice the red bell pepper.",
+      "secondary_message": "1 small white onion\n5 medium garlic cloves\n1 green bell pepper\n1 red bell pepper"
+    },
     {
       "id": 1,
       "primary_message": "For the Beef: Remove the outer layer of fat and salt with a spoon or butter knife and discard. Cut beef into 4 to 6 smaller pieces. Place cut beef in a large bowl and fill with warm (120℉) water and soak for 10 minutes. Using gloves, if desired, massage meat to remove as much remaining fat and salt as possible. Repeat soaking and massaging process 2 more times.",

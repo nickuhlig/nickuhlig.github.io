@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "8 tbsp"
+      "name": "unsalted butter",
+      "quantity": "8 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1567,
@@ -92,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter.",
+      "secondary_message": "8 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Heat oven to 350°F and adjust two racks to middle of oven. In a large bowl, whisk together cake flour, baking soda, baking powder, and salt until well combined.",

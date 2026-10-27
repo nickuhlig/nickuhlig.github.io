@@ -39,8 +39,9 @@
     },
     {
       "ingredient_id": 6,
-      "name": "salmon steaks, deboned and rolled into medallions",
-      "quantity": "0.9 kg"
+      "name": "salmon steaks",
+      "quantity": "0.9 kg",
+      "prep": "deboned and rolled into medallions"
     },
     {
       "ingredient_id": 1685,
@@ -49,6 +50,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Debone and roll the salmon steaks into medallions.",
+      "secondary_message": "0.9 kg salmon steaks"
+    },
     {
       "id": 1,
       "primary_message": "Fill a medium bowl with water and add kosher salt until it tastes like ocean water. Add fish medallions and let soak for 10-15 minutes. Remove from water and pat dry.",

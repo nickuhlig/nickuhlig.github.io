@@ -71,8 +71,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, chopped",
-      "quantity": "1 large"
+      "name": "yellow onion",
+      "quantity": "1 large",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 221,
@@ -81,8 +82,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "6 large cloves"
+      "name": "garlic",
+      "quantity": "6 large cloves",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1901,
@@ -91,8 +93,9 @@
     },
     {
       "ingredient_id": 232,
-      "name": "oranges, zested",
-      "quantity": "2"
+      "name": "oranges",
+      "quantity": "2",
+      "prep": "zested"
     },
     {
       "ingredient_id": 1468,
@@ -141,6 +144,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the yellow onion. Roughly chop the garlic. Zest the oranges.",
+      "secondary_message": "1 large yellow onion\n6 large cloves garlic\n2 oranges"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 180°C (350°F). Alternatively, plug in a slow cooker.",

@@ -52,8 +52,9 @@
   "ingredients": [
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "6 medium cloves"
+      "name": "garlic",
+      "quantity": "6 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 47,
@@ -72,8 +73,9 @@
     },
     {
       "ingredient_id": 2778,
-      "name": "canned artichoke hearts, drained and chopped",
-      "quantity": "14 oz"
+      "name": "canned artichoke hearts",
+      "quantity": "14 oz",
+      "prep": "drained and chopped"
     },
     {
       "ingredient_id": 59,
@@ -92,13 +94,15 @@
     },
     {
       "ingredient_id": 120,
-      "name": "Parmigiano-Reggiano, grated , plus extra for serving",
-      "quantity": "1 oz"
+      "name": "Parmigiano-Reggiano, plus extra for serving",
+      "quantity": "1 oz",
+      "prep": "grated"
     },
     {
       "ingredient_id": 272,
-      "name": "walnuts, toasted and chopped",
-      "quantity": "½ cup"
+      "name": "walnuts",
+      "quantity": "½ cup",
+      "prep": "toasted and chopped"
     },
     {
       "ingredient_id": 1480,
@@ -112,6 +116,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic. Drain and chop the canned artichoke hearts. Grate the Parmigiano-Reggiano. Toast and chop the walnuts.",
+      "secondary_message": "6 medium cloves garlic\n14 oz canned artichoke hearts\n1 oz Parmigiano-Reggiano, plus extra for serving\n½ cup walnuts"
+    },
     {
       "id": 1,
       "primary_message": "In a 10-inch skillet, combine garlic and oil and cook over low heat, stirring occasionally, until garlic is pale golden brown, 6 to 9 minutes. Off heat, stir in fennel seeds and pepper flakes until fragrant, about 30 seconds. Stir in artichokes; set aside.",

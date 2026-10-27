@@ -40,13 +40,15 @@
     },
     {
       "ingredient_id": 1039,
-      "name": "russet potatoes, peeled, quartered and thinly sliced",
-      "quantity": "6 medium"
+      "name": "russet potatoes",
+      "quantity": "6 medium",
+      "prep": "peeled, quartered and thinly sliced"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, halved, and thinly sliced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "halved, and thinly sliced"
     },
     {
       "ingredient_id": 121,
@@ -70,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel, quarter, and thinly slice the russet potatoes. Halve and thinly slice the onion.",
+      "secondary_message": "6 medium russet potatoes\n1 medium onion"
+    },
     {
       "id": 1,
       "primary_message": "Pour the oil into a large skillet set over medium-high heat. Carefully add potatoes and onion. Cook, stirring and folding the mixture over every other minutes, until the potatoes and onions are soft but not brown. This should take about 20 minutes, and reduce heat if you notice any color. When done, transfer the mixture to a colander set over a bowl. Drain for minute. Clean out the skillet.",

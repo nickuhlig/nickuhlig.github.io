@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely minced",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 1007,
@@ -86,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the shallot.",
+      "secondary_message": "1 medium shallot"
+    },
     {
       "id": 1,
       "primary_message": "Set a gas burner to high heat and place poblano pepper directly on flame. Cook until completely blackened, turning as needed with tongs, about 5 minutes total. Alternatively, preheat the broiler to high, place poblano on a rimmed baking sheet, and broil, turning occasionally, until charred on all sides, 5 to 10 minutes total.",

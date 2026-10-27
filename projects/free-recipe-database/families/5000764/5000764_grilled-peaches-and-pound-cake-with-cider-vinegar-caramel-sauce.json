@@ -52,8 +52,9 @@
   "ingredients": [
     {
       "ingredient_id": 234,
-      "name": "firm-but-ripe freestone peaches, halved and pits removed",
-      "quantity": "4 small"
+      "name": "firm-but-ripe freestone peaches",
+      "quantity": "4 small",
+      "prep": "halved and pits removed"
     },
     {
       "ingredient_id": 346,
@@ -67,8 +68,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 4 pieces",
-      "quantity": "4 tbsp"
+      "name": "unsalted butter",
+      "quantity": "4 tbsp",
+      "prep": "cut into 4 pieces"
     },
     {
       "ingredient_id": 88,
@@ -82,6 +84,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the firm-but-ripe freestone peaches, then remove the pits. Cut the unsalted butter into 4 pieces.",
+      "secondary_message": "4 small firm-but-ripe freestone peaches\n4 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Light one chimney full of charcoal. When all the charcoal is lit and covered with gray ash, pour out and spread the coals evenly over half of coal grate. Alternatively, set half the burners of a gas grill to high heat. Set cooking grate in place, cover grill and allow to preheat for 5 minutes. Clean and oil the grilling grate.",

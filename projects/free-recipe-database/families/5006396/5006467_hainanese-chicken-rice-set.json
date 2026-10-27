@@ -44,8 +44,9 @@
   "ingredients": [
     {
       "ingredient_id": 1230,
-      "name": "whole chicken, giblets removed",
-      "quantity": "1 small"
+      "name": "whole chicken",
+      "quantity": "1 small",
+      "prep": "giblets removed"
     },
     {
       "ingredient_id": 88,
@@ -69,13 +70,15 @@
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, peeled and sliced",
-      "quantity": "1 (7 ½ cm) knob"
+      "name": "ginger",
+      "quantity": "1 (7 ½ cm) knob",
+      "prep": "peeled and sliced"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, trimmed and halved",
-      "quantity": "3 medium"
+      "name": "scallions",
+      "quantity": "3 medium",
+      "prep": "trimmed and halved"
     },
     {
       "ingredient_id": 51,
@@ -94,8 +97,9 @@
     },
     {
       "ingredient_id": 1176,
-      "name": "long grain white rice, rinsed well",
-      "quantity": "2 cups"
+      "name": "long grain white rice",
+      "quantity": "2 cups",
+      "prep": "rinsed well"
     },
     {
       "ingredient_id": 1044,
@@ -109,19 +113,22 @@
     },
     {
       "ingredient_id": 285,
-      "name": "baby bok choy, washed, trimmed, and halved lengthwise",
+      "name": "baby bok choy",
       "quantity": "2 ½",
-      "weigh_as": "227 g"
+      "weigh_as": "227 g",
+      "prep": "washed, trimmed, and halved lengthwise"
     },
     {
       "ingredient_id": 1980,
-      "name": "cucumber, sliced",
-      "quantity": "1 small"
+      "name": "cucumber",
+      "quantity": "1 small",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 188,
-      "name": "fresh cilantro, stems and leaves chopped",
-      "quantity": "1 bunch"
+      "name": "fresh cilantro",
+      "quantity": "1 bunch",
+      "prep": "stems and leaves chopped"
     },
     {
       "ingredient_id": 306,
@@ -135,6 +142,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the giblets from the whole chicken. Peel and slice the ginger. Trim and halve the scallions. Rinse the long grain white rice well. Wash, trim, and halve the baby bok choy lengthwise. Slice the cucumber. Chop the stems and leaves of the fresh cilantro.",
+      "secondary_message": "1 small whole chicken\n1 (7 ½ cm) knob ginger\n3 medium scallions\n2 cups long grain white rice\n2 ½ baby bok choy\n1 small cucumber\n1 bunch fresh cilantro"
+    },
     {
       "id": 1,
       "primary_message": "For the Chicken: Pat chicken dry and trim excess fat and skin from neck and tail areas; set fat and skin aside for rice. Sprinkle chicken with salt and vigorously rub and massage salt all over chicken to “exfoliate” skin. (Skin should look smooth and be free of any lumps, bumps, or imperfections. Take time to exfoliate it well; the better scrubbed the skin is, the better the final texture will be.) Sprinkle with white pepper.",

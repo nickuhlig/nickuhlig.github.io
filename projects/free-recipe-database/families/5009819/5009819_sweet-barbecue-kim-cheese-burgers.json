@@ -35,13 +35,15 @@
   "ingredients": [
     {
       "ingredient_id": 1980,
-      "name": "cucumber, seeds removed, cut into thin matchsticks",
-      "quantity": "1 small"
+      "name": "cucumber",
+      "quantity": "1 small",
+      "prep": "seeds removed, cut into thin matchsticks"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, peeled, cut into thin matchsticks",
-      "quantity": "1 small"
+      "name": "carrot",
+      "quantity": "1 small",
+      "prep": "peeled, cut into thin matchsticks"
     },
     {
       "ingredient_id": 88,
@@ -95,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the seeds from the cucumber, then cut it into thin matchsticks. Peel and cut the carrot into thin matchsticks.",
+      "secondary_message": "1 small cucumber\n1 small carrot"
+    },
     {
       "id": 1,
       "primary_message": "Combine cucumber, carrot, 1 teaspoon salt, sugar, and vinegar in a medium bowl and toss to combine. Set aside.",

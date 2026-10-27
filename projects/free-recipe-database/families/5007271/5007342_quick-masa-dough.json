@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 2238,
-      "name": "lard, melted, or vegetable oil",
-      "quantity": "¼ cup"
+      "name": "lard, or vegetable oil",
+      "quantity": "¼ cup",
+      "prep": "melted"
     },
     {
       "ingredient_id": 359,
@@ -60,6 +61,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the lard.",
+      "secondary_message": "¼ cup lard, or vegetable oil"
+    },
     {
       "id": 1,
       "primary_message": "In a mixing bowl, combine masa harina, flour, baking powder, and salt and whisk to incorporate. Drizzle lard evenly over dry ingredients and whisk again util mixture forms pea-sized balls. Scrape dough from whisk. Add water and, using a wooden spoon, mix to thoroughly combine. Scrape dough from spoon and, using your hands, knead dough briefly, just until it comes together in a smooth ball, about 2 minutes. Cover bowl with a towel and let rest for 15 minutes before proceeding with any recipe.",

@@ -33,13 +33,15 @@
   "ingredients": [
     {
       "ingredient_id": 2216,
-      "name": "red cherries, halved and pitted",
-      "quantity": "0.57 kg"
+      "name": "red cherries",
+      "quantity": "0.57 kg",
+      "prep": "halved and pitted"
     },
     {
       "ingredient_id": 2234,
-      "name": "jicama, peeled and cut into batons",
-      "quantity": "0.45 kg"
+      "name": "jicama",
+      "quantity": "0.45 kg",
+      "prep": "peeled and cut into batons"
     },
     {
       "ingredient_id": 28,
@@ -48,13 +50,15 @@
     },
     {
       "ingredient_id": 2121,
-      "name": "macadamia nuts, roughly crushed",
-      "quantity": "113 g"
+      "name": "macadamia nuts",
+      "quantity": "113 g",
+      "prep": "roughly crushed"
     },
     {
       "ingredient_id": 228,
-      "name": "lime, zested",
-      "quantity": "1"
+      "name": "lime",
+      "quantity": "1",
+      "prep": "zested"
     },
     {
       "ingredient_id": 47,
@@ -68,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve and pit the red cherries. Peel and cut the jicama into batons. Roughly crush the macadamia nuts. Zest the lime.",
+      "secondary_message": "0.57 kg red cherries\n0.45 kg jicama\n113 g macadamia nuts\n1 lime"
+    },
     {
       "id": 1,
       "primary_message": "In a large salad or mixing bowl, combine cherries, jicama, basil, and macadamia nuts. Add lime zest and drizzle on just enough olive oil to lightly coat all ingredients. Toss well. Add lime juice to taste (should be bright and tart enough to contrast with the sweet cherries and rich olive oil), tossing well, and season with salt. Serve.",

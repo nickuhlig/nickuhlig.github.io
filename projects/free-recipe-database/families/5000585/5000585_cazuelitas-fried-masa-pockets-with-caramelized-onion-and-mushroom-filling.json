@@ -68,9 +68,10 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onions, halved and thinly sliced",
+      "name": "yellow onions",
       "quantity": "8 medium",
-      "weigh_as": "2 lb"
+      "weigh_as": "2 lb",
+      "prep": "halved and thinly sliced"
     },
     {
       "ingredient_id": 359,
@@ -89,8 +90,9 @@
     },
     {
       "ingredient_id": 230,
-      "name": "cremini button mushrooms, thinly sliced",
-      "quantity": "1 lb"
+      "name": "cremini button mushrooms",
+      "quantity": "1 lb",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1730,
@@ -99,9 +101,10 @@
     },
     {
       "ingredient_id": 1039,
-      "name": "russet potatoes, peeled and cut into 1-inch chunks",
+      "name": "russet potatoes",
       "quantity": "2 ½ medium",
-      "weigh_as": "1 ¼ lb"
+      "weigh_as": "1 ¼ lb",
+      "prep": "peeled and cut into 1-inch chunks"
     },
     {
       "ingredient_id": 2246,
@@ -140,8 +143,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "4 medium"
+      "name": "garlic cloves",
+      "quantity": "4 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1721,
@@ -170,6 +174,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve and thinly slice the yellow onions. Thinly slice the cremini button mushrooms. Peel and cut the russet potatoes into 1-inch chunks. Mince the garlic cloves.",
+      "secondary_message": "8 medium yellow onions\n1 lb cremini button mushrooms\n2 ½ medium russet potatoes\n4 medium garlic cloves"
+    },
     {
       "id": 1,
       "primary_message": "For the filling: In a 12-inch nonstick or cast-iron skillet, bring onions, 1/2 cup water, butter, and salt to boil over medium- high heat. Cover and cook until water has evaporated and onions start to sizzle, about 10 minutes.",

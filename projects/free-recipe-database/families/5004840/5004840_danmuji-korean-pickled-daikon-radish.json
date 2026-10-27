@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, halved lengthwise",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "halved lengthwise"
     },
     {
       "ingredient_id": 90,
@@ -85,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the garlic lengthwise.",
+      "secondary_message": "2 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "In a medium saucepan, stir together water, vinegar, sugar, salt, garlic, turmeric, peppercorns, and bay leaves. Bring to a boil over medium-high heat, stirring to ensure that sugar fully dissolves. Remove from heat and add daikon. Press a paper towel directly against the surface of the brine and let cool to room temperature, 1 to 2 hours.",

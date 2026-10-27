@@ -65,12 +65,19 @@
     },
     {
       "ingredient_id": 143,
-      "name": "sweet potato, very thinly sliced on a mandoline",
+      "name": "sweet potato",
       "quantity": "⅓ lb",
-      "weigh_as": "1 large"
+      "weigh_as": "1 large",
+      "prep": "very thinly sliced on a mandoline"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Very thinly slice the sweet potato on a mandoline.",
+      "secondary_message": "⅓ lb sweet potato"
+    },
     {
       "id": 1,
       "primary_message": "Combine the spices in a small bowl and set aside. Pour one inch of oil into a large dutch oven or heavy pot over moderately high heat. Heat the oil until it reaches 375°F on a deep-fry thermometer. Adjust flame to maintain temperature.",

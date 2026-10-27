@@ -63,13 +63,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cold, diced",
-      "quantity": "4 oz"
+      "name": "unsalted butter",
+      "quantity": "4 oz",
+      "prep": "cold, diced"
     },
     {
       "ingredient_id": 359,
-      "name": "ice water, more if needed",
-      "quantity": "1 oz"
+      "name": "ice water",
+      "quantity": "1 oz",
+      "prep": "more if needed"
     },
     {
       "ingredient_id": 1137,
@@ -148,11 +150,18 @@
     },
     {
       "ingredient_id": 2756,
-      "name": "salted, roughly chopped, roasted peanuts",
-      "quantity": "1 ¾ oz"
+      "name": "salted, roasted peanuts",
+      "quantity": "1 ¾ oz",
+      "prep": "roughly chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the unsalted butter and keep it cold until you use it. Need the more if of the ice water. Roughly chop the salted.",
+      "secondary_message": "4 oz unsalted butter\n1 oz ice water\n1 ¾ oz salted, roasted peanuts"
+    },
     {
       "id": 1,
       "primary_message": "For the Pie Dough: Combine flour, cocoa, sugar and salt in a food processor and pulse them 4-5 times to blend. Add butter and pulse 2-3 times to blend, until mixture looks sandy. Strain ice water into food processor and run processor for 5-10 seconds to bring mixture together. If it seems a little dry, add more ice water 1 tablespoon at a time. The dough will resemble small pebbles and hold together when you squeeze a bit in your hand.",

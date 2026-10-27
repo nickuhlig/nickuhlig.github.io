@@ -58,18 +58,21 @@
   "ingredients": [
     {
       "ingredient_id": 1713,
-      "name": "onions, roughly chopped",
-      "quantity": "3 large"
+      "name": "onions",
+      "quantity": "3 large",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and roughly chopped",
-      "quantity": "3 large"
+      "name": "carrots",
+      "quantity": "3 large",
+      "prep": "peeled and roughly chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, roughly chopped",
-      "quantity": "4 stalks"
+      "name": "celery",
+      "quantity": "4 stalks",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1994,
@@ -118,6 +121,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the onions. Peel and roughly chop the carrots. Roughly chop the celery.",
+      "secondary_message": "3 large onions\n3 large carrots\n4 stalks celery"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 230°C (450°F). Line a rimmed baking sheet or broiler pan with aluminum foil. Scatter 2/3rds of onions, carrots, celery and thyme sprigs across bottom of pan. Place slotted broiler rack or wire rack directly on top of vegetables.",

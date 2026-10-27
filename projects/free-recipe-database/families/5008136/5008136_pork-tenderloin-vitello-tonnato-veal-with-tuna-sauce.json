@@ -102,11 +102,18 @@
     },
     {
       "ingredient_id": 2654,
-      "name": "tuna in olive oil, drained",
-      "quantity": "1 (5 oz) can"
+      "name": "tuna in olive oil",
+      "quantity": "1 (5 oz) can",
+      "prep": "drained"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain the tuna in olive oil.",
+      "secondary_message": "1 (5 oz) can tuna in olive oil"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 250°F. Place pork on a rimmed baking sheet and season all over with salt and pepper. Drizzle with olive oil and rub all over to lightly coat. Roast pork until instant-read thermometer registers 140°F, about 30 minutes.",

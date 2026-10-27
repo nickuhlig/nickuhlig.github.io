@@ -31,8 +31,9 @@
   "ingredients": [
     {
       "ingredient_id": 2787,
-      "name": "Chinese bacon, soaked in water for at least 6 hours",
-      "quantity": "1 lb"
+      "name": "Chinese bacon",
+      "quantity": "1 lb",
+      "prep": "soaked in water for at least 6 hours"
     },
     {
       "ingredient_id": 293,
@@ -41,6 +42,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soak the Chinese bacon in water for at least 6 hours.",
+      "secondary_message": "1 lb Chinese bacon"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 425°F. Cut meat crosswise into 1/4-inch-thick pieces.",

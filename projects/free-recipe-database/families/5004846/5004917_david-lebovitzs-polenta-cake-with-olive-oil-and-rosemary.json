@@ -38,8 +38,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "½ cup"
+      "name": "unsalted butter",
+      "quantity": "½ cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 286,
@@ -73,8 +74,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "5 large"
+      "name": "eggs",
+      "quantity": "5 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 3641,
@@ -93,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature. Bring the eggs to room temperature.",
+      "secondary_message": "½ cup unsalted butter\n5 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 175°C (350°F).",

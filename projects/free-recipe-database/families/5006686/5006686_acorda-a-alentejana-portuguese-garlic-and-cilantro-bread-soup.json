@@ -50,23 +50,27 @@
     },
     {
       "ingredient_id": 1754,
-      "name": "dry-cured Spanish style chorizo, quartered lengthwise and thinly sliced",
-      "quantity": "4 oz"
+      "name": "dry-cured Spanish style chorizo",
+      "quantity": "4 oz",
+      "prep": "quartered lengthwise and thinly sliced"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely diced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, crushed",
-      "quantity": "6 medium cloves"
+      "name": "garlic",
+      "quantity": "6 medium cloves",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 2021,
-      "name": "serrano chile, minced",
-      "quantity": "1 small"
+      "name": "serrano chile",
+      "quantity": "1 small",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1231,
@@ -95,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Quarter the dry-cured Spanish style chorizo lengthwise, then thinly slice it. Finely dice the yellow onion. Crush the garlic. Mince the serrano chile.",
+      "secondary_message": "4 oz dry-cured Spanish style chorizo\n1 medium yellow onion\n6 medium cloves garlic\n1 small serrano chile"
+    },
     {
       "id": 1,
       "primary_message": "In a Dutch oven, heat olive oil over medium-high heat until shimmering. Add chorizo and cook, stirring occasionally, until crisped, about 4 minutes. Using a slotted spoon, transfer chorizo to a plate and set aside.",

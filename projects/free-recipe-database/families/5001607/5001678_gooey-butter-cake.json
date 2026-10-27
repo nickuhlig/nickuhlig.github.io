@@ -72,8 +72,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, room temperature, plus more for greasing",
-      "quantity": "113 g"
+      "name": "unsalted butter, plus more for greasing",
+      "quantity": "113 g",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 88,
@@ -92,13 +93,15 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, room temperature",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 3641,
-      "name": "egg yolk, room temperature",
-      "quantity": "1 large"
+      "name": "egg yolk",
+      "quantity": "1 large",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 116,
@@ -117,8 +120,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, room temperature",
-      "quantity": "255 g"
+      "name": "unsalted butter",
+      "quantity": "255 g",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 346,
@@ -152,6 +156,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature. Bring the egg to room temperature. Bring the egg yolk to room temperature. Bring the unsalted butter to room temperature.",
+      "secondary_message": "113 g unsalted butter, plus more for greasing\n1 large egg\n1 large egg yolk\n255 g unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Grease a 9-by-33-cm baking pan with butter; set aside.",

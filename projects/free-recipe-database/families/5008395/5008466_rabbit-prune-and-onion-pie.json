@@ -79,13 +79,15 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled, divided",
-      "quantity": "2 large"
+      "name": "carrots, divided",
+      "quantity": "2 large",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, peeled, divided",
-      "quantity": "3 stalks"
+      "name": "celery, divided",
+      "quantity": "3 stalks",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 1994,
@@ -119,18 +121,21 @@
     },
     {
       "ingredient_id": 2627,
-      "name": "pearl cippolini onions, peeled",
-      "quantity": "16"
+      "name": "pearl cippolini onions",
+      "quantity": "16",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 2106,
-      "name": "prunes, pitted and cut into 1/4-inch pieces",
-      "quantity": "12"
+      "name": "prunes",
+      "quantity": "12",
+      "prep": "pitted and cut into 1/4-inch pieces"
     },
     {
       "ingredient_id": 2347,
-      "name": "root vegetables, cut into 1/2-inch dice",
-      "quantity": "0.45 kg"
+      "name": "root vegetables",
+      "quantity": "0.45 kg",
+      "prep": "cut into 1/2-inch dice"
     },
     {
       "ingredient_id": 1808,
@@ -139,6 +144,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the carrots. Peel the celery. Peel the pearl cippolini onions. Pit and cut the prunes into 1/4-inch pieces. Cut the root vegetables into 1/2-inch dice.",
+      "secondary_message": "2 large carrots, divided\n3 stalks celery, divided\n16 pearl cippolini onions\n12 prunes\n0.45 kg root vegetables"
+    },
     {
       "id": 1,
       "primary_message": "Season rabbit pieces with salt and pepper and dust with all purpose flour. Heat vegetable oil over medium high heat in large, heavy-bottomed stock pot until just smoking. Add rabbit and cook until well browned on all sides, 6 to 10 minutes total. If pan starts to smoke or fond begins to burn, lower heat.",

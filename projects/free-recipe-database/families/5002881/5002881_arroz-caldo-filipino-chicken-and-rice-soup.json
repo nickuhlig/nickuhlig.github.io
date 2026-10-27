@@ -48,13 +48,15 @@
     },
     {
       "ingredient_id": 164,
-      "name": "boneless skinless chicken thighs, cut into bite-size pieces",
-      "quantity": "1 ½ lb"
+      "name": "boneless skinless chicken thighs",
+      "quantity": "1 ½ lb",
+      "prep": "cut into bite-size pieces"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, thinly sliced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1330,
@@ -93,16 +95,24 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, thinly sliced",
-      "quantity": "4"
+      "name": "scallions",
+      "quantity": "4",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 228,
-      "name": "fresh limes, quartered",
-      "quantity": "2"
+      "name": "fresh limes",
+      "quantity": "2",
+      "prep": "quartered"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the boneless skinless chicken thighs into bite-size pieces. Thinly slice the onion. Thinly slice the scallions. Quarter the fresh limes.",
+      "secondary_message": "1 ½ lb boneless skinless chicken thighs\n1 medium onion\n4 scallions\n2 fresh limes"
+    },
     {
       "id": 1,
       "primary_message": "Place 1/2 cup oil and 2/3 of garlic in a small saucepan over medium heat. Cook, stirring occasionally, until garlic turns light golden brown. Transfer garlic to fine-mesh strainer and drain. Spread garlic out on a paper towel-lined plate and set aside.",

@@ -63,13 +63,15 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, peeled and quartered",
-      "quantity": "½ large"
+      "name": "white onion",
+      "quantity": "½ large",
+      "prep": "peeled and quartered"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, peeled, trimmed, and halved crosswise",
-      "quantity": "1 large"
+      "name": "carrot",
+      "quantity": "1 large",
+      "prep": "peeled, trimmed, and halved crosswise"
     },
     {
       "ingredient_id": 24,
@@ -83,28 +85,33 @@
     },
     {
       "ingredient_id": 2542,
-      "name": "California chiles, stems removed",
-      "quantity": "4"
+      "name": "California chiles",
+      "quantity": "4",
+      "prep": "stems removed"
     },
     {
       "ingredient_id": 2885,
-      "name": "guajillo chile, stem removed",
-      "quantity": "1"
+      "name": "guajillo chile",
+      "quantity": "1",
+      "prep": "stem removed"
     },
     {
       "ingredient_id": 2075,
-      "name": "chipotle chilis, dried, stem removed",
-      "quantity": "1"
+      "name": "chipotle chilis, dried",
+      "quantity": "1",
+      "prep": "stem removed"
     },
     {
       "ingredient_id": 1541,
-      "name": "plum tomatoes, halved",
-      "quantity": "2"
+      "name": "plum tomatoes",
+      "quantity": "2",
+      "prep": "halved"
     },
     {
       "ingredient_id": 2069,
-      "name": "tomatillos, peeled and halved",
-      "quantity": "2"
+      "name": "tomatillos",
+      "quantity": "2",
+      "prep": "peeled and halved"
     },
     {
       "ingredient_id": 217,
@@ -148,8 +155,9 @@
     },
     {
       "ingredient_id": 2238,
-      "name": "lard, softened",
-      "quantity": "1 cup"
+      "name": "lard",
+      "quantity": "1 cup",
+      "prep": "softened"
     },
     {
       "ingredient_id": 2246,
@@ -173,6 +181,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and quarter the white onion. Peel, trim, and halve the carrot crosswise. Remove the stems from the California chiles. Remove the stem from the guajillo chile. Remove the stem from the chipotle chilis. Halve the plum tomatoes. Peel and halve the tomatillos. Soften the lard.",
+      "secondary_message": "½ large white onion\n1 large carrot\n4 California chiles\n1 guajillo chile\n1 chipotle chilis, dried\n2 plum tomatoes\n2 tomatillos\n1 cup lard"
+    },
     {
       "id": 1,
       "primary_message": "For the pork: Generously season pork with salt and pepper. In a large stock pot or large Dutch oven, add the pork, onion, carrots, garlic, and bay leaves. Add water to cover the pork by 8 cm. Bring to a boil over high heat, then reduce heat to maintain a simmer and cook, covered, adjusting heat as needed and skimming any scum that rises to the surface, until the pork is fork-tender and shreds easily, 2 to 3 hours.",

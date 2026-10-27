@@ -44,18 +44,21 @@
   "ingredients": [
     {
       "ingredient_id": 2324,
-      "name": "zucchini, cut into 1/8\" slices",
-      "quantity": "1 medium"
+      "name": "zucchini",
+      "quantity": "1 medium",
+      "prep": "cut into 1/8\" slices"
     },
     {
       "ingredient_id": 1301,
-      "name": "yellow squash, cut into 1/8\" slices",
-      "quantity": "1 medium"
+      "name": "yellow squash",
+      "quantity": "1 medium",
+      "prep": "cut into 1/8\" slices"
     },
     {
       "ingredient_id": 192,
-      "name": "lemons, cut into 1/4\" slices",
-      "quantity": "2"
+      "name": "lemons",
+      "quantity": "2",
+      "prep": "cut into 1/4\" slices"
     },
     {
       "ingredient_id": 324,
@@ -89,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the zucchini into 1/8\" slices. Cut the yellow squash into 1/8\" slices. Cut the lemons into 1/4\" slices.",
+      "secondary_message": "1 medium zucchini\n1 medium yellow squash\n2 lemons"
+    },
     {
       "id": 1,
       "primary_message": "Fold a 38-cm square of parchment paper in half and cut out a half heart shape. Repeat with remaining 3 parchment squares.",

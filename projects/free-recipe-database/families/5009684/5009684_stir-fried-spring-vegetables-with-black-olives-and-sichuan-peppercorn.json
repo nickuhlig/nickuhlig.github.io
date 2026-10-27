@@ -51,9 +51,10 @@
     },
     {
       "ingredient_id": 26,
-      "name": "asparagus, cut on a bias into 2-inch pieces",
+      "name": "asparagus",
       "quantity": "½ bunch",
-      "weigh_as": "½ lb"
+      "weigh_as": "½ lb",
+      "prep": "cut on a bias into 2-inch pieces"
     },
     {
       "ingredient_id": 2208,
@@ -67,8 +68,9 @@
     },
     {
       "ingredient_id": 36,
-      "name": "sugar snap peas, split in half on a sharp bias",
-      "quantity": "½ lb"
+      "name": "sugar snap peas",
+      "quantity": "½ lb",
+      "prep": "split in half on a sharp bias"
     },
     {
       "ingredient_id": 1044,
@@ -77,8 +79,9 @@
     },
     {
       "ingredient_id": 2564,
-      "name": "morel mushrooms, trimmed and split in half lengthwise",
-      "quantity": "¼ lb"
+      "name": "morel mushrooms",
+      "quantity": "¼ lb",
+      "prep": "trimmed and split in half lengthwise"
     },
     {
       "ingredient_id": 1776,
@@ -92,8 +95,9 @@
     },
     {
       "ingredient_id": 1534,
-      "name": "pitted black olives, minced",
-      "quantity": "¼ cup"
+      "name": "pitted black olives",
+      "quantity": "¼ cup",
+      "prep": "minced"
     },
     {
       "ingredient_id": 153,
@@ -102,8 +106,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 221,
@@ -132,6 +137,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the asparagus on a bias into 2-inch pieces. Split the sugar snap peas in half on a sharp bias. Trim and split the morel mushrooms in half lengthwise. Mince the pitted black olives. Finely mince the garlic.",
+      "secondary_message": "½ bunch asparagus\n½ lb sugar snap peas\n¼ lb morel mushrooms\n¼ cup pitted black olives\n3 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Bring a large pot of salted water to a boil. Add asparagus and cook until bright green but still crisp, about 45 seconds. Use a fine-mesh strainer to transfer to a bowl of cold water. Cook fava beans, then peas, then sugar snap peas in succession until each is bright green but still crisp, transferring each batch of vegetables to cold water as they cook. Remove skins from fava beans and discard. Carefully drain all vegetables and transfer to a paper towel–lined tray to dry.",

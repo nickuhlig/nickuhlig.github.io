@@ -93,8 +93,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely minced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 2966,
@@ -103,13 +104,15 @@
     },
     {
       "ingredient_id": 222,
-      "name": "grapefruit, cut into segments",
-      "quantity": "1"
+      "name": "grapefruit",
+      "quantity": "1",
+      "prep": "cut into segments"
     },
     {
       "ingredient_id": 232,
-      "name": "whole orange, cut into segments",
-      "quantity": "1"
+      "name": "whole orange",
+      "quantity": "1",
+      "prep": "cut into segments"
     },
     {
       "ingredient_id": 2151,
@@ -118,6 +121,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the shallot. Cut the grapefruit into segments. Cut the whole orange into segments.",
+      "secondary_message": "1 small shallot\n1 grapefruit\n1 whole orange"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 190°C (375°F). Fold two 12- by 46-cm squares of heavy-duty aluminum foil in half cross-wise. Crimp the left and right edges to form a tight seal (leave the top open). Toss beets with 1 tablespoon olive oil and season with salt and pepper. Divide evenly between both foil pouches. Add 2 sprigs rosemary or thyme to each pouch, then tightly crimp top of pouch to seal.",

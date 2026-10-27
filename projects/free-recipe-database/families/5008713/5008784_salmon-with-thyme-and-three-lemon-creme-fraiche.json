@@ -43,8 +43,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, thinly sliced",
-      "quantity": "1/2"
+      "name": "lemon",
+      "quantity": "1/2",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1480,
@@ -83,6 +84,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the lemon.",
+      "secondary_message": "1/2 lemon"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 175°C (350°F). Line a rimmed baking sheet with aluminum foil. Place thyme sprigs and sliced lemon in a pile in the center of the baking sheet large enough to hold the salmon. Rub salmon on all sides with olive oil and season with salt and pepper. Place salmon on top of thyme/lemon bed and transfer to oven. Roast until the internal temperature registers 125 to 55°C (130°F) on an instant read thermometer for medium-rare or 60°C for medium, 15 to 25 minutes. Remove from oven and allow to rest at least 5 minutes, or allow to cool to room temperature.",

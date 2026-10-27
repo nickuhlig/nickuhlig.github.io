@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 2234,
-      "name": "jicama, peeled and cut into 1/4-inch sticks",
-      "quantity": "0.91 kg"
+      "name": "jicama",
+      "quantity": "0.91 kg",
+      "prep": "peeled and cut into 1/4-inch sticks"
     },
     {
       "ingredient_id": 1421,
@@ -71,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the jicama into 1/4-inch sticks.",
+      "secondary_message": "0.91 kg jicama"
+    },
     {
       "id": 1,
       "primary_message": "Combine the jicama, lime juice, cilantro, and red pepper flakes in a large bowl and toss until well-incorporated. Place the dressed jicama on a large platter and season with salt, pepper, and chipotle powder. Serve immediately.",

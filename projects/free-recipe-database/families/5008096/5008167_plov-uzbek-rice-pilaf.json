@@ -49,8 +49,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, sliced into thin half moons",
-      "quantity": "2 medium"
+      "name": "onions",
+      "quantity": "2 medium",
+      "prep": "sliced into thin half moons"
     },
     {
       "ingredient_id": 88,
@@ -59,13 +60,15 @@
     },
     {
       "ingredient_id": 76,
-      "name": "coriander, toasted and freshly ground",
-      "quantity": "2 tsp"
+      "name": "coriander",
+      "quantity": "2 tsp",
+      "prep": "toasted and freshly ground"
     },
     {
       "ingredient_id": 186,
-      "name": "cumin, toasted and freshly ground",
-      "quantity": "1 ½ tsp"
+      "name": "cumin",
+      "quantity": "1 ½ tsp",
+      "prep": "toasted and freshly ground"
     },
     {
       "ingredient_id": 478,
@@ -79,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the onions into thin half moons. Toast and freshly grind the coriander. Toast and freshly grind the cumin.",
+      "secondary_message": "2 medium onions\n2 tsp coriander\n1 ½ tsp cumin"
+    },
     {
       "id": 1,
       "primary_message": "Rinse rice in a fine mesh strainer until water runs clear. Transfer rice to bowl and cover with water while prepping other ingredients.",

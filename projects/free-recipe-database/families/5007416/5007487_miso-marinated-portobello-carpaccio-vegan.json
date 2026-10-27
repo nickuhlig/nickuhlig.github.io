@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 231,
-      "name": "portobello mushroom caps, stems and dark gills removed",
-      "quantity": "4"
+      "name": "portobello mushroom caps",
+      "quantity": "4",
+      "prep": "stems and dark gills removed"
     },
     {
       "ingredient_id": 47,
@@ -96,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the stems and dark gills from the portobello mushroom caps.",
+      "secondary_message": "4 portobello mushroom caps"
+    },
     {
       "id": 1,
       "primary_message": "Combine miso paste, brown sugar, soy sauce, vegetable oil, and lemon juice in a medium bowl and whisk to combine. Rub evenly over surfaces of mushrooms and transfer to a gallon-sized zipper lock bag. Gently press air out from bag, seal, and transfer to refrigerator for at least 1 hour and up to overnight.",

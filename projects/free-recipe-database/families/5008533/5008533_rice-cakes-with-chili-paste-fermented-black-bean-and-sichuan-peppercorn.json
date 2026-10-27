@@ -36,14 +36,16 @@
     },
     {
       "ingredient_id": 2724,
-      "name": "lop cheung, cut into ¼-inch dice",
-      "quantity": "1 link"
+      "name": "lop cheung",
+      "quantity": "1 link",
+      "prep": "cut into ¼-inch dice"
     },
     {
       "ingredient_id": 285,
-      "name": "baby bok choy, peeled into individual leaves",
+      "name": "baby bok choy",
       "quantity": "1 ½",
-      "weigh_as": "5 oz"
+      "weigh_as": "5 oz",
+      "prep": "peeled into individual leaves"
     },
     {
       "ingredient_id": 1044,
@@ -57,8 +59,9 @@
     },
     {
       "ingredient_id": 2366,
-      "name": "dried fermented black beans, minced",
-      "quantity": "1 tsp"
+      "name": "dried fermented black beans",
+      "quantity": "1 tsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 53,
@@ -67,8 +70,9 @@
     },
     {
       "ingredient_id": 1837,
-      "name": "Sichuan peppercorns, toasted and ground",
-      "quantity": "½ tsp"
+      "name": "Sichuan peppercorns",
+      "quantity": "½ tsp",
+      "prep": "toasted and ground"
     },
     {
       "ingredient_id": 153,
@@ -82,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the lop cheung into ¼-inch dice. Peel the baby bok choy into individual leaves. Mince the dried fermented black beans. Toast and grind the Sichuan peppercorns.",
+      "secondary_message": "1 link lop cheung\n1 ½ baby bok choy\n1 tsp dried fermented black beans\n½ tsp Sichuan peppercorns"
+    },
     {
       "id": 1,
       "primary_message": "If using dried rice cakes, soak the rice cakes in water the night before. Drain and set aside.",

@@ -102,8 +102,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "3 oz"
+      "name": "unsalted butter",
+      "quantity": "3 oz",
+      "prep": "melted"
     },
     {
       "ingredient_id": 293,
@@ -153,6 +154,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter.",
+      "secondary_message": "3 oz unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Crumble: In a medium heatproof bowl, combine all-purpose flour, salt, cinnamon, and five-spice powder.",

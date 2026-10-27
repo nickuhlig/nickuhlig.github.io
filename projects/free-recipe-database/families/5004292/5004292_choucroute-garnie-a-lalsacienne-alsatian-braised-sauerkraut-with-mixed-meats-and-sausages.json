@@ -87,8 +87,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onions, thinly sliced",
-      "quantity": "2 medium"
+      "name": "yellow onions",
+      "quantity": "2 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1008,
@@ -112,8 +113,9 @@
     },
     {
       "ingredient_id": 479,
-      "name": "good-quality sauerkraut, drained",
-      "quantity": "5 lb"
+      "name": "good-quality sauerkraut",
+      "quantity": "5 lb",
+      "prep": "drained"
     },
     {
       "ingredient_id": 313,
@@ -132,6 +134,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the yellow onions. Drain the good-quality sauerkraut.",
+      "secondary_message": "2 medium yellow onions\n5 lb good-quality sauerkraut"
+    },
     {
       "id": 1,
       "primary_message": "Generously season pork loin and shoulder all over with salt. You can either proceed with the rest of the recipe right away, or, if you have time, place both cuts on a wire rack set over a rimmed baking sheet and refrigerate, uncovered, for up to 2 days. (Pre-salting the fresh cuts of pork will season them deeply and help them retain juiciness later.)",

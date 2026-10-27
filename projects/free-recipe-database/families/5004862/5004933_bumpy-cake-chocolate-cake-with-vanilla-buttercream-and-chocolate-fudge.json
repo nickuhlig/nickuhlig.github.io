@@ -97,8 +97,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, lightly beaten",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 293,
@@ -137,8 +138,9 @@
     },
     {
       "ingredient_id": 2475,
-      "name": "buttermilk, room temperature",
-      "quantity": "½ cup"
+      "name": "buttermilk",
+      "quantity": "½ cup",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 1710,
@@ -172,11 +174,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into tablespoon-sized pieces",
-      "quantity": "16 tbsp"
+      "name": "unsalted butter",
+      "quantity": "16 tbsp",
+      "prep": "cut into tablespoon-sized pieces"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly beat the eggs. Bring the buttermilk to room temperature. Cut the unsalted butter into tablespoon-sized pieces.",
+      "secondary_message": "2 large eggs\n½ cup buttermilk\n16 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Set oven rack to the middle position and preheat oven to 190°C (375°F). Grease a 9- by 33-cm pan or baking dish with butter. Add 2 tablespoons cocoa powder to pan and shake and tap pan gently until the butter is completely coated in cocoa. Tip out excess.",

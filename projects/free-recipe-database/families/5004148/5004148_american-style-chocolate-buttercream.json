@@ -50,8 +50,9 @@
   "ingredients": [
     {
       "ingredient_id": 1752,
-      "name": "heavy cream, straight from the fridge",
-      "quantity": "4 oz"
+      "name": "heavy cream",
+      "quantity": "4 oz",
+      "prep": "straight from the fridge"
     },
     {
       "ingredient_id": 1729,
@@ -60,8 +61,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened to about 65°F",
-      "quantity": "12 oz"
+      "name": "unsalted butter",
+      "quantity": "12 oz",
+      "prep": "softened to about 65°F"
     },
     {
       "ingredient_id": 347,
@@ -90,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the heavy cream cold until you use it. Soften the unsalted butter to about 65°F.",
+      "secondary_message": "4 oz heavy cream\n12 oz unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a small saucepan, bring cream to a simmer. Off heat, add chopped chocolate and whisk until smooth. Set aside and cool to approximately 75°F. This can be done slowly by letting the mixture cool down over time in the saucepan, or sped up by transferring the ganache to a wide, shallow container to increase its surface area; the faster method will cool the ganache in about 30 minutes.",

@@ -44,25 +44,29 @@
   "ingredients": [
     {
       "ingredient_id": 13,
-      "name": "beets, peeled and cut into matchsticks",
+      "name": "beets",
       "quantity": "6 medium",
-      "weigh_as": "0.45 kg"
+      "weigh_as": "0.45 kg",
+      "prep": "peeled and cut into matchsticks"
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, sliced into half-moons",
-      "quantity": "2 medium"
+      "name": "onions",
+      "quantity": "2 medium",
+      "prep": "sliced into half-moons"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and cut into matchsticks",
-      "quantity": "2 large"
+      "name": "carrots",
+      "quantity": "2 large",
+      "prep": "peeled and cut into matchsticks"
     },
     {
       "ingredient_id": 2715,
-      "name": "white cabbage, cut thinly into shreds",
+      "name": "white cabbage",
       "quantity": "½ small head",
-      "weigh_as": "0.34 kg"
+      "weigh_as": "0.34 kg",
+      "prep": "cut thinly into shreds"
     },
     {
       "ingredient_id": 47,
@@ -76,8 +80,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, juiced",
-      "quantity": "½"
+      "name": "lemon",
+      "quantity": "½",
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -91,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the beets into matchsticks. Slice the onions into half-moons. Peel and cut the carrots into matchsticks. Cut the white cabbage thinly into shreds. Juice the lemon.",
+      "secondary_message": "6 medium beets\n2 medium onions\n2 large carrots\n½ small head white cabbage\n½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "Sauté onions, carrots, and beets over medium heat in the olive oil with a pinch of salt in a large soup pot, reserving a small amount of raw beet to grate and add near the end to enliven the color.",

@@ -68,8 +68,9 @@
     },
     {
       "ingredient_id": 1938,
-      "name": "Tahitian vanilla bean, split and scraped; seeds reserved",
-      "quantity": "1"
+      "name": "Tahitian vanilla bean",
+      "quantity": "1",
+      "prep": "split and scraped; seeds reserved"
     },
     {
       "ingredient_id": 1082,
@@ -78,8 +79,9 @@
     },
     {
       "ingredient_id": 349,
-      "name": "whole nutmeg, roughly chopped",
-      "quantity": "3"
+      "name": "whole nutmeg",
+      "quantity": "3",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 3641,
@@ -113,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the Tahitian vanilla bean, then reserve the scraped; seeds. Roughly chop the whole nutmeg.",
+      "secondary_message": "1 Tahitian vanilla bean\n3 whole nutmeg"
+    },
     {
       "id": 1,
       "primary_message": "Prepare Shake Base: In a medium pot, bring milk and cream to a simmer together with vanilla bean, cinnamon and nutmeg. When mixture begins to simmer, remove from heat and cover with a lid. Steep for one hour.",

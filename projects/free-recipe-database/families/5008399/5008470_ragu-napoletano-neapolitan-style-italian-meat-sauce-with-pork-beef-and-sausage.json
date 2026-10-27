@@ -44,18 +44,21 @@
   "ingredients": [
     {
       "ingredient_id": 1975,
-      "name": "pork spare ribs, cut into 2 chunks",
-      "quantity": "0.9 kg"
+      "name": "pork spare ribs",
+      "quantity": "0.9 kg",
+      "prep": "cut into 2 chunks"
     },
     {
       "ingredient_id": 1922,
-      "name": "boneless beef chuck, cut into 2 chunks",
-      "quantity": "0.9 kg"
+      "name": "boneless beef chuck",
+      "quantity": "0.9 kg",
+      "prep": "cut into 2 chunks"
     },
     {
       "ingredient_id": 2164,
-      "name": "boneless pork shoulder, cut into 2 chunks",
-      "quantity": "0.9 kg"
+      "name": "boneless pork shoulder",
+      "quantity": "0.9 kg",
+      "prep": "cut into 2 chunks"
     },
     {
       "ingredient_id": 47,
@@ -64,8 +67,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely chopped",
-      "quantity": "1 large"
+      "name": "yellow onion",
+      "quantity": "1 large",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 323,
@@ -99,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the pork spare ribs into 2 chunks. Cut the boneless beef chuck into 2 chunks. Cut the boneless pork shoulder into 2 chunks. Finely chop the yellow onion.",
+      "secondary_message": "0.9 kg pork spare ribs\n0.9 kg boneless beef chuck\n0.9 kg boneless pork shoulder\n1 large yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower-middle position and preheat oven to 150°C (300°F). Season ribs with salt and pepper. Heat 2 tablespoons olive oil in a large Dutch oven over high heat until shimmering. Add ribs and cook without moving until well browned, 8 to 10 minutes. Flip and cook until second side is well browned, 5 to 7 minutes longer. Transfer to a plate and set aside. Repeat with beef chuck and pork shoulder until browned all over and add to plate with pork ribs.",

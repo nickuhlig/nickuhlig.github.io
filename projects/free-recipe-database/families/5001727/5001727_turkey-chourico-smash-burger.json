@@ -60,13 +60,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "1 small clove"
+      "name": "garlic",
+      "quantity": "1 small clove",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 188,
-      "name": "fresh cilantro leaves, tender stems chopped",
-      "quantity": "2 tbsp"
+      "name": "fresh cilantro leaves",
+      "quantity": "2 tbsp",
+      "prep": "tender stems chopped"
     },
     {
       "ingredient_id": 117,
@@ -125,8 +127,9 @@
     },
     {
       "ingredient_id": 1390,
-      "name": "Portuguese chouriço, chopped into 1-inch pieces",
-      "quantity": "1 link"
+      "name": "Portuguese chouriço",
+      "quantity": "1 link",
+      "prep": "chopped into 1-inch pieces"
     },
     {
       "ingredient_id": 43,
@@ -140,8 +143,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, minced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "minced"
     },
     {
       "ingredient_id": 88,
@@ -160,11 +164,18 @@
     },
     {
       "ingredient_id": 1027,
-      "name": "Bolo buns, split horizontally through the middle",
-      "quantity": ""
+      "name": "Bolo buns",
+      "quantity": "",
+      "prep": "split horizontally through the middle"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the garlic. Chop the tender stems of the fresh cilantro leaves. Chop the Portuguese chouriço into 1-inch pieces. Mince the shallot. Split the Bolo buns horizontally through the middle.",
+      "secondary_message": "1 small clove garlic\n2 tbsp fresh cilantro leaves\n1 link Portuguese chouriço\n1 small shallot\nBolo buns"
+    },
     {
       "id": 1,
       "primary_message": "For the Mozambique Mayonnaise: In a tall quart-size jar or beaker, combine all the ingredients, except canola oil. Using a handheld blender, blend the mixture until the garlic and cilantro are completely pulverized, about 20 seconds.",

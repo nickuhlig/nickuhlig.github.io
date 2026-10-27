@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 2284,
-      "name": "seedless watermelon, rind removed, cut into 1-inch chunks",
-      "quantity": "3 lb"
+      "name": "seedless watermelon",
+      "quantity": "3 lb",
+      "prep": "rind removed, cut into 1-inch chunks"
     },
     {
       "ingredient_id": 1480,
@@ -50,8 +51,9 @@
     },
     {
       "ingredient_id": 2346,
-      "name": "zest, removed with a sharp vegetable peeler",
-      "quantity": "4 (2 inch) strips"
+      "name": "zest",
+      "quantity": "4 (2 inch) strips",
+      "prep": "removed with a sharp vegetable peeler"
     },
     {
       "ingredient_id": 243,
@@ -80,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the rind from the seedless watermelon, then cut it into 1-inch chunks. Remove the zest with a sharp vegetable peeler.",
+      "secondary_message": "3 lb seedless watermelon\n4 (2 inch) strips zest"
+    },
     {
       "id": 1,
       "primary_message": "Place watermelon chunks in a large bowl. Finely chop lemon zest. Add lemon juice and half of zest to bowl with watermelon. Add mint, oil, and arugula (if using) and toss until watermelon is evenly dressed. Season lightly to taste with salt and pepper. (The cheese will add saltiness, so go light on the salt at this stage.)",

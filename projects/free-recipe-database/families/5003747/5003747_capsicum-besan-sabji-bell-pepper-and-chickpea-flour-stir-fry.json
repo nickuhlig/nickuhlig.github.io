@@ -77,8 +77,9 @@
     },
     {
       "ingredient_id": 291,
-      "name": "green bell peppers, seeded and cut into 1-inch squares",
-      "quantity": "2 medium"
+      "name": "green bell peppers",
+      "quantity": "2 medium",
+      "prep": "seeded and cut into 1-inch squares"
     },
     {
       "ingredient_id": 88,
@@ -87,6 +88,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Seed and cut the green bell peppers into 1-inch squares.",
+      "secondary_message": "2 medium green bell peppers"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, combine chickpea flour, red chile, cumin, and coriander. Place chickpea flour mixture in a medium nonstick skillet; cook over medium heat, stirring occasionally, until fragrant but not browned, about 1 minute. Transfer to a small bowl.",

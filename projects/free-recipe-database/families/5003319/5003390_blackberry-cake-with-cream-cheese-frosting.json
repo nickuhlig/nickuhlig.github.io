@@ -58,8 +58,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened to about 60°F",
-      "quantity": "113 g"
+      "name": "unsalted butter",
+      "quantity": "113 g",
+      "prep": "softened to about 60°F"
     },
     {
       "ingredient_id": 346,
@@ -88,13 +89,15 @@
     },
     {
       "ingredient_id": 3642,
-      "name": "egg whites, brought to about 70°F",
-      "quantity": "57 g"
+      "name": "egg whites",
+      "quantity": "57 g",
+      "prep": "brought to about 70°F"
     },
     {
       "ingredient_id": 2050,
-      "name": "bleached cake flour, such as Swans Down, sifted",
-      "quantity": "156 g"
+      "name": "bleached cake flour, such as Swans Down",
+      "quantity": "156 g",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 1488,
@@ -103,6 +106,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter to about 60°F. Bring the egg whites to about 70°F. Sift the bleached cake flour.",
+      "secondary_message": "113 g unsalted butter\n57 g egg whites\n156 g bleached cake flour, such as Swans Down"
+    },
     {
       "id": 1,
       "primary_message": "To Prepare: Using a blender, food processor, or immersion blender, purée blackberries until totally smooth. If seeds bother you, the purée can be strained using a fine-mesh strainer; if you do plan to strain, add a couple extra blackberries to make up for the loss. Measure out exactly 170 g fresh blackberry purée (about 3/4 cup; 170g) and bring to about 21°C before using.",

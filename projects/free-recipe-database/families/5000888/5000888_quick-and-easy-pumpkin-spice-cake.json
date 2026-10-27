@@ -112,8 +112,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "8 oz"
+      "name": "unsalted butter",
+      "quantity": "8 oz",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 293,
@@ -122,8 +123,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 2271,
@@ -142,6 +144,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature. Bring the eggs to room temperature.",
+      "secondary_message": "8 oz unsalted butter\n2 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350°F. Spray 9-inch springform pan with baking spray. Press a square piece of parchment into bottom and up sides of pan and coat with baking spray. Press second piece of parchment into pan; coat with baking spray.",

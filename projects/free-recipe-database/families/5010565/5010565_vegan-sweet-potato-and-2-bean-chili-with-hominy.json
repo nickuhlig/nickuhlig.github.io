@@ -78,18 +78,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, chopped",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2066,
-      "name": "poblano pepper, chopped",
-      "quantity": "1"
+      "name": "poblano pepper",
+      "quantity": "1",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 186,
@@ -108,28 +111,33 @@
     },
     {
       "ingredient_id": 1294,
-      "name": "whole peeled tomatoes, crushed by hand",
-      "quantity": "1 (28 oz) can"
+      "name": "whole peeled tomatoes",
+      "quantity": "1 (28 oz) can",
+      "prep": "crushed by hand"
     },
     {
       "ingredient_id": 93,
-      "name": "kidney beans, drained and rinsed",
-      "quantity": "2 (15 oz) cans"
+      "name": "kidney beans",
+      "quantity": "2 (15 oz) cans",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 185,
-      "name": "black beans, drained and rinsed",
-      "quantity": "1 (15 oz) can"
+      "name": "black beans",
+      "quantity": "1 (15 oz) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 2648,
-      "name": "hominy, drained and rinsed",
-      "quantity": "1 (15 oz) can"
+      "name": "hominy",
+      "quantity": "1 (15 oz) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 143,
-      "name": "sweet potatoes, peeled and cut into 1/2-inch cubes",
-      "quantity": "1 ½ lb"
+      "name": "sweet potatoes",
+      "quantity": "1 ½ lb",
+      "prep": "peeled and cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 88,
@@ -148,6 +156,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the onion. Chop the poblano pepper. Mince the garlic. Crush the whole peeled tomatoes by hand. Drain and rinse the kidney beans. Drain and rinse the black beans. Drain and rinse the hominy. Peel and cut the sweet potatoes into 1/2-inch cubes.",
+      "secondary_message": "1 large onion\n1 poblano pepper\n3 medium cloves garlic\n1 (28 oz) can whole peeled tomatoes\n2 (15 oz) cans kidney beans\n1 (15 oz) can black beans\n1 (15 oz) can hominy\n1 ½ lb sweet potatoes"
+    },
     {
       "id": 1,
       "primary_message": "Place dried chiles in a large saucepan over medium heat. Toast, stirring and flipping the chiles occasionally, until pliable, lightly puffed, and fragrant, about 4 minutes. Add stock, raisins, and orange juice, and simmer, stirring occasionally, until chiles are fully hydrated and tender, about 15 minutes. Drain chiles and raisins, reserving water separately. Transfer chiles to a blender or hand blender cup. Add chipotles and their sauce. Blend until completely smooth.",

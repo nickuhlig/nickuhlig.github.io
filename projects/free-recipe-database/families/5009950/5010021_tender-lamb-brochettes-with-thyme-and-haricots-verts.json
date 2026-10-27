@@ -30,8 +30,9 @@
   "ingredients": [
     {
       "ingredient_id": 2237,
-      "name": "lamb loin, cut into 1-inch discs",
-      "quantity": "0.45 kg"
+      "name": "lamb loin",
+      "quantity": "0.45 kg",
+      "prep": "cut into 1-inch discs"
     },
     {
       "ingredient_id": 88,
@@ -65,11 +66,18 @@
     },
     {
       "ingredient_id": 111,
-      "name": "haricots verts, trimmed",
-      "quantity": "312 g"
+      "name": "haricots verts",
+      "quantity": "312 g",
+      "prep": "trimmed"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the lamb loin into 1-inch discs. Trim the haricots verts.",
+      "secondary_message": "0.45 kg lamb loin\n312 g haricots verts"
+    },
     {
       "id": 1,
       "primary_message": "Bring a stockpot of water to a boil. Skewer the lamb onto the bamboo skewers, leaving a little space between each piece of lamb, and season with salt and pepper. Heat olive oil in a large skillet over high heat until shimmering. Add lamb and cook, turning occasionally, until center of largest pieces register 125 to 54°C on an instant read thermometer and lamb is well browned on all sides, about 3 minutes total. Transfer to a large plate and tent with aluminum foil. Let rest for 10 minutes.",

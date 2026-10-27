@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, peeled and thinly sliced",
-      "quantity": "1 (5 inch) knob"
+      "name": "fresh ginger",
+      "quantity": "1 (5 inch) knob",
+      "prep": "peeled and thinly sliced"
     },
     {
       "ingredient_id": 1756,
@@ -75,11 +76,18 @@
     },
     {
       "ingredient_id": 2463,
-      "name": "rhubarb, cut into 3/4-inch pieces",
-      "quantity": "1 lb"
+      "name": "rhubarb",
+      "quantity": "1 lb",
+      "prep": "cut into 3/4-inch pieces"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and thinly slice the fresh ginger. Cut the rhubarb into 3/4-inch pieces.",
+      "secondary_message": "1 (5 inch) knob fresh ginger\n1 lb rhubarb"
+    },
     {
       "id": 1,
       "primary_message": "In a medium saucepan, combine vinegar, water, sugar, salt, lemongrass, ginger, star anise, and black peppercorns. Bring to a boil, stirring, until solids are dissolved. Reduce to a low simmer and cook until infused with lemongrass and ginger, about 5 minutes. Let stand 5 minutes.",

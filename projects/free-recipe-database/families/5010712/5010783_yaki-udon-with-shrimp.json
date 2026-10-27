@@ -44,8 +44,9 @@
     },
     {
       "ingredient_id": 150,
-      "name": "red bell pepper, stemmed, seeded, thinly sliced",
-      "quantity": "1"
+      "name": "red bell pepper",
+      "quantity": "1",
+      "prep": "stemmed, seeded, thinly sliced"
     },
     {
       "ingredient_id": 153,
@@ -54,13 +55,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, peeled, minced",
-      "quantity": "1 (2 ½ cm) piece"
+      "name": "ginger",
+      "quantity": "1 (2 ½ cm) piece",
+      "prep": "peeled, minced"
     },
     {
       "ingredient_id": 53,
@@ -74,8 +77,9 @@
     },
     {
       "ingredient_id": 1811,
-      "name": "shrimp, peeled and deveined",
-      "quantity": "0.45 kg"
+      "name": "shrimp",
+      "quantity": "0.45 kg",
+      "prep": "peeled and deveined"
     },
     {
       "ingredient_id": 1761,
@@ -84,8 +88,9 @@
     },
     {
       "ingredient_id": 2426,
-      "name": "nori, thinly sliced",
-      "quantity": "½ sheet"
+      "name": "nori",
+      "quantity": "½ sheet",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2633,
@@ -94,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem, seed, and thinly slice the red bell pepper. Mince the garlic. Peel and mince the ginger. Peel and devein the shrimp. Thinly slice the nori.",
+      "secondary_message": "1 red bell pepper\n2 cloves garlic\n1 (2 ½ cm) piece ginger\n0.45 kg shrimp\n½ sheet nori"
+    },
     {
       "id": 1,
       "primary_message": "Bring a large pot of water to a boil over high heat. Cook udon according to the directions on the packaging. When done, drain in a colander and rinse under cold water. Drain again and set aside.",

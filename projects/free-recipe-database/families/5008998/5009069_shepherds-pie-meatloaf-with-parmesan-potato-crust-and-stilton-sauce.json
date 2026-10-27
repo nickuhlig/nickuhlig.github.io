@@ -47,8 +47,9 @@
   "ingredients": [
     {
       "ingredient_id": 3064,
-      "name": "Yukon Gold potatoes, peeled and cut into chunks",
-      "quantity": "5 medium"
+      "name": "Yukon Gold potatoes",
+      "quantity": "5 medium",
+      "prep": "peeled and cut into chunks"
     },
     {
       "ingredient_id": 115,
@@ -82,18 +83,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, minced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, minced",
-      "quantity": "1 rib"
+      "name": "celery",
+      "quantity": "1 rib",
+      "prep": "minced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 121,
@@ -152,8 +156,9 @@
     },
     {
       "ingredient_id": 1118,
-      "name": "saltine crackers, finely crushed",
-      "quantity": "21"
+      "name": "saltine crackers",
+      "quantity": "21",
+      "prep": "finely crushed"
     },
     {
       "ingredient_id": 120,
@@ -187,6 +192,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the Yukon Gold potatoes into chunks. Mince the onion. Mince the celery. Mince the garlic. Finely crush the saltine crackers.",
+      "secondary_message": "5 medium Yukon Gold potatoes\n1 medium onion\n1 rib celery\n2 medium cloves garlic\n21 saltine crackers"
+    },
     {
       "id": 1,
       "primary_message": "For the Potatoes: Cover potatoes with water in a large saucepan and place over medium-high heat. Bring to a boil and simmer until tender when pierced with a fork, about 20 minutes. Drain and return to pan. Add 3 tablespoons butter, Parmesan, and milk. Season with salt and pepper and whip potatoes using a hand-held mixer until airy, but do not over-mix.",

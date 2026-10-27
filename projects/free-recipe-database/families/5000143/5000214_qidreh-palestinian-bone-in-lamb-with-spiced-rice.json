@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 1882,
-      "name": "cardamom pods, lightly cracked open",
-      "quantity": "4"
+      "name": "cardamom pods",
+      "quantity": "4",
+      "prep": "lightly cracked open"
     },
     {
       "ingredient_id": 1747,
@@ -86,9 +87,10 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, peeled but left whole",
+      "name": "yellow onion",
       "quantity": "2 ½ medium",
-      "weigh_as": "283 g"
+      "weigh_as": "283 g",
+      "prep": "peeled but left whole"
     },
     {
       "ingredient_id": 359,
@@ -112,14 +114,16 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, halved and thinly sliced",
+      "name": "yellow onion",
       "quantity": "2 ½ medium",
-      "weigh_as": "283 g"
+      "weigh_as": "283 g",
+      "prep": "halved and thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "15 medium cloves"
+      "name": "garlic",
+      "quantity": "15 medium cloves",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 88,
@@ -163,13 +167,15 @@
     },
     {
       "ingredient_id": 92,
-      "name": "chickpeas, drained and rinsed",
-      "quantity": "1 (425 g) can"
+      "name": "chickpeas",
+      "quantity": "1 (425 g) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 1601,
-      "name": "slivered almonds, lightly toasted",
-      "quantity": "1 cup"
+      "name": "slivered almonds",
+      "quantity": "1 cup",
+      "prep": "lightly toasted"
     },
     {
       "ingredient_id": 2744,
@@ -178,6 +184,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly crack open the cardamom pods. Peel the yellow onion but left whole. Halve and thinly slice the yellow onion. Peel the garlic. Drain and rinse the chickpeas. Lightly toast the slivered almonds.",
+      "secondary_message": "4 cardamom pods\n2 ½ medium yellow onion\n2 ½ medium yellow onion\n15 medium cloves garlic\n1 (425 g) can chickpeas\n1 cup slivered almonds"
+    },
     {
       "id": 1,
       "primary_message": "For the lamb broth: In a large 7 or 8-quart Dutch oven or stockpot, heat olive oil over medium-high heat until just shy of smoking. Working in batches to avoid crowding the pot, add the lamb and cook, turning occasionally, until well browned on all sides, about 4 minutes per side. Return all lamb to the pot.",

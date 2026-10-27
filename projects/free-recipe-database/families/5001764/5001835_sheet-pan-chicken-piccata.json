@@ -64,8 +64,9 @@
   "ingredients": [
     {
       "ingredient_id": 44,
-      "name": "boneless skinless chicken breasts, halved horizontally to create 4 pieces",
-      "quantity": "2 large"
+      "name": "boneless skinless chicken breasts",
+      "quantity": "2 large",
+      "prep": "halved horizontally to create 4 pieces"
     },
     {
       "ingredient_id": 116,
@@ -89,13 +90,15 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, thinly sliced cross-wise, seeds removed",
-      "quantity": "1 medium"
+      "name": "lemon",
+      "quantity": "1 medium",
+      "prep": "thinly sliced cross-wise, seeds removed"
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, cut cross-wise into 1/4-inch slices",
-      "quantity": "2 large"
+      "name": "shallots",
+      "quantity": "2 large",
+      "prep": "cut cross-wise into 1/4-inch slices"
     },
     {
       "ingredient_id": 15,
@@ -114,16 +117,24 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 1/2-inch cubes",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely grated or minced",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "finely grated or minced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the boneless skinless chicken breasts horizontally to create 4 pieces. Thinly slice the lemon cross-wise, then remove the seeds. Cut the shallots cross-wise into 1/4-inch slices. Cut the unsalted butter into 1/2-inch cubes. Finely grate or mince the garlic.",
+      "secondary_message": "2 large boneless skinless chicken breasts\n1 medium lemon\n2 large shallots\n2 tbsp unsalted butter\n1 medium clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position. Set an empty 13-by-46-cm rimmed baking sheet on rack and preheat oven to 220°C (425°F).",

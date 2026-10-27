@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 159,
-      "name": "carrot, peeled and cut into fine matchsticks",
-      "quantity": "1 medium"
+      "name": "carrot",
+      "quantity": "1 medium",
+      "prep": "peeled and cut into fine matchsticks"
     },
     {
       "ingredient_id": 1980,
@@ -76,13 +77,15 @@
     },
     {
       "ingredient_id": 221,
-      "name": "fresh peeled ginger, finely grated on microplane",
-      "quantity": "1 (2 ½ cm) piece"
+      "name": "fresh peeled ginger",
+      "quantity": "1 (2 ½ cm) piece",
+      "prep": "finely grated on microplane"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic clove, finely grated on microplane",
-      "quantity": "1 medium"
+      "name": "garlic clove",
+      "quantity": "1 medium",
+      "prep": "finely grated on microplane"
     },
     {
       "ingredient_id": 264,
@@ -111,6 +114,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the carrot into fine matchsticks. Finely grate the fresh peeled ginger on microplane. Finely grate the garlic clove on microplane.",
+      "secondary_message": "1 medium carrot\n1 (2 ½ cm) piece fresh peeled ginger\n1 medium garlic clove"
+    },
     {
       "id": 1,
       "primary_message": "Combine carrot, cucumber, sugar, and salt in a large bowl. Using fingertips, massage salt and sugar into vegetables until dissolved. Add rice vinegar and water and let stand for at least 25 minutes.",

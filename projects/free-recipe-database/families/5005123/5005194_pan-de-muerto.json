@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 232,
-      "name": "orange, zested",
-      "quantity": "1"
+      "name": "orange",
+      "quantity": "1",
+      "prep": "zested"
     },
     {
       "ingredient_id": 118,
@@ -76,8 +77,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, lightly beaten",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 3641,
@@ -86,8 +88,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "113 g"
+      "name": "unsalted butter",
+      "quantity": "113 g",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1809,
@@ -111,6 +114,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the orange. Lightly beat the eggs. Soften the unsalted butter.",
+      "secondary_message": "1 orange\n3 large eggs\n113 g unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Bread: Adjust oven rack to lower middle position and heat oven to 95°C (200°F). As soon as oven reaches temperature, shut it off. Line two baking sheets with parchment paper.",

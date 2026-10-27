@@ -69,8 +69,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, peeled and quartered",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "peeled and quartered"
     },
     {
       "ingredient_id": 1270,
@@ -119,6 +120,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and quarter the yellow onion.",
+      "secondary_message": "1 medium yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "Sprinkle lamb all over with 1/2 teaspoon salt. In a large pot, combine lamb, onion, bay leaf, 6 cups of water, and bring to a gentle boil over medium-high heat. Cover and cook, reducing heat as needed to maintain a gentle simmer, until the meat is fully tender and falls off the bone easily, 1 to 1 1/2 hours. Using a slotted spoon, transfer the meat to a cutting board and let cool slightly, about 15 minutes. Strain the meat stock through a fine-mesh strainer set over a large bowl; Set aside.",

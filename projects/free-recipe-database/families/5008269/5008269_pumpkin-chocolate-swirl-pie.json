@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 1915,
-      "name": "half recipe Easy Pie Dough, shaped and chilled in a pie plate",
-      "quantity": "1"
+      "name": "half recipe Easy Pie Dough",
+      "quantity": "1",
+      "prep": "shaped and chilled in a pie plate"
     },
     {
       "ingredient_id": 115,
@@ -46,8 +47,9 @@
     },
     {
       "ingredient_id": 2285,
-      "name": "semisweet chocolate, chopped",
-      "quantity": "4 oz"
+      "name": "semisweet chocolate",
+      "quantity": "4 oz",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 355,
@@ -61,8 +63,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, room temperature",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 2271,
@@ -91,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shape and chill the half recipe Easy Pie Dough in a pie plate. Chop the semisweet chocolate. Bring the eggs to room temperature.",
+      "secondary_message": "1 half recipe Easy Pie Dough\n4 oz semisweet chocolate\n2 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower middle position and preheat oven to 425°F. When oven is ready, line chilled pie shell with foil or parchment paper and fill with weights (I reuse dried beans for this), and bake on the lowest rack of the oven for 15 minutes. Remove weights and liner, turn pie, and bake until the bottom crust is a golden brown (or slightly lighter, if you prefer that style), about 10 minutes. Remove pie shell from oven and allow to cool completely.",

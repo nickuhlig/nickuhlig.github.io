@@ -34,13 +34,15 @@
   "ingredients": [
     {
       "ingredient_id": 19,
-      "name": "white shimeji mushrooms, trimmed and separated into individuals",
-      "quantity": "227 g"
+      "name": "white shimeji mushrooms",
+      "quantity": "227 g",
+      "prep": "trimmed and separated into individuals"
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, peeled and thinly sliced lengthwise",
-      "quantity": "2 medium"
+      "name": "shallots",
+      "quantity": "2 medium",
+      "prep": "peeled and thinly sliced lengthwise"
     },
     {
       "ingredient_id": 52,
@@ -69,6 +71,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim and separate the white shimeji mushrooms into individuals. Peel and thinly slice the shallots lengthwise.",
+      "secondary_message": "227 g white shimeji mushrooms\n2 medium shallots"
+    },
     {
       "id": 1,
       "primary_message": "Bring a medium saucepan of water to a boil over high heat. Working in batches if necessary, place mushrooms in a fine mesh strainer and lower into boiling water for 15 seconds. Lift, shake of excess moisture, and transfer to a large mixing bowl. Repeat until all mushrooms are blanched.",

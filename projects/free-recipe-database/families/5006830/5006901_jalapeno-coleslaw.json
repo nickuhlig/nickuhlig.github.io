@@ -107,8 +107,9 @@
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño, stemmed, seeded, and finely diced",
-      "quantity": "1 large"
+      "name": "jalapeño",
+      "quantity": "1 large",
+      "prep": "stemmed, seeded, and finely diced"
     },
     {
       "ingredient_id": 346,
@@ -122,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem, seed, and finely dice the jalapeño.",
+      "secondary_message": "1 large jalapeño"
+    },
     {
       "id": 1,
       "primary_message": "For the Dressing: In a small bowl, whisk together sour cream, buttermilk, vinegar, mayonnaise, sugar, lime juice and zest, cilantro, garlic, cumin, and black pepper.",

@@ -38,18 +38,21 @@
   "ingredients": [
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely chopped",
-      "quantity": "½ cup"
+      "name": "yellow onion",
+      "quantity": "½ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced or grated",
-      "quantity": "1 tsp"
+      "name": "garlic",
+      "quantity": "1 tsp",
+      "prep": "minced or grated"
     },
     {
       "ingredient_id": 2766,
-      "name": "stemmed, minced, and seeded jalapeño",
-      "quantity": "2 tbsp"
+      "name": "stemmed",
+      "quantity": "2 tbsp",
+      "prep": "minced, and seeded jalapeño"
     },
     {
       "ingredient_id": 130,
@@ -93,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the yellow onion. Mince or grate the garlic. Mince and seed the stemmed jalapeño.",
+      "secondary_message": "½ cup yellow onion\n1 tsp garlic\n2 tbsp stemmed"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, combine the onions, garlic, jalapeño, and red wine vinegar and let stand for 10 minutes. Stir in parsley, cilantro, and olive oil, season generously with salt and pepper, and let chimichurri stand for 1 hour.",

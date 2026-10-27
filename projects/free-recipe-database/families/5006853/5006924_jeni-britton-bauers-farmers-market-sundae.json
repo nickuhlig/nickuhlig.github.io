@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "57 g"
+      "name": "cream cheese",
+      "quantity": "57 g",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1752,
@@ -70,8 +71,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "zested"
     },
     {
       "ingredient_id": 192,
@@ -125,6 +127,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the cream cheese. Zest the lemon.",
+      "secondary_message": "57 g cream cheese\n1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "Advance prep for the frozen yogurt base: Fit a sieve over a bowl and line it with two layers of cheesecloth. Pour the yogurt into the sieve, cover with plastic wrap, and refrigerate for 6 to 8 hours to drain. Discard the liquid, and measure out 1 1/4 cups of the drained yogurt; set aside.",

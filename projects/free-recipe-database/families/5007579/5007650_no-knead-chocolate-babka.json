@@ -48,8 +48,9 @@
   "ingredients": [
     {
       "ingredient_id": 118,
-      "name": "whole milk, lukewarm",
-      "quantity": "1 cup"
+      "name": "whole milk",
+      "quantity": "1 cup",
+      "prep": "lukewarm"
     },
     {
       "ingredient_id": 1580,
@@ -68,8 +69,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "6 tbsp"
+      "name": "unsalted butter",
+      "quantity": "6 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 353,
@@ -98,8 +100,9 @@
     },
     {
       "ingredient_id": 2285,
-      "name": "semisweet chocolate, finely chopped",
-      "quantity": "113 g"
+      "name": "semisweet chocolate",
+      "quantity": "113 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 333,
@@ -113,16 +116,24 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, very soft",
-      "quantity": "5 tbsp"
+      "name": "unsalted butter",
+      "quantity": "5 tbsp",
+      "prep": "very soft"
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "beaten"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Warm the whole milk until lukewarm. Melt the unsalted butter. Finely chop the semisweet chocolate. Soften the unsalted butter. Beat the egg.",
+      "secondary_message": "1 cup whole milk\n6 tbsp unsalted butter\n113 g semisweet chocolate\n5 tbsp unsalted butter\n1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, whisk together milk and yeast. Whisk in egg yolks, eggs, melted butter, and vanilla. In a large bowl, stir together flour, sugar, salt, and cardamom. Add liquid ingredients to dry and stir to completely combine. Loosely cover with a towel or plastic wrap and let rest at room temperature until doubled in size and surface is covered with large bubbles, 2 to 3 hours. Refrigerate for at least 3 hours, or preferably overnight (the dough's flavor improves significantly).",

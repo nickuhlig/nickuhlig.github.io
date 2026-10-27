@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 2520,
-      "name": "radicchio, cored and thinly sliced",
-      "quantity": "½ small head"
+      "name": "radicchio",
+      "quantity": "½ small head",
+      "prep": "cored and thinly sliced"
     },
     {
       "ingredient_id": 215,
@@ -66,13 +67,15 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, white and green parts, finely sliced",
-      "quantity": "3"
+      "name": "scallions, white and green parts",
+      "quantity": "3",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 272,
-      "name": "chopped walnuts, toasted if desired",
-      "quantity": "½ cup"
+      "name": "chopped walnuts",
+      "quantity": "½ cup",
+      "prep": "toasted if desired"
     },
     {
       "ingredient_id": 1480,
@@ -96,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Core and thinly slice the radicchio. Finely slice the scallions. Toast the chopped walnuts if desired.",
+      "secondary_message": "½ small head radicchio\n3 scallions, white and green parts\n½ cup chopped walnuts"
+    },
     {
       "id": 1,
       "primary_message": "Bring a kettle of water to a boil. Place bulgur in a medium bowl with salt, then pour 1-1/4 cups boiling water over top. Cover the bowl tightly with plastic wrap and let sit until all of the water is absorbed, 25 to 30 minutes",

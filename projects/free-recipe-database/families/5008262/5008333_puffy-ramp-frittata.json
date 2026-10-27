@@ -42,8 +42,9 @@
   "ingredients": [
     {
       "ingredient_id": 121,
-      "name": "eggs, separated",
-      "quantity": "6 large"
+      "name": "eggs",
+      "quantity": "6 large",
+      "prep": "separated"
     },
     {
       "ingredient_id": 1808,
@@ -72,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Separate the eggs.",
+      "secondary_message": "6 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Adjust rack to 20 cm below broiler element and preheat broiler to high. Combine egg yolks, 3 egg whites, and the herbs in large bowl and whisk until homoegnous and frothy. Heat 1 tablespoon butter in a 25-cm nonstick or cast iron skillet over medium-high heat until foaming subsides. Add ramps, season with salt and pepper, and cook, stirring frequently, until lightly browned, about 2 minutes. Add to bowl with eggs and set aside. Wipe out skillet.",

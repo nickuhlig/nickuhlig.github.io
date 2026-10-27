@@ -63,8 +63,9 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, thinly sliced",
-      "quantity": "½ medium"
+      "name": "red onion",
+      "quantity": "½ medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 130,
@@ -93,8 +94,9 @@
     },
     {
       "ingredient_id": 325,
-      "name": "oil-packed anchovy fillets, drained and roughly chopped",
-      "quantity": "5"
+      "name": "oil-packed anchovy fillets",
+      "quantity": "5",
+      "prep": "drained and roughly chopped"
     },
     {
       "ingredient_id": 120,
@@ -103,8 +105,9 @@
     },
     {
       "ingredient_id": 2520,
-      "name": "radicchio, cored and thinly sliced",
-      "quantity": "4 oz"
+      "name": "radicchio",
+      "quantity": "4 oz",
+      "prep": "cored and thinly sliced"
     },
     {
       "ingredient_id": 106,
@@ -118,6 +121,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the red onion. Drain and roughly chop the oil-packed anchovy fillets. Core and thinly slice the radicchio.",
+      "secondary_message": "½ medium red onion\n5 oil-packed anchovy fillets\n4 oz radicchio"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 350°F. Place tomatoes on a rimmed baking sheet and drizzle with olive oil, tossing to lightly coat. Transfer to oven and roast, stirring and scraping occasionally, until tomatoes have burst and juices have concentrated to a syrupy consistency, about 1 hour. Let cool slightly, then scrape into a small mixing bowl. Stir in 1 tablespoon olive oil along with the vinegar and thyme. Season with salt and pepper and set aside.",

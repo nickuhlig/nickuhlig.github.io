@@ -40,8 +40,9 @@
     },
     {
       "ingredient_id": 302,
-      "name": "bacon, cut into 1-inch pieces",
-      "quantity": "340 g"
+      "name": "bacon",
+      "quantity": "340 g",
+      "prep": "cut into 1-inch pieces"
     },
     {
       "ingredient_id": 88,
@@ -60,6 +61,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the bacon into 1-inch pieces.",
+      "secondary_message": "340 g bacon"
+    },
     {
       "id": 1,
       "primary_message": "Cut mushrooms into 2.5-cm lengths, keeping the pieces next to each other so that you can reconstruct the mushrooms on a skewer.",

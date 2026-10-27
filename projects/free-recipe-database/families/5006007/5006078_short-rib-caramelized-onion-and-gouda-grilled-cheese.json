@@ -64,23 +64,27 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, quartered",
-      "quantity": "1 large"
+      "name": "yellow onion",
+      "quantity": "1 large",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and cut into large chunks",
-      "quantity": "2"
+      "name": "carrots",
+      "quantity": "2",
+      "prep": "peeled and cut into large chunks"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, cut into large chunks",
-      "quantity": "1 stalk"
+      "name": "celery",
+      "quantity": "1 stalk",
+      "prep": "cut into large chunks"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 1714,
@@ -124,8 +128,9 @@
     },
     {
       "ingredient_id": 1676,
-      "name": "sweet onion, such as Vidalia, thinly sliced",
-      "quantity": "1 large"
+      "name": "sweet onion, such as Vidalia",
+      "quantity": "1 large",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 287,
@@ -174,6 +179,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Quarter the yellow onion. Peel and cut the carrots into large chunks. Cut the celery into large chunks. Smash the garlic. Thinly slice the sweet onion.",
+      "secondary_message": "1 large yellow onion\n2 carrots\n1 stalk celery\n2 medium cloves garlic\n1 large sweet onion, such as Vidalia"
+    },
     {
       "id": 1,
       "primary_message": "For the Short Ribs: Adjust oven rack to lower-middle position and preheat oven to 160°C (325°F).",

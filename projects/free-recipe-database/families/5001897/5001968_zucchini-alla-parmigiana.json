@@ -88,13 +88,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, lightly smashed",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "lightly smashed"
     },
     {
       "ingredient_id": 1749,
-      "name": "whole peeled tomatoes in their juices, blended, or 1 bottle passata",
-      "quantity": "1 (794 g) can"
+      "name": "whole peeled tomatoes in their juices, or 1 bottle passata",
+      "quantity": "1 (794 g) can",
+      "prep": "blended"
     },
     {
       "ingredient_id": 1682,
@@ -103,8 +105,9 @@
     },
     {
       "ingredient_id": 107,
-      "name": "fresh mozzarella, torn and patted dry",
-      "quantity": "0.46 kg"
+      "name": "fresh mozzarella",
+      "quantity": "0.46 kg",
+      "prep": "torn and patted dry"
     },
     {
       "ingredient_id": 120,
@@ -113,6 +116,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly smash the garlic. Blend the whole peeled tomatoes in their juices. Tear and pat the fresh mozzarella dry.",
+      "secondary_message": "1 medium clove garlic\n1 (794 g) can whole peeled tomatoes in their juices, or 1 bottle passata\n0.46 kg fresh mozzarella"
+    },
     {
       "id": 1,
       "primary_message": "For the Zucchini: Trim ends off the zucchini, then slice each in half crosswise. Cut each zucchini half lengthwise into 0.5-cm-thick planks.",

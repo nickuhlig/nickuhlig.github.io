@@ -52,8 +52,9 @@
     },
     {
       "ingredient_id": 2581,
-      "name": "white chocolate, finely chopped",
-      "quantity": "10 oz"
+      "name": "white chocolate",
+      "quantity": "10 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 121,
@@ -87,6 +88,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the white chocolate.",
+      "secondary_message": "10 oz white chocolate"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to upper-middle position and preheat oven to 375°F. Butter 9- by 13-inch baking dish. Boil noodles according to package directions until still slightly firm (al dente). Drain and spread out in prepared dish to cool.",

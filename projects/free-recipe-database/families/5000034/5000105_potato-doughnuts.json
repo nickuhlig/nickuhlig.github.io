@@ -84,9 +84,10 @@
     },
     {
       "ingredient_id": 1039,
-      "name": "russet potatoes, peeled and cut into 1-inch cubes",
+      "name": "russet potatoes",
       "quantity": "1 ⅔ medium",
-      "weigh_as": "340 g"
+      "weigh_as": "340 g",
+      "prep": "peeled and cut into 1-inch cubes"
     },
     {
       "ingredient_id": 116,
@@ -130,8 +131,9 @@
     },
     {
       "ingredient_id": 2475,
-      "name": "cultured lowfat buttermilk, well-shaken",
-      "quantity": "55 g"
+      "name": "cultured lowfat buttermilk",
+      "quantity": "55 g",
+      "prep": "well-shaken"
     },
     {
       "ingredient_id": 353,
@@ -150,6 +152,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the russet potatoes into 1-inch cubes. Shake the cultured lowfat buttermilk well.",
+      "secondary_message": "1 ⅔ medium russet potatoes\n55 g cultured lowfat buttermilk"
+    },
     {
       "id": 1,
       "primary_message": "In a small stainless-steel saucier or saucepan, melt butter over medium-low heat. Increase heat to medium and bring to a simmer. Cook, stirring frequently with a heat-resistant spatula, scraping up brown bits that form on bottom, until foaming subsides and butter is golden and milk solids are chestnut brown, about 3 minutes. Transfer to a large heatproof bowl; set aside.",

@@ -40,9 +40,10 @@
   "ingredients": [
     {
       "ingredient_id": 18,
-      "name": "Italian eggplant, sliced into 1/4-inch-thick rounds",
+      "name": "Italian eggplant",
       "quantity": "1 ⅔",
-      "weigh_as": "0.9 kg"
+      "weigh_as": "0.9 kg",
+      "prep": "sliced into 1/4-inch-thick rounds"
     },
     {
       "ingredient_id": 88,
@@ -56,8 +57,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, lightly smashed",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "lightly smashed"
     },
     {
       "ingredient_id": 1738,
@@ -96,6 +98,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the Italian eggplant into 1/4-inch-thick rounds. Lightly smash the garlic.",
+      "secondary_message": "1 ⅔ Italian eggplant\n1 medium clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "Arrange eggplant slices in a single layer on wire racks set in rimmed baking sheets. Sprinkle lightly all over on both sides with salt, then let stand until eggplants look dewy with water and some water has dripped below, about 20 minutes. Blot well with clean towels to remove all excess water.",

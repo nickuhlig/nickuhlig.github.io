@@ -52,8 +52,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, roughly chopped",
-      "quantity": "½ small"
+      "name": "onion",
+      "quantity": "½ small",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 82,
@@ -92,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the onion.",
+      "secondary_message": "½ small onion"
+    },
     {
       "id": 1,
       "primary_message": "Combine olive oil, garlic, onion, oregano, red pepper flakes, bread, tomatoes and their juices, and water or stock in the jar of a high-powered blender. Turn blender on to low speed and slowly increase speed to maximum. Blend until soup is steaming hot and completely smooth, about 4 minutes. Season to taste with salt and pepper. If an even smoother soup is desired, press through a fine-mesh strainer before serving. Serve immediately garnished with herbs and drizzled with olive oil, or chill and serve cold. (Once chilled, you can adjust the texture by whisking in water a tablespoon at a time until desired consistency s reached.)",

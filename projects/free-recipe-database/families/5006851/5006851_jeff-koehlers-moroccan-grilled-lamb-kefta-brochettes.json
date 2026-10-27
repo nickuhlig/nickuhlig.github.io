@@ -77,8 +77,9 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, grated",
-      "quantity": "1 medium"
+      "name": "red onion",
+      "quantity": "1 medium",
+      "prep": "grated"
     },
     {
       "ingredient_id": 47,
@@ -87,6 +88,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the red onion.",
+      "secondary_message": "1 medium red onion"
+    },
     {
       "id": 1,
       "primary_message": "If using wooden skewers, soak them in a shallow dish of water while preparing the meat.",

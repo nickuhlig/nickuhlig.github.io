@@ -42,8 +42,9 @@
   "ingredients": [
     {
       "ingredient_id": 1802,
-      "name": "sliced blanched almonds, finely chopped",
-      "quantity": "170 g"
+      "name": "sliced blanched almonds",
+      "quantity": "170 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 116,
@@ -62,8 +63,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "5 tbsp"
+      "name": "unsalted butter",
+      "quantity": "5 tbsp",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 2240,
@@ -87,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the sliced blanched almonds. Bring the unsalted butter to room temperature.",
+      "secondary_message": "170 g sliced blanched almonds\n5 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to upper-middle and lower-middle positions and preheat to 175°C (350°F). Line two baking sheets with silipat liners (see note). In a medium bowl, combine almonds, flour, zest, and salt; set aside.",

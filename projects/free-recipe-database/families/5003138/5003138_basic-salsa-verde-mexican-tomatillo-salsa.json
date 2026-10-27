@@ -42,18 +42,21 @@
   "ingredients": [
     {
       "ingredient_id": 2069,
-      "name": "tomatillos, husks and stems removed",
-      "quantity": "1 ½ lb"
+      "name": "tomatillos",
+      "quantity": "1 ½ lb",
+      "prep": "husks and stems removed"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño peppers, stem and seeds removed",
-      "quantity": "1 to 2"
+      "name": "jalapeño peppers",
+      "quantity": "1 to 2",
+      "prep": "stem and seeds removed"
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, skin removed, split in half",
-      "quantity": "1 small"
+      "name": "white onion",
+      "quantity": "1 small",
+      "prep": "skin removed, split in half"
     },
     {
       "ingredient_id": 188,
@@ -67,6 +70,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the husks and stems from the tomatillos. Remove the stem and seeds from the jalapeño peppers. Remove the skin from the white onion, then split it in half.",
+      "secondary_message": "1 ½ lb tomatillos\n1 to 2 jalapeño peppers\n1 small white onion"
+    },
     {
       "id": 1,
       "primary_message": "Combine tomatillos, serranos, and onion in a medium saucepan and cover with water. Bring to a boil over high heat then reduce to a simmer. Simmer until vegetables are completely softened, about 10 minutes, stirring occasionally to make sure all sides are softened.",

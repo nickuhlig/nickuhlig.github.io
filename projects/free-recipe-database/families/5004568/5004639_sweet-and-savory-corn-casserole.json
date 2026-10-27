@@ -46,13 +46,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, diced",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 2065,
-      "name": "bell pepper, diced",
-      "quantity": "1 small"
+      "name": "bell pepper",
+      "quantity": "1 small",
+      "prep": "diced"
     },
     {
       "ingredient_id": 346,
@@ -61,8 +63,9 @@
     },
     {
       "ingredient_id": 339,
-      "name": "fresh sage, finely chopped",
-      "quantity": "¼ cup"
+      "name": "fresh sage",
+      "quantity": "¼ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 88,
@@ -112,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the onion. Dice the bell pepper. Finely chop the fresh sage.",
+      "secondary_message": "1 large onion\n1 small bell pepper\n¼ cup fresh sage"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower-middle position and preheat to 177°C (350°F). Melt butter in a 25-cm cast iron skillet over medium heat, then add onion, bell pepper, sugar, sage, salt, paprika, and cayenne. Cook, stirring, until onions are translucent and just beginning to brown, about 10 minutes, then add corn. Continue cooking, stirring frequently, until no water remains in skillet, another 8 to 10 minutes, then stir in cornmeal and remove from heat.",

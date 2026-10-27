@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 2285,
-      "name": "semisweet chocolate, finely chopped",
-      "quantity": "10 oz"
+      "name": "semisweet chocolate",
+      "quantity": "10 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 353,
@@ -75,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the semisweet chocolate.",
+      "secondary_message": "10 oz semisweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "In small bowl, whisk 1/4 cup milk with egg; set aside. In medium saucepan, heat remaining milk, cream, and chocolate over medium heat, stirring, until chocolate is melted.",

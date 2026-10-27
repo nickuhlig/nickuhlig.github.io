@@ -82,8 +82,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, room temperature",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 353,
@@ -92,8 +93,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened plus extra for greasing pan",
-      "quantity": "227 g"
+      "name": "unsalted butter",
+      "quantity": "227 g",
+      "prep": "softened plus extra for greasing pan"
     },
     {
       "ingredient_id": 88,
@@ -102,8 +104,9 @@
     },
     {
       "ingredient_id": 118,
-      "name": "whole milk, room temperature",
-      "quantity": "30 ml"
+      "name": "whole milk",
+      "quantity": "30 ml",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 346,
@@ -117,8 +120,9 @@
     },
     {
       "ingredient_id": 1710,
-      "name": "confectioners' sugar, sifted",
-      "quantity": "57 g"
+      "name": "confectioners' sugar",
+      "quantity": "57 g",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 1480,
@@ -127,6 +131,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the eggs to room temperature. Soften the unsalted butter plus extra for greasing pan. Bring the whole milk to room temperature. Sift the confectioners' sugar.",
+      "secondary_message": "4 large eggs\n227 g unsalted butter\n30 ml whole milk\n57 g confectioners' sugar"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Adjust oven rack to middle position and heat oven to 175°C (350°F). Generously butter a 9- x 5-inch (or 8 1/2- x 11-cm) loaf pan; dust pan liberally with flour and knock out excess flour.",

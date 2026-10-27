@@ -54,8 +54,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "4 tbsp"
+      "name": "unsalted butter",
+      "quantity": "4 tbsp",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -84,18 +85,21 @@
     },
     {
       "ingredient_id": 1135,
-      "name": "pineapple rings in juice, finely chopped, juice reserved",
-      "quantity": "8 oz"
+      "name": "pineapple rings in juice",
+      "quantity": "8 oz",
+      "prep": "finely chopped, juice reserved"
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, at room temperature",
-      "quantity": "8 oz"
+      "name": "cream cheese",
+      "quantity": "8 oz",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "4 tbsp"
+      "name": "unsalted butter",
+      "quantity": "4 tbsp",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1710,
@@ -124,6 +128,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature. Finely chop the pineapple rings in juice, then reserve the juice. Bring the cream cheese to room temperature. Bring the unsalted butter to room temperature.",
+      "secondary_message": "4 tbsp unsalted butter\n8 oz pineapple rings in juice\n8 oz cream cheese\n4 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Make Cupcakes: Preheat oven to 350°F. Line mini-muffin tin with wrappers.",

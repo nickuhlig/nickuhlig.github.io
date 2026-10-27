@@ -47,28 +47,33 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, diced",
-      "quantity": "1 medium"
+      "name": "carrot",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, diced",
-      "quantity": "2 stalks"
+      "name": "celery",
+      "quantity": "2 stalks",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1072,
-      "name": "Yukon Gold potato, diced",
-      "quantity": "1 large"
+      "name": "Yukon Gold potato",
+      "quantity": "1 large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 92,
-      "name": "cooked chickpeas, rinsed and drained",
-      "quantity": "1 cup"
+      "name": "cooked chickpeas",
+      "quantity": "1 cup",
+      "prep": "rinsed and drained"
     },
     {
       "ingredient_id": 226,
-      "name": "kale, thick stems removed, leaves roughly torn",
-      "quantity": "1 small bunch"
+      "name": "kale",
+      "quantity": "1 small bunch",
+      "prep": "thick stems removed, leaves roughly torn"
     },
     {
       "ingredient_id": 53,
@@ -107,6 +112,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the carrot. Dice the celery. Dice the Yukon Gold potato. Rinse and drain the cooked chickpeas. Thickly remove the stems from the kale, then roughly tear the leaves.",
+      "secondary_message": "1 medium carrot\n2 stalks celery\n1 large Yukon Gold potato\n1 cup cooked chickpeas\n1 small bunch kale"
+    },
     {
       "id": 1,
       "primary_message": "Chop reserved re-hydrated mushrooms kept from making hearty vegetable stock into half-inch pieces. Add mushrooms, broth, leeks, carrot, celery, potato, chickpeas, kale, and soy sauce to a large saucepan. Bring to a boil over medium-high heat, reduce to a simmer, and cook, stirring occasionally, until potatoes are completely tender and beginning to fall apart, about 25 minutes. Stir in cornstarch slurry and allow to simmer 2 minutes longer.",

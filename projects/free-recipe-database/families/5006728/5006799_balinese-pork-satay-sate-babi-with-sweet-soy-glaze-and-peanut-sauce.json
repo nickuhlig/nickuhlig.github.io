@@ -55,8 +55,9 @@
   "ingredients": [
     {
       "ingredient_id": 3547,
-      "name": "fresh turmeric, peeled , or 1 teaspoon ground turmeric",
-      "quantity": "1 (2 ½ cm) knob"
+      "name": "fresh turmeric, or 1 teaspoon ground turmeric",
+      "quantity": "1 (2 ½ cm) knob",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 1816,
@@ -65,18 +66,21 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, sliced",
-      "quantity": "8 medium cloves"
+      "name": "garlic",
+      "quantity": "8 medium cloves",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, sliced",
-      "quantity": "2 small"
+      "name": "shallots",
+      "quantity": "2 small",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 2587,
-      "name": "whole dried pasilla, stems and seeds removed, roughly chopped",
-      "quantity": "3"
+      "name": "whole dried pasilla",
+      "quantity": "3",
+      "prep": "stems and seeds removed, roughly chopped"
     },
     {
       "ingredient_id": 1820,
@@ -100,8 +104,9 @@
     },
     {
       "ingredient_id": 2164,
-      "name": "boneless pork shoulder, cut into 3/4-inch cubes",
-      "quantity": "1 kg"
+      "name": "boneless pork shoulder",
+      "quantity": "1 kg",
+      "prep": "cut into 3/4-inch cubes"
     },
     {
       "ingredient_id": 2131,
@@ -115,13 +120,15 @@
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, roughly chopped",
-      "quantity": "1 (5 cm) knob"
+      "name": "ginger",
+      "quantity": "1 (5 cm) knob",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 217,
@@ -155,6 +162,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the fresh turmeric. Slice the garlic. Slice the shallots. Remove the stems and seeds from the whole dried pasilla, then roughly chop it. Cut the boneless pork shoulder into 3/4-inch cubes. Roughly chop the ginger. Roughly chop the garlic.",
+      "secondary_message": "1 (2 ½ cm) knob fresh turmeric, or 1 teaspoon ground turmeric\n8 medium cloves garlic\n2 small shallots\n3 whole dried pasilla\n1 kg boneless pork shoulder\n1 (5 cm) knob ginger\n4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Spice Paste: Combine turmeric, lemongrass, garlic, shallots, chiles, sugar, coriander, white peppercorns, and 2 teaspoons kosher salt using a mortar and pestle, working in batches if necessary. Pound into a fine paste. (For an easier method, pound with the mortar and pestle until a rough paste is formed, then transfer to a food processor to reduce to a fine paste. I do not recommend using the food processor alone if you want maximum flavor.) Divide mixture into thirds.",

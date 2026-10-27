@@ -57,13 +57,15 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate bar, chopped",
-      "quantity": "2 oz"
+      "name": "bittersweet chocolate bar",
+      "quantity": "2 oz",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1420,
-      "name": "salted dry-roasted peanuts, finely chopped",
-      "quantity": "2 tbsp"
+      "name": "salted dry-roasted peanuts",
+      "quantity": "2 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1472,
@@ -72,6 +74,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the bittersweet chocolate bar. Finely chop the salted dry-roasted peanuts.",
+      "secondary_message": "2 oz bittersweet chocolate bar\n2 tbsp salted dry-roasted peanuts"
+    },
     {
       "id": 1,
       "primary_message": "Line a small rimmed baking sheet with parchment paper; set aside.",

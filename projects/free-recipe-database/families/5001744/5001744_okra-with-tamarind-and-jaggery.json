@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 2257,
-      "name": "fresh okra, washed, drained, and dried well",
-      "quantity": "1 lb"
+      "name": "fresh okra, and dried well",
+      "quantity": "1 lb",
+      "prep": "washed, drained"
     },
     {
       "ingredient_id": 1682,
@@ -95,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash and drain the fresh okra.",
+      "secondary_message": "1 lb fresh okra, and dried well"
+    },
     {
       "id": 1,
       "primary_message": "For the Tamarind Pulp: In a large metal or glass bowl, cover tamarind with hot water. Soak for at least 15 minutes and up to 4 hours. Using your hands, press tamarind in the water to separate pulp. Set a fine-mesh strainer over a large bowl. Pour tamarind-water mixture through it, pushing and pressing on the pulp with hands or a large spoon until all the water and pulp has passed through; discard seeds, skins, and fibers. Cover liquid and pulp and store until needed, up to 3 days in the refrigerator.",

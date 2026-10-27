@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 2955,
-      "name": "smoked turkey, pulled or chopped",
-      "quantity": "0.45 kg"
+      "name": "smoked turkey",
+      "quantity": "0.45 kg",
+      "prep": "pulled or chopped"
     },
     {
       "ingredient_id": 1198,
@@ -75,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pull or chop the smoked turkey.",
+      "secondary_message": "0.45 kg smoked turkey"
+    },
     {
       "id": 1,
       "primary_message": "In a mixing bowl, whisk together cider vinegar, sugar, red pepper flakes, hot sauce, and salt until sugar and salt are dissolved. Set aside to rest for at least 20 minutes.",

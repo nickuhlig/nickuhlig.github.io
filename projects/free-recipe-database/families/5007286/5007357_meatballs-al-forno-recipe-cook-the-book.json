@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow Spanish onion, minced",
-      "quantity": "½ large"
+      "name": "yellow Spanish onion",
+      "quantity": "½ large",
+      "prep": "minced"
     },
     {
       "ingredient_id": 106,
@@ -71,8 +72,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "4 large"
+      "name": "garlic cloves",
+      "quantity": "4 large",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1721,
@@ -161,6 +163,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the yellow Spanish onion. Mince the garlic cloves.",
+      "secondary_message": "½ large yellow Spanish onion\n4 large garlic cloves"
+    },
     {
       "id": 1,
       "primary_message": "For the Passata di Pomodoro: Pass the tomatoes, including their juices, through a food mill into a large bowl.",

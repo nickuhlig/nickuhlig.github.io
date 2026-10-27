@@ -47,18 +47,21 @@
     },
     {
       "ingredient_id": 1811,
-      "name": "headless shrimp, deveined, preferably shell-on",
-      "quantity": "0.45 kg"
+      "name": "headless shrimp, preferably shell-on",
+      "quantity": "0.45 kg",
+      "prep": "deveined"
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely chopped, divided",
-      "quantity": "1 large"
+      "name": "shallot, divided",
+      "quantity": "1 large",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely chopped, divided",
-      "quantity": "3 medium cloves"
+      "name": "garlic, divided",
+      "quantity": "3 medium cloves",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 346,
@@ -72,8 +75,9 @@
     },
     {
       "ingredient_id": 1810,
-      "name": "bird’s-eye chiles, finely chopped",
-      "quantity": "1 to 2"
+      "name": "bird’s-eye chiles",
+      "quantity": "1 to 2",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 72,
@@ -97,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Devein the headless shrimp. Finely chop the shallot. Finely chop the garlic. Finely chop the bird’s-eye chiles.",
+      "secondary_message": "0.45 kg headless shrimp, preferably shell-on\n1 large shallot, divided\n3 medium cloves garlic, divided\n1 to 2 bird’s-eye chiles"
+    },
     {
       "id": 1,
       "primary_message": "For the Caramel Sauce: In a 2-quart saucepan, combine sugar and water and set over medium-high heat. Cook, swirling the pan to ensure even caramelization, until the mixture bubbles vigorously and becomes slightly golden, about 5 minutes. Continue cooking until light smoke comes off the pan and color changes from light to dark amber very quickly, about 2 minutes longer. Remove pan from heat and stir in coconut water. If the mixture looks like it’s seizing, return pan to low heat and stir gently until sugar is fully dissolved. Transfer to a heatproof bowl and set aside.",

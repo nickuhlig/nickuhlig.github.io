@@ -66,23 +66,27 @@
     },
     {
       "ingredient_id": 1541,
-      "name": "Roma tomatoes, halved lengthwise",
-      "quantity": "3"
+      "name": "Roma tomatoes",
+      "quantity": "3",
+      "prep": "halved lengthwise"
     },
     {
       "ingredient_id": 2324,
-      "name": "zucchini, quartered lengthwise",
-      "quantity": "1 large"
+      "name": "zucchini",
+      "quantity": "1 large",
+      "prep": "quartered lengthwise"
     },
     {
       "ingredient_id": 1301,
-      "name": "yellow squash, quartered lengthwise",
-      "quantity": "1 large"
+      "name": "yellow squash",
+      "quantity": "1 large",
+      "prep": "quartered lengthwise"
     },
     {
       "ingredient_id": 18,
-      "name": "globe eggplant, cut into 1/2-inch rounds",
-      "quantity": "1 medium"
+      "name": "globe eggplant",
+      "quantity": "1 medium",
+      "prep": "cut into 1/2-inch rounds"
     },
     {
       "ingredient_id": 152,
@@ -91,13 +95,15 @@
     },
     {
       "ingredient_id": 150,
-      "name": "red bell pepper, stemmed, seeded, and halved",
-      "quantity": "1"
+      "name": "red bell pepper",
+      "quantity": "1",
+      "prep": "stemmed, seeded, and halved"
     },
     {
       "ingredient_id": 265,
-      "name": "yellow bell pepper, stemmed, seeded, and halved",
-      "quantity": "1"
+      "name": "yellow bell pepper",
+      "quantity": "1",
+      "prep": "stemmed, seeded, and halved"
     },
     {
       "ingredient_id": 88,
@@ -111,6 +117,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the Roma tomatoes lengthwise. Quarter the zucchini lengthwise. Quarter the yellow squash lengthwise. Cut the globe eggplant into 1/2-inch rounds. Stem, seed, and halve the red bell pepper. Stem, seed, and halve the yellow bell pepper.",
+      "secondary_message": "3 Roma tomatoes\n1 large zucchini\n1 large yellow squash\n1 medium globe eggplant\n1 red bell pepper\n1 yellow bell pepper"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl whisk together 2 tablespoons oil, vinegar, garlic, basil, marjoram, and thyme. Season with salt and pepper to taste; set aside.",

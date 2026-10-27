@@ -39,23 +39,27 @@
     },
     {
       "ingredient_id": 2010,
-      "name": "hard dry fennel salami, diced",
-      "quantity": "4 oz"
+      "name": "hard dry fennel salami",
+      "quantity": "4 oz",
+      "prep": "diced"
     },
     {
       "ingredient_id": 470,
-      "name": "fennel, thinly sliced",
-      "quantity": "1 small bulb"
+      "name": "fennel",
+      "quantity": "1 small bulb",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, thinly sliced",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -84,8 +88,9 @@
     },
     {
       "ingredient_id": 2346,
-      "name": "orange zest, white pith removed",
-      "quantity": "1 (2 inch) piece"
+      "name": "orange zest",
+      "quantity": "1 (2 inch) piece",
+      "prep": "white pith removed"
     },
     {
       "ingredient_id": 1504,
@@ -119,6 +124,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the hard dry fennel salami. Thinly slice the fennel. Thinly slice the onion. Thinly slice the garlic. Remove the white pith from the orange zest.",
+      "secondary_message": "4 oz hard dry fennel salami\n1 small bulb fennel\n1 small onion\n4 medium cloves garlic\n1 (2 inch) piece orange zest"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in a large saucepan over high heat until shimmering. Add salami and cook, stirring, for 30 seconds. Add fennel, onion, and garlic. Reduce heat to medium, season with salt and pepper, and cook, stirring, until vegetables are softened but not browned, about 5 minutes. Add saffron and pepper flakes and cook until fragrant, about 30 seconds. Add pastis, orange zest, and tomatoes.",

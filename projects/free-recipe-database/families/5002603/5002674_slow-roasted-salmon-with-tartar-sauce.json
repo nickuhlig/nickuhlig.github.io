@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 15,
-      "name": "capers, drained , chopped",
-      "quantity": "½ cup"
+      "name": "capers",
+      "quantity": "½ cup",
+      "prep": "drained, chopped"
     },
     {
       "ingredient_id": 1932,
@@ -106,13 +107,15 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, thinly sliced",
-      "quantity": "1 small"
+      "name": "lemon",
+      "quantity": "1 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 8 small pieces, divided",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter, divided",
+      "quantity": "2 tbsp",
+      "prep": "cut into 8 small pieces"
     },
     {
       "ingredient_id": 320,
@@ -121,6 +124,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain and chop the capers. Thinly slice the lemon. Cut the unsalted butter into 8 small pieces.",
+      "secondary_message": "½ cup capers\n1 small lemon\n2 tbsp unsalted butter, divided"
+    },
     {
       "id": 1,
       "primary_message": "For the Tartar Sauce: In a small mixing bowl, stir together yogurt, mayonnaise, capers, dill, lemon juice, and garlic until well combined. Season to taste with salt and pepper. Ideally, let sit covered in the refrigerator for at least 30 minutes before serving.",

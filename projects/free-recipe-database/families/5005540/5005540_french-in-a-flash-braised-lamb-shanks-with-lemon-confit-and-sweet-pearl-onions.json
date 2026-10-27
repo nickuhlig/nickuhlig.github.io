@@ -46,13 +46,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1954,
-      "name": "preserved lemons, thinly sliced",
-      "quantity": "2"
+      "name": "preserved lemons",
+      "quantity": "2",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1008,
@@ -66,8 +68,9 @@
     },
     {
       "ingredient_id": 1766,
-      "name": "rosemary, leaves chopped",
-      "quantity": "1 stem"
+      "name": "rosemary",
+      "quantity": "1 stem",
+      "prep": "leaves chopped"
     },
     {
       "ingredient_id": 2627,
@@ -86,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the garlic. Thinly slice the preserved lemons. Chop the leaves of the rosemary.",
+      "secondary_message": "4 cloves garlic\n2 preserved lemons\n1 stem rosemary"
+    },
     {
       "id": 1,
       "primary_message": "Heat 1 1/2 tablespoons olive oil in a braising pan over medium to medium-high heat. Season the lamb shanks with salt and pepper. Sear on all sides until you have a golden-brown crust. Remove the lamb from the pan, and set aside. Drain out the olive oil.",

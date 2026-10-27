@@ -51,8 +51,9 @@
   "ingredients": [
     {
       "ingredient_id": 359,
-      "name": "tap water, warmed to 125°F",
-      "quantity": "7 oz"
+      "name": "tap water",
+      "quantity": "7 oz",
+      "prep": "warmed to 125°F"
     },
     {
       "ingredient_id": 121,
@@ -111,6 +112,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Warm the tap water to 125°F.",
+      "secondary_message": "7 oz tap water"
+    },
     {
       "id": 1,
       "primary_message": "For the Base Dough: In the bowl of a stand mixer, whisk the hot water, eggs, and sugar until combined and the mixture registers 100°F (38℉)—just slightly warmer than your finger. Whisk in flour and yeast. In a stand mixer fitted with a dough hook, mix on low speed until a shaggy dough is formed and no dry flour remains, 1 to 3 minutes. Cover bowl loosely with a kitchen towel and let sit for 15 minutes.",

@@ -39,8 +39,9 @@
     },
     {
       "ingredient_id": 307,
-      "name": "finely sliced ribeye, roughly chopped",
-      "quantity": "0.23 kg"
+      "name": "finely sliced ribeye",
+      "quantity": "0.23 kg",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 152,
@@ -64,6 +65,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the finely sliced ribeye.",
+      "secondary_message": "0.23 kg finely sliced ribeye"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in a medium saucepan over high heat until shimmering. Add steak and cook until well browned, about 2 minutes. Season with salt and pepper to taste. Transfer steak to a plate, leaving as much fat in pan as possible.",

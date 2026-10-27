@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 186,
@@ -61,8 +62,9 @@
     },
     {
       "ingredient_id": 1618,
-      "name": "chipotle chilis, canned in adobo sauce, roughly chopped",
-      "quantity": "3"
+      "name": "chipotle chilis, canned in adobo sauce",
+      "quantity": "3",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 130,
@@ -91,18 +93,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely diced",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 291,
-      "name": "green bell pepper, finely diced",
-      "quantity": "1"
+      "name": "green bell pepper",
+      "quantity": "1",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell pepper, finely diced",
-      "quantity": "1"
+      "name": "red bell pepper",
+      "quantity": "1",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 1176,
@@ -116,8 +121,9 @@
     },
     {
       "ingredient_id": 15,
-      "name": "capers, drained, rinsed, and roughly chopped",
-      "quantity": "½ cup"
+      "name": "capers",
+      "quantity": "½ cup",
+      "prep": "drained, rinsed, and roughly chopped"
     },
     {
       "ingredient_id": 2517,
@@ -136,6 +142,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic. Roughly chop the chipotle chilis. Finely dice the onion. Finely dice the green bell pepper. Finely dice the red bell pepper. Drain, rinse, and roughly chop the capers.",
+      "secondary_message": "2 medium cloves garlic\n3 chipotle chilis, canned in adobo sauce\n1 small onion\n1 green bell pepper\n1 red bell pepper\n½ cup capers"
+    },
     {
       "id": 1,
       "primary_message": "Heat 2 tablespoons olive oil in a small saucepan over medium heat until shimmering. Add cashews and cook, stirring frequently, until lightly browned, about 2 minutes. Add garlic and cumin and cook, stirring constantly, until fragrant, about 30 seconds. Add chicken stock, chipotle peppers, vinegar, and sugar and bring to a simmer. Transfer to a blender and blend on high speed until smooth, about 2 minutes Season to taste with salt and black pepper. Transfer to a container and set aside.",

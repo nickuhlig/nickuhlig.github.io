@@ -70,13 +70,15 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, chopped",
-      "quantity": "½ small"
+      "name": "yellow onion",
+      "quantity": "½ small",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, finely chopped",
-      "quantity": "2 medium"
+      "name": "garlic cloves",
+      "quantity": "2 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 186,
@@ -135,6 +137,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the yellow onion. Finely chop the garlic cloves.",
+      "secondary_message": "½ small yellow onion\n2 medium garlic cloves"
+    },
     {
       "id": 1,
       "primary_message": "Rinse chickpeas with cool water, place in a large bowl, and cover with enough water to allow them to triple in size. Cover and let sit at room temperature for at least 12 hours and up to 24 hours. Drain chickpeas and thoroughly dry with paper towels or a salad spinner.",

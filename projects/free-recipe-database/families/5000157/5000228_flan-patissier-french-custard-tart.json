@@ -57,8 +57,9 @@
   "ingredients": [
     {
       "ingredient_id": 1915,
-      "name": "old-fashioned flaky pie dough, chilled",
-      "quantity": "½ recipe"
+      "name": "old-fashioned flaky pie dough",
+      "quantity": "½ recipe",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 1907,
@@ -67,11 +68,18 @@
     },
     {
       "ingredient_id": 3641,
-      "name": "egg yolks, lightly beaten",
-      "quantity": "2 large"
+      "name": "egg yolks",
+      "quantity": "2 large",
+      "prep": "lightly beaten"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the old-fashioned flaky pie dough cold until you use it. Lightly beat the egg yolks.",
+      "secondary_message": "½ recipe old-fashioned flaky pie dough\n2 large egg yolks"
+    },
     {
       "id": 1,
       "primary_message": "Place dough on a generously floured work surface. Using a rolling pin and adding flour as needed underneath and on top of the dough to prevent sticking, roll out to a 33-cm circle. Transfer to a 9 1/2–inch tart pan by carefully rolling dough around the rolling pin, then unrolling over the pan. Press dough gently yet firmly into the corners and up the sides of the pan. Dust off flour with a pastry brush, then trim excess dough that extends past the rim of the pan. Transfer tart shell to a rimmed baking sheet and refrigerate for 1 hour.",

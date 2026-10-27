@@ -83,13 +83,15 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "3 tbsp"
+      "name": "unsalted butter",
+      "quantity": "3 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 293,
@@ -103,13 +105,15 @@
     },
     {
       "ingredient_id": 2101,
-      "name": "sweet white wine, at room temperature",
-      "quantity": "⅓ cup"
+      "name": "sweet white wine",
+      "quantity": "⅓ cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 118,
-      "name": "milk, at room temperature",
-      "quantity": "⅓ cup"
+      "name": "milk",
+      "quantity": "⅓ cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1044,
@@ -118,8 +122,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "zested"
     },
     {
       "ingredient_id": 116,
@@ -133,8 +138,9 @@
     },
     {
       "ingredient_id": 2792,
-      "name": "Concord grapes, split in half, seeds removed",
-      "quantity": "12 oz"
+      "name": "Concord grapes",
+      "quantity": "12 oz",
+      "prep": "split in half, seeds removed"
     },
     {
       "ingredient_id": 2792,
@@ -153,6 +159,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Bring the eggs to room temperature. Bring the sweet white wine to room temperature. Bring the milk to room temperature. Zest the lemon. Split the Concord grapes in half, then remove the seeds.",
+      "secondary_message": "3 tbsp unsalted butter\n2 large eggs\n⅓ cup sweet white wine\n⅓ cup milk\n1 lemon\n12 oz Concord grapes"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Adjust oven rack to middle position and preheat oven to 375°F. Grease 9-inch round cake pan with 1 tablespoon butter. Line bottom of pan with parchment paper and coat and grease once again with whatever butter is left on the pastry brush.",

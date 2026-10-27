@@ -36,23 +36,27 @@
   "ingredients": [
     {
       "ingredient_id": 260,
-      "name": "ripe tomatoes, diced",
-      "quantity": "2 large"
+      "name": "ripe tomatoes",
+      "quantity": "2 large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, peeled and diced",
-      "quantity": "1 stalk"
+      "name": "celery",
+      "quantity": "1 stalk",
+      "prep": "peeled and diced"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, chopped",
-      "quantity": "4 medium"
+      "name": "scallions",
+      "quantity": "4 medium",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 3113,
-      "name": "fresh California green chile, diced",
-      "quantity": "1"
+      "name": "fresh California green chile",
+      "quantity": "1",
+      "prep": "diced"
     },
     {
       "ingredient_id": 188,
@@ -61,8 +65,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 130,
@@ -81,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the ripe tomatoes. Peel and dice the celery. Chop the scallions. Dice the fresh California green chile. Mince the garlic.",
+      "secondary_message": "2 large ripe tomatoes\n1 stalk celery\n4 medium scallions\n1 fresh California green chile\n2 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Combine tomatoes, celery, scallions, chili, cilantro, garlic, vinegar, and Worcestershire in a medium bowl and toss. Season to taste with salt. Let sit at room temperature for at least 1 hour. Serve. Refrigerate leftovers in a sealed container for up to 5 days.",

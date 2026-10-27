@@ -37,8 +37,9 @@
     },
     {
       "ingredient_id": 3581,
-      "name": "fat, rendered",
-      "quantity": "1 tbsp"
+      "name": "fat",
+      "quantity": "1 tbsp",
+      "prep": "rendered"
     },
     {
       "ingredient_id": 1808,
@@ -62,8 +63,9 @@
     },
     {
       "ingredient_id": 1845,
-      "name": "veal oxtail, severed at each joint",
-      "quantity": "2 ½ lb"
+      "name": "veal oxtail",
+      "quantity": "2 ½ lb",
+      "prep": "severed at each joint"
     },
     {
       "ingredient_id": 1008,
@@ -92,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Render the fat. Sever the veal oxtail at each joint.",
+      "secondary_message": "1 tbsp fat\n2 ½ lb veal oxtail"
+    },
     {
       "id": 1,
       "primary_message": "Use an enameled cast iron pot or heavy pot that can withstand acidic ingredients. Put in olive oil, fat, parsley, garlic, onion, and carrot, and turn the heat to medium. Cook for 10 minutes, stirring.",

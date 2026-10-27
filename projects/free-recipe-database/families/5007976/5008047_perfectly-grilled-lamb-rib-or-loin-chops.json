@@ -46,8 +46,9 @@
   "ingredients": [
     {
       "ingredient_id": 2,
-      "name": "bone-in lamb rib chops, cut 1 1/4 to 1 1/2 inches thick",
-      "quantity": "8"
+      "name": "bone-in lamb rib chops",
+      "quantity": "8",
+      "prep": "cut 1 1/4 to 1 1/2 inches thick"
     },
     {
       "ingredient_id": 88,
@@ -66,6 +67,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the bone-in lamb rib chops 1 1/4 to 1 1/2 inches thick.",
+      "secondary_message": "8 bone-in lamb rib chops"
+    },
     {
       "id": 1,
       "primary_message": "Salt lamb on both sides and let sit at room temperature for 40 minutes while you prepare the grill.",

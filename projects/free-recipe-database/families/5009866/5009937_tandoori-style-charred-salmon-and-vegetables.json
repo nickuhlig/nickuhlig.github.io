@@ -44,8 +44,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "grated"
     },
     {
       "ingredient_id": 411,
@@ -74,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the garlic.",
+      "secondary_message": "2 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "In a bowl, stir together the yogurt, ginger, garlic, chili, Garam Masala, 1 tablespoon vegetable oil, and salt to taste. Pat the salmon dry with a paper towel, and coat it with the yogurt mixture. Toss the asparagus or blanched broccoli in the same bowl to coat with the yogurt as well. Cover with plastic wrap and marinate in the fridge for 15 minutes. Meanwhile, preheat a grill pan or grill over high heat, or preheat your broiler.",

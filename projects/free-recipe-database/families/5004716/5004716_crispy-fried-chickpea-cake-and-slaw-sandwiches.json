@@ -52,8 +52,9 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, thinly sliced",
-      "quantity": "½ small"
+      "name": "red onion",
+      "quantity": "½ small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 159,
@@ -62,8 +63,9 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "fresh parsley leaves, roughly chopped",
-      "quantity": "1 cup"
+      "name": "fresh parsley leaves",
+      "quantity": "1 cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 346,
@@ -97,8 +99,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 186,
@@ -147,6 +150,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the red onion. Roughly chop the fresh parsley leaves. Roughly chop the garlic.",
+      "secondary_message": "½ small red onion\n1 cup fresh parsley leaves\n1 medium clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Slaw: Combine cabbage, onion, carrot, half of parsley, and sugar in a large bowl. Combine tahini and lemon juice in a small bowl and stir with a fork until homogenous. Add half of tahini mixture to cabbage. Season to taste with salt and pepper and toss to combine. Massage cabbage until tender then let rest at room temperature while you make the chickpea patties. Set aside remaining tahini mixture.",

@@ -69,8 +69,9 @@
     },
     {
       "ingredient_id": 2715,
-      "name": "cabbage, thinly cut or shredded",
-      "quantity": "½ head"
+      "name": "cabbage",
+      "quantity": "½ head",
+      "prep": "thinly cut or shredded"
     },
     {
       "ingredient_id": 159,
@@ -79,6 +80,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly cut or shred the cabbage.",
+      "secondary_message": "½ head cabbage"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, whisk together olive oil, sesame oil chili oil, soy sauce, vinegar, and sugar. Add cabbage and carrots and toss to combine. Adjust dressing to taste. Garnish with sesame seeds, and scallions and cilantro, if desired. Coleslaw may be dressed one hour in advance.",

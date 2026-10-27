@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "14 tbsp (7 oz)"
+      "name": "unsalted butter",
+      "quantity": "14 tbsp (7 oz)",
+      "prep": "melted"
     },
     {
       "ingredient_id": 1003,
@@ -97,6 +98,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter.",
+      "secondary_message": "14 tbsp (7 oz) unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350°F. Butter bundt pan and dust with cocoa.",

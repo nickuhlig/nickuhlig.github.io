@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 2380,
-      "name": "easy pie dough, shaped and chilled in a pie plate",
-      "quantity": ""
+      "name": "easy pie dough",
+      "quantity": "",
+      "prep": "shaped and chilled in a pie plate"
     },
     {
       "ingredient_id": 121,
@@ -61,8 +62,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "4 tbsp"
+      "name": "unsalted butter",
+      "quantity": "4 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 88,
@@ -71,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shape and chill the easy pie dough in a pie plate. Melt the unsalted butter.",
+      "secondary_message": "easy pie dough\n4 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350°F. In a large bowl, beat eggs with an electric mixer until light and creamy, about 3 minutes. Add sugar and beat another 2 minutes. Add lemon juice, cornmeal, butter, and salt and beat until well combined. Pour into prepared pie shell.",

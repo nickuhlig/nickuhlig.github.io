@@ -54,8 +54,9 @@
   "ingredients": [
     {
       "ingredient_id": 185,
-      "name": "black beans, rinsed and drained",
-      "quantity": "2 (425 g) cans"
+      "name": "black beans",
+      "quantity": "2 (425 g) cans",
+      "prep": "rinsed and drained"
     },
     {
       "ingredient_id": 1044,
@@ -64,23 +65,27 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2066,
-      "name": "poblano pepper, finely chopped",
-      "quantity": "1 large"
+      "name": "poblano pepper",
+      "quantity": "1 large",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1618,
-      "name": "chipotle chilis, canned in adobo sauce, finely chopped, plus 1 teaspoon sauce",
-      "quantity": "1"
+      "name": "chipotle chilis, canned in adobo sauce, plus 1 teaspoon sauce",
+      "quantity": "1",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 108,
@@ -119,11 +124,18 @@
     },
     {
       "ingredient_id": 1772,
-      "name": "hearty hamburger buns, toasted",
-      "quantity": "6 to 8"
+      "name": "hearty hamburger buns",
+      "quantity": "6 to 8",
+      "prep": "toasted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse and drain the black beans. Finely chop the onion. Finely chop the poblano pepper. Mince the garlic. Finely chop the chipotle chilis. Toast the hearty hamburger buns.",
+      "secondary_message": "2 (425 g) cans black beans\n1 medium onion\n1 large poblano pepper\n3 medium cloves garlic\n1 chipotle chilis, canned in adobo sauce, plus 1 teaspoon sauce\n6 to 8 hearty hamburger buns"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center position and preheat oven to 175°C (350°F). Spread black beans in a single layer on a foil-lined rimmed baking sheet. Roast until beans are mostly split open and outer skins are beginning to get crunchy, about 20 minutes. Remove from oven and allow to cool slightly.",

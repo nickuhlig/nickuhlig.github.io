@@ -49,8 +49,9 @@
     },
     {
       "ingredient_id": 2164,
-      "name": "boneless pork shoulder, trimmed and cut into 2-inch dice",
-      "quantity": "0.91 kg"
+      "name": "boneless pork shoulder",
+      "quantity": "0.91 kg",
+      "prep": "trimmed and cut into 2-inch dice"
     },
     {
       "ingredient_id": 1044,
@@ -59,13 +60,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely sliced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 82,
@@ -89,8 +92,9 @@
     },
     {
       "ingredient_id": 1749,
-      "name": "whole tomatoes packed in juice, roughly squeezed through fingers to chop",
-      "quantity": "1 (794 g) can"
+      "name": "whole tomatoes packed in juice",
+      "quantity": "1 (794 g) can",
+      "prep": "roughly squeezed through fingers to chop"
     },
     {
       "ingredient_id": 52,
@@ -119,21 +123,30 @@
     },
     {
       "ingredient_id": 93,
-      "name": "red kidney beans, drained and rinsed",
-      "quantity": "1 (425 g) can"
+      "name": "red kidney beans",
+      "quantity": "1 (425 g) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 185,
-      "name": "black beans, drained and rinsed",
-      "quantity": "1 (425 g) can"
+      "name": "black beans",
+      "quantity": "1 (425 g) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 92,
-      "name": "garbanzo beans, drained and rinsed",
-      "quantity": "1 (425 g) can"
+      "name": "garbanzo beans",
+      "quantity": "1 (425 g) can",
+      "prep": "drained and rinsed"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim and cut the boneless pork shoulder into 2-inch dice. Finely slice the onion. Mince the garlic. Roughly squeeze through the whole tomatoes packed in juice fingers to chop. Drain and rinse the red kidney beans. Drain and rinse the black beans. Drain and rinse the garbanzo beans.",
+      "secondary_message": "0.91 kg boneless pork shoulder\n1 medium onion\n3 medium cloves garlic\n1 (794 g) can whole tomatoes packed in juice\n1 (425 g) can red kidney beans\n1 (425 g) can black beans\n1 (425 g) can garbanzo beans"
+    },
     {
       "id": 1,
       "primary_message": "Combine 1 cup chicken broth and raisins in a microwave-safe bowl and microwave on high heat until very hot, about 1 minute. Let stand for 5 minutes, then puree raisins and stock until smooth in a countertop blender or with an immersion blender. Add remaining cup of chicken stock and set aside.",

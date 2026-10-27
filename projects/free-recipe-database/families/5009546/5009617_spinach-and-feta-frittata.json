@@ -41,13 +41,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely chopped",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely chopped",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 33,
@@ -71,8 +73,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "10 large"
+      "name": "eggs",
+      "quantity": "10 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 118,
@@ -91,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the shallot. Finely chop the garlic. Beat the eggs.",
+      "secondary_message": "1 medium shallot\n1 medium clove garlic\n10 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to highest position and preheat broiler. Heat olive oil in an 20 cm non-stick skillet over medium high heat, until shimmering. Add shallo and cook until beginning to soften, about 3 minutes. Add garlic and continue to cook until softened, about 2 minutes longer. Add spinach and oregano and cook, tossing often until spinach is fully wilted and any water released by the spinach has cooked off, about 6 minutes total. Season to taste with salt and pepper.",

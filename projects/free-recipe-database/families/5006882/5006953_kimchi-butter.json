@@ -36,16 +36,24 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "1 stick"
+      "name": "unsalted butter",
+      "quantity": "1 stick",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1214,
-      "name": "kimchi with liquid, chopped",
-      "quantity": "45 g"
+      "name": "kimchi with liquid",
+      "quantity": "45 g",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter. Chop the kimchi with liquid.",
+      "secondary_message": "1 stick unsalted butter\n45 g kimchi with liquid"
+    },
     {
       "id": 1,
       "primary_message": "Combine butter and kimchi in the bowl of a food processor (see note). Pulse until combined. (It may take a few pulses to fully incorporate the kimchi liquid.) Wrap butter tightly and store in the refrigerator for up to 2 weeks or in the freezer for several months.",

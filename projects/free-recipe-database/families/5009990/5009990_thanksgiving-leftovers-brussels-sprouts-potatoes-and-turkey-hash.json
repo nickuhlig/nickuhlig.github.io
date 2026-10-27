@@ -43,18 +43,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely sliced",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 1897,
-      "name": "leftover roasted potatoes, cut into 1/4-inch dice",
-      "quantity": "2 cups"
+      "name": "leftover roasted potatoes",
+      "quantity": "2 cups",
+      "prep": "cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 1740,
-      "name": "roasted turkey meat, cut into 1/4-inch dice",
-      "quantity": "½ lb"
+      "name": "roasted turkey meat",
+      "quantity": "½ lb",
+      "prep": "cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 2540,
@@ -88,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely slice the onion. Cut the leftover roasted potatoes into 1/4-inch dice. Cut the roasted turkey meat into 1/4-inch dice.",
+      "secondary_message": "1 small onion\n2 cups leftover roasted potatoes\n½ lb roasted turkey meat"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in 12-inch non-stick skillet over high heat until smoking. Add brussels sprouts, onions, and potatoes. Stir once then cook without moving until charred, about 2 minutes. Flip, stir, and repeat until well charred all over, about 10 minutes total, adding turkey half way through cooking. Add chili sauce and hot sauce and season to taste with salt and pepper.",

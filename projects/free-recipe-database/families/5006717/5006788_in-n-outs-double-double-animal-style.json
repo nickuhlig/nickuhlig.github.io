@@ -62,8 +62,9 @@
     },
     {
       "ingredient_id": 1922,
-      "name": "fresh beef chuck with plenty of fat, cut into 1-inch cubes",
-      "quantity": "225 g"
+      "name": "fresh beef chuck with plenty of fat",
+      "quantity": "225 g",
+      "prep": "cut into 1-inch cubes"
     },
     {
       "ingredient_id": 1044,
@@ -72,8 +73,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 88,
@@ -117,6 +119,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the fresh beef chuck with plenty of fat into 1-inch cubes. Finely chop the onion.",
+      "secondary_message": "225 g fresh beef chuck with plenty of fat\n1 large onion"
+    },
     {
       "id": 1,
       "primary_message": "For the Sauce: Combine all ingredients in a small bowl, and stir to combine. Cover and refrigerate until ready to use (sauce can be refrigerated up to 5 days).",

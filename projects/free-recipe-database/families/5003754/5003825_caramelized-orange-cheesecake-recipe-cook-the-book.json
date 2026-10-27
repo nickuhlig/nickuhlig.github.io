@@ -56,13 +56,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, melted",
-      "quantity": "3 tbsp"
+      "name": "butter",
+      "quantity": "3 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 355,
-      "name": "packages cream cheese, at room temperature",
-      "quantity": "3"
+      "name": "packages cream cheese",
+      "quantity": "3",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -71,8 +73,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 2529,
@@ -96,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the butter. Bring the packages cream cheese to room temperature. Bring the eggs to room temperature.",
+      "secondary_message": "3 tbsp butter\n3 packages cream cheese\n4 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Make topping: With a sharp knife, slice orange into thin rounds (between 1/8 and 1/16 in. thick), discarding ends and seeds. In a deep 25-cm frying pan or pot over medium-high heat, stir sugar, 3/4 cup water, and lemon juice until sugar is dissolved. Add orange slices and bring to a simmer. Cover and simmer 5 minutes. Uncover and simmer gently, keeping slices in a single layer and turning occasionally, until they’re slightly candied and translucent and liquid has consistency of a thin syrup, about 20 minutes (there should be about 1/2 cup liquid in pan; if less, add enough hot water to make that amount and shake pan to mix water into syrup). Let cool in pan. Cover and chill at least 15 minutes.",

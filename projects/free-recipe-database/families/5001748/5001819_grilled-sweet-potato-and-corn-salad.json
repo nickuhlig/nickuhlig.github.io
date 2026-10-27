@@ -90,13 +90,15 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, thinly sliced",
-      "quantity": "2"
+      "name": "scallions",
+      "quantity": "2",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 143,
-      "name": "sweet potatoes, peeled and cut into 1/2-inch slices",
-      "quantity": "0.91 kg"
+      "name": "sweet potatoes",
+      "quantity": "0.91 kg",
+      "prep": "peeled and cut into 1/2-inch slices"
     },
     {
       "ingredient_id": 47,
@@ -120,6 +122,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the scallions. Peel and cut the sweet potatoes into 1/2-inch slices.",
+      "secondary_message": "2 scallions\n0.91 kg sweet potatoes"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, whisk olive oil, lime juice, salt, 1/2 teaspoon black pepper, and cayenne pepper to combine. Stir in scallions; set aside.",

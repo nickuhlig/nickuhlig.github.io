@@ -53,8 +53,9 @@
     },
     {
       "ingredient_id": 1610,
-      "name": "to firm silken tofu, medium, cut into 1/2-inch cubes",
-      "quantity": "1 ½ lb"
+      "name": "to firm silken tofu, medium",
+      "quantity": "1 ½ lb",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 1483,
@@ -68,8 +69,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, grated on a microplane grater",
-      "quantity": "1 tbsp"
+      "name": "fresh ginger",
+      "quantity": "1 tbsp",
+      "prep": "grated on a microplane grater"
     },
     {
       "ingredient_id": 2543,
@@ -103,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the to firm silken tofu into 1/2-inch cubes. Grate the fresh ginger on a microplane grater.",
+      "secondary_message": "1 ½ lb to firm silken tofu, medium\n1 tbsp fresh ginger"
+    },
     {
       "id": 1,
       "primary_message": "Heat half of Sichuan peppercorns in a large wok over high heat until lightly smoking. Transfer to a mortar and pestle. Pound until finely ground and set aside.",

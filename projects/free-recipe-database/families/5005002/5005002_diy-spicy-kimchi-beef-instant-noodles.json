@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 2854,
-      "name": "beef jerky, cut into 1/2-inch squares",
-      "quantity": "4 oz"
+      "name": "beef jerky",
+      "quantity": "4 oz",
+      "prep": "cut into 1/2-inch squares"
     },
     {
       "ingredient_id": 1827,
@@ -75,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the beef jerky into 1/2-inch squares.",
+      "secondary_message": "4 oz beef jerky"
+    },
     {
       "id": 1,
       "primary_message": "Divide beef base, kimchi, chili-garlic sauce, mushrooms, beef, and noodles between 4 resealable glass jars. Divide scallions between 4 small zipper-lock bags and seal bags, squeezing out all of the air. Tuck bags into jars and seal. Refrigerate for up to 4 days.",

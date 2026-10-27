@@ -38,23 +38,27 @@
   "ingredients": [
     {
       "ingredient_id": 1216,
-      "name": "thin white bread, crusts removed",
-      "quantity": "36 slices"
+      "name": "thin white bread",
+      "quantity": "36 slices",
+      "prep": "crusts removed"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "227 g"
+      "name": "unsalted butter",
+      "quantity": "227 g",
+      "prep": "melted"
     },
     {
       "ingredient_id": 1556,
-      "name": "hearts of palm, drained and finely chopped",
-      "quantity": "1 (397 g) can"
+      "name": "hearts of palm",
+      "quantity": "1 (397 g) can",
+      "prep": "drained and finely chopped"
     },
     {
       "ingredient_id": 43,
-      "name": "sharp cheddar cheese, finely grated",
-      "quantity": "113 g"
+      "name": "sharp cheddar cheese",
+      "quantity": "113 g",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 267,
@@ -93,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the crusts from the thin white bread. Melt the unsalted butter. Drain and finely chop the hearts of palm. Finely grate the sharp cheddar cheese.",
+      "secondary_message": "36 slices thin white bread\n227 g unsalted butter\n1 (397 g) can hearts of palm\n113 g sharp cheddar cheese"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to upper middle and lower middle positions and preheat oven to 165°C (325°F). Brush both sides of each slice of bread with butter; set aside.",

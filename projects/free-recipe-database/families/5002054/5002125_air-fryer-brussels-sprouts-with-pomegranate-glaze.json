@@ -44,8 +44,9 @@
   "ingredients": [
     {
       "ingredient_id": 14,
-      "name": "Brussels sprouts, trimmed and cut in half lengthwise",
-      "quantity": "0.45 kg"
+      "name": "Brussels sprouts",
+      "quantity": "0.45 kg",
+      "prep": "trimmed and cut in half lengthwise"
     },
     {
       "ingredient_id": 47,
@@ -74,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim and cut the Brussels sprouts in half lengthwise.",
+      "secondary_message": "0.45 kg Brussels sprouts"
+    },
     {
       "id": 1,
       "primary_message": "Preheat a 6-quart air fryer to 200°C (400°F). In a large bowl, toss Brussels sprouts with olive oil and 1/2 teaspoon kosher salt until evenly coated.",

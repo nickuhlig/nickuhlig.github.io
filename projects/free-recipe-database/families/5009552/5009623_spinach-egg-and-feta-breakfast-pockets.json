@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "hard boiled eggs, chopped",
-      "quantity": "2"
+      "name": "hard boiled eggs",
+      "quantity": "2",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 88,
@@ -76,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the hard boiled eggs.",
+      "secondary_message": "2 hard boiled eggs"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 200°C (400°F). Line a baking sheet with parchment paper. Rinse spinach with water; do not dry. In a wide, shallow skillet, wilt spinach over medium heat. Let cool then wring dry.",

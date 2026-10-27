@@ -76,8 +76,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, thoroughly beaten",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "thoroughly beaten"
     },
     {
       "ingredient_id": 1044,
@@ -106,6 +107,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Beat the thoroughly of the eggs.",
+      "secondary_message": "3 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Place cutlets, one at a time, in a heavy-duty zipper-lock bag and pound gently to 0.5-cm thickness using a meat pounder or the bottom of a heavy 20-cm skillet. Season generously with salt and pepper.",

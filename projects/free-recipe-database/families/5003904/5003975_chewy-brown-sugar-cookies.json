@@ -59,8 +59,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "14 tbsp"
+      "name": "unsalted butter",
+      "quantity": "14 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 293,
@@ -99,6 +100,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter.",
+      "secondary_message": "14 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Getting Started: Adjust 2 oven racks to upper and lower-middle positions and preheat the oven to 180°C (350°F). Line 2 rimmed baking sheets with parchment paper.",

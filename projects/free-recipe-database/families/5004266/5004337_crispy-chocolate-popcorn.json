@@ -80,8 +80,9 @@
     },
     {
       "ingredient_id": 1729,
-      "name": "72% dark chocolate, finely chopped",
-      "quantity": "85 g"
+      "name": "72% dark chocolate",
+      "quantity": "85 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 348,
@@ -95,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the 72% dark chocolate.",
+      "secondary_message": "85 g 72% dark chocolate"
+    },
     {
       "id": 1,
       "primary_message": "Lightly grease a large bowl, and add freshly popped popcorn. You should have about 7 cups; if significantly less, this may be a sign the popcorn is dense and stale and that a newer batch of kernels is in order.",

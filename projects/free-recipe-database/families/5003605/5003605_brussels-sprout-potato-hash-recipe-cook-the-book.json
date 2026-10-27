@@ -39,24 +39,28 @@
     },
     {
       "ingredient_id": 14,
-      "name": "Brussels sprouts, quartered lengthwise",
-      "quantity": "½ lb"
+      "name": "Brussels sprouts",
+      "quantity": "½ lb",
+      "prep": "quartered lengthwise"
     },
     {
       "ingredient_id": 3064,
-      "name": "Yukon Gold potatoes, cut into 1/2-inch pieces",
+      "name": "Yukon Gold potatoes",
       "quantity": "2 medium",
-      "weigh_as": "1 lb"
+      "weigh_as": "1 lb",
+      "prep": "cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, diced small",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "diced small"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 89,
@@ -80,6 +84,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Quarter the Brussels sprouts lengthwise. Cut the Yukon Gold potatoes into 1/2-inch pieces. Dice the onion small. Mince the garlic.",
+      "secondary_message": "½ lb Brussels sprouts\n2 medium Yukon Gold potatoes\n1 small onion\n3 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Preheat a large, heavy pan, preferably cast iron, over medium heat. Sauté the potatoes and sprouts in 1 teaspoon of the oil, using nonstick cooking spray as necessary. Cover the pan and cook for about 30 minutes, stirring occasionally, until the potatoes are tender and lightly browned. Add the onion, garlic, thyme, pepper, salt, and lemon zest. Drizzle with the remaining teaspoon of oil. Cook for another 15 minutes, stirring occasionally, until the onions are browned. Serve!",

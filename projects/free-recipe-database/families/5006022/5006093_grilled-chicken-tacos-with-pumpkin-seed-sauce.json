@@ -42,13 +42,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and sliced",
-      "quantity": "1 large clove"
+      "name": "garlic",
+      "quantity": "1 large clove",
+      "prep": "peeled and sliced"
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, peeled and sliced",
-      "quantity": "¼"
+      "name": "white onion",
+      "quantity": "¼",
+      "prep": "peeled and sliced"
     },
     {
       "ingredient_id": 2069,
@@ -57,13 +59,15 @@
     },
     {
       "ingredient_id": 25,
-      "name": "romaine lettuce, torn into pieces",
-      "quantity": "1 leaf"
+      "name": "romaine lettuce",
+      "quantity": "1 leaf",
+      "prep": "torn into pieces"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño pepper, stemmed and roughly chopped",
-      "quantity": "½"
+      "name": "jalapeño pepper",
+      "quantity": "½",
+      "prep": "stemmed and roughly chopped"
     },
     {
       "ingredient_id": 188,
@@ -82,16 +86,24 @@
     },
     {
       "ingredient_id": 183,
-      "name": "avocado, sliced",
-      "quantity": "1"
+      "name": "avocado",
+      "quantity": "1",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 321,
-      "name": "corn tortillas, warmed",
-      "quantity": "8"
+      "name": "corn tortillas",
+      "quantity": "8",
+      "prep": "warmed"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and slice the garlic. Peel and slice the white onion. Tear the romaine lettuce into pieces. Stem and roughly chop the jalapeño pepper. Slice the avocado. Warm the corn tortillas.",
+      "secondary_message": "1 large clove garlic\n¼ white onion\n1 leaf romaine lettuce\n½ jalapeño pepper\n1 avocado\n8 corn tortillas"
+    },
     {
       "id": 1,
       "primary_message": "Heat a heavy sauté pan over medium high heat. Add pumpkin seeds. When you hear first pumpkin seed pop, begin to stir the seeds, toasting just until all seeds have popped from flat to round. Let seeds cool. Set aside 2 tablespoons for garnish.",

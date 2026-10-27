@@ -52,8 +52,9 @@
   "ingredients": [
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "1 whole head"
+      "name": "garlic",
+      "quantity": "1 whole head",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 88,
@@ -82,8 +83,9 @@
     },
     {
       "ingredient_id": 1810,
-      "name": "Thai bird's eye chile, finely minced",
-      "quantity": "1"
+      "name": "Thai bird's eye chile",
+      "quantity": "1",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 1086,
@@ -97,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the garlic. Finely mince the Thai bird's eye chile.",
+      "secondary_message": "1 whole head garlic\n1 Thai bird's eye chile"
+    },
     {
       "id": 1,
       "primary_message": "For the Fried Garlic: Transfer garlic to the bowl of a food processor or mini food processor. Pulse until garlic is very finely chopped but not a paste, about 12 short pulses, scraping down sides as necessary. Set aside 2 teaspoons and toss remaining garlic with a pinch of salt in a small bowl.",

@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemons, zested",
-      "quantity": "2"
+      "name": "lemons",
+      "quantity": "2",
+      "prep": "zested"
     },
     {
       "ingredient_id": 1480,
@@ -56,8 +57,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced, grated, or pressed",
-      "quantity": "2 cloves"
+      "name": "garlic, or pressed",
+      "quantity": "2 cloves",
+      "prep": "finely minced, grated"
     },
     {
       "ingredient_id": 90,
@@ -91,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the lemons. Finely mince and grate the garlic.",
+      "secondary_message": "2 lemons\n2 cloves garlic, or pressed"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, whisk together olive oil, lemon zest, lemon juice, thyme, garlic, turmeric, salt, and pepper.",

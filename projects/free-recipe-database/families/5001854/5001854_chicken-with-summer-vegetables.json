@@ -44,8 +44,9 @@
     },
     {
       "ingredient_id": 2488,
-      "name": "fresh shishito peppers, stemmed",
-      "quantity": "6 medium"
+      "name": "fresh shishito peppers",
+      "quantity": "6 medium",
+      "prep": "stemmed"
     },
     {
       "ingredient_id": 1682,
@@ -69,23 +70,27 @@
     },
     {
       "ingredient_id": 1703,
-      "name": "boneless skin-on chicken breasts, patted dry",
-      "quantity": "4"
+      "name": "boneless skin-on chicken breasts",
+      "quantity": "4",
+      "prep": "patted dry"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell pepper, sliced into 1/4-inch-thick strips",
-      "quantity": "1 large"
+      "name": "red bell pepper",
+      "quantity": "1 large",
+      "prep": "sliced into 1/4-inch-thick strips"
     },
     {
       "ingredient_id": 259,
-      "name": "orange bell pepper, sliced into 1/4-inch-thick strips",
-      "quantity": "1 large"
+      "name": "orange bell pepper",
+      "quantity": "1 large",
+      "prep": "sliced into 1/4-inch-thick strips"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2436,
@@ -119,11 +124,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 1/2-inch pieces",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "cut into 1/2-inch pieces"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem the fresh shishito peppers. Pat the boneless skin-on chicken breasts dry. Slice the red bell pepper into 1/4-inch-thick strips. Slice the orange bell pepper into 1/4-inch-thick strips. Thinly slice the garlic. Cut the unsalted butter into 1/2-inch pieces.",
+      "secondary_message": "6 medium fresh shishito peppers\n4 boneless skin-on chicken breasts\n1 large red bell pepper\n1 large orange bell pepper\n4 cloves garlic\n2 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 450°F. Slice scallions into 2-inch-long pieces and place dark green parts in a large bowl; set white and light green parts aside. To the large bowl with scallion greens, add shishitos and 1 teaspoon vegetable oil and toss until evenly coated.",

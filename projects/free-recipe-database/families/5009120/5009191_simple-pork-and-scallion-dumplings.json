@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 302,
-      "name": "slab bacon, cut into 1/2-inch cubes, frozen",
-      "quantity": "0.11 kg"
+      "name": "slab bacon",
+      "quantity": "0.11 kg",
+      "prep": "cut into 1/2-inch cubes, frozen"
     },
     {
       "ingredient_id": 121,
@@ -87,8 +88,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, white and green parts, finely sliced",
-      "quantity": "16"
+      "name": "scallions, white and green parts",
+      "quantity": "16",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 2687,
@@ -97,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the slab bacon into 1/2-inch cubes and keep it frozen until you use it. Finely slice the scallions.",
+      "secondary_message": "0.11 kg slab bacon\n16 scallions, white and green parts"
+    },
     {
       "id": 1,
       "primary_message": "Toss cubes of pork and salt in a medium bowl. Spread the pork pieces on a rimmed baking sheet, leaving space between the pieces than place in the freezer for 15 minutes until just starting to freeze, but still pliable.",

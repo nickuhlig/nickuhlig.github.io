@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely chopped",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 346,
@@ -75,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the garlic.",
+      "secondary_message": "2 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Whisk together hoisin, soy, sherry, garlic, sugar, food coloring, and spice powder in a large bowl. Place ribs in a large ziploc bag and pour in the marinade. Seal the bag and toss to coat ribs evenly. Open and reseal the bag, removing as much air as possible. Place in the refrigerator and marinate for one hour to overnight.",

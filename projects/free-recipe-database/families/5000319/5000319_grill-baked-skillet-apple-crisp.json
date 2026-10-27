@@ -91,8 +91,9 @@
     },
     {
       "ingredient_id": 1266,
-      "name": "Golden Delicious apples, peeled, cored, and halved",
-      "quantity": "3 lb"
+      "name": "Golden Delicious apples",
+      "quantity": "3 lb",
+      "prep": "peeled, cored, and halved"
     },
     {
       "ingredient_id": 115,
@@ -126,6 +127,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel, core, and halve the Golden Delicious apples.",
+      "secondary_message": "3 lb Golden Delicious apples"
+    },
     {
       "id": 1,
       "primary_message": "For the Topping: Combine flour, pecans, oats, sugar, cinnamon, and salt in a medium bowl. Stir in melted butter until mixture is thoroughly moistened and crumbly.",

@@ -39,8 +39,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely chopped",
-      "quantity": "1 large"
+      "name": "yellow onion",
+      "quantity": "1 large",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 150,
@@ -114,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the yellow onion.",
+      "secondary_message": "1 large yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "For the Filling: In a large saucepan, heat olive oil over medium heat until shimmering. Add the onions, cover, and cook, stirring often, until onions are soft and translucent, 8 to 10 minutes. Uncover and cook, stirring occasionally, until all the liquid evaporates, 3 to 5 minutes longer.",

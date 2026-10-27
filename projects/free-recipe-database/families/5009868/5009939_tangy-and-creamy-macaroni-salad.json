@@ -89,8 +89,9 @@
     },
     {
       "ingredient_id": 157,
-      "name": "celery, finely chopped",
-      "quantity": "1 rib"
+      "name": "celery",
+      "quantity": "1 rib",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 144,
@@ -99,8 +100,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, finely sliced",
-      "quantity": "4"
+      "name": "scallions",
+      "quantity": "4",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 88,
@@ -114,6 +116,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the celery. Finely slice the scallions.",
+      "secondary_message": "1 rib celery\n4 scallions"
+    },
     {
       "id": 1,
       "primary_message": "For the dressing: Whisk together all ingredients in a medium bowl. Set aside.",

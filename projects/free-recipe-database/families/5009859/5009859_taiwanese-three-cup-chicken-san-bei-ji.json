@@ -46,18 +46,21 @@
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, peeled and thinly sliced into rounds",
-      "quantity": "1 (1 inch) piece"
+      "name": "fresh ginger",
+      "quantity": "1 (1 inch) piece",
+      "prep": "peeled and thinly sliced into rounds"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, peeled",
-      "quantity": "12 to 15 medium"
+      "name": "garlic cloves",
+      "quantity": "12 to 15 medium",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 1762,
-      "name": "fresh Thai red chiles, stemmed and halved",
-      "quantity": "1 to 2"
+      "name": "fresh Thai red chiles",
+      "quantity": "1 to 2",
+      "prep": "stemmed and halved"
     },
     {
       "ingredient_id": 161,
@@ -86,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and thinly slice the fresh ginger into rounds. Peel the garlic cloves. Stem and halve the fresh Thai red chiles.",
+      "secondary_message": "1 (1 inch) piece fresh ginger\n12 to 15 medium garlic cloves\n1 to 2 fresh Thai red chiles"
+    },
     {
       "id": 1,
       "primary_message": "Heat sesame oil in a large skillet or wok over medium-high heat until shimmering. Add ginger, garlic, and chiles and cook until very fragrant, about 1 minute.",

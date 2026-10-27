@@ -32,18 +32,21 @@
   "ingredients": [
     {
       "ingredient_id": 24,
-      "name": "garlic, unpeeled",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "unpeeled"
     },
     {
       "ingredient_id": 2069,
-      "name": "tomatillos, husks removed and cut in half",
-      "quantity": "0.45 kg"
+      "name": "tomatillos",
+      "quantity": "0.45 kg",
+      "prep": "husks removed and cut in half"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, quartered",
-      "quantity": "1"
+      "name": "onion",
+      "quantity": "1",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 1799,
@@ -52,8 +55,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "fresh cilantro, chopped",
-      "quantity": "¼ cup"
+      "name": "fresh cilantro",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 346,
@@ -87,11 +91,18 @@
     },
     {
       "ingredient_id": 2871,
-      "name": "Chihuahua cheese, shredded",
-      "quantity": "170 g"
+      "name": "Chihuahua cheese",
+      "quantity": "170 g",
+      "prep": "shredded"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Leave the garlic unpeeled. Remove the husks from the tomatillos, then cut them in half. Quarter the onion. Chop the fresh cilantro. Shred the Chihuahua cheese.",
+      "secondary_message": "3 cloves garlic\n0.45 kg tomatillos\n1 onion\n¼ cup fresh cilantro\n170 g Chihuahua cheese"
+    },
     {
       "id": 1,
       "primary_message": "Heat a large iron skillet over medium-high heat. Set a timer for 9 minutes. Add the onion quarters and cook, flipping after 4 minutes. With 6 minutes left on the timer, add the tomatillos and chilies. Flip both after 3 minutes. Add the garlic with 4 minutes left. When all are slightly blackened transfer to a food processor. Toss in the cilantro and sugar, and process until very smooth.",

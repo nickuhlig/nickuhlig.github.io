@@ -57,24 +57,28 @@
     },
     {
       "ingredient_id": 1720,
-      "name": "celery ribs, cut into 1/2-inch dice",
-      "quantity": "2"
+      "name": "celery ribs",
+      "quantity": "2",
+      "prep": "cut into 1/2-inch dice"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, cut into 1/2-inch dice",
-      "quantity": "2 large"
+      "name": "carrots",
+      "quantity": "2 large",
+      "prep": "cut into 1/2-inch dice"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, cut into 1/2-inch dice",
+      "name": "yellow onion",
       "quantity": "3 ½ medium",
-      "weigh_as": "14 oz"
+      "weigh_as": "14 oz",
+      "prep": "cut into 1/2-inch dice"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed",
-      "quantity": "5 medium cloves"
+      "name": "garlic",
+      "quantity": "5 medium cloves",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 323,
@@ -113,6 +117,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the celery ribs into 1/2-inch dice. Cut the carrots into 1/2-inch dice. Cut the yellow onion into 1/2-inch dice. Smash the garlic.",
+      "secondary_message": "2 celery ribs\n2 large carrots\n3 ½ medium yellow onion\n5 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 300°F. Season short ribs all over with salt and pepper. Heat oil in a large Dutch oven over medium-high heat until shimmering. Working in batches, add short ribs and brown on all sides, about 4 minutes per side. Transfer browned short ribs to a platter and repeat with remaining short ribs.",

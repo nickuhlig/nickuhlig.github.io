@@ -48,8 +48,9 @@
     },
     {
       "ingredient_id": 2447,
-      "name": "strongly brewed tea, such as Irish Breakfast, cooled",
-      "quantity": "1 cup"
+      "name": "strongly brewed tea, such as Irish Breakfast",
+      "quantity": "1 cup",
+      "prep": "cooled"
     },
     {
       "ingredient_id": 2739,
@@ -73,16 +74,24 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, lightly beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 1344,
-      "name": "Old-fashioned oats, thick cut if possible",
-      "quantity": ""
+      "name": "Old-fashioned oats",
+      "quantity": "",
+      "prep": "thick cut if possible"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cool the strongly brewed tea. Lightly beat the egg. Thickly cut the Old-fashioned oats if possible.",
+      "secondary_message": "1 cup strongly brewed tea, such as Irish Breakfast\n1 large egg\nOld-fashioned oats"
+    },
     {
       "id": 1,
       "primary_message": "Combine raisins and tea in a bowl, cover and refrigerate overnight.",

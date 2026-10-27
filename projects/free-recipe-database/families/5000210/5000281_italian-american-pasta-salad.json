@@ -61,13 +61,15 @@
     },
     {
       "ingredient_id": 277,
-      "name": "grape tomatoes, halved",
-      "quantity": "2 cups"
+      "name": "grape tomatoes",
+      "quantity": "2 cups",
+      "prep": "halved"
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely chopped",
-      "quantity": "1 large"
+      "name": "shallot",
+      "quantity": "1 large",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1480,
@@ -106,13 +108,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "5 medium cloves"
+      "name": "garlic",
+      "quantity": "5 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2010,
-      "name": "Genoa salami slices, cut into 1/2-inch-thick strips , divided",
-      "quantity": "170 g"
+      "name": "Genoa salami slices, divided",
+      "quantity": "170 g",
+      "prep": "cut into 1/2-inch-thick strips"
     },
     {
       "ingredient_id": 2011,
@@ -131,8 +135,9 @@
     },
     {
       "ingredient_id": 107,
-      "name": "fresh mozzarella cheese, torn into small bite-size pieces",
-      "quantity": "0.45 kg"
+      "name": "fresh mozzarella cheese",
+      "quantity": "0.45 kg",
+      "prep": "torn into small bite-size pieces"
     },
     {
       "ingredient_id": 28,
@@ -141,6 +146,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the grape tomatoes. Finely chop the shallot. Thinly slice the garlic. Cut the Genoa salami slices into 1/2-inch-thick strips. Tear the fresh mozzarella cheese into small bite-size pieces.",
+      "secondary_message": "2 cups grape tomatoes\n1 large shallot\n5 medium cloves garlic\n170 g Genoa salami slices, divided\n0.45 kg fresh mozzarella cheese"
+    },
     {
       "id": 1,
       "primary_message": "Working directly over the flame of a gas burner or under a broiler, cook the red bell peppers, turning occasionally, until deeply charred all over, about 10 minutes. Transfer to a heatproof bowl, cover with plastic, and let stand 5 minutes. Place in a medium bowl and cover with plastic wrap. Let stand at room temperature until cool enough to handle, about 15 minutes. Peel charred skin from bell peppers; discard skin and seeds. Slice peppers into 0.5-cm strips.",

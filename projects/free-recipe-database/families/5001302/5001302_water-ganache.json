@@ -64,21 +64,30 @@
     },
     {
       "ingredient_id": 1729,
-      "name": "dark chocolate, 60 to 70% cacao, finely chopped",
-      "quantity": "1 ¼ lb"
+      "name": "dark chocolate, 60 to 70% cacao",
+      "quantity": "1 ¼ lb",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1729,
-      "name": "dark chocolate, 60 to 70% cacao, finely chopped",
-      "quantity": "10 oz"
+      "name": "dark chocolate, 60 to 70% cacao",
+      "quantity": "10 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 333,
-      "name": "unsweetened cocoa powder, sifted",
-      "quantity": "12 oz"
+      "name": "unsweetened cocoa powder",
+      "quantity": "12 oz",
+      "prep": "sifted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the dark chocolate. Finely chop the dark chocolate. Sift the unsweetened cocoa powder.",
+      "secondary_message": "1 ¼ lb dark chocolate, 60 to 70% cacao\n10 oz dark chocolate, 60 to 70% cacao\n12 oz unsweetened cocoa powder"
+    },
     {
       "id": 1,
       "primary_message": "Line a 9- by 13-inch rimmed baking sheet with parchment; set aside.",

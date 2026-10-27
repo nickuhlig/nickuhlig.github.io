@@ -45,13 +45,15 @@
     },
     {
       "ingredient_id": 1514,
-      "name": "coriander seed, toasted and ground",
-      "quantity": "1 ½ tbsp"
+      "name": "coriander seed",
+      "quantity": "1 ½ tbsp",
+      "prep": "toasted and ground"
     },
     {
       "ingredient_id": 2321,
-      "name": "fenugreek seed, toasted and ground",
-      "quantity": "1 tsp"
+      "name": "fenugreek seed",
+      "quantity": "1 tsp",
+      "prep": "toasted and ground"
     },
     {
       "ingredient_id": 83,
@@ -60,8 +62,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, finely diced or grated",
-      "quantity": "2 medium"
+      "name": "onions",
+      "quantity": "2 medium",
+      "prep": "finely diced or grated"
     },
     {
       "ingredient_id": 260,
@@ -75,26 +78,36 @@
     },
     {
       "ingredient_id": 291,
-      "name": "green bell peppers, cut into thin strips",
-      "quantity": "2 large"
+      "name": "green bell peppers",
+      "quantity": "2 large",
+      "prep": "cut into thin strips"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell peppers, cut into thin strips",
-      "quantity": "2 large"
+      "name": "red bell peppers",
+      "quantity": "2 large",
+      "prep": "cut into thin strips"
     },
     {
       "ingredient_id": 1851,
-      "name": "dried fenugreek leaves, crumbled",
-      "quantity": "1 tbsp"
+      "name": "dried fenugreek leaves",
+      "quantity": "1 tbsp",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 228,
-      "name": "lime, juiced, to taste",
-      "quantity": "1"
+      "name": "lime, to taste",
+      "quantity": "1",
+      "prep": "juiced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Toast and grind the coriander seed. Toast and grind the fenugreek seed. Finely dice or grate the onions. Cut the green bell peppers into thin strips. Cut the red bell peppers into thin strips. Crumble the dried fenugreek leaves. Juice the lime.",
+      "secondary_message": "1 ½ tbsp coriander seed\n1 tsp fenugreek seed\n2 medium onions\n2 large green bell peppers\n2 large red bell peppers\n1 tbsp dried fenugreek leaves\n1 lime, to taste"
+    },
     {
       "id": 1,
       "primary_message": "In 3-quart saucepan, melt 3 tablespoons of ghee on medium heat. Add asafoetida, coriander, fenugreek seed, and paprika. Stir and cook for thirty seconds.",

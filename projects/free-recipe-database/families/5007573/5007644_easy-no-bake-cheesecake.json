@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "71 g"
+      "name": "unsalted butter",
+      "quantity": "71 g",
+      "prep": "melted"
     },
     {
       "ingredient_id": 88,
@@ -97,11 +98,18 @@
     },
     {
       "ingredient_id": 3116,
-      "name": "fresh fruit, washed and dried",
-      "quantity": "340 g"
+      "name": "fresh fruit",
+      "quantity": "340 g",
+      "prep": "washed and dried"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Wash and dry the fresh fruit.",
+      "secondary_message": "71 g unsalted butter\n340 g fresh fruit"
+    },
     {
       "id": 1,
       "primary_message": "For the Crust: Combine cookie crumbs and melted butter in a small bowl, then stir in a pinch of salt to taste. Sprinkle into a 23-cm tart pan or pie plate, spread into an even layer, then compress firmly with a flat-bottomed drinking glass or measuring cup; this will naturally push the crumbs up the sides of the pan. Keep pressing until the crumbs are in a compact, even layer across the bottom and sides of the pan. Refrigerate until needed. (The crust can be made and held for a day or two if wrapped in plastic.)",

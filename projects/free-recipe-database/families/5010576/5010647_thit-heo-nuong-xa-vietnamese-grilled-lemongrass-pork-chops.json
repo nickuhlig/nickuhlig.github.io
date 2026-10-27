@@ -58,13 +58,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, roughly chopped",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1820,
@@ -103,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the shallot. Roughly chop the garlic.",
+      "secondary_message": "1 small shallot\n4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Pork: If using whole white peppercorns, crush with salt in a mortar and pestle until roughly crushed. Add salt, lemongrass, shallot, garlic, palm sugar, and pre-ground white pepper (if using) to mortar and crush to a rough paste. You can continue crushing by hand at this point or transfer to a food processor to finish the job.",

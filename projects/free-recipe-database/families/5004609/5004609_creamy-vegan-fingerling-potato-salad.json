@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 1897,
-      "name": "fingerling potatoes, cut into 1/2-inch disks",
-      "quantity": "1 ½ lb"
+      "name": "fingerling potatoes",
+      "quantity": "1 ½ lb",
+      "prep": "cut into 1/2-inch disks"
     },
     {
       "ingredient_id": 3064,
@@ -72,8 +73,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, 1 minced , 1 thinly sliced",
-      "quantity": "2 small"
+      "name": "shallots",
+      "quantity": "2 small",
+      "prep": "1 minced, 1 thinly sliced"
     },
     {
       "ingredient_id": 47,
@@ -82,13 +84,15 @@
     },
     {
       "ingredient_id": 15,
-      "name": "capers, rinsed, drained, and roughly chopped",
-      "quantity": "1 tbsp"
+      "name": "capers",
+      "quantity": "1 tbsp",
+      "prep": "rinsed, drained, and roughly chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, finely diced",
-      "quantity": "2 stalks"
+      "name": "celery",
+      "quantity": "2 stalks",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 1808,
@@ -97,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the fingerling potatoes into 1/2-inch disks. Mince 1 of the shallots and thinly slice the other 1. Rinse, drain, and roughly chop the capers. Finely dice the celery.",
+      "secondary_message": "1 ½ lb fingerling potatoes\n2 small shallots\n1 tbsp capers\n2 stalks celery"
+    },
     {
       "id": 1,
       "primary_message": "Place potatoes, 1 tablespoon salt, 1 tablespoon vinegar, and 3 cups tepid water in a medium saucepan. Bring to a boil over high heat, stirring occasionally until salt is dissolved. Reduce to a bare simmer and cook until potatoes are completely tender and show no resistance when poked with a paring knife or cake tester, about 17 minutes. Drain potatoes, reserving 1/2 cup of cooking liquid. Immediately toss potato pieces with 1/2 tablespoon vinegar and set aside.",

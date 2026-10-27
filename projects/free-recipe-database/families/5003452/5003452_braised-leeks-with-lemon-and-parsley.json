@@ -74,8 +74,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cubed",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 106,
@@ -94,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cube the unsalted butter.",
+      "secondary_message": "2 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Trim leeks to remove root ends, tough or damaged outer layers, and dark green top parts; reserve trimmings for stock if desired. Cut leeks in half lengthwise, then rinse each leek half under cold, running water, gently fanning layers open while being careful to keep leek halves intact, to wash away any sand or grit. Pat dry.",

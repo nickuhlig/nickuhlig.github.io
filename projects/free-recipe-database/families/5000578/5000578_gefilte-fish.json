@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 1720,
-      "name": "celery rib, thinly sliced crosswise",
-      "quantity": "1 large"
+      "name": "celery rib",
+      "quantity": "1 large",
+      "prep": "thinly sliced crosswise"
     },
     {
       "ingredient_id": 470,
@@ -100,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the celery rib crosswise.",
+      "secondary_message": "1 large celery rib"
+    },
     {
       "id": 1,
       "primary_message": "Inspect fish heads and bone cages, removing and discarding any remaining viscera and gills if necessary. Under cold running water, wash fish heads and bone cages well, using your fingers to work away traces of blood, especially inside the head and along the spine (it doesn't have to be perfect, but try to get what you can).",

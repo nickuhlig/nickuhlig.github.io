@@ -57,9 +57,10 @@
     },
     {
       "ingredient_id": 18,
-      "name": "eggplant, cut into 1/2-inch dice",
+      "name": "eggplant",
       "quantity": "⅓",
-      "weigh_as": "0.23 kg"
+      "weigh_as": "0.23 kg",
+      "prep": "cut into 1/2-inch dice"
     },
     {
       "ingredient_id": 24,
@@ -78,8 +79,9 @@
     },
     {
       "ingredient_id": 2216,
-      "name": "ripe cherry, cut into 1/2-inch pieces",
-      "quantity": "225 g"
+      "name": "ripe cherry",
+      "quantity": "225 g",
+      "prep": "cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 1008,
@@ -93,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the eggplant into 1/2-inch dice. Cut the ripe cherry into 1/2-inch pieces.",
+      "secondary_message": "⅓ eggplant\n225 g ripe cherry"
+    },
     {
       "id": 1,
       "primary_message": "Fill a small pot with salted water and bring to a boil.",

@@ -71,8 +71,9 @@
     },
     {
       "ingredient_id": 1762,
-      "name": "Thai chiles, finely chopped",
-      "quantity": "1 to 2 small"
+      "name": "Thai chiles",
+      "quantity": "1 to 2 small",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2550,
@@ -81,8 +82,9 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, finely sliced",
-      "quantity": "1 small"
+      "name": "red onion",
+      "quantity": "1 small",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 236,
@@ -111,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the Thai chiles. Finely slice the red onion.",
+      "secondary_message": "1 to 2 small Thai chiles\n1 small red onion"
+    },
     {
       "id": 1,
       "primary_message": "To Make the Dressing: Whisk together lime juice, fish sauce, sesame oil, sugar, and chile in a small bowl. Set aside.",

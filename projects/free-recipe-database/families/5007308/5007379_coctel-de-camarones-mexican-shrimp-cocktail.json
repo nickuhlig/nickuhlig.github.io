@@ -42,8 +42,9 @@
   "ingredients": [
     {
       "ingredient_id": 1811,
-      "name": "shrimp, shelled and deveined",
-      "quantity": "0.79 kg"
+      "name": "shrimp",
+      "quantity": "0.79 kg",
+      "prep": "shelled and deveined"
     },
     {
       "ingredient_id": 88,
@@ -87,11 +88,18 @@
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño pepper, stemmed, seeded, and finely diced",
-      "quantity": "1"
+      "name": "jalapeño pepper",
+      "quantity": "1",
+      "prep": "stemmed, seeded, and finely diced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shell and devein the shrimp. Stem, seed, and finely dice the jalapeño pepper.",
+      "secondary_message": "0.79 kg shrimp\n1 jalapeño pepper"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, toss shrimp with 1 teaspoon kosher salt and baking soda until evenly coated. Transfer to refrigerator for 15 minutes.",

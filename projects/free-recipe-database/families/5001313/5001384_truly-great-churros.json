@@ -62,8 +62,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 1/2-inch cubes",
-      "quantity": "12 tbsp"
+      "name": "unsalted butter",
+      "quantity": "12 tbsp",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 346,
@@ -77,8 +78,9 @@
     },
     {
       "ingredient_id": 116,
-      "name": "all-purpose flour, sifted",
-      "quantity": "255 g"
+      "name": "all-purpose flour",
+      "quantity": "255 g",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 121,
@@ -92,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into 1/2-inch cubes. Sift the all-purpose flour.",
+      "secondary_message": "12 tbsp unsalted butter\n255 g all-purpose flour"
+    },
     {
       "id": 1,
       "primary_message": "In a 3-quart stainless-steel saucier or saucepan, combine water (or milk), butter, sugar, and salt.",

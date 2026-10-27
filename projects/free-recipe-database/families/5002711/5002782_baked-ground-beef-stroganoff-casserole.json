@@ -83,13 +83,15 @@
     },
     {
       "ingredient_id": 19,
-      "name": "button mushrooms, quartered",
-      "quantity": "0.45 kg"
+      "name": "button mushrooms",
+      "quantity": "0.45 kg",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, finely chopped",
-      "quantity": "2 medium"
+      "name": "shallots",
+      "quantity": "2 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 115,
@@ -148,8 +150,9 @@
     },
     {
       "ingredient_id": 120,
-      "name": "Parmesan cheese, grated",
-      "quantity": "28 g"
+      "name": "Parmesan cheese",
+      "quantity": "28 g",
+      "prep": "grated"
     },
     {
       "ingredient_id": 106,
@@ -158,6 +161,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Quarter the button mushrooms. Finely chop the shallots. Grate the Parmesan cheese.",
+      "secondary_message": "0.45 kg button mushrooms\n2 medium shallots\n28 g Parmesan cheese"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 205°C (400°F). Grease a 13- by 23-cm baking dish with butter; set aside.",

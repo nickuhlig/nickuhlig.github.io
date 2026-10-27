@@ -65,8 +65,9 @@
     },
     {
       "ingredient_id": 1082,
-      "name": "cinnamon stick, broken in half",
-      "quantity": "1"
+      "name": "cinnamon stick",
+      "quantity": "1",
+      "prep": "broken in half"
     },
     {
       "ingredient_id": 1757,
@@ -75,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Break the cinnamon stick in half.",
+      "secondary_message": "1 cinnamon stick"
+    },
     {
       "id": 1,
       "primary_message": "Prepare a small boiling water bath canner and 2 regular mouth pint jars. Place lids in a small saucepan and bring to a low simmer.",

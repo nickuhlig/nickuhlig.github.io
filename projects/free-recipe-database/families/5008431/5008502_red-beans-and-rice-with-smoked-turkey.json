@@ -43,8 +43,9 @@
   "ingredients": [
     {
       "ingredient_id": 93,
-      "name": "red kidney beans, rinsed and sorted",
-      "quantity": "0.45 kg"
+      "name": "red kidney beans",
+      "quantity": "0.45 kg",
+      "prep": "rinsed and sorted"
     },
     {
       "ingredient_id": 88,
@@ -63,28 +64,33 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 291,
-      "name": "green bell pepper, finely chopped",
-      "quantity": "1"
+      "name": "green bell pepper",
+      "quantity": "1",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, finely chopped",
-      "quantity": "2 ribs"
+      "name": "celery",
+      "quantity": "2 ribs",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "6 cloves"
+      "name": "garlic",
+      "quantity": "6 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño pepper, minced",
-      "quantity": "1"
+      "name": "jalapeño pepper",
+      "quantity": "1",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1677,
@@ -133,6 +139,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse and sort the red kidney beans. Finely chop the onion. Finely chop the green bell pepper. Finely chop the celery. Mince the garlic. Mince the jalapeño pepper.",
+      "secondary_message": "0.45 kg red kidney beans\n1 large onion\n1 green bell pepper\n2 ribs celery\n6 cloves garlic\n1 jalapeño pepper"
+    },
     {
       "id": 1,
       "primary_message": "For the Beans: In a large pot or container, combine beans, salt, and water and stir until salt dissolves. Cover and let soak for 8 to 12 hours. Drain soaked beans.",

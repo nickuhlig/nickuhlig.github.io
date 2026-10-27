@@ -36,13 +36,15 @@
   "ingredients": [
     {
       "ingredient_id": 159,
-      "name": "carrot, cut into fine matchsticks",
-      "quantity": "1 medium"
+      "name": "carrot",
+      "quantity": "1 medium",
+      "prep": "cut into fine matchsticks"
     },
     {
       "ingredient_id": 2196,
-      "name": "daikon radish, cut into fine matchsticks",
-      "quantity": "1 small"
+      "name": "daikon radish",
+      "quantity": "1 small",
+      "prep": "cut into fine matchsticks"
     },
     {
       "ingredient_id": 346,
@@ -66,8 +68,9 @@
     },
     {
       "ingredient_id": 302,
-      "name": "bacon, cut in half crosswise",
-      "quantity": "3 strips"
+      "name": "bacon",
+      "quantity": "3 strips",
+      "prep": "cut in half crosswise"
     },
     {
       "ingredient_id": 121,
@@ -101,8 +104,9 @@
     },
     {
       "ingredient_id": 1762,
-      "name": "Thai bird chile, finely sliced",
-      "quantity": "1"
+      "name": "Thai bird chile",
+      "quantity": "1",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 88,
@@ -116,6 +120,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the carrot into fine matchsticks. Cut the daikon radish into fine matchsticks. Cut the bacon in half crosswise. Finely slice the Thai bird chile.",
+      "secondary_message": "1 medium carrot\n1 small daikon radish\n3 strips bacon\n1 Thai bird chile"
+    },
     {
       "id": 1,
       "primary_message": "To Make the Pickled Carrots and Daikon: combine carrots, daikon, salt, and sugar in a small bowl and toss to coat. Allow to rest 10 minutes until liquid has been drawn out of vegetables and salt and sugar are completely dissolved. Add vinegar and water and transfer to small, sealable container. Let sit at room temperature for 1 hour, or for best results, allow pickled to rest for at least 3 days in the refrigerator.",

@@ -62,8 +62,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "0.45 kg"
+      "name": "unsalted butter",
+      "quantity": "0.45 kg",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -77,6 +78,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature.",
+      "secondary_message": "0.45 kg unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to upper middle position and preheat oven to 175°C (350°F). Butter an 20-cm springform pan. In a small bowl, whisk together flour and salt; set aside. In the bowl of a food processor, process butter until light and fluffy, about 3 minutes. Add sugar and pulse for 1 minute. Add flour mixture and pulse just until dough comes together.",

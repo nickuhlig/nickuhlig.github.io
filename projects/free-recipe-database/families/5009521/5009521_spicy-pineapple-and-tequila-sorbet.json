@@ -48,8 +48,9 @@
   "ingredients": [
     {
       "ingredient_id": 2334,
-      "name": "peeled, cored, and cut pineapple",
-      "quantity": "2 lb"
+      "name": "peeled",
+      "quantity": "2 lb",
+      "prep": "cored, and cut pineapple"
     },
     {
       "ingredient_id": 88,
@@ -73,11 +74,18 @@
     },
     {
       "ingredient_id": 228,
-      "name": "lime, juiced",
-      "quantity": "1"
+      "name": "lime",
+      "quantity": "1",
+      "prep": "juiced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Core and cut the peeled pineapple. Juice the lime.",
+      "secondary_message": "2 lb peeled\n1 lime"
+    },
     {
       "id": 1,
       "primary_message": "If pineapple is not perfectly ripe, toss with salt in a glass baking dish. Bake in an oven heated to 450°F for 1 to 2 minutes, or until pineapple is sweet and aromatic. Do not overbake or pineapple will develop cooked flavors.",

@@ -58,13 +58,15 @@
     },
     {
       "ingredient_id": 1850,
-      "name": "green chiles, halved lengthwise",
-      "quantity": "3 small"
+      "name": "green chiles",
+      "quantity": "3 small",
+      "prep": "halved lengthwise"
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, thinly sliced",
-      "quantity": "2 small"
+      "name": "shallots",
+      "quantity": "2 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 90,
@@ -93,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the green chiles lengthwise. Thinly slice the shallots.",
+      "secondary_message": "3 small green chiles\n2 small shallots"
+    },
     {
       "id": 1,
       "primary_message": "In a large saucepan, heat oil over medium-high heat until shimmering. Add mustard seeds, then immediately reduce heat to medium and add curry leaves and cook, stirring frequently, until fragrant about 15 seconds. Add chiles and stir until fragrant, about 15 seconds.",

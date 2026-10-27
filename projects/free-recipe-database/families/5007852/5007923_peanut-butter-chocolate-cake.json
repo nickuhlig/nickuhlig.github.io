@@ -49,8 +49,9 @@
   "ingredients": [
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "57 g"
+      "name": "bittersweet chocolate",
+      "quantity": "57 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2526,
@@ -144,8 +145,9 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "340 g"
+      "name": "bittersweet chocolate",
+      "quantity": "340 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1752,
@@ -159,6 +161,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the bittersweet chocolate. Finely chop the bittersweet chocolate.",
+      "secondary_message": "57 g bittersweet chocolate\n340 g bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Adjust oven rack to middle position and preheat oven to 180°C (350°F). Grease two 23-cm round cake pans and line bottoms with parchment paper.",

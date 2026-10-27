@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 1935,
@@ -101,8 +102,9 @@
     },
     {
       "ingredient_id": 3032,
-      "name": "Chinese fish balls, cut in half",
-      "quantity": "4"
+      "name": "Chinese fish balls",
+      "quantity": "4",
+      "prep": "cut in half"
     },
     {
       "ingredient_id": 326,
@@ -126,6 +128,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the garlic. Cut the Chinese fish balls in half.",
+      "secondary_message": "2 cloves garlic\n4 Chinese fish balls"
+    },
     {
       "id": 1,
       "primary_message": "Combine shrimp, baking soda, 1 teaspoon oil, 1/4 teaspoon white pepper, and 1/4 teaspoon salt in a small bowl. Cover with cold water, stir to combine, and set aside.",

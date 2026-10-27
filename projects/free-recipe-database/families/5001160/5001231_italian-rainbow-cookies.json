@@ -78,8 +78,9 @@
     },
     {
       "ingredient_id": 2677,
-      "name": "almond paste, cut into 1-inch pieces",
-      "quantity": "227 g"
+      "name": "almond paste",
+      "quantity": "227 g",
+      "prep": "cut into 1-inch pieces"
     },
     {
       "ingredient_id": 115,
@@ -88,8 +89,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, room temperature",
-      "quantity": "6 large"
+      "name": "eggs",
+      "quantity": "6 large",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 353,
@@ -118,6 +120,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the almond paste into 1-inch pieces. Bring the eggs to room temperature.",
+      "secondary_message": "227 g almond paste\n6 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and heat oven to 350℉ (175℃). Grease 13 by 23-cm baking pan with nonstick cooking spray. Make parchment paper sling by folding 1 long sheet of parchment 33 cm wide and laying across width of pan, with extra parchment hanging over edges of pan. Push parchment into corners and up sides of pan, smoothing parchment flush to pan. Grease parchment with nonstick cooking spray.",

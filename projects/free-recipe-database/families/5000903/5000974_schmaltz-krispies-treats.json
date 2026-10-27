@@ -40,8 +40,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely diced",
-      "quantity": "1 large"
+      "name": "yellow onion",
+      "quantity": "1 large",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 1939,
@@ -70,6 +71,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the yellow onion.",
+      "secondary_message": "1 large yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "Using a very sharp knife or good kitchen shears, cut chicken skin and fat into roughly 0.5 to 1.5-cm pieces (if using a knife, it helps to freeze the skin and fat for 30 minutes before cutting).",

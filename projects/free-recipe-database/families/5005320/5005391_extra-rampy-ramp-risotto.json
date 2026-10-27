@@ -59,8 +59,9 @@
     },
     {
       "ingredient_id": 2275,
-      "name": "ramps, rinsed and trimmed",
-      "quantity": "24"
+      "name": "ramps",
+      "quantity": "24",
+      "prep": "rinsed and trimmed"
     },
     {
       "ingredient_id": 115,
@@ -104,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse and trim the ramps.",
+      "secondary_message": "24 ramps"
+    },
     {
       "id": 1,
       "primary_message": "Bring a large pot of water to a boil. Meanwhile, combine ricotta with half of chives and half of parsley in a small bowl. Season to taste with salt and pepper. Refrigerate until ready to serve.",

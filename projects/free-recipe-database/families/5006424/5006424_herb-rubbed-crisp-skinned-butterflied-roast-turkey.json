@@ -72,13 +72,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, thinly sliced",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 115,
-      "name": "butter, cut into 1/4-inch slices",
-      "quantity": "1 stick"
+      "name": "butter",
+      "quantity": "1 stick",
+      "prep": "cut into 1/4-inch slices"
     },
     {
       "ingredient_id": 88,
@@ -92,11 +94,18 @@
     },
     {
       "ingredient_id": 2555,
-      "name": "whole turkey, butterflied and brined",
-      "quantity": "1"
+      "name": "whole turkey",
+      "quantity": "1",
+      "prep": "butterflied and brined"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the shallot. Cut the butter into 1/4-inch slices. Butterfly and brine the whole turkey.",
+      "secondary_message": "1 medium shallot\n1 stick butter\n1 whole turkey"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 450°F. Line a rimmed baking sheet or broiler pan with aluminum foil. Place slotted broiler rack or wire rack on top.",

@@ -32,13 +32,15 @@
   "ingredients": [
     {
       "ingredient_id": 1980,
-      "name": "cucumber, cut into rough chunks",
-      "quantity": "1 medium"
+      "name": "cucumber",
+      "quantity": "1 medium",
+      "prep": "cut into rough chunks"
     },
     {
       "ingredient_id": 1816,
-      "name": "lemongrass, bottom 4 inches only, roughly chopped",
-      "quantity": "2 stalks"
+      "name": "lemongrass, bottom 4 inches only",
+      "quantity": "2 stalks",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1746,
@@ -72,6 +74,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cucumber into rough chunks. Roughly chop the lemongrass.",
+      "secondary_message": "1 medium cucumber\n2 stalks lemongrass, bottom 4 inches only"
+    },
     {
       "id": 1,
       "primary_message": "Combine cucumbers, lemongrass, basil, lemon juice, sugar, and salt in a blender. Blend on high speed until smooth, about 1 minute. Strain through a fine mesh strainer into a pitcher. Discard solids. Add cold water and whisk to combine. Add ice. Serve in ice-filled glasses garnished with cucumber slices and basil leaves.",

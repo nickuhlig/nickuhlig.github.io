@@ -63,23 +63,27 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and cut into 1/2-inch chunks",
-      "quantity": "2 small"
+      "name": "carrots",
+      "quantity": "2 small",
+      "prep": "peeled and cut into 1/2-inch chunks"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, cut into 1/4-inch slices",
-      "quantity": "2 small stalks"
+      "name": "celery",
+      "quantity": "2 small stalks",
+      "prep": "cut into 1/4-inch slices"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely diced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "6 medium cloves"
+      "name": "garlic",
+      "quantity": "6 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 282,
@@ -163,6 +167,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the carrots into 1/2-inch chunks. Cut the celery into 1/4-inch slices. Finely dice the onion. Thinly slice the garlic.",
+      "secondary_message": "2 small carrots\n2 small stalks celery\n1 medium onion\n6 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Lentils: Adjust oven rack to center position and preheat oven to 450°F to prepare for roasting eggplant. Meanwhile, heat 2 tablespoons olive oil in a medium saucepan over medium heat until shimmering. Add carrots, celery, and onion and cook, stirring, until softened but not browned, about 4 minutes. Add garlic and cook, stirring, until fragrant, about 30 seconds. Add lentils, bay leaves, stock or water, and a pinch of salt. Bring to a simmer, cover with the lid partially ajar, and cook until lentils are tender, about 30 minutes. (Top up with water if lentils are at any point not fully submerged.) Remove lid, stir in vinegar, and reduce until lentils are moist but not soupy. Season to taste with salt and pepper, cover, and keep warm until ready to serve.",

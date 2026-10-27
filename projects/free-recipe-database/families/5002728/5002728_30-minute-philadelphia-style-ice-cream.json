@@ -40,13 +40,15 @@
   "ingredients": [
     {
       "ingredient_id": 1752,
-      "name": "heavy cream, chilled",
-      "quantity": "2 cups"
+      "name": "heavy cream",
+      "quantity": "2 cups",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 118,
-      "name": "whole milk, chilled",
-      "quantity": "1 cup"
+      "name": "whole milk",
+      "quantity": "1 cup",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 346,
@@ -70,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the heavy cream cold until you use it. Keep the whole milk cold until you use it.",
+      "secondary_message": "2 cups heavy cream\n1 cup whole milk"
+    },
     {
       "id": 1,
       "primary_message": "In a large mixing bowl, whisk all ingredients together until sugar completely dissolves. Churn mixture according to manufacturer's instructions. Serve right away as soft serve or transfer to an airtight container and harden in freezer for 4 to 5 hours. (Freezing in several smaller containers will greatly reduce hardening time.)",

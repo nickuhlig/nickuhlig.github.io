@@ -92,8 +92,9 @@
     },
     {
       "ingredient_id": 3642,
-      "name": "egg whites, at room temperature",
-      "quantity": "4 large"
+      "name": "egg whites",
+      "quantity": "4 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -107,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the egg whites to room temperature.",
+      "secondary_message": "4 large egg whites"
+    },
     {
       "id": 1,
       "primary_message": "Line a 9- by 4-inch loaf pan with plastic wrap. In the bowl of a stand mixer fitted with the whisk attachment, combine heavy cream, sugar, and salt. Whip on medium-high speed until medium-stiff peaks form, about 2 minutes. (Alternatively, combine cream, sugar, and salt in a large mixing bowl. Using a hand mixer fitted with the whisk attachment, beat on medium speed until medium stiff peaks form, about 3 minutes.)",

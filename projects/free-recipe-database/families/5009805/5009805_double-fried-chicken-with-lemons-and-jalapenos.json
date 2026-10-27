@@ -34,8 +34,9 @@
   "ingredients": [
     {
       "ingredient_id": 1230,
-      "name": "whole large chicken, cut into 8 pieces",
-      "quantity": "1"
+      "name": "whole large chicken",
+      "quantity": "1",
+      "prep": "cut into 8 pieces"
     },
     {
       "ingredient_id": 2475,
@@ -79,13 +80,15 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, very thinly sliced and seeds removed",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "very thinly sliced and seeds removed"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapenos, sliced into 1/2” coins",
-      "quantity": "2"
+      "name": "jalapenos",
+      "quantity": "2",
+      "prep": "sliced into 1/2” coins"
     },
     {
       "ingredient_id": 88,
@@ -94,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the whole large chicken into 8 pieces. Very thinly slice the lemon, then remove the seeds. Slice the jalapenos into 1/2” coins.",
+      "secondary_message": "1 whole large chicken\n1 lemon\n2 jalapenos"
+    },
     {
       "id": 1,
       "primary_message": "Place chicken pieces, buttermilk, 1 1/2 tablespoons Old Bay, Tabasco and Worcestershire in a resealable bag. Seal tightly and shake to combine. Refrigerate at least eight hours and up to 12 hours.",

@@ -46,13 +46,15 @@
   "ingredients": [
     {
       "ingredient_id": 2442,
-      "name": "70% bittersweet chocolate, finely chopped",
-      "quantity": "8 oz"
+      "name": "70% bittersweet chocolate",
+      "quantity": "8 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into cubes",
-      "quantity": "12 tbsp (6 oz)"
+      "name": "unsalted butter",
+      "quantity": "12 tbsp (6 oz)",
+      "prep": "cut into cubes"
     },
     {
       "ingredient_id": 121,
@@ -71,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the 70% bittersweet chocolate. Cut the unsalted butter into cubes.",
+      "secondary_message": "8 oz 70% bittersweet chocolate\n12 tbsp (6 oz) unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 375°F. Butter seven 4-ounce ramekins (see notes).",

@@ -33,8 +33,9 @@
   "ingredients": [
     {
       "ingredient_id": 1480,
-      "name": "lemon juice, chilled",
-      "quantity": "1 cup"
+      "name": "lemon juice",
+      "quantity": "1 cup",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 2346,
@@ -43,8 +44,9 @@
     },
     {
       "ingredient_id": 359,
-      "name": "water, chilled",
-      "quantity": "1 ½ cups"
+      "name": "water",
+      "quantity": "1 ½ cups",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 2240,
@@ -63,6 +65,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the lemon juice cold until you use it. Keep the water cold until you use it.",
+      "secondary_message": "1 cup lemon juice\n1 ½ cups water"
+    },
     {
       "id": 1,
       "primary_message": "Whisk all ingredients except salt together in a bowl until thoroughly combined. Add salt to taste. If water and lemon juice are not chilled, chill in refrigerator until cold.",

@@ -44,8 +44,9 @@
     },
     {
       "ingredient_id": 2244,
-      "name": "makrut lime leaves, slightly bruised in your palm",
-      "quantity": "12"
+      "name": "makrut lime leaves",
+      "quantity": "12",
+      "prep": "slightly bruised in your palm"
     },
     {
       "ingredient_id": 1084,
@@ -69,6 +70,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slightly bruise the makrut lime leaves in your palm.",
+      "secondary_message": "12 makrut lime leaves"
+    },
     {
       "id": 1,
       "primary_message": "Put the coconut water, makrut lime leaves, and a tiny pinch of salt in a saucepan and bring to a bare simmer over medium heat, uncovered. Take your time with this and start with cold ingredients—more aromatic flavors will be extracted that way.",

@@ -98,8 +98,9 @@
     },
     {
       "ingredient_id": 2628,
-      "name": "Hog casing, soaked and rinsed",
-      "quantity": ""
+      "name": "Hog casing",
+      "quantity": "",
+      "prep": "soaked and rinsed"
     },
     {
       "ingredient_id": 1840,
@@ -113,6 +114,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soak and rinse the Hog casing.",
+      "secondary_message": "Hog casing"
+    },
     {
       "id": 1,
       "primary_message": "Combine turkey and salt in a large bowl and toss until evenly coated. Transfer to an airtight container and refrigerate at least 1 night and up to 2 days. Meanwhile, bring a medium pot of water to a boil over high heat. Add salt pork and onion and cook until translucent, about 2 minutes. Drain, rinse under cold water, and place in freezer until ready to use.",

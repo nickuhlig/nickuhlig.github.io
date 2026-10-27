@@ -38,28 +38,33 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, diced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, chopped",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 265,
-      "name": "yellow bell pepper, diced",
-      "quantity": "1 medium"
+      "name": "yellow bell pepper",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell pepper, diced",
-      "quantity": "1 medium"
+      "name": "red bell pepper",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 291,
-      "name": "green bell pepper, diced",
-      "quantity": "1 medium"
+      "name": "green bell pepper",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 2708,
@@ -93,6 +98,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the yellow onion. Chop the garlic. Dice the yellow bell pepper. Dice the red bell pepper. Dice the green bell pepper.",
+      "secondary_message": "1 medium yellow onion\n3 medium cloves garlic\n1 medium yellow bell pepper\n1 medium red bell pepper\n1 medium green bell pepper"
+    },
     {
       "id": 1,
       "primary_message": "To make the piperade, heat 1 tablespoon olive oil in a sautépan over medium-low heat. When the oil shimmers, add onion. Cook, stirring frequently until translucent, about 5 minutes. Add the garlic, bell peppers, and 1/2 teaspoon piment d’Espelette. Cook, stirring frequently until fragrant, about 1 minute. Add the tomatoes and their juice, and season well with salt and pepper. Bring the mixture to a boil, then lower the heat all the way down, cover, and cook slowly for 2 hours, stirring every half hour or so.",

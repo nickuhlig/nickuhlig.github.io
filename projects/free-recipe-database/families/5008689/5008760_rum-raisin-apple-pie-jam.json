@@ -43,8 +43,9 @@
     },
     {
       "ingredient_id": 2334,
-      "name": "peeled, cored, and chopped Granny Smith apples",
-      "quantity": "6 cups"
+      "name": "peeled",
+      "quantity": "6 cups",
+      "prep": "cored, and chopped Granny Smith apples"
     },
     {
       "ingredient_id": 1080,
@@ -63,8 +64,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "zested"
     },
     {
       "ingredient_id": 2714,
@@ -93,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Core and chop the peeled Granny Smith apples. Zest the lemon.",
+      "secondary_message": "6 cups peeled\n1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "If you are going to preserve the jam, prepare the jars and lids: place 7 half-pint jars on rack in large pot. Add enough water to cover jars and bring to boil over high heat. Boil for 10 minutes, turn off the heat and allow jars to rest in hot water. Meanwhile, put rims and lids in small saucepan and cover with water. Heat over medium heat until water is simmering; remove pan from heat and allow rims and lids to rest in hot water.",

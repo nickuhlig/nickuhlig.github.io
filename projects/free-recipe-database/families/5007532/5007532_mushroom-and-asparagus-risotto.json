@@ -73,13 +73,15 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 53,
@@ -98,9 +100,10 @@
     },
     {
       "ingredient_id": 26,
-      "name": "trimmed asparagus, cut into 1-inch pieces",
+      "name": "trimmed asparagus",
       "quantity": "1 bunch",
-      "weigh_as": "1 lb"
+      "weigh_as": "1 lb",
+      "prep": "cut into 1-inch pieces"
     },
     {
       "ingredient_id": 120,
@@ -119,6 +122,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the yellow onion. Finely mince the garlic. Cut the trimmed asparagus into 1-inch pieces.",
+      "secondary_message": "1 medium yellow onion\n2 medium cloves garlic\n1 bunch trimmed asparagus"
+    },
     {
       "id": 1,
       "primary_message": "Place the chicken stock and dried mushrooms (if using) in a microwave-safe container and microwave on high power until simmering, about 5 minutes. Remove from microwave. Using a slotted spoon, transfer rehydrated mushrooms to a cutting board and roughly chop.",

@@ -38,18 +38,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely sliced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, diced",
-      "quantity": "1 stalk"
+      "name": "celery",
+      "quantity": "1 stalk",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "6 medium cloves"
+      "name": "garlic",
+      "quantity": "6 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 286,
@@ -68,13 +71,15 @@
     },
     {
       "ingredient_id": 91,
-      "name": "white beans, drained and rinsed",
-      "quantity": "1 (425 g) can"
+      "name": "white beans",
+      "quantity": "1 (425 g) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 1879,
-      "name": "spinach, trimmed and washed",
-      "quantity": "1 bunch"
+      "name": "spinach",
+      "quantity": "1 bunch",
+      "prep": "trimmed and washed"
     },
     {
       "ingredient_id": 1480,
@@ -93,6 +98,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely slice the onion. Dice the celery. Thinly slice the garlic. Drain and rinse the white beans. Trim and wash the spinach.",
+      "secondary_message": "1 medium onion\n1 stalk celery\n6 medium cloves garlic\n1 (425 g) can white beans\n1 bunch spinach"
+    },
     {
       "id": 1,
       "primary_message": "Heat 2 tablespoons oil in a medium saucepan over medium-high heat until shimmering. Add onions, celery, garlic, and rosemary. Cook, stirring frequently, until onions and garlic are softened but not browned, about 4 minutes. Add broth, bay leaves and beans. Bring to a boil, reduce to a bare simmer and cook for 10 minutes. Add spinach and continue cooking until completely wilted, about 5 minutes longer. Season to taste with salt and pepper. Stir in lemon juice. Serve immediately, drizzling remaining olive oil over bowls.",

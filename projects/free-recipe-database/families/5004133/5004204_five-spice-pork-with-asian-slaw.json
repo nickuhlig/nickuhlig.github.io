@@ -84,8 +84,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "green onions, finely sliced",
-      "quantity": "4"
+      "name": "green onions",
+      "quantity": "4",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 188,
@@ -99,11 +100,18 @@
     },
     {
       "ingredient_id": 1420,
-      "name": "salted roasted peanuts, roughly chopped",
-      "quantity": "½ cup"
+      "name": "salted roasted peanuts",
+      "quantity": "½ cup",
+      "prep": "roughly chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely slice the green onions. Roughly chop the salted roasted peanuts.",
+      "secondary_message": "4 green onions\n½ cup salted roasted peanuts"
+    },
     {
       "id": 1,
       "primary_message": "Arrange the oven rack in the center of the oven, and preheat the oven to 425 degrees F. Season the pork with salt, and coat in 1 tablespoon five-spice powder. Preheat oil in a heavy stainless steel skillet over medium-high heat until shimmering. Add pork and cook until first side is well-colored, about 4 minutes. Flip pork.",

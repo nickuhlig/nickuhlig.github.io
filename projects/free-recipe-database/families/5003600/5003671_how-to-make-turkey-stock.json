@@ -58,23 +58,27 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, cut into large dice",
-      "quantity": "2 to 3 large"
+      "name": "carrots",
+      "quantity": "2 to 3 large",
+      "prep": "cut into large dice"
     },
     {
       "ingredient_id": 1720,
-      "name": "celery ribs, cut into large dice",
-      "quantity": "3 large"
+      "name": "celery ribs",
+      "quantity": "3 large",
+      "prep": "cut into large dice"
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, cut into large dice",
-      "quantity": "2 large"
+      "name": "onions",
+      "quantity": "2 large",
+      "prep": "cut into large dice"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, crushed",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 323,
@@ -98,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the carrots into large dice. Cut the celery ribs into large dice. Cut the onions into large dice. Crush the garlic.",
+      "secondary_message": "2 to 3 large carrots\n3 large celery ribs\n2 large onions\n4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 230°C (450°F). Drizzle turkey bones with oil, tossing to lightly coat. Arrange on 2 foil-lined rimmed baking sheets and roast until browned all over, about 45 minutes. (Check turkey often, since browning times can vary depending on the size and condition of the bones.)",

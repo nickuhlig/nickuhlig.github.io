@@ -54,13 +54,15 @@
     },
     {
       "ingredient_id": 2016,
-      "name": "low-moisture mozzarella, sliced about 1/2 inch thick",
-      "quantity": "0.23 kg"
+      "name": "low-moisture mozzarella",
+      "quantity": "0.23 kg",
+      "prep": "sliced about 1/2 inch thick"
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 1189,
@@ -74,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the low-moisture mozzarella about 1/2 inch thick. Beat the eggs.",
+      "secondary_message": "0.23 kg low-moisture mozzarella\n2 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Preheat waffle iron. (Set it to medium if it has temperature controls.)",

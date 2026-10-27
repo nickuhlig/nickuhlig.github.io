@@ -69,11 +69,18 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "142 g"
+      "name": "bittersweet chocolate",
+      "quantity": "142 g",
+      "prep": "finely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the bittersweet chocolate.",
+      "secondary_message": "142 g bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "In medium saucepan, heat milk, sugar, salt, cinnamon, and cayenne over medium heat to simmer.",

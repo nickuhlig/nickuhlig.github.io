@@ -90,13 +90,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated on a microplane grater",
-      "quantity": "8 cloves"
+      "name": "garlic",
+      "quantity": "8 cloves",
+      "prep": "grated on a microplane grater"
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, grated on a microplane grater",
-      "quantity": "2 tbsp"
+      "name": "fresh ginger",
+      "quantity": "2 tbsp",
+      "prep": "grated on a microplane grater"
     },
     {
       "ingredient_id": 2744,
@@ -125,11 +127,18 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemons, cut into wedges",
-      "quantity": "2"
+      "name": "lemons",
+      "quantity": "2",
+      "prep": "cut into wedges"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the garlic on a microplane grater. Grate the fresh ginger on a microplane grater. Cut the lemons into wedges.",
+      "secondary_message": "8 cloves garlic\n2 tbsp fresh ginger\n2 lemons"
+    },
     {
       "id": 1,
       "primary_message": "Using sharp kitchen shears, remove the backs from the Cornish hens.",

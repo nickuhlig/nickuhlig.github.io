@@ -64,8 +64,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, thinly sliced",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 90,
@@ -79,13 +80,15 @@
     },
     {
       "ingredient_id": 18,
-      "name": "eggplant, diced",
-      "quantity": "1 large"
+      "name": "eggplant",
+      "quantity": "1 large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1541,
-      "name": "plum tomatoes, cored and roughly chopped",
-      "quantity": "8"
+      "name": "plum tomatoes",
+      "quantity": "8",
+      "prep": "cored and roughly chopped"
     },
     {
       "ingredient_id": 83,
@@ -99,11 +102,18 @@
     },
     {
       "ingredient_id": 1746,
-      "name": "picked basil leaves, chopped",
-      "quantity": "6 to 8"
+      "name": "picked basil leaves",
+      "quantity": "6 to 8",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the shallot. Dice the eggplant. Core and roughly chop the plum tomatoes. Chop the picked basil leaves.",
+      "secondary_message": "1 medium shallot\n1 large eggplant\n8 plum tomatoes\n6 to 8 picked basil leaves"
+    },
     {
       "id": 1,
       "primary_message": "Heat 1 1⁄4 cups of the broth in a 12-inch skillet over high heat until it reaches a boil. Stir in the couscous and season to taste with salt and pepper, reducing heat to bring it to a bare simmer. Cover, stirring occasionally, until the excess liquid is absorbed, about 8 to 10 minutes. Transfer to a bowl and set aside.",

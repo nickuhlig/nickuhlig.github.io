@@ -49,13 +49,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, halved",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "halved"
     },
     {
       "ingredient_id": 3303,
-      "name": "cooked juicy and tender italian-american meatballs in red sauce, warm",
-      "quantity": "1 recipe"
+      "name": "cooked juicy and tender italian-american meatballs in red sauce",
+      "quantity": "1 recipe",
+      "prep": "warm"
     },
     {
       "ingredient_id": 120,
@@ -64,11 +66,18 @@
     },
     {
       "ingredient_id": 107,
-      "name": "fresh mozzarella, sliced about 1/4 inch thick",
-      "quantity": "1 lb"
+      "name": "fresh mozzarella",
+      "quantity": "1 lb",
+      "prep": "sliced about 1/4 inch thick"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the garlic. Warm the cooked juicy and tender italian-american meatballs in red sauce. Slice the fresh mozzarella about 1/4 inch thick.",
+      "secondary_message": "1 medium clove garlic\n1 recipe cooked juicy and tender italian-american meatballs in red sauce\n1 lb fresh mozzarella"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 350°F. Warm rolls in oven, 5 to 10 minutes. Slice off and discard ends of each roll. Cut rolls in half lengthwise.",

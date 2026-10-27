@@ -50,8 +50,9 @@
   "ingredients": [
     {
       "ingredient_id": 2357,
-      "name": "alphonso mango pulp, frozen",
-      "quantity": "1 (35 oz) package"
+      "name": "alphonso mango pulp",
+      "quantity": "1 (35 oz) package",
+      "prep": "frozen"
     },
     {
       "ingredient_id": 1421,
@@ -80,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the alphonso mango pulp frozen until you use it.",
+      "secondary_message": "1 (35 oz) package alphonso mango pulp"
+    },
     {
       "id": 1,
       "primary_message": "If Using Frozen Mango Pulp: Remove frozen pulp from its packaging and, using a sharp chef's knife, cut it into roughly 2-inch chunks. Transfer frozen chunks to a high-powered blender or food processor along with the 1/4 cup lime juice and pulse until a smooth, sorbet-like puree forms; you may need to use your blender's tamper (if it has one) and/or stop to mix and scrape down the sides as needed to fully break up all the frozen chunks. If your blender or food processor is struggling, let the frozen puree stand until slightly softened to make processing easier, as you do not want to damage your equipment by forcing it beyond its capabilities.",

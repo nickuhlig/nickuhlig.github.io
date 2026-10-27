@@ -49,8 +49,9 @@
   "ingredients": [
     {
       "ingredient_id": 6,
-      "name": "boneless skinless salmon fillets, cut into 1-inch cubes",
-      "quantity": "0.57 kg"
+      "name": "boneless skinless salmon fillets",
+      "quantity": "0.57 kg",
+      "prep": "cut into 1-inch cubes"
     },
     {
       "ingredient_id": 184,
@@ -59,8 +60,9 @@
     },
     {
       "ingredient_id": 320,
-      "name": "fresh dill fronds, finely chopped",
-      "quantity": "½ cup"
+      "name": "fresh dill fronds",
+      "quantity": "½ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 103,
@@ -109,11 +111,18 @@
     },
     {
       "ingredient_id": 183,
-      "name": "ripe Hass avocado, sliced",
-      "quantity": "1"
+      "name": "ripe Hass avocado",
+      "quantity": "1",
+      "prep": "sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the boneless skinless salmon fillets into 1-inch cubes. Finely chop the fresh dill fronds. Slice the ripe Hass avocado.",
+      "secondary_message": "0.57 kg boneless skinless salmon fillets\n½ cup fresh dill fronds\n1 ripe Hass avocado"
+    },
     {
       "id": 1,
       "primary_message": "Place half of salmon in a food processor and pulse until finely chopped, about 10 short pulses. Transfer to a large bowl and repeat with remaining salmon. Alternatively, chop salmon by hand and transfer to a large bowl. Finely mince half of the onion and add to salmon. Thinly slice remaining half onion and set aside.",

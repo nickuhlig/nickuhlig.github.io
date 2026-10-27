@@ -76,8 +76,9 @@
     },
     {
       "ingredient_id": 2718,
-      "name": "boneless lamb shoulder, meat cut into 1-inch pieces",
-      "quantity": "2 lb"
+      "name": "boneless lamb shoulder",
+      "quantity": "2 lb",
+      "prep": "meat cut into 1-inch pieces"
     },
     {
       "ingredient_id": 1044,
@@ -91,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the meat of the boneless lamb shoulder into 1-inch pieces.",
+      "secondary_message": "2 lb boneless lamb shoulder"
+    },
     {
       "id": 1,
       "primary_message": "Submerge the bamboo skewers in a container of cold water and let them soak for at least 2 hours or even overnight.",

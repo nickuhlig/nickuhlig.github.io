@@ -69,8 +69,9 @@
     },
     {
       "ingredient_id": 302,
-      "name": "bacon, thinly sliced cross-wise",
-      "quantity": "6 slices"
+      "name": "bacon",
+      "quantity": "6 slices",
+      "prep": "thinly sliced cross-wise"
     },
     {
       "ingredient_id": 113,
@@ -94,8 +95,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "227 g"
+      "name": "cream cheese",
+      "quantity": "227 g",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1710,
@@ -109,6 +111,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the bacon cross-wise. Soften the cream cheese.",
+      "secondary_message": "6 slices bacon\n227 g cream cheese"
+    },
     {
       "id": 1,
       "primary_message": "For the Cinnamon Roll Waffles: Open package and separate cinnamon rolls. Flatten each dough round with fingers to 1.5-cm thickness.",

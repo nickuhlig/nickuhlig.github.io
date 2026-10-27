@@ -58,8 +58,9 @@
   "ingredients": [
     {
       "ingredient_id": 2792,
-      "name": "Concord grapes, stemmed",
-      "quantity": "0.45 kg"
+      "name": "Concord grapes",
+      "quantity": "0.45 kg",
+      "prep": "stemmed"
     },
     {
       "ingredient_id": 1480,
@@ -98,11 +99,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, chilled and cut into 1/4-inch pieces",
-      "quantity": "16 tbsp (8 oz)"
+      "name": "unsalted butter",
+      "quantity": "16 tbsp (8 oz)",
+      "prep": "chilled and cut into 1/4-inch pieces"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem the Concord grapes. Cut the unsalted butter into 1/4-inch pieces and keep it cold until you use it.",
+      "secondary_message": "0.45 kg Concord grapes\n16 tbsp (8 oz) unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Squeeze grapes between your fingers to separate the skins from the pulp. Place skins in bowl of food processor and pulse until roughly chopped, about 5 pulses. Place pulp in medium saucepan. Bring to boil over medium-high heat, then reduce heat to medium-low and simmer until the grapes lose their shape, about 10 minutes. Pour pulp through a fine mesh sieve into a large bowl. Use a paddle or large spoon to push pulp through sieve. Discard seeds.",

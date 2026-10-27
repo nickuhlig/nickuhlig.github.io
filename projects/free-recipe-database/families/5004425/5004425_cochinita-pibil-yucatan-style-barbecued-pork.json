@@ -123,8 +123,9 @@
     },
     {
       "ingredient_id": 2164,
-      "name": "boneless pork shoulder, cut into 2-inch-thick slabs",
-      "quantity": "4 lb"
+      "name": "boneless pork shoulder",
+      "quantity": "4 lb",
+      "prep": "cut into 2-inch-thick slabs"
     },
     {
       "ingredient_id": 2028,
@@ -133,18 +134,21 @@
     },
     {
       "ingredient_id": 1541,
-      "name": "Roma tomatoes, sliced",
-      "quantity": "2"
+      "name": "Roma tomatoes",
+      "quantity": "2",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 150,
-      "name": "red pepper, sliced",
-      "quantity": "1"
+      "name": "red pepper",
+      "quantity": "1",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, sliced",
-      "quantity": "1"
+      "name": "white onion",
+      "quantity": "1",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 1747,
@@ -168,6 +172,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the boneless pork shoulder into 2-inch-thick slabs. Slice the Roma tomatoes. Slice the red pepper. Slice the white onion.",
+      "secondary_message": "4 lb boneless pork shoulder\n2 Roma tomatoes\n1 red pepper\n1 white onion"
+    },
     {
       "id": 1,
       "primary_message": "Thread garlic cloves onto a metal skewer and grill directly over the flame of a gas grill until completely blackened on all sides, 3 to 4 minutes. Alternatively, toss in a dry skillet over high heat until blackened. Peel blackened skins when cool enough to handle.",

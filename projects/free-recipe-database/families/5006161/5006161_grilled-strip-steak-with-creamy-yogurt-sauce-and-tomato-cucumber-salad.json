@@ -38,13 +38,15 @@
     },
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, quartered",
-      "quantity": "½ lb"
+      "name": "cherry tomatoes",
+      "quantity": "½ lb",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 1980,
-      "name": "cucumber, seeded, cut into 3/4-inch chunks",
-      "quantity": "1"
+      "name": "cucumber",
+      "quantity": "1",
+      "prep": "seeded, cut into 3/4-inch chunks"
     },
     {
       "ingredient_id": 88,
@@ -83,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Quarter the cherry tomatoes. Seed and cut the cucumber into 3/4-inch chunks.",
+      "secondary_message": "½ lb cherry tomatoes\n1 cucumber"
+    },
     {
       "id": 1,
       "primary_message": "Split each steak in half crosswise to form four 8-ounce steaks. Carefully press dry with paper towels and set aside on a plate. Combine tomatoes and cucumbers in a colander and season with salt and pepper. Set in sink or bowl to drain while you prepare the yogurt sauce.",

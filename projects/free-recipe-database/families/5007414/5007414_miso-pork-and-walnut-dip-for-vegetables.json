@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 272,
-      "name": "walnuts, toasted",
-      "quantity": "¼ cup"
+      "name": "walnuts",
+      "quantity": "¼ cup",
+      "prep": "toasted"
     },
     {
       "ingredient_id": 418,
@@ -81,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Toast the walnuts.",
+      "secondary_message": "¼ cup walnuts"
+    },
     {
       "id": 1,
       "primary_message": "Using a mortar and pestle or food processor, crush walnuts until fine and crumbly (some small chunks are okay).",

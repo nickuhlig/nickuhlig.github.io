@@ -42,8 +42,9 @@
   "ingredients": [
     {
       "ingredient_id": 2178,
-      "name": "whole chicken livers, split into two lobes each",
-      "quantity": "6"
+      "name": "whole chicken livers",
+      "quantity": "6",
+      "prep": "split into two lobes each"
     },
     {
       "ingredient_id": 88,
@@ -62,6 +63,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the whole chicken livers into two lobes each.",
+      "secondary_message": "6 whole chicken livers"
+    },
     {
       "id": 1,
       "primary_message": "Pat the livers dry with a paper towel. Sprinkle salt and freshly ground black pepper over the livers. Using one strip of bacon per lobe, wrap the bacon tightly around the liver so that it is entirely covered, then pierce with the skewer, using the skewer to hold the bacon in place. Space the bacon-wrapped livers on the skewer, three per skewer.",

@@ -40,8 +40,9 @@
     },
     {
       "ingredient_id": 302,
-      "name": "bacon, cut into fine dice",
-      "quantity": "4 oz"
+      "name": "bacon",
+      "quantity": "4 oz",
+      "prep": "cut into fine dice"
     },
     {
       "ingredient_id": 303,
@@ -50,13 +51,15 @@
     },
     {
       "ingredient_id": 151,
-      "name": "red jalapeño peppers, stemmed, seeded, and minced",
-      "quantity": "1 to 2"
+      "name": "red jalapeño peppers",
+      "quantity": "1 to 2",
+      "prep": "stemmed, seeded, and minced"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, thinly sliced",
-      "quantity": "8"
+      "name": "scallions",
+      "quantity": "8",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -110,11 +113,18 @@
     },
     {
       "ingredient_id": 43,
-      "name": "cheddar cheese, cut into 1/4-inch cubes",
-      "quantity": "4 oz"
+      "name": "cheddar cheese",
+      "quantity": "4 oz",
+      "prep": "cut into 1/4-inch cubes"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the bacon into fine dice. Stem, seed, and mince the red jalapeño peppers. Thinly slice the scallions. Cut the cheddar cheese into 1/4-inch cubes.",
+      "secondary_message": "4 oz bacon\n1 to 2 red jalapeño peppers\n8 scallions\n4 oz cheddar cheese"
+    },
     {
       "id": 1,
       "primary_message": "Heat butter, bacon, and 1 tablespoon water in a large skillet over medium heat. Cook, stirring, until water evaporates and bacon begins to crisp and brown, about 5 minutes. Add corn, increase heat to high, and cook, stirring, until tender and cooked through, about 2 minutes. Add jalapeño peppers and half of scallions and cook, stirring, until aromatic, about 1 minute. Season with salt and pepper. Transfer mixture to a plate to cool slightly.",

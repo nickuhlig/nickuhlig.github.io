@@ -48,13 +48,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely diced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced on a microplane grater",
-      "quantity": "6 cloves"
+      "name": "garlic",
+      "quantity": "6 cloves",
+      "prep": "minced on a microplane grater"
     },
     {
       "ingredient_id": 82,
@@ -103,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the onion. Mince the garlic on a microplane grater.",
+      "secondary_message": "1 medium onion\n6 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Pour the tomatoes into a medium bowl and using hands, squeeze each tomato through your fingers to break it up into small pieces (be careful, they can squirt). Set aside.",

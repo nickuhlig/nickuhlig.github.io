@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, chilled and cut into 6 pieces",
-      "quantity": "113 g"
+      "name": "butter",
+      "quantity": "113 g",
+      "prep": "chilled and cut into 6 pieces"
     },
     {
       "ingredient_id": 121,
@@ -100,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the butter into 6 pieces and keep it cold until you use it.",
+      "secondary_message": "113 g butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Crust: In bowl of food processor, combine sorghum flour, sweet rice flour, tapioca starch, granulated sugar and salt. Pulse to combine. Add butter. Pulse to combine until no large pieces of butter remain and mixture resembles coarse breadcrumbs, about 8 to 10 one-second pulses. Add egg. Pulse to combine. Add one tablespoon water. Pulse until dough forms. If dough is dry, add remaining tablespoon water.",

@@ -62,11 +62,18 @@
     },
     {
       "ingredient_id": 120,
-      "name": "Parmesan cheese, grated on a microplane grater",
-      "quantity": "57 g"
+      "name": "Parmesan cheese",
+      "quantity": "57 g",
+      "prep": "grated on a microplane grater"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the Parmesan cheese on a microplane grater.",
+      "secondary_message": "57 g Parmesan cheese"
+    },
     {
       "id": 1,
       "primary_message": "Using a paper towel, spread a thin layer of vegetable oil on the inside of the ring mold. Wipe a thin layer of oil into a small cast iron or non-stick skillet and place over medium-low heat for 2 minutes. Place ring mold in center of skillet and sprinkle a very light layer of cheese inside it. It should form an even layer in which you can still see the black bottom of the pan poking through in spots. Carefully remove ring mold and set aside.",

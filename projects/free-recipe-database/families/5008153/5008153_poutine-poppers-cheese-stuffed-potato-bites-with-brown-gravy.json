@@ -33,8 +33,9 @@
   "ingredients": [
     {
       "ingredient_id": 1039,
-      "name": "russet potatoes, washed and scrubbed",
-      "quantity": "6 medium"
+      "name": "russet potatoes",
+      "quantity": "6 medium",
+      "prep": "washed and scrubbed"
     },
     {
       "ingredient_id": 1007,
@@ -88,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash and scrub the russet potatoes.",
+      "secondary_message": "6 medium russet potatoes"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center position and preheat oven to 400°F. Line a baking sheet with foil and place potatoes on top. Brush potatoes all over with oil and bake until pierced easily with a fork, about 40 minutes.\nLet potatoes stand until cool enough to handle. Cut potatoes in half lengthwise and, using a spoon, scoop out the potato flesh and transfer to a bowl. Reserve the skins for another use, such as potato skins, if desired.",

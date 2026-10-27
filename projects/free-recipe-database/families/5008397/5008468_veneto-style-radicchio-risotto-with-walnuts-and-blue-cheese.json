@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, minced",
-      "quantity": "2 large"
+      "name": "shallots",
+      "quantity": "2 large",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1714,
@@ -56,8 +57,9 @@
     },
     {
       "ingredient_id": 272,
-      "name": "walnut halves, crushed by hand",
-      "quantity": "1 cup"
+      "name": "walnut halves",
+      "quantity": "1 cup",
+      "prep": "crushed by hand"
     },
     {
       "ingredient_id": 1677,
@@ -71,8 +73,9 @@
     },
     {
       "ingredient_id": 2520,
-      "name": "radicchio, quartered, cored, and thinly sliced",
-      "quantity": "200 g"
+      "name": "radicchio",
+      "quantity": "200 g",
+      "prep": "quartered, cored, and thinly sliced"
     },
     {
       "ingredient_id": 72,
@@ -86,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the shallots. Crush the walnut halves by hand. Quarter, core, and thinly slice the radicchio.",
+      "secondary_message": "2 large shallots\n1 cup walnut halves\n200 g radicchio"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, combine rice and stock. Agitate rice with fingers or a whisk to release starch. Strain through a fine-mesh strainer set in a large liquid cup measure or in another large bowl. Allow to drain 5 minutes, stirring rice occasionally. Reserve starchy stock liquid.",

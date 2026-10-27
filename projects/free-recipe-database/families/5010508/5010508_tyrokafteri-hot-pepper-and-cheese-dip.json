@@ -54,8 +54,9 @@
     },
     {
       "ingredient_id": 32,
-      "name": "feta cheese, crumbled",
-      "quantity": "⅔ lb"
+      "name": "feta cheese",
+      "quantity": "⅔ lb",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 122,
@@ -74,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Crumble the feta cheese.",
+      "secondary_message": "⅔ lb feta cheese"
+    },
     {
       "id": 1,
       "primary_message": "Preheat broiler. Place cherry peppers on a rimmed baking sheet and roast in broiler until skins are charred and peppers are softened, turning peppers as necessary to roast evenly. Transfer peppers to a bowl, cover with plastic wrap, and let sit until cool enough to handle, about 15 minutes. Peel, stem, and de-seed peppers.",

@@ -44,8 +44,9 @@
     },
     {
       "ingredient_id": 1214,
-      "name": "drained kimchi, chopped",
-      "quantity": "1 cup"
+      "name": "drained kimchi",
+      "quantity": "1 cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 157,
@@ -109,6 +110,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the drained kimchi.",
+      "secondary_message": "1 cup drained kimchi"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, toss together all ingredients to combine thoroughly. Season with salt and pepper and serve as a light salad or on bread as a sandwich. Salad can be refrigerated in an airtight container overnight.",

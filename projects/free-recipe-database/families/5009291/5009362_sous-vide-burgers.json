@@ -58,11 +58,18 @@
     },
     {
       "ingredient_id": 1772,
-      "name": "soft hamburger buns, lightly toasted",
-      "quantity": "4"
+      "name": "soft hamburger buns",
+      "quantity": "4",
+      "prep": "lightly toasted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly toast the soft hamburger buns.",
+      "secondary_message": "4 soft hamburger buns"
+    },
     {
       "id": 1,
       "primary_message": "Preheat a water bath to desired final temperature using a sous vide immersion circulator, according to the chart above and in the notes section.",

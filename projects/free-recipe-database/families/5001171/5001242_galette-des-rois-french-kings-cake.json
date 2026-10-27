@@ -77,13 +77,15 @@
     },
     {
       "ingredient_id": 1021,
-      "name": "packages frozen puff pastry, thawed",
-      "quantity": "0.79 kg"
+      "name": "packages frozen puff pastry",
+      "quantity": "0.79 kg",
+      "prep": "thawed"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, room temperature",
-      "quantity": "85 g"
+      "name": "unsalted butter",
+      "quantity": "85 g",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 346,
@@ -97,8 +99,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, room temperature",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 1032,
@@ -122,6 +125,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thaw the packages frozen puff pastry. Bring the unsalted butter to room temperature. Bring the egg to room temperature.",
+      "secondary_message": "0.79 kg packages frozen puff pastry\n85 g unsalted butter\n1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat to 350ºF (175ºF). Line 2 rimmed baking sheets with parchment. Add almond flour to 1 parchment-lined rimmed baking sheet and spread into a thin, even layer. Toast, stirring every 3 minutes, until almond flour is fragrant and light golden brown, about 10 minutes. Remove from oven and let cool to room temperature, about 20 minutes.",

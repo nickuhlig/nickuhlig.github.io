@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 1012,
-      "name": "baguette, halved lengthwise",
-      "quantity": "255 g"
+      "name": "baguette",
+      "quantity": "255 g",
+      "prep": "halved lengthwise"
     },
     {
       "ingredient_id": 2710,
@@ -65,29 +66,34 @@
     },
     {
       "ingredient_id": 260,
-      "name": "tomatoes, cored, cut into 1 1/2-inch cubes",
+      "name": "tomatoes",
       "quantity": "7",
-      "weigh_as": "0.91 kg"
+      "weigh_as": "0.91 kg",
+      "prep": "cored, cut into 1 1/2-inch cubes"
     },
     {
       "ingredient_id": 155,
-      "name": "English cucumber, halved, cut into 1/2-inch half moons",
-      "quantity": "1"
+      "name": "English cucumber",
+      "quantity": "1",
+      "prep": "halved, cut into 1/2-inch half moons"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, sliced thin",
-      "quantity": "½ small"
+      "name": "red onion",
+      "quantity": "½ small",
+      "prep": "sliced thin"
     },
     {
       "ingredient_id": 2012,
-      "name": "pitted kalamata olives, halved",
-      "quantity": "½ cup"
+      "name": "pitted kalamata olives",
+      "quantity": "½ cup",
+      "prep": "halved"
     },
     {
       "ingredient_id": 1746,
-      "name": "basil leaves, roughly torn",
-      "quantity": "¾ cup"
+      "name": "basil leaves",
+      "quantity": "¾ cup",
+      "prep": "roughly torn"
     },
     {
       "ingredient_id": 130,
@@ -101,6 +107,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the baguette lengthwise. Core and cut the tomatoes into 1 1/2-inch cubes. Halve and cut the English cucumber into 1/2-inch half moons. Slice the red onion thin. Halve the pitted kalamata olives. Roughly tear the basil leaves.",
+      "secondary_message": "255 g baguette\n7 tomatoes\n1 English cucumber\n½ small red onion\n½ cup pitted kalamata olives\n¾ cup basil leaves"
+    },
     {
       "id": 1,
       "primary_message": "Heat grill to moderate heat. Place baguette halves on grill, cut side down, and grill until lightly toasted. Transfer to cutting board and let cool. Cut into 4-cm cubes and reserve.",

@@ -59,8 +59,9 @@
     },
     {
       "ingredient_id": 2824,
-      "name": "pulled pork, at room temperature",
-      "quantity": "2 cups"
+      "name": "pulled pork",
+      "quantity": "2 cups",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 3174,
@@ -69,11 +70,18 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "beaten"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the pulled pork to room temperature. Beat the egg.",
+      "secondary_message": "2 cups pulled pork\n1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "Process the flour, sugar, and salt together in a food processor until combined, about 6 seconds. Scatter the butter pieces over the flour mixture and pulse until the mixture resembles coarse crumbs with butter bits no larger than small peas, about 16 pulses.",

@@ -90,8 +90,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely sliced",
-      "quantity": "1 small"
+      "name": "yellow onion",
+      "quantity": "1 small",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 2517,
@@ -115,6 +116,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely slice the yellow onion.",
+      "secondary_message": "1 small yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower-middle position and preheat oven to 375°F. Split pumpkins in half with a heavy chef's knife or cleaver. Scoop out seeds and discard or save for another use. Rub pumpkins on all surfaces with oil and season with salt and pepper. Place cut-side-down on a foil-lined rimmed baking sheet and place in oven. Scatter whole thyme stems on top. Roast until completely tender, flipping halfway through cooking, 1 to 1 1/2 hours total. Remove from oven and let rest until cool enough to handle.",

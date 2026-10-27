@@ -50,8 +50,9 @@
   "ingredients": [
     {
       "ingredient_id": 1681,
-      "name": "chicken wings, cut up",
-      "quantity": "3 lb"
+      "name": "chicken wings",
+      "quantity": "3 lb",
+      "prep": "cut up"
     },
     {
       "ingredient_id": 331,
@@ -95,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut up the chicken wings.",
+      "secondary_message": "3 lb chicken wings"
+    },
     {
       "id": 1,
       "primary_message": "Pat the chicken wings dry with paper towels. Place the wings in a large bowl and sprinkle with the baking powder, chili powder, and salt and toss to evenly coat. Arrange the wings in a single layer on wire rack placed over a baking sheet. Refrigerate uncovered for at least 8 hours.",

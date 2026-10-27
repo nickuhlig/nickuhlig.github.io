@@ -65,25 +65,29 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and cut into 1/2-inch cubes",
+      "name": "carrots",
       "quantity": "3 ½ medium",
-      "weigh_as": "½ lb"
+      "weigh_as": "½ lb",
+      "prep": "peeled and cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 13,
-      "name": "red beets, peeled and cut into 1/2-inch cubes",
+      "name": "red beets",
       "quantity": "3 medium",
-      "weigh_as": "½ lb"
+      "weigh_as": "½ lb",
+      "prep": "peeled and cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 143,
-      "name": "sweet potatoes, peeled and cut into 1/2-inch cubes",
-      "quantity": "½ lb"
+      "name": "sweet potatoes",
+      "quantity": "½ lb",
+      "prep": "peeled and cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 3361,
-      "name": "shiso leaves, finely minced",
-      "quantity": "2"
+      "name": "shiso leaves",
+      "quantity": "2",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 88,
@@ -92,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the carrots into 1/2-inch cubes. Peel and cut the red beets into 1/2-inch cubes. Peel and cut the sweet potatoes into 1/2-inch cubes. Finely mince the shiso leaves.",
+      "secondary_message": "3 ½ medium carrots\n3 medium red beets\n½ lb sweet potatoes\n2 shiso leaves"
+    },
     {
       "id": 1,
       "primary_message": "Combine soy sauce, honey, sesame oil, ginger, and lemon juice in a small bowl. Whisk with a fork and set aside.",

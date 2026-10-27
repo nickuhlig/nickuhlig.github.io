@@ -67,8 +67,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into tablespoon-size pieces",
-      "quantity": "225 g"
+      "name": "cold unsalted butter",
+      "quantity": "225 g",
+      "prep": "cut into tablespoon-size pieces"
     },
     {
       "ingredient_id": 359,
@@ -102,8 +103,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 346,
@@ -112,6 +114,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cold unsalted butter into tablespoon-size pieces. Beat the egg.",
+      "secondary_message": "225 g cold unsalted butter\n1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "In bowl of food processor, combine white rice flour, tapioca starch, granulated sugar, salt, and xanthan gum. Pulse to combine. Add butter. Pulse until no large pieces of butter remain. Add 4 tablespoons water. Pulse until dough forms. If dough does not form, add two additional tablespoons water.",

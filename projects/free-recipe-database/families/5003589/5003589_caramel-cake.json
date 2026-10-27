@@ -83,8 +83,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 16 pieces",
-      "quantity": "1 lb"
+      "name": "unsalted butter",
+      "quantity": "1 lb",
+      "prep": "cut into 16 pieces"
     },
     {
       "ingredient_id": 2050,
@@ -113,8 +114,9 @@
     },
     {
       "ingredient_id": 118,
-      "name": "milk, at room temperature",
-      "quantity": "1 cup"
+      "name": "milk",
+      "quantity": "1 cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -123,13 +125,15 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 16 pieces",
-      "quantity": "1 lb"
+      "name": "unsalted butter",
+      "quantity": "1 lb",
+      "prep": "cut into 16 pieces"
     },
     {
       "ingredient_id": 293,
@@ -158,6 +162,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into 16 pieces. Bring the milk to room temperature. Bring the eggs to room temperature. Cut the unsalted butter into 16 pieces.",
+      "secondary_message": "1 lb unsalted butter\n1 cup milk\n3 large eggs\n1 lb unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Lightly coat 13- by 9- cake pan with baking spray. Line bottom with parchment paper; coat once again with baking spray. Adjust oven rack to middle position and preheat oven to 350°F.",

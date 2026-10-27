@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 1012,
-      "name": "baguette, very thinly sliced on the bias",
-      "quantity": "1"
+      "name": "baguette",
+      "quantity": "1",
+      "prep": "very thinly sliced on the bias"
     },
     {
       "ingredient_id": 47,
@@ -61,6 +62,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Very thinly slice the baguette on the bias.",
+      "secondary_message": "1 baguette"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 350°F. Arrange bread slices on baking sheet in a single layer. Drizzle both sides with olive oil. (You don't have to cover every inch of bread or saturate it, but the drizzling should be even and consistent.) Season both sides with salt and pepper.",

@@ -33,23 +33,27 @@
   "ingredients": [
     {
       "ingredient_id": 1039,
-      "name": "russet potatoes, scrubbed",
-      "quantity": "4 large"
+      "name": "russet potatoes",
+      "quantity": "4 large",
+      "prep": "scrubbed"
     },
     {
       "ingredient_id": 302,
-      "name": "bacon, chopped fine",
-      "quantity": "227 g"
+      "name": "bacon",
+      "quantity": "227 g",
+      "prep": "chopped fine"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "4 tbsp"
+      "name": "unsalted butter",
+      "quantity": "4 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 43,
-      "name": "cheddar cheese, shredded",
-      "quantity": "227 g"
+      "name": "cheddar cheese",
+      "quantity": "227 g",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 153,
@@ -73,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Scrub the russet potatoes. Chop the bacon fine. Melt the unsalted butter. Shred the cheddar cheese.",
+      "secondary_message": "4 large russet potatoes\n227 g bacon\n4 tbsp unsalted butter\n227 g cheddar cheese"
+    },
     {
       "id": 1,
       "primary_message": "Light a chimney 3/4 full of charcoal. While the charcoal is lighting, thoroughly prick the potatoes with a fork. Microwave the potatoes on high for 8 minutes, turning them over after 4 minutes.",

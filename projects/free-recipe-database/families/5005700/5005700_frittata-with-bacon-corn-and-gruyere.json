@@ -65,26 +65,36 @@
     },
     {
       "ingredient_id": 302,
-      "name": "thick-cut bacon, diced",
-      "quantity": "4 slices"
+      "name": "thick-cut bacon",
+      "quantity": "4 slices",
+      "prep": "diced"
     },
     {
       "ingredient_id": 303,
-      "name": "fresh corn kernels, cut from about 3 ears of corn",
-      "quantity": "1 ½ cups"
+      "name": "fresh corn kernels",
+      "quantity": "1 ½ cups",
+      "prep": "cut from about 3 ears of corn"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, roughly chopped",
-      "quantity": "5"
+      "name": "scallions",
+      "quantity": "5",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño pepper, seeded and diced",
-      "quantity": "1"
+      "name": "jalapeño pepper",
+      "quantity": "1",
+      "prep": "seeded and diced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the thick-cut bacon. Cut the fresh corn kernels from about 3 ears of corn. Roughly chop the scallions. Seed and dice the jalapeño pepper.",
+      "secondary_message": "4 slices thick-cut bacon\n1 ½ cups fresh corn kernels\n5 scallions\n1 jalapeño pepper"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to 4 inches below broiler and preheat broiler to high. In a large bowl, whisk together eggs and milk or half and half until fully combined. Stir in half of cheese and season with salt and pepper. Set aside.",

@@ -43,8 +43,9 @@
   "ingredients": [
     {
       "ingredient_id": 3642,
-      "name": "egg white, cold",
-      "quantity": "1 large"
+      "name": "egg white",
+      "quantity": "1 large",
+      "prep": "cold"
     },
     {
       "ingredient_id": 1480,
@@ -68,6 +69,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the egg white cold until you use it.",
+      "secondary_message": "1 large egg white"
+    },
     {
       "id": 1,
       "primary_message": "Combine egg white, lemon juice, mustard, salt, and oil in a container just wide enough to accommodate an immersion blender, such as a cocktail shaker or wide-mouth mason jar. Set blender to low, place flush with the bottom of the container, and pulse until oil disappears into a creamy spread, about 20 seconds. Refrigerate in an airtight container up to 2 weeks.",

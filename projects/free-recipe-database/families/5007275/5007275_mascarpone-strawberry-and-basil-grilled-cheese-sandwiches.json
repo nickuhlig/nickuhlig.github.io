@@ -50,13 +50,15 @@
     },
     {
       "ingredient_id": 242,
-      "name": "ripe strawberries, hulled and thinly sliced",
-      "quantity": "4 to 6 large"
+      "name": "ripe strawberries",
+      "quantity": "4 to 6 large",
+      "prep": "hulled and thinly sliced"
     },
     {
       "ingredient_id": 1746,
-      "name": "basil leaves, cut into thin ribbons",
-      "quantity": "2 large"
+      "name": "basil leaves",
+      "quantity": "2 large",
+      "prep": "cut into thin ribbons"
     },
     {
       "ingredient_id": 115,
@@ -65,6 +67,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Hull and thinly slice the ripe strawberries. Cut the basil leaves into thin ribbons.",
+      "secondary_message": "4 to 6 large ripe strawberries\n2 large basil leaves"
+    },
     {
       "id": 1,
       "primary_message": "Spread the mascarpone onto one side of each of the bread slices. Drizzle honey onto each of the bread slices. Evenly divide and shingle the strawberry slices amongst 2 of the bread slices, then evenly divide the basil onto the strawberries. Top each bottom half of the sandwich with the remaining bread slices.",

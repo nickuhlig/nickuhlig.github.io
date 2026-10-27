@@ -54,13 +54,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, quartered",
-      "quantity": "6 large"
+      "name": "shallots",
+      "quantity": "6 large",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, cut into 2-inch pieces",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "cut into 2-inch pieces"
     },
     {
       "ingredient_id": 24,
@@ -69,8 +71,9 @@
     },
     {
       "ingredient_id": 106,
-      "name": "flat-leaf parsley leaves, tender stems roughly chopped",
-      "quantity": "½ (2 oz) bunch"
+      "name": "flat-leaf parsley leaves",
+      "quantity": "½ (2 oz) bunch",
+      "prep": "tender stems roughly chopped"
     },
     {
       "ingredient_id": 287,
@@ -89,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Quarter the shallots. Cut the onion into 2-inch pieces. Roughly chop the tender stems of the flat-leaf parsley leaves.",
+      "secondary_message": "6 large shallots\n1 small onion\n½ (2 oz) bunch flat-leaf parsley leaves"
+    },
     {
       "id": 1,
       "primary_message": "The Day Before Cooking Confit: Season duck legs evenly on all sides with salt; set aside. Combine shallots, onion, garlic, and parsley in food processor bowl and pulse until finely chopped but not puréed, about 15 pulses.",

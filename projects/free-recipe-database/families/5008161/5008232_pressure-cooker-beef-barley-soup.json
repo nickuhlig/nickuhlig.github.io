@@ -59,18 +59,21 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, 3 diced and 1 left whole, divided",
-      "quantity": "4 large"
+      "name": "carrots, divided",
+      "quantity": "4 large",
+      "prep": "3 diced and 1 left whole"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onions, 1 diced and 1 halved, divided",
-      "quantity": "2 large"
+      "name": "yellow onions, divided",
+      "quantity": "2 large",
+      "prep": "1 diced and 1 halved"
     },
     {
       "ingredient_id": 1720,
-      "name": "celery ribs, 2 diced and 1 left whole, divided",
-      "quantity": "3"
+      "name": "celery ribs, divided",
+      "quantity": "3",
+      "prep": "2 diced and 1 left whole"
     },
     {
       "ingredient_id": 24,
@@ -109,6 +112,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the 3 of the carrots, then leave the 1 whole. Dice 1 of the yellow onions and halve the other 1. Dice the 2 of the celery ribs, then leave the 1 whole.",
+      "secondary_message": "4 large carrots, divided\n2 large yellow onions, divided\n3 celery ribs, divided"
+    },
     {
       "id": 1,
       "primary_message": "Season beef with salt and pepper. In a pressure cooker, heat 1 tablespoon oil over high heat until lightly smoking. Working in batches if necessary, add beef and cook, turning occasionally, until well browned on all sides, about 5 minutes per side. Transfer to a large platter.",

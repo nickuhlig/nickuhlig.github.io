@@ -38,8 +38,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, juiced",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "juiced"
     },
     {
       "ingredient_id": 346,
@@ -58,6 +59,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "Combine gin, juice, and sugar in a highball glass. Stir well. Add ice and top off with soda, stir lightly if desired and serve.",

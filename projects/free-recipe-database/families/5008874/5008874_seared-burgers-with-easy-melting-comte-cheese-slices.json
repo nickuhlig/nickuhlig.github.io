@@ -53,8 +53,9 @@
     },
     {
       "ingredient_id": 1483,
-      "name": "freshly ground beef, formed into 2 balls",
-      "quantity": "8 oz"
+      "name": "freshly ground beef",
+      "quantity": "8 oz",
+      "prep": "formed into 2 balls"
     },
     {
       "ingredient_id": 88,
@@ -73,6 +74,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Form the freshly ground beef into 2 balls.",
+      "secondary_message": "8 oz freshly ground beef"
+    },
     {
       "id": 1,
       "primary_message": "Combine cheese, flour, and milk in a small bowl and toss with a spoon to combine. Divide mixture evenly between two small ramekins and set aside. Set a steamer insert into a large saucepot with 1 inch of water. Bring water to a simmer over medium-high heat and cover pot.",

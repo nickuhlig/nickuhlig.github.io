@@ -52,23 +52,27 @@
   "ingredients": [
     {
       "ingredient_id": 1230,
-      "name": "whole large chicken, cut into 8 pieces, skin removed",
-      "quantity": "1"
+      "name": "whole large chicken",
+      "quantity": "1",
+      "prep": "cut into 8 pieces, skin removed"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, peeled and cut into 6 wedges",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "peeled and cut into 6 wedges"
     },
     {
       "ingredient_id": 291,
-      "name": "green bell pepper, seeded and quartered",
-      "quantity": "1 medium"
+      "name": "green bell pepper",
+      "quantity": "1 medium",
+      "prep": "seeded and quartered"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and smashed",
-      "quantity": "6 cloves"
+      "name": "garlic",
+      "quantity": "6 cloves",
+      "prep": "peeled and smashed"
     },
     {
       "ingredient_id": 88,
@@ -82,8 +86,9 @@
     },
     {
       "ingredient_id": 228,
-      "name": "lime, halved",
-      "quantity": "1"
+      "name": "lime",
+      "quantity": "1",
+      "prep": "halved"
     },
     {
       "ingredient_id": 115,
@@ -97,13 +102,15 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic clove, minced",
-      "quantity": "1 medium"
+      "name": "garlic clove",
+      "quantity": "1 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 88,
@@ -122,8 +129,9 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and cut into small dice",
-      "quantity": "2 medium"
+      "name": "carrots",
+      "quantity": "2 medium",
+      "prep": "peeled and cut into small dice"
     },
     {
       "ingredient_id": 1231,
@@ -137,23 +145,27 @@
     },
     {
       "ingredient_id": 2827,
-      "name": "smoked sausage, cut into 1/4-inch-thick rounds",
-      "quantity": "8 oz"
+      "name": "smoked sausage",
+      "quantity": "8 oz",
+      "prep": "cut into 1/4-inch-thick rounds"
     },
     {
       "ingredient_id": 1094,
-      "name": "sliced deli ham, coarsely chopped",
-      "quantity": "¼ lb"
+      "name": "sliced deli ham",
+      "quantity": "¼ lb",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1966,
-      "name": "drained canned peppers, finely chopped",
-      "quantity": "¾ cup"
+      "name": "drained canned peppers",
+      "quantity": "¾ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 323,
@@ -167,13 +179,15 @@
     },
     {
       "ingredient_id": 1670,
-      "name": "pimento-stuffed olives, sliced",
-      "quantity": "¾ cup"
+      "name": "pimento-stuffed olives",
+      "quantity": "¾ cup",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 15,
-      "name": "capers, drained",
-      "quantity": "⅓ cup"
+      "name": "capers",
+      "quantity": "⅓ cup",
+      "prep": "drained"
     },
     {
       "ingredient_id": 275,
@@ -187,6 +201,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the whole large chicken into 8 pieces, then remove the skin. Peel and cut the yellow onion into 6 wedges. Seed and quarter the green bell pepper. Peel and smash the garlic. Halve the lime. Finely chop the yellow onion. Mince the garlic clove. Peel and cut the carrots into small dice. Cut the smoked sausage into 1/4-inch-thick rounds. Coarsely chop the sliced deli ham. Finely chop the yellow onion. Finely chop the drained canned peppers. Slice the pimento-stuffed olives. Drain the capers.",
+      "secondary_message": "1 whole large chicken\n1 medium yellow onion\n1 medium green bell pepper\n6 cloves garlic\n1 lime\n1 medium yellow onion\n1 medium garlic clove\n2 medium carrots\n8 oz smoked sausage\n¼ lb sliced deli ham\n1 medium yellow onion\n¾ cup drained canned peppers\n¾ cup pimento-stuffed olives\n⅓ cup capers"
+    },
     {
       "id": 1,
       "primary_message": "For the chicken: Place chicken, onion, bell pepper, garlic, salt, peppercorns, and 2 quarts cold water in a Dutch oven (chicken should be submerged 2 inches; add more water if necessary). Squeeze lime juice into pot and add juiced lime halves to pot. Bring to boil over medium heat, then immediately reduce heat to medium-low and simmer until chicken is cooked through and an instant-read thermometer inserted into thickest part of thigh registers 165°F, about 20 minutes.",

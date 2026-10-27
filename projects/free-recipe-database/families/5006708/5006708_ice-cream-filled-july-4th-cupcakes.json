@@ -58,8 +58,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "6 tbsp (3 oz)"
+      "name": "unsalted butter",
+      "quantity": "6 tbsp (3 oz)",
+      "prep": "softened"
     },
     {
       "ingredient_id": 346,
@@ -88,8 +89,9 @@
     },
     {
       "ingredient_id": 2475,
-      "name": "buttermilk, at room temperature",
-      "quantity": "⅔ cup"
+      "name": "buttermilk",
+      "quantity": "⅔ cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1355,
@@ -118,13 +120,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "6 tbsp (3 oz)"
+      "name": "unsalted butter",
+      "quantity": "6 tbsp (3 oz)",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1710,
-      "name": "confectioner's sugar, sifted",
-      "quantity": "1 cup (4 oz)"
+      "name": "confectioner's sugar",
+      "quantity": "1 cup (4 oz)",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 1395,
@@ -133,11 +137,18 @@
     },
     {
       "ingredient_id": 3040,
-      "name": "coconut ice cream, slightly softened",
-      "quantity": "1 pint"
+      "name": "coconut ice cream",
+      "quantity": "1 pint",
+      "prep": "slightly softened"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter. Bring the buttermilk to room temperature. Soften the unsalted butter. Sift the confectioner's sugar. Soften the coconut ice cream.",
+      "secondary_message": "6 tbsp (3 oz) unsalted butter\n⅔ cup buttermilk\n6 tbsp (3 oz) unsalted butter\n1 cup (4 oz) confectioner's sugar\n1 pint coconut ice cream"
+    },
     {
       "id": 1,
       "primary_message": "For the Cupcakes: Adjust oven rack to middle position and preheat to 350°F. Line a 12-cup muffin tin with cupcake liners. Stir the butter, sugar, and salt in a large bowl until creamy. Whisk in the oil, then the egg, egg yolk, buttermilk, and red food coloring until well combined.",

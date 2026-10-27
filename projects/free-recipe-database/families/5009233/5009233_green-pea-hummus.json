@@ -34,8 +34,9 @@
   "ingredients": [
     {
       "ingredient_id": 275,
-      "name": "frozen baby sweet peas, thawed",
-      "quantity": "1 lb"
+      "name": "frozen baby sweet peas",
+      "quantity": "1 lb",
+      "prep": "thawed"
     },
     {
       "ingredient_id": 47,
@@ -64,6 +65,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thaw the frozen baby sweet peas.",
+      "secondary_message": "1 lb frozen baby sweet peas"
+    },
     {
       "id": 1,
       "primary_message": "Set aside 1/4 cup peas for garnish. Place remaining peas, olive oil, garlic, and lemon juice in bowl of food processor and process until smooth puree is formed, scraping down sides as necessary, about 30 seconds total.",

@@ -82,13 +82,15 @@
     },
     {
       "ingredient_id": 1716,
-      "name": "hazelnuts, toasted",
-      "quantity": "1 cup"
+      "name": "hazelnuts",
+      "quantity": "1 cup",
+      "prep": "toasted"
     },
     {
       "ingredient_id": 29,
-      "name": "almonds, toasted",
-      "quantity": "¾ cup"
+      "name": "almonds",
+      "quantity": "¾ cup",
+      "prep": "toasted"
     },
     {
       "ingredient_id": 2346,
@@ -112,6 +114,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Toast the hazelnuts. Toast the almonds.",
+      "secondary_message": "1 cup hazelnuts\n¾ cup almonds"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 150°C (300°F). Line cake pan with parchment paper. Grease parchment paper and sides of cake pan liberally with butter or cooking spray.",

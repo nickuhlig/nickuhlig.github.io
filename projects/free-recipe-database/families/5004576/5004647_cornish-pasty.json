@@ -52,38 +52,45 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 309,
-      "name": "leek, finely chopped",
-      "quantity": "1 small"
+      "name": "leek",
+      "quantity": "1 small",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2502,
-      "name": "hanger steak, chopped",
-      "quantity": "0.23 kg"
+      "name": "hanger steak",
+      "quantity": "0.23 kg",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 233,
-      "name": "parsnip, finely chopped",
-      "quantity": "1"
+      "name": "parsnip",
+      "quantity": "1",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1897,
-      "name": "potato, chopped",
-      "quantity": "1"
+      "name": "potato",
+      "quantity": "1",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, finely chopped",
-      "quantity": "1"
+      "name": "carrot",
+      "quantity": "1",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1994,
-      "name": "thyme, chopped",
-      "quantity": "2 sprigs"
+      "name": "thyme",
+      "quantity": "2 sprigs",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 88,
@@ -97,11 +104,18 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten",
-      "quantity": "1"
+      "name": "egg",
+      "quantity": "1",
+      "prep": "beaten"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the onion. Finely chop the leek. Chop the hanger steak. Finely chop the parsnip. Chop the potato. Finely chop the carrot. Chop the thyme. Beat the egg.",
+      "secondary_message": "1 small onion\n1 small leek\n0.23 kg hanger steak\n1 parsnip\n1 potato\n1 carrot\n2 sprigs thyme\n1 egg"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 205°C (400°F). Melt butter in skillet and add onion and leek; cook until soft, about 5 minutes. Remove from heat and allow to cool. In a bowl combine steak, parsnip, potato, carrot, and thyme, and toss to combine. Once onion and leeks are cool, add to mixture and mix. Season with salt and pepper.",

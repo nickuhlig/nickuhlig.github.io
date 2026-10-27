@@ -45,18 +45,21 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, chopped",
-      "quantity": "1 medium"
+      "name": "red onion",
+      "quantity": "1 medium",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, peeled, minced",
-      "quantity": "1 (5 cm) piece"
+      "name": "fresh ginger",
+      "quantity": "1 (5 cm) piece",
+      "prep": "peeled, minced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "3 medium"
+      "name": "garlic cloves",
+      "quantity": "3 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 71,
@@ -80,8 +83,9 @@
     },
     {
       "ingredient_id": 1879,
-      "name": "fresh spinach leaves, roughly chopped",
-      "quantity": "0.68 kg"
+      "name": "fresh spinach leaves",
+      "quantity": "0.68 kg",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 326,
@@ -100,6 +104,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the red onion. Peel and mince the fresh ginger. Mince the garlic cloves. Roughly chop the fresh spinach leaves.",
+      "secondary_message": "1 medium red onion\n1 (5 cm) piece fresh ginger\n3 medium garlic cloves\n0.68 kg fresh spinach leaves"
+    },
     {
       "id": 1,
       "primary_message": "Heat 2 tablespoons of canola oil in a medium-saucepan over medium heat until shimmering. Add cumin seeds and stir constantly with a wooden spoon until they start to change color, about 15 seconds. Add red onion, ginger, and garlic and cook, stirring occasionally, until onion starts to brown, about 7 minutes. Stir in the cayenne, 2 teaspoons garam masala, turmeric, and salt, and cook until fragrant, about 30 seconds.",

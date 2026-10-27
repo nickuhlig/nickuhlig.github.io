@@ -39,8 +39,9 @@
     },
     {
       "ingredient_id": 1821,
-      "name": "boneless pork butt, cut into 1-inch chunks",
-      "quantity": "0.34 kg"
+      "name": "boneless pork butt",
+      "quantity": "0.34 kg",
+      "prep": "cut into 1-inch chunks"
     },
     {
       "ingredient_id": 2015,
@@ -49,18 +50,21 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, roughly chopped",
-      "quantity": "1 stalk"
+      "name": "celery",
+      "quantity": "1 stalk",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, roughly chopped",
-      "quantity": "1 small"
+      "name": "yellow onion",
+      "quantity": "1 small",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 83,
@@ -94,23 +98,27 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, peeled and roughly chopped",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "peeled and roughly chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, roughly chopped",
-      "quantity": "2 large stalks"
+      "name": "celery",
+      "quantity": "2 large stalks",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, peeled and roughly chopped",
-      "quantity": "1 large"
+      "name": "carrot",
+      "quantity": "1 large",
+      "prep": "peeled and roughly chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and smashed",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "peeled and smashed"
     },
     {
       "ingredient_id": 1747,
@@ -149,6 +157,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the boneless pork butt into 1-inch chunks. Roughly chop the garlic. Roughly chop the celery. Roughly chop the yellow onion. Peel and roughly chop the onion. Roughly chop the celery. Peel and roughly chop the carrot. Peel and smash the garlic.",
+      "secondary_message": "0.34 kg boneless pork butt\n2 cloves garlic\n1 stalk celery\n1 small yellow onion\n1 large onion\n2 large stalks celery\n1 large carrot\n2 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the sausage: With a sharp boning knife, remove legs and drumsticks from turkey. Peel skin off of legs, then remove meat from bone with boning knife. Trim away any silverskin or connective tissue, then cut meat into one-inch chunks. Toss meat with pork, sage, garlic, celery, onion, paprika, salt, and pepper, and allow to rest in refrigerator, covered, at least one hour, or up to overnight. Pass mixture twice through well-chilled meat grinder fitted with 0.5-cm plate. Place 1 teaspoon of sausage on microwave-safe plate and microwave for 15 seconds until cooked through. Taste for seasoning. Add salt and pepper to sausage as necessary, then refrigerate until ready for use.",

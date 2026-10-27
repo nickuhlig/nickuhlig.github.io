@@ -32,13 +32,15 @@
   "ingredients": [
     {
       "ingredient_id": 2069,
-      "name": "tomatillos, husks removed and rinsed",
-      "quantity": "0.45 kg"
+      "name": "tomatillos",
+      "quantity": "0.45 kg",
+      "prep": "husks removed and rinsed"
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, sliced ¼-inch thick",
-      "quantity": "1 medium"
+      "name": "white onion",
+      "quantity": "1 medium",
+      "prep": "sliced ¼-inch thick"
     },
     {
       "ingredient_id": 24,
@@ -47,8 +49,9 @@
     },
     {
       "ingredient_id": 1799,
-      "name": "serranos, stemmed",
-      "quantity": "3"
+      "name": "serranos",
+      "quantity": "3",
+      "prep": "stemmed"
     },
     {
       "ingredient_id": 1007,
@@ -67,13 +70,15 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and cut into ½-inch cubes",
-      "quantity": "2 large"
+      "name": "carrots",
+      "quantity": "2 large",
+      "prep": "peeled and cut into ½-inch cubes"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, peeled and cut into ½-inch cubes",
-      "quantity": "1 large"
+      "name": "red onion",
+      "quantity": "1 large",
+      "prep": "peeled and cut into ½-inch cubes"
     },
     {
       "ingredient_id": 230,
@@ -97,16 +102,24 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, thinly sliced",
-      "quantity": "¼"
+      "name": "white onion",
+      "quantity": "¼",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 188,
-      "name": "cilantro, chopped",
-      "quantity": "4 tbsp"
+      "name": "cilantro",
+      "quantity": "4 tbsp",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the husks from the tomatillos, then rinse them. Slice the white onion ¼-inch thick. Stem the serranos. Peel and cut the carrots into ½-inch cubes. Peel and cut the red onion into ½-inch cubes. Thinly slice the white onion. Chop the cilantro.",
+      "secondary_message": "0.45 kg tomatillos\n1 medium white onion\n3 serranos\n2 large carrots\n1 large red onion\n¼ white onion\n4 tbsp cilantro"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven racks to lower middle and upper middle positions and preheat broiler. Toss tomatillos, onion, garlic, and serranos on large baking sheet and place in oven. Roast for four to five minutes, or until tomatillos soften and start to turn black. Flip everything over with pair of 30-cm tongs. Return to oven and cook for another four to five minutes. Some black is okay, but adjust vegetables if they simply start to burn. Remove and let cool. Adjust heat in oven to 400 degrees.",

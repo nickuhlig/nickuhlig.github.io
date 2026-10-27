@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 473,
-      "name": "whole flank steak, 2 to 2 1/2 pounds, trimmed of excess fat",
-      "quantity": "1"
+      "name": "whole flank steak, 2 to 2 1/2 pounds",
+      "quantity": "1",
+      "prep": "trimmed of excess fat"
     },
     {
       "ingredient_id": 88,
@@ -67,6 +68,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the whole flank steak of excess fat.",
+      "secondary_message": "1 whole flank steak, 2 to 2 1/2 pounds"
+    },
     {
       "id": 1,
       "primary_message": "Heat vegetable oil in a small saucepan over medium-high heat until shimmering (a scingle scallion dropped into it should sizzle immediately. Meanwhile, combine scallions and ginger in a medium bowl and season well with salt. When oil is hot, pour over scallions and ginger. It should sizzle for a few seconds. Allow to cool.",

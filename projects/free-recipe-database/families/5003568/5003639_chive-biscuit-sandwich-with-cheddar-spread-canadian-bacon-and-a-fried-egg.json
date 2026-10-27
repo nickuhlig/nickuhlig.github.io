@@ -115,8 +115,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, chilled and cut into ¼-inch pieces",
-      "quantity": "113 g"
+      "name": "unsalted butter",
+      "quantity": "113 g",
+      "prep": "chilled and cut into ¼-inch pieces"
     },
     {
       "ingredient_id": 270,
@@ -125,8 +126,9 @@
     },
     {
       "ingredient_id": 2475,
-      "name": "buttermilk, chilled",
-      "quantity": "2 cups"
+      "name": "buttermilk",
+      "quantity": "2 cups",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 43,
@@ -135,8 +137,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "113 g"
+      "name": "cream cheese",
+      "quantity": "113 g",
+      "prep": "softened"
     },
     {
       "ingredient_id": 267,
@@ -200,6 +203,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into ¼-inch pieces and keep it cold until you use it. Keep the buttermilk cold until you use it. Soften the cream cheese.",
+      "secondary_message": "113 g unsalted butter\n2 cups buttermilk\n113 g cream cheese"
+    },
     {
       "id": 1,
       "primary_message": "For the Chive Biscuits: Adjust oven rack to middle position and preheat oven to 220°C (425°F). Line rimmed baking sheet with parchment paper.",

@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 116,
@@ -60,8 +61,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold butter, cut into 1/4-inch cubes",
-      "quantity": "¼ cup"
+      "name": "cold butter",
+      "quantity": "¼ cup",
+      "prep": "cut into 1/4-inch cubes"
     },
     {
       "ingredient_id": 121,
@@ -90,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Beat the egg. Cut the cold butter into 1/4-inch cubes.",
+      "secondary_message": "1 large egg\n¼ cup cold butter"
+    },
     {
       "id": 1,
       "primary_message": "To make the filling: Whisk together cheese and sugar in a medium bowl. Taste and adjust sweetness with more sugar as desired. Whisk in egg until thoroughly combined. Cover bowl and place filling in refrigerator until ready to use.",

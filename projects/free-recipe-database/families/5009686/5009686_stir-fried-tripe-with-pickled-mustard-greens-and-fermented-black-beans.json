@@ -62,8 +62,9 @@
     },
     {
       "ingredient_id": 3034,
-      "name": "Chinese pickled mustard greens, drained, squeezed dry, and thinly sliced",
-      "quantity": "1 (10 ½ oz) pkg"
+      "name": "Chinese pickled mustard greens",
+      "quantity": "1 (10 ½ oz) pkg",
+      "prep": "drained, squeezed dry, and thinly sliced"
     },
     {
       "ingredient_id": 221,
@@ -77,8 +78,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, halved",
-      "quantity": "10 medium cloves"
+      "name": "garlic",
+      "quantity": "10 medium cloves",
+      "prep": "halved"
     },
     {
       "ingredient_id": 53,
@@ -87,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain and squeeze the Chinese pickled mustard greens dry, then thinly slice them. Halve the garlic.",
+      "secondary_message": "1 (10 ½ oz) pkg Chinese pickled mustard greens\n10 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Place tripe in a large bowl. Add cornstarch and rice wine. Rub the mixture all over tripe and let stand 30 minutes.",

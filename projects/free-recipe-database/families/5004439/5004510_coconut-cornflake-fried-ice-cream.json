@@ -40,8 +40,9 @@
     },
     {
       "ingredient_id": 2738,
-      "name": "cornflakes, crushed",
-      "quantity": "5 cups"
+      "name": "cornflakes",
+      "quantity": "5 cups",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 462,
@@ -65,8 +66,9 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "113 g"
+      "name": "bittersweet chocolate",
+      "quantity": "113 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1007,
@@ -75,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Crush the cornflakes. Finely chop the bittersweet chocolate.",
+      "secondary_message": "5 cups cornflakes\n113 g bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "Scoop out ice cream into 5 balls and place on a chilled pan. Freeze until solid, about 1 hour. If necessary, re-shape ice cream into balls and freeze again until solid.",

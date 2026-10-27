@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 1021,
-      "name": "frozen puff pastry, thawed but very cold",
-      "quantity": "1 sheet"
+      "name": "frozen puff pastry",
+      "quantity": "1 sheet",
+      "prep": "thawed but very cold"
     },
     {
       "ingredient_id": 115,
@@ -45,8 +46,9 @@
     },
     {
       "ingredient_id": 2250,
-      "name": "wild mixed mushrooms, chopped to a rubble",
-      "quantity": "8 oz"
+      "name": "wild mixed mushrooms",
+      "quantity": "8 oz",
+      "prep": "chopped to a rubble"
     },
     {
       "ingredient_id": 24,
@@ -80,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thaw the frozen puff pastry but very cold. Chop the wild mixed mushrooms to a rubble.",
+      "secondary_message": "1 sheet frozen puff pastry\n8 oz wild mixed mushrooms"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 400°F.",

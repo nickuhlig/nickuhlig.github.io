@@ -66,13 +66,15 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, coarsely chopped",
-      "quantity": "228 g"
+      "name": "bittersweet chocolate",
+      "quantity": "228 g",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 8 pieces",
-      "quantity": "113 g"
+      "name": "unsalted butter",
+      "quantity": "113 g",
+      "prep": "cut into 8 pieces"
     },
     {
       "ingredient_id": 293,
@@ -81,8 +83,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, lightly beaten",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 353,
@@ -91,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Coarsely chop the bittersweet chocolate. Cut the unsalted butter into 8 pieces. Lightly beat the eggs.",
+      "secondary_message": "228 g bittersweet chocolate\n113 g unsalted butter\n3 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350ºF (175ºC). Grease an 8- x 20-cm baking dish with cooking spray and line it with parchment paper, leaving a 5-cm overhang on two sides.",

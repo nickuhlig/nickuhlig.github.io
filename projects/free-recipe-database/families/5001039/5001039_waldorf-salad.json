@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 1692,
-      "name": "sweet-tart apples, such as Fuji, , cut into 1/4-inch pieces",
-      "quantity": "2 medium"
+      "name": "sweet-tart apples, such as Fuji",
+      "quantity": "2 medium",
+      "prep": "cut into 1/4-inch pieces"
     },
     {
       "ingredient_id": 122,
@@ -81,16 +82,24 @@
     },
     {
       "ingredient_id": 224,
-      "name": "red seedless grapes, halved or quartered",
-      "quantity": "1 ½ cups"
+      "name": "red seedless grapes",
+      "quantity": "1 ½ cups",
+      "prep": "halved or quartered"
     },
     {
       "ingredient_id": 272,
-      "name": "coarsely chopped walnuts, toasted",
-      "quantity": "1 cup"
+      "name": "coarsely chopped walnuts",
+      "quantity": "1 cup",
+      "prep": "toasted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the sweet-tart apples into 1/4-inch pieces. Halve or quarter the red seedless grapes. Toast the coarsely chopped walnuts.",
+      "secondary_message": "2 medium sweet-tart apples, such as Fuji\n1 ½ cups red seedless grapes\n1 cup coarsely chopped walnuts"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, whisk together vinegar, water, sugar, and salt until sugar and salt are dissolved, about 1 minute. Add apple and stir to combine. Cover and refrigerate until tart and crisp, about 1 hour or up to 2 weeks.",

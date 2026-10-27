@@ -92,8 +92,9 @@
     },
     {
       "ingredient_id": 113,
-      "name": "Granny Smith apple, peeled and grated",
-      "quantity": "1 large"
+      "name": "Granny Smith apple",
+      "quantity": "1 large",
+      "prep": "peeled and grated"
     },
     {
       "ingredient_id": 3007,
@@ -132,23 +133,27 @@
     },
     {
       "ingredient_id": 116,
-      "name": "all-purpose flour, sifted, plus more for dusting",
-      "quantity": "10 oz"
+      "name": "all-purpose flour, plus more for dusting",
+      "quantity": "10 oz",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 1710,
-      "name": "confectioners’ sugar, sifted, plus more for dusting",
-      "quantity": "1 oz"
+      "name": "confectioners’ sugar, plus more for dusting",
+      "quantity": "1 oz",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cold and cubed",
-      "quantity": "6 ½ oz"
+      "name": "unsalted butter",
+      "quantity": "6 ½ oz",
+      "prep": "cold and cubed"
     },
     {
       "ingredient_id": 121,
-      "name": "egg, lightly beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 359,
@@ -157,11 +162,18 @@
     },
     {
       "ingredient_id": 3641,
-      "name": "egg yolk, lightly beaten",
-      "quantity": "1 large"
+      "name": "egg yolk",
+      "quantity": "1 large",
+      "prep": "lightly beaten"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and grate the Granny Smith apple. Sift the all-purpose flour. Sift the confectioners’ sugar. Cube the unsalted butter and keep it cold until you use it. Lightly beat the egg. Lightly beat the egg yolk.",
+      "secondary_message": "1 large Granny Smith apple\n10 oz all-purpose flour, plus more for dusting\n1 oz confectioners’ sugar, plus more for dusting\n6 ½ oz unsalted butter\n1 large egg\n1 large egg yolk"
+    },
     {
       "id": 1,
       "primary_message": "For the Mincemeat: In a large bowl, toss currants, raisins, sultanas, dark brown sugar, apple, beef or vegetable suet, candied orange peel, orange juice and zest, lemon juice and zest, and mixed spice. Drizzle brandy over fruit and, using a flexible spatula, stir until evenly distributed. Cover bowl tightly with plastic wrap and refrigerate for 24 hours, stirring 2 to 3 times during this period.",

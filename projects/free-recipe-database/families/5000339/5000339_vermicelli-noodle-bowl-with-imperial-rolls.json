@@ -51,13 +51,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1810,
-      "name": "bird’s eye chile, stemmed and thinly sliced",
-      "quantity": "1"
+      "name": "bird’s eye chile",
+      "quantity": "1",
+      "prep": "stemmed and thinly sliced"
     },
     {
       "ingredient_id": 1827,
@@ -86,11 +88,18 @@
     },
     {
       "ingredient_id": 2061,
-      "name": "Imperial Rolls, cut into 3 pieces each",
-      "quantity": "18"
+      "name": "Imperial Rolls",
+      "quantity": "18",
+      "prep": "cut into 3 pieces each"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic. Stem and thinly slice the bird’s eye chile. Cut the Imperial Rolls into 3 pieces each.",
+      "secondary_message": "3 medium cloves garlic\n1 bird’s eye chile\n18 Imperial Rolls"
+    },
     {
       "id": 1,
       "primary_message": "For the Nước Chấm: In a medium bowl, combine water, sugar, fish sauce, and lime juice and mix until sugar has fully dissolved. Stir in garlic and chile; set aside.",

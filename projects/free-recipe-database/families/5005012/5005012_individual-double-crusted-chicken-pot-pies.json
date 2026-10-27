@@ -103,23 +103,27 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, diced",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, diced",
-      "quantity": "2 large"
+      "name": "carrots",
+      "quantity": "2 large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1720,
-      "name": "celery ribs, diced",
-      "quantity": "2 large"
+      "name": "celery ribs",
+      "quantity": "2 large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, crushed",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 1994,
@@ -148,8 +152,9 @@
     },
     {
       "ingredient_id": 3686,
-      "name": "reserved chicken stock, cooled",
-      "quantity": "¼ cup"
+      "name": "reserved chicken stock",
+      "quantity": "¼ cup",
+      "prep": "cooled"
     },
     {
       "ingredient_id": 115,
@@ -163,18 +168,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, diced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, diced",
-      "quantity": "1 large"
+      "name": "carrot",
+      "quantity": "1 large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1720,
-      "name": "celery rib, diced",
-      "quantity": "1 large"
+      "name": "celery rib",
+      "quantity": "1 large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1008,
@@ -218,8 +226,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, straight from the fridge",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "straight from the fridge"
     },
     {
       "ingredient_id": 1752,
@@ -233,6 +242,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the onion. Dice the carrots. Dice the celery ribs. Crush the garlic. Cool the reserved chicken stock. Dice the onion. Dice the carrot. Dice the celery rib. Keep the egg cold until you use it.",
+      "secondary_message": "1 large onion\n2 large carrots\n2 large celery ribs\n2 medium cloves garlic\n¼ cup reserved chicken stock\n1 medium onion\n1 large carrot\n1 large celery rib\n1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "For Crust: Prepare a double batch of flaky, tender, and nutty whole wheat pie crust as directed. Divide dough in half and roll each half into a thin sheet, around 3/16 inch thick, using as much flour as needed to prevent sticking along the way. Transfer pieces to a half sheet pan, cover tightly with foil, and refrigerate at least 2 hours and up to 48 hours before using.",

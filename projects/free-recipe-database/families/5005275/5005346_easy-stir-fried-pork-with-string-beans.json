@@ -79,8 +79,9 @@
     },
     {
       "ingredient_id": 111,
-      "name": "string beans, ends trimmed",
-      "quantity": "340 g"
+      "name": "string beans",
+      "quantity": "340 g",
+      "prep": "ends trimmed"
     },
     {
       "ingredient_id": 221,
@@ -89,11 +90,18 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "finely minced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the ends of the string beans. Finely mince the garlic.",
+      "secondary_message": "340 g string beans\n4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Place pork in a large bowl. Add 1/4 teaspoon salt, sugar, ground white pepper, Shaoxing wine, soy sauce, 1 teaspoon oil, and cornstarch. Mix well and transfer to refrigerator for 30 minutes.",

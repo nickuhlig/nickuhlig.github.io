@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 321,
-      "name": "tortilla corn tortillas, cut into 6 wedges each",
-      "quantity": "20"
+      "name": "tortilla corn tortillas",
+      "quantity": "20",
+      "prep": "cut into 6 wedges each"
     },
     {
       "ingredient_id": 2066,
@@ -65,13 +66,15 @@
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño pepper, halved, steemed, and seeded",
-      "quantity": "1"
+      "name": "jalapeño pepper",
+      "quantity": "1",
+      "prep": "halved, steemed, and seeded"
     },
     {
       "ingredient_id": 2069,
-      "name": "tomatillos, husked, washed, and halved",
-      "quantity": "1 lb"
+      "name": "tomatillos",
+      "quantity": "1 lb",
+      "prep": "husked, washed, and halved"
     },
     {
       "ingredient_id": 1007,
@@ -90,8 +93,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 186,
@@ -115,8 +119,9 @@
     },
     {
       "ingredient_id": 1156,
-      "name": "pepper Jack cheese, grated on large holes of a box grater",
-      "quantity": "8 oz"
+      "name": "pepper Jack cheese",
+      "quantity": "8 oz",
+      "prep": "grated on large holes of a box grater"
     },
     {
       "ingredient_id": 264,
@@ -135,8 +140,9 @@
     },
     {
       "ingredient_id": 183,
-      "name": "ripe Haas avocados, seeded and roughly diced",
-      "quantity": "2"
+      "name": "ripe Haas avocados",
+      "quantity": "2",
+      "prep": "seeded and roughly diced"
     },
     {
       "ingredient_id": 24,
@@ -175,13 +181,15 @@
     },
     {
       "ingredient_id": 343,
-      "name": "radish, very thinly sliced",
-      "quantity": "1 large"
+      "name": "radish",
+      "quantity": "1 large",
+      "prep": "very thinly sliced"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño pepper, very thinly sliced",
-      "quantity": "1"
+      "name": "jalapeño pepper",
+      "quantity": "1",
+      "prep": "very thinly sliced"
     },
     {
       "ingredient_id": 1612,
@@ -190,6 +198,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the tortilla corn tortillas into 6 wedges each. Halve, steem, and seed the jalapeño pepper. Husk, wash, and halve the tomatillos. Smash the garlic. Grate the pepper Jack cheese on large holes of a box grater. Seed and roughly dice the ripe Haas avocados. Very thinly slice the radish. Very thinly slice the jalapeño pepper.",
+      "secondary_message": "20 tortilla corn tortillas\n1 jalapeño pepper\n1 lb tomatillos\n3 medium cloves garlic\n8 oz pepper Jack cheese\n2 ripe Haas avocados\n1 large radish\n1 jalapeño pepper"
+    },
     {
       "id": 1,
       "primary_message": "To make the chips: Heat oil in a 12-inch cast iron skillet, Dutch oven, or wok over medium-high heat until it registers 375°F. Adjust flame to maintain temperature. Working in batches, add tortillas and fry, agitating with a metal spider, until edges just start to brown. Flip chips over and continue to cook until crisp and light golden brown. Transfer chips to a paper towel-lined tray, sprinkle with salt to taste, and let sit for 2 to 3 minutes to drain. Repeat with remaining batches. Set aside until ready to use.",

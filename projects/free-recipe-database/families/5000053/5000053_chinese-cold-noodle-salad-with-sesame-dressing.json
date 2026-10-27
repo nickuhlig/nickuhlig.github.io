@@ -80,8 +80,9 @@
     },
     {
       "ingredient_id": 1399,
-      "name": "Persian cucumber, julienned",
-      "quantity": "1 medium"
+      "name": "Persian cucumber",
+      "quantity": "1 medium",
+      "prep": "julienned"
     },
     {
       "ingredient_id": 153,
@@ -90,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Julienne the Persian cucumber.",
+      "secondary_message": "1 medium Persian cucumber"
+    },
     {
       "id": 1,
       "primary_message": "In a pot of boiling water, cook noodles until slightly more cooked than al dente (use the time included on the package directions). Drain well, then toss with the neutral oil so the noodles don’t stick to each other. Spread noodles out in a thin layer on a tray and refrigerate until fully chilled, about 1 hour.",

@@ -61,23 +61,27 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "6 medium cloves"
+      "name": "garlic",
+      "quantity": "6 medium cloves",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 260,
-      "name": "tomato, core removed",
-      "quantity": "1 medium"
+      "name": "tomato",
+      "quantity": "1 medium",
+      "prep": "core removed"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, finely chopped",
-      "quantity": "½ medium"
+      "name": "red onion",
+      "quantity": "½ medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 188,
-      "name": "fresh cilantro, chopped",
-      "quantity": "¼ cup"
+      "name": "fresh cilantro",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 47,
@@ -96,6 +100,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the garlic. Remove the core from the tomato. Finely chop the red onion. Chop the fresh cilantro.",
+      "secondary_message": "6 medium cloves garlic\n1 medium tomato\n½ medium red onion\n¼ cup fresh cilantro"
+    },
     {
       "id": 1,
       "primary_message": "Preheat broiler and set oven rack to about 6 inches below broiler element. Using a sharp paring knife, poke six 1-inch deep and 1-inch long cuts into the eggplant. Stuff each slit with 1 garlic clove.",

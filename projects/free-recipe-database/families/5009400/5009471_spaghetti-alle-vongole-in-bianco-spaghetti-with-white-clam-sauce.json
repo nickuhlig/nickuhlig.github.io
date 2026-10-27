@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, very thinly sliced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "very thinly sliced"
     },
     {
       "ingredient_id": 1721,
@@ -81,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Very thinly slice the garlic.",
+      "secondary_message": "3 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Fill a large bowl with cold water and stir in enough salt to make it salty like the sea (3 percent salinity; for 8 cups of water, use 7 tablespoons of Diamond Crystal kosher salt). Add clams and let stand 30 minutes. Lift clams from water and discard purging water; if there is sand in the bottom of the bowl, rinse it out and repeat this process until clams no longer release sand into the water (usually 2 to 3 purging cycles). Discard any clams that are gaping open and refuse to close when prodded.",

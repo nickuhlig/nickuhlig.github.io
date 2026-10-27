@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, chilled",
-      "quantity": "2 sticks"
+      "name": "unsalted butter",
+      "quantity": "2 sticks",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 121,
@@ -101,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the unsalted butter cold until you use it.",
+      "secondary_message": "2 sticks unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, mix together sour cream and vanilla. Set aside.",

@@ -36,23 +36,27 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely diced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, finely diced",
-      "quantity": "2 medium"
+      "name": "carrots",
+      "quantity": "2 medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, finely diced",
-      "quantity": "2 ribs"
+      "name": "celery",
+      "quantity": "2 ribs",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced on a microplane grater",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "minced on a microplane grater"
     },
     {
       "ingredient_id": 1721,
@@ -71,8 +75,9 @@
     },
     {
       "ingredient_id": 1766,
-      "name": "rosemary, leaves finely chopped and stems reserved",
-      "quantity": "4 (6 inch) sprigs"
+      "name": "rosemary",
+      "quantity": "4 (6 inch) sprigs",
+      "prep": "leaves finely chopped and stems reserved"
     },
     {
       "ingredient_id": 1747,
@@ -96,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the onion. Finely dice the carrots. Finely dice the celery. Mince the garlic on a microplane grater. Finely chop the leaves of the rosemary, then reserve the stems.",
+      "secondary_message": "1 medium onion\n2 medium carrots\n2 ribs celery\n4 cloves garlic\n4 (6 inch) sprigs rosemary"
+    },
     {
       "id": 1,
       "primary_message": "Heat olive oil in a large saucepan over medium-high heat until shimmering. Add onions, carrots, and celery and cook, stirring frequently, until softened but not browned, about 3 minutes. Add garlic and dried red pepper flakes and cook, stirring constantly until fragrant, about 1 minute. Add chicken broth, beans and their liquid, rosemary stems, parmesan rind, and bay leaves. Increase heat to high, and bring to a boil. Reduce to a bare simmer, add kale, cover and cook for 15 minutes.",

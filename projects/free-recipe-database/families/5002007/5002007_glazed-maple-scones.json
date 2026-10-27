@@ -64,8 +64,9 @@
   "ingredients": [
     {
       "ingredient_id": 2475,
-      "name": "buttermilk, chilled",
-      "quantity": "2 tbsp"
+      "name": "buttermilk",
+      "quantity": "2 tbsp",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 121,
@@ -104,8 +105,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into 1/2-inch pieces",
-      "quantity": "12 tbsp"
+      "name": "cold unsalted butter",
+      "quantity": "12 tbsp",
+      "prep": "cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 1710,
@@ -119,6 +121,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the buttermilk cold until you use it. Cut the cold unsalted butter into 1/2-inch pieces.",
+      "secondary_message": "2 tbsp buttermilk\n12 tbsp cold unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 425°F (220℃). Line a rimmed baking sheet with parchment paper; set aside.",

@@ -82,8 +82,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, thinly sliced",
-      "quantity": "6 medium"
+      "name": "garlic cloves",
+      "quantity": "6 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1721,
@@ -92,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the garlic cloves.",
+      "secondary_message": "6 medium garlic cloves"
+    },
     {
       "id": 1,
       "primary_message": "Place each ball of pizza dough in a lightly oiled bowl and cover tightly with plastic wrap. Set aside at room temperature for 1 hour.",

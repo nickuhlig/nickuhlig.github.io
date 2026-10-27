@@ -97,8 +97,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, crushed",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 323,
@@ -162,6 +163,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Crush the garlic.",
+      "secondary_message": "4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Rub: Mix salt, pepper, brown sugar, garlic powder, onion powder, smoked paprika, hot paprika, and mustard powder together in a small bowl. Coat brisket liberally with rub and let sit for at least 40 minutes and up to a day, refrigerated.",

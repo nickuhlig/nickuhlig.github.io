@@ -58,8 +58,9 @@
   "ingredients": [
     {
       "ingredient_id": 1711,
-      "name": "boneless beef short rib, well-chilled",
-      "quantity": "3.2 oz"
+      "name": "boneless beef short rib",
+      "quantity": "3.2 oz",
+      "prep": "well-chilled"
     },
     {
       "ingredient_id": 1713,
@@ -68,8 +69,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, grated on a microplane grater",
-      "quantity": "1 tsp"
+      "name": "onion",
+      "quantity": "1 tsp",
+      "prep": "grated on a microplane grater"
     },
     {
       "ingredient_id": 267,
@@ -143,6 +145,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the boneless beef short rib cold until you use it. Grate the onion on a microplane grater.",
+      "secondary_message": "3.2 oz boneless beef short rib\n1 tsp onion"
+    },
     {
       "id": 1,
       "primary_message": "Pass beef through meat grinder fitted with 1/4-inch plate twice. Form into 2 even balls and flatten into 4-inch patties using wet hands against a cutting board. Scrape patties up with thin spatula and place on a sheet of parchment paper. Refrigerate until ready to use.",

@@ -67,8 +67,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "zested"
     },
     {
       "ingredient_id": 2714,
@@ -82,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the lemon.",
+      "secondary_message": "1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "If you are going to preserve jam, prepare jars and lids: place 8 half-pint jars on rack in large pot. Add enough water to cover jars, and bring to boil over high heat. Boil for 10 minutes, then turn off heat and allow jars to rest in the hot water. Meanwhile, put bands and lids in small saucepan and cover with water. Heat over medium heat until the water is simmering, then remove pan from heat and allow bands and lids to rest in hot water until ready to use.",

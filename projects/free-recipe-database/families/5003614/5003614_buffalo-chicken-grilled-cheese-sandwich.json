@@ -34,8 +34,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 3 even pats, divided",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter, divided",
+      "quantity": "2 tbsp",
+      "prep": "cut into 3 even pats"
     },
     {
       "ingredient_id": 1216,
@@ -69,6 +70,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into 3 even pats.",
+      "secondary_message": "2 tbsp unsalted butter, divided"
+    },
     {
       "id": 1,
       "primary_message": "Melt 1 pat of butter in a large non-stick skillet over medium heat until foaming subsides. Add both bread slices and cook, swirling occasionally, until pale golden brown on bottom side, about 2 minutes. Remove from heat.",

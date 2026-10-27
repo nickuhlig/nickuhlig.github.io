@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1721,
@@ -57,11 +58,18 @@
     },
     {
       "ingredient_id": 1675,
-      "name": "broccoli rabe, ends trimmed",
-      "quantity": "0.45 kg"
+      "name": "broccoli rabe",
+      "quantity": "0.45 kg",
+      "prep": "ends trimmed"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the garlic. Trim the ends of the broccoli rabe.",
+      "secondary_message": "4 medium cloves garlic\n0.45 kg broccoli rabe"
+    },
     {
       "id": 1,
       "primary_message": "Bring a large pot of salted water to a boil. Meanwhile, in a large skillet, heat olive oil with garlic over medium heat until garlic just begins to turn golden, about 2 minutes. Add red pepper flakes and toast for about 30 seconds. Remove from heat.",

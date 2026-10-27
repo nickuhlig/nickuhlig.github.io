@@ -69,8 +69,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "packed fresh cilantro leaves, tender stems finely chopped",
-      "quantity": "2 tbsp"
+      "name": "packed fresh cilantro leaves",
+      "quantity": "2 tbsp",
+      "prep": "tender stems finely chopped"
     },
     {
       "ingredient_id": 1421,
@@ -94,11 +95,18 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced or grated",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced or grated"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the tender stems of the packed fresh cilantro leaves. Mince or grate the garlic.",
+      "secondary_message": "2 tbsp packed fresh cilantro leaves\n3 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Place thighs in a large zipper-lock bag. In a medium bowl, whisk together soy sauce, fish sauce, sugar, oil, cilantro, lime juice and zest, ginger, chili-garlic paste, and garlic. Pour marinade into bag with chicken, seal bag, and toss to coat well. Let chicken marinate for at least 30 minutes and up to 4 hours.",

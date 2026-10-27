@@ -51,8 +51,9 @@
   "ingredients": [
     {
       "ingredient_id": 2494,
-      "name": "special crabmeat, picked over for shells",
-      "quantity": "0.45 kg"
+      "name": "special crabmeat",
+      "quantity": "0.45 kg",
+      "prep": "picked over for shells"
     },
     {
       "ingredient_id": 267,
@@ -81,8 +82,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely minced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 88,
@@ -101,11 +103,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "melted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the special crabmeat over for shells. Finely mince the shallot. Melt the unsalted butter.",
+      "secondary_message": "0.45 kg special crabmeat\n1 small shallot\n2 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 190°C (375°F). In a medium bowl, stir together crabmeat, mayonnaise, Dijon, lemon juice and zest, parsley, Old Bay, and shallot until evenly incorporated. Season with salt and pepper.",

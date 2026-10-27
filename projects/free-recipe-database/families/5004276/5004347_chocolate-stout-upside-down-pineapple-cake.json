@@ -37,8 +37,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "113 g"
+      "name": "unsalted butter",
+      "quantity": "113 g",
+      "prep": "melted"
     },
     {
       "ingredient_id": 293,
@@ -92,13 +93,15 @@
     },
     {
       "ingredient_id": 2475,
-      "name": "buttermilk, at room temperature",
-      "quantity": "½ cup"
+      "name": "buttermilk",
+      "quantity": "½ cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature, lightly beaten",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "at room temperature, lightly beaten"
     },
     {
       "ingredient_id": 353,
@@ -107,6 +110,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Bring the buttermilk to room temperature. Lightly beat the eggs and bring them to room temperature.",
+      "secondary_message": "113 g unsalted butter\n½ cup buttermilk\n3 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "For the Pineapple Layer: Adjust oven rack to middle position and preheat oven to 175°C (350°F). Trim pineapple into 18 spears, 4- by 1.5-cm. If using fresh pineapple spears, trim them to approximately that size.",

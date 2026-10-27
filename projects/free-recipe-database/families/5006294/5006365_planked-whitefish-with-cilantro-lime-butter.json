@@ -65,8 +65,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, softened",
-      "quantity": "8 tbsp"
+      "name": "butter",
+      "quantity": "8 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 188,
@@ -75,8 +76,9 @@
     },
     {
       "ingredient_id": 2021,
-      "name": "serrano chile, seeded and finely minced",
-      "quantity": "1 medium"
+      "name": "serrano chile",
+      "quantity": "1 medium",
+      "prep": "seeded and finely minced"
     },
     {
       "ingredient_id": 1421,
@@ -85,11 +87,18 @@
     },
     {
       "ingredient_id": 228,
-      "name": "lime, zested",
-      "quantity": "1"
+      "name": "lime",
+      "quantity": "1",
+      "prep": "zested"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the butter. Seed and finely mince the serrano chile. Zest the lime.",
+      "secondary_message": "8 tbsp butter\n1 medium serrano chile\n1 lime"
+    },
     {
       "id": 1,
       "primary_message": "Soak cedar planks for 1 hour prior to use.\nIn a small bowl, combine butter, serrano chile, cilantro, lime juice, and lime zest. Set aside.",

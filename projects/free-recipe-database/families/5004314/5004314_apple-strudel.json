@@ -78,8 +78,9 @@
     },
     {
       "ingredient_id": 1716,
-      "name": "toasted hazelnuts, finely chopped",
-      "quantity": "⅓ cup (1 ¾ oz)"
+      "name": "toasted hazelnuts",
+      "quantity": "⅓ cup (1 ¾ oz)",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 346,
@@ -118,6 +119,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the toasted hazelnuts.",
+      "secondary_message": "⅓ cup (1 ¾ oz) toasted hazelnuts"
+    },
     {
       "id": 1,
       "primary_message": "For the Strudel Dough: Stir flour, salt, 3 tablespoons oil, and 10 tablespoons water in a large bowl until almost combined and the mixture looks shaggy. If the mixture appears dry, add more water, one tablespoon at a time. You should have a dough that is soft and tacky, but not sticky.",

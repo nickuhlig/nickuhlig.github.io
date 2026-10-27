@@ -57,13 +57,15 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, chopped",
-      "quantity": "½ medium"
+      "name": "yellow onion",
+      "quantity": "½ medium",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic clove, chopped",
-      "quantity": "1 medium"
+      "name": "garlic clove",
+      "quantity": "1 medium",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 3686,
@@ -72,8 +74,9 @@
     },
     {
       "ingredient_id": 1541,
-      "name": "plum tomatoes, chopped",
-      "quantity": "2"
+      "name": "plum tomatoes",
+      "quantity": "2",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 88,
@@ -87,8 +90,9 @@
     },
     {
       "ingredient_id": 275,
-      "name": "frozen peas, thawed",
-      "quantity": "½ cup"
+      "name": "frozen peas",
+      "quantity": "½ cup",
+      "prep": "thawed"
     },
     {
       "ingredient_id": 2021,
@@ -97,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the yellow onion. Chop the garlic clove. Chop the plum tomatoes. Thaw the frozen peas.",
+      "secondary_message": "½ medium yellow onion\n1 medium garlic clove\n2 plum tomatoes\n½ cup frozen peas"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, rinse rice in plenty of water, swishing the rice around with your fingers to wash off as much starch as possible. Drain well in a fine-mesh strainer, then spread on a paper-towel lined plate or clean kitchen towel to dry for at least 5 minutes.",

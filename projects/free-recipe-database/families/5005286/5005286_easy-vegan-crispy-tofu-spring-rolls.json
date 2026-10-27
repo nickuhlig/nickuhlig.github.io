@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, peeled and cut into a fine julienne",
-      "quantity": "1 large"
+      "name": "carrot",
+      "quantity": "1 large",
+      "prep": "peeled and cut into a fine julienne"
     },
     {
       "ingredient_id": 2565,
@@ -87,6 +88,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the carrot into a fine julienne.",
+      "secondary_message": "1 large carrot"
+    },
     {
       "id": 1,
       "primary_message": "Place tofu in a large colander and set in the sink. Pour 1 quart boiling water over tofu and let rest for 1 minute. Transfer to a paper towel–lined tray and press dry. Heat vegetable oil in a large nonstick or cast iron skillet over medium-low heat until shimmering. Add tofu and cook, turning occasionally, until golden brown and crisp on all surfaces, about 10 minutes total. Transfer to a paper towel–lined plate to drain.",

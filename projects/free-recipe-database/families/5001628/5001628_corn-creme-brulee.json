@@ -65,8 +65,9 @@
   "ingredients": [
     {
       "ingredient_id": 27,
-      "name": "fresh sweet corn, shucked",
-      "quantity": "2 large ears"
+      "name": "fresh sweet corn",
+      "quantity": "2 large ears",
+      "prep": "shucked"
     },
     {
       "ingredient_id": 1752,
@@ -95,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shuck the fresh sweet corn.",
+      "secondary_message": "2 large ears fresh sweet corn"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 325°F. Set four shallow 8-ounce ramekins (or four 6-ounce standard ramekins) in a 9- by 13-inch baking dish; set aside.",

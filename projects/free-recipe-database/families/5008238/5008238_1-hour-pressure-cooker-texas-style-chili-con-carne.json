@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 1776,
-      "name": "hot dried chiles like Arbol, stems and seeds removed",
-      "quantity": "2 small"
+      "name": "hot dried chiles like Arbol",
+      "quantity": "2 small",
+      "prep": "stems and seeds removed"
     },
     {
       "ingredient_id": 2541,
@@ -81,13 +82,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely diced",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 74,
@@ -126,6 +129,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the stems and seeds from the hot dried chiles like Arbol. Finely dice the onion. Mince the garlic.",
+      "secondary_message": "2 small hot dried chiles like Arbol\n1 large onion\n4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Add dried chiles to large heavy-bottomed Dutch oven or stock pot and cook over medium-high heat, stirring frequently, until slightly darkened with intense, roasted aroma, 2 to 5 minutes. Do not allow to smoke. Remove chiles to small bowl and set aside. Alternatively, place dried chiles on a microwave-safe plate and microwave on high power in 15-second increments until pliable and toasted-smelling, about 30 seconds total. Transfer to a 2-quart microwave-safe liquid measuring cup or bowl. Add chicken broth and chipotle chiles, cover with plastic wrap, and microwave on high power until gently simmering, about 5 minutes. Remove from microwave and set aside.",

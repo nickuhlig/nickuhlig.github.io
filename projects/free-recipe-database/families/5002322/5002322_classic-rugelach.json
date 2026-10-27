@@ -78,13 +78,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into large cubes",
-      "quantity": "4 oz"
+      "name": "cold unsalted butter",
+      "quantity": "4 oz",
+      "prep": "cut into large cubes"
     },
     {
       "ingredient_id": 355,
-      "name": "cold cream cheese, cut into large cubes",
-      "quantity": "4 oz"
+      "name": "cold cream cheese",
+      "quantity": "4 oz",
+      "prep": "cut into large cubes"
     },
     {
       "ingredient_id": 88,
@@ -93,8 +95,9 @@
     },
     {
       "ingredient_id": 272,
-      "name": "walnuts, toasted and finely chopped",
-      "quantity": "2 ¼ oz"
+      "name": "walnuts",
+      "quantity": "2 ¼ oz",
+      "prep": "toasted and finely chopped"
     },
     {
       "ingredient_id": 346,
@@ -128,11 +131,18 @@
     },
     {
       "ingredient_id": 3641,
-      "name": "egg yolk, whisked with 1 teaspoon cold water",
-      "quantity": "1 large"
+      "name": "egg yolk",
+      "quantity": "1 large",
+      "prep": "whisked with 1 teaspoon cold water"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cold unsalted butter into large cubes. Cut the cold cream cheese into large cubes. Toast and finely chop the walnuts. Whisk the egg yolk with 1 teaspoon cold water.",
+      "secondary_message": "4 oz cold unsalted butter\n4 oz cold cream cheese\n2 ¼ oz walnuts\n1 large egg yolk"
+    },
     {
       "id": 1,
       "primary_message": "For the Dough: In the work bowl of a food processor, combine flour, butter, cream cheese, and salt. Pulse 4 to 5 times, then turn the processor on and process until the dough forms a shaggy ball, about 1 minute.",

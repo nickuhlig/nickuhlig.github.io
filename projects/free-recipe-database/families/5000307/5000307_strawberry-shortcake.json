@@ -86,8 +86,9 @@
   "ingredients": [
     {
       "ingredient_id": 242,
-      "name": "strawberries, hulled and cut into 3/4-inch pieces",
-      "quantity": "1 ¾ lb"
+      "name": "strawberries",
+      "quantity": "1 ¾ lb",
+      "prep": "hulled and cut into 3/4-inch pieces"
     },
     {
       "ingredient_id": 346,
@@ -121,8 +122,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into 3/4-inch cubes",
-      "quantity": "10 tbsp"
+      "name": "cold unsalted butter",
+      "quantity": "10 tbsp",
+      "prep": "cut into 3/4-inch cubes"
     },
     {
       "ingredient_id": 1752,
@@ -166,6 +168,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Hull and cut the strawberries into 3/4-inch pieces. Cut the cold unsalted butter into 3/4-inch cubes.",
+      "secondary_message": "1 ¾ lb strawberries\n10 tbsp cold unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Strawberries: In a large bowl, combine diced strawberries, granulated sugar, and lemon juice and stir until well combined. Cover bowl, transfer to refrigerator, and let macerate, stirring periodically, for at least 1 hour and up to 8 hours.",

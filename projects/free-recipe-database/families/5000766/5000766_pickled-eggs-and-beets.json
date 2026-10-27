@@ -47,13 +47,15 @@
   "ingredients": [
     {
       "ingredient_id": 2092,
-      "name": "drained sliced pickled beets, liquid reserved",
-      "quantity": "10 ½ oz"
+      "name": "drained sliced pickled beets",
+      "quantity": "10 ½ oz",
+      "prep": "liquid reserved"
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, hard boiled and peeled",
-      "quantity": "6 large"
+      "name": "eggs",
+      "quantity": "6 large",
+      "prep": "hard boiled and peeled"
     },
     {
       "ingredient_id": 133,
@@ -87,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Reserve the liquid of the drained sliced pickled beets. Hard-boil and peel the eggs.",
+      "secondary_message": "10 ½ oz drained sliced pickled beets\n6 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "In a 1-quart jar, layer sliced beets and hard-boiled eggs in alternating layers.",

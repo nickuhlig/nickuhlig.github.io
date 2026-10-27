@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 1072,
-      "name": "Yukon gold potato, peeled and cut into 1/2-inch dice",
-      "quantity": "1 medium"
+      "name": "Yukon gold potato",
+      "quantity": "1 medium",
+      "prep": "peeled and cut into 1/2-inch dice"
     },
     {
       "ingredient_id": 243,
@@ -76,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the Yukon gold potato into 1/2-inch dice.",
+      "secondary_message": "1 medium Yukon gold potato"
+    },
     {
       "id": 1,
       "primary_message": "In a 3-quart saucier or saucepan, melt butter over medium heat until foaming. Add leek and garlic scapes and cook, stirring often, until softened but not browned, about 6 minutes.",

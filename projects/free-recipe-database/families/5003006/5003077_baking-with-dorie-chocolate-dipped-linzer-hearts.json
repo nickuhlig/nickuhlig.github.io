@@ -71,8 +71,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "1 stick"
+      "name": "unsalted butter",
+      "quantity": "1 stick",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -86,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature.",
+      "secondary_message": "1 stick unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Whisk together the ground nuts, flour, cinnamon, salt and cloves. Using a fork, stir the egg and water together in a small bowl.",

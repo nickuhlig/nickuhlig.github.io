@@ -54,8 +54,9 @@
   "ingredients": [
     {
       "ingredient_id": 1938,
-      "name": "vanilla bean, split and scraped",
-      "quantity": "1"
+      "name": "vanilla bean",
+      "quantity": "1",
+      "prep": "split and scraped"
     },
     {
       "ingredient_id": 346,
@@ -99,13 +100,15 @@
     },
     {
       "ingredient_id": 215,
-      "name": "dried apricots, cut into 1/4-inch dice",
-      "quantity": "57 g"
+      "name": "dried apricots",
+      "quantity": "57 g",
+      "prep": "cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 2107,
-      "name": "dried cherries, cut into 1/4-inch dice",
-      "quantity": "57 g"
+      "name": "dried cherries",
+      "quantity": "57 g",
+      "prep": "cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 74,
@@ -159,6 +162,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split and scrape the vanilla bean. Cut the dried apricots into 1/4-inch dice. Cut the dried cherries into 1/4-inch dice.",
+      "secondary_message": "1 vanilla bean\n57 g dried apricots\n57 g dried cherries"
+    },
     {
       "id": 1,
       "primary_message": "For the Dough: Rub vanilla seeds and sugar in the bowl of a stand mixer fitted with a dough hook attachment. Add yeast, salt, and flour and whisk to combine. Heat butter in a medium saucepan over medium-low heat, swirling, until butter starts bubbling. Remove from heat and stir in milk and Greek yogurt. Add to bowl with dry ingredients and stir with a wooden spoon or flexible spatula until a dry, shaggy dough has formed.",

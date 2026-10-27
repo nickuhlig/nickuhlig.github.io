@@ -49,8 +49,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, trimmed to 6-inches in length",
-      "quantity": "12 small"
+      "name": "scallions",
+      "quantity": "12 small",
+      "prep": "trimmed to 6-inches in length"
     },
     {
       "ingredient_id": 473,
@@ -84,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the scallions to 6-inches in length.",
+      "secondary_message": "12 small scallions"
+    },
     {
       "id": 1,
       "primary_message": "Bring 2 quarts of water to a boil in a medium pot over medium-high heat. Add 1/2 tablespoon of salt, then blanch scallions until just softened, about 45 seconds. Remove scallions to a bowl of ice water. Transfer scallions to paper towels to drain and pat dry.",

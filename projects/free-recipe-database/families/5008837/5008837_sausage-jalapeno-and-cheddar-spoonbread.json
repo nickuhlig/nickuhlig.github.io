@@ -38,13 +38,15 @@
     },
     {
       "ingredient_id": 313,
-      "name": "breakfast sausage, crumbled",
-      "quantity": "1 lb"
+      "name": "breakfast sausage",
+      "quantity": "1 lb",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño, finely chopped",
-      "quantity": "1"
+      "name": "jalapeño",
+      "quantity": "1",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 118,
@@ -58,8 +60,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "5 large"
+      "name": "eggs",
+      "quantity": "5 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 43,
@@ -73,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Crumble the breakfast sausage. Finely chop the jalapeño. Beat the eggs.",
+      "secondary_message": "1 lb breakfast sausage\n1 jalapeño\n5 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat to 400°F. Butter a soufflé or gratin dish.",

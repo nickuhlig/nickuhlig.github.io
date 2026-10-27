@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into small cubes",
-      "quantity": "8 tbsp"
+      "name": "cold unsalted butter",
+      "quantity": "8 tbsp",
+      "prep": "cut into small cubes"
     },
     {
       "ingredient_id": 359,
@@ -101,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cold unsalted butter into small cubes.",
+      "secondary_message": "8 tbsp cold unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Crust: In a large bowl, whisk flour, sugar, and salt to combine. Cut butter into flour using a pastry cutter or by rubbing butter into flour with fingertips (see notes) until no visible pieces of butter remain. Add 2 tablespoons ice water and, using a rubber spatula, fold until just moistened, pressing dough against itself on the side of the bowl to form a mass of dough. Add 1 more tablespoon water if too dry. Do not overmix. Press dough into a 5-inch disc and wrap in plastic wrap. Chill in refrigerator for 1 hour.",

@@ -78,13 +78,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into large cubes",
-      "quantity": "113 g"
+      "name": "unsalted butter",
+      "quantity": "113 g",
+      "prep": "cut into large cubes"
     },
     {
       "ingredient_id": 355,
-      "name": "cold cream cheese, cut into large cubes",
-      "quantity": "113 g"
+      "name": "cold cream cheese",
+      "quantity": "113 g",
+      "prep": "cut into large cubes"
     },
     {
       "ingredient_id": 2346,
@@ -98,8 +100,9 @@
     },
     {
       "ingredient_id": 29,
-      "name": "almonds, toasted and finely chopped",
-      "quantity": "28 g"
+      "name": "almonds",
+      "quantity": "28 g",
+      "prep": "toasted and finely chopped"
     },
     {
       "ingredient_id": 346,
@@ -118,8 +121,9 @@
     },
     {
       "ingredient_id": 3641,
-      "name": "egg yolk, whisked with 1 teaspoon cool water",
-      "quantity": "1"
+      "name": "egg yolk",
+      "quantity": "1",
+      "prep": "whisked with 1 teaspoon cool water"
     },
     {
       "ingredient_id": 1906,
@@ -128,6 +132,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into large cubes. Cut the cold cream cheese into large cubes. Toast and finely chop the almonds. Whisk the egg yolk with 1 teaspoon cool water.",
+      "secondary_message": "113 g unsalted butter\n113 g cold cream cheese\n28 g almonds\n1 egg yolk"
+    },
     {
       "id": 1,
       "primary_message": "For the Dough: In the bowl of a food processor, combine flour, butter, cream cheese, orange zest, and salt. Pulse 4 to 5 times, then turn the processor on and process until the dough forms a shaggy ball, about 1 minute.",

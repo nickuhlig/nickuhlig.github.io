@@ -65,8 +65,9 @@
   "ingredients": [
     {
       "ingredient_id": 3642,
-      "name": "egg whites, room temperature",
-      "quantity": "3 large"
+      "name": "egg whites",
+      "quantity": "3 large",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 1322,
@@ -85,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the egg whites to room temperature.",
+      "secondary_message": "3 large egg whites"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 200ºF (93ºC). Line two rimmed baking sheets with parchment paper and set aside. Fit a piping bag with desired piping tip; set aside.",

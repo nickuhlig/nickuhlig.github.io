@@ -125,8 +125,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely minced",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 1782,
@@ -140,6 +141,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the onion.",
+      "secondary_message": "1 large onion"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower position and preheat oven to 300°F. Combine sugar, salt, paprika, cumin, black pepper, coriander, ground fennel seed, and cayenne pepper in a small bowl and mix. Season pork with 2 to 3 tablespoons spice mixture, making sure to rub it on all sides. Reserve remaining spice mixture.",

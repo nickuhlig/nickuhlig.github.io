@@ -81,8 +81,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, peeled and left whole",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "peeled and left whole"
     },
     {
       "ingredient_id": 88,
@@ -101,8 +102,9 @@
     },
     {
       "ingredient_id": 158,
-      "name": "cauliflower, cut into florets",
-      "quantity": "1 medium"
+      "name": "cauliflower",
+      "quantity": "1 medium",
+      "prep": "cut into florets"
     },
     {
       "ingredient_id": 1044,
@@ -166,6 +168,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and leave the yellow onion whole. Cut the cauliflower into florets.",
+      "secondary_message": "1 medium yellow onion\n1 medium cauliflower"
+    },
     {
       "id": 1,
       "primary_message": "For the Broth: In a heavy-bottomed stock pot, heat olive oil over medium-high heat until shimmering. Add chicken, skin side down, and sear until the chicken is golden-brown all over and releases easily from the pot, about 5 minutes per side.",

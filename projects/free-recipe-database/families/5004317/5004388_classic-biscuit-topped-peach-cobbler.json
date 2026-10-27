@@ -103,8 +103,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "chilled unsalted butter, cut into 1/4-inch pieces",
-      "quantity": "6 tbsp"
+      "name": "chilled unsalted butter",
+      "quantity": "6 tbsp",
+      "prep": "cut into 1/4-inch pieces"
     },
     {
       "ingredient_id": 118,
@@ -113,6 +114,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the chilled unsalted butter into 1/4-inch pieces.",
+      "secondary_message": "6 tbsp chilled unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Peach Filling: Preheat oven to 200°C (400°F) and set rack to middle position. In a large bowl, combine peaches with sugar, lemon juice, bourbon, cornstarch, salt, nutmeg, and almond extract. Stir well to combine. Scrape peaches and any juices into an 8- by 20-cm baking dish and set on a rimmed baking sheet. Bake on middle rack for 10 minutes.",

@@ -52,8 +52,9 @@
   "ingredients": [
     {
       "ingredient_id": 15,
-      "name": "capers, drained, rinsed, and chopped",
-      "quantity": "2 tbsp"
+      "name": "capers",
+      "quantity": "2 tbsp",
+      "prep": "drained, rinsed, and chopped"
     },
     {
       "ingredient_id": 1731,
@@ -62,8 +63,9 @@
     },
     {
       "ingredient_id": 1480,
-      "name": "lemon juice, the other half cut into wedges",
-      "quantity": "1 tbsp"
+      "name": "lemon juice, from half a lemon",
+      "quantity": "1 tbsp",
+      "prep": "the other half cut into wedges"
     },
     {
       "ingredient_id": 47,
@@ -87,22 +89,31 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, very thinly sliced",
+      "name": "red onion",
       "quantity": "⅓ medium",
-      "weigh_as": "45 g"
+      "weigh_as": "45 g",
+      "prep": "very thinly sliced"
     },
     {
       "ingredient_id": 2239,
-      "name": "leftover cooked steak, sliced as thinly as possible",
-      "quantity": "113 to 170 g"
+      "name": "leftover cooked steak",
+      "quantity": "113 to 170 g",
+      "prep": "sliced as thinly as possible"
     },
     {
       "ingredient_id": 120,
-      "name": "Parmigiano-Reggiano, shaved with a vegetable peeler",
-      "quantity": "30 g"
+      "name": "Parmigiano-Reggiano",
+      "quantity": "30 g",
+      "prep": "shaved with a vegetable peeler"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain, rinse, and chop the capers. Juice half the lemon and cut the other half into wedges. Very thinly slice the red onion. Slice the leftover cooked steak as thinly as possible. Shave the Parmigiano-Reggiano with a vegetable peeler.",
+      "secondary_message": "2 tbsp capers\n1 tbsp lemon juice, from half a lemon\n⅓ medium red onion\n113 to 170 g leftover cooked steak\n30 g Parmigiano-Reggiano"
+    },
     {
       "id": 1,
       "primary_message": "Whisk together capers, mustard, lemon juice, and olive oil in a medium bowl. Season to taste with salt and pepper. Add arugula and red onion and toss to coat. Transfer to a serving dish, arrange steak and Parmesan shavings on top, and drizzle with any dressing remaining in the bowl. Sprinkle steak with a little salt and pepper. Serve with lemon wedges.",

@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 2380,
-      "name": "easy pie dough, shaped and chilled in a 9-inch pie plate",
-      "quantity": ""
+      "name": "easy pie dough",
+      "quantity": "",
+      "prep": "shaped and chilled in a 9-inch pie plate"
     },
     {
       "ingredient_id": 1468,
@@ -66,8 +67,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 1/2-inch pieces",
-      "quantity": "3 tbsp"
+      "name": "unsalted butter",
+      "quantity": "3 tbsp",
+      "prep": "cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 3642,
@@ -96,6 +98,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shape and chill the easy pie dough in a 9-inch pie plate. Cut the unsalted butter into 1/2-inch pieces.",
+      "secondary_message": "easy pie dough\n3 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Crust: Adjust oven racks to upper-middle position (about 20-cm from the broiler) and lowest positions and preheat the oven to 220°C (425°F) (220℃). Lightly prick chilled pie shell all over bottom in 1.5-cm intervals. Line pie shell with a double layer 36-cm square of parchment paper or aluminum foil, covering edges to prevent burning. Fill with sugar, pie weights, or dried beans.",

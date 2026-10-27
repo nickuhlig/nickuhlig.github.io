@@ -67,13 +67,15 @@
     },
     {
       "ingredient_id": 2294,
-      "name": "Italian sausage, cooked, cooled, and finely diced",
-      "quantity": "½ lb"
+      "name": "Italian sausage, cooked",
+      "quantity": "½ lb",
+      "prep": "cooled, and finely diced"
     },
     {
       "ingredient_id": 2016,
-      "name": "low-moisture mozzarella, finely diced",
-      "quantity": "¼ lb"
+      "name": "low-moisture mozzarella",
+      "quantity": "¼ lb",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 1126,
@@ -87,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cool and finely dice the Italian sausage. Finely dice the low-moisture mozzarella.",
+      "secondary_message": "½ lb Italian sausage, cooked\n¼ lb low-moisture mozzarella"
+    },
     {
       "id": 1,
       "primary_message": "Put bread flour and salt in bowl of food processor fitted with dough blade. Turn processor on and add egg. Then add water slowly,watching for dough to form ball (you might not need all the water). Continue processing until the dough is smooth and supple, about 15 seconds. Remove dough from food processor, form into flat disk. Wrap in plastic wrap and set aside to rest for one hour",

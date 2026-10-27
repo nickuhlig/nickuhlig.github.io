@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 1399,
-      "name": "Persian cucumbers, thinly sliced crosswise",
-      "quantity": "2"
+      "name": "Persian cucumbers",
+      "quantity": "2",
+      "prep": "thinly sliced crosswise"
     },
     {
       "ingredient_id": 1526,
@@ -67,18 +68,21 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, quartered and thinly sliced crosswise",
-      "quantity": "1 small"
+      "name": "carrot",
+      "quantity": "1 small",
+      "prep": "quartered and thinly sliced crosswise"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, thinly sliced",
-      "quantity": "¼"
+      "name": "red onion",
+      "quantity": "¼",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 121,
-      "name": "hard boiled eggs, peeled and chopped",
-      "quantity": "2"
+      "name": "hard boiled eggs",
+      "quantity": "2",
+      "prep": "peeled and chopped"
     },
     {
       "ingredient_id": 153,
@@ -87,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the Persian cucumbers crosswise. Quarter and thinly slice the carrot crosswise. Thinly slice the red onion. Peel and chop the hard boiled eggs.",
+      "secondary_message": "2 Persian cucumbers\n1 small carrot\n¼ red onion\n2 hard boiled eggs"
+    },
     {
       "id": 1,
       "primary_message": "Place potatoes in a large pot and add enough cold water to cover by 2.5 cm. Season generously with salt and bring to a boil over high heat. Reduce to a simmer and cook until potatoes are easily pierced with a fork, 10 to 15 minutes. Drain potatoes and transfer to a large bowl. Let cool.",

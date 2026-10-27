@@ -43,8 +43,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "butter, cut into 3 even pieces",
-      "quantity": "2 tbsp"
+      "name": "butter",
+      "quantity": "2 tbsp",
+      "prep": "cut into 3 even pieces"
     },
     {
       "ingredient_id": 1216,
@@ -63,6 +64,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the butter into 3 even pieces.",
+      "secondary_message": "2 tbsp butter"
+    },
     {
       "id": 1,
       "primary_message": "In a 25-cm nonstick skillet, melt 1 piece of butter over medium heat until foaming subsides. Add both bread slices and cook, swirling occasionally, until pale golden brown on bottom sides, about 2 minutes.",

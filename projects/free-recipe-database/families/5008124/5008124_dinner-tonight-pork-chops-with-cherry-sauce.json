@@ -30,8 +30,9 @@
   "ingredients": [
     {
       "ingredient_id": 2216,
-      "name": "cherries, pitted",
-      "quantity": "1 cup"
+      "name": "cherries",
+      "quantity": "1 cup",
+      "prep": "pitted"
     },
     {
       "ingredient_id": 359,
@@ -55,8 +56,9 @@
     },
     {
       "ingredient_id": 1677,
-      "name": "thyme leaves, chopped",
-      "quantity": "1 tsp"
+      "name": "thyme leaves",
+      "quantity": "1 tsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1683,
@@ -85,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pit the cherries. Chop the thyme leaves.",
+      "secondary_message": "1 cup cherries\n1 tsp thyme leaves"
+    },
     {
       "id": 1,
       "primary_message": "Toss the cherries into a small pot and pour in the water, red wine, red wine vinegar, honey, thyme leaves, mustard, and a pinch of salt. Bring to simmer and cook for about 10 to 15 minutes, smashing the cherries with a wooden spoon about half way through.",

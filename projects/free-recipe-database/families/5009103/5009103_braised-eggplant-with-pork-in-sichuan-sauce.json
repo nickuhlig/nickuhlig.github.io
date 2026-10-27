@@ -73,13 +73,15 @@
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, finely chopped",
-      "quantity": "2 tbsp"
+      "name": "ginger",
+      "quantity": "2 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely chopped",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 153,
@@ -88,8 +90,9 @@
     },
     {
       "ingredient_id": 1850,
-      "name": "hot green chiles, seeds and ribs removed, finely chopped",
-      "quantity": "2 small"
+      "name": "hot green chiles",
+      "quantity": "2 small",
+      "prep": "seeds and ribs removed, finely chopped"
     },
     {
       "ingredient_id": 1828,
@@ -103,6 +106,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the ginger. Finely chop the garlic. Remove the seeds and ribs from the hot green chiles, then finely chop them.",
+      "secondary_message": "2 tbsp ginger\n3 cloves garlic\n2 small hot green chiles"
+    },
     {
       "id": 1,
       "primary_message": "Slice eggplant into quarters lengthwise, then cut into 3-4 inch lengths. Place pieces in bamboo steamer and steam in wok over medium heat until fully tender, about 15 minutes. Indentation made with finger on eggplant should not spring back. Transfer eggplant to bowl and set aside.",

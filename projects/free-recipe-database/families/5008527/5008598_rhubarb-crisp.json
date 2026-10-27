@@ -82,8 +82,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, soft but cool, about 68°F",
-      "quantity": "142 g"
+      "name": "unsalted butter",
+      "quantity": "142 g",
+      "prep": "soft but cool, about 68°F"
     },
     {
       "ingredient_id": 327,
@@ -127,6 +128,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Let the unsalted butter soften slightly but keep it cool and bring it to 68°F.",
+      "secondary_message": "142 g unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Topping: Combine brown sugar, whole wheat flour, rolled oats, cinnamon, anise seed (if using), five-spice powder, salt, and butter in the bowl of a stand mixer fitted with a paddle attachment. Mix on low speed to form a thick dough, about 5 minutes. Alternatively, this can be done by hand. Toss in pecans, transfer to a zip-top bag, and refrigerate until needed, up to 1 month.",

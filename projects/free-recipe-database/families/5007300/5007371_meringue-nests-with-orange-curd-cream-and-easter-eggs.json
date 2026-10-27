@@ -74,8 +74,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into 1/2-inch cubes",
-      "quantity": "6 ½ tbsp"
+      "name": "cold unsalted butter",
+      "quantity": "6 ½ tbsp",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 316,
@@ -99,6 +100,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cold unsalted butter into 1/2-inch cubes.",
+      "secondary_message": "6 ½ tbsp cold unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Meringue Nests: adjust oven rack to center position and preheat oven to 205°C (400°F). Line a rimmed baking sheet with parchment paper. Pour the sugar onto the lined baking sheet and bake until the edges are just beginning to melt, 3 to 5 minutes.",

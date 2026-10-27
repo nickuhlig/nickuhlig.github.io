@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and crushed",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "peeled and crushed"
     },
     {
       "ingredient_id": 1480,
@@ -91,11 +92,18 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemons, thinly sliced",
-      "quantity": "3"
+      "name": "lemons",
+      "quantity": "3",
+      "prep": "thinly sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and crush the garlic. Thinly slice the lemons.",
+      "secondary_message": "2 cloves garlic\n3 lemons"
+    },
     {
       "id": 1,
       "primary_message": "Combine all of the ingredients for the marinade in a blender and process until smooth. Place lamb in a large Ziploc bag and pour in marinade. Seal and toss bag to coat the lamb evenly, open and reseal the bag, removing as much air as possible. Let stand at room temperature for 1 hour or refrigerate up to overnight. If refrigerated, let lamb return to room temperature before grilling.",

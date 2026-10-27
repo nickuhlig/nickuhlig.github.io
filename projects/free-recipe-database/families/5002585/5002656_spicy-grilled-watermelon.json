@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 2727,
-      "name": "watermelon, cut into 1-inch thick wedges",
-      "quantity": "1 medium"
+      "name": "watermelon",
+      "quantity": "1 medium",
+      "prep": "cut into 1-inch thick wedges"
     },
     {
       "ingredient_id": 243,
@@ -67,6 +68,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the watermelon into 1-inch thick wedges.",
+      "secondary_message": "1 medium watermelon"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, whisk together honey, lime juice, cayenne pepper, and salt.",

@@ -49,11 +49,18 @@
   "ingredients": [
     {
       "ingredient_id": 1449,
-      "name": "sweetened condensed milk, label removed",
-      "quantity": "1 (14 oz) can"
+      "name": "sweetened condensed milk",
+      "quantity": "1 (14 oz) can",
+      "prep": "label removed"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the label from the sweetened condensed milk.",
+      "secondary_message": "1 (14 oz) can sweetened condensed milk"
+    },
     {
       "id": 1,
       "primary_message": "Place the can on its side in a large pot. Fill pot with room-temperature water, making sure water level is at least 2 inches above can. Remember, it's vital the can remain fully submerged during the entirety of simmering to prevent it from warping and splitting, which can result in injuries.",

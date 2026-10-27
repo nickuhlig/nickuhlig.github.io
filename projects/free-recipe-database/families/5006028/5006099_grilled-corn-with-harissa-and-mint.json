@@ -70,8 +70,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 47,
@@ -95,11 +96,18 @@
     },
     {
       "ingredient_id": 27,
-      "name": "corn, shucked",
-      "quantity": "8 ears"
+      "name": "corn",
+      "quantity": "8 ears",
+      "prep": "shucked"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the garlic. Shuck the corn.",
+      "secondary_message": "1 medium clove garlic\n8 ears corn"
+    },
     {
       "id": 1,
       "primary_message": "Light one chimney full of charcoal. When all charcoal is lit and covered with gray ash, pour out and arrange coals on one side of charcoal grate. Set cooking grate in place, cover grill, and allow to preheat for 5 minutes. Alternatively, set half the burners on a gas grill to the highest heat setting, cover, and preheat for 10 minutes. Clean and oil grilling grate.",

@@ -36,13 +36,15 @@
   "ingredients": [
     {
       "ingredient_id": 302,
-      "name": "bacon, cut in half crosswise",
-      "quantity": "3 slices"
+      "name": "bacon",
+      "quantity": "3 slices",
+      "prep": "cut in half crosswise"
     },
     {
       "ingredient_id": 466,
-      "name": "English muffin, split and toasted",
-      "quantity": "1"
+      "name": "English muffin",
+      "quantity": "1",
+      "prep": "split and toasted"
     },
     {
       "ingredient_id": 267,
@@ -61,6 +63,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the bacon in half crosswise. Split and toast the English muffin.",
+      "secondary_message": "3 slices bacon\n1 English muffin"
+    },
     {
       "id": 1,
       "primary_message": "Cook bacon in a skillet over medium-low heat, turning occasionally, until completely crisp, about 5 minutes total. Drain on a paper towel–lined plate.",

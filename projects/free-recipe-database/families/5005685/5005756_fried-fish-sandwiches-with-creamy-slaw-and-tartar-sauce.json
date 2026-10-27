@@ -54,13 +54,15 @@
   "ingredients": [
     {
       "ingredient_id": 2715,
-      "name": "cabbage, finely shredded",
-      "quantity": "1 small head"
+      "name": "cabbage",
+      "quantity": "1 small head",
+      "prep": "finely shredded"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, thinly sliced",
-      "quantity": "½ small"
+      "name": "red onion",
+      "quantity": "½ small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -104,8 +106,9 @@
     },
     {
       "ingredient_id": 15,
-      "name": "capers, rinsed, drained, and chopped",
-      "quantity": "1 ½ tbsp"
+      "name": "capers",
+      "quantity": "1 ½ tbsp",
+      "prep": "rinsed, drained, and chopped"
     },
     {
       "ingredient_id": 346,
@@ -169,6 +172,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely shred the cabbage. Thinly slice the red onion. Rinse, drain, and chop the capers.",
+      "secondary_message": "1 small head cabbage\n½ small red onion\n1 ½ tbsp capers"
+    },
     {
       "id": 1,
       "primary_message": "For the Slaw: Toss cabbage and onion with 1 teaspoon kosher salt and lots of black pepper and set aside. Meanwhile, combine vinegar, mustard, mayonnaise, and sugar in a medium bowl and set aside for at least 15 minutes.",

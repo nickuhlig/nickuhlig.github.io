@@ -92,8 +92,9 @@
     },
     {
       "ingredient_id": 3641,
-      "name": "egg yolk, lightly beaten",
-      "quantity": "1 large"
+      "name": "egg yolk",
+      "quantity": "1 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 347,
@@ -102,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly beat the egg yolk.",
+      "secondary_message": "1 large egg yolk"
+    },
     {
       "id": 1,
       "primary_message": "For the Cookie Dough: In a 25-cm skillet on medium heat, toast almond flour, stirring constantly, until fragrant and slightly darkened, about 5 minutes. Transfer to a medium bowl and let cool to room temperature, about 5 minutes.",

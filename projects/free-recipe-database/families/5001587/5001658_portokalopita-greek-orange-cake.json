@@ -83,8 +83,9 @@
     },
     {
       "ingredient_id": 2818,
-      "name": "store-bought frozen phyllo sheets, defrosted",
-      "quantity": "450 g"
+      "name": "store-bought frozen phyllo sheets",
+      "quantity": "450 g",
+      "prep": "defrosted"
     },
     {
       "ingredient_id": 346,
@@ -93,8 +94,9 @@
     },
     {
       "ingredient_id": 232,
-      "name": "oranges, zested",
-      "quantity": "2"
+      "name": "oranges",
+      "quantity": "2",
+      "prep": "zested"
     },
     {
       "ingredient_id": 121,
@@ -138,6 +140,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Defrost the store-bought frozen phyllo sheets. Zest the oranges.",
+      "secondary_message": "450 g store-bought frozen phyllo sheets\n2 oranges"
+    },
     {
       "id": 1,
       "primary_message": "For the Syrup: In a medium saucepan, combine sugar, water or tea, orange juice, orange blossom water (if using), pumpkin pie spice (if using), and orange or tangerine pieces (if using). Bring to a boil over high heat, then reduce heat to medium and simmer for 15 minutes. Remove from heat. Set aside and let cool completely.",

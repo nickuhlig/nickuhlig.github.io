@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño peppers, stemmed and seeded and roughly chopped",
-      "quantity": "2 medium"
+      "name": "jalapeño peppers",
+      "quantity": "2 medium",
+      "prep": "stemmed and seeded and roughly chopped"
     },
     {
       "ingredient_id": 359,
@@ -76,8 +77,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "loosely packed cilantro leaves, tender stems roughly chopped",
-      "quantity": "¼ cup"
+      "name": "loosely packed cilantro leaves",
+      "quantity": "¼ cup",
+      "prep": "tender stems roughly chopped"
     },
     {
       "ingredient_id": 72,
@@ -91,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem, seed, and roughly chop the jalapeño peppers. Roughly chop the tender stems of the loosely packed cilantro leaves.",
+      "secondary_message": "2 medium jalapeño peppers\n¼ cup loosely packed cilantro leaves"
+    },
     {
       "id": 1,
       "primary_message": "Arrange scallops in an even layer on a large plate and sprinkle all over with salt. Cover with plastic and refrigerate for at least 1 hour and up to 2 hours.",

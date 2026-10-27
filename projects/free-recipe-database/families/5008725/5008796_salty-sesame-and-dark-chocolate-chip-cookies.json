@@ -52,8 +52,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "1 cup"
+      "name": "unsalted butter",
+      "quantity": "1 cup",
+      "prep": "softened"
     },
     {
       "ingredient_id": 293,
@@ -97,6 +98,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter.",
+      "secondary_message": "1 cup unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Place racks in the center and upper third of the oven and line two baking sheets with parchment paper. Set aside.",

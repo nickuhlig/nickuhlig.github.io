@@ -44,9 +44,10 @@
     },
     {
       "ingredient_id": 18,
-      "name": "eggplant, trimmed, peeled, and halved lengthwise",
+      "name": "eggplant",
       "quantity": "1 ⅔",
-      "weigh_as": "2 lb"
+      "weigh_as": "2 lb",
+      "prep": "trimmed, peeled, and halved lengthwise"
     },
     {
       "ingredient_id": 72,
@@ -70,8 +71,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced or very well crushed",
-      "quantity": "3"
+      "name": "garlic",
+      "quantity": "3",
+      "prep": "finely minced or very well crushed"
     },
     {
       "ingredient_id": 1944,
@@ -80,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim, peel, and halve the eggplant lengthwise. Finely mince or very well crush the garlic.",
+      "secondary_message": "1 ⅔ eggplant\n3 garlic"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, whisk kashk paste with 1/4 cup water until well combined. Adjust consistency with additional water, 1 tablespoon at a time, until it is thick but pourable (similar to a crêpe batter); set aside.",

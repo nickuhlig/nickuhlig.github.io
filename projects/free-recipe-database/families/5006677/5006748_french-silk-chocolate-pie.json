@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 1752,
-      "name": "heavy cream, chilled",
-      "quantity": "1 cup"
+      "name": "heavy cream",
+      "quantity": "1 cup",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 121,
@@ -56,8 +57,9 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "225 g"
+      "name": "bittersweet chocolate",
+      "quantity": "225 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1517,
@@ -66,16 +68,24 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "½ cup"
+      "name": "unsalted butter",
+      "quantity": "½ cup",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1551,
-      "name": "single pie crust, blind baked in a pie plate and cooled",
-      "quantity": "1"
+      "name": "single pie crust",
+      "quantity": "1",
+      "prep": "blind baked in a pie plate and cooled"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the heavy cream cold until you use it. Finely chop the bittersweet chocolate. Soften the unsalted butter. Bake the blind of the single pie crust in a pie plate and let it cool.",
+      "secondary_message": "1 cup heavy cream\n225 g bittersweet chocolate\n½ cup unsalted butter\n1 single pie crust"
+    },
     {
       "id": 1,
       "primary_message": "Whip heavy cream and set aside in the fridge.",

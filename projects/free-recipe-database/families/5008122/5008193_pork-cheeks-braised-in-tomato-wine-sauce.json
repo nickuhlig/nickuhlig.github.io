@@ -48,18 +48,21 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled, cut into 1/2 inch rounds",
-      "quantity": "2 medium"
+      "name": "carrots",
+      "quantity": "2 medium",
+      "prep": "peeled, cut into 1/2 inch rounds"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, chopped into 1/4-inch dice",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "chopped into 1/4-inch dice"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, chopped into 1/4-inch dice",
-      "quantity": "2 stalks"
+      "name": "celery",
+      "quantity": "2 stalks",
+      "prep": "chopped into 1/4-inch dice"
     },
     {
       "ingredient_id": 1714,
@@ -88,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the carrots into 1/2 inch rounds. Chop the onion into 1/4-inch dice. Chop the celery into 1/4-inch dice.",
+      "secondary_message": "2 medium carrots\n1 medium onion\n2 stalks celery"
+    },
     {
       "id": 1,
       "primary_message": "In a large Dutch oven, heat oil over medium heat. Dry pork cheeks and sprinkle with salt and pepper. Add them to the pan in batches, taking care not to crowd the meat. Cook until the surface is browned on both sides, about 4 minutes per side, flipping only once or twice so as not to disturb browning. Remove with tongs to a plate and brown remaining cheeks, adding more oil if needed. Set aside.",

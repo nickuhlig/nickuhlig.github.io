@@ -92,8 +92,9 @@
     },
     {
       "ingredient_id": 2293,
-      "name": "strong black coffee, cooled",
-      "quantity": "1 ½ cups"
+      "name": "strong black coffee",
+      "quantity": "1 ½ cups",
+      "prep": "cooled"
     },
     {
       "ingredient_id": 1044,
@@ -102,8 +103,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, whisked",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "whisked"
     },
     {
       "ingredient_id": 353,
@@ -122,8 +124,9 @@
     },
     {
       "ingredient_id": 347,
-      "name": "powdered sugar, sifted",
-      "quantity": "1 ⅓ cups"
+      "name": "powdered sugar",
+      "quantity": "1 ⅓ cups",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 359,
@@ -137,6 +140,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cool the strong black coffee. Whisk the eggs. Sift the powdered sugar.",
+      "secondary_message": "1 ½ cups strong black coffee\n2 large eggs\n1 ⅓ cups powdered sugar"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350°F. Spray a 12-cup Bundt pan with nonstick cooking spray.",

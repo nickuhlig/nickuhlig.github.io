@@ -40,8 +40,9 @@
     },
     {
       "ingredient_id": 105,
-      "name": "broccoli, cut into florets",
-      "quantity": "1 large head"
+      "name": "broccoli",
+      "quantity": "1 large head",
+      "prep": "cut into florets"
     },
     {
       "ingredient_id": 47,
@@ -50,8 +51,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, chopped",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1721,
@@ -75,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the broccoli into florets. Chop the garlic.",
+      "secondary_message": "1 large head broccoli\n3 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Bring a large pot of salted water to boil and add the broccoli florets. Cook until tender, then remove with a slotted spoon. Add the pasta and cook until al dente, reserving 1/2 cup cooking water before draining.",

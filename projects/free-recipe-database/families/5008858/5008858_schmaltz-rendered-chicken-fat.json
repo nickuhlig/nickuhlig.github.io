@@ -30,16 +30,24 @@
   "ingredients": [
     {
       "ingredient_id": 2417,
-      "name": "chicken fat and skin, finely chopped",
-      "quantity": "¾ lb"
+      "name": "chicken fat and skin",
+      "quantity": "¾ lb",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, chopped",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the chicken fat and skin. Chop the onion.",
+      "secondary_message": "¾ lb chicken fat and skin\n1 medium onion"
+    },
     {
       "id": 1,
       "primary_message": "In a medium saucepan, combine chicken fat and skin with just enough water to barely cover. Bring to a simmer over high heat, then lower heat to medium-low and continue to simmer, stirring frequently, until fat has mostly rendered, water has cooked off, and chicken skin and fat pieces are small, browned, and starting to crisp, about 50 minutes. Add onion and cook, stirring frequently until lightly browned, 10-15 minutes.",

@@ -65,8 +65,9 @@
     },
     {
       "ingredient_id": 1784,
-      "name": "black peppercorns, crushed",
-      "quantity": "½ tsp"
+      "name": "black peppercorns",
+      "quantity": "½ tsp",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 221,
@@ -75,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Crush the black peppercorns.",
+      "secondary_message": "½ tsp black peppercorns"
+    },
     {
       "id": 1,
       "primary_message": "Wash turnips well and slice them thinly on a mandoline. Place turnip slices in a small bowl and toss with the salt. Let rest until there is a pool of liquid on the bottom of the bowl, about 30 minutes. Drain turnips of the salty water and pack into a pint-sized mason jar.",

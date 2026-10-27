@@ -37,13 +37,15 @@
   "ingredients": [
     {
       "ingredient_id": 1021,
-      "name": "17.3 ounce package frozen puff pastry, thawed",
-      "quantity": "½"
+      "name": "17.3 ounce package frozen puff pastry",
+      "quantity": "½",
+      "prep": "thawed"
     },
     {
       "ingredient_id": 234,
-      "name": "peaches, pitted and sliced into 1/8-inch slices",
-      "quantity": "3"
+      "name": "peaches",
+      "quantity": "3",
+      "prep": "pitted and sliced into 1/8-inch slices"
     },
     {
       "ingredient_id": 346,
@@ -77,6 +79,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thaw the 17.3 ounce package frozen puff pastry. Pit and slice the peaches into 1/8-inch slices.",
+      "secondary_message": "½ 17.3 ounce package frozen puff pastry\n3 peaches"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and line a baking sheet with parchment paper. Preheat oven to 190°C (375°F).",

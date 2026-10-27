@@ -53,8 +53,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "10 tbsp"
+      "name": "unsalted butter",
+      "quantity": "10 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 346,
@@ -63,11 +64,18 @@
     },
     {
       "ingredient_id": 358,
-      "name": "chocolate ice cream, softened",
-      "quantity": "2839 ml"
+      "name": "chocolate ice cream",
+      "quantity": "2839 ml",
+      "prep": "softened"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Soften the chocolate ice cream.",
+      "secondary_message": "10 tbsp unsalted butter\n2839 ml chocolate ice cream"
+    },
     {
       "id": 1,
       "primary_message": "Place wafers from one box of chocolate wafers in the bowl of a food processor and pulse until finely crushed (see notes). Transfer to a large bowl and stir in butter and sugar until moistened. Press mixture into the bottom of a 23 to 25-cm springform pan.",

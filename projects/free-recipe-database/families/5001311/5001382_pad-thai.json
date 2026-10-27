@@ -85,8 +85,9 @@
     },
     {
       "ingredient_id": 2478,
-      "name": "pressed tofu, cut into 1- by 1/2- by 1/4-inch pieces",
-      "quantity": "70 g"
+      "name": "pressed tofu",
+      "quantity": "70 g",
+      "prep": "cut into 1- by 1/2- by 1/4-inch pieces"
     },
     {
       "ingredient_id": 3495,
@@ -100,8 +101,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "Asian shallot, cut into 1/4-inch dice",
-      "quantity": "1 small"
+      "name": "Asian shallot",
+      "quantity": "1 small",
+      "prep": "cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 121,
@@ -115,8 +117,9 @@
     },
     {
       "ingredient_id": 2224,
-      "name": "Chinese flat garlic chives, cut into 1 1/2–inch pieces , divided",
-      "quantity": "40 g"
+      "name": "Chinese flat garlic chives, divided",
+      "quantity": "40 g",
+      "prep": "cut into 1 1/2–inch pieces"
     },
     {
       "ingredient_id": 1761,
@@ -130,6 +133,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the pressed tofu into 1- by 1/2- by 1/4-inch pieces. Cut the Asian shallot into 1/4-inch dice. Cut the Chinese flat garlic chives into 1 1/2–inch pieces.",
+      "secondary_message": "70 g pressed tofu\n1 small Asian shallot\n40 g Chinese flat garlic chives, divided"
+    },
     {
       "id": 1,
       "primary_message": "For the Rice Noodles: In a medium bowl, cover noodles with slightly warm water (about 43°C; 43°C). Allow noodles to hydrate until pliable, about 30 minutes.",

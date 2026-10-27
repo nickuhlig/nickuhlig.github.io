@@ -39,9 +39,10 @@
     },
     {
       "ingredient_id": 1929,
-      "name": "shiitake mushrooms, stems removed, thinly sliced",
+      "name": "shiitake mushrooms",
       "quantity": "0.11 kg",
-      "weigh_as": "4"
+      "weigh_as": "4",
+      "prep": "stems removed, thinly sliced"
     },
     {
       "ingredient_id": 1231,
@@ -90,16 +91,24 @@
     },
     {
       "ingredient_id": 1088,
-      "name": "roasted chicken, shredded",
-      "quantity": "0.11 kg"
+      "name": "roasted chicken",
+      "quantity": "0.11 kg",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño, stemmed, seeded, and finely chopped",
-      "quantity": "1"
+      "name": "jalapeño",
+      "quantity": "1",
+      "prep": "stemmed, seeded, and finely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the stems from the shiitake mushrooms, then thinly slice them. Shred the roasted chicken. Stem, seed, and finely chop the jalapeño.",
+      "secondary_message": "0.11 kg shiitake mushrooms\n0.11 kg roasted chicken\n1 jalapeño"
+    },
     {
       "id": 1,
       "primary_message": "Bring large pot of water to a boil. Meanwhile, Pour oil into medium-sized saucepan set over medium heat. Add leeks and mushrooms. Cook until leeks are soft, about four minutes.",

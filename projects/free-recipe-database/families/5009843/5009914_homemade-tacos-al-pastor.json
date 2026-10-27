@@ -42,13 +42,15 @@
   "ingredients": [
     {
       "ingredient_id": 2541,
-      "name": "whole ancho chiles, seeds and stems removed",
-      "quantity": "2"
+      "name": "whole ancho chiles",
+      "quantity": "2",
+      "prep": "seeds and stems removed"
     },
     {
       "ingredient_id": 2587,
-      "name": "whole pasilla chiles, seeds and stems removed",
-      "quantity": "2"
+      "name": "whole pasilla chiles",
+      "quantity": "2",
+      "prep": "seeds and stems removed"
     },
     {
       "ingredient_id": 1505,
@@ -117,13 +119,15 @@
     },
     {
       "ingredient_id": 321,
-      "name": "corn tortillas, heated and kept warm",
-      "quantity": "32 to 48"
+      "name": "corn tortillas",
+      "quantity": "32 to 48",
+      "prep": "heated and kept warm"
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, finely diced",
-      "quantity": "1 medium"
+      "name": "white onion",
+      "quantity": "1 medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 188,
@@ -137,11 +141,18 @@
     },
     {
       "ingredient_id": 228,
-      "name": "limes, cut into 8 wedges each",
-      "quantity": "3 to 4"
+      "name": "limes",
+      "quantity": "3 to 4",
+      "prep": "cut into 8 wedges each"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the seeds and stems from the whole ancho chiles. Remove the seeds and stems from the whole pasilla chiles. Heat and keep the corn tortillas warm. Finely dice the white onion. Cut the limes into 8 wedges each.",
+      "secondary_message": "2 whole ancho chiles\n2 whole pasilla chiles\n32 to 48 corn tortillas\n1 medium white onion\n3 to 4 limes"
+    },
     {
       "id": 1,
       "primary_message": "Place chiles in a large saucepan over medium high heat and cook, turning chiles occasionally, until puffed, pliable, lightly browned in spots, and very aromatic, about 5 minutes. Add chicken stock (it should boil immediately), then pour contents of pan into a small bowl. Cover loosely and set aside.",

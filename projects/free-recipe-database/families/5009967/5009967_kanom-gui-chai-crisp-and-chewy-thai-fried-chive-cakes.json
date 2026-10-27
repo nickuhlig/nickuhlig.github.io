@@ -83,8 +83,9 @@
     },
     {
       "ingredient_id": 2725,
-      "name": "Chinese chives, cut into 1/2-inch dice",
-      "quantity": "½ lb"
+      "name": "Chinese chives",
+      "quantity": "½ lb",
+      "prep": "cut into 1/2-inch dice"
     },
     {
       "ingredient_id": 88,
@@ -113,6 +114,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the Chinese chives into 1/2-inch dice.",
+      "secondary_message": "½ lb Chinese chives"
+    },
     {
       "id": 1,
       "primary_message": "For the Dipping Sauce: In a small bowl, whisk together all ingredients. Set aside.",

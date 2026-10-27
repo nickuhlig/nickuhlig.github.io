@@ -47,8 +47,9 @@
   "ingredients": [
     {
       "ingredient_id": 121,
-      "name": "eggs, separated",
-      "quantity": "8 large"
+      "name": "eggs",
+      "quantity": "8 large",
+      "prep": "separated"
     },
     {
       "ingredient_id": 1322,
@@ -107,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Separate the eggs.",
+      "secondary_message": "8 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower-middle position and preheat oven to 165°C (325°F). Using mixer fitted with whip attachment, beat whites and cream of tartar on medium speed until frothy. Increases speed to medium-high and beat until beginning to form soft peak. Slowly add 1/3 cup sugar and continue to whip to stiff but not dry peak, about 3 minutes. Transfer meringue to a large bowl.",

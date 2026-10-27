@@ -62,8 +62,9 @@
     },
     {
       "ingredient_id": 3670,
-      "name": "oil-cured black olives, roughly chopped",
-      "quantity": "2 tbsp"
+      "name": "oil-cured black olives",
+      "quantity": "2 tbsp",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 267,
@@ -82,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the oil-cured black olives.",
+      "secondary_message": "2 tbsp oil-cured black olives"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, gently mix together beef with vinegar, making sure to mix only as long as it takes to just combine them (overmixing the meat will cause it to form a tighter, more meatloaf-like texture, so make sure not to do it any more than necessary). Form 2 patties slightly wider than the width of the buns, press a dimple in the center of each with your thumb, and season all over with salt. Refrigerate for at least 30 minutes and up to 1 hour.",

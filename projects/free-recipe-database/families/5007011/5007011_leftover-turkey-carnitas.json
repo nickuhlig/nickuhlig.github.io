@@ -36,13 +36,15 @@
     },
     {
       "ingredient_id": 232,
-      "name": "orange, preferably sour, quartered",
-      "quantity": "1"
+      "name": "orange, preferably sour",
+      "quantity": "1",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, quartered",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 1747,
@@ -61,6 +63,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Quarter the orange. Quarter the yellow onion.",
+      "secondary_message": "1 orange, preferably sour\n1 medium yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "Combine turkey meat (with bones if available), orange, onion, and bay leaf in a pot that fits them snugly. Add enough water to cover halfway. Cover and bring to a boil, then reduce to a bare simmer and cook until turkey is fall-off-the-bone tender, 45 minutes to 1 hour. Discard orange, onion, and bay leaves and drain turkey well. Shred turkey and discard bones.",

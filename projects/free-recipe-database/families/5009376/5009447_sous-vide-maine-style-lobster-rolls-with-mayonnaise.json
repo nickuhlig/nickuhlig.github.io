@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 2746,
-      "name": "sous vide lobster, fully cooled",
-      "quantity": "1 recipe"
+      "name": "sous vide lobster",
+      "quantity": "1 recipe",
+      "prep": "fully cooled"
     },
     {
       "ingredient_id": 267,
@@ -55,8 +56,9 @@
     },
     {
       "ingredient_id": 157,
-      "name": "celery, finely diced",
-      "quantity": "1 rib"
+      "name": "celery",
+      "quantity": "1 rib",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 270,
@@ -65,8 +67,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, juiced, to taste",
-      "quantity": "1"
+      "name": "lemon, to taste",
+      "quantity": "1",
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -80,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Fully cool the sous vide lobster. Finely dice the celery. Juice the lemon.",
+      "secondary_message": "1 recipe sous vide lobster\n1 rib celery\n1 lemon, to taste"
+    },
     {
       "id": 1,
       "primary_message": "Heat butter in a large skillet or on a griddle over medium heat until foaming subsides. Add hot dog buns, with exposed crumbs down, and griddle until golden brown. Flip and griddle second side. Transfer to a serving platter.",

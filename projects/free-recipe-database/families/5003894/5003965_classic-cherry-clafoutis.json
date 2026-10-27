@@ -73,26 +73,36 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, lightly beaten",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted, plus more for greasing",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter, plus more for greasing",
+      "quantity": "2 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 353,
-      "name": "pure vanilla extract, split and seeds scraped",
-      "quantity": "⅛ tsp"
+      "name": "pure vanilla extract",
+      "quantity": "⅛ tsp",
+      "prep": "split and seeds scraped"
     },
     {
       "ingredient_id": 2216,
-      "name": "sweet cherries, pitted",
-      "quantity": "0.34 kg"
+      "name": "sweet cherries",
+      "quantity": "0.34 kg",
+      "prep": "pitted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly beat the eggs. Melt the unsalted butter. Split the pure vanilla extract, then scrape the seeds. Pit the sweet cherries.",
+      "secondary_message": "2 large eggs\n2 tbsp unsalted butter, plus more for greasing\n⅛ tsp pure vanilla extract\n0.34 kg sweet cherries"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 180°C (350°F). In a medium mixing bowl, stir together flour, sugar, and salt. Whisk in milk, eggs, butter, kirsch (if using), and vanilla extract or seeds until a smooth batter forms.",

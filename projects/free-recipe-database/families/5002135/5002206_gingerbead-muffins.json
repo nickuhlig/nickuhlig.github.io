@@ -84,8 +84,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "4 tbsp"
+      "name": "unsalted butter",
+      "quantity": "4 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 3593,
@@ -159,8 +160,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted and cooled",
-      "quantity": "6 tbsp"
+      "name": "unsalted butter",
+      "quantity": "6 tbsp",
+      "prep": "melted and cooled"
     },
     {
       "ingredient_id": 121,
@@ -174,8 +176,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "57 g"
+      "name": "cream cheese",
+      "quantity": "57 g",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1710,
@@ -194,6 +197,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Melt the unsalted butter and let it cool. Soften the cream cheese.",
+      "secondary_message": "4 tbsp unsalted butter\n6 tbsp unsalted butter\n57 g cream cheese"
+    },
     {
       "id": 1,
       "primary_message": "For the Streusel: In a small bowl, whisk flour, brown sugar, crystallized ginger, cinnamon, and salt until no clumps of brown sugar remain and mixture resembles dry sand. Drizzle in melted butter and, using a fork, stir until mixture is evenly moistened and a variety of crumb sizes form. Set aside.",

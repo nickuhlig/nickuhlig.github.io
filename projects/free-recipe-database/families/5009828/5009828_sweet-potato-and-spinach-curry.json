@@ -44,18 +44,21 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, chopped",
-      "quantity": "1 medium"
+      "name": "white onion",
+      "quantity": "1 medium",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "2 medium"
+      "name": "garlic cloves",
+      "quantity": "2 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, peeled and minced",
-      "quantity": "1 inch piece"
+      "name": "fresh ginger",
+      "quantity": "1 inch piece",
+      "prep": "peeled and minced"
     },
     {
       "ingredient_id": 71,
@@ -84,9 +87,10 @@
     },
     {
       "ingredient_id": 143,
-      "name": "sweet potato, peeled and cut into 1-inch cubes",
+      "name": "sweet potato",
       "quantity": "⅓ lb",
-      "weigh_as": "1 large"
+      "weigh_as": "1 large",
+      "prep": "peeled and cut into 1-inch cubes"
     },
     {
       "ingredient_id": 359,
@@ -100,6 +104,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the white onion. Mince the garlic cloves. Peel and mince the fresh ginger. Peel and cut the sweet potato into 1-inch cubes.",
+      "secondary_message": "1 medium white onion\n2 medium garlic cloves\n1 inch piece fresh ginger\n⅓ lb sweet potato"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in a large saucepan over medium-high heat until shimmering. Add cumin seeds, and stir constantly with a wooden spoon until fragrant, 15 to 20 seconds. Stir in onion, garlic, and ginger and cook until onion is lightly browned, about 5 minutes.",

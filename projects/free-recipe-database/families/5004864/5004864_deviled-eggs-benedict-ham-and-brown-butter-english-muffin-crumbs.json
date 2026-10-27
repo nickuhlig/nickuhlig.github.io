@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 3072,
-      "name": "hard boiled, peeled and halved lengthwise",
-      "quantity": "6"
+      "name": "hard-boiled eggs",
+      "quantity": "6",
+      "prep": "peeled and halved lengthwise"
     },
     {
       "ingredient_id": 1480,
@@ -90,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and halve the hard-boiled eggs lengthwise.",
+      "secondary_message": "6 hard-boiled eggs"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 400°F. Lay ham between two silicone baking sheet liners or pieces of parchment paper and place on a rimmed baking sheet. Place a second baking sheet on top and place in oven. Cook until ham is well-rendered and golden brown (it will not be completely crisp but will crisp upon cooling), about 20 minutes. Remove from oven and set aside.",

@@ -40,8 +40,9 @@
     },
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, rinsed",
-      "quantity": "3 cups"
+      "name": "cherry tomatoes",
+      "quantity": "3 cups",
+      "prep": "rinsed"
     },
     {
       "ingredient_id": 47,
@@ -50,8 +51,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1721,
@@ -75,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse the cherry tomatoes. Thinly slice the garlic.",
+      "secondary_message": "3 cups cherry tomatoes\n4 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Chop the tomatoes up into half-inch pieces. Pour the olive oil into a large skillet over medium high heat. Add the garlic and red pepper flakes. Cook until fragrant, about 1 minute. Add the chopped tomatoes. Cook until the tomatoes until they have softened, about 5 minutes.",

@@ -41,9 +41,10 @@
   "ingredients": [
     {
       "ingredient_id": 1039,
-      "name": "russet potatoes, washed",
+      "name": "russet potatoes",
       "quantity": "4 medium",
-      "weigh_as": "0.91 kg"
+      "weigh_as": "0.91 kg",
+      "prep": "washed"
     },
     {
       "ingredient_id": 1704,
@@ -67,6 +68,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash the russet potatoes.",
+      "secondary_message": "4 medium russet potatoes"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center position and preheat oven to 205°C (400°F). Pierce potatoes a few times with a knife and place on a baking sheet. Roast until tender, about 1 hour. Remove potatoes from oven and allow to cool.",

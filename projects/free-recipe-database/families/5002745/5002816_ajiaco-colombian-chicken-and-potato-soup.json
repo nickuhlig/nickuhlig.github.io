@@ -38,13 +38,15 @@
     },
     {
       "ingredient_id": 1703,
-      "name": "whole bone-in skin-on chicken breast, split",
-      "quantity": "1"
+      "name": "whole bone-in skin-on chicken breast",
+      "quantity": "1",
+      "prep": "split"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, split in half",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "split in half"
     },
     {
       "ingredient_id": 1747,
@@ -53,14 +55,16 @@
     },
     {
       "ingredient_id": 1039,
-      "name": "russet potatoes, peeled and cut into rough 1-inch chunks",
+      "name": "russet potatoes",
       "quantity": "4 medium",
-      "weigh_as": "0.91 kg"
+      "weigh_as": "0.91 kg",
+      "prep": "peeled and cut into rough 1-inch chunks"
     },
     {
       "ingredient_id": 1796,
-      "name": "papas Criollas, peeled",
-      "quantity": "0.91 kg"
+      "name": "papas Criollas",
+      "quantity": "0.91 kg",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 1797,
@@ -74,13 +78,15 @@
     },
     {
       "ingredient_id": 27,
-      "name": "corn, shucked and broken into 3 pieces each",
-      "quantity": "2 ears"
+      "name": "corn",
+      "quantity": "2 ears",
+      "prep": "shucked and broken into 3 pieces each"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely diced",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 188,
@@ -89,8 +95,9 @@
     },
     {
       "ingredient_id": 1799,
-      "name": "serrano, seeded and finely minced",
-      "quantity": "1"
+      "name": "serrano",
+      "quantity": "1",
+      "prep": "seeded and finely minced"
     },
     {
       "ingredient_id": 88,
@@ -109,8 +116,9 @@
     },
     {
       "ingredient_id": 15,
-      "name": "capers, rinsed, drained, and roughly chopped",
-      "quantity": "½ cup"
+      "name": "capers",
+      "quantity": "½ cup",
+      "prep": "rinsed, drained, and roughly chopped"
     },
     {
       "ingredient_id": 183,
@@ -119,6 +127,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the whole bone-in skin-on chicken breast. Split the onion in half. Peel and cut the russet potatoes into rough 1-inch chunks. Peel the papas Criollas. Shuck and break the corn into 3 pieces each. Finely dice the onion. Seed and finely mince the serrano. Rinse, drain, and roughly chop the capers.",
+      "secondary_message": "1 whole bone-in skin-on chicken breast\n1 large onion\n4 medium russet potatoes\n0.91 kg papas Criollas\n2 ears corn\n1 small onion\n1 serrano\n½ cup capers"
+    },
     {
       "id": 1,
       "primary_message": "Combine chicken stock, chicken breast, onion, bay leaves, potatoes, and guascas in a large saucepot or Dutch oven. Add more water if necessary to cover solids by 2.5-cm. Bring to a boil over high heat. Reduce to a simmer and cook until chicken breast is cooked through, about 10 minutes. Transfer chicken breast to plate and set aside until cooled to room temperature.",

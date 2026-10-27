@@ -57,8 +57,9 @@
   "ingredients": [
     {
       "ingredient_id": 1703,
-      "name": "bone-in skin-on chicken breasts, trimmed of excess fat",
-      "quantity": "0.91 kg"
+      "name": "bone-in skin-on chicken breasts",
+      "quantity": "0.91 kg",
+      "prep": "trimmed of excess fat"
     },
     {
       "ingredient_id": 88,
@@ -82,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the bone-in skin-on chicken breasts of excess fat.",
+      "secondary_message": "0.91 kg bone-in skin-on chicken breasts"
+    },
     {
       "id": 1,
       "primary_message": "Brine Chicken: Place chicken breasts on a wire rack set in a rimmed baking sheet. Using paper towels, pat chicken dry. Rub chicken all over with salt and baking powder. Refrigerate skin-side up, uncovered, for at least 4 and up to 24 hours.",

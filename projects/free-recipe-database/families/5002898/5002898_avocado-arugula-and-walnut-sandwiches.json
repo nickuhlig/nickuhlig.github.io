@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 183,
-      "name": "ripe avocados, mashed",
-      "quantity": "2 small"
+      "name": "ripe avocados",
+      "quantity": "2 small",
+      "prep": "mashed"
     },
     {
       "ingredient_id": 191,
@@ -76,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mash the ripe avocados.",
+      "secondary_message": "2 small ripe avocados"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, whisk together the lemon juice and olive oil. Season to taste with salt and pepper. Add the arugula to the bowl and gently toss to coat the leaves in the dressing. Set aside.",

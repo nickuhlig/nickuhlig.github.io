@@ -39,8 +39,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "4 medium"
+      "name": "garlic cloves",
+      "quantity": "4 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1390,
@@ -59,8 +60,9 @@
     },
     {
       "ingredient_id": 2788,
-      "name": "fresh Manila clams, scrubbed and cleaned",
-      "quantity": "2 lb"
+      "name": "fresh Manila clams",
+      "quantity": "2 lb",
+      "prep": "scrubbed and cleaned"
     },
     {
       "ingredient_id": 1421,
@@ -84,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic cloves. Scrub and clean the fresh Manila clams.",
+      "secondary_message": "4 medium garlic cloves\n2 lb fresh Manila clams"
+    },
     {
       "id": 1,
       "primary_message": "Heat the oil in a large saute pan over moderately high heat until shimmering. Add the garlic and cook, stirring constantly, until it just begins to brown, about 1 minute. Stir in the sausage, breaking it up with a wooden spoon or spatula. Cook until the sausage is browned and heated through, 3 to 5 minutes. Transfer the sausage to a plate and set aside.",

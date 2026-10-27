@@ -66,8 +66,9 @@
   "ingredients": [
     {
       "ingredient_id": 118,
-      "name": "whole milk, room temperature",
-      "quantity": "½ cup"
+      "name": "whole milk",
+      "quantity": "½ cup",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 359,
@@ -81,13 +82,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted and cooled slightly",
-      "quantity": "1 oz"
+      "name": "unsalted butter",
+      "quantity": "1 oz",
+      "prep": "melted and cooled slightly"
     },
     {
       "ingredient_id": 121,
-      "name": "egg, room temperature",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 116,
@@ -121,8 +124,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, diced",
-      "quantity": "1 large"
+      "name": "yellow onion",
+      "quantity": "1 large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 88,
@@ -151,8 +155,9 @@
     },
     {
       "ingredient_id": 1004,
-      "name": "green cabbage, cored, quartered, and thinly sliced",
-      "quantity": "½ medium"
+      "name": "green cabbage",
+      "quantity": "½ medium",
+      "prep": "cored, quartered, and thinly sliced"
     },
     {
       "ingredient_id": 359,
@@ -171,6 +176,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the whole milk to room temperature. Melt and cool the unsalted butter slightly. Bring the egg to room temperature. Dice the yellow onion. Core, quarter, and thinly slice the green cabbage.",
+      "secondary_message": "½ cup whole milk\n1 oz unsalted butter\n1 large egg\n1 large yellow onion\n½ medium green cabbage"
+    },
     {
       "id": 1,
       "primary_message": "For the Dough: In a 4-cup liquid measuring cup or medium bowl, whisk milk, water, sugar, butter, and egg until smooth and sugar is dissolved.",

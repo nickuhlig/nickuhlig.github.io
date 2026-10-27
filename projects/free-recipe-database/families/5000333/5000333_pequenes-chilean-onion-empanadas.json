@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onions, diced",
-      "quantity": "3 ½ lb"
+      "name": "white onions",
+      "quantity": "3 ½ lb",
+      "prep": "diced"
     },
     {
       "ingredient_id": 2084,
@@ -151,6 +152,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the white onions.",
+      "secondary_message": "3 ½ lb white onions"
+    },
     {
       "id": 1,
       "primary_message": "For the Pequenes Filling: In a large nonstick pan or medium Dutch oven, heat lard over medium heat until melted and shimmering. Add onions and cook, stirring occasionally, until soft and transparent, about 15 minutes.",

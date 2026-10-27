@@ -64,13 +64,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, minced",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 325,
-      "name": "anchovy filets, minced",
-      "quantity": "6"
+      "name": "anchovy filets",
+      "quantity": "6",
+      "prep": "minced"
     },
     {
       "ingredient_id": 286,
@@ -104,6 +106,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the shallot. Mince the anchovy filets.",
+      "secondary_message": "1 medium shallot\n6 anchovy filets"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower-third position and preheat oven to 135°C (275°F). In a small saucepan set over medium heat, heat olive oil until shimmering, about 3 minutes. Add garlic, shallot, anchovies, rosemary, lemon zest, and red pepper flakes. Cook, stirring occasionally, until shallots and garlic are softened, 3 to 5 minutes. Transfer to a small heatproof bowl. Stir in salt and pepper.",

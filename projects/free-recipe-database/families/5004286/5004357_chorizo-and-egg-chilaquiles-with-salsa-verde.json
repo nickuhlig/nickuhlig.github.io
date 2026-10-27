@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 1739,
-      "name": "soft corn tortillas, cut into 6 wedges each",
-      "quantity": "16"
+      "name": "soft corn tortillas",
+      "quantity": "16",
+      "prep": "cut into 6 wedges each"
     },
     {
       "ingredient_id": 88,
@@ -61,8 +62,9 @@
     },
     {
       "ingredient_id": 1390,
-      "name": "fresh Mexican chorizo, casing removed, if necessary",
-      "quantity": "0.23 kg"
+      "name": "fresh Mexican chorizo, if necessary",
+      "quantity": "0.23 kg",
+      "prep": "casing removed"
     },
     {
       "ingredient_id": 1625,
@@ -91,11 +93,18 @@
     },
     {
       "ingredient_id": 343,
-      "name": "radishes, thinly sliced",
-      "quantity": "4"
+      "name": "radishes",
+      "quantity": "4",
+      "prep": "thinly sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the soft corn tortillas into 6 wedges each. Remove the casing from the fresh Mexican chorizo. Thinly slice the radishes.",
+      "secondary_message": "16 soft corn tortillas\n0.23 kg fresh Mexican chorizo, if necessary\n4 radishes"
+    },
     {
       "id": 1,
       "primary_message": "Heat about 8 cm of vegetable oil to 190°C (375°F) in a in a large Dutch oven, wok, or deep fryer. Adjust flame to maintain temperature. Line a large rimmed baking sheet with paper towels. Working in batches to avoid crowding the oil, fry tortilla wedges, using a metal spider to agitate and turn them as they cook. Cook until bubbling slows to a trickle, chips are pale golden brown and very crisp, about 3 minutes per batch. Transfer to the baking sheet and immediately season with kosher salt. Repeat with remaining batches.",

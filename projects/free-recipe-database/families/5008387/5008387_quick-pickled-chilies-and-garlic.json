@@ -41,13 +41,15 @@
     },
     {
       "ingredient_id": 1762,
-      "name": "red Thai chiles, roughly chopped",
-      "quantity": "4 to 6 small"
+      "name": "red Thai chiles",
+      "quantity": "4 to 6 small",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, sliced thin",
-      "quantity": "24 medium cloves"
+      "name": "garlic",
+      "quantity": "24 medium cloves",
+      "prep": "sliced thin"
     },
     {
       "ingredient_id": 88,
@@ -56,6 +58,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the red Thai chiles. Slice the garlic thin.",
+      "secondary_message": "4 to 6 small red Thai chiles\n24 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Combine vinegar, garlic, chilies, and salt in a small saucepan. Bring to a simmer over medium heat, stirring, and cook for 30 seconds. Transfer to a heat-proof container and let cool completely. Store covered in the refrigerator for up to 6 months",

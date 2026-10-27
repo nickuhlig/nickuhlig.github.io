@@ -54,13 +54,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced or grated with a microplane",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "minced or grated with a microplane"
     },
     {
       "ingredient_id": 269,
@@ -94,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the onion. Mince or grate the garlic with a microplane.",
+      "secondary_message": "1 medium onion\n2 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Season the chicken well with salt, pepper, and half of the oregano. Heat the oil in a pot or 12-inch skillet over medium-high heat until lightly smoking. Add the chicken, skin-side down and cook until well browned, 6 to 10 minutes, flip and then brown the other side, 3 to 4 minutes more. Remove to a plate and set aside.",

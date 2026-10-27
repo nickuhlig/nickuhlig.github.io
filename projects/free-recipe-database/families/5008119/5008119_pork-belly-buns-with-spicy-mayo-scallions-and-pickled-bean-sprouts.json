@@ -86,8 +86,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, finely sliced at a heavy bias",
-      "quantity": "6"
+      "name": "scallions",
+      "quantity": "6",
+      "prep": "finely sliced at a heavy bias"
     },
     {
       "ingredient_id": 1773,
@@ -101,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely slice the scallions at a heavy bias.",
+      "secondary_message": "6 scallions"
+    },
     {
       "id": 1,
       "primary_message": "Make the pickled bean sprouts: Combine water, vinegar, sugar, and salt in a small saucepan. Bring to a boil over high heat, stirring until sugar and salt are dissolved. Place bean sprouts in a small bowl. Pour hot pickling liquid over them. Cover with a paper towel, pressing the towel down into the liquid to make sure sprouts are completely submerged. Set aside.",

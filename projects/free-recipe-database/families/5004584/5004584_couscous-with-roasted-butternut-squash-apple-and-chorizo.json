@@ -41,13 +41,15 @@
     },
     {
       "ingredient_id": 1692,
-      "name": "tart apples, cored, cut into 1/2-inch cubes",
-      "quantity": "2"
+      "name": "tart apples",
+      "quantity": "2",
+      "prep": "cored, cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 1390,
-      "name": "chorizo, chopped into 1/2-inch cubes",
-      "quantity": "4 oz"
+      "name": "chorizo",
+      "quantity": "4 oz",
+      "prep": "chopped into 1/2-inch cubes"
     },
     {
       "ingredient_id": 2530,
@@ -71,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Core and cut the tart apples into 1/2-inch cubes. Chop the chorizo into 1/2-inch cubes.",
+      "secondary_message": "2 tart apples\n4 oz chorizo"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 450°F. Toss butternut squash with 2 tablespoons of oil in a large roasting pan and season to taste with salt and pepper. Transfer pan to oven and cook for 10 minutes. Remove pan and stir squash. Add apples to the pan and return to oven. Cook until squash is tender, about 20 minutes more, stirring every 10 minutes. Remove pan when done.",

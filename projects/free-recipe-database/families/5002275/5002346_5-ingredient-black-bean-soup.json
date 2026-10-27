@@ -48,18 +48,21 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, finely chopped",
-      "quantity": "½ small"
+      "name": "white onion",
+      "quantity": "½ small",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1618,
-      "name": "chipotle chilis, canned in adobo sauce, finely chopped",
-      "quantity": "1"
+      "name": "chipotle chilis, canned in adobo sauce",
+      "quantity": "1",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 185,
-      "name": "black beans, undrained",
-      "quantity": "1 (425 g) can"
+      "name": "black beans",
+      "quantity": "1 (425 g) can",
+      "prep": "undrained"
     },
     {
       "ingredient_id": 3686,
@@ -108,6 +111,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the white onion. Finely chop the chipotle chilis. Don't drain the black beans.",
+      "secondary_message": "½ small white onion\n1 chipotle chilis, canned in adobo sauce\n1 (425 g) can black beans"
+    },
     {
       "id": 1,
       "primary_message": "In a large saucepan, heat oil over medium-high until shimmering. Add onions, and cook, stirring occasionally, until just softened, about 5 minutes. Add chipotle chile and cook, stirring constantly, until fragrant, about 1 minute.",

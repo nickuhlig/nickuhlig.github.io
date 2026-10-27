@@ -76,13 +76,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "5 cloves"
+      "name": "garlic",
+      "quantity": "5 cloves",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely diced",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 52,
@@ -136,13 +138,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, chopped",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 341,
@@ -181,8 +185,9 @@
     },
     {
       "ingredient_id": 1252,
-      "name": "egg roll wrappers, fully thawed",
-      "quantity": "20"
+      "name": "egg roll wrappers",
+      "quantity": "20",
+      "prep": "fully thawed"
     },
     {
       "ingredient_id": 1682,
@@ -191,38 +196,45 @@
     },
     {
       "ingredient_id": 308,
-      "name": "butter lettuce, leaves seperated",
-      "quantity": "1 head"
+      "name": "butter lettuce",
+      "quantity": "1 head",
+      "prep": "leaves seperated"
     },
     {
       "ingredient_id": 2299,
-      "name": "thai basil, leaves picked",
-      "quantity": "1 bunch"
+      "name": "thai basil",
+      "quantity": "1 bunch",
+      "prep": "leaves picked"
     },
     {
       "ingredient_id": 2312,
-      "name": "Vietnamese coriander, leaves picked",
-      "quantity": "1 bunch"
+      "name": "Vietnamese coriander",
+      "quantity": "1 bunch",
+      "prep": "leaves picked"
     },
     {
       "ingredient_id": 2264,
-      "name": "perilla, leaves picked",
-      "quantity": "1 bunch"
+      "name": "perilla",
+      "quantity": "1 bunch",
+      "prep": "leaves picked"
     },
     {
       "ingredient_id": 2262,
-      "name": "peppermint mint, leaves picked",
-      "quantity": "1 bunch"
+      "name": "peppermint mint",
+      "quantity": "1 bunch",
+      "prep": "leaves picked"
     },
     {
       "ingredient_id": 2224,
-      "name": "garlic chives, cut to 6-inch lengths",
-      "quantity": "1 bunch"
+      "name": "garlic chives",
+      "quantity": "1 bunch",
+      "prep": "cut to 6-inch lengths"
     },
     {
       "ingredient_id": 217,
-      "name": "roasted peanuts, chopped",
-      "quantity": "½ cup"
+      "name": "roasted peanuts",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1959,
@@ -231,6 +243,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the garlic. Finely dice the shallot. Chop the shallot. Mince the garlic. Fully thaw the egg roll wrappers. Seperate the leaves of the butter lettuce. Pick the leaves from the thai basil. Pick the leaves from the Vietnamese coriander. Pick the leaves from the perilla. Pick the leaves from the peppermint mint. Cut the garlic chives to 6-inch lengths. Chop the roasted peanuts.",
+      "secondary_message": "5 cloves garlic\n1 medium shallot\n1 medium shallot\n2 cloves garlic\n20 egg roll wrappers\n1 head butter lettuce\n1 bunch thai basil\n1 bunch Vietnamese coriander\n1 bunch perilla\n1 bunch peppermint mint\n1 bunch garlic chives\n½ cup roasted peanuts"
+    },
     {
       "id": 1,
       "primary_message": "For the Annatto Oil: In a small saucepan, heat oil and annatto seeds over medium-low heat, stirring and swirling pan occasionally, until warmed through and shimmering, about 5 minutes. Remove from heat and let oil cool for 15 minutes. Using a fine-mesh strainer, strain oil into a bowl or jar; discard seeds and set oil aside until ready to use.",

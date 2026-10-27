@@ -71,13 +71,15 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, diced small",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "diced small"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, plus any leaves, diced small",
-      "quantity": "4 stalks"
+      "name": "celery, plus any leaves",
+      "quantity": "4 stalks",
+      "prep": "diced small"
     },
     {
       "ingredient_id": 88,
@@ -101,9 +103,10 @@
     },
     {
       "ingredient_id": 1897,
-      "name": "waxy potatoes, cut into 1/2-inch cubes",
+      "name": "waxy potatoes",
       "quantity": "3 medium",
-      "weigh_as": "1 ½ lb"
+      "weigh_as": "1 ½ lb",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 1752,
@@ -112,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the yellow onion small. Dice the celery small. Cut the waxy potatoes into 1/2-inch cubes.",
+      "secondary_message": "1 medium yellow onion\n4 stalks celery, plus any leaves\n3 medium waxy potatoes"
+    },
     {
       "id": 1,
       "primary_message": "For the Dumplings: In a large mixing bowl, whisk flour, salt, and baking powder to combine. In a separate small bowl, whisk eggs and milk until eggs are thoroughly beaten. Pour wet ingredients into the dry and stir until a shaggy dough forms. (If dough is too dry, add milk 1 tablespoon at a time until dough comes together. Be patient.)",

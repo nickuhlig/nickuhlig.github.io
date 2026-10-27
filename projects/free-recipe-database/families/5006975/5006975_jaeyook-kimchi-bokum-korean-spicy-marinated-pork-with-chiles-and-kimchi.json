@@ -91,8 +91,9 @@
     },
     {
       "ingredient_id": 2712,
-      "name": "pork shoulder, cut into thin strips",
-      "quantity": "2 lb"
+      "name": "pork shoulder",
+      "quantity": "2 lb",
+      "prep": "cut into thin strips"
     },
     {
       "ingredient_id": 1044,
@@ -101,8 +102,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, thinly sliced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 153,
@@ -126,6 +128,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the pork shoulder into thin strips. Thinly slice the yellow onion.",
+      "secondary_message": "2 lb pork shoulder\n1 medium yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "In a food processor, combine gochujang, Asian pear, garlic, ginger, soy sauce, sesame oil, sugar, rice wine, and gochugaru and process until a smooth marinade forms.",

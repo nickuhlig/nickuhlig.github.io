@@ -45,20 +45,23 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, thinly sliced",
+      "name": "yellow onion",
       "quantity": "2 medium",
-      "weigh_as": "225 g"
+      "weigh_as": "225 g",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 158,
-      "name": "cauliflower, trimmed and cut into florets",
+      "name": "cauliflower",
       "quantity": "1 ½ medium heads",
-      "weigh_as": "0.93 kg"
+      "weigh_as": "0.93 kg",
+      "prep": "trimmed and cut into florets"
     },
     {
       "ingredient_id": 1752,
@@ -77,6 +80,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the yellow onion. Thinly slice the garlic. Trim and cut the cauliflower into florets.",
+      "secondary_message": "2 medium yellow onion\n4 medium cloves garlic\n1 ½ medium heads cauliflower"
+    },
     {
       "id": 1,
       "primary_message": "In a large saucepan, melt butter over medium-high heat. Add onion and garlic and cook, stirring often, until softened and translucent, about 5 minutes; lower heat as necessary to prevent browning.",

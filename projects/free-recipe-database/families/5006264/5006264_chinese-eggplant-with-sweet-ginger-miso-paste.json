@@ -77,11 +77,18 @@
     },
     {
       "ingredient_id": 18,
-      "name": "Chinese eggplants, halved lengthwise",
-      "quantity": "6"
+      "name": "Chinese eggplants",
+      "quantity": "6",
+      "prep": "halved lengthwise"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the Chinese eggplants lengthwise.",
+      "secondary_message": "6 Chinese eggplants"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, whisk together sugar, sake, mirin, and rice vinegar until sugar is dissolved. Add shiro miso and ginger and whisk until well combined. Set aside.",

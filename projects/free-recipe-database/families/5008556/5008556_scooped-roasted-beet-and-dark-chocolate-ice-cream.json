@@ -35,9 +35,10 @@
   "ingredients": [
     {
       "ingredient_id": 13,
-      "name": "peeled beets, roasted, diced into 1/2 inch cubes",
+      "name": "peeled beets, roasted",
       "quantity": "3 ½ medium",
-      "weigh_as": "⅔ lb"
+      "weigh_as": "⅔ lb",
+      "prep": "diced into 1/2 inch cubes"
     },
     {
       "ingredient_id": 1061,
@@ -71,11 +72,18 @@
     },
     {
       "ingredient_id": 1729,
-      "name": "dark chocolate, shaved on a vegetable peeler",
-      "quantity": "2 oz"
+      "name": "dark chocolate",
+      "quantity": "2 oz",
+      "prep": "shaved on a vegetable peeler"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the peeled beets into 1/2 inch cubes. Shave the dark chocolate on a vegetable peeler.",
+      "secondary_message": "3 ½ medium peeled beets, roasted\n2 oz dark chocolate"
+    },
     {
       "id": 1,
       "primary_message": "In a three quart saucepan, combine beets and half and half. Simmer on low heat until a paring knife twisted into a beet easily cuts it apart, about half an hour. While pot is simmering, whisk together egg yolks and sugar in a large bowl until light in color and thickened.",

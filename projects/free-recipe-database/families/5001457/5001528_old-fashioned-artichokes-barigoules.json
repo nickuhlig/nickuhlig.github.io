@@ -54,13 +54,15 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, minced",
-      "quantity": "1 small"
+      "name": "yellow onion",
+      "quantity": "1 small",
+      "prep": "minced"
     },
     {
       "ingredient_id": 230,
-      "name": "cremini mushrooms, stemmed and finely minced",
-      "quantity": "0.56 kg"
+      "name": "cremini mushrooms",
+      "quantity": "0.56 kg",
+      "prep": "stemmed and finely minced"
     },
     {
       "ingredient_id": 106,
@@ -84,8 +86,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemons, halved",
-      "quantity": "2"
+      "name": "lemons",
+      "quantity": "2",
+      "prep": "halved"
     },
     {
       "ingredient_id": 2732,
@@ -104,9 +107,10 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, thinly sliced",
+      "name": "yellow onion",
       "quantity": "1 ½ medium",
-      "weigh_as": "170 g"
+      "weigh_as": "170 g",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 159,
@@ -151,6 +155,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the yellow onion. Stem and finely mince the cremini mushrooms. Halve the lemons. Thinly slice the yellow onion.",
+      "secondary_message": "1 small yellow onion\n0.56 kg cremini mushrooms\n2 lemons\n1 ½ medium yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "For the Mushroom Duxelles Filling: Heat butter in a medium saucepan over medium-high heat until foaming. Add onion (or shallots) and cook, stirring, until tender, about 3 minutes. Add mushrooms and cook, stirring, until water has released and evaporated, about 3 minutes. Continue to cook mushrooms, scraping up browned bits from bottom frequently, until darkened and fragrant, about 8 minutes. Stir in parsley and nutmeg, season with salt and pepper, and cook mushroom duxelles for 1 minute longer. Set aside, pressing plastic wrap against the surface to keep it from drying out.",

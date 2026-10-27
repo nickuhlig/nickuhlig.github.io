@@ -83,8 +83,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1710,
@@ -103,8 +104,9 @@
     },
     {
       "ingredient_id": 1729,
-      "name": "dark chocolate, chopped",
-      "quantity": "170 g"
+      "name": "dark chocolate",
+      "quantity": "170 g",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 88,
@@ -123,6 +125,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature. Chop the dark chocolate.",
+      "secondary_message": "2 tbsp unsalted butter\n170 g dark chocolate"
+    },
     {
       "id": 1,
       "primary_message": "To Make the Beignets: In a small saucepan, heat milk over medium-low heat until warm to the touch, then take off heat. Whisk in buttermilk, 1 teaspoon sugar, and yeast. Let stand 5 minutes.",

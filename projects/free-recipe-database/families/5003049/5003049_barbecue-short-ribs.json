@@ -69,8 +69,9 @@
     },
     {
       "ingredient_id": 1503,
-      "name": "full short ribs, cut into individual ribs",
-      "quantity": "8"
+      "name": "full short ribs",
+      "quantity": "8",
+      "prep": "cut into individual ribs"
     },
     {
       "ingredient_id": 1080,
@@ -79,6 +80,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the full short ribs into individual ribs.",
+      "secondary_message": "8 full short ribs"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl combine salt, black pepper, white pepper, paprika, and garlic powder to make the rub. Season ribs all over liberally with the rub.",

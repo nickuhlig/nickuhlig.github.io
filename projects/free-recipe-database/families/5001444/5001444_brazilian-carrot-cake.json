@@ -77,8 +77,9 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and grated",
-      "quantity": "3 medium"
+      "name": "carrots",
+      "quantity": "3 medium",
+      "prep": "peeled and grated"
     },
     {
       "ingredient_id": 346,
@@ -127,8 +128,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 1-inch cubes",
-      "quantity": "1 oz"
+      "name": "unsalted butter",
+      "quantity": "1 oz",
+      "prep": "cut into 1-inch cubes"
     },
     {
       "ingredient_id": 88,
@@ -137,6 +139,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and grate the carrots. Cut the unsalted butter into 1-inch cubes.",
+      "secondary_message": "3 medium carrots\n1 oz unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Adjust oven rack to middle position and preheat oven to 350°F. Using baking spray, lightly grease bottom and sides of a 9-inch round cake pan; line bottom of pan with parchment paper.",

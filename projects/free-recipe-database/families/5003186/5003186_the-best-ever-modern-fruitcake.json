@@ -62,13 +62,15 @@
     },
     {
       "ingredient_id": 2888,
-      "name": "dried figs, stemmed and quartered lengthwise",
-      "quantity": "⅓ cup"
+      "name": "dried figs",
+      "quantity": "⅓ cup",
+      "prep": "stemmed and quartered lengthwise"
     },
     {
       "ingredient_id": 2106,
-      "name": "dried red plums, chopped",
-      "quantity": "⅓ cup"
+      "name": "dried red plums",
+      "quantity": "⅓ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 232,
@@ -77,8 +79,9 @@
     },
     {
       "ingredient_id": 356,
-      "name": "Medjool dates, pitted",
-      "quantity": "½ cup"
+      "name": "Medjool dates",
+      "quantity": "½ cup",
+      "prep": "pitted"
     },
     {
       "ingredient_id": 221,
@@ -87,13 +90,15 @@
     },
     {
       "ingredient_id": 272,
-      "name": "walnuts, coarsely chopped",
-      "quantity": "1 cup"
+      "name": "walnuts",
+      "quantity": "1 cup",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 2365,
-      "name": "pistachios, coarsely chopped",
-      "quantity": "½ cup"
+      "name": "pistachios",
+      "quantity": "½ cup",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 3362,
@@ -172,8 +177,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, lightly beaten and at room temperature",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "lightly beaten and at room temperature"
     },
     {
       "ingredient_id": 2859,
@@ -202,6 +208,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem and quarter the dried figs lengthwise. Chop the dried red plums. Pit the Medjool dates. Coarsely chop the walnuts. Coarsely chop the pistachios. Lightly beat the eggs and bring them to room temperature.",
+      "secondary_message": "⅓ cup dried figs\n⅓ cup dried red plums\n½ cup Medjool dates\n1 cup walnuts\n½ cup pistachios\n2 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Adjust oven rack to middle position and heat oven to 350°F. Grease a Bundt pan with baking spray.",

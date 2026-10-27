@@ -47,18 +47,21 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, chopped",
-      "quantity": "½ medium"
+      "name": "white onion",
+      "quantity": "½ medium",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2021,
-      "name": "serrano peppers, stemmed and cut into 1-inch segments",
-      "quantity": "2 to 3"
+      "name": "serrano peppers",
+      "quantity": "2 to 3",
+      "prep": "stemmed and cut into 1-inch segments"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, crushed",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 3686,
@@ -77,8 +80,9 @@
     },
     {
       "ingredient_id": 1176,
-      "name": "long-grain white rice, rinsed and dried",
-      "quantity": "1 cup"
+      "name": "long-grain white rice",
+      "quantity": "1 cup",
+      "prep": "rinsed and dried"
     },
     {
       "ingredient_id": 88,
@@ -87,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the white onion. Stem and cut the serrano peppers into 1-inch segments. Crush the garlic. Rinse and dry the long-grain white rice.",
+      "secondary_message": "½ medium white onion\n2 to 3 serrano peppers\n3 medium cloves garlic\n1 cup long-grain white rice"
+    },
     {
       "id": 1,
       "primary_message": "In a medium Dutch oven or saucepan, heat oil over medium-low heat until shimmering. Add onion, serranos, and garlic. Cook until ingredients soften, about 8 minutes.",

@@ -63,8 +63,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted and cooled to room temperature",
-      "quantity": "3 tbsp"
+      "name": "unsalted butter",
+      "quantity": "3 tbsp",
+      "prep": "melted and cooled to room temperature"
     },
     {
       "ingredient_id": 121,
@@ -88,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter and bring it to room temperature.",
+      "secondary_message": "3 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 400°F and grease muffin cups with butter. In a medium bowl, whisk together flour, corn meal, baking powder, salt, and pepper; set aside.",

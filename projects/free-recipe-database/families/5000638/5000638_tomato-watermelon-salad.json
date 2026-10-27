@@ -64,8 +64,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, thinly sliced crosswise into rounds",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "thinly sliced crosswise into rounds"
     },
     {
       "ingredient_id": 47,
@@ -74,13 +75,15 @@
     },
     {
       "ingredient_id": 277,
-      "name": "cocktail tomatoes, quartered",
-      "quantity": "10 oz"
+      "name": "cocktail tomatoes",
+      "quantity": "10 oz",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 277,
-      "name": "red cherry tomatoes, halved",
-      "quantity": "6 oz"
+      "name": "red cherry tomatoes",
+      "quantity": "6 oz",
+      "prep": "halved"
     },
     {
       "ingredient_id": 1473,
@@ -89,13 +92,15 @@
     },
     {
       "ingredient_id": 2284,
-      "name": "seedless watermelon, cut into 3/4-inch cubes",
-      "quantity": "3 lb"
+      "name": "seedless watermelon",
+      "quantity": "3 lb",
+      "prep": "cut into 3/4-inch cubes"
     },
     {
       "ingredient_id": 32,
-      "name": "sheep’s milk feta cheese, crumbled",
-      "quantity": "4 oz"
+      "name": "sheep’s milk feta cheese",
+      "quantity": "4 oz",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 243,
@@ -104,6 +109,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the shallot crosswise into rounds. Quarter the cocktail tomatoes. Halve the red cherry tomatoes. Cut the seedless watermelon into 3/4-inch cubes. Crumble the sheep’s milk feta cheese.",
+      "secondary_message": "1 small shallot\n10 oz cocktail tomatoes\n6 oz red cherry tomatoes\n3 lb seedless watermelon\n4 oz sheep’s milk feta cheese"
+    },
     {
       "id": 1,
       "primary_message": "In a medium non-reactive bowl, whisk together vinegar, lime juice, honey, and 3/4 teaspoon salt. Stir in shallot and let sit for 10 minutes. Whisk in oil, lime zest, and serrano.",

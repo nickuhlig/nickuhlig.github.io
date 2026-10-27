@@ -39,8 +39,9 @@
     },
     {
       "ingredient_id": 1998,
-      "name": "boneless beef shank, cut into 1-inch cubes",
-      "quantity": "0.91 kg"
+      "name": "boneless beef shank",
+      "quantity": "0.91 kg",
+      "prep": "cut into 1-inch cubes"
     },
     {
       "ingredient_id": 221,
@@ -49,18 +50,21 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed",
-      "quantity": "6 cloves"
+      "name": "garlic",
+      "quantity": "6 cloves",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 2088,
-      "name": "red chilies, such as Thai chiles, roughly chopped",
-      "quantity": "2 to 3 small"
+      "name": "red chilies, such as Thai chiles",
+      "quantity": "2 to 3 small",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1541,
-      "name": "plum tomato, roughly chopped",
-      "quantity": "1 large"
+      "name": "plum tomato",
+      "quantity": "1 large",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 346,
@@ -109,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the boneless beef shank into 1-inch cubes. Smash the garlic. Roughly chop the red chilies. Roughly chop the plum tomato.",
+      "secondary_message": "0.91 kg boneless beef shank\n6 cloves garlic\n2 to 3 small red chilies, such as Thai chiles\n1 large plum tomato"
+    },
     {
       "id": 1,
       "primary_message": "Heat 1 tablespoon vegetable oil in a large, heavy-bottomed pot or Dutch oven over medium-high heat until shimmering. Add the beef and cook without moving until well browned on first side, about 4 minutes. Stir and cook until well browned all over, about 10 minutes total. Transfer beef to a large bowl and repeat with 1 more tablespoon oil and remaining beef.",

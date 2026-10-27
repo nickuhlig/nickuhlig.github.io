@@ -46,18 +46,21 @@
   "ingredients": [
     {
       "ingredient_id": 1271,
-      "name": "whole cumin seeds, toasted",
-      "quantity": "1 ½ tsp"
+      "name": "whole cumin seeds",
+      "quantity": "1 ½ tsp",
+      "prep": "toasted"
     },
     {
       "ingredient_id": 1514,
-      "name": "coriander seeds, toasted",
-      "quantity": "1 ½ tsp"
+      "name": "coriander seeds",
+      "quantity": "1 ½ tsp",
+      "prep": "toasted"
     },
     {
       "ingredient_id": 1084,
-      "name": "whole star anise, toasted",
-      "quantity": "1"
+      "name": "whole star anise",
+      "quantity": "1",
+      "prep": "toasted"
     },
     {
       "ingredient_id": 1757,
@@ -66,8 +69,9 @@
     },
     {
       "ingredient_id": 1784,
-      "name": "black peppercorns, toasted",
-      "quantity": "½ tsp"
+      "name": "black peppercorns",
+      "quantity": "½ tsp",
+      "prep": "toasted"
     },
     {
       "ingredient_id": 74,
@@ -101,8 +105,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely minced",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 24,
@@ -116,8 +121,9 @@
     },
     {
       "ingredient_id": 2088,
-      "name": "red chile, finely chopped",
-      "quantity": "1 small"
+      "name": "red chile",
+      "quantity": "1 small",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 71,
@@ -136,13 +142,15 @@
     },
     {
       "ingredient_id": 92,
-      "name": "chickpeas, drained and rinsed",
-      "quantity": "2 (14 oz) cans"
+      "name": "chickpeas",
+      "quantity": "2 (14 oz) cans",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 1879,
-      "name": "flat spinach leaves, trimmed, rinsed, and roughly chopped",
-      "quantity": "1 (3 oz) bunch"
+      "name": "flat spinach leaves",
+      "quantity": "1 (3 oz) bunch",
+      "prep": "trimmed, rinsed, and roughly chopped"
     },
     {
       "ingredient_id": 88,
@@ -156,11 +164,18 @@
     },
     {
       "ingredient_id": 188,
-      "name": "fresh cilantro leaves, tender stems coarsely chopped",
-      "quantity": "½ cup"
+      "name": "fresh cilantro leaves",
+      "quantity": "½ cup",
+      "prep": "tender stems coarsely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Toast the whole cumin seeds. Toast the coriander seeds. Toast the whole star anise. Toast the black peppercorns. Finely mince the onion. Finely chop the red chile. Drain and rinse the chickpeas. Trim, rinse, and roughly chop the flat spinach leaves. Coarsely chop the tender stems of the fresh cilantro leaves.",
+      "secondary_message": "1 ½ tsp whole cumin seeds\n1 ½ tsp coriander seeds\n1 whole star anise\n½ tsp black peppercorns\n1 small onion\n1 small red chile\n2 (14 oz) cans chickpeas\n1 (3 oz) bunch flat spinach leaves\n½ cup fresh cilantro leaves"
+    },
     {
       "id": 1,
       "primary_message": "Combine cumin, coriander, star anise, cloves, peppercorns, cinnamon, nutmeg, mace, turmeric, and cardamom in a spice grinder and grind to a fine powder. Set aside.",

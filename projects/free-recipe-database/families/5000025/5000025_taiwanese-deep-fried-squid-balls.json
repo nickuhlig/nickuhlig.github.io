@@ -50,13 +50,15 @@
   "ingredients": [
     {
       "ingredient_id": 1839,
-      "name": "cleaned squid bodies, cut into 1-inch squares, divided",
-      "quantity": "12 oz"
+      "name": "cleaned squid bodies, divided",
+      "quantity": "12 oz",
+      "prep": "cut into 1-inch squares"
     },
     {
       "ingredient_id": 1958,
-      "name": "skinless fatty pork belly, cut into 1-inch cubes",
-      "quantity": "2 ⅓ oz"
+      "name": "skinless fatty pork belly",
+      "quantity": "2 ⅓ oz",
+      "prep": "cut into 1-inch cubes"
     },
     {
       "ingredient_id": 346,
@@ -90,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cleaned squid bodies into 1-inch squares. Cut the skinless fatty pork belly into 1-inch cubes.",
+      "secondary_message": "12 oz cleaned squid bodies, divided\n2 ⅓ oz skinless fatty pork belly"
+    },
     {
       "id": 1,
       "primary_message": "Rinse the squid under running water, then pat dry with paper towels.",

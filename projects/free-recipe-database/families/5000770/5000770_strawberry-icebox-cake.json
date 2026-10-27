@@ -76,8 +76,9 @@
   "ingredients": [
     {
       "ingredient_id": 2219,
-      "name": "fresh hulled strawberries, quartered",
-      "quantity": "1 ½ lb"
+      "name": "fresh hulled strawberries",
+      "quantity": "1 ½ lb",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 346,
@@ -116,11 +117,18 @@
     },
     {
       "ingredient_id": 242,
-      "name": "fresh strawberries, hulled and halved lengthwise",
-      "quantity": "6 large"
+      "name": "fresh strawberries",
+      "quantity": "6 large",
+      "prep": "hulled and halved lengthwise"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Quarter the fresh hulled strawberries. Hull and halve the fresh strawberries lengthwise.",
+      "secondary_message": "1 ½ lb fresh hulled strawberries\n6 large fresh strawberries"
+    },
     {
       "id": 1,
       "primary_message": "For the Strawberry Compote: In a large bowl, toss strawberries with sugar to evenly coat. Let sit until juices begin to pool at the bottom of the bowl, about 15 minutes. Using a colander or fine-mesh sieve, drain strawberries. In a medium saucepan, combine strained macerated strawberries, sugar, and lemon juice. Bring to a simmer over medium heat and cook, stirring occasionally, until strawberries are soft but still intact and beginning to become saucy, about 15 minutes.",

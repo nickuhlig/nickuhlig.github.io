@@ -68,8 +68,9 @@
     },
     {
       "ingredient_id": 162,
-      "name": "sun dried tomatoes, cut in 1/4-inch pieces",
-      "quantity": "½ cup"
+      "name": "sun dried tomatoes",
+      "quantity": "½ cup",
+      "prep": "cut in 1/4-inch pieces"
     },
     {
       "ingredient_id": 118,
@@ -83,6 +84,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the sun dried tomatoes in 1/4-inch pieces.",
+      "secondary_message": "½ cup sun dried tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "Preheat your oven to 375 degrees and line a baking sheet with parchment paper. In a medium bowl, combine the flour, sugar, salt, and baking powder. Whisk to combine.",

@@ -45,18 +45,21 @@
     },
     {
       "ingredient_id": 1850,
-      "name": "green chillis, slit lenthwise",
-      "quantity": "5"
+      "name": "green chillis",
+      "quantity": "5",
+      "prep": "slit lenthwise"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, chopped fine",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "chopped fine"
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, chopped fine",
-      "quantity": "½ inch piece"
+      "name": "ginger",
+      "quantity": "½ inch piece",
+      "prep": "chopped fine"
     },
     {
       "ingredient_id": 2195,
@@ -80,8 +83,9 @@
     },
     {
       "ingredient_id": 260,
-      "name": "tomato, chopped fine",
-      "quantity": "1"
+      "name": "tomato",
+      "quantity": "1",
+      "prep": "chopped fine"
     },
     {
       "ingredient_id": 2187,
@@ -100,6 +104,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slit the green chillis lenthwise. Chop the onion fine. Chop the ginger fine. Chop the tomato fine.",
+      "secondary_message": "5 green chillis\n1 large onion\n½ inch piece ginger\n1 tomato"
+    },
     {
       "id": 1,
       "primary_message": "In a large pot, cover the clams with water by 2 inches. Bring to a boil over high heat and cook until all the clams are open, transfering them to a colander in the sink as they open. Once all clams open, remove pot from heat. Shuck clams, discarding shells (if desired—shells can be left on) and dipping the clams in the warm liquid in the pot to rinse off any excess grit. Allow liquid to cool and sand to settle on bottom of pot. Pour off liquid through a fine mesh strainer over the clams. Discard sand.",

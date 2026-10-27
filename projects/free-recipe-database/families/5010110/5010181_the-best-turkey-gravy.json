@@ -54,18 +54,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, roughly chopped",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, peeled and roughly chopped",
-      "quantity": "1 large"
+      "name": "carrot",
+      "quantity": "1 large",
+      "prep": "peeled and roughly chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, roughly chopped",
-      "quantity": "2 ribs"
+      "name": "celery",
+      "quantity": "2 ribs",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1505,
@@ -114,6 +117,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the onion. Peel and roughly chop the carrot. Roughly chop the celery.",
+      "secondary_message": "1 large onion\n1 large carrot\n2 ribs celery"
+    },
     {
       "id": 1,
       "primary_message": "Chop reserved turkey neck, gizzards, and trimmings into 2.5-cm chunks with a cleaver. Heat oil in a medium saucepan over medium-high heat until shimmering. Add turkey parts, onion, carrot, and celery and cook, stirring occasionally, until well browned, about 10 minutes total. Add stock, soy sauce, Marmite (if using), herbs, and bay leaves. Bring to a boil, then reduce to a simmer. Simmer for 1 hour, then strain through a fine-mesh strainer. Add any drippings from the roast turkey, then skim off excess fat.",

@@ -71,8 +71,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened to 65°F",
-      "quantity": "340 g"
+      "name": "unsalted butter",
+      "quantity": "340 g",
+      "prep": "softened to 65°F"
     },
     {
       "ingredient_id": 353,
@@ -81,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter to 65°F.",
+      "secondary_message": "340 g unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a 3-quart stainless steel saucier, bring maple syrup to a boil over high heat. This should take no more than 5 minutes. If the timing is substantially different, this is simply an indication that the heat needs adjustment due to equipment variation.",

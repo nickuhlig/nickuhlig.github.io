@@ -59,8 +59,9 @@
     },
     {
       "ingredient_id": 1294,
-      "name": "whole peeled tomatoes, drained, juices reserved",
-      "quantity": "1 (28 oz) can"
+      "name": "whole peeled tomatoes",
+      "quantity": "1 (28 oz) can",
+      "prep": "drained, juices reserved"
     },
     {
       "ingredient_id": 120,
@@ -74,8 +75,9 @@
     },
     {
       "ingredient_id": 1675,
-      "name": "broccoli rabe, ends trimmed",
-      "quantity": "1 lb"
+      "name": "broccoli rabe",
+      "quantity": "1 lb",
+      "prep": "ends trimmed"
     },
     {
       "ingredient_id": 47,
@@ -89,11 +91,18 @@
     },
     {
       "ingredient_id": 325,
-      "name": "anchovy fillets, halved lengthwise",
-      "quantity": "16"
+      "name": "anchovy fillets",
+      "quantity": "16",
+      "prep": "halved lengthwise"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain the whole peeled tomatoes, then reserve the juices. Trim the ends of the broccoli rabe. Halve the anchovy fillets lengthwise.",
+      "secondary_message": "1 (28 oz) can whole peeled tomatoes\n1 lb broccoli rabe\n16 anchovy fillets"
+    },
     {
       "id": 1,
       "primary_message": "Remove dough from refrigerator and allow to rest in proofing containers, covered, at room temperature for 1 to 2 hours before baking. Dough temperature should reach 60˚F (15.5°C) before stretching and baking; exact timing will depend upon ambient temperature.",

@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, melted",
-      "quantity": "3 tbsp"
+      "name": "butter",
+      "quantity": "3 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 327,
@@ -105,6 +106,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the butter.",
+      "secondary_message": "3 tbsp butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Pecans: Preheat oven to 165°C (325°F). Whisk together brown sugar, cinnamon, salt, nutmeg, and cayenne in a medium bowl. Add in melted butter and stir until well combined. Add in pecans and toss to thoroughly coat nuts with sugar mixture. Spread pecans onto a foil lined baking sheet. Transfer to oven and bake for 15 minutes. Remove pecans from oven and let cool to room temperature and then roughly chop.",

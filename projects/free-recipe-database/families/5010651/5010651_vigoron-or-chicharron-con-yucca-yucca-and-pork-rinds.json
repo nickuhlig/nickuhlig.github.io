@@ -33,18 +33,21 @@
   "ingredients": [
     {
       "ingredient_id": 1004,
-      "name": "green cabbage, finely shredded",
-      "quantity": "½ head"
+      "name": "green cabbage",
+      "quantity": "½ head",
+      "prep": "finely shredded"
     },
     {
       "ingredient_id": 1541,
-      "name": "plum tomatoes, seeded and finely diced",
-      "quantity": "2"
+      "name": "plum tomatoes",
+      "quantity": "2",
+      "prep": "seeded and finely diced"
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, minced",
-      "quantity": "½ small"
+      "name": "white onion",
+      "quantity": "½ small",
+      "prep": "minced"
     },
     {
       "ingredient_id": 133,
@@ -63,11 +66,18 @@
     },
     {
       "ingredient_id": 2701,
-      "name": "chicharrones, broken into bite-sized pieces",
-      "quantity": "½ lb"
+      "name": "chicharrones",
+      "quantity": "½ lb",
+      "prep": "broken into bite-sized pieces"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely shred the green cabbage. Seed and finely dice the plum tomatoes. Mince the white onion. Break the chicharrones into bite-sized pieces.",
+      "secondary_message": "½ head green cabbage\n2 plum tomatoes\n½ small white onion\n½ lb chicharrones"
+    },
     {
       "id": 1,
       "primary_message": "In large bowl, toss cabbage, tomatoes, onion, and vinegar. Season to taste with salt, adding more vinegar to taste. Refrigerate until needed.",

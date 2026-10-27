@@ -59,13 +59,15 @@
     },
     {
       "ingredient_id": 260,
-      "name": "tomato, diced into 1/4- inch pieces",
-      "quantity": "1 large"
+      "name": "tomato",
+      "quantity": "1 large",
+      "prep": "diced into 1/4- inch pieces"
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, diced",
-      "quantity": "1 medium"
+      "name": "white onion",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 2071,
@@ -74,8 +76,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1826,
@@ -99,11 +102,18 @@
     },
     {
       "ingredient_id": 433,
-      "name": "Queso Quesadilla cheese, shredded",
-      "quantity": "8 oz"
+      "name": "Queso Quesadilla cheese",
+      "quantity": "8 oz",
+      "prep": "shredded"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the tomato into 1/4- inch pieces. Dice the white onion. Mince the garlic. Shred the Queso Quesadilla cheese.",
+      "secondary_message": "1 large tomato\n1 medium white onion\n4 cloves garlic\n8 oz Queso Quesadilla cheese"
+    },
     {
       "id": 1,
       "primary_message": "In a large Dutch oven or soup pot, combine broth, water, potatoes, tomatoes, onion, green chiles, garlic and 1 teaspoon salt or bouillon powder. Bring to a boil over high heat, then reduce the heat to medium and simmer uncovered, stirring occasionally, until the potatoes are tender when poked with a fork, about 20 minutes.",

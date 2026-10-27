@@ -75,13 +75,15 @@
     },
     {
       "ingredient_id": 230,
-      "name": "cremini mushrooms, stems removed, caps thinly sliced",
-      "quantity": "0.45 kg"
+      "name": "cremini mushrooms",
+      "quantity": "0.45 kg",
+      "prep": "stems removed, caps thinly sliced"
     },
     {
       "ingredient_id": 2132,
-      "name": "mussels, washed, beards removed",
-      "quantity": "0.9 kg"
+      "name": "mussels",
+      "quantity": "0.9 kg",
+      "prep": "washed, beards removed"
     },
     {
       "ingredient_id": 1718,
@@ -120,6 +122,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the stems from the cremini mushrooms, then thinly slice the caps. Wash the mussels, then remove the beards.",
+      "secondary_message": "0.45 kg cremini mushrooms\n0.9 kg mussels"
+    },
     {
       "id": 1,
       "primary_message": "If using store-bought chicken broth or homemade broth that doesn't gel when chilled, add broth to a large mixing bowl and sprinkle gelatin all over; let stand 10 minutes. Transfer broth to a large pot or Dutch oven and bring to a simmer over high heat, then reduce heat to low. Stir in squid ink until fully dissolved. Cover and keep warm.",

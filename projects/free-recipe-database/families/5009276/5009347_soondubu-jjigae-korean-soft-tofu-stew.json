@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated on a microplane grater",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "grated on a microplane grater"
     },
     {
       "ingredient_id": 1527,
@@ -76,8 +77,9 @@
     },
     {
       "ingredient_id": 1610,
-      "name": "soft silken tofu, roughly broken",
-      "quantity": "0.68 kg"
+      "name": "soft silken tofu",
+      "quantity": "0.68 kg",
+      "prep": "roughly broken"
     },
     {
       "ingredient_id": 121,
@@ -86,6 +88,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the garlic on a microplane grater. Roughly break the soft silken tofu.",
+      "secondary_message": "4 cloves garlic\n0.68 kg soft silken tofu"
+    },
     {
       "id": 1,
       "primary_message": "Combine kombu and anchovies (if using) and cover with 1 quart water. Bring to a simmer and remove from heat. Let stand 5 minutes, then strain. Discard solids and reserve broth. Meanwhile, drain kimchi in a fine mesh strainer set over a small bowl, squeezing to remove as much liquid as possible. Roughly chop kimchi and reserve kimchi and juice separately.",

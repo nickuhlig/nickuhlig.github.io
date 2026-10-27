@@ -78,13 +78,15 @@
     },
     {
       "ingredient_id": 3641,
-      "name": "egg yolks, at room temperature",
-      "quantity": "2 large"
+      "name": "egg yolks",
+      "quantity": "2 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "0.68 kg"
+      "name": "unsalted butter",
+      "quantity": "0.68 kg",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1032,
@@ -93,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the egg yolks to room temperature. Bring the unsalted butter to room temperature.",
+      "secondary_message": "2 large egg yolks\n0.68 kg unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 165°C (325°F). Coat a 9- by 13-cm loaf pan with baking spray. Line pan with 1 sheet of parchment paper, allowing sides to hang over edges of long sides of pan. Coat parchment with baking spray.",

@@ -40,8 +40,9 @@
     },
     {
       "ingredient_id": 26,
-      "name": "asparagus, woody ends trimmed",
-      "quantity": "8 to 12 stalks"
+      "name": "asparagus",
+      "quantity": "8 to 12 stalks",
+      "prep": "woody ends trimmed"
     },
     {
       "ingredient_id": 2740,
@@ -70,6 +71,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the woody ends of the asparagus.",
+      "secondary_message": "8 to 12 stalks asparagus"
+    },
     {
       "id": 1,
       "primary_message": "Bring a medium pot of salted water to a boil and prepare an ice bath. Add asparagus to pot and cook until tender-crisp, 1 to 1 1/2 minutes. Drain asparagus and immediately transfer to an ice bath to chill. Let cool for 1 minute. Dry carefully, then roughly chop into disks or batons.",

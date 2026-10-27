@@ -59,32 +59,43 @@
     },
     {
       "ingredient_id": 153,
-      "name": "green onions, minced",
-      "quantity": "2"
+      "name": "green onions",
+      "quantity": "2",
+      "prep": "minced"
     },
     {
       "ingredient_id": 230,
-      "name": "Cremini mushrooms, scrubbed",
+      "name": "Cremini mushrooms",
       "quantity": "0.45 kg",
-      "weigh_as": "20"
+      "weigh_as": "20",
+      "prep": "scrubbed"
     },
     {
       "ingredient_id": 1744,
-      "name": "skinless boneless chicken breast halves, cut into 1 inch cubes",
-      "quantity": "3"
+      "name": "skinless boneless chicken breast halves",
+      "quantity": "3",
+      "prep": "cut into 1 inch cubes"
     },
     {
       "ingredient_id": 302,
-      "name": "sliced thick cut bacon, cut in half",
-      "quantity": "0.45 kg"
+      "name": "sliced thick cut bacon",
+      "quantity": "0.45 kg",
+      "prep": "cut in half"
     },
     {
       "ingredient_id": 236,
-      "name": "pineapple, cut into 1 inch cubes",
-      "quantity": "1"
+      "name": "pineapple",
+      "quantity": "1",
+      "prep": "cut into 1 inch cubes"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the green onions. Scrub the Cremini mushrooms. Cut the skinless boneless chicken breast halves into 1 inch cubes. Cut the sliced thick cut bacon in half. Cut the pineapple into 1 inch cubes.",
+      "secondary_message": "2 green onions\n0.45 kg Cremini mushrooms\n3 skinless boneless chicken breast halves\n0.45 kg sliced thick cut bacon\n1 pineapple"
+    },
     {
       "id": 1,
       "primary_message": "Combine the soy sauce, cider vinegar, honey, canola oil, and green onions in a small bowl. Place the mushrooms and chicken into a large Ziploc bag, pour in marinade, and toss to coat evenly. Reseal the bag, removing as much air as possible, and marinate in the refrigerator at least 1 hour, preferably overnight.",

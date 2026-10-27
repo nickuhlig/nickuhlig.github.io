@@ -85,8 +85,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic clove, finely minced",
-      "quantity": "1 small"
+      "name": "garlic clove",
+      "quantity": "1 small",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 121,
@@ -135,6 +136,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the garlic clove.",
+      "secondary_message": "1 small garlic clove"
+    },
     {
       "id": 1,
       "primary_message": "For the Rémoulade: In a small bowl, stir together mayonnaise, parsley, capers, hot sauce, mustard, Creole seasoning, horseradish, lemon zest and juice, and garlic; cover and refrigerate until ready to serve.",

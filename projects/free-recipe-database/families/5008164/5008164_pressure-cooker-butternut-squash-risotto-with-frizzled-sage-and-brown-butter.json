@@ -57,9 +57,10 @@
   "ingredients": [
     {
       "ingredient_id": 142,
-      "name": "butternut squash, peeled and seeded",
+      "name": "butternut squash",
       "quantity": "2 ½ small",
-      "weigh_as": "3 ½ lb"
+      "weigh_as": "3 ½ lb",
+      "prep": "peeled and seeded"
     },
     {
       "ingredient_id": 47,
@@ -68,13 +69,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, crushed",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 1266,
-      "name": "Golden Delicious apple, peeled and cored",
-      "quantity": "½"
+      "name": "Golden Delicious apple",
+      "quantity": "½",
+      "prep": "peeled and cored"
     },
     {
       "ingredient_id": 1721,
@@ -113,8 +116,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, minced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1502,
@@ -138,6 +142,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and seed the butternut squash. Crush the garlic. Peel and core the Golden Delicious apple. Mince the yellow onion.",
+      "secondary_message": "2 ½ small butternut squash\n3 medium cloves garlic\n½ Golden Delicious apple\n1 medium yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 400°F. Cut about half the squash into 1-inch chunks, to yield 4 cups. Cut remaining squash into 1/4-inch dice. In a large mixing bowl, toss large squash chunks with 2 tablespoons olive oil, garlic, apple, red pepper flakes, sage sprigs, and a large pinch of salt until evenly coated, then spread in an even layer on a rimmed baking sheet. In a separate bowl, toss small diced squash with 2 tablespoons olive oil, maple syrup, and a pinch of salt, then spread in an even layer on a second rimmed baking sheet.",

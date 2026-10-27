@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 1811,
-      "name": "shrimp, large, peeled, deveined, and rinsed",
-      "quantity": "2 lb"
+      "name": "shrimp, large",
+      "quantity": "2 lb",
+      "prep": "peeled, deveined, and rinsed"
     },
     {
       "ingredient_id": 79,
@@ -66,31 +67,42 @@
     },
     {
       "ingredient_id": 1069,
-      "name": "Monterey Jack cheese, cut into thin strips",
-      "quantity": "2 oz"
+      "name": "Monterey Jack cheese",
+      "quantity": "2 oz",
+      "prep": "cut into thin strips"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapenos, halved, seeded, and cut into thin slices",
-      "quantity": "3"
+      "name": "jalapenos",
+      "quantity": "3",
+      "prep": "halved, seeded, and cut into thin slices"
     },
     {
       "ingredient_id": 302,
-      "name": "bacon strips, halved",
-      "quantity": "1 lb"
+      "name": "bacon strips",
+      "quantity": "1 lb",
+      "prep": "halved"
     },
     {
       "ingredient_id": 115,
-      "name": "butter, melted",
-      "quantity": "¼ cup"
+      "name": "butter",
+      "quantity": "¼ cup",
+      "prep": "melted"
     },
     {
       "ingredient_id": 228,
-      "name": "lime, quartered",
-      "quantity": "1"
+      "name": "lime",
+      "quantity": "1",
+      "prep": "quartered"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel, devein, and rinse the shrimp. Cut the Monterey Jack cheese into thin strips. Halve, seed, and cut the jalapenos into thin slices. Halve the bacon strips. Melt the butter. Quarter the lime.",
+      "secondary_message": "2 lb shrimp, large\n2 oz Monterey Jack cheese\n3 jalapenos\n1 lb bacon strips\n¼ cup butter\n1 lime"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl mix together garlic powder, paprika, black pepper, and cayenne pepper. Place shrimp in a large bowl and season with 3/4 of the spice mixture, tossing to evenly coat.",

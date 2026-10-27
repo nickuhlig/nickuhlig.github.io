@@ -67,8 +67,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced, divided",
-      "quantity": "4 medium cloves"
+      "name": "garlic, divided",
+      "quantity": "4 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 47,
@@ -102,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic.",
+      "secondary_message": "4 medium cloves garlic, divided"
+    },
     {
       "id": 1,
       "primary_message": "Place potatoes in a large pot and cover with cold water. Season generously with salt and bring to a boil over high heat. Simmer until potatoes are tender but not falling apart, about 5 minutes. Drain potatoes transfer to a rimmed baking sheet to allow excess moisture to evaporate.",

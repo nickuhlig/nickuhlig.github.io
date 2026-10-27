@@ -31,13 +31,15 @@
   "ingredients": [
     {
       "ingredient_id": 470,
-      "name": "fennel, cut into sixths",
-      "quantity": "2 medium bulbs"
+      "name": "fennel",
+      "quantity": "2 medium bulbs",
+      "prep": "cut into sixths"
     },
     {
       "ingredient_id": 184,
-      "name": "red onions, cut into sixths",
-      "quantity": "2 medium"
+      "name": "red onions",
+      "quantity": "2 medium",
+      "prep": "cut into sixths"
     },
     {
       "ingredient_id": 47,
@@ -76,6 +78,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the fennel into sixths. Cut the red onions into sixths.",
+      "secondary_message": "2 medium bulbs fennel\n2 medium red onions"
+    },
     {
       "id": 1,
       "primary_message": "Adjust rack to middle position and place an empty 13- by 9-inch baking dish in the middle. Preheat the oven to 425°F.",

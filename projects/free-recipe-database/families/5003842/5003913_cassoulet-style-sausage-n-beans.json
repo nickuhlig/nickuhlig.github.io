@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, chopped",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1757,
@@ -51,8 +52,9 @@
     },
     {
       "ingredient_id": 1012,
-      "name": "baguette, cubed",
-      "quantity": "1 (10 cm) piece"
+      "name": "baguette",
+      "quantity": "1 (10 cm) piece",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 106,
@@ -81,18 +83,21 @@
     },
     {
       "ingredient_id": 302,
-      "name": "thick-cut bacon, cut into batons",
-      "quantity": "2 (½ cm) slices"
+      "name": "thick-cut bacon",
+      "quantity": "2 (½ cm) slices",
+      "prep": "cut into batons"
     },
     {
       "ingredient_id": 97,
-      "name": "diced tomatoes, drained",
-      "quantity": "1 (411 g) can"
+      "name": "diced tomatoes",
+      "quantity": "1 (411 g) can",
+      "prep": "drained"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely diced",
-      "quantity": "½"
+      "name": "onion",
+      "quantity": "½",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 1008,
@@ -106,11 +111,18 @@
     },
     {
       "ingredient_id": 91,
-      "name": "cannellini beans, drained and rinsed",
-      "quantity": "2 (425 g) cans"
+      "name": "cannellini beans",
+      "quantity": "2 (425 g) cans",
+      "prep": "drained and rinsed"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the garlic. Cube the baguette. Cut the thick-cut bacon into batons. Drain the diced tomatoes. Finely dice the onion. Drain and rinse the cannellini beans.",
+      "secondary_message": "4 cloves garlic\n1 (10 cm) piece baguette\n2 (½ cm) slices thick-cut bacon\n1 (411 g) can diced tomatoes\n½ onion\n2 (425 g) cans cannellini beans"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 245°C (475°F). Preheat a sauté pan over medium heat. Add 1 tablespoon olive oil and the sausages. Brown the sausages thoroughly on both sides.",

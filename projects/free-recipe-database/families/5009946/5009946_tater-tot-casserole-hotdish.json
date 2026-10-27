@@ -50,8 +50,9 @@
   "ingredients": [
     {
       "ingredient_id": 19,
-      "name": "button mushrooms, washed, dried, and quartered",
-      "quantity": "1 lb"
+      "name": "button mushrooms, dried",
+      "quantity": "1 lb",
+      "prep": "washed, and quartered"
     },
     {
       "ingredient_id": 47,
@@ -80,13 +81,15 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, peeled and roughly chopped",
-      "quantity": "½ medium"
+      "name": "yellow onion",
+      "quantity": "½ medium",
+      "prep": "peeled and roughly chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 115,
@@ -110,13 +113,15 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, diced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 116,
@@ -165,6 +170,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash the button mushrooms. Quarter the button mushrooms. Peel and roughly chop the yellow onion. Smash the garlic. Dice the yellow onion. Finely mince the garlic.",
+      "secondary_message": "1 lb button mushrooms, dried\n½ medium yellow onion\n2 cloves garlic\n1 medium yellow onion\n2 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Mushroom Sauce: Adjust oven rack to center position and preheat oven to 350°F. In a large bowl, toss mushrooms with olive oil and 6 sprigs thyme, then season with kosher salt and freshly ground black pepper. Spread seasoned mushrooms on a foil-lined rimmed baking sheet. Bake until deeply browned, about 45 minutes. Remove from oven and discard thyme sprigs. Increase oven temperature to 375°F.",

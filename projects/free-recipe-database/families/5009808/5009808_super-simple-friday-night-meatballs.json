@@ -86,8 +86,9 @@
     },
     {
       "ingredient_id": 191,
-      "name": "bread, crusts removed",
-      "quantity": "4 slices"
+      "name": "bread",
+      "quantity": "4 slices",
+      "prep": "crusts removed"
     },
     {
       "ingredient_id": 121,
@@ -126,6 +127,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the crusts from the bread.",
+      "secondary_message": "4 slices bread"
+    },
     {
       "id": 1,
       "primary_message": "For the Sauce: Crush tomatoes by hand, with a food mill, or in a food processor to form a very rough purée. Heat oil in a large Dutch oven over medium heat until shimmering. Add garlic and cook, stirring, until softened but not browned, about 1 minute. Add tomato paste and cook, stirring, until fragrant, about 1 minute longer. Add crushed tomatoes, bring to a simmer, cover, and reduce heat to low. Season lightly with salt and pepper. Meanwhile, make the meatballs.",

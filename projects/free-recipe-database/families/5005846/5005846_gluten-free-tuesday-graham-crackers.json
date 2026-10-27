@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, cold",
-      "quantity": "5 tbsp"
+      "name": "butter",
+      "quantity": "5 tbsp",
+      "prep": "cold"
     },
     {
       "ingredient_id": 118,
@@ -75,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the butter cold until you use it.",
+      "secondary_message": "5 tbsp butter"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 350°F. In the bowl of a food processor, combine dry ingredients. Pulse to combine. (If you don't have a food processor, whisk dry ingredients together in a medium mixing bowl.)",

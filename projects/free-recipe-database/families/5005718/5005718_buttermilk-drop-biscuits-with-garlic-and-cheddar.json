@@ -59,8 +59,9 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "fresh parsley, finely chopped",
-      "quantity": "¼ oz"
+      "name": "fresh parsley",
+      "quantity": "¼ oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 331,
@@ -99,8 +100,9 @@
     },
     {
       "ingredient_id": 43,
-      "name": "sharp cheddar, finely grated",
-      "quantity": "6 oz"
+      "name": "sharp cheddar",
+      "quantity": "6 oz",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 2475,
@@ -109,6 +111,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the fresh parsley. Finely grate the sharp cheddar.",
+      "secondary_message": "¼ oz fresh parsley\n6 oz sharp cheddar"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower-middle position and preheat to 400°F. Sift flour into a large bowl. If using butter, dice into 1/4-inch pieces, then toss with flour and rub with your fingertips until no visible bits remain. Whisk in parsley or chives, baking powder, sugar, salt, garlic powder, onion powder, paprika, and cayenne. Add the finely grated cheddar, and toss until well combined. Pour in buttermilk, and stir with a flexible spatula to form a soft dough.",

@@ -38,8 +38,9 @@
   "ingredients": [
     {
       "ingredient_id": 1629,
-      "name": "chicken breast, sliced about 1/8 inch thick",
-      "quantity": "½ lb"
+      "name": "chicken breast",
+      "quantity": "½ lb",
+      "prep": "sliced about 1/8 inch thick"
     },
     {
       "ingredient_id": 88,
@@ -88,21 +89,30 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, cut into 2-inch segments",
-      "quantity": "4"
+      "name": "scallions",
+      "quantity": "4",
+      "prep": "cut into 2-inch segments"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, sliced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "finely minced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the chicken breast about 1/8 inch thick. Cut the scallions into 2-inch segments. Slice the onion. Finely mince the garlic.",
+      "secondary_message": "½ lb chicken breast\n4 scallions\n1 medium onion\n3 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Place sliced chicken in a large bowl and add salt, sugar, ground white pepper, Shaoxing wine, soy sauce, 1 teaspoon oil, and cornstarch. Mix well and marinate for 30 minutes in the refrigerator.",

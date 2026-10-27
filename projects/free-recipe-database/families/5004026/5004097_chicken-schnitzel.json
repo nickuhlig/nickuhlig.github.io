@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 1744,
-      "name": "boneless skinless chicken breast halves, tenders removed, about 8 ounces each",
-      "quantity": "4"
+      "name": "boneless skinless chicken breast halves, about 8 ounces each",
+      "quantity": "4",
+      "prep": "tenders removed"
     },
     {
       "ingredient_id": 1216,
@@ -71,11 +72,18 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, sliced into 4 wedges",
-      "quantity": "1 medium"
+      "name": "lemon",
+      "quantity": "1 medium",
+      "prep": "sliced into 4 wedges"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the tenders from the boneless skinless chicken breast halves. Slice the lemon into 4 wedges.",
+      "secondary_message": "4 boneless skinless chicken breast halves, about 8 ounces each\n1 medium lemon"
+    },
     {
       "id": 1,
       "primary_message": "Whisk together 2 quarts of water and salt in a large bowl until salt is dissolved. Place the chicken breast halves in brine and refrigerate for 30 minutes.",

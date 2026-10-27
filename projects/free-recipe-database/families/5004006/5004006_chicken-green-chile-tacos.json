@@ -39,13 +39,15 @@
     },
     {
       "ingredient_id": 2069,
-      "name": "tomatillos, husks removed, split in half",
-      "quantity": "2 medium"
+      "name": "tomatillos",
+      "quantity": "2 medium",
+      "prep": "husks removed, split in half"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, peeled and split in half",
-      "quantity": "1 small"
+      "name": "yellow onion",
+      "quantity": "1 small",
+      "prep": "peeled and split in half"
     },
     {
       "ingredient_id": 24,
@@ -59,8 +61,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "fresh cilantro leaves, roughly chopped",
-      "quantity": "1 cup"
+      "name": "fresh cilantro leaves",
+      "quantity": "1 cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 88,
@@ -84,8 +87,9 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, minced",
-      "quantity": "1 small"
+      "name": "white onion",
+      "quantity": "1 small",
+      "prep": "minced"
     },
     {
       "ingredient_id": 321,
@@ -104,11 +108,18 @@
     },
     {
       "ingredient_id": 183,
-      "name": "avocado, sliced",
-      "quantity": "1"
+      "name": "avocado",
+      "quantity": "1",
+      "prep": "sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the husks from the tomatillos, then split them in half. Peel and split the yellow onion in half. Roughly chop the fresh cilantro leaves. Mince the white onion. Slice the avocado.",
+      "secondary_message": "2 medium tomatillos\n1 small yellow onion\n1 cup fresh cilantro leaves\n1 small white onion\n1 avocado"
+    },
     {
       "id": 1,
       "primary_message": "Preheat broiler to high and adjust broiler rack to 5 to 6 inches below heating element. Toss peppers, tomatillos, yellow onion, and garlic in a medium bowl with 1 tablespoon olive oil. Place on a foil lined rimmed baking sheet and broil until vegetables are completely tender and charred on all sides, turning occasionally, about 20 minutes total. Peel peppers and remove stems and seeds when cool enough to handle. Transfer vegetables to a food processor or blender with half of the cilantro and process on high speed until smooth. Add 2 tablespoons lime juice from about 2 of the limes, season to taste with salt, and set aside.",

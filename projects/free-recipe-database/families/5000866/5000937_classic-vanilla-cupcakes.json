@@ -98,8 +98,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "170 g"
+      "name": "unsalted butter",
+      "quantity": "170 g",
+      "prep": "softened"
     },
     {
       "ingredient_id": 121,
@@ -118,13 +119,15 @@
     },
     {
       "ingredient_id": 118,
-      "name": "whole milk, room temperature",
-      "quantity": "½ cup"
+      "name": "whole milk",
+      "quantity": "½ cup",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 1003,
-      "name": "sour cream, room temperature",
-      "quantity": "113 g"
+      "name": "sour cream",
+      "quantity": "113 g",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 2089,
@@ -133,6 +136,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter. Bring the whole milk to room temperature. Bring the sour cream to room temperature.",
+      "secondary_message": "170 g unsalted butter\n½ cup whole milk\n113 g sour cream"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 175°C (350°F) (175ºC). Place paper baking cups in two 12-cup muffin pans. Fit a piping bag with desired piping tip; set aside.",

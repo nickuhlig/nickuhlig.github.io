@@ -76,8 +76,9 @@
   "ingredients": [
     {
       "ingredient_id": 242,
-      "name": "strawberries, trimmed and halved",
-      "quantity": "1 lb"
+      "name": "strawberries",
+      "quantity": "1 lb",
+      "prep": "trimmed and halved"
     },
     {
       "ingredient_id": 1480,
@@ -96,8 +97,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "8 oz"
+      "name": "cream cheese",
+      "quantity": "8 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 346,
@@ -131,8 +133,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, cut into 4 pieces, softened",
-      "quantity": "1 ½ tbsp"
+      "name": "butter",
+      "quantity": "1 ½ tbsp",
+      "prep": "cut into 4 pieces, softened"
     },
     {
       "ingredient_id": 118,
@@ -176,6 +179,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim and halve the strawberries. Soften the cream cheese. Cut the butter into 4 pieces and soften it.",
+      "secondary_message": "1 lb strawberries\n8 oz cream cheese\n1 ½ tbsp butter"
+    },
     {
       "id": 1,
       "primary_message": "If Making With Strawberry Filling: In a small saucepan add strawberries, sugar, lemon juice, and salt and cook over medium heat, stirring occasionally until berries break down, mixture thickens, spatula leaves trail that does not fill in immediately and jam is reduced to about 1 cup, about 15 minutes. Let cool off heat for 10 minutes, then transfer to a food processor and purée until smooth. Transfer to a small bowl or clean glass jar and refrigerate until ready to use.",

@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "green onions, roughly chopped",
-      "quantity": "2"
+      "name": "green onions",
+      "quantity": "2",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 2685,
@@ -72,8 +73,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, peeled and lightly crushed, divided",
-      "quantity": "12 large"
+      "name": "garlic cloves, divided",
+      "quantity": "12 large",
+      "prep": "peeled and lightly crushed"
     },
     {
       "ingredient_id": 115,
@@ -102,6 +104,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the green onions. Peel and lightly crush the garlic cloves.",
+      "secondary_message": "2 green onions\n12 large garlic cloves, divided"
+    },
     {
       "id": 1,
       "primary_message": "In a small saucepan, bring the chicken broth, green onion, culantro or cilantro, bay leaf, 4 garlic cloves, and butter to a simmer over medium heat. Once simmering, remove from the heat, cover, and set aside to keep warm while frying the plantains.",

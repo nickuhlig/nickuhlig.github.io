@@ -63,8 +63,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, room temperature",
-      "quantity": "170 g"
+      "name": "unsalted butter",
+      "quantity": "170 g",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 346,
@@ -83,8 +84,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, room temperature",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 1032,
@@ -133,6 +135,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature. Bring the eggs to room temperature.",
+      "secondary_message": "170 g unsalted butter\n2 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat to 175°C (350°F). Add almond flour to a parchment-lined 13- by 46-cm rimmed baking sheet and spread into a thin, even layer. Toast in oven, stirring every 3 minutes, until the almond flour is fragrant and light golden brown, about 10 minutes. Remove from oven and let cool to room temperature, about 20 minutes.",

@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 2324,
-      "name": "zucchini, ends trimmed and cut into 3/4-inch dice",
-      "quantity": "1 large"
+      "name": "zucchini",
+      "quantity": "1 large",
+      "prep": "ends trimmed and cut into 3/4-inch dice"
     },
     {
       "ingredient_id": 88,
@@ -70,8 +71,9 @@
     },
     {
       "ingredient_id": 260,
-      "name": "red tomatoes, cored and thinly sliced",
-      "quantity": "3 medium"
+      "name": "red tomatoes",
+      "quantity": "3 medium",
+      "prep": "cored and thinly sliced"
     },
     {
       "ingredient_id": 150,
@@ -80,13 +82,15 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, thinly sliced",
-      "quantity": "1 medium"
+      "name": "red onion",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1993,
-      "name": "Scotch bonnet, stemmed and thinly sliced",
-      "quantity": "½"
+      "name": "Scotch bonnet",
+      "quantity": "½",
+      "prep": "stemmed and thinly sliced"
     },
     {
       "ingredient_id": 3644,
@@ -105,6 +109,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the ends of the zucchini, then cut it into 3/4-inch dice. Core and thinly slice the red tomatoes. Thinly slice the red onion. Stem and thinly slice the Scotch bonnet.",
+      "secondary_message": "1 large zucchini\n3 medium red tomatoes\n1 medium red onion\n½ Scotch bonnet"
+    },
     {
       "id": 1,
       "primary_message": "Place eggplant and zucchini in a strainer or colander set over a bowl. Season with 1 tablespoon kosher salt and toss until well combined. Let stand to drain for at least 15 minutes and up to 1 hour. Discard the liquids that collect in the bowl.",

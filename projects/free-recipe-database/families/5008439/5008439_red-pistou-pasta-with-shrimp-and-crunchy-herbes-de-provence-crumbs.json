@@ -71,13 +71,15 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "zested"
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, juiced",
-      "quantity": "½"
+      "name": "lemon",
+      "quantity": "½",
+      "prep": "juiced"
     },
     {
       "ingredient_id": 120,
@@ -116,6 +118,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the lemon. Juice the lemon.",
+      "secondary_message": "1 lemon\n½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "Bring a large pot of water to a boil, and salt it.",

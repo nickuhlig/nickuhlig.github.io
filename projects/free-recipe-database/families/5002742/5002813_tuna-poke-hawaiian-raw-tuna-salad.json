@@ -48,8 +48,9 @@
     },
     {
       "ingredient_id": 1791,
-      "name": "raw sashimi-grade tuna, cut into 1/2-inch cubes",
-      "quantity": "340 g"
+      "name": "raw sashimi-grade tuna",
+      "quantity": "340 g",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 1676,
@@ -59,8 +60,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallion, thinly sliced",
-      "quantity": "1"
+      "name": "scallion",
+      "quantity": "1",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1792,
@@ -94,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the raw sashimi-grade tuna into 1/2-inch cubes. Thinly slice the scallion.",
+      "secondary_message": "340 g raw sashimi-grade tuna\n1 scallion"
+    },
     {
       "id": 1,
       "primary_message": "Place wakame and hijiki in separate small bowls. Cover with boiling water and let rest until rehydrated and tender, about 5 minutes. Drain and press with paper towels. Roughly chop wakame. Add wakame and hijiki to a large bowl.",

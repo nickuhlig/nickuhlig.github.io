@@ -60,11 +60,18 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "zested"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the lemon.",
+      "secondary_message": "1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "In a food processor, combine fried shallots, fried garlic, fried red onions, teriyaki nori, and salt. Pulse mixture until it forms a medium-sized crumb, like fine panko crumbs. Add lemon zest and pulse to combine. Transfer crispy topping to an airtight container and reserve at room temperature for up to 2 days.",

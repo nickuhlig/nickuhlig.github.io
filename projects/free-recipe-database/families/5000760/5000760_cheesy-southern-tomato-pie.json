@@ -82,9 +82,10 @@
     },
     {
       "ingredient_id": 152,
-      "name": "Vidalia yellow onion, thinly sliced",
+      "name": "Vidalia yellow onion",
       "quantity": "2 medium",
-      "weigh_as": "8 oz"
+      "weigh_as": "8 oz",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 267,
@@ -93,13 +94,15 @@
     },
     {
       "ingredient_id": 43,
-      "name": "yellow sharp cheddar cheese, shredded",
-      "quantity": "3 oz"
+      "name": "yellow sharp cheddar cheese",
+      "quantity": "3 oz",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 43,
-      "name": "aged white cheddar cheese, shredded",
-      "quantity": "3 oz"
+      "name": "aged white cheddar cheese",
+      "quantity": "3 oz",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 117,
@@ -118,16 +121,24 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, lightly beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 2016,
-      "name": "low-moisture mozzarella cheese, shredded , divided",
-      "quantity": "4 oz"
+      "name": "low-moisture mozzarella cheese, divided",
+      "quantity": "4 oz",
+      "prep": "shredded"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the Vidalia yellow onion. Shred the yellow sharp cheddar cheese. Shred the aged white cheddar cheese. Lightly beat the egg. Shred the low-moisture mozzarella cheese.",
+      "secondary_message": "2 medium Vidalia yellow onion\n3 oz yellow sharp cheddar cheese\n3 oz aged white cheddar cheese\n1 large egg\n4 oz low-moisture mozzarella cheese, divided"
+    },
     {
       "id": 1,
       "primary_message": "Place tomato slices on a wire rack-lined rimmed baking sheet; season both sides of tomatoes with 1/2 teaspoon of the salt. Let sit for 15 minutes. Pat dry with paper towels. Flip and continue to let sit, patting dry with paper towels and turning every 15 minutes, until a generous amount of liquid has released, about 1 hour.",

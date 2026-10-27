@@ -73,13 +73,15 @@
   "ingredients": [
     {
       "ingredient_id": 1039,
-      "name": "russet potato, peeled and cut into 1-inch pieces",
-      "quantity": "1 medium"
+      "name": "russet potato",
+      "quantity": "1 medium",
+      "prep": "peeled and cut into 1-inch pieces"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "1 ½ oz"
+      "name": "unsalted butter",
+      "quantity": "1 ½ oz",
+      "prep": "melted"
     },
     {
       "ingredient_id": 116,
@@ -103,8 +105,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, at room temperature",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 88,
@@ -128,11 +131,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted in a spouted measuring cup",
-      "quantity": "2 ½ oz"
+      "name": "unsalted butter",
+      "quantity": "2 ½ oz",
+      "prep": "melted in a spouted measuring cup"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the russet potato into 1-inch pieces. Melt the unsalted butter. Bring the egg to room temperature. Melt the unsalted butter in a spouted measuring cup.",
+      "secondary_message": "1 medium russet potato\n1 ½ oz unsalted butter\n1 large egg\n2 ½ oz unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Place cut potato in a medium saucepan and cover with cold water. Set saucepan over medium-high heat and bring to a boil, then reduce heat to a gentle simmer. Cook until potatoes are tender, about 20 minutes. Using a colander, drain potatoes. Set a ricer over now-empty pot and pass potatoes through; set aside. (See notes.)",

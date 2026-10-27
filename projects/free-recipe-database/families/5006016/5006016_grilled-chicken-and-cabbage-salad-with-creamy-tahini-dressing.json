@@ -32,8 +32,9 @@
   "ingredients": [
     {
       "ingredient_id": 3664,
-      "name": "leftover grilled chicken breasts, shredded",
-      "quantity": "¾ lb"
+      "name": "leftover grilled chicken breasts",
+      "quantity": "¾ lb",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 47,
@@ -47,8 +48,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced , divided",
-      "quantity": "4 medium cloves"
+      "name": "garlic, divided",
+      "quantity": "4 medium cloves",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 88,
@@ -68,8 +70,9 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, thinly sliced",
-      "quantity": "1 small"
+      "name": "red onion",
+      "quantity": "1 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 334,
@@ -98,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shred the leftover grilled chicken breasts. Finely mince the garlic. Thinly slice the red onion.",
+      "secondary_message": "¾ lb leftover grilled chicken breasts\n4 medium cloves garlic, divided\n1 small red onion"
+    },
     {
       "id": 1,
       "primary_message": "Combine chicken with 2 tablespoons olive oil, 1 tablespoon lemon juice, and 1 teaspoon minced garlic in a large bowl. Season with salt and pepper and massage with clean hands to work the dressing into the chicken. Add cabbage and red onion and toss to combine. Set aside.",

@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, diced",
-      "quantity": "1 stick"
+      "name": "unsalted butter",
+      "quantity": "1 stick",
+      "prep": "diced"
     },
     {
       "ingredient_id": 88,
@@ -60,6 +61,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the unsalted butter.",
+      "secondary_message": "1 stick unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "If Using Only the Oven (see notes): Preheat oven to 190°C (375°F). Using a fork or paring knife, puncture potatoes in several spots. Rub each potato with a light coat of oil. Arrange on a rack set on a baking sheet, or directly on an oven rack, and bake until a fork can easily be inserted into the center of each potato, about 1 hour. If setting potatoes directly on oven rack, set a sheet of foil on the rack below to catch any oil drips.",

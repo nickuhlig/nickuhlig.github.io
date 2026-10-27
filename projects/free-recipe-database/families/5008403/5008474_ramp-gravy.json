@@ -42,8 +42,9 @@
     },
     {
       "ingredient_id": 2275,
-      "name": "ramps, finely chopped",
-      "quantity": "6"
+      "name": "ramps",
+      "quantity": "6",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2529,
@@ -67,6 +68,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the ramps.",
+      "secondary_message": "6 ramps"
+    },
     {
       "id": 1,
       "primary_message": "Melt butter in a medium saucepan over medium heat. Add ramps and cook, stirring frequently, until softened, about 3 minutes. Add flour and cook, stirring constantly with a whisk until golden blond, about 4 minutes.",

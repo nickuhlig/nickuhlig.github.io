@@ -57,13 +57,15 @@
     },
     {
       "ingredient_id": 247,
-      "name": "Asian pear, peeled, cored, and coarsely grated",
-      "quantity": "¼"
+      "name": "Asian pear",
+      "quantity": "¼",
+      "prep": "peeled, cored, and coarsely grated"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced or grated",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "minced or grated"
     },
     {
       "ingredient_id": 1330,
@@ -107,8 +109,9 @@
     },
     {
       "ingredient_id": 187,
-      "name": "flour tortillas, warmed",
-      "quantity": "4 large"
+      "name": "flour tortillas",
+      "quantity": "4 large",
+      "prep": "warmed"
     },
     {
       "ingredient_id": 1214,
@@ -137,6 +140,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel, core, and coarsely grate the Asian pear. Mince or grate the garlic. Warm the flour tortillas.",
+      "secondary_message": "¼ Asian pear\n4 medium cloves garlic\n4 large flour tortillas"
+    },
     {
       "id": 1,
       "primary_message": "For the Marinated Beef: In a large bowl, whisk together soy sauce, sugar, sesame oil, Asian pear, garlic, and ginger. When sugar has dissolved, add beef, scallion, and onion slices to bowl and toss to coat. Cover and refrigerate for at least 1 hour or up to overnight.",

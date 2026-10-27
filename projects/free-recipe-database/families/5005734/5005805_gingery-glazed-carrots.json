@@ -36,8 +36,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, peeled and cut into julienne",
-      "quantity": "1 (2 ½ cm) piece"
+      "name": "ginger",
+      "quantity": "1 (2 ½ cm) piece",
+      "prep": "peeled and cut into julienne"
     },
     {
       "ingredient_id": 287,
@@ -81,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the ginger into julienne.",
+      "secondary_message": "1 (2 ½ cm) piece ginger"
+    },
     {
       "id": 1,
       "primary_message": "Combine carrots, ginger, thyme, chicken broth, butter, sugar, 1 teaspoon salt, and a few grinds black pepper in a 30-cm straight-sided sautée pan or Dutch oven and place over high heat. When liquid boils, cover and cook, stirring occasionally, until carrots are almost completely tender (carrots should give very little resistance when poked with a cake tester or knife), about 10 minutes. If liquid drops to below 1.5-cm during cooking, top up with a cup of hot water.",

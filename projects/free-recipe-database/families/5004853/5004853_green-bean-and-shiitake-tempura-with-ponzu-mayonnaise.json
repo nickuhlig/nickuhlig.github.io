@@ -93,16 +93,24 @@
     },
     {
       "ingredient_id": 111,
-      "name": "green beans, trimmed",
-      "quantity": "½ lb"
+      "name": "green beans",
+      "quantity": "½ lb",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 1929,
-      "name": "shiitake mushrooms, stems removed, caps cut in half",
-      "quantity": "4 oz"
+      "name": "shiitake mushrooms",
+      "quantity": "4 oz",
+      "prep": "stems removed, caps cut in half"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the green beans. Remove the stems from the shiitake mushrooms, then cut the caps in half.",
+      "secondary_message": "½ lb green beans\n4 oz shiitake mushrooms"
+    },
     {
       "id": 1,
       "primary_message": "For the Ponzu Mayo: Add the egg yolk, miso paste, ponzu, and honey to a medium bowl and whisk to combine. Set the bowl inside on top of a medium sauce pot lined with a kitchen towel to keep it steady. Whisking constantly and vigorously, slowly drizzle in vegetable oil until the sauce forms a thick emulsion. Season to taste with salt and pepper, and add up to one tablespoon of water until mixture is thick enough to hold its shape, but not pasty. Refrigerate until ready to use. Sauce can be stored in refrigerator for up to 2 weeks.",

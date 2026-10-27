@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 1541,
-      "name": "roma tomatoes, cut into 1/2- to 1/4-inch dice",
-      "quantity": "4 medium"
+      "name": "roma tomatoes",
+      "quantity": "4 medium",
+      "prep": "cut into 1/2- to 1/4-inch dice"
     },
     {
       "ingredient_id": 153,
@@ -46,8 +47,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "loosely packed fresh cilantro leaves, finely chopped",
-      "quantity": "½ cup"
+      "name": "loosely packed fresh cilantro leaves",
+      "quantity": "½ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 88,
@@ -61,6 +63,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the roma tomatoes into 1/2- to 1/4-inch dice. Finely chop the loosely packed fresh cilantro leaves.",
+      "secondary_message": "4 medium roma tomatoes\n½ cup loosely packed fresh cilantro leaves"
+    },
     {
       "id": 1,
       "primary_message": "Combine tomatoes, scallions, cilantro, and chili in a small bowl. Season generously with salt and let sit 2 minutes until salt dissolves. Add water and stir to combine.",

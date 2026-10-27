@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemons, zested",
-      "quantity": "2"
+      "name": "lemons",
+      "quantity": "2",
+      "prep": "zested"
     },
     {
       "ingredient_id": 2409,
@@ -65,6 +66,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the lemons.",
+      "secondary_message": "2 lemons"
+    },
     {
       "id": 1,
       "primary_message": "Combine cranberries and water in a large saucepan. Bring to a boil, then reduce to a simmer, and cook covered until cranberries pop and liquid becomes syrupy, about four minutes. Remove from heat, stir in sugar, and let cool for five minutes.",

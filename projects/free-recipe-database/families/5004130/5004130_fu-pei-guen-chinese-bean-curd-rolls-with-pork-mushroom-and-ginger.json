@@ -137,8 +137,9 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, peeled and julienned",
-      "quantity": "1 small"
+      "name": "carrot",
+      "quantity": "1 small",
+      "prep": "peeled and julienned"
     },
     {
       "ingredient_id": 1231,
@@ -197,6 +198,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and julienne the carrot.",
+      "secondary_message": "1 small carrot"
+    },
     {
       "id": 1,
       "primary_message": "For the Pork Filling: In a large bowl, add all the ingredients and mix well. Refrigerate at least 30 minutes or overnight.",

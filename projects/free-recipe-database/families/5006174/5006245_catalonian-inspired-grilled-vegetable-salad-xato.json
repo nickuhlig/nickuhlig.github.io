@@ -53,13 +53,15 @@
   "ingredients": [
     {
       "ingredient_id": 29,
-      "name": "almonds, wrapped in a small foil packet",
-      "quantity": "¼ cup"
+      "name": "almonds",
+      "quantity": "¼ cup",
+      "prep": "wrapped in a small foil packet"
     },
     {
       "ingredient_id": 1716,
-      "name": "hazelnuts, wrapped in a small foil packet",
-      "quantity": "¼ cup"
+      "name": "hazelnuts",
+      "quantity": "¼ cup",
+      "prep": "wrapped in a small foil packet"
     },
     {
       "ingredient_id": 2805,
@@ -68,8 +70,9 @@
     },
     {
       "ingredient_id": 260,
-      "name": "tomato, cut in half",
-      "quantity": "1 medium"
+      "name": "tomato",
+      "quantity": "1 medium",
+      "prep": "cut in half"
     },
     {
       "ingredient_id": 1174,
@@ -103,11 +106,18 @@
     },
     {
       "ingredient_id": 153,
-      "name": "spring onions, about 6 onions , root ends trimmed",
-      "quantity": "1 bunch"
+      "name": "spring onions, about 6 onions",
+      "quantity": "1 bunch",
+      "prep": "root ends trimmed"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wrap the almonds in a small foil packet. Wrap the hazelnuts in a small foil packet. Cut the tomato in half. Trim the root ends of the spring onions.",
+      "secondary_message": "¼ cup almonds\n¼ cup hazelnuts\n1 medium tomato\n1 bunch spring onions, about 6 onions"
+    },
     {
       "id": 1,
       "primary_message": "Light one chimney full of charcoal. When all charcoal is lit and covered with gray ash, pour out and spread coals evenly over half of coal grate. Alternatively, set all burners of a gas grill to high heat. Set cooking grate in place, cover grill, and allow to preheat for 5 minutes. Clean and oil grilling grate.",

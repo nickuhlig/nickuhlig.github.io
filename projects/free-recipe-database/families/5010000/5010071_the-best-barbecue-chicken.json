@@ -84,8 +84,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced on a Microplane grater",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "minced on a Microplane grater"
     },
     {
       "ingredient_id": 399,
@@ -94,11 +95,18 @@
     },
     {
       "ingredient_id": 3586,
-      "name": "hardwood, soaked in water for 30 minutes",
-      "quantity": "2 chunks"
+      "name": "hardwood",
+      "quantity": "2 chunks",
+      "prep": "soaked in water for 30 minutes"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic on a Microplane grater. Soak the hardwood in water for 30 minutes.",
+      "secondary_message": "2 medium cloves garlic\n2 chunks hardwood"
+    },
     {
       "id": 1,
       "primary_message": "Pat chicken dry with paper towels and place breast-side-down on a large cutting board. Using sharp kitchen shears, remove the backbone by cutting along either side of it. Turn chicken over and lay out flat. Press firmly on breast to flatten the chicken. For added stability, run a metal or wooden skewer horizontally, entering through one thigh, going through both breast halves, and exiting through the other thigh. Tuck wing tips behind back. Season generously with salt and pepper.",

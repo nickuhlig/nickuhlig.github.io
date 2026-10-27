@@ -45,8 +45,9 @@
   "ingredients": [
     {
       "ingredient_id": 1468,
-      "name": "blood orange juice, strained",
-      "quantity": "2 cups"
+      "name": "blood orange juice",
+      "quantity": "2 cups",
+      "prep": "strained"
     },
     {
       "ingredient_id": 2346,
@@ -75,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Strain the blood orange juice.",
+      "secondary_message": "2 cups blood orange juice"
+    },
     {
       "id": 1,
       "primary_message": "In a large mixing bowl, whisk together blood orange juice, zest, cream, corn syrup, and sugar until sugar is completely dissolved. Stir in salt to taste. If blood oranges were not chilled (see note), chill mixture in refrigerator for 2 to 3 hours until very cold.",

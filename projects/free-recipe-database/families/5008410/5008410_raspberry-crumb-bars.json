@@ -76,8 +76,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, diced",
-      "quantity": "16 tbsp"
+      "name": "cold unsalted butter",
+      "quantity": "16 tbsp",
+      "prep": "diced"
     },
     {
       "ingredient_id": 121,
@@ -91,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the cold unsalted butter.",
+      "secondary_message": "16 tbsp cold unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 375°F. Grease baking pan with butter.",

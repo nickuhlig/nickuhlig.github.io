@@ -66,8 +66,9 @@
   "ingredients": [
     {
       "ingredient_id": 2581,
-      "name": "white chocolate, melted and tempered",
-      "quantity": "4 oz"
+      "name": "white chocolate",
+      "quantity": "4 oz",
+      "prep": "melted and tempered"
     },
     {
       "ingredient_id": 115,
@@ -131,8 +132,9 @@
     },
     {
       "ingredient_id": 1831,
-      "name": "gelatin, bloomed in 2 tablespoons water",
-      "quantity": "1 tsp"
+      "name": "gelatin",
+      "quantity": "1 tsp",
+      "prep": "bloomed in 2 tablespoons water"
     },
     {
       "ingredient_id": 88,
@@ -146,8 +148,9 @@
     },
     {
       "ingredient_id": 1752,
-      "name": "heavy cream, whipped to soft peaks and chilled",
-      "quantity": "6 oz"
+      "name": "heavy cream",
+      "quantity": "6 oz",
+      "prep": "whipped to soft peaks and chilled"
     },
     {
       "ingredient_id": 335,
@@ -166,6 +169,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt and temper the white chocolate. Bloom the gelatin in 2 tablespoons water. Whip the heavy cream to soft peaks and keep it cold until you use it.",
+      "secondary_message": "4 oz white chocolate\n1 tsp gelatin\n6 oz heavy cream"
+    },
     {
       "id": 1,
       "primary_message": "To Prepare the Molds: Place dome mold sheet onto a sheet pan. Using a pastry brush, paint melted, tempered chocolate evenly on surface of each mold cavity, making sure chocolate goes straight to the edge. Place molds into fridge to set.",

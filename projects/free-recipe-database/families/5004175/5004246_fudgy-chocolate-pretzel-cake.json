@@ -48,8 +48,9 @@
   "ingredients": [
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "113 g"
+      "name": "bittersweet chocolate",
+      "quantity": "113 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2526,
@@ -113,13 +114,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "13 tbsp (6 ½ oz)"
+      "name": "unsalted butter",
+      "quantity": "13 tbsp (6 ½ oz)",
+      "prep": "softened"
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, melted and slightly cooled",
-      "quantity": "142 g"
+      "name": "bittersweet chocolate",
+      "quantity": "142 g",
+      "prep": "melted and slightly cooled"
     },
     {
       "ingredient_id": 1003,
@@ -143,11 +146,18 @@
     },
     {
       "ingredient_id": 2466,
-      "name": "pretzel knots, crushed, divided",
-      "quantity": "85 g"
+      "name": "pretzel knots, divided",
+      "quantity": "85 g",
+      "prep": "crushed"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the bittersweet chocolate. Soften the unsalted butter. Melt the bittersweet chocolate and let it cool slightly. Crush the pretzel knots.",
+      "secondary_message": "113 g bittersweet chocolate\n13 tbsp (6 ½ oz) unsalted butter\n142 g bittersweet chocolate\n85 g pretzel knots, divided"
+    },
     {
       "id": 1,
       "primary_message": "For the cake: Adjust oven rack to middle position and preheat oven to 175°C (350°F). Grease two 23-cm cake pans and line with parchment paper.",

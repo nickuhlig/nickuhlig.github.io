@@ -43,18 +43,21 @@
   "ingredients": [
     {
       "ingredient_id": 2885,
-      "name": "guajillo chiles, stems removed",
-      "quantity": "4"
+      "name": "guajillo chiles",
+      "quantity": "4",
+      "prep": "stems removed"
     },
     {
       "ingredient_id": 1618,
-      "name": "chipotle chile, stem removed",
-      "quantity": "1"
+      "name": "chipotle chile",
+      "quantity": "1",
+      "prep": "stem removed"
     },
     {
       "ingredient_id": 1776,
-      "name": "árbol chiles, stems removed",
-      "quantity": "3"
+      "name": "árbol chiles",
+      "quantity": "3",
+      "prep": "stems removed"
     },
     {
       "ingredient_id": 2265,
@@ -73,8 +76,9 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, roughly chopped",
-      "quantity": "¼ small"
+      "name": "white onion",
+      "quantity": "¼ small",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 24,
@@ -118,13 +122,15 @@
     },
     {
       "ingredient_id": 2036,
-      "name": "queso Oaxaca, shredded",
-      "quantity": "227 g"
+      "name": "queso Oaxaca",
+      "quantity": "227 g",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 236,
-      "name": "peeled and cored fresh pineapple, thinly sliced into bite-size pieces",
-      "quantity": "340 g"
+      "name": "peeled and cored fresh pineapple",
+      "quantity": "340 g",
+      "prep": "thinly sliced into bite-size pieces"
     },
     {
       "ingredient_id": 187,
@@ -133,6 +139,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the stems from the guajillo chiles. Remove the stem from the chipotle chile. Remove the stems from the árbol chiles. Roughly chop the white onion. Shred the queso Oaxaca. Thinly slice the peeled and cored fresh pineapple into bite-size pieces.",
+      "secondary_message": "4 guajillo chiles\n1 chipotle chile\n3 árbol chiles\n¼ small white onion\n227 g queso Oaxaca\n340 g peeled and cored fresh pineapple"
+    },
     {
       "id": 1,
       "primary_message": "In a blender jar, combine guajillo chiles, chipotle chiles, árbol chiles, pineapple juice, orange juice, and vinegar. Push the chiles into the liquid until they are mostly submerged. Soak until chile skins are softened, about 10 minutes. Add onion, garlic, cumin, oregano, cinnamon, salt and clove. Blend on high speed until smooth, with no bits of chile skin remaining.",

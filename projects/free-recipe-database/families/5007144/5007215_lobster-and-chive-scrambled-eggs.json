@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "12 large"
+      "name": "eggs",
+      "quantity": "12 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 88,
@@ -66,6 +67,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Beat the eggs.",
+      "secondary_message": "12 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Melt butter in a large non stick skillet over medium low heat. Add lobster and chives. Cook stirring often until lobster is heated through and coated with chives and butter. Lower heat to low and add beaten eggs. Cook stirring constantly until eggs begin to thicken, then raise heat to medium and continue to cook until eggs are soft but fully set. Season to taste with salt and pepper and serve immediately with toast.",

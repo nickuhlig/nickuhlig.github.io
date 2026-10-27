@@ -45,8 +45,9 @@
   "ingredients": [
     {
       "ingredient_id": 2196,
-      "name": "daikon radish, grated",
-      "quantity": "1 large"
+      "name": "daikon radish",
+      "quantity": "1 large",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1936,
@@ -80,8 +81,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1086,
@@ -90,16 +92,24 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, sliced",
-      "quantity": "½ bunch"
+      "name": "scallions",
+      "quantity": "½ bunch",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 188,
-      "name": "cilantro leaves, chopped",
-      "quantity": "¼ cup"
+      "name": "cilantro leaves",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the daikon radish. Mince the garlic. Slice the scallions. Chop the cilantro leaves.",
+      "secondary_message": "1 large daikon radish\n2 cloves garlic\n½ bunch scallions\n¼ cup cilantro leaves"
+    },
     {
       "id": 1,
       "primary_message": "Place grated radish in a large straight sided skillet or saucepan with lid. Add 1/3 cup water and bring to simmer over medium heat. Cover and gently simmer until radish is translucent and tender, about 40 minutes. Remove lid and let cool.",

@@ -61,8 +61,9 @@
   "ingredients": [
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and coarsely chopped",
-      "quantity": "2 medium"
+      "name": "carrots",
+      "quantity": "2 medium",
+      "prep": "peeled and coarsely chopped"
     },
     {
       "ingredient_id": 359,
@@ -86,8 +87,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted, plus more for skillet",
-      "quantity": "1 ½ oz"
+      "name": "unsalted butter, plus more for skillet",
+      "quantity": "1 ½ oz",
+      "prep": "melted"
     },
     {
       "ingredient_id": 346,
@@ -141,6 +143,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and coarsely chop the carrots. Melt the unsalted butter.",
+      "secondary_message": "2 medium carrots\n1 ½ oz unsalted butter, plus more for skillet"
+    },
     {
       "id": 1,
       "primary_message": "For the Crêpe Batter: In a medium bowl, combine carrots and water. Cover with a heat-proof plate and microwave on high until carrots are tender, about 3 minutes. Using a colander or fine-mesh sieve, drain carrots. Refrigerate, uncovered, until cool, about 10 minutes.",

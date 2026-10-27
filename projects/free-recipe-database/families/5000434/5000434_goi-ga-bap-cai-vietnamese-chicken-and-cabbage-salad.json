@@ -62,13 +62,15 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, ends trimmed",
-      "quantity": "2"
+      "name": "scallions",
+      "quantity": "2",
+      "prep": "ends trimmed"
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, peeled and smashed",
-      "quantity": "1 (2 inch) knob"
+      "name": "fresh ginger",
+      "quantity": "1 (2 inch) knob",
+      "prep": "peeled and smashed"
     },
     {
       "ingredient_id": 1574,
@@ -87,13 +89,15 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, thinly sliced",
-      "quantity": "¼ medium"
+      "name": "red onion",
+      "quantity": "¼ medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "3 medium"
+      "name": "garlic cloves",
+      "quantity": "3 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1330,
@@ -122,8 +126,9 @@
     },
     {
       "ingredient_id": 1810,
-      "name": "bird’s eye chile, stemmed and thinly sliced",
-      "quantity": "1"
+      "name": "bird’s eye chile",
+      "quantity": "1",
+      "prep": "stemmed and thinly sliced"
     },
     {
       "ingredient_id": 1682,
@@ -132,8 +137,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, sliced into 1/16-inch-thick rounds",
-      "quantity": "3 medium"
+      "name": "shallots",
+      "quantity": "3 medium",
+      "prep": "sliced into 1/16-inch-thick rounds"
     },
     {
       "ingredient_id": 88,
@@ -152,8 +158,9 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, cut into matchsticks",
-      "quantity": "1 medium"
+      "name": "carrot",
+      "quantity": "1 medium",
+      "prep": "cut into matchsticks"
     },
     {
       "ingredient_id": 2133,
@@ -172,6 +179,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the ends of the scallions. Peel and smash the fresh ginger. Thinly slice the red onion. Mince the garlic cloves. Stem and thinly slice the bird’s eye chile. Slice the shallots into 1/16-inch-thick rounds. Cut the carrot into matchsticks.",
+      "secondary_message": "2 scallions\n1 (2 inch) knob fresh ginger\n¼ medium red onion\n3 medium garlic cloves\n1 bird’s eye chile\n3 medium shallots\n1 medium carrot"
+    },
     {
       "id": 1,
       "primary_message": "For the Chicken: In a large saucepan, combine water and salt, stirring until salt dissolves. Add chicken, scallion, and ginger and set over medium-high heat until water temperature reaches between 150 and 160°F (65 to 70°C) on an instant-read thermometer. Cook, adjusting heat to maintain water temperature in the 150–180°F (65–80°C) range, until the thickest part of chicken registers 150°F on an instant-read thermometer, about 1 hour. Remove chicken from broth and let rest until cool enough to handle. Strain broth and reserve for another use. Remove and discard chicken skin, then shred meat with your hands and set aside.",

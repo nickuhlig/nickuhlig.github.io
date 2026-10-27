@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cubed",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 355,
@@ -71,18 +72,21 @@
     },
     {
       "ingredient_id": 1094,
-      "name": "deli ham, cut into small dice",
-      "quantity": "6 oz"
+      "name": "deli ham",
+      "quantity": "6 oz",
+      "prep": "cut into small dice"
     },
     {
       "ingredient_id": 1236,
-      "name": "Swiss cheese, diced",
-      "quantity": "6 oz"
+      "name": "Swiss cheese",
+      "quantity": "6 oz",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1008,
-      "name": "dry white wine, at room temperature",
-      "quantity": "½ cup"
+      "name": "dry white wine",
+      "quantity": "½ cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1505,
@@ -96,6 +100,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cube the unsalted butter. Cut the deli ham into small dice. Dice the Swiss cheese. Bring the dry white wine to room temperature.",
+      "secondary_message": "2 tbsp unsalted butter\n6 oz deli ham\n6 oz Swiss cheese\n½ cup dry white wine"
+    },
     {
       "id": 1,
       "primary_message": "Place the chicken in the slow cooker and sprinkle the dried herbs all over. Scatter butter on top of the chicken and cover. Cook on low until chicken shreds easily with a fork, about 5 to 6 hours. Using 2 forks, shred the chicken into small pieces.",

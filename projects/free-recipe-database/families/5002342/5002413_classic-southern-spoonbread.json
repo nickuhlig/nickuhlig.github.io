@@ -77,11 +77,18 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, separated into yolks and whites",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "separated into yolks and whites"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Separate the eggs into yolks and whites.",
+      "secondary_message": "3 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position. Preheat the oven to 205°C (400°F). Add milk to a large saucepan and bring to a simmer over medium heat. Gradually whisk in cornmeal in a slow, steady stream. Whisk constantly, scraping the sides of the pan as needed, until mixture resembles a thick batter, about 2 minutes. Whisk in 2 tablespoons butter until fully melted and incorporated. Whisk in salt and baking powder. Remove from heat and let cool for 10 minutes. (The mixture will continue to thicken as it sits.)",

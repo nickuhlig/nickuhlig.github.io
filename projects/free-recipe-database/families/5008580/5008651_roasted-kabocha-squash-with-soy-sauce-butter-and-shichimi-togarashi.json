@@ -37,8 +37,9 @@
   "ingredients": [
     {
       "ingredient_id": 2572,
-      "name": "skin-on kabocha squash, seeded and cut into 1-inch cubes",
-      "quantity": "1 large"
+      "name": "skin-on kabocha squash",
+      "quantity": "1 large",
+      "prep": "seeded and cut into 1-inch cubes"
     },
     {
       "ingredient_id": 53,
@@ -62,6 +63,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Seed and cut the skin-on kabocha squash into 1-inch cubes.",
+      "secondary_message": "1 large skin-on kabocha squash"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center position and preheat oven to 205°C (400°F). In a small saucepan or microwaveable bowl, combine soy sauce and butter and heat until melted. Place squash in a large bowl and drizzle with soy sauce/butter mixture and togarashi.",

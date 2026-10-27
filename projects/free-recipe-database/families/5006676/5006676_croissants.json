@@ -64,8 +64,9 @@
   "ingredients": [
     {
       "ingredient_id": 118,
-      "name": "milk, at room temperature",
-      "quantity": "2 tbsp"
+      "name": "milk",
+      "quantity": "2 tbsp",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1125,
@@ -104,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the milk to room temperature.",
+      "secondary_message": "2 tbsp milk"
+    },
     {
       "id": 1,
       "primary_message": "Using a stand mixer fitted with the dough hook (or a hand mixer), mix together the milk and yeast on low speed for 5 to 10 seconds to dissolve the yeast. Add the all-purpose flour, bread flour, salt, sugar, and the 2 tablespoons soft butter and continue to mix on low speed for 3 to 4 minutes, or until the butter is fully incorporated and the dough is smooth. Remove the dough from the mixer bowl, place it on a tray, and cover it loosely with plastic wrap. This dough block is called the détrempe. Place the tray in the refrigerator for at least 6 hours or for up to 12 hours. The dough will firm up and the yeast will take some action and proof a bit.",

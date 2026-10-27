@@ -33,13 +33,15 @@
   "ingredients": [
     {
       "ingredient_id": 343,
-      "name": "radishes, diced",
-      "quantity": "5"
+      "name": "radishes",
+      "quantity": "5",
+      "prep": "diced"
     },
     {
       "ingredient_id": 470,
-      "name": "fennel bulb, diced",
-      "quantity": "½"
+      "name": "fennel bulb",
+      "quantity": "½",
+      "prep": "diced"
     },
     {
       "ingredient_id": 153,
@@ -48,13 +50,15 @@
     },
     {
       "ingredient_id": 188,
-      "name": "cilantro leaves, tender stems chopped",
-      "quantity": "½ cup"
+      "name": "cilantro leaves",
+      "quantity": "½ cup",
+      "prep": "tender stems chopped"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño pepper, seeds removed if desired, finely chopped",
-      "quantity": "½"
+      "name": "jalapeño pepper",
+      "quantity": "½",
+      "prep": "seeds removed if desired, finely chopped"
     },
     {
       "ingredient_id": 1421,
@@ -78,8 +82,9 @@
     },
     {
       "ingredient_id": 1754,
-      "name": "Spanish-style chorizo sausage, cut into 1/2-inch cubes",
-      "quantity": "225 g"
+      "name": "Spanish-style chorizo sausage",
+      "quantity": "225 g",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 187,
@@ -93,11 +98,18 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, thinly sliced",
-      "quantity": "2"
+      "name": "scallions",
+      "quantity": "2",
+      "prep": "thinly sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the radishes. Dice the fennel bulb. Chop the tender stems of the cilantro leaves. Remove the seeds from the jalapeño pepper if desired, then finely chop it. Cut the Spanish-style chorizo sausage into 1/2-inch cubes. Thinly slice the scallions.",
+      "secondary_message": "5 radishes\n½ fennel bulb\n½ cup cilantro leaves\n½ jalapeño pepper\n225 g Spanish-style chorizo sausage\n2 scallions"
+    },
     {
       "id": 1,
       "primary_message": "For the Salsa: In a medium bowl, toss together radishes, fennel (plus fronds, if using), scallions, cilantro, jalapeño, and lime juice. Season with salt and pepper to taste.",

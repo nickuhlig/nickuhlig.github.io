@@ -65,11 +65,18 @@
     },
     {
       "ingredient_id": 3250,
-      "name": "stone crab claws, chilled",
-      "quantity": "4 lb"
+      "name": "stone crab claws",
+      "quantity": "4 lb",
+      "prep": "chilled"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the stone crab claws cold until you use them.",
+      "secondary_message": "4 lb stone crab claws"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, stir together mayonnaise, horseradish, Dijon, hot sauce, and lemon juice until well combined.",

@@ -42,13 +42,15 @@
   "ingredients": [
     {
       "ingredient_id": 92,
-      "name": "chickpeas, rinsed and drained",
-      "quantity": "1 (19 oz) can"
+      "name": "chickpeas",
+      "quantity": "1 (19 oz) can",
+      "prep": "rinsed and drained"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and chopped",
-      "quantity": "1 clove"
+      "name": "garlic",
+      "quantity": "1 clove",
+      "prep": "peeled and chopped"
     },
     {
       "ingredient_id": 1567,
@@ -77,6 +79,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse and drain the chickpeas. Peel and chop the garlic.",
+      "secondary_message": "1 (19 oz) can chickpeas\n1 clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "Place chickpeas, garlic, peanut butter, and lemon juice in a food processor and process until smooth. Slowly drizzle in olive oil with processor running. If necessary, add water by the tablespoon in between pulses until the desired texture is reached. Season to taste with salt and pepper.",

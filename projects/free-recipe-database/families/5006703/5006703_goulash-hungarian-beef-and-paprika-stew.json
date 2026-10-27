@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 1552,
-      "name": "whole boneless beef chuck roast, cut into 3 steaks",
-      "quantity": "3 lb"
+      "name": "whole boneless beef chuck roast",
+      "quantity": "3 lb",
+      "prep": "cut into 3 steaks"
     },
     {
       "ingredient_id": 88,
@@ -82,18 +83,21 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, thinly sliced",
-      "quantity": "1 large"
+      "name": "yellow onion",
+      "quantity": "1 large",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell peppers, thinly sliced",
-      "quantity": "2"
+      "name": "red bell peppers",
+      "quantity": "2",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 83,
@@ -127,9 +131,10 @@
     },
     {
       "ingredient_id": 3064,
-      "name": "Yukon Gold potatoes, peeled and cubed",
+      "name": "Yukon Gold potatoes",
       "quantity": "2 medium",
-      "weigh_as": "1 lb"
+      "weigh_as": "1 lb",
+      "prep": "peeled and cubed"
     },
     {
       "ingredient_id": 133,
@@ -138,6 +143,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the whole boneless beef chuck roast into 3 steaks. Thinly slice the yellow onion. Thinly slice the red bell peppers. Thinly slice the garlic. Peel and cube the Yukon Gold potatoes.",
+      "secondary_message": "3 lb whole boneless beef chuck roast\n1 large yellow onion\n2 red bell peppers\n4 cloves garlic\n2 medium Yukon Gold potatoes"
+    },
     {
       "id": 1,
       "primary_message": "Sprinkle gelatin over chicken stock and set aside. Adjust oven rack to lower position and preheat oven to 300°F. In a large Dutch oven, heat oil over medium-high heat until shimmering. Season beef all over with salt and pepper and add to Dutch oven. Cook, turning occasionally, until beef is well browned on 2 sides, about 10 minutes. Transfer beef to a rimmed baking sheet or large plate and set aside.",

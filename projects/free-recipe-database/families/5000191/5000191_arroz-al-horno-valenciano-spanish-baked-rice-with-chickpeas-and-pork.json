@@ -101,8 +101,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, unpeeled",
-      "quantity": "1 whole head"
+      "name": "garlic",
+      "quantity": "1 whole head",
+      "prep": "unpeeled"
     },
     {
       "ingredient_id": 260,
@@ -111,6 +112,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Leave the garlic unpeeled.",
+      "secondary_message": "1 whole head garlic"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 400°F. In a 1-quart measuring cup, stir the 1 tablespoon salt into the stock until dissolved; set aside. Season ribs and pork belly all over with salt and pepper; set aside.",

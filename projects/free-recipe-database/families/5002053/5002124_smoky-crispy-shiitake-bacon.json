@@ -44,8 +44,9 @@
   "ingredients": [
     {
       "ingredient_id": 1929,
-      "name": "shiitake mushrooms, stemmed and sliced 1/2-inch thick",
-      "quantity": "0.45 kg"
+      "name": "shiitake mushrooms",
+      "quantity": "0.45 kg",
+      "prep": "stemmed and sliced 1/2-inch thick"
     },
     {
       "ingredient_id": 478,
@@ -69,6 +70,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem and slice the shiitake mushrooms 1/2-inch thick.",
+      "secondary_message": "0.45 kg shiitake mushrooms"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower-middle and preheat to 200°C (400°F). In a 25-cm cast iron skillet, toss sliced mushrooms with smoked paprika, salt, pepper, and olive oil to evenly coat.",

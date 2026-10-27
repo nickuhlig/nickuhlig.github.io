@@ -37,13 +37,15 @@
     },
     {
       "ingredient_id": 2294,
-      "name": "Italian sausage, removed from its casing",
-      "quantity": "283 g"
+      "name": "Italian sausage",
+      "quantity": "283 g",
+      "prep": "removed from its casing"
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, minced",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 476,
@@ -77,6 +79,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the Italian sausage from its casing. Mince the shallot.",
+      "secondary_message": "283 g Italian sausage\n1 medium shallot"
+    },
     {
       "id": 1,
       "primary_message": "Heat the oil into a medium saucepan over medium-high heat until shimmering. Add the sausage and cook, breaking it up into small pieces until no longer pink. Add the shallot and sauté until translucent, about 1 minute. Add the orzo and water or stock. Use a wooden spoon to help scrape any of the brown bits on the bottom of the pan from the sausage. Bring to a boil, then cover, and reduce the heat to medium-low. Cook, stirring occasionally, until the orzo has absorbed all the liquid and is cooked through (add more liquid if orzo starts to dry out or stick to the bottom). Season to taste with salt and pepper. Stir in the peas, and allow to cook for a minute or two just to thaw. Remove from the heat, and stir in the Parmesan and parsley. Serve immediately.",

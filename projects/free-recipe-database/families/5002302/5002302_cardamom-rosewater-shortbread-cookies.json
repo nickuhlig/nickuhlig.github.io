@@ -93,8 +93,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "8 oz"
+      "name": "unsalted butter",
+      "quantity": "8 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 347,
@@ -113,6 +114,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter.",
+      "secondary_message": "8 oz unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, whisk all-purpose flour, almond flour, cardamom, baking powder, and salt. Set aside.",

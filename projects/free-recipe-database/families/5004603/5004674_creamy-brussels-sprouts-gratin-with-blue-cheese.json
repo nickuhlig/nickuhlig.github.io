@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 14,
-      "name": "Brussels sprouts, trimmed and cut in half lengthwise",
-      "quantity": "0.68 kg"
+      "name": "Brussels sprouts",
+      "quantity": "0.68 kg",
+      "prep": "trimmed and cut in half lengthwise"
     },
     {
       "ingredient_id": 115,
@@ -80,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim and cut the Brussels sprouts in half lengthwise.",
+      "secondary_message": "0.68 kg Brussels sprouts"
+    },
     {
       "id": 1,
       "primary_message": "Heat an oven to 175°C (350°F) and bring a medium pot of salted water to boil.",

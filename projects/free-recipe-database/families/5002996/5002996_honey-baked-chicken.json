@@ -31,13 +31,15 @@
   "ingredients": [
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "4 large cloves"
+      "name": "garlic",
+      "quantity": "4 large cloves",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 188,
-      "name": "finely-chopped cilantro stems, finely chopped",
-      "quantity": "¼ cup"
+      "name": "finely-chopped cilantro stems",
+      "quantity": "¼ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1813,
@@ -71,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the garlic. Finely chop the finely-chopped cilantro stems.",
+      "secondary_message": "4 large cloves garlic\n¼ cup finely-chopped cilantro stems"
+    },
     {
       "id": 1,
       "primary_message": "In a mortar, pound together the garlic, cilantro, and peppercorns until you get a semi-smooth paste; transfer the paste to a large bowl. Alternatively, process in a food process, scraping down sides as necessary, until a paste is formed and transfer the paste to a large bowl. Add the fish sauce and honey to the marinade paste and stir together until well mixed.",

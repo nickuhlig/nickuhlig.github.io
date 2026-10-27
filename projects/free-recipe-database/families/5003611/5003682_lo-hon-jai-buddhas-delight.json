@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 51,
@@ -71,9 +72,10 @@
     },
     {
       "ingredient_id": 292,
-      "name": "Napa cabbage, cut into 1-inch pieces",
+      "name": "Napa cabbage",
       "quantity": "¼ medium head",
-      "weigh_as": "0.11 kg"
+      "weigh_as": "0.11 kg",
+      "prep": "cut into 1-inch pieces"
     },
     {
       "ingredient_id": 285,
@@ -118,6 +120,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the garlic. Cut the Napa cabbage into 1-inch pieces.",
+      "secondary_message": "1 medium clove garlic\n¼ medium head Napa cabbage"
+    },
     {
       "id": 1,
       "primary_message": "For the sauce: In a bowl, add reserved mushroom liquid, garlic, sesame oil, kecap manis, soy sauce, and cornstarch. Mix well and set aside.",

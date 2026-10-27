@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 1681,
-      "name": "chicken wings, cut up",
-      "quantity": "3 lb"
+      "name": "chicken wings",
+      "quantity": "3 lb",
+      "prep": "cut up"
     },
     {
       "ingredient_id": 71,
@@ -90,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut up the chicken wings.",
+      "secondary_message": "3 lb chicken wings"
+    },
     {
       "id": 1,
       "primary_message": "Mix together the cayenne, black pepper, and salt in a small bowl. Sprinkle the mixture all over the chicken wings. Place the wing in the refrigerator until ready to use. (This can be done the night before.)",

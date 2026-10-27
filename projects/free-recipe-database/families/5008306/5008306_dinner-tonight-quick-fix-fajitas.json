@@ -31,23 +31,27 @@
   "ingredients": [
     {
       "ingredient_id": 232,
-      "name": "orange, zested",
-      "quantity": "1"
+      "name": "orange",
+      "quantity": "1",
+      "prep": "zested"
     },
     {
       "ingredient_id": 228,
-      "name": "limes, zested",
-      "quantity": "2"
+      "name": "limes",
+      "quantity": "2",
+      "prep": "zested"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño, minced",
-      "quantity": "1"
+      "name": "jalapeño",
+      "quantity": "1",
+      "prep": "minced"
     },
     {
       "ingredient_id": 188,
@@ -86,13 +90,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, sliced thinly",
-      "quantity": "1"
+      "name": "onion",
+      "quantity": "1",
+      "prep": "sliced thinly"
     },
     {
       "ingredient_id": 2065,
-      "name": "bell peppers, assorted colors, thinly sliced",
-      "quantity": "2"
+      "name": "bell peppers, assorted colors",
+      "quantity": "2",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 321,
@@ -111,11 +117,18 @@
     },
     {
       "ingredient_id": 228,
-      "name": "limes, quartered",
-      "quantity": "2"
+      "name": "limes",
+      "quantity": "2",
+      "prep": "quartered"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the orange. Zest the limes. Mince the garlic. Mince the jalapeño. Slice the onion thinly. Thinly slice the bell peppers. Quarter the limes.",
+      "secondary_message": "1 orange\n2 limes\n3 cloves garlic\n1 jalapeño\n1 onion\n2 bell peppers, assorted colors\n2 limes"
+    },
     {
       "id": 1,
       "primary_message": "Whisk together all the ingredients for the marinade in a large bowl. Add the steak and toss until coated. Set aside for 40 minutes, or longer if you have the time.",

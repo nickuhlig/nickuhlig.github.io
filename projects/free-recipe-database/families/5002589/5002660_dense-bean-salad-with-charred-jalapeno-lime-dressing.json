@@ -41,13 +41,15 @@
   "ingredients": [
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, halved",
-      "quantity": "340 g"
+      "name": "cherry tomatoes",
+      "quantity": "340 g",
+      "prep": "halved"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, chopped",
-      "quantity": "½ small"
+      "name": "red onion",
+      "quantity": "½ small",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 88,
@@ -56,13 +58,15 @@
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño chile, stemmed, halved lengthwise, and seeded",
-      "quantity": "1 (40 g) medium"
+      "name": "jalapeño chile",
+      "quantity": "1 (40 g) medium",
+      "prep": "stemmed, halved lengthwise, and seeded"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, ends trimmed",
-      "quantity": "2 medium"
+      "name": "scallions",
+      "quantity": "2 medium",
+      "prep": "ends trimmed"
     },
     {
       "ingredient_id": 303,
@@ -101,18 +105,21 @@
     },
     {
       "ingredient_id": 92,
-      "name": "chickpeas, drained and rinsed",
-      "quantity": "1 (439 g) can"
+      "name": "chickpeas",
+      "quantity": "1 (439 g) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 94,
-      "name": "pinto beans, drained and rinsed",
-      "quantity": "1 (425 g) can"
+      "name": "pinto beans",
+      "quantity": "1 (425 g) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 185,
-      "name": "black beans, drained and rinsed",
-      "quantity": "1 (425 g) can"
+      "name": "black beans",
+      "quantity": "1 (425 g) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 188,
@@ -121,11 +128,18 @@
     },
     {
       "ingredient_id": 1914,
-      "name": "queso fresco, crumbled",
-      "quantity": "113 g"
+      "name": "queso fresco",
+      "quantity": "113 g",
+      "prep": "crumbled"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the cherry tomatoes. Chop the red onion. Stem and halve the jalapeño chile lengthwise, then seed it. Trim the ends of the scallions. Drain and rinse the chickpeas. Drain and rinse the pinto beans. Drain and rinse the black beans. Crumble the queso fresco.",
+      "secondary_message": "340 g cherry tomatoes\n½ small red onion\n1 (40 g) medium jalapeño chile\n2 medium scallions\n1 (439 g) can chickpeas\n1 (425 g) can pinto beans\n1 (425 g) can black beans\n113 g queso fresco"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack 15 cm below heat source and preheat oven to broil. In a large bowl, stir together cherry tomatoes, red onion, and 1/2 teaspoon salt. Let stand until tomatoes release some juices and onion softens slightly, about 10 minutes.",

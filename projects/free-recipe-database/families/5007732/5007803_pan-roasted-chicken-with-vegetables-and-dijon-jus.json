@@ -44,8 +44,9 @@
   "ingredients": [
     {
       "ingredient_id": 238,
-      "name": "fingerling new potatoes, scrubbed",
-      "quantity": "16"
+      "name": "fingerling new potatoes",
+      "quantity": "16",
+      "prep": "scrubbed"
     },
     {
       "ingredient_id": 159,
@@ -59,9 +60,10 @@
     },
     {
       "ingredient_id": 14,
-      "name": "Brussels sprouts, split in half",
+      "name": "Brussels sprouts",
       "quantity": "0.3 kg",
-      "weigh_as": "16"
+      "weigh_as": "16",
+      "prep": "split in half"
     },
     {
       "ingredient_id": 72,
@@ -85,13 +87,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "whole onion, split in half",
-      "quantity": "1"
+      "name": "whole onion",
+      "quantity": "1",
+      "prep": "split in half"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, roughly chopped",
-      "quantity": "1 stalk"
+      "name": "celery",
+      "quantity": "1 stalk",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 339,
@@ -110,8 +114,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, thinly sliced",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1808,
@@ -140,6 +145,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Scrub the fingerling new potatoes. Split the Brussels sprouts in half. Split the whole onion in half. Roughly chop the celery. Thinly slice the shallot.",
+      "secondary_message": "16 fingerling new potatoes\n0.3 kg Brussels sprouts\n1 whole onion\n1 stalk celery\n1 medium shallot"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center positon and preheat oven to 230°C (450°F). Place potatoes and faux tourné carrots in a medium saucepan, cover with cold salted water, bring to a boil, and simmer until just tender, about 10 minutes. Drain and transfer to a large bowl. Add Brussels sprouts, season with salt and pepper, toss with 2 tablespoons olive oil, and set aside.",

@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 1713,
-      "name": "cipollini onions, ends trimmed, peeled",
-      "quantity": "0.45 kg"
+      "name": "cipollini onions",
+      "quantity": "0.45 kg",
+      "prep": "ends trimmed, peeled"
     },
     {
       "ingredient_id": 1044,
@@ -66,8 +67,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "1 small clove"
+      "name": "garlic",
+      "quantity": "1 small clove",
+      "prep": "minced"
     },
     {
       "ingredient_id": 47,
@@ -76,18 +78,21 @@
     },
     {
       "ingredient_id": 310,
-      "name": "red cabbage, thinly sliced",
-      "quantity": "3 cups"
+      "name": "red cabbage",
+      "quantity": "3 cups",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2786,
-      "name": "chicory leaves, washed and torn into small pieces",
-      "quantity": "2 cups"
+      "name": "chicory leaves",
+      "quantity": "2 cups",
+      "prep": "washed and torn into small pieces"
     },
     {
       "ingredient_id": 272,
-      "name": "toasted walnuts, coarsely chopped",
-      "quantity": "½ cup"
+      "name": "toasted walnuts",
+      "quantity": "½ cup",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 126,
@@ -96,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the ends of the cipollini onions, then peel them. Mince the garlic. Thinly slice the red cabbage. Wash and tear the chicory leaves into small pieces. Coarsely chop the toasted walnuts.",
+      "secondary_message": "0.45 kg cipollini onions\n1 small clove garlic\n3 cups red cabbage\n2 cups chicory leaves\n½ cup toasted walnuts"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 177°C (350°F). In a baking dish, arrange onions in a single layer. Drizzle with vegetable oil and season with salt and pepper. Add thyme sprigs and toss until onions are evenly coated. Roast, turning twice, until onions are soft and well browned, about 40 minutes. Keep warm.",

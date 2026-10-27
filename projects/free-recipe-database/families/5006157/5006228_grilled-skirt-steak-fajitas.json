@@ -73,8 +73,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 186,
@@ -88,8 +89,9 @@
     },
     {
       "ingredient_id": 2286,
-      "name": "trimmed skirt steak, cut crosswise into 5- to 6-inch pieces",
-      "quantity": "0.9 kg"
+      "name": "trimmed skirt steak",
+      "quantity": "0.9 kg",
+      "prep": "cut crosswise into 5- to 6-inch pieces"
     },
     {
       "ingredient_id": 150,
@@ -108,8 +110,9 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, cut into 1/2-inch slices",
-      "quantity": "1"
+      "name": "white onion",
+      "quantity": "1",
+      "prep": "cut into 1/2-inch slices"
     },
     {
       "ingredient_id": 2529,
@@ -118,6 +121,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the garlic. Cut the trimmed skirt steak crosswise into 5- to 6-inch pieces. Cut the white onion into 1/2-inch slices.",
+      "secondary_message": "3 medium cloves garlic\n0.9 kg trimmed skirt steak\n1 white onion"
+    },
     {
       "id": 1,
       "primary_message": "For the Fajita Marinade: Combine soy sauce, lime juice, canola oil, brown sugar, chili powder, garlic, cumin, and black pepper in a medium bowl and whisk to combine. Transfer 1/2 cup marinade to a large bowl and set aside.",

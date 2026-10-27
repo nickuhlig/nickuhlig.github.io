@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 272,
-      "name": "walnuts, chopped",
-      "quantity": "½ cup"
+      "name": "walnuts",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 293,
@@ -76,11 +77,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted, plus extra for greasing dish",
-      "quantity": "2 tbsp (1 oz)"
+      "name": "unsalted butter, plus extra for greasing dish",
+      "quantity": "2 tbsp (1 oz)",
+      "prep": "melted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the walnuts. Melt the unsalted butter.",
+      "secondary_message": "½ cup walnuts\n2 tbsp (1 oz) unsalted butter, plus extra for greasing dish"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350°F. Lightly grease a shallow 2-quart baking dish. Scatter apples into dish and cover with foil. Bake until apples are just beginning to soften, about 20 minutes.",

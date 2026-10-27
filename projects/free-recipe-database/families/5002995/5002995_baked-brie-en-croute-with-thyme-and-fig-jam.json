@@ -81,11 +81,18 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten with 1 tablespoon water",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "beaten with 1 tablespoon water"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Beat the egg with 1 tablespoon water.",
+      "secondary_message": "1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 350°F. Using a sharp knife, score top rind of cheese in a crisscross pattern, spacing cuts about 1 inch apart.",

@@ -33,9 +33,10 @@
   "ingredients": [
     {
       "ingredient_id": 142,
-      "name": "butternut squash, peeled and roughly diced",
+      "name": "butternut squash",
       "quantity": "⅔ small",
-      "weigh_as": "454 g"
+      "weigh_as": "454 g",
+      "prep": "peeled and roughly diced"
     },
     {
       "ingredient_id": 118,
@@ -84,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and roughly dice the butternut squash.",
+      "secondary_message": "⅔ small butternut squash"
+    },
     {
       "id": 1,
       "primary_message": "In a large saucepan, stir together squash, milk, cinnamon, star anise, ground ginger, cloves, cardamom, nutmeg, maple syrup (or sugar), and salt; if desired, prepare a spice sachet of cheesecloth or in a tea strainer to make removal of whole spices easier. Set over medium heat and bring to a simmer, then lower heat to maintain a bare simmer and cook, stirring and scraping frequently, until squash is very soft, abou 30 minutes.",

@@ -52,23 +52,27 @@
     },
     {
       "ingredient_id": 111,
-      "name": "green beans, trimmed and cut into 3/4-inch pieces",
-      "quantity": "½ lb"
+      "name": "green beans",
+      "quantity": "½ lb",
+      "prep": "trimmed and cut into 3/4-inch pieces"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, thinly sliced",
-      "quantity": "2"
+      "name": "scallions",
+      "quantity": "2",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1810,
-      "name": "Thai bird chiles, thinly sliced, plus more for serving",
-      "quantity": "1 to 3"
+      "name": "Thai bird chiles, plus more for serving",
+      "quantity": "1 to 3",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 53,
@@ -107,6 +111,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim and cut the green beans into 3/4-inch pieces. Thinly slice the scallions. Mince the garlic. Thinly slice the Thai bird chiles.",
+      "secondary_message": "½ lb green beans\n2 scallions\n2 medium cloves garlic\n1 to 3 Thai bird chiles, plus more for serving"
+    },
     {
       "id": 1,
       "primary_message": "If using day-old rice, transfer to a medium bowl and break rice up with your hands into individual grains before proceeding. Heat 1/2 tablespoon vegetable oil in a large wok over high heat until smoking. Add half of rice and cook, stirring and tossing, until rice is pale brown, toasted, and has a lightly chewy texture, about 3 minutes. Transfer to a medium bowl. Repeat with another 1/2 tablespoon oil and remaining rice.",

@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 2069,
-      "name": "tomatillos, husked, washed, and halved",
-      "quantity": "3 large"
+      "name": "tomatillos",
+      "quantity": "3 large",
+      "prep": "husked, washed, and halved"
     },
     {
       "ingredient_id": 188,
@@ -76,8 +77,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely diced",
-      "quantity": "1 small"
+      "name": "yellow onion",
+      "quantity": "1 small",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 188,
@@ -86,11 +88,18 @@
     },
     {
       "ingredient_id": 3203,
-      "name": "queso panela, cut into 1/2-inch thick planks",
-      "quantity": "12 oz"
+      "name": "queso panela",
+      "quantity": "12 oz",
+      "prep": "cut into 1/2-inch thick planks"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Husk, wash, and halve the tomatillos. Finely dice the yellow onion. Cut the queso panela into 1/2-inch thick planks.",
+      "secondary_message": "3 large tomatillos\n1 small yellow onion\n12 oz queso panela"
+    },
     {
       "id": 1,
       "primary_message": "For the Salsa: Adjust oven rack to upper-middle position (about 6-inches from broiler unit), and preheat broiler on high setting. Meanwhile, roast poblanos over an open flame on a gas stove or grill until skins are completely charred, 8 to 10 minutes. Place in a bowl, cover with plastic wrap, and let stand until cooled, 5 to 10 minutes. Peel off charred skins; remove stems and seed poblanos.",

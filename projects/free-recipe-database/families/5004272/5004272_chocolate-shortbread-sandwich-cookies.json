@@ -61,8 +61,9 @@
   "ingredients": [
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "8 oz"
+      "name": "bittersweet chocolate",
+      "quantity": "8 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1752,
@@ -76,8 +77,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "16 tbsp (8 oz)"
+      "name": "unsalted butter",
+      "quantity": "16 tbsp (8 oz)",
+      "prep": "softened"
     },
     {
       "ingredient_id": 346,
@@ -106,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the bittersweet chocolate. Soften the unsalted butter.",
+      "secondary_message": "8 oz bittersweet chocolate\n16 tbsp (8 oz) unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Place chocolate in medium bowl. Heat cream in small saucepan over medium heat until simmering. Pour over chocolate and let sit 5 minutes. Add 1 tablespoon confectioners' sugar, whisk until smooth, then chill until set, about 1 hour.",

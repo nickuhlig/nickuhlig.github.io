@@ -55,13 +55,15 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely minced",
-      "quantity": "½ medium"
+      "name": "yellow onion",
+      "quantity": "½ medium",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 3652,
-      "name": "Spanish dry-cured ham, such as jamón serrano, minced",
-      "quantity": "113 g"
+      "name": "Spanish dry-cured ham, such as jamón serrano",
+      "quantity": "113 g",
+      "prep": "minced"
     },
     {
       "ingredient_id": 116,
@@ -80,8 +82,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 1684,
@@ -95,6 +98,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the yellow onion. Mince the Spanish dry-cured ham. Beat the eggs.",
+      "secondary_message": "½ medium yellow onion\n113 g Spanish dry-cured ham, such as jamón serrano\n2 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "In a small saucepan, heat milk over medium with the ham ends/trimmings (if using), then hold, covered, just below a simmer until ready to use.",

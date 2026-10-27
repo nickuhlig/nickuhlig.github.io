@@ -58,8 +58,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "4 oz"
+      "name": "unsalted butter",
+      "quantity": "4 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1567,
@@ -78,8 +79,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1366,
@@ -88,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter. Bring the eggs to room temperature.",
+      "secondary_message": "4 oz unsalted butter\n2 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 350°F;. Grease 8x8x2-inch pan with nonstick cooking spray.",

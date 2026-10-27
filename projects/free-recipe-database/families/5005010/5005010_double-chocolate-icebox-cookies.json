@@ -42,8 +42,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "12 tbsp (6 oz)"
+      "name": "unsalted butter",
+      "quantity": "12 tbsp (6 oz)",
+      "prep": "softened"
     },
     {
       "ingredient_id": 88,
@@ -82,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter.",
+      "secondary_message": "12 tbsp (6 oz) unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Place sugar, butter, and salt in bowl of standing mixer fitted with paddle attachment. Beat on medium speed until creamy, about 1 minute. Mix in egg and vanilla until combined.",

@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 2163,
-      "name": "boneless pork loin, cut into 8 portions",
-      "quantity": "0.57 kg"
+      "name": "boneless pork loin",
+      "quantity": "0.57 kg",
+      "prep": "cut into 8 portions"
     },
     {
       "ingredient_id": 88,
@@ -56,9 +57,10 @@
     },
     {
       "ingredient_id": 1004,
-      "name": "green cabbage, cored and thinly sliced",
+      "name": "green cabbage",
       "quantity": "½ small head",
-      "weigh_as": "0.34 kg"
+      "weigh_as": "0.34 kg",
+      "prep": "cored and thinly sliced"
     },
     {
       "ingredient_id": 257,
@@ -72,14 +74,16 @@
     },
     {
       "ingredient_id": 469,
-      "name": "firm but ripe plums, halved and pitted",
+      "name": "firm but ripe plums",
       "quantity": "4",
-      "weigh_as": "0.34 kg"
+      "weigh_as": "0.34 kg",
+      "prep": "halved and pitted"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, ends trimmed",
-      "quantity": "2"
+      "name": "scallions",
+      "quantity": "2",
+      "prep": "ends trimmed"
     },
     {
       "ingredient_id": 151,
@@ -113,11 +117,18 @@
     },
     {
       "ingredient_id": 1027,
-      "name": "crusty sandwich rolls, split",
-      "quantity": "4"
+      "name": "crusty sandwich rolls",
+      "quantity": "4",
+      "prep": "split"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the boneless pork loin into 8 portions. Core and thinly slice the green cabbage. Halve and pit the firm but ripe plums. Trim the ends of the scallions. Split the crusty sandwich rolls.",
+      "secondary_message": "0.57 kg boneless pork loin\n½ small head green cabbage\n4 firm but ripe plums\n2 scallions\n4 crusty sandwich rolls"
+    },
     {
       "id": 1,
       "primary_message": "For the Pork: Working 1 piece at a time, sandwich pork between layers of plastic wrap and pound with a meat pounder or heavy skillet until about 0.5 cm thick. Season generously with salt and pepper and set aside.",

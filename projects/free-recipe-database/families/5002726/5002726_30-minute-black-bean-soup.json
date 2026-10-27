@@ -37,18 +37,21 @@
     },
     {
       "ingredient_id": 291,
-      "name": "green bell peppers, stems and seeds discarded, finely diced",
-      "quantity": "2"
+      "name": "green bell peppers",
+      "quantity": "2",
+      "prep": "stems and seeds discarded, finely diced"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely diced",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced on a Microplane grater",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "minced on a Microplane grater"
     },
     {
       "ingredient_id": 151,
@@ -67,8 +70,9 @@
     },
     {
       "ingredient_id": 1618,
-      "name": "chipotle chilis, canned in adobo sauce, finely chopped",
-      "quantity": "1"
+      "name": "chipotle chilis, canned in adobo sauce",
+      "quantity": "1",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1231,
@@ -112,6 +116,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Discard the stems and seeds from the green bell peppers, then finely dice them. Finely dice the onion. Mince the garlic on a Microplane grater. Finely chop the chipotle chilis.",
+      "secondary_message": "2 green bell peppers\n1 large onion\n2 cloves garlic\n1 chipotle chilis, canned in adobo sauce"
+    },
     {
       "id": 1,
       "primary_message": "Heat vegetable oil in a large saucepan over medium-high heat until shimmering. Add peppers and onions and cook, stirring frequently, until softened but not browned, about 3 minutes. Add garlic, jalapeño, cumin, and dried chili flakes and cook, stirring constantly until fragrant, about 1 minute. Add chipotle and adobo sauce (if using) and stir to combine. Add chicken broth, beans and their liquid, and bay leaves. Increase heat to high, and bring to a boil. Reduce to a bare simmer, cover and cook for 15 minutes.",

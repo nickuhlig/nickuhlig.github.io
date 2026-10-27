@@ -44,8 +44,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, coarsely chopped",
-      "quantity": "¼ medium"
+      "name": "shallot",
+      "quantity": "¼ medium",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 106,
@@ -69,6 +70,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Coarsely chop the shallot.",
+      "secondary_message": "¼ medium shallot"
+    },
     {
       "id": 1,
       "primary_message": "In a food processor, pulse garlic, shallot, parsley leaves, salt, and a crack of black pepper until finely ground, about 10 to 15 pulses. (Do not overprocess; it should be finely ground but not a paste.)",

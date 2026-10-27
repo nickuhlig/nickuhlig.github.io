@@ -32,8 +32,9 @@
   "ingredients": [
     {
       "ingredient_id": 92,
-      "name": "chickpeas, drained and liquid reserved",
-      "quantity": "1 (15 ½ oz) can"
+      "name": "chickpeas",
+      "quantity": "1 (15 ½ oz) can",
+      "prep": "drained and liquid reserved"
     },
     {
       "ingredient_id": 348,
@@ -52,8 +53,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced or grated",
-      "quantity": "½ tsp"
+      "name": "garlic",
+      "quantity": "½ tsp",
+      "prep": "finely minced or grated"
     },
     {
       "ingredient_id": 90,
@@ -102,6 +104,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain the chickpeas, then reserve the liquid. Finely mince or grate the garlic.",
+      "secondary_message": "1 (15 ½ oz) can chickpeas\n½ tsp garlic"
+    },
     {
       "id": 1,
       "primary_message": "In a small saucepan, cover chickpeas with water, add the baking soda, bring to a boil, then cook until very tender, about 6 minutes. Drain and proceed with the recipe.",

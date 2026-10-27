@@ -32,18 +32,21 @@
   "ingredients": [
     {
       "ingredient_id": 242,
-      "name": "fresh strawberries, hulled and quartered lengthwise",
-      "quantity": "0.45 kg"
+      "name": "fresh strawberries",
+      "quantity": "0.45 kg",
+      "prep": "hulled and quartered lengthwise"
     },
     {
       "ingredient_id": 243,
-      "name": "fresh mint leaves, thinly sliced",
-      "quantity": "12"
+      "name": "fresh mint leaves",
+      "quantity": "12",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2299,
-      "name": "fresh Thai basil leaves, thinly sliced",
-      "quantity": "12"
+      "name": "fresh Thai basil leaves",
+      "quantity": "12",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 346,
@@ -52,8 +55,9 @@
     },
     {
       "ingredient_id": 228,
-      "name": "lime, zested",
-      "quantity": "1"
+      "name": "lime",
+      "quantity": "1",
+      "prep": "zested"
     },
     {
       "ingredient_id": 1421,
@@ -67,6 +71,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Hull and quarter the fresh strawberries lengthwise. Thinly slice the fresh mint leaves. Thinly slice the fresh Thai basil leaves. Zest the lime.",
+      "secondary_message": "0.45 kg fresh strawberries\n12 fresh mint leaves\n12 fresh Thai basil leaves\n1 lime"
+    },
     {
       "id": 1,
       "primary_message": "For the Strawberry Compote: In a medium mixing bowl, combine strawberries with mint, Thai basil, and sugar.",

@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and crushed",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "peeled and crushed"
     },
     {
       "ingredient_id": 88,
@@ -76,11 +77,18 @@
     },
     {
       "ingredient_id": 2012,
-      "name": "pitted red-brown olives, such as Kalamata, halved lengthwise",
-      "quantity": "½ cup"
+      "name": "pitted red-brown olives, such as Kalamata",
+      "quantity": "½ cup",
+      "prep": "halved lengthwise"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and crush the garlic. Halve the pitted red-brown olives lengthwise.",
+      "secondary_message": "2 medium cloves garlic\n½ cup pitted red-brown olives, such as Kalamata"
+    },
     {
       "id": 1,
       "primary_message": "In a large skillet, heat olive oil, ground turmeric, and ground ginger over medium-low heat for 5 minutes, swirling skillet occasionally, to allow spices to release their aromas.",

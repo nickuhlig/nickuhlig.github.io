@@ -65,8 +65,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted and cooled slightly",
-      "quantity": "8 tbsp"
+      "name": "unsalted butter",
+      "quantity": "8 tbsp",
+      "prep": "melted and cooled slightly"
     },
     {
       "ingredient_id": 359,
@@ -75,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt and cool the unsalted butter slightly.",
+      "secondary_message": "8 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and heat oven to 350℉ (175℃). In a large bowl, whisk flour, sugar, and salt together. Pour butter and water into the flour mixture and, using a flexible spatula, stir until well combined and a uniform dough is formed.",

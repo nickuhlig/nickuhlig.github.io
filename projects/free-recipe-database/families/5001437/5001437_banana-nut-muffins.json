@@ -84,8 +84,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "1 oz"
+      "name": "unsalted butter",
+      "quantity": "1 oz",
+      "prep": "melted"
     },
     {
       "ingredient_id": 116,
@@ -120,8 +121,9 @@
     },
     {
       "ingredient_id": 1003,
-      "name": "sour cream, at room temperature",
-      "quantity": "2 oz"
+      "name": "sour cream",
+      "quantity": "2 oz",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 293,
@@ -130,8 +132,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "2 oz"
+      "name": "unsalted butter",
+      "quantity": "2 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1682,
@@ -145,8 +148,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, at room temperature",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 353,
@@ -160,6 +164,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Bring the sour cream to room temperature. Soften the unsalted butter. Bring the egg to room temperature.",
+      "secondary_message": "1 oz unsalted butter\n2 oz sour cream\n2 oz unsalted butter\n1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position, and preheat oven to 425°F (220ºC). Line a 12-cup muffin pan with paper or silicone liners.",

@@ -59,8 +59,9 @@
     },
     {
       "ingredient_id": 1473,
-      "name": "heirloom tomatoes, small, sliced 1/2-inch-thick",
-      "quantity": "0.45 kg"
+      "name": "heirloom tomatoes, small",
+      "quantity": "0.45 kg",
+      "prep": "sliced 1/2-inch-thick"
     },
     {
       "ingredient_id": 1174,
@@ -74,8 +75,9 @@
     },
     {
       "ingredient_id": 107,
-      "name": "fresh mozzarella cheese, thinly sliced",
-      "quantity": "227 g"
+      "name": "fresh mozzarella cheese",
+      "quantity": "227 g",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1423,
@@ -84,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the heirloom tomatoes 1/2-inch-thick. Thinly slice the fresh mozzarella cheese.",
+      "secondary_message": "0.45 kg heirloom tomatoes, small\n227 g fresh mozzarella cheese"
+    },
     {
       "id": 1,
       "primary_message": "Place 1 chicken breast half in a resealable plastic bag or between two pieces of plastic wrap. Using a meat pounder, rolling pin, or small skillet, pound chicken breast into an even thickness, about 2-cm thick. Repeat process with remaining 3 breasts.",

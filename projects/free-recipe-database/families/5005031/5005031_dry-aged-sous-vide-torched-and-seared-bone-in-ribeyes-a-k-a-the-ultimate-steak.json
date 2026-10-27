@@ -84,13 +84,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, sliced",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 1994,
@@ -99,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the shallot. Smash the garlic.",
+      "secondary_message": "1 medium shallot\n4 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Heat a sous vide water bath to 127°F, or fill a large beer cooler with 130°F water (fill with hot water, then use boiling water from a kettle and cold water to adjust temperature, using an instant-read thermometer to measure). Season steaks generously with salt and pepper. Seal in individual vacuum-sealed bags, place in water bath or cooler, and close lid. Allow to cook for at least 1 hour and up to 3 hours. (If necessary, top up beer cooler with more boiling water to maintain temperature within 2 to 3°F of 127°F. See here for more details on cooking sous vide using a beer cooler.)",

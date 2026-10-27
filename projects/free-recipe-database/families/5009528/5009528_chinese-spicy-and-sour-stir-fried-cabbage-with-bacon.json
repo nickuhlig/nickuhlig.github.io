@@ -57,26 +57,36 @@
     },
     {
       "ingredient_id": 302,
-      "name": "thick-cut bacon, cut into 1/4-inch strips",
-      "quantity": "3 strips"
+      "name": "thick-cut bacon",
+      "quantity": "3 strips",
+      "prep": "cut into 1/4-inch strips"
     },
     {
       "ingredient_id": 2402,
-      "name": "fresh cayenne chile peppers, thinly sliced on the bias with seeds",
-      "quantity": "2 to 3"
+      "name": "fresh cayenne chile peppers",
+      "quantity": "2 to 3",
+      "prep": "thinly sliced on the bias with seeds"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced lengthwise",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "thinly sliced lengthwise"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, cut into 1-inch pieces on the bias",
-      "quantity": "2 medium"
+      "name": "scallions",
+      "quantity": "2 medium",
+      "prep": "cut into 1-inch pieces on the bias"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the thick-cut bacon into 1/4-inch strips. Thinly slice the fresh cayenne chile peppers on the bias with seeds. Thinly slice the garlic lengthwise. Cut the scallions into 1-inch pieces on the bias.",
+      "secondary_message": "3 strips thick-cut bacon\n2 to 3 fresh cayenne chile peppers\n3 medium cloves garlic\n2 medium scallions"
+    },
     {
       "id": 1,
       "primary_message": "Fill a wok or a large pot with water and bring to boil. Add cabbage and cook until crisp-tender, about 1 minute. Drain in a colander and rinse with cold running water; press cabbage to expel any excess water. In a small bowl, combine Chinkiang vinegar and soy sauce together. Mix and set aside.",

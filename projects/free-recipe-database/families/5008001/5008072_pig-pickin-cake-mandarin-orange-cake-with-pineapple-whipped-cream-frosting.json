@@ -73,13 +73,15 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, room temperature",
-      "quantity": "4"
+      "name": "eggs",
+      "quantity": "4",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 3641,
-      "name": "yolks, room temperature",
-      "quantity": "2"
+      "name": "yolks",
+      "quantity": "2",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 353,
@@ -88,13 +90,15 @@
     },
     {
       "ingredient_id": 118,
-      "name": "whole milk, room temperature",
-      "quantity": "1 ¼ cups"
+      "name": "whole milk",
+      "quantity": "1 ¼ cups",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 3364,
-      "name": "mandarin oranges, drained",
-      "quantity": "1 (312 g) can"
+      "name": "mandarin oranges",
+      "quantity": "1 (312 g) can",
+      "prep": "drained"
     },
     {
       "ingredient_id": 2346,
@@ -118,11 +122,18 @@
     },
     {
       "ingredient_id": 1135,
-      "name": "crushed pineapple, drained of all its liquid",
-      "quantity": "⅔ cup"
+      "name": "crushed pineapple",
+      "quantity": "⅔ cup",
+      "prep": "drained of all its liquid"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the eggs to room temperature. Bring the yolks to room temperature. Bring the whole milk to room temperature. Drain the mandarin oranges. Drain the crushed pineapple of all its liquid.",
+      "secondary_message": "4 eggs\n2 yolks\n1 ¼ cups whole milk\n1 (312 g) can mandarin oranges\n⅔ cup crushed pineapple"
+    },
     {
       "id": 1,
       "primary_message": "Set oven rack to middle position and preheat oven to 175°C (350°F). Grease and flour 3 cake pans and set aside. In a medium bowl whisk together flour, baking powder, and salt, and set aside.",

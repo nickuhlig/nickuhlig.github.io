@@ -72,8 +72,9 @@
     },
     {
       "ingredient_id": 1958,
-      "name": "skin-off pork belly, cut into 1/2-inch pieces",
-      "quantity": "6 oz"
+      "name": "skin-off pork belly",
+      "quantity": "6 oz",
+      "prep": "cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 159,
@@ -117,6 +118,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the skin-off pork belly into 1/2-inch pieces.",
+      "secondary_message": "6 oz skin-off pork belly"
+    },
     {
       "id": 1,
       "primary_message": "For the Sauce: In a small bowl, whisk ketchup, oyster sauce, Worcestershire sauce, and sugar to combine; set aside.",

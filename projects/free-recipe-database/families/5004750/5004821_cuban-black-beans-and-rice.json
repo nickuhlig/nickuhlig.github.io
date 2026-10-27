@@ -87,8 +87,9 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onions, diced",
-      "quantity": "2 large"
+      "name": "white onions",
+      "quantity": "2 large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 346,
@@ -112,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the white onions.",
+      "secondary_message": "2 large white onions"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, cover the beans with at least 8 cm cold water. Cover and let stand overnight.",

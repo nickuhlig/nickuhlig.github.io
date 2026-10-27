@@ -56,11 +56,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 1/2-inch pieces",
-      "quantity": "6 tbsp"
+      "name": "unsalted butter",
+      "quantity": "6 tbsp",
+      "prep": "cut into 1/2-inch pieces"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into 1/2-inch pieces.",
+      "secondary_message": "6 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a pot of lightly salted boiling water, cook spaghetti until al dente, according to timing given in package instructions.",

@@ -56,13 +56,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced on a microplane grater",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "minced on a microplane grater"
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely chopped",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1677,
@@ -86,6 +88,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic on a microplane grater. Finely chop the shallot.",
+      "secondary_message": "1 medium clove garlic\n1 small shallot"
+    },
     {
       "id": 1,
       "primary_message": "Place eggs in a medium saucepan and cover with cold water. Bring to a boil over high heat, cover with a lid, and set aside for 10 minutes.",

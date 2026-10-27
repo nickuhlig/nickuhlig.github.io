@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 333,
-      "name": "natural cocoa powder, measured then sifted",
-      "quantity": "¼ cup"
+      "name": "natural cocoa powder",
+      "quantity": "¼ cup",
+      "prep": "measured then sifted"
     },
     {
       "ingredient_id": 1194,
@@ -76,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Measure and sift the natural cocoa powder.",
+      "secondary_message": "¼ cup natural cocoa powder"
+    },
     {
       "id": 1,
       "primary_message": "For the Base: In a medium heatproof bowl, whisk the yolks just to break them up, then whisk in half of the sugar (6 tablespoons). Set aside.",

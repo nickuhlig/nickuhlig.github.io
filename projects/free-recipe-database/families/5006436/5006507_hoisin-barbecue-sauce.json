@@ -48,13 +48,15 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, diced",
-      "quantity": "1 small"
+      "name": "yellow onion",
+      "quantity": "1 small",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 400,
@@ -108,6 +110,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the yellow onion. Mince the garlic.",
+      "secondary_message": "1 small yellow onion\n3 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in medium saucepan over medium heat until shimmering. Add onion and cook until softened, about 5 minutes. Add garlic and cook until fragrant, about 30 seconds.",

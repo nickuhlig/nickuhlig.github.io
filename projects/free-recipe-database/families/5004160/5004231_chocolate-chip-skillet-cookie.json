@@ -97,8 +97,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, straight from the fridge",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "straight from the fridge"
     },
     {
       "ingredient_id": 116,
@@ -112,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the egg cold until you use it.",
+      "secondary_message": "1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat to 180°C (350°F). Combine butter, white sugar, brown sugar, malted milk powder, vanilla, salt, baking soda, baking powder, and nutmeg in the bowl of a stand mixer fitted with a paddle attachment. Mix on low to moisten, then increase to medium and beat until light and fluffy, about 5 minutes. With mixer running, add egg and continue beating only until smooth. Stop mixer and add flour all at once; quickly and carefully switch mixer speed between off setting and stir setting just until flour mixture is nearly combined into butter mixture. Add chopped chocolate, then mix on low speed to form a stiff dough.",

@@ -56,15 +56,17 @@
     },
     {
       "ingredient_id": 2069,
-      "name": "tomatillos, husks discarded, quartered",
+      "name": "tomatillos",
       "quantity": "10",
-      "weigh_as": "12 oz"
+      "weigh_as": "12 oz",
+      "prep": "husks discarded, quartered"
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, roughly chopped",
+      "name": "white onion",
       "quantity": "2 ½ medium",
-      "weigh_as": "10 oz"
+      "weigh_as": "10 oz",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 2776,
@@ -73,18 +75,21 @@
     },
     {
       "ingredient_id": 2021,
-      "name": "Serrano peppers, roughly chopped, stems discarded",
-      "quantity": "2"
+      "name": "Serrano peppers",
+      "quantity": "2",
+      "prep": "roughly chopped, stems discarded"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "6 medium cloves"
+      "name": "garlic",
+      "quantity": "6 medium cloves",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 1271,
-      "name": "whole cumin seeds, toasted and ground",
-      "quantity": "1 tbsp"
+      "name": "whole cumin seeds",
+      "quantity": "1 tbsp",
+      "prep": "toasted and ground"
     },
     {
       "ingredient_id": 88,
@@ -103,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Discard the husks from the tomatillos, then quarter them. Roughly chop the white onion. Roughly chop the Serrano peppers, then discard the stems. Peel the garlic. Toast and grind the whole cumin seeds.",
+      "secondary_message": "10 tomatillos\n2 ½ medium white onion\n2 Serrano peppers\n6 medium cloves garlic\n1 tbsp whole cumin seeds"
+    },
     {
       "id": 1,
       "primary_message": "Combine chicken, poblano peppers, tomatillos, onion, Anaheim peppers, Serrano peppers, garlic, cumin, and a big pinch of salt in a pressure cooker. Heat over high heat until gently sizzling, then seal pressure cooker, bring to high pressure, and cook for 15 minutes. Release pressure.",

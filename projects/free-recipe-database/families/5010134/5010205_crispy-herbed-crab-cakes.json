@@ -34,8 +34,9 @@
   "ingredients": [
     {
       "ingredient_id": 2494,
-      "name": "fresh lump crab meat, picked over",
-      "quantity": "455 g"
+      "name": "fresh lump crab meat",
+      "quantity": "455 g",
+      "prep": "picked over"
     },
     {
       "ingredient_id": 267,
@@ -69,6 +70,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the fresh lump crab meat over.",
+      "secondary_message": "455 g fresh lump crab meat"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, combine crab, mayonnaise, herbs (if using), and 1 egg. Using a flexible spatula, fold gently until combined, being careful not to break up any large lumps of crab.",

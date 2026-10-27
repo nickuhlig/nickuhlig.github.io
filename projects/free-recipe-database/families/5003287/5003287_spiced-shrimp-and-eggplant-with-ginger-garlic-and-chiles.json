@@ -52,8 +52,9 @@
     },
     {
       "ingredient_id": 1811,
-      "name": "shrimp, small, peeled and deveined",
-      "quantity": "⅔ lb"
+      "name": "shrimp, small",
+      "quantity": "⅔ lb",
+      "prep": "peeled and deveined"
     },
     {
       "ingredient_id": 1777,
@@ -62,13 +63,15 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, chopped fine",
-      "quantity": "1 medium"
+      "name": "red onion",
+      "quantity": "1 medium",
+      "prep": "chopped fine"
     },
     {
       "ingredient_id": 1850,
-      "name": "green chiles, slit",
-      "quantity": "2 small"
+      "name": "green chiles",
+      "quantity": "2 small",
+      "prep": "slit"
     },
     {
       "ingredient_id": 260,
@@ -92,11 +95,18 @@
     },
     {
       "ingredient_id": 18,
-      "name": "baby black eggplants, cut lengthwise into 1/4",
-      "quantity": "3"
+      "name": "baby black eggplants",
+      "quantity": "3",
+      "prep": "cut lengthwise into 1/4"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and devein the shrimp. Chop the red onion fine. Slit the green chiles. Cut the baby black eggplants lengthwise into 1/4.",
+      "secondary_message": "⅔ lb shrimp, small\n1 medium red onion\n2 small green chiles\n3 baby black eggplants"
+    },
     {
       "id": 1,
       "primary_message": "Combine 1 teaspoon salt, turmeric, ginger-garlic paste,1 teaspoon cumin powder, and the shrimp in a medium bowl and set aside. Heat oil in a large saucepan over medium heat until shimmering. Add onions and cook, stirring, until softened, about 2 minutes. Add green chilli and chopped tomato. Stir until tomato is broken down and starting to get dry, about 5 minutes. Add remaining cumin, red chilli and coriander powders and vigorously until fragrant, about 2 minutes. (Add drops of water if you think the paste is sticking to the bottom or the powders are burning.) Add eggplants and stir to coat with spice paste. Add water and season to taste with salt. Cover and cook until eggplant is tender and most of its liquid has evaporated, about 5 minutes.",

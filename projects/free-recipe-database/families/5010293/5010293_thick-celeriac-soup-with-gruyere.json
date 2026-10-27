@@ -46,19 +46,22 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, finely sliced",
-      "quantity": "6 small"
+      "name": "shallots",
+      "quantity": "6 small",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 1897,
-      "name": "boiling potatoes, peeled and cubed",
+      "name": "boiling potatoes",
       "quantity": "½ medium",
-      "weigh_as": "¼ lb"
+      "weigh_as": "¼ lb",
+      "prep": "peeled and cubed"
     },
     {
       "ingredient_id": 2558,
-      "name": "celery root, peeled and cubed",
-      "quantity": "1 ¾ lb"
+      "name": "celery root",
+      "quantity": "1 ¾ lb",
+      "prep": "peeled and cubed"
     },
     {
       "ingredient_id": 287,
@@ -82,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely slice the shallots. Peel and cube the boiling potatoes. Peel and cube the celery root.",
+      "secondary_message": "6 small shallots\n½ medium boiling potatoes\n1 ¾ lb celery root"
+    },
     {
       "id": 1,
       "primary_message": "In a large stockpot, melt the butter over medium heat until frothy. Add the shallots, and cook on medium-low to medium heat until caramelized, about 10 minutes. Keep a cup of water on the side, and add a splash every few minutes to keep the shallots from burning before they are caramelized.",

@@ -79,8 +79,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely grated or minced",
-      "quantity": "1 clove"
+      "name": "garlic",
+      "quantity": "1 clove",
+      "prep": "finely grated or minced"
     },
     {
       "ingredient_id": 47,
@@ -109,9 +110,10 @@
     },
     {
       "ingredient_id": 260,
-      "name": "ripe but firm tomatoes, large, halved lengthwise",
+      "name": "ripe but firm tomatoes, large",
       "quantity": "5",
-      "weigh_as": "2 lb"
+      "weigh_as": "2 lb",
+      "prep": "halved lengthwise"
     },
     {
       "ingredient_id": 88,
@@ -130,8 +132,9 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onions, cut into 1/2-inch thick rounds",
-      "quantity": "2 medium"
+      "name": "red onions",
+      "quantity": "2 medium",
+      "prep": "cut into 1/2-inch thick rounds"
     },
     {
       "ingredient_id": 2324,
@@ -167,6 +170,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely grate or mince the garlic. Halve the ripe but firm tomatoes lengthwise. Cut the red onions into 1/2-inch thick rounds.",
+      "secondary_message": "1 clove garlic\n5 ripe but firm tomatoes, large\n2 medium red onions"
+    },
     {
       "id": 1,
       "primary_message": "For the Vinaigrette: In a small bowl, whisk together lemon zest and juice, mustard, and garlic. Whisking constantly, slowly drizzle in oil until emulsified. Whisk in chives and basil and season to taste with salt and pepper. (Vinaigrette can be refrigerated in a tightly sealed container for up to 2 days. Bring to room temperature before using and whisk or shake in a tightly sealed jar to recombine.)",

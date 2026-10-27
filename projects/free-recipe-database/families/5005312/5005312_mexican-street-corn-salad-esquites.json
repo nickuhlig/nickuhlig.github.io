@@ -53,9 +53,10 @@
     },
     {
       "ingredient_id": 303,
-      "name": "fresh corn, shucked, kernels removed",
+      "name": "fresh corn",
       "quantity": "2 ½ cups",
-      "weigh_as": "408 g"
+      "weigh_as": "408 g",
+      "prep": "shucked, kernels removed"
     },
     {
       "ingredient_id": 88,
@@ -64,8 +65,9 @@
     },
     {
       "ingredient_id": 32,
-      "name": "feta cheese, finely crumbled",
-      "quantity": "2 oz"
+      "name": "feta cheese",
+      "quantity": "2 oz",
+      "prep": "finely crumbled"
     },
     {
       "ingredient_id": 153,
@@ -74,18 +76,21 @@
     },
     {
       "ingredient_id": 188,
-      "name": "fresh cilantro leaves, finely chopped",
-      "quantity": "½ cup (½ oz)"
+      "name": "fresh cilantro leaves",
+      "quantity": "½ cup (½ oz)",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño pepper, seeded and stemmed, finely chopped",
-      "quantity": "1"
+      "name": "jalapeño pepper",
+      "quantity": "1",
+      "prep": "seeded and stemmed, finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, pressed or minced on a Microplane grater",
-      "quantity": "1 to 2 medium cloves"
+      "name": "garlic",
+      "quantity": "1 to 2 medium cloves",
+      "prep": "pressed or minced on a Microplane grater"
     },
     {
       "ingredient_id": 267,
@@ -104,6 +109,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shuck the fresh corn, then remove the kernels. Finely crumble the feta cheese. Finely chop the fresh cilantro leaves. Seed, stem, and finely chop the jalapeño pepper. Press or mince the garlic on a Microplane grater.",
+      "secondary_message": "2 ½ cups fresh corn\n2 oz feta cheese\n½ cup (½ oz) fresh cilantro leaves\n1 jalapeño pepper\n1 to 2 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in a large nonstick skillet or wok over high heat until shimmering. Add corn kernels, season to taste with salt, toss once or twice, and cook without moving until charred on one side, about 2 minutes. Toss corn, stir, and repeat until charred on second side, about 2 minutes longer. Continue tossing and charring until corn is well charred all over, about 10 minutes total. Transfer to a large bowl.",

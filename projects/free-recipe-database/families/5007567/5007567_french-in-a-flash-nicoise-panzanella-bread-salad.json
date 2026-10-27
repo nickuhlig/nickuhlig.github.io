@@ -33,13 +33,15 @@
   "ingredients": [
     {
       "ingredient_id": 2832,
-      "name": "day-old bread, cut in 1-inch cubes",
-      "quantity": "6 cups"
+      "name": "day-old bread",
+      "quantity": "6 cups",
+      "prep": "cut in 1-inch cubes"
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, juiced",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -63,28 +65,33 @@
     },
     {
       "ingredient_id": 111,
-      "name": "haricots verts, halved and blanched until tender crisp",
-      "quantity": "7 oz"
+      "name": "haricots verts",
+      "quantity": "7 oz",
+      "prep": "halved and blanched until tender crisp"
     },
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, halved",
-      "quantity": "45"
+      "name": "cherry tomatoes",
+      "quantity": "45",
+      "prep": "halved"
     },
     {
       "ingredient_id": 2012,
-      "name": "kalamata olives, pitted and halved",
-      "quantity": "30"
+      "name": "kalamata olives",
+      "quantity": "30",
+      "prep": "pitted and halved"
     },
     {
       "ingredient_id": 325,
-      "name": "anchovy fillets in olive oil, drained and roughly chopped",
-      "quantity": "12"
+      "name": "anchovy fillets in olive oil",
+      "quantity": "12",
+      "prep": "drained and roughly chopped"
     },
     {
       "ingredient_id": 139,
-      "name": "baby arugula, roughly chopped",
-      "quantity": "1 cup"
+      "name": "baby arugula",
+      "quantity": "1 cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 28,
@@ -98,11 +105,18 @@
     },
     {
       "ingredient_id": 2654,
-      "name": "albacore in olive oil, drained",
-      "quantity": "1 (5 oz) can"
+      "name": "albacore in olive oil",
+      "quantity": "1 (5 oz) can",
+      "prep": "drained"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the day-old bread in 1-inch cubes. Juice the lemon. Halve and blanch the haricots verts until tender crisp. Halve the cherry tomatoes. Pit and halve the kalamata olives. Drain and roughly chop the anchovy fillets in olive oil. Roughly chop the baby arugula. Drain the albacore in olive oil.",
+      "secondary_message": "6 cups day-old bread\n1 lemon\n7 oz haricots verts\n45 cherry tomatoes\n30 kalamata olives\n12 anchovy fillets in olive oil\n1 cup baby arugula\n1 (5 oz) can albacore in olive oil"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 350 degrees F. Spread the bread in a single layer on a baking sheet, and toast until just golden brown, about 10 minutes. Set aside to cool.",

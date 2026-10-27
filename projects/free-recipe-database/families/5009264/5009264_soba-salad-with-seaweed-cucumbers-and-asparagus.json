@@ -36,9 +36,10 @@
   "ingredients": [
     {
       "ingredient_id": 26,
-      "name": "asparagus, woody ends trimmed",
+      "name": "asparagus",
       "quantity": "1 bunch",
-      "weigh_as": "1 lb"
+      "weigh_as": "1 lb",
+      "prep": "woody ends trimmed"
     },
     {
       "ingredient_id": 1789,
@@ -72,8 +73,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "fresh peeled ginger, grated",
-      "quantity": "1 (1 ½ inch) knob"
+      "name": "fresh peeled ginger",
+      "quantity": "1 (1 ½ inch) knob",
+      "prep": "grated"
     },
     {
       "ingredient_id": 155,
@@ -97,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the woody ends of the asparagus. Grate the fresh peeled ginger.",
+      "secondary_message": "1 bunch asparagus\n1 (1 ½ inch) knob fresh peeled ginger"
+    },
     {
       "id": 1,
       "primary_message": "Place wakame in a medium bowl and cover with plenty of warm water. Let stand until softened and rehydrated (about 10 minutes), then transfer to a fine mesh strainer to drain. In a large pot of salted boiling water, blanch asparagus until crisp-tender, about 2 minutes. Using tongs, transfer to an ice-water bath to chill. Slice chilled asparagus into 1 1/2-inch lengths on a slight bias.",

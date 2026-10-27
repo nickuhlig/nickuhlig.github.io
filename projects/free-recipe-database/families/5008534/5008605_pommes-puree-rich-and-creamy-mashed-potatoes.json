@@ -40,14 +40,16 @@
   "ingredients": [
     {
       "ingredient_id": 3064,
-      "name": "skin-on Yukon Gold potatoes, scrubbed",
+      "name": "skin-on Yukon Gold potatoes",
       "quantity": "4 medium",
-      "weigh_as": "0.9 kg"
+      "weigh_as": "0.9 kg",
+      "prep": "scrubbed"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 1-tablespoon pieces",
-      "quantity": "8 tbsp"
+      "name": "unsalted butter",
+      "quantity": "8 tbsp",
+      "prep": "cut into 1-tablespoon pieces"
     },
     {
       "ingredient_id": 1752,
@@ -66,6 +68,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Scrub the skin-on Yukon Gold potatoes. Cut the unsalted butter into 1-tablespoon pieces.",
+      "secondary_message": "4 medium skin-on Yukon Gold potatoes\n8 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a large pot, cover potatoes with cold water. Bring to a boil over high heat, then reduce to a simmer. Cook until potatoes are tender and offer no resistance when poked with a paring knife. Drain and let stand until cool enough to handle.",

@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, diced",
-      "quantity": "1 cup"
+      "name": "onion",
+      "quantity": "1 cup",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
@@ -56,8 +57,9 @@
     },
     {
       "ingredient_id": 19,
-      "name": "white mushrooms, washed and diced",
-      "quantity": "3 cups"
+      "name": "white mushrooms",
+      "quantity": "3 cups",
+      "prep": "washed and diced"
     },
     {
       "ingredient_id": 1008,
@@ -66,11 +68,18 @@
     },
     {
       "ingredient_id": 270,
-      "name": "chives, chopped",
-      "quantity": "1 tbsp"
+      "name": "chives",
+      "quantity": "1 tbsp",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the onion. Wash and dice the white mushrooms. Chop the chives.",
+      "secondary_message": "1 cup onion\n3 cups white mushrooms\n1 tbsp chives"
+    },
     {
       "id": 1,
       "primary_message": "Set the chicken thighs skin-side down on a cutting board. Cut a 1/2 inch thick slash on either side of the thigh bone. Season the thighs on both sides with 1/2 teaspoon of salt and 1/2 teaspoon of pepper.",

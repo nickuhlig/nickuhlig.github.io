@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 2406,
-      "name": "dry sparkling rosé, ice cold",
-      "quantity": "1 (750 ml) bottle"
+      "name": "dry sparkling rosé",
+      "quantity": "1 (750 ml) bottle",
+      "prep": "ice cold"
     },
     {
       "ingredient_id": 2451,
@@ -60,6 +61,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the dry sparkling rosé cold until you use it.",
+      "secondary_message": "1 (750 ml) bottle dry sparkling rosé"
+    },
     {
       "id": 1,
       "primary_message": "Combine rosé, crème de cassis, simple syrup, sparkling water, and frozen berries in a large pitcher. Serve immediately.",

@@ -87,8 +87,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, at room temperature",
-      "quantity": "8 oz"
+      "name": "cream cheese",
+      "quantity": "8 oz",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 100,
@@ -97,8 +98,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted and cooled",
-      "quantity": "4 tbsp"
+      "name": "unsalted butter",
+      "quantity": "4 tbsp",
+      "prep": "melted and cooled"
     },
     {
       "ingredient_id": 121,
@@ -107,6 +109,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the cream cheese to room temperature. Melt the unsalted butter and let it cool.",
+      "secondary_message": "8 oz cream cheese\n4 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower-middle position. Place a heavy duty rimmed baking sheet on the rack and preheat oven to 425°F (220°F).",

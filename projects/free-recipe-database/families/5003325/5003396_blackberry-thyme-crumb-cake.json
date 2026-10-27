@@ -84,13 +84,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, chilled and cut into small pieces",
-      "quantity": "3 tbsp"
+      "name": "unsalted butter",
+      "quantity": "3 tbsp",
+      "prep": "chilled and cut into small pieces"
     },
     {
       "ingredient_id": 272,
-      "name": "toasted walnuts, coarsely chopped",
-      "quantity": "½ cup"
+      "name": "toasted walnuts",
+      "quantity": "½ cup",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 1677,
@@ -124,18 +126,21 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "170 g"
+      "name": "unsalted butter",
+      "quantity": "170 g",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 2475,
-      "name": "buttermilk, at room temperature",
-      "quantity": "1 cup (8 oz)"
+      "name": "buttermilk",
+      "quantity": "1 cup (8 oz)",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1480,
@@ -154,6 +159,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into small pieces and keep it cold until you use it. Coarsely chop the toasted walnuts. Bring the unsalted butter to room temperature. Bring the eggs to room temperature. Bring the buttermilk to room temperature.",
+      "secondary_message": "3 tbsp unsalted butter\n½ cup toasted walnuts\n170 g unsalted butter\n2 large eggs\n1 cup (8 oz) buttermilk"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 175°C (350°F). Lightly spray 13- by 23-cm cake pan with baking spray. Line pan with parchment paper or heavy-duty foil lengthwise with one sheet, then crosswise with a second sheet to create a sling; spray once again with baking spray.",

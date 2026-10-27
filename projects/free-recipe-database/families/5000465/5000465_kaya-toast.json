@@ -72,8 +72,9 @@
     },
     {
       "ingredient_id": 2188,
-      "name": "coconut cream, such as Aroy-D, stirred",
-      "quantity": "1 (14 ½ oz) can"
+      "name": "coconut cream, such as Aroy-D",
+      "quantity": "1 (14 ½ oz) can",
+      "prep": "stirred"
     },
     {
       "ingredient_id": 129,
@@ -82,8 +83,9 @@
     },
     {
       "ingredient_id": 1216,
-      "name": "white sandwich bread, crusts removed and lightly toasted",
-      "quantity": "2 slices"
+      "name": "white sandwich bread",
+      "quantity": "2 slices",
+      "prep": "crusts removed and lightly toasted"
     },
     {
       "ingredient_id": 2141,
@@ -92,11 +94,18 @@
     },
     {
       "ingredient_id": 2038,
-      "name": "cold salted butter, sliced into 1/8-inch thick slabs",
-      "quantity": "4 tbsp"
+      "name": "cold salted butter",
+      "quantity": "4 tbsp",
+      "prep": "sliced into 1/8-inch thick slabs"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stir the coconut cream. Remove the crusts from the white sandwich bread, then lightly toast it. Slice the cold salted butter into 1/8-inch thick slabs.",
+      "secondary_message": "1 (14 ½ oz) can coconut cream, such as Aroy-D\n2 slices white sandwich bread\n4 tbsp cold salted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, whisk eggs. Strain eggs through a fine-mesh sieve into a large metal heat-proof bowl, and whisk in 1 cup 3 tablespoons granulated sugar until well incorporated.",

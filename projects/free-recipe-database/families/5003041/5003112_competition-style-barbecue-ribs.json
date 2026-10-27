@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 1080,
-      "name": "apple juice, divided, 1 cup placed in a squirt bottle",
-      "quantity": "2 cups"
+      "name": "apple juice, divided",
+      "quantity": "2 cups",
+      "prep": "1 cup placed in a squirt bottle"
     },
     {
       "ingredient_id": 399,
@@ -70,6 +71,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Place the 1 cup of the apple juice in a squirt bottle.",
+      "secondary_message": "2 cups apple juice, divided"
+    },
     {
       "id": 1,
       "primary_message": "Remove membrane from back of each rack, and trim ribs of excess fat. Brush meat side of each rack with yellow mustard, then rub liberally with barbecue rub on both sides.",

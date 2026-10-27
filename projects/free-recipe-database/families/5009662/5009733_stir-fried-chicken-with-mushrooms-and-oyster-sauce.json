@@ -64,8 +64,9 @@
     },
     {
       "ingredient_id": 1629,
-      "name": "chicken breast, sliced 1/8 inch thick",
-      "quantity": "0.23 kg"
+      "name": "chicken breast",
+      "quantity": "0.23 kg",
+      "prep": "sliced 1/8 inch thick"
     },
     {
       "ingredient_id": 359,
@@ -99,8 +100,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 359,
@@ -124,6 +126,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the chicken breast 1/8 inch thick. Finely mince the garlic.",
+      "secondary_message": "0.23 kg chicken breast\n1 medium clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Velveted Chicken: In a small bowl, thoroughly combine egg white, cornstarch, rice wine, and salt. Place chicken in a bowl and add cornstarch mixture, tossing to combine. Refrigerate for 30 minutes.",

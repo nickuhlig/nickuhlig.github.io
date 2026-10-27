@@ -73,13 +73,15 @@
     },
     {
       "ingredient_id": 1702,
-      "name": "skin on boneless chicken thighs, cubed",
-      "quantity": "1.81 kg"
+      "name": "skin on boneless chicken thighs",
+      "quantity": "1.81 kg",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 32,
-      "name": "feta cheese, crumbled, divided",
-      "quantity": "283 g"
+      "name": "feta cheese, divided",
+      "quantity": "283 g",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 144,
@@ -103,13 +105,15 @@
     },
     {
       "ingredient_id": 130,
-      "name": "red wine vinegar, chilled",
-      "quantity": "2 tbsp"
+      "name": "red wine vinegar",
+      "quantity": "2 tbsp",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 1480,
-      "name": "lemon juice, chilled",
-      "quantity": "2 tbsp"
+      "name": "lemon juice",
+      "quantity": "2 tbsp",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 2628,
@@ -118,6 +122,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cube the skin on boneless chicken thighs. Crumble the feta cheese. Keep the red wine vinegar cold until you use it. Keep the lemon juice cold until you use it.",
+      "secondary_message": "1.81 kg skin on boneless chicken thighs\n283 g feta cheese, divided\n2 tbsp red wine vinegar\n2 tbsp lemon juice"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 175°C (350°F). Cut top quarters off of heads of garlic. Place garlic cloves, cut side down, in center of a sheet of aluminum foil and drizzle with olive oil. Seal foil and place directly on oven rack. Cook until cloves are browned and very soft, about 20 minutes. Remove from the oven, let cool for 10 minutes, then squeeze cloves out of the skin into a small bowl.",

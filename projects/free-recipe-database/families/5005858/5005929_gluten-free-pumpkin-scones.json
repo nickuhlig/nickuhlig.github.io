@@ -91,8 +91,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold butter, cut into tablespoon-size pieces",
-      "quantity": "6 tbsp"
+      "name": "cold butter",
+      "quantity": "6 tbsp",
+      "prep": "cut into tablespoon-size pieces"
     },
     {
       "ingredient_id": 2271,
@@ -166,6 +167,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cold butter into tablespoon-size pieces.",
+      "secondary_message": "6 tbsp cold butter"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 220°C (425°F). Line rimmed baking sheet with parchment paper. In large bowl, whisk together millet flour, sorghum flour, white rice flour, granulated sugar, baking powder, salt, xanthan gum, cinnamon, nutmeg, cloves, and ginger. Using your hands or a pastry cutter, cut butter into dry ingredients until no large pieces of butter remain. Mixture should resemble a coarse cornmeal.",

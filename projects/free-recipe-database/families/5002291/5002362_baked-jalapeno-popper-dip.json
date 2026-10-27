@@ -51,18 +51,21 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, ends trimmed",
-      "quantity": "5 small"
+      "name": "scallions",
+      "quantity": "5 small",
+      "prep": "ends trimmed"
     },
     {
       "ingredient_id": 302,
-      "name": "bacon, chopped",
-      "quantity": "6 slices"
+      "name": "bacon",
+      "quantity": "6 slices",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "340 g"
+      "name": "cream cheese",
+      "quantity": "340 g",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1003,
@@ -71,8 +74,9 @@
     },
     {
       "ingredient_id": 1063,
-      "name": "mild diced green chiles, drained",
-      "quantity": "1 (113 g) can"
+      "name": "mild diced green chiles",
+      "quantity": "1 (113 g) can",
+      "prep": "drained"
     },
     {
       "ingredient_id": 79,
@@ -91,13 +95,15 @@
     },
     {
       "ingredient_id": 1156,
-      "name": "pepper Jack cheese, shredded",
-      "quantity": "113 g"
+      "name": "pepper Jack cheese",
+      "quantity": "113 g",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 120,
-      "name": "Parmesan cheese, shredded",
-      "quantity": "28 g"
+      "name": "Parmesan cheese",
+      "quantity": "28 g",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 153,
@@ -116,6 +122,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the ends of the scallions. Chop the bacon. Soften the cream cheese. Drain the mild diced green chiles. Shred the pepper Jack cheese. Shred the Parmesan cheese.",
+      "secondary_message": "5 small scallions\n6 slices bacon\n340 g cream cheese\n1 (113 g) can mild diced green chiles\n113 g pepper Jack cheese\n28 g Parmesan cheese"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack 15 cm from broiler element and heat broiler on high for at least 5 minutes. On a rimmed baking sheet, add jalapeños. Broil until lightly blistered, 2 to 5 minutes. Turn jalapeños over. Add scallions to same baking sheet and broil until jalapeños and scallions are blistered and spotty brown, 1 to 2 minutes longer. Allow to cool slightly on baking sheet, about 3 minutes.",

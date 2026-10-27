@@ -36,8 +36,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "cilantro, rinsed, divided",
-      "quantity": "1 bunch"
+      "name": "cilantro, divided",
+      "quantity": "1 bunch",
+      "prep": "rinsed"
     },
     {
       "ingredient_id": 2710,
@@ -46,19 +47,22 @@
     },
     {
       "ingredient_id": 2069,
-      "name": "fresh tomatillos, husks removed, washed, quartered",
+      "name": "fresh tomatillos",
       "quantity": "8",
-      "weigh_as": "10 oz"
+      "weigh_as": "10 oz",
+      "prep": "husks removed, washed, quartered"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, coarsely chopped",
-      "quantity": "1 small"
+      "name": "red onion",
+      "quantity": "1 small",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeno peppers, quartered",
-      "quantity": "2"
+      "name": "jalapeno peppers",
+      "quantity": "2",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 1421,
@@ -77,11 +81,18 @@
     },
     {
       "ingredient_id": 1069,
-      "name": "Monterey Jack cheese, shredded",
-      "quantity": "8 oz"
+      "name": "Monterey Jack cheese",
+      "quantity": "8 oz",
+      "prep": "shredded"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse the cilantro. Remove the husks from the fresh tomatillos, then wash and quarter them. Coarsely chop the red onion. Quarter the jalapeno peppers. Shred the Monterey Jack cheese.",
+      "secondary_message": "1 bunch cilantro, divided\n8 fresh tomatillos\n1 small red onion\n2 jalapeno peppers\n8 oz Monterey Jack cheese"
+    },
     {
       "id": 1,
       "primary_message": "If using chicken breasts, halve each breast on the bias so that pieces are of equal thickness. In medium saucepan over medium heat, heat chicken broth to simmer. Add cilantro stems to broth.",

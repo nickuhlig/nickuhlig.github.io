@@ -75,8 +75,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, thinly sliced",
-      "quantity": "3 medium"
+      "name": "shallots",
+      "quantity": "3 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -90,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the shallots.",
+      "secondary_message": "3 medium shallots"
+    },
     {
       "id": 1,
       "primary_message": "Combine honey, balsamic vinegar, and parsley in a small bowl and set aside.",

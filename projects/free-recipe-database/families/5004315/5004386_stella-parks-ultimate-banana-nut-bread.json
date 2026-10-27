@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, straight from the fridge",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "straight from the fridge"
     },
     {
       "ingredient_id": 353,
@@ -131,6 +132,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the eggs cold until you use them.",
+      "secondary_message": "2 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Line a 10 1/2– by 5 1/2–inch loaf pan with a 9- by 33-cm sheet of parchment paper, or two 9- by 13-cm loaf pans with 7- by 33-cm sheets of parchment paper. Adjust oven rack to lower-middle position and preheat to 175°C (350°F). Peel bananas (for roughly 340 g or 340g fruit) and mash with Greek yogurt, eggs, and vanilla in a medium bowl. If bananas are underripe, cover bowl with plastic and let mixture stand 30 minutes.",

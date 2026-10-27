@@ -51,18 +51,21 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, finely diced",
-      "quantity": "1 small"
+      "name": "red onion",
+      "quantity": "1 small",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 188,
-      "name": "cilantro, loosely packed, finely chopped",
-      "quantity": "½ cup"
+      "name": "cilantro, loosely packed",
+      "quantity": "½ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 228,
-      "name": "limes, juiced",
-      "quantity": "2 small"
+      "name": "limes",
+      "quantity": "2 small",
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -71,6 +74,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the red onion. Finely chop the cilantro. Juice the limes.",
+      "secondary_message": "1 small red onion\n½ cup cilantro, loosely packed\n2 small limes"
+    },
     {
       "id": 1,
       "primary_message": "Light one chimney full of charcoal. When all charcoal is lit and covered with gray ash, pour out and spread the coals evenly over entire surface of coal grate. Alternatively, set all the burners of a gas grill to high heat. Set cooking grate in place, cover grill, and allow to preheat for 5 minutes. Clean and oil the grilling grate. Place the pineapple slices, bell pepper, and jalapeño on the grill.",

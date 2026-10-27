@@ -38,18 +38,21 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, split in half",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "split in half"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, roughly chopped",
-      "quantity": "1 large"
+      "name": "carrot",
+      "quantity": "1 large",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, roughly chopped",
-      "quantity": "3 stalks"
+      "name": "celery",
+      "quantity": "3 stalks",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 309,
@@ -58,8 +61,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 1990,
@@ -98,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the yellow onion in half. Roughly chop the carrot. Roughly chop the celery. Smash the garlic.",
+      "secondary_message": "1 medium yellow onion\n1 large carrot\n3 stalks celery\n3 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Combine all ingredients in a large stockpot and cover with water by 1 1/2 inches. Bring to a boil, reduce to a bare simmer, and cook, stirring occasionally, until vegetables are completely tender and stock is aromatic and flavorful, about 40 minutes. Remove mushrooms with tongs and set aside for another use. Strain stock through a fine-mesh strainer. Discard solids. Allow stock to cool uncovered at room temperature for 1 hour. Cover and transfer to refrigerator until completely chilled. Refrigerated stock will keep for about 1 week.",

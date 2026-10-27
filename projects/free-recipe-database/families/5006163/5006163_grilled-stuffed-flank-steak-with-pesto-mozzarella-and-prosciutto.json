@@ -51,8 +51,9 @@
   "ingredients": [
     {
       "ingredient_id": 473,
-      "name": "whole flank steak, 2 to 2 1/2 pounds, trimmed of excess fat",
-      "quantity": "1"
+      "name": "whole flank steak, 2 to 2 1/2 pounds",
+      "quantity": "1",
+      "prep": "trimmed of excess fat"
     },
     {
       "ingredient_id": 88,
@@ -91,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the whole flank steak of excess fat.",
+      "secondary_message": "1 whole flank steak, 2 to 2 1/2 pounds"
+    },
     {
       "id": 1,
       "primary_message": "Lay steak on a cutting board with grain running parallel to the edge of the counter. Trim left and right edges to form a clean rectangle and reserve scraps for another use. Hold steak flat with your non-knife hand and, with a sharp boning knife, carefully butterfly the steak, leaving the back edge attached by 1/2- to 1/4-inch of meat. Open up steak and flatten the seam gently with your hand to form a large perfect rectangle.",

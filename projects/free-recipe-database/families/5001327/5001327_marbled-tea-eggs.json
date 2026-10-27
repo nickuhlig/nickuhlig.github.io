@@ -81,13 +81,15 @@
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, cut into 1/4-inch segments",
-      "quantity": "1 (3 inch) piece"
+      "name": "ginger",
+      "quantity": "1 (3 inch) piece",
+      "prep": "cut into 1/4-inch segments"
     },
     {
       "ingredient_id": 1815,
-      "name": "galangal, cut into 1/4-inch segments",
-      "quantity": "1 (3 inch) piece"
+      "name": "galangal",
+      "quantity": "1 (3 inch) piece",
+      "prep": "cut into 1/4-inch segments"
     },
     {
       "ingredient_id": 1566,
@@ -121,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the ginger into 1/4-inch segments. Cut the galangal into 1/4-inch segments.",
+      "secondary_message": "1 (3 inch) piece ginger\n1 (3 inch) piece galangal"
+    },
     {
       "id": 1,
       "primary_message": "In a medium pot, combine light soy sauce, dark soy sauce, water, brown sugar, ginger, galangal, fennel seeds, cloves, star anise, and cassia bark. Bring to a boil over medium-high heat, stirring occasionally to dissolve sugar. Reduce heat to low and simmer until deeply infused with the fragrance of the spices and aromatics, about 20 minutes.",

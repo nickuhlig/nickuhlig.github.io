@@ -44,8 +44,9 @@
   "ingredients": [
     {
       "ingredient_id": 1811,
-      "name": "shrimp, medium, shelled and deveined",
-      "quantity": "½ lb"
+      "name": "shrimp, medium",
+      "quantity": "½ lb",
+      "prep": "shelled and deveined"
     },
     {
       "ingredient_id": 90,
@@ -79,18 +80,21 @@
     },
     {
       "ingredient_id": 1850,
-      "name": "green chile, chopped fine",
-      "quantity": "1 small"
+      "name": "green chile",
+      "quantity": "1 small",
+      "prep": "chopped fine"
     },
     {
       "ingredient_id": 1897,
-      "name": "potato, boiled and mashed",
-      "quantity": "1 medium"
+      "name": "potato",
+      "quantity": "1 medium",
+      "prep": "boiled and mashed"
     },
     {
       "ingredient_id": 191,
-      "name": "bread, dipped in water and squeezed dry",
-      "quantity": "1 slice"
+      "name": "bread",
+      "quantity": "1 slice",
+      "prep": "dipped in water and squeezed dry"
     },
     {
       "ingredient_id": 88,
@@ -109,8 +113,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 1044,
@@ -119,6 +124,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shell and devein the shrimp. Chop the green chile fine. Boil and mash the potato. Dip the bread in water, then squeeze it dry. Beat the egg.",
+      "secondary_message": "½ lb shrimp, medium\n1 small green chile\n1 medium potato\n1 slice bread\n1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "Place shrimp in a food processor and pulse until finely chopped, about 10 short pulses. Alternatively, chop finely by hand. Transfer to a large bowl. Add turmeric, black pepper, cumin, coriander, red chili, cilantro, green chili, potato, bread, salt, Worcestershire sauce, vinegar, and egg. Mix with hands until well mixed. Transfer to refrigerator and allow the mixture to rest for about ten minutes.",

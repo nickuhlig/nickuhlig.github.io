@@ -56,8 +56,9 @@
   "ingredients": [
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "8 large"
+      "name": "eggs",
+      "quantity": "8 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 88,
@@ -66,8 +67,9 @@
     },
     {
       "ingredient_id": 1541,
-      "name": "plum tomatoes, diced",
-      "quantity": "2"
+      "name": "plum tomatoes",
+      "quantity": "2",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1044,
@@ -81,18 +83,21 @@
     },
     {
       "ingredient_id": 2066,
-      "name": "Poblano pepper, stemmed, seeded, and finely chopped",
-      "quantity": "1 medium"
+      "name": "Poblano pepper",
+      "quantity": "1 medium",
+      "prep": "stemmed, seeded, and finely chopped"
     },
     {
       "ingredient_id": 1799,
-      "name": "serrano chiles, stemmed and finely chopped",
-      "quantity": "2"
+      "name": "serrano chiles",
+      "quantity": "2",
+      "prep": "stemmed and finely chopped"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 72,
@@ -101,6 +106,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Beat the eggs. Dice the plum tomatoes. Stem, seed, and finely chop the Poblano pepper. Stem and finely chop the serrano chiles. Finely chop the yellow onion.",
+      "secondary_message": "8 large eggs\n2 plum tomatoes\n1 medium Poblano pepper\n2 serrano chiles\n1 medium yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, whisk eggs with 2 generous pinches of salt and set aside. In a medium bowl, toss tomato with a generous pinch of salt, then transfer tomatoes to a strainer and set over bowl to drain.",

@@ -72,18 +72,21 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, diced",
-      "quantity": "1 large"
+      "name": "yellow onion",
+      "quantity": "1 large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and diced",
-      "quantity": "2 medium"
+      "name": "carrots",
+      "quantity": "2 medium",
+      "prep": "peeled and diced"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, diced",
-      "quantity": "2 ribs"
+      "name": "celery",
+      "quantity": "2 ribs",
+      "prep": "diced"
     },
     {
       "ingredient_id": 323,
@@ -127,6 +130,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the yellow onion. Peel and dice the carrots. Dice the celery.",
+      "secondary_message": "1 large yellow onion\n2 medium carrots\n2 ribs celery"
+    },
     {
       "id": 1,
       "primary_message": "Using kitchen shears, trim excess skin from the goose's neck. Use shears or fingers to remove bundles of pale, lumpy fat from the cavity. Reserve 3 tablespoons solid fat, plus an additional 1/3 cup if making prune and apple stuffing. Pat reserved fat dry, chill, then mince.",

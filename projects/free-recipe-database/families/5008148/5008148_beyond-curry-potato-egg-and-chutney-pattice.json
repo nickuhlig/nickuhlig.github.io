@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 1897,
-      "name": "potatoes, boiled, mashed, and cooled",
-      "quantity": "4 medium"
+      "name": "potatoes",
+      "quantity": "4 medium",
+      "prep": "boiled, mashed, and cooled"
     },
     {
       "ingredient_id": 188,
@@ -75,8 +76,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "hard-boiled eggs, cut lengthwise into quarters",
-      "quantity": "3"
+      "name": "hard-boiled eggs",
+      "quantity": "3",
+      "prep": "cut lengthwise into quarters"
     },
     {
       "ingredient_id": 1044,
@@ -85,11 +87,18 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten",
-      "quantity": "1"
+      "name": "egg",
+      "quantity": "1",
+      "prep": "beaten"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Boil and mash the potatoes and let them cool. Cut the hard-boiled eggs lengthwise into quarters. Beat the egg.",
+      "secondary_message": "4 medium potatoes\n3 hard-boiled eggs\n1 egg"
+    },
     {
       "id": 1,
       "primary_message": "Use a tablepoon measure to make 12 balls of mashed potato. Knead each ball in your hands until smooth and form into a hollow cup.",

@@ -47,18 +47,21 @@
     },
     {
       "ingredient_id": 1958,
-      "name": "pork belly, cut into 1-inch cubes",
-      "quantity": "½ lb"
+      "name": "pork belly",
+      "quantity": "½ lb",
+      "prep": "cut into 1-inch cubes"
     },
     {
       "ingredient_id": 260,
-      "name": "tomatoes, chopped",
-      "quantity": "2 medium"
+      "name": "tomatoes",
+      "quantity": "2 medium",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, chopped",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 346,
@@ -102,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the pork belly into 1-inch cubes. Chop the tomatoes. Chop the onion.",
+      "secondary_message": "½ lb pork belly\n2 medium tomatoes\n1 large onion"
+    },
     {
       "id": 1,
       "primary_message": "Place beans in a large bowl and add 2 tablespoons salt. Cover with cold water by 6 inches and allow to sit at room temperature overnight. If using a pressure cooker, this step can be skipped.",

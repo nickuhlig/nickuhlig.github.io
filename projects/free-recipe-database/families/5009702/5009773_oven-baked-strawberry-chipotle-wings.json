@@ -46,8 +46,9 @@
   "ingredients": [
     {
       "ingredient_id": 1681,
-      "name": "chicken wings, cut into drumettes and flats",
-      "quantity": "0.91 kg"
+      "name": "chicken wings",
+      "quantity": "0.91 kg",
+      "prep": "cut into drumettes and flats"
     },
     {
       "ingredient_id": 331,
@@ -61,8 +62,9 @@
     },
     {
       "ingredient_id": 242,
-      "name": "fresh strawberries, hulled and halved",
-      "quantity": "227 g"
+      "name": "fresh strawberries",
+      "quantity": "227 g",
+      "prep": "hulled and halved"
     },
     {
       "ingredient_id": 3325,
@@ -71,8 +73,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 221,
@@ -86,8 +89,9 @@
     },
     {
       "ingredient_id": 1618,
-      "name": "chipotle chilis, canned in adobo sauce, minced",
-      "quantity": "1 medium"
+      "name": "chipotle chilis, canned in adobo sauce",
+      "quantity": "1 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2747,
@@ -111,8 +115,9 @@
     },
     {
       "ingredient_id": 183,
-      "name": "Hass avocado, halved and pitted",
-      "quantity": "1"
+      "name": "Hass avocado",
+      "quantity": "1",
+      "prep": "halved and pitted"
     },
     {
       "ingredient_id": 1003,
@@ -141,6 +146,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the chicken wings into drumettes and flats. Hull and halve the fresh strawberries. Mince the garlic. Mince the chipotle chilis. Halve and pit the Hass avocado.",
+      "secondary_message": "0.91 kg chicken wings\n227 g fresh strawberries\n2 medium cloves garlic\n1 medium chipotle chilis, canned in adobo sauce\n1 Hass avocado"
+    },
     {
       "id": 1,
       "primary_message": "Spray a rack with nonstick cooking spray and set on a foil-lined rimmed baking sheet. Dry chicken wings with paper towels. In a large zipper-lock bag, toss wings with baking powder and 1 teaspoon salt until evenly coated, then arrange wings on an even layer on the rack. Refrigerate wings, uncovered, overnight or up to 18 hours.",

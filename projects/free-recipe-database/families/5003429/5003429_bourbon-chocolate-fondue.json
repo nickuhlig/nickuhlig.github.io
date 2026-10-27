@@ -40,8 +40,9 @@
     },
     {
       "ingredient_id": 2285,
-      "name": "semisweet chocolate, finely chopped",
-      "quantity": "12 oz"
+      "name": "semisweet chocolate",
+      "quantity": "12 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1782,
@@ -55,6 +56,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the semisweet chocolate.",
+      "secondary_message": "12 oz semisweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "Heat cream in medium saucepan over medium-high heat until just simmering. Reduce heat to low and stir in chocolate until smooth. Stir in bourbon. Serve with desired accompaniments.",

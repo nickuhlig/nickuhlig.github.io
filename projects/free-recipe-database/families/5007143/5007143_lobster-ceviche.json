@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, minced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "minced"
     },
     {
       "ingredient_id": 188,
@@ -71,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the shallot.",
+      "secondary_message": "1 small shallot"
+    },
     {
       "id": 1,
       "primary_message": "Bring a large pot of salted water to a boil. Meanwhile, kill lobster by inserting a large knife into its head and splitting it in half. Tear off claws (with knuckles) and tail by twisting away from lobster body, using a clean kitchen towel to grip. Discard body.",

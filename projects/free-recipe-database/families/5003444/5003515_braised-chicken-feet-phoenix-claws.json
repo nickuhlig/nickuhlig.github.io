@@ -126,8 +126,9 @@
     },
     {
       "ingredient_id": 1850,
-      "name": "long hot pepper, sliced",
-      "quantity": "1"
+      "name": "long hot pepper",
+      "quantity": "1",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 1191,
@@ -136,8 +137,9 @@
     },
     {
       "ingredient_id": 2366,
-      "name": "fermented black beans, rinsed with water and patted dried",
-      "quantity": "2 tbsp"
+      "name": "fermented black beans",
+      "quantity": "2 tbsp",
+      "prep": "rinsed with water and patted dried"
     },
     {
       "ingredient_id": 1935,
@@ -166,6 +168,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the long hot pepper. Rinse the fermented black beans with water, then pat them dried.",
+      "secondary_message": "1 long hot pepper\n2 tbsp fermented black beans"
+    },
     {
       "id": 1,
       "primary_message": "For the Brine: In a 4 quart container, combine 1 cup of boiling water, 6 whole star anise pods, 4 slices of ginger, the cinnamon stick, 6 bay leaves, 6 cloves, and 2 teaspoons of salt. Stir until the salt has dissolve. Set aside.",

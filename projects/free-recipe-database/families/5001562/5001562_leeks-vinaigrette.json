@@ -98,8 +98,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "hard-boiled egg, chopped",
-      "quantity": "1"
+      "name": "hard-boiled egg",
+      "quantity": "1",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 106,
@@ -113,6 +114,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the hard-boiled egg.",
+      "secondary_message": "1 hard-boiled egg"
+    },
     {
       "id": 1,
       "primary_message": "In a 4-quart saucepan, bring water and 1/4 cup salt to a boil over high heat. While water comes to a boil, trim roots from leeks, taking care to leave base intact. Halve leeks lengthwise, stopping 1-inch above the base. Rinse leeks thoroughly under cool running water to remove any dirt between layers. Using kitchen twine, tie both halves of each leek about two-thirds of the way up to hold them together. Line a plate with paper towels or a clean kitchen towel; set aside.",

@@ -81,8 +81,9 @@
     },
     {
       "ingredient_id": 260,
-      "name": "beefsteak tomato, sliced",
-      "quantity": "1 large"
+      "name": "beefsteak tomato",
+      "quantity": "1 large",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 2151,
@@ -91,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the beefsteak tomato.",
+      "secondary_message": "1 large beefsteak tomato"
+    },
     {
       "id": 1,
       "primary_message": "In a large mixing bowl, combine the ground beef, soy sauce, 5 tablespoons of the Sriracha, and the pepper. Do not overmix. Form the mixture into 8 patties, and set aside, on a parchment-lined baking sheet, covered, in the refrigerator.",

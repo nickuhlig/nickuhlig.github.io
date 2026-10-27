@@ -52,8 +52,9 @@
     },
     {
       "ingredient_id": 2784,
-      "name": "cajeta casera, warmed",
-      "quantity": "1 recipe"
+      "name": "cajeta casera",
+      "quantity": "1 recipe",
+      "prep": "warmed"
     },
     {
       "ingredient_id": 2044,
@@ -67,6 +68,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Warm the cajeta casera.",
+      "secondary_message": "1 recipe cajeta casera"
+    },
     {
       "id": 1,
       "primary_message": "Before starting, freeze parfait glasses until frosty. Divide ice cream into as many portions as you prefer, dunking the ice cream scoop in hot water from time to time to ensure a clean release. Drizzle each with a few tablespoons of warm cajeta, then top with a generous dollop of Cajeta Whipped Cream. Sprinkle with salted popcorn or other topping and serve immediately.",

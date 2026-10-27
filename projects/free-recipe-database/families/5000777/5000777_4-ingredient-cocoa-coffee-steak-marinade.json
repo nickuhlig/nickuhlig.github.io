@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 1017,
-      "name": "unsweetened chocolate, finely chopped",
-      "quantity": "½ oz"
+      "name": "unsweetened chocolate",
+      "quantity": "½ oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 293,
@@ -61,6 +62,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the unsweetened chocolate.",
+      "secondary_message": "½ oz unsweetened chocolate"
+    },
     {
       "id": 1,
       "primary_message": "Stir together coffee, chocolate, sugar, salt, and chili powder or cayenne, until chocolate is fully melted and sugar and salt are fully dissolved. Let cool.",

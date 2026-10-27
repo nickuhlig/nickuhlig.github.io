@@ -39,8 +39,9 @@
     },
     {
       "ingredient_id": 1380,
-      "name": "stewing beef, cut into 1/2 inch cubes",
-      "quantity": "113 g"
+      "name": "stewing beef",
+      "quantity": "113 g",
+      "prep": "cut into 1/2 inch cubes"
     },
     {
       "ingredient_id": 1682,
@@ -79,6 +80,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the stewing beef into 1/2 inch cubes.",
+      "secondary_message": "113 g stewing beef"
+    },
     {
       "id": 1,
       "primary_message": "Bring a medium-sized pot of water to boil. Add the whole block of konnyaku or the package of shirataki and parboil for 10 minutes. Drain and discard the water.",

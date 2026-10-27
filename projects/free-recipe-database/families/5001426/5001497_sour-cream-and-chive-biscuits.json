@@ -113,8 +113,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into 1/2-inch cubes",
-      "quantity": "142 g"
+      "name": "cold unsalted butter",
+      "quantity": "142 g",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 270,
@@ -133,11 +134,18 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "beaten"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cold unsalted butter into 1/2-inch cubes. Beat the egg.",
+      "secondary_message": "142 g cold unsalted butter\n1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position, and preheat oven to 220°C (425°F) (220ºC). Line a 13- by 46-cm rimmed baking sheet with parchment paper; set aside.",

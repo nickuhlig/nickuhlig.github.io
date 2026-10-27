@@ -71,8 +71,9 @@
     },
     {
       "ingredient_id": 317,
-      "name": "ripe bananas, peeled and sliced",
-      "quantity": "4 medium"
+      "name": "ripe bananas",
+      "quantity": "4 medium",
+      "prep": "peeled and sliced"
     },
     {
       "ingredient_id": 272,
@@ -86,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and slice the ripe bananas.",
+      "secondary_message": "4 medium ripe bananas"
+    },
     {
       "id": 1,
       "primary_message": "In a medium saucepan, combine water and oats and bring to a simmer over medium-high heat. Continue to cook, stirring occasionally and adjusting heat to maintain simmer, until oats are fully cooked and oatmeal has thickened, about 20 minutes. Season with salt.",

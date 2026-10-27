@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 1541,
-      "name": "roma tomatoes, halved",
-      "quantity": "2"
+      "name": "roma tomatoes",
+      "quantity": "2",
+      "prep": "halved"
     },
     {
       "ingredient_id": 47,
@@ -61,28 +62,33 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely diced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 291,
-      "name": "green bell pepper, finely diced",
-      "quantity": "½"
+      "name": "green bell pepper",
+      "quantity": "½",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, finely diced",
-      "quantity": "1 medium stalk"
+      "name": "celery",
+      "quantity": "1 medium stalk",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 1091,
-      "name": "tasso ham, diced",
-      "quantity": "0.23 kg"
+      "name": "tasso ham",
+      "quantity": "0.23 kg",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 88,
@@ -126,6 +132,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the roma tomatoes. Finely dice the yellow onion. Finely dice the green bell pepper. Finely dice the celery. Dice the tasso ham. Mince the garlic.",
+      "secondary_message": "2 roma tomatoes\n1 medium yellow onion\n½ green bell pepper\n1 medium stalk celery\n0.23 kg tasso ham\n3 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Light one chimney full of charcoal. When all charcoal is lit and covered with gray ash, pour out and spread the coals evenly over entire surface of coal grate. Set cooking grate in place, cover grill and allow to preheat for 5 minutes. Clean and oil the grilling grate. Lightly season chicken thighs with Creole seasoning. Place chicken, sausages, and tomatoes (cut side down) on the grill. Cover and cook, turning chicken and sausage occasionally, until chicken until meat registers 74°C on an instant read thermometer when inserted into thickest part of thigh, about 20 minutes. Cook sausages until nder browned all over, about 10 minutes. Cook tomatoes until they have grill marks and start to blacken, about 5 minutes.",

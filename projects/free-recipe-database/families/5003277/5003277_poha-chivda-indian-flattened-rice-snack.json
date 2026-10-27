@@ -64,8 +64,9 @@
     },
     {
       "ingredient_id": 1762,
-      "name": "fresh green Thai chiles, halved lengthwise",
-      "quantity": "3"
+      "name": "fresh green Thai chiles",
+      "quantity": "3",
+      "prep": "halved lengthwise"
     },
     {
       "ingredient_id": 2152,
@@ -114,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the fresh green Thai chiles lengthwise.",
+      "secondary_message": "3 fresh green Thai chiles"
+    },
     {
       "id": 1,
       "primary_message": "In a cast iron skillet, heat oil over medium heat until shimmering. In quick succession, add mustard, cumin, and fennel seeds, standing back to avoid any splatter, and cook, stirring continuously, until fragrant and the seeds pop, about 30 seconds. Add green chiles, asafoetida, turmeric powder, and curry leaves and continue to cook, stirring continuously, until fragrant, about 1 minute.",

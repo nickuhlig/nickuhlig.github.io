@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, lightly smashed",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "lightly smashed"
     },
     {
       "ingredient_id": 1879,
@@ -92,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly smash the garlic.",
+      "secondary_message": "1 medium clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "In a large pot or Dutch oven, melt 2 tablespoons butter over medium heat with garlic until butter begins to foam. Add spinach a few handfuls at a time, tossing to wilt and adding more spinach as room becomes available, until all the spinach is in the pot. Season lightly with salt, then cook until spinach is fully wilted down and tender, about 5 minutes. Discard garlic and transfer spinach to a large mixing bowl to cool slightly (you should have about 3/4 to 1 pound of cooked spinach).",

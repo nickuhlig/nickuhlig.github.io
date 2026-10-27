@@ -114,8 +114,9 @@
     },
     {
       "ingredient_id": 1135,
-      "name": "crushed pineapple in juice, undrained",
-      "quantity": "2 (227 g) cans"
+      "name": "crushed pineapple in juice",
+      "quantity": "2 (227 g) cans",
+      "prep": "undrained"
     },
     {
       "ingredient_id": 317,
@@ -154,18 +155,21 @@
     },
     {
       "ingredient_id": 355,
-      "name": "packages cream cheese, at room temperature",
-      "quantity": "0.45 kg"
+      "name": "packages cream cheese",
+      "quantity": "0.45 kg",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "226 g"
+      "name": "unsalted butter",
+      "quantity": "226 g",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 347,
-      "name": "powdered sugar, sifted",
-      "quantity": "400 g"
+      "name": "powdered sugar",
+      "quantity": "400 g",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 2265,
@@ -179,6 +183,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Don't drain the crushed pineapple in juice. Bring the packages cream cheese to room temperature. Bring the unsalted butter to room temperature. Sift the powdered sugar.",
+      "secondary_message": "2 (227 g) cans crushed pineapple in juice\n0.45 kg packages cream cheese\n226 g unsalted butter\n400 g powdered sugar"
+    },
     {
       "id": 1,
       "primary_message": "Prepare the Cakes: Adjust oven rack to middle position and preheat oven to 175°C (350°F) (175ºC). Lightly grease three 20-cm round cake pans with baking spray and line with parchment. Set aside.",

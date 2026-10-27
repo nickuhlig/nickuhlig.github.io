@@ -44,8 +44,9 @@
     },
     {
       "ingredient_id": 2463,
-      "name": "rhubarb, diced",
-      "quantity": "1 lb"
+      "name": "rhubarb",
+      "quantity": "1 lb",
+      "prep": "diced"
     },
     {
       "ingredient_id": 114,
@@ -79,8 +80,9 @@
     },
     {
       "ingredient_id": 1938,
-      "name": "vanilla bean, split",
-      "quantity": "½"
+      "name": "vanilla bean",
+      "quantity": "½",
+      "prep": "split"
     },
     {
       "ingredient_id": 104,
@@ -89,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the rhubarb. Split the vanilla bean.",
+      "secondary_message": "1 lb rhubarb\n½ vanilla bean"
+    },
     {
       "id": 1,
       "primary_message": "Whisk the sugar and pectin in a medium bowl and set aside.",

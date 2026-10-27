@@ -42,8 +42,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, frozen, divided",
-      "quantity": "226 g"
+      "name": "unsalted butter, divided",
+      "quantity": "226 g",
+      "prep": "frozen"
     },
     {
       "ingredient_id": 116,
@@ -82,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the unsalted butter frozen until you use it.",
+      "secondary_message": "226 g unsalted butter, divided"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat the oven to 230°C (450°F) (230ºC).",

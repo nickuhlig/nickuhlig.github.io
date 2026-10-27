@@ -51,13 +51,15 @@
     },
     {
       "ingredient_id": 228,
-      "name": "lime, juiced",
-      "quantity": "1"
+      "name": "lime",
+      "quantity": "1",
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2021,
-      "name": "serrano pepper, sliced",
-      "quantity": "1 (20 g) medium"
+      "name": "serrano pepper",
+      "quantity": "1 (20 g) medium",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 3501,
@@ -66,13 +68,15 @@
     },
     {
       "ingredient_id": 3072,
-      "name": "boiled, peeled, and cubed russet potato",
-      "quantity": "1 cup"
+      "name": "boiled",
+      "quantity": "1 cup",
+      "prep": "peeled, and cubed russet potato"
     },
     {
       "ingredient_id": 92,
-      "name": "chickpeas, drained",
-      "quantity": "1 (434 g) can"
+      "name": "chickpeas",
+      "quantity": "1 (434 g) can",
+      "prep": "drained"
     },
     {
       "ingredient_id": 1852,
@@ -86,8 +90,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, diced",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1279,
@@ -106,6 +111,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime. Slice the serrano pepper. Peel and cube the boiled russet potato. Drain the chickpeas. Dice the onion.",
+      "secondary_message": "1 lime\n1 (20 g) medium serrano pepper\n1 cup boiled\n1 (434 g) can chickpeas\n1 small onion"
+    },
     {
       "id": 1,
       "primary_message": "For the Mint Chutney: Prepare an ice bath. In a pot of salted boiling water, blanch cilantro and mint until they turn bright green, about 20 seconds. Shock herbs in ice bath to stop the cooking, then drain well. Squeeze out any excess liquid from herbs.",

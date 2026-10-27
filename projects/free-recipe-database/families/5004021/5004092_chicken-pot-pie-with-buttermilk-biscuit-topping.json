@@ -88,23 +88,27 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, diced",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, diced",
-      "quantity": "2 large"
+      "name": "carrots",
+      "quantity": "2 large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1720,
-      "name": "celery ribs, diced",
-      "quantity": "2 large"
+      "name": "celery ribs",
+      "quantity": "2 large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, crushed",
-      "quantity": "2 medium"
+      "name": "garlic cloves",
+      "quantity": "2 medium",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 1994,
@@ -133,8 +137,9 @@
     },
     {
       "ingredient_id": 3686,
-      "name": "reserved chicken stock, cooled",
-      "quantity": "¼ cup"
+      "name": "reserved chicken stock",
+      "quantity": "¼ cup",
+      "prep": "cooled"
     },
     {
       "ingredient_id": 115,
@@ -148,18 +153,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, diced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, diced",
-      "quantity": "1 large"
+      "name": "carrot",
+      "quantity": "1 large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1720,
-      "name": "celery rib, diced",
-      "quantity": "1 large"
+      "name": "celery rib",
+      "quantity": "1 large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1008,
@@ -223,16 +231,24 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into 1/2-inch cubes",
-      "quantity": "227 g"
+      "name": "cold unsalted butter",
+      "quantity": "227 g",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 2475,
-      "name": "cultured lowfat buttermilk, straight from the fridge",
-      "quantity": "227 g"
+      "name": "cultured lowfat buttermilk",
+      "quantity": "227 g",
+      "prep": "straight from the fridge"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the onion. Dice the carrots. Dice the celery ribs. Crush the garlic cloves. Cool the reserved chicken stock. Dice the onion. Dice the carrot. Dice the celery rib. Cut the cold unsalted butter into 1/2-inch cubes. Keep the cultured lowfat buttermilk cold until you use it.",
+      "secondary_message": "1 large onion\n2 large carrots\n2 large celery ribs\n2 medium garlic cloves\n¼ cup reserved chicken stock\n1 medium onion\n1 large carrot\n1 large celery rib\n227 g cold unsalted butter\n227 g cultured lowfat buttermilk"
+    },
     {
       "id": 1,
       "primary_message": "For the Chicken: Combine chicken stock, chicken parts, onion, carrots, celery, garlic, thyme, parsley, rosemary, and bay leaf in a 5-quart stainless steel pot or saucier. Cover and place over medium-high heat until stock registers about 66°C on a digital thermometer.",

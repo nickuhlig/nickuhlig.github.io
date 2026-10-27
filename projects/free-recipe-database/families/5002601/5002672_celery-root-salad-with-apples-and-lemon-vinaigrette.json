@@ -42,8 +42,9 @@
   "ingredients": [
     {
       "ingredient_id": 144,
-      "name": "shallot, minced",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2346,
@@ -57,8 +58,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely grated",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 1731,
@@ -98,13 +100,15 @@
     },
     {
       "ingredient_id": 106,
-      "name": "flat-leaf parsley leaves, tender stems roughly chopped",
-      "quantity": "¼ cup"
+      "name": "flat-leaf parsley leaves",
+      "quantity": "¼ cup",
+      "prep": "tender stems roughly chopped"
     },
     {
       "ingredient_id": 272,
-      "name": "walnut halves, toasted",
-      "quantity": "1 cup"
+      "name": "walnut halves",
+      "quantity": "1 cup",
+      "prep": "toasted"
     },
     {
       "ingredient_id": 88,
@@ -118,6 +122,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the shallot. Finely grate the garlic. Roughly chop the tender stems of the flat-leaf parsley leaves. Toast the walnut halves.",
+      "secondary_message": "1 medium shallot\n4 medium cloves garlic\n¼ cup flat-leaf parsley leaves\n1 cup walnut halves"
+    },
     {
       "id": 1,
       "primary_message": "For the Vinaigrette: In a small bowl, combine shallot, lemon zest, lemon juice, garlic, salt, and pepper, and let sit for 10 minutes. Whisk in mustard. Slowly drizzle in olive oil while whisking constantly until emulsified.",

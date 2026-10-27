@@ -57,8 +57,9 @@
   "ingredients": [
     {
       "ingredient_id": 3064,
-      "name": "baby gold potatoes, halved",
-      "quantity": "1 ½ lb"
+      "name": "baby gold potatoes",
+      "quantity": "1 ½ lb",
+      "prep": "halved"
     },
     {
       "ingredient_id": 359,
@@ -87,15 +88,17 @@
     },
     {
       "ingredient_id": 309,
-      "name": "leeks, thinly sliced and rinsed well",
+      "name": "leeks",
       "quantity": "2 ½",
-      "weigh_as": "8 oz"
+      "weigh_as": "8 oz",
+      "prep": "thinly sliced and rinsed well"
     },
     {
       "ingredient_id": 26,
-      "name": "asparagus, trimmed and cut into 1-inch pieces",
+      "name": "asparagus",
       "quantity": "½ bunch",
-      "weigh_as": "8 oz"
+      "weigh_as": "8 oz",
+      "prep": "trimmed and cut into 1-inch pieces"
     },
     {
       "ingredient_id": 1677,
@@ -104,8 +107,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced or grated",
-      "quantity": "1 clove"
+      "name": "garlic",
+      "quantity": "1 clove",
+      "prep": "minced or grated"
     },
     {
       "ingredient_id": 72,
@@ -119,8 +123,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, room temperature",
-      "quantity": "1 oz"
+      "name": "cream cheese",
+      "quantity": "1 oz",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 1752,
@@ -149,6 +154,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the baby gold potatoes. Thinly slice and rinse the leeks well. Trim and cut the asparagus into 1-inch pieces. Mince or grate the garlic. Bring the cream cheese to room temperature.",
+      "secondary_message": "1 ½ lb baby gold potatoes\n2 ½ leeks\n½ bunch asparagus\n1 clove garlic\n1 oz cream cheese"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to bottom position and preheat oven to 425℉ (220℃).",

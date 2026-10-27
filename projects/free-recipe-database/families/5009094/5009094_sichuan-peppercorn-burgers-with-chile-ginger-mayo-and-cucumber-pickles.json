@@ -48,8 +48,9 @@
   "ingredients": [
     {
       "ingredient_id": 1837,
-      "name": "Sichuan peppercorns, shiny black seeds and stems removed",
-      "quantity": "1 tsp"
+      "name": "Sichuan peppercorns",
+      "quantity": "1 tsp",
+      "prep": "shiny black seeds and stems removed"
     },
     {
       "ingredient_id": 1721,
@@ -88,8 +89,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, peeled and grated",
-      "quantity": "1 (2 inch) knob"
+      "name": "fresh ginger",
+      "quantity": "1 (2 inch) knob",
+      "prep": "peeled and grated"
     },
     {
       "ingredient_id": 257,
@@ -113,11 +115,18 @@
     },
     {
       "ingredient_id": 466,
-      "name": "English muffins, split and toasted",
-      "quantity": "4"
+      "name": "English muffins",
+      "quantity": "4",
+      "prep": "split and toasted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the shiny black seeds and stems from the Sichuan peppercorns. Peel and grate the fresh ginger. Split and toast the English muffins.",
+      "secondary_message": "1 tsp Sichuan peppercorns\n1 (2 inch) knob fresh ginger\n4 English muffins"
+    },
     {
       "id": 1,
       "primary_message": "In a medium skillet, toast Sichuan peppercorns, cumin, red pepper flakes, fennel, and anise over high heat until fragrant, about 1 minute. Transfer to a mortar and pestle or spice grinder and grind to a powder. Transfer to a small bowl and stir in brown sugar until thoroughly combined.",

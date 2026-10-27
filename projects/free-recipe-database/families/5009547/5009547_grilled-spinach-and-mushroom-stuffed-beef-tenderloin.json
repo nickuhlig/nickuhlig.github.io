@@ -53,8 +53,9 @@
     },
     {
       "ingredient_id": 19,
-      "name": "button mushrooms, cleaned and cut into 1/2-inch sliced",
-      "quantity": "10 oz"
+      "name": "button mushrooms",
+      "quantity": "10 oz",
+      "prep": "cleaned and cut into 1/2-inch sliced"
     },
     {
       "ingredient_id": 1191,
@@ -68,8 +69,9 @@
     },
     {
       "ingredient_id": 449,
-      "name": "frozen chopped spinach, thawed and squeezed dry",
-      "quantity": "10 oz"
+      "name": "frozen chopped spinach",
+      "quantity": "10 oz",
+      "prep": "thawed and squeezed dry"
     },
     {
       "ingredient_id": 88,
@@ -83,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Clean and cut the button mushrooms into 1/2-inch sliced. Thaw and squeeze the frozen chopped spinach dry.",
+      "secondary_message": "10 oz button mushrooms\n10 oz frozen chopped spinach"
+    },
     {
       "id": 1,
       "primary_message": "To make the filling: Melt butter in a 12-inch skillet over medium-high heat until foaming subsides. Add in shallots and cook, stirring occasionally, until softened, about 5 minutes. Add in mushrooms and cook, stirring occasionally, until well browned, about 7 minutes. Stir in garlic and crushed red pepper and cook until fragrant, about 30 seconds. Add spinach and cook until warmed through, about 2 minutes. Remove from heat and season with salt and pepper to taste.",

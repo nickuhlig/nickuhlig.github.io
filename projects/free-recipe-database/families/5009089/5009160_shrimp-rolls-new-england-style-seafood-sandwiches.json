@@ -47,8 +47,9 @@
   "ingredients": [
     {
       "ingredient_id": 1811,
-      "name": "shrimp, shelled and deveined",
-      "quantity": "0.56 kg"
+      "name": "shrimp",
+      "quantity": "0.56 kg",
+      "prep": "shelled and deveined"
     },
     {
       "ingredient_id": 88,
@@ -62,8 +63,9 @@
     },
     {
       "ingredient_id": 157,
-      "name": "celery, finely diced",
-      "quantity": "1 rib"
+      "name": "celery",
+      "quantity": "1 rib",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 270,
@@ -92,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shell and devein the shrimp. Finely dice the celery.",
+      "secondary_message": "0.56 kg shrimp\n1 rib celery"
+    },
     {
       "id": 1,
       "primary_message": "If marinating the shrimp first (see notes), toss shrimp with 1 tablespoon salt and the baking soda in a medium bowl until evenly coated. Refrigerate for 15 to 30 minutes. If not marinating, proceed to step 2.",

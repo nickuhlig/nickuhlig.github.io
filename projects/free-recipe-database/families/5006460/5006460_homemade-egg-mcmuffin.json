@@ -46,13 +46,15 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened, divided",
-      "quantity": "1 tbsp"
+      "name": "unsalted butter, divided",
+      "quantity": "1 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 466,
-      "name": "good-quality English muffin, split",
-      "quantity": "1"
+      "name": "good-quality English muffin",
+      "quantity": "1",
+      "prep": "split"
     },
     {
       "ingredient_id": 1401,
@@ -86,6 +88,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter. Split the good-quality English muffin.",
+      "secondary_message": "1 tbsp unsalted butter, divided\n1 good-quality English muffin"
+    },
     {
       "id": 1,
       "primary_message": "Spread 1 teaspoon butter on each half of the English muffin and place halves in a 10-inch nonstick or cast iron skillet over medium heat. Cook, swirling muffin halves and pressing gently to get good contact with pan, until both pieces are well browned, about 5 minutes. Transfer to a sheet of aluminum foil, split side up.",

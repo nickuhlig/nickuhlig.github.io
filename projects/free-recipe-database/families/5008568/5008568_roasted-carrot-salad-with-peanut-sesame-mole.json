@@ -76,9 +76,10 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, small, unpeeled",
+      "name": "carrots, small",
       "quantity": "7 medium",
-      "weigh_as": "1 lb"
+      "weigh_as": "1 lb",
+      "prep": "unpeeled"
     },
     {
       "ingredient_id": 47,
@@ -87,8 +88,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1044,
@@ -97,13 +99,15 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, sliced, divided",
-      "quantity": "½ small"
+      "name": "white onion, divided",
+      "quantity": "½ small",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "minced"
     },
     {
       "ingredient_id": 181,
@@ -162,8 +166,9 @@
     },
     {
       "ingredient_id": 343,
-      "name": "radishes, thinly sliced",
-      "quantity": "4"
+      "name": "radishes",
+      "quantity": "4",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1760,
@@ -187,6 +192,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Leave the carrots unpeeled. Mince the garlic. Slice the white onion. Mince the garlic. Thinly slice the radishes.",
+      "secondary_message": "7 medium carrots, small\n1 medium clove garlic\n½ small white onion, divided\n1 medium clove garlic\n4 radishes"
+    },
     {
       "id": 1,
       "primary_message": "Make the Spice Blend: Adjust oven rack to center position and preheat oven to 375°F. Combine chile powder, cumin, paprika, black pepper, coriander, and salt. Set aside.",

@@ -43,8 +43,9 @@
     },
     {
       "ingredient_id": 2727,
-      "name": "watermelon, cut into 6 1-inch planks",
-      "quantity": "⅛ large"
+      "name": "watermelon",
+      "quantity": "⅛ large",
+      "prep": "cut into 6 1-inch planks"
     },
     {
       "ingredient_id": 139,
@@ -73,6 +74,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the watermelon into 6 1-inch planks.",
+      "secondary_message": "⅛ large watermelon"
+    },
     {
       "id": 1,
       "primary_message": "Make a balsamic syrup by pouring the vinegar and honey into a small saucepan and simmering over medium heat just long enough for it to reduce and have a thick, running consistency—about 5 minutes. Set aside, as it will thicken further as it cools.",

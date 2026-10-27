@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, cut into thick slices",
-      "quantity": "1 small"
+      "name": "red onion",
+      "quantity": "1 small",
+      "prep": "cut into thick slices"
     },
     {
       "ingredient_id": 287,
@@ -75,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the red onion into thick slices.",
+      "secondary_message": "1 small red onion"
+    },
     {
       "id": 1,
       "primary_message": "If using, place Poblano pepper directly over the flame of a gas burner, turning with tongs until well charred on all surfaces. Alternatively, place on a foil-lined rimmed baking sheet directly under a preheated broiler and broil, turning occasionally, until charred on all sides, about 8 minutes. Wrap charred pepper in foil to trap steam, and set aside. When cool enough to handle, carefully remove skin from pepper (it should slip right off). Remove and discard stems and seeds. Cut into strips.",

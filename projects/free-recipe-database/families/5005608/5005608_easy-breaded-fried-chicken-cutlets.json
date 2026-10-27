@@ -49,13 +49,15 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 119,
-      "name": "panko bread crumbs, roughly crushed by hand if large",
-      "quantity": "1 cup"
+      "name": "panko bread crumbs",
+      "quantity": "1 cup",
+      "prep": "roughly crushed by hand if large"
     },
     {
       "ingredient_id": 120,
@@ -84,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Beat the eggs. Roughly crush the panko bread crumbs by hand if large.",
+      "secondary_message": "3 large eggs\n1 cup panko bread crumbs"
+    },
     {
       "id": 1,
       "primary_message": "Set 3 wide, shallow bowls on a work surface. Add flour to the first one, beaten eggs to the second, and panko and Parmesan cheese to the third. Mix panko and Parmesan thoroughly.",

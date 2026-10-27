@@ -63,8 +63,9 @@
     },
     {
       "ingredient_id": 1938,
-      "name": "vanilla bean, split and scraped",
-      "quantity": "1"
+      "name": "vanilla bean",
+      "quantity": "1",
+      "prep": "split and scraped"
     },
     {
       "ingredient_id": 115,
@@ -73,8 +74,9 @@
     },
     {
       "ingredient_id": 2742,
-      "name": "milk chocolate, chopped",
-      "quantity": "1 ¾ oz"
+      "name": "milk chocolate",
+      "quantity": "1 ¾ oz",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2720,
@@ -83,8 +85,9 @@
     },
     {
       "ingredient_id": 2472,
-      "name": "cream, cold",
-      "quantity": "½ oz"
+      "name": "cream",
+      "quantity": "½ oz",
+      "prep": "cold"
     },
     {
       "ingredient_id": 293,
@@ -113,11 +116,18 @@
     },
     {
       "ingredient_id": 1729,
-      "name": "dark chocolate, chopped into small pieces",
-      "quantity": "1 ¾ oz"
+      "name": "dark chocolate",
+      "quantity": "1 ¾ oz",
+      "prep": "chopped into small pieces"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split and scrape the vanilla bean. Chop the milk chocolate. Keep the cream cold until you use it. Chop the dark chocolate into small pieces.",
+      "secondary_message": "1 vanilla bean\n1 ¾ oz milk chocolate\n½ oz cream\n1 ¾ oz dark chocolate"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 350°F and have two parchment-lined cookie sheets at the ready. Sift together the flour and cornstarch. Set aside.",

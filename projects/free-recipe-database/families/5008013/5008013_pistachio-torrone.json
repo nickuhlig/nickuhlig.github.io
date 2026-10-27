@@ -60,8 +60,9 @@
   "ingredients": [
     {
       "ingredient_id": 2523,
-      "name": "Edible wafer paper, cut into four 8- by 11-inch sheets",
-      "quantity": ""
+      "name": "Edible wafer paper",
+      "quantity": "",
+      "prep": "cut into four 8- by 11-inch sheets"
     },
     {
       "ingredient_id": 3642,
@@ -110,6 +111,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the Edible wafer paper into four 8- by 11-inch sheets.",
+      "secondary_message": "Edible wafer paper"
+    },
     {
       "id": 1,
       "primary_message": "Line a half sheet-sized baking pan with parchment paper, then place two of the 8- by 11-inch pieces of wafer paper on top, without overlapping. Set aside. Pour egg whites into bowl of electric mixer fitted with the paddle attachment; set aside. Measure out confectioners' sugar, salt, and optional flavoring, and set each aside. Preheat oven to 350°F.",

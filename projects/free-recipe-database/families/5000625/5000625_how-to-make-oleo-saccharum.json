@@ -30,8 +30,9 @@
   "ingredients": [
     {
       "ingredient_id": 192,
-      "name": "lemons, peel only, trimmed of excess white pith",
-      "quantity": "4"
+      "name": "lemons, peel only",
+      "quantity": "4",
+      "prep": "trimmed of excess white pith"
     },
     {
       "ingredient_id": 346,
@@ -40,6 +41,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the lemons of excess white pith.",
+      "secondary_message": "4 lemons, peel only"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl or mortar and pestle, muddle lemon rinds with sugar until lemon oils begin to be expelled.",

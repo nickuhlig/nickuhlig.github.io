@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "5 large"
+      "name": "eggs",
+      "quantity": "5 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 116,
@@ -105,6 +106,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the eggs to room temperature.",
+      "secondary_message": "5 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "First make the cake: Heat the butter in a heavy-bottomed and preferably light-colored saucepan over low heat, stirring occasionally, until melted. Continue cooking, stirring frequently, until foaming subsides and butter starts to smell nutty and milk solids are a deep golden brown, about 5 minutes.",

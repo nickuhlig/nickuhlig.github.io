@@ -36,8 +36,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, finely diced",
-      "quantity": "2"
+      "name": "shallots",
+      "quantity": "2",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 106,
@@ -56,8 +57,9 @@
     },
     {
       "ingredient_id": 72,
-      "name": "Black pepper, freshly ground",
-      "quantity": ""
+      "name": "Black pepper",
+      "quantity": "",
+      "prep": "freshly ground"
     },
     {
       "ingredient_id": 88,
@@ -81,8 +83,9 @@
     },
     {
       "ingredient_id": 2286,
-      "name": "skirt steak, trimmed to 4 wide steaks",
-      "quantity": "0.68 kg"
+      "name": "skirt steak",
+      "quantity": "0.68 kg",
+      "prep": "trimmed to 4 wide steaks"
     },
     {
       "ingredient_id": 33,
@@ -91,12 +94,19 @@
     },
     {
       "ingredient_id": 19,
-      "name": "white button mushrooms, cleaned and thinly sliced",
+      "name": "white button mushrooms",
       "quantity": "0.11 kg",
-      "weigh_as": "4 large"
+      "weigh_as": "4 large",
+      "prep": "cleaned and thinly sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the shallots. Freshly grind the Black pepper. Trim the skirt steak to 4 wide steaks. Clean and thinly slice the white button mushrooms.",
+      "secondary_message": "2 shallots\nBlack pepper\n0.68 kg skirt steak\n0.11 kg white button mushrooms"
+    },
     {
       "id": 1,
       "primary_message": "In a small saucepan, combine red wine, shallots, parsley, and thyme. Bring to a simmer over medium-high heat, and cook until reduced by half. Turn off the heat and discard parsley and thyme sprigs. Add cracked pepper and season with salt to taste. Whisk in red wine vinegar and olive oil, and set aside.",

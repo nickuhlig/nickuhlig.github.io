@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 2637,
-      "name": "chanterelle mushrooms, cleaned and trimmed, trimmings reserved",
-      "quantity": "1 lb"
+      "name": "chanterelle mushrooms",
+      "quantity": "1 lb",
+      "prep": "cleaned and trimmed, trimmings reserved"
     },
     {
       "ingredient_id": 1505,
@@ -55,8 +56,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, thinly sliced",
-      "quantity": "1 ½ medium"
+      "name": "shallots",
+      "quantity": "1 ½ medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 144,
@@ -65,8 +67,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2529,
@@ -110,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Clean and trim the chanterelle mushrooms, then reserve the trimmings. Thinly slice the shallots. Thinly slice the garlic.",
+      "secondary_message": "1 lb chanterelle mushrooms\n1 ½ medium shallots\n3 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Set 1/2 cup mushrooms aside for garnish. Place mushroom trimming in a medium saucepan. Add chicken stock and bring to a boil. Reduce to a sub-simmer and keep warm.",

@@ -54,8 +54,9 @@
     },
     {
       "ingredient_id": 161,
-      "name": "chicken drumsticks, patted dry with paper towels",
-      "quantity": "8"
+      "name": "chicken drumsticks",
+      "quantity": "8",
+      "prep": "patted dry with paper towels"
     },
     {
       "ingredient_id": 88,
@@ -69,13 +70,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "14 medium"
+      "name": "garlic cloves",
+      "quantity": "14 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, thinly sliced",
-      "quantity": "½ medium"
+      "name": "white onion",
+      "quantity": "½ medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1961,
@@ -94,8 +97,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, quartered",
-      "quantity": "4 (7 ½ cm) knobs"
+      "name": "fresh ginger",
+      "quantity": "4 (7 ½ cm) knobs",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 2025,
@@ -114,11 +118,18 @@
     },
     {
       "ingredient_id": 1879,
-      "name": "fresh spinach, rinsed",
-      "quantity": "225 g"
+      "name": "fresh spinach",
+      "quantity": "225 g",
+      "prep": "rinsed"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pat the chicken drumsticks dry with paper towels. Mince the garlic cloves. Thinly slice the white onion. Quarter the fresh ginger. Rinse the fresh spinach.",
+      "secondary_message": "8 chicken drumsticks\n14 medium garlic cloves\n½ medium white onion\n4 (7 ½ cm) knobs fresh ginger\n225 g fresh spinach"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to top position and preheat to 190°C (375°F). Spread coconut on a rimmed baking sheet. Bake, shaking pan occasionally, until golden brown, about 10 minutes. Transfer toasted coconut to a small bowl; set aside.",

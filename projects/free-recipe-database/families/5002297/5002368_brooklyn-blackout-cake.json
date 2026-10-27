@@ -98,13 +98,15 @@
     },
     {
       "ingredient_id": 1017,
-      "name": "unsweetened chocolate, finely chopped",
-      "quantity": "113 g"
+      "name": "unsweetened chocolate",
+      "quantity": "113 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 4 pieces, chilled",
-      "quantity": "1 tbsp"
+      "name": "unsalted butter",
+      "quantity": "1 tbsp",
+      "prep": "cut into 4 pieces, chilled"
     },
     {
       "ingredient_id": 353,
@@ -158,8 +160,9 @@
     },
     {
       "ingredient_id": 1003,
-      "name": "sour cream, room temperature",
-      "quantity": "¾ cup"
+      "name": "sour cream",
+      "quantity": "¾ cup",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 359,
@@ -188,6 +191,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the unsweetened chocolate. Cut the unsalted butter into 4 pieces and keep it cold until you use it. Bring the sour cream to room temperature.",
+      "secondary_message": "113 g unsweetened chocolate\n1 tbsp unsalted butter\n¾ cup sour cream"
+    },
     {
       "id": 1,
       "primary_message": "For the Pudding: Set a fine-mesh strainer over a large bowl and set aside. In a large saucepan, whisk together sugar, cornstarch, cocoa powder, and salt until well combined. Gradually whisk in milk and cream until smooth. Set saucepan over medium heat and cook, whisking constantly and scraping the bottom and sides of the pan, until mixture thickens and begins to gently bubble, about 5 to 7 minutes. Once bubbling, continue to cook while whisking until cornstarch is fully cooked and no raw, starchy flavor remains, about 30 seconds. Remove saucepan from heat. Immediately add unsweetened chocolate and butter and whisk until chocolate is completely melted and smooth.",

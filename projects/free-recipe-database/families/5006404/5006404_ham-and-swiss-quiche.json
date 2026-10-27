@@ -62,13 +62,15 @@
     },
     {
       "ingredient_id": 1763,
-      "name": "ham steak, cut into 1/2 inch cubes",
-      "quantity": "½ lb"
+      "name": "ham steak",
+      "quantity": "½ lb",
+      "prep": "cut into 1/2 inch cubes"
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 118,
@@ -102,6 +104,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the ham steak into 1/2 inch cubes. Beat the eggs.",
+      "secondary_message": "½ lb ham steak\n4 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven to middle position and preheat to 350°F. Roll out pie dough and carefully fit into pie dish. Trim edges and refrigerate until ready to fill.",

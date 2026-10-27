@@ -51,9 +51,10 @@
     },
     {
       "ingredient_id": 221,
-      "name": "peeled fresh ginger knob, roughly chopped",
+      "name": "peeled fresh ginger knob",
       "quantity": "4 (1 inch) pieces",
-      "weigh_as": "43 g"
+      "weigh_as": "43 g",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 24,
@@ -62,8 +63,9 @@
     },
     {
       "ingredient_id": 1993,
-      "name": "Scotch bonnet pepper, stems removed",
-      "quantity": "1"
+      "name": "Scotch bonnet pepper",
+      "quantity": "1",
+      "prep": "stems removed"
     },
     {
       "ingredient_id": 1044,
@@ -117,8 +119,9 @@
     },
     {
       "ingredient_id": 228,
-      "name": "limes, halved",
-      "quantity": "4"
+      "name": "limes",
+      "quantity": "4",
+      "prep": "halved"
     },
     {
       "ingredient_id": 273,
@@ -137,6 +140,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the peeled fresh ginger knob. Remove the stems from the Scotch bonnet pepper. Halve the limes.",
+      "secondary_message": "4 (1 inch) pieces peeled fresh ginger knob\n1 Scotch bonnet pepper\n4 limes"
+    },
     {
       "id": 1,
       "primary_message": "In a blender or food processor, combine scallions, ginger, garlic, Scotch bonnet, oil, soy sauce, brown sugar, thyme, cane vinegar, salt, paprika, turmeric, and black pepper and pulse, scraping down sides as necessary, until a paste forms.",

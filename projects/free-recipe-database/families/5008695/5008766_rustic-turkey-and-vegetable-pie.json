@@ -52,23 +52,27 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, peeled and sliced",
-      "quantity": "1 large"
+      "name": "carrot",
+      "quantity": "1 large",
+      "prep": "peeled and sliced"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, sliced",
-      "quantity": "3 stalks"
+      "name": "celery",
+      "quantity": "3 stalks",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, sliced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely sliced",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 88,
@@ -87,8 +91,9 @@
     },
     {
       "ingredient_id": 230,
-      "name": "cremini mushrooms, sliced",
-      "quantity": "227 to 255 g"
+      "name": "cremini mushrooms",
+      "quantity": "227 to 255 g",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 116,
@@ -112,13 +117,15 @@
     },
     {
       "ingredient_id": 287,
-      "name": "thyme stems, stripped",
-      "quantity": "4"
+      "name": "thyme stems",
+      "quantity": "4",
+      "prep": "stripped"
     },
     {
       "ingredient_id": 1021,
-      "name": "frozen puff pastry, thawed but cold",
-      "quantity": "1 sheet"
+      "name": "frozen puff pastry",
+      "quantity": "1 sheet",
+      "prep": "thawed but cold"
     },
     {
       "ingredient_id": 118,
@@ -127,6 +134,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and slice the carrot. Slice the celery. Slice the yellow onion. Finely slice the garlic. Slice the cremini mushrooms. Strip the thyme stems. Thaw the frozen puff pastry but cold.",
+      "secondary_message": "1 large carrot\n3 stalks celery\n1 medium yellow onion\n2 cloves garlic\n227 to 255 g cremini mushrooms\n4 thyme stems\n1 sheet frozen puff pastry"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat the oven to 205°C (400°F). Heat 1 tablespoon olive oil in a large sauté pan over medium-high heat until shimmering. Add carrots, celery, onions, and garlic. Season with salt and pepper. Cook, stirring occasionally, until vegetables are softened but not browned, about 6 minutes total. Transfer to a bowl and set aside.",

@@ -58,28 +58,33 @@
   "ingredients": [
     {
       "ingredient_id": 1230,
-      "name": "chicken, cut into 8 pieces",
-      "quantity": "1.8 kg"
+      "name": "chicken",
+      "quantity": "1.8 kg",
+      "prep": "cut into 8 pieces"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, peeled and quartered",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "peeled and quartered"
     },
     {
       "ingredient_id": 291,
-      "name": "green bell pepper, stemmed, seeded, and quartered",
-      "quantity": "1 medium"
+      "name": "green bell pepper",
+      "quantity": "1 medium",
+      "prep": "stemmed, seeded, and quartered"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, peeled and smashed",
-      "quantity": "5 medium"
+      "name": "garlic cloves",
+      "quantity": "5 medium",
+      "prep": "peeled and smashed"
     },
     {
       "ingredient_id": 232,
-      "name": "sour orange, split in half",
-      "quantity": "1"
+      "name": "sour orange",
+      "quantity": "1",
+      "prep": "split in half"
     },
     {
       "ingredient_id": 2685,
@@ -108,18 +113,21 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, coarsely chopped",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 291,
-      "name": "stemmed and seeded medium green bell pepper, coarsely chopped",
-      "quantity": "½"
+      "name": "stemmed and seeded medium green bell pepper",
+      "quantity": "½",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, peeled",
-      "quantity": "4 medium"
+      "name": "garlic cloves",
+      "quantity": "4 medium",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 1984,
@@ -143,13 +151,15 @@
     },
     {
       "ingredient_id": 2685,
-      "name": "culantro, finely chopped",
-      "quantity": "½ cup"
+      "name": "culantro",
+      "quantity": "½ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 243,
-      "name": "fresh mint leaves, finely chopped",
-      "quantity": "¼ cup"
+      "name": "fresh mint leaves",
+      "quantity": "¼ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1468,
@@ -163,6 +173,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the chicken into 8 pieces. Peel and quarter the yellow onion. Stem, seed, and quarter the green bell pepper. Peel and smash the garlic cloves. Split the sour orange in half. Coarsely chop the yellow onion. Coarsely chop the stemmed and seeded medium green bell pepper. Peel the garlic cloves. Finely chop the culantro. Finely chop the fresh mint leaves.",
+      "secondary_message": "1.8 kg chicken\n1 medium yellow onion\n1 medium green bell pepper\n5 medium garlic cloves\n1 sour orange\n1 medium yellow onion\n½ stemmed and seeded medium green bell pepper\n4 medium garlic cloves\n½ cup culantro\n¼ cup fresh mint leaves"
+    },
     {
       "id": 1,
       "primary_message": "For the Chicken Soup: Place chicken pieces and backbone in large Dutch oven or large soup pot. Add onion, pepper, garlic, sour orange, culantro, and mint. Cover with water; stir in salt and black pepper. Bring to a boil over high heat. Reduce heat to medium and simmer, skimming surface occasionally, until chicken is cooked through, about 15 minutes. Using a slotted spoon, transfer chicken pieces to large plate. When cool enough to handle, use paper towels to remove chicken skin; discard. Shred chicken finely. Strain broth into a large bowl. Discard solids and return broth to Dutch oven.",

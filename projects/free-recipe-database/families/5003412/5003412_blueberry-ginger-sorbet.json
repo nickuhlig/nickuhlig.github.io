@@ -33,8 +33,9 @@
   "ingredients": [
     {
       "ingredient_id": 114,
-      "name": "blueberries, washed",
-      "quantity": "4 cups"
+      "name": "blueberries",
+      "quantity": "4 cups",
+      "prep": "washed"
     },
     {
       "ingredient_id": 1330,
@@ -58,6 +59,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash the blueberries.",
+      "secondary_message": "4 cups blueberries"
+    },
     {
       "id": 1,
       "primary_message": "Purée blueberries and ginger in a blender or food processor until smooth. 4 cups whole bluebrries should yield 3 cups of purée. Add sugar and blend for 30 seconds. Add lemon and salt, blend to incorporate, and adjust to taste.",

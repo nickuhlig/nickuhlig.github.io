@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, quartered",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 1808,
@@ -66,8 +67,9 @@
     },
     {
       "ingredient_id": 309,
-      "name": "leeks, thinly sliced",
-      "quantity": "2"
+      "name": "leeks",
+      "quantity": "2",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 116,
@@ -96,16 +98,24 @@
     },
     {
       "ingredient_id": 1021,
-      "name": "frozen puff pastry, thawed",
-      "quantity": "1 lb"
+      "name": "frozen puff pastry",
+      "quantity": "1 lb",
+      "prep": "thawed"
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten",
-      "quantity": "1"
+      "name": "egg",
+      "quantity": "1",
+      "prep": "beaten"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Quarter the onion. Thinly slice the leeks. Thaw the frozen puff pastry. Beat the egg.",
+      "secondary_message": "1 medium onion\n2 leeks\n1 lb frozen puff pastry\n1 egg"
+    },
     {
       "id": 1,
       "primary_message": "In a large pot, combine chicken leg pieces, onion, parsley, 1/2 bunch thyme, and 3 sage leaves, and cover with water. Bring to a simmer over medium-high heat, reduce to low, cover, and cook until chicken is tender and falling off bone, about 1 hour. Remove and reserve chicken pieces, strain cooking liquid and reserve, and discard remaining solids. Return cooking liquid to pot and simmer until reduced to 1 1/2 cups, about 10 minutes. Reserve.",

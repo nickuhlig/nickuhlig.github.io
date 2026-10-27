@@ -64,13 +64,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "½ small"
+      "name": "onion",
+      "quantity": "½ small",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1541,
-      "name": "Roma tomato, finely chopped",
-      "quantity": "1"
+      "name": "Roma tomato",
+      "quantity": "1",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1039,
@@ -84,8 +86,9 @@
     },
     {
       "ingredient_id": 1216,
-      "name": "white bread, crusts removed, roughly torn",
-      "quantity": "2 slices"
+      "name": "white bread",
+      "quantity": "2 slices",
+      "prep": "crusts removed, roughly torn"
     },
     {
       "ingredient_id": 121,
@@ -109,6 +112,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the onion. Finely chop the Roma tomato. Remove the crusts from the white bread, then roughly tear it.",
+      "secondary_message": "½ small onion\n1 Roma tomato\n2 slices white bread"
+    },
     {
       "id": 1,
       "primary_message": "Pick 1/2 cup cilantro leaves and set aside. Combine broth, remaining cilantro stems and leaves, and Worcestershire sauce in a large saucepan and bring to a boil. Season to taste with salt and more Worcestershire sauce. Reduce heat to lowest setting, cover, and keep warm.",

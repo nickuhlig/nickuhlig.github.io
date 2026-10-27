@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 355,
-      "name": "cream cheese, at room temperature",
-      "quantity": "170 g"
+      "name": "cream cheese",
+      "quantity": "170 g",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -61,11 +62,18 @@
     },
     {
       "ingredient_id": 239,
-      "name": "raspberries, lightly chopped",
-      "quantity": "340 g"
+      "name": "raspberries",
+      "quantity": "340 g",
+      "prep": "lightly chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the cream cheese to room temperature. Lightly chop the raspberries.",
+      "secondary_message": "170 g cream cheese\n340 g raspberries"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 220°C (425°F). Line a baking sheet with parchment paper. In a small bowl, whisk together cream cheese, sugar, and salt until smooth; set aside. In a separate small bowl, whisk together egg with 1 teaspoon water.",

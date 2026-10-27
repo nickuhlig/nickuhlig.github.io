@@ -67,8 +67,9 @@
     },
     {
       "ingredient_id": 1938,
-      "name": "vanilla bean, split and scraped",
-      "quantity": "1"
+      "name": "vanilla bean",
+      "quantity": "1",
+      "prep": "split and scraped"
     },
     {
       "ingredient_id": 346,
@@ -92,13 +93,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 1/2-inch cubes",
-      "quantity": "90 g"
+      "name": "unsalted butter",
+      "quantity": "90 g",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 1021,
-      "name": "puff pastry from three 14-ounce packages frozen puff pastry, thawed, preferably all-butter",
-      "quantity": "3 (24 cm) sheets"
+      "name": "puff pastry from three 14-ounce packages frozen puff pastry, preferably all-butter",
+      "quantity": "3 (24 cm) sheets",
+      "prep": "thawed"
     },
     {
       "ingredient_id": 1434,
@@ -112,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split and scrape the vanilla bean. Cut the unsalted butter into 1/2-inch cubes. Thaw the puff pastry from three 14-ounce packages frozen puff pastry.",
+      "secondary_message": "1 vanilla bean\n90 g unsalted butter\n3 (24 cm) sheets puff pastry from three 14-ounce packages frozen puff pastry, preferably all-butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Pastry Cream: In a 6-quart pot, combine milk and scraped vanilla bean along with its seeds. Bring to a bare simmer over medium heat. Remove from heat, cover to prevent evaporation, and let steep for 30 minutes.",

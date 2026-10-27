@@ -59,13 +59,15 @@
     },
     {
       "ingredient_id": 153,
-      "name": "green onion, thinly sliced",
-      "quantity": "1"
+      "name": "green onion",
+      "quantity": "1",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "5 medium cloves"
+      "name": "garlic",
+      "quantity": "5 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2346,
@@ -104,6 +106,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the green onion. Mince the garlic.",
+      "secondary_message": "1 green onion\n5 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "To make the chimichurri sauce, combine the parsley, cilantro, green onion, oregano, garlic and lemon zest in a medium bowl. Add the olive oil, red wine vinegar, and 1/2 teaspoon of salt and whisk to combine. Season with more salt if needed. Place 1/4 cup of the chimichurri sauce in a small bowl and set aside.",

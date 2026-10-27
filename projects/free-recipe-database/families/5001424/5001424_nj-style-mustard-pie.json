@@ -81,8 +81,9 @@
     },
     {
       "ingredient_id": 118,
-      "name": "whole milk, low-moisture mozzarella, grated fresh",
-      "quantity": "12 oz"
+      "name": "whole milk, low-moisture mozzarella",
+      "quantity": "12 oz",
+      "prep": "grated fresh"
     },
     {
       "ingredient_id": 1010,
@@ -91,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the whole milk fresh.",
+      "secondary_message": "12 oz whole milk, low-moisture mozzarella"
+    },
     {
       "id": 1,
       "primary_message": "Set oven rack to lower-third position and place a pizza stone or baking steel on it; preheat oven to 500°F or as high as your oven will go. Wait at least 30 minutes before baking.",

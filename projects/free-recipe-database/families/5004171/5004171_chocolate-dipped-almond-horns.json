@@ -45,8 +45,9 @@
   "ingredients": [
     {
       "ingredient_id": 3166,
-      "name": "marzipan, broken into 1-inch pieces",
-      "quantity": "10 oz"
+      "name": "marzipan",
+      "quantity": "10 oz",
+      "prep": "broken into 1-inch pieces"
     },
     {
       "ingredient_id": 29,
@@ -75,11 +76,18 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "4 oz"
+      "name": "bittersweet chocolate",
+      "quantity": "4 oz",
+      "prep": "finely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Break the marzipan into 1-inch pieces. Finely chop the bittersweet chocolate.",
+      "secondary_message": "10 oz marzipan\n4 oz bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 375°F. Line rimmed baking sheet with parchment paper.",

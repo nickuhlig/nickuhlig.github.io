@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 2334,
-      "name": "peeled, finely chopped fresh ginger",
-      "quantity": "¼ cup"
+      "name": "peeled",
+      "quantity": "¼ cup",
+      "prep": "finely chopped fresh ginger"
     },
     {
       "ingredient_id": 1480,
@@ -71,11 +72,18 @@
     },
     {
       "ingredient_id": 272,
-      "name": "walnuts, toasted and coarsely chopped",
-      "quantity": "1 ¼ cups"
+      "name": "walnuts",
+      "quantity": "1 ¼ cups",
+      "prep": "toasted and coarsely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the peeled fresh ginger. Toast and coarsely chop the walnuts.",
+      "secondary_message": "¼ cup peeled\n1 ¼ cups walnuts"
+    },
     {
       "id": 1,
       "primary_message": "Combine the corn syrup, maple syrup, water, sugar, and ground and fresh ginger in a nonreactive saucepan. Bring to a simmer over medium heat, stirring once or twice. Allow to cook for 2 to 3 minutes and remove from heat. Let the mixture cool to room temperature.",

@@ -56,8 +56,9 @@
   "ingredients": [
     {
       "ingredient_id": 151,
-      "name": "jalapeño chiles, washed, stemmed, and coarsely chopped",
-      "quantity": "6"
+      "name": "jalapeño chiles",
+      "quantity": "6",
+      "prep": "washed, stemmed, and coarsely chopped"
     },
     {
       "ingredient_id": 88,
@@ -86,18 +87,21 @@
     },
     {
       "ingredient_id": 94,
-      "name": "canned pinto beans, drained and rinsed",
-      "quantity": "1 cup (8 oz)"
+      "name": "canned pinto beans",
+      "quantity": "1 cup (8 oz)",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 2072,
-      "name": "yellow Güero chiles, washed and stems retained",
-      "quantity": "6"
+      "name": "yellow Güero chiles",
+      "quantity": "6",
+      "prep": "washed and stems retained"
     },
     {
       "ingredient_id": 2036,
-      "name": "Oaxaca string cheese, pulled into long shreds",
-      "quantity": "2 oz"
+      "name": "Oaxaca string cheese",
+      "quantity": "2 oz",
+      "prep": "pulled into long shreds"
     },
     {
       "ingredient_id": 302,
@@ -127,6 +131,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash, stem, and coarsely chop the jalapeño chiles. Drain and rinse the canned pinto beans. Wash the yellow Güero chiles, then retain the stems. Pull the Oaxaca string cheese into long shreds.",
+      "secondary_message": "6 jalapeño chiles\n1 cup (8 oz) canned pinto beans\n6 yellow Güero chiles\n2 oz Oaxaca string cheese"
+    },
     {
       "id": 1,
       "primary_message": "For preparing the toppings: In a blender, blend the jalapeños and salt on high power, scraping down the sides of the bowl as needed, into a smooth purée, about 1 minute. If needed, add water, 1 tablespoon at a time, to help the chiles catch the blade to blend fully. Transfer to a small bowl or squeeze bottle; set aside. Transfer the yellow mustard and mayonnaise to squeeze bottles if not already packaged in them. Set aside ¾ cup raw diced white onion. Refrigerate until ready to use.",

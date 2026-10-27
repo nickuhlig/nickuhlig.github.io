@@ -66,13 +66,15 @@
     },
     {
       "ingredient_id": 1044,
-      "name": "A few tablespoons of oil for sautéing, some trimmed off pieces of lamb fat",
-      "quantity": ""
+      "name": "A few tablespoons of oil for sautéing",
+      "quantity": "",
+      "prep": "some trimmed off pieces of lamb fat"
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, thinly sliced",
-      "quantity": "2 medium"
+      "name": "onions",
+      "quantity": "2 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 215,
@@ -81,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim off the some of the A few tablespoons of oil for sautéing pieces of lamb fat. Thinly slice the onions.",
+      "secondary_message": "A few tablespoons of oil for sautéing\n2 medium onions"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, mix the ingredients for the spice rub. Sprinkle spice rub evenly on both sides of lamb ribs and set aside.",

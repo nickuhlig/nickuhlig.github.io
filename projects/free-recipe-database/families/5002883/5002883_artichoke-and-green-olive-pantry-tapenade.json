@@ -46,13 +46,15 @@
     },
     {
       "ingredient_id": 1047,
-      "name": "artichoke hearts in water, drained",
-      "quantity": "1 (14 oz) can"
+      "name": "artichoke hearts in water",
+      "quantity": "1 (14 oz) can",
+      "prep": "drained"
     },
     {
       "ingredient_id": 1600,
-      "name": "pitted green olives, drained",
-      "quantity": "1 (12 oz) jar"
+      "name": "pitted green olives",
+      "quantity": "1 (12 oz) jar",
+      "prep": "drained"
     },
     {
       "ingredient_id": 2111,
@@ -66,13 +68,15 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested",
-      "quantity": "½"
+      "name": "lemon",
+      "quantity": "½",
+      "prep": "zested"
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, juiced",
-      "quantity": "¼"
+      "name": "lemon",
+      "quantity": "¼",
+      "prep": "juiced"
     },
     {
       "ingredient_id": 132,
@@ -91,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain the artichoke hearts in water. Drain the pitted green olives. Zest the lemon. Juice the lemon.",
+      "secondary_message": "1 (14 oz) can artichoke hearts in water\n1 (12 oz) jar pitted green olives\n½ lemon\n¼ lemon"
+    },
     {
       "id": 1,
       "primary_message": "Blitz the garlic and Parmesan in the food processor until they’re smashed to smithereens. Then, add all the other ingredients, and pulse for a chunky tapenade, or run until smooth. Serve with lightly toasted excellent bread. Or, put in a panini with fresh sliced mozzarella, or spoon over grilled fish.",

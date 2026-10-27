@@ -63,8 +63,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, thinly sliced",
-      "quantity": "2"
+      "name": "shallots",
+      "quantity": "2",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 359,
@@ -88,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the shallots.",
+      "secondary_message": "2 shallots"
+    },
     {
       "id": 1,
       "primary_message": "Rub the turkey with 1/4 teaspoon each of the salt and white pepper. Choose a large pot with a lid, such as a Dutch oven, and place a steamer rack inside. Fill the pot with 2 cups of water. Place the turkey on a dish that fits inside the pot and sits atop the steamer rack. (In order to save the turkey drippings, the turkey should not be placed directly on a rack with holes.) Bring water to a boil, then reduce to a simmer and cover the pot. Steam the turkey until its internal temperature close to the bone reaches 180°F, about 30 minutes. Let cool. Reserve the juices and drippings.",

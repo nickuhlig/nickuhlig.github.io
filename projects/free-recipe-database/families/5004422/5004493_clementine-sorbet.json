@@ -33,8 +33,9 @@
   "ingredients": [
     {
       "ingredient_id": 3364,
-      "name": "chilled clementines, peeled and broken into segments",
-      "quantity": "20"
+      "name": "chilled clementines",
+      "quantity": "20",
+      "prep": "peeled and broken into segments"
     },
     {
       "ingredient_id": 346,
@@ -48,6 +49,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and break the chilled clementines into segments.",
+      "secondary_message": "20 chilled clementines"
+    },
     {
       "id": 1,
       "primary_message": "In batches, purée clementine segments until smooth, about 30 seconds. Pour purée through a fine mesh strainer, pressing down on solids with a spoon, into a large measuring cup until you have 4 cups of strained juice. Reserve remaining juice for another purpose and rinse out blender. If clementines were not chilled, chill juice in refrigerator for 2 to 3 hours until very cold.",

@@ -95,8 +95,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "1 tbsp"
+      "name": "unsalted butter",
+      "quantity": "1 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 2210,
@@ -105,8 +106,9 @@
     },
     {
       "ingredient_id": 116,
-      "name": "all-purpose flour, sifted",
-      "quantity": "1 cup"
+      "name": "all-purpose flour",
+      "quantity": "1 cup",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 331,
@@ -125,8 +127,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, separated and at room temperature",
-      "quantity": "6 large"
+      "name": "eggs",
+      "quantity": "6 large",
+      "prep": "separated and at room temperature"
     },
     {
       "ingredient_id": 88,
@@ -220,8 +223,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, cut into 4 pieces and chilled",
-      "quantity": "2 tbsp"
+      "name": "butter",
+      "quantity": "2 tbsp",
+      "prep": "cut into 4 pieces and chilled"
     },
     {
       "ingredient_id": 353,
@@ -230,6 +234,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter. Sift the all-purpose flour. Separate the eggs and bring them to room temperature. Cut the butter into 4 pieces and keep it cold until you use it.",
+      "secondary_message": "1 tbsp unsalted butter\n1 cup all-purpose flour\n6 large eggs\n2 tbsp butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Marquesote Cake: Adjust oven rack to middle position and preheat oven to 175°C (350°F). Grease a 13- by 23-cm baking dish with butter.",

@@ -54,8 +54,9 @@
   "ingredients": [
     {
       "ingredient_id": 1802,
-      "name": "sliced blanched almonds, toasted and cooled",
-      "quantity": "½ cup"
+      "name": "sliced blanched almonds",
+      "quantity": "½ cup",
+      "prep": "toasted and cooled"
     },
     {
       "ingredient_id": 116,
@@ -74,8 +75,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "16 tbsp"
+      "name": "unsalted butter",
+      "quantity": "16 tbsp",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -114,6 +116,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Toast the sliced blanched almonds and let them cool. Bring the unsalted butter to room temperature.",
+      "secondary_message": "½ cup sliced blanched almonds\n16 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In the bowl of a food processor, grind toasted almonds until the consistency of coarse flour. Add to a medium bowl with flour, baking powder, and salt. Stir to combine and set aside.",

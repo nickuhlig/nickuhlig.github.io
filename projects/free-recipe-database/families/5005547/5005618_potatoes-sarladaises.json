@@ -39,13 +39,15 @@
     },
     {
       "ingredient_id": 3064,
-      "name": "Yukon Gold potatoes, cut into 1/2-inch discs",
-      "quantity": "4 large"
+      "name": "Yukon Gold potatoes",
+      "quantity": "4 large",
+      "prep": "cut into 1/2-inch discs"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, sliced thin",
-      "quantity": "8 medium cloves"
+      "name": "garlic",
+      "quantity": "8 medium cloves",
+      "prep": "sliced thin"
     },
     {
       "ingredient_id": 359,
@@ -69,6 +71,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the Yukon Gold potatoes into 1/2-inch discs. Slice the garlic thin.",
+      "secondary_message": "4 large Yukon Gold potatoes\n8 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Add fat to heavy-bottomed 30-cm non-stick skillet and heat over medium-high heat until shimmering. Add potatoes and cook, stirring occasionally until lightly browned, about 6 minutes. Add garlic and continue to cook stirring occasionally, until potatoes are deep golden brown.",

@@ -93,13 +93,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into 1/4-inch pieces",
-      "quantity": "113 g"
+      "name": "cold unsalted butter",
+      "quantity": "113 g",
+      "prep": "cut into 1/4-inch pieces"
     },
     {
       "ingredient_id": 3641,
-      "name": "egg yolks, cold",
-      "quantity": "2 large"
+      "name": "egg yolks",
+      "quantity": "2 large",
+      "prep": "cold"
     },
     {
       "ingredient_id": 2784,
@@ -108,6 +110,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cold unsalted butter into 1/4-inch pieces. Keep the egg yolks cold until you use them.",
+      "secondary_message": "113 g cold unsalted butter\n2 large egg yolks"
+    },
     {
       "id": 1,
       "primary_message": "Split vanilla bean lengthwise with a paring knife and scrape out seeds with the flat of the blade; reserve empty pod for cajeta or another use. Combine vanilla seeds with flour, tapioca starch, powdered sugar, salt, baking powder, and butter in the bowl of a food processor. Pulse to form a fine and sandy meal, then add egg yolks and continue processing until the dough balls up around the blade. Divide in half and proceed to step 2, or wrap tightly in plastic and refrigerate up to 1 week.",

@@ -62,8 +62,9 @@
     },
     {
       "ingredient_id": 19,
-      "name": "button mushrooms, cleaned",
-      "quantity": "4 oz"
+      "name": "button mushrooms",
+      "quantity": "4 oz",
+      "prep": "cleaned"
     },
     {
       "ingredient_id": 325,
@@ -87,23 +88,27 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, roughly chopped",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, peeled and roughly chopped",
-      "quantity": "1 small"
+      "name": "carrot",
+      "quantity": "1 small",
+      "prep": "peeled and roughly chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, roughly chopped",
-      "quantity": "1 stalk"
+      "name": "celery",
+      "quantity": "1 stalk",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 115,
@@ -127,8 +132,9 @@
     },
     {
       "ingredient_id": 43,
-      "name": "cheddar cheese, finely grated",
-      "quantity": "4 oz"
+      "name": "cheddar cheese",
+      "quantity": "4 oz",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 1808,
@@ -167,6 +173,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Clean the button mushrooms. Roughly chop the garlic. Roughly chop the onion. Peel and roughly chop the carrot. Roughly chop the celery. Finely grate the cheddar cheese.",
+      "secondary_message": "4 oz button mushrooms\n2 medium cloves garlic\n1 small onion\n1 small carrot\n1 stalk celery\n4 oz cheddar cheese"
+    },
     {
       "id": 1,
       "primary_message": "Combine the chicken stock and buttermilk in a liquid measuring cup and sprinkle the gelatin evenly over the top. Set aside.",

@@ -59,16 +59,24 @@
     },
     {
       "ingredient_id": 229,
-      "name": "ripe mango, peeled, pitted, and diced",
-      "quantity": "1 large"
+      "name": "ripe mango",
+      "quantity": "1 large",
+      "prep": "peeled, pitted, and diced"
     },
     {
       "ingredient_id": 243,
-      "name": "mint leaves, minced",
-      "quantity": "6 large"
+      "name": "mint leaves",
+      "quantity": "6 large",
+      "prep": "minced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel, pit, and dice the ripe mango. Mince the mint leaves.",
+      "secondary_message": "1 large ripe mango\n6 large mint leaves"
+    },
     {
       "id": 1,
       "primary_message": "In a medium saucepan, whisk together heavy cream, sugar, and a pinch of salt. Cook over medium heat, stirring frequently, until sugar is dissolved, about 5 minutes. Let cool slightly.",

@@ -52,23 +52,27 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, peeled and cut into small dice",
-      "quantity": "1 medium"
+      "name": "carrot",
+      "quantity": "1 medium",
+      "prep": "peeled and cut into small dice"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, thinly sliced",
-      "quantity": "2"
+      "name": "scallions",
+      "quantity": "2",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 53,
@@ -102,6 +106,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the onion. Peel and cut the carrot into small dice. Thinly slice the scallions. Mince the garlic.",
+      "secondary_message": "1 small onion\n1 medium carrot\n2 scallions\n2 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "If using day-old rice (see notes), transfer to a medium bowl and break rice up with your hands into individual grains before proceeding. Heat 1/2 tablespoon vegetable oil in a wok over high heat until smoking. Add half of rice and cook, stirring and tossing, until rice is pale brown and toasted and has a lightly chewy texture, about 3 minutes. Transfer to a medium bowl. Repeat with another 1/2 tablespoon oil and remaining rice.",

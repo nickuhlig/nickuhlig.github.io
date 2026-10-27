@@ -69,13 +69,15 @@
     },
     {
       "ingredient_id": 217,
-      "name": "roasted peanuts, roughly chopped",
-      "quantity": "3 tbsp"
+      "name": "roasted peanuts",
+      "quantity": "3 tbsp",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, thinly sliced",
-      "quantity": "2"
+      "name": "scallions",
+      "quantity": "2",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 188,
@@ -84,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the roasted peanuts. Thinly slice the scallions.",
+      "secondary_message": "3 tbsp roasted peanuts\n2 scallions"
+    },
     {
       "id": 1,
       "primary_message": "Bring a pot of water to boil. If you are using mung bean vermicelli: add vermicelli to the boiling water and remove pot from heat. Soak until they are softened but not mushy, 3 to 5 minutes. Drain vermicelli and rinse under cold running water. Set aside. If you are using sweet potato vermicelli: cook the vermicelli in the boiling water according to the instructions on the package, about 7 to 15 minutes depending on the width of the noodle. Drain vermicelli and rinse under cold running water. Set aside.",

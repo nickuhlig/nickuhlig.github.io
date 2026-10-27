@@ -54,13 +54,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated",
-      "quantity": "5 cloves"
+      "name": "garlic",
+      "quantity": "5 cloves",
+      "prep": "grated"
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, grated",
-      "quantity": "1 (1 inch) piece"
+      "name": "ginger",
+      "quantity": "1 (1 inch) piece",
+      "prep": "grated"
     },
     {
       "ingredient_id": 2710,
@@ -94,11 +96,18 @@
     },
     {
       "ingredient_id": 153,
-      "name": "green onions, sliced, divided",
-      "quantity": "1 bunch"
+      "name": "green onions, divided",
+      "quantity": "1 bunch",
+      "prep": "sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the garlic. Grate the ginger. Slice the green onions.",
+      "secondary_message": "5 cloves garlic\n1 (1 inch) piece ginger\n1 bunch green onions, divided"
+    },
     {
       "id": 1,
       "primary_message": "In small bowl, whisk cornstarch with chicken stock until combined; set aside. Heat Sichuan peppercorns in wok (or 12-inch non-stick skillet) over medium heat until fragrant, about one minute. Transfer to a mortar and pestle and pound until finely ground; set aside.",

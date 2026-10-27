@@ -47,18 +47,21 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, finely minced",
-      "quantity": "2 medium"
+      "name": "shallots",
+      "quantity": "2 medium",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced or grated on a Microplane",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "minced or grated on a Microplane"
     },
     {
       "ingredient_id": 1879,
-      "name": "curly spinach, trimmed, washed, and drained",
-      "quantity": "2 lb"
+      "name": "curly spinach",
+      "quantity": "2 lb",
+      "prep": "trimmed, washed, and drained"
     },
     {
       "ingredient_id": 116,
@@ -97,6 +100,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the shallots. Mince or grate the garlic on a Microplane. Trim, wash, and drain the curly spinach.",
+      "secondary_message": "2 medium shallots\n2 medium cloves garlic\n2 lb curly spinach"
+    },
     {
       "id": 1,
       "primary_message": "Melt butter in a Dutch oven or large saucepan over medium-high heat. Add shallots and garlic and cook, stirring, until softened, about 2 minutes. Add spinach in 4 batches, turning each batch with tongs or a rubber spatula and allowing it to wilt before adding the next.",

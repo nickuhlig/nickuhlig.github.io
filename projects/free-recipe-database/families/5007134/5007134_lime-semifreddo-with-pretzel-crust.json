@@ -42,8 +42,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "5 tbsp"
+      "name": "unsalted butter",
+      "quantity": "5 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 293,
@@ -82,8 +83,9 @@
     },
     {
       "ingredient_id": 3642,
-      "name": "egg whites, at room temperature",
-      "quantity": "4 large"
+      "name": "egg whites",
+      "quantity": "4 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 88,
@@ -92,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Bring the egg whites to room temperature.",
+      "secondary_message": "5 tbsp unsalted butter\n4 large egg whites"
+    },
     {
       "id": 1,
       "primary_message": "Line a 9- by 5-inch loaf pan with plastic wrap, allowing it to hang generously over the edges. Combine pretzel crumbs, butter, and light brown sugar in medium bowl. Press mixture into bottom and 2 inches up sides of prepared loaf pan. Place pan in freezer.",

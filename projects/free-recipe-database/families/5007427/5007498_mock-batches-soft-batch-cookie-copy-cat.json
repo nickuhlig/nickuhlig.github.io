@@ -67,8 +67,9 @@
     },
     {
       "ingredient_id": 2742,
-      "name": "milk chocolate, chopped",
-      "quantity": "50 g"
+      "name": "milk chocolate",
+      "quantity": "50 g",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1682,
@@ -112,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the milk chocolate.",
+      "secondary_message": "50 g milk chocolate"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 175°C (350°F) and have two parchment-lined rimmed baking sheets at the ready. Sift together the flour, cornstarch, and powdered milk with a fine-mesh strainer into a bowl. Set aside.",

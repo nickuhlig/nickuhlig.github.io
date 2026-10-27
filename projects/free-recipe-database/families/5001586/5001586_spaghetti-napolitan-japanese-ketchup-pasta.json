@@ -49,23 +49,27 @@
     },
     {
       "ingredient_id": 2827,
-      "name": "mini Japanese smoked sausages, thinly sliced at an angle",
-      "quantity": "5"
+      "name": "mini Japanese smoked sausages",
+      "quantity": "5",
+      "prep": "thinly sliced at an angle"
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, thinly sliced cross-wise",
-      "quantity": "½ medium"
+      "name": "white onion",
+      "quantity": "½ medium",
+      "prep": "thinly sliced cross-wise"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 291,
-      "name": "green bell pepper, thinly sliced cross-wise",
-      "quantity": "½ large"
+      "name": "green bell pepper",
+      "quantity": "½ large",
+      "prep": "thinly sliced cross-wise"
     },
     {
       "ingredient_id": 19,
@@ -104,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the mini Japanese smoked sausages at an angle. Thinly slice the white onion cross-wise. Mince the garlic. Thinly slice the green bell pepper cross-wise.",
+      "secondary_message": "5 mini Japanese smoked sausages\n½ medium white onion\n4 medium cloves garlic\n½ large green bell pepper"
+    },
     {
       "id": 1,
       "primary_message": "In a large pot of salted boiling water, cook spaghetti until just shy of al dente, about 2 minutes less than package directions. Reserve 1/2 cup pasta cooking water, and using a colander, drain spaghetti.",

@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and minced",
-      "quantity": "2 large cloves"
+      "name": "garlic",
+      "quantity": "2 large cloves",
+      "prep": "peeled and minced"
     },
     {
       "ingredient_id": 52,
@@ -81,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and mince the garlic.",
+      "secondary_message": "2 large cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Cut yellow chilies crosswise into 1.5-cm pieces and pound them in a mortar until they're broken up into small chunks, about 0.5-cm in size; set aside. (If you don't have a mortar, place cut-up chilies in a plastic zipper bag, seal bag well and get rid of trapped air, wrap bag with a kitchen towel, then pound on it with a meat tenderizer or something heavy.)",

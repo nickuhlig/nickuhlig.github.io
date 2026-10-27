@@ -48,8 +48,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, cut into 1/4-inch dice",
-      "quantity": "½ medium"
+      "name": "yellow onion",
+      "quantity": "½ medium",
+      "prep": "cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 1145,
@@ -73,6 +74,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the yellow onion into 1/4-inch dice.",
+      "secondary_message": "½ medium yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "If using a whole steak, trim and cut steak crosswise with grain into roughly 3-inch wide sections, then set on large plate and freeze until firm but not frozen solid, about 1 hour. If using pre-sliced steak, skip to chopping instructions in Step 2.",

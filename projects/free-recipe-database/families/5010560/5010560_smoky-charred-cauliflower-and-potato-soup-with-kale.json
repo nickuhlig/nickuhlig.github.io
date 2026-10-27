@@ -46,18 +46,21 @@
     },
     {
       "ingredient_id": 158,
-      "name": "cauliflower, cut into 1-inch florets",
-      "quantity": "1 small head"
+      "name": "cauliflower",
+      "quantity": "1 small head",
+      "prep": "cut into 1-inch florets"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely sliced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated on a microplane grater",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "grated on a microplane grater"
     },
     {
       "ingredient_id": 1618,
@@ -71,9 +74,10 @@
     },
     {
       "ingredient_id": 1039,
-      "name": "russet potatoes, peeled and chopped into 2-inch chunks",
+      "name": "russet potatoes",
       "quantity": "4 medium",
-      "weigh_as": "2 lb"
+      "weigh_as": "2 lb",
+      "prep": "peeled and chopped into 2-inch chunks"
     },
     {
       "ingredient_id": 226,
@@ -97,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cauliflower into 1-inch florets. Finely slice the onion. Grate the garlic on a microplane grater. Peel and chop the russet potatoes into 2-inch chunks.",
+      "secondary_message": "1 small head cauliflower\n1 medium onion\n3 cloves garlic\n4 medium russet potatoes"
+    },
     {
       "id": 1,
       "primary_message": "Heat olive oil in a Dutch oven or large saucepan over high heat until shimmering. Add cauliflower and cook, stirring occasionally until well browned and lightly charred on all sides, about 10 minutes total, reducing heat as necessary if smoking cauliflower starts to burn or oil smokes too heavily.",

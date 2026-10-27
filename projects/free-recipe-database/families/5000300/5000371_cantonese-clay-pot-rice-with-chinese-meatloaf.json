@@ -55,23 +55,27 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, thinly sliced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 188,
-      "name": "cilantro, cut into 1-inch segments",
-      "quantity": "30 g"
+      "name": "cilantro",
+      "quantity": "30 g",
+      "prep": "cut into 1-inch segments"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 221,
-      "name": "fresh peeled ginger, sliced thinly",
-      "quantity": "1 (2 ½ cm) knob"
+      "name": "fresh peeled ginger",
+      "quantity": "1 (2 ½ cm) knob",
+      "prep": "sliced thinly"
     },
     {
       "ingredient_id": 1833,
@@ -115,8 +119,9 @@
     },
     {
       "ingredient_id": 2164,
-      "name": "boneless skinless pork shoulder, chilled in the freezer for 15 minutes",
-      "quantity": "0.23 kg"
+      "name": "boneless skinless pork shoulder",
+      "quantity": "0.23 kg",
+      "prep": "chilled in the freezer for 15 minutes"
     },
     {
       "ingredient_id": 221,
@@ -165,6 +170,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the shallot. Cut the cilantro into 1-inch segments. Smash the garlic. Slice the fresh peeled ginger thinly. Chill the boneless skinless pork shoulder in the freezer for 15 minutes.",
+      "secondary_message": "1 small shallot\n30 g cilantro\n4 medium cloves garlic\n1 (2 ½ cm) knob fresh peeled ginger\n0.23 kg boneless skinless pork shoulder"
+    },
     {
       "id": 1,
       "primary_message": "For the Seasoned Soy Sauce: In a small saucepan set over medium heat, melt the lard until liquid, about 1 minute. Reduce heat to medium-low and add scallions, shallots, cilantro, garlic, and ginger. Gently sauté, swirling the pan occasionally, until the aromatics are fragrant and begin to turn golden brown. Deglaze the pan with the Shaoxing wine, then add water, light soy sauce, dark soy sauce, and sugar. Bring the mixture to a boil over high heat and allow to bubble for 2 minutes. Strain, chill, and set aside; the sauce should be dark, smooth, and slightly thicker than bottled soy sauce.",

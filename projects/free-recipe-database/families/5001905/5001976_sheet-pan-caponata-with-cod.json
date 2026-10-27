@@ -49,8 +49,9 @@
   "ingredients": [
     {
       "ingredient_id": 18,
-      "name": "Italian eggplant, cut into 1-inch pieces",
-      "quantity": "1 large"
+      "name": "Italian eggplant",
+      "quantity": "1 large",
+      "prep": "cut into 1-inch pieces"
     },
     {
       "ingredient_id": 150,
@@ -64,8 +65,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, cut into a 1/2-inch dice",
-      "quantity": "½ medium"
+      "name": "yellow onion",
+      "quantity": "½ medium",
+      "prep": "cut into a 1/2-inch dice"
     },
     {
       "ingredient_id": 47,
@@ -79,8 +81,9 @@
     },
     {
       "ingredient_id": 1633,
-      "name": "pitted Castelvetrano olives, roughly chopped",
-      "quantity": "½ cup"
+      "name": "pitted Castelvetrano olives",
+      "quantity": "½ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1808,
@@ -114,6 +117,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the Italian eggplant into 1-inch pieces. Cut the yellow onion into a 1/2-inch dice. Roughly chop the pitted Castelvetrano olives.",
+      "secondary_message": "1 large Italian eggplant\n½ medium yellow onion\n½ cup pitted Castelvetrano olives"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 200°C (400°F). Arrange the eggplant, pepper, tomatoes, and onion on a parchment-lined rimmed baking sheet. Drizzle with 2 tablespoons of olive oil, sprinkle with salt, and toss vegetables to evenly coat. Bake, stirring occasionally, until the vegetables are soft and beginning to caramelize around the edges, 30 to 40 minutes.",

@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 2722,
-      "name": "tangerines, peeled and quartered, seeds removed",
-      "quantity": "2"
+      "name": "tangerines",
+      "quantity": "2",
+      "prep": "peeled and quartered, seeds removed"
     },
     {
       "ingredient_id": 122,
@@ -60,6 +61,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and quarter the tangerines, then remove the seeds.",
+      "secondary_message": "2 tangerines"
+    },
     {
       "id": 1,
       "primary_message": "Place orange juice, tangerines, yogurt, honey, and ice cubes in a blender. Pulse a few times on \"ice crush\" or similar high setting to begin to break down ice cubes.",

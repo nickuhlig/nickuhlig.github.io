@@ -74,16 +74,24 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, peeled and smashed",
-      "quantity": "3 medium"
+      "name": "garlic cloves",
+      "quantity": "3 medium",
+      "prep": "peeled and smashed"
     },
     {
       "ingredient_id": 1677,
-      "name": "fresh thyme leaves, chopped",
-      "quantity": "1 tbsp"
+      "name": "fresh thyme leaves",
+      "quantity": "1 tbsp",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and smash the garlic cloves. Chop the fresh thyme leaves.",
+      "secondary_message": "3 medium garlic cloves\n1 tbsp fresh thyme leaves"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 230°C (450°F). Place stock in a liquid measuring cup or small bowl and sprinkle gelatin over top. Set aside.",

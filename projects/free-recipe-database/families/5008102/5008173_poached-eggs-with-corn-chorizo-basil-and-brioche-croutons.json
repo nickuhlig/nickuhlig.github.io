@@ -36,13 +36,15 @@
   "ingredients": [
     {
       "ingredient_id": 1754,
-      "name": "Spanish-style chorizo, cut into 1/2- to 1/4-inch cubes",
-      "quantity": "113 g"
+      "name": "Spanish-style chorizo",
+      "quantity": "113 g",
+      "prep": "cut into 1/2- to 1/4-inch cubes"
     },
     {
       "ingredient_id": 1608,
-      "name": "brioche, cut into 1/2-inch cubes",
-      "quantity": "1 slice"
+      "name": "brioche",
+      "quantity": "1 slice",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 88,
@@ -61,14 +63,16 @@
     },
     {
       "ingredient_id": 303,
-      "name": "corn, kernels cut off of ears",
+      "name": "corn",
       "quantity": "1 ¼ cups",
-      "weigh_as": "204 g"
+      "weigh_as": "204 g",
+      "prep": "kernels cut off of ears"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "minced"
     },
     {
       "ingredient_id": 153,
@@ -102,6 +106,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the Spanish-style chorizo into 1/2- to 1/4-inch cubes. Cut the brioche into 1/2-inch cubes. Cut off the kernels of the corn of ears. Mince the garlic.",
+      "secondary_message": "113 g Spanish-style chorizo\n1 slice brioche\n1 ¼ cups corn\n1 medium clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "Heat chorizo in a medium non-stick skillet over medium heat, tossing and stirring occasionally until crisp and fat has rendered. Transfer to a paper towel-lined plate with a slotted spoon, leaving fat in skillet.",

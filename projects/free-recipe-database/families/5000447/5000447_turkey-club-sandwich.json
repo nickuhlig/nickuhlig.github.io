@@ -94,8 +94,9 @@
     },
     {
       "ingredient_id": 25,
-      "name": "romaine lettuce leaves, cut in half crosswise",
-      "quantity": "8"
+      "name": "romaine lettuce leaves",
+      "quantity": "8",
+      "prep": "cut in half crosswise"
     },
     {
       "ingredient_id": 2197,
@@ -104,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the romaine lettuce leaves in half crosswise.",
+      "secondary_message": "8 romaine lettuce leaves"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven racks to upper-middle and lower-middle positions. Heat oven to 400°F (205℃). Line 2 rimmed baking sheets with parchment paper. Arrange bacon slices in a single layer (slightly overlapping if needed) on prepared baking sheets. Bake bacon, switching and rotating baking sheets halfway through, until browned and crisp, 15 to 20 minutes. Use tongs to transfer cooked bacon to a paper towel–lined plate to drain and reserve rendered fat. Heat broiler.",

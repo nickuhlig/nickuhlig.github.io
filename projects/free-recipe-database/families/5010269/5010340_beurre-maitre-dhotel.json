@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "good unsalted butter, room temperature",
-      "quantity": "4 tbsp"
+      "name": "good unsalted butter",
+      "quantity": "4 tbsp",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 106,
@@ -60,6 +61,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the good unsalted butter to room temperature.",
+      "secondary_message": "4 tbsp good unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, mash everything together thoroughly. Then, take a small ice cream scoop and place four perfect balls of butter onto a small plate. Refrigerate for one hour.",

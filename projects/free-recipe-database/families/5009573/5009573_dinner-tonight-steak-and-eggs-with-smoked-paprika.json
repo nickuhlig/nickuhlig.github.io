@@ -33,8 +33,9 @@
   "ingredients": [
     {
       "ingredient_id": 3064,
-      "name": "Yukon Gold potatoes, skinned and cubed into 1/2 inch pieces",
-      "quantity": "2"
+      "name": "Yukon Gold potatoes",
+      "quantity": "2",
+      "prep": "skinned and cubed into 1/2 inch pieces"
     },
     {
       "ingredient_id": 115,
@@ -73,6 +74,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Skin and cube the Yukon Gold potatoes into 1/2 inch pieces.",
+      "secondary_message": "2 Yukon Gold potatoes"
+    },
     {
       "id": 1,
       "primary_message": "Add the potatoes to a large bowl along with 1 tablespoon of the butter and a pinch of salt. Cover with plastic wrap and set in the microwave for 6 minutes. Shake the bowl halfway through, being careful because the bowl with be hot. Before removing the bowl from the microwave, puncture the plastic wrap with a knife, and let the steam escape. After a few seconds, carefully remove the potatoes.",

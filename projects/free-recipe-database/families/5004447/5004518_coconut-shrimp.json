@@ -38,8 +38,9 @@
   "ingredients": [
     {
       "ingredient_id": 1811,
-      "name": "jumbo shrimp, peeled and deveined",
-      "quantity": "24"
+      "name": "jumbo shrimp",
+      "quantity": "24",
+      "prep": "peeled and deveined"
     },
     {
       "ingredient_id": 88,
@@ -68,8 +69,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated on a microplane",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "grated on a microplane"
     },
     {
       "ingredient_id": 85,
@@ -108,6 +110,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and devein the jumbo shrimp. Grate the garlic on a microplane.",
+      "secondary_message": "24 jumbo shrimp\n2 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Season shrimp with salt and set aside. Mix coconut and panko in a large mixing bowl and whisk to combine. Mix eggs and 2 tablespoons flour in a large mixing bowl and whisk until homogenous. Place remaining flour in a large mixing bowl.",

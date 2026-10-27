@@ -62,8 +62,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, thinly sliced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 72,
@@ -82,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the shallot.",
+      "secondary_message": "1 small shallot"
+    },
     {
       "id": 1,
       "primary_message": "Open up fava bean pods and remove individual beans. Discard pods. Bring a medium pot of salted water to a boil and prepare an ice bath. Add fava beans to pot and cook until crisp-tender, about 1 minute. Transfer fava beans to ice bath and allow to chill for 1 minute. Carefully peel off and discard the outer skin from each bean.",

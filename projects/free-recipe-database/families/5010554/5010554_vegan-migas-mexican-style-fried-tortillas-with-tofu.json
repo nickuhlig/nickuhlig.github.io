@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 1541,
-      "name": "plum tomatoes, diced",
-      "quantity": "2 medium"
+      "name": "plum tomatoes",
+      "quantity": "2 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 88,
@@ -55,18 +56,21 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2066,
-      "name": "poblano pepper, stemmed, seeded, and finely chopped",
-      "quantity": "1"
+      "name": "poblano pepper",
+      "quantity": "1",
+      "prep": "stemmed, seeded, and finely chopped"
     },
     {
       "ingredient_id": 1799,
-      "name": "serrano chiles, stemmed and finely chopped",
-      "quantity": "2"
+      "name": "serrano chiles",
+      "quantity": "2",
+      "prep": "stemmed and finely chopped"
     },
     {
       "ingredient_id": 83,
@@ -80,8 +84,9 @@
     },
     {
       "ingredient_id": 1610,
-      "name": "soft silken tofu, drained of excess water",
-      "quantity": "1 block"
+      "name": "soft silken tofu",
+      "quantity": "1 block",
+      "prep": "drained of excess water"
     },
     {
       "ingredient_id": 1625,
@@ -90,8 +95,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "cilantro leaves, tender stems finely chopped",
-      "quantity": "1 handful"
+      "name": "cilantro leaves",
+      "quantity": "1 handful",
+      "prep": "tender stems finely chopped"
     },
     {
       "ingredient_id": 72,
@@ -100,6 +106,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the plum tomatoes. Finely chop the yellow onion. Stem, seed, and finely chop the poblano pepper. Stem and finely chop the serrano chiles. Drain the soft silken tofu of excess water. Finely chop the tender stems of the cilantro leaves.",
+      "secondary_message": "2 medium plum tomatoes\n1 medium yellow onion\n1 poblano pepper\n2 serrano chiles\n1 block soft silken tofu\n1 handful cilantro leaves"
+    },
     {
       "id": 1,
       "primary_message": "Toss tomatoes with 1/2 teaspoon salt in a large bowl. Transfer to a colander or fine-mesh strainer, set strainer over a bowl or the sink, and allow tomatoes to drain. Meanwhile, heat 3 tablespoons vegetable oil in a large nonstick or cast iron skillet until shimmering. Add tortilla strips and cook, tossing and stirring frequently, until crisp, about 4 minutes total. Transfer to a paper towel–lined plate.",

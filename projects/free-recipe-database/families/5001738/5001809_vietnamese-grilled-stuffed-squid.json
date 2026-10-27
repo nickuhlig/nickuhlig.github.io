@@ -65,8 +65,9 @@
     },
     {
       "ingredient_id": 3293,
-      "name": "squid tentacles, chopped, divided",
-      "quantity": "57 g"
+      "name": "squid tentacles, divided",
+      "quantity": "57 g",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 341,
@@ -85,13 +86,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely chopped",
-      "quantity": "1"
+      "name": "shallot",
+      "quantity": "1",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 (20 g) cloves"
+      "name": "garlic",
+      "quantity": "4 (20 g) cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2130,
@@ -120,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the squid tentacles. Finely chop the shallot. Mince the garlic.",
+      "secondary_message": "57 g squid tentacles, divided\n1 shallot\n4 (20 g) cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "To Clean Squid: If using whole, intact squid, clean each squid by gently pulling the head and tentacles from the body section. Discard heads and reserve tentacles for filling. Pull out the long, transparent squid pen (plastic-like inner tube). Remove the insides and rinse well under cold water. Pat squid dry with paper towels. Chop 57 g of tentacles into small pieces. Set aside.",

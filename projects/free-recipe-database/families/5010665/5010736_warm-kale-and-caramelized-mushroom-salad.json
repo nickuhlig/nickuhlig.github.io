@@ -42,8 +42,9 @@
     },
     {
       "ingredient_id": 2250,
-      "name": "assorted cultivated, trimmed of woody stems and thinly sliced",
-      "quantity": "0.45 kg"
+      "name": "assorted cultivated",
+      "quantity": "0.45 kg",
+      "prep": "trimmed of woody stems and thinly sliced"
     },
     {
       "ingredient_id": 115,
@@ -62,8 +63,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, thinly sliced",
-      "quantity": "2 medium"
+      "name": "shallots",
+      "quantity": "2 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1698,
@@ -92,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the assorted cultivated of woody stems, then thinly slice it. Thinly slice the shallots.",
+      "secondary_message": "0.45 kg assorted cultivated\n2 medium shallots"
+    },
     {
       "id": 1,
       "primary_message": "Heat 2 tablespoons olive oil in a large skillet over high heat until shimmering. Add mushrooms and cook, stirring occasionally, until they've released all their liquid and are browned, about 10 minutes total, reducing heat if oil starts to smoke excessively. Lower heat to medium, and stir in butter and shallots. Cook, stirring often, until butter is melted and shallots soften and turn translucent, about 4 minutes. Season with salt and pepper. Add sherry and cook until mostly evaporated. Remove from heat and keep warm.",

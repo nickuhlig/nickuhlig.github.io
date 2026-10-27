@@ -44,26 +44,36 @@
     },
     {
       "ingredient_id": 2612,
-      "name": "long pepper, toasted and freshly ground",
-      "quantity": "1 ½ tsp"
+      "name": "long pepper",
+      "quantity": "1 ½ tsp",
+      "prep": "toasted and freshly ground"
     },
     {
       "ingredient_id": 76,
-      "name": "coriander, toasted and freshly ground",
-      "quantity": "1 ½ tsp"
+      "name": "coriander",
+      "quantity": "1 ½ tsp",
+      "prep": "toasted and freshly ground"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "zested"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Toast and freshly grind the long pepper. Toast and freshly grind the coriander. Mince the garlic. Zest the lemon.",
+      "secondary_message": "1 ½ tsp long pepper\n1 ½ tsp coriander\n4 cloves garlic\n1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "Turn on broiler and adjust rack to 10 to 15 cm from heat source. Trim bottom two inches off asparagus, rub with oil, and season well with salt. Arrange in a single layer in an oven-safe skillet or baking sheet.",

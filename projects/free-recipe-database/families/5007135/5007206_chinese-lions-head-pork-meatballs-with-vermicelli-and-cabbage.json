@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 2478,
-      "name": "firm tofu, cut into 1/4-inch slices",
-      "quantity": "113 g"
+      "name": "firm tofu",
+      "quantity": "113 g",
+      "prep": "cut into 1/4-inch slices"
     },
     {
       "ingredient_id": 341,
@@ -55,8 +56,9 @@
     },
     {
       "ingredient_id": 21,
-      "name": "drained canned water chestnuts, diced",
-      "quantity": "¼ cup"
+      "name": "drained canned water chestnuts",
+      "quantity": "¼ cup",
+      "prep": "diced"
     },
     {
       "ingredient_id": 221,
@@ -120,8 +122,9 @@
     },
     {
       "ingredient_id": 285,
-      "name": "baby bok choy, halved",
-      "quantity": "5 heads"
+      "name": "baby bok choy",
+      "quantity": "5 heads",
+      "prep": "halved"
     },
     {
       "ingredient_id": 292,
@@ -135,6 +138,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the firm tofu into 1/4-inch slices. Dice the drained canned water chestnuts. Halve the baby bok choy.",
+      "secondary_message": "113 g firm tofu\n¼ cup drained canned water chestnuts\n5 heads baby bok choy"
+    },
     {
       "id": 1,
       "primary_message": "Place tofu slices in a heatproof bowl, and pour boiling water on top to cover. Let stand for 30 seconds. Drain and transfer tofu to a paper towel-lined plate. Press gently on the tofu with paper towels to dry thoroughly.",

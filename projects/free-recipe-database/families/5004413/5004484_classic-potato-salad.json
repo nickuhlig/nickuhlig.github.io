@@ -47,9 +47,10 @@
   "ingredients": [
     {
       "ingredient_id": 1039,
-      "name": "russet potatoes, peeled and cut into 3/4 inch cubes",
+      "name": "russet potatoes",
       "quantity": "9 medium",
-      "weigh_as": "1.8 kg"
+      "weigh_as": "1.8 kg",
+      "prep": "peeled and cut into 3/4 inch cubes"
     },
     {
       "ingredient_id": 88,
@@ -68,14 +69,16 @@
     },
     {
       "ingredient_id": 157,
-      "name": "celery, finely diced",
-      "quantity": "3 ribs"
+      "name": "celery",
+      "quantity": "3 ribs",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, finely diced",
+      "name": "red onion",
       "quantity": "2 medium",
-      "weigh_as": "225 g"
+      "weigh_as": "225 g",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 2091,
@@ -99,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the russet potatoes into 3/4 inch cubes. Finely dice the celery. Finely dice the red onion.",
+      "secondary_message": "9 medium russet potatoes\n3 ribs celery\n2 medium red onion"
+    },
     {
       "id": 1,
       "primary_message": "Add 2 quarts water to a large saucepan. Add potatoes, 2 tablespoons kosher salt, 2 tablespoons sugar, and 2 tablespoons vinegar. Bring to a boil over high heat. Reduce to simmer, and cook, stirring occasionally, until potatoes are tender, about 10 minutes. Drain potatoes and transfer to rimmed baking sheet. Spread into even layer, then sprinkle with 2 tablespoons vinegar. Allow to cool to room temperature, about 30 minutes.",

@@ -224,13 +224,15 @@
     },
     {
       "ingredient_id": 1773,
-      "name": "iceberg lettuce, finely shredded",
-      "quantity": "2 cups"
+      "name": "iceberg lettuce",
+      "quantity": "2 cups",
+      "prep": "finely shredded"
     },
     {
       "ingredient_id": 1541,
-      "name": "Plum tomato, diced",
-      "quantity": "1"
+      "name": "Plum tomato",
+      "quantity": "1",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1014,
@@ -244,6 +246,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely shred the iceberg lettuce. Dice the Plum tomato.",
+      "secondary_message": "2 cups iceberg lettuce\n1 Plum tomato"
+    },
     {
       "id": 1,
       "primary_message": "For the Crust: In bowl of a food processor, add flour, yeast, and malt powder and pulse until combined, about 5 pulses. With food processor running, add oil and water in a steady stream until dough comes together, about 30 seconds. Stop processing and let dough rest in the bowl for 15 minutes. After the rest, add salt and process until salt is thoroughly incorporated and the dough forms a smooth ball, about 30 seconds more.",

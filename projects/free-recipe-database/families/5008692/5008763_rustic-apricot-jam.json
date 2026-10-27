@@ -55,8 +55,9 @@
   "ingredients": [
     {
       "ingredient_id": 3106,
-      "name": "firm-but-ripe freestone apricots, such as Blenheims, halved and pitted",
-      "quantity": "2.72 kg"
+      "name": "firm-but-ripe freestone apricots, such as Blenheims",
+      "quantity": "2.72 kg",
+      "prep": "halved and pitted"
     },
     {
       "ingredient_id": 346,
@@ -70,6 +71,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve and pit the firm-but-ripe freestone apricots.",
+      "secondary_message": "2.72 kg firm-but-ripe freestone apricots, such as Blenheims"
+    },
     {
       "id": 1,
       "primary_message": "In a large stainless steel or glass mixing bowl, combine apricots, sugar, and 43 g (3 tablespoons) lemon juice and mix until all the sugar is moistened; if some sugar remains dry, allow to macerate until fruit has released enough juices to moisten sugar, 5 to 15 minutes.",

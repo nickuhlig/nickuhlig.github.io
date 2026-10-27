@@ -39,8 +39,9 @@
     },
     {
       "ingredient_id": 1693,
-      "name": "perfect refried beans, cooled",
-      "quantity": "1 recipe"
+      "name": "perfect refried beans",
+      "quantity": "1 recipe",
+      "prep": "cooled"
     },
     {
       "ingredient_id": 2036,
@@ -59,6 +60,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cool the perfect refried beans.",
+      "secondary_message": "1 recipe perfect refried beans"
+    },
     {
       "id": 1,
       "primary_message": "Using wet hands, roll masa dough into 15 golf-ball-sized balls. Place balls on a baking sheet and cover with a moist towel. Working with one ball at a time, use your thumb to press a deep indent into the ball, then use your hands to work it into a small \"bowl\" with a 0.5-cm-thick edge.",

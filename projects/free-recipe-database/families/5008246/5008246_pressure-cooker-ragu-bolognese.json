@@ -62,33 +62,39 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely minced",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, finely chopped",
-      "quantity": "2 large"
+      "name": "carrots",
+      "quantity": "2 large",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, finely chopped",
-      "quantity": "2 large stalks"
+      "name": "celery",
+      "quantity": "2 large stalks",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2015,
-      "name": "fresh sage leaves, minced",
-      "quantity": "¼ cup"
+      "name": "fresh sage leaves",
+      "quantity": "¼ cup",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1808,
-      "name": "fresh parsley leaves, minced , divided",
-      "quantity": "½ cup"
+      "name": "fresh parsley leaves, divided",
+      "quantity": "½ cup",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2178,
@@ -147,8 +153,9 @@
     },
     {
       "ingredient_id": 1746,
-      "name": "fresh basil leaves, minced",
-      "quantity": "¼ cup"
+      "name": "fresh basil leaves",
+      "quantity": "¼ cup",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1751,
@@ -162,6 +169,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the onion. Finely chop the carrots. Finely chop the celery. Mince the garlic. Mince the fresh sage leaves. Mince the fresh parsley leaves. Mince the fresh basil leaves.",
+      "secondary_message": "1 large onion\n2 large carrots\n2 large stalks celery\n4 medium cloves garlic\n¼ cup fresh sage leaves\n½ cup fresh parsley leaves, divided\n¼ cup fresh basil leaves"
+    },
     {
       "id": 1,
       "primary_message": "Place stock in a 1-cup liquid measure and sprinkle with gelatin. Set aside.",

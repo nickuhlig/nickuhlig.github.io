@@ -57,8 +57,9 @@
   "ingredients": [
     {
       "ingredient_id": 1608,
-      "name": "brioche bread loaf, cut into 3/4-inch-thick slices",
-      "quantity": "1"
+      "name": "brioche bread loaf",
+      "quantity": "1",
+      "prep": "cut into 3/4-inch-thick slices"
     },
     {
       "ingredient_id": 2038,
@@ -97,6 +98,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the brioche bread loaf into 3/4-inch-thick slices.",
+      "secondary_message": "1 brioche bread loaf"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to top third and lower third position and preheat oven to 120°C (250°F) (120ºC). Set a wire rack inside two 13- by 46-cm rimmed baking sheets. Arrange bread slices in a single layer on racks and bake until bread is dried out, about 20 minutes, flipping bread and rotating baking sheets halfway through. Let cool 10 minutes.",

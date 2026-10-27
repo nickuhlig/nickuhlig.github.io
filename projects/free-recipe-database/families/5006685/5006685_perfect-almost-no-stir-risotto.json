@@ -68,13 +68,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated on a Microplane",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "grated on a Microplane"
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, finely minced",
-      "quantity": "2 small"
+      "name": "shallots",
+      "quantity": "2 small",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 1752,
@@ -98,6 +100,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the garlic on a Microplane. Finely mince the shallots.",
+      "secondary_message": "2 medium cloves garlic\n2 small shallots"
+    },
     {
       "id": 1,
       "primary_message": "Combine rice, chicken stock, and wine in a large bowl. Agitate rice with fingers or a whisk to release starch. Strain through a fine-mesh strainer set in a 2-quart liquid cup measure or another large bowl. Allow to drain 5 minutes, stirring rice occasionally.",

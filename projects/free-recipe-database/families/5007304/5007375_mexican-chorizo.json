@@ -54,13 +54,15 @@
   "ingredients": [
     {
       "ingredient_id": 2712,
-      "name": "pork shoulder, cubed",
-      "quantity": "1.13 kg"
+      "name": "pork shoulder",
+      "quantity": "1.13 kg",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 2660,
-      "name": "pork fat back, cubed",
-      "quantity": "0.23 kg"
+      "name": "pork fat back",
+      "quantity": "0.23 kg",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 2401,
@@ -104,8 +106,9 @@
     },
     {
       "ingredient_id": 133,
-      "name": "cider vinegar, chilled",
-      "quantity": "⅓ cup"
+      "name": "cider vinegar",
+      "quantity": "⅓ cup",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 2628,
@@ -114,6 +117,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cube the pork shoulder. Cube the pork fat back. Keep the cider vinegar cold until you use it.",
+      "secondary_message": "1.13 kg pork shoulder\n0.23 kg pork fat back\n⅓ cup cider vinegar"
+    },
     {
       "id": 1,
       "primary_message": "Place pork and fat in a large bowl. Add in chile powder, salt, garlic, oregano, cinnamon, cumin, black pepper, and cloves. Toss to coat meat with seasonings. Place in refrigerator until ready to grind.",

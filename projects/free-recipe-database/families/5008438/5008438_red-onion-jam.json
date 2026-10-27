@@ -40,9 +40,10 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onions, halved and thinly sliced",
+      "name": "red onions",
       "quantity": "8 medium",
-      "weigh_as": "2 lb"
+      "weigh_as": "2 lb",
+      "prep": "halved and thinly sliced"
     },
     {
       "ingredient_id": 1714,
@@ -76,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve and thinly slice the red onions.",
+      "secondary_message": "8 medium red onions"
+    },
     {
       "id": 1,
       "primary_message": "Heat olive oil in a medium skillet over medium heat until shimmering. Add onions and cook until softened and just translucent, 8 to 10 minutes, stirring occasionally.",

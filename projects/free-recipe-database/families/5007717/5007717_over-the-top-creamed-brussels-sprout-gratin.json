@@ -39,8 +39,9 @@
   "ingredients": [
     {
       "ingredient_id": 302,
-      "name": "bacon, cut into 1/2-inch lardons",
-      "quantity": "½ lb"
+      "name": "bacon",
+      "quantity": "½ lb",
+      "prep": "cut into 1/2-inch lardons"
     },
     {
       "ingredient_id": 115,
@@ -49,13 +50,15 @@
     },
     {
       "ingredient_id": 14,
-      "name": "Brussels sprouts, split in half",
-      "quantity": "2 ½ lb"
+      "name": "Brussels sprouts",
+      "quantity": "2 ½ lb",
+      "prep": "split in half"
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely minced",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 1752,
@@ -79,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the bacon into 1/2-inch lardons. Split the Brussels sprouts in half. Finely mince the shallot.",
+      "secondary_message": "½ lb bacon\n2 ½ lb Brussels sprouts\n1 medium shallot"
+    },
     {
       "id": 1,
       "primary_message": "Heat butter and bacon over medium-high heat in a large straight-sided sauté pan or Dutch oven. Cook, stirring frequently, until well browned, about 8 minutes. Add Brussels sprouts and cook, stirring, until lightly browned, about 4 minutes. Add shallots and cook, stirring, until softened and fragrant, about 1 minute. Add heavy cream and scrape up any browned bits from the bottom of the pan.",

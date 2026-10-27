@@ -54,13 +54,15 @@
     },
     {
       "ingredient_id": 43,
-      "name": "cheddar cheese, grated",
-      "quantity": "113 g"
+      "name": "cheddar cheese",
+      "quantity": "113 g",
+      "prep": "grated"
     },
     {
       "ingredient_id": 120,
-      "name": "Parmesan cheese, grated",
-      "quantity": "28 g"
+      "name": "Parmesan cheese",
+      "quantity": "28 g",
+      "prep": "grated"
     },
     {
       "ingredient_id": 72,
@@ -69,13 +71,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, thinly sliced",
-      "quantity": "2 medium"
+      "name": "garlic cloves",
+      "quantity": "2 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1103,
-      "name": "sliced smoked ham, chopped",
-      "quantity": "113 g"
+      "name": "sliced smoked ham",
+      "quantity": "113 g",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 226,
@@ -89,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the cheddar cheese. Grate the Parmesan cheese. Thinly slice the garlic cloves. Chop the sliced smoked ham.",
+      "secondary_message": "113 g cheddar cheese\n28 g Parmesan cheese\n2 medium garlic cloves\n113 g sliced smoked ham"
+    },
     {
       "id": 1,
       "primary_message": "Bring milk and water to a boil in a medium saucepan over high heat. Stir in grits and the 2 teaspoons of salt, and reduce heat to a bare simmer. Cook, stirring occasionally, until grits are thick and creamy, about 25 minutes. When done, turn off the heat, stir in 4 tablespoons butter and the cheddar and Parmesan cheeses. Season with salt and pepper, and thin with water if the grits have become too thick.",

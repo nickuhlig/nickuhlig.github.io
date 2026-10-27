@@ -39,13 +39,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño pepper, finely chopped",
-      "quantity": "½"
+      "name": "jalapeño pepper",
+      "quantity": "½",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 188,
@@ -59,8 +61,9 @@
     },
     {
       "ingredient_id": 3660,
-      "name": "dried black beans, soaked overnight",
-      "quantity": "½ lb"
+      "name": "dried black beans",
+      "quantity": "½ lb",
+      "prep": "soaked overnight"
     },
     {
       "ingredient_id": 88,
@@ -94,21 +97,30 @@
     },
     {
       "ingredient_id": 183,
-      "name": "avocados, sliced",
-      "quantity": "2"
+      "name": "avocados",
+      "quantity": "2",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, thinly sliced",
-      "quantity": "4"
+      "name": "scallions",
+      "quantity": "4",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 228,
-      "name": "lime, cut into wedges",
-      "quantity": "1"
+      "name": "lime",
+      "quantity": "1",
+      "prep": "cut into wedges"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the onion. Finely chop the jalapeño pepper. Soak the dried black beans overnight. Slice the avocados. Thinly slice the scallions. Cut the lime into wedges.",
+      "secondary_message": "1 medium onion\n½ jalapeño pepper\n½ lb dried black beans\n2 avocados\n4 scallions\n1 lime"
+    },
     {
       "id": 1,
       "primary_message": "For the Black Beans: Heat vegetable oil in a medium saucepan over medium high heat until shimmering. Add onion, jalapeño, cilantro, and cumin. Cook, stirring, until the onions are soft, about 4 minutes. Add the soaked black beans, then add water until the beans are covered by 2 inches and bring to a simmer. Cover and cook, adding water if necessary to keep the beans just covered, until the beans are soft and the liquid has begun to slightly thicken, about 40 minutes. Season to taste with salt, pepper, and lime juice. Beans can be made up to 3 days in advance and reheated before serving.",

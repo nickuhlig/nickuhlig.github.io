@@ -52,8 +52,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 82,
@@ -72,8 +73,9 @@
     },
     {
       "ingredient_id": 1294,
-      "name": "whole peeled tomatoes, crushed by hand into 1/2-inch chunks",
-      "quantity": "1 (28 oz) can"
+      "name": "whole peeled tomatoes",
+      "quantity": "1 (28 oz) can",
+      "prep": "crushed by hand into 1/2-inch chunks"
     },
     {
       "ingredient_id": 1751,
@@ -82,16 +84,24 @@
     },
     {
       "ingredient_id": 1746,
-      "name": "fresh basil leaves, roughly torn large leaves",
-      "quantity": "1 handful small"
+      "name": "fresh basil leaves",
+      "quantity": "1 handful small",
+      "prep": "roughly torn large leaves"
     },
     {
       "ingredient_id": 2583,
-      "name": "aged ricotta salata, finely grated",
-      "quantity": "2 oz"
+      "name": "aged ricotta salata",
+      "quantity": "2 oz",
+      "prep": "finely grated"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic. Crush the whole peeled tomatoes by hand into 1/2-inch chunks. Roughly tear the fresh basil leaves large leaves. Finely grate the aged ricotta salata.",
+      "secondary_message": "3 medium cloves garlic\n1 (28 oz) can whole peeled tomatoes\n1 handful small fresh basil leaves\n2 oz aged ricotta salata"
+    },
     {
       "id": 1,
       "primary_message": "Heat 2 tablespoons olive oil in a 12-inch nonstick or cast iron skillet over medium heat until shimmering. Add as much eggplant as fits in a single layer and season with salt. Cook, shaking pan occasionally, until eggplant is well browned on both sides, about 10 minutes total. Transfer eggplant to a plate and set aside. Repeat with remaining eggplant, adding olive oil as necessary, until all eggplant is browned.",

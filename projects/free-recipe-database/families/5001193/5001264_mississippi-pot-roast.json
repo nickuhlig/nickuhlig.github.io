@@ -39,8 +39,9 @@
   "ingredients": [
     {
       "ingredient_id": 1552,
-      "name": "boneless chuck roast, excess fat trimmed",
-      "quantity": "1.36 kg"
+      "name": "boneless chuck roast",
+      "quantity": "1.36 kg",
+      "prep": "excess fat trimmed"
     },
     {
       "ingredient_id": 88,
@@ -69,13 +70,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed and peeled",
-      "quantity": "5 medium cloves"
+      "name": "garlic",
+      "quantity": "5 medium cloves",
+      "prep": "smashed and peeled"
     },
     {
       "ingredient_id": 1253,
-      "name": "jarred pepperoncini salad peppers, rinsed",
-      "quantity": "6 medium"
+      "name": "jarred pepperoncini salad peppers",
+      "quantity": "6 medium",
+      "prep": "rinsed"
     },
     {
       "ingredient_id": 2934,
@@ -89,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the excess fat of the boneless chuck roast. Smash and peel the garlic. Rinse the jarred pepperoncini salad peppers.",
+      "secondary_message": "1.36 kg boneless chuck roast\n5 medium cloves garlic\n6 medium jarred pepperoncini salad peppers"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lowest position, and preheat oven to 150°C (300°F). Place chuck roast, flat side down, on a cutting board; cut in half horizontally to create 2 steaks. Season all over with salt and black pepper. In a large Dutch oven, heat oil over medium-high heat until shimmering. Working with one piece at a time, sear chuck roast steaks until deeply browned on both sides, 5 to 8 minutes per side, reducing heat as needed to prevent overbrowning. Transfer chuck roast to a 9- by 33-cm rimmed baking sheet. Remove Dutch oven from heat, and carefully pour drippings into a small heatproof bowl to cool; discard.",

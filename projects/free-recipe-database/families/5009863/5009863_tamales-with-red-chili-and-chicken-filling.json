@@ -31,23 +31,27 @@
   "ingredients": [
     {
       "ingredient_id": 2885,
-      "name": "guajillo chiles, stemmed and seeded",
-      "quantity": "6 medium"
+      "name": "guajillo chiles",
+      "quantity": "6 medium",
+      "prep": "stemmed and seeded"
     },
     {
       "ingredient_id": 2541,
-      "name": "ancho chiles, stemmed and seeded",
-      "quantity": "3 medium"
+      "name": "ancho chiles",
+      "quantity": "3 medium",
+      "prep": "stemmed and seeded"
     },
     {
       "ingredient_id": 1776,
-      "name": "chiles de arbol, stemmed and seeded",
-      "quantity": "3"
+      "name": "chiles de arbol",
+      "quantity": "3",
+      "prep": "stemmed and seeded"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed and peeled",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "smashed and peeled"
     },
     {
       "ingredient_id": 186,
@@ -86,11 +90,18 @@
     },
     {
       "ingredient_id": 2201,
-      "name": "dried corn husks, soaked in water for at least 1 hour",
-      "quantity": "3 dozen"
+      "name": "dried corn husks",
+      "quantity": "3 dozen",
+      "prep": "soaked in water for at least 1 hour"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem and seed the guajillo chiles. Stem and seed the ancho chiles. Stem and seed the chiles de arbol. Smash and peel the garlic. Soak the dried corn husks in water for at least 1 hour.",
+      "secondary_message": "6 medium guajillo chiles\n3 medium ancho chiles\n3 chiles de arbol\n4 medium cloves garlic\n3 dozen dried corn husks"
+    },
     {
       "id": 1,
       "primary_message": "Combine all the dried chiles in a large Dutch oven or cast iron skillet and cook over medium-high heat, flipping chiles frequently, until slightly darkened and aromatic, about 3 minutes.",

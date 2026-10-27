@@ -41,9 +41,10 @@
   "ingredients": [
     {
       "ingredient_id": 26,
-      "name": "asparagus, trimmed and cut into 2-inch pieces",
+      "name": "asparagus",
       "quantity": "1 bunch",
-      "weigh_as": "1 lb"
+      "weigh_as": "1 lb",
+      "prep": "trimmed and cut into 2-inch pieces"
     },
     {
       "ingredient_id": 47,
@@ -62,16 +63,24 @@
     },
     {
       "ingredient_id": 1612,
-      "name": "Cotija cheese, crumbled",
-      "quantity": "2 oz"
+      "name": "Cotija cheese",
+      "quantity": "2 oz",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 228,
-      "name": "lime, cut into wedges",
-      "quantity": "1"
+      "name": "lime",
+      "quantity": "1",
+      "prep": "cut into wedges"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim and cut the asparagus into 2-inch pieces. Crumble the Cotija cheese. Cut the lime into wedges.",
+      "secondary_message": "1 bunch asparagus\n2 oz Cotija cheese\n1 lime"
+    },
     {
       "id": 1,
       "primary_message": "Preheat broiler to high. Toss asparagus, oil, and 2/3 of cheese in a large bowl. Season with salt and pepper. Transfer to a foil-lined rimmed baking sheet. Broil 2 inches from element until tender and well charred, 4 to 8 minutes total, shaking occasionally. Transfer to a bowl, toss with remaining cheese and serve with lime wedges.",

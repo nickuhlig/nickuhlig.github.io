@@ -91,8 +91,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1903,
@@ -101,8 +102,9 @@
     },
     {
       "ingredient_id": 2006,
-      "name": "vanillav paste, scraped seeds of 1/2 vanilla pod",
-      "quantity": "1 tsp"
+      "name": "vanillav paste",
+      "quantity": "1 tsp",
+      "prep": "scraped seeds of 1/2 vanilla pod"
     },
     {
       "ingredient_id": 2280,
@@ -121,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the eggs to room temperature. Scrape the vanillav paste seeds of 1/2 vanilla pod.",
+      "secondary_message": "4 large eggs\n1 tsp vanillav paste"
+    },
     {
       "id": 1,
       "primary_message": "For the Caramel: Adjust the oven rack to middle position and preheat oven to 145°C (300°F). Set six 170 g ramekins into a 9- by 33-cm baking dish or roasting pan. In a heavy-bottomed small saucepan, heat sugar and water over low heat, swirling occasionally, until sugar dissolves, about 5 minutes. Don’t stir the caramel, which could make the sugar crystallize.",

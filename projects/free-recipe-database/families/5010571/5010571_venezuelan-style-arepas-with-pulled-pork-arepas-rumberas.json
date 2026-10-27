@@ -44,23 +44,27 @@
     },
     {
       "ingredient_id": 2164,
-      "name": "boneless pork shoulder, cut into 2-inch cubes",
-      "quantity": "1 ½ lb"
+      "name": "boneless pork shoulder",
+      "quantity": "1 ½ lb",
+      "prep": "cut into 2-inch cubes"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated on microplane grater",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "grated on microplane grater"
     },
     {
       "ingredient_id": 2066,
-      "name": "roasted poblano, fresh, frozen, or canned, finely chopped",
-      "quantity": "1"
+      "name": "roasted poblano, fresh, or canned",
+      "quantity": "1",
+      "prep": "frozen, finely chopped"
     },
     {
       "ingredient_id": 1505,
@@ -99,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the boneless pork shoulder into 2-inch cubes. Finely chop the onion. Grate the garlic on microplane grater. Keep the roasted poblano frozen until you use it. Finely chop the roasted poblano.",
+      "secondary_message": "1 ½ lb boneless pork shoulder\n1 small onion\n2 medium cloves garlic\n1 roasted poblano, fresh, or canned"
+    },
     {
       "id": 1,
       "primary_message": "Heat vegetable oil in a large Dutch oven over high heat until smoking. Add pork shoulder and brown on all sides, about 10 minutes total. Transfer to a large plate.",

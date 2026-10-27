@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and ends trimmed",
-      "quantity": "2 medium"
+      "name": "carrots",
+      "quantity": "2 medium",
+      "prep": "peeled and ends trimmed"
     },
     {
       "ingredient_id": 88,
@@ -72,8 +73,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "hard-boiled eggs, finely chopped",
-      "quantity": "5 large"
+      "name": "hard-boiled eggs",
+      "quantity": "5 large",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 267,
@@ -92,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the carrots, then trim the ends. Finely chop the hard-boiled eggs.",
+      "secondary_message": "2 medium carrots\n5 large hard-boiled eggs"
+    },
     {
       "id": 1,
       "primary_message": "In a large pot, cover potatoes and carrots with cold water and season generously with salt. Bring to a boil over high heat, then reduce to a gentle simmer and cook until the potatoes are easily pierced with a knife and the carrots are fully tender, 20 to 30 minutes. Using a slotted spoon, transfer potatoes and carrots to a cutting board and let sit until cool enough to handle, about 20 minutes; do not drain cooking water.",

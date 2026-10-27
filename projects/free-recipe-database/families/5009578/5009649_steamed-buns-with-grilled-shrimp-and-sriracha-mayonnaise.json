@@ -48,8 +48,9 @@
   "ingredients": [
     {
       "ingredient_id": 1811,
-      "name": "shrimp, shelled and deveined",
-      "quantity": "24 large"
+      "name": "shrimp",
+      "quantity": "24 large",
+      "prep": "shelled and deveined"
     },
     {
       "ingredient_id": 348,
@@ -68,8 +69,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced, divided",
-      "quantity": "2 medium cloves"
+      "name": "garlic, divided",
+      "quantity": "2 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1007,
@@ -78,13 +80,15 @@
     },
     {
       "ingredient_id": 2088,
-      "name": "hot red chile, such as Thai bird, thinly sliced",
-      "quantity": "1 small"
+      "name": "hot red chile, such as Thai bird",
+      "quantity": "1 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, thinly sliced",
-      "quantity": "2"
+      "name": "scallions",
+      "quantity": "2",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 72,
@@ -123,6 +127,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shell and devein the shrimp. Mince the garlic. Thinly slice the hot red chile. Thinly slice the scallions.",
+      "secondary_message": "24 large shrimp\n2 medium cloves garlic, divided\n1 small hot red chile, such as Thai bird\n2 scallions"
+    },
     {
       "id": 1,
       "primary_message": "For the Shrimp: Combine shrimp, baking soda, salt, and sugar in a medium bowl and toss to coat. Thread shrimp onto sets of 2 skewers, alternating heads to tails and pushing shrimp so that they are nestled snugly together. Place 6 shrimp on each set of 2 skewers. Lay skewers on top of a baking dish so that shrimp are suspended above bottom of dish. Transfer to refrigerator and allow to rest for 1 hour. Meanwhile, combine half of garlic and half of oil in a small bowl. Combine remaining garlic, oil, chile, and scallions in a large bowl. Set aside.",

@@ -48,8 +48,9 @@
   "ingredients": [
     {
       "ingredient_id": 2541,
-      "name": "whole dried ancho chiles, stems and seeds removed",
-      "quantity": "6"
+      "name": "whole dried ancho chiles",
+      "quantity": "6",
+      "prep": "stems and seeds removed"
     },
     {
       "ingredient_id": 1618,
@@ -63,8 +64,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 82,
@@ -73,13 +75,15 @@
     },
     {
       "ingredient_id": 1271,
-      "name": "whole cumin seeds, toasted and ground",
-      "quantity": "1 tbsp"
+      "name": "whole cumin seeds",
+      "quantity": "1 tbsp",
+      "prep": "toasted and ground"
     },
     {
       "ingredient_id": 1514,
-      "name": "whole coriander seeds, toasted and ground",
-      "quantity": "1 tsp"
+      "name": "whole coriander seeds",
+      "quantity": "1 tsp",
+      "prep": "toasted and ground"
     },
     {
       "ingredient_id": 351,
@@ -123,8 +127,9 @@
     },
     {
       "ingredient_id": 321,
-      "name": "corn tortillas, heated and kept warm",
-      "quantity": "40"
+      "name": "corn tortillas",
+      "quantity": "40",
+      "prep": "heated and kept warm"
     },
     {
       "ingredient_id": 1625,
@@ -148,6 +153,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the stems and seeds from the whole dried ancho chiles. Mince the garlic. Toast and grind the whole cumin seeds. Toast and grind the whole coriander seeds. Heat and keep the corn tortillas warm.",
+      "secondary_message": "6 whole dried ancho chiles\n4 medium cloves garlic\n1 tbsp whole cumin seeds\n1 tsp whole coriander seeds\n40 corn tortillas"
+    },
     {
       "id": 1,
       "primary_message": "For the Adobo Marinade: Adjust oven rack to center position and preheat oven to 350°F. Place dried ancho chiles on a microwave-safe plate and microwave until pliable and toasty-smelling, 10 to 20 seconds. Transfer to the jar of a blender and add chipotle peppers, olive oil, garlic, oregano, cumin seeds, coriander seeds, cloves, brown sugar, vinegar, soy sauce, and fish sauce. Blend until a smooth sauce has formed, about 1 minute. Season to taste with salt. Set aside.",

@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 1534,
-      "name": "black olives, cut in half",
-      "quantity": "4 oz"
+      "name": "black olives",
+      "quantity": "4 oz",
+      "prep": "cut in half"
     },
     {
       "ingredient_id": 1766,
@@ -72,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the black olives in half.",
+      "secondary_message": "4 oz black olives"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 400°F. Line springform pan with parchment paper then grease liberally with olive oil.",

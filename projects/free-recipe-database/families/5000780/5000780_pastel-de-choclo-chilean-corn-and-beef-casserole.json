@@ -64,13 +64,15 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, peeled and quartered",
-      "quantity": "1 medium"
+      "name": "white onion",
+      "quantity": "1 medium",
+      "prep": "peeled and quartered"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, peeled and cut into 1-inch pieces",
-      "quantity": "1 medium"
+      "name": "carrot",
+      "quantity": "1 medium",
+      "prep": "peeled and cut into 1-inch pieces"
     },
     {
       "ingredient_id": 82,
@@ -89,8 +91,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, halved",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "halved"
     },
     {
       "ingredient_id": 1270,
@@ -119,8 +122,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onions, finely diced",
-      "quantity": "2 medium"
+      "name": "yellow onions",
+      "quantity": "2 medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 83,
@@ -139,8 +143,9 @@
     },
     {
       "ingredient_id": 303,
-      "name": "raw fresh sweet corn kernels, thawed",
-      "quantity": "10 cups"
+      "name": "raw fresh sweet corn kernels",
+      "quantity": "10 cups",
+      "prep": "thawed"
     },
     {
       "ingredient_id": 118,
@@ -169,8 +174,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "hard-boiled eggs, quartered",
-      "quantity": "2"
+      "name": "hard-boiled eggs",
+      "quantity": "2",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 1534,
@@ -184,8 +190,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 1/4-inch cubes",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "cut into 1/4-inch cubes"
     },
     {
       "ingredient_id": 1809,
@@ -194,6 +201,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and quarter the white onion. Peel and cut the carrot into 1-inch pieces. Halve the garlic. Finely dice the yellow onions. Thaw the raw fresh sweet corn kernels. Quarter the hard-boiled eggs. Cut the unsalted butter into 1/4-inch cubes.",
+      "secondary_message": "1 medium white onion\n1 medium carrot\n1 medium clove garlic\n2 medium yellow onions\n10 cups raw fresh sweet corn kernels\n2 hard-boiled eggs\n2 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Poached Chicken: In a large saucepan, add 1 quart cold water, chicken, onion, carrot, dried oregano, black peppercorns, salt, garlic, and bay leaf and bring to a simmer over medium-high heat. Gently simmer, adjusting heat as needed, until chicken is tender and registers 175℉ (80℃) with a digital thermometer, 20 to 25 minutes.",

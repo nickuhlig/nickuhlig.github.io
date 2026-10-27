@@ -61,13 +61,15 @@
     },
     {
       "ingredient_id": 302,
-      "name": "slab bacon, cut into 1/2- by 1/4-inch lardons",
-      "quantity": "225 g"
+      "name": "slab bacon",
+      "quantity": "225 g",
+      "prep": "cut into 1/2- by 1/4-inch lardons"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, thinly sliced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 447,
@@ -111,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the slab bacon into 1/2- by 1/4-inch lardons. Thinly slice the onion.",
+      "secondary_message": "225 g slab bacon\n1 medium onion"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center position and preheat oven to 180°C (350°F). Season chicken generously with salt and pepper. Heat oil in a 4- to 5-quart straight-sided sauté pan over medium-high heat until shimmering. Add chicken, skin side down, and cook without moving it until well-browned and crisp, about 8 minutes total, lowering heat if it starts to smoke excessively. Flip chicken and brown lightly on second side, about 3 minutes. Transfer chicken to a large plate and set aside.",

@@ -44,14 +44,16 @@
     },
     {
       "ingredient_id": 18,
-      "name": "Thai eggplant, ends trimmed, cut into 1/2-inch cubes",
-      "quantity": "1 lb"
+      "name": "Thai eggplant",
+      "quantity": "1 lb",
+      "prep": "ends trimmed, cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 3064,
-      "name": "Yukon Gold potatoes, peeled, cut into 1/2-inch cubes",
+      "name": "Yukon Gold potatoes",
       "quantity": "¾ medium",
-      "weigh_as": "6 oz"
+      "weigh_as": "6 oz",
+      "prep": "peeled, cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 293,
@@ -65,9 +67,10 @@
     },
     {
       "ingredient_id": 105,
-      "name": "broccoli, ends trimmed, florets cut in half",
+      "name": "broccoli",
       "quantity": "1 ½ crowns",
-      "weigh_as": "8 oz"
+      "weigh_as": "8 oz",
+      "prep": "ends trimmed, florets cut in half"
     },
     {
       "ingredient_id": 1421,
@@ -81,6 +84,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the ends of the Thai eggplant, then cut it into 1/2-inch cubes. Peel and cut the Yukon Gold potatoes into 1/2-inch cubes. Trim the ends of the broccoli, then cut the florets in half.",
+      "secondary_message": "1 lb Thai eggplant\n¾ medium Yukon Gold potatoes\n1 ½ crowns broccoli"
+    },
     {
       "id": 1,
       "primary_message": "Use a spoon to remove 1/2 cup of the cream that has risen to the top of the coconut milk can. Heat cream in a wok over medium-high heat until bubbling. Add massaman curry paste, stir constantly, and cook until the fat starts to separate, about 5 minutes.",

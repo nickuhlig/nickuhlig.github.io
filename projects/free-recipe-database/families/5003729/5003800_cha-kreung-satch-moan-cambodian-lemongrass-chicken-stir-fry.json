@@ -48,13 +48,15 @@
     },
     {
       "ingredient_id": 1815,
-      "name": "galangal, peeled and sliced into thin rounds",
-      "quantity": "1 (7 ½ cm) knob"
+      "name": "galangal",
+      "quantity": "1 (7 ½ cm) knob",
+      "prep": "peeled and sliced into thin rounds"
     },
     {
       "ingredient_id": 3547,
-      "name": "fresh turmeric, peeled and sliced into thin rounds",
-      "quantity": "2 (10 cm) knobs"
+      "name": "fresh turmeric",
+      "quantity": "2 (10 cm) knobs",
+      "prep": "peeled and sliced into thin rounds"
     },
     {
       "ingredient_id": 2244,
@@ -63,13 +65,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, peeled and sliced into thin rounds",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "peeled and sliced into thin rounds"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "5 medium cloves"
+      "name": "garlic",
+      "quantity": "5 medium cloves",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 2422,
@@ -123,6 +127,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and slice the galangal into thin rounds. Peel and slice the fresh turmeric into thin rounds. Peel and slice the shallot into thin rounds. Peel the garlic.",
+      "secondary_message": "1 (7 ½ cm) knob galangal\n2 (10 cm) knobs fresh turmeric\n1 small shallot\n5 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Kreung: Using a large granite mortar and pestle, combine lemongrass, galangal, turmeric, and makrut lime leaves and grind to a smooth but slightly fibrous paste. These are the toughest, most fibrous ingredients in the paste, so it will take 5 to 10 minutes for the paste to form. Once the paste has formed, add shallot and garlic and pound again to smash them into the paste, another 3 to 5 minutes longer. Add basil to the mortar and pound until it is fully incorporated into the paste.",

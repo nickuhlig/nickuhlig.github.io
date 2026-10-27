@@ -114,11 +114,18 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and thinly sliced",
-      "quantity": "½ head"
+      "name": "garlic",
+      "quantity": "½ head",
+      "prep": "peeled and thinly sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and thinly slice the garlic.",
+      "secondary_message": "½ head garlic"
+    },
     {
       "id": 1,
       "primary_message": "Place cucumbers in a large bowl and add salt. Mix and toss until cucumbers start to release a little bit of water, about 1 minute. Let stand for 30 minutes.",

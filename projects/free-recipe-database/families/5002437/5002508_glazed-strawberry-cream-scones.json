@@ -56,8 +56,9 @@
   "ingredients": [
     {
       "ingredient_id": 242,
-      "name": "fresh strawberries, tops removed and quartered",
-      "quantity": "250 g"
+      "name": "fresh strawberries",
+      "quantity": "250 g",
+      "prep": "tops removed and quartered"
     },
     {
       "ingredient_id": 346,
@@ -101,8 +102,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into 1/2-inch cubes",
-      "quantity": "85 g"
+      "name": "cold unsalted butter",
+      "quantity": "85 g",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 1752,
@@ -126,6 +128,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the tops from the fresh strawberries, then quarter them. Cut the cold unsalted butter into 1/2-inch cubes.",
+      "secondary_message": "250 g fresh strawberries\n85 g cold unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Roasted Strawberries: Heat the oven to 200°C (400°F). In an 8-by-20-cm baking dish, combine the strawberries, sugar, sumac, and vanilla extract. Toss until the berries are well coated, then bake for about 15 minutes, or until the berries are tender and slightly syrupy but still plump. Let cool to room temperature, about 30 minutes. When the berries have cooled, use a fork to lightly smash each one until flattened but still holding its shape.",

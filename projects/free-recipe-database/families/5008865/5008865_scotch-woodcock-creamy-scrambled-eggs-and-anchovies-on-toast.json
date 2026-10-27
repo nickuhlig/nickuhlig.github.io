@@ -42,8 +42,9 @@
   "ingredients": [
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "8"
+      "name": "eggs",
+      "quantity": "8",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 2472,
@@ -67,16 +68,24 @@
     },
     {
       "ingredient_id": 191,
-      "name": "bread, toasted",
-      "quantity": "8 slices"
+      "name": "bread",
+      "quantity": "8 slices",
+      "prep": "toasted"
     },
     {
       "ingredient_id": 325,
-      "name": "anchovies, sliced in half",
-      "quantity": "12"
+      "name": "anchovies",
+      "quantity": "12",
+      "prep": "sliced in half"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Beat the eggs. Toast the bread. Slice the anchovies in half.",
+      "secondary_message": "8 eggs\n8 slices bread\n12 anchovies"
+    },
     {
       "id": 1,
       "primary_message": "Whisk together eggs and cream. Heat butter in a large non stick skillet over medium low heat. Once butter has melted, add the eggs and turn the heat to low. Using a rubber spatula, constantly stir the eggs until they have just set. They should have a loose, custardy texture. Season to taste with salt and pepper.",

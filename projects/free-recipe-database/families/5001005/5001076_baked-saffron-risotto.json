@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely diced",
-      "quantity": "½ medium"
+      "name": "yellow onion",
+      "quantity": "½ medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 1930,
@@ -111,13 +112,15 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 2016,
-      "name": "low-moisture mozzarella, diced",
-      "quantity": "0.23 kg"
+      "name": "low-moisture mozzarella",
+      "quantity": "0.23 kg",
+      "prep": "diced"
     },
     {
       "ingredient_id": 119,
@@ -131,6 +134,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the yellow onion. Beat the egg. Dice the low-moisture mozzarella.",
+      "secondary_message": "½ medium yellow onion\n1 large egg\n0.23 kg low-moisture mozzarella"
+    },
     {
       "id": 1,
       "primary_message": "If using store-bought chicken broth or homemade broth that remains watery when chilled, place stock in a large liquid measuring cup and sprinkle gelatin over the top. Set aside.",

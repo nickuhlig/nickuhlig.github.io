@@ -34,8 +34,9 @@
   "ingredients": [
     {
       "ingredient_id": 3642,
-      "name": "egg white, lightly beaten",
-      "quantity": "1 tbsp"
+      "name": "egg white",
+      "quantity": "1 tbsp",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 264,
@@ -54,8 +55,9 @@
     },
     {
       "ingredient_id": 173,
-      "name": "cod fillet, sliced 1/4 inch thick",
-      "quantity": "1/2 lb"
+      "name": "cod fillet",
+      "quantity": "1/2 lb",
+      "prep": "sliced 1/4 inch thick"
     },
     {
       "ingredient_id": 359,
@@ -74,8 +76,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 1337,
@@ -94,9 +97,10 @@
     },
     {
       "ingredient_id": 1301,
-      "name": "yellow squash, sliced 1/8 inch thick",
+      "name": "yellow squash",
       "quantity": "½ medium",
-      "weigh_as": "¼ lb"
+      "weigh_as": "¼ lb",
+      "prep": "sliced 1/8 inch thick"
     },
     {
       "ingredient_id": 26,
@@ -111,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly beat the egg white. Slice the cod fillet 1/4 inch thick. Finely mince the garlic. Slice the yellow squash 1/8 inch thick.",
+      "secondary_message": "1 tbsp egg white\n1/2 lb cod fillet\n1 medium clove garlic\n½ medium yellow squash"
+    },
     {
       "id": 1,
       "primary_message": "For the Cod: In a small bowl, thoroughly combine egg white, cornstarch, rice wine, and salt. Place cod in a bowl and pour cornstarch mixture on top, tossing gently to coat. Refrigerate for 30 minutes.",

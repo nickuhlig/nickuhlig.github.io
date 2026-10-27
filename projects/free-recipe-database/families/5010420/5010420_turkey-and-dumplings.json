@@ -55,23 +55,27 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely sliced",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, cut into 1/2-inch dice",
-      "quantity": "3 medium"
+      "name": "carrots",
+      "quantity": "3 medium",
+      "prep": "cut into 1/2-inch dice"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, cut into 1/2-inch dice",
-      "quantity": "3 medium ribs"
+      "name": "celery",
+      "quantity": "3 medium ribs",
+      "prep": "cut into 1/2-inch dice"
     },
     {
       "ingredient_id": 1740,
-      "name": "leftover roast turkey, torn into bite-size pieces",
-      "quantity": "1 lb"
+      "name": "leftover roast turkey",
+      "quantity": "1 lb",
+      "prep": "torn into bite-size pieces"
     },
     {
       "ingredient_id": 275,
@@ -115,6 +119,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely slice the onion. Cut the carrots into 1/2-inch dice. Cut the celery into 1/2-inch dice. Tear the leftover roast turkey into bite-size pieces.",
+      "secondary_message": "1 large onion\n3 medium carrots\n3 medium ribs celery\n1 lb leftover roast turkey"
+    },
     {
       "id": 1,
       "primary_message": "In a large Dutch oven, heat 3 tablespoons butter over medium-high heat until melted. Add 3 tablespoons flour and cook, stirring constantly, until pale golden brown, about 3 minutes. Slowly whisk in broth. Add gravy, if using, along with onions, carrots, and celery. Bring to a simmer and cook, stirring occasionally, until vegetables are softened, about 10 minutes. Stir in turkey, peas, and half of parsley, and season to taste with pepper and 1 1/2 teaspoons salt. Remove from heat.",

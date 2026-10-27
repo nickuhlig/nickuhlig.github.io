@@ -62,13 +62,15 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into pieces",
-      "quantity": "1 ½ oz"
+      "name": "unsalted butter",
+      "quantity": "1 ½ oz",
+      "prep": "cut into pieces"
     },
     {
       "ingredient_id": 113,
-      "name": "Granny Smith apples, peeled and cut into 1/4-inch pieces",
-      "quantity": "2 large"
+      "name": "Granny Smith apples",
+      "quantity": "2 large",
+      "prep": "peeled and cut into 1/4-inch pieces"
     },
     {
       "ingredient_id": 1480,
@@ -107,8 +109,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, lightly beaten",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 118,
@@ -142,6 +145,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into pieces. Peel and cut the Granny Smith apples into 1/4-inch pieces. Lightly beat the eggs.",
+      "secondary_message": "1 ½ oz unsalted butter\n2 large Granny Smith apples\n2 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "For the Apple Fritters: In a large skillet, melt butter over medium heat. Cook, whisking constantly with a wooden spoon, until milk solids sink to the bottom of the skillet and turn light golden brown, 3 to 4 minutes. Add apples and stir to evenly coat in butter. Cook, stirring occasionally, until apples are crisp-tender and still hold their shape, about 5 minutes. Add lemon juice, 2 tablespoons of the sugar, and a pinch of salt. Cook, stirring constantly, until sugar dissolves and apples are glazed in sugar mixture, about 2 minutes. Transfer apples to a large plate and refrigerate until cool, about 20 minutes.",

@@ -53,13 +53,15 @@
   "ingredients": [
     {
       "ingredient_id": 302,
-      "name": "thick-cut bacon, cut into 1/4-inch pieces",
-      "quantity": "2 slices"
+      "name": "thick-cut bacon",
+      "quantity": "2 slices",
+      "prep": "cut into 1/4-inch pieces"
     },
     {
       "ingredient_id": 1702,
-      "name": "bone-in skin-on chicken thighs, patted dry",
-      "quantity": "0.91 kg"
+      "name": "bone-in skin-on chicken thighs",
+      "quantity": "0.91 kg",
+      "prep": "patted dry"
     },
     {
       "ingredient_id": 88,
@@ -73,23 +75,27 @@
     },
     {
       "ingredient_id": 230,
-      "name": "cremini mushrooms, stemmed and sliced into 1/4-inch pieces",
-      "quantity": "227 g"
+      "name": "cremini mushrooms",
+      "quantity": "227 g",
+      "prep": "stemmed and sliced into 1/4-inch pieces"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely diced",
-      "quantity": "½ medium"
+      "name": "yellow onion",
+      "quantity": "½ medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, cut into a ½-inch dice",
-      "quantity": "1 large"
+      "name": "carrot",
+      "quantity": "1 large",
+      "prep": "cut into a ½-inch dice"
     },
     {
       "ingredient_id": 1720,
-      "name": "celery rib, finely diced",
-      "quantity": "1 large"
+      "name": "celery rib",
+      "quantity": "1 large",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 1008,
@@ -113,6 +119,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the thick-cut bacon into 1/4-inch pieces. Pat the bone-in skin-on chicken thighs dry. Stem and slice the cremini mushrooms into 1/4-inch pieces. Finely dice the yellow onion. Cut the carrot into a ½-inch dice. Finely dice the celery rib.",
+      "secondary_message": "2 slices thick-cut bacon\n0.91 kg bone-in skin-on chicken thighs\n227 g cremini mushrooms\n½ medium yellow onion\n1 large carrot\n1 large celery rib"
+    },
     {
       "id": 1,
       "primary_message": "In a 5-quart Dutch oven set over medium-low heat, cook bacon, stirring occasionally, until fat has rendered and bacon is crispy, about 8 minutes. Using a slotted spoon, transfer bacon to a small bowl. Increase heat to medium-high.",

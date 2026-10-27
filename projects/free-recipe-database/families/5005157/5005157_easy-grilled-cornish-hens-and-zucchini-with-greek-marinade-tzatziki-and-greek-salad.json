@@ -85,8 +85,9 @@
     },
     {
       "ingredient_id": 3654,
-      "name": "fresh oregano leaves, roughly chopped",
-      "quantity": "2 tbsp"
+      "name": "fresh oregano leaves",
+      "quantity": "2 tbsp",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1480,
@@ -100,8 +101,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 47,
@@ -110,8 +112,9 @@
     },
     {
       "ingredient_id": 2324,
-      "name": "zucchini, split in half lengthwise",
-      "quantity": "2 medium"
+      "name": "zucchini",
+      "quantity": "2 medium",
+      "prep": "split in half lengthwise"
     },
     {
       "ingredient_id": 1079,
@@ -125,6 +128,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the fresh oregano leaves. Finely mince the garlic. Split the zucchini in half lengthwise.",
+      "secondary_message": "2 tbsp fresh oregano leaves\n3 medium cloves garlic\n2 medium zucchini"
+    },
     {
       "id": 1,
       "primary_message": "For the Tzatziki: Place cucumber in the center of a clean dish towel and gather edges. Squeeze firmly to remove excess liquid. Transfer cucumber to a bowl. Add yogurt, lemon juice, chopped mint, and olive oil. Season to taste with salt and pepper. Refrigerate until ready to use.",

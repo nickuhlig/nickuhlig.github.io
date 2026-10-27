@@ -107,13 +107,15 @@
     },
     {
       "ingredient_id": 2309,
-      "name": "vegan buttery sticks, melted",
-      "quantity": "115 g"
+      "name": "vegan buttery sticks",
+      "quantity": "115 g",
+      "prep": "melted"
     },
     {
       "ingredient_id": 1610,
-      "name": "silken tofu, drained",
-      "quantity": "340 g"
+      "name": "silken tofu",
+      "quantity": "340 g",
+      "prep": "drained"
     },
     {
       "ingredient_id": 2296,
@@ -162,6 +164,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the vegan buttery sticks. Drain the silken tofu.",
+      "secondary_message": "115 g vegan buttery sticks\n340 g silken tofu"
+    },
     {
       "id": 1,
       "primary_message": "For the Crust: Adjust oven rack to lower-middle position and preheat to 190°C (375°F). Combine graham crackers, sugar, and salt in a food processor bowl and pulse until reduced to fine crumbs, 18 to 22 pulses. Add the melted fat and pulse until fully moistened and resembling wet sand. Pause to scrape down sides of the bowl with a rubber spatula, if needed.",

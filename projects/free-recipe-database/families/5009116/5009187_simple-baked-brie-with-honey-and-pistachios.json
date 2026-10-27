@@ -52,8 +52,9 @@
     },
     {
       "ingredient_id": 3682,
-      "name": "lightly salted pistachios, shelled and roughly chopped",
-      "quantity": "¼ cup"
+      "name": "lightly salted pistachios",
+      "quantity": "¼ cup",
+      "prep": "shelled and roughly chopped"
     },
     {
       "ingredient_id": 103,
@@ -62,6 +63,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shell and roughly chop the lightly salted pistachios.",
+      "secondary_message": "¼ cup lightly salted pistachios"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 180°C (350°F). Using a sharp knife, score top rind of cheese in a crisscross pattern, spacing cuts about 2.5 cm apart.",

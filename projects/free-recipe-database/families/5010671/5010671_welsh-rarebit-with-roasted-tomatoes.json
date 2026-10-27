@@ -45,8 +45,9 @@
   "ingredients": [
     {
       "ingredient_id": 260,
-      "name": "tomatoes, tops sliced off",
-      "quantity": "4 small"
+      "name": "tomatoes",
+      "quantity": "4 small",
+      "prep": "tops sliced off"
     },
     {
       "ingredient_id": 88,
@@ -100,11 +101,18 @@
     },
     {
       "ingredient_id": 475,
-      "name": "sourdough bread, toasted",
-      "quantity": "4 slices"
+      "name": "sourdough bread",
+      "quantity": "4 slices",
+      "prep": "toasted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice off the tops of the tomatoes. Toast the sourdough bread.",
+      "secondary_message": "4 small tomatoes\n4 slices sourdough bread"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat to 375°F. Place tomatoes in a baking dish and sprinkle with salt and pepper. Place in the oven and roast until tomatoes are soft, about 30 minutes.",

@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onions, cut pole to pole into 8 wedges each",
-      "quantity": "2 medium"
+      "name": "red onions",
+      "quantity": "2 medium",
+      "prep": "cut pole to pole into 8 wedges each"
     },
     {
       "ingredient_id": 3481,
@@ -92,14 +93,16 @@
     },
     {
       "ingredient_id": 164,
-      "name": "boneless skinless chicken thighs, cut into large pieces",
-      "quantity": "8 to 10"
+      "name": "boneless skinless chicken thighs",
+      "quantity": "8 to 10",
+      "prep": "cut into large pieces"
     },
     {
       "ingredient_id": 149,
-      "name": "red Gold potatoes, cut into large chunks",
+      "name": "red Gold potatoes",
       "quantity": "3 medium",
-      "weigh_as": "1 ½ lb"
+      "weigh_as": "1 ½ lb",
+      "prep": "cut into large chunks"
     },
     {
       "ingredient_id": 217,
@@ -113,6 +116,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the red onions pole to pole into 8 wedges each. Cut the boneless skinless chicken thighs into large pieces. Cut the red Gold potatoes into large chunks.",
+      "secondary_message": "2 medium red onions\n8 to 10 boneless skinless chicken thighs\n3 medium red Gold potatoes"
+    },
     {
       "id": 1,
       "primary_message": "In a Dutch oven, heat oil over medium-high heat until shimmering. Add onions and cook, stirring occasionally, until softened slightly and golden brown in spots, about 5 minutes. Transfer to a plate.",

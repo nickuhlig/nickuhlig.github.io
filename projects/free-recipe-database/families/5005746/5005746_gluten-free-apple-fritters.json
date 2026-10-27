@@ -77,8 +77,9 @@
     },
     {
       "ingredient_id": 359,
-      "name": "water, warm",
-      "quantity": "¼ cup"
+      "name": "water",
+      "quantity": "¼ cup",
+      "prep": "warm"
     },
     {
       "ingredient_id": 1125,
@@ -87,8 +88,9 @@
     },
     {
       "ingredient_id": 118,
-      "name": "milk, warm",
-      "quantity": "1 cup"
+      "name": "milk",
+      "quantity": "1 cup",
+      "prep": "warm"
     },
     {
       "ingredient_id": 121,
@@ -97,8 +99,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, melted and cooled",
-      "quantity": "2 tbsp"
+      "name": "butter",
+      "quantity": "2 tbsp",
+      "prep": "melted and cooled"
     },
     {
       "ingredient_id": 353,
@@ -122,8 +125,9 @@
     },
     {
       "ingredient_id": 1692,
-      "name": "cooking apples, peeled, cored, and diced",
-      "quantity": "3 large"
+      "name": "cooking apples",
+      "quantity": "3 large",
+      "prep": "peeled, cored, and diced"
     },
     {
       "ingredient_id": 2150,
@@ -157,6 +161,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Warm the water. Warm the milk. Melt the butter and let it cool. Peel, core, and dice the cooking apples.",
+      "secondary_message": "¼ cup water\n1 cup milk\n2 tbsp butter\n3 large cooking apples"
+    },
     {
       "id": 1,
       "primary_message": "For the Dough: In large bowl, whisk together Chebe mix, white rice flour, sweet rice flour, 1/4 cup granulated sugar, cinnamon, xanthan gum, and salt. Set aside.",

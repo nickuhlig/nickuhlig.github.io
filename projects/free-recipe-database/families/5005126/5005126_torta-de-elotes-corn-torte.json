@@ -58,13 +58,15 @@
     },
     {
       "ingredient_id": 27,
-      "name": "fresh corn, husks and silk removed",
-      "quantity": "8 ears"
+      "name": "fresh corn",
+      "quantity": "8 ears",
+      "prep": "husks and silk removed"
     },
     {
       "ingredient_id": 2648,
-      "name": "hominy, drained",
-      "quantity": "2 (29 oz) cans"
+      "name": "hominy",
+      "quantity": "2 (29 oz) cans",
+      "prep": "drained"
     },
     {
       "ingredient_id": 1742,
@@ -73,8 +75,9 @@
     },
     {
       "ingredient_id": 2662,
-      "name": "queso duro, finely grated",
-      "quantity": "12 oz"
+      "name": "queso duro",
+      "quantity": "12 oz",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 346,
@@ -83,13 +86,15 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted and cooled",
-      "quantity": "4 tbsp"
+      "name": "unsalted butter",
+      "quantity": "4 tbsp",
+      "prep": "melted and cooled"
     },
     {
       "ingredient_id": 331,
@@ -103,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the husks and silk from the fresh corn. Drain the hominy. Finely grate the queso duro. Beat the eggs. Melt the unsalted butter and let it cool.",
+      "secondary_message": "8 ears fresh corn\n2 (29 oz) cans hominy\n12 oz queso duro\n4 large eggs\n4 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350°F. Spray 13- by 9-inch baking dish with baking spray.",

@@ -56,8 +56,9 @@
   "ingredients": [
     {
       "ingredient_id": 279,
-      "name": "bone-in York strip steaks, about 1 1/2 inches thick, trimmed",
-      "quantity": "2 lb"
+      "name": "bone-in York strip steaks, about 1 1/2 inches thick",
+      "quantity": "2 lb",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 88,
@@ -91,8 +92,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "6 medium cloves"
+      "name": "garlic",
+      "quantity": "6 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2246,
@@ -126,21 +128,30 @@
     },
     {
       "ingredient_id": 1541,
-      "name": "plum tomato, finely diced",
-      "quantity": "1"
+      "name": "plum tomato",
+      "quantity": "1",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, finely diced",
-      "quantity": "½ small"
+      "name": "red onion",
+      "quantity": "½ small",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 188,
-      "name": "fresh cilantro leaves, minced",
-      "quantity": "½ cup"
+      "name": "fresh cilantro leaves",
+      "quantity": "½ cup",
+      "prep": "minced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the bone-in York strip steaks. Mince the garlic. Finely dice the plum tomato. Finely dice the red onion. Mince the fresh cilantro leaves.",
+      "secondary_message": "2 lb bone-in York strip steaks, about 1 1/2 inches thick\n6 medium cloves garlic\n1 plum tomato\n½ small red onion\n½ cup fresh cilantro leaves"
+    },
     {
       "id": 1,
       "primary_message": "Pat steaks dry with paper towels. Season liberally with salt. Place on a plate or on a rack over a rimmed baking sheet in the refrigerator for at least 30 minutes or up to 48 hours.",

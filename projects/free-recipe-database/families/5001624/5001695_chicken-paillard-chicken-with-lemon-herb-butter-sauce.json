@@ -67,13 +67,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic clove, grated",
-      "quantity": "1 medium"
+      "name": "garlic clove",
+      "quantity": "1 medium",
+      "prep": "grated"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into ½-inch pieces and chilled",
-      "quantity": "5 tbsp (2 ½ oz)"
+      "name": "unsalted butter",
+      "quantity": "5 tbsp (2 ½ oz)",
+      "prep": "cut into ½-inch pieces and chilled"
     },
     {
       "ingredient_id": 2346,
@@ -97,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the garlic clove. Cut the unsalted butter into ½-inch pieces and keep it cold until you use it.",
+      "secondary_message": "1 medium garlic clove\n5 tbsp (2 ½ oz) unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 95°C (200°F). Place a wire rack inside a baking sheet; set aside.",

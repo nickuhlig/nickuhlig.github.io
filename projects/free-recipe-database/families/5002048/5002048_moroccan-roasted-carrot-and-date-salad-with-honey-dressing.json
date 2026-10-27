@@ -47,8 +47,9 @@
   "ingredients": [
     {
       "ingredient_id": 356,
-      "name": "dates, pitted and thinly sliced lengthwise",
-      "quantity": "4 oz"
+      "name": "dates",
+      "quantity": "4 oz",
+      "prep": "pitted and thinly sliced lengthwise"
     },
     {
       "ingredient_id": 47,
@@ -63,8 +64,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced or pressed",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "minced or pressed"
     },
     {
       "ingredient_id": 1574,
@@ -118,11 +120,18 @@
     },
     {
       "ingredient_id": 3224,
-      "name": "mixed seeds, toasted, plus more for serving",
-      "quantity": "⅓ cup"
+      "name": "mixed seeds, plus more for serving",
+      "quantity": "⅓ cup",
+      "prep": "toasted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pit and thinly slice the dates lengthwise. Mince or press the garlic. Toast the mixed seeds.",
+      "secondary_message": "4 oz dates\n3 cloves garlic\n⅓ cup mixed seeds, plus more for serving"
+    },
     {
       "id": 1,
       "primary_message": "For the Carrots and Dates: Adjust oven rack to middle position and preheat the oven to 425°F. In a small bowl, add dates and 1 tablespoon olive oil; set aside.",

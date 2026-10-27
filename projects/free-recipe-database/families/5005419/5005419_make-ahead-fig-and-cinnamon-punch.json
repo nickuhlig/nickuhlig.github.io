@@ -47,8 +47,9 @@
   "ingredients": [
     {
       "ingredient_id": 2888,
-      "name": "dried figs, halved",
-      "quantity": "12 oz"
+      "name": "dried figs",
+      "quantity": "12 oz",
+      "prep": "halved"
     },
     {
       "ingredient_id": 1082,
@@ -72,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the dried figs.",
+      "secondary_message": "12 oz dried figs"
+    },
     {
       "id": 1,
       "primary_message": "At least 1 day before you want to serve the punch, make a large ice block by freezing water (filtered if desired) in a cake pan or tupperware container that will fit in your serving vessel. Alternatively, make several trays of large ice cubes. In addition, you'll want about 4 standard trays of ice cubes for serving.",

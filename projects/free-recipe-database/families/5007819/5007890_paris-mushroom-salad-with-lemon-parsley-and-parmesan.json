@@ -51,13 +51,15 @@
     },
     {
       "ingredient_id": 19,
-      "name": "button mushrooms, wiped clean",
-      "quantity": "255 g"
+      "name": "button mushrooms",
+      "quantity": "255 g",
+      "prep": "wiped clean"
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "zested"
     },
     {
       "ingredient_id": 72,
@@ -86,6 +88,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wipe the button mushrooms clean. Zest the lemon.",
+      "secondary_message": "255 g button mushrooms\n1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "Fit your food processor with the thin slicer attachment. Push the Parmigiano-Reggiano through first, then the parsley, and then the mushrooms. Remove the slicing disc, and put a serving plate over the food processor bowl. Invert the bowl, so the mushroom salad comes out with the mushrooms on the bottom and the parmesan on top.",

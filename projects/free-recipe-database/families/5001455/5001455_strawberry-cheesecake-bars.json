@@ -92,8 +92,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "4 oz"
+      "name": "unsalted butter",
+      "quantity": "4 oz",
+      "prep": "melted"
     },
     {
       "ingredient_id": 242,
@@ -112,13 +113,15 @@
     },
     {
       "ingredient_id": 355,
-      "name": "packages cream cheese, at room temperature",
-      "quantity": "1 ½ lb"
+      "name": "packages cream cheese",
+      "quantity": "1 ½ lb",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 126,
-      "name": "goat cheese, at room temperature",
-      "quantity": "8 oz"
+      "name": "goat cheese",
+      "quantity": "8 oz",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 116,
@@ -147,8 +150,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 359,
@@ -157,6 +161,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Bring the packages cream cheese to room temperature. Bring the goat cheese to room temperature. Bring the eggs to room temperature.",
+      "secondary_message": "4 oz unsalted butter\n1 ½ lb packages cream cheese\n8 oz goat cheese\n4 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position, and preheat oven to 375°F (190ºC). Using baking spray with flour, evenly coat a 9- by 13-inch baking pan. Line bottom and sides with parchment paper, leaving a 2-inch overhang on 2 sides; set aside.",

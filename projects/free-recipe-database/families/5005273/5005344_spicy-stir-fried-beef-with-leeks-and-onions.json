@@ -87,8 +87,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, sliced into 1/8th inch pieces",
-      "quantity": "10 medium cloves"
+      "name": "garlic",
+      "quantity": "10 medium cloves",
+      "prep": "sliced into 1/8th inch pieces"
     },
     {
       "ingredient_id": 1869,
@@ -97,8 +98,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, cut into 1/2-inch dice",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "cut into 1/2-inch dice"
     },
     {
       "ingredient_id": 309,
@@ -112,6 +114,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the garlic into 1/8th inch pieces. Cut the onion into 1/2-inch dice.",
+      "secondary_message": "10 medium cloves garlic\n1 medium onion"
+    },
     {
       "id": 1,
       "primary_message": "Combine beef, cornstarch, black pepper, 1/4 teaspoon sugar, 1 teaspoon Shaoxing wine, 1 teaspoon fish sauce, 1 teaspoon soy sauce, and 1 teaspoon sesame oil in a bowl and toss to combine. cover and refrigerate at least 30 minutes and up to overnight. Combine remaining sugar, soy sauce, fish sauce, Shaoxing wine, and sesame oil, and set aside.",

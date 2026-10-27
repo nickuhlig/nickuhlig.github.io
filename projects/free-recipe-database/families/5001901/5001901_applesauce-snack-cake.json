@@ -82,8 +82,9 @@
     },
     {
       "ingredient_id": 1046,
-      "name": "homemade applesauce, at room temperature",
-      "quantity": "1 cup"
+      "name": "homemade applesauce",
+      "quantity": "1 cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 47,
@@ -102,8 +103,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 221,
@@ -132,6 +134,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the homemade applesauce to room temperature. Bring the eggs to room temperature.",
+      "secondary_message": "1 cup homemade applesauce\n2 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat to 325°F. Line an 8-inch-square metal baking pan with a long strip of parchment to cover the bottom and 2 of the sides, then grease with cooking spray.",

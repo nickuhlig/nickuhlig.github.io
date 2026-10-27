@@ -35,13 +35,15 @@
   "ingredients": [
     {
       "ingredient_id": 24,
-      "name": "garlic, finely chopped",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1810,
-      "name": "fresh red bird’s eye chile peppers, seeded and diced",
-      "quantity": "2"
+      "name": "fresh red bird’s eye chile peppers",
+      "quantity": "2",
+      "prep": "seeded and diced"
     },
     {
       "ingredient_id": 88,
@@ -70,26 +72,36 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, julienned",
-      "quantity": "1 small"
+      "name": "carrot",
+      "quantity": "1 small",
+      "prep": "julienned"
     },
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, halved",
-      "quantity": "237 ml"
+      "name": "cherry tomatoes",
+      "quantity": "237 ml",
+      "prep": "halved"
     },
     {
       "ingredient_id": 113,
-      "name": "Granny Smith apple, halved, cored, and thinly sliced",
-      "quantity": "1"
+      "name": "Granny Smith apple",
+      "quantity": "1",
+      "prep": "halved, cored, and thinly sliced"
     },
     {
       "ingredient_id": 217,
-      "name": "roasted peanuts, coarsely chopped",
-      "quantity": "1 cup"
+      "name": "roasted peanuts",
+      "quantity": "1 cup",
+      "prep": "coarsely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the garlic. Seed and dice the fresh red bird’s eye chile peppers. Julienne the carrot. Halve the cherry tomatoes. Halve, core, and thinly slice the Granny Smith apple. Coarsely chop the roasted peanuts.",
+      "secondary_message": "4 medium cloves garlic\n2 fresh red bird’s eye chile peppers\n1 small carrot\n237 ml cherry tomatoes\n1 Granny Smith apple\n1 cup roasted peanuts"
+    },
     {
       "id": 1,
       "primary_message": "Combine garlic and chile one a work surface and sprinkle 1/4 teaspoon salt on top. Using the side and back of your knife, carefully smash the garlic and chile together to create a paste (see here under \"knife-puréeing\" for visuals and an explanation of the technique).",

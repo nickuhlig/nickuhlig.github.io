@@ -43,13 +43,15 @@
   "ingredients": [
     {
       "ingredient_id": 2025,
-      "name": "chayote, washed and cut into quarters lengthwise",
-      "quantity": "1"
+      "name": "chayote",
+      "quantity": "1",
+      "prep": "washed and cut into quarters lengthwise"
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested",
-      "quantity": "¼"
+      "name": "lemon",
+      "quantity": "¼",
+      "prep": "zested"
     },
     {
       "ingredient_id": 88,
@@ -99,11 +101,18 @@
     },
     {
       "ingredient_id": 3361,
-      "name": "loosely packed red shiso leaves, torn into small pieces",
-      "quantity": "¼ cup"
+      "name": "loosely packed red shiso leaves",
+      "quantity": "¼ cup",
+      "prep": "torn into small pieces"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash and cut the chayote into quarters lengthwise. Zest the lemon. Tear the loosely packed red shiso leaves into small pieces.",
+      "secondary_message": "1 chayote\n¼ lemon\n¼ cup loosely packed red shiso leaves"
+    },
     {
       "id": 1,
       "primary_message": "Using a mandoline or a sharp knife, slice the chayote quarters into the thinnest lengthwise slices you can. In a small bowl, massage the chayote slices with lemon zest, kosher salt, and sugar until evenly coated. Let stand at room temperature for at least 1 hour, or up to 8 hours in the refrigerator. Drain the accumulated liquid and discard.",

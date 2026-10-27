@@ -38,8 +38,9 @@
   "ingredients": [
     {
       "ingredient_id": 1922,
-      "name": "boneless beef chuck, trimmed and cut into 1-inch cubes",
-      "quantity": "1 kg"
+      "name": "boneless beef chuck",
+      "quantity": "1 kg",
+      "prep": "trimmed and cut into 1-inch cubes"
     },
     {
       "ingredient_id": 88,
@@ -58,13 +59,15 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onions, thinly sliced",
-      "quantity": "4 medium"
+      "name": "yellow onions",
+      "quantity": "4 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1469,
@@ -113,6 +116,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim and cut the boneless beef chuck into 1-inch cubes. Thinly slice the yellow onions. Mince the garlic.",
+      "secondary_message": "1 kg boneless beef chuck\n4 medium yellow onions\n3 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Pat beef dry with paper towels and season all over with salt and 1 1/2 teaspoons freshly ground black pepper.",

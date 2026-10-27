@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 184,
-      "name": "red onion, thinly sliced",
-      "quantity": "1 small"
+      "name": "red onion",
+      "quantity": "1 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 130,
@@ -85,13 +86,15 @@
     },
     {
       "ingredient_id": 92,
-      "name": "chickpeas, drained, rinsed, and dried",
-      "quantity": "1 (15 oz) can"
+      "name": "chickpeas, and dried",
+      "quantity": "1 (15 oz) can",
+      "prep": "drained, rinsed"
     },
     {
       "ingredient_id": 2608,
-      "name": "Belgian endive, core removed, thinly sliced lengthwise",
-      "quantity": "1 large"
+      "name": "Belgian endive",
+      "quantity": "1 large",
+      "prep": "core removed, thinly sliced lengthwise"
     },
     {
       "ingredient_id": 157,
@@ -120,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the red onion. Drain and rinse the chickpeas. Remove the core from the Belgian endive, then thinly slice it lengthwise.",
+      "secondary_message": "1 small red onion\n1 (15 oz) can chickpeas, and dried\n1 large Belgian endive"
+    },
     {
       "id": 1,
       "primary_message": "Combine onion, vinegar, and sugar in a small bowl and turn to coat. Set aside for 10 minutes.",

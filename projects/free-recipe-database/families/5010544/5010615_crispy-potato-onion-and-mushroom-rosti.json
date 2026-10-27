@@ -46,18 +46,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely sliced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 19,
-      "name": "button mushrooms, finely sliced",
-      "quantity": "115 g"
+      "name": "button mushrooms",
+      "quantity": "115 g",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated on a Microplane grater",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "grated on a Microplane grater"
     },
     {
       "ingredient_id": 1677,
@@ -76,6 +79,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely slice the onion. Finely slice the button mushrooms. Grate the garlic on a Microplane grater.",
+      "secondary_message": "1 medium onion\n115 g button mushrooms\n2 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Spread potatoes on a large microwave-safe plate and microwave on high heat until hot all the way through and softened but still slightly crunchy, about 5 minutes.",

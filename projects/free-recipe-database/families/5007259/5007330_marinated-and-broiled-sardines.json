@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, washed and thinly sliced",
-      "quantity": "1 (5 cm) piece"
+      "name": "ginger",
+      "quantity": "1 (5 cm) piece",
+      "prep": "washed and thinly sliced"
     },
     {
       "ingredient_id": 47,
@@ -75,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash and thinly slice the ginger.",
+      "secondary_message": "1 (5 cm) piece ginger"
+    },
     {
       "id": 1,
       "primary_message": "Blot sardines on paper towels to remove excess moisture.",

@@ -53,8 +53,9 @@
     },
     {
       "ingredient_id": 1017,
-      "name": "unsweetened chocolate, finely chopped",
-      "quantity": "3 oz"
+      "name": "unsweetened chocolate",
+      "quantity": "3 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 333,
@@ -73,8 +74,9 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "5 oz"
+      "name": "bittersweet chocolate",
+      "quantity": "5 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 88,
@@ -83,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the unsweetened chocolate. Finely chop the bittersweet chocolate.",
+      "secondary_message": "3 oz unsweetened chocolate\n5 oz bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "Lightly grease an 8 by 8-inch or 9 by 9-inch square panpan with butter. In large saucepan over medium heat, melt butter. Add salt, marshmallows, unsweetened chocolate, and cocoa, and melt, stirring frequently. Stir in vanilla.",

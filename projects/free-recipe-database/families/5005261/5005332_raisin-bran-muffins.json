@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, cold",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "cold"
     },
     {
       "ingredient_id": 1193,
@@ -116,6 +117,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the eggs cold until you use them.",
+      "secondary_message": "2 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat to 180°C (350°F). In a large measuring cup, combine wheat bran and boiling water. Let stand 5 minutes, then stir in Greek yogurt and eggs. Meanwhile, combine whole wheat flour, all-purpose flour, sugar, cinnamon, baking powder, salt, baking soda, nutmeg, and butter in the bowl of a stand mixer fitted with a paddle attachment. Mix on low speed until the butter is incorporated, then add bran mixture and continue only until the batter is well combined. With a flexible spatula, scrape the bowl and fold the batter once or twice to make sure it's well mixed from the bottom up, then fold in the raisins if using.",

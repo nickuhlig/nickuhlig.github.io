@@ -57,13 +57,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, chopped medium",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "chopped medium"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "1 clove"
+      "name": "garlic",
+      "quantity": "1 clove",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2070,
@@ -112,6 +114,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the onion medium. Mince the garlic.",
+      "secondary_message": "1 medium onion\n1 clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in a medium saucepan over medium heat until shimmering. Add in the onion and cook, stirring occasionally, until softened but not browned, 5 to 8 minutes. Add in the garlic and stir until fragrant, about 30 seconds. Add the tomato purée, brown sugar, vinegar, tomato paste, salt, mustard, cloves, allspice, and cayenne pepper and stir to combine. Bring to a boil, then reduce heat to low and simmer, stirring occasionally, until thickened to the consistency of ketchup, 45 to 60 minutes.",

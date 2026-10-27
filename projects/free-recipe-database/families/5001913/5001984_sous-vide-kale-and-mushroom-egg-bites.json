@@ -74,8 +74,9 @@
     },
     {
       "ingredient_id": 1236,
-      "name": "Swiss cheese, shredded",
-      "quantity": "45 g"
+      "name": "Swiss cheese",
+      "quantity": "45 g",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 448,
@@ -119,6 +120,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shred the Swiss cheese.",
+      "secondary_message": "45 g Swiss cheese"
+    },
     {
       "id": 1,
       "primary_message": "Prepare a thermocirculator and water bath according to manufacturer's directions (you can use a 18-by-12-by 23-cm plastic container such as a Cambro, large Dutch oven, or large pot). Set circulator to 78°C (172°F), and allow water bath to come up to temperature.",

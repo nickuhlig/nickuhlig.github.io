@@ -76,8 +76,9 @@
     },
     {
       "ingredient_id": 1436,
-      "name": "green grapes, peeled or halved",
-      "quantity": "1 (454 g) small bunch"
+      "name": "green grapes",
+      "quantity": "1 (454 g) small bunch",
+      "prep": "peeled or halved"
     },
     {
       "ingredient_id": 1567,
@@ -86,8 +87,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 116,
@@ -136,13 +138,15 @@
     },
     {
       "ingredient_id": 157,
-      "name": "celery, cut into 1-inch chunks, leaves reserved",
-      "quantity": "1 (765 g) bunch"
+      "name": "celery",
+      "quantity": "1 (765 g) bunch",
+      "prep": "cut into 1-inch chunks, leaves reserved"
     },
     {
       "ingredient_id": 2558,
-      "name": "celery root, peeled and cut into 1-inch chunks",
-      "quantity": "1 (280 g) medium"
+      "name": "celery root",
+      "quantity": "1 (280 g) medium",
+      "prep": "peeled and cut into 1-inch chunks"
     },
     {
       "ingredient_id": 1692,
@@ -166,6 +170,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel or halve the green grapes. Soften the unsalted butter. Cut the celery into 1-inch chunks, then reserve the leaves. Peel and cut the celery root into 1-inch chunks.",
+      "secondary_message": "1 (454 g) small bunch green grapes\n2 tbsp unsalted butter\n1 (765 g) bunch celery\n1 (280 g) medium celery root"
+    },
     {
       "id": 1,
       "primary_message": "For the Pickled Grapes: In a small saucepan, bring sherry vinegar, sugar, salt, and 1 cup water just to a simmer, to dissolve salt and sugar. Remove from heat and let cool. Place grapes in a nonreactive heatproof bowl and pour pickling liquid on top. Lay a paper towel directly against surface to submerge grapes. Let grapes marinate at room temperature for at least 30 minutes and preferably overnight.",

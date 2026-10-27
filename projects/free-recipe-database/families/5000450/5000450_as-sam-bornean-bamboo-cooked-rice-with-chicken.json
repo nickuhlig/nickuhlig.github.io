@@ -38,8 +38,9 @@
     },
     {
       "ingredient_id": 1230,
-      "name": "bone-in skin-on chicken, cut into 2-inch cubes",
-      "quantity": "1 ¾ lb"
+      "name": "bone-in skin-on chicken",
+      "quantity": "1 ¾ lb",
+      "prep": "cut into 2-inch cubes"
     },
     {
       "ingredient_id": 1816,
@@ -48,8 +49,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "peeled fresh ginger, pounded",
-      "quantity": "1 (2 inch) piece"
+      "name": "peeled fresh ginger",
+      "quantity": "1 (2 inch) piece",
+      "prep": "pounded"
     },
     {
       "ingredient_id": 24,
@@ -73,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the bone-in skin-on chicken into 2-inch cubes. Pound the peeled fresh ginger.",
+      "secondary_message": "1 ¾ lb bone-in skin-on chicken\n1 (2 inch) piece peeled fresh ginger"
+    },
     {
       "id": 1,
       "primary_message": "In a rice cooker or saucepan, cook rice according to package instructions. Once cooked, set aside to cool to room temperature with the lid off, about 30 minutes, then fluff with a spatula or spoon.",

@@ -68,8 +68,9 @@
   "ingredients": [
     {
       "ingredient_id": 116,
-      "name": "all-purpose flour, sifted",
-      "quantity": "2 cups"
+      "name": "all-purpose flour",
+      "quantity": "2 cups",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 331,
@@ -78,8 +79,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, separated and at room temperature",
-      "quantity": "6 large"
+      "name": "eggs",
+      "quantity": "6 large",
+      "prep": "separated and at room temperature"
     },
     {
       "ingredient_id": 88,
@@ -93,8 +95,9 @@
     },
     {
       "ingredient_id": 118,
-      "name": "milk, at room temperature",
-      "quantity": "½ cup"
+      "name": "milk",
+      "quantity": "½ cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 353,
@@ -138,8 +141,9 @@
     },
     {
       "ingredient_id": 3642,
-      "name": "egg whites, at room temperature",
-      "quantity": "6 large"
+      "name": "egg whites",
+      "quantity": "6 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 88,
@@ -153,6 +157,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Sift the all-purpose flour. Separate the eggs and bring them to room temperature. Bring the milk to room temperature. Bring the egg whites to room temperature.",
+      "secondary_message": "2 cups all-purpose flour\n6 large eggs\n½ cup milk\n6 large egg whites"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Adjust oven rack to middle position and preheat oven to 325°F.",

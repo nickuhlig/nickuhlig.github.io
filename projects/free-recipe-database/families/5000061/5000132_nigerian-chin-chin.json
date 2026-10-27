@@ -91,8 +91,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cold",
-      "quantity": "102 g"
+      "name": "unsalted butter",
+      "quantity": "102 g",
+      "prep": "cold"
     },
     {
       "ingredient_id": 1044,
@@ -101,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the unsalted butter cold until you use it.",
+      "secondary_message": "102 g unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, whisk together milk and vanilla extract until well combined and set aside.",

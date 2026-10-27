@@ -68,23 +68,27 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, peeled and roughly diced",
-      "quantity": "1 large"
+      "name": "carrot",
+      "quantity": "1 large",
+      "prep": "peeled and roughly diced"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, roughly diced",
-      "quantity": "1 stalk"
+      "name": "celery",
+      "quantity": "1 stalk",
+      "prep": "roughly diced"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, chopped",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 323,
@@ -138,14 +142,16 @@
     },
     {
       "ingredient_id": 3064,
-      "name": "Yukon Gold potatoes, peeled and chopped",
+      "name": "Yukon Gold potatoes",
       "quantity": "4 medium",
-      "weigh_as": "2 lb"
+      "weigh_as": "2 lb",
+      "prep": "peeled and chopped"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "1 stick"
+      "name": "unsalted butter",
+      "quantity": "1 stick",
+      "prep": "melted"
     },
     {
       "ingredient_id": 1752,
@@ -159,6 +165,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and roughly dice the carrot. Roughly dice the celery. Chop the onion. Mince the garlic. Peel and chop the Yukon Gold potatoes. Melt the unsalted butter.",
+      "secondary_message": "1 large carrot\n1 stalk celery\n1 large onion\n3 cloves garlic\n4 medium Yukon Gold potatoes\n1 stick unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower-middle position and preheat oven to 325°F.",

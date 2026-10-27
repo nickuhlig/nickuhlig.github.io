@@ -33,9 +33,10 @@
   "ingredients": [
     {
       "ingredient_id": 1039,
-      "name": "russet gold potatoes, cut into 3/4- to 1/2-inch dice",
+      "name": "russet gold potatoes",
       "quantity": "3 medium",
-      "weigh_as": "0.68 kg"
+      "weigh_as": "0.68 kg",
+      "prep": "cut into 3/4- to 1/2-inch dice"
     },
     {
       "ingredient_id": 1574,
@@ -49,8 +50,9 @@
     },
     {
       "ingredient_id": 1754,
-      "name": "Spanish chorizo, diced",
-      "quantity": "113 g"
+      "name": "Spanish chorizo",
+      "quantity": "113 g",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1044,
@@ -79,8 +81,9 @@
     },
     {
       "ingredient_id": 2066,
-      "name": "poblano pepper, cut into 1/2-inch dice",
-      "quantity": "1"
+      "name": "poblano pepper",
+      "quantity": "1",
+      "prep": "cut into 1/2-inch dice"
     },
     {
       "ingredient_id": 121,
@@ -99,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the russet gold potatoes into 3/4- to 1/2-inch dice. Dice the Spanish chorizo. Cut the poblano pepper into 1/2-inch dice.",
+      "secondary_message": "3 medium russet gold potatoes\n113 g Spanish chorizo\n1 poblano pepper"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 190°C (375°F). Place potatoes in a large saucepan and cover with 2 quarts cold water. Add vinegar and 2 tablespoons kosher salt. Bring to a boil over high heat. Reduce to a simmer and cook until barely tender, about 5 minutes after coming to a boil. Drain potatoes in a colander and let drain for 2 minutes.",

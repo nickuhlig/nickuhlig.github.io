@@ -53,9 +53,10 @@
     },
     {
       "ingredient_id": 1692,
-      "name": "apples, such as Fuji or Cortland, chopped",
+      "name": "apples, such as Fuji or Cortland",
       "quantity": "2 ½",
-      "weigh_as": "0.45 kg"
+      "weigh_as": "0.45 kg",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 88,
@@ -94,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the apples.",
+      "secondary_message": "2 ½ apples, such as Fuji or Cortland"
+    },
     {
       "id": 1,
       "primary_message": "In a large, heavy saucepan, melt butter on medium heat until foam subsides, then raise heat to high and stir in apples and 1/4 teaspoon salt. Cook, stirring frequently, until apples begin to break down into something like applesauce, about 15 minutes. Reduce heat to medium and continue to cook until apples become a relatively smooth sauce that can be dragged across the bottom of the pan with a wooden spoon. Add 1/4 cup sugar, increase heat to high, and cook until apples turn a dark caramel color, 2 to 3 minutes. Stir frequently to avoid burning.",

@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "2 medium"
+      "name": "garlic cloves",
+      "quantity": "2 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 88,
@@ -106,23 +107,27 @@
     },
     {
       "ingredient_id": 230,
-      "name": "cremini mushrooms, washed, trimmed and quartered",
-      "quantity": "225 g"
+      "name": "cremini mushrooms",
+      "quantity": "225 g",
+      "prep": "washed, trimmed and quartered"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell pepper, cored and cut into 1-inch pieces",
-      "quantity": "1 medium"
+      "name": "red bell pepper",
+      "quantity": "1 medium",
+      "prep": "cored and cut into 1-inch pieces"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, roughly chopped",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1265,
-      "name": "baby green leaf lettuce, washed and dried",
-      "quantity": "113 g"
+      "name": "baby green leaf lettuce",
+      "quantity": "113 g",
+      "prep": "washed and dried"
     },
     {
       "ingredient_id": 1189,
@@ -131,6 +136,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic cloves. Wash, trim, and quarter the cremini mushrooms. Core and cut the red bell pepper into 1-inch pieces. Roughly chop the yellow onion. Wash and dry the baby green leaf lettuce.",
+      "secondary_message": "2 medium garlic cloves\n225 g cremini mushrooms\n1 medium red bell pepper\n1 medium yellow onion\n113 g baby green leaf lettuce"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to upper-middle position and preheat the oven to 500℉ (260℃). Set a rimmed baking sheet in the oven while the oven preheats.",

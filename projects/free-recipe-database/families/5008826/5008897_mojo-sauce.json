@@ -33,8 +33,9 @@
   "ingredients": [
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "8 cloves"
+      "name": "garlic",
+      "quantity": "8 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 88,
@@ -68,6 +69,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic.",
+      "secondary_message": "8 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Place garlic in mortar and pestle. Add 1/2 teaspoon of salt and work into a smooth paste.",

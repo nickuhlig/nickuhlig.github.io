@@ -57,11 +57,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into small pieces",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "cut into small pieces"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into small pieces.",
+      "secondary_message": "2 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 350°F. In a small saucepan, heat heavy cream over medium heat until simmering. Lower heat to medium-low and cook, stirring often to prevent scorching, until cream is reduced by half, about 15 minutes. Whisk in 2 ounces grated parmesan cheese until melted. Cover and set aside.",

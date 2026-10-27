@@ -54,8 +54,9 @@
     },
     {
       "ingredient_id": 1912,
-      "name": "panela, roughly chopped",
-      "quantity": "0.46 kg"
+      "name": "panela",
+      "quantity": "0.46 kg",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 236,
@@ -79,6 +80,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the panela.",
+      "secondary_message": "0.46 kg panela"
+    },
     {
       "id": 1,
       "primary_message": "In a 4-quart saucepan, bring water to a simmer over high heat. Remove from heat, add panela or piloncillo, and stir until sugar is completely dissolved. Let cool to room temperature.",

@@ -75,11 +75,18 @@
     },
     {
       "ingredient_id": 2406,
-      "name": "dry sparkling wine, chilled",
-      "quantity": "1 (750 ml) bottle"
+      "name": "dry sparkling wine",
+      "quantity": "1 (750 ml) bottle",
+      "prep": "chilled"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the dry sparkling wine cold until you use it.",
+      "secondary_message": "1 (750 ml) bottle dry sparkling wine"
+    },
     {
       "id": 1,
       "primary_message": "For the Strawberry-Thyme Syrup: Add water, sugar, strawberries, and thyme to a small saucepan and bring to a simmer over medium heat, stirring to dissolve sugar. Simmer 30 minutes, stirring occasionally. Strain through a fine-mesh strainer to remove solids. Let cool before using. Syrup can be refrigerated up to 1 week.",

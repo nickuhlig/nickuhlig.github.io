@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 1214,
-      "name": "kimchi, chopped",
-      "quantity": "4 cups"
+      "name": "kimchi",
+      "quantity": "4 cups",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 115,
@@ -75,13 +76,15 @@
     },
     {
       "ingredient_id": 3234,
-      "name": "Sesame seasoned seaweed, crushed",
-      "quantity": ""
+      "name": "Sesame seasoned seaweed",
+      "quantity": "",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, green parts only, chopped",
-      "quantity": "4"
+      "name": "scallions, green parts only",
+      "quantity": "4",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 72,
@@ -90,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the kimchi. Crush the Sesame seasoned seaweed. Chop the scallions.",
+      "secondary_message": "4 cups kimchi\nSesame seasoned seaweed\n4 scallions, green parts only"
+    },
     {
       "id": 1,
       "primary_message": "Pour 2 tablespoons of the oil into a large skillet or wok and turn the heat to medium. When oil starts to shimmer, add the kimchi. Cook, stirring occasionally, until the kimchi is heated through, about 2 minutes. Add the butter and the red pepper paste. Stir well until both are incorporated.",

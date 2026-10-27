@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 19,
-      "name": "fresh baby button mushrooms, finely sliced",
-      "quantity": "5 ¼ oz"
+      "name": "fresh baby button mushrooms",
+      "quantity": "5 ¼ oz",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 1994,
@@ -61,8 +62,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 47,
@@ -91,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely slice the fresh baby button mushrooms. Thinly slice the garlic.",
+      "secondary_message": "5 ¼ oz fresh baby button mushrooms\n2 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Place dried porcinis in a bowl and cover with boiling water. Cover with plastic wrap, and let soak for 30 minutes. Drain the mushrooms well, reserving all soaking liquid, and roughly chop porcinis.",

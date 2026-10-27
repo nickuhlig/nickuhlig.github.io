@@ -72,8 +72,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "5 oz"
+      "name": "unsalted butter",
+      "quantity": "5 oz",
+      "prep": "melted"
     },
     {
       "ingredient_id": 346,
@@ -92,8 +93,9 @@
     },
     {
       "ingredient_id": 3641,
-      "name": "egg yolks, whites reserved",
-      "quantity": "3 large"
+      "name": "egg yolks",
+      "quantity": "3 large",
+      "prep": "whites reserved"
     },
     {
       "ingredient_id": 1480,
@@ -127,6 +129,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Reserve the whites of the egg yolks.",
+      "secondary_message": "5 oz unsalted butter\n3 large egg yolks"
+    },
     {
       "id": 1,
       "primary_message": "For the Crust: Adjust oven rack to middle position and preheat to 350°F. Line an 8- by 8-inch aluminum baking pan with two 8-inch wide strips of parchment long enough to overhang pan’s edges by 2 inches; set aside.",

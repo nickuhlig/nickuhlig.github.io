@@ -41,13 +41,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, roughly chopped",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 115,
@@ -56,8 +58,9 @@
     },
     {
       "ingredient_id": 1677,
-      "name": "fresh thyme leaves, minced",
-      "quantity": "1 tsp"
+      "name": "fresh thyme leaves",
+      "quantity": "1 tsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1752,
@@ -91,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the shallot. Roughly chop the garlic. Mince the fresh thyme leaves.",
+      "secondary_message": "1 medium shallot\n1 medium clove garlic\n1 tsp fresh thyme leaves"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 350°F. In a food processor, process mushrooms, shallot, and garlic until finely chopped, 6 to 8 short pulses.",

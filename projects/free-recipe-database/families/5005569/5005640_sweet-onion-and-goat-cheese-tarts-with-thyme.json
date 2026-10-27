@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, thinly sliced",
-      "quantity": "1 large"
+      "name": "yellow onion",
+      "quantity": "1 large",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 287,
@@ -56,8 +57,9 @@
     },
     {
       "ingredient_id": 1021,
-      "name": "frozen puff pastry, thawed, but very cold",
-      "quantity": "1 sheet"
+      "name": "frozen puff pastry, but very cold",
+      "quantity": "1 sheet",
+      "prep": "thawed"
     },
     {
       "ingredient_id": 126,
@@ -66,6 +68,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the yellow onion. Thaw the frozen puff pastry.",
+      "secondary_message": "1 large yellow onion\n1 sheet frozen puff pastry, but very cold"
+    },
     {
       "id": 1,
       "primary_message": "In a sauté pan, melt the butter over medium heat.",

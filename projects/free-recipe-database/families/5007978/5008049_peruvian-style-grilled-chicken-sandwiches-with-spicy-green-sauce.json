@@ -52,8 +52,9 @@
   "ingredients": [
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 88,
@@ -87,13 +88,15 @@
     },
     {
       "ingredient_id": 44,
-      "name": "boneless skinless chicken breasts, cut into 8 cutlets",
-      "quantity": "4"
+      "name": "boneless skinless chicken breasts",
+      "quantity": "4",
+      "prep": "cut into 8 cutlets"
     },
     {
       "ingredient_id": 151,
-      "name": "whole jalapeño chiles, roughly chopped",
-      "quantity": "3"
+      "name": "whole jalapeño chiles",
+      "quantity": "3",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 188,
@@ -147,8 +150,9 @@
     },
     {
       "ingredient_id": 183,
-      "name": "ripe avocados, halved, pitted, and flesh scooped",
-      "quantity": "2"
+      "name": "ripe avocados",
+      "quantity": "2",
+      "prep": "halved, pitted, and flesh scooped"
     },
     {
       "ingredient_id": 184,
@@ -162,6 +166,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the garlic. Cut the boneless skinless chicken breasts into 8 cutlets. Roughly chop the whole jalapeño chiles. Halve and pit the ripe avocados, then scoop the flesh.",
+      "secondary_message": "3 medium cloves garlic\n4 boneless skinless chicken breasts\n3 whole jalapeño chiles\n2 ripe avocados"
+    },
     {
       "id": 1,
       "primary_message": "For the Chicken: In a large mortar and pestle, pound garlic and salt until a smooth, sticky paste forms. Add cumin, paprika, black pepper, and vinegar and grind them together to form a paste. Drizzle in vegetable oil while grinding (see notes). Transfer chicken and marinade to a large bowl and massage with your hands until all the chicken is coated in the marinade. Set aside at room temperature while you make the sauce, or cover and place in the fridge up to overnight.",

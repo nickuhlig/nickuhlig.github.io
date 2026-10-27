@@ -48,13 +48,15 @@
     },
     {
       "ingredient_id": 2244,
-      "name": "makrut lime leaves, bruised slightly",
-      "quantity": "20"
+      "name": "makrut lime leaves",
+      "quantity": "20",
+      "prep": "bruised slightly"
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, thinly sliced",
-      "quantity": "5 cm"
+      "name": "ginger",
+      "quantity": "5 cm",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 3641,
@@ -83,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bruise the makrut lime leaves slightly. Thinly slice the ginger.",
+      "secondary_message": "20 makrut lime leaves\n5 cm ginger"
+    },
     {
       "id": 1,
       "primary_message": "In a medium saucepan, combine half and half, lime leaves, and ginger over medium-high heat. Bring to a boil, then simmer for 20 minutes, stirring occasionally. Using a strainer, fish out lime leaves and ginger slices.",

@@ -70,8 +70,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 1784,
@@ -80,11 +81,18 @@
     },
     {
       "ingredient_id": 2163,
-      "name": "boneless pork loin, trimmed of excess fat",
-      "quantity": "1"
+      "name": "boneless pork loin",
+      "quantity": "1",
+      "prep": "trimmed of excess fat"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Smash the garlic. Trim the boneless pork loin of excess fat.",
+      "secondary_message": "3 medium cloves garlic\n1 boneless pork loin"
+    },
     {
       "id": 1,
       "primary_message": "To make the cure, combine 1 quart of water, kosher salt, maple syrup, brown sugar, pink salt, bay leaves, garlic, and peppercorns in a medium saucepan. Bring to a boil over high heat, stirring to dissolve salt and sugar. Boil for 1 minute, then remove from heat. Transfer to a large container and stir in remaining 3 quarts of water. Place in refrigerator until completely chilled. Fully submerge pork loin in cure and let sit in refrigerator for 3 to 5 days.",

@@ -39,8 +39,9 @@
   "ingredients": [
     {
       "ingredient_id": 158,
-      "name": "cauliflower, tough outer leaves and core removed",
-      "quantity": "1 large head"
+      "name": "cauliflower",
+      "quantity": "1 large head",
+      "prep": "tough outer leaves and core removed"
     },
     {
       "ingredient_id": 1682,
@@ -64,6 +65,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the tough outer leaves and core from the cauliflower.",
+      "secondary_message": "1 large head cauliflower"
+    },
     {
       "id": 1,
       "primary_message": "Preheat a 6-quart air fryer to 205°C (400°F) (205ºC) for 5 minutes. Cut cauliflower into 8 wedges, then cut into 5-cm florets (should be about 4 cups total). In a large bowl, toss cauliflower with oil, water salt and pepper until well coated; use your hands to make sure all nooks and crannies are coated with oil and seasonings.",

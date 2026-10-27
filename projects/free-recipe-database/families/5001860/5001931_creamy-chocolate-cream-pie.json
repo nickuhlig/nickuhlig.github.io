@@ -57,8 +57,9 @@
   "ingredients": [
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, 70% cacao, finely chopped",
-      "quantity": "283 g"
+      "name": "bittersweet chocolate, 70% cacao",
+      "quantity": "283 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 346,
@@ -87,18 +88,21 @@
     },
     {
       "ingredient_id": 2052,
-      "name": "chocolate wafers, finely ground",
-      "quantity": "1 (255 g) box"
+      "name": "chocolate wafers",
+      "quantity": "1 (255 g) box",
+      "prep": "finely ground"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "113 g"
+      "name": "unsalted butter",
+      "quantity": "113 g",
+      "prep": "melted"
     },
     {
       "ingredient_id": 317,
-      "name": "bananas, peeled and sliced, divided",
-      "quantity": "4 medium"
+      "name": "bananas, divided",
+      "quantity": "4 medium",
+      "prep": "peeled and sliced"
     },
     {
       "ingredient_id": 1752,
@@ -107,6 +111,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the bittersweet chocolate. Finely grind the chocolate wafers. Melt the unsalted butter. Peel and slice the bananas.",
+      "secondary_message": "283 g bittersweet chocolate, 70% cacao\n1 (255 g) box chocolate wafers\n113 g unsalted butter\n4 medium bananas, divided"
+    },
     {
       "id": 1,
       "primary_message": "Place chocolate in a large bowl; set aside. In a medium bowl, whisk sugar and cornstarch to combine. Whisk in egg yolks until mixture is pale yellow and smooth, about 1 minute.",

@@ -73,8 +73,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened to about 70°F",
-      "quantity": "227 g"
+      "name": "unsalted butter",
+      "quantity": "227 g",
+      "prep": "softened to about 70°F"
     },
     {
       "ingredient_id": 346,
@@ -143,6 +144,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter to about 70°F.",
+      "secondary_message": "227 g unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Getting Ready: To better synchronize the downtime in both recipes, prepare the cream cheese buttercream before the cake. Adjust oven rack to lower-middle position and preheat to 180°C (350°F). Lightly grease two 20-cm anodized aluminum cake pans and line with parchment (explanation and tutorial here).",

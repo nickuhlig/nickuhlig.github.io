@@ -36,9 +36,10 @@
   "ingredients": [
     {
       "ingredient_id": 469,
-      "name": "plums, pitted and chopped",
+      "name": "plums",
       "quantity": "12",
-      "weigh_as": "0.91 kg"
+      "weigh_as": "0.91 kg",
+      "prep": "pitted and chopped"
     },
     {
       "ingredient_id": 133,
@@ -72,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pit and chop the plums.",
+      "secondary_message": "12 plums"
+    },
     {
       "id": 1,
       "primary_message": "Prepare: Combine the plums, vinegar, brown sugar, soy sauce, ginger, garlic, and star anise in a large nonreactive pot, and bring to a boil. Reduce the heat and simmer until thickened, 20 to 25 minutes. Fish out the star anise and discard. Purée the sauce with a stick blender.",

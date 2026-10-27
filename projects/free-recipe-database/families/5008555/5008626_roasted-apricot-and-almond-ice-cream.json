@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 468,
-      "name": "apricots, halved and stoned",
-      "quantity": "0.91 kg"
+      "name": "apricots",
+      "quantity": "0.91 kg",
+      "prep": "halved and stoned"
     },
     {
       "ingredient_id": 346,
@@ -60,6 +61,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve and stone the apricots.",
+      "secondary_message": "0.91 kg apricots"
+    },
     {
       "id": 1,
       "primary_message": "Toast 57 g almonds in a microwave or a dry saucepan over high heat until they darken slightly and begin to smell nutty, about 1 minute, then finely chop and set aside. In a heavy-bottomed saucepan over medium heat, bring cream to a simmer, then remove from heat, cover, and let steep for 1 to 2 hours.",

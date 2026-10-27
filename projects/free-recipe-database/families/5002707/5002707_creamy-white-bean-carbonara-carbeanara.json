@@ -41,13 +41,15 @@
   "ingredients": [
     {
       "ingredient_id": 2498,
-      "name": "guanciale, cut into 1/4-inch pieces",
-      "quantity": "4 oz"
+      "name": "guanciale",
+      "quantity": "4 oz",
+      "prep": "cut into 1/4-inch pieces"
     },
     {
       "ingredient_id": 91,
-      "name": "cannellini beans, undrained",
-      "quantity": "3 (15 oz) cans"
+      "name": "cannellini beans",
+      "quantity": "3 (15 oz) cans",
+      "prep": "undrained"
     },
     {
       "ingredient_id": 359,
@@ -81,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the guanciale into 1/4-inch pieces. Don't drain the cannellini beans.",
+      "secondary_message": "4 oz guanciale\n3 (15 oz) cans cannellini beans"
+    },
     {
       "id": 1,
       "primary_message": "In a large skillet, cook guanciale, pancetta, or bacon over medium-low heat, stirring occasionally, until fat is rendered and meat is browned and crisp, 8 to 10 minutes. Using a slotted spoon, transfer to a paper towel–lined plate, leaving drippings in skillet.",

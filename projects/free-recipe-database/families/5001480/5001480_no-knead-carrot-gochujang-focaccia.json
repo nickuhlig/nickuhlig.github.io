@@ -99,9 +99,10 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and trimmed",
+      "name": "carrots",
       "quantity": "1 ¾ medium",
-      "weigh_as": "4 oz"
+      "weigh_as": "4 oz",
+      "prep": "peeled and trimmed"
     },
     {
       "ingredient_id": 47,
@@ -125,8 +126,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "3 medium"
+      "name": "garlic cloves",
+      "quantity": "3 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 51,
@@ -135,6 +137,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and trim the carrots. Mince the garlic cloves.",
+      "secondary_message": "1 ¾ medium carrots\n3 medium garlic cloves"
+    },
     {
       "id": 1,
       "primary_message": "For the Dough: In a large bowl, whisk together flour, salt, and yeast until well combined. Add carrot juice, gochujang, and 1 tablespoon oil; stir until well combined and no dry pockets of flour remain. Cover bowl tightly with plastic wrap and refrigerate until puffed, bubbly, and doubled in size, at least 10 hours or up to 24 hours. Uncover and, using greased hands, fold scallion slices into dough until evenly distributed. Set aside.",

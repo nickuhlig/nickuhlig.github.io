@@ -54,8 +54,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely grated or minced",
-      "quantity": "2 large cloves"
+      "name": "garlic",
+      "quantity": "2 large cloves",
+      "prep": "finely grated or minced"
     },
     {
       "ingredient_id": 88,
@@ -89,8 +90,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely chopped",
-      "quantity": "1 large"
+      "name": "yellow onion",
+      "quantity": "1 large",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 74,
@@ -134,6 +136,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely grate or mince the garlic. Finely chop the yellow onion.",
+      "secondary_message": "2 large cloves garlic\n1 large yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, whisk together yogurt, garlic, salt, and lemon juice to combine. Refrigerate until ready to use.",

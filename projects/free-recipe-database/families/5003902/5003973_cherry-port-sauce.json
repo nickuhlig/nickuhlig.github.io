@@ -54,8 +54,9 @@
     },
     {
       "ingredient_id": 357,
-      "name": "frozen pitted cherries, thawed and halved",
-      "quantity": "1 cup"
+      "name": "frozen pitted cherries",
+      "quantity": "1 cup",
+      "prep": "thawed and halved"
     },
     {
       "ingredient_id": 293,
@@ -74,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thaw and halve the frozen pitted cherries.",
+      "secondary_message": "1 cup frozen pitted cherries"
+    },
     {
       "id": 1,
       "primary_message": "Melt 1 tablespoon butter in a small saucepan over medium heat. When foaming subsides, add shallots and cook, stirring, until softened, about 4 minutes.",

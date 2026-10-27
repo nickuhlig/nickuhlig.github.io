@@ -43,13 +43,15 @@
   "ingredients": [
     {
       "ingredient_id": 302,
-      "name": "sliced bacon, cut into 1/2-inch pieces",
-      "quantity": "½ lb"
+      "name": "sliced bacon",
+      "quantity": "½ lb",
+      "prep": "cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 153,
@@ -58,8 +60,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1505,
@@ -78,8 +81,9 @@
     },
     {
       "ingredient_id": 158,
-      "name": "cauliflower, cut into florets",
-      "quantity": "1 head"
+      "name": "cauliflower",
+      "quantity": "1 head",
+      "prep": "cut into florets"
     },
     {
       "ingredient_id": 88,
@@ -93,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the sliced bacon into 1/2-inch pieces. Finely chop the onion. Thinly slice the garlic. Cut the cauliflower into florets.",
+      "secondary_message": "½ lb sliced bacon\n1 medium onion\n4 medium cloves garlic\n1 head cauliflower"
+    },
     {
       "id": 1,
       "primary_message": "Heat bacon in a large Dutch oven over medium-high heat, stirring constantly until bacon is completely crisp. Remove from Dutch oven with a slotted spoon and set aside, leaving fat in Dutch oven.",

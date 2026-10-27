@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemons, peel only, removed with a vegetable peeler",
-      "quantity": "2"
+      "name": "lemons, peel only",
+      "quantity": "2",
+      "prep": "removed with a vegetable peeler"
     },
     {
       "ingredient_id": 1330,
@@ -86,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the lemons with a vegetable peeler.",
+      "secondary_message": "2 lemons, peel only"
+    },
     {
       "id": 1,
       "primary_message": "In a heavy saucepan, bring cream and milk to a simmer. Stir in lemon peels and ginger, cover, and remove from heat. Let steep for 1 hour.",

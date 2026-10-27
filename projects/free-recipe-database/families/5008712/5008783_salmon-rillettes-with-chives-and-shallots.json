@@ -37,8 +37,9 @@
   "ingredients": [
     {
       "ingredient_id": 6,
-      "name": "boneless skinless salmon fillet, cut into 1-inch pieces",
-      "quantity": "0.55 kg"
+      "name": "boneless skinless salmon fillet",
+      "quantity": "0.55 kg",
+      "prep": "cut into 1-inch pieces"
     },
     {
       "ingredient_id": 359,
@@ -52,13 +53,15 @@
     },
     {
       "ingredient_id": 309,
-      "name": "leek, halved",
-      "quantity": "1 medium"
+      "name": "leek",
+      "quantity": "1 medium",
+      "prep": "halved"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, cut into large pieces",
-      "quantity": "1 large stalk"
+      "name": "celery",
+      "quantity": "1 large stalk",
+      "prep": "cut into large pieces"
     },
     {
       "ingredient_id": 1270,
@@ -107,6 +110,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the boneless skinless salmon fillet into 1-inch pieces. Halve the leek. Cut the celery into large pieces.",
+      "secondary_message": "0.55 kg boneless skinless salmon fillet\n1 medium leek\n1 large stalk celery"
+    },
     {
       "id": 1,
       "primary_message": "In a large saucepan, combine salmon with enough cold water to cover by 2.5 cm. Add juice from 1 lemon, leek or onion, celery, and bay leaf (if using). Set over medium heat and bring poaching liquid to 77°C, using an instant-read thermometer if you have one; otherwise, bring liquid to just below a bare simmer. Adjusting heat to maintain water temperature, cook until salmon flakes easily when pressed, about 6 minutes. Drain, discard aromatics, and transfer salmon to a mixing bowl. Using your fingers, shred salmon roughly.",

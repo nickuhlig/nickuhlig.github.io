@@ -67,11 +67,18 @@
     },
     {
       "ingredient_id": 243,
-      "name": "fresh mint, chopped",
-      "quantity": "¼ cup"
+      "name": "fresh mint",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the fresh mint.",
+      "secondary_message": "¼ cup fresh mint"
+    },
     {
       "id": 1,
       "primary_message": "Combine the broth, sugar, vinegar, and half of the bourbon in a small pan. Turn the heat to medium and cook until the sugar melts. Turn off the heat and set side.",

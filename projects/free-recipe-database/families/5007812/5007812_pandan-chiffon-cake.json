@@ -36,13 +36,15 @@
   "ingredients": [
     {
       "ingredient_id": 1940,
-      "name": "pandan leaves, washed and roughly chopped",
-      "quantity": "6"
+      "name": "pandan leaves",
+      "quantity": "6",
+      "prep": "washed and roughly chopped"
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, separated, divided",
-      "quantity": "6 large"
+      "name": "eggs, divided",
+      "quantity": "6 large",
+      "prep": "separated"
     },
     {
       "ingredient_id": 346,
@@ -91,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash and roughly chop the pandan leaves. Separate the eggs.",
+      "secondary_message": "6 pandan leaves\n6 large eggs, divided"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350°F. Line bottom of 10-inch tube pan with parchment paper. Place chopped pandan leaves in food processor and add 2 tablespoons water. Blend until leaves are pulverized, about 1 minute (add an extra tablespoon water if mixture is too thick to blend). Strain mixture though cheesecloth, squeezing tightly to extract as much juice as possible. You should have 3 to 4 tablespoons juice.",

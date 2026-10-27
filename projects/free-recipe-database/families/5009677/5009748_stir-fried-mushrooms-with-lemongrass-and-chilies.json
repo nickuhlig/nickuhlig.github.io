@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 19,
-      "name": "white button mushrooms, cleaned and quartered",
-      "quantity": "0.45 kg"
+      "name": "white button mushrooms",
+      "quantity": "0.45 kg",
+      "prep": "cleaned and quartered"
     },
     {
       "ingredient_id": 88,
@@ -51,8 +52,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "2 medium"
+      "name": "garlic cloves",
+      "quantity": "2 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1816,
@@ -61,8 +63,9 @@
     },
     {
       "ingredient_id": 1762,
-      "name": "Thai bird chile pepper, thinly sliced",
-      "quantity": "1"
+      "name": "Thai bird chile pepper",
+      "quantity": "1",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1421,
@@ -86,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Clean and quarter the white button mushrooms. Mince the garlic cloves. Thinly slice the Thai bird chile pepper.",
+      "secondary_message": "0.45 kg white button mushrooms\n2 medium garlic cloves\n1 Thai bird chile pepper"
+    },
     {
       "id": 1,
       "primary_message": "Heat the oil in a large wok over high heat until shimmering. Add the mushrooms and the salt and stir-fry until the mushrooms become tender and begin to release some liquid, 3 to 4 minutes.",

@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, room temperature",
-      "quantity": "113 g"
+      "name": "unsalted butter",
+      "quantity": "113 g",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 293,
@@ -85,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature.",
+      "secondary_message": "113 g unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Cream the butter with the sugar in a stand mixer (or by hand with a wooden spoon) and add the spices. Keep refrigerated.",

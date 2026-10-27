@@ -62,8 +62,9 @@
     },
     {
       "ingredient_id": 247,
-      "name": "Asian pear, peeled, cored, finely grated",
-      "quantity": "¼ large"
+      "name": "Asian pear",
+      "quantity": "¼ large",
+      "prep": "peeled, cored, finely grated"
     },
     {
       "ingredient_id": 1527,
@@ -97,8 +98,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely grated",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 359,
@@ -107,13 +109,15 @@
     },
     {
       "ingredient_id": 1399,
-      "name": "mini Persian cucumbers, julienned",
-      "quantity": "2"
+      "name": "mini Persian cucumbers",
+      "quantity": "2",
+      "prep": "julienned"
     },
     {
       "ingredient_id": 2264,
-      "name": "perilla leaves, thinly sliced into a chiffonade",
-      "quantity": "10"
+      "name": "perilla leaves",
+      "quantity": "10",
+      "prep": "thinly sliced into a chiffonade"
     },
     {
       "ingredient_id": 1337,
@@ -122,11 +126,18 @@
     },
     {
       "ingredient_id": 181,
-      "name": "toasted sesame seeds, coarsely crushed in a mortar and pestle",
-      "quantity": "2 tbsp"
+      "name": "toasted sesame seeds",
+      "quantity": "2 tbsp",
+      "prep": "coarsely crushed in a mortar and pestle"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel, core, and finely grate the Asian pear. Finely grate the garlic. Julienne the mini Persian cucumbers. Thinly slice the perilla leaves into a chiffonade. Coarsely crush the toasted sesame seeds in a mortar and pestle.",
+      "secondary_message": "¼ large Asian pear\n2 medium cloves garlic\n2 mini Persian cucumbers\n10 perilla leaves\n2 tbsp toasted sesame seeds"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, set up an ice bath by partially filling it with a combination of cold water and ice. Set aside.",

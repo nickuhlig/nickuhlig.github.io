@@ -96,8 +96,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "5 ¼ oz"
+      "name": "unsalted butter",
+      "quantity": "5 ¼ oz",
+      "prep": "melted"
     },
     {
       "ingredient_id": 115,
@@ -131,6 +132,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter.",
+      "secondary_message": "5 ¼ oz unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Shortbread: Adjust oven rack to middle position and preheat oven to 350ºF (175ºC). Line a 9- by 13-inch rimmed baking sheet with an 11- by 17-inch piece of parchment crosswise so the parchment overhangs the rim of the baking sheet by at least 2 inches. (If using pre-cut parchment, you may have to layer two pieces to create the overhang.) Using nonstick cooking spray, grease parchment and baking sheet; set aside.",

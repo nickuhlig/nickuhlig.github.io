@@ -88,11 +88,18 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "8 oz"
+      "name": "bittersweet chocolate",
+      "quantity": "8 oz",
+      "prep": "finely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the bittersweet chocolate.",
+      "secondary_message": "8 oz bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "Place cherries in small bowl with liquor. Cover and rest overnight, stirring occasionally.",

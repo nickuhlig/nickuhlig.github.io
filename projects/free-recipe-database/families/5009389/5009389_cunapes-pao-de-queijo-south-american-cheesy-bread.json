@@ -67,8 +67,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 121,
@@ -77,16 +78,24 @@
     },
     {
       "ingredient_id": 43,
-      "name": "sharp cheddar cheese, chopped",
-      "quantity": "3 ½ oz"
+      "name": "sharp cheddar cheese",
+      "quantity": "3 ½ oz",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1715,
-      "name": "Grana Padano cheese, chopped",
-      "quantity": "5.7 oz"
+      "name": "Grana Padano cheese",
+      "quantity": "5.7 oz",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Chop the sharp cheddar cheese. Chop the Grana Padano cheese.",
+      "secondary_message": "2 tbsp unsalted butter\n3 ½ oz sharp cheddar cheese\n5.7 oz Grana Padano cheese"
+    },
     {
       "id": 1,
       "primary_message": "In a large mixing bowl, combine tapioca starch, salt, baking powder, milk, butter, and eggs (for an evenly textured bread use scalded milk; for pops of crusty cheese use cold milk—the choice is yours). Using your hands, knead dough until thoroughly combined, about 2 minutes.",

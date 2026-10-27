@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 2870,
-      "name": "chestnuts, rinsed and dried",
-      "quantity": "0.45 kg"
+      "name": "chestnuts",
+      "quantity": "0.45 kg",
+      "prep": "rinsed and dried"
     },
     {
       "ingredient_id": 115,
@@ -80,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse and dry the chestnuts.",
+      "secondary_message": "0.45 kg chestnuts"
+    },
     {
       "id": 1,
       "primary_message": "Place a large cast iron pan in oven and pre-heat oven to 220°C (425°F).",

@@ -64,13 +64,15 @@
     },
     {
       "ingredient_id": 260,
-      "name": "ripe beefsteak tomatoes, cut into slices",
-      "quantity": "1 ½ lb"
+      "name": "ripe beefsteak tomatoes",
+      "quantity": "1 ½ lb",
+      "prep": "cut into slices"
     },
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, split in half",
-      "quantity": "½ lb"
+      "name": "cherry tomatoes",
+      "quantity": "½ lb",
+      "prep": "split in half"
     },
     {
       "ingredient_id": 88,
@@ -109,6 +111,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the ripe beefsteak tomatoes into slices. Split the cherry tomatoes in half.",
+      "secondary_message": "1 ½ lb ripe beefsteak tomatoes\n½ lb cherry tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "Adjust an oven rack to the center position and preheat oven to 400°F. Add liquid smoke to feta brine, cutting or crumbling the cheese to make sure it is submerged. Set feta and brine aside.",

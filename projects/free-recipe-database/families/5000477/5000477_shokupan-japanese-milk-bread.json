@@ -92,13 +92,15 @@
     },
     {
       "ingredient_id": 118,
-      "name": "whole milk, brought to a boil",
-      "quantity": "¾ cup plus 2 tbsp"
+      "name": "whole milk",
+      "quantity": "¾ cup plus 2 tbsp",
+      "prep": "brought to a boil"
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into 1/2-inch cubes",
-      "quantity": "3 tbsp"
+      "name": "cold unsalted butter",
+      "quantity": "3 tbsp",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 118,
@@ -127,11 +129,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted, for brushing loaf",
-      "quantity": "1 tbsp"
+      "name": "unsalted butter, for brushing loaf",
+      "quantity": "1 tbsp",
+      "prep": "melted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the whole milk to a boil. Cut the cold unsalted butter into 1/2-inch cubes. Melt the unsalted butter.",
+      "secondary_message": "¾ cup plus 2 tbsp whole milk\n3 tbsp cold unsalted butter\n1 tbsp unsalted butter, for brushing loaf"
+    },
     {
       "id": 1,
       "primary_message": "For the Scald: In a medium bowl, whisk glutinous rice flour and sugar to combine. Add boiling milk and rapidly whisk until mixture thickens to pudding-like consistency and registers between 155 to 170˚F (68 to 77˚C). (See notes.)",

@@ -48,8 +48,9 @@
   "ingredients": [
     {
       "ingredient_id": 3554,
-      "name": "whole quail, deboned or spatchcocked",
-      "quantity": "4"
+      "name": "whole quail",
+      "quantity": "4",
+      "prep": "deboned or spatchcocked"
     },
     {
       "ingredient_id": 88,
@@ -63,8 +64,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, minced",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 287,
@@ -73,8 +75,9 @@
     },
     {
       "ingredient_id": 2231,
-      "name": "Italian plums, pitted and diced",
-      "quantity": "4 small"
+      "name": "Italian plums",
+      "quantity": "4 small",
+      "prep": "pitted and diced"
     },
     {
       "ingredient_id": 359,
@@ -93,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Debone or spatchcock the whole quail. Mince the shallot. Pit and dice the Italian plums.",
+      "secondary_message": "4 whole quail\n1 medium shallot\n4 small Italian plums"
+    },
     {
       "id": 1,
       "primary_message": "Season quail all over with salt. In a large cast iron skillet, heat oil over medium-high heat until shimmering. Add quail. If quail are spatchcocked, cook them skin side down until well browned, about 5 minutes, then flip and cook other side until desired doneness is reached (quail can be served from medium-rare to well done, as desired; they are too small to accurately use a thermometer, so feel free to cut into the meat to check doneness). If using deboned quail, cook on both sides, turning frequently, until browned on both sides and desired doneness is reach, about 4 minutes per side for medium.",

@@ -33,8 +33,9 @@
   "ingredients": [
     {
       "ingredient_id": 185,
-      "name": "black beans, drained and rinsed",
-      "quantity": "1 (14 ½ oz) can"
+      "name": "black beans",
+      "quantity": "1 (14 ½ oz) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 152,
@@ -43,14 +44,16 @@
     },
     {
       "ingredient_id": 303,
-      "name": "corn, boiled and shucked, kernels sliced off",
+      "name": "corn",
       "quantity": "⅔ cup",
-      "weigh_as": "102 g"
+      "weigh_as": "102 g",
+      "prep": "boiled and shucked, kernels sliced off"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño, finely chopped",
-      "quantity": "1"
+      "name": "jalapeño",
+      "quantity": "1",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 88,
@@ -99,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain and rinse the black beans. Boil and shuck the corn, then slice off the kernels. Finely chop the jalapeño.",
+      "secondary_message": "1 (14 ½ oz) can black beans\n⅔ cup corn\n1 jalapeño"
+    },
     {
       "id": 1,
       "primary_message": "Combine beans, onion, corn, and jalapeño in a medium bowl. Season with salt and pepper.",

@@ -123,8 +123,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "1 stick"
+      "name": "unsalted butter",
+      "quantity": "1 stick",
+      "prep": "softened"
     },
     {
       "ingredient_id": 346,
@@ -138,6 +139,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter.",
+      "secondary_message": "1 stick unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Matcha Ice Cream: Set cream and milk on low heat, stirring occasionally. Meanwhile, beat egg yolks with sugar till smooth and a little lighter in color.",

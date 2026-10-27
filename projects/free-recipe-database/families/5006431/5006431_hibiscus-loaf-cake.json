@@ -84,8 +84,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "6 tbsp"
+      "name": "unsalted butter",
+      "quantity": "6 tbsp",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1044,
@@ -99,13 +100,15 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten and at room temperature",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "beaten and at room temperature"
     },
     {
       "ingredient_id": 118,
-      "name": "whole milk, at room temperature",
-      "quantity": "¾ cup"
+      "name": "whole milk",
+      "quantity": "¾ cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 353,
@@ -139,6 +142,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature. Beat the eggs and bring them to room temperature. Bring the whole milk to room temperature.",
+      "secondary_message": "6 tbsp unsalted butter\n3 large eggs\n¾ cup whole milk"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Adjust oven rack to middle position and preheat oven to 350°F. Wrap 4 layers of heavy duty foil (See Notes) around exterior of 9- by 5-inch loaf pan, then coat interior with baking spray.",

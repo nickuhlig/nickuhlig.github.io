@@ -80,8 +80,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, peeled, minced",
-      "quantity": "1 (1 inch) piece"
+      "name": "ginger",
+      "quantity": "1 (1 inch) piece",
+      "prep": "peeled, minced"
     },
     {
       "ingredient_id": 44,
@@ -90,9 +91,10 @@
     },
     {
       "ingredient_id": 18,
-      "name": "eggplant, ends trimmed, cut into 1-inch cubes",
+      "name": "eggplant",
       "quantity": "1 ¼",
-      "weigh_as": "1 ½ lb"
+      "weigh_as": "1 ½ lb",
+      "prep": "ends trimmed, cut into 1-inch cubes"
     },
     {
       "ingredient_id": 88,
@@ -106,8 +108,9 @@
     },
     {
       "ingredient_id": 1762,
-      "name": "Thai chile, seeded and minced",
-      "quantity": "1"
+      "name": "Thai chile",
+      "quantity": "1",
+      "prep": "seeded and minced"
     },
     {
       "ingredient_id": 153,
@@ -121,6 +124,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and mince the ginger. Trim the ends of the eggplant, then cut it into 1-inch cubes. Seed and mince the Thai chile.",
+      "secondary_message": "1 (1 inch) piece ginger\n1 ¼ eggplant\n1 Thai chile"
+    },
     {
       "id": 1,
       "primary_message": "In small bowl, stir cornstarch into water; set aside. In large bowl, whisk soy sauce, 1 tablespoon sesame oil, sugar, vinegar, minced garlic, and ginger. Add chicken and toss to coat. Set aside while you prepare eggplant.",

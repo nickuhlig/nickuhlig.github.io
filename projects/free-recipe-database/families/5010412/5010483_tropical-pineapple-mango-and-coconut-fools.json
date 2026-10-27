@@ -48,18 +48,21 @@
     },
     {
       "ingredient_id": 462,
-      "name": "sweetened shredded coconut, lightly toasted",
-      "quantity": "½ cup"
+      "name": "sweetened shredded coconut",
+      "quantity": "½ cup",
+      "prep": "lightly toasted"
     },
     {
       "ingredient_id": 229,
-      "name": "mango, peeled and diced",
-      "quantity": "1"
+      "name": "mango",
+      "quantity": "1",
+      "prep": "peeled and diced"
     },
     {
       "ingredient_id": 1752,
-      "name": "heavy cream, cold",
-      "quantity": "1 cup"
+      "name": "heavy cream",
+      "quantity": "1 cup",
+      "prep": "cold"
     },
     {
       "ingredient_id": 122,
@@ -68,6 +71,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly toast the sweetened shredded coconut. Peel and dice the mango. Keep the heavy cream cold until you use it.",
+      "secondary_message": "½ cup sweetened shredded coconut\n1 mango\n1 cup heavy cream"
+    },
     {
       "id": 1,
       "primary_message": "Place pineapple and 1 tablespoon sugar in medium saucepan. Cook over medium heat, stirring occasionally, until fruit has softened and mixture becomes jammy, about 15 minutes. If pineapple looks too dry during cooking, add a teaspoon of water at a time. Remove from heat and stir in lemon juice. Adjust to taste with sugar and lemon juice. Chill until completely cold before using, about an hour.",

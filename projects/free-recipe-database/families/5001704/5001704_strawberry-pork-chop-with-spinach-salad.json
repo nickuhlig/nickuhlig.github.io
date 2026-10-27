@@ -39,8 +39,9 @@
   "ingredients": [
     {
       "ingredient_id": 3,
-      "name": "bone-in pork chops, about 1 inch thick, trimmed",
-      "quantity": "2 lb"
+      "name": "bone-in pork chops, about 1 inch thick",
+      "quantity": "2 lb",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 88,
@@ -64,8 +65,9 @@
     },
     {
       "ingredient_id": 242,
-      "name": "strawberries, hulled and coarsely chopped",
-      "quantity": "1 lb"
+      "name": "strawberries",
+      "quantity": "1 lb",
+      "prep": "hulled and coarsely chopped"
     },
     {
       "ingredient_id": 131,
@@ -79,21 +81,30 @@
     },
     {
       "ingredient_id": 28,
-      "name": "fresh basil, thinly sliced or torn",
-      "quantity": "¼ cup"
+      "name": "fresh basil",
+      "quantity": "¼ cup",
+      "prep": "thinly sliced or torn"
     },
     {
       "ingredient_id": 327,
-      "name": "toasted pecans, roughly chopped",
-      "quantity": "¼ cup"
+      "name": "toasted pecans",
+      "quantity": "¼ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 126,
-      "name": "goat cheese, crumbled",
-      "quantity": "2 oz"
+      "name": "goat cheese",
+      "quantity": "2 oz",
+      "prep": "crumbled"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the bone-in pork chops. Hull and coarsely chop the strawberries. Thinly slice or tear the fresh basil. Roughly chop the toasted pecans. Crumble the goat cheese.",
+      "secondary_message": "2 lb bone-in pork chops, about 1 inch thick\n1 lb strawberries\n¼ cup fresh basil\n¼ cup toasted pecans\n2 oz goat cheese"
+    },
     {
       "id": 1,
       "primary_message": "Pat pork dry with paper towels and sprinkle with 1 teaspoon kosher salt and 1/2 teaspoon pepper. In a 12-inch nonstick or well-seasoned cast iron skillet, heat 1 tablespoon oil over medium-high heat until just smoking. Add pork and cook, flipping every 2 minutes, until well browned and meat registers 135 to 140°F (57 to 50°C) on an instant-read thermometer, 8 to 12 minutes. Transfer to a carving board and let rest while preparing sauce and salad. Do not wipe out pan.",

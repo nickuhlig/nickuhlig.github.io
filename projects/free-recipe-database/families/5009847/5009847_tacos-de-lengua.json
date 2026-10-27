@@ -37,8 +37,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, split in half",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "split in half"
     },
     {
       "ingredient_id": 1747,
@@ -52,8 +53,9 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, peeled and roughly chopped",
-      "quantity": "1 small"
+      "name": "carrot",
+      "quantity": "1 small",
+      "prep": "peeled and roughly chopped"
     },
     {
       "ingredient_id": 24,
@@ -122,6 +124,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the onion in half. Peel and roughly chop the carrot.",
+      "secondary_message": "1 medium onion\n1 small carrot"
+    },
     {
       "id": 1,
       "primary_message": "Place tongue, onion, bay leaves, cilantro stems, carrot, and garlic in a saucepan just big enough to hold them. Add chicken broth until mostly covered (you may not need all of it, depending on how big your pot is). Bring to a boil over high heat, reduce to a simmer, cover with a tight-fitting lid, and cook until completely tender, 4 to 6 hours depending on the size of the tongue, adding extra water as necessary to keep the tongue mostly submerged.",

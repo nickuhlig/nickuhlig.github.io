@@ -47,13 +47,15 @@
   "ingredients": [
     {
       "ingredient_id": 1811,
-      "name": "shrimp, large, peeled, deveined, and rinsed",
-      "quantity": "1 ½ lb"
+      "name": "shrimp, large",
+      "quantity": "1 ½ lb",
+      "prep": "peeled, deveined, and rinsed"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño pepper, stemmed and seeded",
-      "quantity": "1 small"
+      "name": "jalapeño pepper",
+      "quantity": "1 small",
+      "prep": "stemmed and seeded"
     },
     {
       "ingredient_id": 1421,
@@ -87,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel, devein, and rinse the shrimp. Stem and seed the jalapeño pepper.",
+      "secondary_message": "1 ½ lb shrimp, large\n1 small jalapeño pepper"
+    },
     {
       "id": 1,
       "primary_message": "To make the marinade, place jalapeño, lime juice, garlic, olive oil, chili powder, salt, and lime zest in jar of a blender. Puree until garlic and jalapeño are completely chopped.",

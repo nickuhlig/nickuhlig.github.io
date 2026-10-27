@@ -94,8 +94,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, cold from the fridge",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "cold from the fridge"
     },
     {
       "ingredient_id": 353,
@@ -144,6 +145,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the eggs cold until you use them.",
+      "secondary_message": "2 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 175°C (350°F). Arrange pecans on a rimmed baking sheet and toast, stirring every 5 minutes, until well toasted and mahogany brown, 10 to 15 minutes. Let cool completely, then roughly chop.",

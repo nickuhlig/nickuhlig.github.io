@@ -49,11 +49,18 @@
     },
     {
       "ingredient_id": 2201,
-      "name": "dried corn husks, soaked in water for at least 1 hour",
-      "quantity": "3 dozen"
+      "name": "dried corn husks",
+      "quantity": "3 dozen",
+      "prep": "soaked in water for at least 1 hour"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soak the dried corn husks in water for at least 1 hour.",
+      "secondary_message": "3 dozen dried corn husks"
+    },
     {
       "id": 1,
       "primary_message": "Roast peppers directly over the flame of a gas stove, grill, or under a hot broiler, turning occasionally, until skin is completely charred and blackened all over. Place in a bowl, cover with plastic wrap, and let stand until cool enough to handle, 10 to 15 minutes. Using paper towels, rub off charred skin, then stem and seed poblanos. Slice peppers into strips 0.5 cm thick and 5 to 8 cm long.",

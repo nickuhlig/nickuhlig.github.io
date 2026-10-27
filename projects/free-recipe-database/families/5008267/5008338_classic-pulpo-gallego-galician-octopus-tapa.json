@@ -42,8 +42,9 @@
   "ingredients": [
     {
       "ingredient_id": 2969,
-      "name": "whole octopus, rinsed well",
-      "quantity": "1 kg"
+      "name": "whole octopus",
+      "quantity": "1 kg",
+      "prep": "rinsed well"
     },
     {
       "ingredient_id": 88,
@@ -62,6 +63,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse the whole octopus well.",
+      "secondary_message": "1 kg whole octopus"
+    },
     {
       "id": 1,
       "primary_message": "If Using a Pressure Cooker: Place octopus in pressure cooker and add just enough water to cover. (Be sure to keep water level below pressure cooker's maximum fill line.) Add onion and garlic, if using, along with a couple of large pinches of salt. Close pressure cooker and bring to high pressure (12 to 15 psi). Once cooker has reached high pressure, cook for 15 minutes.",

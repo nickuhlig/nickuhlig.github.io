@@ -42,8 +42,9 @@
     },
     {
       "ingredient_id": 151,
-      "name": "red jalapeño peppers, seeds and ribs removed, finely minced",
-      "quantity": "1 to 2"
+      "name": "red jalapeño peppers",
+      "quantity": "1 to 2",
+      "prep": "seeds and ribs removed, finely minced"
     },
     {
       "ingredient_id": 1373,
@@ -82,13 +83,15 @@
     },
     {
       "ingredient_id": 43,
-      "name": "extra-sharp cheddar cheese, grated",
-      "quantity": "0.45 kg"
+      "name": "extra-sharp cheddar cheese",
+      "quantity": "0.45 kg",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1264,
-      "name": "American cheese, cut into 1/2-inch cubes",
-      "quantity": "227 g"
+      "name": "American cheese",
+      "quantity": "227 g",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 264,
@@ -97,11 +100,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 2 chunks",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "cut into 2 chunks"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the seeds and ribs from the red jalapeño peppers, then finely mince them. Grate the extra-sharp cheddar cheese. Cut the American cheese into 1/2-inch cubes. Cut the unsalted butter into 2 chunks.",
+      "secondary_message": "1 to 2 red jalapeño peppers\n0.45 kg extra-sharp cheddar cheese\n227 g American cheese\n2 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Cook bacon in a medium skillet over medium heat, stirring, until completely crisp, about 8 minutes. Remove from heat. Stir in fresh and pickled jalapeños, scraping up browned bits from bottom of pan. Set aside. Remove some of the mixture to a separate small bowl and reserve for garnish.",

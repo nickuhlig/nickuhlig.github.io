@@ -58,8 +58,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1480,
@@ -93,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic.",
+      "secondary_message": "3 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 175°C (350°F). Combine yogurt, cucumber, mint, 3 tablespoons chives, 1 tablespoon chopped oregano, 1 teaspoon garlic, and lemon juice in a small bowl. Season to taste with salt and pepper.",

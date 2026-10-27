@@ -65,8 +65,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1483,
@@ -80,8 +81,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely chopped",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 323,
@@ -145,13 +147,15 @@
     },
     {
       "ingredient_id": 2016,
-      "name": "low-moisture mozzarella cheese, shredded",
-      "quantity": "113 g"
+      "name": "low-moisture mozzarella cheese",
+      "quantity": "113 g",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 120,
-      "name": "Parmesan cheese, finely grated",
-      "quantity": "28 g"
+      "name": "Parmesan cheese",
+      "quantity": "28 g",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 349,
@@ -185,11 +189,18 @@
     },
     {
       "ingredient_id": 120,
-      "name": "Parmesan cheese, grated",
-      "quantity": "85 g"
+      "name": "Parmesan cheese",
+      "quantity": "85 g",
+      "prep": "grated"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the yellow onion. Finely chop the garlic. Shred the low-moisture mozzarella cheese. Finely grate the Parmesan cheese. Grate the Parmesan cheese.",
+      "secondary_message": "1 medium yellow onion\n4 medium cloves garlic\n113 g low-moisture mozzarella cheese\n28 g Parmesan cheese\n85 g Parmesan cheese"
+    },
     {
       "id": 1,
       "primary_message": "For the Meat Sauce: In a Dutch oven or large pot, heat oil over medium heat until shimmering. Add onion and cook, stirring often, until softened, about 8 minutes. Add beef and sausage and cook, stirring often to break up meat, until no longer pink, about 8 minutes. Add garlic, tomato paste, fish sauce, oregano, bay leaf, salt, black pepper, and crushed red pepper and continue to cook, stirring constantly, until evenly combined and fragrant, 1 to 2 minutes. Stir in tomatoes. Pour water into empty tomato can; swirl and pour into Dutch oven.",

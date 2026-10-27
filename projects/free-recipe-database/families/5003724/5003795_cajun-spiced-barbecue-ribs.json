@@ -97,13 +97,15 @@
     },
     {
       "ingredient_id": 1070,
-      "name": "beer, at room temperature",
-      "quantity": "1 (340 g) can"
+      "name": "beer",
+      "quantity": "1 (340 g) can",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 115,
-      "name": "butter, melted",
-      "quantity": "¼ cup"
+      "name": "butter",
+      "quantity": "¼ cup",
+      "prep": "melted"
     },
     {
       "ingredient_id": 136,
@@ -127,6 +129,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the beer to room temperature. Melt the butter.",
+      "secondary_message": "1 (340 g) can beer\n¼ cup butter"
+    },
     {
       "id": 1,
       "primary_message": "To make the rub, in a small bowl, mix together paprika, salt, sugar, garlic powder, onion powder, thyme, oregano, cumin, black pepper, white pepper, and cayenne pepper. Set aside.",

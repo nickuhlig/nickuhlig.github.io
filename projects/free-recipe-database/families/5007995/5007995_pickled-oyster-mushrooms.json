@@ -44,8 +44,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, sliced",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 88,
@@ -69,11 +70,18 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and sliced",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "peeled and sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the onion. Peel and slice the garlic.",
+      "secondary_message": "1 small onion\n2 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Wash oyster mushrooms well and chop them into pieces.",

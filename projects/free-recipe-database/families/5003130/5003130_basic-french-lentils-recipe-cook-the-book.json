@@ -39,8 +39,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, peeled",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 159,
@@ -54,8 +55,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed, peeled, and germ removed",
-      "quantity": "1 clove"
+      "name": "garlic",
+      "quantity": "1 clove",
+      "prep": "smashed, peeled, and germ removed"
     },
     {
       "ingredient_id": 1270,
@@ -74,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the onion. Smash and peel the garlic, then remove the germ.",
+      "secondary_message": "1 small onion\n1 clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "Put the lentils in a strainer and pick through them, discarding any bits of stone that might have escaped the packers; rinse under cold running water.",

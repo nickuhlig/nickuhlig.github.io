@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "5 tbsp"
+      "name": "unsalted butter",
+      "quantity": "5 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 2240,
@@ -92,8 +93,9 @@
     },
     {
       "ingredient_id": 327,
-      "name": "pecans, roughly chopped",
-      "quantity": "1 cup"
+      "name": "pecans",
+      "quantity": "1 cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1729,
@@ -107,6 +109,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Roughly chop the pecans.",
+      "secondary_message": "5 tbsp unsalted butter\n1 cup pecans"
+    },
     {
       "id": 1,
       "primary_message": "For the Dough: Prepare Old-Fashioned Flaky Pie Dough according to the recipe. After rolling, folding, and dividing dough in half, roll one portion into a roughly 36-cm round. Transfer this round to a parchment-lined aluminum rimmed baking sheet, cover with plastic, and refrigerate to relax and chill dough, at least 2 hours or up to 24.",

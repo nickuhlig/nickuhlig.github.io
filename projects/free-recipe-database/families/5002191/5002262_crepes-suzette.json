@@ -81,8 +81,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted and cooled slightly",
-      "quantity": "1 tbsp"
+      "name": "unsalted butter",
+      "quantity": "1 tbsp",
+      "prep": "melted and cooled slightly"
     },
     {
       "ingredient_id": 353,
@@ -131,6 +132,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt and cool the unsalted butter slightly.",
+      "secondary_message": "1 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Orange Sugar: In a small bowl, combine granulated sugar with orange zest. Using your fingers, rub them together until mixture is fragrant and well combined, about 30 seconds. Set aside for 10 minutes.",

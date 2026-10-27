@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted American-style butter, straight from the fridge , cold",
-      "quantity": "8 oz"
+      "name": "unsalted American-style butter",
+      "quantity": "8 oz",
+      "prep": "straight from the fridge, cold"
     },
     {
       "ingredient_id": 359,
@@ -76,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the unsalted American-style butter cold until you use it and keep it cold until you use it.",
+      "secondary_message": "8 oz unsalted American-style butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Dough: Whisk flour, sugar, and salt together in a medium bowl. Cut butter into cubes no smaller than 1/2 inch, and toss with flour mixture to break up the pieces. With your fingertips, smash each cube flat—that's it! No rubbing or cutting. Stir in water, then knead dough against sides of the bowl until it comes together in a shaggy ball. Dough temperature should register between 65 and 70°F (18 and 21°C); if not, refrigerate briefly before rolling and folding (see note).",

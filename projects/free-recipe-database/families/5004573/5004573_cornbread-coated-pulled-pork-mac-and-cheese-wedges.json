@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 1183,
-      "name": "leftover macaroni and cheese, chilled",
-      "quantity": "3 cups"
+      "name": "leftover macaroni and cheese",
+      "quantity": "3 cups",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 151,
@@ -51,8 +52,9 @@
     },
     {
       "ingredient_id": 2824,
-      "name": "pulled pork, tossed with barbecue sauce",
-      "quantity": "2 cups"
+      "name": "pulled pork",
+      "quantity": "2 cups",
+      "prep": "tossed with barbecue sauce"
     },
     {
       "ingredient_id": 116,
@@ -96,6 +98,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the leftover macaroni and cheese cold until you use it. Toss the pulled pork with barbecue sauce.",
+      "secondary_message": "3 cups leftover macaroni and cheese\n2 cups pulled pork"
+    },
     {
       "id": 1,
       "primary_message": "Line a rimmed baking sheet with parchment paper. Press chilled macaroni and cheese in an even layer in the baking sheet. Sprinkle all over with jalapeño peppers and shredded cheese. With the short side of the baking sheet in front of you, layer the pulled pork evenly on half of the macaroni and cheese layer.",

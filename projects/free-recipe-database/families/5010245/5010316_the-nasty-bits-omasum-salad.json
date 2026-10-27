@@ -39,8 +39,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "green onions, thinly sliced",
-      "quantity": "3 large"
+      "name": "green onions",
+      "quantity": "3 large",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 188,
@@ -59,6 +60,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the green onions.",
+      "secondary_message": "3 large green onions"
+    },
     {
       "id": 1,
       "primary_message": "Divide the omasum into sections, each with 4 to 5 translucent sections in the interior. Slice each section into 0.5 cm slices so that each section gets a corresponding tendril.",

@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 334,
-      "name": "tahini paste, stirred well before measuring",
-      "quantity": "⅓ cup"
+      "name": "tahini paste",
+      "quantity": "⅓ cup",
+      "prep": "stirred well before measuring"
     },
     {
       "ingredient_id": 1480,
@@ -56,8 +57,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and chopped",
-      "quantity": "1 clove"
+      "name": "garlic",
+      "quantity": "1 clove",
+      "prep": "peeled and chopped"
     },
     {
       "ingredient_id": 88,
@@ -81,13 +83,15 @@
     },
     {
       "ingredient_id": 92,
-      "name": "chickpeas, drained and rinsed",
-      "quantity": "2 (15 oz) cans"
+      "name": "chickpeas",
+      "quantity": "2 (15 oz) cans",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 1399,
-      "name": "Persian cucumbers, halved and cut into 1-inch chunks",
-      "quantity": "2"
+      "name": "Persian cucumbers",
+      "quantity": "2",
+      "prep": "halved and cut into 1-inch chunks"
     },
     {
       "ingredient_id": 1808,
@@ -101,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stir the tahini paste well before measuring. Peel and chop the garlic. Drain and rinse the chickpeas. Halve and cut the Persian cucumbers into 1-inch chunks.",
+      "secondary_message": "⅓ cup tahini paste\n1 clove garlic\n2 (15 oz) cans chickpeas\n2 Persian cucumbers"
+    },
     {
       "id": 1,
       "primary_message": "For the Salad: In a food processor, combine tahini, lemon juice, mayonnaise, garlic, salt, cumin, and coriander and process until well combined, about 10 seconds. With processor running, slowly pour water through feed tube and process until a smooth, emulsified sauce forms, about 10 seconds.",

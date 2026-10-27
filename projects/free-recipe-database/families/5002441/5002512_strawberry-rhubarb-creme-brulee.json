@@ -61,13 +61,15 @@
   "ingredients": [
     {
       "ingredient_id": 242,
-      "name": "strawberries, hulled and cut into 1/2-inch dice",
-      "quantity": "227 g"
+      "name": "strawberries",
+      "quantity": "227 g",
+      "prep": "hulled and cut into 1/2-inch dice"
     },
     {
       "ingredient_id": 2463,
-      "name": "rhubarb, cut into 1/2-inch dice",
-      "quantity": "170 g"
+      "name": "rhubarb",
+      "quantity": "170 g",
+      "prep": "cut into 1/2-inch dice"
     },
     {
       "ingredient_id": 346,
@@ -101,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Hull and cut the strawberries into 1/2-inch dice. Cut the rhubarb into 1/2-inch dice.",
+      "secondary_message": "227 g strawberries\n170 g rhubarb"
+    },
     {
       "id": 1,
       "primary_message": "For the Compote: Adjust oven rack to middle position and preheat oven to 200°C (400°F). In a large mixing bowl, add strawberries, rhubarb, and sugar and mix until well combined. Divide mixture evenly between six 113 g ramekins, then bake until fruit is jammy and bubbling and any juices are thick and syrupy, about 30 minutes. Let cool while you make the custard.",

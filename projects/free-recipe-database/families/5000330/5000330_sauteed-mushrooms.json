@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, minced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2250,
@@ -71,8 +72,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic clove, minced",
-      "quantity": "1 medium"
+      "name": "garlic clove",
+      "quantity": "1 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 132,
@@ -86,6 +88,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the shallot. Mince the garlic clove.",
+      "secondary_message": "1 small shallot\n1 medium garlic clove"
+    },
     {
       "id": 1,
       "primary_message": "Cut the mushrooms based on the variety used: Stem and halve portobello mushrooms and cut into 1/2-inch pieces. Trim white button or cremini mushrooms; quarter them if large or medium (about 1 1/2 to 3-inches in diameter) or halve them if small (about 1 to 1 1/2-inches in diameter). Tear trimmed oyster mushrooms into about 1-inch pieces. Stem shiitake mushrooms; quarter large caps (about 1 1/2- to 3-inches in diameter) and halve small caps (about 1 to 1 1/2-inches in diameter). Cut trimmed maitake (hen-of-the-woods) mushrooms into about 1-pieces.",

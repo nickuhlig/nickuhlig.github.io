@@ -84,8 +84,9 @@
     },
     {
       "ingredient_id": 118,
-      "name": "whole milk, cold",
-      "quantity": "2 oz"
+      "name": "whole milk",
+      "quantity": "2 oz",
+      "prep": "cold"
     },
     {
       "ingredient_id": 1124,
@@ -94,8 +95,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "2 oz"
+      "name": "unsalted butter",
+      "quantity": "2 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 3641,
@@ -144,8 +146,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "½ oz"
+      "name": "unsalted butter",
+      "quantity": "½ oz",
+      "prep": "melted"
     },
     {
       "ingredient_id": 1809,
@@ -159,8 +162,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "½ oz"
+      "name": "unsalted butter",
+      "quantity": "½ oz",
+      "prep": "melted"
     },
     {
       "ingredient_id": 1710,
@@ -184,6 +188,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the whole milk cold until you use it. Soften the unsalted butter. Melt the unsalted butter. Melt the unsalted butter.",
+      "secondary_message": "2 oz whole milk\n2 oz unsalted butter\n½ oz unsalted butter\n½ oz unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a small saucepan, whisk milk and flour to combine. Cook over medium heat, whisking constantly, until mixture thickens to a stretchy pudding-like consistency, 2 to 3 minutes.",

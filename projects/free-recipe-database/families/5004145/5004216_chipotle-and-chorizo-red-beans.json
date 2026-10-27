@@ -37,23 +37,27 @@
     },
     {
       "ingredient_id": 1390,
-      "name": "Mexican chorizo, removed from its casing",
-      "quantity": "0.45 kg"
+      "name": "Mexican chorizo",
+      "quantity": "0.45 kg",
+      "prep": "removed from its casing"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, diced",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 2066,
-      "name": "poblano chiles, diced",
-      "quantity": "4"
+      "name": "poblano chiles",
+      "quantity": "4",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "8 cloves"
+      "name": "garlic",
+      "quantity": "8 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1271,
@@ -62,13 +66,15 @@
     },
     {
       "ingredient_id": 1618,
-      "name": "chipotle chilis, canned in adobo sauce, seeds removed and roughly chopped",
-      "quantity": "3"
+      "name": "chipotle chilis, canned in adobo sauce",
+      "quantity": "3",
+      "prep": "seeds removed and roughly chopped"
     },
     {
       "ingredient_id": 1294,
-      "name": "canned tomatoes, roasted, diced",
-      "quantity": "425 g"
+      "name": "canned tomatoes, roasted",
+      "quantity": "425 g",
+      "prep": "diced"
     },
     {
       "ingredient_id": 3144,
@@ -82,6 +88,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the Mexican chorizo from its casing. Dice the onion. Dice the poblano chiles. Mince the garlic. Remove the seeds from the chipotle chilis, then roughly chop them. Dice the canned tomatoes.",
+      "secondary_message": "0.45 kg Mexican chorizo\n1 large onion\n4 poblano chiles\n8 cloves garlic\n3 chipotle chilis, canned in adobo sauce\n425 g canned tomatoes, roasted"
+    },
     {
       "id": 1,
       "primary_message": "Heat a large Dutch oven on high with oil. When it smokes, add chorizo, crumbling with wooden spoon. Stir frequently until fat renders out and chorizo is crisp and well browned. Remove with a slotted spoon to a plate.",

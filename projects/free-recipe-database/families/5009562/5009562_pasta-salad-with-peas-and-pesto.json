@@ -48,8 +48,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic clove, roughly chopped",
-      "quantity": "1 large"
+      "name": "garlic clove",
+      "quantity": "1 large",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1679,
@@ -83,16 +84,24 @@
     },
     {
       "ingredient_id": 1751,
-      "name": "gemelli pasta, cooked, drained and cooled",
-      "quantity": "½ lb (8 oz)"
+      "name": "gemelli pasta, cooked",
+      "quantity": "½ lb (8 oz)",
+      "prep": "drained and cooled"
     },
     {
       "ingredient_id": 275,
-      "name": "frozen green peas, thawed",
-      "quantity": "8 oz"
+      "name": "frozen green peas",
+      "quantity": "8 oz",
+      "prep": "thawed"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the garlic clove. Drain the gemelli pasta and let it cool. Thaw the frozen green peas.",
+      "secondary_message": "1 large garlic clove\n½ lb (8 oz) gemelli pasta, cooked\n8 oz frozen green peas"
+    },
     {
       "id": 1,
       "primary_message": "To make the pesto, combine the herbs, garlic, cheese, nuts, and lemon juice in the bowl of a food processor fitted with the blade attachment. Pulse several times until finely chopped. With the machine running, slowly add the olive oil in a steady stream. Season to taste with salt and pepper, then set aside.",

@@ -59,8 +59,9 @@
     },
     {
       "ingredient_id": 6,
-      "name": "skin-on sushi-grade salmon fillet, pin bones removed by fishmonger",
-      "quantity": "0.9 kg"
+      "name": "skin-on sushi-grade salmon fillet",
+      "quantity": "0.9 kg",
+      "prep": "pin bones removed by fishmonger"
     },
     {
       "ingredient_id": 1916,
@@ -124,6 +125,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the pin bones from the skin-on sushi-grade salmon fillet by fishmonger.",
+      "secondary_message": "0.9 kg skin-on sushi-grade salmon fillet"
+    },
     {
       "id": 1,
       "primary_message": "Fill a large bowl with cold water and add enough salt to make it taste like the sea. Add salmon and let stand 10 minutes.",

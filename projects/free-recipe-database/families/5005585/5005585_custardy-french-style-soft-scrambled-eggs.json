@@ -49,8 +49,9 @@
   "ingredients": [
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "6 large"
+      "name": "eggs",
+      "quantity": "6 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 88,
@@ -69,6 +70,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Beat the eggs.",
+      "secondary_message": "6 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "In a small saucepan, combine eggs, salt, butter, and milk or cream, if using. Set over low heat and cook, whisking constantly, until eggs thicken to a custardy consistency, 5 to 10 minutes. Remove from heat, season with pepper, and serve right away.",

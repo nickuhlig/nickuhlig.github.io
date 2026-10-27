@@ -75,8 +75,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, minced",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2475,
@@ -85,8 +86,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "1 tbsp (½ oz)"
+      "name": "unsalted butter",
+      "quantity": "1 tbsp (½ oz)",
+      "prep": "melted"
     },
     {
       "ingredient_id": 448,
@@ -140,6 +142,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the onion. Melt the unsalted butter.",
+      "secondary_message": "1 small onion\n1 tbsp (½ oz) unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Make Remoulade sauce: Stir all ingredients in a bowl until combined. Season to taste and set aside.",

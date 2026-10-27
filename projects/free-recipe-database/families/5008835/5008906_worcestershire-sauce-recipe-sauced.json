@@ -82,33 +82,39 @@
     },
     {
       "ingredient_id": 1882,
-      "name": "cardamom pods, smashed",
-      "quantity": "5"
+      "name": "cardamom pods",
+      "quantity": "5",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 1776,
-      "name": "chiles de árbol, chopped",
-      "quantity": "4"
+      "name": "chiles de árbol",
+      "quantity": "4",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and crushed",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "peeled and crushed"
     },
     {
       "ingredient_id": 325,
-      "name": "anchovy fillets, roughly chopped",
-      "quantity": "3"
+      "name": "anchovy fillets",
+      "quantity": "3",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, roughly chopped",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, peeled and crushed",
-      "quantity": "1 (5 cm) piece"
+      "name": "ginger",
+      "quantity": "1 (5 cm) piece",
+      "prep": "peeled and crushed"
     },
     {
       "ingredient_id": 1082,
@@ -122,6 +128,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Smash the cardamom pods. Chop the chiles de árbol. Peel and crush the garlic. Roughly chop the anchovy fillets. Roughly chop the yellow onion. Peel and crush the ginger.",
+      "secondary_message": "5 cardamom pods\n4 chiles de árbol\n3 cloves garlic\n3 anchovy fillets\n1 medium yellow onion\n1 (5 cm) piece ginger"
+    },
     {
       "id": 1,
       "primary_message": "Combine vinegar, molasses, soy cause, tamarind, mustard seeds, salt, black peppercorns, cloves, curry powder, cardamom, chiles, garlic, anchovies, onion, ginger, and cinnamon in a medium saucepan. Bring to a boil over high medium, reduce heat to low and simmer for 10 minutes.",

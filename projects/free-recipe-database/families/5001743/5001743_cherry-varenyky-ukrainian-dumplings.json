@@ -106,8 +106,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, lightly beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 1003,
@@ -116,8 +117,9 @@
     },
     {
       "ingredient_id": 359,
-      "name": "water, room temperature",
-      "quantity": "⅓ cup"
+      "name": "water",
+      "quantity": "⅓ cup",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 2859,
@@ -146,6 +148,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly beat the egg. Bring the water to room temperature.",
+      "secondary_message": "1 large egg\n⅓ cup water"
+    },
     {
       "id": 1,
       "primary_message": "For the Filling: In a large bowl, combine frozen sour cherries and sugar, tossing evenly to coat fruit with sugar. Refrigerate covered until fully defrosted and the fruit has released most of its juices, about 12 hours.",

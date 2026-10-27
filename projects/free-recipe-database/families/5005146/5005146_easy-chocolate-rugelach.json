@@ -50,13 +50,15 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "8 oz"
+      "name": "unsalted butter",
+      "quantity": "8 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "8 oz"
+      "name": "cream cheese",
+      "quantity": "8 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 346,
@@ -85,8 +87,9 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "6 oz"
+      "name": "bittersweet chocolate",
+      "quantity": "6 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 346,
@@ -115,6 +118,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter. Soften the cream cheese. Finely chop the bittersweet chocolate.",
+      "secondary_message": "8 oz unsalted butter\n8 oz cream cheese\n6 oz bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "In the bowl of a stand mixer fitted with a paddle attachment, mix butter, cream cheese, granulated sugar, brown sugar, and salt on medium speed until completely combined, about 1 minute. Mix in vanilla until combined. Mix in flour until combined.",

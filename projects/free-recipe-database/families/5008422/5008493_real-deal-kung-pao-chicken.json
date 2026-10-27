@@ -105,8 +105,9 @@
     },
     {
       "ingredient_id": 1869,
-      "name": "hot Chinese dry chile peppers, seeded",
-      "quantity": "12"
+      "name": "hot Chinese dry chile peppers",
+      "quantity": "12",
+      "prep": "seeded"
     },
     {
       "ingredient_id": 309,
@@ -115,6 +116,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Seed the hot Chinese dry chile peppers.",
+      "secondary_message": "12 hot Chinese dry chile peppers"
+    },
     {
       "id": 1,
       "primary_message": "Combine chicken, 2 teaspoons soy sauce, 2 teaspoons Shaoxing wine, and 1 teaspoon cornstarch in medium bowl and mix thoroughly. Allow to marinate in fridge for at least 30 minutes, and up to two hours.",

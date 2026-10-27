@@ -105,8 +105,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "whole shallots, thinly sliced",
-      "quantity": "2"
+      "name": "whole shallots",
+      "quantity": "2",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1044,
@@ -115,8 +116,9 @@
     },
     {
       "ingredient_id": 19,
-      "name": "button mushrooms, cut into quarters",
-      "quantity": "113 g"
+      "name": "button mushrooms",
+      "quantity": "113 g",
+      "prep": "cut into quarters"
     },
     {
       "ingredient_id": 188,
@@ -135,6 +137,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the whole shallots. Cut the button mushrooms into quarters.",
+      "secondary_message": "2 whole shallots\n113 g button mushrooms"
+    },
     {
       "id": 1,
       "primary_message": "Cover chicken pieces (including carcass) with cold water by 5 cm. Bring to a boil over high heat. Reduce to a simmer and cook until center of chicken breasts registers 63°C on an instant-read thermometer, about 15 minutes. Remove chicken breasts. Continue cooking until legs are completely tender, about 45 minutes longer, adding more water as necessary to keep chicken submerged. Transfer legs to bowl with chicken breasts and allow to cool. Discard carcass.",

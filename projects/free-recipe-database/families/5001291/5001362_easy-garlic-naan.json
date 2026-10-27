@@ -88,8 +88,9 @@
     },
     {
       "ingredient_id": 2744,
-      "name": "whole fat plain yogurt, lightly beaten",
-      "quantity": "¾ cup"
+      "name": "whole fat plain yogurt",
+      "quantity": "¾ cup",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 121,
@@ -103,8 +104,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated or finely minced, divided",
-      "quantity": "3 cloves"
+      "name": "garlic, divided",
+      "quantity": "3 cloves",
+      "prep": "grated or finely minced"
     },
     {
       "ingredient_id": 1267,
@@ -113,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly beat the whole fat plain yogurt. Grate or finely mince the garlic.",
+      "secondary_message": "¾ cup whole fat plain yogurt\n3 cloves garlic, divided"
+    },
     {
       "id": 1,
       "primary_message": "Using a fine-mesh strainer set over a large bowl, sift flour and baking powder into bowl. Whisk in yeast, sugar, and salt to combine.",

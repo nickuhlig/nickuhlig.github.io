@@ -125,8 +125,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, peeled and quartered",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "peeled and quartered"
     },
     {
       "ingredient_id": 2744,
@@ -150,8 +151,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 88,
@@ -160,8 +162,9 @@
     },
     {
       "ingredient_id": 473,
-      "name": "flank steak, cut into 1/4-inch strips",
-      "quantity": "2 ¼ lb"
+      "name": "flank steak",
+      "quantity": "2 ¼ lb",
+      "prep": "cut into 1/4-inch strips"
     },
     {
       "ingredient_id": 334,
@@ -195,18 +198,21 @@
     },
     {
       "ingredient_id": 1541,
-      "name": "Roma tomato, seeded and diced",
-      "quantity": "1"
+      "name": "Roma tomato",
+      "quantity": "1",
+      "prep": "seeded and diced"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, diced",
-      "quantity": "1 medium"
+      "name": "red onion",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1808,
-      "name": "fresh parsley, finely chopped",
-      "quantity": "¼ cup"
+      "name": "fresh parsley",
+      "quantity": "¼ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1682,
@@ -235,6 +241,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and quarter the yellow onion. Mince the garlic. Cut the flank steak into 1/4-inch strips. Seed and dice the Roma tomato. Dice the red onion. Finely chop the fresh parsley.",
+      "secondary_message": "1 medium yellow onion\n4 medium cloves garlic\n2 ¼ lb flank steak\n1 Roma tomato\n1 medium red onion\n¼ cup fresh parsley"
+    },
     {
       "id": 1,
       "primary_message": "For the Shawarma Spice Blend: On a cutting board, use the flat side of a knife to crush cardamom pods. Carefully extract seeds; discard pods.",

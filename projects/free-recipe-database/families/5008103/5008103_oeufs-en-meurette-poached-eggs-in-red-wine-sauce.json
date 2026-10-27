@@ -64,13 +64,15 @@
     },
     {
       "ingredient_id": 302,
-      "name": "slab bacon, cut into lardons",
-      "quantity": "4 oz"
+      "name": "slab bacon",
+      "quantity": "4 oz",
+      "prep": "cut into lardons"
     },
     {
       "ingredient_id": 230,
-      "name": "cremini mushrooms, stems reserved and caps quartered",
-      "quantity": "6 oz"
+      "name": "cremini mushrooms",
+      "quantity": "6 oz",
+      "prep": "stems reserved and caps quartered"
     },
     {
       "ingredient_id": 1044,
@@ -99,8 +101,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, cut into roughly 1-inch pieces",
-      "quantity": "2 medium"
+      "name": "shallots",
+      "quantity": "2 medium",
+      "prep": "cut into roughly 1-inch pieces"
     },
     {
       "ingredient_id": 24,
@@ -119,8 +122,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 116,
@@ -139,6 +143,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the slab bacon into lardons. Reserve the stems of the cremini mushrooms, then quarter the caps. Cut the shallots into roughly 1-inch pieces. Soften the unsalted butter.",
+      "secondary_message": "4 oz slab bacon\n6 oz cremini mushrooms\n2 medium shallots\n2 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "If adding powdered gelatin to chicken stock, pour stock into a measuring cup or medium bowl and sprinkle gelatin all over the surface. Let stand.",

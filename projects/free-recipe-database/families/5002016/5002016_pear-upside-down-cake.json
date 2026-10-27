@@ -64,8 +64,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened, divided",
-      "quantity": "12 tbsp"
+      "name": "unsalted butter, divided",
+      "quantity": "12 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 293,
@@ -114,13 +115,15 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1003,
-      "name": "sour cream, at room temperature",
-      "quantity": "¾ cup"
+      "name": "sour cream",
+      "quantity": "¾ cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 353,
@@ -129,6 +132,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter. Bring the eggs to room temperature. Bring the sour cream to room temperature.",
+      "secondary_message": "12 tbsp unsalted butter, divided\n2 large eggs\n¾ cup sour cream"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350°F (175℃). Coat a 9-inch round metal cake pan with cooking spray and line bottom with parchment paper; set aside.",

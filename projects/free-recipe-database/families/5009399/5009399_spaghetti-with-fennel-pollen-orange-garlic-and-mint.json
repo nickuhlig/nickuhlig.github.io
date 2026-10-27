@@ -49,8 +49,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "6 cloves"
+      "name": "garlic",
+      "quantity": "6 cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 47,
@@ -59,13 +60,15 @@
     },
     {
       "ingredient_id": 232,
-      "name": "orange, zested",
-      "quantity": "1"
+      "name": "orange",
+      "quantity": "1",
+      "prep": "zested"
     },
     {
       "ingredient_id": 243,
-      "name": "mint leaves, thinly sliced",
-      "quantity": "20 to 30"
+      "name": "mint leaves",
+      "quantity": "20 to 30",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2893,
@@ -79,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the garlic. Zest the orange. Thinly slice the mint leaves.",
+      "secondary_message": "6 cloves garlic\n1 orange\n20 to 30 mint leaves"
+    },
     {
       "id": 1,
       "primary_message": "Bring 3 quarts of water to boil in a large pot with 1/4 cup kosher salt and cook spaghetti until tender but still firm. Stir occasionally, especially when first adding spaghetti.",

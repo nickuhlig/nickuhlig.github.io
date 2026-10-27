@@ -69,8 +69,9 @@
     },
     {
       "ingredient_id": 1762,
-      "name": "green bird's eye chilis, thinly sliced",
-      "quantity": "2 to 3"
+      "name": "green bird's eye chilis",
+      "quantity": "2 to 3",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1399,
@@ -119,6 +120,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the green bird's eye chilis.",
+      "secondary_message": "2 to 3 green bird's eye chilis"
+    },
     {
       "id": 1,
       "primary_message": "To Soften the Tamarind: In a small bowl, break tamarind into small pieces by hand. Pour 1/4 cup hot water over tamarind and set aside.",

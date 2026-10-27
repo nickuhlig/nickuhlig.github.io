@@ -43,8 +43,9 @@
     },
     {
       "ingredient_id": 1230,
-      "name": "whole chicken, cut into 6 pieces",
-      "quantity": "1"
+      "name": "whole chicken",
+      "quantity": "1",
+      "prep": "cut into 6 pieces"
     },
     {
       "ingredient_id": 152,
@@ -79,8 +80,9 @@
     },
     {
       "ingredient_id": 1882,
-      "name": "cardamom pods, cracked open",
-      "quantity": "4"
+      "name": "cardamom pods",
+      "quantity": "4",
+      "prep": "cracked open"
     },
     {
       "ingredient_id": 349,
@@ -159,6 +161,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the whole chicken into 6 pieces. Crack open the cardamom pods.",
+      "secondary_message": "1 whole chicken\n4 cardamom pods"
+    },
     {
       "id": 1,
       "primary_message": "For the Spiced Chicken Broth: In a stock pot or other heavy-bottomed pot, heat olive oil over medium heat until almost smoking. Working in batches to avoid crowding the pot, add chicken, skin side down, and sear until golden brown all over, about 5 minutes each side, then transfer to a plate or platter; add additional oil as needed to prevent pot from drying out during subsequent batches.",

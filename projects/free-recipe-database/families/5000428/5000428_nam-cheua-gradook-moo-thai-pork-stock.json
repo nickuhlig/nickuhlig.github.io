@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 2267,
-      "name": "pork backbone, cut into 2-inch pieces",
-      "quantity": "4 ½ lb"
+      "name": "pork backbone",
+      "quantity": "4 ½ lb",
+      "prep": "cut into 2-inch pieces"
     },
     {
       "ingredient_id": 88,
@@ -51,28 +52,33 @@
     },
     {
       "ingredient_id": 2196,
-      "name": "daikon radish, sliced into 1/2-inch rounds",
-      "quantity": "1 small"
+      "name": "daikon radish",
+      "quantity": "1 small",
+      "prep": "sliced into 1/2-inch rounds"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, white and green parts, cut into thirds",
-      "quantity": "5 medium"
+      "name": "scallions, white and green parts",
+      "quantity": "5 medium",
+      "prep": "cut into thirds"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, cloves separated and peeled",
-      "quantity": "1 head"
+      "name": "garlic",
+      "quantity": "1 head",
+      "prep": "cloves separated and peeled"
     },
     {
       "ingredient_id": 221,
-      "name": "fresh peeled ginger, sliced into rounds",
-      "quantity": "1 (2 inch) piece"
+      "name": "fresh peeled ginger",
+      "quantity": "1 (2 inch) piece",
+      "prep": "sliced into rounds"
     },
     {
       "ingredient_id": 1814,
-      "name": "cilantro roots, cleaned and sliced",
-      "quantity": "5"
+      "name": "cilantro roots",
+      "quantity": "5",
+      "prep": "cleaned and sliced"
     },
     {
       "ingredient_id": 1813,
@@ -81,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the pork backbone into 2-inch pieces. Slice the daikon radish into 1/2-inch rounds. Cut the scallions into thirds. Separate and peel the cloves of the garlic. Slice the fresh peeled ginger into rounds. Clean and slice the cilantro roots.",
+      "secondary_message": "4 ½ lb pork backbone\n1 small daikon radish\n5 medium scallions, white and green parts\n1 head garlic\n1 (2 inch) piece fresh peeled ginger\n5 cilantro roots"
+    },
     {
       "id": 1,
       "primary_message": "In a large stock pot, combine pork backbone pieces with water to cover and bring to a boil over high heat. Boil for 5 minutes and then drain into a colander set in the sink. Wash the pot and bones of any excess scum.",

@@ -44,8 +44,9 @@
   "ingredients": [
     {
       "ingredient_id": 1079,
-      "name": "pita, split and cut into 3/4-inch squares",
-      "quantity": "6 oz"
+      "name": "pita",
+      "quantity": "6 oz",
+      "prep": "split and cut into 3/4-inch squares"
     },
     {
       "ingredient_id": 47,
@@ -64,8 +65,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced or grated",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "finely minced or grated"
     },
     {
       "ingredient_id": 88,
@@ -84,13 +86,15 @@
     },
     {
       "ingredient_id": 106,
-      "name": "fresh flat-leaf parsley leaves, roughly chopped",
-      "quantity": "1 large bunch"
+      "name": "fresh flat-leaf parsley leaves",
+      "quantity": "1 large bunch",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 243,
-      "name": "fresh mint leaves, roughly torn mint leaves",
-      "quantity": "1 small bunch"
+      "name": "fresh mint leaves",
+      "quantity": "1 small bunch",
+      "prep": "roughly torn mint leaves"
     },
     {
       "ingredient_id": 153,
@@ -114,8 +118,9 @@
     },
     {
       "ingredient_id": 343,
-      "name": "whole radishes, halved and thinly sliced",
-      "quantity": "5"
+      "name": "whole radishes",
+      "quantity": "5",
+      "prep": "halved and thinly sliced"
     },
     {
       "ingredient_id": 1579,
@@ -124,6 +129,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split and cut the pita into 3/4-inch squares. Finely mince or grate the garlic. Roughly chop the fresh flat-leaf parsley leaves. Roughly tear the fresh mint leaves mint leaves. Halve and thinly slice the whole radishes.",
+      "secondary_message": "6 oz pita\n2 medium cloves garlic\n1 large bunch fresh flat-leaf parsley leaves\n1 small bunch fresh mint leaves\n5 whole radishes"
+    },
     {
       "id": 1,
       "primary_message": "For the Pita Chips: Adjust oven rack to middle position and preheat oven to 350ºF (175ºC). Spread pita on a rimmed baking sheet and bake, using a wooden spoon or flexible spatula to stir halfway through cooking, until squares are completely dry, toasted, crisp, and beginning to darken in color, about 15 minutes. Let pita cool fully, about 15 minutes. Set aside.",

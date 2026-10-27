@@ -58,23 +58,27 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, peeled and smashed",
-      "quantity": "15 medium"
+      "name": "garlic cloves",
+      "quantity": "15 medium",
+      "prep": "peeled and smashed"
     },
     {
       "ingredient_id": 2075,
-      "name": "chipotle chilis, dried, stems removed",
-      "quantity": "5"
+      "name": "chipotle chilis, dried",
+      "quantity": "5",
+      "prep": "stems removed"
     },
     {
       "ingredient_id": 3357,
-      "name": "dried puya chiles, stems removed, and halved lengthwise",
-      "quantity": "5"
+      "name": "dried puya chiles",
+      "quantity": "5",
+      "prep": "stems removed, and halved lengthwise"
     },
     {
       "ingredient_id": 1776,
-      "name": "dried árbol chiles, stem removed",
-      "quantity": "4"
+      "name": "dried árbol chiles",
+      "quantity": "4",
+      "prep": "stem removed"
     },
     {
       "ingredient_id": 217,
@@ -98,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and smash the garlic cloves. Remove the stems from the chipotle chilis. Remove the stems from the dried puya chiles, then halve them lengthwise. Remove the stem from the dried árbol chiles.",
+      "secondary_message": "15 medium garlic cloves\n5 chipotle chilis, dried\n5 dried puya chiles\n4 dried árbol chiles"
+    },
     {
       "id": 1,
       "primary_message": "In a small saucepan, combine oil and smashed garlic. Cook over medium-low heat (the oil temperature should not exceed 275℉(135℃), until garlic is golden and fragrant, 8 to 12 minutes.",

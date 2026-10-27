@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "70% bittersweet chocolate, finely chopped",
-      "quantity": "8 oz"
+      "name": "70% bittersweet chocolate",
+      "quantity": "8 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1517,
@@ -81,11 +82,18 @@
     },
     {
       "ingredient_id": 108,
-      "name": "roasted cashews, chopped",
-      "quantity": "½ cup"
+      "name": "roasted cashews",
+      "quantity": "½ cup",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the 70% bittersweet chocolate. Chop the roasted cashews.",
+      "secondary_message": "8 oz 70% bittersweet chocolate\n½ cup roasted cashews"
+    },
     {
       "id": 1,
       "primary_message": "Adjust rack to middle position and preheat oven to 350°F. Line bottom and two sides of an 8- by 8- inch baking pan with foil, allowing edges to overhang the sides. Grease the pan.",

@@ -68,8 +68,9 @@
     },
     {
       "ingredient_id": 260,
-      "name": "plum tomatoes, cut into 1/4-inch thick slices",
-      "quantity": "2 large"
+      "name": "plum tomatoes",
+      "quantity": "2 large",
+      "prep": "cut into 1/4-inch thick slices"
     },
     {
       "ingredient_id": 1713,
@@ -108,6 +109,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the plum tomatoes into 1/4-inch thick slices.",
+      "secondary_message": "2 large plum tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "For the Spread: combine mayonnaise, ketchup, relish, sugar, and vinegar in a bowl and stir until homogenous. Set aside.",

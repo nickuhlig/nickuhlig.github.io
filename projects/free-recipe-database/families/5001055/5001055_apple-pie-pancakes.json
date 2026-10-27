@@ -97,23 +97,27 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, at room temperature",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 118,
-      "name": "whole milk, at room temperature",
-      "quantity": "½ cup"
+      "name": "whole milk",
+      "quantity": "½ cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1003,
-      "name": "sour cream, at room temperature",
-      "quantity": "⅓ cup"
+      "name": "sour cream",
+      "quantity": "⅓ cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "3 tbsp"
+      "name": "unsalted butter",
+      "quantity": "3 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 353,
@@ -162,6 +166,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the egg to room temperature. Bring the whole milk to room temperature. Bring the sour cream to room temperature. Melt the unsalted butter.",
+      "secondary_message": "1 large egg\n½ cup whole milk\n⅓ cup sour cream\n3 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Prepare the Pancakes: In a medium bowl, whisk flour, baking powder, cinnamon, salt, baking soda, and pumpkin pie spice to combine. In a separate medium bowl, toss apples with brown sugar to evenly coat; let stand, stirring occasionally, until apples have released some liquid and broken down slightly, 20 to 30 minutes.",

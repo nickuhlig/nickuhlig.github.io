@@ -67,9 +67,10 @@
     },
     {
       "ingredient_id": 1039,
-      "name": "russet potatoes, peeled and cut into 3/4-inch cubes",
+      "name": "russet potatoes",
       "quantity": "6 medium",
-      "weigh_as": "1.4 kg"
+      "weigh_as": "1.4 kg",
+      "prep": "peeled and cut into 3/4-inch cubes"
     },
     {
       "ingredient_id": 121,
@@ -123,6 +124,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the russet potatoes into 3/4-inch cubes.",
+      "secondary_message": "6 medium russet potatoes"
+    },
     {
       "id": 1,
       "primary_message": "In a large saucepan, add 2 quarts water, 2 tablespoons vinegar, 2 tablespoons kosher salt, and 2 tablespoons sugar and stir to combine. Add potatoes and bring to a boil over high heat. Reduce to medium to maintain a simmer, and cook, stirring occasionally, until potatoes are tender, about 10 minutes. Use a large slotted spoon or spider skimmer to transfer potatoes to a colander to drain (reserve water in saucepan); then transfer to a large rimmed baking sheet. Spread into an even layer, then sprinkle with 2 tablespoons vinegar. Allow to cool to room temperature, about 30 minutes.",

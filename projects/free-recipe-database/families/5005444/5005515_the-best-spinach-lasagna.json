@@ -56,13 +56,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely minced",
-      "quantity": "1"
+      "name": "shallot",
+      "quantity": "1",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "6 medium"
+      "name": "garlic cloves",
+      "quantity": "6 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 88,
@@ -76,8 +78,9 @@
     },
     {
       "ingredient_id": 1879,
-      "name": "fresh flat-leaf spinach leaves, washed and dried",
-      "quantity": "910 g"
+      "name": "fresh flat-leaf spinach leaves",
+      "quantity": "910 g",
+      "prep": "washed and dried"
     },
     {
       "ingredient_id": 37,
@@ -131,6 +134,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the shallot. Mince the garlic cloves. Wash and dry the fresh flat-leaf spinach leaves.",
+      "secondary_message": "1 shallot\n6 medium garlic cloves\n910 g fresh flat-leaf spinach leaves"
+    },
     {
       "id": 1,
       "primary_message": "For the Spinach: Heat olive oil and butter in a large saucepan over medium heat until melted. Add shallots and garlic, season with salt and pepper, and cook, stirring frequently, until softened and fragrant, about 1 minute. Add a few large handfuls of spinach and cook, stirring, until wilted. Continue adding spinach a handful at a time until it is all in the pot. Cook, stirring frequently, until spinach expels its moisture and most of that moisture evaporates, leaving a dry bottom as you stir. Season to taste with salt and pepper.",

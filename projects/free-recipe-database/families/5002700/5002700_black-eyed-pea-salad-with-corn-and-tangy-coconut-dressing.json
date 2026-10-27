@@ -81,8 +81,9 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, finely chopped",
-      "quantity": "1 small"
+      "name": "red onion",
+      "quantity": "1 small",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 151,
@@ -91,23 +92,27 @@
     },
     {
       "ingredient_id": 469,
-      "name": "ripe plum, cored and cut into 1/2-inch pieces",
-      "quantity": "2"
+      "name": "ripe plum",
+      "quantity": "2",
+      "prep": "cored and cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell pepper, chopped",
-      "quantity": "1 medium"
+      "name": "red bell pepper",
+      "quantity": "1 medium",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 291,
-      "name": "green bell pepper, chopped",
-      "quantity": "1 medium"
+      "name": "green bell pepper",
+      "quantity": "1 medium",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2199,
-      "name": "black-eyed peas, drained and rinsed",
-      "quantity": "1 (15 ½ oz) can"
+      "name": "black-eyed peas",
+      "quantity": "1 (15 ½ oz) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 27,
@@ -136,6 +141,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the red onion. Core and cut the ripe plum into 1/2-inch pieces. Chop the red bell pepper. Chop the green bell pepper. Drain and rinse the black-eyed peas.",
+      "secondary_message": "1 small red onion\n2 ripe plum\n1 medium red bell pepper\n1 medium green bell pepper\n1 (15 ½ oz) can black-eyed peas"
+    },
     {
       "id": 1,
       "primary_message": "For the Dressing: In a small saucepan, combine palm sugar and coconut aminos. Cook over medium-low heat, stirring occasionally, until sugar is dissolved, 4 to 5 minutes.",

@@ -71,8 +71,9 @@
     },
     {
       "ingredient_id": 2506,
-      "name": "10-12 pound whole brisket, fat cap trimmed to 1/4 inch",
-      "quantity": "1"
+      "name": "10-12 pound whole brisket",
+      "quantity": "1",
+      "prep": "fat cap trimmed to 1/4 inch"
     },
     {
       "ingredient_id": 72,
@@ -91,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the fat cap of the 10-12 pound whole brisket to 1/4 inch.",
+      "secondary_message": "1 10-12 pound whole brisket"
+    },
     {
       "id": 1,
       "primary_message": "For Curing the Brisket: In a small bowl, mix together the kosher salt, brown sugar, pepper coriander, pink salt, granulated garlic, allspice, and bay leaf. Coat the entire brisket with the cure and place in a 2-gallon extra-large resealable plastic bag or transfer to a sheet pan and cover. Transfer to refrigerator and let cure for 7 days, flipping the brisket once every day.",

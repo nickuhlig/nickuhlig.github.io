@@ -49,8 +49,9 @@
   "ingredients": [
     {
       "ingredient_id": 142,
-      "name": "butternut squash, split lengthwise, seeds removed",
-      "quantity": "1 small"
+      "name": "butternut squash",
+      "quantity": "1 small",
+      "prep": "split lengthwise, seeds removed"
     },
     {
       "ingredient_id": 47,
@@ -79,8 +80,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely sliced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 1844,
@@ -89,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the butternut squash lengthwise, then remove the seeds. Finely slice the onion.",
+      "secondary_message": "1 small butternut squash\n1 medium onion"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to upper-middle position and preheat oven to 190°C (375°F). Coat squash halves with 2 tablespoons olive oil and season with salt and pepper. Place on rimmed baking sheet lined with aluminum foil with cut side facing up. Place garlic clove and thyme sprig in each seed hollow. Roast until completely tender and lightly browned in spots, about 1 hour total. Remove from oven and allow to cool slightly. Discard thyme and carefully scrape flesh away from skin. Discard skin.",

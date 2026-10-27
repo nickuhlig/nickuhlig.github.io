@@ -48,13 +48,15 @@
     },
     {
       "ingredient_id": 111,
-      "name": "green beans, trimmed diagonally into 1-inch slices",
-      "quantity": "0.11 kg"
+      "name": "green beans",
+      "quantity": "0.11 kg",
+      "prep": "trimmed diagonally into 1-inch slices"
     },
     {
       "ingredient_id": 44,
-      "name": "boneless skinless chicken breasts, cut against the grain into thin slices",
-      "quantity": "0.23 kg"
+      "name": "boneless skinless chicken breasts",
+      "quantity": "0.23 kg",
+      "prep": "cut against the grain into thin slices"
     },
     {
       "ingredient_id": 52,
@@ -73,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the green beans diagonally into 1-inch slices. Cut the boneless skinless chicken breasts against the grain into thin slices.",
+      "secondary_message": "0.11 kg green beans\n0.23 kg boneless skinless chicken breasts"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in a 25-cm wok or skillet over medium-high heat until shimmering. Add curry paste and cook, stirring constantly and pressing curry paste against bottom of pan until fragrant, about 30 seconds.",

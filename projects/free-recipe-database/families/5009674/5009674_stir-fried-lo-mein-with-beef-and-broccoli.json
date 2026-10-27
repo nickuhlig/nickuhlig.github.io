@@ -39,8 +39,9 @@
   "ingredients": [
     {
       "ingredient_id": 473,
-      "name": "flank steak, sliced thin for stir-frying",
-      "quantity": "½ lb"
+      "name": "flank steak",
+      "quantity": "½ lb",
+      "prep": "sliced thin for stir-frying"
     },
     {
       "ingredient_id": 88,
@@ -134,17 +135,25 @@
     },
     {
       "ingredient_id": 105,
-      "name": "broccoli, cut into bite-sized florets",
+      "name": "broccoli",
       "quantity": "1 ½ crowns",
-      "weigh_as": "½ lb"
+      "weigh_as": "½ lb",
+      "prep": "cut into bite-sized florets"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "finely minced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the flank steak thin for stir-frying. Cut the broccoli into bite-sized florets. Finely mince the garlic.",
+      "secondary_message": "½ lb flank steak\n1 ½ crowns broccoli\n3 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Beef: Combine beef, salt, sugar, pepper, wine, soy sauce, oil, and cornstarch in a small bowl and toss with fingers to coat. Set in refrigerator to marinate.",

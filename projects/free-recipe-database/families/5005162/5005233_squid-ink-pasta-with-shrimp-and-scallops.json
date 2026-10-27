@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1721,
@@ -96,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the garlic.",
+      "secondary_message": "3 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Bring a large pot of salted water to a boil. Heat oil in a heavy skillet over medium-high heat until lightly smoking. Add shrimp and sauté until opaque, about 1 minute each side. Remove to a plate. Reheat oil and cook the scallops until they too are opaque and lightly browned, 2 minutes each side. Remove scallops to plate with shrimp and add garlic to pan. Cook, stirring often, until golden, about 2 minutes. Add red pepper flakes, salt, black pepper, wine, tomato, and parsley, and cook over high heat until reduced by half, 8 to 10 minutes. Add lemon juice and butter and return seafood to the skillet, mixing well. Keep warm.",

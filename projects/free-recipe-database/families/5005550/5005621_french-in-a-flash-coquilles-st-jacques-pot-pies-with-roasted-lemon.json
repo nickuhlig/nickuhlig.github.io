@@ -48,13 +48,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, sliced",
-      "quantity": "2"
+      "name": "shallots",
+      "quantity": "2",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, chopped",
-      "quantity": "1 clove"
+      "name": "garlic",
+      "quantity": "1 clove",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2250,
@@ -128,6 +130,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the shallots. Chop the garlic.",
+      "secondary_message": "2 shallots\n1 clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "In a sauce pot, melt 2 tablespoons of butter. Add in the shallots, garlic, and mushrooms, and season with only pepper--not salt just yet. Adding salt now would cause the mushrooms to weep their moisture (wouldn't you, if you were salted and in a hot pot?), and if they weep, they won't caramelize and maximize their flavor. Cook the vegetables on medium-high heat for about 5 to 7 minutes, until the mushrooms really start to sear and caramelize. Then, season them with salt.",

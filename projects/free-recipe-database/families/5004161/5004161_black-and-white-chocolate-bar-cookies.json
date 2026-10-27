@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cubed",
-      "quantity": "10 tbsp (5 oz)"
+      "name": "unsalted butter",
+      "quantity": "10 tbsp (5 oz)",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 293,
@@ -86,11 +87,18 @@
     },
     {
       "ingredient_id": 272,
-      "name": "walnuts, chopped",
-      "quantity": "½ cup"
+      "name": "walnuts",
+      "quantity": "½ cup",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cube the unsalted butter. Chop the walnuts.",
+      "secondary_message": "10 tbsp (5 oz) unsalted butter\n½ cup walnuts"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350°F. Grease a 9- by 9-inch baking pan.",

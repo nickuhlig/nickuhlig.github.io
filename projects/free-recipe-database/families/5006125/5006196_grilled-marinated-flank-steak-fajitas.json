@@ -86,21 +86,30 @@
     },
     {
       "ingredient_id": 187,
-      "name": "flour tortillas, warmed",
-      "quantity": "12 to 16"
+      "name": "flour tortillas",
+      "quantity": "12 to 16",
+      "prep": "warmed"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely diced",
-      "quantity": "1 large"
+      "name": "yellow onion",
+      "quantity": "1 large",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 228,
-      "name": "whole limes, cut into wedges",
-      "quantity": "2"
+      "name": "whole limes",
+      "quantity": "2",
+      "prep": "cut into wedges"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Warm the flour tortillas. Finely dice the yellow onion. Cut the whole limes into wedges.",
+      "secondary_message": "12 to 16 flour tortillas\n1 large yellow onion\n2 whole limes"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, whisk together soy sauce, lime juice, garlic, sugar, ground chile, oregano, cumin, cayenne, and 2 tablespoons cilantro until sugar is dissolved. Slowly add oil while whisking constantly. Place flank steak inside a gallon-sized zipper-lock bag with marinade. Press out air, seal bag, and allow meat to marinate in the refrigerator, turning occasionally, for at least 1 and up to 12 hours.",

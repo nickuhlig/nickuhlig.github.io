@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "16 tbsp"
+      "name": "unsalted butter",
+      "quantity": "16 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 353,
@@ -81,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter.",
+      "secondary_message": "16 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, whisk together flour, baking soda, and salt; set aside. In a large bowl, whisk together brown sugar, sugar, and melted butter until smooth. Whisk in vanilla extract and eggs until combined. Add flour mixture and whisk until just incorporated. Use a rubber spatula to gently mix in blueberries. Cover dough with plastic wrap and let chill for at least two hours and up to overnight.",

@@ -47,8 +47,9 @@
   "ingredients": [
     {
       "ingredient_id": 1230,
-      "name": "whole chicken, halved",
-      "quantity": "1"
+      "name": "whole chicken",
+      "quantity": "1",
+      "prep": "halved"
     },
     {
       "ingredient_id": 2435,
@@ -107,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the whole chicken.",
+      "secondary_message": "1 whole chicken"
+    },
     {
       "id": 1,
       "primary_message": "Rub chicken all over with barbecue rub. Fire up smoker or grill to 225°F, adding chunks of smoking wood when at temperature. When wood is ignited and producing smoke, place chicken in smoker or grill, skin side up. Smoke until an instant-read thermometer reads 160°F when inserted into thickest part of thigh, 1 1/2 to 2 hours. Remove from smoker and let cool completely, about 1 hour.",

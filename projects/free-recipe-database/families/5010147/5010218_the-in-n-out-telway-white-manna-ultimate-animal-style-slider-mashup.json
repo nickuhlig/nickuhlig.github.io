@@ -98,13 +98,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, sliced paper thin on a mandoline",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "sliced paper thin on a mandoline"
     },
     {
       "ingredient_id": 1264,
-      "name": "American cheese, cut in half",
-      "quantity": "6 slices"
+      "name": "American cheese",
+      "quantity": "6 slices",
+      "prep": "cut in half"
     },
     {
       "ingredient_id": 1016,
@@ -113,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the onion paper thin on a mandoline. Cut the American cheese in half.",
+      "secondary_message": "1 large onion\n6 slices American cheese"
+    },
     {
       "id": 1,
       "primary_message": "Combine mayonnaise, ketchup, relish, sugar, white vinegar, pickles, and pickle juice in a food processor. Process until almost smooth. Season to taste with plenty of black pepper and a little salt (depending on how salty your pickles were, you may not need any extra salt). Set spread aside.",

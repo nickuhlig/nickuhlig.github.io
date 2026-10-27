@@ -44,8 +44,9 @@
     },
     {
       "ingredient_id": 1811,
-      "name": "shrimp, large or jumbo, peeled and deveined",
-      "quantity": "0.68 kg"
+      "name": "shrimp, large or jumbo",
+      "quantity": "0.68 kg",
+      "prep": "peeled and deveined"
     },
     {
       "ingredient_id": 260,
@@ -64,8 +65,9 @@
     },
     {
       "ingredient_id": 228,
-      "name": "lime, juiced, to taste",
-      "quantity": "1"
+      "name": "lime, to taste",
+      "quantity": "1",
+      "prep": "juiced"
     },
     {
       "ingredient_id": 52,
@@ -84,11 +86,18 @@
     },
     {
       "ingredient_id": 243,
-      "name": "mint leaves, torn into small pieces by hand",
-      "quantity": "⅓ cup"
+      "name": "mint leaves",
+      "quantity": "⅓ cup",
+      "prep": "torn into small pieces by hand"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and devein the shrimp. Juice the lime. Tear the mint leaves into small pieces by hand.",
+      "secondary_message": "0.68 kg shrimp, large or jumbo\n1 lime, to taste\n⅓ cup mint leaves"
+    },
     {
       "id": 1,
       "primary_message": "Put water and salt in a large pot and bring to a boil. Reduce heat so water is steaming but no longer boiling. If you have a thermometer, make sure water registers somewhere between 160 and 180 ̊ F (71 and 82 ̊ C) which is ideal for poaching shrimp. (For those needing help on the proper way to poach shrimp, see this video demo by Chef Michael Pardus of the Culinary Institute of America.)",

@@ -40,8 +40,9 @@
     },
     {
       "ingredient_id": 1039,
-      "name": "russet potatoes, washed and scrubbed",
-      "quantity": "6 medium"
+      "name": "russet potatoes",
+      "quantity": "6 medium",
+      "prep": "washed and scrubbed"
     },
     {
       "ingredient_id": 1007,
@@ -50,8 +51,9 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, thinly sliced",
-      "quantity": "1 medium"
+      "name": "white onion",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -90,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash and scrub the russet potatoes. Thinly slice the white onion.",
+      "secondary_message": "6 medium russet potatoes\n1 medium white onion"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center position and preheat oven to 205°C (400°F). Line a baking sheet with foil and lay the bacon on top, making sure not to overlap. Bake until crisp, 14 to 18 minutes, rotating the pan halfway through. Set the cooked bacon aside on a paper towel lined plate and pour the rendered grease from the pan into a small bowl.",

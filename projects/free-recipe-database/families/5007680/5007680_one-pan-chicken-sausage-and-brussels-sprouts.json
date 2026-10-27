@@ -35,13 +35,15 @@
   "ingredients": [
     {
       "ingredient_id": 14,
-      "name": "Brussels sprouts, trimmed and halved",
-      "quantity": "1 lb"
+      "name": "Brussels sprouts",
+      "quantity": "1 lb",
+      "prep": "trimmed and halved"
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, peeled and quartered",
-      "quantity": "5 medium"
+      "name": "shallots",
+      "quantity": "5 medium",
+      "prep": "peeled and quartered"
     },
     {
       "ingredient_id": 192,
@@ -65,8 +67,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced or grated",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced or grated"
     },
     {
       "ingredient_id": 117,
@@ -95,11 +98,18 @@
     },
     {
       "ingredient_id": 2294,
-      "name": "Italian sausages, hot or sweet, cut into 2-inch lengths",
-      "quantity": "4 large"
+      "name": "Italian sausages, hot or sweet",
+      "quantity": "4 large",
+      "prep": "cut into 2-inch lengths"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim and halve the Brussels sprouts. Peel and quarter the shallots. Mince or grate the garlic. Cut the Italian sausages into 2-inch lengths.",
+      "secondary_message": "1 lb Brussels sprouts\n5 medium shallots\n3 medium cloves garlic\n4 large Italian sausages, hot or sweet"
+    },
     {
       "id": 1,
       "primary_message": "Position rack in lower third of oven and preheat to 450°F.",

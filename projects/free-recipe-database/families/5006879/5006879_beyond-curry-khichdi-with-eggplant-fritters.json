@@ -37,8 +37,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, thinly sliced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 74,
@@ -52,13 +53,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated on a microplane grater",
-      "quantity": "1 tbsp"
+      "name": "garlic",
+      "quantity": "1 tbsp",
+      "prep": "grated on a microplane grater"
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, grated on a microplane grater",
-      "quantity": "1 tbsp"
+      "name": "ginger",
+      "quantity": "1 tbsp",
+      "prep": "grated on a microplane grater"
     },
     {
       "ingredient_id": 186,
@@ -72,8 +75,9 @@
     },
     {
       "ingredient_id": 1897,
-      "name": "potato, cut into 1/2-inch dice",
-      "quantity": "1 medium"
+      "name": "potato",
+      "quantity": "1 medium",
+      "prep": "cut into 1/2-inch dice"
     },
     {
       "ingredient_id": 158,
@@ -82,8 +86,9 @@
     },
     {
       "ingredient_id": 1849,
-      "name": "rice, washed and drained",
-      "quantity": "1 cup"
+      "name": "rice",
+      "quantity": "1 cup",
+      "prep": "washed and drained"
     },
     {
       "ingredient_id": 3658,
@@ -102,8 +107,9 @@
     },
     {
       "ingredient_id": 260,
-      "name": "tomato, cut into rounds",
-      "quantity": "1 medium"
+      "name": "tomato",
+      "quantity": "1 medium",
+      "prep": "cut into rounds"
     },
     {
       "ingredient_id": 359,
@@ -117,8 +123,9 @@
     },
     {
       "ingredient_id": 18,
-      "name": "eggplant, about 6 inches, cut into 1/2-inch rounds",
-      "quantity": "1 medium"
+      "name": "eggplant, about 6 inches",
+      "quantity": "1 medium",
+      "prep": "cut into 1/2-inch rounds"
     },
     {
       "ingredient_id": 1890,
@@ -152,6 +159,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the onion. Grate the garlic on a microplane grater. Grate the ginger on a microplane grater. Cut the potato into 1/2-inch dice. Wash and drain the rice. Cut the tomato into rounds. Cut the eggplant into 1/2-inch rounds.",
+      "secondary_message": "1 medium onion\n1 tbsp garlic\n1 tbsp ginger\n1 medium potato\n1 cup rice\n1 medium tomato\n1 medium eggplant, about 6 inches"
+    },
     {
       "id": 1,
       "primary_message": "For the khichdi: Heat oil in a large saucepan over medium heat until shimmering. Add the onions and cook, stirring frequently until just beginning to brown, about 4 minutes. Add cinnamon stick and cloves and cook, stirring constantly, until fragrant, about 30 seconds. Reduce heat to low. Add garlic and ginger and cook, stirring constantly, until aromatic, about 30 seconds. Add cumin and turmeric and continue to cook over low heat, stirring constantly, until oil separates, about 1 minute longer.",

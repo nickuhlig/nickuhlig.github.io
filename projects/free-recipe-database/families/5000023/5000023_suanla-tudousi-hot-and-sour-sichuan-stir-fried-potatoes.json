@@ -53,8 +53,9 @@
     },
     {
       "ingredient_id": 1869,
-      "name": "dried Chinese chiles, stemmed and seeded",
-      "quantity": "4"
+      "name": "dried Chinese chiles",
+      "quantity": "4",
+      "prep": "stemmed and seeded"
     },
     {
       "ingredient_id": 88,
@@ -93,8 +94,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, thinly sliced",
-      "quantity": "2 medium"
+      "name": "garlic cloves",
+      "quantity": "2 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1838,
@@ -113,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem and seed the dried Chinese chiles. Thinly slice the garlic cloves.",
+      "secondary_message": "4 dried Chinese chiles\n2 medium garlic cloves"
+    },
     {
       "id": 1,
       "primary_message": "Place shredded potatoes in a medium bowl, cover with cold water, and soak for 5 minutes. Using your hands, swish potatoes until water turns cloudy, about 30 seconds. Using a colander, drain potatoes, discarding the cloudy soaking water. Return potatoes to bowl, refill with cold water, and repeat process until water runs clear, at least 2 more times. Drain, and set aside; refill now-empty bowl with cold water and set aside as well. Using sharp kitchen shears, cut chiles lengthwise into threads. Place in small bowl, cover with cold water and soak for 5 minutes, then drain and set aside.",

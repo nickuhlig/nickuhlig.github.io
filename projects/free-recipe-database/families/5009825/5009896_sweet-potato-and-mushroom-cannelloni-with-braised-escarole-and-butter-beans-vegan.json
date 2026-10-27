@@ -57,9 +57,10 @@
     },
     {
       "ingredient_id": 143,
-      "name": "sweet potato, peeled and roughly cubed",
+      "name": "sweet potato",
       "quantity": "0.15 kg",
-      "weigh_as": "1 large"
+      "weigh_as": "1 large",
+      "prep": "peeled and roughly cubed"
     },
     {
       "ingredient_id": 1707,
@@ -88,13 +89,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, minced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "minced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1677,
@@ -118,8 +121,9 @@
     },
     {
       "ingredient_id": 1388,
-      "name": "butter beans, drained but not rinsed",
-      "quantity": "2 (425 g) cans large"
+      "name": "butter beans",
+      "quantity": "2 (425 g) cans large",
+      "prep": "drained but not rinsed"
     },
     {
       "ingredient_id": 1725,
@@ -133,6 +137,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and roughly cube the sweet potato. Mince the shallot. Mince the garlic. Drain the butter beans but not rinsed.",
+      "secondary_message": "0.15 kg sweet potato\n1 small shallot\n1 medium clove garlic\n2 (425 g) cans large butter beans"
+    },
     {
       "id": 1,
       "primary_message": "Place pasta sheets in a large bowl or baking dish and cover with hot water. Allow to soak, agitating them occasionally, until malleable, at least 30 minutes. Meanwhile, place dried mushrooms in a 2 quart liquid measure and cover with 1 1/2 quarts hot water. Microwave on high power until simmering, about 2 minutes. Set aside and allow mushrooms to soak until tender, about 10 minutes. Drain mushrooms and squeeze dry, reserving soaking liquid. Roughly chop mushrooms into 1.5 to 2.5-cm pieces",

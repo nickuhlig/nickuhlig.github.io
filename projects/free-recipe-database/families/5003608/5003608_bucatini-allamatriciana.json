@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 1294,
-      "name": "whole peeled tomatoes, crushed by hand",
-      "quantity": "1 (28 oz) can"
+      "name": "whole peeled tomatoes",
+      "quantity": "1 (28 oz) can",
+      "prep": "crushed by hand"
     },
     {
       "ingredient_id": 88,
@@ -91,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Crush the whole peeled tomatoes by hand.",
+      "secondary_message": "1 (28 oz) can whole peeled tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "In a large skillet, heat olive oil over medium-high heat until shimmering. Add guanciale and pepper flakes and cook, stirring, until lightly browned, about 5 minutes. Add wine and cook, scraping up any browned bits on bottom of pan, until nearly evaporated, about 3 minutes.",

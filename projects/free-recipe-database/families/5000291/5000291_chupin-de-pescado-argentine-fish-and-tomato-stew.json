@@ -53,18 +53,21 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, diced",
-      "quantity": "1 large"
+      "name": "yellow onion",
+      "quantity": "1 large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, peeled and diced",
-      "quantity": "1 medium"
+      "name": "carrot",
+      "quantity": "1 medium",
+      "prep": "peeled and diced"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell pepper, stemmed, seeded, and diced",
-      "quantity": "1 medium"
+      "name": "red bell pepper",
+      "quantity": "1 medium",
+      "prep": "stemmed, seeded, and diced"
     },
     {
       "ingredient_id": 1008,
@@ -109,6 +112,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the yellow onion. Peel and dice the carrot. Stem, seed, and dice the red bell pepper.",
+      "secondary_message": "1 large yellow onion\n1 medium carrot\n1 medium red bell pepper"
+    },
     {
       "id": 1,
       "primary_message": "Season fish with salt. Spread flour in a wide, shallow bowl, then lightly dust fish all over in flour, shaking off any excess, and transfer to a plate.",

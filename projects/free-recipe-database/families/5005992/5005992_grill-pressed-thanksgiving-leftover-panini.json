@@ -31,8 +31,9 @@
   "ingredients": [
     {
       "ingredient_id": 2465,
-      "name": "ciabatta rolls, sliced in half lengthwise",
-      "quantity": "4"
+      "name": "ciabatta rolls",
+      "quantity": "4",
+      "prep": "sliced in half lengthwise"
     },
     {
       "ingredient_id": 1740,
@@ -56,6 +57,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the ciabatta rolls in half lengthwise.",
+      "secondary_message": "4 ciabatta rolls"
+    },
     {
       "id": 1,
       "primary_message": "Place 1/4 of turkey on bottom half of roll. Top with 1/4 each of the stuffing, cranberry sauce, and gravy. Repeat with remaining 3 rolls.",

@@ -45,8 +45,9 @@
   "ingredients": [
     {
       "ingredient_id": 2067,
-      "name": "habanero bonnet chile, seeded",
-      "quantity": "1"
+      "name": "habanero bonnet chile",
+      "quantity": "1",
+      "prep": "seeded"
     },
     {
       "ingredient_id": 188,
@@ -60,8 +61,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, white and green parts, lightly chopped",
-      "quantity": "4"
+      "name": "scallions, white and green parts",
+      "quantity": "4",
+      "prep": "lightly chopped"
     },
     {
       "ingredient_id": 24,
@@ -135,6 +137,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Seed the habanero bonnet chile. Lightly chop the scallions.",
+      "secondary_message": "1 habanero bonnet chile\n4 scallions, white and green parts"
+    },
     {
       "id": 1,
       "primary_message": "Place all of the ingredients for paste in the jar of a blender and blend until smooth. Place pork chunks in large Ziploc bag and pour in the paste, seal and toss to evenly distribute; open and reseal the bag, removing as much air as possible. Let marinate in the refrigerator for 2 to 3 hours.",

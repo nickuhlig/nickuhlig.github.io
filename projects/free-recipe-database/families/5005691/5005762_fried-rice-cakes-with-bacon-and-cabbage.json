@@ -32,18 +32,21 @@
   "ingredients": [
     {
       "ingredient_id": 302,
-      "name": "bacon, chopped",
-      "quantity": "113 g"
+      "name": "bacon",
+      "quantity": "113 g",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 3680,
-      "name": "Korean rice cake sticks, chopped into 2-inch lengths",
-      "quantity": "227 g"
+      "name": "Korean rice cake sticks",
+      "quantity": "227 g",
+      "prep": "chopped into 2-inch lengths"
     },
     {
       "ingredient_id": 292,
-      "name": "Napa cabbage, roughly chopped",
-      "quantity": "½ head"
+      "name": "Napa cabbage",
+      "quantity": "½ head",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1527,
@@ -62,6 +65,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the bacon. Chop the Korean rice cake sticks into 2-inch lengths. Roughly chop the Napa cabbage.",
+      "secondary_message": "113 g bacon\n227 g Korean rice cake sticks\n½ head Napa cabbage"
+    },
     {
       "id": 1,
       "primary_message": "Heat a large, heavy skillet on low heat and add bacon. Fry until bacon is very crisp with several tablespoons of fat rendered into the pan, adding water if pan looks to dry. Bacon is ready when small soapy bubbles form around sides. Remove bacon pieces to drain on paper towels.",

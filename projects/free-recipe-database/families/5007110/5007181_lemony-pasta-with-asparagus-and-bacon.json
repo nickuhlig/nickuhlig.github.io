@@ -44,8 +44,9 @@
     },
     {
       "ingredient_id": 302,
-      "name": "bacon, finely sliced",
-      "quantity": "0.11 kg"
+      "name": "bacon",
+      "quantity": "0.11 kg",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 153,
@@ -69,8 +70,9 @@
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño pepper, seeded and cored, finely minced",
-      "quantity": "1"
+      "name": "jalapeño pepper",
+      "quantity": "1",
+      "prep": "seeded and cored, finely minced"
     },
     {
       "ingredient_id": 115,
@@ -94,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely slice the bacon. Seed, core, and finely mince the jalapeño pepper.",
+      "secondary_message": "0.11 kg bacon\n1 jalapeño pepper"
+    },
     {
       "id": 1,
       "primary_message": "Bring a large pot of salted water to a boil. Add asparagus and cook until just tender but still bright green, about 2 minutes. Transfer to an ice bath to chill. Dry carefully and set aside. Keep water on stove for pasta.",

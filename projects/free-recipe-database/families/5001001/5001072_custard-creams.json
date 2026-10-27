@@ -86,8 +86,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "113 g"
+      "name": "unsalted butter",
+      "quantity": "113 g",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1903,
@@ -96,8 +97,9 @@
     },
     {
       "ingredient_id": 3641,
-      "name": "egg yolk, at room temperature",
-      "quantity": "1 large"
+      "name": "egg yolk",
+      "quantity": "1 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 2006,
@@ -121,13 +123,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "70 g"
+      "name": "unsalted butter",
+      "quantity": "70 g",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1710,
-      "name": "confectioners’ sugar, sifted, plus more as needed",
-      "quantity": "140 g"
+      "name": "confectioners’ sugar, plus more as needed",
+      "quantity": "140 g",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 2006,
@@ -136,6 +140,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter. Bring the egg yolk to room temperature. Soften the unsalted butter. Sift the confectioners’ sugar.",
+      "secondary_message": "113 g unsalted butter\n1 large egg yolk\n70 g unsalted butter\n140 g confectioners’ sugar, plus more as needed"
+    },
     {
       "id": 1,
       "primary_message": "Line a 13- by 46-cm rimmed baking sheet with parchment; set aside.",

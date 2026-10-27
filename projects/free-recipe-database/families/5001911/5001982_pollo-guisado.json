@@ -46,8 +46,9 @@
   "ingredients": [
     {
       "ingredient_id": 1230,
-      "name": "whole chicken, cut into 10 pieces",
-      "quantity": "1"
+      "name": "whole chicken",
+      "quantity": "1",
+      "prep": "cut into 10 pieces"
     },
     {
       "ingredient_id": 88,
@@ -66,8 +67,9 @@
     },
     {
       "ingredient_id": 1776,
-      "name": "dried árbol chiles, stems removed",
-      "quantity": "5"
+      "name": "dried árbol chiles",
+      "quantity": "5",
+      "prep": "stems removed"
     },
     {
       "ingredient_id": 1757,
@@ -121,13 +123,15 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, cut into 1/4 inch dice",
-      "quantity": "1 small"
+      "name": "white onion",
+      "quantity": "1 small",
+      "prep": "cut into 1/4 inch dice"
     },
     {
       "ingredient_id": 1541,
-      "name": "plum tomatoes, cut into 1/4 inch dice",
-      "quantity": "3"
+      "name": "plum tomatoes",
+      "quantity": "3",
+      "prep": "cut into 1/4 inch dice"
     },
     {
       "ingredient_id": 88,
@@ -136,13 +140,15 @@
     },
     {
       "ingredient_id": 1039,
-      "name": "russet potatoes, peeled and cut into 1-inch pieces",
-      "quantity": "2"
+      "name": "russet potatoes",
+      "quantity": "2",
+      "prep": "peeled and cut into 1-inch pieces"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and cut into 2-inch pieces",
-      "quantity": "4"
+      "name": "carrots",
+      "quantity": "4",
+      "prep": "peeled and cut into 2-inch pieces"
     },
     {
       "ingredient_id": 1174,
@@ -156,6 +162,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the whole chicken into 10 pieces. Remove the stems from the dried árbol chiles. Cut the white onion into 1/4 inch dice. Cut the plum tomatoes into 1/4 inch dice. Peel and cut the russet potatoes into 1-inch pieces. Peel and cut the carrots into 2-inch pieces.",
+      "secondary_message": "1 whole chicken\n5 dried árbol chiles\n1 small white onion\n3 plum tomatoes\n2 russet potatoes\n4 carrots"
+    },
     {
       "id": 1,
       "primary_message": "Sprinkle chicken pieces evenly all over with 5 teaspoons kosher salt and transfer to a large plate. Refrigerate, uncovered, for at least 30 minutes and up to 24 hours.",

@@ -62,8 +62,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated on a rasp grater",
-      "quantity": "6 medium cloves"
+      "name": "garlic",
+      "quantity": "6 medium cloves",
+      "prep": "grated on a rasp grater"
     },
     {
       "ingredient_id": 1721,
@@ -82,13 +83,15 @@
     },
     {
       "ingredient_id": 1010,
-      "name": "store-bought fresh pizza dough, at room temperature",
-      "quantity": "0.68 kg"
+      "name": "store-bought fresh pizza dough",
+      "quantity": "0.68 kg",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1060,
-      "name": "Gruyère cheese, finely shredded",
-      "quantity": "56 g"
+      "name": "Gruyère cheese",
+      "quantity": "56 g",
+      "prep": "finely shredded"
     },
     {
       "ingredient_id": 120,
@@ -97,6 +100,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the garlic on a rasp grater. Bring the store-bought fresh pizza dough to room temperature. Finely shred the Gruyère cheese.",
+      "secondary_message": "6 medium cloves garlic\n0.68 kg store-bought fresh pizza dough\n56 g Gruyère cheese"
+    },
     {
       "id": 1,
       "primary_message": "In a small saucepan, melt butter over low heat. Add olive oil, garlic, crushed red pepper, and salt; cook, stirring often, until fragrant and butter mixture turns a light golden brown, 4 to 5 minutes. Stir in 2 tablespoons of parsley. Set aside and let cool until just warm, about 15 minutes.",

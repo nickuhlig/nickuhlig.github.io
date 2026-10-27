@@ -35,18 +35,21 @@
   "ingredients": [
     {
       "ingredient_id": 1915,
-      "name": "old-fashioned flaky pie dough prepared through step 2, thawed",
-      "quantity": "½ recipe"
+      "name": "old-fashioned flaky pie dough prepared through step 2",
+      "quantity": "½ recipe",
+      "prep": "thawed"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened, divided",
-      "quantity": "4 tbsp (2 oz)"
+      "name": "unsalted butter, divided",
+      "quantity": "4 tbsp (2 oz)",
+      "prep": "softened"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, thinly sliced",
-      "quantity": "1 small"
+      "name": "yellow onion",
+      "quantity": "1 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1698,
@@ -85,8 +88,9 @@
     },
     {
       "ingredient_id": 1060,
-      "name": "Gruyère cheese, grated",
-      "quantity": "57 g"
+      "name": "Gruyère cheese",
+      "quantity": "57 g",
+      "prep": "grated"
     },
     {
       "ingredient_id": 117,
@@ -100,6 +104,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thaw the old-fashioned flaky pie dough prepared through step 2. Soften the unsalted butter. Thinly slice the yellow onion. Grate the Gruyère cheese.",
+      "secondary_message": "½ recipe old-fashioned flaky pie dough prepared through step 2\n4 tbsp (2 oz) unsalted butter, divided\n1 small yellow onion\n57 g Gruyère cheese"
+    },
     {
       "id": 1,
       "primary_message": "If using homemade pie dough: Line a large plate with parchment. Roll one portion of dough into a 25-cm round and transfer to prepared plate. Working around circumference, fold 1.5-cm of dough over itself and pinch to create a 23-cm round with a raised rim. Cut three 5-cm shallow slits in center of dough, and refrigerate for at least 2 hours and up to 24 hours. (If refrigerating overnight, cover dough with plastic wrap.)\nIf using store-bought puff pastry: On a lightly floured surface, roll puff pastry large enough to cut out a 25-cm round. Place an inverted 25-cm skillet, bowl, or cake pan on the dough, then cut around it to form a circle. Transfer dough to a large parchment-lined plate. Working around circumference, fold 1.5-cm of dough over itself and pinch to create a 23-cm round with a raised rim. Using a fork, prick bottom of dough all over, and refrigerate for at least 2 hours and up to 24 hours. (If refrigerating overnight, cover dough with plastic wrap.)",

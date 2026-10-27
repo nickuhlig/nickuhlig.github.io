@@ -32,8 +32,9 @@
   "ingredients": [
     {
       "ingredient_id": 2478,
-      "name": "firm tofu, drained",
-      "quantity": "1 block"
+      "name": "firm tofu",
+      "quantity": "1 block",
+      "prep": "drained"
     },
     {
       "ingredient_id": 1044,
@@ -42,18 +43,21 @@
     },
     {
       "ingredient_id": 19,
-      "name": "button mushrooms, stems discarded, thickly sliced",
-      "quantity": "4 oz"
+      "name": "button mushrooms",
+      "quantity": "4 oz",
+      "prep": "stems discarded, thickly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2402,
-      "name": "fresh red chiles, stemmed, thinly sliced",
-      "quantity": "2"
+      "name": "fresh red chiles",
+      "quantity": "2",
+      "prep": "stemmed, thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -62,8 +66,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, chopped",
-      "quantity": "3"
+      "name": "scallions",
+      "quantity": "3",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2366,
@@ -82,8 +87,9 @@
     },
     {
       "ingredient_id": 33,
-      "name": "baby spinach, chopped",
-      "quantity": "2 oz"
+      "name": "baby spinach",
+      "quantity": "2 oz",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 264,
@@ -97,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain the firm tofu. Discard the stems from the button mushrooms, then thickly slice them. Mince the garlic. Stem and thinly slice the fresh red chiles. Chop the scallions. Chop the baby spinach.",
+      "secondary_message": "1 block firm tofu\n4 oz button mushrooms\n3 medium cloves garlic\n2 fresh red chiles\n3 scallions\n2 oz baby spinach"
+    },
     {
       "id": 1,
       "primary_message": "Dry the tofu slices with paper towels, and then cut into 1/2-inch thick rectangular slabs. Heat oil in a large wok over high heat until just starting to smoke. Add the tofu slices with a pair of tongs. Cook until golden, flipping occasionally, about 3 minutes. Transfer tofu to paper towel-lined plate to drain.",

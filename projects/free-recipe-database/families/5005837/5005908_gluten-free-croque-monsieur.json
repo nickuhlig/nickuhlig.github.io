@@ -49,8 +49,9 @@
     },
     {
       "ingredient_id": 118,
-      "name": "whole milk, warmed",
-      "quantity": "2 ½ cups"
+      "name": "whole milk",
+      "quantity": "2 ½ cups",
+      "prep": "warmed"
     },
     {
       "ingredient_id": 88,
@@ -64,8 +65,9 @@
     },
     {
       "ingredient_id": 1060,
-      "name": "Gruyère cheese, grated",
-      "quantity": "227 g"
+      "name": "Gruyère cheese",
+      "quantity": "227 g",
+      "prep": "grated"
     },
     {
       "ingredient_id": 120,
@@ -84,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Warm the whole milk. Grate the Gruyère cheese.",
+      "secondary_message": "2 ½ cups whole milk\n227 g Gruyère cheese"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 425 F. Place the bread on an 18 by 33-cm rimmed baking sheet. Bake, flipping once, until the slices begin to turn golden brown. Remove from the oven and set aside. Leave the oven on.",

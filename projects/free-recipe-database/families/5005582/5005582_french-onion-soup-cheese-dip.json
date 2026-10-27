@@ -39,13 +39,15 @@
   "ingredients": [
     {
       "ingredient_id": 1236,
-      "name": "Swiss cheese, grated",
-      "quantity": "½ lb"
+      "name": "Swiss cheese",
+      "quantity": "½ lb",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1060,
-      "name": "Gruyère cheese, grated",
-      "quantity": "½ lb"
+      "name": "Gruyère cheese",
+      "quantity": "½ lb",
+      "prep": "grated"
     },
     {
       "ingredient_id": 264,
@@ -59,8 +61,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onions, diced",
-      "quantity": "2 large"
+      "name": "yellow onions",
+      "quantity": "2 large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1365,
@@ -89,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the Swiss cheese. Grate the Gruyère cheese. Dice the yellow onions.",
+      "secondary_message": "½ lb Swiss cheese\n½ lb Gruyère cheese\n2 large yellow onions"
+    },
     {
       "id": 1,
       "primary_message": "Place cheese in a medium bowl and toss with cornstarch until evenly coated. Set aside.",

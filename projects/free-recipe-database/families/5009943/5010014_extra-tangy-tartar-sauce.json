@@ -53,8 +53,9 @@
     },
     {
       "ingredient_id": 15,
-      "name": "drained capers, minced",
-      "quantity": "2 tbsp"
+      "name": "drained capers",
+      "quantity": "2 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 106,
@@ -88,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the drained capers.",
+      "secondary_message": "2 tbsp drained capers"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, mix together mayonnaise, dill pickles, shallots, capers, parsley, lemon juice, mustard, black pepper, salt, and hot sauce. Let sit for 30 minutes, then use immediately or store in an airtight container in the refrigerator for up to a week.",

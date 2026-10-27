@@ -93,13 +93,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "5 medium cloves"
+      "name": "garlic",
+      "quantity": "5 medium cloves",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, peeled and chopped",
-      "quantity": "1 (1 inch) piece"
+      "name": "fresh ginger",
+      "quantity": "1 (1 inch) piece",
+      "prep": "peeled and chopped"
     },
     {
       "ingredient_id": 90,
@@ -143,13 +145,15 @@
     },
     {
       "ingredient_id": 121,
-      "name": "hard-boiled eggs, peeled and quartered",
-      "quantity": "2 large"
+      "name": "hard-boiled eggs",
+      "quantity": "2 large",
+      "prep": "peeled and quartered"
     },
     {
       "ingredient_id": 153,
-      "name": "green onions, green and white parts, chopped",
-      "quantity": "2"
+      "name": "green onions, green and white parts",
+      "quantity": "2",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 3031,
@@ -168,6 +172,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the garlic. Peel and chop the fresh ginger. Peel and quarter the hard-boiled eggs. Chop the green onions.",
+      "secondary_message": "5 medium cloves garlic\n1 (1 inch) piece fresh ginger\n2 large hard-boiled eggs\n2 green onions, green and white parts"
+    },
     {
       "id": 1,
       "primary_message": "For the Soup Base: In a 6-quart pot, combine chicken and 2 quarts water and bring to a boil over medium heat, about 10 minutes. Reduce to a simmer, cover, and cook until chicken is cooked through, 20 to 25 minutes.",

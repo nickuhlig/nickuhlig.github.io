@@ -45,13 +45,15 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, cut into 1-inch chunks",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "cut into 1-inch chunks"
     },
     {
       "ingredient_id": 1541,
-      "name": "whole plum tomatoes, cut into 1-inch chunks",
-      "quantity": "2"
+      "name": "whole plum tomatoes",
+      "quantity": "2",
+      "prep": "cut into 1-inch chunks"
     },
     {
       "ingredient_id": 88,
@@ -80,8 +82,9 @@
     },
     {
       "ingredient_id": 1294,
-      "name": "whole peeled tomatoes, pureed in a food processor",
-      "quantity": "1 (397 g) (397 g) can"
+      "name": "whole peeled tomatoes",
+      "quantity": "1 (397 g) (397 g) can",
+      "prep": "pureed in a food processor"
     },
     {
       "ingredient_id": 411,
@@ -105,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the yellow onion into 1-inch chunks. Cut the whole plum tomatoes into 1-inch chunks. Puree the whole peeled tomatoes in a food processor.",
+      "secondary_message": "1 medium yellow onion\n2 whole plum tomatoes\n1 (397 g) (397 g) can whole peeled tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "In a large skillet, sauté pan, or wok, heat oil over medium-high heat until shimmering. Add onion and plum tomato chunks, season with salt, and cook just until starting to soften, about 5 minutes. Using a slotted spoon, transfer the vegetables to a plate, leaving the oil behind in the pan.",

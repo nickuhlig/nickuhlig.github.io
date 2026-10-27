@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, thinly sliced",
-      "quantity": "½ small"
+      "name": "red onion",
+      "quantity": "½ small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 47,
@@ -76,8 +77,9 @@
     },
     {
       "ingredient_id": 272,
-      "name": "chopped walnuts, toasted",
-      "quantity": "2 tbsp"
+      "name": "chopped walnuts",
+      "quantity": "2 tbsp",
+      "prep": "toasted"
     },
     {
       "ingredient_id": 47,
@@ -121,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the red onion. Toast the chopped walnuts.",
+      "secondary_message": "½ small red onion\n2 tbsp chopped walnuts"
+    },
     {
       "id": 1,
       "primary_message": "For the Salad: Adjust oven rack to lowest position, place an empty rimmed baking sheet on rack, and heat oven to 475°F. Toss cauliflower florets, grapes, onion, oil, salt, and pepper together in a bowl. Using oven mitts, remove heated rimmed baking sheet and transfer vegetable mixture to sheet in an even layer. Roast until vegetables are tender, florets are deep golden, and onion slices are charred at the edges, 12 to 15 minutes, stirring halfway through. Let cool slightly, about 15 minutes.",

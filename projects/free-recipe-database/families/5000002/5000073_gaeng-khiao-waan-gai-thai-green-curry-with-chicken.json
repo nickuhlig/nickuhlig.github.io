@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 164,
-      "name": "boneless skinless chicken thighs, cut into 2-inch pieces",
-      "quantity": "0.45 kg"
+      "name": "boneless skinless chicken thighs",
+      "quantity": "0.45 kg",
+      "prep": "cut into 2-inch pieces"
     },
     {
       "ingredient_id": 88,
@@ -86,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the boneless skinless chicken thighs into 2-inch pieces.",
+      "secondary_message": "0.45 kg boneless skinless chicken thighs"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, whisk together 1/2 cup coconut milk and 1/2 cup water; set thinned coconut milk mixture aside. Remove and discard the mid-rib from the makrut lime leaves; set 8 of the leaves aside. Stack remaining 2 makrut lime leaves, fold in half widthwise, then slice into hair-thin strips; set aside separately.",

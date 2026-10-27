@@ -71,11 +71,18 @@
     },
     {
       "ingredient_id": 2266,
-      "name": "Seltzer, chilled",
-      "quantity": ""
+      "name": "Seltzer",
+      "quantity": "",
+      "prep": "chilled"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the Seltzer cold until you use it.",
+      "secondary_message": "Seltzer"
+    },
     {
       "id": 1,
       "primary_message": "For the Honey Syrup: Stir together hot water and honey until honey dissolves.",

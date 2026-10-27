@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 1421,
-      "name": "lime juice, half a juiced lime reserved for the rim",
-      "quantity": "2 fl oz"
+      "name": "lime juice",
+      "quantity": "2 fl oz",
+      "prep": "half a juiced lime reserved for the rim"
     },
     {
       "ingredient_id": 1070,
@@ -51,6 +52,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the half a of the lime juice lime reserved for the rim.",
+      "secondary_message": "2 fl oz lime juice"
+    },
     {
       "id": 1,
       "primary_message": "Pour kosher or sea salt into a small, shallow dish in an even layer. Rub a pint or pilsner glass's rim with the cut side of the reserved juiced lime half, then dip glass into the dish to create a salt rim.",

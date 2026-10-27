@@ -42,8 +42,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely diced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 99,
@@ -92,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the onion.",
+      "secondary_message": "1 medium onion"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in medium saucepan over medium heat until shimmering. Add the onion and cook until lightly browned, about 7 to 8 minutes, stirring occasionally.",

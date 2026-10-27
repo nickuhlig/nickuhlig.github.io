@@ -42,13 +42,15 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted, divided",
-      "quantity": "6 tbsp"
+      "name": "unsalted butter, divided",
+      "quantity": "6 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 242,
-      "name": "fresh strawberries, hulled and sliced",
-      "quantity": "1 lb"
+      "name": "fresh strawberries",
+      "quantity": "1 lb",
+      "prep": "hulled and sliced"
     },
     {
       "ingredient_id": 2346,
@@ -92,11 +94,18 @@
     },
     {
       "ingredient_id": 359,
-      "name": "tap water, heated",
-      "quantity": "¾ cup"
+      "name": "tap water",
+      "quantity": "¾ cup",
+      "prep": "heated"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Hull and slice the fresh strawberries. Heat the tap water.",
+      "secondary_message": "6 tbsp unsalted butter, divided\n1 lb fresh strawberries\n¾ cup tap water"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 425°F. Place 3 tablespoons melted butter in a 9-inch round cake pan and tilt pan to ensure bottom is evenly covered with butter.",

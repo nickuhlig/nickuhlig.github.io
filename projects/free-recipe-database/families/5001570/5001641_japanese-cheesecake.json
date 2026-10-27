@@ -81,8 +81,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, cut into 1-inch cubes",
-      "quantity": "1 (227 g) pkg"
+      "name": "cream cheese",
+      "quantity": "1 (227 g) pkg",
+      "prep": "cut into 1-inch cubes"
     },
     {
       "ingredient_id": 1752,
@@ -96,8 +97,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, yolks and whites separated",
-      "quantity": "6 large"
+      "name": "eggs",
+      "quantity": "6 large",
+      "prep": "yolks and whites separated"
     },
     {
       "ingredient_id": 264,
@@ -121,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cream cheese into 1-inch cubes. Separate the yolks and whites of the eggs.",
+      "secondary_message": "1 (227 g) pkg cream cheese\n6 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower-middle position and preheat to 350ºF (175ºC). Grease an 9- by 8-cm round springform pan with unsalted butter, then dust with flour, shaking out excess. Using aluminum foil, wrap bottom half of the pan to create a waterproof seal. Set in a roasting pan.",

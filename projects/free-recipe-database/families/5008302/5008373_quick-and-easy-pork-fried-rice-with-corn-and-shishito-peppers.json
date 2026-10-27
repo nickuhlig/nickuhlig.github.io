@@ -46,9 +46,10 @@
     },
     {
       "ingredient_id": 303,
-      "name": "fresh corn kernels, cut from 1 to 2 ears of corn",
+      "name": "fresh corn kernels",
       "quantity": "1 cup",
-      "weigh_as": "170 g"
+      "weigh_as": "170 g",
+      "prep": "cut from 1 to 2 ears of corn"
     },
     {
       "ingredient_id": 153,
@@ -62,8 +63,9 @@
     },
     {
       "ingredient_id": 2664,
-      "name": "leftover roast pork, finely diced",
-      "quantity": "170 g"
+      "name": "leftover roast pork",
+      "quantity": "170 g",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 53,
@@ -92,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the fresh corn kernels from 1 to 2 ears of corn. Finely dice the leftover roast pork.",
+      "secondary_message": "1 cup fresh corn kernels\n170 g leftover roast pork"
+    },
     {
       "id": 1,
       "primary_message": "If using day-old rice, transfer to a medium bowl and break rice up into individual grains with your hands before proceeding. Heat 1/2 tablespoon vegetable oil in a large wok over high heat until smoking. Add half of rice and cook, stirring and tossing, until rice is pale brown and toasted and has a lightly chewy texture, about 3 minutes. Transfer to a medium bowl. Repeat with another 1/2 tablespoon oil and remaining rice.",

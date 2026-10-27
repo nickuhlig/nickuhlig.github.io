@@ -50,8 +50,9 @@
   "ingredients": [
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "8 medium"
+      "name": "garlic cloves",
+      "quantity": "8 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 186,
@@ -90,8 +91,9 @@
     },
     {
       "ingredient_id": 1058,
-      "name": "boneless pork shoulder roast, rind removed",
-      "quantity": "8 lb"
+      "name": "boneless pork shoulder roast",
+      "quantity": "8 lb",
+      "prep": "rind removed"
     },
     {
       "ingredient_id": 243,
@@ -105,6 +107,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic cloves. Remove the rind from the boneless pork shoulder roast.",
+      "secondary_message": "8 medium garlic cloves\n8 lb boneless pork shoulder roast"
+    },
     {
       "id": 1,
       "primary_message": "For the Mojo: Combine garlic, cumin, pepper, oregano, orange juice, lime juice, and olive oil in a large bowl and whisk. Season to taste generously with salt. Transfer half of mojo to a sealed container and reserve in refrigerator. Add pork to remaining mojo and turn to coat. If desired, transfer pork and marinade to a gallon-sized zipper-lock bag and refrigerate 2 hours or up to overnight before continuing.",

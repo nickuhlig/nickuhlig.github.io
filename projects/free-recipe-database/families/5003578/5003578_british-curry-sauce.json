@@ -62,13 +62,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely chopped",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, peeled and finely chopped",
-      "quantity": "1 (1 inch) piece"
+      "name": "ginger",
+      "quantity": "1 (1 inch) piece",
+      "prep": "peeled and finely chopped"
     },
     {
       "ingredient_id": 186,
@@ -132,6 +134,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the garlic. Peel and finely chop the ginger.",
+      "secondary_message": "2 medium cloves garlic\n1 (1 inch) piece ginger"
+    },
     {
       "id": 1,
       "primary_message": "Heat vegetable oil in a medium nonstick skillet over medium-high heat until shimmering. Add onion, garlic, and ginger. Cook, stirring constantly with a spatula, until onions soften, about 5 minutes. Add cumin, turmeric, paprika, coriander, curry powder, and red pepper flakes. Continue to cook until the spices begin to smell toasted, about 6 minutes.",

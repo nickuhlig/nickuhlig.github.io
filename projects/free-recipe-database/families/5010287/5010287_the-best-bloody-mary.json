@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, cut into 2 wedges",
-      "quantity": "¼ medium"
+      "name": "lemon",
+      "quantity": "¼ medium",
+      "prep": "cut into 2 wedges"
     },
     {
       "ingredient_id": 136,
@@ -105,6 +106,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the lemon into 2 wedges.",
+      "secondary_message": "¼ medium lemon"
+    },
     {
       "id": 1,
       "primary_message": "Place celery salt in a shallow saucer. Rub rim of a 12-ounce tumbler with 1 lemon wedge and coat wet edge with celery salt. Place lemon wedge on rim of glass. Fill glass with ice.",

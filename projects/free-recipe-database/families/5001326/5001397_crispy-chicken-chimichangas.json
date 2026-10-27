@@ -67,8 +67,9 @@
     },
     {
       "ingredient_id": 1776,
-      "name": "chiles de árbol, stems removed",
-      "quantity": "10"
+      "name": "chiles de árbol",
+      "quantity": "10",
+      "prep": "stems removed"
     },
     {
       "ingredient_id": 88,
@@ -82,28 +83,33 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, diced",
-      "quantity": "1 small"
+      "name": "white onion",
+      "quantity": "1 small",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1541,
-      "name": "plum tomatoes, diced",
-      "quantity": "2"
+      "name": "plum tomatoes",
+      "quantity": "2",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1799,
-      "name": "serrano chiles, minced",
-      "quantity": "2 to 3"
+      "name": "serrano chiles",
+      "quantity": "2 to 3",
+      "prep": "minced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 (20 g) medium cloves"
+      "name": "garlic",
+      "quantity": "4 (20 g) medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 3027,
-      "name": "poached chicken, shredded into bite-size pieces",
-      "quantity": "0.91 kg"
+      "name": "poached chicken",
+      "quantity": "0.91 kg",
+      "prep": "shredded into bite-size pieces"
     },
     {
       "ingredient_id": 1682,
@@ -117,8 +123,9 @@
     },
     {
       "ingredient_id": 2036,
-      "name": "Queso Oaxaca, shredded",
-      "quantity": "283 g"
+      "name": "Queso Oaxaca",
+      "quantity": "283 g",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 3379,
@@ -147,6 +154,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the stems from the chiles de árbol. Dice the white onion. Dice the plum tomatoes. Mince the serrano chiles. Mince the garlic. Shred the poached chicken into bite-size pieces. Shred the Queso Oaxaca.",
+      "secondary_message": "10 chiles de árbol\n1 small white onion\n2 plum tomatoes\n2 to 3 serrano chiles\n4 (20 g) medium cloves garlic\n0.91 kg poached chicken\n283 g Queso Oaxaca"
+    },
     {
       "id": 1,
       "primary_message": "For the Salsa: Adjust oven rack to upper-middle position and preheat oven broiler to high. Place tomatillos and garlic on an aluminum foil–lined baking sheet. Broil until garlic is blackened and well charred, 3 minutes. Remove garlic, flip tomatillos, and continue broiling until tomatillos are deeply charred, about 5 more minutes.",

@@ -44,8 +44,9 @@
   "ingredients": [
     {
       "ingredient_id": 2423,
-      "name": "sugar pumpkin, washed",
-      "quantity": "1 medium"
+      "name": "sugar pumpkin",
+      "quantity": "1 medium",
+      "prep": "washed"
     },
     {
       "ingredient_id": 2150,
@@ -84,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash the sugar pumpkin.",
+      "secondary_message": "1 medium sugar pumpkin"
+    },
     {
       "id": 1,
       "primary_message": "Wash pumpkin well and peel with a vegetable peeler. Cut pumpkin in half and scoop out seeds and stringy pulp with a spoon or melon baller.",

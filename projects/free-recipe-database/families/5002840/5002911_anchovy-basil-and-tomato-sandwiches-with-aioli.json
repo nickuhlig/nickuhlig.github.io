@@ -52,8 +52,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic clove, finely minced",
-      "quantity": "1 medium"
+      "name": "garlic clove",
+      "quantity": "1 medium",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 47,
@@ -72,8 +73,9 @@
     },
     {
       "ingredient_id": 260,
-      "name": "tomato, sliced",
-      "quantity": "1 large"
+      "name": "tomato",
+      "quantity": "1 large",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 72,
@@ -82,16 +84,24 @@
     },
     {
       "ingredient_id": 325,
-      "name": "anchovy fillets packed in oil, drained",
-      "quantity": "8 to 10"
+      "name": "anchovy fillets packed in oil",
+      "quantity": "8 to 10",
+      "prep": "drained"
     },
     {
       "ingredient_id": 15,
-      "name": "capers, drained",
-      "quantity": "2 tsp"
+      "name": "capers",
+      "quantity": "2 tsp",
+      "prep": "drained"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the garlic clove. Slice the tomato. Drain the anchovy fillets packed in oil. Drain the capers.",
+      "secondary_message": "1 medium garlic clove\n1 large tomato\n8 to 10 anchovy fillets packed in oil\n2 tsp capers"
+    },
     {
       "id": 1,
       "primary_message": "To make the aioli, whisk together the egg yolk, lemon juice, salt, and garlic in a medium bowl. Whisking constantly, drizzle in the oil in a slow, steady stream until all oil is used and sauce is thick. Set aside.",

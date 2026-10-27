@@ -62,23 +62,27 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, peeled and roughly chopped",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "peeled and roughly chopped"
     },
     {
       "ingredient_id": 1762,
-      "name": "fresh red Thai bird chiles, roughly chopped",
-      "quantity": "1 to 3"
+      "name": "fresh red Thai bird chiles",
+      "quantity": "1 to 3",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 188,
-      "name": "cilantro stems, roughly chopped",
-      "quantity": "½ large bunch"
+      "name": "cilantro stems",
+      "quantity": "½ large bunch",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1816,
@@ -87,8 +91,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, peeled",
-      "quantity": "1 (2 ½ cm) knob"
+      "name": "ginger",
+      "quantity": "1 (2 ½ cm) knob",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 1086,
@@ -127,6 +132,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the garlic. Peel and roughly chop the shallot. Roughly chop the fresh red Thai bird chiles. Roughly chop the cilantro stems. Peel the ginger.",
+      "secondary_message": "3 medium cloves garlic\n1 medium shallot\n1 to 3 fresh red Thai bird chiles\n½ large bunch cilantro stems\n1 (2 ½ cm) knob ginger"
+    },
     {
       "id": 1,
       "primary_message": "For the Curry Paste: Place dried chiles in a heatproof container and cover with boiling water. Cover and set aside for 10 minutes, then drain. Place rehydrated chiles, garlic, shallot, Thai chiles, cilantro, lemongrass, ginger, ground pepper, and 1/2 teaspoon salt in the jar of a blender or food processor. Process until a paste is formed, adding water 1 tablespoon at a time if the mixture is too thick. Season to taste with more salt (the mixture should be quite salty). Curry paste can be made several days in advance and stored in the refrigerator.",

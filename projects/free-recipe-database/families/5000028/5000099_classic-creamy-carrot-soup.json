@@ -89,8 +89,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, thinly sliced",
-      "quantity": "1 large"
+      "name": "yellow onion",
+      "quantity": "1 large",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
@@ -124,6 +125,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the yellow onion.",
+      "secondary_message": "1 large yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "For the Lemon-Herb Yogurt: In a small bowl, whisk together Greek yogurt, lemon juice, and parsley until well combined. Cover and refrigerate.",

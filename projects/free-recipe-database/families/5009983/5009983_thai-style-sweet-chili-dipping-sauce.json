@@ -33,13 +33,15 @@
   "ingredients": [
     {
       "ingredient_id": 1762,
-      "name": "red Thai bird chiles, finely minced",
-      "quantity": "10 to 12"
+      "name": "red Thai bird chiles",
+      "quantity": "10 to 12",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 52,
@@ -63,6 +65,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the red Thai bird chiles. Finely mince the garlic.",
+      "secondary_message": "10 to 12 red Thai bird chiles\n4 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Combine all ingredients in a small sealable container. Shake well, set aside, and allow sugar to dissolve, shaking every 10 minutes or so. When sugar is fully dissolved, store in refrigerator until ready to use. Sauce will keep in the refrigerator for up to 3 weeks.",

@@ -48,8 +48,9 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "70% bittersweet chocolate, finely chopped",
-      "quantity": "5 oz"
+      "name": "70% bittersweet chocolate",
+      "quantity": "5 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 115,
@@ -93,11 +94,18 @@
     },
     {
       "ingredient_id": 272,
-      "name": "walnuts, chopped",
-      "quantity": "½ cup"
+      "name": "walnuts",
+      "quantity": "½ cup",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the 70% bittersweet chocolate. Chop the walnuts.",
+      "secondary_message": "5 oz 70% bittersweet chocolate\n½ cup walnuts"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to medium position and preheat oven to 350°F. Spray 8- by 8-inch baking pan with non-stick pan spray. In heatproof bowl over pan of barely simmering water, heat chocolate and butter until just melted, stirring occasionally. Remove from heat and let cool slightly.",

@@ -58,8 +58,9 @@
   "ingredients": [
     {
       "ingredient_id": 142,
-      "name": "butternut squash, halved lengthwise and seeded",
-      "quantity": "1 medium"
+      "name": "butternut squash",
+      "quantity": "1 medium",
+      "prep": "halved lengthwise and seeded"
     },
     {
       "ingredient_id": 1044,
@@ -83,8 +84,9 @@
     },
     {
       "ingredient_id": 2310,
-      "name": "vegetable shortening, melted and warm",
-      "quantity": "85 g"
+      "name": "vegetable shortening",
+      "quantity": "85 g",
+      "prep": "melted and warm"
     },
     {
       "ingredient_id": 359,
@@ -128,18 +130,21 @@
     },
     {
       "ingredient_id": 260,
-      "name": "ripe tomatoes, peeled, seeded, and finely diced",
-      "quantity": "4 medium"
+      "name": "ripe tomatoes",
+      "quantity": "4 medium",
+      "prep": "peeled, seeded, and finely diced"
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, finely diced",
-      "quantity": "1 small"
+      "name": "white onion",
+      "quantity": "1 small",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 2083,
-      "name": "fresh ají cristal hot pepper, deveined, seeded, and finely diced",
-      "quantity": "1 medium"
+      "name": "fresh ají cristal hot pepper",
+      "quantity": "1 medium",
+      "prep": "deveined, seeded, and finely diced"
     },
     {
       "ingredient_id": 188,
@@ -148,8 +153,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely diced",
-      "quantity": "1 small clove"
+      "name": "garlic",
+      "quantity": "1 small clove",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 47,
@@ -173,6 +179,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the butternut squash lengthwise, then seed it. Melt the vegetable shortening and warm it. Peel, seed, and finely dice the ripe tomatoes. Finely dice the white onion. Devein, seed, and finely dice the fresh ají cristal hot pepper. Finely dice the garlic.",
+      "secondary_message": "1 medium butternut squash\n85 g vegetable shortening\n4 medium ripe tomatoes\n1 small white onion\n1 medium fresh ají cristal hot pepper\n1 small clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Sopaipilla Dough: Adjust oven rack to middle position and preheat oven to 205°C (400°F).",

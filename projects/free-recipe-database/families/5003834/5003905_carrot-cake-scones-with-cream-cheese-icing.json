@@ -62,8 +62,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, diced",
-      "quantity": "12 tbsp"
+      "name": "cold unsalted butter",
+      "quantity": "12 tbsp",
+      "prep": "diced"
     },
     {
       "ingredient_id": 2475,
@@ -92,8 +93,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, at room temperature",
-      "quantity": "113 g"
+      "name": "cream cheese",
+      "quantity": "113 g",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 347,
@@ -102,8 +104,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "4 tbsp"
+      "name": "unsalted butter",
+      "quantity": "4 tbsp",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 353,
@@ -117,6 +120,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the cold unsalted butter. Bring the cream cheese to room temperature. Bring the unsalted butter to room temperature.",
+      "secondary_message": "12 tbsp cold unsalted butter\n113 g cream cheese\n4 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 205°C (400°F). Grease pan with butter.",

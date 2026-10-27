@@ -61,9 +61,10 @@
     },
     {
       "ingredient_id": 260,
-      "name": "ripe tomatoes, split in half",
+      "name": "ripe tomatoes",
       "quantity": "6",
-      "weigh_as": "0.68 kg"
+      "weigh_as": "0.68 kg",
+      "prep": "split in half"
     },
     {
       "ingredient_id": 1044,
@@ -72,8 +73,9 @@
     },
     {
       "ingredient_id": 2066,
-      "name": "Poblano pepper, seeded and finely diced",
-      "quantity": "1"
+      "name": "Poblano pepper",
+      "quantity": "1",
+      "prep": "seeded and finely diced"
     },
     {
       "ingredient_id": 88,
@@ -97,8 +99,9 @@
     },
     {
       "ingredient_id": 185,
-      "name": "black beans, drained and rinsed",
-      "quantity": "1 (425 g) can"
+      "name": "black beans",
+      "quantity": "1 (425 g) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 188,
@@ -132,6 +135,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the ripe tomatoes in half. Seed and finely dice the Poblano pepper. Drain and rinse the black beans.",
+      "secondary_message": "6 ripe tomatoes\n1 Poblano pepper\n1 (425 g) can black beans"
+    },
     {
       "id": 1,
       "primary_message": "Place stock, chicken, split onion, empty corn cobs and scraped corn milk, 2 whole garlic cloves, and chiles in a large saucepan. Bring to a boil over high heat, then reduce to a simmer. Cook for 30 minutes, turning chicken occasionally, and topping up with water as necessary. Discard onion, corn cobs, and garlic cloves, and transfer chicken to a large plate. Set aside. When cool enough to handle, shred chicken into strips.",

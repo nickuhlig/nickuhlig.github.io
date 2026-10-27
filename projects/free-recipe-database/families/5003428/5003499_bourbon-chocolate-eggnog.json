@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, separated",
-      "quantity": "8 large"
+      "name": "eggs",
+      "quantity": "8 large",
+      "prep": "separated"
     },
     {
       "ingredient_id": 346,
@@ -71,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Separate the eggs.",
+      "secondary_message": "8 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Place chocolate and cocoa powder in a heatproof bowl. In a small saucepan over medium heat bring 2 cups of milk to a simmer then pour over chocolate and stir until melted. Add remaining milk and cream and set aside.",

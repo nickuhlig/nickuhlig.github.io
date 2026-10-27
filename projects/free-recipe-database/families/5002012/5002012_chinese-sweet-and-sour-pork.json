@@ -49,8 +49,9 @@
   "ingredients": [
     {
       "ingredient_id": 1385,
-      "name": "pork tenderloin, cut into 3/4-inch cubes",
-      "quantity": "12 oz"
+      "name": "pork tenderloin",
+      "quantity": "12 oz",
+      "prep": "cut into 3/4-inch cubes"
     },
     {
       "ingredient_id": 1833,
@@ -120,13 +121,15 @@
     },
     {
       "ingredient_id": 291,
-      "name": "green bell pepper, roughly cut into 1-inch pieces",
-      "quantity": "½ large"
+      "name": "green bell pepper",
+      "quantity": "½ large",
+      "prep": "roughly cut into 1-inch pieces"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell pepper, roughly cut into 1-inch pieces",
-      "quantity": "½ large"
+      "name": "red bell pepper",
+      "quantity": "½ large",
+      "prep": "roughly cut into 1-inch pieces"
     },
     {
       "ingredient_id": 273,
@@ -160,6 +163,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the pork tenderloin into 3/4-inch cubes. Roughly cut the green bell pepper into 1-inch pieces. Roughly cut the red bell pepper into 1-inch pieces.",
+      "secondary_message": "12 oz pork tenderloin\n½ large green bell pepper\n½ large red bell pepper"
+    },
     {
       "id": 1,
       "primary_message": "For the Marinade: In a medium bowl, whisk Shaoxing wine, egg, egg white, baking soda, white pepper, oil, potato starch or cornstarch, and salt to combine. Add pork and toss to coat evenly. Let sit for at least 15 minutes or up to 2 hours in the refrigerator.",

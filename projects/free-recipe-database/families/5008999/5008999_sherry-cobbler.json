@@ -45,11 +45,18 @@
     },
     {
       "ingredient_id": 3674,
-      "name": "orange slices, cut in half",
-      "quantity": "2"
+      "name": "orange slices",
+      "quantity": "2",
+      "prep": "cut in half"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the orange slices in half.",
+      "secondary_message": "2 orange slices"
+    },
     {
       "id": 1,
       "primary_message": "Combine sherry, sugar and orange slices in a cocktail shaker (if using sugar, stir to dissolve before proceeding). Fill shaker with ice, and shake well. Strain into a highball glass filled with fresh ice. (You may wish to double-strain through a tea strainer if you’re averse to orange pulp in your drink.) Garnish with a slice of orange and fresh blackberries, raspberries or what have you. Poke it with a straw and take it easy.",

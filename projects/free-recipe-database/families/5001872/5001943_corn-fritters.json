@@ -92,8 +92,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, roughly chopped",
-      "quantity": "¼ medium"
+      "name": "yellow onion",
+      "quantity": "¼ medium",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 121,
@@ -112,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the yellow onion.",
+      "secondary_message": "¼ medium yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, whisk together cornmeal, flour, cornstarch, and baking powder until well combined; set aside.",

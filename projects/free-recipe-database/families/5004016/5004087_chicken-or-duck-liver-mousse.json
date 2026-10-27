@@ -54,8 +54,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely diced",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 2419,
@@ -64,8 +65,9 @@
     },
     {
       "ingredient_id": 2178,
-      "name": "chicken livers, cleaned and patted dry on paper towels",
-      "quantity": "0.45 kg"
+      "name": "chicken livers",
+      "quantity": "0.45 kg",
+      "prep": "cleaned and patted dry on paper towels"
     },
     {
       "ingredient_id": 121,
@@ -89,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the onion. Clean and pat the chicken livers dry on paper towels.",
+      "secondary_message": "1 large onion\n0.45 kg chicken livers"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 120°C (250°F). Grind the spices together into a fine powder and pass it through a fine mesh strainer. Set aside.",

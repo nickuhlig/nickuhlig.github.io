@@ -56,13 +56,15 @@
     },
     {
       "ingredient_id": 1174,
-      "name": "crusty bread like ciabatta, cut into 3/4- to 1-inch pieces",
-      "quantity": "200 g"
+      "name": "crusty bread like ciabatta",
+      "quantity": "200 g",
+      "prep": "cut into 3/4- to 1-inch pieces"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and minced",
-      "quantity": "5 medium cloves"
+      "name": "garlic",
+      "quantity": "5 medium cloves",
+      "prep": "peeled and minced"
     },
     {
       "ingredient_id": 1766,
@@ -86,6 +88,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the crusty bread like ciabatta into 3/4- to 1-inch pieces. Peel and mince the garlic.",
+      "secondary_message": "200 g crusty bread like ciabatta\n5 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350ºF (175ºC).",

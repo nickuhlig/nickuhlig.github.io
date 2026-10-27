@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 139,
-      "name": "fresh baby arugula, washed and dried",
-      "quantity": "1 (142 g) box"
+      "name": "fresh baby arugula",
+      "quantity": "1 (142 g) box",
+      "prep": "washed and dried"
     },
     {
       "ingredient_id": 47,
@@ -92,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash and dry the fresh baby arugula.",
+      "secondary_message": "1 (142 g) box fresh baby arugula"
+    },
     {
       "id": 1,
       "primary_message": "Wrap beef tenderloin in plastic wrap, and chill in freezer for 1 hour. Using a very sharp knife, cut beef across the grain into 0.5-cm-thick slices. Place slices between sheets of plastic wrap or wax paper and gently pound with the flat end of a meat pounder, or roll with a heavy rolling pin until paper-thin.",

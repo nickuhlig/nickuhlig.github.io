@@ -42,8 +42,9 @@
   "ingredients": [
     {
       "ingredient_id": 3081,
-      "name": "dried lemon drop chile peppers, stems and seeds removed",
-      "quantity": "28 g"
+      "name": "dried lemon drop chile peppers",
+      "quantity": "28 g",
+      "prep": "stems and seeds removed"
     },
     {
       "ingredient_id": 1514,
@@ -57,8 +58,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 133,
@@ -82,6 +84,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the stems and seeds from the dried lemon drop chile peppers. Peel the garlic.",
+      "secondary_message": "28 g dried lemon drop chile peppers\n4 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "In a skillet over medium heat, toast chiles, coriander, and cumin until just fragrant, about 10 seconds. Remove from heat and transfer to a blender along with garlic, vinegar, and olive oil. Blend until very smooth, scraping down sides of blender as needed, for 3-5 minutes.",

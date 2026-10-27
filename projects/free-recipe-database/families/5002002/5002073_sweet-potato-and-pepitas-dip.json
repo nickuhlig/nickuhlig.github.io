@@ -71,8 +71,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, thinly sliced",
-      "quantity": "8 large"
+      "name": "garlic cloves",
+      "quantity": "8 large",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1271,
@@ -106,6 +107,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the garlic cloves.",
+      "secondary_message": "8 large garlic cloves"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle and upper-middle positions and preheat oven to 150°C (300°F). Place 1 large piece of heavy-duty aluminum foil on a work surface. Place sweet potatoes in center; fold up foil and crimp edges to seal tightly. Transfer wrapped sweet potatoes to a rimmed baking sheet and roast on middle oven rack until a skewer or butter knife inserted into potatoes meets little resistance, 90 minutes to 105 minutes.",

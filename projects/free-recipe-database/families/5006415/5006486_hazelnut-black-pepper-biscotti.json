@@ -77,8 +77,9 @@
     },
     {
       "ingredient_id": 1716,
-      "name": "hazelnuts, toasted and roughly chopped",
-      "quantity": "¾ cup"
+      "name": "hazelnuts",
+      "quantity": "¾ cup",
+      "prep": "toasted and roughly chopped"
     },
     {
       "ingredient_id": 1784,
@@ -87,6 +88,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Toast and roughly chop the hazelnuts.",
+      "secondary_message": "¾ cup hazelnuts"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 175°C (350°F). Line a baking sheet with parchment paper.",

@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 2224,
-      "name": "garlic chives, cut into 2-inch pieces",
-      "quantity": "55 g"
+      "name": "garlic chives",
+      "quantity": "55 g",
+      "prep": "cut into 2-inch pieces"
     },
     {
       "ingredient_id": 153,
@@ -71,13 +72,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, finely chopped",
-      "quantity": "3 medium"
+      "name": "garlic cloves",
+      "quantity": "3 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1926,
-      "name": "saeujeot, drained of brine",
-      "quantity": "1 tbsp"
+      "name": "saeujeot",
+      "quantity": "1 tbsp",
+      "prep": "drained of brine"
     },
     {
       "ingredient_id": 52,
@@ -91,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the garlic chives into 2-inch pieces. Finely chop the garlic cloves. Drain the saeujeot of brine.",
+      "secondary_message": "55 g garlic chives\n3 medium garlic cloves\n1 tbsp saeujeot"
+    },
     {
       "id": 1,
       "primary_message": "Using a sharp knife, trim and discard both ends of the cucumbers. If using long cucumbers (about 25 cm), halve crosswise; for smaller kirby cucumbers, leave whole. Working with one piece of cucumber at a time, halve lengthwise, stopping 1.5 cm from the base to keep cucumber intact. Rotate cucumber 90 degrees and repeat cut, producing a quartered cucumber held together at one end. Repeat with remaining cucumbers.",

@@ -74,8 +74,9 @@
     },
     {
       "ingredient_id": 349,
-      "name": "whole nutmeg, finely grated , plus more for serving",
-      "quantity": "½"
+      "name": "whole nutmeg, plus more for serving",
+      "quantity": "½",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 2357,
@@ -84,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely grate the whole nutmeg.",
+      "secondary_message": "½ whole nutmeg, plus more for serving"
+    },
     {
       "id": 1,
       "primary_message": "Line a large colander with a clean, large 100% cotton dish towel or a triple layer of cheesecloth and set it over a deep bowl or pot, making sure there is enough space beneath the colander for the whey to drain without touching the bottom.",

@@ -51,14 +51,16 @@
   "ingredients": [
     {
       "ingredient_id": 2164,
-      "name": "boneless pork shoulder, cut into 2-inch chunks",
-      "quantity": "4 lb"
+      "name": "boneless pork shoulder",
+      "quantity": "4 lb",
+      "prep": "cut into 2-inch chunks"
     },
     {
       "ingredient_id": 2069,
-      "name": "tomatillos, quartered, husks discarded",
+      "name": "tomatillos",
       "quantity": "10",
-      "weigh_as": "¾ lb"
+      "weigh_as": "¾ lb",
+      "prep": "quartered, husks discarded"
     },
     {
       "ingredient_id": 2066,
@@ -72,24 +74,28 @@
     },
     {
       "ingredient_id": 1799,
-      "name": "serrano chiles, roughly chopped, stems discarded",
-      "quantity": "2"
+      "name": "serrano chiles",
+      "quantity": "2",
+      "prep": "roughly chopped, stems discarded"
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, roughly chopped",
+      "name": "white onion",
       "quantity": "2 medium",
-      "weigh_as": "8 oz"
+      "weigh_as": "8 oz",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "6 medium cloves"
+      "name": "garlic",
+      "quantity": "6 medium cloves",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 1271,
-      "name": "whole cumin seeds, toasted and ground",
-      "quantity": "1 tbsp"
+      "name": "whole cumin seeds",
+      "quantity": "1 tbsp",
+      "prep": "toasted and ground"
     },
     {
       "ingredient_id": 88,
@@ -108,6 +114,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the boneless pork shoulder into 2-inch chunks. Quarter the tomatillos, then discard the husks. Roughly chop the serrano chiles, then discard the stems. Roughly chop the white onion. Peel the garlic. Toast and grind the whole cumin seeds.",
+      "secondary_message": "4 lb boneless pork shoulder\n10 tomatillos\n2 serrano chiles\n2 medium white onion\n6 medium cloves garlic\n1 tbsp whole cumin seeds"
+    },
     {
       "id": 1,
       "primary_message": "In a pressure cooker, combine pork, tomatillos, poblano peppers, Anaheim peppers, serrano peppers, onion, garlic, cumin, and a big pinch of salt. Heat over high heat until gently sizzling, then seal pressure cooker, bring to high pressure, and cook for 30 minutes. Release pressure.",

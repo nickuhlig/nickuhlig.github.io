@@ -60,9 +60,10 @@
   "ingredients": [
     {
       "ingredient_id": 260,
-      "name": "ripe tomatoes, large, cored and halved along equator",
+      "name": "ripe tomatoes, large",
       "quantity": "2 ½",
-      "weigh_as": "1 lb"
+      "weigh_as": "1 lb",
+      "prep": "cored and halved along equator"
     },
     {
       "ingredient_id": 47,
@@ -81,23 +82,27 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, cut crosswise into 1/2-inch thick rounds",
-      "quantity": "1 medium"
+      "name": "red onion",
+      "quantity": "1 medium",
+      "prep": "cut crosswise into 1/2-inch thick rounds"
     },
     {
       "ingredient_id": 2066,
-      "name": "poblano chiles, stemmed, halved, and seeded",
-      "quantity": "2"
+      "name": "poblano chiles",
+      "quantity": "2",
+      "prep": "stemmed, halved, and seeded"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño chiles, stemmed, halved, and seeded",
-      "quantity": "2"
+      "name": "jalapeño chiles",
+      "quantity": "2",
+      "prep": "stemmed, halved, and seeded"
     },
     {
       "ingredient_id": 185,
-      "name": "black beans, drained and rinsed",
-      "quantity": "1 (15 oz) can"
+      "name": "black beans",
+      "quantity": "1 (15 oz) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 188,
@@ -106,13 +111,15 @@
     },
     {
       "ingredient_id": 1069,
-      "name": "Monterey Jack cheese, shredded",
-      "quantity": "8 oz"
+      "name": "Monterey Jack cheese",
+      "quantity": "8 oz",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 43,
-      "name": "sharp cheddar cheese, shredded",
-      "quantity": "8 oz"
+      "name": "sharp cheddar cheese",
+      "quantity": "8 oz",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 443,
@@ -121,11 +128,18 @@
     },
     {
       "ingredient_id": 153,
-      "name": "whole scallions, thinly sliced",
-      "quantity": "2"
+      "name": "whole scallions",
+      "quantity": "2",
+      "prep": "thinly sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Core and halve the ripe tomatoes along equator. Cut the red onion crosswise into 1/2-inch thick rounds. Stem, halve, and seed the poblano chiles. Stem, halve, and seed the jalapeño chiles. Drain and rinse the black beans. Shred the Monterey Jack cheese. Shred the sharp cheddar cheese. Thinly slice the whole scallions.",
+      "secondary_message": "2 ½ ripe tomatoes, large\n1 medium red onion\n2 poblano chiles\n2 jalapeño chiles\n1 (15 oz) can black beans\n8 oz Monterey Jack cheese\n8 oz sharp cheddar cheese\n2 whole scallions"
+    },
     {
       "id": 1,
       "primary_message": "Toss tomatoes with 1 tablespoon oil, 1/2 teaspoon salt, and 1/4 teaspoon pepper in large bowl. Let stand for at least 15 minutes or up to 1 hour.",

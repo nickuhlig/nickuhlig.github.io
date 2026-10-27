@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1721,
@@ -107,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic.",
+      "secondary_message": "4 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "In a medium microwave-safe bowl, combine oil, garlic, and pepper flakes. Microwave, uncovered on high power, until garlic is golden brown and crispy, about 2 minutes, stirring halfway through. Set a fine-mesh strainer over a medium bowl and strain garlic oil through. Reserve infused oil and crispy garlic with pepper flakes separately.",

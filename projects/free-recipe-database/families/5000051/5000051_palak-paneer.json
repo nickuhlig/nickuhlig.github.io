@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 1871,
-      "name": "paneer, cut into small rectangles",
-      "quantity": "8 oz"
+      "name": "paneer",
+      "quantity": "8 oz",
+      "prep": "cut into small rectangles"
     },
     {
       "ingredient_id": 1271,
@@ -62,8 +63,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, finely chopped",
-      "quantity": "3 medium"
+      "name": "garlic cloves",
+      "quantity": "3 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 3657,
@@ -82,6 +84,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the paneer into small rectangles. Finely chop the garlic cloves.",
+      "secondary_message": "8 oz paneer\n3 medium garlic cloves"
+    },
     {
       "id": 1,
       "primary_message": "Combine spinach with 1/2 cup water in a 3-quart saucier and place over high heat. Bring water to a boil, cover, reduce heat to medium-low, and cook until spinach is completely wilted, about 5 minutes. Transfer contents of pan to countertop blender and blend on high speed until completely smooth, about 1 minute. Set purée aside.",

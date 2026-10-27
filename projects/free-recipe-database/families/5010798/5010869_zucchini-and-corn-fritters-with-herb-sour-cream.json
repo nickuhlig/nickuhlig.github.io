@@ -89,14 +89,16 @@
     },
     {
       "ingredient_id": 140,
-      "name": "zucchini squash, ends trimmed",
+      "name": "zucchini squash",
       "quantity": "5 medium",
-      "weigh_as": "0.9 kg"
+      "weigh_as": "0.9 kg",
+      "prep": "ends trimmed"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, peeled",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 88,
@@ -105,19 +107,22 @@
     },
     {
       "ingredient_id": 303,
-      "name": "corn, kernels cut from cob",
+      "name": "corn",
       "quantity": "1 ¼ cups",
-      "weigh_as": "204 g"
+      "weigh_as": "204 g",
+      "prep": "kernels cut from cob"
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, lightly beaten",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic clove, grated or minced",
-      "quantity": "1 large"
+      "name": "garlic clove",
+      "quantity": "1 large",
+      "prep": "grated or minced"
     },
     {
       "ingredient_id": 72,
@@ -146,6 +151,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the ends of the zucchini squash. Peel the yellow onion. Cut the kernels of the corn from cob. Lightly beat the eggs. Grate or mince the garlic clove.",
+      "secondary_message": "5 medium zucchini squash\n1 medium yellow onion\n1 ¼ cups corn\n2 large eggs\n1 large garlic clove"
+    },
     {
       "id": 1,
       "primary_message": "For the Herb Sour Cream: In a medium bowl, mix together sour cream (or yogurt), lemon zest, basil, chives, and anchovy (if using). Season with salt and pepper. Set aside or refrigerate until ready to serve.",

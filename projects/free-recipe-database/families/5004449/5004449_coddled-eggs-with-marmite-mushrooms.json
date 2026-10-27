@@ -38,8 +38,9 @@
     },
     {
       "ingredient_id": 19,
-      "name": "button mushrooms, sliced",
-      "quantity": "1 lb"
+      "name": "button mushrooms",
+      "quantity": "1 lb",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 144,
@@ -83,6 +84,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the button mushrooms.",
+      "secondary_message": "1 lb button mushrooms"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat to 425°F. Melt the butter in a medium non-stick skillet over medium high heat. Add the mushrooms and cook, stirring often, until the mushrooms release their liquid, the liquid evaporates, and the mushrooms begin to brown, about 10 minutes. Add the shallots and thyme and cook, stirring, until shallots are just beginning to brown, about 3 minutes longer. Add the stock and the Marmite, stirring so that Marmite dissolves into the sauce, then bring to a simmer and cook until the stock has reduced to a saucelike consistency, about 10 minutes. Season to taste with salt and pepper.",

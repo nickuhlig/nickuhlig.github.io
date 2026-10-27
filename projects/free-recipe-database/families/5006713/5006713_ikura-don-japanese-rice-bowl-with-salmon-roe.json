@@ -54,11 +54,18 @@
     },
     {
       "ingredient_id": 1905,
-      "name": "cooked short-grain rice, cooled slightly",
-      "quantity": "1 to 1 ½ cups"
+      "name": "cooked short-grain rice",
+      "quantity": "1 to 1 ½ cups",
+      "prep": "cooled slightly"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cool the cooked short-grain rice slightly.",
+      "secondary_message": "1 to 1 ½ cups cooked short-grain rice"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, combine salmon roe with soy sauce, mirin or sake, and dashi. Let stand for at least 15 and up to 30 minutes. (This is a good time to cook the rice.)",

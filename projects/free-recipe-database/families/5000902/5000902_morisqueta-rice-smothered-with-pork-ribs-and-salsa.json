@@ -66,18 +66,21 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, peeled",
-      "quantity": "½ large"
+      "name": "white onion",
+      "quantity": "½ large",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 1541,
-      "name": "plum tomatoes, halved",
-      "quantity": "4"
+      "name": "plum tomatoes",
+      "quantity": "4",
+      "prep": "halved"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño chiles, stemmed and halved",
-      "quantity": "2"
+      "name": "jalapeño chiles",
+      "quantity": "2",
+      "prep": "stemmed and halved"
     },
     {
       "ingredient_id": 24,
@@ -126,6 +129,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the white onion. Halve the plum tomatoes. Stem and halve the jalapeño chiles.",
+      "secondary_message": "½ large white onion\n4 plum tomatoes\n2 jalapeño chiles"
+    },
     {
       "id": 1,
       "primary_message": "For the Ribs: Generously season pork with kosher salt and pepper. Set meat on a large plate or on a wire rack set in a rimmed baking sheet and refrigerate, uncovered, for at least 4 hours or up to 12 hours.",

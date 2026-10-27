@@ -65,8 +65,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 74,
@@ -75,8 +76,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "2"
+      "name": "eggs",
+      "quantity": "2",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 2529,
@@ -90,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Smash the garlic. Beat the eggs.",
+      "secondary_message": "3 cloves garlic\n2 eggs"
+    },
     {
       "id": 1,
       "primary_message": "Clip the toenails from the chicken feet and wash the feet, removing calluses and any loose-hanging skin.",

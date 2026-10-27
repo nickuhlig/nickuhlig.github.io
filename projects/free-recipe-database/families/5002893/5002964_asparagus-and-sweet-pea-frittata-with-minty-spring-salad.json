@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, diced",
-      "quantity": "1 small"
+      "name": "yellow onion",
+      "quantity": "1 small",
+      "prep": "diced"
     },
     {
       "ingredient_id": 26,
@@ -85,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the yellow onion.",
+      "secondary_message": "1 small yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "Adjust broiler rack to 25 cm from heat source and preheat broiler to high. Beat eggs in a large bowl with 2 generous pinches of salt. Set aside. In a medium oven-proof non-stick skillet, heat 2 tablespoons oil over medium-high heat until shimmering. Add onion and cook, stirring, until just translucent, about 2 minutes. Add diced asparagus and peas, season with salt and pepper, and cook, stirring, until tender but not browned, about 6 minutes.",

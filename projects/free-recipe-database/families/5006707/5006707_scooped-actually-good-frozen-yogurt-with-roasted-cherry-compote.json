@@ -44,8 +44,9 @@
     },
     {
       "ingredient_id": 3599,
-      "name": "plump, ripe cherries, stems removed, divided",
-      "quantity": "5 ½ cups"
+      "name": "plump, ripe cherries, divided",
+      "quantity": "5 ½ cups",
+      "prep": "stems removed"
     },
     {
       "ingredient_id": 2198,
@@ -59,31 +60,42 @@
     },
     {
       "ingredient_id": 1865,
-      "name": "allspice berries, toasted and ground",
-      "quantity": "1 tsp"
+      "name": "allspice berries",
+      "quantity": "1 tsp",
+      "prep": "toasted and ground"
     },
     {
       "ingredient_id": 1084,
-      "name": "star anise, toasted and ground",
-      "quantity": "1 small piece"
+      "name": "star anise",
+      "quantity": "1 small piece",
+      "prep": "toasted and ground"
     },
     {
       "ingredient_id": 1757,
-      "name": "cloves, toasted and ground",
-      "quantity": "3"
+      "name": "cloves",
+      "quantity": "3",
+      "prep": "toasted and ground"
     },
     {
       "ingredient_id": 349,
-      "name": "nutmeg, freshly ground",
-      "quantity": "½ tsp"
+      "name": "nutmeg",
+      "quantity": "½ tsp",
+      "prep": "freshly ground"
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "zested"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the stems from the plump. Toast and grind the allspice berries. Toast and grind the star anise. Toast and grind the cloves. Freshly grind the nutmeg. Zest the lemon.",
+      "secondary_message": "5 ½ cups plump, ripe cherries, divided\n1 tsp allspice berries\n1 small piece star anise\n3 cloves\n½ tsp nutmeg\n1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "For the frozen yogurt",

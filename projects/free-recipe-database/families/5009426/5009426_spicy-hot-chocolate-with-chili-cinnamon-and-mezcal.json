@@ -67,8 +67,9 @@
     },
     {
       "ingredient_id": 2541,
-      "name": "whole dried ancho chile pod, split",
-      "quantity": "1"
+      "name": "whole dried ancho chile pod",
+      "quantity": "1",
+      "prep": "split"
     },
     {
       "ingredient_id": 354,
@@ -82,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the whole dried ancho chile pod.",
+      "secondary_message": "1 whole dried ancho chile pod"
+    },
     {
       "id": 1,
       "primary_message": "In medium saucepan, stir cocoa with sugar and salt. Stir in milk, 2 cinnamon sticks, ancho chile, and bittersweet chocolate. Heat over medium heat until, stirring constantly, until chocolate is melted and mixture is hot. Gently whisk to completely homogenize mixture. Simmer over low heat, whisking occasionally, until fragrant, about 10 minutes. Carefully drain and discard chile and cinnamon sticks",

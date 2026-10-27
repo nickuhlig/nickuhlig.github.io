@@ -41,9 +41,10 @@
     },
     {
       "ingredient_id": 18,
-      "name": "eggplant, diced into 1-inch cubes",
+      "name": "eggplant",
       "quantity": "1 ¼",
-      "weigh_as": "1 ½ lb"
+      "weigh_as": "1 ½ lb",
+      "prep": "diced into 1-inch cubes"
     },
     {
       "ingredient_id": 260,
@@ -53,8 +54,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, sliced",
-      "quantity": "4 cloves cloves"
+      "name": "garlic",
+      "quantity": "4 cloves cloves",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 1956,
@@ -73,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the eggplant into 1-inch cubes. Slice the garlic.",
+      "secondary_message": "1 ¼ eggplant\n4 cloves cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Heat a large cast iron skillet on very high heat until it smokes. Add 4 tablespoons oil and wait till it shimmers, then add eggplant. Stir to coat with oil and cook until lightly charred and tender but toothsome, stirring occasionally. Remove from skillet to a bowl or plate.",

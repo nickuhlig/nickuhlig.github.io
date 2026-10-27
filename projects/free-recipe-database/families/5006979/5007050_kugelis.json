@@ -56,13 +56,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 118,
@@ -81,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the onion. Beat the eggs.",
+      "secondary_message": "1 medium onion\n4 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 205°C (400°F). Butter an 8 x 20 cm baking pan. Grate the potatoes on the large holes of a box grater, and place grated potatoes in a bowl of cold water.",

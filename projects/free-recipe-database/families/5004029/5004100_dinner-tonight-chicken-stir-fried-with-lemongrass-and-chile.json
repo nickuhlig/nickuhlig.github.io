@@ -32,8 +32,9 @@
   "ingredients": [
     {
       "ingredient_id": 164,
-      "name": "boneless skinless chicken thighs, cut into 1-inch chunks",
-      "quantity": "0.6 kg"
+      "name": "boneless skinless chicken thighs",
+      "quantity": "0.6 kg",
+      "prep": "cut into 1-inch chunks"
     },
     {
       "ingredient_id": 88,
@@ -62,18 +63,21 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely chopped",
-      "quantity": "1 large"
+      "name": "shallot",
+      "quantity": "1 large",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1762,
-      "name": "Thai chiles, finely chopped",
-      "quantity": "1 to 2"
+      "name": "Thai chiles",
+      "quantity": "1 to 2",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1816,
-      "name": "lemongrass, trimmed, and finely chopped",
-      "quantity": "1 stalk"
+      "name": "lemongrass",
+      "quantity": "1 stalk",
+      "prep": "trimmed, and finely chopped"
     },
     {
       "ingredient_id": 150,
@@ -87,11 +91,18 @@
     },
     {
       "ingredient_id": 188,
-      "name": "fresh cilantro, leaves coarsely chopped",
-      "quantity": "3 to 4 sprigs"
+      "name": "fresh cilantro",
+      "quantity": "3 to 4 sprigs",
+      "prep": "leaves coarsely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the boneless skinless chicken thighs into 1-inch chunks. Finely chop the shallot. Finely chop the Thai chiles. Trim and finely chop the lemongrass. Coarsely chop the leaves of the fresh cilantro.",
+      "secondary_message": "0.6 kg boneless skinless chicken thighs\n1 large shallot\n1 to 2 Thai chiles\n1 stalk lemongrass\n3 to 4 sprigs fresh cilantro"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, add the chicken, salt, sugar, curry powder, and fish sauce. Toss until the chicken pieces are evenly coated. Set aside in the fridge to marinate for at least 15 minutes and as much as an hour – whatever you have time for.",

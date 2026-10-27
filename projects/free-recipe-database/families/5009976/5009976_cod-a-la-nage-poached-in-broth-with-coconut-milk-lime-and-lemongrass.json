@@ -46,18 +46,21 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, minced",
-      "quantity": "2 medium"
+      "name": "shallots",
+      "quantity": "2 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1762,
-      "name": "fresh Thai red chile, stemmed and thinly sliced",
-      "quantity": "1"
+      "name": "fresh Thai red chile",
+      "quantity": "1",
+      "prep": "stemmed and thinly sliced"
     },
     {
       "ingredient_id": 41,
@@ -76,8 +79,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "peeled fresh ginger, thinly sliced",
-      "quantity": "1 (2 inch) knob"
+      "name": "peeled fresh ginger",
+      "quantity": "1 (2 inch) knob",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1816,
@@ -106,6 +110,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the shallots. Roughly chop the garlic. Stem and thinly slice the fresh Thai red chile. Thinly slice the peeled fresh ginger.",
+      "secondary_message": "2 medium shallots\n3 medium cloves garlic\n1 fresh Thai red chile\n1 (2 inch) knob peeled fresh ginger"
+    },
     {
       "id": 1,
       "primary_message": "In a large, straight-sided sauté pan, heat oil over medium-high heat until shimmering. Add shallot, garlic, and chile and cook, stirring, until vegetables are softened and shallot is translucent, about 2 minutes.",

@@ -62,8 +62,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, split in half",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "split in half"
     },
     {
       "ingredient_id": 1472,
@@ -72,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the garlic in half.",
+      "secondary_message": "2 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Split tomatoes in half horizontally. Place a box grater into a large bowl. Rub cut faces of tomatoes over the large holes of a box grater, using the flattened palm of your hand to move the tomatoes back and forth. The flesh should be grated off, while the skin remains intact in your hand. Discard skin and season tomato pulp with kosher salt to taste.",

@@ -33,8 +33,9 @@
   "ingredients": [
     {
       "ingredient_id": 3675,
-      "name": "\"used\" lemon rinds, cut into eighths",
-      "quantity": "1 ½ lb"
+      "name": "\"used\" lemon rinds",
+      "quantity": "1 ½ lb",
+      "prep": "cut into eighths"
     },
     {
       "ingredient_id": 88,
@@ -48,6 +49,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the \"used\" lemon rinds into eighths.",
+      "secondary_message": "1 ½ lb \"used\" lemon rinds"
+    },
     {
       "id": 1,
       "primary_message": "Cut each lemon rind into a few chunks and toss with salt in a large glass, ceramic, or stainless steel mixing bowl. Cover tightly with plastic wrap and place in refrigerator for 12 hours or overnight.",

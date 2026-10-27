@@ -47,14 +47,16 @@
     },
     {
       "ingredient_id": 26,
-      "name": "asparagus, woody ends trimmed",
+      "name": "asparagus",
       "quantity": "2 bunches",
-      "weigh_as": "2 ¼ lb"
+      "weigh_as": "2 ¼ lb",
+      "prep": "woody ends trimmed"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, root and dark-green ends trimmed",
-      "quantity": "6 to 8 medium"
+      "name": "scallions",
+      "quantity": "6 to 8 medium",
+      "prep": "root and dark-green ends trimmed"
     },
     {
       "ingredient_id": 122,
@@ -78,11 +80,18 @@
     },
     {
       "ingredient_id": 243,
-      "name": "mint leaves, torn",
-      "quantity": "15"
+      "name": "mint leaves",
+      "quantity": "15",
+      "prep": "torn"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the woody ends of the asparagus. Trim the root and dark-green ends of the scallions. Tear the mint leaves.",
+      "secondary_message": "2 bunches asparagus\n6 to 8 medium scallions\n15 mint leaves"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 450°F and set rack in middle position. On a rimmed half-sheet pan, season chicken thighs all over with salt and lightly drizzle with olive oil. Space thighs out, skin-side up, so that there is plenty of space between them and they are similarly distant from sheet pan's edges. Roast until thighs are just cooked through and skin is beginning to turn golden and crispy, 15 to 20 minutes.",

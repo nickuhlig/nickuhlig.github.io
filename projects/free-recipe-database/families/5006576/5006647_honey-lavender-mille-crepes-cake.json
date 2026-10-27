@@ -113,8 +113,9 @@
     },
     {
       "ingredient_id": 116,
-      "name": "all-purpose flour, sifted",
-      "quantity": "2 cups (10 oz)"
+      "name": "all-purpose flour",
+      "quantity": "2 cups (10 oz)",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 118,
@@ -153,8 +154,9 @@
     },
     {
       "ingredient_id": 1938,
-      "name": "vanilla bean, halved and seeds scraped",
-      "quantity": "1"
+      "name": "vanilla bean",
+      "quantity": "1",
+      "prep": "halved and seeds scraped"
     },
     {
       "ingredient_id": 3641,
@@ -178,8 +180,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, chilled and cut into 6 pieces",
-      "quantity": "6 tbsp"
+      "name": "unsalted butter",
+      "quantity": "6 tbsp",
+      "prep": "chilled and cut into 6 pieces"
     },
     {
       "ingredient_id": 1752,
@@ -193,6 +196,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Sift the all-purpose flour. Halve the vanilla bean, then scrape the seeds. Cut the unsalted butter into 6 pieces and keep it cold until you use it.",
+      "secondary_message": "2 cups (10 oz) all-purpose flour\n1 vanilla bean\n6 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Lavender Crêpes: Process sugar, lavender, and lemon zest in food processor until no lemon strands remain. Add flour and pulse to combine. Add milk, water, egg yolks, melted butter, and salt and pulse until mixture is smooth. Cover and refrigerate at least 2 hours and up to 48 hours.",

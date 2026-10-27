@@ -72,8 +72,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely chopped",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1721,
@@ -97,13 +98,15 @@
     },
     {
       "ingredient_id": 2531,
-      "name": "square spring roll wrappers, thawed",
-      "quantity": "12"
+      "name": "square spring roll wrappers",
+      "quantity": "12",
+      "prep": "thawed"
     },
     {
       "ingredient_id": 153,
-      "name": "green onions, thinly sliced",
-      "quantity": "2"
+      "name": "green onions",
+      "quantity": "2",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1828,
@@ -112,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the garlic. Thaw the square spring roll wrappers. Thinly slice the green onions.",
+      "secondary_message": "1 medium clove garlic\n12 square spring roll wrappers\n2 green onions"
+    },
     {
       "id": 1,
       "primary_message": "For the Sweet and Sour Sauce: combine the water and cornstarch in a small bowl and set aside. Combine the pineapple juice, vinegar, soy sauce, brown sugar, ginger, garlic, and red pepper flakes in a small saucepan over moderately high heat and bring to a boil, stirring to dissolve the sugar. Stir the cornstarch slurry into the saucepan, decrease the heat to low and simmer until the sauce thickens, 3-5 minutes. Remove the sauce from the heat and allow to cool to room temperature before serving. The sauce will continue to thicken a bit more as it cools.",

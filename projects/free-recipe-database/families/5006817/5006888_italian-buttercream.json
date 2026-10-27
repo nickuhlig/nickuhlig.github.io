@@ -54,11 +54,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cubed and softened at room temperature",
-      "quantity": "1 cup"
+      "name": "unsalted butter",
+      "quantity": "1 cup",
+      "prep": "cubed and softened at room temperature"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cube and soften the unsalted butter at room temperature.",
+      "secondary_message": "1 cup unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Combine sugar and water in a medium-sized saucepan. Heat over low heat, stirring with a metal spoon, until the sugar has dissolved and the syrup is clear. Increase heat to medium-high and allow syrup to come to a boil.",

@@ -46,8 +46,9 @@
   "ingredients": [
     {
       "ingredient_id": 473,
-      "name": "flank steak, cut into 1/4-inch-thick strips",
-      "quantity": "0.45 kg"
+      "name": "flank steak",
+      "quantity": "0.45 kg",
+      "prep": "cut into 1/4-inch-thick strips"
     },
     {
       "ingredient_id": 53,
@@ -81,8 +82,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, thinly sliced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2244,
@@ -111,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the flank steak into 1/4-inch-thick strips. Thinly slice the shallot.",
+      "secondary_message": "0.45 kg flank steak\n1 small shallot"
+    },
     {
       "id": 1,
       "primary_message": "Combine beef, 1 teaspoon soy sauce, 2 teaspoons fish sauce, and white sugar in a bowl. Toss to combine and set in refrigerator to marinate for at least 15 minutes and up to overnight.",

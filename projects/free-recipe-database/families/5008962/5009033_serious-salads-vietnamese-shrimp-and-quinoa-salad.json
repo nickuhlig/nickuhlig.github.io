@@ -59,13 +59,15 @@
     },
     {
       "ingredient_id": 1128,
-      "name": "cooked shrimp, peeled and de-veined",
-      "quantity": "0.23 kg"
+      "name": "cooked shrimp",
+      "quantity": "0.23 kg",
+      "prep": "peeled and de-veined"
     },
     {
       "ingredient_id": 249,
-      "name": "quinoa, rinsed",
-      "quantity": "1 cup"
+      "name": "quinoa",
+      "quantity": "1 cup",
+      "prep": "rinsed"
     },
     {
       "ingredient_id": 88,
@@ -79,18 +81,21 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, peeled and shredded",
-      "quantity": "1"
+      "name": "carrot",
+      "quantity": "1",
+      "prep": "peeled and shredded"
     },
     {
       "ingredient_id": 1980,
-      "name": "cucumber, peeled, seeded and finely diced",
-      "quantity": "1 small"
+      "name": "cucumber",
+      "quantity": "1 small",
+      "prep": "peeled, seeded and finely diced"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, finely chopped",
-      "quantity": "2"
+      "name": "scallions",
+      "quantity": "2",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 188,
@@ -99,6 +104,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and de-vein the cooked shrimp. Rinse the quinoa. Peel and shred the carrot. Peel, seed, and finely dice the cucumber. Finely chop the scallions.",
+      "secondary_message": "0.23 kg cooked shrimp\n1 cup quinoa\n1 carrot\n1 small cucumber\n2 scallions"
+    },
     {
       "id": 1,
       "primary_message": "Add quinoa, salt and 1-2/3 cups water to a medium saucepan. Bring to a boil and then reduce heat to low, cover, and cook for 15 minutes, until the water is absorbed and quinoa is cooked. Transfer to a serving bowl and let cool.",

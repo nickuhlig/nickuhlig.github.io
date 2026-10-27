@@ -34,13 +34,15 @@
   "ingredients": [
     {
       "ingredient_id": 2463,
-      "name": "rhubarb, diced",
-      "quantity": "0.35 kg"
+      "name": "rhubarb",
+      "quantity": "0.35 kg",
+      "prep": "diced"
     },
     {
       "ingredient_id": 242,
-      "name": "strawberries, hulled and quartered",
-      "quantity": "300 g"
+      "name": "strawberries",
+      "quantity": "300 g",
+      "prep": "hulled and quartered"
     },
     {
       "ingredient_id": 346,
@@ -59,6 +61,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the rhubarb. Hull and quarter the strawberries.",
+      "secondary_message": "0.35 kg rhubarb\n300 g strawberries"
+    },
     {
       "id": 1,
       "primary_message": "In a medium saucepan, combine rhubarb with 1/2 cup water and bring to a simmer over medium-high heat. Lower heat to maintain a fast simmer, cover, and cook until rhubarb is fully softened and beginning to break down, about 4 minutes.",

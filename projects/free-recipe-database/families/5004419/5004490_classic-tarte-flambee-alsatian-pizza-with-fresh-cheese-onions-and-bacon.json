@@ -68,16 +68,24 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, very thinly sliced",
-      "quantity": "1 medium"
+      "name": "white onion",
+      "quantity": "1 medium",
+      "prep": "very thinly sliced"
     },
     {
       "ingredient_id": 302,
-      "name": "sliced bacon, cut crosswise into thin strips",
-      "quantity": "0.11 kg"
+      "name": "sliced bacon",
+      "quantity": "0.11 kg",
+      "prep": "cut crosswise into thin strips"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Very thinly slice the white onion. Cut the sliced bacon crosswise into thin strips.",
+      "secondary_message": "1 medium white onion\n0.11 kg sliced bacon"
+    },
     {
       "id": 1,
       "primary_message": "Set baking steel on oven rack 15 to 20 cm from broiler and preheat oven to 290°C (550°F) (or highest possible setting) for 1 hour.",

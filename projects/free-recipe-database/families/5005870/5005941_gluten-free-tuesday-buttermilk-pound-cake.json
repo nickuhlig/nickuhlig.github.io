@@ -69,8 +69,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, at room temperature",
-      "quantity": "1 ½ sticks"
+      "name": "butter",
+      "quantity": "1 ½ sticks",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -79,8 +80,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 2475,
@@ -104,6 +106,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the butter to room temperature. Bring the eggs to room temperature.",
+      "secondary_message": "1 ½ sticks butter\n2 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Preheat oven to 175°C (350°F). Grease 9- by 13-cm baking pan with cooking spray or grease with solid shortening and dust with white rice flour. Set pan aside.",

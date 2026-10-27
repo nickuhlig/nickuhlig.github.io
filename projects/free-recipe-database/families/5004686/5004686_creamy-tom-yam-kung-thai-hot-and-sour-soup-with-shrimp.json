@@ -39,13 +39,15 @@
     },
     {
       "ingredient_id": 19,
-      "name": "fresh button, cut into bite-size pieces",
-      "quantity": "6 oz"
+      "name": "fresh button",
+      "quantity": "6 oz",
+      "prep": "cut into bite-size pieces"
     },
     {
       "ingredient_id": 1818,
-      "name": "fresh makrut lime leaves, torn into pieces and lightly bruised",
-      "quantity": "6 to 7"
+      "name": "fresh makrut lime leaves",
+      "quantity": "6 to 7",
+      "prep": "torn into pieces and lightly bruised"
     },
     {
       "ingredient_id": 1816,
@@ -69,8 +71,9 @@
     },
     {
       "ingredient_id": 1810,
-      "name": "whole fresh red bird’s eye chiles, crushed",
-      "quantity": "4 to 5"
+      "name": "whole fresh red bird’s eye chiles",
+      "quantity": "4 to 5",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 1811,
@@ -94,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the fresh button into bite-size pieces. Tear the fresh makrut lime leaves into pieces, then lightly bruise them. Crush the whole fresh red bird’s eye chiles.",
+      "secondary_message": "6 oz fresh button\n6 to 7 fresh makrut lime leaves\n4 to 5 whole fresh red bird’s eye chiles"
+    },
     {
       "id": 1,
       "primary_message": "In a medium saucepan, bring broth to a very gentle boil over medium heat, then adjust heat to maintain a bare simmer. Add mushrooms and cook until tender, about 5 minutes. Stir in limes leaves, lemongrass, nam prik pao, fish sauce, and chiles.",

@@ -72,33 +72,39 @@
     },
     {
       "ingredient_id": 2156,
-      "name": "sirloin beef, sliced into 1/4- to 1/8th-inch strips",
-      "quantity": "1 ½ lb"
+      "name": "sirloin beef",
+      "quantity": "1 ½ lb",
+      "prep": "sliced into 1/4- to 1/8th-inch strips"
     },
     {
       "ingredient_id": 2478,
-      "name": "firm tofu, cut into 1-inch cubes",
-      "quantity": "8 oz"
+      "name": "firm tofu",
+      "quantity": "8 oz",
+      "prep": "cut into 1-inch cubes"
     },
     {
       "ingredient_id": 2731,
-      "name": "mushrooms, sliced",
-      "quantity": "8 oz"
+      "name": "mushrooms",
+      "quantity": "8 oz",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, sliced into thin rings",
-      "quantity": "1"
+      "name": "yellow onion",
+      "quantity": "1",
+      "prep": "sliced into thin rings"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, cut into 2 inch pieces",
-      "quantity": "8"
+      "name": "scallions",
+      "quantity": "8",
+      "prep": "cut into 2 inch pieces"
     },
     {
       "ingredient_id": 285,
-      "name": "bok choy, leaves cut into 1- to 2-inch segmen",
-      "quantity": "1 small head"
+      "name": "bok choy",
+      "quantity": "1 small head",
+      "prep": "leaves cut into 1- to 2-inch segmen"
     },
     {
       "ingredient_id": 1930,
@@ -112,6 +118,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the sirloin beef into 1/4- to 1/8th-inch strips. Cut the firm tofu into 1-inch cubes. Slice the mushrooms. Slice the yellow onion into thin rings. Cut the scallions into 2 inch pieces. Cut the leaves of the bok choy into 1- to 2-inch segmen.",
+      "secondary_message": "1 ½ lb sirloin beef\n8 oz firm tofu\n8 oz mushrooms\n1 yellow onion\n8 scallions\n1 small head bok choy"
+    },
     {
       "id": 1,
       "primary_message": "Bring mirin, sake, soy sauce, dashi, and sugar to a simmer and stir until sugar is dissolved. Remove from heat and reserve.",

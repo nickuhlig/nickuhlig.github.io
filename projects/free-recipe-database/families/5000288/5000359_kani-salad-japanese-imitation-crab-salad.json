@@ -48,8 +48,9 @@
   "ingredients": [
     {
       "ingredient_id": 2021,
-      "name": "serrano chile, stemmed, seeded, and minced",
-      "quantity": "1 small"
+      "name": "serrano chile",
+      "quantity": "1 small",
+      "prep": "stemmed, seeded, and minced"
     },
     {
       "ingredient_id": 257,
@@ -63,13 +64,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely chopped",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1720,
-      "name": "celery stalk, finely chopped",
-      "quantity": "1 medium"
+      "name": "celery stalk",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 267,
@@ -93,11 +96,18 @@
     },
     {
       "ingredient_id": 2023,
-      "name": "flake-style surimi seafood, patted dry",
-      "quantity": "0.45 kg"
+      "name": "flake-style surimi seafood",
+      "quantity": "0.45 kg",
+      "prep": "patted dry"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem, seed, and mince the serrano chile. Finely chop the shallot. Finely chop the celery stalk. Pat the flake-style surimi seafood dry.",
+      "secondary_message": "1 small serrano chile\n1 small shallot\n1 medium celery stalk\n0.45 kg flake-style surimi seafood"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, stir together chile, vinegar, and salt. Let stand 10 minutes.",

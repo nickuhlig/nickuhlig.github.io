@@ -71,9 +71,10 @@
     },
     {
       "ingredient_id": 3064,
-      "name": "Yukon gold potatoes, 2 1/2 to 3 inches long each, scrubbed",
+      "name": "Yukon gold potatoes, 2 1/2 to 3 inches long each",
       "quantity": "4 medium",
-      "weigh_as": "907 kg"
+      "weigh_as": "907 kg",
+      "prep": "scrubbed"
     },
     {
       "ingredient_id": 88,
@@ -97,13 +98,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, thinly sliced",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely chopped",
-      "quantity": "6 medium cloves"
+      "name": "garlic",
+      "quantity": "6 medium cloves",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1698,
@@ -132,6 +135,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Scrub the Yukon gold potatoes. Thinly slice the onion. Finely chop the garlic.",
+      "secondary_message": "4 medium Yukon gold potatoes, 2 1/2 to 3 inches long each\n1 large onion\n6 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 230°C (450°F). In a large measuring cup, whisk together stock, water, and onion soup mix; set aside. Using a sharp knife, cut about 0.5-cm off both ends of potatoes to give them flat sides, then halve each potato crosswise. Pat both sides of each potato dry with paper towels. Season both sides of potatoes with 1 1/4 teaspoons salt and 3/4 teaspoon pepper; set aside.",

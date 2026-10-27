@@ -69,8 +69,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 119,
@@ -84,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Beat the eggs.",
+      "secondary_message": "3 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Working with one pork chop at a time, trim fat and sinew off the chop, then make a cut lengthwise down the middle of one 1-inch-thick edge, about 3/4 of the way through the chop, without cutting it into 2 separate pieces, making a butterfly slice.",

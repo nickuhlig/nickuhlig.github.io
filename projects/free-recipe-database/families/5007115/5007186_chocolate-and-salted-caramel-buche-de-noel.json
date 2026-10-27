@@ -37,8 +37,9 @@
   "ingredients": [
     {
       "ingredient_id": 3642,
-      "name": "egg whites, at room temperature",
-      "quantity": "5 large"
+      "name": "egg whites",
+      "quantity": "5 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -82,8 +83,9 @@
     },
     {
       "ingredient_id": 3641,
-      "name": "egg yolks, at room temperature",
-      "quantity": "3 large"
+      "name": "egg yolks",
+      "quantity": "3 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1044,
@@ -102,8 +104,9 @@
     },
     {
       "ingredient_id": 3642,
-      "name": "egg whites, at room temperature",
-      "quantity": "4 large"
+      "name": "egg whites",
+      "quantity": "4 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 88,
@@ -137,13 +140,15 @@
     },
     {
       "ingredient_id": 3642,
-      "name": "egg whites, at room temperature",
-      "quantity": "3 large"
+      "name": "egg whites",
+      "quantity": "3 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 8 pieces at room temperature",
-      "quantity": "1 stick"
+      "name": "unsalted butter",
+      "quantity": "1 stick",
+      "prep": "cut into 8 pieces at room temperature"
     },
     {
       "ingredient_id": 353,
@@ -172,6 +177,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the egg whites to room temperature. Bring the egg yolks to room temperature. Bring the egg whites to room temperature. Bring the egg whites to room temperature. Cut the unsalted butter into 8 pieces at room temperature.",
+      "secondary_message": "5 large egg whites\n3 large egg yolks\n4 large egg whites\n3 large egg whites\n1 stick unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Cocoa Meringue Decorations: Adjust oven rack to upper third and lower third positions and preheat oven to 105°C (225°F). Line 2 baking sheets with parchment paper.",

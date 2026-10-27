@@ -37,8 +37,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely sliced",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 186,
@@ -57,8 +58,9 @@
     },
     {
       "ingredient_id": 15,
-      "name": "capers, drained and roughly chopped",
-      "quantity": "¼ cup"
+      "name": "capers",
+      "quantity": "¼ cup",
+      "prep": "drained and roughly chopped"
     },
     {
       "ingredient_id": 1600,
@@ -87,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely slice the onion. Drain and roughly chop the capers.",
+      "secondary_message": "1 large onion\n¼ cup capers"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in a large saucepan over medium-high heat until shimmering. Add onion and cook, stirring frequently, until softened, about 4 minutes. Add cumin and chili powder and cook, stirring constantly, until fragrant, about 1 minute. Add tomatoes, capers, olives, and cilantro. Season to taste with salt and pepper. Remove from heat and set aside.",

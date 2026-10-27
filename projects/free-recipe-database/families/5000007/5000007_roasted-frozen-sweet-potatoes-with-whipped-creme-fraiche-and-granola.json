@@ -45,9 +45,10 @@
   "ingredients": [
     {
       "ingredient_id": 143,
-      "name": "sweet potatoes, scrubbed",
+      "name": "sweet potatoes",
       "quantity": "1 ¼ lb",
-      "weigh_as": "4 medium"
+      "weigh_as": "4 medium",
+      "prep": "scrubbed"
     },
     {
       "ingredient_id": 1752,
@@ -86,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Scrub the sweet potatoes.",
+      "secondary_message": "1 ¼ lb sweet potatoes"
+    },
     {
       "id": 1,
       "primary_message": "Place sweet potatoes in freezer until frozen solid, at least 6 hours and up to 3 months.",

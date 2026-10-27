@@ -48,14 +48,16 @@
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, peeled and sliced",
+      "name": "fresh ginger",
       "quantity": "⅔ (1 inch) piece",
-      "weigh_as": "0.2 oz"
+      "weigh_as": "0.2 oz",
+      "prep": "peeled and sliced"
     },
     {
       "ingredient_id": 151,
-      "name": "green jalapeño, stemmed",
-      "quantity": "½ small"
+      "name": "green jalapeño",
+      "quantity": "½ small",
+      "prep": "stemmed"
     },
     {
       "ingredient_id": 359,
@@ -79,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and slice the fresh ginger. Stem the green jalapeño.",
+      "secondary_message": "⅔ (1 inch) piece fresh ginger\n½ small green jalapeño"
+    },
     {
       "id": 1,
       "primary_message": "Combine mangoes, ginger, jalapeño and water in a blender or canister of a hand-held blender. Blend until smooth, about 1 minute.",

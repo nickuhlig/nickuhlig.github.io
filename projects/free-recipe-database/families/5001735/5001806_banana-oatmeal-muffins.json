@@ -93,13 +93,15 @@
     },
     {
       "ingredient_id": 317,
-      "name": "very ripe bananas, peeled, divided",
-      "quantity": "6"
+      "name": "very ripe bananas, divided",
+      "quantity": "6",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 1003,
-      "name": "sour cream, at room temperature",
-      "quantity": "85 g"
+      "name": "sour cream",
+      "quantity": "85 g",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 115,
@@ -113,8 +115,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 353,
@@ -138,8 +141,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 88,
@@ -148,6 +152,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the very ripe bananas. Bring the sour cream to room temperature. Bring the eggs to room temperature. Melt the unsalted butter.",
+      "secondary_message": "6 very ripe bananas, divided\n85 g sour cream\n2 large eggs\n2 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and heat oven to 400℉ (175℃). Line a 12-cup muffin tin with paper liners.",

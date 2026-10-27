@@ -81,8 +81,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, halved and thinly sliced",
-      "quantity": "1 large"
+      "name": "yellow onion",
+      "quantity": "1 large",
+      "prep": "halved and thinly sliced"
     },
     {
       "ingredient_id": 1682,
@@ -91,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve and thinly slice the yellow onion.",
+      "secondary_message": "1 large yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "If using pre-sliced cube steak, proceed to step 2. If using top or bottom round, slice roast against the grain into six 1/2-inch-thick slices.",

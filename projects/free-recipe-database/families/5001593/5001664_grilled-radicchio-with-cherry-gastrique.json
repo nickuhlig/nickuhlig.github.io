@@ -50,8 +50,9 @@
   "ingredients": [
     {
       "ingredient_id": 2216,
-      "name": "sweet red cherries, halved and pitted",
-      "quantity": "0.45 kg"
+      "name": "sweet red cherries",
+      "quantity": "0.45 kg",
+      "prep": "halved and pitted"
     },
     {
       "ingredient_id": 346,
@@ -75,8 +76,9 @@
     },
     {
       "ingredient_id": 2520,
-      "name": "radicchio, quartered, cores left intact",
-      "quantity": "0.68 kg"
+      "name": "radicchio",
+      "quantity": "0.68 kg",
+      "prep": "quartered, cores left intact"
     },
     {
       "ingredient_id": 47,
@@ -85,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve and pit the sweet red cherries. Quarter the radicchio, then leave the cores intact.",
+      "secondary_message": "0.45 kg sweet red cherries\n0.68 kg radicchio"
+    },
     {
       "id": 1,
       "primary_message": "Light 1 chimney full of charcoal. When all charcoal is lit and covered with gray ash, pour out and spread coals evenly over half of coal grate. Alternatively, set half the burners of a gas grill to high heat. Set cooking grate in place, cover grill, and allow to preheat for 5 minutes. Clean and oil grilling grate.",

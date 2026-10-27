@@ -70,8 +70,9 @@
     },
     {
       "ingredient_id": 113,
-      "name": "Granny Smith apples, peeled, cored, and roughly chopped",
-      "quantity": "2 small"
+      "name": "Granny Smith apples",
+      "quantity": "2 small",
+      "prep": "peeled, cored, and roughly chopped"
     },
     {
       "ingredient_id": 2150,
@@ -80,8 +81,9 @@
     },
     {
       "ingredient_id": 118,
-      "name": "whole milk, at room temperature, plus more as needed",
-      "quantity": "½ cup"
+      "name": "whole milk, plus more as needed",
+      "quantity": "½ cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 116,
@@ -125,8 +127,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1044,
@@ -160,6 +163,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel, core, and roughly chop the Granny Smith apples. Bring the whole milk to room temperature. Bring the eggs to room temperature.",
+      "secondary_message": "2 small Granny Smith apples\n½ cup whole milk, plus more as needed\n3 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Adjust oven rack to middle position and preheat oven to 180°C (350°F). Grease a large (10- to 12-cup capacity) Bundt pan with 1 tablespoon butter.",

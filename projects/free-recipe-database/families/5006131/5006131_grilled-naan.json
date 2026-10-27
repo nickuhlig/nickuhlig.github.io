@@ -59,11 +59,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "4 oz"
+      "name": "unsalted butter",
+      "quantity": "4 oz",
+      "prep": "melted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter.",
+      "secondary_message": "4 oz unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Combine flour, yeast, salt, and sugar in the bowl of a stand mixer and whisk until combined. Add yogurt and knead with dough hook on low speed until dough comes together into a smooth ball. Dough should stick slightly to bottom of bowl as it kneads (add slightly more yogurt or milk as necessary). Continue to knead for 5 minutes. Cover tightly with plastic wrap and allow to rise at room temperature until roughly doubled in volume, about 2 hours.",

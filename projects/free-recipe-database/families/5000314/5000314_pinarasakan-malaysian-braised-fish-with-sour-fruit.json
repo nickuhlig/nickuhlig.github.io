@@ -42,18 +42,21 @@
   "ingredients": [
     {
       "ingredient_id": 3547,
-      "name": "fresh turmeric, peeled and julienned",
-      "quantity": "1 (4 inch) knob"
+      "name": "fresh turmeric",
+      "quantity": "1 (4 inch) knob",
+      "prep": "peeled and julienned"
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, peeled and julienned",
-      "quantity": "1 (2 inch) knob"
+      "name": "fresh ginger",
+      "quantity": "1 (2 inch) knob",
+      "prep": "peeled and julienned"
     },
     {
       "ingredient_id": 1810,
-      "name": "red bird's eye chiles, stemmed and finely chopped",
-      "quantity": "2"
+      "name": "red bird's eye chiles",
+      "quantity": "2",
+      "prep": "stemmed and finely chopped"
     },
     {
       "ingredient_id": 88,
@@ -77,6 +80,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and julienne the fresh turmeric. Peel and julienne the fresh ginger. Stem and finely chop the red bird's eye chiles.",
+      "secondary_message": "1 (4 inch) knob fresh turmeric\n1 (2 inch) knob fresh ginger\n2 red bird's eye chiles"
+    },
     {
       "id": 1,
       "primary_message": "In a 12-inch nonstick pan or claypot set over medium heat, add turmeric, ginger, chopped bird's eye chiles, and salt. (Pan should be large enough to accommodate the fish without overcrowding.) Add the tamarind and water, then stir until the salt dissolves, about 1 minute.",

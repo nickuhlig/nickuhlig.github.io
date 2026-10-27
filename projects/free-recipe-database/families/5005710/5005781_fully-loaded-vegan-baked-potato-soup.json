@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 158,
-      "name": "cauliflower, split in half",
-      "quantity": "1 head"
+      "name": "cauliflower",
+      "quantity": "1 head",
+      "prep": "split in half"
     },
     {
       "ingredient_id": 1039,
@@ -61,13 +62,15 @@
     },
     {
       "ingredient_id": 309,
-      "name": "leek, chopped",
-      "quantity": "1 large"
+      "name": "leek",
+      "quantity": "1 large",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, finely chopped",
-      "quantity": "2 stalks"
+      "name": "celery",
+      "quantity": "2 stalks",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 153,
@@ -76,8 +79,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -121,6 +125,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the cauliflower in half. Chop the leek. Finely chop the celery. Thinly slice the garlic.",
+      "secondary_message": "1 head cauliflower\n1 large leek\n2 stalks celery\n4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center position and preheat oven to 200°C (400°F). Toss cauliflower and potatoes in vegetable or canola oil and transfer to a parchment or foil-lined rimmed baking sheet. Use a wooden skewer to poke 6 holes in each potato. Roast cauliflower and potatoes until potatoes show no resistance when a wooden skewer is pressed through them, about 1 hour.",

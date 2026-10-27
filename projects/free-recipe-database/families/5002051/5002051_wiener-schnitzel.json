@@ -71,8 +71,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "5 large"
+      "name": "eggs",
+      "quantity": "5 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 2981,
@@ -81,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Beat the eggs.",
+      "secondary_message": "5 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "If preparing the cutlets yourself: Using a long, sharp knife, and slicing across the grain, cut veal into a 1/4-inch slab, slicing all the way through if making 4 smaller cutlets or leaving it attached at the base if cutting 2 larger ones; if cutting larger ones, then slice a second 1/4-inch-thick slab to form a butterflied cutlet. Repeat to form remaining cutlets.",

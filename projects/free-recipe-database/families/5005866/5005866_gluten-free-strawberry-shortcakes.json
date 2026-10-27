@@ -67,8 +67,9 @@
     },
     {
       "ingredient_id": 3641,
-      "name": "hard-boiled egg yolks pushed through a fine mesh strainer, whites reserved for another use",
-      "quantity": "2 large"
+      "name": "hard-boiled egg yolks pushed through a fine mesh strainer",
+      "quantity": "2 large",
+      "prep": "whites reserved for another use"
     },
     {
       "ingredient_id": 1752,
@@ -77,8 +78,9 @@
     },
     {
       "ingredient_id": 242,
-      "name": "strawberries, hulled and sliced",
-      "quantity": "1 quart"
+      "name": "strawberries",
+      "quantity": "1 quart",
+      "prep": "hulled and sliced"
     },
     {
       "ingredient_id": 346,
@@ -97,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Reserve the whites of the hard-boiled egg yolks pushed through a fine mesh strainer for another use. Hull and slice the strawberries.",
+      "secondary_message": "2 large hard-boiled egg yolks pushed through a fine mesh strainer\n1 quart strawberries"
+    },
     {
       "id": 1,
       "primary_message": "For the Shortcakes: In large bowl, whisk together white rice flour, potato starch, 1/4 cup of the sugar, baking powder, and xanthan gum. Add cubed butter and, using either your hands or a pastry cutter, cut into flour mixture until pea-sized pieces form. Add egg yolks and continue cutting until flour mixture resembles coarse crumbs. Stir in heavy cream with a wooden spoon until incorporated. Let dough stand for 5 minutes.",

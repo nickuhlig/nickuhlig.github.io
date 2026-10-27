@@ -33,8 +33,9 @@
   "ingredients": [
     {
       "ingredient_id": 3288,
-      "name": "whole eel, gutted and cleaned",
-      "quantity": "1"
+      "name": "whole eel",
+      "quantity": "1",
+      "prep": "gutted and cleaned"
     },
     {
       "ingredient_id": 88,
@@ -48,6 +49,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Gut and clean the whole eel.",
+      "secondary_message": "1 whole eel"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 375 F. Once eel has been cleaned of residual blood, pat the eel dry on the inside and out. Rub salt all over the eel. Place the eel into a pan or cast iron skillet and generously drizzle with oil.",

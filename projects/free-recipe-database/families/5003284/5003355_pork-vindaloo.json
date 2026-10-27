@@ -87,8 +87,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "inch-piece ginger, peeled and roughly chopped",
-      "quantity": "1"
+      "name": "inch-piece ginger",
+      "quantity": "1",
+      "prep": "peeled and roughly chopped"
     },
     {
       "ingredient_id": 2102,
@@ -97,8 +98,9 @@
     },
     {
       "ingredient_id": 2712,
-      "name": "pork shoulder, cut into 1-inch cubes",
-      "quantity": "0.23 kg"
+      "name": "pork shoulder",
+      "quantity": "0.23 kg",
+      "prep": "cut into 1-inch cubes"
     },
     {
       "ingredient_id": 88,
@@ -107,8 +109,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, roughly chopped",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1044,
@@ -122,6 +125,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and roughly chop the inch-piece ginger. Cut the pork shoulder into 1-inch cubes. Roughly chop the onion.",
+      "secondary_message": "1 inch-piece ginger\n0.23 kg pork shoulder\n1 medium onion"
+    },
     {
       "id": 1,
       "primary_message": "Combine chiles, cumin, turmeric, 1 piece of cinnamon, 5 peppercorns, 4 cloves, and sugar in a spice grinder. Grind until a fine powder is formed. Transfer spice mixture to food processor or mortar and pestle and add garlic, ginger, and vinegar. Process or pound until a fine paste is formed. Scrape out paste into a small bowl and set aside without washing food processor.",

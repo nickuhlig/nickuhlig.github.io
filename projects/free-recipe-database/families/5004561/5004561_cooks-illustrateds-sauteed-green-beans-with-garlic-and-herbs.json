@@ -33,13 +33,15 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "1 tbsp"
+      "name": "unsalted butter",
+      "quantity": "1 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced or pressed through garlic press",
-      "quantity": "3 medium"
+      "name": "garlic cloves",
+      "quantity": "3 medium",
+      "prep": "minced or pressed through garlic press"
     },
     {
       "ingredient_id": 1677,
@@ -83,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter. Mince or press the garlic cloves through garlic press.",
+      "secondary_message": "1 tbsp unsalted butter\n3 medium garlic cloves"
+    },
     {
       "id": 1,
       "primary_message": "Combine butter, garlic, and thyme in small bowl; set aside. Heat oil in 12-inch nonstick skillet over medium heat until just smoking. Add beans, 1/4 teaspoon salt, and 1/8 teaspoon pepper; cook, stirring occasionally, until spotty brown, 4 to 6 minutes.",

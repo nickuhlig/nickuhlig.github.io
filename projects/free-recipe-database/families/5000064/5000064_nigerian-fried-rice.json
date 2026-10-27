@@ -46,13 +46,15 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, cut into 1/4-inch dice",
-      "quantity": "1 medium"
+      "name": "carrot",
+      "quantity": "1 medium",
+      "prep": "cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, cut into 1/4-inch dice",
-      "quantity": "1 small"
+      "name": "red onion",
+      "quantity": "1 small",
+      "prep": "cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 111,
@@ -111,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the carrot into 1/4-inch dice. Cut the red onion into 1/4-inch dice.",
+      "secondary_message": "1 medium carrot\n1 small red onion"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, cover rice by 2 inches of cool water. Using your hands, vigorously swish rice until water turns cloudy, about 30 seconds. Using a fine-mesh strainer, drain the rice, discarding the cloudy soaking water. Refill the bowl with cool water, and repeat rinsing and draining process until rinsing water runs clear. Transfer drained rice to a small bowl.",

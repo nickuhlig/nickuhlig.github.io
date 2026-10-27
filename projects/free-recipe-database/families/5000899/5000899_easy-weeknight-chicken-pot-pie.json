@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 44,
-      "name": "boneless skinless chicken breasts, cut into 1-inch pieces",
-      "quantity": "1 lb"
+      "name": "boneless skinless chicken breasts",
+      "quantity": "1 lb",
+      "prep": "cut into 1-inch pieces"
     },
     {
       "ingredient_id": 115,
@@ -71,8 +72,9 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and chopped",
-      "quantity": "3 small"
+      "name": "carrots",
+      "quantity": "3 small",
+      "prep": "peeled and chopped"
     },
     {
       "ingredient_id": 1720,
@@ -81,8 +83,9 @@
     },
     {
       "ingredient_id": 309,
-      "name": "leek, washed and rinsed of any grit, sliced",
-      "quantity": "1 medium"
+      "name": "leek",
+      "quantity": "1 medium",
+      "prep": "washed and rinsed of any grit, sliced"
     },
     {
       "ingredient_id": 24,
@@ -126,8 +129,9 @@
     },
     {
       "ingredient_id": 2346,
-      "name": "lemon zest, finely grated from 1 lemon",
-      "quantity": "2 tsp"
+      "name": "lemon zest",
+      "quantity": "2 tsp",
+      "prep": "finely grated from 1 lemon"
     },
     {
       "ingredient_id": 1021,
@@ -141,6 +145,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the boneless skinless chicken breasts into 1-inch pieces. Peel and chop the carrots. Wash and rinse the leek of any grit, then slice it. Finely grate the lemon zest from 1 lemon.",
+      "secondary_message": "1 lb boneless skinless chicken breasts\n3 small carrots\n1 medium leek\n2 tsp lemon zest"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 400°F (205ºC). Heat oil in a 10-inch cast iron skillet over medium heat until just shimmering. Add chicken; cook, stirring occasionally, until cooked through, about 6 minutes. Using a slotted spoon, remove chicken from skillet, and transfer to a plate.",

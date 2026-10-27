@@ -36,23 +36,27 @@
   "ingredients": [
     {
       "ingredient_id": 222,
-      "name": "ruby grapefruits, cut into segments, juice reserved",
-      "quantity": "2 large"
+      "name": "ruby grapefruits",
+      "quantity": "2 large",
+      "prep": "cut into segments, juice reserved"
     },
     {
       "ingredient_id": 183,
-      "name": "ripe Hass avocados, cut in half and sliced 1/4 inch thick",
-      "quantity": "2"
+      "name": "ripe Hass avocados",
+      "quantity": "2",
+      "prep": "cut in half and sliced 1/4 inch thick"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, diced fine, divided",
-      "quantity": "4 to 6 tbsp"
+      "name": "red onion, divided",
+      "quantity": "4 to 6 tbsp",
+      "prep": "diced fine"
     },
     {
       "ingredient_id": 3061,
-      "name": "aji panca, ground",
-      "quantity": "4 tsp"
+      "name": "aji panca",
+      "quantity": "4 tsp",
+      "prep": "ground"
     },
     {
       "ingredient_id": 47,
@@ -66,6 +70,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the ruby grapefruits into segments, then reserve the juice. Cut the ripe Hass avocados in half, then slice them 1/4 inch thick. Dice the red onion fine. Grind the aji panca.",
+      "secondary_message": "2 large ruby grapefruits\n2 ripe Hass avocados\n4 to 6 tbsp red onion, divided\n4 tsp aji panca"
+    },
     {
       "id": 1,
       "primary_message": "Arrange grapefruit and avocado on four plates. Top with sprinkles of red onion and aji panca. On each plate, drizzle 2 teaspoons reserved grapefruit juice over avocado slices, covering well to prevent browning. Then drizzle 1 tablespoon olive oil over each plate. Add salt, mostly on avocado, to taste, starting with 1/4 teaspoon per plate. Serve immediately.",

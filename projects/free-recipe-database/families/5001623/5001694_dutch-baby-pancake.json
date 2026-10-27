@@ -35,13 +35,15 @@
   "ingredients": [
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 118,
-      "name": "whole milk, at room temperature",
-      "quantity": "¾ cup"
+      "name": "whole milk",
+      "quantity": "¾ cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 116,
@@ -95,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the eggs to room temperature. Bring the whole milk to room temperature.",
+      "secondary_message": "4 large eggs\n¾ cup whole milk"
+    },
     {
       "id": 1,
       "primary_message": "For the Batter: In a blender, blend eggs, milk, flour, sugar, and salt until smooth, about 20 seconds. Cover and refrigerate for at least 30 minutes or up to 8 hours.",

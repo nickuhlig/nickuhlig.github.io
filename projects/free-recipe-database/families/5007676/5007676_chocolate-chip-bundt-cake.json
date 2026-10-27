@@ -37,8 +37,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened , plus extra for greasing pan",
-      "quantity": "16 tbsp (8 oz)"
+      "name": "unsalted butter, plus extra for greasing pan",
+      "quantity": "16 tbsp (8 oz)",
+      "prep": "softened"
     },
     {
       "ingredient_id": 293,
@@ -87,6 +88,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter.",
+      "secondary_message": "16 tbsp (8 oz) unsalted butter, plus extra for greasing pan"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350°F. Grease and flour a 10 to 12-cup bundt pan.",

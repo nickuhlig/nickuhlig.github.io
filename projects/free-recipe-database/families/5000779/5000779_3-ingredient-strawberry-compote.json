@@ -39,8 +39,9 @@
   "ingredients": [
     {
       "ingredient_id": 2219,
-      "name": "fresh hulled strawberries, quartered",
-      "quantity": "1 ½ lb"
+      "name": "fresh hulled strawberries",
+      "quantity": "1 ½ lb",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 346,
@@ -54,6 +55,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Quarter the fresh hulled strawberries.",
+      "secondary_message": "1 ½ lb fresh hulled strawberries"
+    },
     {
       "id": 1,
       "primary_message": "In a medium saucepan, combine strawberries, sugar, and lemon juice. Bring to a simmer over medium heat and cook, stirring occasionally, until strawberries are soft and beginning to become saucy, about 20 minutes. (For a thicker compote, simmer until thick and jammy, about 10 more minutes.) Remove from heat and allow compote to cool to room temperature before refrigerating in an airtight container.",

@@ -70,8 +70,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onions, cut into 1/4-inch dice",
-      "quantity": "5 medium"
+      "name": "yellow onions",
+      "quantity": "5 medium",
+      "prep": "cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 88,
@@ -110,11 +111,18 @@
     },
     {
       "ingredient_id": 216,
-      "name": "pine nuts, toasted",
-      "quantity": "½ cup (2 ½ oz)"
+      "name": "pine nuts",
+      "quantity": "½ cup (2 ½ oz)",
+      "prep": "toasted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the yellow onions into 1/4-inch dice. Toast the pine nuts.",
+      "secondary_message": "5 medium yellow onions\n½ cup (2 ½ oz) pine nuts"
+    },
     {
       "id": 1,
       "primary_message": "For the chicken: Adjust oven rack to middle position and preheat oven to 450°F. Line a rimmed baking sheet with parchment. In a small bowl, stir together the olive oil, sumac, allspice, black pepper, and cumin. Arrange chicken, skin side up, on prepared baking sheet and season all over with salt. Rub all over with spiced oil, pushing some under the skin. Roast chicken until an instant-read thermometer inserted into the thickest part registers 150°F for the breast, about 25 minutes, or 175°F for the legs, about 30 minutes. Let chicken rest 15 minutes, reserving any accumulated juices for the onions.",

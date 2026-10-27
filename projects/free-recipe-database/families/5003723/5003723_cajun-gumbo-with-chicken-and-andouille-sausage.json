@@ -54,8 +54,9 @@
     },
     {
       "ingredient_id": 2489,
-      "name": "Cajun-style andouille sausage, sliced crosswise 1/2 inch thick",
-      "quantity": "1 ½ lb"
+      "name": "Cajun-style andouille sausage",
+      "quantity": "1 ½ lb",
+      "prep": "sliced crosswise 1/2 inch thick"
     },
     {
       "ingredient_id": 116,
@@ -64,23 +65,27 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onions, cut into 1/4-inch dice",
-      "quantity": "2 large"
+      "name": "yellow onions",
+      "quantity": "2 large",
+      "prep": "cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 291,
-      "name": "green bell peppers, cut into 1/4-inch dice",
-      "quantity": "2"
+      "name": "green bell peppers",
+      "quantity": "2",
+      "prep": "cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 1720,
-      "name": "celery ribs, cut into 1/4-inch dice",
-      "quantity": "4 large"
+      "name": "celery ribs",
+      "quantity": "4 large",
+      "prep": "cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "8 medium cloves"
+      "name": "garlic",
+      "quantity": "8 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 71,
@@ -109,6 +114,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the Cajun-style andouille sausage crosswise 1/2 inch thick. Cut the yellow onions into 1/4-inch dice. Cut the green bell peppers into 1/4-inch dice. Cut the celery ribs into 1/4-inch dice. Mince the garlic.",
+      "secondary_message": "1 ½ lb Cajun-style andouille sausage\n2 large yellow onions\n2 green bell peppers\n4 large celery ribs\n8 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "In a large Dutch oven, heat 1 tablespoon oil over medium-high heat until shimmering. Season chicken all over with salt. Working in batches, sear chicken until browned on both sides, about 5 minutes per side. Transfer chicken to a platter, then set aside until cool enough to handle. Once chicken has cooled, shred into bite-size pieces.",

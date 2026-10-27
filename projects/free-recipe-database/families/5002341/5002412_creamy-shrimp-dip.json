@@ -73,8 +73,9 @@
     },
     {
       "ingredient_id": 1720,
-      "name": "celery rib, diced",
-      "quantity": "1 medium"
+      "name": "celery rib",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1003,
@@ -118,6 +119,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the celery rib.",
+      "secondary_message": "1 medium celery rib"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, combine shrimp, 1/2 teaspoon salt, and baking soda and toss to coat. Refrigerate for at least 30 minutes and up to 1 hour. In a small bowl, combine shallot, lemon zest, and lemon juice and refrigerate until ready to use.",

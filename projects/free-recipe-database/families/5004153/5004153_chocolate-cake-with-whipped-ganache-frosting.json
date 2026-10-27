@@ -62,13 +62,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, softened",
-      "quantity": "12 oz"
+      "name": "butter",
+      "quantity": "12 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, room temperature",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 118,
@@ -87,8 +89,9 @@
     },
     {
       "ingredient_id": 2050,
-      "name": "cake flour, sifted",
-      "quantity": "12 oz"
+      "name": "cake flour",
+      "quantity": "12 oz",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 348,
@@ -102,8 +105,9 @@
     },
     {
       "ingredient_id": 2285,
-      "name": "semisweet chocolate, chopped into small pieces",
-      "quantity": "1 ½ lb"
+      "name": "semisweet chocolate",
+      "quantity": "1 ½ lb",
+      "prep": "chopped into small pieces"
     },
     {
       "ingredient_id": 1752,
@@ -117,6 +121,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the butter. Bring the eggs to room temperature. Sift the cake flour. Chop the semisweet chocolate into small pieces.",
+      "secondary_message": "12 oz butter\n3 large eggs\n12 oz cake flour\n1 ½ lb semisweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Preheat the oven to 350°F. If using cake pans, smear a small amount of butter in the bottom of each and line the bottoms with circles of parchment. If baking on a single jelly roll pan, cut a stencil in the size and shape of your desired cake, then trace it onto parchment that has been trimmed to sit flat in the pan. Smear an X of butter across the center and line the bottom with parchment.",

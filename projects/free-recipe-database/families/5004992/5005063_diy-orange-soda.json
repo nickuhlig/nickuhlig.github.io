@@ -43,8 +43,9 @@
   "ingredients": [
     {
       "ingredient_id": 232,
-      "name": "oranges, zested",
-      "quantity": "2"
+      "name": "oranges",
+      "quantity": "2",
+      "prep": "zested"
     },
     {
       "ingredient_id": 1468,
@@ -73,6 +74,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the oranges.",
+      "secondary_message": "2 oranges"
+    },
     {
       "id": 1,
       "primary_message": "Zest the oranges, making sure not to get any of the white pith. Juice one of the oranges to make 1/2 cup juice, then strain out the pulp.",

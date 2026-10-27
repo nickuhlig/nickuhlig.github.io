@@ -72,8 +72,9 @@
     },
     {
       "ingredient_id": 118,
-      "name": "whole milk, warm",
-      "quantity": "1 ½ cups"
+      "name": "whole milk",
+      "quantity": "1 ½ cups",
+      "prep": "warm"
     },
     {
       "ingredient_id": 47,
@@ -92,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Warm the whole milk.",
+      "secondary_message": "1 ½ cups whole milk"
+    },
     {
       "id": 1,
       "primary_message": "For the Dough: In the bowl of a stand mixer fitted with a dough hook, combine bread flour, sugar, salt, yeast, baking powder, and milk and mix at medium speed until a smooth and elastic dough forms. Alternatively, mix the dough ingredients in a large bowl, kneading by hand until a smooth and elastic dough forms.",

@@ -45,13 +45,15 @@
   "ingredients": [
     {
       "ingredient_id": 2818,
-      "name": "frozen phyllo dough, thawed",
-      "quantity": "4 sheets"
+      "name": "frozen phyllo dough",
+      "quantity": "4 sheets",
+      "prep": "thawed"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 122,
@@ -70,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thaw the frozen phyllo dough. Melt the unsalted butter.",
+      "secondary_message": "4 sheets frozen phyllo dough\n2 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Place oven rack in upper middle position and preheat oven to 350°F. Grease a 12-well muffin tin tray. Lay one sheet phyllo dough on a clean work surface. Brush all over with butter. Lay second sheet over phyllo on top and brush with butter. Cut into 12 squares. Place in prepared muffin tin. Butter a remaining sheet of phyllo and top it with final sheet. Brush all over with butter and cut into 12 squares. Place a square in each muffin tin, alternating corner points with first square. Bake until phyllo is golden, about 6 minutes.",

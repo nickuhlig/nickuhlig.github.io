@@ -41,18 +41,21 @@
     },
     {
       "ingredient_id": 309,
-      "name": "leek, de-stemmed and washed for dirt",
-      "quantity": "1 large"
+      "name": "leek",
+      "quantity": "1 large",
+      "prep": "de-stemmed and washed for dirt"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, peeled and washed for dirt",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "peeled and washed for dirt"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and washed",
-      "quantity": "2 large"
+      "name": "carrots",
+      "quantity": "2 large",
+      "prep": "peeled and washed"
     },
     {
       "ingredient_id": 88,
@@ -76,8 +79,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, split horizontally in half",
-      "quantity": "1 head"
+      "name": "garlic",
+      "quantity": "1 head",
+      "prep": "split horizontally in half"
     },
     {
       "ingredient_id": 115,
@@ -131,13 +135,15 @@
     },
     {
       "ingredient_id": 396,
-      "name": "egg white, chopped hard-cooked",
-      "quantity": "2 tsp"
+      "name": "egg white",
+      "quantity": "2 tsp",
+      "prep": "chopped hard-cooked"
     },
     {
       "ingredient_id": 396,
-      "name": "egg yolk, chopped hard-cooked",
-      "quantity": "2 tsp"
+      "name": "egg yolk",
+      "quantity": "2 tsp",
+      "prep": "chopped hard-cooked"
     },
     {
       "ingredient_id": 15,
@@ -181,6 +187,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "De-stem and wash the leek for dirt. Peel and wash the onion for dirt. Peel and wash the carrots. Split the garlic horizontally in half. Chop the egg white hard-cooked. Chop the egg yolk hard-cooked.",
+      "secondary_message": "1 large leek\n1 large onion\n2 large carrots\n1 head garlic\n2 tsp egg white\n2 tsp egg yolk"
+    },
     {
       "id": 1,
       "primary_message": "Place the hocks in a large stockpot and add water to cover. Place the pot over high heat and bring to a boil, skimming away the foam that rises to the surface. Reduce the heat and simmer for 5 minutes to remove all the impurities.",

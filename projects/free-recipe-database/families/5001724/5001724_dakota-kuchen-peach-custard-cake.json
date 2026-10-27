@@ -67,8 +67,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, melted and cooled",
-      "quantity": "2 ½ tbsp"
+      "name": "butter",
+      "quantity": "2 ½ tbsp",
+      "prep": "melted and cooled"
     },
     {
       "ingredient_id": 121,
@@ -138,6 +139,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the butter and let it cool.",
+      "secondary_message": "2 ½ tbsp butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Dough: Fit a stand mixer with paddle attachment. In stand mixer bowl, add flour, potato flakes, sugar, salt, and yeast, and mix on low speed until well combined, about 1 minute.",

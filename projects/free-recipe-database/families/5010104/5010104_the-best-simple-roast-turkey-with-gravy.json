@@ -79,18 +79,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, roughly chopped",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, peeled and roughly chopped",
-      "quantity": "1 large"
+      "name": "carrot",
+      "quantity": "1 large",
+      "prep": "peeled and roughly chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, roughly chopped",
-      "quantity": "2 ribs"
+      "name": "celery",
+      "quantity": "2 ribs",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1505,
@@ -119,6 +122,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the onion. Peel and roughly chop the carrot. Roughly chop the celery.",
+      "secondary_message": "1 large onion\n1 large carrot\n2 ribs celery"
+    },
     {
       "id": 1,
       "primary_message": "Set oven rack to lowest position and place a baking stone or baking steel on it. Preheat oven to 500°F. Allow to preheat for at least 45 minutes before adding turkey. Meanwhile, rinse turkey and carefully pat dry with paper towels. Season generously with salt and pepper. (If turkey has been dry-brined, omit rinsing and salting steps; see notes.) Set turkey breast side up in a V-rack over a foil-lined rimmed baking sheet.",

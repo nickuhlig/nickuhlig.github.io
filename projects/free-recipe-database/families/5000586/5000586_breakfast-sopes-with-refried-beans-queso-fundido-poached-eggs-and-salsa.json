@@ -69,13 +69,15 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, peeled, ends trimmed, and thinly sliced",
-      "quantity": "1 medium"
+      "name": "red onion",
+      "quantity": "1 medium",
+      "prep": "peeled, ends trimmed, and thinly sliced"
     },
     {
       "ingredient_id": 2067,
-      "name": "habaneros, stemmed and thinly sliced",
-      "quantity": "2 to 4"
+      "name": "habaneros",
+      "quantity": "2 to 4",
+      "prep": "stemmed and thinly sliced"
     },
     {
       "ingredient_id": 236,
@@ -99,23 +101,27 @@
     },
     {
       "ingredient_id": 302,
-      "name": "bacon, cut into thin pieces",
-      "quantity": "4 strips"
+      "name": "bacon",
+      "quantity": "4 strips",
+      "prep": "cut into thin pieces"
     },
     {
       "ingredient_id": 1762,
-      "name": "Thai chiles, stemmed and thinly sliced into rings",
-      "quantity": "2"
+      "name": "Thai chiles",
+      "quantity": "2",
+      "prep": "stemmed and thinly sliced into rings"
     },
     {
       "ingredient_id": 2036,
-      "name": "queso Oaxaca, grated",
-      "quantity": "4 oz"
+      "name": "queso Oaxaca",
+      "quantity": "4 oz",
+      "prep": "grated"
     },
     {
       "ingredient_id": 43,
-      "name": "extra-sharp white cheddar, grated",
-      "quantity": "4 oz"
+      "name": "extra-sharp white cheddar",
+      "quantity": "4 oz",
+      "prep": "grated"
     },
     {
       "ingredient_id": 2263,
@@ -134,6 +140,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the red onion, then trim the ends, then thinly slice it. Stem and thinly slice the habaneros. Cut the bacon into thin pieces. Stem and thinly slice the Thai chiles into rings. Grate the queso Oaxaca. Grate the extra-sharp white cheddar.",
+      "secondary_message": "1 medium red onion\n2 to 4 habaneros\n4 strips bacon\n2 Thai chiles\n4 oz queso Oaxaca\n4 oz extra-sharp white cheddar"
+    },
     {
       "id": 1,
       "primary_message": "For the Xnipec: Adjust oven rack to the upper-middle position and preheat the broiler. In a medium bowl, combine the orange juice, lime juice, grapefruit, red onion, and habanero. If the onion or habanero is sticking out of the liquid, push them down to submerge; set aside.",

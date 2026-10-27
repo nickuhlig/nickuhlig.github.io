@@ -40,13 +40,15 @@
   "ingredients": [
     {
       "ingredient_id": 1713,
-      "name": "onion, peeled",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 143,
-      "name": "sweet potatoes, peeled",
-      "quantity": "1 lb"
+      "name": "sweet potatoes",
+      "quantity": "1 lb",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 1704,
@@ -65,8 +67,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 1044,
@@ -75,6 +78,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the onion. Peel the sweet potatoes. Beat the eggs.",
+      "secondary_message": "1 medium onion\n1 lb sweet potatoes\n3 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat the oven to 200°F. Grate onion and sweet potatoes using a food processor fitted with a medium grate, or on the large holes of a box grater. Combine in a medium bowl.",

@@ -40,8 +40,9 @@
     },
     {
       "ingredient_id": 2250,
-      "name": "mixed mushrooms, caps quartered, stems roughly chopped",
-      "quantity": "13 oz"
+      "name": "mixed mushrooms",
+      "quantity": "13 oz",
+      "prep": "caps quartered, stems roughly chopped"
     },
     {
       "ingredient_id": 47,
@@ -50,8 +51,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, left whole and in their paper jackets",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "left whole and in their paper jackets"
     },
     {
       "ingredient_id": 1994,
@@ -90,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Quarter the caps of the mixed mushrooms, then roughly chop the stems. Leave the garlic whole and in their paper jackets.",
+      "secondary_message": "13 oz mixed mushrooms\n4 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the broiler. Put a wide ovensafe braising pot on the stove over medium-high heat.",

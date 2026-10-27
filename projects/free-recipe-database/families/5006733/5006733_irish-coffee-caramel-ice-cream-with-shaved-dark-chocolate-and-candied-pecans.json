@@ -49,8 +49,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, cut into small pats",
-      "quantity": "2 tbsp"
+      "name": "butter",
+      "quantity": "2 tbsp",
+      "prep": "cut into small pats"
     },
     {
       "ingredient_id": 1061,
@@ -84,11 +85,18 @@
     },
     {
       "ingredient_id": 1549,
-      "name": "candied pecans, chilled in freezer",
-      "quantity": "½ cup"
+      "name": "candied pecans",
+      "quantity": "½ cup",
+      "prep": "chilled in freezer"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the butter into small pats. Chill the candied pecans in freezer.",
+      "secondary_message": "2 tbsp butter\n½ cup candied pecans"
+    },
     {
       "id": 1,
       "primary_message": "Add sugar to a three quart saucepan with enough water to just moisten sugar, about 1/4 cup. Place on high heat and bring to a boil. Let caramel form and darken, rotating pot if hot spots form. When caramel has turned dark amber and starts to smoke, turn off heat and stir in butter with a wooden spoon. Caramel will bubble, so watch for steam.",

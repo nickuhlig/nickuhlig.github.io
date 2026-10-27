@@ -49,8 +49,9 @@
     },
     {
       "ingredient_id": 228,
-      "name": "fresh lime, cut into quarters",
-      "quantity": "½"
+      "name": "fresh lime",
+      "quantity": "½",
+      "prep": "cut into quarters"
     },
     {
       "ingredient_id": 1903,
@@ -59,6 +60,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the fresh lime into quarters.",
+      "secondary_message": "½ fresh lime"
+    },
     {
       "id": 1,
       "primary_message": "Place the lime pieces and sugar in the cocktail shaker and crush with a muddler. Add cachaça and a handful of ice; shake well and pour, unstrained, into a rocks or old fashioned glass. Serve.",

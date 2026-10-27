@@ -45,8 +45,9 @@
   "ingredients": [
     {
       "ingredient_id": 2286,
-      "name": "skirt steak, trimmed of excess fat",
-      "quantity": "0.91 kg"
+      "name": "skirt steak",
+      "quantity": "0.91 kg",
+      "prep": "trimmed of excess fat"
     },
     {
       "ingredient_id": 1421,
@@ -65,8 +66,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 186,
@@ -90,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the skirt steak of excess fat. Mince the garlic.",
+      "secondary_message": "0.91 kg skirt steak\n4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Place skirt steak a resealable bag and add lime and orange juice, olive oil, garlic, cumin, 1 teaspoon salt, and 1/2 teaspoon pepper. Seal and squish around to combine. Place in the refrigerator to marinate at least 1 hour and up to overnight.",

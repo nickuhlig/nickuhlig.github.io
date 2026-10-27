@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 14,
-      "name": "Brussels sprouts, trimmed and cut in half lengthwise",
-      "quantity": "1 lb"
+      "name": "Brussels sprouts",
+      "quantity": "1 lb",
+      "prep": "trimmed and cut in half lengthwise"
     },
     {
       "ingredient_id": 47,
@@ -141,6 +142,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim and cut the Brussels sprouts in half lengthwise.",
+      "secondary_message": "1 lb Brussels sprouts"
+    },
     {
       "id": 1,
       "primary_message": "For the Brussels Sprouts and Squash: Preheat the oven to 400°F. On a rimmed baking sheet, toss butternut squash and brussels sprouts with olive oil, black pepper, salt, cumin, and baking soda until evenly coated. Roast, rotating the tray halfway through and use a thin metal spatula to turn the vegetables 2 to 3 times during cooking, until the squash is tender and golden brown and the brussels sprouts are slightly crisp and beginning to char, about 30 minutes. Set aside.",

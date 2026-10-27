@@ -107,8 +107,9 @@
     },
     {
       "ingredient_id": 1618,
-      "name": "chipotle chilis, canned in adobo sauce, finely chopped",
-      "quantity": "1 tbsp"
+      "name": "chipotle chilis, canned in adobo sauce",
+      "quantity": "1 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2747,
@@ -192,6 +193,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the chipotle chilis.",
+      "secondary_message": "1 tbsp chipotle chilis, canned in adobo sauce"
+    },
     {
       "id": 1,
       "primary_message": "For the Sauce: Heat oil in a medium saucepan over medium heat until shimmering. Add onion and cook until softened, about 5 minutes. Add garlic and cook until fragrant, about 30 seconds.",

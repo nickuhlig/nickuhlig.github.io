@@ -160,26 +160,36 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, softened",
-      "quantity": "2 tbsp"
+      "name": "butter",
+      "quantity": "2 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1541,
-      "name": "Roma tomatoes, sliced into 1/4-inch rounds",
-      "quantity": "2"
+      "name": "Roma tomatoes",
+      "quantity": "2",
+      "prep": "sliced into 1/4-inch rounds"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, thinly sliced",
-      "quantity": "1"
+      "name": "red onion",
+      "quantity": "1",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2521,
-      "name": "red leaf lettuce, washed and dried",
-      "quantity": "4 leaves"
+      "name": "red leaf lettuce",
+      "quantity": "4 leaves",
+      "prep": "washed and dried"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the butter. Slice the Roma tomatoes into 1/4-inch rounds. Thinly slice the red onion. Wash and dry the red leaf lettuce.",
+      "secondary_message": "2 tbsp butter\n2 Roma tomatoes\n1 red onion\n4 leaves red leaf lettuce"
+    },
     {
       "id": 1,
       "primary_message": "Place one chicken breast in a resealable plastic bag or between two pieces of plastic wrap. Using a meat pounder, rolling pin, or small skillet, pound chicken breast into an even thickness about 2-cm in height. Repeat with remaining 3 breasts.",

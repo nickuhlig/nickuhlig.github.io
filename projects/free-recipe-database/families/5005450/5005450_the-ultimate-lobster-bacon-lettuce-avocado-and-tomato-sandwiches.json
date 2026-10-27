@@ -74,13 +74,15 @@
     },
     {
       "ingredient_id": 2534,
-      "name": "ciabatta, split in half horizontally",
-      "quantity": "2 small loaves"
+      "name": "ciabatta",
+      "quantity": "2 small loaves",
+      "prep": "split in half horizontally"
     },
     {
       "ingredient_id": 183,
-      "name": "avocado, thinly sliced",
-      "quantity": "1"
+      "name": "avocado",
+      "quantity": "1",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1773,
@@ -89,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the ciabatta in half horizontally. Thinly slice the avocado.",
+      "secondary_message": "2 small loaves ciabatta\n1 avocado"
+    },
     {
       "id": 1,
       "primary_message": "For the Tomatoes: Bring a large pot of water that can fit a steamer attachment to a boil. Cut a small X in the bottom of each tomato. Place tomatoes in water and cook for 30 seconds, then immediately transfer to a bowl of cold water. Set aside. Pour off all but 1 inch of water from Dutch oven and add steamer insert. Cover and keep hot.",

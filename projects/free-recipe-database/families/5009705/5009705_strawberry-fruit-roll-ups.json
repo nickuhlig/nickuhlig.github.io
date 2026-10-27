@@ -49,8 +49,9 @@
   "ingredients": [
     {
       "ingredient_id": 3678,
-      "name": "dried pears, roughly chopped",
-      "quantity": "12 oz"
+      "name": "dried pears",
+      "quantity": "12 oz",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1080,
@@ -89,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the dried pears.",
+      "secondary_message": "12 oz dried pears"
+    },
     {
       "id": 1,
       "primary_message": "For the Fruit Purée: Combine chopped dried fruit with 12 ounces of apple juice, sugar and corn syrup in a medium pot. Bring to a simmer and cook until fruit has become tender and the mixture has become extremely dry and thick.",

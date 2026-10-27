@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 1629,
-      "name": "chicken breast, cut into 3/4-inch dice",
-      "quantity": "¾ lb"
+      "name": "chicken breast",
+      "quantity": "¾ lb",
+      "prep": "cut into 3/4-inch dice"
     },
     {
       "ingredient_id": 1007,
@@ -101,18 +102,21 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic clove, finely minced",
-      "quantity": "1 medium"
+      "name": "garlic clove",
+      "quantity": "1 medium",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 230,
-      "name": "cremini mushrooms, stemmed and caps cut into 3/4-inch dice",
-      "quantity": "6 oz"
+      "name": "cremini mushrooms",
+      "quantity": "6 oz",
+      "prep": "stemmed and caps cut into 3/4-inch dice"
     },
     {
       "ingredient_id": 2234,
-      "name": "jicama, peeled and cut into 3/4-inch dice",
-      "quantity": "½ small"
+      "name": "jicama",
+      "quantity": "½ small",
+      "prep": "peeled and cut into 3/4-inch dice"
     },
     {
       "ingredient_id": 157,
@@ -121,8 +125,9 @@
     },
     {
       "ingredient_id": 2324,
-      "name": "zucchini, cut into 3/4-inch dice",
-      "quantity": "1 medium"
+      "name": "zucchini",
+      "quantity": "1 medium",
+      "prep": "cut into 3/4-inch dice"
     },
     {
       "ingredient_id": 150,
@@ -136,6 +141,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the chicken breast into 3/4-inch dice. Finely mince the garlic clove. Stem the cremini mushrooms, then cut the caps into 3/4-inch dice. Peel and cut the jicama into 3/4-inch dice. Cut the zucchini into 3/4-inch dice.",
+      "secondary_message": "¾ lb chicken breast\n1 medium garlic clove\n6 oz cremini mushrooms\n½ small jicama\n1 medium zucchini"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, combine cubed chicken with 2 teaspoons oil, soy sauce, Shaoxing wine, white pepper, sugar, salt, and cornstarch and mix thoroughly. Refrigerate for at least 30 minutes or overnight.",

@@ -41,9 +41,10 @@
   "ingredients": [
     {
       "ingredient_id": 3064,
-      "name": "Yukon Gold potatoes, peeled and cut into 1-inch chunks",
+      "name": "Yukon Gold potatoes",
       "quantity": "3 medium",
-      "weigh_as": "0.68 kg"
+      "weigh_as": "0.68 kg",
+      "prep": "peeled and cut into 1-inch chunks"
     },
     {
       "ingredient_id": 1994,
@@ -52,8 +53,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, 1 whole and 1 minced, divided",
-      "quantity": "2 medium cloves"
+      "name": "garlic, divided",
+      "quantity": "2 medium cloves",
+      "prep": "1 whole and 1 minced"
     },
     {
       "ingredient_id": 88,
@@ -62,13 +64,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into tablespoon-size pieces",
-      "quantity": "1 stick"
+      "name": "unsalted butter",
+      "quantity": "1 stick",
+      "prep": "cut into tablespoon-size pieces"
     },
     {
       "ingredient_id": 1752,
-      "name": "heavy cream, warmed, plus more if needed",
-      "quantity": "1 cup"
+      "name": "heavy cream, plus more if needed",
+      "quantity": "1 cup",
+      "prep": "warmed"
     },
     {
       "ingredient_id": 3486,
@@ -77,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the Yukon Gold potatoes into 1-inch chunks. Mince the 1 whole and 1 of the garlic. Cut the unsalted butter into tablespoon-size pieces. Warm the heavy cream.",
+      "secondary_message": "3 medium Yukon Gold potatoes\n2 medium cloves garlic, divided\n1 stick unsalted butter\n1 cup heavy cream, plus more if needed"
+    },
     {
       "id": 1,
       "primary_message": "In a large saucepan, cover potatoes, thyme, and 1 whole clove garlic with cold water by at least 5 cm. Stir in salt until dissolved. Bring water to a boil over high heat, then reduce heat to medium-low and simmer until a knife easily pierces potatoes with no resistance, about 20 minutes. Drain potatoes in a colander, shaking the colander well to get rid of excess water. Discard thyme.",

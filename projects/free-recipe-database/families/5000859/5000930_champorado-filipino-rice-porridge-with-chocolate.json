@@ -64,8 +64,9 @@
     },
     {
       "ingredient_id": 1850,
-      "name": "fresh green chile, stemmed and finely chopped",
-      "quantity": "1"
+      "name": "fresh green chile",
+      "quantity": "1",
+      "prep": "stemmed and finely chopped"
     },
     {
       "ingredient_id": 346,
@@ -74,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem and finely chop the fresh green chile.",
+      "secondary_message": "1 fresh green chile"
+    },
     {
       "id": 1,
       "primary_message": "For the Champorado: Place rice in a medium bowl and cover by at least 5 cm of room temperature water. Cover bowl and let soak at room temperature for at least 3 hours and up to overnight. Drain rice.",

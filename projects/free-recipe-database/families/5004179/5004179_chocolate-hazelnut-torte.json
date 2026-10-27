@@ -44,8 +44,9 @@
   "ingredients": [
     {
       "ingredient_id": 1729,
-      "name": "dark chocolate, chopped",
-      "quantity": "6 oz"
+      "name": "dark chocolate",
+      "quantity": "6 oz",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1716,
@@ -54,8 +55,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, at room temperature",
-      "quantity": "½ cup"
+      "name": "butter",
+      "quantity": "½ cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -64,8 +66,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1609,
@@ -89,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the dark chocolate. Bring the butter to room temperature. Bring the eggs to room temperature.",
+      "secondary_message": "6 oz dark chocolate\n½ cup butter\n4 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Set oven rack to the middle of your oven, and preheat to 400°F. Grease an 8-inch round cheesecake pan with butter and set aside. (An 8-inch springform pan will work just fine as well.)",

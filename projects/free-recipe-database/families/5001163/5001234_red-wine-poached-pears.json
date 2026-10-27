@@ -80,11 +80,18 @@
     },
     {
       "ingredient_id": 247,
-      "name": "firm but ripe medium pears, peeled",
-      "quantity": "6"
+      "name": "firm but ripe medium pears",
+      "quantity": "6",
+      "prep": "peeled"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the firm but ripe medium pears.",
+      "secondary_message": "6 firm but ripe medium pears"
+    },
     {
       "id": 1,
       "primary_message": "In a 5-quart non-reactive pot or Dutch oven, combine red wine and sugar. Bring to a boil over high heat, stirring occasionally to dissolve sugar, about 6 minutes. Reduce heat to medium and add orange peel, cinnamon stick, cloves, black peppercorns, and star anise.",

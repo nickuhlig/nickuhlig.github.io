@@ -44,8 +44,9 @@
     },
     {
       "ingredient_id": 2463,
-      "name": "rhubarb, diced",
-      "quantity": "1 ¾ lb"
+      "name": "rhubarb",
+      "quantity": "1 ¾ lb",
+      "prep": "diced"
     },
     {
       "ingredient_id": 242,
@@ -69,6 +70,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the rhubarb.",
+      "secondary_message": "1 ¾ lb rhubarb"
+    },
     {
       "id": 1,
       "primary_message": "Whisk the sugar and pectin a medium bowl and set aside.",

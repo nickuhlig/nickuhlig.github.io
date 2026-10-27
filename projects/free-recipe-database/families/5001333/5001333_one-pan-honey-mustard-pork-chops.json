@@ -94,8 +94,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, minced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1677,
@@ -124,6 +125,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the shallot.",
+      "secondary_message": "1 small shallot"
+    },
     {
       "id": 1,
       "primary_message": "Pat pork chops dry with a paper towel. In a small bowl, combine salt and baking soda. Season pork chops generously on all sides with salt mixture. (You may have some seasoning mixture left over; reserve for another use or discard.) Transfer to a wire rack set in a rimmed 13- by 18-inch baking sheet. If dry-brining chops overnight, refrigerate, uncovered, at least 8 hours and up to 24; otherwise proceed immediately to step 2.",

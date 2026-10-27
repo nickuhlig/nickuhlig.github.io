@@ -54,8 +54,9 @@
     },
     {
       "ingredient_id": 18,
-      "name": "globe eggplant, cut crosswise into 4 rounds",
-      "quantity": "1 large"
+      "name": "globe eggplant",
+      "quantity": "1 large",
+      "prep": "cut crosswise into 4 rounds"
     },
     {
       "ingredient_id": 1044,
@@ -94,11 +95,18 @@
     },
     {
       "ingredient_id": 466,
-      "name": "English muffins, split and toasted",
-      "quantity": "4"
+      "name": "English muffins",
+      "quantity": "4",
+      "prep": "split and toasted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the globe eggplant crosswise into 4 rounds. Split and toast the English muffins.",
+      "secondary_message": "1 large globe eggplant\n4 English muffins"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 350°F. In a medium bowl, whisk together mirin, sake, miso, and 2 tablespoons sugar until well combined. Set aside.",

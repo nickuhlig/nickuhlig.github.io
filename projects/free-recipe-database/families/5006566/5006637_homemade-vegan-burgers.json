@@ -44,8 +44,9 @@
   "ingredients": [
     {
       "ingredient_id": 19,
-      "name": "button mushrooms, trimmed",
-      "quantity": "0.6 kg"
+      "name": "button mushrooms",
+      "quantity": "0.6 kg",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 1682,
@@ -79,13 +80,15 @@
     },
     {
       "ingredient_id": 1720,
-      "name": "celery rib, chopped fine",
-      "quantity": "1 large"
+      "name": "celery rib",
+      "quantity": "1 large",
+      "prep": "chopped fine"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated on a microplane grater",
-      "quantity": "1 (5 g) medium clove"
+      "name": "garlic",
+      "quantity": "1 (5 g) medium clove",
+      "prep": "grated on a microplane grater"
     },
     {
       "ingredient_id": 2699,
@@ -94,8 +97,9 @@
     },
     {
       "ingredient_id": 92,
-      "name": "garbanzo beans, drained and patted dry on paper towels",
-      "quantity": "1 (397 g) can"
+      "name": "garbanzo beans",
+      "quantity": "1 (397 g) can",
+      "prep": "drained and patted dry on paper towels"
     },
     {
       "ingredient_id": 116,
@@ -129,11 +133,18 @@
     },
     {
       "ingredient_id": 1772,
-      "name": "burger buns, lightly toasted",
-      "quantity": "8"
+      "name": "burger buns",
+      "quantity": "8",
+      "prep": "lightly toasted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the button mushrooms. Chop the celery rib fine. Grate the garlic on a microplane grater. Drain and pat the garbanzo beans dry on paper towels. Lightly toast the burger buns.",
+      "secondary_message": "0.6 kg button mushrooms\n1 large celery rib\n1 (5 g) medium clove garlic\n1 (397 g) can garbanzo beans\n8 burger buns"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and heat oven to 175°C (350°F). In a large bowl, toss mushrooms with 2 tablespoons oil, 2 teaspoons salt, and 1/8 teaspoon pepper. Brush eggplant with 1/2 tablespoon oil and sprinkle evenly with 1 teaspoon salt and remaining 1/8 teaspoon pepper. Wrap eggplant with aluminum foil. Transfer mushrooms and eggplant to an aluminum foil-lined rimmed baking sheet. Sprinkle thyme over mushrooms. Bake, turning mushrooms and wrapped eggplant occasionally until mushrooms are dark brown and eggplant is completely tender (test with a cake tester or thin skewer), about 45 minutes to 1 hour. Set aside and let cool until ready to use.",

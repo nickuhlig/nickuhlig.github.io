@@ -40,8 +40,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and minced",
-      "quantity": "2 large cloves"
+      "name": "garlic",
+      "quantity": "2 large cloves",
+      "prep": "peeled and minced"
     },
     {
       "ingredient_id": 2817,
@@ -50,13 +51,15 @@
     },
     {
       "ingredient_id": 2788,
-      "name": "clams, small, cleaned",
-      "quantity": "2 lb"
+      "name": "clams, small",
+      "quantity": "2 lb",
+      "prep": "cleaned"
     },
     {
       "ingredient_id": 151,
-      "name": "red jalapeno peppers, cut lengthwise diagonally",
-      "quantity": "3 large"
+      "name": "red jalapeno peppers",
+      "quantity": "3 large",
+      "prep": "cut lengthwise diagonally"
     },
     {
       "ingredient_id": 52,
@@ -70,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and mince the garlic. Clean the clams. Cut the red jalapeno peppers lengthwise diagonally.",
+      "secondary_message": "2 large cloves garlic\n2 lb clams, small\n3 large red jalapeno peppers"
+    },
     {
       "id": 1,
       "primary_message": "Heat the oil in a large sauté pan or a wok over medium-high heat. Add the minced garlic and fry until it’s fragrant and just starting to turn light brown.",

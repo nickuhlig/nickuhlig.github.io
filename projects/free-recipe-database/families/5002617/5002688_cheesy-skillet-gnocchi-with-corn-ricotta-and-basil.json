@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 2016,
-      "name": "low-moisture mozzarella cheese, shredded",
-      "quantity": "113 g"
+      "name": "low-moisture mozzarella cheese",
+      "quantity": "113 g",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 1678,
@@ -90,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shred the low-moisture mozzarella cheese.",
+      "secondary_message": "113 g low-moisture mozzarella cheese"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to upper-middle position and preheat oven broiler on high. In a medium bowl, stir together mozzarella, ricotta, basil, lemon zest, crushed red pepper (if using), 2 tablespoons Parmesan, 1/4 teaspoon kosher salt, and 1/4 teaspoon black pepper; set aside.",

@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 260,
-      "name": "tomato, sliced",
-      "quantity": "1 medium"
+      "name": "tomato",
+      "quantity": "1 medium",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 88,
@@ -65,11 +66,18 @@
     },
     {
       "ingredient_id": 183,
-      "name": "avocado, sliced",
-      "quantity": "1 small"
+      "name": "avocado",
+      "quantity": "1 small",
+      "prep": "sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the tomato. Slice the avocado.",
+      "secondary_message": "1 medium tomato\n1 small avocado"
+    },
     {
       "id": 1,
       "primary_message": "Spread 1 teaspoon of mayonnaise on each side of the bread slices. Preheat a heavy skillet or griddle over medium-low heat for 5 minutes. Add bread in a single layer, working in batches if necessary, and cook until golden brown. Flip and cook until second side is golden brown. Transfer bread to a cutting board.",

@@ -62,8 +62,9 @@
     },
     {
       "ingredient_id": 236,
-      "name": "pineapple, peeled, cored, and cut into 1-inch cubes",
-      "quantity": "1 large"
+      "name": "pineapple",
+      "quantity": "1 large",
+      "prep": "peeled, cored, and cut into 1-inch cubes"
     },
     {
       "ingredient_id": 1685,
@@ -72,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel, core, and cut the pineapple into 1-inch cubes.",
+      "secondary_message": "1 large pineapple"
+    },
     {
       "id": 1,
       "primary_message": "To make the brine: Whisk together water, soy sauce, sugar, and salt in a large bowl until solids are completely dissolved. Place chicken breast in brine and refrigerate for 45 minutes. Remove chicken from brine and pat dry with paper towels.",

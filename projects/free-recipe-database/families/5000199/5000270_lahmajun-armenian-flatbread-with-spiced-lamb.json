@@ -67,8 +67,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, quartered lengthwise",
-      "quantity": "1 small"
+      "name": "yellow onion",
+      "quantity": "1 small",
+      "prep": "quartered lengthwise"
     },
     {
       "ingredient_id": 88,
@@ -92,8 +93,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, peeled",
-      "quantity": "2 medium"
+      "name": "garlic cloves",
+      "quantity": "2 medium",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 1469,
@@ -122,13 +124,15 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, thinly sliced",
-      "quantity": "1 medium"
+      "name": "red onion",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1808,
-      "name": "fresh parsley leaves, tender stems coarsely chopped",
-      "quantity": "½ cup"
+      "name": "fresh parsley leaves",
+      "quantity": "½ cup",
+      "prep": "tender stems coarsely chopped"
     },
     {
       "ingredient_id": 1579,
@@ -162,6 +166,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Quarter the yellow onion lengthwise. Peel the garlic cloves. Thinly slice the red onion. Coarsely chop the tender stems of the fresh parsley leaves.",
+      "secondary_message": "1 small yellow onion\n2 medium garlic cloves\n1 medium red onion\n½ cup fresh parsley leaves"
+    },
     {
       "id": 1,
       "primary_message": "For the Dough: In a medium bowl, whisk together bread flour, yeast, sugar, and salt until thoroughly combined. In a separate medium bowl, combine water and 10g (2 teaspoons) oil. Add half of flour mixture to oil-water mixture and stir with a dough whisk or a whisk until a smooth batter forms. Add remaining flour mixture and stir with a whisk or knead by hand until a shaggy dough forms and no dry flour remains. Cover bowl with plastic wrap or a clean kitchen towel and let sit at room temperature for 30 minutes.",

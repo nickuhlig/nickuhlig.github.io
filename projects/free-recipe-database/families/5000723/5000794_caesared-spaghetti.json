@@ -53,8 +53,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "zested"
     },
     {
       "ingredient_id": 88,
@@ -113,8 +114,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, very finely minced or grated",
-      "quantity": "4 (20 g) medium cloves"
+      "name": "garlic",
+      "quantity": "4 (20 g) medium cloves",
+      "prep": "very finely minced or grated"
     },
     {
       "ingredient_id": 59,
@@ -138,8 +140,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, very finely minced or grated",
-      "quantity": "4 (20 g) medium cloves"
+      "name": "garlic",
+      "quantity": "4 (20 g) medium cloves",
+      "prep": "very finely minced or grated"
     },
     {
       "ingredient_id": 72,
@@ -163,6 +166,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the lemon. Very finely mince or grate the garlic. Very finely mince or grate the garlic.",
+      "secondary_message": "1 lemon\n4 (20 g) medium cloves garlic\n4 (20 g) medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "In a medium skillet, combine oil and breadcrumbs and cook over medium-low heat, stirring occasionally, until toasted and golden brown, 5 to 7 minutes. Add parsley and lemon zest, season lightly with salt, stir to combine, and continue to cook until parsley begins to sizzle and mixture is very fragrant of citrus, 30 seconds to 1 minute. Transfer breadcrumb mixture to small bowl and set aside until ready to serve.",

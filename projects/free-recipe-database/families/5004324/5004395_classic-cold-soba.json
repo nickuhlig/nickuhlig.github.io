@@ -85,11 +85,18 @@
     },
     {
       "ingredient_id": 2426,
-      "name": "nori, cut into thin strips",
-      "quantity": "1 large sheet"
+      "name": "nori",
+      "quantity": "1 large sheet",
+      "prep": "cut into thin strips"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the nori into thin strips.",
+      "secondary_message": "1 large sheet nori"
+    },
     {
       "id": 1,
       "primary_message": "Bring dashi, soy sauce, mirin, and sugar to gentle boil over medium heat. Remove from heat and allow to cool.",

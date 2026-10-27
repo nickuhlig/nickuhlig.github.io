@@ -68,8 +68,9 @@
   "ingredients": [
     {
       "ingredient_id": 121,
-      "name": "eggs, room temperature",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 346,
@@ -133,8 +134,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cubed, at room temperature",
-      "quantity": "14 g"
+      "name": "unsalted butter",
+      "quantity": "14 g",
+      "prep": "cubed, at room temperature"
     },
     {
       "ingredient_id": 1907,
@@ -143,6 +145,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the eggs to room temperature. Cube the unsalted butter and bring it to room temperature.",
+      "secondary_message": "4 large eggs\n14 g unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust rack to middle position and preheat oven to 350ºF (175ºC). Butter two 23-cm cake pans with unsalted butter, then dust with cake flour, shaking out excess.",

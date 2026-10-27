@@ -37,8 +37,9 @@
   "ingredients": [
     {
       "ingredient_id": 121,
-      "name": "hard-boiled eggs, peeled and halved lengthwise",
-      "quantity": "6 large"
+      "name": "hard-boiled eggs",
+      "quantity": "6 large",
+      "prep": "peeled and halved lengthwise"
     },
     {
       "ingredient_id": 355,
@@ -82,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and halve the hard-boiled eggs lengthwise.",
+      "secondary_message": "6 large hard-boiled eggs"
+    },
     {
       "id": 1,
       "primary_message": "Place all of the yolks in a medium bowl. Select 8 of the best looking egg white halves and set aside. Reserve the remaining 4 for another use. Add cream cheese, mayonnaise, lemon juice, sesame seeds, dehydrated onion, caraway seeds, and smoked salmon to yolks and, using a sturdy whisk, mash and stir together until thoroughly combined. Season with salt.",

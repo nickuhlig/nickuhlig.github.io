@@ -32,8 +32,9 @@
   "ingredients": [
     {
       "ingredient_id": 1019,
-      "name": "graham crackers, finely ground",
-      "quantity": "14 oz"
+      "name": "graham crackers",
+      "quantity": "14 oz",
+      "prep": "finely ground"
     },
     {
       "ingredient_id": 293,
@@ -52,13 +53,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "13 tbsp (6 ½ oz)"
+      "name": "unsalted butter",
+      "quantity": "13 tbsp (6 ½ oz)",
+      "prep": "melted"
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "12 oz"
+      "name": "bittersweet chocolate",
+      "quantity": "12 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1752,
@@ -72,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely grind the graham crackers. Melt the unsalted butter. Finely chop the bittersweet chocolate.",
+      "secondary_message": "14 oz graham crackers\n13 tbsp (6 ½ oz) unsalted butter\n12 oz bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "Mix graham cracker crumbs, sugar, salt, water, and melted butter in a large bowl until moistened. Firmly press into bottom of 9- by 13-inch baking dish.",

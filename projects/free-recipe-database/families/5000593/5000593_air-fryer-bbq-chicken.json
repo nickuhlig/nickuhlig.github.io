@@ -58,8 +58,9 @@
     },
     {
       "ingredient_id": 1618,
-      "name": "chipotle chilis, canned in adobo sauce, minced, from 1 can",
-      "quantity": "1 tbsp"
+      "name": "chipotle chilis, canned in adobo sauce, from 1 can",
+      "quantity": "1 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 186,
@@ -118,11 +119,18 @@
     },
     {
       "ingredient_id": 164,
-      "name": "boneless skinless chicken thighs, patted dry",
-      "quantity": "1 ½ lb"
+      "name": "boneless skinless chicken thighs",
+      "quantity": "1 ½ lb",
+      "prep": "patted dry"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the chipotle chilis. Pat the boneless skinless chicken thighs dry.",
+      "secondary_message": "1 tbsp chipotle chilis, canned in adobo sauce, from 1 can\n1 ½ lb boneless skinless chicken thighs"
+    },
     {
       "id": 1,
       "primary_message": "For the Sauce: In a medium bowl, whisk together ketchup, vinegar, honey, Worcestershire, chipotle, cumin, salt, pepper, and liquid smoke, if using. Set aside.",

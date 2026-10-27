@@ -72,8 +72,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "full-fat cream cheese, softened",
-      "quantity": "340 g"
+      "name": "full-fat cream cheese",
+      "quantity": "340 g",
+      "prep": "softened"
     },
     {
       "ingredient_id": 3184,
@@ -82,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the full-fat cream cheese.",
+      "secondary_message": "340 g full-fat cream cheese"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 220°C (425°F). Set a 13-by-46-cm rimmed baking sheet upside down on middle rack to preheat. Line another 13-by-46-cm baking sheet with parchment paper.",

@@ -58,11 +58,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened to about 70°F",
-      "quantity": "340 g"
+      "name": "unsalted butter",
+      "quantity": "340 g",
+      "prep": "softened to about 70°F"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter to about 70°F.",
+      "secondary_message": "340 g unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Base: In a 5-quart stainless steel or enameled Dutch oven, whisk sugar, Dutch cocoa, and salt to combine. Whisk in milk and cream to combine. If you have a scale, weigh the pot and ingredients together so you can digitally track the reduction. Place over medium heat, stirring occasionally with a heat-resistant spatula, until milk begins to simmer, about 12 minutes. (If this takes substantially more or less time, adjust the heat accordingly to better match the pace of the cooking process in step 2.)",

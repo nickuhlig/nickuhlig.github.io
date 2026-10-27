@@ -106,8 +106,9 @@
     },
     {
       "ingredient_id": 317,
-      "name": "bananas, peeled and sliced in 1/2-inch rounds",
-      "quantity": "5 medium"
+      "name": "bananas",
+      "quantity": "5 medium",
+      "prep": "peeled and sliced in 1/2-inch rounds"
     },
     {
       "ingredient_id": 1752,
@@ -121,6 +122,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and slice the bananas in 1/2-inch rounds.",
+      "secondary_message": "5 medium bananas"
+    },
     {
       "id": 1,
       "primary_message": "In a 4-quart stainless steel saucepan or pot, combine milk and scraped vanilla bean along with its seeds or 1 teaspoon vanilla paste. Bring to a bare simmer over medium heat. Remove from heat, cover to prevent evaporation, and let steep for 30 minutes.",

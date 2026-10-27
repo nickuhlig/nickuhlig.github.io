@@ -88,8 +88,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 118,
@@ -108,8 +109,9 @@
     },
     {
       "ingredient_id": 2285,
-      "name": "semi-sweet chocolate, finely chopped",
-      "quantity": "5 oz"
+      "name": "semi-sweet chocolate",
+      "quantity": "5 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 353,
@@ -118,6 +120,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the eggs to room temperature. Finely chop the semi-sweet chocolate.",
+      "secondary_message": "2 large eggs\n5 oz semi-sweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "For the Chocolate Pancakes: Using a fine-mesh strainer set over a large bowl, sift together flour, cocoa, sugar, baking powder, salt, and baking soda. In a medium bowl, whisk eggs, milk, melted butter, and espresso powder (if using) until well combined. Pour liquid ingredients into dry and gently mix until batter is just combined and moistened (there will still be lumps). Do not overmix the batter.",

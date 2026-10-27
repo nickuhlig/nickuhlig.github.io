@@ -45,8 +45,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "1 tbsp"
+      "name": "unsalted butter",
+      "quantity": "1 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1905,
@@ -95,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter.",
+      "secondary_message": "1 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 400°F. Grease a 10-inch cast iron pan with 1 tablespoon butter, making sure to fully cover both the bottom and the sides.",

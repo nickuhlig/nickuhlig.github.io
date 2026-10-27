@@ -68,8 +68,9 @@
     },
     {
       "ingredient_id": 120,
-      "name": "Parmigiano-Reggiano, finely grated",
-      "quantity": "57 g"
+      "name": "Parmigiano-Reggiano",
+      "quantity": "57 g",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 1480,
@@ -108,6 +109,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely grate the Parmigiano-Reggiano.",
+      "secondary_message": "57 g Parmigiano-Reggiano"
+    },
     {
       "id": 1,
       "primary_message": "If using a countertop blender or food processor: In blender jar or processor bowl, combine egg, anchovies, garlic, Parmigiano-Reggiano, lemon juice, Worcestershire, and mustard. Add a pinch of salt and generous grinding of black pepper. With the blender or processor running, slowly drizzle in canola oil in a thin, steady steam until a thickened sauce forms. Then drizzle in olive oil until a thicker sauce forms (if you're sensitive to the bitter flavor sometimes created by high-speed blending of olive oil, you can transfer the mayo to a mixing bowl and whisk the olive oil in by hand). Adjust seasoning by adding more lemon juice, salt, and/or pepper, if desired.",

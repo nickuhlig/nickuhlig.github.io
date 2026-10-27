@@ -52,8 +52,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, juiced",
-      "quantity": "½"
+      "name": "lemon",
+      "quantity": "½",
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -62,6 +63,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "Add olive oil to the pan and set over medium-high heat, heating oil until it is near smoking. Add the pieces of neck, in batches if necessary to avoid crowding. Once the lamb is browned, removed to plate.",

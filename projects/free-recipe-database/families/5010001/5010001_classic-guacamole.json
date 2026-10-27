@@ -54,18 +54,21 @@
   "ingredients": [
     {
       "ingredient_id": 1565,
-      "name": "of 1 medium white onion, roughly chopped",
-      "quantity": "½"
+      "name": "of 1 medium white onion",
+      "quantity": "½",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 2021,
-      "name": "serrano chile, stemmed and roughly chopped",
-      "quantity": "1"
+      "name": "serrano chile",
+      "quantity": "1",
+      "prep": "stemmed and roughly chopped"
     },
     {
       "ingredient_id": 188,
-      "name": "picked cilantro leaves, tender stems finely chopped, divided",
-      "quantity": "½ cup"
+      "name": "picked cilantro leaves, divided",
+      "quantity": "½ cup",
+      "prep": "tender stems finely chopped"
     },
     {
       "ingredient_id": 88,
@@ -84,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the of 1 medium white onion. Stem and roughly chop the serrano chile. Finely chop the tender stems of the picked cilantro leaves.",
+      "secondary_message": "½ of 1 medium white onion\n1 serrano chile\n½ cup picked cilantro leaves, divided"
+    },
     {
       "id": 1,
       "primary_message": "Place onion, chile, half of cilantro leaves, and a large pinch of salt in a molcajete or mortar and pestle. Pound into a fine paste. Alternatively, combine onion, chile, half of cilantro, salt, and half of lime juice in a food processor or blender and process, scraping down sides as necessary, until smooth paste is formed.",

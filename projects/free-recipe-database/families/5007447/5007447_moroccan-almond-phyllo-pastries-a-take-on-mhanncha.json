@@ -68,8 +68,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, melted",
-      "quantity": "6 tbsp"
+      "name": "butter",
+      "quantity": "6 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 2818,
@@ -78,8 +79,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, melted",
-      "quantity": "8 tbsp"
+      "name": "butter",
+      "quantity": "8 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 1710,
@@ -88,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the butter. Melt the butter.",
+      "secondary_message": "6 tbsp butter\n8 tbsp butter"
+    },
     {
       "id": 1,
       "primary_message": "For filling: In the bowl of a food processor, combine almonds and confectioners' sugar and pulse until a coarse meal. Add cinnamon, cardamom, egg yolk, vanilla, and butter and pulse until mixture is a paste. It doesn't have to be completely smooth though the almonds should be ground very fine. Cover paste with plastic wrap and refrigerate for 30 minutes.",

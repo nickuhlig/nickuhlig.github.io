@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 1/4-inch-thick slices",
-      "quantity": "10 oz"
+      "name": "unsalted butter",
+      "quantity": "10 oz",
+      "prep": "cut into 1/4-inch-thick slices"
     },
     {
       "ingredient_id": 359,
@@ -76,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into 1/4-inch-thick slices.",
+      "secondary_message": "10 oz unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Combine two thirds of flour with sugar and salt in the bowl of a food processor. Pulse twice to incorporate. Spread butter slices evenly over surface. Pulse until no dry flour remains and dough just begins to collect in clumps, about 25 short pulses. Use a rubber spatula to spread the dough evenly around the bowl of the food processor. Sprinkle with remaining flour and pulse until dough is just barely broken up, about 5 short pulses. Transfer dough to a large bowl.",

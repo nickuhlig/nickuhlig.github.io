@@ -50,9 +50,10 @@
     },
     {
       "ingredient_id": 1039,
-      "name": "russet potatoes, washed and scrubbed",
+      "name": "russet potatoes",
       "quantity": "5 medium",
-      "weigh_as": "1.1 kg"
+      "weigh_as": "1.1 kg",
+      "prep": "washed and scrubbed"
     },
     {
       "ingredient_id": 359,
@@ -76,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash and scrub the russet potatoes.",
+      "secondary_message": "5 medium russet potatoes"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower position and preheat oven to 230°C (450°F). Spray a rimmed baking sheet with cooking spray. Pour oil over baking sheet and tilt until evenly coated with oil. Using a sharp knife, halve potatoes lengthwise. Place potato halves cut side down on cutting board and cut lengthwise into 2.5 to 4-cm-thick wedges (3 to 4 wedges per half potato, depending on size).",

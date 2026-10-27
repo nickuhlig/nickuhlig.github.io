@@ -62,18 +62,21 @@
     },
     {
       "ingredient_id": 116,
-      "name": "all-purpose flour, sifted, plus more for dusting",
-      "quantity": "8 ¾ oz"
+      "name": "all-purpose flour, plus more for dusting",
+      "quantity": "8 ¾ oz",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 1710,
-      "name": "confectioners’ sugar, sifted",
-      "quantity": "4 ½ oz"
+      "name": "confectioners’ sugar",
+      "quantity": "4 ½ oz",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 253,
-      "name": "blanched almond flour, sifted",
-      "quantity": "1 ¾ oz"
+      "name": "blanched almond flour",
+      "quantity": "1 ¾ oz",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 88,
@@ -82,8 +85,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cold and cut into 1/2-inch cubes",
-      "quantity": "4 ½ oz"
+      "name": "unsalted butter",
+      "quantity": "4 ½ oz",
+      "prep": "cold and cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 121,
@@ -92,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Sift the all-purpose flour. Sift the confectioners’ sugar. Sift the blanched almond flour. Cut the unsalted butter into 1/2-inch cubes and keep it cold until you use it.",
+      "secondary_message": "8 ¾ oz all-purpose flour, plus more for dusting\n4 ½ oz confectioners’ sugar\n1 ¾ oz blanched almond flour\n4 ½ oz unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Line the bottom of a 9-inch tart pan with parchment and, using nonstick spray, grease parchment and sides of pan. Dust lightly with flour, shaking out excess. (See notes.)",

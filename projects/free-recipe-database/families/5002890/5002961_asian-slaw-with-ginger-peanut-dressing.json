@@ -78,8 +78,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic clove, minced",
-      "quantity": "1 large"
+      "name": "garlic clove",
+      "quantity": "1 large",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1004,
@@ -93,8 +94,9 @@
     },
     {
       "ingredient_id": 150,
-      "name": "red bell pepper, thinly sliced",
-      "quantity": "1"
+      "name": "red bell pepper",
+      "quantity": "1",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 330,
@@ -103,8 +105,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, finely sliced on a sharp bias",
-      "quantity": "2 medium"
+      "name": "scallions",
+      "quantity": "2 medium",
+      "prep": "finely sliced on a sharp bias"
     },
     {
       "ingredient_id": 1420,
@@ -118,6 +121,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic clove. Thinly slice the red bell pepper. Finely slice the scallions on a sharp bias.",
+      "secondary_message": "1 large garlic clove\n1 red bell pepper\n2 medium scallions"
+    },
     {
       "id": 1,
       "primary_message": "Combine all of the dressing ingredients in a medium bowl. Stir until the peanut butter is dissolved. Set aside.",

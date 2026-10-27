@@ -46,8 +46,9 @@
   "ingredients": [
     {
       "ingredient_id": 1449,
-      "name": "sweetened condensed milk, label and glue removed",
-      "quantity": "1 (397 g) can"
+      "name": "sweetened condensed milk",
+      "quantity": "1 (397 g) can",
+      "prep": "label and glue removed"
     },
     {
       "ingredient_id": 1605,
@@ -61,13 +62,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted and slightly cooled",
-      "quantity": "140 g"
+      "name": "unsalted butter",
+      "quantity": "140 g",
+      "prep": "melted and slightly cooled"
     },
     {
       "ingredient_id": 317,
-      "name": "bananas, peeled and cut into 1/2-inch slices",
-      "quantity": "3 medium"
+      "name": "bananas",
+      "quantity": "3 medium",
+      "prep": "peeled and cut into 1/2-inch slices"
     },
     {
       "ingredient_id": 1752,
@@ -76,6 +79,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the label and glue from the sweetened condensed milk. Melt the unsalted butter and let it cool slightly. Peel and cut the bananas into 1/2-inch slices.",
+      "secondary_message": "1 (397 g) can sweetened condensed milk\n140 g unsalted butter\n3 medium bananas"
+    },
     {
       "id": 1,
       "primary_message": "For the Filling: Set a wire or steamer rack inside a 6- to 8-quart pot. Set unopened condensed milk can on its side on the rack, then fill pot with room-temperature water, making sure water level is at least 5 cm above can. (The can must remain fully submerged during the entirety of simmering to prevent it from warping and splitting, which can result in the can rupturing and injuries.)",

@@ -31,18 +31,21 @@
   "ingredients": [
     {
       "ingredient_id": 1039,
-      "name": "Russet Gold potatoes, peeled and cut into 1- to 2-inch chunks",
-      "quantity": "4 large"
+      "name": "Russet Gold potatoes",
+      "quantity": "4 large",
+      "prep": "peeled and cut into 1- to 2-inch chunks"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, sliced into 1/4-inch slices",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "sliced into 1/4-inch slices"
     },
     {
       "ingredient_id": 260,
-      "name": "beefsteak tomatoes, cut into 1- to 2-inch chunks",
-      "quantity": "4 medium"
+      "name": "beefsteak tomatoes",
+      "quantity": "4 medium",
+      "prep": "cut into 1- to 2-inch chunks"
     },
     {
       "ingredient_id": 1230,
@@ -66,6 +69,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the Russet Gold potatoes into 1- to 2-inch chunks. Slice the onion into 1/4-inch slices. Cut the beefsteak tomatoes into 1- to 2-inch chunks.",
+      "secondary_message": "4 large Russet Gold potatoes\n1 large onion\n4 medium beefsteak tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "Combine potatoes, onion, tomatoes, chicken pieces, bay leaves, and a large pinch of salt in a pressure cooker. Toss with hands to combine. Seal lid and cook under high pressure for 25 minutes. Release pressure, remove lid, season to taste, and serve.",

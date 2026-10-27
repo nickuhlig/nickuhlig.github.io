@@ -62,13 +62,15 @@
     },
     {
       "ingredient_id": 302,
-      "name": "bacon, cut into 1/4-inch wide strips",
-      "quantity": "4 oz"
+      "name": "bacon",
+      "quantity": "4 oz",
+      "prep": "cut into 1/4-inch wide strips"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, diced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 159,
@@ -82,8 +84,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "4 medium"
+      "name": "garlic cloves",
+      "quantity": "4 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 116,
@@ -112,11 +115,18 @@
     },
     {
       "ingredient_id": 2106,
-      "name": "pitted prunes, roughly chopped",
-      "quantity": "8"
+      "name": "pitted prunes",
+      "quantity": "8",
+      "prep": "roughly chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the bacon into 1/4-inch wide strips. Dice the onion. Mince the garlic cloves. Roughly chop the pitted prunes.",
+      "secondary_message": "4 oz bacon\n1 medium onion\n4 medium garlic cloves\n8 pitted prunes"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to bottom position and preheat oven to 275℉ (135℃).",

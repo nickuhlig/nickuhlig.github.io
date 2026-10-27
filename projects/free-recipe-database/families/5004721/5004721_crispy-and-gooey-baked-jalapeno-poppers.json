@@ -50,13 +50,15 @@
   "ingredients": [
     {
       "ingredient_id": 1069,
-      "name": "Monterey Jack cheese, grated on large holes of a box grater",
-      "quantity": "8 oz"
+      "name": "Monterey Jack cheese",
+      "quantity": "8 oz",
+      "prep": "grated on large holes of a box grater"
     },
     {
       "ingredient_id": 43,
-      "name": "sharp cheddar, grated on large holes of a box grater",
-      "quantity": "3 oz"
+      "name": "sharp cheddar",
+      "quantity": "3 oz",
+      "prep": "grated on large holes of a box grater"
     },
     {
       "ingredient_id": 264,
@@ -100,8 +102,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 2826,
@@ -115,6 +118,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the Monterey Jack cheese on large holes of a box grater. Grate the sharp cheddar on large holes of a box grater. Beat the eggs.",
+      "secondary_message": "8 oz Monterey Jack cheese\n3 oz sharp cheddar\n2 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, toss Monterey Jack and cheddar cheese with cornstarch until evenly coated. Transfer cheeses to a medium saucepan and add evaporated milk and hot sauce. Place over low heat and cook, whisking constantly, until melted and thickened, about 5 minutes. Let stand until cooled to room temperature.",

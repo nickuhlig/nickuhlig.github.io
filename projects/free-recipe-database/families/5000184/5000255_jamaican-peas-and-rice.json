@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, root ends trimmed",
-      "quantity": "4"
+      "name": "scallions",
+      "quantity": "4",
+      "prep": "root ends trimmed"
     },
     {
       "ingredient_id": 287,
@@ -90,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the root ends of the scallions.",
+      "secondary_message": "4 scallions"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, cover peas with cold water by at least 5 cm and let stand at least 8 and up to 12 hours.",

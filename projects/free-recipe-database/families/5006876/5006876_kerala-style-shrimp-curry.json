@@ -47,28 +47,33 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, peeled and roughly chopped",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "peeled and roughly chopped"
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, peeled roughly chopped",
-      "quantity": "1 (3 inch) generous knob"
+      "name": "ginger",
+      "quantity": "1 (3 inch) generous knob",
+      "prep": "peeled roughly chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "6 cloves"
+      "name": "garlic",
+      "quantity": "6 cloves",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 1762,
-      "name": "Thai green chile, stem removed",
-      "quantity": "1"
+      "name": "Thai green chile",
+      "quantity": "1",
+      "prep": "stem removed"
     },
     {
       "ingredient_id": 2088,
-      "name": "hot red chile, ground",
-      "quantity": "1 tbsp"
+      "name": "hot red chile",
+      "quantity": "1 tbsp",
+      "prep": "ground"
     },
     {
       "ingredient_id": 83,
@@ -102,8 +107,9 @@
     },
     {
       "ingredient_id": 2711,
-      "name": "cleaned, shelled shrimp",
-      "quantity": "1 lb"
+      "name": "cleaned",
+      "quantity": "1 lb",
+      "prep": "shelled shrimp"
     },
     {
       "ingredient_id": 2198,
@@ -112,6 +118,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and roughly chop the onion. Peel the ginger roughly chopped. Peel the garlic. Remove the stem from the Thai green chile. Grind the hot red chile. Shell the cleaned shrimp.",
+      "secondary_message": "1 large onion\n1 (3 inch) generous knob ginger\n6 cloves garlic\n1 Thai green chile\n1 tbsp hot red chile\n1 lb cleaned"
+    },
     {
       "id": 1,
       "primary_message": "Briefly rinse kodampuli to remove any dust, then soak in boiling water in a small bowl before proceeding to prep remaining ingredients.",

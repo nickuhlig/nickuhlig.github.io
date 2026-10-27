@@ -73,11 +73,18 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, diced",
-      "quantity": "1 large"
+      "name": "yellow onion",
+      "quantity": "1 large",
+      "prep": "diced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the yellow onion.",
+      "secondary_message": "1 large yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, cover beans with cold water by several inches and stir in 1 tablespoon salt. Let beans soak at least 12 hours and up to 1 day. Drain and rinse.",

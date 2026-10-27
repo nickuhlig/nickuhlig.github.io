@@ -92,8 +92,9 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, peeled and grated",
-      "quantity": "1 medium"
+      "name": "carrot",
+      "quantity": "1 medium",
+      "prep": "peeled and grated"
     },
     {
       "ingredient_id": 214,
@@ -167,8 +168,9 @@
     },
     {
       "ingredient_id": 1799,
-      "name": "serrano chiles, stemmed",
-      "quantity": "5 to 8"
+      "name": "serrano chiles",
+      "quantity": "5 to 8",
+      "prep": "stemmed"
     },
     {
       "ingredient_id": 1713,
@@ -177,8 +179,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 1682,
@@ -192,8 +195,9 @@
     },
     {
       "ingredient_id": 321,
-      "name": "corn tortillas, warmed",
-      "quantity": "12 (6 inch)"
+      "name": "corn tortillas",
+      "quantity": "12 (6 inch)",
+      "prep": "warmed"
     },
     {
       "ingredient_id": 267,
@@ -212,11 +216,18 @@
     },
     {
       "ingredient_id": 183,
-      "name": "Avocado, cubed",
-      "quantity": ""
+      "name": "Avocado",
+      "quantity": "",
+      "prep": "cubed"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and grate the carrot. Stem the serrano chiles. Peel the garlic. Warm the corn tortillas. Cube the Avocado.",
+      "secondary_message": "1 medium carrot\n5 to 8 serrano chiles\n1 medium clove garlic\n12 (6 inch) corn tortillas\nAvocado"
+    },
     {
       "id": 1,
       "primary_message": "For the mayonnaise dressing: In a small bowl, whisk mayonnaise and ketchup to combine; set aside until ready to serve.",

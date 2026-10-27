@@ -52,18 +52,21 @@
   "ingredients": [
     {
       "ingredient_id": 2712,
-      "name": "pork shoulder, cubed",
-      "quantity": "3 lb"
+      "name": "pork shoulder",
+      "quantity": "3 lb",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 2162,
-      "name": "boneless leg of lamb, trimmed of silver skin and cubed",
-      "quantity": "1 lb"
+      "name": "boneless leg of lamb",
+      "quantity": "1 lb",
+      "prep": "trimmed of silver skin and cubed"
     },
     {
       "ingredient_id": 2660,
-      "name": "pork fatback, cubed",
-      "quantity": "1 lb"
+      "name": "pork fatback",
+      "quantity": "1 lb",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 88,
@@ -97,8 +100,9 @@
     },
     {
       "ingredient_id": 1514,
-      "name": "coriander seeds, toasted and finely ground",
-      "quantity": "1 tbsp"
+      "name": "coriander seeds",
+      "quantity": "1 tbsp",
+      "prep": "toasted and finely ground"
     },
     {
       "ingredient_id": 72,
@@ -117,13 +121,15 @@
     },
     {
       "ingredient_id": 1714,
-      "name": "red wine, chilled",
-      "quantity": "⅓ cup"
+      "name": "red wine",
+      "quantity": "⅓ cup",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 130,
-      "name": "red wine vinegar, chilled",
-      "quantity": "3 tbsp"
+      "name": "red wine vinegar",
+      "quantity": "3 tbsp",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 2628,
@@ -132,6 +138,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cube the pork shoulder. Trim the boneless leg of lamb of silver skin, then cube it. Cube the pork fatback. Toast and finely grind the coriander seeds. Keep the red wine cold until you use it. Keep the red wine vinegar cold until you use it.",
+      "secondary_message": "3 lb pork shoulder\n1 lb boneless leg of lamb\n1 lb pork fatback\n1 tbsp coriander seeds\n⅓ cup red wine\n3 tbsp red wine vinegar"
+    },
     {
       "id": 1,
       "primary_message": "Place pork, lamb, and fatback in a large bowl and toss with kosher salt and pink curing salt. Chill in refrigerator for at least 1 hour. Set parts of a meat grinder, including large cutting die, in freezer. Set bowl and paddle of a stand mixer in freezer.",

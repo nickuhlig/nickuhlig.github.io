@@ -47,8 +47,9 @@
   "ingredients": [
     {
       "ingredient_id": 144,
-      "name": "shallots, roughly chopped",
-      "quantity": "2 small"
+      "name": "shallots",
+      "quantity": "2 small",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 24,
@@ -97,6 +98,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the shallots.",
+      "secondary_message": "2 small shallots"
+    },
     {
       "id": 1,
       "primary_message": "For the Spice Paste: Add half the shallots to a mortar and grind with pestle until a coarse purée forms. Add remaining shallots, followed by garlic, chile, and terasi (if using), grinding with pestle until each ingredient is mostly incorporated before adding the next. The final paste should resemble thick oatmeal in texture. Alternatively, combine all spice paste ingredients in a small food processor and process until they form a paste.",

@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 6,
-      "name": "skinless salmon fillets, cut into 2-inch cubes",
-      "quantity": "0.91 kg"
+      "name": "skinless salmon fillets",
+      "quantity": "0.91 kg",
+      "prep": "cut into 2-inch cubes"
     },
     {
       "ingredient_id": 470,
@@ -71,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the skinless salmon fillets into 2-inch cubes.",
+      "secondary_message": "0.91 kg skinless salmon fillets"
+    },
     {
       "id": 1,
       "primary_message": "Open canned coconut milk without shaking and scoop out three quarters of the solid coconut cream at the top onto a 4-quart saucepan and set it over medium-high heat. Add curry paste to coconut cream and cook, stirring occasionally, until fat separates from the cream and mixture begins to fry, about 4 minutes. Add the remaining coconut milk to the pot along with fennel; bring to a gentle boil, and reduce to a simmer. Cook, stirring occasionally, until fennel is tender-crisp, about 5 minutes.",

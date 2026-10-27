@@ -42,8 +42,9 @@
   "ingredients": [
     {
       "ingredient_id": 1992,
-      "name": "corn flakes, crushed",
-      "quantity": "¾ cup"
+      "name": "corn flakes",
+      "quantity": "¾ cup",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 1344,
@@ -67,8 +68,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, chilled, cut into 1/2- to 1/4-inch dice",
-      "quantity": "6 tbsp"
+      "name": "unsalted butter",
+      "quantity": "6 tbsp",
+      "prep": "chilled, cut into 1/2- to 1/4-inch dice"
     },
     {
       "ingredient_id": 2270,
@@ -77,6 +79,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Crush the corn flakes. Cut the unsalted butter into 1/2- to 1/4-inch dice and keep it cold until you use it.",
+      "secondary_message": "¾ cup corn flakes\n6 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350°F. Grease 6 muffin cups.",

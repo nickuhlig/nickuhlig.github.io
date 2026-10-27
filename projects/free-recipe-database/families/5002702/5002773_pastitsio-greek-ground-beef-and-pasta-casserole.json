@@ -80,8 +80,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, diced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 88,
@@ -90,8 +91,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, chopped",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1483,
@@ -175,8 +177,9 @@
     },
     {
       "ingredient_id": 3641,
-      "name": "egg yolks, at room temperature, lightly beaten",
-      "quantity": "2 large"
+      "name": "egg yolks",
+      "quantity": "2 large",
+      "prep": "at room temperature, lightly beaten"
     },
     {
       "ingredient_id": 2372,
@@ -205,16 +208,24 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 1060,
-      "name": "Gruyère cheese, grated",
-      "quantity": "71 to 85 g"
+      "name": "Gruyère cheese",
+      "quantity": "71 to 85 g",
+      "prep": "grated"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the yellow onion. Chop the garlic. Lightly beat the egg yolks and bring them to room temperature. Beat the egg. Grate the Gruyère cheese.",
+      "secondary_message": "1 medium yellow onion\n2 medium cloves garlic\n2 large egg yolks\n1 large egg\n71 to 85 g Gruyère cheese"
+    },
     {
       "id": 1,
       "primary_message": "For the Meat Sauce: In a medium saucepan, heat oil over medium heat until shimmering. Add onion and 1 teaspoon salt and cook, stirring occasionally, until softened and translucent, about 5 minutes. Add garlic and cook, stirring constantly, until fragrant, about 1 minute. Add beef, pork, and remaining 1 teaspoon salt and cook, breaking meat into small pieces with a wooden spoon or stiff spatula, until no longer pink, 5 to 7 minutes.",

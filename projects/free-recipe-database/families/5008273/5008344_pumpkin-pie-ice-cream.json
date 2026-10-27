@@ -102,11 +102,18 @@
     },
     {
       "ingredient_id": 2171,
-      "name": "candied ginger, finely chopped, chilled in freezer",
-      "quantity": "¼ cup"
+      "name": "candied ginger",
+      "quantity": "¼ cup",
+      "prep": "finely chopped, chilled in freezer"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop and chill the candied ginger in freezer.",
+      "secondary_message": "¼ cup candied ginger"
+    },
     {
       "id": 1,
       "primary_message": "In a large, heavy saucepan, whisk egg yolks, brown sugar, and pumpkin purée into a smooth paste. Slowly whisk in cream and milk until fully combined.",

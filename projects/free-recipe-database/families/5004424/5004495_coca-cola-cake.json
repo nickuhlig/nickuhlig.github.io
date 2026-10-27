@@ -79,13 +79,15 @@
     },
     {
       "ingredient_id": 2475,
-      "name": "buttermilk, at room temperature",
-      "quantity": "½ cup"
+      "name": "buttermilk",
+      "quantity": "½ cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature and lightly beaten",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "at room temperature and lightly beaten"
     },
     {
       "ingredient_id": 353,
@@ -99,8 +101,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "8 tbsp"
+      "name": "unsalted butter",
+      "quantity": "8 tbsp",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 333,
@@ -114,8 +117,9 @@
     },
     {
       "ingredient_id": 1710,
-      "name": "confectioners sugar, sifted",
-      "quantity": "0.45 kg"
+      "name": "confectioners sugar",
+      "quantity": "0.45 kg",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 88,
@@ -129,6 +133,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the buttermilk to room temperature. Lightly beat the eggs and bring them to room temperature. Bring the unsalted butter to room temperature. Sift the confectioners sugar.",
+      "secondary_message": "½ cup buttermilk\n2 large eggs\n8 tbsp unsalted butter\n0.45 kg confectioners sugar"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Adjust oven rack to middle position and preheat oven to 175°C (350°F). Coat a 13- by 23-cm baking pan with baking spray. Combine flour, sugar, brown sugar, and salt in large bowl.",

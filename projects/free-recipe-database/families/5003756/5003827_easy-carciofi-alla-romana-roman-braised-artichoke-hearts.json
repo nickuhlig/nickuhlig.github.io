@@ -67,8 +67,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 47,
@@ -92,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic.",
+      "secondary_message": "3 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Fill a large bowl with water; halve and squeeze 2 lemons into it. Trim artichokes by cleaning them down to the hearts, following the guidelines shown here: Using a serrated knife, cut off top of artichoke and bottommost part of stem. Using a paring knife or sharp vegetable peeler, trim away the tough outer leaves to expose the tender inner leaves and heart. Trim away fibrous outer layer around stem to expose tender inner core (if stem breaks off, that's okay; just save it and cook it alongside the hearts). Using a spoon, scrape out the inedible, hairy choke in the center of each heart. Transfer cleaned artichokes to bowl of lemon water as you work, covering them with a clean kitchen towel to keep them completely submerged.",

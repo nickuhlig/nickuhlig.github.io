@@ -41,18 +41,21 @@
   "ingredients": [
     {
       "ingredient_id": 14,
-      "name": "Brussels sprouts, trimmed and split in half",
-      "quantity": "0.68 kg"
+      "name": "Brussels sprouts",
+      "quantity": "0.68 kg",
+      "prep": "trimmed and split in half"
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, thinly sliced",
-      "quantity": "2 medium"
+      "name": "shallots",
+      "quantity": "2 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, peeled and cut into thin matchsticks",
-      "quantity": "1 (5 cm) knob"
+      "name": "ginger",
+      "quantity": "1 (5 cm) knob",
+      "prep": "peeled and cut into thin matchsticks"
     },
     {
       "ingredient_id": 47,
@@ -71,8 +74,9 @@
     },
     {
       "ingredient_id": 1214,
-      "name": "drained kimchi, roughly chopped",
-      "quantity": "1 cup"
+      "name": "drained kimchi",
+      "quantity": "1 cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 103,
@@ -96,6 +100,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim and split the Brussels sprouts in half. Thinly slice the shallots. Peel and cut the ginger into thin matchsticks. Roughly chop the drained kimchi.",
+      "secondary_message": "0.68 kg Brussels sprouts\n2 medium shallots\n1 (5 cm) knob ginger\n1 cup drained kimchi"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to upper position, place a foil-lined rimmed baking sheet on it, and preheat oven to 260°C (500°F).",

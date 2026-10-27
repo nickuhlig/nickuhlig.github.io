@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 242,
-      "name": "fresh strawberries, hulled and halved",
-      "quantity": "2 lb"
+      "name": "fresh strawberries",
+      "quantity": "2 lb",
+      "prep": "hulled and halved"
     },
     {
       "ingredient_id": 346,
@@ -96,13 +97,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into small pieces",
-      "quantity": "3 tbsp"
+      "name": "cold unsalted butter",
+      "quantity": "3 tbsp",
+      "prep": "cut into small pieces"
     },
     {
       "ingredient_id": 2310,
-      "name": "cold vegetable shortening, cut into small pieces",
-      "quantity": "2 tbsp"
+      "name": "cold vegetable shortening",
+      "quantity": "2 tbsp",
+      "prep": "cut into small pieces"
     },
     {
       "ingredient_id": 1701,
@@ -116,6 +119,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Hull and halve the fresh strawberries. Cut the cold unsalted butter into small pieces. Cut the cold vegetable shortening into small pieces.",
+      "secondary_message": "2 lb fresh strawberries\n3 tbsp cold unsalted butter\n2 tbsp cold vegetable shortening"
+    },
     {
       "id": 1,
       "primary_message": "For the Strawberry Filling: Adjust oven rack to middle position and preheat oven to 400°F. Grease an 8- by 8-inch baking dish and set aside. In a large bowl, stir together strawberries, sugar, lemon zest and juice, and kosher salt to combine. Let sit at room temperature, stirring occasionally, until strawberries release juices and become syrupy, about 30 minutes. Stir in cornstarch until well combined and no dry spots remain. Transfer to prepared baking dish.",

@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 1752,
-      "name": "heavy cream, chilled",
-      "quantity": "1 ½ cups"
+      "name": "heavy cream",
+      "quantity": "1 ½ cups",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 1591,
@@ -56,13 +57,15 @@
     },
     {
       "ingredient_id": 34,
-      "name": "blackberries, sliced",
-      "quantity": "3 cups"
+      "name": "blackberries",
+      "quantity": "3 cups",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 256,
-      "name": "pistachio nuts, toasted and roughly chopped",
-      "quantity": "⅔ cup"
+      "name": "pistachio nuts",
+      "quantity": "⅔ cup",
+      "prep": "toasted and roughly chopped"
     },
     {
       "ingredient_id": 1708,
@@ -71,6 +74,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the heavy cream cold until you use it. Slice the blackberries. Toast and roughly chop the pistachio nuts.",
+      "secondary_message": "1 ½ cups heavy cream\n3 cups blackberries\n⅔ cup pistachio nuts"
+    },
     {
       "id": 1,
       "primary_message": "In the bowl of an electric mixer, combine cream, rose water, and sugar. Whip on high speed until cream holds stiff peaks.",

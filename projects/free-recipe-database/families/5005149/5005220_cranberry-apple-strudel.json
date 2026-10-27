@@ -37,13 +37,15 @@
   "ingredients": [
     {
       "ingredient_id": 1021,
-      "name": "package of puff pastry, thawed",
-      "quantity": "245 g"
+      "name": "package of puff pastry",
+      "quantity": "245 g",
+      "prep": "thawed"
     },
     {
       "ingredient_id": 113,
-      "name": "sliced granny smith apples, peeled, cored, and thinly sliced",
-      "quantity": "3 cups"
+      "name": "sliced granny smith apples",
+      "quantity": "3 cups",
+      "prep": "peeled, cored, and thinly sliced"
     },
     {
       "ingredient_id": 346,
@@ -87,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thaw the package of puff pastry. Peel, core, and thinly slice the sliced granny smith apples.",
+      "secondary_message": "245 g package of puff pastry\n3 cups sliced granny smith apples"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 175°C (350°F). Line a baking sheet with parchment paper.",

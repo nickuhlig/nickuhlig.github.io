@@ -34,13 +34,15 @@
   "ingredients": [
     {
       "ingredient_id": 3409,
-      "name": "Caribbean red papaya, peeled, seeded, and roughly diced",
-      "quantity": "1"
+      "name": "Caribbean red papaya",
+      "quantity": "1",
+      "prep": "peeled, seeded, and roughly diced"
     },
     {
       "ingredient_id": 2485,
-      "name": "habanero pepper, stemmed and seeded",
-      "quantity": "1"
+      "name": "habanero pepper",
+      "quantity": "1",
+      "prep": "stemmed and seeded"
     },
     {
       "ingredient_id": 144,
@@ -104,6 +106,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel, seed, and roughly dice the Caribbean red papaya. Stem and seed the habanero pepper.",
+      "secondary_message": "1 Caribbean red papaya\n1 habanero pepper"
+    },
     {
       "id": 1,
       "primary_message": "Place papaya, habanero(s), shallots, vinegar, lime juice, brown sugar, garlic, ginger, allspice, cloves, cinnamon, and nutmeg in jar of a blender. Puree until smooth.",

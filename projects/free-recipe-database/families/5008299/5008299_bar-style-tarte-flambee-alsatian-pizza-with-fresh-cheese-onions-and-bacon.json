@@ -75,16 +75,24 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, very thinly sliced",
-      "quantity": "1 medium"
+      "name": "white onion",
+      "quantity": "1 medium",
+      "prep": "very thinly sliced"
     },
     {
       "ingredient_id": 302,
-      "name": "sliced bacon, cut crosswise into thin strips",
-      "quantity": "¼ lb"
+      "name": "sliced bacon",
+      "quantity": "¼ lb",
+      "prep": "cut crosswise into thin strips"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Very thinly slice the white onion. Cut the sliced bacon crosswise into thin strips.",
+      "secondary_message": "1 medium white onion\n¼ lb sliced bacon"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to 6 to 8 inches below broiler element and preheat broiler to high. In a medium bowl, whisk together fromage blanc and crème fraîche together until thoroughly incorporated. Season with salt and pepper; whisk in nutmeg.",

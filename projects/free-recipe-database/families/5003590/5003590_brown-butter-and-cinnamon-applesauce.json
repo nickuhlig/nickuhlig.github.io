@@ -33,14 +33,16 @@
   "ingredients": [
     {
       "ingredient_id": 1266,
-      "name": "Golden Delicious Apples, peeled, cored, and quartered",
-      "quantity": "2 lb"
+      "name": "Golden Delicious Apples",
+      "quantity": "2 lb",
+      "prep": "peeled, cored, and quartered"
     },
     {
       "ingredient_id": 1692,
-      "name": "Fuji Apples, peeled, cored, and quartered",
+      "name": "Fuji Apples",
       "quantity": "5",
-      "weigh_as": "2 lb"
+      "weigh_as": "2 lb",
+      "prep": "peeled, cored, and quartered"
     },
     {
       "ingredient_id": 2150,
@@ -79,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel, core, and quarter the Golden Delicious Apples. Peel, core, and quarter the Fuji Apples.",
+      "secondary_message": "2 lb Golden Delicious Apples\n5 Fuji Apples"
+    },
     {
       "id": 1,
       "primary_message": "Place apples, cider, brown sugar, lemon juice, cinnamon, and nutmeg in a large dutch oven. Bring to a boil over high heat; reduce heat and simmer until apples are tender, about 25-30 minutes. Remove from heat. Mash with potato masher to desired consistency.",

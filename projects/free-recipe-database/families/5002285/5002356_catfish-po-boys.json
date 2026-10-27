@@ -64,8 +64,9 @@
     },
     {
       "ingredient_id": 2387,
-      "name": "catfish fillets, halved lengthwise along natural seam",
-      "quantity": "4"
+      "name": "catfish fillets",
+      "quantity": "4",
+      "prep": "halved lengthwise along natural seam"
     },
     {
       "ingredient_id": 1044,
@@ -94,13 +95,15 @@
     },
     {
       "ingredient_id": 260,
-      "name": "tomatoes, thinly sliced",
-      "quantity": "2 medium"
+      "name": "tomatoes",
+      "quantity": "2 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1773,
-      "name": "iceberg lettuce, shredded",
-      "quantity": "1 small head"
+      "name": "iceberg lettuce",
+      "quantity": "1 small head",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 267,
@@ -139,8 +142,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "1 clove"
+      "name": "garlic",
+      "quantity": "1 clove",
+      "prep": "minced"
     },
     {
       "ingredient_id": 88,
@@ -154,6 +158,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the catfish fillets lengthwise along natural seam. Thinly slice the tomatoes. Shred the iceberg lettuce. Mince the garlic.",
+      "secondary_message": "4 catfish fillets\n2 medium tomatoes\n1 small head iceberg lettuce\n1 clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Fish: In a large bowl, whisk together the eggs and buttermilk. Add the catfish, and let soak for 5 minutes. While the catfish soaks, in a medium bowl or shallow baking dish, whisk together corn flour, cornmeal, and Creole seasoning. Set a wire rack inside a rimmed baking sheet.\nPat fillets dry with a napkin or paper towel. Working in batches, dredge the fish in the seasoned corn flour mixture, shake off excess, and transfer to prepared wire rack. Repeat dredging process with remaining fillets. Refrigerate fish for 15 minutes.",

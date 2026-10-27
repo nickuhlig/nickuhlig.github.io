@@ -42,8 +42,9 @@
     },
     {
       "ingredient_id": 36,
-      "name": "snap peas, ends and strings pulled off",
-      "quantity": "1 lb"
+      "name": "snap peas",
+      "quantity": "1 lb",
+      "prep": "ends and strings pulled off"
     },
     {
       "ingredient_id": 24,
@@ -87,16 +88,24 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely minced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 243,
-      "name": "mint leaves, finely minced",
-      "quantity": "12"
+      "name": "mint leaves",
+      "quantity": "12",
+      "prep": "finely minced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pull off the ends and strings of the snap peas. Finely mince the shallot. Finely mince the mint leaves.",
+      "secondary_message": "1 lb snap peas\n1 small shallot\n12 mint leaves"
+    },
     {
       "id": 1,
       "primary_message": "Bring a large saucepan of heavily salted water to a boil and prepare an ice bath. Add snap peas and boil until crisp-tender, about 2 minutes. Using a slotted spoon or mesh strainer, transfer snap peas to ice bath to chill.",

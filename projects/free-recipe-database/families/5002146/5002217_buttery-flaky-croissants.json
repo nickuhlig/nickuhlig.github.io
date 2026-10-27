@@ -98,13 +98,15 @@
     },
     {
       "ingredient_id": 118,
-      "name": "whole milk, at room temperature",
-      "quantity": "180 g"
+      "name": "whole milk",
+      "quantity": "180 g",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 359,
-      "name": "water, at room temperature",
-      "quantity": "236 g"
+      "name": "water",
+      "quantity": "236 g",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 115,
@@ -123,11 +125,18 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, lightly beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "lightly beaten"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the whole milk to room temperature. Bring the water to room temperature. Lightly beat the egg.",
+      "secondary_message": "180 g whole milk\n236 g water\n1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "For the Détrempe: In a large mixing bowl, whisk flour, sugar, salt, and instant yeast to combine. Add softened butter and toss to evenly coat with flour mixture. Using your fingertips, pinch and flatten butter, then rub it between your fingertips until a sandy texture forms, 3 to 4 minutes.",

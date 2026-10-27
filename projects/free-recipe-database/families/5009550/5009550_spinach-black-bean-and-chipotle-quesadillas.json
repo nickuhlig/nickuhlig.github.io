@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 1618,
-      "name": "chipotle chilis, canned in adobo sauce, minced",
-      "quantity": "1"
+      "name": "chipotle chilis, canned in adobo sauce",
+      "quantity": "1",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1236,
@@ -71,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the chipotle chilis.",
+      "secondary_message": "1 chipotle chilis, canned in adobo sauce"
+    },
     {
       "id": 1,
       "primary_message": "Heat 2 teaspoons oil in a 10-inch cast iron or nonstick skillet over medium-high heat until shimmering. Add spinach, season with salt, and cook, stirring, until wilted, about 1 minute. Transfer to a bowl.",

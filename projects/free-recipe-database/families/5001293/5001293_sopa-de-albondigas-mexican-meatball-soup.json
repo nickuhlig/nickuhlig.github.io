@@ -44,18 +44,21 @@
   "ingredients": [
     {
       "ingredient_id": 1541,
-      "name": "plum tomatoes, chopped",
-      "quantity": "3 medium"
+      "name": "plum tomatoes",
+      "quantity": "3 medium",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, diced",
-      "quantity": "½ medium"
+      "name": "white onion",
+      "quantity": "½ medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, chopped",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 3686,
@@ -89,13 +92,15 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, finely chopped",
-      "quantity": "½ medium"
+      "name": "white onion",
+      "quantity": "½ medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated or finely minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "grated or finely minced"
     },
     {
       "ingredient_id": 116,
@@ -129,18 +134,21 @@
     },
     {
       "ingredient_id": 149,
-      "name": "baby red potatoes, halved",
-      "quantity": "9 oz"
+      "name": "baby red potatoes",
+      "quantity": "9 oz",
+      "prep": "halved"
     },
     {
       "ingredient_id": 27,
-      "name": "corn, each ear cut crosswise into 3 pieces",
-      "quantity": "3 ears"
+      "name": "corn",
+      "quantity": "3 ears",
+      "prep": "each ear cut crosswise into 3 pieces"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, cut into 1/4-inch rounds",
-      "quantity": "2 large"
+      "name": "carrots",
+      "quantity": "2 large",
+      "prep": "cut into 1/4-inch rounds"
     },
     {
       "ingredient_id": 2324,
@@ -149,6 +157,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the plum tomatoes. Dice the white onion. Chop the garlic. Finely chop the white onion. Grate or finely mince the garlic. Halve the baby red potatoes. Cut the ear of the corn crosswise into 3 pieces. Cut the carrots into 1/4-inch rounds.",
+      "secondary_message": "3 medium plum tomatoes\n½ medium white onion\n3 medium cloves garlic\n½ medium white onion\n3 medium cloves garlic\n9 oz baby red potatoes\n3 ears corn\n2 large carrots"
+    },
     {
       "id": 1,
       "primary_message": "In a blender on high speed, blend the tomatoes, onion, garlic, and salt until smooth. Transfer to a large stock pot or Dutch oven. Add chicken stock and bring to a boil over high heat.",

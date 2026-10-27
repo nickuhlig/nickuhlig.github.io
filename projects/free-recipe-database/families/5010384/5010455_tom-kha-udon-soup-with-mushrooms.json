@@ -50,13 +50,15 @@
     },
     {
       "ingredient_id": 1816,
-      "name": "lemongrass, cut into 1-inch pieces and bruised",
-      "quantity": "2 stalks"
+      "name": "lemongrass",
+      "quantity": "2 stalks",
+      "prep": "cut into 1-inch pieces and bruised"
     },
     {
       "ingredient_id": 1818,
-      "name": "fresh makrut lime leaves, torn and bruised",
-      "quantity": "3 to 4"
+      "name": "fresh makrut lime leaves",
+      "quantity": "3 to 4",
+      "prep": "torn and bruised"
     },
     {
       "ingredient_id": 1815,
@@ -65,13 +67,15 @@
     },
     {
       "ingredient_id": 2731,
-      "name": "fresh mushrooms, cut into bite-sized pieces",
-      "quantity": "227 g"
+      "name": "fresh mushrooms",
+      "quantity": "227 g",
+      "prep": "cut into bite-sized pieces"
     },
     {
       "ingredient_id": 1810,
-      "name": "bird's eye chilies, sliced",
-      "quantity": "3 to 4"
+      "name": "bird's eye chilies",
+      "quantity": "3 to 4",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 88,
@@ -85,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the lemongrass into 1-inch pieces, then bruise it. Tear and bruise the fresh makrut lime leaves. Cut the fresh mushrooms into bite-sized pieces. Slice the bird's eye chilies.",
+      "secondary_message": "2 stalks lemongrass\n3 to 4 fresh makrut lime leaves\n227 g fresh mushrooms\n3 to 4 bird's eye chilies"
+    },
     {
       "id": 1,
       "primary_message": "Prepare udon noodles according to package instructions; drain and set aside.",

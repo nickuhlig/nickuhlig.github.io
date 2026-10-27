@@ -59,8 +59,9 @@
   "ingredients": [
     {
       "ingredient_id": 1816,
-      "name": "lemongrass, roughly chopped",
-      "quantity": "1 stalk"
+      "name": "lemongrass",
+      "quantity": "1 stalk",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1044,
@@ -109,8 +110,9 @@
     },
     {
       "ingredient_id": 1629,
-      "name": "skinless boneless chicken breasts, sliced into 1/2-inch strips lengthwise",
-      "quantity": "0.45 kg"
+      "name": "skinless boneless chicken breasts",
+      "quantity": "0.45 kg",
+      "prep": "sliced into 1/2-inch strips lengthwise"
     },
     {
       "ingredient_id": 407,
@@ -119,6 +121,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the lemongrass. Slice the skinless boneless chicken breasts into 1/2-inch strips lengthwise.",
+      "secondary_message": "1 stalk lemongrass\n0.45 kg skinless boneless chicken breasts"
+    },
     {
       "id": 1,
       "primary_message": "Place lemongrass, oil, fish sauce, sugar, lime juice, soy sauce, turmeric, garlic, coriander, and Sriracha in jar of a blender and blend on high speed until smooth, about 30 seconds, scraping down sides as necessary.",

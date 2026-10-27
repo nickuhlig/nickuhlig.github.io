@@ -62,8 +62,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, roughly chopped",
-      "quantity": "6"
+      "name": "scallions",
+      "quantity": "6",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 24,
@@ -72,16 +73,24 @@
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, roughly sliced",
-      "quantity": "1 (5 cm) knob"
+      "name": "ginger",
+      "quantity": "1 (5 cm) knob",
+      "prep": "roughly sliced"
     },
     {
       "ingredient_id": 144,
-      "name": "whole shallot, split in half",
-      "quantity": "1"
+      "name": "whole shallot",
+      "quantity": "1",
+      "prep": "split in half"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the scallions. Roughly slice the ginger. Split the whole shallot in half.",
+      "secondary_message": "6 scallions\n1 (5 cm) knob ginger\n1 whole shallot"
+    },
     {
       "id": 1,
       "primary_message": "Lay pork belly on cutting board and roll up lengthwise, with skin facing out.",

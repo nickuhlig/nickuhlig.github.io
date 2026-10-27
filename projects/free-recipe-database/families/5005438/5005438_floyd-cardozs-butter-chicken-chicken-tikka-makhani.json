@@ -54,8 +54,9 @@
   "ingredients": [
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 221,
@@ -64,8 +65,9 @@
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeno chile, seeded and chopped",
-      "quantity": "1"
+      "name": "jalapeno chile",
+      "quantity": "1",
+      "prep": "seeded and chopped"
     },
     {
       "ingredient_id": 1421,
@@ -119,13 +121,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, chopped",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 1330,
@@ -134,8 +138,9 @@
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeno chile, seeded and chopped",
-      "quantity": "1"
+      "name": "jalapeno chile",
+      "quantity": "1",
+      "prep": "seeded and chopped"
     },
     {
       "ingredient_id": 115,
@@ -174,6 +179,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the garlic. Seed and chop the jalapeno chile. Chop the onion. Peel the garlic. Seed and chop the jalapeno chile.",
+      "secondary_message": "4 medium cloves garlic\n1 jalapeno chile\n1 large onion\n3 medium cloves garlic\n1 jalapeno chile"
+    },
     {
       "id": 1,
       "primary_message": "For the Chicken Tikka: In a food processor, combine garlic, ginger, chile, lime juice, oil, salt, and spices. Process until a rough paste forms, then add yogurt and process until smooth. Transfer to a large zip top bag or leakproof container and add chicken. Marinate 4 to 6 hours, or overnight.",

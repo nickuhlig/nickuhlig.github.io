@@ -110,13 +110,15 @@
     },
     {
       "ingredient_id": 2832,
-      "name": "stale French baguette loaf, cubed",
-      "quantity": "½"
+      "name": "stale French baguette loaf",
+      "quantity": "½",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 1980,
-      "name": "cucumber, thinly sliced crosswise",
-      "quantity": "1"
+      "name": "cucumber",
+      "quantity": "1",
+      "prep": "thinly sliced crosswise"
     },
     {
       "ingredient_id": 151,
@@ -150,6 +152,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cube the stale French baguette loaf. Thinly slice the cucumber crosswise.",
+      "secondary_message": "½ stale French baguette loaf\n1 cucumber"
+    },
     {
       "id": 1,
       "primary_message": "For the Tofu: Transfer tofu to a large zipper-lock freezer bag. In a small bowl, whisk together lemongrass, soy sauce, honey, and fish sauce. Pour marinade over tofu, press out all air from the bag, seal, and refrigerate for at least 30 minutes or overnight, turning once halfway through marinating time.",

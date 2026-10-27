@@ -34,8 +34,9 @@
   "ingredients": [
     {
       "ingredient_id": 302,
-      "name": "sliced bacon, cut into 1/2-inch strips",
-      "quantity": "113 g"
+      "name": "sliced bacon",
+      "quantity": "113 g",
+      "prep": "cut into 1/2-inch strips"
     },
     {
       "ingredient_id": 152,
@@ -109,13 +110,15 @@
     },
     {
       "ingredient_id": 1388,
-      "name": "butter beans, drained and rinsed",
-      "quantity": "1 (439 g) can"
+      "name": "butter beans",
+      "quantity": "1 (439 g) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 91,
-      "name": "great northern beans, drained and rinsed",
-      "quantity": "1 (439 g) can"
+      "name": "great northern beans",
+      "quantity": "1 (439 g) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 88,
@@ -124,6 +127,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the sliced bacon into 1/2-inch strips. Drain and rinse the butter beans. Drain and rinse the great northern beans.",
+      "secondary_message": "113 g sliced bacon\n1 (439 g) can butter beans\n1 (439 g) can great northern beans"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 150°C (300°F). Place a 30-cm skillet or dutch oven over medium-high heat. Add bacon and cook until fat has rendered and bacon has crisped, 7-10 minutes. Transfer bacon to a paper towel-lined plate, leaving as much fat in the pan as possible.",

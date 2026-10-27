@@ -51,28 +51,33 @@
     },
     {
       "ingredient_id": 2489,
-      "name": "cooked andouille sausage, cut into 1/2-inch disks",
-      "quantity": "1 lb"
+      "name": "cooked andouille sausage",
+      "quantity": "1 lb",
+      "prep": "cut into 1/2-inch disks"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 291,
-      "name": "green bell pepper, stemmed, seeded, and finely chopped",
-      "quantity": "1"
+      "name": "green bell pepper",
+      "quantity": "1",
+      "prep": "stemmed, seeded, and finely chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, finely chopped",
-      "quantity": "4 ribs"
+      "name": "celery",
+      "quantity": "4 ribs",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 71,
@@ -106,6 +111,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cooked andouille sausage into 1/2-inch disks. Finely chop the onion. Stem, seed, and finely chop the green bell pepper. Finely chop the celery. Mince the garlic.",
+      "secondary_message": "1 lb cooked andouille sausage\n1 large onion\n1 green bell pepper\n4 ribs celery\n4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Place beans in a large bowl and cover with 6 cups cold water. Add 2 tablespoons kosher salt and stir until dissolved. Set aside at room temperature for 8 to 16 hours. Drain and rinse.",

@@ -62,8 +62,9 @@
   "ingredients": [
     {
       "ingredient_id": 234,
-      "name": "fresh firm-ripe peaches, peeled and chopped",
-      "quantity": "2 medium"
+      "name": "fresh firm-ripe peaches",
+      "quantity": "2 medium",
+      "prep": "peeled and chopped"
     },
     {
       "ingredient_id": 1480,
@@ -97,13 +98,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened, divided",
-      "quantity": "4 tbsp"
+      "name": "unsalted butter, divided",
+      "quantity": "4 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "4 oz"
+      "name": "cream cheese",
+      "quantity": "4 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 316,
@@ -112,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and chop the fresh firm-ripe peaches. Soften the unsalted butter. Soften the cream cheese.",
+      "secondary_message": "2 medium fresh firm-ripe peaches\n4 tbsp unsalted butter, divided\n4 oz cream cheese"
+    },
     {
       "id": 1,
       "primary_message": "For the Peach Filling: Adjust oven rack to lowest position and preheat oven to 400°F. In an 8-by-8-inch baking dish, stir together peaches, lemon juice, and 3 tablespoons granulated sugar. Bake until peaches are very soft and syrup has slightly thickened, about 30 minutes. Remove from oven, and increase oven temperature to 450°F.",

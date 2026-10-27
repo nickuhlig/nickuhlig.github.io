@@ -56,13 +56,15 @@
     },
     {
       "ingredient_id": 317,
-      "name": "just-ripe bananas, unpeeled",
-      "quantity": "2"
+      "name": "just-ripe bananas",
+      "quantity": "2",
+      "prep": "unpeeled"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "12 tbsp (6 oz)"
+      "name": "unsalted butter",
+      "quantity": "12 tbsp (6 oz)",
+      "prep": "softened"
     },
     {
       "ingredient_id": 293,
@@ -111,11 +113,18 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, 60% cacao, chopped , divided",
-      "quantity": "5 oz"
+      "name": "bittersweet chocolate, 60% cacao, divided",
+      "quantity": "5 oz",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Leave the just-ripe bananas unpeeled. Soften the unsalted butter. Chop the bittersweet chocolate.",
+      "secondary_message": "2 just-ripe bananas\n12 tbsp (6 oz) unsalted butter\n5 oz bittersweet chocolate, 60% cacao, divided"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350°F. Grease and line a 9x9-inch baking pan with parchment paper, letting the parchment overhang on 2 sides by at least 1 inch. Line a rimmed baking sheet with parchment paper.",

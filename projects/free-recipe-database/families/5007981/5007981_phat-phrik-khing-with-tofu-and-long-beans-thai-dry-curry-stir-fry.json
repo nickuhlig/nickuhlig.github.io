@@ -54,23 +54,27 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "6 medium cloves"
+      "name": "garlic",
+      "quantity": "6 medium cloves",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, peeled and roughly chopped",
-      "quantity": "2 medium"
+      "name": "shallots",
+      "quantity": "2 medium",
+      "prep": "peeled and roughly chopped"
     },
     {
       "ingredient_id": 1762,
-      "name": "red Thai bird chiles, roughly chopped",
-      "quantity": "2 to 6"
+      "name": "red Thai bird chiles",
+      "quantity": "2 to 6",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 188,
-      "name": "cilantro stems, roughly chopped",
-      "quantity": "1 large bunch"
+      "name": "cilantro stems",
+      "quantity": "1 large bunch",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1818,
@@ -84,8 +88,9 @@
     },
     {
       "ingredient_id": 1815,
-      "name": "galangal, peeled",
-      "quantity": "1 (1 inch) knob"
+      "name": "galangal",
+      "quantity": "1 (1 inch) knob",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 1086,
@@ -109,8 +114,9 @@
     },
     {
       "ingredient_id": 111,
-      "name": "green beans, trimmed and cut into 1 1/2-inch lengths",
-      "quantity": "1 lb"
+      "name": "green beans",
+      "quantity": "1 lb",
+      "prep": "trimmed and cut into 1 1/2-inch lengths"
     },
     {
       "ingredient_id": 346,
@@ -124,6 +130,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the garlic. Peel and roughly chop the shallots. Roughly chop the red Thai bird chiles. Roughly chop the cilantro stems. Peel the galangal. Trim and cut the green beans into 1 1/2-inch lengths.",
+      "secondary_message": "6 medium cloves garlic\n2 medium shallots\n2 to 6 red Thai bird chiles\n1 large bunch cilantro stems\n1 (1 inch) knob galangal\n1 lb green beans"
+    },
     {
       "id": 1,
       "primary_message": "Place chiles in a heatproof container and cover with boiling water. Cover and set aside for 10 minutes. Meanwhile, place garlic, shallots, Thai chiles, cilantro, lime leaves, lemongrass, galangal, ground pepper, and 1 teaspoon salt in a mortar and pestle. Pound into a rough paste. Drain chiles, add to mortar, and continue pounding until a rough paste has formed. Alternatively, chop all ingredients in a food processor (see note).",

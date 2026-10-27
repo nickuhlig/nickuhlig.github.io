@@ -68,8 +68,9 @@
     },
     {
       "ingredient_id": 2508,
-      "name": "whole bone-in skin-on turkey breast, patted dry",
-      "quantity": "1"
+      "name": "whole bone-in skin-on turkey breast",
+      "quantity": "1",
+      "prep": "patted dry"
     },
     {
       "ingredient_id": 1007,
@@ -83,18 +84,21 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, roughly chopped",
-      "quantity": "1 small"
+      "name": "carrot",
+      "quantity": "1 small",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, roughly chopped",
-      "quantity": "1 large stalk"
+      "name": "celery",
+      "quantity": "1 large stalk",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, roughly chopped",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1747,
@@ -113,6 +117,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pat the whole bone-in skin-on turkey breast dry. Roughly chop the carrot. Roughly chop the celery. Roughly chop the onion.",
+      "secondary_message": "1 whole bone-in skin-on turkey breast\n1 small carrot\n1 large stalk celery\n1 medium onion"
+    },
     {
       "id": 1,
       "primary_message": "Combine 2 teaspoons kosher salt, whole black peppercorns, sage leaves, garlic, fennel seed, and red pepper flakes in the bowl of a food processor. Process until a rough paste is formed, scraping down sides as necessary, about 30 seconds.",

@@ -91,13 +91,15 @@
     },
     {
       "ingredient_id": 2697,
-      "name": "pancetta, roughly chopped, divided",
-      "quantity": "2 oz"
+      "name": "pancetta, divided",
+      "quantity": "2 oz",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely chopped, divided",
-      "quantity": "1 medium"
+      "name": "shallot, divided",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1008,
@@ -116,6 +118,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the pancetta. Finely chop the shallot.",
+      "secondary_message": "2 oz pancetta, divided\n1 medium shallot, divided"
+    },
     {
       "id": 1,
       "primary_message": "For the Ravioli: Lay a clean kitchen towel or a triple layer of lint-free paper towels on a rimmed baking sheet. Spread ricotta evenly over surface of towels. Top with a second clean kitchen towel or triple layer of paper towels. Press with hands or a second rimmed baking sheet and let stand until excess moisture has been absorbed, 5 minutes. Transfer ricotta to a medium bowl (it should come right off the towels).",

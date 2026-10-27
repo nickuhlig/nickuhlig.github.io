@@ -58,8 +58,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "4 oz"
+      "name": "unsalted butter",
+      "quantity": "4 oz",
+      "prep": "melted"
     },
     {
       "ingredient_id": 346,
@@ -73,8 +74,9 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "8 oz"
+      "name": "bittersweet chocolate",
+      "quantity": "8 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1831,
@@ -103,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Finely chop the bittersweet chocolate.",
+      "secondary_message": "4 oz unsalted butter\n8 oz bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "For the Crust: In a food processor, pulse 36 wafer cookies until finely ground. Place crumbs in a large bowl and toss with melted butter, 1 teaspoon sugar, 1/4 teaspoon salt, and 2 teaspoons water to evenly coat. Scrape crumbs into the bottom of a 9-inch pie plate and, using flat-bottomed drinking glass or measuring cup, compress firmly until crumbs are in a compact, even layer across bottom and sides of pan.",

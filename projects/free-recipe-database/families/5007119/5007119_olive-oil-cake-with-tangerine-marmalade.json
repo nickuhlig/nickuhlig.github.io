@@ -37,8 +37,9 @@
   "ingredients": [
     {
       "ingredient_id": 2722,
-      "name": "tangerines, scrubbed",
-      "quantity": "2 large"
+      "name": "tangerines",
+      "quantity": "2 large",
+      "prep": "scrubbed"
     },
     {
       "ingredient_id": 359,
@@ -107,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Scrub the tangerines.",
+      "secondary_message": "2 large tangerines"
+    },
     {
       "id": 1,
       "primary_message": "For the marmalade: Place a saucer in the freezer. Cut tangerines in quarters, then remove the peels. Coarsely chop the flesh, removing and discarding any seeds. Using a spoon, scrape off any excess pith from the tangerine peels, then slice them into 1/8-inch strips.",

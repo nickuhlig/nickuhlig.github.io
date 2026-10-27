@@ -44,9 +44,10 @@
   "ingredients": [
     {
       "ingredient_id": 159,
-      "name": "carrots, trimmed to fit your jars",
+      "name": "carrots",
       "quantity": "11 medium",
-      "weigh_as": "1 ½ lb"
+      "weigh_as": "1 ½ lb",
+      "prep": "trimmed to fit your jars"
     },
     {
       "ingredient_id": 1574,
@@ -80,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the carrots to fit your jars.",
+      "secondary_message": "11 medium carrots"
+    },
     {
       "id": 1,
       "primary_message": "Bring a small pot of water to a boil to blanch the carrots.",

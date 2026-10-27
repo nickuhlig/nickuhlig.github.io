@@ -33,18 +33,21 @@
   "ingredients": [
     {
       "ingredient_id": 221,
-      "name": "ginger, peeled",
-      "quantity": "1 (2 inch) piece"
+      "name": "ginger",
+      "quantity": "1 (2 inch) piece",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "6 medium cloves"
+      "name": "garlic",
+      "quantity": "6 medium cloves",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 2308,
-      "name": "dried black urad dal, rinsed and drained",
-      "quantity": "1 cup"
+      "name": "dried black urad dal",
+      "quantity": "1 cup",
+      "prep": "rinsed and drained"
     },
     {
       "ingredient_id": 3659,
@@ -108,6 +111,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the ginger. Peel the garlic. Rinse and drain the dried black urad dal.",
+      "secondary_message": "1 (2 inch) piece ginger\n6 medium cloves garlic\n1 cup dried black urad dal"
+    },
     {
       "id": 1,
       "primary_message": "For the Ginger and Garlic Paste: Using a small food processor, purée ginger, garlic, and 1 tablespoon water until a smooth paste forms, about 2 minutes. Alternatively, using a mortar and pestle, pound ginger and garlic to form a smooth paste; transfer to a small bowl and stir in 1 tablespoon water. Set aside.",

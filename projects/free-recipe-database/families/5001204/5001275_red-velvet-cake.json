@@ -92,8 +92,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, room temperature, plus more for greasing",
-      "quantity": "227 g"
+      "name": "unsalted butter, plus more for greasing",
+      "quantity": "227 g",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 346,
@@ -117,13 +118,15 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, room temperature",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 2475,
-      "name": "buttermilk, room temperature",
-      "quantity": "1 cup"
+      "name": "buttermilk",
+      "quantity": "1 cup",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 3109,
@@ -132,6 +135,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature. Bring the eggs to room temperature. Bring the buttermilk to room temperature.",
+      "secondary_message": "227 g unsalted butter, plus more for greasing\n3 large eggs\n1 cup buttermilk"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 175°C (350°F). Grease two 20-cm round cake pans with butter and cover the bottom with a round of parchment paper. Lightly dust the insides of the cake pans with cocoa powder and discard any excess by tapping the pans upside down. (For cupcakes, line a muffin pan with baking cups.)",

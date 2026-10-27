@@ -69,8 +69,9 @@
     },
     {
       "ingredient_id": 3563,
-      "name": "green peppercorns in brine, drained",
-      "quantity": "2 tbsp"
+      "name": "green peppercorns in brine",
+      "quantity": "2 tbsp",
+      "prep": "drained"
     },
     {
       "ingredient_id": 287,
@@ -89,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain the green peppercorns in brine.",
+      "secondary_message": "2 tbsp green peppercorns in brine"
+    },
     {
       "id": 1,
       "primary_message": "After removing steaks from pan, turn heat to high, add olive oil and heat until shimmering. Add shallots and cook until softened and lightly browned, about 2-3 minutes.",

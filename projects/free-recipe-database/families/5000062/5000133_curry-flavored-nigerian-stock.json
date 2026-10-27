@@ -37,14 +37,16 @@
   "ingredients": [
     {
       "ingredient_id": 221,
-      "name": "fresh ginger knob, peeled",
+      "name": "fresh ginger knob",
       "quantity": "6 (1 inch) pieces",
-      "weigh_as": "60 g"
+      "weigh_as": "60 g",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 1887,
@@ -53,13 +55,15 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, roughly chopped",
-      "quantity": "1 medium"
+      "name": "red onion",
+      "quantity": "1 medium",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 291,
-      "name": "green bell pepper, stemmed, seeded, and roughly chopped",
-      "quantity": "1 medium"
+      "name": "green bell pepper",
+      "quantity": "1 medium",
+      "prep": "stemmed, seeded, and roughly chopped"
     },
     {
       "ingredient_id": 73,
@@ -88,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the fresh ginger knob. Peel the garlic. Roughly chop the red onion. Stem, seed, and roughly chop the green bell pepper.",
+      "secondary_message": "6 (1 inch) pieces fresh ginger knob\n4 medium cloves garlic\n1 medium red onion\n1 medium green bell pepper"
+    },
     {
       "id": 1,
       "primary_message": "In a blender, process ginger and garlic with 2 cups water until thoroughly blended.",

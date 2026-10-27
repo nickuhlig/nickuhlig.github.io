@@ -58,8 +58,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "Unsalted butter, softened, for greasing, as needed",
-      "quantity": ""
+      "name": "Unsalted butter, for greasing, as needed",
+      "quantity": "",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1866,
@@ -88,8 +89,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, yolks and whites separated",
-      "quantity": "5 large"
+      "name": "eggs",
+      "quantity": "5 large",
+      "prep": "yolks and whites separated"
     },
     {
       "ingredient_id": 346,
@@ -113,8 +115,9 @@
     },
     {
       "ingredient_id": 41,
-      "name": "canned coconut milk, well shaken",
-      "quantity": "240 ml"
+      "name": "canned coconut milk",
+      "quantity": "240 ml",
+      "prep": "well shaken"
     },
     {
       "ingredient_id": 118,
@@ -143,6 +146,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the Unsalted butter. Separate the yolks and whites of the eggs. Shake the canned coconut milk well.",
+      "secondary_message": "Unsalted butter, for greasing, as needed\n5 large eggs\n240 ml canned coconut milk"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Adjust oven rack to middle position and preheat oven to 165°C (325°F) if using a glass 9- by 33-cm ceramic or glass baking dish or 175°C (350°F) if using a metal one. Generously butter baking dish and set aside.",

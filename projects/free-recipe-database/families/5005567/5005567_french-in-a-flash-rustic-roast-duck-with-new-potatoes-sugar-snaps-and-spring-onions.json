@@ -29,8 +29,9 @@
   "ingredients": [
     {
       "ingredient_id": 238,
-      "name": "Jersey Royal potatoes, sliced in thirds",
-      "quantity": "1 ½ lb"
+      "name": "Jersey Royal potatoes",
+      "quantity": "1 ½ lb",
+      "prep": "sliced in thirds"
     },
     {
       "ingredient_id": 36,
@@ -39,8 +40,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, trimmed and cut in thirds",
-      "quantity": "7"
+      "name": "scallions",
+      "quantity": "7",
+      "prep": "trimmed and cut in thirds"
     },
     {
       "ingredient_id": 287,
@@ -74,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the Jersey Royal potatoes in thirds. Trim and cut the scallions in thirds.",
+      "secondary_message": "1 ½ lb Jersey Royal potatoes\n7 scallions"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 400 degrees F.",

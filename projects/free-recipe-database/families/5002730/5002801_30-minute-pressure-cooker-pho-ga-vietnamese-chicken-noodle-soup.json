@@ -45,13 +45,15 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onions, split in half",
-      "quantity": "2 medium"
+      "name": "yellow onions",
+      "quantity": "2 medium",
+      "prep": "split in half"
     },
     {
       "ingredient_id": 221,
-      "name": "hand of ginger, roughly sliced",
-      "quantity": "1 small"
+      "name": "hand of ginger",
+      "quantity": "1 small",
+      "prep": "roughly sliced"
     },
     {
       "ingredient_id": 161,
@@ -105,8 +107,9 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, thinly sliced",
-      "quantity": "1 small"
+      "name": "white onion",
+      "quantity": "1 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 153,
@@ -130,11 +133,18 @@
     },
     {
       "ingredient_id": 228,
-      "name": "limes, each cut into 4 wedges",
-      "quantity": "2"
+      "name": "limes",
+      "quantity": "2",
+      "prep": "each cut into 4 wedges"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the yellow onions in half. Roughly slice the hand of ginger. Thinly slice the white onion. Cut each lime into 4 wedges.",
+      "secondary_message": "2 medium yellow onions\n1 small hand of ginger\n1 small white onion\n2 limes"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in a pressure cooker over high heat until smoking. Add halved onions and ginger, cut sides down. Cook without moving, reducing heat if smoking excessively, until onion and ginger are well charred, about 5 minutes.",

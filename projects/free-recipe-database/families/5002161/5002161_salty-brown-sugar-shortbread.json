@@ -71,8 +71,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "8 oz"
+      "name": "unsalted butter",
+      "quantity": "8 oz",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 293,
@@ -106,6 +107,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature.",
+      "secondary_message": "8 oz unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In the bowl of a stand mixer fitted with the paddle attachment, beat butter, brown sugar, salt, baking soda, and vanilla on medium-high speed until smooth and creamy, about 3 minutes. Add flour, and mix on low speed until just combined, about 1 minute. Using a flexible spatula, scrape bowl and beater to make sure there are no streaks of unmixed dough, then knead lightly against sides of bowl. Halve the dough; place 1 portion of dough back into bowl.",

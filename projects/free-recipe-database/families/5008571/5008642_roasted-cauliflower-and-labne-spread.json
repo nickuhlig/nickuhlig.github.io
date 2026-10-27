@@ -34,8 +34,9 @@
   "ingredients": [
     {
       "ingredient_id": 158,
-      "name": "cauliflower, cut into small chunks",
-      "quantity": "1 large head"
+      "name": "cauliflower",
+      "quantity": "1 large head",
+      "prep": "cut into small chunks"
     },
     {
       "ingredient_id": 88,
@@ -69,11 +70,18 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "parsley, roughly chopped",
-      "quantity": "½ cup"
+      "name": "parsley",
+      "quantity": "½ cup",
+      "prep": "roughly chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cauliflower into small chunks. Roughly chop the parsley.",
+      "secondary_message": "1 large head cauliflower\n½ cup parsley"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 230°C (450°F). Lay cauliflower in roasting pan and coat with olive oil and heavy pinch salt. Roast until edges are nutty brown and paring knife inserted into cauliflower offers no resistance, about 30 minutes.",

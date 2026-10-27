@@ -35,18 +35,21 @@
   "ingredients": [
     {
       "ingredient_id": 3587,
-      "name": "husked, rinsed, and halved tomatillos",
-      "quantity": "227 g"
+      "name": "husked",
+      "quantity": "227 g",
+      "prep": "rinsed, and halved tomatillos"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "2 large cloves"
+      "name": "garlic",
+      "quantity": "2 large cloves",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño, stemmed and roughly chopped",
-      "quantity": "1"
+      "name": "jalapeño",
+      "quantity": "1",
+      "prep": "stemmed and roughly chopped"
     },
     {
       "ingredient_id": 188,
@@ -55,8 +58,9 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, finely chopped",
-      "quantity": "½ small"
+      "name": "white onion",
+      "quantity": "½ small",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 359,
@@ -75,6 +79,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse and halve the husked tomatillos. Peel the garlic. Stem and roughly chop the jalapeño. Finely chop the white onion.",
+      "secondary_message": "227 g husked\n2 large cloves garlic\n1 jalapeño\n½ small white onion"
+    },
     {
       "id": 1,
       "primary_message": "Light one chimney full of charcoal. When all the charcoal is lit and covered with gray ash, pour out and spread coals out evenly over the charcoal grate. Alternatively, set all the burners of a gas grill to high heat. Set cooking grate in place, cover grill, and allow to preheat for 5 minutes. Clean and oil grilling grate.\nPlace tomatillo halves on the grill, cut side down. Grill until browned and they begin to soften. Flip and continue to cook until completely softened. Remove the tomatillos to the work bowl of a blender or food processor. Let cool to room temperature.",

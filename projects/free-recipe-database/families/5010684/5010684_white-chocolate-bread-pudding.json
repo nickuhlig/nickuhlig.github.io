@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 191,
-      "name": "bread, cut into 1-inch cubes",
-      "quantity": "9 oz"
+      "name": "bread",
+      "quantity": "9 oz",
+      "prep": "cut into 1-inch cubes"
     },
     {
       "ingredient_id": 118,
@@ -66,8 +67,9 @@
     },
     {
       "ingredient_id": 2581,
-      "name": "white chocolate, finely chopped",
-      "quantity": "6 oz"
+      "name": "white chocolate",
+      "quantity": "6 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 3641,
@@ -91,11 +93,18 @@
     },
     {
       "ingredient_id": 2581,
-      "name": "white chocolate, finely chopped",
-      "quantity": "2 oz"
+      "name": "white chocolate",
+      "quantity": "2 oz",
+      "prep": "finely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the bread into 1-inch cubes. Finely chop the white chocolate. Finely chop the white chocolate.",
+      "secondary_message": "9 oz bread\n6 oz white chocolate\n2 oz white chocolate"
+    },
     {
       "id": 1,
       "primary_message": "For the Bread Pudding: Grease an 8-inch square pan with butter; set aside. Adjust oven rack to middle position and preheat oven to 350°F. Spread bread cubes onto a rimmed baking sheet and bake until edges of bread feels dry, about 10 minutes. Remove from oven and let pan cool on a wire rack.",

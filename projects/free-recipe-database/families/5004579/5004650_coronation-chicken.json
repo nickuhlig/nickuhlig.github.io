@@ -92,8 +92,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, thinly sliced",
-      "quantity": "2"
+      "name": "scallions",
+      "quantity": "2",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -112,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the scallions.",
+      "secondary_message": "2 scallions"
+    },
     {
       "id": 1,
       "primary_message": "Combine chicken stock and thighs in a medium saucepan and bring to a bare simmer over medium-high heat. Cook until thighs register 74°C on an instant-read thermometer, about 6 minutes after achieving a simmer. Remove from heat. Allow chicken to cool in the stock and when cool enough to handle, remove chicken and chop into 1.5 cm pieces and set aside. Reserve strained stock for another use.",

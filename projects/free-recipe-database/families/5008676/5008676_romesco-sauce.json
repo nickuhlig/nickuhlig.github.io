@@ -58,13 +58,15 @@
   "ingredients": [
     {
       "ingredient_id": 260,
-      "name": "tomatoes, cored",
-      "quantity": "2"
+      "name": "tomatoes",
+      "quantity": "2",
+      "prep": "cored"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, unpeeled, split in half",
-      "quantity": "1 medium head"
+      "name": "garlic",
+      "quantity": "1 medium head",
+      "prep": "unpeeled, split in half"
     },
     {
       "ingredient_id": 3088,
@@ -98,6 +100,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Core the tomatoes. Leave unpeeled and split the garlic in half.",
+      "secondary_message": "2 tomatoes\n1 medium head garlic"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 350°F. Line a rimmed baking sheet with aluminum foil and place tomatoes and half of garlic head on it. Roast in oven until tomatoes are wrinkled and lightly charred in spots and garlic is soft, about 1 hour. Let cool.",

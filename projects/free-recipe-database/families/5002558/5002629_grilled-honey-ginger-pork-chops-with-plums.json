@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 1975,
-      "name": "bone-in pork rib, 1/2-inch thick, trimmed",
-      "quantity": "0.68 kg"
+      "name": "bone-in pork rib, 1/2-inch thick",
+      "quantity": "0.68 kg",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 72,
@@ -81,8 +82,9 @@
     },
     {
       "ingredient_id": 469,
-      "name": "plums, halved and pitted",
-      "quantity": "4"
+      "name": "plums",
+      "quantity": "4",
+      "prep": "halved and pitted"
     },
     {
       "ingredient_id": 1480,
@@ -91,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the bone-in pork rib. Halve and pit the plums.",
+      "secondary_message": "0.68 kg bone-in pork rib, 1/2-inch thick\n4 plums"
+    },
     {
       "id": 1,
       "primary_message": "Melt butter in a small saucepan over medium heat. Stir in ginger, thyme, and 1/4 teaspoon kosher salt, and cook until fragrant, about 30 seconds. Off heat, whisk in honey.",

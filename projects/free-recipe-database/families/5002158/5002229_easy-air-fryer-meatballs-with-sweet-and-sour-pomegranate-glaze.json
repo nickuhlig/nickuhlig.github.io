@@ -45,8 +45,9 @@
   "ingredients": [
     {
       "ingredient_id": 144,
-      "name": "shallots, peeled",
-      "quantity": "2 medium"
+      "name": "shallots",
+      "quantity": "2 medium",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 24,
@@ -70,8 +71,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, lightly beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 88,
@@ -120,6 +122,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the shallots. Lightly beat the egg.",
+      "secondary_message": "2 medium shallots\n1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "For the Meatballs: Grate shallots using largest holes of a box grater and transfer to a large bowl. Add panko, and stir to combine; let sit to moisten for 5 minutes. Add beef, pork, egg, salt, cumin, and pepper, and using your hands, mix until just combined, making sure not to overmix.",

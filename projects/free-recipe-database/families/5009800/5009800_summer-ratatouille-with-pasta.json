@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely sliced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 1294,
@@ -72,23 +73,27 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely diced",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 2324,
-      "name": "zucchini, finely diced",
-      "quantity": "1 medium"
+      "name": "zucchini",
+      "quantity": "1 medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 1301,
-      "name": "summer squash, finely diced",
-      "quantity": "1 medium"
+      "name": "summer squash",
+      "quantity": "1 medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 18,
-      "name": "eggplant, finely diced",
-      "quantity": "1 small"
+      "name": "eggplant",
+      "quantity": "1 small",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 1751,
@@ -107,6 +112,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely slice the garlic. Finely dice the onion. Finely dice the zucchini. Finely dice the summer squash. Finely dice the eggplant.",
+      "secondary_message": "3 medium cloves garlic\n1 small onion\n1 medium zucchini\n1 medium summer squash\n1 small eggplant"
+    },
     {
       "id": 1,
       "primary_message": "Combine 2 tablespoons oil and garlic in a medium nonstick skillet. Heat over medium and cook, stirring occasionally, until garlic is a pale golden brown, about 5 minutes. Add tomato strips and their juice, increase heat to medium-high, and cook, stirring constantly, until lightly reduced, about 5 minutes. Add 1/2 teaspoon fresh thyme, season to taste with salt and pepper, then transfer to a bowl and set aside.",

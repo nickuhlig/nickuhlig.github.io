@@ -42,13 +42,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely chopped",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "5 medium cloves"
+      "name": "garlic",
+      "quantity": "5 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 346,
@@ -72,8 +74,9 @@
     },
     {
       "ingredient_id": 1958,
-      "name": "skin-on pork belly, frozen for 45 to 50 minutes",
-      "quantity": "1 lb"
+      "name": "skin-on pork belly",
+      "quantity": "1 lb",
+      "prep": "frozen for 45 to 50 minutes"
     },
     {
       "ingredient_id": 359,
@@ -97,18 +100,21 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, white and green parts, thinly sliced",
-      "quantity": "2"
+      "name": "scallions, white and green parts",
+      "quantity": "2",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, roughly chopped",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 72,
@@ -132,8 +138,9 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, peeled and thinly sliced",
-      "quantity": "1 small"
+      "name": "carrot",
+      "quantity": "1 small",
+      "prep": "peeled and thinly sliced"
     },
     {
       "ingredient_id": 2236,
@@ -162,46 +169,60 @@
     },
     {
       "ingredient_id": 308,
-      "name": "butter lettuce, leaves picked and washed",
-      "quantity": "1 head"
+      "name": "butter lettuce",
+      "quantity": "1 head",
+      "prep": "leaves picked and washed"
     },
     {
       "ingredient_id": 2299,
-      "name": "Thai basil, leaves picked",
-      "quantity": "1 bunch"
+      "name": "Thai basil",
+      "quantity": "1 bunch",
+      "prep": "leaves picked"
     },
     {
       "ingredient_id": 2312,
-      "name": "Vietnamese coriander, leaves picked",
-      "quantity": "1 bunch"
+      "name": "Vietnamese coriander",
+      "quantity": "1 bunch",
+      "prep": "leaves picked"
     },
     {
       "ingredient_id": 2264,
-      "name": "perilla, leaves picked",
-      "quantity": "1 bunch"
+      "name": "perilla",
+      "quantity": "1 bunch",
+      "prep": "leaves picked"
     },
     {
       "ingredient_id": 2262,
-      "name": "peppermint, leaves picked",
-      "quantity": "1 bunch"
+      "name": "peppermint",
+      "quantity": "1 bunch",
+      "prep": "leaves picked"
     },
     {
       "ingredient_id": 2212,
-      "name": "fish mint, leaves picked",
-      "quantity": "1 bunch"
+      "name": "fish mint",
+      "quantity": "1 bunch",
+      "prep": "leaves picked"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, chopped",
-      "quantity": "8 cloves"
+      "name": "garlic",
+      "quantity": "8 cloves",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1810,
-      "name": "bird’s eye chiles, thinly sliced",
-      "quantity": "2"
+      "name": "bird’s eye chiles",
+      "quantity": "2",
+      "prep": "thinly sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the shallot. Mince the garlic. Freeze the skin-on pork belly for 45 to 50 minutes. Thinly slice the scallions. Roughly chop the shallot. Roughly chop the garlic. Peel and thinly slice the carrot. Pick and wash the leaves from the butter lettuce. Pick the leaves from the Thai basil. Pick the leaves from the Vietnamese coriander. Pick the leaves from the perilla. Pick the leaves from the peppermint. Pick the leaves from the fish mint. Chop the garlic. Thinly slice the bird’s eye chiles.",
+      "secondary_message": "1 small shallot\n5 medium cloves garlic\n1 lb skin-on pork belly\n2 scallions, white and green parts\n1 small shallot\n2 medium cloves garlic\n1 small carrot\n1 head butter lettuce\n1 bunch Thai basil\n1 bunch Vietnamese coriander\n1 bunch perilla\n1 bunch peppermint\n1 bunch fish mint\n8 cloves garlic\n2 bird’s eye chiles"
+    },
     {
       "id": 1,
       "primary_message": "For the Pork Patties: In a large bowl, combine ground pork, shallots, garlic, sugar, fish sauce, and pepper and mix well. Cover bowl and refrigerate mixture for at least 4 and up to 24 hours.",

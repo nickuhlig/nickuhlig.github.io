@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 238,
-      "name": "new potatoes, scrubbed and rinsed",
-      "quantity": "4 lb"
+      "name": "new potatoes",
+      "quantity": "4 lb",
+      "prep": "scrubbed and rinsed"
     },
     {
       "ingredient_id": 88,
@@ -75,13 +76,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, thinly sliced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 1/4-inch slices",
-      "quantity": "½ stick"
+      "name": "unsalted butter",
+      "quantity": "½ stick",
+      "prep": "cut into 1/4-inch slices"
     },
     {
       "ingredient_id": 72,
@@ -90,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Scrub and rinse the new potatoes. Thinly slice the shallot. Cut the unsalted butter into 1/4-inch slices.",
+      "secondary_message": "4 lb new potatoes\n1 small shallot\n½ stick unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Place potatoes in a large saucepan and cover with water. Add salt and stir to dissolve. Bring to a boil over high heat. Reduce to a low boil and cook, stirring occasionally, until liquid has completely evaporated and potatoes are covered in a film of salt, about 45 minutes. Drain and rinse potatoes of excess salt.",

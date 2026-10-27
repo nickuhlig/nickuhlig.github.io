@@ -66,13 +66,15 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, roughly chopped",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, roughly chopped",
-      "quantity": "3 stalks"
+      "name": "celery",
+      "quantity": "3 stalks",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 88,
@@ -81,8 +83,9 @@
     },
     {
       "ingredient_id": 2144,
-      "name": "pickling spice, tied in cheesecloth",
-      "quantity": "1 tbsp"
+      "name": "pickling spice",
+      "quantity": "1 tbsp",
+      "prep": "tied in cheesecloth"
     },
     {
       "ingredient_id": 2540,
@@ -106,6 +109,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the yellow onion. Roughly chop the celery. Tie the pickling spice in cheesecloth.",
+      "secondary_message": "1 medium yellow onion\n3 stalks celery\n1 tbsp pickling spice"
+    },
     {
       "id": 1,
       "primary_message": "Combine ground beef and 4 cups cold water in a large 6-quart pot or Dutch oven. Using a stiff whisk or potato masher, stir vigorously to make a slurry (the meat mixture should be uniform).",

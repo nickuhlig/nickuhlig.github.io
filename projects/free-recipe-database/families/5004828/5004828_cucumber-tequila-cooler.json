@@ -54,8 +54,9 @@
     },
     {
       "ingredient_id": 155,
-      "name": "section English cucumber, peeled",
-      "quantity": "1 (2 inch)"
+      "name": "section English cucumber",
+      "quantity": "1 (2 inch)",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 2514,
@@ -74,11 +75,18 @@
     },
     {
       "ingredient_id": 2266,
-      "name": "seltzer, chilled",
-      "quantity": "2 oz"
+      "name": "seltzer",
+      "quantity": "2 oz",
+      "prep": "chilled"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the section English cucumber. Keep the seltzer cold until you use it.",
+      "secondary_message": "1 (2 inch) section English cucumber\n2 oz seltzer"
+    },
     {
       "id": 1,
       "primary_message": "Slice celery and cucumber into 1/2 inch slices. Add celery and salt to cocktail shaker and muddle until broken up. Add cucumber and agave nectar, muddle until smashed, about 20 seconds.",

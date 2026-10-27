@@ -39,8 +39,9 @@
   "ingredients": [
     {
       "ingredient_id": 355,
-      "name": "cream cheese, at room temperature",
-      "quantity": "4 oz"
+      "name": "cream cheese",
+      "quantity": "4 oz",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1752,
@@ -54,8 +55,9 @@
     },
     {
       "ingredient_id": 1938,
-      "name": "vanilla bean, scraped of its seeds",
-      "quantity": "½ (5 ½ inch)"
+      "name": "vanilla bean",
+      "quantity": "½ (5 ½ inch)",
+      "prep": "scraped of its seeds"
     },
     {
       "ingredient_id": 2346,
@@ -84,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the cream cheese to room temperature. Scrape the vanilla bean of its seeds.",
+      "secondary_message": "4 oz cream cheese\n½ (5 ½ inch) vanilla bean"
+    },
     {
       "id": 1,
       "primary_message": "Prepare 2 (4-inch) Coeur à la Crème molds by lining them with 2 layers of paper towels or damp cheesecloth (see note). Use a pastry brush to lightly brush the bit of cheesecloth or paper towel that touches the bottom and sides of the mold with water. This will allow you to nestle the cheesecloth or paper into the shape of the heart more easily.",

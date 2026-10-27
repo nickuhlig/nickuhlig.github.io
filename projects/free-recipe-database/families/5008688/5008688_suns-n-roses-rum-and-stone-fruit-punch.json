@@ -56,13 +56,15 @@
     },
     {
       "ingredient_id": 1938,
-      "name": "vanilla bean, split",
-      "quantity": "¼"
+      "name": "vanilla bean",
+      "quantity": "¼",
+      "prep": "split"
     },
     {
       "ingredient_id": 215,
-      "name": "dried apricots, diced",
-      "quantity": "¼ cup"
+      "name": "dried apricots",
+      "quantity": "¼ cup",
+      "prep": "diced"
     },
     {
       "ingredient_id": 234,
@@ -81,8 +83,9 @@
     },
     {
       "ingredient_id": 2447,
-      "name": "brewed white tea, cooled",
-      "quantity": "12 fl oz"
+      "name": "brewed white tea",
+      "quantity": "12 fl oz",
+      "prep": "cooled"
     },
     {
       "ingredient_id": 1480,
@@ -91,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the vanilla bean. Dice the dried apricots. Cool the brewed white tea.",
+      "secondary_message": "¼ vanilla bean\n¼ cup dried apricots\n12 fl oz brewed white tea"
+    },
     {
       "id": 1,
       "primary_message": "For the Stone Fruit Syrup: Add water, sugar, and vanilla bean to a small saucepan and bring to a simmer, stirring to dissolve sugar. Add dried apricots and simmer for 5 minutes, then remove from heat. Let stand for 5 minutes, then remove vanilla bean and pour syrup and fruit into a blender. Add fresh peach or nectarine and blend until smooth. Strain through a fine-mesh strainer, if desired, for a more polished appearance. Syrup can be used immediately or refrigerated for up to 1 week.",

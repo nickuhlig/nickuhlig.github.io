@@ -47,13 +47,15 @@
     },
     {
       "ingredient_id": 1514,
-      "name": "coriander seed, freshly ground",
-      "quantity": "2 tbsp"
+      "name": "coriander seed",
+      "quantity": "2 tbsp",
+      "prep": "freshly ground"
     },
     {
       "ingredient_id": 1271,
-      "name": "cumin seed, freshly ground",
-      "quantity": "2 tsp"
+      "name": "cumin seed",
+      "quantity": "2 tsp",
+      "prep": "freshly ground"
     },
     {
       "ingredient_id": 83,
@@ -62,18 +64,21 @@
     },
     {
       "ingredient_id": 72,
-      "name": "black pepper, freshly ground",
-      "quantity": "½ tsp"
+      "name": "black pepper",
+      "quantity": "½ tsp",
+      "prep": "freshly ground"
     },
     {
       "ingredient_id": 1865,
-      "name": "allspice berries, freshly ground",
-      "quantity": "6"
+      "name": "allspice berries",
+      "quantity": "6",
+      "prep": "freshly ground"
     },
     {
       "ingredient_id": 1882,
-      "name": "cardamom pods, fresh ground",
-      "quantity": "5"
+      "name": "cardamom pods",
+      "quantity": "5",
+      "prep": "fresh ground"
     },
     {
       "ingredient_id": 1776,
@@ -102,8 +107,9 @@
     },
     {
       "ingredient_id": 2171,
-      "name": "candied ginger, cut into large chunks",
-      "quantity": "½ cup"
+      "name": "candied ginger",
+      "quantity": "½ cup",
+      "prep": "cut into large chunks"
     },
     {
       "ingredient_id": 2281,
@@ -112,6 +118,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Freshly grind the coriander seed. Freshly grind the cumin seed. Freshly grind the black pepper. Freshly grind the allspice berries. Grind the fresh of the cardamom pods. Cut the candied ginger into large chunks.",
+      "secondary_message": "2 tbsp coriander seed\n2 tsp cumin seed\n½ tsp black pepper\n6 allspice berries\n5 cardamom pods\n½ cup candied ginger"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 150°C (300°F). Heat a 5-6 quart Dutch oven on medium-high heat for three minutes, then add oil. Meanwhile, salt lamb shanks liberally—two to three teaspoons kosher salt per shank. When oil shimmers, brown shanks in oil, in batches, if necessary, until lightly browned on all sides (you do not need a dark sear for this dish).",

@@ -33,8 +33,9 @@
   "ingredients": [
     {
       "ingredient_id": 302,
-      "name": "sliced bacon, diced",
-      "quantity": "227 g"
+      "name": "sliced bacon",
+      "quantity": "227 g",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1480,
@@ -53,8 +54,9 @@
     },
     {
       "ingredient_id": 2483,
-      "name": "watercress, finely chopped",
-      "quantity": "1 large bunch"
+      "name": "watercress",
+      "quantity": "1 large bunch",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 184,
@@ -63,8 +65,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, thinly sliced",
-      "quantity": "1 bunch"
+      "name": "scallions",
+      "quantity": "1 bunch",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -73,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the sliced bacon. Finely chop the watercress. Thinly slice the scallions.",
+      "secondary_message": "227 g sliced bacon\n1 large bunch watercress\n1 bunch scallions"
+    },
     {
       "id": 1,
       "primary_message": "Heat bacon in a dry skillet over medium heat and cook, stirring occasionally, until bacon is browned and crisp, and its fat has rendered, about 7 minutes. Using a slotted spoon, transfer bacon to a paper-towel-lined plate to drain. Measure 6 tablespoons bacon fat, reserving the rest for another use.",

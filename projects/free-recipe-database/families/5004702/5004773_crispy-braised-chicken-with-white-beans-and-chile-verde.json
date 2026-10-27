@@ -31,8 +31,9 @@
   "ingredients": [
     {
       "ingredient_id": 91,
-      "name": "white beans, small, rinsed and picked over",
-      "quantity": "0.45 kg"
+      "name": "white beans, small",
+      "quantity": "0.45 kg",
+      "prep": "rinsed and picked over"
     },
     {
       "ingredient_id": 88,
@@ -71,13 +72,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, thinly sliced",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 186,
@@ -101,6 +104,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse and pick the white beans over. Thinly slice the onion. Thinly slice the garlic.",
+      "secondary_message": "0.45 kg white beans, small\n1 large onion\n4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Cover white beans with 1 gallon (4 quarts) water. Add 1/4 cup salt and stir until dissolved. Cover and let rest at room temperature at least 8 hours and up to 24. Drain and rinse beans.",

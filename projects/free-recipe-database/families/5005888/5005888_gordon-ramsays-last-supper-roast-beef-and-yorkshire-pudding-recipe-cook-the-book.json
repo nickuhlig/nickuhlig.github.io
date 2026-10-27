@@ -59,8 +59,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "4"
+      "name": "eggs",
+      "quantity": "4",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 118,
@@ -79,18 +80,21 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, unpeeled",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "unpeeled"
     },
     {
       "ingredient_id": 184,
-      "name": "red onions, peeled and sliced",
-      "quantity": "2"
+      "name": "red onions",
+      "quantity": "2",
+      "prep": "peeled and sliced"
     },
     {
       "ingredient_id": 1541,
-      "name": "plum tomatoes, halved",
-      "quantity": "4"
+      "name": "plum tomatoes",
+      "quantity": "4",
+      "prep": "halved"
     },
     {
       "ingredient_id": 1714,
@@ -104,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Beat the eggs. Leave the garlic unpeeled. Peel and slice the red onions. Halve the plum tomatoes.",
+      "secondary_message": "4 eggs\n4 cloves garlic\n2 red onions\n4 plum tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "Heat the oven to 400°F. Season the beef with salt and pepper; sear in a hot roasting pan with the olive oil to brown on all sides, 3 to 4 minutes each side. Transfer to oven; roast, allowing 15 minutes a pound for rare or 20 minutes a pound for medium.",

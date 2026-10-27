@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 2654,
-      "name": "oil-packed bonito tuna, such as Ortiz, drained",
-      "quantity": "1 (8 ½ oz) can"
+      "name": "oil-packed bonito tuna, such as Ortiz",
+      "quantity": "1 (8 ½ oz) can",
+      "prep": "drained"
     },
     {
       "ingredient_id": 3374,
@@ -46,8 +47,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, minced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1480,
@@ -81,16 +83,24 @@
     },
     {
       "ingredient_id": 452,
-      "name": "piquillo peppers, drained, about 12 peppers total",
-      "quantity": "1 (12 to 14 oz) jar"
+      "name": "piquillo peppers, about 12 peppers total",
+      "quantity": "1 (12 to 14 oz) jar",
+      "prep": "drained"
     },
     {
       "ingredient_id": 1012,
-      "name": "baguette, cut on a sharp bias and toasted",
-      "quantity": "12 slices"
+      "name": "baguette",
+      "quantity": "12 slices",
+      "prep": "cut on a sharp bias and toasted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain the oil-packed bonito tuna. Mince the shallot. Drain the piquillo peppers. Cut the baguette on a sharp bias, then toast it.",
+      "secondary_message": "1 (8 ½ oz) can oil-packed bonito tuna, such as Ortiz\n1 small shallot\n1 (12 to 14 oz) jar piquillo peppers, about 12 peppers total\n12 slices baguette"
+    },
     {
       "id": 1,
       "primary_message": "Combine tuna, 1/4 cup allioli, shallots, lemon juice, capers, 2 tablespoons minced parsley, and olive oil in a medium bowl and fold gently to incorporate. Adjust seasoning to taste with salt and pepper, adding more lemon juice, olive oil, or allioli if desired.",

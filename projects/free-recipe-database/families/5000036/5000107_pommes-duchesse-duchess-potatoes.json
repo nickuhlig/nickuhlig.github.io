@@ -61,9 +61,10 @@
   "ingredients": [
     {
       "ingredient_id": 3064,
-      "name": "Yukon Gold potatoes, peeled and cut into 1-inch pieces",
+      "name": "Yukon Gold potatoes",
       "quantity": "6 medium",
-      "weigh_as": "1.4 kg"
+      "weigh_as": "1.4 kg",
+      "prep": "peeled and cut into 1-inch pieces"
     },
     {
       "ingredient_id": 88,
@@ -87,8 +88,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "6 tbsp"
+      "name": "unsalted butter",
+      "quantity": "6 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 121,
@@ -97,8 +99,9 @@
     },
     {
       "ingredient_id": 3641,
-      "name": "yolks, lightly beaten",
-      "quantity": "2"
+      "name": "yolks",
+      "quantity": "2",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 1074,
@@ -107,6 +110,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the Yukon Gold potatoes into 1-inch pieces. Melt the unsalted butter. Lightly beat the yolks.",
+      "secondary_message": "6 medium Yukon Gold potatoes\n6 tbsp unsalted butter\n2 yolks"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 230°C (450°F). In a medium pot, combine potatoes, 2 quarts cold water, and 2 teaspoons salt. Bring to a boil over high heat, then reduce heat to maintain a simmer. Cook until potatoes are tender and offer little resistance when pierced with a paring knife, about 10 minutes. Drain potatoes, then return to now-empty pot.",

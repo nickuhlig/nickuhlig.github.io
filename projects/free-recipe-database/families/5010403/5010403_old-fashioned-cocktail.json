@@ -55,11 +55,18 @@
     },
     {
       "ingredient_id": 1903,
-      "name": "superfine sugar, toasted sugar, or 1 sugar cube",
-      "quantity": "1 tsp"
+      "name": "superfine sugar, or 1 sugar cube",
+      "quantity": "1 tsp",
+      "prep": "toasted sugar"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Toast the superfine sugar sugar.",
+      "secondary_message": "1 tsp superfine sugar, or 1 sugar cube"
+    },
     {
       "id": 1,
       "primary_message": "Combine whiskey, bitters, and sugar in a mixing glass. Add several large ice cubes and stir rapidly with a bar spoon to chill. Strain into a rocks glass with fresh ice. Garnish, if you like, with a slice of orange and/or a cherry.",

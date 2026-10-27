@@ -67,18 +67,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, thinly sliced",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 164,
-      "name": "boneless skinless chicken thighs, thinly sliced",
-      "quantity": "340 g"
+      "name": "boneless skinless chicken thighs",
+      "quantity": "340 g",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, ends trimmed and thinly sliced, divided",
-      "quantity": "3"
+      "name": "scallions, divided",
+      "quantity": "3",
+      "prep": "ends trimmed and thinly sliced"
     },
     {
       "ingredient_id": 121,
@@ -97,6 +100,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the onion. Thinly slice the boneless skinless chicken thighs. Trim the ends of the scallions, then thinly slice them.",
+      "secondary_message": "1 large onion\n340 g boneless skinless chicken thighs\n3 scallions, divided"
+    },
     {
       "id": 1,
       "primary_message": "Combine dashi, sake, soy sauce, and sugar in a 25-cm skillet and bring to a simmer over high heat. Adjust heat to maintain a strong simmer. Stir in onion and cook, stirring occasionally, until onion is half tender, about 5 minutes. Add chicken pieces and cook, stirring and turning chicken occasionally, until chicken is cooked through and broth has reduced by about half, 5 to 7 minutes for chicken thighs or 3 to 4 minutes for chicken breast. Stir in half of scallions and all of mitsuba (if using), then season broth to taste with more soy sauce or sugar as desired. The sauce should have a balanced sweet-and-salty flavor.",

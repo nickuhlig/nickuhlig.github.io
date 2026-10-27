@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 93,
-      "name": "red kidney beans, rinsed and drained",
-      "quantity": "4 (397 g) cans"
+      "name": "red kidney beans",
+      "quantity": "4 (397 g) cans",
+      "prep": "rinsed and drained"
     },
     {
       "ingredient_id": 359,
@@ -45,13 +46,15 @@
     },
     {
       "ingredient_id": 2238,
-      "name": "lard, chopped",
-      "quantity": "¼ cup"
+      "name": "lard",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, chopped",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 293,
@@ -70,8 +73,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 273,
@@ -90,8 +94,9 @@
     },
     {
       "ingredient_id": 2701,
-      "name": "cracklings, crumbled",
-      "quantity": "⅓ cup"
+      "name": "cracklings",
+      "quantity": "⅓ cup",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 1612,
@@ -100,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse and drain the red kidney beans. Chop the lard. Chop the onion. Mince the garlic. Crumble the cracklings.",
+      "secondary_message": "4 (397 g) cans red kidney beans\n¼ cup lard\n1 small onion\n4 cloves garlic\n⅓ cup cracklings"
+    },
     {
       "id": 1,
       "primary_message": "Purée 2 cans beans and 1/2 cup water in blender until smooth. Transfer to large bowl. Purée remaining 2 cans beans and remaining 1/2 cup water until smooth; leave in blender.",

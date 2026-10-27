@@ -79,8 +79,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "12 tbsp"
+      "name": "unsalted butter",
+      "quantity": "12 tbsp",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -114,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature.",
+      "secondary_message": "12 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, whisk together flour, baking powder, salt, and cinnamon; set aside.",

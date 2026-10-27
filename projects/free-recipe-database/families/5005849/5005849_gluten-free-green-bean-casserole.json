@@ -44,8 +44,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, sliced into thin strips",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "sliced into thin strips"
     },
     {
       "ingredient_id": 1044,
@@ -59,13 +60,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely diced",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 19,
-      "name": "white button mushrooms, finely chopped",
-      "quantity": "8 oz"
+      "name": "white button mushrooms",
+      "quantity": "8 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
@@ -109,6 +112,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the onion into thin strips. Finely dice the onion. Finely chop the white button mushrooms.",
+      "secondary_message": "1 medium onion\n1 small onion\n8 oz white button mushrooms"
+    },
     {
       "id": 1,
       "primary_message": "For the Onions: In a large zip-close bag, combine cornstarch and white rice flour. Add onions and shake bag to combine. Remove onions from bag; shake off any excess flour.",

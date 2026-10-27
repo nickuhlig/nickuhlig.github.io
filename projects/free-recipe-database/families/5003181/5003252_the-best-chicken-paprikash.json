@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 1864,
-      "name": "whole chicken legs, split into thighs and drumsticks",
-      "quantity": "4"
+      "name": "whole chicken legs",
+      "quantity": "4",
+      "prep": "split into thighs and drumsticks"
     },
     {
       "ingredient_id": 88,
@@ -65,8 +66,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, thinly sliced",
-      "quantity": "1 large"
+      "name": "yellow onion",
+      "quantity": "1 large",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 83,
@@ -95,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the whole chicken legs into thighs and drumsticks. Thinly slice the yellow onion.",
+      "secondary_message": "4 whole chicken legs\n1 large yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "Pour chicken stock into a 1-cup liquid measuring cup and sprinkle gelatin over the top. Set aside.",

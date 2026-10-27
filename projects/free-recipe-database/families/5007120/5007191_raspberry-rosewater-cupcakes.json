@@ -89,13 +89,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "227 g"
+      "name": "unsalted butter",
+      "quantity": "227 g",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 2280,
@@ -114,13 +116,15 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, at room temperature",
-      "quantity": "0.45 kg"
+      "name": "cream cheese",
+      "quantity": "0.45 kg",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 8 pieces",
-      "quantity": "113 g"
+      "name": "unsalted butter",
+      "quantity": "113 g",
+      "prep": "cut into 8 pieces"
     },
     {
       "ingredient_id": 1938,
@@ -144,8 +148,9 @@
     },
     {
       "ingredient_id": 3642,
-      "name": "egg whites, lightly beaten",
-      "quantity": "2 large"
+      "name": "egg whites",
+      "quantity": "2 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 346,
@@ -154,6 +159,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature. Bring the eggs to room temperature. Bring the cream cheese to room temperature. Cut the unsalted butter into 8 pieces. Lightly beat the egg whites.",
+      "secondary_message": "227 g unsalted butter\n4 large eggs\n0.45 kg cream cheese\n113 g unsalted butter\n2 large egg whites"
+    },
     {
       "id": 1,
       "primary_message": "For the Cupcakes: Adjust oven racks to upper middle and lower middle positions and preheat oven to 175°C (350°F). Coat two 12-cup muffin tins with baking spray and line with cupcake liners.",

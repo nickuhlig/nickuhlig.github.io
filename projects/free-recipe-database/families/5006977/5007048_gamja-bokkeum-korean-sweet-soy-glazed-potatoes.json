@@ -68,8 +68,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely grated",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 1044,
@@ -78,9 +79,10 @@
     },
     {
       "ingredient_id": 3064,
-      "name": "Yukon Gold potatoes, small, rinsed and halved",
+      "name": "Yukon Gold potatoes, small",
       "quantity": "1 ⅓ medium",
-      "weigh_as": "285 g"
+      "weigh_as": "285 g",
+      "prep": "rinsed and halved"
     },
     {
       "ingredient_id": 51,
@@ -94,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely grate the garlic. Rinse and halve the Yukon Gold potatoes.",
+      "secondary_message": "1 medium clove garlic\n1 ⅓ medium Yukon Gold potatoes, small"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, whisk together soy sauce, water, sugar, fish sauce, and garlic until sugar is dissolved, about 30 seconds. Set aside.",

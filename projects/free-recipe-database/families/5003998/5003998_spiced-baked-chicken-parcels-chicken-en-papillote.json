@@ -41,18 +41,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, thinly sliced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell pepper, seeded and sliced into 1/4-inch strips",
-      "quantity": "1"
+      "name": "red bell pepper",
+      "quantity": "1",
+      "prep": "seeded and sliced into 1/4-inch strips"
     },
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, halved",
-      "quantity": "1 cup"
+      "name": "cherry tomatoes",
+      "quantity": "1 cup",
+      "prep": "halved"
     },
     {
       "ingredient_id": 2018,
@@ -81,11 +84,18 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, sliced thin",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "sliced thin"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the onion. Seed and slice the red bell pepper into 1/4-inch strips. Halve the cherry tomatoes. Slice the lemon thin.",
+      "secondary_message": "1 medium onion\n1 red bell pepper\n1 cup cherry tomatoes\n1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 375°F. Slice each chicken breast on the bias, into three or four equally thick pieces. Place chicken in large bowl and toss with the onion, pepper, tomatoes, Za'atar, oil, parsley, 1 1/2 teaspoons salt, and 1/2 teaspoon pepper.",

@@ -39,8 +39,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, chopped coarsely",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "chopped coarsely"
     },
     {
       "ingredient_id": 2475,
@@ -69,8 +70,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten",
-      "quantity": "1"
+      "name": "egg",
+      "quantity": "1",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 3026,
@@ -84,8 +86,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, halved",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "halved"
     },
     {
       "ingredient_id": 159,
@@ -119,11 +122,18 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "beaten"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the onion coarsely. Beat the egg. Halve the onion. Beat the egg.",
+      "secondary_message": "1 small onion\n1 egg\n1 small onion\n1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "Place the gizzards in a bowl with the onions and pour enough buttermilk into the bowl to cover the contents entirely. Refrigerate the gizzards for 8 hours, or preferably for 24 hours. The gizzards will hold in the buttermilk for up to 2 days.",

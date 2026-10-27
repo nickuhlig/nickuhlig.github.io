@@ -41,23 +41,27 @@
     },
     {
       "ingredient_id": 2194,
-      "name": "cured salt beef, cut into 1-inch pieces",
-      "quantity": "227 g"
+      "name": "cured salt beef",
+      "quantity": "227 g",
+      "prep": "cut into 1-inch pieces"
     },
     {
       "ingredient_id": 1922,
-      "name": "boneless beef chuck, cut into 1-inch pieces",
-      "quantity": "0.45 kg"
+      "name": "boneless beef chuck",
+      "quantity": "0.45 kg",
+      "prep": "cut into 1-inch pieces"
     },
     {
       "ingredient_id": 2358,
-      "name": "salted pig tail, cut into 1-inch pieces",
-      "quantity": "227 to 454 g"
+      "name": "salted pig tail",
+      "quantity": "227 to 454 g",
+      "prep": "cut into 1-inch pieces"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 41,
@@ -76,8 +80,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, root ends trimmed",
-      "quantity": "2"
+      "name": "scallions",
+      "quantity": "2",
+      "prep": "root ends trimmed"
     },
     {
       "ingredient_id": 1993,
@@ -106,6 +111,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cured salt beef into 1-inch pieces. Cut the boneless beef chuck into 1-inch pieces. Cut the salted pig tail into 1-inch pieces. Peel the garlic. Trim the root ends of the scallions.",
+      "secondary_message": "227 g cured salt beef\n0.45 kg boneless beef chuck\n227 to 454 g salted pig tail\n3 medium cloves garlic\n2 scallions"
+    },
     {
       "id": 1,
       "primary_message": "For the Stew Peas: Place beans in a large bowl and cover by 8 cm with cold water. Cover and set aside overnight. In a separate large bowl, add salt beef and pig tail and cover with cold water. Cover and refrigerate for at least 3 hours or up to 12 hours. Drain beans, discarding any debris or shriveled beans. Drain and rinse the salt beef and pig tail.",

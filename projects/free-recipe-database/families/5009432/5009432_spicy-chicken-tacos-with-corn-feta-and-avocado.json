@@ -53,13 +53,15 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, thinly sliced",
-      "quantity": "1"
+      "name": "red onion",
+      "quantity": "1",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño, stemmed, seeded, and roughly chopped",
-      "quantity": "1"
+      "name": "jalapeño",
+      "quantity": "1",
+      "prep": "stemmed, seeded, and roughly chopped"
     },
     {
       "ingredient_id": 186,
@@ -88,9 +90,10 @@
     },
     {
       "ingredient_id": 303,
-      "name": "corn, kernels sliced off",
+      "name": "corn",
       "quantity": "1 ¼ cups",
-      "weigh_as": "204 g"
+      "weigh_as": "204 g",
+      "prep": "kernels sliced off"
     },
     {
       "ingredient_id": 32,
@@ -104,8 +107,9 @@
     },
     {
       "ingredient_id": 321,
-      "name": "corn tortillas, warmed",
-      "quantity": "8"
+      "name": "corn tortillas",
+      "quantity": "8",
+      "prep": "warmed"
     },
     {
       "ingredient_id": 188,
@@ -114,11 +118,18 @@
     },
     {
       "ingredient_id": 183,
-      "name": "ripe avocados, pitted and sliced",
-      "quantity": "2"
+      "name": "ripe avocados",
+      "quantity": "2",
+      "prep": "pitted and sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the red onion. Stem, seed, and roughly chop the jalapeño. Slice off the kernels of the corn. Warm the corn tortillas. Pit and slice the ripe avocados.",
+      "secondary_message": "1 red onion\n1 jalapeño\n1 ¼ cups corn\n8 corn tortillas\n2 ripe avocados"
+    },
     {
       "id": 1,
       "primary_message": "Season chicken with salt and pepper. Heat oil in a Dutch oven or 12-inch skillet over medium-high heat until lightly smoking. Add chicken and cook until browned on both sides, about 6 minutes total. Transfer chicken to a plate.",

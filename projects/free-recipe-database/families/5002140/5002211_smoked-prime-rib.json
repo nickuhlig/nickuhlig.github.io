@@ -56,8 +56,9 @@
   "ingredients": [
     {
       "ingredient_id": 2833,
-      "name": "first-cut beef standing rib roast, fat cap trimmed to 1/4-inch",
-      "quantity": "3.18 kg"
+      "name": "first-cut beef standing rib roast",
+      "quantity": "3.18 kg",
+      "prep": "fat cap trimmed to 1/4-inch"
     },
     {
       "ingredient_id": 88,
@@ -71,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the fat cap of the first-cut beef standing rib roast to 1/4-inch.",
+      "secondary_message": "3.18 kg first-cut beef standing rib roast"
+    },
     {
       "id": 1,
       "primary_message": "Using a sharp knife, cut a 2.5-cm crosshatch pattern in fat cap of roast, being careful not to cut into meat. Rub salt and pepper over entire roast and into crosshatch. Transfer to large plate or wire rack set in a rimmed baking and refrigerate, uncovered, for at least 24 hours or up to 4 days.",

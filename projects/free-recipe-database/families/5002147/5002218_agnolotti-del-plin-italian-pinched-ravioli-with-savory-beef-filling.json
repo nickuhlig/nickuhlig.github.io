@@ -96,13 +96,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 286,
@@ -121,8 +123,9 @@
     },
     {
       "ingredient_id": 1715,
-      "name": "Grana Padano cheese, finely grated",
-      "quantity": "28 g"
+      "name": "Grana Padano cheese",
+      "quantity": "28 g",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 121,
@@ -141,8 +144,9 @@
     },
     {
       "ingredient_id": 1716,
-      "name": "hazelnuts, toasted, skinned, and coarsely chopped",
-      "quantity": "¼ cup"
+      "name": "hazelnuts",
+      "quantity": "¼ cup",
+      "prep": "toasted, skinned, and coarsely chopped"
     },
     {
       "ingredient_id": 88,
@@ -166,6 +170,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the onion. Finely mince the garlic. Finely grate the Grana Padano cheese. Toast, skin, and coarsely chop the hazelnuts.",
+      "secondary_message": "1 small onion\n3 medium cloves garlic\n28 g Grana Padano cheese\n¼ cup hazelnuts"
+    },
     {
       "id": 1,
       "primary_message": "For the Filling: Pat beef dry with paper towels and season with salt and pepper. In a Dutch oven or large sauce pot, melt butter over medium-high heat until foaming. Brown beef on all sides, flipping as needed, 7 to 10 minutes; transfer to a plate.",

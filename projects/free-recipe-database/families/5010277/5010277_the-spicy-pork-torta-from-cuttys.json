@@ -67,8 +67,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2712,
@@ -122,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the garlic.",
+      "secondary_message": "2 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the pickled onions: Place onions in a heatproof non-reactive container. Heat vinegar, sugar, water, salt, pepper flakes, bay leaves, and garlic cloves over high heat until boiling. Pour boiling brine over onions. Cover with a small plate to submerge onions. Let sit until cool.",

@@ -44,8 +44,9 @@
   "ingredients": [
     {
       "ingredient_id": 1886,
-      "name": "garlic scapes, woody ends trimmed",
-      "quantity": "0.46 kg"
+      "name": "garlic scapes",
+      "quantity": "0.46 kg",
+      "prep": "woody ends trimmed"
     },
     {
       "ingredient_id": 47,
@@ -64,6 +65,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the woody ends of the garlic scapes.",
+      "secondary_message": "0.46 kg garlic scapes"
+    },
     {
       "id": 1,
       "primary_message": "Light one chimney full of charcoal. When all the charcoal is lit and covered with gray ash, pour out and spread the coals evenly over half of the coal grate. Set cooking grate in place, cover grill and allow to preheat for 5 minutes. Clean and oil the grilling grate. If using a gas grill, preheat half the grill to high.",

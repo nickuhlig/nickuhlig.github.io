@@ -78,11 +78,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted , plus more for serving",
-      "quantity": "1 ½ oz"
+      "name": "unsalted butter, plus more for serving",
+      "quantity": "1 ½ oz",
+      "prep": "melted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter.",
+      "secondary_message": "1 ½ oz unsalted butter, plus more for serving"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, whisk together flour, baking powder, sugar, and salt until well combined.",

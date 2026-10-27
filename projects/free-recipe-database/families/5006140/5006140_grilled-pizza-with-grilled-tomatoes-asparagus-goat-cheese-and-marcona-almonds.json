@@ -41,9 +41,10 @@
     },
     {
       "ingredient_id": 26,
-      "name": "asparagus, trimmed",
+      "name": "asparagus",
       "quantity": "1 bunch",
-      "weigh_as": "1 lb"
+      "weigh_as": "1 lb",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 47,
@@ -62,18 +63,21 @@
     },
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, split in half",
-      "quantity": "1 lb"
+      "name": "cherry tomatoes",
+      "quantity": "1 lb",
+      "prep": "split in half"
     },
     {
       "ingredient_id": 126,
-      "name": "goat cheese, crumbled",
-      "quantity": "1 lb"
+      "name": "goat cheese",
+      "quantity": "1 lb",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 3684,
-      "name": "Marcona almonds, roughly chopped",
-      "quantity": "1 cup"
+      "name": "Marcona almonds",
+      "quantity": "1 cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 2471,
@@ -82,11 +86,18 @@
     },
     {
       "ingredient_id": 1746,
-      "name": "fresh basil leaves, roughly chopped",
-      "quantity": "½ cup"
+      "name": "fresh basil leaves",
+      "quantity": "½ cup",
+      "prep": "roughly chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the asparagus. Split the cherry tomatoes in half. Crumble the goat cheese. Roughly chop the Marcona almonds. Roughly chop the fresh basil leaves.",
+      "secondary_message": "1 bunch asparagus\n1 lb cherry tomatoes\n1 lb goat cheese\n1 cup Marcona almonds\n½ cup fresh basil leaves"
+    },
     {
       "id": 1,
       "primary_message": "Use a knife or bench scraper to divide dough into four even pieces. With lightly floured hands, form into tight balls. Lightly oil 4 medium containers (large soup bowls work great) and place 1 dough ball in each one. Lightly grease the tops of the dough balls then cover each bowl with plastic wrap. Allow to rise at room temperature until doubled in volume, about 2 hours.",

@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 24,
-      "name": "garlic, split into cloves, cloves left unpeeled",
-      "quantity": "1 whole head"
+      "name": "garlic",
+      "quantity": "1 whole head",
+      "prep": "split into cloves, cloves left unpeeled"
     },
     {
       "ingredient_id": 2067,
@@ -65,6 +66,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the garlic into cloves, then leave and leave unpeeled the cloves.",
+      "secondary_message": "1 whole head garlic"
+    },
     {
       "id": 1,
       "primary_message": "Thread garlic cloves on a metal skewer and roast directly over a gas flame until well charred on all surfaces, about 5 minutes. Alternatively, roast in a dry skillet over medium-high heat, tossing, until charred on most surfaces, about 5 minutes. Transfer to a bowl until cool enough to handle, then peel blackened skins and discard.",

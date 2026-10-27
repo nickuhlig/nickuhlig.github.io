@@ -32,8 +32,9 @@
   "ingredients": [
     {
       "ingredient_id": 1897,
-      "name": "waxy potatoes, scrubbed and cut into chunks",
-      "quantity": "4 small"
+      "name": "waxy potatoes",
+      "quantity": "4 small",
+      "prep": "scrubbed and cut into chunks"
     },
     {
       "ingredient_id": 88,
@@ -52,23 +53,27 @@
     },
     {
       "ingredient_id": 1754,
-      "name": "Spanish chorizo sausage, cut into 1/2-inch thick slices",
-      "quantity": "4 oz"
+      "name": "Spanish chorizo sausage",
+      "quantity": "4 oz",
+      "prep": "cut into 1/2-inch thick slices"
     },
     {
       "ingredient_id": 286,
-      "name": "fresh rosemary, leaves picked",
-      "quantity": "2 sprigs"
+      "name": "fresh rosemary",
+      "quantity": "2 sprigs",
+      "prep": "leaves picked"
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, peeled and very finely sliced",
-      "quantity": "2"
+      "name": "shallots",
+      "quantity": "2",
+      "prep": "peeled and very finely sliced"
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, juiced",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -77,11 +82,18 @@
     },
     {
       "ingredient_id": 106,
-      "name": "A bunch of fresh flat-leaf parsley, leaves picked, very roughly chopped",
-      "quantity": ""
+      "name": "A bunch of fresh flat-leaf parsley",
+      "quantity": "",
+      "prep": "leaves picked, very roughly chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Scrub and cut the waxy potatoes into chunks. Cut the Spanish chorizo sausage into 1/2-inch thick slices. Pick the leaves from the fresh rosemary. Peel and very finely slice the shallots. Juice the lemon. Pick and very roughly chop the leaves from the A bunch of fresh flat-leaf parsley.",
+      "secondary_message": "4 small waxy potatoes\n4 oz Spanish chorizo sausage\n2 sprigs fresh rosemary\n2 shallots\n1 lemon\nA bunch of fresh flat-leaf parsley"
+    },
     {
       "id": 1,
       "primary_message": "Bring a pot of salt water to boil and cook the potato chunks until very tender. Drain and return to their pot to steam dry. Preheat the oven to 375°F.",

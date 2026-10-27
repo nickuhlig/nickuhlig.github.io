@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, chopped",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1601,
@@ -77,8 +78,9 @@
     },
     {
       "ingredient_id": 269,
-      "name": "basmati rice, rinsed until water runs clear",
-      "quantity": "2 cups"
+      "name": "basmati rice",
+      "quantity": "2 cups",
+      "prep": "rinsed until water runs clear"
     },
     {
       "ingredient_id": 1505,
@@ -97,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the onion. Rinse the basmati rice until water runs clear.",
+      "secondary_message": "1 medium onion\n2 cups basmati rice"
+    },
     {
       "id": 1,
       "primary_message": "Season chicken generously with salt and pepper. Heat butter in a large pot or dutch oven over medium-high heat until foaming subsides, swirling pan gently. Add as much of the chicken as will comfortably fit in one layer, skin-side down. Cook until golden brown, about 4 minutes. Flip and brown on the other side, another 3 minutes. Set browned chicken pieces aside and, if necessary, repeat process with remaining chicken.",

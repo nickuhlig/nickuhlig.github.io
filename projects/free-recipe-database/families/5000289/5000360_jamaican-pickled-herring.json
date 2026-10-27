@@ -42,18 +42,21 @@
     },
     {
       "ingredient_id": 2025,
-      "name": "chayote, julienned",
-      "quantity": "½ medium"
+      "name": "chayote",
+      "quantity": "½ medium",
+      "prep": "julienned"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, thinly sliced",
-      "quantity": "½ medium"
+      "name": "yellow onion",
+      "quantity": "½ medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, julienned",
-      "quantity": "1 medium"
+      "name": "carrot",
+      "quantity": "1 medium",
+      "prep": "julienned"
     },
     {
       "ingredient_id": 1783,
@@ -62,8 +65,9 @@
     },
     {
       "ingredient_id": 1993,
-      "name": "Scotch bonnet pepper, stemmed, seeded, and thinly sliced",
-      "quantity": "1"
+      "name": "Scotch bonnet pepper",
+      "quantity": "1",
+      "prep": "stemmed, seeded, and thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -72,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Julienne the chayote. Thinly slice the yellow onion. Julienne the carrot. Stem, seed, and thinly slice the Scotch bonnet pepper.",
+      "secondary_message": "½ medium chayote\n½ medium yellow onion\n1 medium carrot\n1 Scotch bonnet pepper"
+    },
     {
       "id": 1,
       "primary_message": "In a large pot or heatproof bowl, cover herring fillets with boiling water and let stand 15 minutes. (This process helps remove some salt and makes fish tender enough to shred.) Taste a piece of herring to gauge saltiness; if fish is still too salty for your taste, drain water and replace with fresh cold water; then allow to soak for 15 to 30 minutes longer. Repeat with additional changes of cold water, if necessary, but bear in mind that some level of saltiness is required for the dish to have the proper flavor. (The finished dish should be on the salty side, meant to be eaten in small bites with a drink and crackers.) Drain fillets and rinse under cool running water.",

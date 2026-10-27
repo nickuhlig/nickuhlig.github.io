@@ -42,13 +42,15 @@
   "ingredients": [
     {
       "ingredient_id": 2052,
-      "name": "chocolate wafter cookies, ground to crumbs in food processor",
-      "quantity": "12 oz"
+      "name": "chocolate wafter cookies",
+      "quantity": "12 oz",
+      "prep": "ground to crumbs in food processor"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "4 oz"
+      "name": "unsalted butter",
+      "quantity": "4 oz",
+      "prep": "melted"
     },
     {
       "ingredient_id": 346,
@@ -82,8 +84,9 @@
     },
     {
       "ingredient_id": 2285,
-      "name": "semi sweet chocolate, melted and cooled",
-      "quantity": "8 oz"
+      "name": "semi sweet chocolate",
+      "quantity": "8 oz",
+      "prep": "melted and cooled"
     },
     {
       "ingredient_id": 1752,
@@ -92,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grind the chocolate wafter cookies to crumbs in food processor. Melt the unsalted butter. Melt the semi sweet chocolate and let it cool.",
+      "secondary_message": "12 oz chocolate wafter cookies\n4 oz unsalted butter\n8 oz semi sweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "Separate out 2 ounces of cookie crumbs and set them aside. In a bowl, stir together the remaining cookie crumbs and butter, and firmly press mixture into the bottom and up the sides of a 9-inch pie plate. Freeze crust 30 minutes.",

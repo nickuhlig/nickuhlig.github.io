@@ -83,13 +83,15 @@
     },
     {
       "ingredient_id": 27,
-      "name": "corn, shucked",
-      "quantity": "4 medium ears"
+      "name": "corn",
+      "quantity": "4 medium ears",
+      "prep": "shucked"
     },
     {
       "ingredient_id": 1621,
-      "name": "halloumi cheese, halved horizontally and patted dry",
-      "quantity": "1 (8.8 oz) pkg"
+      "name": "halloumi cheese",
+      "quantity": "1 (8.8 oz) pkg",
+      "prep": "halved horizontally and patted dry"
     },
     {
       "ingredient_id": 2324,
@@ -98,8 +100,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, halved crosswise",
-      "quantity": "1 medium"
+      "name": "lemon",
+      "quantity": "1 medium",
+      "prep": "halved crosswise"
     },
     {
       "ingredient_id": 2332,
@@ -113,6 +116,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shuck the corn. Halve the halloumi cheese horizontally, then pat it dry. Halve the lemon crosswise.",
+      "secondary_message": "4 medium ears corn\n1 (8.8 oz) pkg halloumi cheese\n1 medium lemon"
+    },
     {
       "id": 1,
       "primary_message": "For a Charcoal Grill: Open bottom vent completely. Light large chimney starter filled 3/4 with charcoal briquettes (4 quarts). When top coals are partially covered with ash, pour evenly over bottom of grill. Set cooking grate in place, cover, and open lid vent completely. Heat grill until hot, about 5 minutes.\nFor a Gas Grill: Turn all burners to high, cover, and preheat grill until hot, about 15 minutes. Leave all burners on high.",

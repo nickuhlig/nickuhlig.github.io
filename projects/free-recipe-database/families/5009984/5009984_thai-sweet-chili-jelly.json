@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 1762,
-      "name": "fresh red Thai bird chiles, trimmed",
-      "quantity": "1 ½ lb"
+      "name": "fresh red Thai bird chiles",
+      "quantity": "1 ½ lb",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 24,
@@ -66,6 +67,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the fresh red Thai bird chiles.",
+      "secondary_message": "1 ½ lb fresh red Thai bird chiles"
+    },
     {
       "id": 1,
       "primary_message": "In a blender or food processor bowl, purée the peppers, garlic, and vinegar together until the mixture is coarsely chopped. Adjust chunkiness or smoothness to your preference.",

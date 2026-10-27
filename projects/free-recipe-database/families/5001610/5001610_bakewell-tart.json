@@ -69,8 +69,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 1/2-inch pieces",
-      "quantity": "4 oz"
+      "name": "unsalted butter",
+      "quantity": "4 oz",
+      "prep": "cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 3641,
@@ -84,8 +85,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "4 ¾ oz"
+      "name": "unsalted butter",
+      "quantity": "4 ¾ oz",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -134,6 +136,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into 1/2-inch pieces. Bring the unsalted butter to room temperature.",
+      "secondary_message": "4 oz unsalted butter\n4 ¾ oz unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Pastry: In a large bowl, whisk flour and confectioners' sugar to combine. Add butter to flour mixture and toss to evenly coat. Using your fingertips, pinch and flatten butter, then rub it between fingertips until a sandy mixture forms, 3 to 4 minutes. (It should resemble coarse breadcrumbs with some pea-size pieces still visible but no large chunks of butter remaining.)",

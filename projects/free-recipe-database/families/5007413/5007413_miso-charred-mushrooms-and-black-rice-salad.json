@@ -38,8 +38,9 @@
   "ingredients": [
     {
       "ingredient_id": 2646,
-      "name": "forbidden black rice, rinsed",
-      "quantity": "½ cup"
+      "name": "forbidden black rice",
+      "quantity": "½ cup",
+      "prep": "rinsed"
     },
     {
       "ingredient_id": 422,
@@ -58,8 +59,9 @@
     },
     {
       "ingredient_id": 231,
-      "name": "Portobello mushroom caps, wiped clean",
-      "quantity": "4"
+      "name": "Portobello mushroom caps",
+      "quantity": "4",
+      "prep": "wiped clean"
     },
     {
       "ingredient_id": 257,
@@ -88,18 +90,21 @@
     },
     {
       "ingredient_id": 1712,
-      "name": "Savoy cabbage, sliced into very thin strips",
-      "quantity": "3 leaves"
+      "name": "Savoy cabbage",
+      "quantity": "3 leaves",
+      "prep": "sliced into very thin strips"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, very thinly sliced",
-      "quantity": "2"
+      "name": "scallions",
+      "quantity": "2",
+      "prep": "very thinly sliced"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño, minced",
-      "quantity": "¼"
+      "name": "jalapeño",
+      "quantity": "¼",
+      "prep": "minced"
     },
     {
       "ingredient_id": 188,
@@ -113,6 +118,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse the forbidden black rice. Wipe the Portobello mushroom caps clean. Slice the Savoy cabbage into very thin strips. Very thinly slice the scallions. Mince the jalapeño.",
+      "secondary_message": "½ cup forbidden black rice\n4 Portobello mushroom caps\n3 leaves Savoy cabbage\n2 scallions\n¼ jalapeño"
+    },
     {
       "id": 1,
       "primary_message": "Bring a medium-large pot of salted water to a boil. Add the rice to the boiling salted water, and cook without a lid until tender, about 35 minutes.",

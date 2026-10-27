@@ -62,13 +62,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "chilled unsalted butter, cut into small pieces",
-      "quantity": "10 tbsp"
+      "name": "chilled unsalted butter",
+      "quantity": "10 tbsp",
+      "prep": "cut into small pieces"
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 1480,
@@ -82,6 +84,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the chilled unsalted butter into small pieces. Beat the egg.",
+      "secondary_message": "10 tbsp chilled unsalted butter\n1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to medium position and preheat to 375°F. Prepare a baking dish by lining it with foil, or using baking spray. In a large bowl combine flour, sugar, poppy seeds, baking powder, and salt, and whisk to combine. Using two butter knives or a pastry cutter, cut butter into dry ingredients until the mixture resembles a coarse meal.",

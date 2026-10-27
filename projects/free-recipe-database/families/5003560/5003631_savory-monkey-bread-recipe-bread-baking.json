@@ -37,8 +37,9 @@
   "ingredients": [
     {
       "ingredient_id": 118,
-      "name": "milk, scalded and cooled to lukewarm",
-      "quantity": "1 cup"
+      "name": "milk",
+      "quantity": "1 cup",
+      "prep": "scalded and cooled to lukewarm"
     },
     {
       "ingredient_id": 346,
@@ -97,6 +98,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Scald and cool the milk to lukewarm.",
+      "secondary_message": "1 cup milk"
+    },
     {
       "id": 1,
       "primary_message": "In the bowl of stand mixer fitted with dough hook attachment, combine milk, sugar, all-purpose flour, and yeast. Mix thoroughly, then cover bowl with plastic wrap and set aside at room temperature for one hour.",

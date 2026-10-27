@@ -38,8 +38,9 @@
   "ingredients": [
     {
       "ingredient_id": 1600,
-      "name": "high-quality pitted green olives, drained and dried on paper towels",
-      "quantity": "0.5 kg"
+      "name": "high-quality pitted green olives",
+      "quantity": "0.5 kg",
+      "prep": "drained and dried on paper towels"
     },
     {
       "ingredient_id": 1718,
@@ -58,6 +59,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain and dry the high-quality pitted green olives on paper towels.",
+      "secondary_message": "0.5 kg high-quality pitted green olives"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center position and preheat oven to 105°C (225°F). Combine all ingredients in a food processor and pulse until a very rough puree is formed, about 15 short pulses, scraping down sides as necessary. Transfer mixture to a parchment or Silpat-lined rimmed baking sheet and spread in a thin, even layer.",

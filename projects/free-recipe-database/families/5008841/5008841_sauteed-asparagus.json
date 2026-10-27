@@ -50,9 +50,10 @@
     },
     {
       "ingredient_id": 26,
-      "name": "asparagus, woody ends trimmed",
+      "name": "asparagus",
       "quantity": "1 bunch",
-      "weigh_as": "1 lb"
+      "weigh_as": "1 lb",
+      "prep": "woody ends trimmed"
     },
     {
       "ingredient_id": 88,
@@ -66,6 +67,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the woody ends of the asparagus.",
+      "secondary_message": "1 bunch asparagus"
+    },
     {
       "id": 1,
       "primary_message": "In a large cast iron, carbon steel, or stainless steel skillet, heat 1 tablespoon vegetable oil over high heat until shimmering. Add half of asparagus and cook, tossing, stirring, and rotating the spears frequently, until browned all over, charred lightly in spots, and crisp-tender within, about 10 minutes; lower heat if necessary to prevent burning. Using tongs, transfer each spear as it's done to a plate and keep warm. Repeat with remaining vegetable oil and asparagus. Season with salt and pepper.",

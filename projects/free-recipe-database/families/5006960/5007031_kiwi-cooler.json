@@ -44,8 +44,9 @@
   "ingredients": [
     {
       "ingredient_id": 2220,
-      "name": "ripe kiwi, peeled and cut in half",
-      "quantity": "1"
+      "name": "ripe kiwi",
+      "quantity": "1",
+      "prep": "peeled and cut in half"
     },
     {
       "ingredient_id": 2221,
@@ -74,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the ripe kiwi in half.",
+      "secondary_message": "1 ripe kiwi"
+    },
     {
       "id": 1,
       "primary_message": "Add kiwi and tarragon to mixing glass and muddle until kiwi is liquified, about 30 seconds. Add gin, lime, and simple syrup. Fill mixing glass with ice and shake until well chilled, about 30 seconds. Strain into ice-filled glass, top with seltzer and stir gently before serving, garnished with a tarragon sprig.",

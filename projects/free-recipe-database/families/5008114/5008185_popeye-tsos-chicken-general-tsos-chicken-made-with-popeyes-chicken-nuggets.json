@@ -105,11 +105,18 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallion greens, sliced",
-      "quantity": "3"
+      "name": "scallion greens",
+      "quantity": "3",
+      "prep": "sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the scallion greens.",
+      "secondary_message": "3 scallion greens"
+    },
     {
       "id": 1,
       "primary_message": "Combine stock, soy sauce, vinegar, hoisin, chili paste, sesame oil, sugar, and cornstarch in a small bowl and mix with a fork until blended and smooth.",

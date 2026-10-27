@@ -34,13 +34,15 @@
     },
     {
       "ingredient_id": 3126,
-      "name": "grains of paradise, toasted and ground",
-      "quantity": "1 tbsp"
+      "name": "grains of paradise",
+      "quantity": "1 tbsp",
+      "prep": "toasted and ground"
     },
     {
       "ingredient_id": 76,
-      "name": "coriander, toasted and ground",
-      "quantity": "1 tbsp"
+      "name": "coriander",
+      "quantity": "1 tbsp",
+      "prep": "toasted and ground"
     },
     {
       "ingredient_id": 88,
@@ -54,11 +56,18 @@
     },
     {
       "ingredient_id": 228,
-      "name": "lime, zested",
-      "quantity": "1"
+      "name": "lime",
+      "quantity": "1",
+      "prep": "zested"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Toast and grind the grains of paradise. Toast and grind the coriander. Zest the lime.",
+      "secondary_message": "1 tbsp grains of paradise\n1 tbsp coriander\n1 lime"
+    },
     {
       "id": 1,
       "primary_message": "Combine the spices, sugar, salt, and lime zest in a bowl and set aside.",

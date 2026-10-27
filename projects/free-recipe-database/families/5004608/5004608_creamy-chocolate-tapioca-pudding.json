@@ -64,8 +64,9 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "6 oz"
+      "name": "bittersweet chocolate",
+      "quantity": "6 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2044,
@@ -74,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the bittersweet chocolate.",
+      "secondary_message": "6 oz bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "Bring milk, tapioca, sugar, and salt to simmer in large heavy bottomed saucepan over medium heat, gently stirring constantly. Reduce heat to low and continue to simmer, stirring, until mixture thickens and pearls become soft and translucent, about 12 to 15 minutes. Remove from heat.",

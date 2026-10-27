@@ -61,13 +61,15 @@
     },
     {
       "ingredient_id": 1060,
-      "name": "Gruyère cheese, shredded",
-      "quantity": "1 oz"
+      "name": "Gruyère cheese",
+      "quantity": "1 oz",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 1069,
-      "name": "Monterey Jack cheese, shredded",
-      "quantity": "1 oz"
+      "name": "Monterey Jack cheese",
+      "quantity": "1 oz",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 2567,
@@ -91,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shred the Gruyère cheese. Shred the Monterey Jack cheese.",
+      "secondary_message": "1 oz Gruyère cheese\n1 oz Monterey Jack cheese"
+    },
     {
       "id": 1,
       "primary_message": "Prepare an immersion circulator and water bath according to manufacturer's directions (you can use a 18-by 12- by 9- inch plastic container such as a Cambro, large Dutch oven, or large pot). Set circulator to 172°F, and allow water bath to come up to temperature.",

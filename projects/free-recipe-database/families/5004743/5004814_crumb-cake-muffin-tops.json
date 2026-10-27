@@ -120,8 +120,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "10 tbsp (5 oz)"
+      "name": "unsalted butter",
+      "quantity": "10 tbsp (5 oz)",
+      "prep": "melted"
     },
     {
       "ingredient_id": 353,
@@ -130,6 +131,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter.",
+      "secondary_message": "10 tbsp (5 oz) unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the cake: Adjust rack to middle position and preheat oven to 175°C (350°F). Grease muffin top pan.",

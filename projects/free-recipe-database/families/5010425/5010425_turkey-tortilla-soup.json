@@ -88,18 +88,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely diced",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 2066,
-      "name": "whole poblano pepper, seeds and stem removed, finely diced",
-      "quantity": "1"
+      "name": "whole poblano pepper",
+      "quantity": "1",
+      "prep": "seeds and stem removed, finely diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated on a microplane grater",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "grated on a microplane grater"
     },
     {
       "ingredient_id": 186,
@@ -113,6 +116,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the onion. Remove the seeds and stem from the whole poblano pepper, then finely dice it. Grate the garlic on a microplane grater.",
+      "secondary_message": "1 large onion\n1 whole poblano pepper\n2 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Heat peanut oil to 350°F in a Dutch oven or wok over high heat. Add tortilla strips and fry, agitating with a metal spider or slotted spatula until strips are crisp, about 2 minutes. Transfer to a paper towel-lined plate, season with salt, and set aside.",

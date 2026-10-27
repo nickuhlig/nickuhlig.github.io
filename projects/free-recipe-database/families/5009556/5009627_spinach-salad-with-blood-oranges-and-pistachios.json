@@ -70,8 +70,9 @@
     },
     {
       "ingredient_id": 232,
-      "name": "blood oranges, segmented",
-      "quantity": "3"
+      "name": "blood oranges",
+      "quantity": "3",
+      "prep": "segmented"
     },
     {
       "ingredient_id": 33,
@@ -85,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Segment the blood oranges.",
+      "secondary_message": "3 blood oranges"
+    },
     {
       "id": 1,
       "primary_message": "Make Vinaigrette: In a small bowl, whisk together blood orange juice, vinegar, shallot, and honey. Whisking constantly, slowly drizzle in olive oil, then season with salt and pepper to taste.",

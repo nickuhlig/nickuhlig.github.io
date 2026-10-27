@@ -40,13 +40,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "6 tbsp"
+      "name": "unsalted butter",
+      "quantity": "6 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "226 g"
+      "name": "cream cheese",
+      "quantity": "226 g",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1710,
@@ -65,13 +67,15 @@
     },
     {
       "ingredient_id": 316,
-      "name": "heavy whipping cream, chilled",
-      "quantity": "½ cup"
+      "name": "heavy whipping cream",
+      "quantity": "½ cup",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 2285,
-      "name": "semisweet chocolate, finely chopped",
-      "quantity": "142 g"
+      "name": "semisweet chocolate",
+      "quantity": "142 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 316,
@@ -85,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Soften the cream cheese. Keep the heavy whipping cream cold until you use it. Finely chop the semisweet chocolate.",
+      "secondary_message": "6 tbsp unsalted butter\n226 g cream cheese\n½ cup heavy whipping cream\n142 g semisweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "Line an 20-cm square baking pan with aluminum foil, leaving a 2.5-cm overhang on all sides.",

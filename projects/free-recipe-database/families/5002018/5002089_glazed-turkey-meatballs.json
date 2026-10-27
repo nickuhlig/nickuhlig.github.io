@@ -46,18 +46,21 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely chopped",
-      "quantity": "½ small"
+      "name": "yellow onion",
+      "quantity": "½ small",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, peeled and finely chopped",
-      "quantity": "1 small"
+      "name": "carrot",
+      "quantity": "1 small",
+      "prep": "peeled and finely chopped"
     },
     {
       "ingredient_id": 1720,
-      "name": "celery stalk, finely chopped",
-      "quantity": "1 medium"
+      "name": "celery stalk",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 121,
@@ -86,8 +89,9 @@
     },
     {
       "ingredient_id": 1216,
-      "name": "white bread, cut into 1/2-inch pieces",
-      "quantity": "28 g"
+      "name": "white bread",
+      "quantity": "28 g",
+      "prep": "cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 170,
@@ -96,8 +100,9 @@
     },
     {
       "ingredient_id": 120,
-      "name": "Parmigiano-Reggiano, grated",
-      "quantity": "28 g"
+      "name": "Parmigiano-Reggiano",
+      "quantity": "28 g",
+      "prep": "grated"
     },
     {
       "ingredient_id": 72,
@@ -106,8 +111,9 @@
     },
     {
       "ingredient_id": 302,
-      "name": "bacon, finely chopped",
-      "quantity": "2 tbsp"
+      "name": "bacon",
+      "quantity": "2 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2436,
@@ -131,6 +137,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the yellow onion. Peel and finely chop the carrot. Finely chop the celery stalk. Cut the white bread into 1/2-inch pieces. Grate the Parmigiano-Reggiano. Finely chop the bacon.",
+      "secondary_message": "½ small yellow onion\n1 small carrot\n1 medium celery stalk\n28 g white bread\n28 g Parmigiano-Reggiano\n2 tbsp bacon"
+    },
     {
       "id": 1,
       "primary_message": "In a large nonstick skillet, cook chopped bacon over medium heat, stirring occasionally, until crispy, 6 to 8 minutes. Stir in onion, carrot, and celery; cook, stirring often, until softened, 6 to 8 minutes. Transfer mixture to a medium bowl and set aside to cool to room temperature, about 10 minutes; wipe skillet clean.",

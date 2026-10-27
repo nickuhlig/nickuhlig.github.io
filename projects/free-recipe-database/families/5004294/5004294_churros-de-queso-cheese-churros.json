@@ -86,8 +86,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into small pieces and chilled",
-      "quantity": "4 oz"
+      "name": "unsalted butter",
+      "quantity": "4 oz",
+      "prep": "cut into small pieces and chilled"
     },
     {
       "ingredient_id": 359,
@@ -96,8 +97,9 @@
     },
     {
       "ingredient_id": 3307,
-      "name": "Latin American white frying cheese, cut into 1/4- by 1 1/2-inch batons",
-      "quantity": "6 oz"
+      "name": "Latin American white frying cheese",
+      "quantity": "6 oz",
+      "prep": "cut into 1/4- by 1 1/2-inch batons"
     },
     {
       "ingredient_id": 1044,
@@ -106,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into small pieces and keep it cold until you use it. Cut the Latin American white frying cheese into 1/4- by 1 1/2-inch batons.",
+      "secondary_message": "4 oz unsalted butter\n6 oz Latin American white frying cheese"
+    },
     {
       "id": 1,
       "primary_message": "Combine flour, salt, and baking powder on a clean, dry, and cool work surface. With a bench scraper, cut in butter until it resembles wet sand. Alternatively, combine flour, salt, and baking powder in large bowl and cut butter in with two dinner knives until mixture resembles wet sand, then transfer mixture to work surface.",

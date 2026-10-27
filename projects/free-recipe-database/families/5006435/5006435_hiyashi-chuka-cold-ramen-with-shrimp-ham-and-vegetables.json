@@ -41,19 +41,22 @@
     },
     {
       "ingredient_id": 1811,
-      "name": "shrimp, large, shelled and deveined",
-      "quantity": "¼ lb"
+      "name": "shrimp, large",
+      "quantity": "¼ lb",
+      "prep": "shelled and deveined"
     },
     {
       "ingredient_id": 303,
-      "name": "cooked corn, kernels sliced off and cob discarded",
+      "name": "cooked corn",
       "quantity": "⅔ cup",
-      "weigh_as": "102 g"
+      "weigh_as": "102 g",
+      "prep": "kernels sliced off and cob discarded"
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten",
-      "quantity": "1"
+      "name": "egg",
+      "quantity": "1",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 53,
@@ -97,18 +100,21 @@
     },
     {
       "ingredient_id": 1091,
-      "name": "sliced cooked ham, cut into strips",
-      "quantity": "¼ lb"
+      "name": "sliced cooked ham",
+      "quantity": "¼ lb",
+      "prep": "cut into strips"
     },
     {
       "ingredient_id": 1501,
-      "name": "imitation crab meat, shredded into thin strips",
-      "quantity": "4 sticks"
+      "name": "imitation crab meat",
+      "quantity": "4 sticks",
+      "prep": "shredded into thin strips"
     },
     {
       "ingredient_id": 260,
-      "name": "tomato, halved, then thinly sliced",
-      "quantity": "1 large"
+      "name": "tomato",
+      "quantity": "1 large",
+      "prep": "halved, then thinly sliced"
     },
     {
       "ingredient_id": 153,
@@ -117,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shell and devein the shrimp. Slice off the kernels of the cooked corn, then discard the cob. Beat the egg. Cut the sliced cooked ham into strips. Shred the imitation crab meat into thin strips. Halve and thinly slice the tomato.",
+      "secondary_message": "¼ lb shrimp, large\n⅔ cup cooked corn\n1 egg\n¼ lb sliced cooked ham\n4 sticks imitation crab meat\n1 large tomato"
+    },
     {
       "id": 1,
       "primary_message": "In a large pot of salted boiling water, cook ramen noodles until tender and springy. Drain in a colander, rinse under cold running water, and let drip dry. Set aside. (If they being to clump or stick, run under cold water again to loosen.)",

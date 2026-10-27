@@ -40,38 +40,45 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, diced",
-      "quantity": "1 medium"
+      "name": "red onion",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 309,
-      "name": "leek, white and light green parts only, diced",
-      "quantity": "1 large"
+      "name": "leek, white and light green parts only",
+      "quantity": "1 large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and diced",
-      "quantity": "4 large"
+      "name": "carrots",
+      "quantity": "4 large",
+      "prep": "peeled and diced"
     },
     {
       "ingredient_id": 2334,
-      "name": "peeled, seeded, and diced butternut squash",
-      "quantity": "2 ½ cups"
+      "name": "peeled",
+      "quantity": "2 ½ cups",
+      "prep": "seeded, and diced butternut squash"
     },
     {
       "ingredient_id": 22,
-      "name": "turnip, peeled and diced",
-      "quantity": "1"
+      "name": "turnip",
+      "quantity": "1",
+      "prep": "peeled and diced"
     },
     {
       "ingredient_id": 1720,
-      "name": "celery stalks, diced",
-      "quantity": "3 large"
+      "name": "celery stalks",
+      "quantity": "3 large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 359,
@@ -80,8 +87,9 @@
     },
     {
       "ingredient_id": 1723,
-      "name": "lacinato kale, stemmed, leaves roughly chopped",
-      "quantity": "1 bunch"
+      "name": "lacinato kale",
+      "quantity": "1 bunch",
+      "prep": "stemmed, leaves roughly chopped"
     },
     {
       "ingredient_id": 2437,
@@ -100,8 +108,9 @@
     },
     {
       "ingredient_id": 1174,
-      "name": "rustic crusty bread, cut into 1-inch cubes",
-      "quantity": "110 g"
+      "name": "rustic crusty bread",
+      "quantity": "110 g",
+      "prep": "cut into 1-inch cubes"
     },
     {
       "ingredient_id": 88,
@@ -115,6 +124,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the garlic. Dice the red onion. Dice the leek. Peel and dice the carrots. Seed and dice the peeled butternut squash. Peel and dice the turnip. Dice the celery stalks. Stem the lacinato kale, then roughly chop the leaves. Cut the rustic crusty bread into 1-inch cubes.",
+      "secondary_message": "3 medium cloves garlic\n1 medium red onion\n1 large leek, white and light green parts only\n4 large carrots\n2 ½ cups peeled\n1 turnip\n3 large celery stalks\n1 bunch lacinato kale\n110 g rustic crusty bread"
+    },
     {
       "id": 1,
       "primary_message": "In a large Dutch oven or soup pot, heat olive oil over medium heat with garlic. Cook, stirring, until garlic is fragrant and very lightly golden. Add onion, leek, carrots, squash, turnip, and celery and cook, stirring, until slightly softened but not browned, about 5 minutes.",

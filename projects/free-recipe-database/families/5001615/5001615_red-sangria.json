@@ -70,13 +70,15 @@
     },
     {
       "ingredient_id": 1692,
-      "name": "apple, cored and cut into roughly 3/4-inch dice",
-      "quantity": "1 large"
+      "name": "apple",
+      "quantity": "1 large",
+      "prep": "cored and cut into roughly 3/4-inch dice"
     },
     {
       "ingredient_id": 2266,
-      "name": "club soda, well chilled",
-      "quantity": "1 (12 oz) can"
+      "name": "club soda",
+      "quantity": "1 (12 oz) can",
+      "prep": "well chilled"
     },
     {
       "ingredient_id": 1953,
@@ -85,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Core and cut the apple into roughly 3/4-inch dice. Keep the club soda cold until you use it.",
+      "secondary_message": "1 large apple\n1 (12 oz) can club soda"
+    },
     {
       "id": 1,
       "primary_message": "In a large pitcher, combine wine with brandy (or rum). Stir in orange and lemon juices.",

@@ -84,8 +84,9 @@
     },
     {
       "ingredient_id": 1811,
-      "name": "shrimp, large, peeled, deveined, with tail-on",
-      "quantity": "1 ½ lb"
+      "name": "shrimp, large, with tail-on",
+      "quantity": "1 ½ lb",
+      "prep": "peeled, deveined"
     },
     {
       "ingredient_id": 1828,
@@ -94,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and devein the shrimp.",
+      "secondary_message": "1 ½ lb shrimp, large, with tail-on"
+    },
     {
       "id": 1,
       "primary_message": "In a large shallow bowl, whisk self-rising flour, corn flour, cornmeal, and Creole seasoning to combine. In another large shallow bowl, whisk buttermilk, eggs, and 1/2 cup of flour mixture to combine.",

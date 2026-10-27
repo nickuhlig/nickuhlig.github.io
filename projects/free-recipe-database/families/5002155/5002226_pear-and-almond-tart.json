@@ -77,8 +77,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, room temperature",
-      "quantity": "85 g"
+      "name": "unsalted butter",
+      "quantity": "85 g",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 346,
@@ -117,11 +118,18 @@
     },
     {
       "ingredient_id": 247,
-      "name": "firm but ripe medium pears, peeled, cored, and quartered",
-      "quantity": "2"
+      "name": "firm but ripe medium pears",
+      "quantity": "2",
+      "prep": "peeled, cored, and quartered"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature. Peel, core, and quarter the firm but ripe medium pears.",
+      "secondary_message": "85 g unsalted butter\n2 firm but ripe medium pears"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat to 350ºF (175ºC). Add almond flour to a parchment-lined rimmed baking sheet and spread into a thin, even layer. Toast in oven, stirring every 3 minutes, until the almond flour is fragrant and light golden brown, about 10 minutes. Remove from oven and let cool to room temperature, about 20 minutes.",

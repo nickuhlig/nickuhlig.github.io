@@ -39,8 +39,9 @@
   "ingredients": [
     {
       "ingredient_id": 316,
-      "name": "heavy whipping cream, cold",
-      "quantity": "2 cups"
+      "name": "heavy whipping cream",
+      "quantity": "2 cups",
+      "prep": "cold"
     },
     {
       "ingredient_id": 1449,
@@ -54,6 +55,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the heavy whipping cream cold until you use it.",
+      "secondary_message": "2 cups heavy whipping cream"
+    },
     {
       "id": 1,
       "primary_message": "In a food processor or blender, process heavy cream, stopping and scraping down sides of processor jar as needed for even blending, until thickened and soft peaks form, 30 to 60 seconds.",

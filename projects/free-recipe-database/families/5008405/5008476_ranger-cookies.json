@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "½ cup"
+      "name": "unsalted butter",
+      "quantity": "½ cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 293,
@@ -106,6 +107,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature.",
+      "secondary_message": "½ cup unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust two oven racks to upper and lower middle positions and preheat oven to 175°C (350°F). Line two baking sheets with parchment paper. In a medium bowl, mix together flour, oats, baking soda, baking powder, and salt.",

@@ -56,11 +56,18 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, poached with this method",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "poached with this method"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Poach the eggs with this method.",
+      "secondary_message": "4 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Combine hollandaise with 2 teaspoons dill. Toast the English muffins and divide between 4 plates, top each English muffin with 2 slices smoked salmon, then a poached egg. Spoon dill hollandaise over each egg, garnish with extra dill and sliced scallions if desired and serve immediately.",

@@ -37,9 +37,10 @@
   "ingredients": [
     {
       "ingredient_id": 469,
-      "name": "ripe plums, sliced into eighths",
+      "name": "ripe plums",
       "quantity": "12",
-      "weigh_as": "2 lb"
+      "weigh_as": "2 lb",
+      "prep": "sliced into eighths"
     },
     {
       "ingredient_id": 221,
@@ -68,8 +69,9 @@
     },
     {
       "ingredient_id": 1882,
-      "name": "pods cardamom pods, lightly crushed",
-      "quantity": "5"
+      "name": "pods cardamom pods",
+      "quantity": "5",
+      "prep": "lightly crushed"
     },
     {
       "ingredient_id": 116,
@@ -98,8 +100,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, cut into small cubes and chilled",
-      "quantity": "6 tbsp"
+      "name": "butter",
+      "quantity": "6 tbsp",
+      "prep": "cut into small cubes and chilled"
     },
     {
       "ingredient_id": 2475,
@@ -108,6 +111,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the ripe plums into eighths. Lightly crush the pods cardamom pods. Cut the butter into small cubes and keep it cold until you use it.",
+      "secondary_message": "12 ripe plums\n5 pods cardamom pods\n6 tbsp butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 425°F. Toss plums and ginger with cornstarch in a large bowl till well combined. Dump into 10-inch cast iron or non-stick skillet with sugar, salt, anise, and cardamom. Add 1/4 cup water and place over medium heat until simmering. Reduce heat to maintain slow simmer and cook until you can draw lines in the bottom of the pan with a spoon, about 15 minutes. Remove the star anise and cardamom pods and discard.",

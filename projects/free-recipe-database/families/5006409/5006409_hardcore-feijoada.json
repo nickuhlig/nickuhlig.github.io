@@ -29,8 +29,9 @@
   "ingredients": [
     {
       "ingredient_id": 3660,
-      "name": "dried black beans, picked over",
-      "quantity": "1 lb"
+      "name": "dried black beans",
+      "quantity": "1 lb",
+      "prep": "picked over"
     },
     {
       "ingredient_id": 88,
@@ -49,13 +50,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, diced fine",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "diced fine"
     },
     {
       "ingredient_id": 291,
-      "name": "green bell pepper, core and seeds discarded, diced fine",
-      "quantity": "1"
+      "name": "green bell pepper",
+      "quantity": "1",
+      "prep": "core and seeds discarded, diced fine"
     },
     {
       "ingredient_id": 153,
@@ -69,8 +72,9 @@
     },
     {
       "ingredient_id": 260,
-      "name": "tomato, finely diced",
-      "quantity": "1 large"
+      "name": "tomato",
+      "quantity": "1 large",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 1747,
@@ -104,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the dried black beans over. Dice the onion fine. Discard the core and seeds from the green bell pepper, then dice it fine. Finely dice the tomato.",
+      "secondary_message": "1 lb dried black beans\n1 large onion\n1 green bell pepper\n1 large tomato"
+    },
     {
       "id": 1,
       "primary_message": "Dissolve 1/4 cup kosher salt in a gallon of cold water. Add the beans and allow to soak overnight (at least 8 hours). Drain and rinse.",

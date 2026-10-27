@@ -39,8 +39,9 @@
     },
     {
       "ingredient_id": 1816,
-      "name": "lemongrass, chopped",
-      "quantity": "1 small stalk"
+      "name": "lemongrass",
+      "quantity": "1 small stalk",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 3426,
@@ -49,8 +50,9 @@
     },
     {
       "ingredient_id": 3480,
-      "name": "makrut lime leaf, torn in half",
-      "quantity": "1"
+      "name": "makrut lime leaf",
+      "quantity": "1",
+      "prep": "torn in half"
     },
     {
       "ingredient_id": 2346,
@@ -59,11 +61,18 @@
     },
     {
       "ingredient_id": 2581,
-      "name": "white chocolate, finely chopped",
-      "quantity": "85 g"
+      "name": "white chocolate",
+      "quantity": "85 g",
+      "prep": "finely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the lemongrass. Tear the makrut lime leaf in half. Finely chop the white chocolate.",
+      "secondary_message": "1 small stalk lemongrass\n1 makrut lime leaf\n85 g white chocolate"
+    },
     {
       "id": 1,
       "primary_message": "In small saucepan over medium heat, heat milk, lemongrass, lavender, lime leaf, and zest, stirring occasionally, until bubbles form around edges. Remove from heat and let steep 15 minutes.",

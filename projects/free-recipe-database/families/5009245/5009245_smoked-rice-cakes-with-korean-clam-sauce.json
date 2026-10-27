@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 1214,
-      "name": "kimchi, roughly chopped",
-      "quantity": "4 ½ oz"
+      "name": "kimchi",
+      "quantity": "4 ½ oz",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 3145,
@@ -56,8 +57,9 @@
     },
     {
       "ingredient_id": 2224,
-      "name": "Reserved garlic chive tops from Korean Clam Sauce, cut into 2-inch lengths",
-      "quantity": ""
+      "name": "Reserved garlic chive tops from Korean Clam Sauce",
+      "quantity": "",
+      "prep": "cut into 2-inch lengths"
     },
     {
       "ingredient_id": 2788,
@@ -71,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the kimchi. Cut the Reserved garlic chive tops from Korean Clam Sauce into 2-inch lengths.",
+      "secondary_message": "4 ½ oz kimchi\nReserved garlic chive tops from Korean Clam Sauce"
+    },
     {
       "id": 1,
       "primary_message": "Add Korean Clam Sauce to a medium pot along with kim chi and bring to a simmer over medium-high heat. Reduce heat to low and keep hot.",

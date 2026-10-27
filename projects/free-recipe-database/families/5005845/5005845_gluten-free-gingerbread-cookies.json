@@ -80,8 +80,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, softened",
-      "quantity": "5 oz"
+      "name": "butter",
+      "quantity": "5 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 293,
@@ -100,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the butter.",
+      "secondary_message": "5 oz butter"
+    },
     {
       "id": 1,
       "primary_message": "In medium mixing bowl, whisk together brown rice flour, sweet rice flour, tapioca starch, ground ginger, ground cinnamon, baking powder, salt, ground clove, and xanthan gum. Set aside. In bowl of stand mixer fitted with paddle attachment, cream together butter and dark brown sugar until a thick paste forms, about 30 seconds. Add egg. Blend until combined. Stop mixer and scrape down bottom and sides of the bowl. Add dry ingredients. Blend until a thick dough forms. Add molasses. Blend until thoroughly combined.",

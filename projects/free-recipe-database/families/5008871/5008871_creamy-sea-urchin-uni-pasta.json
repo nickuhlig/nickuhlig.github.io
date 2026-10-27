@@ -71,13 +71,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely minced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 3018,
@@ -96,6 +98,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the garlic. Finely mince the shallot.",
+      "secondary_message": "2 cloves garlic\n1 small shallot"
+    },
     {
       "id": 1,
       "primary_message": "Set aside 4 tongues of sea urchin to use as garnish. Combine remaining sea urchin and crema using a blender, immersion blender, food processor, or mini chopper. Blend until completely smooth. Set aside.",

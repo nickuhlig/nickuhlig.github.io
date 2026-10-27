@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 184,
-      "name": "red onion, cut into 1/4-inch dice",
-      "quantity": "1 medium"
+      "name": "red onion",
+      "quantity": "1 medium",
+      "prep": "cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 130,
@@ -46,8 +47,9 @@
     },
     {
       "ingredient_id": 2654,
-      "name": "oil-packed tuna, drained",
-      "quantity": "4 (5 oz) cans"
+      "name": "oil-packed tuna",
+      "quantity": "4 (5 oz) cans",
+      "prep": "drained"
     },
     {
       "ingredient_id": 267,
@@ -56,13 +58,15 @@
     },
     {
       "ingredient_id": 157,
-      "name": "celery, cut into 1/4-inch dice",
-      "quantity": "2 stalks"
+      "name": "celery",
+      "quantity": "2 stalks",
+      "prep": "cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 106,
-      "name": "flat-leaf parsley leaves, tender stems minced",
-      "quantity": "1 oz"
+      "name": "flat-leaf parsley leaves",
+      "quantity": "1 oz",
+      "prep": "tender stems minced"
     },
     {
       "ingredient_id": 52,
@@ -81,11 +85,18 @@
     },
     {
       "ingredient_id": 1216,
-      "name": "sandwich bread, very lightly toasted",
-      "quantity": "8 slices"
+      "name": "sandwich bread",
+      "quantity": "8 slices",
+      "prep": "very lightly toasted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the red onion into 1/4-inch dice. Drain the oil-packed tuna. Cut the celery into 1/4-inch dice. Mince the tender stems of the flat-leaf parsley leaves. Very lightly toast the sandwich bread.",
+      "secondary_message": "1 medium red onion\n4 (5 oz) cans oil-packed tuna\n2 stalks celery\n1 oz flat-leaf parsley leaves\n8 slices sandwich bread"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, combine onion and vinegar (vinegar should just cover onion; add more if it does not) and let stand 15 minutes.",

@@ -38,8 +38,9 @@
   "ingredients": [
     {
       "ingredient_id": 3156,
-      "name": "Leftover lasagna, fully refrigerated at least overnight",
-      "quantity": ""
+      "name": "Leftover lasagna",
+      "quantity": "",
+      "prep": "fully refrigerated at least overnight"
     },
     {
       "ingredient_id": 47,
@@ -48,6 +49,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Fully refrigerate the Leftover lasagna at least overnight.",
+      "secondary_message": "Leftover lasagna"
+    },
     {
       "id": 1,
       "primary_message": "Slice lasagna into slabs about 2-cm thick. Slice each slab into squares about as wide as they are tall. Lay each square flat on its side and insert a wooden skewer or toothpick.",

@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed, divided",
-      "quantity": "6 cloves"
+      "name": "garlic, divided",
+      "quantity": "6 cloves",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 153,
@@ -66,8 +67,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "peeled fresh ginger, thinly sliced",
-      "quantity": "1 (2 ½ cm) knob"
+      "name": "peeled fresh ginger",
+      "quantity": "1 (2 ½ cm) knob",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1873,
@@ -106,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Smash the garlic. Thinly slice the peeled fresh ginger.",
+      "secondary_message": "6 cloves garlic, divided\n1 (2 ½ cm) knob peeled fresh ginger"
+    },
     {
       "id": 1,
       "primary_message": "Season chicken generously with salt and pepper. Place chicken in zipper-lock bags or vacuum bags and add half of garlic, roughly chopped scallions, and all of ginger. Remove air from zipper-lock bags by closing the bags, leaving the last inch of the top unsealed. Slowly lower into a pot of water, sealing the bag completely just before it fully submerges. If using a vacuum bag, seal according to manufacturer instructions.",

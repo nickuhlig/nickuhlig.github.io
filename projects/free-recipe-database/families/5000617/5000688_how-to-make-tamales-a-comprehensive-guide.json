@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 2238,
-      "name": "lard, softened",
-      "quantity": "1 cup"
+      "name": "lard",
+      "quantity": "1 cup",
+      "prep": "softened"
     },
     {
       "ingredient_id": 2246,
@@ -86,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the lard.",
+      "secondary_message": "1 cup lard"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, add corn husks and cover with hot water; soak until pliable, 20 to 30 minutes. Make sure they are fully submerged by weighing them down with a heavy plate, if needed.",

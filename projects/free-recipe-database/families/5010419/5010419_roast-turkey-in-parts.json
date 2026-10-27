@@ -69,23 +69,27 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, peeled and roughly chopped",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "peeled and roughly chopped"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, peeled and roughly chopped",
-      "quantity": "1 large"
+      "name": "carrot",
+      "quantity": "1 large",
+      "prep": "peeled and roughly chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, roughly chopped",
-      "quantity": "2 large ribs"
+      "name": "celery",
+      "quantity": "2 large ribs",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and smashed",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "peeled and smashed"
     },
     {
       "ingredient_id": 1747,
@@ -129,6 +133,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and roughly chop the onion. Peel and roughly chop the carrot. Roughly chop the celery. Peel and smash the garlic.",
+      "secondary_message": "1 large onion\n1 large carrot\n2 large ribs celery\n2 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Using a sharp knife, remove legs from turkey and set aside. Using a large cleaver or heavy chef's knife, cut backbone and carcass away from the turkey breast. Separate turkey wings from breast. Chop backbone and carcass into rough pieces with the cleaver. Season liberally with salt and pepper. For best results, transfer turkey parts to a wire rack set in a rimmed baking sheet and let rest, uncovered, overnight in refrigerator (see notes).",

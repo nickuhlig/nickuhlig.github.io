@@ -74,11 +74,18 @@
     },
     {
       "ingredient_id": 1351,
-      "name": "Caramel sauce, warmed",
-      "quantity": ""
+      "name": "Caramel sauce",
+      "quantity": "",
+      "prep": "warmed"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Warm the Caramel sauce.",
+      "secondary_message": "Caramel sauce"
+    },
     {
       "id": 1,
       "primary_message": "To make the stuffing, in a medium bowl, mix together pecans, 1/4 cup dark brown sugar, cinnamon, nutmeg, and 2 tablespoons melted butter. Set aside.",

@@ -63,8 +63,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, melted",
-      "quantity": "6 tbsp"
+      "name": "butter",
+      "quantity": "6 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 353,
@@ -138,6 +139,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the butter.",
+      "secondary_message": "6 tbsp butter"
+    },
     {
       "id": 1,
       "primary_message": "Prepare the topping: In small bowl, stir together white rice flour, cornstarch, sugars, and ground cinnamon. Add melted butter and vanilla extract. Stir until mixture resembles fine crumbs. You don't want too make large crumbs---those can sink to the bottom of the cake during baking. Set aside.",

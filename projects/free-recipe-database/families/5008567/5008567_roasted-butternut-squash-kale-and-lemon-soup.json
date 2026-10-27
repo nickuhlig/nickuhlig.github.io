@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, chopped",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 150,
@@ -60,13 +61,15 @@
     },
     {
       "ingredient_id": 226,
-      "name": "kale, ends trimmed, leaves roughly chopped",
-      "quantity": "1 bunch"
+      "name": "kale",
+      "quantity": "1 bunch",
+      "prep": "ends trimmed, leaves roughly chopped"
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, quartered",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 24,
@@ -85,6 +88,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the onion. Trim the ends of the kale, then roughly chop the leaves. Quarter the lemon.",
+      "secondary_message": "1 medium onion\n1 bunch kale\n1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "Adjust racks to upper middle and lower position and preheat oven to 450°F. Add 2 tablespoons oil to a large roasting pan or rimmed baking sheet. Add squash, onion, and bell pepper and toss to coat. Season with salt. Add remaining oil to a second roasting pan or baking sheet and add kale, lemon, and garlic. Season with salt and mix well. Place squash on top rack and kale on lower rack and cook, stirring every 10 minutes or so, until squash and red pepper are tender and kale is crispy, about 20 minutes for the kale and 30 minutes for the squash.",

@@ -35,13 +35,15 @@
   "ingredients": [
     {
       "ingredient_id": 2492,
-      "name": "pickled cherry peppers, seeds and stems removed, roughly chopped",
-      "quantity": "1 ½ cups"
+      "name": "pickled cherry peppers",
+      "quantity": "1 ½ cups",
+      "prep": "seeds and stems removed, roughly chopped"
     },
     {
       "ingredient_id": 302,
-      "name": "bacon, cut into 1/2-inch pieces",
-      "quantity": "½ lb"
+      "name": "bacon",
+      "quantity": "½ lb",
+      "prep": "cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 346,
@@ -90,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the seeds and stems from the pickled cherry peppers, then roughly chop them. Cut the bacon into 1/2-inch pieces.",
+      "secondary_message": "1 ½ cups pickled cherry peppers\n½ lb bacon"
+    },
     {
       "id": 1,
       "primary_message": "At least 45 minutes before baking, place a baking stone or steel on an oven rack set to the top position and preheat oven to 550°F. Place cherry peppers in the work bowl of a food processor. Pulse until finely chopped, 8 to 10 short pulses.",

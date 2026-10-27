@@ -68,11 +68,18 @@
     },
     {
       "ingredient_id": 1575,
-      "name": "tin sardines in olive oil, drained",
-      "quantity": "113 g"
+      "name": "tin sardines in olive oil",
+      "quantity": "113 g",
+      "prep": "drained"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain the tin sardines in olive oil.",
+      "secondary_message": "113 g tin sardines in olive oil"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, pour enough vinegar over shallot to just cover and let stand for at least 15 and up to 30 minutes.",

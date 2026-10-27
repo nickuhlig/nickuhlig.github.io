@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, finely sliced",
-      "quantity": "2 large"
+      "name": "onions",
+      "quantity": "2 large",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 88,
@@ -66,18 +67,21 @@
     },
     {
       "ingredient_id": 1294,
-      "name": "whole peeled tomatoes, preferably San Marzano, drained",
-      "quantity": "1 ¾ lb"
+      "name": "whole peeled tomatoes, preferably San Marzano",
+      "quantity": "1 ¾ lb",
+      "prep": "drained"
     },
     {
       "ingredient_id": 162,
-      "name": "oil packed sun dried tomatoes, drained, roughly chopped",
-      "quantity": "1 cup"
+      "name": "oil packed sun dried tomatoes",
+      "quantity": "1 cup",
+      "prep": "drained, roughly chopped"
     },
     {
       "ingredient_id": 2100,
-      "name": "pitted olives, roughly chopped",
-      "quantity": "¾ cup"
+      "name": "pitted olives",
+      "quantity": "¾ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1746,
@@ -86,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely slice the onions. Drain the whole peeled tomatoes. Drain and roughly chop the oil packed sun dried tomatoes. Roughly chop the pitted olives.",
+      "secondary_message": "2 large onions\n1 ¾ lb whole peeled tomatoes, preferably San Marzano\n1 cup oil packed sun dried tomatoes\n¾ cup pitted olives"
+    },
     {
       "id": 1,
       "primary_message": "Complete Square Pan Pizza Dough Recipe through step 3, adjust oven rack to center position and preheating oven to 500°F about 1 hour before baking. While dough rises, heat 2 tablespoons olive oil and onions in a heavy-bottomed Dutch oven or saucepan over medium-high heat. Season to taste with salt. Cook, stirring occasionally, until onions are starting to brown and a caramelized patina is left on the bottom of the pan, about 10 minutes. Add 2 tablespoons water and cook, scraping up browned bits. Repeat process 3 more times, cooking onions while stirring until caramelized patina builds up, then scraping it off with water. After fourth time, season onions to taste with salt and pepper and transfer to a small bowl.",

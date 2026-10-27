@@ -52,9 +52,10 @@
   "ingredients": [
     {
       "ingredient_id": 1039,
-      "name": "russet potato, peeled, quartered, and thinly sliced",
+      "name": "russet potato",
       "quantity": "1 ⅓ medium",
-      "weigh_as": "10 ½ oz"
+      "weigh_as": "10 ½ oz",
+      "prep": "peeled, quartered, and thinly sliced"
     },
     {
       "ingredient_id": 359,
@@ -93,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel, quarter, and thinly slice the russet potato.",
+      "secondary_message": "1 ⅓ medium russet potato"
+    },
     {
       "id": 1,
       "primary_message": "Put potatoes, water, and 1/4 teaspoon of salt in a medium saucepan and bring to a simmer over medium heat, then turn heat down and cook potatoes until fork-tender, about 15 minutes. Transfer potatoes and their liquid to a bowl and let cool.",

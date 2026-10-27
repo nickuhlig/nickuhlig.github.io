@@ -34,8 +34,9 @@
   "ingredients": [
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 2266,
@@ -79,6 +80,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Beat the eggs.",
+      "secondary_message": "4 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "In a large mixing bowl, combine eggs with seltzer and schmaltz or oil. In a small bowl, stir together matzo meal with baking powder (if using), 1 1/2 teaspoon salt, and pepper. Add dry ingredients to wet ingredients and stir to combine thoroughly. Refrigerate uncovered for 30 minutes until matzo absorbs all the liquid.",

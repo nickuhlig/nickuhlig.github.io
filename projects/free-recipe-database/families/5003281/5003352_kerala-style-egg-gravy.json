@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2610,
@@ -115,6 +116,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the onion.",
+      "secondary_message": "1 medium onion"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in a medium non-stick saucepan over medium-high heat until shimmering. Add onions. Cook, stirring, until softened but not browned, about 4 minutes. Add ginger-garlic paste and cook, stirring, until fragrant, about 1 minute. Add the tomato puree and stir until mixed through with the onions, about 1 minute.",

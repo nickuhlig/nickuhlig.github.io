@@ -86,8 +86,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into 1/2-inch cubes",
-      "quantity": "85 g"
+      "name": "cold unsalted butter",
+      "quantity": "85 g",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 1752,
@@ -101,8 +102,9 @@
     },
     {
       "ingredient_id": 3642,
-      "name": "egg white, lightly beaten",
-      "quantity": "1"
+      "name": "egg white",
+      "quantity": "1",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 1678,
@@ -151,6 +153,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cold unsalted butter into 1/2-inch cubes. Lightly beat the egg white.",
+      "secondary_message": "85 g cold unsalted butter\n1 egg white"
+    },
     {
       "id": 1,
       "primary_message": "For the Crust: Adjust oven rack to middle position and preheat the oven to 200°C (400°F). Lightly grease an 20-cm tart pan with a removable bottom.",

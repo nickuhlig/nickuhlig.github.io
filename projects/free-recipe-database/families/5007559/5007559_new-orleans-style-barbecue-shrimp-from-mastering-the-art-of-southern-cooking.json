@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic head, cloves chopped",
-      "quantity": "1 large"
+      "name": "garlic head",
+      "quantity": "1 large",
+      "prep": "cloves chopped"
     },
     {
       "ingredient_id": 286,
@@ -76,8 +77,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, quartered",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 1070,
@@ -96,11 +98,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, room temperature",
-      "quantity": "½ cup"
+      "name": "butter",
+      "quantity": "½ cup",
+      "prep": "room temperature"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the cloves of the garlic head. Quarter the lemon. Bring the butter to room temperature.",
+      "secondary_message": "1 large garlic head\n1 lemon\n½ cup butter"
+    },
     {
       "id": 1,
       "primary_message": "Sprinkle shrimp with 1 tablespoon of seasoning. (This may be done up to an hour ahead).",

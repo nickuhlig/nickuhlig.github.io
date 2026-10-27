@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 152,
-      "name": "yellow onion, very thinly sliced",
-      "quantity": "1 small"
+      "name": "yellow onion",
+      "quantity": "1 small",
+      "prep": "very thinly sliced"
     },
     {
       "ingredient_id": 33,
@@ -55,8 +56,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 72,
@@ -70,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Very thinly slice the yellow onion. Mince the garlic.",
+      "secondary_message": "1 small yellow onion\n3 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Line a large plate with paper towels and set aside. In an unheated large stainless steel skillet, combine oil, butter, or ghee and sliced onions. Cook, over high heat, stirring frequently, until mixture begins to bubble, 2 to 3 minutes. Reduce heat to medium and continue cooking, stirring frequently, until onion is pale yellow, 5 to 6 minutes. Continue cooking, stirring constantly, until onion is light golden brown, 1 to 2 minutes. Using a slotted spoon, quickly transfer fried onions to prepared plate. Don’t discard excess oil in skillet.",

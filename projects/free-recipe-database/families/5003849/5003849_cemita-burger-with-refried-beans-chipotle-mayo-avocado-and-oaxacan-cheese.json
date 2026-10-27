@@ -65,8 +65,9 @@
     },
     {
       "ingredient_id": 2378,
-      "name": "cemita buns, halved",
-      "quantity": "4"
+      "name": "cemita buns",
+      "quantity": "4",
+      "prep": "halved"
     },
     {
       "ingredient_id": 1693,
@@ -90,8 +91,9 @@
     },
     {
       "ingredient_id": 183,
-      "name": "ripe Hass avocado, halved, pitted, and sliced",
-      "quantity": "1 medium"
+      "name": "ripe Hass avocado",
+      "quantity": "1 medium",
+      "prep": "halved, pitted, and sliced"
     },
     {
       "ingredient_id": 2036,
@@ -100,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the cemita buns. Halve, pit, and slice the ripe Hass avocado.",
+      "secondary_message": "4 cemita buns\n1 medium ripe Hass avocado"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, whisk together mayonnaise and the 2 tablespoons adobo sauce. Set aside.",

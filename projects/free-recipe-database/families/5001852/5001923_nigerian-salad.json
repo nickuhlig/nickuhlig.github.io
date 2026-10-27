@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 228,
-      "name": "lime, zested, plus more juice if you like",
-      "quantity": "1"
+      "name": "lime, plus more juice if you like",
+      "quantity": "1",
+      "prep": "zested"
     },
     {
       "ingredient_id": 88,
@@ -82,8 +83,9 @@
     },
     {
       "ingredient_id": 469,
-      "name": "firm plum, 1 chopped and 1 sliced 1/4-inch thick",
-      "quantity": "2"
+      "name": "firm plum",
+      "quantity": "2",
+      "prep": "1 chopped and 1 sliced 1/4-inch thick"
     },
     {
       "ingredient_id": 1980,
@@ -92,13 +94,15 @@
     },
     {
       "ingredient_id": 291,
-      "name": "green bell pepper, trimmed and sliced into thin strips",
-      "quantity": "½ medium"
+      "name": "green bell pepper",
+      "quantity": "½ medium",
+      "prep": "trimmed and sliced into thin strips"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, sliced thin",
-      "quantity": "2"
+      "name": "scallions",
+      "quantity": "2",
+      "prep": "sliced thin"
     },
     {
       "ingredient_id": 188,
@@ -122,6 +126,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the lime. Chop and slice the 1 of the firm plum 1/4-inch thick. Trim and slice the green bell pepper into thin strips. Slice the scallions thin.",
+      "secondary_message": "1 lime, plus more juice if you like\n2 firm plum\n½ medium green bell pepper\n2 scallions"
+    },
     {
       "id": 1,
       "primary_message": "For the Salad Cream: In a small bowl, whisk together vinegar, confectioners' sugar, and mustard until combined. Add mayonnaise, lime zest, and juice, and whisk until combined.",

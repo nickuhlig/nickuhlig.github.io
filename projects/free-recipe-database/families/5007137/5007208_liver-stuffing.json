@@ -44,8 +44,9 @@
   "ingredients": [
     {
       "ingredient_id": 1216,
-      "name": "high quality sandwich bread, cut into 3/4-inch dice, about 8 cups",
-      "quantity": "0.45 kg"
+      "name": "high quality sandwich bread, about 8 cups",
+      "quantity": "0.45 kg",
+      "prep": "cut into 3/4-inch dice"
     },
     {
       "ingredient_id": 115,
@@ -54,13 +55,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, diced",
-      "quantity": "2 medium"
+      "name": "onions",
+      "quantity": "2 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, diced",
-      "quantity": "3 ribs"
+      "name": "celery",
+      "quantity": "3 ribs",
+      "prep": "diced"
     },
     {
       "ingredient_id": 2178,
@@ -104,6 +107,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the high quality sandwich bread into 3/4-inch dice. Dice the onions. Dice the celery.",
+      "secondary_message": "0.45 kg high quality sandwich bread, about 8 cups\n2 medium onions\n3 ribs celery"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven racks to lower-middle and upper-middle position. Preheat oven to 150°C (300°F). Spread bread evenly over 2 rimmed baking sheets. Bake until bread cubes are completely dried, 30 to 40 minutes, rotating trays and stirring bread cubes several times during baking. Remove from oven and allow to cool. Increase oven heat to 190°C (375°F).",

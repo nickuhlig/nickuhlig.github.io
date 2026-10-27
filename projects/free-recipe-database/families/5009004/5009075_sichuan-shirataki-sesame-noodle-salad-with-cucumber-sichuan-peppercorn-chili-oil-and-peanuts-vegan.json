@@ -48,8 +48,9 @@
   "ingredients": [
     {
       "ingredient_id": 2917,
-      "name": "shirataki noodles, drained",
-      "quantity": "1 (227 g) pkg"
+      "name": "shirataki noodles",
+      "quantity": "1 (227 g) pkg",
+      "prep": "drained"
     },
     {
       "ingredient_id": 1869,
@@ -68,8 +69,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "minced"
     },
     {
       "ingredient_id": 221,
@@ -98,8 +100,9 @@
     },
     {
       "ingredient_id": 1980,
-      "name": "cucumber, peeled, seeded, and cut into thin strips",
-      "quantity": "1 small"
+      "name": "cucumber",
+      "quantity": "1 small",
+      "prep": "peeled, seeded, and cut into thin strips"
     },
     {
       "ingredient_id": 153,
@@ -123,6 +126,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain the shirataki noodles. Mince the garlic. Peel, seed, and cut the cucumber into thin strips.",
+      "secondary_message": "1 (227 g) pkg shirataki noodles\n1 medium clove garlic\n1 small cucumber"
+    },
     {
       "id": 1,
       "primary_message": "Transfer shirataki noodles to a colander or strainer. Rinse under cold running water for 30 seconds, then set over a bowl to drain while you make the sauce.",

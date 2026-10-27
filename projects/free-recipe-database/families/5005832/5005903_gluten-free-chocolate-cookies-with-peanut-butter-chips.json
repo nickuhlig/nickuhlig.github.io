@@ -65,13 +65,15 @@
     },
     {
       "ingredient_id": 118,
-      "name": "milk, melted and cooled slightly",
-      "quantity": "113 g"
+      "name": "milk",
+      "quantity": "113 g",
+      "prep": "melted and cooled slightly"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted and cooled slightly",
-      "quantity": "113 g"
+      "name": "unsalted butter",
+      "quantity": "113 g",
+      "prep": "melted and cooled slightly"
     },
     {
       "ingredient_id": 121,
@@ -90,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt and cool the milk slightly. Melt and cool the unsalted butter slightly.",
+      "secondary_message": "113 g milk\n113 g unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Whisk together white rice flour, sweet rice flour, cocoa powder, baking soda, and salt in a medium bowl; set aside. In large bowl, combine granulated sugar, melted chocolate, melted butter, eggs, and vanilla extract. Whisk together until combined. Switch to a wooden spoon and stir in dry ingredients. Stir until thick batter forms.",

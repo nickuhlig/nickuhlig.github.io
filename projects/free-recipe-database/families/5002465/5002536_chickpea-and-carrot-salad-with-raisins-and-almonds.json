@@ -42,8 +42,9 @@
   "ingredients": [
     {
       "ingredient_id": 92,
-      "name": "chickpeas, drained and rinsed",
-      "quantity": "2 (425 g) cans"
+      "name": "chickpeas",
+      "quantity": "2 (425 g) cans",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 1268,
@@ -97,11 +98,18 @@
     },
     {
       "ingredient_id": 29,
-      "name": "sliced almonds, toasted",
-      "quantity": "¼ cup"
+      "name": "sliced almonds",
+      "quantity": "¼ cup",
+      "prep": "toasted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain and rinse the chickpeas. Toast the sliced almonds.",
+      "secondary_message": "2 (425 g) cans chickpeas\n¼ cup sliced almonds"
+    },
     {
       "id": 1,
       "primary_message": "In a medium saucepan, heat chickpeas and raisins over medium heat, stirring, until just warmed through, 3 to 5 minutes. (Alternatively, microwave chickpeas with raisins in a large bowl until hot, about 90 seconds.) Transfer to a large bowl and stir in carrots, oil, lime juice, 3/4 teaspoon kosher salt, 1/4 teaspoon black pepper, smoked paprika, and cayenne, then let sit for 15 to 30 minutes to meld flavors. (At this stage, the salad can be refrigerated in an airtight container for up to 3 days.)",

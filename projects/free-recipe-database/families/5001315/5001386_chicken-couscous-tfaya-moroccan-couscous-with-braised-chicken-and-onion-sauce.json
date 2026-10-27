@@ -58,8 +58,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, diced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 90,
@@ -103,9 +104,10 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onions, thinly sliced",
+      "name": "white onions",
       "quantity": "8 medium",
-      "weigh_as": "0.91 kg"
+      "weigh_as": "0.91 kg",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 214,
@@ -149,6 +151,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the onion. Thinly slice the white onions.",
+      "secondary_message": "1 medium onion\n8 medium white onions"
+    },
     {
       "id": 1,
       "primary_message": "For the Chicken: In a large heavy-bottomed pot or large Dutch oven, heat oil and butter over medium heat until butter is melted and shimmering. Add onions, turmeric, ginger, saffron (if using), salt, and pepper and cook, stirring occasionally, until softened and mixture is fragrant, 3 to 5 minutes.",

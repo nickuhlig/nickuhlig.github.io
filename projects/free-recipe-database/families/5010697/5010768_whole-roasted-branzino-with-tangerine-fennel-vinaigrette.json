@@ -43,8 +43,9 @@
     },
     {
       "ingredient_id": 3552,
-      "name": "whole branzini, scaled and gutted",
-      "quantity": "4"
+      "name": "whole branzini",
+      "quantity": "4",
+      "prep": "scaled and gutted"
     },
     {
       "ingredient_id": 72,
@@ -63,8 +64,9 @@
     },
     {
       "ingredient_id": 2722,
-      "name": "tangerine, halved and thinly sliced into half moons",
-      "quantity": "1 medium"
+      "name": "tangerine",
+      "quantity": "1 medium",
+      "prep": "halved and thinly sliced into half moons"
     },
     {
       "ingredient_id": 2722,
@@ -78,6 +80,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Scale and gut the whole branzini. Halve and thinly slice the tangerine into half moons.",
+      "secondary_message": "4 whole branzini\n1 medium tangerine"
+    },
     {
       "id": 1,
       "primary_message": "Fill large bowl about halfway with room-temperature water and add enough salt to taste, stirring to dissolve salt. Add fish and let soak for 10 minutes. Drain fish and pat dry inside and out with paper towels.",

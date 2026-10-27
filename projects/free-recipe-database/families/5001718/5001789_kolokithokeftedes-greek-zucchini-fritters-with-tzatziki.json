@@ -63,8 +63,9 @@
     },
     {
       "ingredient_id": 1932,
-      "name": "dill, chopped",
-      "quantity": "6 tbsp"
+      "name": "dill",
+      "quantity": "6 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 153,
@@ -83,8 +84,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, lightly beaten",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 116,
@@ -103,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the dill. Lightly beat the eggs.",
+      "secondary_message": "6 tbsp dill\n4 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "For the Fritters: Place zucchini in a colander set over a sink or large bowl, sprinkle with salt, and let sit for at least 30 minutes and up to an hour. Using a flexible spatula, press zucchini against the sides of the colander to extract liquid. Wrap vegetables in a clean kitchen towel or cheesecloth and squeeze to remove excess liquid.",

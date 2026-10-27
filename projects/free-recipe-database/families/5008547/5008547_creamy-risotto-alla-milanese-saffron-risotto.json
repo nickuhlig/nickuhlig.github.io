@@ -59,8 +59,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, minced",
-      "quantity": "1 small"
+      "name": "yellow onion",
+      "quantity": "1 small",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1008,
@@ -89,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the yellow onion.",
+      "secondary_message": "1 small yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "Combine rice and stock in a large bowl. Agitate rice with fingers or a whisk to release starch. Strain through a fine-mesh strainer set over a 2-quart liquid cup measure or large bowl. Allow to drain well, shaking rice of excess liquid.",

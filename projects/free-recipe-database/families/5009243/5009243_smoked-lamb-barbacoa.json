@@ -102,8 +102,9 @@
     },
     {
       "ingredient_id": 2718,
-      "name": "boneless lamb shoulder roast, tied",
-      "quantity": "5 lb"
+      "name": "boneless lamb shoulder roast",
+      "quantity": "5 lb",
+      "prep": "tied"
     },
     {
       "ingredient_id": 1505,
@@ -112,13 +113,15 @@
     },
     {
       "ingredient_id": 2541,
-      "name": "ancho chile, stemmed and seeded",
-      "quantity": "1"
+      "name": "ancho chile",
+      "quantity": "1",
+      "prep": "stemmed and seeded"
     },
     {
       "ingredient_id": 2885,
-      "name": "guajillo chiles, stemmed and seeded",
-      "quantity": "2"
+      "name": "guajillo chiles",
+      "quantity": "2",
+      "prep": "stemmed and seeded"
     },
     {
       "ingredient_id": 1044,
@@ -132,8 +135,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed and peeled",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "smashed and peeled"
     },
     {
       "ingredient_id": 82,
@@ -162,8 +166,9 @@
     },
     {
       "ingredient_id": 1618,
-      "name": "chipotle chilis, canned in adobo sauce, finely chopped",
-      "quantity": "3 tbsp"
+      "name": "chipotle chilis, canned in adobo sauce",
+      "quantity": "3 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2747,
@@ -187,6 +192,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Tie the boneless lamb shoulder roast. Stem and seed the ancho chile. Stem and seed the guajillo chiles. Smash and peel the garlic. Finely chop the chipotle chilis.",
+      "secondary_message": "5 lb boneless lamb shoulder roast\n1 ancho chile\n2 guajillo chiles\n4 medium cloves garlic\n3 tbsp chipotle chilis, canned in adobo sauce"
+    },
     {
       "id": 1,
       "primary_message": "To make the rub: Mix together salt, ancho chile powder, guajillo chile powder, cumin, oregano, onion powder, garlic powder, chipotle powder, and ground cloves. Season lamb shoulder roast liberally with rub all over.",

@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 1541,
-      "name": "plum tomatoes, diced",
-      "quantity": "2"
+      "name": "plum tomatoes",
+      "quantity": "2",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1044,
@@ -57,18 +58,21 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, diced",
-      "quantity": "1 medium"
+      "name": "red onion",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeños, stemmed, seeded, and diced",
-      "quantity": "2"
+      "name": "jalapeños",
+      "quantity": "2",
+      "prep": "stemmed, seeded, and diced"
     },
     {
       "ingredient_id": 1156,
-      "name": "Pepper Jack cheese, grated or diced",
-      "quantity": "3 oz"
+      "name": "Pepper Jack cheese",
+      "quantity": "3 oz",
+      "prep": "grated or diced"
     },
     {
       "ingredient_id": 72,
@@ -77,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the plum tomatoes. Dice the red onion. Stem, seed, and dice the jalapeños. Grate or dice the Pepper Jack cheese.",
+      "secondary_message": "2 plum tomatoes\n1 medium red onion\n2 jalapeños\n3 oz Pepper Jack cheese"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, whisk eggs with 2 generous pinches of salt and set aside. In a medium bowl, toss tomatoes with a generous pinch salt, then transfer tomatoes to a strainer and set over bowl to drain.",

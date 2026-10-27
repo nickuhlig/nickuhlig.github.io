@@ -54,8 +54,9 @@
     },
     {
       "ingredient_id": 44,
-      "name": "boneless skinless chicken breasts, sliced into 1/4-inch slices",
-      "quantity": "2 large"
+      "name": "boneless skinless chicken breasts",
+      "quantity": "2 large",
+      "prep": "sliced into 1/4-inch slices"
     },
     {
       "ingredient_id": 1505,
@@ -89,18 +90,21 @@
     },
     {
       "ingredient_id": 36,
-      "name": "sugar snap peas, trimmed",
-      "quantity": "0.45 kg"
+      "name": "sugar snap peas",
+      "quantity": "0.45 kg",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, whites only, finely minced",
-      "quantity": "3"
+      "name": "scallions, whites only",
+      "quantity": "3",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 1044,
@@ -114,6 +118,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the boneless skinless chicken breasts into 1/4-inch slices. Trim the sugar snap peas. Finely mince the garlic. Finely mince the scallions.",
+      "secondary_message": "2 large boneless skinless chicken breasts\n0.45 kg sugar snap peas\n2 medium cloves garlic\n3 scallions, whites only"
+    },
     {
       "id": 1,
       "primary_message": "Combine egg white, 1 tablespoon soy sauce, 2 tablespoons shaoxing wine, and 1 tablespoon corn starch in a medium bowl and whisk until homogeneous. Add chicken and toss to coat. Let marinate at room temperature for at least 20 minutes and up to three hours.",

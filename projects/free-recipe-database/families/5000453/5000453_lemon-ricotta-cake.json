@@ -75,8 +75,9 @@
     },
     {
       "ingredient_id": 253,
-      "name": "almond flour, sifted",
-      "quantity": "¼ cup"
+      "name": "almond flour",
+      "quantity": "¼ cup",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 331,
@@ -105,8 +106,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "12 tbsp"
+      "name": "unsalted butter",
+      "quantity": "12 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 2346,
@@ -115,8 +117,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1678,
@@ -125,6 +128,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Sift the almond flour. Soften the unsalted butter. Bring the eggs to room temperature.",
+      "secondary_message": "¼ cup almond flour\n12 tbsp unsalted butter\n3 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat to 325°F. Using nonstick baking spray, lightly grease a 9-inch aluminum cake pan and line with parchment paper.",

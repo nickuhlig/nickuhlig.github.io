@@ -34,8 +34,9 @@
   "ingredients": [
     {
       "ingredient_id": 1399,
-      "name": "Persian cucumbers, peeled",
-      "quantity": "4"
+      "name": "Persian cucumbers",
+      "quantity": "4",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 2744,
@@ -59,6 +60,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the Persian cucumbers.",
+      "secondary_message": "4 Persian cucumbers"
+    },
     {
       "id": 1,
       "primary_message": "Dice the peeled cucumber into ½-cm pieces. Alternatively, shred the cucumber on the large holes of a box grater.",

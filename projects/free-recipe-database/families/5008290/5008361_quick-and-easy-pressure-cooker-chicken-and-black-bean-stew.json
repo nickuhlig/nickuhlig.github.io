@@ -49,8 +49,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, diced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 186,
@@ -94,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the onion.",
+      "secondary_message": "1 medium onion"
+    },
     {
       "id": 1,
       "primary_message": "In a pressure cooker, heat oil over medium-high heat until shimmering. Add sausage and cook until starting to crisp around edges, about 2 minutes. Add onion and cook, stirring, until softened, about 3 minutes longer. Add cumin and cook until fragrant, about 30 seconds. Add chiles, dried black beans, cilantro stems, and stock. Season with salt and pepper and stir to combine. Seal pressure cooker and bring to high pressure. Cook for 30 minutes. Cool pressure cooker under a cold running tap (if using an electric cooker, use the quick release valve), and open.",

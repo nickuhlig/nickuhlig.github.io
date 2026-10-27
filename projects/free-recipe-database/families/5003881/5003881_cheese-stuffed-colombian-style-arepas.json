@@ -59,8 +59,9 @@
     },
     {
       "ingredient_id": 57,
-      "name": "mozzarella melting cheese, sliced or grated",
-      "quantity": "½ lb"
+      "name": "mozzarella melting cheese",
+      "quantity": "½ lb",
+      "prep": "sliced or grated"
     },
     {
       "ingredient_id": 115,
@@ -69,6 +70,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice or grate the mozzarella melting cheese.",
+      "secondary_message": "½ lb mozzarella melting cheese"
+    },
     {
       "id": 1,
       "primary_message": "Preheat toaster oven or oven with rack in the center to 325°F. Combine masarepa, crumbled cheese (if using), water, and vegetable oil in a medium bowl and knead with hands until a dough is formed. Take a small amount and flatten it between your palms. If the edges crack, knead in more water, 1 tablespoon at a time until dough is supple and smooth but not sticky. Season dough to taste with salt, then cover and set aside for 5 minutes.",

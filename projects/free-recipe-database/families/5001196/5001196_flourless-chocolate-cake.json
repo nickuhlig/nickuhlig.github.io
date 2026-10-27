@@ -72,13 +72,15 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, 60% cacao, finely chopped",
-      "quantity": "4 oz"
+      "name": "bittersweet chocolate, 60% cacao",
+      "quantity": "4 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cubed",
-      "quantity": "4 oz"
+      "name": "unsalted butter",
+      "quantity": "4 oz",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 1517,
@@ -92,8 +94,9 @@
     },
     {
       "ingredient_id": 333,
-      "name": "unsweetened cocoa powder, sifted , plus more for dusting",
-      "quantity": "1 ½ oz"
+      "name": "unsweetened cocoa powder, plus more for dusting",
+      "quantity": "1 ½ oz",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 353,
@@ -102,8 +105,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -112,6 +116,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the bittersweet chocolate. Cube the unsalted butter. Sift the unsweetened cocoa powder. Bring the eggs to room temperature.",
+      "secondary_message": "4 oz bittersweet chocolate, 60% cacao\n4 oz unsalted butter\n1 ½ oz unsweetened cocoa powder, plus more for dusting\n3 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350°F (175ºC). Using baking spray, coat the interior of a 9-inch springform pan; line bottom of pan with a parchment paper round and the sides with a separate parchment strip; set aside.",

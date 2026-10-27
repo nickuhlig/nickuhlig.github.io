@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "minced"
     },
     {
       "ingredient_id": 88,
@@ -96,8 +97,9 @@
     },
     {
       "ingredient_id": 92,
-      "name": "chickpeas, drained and rinsed",
-      "quantity": "1 (15 oz) can"
+      "name": "chickpeas",
+      "quantity": "1 (15 oz) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 1755,
@@ -106,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic. Drain and rinse the chickpeas.",
+      "secondary_message": "1 medium clove garlic\n1 (15 oz) can chickpeas"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in a large saucepan over medium-high heat until shimmering. Add spinach and cook, stirring until wilted, about 30 seconds. Add garlic and cook, stirring, until fragrant, about 1 minute longer. Season to taste with salt and pepper. Transfer to a bowl and set aside. Fill pot with salted water and bring to a boil.",

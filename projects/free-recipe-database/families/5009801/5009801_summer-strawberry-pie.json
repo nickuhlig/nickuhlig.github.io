@@ -49,8 +49,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted, using more if needed",
-      "quantity": "8 tbsp (4 oz)"
+      "name": "unsalted butter",
+      "quantity": "8 tbsp (4 oz)",
+      "prep": "melted, using more if needed"
     },
     {
       "ingredient_id": 1019,
@@ -59,8 +60,9 @@
     },
     {
       "ingredient_id": 242,
-      "name": "fresh strawberries, hulled, divided",
-      "quantity": "3 lb"
+      "name": "fresh strawberries, divided",
+      "quantity": "3 lb",
+      "prep": "hulled"
     },
     {
       "ingredient_id": 346,
@@ -79,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter, then need the using more if. Hull the fresh strawberries.",
+      "secondary_message": "8 tbsp (4 oz) unsalted butter\n3 lb fresh strawberries, divided"
+    },
     {
       "id": 1,
       "primary_message": "For the Crust: In a medium bowl, stir butter into graham cracker crumbs until evenly incorporated. Firmly press into an even layer lining the bottom and sides of a 9-inch deep-dish pie plate; it helps to use the bottom of a measuring cup to flatten bottom of crust evenly. Refrigerate until ready to fill.",

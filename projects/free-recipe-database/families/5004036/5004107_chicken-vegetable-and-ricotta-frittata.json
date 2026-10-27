@@ -47,13 +47,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 428,
-      "name": "broccoli florets, cut into 2-inch pieces",
-      "quantity": "0.57 kg"
+      "name": "broccoli florets",
+      "quantity": "0.57 kg",
+      "prep": "cut into 2-inch pieces"
     },
     {
       "ingredient_id": 88,
@@ -67,18 +69,21 @@
     },
     {
       "ingredient_id": 277,
-      "name": "grape tomatoes, halved",
-      "quantity": "½ cup"
+      "name": "grape tomatoes",
+      "quantity": "½ cup",
+      "prep": "halved"
     },
     {
       "ingredient_id": 1746,
-      "name": "lightly packed fresh basil leaves, chopped",
-      "quantity": "½ cup"
+      "name": "lightly packed fresh basil leaves",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, lightly beaten",
-      "quantity": "10 large large"
+      "name": "eggs",
+      "quantity": "10 large large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 37,
@@ -87,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the onion. Cut the broccoli florets into 2-inch pieces. Halve the grape tomatoes. Chop the lightly packed fresh basil leaves. Lightly beat the eggs.",
+      "secondary_message": "1 medium onion\n0.57 kg broccoli florets\n½ cup grape tomatoes\n½ cup lightly packed fresh basil leaves\n10 large large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to upper-middle position and preheat oven to 190°C (375°F). If using chicken breasts, slice each breast so that they are of equal thickness. Heat broth in medium saucepan over medium-high heat to simmer. Add chicken and 1/2 teaspoon salt. Reduce heat to low and gently simmer until chicken is cooked to 71°C, 13 to 15 minutes. Transfer chicken to plate and when cool enough to handle shred into bite size pieces.",

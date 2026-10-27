@@ -37,8 +37,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, thinly sliced",
-      "quantity": "4 medium"
+      "name": "shallots",
+      "quantity": "4 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -57,8 +58,9 @@
     },
     {
       "ingredient_id": 420,
-      "name": "Puy lentils, drained and rinsed",
-      "quantity": "1 (14 ½ oz) can"
+      "name": "Puy lentils",
+      "quantity": "1 (14 ½ oz) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 1994,
@@ -87,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the shallots. Drain and rinse the Puy lentils.",
+      "secondary_message": "4 medium shallots\n1 (14 ½ oz) can Puy lentils"
+    },
     {
       "id": 1,
       "primary_message": "In a medium nonstick skillet, heat 1 tablespoon of olive oil over medium-high heat until shimmering. Add shallots and cook, stirring frequently, until very soft and browned, about 15 minutes; lower the heat if necessary to prevent burning. Season to taste with salt and pepper and set caramelized shallots aside. Wipe out skillet.",

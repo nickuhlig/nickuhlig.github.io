@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 1713,
-      "name": "onions, sliced thinly into half moons",
-      "quantity": "3"
+      "name": "onions",
+      "quantity": "3",
+      "prep": "sliced thinly into half moons"
     },
     {
       "ingredient_id": 47,
@@ -106,6 +107,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the onions thinly into half moons.",
+      "secondary_message": "3 onions"
+    },
     {
       "id": 1,
       "primary_message": "In a large sauté pan, add the onions to 2 tablespoons of olive oil, sitting over medium-low heat. Season with salt and pepper, and sauté slowly for 45 minutes, until the onions are soft and jammy. Be sure to stir them often, and lower the heat if they burn too quickly.",

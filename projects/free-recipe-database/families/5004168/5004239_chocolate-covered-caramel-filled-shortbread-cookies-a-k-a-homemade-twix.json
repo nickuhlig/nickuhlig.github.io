@@ -85,8 +85,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into tablespoon-sized pats",
-      "quantity": "198 g"
+      "name": "unsalted butter",
+      "quantity": "198 g",
+      "prep": "cut into tablespoon-sized pats"
     },
     {
       "ingredient_id": 1449,
@@ -135,6 +136,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into tablespoon-sized pats.",
+      "secondary_message": "198 g unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Cookies: Adjust oven rack to center position and preheat oven to 230°C (450°F). Place oats in a spice grinder or blender and process to a fine flour, about 1 minute. Combine oat flour, regular flour, cornstarch, confectioners' sugar, and salt in the bowl of a stand mixer fitted with a paddle attachment. Mix on low speed until combined, about 15 seconds. Add butter and beat on low speed until a dough forms and pulls away from the sides of the mixer, about 12 minutes. Transfer dough to a parchment-lined work surface.",

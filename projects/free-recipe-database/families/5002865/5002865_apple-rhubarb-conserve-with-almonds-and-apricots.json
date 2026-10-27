@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 1692,
-      "name": "peeled apples, chopped",
-      "quantity": "3 cups"
+      "name": "peeled apples",
+      "quantity": "3 cups",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2463,
@@ -72,8 +73,9 @@
     },
     {
       "ingredient_id": 1601,
-      "name": "slivered almonds, toasted and coarsely chopped",
-      "quantity": "½ cup"
+      "name": "slivered almonds",
+      "quantity": "½ cup",
+      "prep": "toasted and coarsely chopped"
     },
     {
       "ingredient_id": 215,
@@ -82,6 +84,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the peeled apples. Toast and coarsely chop the slivered almonds.",
+      "secondary_message": "3 cups peeled apples\n½ cup slivered almonds"
+    },
     {
       "id": 1,
       "primary_message": "Whisk the sugar and pectin a medium bowl and set aside. Combine the apple, rhubarb, and 1/2 cup water in a large saucepan. Bring to a boil, then reduce the heat, cover, and simmer just until the apples and rhubarb break down, about 20 minutes. Mash the fruit with a large fork or wooden spoon until it is the consistency of chunky applesauce.",

@@ -63,23 +63,27 @@
     },
     {
       "ingredient_id": 2021,
-      "name": "fresh serrano chiles, stemmed and thinly sliced",
-      "quantity": "3"
+      "name": "fresh serrano chiles",
+      "quantity": "3",
+      "prep": "stemmed and thinly sliced"
     },
     {
       "ingredient_id": 1762,
-      "name": "fresh green Thai chiles, stemmed",
-      "quantity": "15"
+      "name": "fresh green Thai chiles",
+      "quantity": "15",
+      "prep": "stemmed"
     },
     {
       "ingredient_id": 1814,
-      "name": "coriander roots, cleaned",
-      "quantity": "3"
+      "name": "coriander roots",
+      "quantity": "3",
+      "prep": "cleaned"
     },
     {
       "ingredient_id": 1815,
-      "name": "fresh galangal, peeled and thinly sliced",
-      "quantity": "1 (5 cm) piece"
+      "name": "fresh galangal",
+      "quantity": "1 (5 cm) piece",
+      "prep": "peeled and thinly sliced"
     },
     {
       "ingredient_id": 1816,
@@ -88,13 +92,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, thinly sliced",
-      "quantity": "3 small"
+      "name": "garlic cloves",
+      "quantity": "3 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, thinly sliced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1817,
@@ -103,6 +109,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem and thinly slice the fresh serrano chiles. Stem the fresh green Thai chiles. Clean the coriander roots. Peel and thinly slice the fresh galangal. Thinly slice the garlic cloves. Thinly slice the shallot.",
+      "secondary_message": "3 fresh serrano chiles\n15 fresh green Thai chiles\n3 coriander roots\n1 (5 cm) piece fresh galangal\n3 small garlic cloves\n1 small shallot"
+    },
     {
       "id": 1,
       "primary_message": "In a small skillet, combine cardamom, coriander, and cumin, and toast over medium-low heat, swirling and tossing frequently, until fragrant, 2 to 3 minutes. Transfer spices to a granite mortar and pestle or spice grinder along with white peppercorns and salt. Allow to cool slightly, and peel and discard husks from cardamom pods. Grind to a fine powder. If using a spice grinder, transfer mixture to a granite mortar and pestle.",

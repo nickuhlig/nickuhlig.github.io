@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 1552,
-      "name": "whole boneless beef chuck roast, cut crosswise into 3 steaks",
-      "quantity": "3 lb"
+      "name": "whole boneless beef chuck roast",
+      "quantity": "3 lb",
+      "prep": "cut crosswise into 3 steaks"
     },
     {
       "ingredient_id": 88,
@@ -87,8 +88,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, lightly crushed",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "lightly crushed"
     },
     {
       "ingredient_id": 1714,
@@ -127,11 +129,18 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white pearl onions, peeled",
-      "quantity": "8 oz"
+      "name": "white pearl onions",
+      "quantity": "8 oz",
+      "prep": "peeled"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the whole boneless beef chuck roast crosswise into 3 steaks. Lightly crush the garlic. Peel the white pearl onions.",
+      "secondary_message": "3 lb whole boneless beef chuck roast\n4 medium cloves garlic\n8 oz white pearl onions"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 325°F. Pour chicken stock into a medium bowl and sprinkle gelatin evenly all over surface, allowing each packet's worth of gelatin to soak up stock before sprinkling next one on. Set aside.",

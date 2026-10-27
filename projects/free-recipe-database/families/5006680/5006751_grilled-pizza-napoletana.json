@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 1294,
-      "name": "whole peeled tomatoes, preferably San Marzano, drained",
-      "quantity": "1 (408 g) can"
+      "name": "whole peeled tomatoes, preferably San Marzano",
+      "quantity": "1 (408 g) can",
+      "prep": "drained"
     },
     {
       "ingredient_id": 88,
@@ -71,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain the whole peeled tomatoes.",
+      "secondary_message": "1 (408 g) can whole peeled tomatoes, preferably San Marzano"
+    },
     {
       "id": 1,
       "primary_message": "Use a knife or bench scraper to divide dough into four even pieces. With lightly floured hands, form into tight balls. Lightly oil 4 medium containers (large soup bowls work great) and place 1 dough ball in each one. Lightly grease the tops of the dough balls then cover each bowl with plastic wrap. Allow to rise at room temperature until doubled in volume, about 2 hours.",

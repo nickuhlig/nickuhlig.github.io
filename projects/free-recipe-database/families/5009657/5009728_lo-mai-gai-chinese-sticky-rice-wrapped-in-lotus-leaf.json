@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 164,
-      "name": "skinless boneless chicken thighs, sliced thinly",
-      "quantity": "0.23 kg"
+      "name": "skinless boneless chicken thighs",
+      "quantity": "0.23 kg",
+      "prep": "sliced thinly"
     },
     {
       "ingredient_id": 264,
@@ -122,13 +123,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "whole shallot, minced",
-      "quantity": "1"
+      "name": "whole shallot",
+      "quantity": "1",
+      "prep": "minced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "2 medium"
+      "name": "garlic cloves",
+      "quantity": "2 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1664,
@@ -142,16 +145,24 @@
     },
     {
       "ingredient_id": 2787,
-      "name": "Chinese bacon, sliced thinly",
-      "quantity": "85 g"
+      "name": "Chinese bacon",
+      "quantity": "85 g",
+      "prep": "sliced thinly"
     },
     {
       "ingredient_id": 2724,
-      "name": "Chinese sausages, sliced thinly on the bias",
-      "quantity": "2"
+      "name": "Chinese sausages",
+      "quantity": "2",
+      "prep": "sliced thinly on the bias"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the skinless boneless chicken thighs thinly. Mince the whole shallot. Mince the garlic cloves. Slice the Chinese bacon thinly. Slice the Chinese sausages thinly on the bias.",
+      "secondary_message": "0.23 kg skinless boneless chicken thighs\n1 whole shallot\n2 medium garlic cloves\n85 g Chinese bacon\n2 Chinese sausages"
+    },
     {
       "id": 1,
       "primary_message": "Place sticky rice in a large bowl and cover completely with water. Let stand for at least 2 hours or overnight.",

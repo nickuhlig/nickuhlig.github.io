@@ -101,8 +101,9 @@
     },
     {
       "ingredient_id": 3641,
-      "name": "egg yolks, at room temperature",
-      "quantity": "3 large"
+      "name": "egg yolks",
+      "quantity": "3 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 353,
@@ -116,8 +117,9 @@
     },
     {
       "ingredient_id": 3642,
-      "name": "egg whites, at room temperature",
-      "quantity": "4 large"
+      "name": "egg whites",
+      "quantity": "4 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 88,
@@ -136,8 +138,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "57 g"
+      "name": "cream cheese",
+      "quantity": "57 g",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1710,
@@ -156,8 +159,9 @@
     },
     {
       "ingredient_id": 1752,
-      "name": "heavy cream, chilled",
-      "quantity": "2 cups"
+      "name": "heavy cream",
+      "quantity": "2 cups",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 1033,
@@ -171,8 +175,9 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, chopped",
-      "quantity": "170 g"
+      "name": "bittersweet chocolate",
+      "quantity": "170 g",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 353,
@@ -186,6 +191,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the egg yolks to room temperature. Bring the egg whites to room temperature. Soften the cream cheese. Keep the heavy cream cold until you use it. Chop the bittersweet chocolate.",
+      "secondary_message": "3 large egg yolks\n4 large egg whites\n57 g cream cheese\n2 cups heavy cream\n170 g bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Adjust oven rack to middle position and preheat oven to 165°C (325°F). Lightly coat jelly roll pan (see note) with baking spray. Line with parchment paper and once again lightly coat with baking spray. Dust with 1/4 cup cocoa powder and tap to evenly distribute; knock out excess.",

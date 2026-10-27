@@ -36,13 +36,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, thinly sliced",
-      "quantity": "½ medium"
+      "name": "onion",
+      "quantity": "½ medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2324,
@@ -61,8 +63,9 @@
     },
     {
       "ingredient_id": 1618,
-      "name": "chipotles, chopped",
-      "quantity": "1 to 2"
+      "name": "chipotles",
+      "quantity": "1 to 2",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2747,
@@ -86,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the onion. Thinly slice the garlic. Chop the chipotles.",
+      "secondary_message": "½ medium onion\n2 medium cloves garlic\n1 to 2 chipotles"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 120°C (250°F) and set a heat-proof plate in it. Melt 2 tablespoons butter in a large cast-iron skillet over medium heat. Stir in onion, garlic, and zucchini and season with salt and pepper. Cook, stirring occasionally, until onion and zucchini slices are tender and starting to brown, about 7 minutes. Stir in chipotle and adobo sauce and cook for 1 minute. Stir in chicken and cook until warm, about 2 minutes. Season with salt and pepper, transfer mixture to a large bowl, and set aside.",

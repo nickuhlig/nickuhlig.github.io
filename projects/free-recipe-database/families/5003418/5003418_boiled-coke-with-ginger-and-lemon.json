@@ -37,16 +37,24 @@
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, peeled and thinly sliced",
-      "quantity": "1 (1 inch) chunk"
+      "name": "ginger",
+      "quantity": "1 (1 inch) chunk",
+      "prep": "peeled and thinly sliced"
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, sliced into rounds",
-      "quantity": "½"
+      "name": "lemon",
+      "quantity": "½",
+      "prep": "sliced into rounds"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and thinly slice the ginger. Slice the lemon into rounds.",
+      "secondary_message": "1 (1 inch) chunk ginger\n½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "Add coke, ginger, and lemon to a medium saucepan. Bring to a boil over high heat, then adjust heat to maintain an active simmer. Simmer until reduced by 15 to 20 percent, 5 to 10 minutes. Pour into cup (through a fine-mesh strainer if desired). Let cool at room temperature for a few minutes and serve.",

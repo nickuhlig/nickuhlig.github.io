@@ -40,9 +40,10 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onions, diced",
+      "name": "yellow onions",
       "quantity": "4 medium",
-      "weigh_as": "1 lb"
+      "weigh_as": "1 lb",
+      "prep": "diced"
     },
     {
       "ingredient_id": 88,
@@ -67,21 +68,24 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and cut into 1/2-inch pieces",
+      "name": "carrots",
       "quantity": "3 ½ medium",
-      "weigh_as": "8 oz"
+      "weigh_as": "8 oz",
+      "prep": "peeled and cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 260,
-      "name": "fresh tomato, cored and diced",
+      "name": "fresh tomato",
       "quantity": "1 ¾",
-      "weigh_as": "8 oz"
+      "weigh_as": "8 oz",
+      "prep": "cored and diced"
     },
     {
       "ingredient_id": 3064,
-      "name": "Yukon Gold potatoes, cut into small chunks",
+      "name": "Yukon Gold potatoes",
       "quantity": "1 ⅔ medium",
-      "weigh_as": "¾ lb"
+      "weigh_as": "¾ lb",
+      "prep": "cut into small chunks"
     },
     {
       "ingredient_id": 24,
@@ -105,11 +109,18 @@
     },
     {
       "ingredient_id": 1541,
-      "name": "whole plum tomatoes, peeled, seeded, and minced",
-      "quantity": "2"
+      "name": "whole plum tomatoes",
+      "quantity": "2",
+      "prep": "peeled, seeded, and minced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the yellow onions. Peel and cut the carrots into 1/2-inch pieces. Core and dice the fresh tomato. Cut the Yukon Gold potatoes into small chunks. Peel, seed, and mince the whole plum tomatoes.",
+      "secondary_message": "4 medium yellow onions\n3 ½ medium carrots\n1 ¾ fresh tomato\n1 ⅔ medium Yukon Gold potatoes\n2 whole plum tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "For the Soup: In a large Dutch oven or soup pot, heat oil over medium heat until warmed. Add onions and a pinch of salt and cook, stirring often, until softened but not browned, about 4 minutes. Add beans along with enough water to cover (about 1 quart/liter) and a large pinch of salt and bring to a simmer over high heat. Lower heat to maintain simmer and cook until beans are al dente (almost tender but still retain a slight bite), about 40 minutes (though time will depend heavily on the type of beans you use so check doneness and prioritize that over the time estimate).",

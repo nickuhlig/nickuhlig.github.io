@@ -72,8 +72,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "30 g"
+      "name": "unsalted butter",
+      "quantity": "30 g",
+      "prep": "melted"
     },
     {
       "ingredient_id": 346,
@@ -97,6 +98,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter.",
+      "secondary_message": "30 g unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, whisk together flour, water, sourdough starter, milk powder, butter, sugar, salt, and yeast until smooth. Cover with plastic wrap and let stand at room temperature until batter has roughly doubled in volume, about 1 hour.",

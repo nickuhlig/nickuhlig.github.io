@@ -41,34 +41,40 @@
     },
     {
       "ingredient_id": 440,
-      "name": "Romaine lettuce hearts, chopped",
+      "name": "Romaine lettuce hearts",
       "quantity": "2 hearts",
-      "weigh_as": "12 oz"
+      "weigh_as": "12 oz",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 121,
-      "name": "hard-boiled eggs, diced",
-      "quantity": "4 large"
+      "name": "hard-boiled eggs",
+      "quantity": "4 large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 3665,
-      "name": "cooked bacon, diced",
-      "quantity": "4 slices"
+      "name": "cooked bacon",
+      "quantity": "4 slices",
+      "prep": "diced"
     },
     {
       "ingredient_id": 183,
-      "name": "avocados, peeled, cored, and sliced",
-      "quantity": "2"
+      "name": "avocados",
+      "quantity": "2",
+      "prep": "peeled, cored, and sliced"
     },
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, cut in half",
-      "quantity": "½ pint"
+      "name": "cherry tomatoes",
+      "quantity": "½ pint",
+      "prep": "cut in half"
     },
     {
       "ingredient_id": 126,
-      "name": "goat cheese, crumbled",
-      "quantity": "3 oz"
+      "name": "goat cheese",
+      "quantity": "3 oz",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 47,
@@ -127,6 +133,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the Romaine lettuce hearts. Dice the hard-boiled eggs. Dice the cooked bacon. Peel, core, and slice the avocados. Cut the cherry tomatoes in half. Crumble the goat cheese.",
+      "secondary_message": "2 hearts Romaine lettuce hearts\n4 large hard-boiled eggs\n4 slices cooked bacon\n2 avocados\n½ pint cherry tomatoes\n3 oz goat cheese"
+    },
     {
       "id": 1,
       "primary_message": "Heat a grill pan over medium-high heat. Brush salmon with olive oil and season both sides with salt and pepper. Grill salmon until just cooked through, about 4 minutes per side depending on thickness. Set aside.",

@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1721,
@@ -66,8 +67,9 @@
     },
     {
       "ingredient_id": 1294,
-      "name": "whole peeled tomatoes, drained and roughly broken up by hand",
-      "quantity": "1 (28 oz) can"
+      "name": "whole peeled tomatoes",
+      "quantity": "1 (28 oz) can",
+      "prep": "drained and roughly broken up by hand"
     },
     {
       "ingredient_id": 1752,
@@ -91,8 +93,9 @@
     },
     {
       "ingredient_id": 1174,
-      "name": "rustic bread, roughly torn",
-      "quantity": "2 slices"
+      "name": "rustic bread",
+      "quantity": "2 slices",
+      "prep": "roughly torn"
     },
     {
       "ingredient_id": 270,
@@ -106,8 +109,9 @@
     },
     {
       "ingredient_id": 2088,
-      "name": "red hot chile, finely sliced",
-      "quantity": "1 small"
+      "name": "red hot chile",
+      "quantity": "1 small",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 2535,
@@ -121,6 +125,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic. Drain and roughly break up the whole peeled tomatoes by hand. Roughly tear the rustic bread. Finely slice the red hot chile.",
+      "secondary_message": "3 medium cloves garlic\n1 (28 oz) can whole peeled tomatoes\n2 slices rustic bread\n1 small red hot chile"
+    },
     {
       "id": 1,
       "primary_message": "Heat butter and 2 tablespoons olive oil in a medium saucepan over medium heat until melted and foaming subsides. Add garlic and red pepper flakes and cook, stirring constantly, until fragrant but not browned, about 1 minute. Add tomatoes and heavy cream. Bring to a boil, reduce to a simmer, and cook, stirring occasionally, until lightly reduced, about 10 minutes. Add vodka and simmer for 4 minutes longer.",

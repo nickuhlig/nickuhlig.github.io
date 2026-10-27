@@ -51,8 +51,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened to about 65°F/18°C",
-      "quantity": "340 g"
+      "name": "unsalted butter",
+      "quantity": "340 g",
+      "prep": "softened to about 65°F/18°C"
     },
     {
       "ingredient_id": 347,
@@ -71,11 +72,18 @@
     },
     {
       "ingredient_id": 1752,
-      "name": "heavy cream, straight from the fridge",
-      "quantity": "85 g"
+      "name": "heavy cream",
+      "quantity": "85 g",
+      "prep": "straight from the fridge"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter to about 65°F/18°C. Keep the heavy cream cold until you use it.",
+      "secondary_message": "340 g unsalted butter\n85 g heavy cream"
+    },
     {
       "id": 1,
       "primary_message": "Place the butter in the bowl of a stand mixer, then sift the powdered sugar on top. Fit the machine with a paddle attachment, and mix on low until the powdered sugar is fully incorporated. Add vanilla and salt, then increase speed to medium and beat until the frosting is airy and light, pausing along the way to scrape the bowl and beater as needed. This will take about 6 minutes, although the exact timing will vary depending on the power of the machine. During this time, the mixture will have warmed to approximately 21°C.",

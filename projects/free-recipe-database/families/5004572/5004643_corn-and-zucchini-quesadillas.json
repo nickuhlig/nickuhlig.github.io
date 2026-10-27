@@ -58,8 +58,9 @@
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño pepper, minced",
-      "quantity": "1"
+      "name": "jalapeño pepper",
+      "quantity": "1",
+      "prep": "minced"
     },
     {
       "ingredient_id": 188,
@@ -78,6 +79,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the jalapeño pepper.",
+      "secondary_message": "1 jalapeño pepper"
+    },
     {
       "id": 1,
       "primary_message": "Heat 2 teaspoons oil in a 25-cm cast iron or nonstick skillet over high heat until oil just starts to smoke. Add zucchini, season with salt, and cook, tossing and stirring frequently, until zucchini is lightly browned, about 2 minutes. Add corn kernels and continue cooking, tossing frequently, until corn is lightly browned, about 2 minutes longer. Add jalapeño and cook, tossing constantly, until softened, about 30 seconds. Stir in cilantro and transfer mixture to a medium bowl.",

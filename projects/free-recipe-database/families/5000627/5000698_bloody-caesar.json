@@ -48,8 +48,9 @@
   "ingredients": [
     {
       "ingredient_id": 1479,
-      "name": "tomato juice, chilled",
-      "quantity": "3 cups"
+      "name": "tomato juice",
+      "quantity": "3 cups",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 1454,
@@ -163,6 +164,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the tomato juice cold until you use it.",
+      "secondary_message": "3 cups tomato juice"
+    },
     {
       "id": 1,
       "primary_message": "For the Bloody Caesar mix: In a large pitcher, whisk tomato juice, bottled clam juice, lemon juice, Worcestershire sauce, fish sauce, sugar, oregano, garlic powder, and MSG, if using, until combined. Season to taste with salt. Cover and refrigerate until chilled, at least 2 hours or up to 2 days.",

@@ -33,8 +33,9 @@
   "ingredients": [
     {
       "ingredient_id": 1811,
-      "name": "shrimp, large, peeled and deveined",
-      "quantity": "0.45 kg"
+      "name": "shrimp, large",
+      "quantity": "0.45 kg",
+      "prep": "peeled and deveined"
     },
     {
       "ingredient_id": 359,
@@ -53,8 +54,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and minced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "peeled and minced"
     },
     {
       "ingredient_id": 217,
@@ -68,8 +70,9 @@
     },
     {
       "ingredient_id": 260,
-      "name": "tomatoes, cut into 1-inch cubes",
-      "quantity": "2 medium"
+      "name": "tomatoes",
+      "quantity": "2 medium",
+      "prep": "cut into 1-inch cubes"
     },
     {
       "ingredient_id": 111,
@@ -98,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and devein the shrimp. Peel and mince the garlic. Cut the tomatoes into 1-inch cubes.",
+      "secondary_message": "0.45 kg shrimp, large\n2 medium cloves garlic\n2 medium tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "Put the water and the salt in a large pot and bring to a boil. Reduce the heat so that water is steaming but no longer boiling. (If you have a thermometer, make sure the water registers somewhere between 160 ̊ and 180 ̊F). Add shrimp and cook, stirring occasionally, just until the flesh turns opaque, about 1 minute. Transfer to a large plate and set aside",

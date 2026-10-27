@@ -63,8 +63,9 @@
     },
     {
       "ingredient_id": 1879,
-      "name": "fresh spinach leaves, tough stems removed",
-      "quantity": "85 g"
+      "name": "fresh spinach leaves",
+      "quantity": "85 g",
+      "prep": "tough stems removed"
     },
     {
       "ingredient_id": 1746,
@@ -98,8 +99,9 @@
     },
     {
       "ingredient_id": 107,
-      "name": "fresh mozzarella cheese, torn into small chunks",
-      "quantity": "340 g"
+      "name": "fresh mozzarella cheese",
+      "quantity": "340 g",
+      "prep": "torn into small chunks"
     },
     {
       "ingredient_id": 37,
@@ -108,6 +110,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the tough stems from the fresh spinach leaves. Tear the fresh mozzarella cheese into small chunks.",
+      "secondary_message": "85 g fresh spinach leaves\n340 g fresh mozzarella cheese"
+    },
     {
       "id": 1,
       "primary_message": "At least 2 hours before baking, divide dough into 3 even parts, form into balls, place on a lightly floured surface, cover loosely with plastic wrap, place a towel on top of the plastic wrap to keep the edges pressed down, and allow balls to rise at room temperature.",

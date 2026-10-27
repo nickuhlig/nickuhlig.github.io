@@ -48,13 +48,15 @@
   "ingredients": [
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "10 oz"
+      "name": "cream cheese",
+      "quantity": "10 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "½ cup"
+      "name": "unsalted butter",
+      "quantity": "½ cup",
+      "prep": "softened"
     },
     {
       "ingredient_id": 2310,
@@ -93,8 +95,9 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, melted and cooled",
-      "quantity": "5 oz"
+      "name": "bittersweet chocolate",
+      "quantity": "5 oz",
+      "prep": "melted and cooled"
     },
     {
       "ingredient_id": 1710,
@@ -103,6 +106,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the cream cheese. Soften the unsalted butter. Melt the bittersweet chocolate and let it cool.",
+      "secondary_message": "10 oz cream cheese\n½ cup unsalted butter\n5 oz bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 350°F. Grease and flour a 12-cup Bundt or tube pan.",

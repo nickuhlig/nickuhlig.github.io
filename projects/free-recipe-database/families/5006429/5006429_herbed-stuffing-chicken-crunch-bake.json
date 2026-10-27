@@ -32,18 +32,21 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted, divided",
-      "quantity": "6 tbsp"
+      "name": "unsalted butter, divided",
+      "quantity": "6 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 1929,
-      "name": "shitake mushroons, ends trimmed, sliced thin",
-      "quantity": "8 oz"
+      "name": "shitake mushroons",
+      "quantity": "8 oz",
+      "prep": "ends trimmed, sliced thin"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1433,
@@ -57,13 +60,15 @@
     },
     {
       "ingredient_id": 3131,
-      "name": "herbed dry stuffing crumbs, crushed",
-      "quantity": "2 ½ cups"
+      "name": "herbed dry stuffing crumbs",
+      "quantity": "2 ½ cups",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 1808,
-      "name": "fresh parsely, chopped, divided",
-      "quantity": "2 tbsp"
+      "name": "fresh parsely, divided",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1702,
@@ -72,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Trim the ends of the shitake mushroons, then slice them thin. Finely chop the onion. Crush the herbed dry stuffing crumbs. Chop the fresh parsely.",
+      "secondary_message": "6 tbsp unsalted butter, divided\n8 oz shitake mushroons\n1 medium onion\n2 ½ cups herbed dry stuffing crumbs\n2 tbsp fresh parsely, divided"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 375°F. Butter 9- by 13-inch baking dish.",

@@ -45,8 +45,9 @@
   "ingredients": [
     {
       "ingredient_id": 158,
-      "name": "cauliflower, cut into 1 1/2 inch florets",
-      "quantity": "1 medium head"
+      "name": "cauliflower",
+      "quantity": "1 medium head",
+      "prep": "cut into 1 1/2 inch florets"
     },
     {
       "ingredient_id": 47,
@@ -65,8 +66,9 @@
     },
     {
       "ingredient_id": 2697,
-      "name": "pancetta, finely diced",
-      "quantity": "4 oz"
+      "name": "pancetta",
+      "quantity": "4 oz",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 2346,
@@ -80,8 +82,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 1721,
@@ -110,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cauliflower into 1 1/2 inch florets. Finely dice the pancetta. Finely mince the garlic.",
+      "secondary_message": "1 medium head cauliflower\n4 oz pancetta\n3 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat the oven to 400°F. To a rimmed baking sheet, add cauliflower, drizzle with oil, and sprinkle with salt. Toss to coat evenly and arrange in a single layer. Bake, flipping once halfway through, until cauliflower is tender and golden brown around edges, 25 to 30 minutes. Set aside until ready to use.",

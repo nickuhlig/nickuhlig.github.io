@@ -47,13 +47,15 @@
     },
     {
       "ingredient_id": 1021,
-      "name": "frozen puff pastry, thawed according to package instructions",
-      "quantity": "2 sheets"
+      "name": "frozen puff pastry",
+      "quantity": "2 sheets",
+      "prep": "thawed according to package instructions"
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, cut into small pieces and softened",
-      "quantity": "8 oz"
+      "name": "cream cheese",
+      "quantity": "8 oz",
+      "prep": "cut into small pieces and softened"
     },
     {
       "ingredient_id": 1003,
@@ -72,8 +74,9 @@
     },
     {
       "ingredient_id": 2561,
-      "name": "guava paste, cut into 1/4-inch cubes",
-      "quantity": "8 oz"
+      "name": "guava paste",
+      "quantity": "8 oz",
+      "prep": "cut into 1/4-inch cubes"
     },
     {
       "ingredient_id": 3641,
@@ -82,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thaw the frozen puff pastry according to package instructions. Cut the cream cheese into small pieces and soften it. Cut the guava paste into 1/4-inch cubes.",
+      "secondary_message": "2 sheets frozen puff pastry\n8 oz cream cheese\n8 oz guava paste"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven racks to upper third and lower third positions and preheat oven to 400°F (205°C, see note). Line 2 rimmed baking sheets with parchment paper.",

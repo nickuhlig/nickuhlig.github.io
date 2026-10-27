@@ -59,8 +59,9 @@
     },
     {
       "ingredient_id": 2753,
-      "name": "sifted, finely ground raw cashews",
-      "quantity": "3 ½ oz"
+      "name": "sifted",
+      "quantity": "3 ½ oz",
+      "prep": "finely ground raw cashews"
     },
     {
       "ingredient_id": 115,
@@ -74,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely grind the sifted raw cashews.",
+      "secondary_message": "3 ½ oz sifted"
+    },
     {
       "id": 1,
       "primary_message": "Prepare an ice bath by combining cold water and ice cubes in a small mixing bowl. Lightly grease a dinner plate with butter or ghee. If using silicone molds, grease them lightly with butter or ghee; if you are not using silicone molds, lightly grease a rimmed baking sheet with butter or ghee.",

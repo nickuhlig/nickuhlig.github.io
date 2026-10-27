@@ -59,8 +59,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, peeled and thinly sliced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "peeled and thinly sliced"
     },
     {
       "ingredient_id": 309,
@@ -74,8 +75,9 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and sliced into thin rounds",
-      "quantity": "10 medium"
+      "name": "carrots",
+      "quantity": "10 medium",
+      "prep": "peeled and sliced into thin rounds"
     },
     {
       "ingredient_id": 88,
@@ -109,6 +111,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and thinly slice the yellow onion. Peel and slice the carrots into thin rounds.",
+      "secondary_message": "1 medium yellow onion\n10 medium carrots"
+    },
     {
       "id": 1,
       "primary_message": "In a large pot or Dutch oven, heat 3 tablespoons olive oil over medium heat until shimmering. Add onion, leek, and garlic, and cook, stirring occasionally, until softened but not browned, about 10 minutes. Stir in carrots and season with salt. Add parsley, if using.",

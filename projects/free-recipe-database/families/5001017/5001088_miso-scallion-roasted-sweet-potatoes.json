@@ -45,8 +45,9 @@
   "ingredients": [
     {
       "ingredient_id": 143,
-      "name": "sweet potatoes, peeled and cut into 1/2-inch chunks",
-      "quantity": "1.4 kg"
+      "name": "sweet potatoes",
+      "quantity": "1.4 kg",
+      "prep": "peeled and cut into 1/2-inch chunks"
     },
     {
       "ingredient_id": 1044,
@@ -90,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the sweet potatoes into 1/2-inch chunks.",
+      "secondary_message": "1.4 kg sweet potatoes"
+    },
     {
       "id": 1,
       "primary_message": "Place sweet potatoes in a large saucepan and cover with cold water. Heat water to 70°C as registered on an instant-read thermometer. Cover and set aside for 1 hour.",

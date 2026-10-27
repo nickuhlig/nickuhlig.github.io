@@ -49,8 +49,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely diced",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 1808,
@@ -59,8 +60,9 @@
     },
     {
       "ingredient_id": 2388,
-      "name": "fresh oysters, scrubbed clean",
-      "quantity": "12"
+      "name": "fresh oysters",
+      "quantity": "12",
+      "prep": "scrubbed clean"
     },
     {
       "ingredient_id": 2696,
@@ -69,6 +71,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the shallot. Scrub the fresh oysters clean.",
+      "secondary_message": "1 medium shallot\n12 fresh oysters"
+    },
     {
       "id": 1,
       "primary_message": "Pour the beer into an 8x8 baking dish, then stir in the black pepper and lemon zest. Place the dish into the freezer.",

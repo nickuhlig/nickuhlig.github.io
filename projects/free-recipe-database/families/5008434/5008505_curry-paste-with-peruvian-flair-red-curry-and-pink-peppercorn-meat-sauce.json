@@ -46,13 +46,15 @@
     },
     {
       "ingredient_id": 76,
-      "name": "coriander, toasted and ground",
-      "quantity": "1 tbsp"
+      "name": "coriander",
+      "quantity": "1 tbsp",
+      "prep": "toasted and ground"
     },
     {
       "ingredient_id": 2820,
-      "name": "pink peppercorns, toasted and ground",
-      "quantity": "1 tbsp"
+      "name": "pink peppercorns",
+      "quantity": "1 tbsp",
+      "prep": "toasted and ground"
     },
     {
       "ingredient_id": 41,
@@ -76,16 +78,24 @@
     },
     {
       "ingredient_id": 264,
-      "name": "cornstarch, dissolved in 2 teaspoons water",
-      "quantity": "1 ½ tsp"
+      "name": "cornstarch",
+      "quantity": "1 ½ tsp",
+      "prep": "dissolved in 2 teaspoons water"
     },
     {
       "ingredient_id": 228,
-      "name": "lime, juiced",
-      "quantity": "1"
+      "name": "lime",
+      "quantity": "1",
+      "prep": "juiced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Toast and grind the coriander. Toast and grind the pink peppercorns. Dissolve the cornstarch in 2 teaspoons water. Juice the lime.",
+      "secondary_message": "1 tbsp coriander\n1 tbsp pink peppercorns\n1 ½ tsp cornstarch\n1 lime"
+    },
     {
       "id": 1,
       "primary_message": "Heat a large skillet on high heat for several minutes until water sizzles off instantly. Add your meat of choice and brown it well, salting aggressively. When the meat is browned and a little crispy, remove it with a slotted spoon to a plate lined with paper towels.",

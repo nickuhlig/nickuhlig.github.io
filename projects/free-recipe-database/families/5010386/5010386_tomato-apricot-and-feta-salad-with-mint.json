@@ -36,14 +36,16 @@
   "ingredients": [
     {
       "ingredient_id": 260,
-      "name": "ripe tomatoes, cut into bite-size chunks",
+      "name": "ripe tomatoes",
       "quantity": "3 ½",
-      "weigh_as": "1 lb"
+      "weigh_as": "1 lb",
+      "prep": "cut into bite-size chunks"
     },
     {
       "ingredient_id": 468,
-      "name": "apricots, pitted and sliced",
-      "quantity": "2 to 3"
+      "name": "apricots",
+      "quantity": "2 to 3",
+      "prep": "pitted and sliced"
     },
     {
       "ingredient_id": 243,
@@ -67,11 +69,18 @@
     },
     {
       "ingredient_id": 32,
-      "name": "feta cheese, broken into rough chunks",
-      "quantity": "6 oz"
+      "name": "feta cheese",
+      "quantity": "6 oz",
+      "prep": "broken into rough chunks"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the ripe tomatoes into bite-size chunks. Pit and slice the apricots. Break the feta cheese into rough chunks.",
+      "secondary_message": "3 ½ ripe tomatoes\n2 to 3 apricots\n6 oz feta cheese"
+    },
     {
       "id": 1,
       "primary_message": "Combine tomatoes, apricots, and half of mint in a large bowl and season with salt and pepper. Drizzle with olive oil and toss very gently to coat. Arrange on a serving platter. Add chunks of feta cheese. Sprinkle with remaining mint. Drizzle with more olive oil. Serve.",

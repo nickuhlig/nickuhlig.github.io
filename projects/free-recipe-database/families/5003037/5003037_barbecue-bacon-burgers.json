@@ -70,13 +70,15 @@
     },
     {
       "ingredient_id": 302,
-      "name": "thick-cut slab bacon, split in half crosswise",
-      "quantity": "6 slices"
+      "name": "thick-cut slab bacon",
+      "quantity": "6 slices",
+      "prep": "split in half crosswise"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, cut into 1/4-inch-thick rings",
-      "quantity": "1"
+      "name": "onion",
+      "quantity": "1",
+      "prep": "cut into 1/4-inch-thick rings"
     },
     {
       "ingredient_id": 399,
@@ -95,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the thick-cut slab bacon in half crosswise. Cut the onion into 1/4-inch-thick rings.",
+      "secondary_message": "6 slices thick-cut slab bacon\n1 onion"
+    },
     {
       "id": 1,
       "primary_message": "Divide meat into four even piles and shape into burger patties about 1/2-inch wider than burger buns. Season generously with salt and pepper and set aside.",

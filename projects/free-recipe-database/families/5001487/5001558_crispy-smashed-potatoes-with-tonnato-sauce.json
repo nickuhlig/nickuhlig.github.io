@@ -93,8 +93,9 @@
     },
     {
       "ingredient_id": 2654,
-      "name": "oil-packed tuna, drained",
-      "quantity": "113 g"
+      "name": "oil-packed tuna",
+      "quantity": "113 g",
+      "prep": "drained"
     },
     {
       "ingredient_id": 88,
@@ -138,6 +139,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain the oil-packed tuna.",
+      "secondary_message": "113 g oil-packed tuna"
+    },
     {
       "id": 1,
       "primary_message": "For the Potatoes: In a large pot, cover potatoes with cold water, season heavily with salt, and add thyme. Bring to a boil over high heat , then reduce heat to a gentle simmer and cook until potatoes are completely tender, about 10 minutes after a boil is achieved (poke a potato with a sharp knife or cake tester to test for doneness). Drain in a colander set in the sink and let rest for 10 minutes to dry and cool slightly.",

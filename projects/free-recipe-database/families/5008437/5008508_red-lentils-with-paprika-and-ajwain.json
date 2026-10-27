@@ -39,18 +39,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "medium-large onions, roughly chopped",
-      "quantity": "2"
+      "name": "medium-large onions",
+      "quantity": "2",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, peeled and roughly chopped",
-      "quantity": "1 (7 ½ cm) piece"
+      "name": "ginger",
+      "quantity": "1 (7 ½ cm) piece",
+      "prep": "peeled and roughly chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "6 cloves"
+      "name": "garlic",
+      "quantity": "6 cloves",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 2842,
@@ -79,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the medium-large onions. Peel and roughly chop the ginger. Peel the garlic.",
+      "secondary_message": "2 medium-large onions\n1 (7 ½ cm) piece ginger\n6 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Melt 4 tablespoons of niter kibbeh in a large pot over medium-high heat. Meanwhile, combine the onions, ginger, and garlic in a food processor into a loose paste. When the fat is hot and shimmering, add the paste. Stir to prevent sticking, but let the paste develop a deep, rich brown color.",

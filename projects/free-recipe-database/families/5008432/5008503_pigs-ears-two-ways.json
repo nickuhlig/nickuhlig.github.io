@@ -39,13 +39,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, peeled and halved",
-      "quantity": "1"
+      "name": "onion",
+      "quantity": "1",
+      "prep": "peeled and halved"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, washed",
-      "quantity": "1"
+      "name": "carrot",
+      "quantity": "1",
+      "prep": "washed"
     },
     {
       "ingredient_id": 2436,
@@ -94,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and halve the onion. Wash the carrot.",
+      "secondary_message": "1 onion\n1 carrot"
+    },
     {
       "id": 1,
       "primary_message": "Procedure for Pig's Ear on a Hot Griddle",

@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "16 tbsp (8 oz)"
+      "name": "unsalted butter",
+      "quantity": "16 tbsp (8 oz)",
+      "prep": "softened"
     },
     {
       "ingredient_id": 88,
@@ -60,8 +61,9 @@
     },
     {
       "ingredient_id": 317,
-      "name": "ripe bananas, mashed",
-      "quantity": "3"
+      "name": "ripe bananas",
+      "quantity": "3",
+      "prep": "mashed"
     },
     {
       "ingredient_id": 1003,
@@ -95,8 +97,9 @@
     },
     {
       "ingredient_id": 108,
-      "name": "cashews, toasted and coarse chopped",
-      "quantity": "1 cup"
+      "name": "cashews",
+      "quantity": "1 cup",
+      "prep": "toasted and coarse chopped"
     },
     {
       "ingredient_id": 462,
@@ -115,6 +118,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter. Mash the ripe bananas. Toast and coarsely chop the cashews.",
+      "secondary_message": "16 tbsp (8 oz) unsalted butter\n3 ripe bananas\n1 cup cashews"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350°F. Grease and flour a 10- to 12-cup bundt pan.",

@@ -70,13 +70,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "European shallots, thinly sliced",
-      "quantity": "3 medium"
+      "name": "European shallots",
+      "quantity": "3 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "standard garlic, roughly smashed in a mortar and pestle",
-      "quantity": "4 large cloves"
+      "name": "standard garlic",
+      "quantity": "4 large cloves",
+      "prep": "roughly smashed in a mortar and pestle"
     },
     {
       "ingredient_id": 1816,
@@ -95,8 +97,9 @@
     },
     {
       "ingredient_id": 1762,
-      "name": "Thai chiles, roughly chopped",
-      "quantity": "4 to 10"
+      "name": "Thai chiles",
+      "quantity": "4 to 10",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 24,
@@ -140,6 +143,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the European shallots. Roughly smash the standard garlic in a mortar and pestle. Roughly chop the Thai chiles.",
+      "secondary_message": "3 medium European shallots\n4 large cloves standard garlic\n4 to 10 Thai chiles"
+    },
     {
       "id": 1,
       "primary_message": "For the Chicken: Place chicken in a small saucepan and cover with cold water. Season well with salt. Bring to a boil over medium-high heat, cover, and remove from heat. Let sit until an instant-read thermometer inserted into the deepest part of the chicken registers 63°C, about 15 minutes. Transfer chicken to a bowl and let stand until cool enough to handle. Discard bones and skin. Shred meat into 3 to 5-cm pieces and set aside.",

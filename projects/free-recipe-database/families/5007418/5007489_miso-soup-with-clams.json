@@ -49,8 +49,9 @@
     },
     {
       "ingredient_id": 1990,
-      "name": "dried kombu piece, rinsed in cold water",
-      "quantity": "19 g"
+      "name": "dried kombu piece",
+      "quantity": "19 g",
+      "prep": "rinsed in cold water"
     },
     {
       "ingredient_id": 1718,
@@ -64,6 +65,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse the dried kombu piece in cold water.",
+      "secondary_message": "19 g dried kombu piece"
+    },
     {
       "id": 1,
       "primary_message": "Rinse clams under cold running water. Fill a large bowl with cold water, season with salt until water is salty like the sea (about 3% salt by weight), and add clams. Let stand for 30 minutes. Lift clams from purging water and discard water. Rinse out bowl. Repeat as many times as necessary until no sand or grit collects in bottom of bowl (usually between 1 and 3 times).",

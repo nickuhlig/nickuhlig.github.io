@@ -33,23 +33,27 @@
   "ingredients": [
     {
       "ingredient_id": 150,
-      "name": "red bell peppers, stemmed and seeded, divided",
-      "quantity": "5 large"
+      "name": "red bell peppers, divided",
+      "quantity": "5 large",
+      "prep": "stemmed and seeded"
     },
     {
       "ingredient_id": 2805,
-      "name": "Fresno chiles, stemmed and seeded, divided",
-      "quantity": "3"
+      "name": "Fresno chiles, divided",
+      "quantity": "3",
+      "prep": "stemmed and seeded"
     },
     {
       "ingredient_id": 291,
-      "name": "green bell peppers, stemmed, seeded, and finely chopped",
-      "quantity": "2 large"
+      "name": "green bell peppers",
+      "quantity": "2 large",
+      "prep": "stemmed, seeded, and finely chopped"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño chiles, stemmed, seeded, and finely chopped",
-      "quantity": "2 medium"
+      "name": "jalapeño chiles",
+      "quantity": "2 medium",
+      "prep": "stemmed, seeded, and finely chopped"
     },
     {
       "ingredient_id": 88,
@@ -73,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem and seed the red bell peppers. Stem and seed the Fresno chiles. Stem, seed, and finely chop the green bell peppers. Stem, seed, and finely chop the jalapeño chiles.",
+      "secondary_message": "5 large red bell peppers, divided\n3 Fresno chiles, divided\n2 large green bell peppers\n2 medium jalapeño chiles"
+    },
     {
       "id": 1,
       "primary_message": "Thoroughly wash 6 (1/2-pint-size) canning jars and their lids. If you plan to process the jelly for shelf-stable storage, sterilize the jars as described in our canning guide.",

@@ -86,8 +86,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely chopped",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 111,
@@ -101,8 +102,9 @@
     },
     {
       "ingredient_id": 1811,
-      "name": "shrimp, medium, peeled and deveined",
-      "quantity": "0.23 kg"
+      "name": "shrimp, medium",
+      "quantity": "0.23 kg",
+      "prep": "peeled and deveined"
     },
     {
       "ingredient_id": 270,
@@ -136,21 +138,30 @@
     },
     {
       "ingredient_id": 343,
-      "name": "radishes, thinly sliced",
-      "quantity": "6"
+      "name": "radishes",
+      "quantity": "6",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 247,
-      "name": "pear, cored and thinly sliced",
-      "quantity": "1"
+      "name": "pear",
+      "quantity": "1",
+      "prep": "cored and thinly sliced"
     },
     {
       "ingredient_id": 260,
-      "name": "beefsteak tomatoes, quartered",
-      "quantity": "2"
+      "name": "beefsteak tomatoes",
+      "quantity": "2",
+      "prep": "quartered"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the shallot. Peel and devein the shrimp. Thinly slice the radishes. Core and thinly slice the pear. Quarter the beefsteak tomatoes.",
+      "secondary_message": "1 small shallot\n0.23 kg shrimp, medium\n6 radishes\n1 pear\n2 beefsteak tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "Adjust the oven rack to middle position and preheat to 205°C (400°F). Place chicken, potatoes, thyme, and garlic in a roasting pan. Drizzle with vegetable oil then sprinkle liberally with salt and pepper. Using your hands, toss all the ingredients together so they are evenly coated. Place in the oven and roast until potatoes are soft, and chicken is fully cooked and golden brown, about 30 minutes. Remove from oven and set aside to cool.",

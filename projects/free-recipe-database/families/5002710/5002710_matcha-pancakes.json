@@ -42,8 +42,9 @@
   "ingredients": [
     {
       "ingredient_id": 1908,
-      "name": "mixed berries, cut into bite-size pieces if needed",
-      "quantity": "2 cups"
+      "name": "mixed berries",
+      "quantity": "2 cups",
+      "prep": "cut into bite-size pieces if needed"
     },
     {
       "ingredient_id": 346,
@@ -92,8 +93,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted, plus more for cooking as needed",
-      "quantity": "1 tbsp"
+      "name": "unsalted butter, plus more for cooking as needed",
+      "quantity": "1 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 1730,
@@ -107,6 +109,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the mixed berries into bite-size pieces if needed. Melt the unsalted butter.",
+      "secondary_message": "2 cups mixed berries\n1 tbsp unsalted butter, plus more for cooking as needed"
+    },
     {
       "id": 1,
       "primary_message": "For the Macerated Berries: In a medium bowl, combine the berries and granulated sugar and toss until evenly coated. Cover and refrigerate until the berries release their juices and form a syrup, at least 1 hour or up to overnight,",

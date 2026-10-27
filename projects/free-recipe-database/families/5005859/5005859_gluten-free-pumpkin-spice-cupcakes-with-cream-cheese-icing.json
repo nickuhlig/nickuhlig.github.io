@@ -101,13 +101,15 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "8 oz"
+      "name": "cream cheese",
+      "quantity": "8 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "1 oz"
+      "name": "unsalted butter",
+      "quantity": "1 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 347,
@@ -121,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the cream cheese. Soften the unsalted butter.",
+      "secondary_message": "8 oz cream cheese\n1 oz unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Cupcakes: Adjust oven rack to middle position. Preheat oven to 350°F. Line 2 muffin pans (24 muffin cups total) with paper liners.",

@@ -45,8 +45,9 @@
   "ingredients": [
     {
       "ingredient_id": 2830,
-      "name": "sour cherries, sliced and pitted",
-      "quantity": "3 cups"
+      "name": "sour cherries",
+      "quantity": "3 cups",
+      "prep": "sliced and pitted"
     },
     {
       "ingredient_id": 3426,
@@ -70,6 +71,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice and pit the sour cherries.",
+      "secondary_message": "3 cups sour cherries"
+    },
     {
       "id": 1,
       "primary_message": "Combine cherries, sugar, lavender, and liqueur in blender. Blend until smooth. Add salt and lime juice incrementally, tasting as you go (see head note).",

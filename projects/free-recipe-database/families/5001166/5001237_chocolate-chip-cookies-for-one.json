@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted and cooled slightly",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "melted and cooled slightly"
     },
     {
       "ingredient_id": 293,
@@ -86,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt and cool the unsalted butter slightly.",
+      "secondary_message": "2 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, using a small whisk or fork, whisk flour, baking soda, and salt together. In a medium bowl, whisk butter and sugar vigorously until sugar is fully dissolved, about 1 minute. Vigorously whisk egg and vanilla into butter mixture until fully combined and mixture is glossy, about 1 minute. Using a rubber spatula or spoon, stir flour mixture into butter mixture until just combined, then stir in chocolate chips. Cover and refrigerate for 5 to 10 minutes, until batter is slightly thickened. Using wet hands, divide dough into 2 equal portions and roll into balls.",

@@ -76,18 +76,21 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed and peeled",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "smashed and peeled"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, roughly chopped",
-      "quantity": "3"
+      "name": "scallions",
+      "quantity": "3",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, sliced",
-      "quantity": "1 (2 ½ cm) piece"
+      "name": "ginger",
+      "quantity": "1 (2 ½ cm) piece",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 1784,
@@ -111,8 +114,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, lightly beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 221,
@@ -141,6 +145,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Smash and peel the garlic. Roughly chop the scallions. Slice the ginger. Lightly beat the egg.",
+      "secondary_message": "3 medium cloves garlic\n3 scallions\n1 (2 ½ cm) piece ginger\n1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "For the Tare Sauce: Combine mirin, soy sauce, sake, brown sugar, sherry vinegar, garlic, scallions, ginger slices, and peppercorns in a medium saucepan. Bring to boil over high heat, then reduce to a simmer, whisk to combine, and cook until mixture is thick and syrupy, about 45 minutes. Strain through a fine-mesh strainer. Set aside or store in an airtight container in the refrigerator until ready to use.",

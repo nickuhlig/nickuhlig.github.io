@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, sliced thinly on a bias",
-      "quantity": "2 medium"
+      "name": "scallions",
+      "quantity": "2 medium",
+      "prep": "sliced thinly on a bias"
     },
     {
       "ingredient_id": 188,
@@ -95,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the scallions thinly on a bias.",
+      "secondary_message": "2 medium scallions"
+    },
     {
       "id": 1,
       "primary_message": "In a medium mixing bowl, combine celery, long hot green pepper, scallions, and chopped cilantro.",

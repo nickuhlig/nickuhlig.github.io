@@ -49,18 +49,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, diced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell pepper, diced",
-      "quantity": "1"
+      "name": "red bell pepper",
+      "quantity": "1",
+      "prep": "diced"
     },
     {
       "ingredient_id": 2066,
-      "name": "poblano pepper, diced",
-      "quantity": "1"
+      "name": "poblano pepper",
+      "quantity": "1",
+      "prep": "diced"
     },
     {
       "ingredient_id": 88,
@@ -74,13 +77,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2021,
-      "name": "serrano pepper, minced",
-      "quantity": "1"
+      "name": "serrano pepper",
+      "quantity": "1",
+      "prep": "minced"
     },
     {
       "ingredient_id": 186,
@@ -104,8 +109,9 @@
     },
     {
       "ingredient_id": 1600,
-      "name": "pitted green olives, sliced",
-      "quantity": "1 cup"
+      "name": "pitted green olives",
+      "quantity": "1 cup",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 53,
@@ -114,13 +120,15 @@
     },
     {
       "ingredient_id": 185,
-      "name": "black beans, drained and rinsed",
-      "quantity": "1 (425 g) can"
+      "name": "black beans",
+      "quantity": "1 (425 g) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 93,
-      "name": "red kidney beans, drained and rinsed",
-      "quantity": "1 (425 g) can"
+      "name": "red kidney beans",
+      "quantity": "1 (425 g) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 1294,
@@ -134,13 +142,15 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, thinly sliced",
-      "quantity": "3"
+      "name": "scallions",
+      "quantity": "3",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 188,
-      "name": "fresh cilantro leaves, fine stems minced",
-      "quantity": "½ cup"
+      "name": "fresh cilantro leaves",
+      "quantity": "½ cup",
+      "prep": "fine stems minced"
     },
     {
       "ingredient_id": 115,
@@ -194,11 +204,18 @@
     },
     {
       "ingredient_id": 151,
-      "name": "red jalapeño pepper, finely minced",
-      "quantity": "1"
+      "name": "red jalapeño pepper",
+      "quantity": "1",
+      "prep": "finely minced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the onion. Dice the red bell pepper. Dice the poblano pepper. Thinly slice the garlic. Mince the serrano pepper. Slice the pitted green olives. Drain and rinse the black beans. Drain and rinse the red kidney beans. Thinly slice the scallions. Finely mince the stems of the fresh cilantro leaves. Finely mince the red jalapeño pepper.",
+      "secondary_message": "1 medium onion\n1 red bell pepper\n1 poblano pepper\n4 medium cloves garlic\n1 serrano pepper\n1 cup pitted green olives\n1 (425 g) can black beans\n1 (425 g) can red kidney beans\n3 scallions\n½ cup fresh cilantro leaves\n1 red jalapeño pepper"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center position and preheat oven to 220°C (425°F). Heat oil in a large Dutch oven, or saucepan over high heat until lightly smoking. Add corn and cook, stirring occasionally, until corn is well charred in spots, about 4 minutes. Add onion, bell pepper, and poblano pepper, season with salt and pepper, and cook, stirring, until softened but not browned, about 3 minutes.",

@@ -76,8 +76,9 @@
     },
     {
       "ingredient_id": 470,
-      "name": "fennel bulb, trimmed, cored, and thinly sliced",
-      "quantity": "1"
+      "name": "fennel bulb",
+      "quantity": "1",
+      "prep": "trimmed, cored, and thinly sliced"
     },
     {
       "ingredient_id": 1721,
@@ -86,8 +87,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2696,
@@ -101,11 +103,18 @@
     },
     {
       "ingredient_id": 1236,
-      "name": "Swiss cheese, torn in half",
-      "quantity": "12 slices"
+      "name": "Swiss cheese",
+      "quantity": "12 slices",
+      "prep": "torn in half"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim, core, and thinly slice the fennel bulb. Thinly slice the garlic. Tear the Swiss cheese in half.",
+      "secondary_message": "1 fennel bulb\n3 cloves garlic\n12 slices Swiss cheese"
+    },
     {
       "id": 1,
       "primary_message": "Season pork with 1/2 teaspoon salt and 1/2 teaspoon pepper and work into pork using hands. Divide pork into 4 equal portions and form each into a thin patty the shape of a slice of bread.",

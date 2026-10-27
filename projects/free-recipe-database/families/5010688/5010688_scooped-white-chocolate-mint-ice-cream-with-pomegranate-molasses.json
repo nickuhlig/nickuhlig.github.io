@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 243,
-      "name": "mint leaves, removed from stems",
-      "quantity": "1 large bunch"
+      "name": "mint leaves",
+      "quantity": "1 large bunch",
+      "prep": "removed from stems"
     },
     {
       "ingredient_id": 3641,
@@ -65,11 +66,18 @@
     },
     {
       "ingredient_id": 2581,
-      "name": "white chocolate, chopped fine",
-      "quantity": "7 oz"
+      "name": "white chocolate",
+      "quantity": "7 oz",
+      "prep": "chopped fine"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the mint leaves from stems. Chop the white chocolate fine.",
+      "secondary_message": "1 large bunch mint leaves\n7 oz white chocolate"
+    },
     {
       "id": 1,
       "primary_message": "In a three-quart saucepan, heat milk and cream to just below a simmer. Remove from heat and add mint leaves. Steep leaves for 1 1/2 to 2 hours.",

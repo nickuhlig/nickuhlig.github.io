@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 107,
-      "name": "fresh mozzarella, torn into rough chunks and drained",
-      "quantity": "12 oz"
+      "name": "fresh mozzarella",
+      "quantity": "12 oz",
+      "prep": "torn into rough chunks and drained"
     },
     {
       "ingredient_id": 120,
@@ -81,8 +82,9 @@
     },
     {
       "ingredient_id": 2021,
-      "name": "serrano chile, thinly sliced",
-      "quantity": "1 small"
+      "name": "serrano chile",
+      "quantity": "1 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1746,
@@ -101,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Tear the fresh mozzarella into rough chunks, then drain it. Thinly slice the serrano chile.",
+      "secondary_message": "12 oz fresh mozzarella\n1 small serrano chile"
+    },
     {
       "id": 1,
       "primary_message": "Divide dough into 4 equal parts and place each in a covered quart-sized deli container or a zipper-lock freezer bag. Allow to rest at room temperature for at least 2 hours before baking. Transfer tomatoes to a medium bowl and roughly crush by hand. Season to taste with salt and set aside.",

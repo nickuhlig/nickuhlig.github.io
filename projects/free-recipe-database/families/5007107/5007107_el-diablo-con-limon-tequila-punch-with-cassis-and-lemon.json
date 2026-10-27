@@ -43,8 +43,9 @@
     },
     {
       "ingredient_id": 2447,
-      "name": "brewed black tea, cooled",
-      "quantity": "8 fl oz"
+      "name": "brewed black tea",
+      "quantity": "8 fl oz",
+      "prep": "cooled"
     },
     {
       "ingredient_id": 1785,
@@ -63,6 +64,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cool the brewed black tea.",
+      "secondary_message": "8 fl oz brewed black tea"
+    },
     {
       "id": 1,
       "primary_message": "Bring lemons to room temperature, then roll firmly against the counter to soften their rinds. Halve and juice; pour juice into a sealable container and refrigerate. Cut rinds into 1-inch chunks. Toss with sugar in a large nonreactive mixing bowl, cover tightly with plastic, and let stand at room temperature, stirring every 20 minutes or so to redistribute sugar, for 1 hour.",

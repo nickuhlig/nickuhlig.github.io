@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 157,
-      "name": "celery, cut into thin 2-inch matchsticks",
-      "quantity": "1 stalk"
+      "name": "celery",
+      "quantity": "1 stalk",
+      "prep": "cut into thin 2-inch matchsticks"
     },
     {
       "ingredient_id": 188,
@@ -95,8 +96,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 1610,
@@ -110,6 +112,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the celery into thin 2-inch matchsticks. Finely mince the garlic.",
+      "secondary_message": "1 stalk celery\n1 medium clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "Combine celery, cilantro, and scallions in a medium bowl and cover with ice cold water. Add 4 to 5 ice cubes and set aside.",

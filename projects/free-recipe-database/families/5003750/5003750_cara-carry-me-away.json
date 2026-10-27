@@ -58,8 +58,9 @@
     },
     {
       "ingredient_id": 2266,
-      "name": "Club soda, chilled",
-      "quantity": ""
+      "name": "Club soda",
+      "quantity": "",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 2346,
@@ -68,6 +69,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the Club soda cold until you use it.",
+      "secondary_message": "Club soda"
+    },
     {
       "id": 1,
       "primary_message": "Combine tequila, cara cara juice, grapefruit juice, lime juice, and agave syrup in a cocktail shaker.",

@@ -42,8 +42,9 @@
   "ingredients": [
     {
       "ingredient_id": 2324,
-      "name": "zucchini, washed and split in half",
-      "quantity": "4 medium"
+      "name": "zucchini",
+      "quantity": "4 medium",
+      "prep": "washed and split in half"
     },
     {
       "ingredient_id": 47,
@@ -72,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash and split the zucchini in half.",
+      "secondary_message": "4 medium zucchini"
+    },
     {
       "id": 1,
       "primary_message": "Light one chimney full of charcoal. When all the charcoal is lit and covered with gray ash, pour out and spread the coals evenly over entire surface of coal grate. Set cooking grate in place, cover grill and allow to preheat for 5 minutes. Clean and oil the grilling grate. Brush zucchini all over with olive oil and season generously with salt and pepper. Place on the grill, cut side down, and cook until browned, 5 to 7 minutes. Flip zucchini and top each with Parmesan cheese. Cover grill and continue cooking until zucchini is softened and cheese is melted, 5 to 7 minutes more.",

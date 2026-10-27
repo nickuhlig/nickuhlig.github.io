@@ -67,8 +67,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onions, cut into 1/2-inch-thick slices",
-      "quantity": "2 large"
+      "name": "yellow onions",
+      "quantity": "2 large",
+      "prep": "cut into 1/2-inch-thick slices"
     },
     {
       "ingredient_id": 1469,
@@ -112,25 +113,29 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, lightly crushed",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "lightly crushed"
     },
     {
       "ingredient_id": 265,
-      "name": "yellow bell peppers, cut into 1-inch pieces",
-      "quantity": "340 g"
+      "name": "yellow bell peppers",
+      "quantity": "340 g",
+      "prep": "cut into 1-inch pieces"
     },
     {
       "ingredient_id": 1039,
-      "name": "russet potatoes, peeled and cut into 2-inch pieces",
+      "name": "russet potatoes",
       "quantity": "1 ⅔ medium",
-      "weigh_as": "340 g"
+      "weigh_as": "340 g",
+      "prep": "peeled and cut into 2-inch pieces"
     },
     {
       "ingredient_id": 260,
-      "name": "tomatoes, seeded and cut into 1-inch pieces",
+      "name": "tomatoes",
       "quantity": "2 ½",
-      "weigh_as": "298 g"
+      "weigh_as": "298 g",
+      "prep": "seeded and cut into 1-inch pieces"
     },
     {
       "ingredient_id": 323,
@@ -139,6 +144,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the yellow onions into 1/2-inch-thick slices. Lightly crush the garlic. Cut the yellow bell peppers into 1-inch pieces. Peel and cut the russet potatoes into 2-inch pieces. Seed and cut the tomatoes into 1-inch pieces.",
+      "secondary_message": "2 large yellow onions\n4 medium cloves garlic\n340 g yellow bell peppers\n1 ⅔ medium russet potatoes\n2 ½ tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 175°C (350°F).",

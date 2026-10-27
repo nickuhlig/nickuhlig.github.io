@@ -31,8 +31,9 @@
   "ingredients": [
     {
       "ingredient_id": 3561,
-      "name": "yuca, peeled",
-      "quantity": "2 ½ lb"
+      "name": "yuca",
+      "quantity": "2 ½ lb",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 115,
@@ -41,8 +42,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely diced",
-      "quantity": "1 ½ cups"
+      "name": "onion",
+      "quantity": "1 ½ cups",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 97,
@@ -86,6 +88,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the yuca. Finely dice the onion.",
+      "secondary_message": "2 ½ lb yuca\n1 ½ cups onion"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 400°F. Place yuca in a saucepan and cover with cold water. Bring to a boil over medium-high heat and cook until completely tender, about 20 minutes.",

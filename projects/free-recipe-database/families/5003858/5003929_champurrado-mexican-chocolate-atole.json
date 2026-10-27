@@ -49,8 +49,9 @@
     },
     {
       "ingredient_id": 2924,
-      "name": "Mexican chocolate, finely chopped",
-      "quantity": "85 g"
+      "name": "Mexican chocolate",
+      "quantity": "85 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2938,
@@ -74,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the Mexican chocolate.",
+      "secondary_message": "85 g Mexican chocolate"
+    },
     {
       "id": 1,
       "primary_message": "In medium saucepan, whisk together masa harina and water until thoroughly combined. Stir in milk, chocolate, piloncillo, and salt. Add anise pods and cinnamon sticks and bring to simmer over medium heat. Cook mixture, stirring occasionally until chocolate is melted, piloncillo is dissolved, and mixture has thickened, 8 to 10 minutes. Discard anise pods and cinnamon sticks. Serve.",

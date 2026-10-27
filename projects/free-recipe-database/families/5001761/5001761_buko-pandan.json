@@ -65,8 +65,9 @@
     },
     {
       "ingredient_id": 3492,
-      "name": "nata de coco, rinsed",
-      "quantity": "1 (12 oz) bottle"
+      "name": "nata de coco",
+      "quantity": "1 (12 oz) bottle",
+      "prep": "rinsed"
     },
     {
       "ingredient_id": 2187,
@@ -80,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse the nata de coco.",
+      "secondary_message": "1 (12 oz) bottle nata de coco"
+    },
     {
       "id": 1,
       "primary_message": "For the Jelly: Pour 1/2 cup coconut water into a medium heatproof bowl and evenly sprinkle gelatin over surface. Set aside.",

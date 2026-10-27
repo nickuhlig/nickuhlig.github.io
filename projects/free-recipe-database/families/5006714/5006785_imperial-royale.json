@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 2412,
-      "name": "Bud Light Lime, chilled",
-      "quantity": "1 (340 g) can"
+      "name": "Bud Light Lime",
+      "quantity": "1 (340 g) can",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 2457,
@@ -46,6 +47,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the Bud Light Lime cold until you use it.",
+      "secondary_message": "1 (340 g) can Bud Light Lime"
+    },
     {
       "id": 1,
       "primary_message": "Pour beer into pint glass. Top with St. Germain. Stir gently and serve.",

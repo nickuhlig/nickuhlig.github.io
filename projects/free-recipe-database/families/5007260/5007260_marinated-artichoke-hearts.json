@@ -74,8 +74,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, sliced",
-      "quantity": "1 clove"
+      "name": "garlic",
+      "quantity": "1 clove",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 1784,
@@ -89,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the garlic.",
+      "secondary_message": "1 clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "In a small saucepan, combine vinegar, water and salt and bring to a boil. Place garlic, bay leaf, peppercorns and red chili flakes in the bottom of a jar that can hold at least 1 1/2 pints. Pack trimmed artichoke hearts into the jar where you've placed the spices. Pour hot pickling liquid over the artichoke hearts and tap gently to dislodge any air bubbles.",

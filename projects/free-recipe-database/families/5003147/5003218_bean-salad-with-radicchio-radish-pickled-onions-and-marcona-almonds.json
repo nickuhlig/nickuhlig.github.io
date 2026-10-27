@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 184,
-      "name": "red onion, finely chopped",
-      "quantity": "½ small"
+      "name": "red onion",
+      "quantity": "½ small",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 130,
@@ -56,8 +57,9 @@
     },
     {
       "ingredient_id": 343,
-      "name": "radishes, finely diced",
-      "quantity": "3"
+      "name": "radishes",
+      "quantity": "3",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 153,
@@ -66,8 +68,9 @@
     },
     {
       "ingredient_id": 2520,
-      "name": "radicchio, quartered, cored, and roughly chopped",
-      "quantity": "170 g"
+      "name": "radicchio",
+      "quantity": "170 g",
+      "prep": "quartered, cored, and roughly chopped"
     },
     {
       "ingredient_id": 1808,
@@ -91,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the red onion. Finely dice the radishes. Quarter, core, and roughly chop the radicchio.",
+      "secondary_message": "½ small red onion\n3 radishes\n170 g radicchio"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, add onion and pour enough vinegar over it to just cover. Let stand 15 minutes.",

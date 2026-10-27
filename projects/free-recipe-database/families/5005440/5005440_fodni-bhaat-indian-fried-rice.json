@@ -51,13 +51,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1762,
-      "name": "green Thai chiles, stemmed and halved lengthwise",
-      "quantity": "4"
+      "name": "green Thai chiles",
+      "quantity": "4",
+      "prep": "stemmed and halved lengthwise"
     },
     {
       "ingredient_id": 90,
@@ -86,6 +88,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the garlic. Stem and halve the green Thai chiles lengthwise.",
+      "secondary_message": "3 medium cloves garlic\n4 green Thai chiles"
+    },
     {
       "id": 1,
       "primary_message": "In a medium cast iron skillet, heat oil over medium-high heat until shimmering. Reduce heat to medium heat, add black mustard seeds, and cook, stirring, until seeds pop, about 15 seconds. Add garlic and green chiles and cook, stirring frequently, until fragrant, about 2 minutes, adjusting heat as needed if garlic is browning. Add turmeric and chile powder and stir until they impart their color to the oil, about 10 seconds. Immediately add rice and stir until thoroughly coated with oil. Season with salt to taste. Garnish with coriander leaves and serve hot.",

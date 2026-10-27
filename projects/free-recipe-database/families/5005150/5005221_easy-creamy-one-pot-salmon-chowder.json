@@ -43,8 +43,9 @@
   "ingredients": [
     {
       "ingredient_id": 2419,
-      "name": "salt pork, cut into 1/2-inch pieces",
-      "quantity": "0.23 kg"
+      "name": "salt pork",
+      "quantity": "0.23 kg",
+      "prep": "cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 359,
@@ -53,13 +54,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, finely chopped",
-      "quantity": "2 large ribs"
+      "name": "celery",
+      "quantity": "2 large ribs",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 88,
@@ -88,9 +91,10 @@
     },
     {
       "ingredient_id": 1039,
-      "name": "russet Gold potatoes, peeled and cut into 1/2-inch cubes",
+      "name": "russet Gold potatoes",
       "quantity": "2 medium",
-      "weigh_as": "0.45 kg"
+      "weigh_as": "0.45 kg",
+      "prep": "peeled and cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 1270,
@@ -104,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the salt pork into 1/2-inch pieces. Finely chop the onion. Finely chop the celery. Peel and cut the russet Gold potatoes into 1/2-inch cubes.",
+      "secondary_message": "0.23 kg salt pork\n1 medium onion\n2 large ribs celery\n2 medium russet Gold potatoes"
+    },
     {
       "id": 1,
       "primary_message": "Combine salt pork or bacon and water in a heavy-bottomed stock pot or Dutch oven over medium heat and cook, stirring occasionally, until water has evaporated and pork has begun to brown and crisp in spots, about 8 minutes. Add onion and celery. Season gently with salt and pepper and continue to cook, stirring occasionally, until onions are softened but not browned, about 4 minutes longer. Add flour and cook, stirring, until no pockets of raw flour remain. Stir in clam juice, followed by milk. Add potatoes and bay leaf and bring to a simmer.",

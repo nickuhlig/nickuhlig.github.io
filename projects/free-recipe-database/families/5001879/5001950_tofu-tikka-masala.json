@@ -80,13 +80,15 @@
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, grated , divided",
-      "quantity": "1 (5 cm)"
+      "name": "fresh ginger, divided",
+      "quantity": "1 (5 cm)",
+      "prep": "grated"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated, divided",
-      "quantity": "6 medium cloves"
+      "name": "garlic, divided",
+      "quantity": "6 medium cloves",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1421,
@@ -95,8 +97,9 @@
     },
     {
       "ingredient_id": 56,
-      "name": "extra-firm tofu, drained and cut into 1-inch cubes",
-      "quantity": "1 (454 g) pack"
+      "name": "extra-firm tofu",
+      "quantity": "1 (454 g) pack",
+      "prep": "drained and cut into 1-inch cubes"
     },
     {
       "ingredient_id": 88,
@@ -115,8 +118,9 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, finely chopped",
-      "quantity": "1 large"
+      "name": "red onion",
+      "quantity": "1 large",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 323,
@@ -135,6 +139,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the fresh ginger. Grate the garlic. Drain and cut the extra-firm tofu into 1-inch cubes. Finely chop the red onion.",
+      "secondary_message": "1 (5 cm) fresh ginger, divided\n6 medium cloves garlic, divided\n1 (454 g) pack extra-firm tofu\n1 large red onion"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, thoroughly whisk together 2/3 cup coconut milk, 1 teaspoon ground coriander, 1 teaspoon garam masala, 1/4 teaspoon chile powder, 1/4 teaspoon ground turmeric, 1/2 teaspoon ground cumin. Whisk in 2 teaspoons grated ginger, 2 teaspoons grated garlic, lime juice, salt, and pepper. Add cubed tofu and toss to evenly coat; set aside.",

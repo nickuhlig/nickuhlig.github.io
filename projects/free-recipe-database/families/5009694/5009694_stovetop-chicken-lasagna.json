@@ -77,18 +77,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "5 medium cloves"
+      "name": "garlic",
+      "quantity": "5 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 195,
-      "name": "no-boil lasagna noodles, broken in half",
-      "quantity": "12 sheets"
+      "name": "no-boil lasagna noodles",
+      "quantity": "12 sheets",
+      "prep": "broken in half"
     },
     {
       "ingredient_id": 37,
@@ -107,6 +110,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the onion. Mince the garlic. Break the no-boil lasagna noodles in half.",
+      "secondary_message": "1 medium onion\n5 medium cloves garlic\n12 sheets no-boil lasagna noodles"
+    },
     {
       "id": 1,
       "primary_message": "In medium bowl, combine chicken, ground fennel, 1/4 teaspoon red pepper flakes, and 1/2 teaspoon salt.",

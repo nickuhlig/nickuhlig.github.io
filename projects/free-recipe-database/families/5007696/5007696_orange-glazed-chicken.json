@@ -97,21 +97,30 @@
     },
     {
       "ingredient_id": 1239,
-      "name": "blue cheese, crumbled",
-      "quantity": "4 oz"
+      "name": "blue cheese",
+      "quantity": "4 oz",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 272,
-      "name": "walnuts, toasted and chopped",
-      "quantity": "⅔ cup"
+      "name": "walnuts",
+      "quantity": "⅔ cup",
+      "prep": "toasted and chopped"
     },
     {
       "ingredient_id": 232,
-      "name": "oranges, peeled and cut into supremês",
-      "quantity": "2"
+      "name": "oranges",
+      "quantity": "2",
+      "prep": "peeled and cut into supremês"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Crumble the blue cheese. Toast and chop the walnuts. Peel and cut the oranges into supremês.",
+      "secondary_message": "4 oz blue cheese\n⅔ cup walnuts\n2 oranges"
+    },
     {
       "id": 1,
       "primary_message": "For The Chicken: In small bowl, stir orange zest, 2 tablespoons rosemary, oil, 1/2 teaspoon salt, and 1/4 teaspoon pepper. Place chicken in zipper lock bag and rub marinade into chicken well. Refrigerate 2 hours, turning bag occasionally.",

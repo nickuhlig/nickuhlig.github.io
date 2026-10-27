@@ -79,8 +79,9 @@
     },
     {
       "ingredient_id": 1938,
-      "name": "vanilla bean pod, split, seeds scraped",
-      "quantity": "1/2 bean"
+      "name": "vanilla bean pod",
+      "quantity": "1/2 bean",
+      "prep": "split, seeds scraped"
     },
     {
       "ingredient_id": 348,
@@ -94,11 +95,18 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemons, juiced",
-      "quantity": "2 to 3 drops"
+      "name": "lemons",
+      "quantity": "2 to 3 drops",
+      "prep": "juiced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the vanilla bean pod, then scrape the seeds. Juice the lemons.",
+      "secondary_message": "1/2 bean vanilla bean pod\n2 to 3 drops lemons"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 175°C (350°F) and position rack in center of oven.",

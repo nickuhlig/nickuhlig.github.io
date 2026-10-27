@@ -103,18 +103,21 @@
     },
     {
       "ingredient_id": 325,
-      "name": "anchovy fillets, finely chopped",
-      "quantity": "1 small can"
+      "name": "anchovy fillets",
+      "quantity": "1 small can",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced or grated",
-      "quantity": "12 cloves"
+      "name": "garlic",
+      "quantity": "12 cloves",
+      "prep": "finely minced or grated"
     },
     {
       "ingredient_id": 15,
-      "name": "capers, minced",
-      "quantity": "1 tbsp"
+      "name": "capers",
+      "quantity": "1 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 47,
@@ -128,6 +131,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the anchovy fillets. Finely mince or grate the garlic. Mince the capers.",
+      "secondary_message": "1 small can anchovy fillets\n12 cloves garlic\n1 tbsp capers"
+    },
     {
       "id": 1,
       "primary_message": "Bring a 2-quart pot of water to simmer and add garlic, peppercorns, and herbs. Simmer for 15 minutes. Then gently lower the brains into the pot and simmer for 6 minutes. Remove brains with a slotted spoon and let cool. When brains are cold and firm, separate the lobes into 5-cm chunks.",

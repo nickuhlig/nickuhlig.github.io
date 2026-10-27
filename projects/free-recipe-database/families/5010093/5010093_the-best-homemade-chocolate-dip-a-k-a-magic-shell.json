@@ -34,8 +34,9 @@
   "ingredients": [
     {
       "ingredient_id": 1729,
-      "name": "dark chocolate, 66% to 72%, finely chopped",
-      "quantity": "8 oz"
+      "name": "dark chocolate, 66% to 72%",
+      "quantity": "8 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1848,
@@ -49,6 +50,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the dark chocolate.",
+      "secondary_message": "8 oz dark chocolate, 66% to 72%"
+    },
     {
       "id": 1,
       "primary_message": "Combine chocolate, oil, and corn syrup in a microwave-safe bowl. Microwave on half power in 15-second bursts, stirring with a spoon in between, 3 to 4 times, until chocolate is completely melted. If heated too much, the chocolate may break, forming harmless brown speckles in the sauce; blend in a blender on high speed for 30 seconds to re-emulsify the sauce.",

@@ -73,11 +73,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted, divided",
-      "quantity": "1 ½ sticks"
+      "name": "unsalted butter, divided",
+      "quantity": "1 ½ sticks",
+      "prep": "melted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter.",
+      "secondary_message": "1 ½ sticks unsalted butter, divided"
+    },
     {
       "id": 1,
       "primary_message": "Place a well-seasoned 12-inch cast iron skillet on the center rack of the oven and preheat oven to 375°F.",

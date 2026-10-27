@@ -79,8 +79,9 @@
     },
     {
       "ingredient_id": 1021,
-      "name": "frozen puff pastry, thawed",
-      "quantity": "2 sheets"
+      "name": "frozen puff pastry",
+      "quantity": "2 sheets",
+      "prep": "thawed"
     },
     {
       "ingredient_id": 47,
@@ -114,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thaw the frozen puff pastry.",
+      "secondary_message": "2 sheets frozen puff pastry"
+    },
     {
       "id": 1,
       "primary_message": "With a sharp chef's knife or mandoline, cut eggplant into 1/4-inch-thick slices. Toss the slices with 1 tablespoon kosher salt and set aside in a colander placed over a bowl or sink. Let drain for at least 30 minutes.",

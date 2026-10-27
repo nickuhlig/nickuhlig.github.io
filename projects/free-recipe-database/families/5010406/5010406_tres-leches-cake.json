@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, separated",
-      "quantity": "6 large"
+      "name": "eggs",
+      "quantity": "6 large",
+      "prep": "separated"
     },
     {
       "ingredient_id": 88,
@@ -111,8 +112,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "¼ cup"
+      "name": "cream cheese",
+      "quantity": "¼ cup",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1710,
@@ -121,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Separate the eggs. Soften the cream cheese.",
+      "secondary_message": "6 large eggs\n¼ cup cream cheese"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 325°F.",

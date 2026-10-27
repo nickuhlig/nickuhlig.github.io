@@ -46,13 +46,15 @@
     },
     {
       "ingredient_id": 242,
-      "name": "fresh strawberries, hulled and quartered",
-      "quantity": "946 ml"
+      "name": "fresh strawberries",
+      "quantity": "946 ml",
+      "prep": "hulled and quartered"
     },
     {
       "ingredient_id": 1915,
-      "name": "half recipe Easy Pie Dough, rolled out to 1/8 inch thick and chilled",
-      "quantity": "1"
+      "name": "half recipe Easy Pie Dough",
+      "quantity": "1",
+      "prep": "rolled out to 1/8 inch thick and chilled"
     },
     {
       "ingredient_id": 121,
@@ -61,6 +63,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Hull and quarter the fresh strawberries. Roll out the half recipe Easy Pie Dough to 1/8 inch thick and keep it cold until you use it.",
+      "secondary_message": "946 ml fresh strawberries\n1 half recipe Easy Pie Dough"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower middle position and preheat oven to 220°C (425°F). In a large bowl, whisk together sugar and starch. Add berries and toss to coat with dry mixture. Line a sheet pan with parchment and place the dough sheet on top. Pile strawberry mixture in the center, leaving at least 8 cm of dough uncovered on all sides. Fold overhang back up around fruit, encasing it on all sides, folding it into rustic pleats to gather up excess. Chill shaped galette in fridge for 1/2 hour.",

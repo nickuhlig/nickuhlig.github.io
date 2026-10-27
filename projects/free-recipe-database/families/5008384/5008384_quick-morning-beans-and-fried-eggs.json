@@ -42,18 +42,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, finely chopped",
-      "quantity": "2 medium"
+      "name": "garlic cloves",
+      "quantity": "2 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 91,
-      "name": "cannellini beans, drained and rinsed",
-      "quantity": "2 (15 ½ oz) cans"
+      "name": "cannellini beans",
+      "quantity": "2 (15 ½ oz) cans",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 273,
@@ -87,8 +90,9 @@
     },
     {
       "ingredient_id": 191,
-      "name": "bread, toasted",
-      "quantity": "4 slices"
+      "name": "bread",
+      "quantity": "4 slices",
+      "prep": "toasted"
     },
     {
       "ingredient_id": 47,
@@ -102,6 +106,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the onion. Finely chop the garlic cloves. Drain and rinse the cannellini beans. Toast the bread.",
+      "secondary_message": "1 medium onion\n2 medium garlic cloves\n2 (15 ½ oz) cans cannellini beans\n4 slices bread"
+    },
     {
       "id": 1,
       "primary_message": "Heat butter in a medium non-stick skillet over medium high heat until melted. Add onions and garlic and cook, stirring, until soft, about 4 minutes. Add beans, ketchup, brown sugar, Worcestershire sauce, and water. Stir to combine. Bring to a simmer and cook until liquid is reduced, about 5 minutes. Season to taste with salt and pepper. Remove from heat and keep warm.",

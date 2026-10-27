@@ -54,8 +54,9 @@
   "ingredients": [
     {
       "ingredient_id": 152,
-      "name": "yellow onion, peeled",
-      "quantity": "1 small"
+      "name": "yellow onion",
+      "quantity": "1 small",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 3354,
@@ -64,8 +65,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, unpeeled",
-      "quantity": "4 medium"
+      "name": "garlic cloves",
+      "quantity": "4 medium",
+      "prep": "unpeeled"
     },
     {
       "ingredient_id": 151,
@@ -74,8 +76,9 @@
     },
     {
       "ingredient_id": 1326,
-      "name": "fire-roasted diced tomatoes, undrained, divided",
-      "quantity": "2 (14 ½ oz) cans"
+      "name": "fire-roasted diced tomatoes, divided",
+      "quantity": "2 (14 ½ oz) cans",
+      "prep": "undrained"
     },
     {
       "ingredient_id": 1682,
@@ -104,8 +107,9 @@
     },
     {
       "ingredient_id": 94,
-      "name": "pinto beans, drained and rinsed",
-      "quantity": "2 (15 ½ oz) cans"
+      "name": "pinto beans",
+      "quantity": "2 (15 ½ oz) cans",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 303,
@@ -119,9 +123,10 @@
     },
     {
       "ingredient_id": 260,
-      "name": "fresh tomatoes, seeded and chopped",
+      "name": "fresh tomatoes",
       "quantity": "2 ½",
-      "weigh_as": "10 oz"
+      "weigh_as": "10 oz",
+      "prep": "seeded and chopped"
     },
     {
       "ingredient_id": 188,
@@ -135,11 +140,18 @@
     },
     {
       "ingredient_id": 43,
-      "name": "Cheddar cheese, medium, shredded",
-      "quantity": "6 oz"
+      "name": "Cheddar cheese, medium",
+      "quantity": "6 oz",
+      "prep": "shredded"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the yellow onion. Leave the garlic cloves unpeeled. Don't drain the fire-roasted diced tomatoes. Drain and rinse the pinto beans. Seed and chop the fresh tomatoes. Shred the Cheddar cheese.",
+      "secondary_message": "1 small yellow onion\n4 medium garlic cloves\n2 (14 ½ oz) cans fire-roasted diced tomatoes, divided\n2 (15 ½ oz) cans pinto beans\n2 ½ fresh tomatoes\n6 oz Cheddar cheese, medium"
+    },
     {
       "id": 1,
       "primary_message": "For the Soup: Halve onion. Cut 1 onion half through root end to create two quarters. Set aside remaining onion half.",

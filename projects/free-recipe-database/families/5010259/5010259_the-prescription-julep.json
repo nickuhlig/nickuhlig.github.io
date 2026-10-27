@@ -43,8 +43,9 @@
     },
     {
       "ingredient_id": 346,
-      "name": "sugar, dissolved in 1/2 ounce water",
-      "quantity": "2 tsp"
+      "name": "sugar",
+      "quantity": "2 tsp",
+      "prep": "dissolved in 1/2 ounce water"
     },
     {
       "ingredient_id": 243,
@@ -53,6 +54,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dissolve the sugar in 1/2 ounce water.",
+      "secondary_message": "2 tsp sugar"
+    },
     {
       "id": 1,
       "primary_message": "Place the sugar and water in a tall glass or julep cup and muddle until sugar is dissolved.",

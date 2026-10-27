@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 19,
-      "name": "button mushrooms, washed, trimmed, and quartered",
-      "quantity": "0.9 kg"
+      "name": "button mushrooms",
+      "quantity": "0.9 kg",
+      "prep": "washed, trimmed, and quartered"
     },
     {
       "ingredient_id": 47,
@@ -70,6 +71,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash, trim, and quarter the button mushrooms.",
+      "secondary_message": "0.9 kg button mushrooms"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center position and preheat oven to 190°C (375°F). Toss mushrooms with olive oil and season with salt and pepper. Transfer to a foil-lined rimmed baking sheet and spread into an even layer. Spread thyme or rosemary sprigs on top of mushrooms. Transfer to oven and roast until mushrooms release liquid, about 15 minutes. Carefully drain liquid into a separate container and reserve for another use. (It's a great vegan seasoning sauce.)",

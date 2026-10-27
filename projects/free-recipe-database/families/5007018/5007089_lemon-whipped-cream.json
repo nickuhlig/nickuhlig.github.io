@@ -39,16 +39,24 @@
   "ingredients": [
     {
       "ingredient_id": 316,
-      "name": "heavy whipping cream, cold",
-      "quantity": "110 g"
+      "name": "heavy whipping cream",
+      "quantity": "110 g",
+      "prep": "cold"
     },
     {
       "ingredient_id": 2516,
-      "name": "fresh lemon syrup, cold",
-      "quantity": "55 g"
+      "name": "fresh lemon syrup",
+      "quantity": "55 g",
+      "prep": "cold"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the heavy whipping cream cold until you use it. Keep the fresh lemon syrup cold until you use it.",
+      "secondary_message": "110 g heavy whipping cream\n55 g fresh lemon syrup"
+    },
     {
       "id": 1,
       "primary_message": "In the bowl of a stand mixer fitted with a whisk attachment, combine cream, lemon syrup, and zest (if using). Whip at medium-high speed until fluffy and thick, about 5 minutes. Use immediately, or refrigerate for up to 1 week in an airtight container. For piping, re-whip the chantilly after 24 hours.",

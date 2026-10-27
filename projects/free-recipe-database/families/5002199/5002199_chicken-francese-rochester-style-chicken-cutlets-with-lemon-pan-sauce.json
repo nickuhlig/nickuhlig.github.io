@@ -93,8 +93,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, cut into 1/8-inch rounds",
-      "quantity": "1 medium"
+      "name": "lemon",
+      "quantity": "1 medium",
+      "prep": "cut into 1/8-inch rounds"
     },
     {
       "ingredient_id": 1480,
@@ -103,8 +104,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely chopped",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 3686,
@@ -123,6 +125,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the lemon into 1/8-inch rounds. Finely chop the shallot.",
+      "secondary_message": "1 medium lemon\n1 medium shallot"
+    },
     {
       "id": 1,
       "primary_message": "Working with one chicken breast at a time, place chicken on a cutting board. Hold it steady with the palm of your non-cutting hand and use a sharp knife to slice horizontally into two even cutlets. Repeat with remaining breasts. Cover cutlets with plastic wrap and use a meat mallet or rolling pin to pound them to about 1/4-inch thickness.",

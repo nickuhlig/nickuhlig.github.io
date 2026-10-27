@@ -55,13 +55,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated on a microplane grater",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "grated on a microplane grater"
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, grated on a microplane grater",
-      "quantity": "1 tbsp"
+      "name": "ginger",
+      "quantity": "1 tbsp",
+      "prep": "grated on a microplane grater"
     },
     {
       "ingredient_id": 1762,
@@ -70,8 +72,9 @@
     },
     {
       "ingredient_id": 150,
-      "name": "red pepper, finely diced",
-      "quantity": "1 small"
+      "name": "red pepper",
+      "quantity": "1 small",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 188,
@@ -100,8 +103,9 @@
     },
     {
       "ingredient_id": 1541,
-      "name": "plum tomatoes, peeled, seeded, and roughly chopped",
-      "quantity": "2 small"
+      "name": "plum tomatoes",
+      "quantity": "2 small",
+      "prep": "peeled, seeded, and roughly chopped"
     },
     {
       "ingredient_id": 92,
@@ -110,8 +114,9 @@
     },
     {
       "ingredient_id": 1879,
-      "name": "curly spinach, roughly chopped",
-      "quantity": "227 g"
+      "name": "curly spinach",
+      "quantity": "227 g",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1421,
@@ -135,6 +140,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the garlic on a microplane grater. Grate the ginger on a microplane grater. Finely dice the red pepper. Peel, seed, and roughly chop the plum tomatoes. Roughly chop the curly spinach.",
+      "secondary_message": "3 cloves garlic\n1 tbsp ginger\n1 small red pepper\n2 small plum tomatoes\n227 g curly spinach"
+    },
     {
       "id": 1,
       "primary_message": "Place potatoes in a large saucepan and cover with water by 2.5-cm. Season to taste with salt. Bring to a boil and simmer until potatoes are tender but not falling apart, about 10 minutes. Drain and set aside.",

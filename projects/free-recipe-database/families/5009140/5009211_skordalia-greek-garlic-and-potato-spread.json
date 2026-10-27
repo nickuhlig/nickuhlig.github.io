@@ -54,8 +54,9 @@
   "ingredients": [
     {
       "ingredient_id": 1039,
-      "name": "russet potatoes, peeled and cut into 3/4-inch cubes",
-      "quantity": "2 medium"
+      "name": "russet potatoes",
+      "quantity": "2 medium",
+      "prep": "peeled and cut into 3/4-inch cubes"
     },
     {
       "ingredient_id": 88,
@@ -84,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the russet potatoes into 3/4-inch cubes.",
+      "secondary_message": "2 medium russet potatoes"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 180°C (350°F). Set cubed potatoes in a colander and rinse under cold water until water runs clear. Transfer to a large saucepan and cover with cold water by at least 5 cm. Season water with salt until it is salty like tears. Bring water to a boil over high heat, then reduce heat to medium-low and simmer until a knife easily pierces potatoes with no resistance, 10 to 15 minutes. Drain potatoes in colander, then rinse with hot running water for 30 seconds.",

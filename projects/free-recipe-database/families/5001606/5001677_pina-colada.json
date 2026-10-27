@@ -59,8 +59,9 @@
     },
     {
       "ingredient_id": 1067,
-      "name": "white rum, kept in freezer until freezer-cold",
-      "quantity": "75 ml"
+      "name": "white rum",
+      "quantity": "75 ml",
+      "prep": "kept in freezer until freezer-cold"
     },
     {
       "ingredient_id": 1500,
@@ -69,6 +70,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the white rum in freezer until freezer-cold.",
+      "secondary_message": "75 ml white rum"
+    },
     {
       "id": 1,
       "primary_message": "In an airtight plastic container, combine pineapple, coconut cream, simple syrup, and 21 g lime juice, and transfer to freezer until frozen, at least 1 hour (the sugar in the mixture may prevent it from freezing solid; this is okay).",

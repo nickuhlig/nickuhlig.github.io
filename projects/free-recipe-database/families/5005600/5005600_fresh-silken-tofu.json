@@ -35,16 +35,24 @@
   "ingredients": [
     {
       "ingredient_id": 3244,
-      "name": "homemade soy milk, about 3 cups, chilled",
-      "quantity": "1 batch"
+      "name": "homemade soy milk, about 3 cups",
+      "quantity": "1 batch",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 3327,
-      "name": "Epsom salt, dissolved in 2 tablespoons water",
-      "quantity": "½ tsp"
+      "name": "Epsom salt",
+      "quantity": "½ tsp",
+      "prep": "dissolved in 2 tablespoons water"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the homemade soy milk cold until you use it. Dissolve the Epsom salt in 2 tablespoons water.",
+      "secondary_message": "1 batch homemade soy milk, about 3 cups\n½ tsp Epsom salt"
+    },
     {
       "id": 1,
       "primary_message": "Pour the Epsom salt or magnesium chloride coagulant solution into the soy milk, using a spoon to blend them together with a couple of gentle plunging motions.",

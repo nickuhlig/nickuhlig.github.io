@@ -107,18 +107,21 @@
     },
     {
       "ingredient_id": 1752,
-      "name": "heavy cream, cold, divided",
-      "quantity": "2 tbsp"
+      "name": "heavy cream, divided",
+      "quantity": "2 tbsp",
+      "prep": "cold"
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped, divided",
-      "quantity": "1 ¼ lb"
+      "name": "bittersweet chocolate, divided",
+      "quantity": "1 ¼ lb",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2285,
-      "name": "semisweet chocolate, finely chopped",
-      "quantity": "4 oz"
+      "name": "semisweet chocolate",
+      "quantity": "4 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1710,
@@ -127,6 +130,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the heavy cream cold until you use it. Finely chop the bittersweet chocolate. Finely chop the semisweet chocolate.",
+      "secondary_message": "2 tbsp heavy cream, divided\n1 ¼ lb bittersweet chocolate, divided\n4 oz semisweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350°F. Line a 9-inch springform pan with parchment and spray with nonstick pan spray.",

@@ -33,8 +33,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "butter, softened",
-      "quantity": "1 stick"
+      "name": "butter",
+      "quantity": "1 stick",
+      "prep": "softened"
     },
     {
       "ingredient_id": 3426,
@@ -43,8 +44,9 @@
     },
     {
       "ingredient_id": 232,
-      "name": "orange, zested",
-      "quantity": "1"
+      "name": "orange",
+      "quantity": "1",
+      "prep": "zested"
     },
     {
       "ingredient_id": 103,
@@ -58,6 +60,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the butter. Zest the orange.",
+      "secondary_message": "1 stick butter\n1 orange"
+    },
     {
       "id": 1,
       "primary_message": "Stir all ingredients together in a bowl. Taste and adjust flavors as needed.",

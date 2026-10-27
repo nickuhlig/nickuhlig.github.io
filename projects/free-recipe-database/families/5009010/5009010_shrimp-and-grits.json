@@ -54,8 +54,9 @@
     },
     {
       "ingredient_id": 1811,
-      "name": "shrimp, large, shelled",
-      "quantity": "1 lb"
+      "name": "shrimp, large",
+      "quantity": "1 lb",
+      "prep": "shelled"
     },
     {
       "ingredient_id": 2250,
@@ -94,8 +95,9 @@
     },
     {
       "ingredient_id": 302,
-      "name": "thick-cut bacon, diced",
-      "quantity": "4 slices"
+      "name": "thick-cut bacon",
+      "quantity": "4 slices",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1044,
@@ -104,13 +106,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, minced",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 71,
@@ -119,8 +123,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cubed",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 1480,
@@ -134,6 +139,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shell the shrimp. Dice the thick-cut bacon. Mince the shallot. Mince the garlic. Cube the unsalted butter.",
+      "secondary_message": "1 lb shrimp, large\n4 slices thick-cut bacon\n1 medium shallot\n2 medium cloves garlic\n2 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a large saucepan, combine 5 cups stock with reserved shrimp shells and mushroom trimmings. Bring to a gentle simmer and cook for 20 minutes. Strain and return stock to saucepan.",

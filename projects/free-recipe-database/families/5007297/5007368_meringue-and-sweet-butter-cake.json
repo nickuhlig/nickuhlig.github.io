@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 3642,
-      "name": "egg whites, at room temperature",
-      "quantity": "6 large"
+      "name": "egg whites",
+      "quantity": "6 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1574,
@@ -75,8 +76,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "8 tbsp (4 oz)"
+      "name": "unsalted butter",
+      "quantity": "8 tbsp (4 oz)",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1710,
@@ -100,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the egg whites to room temperature. Bring the unsalted butter to room temperature.",
+      "secondary_message": "6 large egg whites\n8 tbsp (4 oz) unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Meringue Layers: Adjust oven rack to upper-middle and lower-middle positions and preheat oven to 135°C (275°F). Grease 3 (23-cm) round cake pans with 2 tablespoons butter. Dust with confectioners’ sugar and tap out excess. Line bottoms of pans with parchment paper rounds.",

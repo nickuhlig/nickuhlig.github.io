@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 2724,
-      "name": "Chinese sausage, sliced into 1/8 inch rounds",
-      "quantity": "3 (4 inch) links"
+      "name": "Chinese sausage",
+      "quantity": "3 (4 inch) links",
+      "prep": "sliced into 1/8 inch rounds"
     },
     {
       "ingredient_id": 2828,
@@ -65,6 +66,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the Chinese sausage into 1/8 inch rounds.",
+      "secondary_message": "3 (4 inch) links Chinese sausage"
+    },
     {
       "id": 1,
       "primary_message": "Heat a wok or large frying pan on medium heat and swirl in oil. Add sausage and cook until fat renders out and meat is crispy and caramelized on edges. Chinese sausage burns easily, so keep heat no higher than medium.",

@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "6 tbsp (3 oz)"
+      "name": "unsalted butter",
+      "quantity": "6 tbsp (3 oz)",
+      "prep": "softened"
     },
     {
       "ingredient_id": 121,
@@ -77,6 +78,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter.",
+      "secondary_message": "6 tbsp (3 oz) unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Preheat a Belgian waffle iron according to manufacturer directions. In a stand mixer fitter with the paddle, combine almond meal, granulated sugar, flour, and salt and mix at low speed until blended. Add butter and egg and mix until frangipane is light and fluffy.",

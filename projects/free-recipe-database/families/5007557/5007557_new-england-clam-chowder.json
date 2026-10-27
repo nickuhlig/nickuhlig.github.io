@@ -46,8 +46,9 @@
   "ingredients": [
     {
       "ingredient_id": 2419,
-      "name": "salt pork, cut into 1/2-inch cubes",
-      "quantity": "½ lb"
+      "name": "salt pork",
+      "quantity": "½ lb",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 115,
@@ -56,13 +57,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, finely chopped",
-      "quantity": "2 stalks"
+      "name": "celery",
+      "quantity": "2 stalks",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 359,
@@ -81,9 +84,10 @@
     },
     {
       "ingredient_id": 1039,
-      "name": "russet Gold potatoes, peeled and cut into 1/2-inch cubes",
+      "name": "russet Gold potatoes",
       "quantity": "3 medium",
-      "weigh_as": "1 ½ lb"
+      "weigh_as": "1 ½ lb",
+      "prep": "peeled and cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 1747,
@@ -107,6 +111,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the salt pork into 1/2-inch cubes. Finely chop the onion. Finely chop the celery. Peel and cut the russet Gold potatoes into 1/2-inch cubes.",
+      "secondary_message": "½ lb salt pork\n1 medium onion\n2 stalks celery\n3 medium russet Gold potatoes"
+    },
     {
       "id": 1,
       "primary_message": "Combine salt pork and 1/4 cup water in a heavy-bottomed stock pot or Dutch oven over medium heat, stirring occasionally, until water has evaporated and pork has begun to brown and crisp in spots, about 8 minutes.\nAdd butter, onion, and celery. Continue to cook, stirring occasionally, until onions are softened but not browned, about 4 minutes longer. Add clam juice or water and stir to combine.",

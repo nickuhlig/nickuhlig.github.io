@@ -54,8 +54,9 @@
   "ingredients": [
     {
       "ingredient_id": 1692,
-      "name": "apples, refrigerated until cold",
-      "quantity": "8 to 12 small"
+      "name": "apples",
+      "quantity": "8 to 12 small",
+      "prep": "refrigerated until cold"
     },
     {
       "ingredient_id": 359,
@@ -74,11 +75,18 @@
     },
     {
       "ingredient_id": 1752,
-      "name": "heavy cream, chilled",
-      "quantity": "9 oz"
+      "name": "heavy cream",
+      "quantity": "9 oz",
+      "prep": "chilled"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Refrigerate the apples until cold. Keep the heavy cream cold until you use it.",
+      "secondary_message": "8 to 12 small apples\n9 oz heavy cream"
+    },
     {
       "id": 1,
       "primary_message": "Skewer apples with popsicle sticks, then return to fridge. In a 3-quart stainless steel saucier, combine water, sugar, and salt over medium heat. Stir with a fork until sugar is fully dissolved and syrup comes to a rolling boil, about 4 minutes. Simmer, without stirring, until syrup is honey-gold, roughly 9 minutes.",

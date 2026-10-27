@@ -44,9 +44,10 @@
   "ingredients": [
     {
       "ingredient_id": 1039,
-      "name": "russet potatoes, peeled and cut into 1-inch pieces",
+      "name": "russet potatoes",
       "quantity": "7 medium",
-      "weigh_as": "3 ½ lb"
+      "weigh_as": "3 ½ lb",
+      "prep": "peeled and cut into 1-inch pieces"
     },
     {
       "ingredient_id": 88,
@@ -55,8 +56,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cubed",
-      "quantity": "6 tbsp"
+      "name": "unsalted butter",
+      "quantity": "6 tbsp",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 1505,
@@ -80,23 +82,27 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, diced",
-      "quantity": "1 large"
+      "name": "yellow onion",
+      "quantity": "1 large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, diced",
-      "quantity": "3 medium"
+      "name": "carrots",
+      "quantity": "3 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, diced",
-      "quantity": "2 ribs"
+      "name": "celery",
+      "quantity": "2 ribs",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 323,
@@ -150,6 +156,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the russet potatoes into 1-inch pieces. Cube the unsalted butter. Dice the yellow onion. Dice the carrots. Dice the celery. Mince the garlic.",
+      "secondary_message": "7 medium russet potatoes\n6 tbsp unsalted butter\n1 large yellow onion\n3 medium carrots\n2 ribs celery\n2 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Mashed Potatoes: Set cubed potatoes in a colander and rinse under cold water until water runs clear. Transfer to a large saucepan and cover with cold water by at least 2 inches. Season water with salt until almost as salty as the sea. Bring water to a boil over high heat, then reduce heat to medium-low and simmer until a knife easily pierces potatoes with no resistance, 10 to 15 minutes. Drain potatoes in colander, then rinse with hot running water for 30 seconds. Transfer potatoes to a large bowl.",

@@ -102,13 +102,15 @@
     },
     {
       "ingredient_id": 43,
-      "name": "sharp cheddar cheese, finely shredded",
-      "quantity": "8 oz"
+      "name": "sharp cheddar cheese",
+      "quantity": "8 oz",
+      "prep": "finely shredded"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 1 tablespoon pieces, divided",
-      "quantity": "3 oz"
+      "name": "unsalted butter, divided",
+      "quantity": "3 oz",
+      "prep": "cut into 1 tablespoon pieces"
     },
     {
       "ingredient_id": 1701,
@@ -117,11 +119,18 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic clove, grated",
-      "quantity": "1 medium"
+      "name": "garlic clove",
+      "quantity": "1 medium",
+      "prep": "grated"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely shred the sharp cheddar cheese. Cut the unsalted butter into 1 tablespoon pieces. Grate the garlic clove.",
+      "secondary_message": "8 oz sharp cheddar cheese\n3 oz unsalted butter, divided\n1 medium garlic clove"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position, and preheat oven to 425°F. Line a 13- by 18-inch rimmed baking sheet with parchment paper; set aside. In a large bowl, whisk flour, chives, sugar, granulated onion, granulated garlic, salt, and paprika to combine. Add cheddar and toss to evenly coat in flour mixture.",

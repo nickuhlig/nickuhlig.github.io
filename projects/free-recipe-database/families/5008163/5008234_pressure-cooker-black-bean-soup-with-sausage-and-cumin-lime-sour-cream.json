@@ -36,23 +36,27 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, diced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, diced",
-      "quantity": "2 medium stalks"
+      "name": "celery",
+      "quantity": "2 medium stalks",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, crushed",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 230,
-      "name": "cremini mushrooms, stemmed, caps diced",
-      "quantity": "225 g"
+      "name": "cremini mushrooms",
+      "quantity": "225 g",
+      "prep": "stemmed, caps diced"
     },
     {
       "ingredient_id": 313,
@@ -66,8 +70,9 @@
     },
     {
       "ingredient_id": 3660,
-      "name": "dry black beans, picked over for shells",
-      "quantity": "0.45 kg"
+      "name": "dry black beans",
+      "quantity": "0.45 kg",
+      "prep": "picked over for shells"
     },
     {
       "ingredient_id": 287,
@@ -106,6 +111,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the yellow onion. Dice the celery. Crush the garlic. Stem the cremini mushrooms, then dice the caps. Pick the dry black beans over for shells.",
+      "secondary_message": "1 medium yellow onion\n2 medium stalks celery\n3 medium cloves garlic\n225 g cremini mushrooms\n0.45 kg dry black beans"
+    },
     {
       "id": 1,
       "primary_message": "In a pressure cooker, heat oil over medium-high heat until shimmering. Add onion, celery, and garlic and cook, stirring, until lightly browned, about 6 minutes. Add mushrooms and cook, stirring, until they release their juices and just begin to brown, about 6 minutes. Add sausage and continue to cook, stirring frequently, for 4 minutes.",

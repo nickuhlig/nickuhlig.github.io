@@ -82,8 +82,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cubed, at room temperature",
-      "quantity": "3 tbsp"
+      "name": "unsalted butter",
+      "quantity": "3 tbsp",
+      "prep": "cubed, at room temperature"
     },
     {
       "ingredient_id": 359,
@@ -97,6 +98,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cube the unsalted butter and bring it to room temperature.",
+      "secondary_message": "3 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, thoroughly whisk together flour, cornmeal, sugar, baking powder, and salt. Using your fingers, rub butter into dry ingredients until mixture is crumbly with no large chunks of butter.",

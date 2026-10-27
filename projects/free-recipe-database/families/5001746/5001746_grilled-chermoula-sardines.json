@@ -55,13 +55,15 @@
     },
     {
       "ingredient_id": 188,
-      "name": "cilantro leaves, tender stems finely chopped",
-      "quantity": "1 cup"
+      "name": "cilantro leaves",
+      "quantity": "1 cup",
+      "prep": "tender stems finely chopped"
     },
     {
       "ingredient_id": 106,
-      "name": "flat-leaf parsley leaves, tender stems finely chopped",
-      "quantity": "1 cup"
+      "name": "flat-leaf parsley leaves",
+      "quantity": "1 cup",
+      "prep": "tender stems finely chopped"
     },
     {
       "ingredient_id": 1480,
@@ -70,8 +72,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced or pressed",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "minced or pressed"
     },
     {
       "ingredient_id": 83,
@@ -90,11 +93,18 @@
     },
     {
       "ingredient_id": 3667,
-      "name": "fresh sardines, cleaned, butterflied, and deboned",
-      "quantity": "1 ¼ lb"
+      "name": "fresh sardines",
+      "quantity": "1 ¼ lb",
+      "prep": "cleaned, butterflied, and deboned"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the tender stems of the cilantro leaves. Finely chop the tender stems of the flat-leaf parsley leaves. Mince or press the garlic. Clean, butterfly, and debone the fresh sardines.",
+      "secondary_message": "1 cup cilantro leaves\n1 cup flat-leaf parsley leaves\n3 cloves garlic\n1 ¼ lb fresh sardines"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, whisk together olive oil, cilantro, parsley, lemon juice, garlic, paprika, cumin, harissa (if using), and salt until well combined. In a separate small bowl, set aside et 1/4 cup chermoula for serving.",

@@ -54,8 +54,9 @@
   "ingredients": [
     {
       "ingredient_id": 3004,
-      "name": "beef bones, cut into roughly 2-inch discs",
-      "quantity": "2.25 kg"
+      "name": "beef bones",
+      "quantity": "2.25 kg",
+      "prep": "cut into roughly 2-inch discs"
     },
     {
       "ingredient_id": 1682,
@@ -64,8 +65,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, chopped into 2-inch pieces",
-      "quantity": "6"
+      "name": "scallions",
+      "quantity": "6",
+      "prep": "chopped into 2-inch pieces"
     },
     {
       "ingredient_id": 221,
@@ -74,8 +76,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, lightly smashed",
-      "quantity": "6 cloves"
+      "name": "garlic",
+      "quantity": "6 cloves",
+      "prep": "lightly smashed"
     },
     {
       "ingredient_id": 1998,
@@ -99,8 +102,9 @@
     },
     {
       "ingredient_id": 1999,
-      "name": "beef tendons, cut into 2-inch long pieces",
-      "quantity": "0.45 kg"
+      "name": "beef tendons",
+      "quantity": "0.45 kg",
+      "prep": "cut into 2-inch long pieces"
     },
     {
       "ingredient_id": 309,
@@ -119,14 +123,16 @@
     },
     {
       "ingredient_id": 27,
-      "name": "corn, husked",
-      "quantity": "2 ears"
+      "name": "corn",
+      "quantity": "2 ears",
+      "prep": "husked"
     },
     {
       "ingredient_id": 148,
-      "name": "yellow potatoes, cut into 1-inch pieces",
+      "name": "yellow potatoes",
       "quantity": "2 medium",
-      "weigh_as": "0.45 kg"
+      "weigh_as": "0.45 kg",
+      "prep": "cut into 1-inch pieces"
     },
     {
       "ingredient_id": 1004,
@@ -135,14 +141,16 @@
     },
     {
       "ingredient_id": 285,
-      "name": "baby bok choy, ends trimmed, and halved through core",
+      "name": "baby bok choy",
       "quantity": "5",
-      "weigh_as": "0.45 kg"
+      "weigh_as": "0.45 kg",
+      "prep": "ends trimmed, and halved through core"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, chopped",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 52,
@@ -151,6 +159,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the beef bones into roughly 2-inch discs. Chop the scallions into 2-inch pieces. Lightly smash the garlic. Cut the beef tendons into 2-inch long pieces. Husk the corn. Cut the yellow potatoes into 1-inch pieces. Trim the ends of the baby bok choy, then halve it through core. Chop the yellow onion.",
+      "secondary_message": "2.25 kg beef bones\n6 scallions\n6 cloves garlic\n0.45 kg beef tendons\n2 ears corn\n2 medium yellow potatoes\n5 baby bok choy\n1 medium yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "For the beef stock: Fill a large stockpot halfway with cold water. Add bones and bring to a boil over high heat until you see bubbles forming at the top and the blood and other impurities are drawn out of the bones, about 5 minutes. Drain the bones to rinse off any remaining scum, then pat dry.",

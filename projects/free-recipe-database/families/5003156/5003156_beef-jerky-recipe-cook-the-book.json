@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 2003,
-      "name": "boneless grass-fed beef top round, fat trimmed, partially frozen",
-      "quantity": "½ lb"
+      "name": "boneless grass-fed beef top round",
+      "quantity": "½ lb",
+      "prep": "fat trimmed, partially frozen"
     },
     {
       "ingredient_id": 136,
@@ -50,8 +51,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely chopped",
-      "quantity": "1 clove"
+      "name": "garlic",
+      "quantity": "1 clove",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 75,
@@ -80,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the fat of the boneless grass-fed beef top round, then partially freeze it. Finely chop the garlic.",
+      "secondary_message": "½ lb boneless grass-fed beef top round\n1 clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "Using a meat slicer or a food processor, cut the partially frozen meat into thin strips about 1/8 inch thick and as long as possible.",

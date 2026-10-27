@@ -35,13 +35,15 @@
   "ingredients": [
     {
       "ingredient_id": 2699,
-      "name": "pearl barley, rinsed and dry",
-      "quantity": "1 cup"
+      "name": "pearl barley",
+      "quantity": "1 cup",
+      "prep": "rinsed and dry"
     },
     {
       "ingredient_id": 420,
-      "name": "du Puy lentils, rinsed",
-      "quantity": "1 cup"
+      "name": "du Puy lentils",
+      "quantity": "1 cup",
+      "prep": "rinsed"
     },
     {
       "ingredient_id": 1496,
@@ -55,8 +57,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 1270,
@@ -75,8 +78,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, juiced",
-      "quantity": "½"
+      "name": "lemon",
+      "quantity": "½",
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -100,11 +104,18 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, finely chopped",
-      "quantity": "3"
+      "name": "scallions",
+      "quantity": "3",
+      "prep": "finely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse the pearl barley and dry. Rinse the du Puy lentils. Smash the garlic. Juice the lemon. Finely chop the scallions.",
+      "secondary_message": "1 cup pearl barley\n1 cup du Puy lentils\n2 cloves garlic\n½ lemon\n3 scallions"
+    },
     {
       "id": 1,
       "primary_message": "Put the barley in a medium saucepot over medium-high heat, and toast, stirring often, until the barley smells toasty and little golden spots appear on the grains. Add 2 cups vegetable broth, and 2 cups water, 1 garlic clove, half the bay leaf, and salt. Cover, and bring to a boil over high heat. Then, reduce the heat to low, and simmer, covered, until the barley is tender, about 40 minutes. Drain excess liquid, and discard bay leaf and garlic.",

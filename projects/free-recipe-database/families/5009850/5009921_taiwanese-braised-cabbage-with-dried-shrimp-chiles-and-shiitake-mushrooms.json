@@ -53,13 +53,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2402,
-      "name": "fresh red chiles, such as Thai chiles, thinly sliced",
-      "quantity": "2 small"
+      "name": "fresh red chiles, such as Thai chiles",
+      "quantity": "2 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1086,
@@ -73,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic. Thinly slice the fresh red chiles.",
+      "secondary_message": "3 medium cloves garlic\n2 small fresh red chiles, such as Thai chiles"
+    },
     {
       "id": 1,
       "primary_message": "Soak dried shiitake mushrooms in 2 cups water until all mushrooms are soft throughout, about 20 minutes. Reserve soaking liquid (strain out any crumbs or solids at the bottom if necessary). Squeeze out mushrooms and remove stems. Slice caps thinly and set aside.",

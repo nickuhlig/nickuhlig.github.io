@@ -53,8 +53,9 @@
     },
     {
       "ingredient_id": 1105,
-      "name": "hot dogs, diagonally sliced 1/4-inch-thick",
-      "quantity": "5"
+      "name": "hot dogs",
+      "quantity": "5",
+      "prep": "diagonally sliced 1/4-inch-thick"
     },
     {
       "ingredient_id": 1483,
@@ -78,13 +79,15 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 323,
@@ -118,6 +121,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the diagonally of the hot dogs 1/4-inch-thick. Finely chop the yellow onion. Mince the garlic.",
+      "secondary_message": "5 hot dogs\n1 medium yellow onion\n2 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Meat Sauce: In a large Dutch oven, heat olive oil over medium heat until shimmering. Add hot dogs, cut sides down. Cook until browned, about 1 to 2 minutes per side. Add beef, pork, 1 teaspoon kosher salt, and black pepper. Increase heat to medium-high and cook, gently breaking up ground meat with a wooden spoon while avoiding crushing the hot dog slices, until the ground meat starts to crisp and begins to turn deep brown, about 7 minutes.",

@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, thinly sliced",
-      "quantity": "1 large"
+      "name": "shallot",
+      "quantity": "1 large",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 285,
@@ -92,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the shallot.",
+      "secondary_message": "1 large shallot"
+    },
     {
       "id": 1,
       "primary_message": "Place potatoes in as thin a layer as possible on a microwave-safe plate. Cover with paper towel and microwave on high power until heated through but still slightly undercooked, about 2 1/2 minutes.",

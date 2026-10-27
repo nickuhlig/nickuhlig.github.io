@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 3233,
-      "name": "sections Cuban bread, split open horizontally",
-      "quantity": "2 (8 to 10 inch)"
+      "name": "sections Cuban bread",
+      "quantity": "2 (8 to 10 inch)",
+      "prep": "split open horizontally"
     },
     {
       "ingredient_id": 1244,
@@ -75,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split open the sections Cuban bread horizontally.",
+      "secondary_message": "2 (8 to 10 inch) sections Cuban bread"
+    },
     {
       "id": 1,
       "primary_message": "Preheat a panini press or a large cast iron skillet or griddle over medium heat. Lay bread, open side up, on a work surface and spread the bottom and top halves with mustard. Layer bottom and top halves with Swiss cheese. Working only on bottom halves, layer on all of the pickles, ham, roast pork, and salami (if using). Close sandwiches, pressing gently.",

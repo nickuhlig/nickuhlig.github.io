@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "1 clove"
+      "name": "garlic",
+      "quantity": "1 clove",
+      "prep": "minced"
     },
     {
       "ingredient_id": 3102,
@@ -86,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic.",
+      "secondary_message": "1 clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "Using a sharp knife, halve cucumbers lengthwise, and scrape out seeds using a spoon; reserve seeds in a small bowl. Halve cucumber pieces lengthwise, and then cut cross-wise into 4-cm pieces. Transfer cucumbers to a medium bowl with 1 teaspoon salt, and stir until well coated. Let sit until cucumbers release liquid, about 15 minutes. Drain cucumbers, reserving liquid. Strain accumulated liquid in the small bowl with seeds through a fine-mesh strainer into the bowl with reserved liquid from the cucumbers; discard seeds.",

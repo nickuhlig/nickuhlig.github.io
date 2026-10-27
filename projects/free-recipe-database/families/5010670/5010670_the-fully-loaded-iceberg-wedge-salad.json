@@ -47,8 +47,9 @@
   "ingredients": [
     {
       "ingredient_id": 260,
-      "name": "tomatoes, diced",
-      "quantity": "2 small"
+      "name": "tomatoes",
+      "quantity": "2 small",
+      "prep": "diced"
     },
     {
       "ingredient_id": 88,
@@ -57,8 +58,9 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, minced",
-      "quantity": "1 small"
+      "name": "red onion",
+      "quantity": "1 small",
+      "prep": "minced"
     },
     {
       "ingredient_id": 132,
@@ -67,8 +69,9 @@
     },
     {
       "ingredient_id": 302,
-      "name": "bacon, cut into 1/2-inch pieces",
-      "quantity": "4 oz"
+      "name": "bacon",
+      "quantity": "4 oz",
+      "prep": "cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 1189,
@@ -92,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the tomatoes. Mince the red onion. Cut the bacon into 1/2-inch pieces.",
+      "secondary_message": "2 small tomatoes\n1 small red onion\n4 oz bacon"
+    },
     {
       "id": 1,
       "primary_message": "Set a fine-mesh strainer over a bowl and add diced tomatoes. Sprinkle liberally with salt and toss to combine. Place onion in a small bowl and pour enough vinegar on top to cover. Let tomatoes and onion stand while you prep the other ingredients.",

@@ -39,8 +39,9 @@
   "ingredients": [
     {
       "ingredient_id": 2447,
-      "name": "strong brewed black tea, chilled",
-      "quantity": "2 cups"
+      "name": "strong brewed black tea",
+      "quantity": "2 cups",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 1840,
@@ -59,6 +60,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the strong brewed black tea cold until you use it.",
+      "secondary_message": "2 cups strong brewed black tea"
+    },
     {
       "id": 1,
       "primary_message": "Combine tea, ice, rum, cane syrup, and lemon (if using) in a large pitcher just before serving. Stir well and serve in ice-filled glasses, garnished with a lemon wedge.",

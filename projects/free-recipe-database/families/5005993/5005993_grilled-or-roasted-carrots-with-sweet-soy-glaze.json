@@ -71,8 +71,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "minced"
     },
     {
       "ingredient_id": 221,
@@ -97,8 +98,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallion, thinly sliced",
-      "quantity": "1"
+      "name": "scallion",
+      "quantity": "1",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -107,6 +109,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic. Thinly slice the scallion.",
+      "secondary_message": "1 medium clove garlic\n1 scallion"
+    },
     {
       "id": 1,
       "primary_message": "For the Glaze: In a small bowl, whisk together honey, soy sauce, dark brown sugar, garlic, ginger, and crushed red pepper. Set aside.",

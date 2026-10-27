@@ -52,18 +52,21 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, thinly sliced",
-      "quantity": "½ medium"
+      "name": "yellow onion",
+      "quantity": "½ medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1541,
-      "name": "plum tomatoes, cored and diced",
-      "quantity": "2"
+      "name": "plum tomatoes",
+      "quantity": "2",
+      "prep": "cored and diced"
     },
     {
       "ingredient_id": 221,
-      "name": "fresh peeled ginger, finely sliced into matchsticks",
-      "quantity": "1 (2 ½ cm) piece"
+      "name": "fresh peeled ginger",
+      "quantity": "1 (2 ½ cm) piece",
+      "prep": "finely sliced into matchsticks"
     },
     {
       "ingredient_id": 88,
@@ -72,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the yellow onion. Core and dice the plum tomatoes. Finely slice the fresh peeled ginger into matchsticks.",
+      "secondary_message": "½ medium yellow onion\n2 plum tomatoes\n1 (2 ½ cm) piece fresh peeled ginger"
+    },
     {
       "id": 1,
       "primary_message": "Working in batches stack a few stemmed collard leaves on a cutting board, placing the larger leaves at the bottom. Roll the leaves tightly and slice them into thin strips, approximately 0.5 cm wide. (Make sure they are not too thin, as they may clump together during cooking.)",

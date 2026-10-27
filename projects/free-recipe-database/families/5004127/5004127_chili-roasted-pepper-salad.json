@@ -33,23 +33,27 @@
   "ingredients": [
     {
       "ingredient_id": 150,
-      "name": "red bell peppers, seeded and cut into 1/4 inch stripes",
-      "quantity": "2"
+      "name": "red bell peppers",
+      "quantity": "2",
+      "prep": "seeded and cut into 1/4 inch stripes"
     },
     {
       "ingredient_id": 2066,
-      "name": "poblano peppers, seeded and cut into 1/4 inch strips",
-      "quantity": "2 large"
+      "name": "poblano peppers",
+      "quantity": "2 large",
+      "prep": "seeded and cut into 1/4 inch strips"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, cut into strips",
-      "quantity": "1"
+      "name": "red onion",
+      "quantity": "1",
+      "prep": "cut into strips"
     },
     {
       "ingredient_id": 150,
-      "name": "zucchini peppers, cut into 1/4 inch rounds",
-      "quantity": "2"
+      "name": "zucchini peppers",
+      "quantity": "2",
+      "prep": "cut into 1/4 inch rounds"
     },
     {
       "ingredient_id": 47,
@@ -88,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Seed and cut the red bell peppers into 1/4 inch stripes. Seed and cut the poblano peppers into 1/4 inch strips. Cut the red onion into strips. Cut the zucchini peppers into 1/4 inch rounds.",
+      "secondary_message": "2 red bell peppers\n2 large poblano peppers\n1 red onion\n2 zucchini peppers"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 400°F. Place bell peppers, poblanos, onion, and zucchini on a baking sheet. Toss with olive oil.",

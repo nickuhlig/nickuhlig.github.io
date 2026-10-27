@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 1746,
-      "name": "basil leaves, thinly sliced into a chiffonade",
-      "quantity": "15 large"
+      "name": "basil leaves",
+      "quantity": "15 large",
+      "prep": "thinly sliced into a chiffonade"
     },
     {
       "ingredient_id": 130,
@@ -77,6 +78,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the basil leaves into a chiffonade.",
+      "secondary_message": "15 large basil leaves"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 300°F. Line a rimmed baking sheet with parchment paper. Working over a bowl, using your fingers, tear each tomato in half and press out and discard the seeds. Arrange tomatoes on prepared baking sheet in one layer, season with salt, and drizzle all over with olive oil. Transfer to oven and cook until excess juices have evaporated and tomatoes look slightly dry on the exterior but still moist within, about 1 hour.",

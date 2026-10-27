@@ -49,8 +49,9 @@
   "ingredients": [
     {
       "ingredient_id": 3299,
-      "name": "ripe nectarine, sliced",
-      "quantity": "½"
+      "name": "ripe nectarine",
+      "quantity": "½",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 1953,
@@ -84,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the ripe nectarine.",
+      "secondary_message": "½ ripe nectarine"
+    },
     {
       "id": 1,
       "primary_message": "In a cocktail shaker, muddle nectarine, simple syrup, and rosemary sprig. Add gin, Campari, and lemon juice, fill shaker with ice, and shake until well chilled (about 15 seconds.)",

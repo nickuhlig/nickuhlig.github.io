@@ -43,8 +43,9 @@
   "ingredients": [
     {
       "ingredient_id": 1610,
-      "name": "soft silken tofu, patted dry",
-      "quantity": "4 oz"
+      "name": "soft silken tofu",
+      "quantity": "4 oz",
+      "prep": "patted dry"
     },
     {
       "ingredient_id": 24,
@@ -73,6 +74,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pat the soft silken tofu dry.",
+      "secondary_message": "4 oz soft silken tofu"
+    },
     {
       "id": 1,
       "primary_message": "To Make With an Immersion Blender: In a plastic or glass cup just big enough to fit the head of your immersion blender, combine tofu, garlic, lemon juice, and dijon mustard. Blend until tofu is smooth, 30 seconds to 1 minute. Pour oil on top of tofu mixture. Place head of hand blender all the way at the bottom of the jar and blend, slowly pulling the blender upwards until all the oil has been emulsified. Season to taste with salt. Mayonnaise will keep in the fridge for up to two weeks.",

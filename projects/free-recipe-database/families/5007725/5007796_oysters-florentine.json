@@ -42,8 +42,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, finely chopped",
-      "quantity": "4 small"
+      "name": "shallots",
+      "quantity": "4 small",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2101,
@@ -77,8 +78,9 @@
     },
     {
       "ingredient_id": 2388,
-      "name": "oysters, shucked",
-      "quantity": "24"
+      "name": "oysters",
+      "quantity": "24",
+      "prep": "shucked"
     },
     {
       "ingredient_id": 1189,
@@ -87,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the shallots. Shuck the oysters.",
+      "secondary_message": "4 small shallots\n24 oysters"
+    },
     {
       "id": 1,
       "primary_message": "Adjust rack to 15 cm below broiler element and preheat broiler to high.",

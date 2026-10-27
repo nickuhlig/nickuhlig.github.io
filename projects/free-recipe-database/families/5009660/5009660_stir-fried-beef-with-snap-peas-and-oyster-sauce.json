@@ -39,8 +39,9 @@
   "ingredients": [
     {
       "ingredient_id": 2286,
-      "name": "skirt steak of flap meat, thinly sliced against the grain",
-      "quantity": "1 lb"
+      "name": "skirt steak of flap meat",
+      "quantity": "1 lb",
+      "prep": "thinly sliced against the grain"
     },
     {
       "ingredient_id": 88,
@@ -119,13 +120,15 @@
     },
     {
       "ingredient_id": 36,
-      "name": "snap peas, trimmed",
-      "quantity": "1 lb"
+      "name": "snap peas",
+      "quantity": "1 lb",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 221,
@@ -139,6 +142,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the skirt steak of flap meat against the grain. Trim the snap peas. Finely mince the garlic.",
+      "secondary_message": "1 lb skirt steak of flap meat\n1 lb snap peas\n2 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Beef: Combine beef, salt, sugar, soy sauce, wine, sesame oil, baking soda, and cornstarch in a small bowl and toss to combine. Set aside for 20 minutes.",

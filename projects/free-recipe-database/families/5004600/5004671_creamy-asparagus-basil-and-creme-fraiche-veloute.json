@@ -39,14 +39,16 @@
     },
     {
       "ingredient_id": 144,
-      "name": "extra large shallot, chopped",
-      "quantity": "1"
+      "name": "extra large shallot",
+      "quantity": "1",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 26,
-      "name": "asparagus, trimmed and diced",
+      "name": "asparagus",
       "quantity": "1 ½ bunches",
-      "weigh_as": "0.68 kg"
+      "weigh_as": "0.68 kg",
+      "prep": "trimmed and diced"
     },
     {
       "ingredient_id": 1496,
@@ -75,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the extra large shallot. Trim and dice the asparagus.",
+      "secondary_message": "1 extra large shallot\n1 ½ bunches asparagus"
+    },
     {
       "id": 1,
       "primary_message": "Heat the butter or olive oil in a medium soup pot over medium-low heat. Add the shallot and sauté until soft and fragrant, 5 to 6 minutes, stirring often. Add the asparagus and vegetable broth and season with salt and pepper. Cover the pot, and bring to a boil. Reduce to a simmer, and cook until the asparagus is very tender: 10 to 12 minutes.",

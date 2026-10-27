@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "5 tbsp (2 ½ oz)"
+      "name": "unsalted butter",
+      "quantity": "5 tbsp (2 ½ oz)",
+      "prep": "softened"
     },
     {
       "ingredient_id": 114,
@@ -76,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter.",
+      "secondary_message": "5 tbsp (2 ½ oz) unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Whisk 1/2 cup sugar and yolks in small saucepan until combined. Whisk in 1/2 cup lemon juice, zest, and butter. Cook over medium heat, stirring, until curd is thickened and just beginning to come to a boil. Transfer to bowl, cover with plastic wrap, and chill until cold, about 1 hour.",

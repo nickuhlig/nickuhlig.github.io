@@ -37,8 +37,9 @@
   "ingredients": [
     {
       "ingredient_id": 1811,
-      "name": "shrimp, shelled and deveined",
-      "quantity": "0.11 kg"
+      "name": "shrimp",
+      "quantity": "0.11 kg",
+      "prep": "shelled and deveined"
     },
     {
       "ingredient_id": 348,
@@ -47,8 +48,9 @@
     },
     {
       "ingredient_id": 341,
-      "name": "boneless pork, such as shoulder, cut into large cubes",
-      "quantity": "0.23 kg"
+      "name": "boneless pork, such as shoulder",
+      "quantity": "0.23 kg",
+      "prep": "cut into large cubes"
     },
     {
       "ingredient_id": 2823,
@@ -102,6 +104,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shell and devein the shrimp. Cut the boneless pork into large cubes.",
+      "secondary_message": "0.11 kg shrimp\n0.23 kg boneless pork, such as shoulder"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, cover shrimp with cold water and stir in baking soda. Refrigerate for 30 minutes. Drain and rinse shrimp under cold running water, then pat dry with paper towels.",

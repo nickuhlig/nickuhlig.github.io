@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onions, sliced",
-      "quantity": "2 medium"
+      "name": "red onions",
+      "quantity": "2 medium",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 286,
@@ -96,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the red onions.",
+      "secondary_message": "2 medium red onions"
+    },
     {
       "id": 1,
       "primary_message": "Roast peppers over a gas flame, on the grill, or under a broiler until skins are completely charred. Place in a bowl, cover with plastic wrap, and let sit until cool enough to handle, about 15 to 20 minutes. Remove charred outer skins, cut in half, and remove seeds and cores. Finely chop peppers.",

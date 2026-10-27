@@ -34,19 +34,22 @@
   "ingredients": [
     {
       "ingredient_id": 1004,
-      "name": "green cabbage, cored and very thinly sliced",
+      "name": "green cabbage",
       "quantity": "⅔ small head",
-      "weigh_as": "1 lb"
+      "weigh_as": "1 lb",
+      "prep": "cored and very thinly sliced"
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, peeled and very thinly sliced",
-      "quantity": "½ medium"
+      "name": "white onion",
+      "quantity": "½ medium",
+      "prep": "peeled and very thinly sliced"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and shredded",
-      "quantity": "2 medium"
+      "name": "carrots",
+      "quantity": "2 medium",
+      "prep": "peeled and shredded"
     },
     {
       "ingredient_id": 133,
@@ -65,6 +68,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Core and very thinly slice the green cabbage. Peel and very thinly slice the white onion. Peel and shred the carrots.",
+      "secondary_message": "⅔ small head green cabbage\n½ medium white onion\n2 medium carrots"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, toss together cabbage, onion, carrot, and jalapeño, if using. In a small saucepan, combine vinegar, salt, and sugar and cook over medium heat, stirring, until salt and sugar are just dissolved. Pour brine over vegetables and toss to combine. Cover and refrigerate for 1 hour before serving (see note).",

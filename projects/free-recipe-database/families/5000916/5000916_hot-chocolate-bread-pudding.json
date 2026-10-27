@@ -46,8 +46,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened, for greasing",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter, for greasing",
+      "quantity": "2 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 121,
@@ -71,8 +72,9 @@
     },
     {
       "ingredient_id": 333,
-      "name": "Dutch-process cocoa powder, sifted",
-      "quantity": "½ cup"
+      "name": "Dutch-process cocoa powder",
+      "quantity": "½ cup",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 118,
@@ -91,8 +93,9 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "8 oz"
+      "name": "bittersweet chocolate",
+      "quantity": "8 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1517,
@@ -106,13 +109,15 @@
     },
     {
       "ingredient_id": 1174,
-      "name": "French bread, cut into 3/4-inch cubes",
-      "quantity": "13 oz"
+      "name": "French bread",
+      "quantity": "13 oz",
+      "prep": "cut into 3/4-inch cubes"
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, chopped into 1/2-inch pieces",
-      "quantity": "4 oz"
+      "name": "bittersweet chocolate",
+      "quantity": "4 oz",
+      "prep": "chopped into 1/2-inch pieces"
     },
     {
       "ingredient_id": 1752,
@@ -131,6 +136,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter. Sift the Dutch-process cocoa powder. Finely chop the bittersweet chocolate. Cut the French bread into 3/4-inch cubes. Chop the bittersweet chocolate into 1/2-inch pieces.",
+      "secondary_message": "2 tbsp unsalted butter, for greasing\n½ cup Dutch-process cocoa powder\n8 oz bittersweet chocolate\n13 oz French bread\n4 oz bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "Grease a 9- by 13-inch baking dish with butter; set aside. In a large bowl, whisk eggs, granulated sugar, and salt to combine; set aside.",

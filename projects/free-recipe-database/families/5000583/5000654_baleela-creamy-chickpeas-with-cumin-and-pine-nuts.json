@@ -39,8 +39,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "1 large clove"
+      "name": "garlic",
+      "quantity": "1 large clove",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 186,
@@ -64,11 +65,18 @@
     },
     {
       "ingredient_id": 216,
-      "name": "pine nuts, toasted until a light golden brown",
-      "quantity": "2 tbsp"
+      "name": "pine nuts",
+      "quantity": "2 tbsp",
+      "prep": "toasted until a light golden brown"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the garlic. Toast the pine nuts until a light golden brown.",
+      "secondary_message": "1 large clove garlic\n2 tbsp pine nuts"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, cover chickpeas with 6 cups cold water. Let stand at room temperature for at least 8 hours. Drain and rinse chickpeas thoroughly.",

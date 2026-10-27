@@ -78,11 +78,18 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, cut in half lengthwise",
-      "quantity": "4 medium"
+      "name": "garlic cloves",
+      "quantity": "4 medium",
+      "prep": "cut in half lengthwise"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the garlic cloves in half lengthwise.",
+      "secondary_message": "4 medium garlic cloves"
+    },
     {
       "id": 1,
       "primary_message": "Cut goat cheese log into 8 equal pieces; roll into balls, if desired.",

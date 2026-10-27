@@ -67,8 +67,9 @@
     },
     {
       "ingredient_id": 1882,
-      "name": "cardamom pods, lightly crushed",
-      "quantity": "4"
+      "name": "cardamom pods",
+      "quantity": "4",
+      "prep": "lightly crushed"
     },
     {
       "ingredient_id": 2510,
@@ -127,6 +128,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly crush the cardamom pods.",
+      "secondary_message": "4 cardamom pods"
+    },
     {
       "id": 1,
       "primary_message": "In a dry skillet over high heat, toast spices, stirring frequently, until they are fragrant, about 30 seconds.",

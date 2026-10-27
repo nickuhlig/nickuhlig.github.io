@@ -65,8 +65,9 @@
     },
     {
       "ingredient_id": 1230,
-      "name": "chicken, bones removed",
-      "quantity": "1 small"
+      "name": "chicken",
+      "quantity": "1 small",
+      "prep": "bones removed"
     },
     {
       "ingredient_id": 313,
@@ -75,8 +76,9 @@
     },
     {
       "ingredient_id": 3363,
-      "name": "duck, bones removed",
-      "quantity": "1"
+      "name": "duck",
+      "quantity": "1",
+      "prep": "bones removed"
     },
     {
       "ingredient_id": 1044,
@@ -90,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the bones from the chicken. Remove the bones from the duck.",
+      "secondary_message": "1 small chicken\n1 duck"
+    },
     {
       "id": 1,
       "primary_message": "Season chicken evenly on all sides with salt and pepper. Lay chicken flat, skin side down, on cutting board. Shape 340 g of sausage into a log roughly 5 cm in diameter and place in the center of the chicken. Lift one side of chicken and wrap tightly around sausage. Lift the other side, allowing the skin from both sides to overlap and form a seal. The chicken should now be wrapped around the sausage. Wrap tightly in several layers of plastic wrap so that chicken forms a tight cylinder (see note). Alternatively, chicken can be tightly trussed with butcher's twine.",

@@ -39,8 +39,9 @@
   "ingredients": [
     {
       "ingredient_id": 111,
-      "name": "haricots verts, trimmed",
-      "quantity": "0.79 kg"
+      "name": "haricots verts",
+      "quantity": "0.79 kg",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 88,
@@ -59,11 +60,18 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "16 cloves"
+      "name": "garlic",
+      "quantity": "16 cloves",
+      "prep": "thinly sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the haricots verts. Thinly slice the garlic.",
+      "secondary_message": "0.79 kg haricots verts\n16 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Bring a large pot of water to a boil, and salt it. Blanch the haricots verts until tender-crisp, about 4 minutes. Drain, and shock in cold water. Meanwhile, in a mini food processor, add the tomatoes, 4 teaspoons of olive oil, and a good pinch of salt. Pulse until chopped. Set aside.",

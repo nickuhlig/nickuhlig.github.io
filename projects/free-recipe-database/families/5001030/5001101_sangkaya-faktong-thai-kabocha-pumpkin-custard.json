@@ -59,8 +59,9 @@
     },
     {
       "ingredient_id": 1820,
-      "name": "pure palm sugar, chopped",
-      "quantity": "9 (142 g) small knobs"
+      "name": "pure palm sugar",
+      "quantity": "9 (142 g) small knobs",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1940,
@@ -89,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the pure palm sugar.",
+      "secondary_message": "9 (142 g) small knobs pure palm sugar"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 150°C (300°F). In a small saucepan, combine coconut milk, palm sugar, pandan leaves, and salt. Heat over medium-low heat, stirring occasionally, until sugar dissolves and mixture gets slightly frothy, 4 to 5 minutes. Do not let it boil.",

@@ -37,8 +37,9 @@
     },
     {
       "ingredient_id": 2162,
-      "name": "boneless leg of lamb, cut in 1- to 1 1/2-inch chunks",
-      "quantity": "1 lb"
+      "name": "boneless leg of lamb",
+      "quantity": "1 lb",
+      "prep": "cut in 1- to 1 1/2-inch chunks"
     },
     {
       "ingredient_id": 88,
@@ -52,8 +53,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, cut into 1/4-inch dice",
-      "quantity": "1 small"
+      "name": "yellow onion",
+      "quantity": "1 small",
+      "prep": "cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 90,
@@ -72,6 +74,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the boneless leg of lamb in 1- to 1 1/2-inch chunks. Cut the yellow onion into 1/4-inch dice.",
+      "secondary_message": "1 lb boneless leg of lamb\n1 small yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "Set a wire rack in a rimmed baking sheet and line with a triple layer of paper towels. Fill a 12-inch cast-iron skillet 1/4 inch deep with oil, then heat over medium-high heat until oil is shimmering but not smoking. Working in batches to prevent crowding the skillet, carefully add eggplant slices, cut side down, and fry, lowering the heat as needed to prevent the oil from smoking and flipping once halfway through, until eggplant is dark golden brown on both sides, about 10 minutes. Transfer eggplant to prepared wire rack. Repeat with remaining eggplant, topping up with additional oil if needed. Set cooked eggplant aside.",

@@ -83,13 +83,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, soft but cool, about 60°F",
-      "quantity": "227 g"
+      "name": "unsalted butter",
+      "quantity": "227 g",
+      "prep": "soft but cool, about 60°F"
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, brought to about 65°F",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "brought to about 65°F"
     },
     {
       "ingredient_id": 353,
@@ -98,8 +100,9 @@
     },
     {
       "ingredient_id": 118,
-      "name": "whole milk, brought to about 65°F",
-      "quantity": "0.45 kg"
+      "name": "whole milk",
+      "quantity": "0.45 kg",
+      "prep": "brought to about 65°F"
     },
     {
       "ingredient_id": 116,
@@ -113,6 +116,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Let the unsalted butter soften slightly but keep it cool and bring it to 60°F. Bring the eggs to about 65°F. Bring the whole milk to about 65°F.",
+      "secondary_message": "227 g unsalted butter\n3 large eggs\n0.45 kg whole milk"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Adjust oven rack to lower-middle position and preheat to 180°C (350°F). Lightly grease three 20-cm anodized aluminum cake pans and line with parchment (explanation and tutorial here). If you don’t have 3 pans, it’s okay to bake the cakes in stages, the batter will keep at room temperature until needed.",

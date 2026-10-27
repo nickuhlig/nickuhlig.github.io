@@ -61,11 +61,18 @@
     },
     {
       "ingredient_id": 3460,
-      "name": "toffee, chopped, storebought or homemade",
-      "quantity": "6 oz"
+      "name": "toffee, storebought or homemade",
+      "quantity": "6 oz",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the toffee.",
+      "secondary_message": "6 oz toffee, storebought or homemade"
+    },
     {
       "id": 1,
       "primary_message": "In a large, heavy saucepan, whisk egg yolks, malted milk powder, sugar, and two tablespoons half and half into a smooth paste.",

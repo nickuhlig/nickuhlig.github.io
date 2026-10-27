@@ -53,13 +53,15 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, very thinly sliced",
-      "quantity": "½ medium"
+      "name": "red onion",
+      "quantity": "½ medium",
+      "prep": "very thinly sliced"
     },
     {
       "ingredient_id": 26,
-      "name": "asparagus, trimmed",
-      "quantity": "1 (1 lb) bunch"
+      "name": "asparagus",
+      "quantity": "1 (1 lb) bunch",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 1399,
@@ -78,6 +80,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Very thinly slice the red onion. Trim the asparagus.",
+      "secondary_message": "½ medium red onion\n1 (1 lb) bunch asparagus"
+    },
     {
       "id": 1,
       "primary_message": "Set oven rack to upper-middle position and preheat oven to 400°F. Using sharp kitchen shears, remove spine from chicken; discard spine or reserve for another use. Flatten chicken by placing skin side up on cutting board and applying firm pressure to breast bone. Rub chicken on all surfaces with 1 tablespoon oil. Season generously with kosher salt and ground black pepper.",

@@ -41,13 +41,15 @@
   "ingredients": [
     {
       "ingredient_id": 2200,
-      "name": "dried chickpeas, soaked overnight in salted water",
-      "quantity": "340 g"
+      "name": "dried chickpeas",
+      "quantity": "340 g",
+      "prep": "soaked overnight in salted water"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, split in half",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "split in half"
     },
     {
       "ingredient_id": 24,
@@ -91,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soak the dried chickpeas overnight in salted water. Split the onion in half.",
+      "secondary_message": "340 g dried chickpeas\n1 large onion"
+    },
     {
       "id": 1,
       "primary_message": "Place chickpeas in a large pot and cover with lightly salted water by at least 5 cm. Add unpeeled garlic, onion, and rosemary. Cover and bring to a boil over high heat. Reduce heat to a bare simmer and cook, topping up with water as necessary to keep beans submerged, until beans are very tender and creamy with no graininess left, about 2 hours. Beans can also be cooked in a pressure cooker at low pressure for 30 minutes. (See note if using canned beans.) Discard onions, garlic, and rosemary. Drain beans, reserving beans and liquid separately. You should have 4 cups drained chickpeas and at least 1 1/2 cups chickpea-cooking liquid.",

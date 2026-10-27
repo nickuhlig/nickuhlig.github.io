@@ -53,8 +53,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, grated, divided",
-      "quantity": "1 (2 ½ cm) piece"
+      "name": "ginger, divided",
+      "quantity": "1 (2 ½ cm) piece",
+      "prep": "grated"
     },
     {
       "ingredient_id": 88,
@@ -68,33 +69,39 @@
     },
     {
       "ingredient_id": 188,
-      "name": "cilantro, stems chopped, leaves chopped, divided",
-      "quantity": "1 bunch"
+      "name": "cilantro, divided",
+      "quantity": "1 bunch",
+      "prep": "stems chopped, leaves chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "6 medium cloves"
+      "name": "garlic",
+      "quantity": "6 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1762,
-      "name": "green bird chiles, seeded and minced",
-      "quantity": "2"
+      "name": "green bird chiles",
+      "quantity": "2",
+      "prep": "seeded and minced"
     },
     {
       "ingredient_id": 1929,
-      "name": "shiitake mushrooms, sliced thin",
-      "quantity": "283 g"
+      "name": "shiitake mushrooms",
+      "quantity": "283 g",
+      "prep": "sliced thin"
     },
     {
       "ingredient_id": 2730,
-      "name": "oyster mushrooms, sliced thin",
-      "quantity": "142 g"
+      "name": "oyster mushrooms",
+      "quantity": "142 g",
+      "prep": "sliced thin"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, sliced thin",
-      "quantity": "2 stalks"
+      "name": "celery",
+      "quantity": "2 stalks",
+      "prep": "sliced thin"
     },
     {
       "ingredient_id": 53,
@@ -118,11 +125,18 @@
     },
     {
       "ingredient_id": 153,
-      "name": "green onions, cut into 2-inch lengths",
-      "quantity": "1 bunch"
+      "name": "green onions",
+      "quantity": "1 bunch",
+      "prep": "cut into 2-inch lengths"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the ginger. Chop the stems of the cilantro, then chop the leaves. Mince the garlic. Seed and mince the green bird chiles. Slice the shiitake mushrooms thin. Slice the oyster mushrooms thin. Slice the celery thin. Cut the green onions into 2-inch lengths.",
+      "secondary_message": "1 (2 ½ cm) piece ginger, divided\n1 bunch cilantro, divided\n6 medium cloves garlic\n2 green bird chiles\n283 g shiitake mushrooms\n142 g oyster mushrooms\n2 stalks celery\n1 bunch green onions"
+    },
     {
       "id": 1,
       "primary_message": "In large bowl, soak noodles in warm water for at least 30 minutes. When softened, cut noodles into 10 to 13-cm lengths. In small bowl, toss chicken with 1 tablespoon Shaoxing wine, 1/2 teaspoon of grated ginger, and 1/4 teaspoon salt; set aside.",

@@ -48,23 +48,27 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, thinly sliced crosswise",
-      "quantity": "3 stalks"
+      "name": "celery",
+      "quantity": "3 stalks",
+      "prep": "thinly sliced crosswise"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, cut into 1/2 inch-thick slices",
-      "quantity": "3 medium"
+      "name": "carrots",
+      "quantity": "3 medium",
+      "prep": "cut into 1/2 inch-thick slices"
     },
     {
       "ingredient_id": 1294,
-      "name": "whole canned plum tomatoes, sliced into 1/2 inch-thick slices",
-      "quantity": "2"
+      "name": "whole canned plum tomatoes",
+      "quantity": "2",
+      "prep": "sliced into 1/2 inch-thick slices"
     },
     {
       "ingredient_id": 2340,
@@ -73,8 +77,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 88,
@@ -88,8 +93,9 @@
     },
     {
       "ingredient_id": 1703,
-      "name": "bone-in skin-on split chicken breasts, cut in half crosswise",
-      "quantity": "2"
+      "name": "bone-in skin-on split chicken breasts",
+      "quantity": "2",
+      "prep": "cut in half crosswise"
     },
     {
       "ingredient_id": 1702,
@@ -123,8 +129,9 @@
     },
     {
       "ingredient_id": 149,
-      "name": "red potatoes, scrubbed and cut into 1 inch cubes",
-      "quantity": "3 medium"
+      "name": "red potatoes",
+      "quantity": "3 medium",
+      "prep": "scrubbed and cut into 1 inch cubes"
     },
     {
       "ingredient_id": 2324,
@@ -133,23 +140,27 @@
     },
     {
       "ingredient_id": 188,
-      "name": "fresh cilantro leaves, chopped",
-      "quantity": "1 cup"
+      "name": "fresh cilantro leaves",
+      "quantity": "1 cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 243,
-      "name": "fresh mint, chopped",
-      "quantity": "¼ cup"
+      "name": "fresh mint",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 228,
-      "name": "limes, cut into wedges",
-      "quantity": "2"
+      "name": "limes",
+      "quantity": "2",
+      "prep": "cut into wedges"
     },
     {
       "ingredient_id": 183,
-      "name": "ripe avocado, cut into 1/4 inch cubes",
-      "quantity": "1"
+      "name": "ripe avocado",
+      "quantity": "1",
+      "prep": "cut into 1/4 inch cubes"
     },
     {
       "ingredient_id": 1373,
@@ -158,6 +169,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the yellow onion. Thinly slice the celery crosswise. Cut the carrots into 1/2 inch-thick slices. Slice the whole canned plum tomatoes into 1/2 inch-thick slices. Smash the garlic. Cut the bone-in skin-on split chicken breasts in half crosswise. Scrub and cut the red potatoes into 1 inch cubes. Chop the fresh cilantro leaves. Chop the fresh mint. Cut the limes into wedges. Cut the ripe avocado into 1/4 inch cubes.",
+      "secondary_message": "1 medium yellow onion\n3 stalks celery\n3 medium carrots\n2 whole canned plum tomatoes\n4 cloves garlic\n2 bone-in skin-on split chicken breasts\n3 medium red potatoes\n1 cup fresh cilantro leaves\n¼ cup fresh mint\n2 limes\n1 ripe avocado"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in large pot or Dutch oven over medium-high heat until shimmering. Add onion, celery, carrots, tomatoes and juice, garlic, and 1 teaspoon salt and cook, stirring, until onion is softened and translucent, 5 to 7 minutes.",

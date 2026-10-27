@@ -63,8 +63,9 @@
     },
     {
       "ingredient_id": 349,
-      "name": "whole nutmeg seed, cut in half with a chef's knife",
-      "quantity": "1"
+      "name": "whole nutmeg seed",
+      "quantity": "1",
+      "prep": "cut in half with a chef's knife"
     },
     {
       "ingredient_id": 221,
@@ -83,6 +84,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the whole nutmeg seed in half with a chef's knife.",
+      "secondary_message": "1 whole nutmeg seed"
+    },
     {
       "id": 1,
       "primary_message": "For the Compote: Peel, quarter, and core apples, then slice into 1.5-cm pieces. With a vegetable peeler, trim away the sharp edges of the fruit, leaving each piece with smooth, rounded edges.",

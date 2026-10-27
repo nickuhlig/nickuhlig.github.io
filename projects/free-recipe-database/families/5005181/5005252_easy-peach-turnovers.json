@@ -86,11 +86,18 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, lightly beaten with 1 teaspoon water",
-      "quantity": "1"
+      "name": "egg",
+      "quantity": "1",
+      "prep": "lightly beaten with 1 teaspoon water"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly beat the egg with 1 teaspoon water.",
+      "secondary_message": "1 egg"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven racks to upper and lower middle positions. Preheat oven to 190°C (375°F). Line 2 baking sheets with parchment paper. In a medium bowl, combine diced peaches, brown sugar, 2 teaspoons sugar, tapioca, salt, cinnamon, and lemon juice. Let stand 10 minutes.",

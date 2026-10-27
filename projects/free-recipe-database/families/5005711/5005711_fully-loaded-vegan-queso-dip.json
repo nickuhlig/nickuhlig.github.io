@@ -49,13 +49,15 @@
     },
     {
       "ingredient_id": 185,
-      "name": "black beans, drained and rinsed",
-      "quantity": "1 (15 oz) can"
+      "name": "black beans",
+      "quantity": "1 (15 oz) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 1057,
-      "name": "Ro*Tel Diced Tomatoes with Green Chiles, drained",
-      "quantity": "2 (10 oz) cans"
+      "name": "Ro*Tel Diced Tomatoes with Green Chiles",
+      "quantity": "2 (10 oz) cans",
+      "prep": "drained"
     },
     {
       "ingredient_id": 188,
@@ -64,13 +66,15 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, thinly sliced, plus more for garnish",
-      "quantity": "4"
+      "name": "scallions, plus more for garnish",
+      "quantity": "4",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 183,
-      "name": "avocado, finely diced",
-      "quantity": "1"
+      "name": "avocado",
+      "quantity": "1",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 448,
@@ -84,6 +88,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain and rinse the black beans. Drain the Ro*Tel Diced Tomatoes with Green Chiles. Thinly slice the scallions. Finely dice the avocado.",
+      "secondary_message": "1 (15 oz) can black beans\n2 (10 oz) cans Ro*Tel Diced Tomatoes with Green Chiles\n4 scallions, plus more for garnish\n1 avocado"
+    },
     {
       "id": 1,
       "primary_message": "Heat vegetable oil in a medium saucepan over high heat until shimmering. Add chorizo and cook, stirring frequently, until well browned and slightly dry, about 10 minutes. Remove 2 tablespoons and set aside for garnish.",

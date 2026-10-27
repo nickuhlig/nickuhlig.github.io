@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "6 tbsp (3 oz)"
+      "name": "unsalted butter",
+      "quantity": "6 tbsp (3 oz)",
+      "prep": "melted"
     },
     {
       "ingredient_id": 353,
@@ -72,11 +73,18 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, melted",
-      "quantity": "85 g"
+      "name": "bittersweet chocolate",
+      "quantity": "85 g",
+      "prep": "melted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Melt the bittersweet chocolate.",
+      "secondary_message": "6 tbsp (3 oz) unsalted butter\n85 g bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "In medium bowl, whisk sugar, flour, and salt to combine. Stir in butter, vanilla, and whites until smooth. Chill until thickened, about 1 hour.",

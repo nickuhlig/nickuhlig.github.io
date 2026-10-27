@@ -63,8 +63,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1044,
@@ -98,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic.",
+      "secondary_message": "1 medium clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "Combine jalapeños, aji amarillo, cilantro, cotjia, garlic, oil, vinegar, and lime juice in a blender. Blend on high speed until smooth paste forms. Add mayonnaise and blend until homogenous. Transfer to a bowl and season to taste with salt and pepper. Serve with French fries or grilled chicken.",

@@ -69,8 +69,9 @@
     },
     {
       "ingredient_id": 2275,
-      "name": "ramps, cleaned, trimmed, and finely sliced",
-      "quantity": "10"
+      "name": "ramps",
+      "quantity": "10",
+      "prep": "cleaned, trimmed, and finely sliced"
     },
     {
       "ingredient_id": 33,
@@ -94,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Clean, trim, and finely slice the ramps.",
+      "secondary_message": "10 ramps"
+    },
     {
       "id": 1,
       "primary_message": "Add barley to a medium saucepan. Cover with 6 cups of water. Add 1 teaspoon salt and bring to a boil over high heat. Reduce to a simmer and cook until barley is just tender, about 30 minutes. Remove from heat and set aside.",

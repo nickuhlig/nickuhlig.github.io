@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, smashed",
-      "quantity": "3 medium"
+      "name": "garlic cloves",
+      "quantity": "3 medium",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 88,
@@ -76,8 +77,9 @@
     },
     {
       "ingredient_id": 1975,
-      "name": "St. Louis–cut ribs, cut between bones into 3 equal pieces",
-      "quantity": "3 lb"
+      "name": "St. Louis–cut ribs",
+      "quantity": "3 lb",
+      "prep": "cut between bones into 3 equal pieces"
     },
     {
       "ingredient_id": 47,
@@ -86,18 +88,21 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and diced",
-      "quantity": "2 medium"
+      "name": "carrots",
+      "quantity": "2 medium",
+      "prep": "peeled and diced"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, diced",
-      "quantity": "2 stalks"
+      "name": "celery",
+      "quantity": "2 stalks",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, diced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 323,
@@ -106,8 +111,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "4 medium"
+      "name": "garlic cloves",
+      "quantity": "4 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 339,
@@ -146,6 +152,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Smash the garlic cloves. Cut the St. Louis–cut ribs between bones into 3 equal pieces. Peel and dice the carrots. Dice the celery. Dice the onion. Mince the garlic cloves.",
+      "secondary_message": "3 medium garlic cloves\n3 lb St. Louis–cut ribs\n2 medium carrots\n2 stalks celery\n1 medium onion\n4 medium garlic cloves"
+    },
     {
       "id": 1,
       "primary_message": "For the Marinade: In a large bowl, mix together the wine, garlic, salt, juniper berries, peppercorns, and bay leaves. Add the rib pieces to the marinade, making sure they are fully submerged. Cover the bowl and refrigerate for at least 8 hours, or up to 24 hours.",

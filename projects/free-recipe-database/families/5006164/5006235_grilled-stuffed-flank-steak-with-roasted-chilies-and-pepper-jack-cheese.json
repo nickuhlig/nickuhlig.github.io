@@ -65,8 +65,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 88,
@@ -80,8 +81,9 @@
     },
     {
       "ingredient_id": 473,
-      "name": "whole flank steak, 2 to 2 1/2 pounds, trimmed of excess fat",
-      "quantity": "1"
+      "name": "whole flank steak, 2 to 2 1/2 pounds",
+      "quantity": "1",
+      "prep": "trimmed of excess fat"
     },
     {
       "ingredient_id": 1156,
@@ -90,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic. Trim the whole flank steak of excess fat.",
+      "secondary_message": "3 cloves garlic\n1 whole flank steak, 2 to 2 1/2 pounds"
+    },
     {
       "id": 1,
       "primary_message": "Place chiles directly over the flame of a gas burner or on a foil-lined rimmed baking sheet under a broiler preheated to high heat. Cook, turning occasionally, until charred and blackened over every surface. Wrap in aluminum foil and let rest for 10 minutes. Remove from foil and carefully peel chiles and discard skin. Open chiles flat and remove seeds and stems. Lay flattened chiles between two layers of paper towels and press gently to remove excess moisture. Set aside.",

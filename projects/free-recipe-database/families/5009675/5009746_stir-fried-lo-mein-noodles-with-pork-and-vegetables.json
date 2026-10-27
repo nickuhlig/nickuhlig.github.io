@@ -107,13 +107,15 @@
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, peeled and minced",
-      "quantity": "1 (7 ½ cm) knob"
+      "name": "fresh ginger",
+      "quantity": "1 (7 ½ cm) knob",
+      "prep": "peeled and minced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "3 medium"
+      "name": "garlic cloves",
+      "quantity": "3 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 153,
@@ -137,6 +139,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and mince the fresh ginger. Mince the garlic cloves.",
+      "secondary_message": "1 (7 ½ cm) knob fresh ginger\n3 medium garlic cloves"
+    },
     {
       "id": 1,
       "primary_message": "Bring a pot of salted water to a boil and cook noodles according to package directions, stirring regularly with tongs or long chopsticks, until al dente and separated. Drain noodles and set aside.",

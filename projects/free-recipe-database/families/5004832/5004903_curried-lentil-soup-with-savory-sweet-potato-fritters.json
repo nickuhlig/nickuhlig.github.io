@@ -42,18 +42,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "whole onion, finely chopped",
-      "quantity": "1"
+      "name": "whole onion",
+      "quantity": "1",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 159,
-      "name": "whole carrots, finely chopped",
-      "quantity": "2"
+      "name": "whole carrots",
+      "quantity": "2",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely chopped",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 221,
@@ -102,8 +105,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "2"
+      "name": "eggs",
+      "quantity": "2",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 118,
@@ -122,14 +126,16 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, thinly sliced",
-      "quantity": "½"
+      "name": "onion",
+      "quantity": "½",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 143,
-      "name": "sweet potato, peeled and grated",
+      "name": "sweet potato",
       "quantity": "0.11 kg",
-      "weigh_as": "1 small"
+      "weigh_as": "1 small",
+      "prep": "peeled and grated"
     },
     {
       "ingredient_id": 88,
@@ -148,6 +154,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the whole onion. Finely chop the whole carrots. Finely chop the garlic. Beat the eggs. Thinly slice the onion. Peel and grate the sweet potato.",
+      "secondary_message": "1 whole onion\n2 whole carrots\n2 cloves garlic\n2 eggs\n½ onion\n0.11 kg sweet potato"
+    },
     {
       "id": 1,
       "primary_message": "For the Curried Lentils: Heat vegetable oil over medium high heat until shimmering. Add onions, carrots, garlic, and ginger and cook stirring often until beginning to soften, about 5 minutes. Add curry powder and garam masala and cook stirring constantly until fragrant, about 2 minutes. Add lentils and stock and bring to a simmer. Cover and cook until lentils are soft, about 30 minutes. Season to taste with salt and pepper.",

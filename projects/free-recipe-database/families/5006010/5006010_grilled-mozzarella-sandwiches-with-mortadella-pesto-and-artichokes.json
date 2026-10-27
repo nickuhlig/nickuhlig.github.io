@@ -57,13 +57,15 @@
     },
     {
       "ingredient_id": 325,
-      "name": "oil-packed anchovy fillets, minced",
-      "quantity": "5 small"
+      "name": "oil-packed anchovy fillets",
+      "quantity": "5 small",
+      "prep": "minced"
     },
     {
       "ingredient_id": 107,
-      "name": "fresh mozzarella, thinly sliced",
-      "quantity": "¾ lb"
+      "name": "fresh mozzarella",
+      "quantity": "¾ lb",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 360,
@@ -72,8 +74,9 @@
     },
     {
       "ingredient_id": 344,
-      "name": "drained marinated artichoke hearts, very thinly sliced",
-      "quantity": "4 oz"
+      "name": "drained marinated artichoke hearts",
+      "quantity": "4 oz",
+      "prep": "very thinly sliced"
     },
     {
       "ingredient_id": 2501,
@@ -82,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the oil-packed anchovy fillets. Thinly slice the fresh mozzarella. Very thinly slice the drained marinated artichoke hearts.",
+      "secondary_message": "5 small oil-packed anchovy fillets\n¾ lb fresh mozzarella\n4 oz drained marinated artichoke hearts"
+    },
     {
       "id": 1,
       "primary_message": "In a large skillet, heat 3 tablespoons oil over medium heat until it flows easily and coats the bottom of the pan. Working in batches if necessary, add bread and cook, swirling and moving the bread around for even toasting, until browned, about 3 minutes. Flip bread slices, add remaining oil, and continue to cook until browned on both sides, about 3 minutes longer. If working in batches, or if the pan dries out too much, add more oil as needed. Transfer toasted bread slices to a work surface. Wipe out skillet.",

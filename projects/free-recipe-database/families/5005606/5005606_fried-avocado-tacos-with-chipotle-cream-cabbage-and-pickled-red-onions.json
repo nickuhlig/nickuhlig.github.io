@@ -129,11 +129,18 @@
     },
     {
       "ingredient_id": 228,
-      "name": "limes, cut into 8 wedges",
-      "quantity": "2"
+      "name": "limes",
+      "quantity": "2",
+      "prep": "cut into 8 wedges"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the limes into 8 wedges.",
+      "secondary_message": "2 limes"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in a large wok, deep fryer, or Dutch oven to 375°F and adjust heat to maintain temperature.",

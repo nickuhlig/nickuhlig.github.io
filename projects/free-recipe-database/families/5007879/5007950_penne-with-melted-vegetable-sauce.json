@@ -41,28 +41,33 @@
     },
     {
       "ingredient_id": 1039,
-      "name": "russet potato, peeled and cut into 1/4-inch dice",
-      "quantity": "1 large"
+      "name": "russet potato",
+      "quantity": "1 large",
+      "prep": "peeled and cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and cut into 1/4-inch dice",
-      "quantity": "2 medium"
+      "name": "carrots",
+      "quantity": "2 medium",
+      "prep": "peeled and cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 111,
-      "name": "string beans, trimmed and cut into 1/4-inch dice",
-      "quantity": "85 g"
+      "name": "string beans",
+      "quantity": "85 g",
+      "prep": "trimmed and cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 470,
-      "name": "fennel bulb, trimmed and cut into 1/4-inch dice",
-      "quantity": "½ small"
+      "name": "fennel bulb",
+      "quantity": "½ small",
+      "prep": "trimmed and cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, cut into 1/4-inch dice",
-      "quantity": "1 small"
+      "name": "red onion",
+      "quantity": "1 small",
+      "prep": "cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 63,
@@ -71,8 +76,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "2 to 4 medium cloves"
+      "name": "garlic",
+      "quantity": "2 to 4 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 47,
@@ -91,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the russet potato into 1/4-inch dice. Peel and cut the carrots into 1/4-inch dice. Trim and cut the string beans into 1/4-inch dice. Trim and cut the fennel bulb into 1/4-inch dice. Cut the red onion into 1/4-inch dice. Mince the garlic.",
+      "secondary_message": "1 large russet potato\n2 medium carrots\n85 g string beans\n½ small fennel bulb\n1 small red onion\n2 to 4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "In a medium pot of salted boiling water, cook potato until a piece is easily crushed between fingers, about 5 minutes. Using fine strainer, transfer to large mixing bowl. Working one vegetable at a time, continue by boiling carrots, string beans, fennel, and onion until each is well done, about 5 minutes each; add each vegetable to mixing bowl as it is ready.",

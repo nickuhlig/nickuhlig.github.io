@@ -49,8 +49,9 @@
     },
     {
       "ingredient_id": 118,
-      "name": "milk, at room temperature",
-      "quantity": "⅔ cup (5.7 oz)"
+      "name": "milk",
+      "quantity": "⅔ cup (5.7 oz)",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 116,
@@ -59,8 +60,9 @@
     },
     {
       "ingredient_id": 359,
-      "name": "water, at room temperature",
-      "quantity": "2 cups (16.8 oz)"
+      "name": "water",
+      "quantity": "2 cups (16.8 oz)",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 116,
@@ -79,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the milk to room temperature. Bring the water to room temperature.",
+      "secondary_message": "⅔ cup (5.7 oz) milk\n2 cups (16.8 oz) water"
+    },
     {
       "id": 1,
       "primary_message": "Starter: Stir the yeast and malt, if you are using the syrup, into the water; let stand until foamy, about 10 minutes. Stir in the milk and beat in the flour and malt powder, if you are using it, with a rubber spatula or wooden spoon, about 100 strokes or until smooth. Cover with plastic wrap and let stand until bubbly, at least 4 hours but preferably overnight.",

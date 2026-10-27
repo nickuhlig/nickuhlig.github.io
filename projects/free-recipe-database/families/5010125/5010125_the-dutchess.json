@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 2265,
-      "name": "freshly squeezed pineapple juice, strained",
-      "quantity": "1 oz"
+      "name": "freshly squeezed pineapple juice",
+      "quantity": "1 oz",
+      "prep": "strained"
     },
     {
       "ingredient_id": 2590,
@@ -65,6 +66,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Strain the freshly squeezed pineapple juice.",
+      "secondary_message": "1 oz freshly squeezed pineapple juice"
+    },
     {
       "id": 1,
       "primary_message": "Fill a cocktail shaker with ice, add genever, lemon juice, pineapple juice, orgeat, and Angostura. Shake well until very cold. Strain into 6-ounce glass and serve immediately.",

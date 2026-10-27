@@ -51,13 +51,15 @@
     },
     {
       "ingredient_id": 1762,
-      "name": "green bird chiles, finely chopped",
-      "quantity": "4"
+      "name": "green bird chiles",
+      "quantity": "4",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely chopped",
-      "quantity": "10 medium cloves"
+      "name": "garlic",
+      "quantity": "10 medium cloves",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 186,
@@ -86,6 +88,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the green bird chiles. Finely chop the garlic.",
+      "secondary_message": "4 green bird chiles\n10 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Blend the coriander leaves and stems, salt, green chiles, garlic, cumin seed powder, and lime juice to a fine paste in a blender or food processor. Add spice paste and chicken legs to a large bowl and rub thoroughly to coat. Cover and transfer to the refrigerator. Let marinate at least two hours and up to overnight. Marinate the chicken in this paste for at least two hours (you can marinate in the previous night and this will only intensify the flavours).",

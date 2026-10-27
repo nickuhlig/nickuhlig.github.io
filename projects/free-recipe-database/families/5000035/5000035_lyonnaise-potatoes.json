@@ -71,8 +71,9 @@
     },
     {
       "ingredient_id": 1676,
-      "name": "sweet onion, thinly sliced",
-      "quantity": "1 large"
+      "name": "sweet onion",
+      "quantity": "1 large",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 72,
@@ -81,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the sweet onion.",
+      "secondary_message": "1 large sweet onion"
+    },
     {
       "id": 1,
       "primary_message": "In a large pot, cover potatoes with 1 inch cold water (about 2 quarts; 1.9L). Add salt and vinegar. Bring to a boil over high heat, then reduce heat to maintain a simmer. Cook until potatoes are barely tender, offering some resistance when poked with a paring knife, about 4 minutes. Drain potatoes; set aside.",

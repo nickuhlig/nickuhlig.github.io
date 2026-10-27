@@ -89,8 +89,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted and cooled",
-      "quantity": "5 tbsp"
+      "name": "unsalted butter",
+      "quantity": "5 tbsp",
+      "prep": "melted and cooled"
     },
     {
       "ingredient_id": 1682,
@@ -119,6 +120,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter and let it cool.",
+      "secondary_message": "5 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Doughnuts: In a large bowl, whisk together flour, cocoa powder, baking powder, and salt; set aside. In a second large bowl, whisk eggs until lightened and frothy, about 1 minute. Add sugar, buttermilk, and melted butter to eggs and whisk until combined, about 1 minute. Add the wet ingredients to the dry ingredients and mix with a large rubber spatula, until smooth dough forms. Do not overmix.",

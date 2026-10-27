@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 2475,
-      "name": "buttermilk, at room temperature",
-      "quantity": "1 cup"
+      "name": "buttermilk",
+      "quantity": "1 cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 353,
@@ -70,13 +71,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "1 lb"
+      "name": "unsalted butter",
+      "quantity": "1 lb",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -90,8 +93,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted and slightly cooled",
-      "quantity": "2 oz"
+      "name": "unsalted butter",
+      "quantity": "2 oz",
+      "prep": "melted and slightly cooled"
     },
     {
       "ingredient_id": 293,
@@ -110,8 +114,9 @@
     },
     {
       "ingredient_id": 3641,
-      "name": "egg yolks, at room temperature",
-      "quantity": "6 large"
+      "name": "egg yolks",
+      "quantity": "6 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 88,
@@ -145,8 +150,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, at room temperature",
-      "quantity": "2 oz"
+      "name": "cream cheese",
+      "quantity": "2 oz",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1710,
@@ -160,6 +166,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the buttermilk to room temperature. Bring the unsalted butter to room temperature. Bring the eggs to room temperature. Melt the unsalted butter and let it cool slightly. Bring the egg yolks to room temperature. Bring the cream cheese to room temperature.",
+      "secondary_message": "1 cup buttermilk\n1 lb unsalted butter\n3 large eggs\n2 oz unsalted butter\n6 large egg yolks\n2 oz cream cheese"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Adjust oven rack to middle positions and preheat oven to 350°F. Coat 13- by 9-inch baking pan with baking spray. Whisk flour, baking powder, baking soda, and salt together in medium bowl; reserve. Combine buttermilk and vanilla in glass measuring cup; reserve.",

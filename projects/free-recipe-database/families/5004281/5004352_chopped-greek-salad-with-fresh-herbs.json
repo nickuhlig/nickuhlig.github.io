@@ -38,13 +38,15 @@
     },
     {
       "ingredient_id": 150,
-      "name": "red bell peppers, diced",
-      "quantity": "2"
+      "name": "red bell peppers",
+      "quantity": "2",
+      "prep": "diced"
     },
     {
       "ingredient_id": 260,
-      "name": "tomatoes, seeded and diced",
-      "quantity": "2 large"
+      "name": "tomatoes",
+      "quantity": "2 large",
+      "prep": "seeded and diced"
     },
     {
       "ingredient_id": 184,
@@ -53,8 +55,9 @@
     },
     {
       "ingredient_id": 1600,
-      "name": "Greek green olives, pitted and quartered",
-      "quantity": "½ cup"
+      "name": "Greek green olives",
+      "quantity": "½ cup",
+      "prep": "pitted and quartered"
     },
     {
       "ingredient_id": 88,
@@ -98,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the red bell peppers. Seed and dice the tomatoes. Pit and quarter the Greek green olives.",
+      "secondary_message": "2 red bell peppers\n2 large tomatoes\n½ cup Greek green olives"
+    },
     {
       "id": 1,
       "primary_message": "Combine all of the ingredients in a bowl and toss well. Serve immediately.",

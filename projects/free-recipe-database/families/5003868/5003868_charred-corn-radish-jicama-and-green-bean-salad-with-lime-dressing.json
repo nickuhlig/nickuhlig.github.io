@@ -72,19 +72,22 @@
     },
     {
       "ingredient_id": 303,
-      "name": "corn, shucked, kernels cut off with a knife",
+      "name": "corn",
       "quantity": "1 ¾ cups",
-      "weigh_as": "306 g"
+      "weigh_as": "306 g",
+      "prep": "shucked, kernels cut off with a knife"
     },
     {
       "ingredient_id": 150,
-      "name": "red pepper, cut into 1/2-inch squares",
-      "quantity": "1"
+      "name": "red pepper",
+      "quantity": "1",
+      "prep": "cut into 1/2-inch squares"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño pepper, finely minced",
-      "quantity": "1"
+      "name": "jalapeño pepper",
+      "quantity": "1",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 153,
@@ -93,19 +96,22 @@
     },
     {
       "ingredient_id": 111,
-      "name": "green beans, ends trimmed, cut into 1-inch lengths",
-      "quantity": "4 oz"
+      "name": "green beans",
+      "quantity": "4 oz",
+      "prep": "ends trimmed, cut into 1-inch lengths"
     },
     {
       "ingredient_id": 343,
-      "name": "radishes, cut into bite-sized pieces",
+      "name": "radishes",
       "quantity": "1 bunch",
-      "weigh_as": "4 oz"
+      "weigh_as": "4 oz",
+      "prep": "cut into bite-sized pieces"
     },
     {
       "ingredient_id": 2234,
-      "name": "jicama, peeled and cut into 3/4-inch dice",
-      "quantity": "1 bulb"
+      "name": "jicama",
+      "quantity": "1 bulb",
+      "prep": "peeled and cut into 3/4-inch dice"
     },
     {
       "ingredient_id": 1565,
@@ -119,6 +125,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shuck the corn, then cut off the kernels with a knife. Cut the red pepper into 1/2-inch squares. Finely mince the jalapeño pepper. Trim the ends of the green beans, then cut them into 1-inch lengths. Cut the radishes into bite-sized pieces. Peel and cut the jicama into 3/4-inch dice.",
+      "secondary_message": "1 ¾ cups corn\n1 red pepper\n1 jalapeño pepper\n4 oz green beans\n1 bunch radishes\n1 bulb jicama"
+    },
     {
       "id": 1,
       "primary_message": "Combine lime juice, lime zest, and honey in a medium bowl. Whisking constantly, slowly drizzle in olive oil. Season to taste with salt and pepper. Set aside.",

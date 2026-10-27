@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, separated",
-      "quantity": "8"
+      "name": "eggs",
+      "quantity": "8",
+      "prep": "separated"
     },
     {
       "ingredient_id": 118,
@@ -71,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Separate the eggs.",
+      "secondary_message": "8 eggs"
+    },
     {
       "id": 1,
       "primary_message": "Combine brown sugar and water in a small saucepan and cook over medium-high heat until sugar is completely melted, stirring gently. Carefully add heavy cream and whisk to combine. Remove from heat and allow to cool to room temperature. Set aside 1/2 cup for garnishing.",

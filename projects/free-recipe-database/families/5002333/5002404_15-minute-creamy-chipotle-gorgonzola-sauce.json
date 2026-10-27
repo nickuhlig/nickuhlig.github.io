@@ -48,13 +48,15 @@
     },
     {
       "ingredient_id": 2730,
-      "name": "oyster mushrooms stems and caps, finely chopped",
-      "quantity": "57 g"
+      "name": "oyster mushrooms stems and caps",
+      "quantity": "57 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1677,
@@ -63,8 +65,9 @@
     },
     {
       "ingredient_id": 1618,
-      "name": "chipotle chilis, canned in adobo sauce, finely chopped, or more to taste",
-      "quantity": "2 tsp"
+      "name": "chipotle chilis, canned in adobo sauce, or more to taste",
+      "quantity": "2 tsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1008,
@@ -78,8 +81,9 @@
     },
     {
       "ingredient_id": 2473,
-      "name": "Gorgonzola cheese, crumbled",
-      "quantity": "71 g"
+      "name": "Gorgonzola cheese",
+      "quantity": "71 g",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 88,
@@ -93,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the oyster mushrooms stems and caps. Mince the garlic. Finely chop the chipotle chilis. Crumble the Gorgonzola cheese.",
+      "secondary_message": "57 g oyster mushrooms stems and caps\n3 cloves garlic\n2 tsp chipotle chilis, canned in adobo sauce, or more to taste\n71 g Gorgonzola cheese"
+    },
     {
       "id": 1,
       "primary_message": "In a medium saucepan, melt butter over medium-low heat. Add mushrooms, garlic, and thyme. Cook, stirring frequently, until mixture is very fragrant and mushrooms are tender and starting to brown, 5 to 6 minutes. Stir in chipotle peppers. Add white wine and cook until it’s reduced by half, about 1 minute.",

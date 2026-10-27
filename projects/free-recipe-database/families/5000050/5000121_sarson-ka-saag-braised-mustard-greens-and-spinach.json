@@ -40,13 +40,15 @@
     },
     {
       "ingredient_id": 1868,
-      "name": "sarson, washed, spun, and finely chopped",
-      "quantity": "4 (400 g) bunches"
+      "name": "sarson",
+      "quantity": "4 (400 g) bunches",
+      "prep": "washed, spun, and finely chopped"
     },
     {
       "ingredient_id": 1879,
-      "name": "spinach leaves, washed, spun, and finely chopped",
-      "quantity": "1 (100 g) bunch"
+      "name": "spinach leaves",
+      "quantity": "1 (100 g) bunch",
+      "prep": "washed, spun, and finely chopped"
     },
     {
       "ingredient_id": 1267,
@@ -65,18 +67,21 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and minced",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "peeled and minced"
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, peeled and minced",
-      "quantity": "1 (1 ½ cm) piece"
+      "name": "ginger",
+      "quantity": "1 (1 ½ cm) piece",
+      "prep": "peeled and minced"
     },
     {
       "ingredient_id": 1850,
-      "name": "hot green chile, minced",
-      "quantity": "1"
+      "name": "hot green chile",
+      "quantity": "1",
+      "prep": "minced"
     },
     {
       "ingredient_id": 88,
@@ -90,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash, spin, and finely chop the sarson. Wash, spin, and finely chop the spinach leaves. Peel and mince the garlic. Peel and mince the ginger. Mince the hot green chile.",
+      "secondary_message": "4 (400 g) bunches sarson\n1 (100 g) bunch spinach leaves\n2 cloves garlic\n1 (1 ½ cm) piece ginger\n1 hot green chile"
+    },
     {
       "id": 1,
       "primary_message": "For the greens: In a large straight-sided skillet or Dutch oven, heat the ghee over medium-high heat. Add the mustard greens along with 1/2 cup water, stir to combine, and bring water to a boil, about 5 minutes. Cover, reduce heat to medium-low, and cook until leaves have softened, about 8 minutes. Add the spinach, stir to combine, cover, and cook until spinach is completely softened, about 5 minutes. Transfer cooked greens to medium mixing bowl and wipe out the pan or pot with a clean kitchen towel or a paper towel.",

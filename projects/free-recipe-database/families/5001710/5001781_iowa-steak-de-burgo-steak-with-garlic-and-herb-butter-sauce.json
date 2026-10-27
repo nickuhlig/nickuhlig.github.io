@@ -48,8 +48,9 @@
   "ingredients": [
     {
       "ingredient_id": 1101,
-      "name": "center-cut filets mignon, 1 1/2-2 inches thick, trimmed",
-      "quantity": "0.45 kg"
+      "name": "center-cut filets mignon, 1 1/2-2 inches thick",
+      "quantity": "0.45 kg",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 88,
@@ -73,8 +74,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 (15 g) cloves"
+      "name": "garlic",
+      "quantity": "3 (15 g) cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1008,
@@ -93,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the center-cut filets mignon. Mince the garlic.",
+      "secondary_message": "0.45 kg center-cut filets mignon, 1 1/2-2 inches thick\n3 (15 g) cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Pat steaks dry with paper towels. Season liberally with kosher salt and pepper and allow to rest at room temperature for at least 40 minutes and up to 2 hours. Alternatively, place salted steaks on a plate or a wire rack set in a rimmed baking sheet and refrigerate, uncovered, for up to 24 hours. (If choosing the latter option, remove from the refrigerator at least 40 minutes before cooking.)",

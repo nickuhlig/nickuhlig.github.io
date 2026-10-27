@@ -70,8 +70,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, thinly sliced",
-      "quantity": "2 medium"
+      "name": "scallions",
+      "quantity": "2 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 188,
@@ -90,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the scallions.",
+      "secondary_message": "2 medium scallions"
+    },
     {
       "id": 1,
       "primary_message": "Prepare the calamari by slicing the tubes into 1.5-cm strips and cutting the tentacles in half down the center. Rinse and drain.",

@@ -70,23 +70,27 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, very finely minced or pureed",
-      "quantity": "5 medium cloves"
+      "name": "garlic",
+      "quantity": "5 medium cloves",
+      "prep": "very finely minced or pureed"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, diced",
-      "quantity": "1 large"
+      "name": "carrot",
+      "quantity": "1 large",
+      "prep": "diced"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, diced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1988,
-      "name": "parboiled rice, washed with cold water and drained well",
-      "quantity": "2 cups"
+      "name": "parboiled rice",
+      "quantity": "2 cups",
+      "prep": "washed with cold water and drained well"
     },
     {
       "ingredient_id": 153,
@@ -95,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Very finely mince or puree the garlic. Dice the carrot. Dice the yellow onion. Wash the parboiled rice with cold water, then drain it well.",
+      "secondary_message": "5 medium cloves garlic\n1 large carrot\n1 medium yellow onion\n2 cups parboiled rice"
+    },
     {
       "id": 1,
       "primary_message": "In a large measuring cup, combine stock and the 2 teaspoons salt and stir until salt is dissolved. Set aside.",

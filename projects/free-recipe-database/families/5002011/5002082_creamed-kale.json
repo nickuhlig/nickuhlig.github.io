@@ -56,9 +56,10 @@
   "ingredients": [
     {
       "ingredient_id": 1723,
-      "name": "lacinato kale, stemmed",
+      "name": "lacinato kale",
       "quantity": "3 ½ bunches",
-      "weigh_as": "0.68 kg"
+      "weigh_as": "0.68 kg",
+      "prep": "stemmed"
     },
     {
       "ingredient_id": 88,
@@ -72,8 +73,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely chopped",
-      "quantity": "1 large"
+      "name": "shallot",
+      "quantity": "1 large",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1752,
@@ -87,13 +89,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely grated",
-      "quantity": "1 large clove"
+      "name": "garlic",
+      "quantity": "1 large clove",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "57 g"
+      "name": "cream cheese",
+      "quantity": "57 g",
+      "prep": "softened"
     },
     {
       "ingredient_id": 120,
@@ -107,6 +111,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem the lacinato kale. Finely chop the shallot. Finely grate the garlic. Soften the cream cheese.",
+      "secondary_message": "3 ½ bunches lacinato kale\n1 large shallot\n1 large clove garlic\n57 g cream cheese"
+    },
     {
       "id": 1,
       "primary_message": "Bring a large pot of water and 2 tablespoons kosher salt to a boil over high heat. Add kale and cook, stirring occasionally, until vibrant green and tender, 6 to 7 minutes. Using tongs or a spider strainer, transfer kale to a rimmed baking sheet, and let cool until cool enough to handle, about 15 minutes. Working in batches, wrap kale in a clean kitchen towel, and squeeze to remove excess liquid. Coarsely chop kale and set aside.",

@@ -52,8 +52,9 @@
   "ingredients": [
     {
       "ingredient_id": 1316,
-      "name": "fresh cranberries, washed",
-      "quantity": "1 ½ lb"
+      "name": "fresh cranberries",
+      "quantity": "1 ½ lb",
+      "prep": "washed"
     },
     {
       "ingredient_id": 3048,
@@ -72,8 +73,9 @@
     },
     {
       "ingredient_id": 1442,
-      "name": "mascarpone, straight from the fridge",
-      "quantity": "1 ½ lb"
+      "name": "mascarpone",
+      "quantity": "1 ½ lb",
+      "prep": "straight from the fridge"
     },
     {
       "ingredient_id": 1752,
@@ -112,6 +114,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash the fresh cranberries. Keep the mascarpone cold until you use it.",
+      "secondary_message": "1 ½ lb fresh cranberries\n1 ½ lb mascarpone"
+    },
     {
       "id": 1,
       "primary_message": "For the Cranberry Jam: Combine fresh cranberries, cranberry juice, liqueur, sugar, orange peel, and cinnamon (if using) in a 5-quart stainless steel or enameled Dutch oven. Bring to a boil over high heat, stirring frequently, then reduce heat to maintain a simmer. Continue cooking until most of the cranberries have popped and the mixture looks rather jammy, about 20 minutes. Remove from heat, cover, set aside until needed, up to 3 hours at room temperature. Remove orange peel and cinnamon stick before using.",

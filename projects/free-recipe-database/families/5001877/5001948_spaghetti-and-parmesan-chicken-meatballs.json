@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 1216,
-      "name": "white bread, untrimmed and grated",
-      "quantity": "2 slices"
+      "name": "white bread",
+      "quantity": "2 slices",
+      "prep": "untrimmed and grated"
     },
     {
       "ingredient_id": 118,
@@ -65,13 +66,15 @@
     },
     {
       "ingredient_id": 120,
-      "name": "Parmigiano-Reggiano, grated, plus more for serving",
-      "quantity": "42 g"
+      "name": "Parmigiano-Reggiano, plus more for serving",
+      "quantity": "42 g",
+      "prep": "grated"
     },
     {
       "ingredient_id": 121,
-      "name": "egg, lightly beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 1808,
@@ -80,8 +83,9 @@
     },
     {
       "ingredient_id": 1746,
-      "name": "loosely packed basil leaves, roughly chopped, divided",
-      "quantity": "1 cup"
+      "name": "loosely packed basil leaves, divided",
+      "quantity": "1 cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 88,
@@ -100,8 +104,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated , divided",
-      "quantity": "4 medium cloves"
+      "name": "garlic, divided",
+      "quantity": "4 medium cloves",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1721,
@@ -115,8 +120,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, minced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1504,
@@ -130,6 +136,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Untrim and grate the white bread. Grate the Parmigiano-Reggiano. Lightly beat the egg. Roughly chop the loosely packed basil leaves. Grate the garlic. Mince the yellow onion.",
+      "secondary_message": "2 slices white bread\n42 g Parmigiano-Reggiano, plus more for serving\n1 large egg\n1 cup loosely packed basil leaves, divided\n4 medium cloves garlic, divided\n1 medium yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "Place stock in a small microwave-safe bowl and sprinkle with gelatin. Set aside.",

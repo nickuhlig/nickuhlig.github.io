@@ -44,8 +44,9 @@
     },
     {
       "ingredient_id": 1618,
-      "name": "chipotle chilis, canned in adobo sauce, chopped, plus 1 tablespoon adobo sauce",
-      "quantity": "1"
+      "name": "chipotle chilis, canned in adobo sauce, plus 1 tablespoon adobo sauce",
+      "quantity": "1",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1390,
@@ -64,8 +65,9 @@
     },
     {
       "ingredient_id": 2036,
-      "name": "Oaxacan cheese, torn into pieces",
-      "quantity": "57 g"
+      "name": "Oaxacan cheese",
+      "quantity": "57 g",
+      "prep": "torn into pieces"
     },
     {
       "ingredient_id": 1773,
@@ -74,8 +76,9 @@
     },
     {
       "ingredient_id": 260,
-      "name": "tomato, sliced",
-      "quantity": "1 small"
+      "name": "tomato",
+      "quantity": "1 small",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 183,
@@ -84,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the chipotle chilis. Tear the Oaxacan cheese into pieces. Slice the tomato.",
+      "secondary_message": "1 chipotle chilis, canned in adobo sauce, plus 1 tablespoon adobo sauce\n57 g Oaxacan cheese\n1 small tomato"
+    },
     {
       "id": 1,
       "primary_message": "Combine the mayonnaise, lime juice, chipotle pepper, and adobo sauce in a small bowl and set aside.",

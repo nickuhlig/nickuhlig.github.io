@@ -37,18 +37,21 @@
   "ingredients": [
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "2 medium"
+      "name": "garlic cloves",
+      "quantity": "2 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, minced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "minced"
     },
     {
       "ingredient_id": 221,
-      "name": "fresh peeled ginger, minced",
-      "quantity": "1 (1 ½ cm) knob"
+      "name": "fresh peeled ginger",
+      "quantity": "1 (1 ½ cm) knob",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1338,
@@ -92,8 +95,9 @@
     },
     {
       "ingredient_id": 270,
-      "name": "chives, chopped",
-      "quantity": "1 bunch"
+      "name": "chives",
+      "quantity": "1 bunch",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 3054,
@@ -152,8 +156,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted and cooled",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "melted and cooled"
     },
     {
       "ingredient_id": 1767,
@@ -182,6 +187,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic cloves. Mince the shallot. Mince the fresh peeled ginger. Chop the chives. Melt the unsalted butter and let it cool.",
+      "secondary_message": "2 medium garlic cloves\n1 small shallot\n1 (1 ½ cm) knob fresh peeled ginger\n1 bunch chives\n2 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Marinated Pork: In a large container, mix together all of the marinade ingredients (except the pork) until well combined. Add pork and toss to cover with the marinade. Cover and refrigerate at least 2 hours or overnight, turning at least once.",

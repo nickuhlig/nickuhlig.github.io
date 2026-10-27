@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 2015,
-      "name": "sage leaves, very thinly sliced crosswise",
-      "quantity": "3"
+      "name": "sage leaves",
+      "quantity": "3",
+      "prep": "very thinly sliced crosswise"
     },
     {
       "ingredient_id": 119,
@@ -62,9 +63,10 @@
     },
     {
       "ingredient_id": 26,
-      "name": "asparagus, woody ends trimmed",
+      "name": "asparagus",
       "quantity": "½ bunch",
-      "weigh_as": "0.23 kg"
+      "weigh_as": "0.23 kg",
+      "prep": "woody ends trimmed"
     },
     {
       "ingredient_id": 115,
@@ -93,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Very thinly slice the sage leaves crosswise. Trim the woody ends of the asparagus.",
+      "secondary_message": "3 sage leaves\n½ bunch asparagus"
+    },
     {
       "id": 1,
       "primary_message": "Preheat broiler and position rack about 10 to 15 cm from it. In a small skillet, heat olive oil with red pepper flakes over medium-high heat until shimmering. Add sage and let frizzle until pan goes silent. Add bread crumbs and cook, tossing and stirring constantly, until toasted. Season with salt.",

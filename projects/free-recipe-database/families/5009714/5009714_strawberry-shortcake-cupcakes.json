@@ -62,8 +62,9 @@
     },
     {
       "ingredient_id": 2475,
-      "name": "buttermilk, at room temperature",
-      "quantity": "½ cup"
+      "name": "buttermilk",
+      "quantity": "½ cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 353,
@@ -77,18 +78,21 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "4 oz"
+      "name": "unsalted butter",
+      "quantity": "4 oz",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 242,
-      "name": "fresh strawberries, hulled and sliced from pole to pole",
-      "quantity": "1 lb"
+      "name": "fresh strawberries",
+      "quantity": "1 lb",
+      "prep": "hulled and sliced from pole to pole"
     },
     {
       "ingredient_id": 346,
@@ -107,13 +111,15 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "2 oz"
+      "name": "cream cheese",
+      "quantity": "2 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1752,
-      "name": "heavy cream, chilled",
-      "quantity": "1 ½ cups"
+      "name": "heavy cream",
+      "quantity": "1 ½ cups",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 1710,
@@ -122,6 +128,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the buttermilk to room temperature. Bring the unsalted butter to room temperature. Bring the eggs to room temperature. Hull and slice the fresh strawberries from pole to pole. Soften the cream cheese. Keep the heavy cream cold until you use it.",
+      "secondary_message": "½ cup buttermilk\n4 oz unsalted butter\n2 large eggs\n1 lb fresh strawberries\n2 oz cream cheese\n1 ½ cups heavy cream"
+    },
     {
       "id": 1,
       "primary_message": "For the Cupcakes: Adjust oven rack to middle position and preheat oven to 350°F. Line cupcake tin with liners and lightly coat with baking spray.",

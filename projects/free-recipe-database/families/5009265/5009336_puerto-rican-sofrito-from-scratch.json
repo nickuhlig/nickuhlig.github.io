@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 1713,
-      "name": "Spanish onions, cut into large chunks",
-      "quantity": "2 medium"
+      "name": "Spanish onions",
+      "quantity": "2 medium",
+      "prep": "cut into large chunks"
     },
     {
       "ingredient_id": 3354,
@@ -51,28 +52,33 @@
     },
     {
       "ingredient_id": 150,
-      "name": "red bell pepper, cored, seeded, and roughly chopped",
-      "quantity": "1 large"
+      "name": "red bell pepper",
+      "quantity": "1 large",
+      "prep": "cored, seeded, and roughly chopped"
     },
     {
       "ingredient_id": 1541,
-      "name": "ripe plum tomatoes, cored and cut into chunks",
-      "quantity": "4 medium"
+      "name": "ripe plum tomatoes",
+      "quantity": "4 medium",
+      "prep": "cored and cut into chunks"
     },
     {
       "ingredient_id": 188,
-      "name": "cilantro, washed and roughly chopped",
-      "quantity": "1 large bunch"
+      "name": "cilantro",
+      "quantity": "1 large bunch",
+      "prep": "washed and roughly chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "18 medium cloves"
+      "name": "garlic",
+      "quantity": "18 medium cloves",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 3372,
-      "name": "ajices dulces, stemmed",
-      "quantity": "8"
+      "name": "ajices dulces",
+      "quantity": "8",
+      "prep": "stemmed"
     },
     {
       "ingredient_id": 2685,
@@ -86,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the Spanish onions into large chunks. Core, seed, and roughly chop the red bell pepper. Core and cut the ripe plum tomatoes into chunks. Wash and roughly chop the cilantro. Peel the garlic. Stem the ajices dulces.",
+      "secondary_message": "2 medium Spanish onions\n1 large red bell pepper\n4 medium ripe plum tomatoes\n1 large bunch cilantro\n18 medium cloves garlic\n8 ajices dulces"
+    },
     {
       "id": 1,
       "primary_message": "Place onions and cubanelle peppers in workbowl of a food processor fitted with a steel blade. Pulse until coarsely chopped.",

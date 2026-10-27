@@ -46,8 +46,9 @@
   "ingredients": [
     {
       "ingredient_id": 155,
-      "name": "unpeeled English cucumber, sliced into 1/8-inch-thick rounds",
-      "quantity": "¼"
+      "name": "unpeeled English cucumber",
+      "quantity": "¼",
+      "prep": "sliced into 1/8-inch-thick rounds"
     },
     {
       "ingredient_id": 88,
@@ -71,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the unpeeled English cucumber into 1/8-inch-thick rounds.",
+      "secondary_message": "¼ unpeeled English cucumber"
+    },
     {
       "id": 1,
       "primary_message": "In a colander, toss cucumbers with salt and set over a bowl; let stand uncovered at room temperature for 20 minutes. Shake colander to drain off excess liquid and gently pat cucumbers dry with paper towels. In an empty bowl, toss dried cucumber slices with the lemon juice and dill (if using); set aside until ready to use.",

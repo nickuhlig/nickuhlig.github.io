@@ -86,8 +86,9 @@
     },
     {
       "ingredient_id": 1799,
-      "name": "serrano chiles, stemmed, deveined, and seeded if desired",
-      "quantity": "5"
+      "name": "serrano chiles",
+      "quantity": "5",
+      "prep": "stemmed, deveined, and seeded if desired"
     },
     {
       "ingredient_id": 58,
@@ -106,11 +107,18 @@
     },
     {
       "ingredient_id": 188,
-      "name": "loosely packed fresh cilantro leaves, minced",
-      "quantity": "1 cup"
+      "name": "loosely packed fresh cilantro leaves",
+      "quantity": "1 cup",
+      "prep": "minced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem, devein, and seed the serrano chiles if desired. Mince the loosely packed fresh cilantro leaves.",
+      "secondary_message": "5 serrano chiles\n1 cup loosely packed fresh cilantro leaves"
+    },
     {
       "id": 1,
       "primary_message": "Cut shrimp in half crosswise. In a large bowl, toss shrimp with 1 teaspoon kosher salt and baking soda. Refrigerate for 15 minutes or up to 1 hour.",

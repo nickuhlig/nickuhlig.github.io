@@ -97,8 +97,9 @@
     },
     {
       "ingredient_id": 1082,
-      "name": "cinnamon stick, broken into pieces",
-      "quantity": "1 (2 inch) small"
+      "name": "cinnamon stick",
+      "quantity": "1 (2 inch) small",
+      "prep": "broken into pieces"
     },
     {
       "ingredient_id": 1574,
@@ -127,6 +128,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Break the cinnamon stick into pieces.",
+      "secondary_message": "1 (2 inch) small cinnamon stick"
+    },
     {
       "id": 1,
       "primary_message": "For the Cold-Water Soak: In a large bowl, combine 1 gallon cold water with 1 cup salt, stirring to dissolve the salt. Meanwhile, wash cucumbers, then trim off the flower-end (opposite of the stem) using a paring knife. Place cucumbers in cold saltwater bath. Let stand while you prepare the brine.",

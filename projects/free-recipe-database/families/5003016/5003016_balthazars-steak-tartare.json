@@ -37,13 +37,15 @@
   "ingredients": [
     {
       "ingredient_id": 1101,
-      "name": "filet mignon, very cold",
-      "quantity": "1 ¼ lb"
+      "name": "filet mignon",
+      "quantity": "1 ¼ lb",
+      "prep": "very cold"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, minced",
-      "quantity": "½ medium"
+      "name": "onion",
+      "quantity": "½ medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 15,
@@ -52,18 +54,21 @@
     },
     {
       "ingredient_id": 2091,
-      "name": "cornichons, cut into small dice",
-      "quantity": "8"
+      "name": "cornichons",
+      "quantity": "8",
+      "prep": "cut into small dice"
     },
     {
       "ingredient_id": 106,
-      "name": "flat-leaf parsley, chopped",
-      "quantity": "2 tbsp"
+      "name": "flat-leaf parsley",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 325,
-      "name": "anchovy fillet, minced",
-      "quantity": "1"
+      "name": "anchovy fillet",
+      "quantity": "1",
+      "prep": "minced"
     },
     {
       "ingredient_id": 47,
@@ -72,8 +77,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and minced",
-      "quantity": "1 clove"
+      "name": "garlic",
+      "quantity": "1 clove",
+      "prep": "peeled and minced"
     },
     {
       "ingredient_id": 88,
@@ -92,8 +98,9 @@
     },
     {
       "ingredient_id": 1012,
-      "name": "baguette, sliced",
-      "quantity": "1"
+      "name": "baguette",
+      "quantity": "1",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 3641,
@@ -142,6 +149,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the filet mignon cold until you use it. Mince the onion. Cut the cornichons into small dice. Chop the flat-leaf parsley. Mince the anchovy fillet. Peel and mince the garlic. Slice the baguette.",
+      "secondary_message": "1 ¼ lb filet mignon\n½ medium onion\n8 cornichons\n2 tbsp flat-leaf parsley\n1 anchovy fillet\n1 clove garlic\n1 baguette"
+    },
     {
       "id": 1,
       "primary_message": "Take the beef out of the refrigerator; it should be very cold. Using a very sharp chef’s knife, cut the steak into thin 1/4-inch slices. Stack 3 of the slices and slice lengthwise, every 1/2 inch, holding the stack in place. Then cut across the stack, again every 1⁄2 inch, cutting the steak into 1⁄2-inch dice. Hold the chopped steak in a bowl set over crushed ice in a larger bowl.",

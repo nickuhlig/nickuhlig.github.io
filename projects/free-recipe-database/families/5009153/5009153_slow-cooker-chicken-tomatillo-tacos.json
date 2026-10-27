@@ -49,8 +49,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, quartered",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 24,
@@ -79,8 +80,9 @@
     },
     {
       "ingredient_id": 151,
-      "name": "diced jalapeños, preferably fire-roasted, drained",
-      "quantity": "1 (4 oz) can"
+      "name": "diced jalapeños, preferably fire-roasted",
+      "quantity": "1 (4 oz) can",
+      "prep": "drained"
     },
     {
       "ingredient_id": 321,
@@ -89,11 +91,18 @@
     },
     {
       "ingredient_id": 184,
-      "name": "Medium red onion, minced",
-      "quantity": ""
+      "name": "Medium red onion",
+      "quantity": "",
+      "prep": "minced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Quarter the onion. Drain the diced jalapeños. Mince the Medium red onion.",
+      "secondary_message": "1 small onion\n1 (4 oz) can diced jalapeños, preferably fire-roasted\nMedium red onion"
+    },
     {
       "id": 1,
       "primary_message": "Place peppers in a small pot of boiling water and simmer until color goes from bright green to green-gray, about 7 minutes. Drain and transfer to a blender or food processor. Add tomatillos, cilantro, onion, garlic, lime juice, and vinegar. Season with to taste with salt. Blend or puree until just combined but some texture remains.",

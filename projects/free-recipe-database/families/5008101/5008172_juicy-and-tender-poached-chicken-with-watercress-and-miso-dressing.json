@@ -49,8 +49,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "peeled fresh ginger, thinly sliced",
-      "quantity": "1 (5 cm) knob"
+      "name": "peeled fresh ginger",
+      "quantity": "1 (5 cm) knob",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1044,
@@ -84,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the peeled fresh ginger.",
+      "secondary_message": "1 (5 cm) knob peeled fresh ginger"
+    },
     {
       "id": 1,
       "primary_message": "In a large saucepan, combine water and salt, stirring to dissolve salt. Add chicken, scallion, and ginger and set over medium-high heat until water temperature reaches between 150 and 71°C on an instant-read thermometer; adjust heat to maintain water temperature in the 150–71°C range. (It's okay if the temperature bounces around a little, but try to keep it above 150 and below 77°C.) Cook until thickest part of chicken registers 66°C on an instant-read thermometer, about 1 hour. Remove chicken from broth and let rest. Strain broth through a fine-mesh strainer and save for sipping or another use.",

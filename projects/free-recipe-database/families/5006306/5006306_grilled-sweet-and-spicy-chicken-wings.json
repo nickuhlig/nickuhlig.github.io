@@ -69,8 +69,9 @@
     },
     {
       "ingredient_id": 1681,
-      "name": "chicken wings, rinsed and dried",
-      "quantity": "5 lb"
+      "name": "chicken wings",
+      "quantity": "5 lb",
+      "prep": "rinsed and dried"
     },
     {
       "ingredient_id": 103,
@@ -89,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse and dry the chicken wings.",
+      "secondary_message": "5 lb chicken wings"
+    },
     {
       "id": 1,
       "primary_message": "Mix together the pepper, onion powder, chili powder, garlic powder, and seasoned salt in a small bowl. Place the chicken wings in a large Ziploc bag. Pour in the dry rub and shake to coat the wings well. Marinate for at least 30 minutes (at room temperature) or as long as 24 hours (in the refrigerator).",

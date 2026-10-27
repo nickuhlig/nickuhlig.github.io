@@ -39,38 +39,45 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, sliced",
-      "quantity": "10"
+      "name": "shallots",
+      "quantity": "10",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, sliced",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, sliced",
-      "quantity": "1 inch"
+      "name": "ginger",
+      "quantity": "1 inch",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 1815,
-      "name": "galangal, sliced",
-      "quantity": "1 inch"
+      "name": "galangal",
+      "quantity": "1 inch",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 90,
-      "name": "turmeric, sliced",
-      "quantity": "1 inch"
+      "name": "turmeric",
+      "quantity": "1 inch",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 1816,
-      "name": "lemongrass, sliced",
-      "quantity": "2 stalks"
+      "name": "lemongrass",
+      "quantity": "2 stalks",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 2156,
-      "name": "sirloin, sliced into half-inch chunks",
-      "quantity": "1 lb"
+      "name": "sirloin",
+      "quantity": "1 lb",
+      "prep": "sliced into half-inch chunks"
     },
     {
       "ingredient_id": 41,
@@ -84,13 +91,15 @@
     },
     {
       "ingredient_id": 90,
-      "name": "turmeric leaf, tied into knot",
-      "quantity": "1"
+      "name": "turmeric leaf",
+      "quantity": "1",
+      "prep": "tied into knot"
     },
     {
       "ingredient_id": 2244,
-      "name": "makrut lime leaves, torn",
-      "quantity": "2"
+      "name": "makrut lime leaves",
+      "quantity": "2",
+      "prep": "torn"
     },
     {
       "ingredient_id": 88,
@@ -109,6 +118,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the shallots. Slice the garlic. Slice the ginger. Slice the galangal. Slice the turmeric. Slice the lemongrass. Slice the sirloin into half-inch chunks. Tie the turmeric leaf into knot. Tear the makrut lime leaves.",
+      "secondary_message": "10 shallots\n4 cloves garlic\n1 inch ginger\n1 inch galangal\n1 inch turmeric\n2 stalks lemongrass\n1 lb sirloin\n1 turmeric leaf\n2 makrut lime leaves"
+    },
     {
       "id": 1,
       "primary_message": "Place coconut in wok over medium heat and dry-fry until golden brown. Cool slightly before grinding finely in mortar and pestle, or in food processor.",

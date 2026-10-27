@@ -57,13 +57,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, split in half",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "split in half"
     },
     {
       "ingredient_id": 1541,
-      "name": "roma tomato, split in half",
-      "quantity": "1"
+      "name": "roma tomato",
+      "quantity": "1",
+      "prep": "split in half"
     },
     {
       "ingredient_id": 1824,
@@ -87,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the onion in half. Split the roma tomato in half.",
+      "secondary_message": "1 medium onion\n1 roma tomato"
+    },
     {
       "id": 1,
       "primary_message": "Season tongue with salt and pepper and place in vacuum bag with cilantro, onion, tomato, and fat. Cook at 170°F until completely tender, at least 24 hours, and up to 48. Place bag in ice bath and cool completely, about 15 minutes.",

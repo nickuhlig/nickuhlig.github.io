@@ -67,13 +67,15 @@
     },
     {
       "ingredient_id": 1958,
-      "name": "thinly sliced pork belly, cut into 1-inch pieces",
-      "quantity": "0.23 kg"
+      "name": "thinly sliced pork belly",
+      "quantity": "0.23 kg",
+      "prep": "cut into 1-inch pieces"
     },
     {
       "ingredient_id": 1811,
-      "name": "headless small shrimp, peeled and deveined",
-      "quantity": "0.23 kg"
+      "name": "headless small shrimp",
+      "quantity": "0.23 kg",
+      "prep": "peeled and deveined"
     },
     {
       "ingredient_id": 72,
@@ -92,13 +94,15 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, thinly sliced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1761,
-      "name": "bean sprouts, microwaved for 1 minute",
-      "quantity": "0.23 kg"
+      "name": "bean sprouts",
+      "quantity": "0.23 kg",
+      "prep": "microwaved for 1 minute"
     },
     {
       "ingredient_id": 1959,
@@ -112,6 +116,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the thinly sliced pork belly into 1-inch pieces. Peel and devein the headless small shrimp. Thinly slice the yellow onion. Microwave the bean sprouts for 1 minute.",
+      "secondary_message": "0.23 kg thinly sliced pork belly\n0.23 kg headless small shrimp\n1 medium yellow onion\n0.23 kg bean sprouts"
+    },
     {
       "id": 1,
       "primary_message": "For the Batter: In a large mixing bowl, mix together rice flour, cornstarch, turmeric, 1/4 teaspoon salt, water, coconut milk, and green onions. Let stand at room temperature for 30 minutes.",

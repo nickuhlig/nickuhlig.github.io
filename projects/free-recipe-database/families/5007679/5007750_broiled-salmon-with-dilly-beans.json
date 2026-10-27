@@ -48,8 +48,9 @@
   "ingredients": [
     {
       "ingredient_id": 111,
-      "name": "fresh green beans, stems trimmed",
-      "quantity": "0.45 kg"
+      "name": "fresh green beans",
+      "quantity": "0.45 kg",
+      "prep": "stems trimmed"
     },
     {
       "ingredient_id": 24,
@@ -93,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the stems of the fresh green beans.",
+      "secondary_message": "0.45 kg fresh green beans"
+    },
     {
       "id": 1,
       "primary_message": "Preheat broiler and set top rack 10 to 15 cm from broiler element. Add green beans and garlic to a large stainless steel skillet and season with salt. Broil green beans and garlic until green beans become blistered with small brown spots, 5 to 7 minutes. (As with all broiling recipes and broiling steps in this recipe, watch carefully, as broilers vary greatly in their heat output.)",

@@ -45,8 +45,9 @@
   "ingredients": [
     {
       "ingredient_id": 2115,
-      "name": "chub mackerel, oily fish, gutted and cleaned",
-      "quantity": "1 kg"
+      "name": "chub mackerel, oily fish",
+      "quantity": "1 kg",
+      "prep": "gutted and cleaned"
     },
     {
       "ingredient_id": 359,
@@ -60,18 +61,21 @@
     },
     {
       "ingredient_id": 144,
-      "name": "Asian shallots, peeled and sliced",
-      "quantity": "10"
+      "name": "Asian shallots",
+      "quantity": "10",
+      "prep": "peeled and sliced"
     },
     {
       "ingredient_id": 3352,
-      "name": "dried Kashmiri chiles, stemmed and sliced, soaked in hot water",
-      "quantity": "12"
+      "name": "dried Kashmiri chiles",
+      "quantity": "12",
+      "prep": "stemmed and sliced, soaked in hot water"
     },
     {
       "ingredient_id": 2088,
-      "name": "fresh medium-hot red chiles, such as fresnos, stemmed and sliced",
-      "quantity": "2"
+      "name": "fresh medium-hot red chiles, such as fresnos",
+      "quantity": "2",
+      "prep": "stemmed and sliced"
     },
     {
       "ingredient_id": 2304,
@@ -85,8 +89,9 @@
     },
     {
       "ingredient_id": 1815,
-      "name": "fresh galangal, peeled and thinly sliced",
-      "quantity": "15 g"
+      "name": "fresh galangal",
+      "quantity": "15 g",
+      "prep": "peeled and thinly sliced"
     },
     {
       "ingredient_id": 1817,
@@ -95,13 +100,15 @@
     },
     {
       "ingredient_id": 3547,
-      "name": "fresh turmeric, peeled and thinly sliced",
-      "quantity": "5 g"
+      "name": "fresh turmeric",
+      "quantity": "5 g",
+      "prep": "peeled and thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, peeled and smashed",
-      "quantity": "2 medium"
+      "name": "garlic cloves",
+      "quantity": "2 medium",
+      "prep": "peeled and smashed"
     },
     {
       "ingredient_id": 2297,
@@ -135,13 +142,15 @@
     },
     {
       "ingredient_id": 236,
-      "name": "Pineapple, sliced into thin chunks",
-      "quantity": ""
+      "name": "Pineapple",
+      "quantity": "",
+      "prep": "sliced into thin chunks"
     },
     {
       "ingredient_id": 144,
-      "name": "Asian shallots, peeled and thinly sliced",
-      "quantity": "3 to 5"
+      "name": "Asian shallots",
+      "quantity": "3 to 5",
+      "prep": "peeled and thinly sliced"
     },
     {
       "ingredient_id": 2402,
@@ -150,13 +159,15 @@
     },
     {
       "ingredient_id": 2304,
-      "name": "Torch ginger flower buds, thinly sliced",
-      "quantity": ""
+      "name": "Torch ginger flower buds",
+      "quantity": "",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2169,
-      "name": "calamansi oranges, halved",
-      "quantity": "3"
+      "name": "calamansi oranges",
+      "quantity": "3",
+      "prep": "halved"
     },
     {
       "ingredient_id": 2142,
@@ -165,6 +176,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Gut and clean the chub mackerel. Peel and slice the Asian shallots. Stem, slice, and soak the dried Kashmiri chiles in hot water. Stem and slice the fresh medium-hot red chiles. Peel and thinly slice the fresh galangal. Peel and thinly slice the fresh turmeric. Peel and smash the garlic cloves. Slice the Pineapple into thin chunks. Peel and thinly slice the Asian shallots. Thinly slice the Torch ginger flower buds. Halve the calamansi oranges.",
+      "secondary_message": "1 kg chub mackerel, oily fish\n10 Asian shallots\n12 dried Kashmiri chiles\n2 fresh medium-hot red chiles, such as fresnos\n15 g fresh galangal\n5 g fresh turmeric\n2 medium garlic cloves\nPineapple\n3 to 5 Asian shallots\nTorch ginger flower buds\n3 calamansi oranges"
+    },
     {
       "id": 1,
       "primary_message": "For the Soup: In a medium stock pot, bring the water to a boil over high heat. Add fish and cook for 5 minutes. Remove from heat. Using wire skimmer, transfer fish to a bowl and let cool for 10 minutes. Using a measuring cup, measure out 2 cups fish stock and set aside; leave remaining stock in pot. Debone fish, reserving heads and bones separate from fish meat.",

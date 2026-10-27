@@ -68,13 +68,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, thinly sliced into 1/4 inch rings",
-      "quantity": "3 large"
+      "name": "onions",
+      "quantity": "3 large",
+      "prep": "thinly sliced into 1/4 inch rings"
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 118,
@@ -103,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the onions into 1/4 inch rings. Beat the eggs.",
+      "secondary_message": "3 large onions\n3 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Combine yogurt and cilantro. Season to taste with salt, pepper, and lemon juice. Set this dipping sauce aside.",

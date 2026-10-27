@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, peeled and finely grated, with juice",
-      "quantity": "¼ cup"
+      "name": "ginger, with juice",
+      "quantity": "¼ cup",
+      "prep": "peeled and finely grated"
     },
     {
       "ingredient_id": 3641,
@@ -66,8 +67,9 @@
     },
     {
       "ingredient_id": 2171,
-      "name": "candied ginger, finely chopped",
-      "quantity": "¼ cup"
+      "name": "candied ginger",
+      "quantity": "¼ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 115,
@@ -96,6 +98,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and finely grate the ginger. Finely chop the candied ginger.",
+      "secondary_message": "¼ cup ginger, with juice\n¼ cup candied ginger"
+    },
     {
       "id": 1,
       "primary_message": "For the Ice Cream: Bring half and half to a simmer in a heavy saucepan. Remove from heat, stir in ginger, and let steep covered for 30 minutes. Half and half may separate slightly but it won't affect the final ice cream.",

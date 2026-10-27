@@ -38,13 +38,15 @@
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeno pepper, split in half lengthwise, stem removed",
-      "quantity": "1"
+      "name": "jalapeno pepper",
+      "quantity": "1",
+      "prep": "split in half lengthwise, stem removed"
     },
     {
       "ingredient_id": 2069,
-      "name": "tomatillos, peeled and split in half",
-      "quantity": "0.45 kg"
+      "name": "tomatillos",
+      "quantity": "0.45 kg",
+      "prep": "peeled and split in half"
     },
     {
       "ingredient_id": 24,
@@ -68,8 +70,9 @@
     },
     {
       "ingredient_id": 2066,
-      "name": "roasted poblano peppers, cut into thin strips",
-      "quantity": "2 large"
+      "name": "roasted poblano peppers",
+      "quantity": "2 large",
+      "prep": "cut into thin strips"
     },
     {
       "ingredient_id": 1044,
@@ -78,8 +81,9 @@
     },
     {
       "ingredient_id": 321,
-      "name": "corn tortillas, cut into quarters",
-      "quantity": "8"
+      "name": "corn tortillas",
+      "quantity": "8",
+      "prep": "cut into quarters"
     },
     {
       "ingredient_id": 3673,
@@ -133,6 +137,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the jalapeno pepper in half lengthwise, then remove the stem. Peel and split the tomatillos in half. Cut the roasted poblano peppers into thin strips. Cut the corn tortillas into quarters.",
+      "secondary_message": "1 jalapeno pepper\n0.45 kg tomatillos\n2 large roasted poblano peppers\n8 corn tortillas"
+    },
     {
       "id": 1,
       "primary_message": "Preheat broiler to high. Combine onion, jalapeño, tomatillos, garlic, and 1 tablespoon vegetable oil in a large bowl. Season with kosher salt and toss to combine. Transfer vegetables to a foil-lined rimmed baking sheet. Broil until completely tender and charred in spots, rotating once or twice during broiling, 10 to 15 minutes total.",

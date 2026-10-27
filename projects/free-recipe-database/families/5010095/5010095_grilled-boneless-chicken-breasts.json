@@ -51,8 +51,9 @@
   "ingredients": [
     {
       "ingredient_id": 1744,
-      "name": "boneless skinless chicken breast halves, tender removed",
-      "quantity": "4"
+      "name": "boneless skinless chicken breast halves",
+      "quantity": "4",
+      "prep": "tender removed"
     },
     {
       "ingredient_id": 88,
@@ -76,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the tender from the boneless skinless chicken breast halves.",
+      "secondary_message": "4 boneless skinless chicken breast halves"
+    },
     {
       "id": 1,
       "primary_message": "Place 1 chicken breast in a resealable plastic bag or between two pieces of plastic wrap. Using a meat pounder, rolling pin, or small skillet, pound chicken breast into an even thickness, about 3/4 inch in height. Repeat with remaining 3 breasts.",

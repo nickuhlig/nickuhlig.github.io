@@ -46,8 +46,9 @@
   "ingredients": [
     {
       "ingredient_id": 1216,
-      "name": "white bread, crusts removed, roughly torn",
-      "quantity": "3 slices"
+      "name": "white bread",
+      "quantity": "3 slices",
+      "prep": "crusts removed, roughly torn"
     },
     {
       "ingredient_id": 2475,
@@ -56,23 +57,27 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, minced , divided",
-      "quantity": "1 large"
+      "name": "onion, divided",
+      "quantity": "1 large",
+      "prep": "minced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced, divided",
-      "quantity": "12 cloves"
+      "name": "garlic, divided",
+      "quantity": "12 cloves",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 120,
-      "name": "Parmigiano-Reggiano, grated, plus more for serving",
-      "quantity": "2 oz"
+      "name": "Parmigiano-Reggiano, plus more for serving",
+      "quantity": "2 oz",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1808,
-      "name": "loosely packed fresh parsley leaves, minced",
-      "quantity": "½ cup"
+      "name": "loosely packed fresh parsley leaves",
+      "quantity": "½ cup",
+      "prep": "minced"
     },
     {
       "ingredient_id": 88,
@@ -111,8 +116,9 @@
     },
     {
       "ingredient_id": 1294,
-      "name": "whole peeled tomatoes, crushed by hand",
-      "quantity": "3 (28 oz) cans"
+      "name": "whole peeled tomatoes",
+      "quantity": "3 (28 oz) cans",
+      "prep": "crushed by hand"
     },
     {
       "ingredient_id": 1721,
@@ -126,6 +132,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the crusts from the white bread, then roughly tear it. Mince the onion. Finely mince the garlic. Grate the Parmigiano-Reggiano. Mince the loosely packed fresh parsley leaves. Crush the whole peeled tomatoes by hand.",
+      "secondary_message": "3 slices white bread\n1 large onion, divided\n12 cloves garlic, divided\n2 oz Parmigiano-Reggiano, plus more for serving\n½ cup loosely packed fresh parsley leaves\n3 (28 oz) cans whole peeled tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "In the bowl of a stand mixer, combine bread with buttermilk, tossing to coat. Let stand, tossing occasionally, until bread is completely moist, about 10 minutes. Squeeze bread between your fingers or mash with a spoon to make sure there are no dry spots. Add half of onion, 8 cloves of minced garlic, Parmigiano-Reggiano, parsley, salt, pepper, egg, and half of oregano to bread/buttermilk mixture.",

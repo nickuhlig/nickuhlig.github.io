@@ -36,18 +36,21 @@
   "ingredients": [
     {
       "ingredient_id": 2190,
-      "name": "collard greens, cut into inch-thick ribbons",
-      "quantity": "2 large bunches"
+      "name": "collard greens",
+      "quantity": "2 large bunches",
+      "prep": "cut into inch-thick ribbons"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onions, sliced into thin half-moons",
-      "quantity": "2 large"
+      "name": "yellow onions",
+      "quantity": "2 large",
+      "prep": "sliced into thin half-moons"
     },
     {
       "ingredient_id": 260,
-      "name": "plum tomatoes, diced can of diced tomatoes",
-      "quantity": "4"
+      "name": "plum tomatoes",
+      "quantity": "4",
+      "prep": "diced can of diced tomatoes"
     },
     {
       "ingredient_id": 41,
@@ -71,8 +74,9 @@
     },
     {
       "ingredient_id": 1514,
-      "name": "coriander seeds, toasted and ground",
-      "quantity": "1 tbsp"
+      "name": "coriander seeds",
+      "quantity": "1 tbsp",
+      "prep": "toasted and ground"
     },
     {
       "ingredient_id": 3658,
@@ -81,8 +85,9 @@
     },
     {
       "ingredient_id": 228,
-      "name": "lime, juiced",
-      "quantity": "½"
+      "name": "lime",
+      "quantity": "½",
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1777,
@@ -91,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the collard greens into inch-thick ribbons. Slice the yellow onions into thin half-moons. Dice the plum tomatoes can of diced tomatoes. Toast and grind the coriander seeds. Juice the lime.",
+      "secondary_message": "2 large bunches collard greens\n2 large yellow onions\n4 plum tomatoes\n1 tbsp coriander seeds\n½ lime"
+    },
     {
       "id": 1,
       "primary_message": "In a large Dutch oven, heat the oil on medium-high. Toss in a cumin seed. When it cracks and sizzles, add in the rest of the cumin, asafoetida, and black cardamom. Stir 30 seconds, then add the remaining spices. Let them cook for another 30 seconds.",

@@ -50,8 +50,9 @@
   "ingredients": [
     {
       "ingredient_id": 2178,
-      "name": "chicken livers, trimmed of sinew and fat",
-      "quantity": "0.91 kg"
+      "name": "chicken livers",
+      "quantity": "0.91 kg",
+      "prep": "trimmed of sinew and fat"
     },
     {
       "ingredient_id": 88,
@@ -70,8 +71,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, minced",
-      "quantity": "2"
+      "name": "shallots",
+      "quantity": "2",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1677,
@@ -110,6 +112,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the chicken livers of sinew and fat. Mince the shallots.",
+      "secondary_message": "0.91 kg chicken livers\n2 shallots"
+    },
     {
       "id": 1,
       "primary_message": "Pat livers dry and season with salt and pepper. Heat 2 tablespoons oil in a large skillet until smoking. Cook half of the livers, turning, until browned on both sides and pink in the middle, about 4 minutes. Transfer livers to the bowl of a food processor. Add 1 more tablespoon oil, heat until smoking and repeat with remaining livers.",

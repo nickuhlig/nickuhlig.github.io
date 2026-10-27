@@ -71,8 +71,9 @@
     },
     {
       "ingredient_id": 350,
-      "name": "ground cardamom seeds, finely ground",
-      "quantity": "½ tsp"
+      "name": "ground cardamom seeds",
+      "quantity": "½ tsp",
+      "prep": "finely ground"
     },
     {
       "ingredient_id": 116,
@@ -91,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely grind the ground cardamom seeds.",
+      "secondary_message": "½ tsp ground cardamom seeds"
+    },
     {
       "id": 1,
       "primary_message": "In a medium saucepan, cover the carrots with 1/2 inch of cold water (about 3 cups of water). Bring to a boil over medium-high heat, then reduce heat to maintain a rapid simmer, and cook until the carrots are tender, about 10 minutes. Drain the carrots and set aside.",

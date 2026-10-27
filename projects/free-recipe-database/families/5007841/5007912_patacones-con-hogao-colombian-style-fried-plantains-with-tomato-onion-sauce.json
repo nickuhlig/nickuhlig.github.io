@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely sliced",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 88,
@@ -60,11 +61,18 @@
     },
     {
       "ingredient_id": 2691,
-      "name": "green plantains, peeled and cut into 1-inch segments",
-      "quantity": "4"
+      "name": "green plantains",
+      "quantity": "4",
+      "prep": "peeled and cut into 1-inch segments"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely slice the onion. Peel and cut the green plantains into 1-inch segments.",
+      "secondary_message": "1 small onion\n4 green plantains"
+    },
     {
       "id": 1,
       "primary_message": "Bring a large pot of water to a boil and cut a small X into the bottom of each tomato. Drop the tomatoes into the boiling water and cook until skins are loosened, about 30 seconds. Transfer to an ice bath. Peel and discard skins. Split each tomato into quarters and remove the seeds and pale inner core with a knife. Slice resulting tomato filets into thin slices.",

@@ -31,8 +31,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "6 tbsp"
+      "name": "unsalted butter",
+      "quantity": "6 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 2436,
@@ -41,8 +42,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "1 clove"
+      "name": "garlic",
+      "quantity": "1 clove",
+      "prep": "minced"
     },
     {
       "ingredient_id": 88,
@@ -56,11 +58,18 @@
     },
     {
       "ingredient_id": 1230,
-      "name": "whole chicken, butterflied",
-      "quantity": "1"
+      "name": "whole chicken",
+      "quantity": "1",
+      "prep": "butterflied"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter. Mince the garlic. Butterfly the whole chicken.",
+      "secondary_message": "6 tbsp unsalted butter\n1 clove garlic\n1 whole chicken"
+    },
     {
       "id": 1,
       "primary_message": "Mix the butter, herbs, garlic, and salt and pepper together in a small bowl.",

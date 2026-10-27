@@ -40,23 +40,27 @@
     },
     {
       "ingredient_id": 1958,
-      "name": "roast pork belly, cut into 1/2- by 1/2- by 1-inch pieces",
-      "quantity": "0.45 kg"
+      "name": "roast pork belly",
+      "quantity": "0.45 kg",
+      "prep": "cut into 1/2- by 1/2- by 1-inch pieces"
     },
     {
       "ingredient_id": 2180,
-      "name": "Chinese broccoli, trimmed and cut into 1-inch pieces",
-      "quantity": "0.45 kg"
+      "name": "Chinese broccoli",
+      "quantity": "0.45 kg",
+      "prep": "trimmed and cut into 1-inch pieces"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and smashed",
-      "quantity": "2 large cloves"
+      "name": "garlic",
+      "quantity": "2 large cloves",
+      "prep": "peeled and smashed"
     },
     {
       "ingredient_id": 1810,
-      "name": "fresh bird's eye chiles, smashed",
-      "quantity": "2"
+      "name": "fresh bird's eye chiles",
+      "quantity": "2",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 1935,
@@ -75,6 +79,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the roast pork belly into 1/2- by 1/2- by 1-inch pieces. Trim and cut the Chinese broccoli into 1-inch pieces. Peel and smash the garlic. Smash the fresh bird's eye chiles.",
+      "secondary_message": "0.45 kg roast pork belly\n0.45 kg Chinese broccoli\n2 large cloves garlic\n2 fresh bird's eye chiles"
+    },
     {
       "id": 1,
       "primary_message": "Heat vegetable oil in a wok over high heat until lightly smoking.",

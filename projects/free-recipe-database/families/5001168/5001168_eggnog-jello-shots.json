@@ -56,8 +56,9 @@
   "ingredients": [
     {
       "ingredient_id": 121,
-      "name": "eggs, separated",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "separated"
     },
     {
       "ingredient_id": 346,
@@ -91,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Separate the eggs.",
+      "secondary_message": "2 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "In the bowl of a stand mixer fitted with the whisk attachment, beat egg whites on low speed until frothy, about 30 seconds. Increase speed to medium-high and beat until white and foamy, about 90 seconds. Reduce speed to medium. With the mixer running, add half for sugar gradually, and beat until incorporated, about 30 seconds. Scrape whites into a large bowl; do not wash stand mixer bowl.",

@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 2888,
-      "name": "dried figs, split in half lengthwise",
-      "quantity": "1 cup"
+      "name": "dried figs",
+      "quantity": "1 cup",
+      "prep": "split in half lengthwise"
     },
     {
       "ingredient_id": 1782,
@@ -60,8 +61,9 @@
     },
     {
       "ingredient_id": 1385,
-      "name": "whole pork tenderloin, trimmed of silverskin",
-      "quantity": "1"
+      "name": "whole pork tenderloin",
+      "quantity": "1",
+      "prep": "trimmed of silverskin"
     },
     {
       "ingredient_id": 88,
@@ -85,8 +87,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, minced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1731,
@@ -110,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the dried figs in half lengthwise. Trim the whole pork tenderloin of silverskin. Mince the shallot.",
+      "secondary_message": "1 cup dried figs\n1 whole pork tenderloin\n1 small shallot"
+    },
     {
       "id": 1,
       "primary_message": "Place figs and bourbon in a small bowl and set aside. Sprinkle gelatin over chicken stock and set aside.",

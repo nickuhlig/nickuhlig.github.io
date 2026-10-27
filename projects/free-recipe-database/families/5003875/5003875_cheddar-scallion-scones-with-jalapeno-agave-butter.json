@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 151,
-      "name": "pepper jalapeno, seeded and finely chopped",
-      "quantity": "½"
+      "name": "pepper jalapeno",
+      "quantity": "½",
+      "prep": "seeded and finely chopped"
     },
     {
       "ingredient_id": 2514,
@@ -75,8 +76,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, thinly sliced",
-      "quantity": "8 medium"
+      "name": "scallions",
+      "quantity": "8 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 121,
@@ -90,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Seed and finely chop the pepper jalapeno. Thinly slice the scallions.",
+      "secondary_message": "½ pepper jalapeno\n8 medium scallions"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl combine 1 stick room temperature butter, jalapeno, agave, and a pinch of salt. Mix with a spatula until ingredients are evenly incorporated, then taste for seasoning adding additional salt if necessary. Refrigerate until ready to use.",

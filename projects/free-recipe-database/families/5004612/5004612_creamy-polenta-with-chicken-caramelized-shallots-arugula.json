@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, sliced thin",
-      "quantity": "8 large"
+      "name": "shallots",
+      "quantity": "8 large",
+      "prep": "sliced thin"
     },
     {
       "ingredient_id": 289,
@@ -65,13 +66,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into cubes",
-      "quantity": "3 tbsp"
+      "name": "unsalted butter",
+      "quantity": "3 tbsp",
+      "prep": "cut into cubes"
     },
     {
       "ingredient_id": 120,
-      "name": "Parmesan cheese, grated",
-      "quantity": "2 oz"
+      "name": "Parmesan cheese",
+      "quantity": "2 oz",
+      "prep": "grated"
     },
     {
       "ingredient_id": 216,
@@ -85,6 +88,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the shallots thin. Cut the unsalted butter into cubes. Grate the Parmesan cheese.",
+      "secondary_message": "8 large shallots\n3 tbsp unsalted butter\n2 oz Parmesan cheese"
+    },
     {
       "id": 1,
       "primary_message": "Slice chicken in half horizontally so that pieces are of equal thickness. Heat 4 cups broth in medium saucepan over medium heat to simmer. Add chicken and reduce heat to bare simmer. Cook until chicken is just cooked through (160°F), about 15 minutes. Transfer chicken to plate (reserve all broth) and shred into bite sized pieces when cool enough to handle. Place chicken in a small bowl and pour 3/4 cup broth over chicken to keep moist. Season to taste with salt and pepper.",

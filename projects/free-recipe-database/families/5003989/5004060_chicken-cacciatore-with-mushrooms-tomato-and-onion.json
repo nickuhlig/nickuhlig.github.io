@@ -33,8 +33,9 @@
   "ingredients": [
     {
       "ingredient_id": 1864,
-      "name": "bone-in skin-on chicken legs, thighs and drumsticks split",
-      "quantity": "1.36 to 1.81 kg"
+      "name": "bone-in skin-on chicken legs",
+      "quantity": "1.36 to 1.81 kg",
+      "prep": "thighs and drumsticks split"
     },
     {
       "ingredient_id": 88,
@@ -58,19 +59,22 @@
     },
     {
       "ingredient_id": 230,
-      "name": "cremini mushrooms, washed, trimmed, and quartered",
-      "quantity": "0.45 kg"
+      "name": "cremini mushrooms",
+      "quantity": "0.45 kg",
+      "prep": "washed, trimmed, and quartered"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, thinly sliced",
+      "name": "yellow onion",
       "quantity": "2 medium",
-      "weigh_as": "225 g"
+      "weigh_as": "225 g",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "5 medium cloves"
+      "name": "garlic",
+      "quantity": "5 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1008,
@@ -79,8 +83,9 @@
     },
     {
       "ingredient_id": 1294,
-      "name": "peeled whole tomatoes, drained and crushed by hand",
-      "quantity": "1 (795 g) can"
+      "name": "peeled whole tomatoes",
+      "quantity": "1 (795 g) can",
+      "prep": "drained and crushed by hand"
     },
     {
       "ingredient_id": 1479,
@@ -99,6 +104,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the thighs and drumsticks of the bone-in skin-on chicken legs. Wash, trim, and quarter the cremini mushrooms. Thinly slice the yellow onion. Thinly slice the garlic. Drain and crush the peeled whole tomatoes by hand.",
+      "secondary_message": "1.36 to 1.81 kg bone-in skin-on chicken legs\n0.45 kg cremini mushrooms\n2 medium yellow onion\n5 medium cloves garlic\n1 (795 g) can peeled whole tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 175°C (350°F). Season chicken all over with salt and pepper. Pour a roughly 1.5-cm layer of flour into a wide, shallow bowl. Dredge each chicken piece in flour and tap off excess.",

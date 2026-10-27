@@ -77,8 +77,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, separated",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "separated"
     },
     {
       "ingredient_id": 88,
@@ -117,8 +118,9 @@
     },
     {
       "ingredient_id": 3642,
-      "name": "egg whites, at room temperature",
-      "quantity": "4 large"
+      "name": "egg whites",
+      "quantity": "4 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -132,6 +134,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Separate the eggs. Bring the egg whites to room temperature.",
+      "secondary_message": "3 large eggs\n4 large egg whites"
+    },
     {
       "id": 1,
       "primary_message": "For the Chocolate Mousse: In a large heatproof mixing bowl, combine chocolate and heavy cream. Set it over a saucepan filled with 2.5-cm barely simmering water and heat, stirring occasionally, until chocolate is fully melted, about 10 minutes. Whisk until homogeneous, then remove from heat and set on a heatproof work surface.",

@@ -80,8 +80,9 @@
     },
     {
       "ingredient_id": 1716,
-      "name": "hazelnuts, toasted, skinned, and roughly chopped",
-      "quantity": "9 oz"
+      "name": "hazelnuts",
+      "quantity": "9 oz",
+      "prep": "toasted, skinned, and roughly chopped"
     },
     {
       "ingredient_id": 348,
@@ -90,8 +91,9 @@
     },
     {
       "ingredient_id": 1729,
-      "name": "dark chocolate, roughly 60% cacao solids , melted",
-      "quantity": "4 oz"
+      "name": "dark chocolate, roughly 60% cacao solids",
+      "quantity": "4 oz",
+      "prep": "melted"
     },
     {
       "ingredient_id": 333,
@@ -105,6 +107,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Toast, skin, and roughly chop the hazelnuts. Melt the dark chocolate.",
+      "secondary_message": "9 oz hazelnuts\n4 oz dark chocolate, roughly 60% cacao solids"
+    },
     {
       "id": 1,
       "primary_message": "To Make the Brittle: Lightly grease a half-sheet pan and set aside. In a 3-quart saucier or saucepan, combine water, golden syrup or corn syrup, sugar, salt, and prepared hazelnuts and set over medium heat. Using a heat-proof spatula, scrape and stir until sugar has dissolved and the candy begins to bubble around the edges, about 5 minutes.",

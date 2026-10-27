@@ -42,8 +42,9 @@
     },
     {
       "ingredient_id": 2365,
-      "name": "pistachios, shells removed",
-      "quantity": "½ cup"
+      "name": "pistachios",
+      "quantity": "½ cup",
+      "prep": "shells removed"
     },
     {
       "ingredient_id": 47,
@@ -52,8 +53,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, chopped",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 88,
@@ -72,8 +74,9 @@
     },
     {
       "ingredient_id": 1811,
-      "name": "shrimp, medium, peeled and deveined",
-      "quantity": "1 lb"
+      "name": "shrimp, medium",
+      "quantity": "1 lb",
+      "prep": "peeled and deveined"
     },
     {
       "ingredient_id": 115,
@@ -87,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the shells from the pistachios. Chop the onion. Peel and devein the shrimp.",
+      "secondary_message": "½ cup pistachios\n1 medium onion\n1 lb shrimp, medium"
+    },
     {
       "id": 1,
       "primary_message": "Warm the chicken stock up in a medium-sized saucepan over medium heat. When it starts to bubble, reduce heat to maintain a bare simmer. Transfer 1/2 cup of stock to a small bowl and stir in the saffron threads. Set aside.",

@@ -64,18 +64,21 @@
     },
     {
       "ingredient_id": 2742,
-      "name": "milk chocolate, coarsely chopped",
-      "quantity": "7 oz"
+      "name": "milk chocolate",
+      "quantity": "7 oz",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 1729,
-      "name": "dark chocolate, coarsely chopped",
-      "quantity": "3 ½ oz"
+      "name": "dark chocolate",
+      "quantity": "3 ½ oz",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "4 oz"
+      "name": "unsalted butter",
+      "quantity": "4 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 2716,
@@ -84,8 +87,9 @@
     },
     {
       "ingredient_id": 1605,
-      "name": "digestive biscuits, crushed",
-      "quantity": "10"
+      "name": "digestive biscuits",
+      "quantity": "10",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 1033,
@@ -94,11 +98,18 @@
     },
     {
       "ingredient_id": 2225,
-      "name": "glacé cherries, quartered",
-      "quantity": "1 ¾ oz"
+      "name": "glacé cherries",
+      "quantity": "1 ¾ oz",
+      "prep": "quartered"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Coarsely chop the milk chocolate. Coarsely chop the dark chocolate. Soften the unsalted butter. Crush the digestive biscuits. Quarter the glacé cherries.",
+      "secondary_message": "7 oz milk chocolate\n3 ½ oz dark chocolate\n4 oz unsalted butter\n10 digestive biscuits\n1 ¾ oz glacé cherries"
+    },
     {
       "id": 1,
       "primary_message": "Using nonstick spray, grease an 8- by 8-inch aluminum pan. Line pan with two 8-inch wide strips of parchment paper so that all sides are covered with a 1-inch overhang. Using nonstick cooking spray, grease parchment. Set aside.",

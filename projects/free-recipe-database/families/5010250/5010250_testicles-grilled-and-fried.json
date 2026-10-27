@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, lightly beaten",
-      "quantity": "1"
+      "name": "egg",
+      "quantity": "1",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 2749,
@@ -96,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly beat the egg.",
+      "secondary_message": "1 egg"
+    },
     {
       "id": 1,
       "primary_message": "Set up your grill, preferably charcoal, so that there's room on the grill to cook the testicles indirectly.",

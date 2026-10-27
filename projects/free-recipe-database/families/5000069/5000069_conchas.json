@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 347,
-      "name": "powdered sugar, sifted",
-      "quantity": "4 oz"
+      "name": "powdered sugar",
+      "quantity": "4 oz",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 116,
@@ -75,8 +76,9 @@
     },
     {
       "ingredient_id": 333,
-      "name": "natural cocoa powder, sifted",
-      "quantity": "1 tbsp"
+      "name": "natural cocoa powder",
+      "quantity": "1 tbsp",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 1580,
@@ -105,13 +107,15 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, brought to about 65°F",
-      "quantity": "6 large"
+      "name": "eggs",
+      "quantity": "6 large",
+      "prep": "brought to about 65°F"
     },
     {
       "ingredient_id": 359,
-      "name": "water, about 80°F",
-      "quantity": "3 oz"
+      "name": "water",
+      "quantity": "3 oz",
+      "prep": "about 80°F"
     },
     {
       "ingredient_id": 115,
@@ -125,6 +129,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Sift the powdered sugar. Sift the natural cocoa powder. Bring the eggs to about 65°F. Bring the water to 80°F.",
+      "secondary_message": "4 oz powdered sugar\n1 tbsp natural cocoa powder\n6 large eggs\n3 oz water"
+    },
     {
       "id": 1,
       "primary_message": "To make the concha crust: In the bowl of a stand mixer fitted with the paddle attachment, beat lard on medium speed until smooth and creamy, about 30 seconds. Using a flexible spatula, scrape down bowl and paddle attachment. Add powdered sugar and all-purpose flour and beat on a medium-low speed until no dry flour remains and a smooth paste forms, about 4 minutes. Scrape down bowl and paddle, add vanilla, and beat on medium-low speed until vanilla is fully incorporated, about 30 seconds.",

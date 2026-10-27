@@ -68,13 +68,15 @@
     },
     {
       "ingredient_id": 1442,
-      "name": "mascarpone, cold",
-      "quantity": "1 lb"
+      "name": "mascarpone",
+      "quantity": "1 lb",
+      "prep": "cold"
     },
     {
       "ingredient_id": 1752,
-      "name": "heavy cream, cold",
-      "quantity": "1 lb"
+      "name": "heavy cream",
+      "quantity": "1 lb",
+      "prep": "cold"
     },
     {
       "ingredient_id": 293,
@@ -118,6 +120,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the mascarpone cold until you use it. Keep the heavy cream cold until you use it.",
+      "secondary_message": "1 lb mascarpone\n1 lb heavy cream"
+    },
     {
       "id": 1,
       "primary_message": "For the Cookie Layers: Adjust oven rack to middle position and preheat oven to 350°F. Portion raw cookie dough according to the recipe.",

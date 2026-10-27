@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 1808,
@@ -61,8 +62,9 @@
     },
     {
       "ingredient_id": 286,
-      "name": "twig of rosemary, snapped",
-      "quantity": "1"
+      "name": "twig of rosemary",
+      "quantity": "1",
+      "prep": "snapped"
     },
     {
       "ingredient_id": 72,
@@ -96,8 +98,9 @@
     },
     {
       "ingredient_id": 106,
-      "name": "fresh flat leaf parsley leaves, chopped",
-      "quantity": "¾ cup"
+      "name": "fresh flat leaf parsley leaves",
+      "quantity": "¾ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 286,
@@ -131,6 +134,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Smash the garlic. Snap the twig of rosemary. Chop the fresh flat leaf parsley leaves.",
+      "secondary_message": "3 cloves garlic\n1 twig of rosemary\n¾ cup fresh flat leaf parsley leaves"
+    },
     {
       "id": 1,
       "primary_message": "Make the garlic confit by placing the peeled garlic cloves and the olive oil in a small saucepot. Sit over low heat, and begin counting 1 hour to 1 hour and 15 minutes. The garlic will begin to look translucent in the oil, and will be soft to the point of a knife. At this point, take it off the heat, and leave to infuse and come to room temperature. The only thing to keep in mind is that you are not cooking the oil; just heating it. There should be no sizzling or browning of any sort! At the end, the garlic will be absolutely soft and sweet.",

@@ -83,8 +83,9 @@
     },
     {
       "ingredient_id": 1145,
-      "name": "provolone cheese, cut into 16 cubes",
-      "quantity": "113 g"
+      "name": "provolone cheese",
+      "quantity": "113 g",
+      "prep": "cut into 16 cubes"
     },
     {
       "ingredient_id": 120,
@@ -93,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the provolone cheese into 16 cubes.",
+      "secondary_message": "113 g provolone cheese"
+    },
     {
       "id": 1,
       "primary_message": "Combine the water, yeast, and sugar in bowl of stand mixer fitted with dough hoook attachment. Mix until just combined, then let rest 10 minute. Add bread flour, tomato paste, oregano, pepper flakes, and salt. Knead until the dough is smooth and elastic, about 10 minutes. Add the olive oil and continue kneading until the oil is completely incorporated and dough is smooth, shiny, and elastic, about 2 minutes. Cover the bowl with plastic wrap and set aside until doubled in size, about 1 hour.",

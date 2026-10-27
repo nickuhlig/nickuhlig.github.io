@@ -59,23 +59,27 @@
     },
     {
       "ingredient_id": 107,
-      "name": "fresh mozzarella cheese, torn into small chunks, drained",
-      "quantity": "0.45 kg"
+      "name": "fresh mozzarella cheese",
+      "quantity": "0.45 kg",
+      "prep": "torn into small chunks, drained"
     },
     {
       "ingredient_id": 1621,
-      "name": "halloumi cheese, cut into small cubes",
-      "quantity": "340 g"
+      "name": "halloumi cheese",
+      "quantity": "340 g",
+      "prep": "cut into small cubes"
     },
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, halved",
-      "quantity": "946 ml"
+      "name": "cherry tomatoes",
+      "quantity": "946 ml",
+      "prep": "halved"
     },
     {
       "ingredient_id": 1600,
-      "name": "green olives, roughly chopped",
-      "quantity": "½ cup"
+      "name": "green olives",
+      "quantity": "½ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 153,
@@ -99,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Tear the fresh mozzarella cheese into small chunks, then drain it. Cut the halloumi cheese into small cubes. Halve the cherry tomatoes. Roughly chop the green olives.",
+      "secondary_message": "0.45 kg fresh mozzarella cheese\n340 g halloumi cheese\n946 ml cherry tomatoes\n½ cup green olives"
+    },
     {
       "id": 1,
       "primary_message": "Divide dough into 4 equal parts and place each in a covered quart-sized deli container or a zipper-lock freezer bag. Allow to rest at room temperature for at least 2 hours before baking.",

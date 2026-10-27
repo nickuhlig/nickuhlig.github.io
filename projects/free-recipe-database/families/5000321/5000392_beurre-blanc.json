@@ -46,13 +46,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely minced",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into 1/2-inch pats",
-      "quantity": "1 ½ (170 g) sticks"
+      "name": "cold unsalted butter",
+      "quantity": "1 ½ (170 g) sticks",
+      "prep": "cut into 1/2-inch pats"
     },
     {
       "ingredient_id": 88,
@@ -61,6 +63,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the shallot. Cut the cold unsalted butter into 1/2-inch pats.",
+      "secondary_message": "1 medium shallot\n1 ½ (170 g) sticks cold unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a small saucepan or saucier, heat wine, vinegar, and shallot over medium heat until simmering. Cook at a simmer, swirling and stirring occasionally, until liquid is almost fully evaporated and only 1 or 2 tablespoons remain.",

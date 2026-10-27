@@ -47,18 +47,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, finely chopped",
-      "quantity": "2 small"
+      "name": "celery",
+      "quantity": "2 small",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, peeled and finely chopped",
-      "quantity": "1 small"
+      "name": "carrot",
+      "quantity": "1 small",
+      "prep": "peeled and finely chopped"
     },
     {
       "ingredient_id": 88,
@@ -87,8 +90,9 @@
     },
     {
       "ingredient_id": 325,
-      "name": "anchovy fillets, mashed",
-      "quantity": "2"
+      "name": "anchovy fillets",
+      "quantity": "2",
+      "prep": "mashed"
     },
     {
       "ingredient_id": 53,
@@ -122,6 +126,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the onion. Finely chop the celery. Peel and finely chop the carrot. Mash the anchovy fillets.",
+      "secondary_message": "1 medium onion\n2 small celery\n1 small carrot\n2 anchovy fillets"
+    },
     {
       "id": 1,
       "primary_message": "Add 1 tablespoon water to small bowl and sprinkle gelatin over. Let gelatin soften at least 5 minutes.",

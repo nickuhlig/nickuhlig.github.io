@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 242,
-      "name": "strawberries, quartered or sliced",
-      "quantity": "946 ml"
+      "name": "strawberries",
+      "quantity": "946 ml",
+      "prep": "quartered or sliced"
     },
     {
       "ingredient_id": 346,
@@ -61,6 +62,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Quarter or slice the strawberries.",
+      "secondary_message": "946 ml strawberries"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center position and preheat oven to 230°C (450°F). Toss strawberries with 6 tablespoons sugar in a medium bowl and set aside.",

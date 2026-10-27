@@ -76,8 +76,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "10 tbsp"
+      "name": "unsalted butter",
+      "quantity": "10 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 116,
@@ -136,6 +137,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter.",
+      "secondary_message": "10 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350°F. Grease pan with butter.",

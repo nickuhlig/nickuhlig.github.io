@@ -53,8 +53,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, peeled and roughly chopped",
-      "quantity": "1 (4 cm) knob"
+      "name": "ginger",
+      "quantity": "1 (4 cm) knob",
+      "prep": "peeled and roughly chopped"
     },
     {
       "ingredient_id": 188,
@@ -63,8 +64,9 @@
     },
     {
       "ingredient_id": 2021,
-      "name": "Serrano chile, stemmed and halved, divided",
-      "quantity": "1"
+      "name": "Serrano chile, divided",
+      "quantity": "1",
+      "prep": "stemmed and halved"
     },
     {
       "ingredient_id": 88,
@@ -98,8 +100,9 @@
     },
     {
       "ingredient_id": 143,
-      "name": "sweet potatoes, peeled and cut into 1/2-inch dice",
-      "quantity": "227 g"
+      "name": "sweet potatoes",
+      "quantity": "227 g",
+      "prep": "peeled and cut into 1/2-inch dice"
     },
     {
       "ingredient_id": 217,
@@ -133,6 +136,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and roughly chop the ginger. Stem and halve the Serrano chile. Peel and cut the sweet potatoes into 1/2-inch dice.",
+      "secondary_message": "1 (4 cm) knob ginger\n1 Serrano chile, divided\n227 g sweet potatoes"
+    },
     {
       "id": 1,
       "primary_message": "Combine garlic, ginger, thick cilantro stems, and half of the chile in the bowl of a mortar and pestle (see notes). Sprinkle with about 1 teaspoon of salt. Pound into a rough paste and set aside. Thinly slice remaining half chile and set aside for garnish.",

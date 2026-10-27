@@ -57,18 +57,21 @@
   "ingredients": [
     {
       "ingredient_id": 1713,
-      "name": "onions, roughly chopped , divided",
-      "quantity": "3 large"
+      "name": "onions, divided",
+      "quantity": "3 large",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and roughly chopped , divided",
-      "quantity": "3 large"
+      "name": "carrots, divided",
+      "quantity": "3 large",
+      "prep": "peeled and roughly chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, roughly chopped , divided",
-      "quantity": "4 ribs"
+      "name": "celery, divided",
+      "quantity": "4 ribs",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1994,
@@ -147,6 +150,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the onions. Peel and roughly chop the carrots. Roughly chop the celery.",
+      "secondary_message": "3 large onions, divided\n3 large carrots, divided\n4 ribs celery, divided"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 450°F. Line a rimmed baking sheet with aluminum foil. Scatter two-thirds of onions, carrots, celery, and thyme sprigs across pan. Place a wire rack directly on top of vegetables.",

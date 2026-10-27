@@ -121,11 +121,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "45 g"
+      "name": "unsalted butter",
+      "quantity": "45 g",
+      "prep": "melted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter.",
+      "secondary_message": "45 g unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Herby Mayonnaise: In a medium bowl, whisk together mayonnaise, parsley, chives, lemon juice, mustard, sugar, and salt. Cover and refrigerate.",

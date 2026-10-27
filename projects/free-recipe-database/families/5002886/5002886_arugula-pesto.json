@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 2151,
-      "name": "packed fresh arugula leaves, rinsed and dried",
-      "quantity": "2 cups"
+      "name": "packed fresh arugula leaves",
+      "quantity": "2 cups",
+      "prep": "rinsed and dried"
     },
     {
       "ingredient_id": 272,
@@ -80,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse and dry the packed fresh arugula leaves.",
+      "secondary_message": "2 cups packed fresh arugula leaves"
+    },
     {
       "id": 1,
       "primary_message": "Place arugula, walnuts, and garlic in the bowl of a food processor and pulse until finely chopped, about five 1-second pulses, scraping down sides of bowl as necessary.",

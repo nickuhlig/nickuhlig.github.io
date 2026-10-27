@@ -76,8 +76,9 @@
     },
     {
       "ingredient_id": 164,
-      "name": "boneless skinless chicken thighs, cut into 1/2- to 3/4-inch chunks",
-      "quantity": "0.46 kg"
+      "name": "boneless skinless chicken thighs",
+      "quantity": "0.46 kg",
+      "prep": "cut into 1/2- to 3/4-inch chunks"
     },
     {
       "ingredient_id": 116,
@@ -176,6 +177,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the boneless skinless chicken thighs into 1/2- to 3/4-inch chunks.",
+      "secondary_message": "0.46 kg boneless skinless chicken thighs"
+    },
     {
       "id": 1,
       "primary_message": "For the Marinade: Beat egg whites in a large bowl until broken down and lightly foamy. Add soy sauce, wine, and vodka and whisk to combine. Set aside half of marinade in a small bowl. Add cornstarch and baking soda to the large bowl and whisk to combine. Add chicken to large bowl and turn with fingers to coat thoroughly. Cover with plastic wrap and set aside.",

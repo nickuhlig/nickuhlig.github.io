@@ -93,8 +93,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cubed",
-      "quantity": "4 oz"
+      "name": "unsalted butter",
+      "quantity": "4 oz",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 1961,
@@ -143,8 +144,9 @@
     },
     {
       "ingredient_id": 2982,
-      "name": "washed, hulled, and sliced strawberries",
-      "quantity": "15 ¾ oz"
+      "name": "washed",
+      "quantity": "15 ¾ oz",
+      "prep": "hulled, and sliced strawberries"
     },
     {
       "ingredient_id": 239,
@@ -168,8 +170,9 @@
     },
     {
       "ingredient_id": 1831,
-      "name": "silver sheet gelatin, cut in half",
-      "quantity": "¼ oz"
+      "name": "silver sheet gelatin",
+      "quantity": "¼ oz",
+      "prep": "cut in half"
     },
     {
       "ingredient_id": 2475,
@@ -183,6 +186,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cube the unsalted butter. Hull and slice the washed strawberries. Cut the silver sheet gelatin in half.",
+      "secondary_message": "4 oz unsalted butter\n15 ¾ oz washed\n¼ oz silver sheet gelatin"
+    },
     {
       "id": 1,
       "primary_message": "For the Coconut Pudding: Preheat oven to 250°F. Line 2 rimmed baking sheets with parchment paper. Spread coconut flour in an even layer on 1 baking sheet. Spread shredded coconut in an even layer on the second baking sheet. Bake coconut flour and shredded coconut for 20 minutes. Rotate baking sheets and bake until lightly browned and toasted, about 20 minutes longer. Let coconut flour and shredded coconut cool.",

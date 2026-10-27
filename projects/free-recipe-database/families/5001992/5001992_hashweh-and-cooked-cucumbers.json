@@ -76,13 +76,15 @@
     },
     {
       "ingredient_id": 1849,
-      "name": "grain rice, medium, rinsed until water runs clear",
-      "quantity": "2 cups"
+      "name": "grain rice, medium",
+      "quantity": "2 cups",
+      "prep": "rinsed until water runs clear"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely chopped",
-      "quantity": "1 large"
+      "name": "yellow onion",
+      "quantity": "1 large",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 74,
@@ -136,8 +138,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely grated or minced",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "finely grated or minced"
     },
     {
       "ingredient_id": 2346,
@@ -156,6 +159,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse the grain rice until water runs clear. Finely chop the yellow onion. Finely grate or mince the garlic.",
+      "secondary_message": "2 cups grain rice, medium\n1 large yellow onion\n1 medium clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Cucumbers: Place cucumbers in a colander set inside a large bowl. Sprinkle with 1 teaspoon kosher salt and toss to coat. Let sit at room temperature for 20 minutes to drain, tossing once halfway through.",

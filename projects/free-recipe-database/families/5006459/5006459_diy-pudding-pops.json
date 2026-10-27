@@ -107,8 +107,9 @@
     },
     {
       "ingredient_id": 1729,
-      "name": "dark chocolate, finely chopped",
-      "quantity": "8 oz"
+      "name": "dark chocolate",
+      "quantity": "8 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 129,
@@ -117,6 +118,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the dark chocolate.",
+      "secondary_message": "8 oz dark chocolate"
+    },
     {
       "id": 1,
       "primary_message": "For the Pudding: Bring 10 ounces milk (1 1/4 cups; 280g), cream, and vanilla pod to a simmer over medium heat in a 3-quart stainless steel saucepan or saucier. Once the dairy begins to bubble, remove from heat, cover, and steep 30 minutes.",

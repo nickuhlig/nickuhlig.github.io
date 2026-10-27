@@ -58,8 +58,9 @@
     },
     {
       "ingredient_id": 228,
-      "name": "lime, zested",
-      "quantity": "1"
+      "name": "lime",
+      "quantity": "1",
+      "prep": "zested"
     },
     {
       "ingredient_id": 2744,
@@ -83,6 +84,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the lime.",
+      "secondary_message": "1 lime"
+    },
     {
       "id": 1,
       "primary_message": "Getting ready: Center a rack in the oven and preheat the oven to 350°F. Generously butter an 8 1/2-x-4 1/2-inch loaf pan, place the pan on a lined baking sheet and set aside. Whisk together the flour, baking powder and salt and keep near by.",

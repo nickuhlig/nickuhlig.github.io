@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 317,
-      "name": "bananas, halved crosswise and halved lengthwise",
-      "quantity": "3"
+      "name": "bananas",
+      "quantity": "3",
+      "prep": "halved crosswise and halved lengthwise"
     },
     {
       "ingredient_id": 293,
@@ -76,8 +77,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, lightly beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 353,
@@ -86,16 +88,24 @@
     },
     {
       "ingredient_id": 317,
-      "name": "banana slices, cut 1/8-inch thin round",
-      "quantity": "16"
+      "name": "banana slices",
+      "quantity": "16",
+      "prep": "cut 1/8-inch thin round"
     },
     {
       "ingredient_id": 2359,
-      "name": "chocolate chunks, roughly chopped (about 1 inch)",
-      "quantity": ""
+      "name": "chocolate chunks",
+      "quantity": "",
+      "prep": "roughly chopped (about 1 inch)"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the bananas crosswise, then halve them lengthwise. Lightly beat the egg. Cut the banana slices 1/8-inch thin round. Roughly chop the chocolate chunks (about 1 inch).",
+      "secondary_message": "3 bananas\n1 large egg\n16 banana slices\nchocolate chunks"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle positions and heat oven to 350℉ (175℃). Line 2 rimmed baking sheet with parchment paper; set aside. In a medium bowl, whisk the flour, salt, and baking soda to combine; set aside.",

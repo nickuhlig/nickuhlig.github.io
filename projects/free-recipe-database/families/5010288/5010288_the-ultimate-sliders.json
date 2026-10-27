@@ -39,8 +39,9 @@
   "ingredients": [
     {
       "ingredient_id": 1713,
-      "name": "onion, finely minced",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 88,
@@ -74,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the onion.",
+      "secondary_message": "1 large onion"
+    },
     {
       "id": 1,
       "primary_message": "Toss diced onion with 1 teaspoon kosher salt in a medium bowl. Set aside at room temperature until fragrant, about 10 minutes. Meanwhile, divide beef into 12 evenly sized balls. Using damp hands, press balls into even patties approximately 1/8-inch thick, and 3 1/2-inches wide. Place on a large plastic wrap-lined plate. Patties can be stacked with a layer of plastic wrap between each layer. Place in refrigerator until ready to cook.",

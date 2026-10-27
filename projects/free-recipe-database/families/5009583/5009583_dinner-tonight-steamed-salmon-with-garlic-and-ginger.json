@@ -60,18 +60,21 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, peeled and finely shredded",
-      "quantity": "1 (2 inch) piece"
+      "name": "fresh ginger",
+      "quantity": "1 (2 inch) piece",
+      "prep": "peeled and finely shredded"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, green part only, chopped",
-      "quantity": "3"
+      "name": "scallions, green part only",
+      "quantity": "3",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 153,
@@ -80,8 +83,9 @@
     },
     {
       "ingredient_id": 6,
-      "name": "salmon fillet, cut crosswise into 2 pieces",
-      "quantity": "1 ¼ lb"
+      "name": "salmon fillet",
+      "quantity": "1 ¼ lb",
+      "prep": "cut crosswise into 2 pieces"
     },
     {
       "ingredient_id": 188,
@@ -90,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic. Peel and finely shred the fresh ginger. Chop the scallions. Cut the salmon fillet crosswise into 2 pieces.",
+      "secondary_message": "3 cloves garlic\n1 (2 inch) piece fresh ginger\n3 scallions, green part only\n1 ¼ lb salmon fillet"
+    },
     {
       "id": 1,
       "primary_message": "For the sauce: In a small bowl, combine the sugar, pepper, oyster sauce, and soy sauce. Stir until the sugar is dissolved. Pour the oil into a small saucepan, and turn the heat to medium. Add the garlic and cook until fragrant, about 15 seconds. Add the ginger and cook until it is also fragrant, about one minute. Pour in the sauce, stir well, and wait for it to come to a boil. Then add the scallions, turn off the heat, and stir to combine. Set aside.",

@@ -91,8 +91,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cubed",
-      "quantity": "3 tbsp"
+      "name": "cold unsalted butter",
+      "quantity": "3 tbsp",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 353,
@@ -111,8 +112,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cubed",
-      "quantity": "8 tbsp"
+      "name": "unsalted butter",
+      "quantity": "8 tbsp",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 74,
@@ -131,8 +133,9 @@
     },
     {
       "ingredient_id": 316,
-      "name": "heavy whipping cream, cold",
-      "quantity": "2 ½ cups"
+      "name": "heavy whipping cream",
+      "quantity": "2 ½ cups",
+      "prep": "cold"
     },
     {
       "ingredient_id": 346,
@@ -156,6 +159,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cube the cold unsalted butter. Cube the unsalted butter. Keep the heavy whipping cream cold until you use it.",
+      "secondary_message": "3 tbsp cold unsalted butter\n8 tbsp unsalted butter\n2 ½ cups heavy whipping cream"
+    },
     {
       "id": 1,
       "primary_message": "For the Brown Sugar Pastry Cream: Set a fine mesh strainer over a 13- x 9-inch baking pan; set aside. In a small saucepan, heat milk over medium heat, stirring occasionally, until steaming, about 3 minutes. Meanwhile, in a medium bowl, whisk together egg yolks, egg, brown sugar, flour, cornstarch, and salt. Whisking constantly, gradually add warm milk to egg mixture in bowl until well combined. Pour egg mixture into saucepan.",

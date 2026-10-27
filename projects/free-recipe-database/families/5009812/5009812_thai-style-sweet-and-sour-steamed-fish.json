@@ -48,13 +48,15 @@
     },
     {
       "ingredient_id": 1810,
-      "name": "red bird's eye chiles, thinly sliced crosswise",
-      "quantity": "2"
+      "name": "red bird's eye chiles",
+      "quantity": "2",
+      "prep": "thinly sliced crosswise"
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, thinly sliced",
-      "quantity": "2 small"
+      "name": "shallots",
+      "quantity": "2 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 188,
@@ -63,6 +65,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the red bird's eye chiles crosswise. Thinly slice the shallots.",
+      "secondary_message": "2 red bird's eye chiles\n2 small shallots"
+    },
     {
       "id": 1,
       "primary_message": "Fill a large pot or wok with 1 to 2 inches of water and place a steamer insert inside. Alternatively, adjust oven rack to center position and preheat oven to 350°F. Arrange fish steaks in a glass baking dish that just fits them. Combine chili sauce, oyster sauce, chilies, and shallots in a small bowl. Pour sauce over steaks.",

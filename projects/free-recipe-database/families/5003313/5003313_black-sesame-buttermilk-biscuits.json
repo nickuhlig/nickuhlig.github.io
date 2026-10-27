@@ -81,13 +81,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into 1/2-inch cubes",
-      "quantity": "6 oz"
+      "name": "cold unsalted butter",
+      "quantity": "6 oz",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 2475,
-      "name": "cultured low-fat buttermilk, straight from the fridge",
-      "quantity": "13 ½ oz"
+      "name": "cultured low-fat buttermilk",
+      "quantity": "13 ½ oz",
+      "prep": "straight from the fridge"
     },
     {
       "ingredient_id": 1337,
@@ -96,6 +98,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cold unsalted butter into 1/2-inch cubes. Keep the cultured low-fat buttermilk cold until you use it.",
+      "secondary_message": "6 oz cold unsalted butter\n13 ½ oz cultured low-fat buttermilk"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower-middle position and preheat to 400°F. Should your kitchen be warmer than 75°F, please see our guide to baking in a hot kitchen before getting started; the specifics are focused on pie dough, but the overall principles hold true for baking biscuits as well.",

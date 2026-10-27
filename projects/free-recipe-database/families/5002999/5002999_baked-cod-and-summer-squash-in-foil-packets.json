@@ -48,18 +48,21 @@
     },
     {
       "ingredient_id": 2324,
-      "name": "zucchini, sliced into thin rounds",
-      "quantity": "2 medium"
+      "name": "zucchini",
+      "quantity": "2 medium",
+      "prep": "sliced into thin rounds"
     },
     {
       "ingredient_id": 1301,
-      "name": "yellow summer squash, sliced into thin rounds",
-      "quantity": "2 medium"
+      "name": "yellow summer squash",
+      "quantity": "2 medium",
+      "prep": "sliced into thin rounds"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, thinly sliced",
-      "quantity": "1 medium"
+      "name": "red onion",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -83,8 +86,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, thinly sliced",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 287,
@@ -98,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the zucchini into thin rounds. Slice the yellow summer squash into thin rounds. Thinly slice the red onion. Thinly slice the lemon.",
+      "secondary_message": "2 medium zucchini\n2 medium yellow summer squash\n1 medium red onion\n1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 450°F. Season fish with salt and pepper. Arrange 4 large sheets of aluminum foil on a work surface and set 1 fish fillet on each piece of foil. Arrange zucchini, squash, and onion around each fillet and season with salt and pepper. Sprinkle fish and vegetables with red chile flakes. Drizzle 1/2 tablespoon oil and 1/2 tablespoon wine onto vegetables and fish.",

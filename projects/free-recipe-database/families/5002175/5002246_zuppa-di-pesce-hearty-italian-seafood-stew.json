@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, cut into 1/4-inch dice",
-      "quantity": "½ medium"
+      "name": "yellow onion",
+      "quantity": "½ medium",
+      "prep": "cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 88,
@@ -67,8 +68,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 3654,
@@ -112,13 +114,15 @@
     },
     {
       "ingredient_id": 2536,
-      "name": "littleneck clams, scrubbed",
-      "quantity": "0.45 kg"
+      "name": "littleneck clams",
+      "quantity": "0.45 kg",
+      "prep": "scrubbed"
     },
     {
       "ingredient_id": 2132,
-      "name": "mussels, scrubbed and debearded",
-      "quantity": "226 g"
+      "name": "mussels",
+      "quantity": "226 g",
+      "prep": "scrubbed and debearded"
     },
     {
       "ingredient_id": 106,
@@ -127,6 +131,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the yellow onion into 1/4-inch dice. Mince the garlic. Scrub the littleneck clams. Scrub and debeard the mussels.",
+      "secondary_message": "½ medium yellow onion\n4 medium cloves garlic\n0.45 kg littleneck clams\n226 g mussels"
+    },
     {
       "id": 1,
       "primary_message": "In a Dutch oven or large pot, heat 1/4 cup oil over medium-high heat until shimmering. Add shrimp shells and cook, stirring frequently, until bright pink and beginning to brown in places. Using a slotted spoon or spider skimmer, remove shells; discard shells.",

@@ -79,8 +79,9 @@
     },
     {
       "ingredient_id": 1021,
-      "name": "frozen puff pastry, thawed",
-      "quantity": "0.23 kg"
+      "name": "frozen puff pastry",
+      "quantity": "0.23 kg",
+      "prep": "thawed"
     },
     {
       "ingredient_id": 2501,
@@ -89,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thaw the frozen puff pastry.",
+      "secondary_message": "0.23 kg frozen puff pastry"
+    },
     {
       "id": 1,
       "primary_message": "Preheat a Belgian waffle iron according to manufacturer directions. Combine olive oil, parsley, garlic, and capers and, using a mini food processor or an immersion blender, process into a semi-smooth sauce. Season with salt and pepper.",

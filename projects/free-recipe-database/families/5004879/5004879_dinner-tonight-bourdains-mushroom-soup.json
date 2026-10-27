@@ -40,13 +40,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, thinly sliced",
-      "quantity": "1"
+      "name": "onion",
+      "quantity": "1",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 19,
-      "name": "button mushrooms, halved",
-      "quantity": "12 oz"
+      "name": "button mushrooms",
+      "quantity": "12 oz",
+      "prep": "halved"
     },
     {
       "ingredient_id": 1231,
@@ -75,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the onion. Halve the button mushrooms.",
+      "secondary_message": "1 onion\n12 oz button mushrooms"
+    },
     {
       "id": 1,
       "primary_message": "Over medium heat, melt two tablespoons of the butter in a saucepan. Toss in the onion and cook until soft but not browned.",

@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 234,
-      "name": "peaches, pits removed, cut into 1/4-inch slices",
-      "quantity": "3"
+      "name": "peaches",
+      "quantity": "3",
+      "prep": "pits removed, cut into 1/4-inch slices"
     },
     {
       "ingredient_id": 2346,
@@ -101,11 +102,18 @@
     },
     {
       "ingredient_id": 1746,
-      "name": "fresh basil leaves, roughly chopped",
-      "quantity": "¼ cup"
+      "name": "fresh basil leaves",
+      "quantity": "¼ cup",
+      "prep": "roughly chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the pits from the peaches, then cut them into 1/4-inch slices. Roughly chop the fresh basil leaves.",
+      "secondary_message": "3 peaches\n¼ cup fresh basil leaves"
+    },
     {
       "id": 1,
       "primary_message": "Season pork chops generously with salt and pepper. Heat 1 tablespoon olive oil in a 30-cm skillet over high heat until lightly smoking. Add pork chops and cook until first side is nicely browned, 4 to 6 minutes. Flip and continue to cook until the internal temperature registers 63°C on an instant-read thermometer, about 3 minutes longer. Transfer to a plate and tent with foil. Do not wipe out skillet.",

@@ -64,8 +64,9 @@
     },
     {
       "ingredient_id": 228,
-      "name": "lime, zested",
-      "quantity": "1"
+      "name": "lime",
+      "quantity": "1",
+      "prep": "zested"
     },
     {
       "ingredient_id": 41,
@@ -79,6 +80,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the lime.",
+      "secondary_message": "1 lime"
+    },
     {
       "id": 1,
       "primary_message": "In an electric kettle or a small saucepan, heat water to 180°F. Do not bring to a boil now or at any time while making the sorbet, or base will turn bitter and take on a \"cooked\" flavor.",

@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "8 cloves"
+      "name": "garlic",
+      "quantity": "8 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 82,
@@ -85,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic.",
+      "secondary_message": "8 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "To make the mojo sauce, whisk together the olive oil, orange juice, lime juice, lemon juice, garlic, oregano, cumin, salt, and pepper in a medium bowl. Set aside.",

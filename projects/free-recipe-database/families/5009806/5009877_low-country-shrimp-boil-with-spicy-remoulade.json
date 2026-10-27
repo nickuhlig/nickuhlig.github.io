@@ -104,8 +104,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly sliced",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "roughly sliced"
     },
     {
       "ingredient_id": 149,
@@ -114,13 +115,15 @@
     },
     {
       "ingredient_id": 2827,
-      "name": "smoked sausage, cut into 2-inch pieces",
-      "quantity": "0.68 kg"
+      "name": "smoked sausage",
+      "quantity": "0.68 kg",
+      "prep": "cut into 2-inch pieces"
     },
     {
       "ingredient_id": 27,
-      "name": "fresh corn, shucked and snapped in half",
-      "quantity": "3 ears"
+      "name": "fresh corn",
+      "quantity": "3 ears",
+      "prep": "shucked and snapped in half"
     },
     {
       "ingredient_id": 1811,
@@ -129,6 +132,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly slice the garlic. Cut the smoked sausage into 2-inch pieces. Shuck and snap the fresh corn in half.",
+      "secondary_message": "4 cloves garlic\n0.68 kg smoked sausage\n3 ears fresh corn"
+    },
     {
       "id": 1,
       "primary_message": "Combine horseradish, vinegar, ketchup, mayonnaise and Sriracha in a small bowl. Cover and refrigerate until ready to use.",

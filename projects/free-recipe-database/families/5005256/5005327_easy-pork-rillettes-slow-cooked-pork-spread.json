@@ -42,8 +42,9 @@
   "ingredients": [
     {
       "ingredient_id": 2164,
-      "name": "boneless skinless pork shoulder, cut into 1 1/2-inch chunks",
-      "quantity": "0.91 kg"
+      "name": "boneless skinless pork shoulder",
+      "quantity": "0.91 kg",
+      "prep": "cut into 1 1/2-inch chunks"
     },
     {
       "ingredient_id": 88,
@@ -67,13 +68,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, very roughly chopped",
-      "quantity": "2 large"
+      "name": "shallots",
+      "quantity": "2 large",
+      "prep": "very roughly chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, split in half",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "split in half"
     },
     {
       "ingredient_id": 349,
@@ -82,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the boneless skinless pork shoulder into 1 1/2-inch chunks. Very roughly chop the shallots. Split the garlic in half.",
+      "secondary_message": "0.91 kg boneless skinless pork shoulder\n2 large shallots\n4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower position and preheat oven to 140°C (275°F). Season pork lightly with salt and pack into a Dutch oven, roasting pan, or casserole dish. It should fit in a layer about 5 cm deep. Pour oil over the pork (if using lard or duck fat, heat until just melted before pouring over pork). Nestle bay leaves, thyme sprigs, shallots, and garlic in with the pork. Cover pan tightly with aluminum foil, transfer to oven, and cook until pork is completely tender and shows very little resistance when pierced with a knife, about 3 hours.",

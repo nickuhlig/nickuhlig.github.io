@@ -47,11 +47,18 @@
     },
     {
       "ingredient_id": 1534,
-      "name": "pitted black olives, roughly chopped",
-      "quantity": "3 oz"
+      "name": "pitted black olives",
+      "quantity": "3 oz",
+      "prep": "roughly chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the pitted black olives.",
+      "secondary_message": "3 oz pitted black olives"
+    },
     {
       "id": 1,
       "primary_message": "Complete Easy, Herb-Packed Falafel recipe through the end of step 2. Add harissa and black olives to falafel mixture and fold in gently with a rubber spatula. Continue cooking falafel as directed, starting with step 3. Serve with zhug or tahini sauce.",

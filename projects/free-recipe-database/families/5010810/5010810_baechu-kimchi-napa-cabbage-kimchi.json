@@ -70,19 +70,22 @@
     },
     {
       "ingredient_id": 1926,
-      "name": "saeujeot, with its brine, minced",
-      "quantity": "2 tbsp"
+      "name": "saeujeot, with its brine",
+      "quantity": "2 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely chopped",
-      "quantity": "8 cloves"
+      "name": "garlic",
+      "quantity": "8 cloves",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, peeled and finely chopped",
+      "name": "fresh ginger",
       "quantity": "3 (1 inch) pieces",
-      "weigh_as": "1 oz"
+      "weigh_as": "1 oz",
+      "prep": "peeled and finely chopped"
     },
     {
       "ingredient_id": 247,
@@ -106,6 +109,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the saeujeot. Finely chop the garlic. Peel and finely chop the fresh ginger.",
+      "secondary_message": "2 tbsp saeujeot, with its brine\n8 cloves garlic\n3 (1 inch) pieces fresh ginger"
+    },
     {
       "id": 1,
       "primary_message": "For Brining the Cabbage: Remove and discard any blemished outer leaves from cabbage head. Using a sharp knife, trim root end, then cut through bottom quarter of cabbage head lengthwise, as if to halve it, but stopping where core meets leafy part. Using your hands, tear cabbage head in half lengthwise. Repeat process by cutting each half through core, stopping where core meets leafy part, and use your hands to tear cabbage head lengthwise into quarters.",

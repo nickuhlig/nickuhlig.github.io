@@ -80,8 +80,9 @@
     },
     {
       "ingredient_id": 2897,
-      "name": "hollandaise sauce, warm",
-      "quantity": "1 recipe"
+      "name": "hollandaise sauce",
+      "quantity": "1 recipe",
+      "prep": "warm"
     },
     {
       "ingredient_id": 1808,
@@ -90,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Warm the hollandaise sauce.",
+      "secondary_message": "1 recipe hollandaise sauce"
+    },
     {
       "id": 1,
       "primary_message": "Combine flour, salt, and yeast in a large bowl. Whisk until homogenous. Add water and stir with hands until dough comes together and no dry flour remains. Knead lightly for about 30 seconds, then cover bowl tightly with plastic wrap and let sit at room temperature for 8 to 16 hours.",

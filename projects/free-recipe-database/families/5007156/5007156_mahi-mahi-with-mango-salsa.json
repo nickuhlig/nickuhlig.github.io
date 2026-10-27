@@ -32,8 +32,9 @@
   "ingredients": [
     {
       "ingredient_id": 229,
-      "name": "peeled mango, chopped",
-      "quantity": "2 ½ cups"
+      "name": "peeled mango",
+      "quantity": "2 ½ cups",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 184,
@@ -42,8 +43,9 @@
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño, finely diced",
-      "quantity": "1"
+      "name": "jalapeño",
+      "quantity": "1",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 2346,
@@ -87,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the peeled mango. Finely dice the jalapeño.",
+      "secondary_message": "2 ½ cups peeled mango\n1 jalapeño"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, combine ingredients for salsa. Mix well and set aside.",

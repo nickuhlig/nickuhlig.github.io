@@ -34,8 +34,9 @@
   "ingredients": [
     {
       "ingredient_id": 238,
-      "name": "new potatoes, small, rinsed",
-      "quantity": "2 lb"
+      "name": "new potatoes, small",
+      "quantity": "2 lb",
+      "prep": "rinsed"
     },
     {
       "ingredient_id": 88,
@@ -44,6 +45,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse the new potatoes.",
+      "secondary_message": "2 lb new potatoes, small"
+    },
     {
       "id": 1,
       "primary_message": "Place potatoes in a large saucepan and cover with water. Add salt and stir to dissolve. Bring to a boil over high heat. Reduce to a low boil and cook, stirring occasionally, until liquid has completely evaporated and potatoes are covered in a film of salt, about 45 minutes. Remove from heat and let potatoes rest for 5 minutes in pan. Toss again, then transfer to a serving bowl. Serve with ají.",

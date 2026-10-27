@@ -74,8 +74,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted and cooled",
-      "quantity": "3 tbsp (1 ½ oz)"
+      "name": "unsalted butter",
+      "quantity": "3 tbsp (1 ½ oz)",
+      "prep": "melted and cooled"
     },
     {
       "ingredient_id": 3045,
@@ -94,11 +95,18 @@
     },
     {
       "ingredient_id": 1163,
-      "name": "corn kernels, fresh, frozen or canned",
-      "quantity": "⅓ cup"
+      "name": "corn kernels, fresh",
+      "quantity": "⅓ cup",
+      "prep": "frozen or canned"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter and let it cool. Freeze or can the corn kernels.",
+      "secondary_message": "3 tbsp (1 ½ oz) unsalted butter\n⅓ cup corn kernels, fresh"
+    },
     {
       "id": 1,
       "primary_message": "Getting ready: Center a rack in the oven and preheat the oven to 400°F. Butter or spray the 12 muffin molds in a regular-size muffin tin, or fit the molds with paper muffin cups.",

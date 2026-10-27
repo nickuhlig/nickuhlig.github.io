@@ -77,38 +77,45 @@
     },
     {
       "ingredient_id": 91,
-      "name": "cannellini beans, drained and rinsed",
-      "quantity": "1 (425 g) can"
+      "name": "cannellini beans",
+      "quantity": "1 (425 g) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely chopped",
-      "quantity": "1 large"
+      "name": "shallot",
+      "quantity": "1 large",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 277,
-      "name": "grape tomatoes, halved",
-      "quantity": "237 ml"
+      "name": "grape tomatoes",
+      "quantity": "237 ml",
+      "prep": "halved"
     },
     {
       "ingredient_id": 1399,
-      "name": "Persian cucumbers, seeded and diced",
-      "quantity": "3 medium"
+      "name": "Persian cucumbers",
+      "quantity": "3 medium",
+      "prep": "seeded and diced"
     },
     {
       "ingredient_id": 2012,
-      "name": "Kalamata olives, pitted and halved",
-      "quantity": "⅔ cup"
+      "name": "Kalamata olives",
+      "quantity": "⅔ cup",
+      "prep": "pitted and halved"
     },
     {
       "ingredient_id": 106,
-      "name": "fresh flat-leaf parsley leaves, tender stems roughly chopped",
-      "quantity": "1 handful"
+      "name": "fresh flat-leaf parsley leaves",
+      "quantity": "1 handful",
+      "prep": "tender stems roughly chopped"
     },
     {
       "ingredient_id": 1746,
-      "name": "fresh basil leaves, roughly chopped",
-      "quantity": "1 handful"
+      "name": "fresh basil leaves",
+      "quantity": "1 handful",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 32,
@@ -117,6 +124,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain and rinse the cannellini beans. Finely chop the shallot. Halve the grape tomatoes. Seed and dice the Persian cucumbers. Pit and halve the Kalamata olives. Roughly chop the tender stems of the fresh flat-leaf parsley leaves. Roughly chop the fresh basil leaves.",
+      "secondary_message": "1 (425 g) can cannellini beans\n1 large shallot\n237 ml grape tomatoes\n3 medium Persian cucumbers\n⅔ cup Kalamata olives\n1 handful fresh flat-leaf parsley leaves\n1 handful fresh basil leaves"
+    },
     {
       "id": 1,
       "primary_message": "For the Dressing: In a large bowl, whisk together garlic, lemon juice, vinegar, olive oil, mustard, and honey. Season with salt and pepper.",

@@ -87,9 +87,10 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, peeled and trimmed",
+      "name": "shallots",
       "quantity": "9",
-      "weigh_as": "12 oz"
+      "weigh_as": "12 oz",
+      "prep": "peeled and trimmed"
     },
     {
       "ingredient_id": 153,
@@ -98,8 +99,9 @@
     },
     {
       "ingredient_id": 106,
-      "name": "flat-leaf parsley leaves, roughly chopped",
-      "quantity": "1 small handful"
+      "name": "flat-leaf parsley leaves",
+      "quantity": "1 small handful",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 117,
@@ -123,8 +125,9 @@
     },
     {
       "ingredient_id": 1929,
-      "name": "shiitake mushrooms, stemmed",
-      "quantity": "12 oz"
+      "name": "shiitake mushrooms",
+      "quantity": "12 oz",
+      "prep": "stemmed"
     },
     {
       "ingredient_id": 226,
@@ -133,6 +136,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and trim the shallots. Roughly chop the flat-leaf parsley leaves. Stem the shiitake mushrooms.",
+      "secondary_message": "9 shallots\n1 small handful flat-leaf parsley leaves\n12 oz shiitake mushrooms"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 325°F. In a large saucepan, cover potatoes with cold water and season heavily with salt until water is saltier than the sea. Add garlic and thyme sprigs and set over medium-high heat. Bring to a bare simmer and cook, adjusting heat to maintain bare simmer, until potatoes are tender, about 25 minutes.",

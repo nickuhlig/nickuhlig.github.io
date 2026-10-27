@@ -62,18 +62,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, quartered",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and cut into big chunks",
-      "quantity": "2 large"
+      "name": "carrots",
+      "quantity": "2 large",
+      "prep": "peeled and cut into big chunks"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, cut into large chunks",
-      "quantity": "1 stalk"
+      "name": "celery",
+      "quantity": "1 stalk",
+      "prep": "cut into large chunks"
     },
     {
       "ingredient_id": 1064,
@@ -107,13 +110,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 192,
-      "name": "whole lemon, pierced several times with a fork",
-      "quantity": "1"
+      "name": "whole lemon",
+      "quantity": "1",
+      "prep": "pierced several times with a fork"
     },
     {
       "ingredient_id": 287,
@@ -132,13 +137,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 2107,
-      "name": "dried tart cherries, chopped",
-      "quantity": "½ cup"
+      "name": "dried tart cherries",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2530,
@@ -157,6 +164,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Quarter the onion. Peel and cut the carrots into big chunks. Cut the celery into large chunks. Roughly chop the garlic. Pierce the whole lemon several times with a fork. Smash the garlic. Chop the dried tart cherries.",
+      "secondary_message": "1 medium onion\n2 large carrots\n1 stalk celery\n3 medium cloves garlic\n1 whole lemon\n2 medium cloves garlic\n½ cup dried tart cherries"
+    },
     {
       "id": 1,
       "primary_message": "For the Pot Roast: Adjust oven rack to lower-middle position and preheat oven to 165°C (325°F).",

@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, sliced thinly",
-      "quantity": "8 medium"
+      "name": "shallots",
+      "quantity": "8 medium",
+      "prep": "sliced thinly"
     },
     {
       "ingredient_id": 131,
@@ -71,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the shallots thinly.",
+      "secondary_message": "8 medium shallots"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven racks to upper and lower middle positions and place a rimmed baking sheet on each rack. Preheat oven with sheets to 500°F.",

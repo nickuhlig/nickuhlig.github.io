@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 302,
-      "name": "slab bacon, rind removed and cut into 4 pieces",
-      "quantity": "5 oz"
+      "name": "slab bacon",
+      "quantity": "5 oz",
+      "prep": "rind removed and cut into 4 pieces"
     },
     {
       "ingredient_id": 1713,
@@ -105,8 +106,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested, removed in wide strips",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "zested, removed in wide strips"
     },
     {
       "ingredient_id": 1714,
@@ -115,6 +117,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the rind from the slab bacon, then cut it into 4 pieces. Zest and remove the lemon in wide strips.",
+      "secondary_message": "5 oz slab bacon\n1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "One hour before cooking, remove neck from refrigerator. Pour 2 cup boiling water over the mushrooms in a small bow, and leave them to soak. Preheat the oven to 300 F.",

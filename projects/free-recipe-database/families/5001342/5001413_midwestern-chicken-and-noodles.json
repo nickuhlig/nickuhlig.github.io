@@ -77,8 +77,9 @@
     },
     {
       "ingredient_id": 1703,
-      "name": "bone-in split chicken breasts, skin removed",
-      "quantity": "3"
+      "name": "bone-in split chicken breasts",
+      "quantity": "3",
+      "prep": "skin removed"
     },
     {
       "ingredient_id": 115,
@@ -117,6 +118,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the skin from the bone-in split chicken breasts.",
+      "secondary_message": "3 bone-in split chicken breasts"
+    },
     {
       "id": 1,
       "primary_message": "For the Noodles: On a clean, dry work surface, pile flour into a large mound. Make a well in the center of mound and pour in egg yolks. Add salt and beat with a fork, gradually incorporating more flour from the mound until a sticky dough forms.",

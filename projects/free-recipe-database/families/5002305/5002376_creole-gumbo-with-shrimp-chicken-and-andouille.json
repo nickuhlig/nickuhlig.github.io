@@ -69,8 +69,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, diced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 88,
@@ -79,18 +80,21 @@
     },
     {
       "ingredient_id": 291,
-      "name": "green bell pepper, diced",
-      "quantity": "1"
+      "name": "green bell pepper",
+      "quantity": "1",
+      "prep": "diced"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, diced",
-      "quantity": "3 stalks"
+      "name": "celery",
+      "quantity": "3 stalks",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely chopped fine",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "finely chopped fine"
     },
     {
       "ingredient_id": 1747,
@@ -119,18 +123,21 @@
     },
     {
       "ingredient_id": 2489,
-      "name": "andouille sausage, sliced into 1/4-inch rounds",
-      "quantity": "0.45 kg"
+      "name": "andouille sausage",
+      "quantity": "0.45 kg",
+      "prep": "sliced into 1/4-inch rounds"
     },
     {
       "ingredient_id": 2949,
-      "name": "rotisserie chicken, meat removed and shredded, plus juices",
-      "quantity": "1"
+      "name": "rotisserie chicken, plus juices",
+      "quantity": "1",
+      "prep": "meat removed and shredded"
     },
     {
       "ingredient_id": 1811,
-      "name": "shrimp, large, peeled and deveined",
-      "quantity": "0.68 kg"
+      "name": "shrimp, large",
+      "quantity": "0.68 kg",
+      "prep": "peeled and deveined"
     },
     {
       "ingredient_id": 72,
@@ -144,6 +151,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the onion. Dice the green bell pepper. Dice the celery. Finely chop the garlic fine. Slice the andouille sausage into 1/4-inch rounds. Remove the meat from the rotisserie chicken, then shred it. Peel and devein the shrimp.",
+      "secondary_message": "1 medium onion\n1 green bell pepper\n3 stalks celery\n2 cloves garlic\n0.45 kg andouille sausage\n1 rotisserie chicken, plus juices\n0.68 kg shrimp, large"
+    },
     {
       "id": 1,
       "primary_message": "If using fresh okra, fill a pot with about 3 to 5 cm of water and bring it to a boil. Place a steamer basket over the water. Add fresh okra pods to the basket. Cover and steam until bright green and crisp-tender, 6 to 8 minutes. Transfer to a cutting board and let cool. Once cooled, slice crosswise into approximately 0.5-cm thick rounds, discarding stem ends. (Skip this step if using frozen okra.)",

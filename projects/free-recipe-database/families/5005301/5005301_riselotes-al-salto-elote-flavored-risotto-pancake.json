@@ -43,8 +43,9 @@
     },
     {
       "ingredient_id": 1618,
-      "name": "chipotle chilis, canned in adobo sauce, minced",
-      "quantity": "1 tbsp"
+      "name": "chipotle chilis, canned in adobo sauce",
+      "quantity": "1 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 115,
@@ -53,8 +54,9 @@
     },
     {
       "ingredient_id": 3155,
-      "name": "leftover corn risotto, fully chilled in the refrigerator",
-      "quantity": "2 cups"
+      "name": "leftover corn risotto",
+      "quantity": "2 cups",
+      "prep": "fully chilled in the refrigerator"
     },
     {
       "ingredient_id": 1612,
@@ -73,11 +75,18 @@
     },
     {
       "ingredient_id": 228,
-      "name": "lime, cut into wedges",
-      "quantity": "1"
+      "name": "lime",
+      "quantity": "1",
+      "prep": "cut into wedges"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the chipotle chilis. Fully chill the leftover corn risotto in the refrigerator. Cut the lime into wedges.",
+      "secondary_message": "1 tbsp chipotle chilis, canned in adobo sauce\n2 cups leftover corn risotto\n1 lime"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, stir together mayonnaise and chipotle. Add mixture to a piping bag, if desired, for fancier presentation.",

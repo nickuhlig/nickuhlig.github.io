@@ -58,8 +58,9 @@
     },
     {
       "ingredient_id": 2202,
-      "name": "dried cranberry beans, picked over and rinsed",
-      "quantity": "8 oz"
+      "name": "dried cranberry beans",
+      "quantity": "8 oz",
+      "prep": "picked over and rinsed"
     },
     {
       "ingredient_id": 47,
@@ -68,18 +69,21 @@
     },
     {
       "ingredient_id": 2697,
-      "name": "pancetta, finely chopped",
-      "quantity": "4 oz"
+      "name": "pancetta",
+      "quantity": "4 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1747,
@@ -108,6 +112,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the dried cranberry beans over, then rinse them. Finely chop the pancetta. Finely chop the yellow onion. Mince the garlic.",
+      "secondary_message": "8 oz dried cranberry beans\n4 oz pancetta\n1 medium yellow onion\n4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "In a large container, combine 2 quarts cold water, 1 1/2 tablespoons salt, and 3/4 teaspoons baking soda, and whisk to combine until salt is dissolved. Add beans and soak at room temperature for at least 8 hours or up to 24 hours. Drain and rinse well.",

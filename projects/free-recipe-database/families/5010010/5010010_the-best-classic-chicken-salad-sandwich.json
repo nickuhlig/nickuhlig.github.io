@@ -99,11 +99,18 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "minced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic.",
+      "secondary_message": "1 medium clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "If Cooking Sous-Vide (See Notes for Alternate Cooking Methods): Season chicken generously with salt and pepper. Slice 1 lemon into 1/8- to 1/4-inch slices. Place chicken in zipper-lock bags or vacuum bags and add whole tarragon sprigs and lemon slices. Remove air from zipper-lock bags by closing the bags, leaving the last inch of the top un-sealed. Slowly lower into a pot of water, sealing the bag completely just before it fully submerges. If using a vacuum bag, seal according to manufacturer instructions.",

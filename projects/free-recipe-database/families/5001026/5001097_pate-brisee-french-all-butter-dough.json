@@ -57,8 +57,9 @@
   "ingredients": [
     {
       "ingredient_id": 116,
-      "name": "all-purpose flour, sifted, plus more for dusting",
-      "quantity": "160 g"
+      "name": "all-purpose flour, plus more for dusting",
+      "quantity": "160 g",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 346,
@@ -72,8 +73,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into 1/2-inch cubes",
-      "quantity": "113 g"
+      "name": "cold unsalted butter",
+      "quantity": "113 g",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 359,
@@ -82,6 +84,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Sift the all-purpose flour. Cut the cold unsalted butter into 1/2-inch cubes.",
+      "secondary_message": "160 g all-purpose flour, plus more for dusting\n113 g cold unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a large mixing bowl, whisk flour, sugar, and salt to combine. Add butter to flour mixture and toss with fingers until butter pieces are thoroughly coated with flour mixture. Using your fingertips, pinch and flatten butter, then rub it between your fingertips until a sandy texture forms, 3 to 4 minutes. (It should resemble coarse breadcrumbs with some pea-size pieces still visible but no large chunks of butter remaining.)",

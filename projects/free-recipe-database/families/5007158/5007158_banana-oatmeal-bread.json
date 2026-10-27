@@ -96,8 +96,9 @@
     },
     {
       "ingredient_id": 317,
-      "name": "ripe bananas, cut into quarters",
-      "quantity": "2 medium"
+      "name": "ripe bananas",
+      "quantity": "2 medium",
+      "prep": "cut into quarters"
     },
     {
       "ingredient_id": 121,
@@ -121,6 +122,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the ripe bananas into quarters.",
+      "secondary_message": "2 medium ripe bananas"
+    },
     {
       "id": 1,
       "primary_message": "Set a rack in the middle of the oven and preheat to 350°F. Grease and flour a loaf pan; set aside. Place flour, sugar, oats, baking powder, baking soda, salt, and cinnamon in a medium mixing bowl and stir to thoroughly combine. Set aside.",

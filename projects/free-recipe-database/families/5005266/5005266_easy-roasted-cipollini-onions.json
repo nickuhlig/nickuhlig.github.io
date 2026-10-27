@@ -44,8 +44,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "cipollini onions, peeled and trimmed",
-      "quantity": "2 lb"
+      "name": "cipollini onions",
+      "quantity": "2 lb",
+      "prep": "peeled and trimmed"
     },
     {
       "ingredient_id": 88,
@@ -59,6 +60,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and trim the cipollini onions.",
+      "secondary_message": "2 lb cipollini onions"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center position and preheat oven to 325°F. Melt butter in a large non-stick or cast iron skillet over medium heat. Add onions and toss to coat. Season to taste with salt and pepper. Transfer to oven and roast, tossing occasionally, until deeply caramelized and tender, about 30 minutes. Serve immediately.",

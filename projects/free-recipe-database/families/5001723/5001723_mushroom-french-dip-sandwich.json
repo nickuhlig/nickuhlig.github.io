@@ -77,13 +77,15 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, diced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1677,
@@ -127,6 +129,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the yellow onion. Mince the garlic.",
+      "secondary_message": "1 medium yellow onion\n2 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, add hot water and dried porcini and set aside until mushrooms are softened, about 10 minutes. Remove mushrooms, using your hands to squeeze excess liquid back into bowl, transfer to cutting board, and roughly chop. Set aside and reserve soaking liquid.",

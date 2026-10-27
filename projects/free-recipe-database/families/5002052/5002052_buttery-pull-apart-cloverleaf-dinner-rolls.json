@@ -77,16 +77,24 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, room temperature",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 118,
-      "name": "whole milk, room temperature",
-      "quantity": "1 ¼ cups"
+      "name": "whole milk",
+      "quantity": "1 ¼ cups",
+      "prep": "room temperature"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the egg to room temperature. Bring the whole milk to room temperature.",
+      "secondary_message": "1 large egg\n1 ¼ cups whole milk"
+    },
     {
       "id": 1,
       "primary_message": "In the bowl of a stand mixer, add flour, potato flakes, sugar, salt, and yeast. Fit mixer with dough hook and on low speed, mix briefly to combine. Add 5 tablespoons butter, egg, and milk, and mix on low speed with dough hook until dough begins to come together, about 1 minute. Increase speed to medium-low and knead until the dough is smooth, elastic, and passes the windowpane test, about 10 minutes.The dough will feel soft and tacky, but it should not be so sticky that it’s hard to handle.",

@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened, divided",
-      "quantity": "10 tbsp (5 oz)"
+      "name": "unsalted butter, divided",
+      "quantity": "10 tbsp (5 oz)",
+      "prep": "softened"
     },
     {
       "ingredient_id": 346,
@@ -46,8 +47,9 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, chopped",
-      "quantity": "12 oz"
+      "name": "bittersweet chocolate",
+      "quantity": "12 oz",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1752,
@@ -71,8 +73,9 @@
     },
     {
       "ingredient_id": 1716,
-      "name": "hazelnuts, lightly toasted, finely chopped",
-      "quantity": "½ cup"
+      "name": "hazelnuts",
+      "quantity": "½ cup",
+      "prep": "lightly toasted, finely chopped"
     },
     {
       "ingredient_id": 1710,
@@ -86,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter. Chop the bittersweet chocolate. Lightly toast and finely chop the hazelnuts.",
+      "secondary_message": "10 tbsp (5 oz) unsalted butter, divided\n12 oz bittersweet chocolate\n½ cup hazelnuts"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350°F. Coat bottom and sides a 9-inch springform pan with 2 tablespoons butter. Evenly sprinkle 2 tablespoons granulated sugar into pan to coat.",

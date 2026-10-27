@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 157,
-      "name": "celery, cut into thirds",
-      "quantity": "3 stalks"
+      "name": "celery",
+      "quantity": "3 stalks",
+      "prep": "cut into thirds"
     },
     {
       "ingredient_id": 88,
@@ -65,9 +66,10 @@
     },
     {
       "ingredient_id": 26,
-      "name": "asparagus, ends trimmed, cut into 1-inch lengths",
+      "name": "asparagus",
       "quantity": "½ bunch",
-      "weigh_as": "227 g"
+      "weigh_as": "227 g",
+      "prep": "ends trimmed, cut into 1-inch lengths"
     },
     {
       "ingredient_id": 275,
@@ -96,16 +98,24 @@
     },
     {
       "ingredient_id": 120,
-      "name": "Parmesan cheese, grated",
-      "quantity": "57 g"
+      "name": "Parmesan cheese",
+      "quantity": "57 g",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1808,
-      "name": "parsley leaves, chopped",
-      "quantity": "½ cup"
+      "name": "parsley leaves",
+      "quantity": "½ cup",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the celery into thirds. Trim the ends of the asparagus, then cut it into 1-inch lengths. Grate the Parmesan cheese. Chop the parsley leaves.",
+      "secondary_message": "3 stalks celery\n½ bunch asparagus\n57 g Parmesan cheese\n½ cup parsley leaves"
+    },
     {
       "id": 1,
       "primary_message": "Peel and quarter one onion. Place chicken, celery, onion, and 2 teaspoons salt in stock pot and just cover with water (8 to 10 cups). Bring to simmer on medium heat, reduce heat to low, and gently simmer until chicken is tender and falling off the bone, about 1 hour. Transfer chicken to plate, strain broth, and return broth to pot. When chicken is cool enough to handle, remove meat from the bones and shred into bite-size pieces.",

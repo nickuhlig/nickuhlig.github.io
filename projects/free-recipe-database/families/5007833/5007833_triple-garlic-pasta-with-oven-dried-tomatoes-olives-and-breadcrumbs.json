@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, split in half",
-      "quantity": "1 quart"
+      "name": "cherry tomatoes",
+      "quantity": "1 quart",
+      "prep": "split in half"
     },
     {
       "ingredient_id": 24,
@@ -66,8 +67,9 @@
     },
     {
       "ingredient_id": 1216,
-      "name": "hearty white bread, roughly torn",
-      "quantity": "2 slices"
+      "name": "hearty white bread",
+      "quantity": "2 slices",
+      "prep": "roughly torn"
     },
     {
       "ingredient_id": 1808,
@@ -111,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the cherry tomatoes in half. Roughly tear the hearty white bread.",
+      "secondary_message": "1 quart cherry tomatoes\n2 slices hearty white bread"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center position and preheat oven to 300°F. Place tomatoes, cut-side up, on a foil-lined rimmed baking sheet. Scatter sliced garlic cloves and thyme sprigs evenly over tomatoes. Season with salt. Drizzle with 3 tablespoons olive oil and place in oven. Cook, rotating occasionally, until tomatoes are shriveled and half dried, and garlic is golden brown, about 1 hour 15 minutes. Discard thyme sprigs.",

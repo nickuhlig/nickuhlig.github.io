@@ -47,13 +47,15 @@
   "ingredients": [
     {
       "ingredient_id": 317,
-      "name": "ripe but firm medium bananas, peeled and halved lengthwise",
-      "quantity": "2"
+      "name": "ripe but firm medium bananas",
+      "quantity": "2",
+      "prep": "peeled and halved lengthwise"
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cubed, divided",
-      "quantity": "16 tbsp"
+      "name": "cold unsalted butter, divided",
+      "quantity": "16 tbsp",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 293,
@@ -92,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and halve the ripe but firm medium bananas lengthwise. Cube the cold unsalted butter.",
+      "secondary_message": "2 ripe but firm medium bananas\n16 tbsp cold unsalted butter, divided"
+    },
     {
       "id": 1,
       "primary_message": "In a large 12-inch stainless-steel skillet over medium-high heat, melt 4 tablespoons butter with brown sugar, salt, cinnamon, and cardamom while stirring and swirling, until butter is melted and mixture blends into a grainy liquid and begins to bubble, about 2 minutes. Add bananas, cut side down, and continue to cook, swirling gently, until liquid begins to resemble a smoother caramel, about 2 minutes longer.",

@@ -71,8 +71,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cubed",
-      "quantity": "4 tbsp"
+      "name": "unsalted butter",
+      "quantity": "4 tbsp",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 1480,
@@ -81,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cube the unsalted butter.",
+      "secondary_message": "4 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Season steak all over with salt and pepper. In a large stainless steel or cast iron skillet, heat 2 tablespoons oil over high heat until shimmering. Add steak and cook, turning frequently, until an instant-read thermometer registers 120 to 52°C (48 to 51°C) for medium-rare, about 6 minutes. Transfer to a plate.",

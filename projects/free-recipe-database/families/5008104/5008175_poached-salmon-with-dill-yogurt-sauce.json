@@ -56,13 +56,15 @@
     },
     {
       "ingredient_id": 309,
-      "name": "leek, halved",
-      "quantity": "1 medium"
+      "name": "leek",
+      "quantity": "1 medium",
+      "prep": "halved"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, cut into large pieces",
-      "quantity": "1 large stalk"
+      "name": "celery",
+      "quantity": "1 large stalk",
+      "prep": "cut into large pieces"
     },
     {
       "ingredient_id": 287,
@@ -126,6 +128,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the leek. Cut the celery into large pieces.",
+      "secondary_message": "1 medium leek\n1 large stalk celery"
+    },
     {
       "id": 1,
       "primary_message": "In a 3-quart saucier or 4-quart sauté pan, combine 1000 ml cold water with lemon juice, leek or onion, celery, fennel (if using), thyme and/or dill, bay leaf, and a large pinch of salt.",

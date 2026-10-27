@@ -87,11 +87,18 @@
     },
     {
       "ingredient_id": 355,
-      "name": "plain full-fat cream cheese, cubed",
-      "quantity": "113 g"
+      "name": "plain full-fat cream cheese",
+      "quantity": "113 g",
+      "prep": "cubed"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cube the plain full-fat cream cheese.",
+      "secondary_message": "113 g plain full-fat cream cheese"
+    },
     {
       "id": 1,
       "primary_message": "For the Blueberry Topping: In a medium bowl, combine blueberries with lime juice, zest, and brown sugar. Stir well. Let stand for 10 to 15 minutes.",

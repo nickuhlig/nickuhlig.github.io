@@ -98,8 +98,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely minced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 1707,
@@ -123,6 +124,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the shallot.",
+      "secondary_message": "1 small shallot"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center position and preheat oven to 200°C (400°F). Toss squash pieces with 2 tablespoons olive oil and season with salt and pepper. Arrange in a single layer on a foil-lined rimmed baking sheet. Bake until squash is tender throughout and well-browned around the edges, 45 minutes to 1 hour. Remove from oven and allow to cool completely before attempting to remove from foil. Carefully remove squash from foil using a thin metal spatula and transfer to a large bowl. Set aside.",

@@ -78,23 +78,27 @@
     },
     {
       "ingredient_id": 355,
-      "name": "full-fat cream cheese, room temperature, cut into 8 pieces",
-      "quantity": "8 oz"
+      "name": "full-fat cream cheese",
+      "quantity": "8 oz",
+      "prep": "room temperature, cut into 8 pieces"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, room temperature",
-      "quantity": "4 oz"
+      "name": "unsalted butter",
+      "quantity": "4 oz",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 2310,
-      "name": "vegetable shortening, room temperature",
-      "quantity": "3 ¼ oz"
+      "name": "vegetable shortening",
+      "quantity": "3 ¼ oz",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, room temperature",
-      "quantity": "6 large"
+      "name": "eggs",
+      "quantity": "6 large",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 353,
@@ -108,8 +112,9 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, melted and cooled to room temperature",
-      "quantity": "4 oz"
+      "name": "bittersweet chocolate",
+      "quantity": "4 oz",
+      "prep": "melted and cooled to room temperature"
     },
     {
       "ingredient_id": 1710,
@@ -118,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the full-fat cream cheese into 8 pieces and bring it to room temperature. Bring the unsalted butter to room temperature. Bring the vegetable shortening to room temperature. Bring the eggs to room temperature. Melt the bittersweet chocolate and bring it to room temperature.",
+      "secondary_message": "8 oz full-fat cream cheese\n4 oz unsalted butter\n3 ¼ oz vegetable shortening\n6 large eggs\n4 oz bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 325°F. Liberally spray a 10-cup Bundt pan with cooking spray and dust well with flour. Set aside.",

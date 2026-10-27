@@ -64,8 +64,9 @@
     },
     {
       "ingredient_id": 2162,
-      "name": "boneless leg of lamb, cut into 1-inch cubes",
-      "quantity": "0.91 kg"
+      "name": "boneless leg of lamb",
+      "quantity": "0.91 kg",
+      "prep": "cut into 1-inch cubes"
     },
     {
       "ingredient_id": 287,
@@ -89,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the boneless leg of lamb into 1-inch cubes.",
+      "secondary_message": "0.91 kg boneless leg of lamb"
+    },
     {
       "id": 1,
       "primary_message": "For the Marinade: Whisk together oil, lemon juice, garlic, salt, and pepper in a small bowl. Place lambs cubes in a large resealable plastic bag. Pour in marinade and seal bag, removing as much air as possible. Place in refrigerator and marinate for at least 1 and up to 5 hours.",

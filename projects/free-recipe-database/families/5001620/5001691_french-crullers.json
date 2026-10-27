@@ -117,8 +117,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 1/2-inch pieces",
-      "quantity": "84 g"
+      "name": "unsalted butter",
+      "quantity": "84 g",
+      "prep": "cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 346,
@@ -132,8 +133,9 @@
     },
     {
       "ingredient_id": 116,
-      "name": "all-purpose flour, sifted",
-      "quantity": "128 g"
+      "name": "all-purpose flour",
+      "quantity": "128 g",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 121,
@@ -147,6 +149,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into 1/2-inch pieces. Sift the all-purpose flour.",
+      "secondary_message": "84 g unsalted butter\n128 g all-purpose flour"
+    },
     {
       "id": 1,
       "primary_message": "For the Cinnamon Sugar: In a small bowl, whisk sugar and ground cinnamon to combine; set aside.",

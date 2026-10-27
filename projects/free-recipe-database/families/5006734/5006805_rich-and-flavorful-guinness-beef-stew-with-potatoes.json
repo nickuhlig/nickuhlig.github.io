@@ -62,8 +62,9 @@
     },
     {
       "ingredient_id": 1552,
-      "name": "whole boneless beef chuck roast, cut into 3 steaks",
-      "quantity": "1.25 kg"
+      "name": "whole boneless beef chuck roast",
+      "quantity": "1.25 kg",
+      "prep": "cut into 3 steaks"
     },
     {
       "ingredient_id": 88,
@@ -95,8 +96,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, lightly crushed",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "lightly crushed"
     },
     {
       "ingredient_id": 1700,
@@ -146,6 +148,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the whole boneless beef chuck roast into 3 steaks. Lightly crush the garlic.",
+      "secondary_message": "1.25 kg whole boneless beef chuck roast\n4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 150°C (300°F). Pour chicken stock into a medium bowl and sprinkle gelatin evenly all over surface, allowing each packet's worth of gelatin to soak up stock before sprinkling next one on (if the gelatin clumps instead of dissolving evenly, you can use a blender to fix it). Set aside.",

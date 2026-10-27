@@ -103,8 +103,9 @@
     },
     {
       "ingredient_id": 1848,
-      "name": "refined coconut oil, melted",
-      "quantity": "3 oz"
+      "name": "refined coconut oil",
+      "quantity": "3 oz",
+      "prep": "melted"
     },
     {
       "ingredient_id": 304,
@@ -138,8 +139,9 @@
     },
     {
       "ingredient_id": 1554,
-      "name": "dried mangos, sliced into bite-size pieces",
-      "quantity": "4 oz"
+      "name": "dried mangos",
+      "quantity": "4 oz",
+      "prep": "sliced into bite-size pieces"
     },
     {
       "ingredient_id": 2107,
@@ -158,6 +160,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the refined coconut oil. Slice the dried mangos into bite-size pieces.",
+      "secondary_message": "3 oz refined coconut oil\n4 oz dried mangos"
+    },
     {
       "id": 1,
       "primary_message": "For the Granola: In medium bowl, combine banana purée, vanilla, salt, cinnamon, cloves, and nutmeg, mashing with fork until very smooth. Alternatively, this can be done in a food processor or with an immersion blender. Add rolled oats, wheat germ, flaxseed, and chia, tossing with a flexible spatula to combine. Cover with plastic and set aside until oats are stiff and dry, about 30 minutes. Stir in sugar; cover and let stand until well dissolved, about 30 minutes more. Finally, stir in melted coconut oil.",

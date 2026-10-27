@@ -52,8 +52,9 @@
   "ingredients": [
     {
       "ingredient_id": 1897,
-      "name": "fingerling potatoes, cut into 1/2-inch disks",
-      "quantity": "0.68 kg"
+      "name": "fingerling potatoes",
+      "quantity": "0.68 kg",
+      "prep": "cut into 1/2-inch disks"
     },
     {
       "ingredient_id": 88,
@@ -82,13 +83,15 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, diced",
-      "quantity": "1 small"
+      "name": "red onion",
+      "quantity": "1 small",
+      "prep": "diced"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, finely sliced",
-      "quantity": "2"
+      "name": "scallions",
+      "quantity": "2",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 320,
@@ -102,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the fingerling potatoes into 1/2-inch disks. Dice the red onion. Finely slice the scallions.",
+      "secondary_message": "0.68 kg fingerling potatoes\n1 small red onion\n2 scallions"
+    },
     {
       "id": 1,
       "primary_message": "Place potatoes, 1 tablespoon salt, 1/2 tablespoon vinegar, and 3 cups tepid water in a medium saucepan. Bring to a boil over high heat, stirring occasionally until salt is dissolved. Reduce to a bare simmer and cook until potatoes are completely tender and show no resistance when poked with a paring knife or cake tester, about 17 minutes. Drain potatoes. Immediately toss potato pieces with 1 tablespoon vinegar, spread in a single layer in a rimmed baking sheet, and allow to cool to warm room temperature, about 10 minutes.",

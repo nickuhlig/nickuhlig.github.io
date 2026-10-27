@@ -48,8 +48,9 @@
     },
     {
       "ingredient_id": 270,
-      "name": "chives, minced, about 2 cups",
-      "quantity": "1 bunch"
+      "name": "chives, about 2 cups",
+      "quantity": "1 bunch",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2562,
@@ -83,6 +84,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the chives.",
+      "secondary_message": "1 bunch chives, about 2 cups"
+    },
     {
       "id": 1,
       "primary_message": "Mix all the ingredients for the filling in a bowl. Using your hands or a wooden spoon, vigorously stir the mixture around in the bowl and let sit for 1 hour to allow the flavors to sink in and the meat to bind.",

@@ -39,9 +39,10 @@
   "ingredients": [
     {
       "ingredient_id": 469,
-      "name": "plums, pitted and quartered",
+      "name": "plums",
       "quantity": "12",
-      "weigh_as": "2 lb"
+      "weigh_as": "2 lb",
+      "prep": "pitted and quartered"
     },
     {
       "ingredient_id": 346,
@@ -65,6 +66,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pit and quarter the plums.",
+      "secondary_message": "12 plums"
+    },
     {
       "id": 1,
       "primary_message": "Purée plums in a blender or food processor until smooth. Once pitted, 2 pounds of plums should yield 1 quart of purée. Add sugar and corn syrup and blend for 30 seconds. Add salt, blend to incorporate, and adjust to taste. If plums are very sweet, add lemon juice to taste, starting with 1/4 teaspoon.",

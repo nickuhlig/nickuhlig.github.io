@@ -433,7 +433,7 @@ NOT_STOCK = re.compile(r"\b(tonkotsu|paitan|creamy|soup|noodles?|udon|mazemen|mu
 
 def strained_stock(recipe: dict) -> bool:
     name = recipe.get("name") or ""
-    steps = " ".join((s.get("primary_message") or "") if isinstance(s, dict) else (s or "") for s in recipe.get("instructions", []))
+    steps = " ".join((s.get("primary_message") or "") if isinstance(s, dict) else (s or "") for s in cooking_steps(recipe))
     return bool(STOCK_NAME.search(name) and not NOT_STOCK.search(name) and re.search(r"\bstrain", steps, re.I))
 
 
@@ -472,7 +472,7 @@ def drained_water_salt(recipe: dict) -> list:
     out = []
     if re.search(r"\bone[- ]pot\b", recipe.get("name") or "", re.I):   # the pasta absorbs that water
         return out
-    for step in recipe.get("instructions", []):
+    for step in cooking_steps(recipe):
         text = step.get("secondary_message") if isinstance(step, dict) else step
         primary = step.get("primary_message", "") if isinstance(step, dict) else ""
         lines = [l.strip() for l in (text or "").split("\n") if l.strip()]
@@ -544,7 +544,7 @@ def apply_deep_frying(recipe: dict, lines: list, foods: dict) -> None:
     ones that appear only in side-component steps ("For the Dipping Sauce: ...") or only in steps
     after the last frying step (serving, garnish). Imported-site steps have no ingredient lists,
     so mentions are matched by name words."""
-    steps = [(s.get("primary_message") or "") if isinstance(s, dict) else (s or "") for s in recipe.get("instructions", [])]
+    steps = [(s.get("primary_message") or "") if isinstance(s, dict) else (s or "") for s in cooking_steps(recipe)]
     oil = frying_oil_lines(lines, steps, foods, recipe.get("name") or "")
     if not oil:
         return
@@ -606,6 +606,12 @@ def recipe_amount(quantity: str | None) -> float | None:
     return _num(m["a"]) if not m["b"] else (_num(m["a"]) + _num(m["b"])) / 2
 
 
+def cooking_steps(recipe: dict) -> list:
+    """The recipe's steps without the generated Prep step (ingredient_prep), which names every prepped
+    ingredient and would otherwise look like a step that cooks them (frying, salted water)."""
+    return [s for s in recipe.get("instructions") or [] if not (isinstance(s, dict) and s.get("kind") == "prep")]
+
+
 def foods_of(db: dict) -> dict:
     """Source foods plus the batch foods of linked recipes ("batch:<recipe id>")."""
     return {**db["foods"], **db.get("batches", {})}
@@ -627,7 +633,10 @@ def recipe_nutrition(recipe: dict, db: dict, skip_ids=()) -> dict:
         quantity = ing.get("weigh_as") or ing.get("quantity")
         if str(index) in override.get("quantity", {}) and not (quantity or "").strip():
             quantity = override["quantity"][str(index)]       # reviewed amount for a line the recipe left blank
-        entry = {"ingredient_id": iid, "name": ing.get("name"), "quantity": quantity, "index": index}
+        # the prep a line had in its name ("onion, chopped") now sits in "prep"; the rules below read the two together
+        # (a cup of chopped onion weighs more than a cup of sliced; "shredded" chicken has no bone)
+        line_name = ", ".join(x for x in (ing.get("name"), ing.get("prep")) if x)
+        entry = {"ingredient_id": iid, "name": line_name, "quantity": quantity, "index": index}
         if not assign:
             entry.update(status="unmatched ingredient")
             lines.append(entry)
@@ -651,7 +660,7 @@ def recipe_nutrition(recipe: dict, db: dict, skip_ids=()) -> dict:
         # Mealime's blank lines are optional extras its own numbers leave out, so they stay "to taste"
         recipes_n = recipe_amount(quantity)
         if (parsed["kind"] == "empty" or recipes_n is not None) and recipe.get("source") not in (None, "authenticated_backfill"):
-            name = ing.get("name") or ""
+            name = line_name
             key = component_key(name)
             link = db.get("component_links", {}).get(key)
             if link:
@@ -685,11 +694,11 @@ def recipe_nutrition(recipe: dict, db: dict, skip_ids=()) -> dict:
                 lines.append(entry)
                 continue
         food = foods[ref]
-        grams, how = line_grams(parsed, food, ing.get("name") or "", measures)
+        grams, how = line_grams(parsed, food, line_name, measures)
         if entry.get("assumed"):
             how = f"{how} (amount not given; assumed {entry['assumed']})"
         if grams and parsed["kind"] in ("weight", "package") and not measures.get("package yield"):
-            y = bone_in_yield(ing.get("name"), food, measures.get("bone in"))
+            y = bone_in_yield(line_name, food, measures.get("bone in"))
             if y:
                 grams, how = grams * y, f"{how}, x {y} edible (bone-in)"
         if grams and iid in SALT_IDS and drained_salt:

@@ -77,11 +77,18 @@
     },
     {
       "ingredient_id": 2286,
-      "name": "skirt steak, cut to manageable grilling sizes",
-      "quantity": "2 lb"
+      "name": "skirt steak",
+      "quantity": "2 lb",
+      "prep": "cut to manageable grilling sizes"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the skirt steak to manageable grilling sizes.",
+      "secondary_message": "2 lb skirt steak"
+    },
     {
       "id": 1,
       "primary_message": "Combine the steak spices in a small bowl. Pat the steak dry so that the surface is tacky, then rub the spice mixture into both sides. Turn on the burner to high under the grill pan to get it heating.",

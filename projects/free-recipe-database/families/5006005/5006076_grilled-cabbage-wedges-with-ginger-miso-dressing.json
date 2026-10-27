@@ -98,8 +98,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallion, thinly sliced",
-      "quantity": "1"
+      "name": "scallion",
+      "quantity": "1",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -108,6 +109,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the scallion.",
+      "secondary_message": "1 scallion"
+    },
     {
       "id": 1,
       "primary_message": "For the Dressing: In a small bowl, whisk together brown sugar, soy sauce, miso, vinegar, mirin, ginger, garlic, sesame oil, crushed red pepper, and white pepper. Set aside.",

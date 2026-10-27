@@ -74,8 +74,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, thinly sliced",
-      "quantity": "1 (½ inch) chunk"
+      "name": "ginger",
+      "quantity": "1 (½ inch) chunk",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1869,
@@ -89,11 +90,18 @@
     },
     {
       "ingredient_id": 2065,
-      "name": "bell pepper, cut into 1/2 inch squares",
-      "quantity": "1"
+      "name": "bell pepper",
+      "quantity": "1",
+      "prep": "cut into 1/2 inch squares"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the ginger. Cut the bell pepper into 1/2 inch squares.",
+      "secondary_message": "1 (½ inch) chunk ginger\n1 bell pepper"
+    },
     {
       "id": 1,
       "primary_message": "Cut the chicken 1/2 cubes. Mix with the marinade ingredients and set aside.",

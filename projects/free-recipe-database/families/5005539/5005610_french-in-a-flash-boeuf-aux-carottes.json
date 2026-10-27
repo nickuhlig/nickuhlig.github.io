@@ -42,8 +42,9 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled",
-      "quantity": "12"
+      "name": "carrots",
+      "quantity": "12",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 2627,
@@ -52,13 +53,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 2421,
-      "name": "chervil, leaves chopped, stems reserved",
-      "quantity": "1 bunch"
+      "name": "chervil",
+      "quantity": "1 bunch",
+      "prep": "leaves chopped, stems reserved"
     },
     {
       "ingredient_id": 1747,
@@ -77,8 +80,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, room temperature",
-      "quantity": "2 tbsp"
+      "name": "butter",
+      "quantity": "2 tbsp",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 2529,
@@ -87,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the carrots. Smash the garlic. Chop the leaves of the chervil, then reserve the stems. Bring the butter to room temperature.",
+      "secondary_message": "12 carrots\n2 cloves garlic\n1 bunch chervil\n2 tbsp butter"
+    },
     {
       "id": 1,
       "primary_message": "In a wide, deep pan, heat 2 tablespoons oil on medium-high heat.",

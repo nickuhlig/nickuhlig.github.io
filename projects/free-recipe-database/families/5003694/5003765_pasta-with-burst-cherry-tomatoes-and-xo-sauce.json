@@ -56,13 +56,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, thinly sliced",
-      "quantity": "2 medium"
+      "name": "shallots",
+      "quantity": "2 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, thinly sliced",
-      "quantity": "4 medium"
+      "name": "garlic cloves",
+      "quantity": "4 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 277,
@@ -76,16 +78,24 @@
     },
     {
       "ingredient_id": 1746,
-      "name": "fresh basil leaves, roughly chopped",
-      "quantity": "14 g"
+      "name": "fresh basil leaves",
+      "quantity": "14 g",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 243,
-      "name": "fresh mint leaves, roughly chopped",
-      "quantity": "14 g"
+      "name": "fresh mint leaves",
+      "quantity": "14 g",
+      "prep": "roughly chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the shallots. Thinly slice the garlic cloves. Roughly chop the fresh basil leaves. Roughly chop the fresh mint leaves.",
+      "secondary_message": "2 medium shallots\n4 medium garlic cloves\n14 g fresh basil leaves\n14 g fresh mint leaves"
+    },
     {
       "id": 1,
       "primary_message": "In a pot of salted boiling water, cook pasta until just shy of al dente (about 1 minute less than the package directs). Drain pasta, reserving 1 1/2 cups cooking water.",

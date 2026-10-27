@@ -69,8 +69,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into 1/2-inch cubes",
-      "quantity": "4 oz"
+      "name": "cold unsalted butter",
+      "quantity": "4 oz",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 143,
@@ -84,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cold unsalted butter into 1/2-inch cubes.",
+      "secondary_message": "4 oz cold unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower-middle position and preheat to 400°F. Should your kitchen be warmer than 75°F, please see our guide to baking in a hot kitchen before getting started; the specifics are focused on pie dough, but the overall principles are true of biscuits as well.",

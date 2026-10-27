@@ -74,8 +74,9 @@
     },
     {
       "ingredient_id": 2310,
-      "name": "vegetable shortening, such as Crisco, cut into ½-inch pieces",
-      "quantity": "3 tbsp"
+      "name": "vegetable shortening, such as Crisco",
+      "quantity": "3 tbsp",
+      "prep": "cut into ½-inch pieces"
     },
     {
       "ingredient_id": 359,
@@ -179,6 +180,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the vegetable shortening into ½-inch pieces.",
+      "secondary_message": "3 tbsp vegetable shortening, such as Crisco"
+    },
     {
       "id": 1,
       "primary_message": "For the Pizza Dough: In a food processor, combine flour, salt, yeast, and sugar. Pulse 5 times to combine. Add shortening and pulse until the shortening is fully integrated, 5 to 10 times. With the machine running, stream in the ice water and process just until the dough begins to come together into a ball, about 15 seconds.",

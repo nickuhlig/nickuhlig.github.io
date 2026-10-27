@@ -34,8 +34,9 @@
   "ingredients": [
     {
       "ingredient_id": 2069,
-      "name": "tomatillos, husked, rinsed, and halved",
-      "quantity": "0.45 kg"
+      "name": "tomatillos",
+      "quantity": "0.45 kg",
+      "prep": "husked, rinsed, and halved"
     },
     {
       "ingredient_id": 1565,
@@ -44,8 +45,9 @@
     },
     {
       "ingredient_id": 1618,
-      "name": "chipotle chilis, canned in adobo sauce, finely chopped",
-      "quantity": "1 tbsp"
+      "name": "chipotle chilis, canned in adobo sauce",
+      "quantity": "1 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 232,
@@ -74,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Husk, rinse, and halve the tomatillos. Finely chop the chipotle chilis.",
+      "secondary_message": "0.45 kg tomatillos\n1 tbsp chipotle chilis, canned in adobo sauce"
+    },
     {
       "id": 1,
       "primary_message": "Adjust a rack about 10 cm below broiler element and heat broiler to high. Place half of tomatillos, cut side down, on a rimmed baking sheet lined with aluminum foil. Place in broiler and cook until tomatillos are charred and fully softened, about 5 minutes. Transfer to a workbowl of a food processor fitted with steel blade. Add fresh tomatillos and pulse until finely chopped, 10 to 12 short pulses. Transfer to a medium bowl.",

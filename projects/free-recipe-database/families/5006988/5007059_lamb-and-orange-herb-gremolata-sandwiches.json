@@ -91,11 +91,18 @@
     },
     {
       "ingredient_id": 1679,
-      "name": "firm sheep’s milk cheese, thinly sliced",
-      "quantity": "85 g"
+      "name": "firm sheep’s milk cheese",
+      "quantity": "85 g",
+      "prep": "thinly sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the firm sheep’s milk cheese.",
+      "secondary_message": "85 g firm sheep’s milk cheese"
+    },
     {
       "id": 1,
       "primary_message": "Combine 5 tablespoons olive oil and garlic in small bowl. Microwave for 45 seconds. Stir in zest, oregano, rosemary, and thyme. Season with salt and pepper.",

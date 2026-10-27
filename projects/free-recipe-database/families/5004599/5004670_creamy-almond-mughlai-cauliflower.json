@@ -57,13 +57,15 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onions, finely chopped",
-      "quantity": "2 medium"
+      "name": "yellow onions",
+      "quantity": "2 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1082,
-      "name": "cinnamon stick, broken in half",
-      "quantity": "1"
+      "name": "cinnamon stick",
+      "quantity": "1",
+      "prep": "broken in half"
     },
     {
       "ingredient_id": 1757,
@@ -77,13 +79,15 @@
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, peeled and grated",
-      "quantity": "1 (2 ½ cm) piece"
+      "name": "ginger",
+      "quantity": "1 (2 ½ cm) piece",
+      "prep": "peeled and grated"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated or minced",
-      "quantity": "5 (25 g) medium cloves"
+      "name": "garlic",
+      "quantity": "5 (25 g) medium cloves",
+      "prep": "grated or minced"
     },
     {
       "ingredient_id": 186,
@@ -137,6 +141,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the yellow onions. Break the cinnamon stick in half. Peel and grate the ginger. Grate or mince the garlic.",
+      "secondary_message": "2 medium yellow onions\n1 cinnamon stick\n1 (2 ½ cm) piece ginger\n5 (25 g) medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 230°C (450°F) and place rack in middle position. Place cauliflower on a rimmed baking sheet and toss with 2 tablespoons oil. Season with salt and pepper. Roast until golden brown on one side, about 10 minutes. Turn and roast until brown on second side and just tender, 7 to 10 minutes longer. Remove from oven and set aside.",

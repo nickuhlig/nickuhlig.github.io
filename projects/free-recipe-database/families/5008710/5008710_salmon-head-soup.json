@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, thinly sliced",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 6,
@@ -56,9 +57,10 @@
     },
     {
       "ingredient_id": 1897,
-      "name": "potatoes, scrubbed and cut into 2 inch cubes",
+      "name": "potatoes",
       "quantity": "1 medium",
-      "weigh_as": "8 oz"
+      "weigh_as": "8 oz",
+      "prep": "scrubbed and cut into 2 inch cubes"
     },
     {
       "ingredient_id": 1747,
@@ -87,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the onion. Scrub and cut the potatoes into 2 inch cubes.",
+      "secondary_message": "1 large onion\n1 medium potatoes"
+    },
     {
       "id": 1,
       "primary_message": "Over medium heat, melt butter in a sauté pan. Add onions and sauté until softened but not browned, about 7 minutes. Add salmon parts, potatoes, bay leaves, salt, and all but a few stalks of the dill. Add enough water to just cover the fish. Bring water to a steady simmer and cook until fish and potatoes are tender, about 20 minutes.",

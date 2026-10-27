@@ -39,8 +39,9 @@
   "ingredients": [
     {
       "ingredient_id": 111,
-      "name": "fresh green beans, trimmed",
-      "quantity": "1 lb"
+      "name": "fresh green beans",
+      "quantity": "1 lb",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 47,
@@ -59,6 +60,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the fresh green beans.",
+      "secondary_message": "1 lb fresh green beans"
+    },
     {
       "id": 1,
       "primary_message": "Preheat a 6-quart air fryer to 400°F (205ºC) for 5 minutes. Meanwhile, in a large bowl, toss green beans with oil, salt, and pepper to evenly coat. Pour green beans into preheated air-fryer basket and cook until they begin to brown, about 5 minutes.",

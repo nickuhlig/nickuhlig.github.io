@@ -43,23 +43,27 @@
   "ingredients": [
     {
       "ingredient_id": 1811,
-      "name": "shrimp, medium or large, shelled and de-veined",
-      "quantity": "1 lb"
+      "name": "shrimp, medium or large",
+      "quantity": "1 lb",
+      "prep": "shelled and de-veined"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, thinly sliced",
-      "quantity": "3"
+      "name": "scallions",
+      "quantity": "3",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced or grated",
-      "quantity": "2 medium"
+      "name": "garlic cloves",
+      "quantity": "2 medium",
+      "prep": "minced or grated"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño pepper, seeded and minced",
-      "quantity": "1"
+      "name": "jalapeño pepper",
+      "quantity": "1",
+      "prep": "seeded and minced"
     },
     {
       "ingredient_id": 188,
@@ -68,8 +72,9 @@
     },
     {
       "ingredient_id": 228,
-      "name": "lime, zested",
-      "quantity": "1"
+      "name": "lime",
+      "quantity": "1",
+      "prep": "zested"
     },
     {
       "ingredient_id": 88,
@@ -108,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shell and de-vein the shrimp. Thinly slice the scallions. Mince or grate the garlic cloves. Seed and mince the jalapeño pepper. Zest the lime.",
+      "secondary_message": "1 lb shrimp, medium or large\n3 scallions\n2 medium garlic cloves\n1 jalapeño pepper\n1 lime"
+    },
     {
       "id": 1,
       "primary_message": "Coarsely chop shrimp into 1/2-inch pieces. Set aside. Reserve a few tablespoons of sliced scallion greens for serving.",

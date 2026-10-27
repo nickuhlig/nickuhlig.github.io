@@ -59,13 +59,15 @@
     },
     {
       "ingredient_id": 2831,
-      "name": "Spam, cut into 1/4- to 1/2-inch dice",
-      "quantity": "1 (340 g) can"
+      "name": "Spam",
+      "quantity": "1 (340 g) can",
+      "prep": "cut into 1/4- to 1/2-inch dice"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely diced",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 153,
@@ -74,13 +76,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2088,
-      "name": "hot red chile, stemmed and thinly sliced",
-      "quantity": "1"
+      "name": "hot red chile",
+      "quantity": "1",
+      "prep": "stemmed and thinly sliced"
     },
     {
       "ingredient_id": 72,
@@ -109,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the Spam into 1/4- to 1/2-inch dice. Finely dice the onion. Mince the garlic. Stem and thinly slice the hot red chile.",
+      "secondary_message": "1 (340 g) can Spam\n1 large onion\n2 medium cloves garlic\n1 hot red chile"
+    },
     {
       "id": 1,
       "primary_message": "If using day-old rice, transfer to a medium bowl and break rice up with your hands into individual grains before proceeding. Place kimchi in a fine-mesh strainer set over a large bowl and squeeze out excess liquid. Reserve liquid and finely chop kimchi.",

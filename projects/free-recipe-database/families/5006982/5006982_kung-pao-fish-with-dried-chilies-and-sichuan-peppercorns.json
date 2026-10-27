@@ -42,8 +42,9 @@
     },
     {
       "ingredient_id": 3642,
-      "name": "egg white, lightly beaten",
-      "quantity": "1 tbsp"
+      "name": "egg white",
+      "quantity": "1 tbsp",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 53,
@@ -97,18 +98,21 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, cut into 1-inch pieces on the bias",
-      "quantity": "4"
+      "name": "scallions",
+      "quantity": "4",
+      "prep": "cut into 1-inch pieces on the bias"
     },
     {
       "ingredient_id": 1869,
-      "name": "hot Chinese dry chile peppers, halved",
-      "quantity": "10 to 15"
+      "name": "hot Chinese dry chile peppers",
+      "quantity": "10 to 15",
+      "prep": "halved"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 1837,
@@ -122,6 +126,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly beat the egg white. Cut the scallions into 1-inch pieces on the bias. Halve the hot Chinese dry chile peppers. Finely mince the garlic.",
+      "secondary_message": "1 tbsp egg white\n4 scallions\n10 to 15 hot Chinese dry chile peppers\n4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Marinade and Fish: Place fish in a large bowl. Add remaining marinade ingredients and, using your hands, gently mix until fish is evenly coated. Let stand 15 minutes.",

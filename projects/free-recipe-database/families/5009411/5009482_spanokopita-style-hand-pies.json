@@ -47,13 +47,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1879,
@@ -77,18 +79,21 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested, plus juice, if needed",
-      "quantity": "1"
+      "name": "lemon, plus juice, if needed",
+      "quantity": "1",
+      "prep": "zested"
     },
     {
       "ingredient_id": 349,
-      "name": "nutmeg, freshly grated",
-      "quantity": "1 tsp"
+      "name": "nutmeg",
+      "quantity": "1 tsp",
+      "prep": "freshly grated"
     },
     {
       "ingredient_id": 1932,
-      "name": "dill, finely chopped",
-      "quantity": "2 tbsp"
+      "name": "dill",
+      "quantity": "2 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2529,
@@ -97,11 +102,18 @@
     },
     {
       "ingredient_id": 1021,
-      "name": "puff pastry, thawed",
-      "quantity": "1 sheet"
+      "name": "puff pastry",
+      "quantity": "1 sheet",
+      "prep": "thawed"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the onion. Mince the garlic. Zest the lemon. Freshly grate the nutmeg. Finely chop the dill. Thaw the puff pastry.",
+      "secondary_message": "1 medium onion\n3 cloves garlic\n1 lemon, plus juice, if needed\n1 tsp nutmeg\n2 tbsp dill\n1 sheet puff pastry"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in a medium-sized Dutch oven on medium-low, then add onion. Cook, with a pinch of salt, stirring often. When onion is softened and translucent, about 5 minutes, add garlic and cook one more minute.",

@@ -54,8 +54,9 @@
     },
     {
       "ingredient_id": 2286,
-      "name": "skirt steak, trimmed and cut into 5- to 6-inch pieces",
-      "quantity": "2 lb"
+      "name": "skirt steak",
+      "quantity": "2 lb",
+      "prep": "trimmed and cut into 5- to 6-inch pieces"
     },
     {
       "ingredient_id": 88,
@@ -74,24 +75,28 @@
     },
     {
       "ingredient_id": 303,
-      "name": "corn, kernels sliced off and cobs discarded",
+      "name": "corn",
       "quantity": "1 ¼ cups",
-      "weigh_as": "204 g"
+      "weigh_as": "204 g",
+      "prep": "kernels sliced off and cobs discarded"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, diced",
-      "quantity": "½ medium"
+      "name": "red onion",
+      "quantity": "½ medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño, seeded and diced",
-      "quantity": "1"
+      "name": "jalapeño",
+      "quantity": "1",
+      "prep": "seeded and diced"
     },
     {
       "ingredient_id": 234,
-      "name": "peaches, diced",
-      "quantity": "2 medium"
+      "name": "peaches",
+      "quantity": "2 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1421,
@@ -100,11 +105,18 @@
     },
     {
       "ingredient_id": 188,
-      "name": "fresh cilantro leaves, tender stems roughly chopped",
-      "quantity": "½ cup"
+      "name": "fresh cilantro leaves",
+      "quantity": "½ cup",
+      "prep": "tender stems roughly chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim and cut the skirt steak into 5- to 6-inch pieces. Slice off the kernels of the corn, then discard the cobs. Dice the red onion. Seed and dice the jalapeño. Dice the peaches. Roughly chop the tender stems of the fresh cilantro leaves.",
+      "secondary_message": "2 lb skirt steak\n1 ¼ cups corn\n½ medium red onion\n1 jalapeño\n2 medium peaches\n½ cup fresh cilantro leaves"
+    },
     {
       "id": 1,
       "primary_message": "Stir together cumin, oregano, and cayenne pepper in a small bowl. Season steak with salt and pepper and rub with the spice mixture. Set aside.",

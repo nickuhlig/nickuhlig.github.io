@@ -96,26 +96,36 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 1260,
-      "name": "ruffled potato chips, crushed, or more if desired",
-      "quantity": "3 cups"
+      "name": "ruffled potato chips, or more if desired",
+      "quantity": "3 cups",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 1462,
-      "name": "miniature pretzels, crushed, or more if desired",
-      "quantity": "3 cups"
+      "name": "miniature pretzels, or more if desired",
+      "quantity": "3 cups",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 2742,
-      "name": "milk chocolate, chopped",
-      "quantity": "½ cup"
+      "name": "milk chocolate",
+      "quantity": "½ cup",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Crush the ruffled potato chips. Crush the miniature pretzels. Chop the milk chocolate.",
+      "secondary_message": "2 tbsp unsalted butter\n3 cups ruffled potato chips, or more if desired\n3 cups miniature pretzels, or more if desired\n½ cup milk chocolate"
+    },
     {
       "id": 1,
       "primary_message": "Pour stout into a medium bowl, whisk, then refrigerate until chilled and flat, at least 1 hour and up to overnight.",

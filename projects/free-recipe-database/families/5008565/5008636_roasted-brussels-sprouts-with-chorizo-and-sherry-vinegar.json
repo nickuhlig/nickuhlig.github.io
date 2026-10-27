@@ -55,18 +55,21 @@
     },
     {
       "ingredient_id": 1754,
-      "name": "Spanish-style dry-cured chorizo, diced",
-      "quantity": "225 g"
+      "name": "Spanish-style dry-cured chorizo",
+      "quantity": "225 g",
+      "prep": "diced"
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, thinly sliced",
-      "quantity": "3 medium"
+      "name": "shallots",
+      "quantity": "3 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 478,
@@ -75,8 +78,9 @@
     },
     {
       "ingredient_id": 14,
-      "name": "Brussels sprouts, split in half and trimmed",
-      "quantity": "0.75 kg"
+      "name": "Brussels sprouts",
+      "quantity": "0.75 kg",
+      "prep": "split in half and trimmed"
     },
     {
       "ingredient_id": 88,
@@ -95,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the Spanish-style dry-cured chorizo. Thinly slice the shallots. Thinly slice the garlic. Split the Brussels sprouts in half, then trim them.",
+      "secondary_message": "225 g Spanish-style dry-cured chorizo\n3 medium shallots\n4 medium cloves garlic\n0.75 kg Brussels sprouts"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 230°C (450°F). Combine olive oil and chorizo in a medium skillet and heat over medium heat. Cook, stirring, until chorizo is crisped in spots, about 5 minutes. Add shallots and garlic and cook, stirring, until pale golden brown. Add paprika and continue to cook, stirring, until garlic and shallots are browned. (The shallots may lightly char in spots; this is fine.)",

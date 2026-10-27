@@ -53,13 +53,15 @@
   "ingredients": [
     {
       "ingredient_id": 1676,
-      "name": "sweet onion, roughly chopped",
-      "quantity": "½ small"
+      "name": "sweet onion",
+      "quantity": "½ small",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 133,
@@ -93,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the sweet onion. Roughly chop the garlic.",
+      "secondary_message": "½ small sweet onion\n1 medium clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "Using a fine-mesh strainer or colander, rinse the onion under warm (about 110°F; 43°C) running water for 1 minute, shaking to ensure that all surfaces are rinsed. (This tames sulfurous flavor and aroma compounds in the onion.) Turn off the water and shake the onion dry over the sink.",

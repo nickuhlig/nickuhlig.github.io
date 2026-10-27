@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "16 tbsp"
+      "name": "unsalted butter",
+      "quantity": "16 tbsp",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -66,11 +67,18 @@
     },
     {
       "ingredient_id": 354,
-      "name": "dark chocolate chips, melted",
-      "quantity": "2 cups"
+      "name": "dark chocolate chips",
+      "quantity": "2 cups",
+      "prep": "melted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature. Melt the dark chocolate chips.",
+      "secondary_message": "16 tbsp unsalted butter\n2 cups dark chocolate chips"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, using an electric beater, beat together butter and sugar until light and creamy, about 2 minutes. Beat in egg yolks, one at a time, then almond extract. Beat in sugar and flour until combined. Cover dough in plastic wrap and let chill for 30 minutes.",

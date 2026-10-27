@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, crushed",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 1777,
@@ -71,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Crush the garlic.",
+      "secondary_message": "2 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Wash and drain mizuna. The greens do not have to be completely dry. Roughly chop into 2.5-cm segments and set aside.",

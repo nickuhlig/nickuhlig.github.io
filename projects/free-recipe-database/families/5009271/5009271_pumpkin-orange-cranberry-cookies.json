@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "8 tbsp"
+      "name": "unsalted butter",
+      "quantity": "8 tbsp",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 293,
@@ -106,6 +107,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature.",
+      "secondary_message": "8 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven racks to lower and middle positions and preheat oven to 350°F. Line two baking sheets with parchment paper. In a medium bowl, whisk together flour, baking soda, baking powder, nutmeg, cinnamon, and salt; set aside.",

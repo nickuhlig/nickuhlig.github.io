@@ -63,8 +63,9 @@
     },
     {
       "ingredient_id": 1039,
-      "name": "russet potatoes, peeled and cut into quarters",
-      "quantity": "2 medium"
+      "name": "russet potatoes",
+      "quantity": "2 medium",
+      "prep": "peeled and cut into quarters"
     },
     {
       "ingredient_id": 1270,
@@ -98,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the russet potatoes into quarters.",
+      "secondary_message": "2 medium russet potatoes"
+    },
     {
       "id": 1,
       "primary_message": "Heat butter in a large saucepan or Dutch oven over medium heat until melted. Add leeks, reduce heat to low, and cook, stirring frequently, until very soft but not browned, 10 to 15 minutes.",

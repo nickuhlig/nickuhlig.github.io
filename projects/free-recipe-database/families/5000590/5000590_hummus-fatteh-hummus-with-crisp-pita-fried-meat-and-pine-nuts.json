@@ -64,8 +64,9 @@
     },
     {
       "ingredient_id": 1079,
-      "name": "thin pita, cut into 3/4-inch squares",
-      "quantity": "9 oz"
+      "name": "thin pita",
+      "quantity": "9 oz",
+      "prep": "cut into 3/4-inch squares"
     },
     {
       "ingredient_id": 334,
@@ -74,8 +75,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "1 large clove"
+      "name": "garlic",
+      "quantity": "1 large clove",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 88,
@@ -94,8 +96,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "1 large clove"
+      "name": "garlic",
+      "quantity": "1 large clove",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 1850,
@@ -154,6 +157,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the thin pita into 3/4-inch squares. Finely mince the garlic. Finely mince the garlic.",
+      "secondary_message": "9 oz thin pita\n1 large clove garlic\n1 large clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Fatteh: In a large bowl, cover chickpeas with 6 cups cold water. Let stand at room temperature for at least 8 hours or overnight. Drain and rinse chickpeas thoroughly.",

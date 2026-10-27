@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 1174,
-      "name": "crusty bread like ciabatta, cut into 3/4- to 1-inch pieces",
-      "quantity": "200 g"
+      "name": "crusty bread like ciabatta",
+      "quantity": "200 g",
+      "prep": "cut into 3/4- to 1-inch pieces"
     },
     {
       "ingredient_id": 47,
@@ -60,6 +61,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the crusty bread like ciabatta into 3/4- to 1-inch pieces.",
+      "secondary_message": "200 g crusty bread like ciabatta"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350ºF (175ºC).",

@@ -90,8 +90,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, slightly cooler than room temperature",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "slightly cooler than room temperature"
     },
     {
       "ingredient_id": 121,
@@ -125,6 +126,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Let the egg warm until just cooler than room temperature.",
+      "secondary_message": "1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, whisk together all-purpose flour, almond flour, baking powder, and 3/4 teaspoon salt until thoroughly combined. Set aside.",

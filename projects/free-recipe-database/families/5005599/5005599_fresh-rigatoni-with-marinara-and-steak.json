@@ -53,13 +53,15 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, roughly chopped",
-      "quantity": "1 medium"
+      "name": "carrot",
+      "quantity": "1 medium",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, roughly chopped",
-      "quantity": "1 small"
+      "name": "yellow onion",
+      "quantity": "1 small",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 24,
@@ -93,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the carrot. Roughly chop the yellow onion.",
+      "secondary_message": "1 medium carrot\n1 small yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "Position the oven rack in the top third of the oven, and preheat oven to 450°F.",

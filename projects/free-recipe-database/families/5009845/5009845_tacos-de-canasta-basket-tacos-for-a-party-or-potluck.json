@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onions, thinly sliced , divided",
-      "quantity": "2 medium"
+      "name": "white onions, divided",
+      "quantity": "2 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
@@ -86,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the white onions.",
+      "secondary_message": "2 medium white onions, divided"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 300°F. Set foil-wrapped tortillas in oven and allow to warm for 30 minutes.",

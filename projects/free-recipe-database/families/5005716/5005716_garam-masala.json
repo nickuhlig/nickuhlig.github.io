@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 1866,
-      "name": "green cardamom pods, green husks removed and discarded",
-      "quantity": "6 to 8"
+      "name": "green cardamom pods",
+      "quantity": "6 to 8",
+      "prep": "green husks removed and discarded"
     },
     {
       "ingredient_id": 1514,
@@ -85,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the green husks from the green cardamom pods, then discard them.",
+      "secondary_message": "6 to 8 green cardamom pods"
+    },
     {
       "id": 1,
       "primary_message": "Place cardamom, coriander, cumin, peppercorns, cloves, fennel, cinnamon, and anise in a medium skillet set over medium heat. Cook, tossing frequently, until aromatic and toasted-smelling, about 2 minutes. Transfer to a spice grinder or mortar and pestle. Add ground nutmeg. Grind into a fine powder. Garam masala can be stored in an airtight, light-free container for up to 6 months.",

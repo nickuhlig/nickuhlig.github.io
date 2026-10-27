@@ -44,33 +44,39 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 445,
-      "name": "bulk pork sausage, broken into small pieces",
-      "quantity": "½ lb"
+      "name": "bulk pork sausage",
+      "quantity": "½ lb",
+      "prep": "broken into small pieces"
     },
     {
       "ingredient_id": 302,
-      "name": "bacon, finely chopped",
-      "quantity": "4 slices"
+      "name": "bacon",
+      "quantity": "4 slices",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2420,
-      "name": "kielbasa sausage, cut into 1/4 inch pieces",
-      "quantity": "½"
+      "name": "kielbasa sausage",
+      "quantity": "½",
+      "prep": "cut into 1/4 inch pieces"
     },
     {
       "ingredient_id": 1039,
-      "name": "russet potato, peeled and cut in to 1/4 inch cubes",
-      "quantity": "1"
+      "name": "russet potato",
+      "quantity": "1",
+      "prep": "peeled and cut in to 1/4 inch cubes"
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "8"
+      "name": "eggs",
+      "quantity": "8",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 118,
@@ -89,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the onion. Break the bulk pork sausage into small pieces. Finely chop the bacon. Cut the kielbasa sausage into 1/4 inch pieces. Peel and cut the russet potato in to 1/4 inch cubes. Beat the eggs.",
+      "secondary_message": "1 small onion\n½ lb bulk pork sausage\n4 slices bacon\n½ kielbasa sausage\n1 russet potato\n8 eggs"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat to 400°F. Roll out pie dough and fit into a 10-inch pie plate. Line pie dough with aluminum foil and weigh down with pie weights or beans. Bake until golden brown and set, 15 minutes. Remove from oven and allow to cool. Reduce oven temperature to 375°F.",

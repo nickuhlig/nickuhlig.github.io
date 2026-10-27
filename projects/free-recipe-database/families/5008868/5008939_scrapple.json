@@ -62,8 +62,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, roughly chopped, about 3 cups",
-      "quantity": "4 medium"
+      "name": "onions, about 3 cups",
+      "quantity": "4 medium",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 24,
@@ -117,6 +118,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the onions.",
+      "secondary_message": "4 medium onions, about 3 cups"
+    },
     {
       "id": 1,
       "primary_message": "In a large Dutch oven, add pork butt, trotters, onions, and garlic. Cover with water and bring to a boil over high heat. Reduce heat to maintain a simmer and cook, skimming off any scum that accumulates on the surface, until pork is very tender and falling off the bone, about 3 hours. Let stand off-heat for 10 minutes.",

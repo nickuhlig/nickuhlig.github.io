@@ -64,13 +64,15 @@
     },
     {
       "ingredient_id": 27,
-      "name": "fresh corn, shucked",
-      "quantity": "2 ears"
+      "name": "fresh corn",
+      "quantity": "2 ears",
+      "prep": "shucked"
     },
     {
       "ingredient_id": 129,
-      "name": "coconut oil, virgin or refined, melted",
-      "quantity": "2 tbsp"
+      "name": "coconut oil, virgin or refined",
+      "quantity": "2 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 264,
@@ -99,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shuck the fresh corn. Melt the coconut oil.",
+      "secondary_message": "2 ears fresh corn\n2 tbsp coconut oil, virgin or refined"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to top position and preheat to 375°F. Spread coconut on a rimmed baking sheet. Bake, shaking pan occasionally, until golden brown, about 12 minutes. Transfer toasted coconut to a small bowl and let cool until room temperature, about 10 minutes. Add 1 teaspoon salt and brown sugar and stir until thoroughly combined. Set aside.",

@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, finely chopped",
-      "quantity": "4 medium"
+      "name": "garlic cloves",
+      "quantity": "4 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 181,
@@ -80,8 +81,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, peeled and finely chopped",
-      "quantity": "1 (2 ½ cm) piece"
+      "name": "fresh ginger",
+      "quantity": "1 (2 ½ cm) piece",
+      "prep": "peeled and finely chopped"
     },
     {
       "ingredient_id": 72,
@@ -90,8 +92,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "12 tbsp"
+      "name": "unsalted butter",
+      "quantity": "12 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 74,
@@ -145,6 +148,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the garlic cloves. Peel and finely chop the fresh ginger. Soften the unsalted butter.",
+      "secondary_message": "4 medium garlic cloves\n1 (2 ½ cm) piece fresh ginger\n12 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Squash Ssamjang: Adjust oven rack to middle position and preheat oven to 220°C (425°F). Cut squash in half lengthwise and scoop out seeds; discard seeds or set aside for roasting.",

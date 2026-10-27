@@ -68,13 +68,15 @@
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, peeled and minced",
-      "quantity": "1 (5 cm) piece"
+      "name": "ginger",
+      "quantity": "1 (5 cm) piece",
+      "prep": "peeled and minced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and minced",
-      "quantity": "5 medium cloves"
+      "name": "garlic",
+      "quantity": "5 medium cloves",
+      "prep": "peeled and minced"
     },
     {
       "ingredient_id": 1850,
@@ -83,8 +85,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, chopped",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 76,
@@ -98,8 +101,9 @@
     },
     {
       "ingredient_id": 1541,
-      "name": "ripe plum tomatoes, cut into 1-inch pieces",
-      "quantity": "2 medium"
+      "name": "ripe plum tomatoes",
+      "quantity": "2 medium",
+      "prep": "cut into 1-inch pieces"
     },
     {
       "ingredient_id": 1421,
@@ -118,6 +122,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and mince the ginger. Peel and mince the garlic. Chop the yellow onion. Cut the ripe plum tomatoes into 1-inch pieces.",
+      "secondary_message": "1 (5 cm) piece ginger\n5 medium cloves garlic\n1 medium yellow onion\n2 medium ripe plum tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "Place mung beans in a large bowl and cover by 5 cm cool water. Using your hands, vigorously swish mung beans until water turns cloudy, taking care to remove any stones or grit, about 30 seconds. Using a fine-mesh strainer, drain mung beans, discarding cloudy water. Repeat until water runs clear, 3 or 4 more times. Return mung beans to a bowl and add enough cool water to cover by 8 cm; soak at room temperature at least 2 hours and up to 12.",

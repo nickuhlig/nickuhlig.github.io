@@ -40,13 +40,15 @@
   "ingredients": [
     {
       "ingredient_id": 2913,
-      "name": "root beer, chilled",
-      "quantity": "2 cups"
+      "name": "root beer",
+      "quantity": "2 cups",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 1752,
-      "name": "heavy cream, chilled",
-      "quantity": "1 cup"
+      "name": "heavy cream",
+      "quantity": "1 cup",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 2240,
@@ -70,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the root beer cold until you use it. Keep the heavy cream cold until you use it.",
+      "secondary_message": "2 cups root beer\n1 cup heavy cream"
+    },
     {
       "id": 1,
       "primary_message": "In a large mixing bowl, whisk together root beer, cream, corn syrup, sugar, and vanilla until very well combined. Whisk in salt to taste. The root beer bubbles may form a fizzy raft in the bowl when combined with the cream; this is fine, and churning will fully incorporate it into the base.",

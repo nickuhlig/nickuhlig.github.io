@@ -50,21 +50,30 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 287,
-      "name": "thyme leaves, from 12 fresh sprigs, finely chopped",
-      "quantity": ""
+      "name": "thyme leaves, from 12 fresh sprigs",
+      "quantity": "",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 126,
-      "name": "log fresh goat cheese, at room temperature",
-      "quantity": "1"
+      "name": "log fresh goat cheese",
+      "quantity": "1",
+      "prep": "at room temperature"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic. Finely chop the thyme leaves. Bring the log fresh goat cheese to room temperature.",
+      "secondary_message": "3 cloves garlic\nthyme leaves, from 12 fresh sprigs\n1 log fresh goat cheese"
+    },
     {
       "id": 1,
       "primary_message": "Cut off and discard a thin slice from the stem and blossom ends of the eggplant. Cut the eggplant lengthwise into slices 0.5 cm thick. Lay the slices on a double thickness of paper towels and sprinkle generously with salt. Let stand until beads of water appear on the surface, about 20 minutes. Rinse with cold running water to remove the salt and bitter juices, then pat dry with additional paper towels.",

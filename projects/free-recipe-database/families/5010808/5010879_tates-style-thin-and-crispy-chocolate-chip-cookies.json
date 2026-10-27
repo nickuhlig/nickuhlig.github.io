@@ -77,8 +77,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into 1-inch chunks",
-      "quantity": "227 g"
+      "name": "cold unsalted butter",
+      "quantity": "227 g",
+      "prep": "cut into 1-inch chunks"
     },
     {
       "ingredient_id": 354,
@@ -87,8 +88,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, straight from the fridge, well beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "straight from the fridge, well beaten"
     },
     {
       "ingredient_id": 353,
@@ -97,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cold unsalted butter into 1-inch chunks. Well beat the egg and keep it cold until you use it.",
+      "secondary_message": "227 g cold unsalted butter\n1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 175°C (350°F). In the bowl of a food processor, combine flour, light brown sugar, raw cane sugar, salt, and baking soda. Process until well-combined; add cold butter and pulse to form a dry and powdery mix; comparable results cannot be produced by hand or with a stand mixer. Add chocolate chips and pulse once or twice to combine. This mixture can be refrigerated up to one week in an airtight container or used immediately in the next step.",

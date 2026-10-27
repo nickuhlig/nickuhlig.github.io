@@ -78,8 +78,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened to about 60º to 65ºF",
-      "quantity": "226 g"
+      "name": "unsalted butter",
+      "quantity": "226 g",
+      "prep": "softened to about 60º to 65ºF"
     },
     {
       "ingredient_id": 346,
@@ -118,6 +119,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter to about 60º to 65ºF.",
+      "secondary_message": "226 g unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Adjust oven rack to middle position and preheat oven to 175°C (350°F). Using nonstick spray, generously grease a 9- by 13-cm loaf pan. Line pan with parchment cross-wise, allowing a 2.5-cm overhang on the longer sides of the pan.",

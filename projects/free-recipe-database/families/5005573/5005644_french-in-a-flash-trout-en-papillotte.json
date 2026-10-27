@@ -49,8 +49,9 @@
     },
     {
       "ingredient_id": 470,
-      "name": "fennel bulb, thinly sliced",
-      "quantity": "1"
+      "name": "fennel bulb",
+      "quantity": "1",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 115,
@@ -89,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the fennel bulb.",
+      "secondary_message": "1 fennel bulb"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 400 degrees F.",

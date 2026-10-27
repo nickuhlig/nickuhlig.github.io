@@ -92,8 +92,9 @@
     },
     {
       "ingredient_id": 44,
-      "name": "boneless skinless chicken breasts, cut into 1-inch cubes",
-      "quantity": "1 ½ lb"
+      "name": "boneless skinless chicken breasts",
+      "quantity": "1 ½ lb",
+      "prep": "cut into 1-inch cubes"
     },
     {
       "ingredient_id": 1141,
@@ -102,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the boneless skinless chicken breasts into 1-inch cubes.",
+      "secondary_message": "1 ½ lb boneless skinless chicken breasts"
+    },
     {
       "id": 1,
       "primary_message": "To make marinade, whisk together oil, vinegar, lemon juice, parsley, basil, mint, oregano, and garlic. Season to taste with salt and pepper.",

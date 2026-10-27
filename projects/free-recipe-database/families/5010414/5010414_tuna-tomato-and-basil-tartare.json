@@ -35,23 +35,27 @@
   "ingredients": [
     {
       "ingredient_id": 1791,
-      "name": "sushi grade fresh tuna, sinew removed, roughly chopped",
-      "quantity": "10 to 12 oz"
+      "name": "sushi grade fresh tuna",
+      "quantity": "10 to 12 oz",
+      "prep": "sinew removed, roughly chopped"
     },
     {
       "ingredient_id": 260,
-      "name": "vine-ripened tomato, seeds discarded, roughly chopped",
-      "quantity": "1"
+      "name": "vine-ripened tomato",
+      "quantity": "1",
+      "prep": "seeds discarded, roughly chopped"
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely minced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 1746,
-      "name": "fresh basil leaves, roughly chopped",
-      "quantity": "15"
+      "name": "fresh basil leaves",
+      "quantity": "15",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 88,
@@ -75,11 +79,18 @@
     },
     {
       "ingredient_id": 1012,
-      "name": "baguette, sliced into thin rounds, toasted",
-      "quantity": "1"
+      "name": "baguette",
+      "quantity": "1",
+      "prep": "sliced into thin rounds, toasted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the sinew from the sushi grade fresh tuna, then roughly chop it. Discard the seeds from the vine-ripened tomato, then roughly chop it. Finely mince the shallot. Roughly chop the fresh basil leaves. Slice the baguette into thin rounds, then toast it.",
+      "secondary_message": "10 to 12 oz sushi grade fresh tuna\n1 vine-ripened tomato\n1 small shallot\n15 fresh basil leaves\n1 baguette"
+    },
     {
       "id": 1,
       "primary_message": "Combine tuna, tomato, shallot, and basil in bowl of food processer. Season to taste with salt and pepper. Pulse 10 times. Scrape down the sides with a silicone spatula, and pulse until roughly chopped, about 10 more 1-second pulses.",

@@ -64,11 +64,18 @@
     },
     {
       "ingredient_id": 36,
-      "name": "sugar snap peas, trimmed and strings removed",
-      "quantity": "1 lb"
+      "name": "sugar snap peas",
+      "quantity": "1 lb",
+      "prep": "trimmed and strings removed"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the sugar snap peas, then remove the strings.",
+      "secondary_message": "1 lb sugar snap peas"
+    },
     {
       "id": 1,
       "primary_message": "In a medium saucepan, combine vinegar, water, sugar, and salt. Bring to a boil, stirring, until solids are dissolved. Remove from heat and add mint and fennel seeds. Let stand 5 minutes.",

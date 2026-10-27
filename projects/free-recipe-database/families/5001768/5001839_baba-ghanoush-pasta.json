@@ -77,8 +77,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, sliced, divided",
-      "quantity": "8 large cloves"
+      "name": "garlic, divided",
+      "quantity": "8 large cloves",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 277,
@@ -117,6 +118,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the garlic.",
+      "secondary_message": "8 large cloves garlic, divided"
+    },
     {
       "id": 1,
       "primary_message": "For the Pasta: In a large pot of salted boiling water, cook pasta, stirring frequently for first 30 seconds to prevent sticking, until al dente, following timing on package. Reserve at least 1 1/4 cups pasta water, then drain pasta and return to pot; set aside.",

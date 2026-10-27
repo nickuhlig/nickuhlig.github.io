@@ -74,23 +74,27 @@
     },
     {
       "ingredient_id": 2069,
-      "name": "tomatillos, husks removed",
-      "quantity": "2"
+      "name": "tomatillos",
+      "quantity": "2",
+      "prep": "husks removed"
     },
     {
       "ingredient_id": 2885,
-      "name": "guajillo chiles, stems removed",
-      "quantity": "3"
+      "name": "guajillo chiles",
+      "quantity": "3",
+      "prep": "stems removed"
     },
     {
       "ingredient_id": 2542,
-      "name": "California chiles, stems removed",
-      "quantity": "2"
+      "name": "California chiles",
+      "quantity": "2",
+      "prep": "stems removed"
     },
     {
       "ingredient_id": 1776,
-      "name": "árbol chiles, stems removed",
-      "quantity": "3"
+      "name": "árbol chiles",
+      "quantity": "3",
+      "prep": "stems removed"
     },
     {
       "ingredient_id": 1984,
@@ -129,8 +133,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "whole yellow onion, unpeeled, ends trimmed",
-      "quantity": "1"
+      "name": "whole yellow onion",
+      "quantity": "1",
+      "prep": "unpeeled, ends trimmed"
     },
     {
       "ingredient_id": 1747,
@@ -169,6 +174,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the husks from the tomatillos. Remove the stems from the guajillo chiles. Remove the stems from the California chiles. Remove the stems from the árbol chiles. Leave unpeeled the whole yellow onion, then trim the ends.",
+      "secondary_message": "2 tomatillos\n3 guajillo chiles\n2 California chiles\n3 árbol chiles\n1 whole yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "In a large saucepan, toast peppercorns, cumin seeds, and cloves over medium heat until fragrant, about 30 seconds. Add chicken stock, tomatoes, tomatillos, guajillo, California, and árbol chiles. Bring to a boil over high heat, then turn off the heat, and let rest until tomato skins begin to shrivel and chiles soften, about 15 minutes.",

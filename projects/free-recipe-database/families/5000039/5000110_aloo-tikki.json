@@ -106,13 +106,15 @@
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, peeled and grated",
-      "quantity": "1 (2 ½ cm) knob"
+      "name": "fresh ginger",
+      "quantity": "1 (2 ½ cm) knob",
+      "prep": "peeled and grated"
     },
     {
       "ingredient_id": 188,
-      "name": "cilantro, finely chopped",
-      "quantity": "8 to 10 sprigs"
+      "name": "cilantro",
+      "quantity": "8 to 10 sprigs",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1682,
@@ -121,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and grate the fresh ginger. Finely chop the cilantro.",
+      "secondary_message": "1 (2 ½ cm) knob fresh ginger\n8 to 10 sprigs cilantro"
+    },
     {
       "id": 1,
       "primary_message": "In a large pot, combine potatoes, 3 tablespoons salt, vinegar, and 2 quarts cold water. Bring to a boil over high heat, then reduce heat to maintain a steady simmer. Cook until potatoes are completely tender and offer little resistance when pierced with a paring knife, about 15 minutes. Strain potatoes and let drain, 1 to 2 minutes. Transfer to medium mixing bowl and set aside.",

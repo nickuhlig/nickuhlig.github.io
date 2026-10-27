@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 1084,
-      "name": "whole star anise, crushed",
-      "quantity": "1"
+      "name": "whole star anise",
+      "quantity": "1",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 1566,
@@ -70,18 +71,21 @@
     },
     {
       "ingredient_id": 1816,
-      "name": "lemongrass, cut in small pieces",
-      "quantity": "1 tbsp"
+      "name": "lemongrass",
+      "quantity": "1 tbsp",
+      "prep": "cut in small pieces"
     },
     {
       "ingredient_id": 1938,
-      "name": "vanilla bean, split and scraped",
-      "quantity": "1"
+      "name": "vanilla bean",
+      "quantity": "1",
+      "prep": "split and scraped"
     },
     {
       "ingredient_id": 1882,
-      "name": "cardamom pods, crushed",
-      "quantity": "2"
+      "name": "cardamom pods",
+      "quantity": "2",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 2806,
@@ -100,6 +104,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Crush the whole star anise. Cut the lemongrass in small pieces. Split and scrape the vanilla bean. Crush the cardamom pods.",
+      "secondary_message": "1 whole star anise\n1 tbsp lemongrass\n1 vanilla bean\n2 cardamom pods"
+    },
     {
       "id": 1,
       "primary_message": "Put the cherries in a sealable glass jar with 1/2 cup of the neutral grain spirit. Be sure this jar is large enough to later hold an additional 1 1/2 cups of liquid. Shake. This is your cherry flavoring.",

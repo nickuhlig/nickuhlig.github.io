@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 1746,
-      "name": "basil leaves, washed",
-      "quantity": "1 cup"
+      "name": "basil leaves",
+      "quantity": "1 cup",
+      "prep": "washed"
     },
     {
       "ingredient_id": 3641,
@@ -65,6 +66,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash the basil leaves.",
+      "secondary_message": "1 cup basil leaves"
+    },
     {
       "id": 1,
       "primary_message": "In a large saucepan, combine half and half, corn kernels, and corn cobs (cut in half) over medium heat. Cook, stirring occasionally, for 15 minutes. Add basil and cook for another 15 minutes. Meanwhile, combine egg yolks and sugar in a large bowl and whisk until lighter in color and slightly thickened.",

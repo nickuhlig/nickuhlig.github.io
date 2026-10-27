@@ -46,9 +46,10 @@
   "ingredients": [
     {
       "ingredient_id": 1692,
-      "name": "apples, cut into 1/2-inch pieces",
+      "name": "apples",
       "quantity": "3 ½",
-      "weigh_as": "0.68 kg"
+      "weigh_as": "0.68 kg",
+      "prep": "cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 3251,
@@ -87,8 +88,9 @@
     },
     {
       "ingredient_id": 29,
-      "name": "almonds, coarsely chopped",
-      "quantity": "⅔ cup"
+      "name": "almonds",
+      "quantity": "⅔ cup",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 88,
@@ -97,11 +99,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into 1-tablespoon pieces",
-      "quantity": "8 tbsp"
+      "name": "cold unsalted butter",
+      "quantity": "8 tbsp",
+      "prep": "cut into 1-tablespoon pieces"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the apples into 1/2-inch pieces. Coarsely chop the almonds. Cut the cold unsalted butter into 1-tablespoon pieces.",
+      "secondary_message": "3 ½ apples\n⅔ cup almonds\n8 tbsp cold unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 190°C (375°F).",

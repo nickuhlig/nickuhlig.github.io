@@ -79,8 +79,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 1044,
@@ -89,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Beat the egg.",
+      "secondary_message": "1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, combine 2 tablespoons of Panko with the milk and set aside to soak for 2 to 3 minutes. Add the ground pork, thyme, lemon zest, 1 teaspoon kosher salt, pepper, and parsley and gently mix until thoroughly incorporated.",

@@ -39,8 +39,9 @@
     },
     {
       "ingredient_id": 1938,
-      "name": "vanilla bean, split lengthwise",
-      "quantity": "1"
+      "name": "vanilla bean",
+      "quantity": "1",
+      "prep": "split lengthwise"
     },
     {
       "ingredient_id": 346,
@@ -54,8 +55,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, straight from the fridge",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "straight from the fridge"
     },
     {
       "ingredient_id": 353,
@@ -64,13 +66,15 @@
     },
     {
       "ingredient_id": 355,
-      "name": "full-fat cream cheese, softened to about 65°F/18°C",
-      "quantity": "0.45 kg"
+      "name": "full-fat cream cheese",
+      "quantity": "0.45 kg",
+      "prep": "softened to about 65°F/18°C"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened to about 65°F/18°C",
-      "quantity": "340 g"
+      "name": "unsalted butter",
+      "quantity": "340 g",
+      "prep": "softened to about 65°F/18°C"
     },
     {
       "ingredient_id": 1480,
@@ -79,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the vanilla bean lengthwise. Keep the eggs cold until you use them. Soften the full-fat cream cheese to about 65°F/18°C. Soften the unsalted butter to about 65°F/18°C.",
+      "secondary_message": "1 vanilla bean\n3 large eggs\n0.45 kg full-fat cream cheese\n340 g unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Custard: In a 3-quart stainless steel saucier, combine the milk and vanilla bean and bring to a simmer over medium heat. When it begins to bubble, shut off the heat, cover, and steep 30 minutes. Alternatively, cover and refrigerate until needed, up to 24 hours to extract the deepest vanilla flavor. Meanwhile, whisk the sugar and cornstarch together in a medium bowl, followed by the eggs.",

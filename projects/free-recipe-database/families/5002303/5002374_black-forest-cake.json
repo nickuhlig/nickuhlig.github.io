@@ -117,8 +117,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, room temperature",
-      "quantity": "8 large"
+      "name": "eggs",
+      "quantity": "8 large",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 346,
@@ -127,8 +128,9 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, chopped",
-      "quantity": "226 g"
+      "name": "bittersweet chocolate",
+      "quantity": "226 g",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 333,
@@ -157,13 +159,15 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, chopped",
-      "quantity": "170 g"
+      "name": "bittersweet chocolate",
+      "quantity": "170 g",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1752,
-      "name": "heavy cream, chilled",
-      "quantity": "3 cups"
+      "name": "heavy cream",
+      "quantity": "3 cups",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 1304,
@@ -177,6 +181,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the eggs to room temperature. Chop the bittersweet chocolate. Chop the bittersweet chocolate. Keep the heavy cream cold until you use it.",
+      "secondary_message": "8 large eggs\n226 g bittersweet chocolate\n170 g bittersweet chocolate\n3 cups heavy cream"
+    },
     {
       "id": 1,
       "primary_message": "For the Cherries and Syrup: In a small saucepan, combine sugar and water and bring to a simmer over medium-high heat. Cook, stirring occasionally, until the sugar dissolves, about 2 minutes. Off heat, add cherries and let sit, covered, until thawed and soaked in syrup, stirring occasionally, about 1 hour.",

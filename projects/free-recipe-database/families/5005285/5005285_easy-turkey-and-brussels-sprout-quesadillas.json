@@ -55,18 +55,21 @@
     },
     {
       "ingredient_id": 1740,
-      "name": "roast turkey, roughly chopped or torn",
-      "quantity": "4 oz"
+      "name": "roast turkey",
+      "quantity": "4 oz",
+      "prep": "roughly chopped or torn"
     },
     {
       "ingredient_id": 1373,
-      "name": "pickled jalapenos, finely minced",
-      "quantity": "2"
+      "name": "pickled jalapenos",
+      "quantity": "2",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 1069,
-      "name": "Jack cheese, grated",
-      "quantity": "4 oz"
+      "name": "Jack cheese",
+      "quantity": "4 oz",
+      "prep": "grated"
     },
     {
       "ingredient_id": 187,
@@ -80,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop or tear the roast turkey. Finely mince the pickled jalapenos. Grate the Jack cheese.",
+      "secondary_message": "4 oz roast turkey\n2 pickled jalapenos\n4 oz Jack cheese"
+    },
     {
       "id": 1,
       "primary_message": "Heat 1 tablespoon oil in a medium cast iron or stainless steel skillet over high heat until lightly smoking. Add Brussels sprouts, season with salt and pepper, and cook, tossing and stirring occasionally, until wilted and lightly charred, about 2 minutes. Transfer to bowl and wipe out skillet.",

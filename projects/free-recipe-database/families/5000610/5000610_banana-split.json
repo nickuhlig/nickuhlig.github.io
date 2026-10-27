@@ -62,8 +62,9 @@
     },
     {
       "ingredient_id": 317,
-      "name": "ripe banana, peeled and halved lengthwise",
-      "quantity": "1 large"
+      "name": "ripe banana",
+      "quantity": "1 large",
+      "prep": "peeled and halved lengthwise"
     },
     {
       "ingredient_id": 358,
@@ -87,11 +88,18 @@
     },
     {
       "ingredient_id": 272,
-      "name": "toasted walnuts, crushed or roughly chopped",
-      "quantity": "¼ cup"
+      "name": "toasted walnuts",
+      "quantity": "¼ cup",
+      "prep": "crushed or roughly chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and halve the ripe banana lengthwise. Crush or roughly chop the toasted walnuts.",
+      "secondary_message": "1 large ripe banana\n¼ cup toasted walnuts"
+    },
     {
       "id": 1,
       "primary_message": "In the bowl of a stand mixer fitted with the whisk attachment, whisk cream on medium-high speed until stiff peaks form, about 2 minutes. Fit a piping bag with desired piping tip. Using a flexible spatula, gently scrape whipped cream into prepared piping bag. Set aside in refrigerator until ready to use. (See notes.)",

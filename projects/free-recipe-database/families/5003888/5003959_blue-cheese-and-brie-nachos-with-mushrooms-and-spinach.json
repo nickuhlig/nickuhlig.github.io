@@ -44,8 +44,9 @@
     },
     {
       "ingredient_id": 19,
-      "name": "white mushrooms, sliced into 1/4-inch slices",
-      "quantity": "227 g"
+      "name": "white mushrooms",
+      "quantity": "227 g",
+      "prep": "sliced into 1/4-inch slices"
     },
     {
       "ingredient_id": 88,
@@ -59,26 +60,36 @@
     },
     {
       "ingredient_id": 33,
-      "name": "baby spinach, chopped",
-      "quantity": "2 cups (2 oz)"
+      "name": "baby spinach",
+      "quantity": "2 cups (2 oz)",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1200,
-      "name": "brie, sliced",
-      "quantity": "283 g"
+      "name": "brie",
+      "quantity": "283 g",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 1239,
-      "name": "blue cheese, crumbled",
-      "quantity": "57 g"
+      "name": "blue cheese",
+      "quantity": "57 g",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, sliced thin",
-      "quantity": "1 small"
+      "name": "red onion",
+      "quantity": "1 small",
+      "prep": "sliced thin"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the white mushrooms into 1/4-inch slices. Chop the baby spinach. Slice the brie. Crumble the blue cheese. Slice the red onion thin.",
+      "secondary_message": "227 g white mushrooms\n2 cups (2 oz) baby spinach\n283 g brie\n57 g blue cheese\n1 small red onion"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat to 190°C (375°F). Spread chips into 13- by 23-cm baking dish.",

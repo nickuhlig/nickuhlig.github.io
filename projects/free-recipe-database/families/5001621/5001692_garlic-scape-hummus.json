@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, peeled and halved",
-      "quantity": "1 small"
+      "name": "yellow onion",
+      "quantity": "1 small",
+      "prep": "peeled and halved"
     },
     {
       "ingredient_id": 157,
@@ -65,8 +66,9 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, peeled",
-      "quantity": "1 small"
+      "name": "carrot",
+      "quantity": "1 small",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 1747,
@@ -85,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and halve the yellow onion. Peel the carrot.",
+      "secondary_message": "1 small yellow onion\n1 small carrot"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, combine chickpeas, 1 teaspoon baking soda, and 2 tablespoons salt. cover with 6 cups cold water, stir to dissolve salt and baking soda, and let stand at room temperature overnight. Drain and rinse beans thoroughly.",

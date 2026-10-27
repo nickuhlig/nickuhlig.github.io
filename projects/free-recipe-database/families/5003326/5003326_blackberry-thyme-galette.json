@@ -72,13 +72,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, diced",
-      "quantity": "4 tbsp"
+      "name": "cold unsalted butter",
+      "quantity": "4 tbsp",
+      "prep": "diced"
     },
     {
       "ingredient_id": 355,
-      "name": "cold cream cheese, diced",
-      "quantity": "8 oz"
+      "name": "cold cream cheese",
+      "quantity": "8 oz",
+      "prep": "diced"
     },
     {
       "ingredient_id": 118,
@@ -112,11 +114,18 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, lightly beaten with 1 teaspoon water",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "lightly beaten with 1 teaspoon water"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the cold unsalted butter. Dice the cold cream cheese. Lightly beat the egg with 1 teaspoon water.",
+      "secondary_message": "4 tbsp cold unsalted butter\n8 oz cold cream cheese\n1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower-middle position and preheat oven to 400°F. Line rimmed baking sheet with parchment paper.",

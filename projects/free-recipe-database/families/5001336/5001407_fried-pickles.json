@@ -56,8 +56,9 @@
   "ingredients": [
     {
       "ingredient_id": 302,
-      "name": "thick-cut bacon, finely chopped",
-      "quantity": "3 slices"
+      "name": "thick-cut bacon",
+      "quantity": "3 slices",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 267,
@@ -86,8 +87,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic clove, mashed to a paste",
-      "quantity": "1 small"
+      "name": "garlic clove",
+      "quantity": "1 small",
+      "prep": "mashed to a paste"
     },
     {
       "ingredient_id": 72,
@@ -96,8 +98,9 @@
     },
     {
       "ingredient_id": 1522,
-      "name": "dill pickle chips, drained",
-      "quantity": "1 (454 g) jar"
+      "name": "dill pickle chips",
+      "quantity": "1 (454 g) jar",
+      "prep": "drained"
     },
     {
       "ingredient_id": 2475,
@@ -151,6 +154,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the thick-cut bacon. Mash the garlic clove to a paste. Drain the dill pickle chips.",
+      "secondary_message": "3 slices thick-cut bacon\n1 small garlic clove\n1 (454 g) jar dill pickle chips"
+    },
     {
       "id": 1,
       "primary_message": "For the Bacon-Ranch: In a large cast iron skillet set over medium heat, cook bacon, stirring occasionally, until crisp, 4 to 6 minutes. Using a slotted spoon, transfer bacon to a paper towel–lined plate; reserve drippings.",

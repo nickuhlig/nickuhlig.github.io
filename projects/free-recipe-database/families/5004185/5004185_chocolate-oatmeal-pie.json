@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 1915,
-      "name": "half recipe Easy Pie Dough, shaped and chilled in a pie plate",
-      "quantity": "1"
+      "name": "half recipe Easy Pie Dough",
+      "quantity": "1",
+      "prep": "shaped and chilled in a pie plate"
     },
     {
       "ingredient_id": 1729,
@@ -101,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shape and chill the half recipe Easy Pie Dough in a pie plate.",
+      "secondary_message": "1 half recipe Easy Pie Dough"
+    },
     {
       "id": 1,
       "primary_message": "Prepare the crust: Preheat the oven to 425°F. Line the bottom of the chilled pie crust with foil or parchment paper and fill it with pie weights (I reuse dried beans for this purpose) and bake for 15 minutes on the bottom rack of the oven, rotating halfway through. Remove the weights and liner and bake for an additional 15 minutes, until the bottom of the pie begins to brown. Remove the shell from the oven and allow it to cool.",

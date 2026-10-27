@@ -40,8 +40,9 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "57 g"
+      "name": "bittersweet chocolate",
+      "quantity": "57 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 359,
@@ -70,6 +71,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the bittersweet chocolate.",
+      "secondary_message": "57 g bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "Pour milk into freezer safe container and freeze until half frozen, about 1 1/2 hours.",

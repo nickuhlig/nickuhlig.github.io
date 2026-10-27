@@ -35,13 +35,15 @@
   "ingredients": [
     {
       "ingredient_id": 1754,
-      "name": "dry-cured Spanish style chorizo, finely diced",
-      "quantity": "113 g"
+      "name": "dry-cured Spanish style chorizo",
+      "quantity": "113 g",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 121,
-      "name": "hard-boiled eggs, peeled and halved lengthwise",
-      "quantity": "6 large"
+      "name": "hard-boiled eggs",
+      "quantity": "6 large",
+      "prep": "peeled and halved lengthwise"
     },
     {
       "ingredient_id": 267,
@@ -80,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the dry-cured Spanish style chorizo. Peel and halve the hard-boiled eggs lengthwise.",
+      "secondary_message": "113 g dry-cured Spanish style chorizo\n6 large hard-boiled eggs"
+    },
     {
       "id": 1,
       "primary_message": "Heat chorizo in a small skillet over medium heat and cook, stirring frequently, until chorizo is crisp and fat is rendered, about 2 minutes. Transfer chorizo to a paper towel-lined plate, reserving extra fat separately.",

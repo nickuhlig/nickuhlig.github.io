@@ -49,8 +49,9 @@
   "ingredients": [
     {
       "ingredient_id": 317,
-      "name": "ripe bananas, sliced into coins",
-      "quantity": "3 medium"
+      "name": "ripe bananas",
+      "quantity": "3 medium",
+      "prep": "sliced into coins"
     },
     {
       "ingredient_id": 2198,
@@ -84,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the ripe bananas into coins.",
+      "secondary_message": "3 medium ripe bananas"
+    },
     {
       "id": 1,
       "primary_message": "Heat oven to 350°F with a rack in the middle. In a baking dish, toss bananas with raw sugar. Bake until bananas are fall-apart tender and thick stacks of sugar syrup bubble on top of each other, about 30 minutes.",

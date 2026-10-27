@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "butter, softened, plus more for greasing",
-      "quantity": "1 stick"
+      "name": "butter, plus more for greasing",
+      "quantity": "1 stick",
+      "prep": "softened"
     },
     {
       "ingredient_id": 346,
@@ -56,13 +57,15 @@
     },
     {
       "ingredient_id": 3061,
-      "name": "aji panca chile, seeds removed and freshly ground",
-      "quantity": "2 tbsp"
+      "name": "aji panca chile",
+      "quantity": "2 tbsp",
+      "prep": "seeds removed and freshly ground"
     },
     {
       "ingredient_id": 2075,
-      "name": "chipotle chilis, dried, seeds removed and freshly ground",
-      "quantity": "1 small"
+      "name": "chipotle chilis, dried",
+      "quantity": "1 small",
+      "prep": "seeds removed and freshly ground"
     },
     {
       "ingredient_id": 116,
@@ -76,11 +79,18 @@
     },
     {
       "ingredient_id": 1729,
-      "name": "dark chocolate, finely chopped",
-      "quantity": "12 to 14 oz"
+      "name": "dark chocolate",
+      "quantity": "12 to 14 oz",
+      "prep": "finely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the butter. Remove the seeds from the aji panca chile, then freshly grind it. Remove the seeds from the chipotle chilis, then freshly grind them. Finely chop the dark chocolate.",
+      "secondary_message": "1 stick butter, plus more for greasing\n2 tbsp aji panca chile\n1 small chipotle chilis, dried\n12 to 14 oz dark chocolate"
+    },
     {
       "id": 1,
       "primary_message": "In a stand mixer, beat the butter, sugar, and salt together till light and fluffy, about 3 minutes. Scrape down the sides with a spatula as needed. Turn down the speed on the mixer to low and add the cocoa and chiles, followed by the flour. Increase the speed when the dough looks crumbly and add the egg. Scrape down the sides again and mix till thoroughly combined.",

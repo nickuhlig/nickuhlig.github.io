@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 1938,
-      "name": "vanilla bean pods, split, seeds scraped",
-      "quantity": "2"
+      "name": "vanilla bean pods",
+      "quantity": "2",
+      "prep": "split, seeds scraped"
     },
     {
       "ingredient_id": 243,
@@ -86,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the vanilla bean pods, then scrape the seeds.",
+      "secondary_message": "2 vanilla bean pods"
+    },
     {
       "id": 1,
       "primary_message": "Make the Ice: At least 5 hours before you plan to serve the punch, freeze ice in large-cube trays or a large sealable container that can fit inside your serving vessel. If desired, line bottom of container with thinly sliced lime wheels before freezing.",

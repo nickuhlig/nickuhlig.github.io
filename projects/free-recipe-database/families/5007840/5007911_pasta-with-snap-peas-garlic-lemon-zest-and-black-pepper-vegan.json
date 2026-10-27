@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 36,
-      "name": "snap peas, trimmed",
-      "quantity": "0.45 kg"
+      "name": "snap peas",
+      "quantity": "0.45 kg",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 88,
@@ -66,8 +67,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely sliced",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 1721,
@@ -96,6 +98,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the snap peas. Finely slice the garlic.",
+      "secondary_message": "0.45 kg snap peas\n4 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Bring a large saucepan of salted water to a boil. Add snap peas and cook until bright green but still crunchy, about 2 minutes. Strain and run under cool water until chilled. Drain and transfer to a small bowl. Toss with cornstarch and set aside.",

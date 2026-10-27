@@ -45,13 +45,15 @@
     },
     {
       "ingredient_id": 1754,
-      "name": "Spanish-style chorizo, cut into 1/2-inch dice",
-      "quantity": "8 oz"
+      "name": "Spanish-style chorizo",
+      "quantity": "8 oz",
+      "prep": "cut into 1/2-inch dice"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, thinly sliced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1755,
@@ -60,8 +62,9 @@
     },
     {
       "ingredient_id": 92,
-      "name": "chickpeas, drained and rinsed",
-      "quantity": "2 (15 oz) cans"
+      "name": "chickpeas",
+      "quantity": "2 (15 oz) cans",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 97,
@@ -95,6 +98,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the Spanish-style chorizo into 1/2-inch dice. Thinly slice the onion. Drain and rinse the chickpeas.",
+      "secondary_message": "8 oz Spanish-style chorizo\n1 medium onion\n2 (15 oz) cans chickpeas"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in a pressure cooker over medium-high heat until shimmering. Add chorizo and cook, stirring, until just starting to crisp around the edges, about 2 minutes. Add onions and cook, stirring, until softened, about 3 minutes. Add paprika, chickpeas, tomatoes, chicken pieces, and stock. Season gently with salt and pepper.",

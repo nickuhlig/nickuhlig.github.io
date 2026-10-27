@@ -58,8 +58,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "6 tbsp"
+      "name": "unsalted butter",
+      "quantity": "6 tbsp",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -83,11 +84,18 @@
     },
     {
       "ingredient_id": 2762,
-      "name": "pitted, halved cherries",
-      "quantity": "1 cup"
+      "name": "pitted",
+      "quantity": "1 cup",
+      "prep": "halved cherries"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature. Halve the pitted cherries.",
+      "secondary_message": "6 tbsp unsalted butter\n1 cup pitted"
+    },
     {
       "id": 1,
       "primary_message": "Butter pan and preheat oven to 175°C (350°F).",

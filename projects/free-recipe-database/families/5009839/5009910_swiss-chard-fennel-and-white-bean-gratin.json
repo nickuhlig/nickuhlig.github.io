@@ -45,13 +45,15 @@
     },
     {
       "ingredient_id": 470,
-      "name": "fennel, cored, and sliced thin",
-      "quantity": "1 large bulb"
+      "name": "fennel",
+      "quantity": "1 large bulb",
+      "prep": "cored, and sliced thin"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, sliced thin",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "sliced thin"
     },
     {
       "ingredient_id": 88,
@@ -65,8 +67,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 471,
@@ -90,8 +93,9 @@
     },
     {
       "ingredient_id": 91,
-      "name": "white beans, drained and rinsed",
-      "quantity": "2 (425 g) cans"
+      "name": "white beans",
+      "quantity": "2 (425 g) cans",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 1189,
@@ -105,6 +109,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Core and slice the fennel thin. Slice the onion thin. Mince the garlic. Drain and rinse the white beans.",
+      "secondary_message": "1 large bulb fennel\n1 large onion\n3 medium cloves garlic\n2 (425 g) cans white beans"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 200°C (400°F). Melt 2 tablespoons butter in a large sauce pot or Dutch oven over medium-high heat. Add fennel and onion, season with salt and pepper, and cook, stirring occasionally, until vegetables are softened and translucent, about 10 minutes, reducing heat if it starts to brown. Add garlic and cook, stirring constantly until fragrant, about 30 seconds.",

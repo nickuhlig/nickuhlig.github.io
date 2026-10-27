@@ -54,8 +54,9 @@
     },
     {
       "ingredient_id": 242,
-      "name": "ripe strawberries, quartered and leaves removed",
-      "quantity": "2"
+      "name": "ripe strawberries",
+      "quantity": "2",
+      "prep": "quartered and leaves removed"
     },
     {
       "ingredient_id": 88,
@@ -64,6 +65,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Quarter the ripe strawberries, then remove the leaves.",
+      "secondary_message": "2 ripe strawberries"
+    },
     {
       "id": 1,
       "primary_message": "At least 8 hours before you plan to serve the drink, add rum, 21 g lime juice, and 21 g turbinado simple syrup to a resealable container or zipper-lock bag. Place batched mix in the freezer until freezer-cold, about 8 hours.",

@@ -45,9 +45,10 @@
   "ingredients": [
     {
       "ingredient_id": 1039,
-      "name": "russet potatoes, peeled",
+      "name": "russet potatoes",
       "quantity": "3 medium",
-      "weigh_as": "1 ½ lb"
+      "weigh_as": "1 ½ lb",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 359,
@@ -71,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the russet potatoes.",
+      "secondary_message": "3 medium russet potatoes"
+    },
     {
       "id": 1,
       "primary_message": "Cut potatoes lengthwise into 1/2-inch-thick planks. Stack 3 or 4 planks and cut into 1/2-inch-thick sticks; repeat with remaining planks.",

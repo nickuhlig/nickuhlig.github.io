@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onions, sliced into paper-thin half moons",
-      "quantity": "3"
+      "name": "yellow onions",
+      "quantity": "3",
+      "prep": "sliced into paper-thin half moons"
     },
     {
       "ingredient_id": 325,
@@ -55,8 +56,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, sliced",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 1994,
@@ -80,11 +82,18 @@
     },
     {
       "ingredient_id": 2099,
-      "name": "Niçoise olives, finely chopped",
-      "quantity": "¼ cup"
+      "name": "Niçoise olives",
+      "quantity": "¼ cup",
+      "prep": "finely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the yellow onions into paper-thin half moons. Slice the garlic. Finely chop the Niçoise olives.",
+      "secondary_message": "3 yellow onions\n3 cloves garlic\n¼ cup Niçoise olives"
+    },
     {
       "id": 1,
       "primary_message": "Bring a large pot of water to a boil, and salt it liberally.",

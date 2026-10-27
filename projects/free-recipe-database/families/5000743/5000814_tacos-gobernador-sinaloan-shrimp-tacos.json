@@ -49,8 +49,9 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, diced",
-      "quantity": "1 small"
+      "name": "white onion",
+      "quantity": "1 small",
+      "prep": "diced"
     },
     {
       "ingredient_id": 2066,
@@ -59,14 +60,16 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "3 medium"
+      "name": "garlic cloves",
+      "quantity": "3 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1541,
-      "name": "plum tomatoes, diced",
+      "name": "plum tomatoes",
       "quantity": "5",
-      "weigh_as": "340 g"
+      "weigh_as": "340 g",
+      "prep": "diced"
     },
     {
       "ingredient_id": 2070,
@@ -80,8 +83,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "cilantro, chopped",
-      "quantity": "¼ cup"
+      "name": "cilantro",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1811,
@@ -125,6 +129,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the white onion. Mince the garlic cloves. Dice the plum tomatoes. Chop the cilantro.",
+      "secondary_message": "1 small white onion\n3 medium garlic cloves\n5 plum tomatoes\n¼ cup cilantro"
+    },
     {
       "id": 1,
       "primary_message": "For the stewed shrimp: In a 30-cm stainless-steel skillet, melt butter over medium-high heat. Once melted, add onion and poblano and cook, stirring occasionally, until softened, 3 to 5 minutes. Add garlic and cook until fragrant, about 1 minute.",

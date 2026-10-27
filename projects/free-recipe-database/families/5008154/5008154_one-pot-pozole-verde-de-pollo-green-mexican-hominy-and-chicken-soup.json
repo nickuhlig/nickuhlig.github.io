@@ -68,23 +68,27 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, roughly chopped",
-      "quantity": "1 large"
+      "name": "white onion",
+      "quantity": "1 large",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño pepper, stems and seeds removed, roughly chopped",
-      "quantity": "1"
+      "name": "jalapeño pepper",
+      "quantity": "1",
+      "prep": "stems and seeds removed, roughly chopped"
     },
     {
       "ingredient_id": 2066,
-      "name": "poblano pepper, stems and seeds removed, roughly chopped",
-      "quantity": "1"
+      "name": "poblano pepper",
+      "quantity": "1",
+      "prep": "stems and seeds removed, roughly chopped"
     },
     {
       "ingredient_id": 2776,
-      "name": "Anaheim pepper, stems and seeds removed, roughly chopped",
-      "quantity": "1"
+      "name": "Anaheim pepper",
+      "quantity": "1",
+      "prep": "stems and seeds removed, roughly chopped"
     },
     {
       "ingredient_id": 1505,
@@ -108,8 +112,9 @@
     },
     {
       "ingredient_id": 2648,
-      "name": "white hominy, drained",
-      "quantity": "1 (28 oz) can"
+      "name": "white hominy",
+      "quantity": "1 (28 oz) can",
+      "prep": "drained"
     },
     {
       "ingredient_id": 183,
@@ -138,6 +143,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the white onion. Remove the stems and seeds from the jalapeño pepper, then roughly chop it. Remove the stems and seeds from the poblano pepper, then roughly chop it. Remove the stems and seeds from the Anaheim pepper, then roughly chop it. Drain the white hominy.",
+      "secondary_message": "1 large white onion\n1 jalapeño pepper\n1 poblano pepper\n1 Anaheim pepper\n1 (28 oz) can white hominy"
+    },
     {
       "id": 1,
       "primary_message": "For the Soup: Heat pumpkin seeds in the base of a large Dutch oven over medium-high heat, stirring constantly, until they start to pop and smell nutty, about 4 minutes. Transfer pumpkin seeds to a bowl and set aside.",

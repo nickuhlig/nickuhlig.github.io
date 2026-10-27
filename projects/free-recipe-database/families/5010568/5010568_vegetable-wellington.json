@@ -45,9 +45,10 @@
   "ingredients": [
     {
       "ingredient_id": 159,
-      "name": "carrots, scrubbed but unpeeled",
+      "name": "carrots",
       "quantity": "7 medium",
-      "weigh_as": "1 lb"
+      "weigh_as": "1 lb",
+      "prep": "scrubbed but unpeeled"
     },
     {
       "ingredient_id": 88,
@@ -71,8 +72,9 @@
     },
     {
       "ingredient_id": 230,
-      "name": "cremini mushroom, roughly chopped",
-      "quantity": "1 ½ lb"
+      "name": "cremini mushroom",
+      "quantity": "1 ½ lb",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 47,
@@ -86,8 +88,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1782,
@@ -136,8 +139,9 @@
     },
     {
       "ingredient_id": 91,
-      "name": "cannellini beans, drained and rinsed",
-      "quantity": "1 (15 oz) can"
+      "name": "cannellini beans",
+      "quantity": "1 (15 oz) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 47,
@@ -146,8 +150,9 @@
     },
     {
       "ingredient_id": 1929,
-      "name": "shiitake mushroom caps, thinly sliced",
-      "quantity": "4 oz"
+      "name": "shiitake mushroom caps",
+      "quantity": "4 oz",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 309,
@@ -156,13 +161,15 @@
     },
     {
       "ingredient_id": 157,
-      "name": "celery, finely diced",
-      "quantity": "1 stalk"
+      "name": "celery",
+      "quantity": "1 stalk",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1604,
@@ -191,8 +198,9 @@
     },
     {
       "ingredient_id": 2818,
-      "name": "frozen 17-x 12-inch phyllo dough sheets, thawed",
-      "quantity": "1 (1 lb) pkg"
+      "name": "frozen 17-x 12-inch phyllo dough sheets",
+      "quantity": "1 (1 lb) pkg",
+      "prep": "thawed"
     },
     {
       "ingredient_id": 47,
@@ -246,6 +254,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Scrub the carrots but unpeeled. Roughly chop the cremini mushroom. Mince the garlic. Drain and rinse the cannellini beans. Thinly slice the shiitake mushroom caps. Finely dice the celery. Mince the garlic. Thaw the frozen 17-x 12-inch phyllo dough sheets.",
+      "secondary_message": "7 medium carrots\n1 ½ lb cremini mushroom\n4 medium cloves garlic\n1 (15 oz) can cannellini beans\n4 oz shiitake mushroom caps\n1 stalk celery\n2 medium cloves garlic\n1 (1 lb) pkg frozen 17-x 12-inch phyllo dough sheets"
+    },
     {
       "id": 1,
       "primary_message": "For the Carrots: Adjust oven rack center position and preheat oven to 400°F. Place carrots in a large skillet and cover with cold water. Season gently with salt. Bring to a boil and cook until carrots are tender and water has mostly evaporated (If there's still lots of water left after the carrots are fully tender, drain.) Season cooked carrots with salt and pepper. Add thyme sprigs to pan, drizzle with 2 tablespoons olive oil, toss to coat, and transfer to oven. Roast, turning occasionally, until carrots are lightly caramelized and wrinkled in appearance, about 30 minutes. Remove from oven, discard thyme, and set aside. Reduce oven temperature to 350°F.",

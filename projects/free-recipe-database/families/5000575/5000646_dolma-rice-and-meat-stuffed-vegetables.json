@@ -81,13 +81,15 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely minced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, 4 minced and 2 crushed, divided",
-      "quantity": "6 medium cloves"
+      "name": "garlic, divided",
+      "quantity": "6 medium cloves",
+      "prep": "4 minced and 2 crushed"
     },
     {
       "ingredient_id": 70,
@@ -111,8 +113,9 @@
     },
     {
       "ingredient_id": 106,
-      "name": "fresh parsley flat-leaf parsley leaves, chopped",
-      "quantity": "2 tbsp"
+      "name": "fresh parsley flat-leaf parsley leaves",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 323,
@@ -131,6 +134,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the yellow onion. Mince 4 of the garlic and crush the other 2. Chop the fresh parsley flat-leaf parsley leaves.",
+      "secondary_message": "1 medium yellow onion\n6 medium cloves garlic, divided\n2 tbsp fresh parsley flat-leaf parsley leaves"
+    },
     {
       "id": 1,
       "primary_message": "Using a sharp knife, cut 1.5 cm off the stem end of peppers and set aside. Carefully run a paring knife along the cavity of the pepper to remove core, seeds, and ribs. Repeat with remaining peppers. Discard stems and finely mince pepper tops.",

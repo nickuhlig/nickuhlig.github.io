@@ -35,13 +35,15 @@
     },
     {
       "ingredient_id": 33,
-      "name": "baby spinach, trimmed and washed",
-      "quantity": "6 oz"
+      "name": "baby spinach",
+      "quantity": "6 oz",
+      "prep": "trimmed and washed"
     },
     {
       "ingredient_id": 3514,
-      "name": "red shen choy, trimmed and washed",
-      "quantity": "6 oz"
+      "name": "red shen choy",
+      "quantity": "6 oz",
+      "prep": "trimmed and washed"
     },
     {
       "ingredient_id": 1044,
@@ -50,8 +52,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "6 cloves"
+      "name": "garlic",
+      "quantity": "6 cloves",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1505,
@@ -60,6 +63,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim and wash the baby spinach. Trim and wash the red shen choy. Roughly chop the garlic.",
+      "secondary_message": "6 oz baby spinach\n6 oz red shen choy\n6 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Bring a large pot of salted water to a boil. Add the shen choy and boil for 1 minute. Add spinach and continue boiling 1 minute longer. Drain well and place in a large shallow serving bowl.",

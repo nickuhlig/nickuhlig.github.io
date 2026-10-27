@@ -103,11 +103,18 @@
     },
     {
       "ingredient_id": 1601,
-      "name": "slivered almonds, toasted",
-      "quantity": "⅓ cup"
+      "name": "slivered almonds",
+      "quantity": "⅓ cup",
+      "prep": "toasted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Toast the slivered almonds.",
+      "secondary_message": "⅓ cup slivered almonds"
+    },
     {
       "id": 1,
       "primary_message": "Make Crust: In the bowl of a food processor, pulse together flour and confectioners sugar until combined. Add butter and pulse until butter is the size of peas. Add milk and pulse until dough comes together into a ball. Press dough evenly into prepared pan and place in refrigerator for 30 minutes.",

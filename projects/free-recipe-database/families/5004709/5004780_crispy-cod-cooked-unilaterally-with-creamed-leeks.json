@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 309,
-      "name": "baby leeks, finely sliced",
-      "quantity": "12"
+      "name": "baby leeks",
+      "quantity": "12",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 1752,
@@ -61,6 +62,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely slice the baby leeks.",
+      "secondary_message": "12 baby leeks"
+    },
     {
       "id": 1,
       "primary_message": "Season the cod with salt and pepper. Heat oil over medium heat in a large non-stick skillet until shimmering. Add the cod, presentation side down. Cover and cook without moving until the fish is cooked through, about 15 minutes (meat should flake easily when pulled with a fork). Carefully transfer fish to a large plate, crisp-side up, and tent with foil to keep warm.",

@@ -53,9 +53,10 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, peeled and cut into 1-inch chunks",
+      "name": "carrot",
       "quantity": "3 ½ medium",
-      "weigh_as": "215 g"
+      "weigh_as": "215 g",
+      "prep": "peeled and cut into 1-inch chunks"
     },
     {
       "ingredient_id": 47,
@@ -69,14 +70,16 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, thinly sliced",
+      "name": "yellow onion",
       "quantity": "2 medium",
-      "weigh_as": "215 g"
+      "weigh_as": "215 g",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1505,
@@ -125,6 +128,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the carrot into 1-inch chunks. Thinly slice the yellow onion. Thinly slice the garlic.",
+      "secondary_message": "3 ½ medium carrot\n2 medium yellow onion\n4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 220°C (425°F). Toss squash and carrot with olive oil and arrange on 2 rimmed baking sheets, being sure not to overcrowd the sheets. Roast until squash and carrot are very well browned on a couple of sides, about 40 minutes; use a thin metal spatula to turn pieces 2 or 3 times during cooking. Set aside.",

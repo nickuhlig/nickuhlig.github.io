@@ -45,28 +45,33 @@
     },
     {
       "ingredient_id": 1897,
-      "name": "potatoes, peeled and thickly sliced",
-      "quantity": "3"
+      "name": "potatoes",
+      "quantity": "3",
+      "prep": "peeled and thickly sliced"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and thickly sliced",
-      "quantity": "2"
+      "name": "carrots",
+      "quantity": "2",
+      "prep": "peeled and thickly sliced"
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, peeled and quartered",
-      "quantity": "2"
+      "name": "onions",
+      "quantity": "2",
+      "prep": "peeled and quartered"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, thickly sliced",
-      "quantity": "2 stalks"
+      "name": "celery",
+      "quantity": "2 stalks",
+      "prep": "thickly sliced"
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, peeled",
-      "quantity": "4 large"
+      "name": "shallots",
+      "quantity": "4 large",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 1747,
@@ -85,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and thickly slice the potatoes. Peel and thickly slice the carrots. Peel and quarter the onions. Thickly slice the celery. Peel the shallots.",
+      "secondary_message": "3 potatoes\n2 carrots\n2 onions\n2 stalks celery\n4 large shallots"
+    },
     {
       "id": 1,
       "primary_message": "First prepare the chicken. To remove the wishbone at the top of the breast, use a small knife to scrape along the bone to expose it, then insert the knife and run it along the bone, separating it from the flesh. Use your fingers to loosen it further, grasp the tip of the wishbone, and pull it out. Tuck the wing tips back and under the neck.",

@@ -58,16 +58,24 @@
     },
     {
       "ingredient_id": 1017,
-      "name": "unsweetened chocolate, finely chopped",
-      "quantity": "2 oz"
+      "name": "unsweetened chocolate",
+      "quantity": "2 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "2 oz"
+      "name": "bittersweet chocolate",
+      "quantity": "2 oz",
+      "prep": "finely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the unsweetened chocolate. Finely chop the bittersweet chocolate.",
+      "secondary_message": "2 oz unsweetened chocolate\n2 oz bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "In medium saucepan over medium heat, stir 4 cups milk, sugar, and salt until dissolved. Add rice and bring to boil, stirring frequently.",

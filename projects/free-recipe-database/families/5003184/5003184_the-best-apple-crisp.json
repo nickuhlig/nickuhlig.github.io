@@ -77,8 +77,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into small cubes and chilled",
-      "quantity": "5 oz"
+      "name": "unsalted butter",
+      "quantity": "5 oz",
+      "prep": "cut into small cubes and chilled"
     },
     {
       "ingredient_id": 1692,
@@ -107,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into small cubes and keep it cold until you use it.",
+      "secondary_message": "5 oz unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Topping: Adjust oven rack to middle position and preheat to 375°F. In a food processor, pulse flour, raw sugar, lemon zest, nutmeg, and salt until well combined, about 3 pulses. Add pecans; pulse just until pecans start to break apart, 2 to 3 pulses. (Some whole pecans should still be visible.) Add butter and pulse until mixture resembles a coarse meal, with pea-sized chunks, 20 to 25 pulses. Transfer to a large bowl and chill in refrigerator or freezer until ready to bake.",

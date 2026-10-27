@@ -91,9 +91,10 @@
     },
     {
       "ingredient_id": 230,
-      "name": "crimini mushrooms, wiped clean, stems removed",
+      "name": "crimini mushrooms",
       "quantity": "0.45 kg",
-      "weigh_as": "24 medium"
+      "weigh_as": "24 medium",
+      "prep": "wiped clean, stems removed"
     },
     {
       "ingredient_id": 47,
@@ -102,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wipe the crimini mushrooms clean, then remove the stems.",
+      "secondary_message": "0.45 kg crimini mushrooms"
+    },
     {
       "id": 1,
       "primary_message": "Melt butter in medium skillet over medium heat. When foaming subsides, add shallots and cook, stirring, until softened, about 5 minutes. Add white wine and cook for 1 minute more. Stir in panko bread crumbs, remove from heat, let cool for 10 minutes. Stir in crabmeat, 1/3 cup fontina cheese, lemon juice, and paprika. Season with salt and pepper to taste.",

@@ -81,8 +81,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated on a microplane grater",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "grated on a microplane grater"
     },
     {
       "ingredient_id": 82,
@@ -121,6 +122,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the garlic on a microplane grater.",
+      "secondary_message": "4 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Combine flour, salt, and yeast in the bowl of a stand mixer fitted with the dough hook attachment. Whisk to combine. Add olive oil and water. Knead on low speed just until dough comes together, about 3 minutes. Let dough rest for 10 minutes, then knead once more on low speed for 10 minutes. Dough should pull away from sides of bowl but stick to bottom.",

@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, crushed",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 85,
@@ -61,8 +62,9 @@
     },
     {
       "ingredient_id": 1294,
-      "name": "whole peeled tomatoes, crushed by hand",
-      "quantity": "1 (28 oz) can"
+      "name": "whole peeled tomatoes",
+      "quantity": "1 (28 oz) can",
+      "prep": "crushed by hand"
     },
     {
       "ingredient_id": 120,
@@ -76,6 +78,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Crush the garlic. Crush the whole peeled tomatoes by hand.",
+      "secondary_message": "1 medium clove garlic\n1 (28 oz) can whole peeled tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "In a medium saucepan of boiling salted water, cook penne until just short of al dente, about 1 minute less than the package recommends.",

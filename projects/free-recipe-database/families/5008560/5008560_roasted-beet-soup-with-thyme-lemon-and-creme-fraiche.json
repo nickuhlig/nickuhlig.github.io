@@ -39,8 +39,9 @@
   "ingredients": [
     {
       "ingredient_id": 13,
-      "name": "beets, peeled and cut into 1 1/2-inch dice",
-      "quantity": "5 medium"
+      "name": "beets",
+      "quantity": "5 medium",
+      "prep": "peeled and cut into 1 1/2-inch dice"
     },
     {
       "ingredient_id": 47,
@@ -84,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the beets into 1 1/2-inch dice.",
+      "secondary_message": "5 medium beets"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center position and preheat the oven to 400°F. In a large bowl, toss beets with 1 tablespoon olive oil and season with salt and pepper. Transfer to a parchment-lined rimmed baking sheet. Roast until tender to the point of a knife, 30 to 45 minutes. Set aside 1/2 cup beets and cut into 1/2-inch dice for garnish.",

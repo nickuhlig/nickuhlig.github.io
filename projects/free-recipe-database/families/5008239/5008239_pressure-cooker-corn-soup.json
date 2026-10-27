@@ -48,8 +48,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 27,
@@ -63,8 +64,9 @@
     },
     {
       "ingredient_id": 2221,
-      "name": "tarragon, leaves minced, stems reserved separately",
-      "quantity": "4 sprigs"
+      "name": "tarragon",
+      "quantity": "4 sprigs",
+      "prep": "leaves minced, stems reserved separately"
     },
     {
       "ingredient_id": 1505,
@@ -88,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the garlic. Mince the leaves of the tarragon, then reserve the stems separately.",
+      "secondary_message": "2 medium cloves garlic\n4 sprigs tarragon"
+    },
     {
       "id": 1,
       "primary_message": "Melt butter over medium heat in a pressure cooker. Add leeks and garlic and cook, stirring frequently, until softened but not browned, about 4 minutes.",

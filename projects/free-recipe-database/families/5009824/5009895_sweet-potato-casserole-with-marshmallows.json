@@ -62,8 +62,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "peeled fresh ginger, finely grated",
-      "quantity": "1 (10 cm) knob"
+      "name": "peeled fresh ginger",
+      "quantity": "1 (10 cm) knob",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 2475,
@@ -82,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely grate the peeled fresh ginger.",
+      "secondary_message": "1 (10 cm) knob peeled fresh ginger"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center position. Place 2 large sheets of heavy-duty aluminum foil on a work surface. Working with one sheet at a time, place half of potatoes in center. Fold up foil and crimp edges to seal tightly. Repeat on second sheet with rest of potatoes. Transfer pouches to a rimmed baking sheet and place in oven. Set oven to 149°C (300°F). Roast until a thin skewer inserted into potatoes goes in with no resistance, about 2 hours. Remove from oven and set aside until cool enough to handle.",

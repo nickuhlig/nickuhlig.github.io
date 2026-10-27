@@ -79,8 +79,9 @@
     },
     {
       "ingredient_id": 470,
-      "name": "fennel bulb, thinly sliced",
-      "quantity": "1"
+      "name": "fennel bulb",
+      "quantity": "1",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
@@ -89,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the fennel bulb.",
+      "secondary_message": "1 fennel bulb"
+    },
     {
       "id": 1,
       "primary_message": "Cut the skin off the fish fillets, and butterfly them. Place each fillet between 2 large sheets of plastic wrap, and pound fish to between 1/4- and 1/2-inch thin with rolling pin. Place fish in baking dish with 1/4 cup olive oil, and season with salt and pepper. Preheat panini press or two-sided grill press to its highest heat setting.",

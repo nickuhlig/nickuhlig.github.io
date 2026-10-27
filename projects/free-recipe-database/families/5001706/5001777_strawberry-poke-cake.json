@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "150 g"
+      "name": "unsalted butter",
+      "quantity": "150 g",
+      "prep": "softened"
     },
     {
       "ingredient_id": 346,
@@ -82,8 +83,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 116,
@@ -102,13 +104,15 @@
     },
     {
       "ingredient_id": 1003,
-      "name": "sour cream, at room temperature",
-      "quantity": "1 cup"
+      "name": "sour cream",
+      "quantity": "1 cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 118,
-      "name": "whole milk, at room temperature",
-      "quantity": "½ cup"
+      "name": "whole milk",
+      "quantity": "½ cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1356,
@@ -117,8 +121,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "60 g"
+      "name": "cream cheese",
+      "quantity": "60 g",
+      "prep": "softened"
     },
     {
       "ingredient_id": 316,
@@ -127,11 +132,18 @@
     },
     {
       "ingredient_id": 242,
-      "name": "fresh strawberries, trimmed and thinly sliced",
-      "quantity": "85 g"
+      "name": "fresh strawberries",
+      "quantity": "85 g",
+      "prep": "trimmed and thinly sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter. Bring the eggs to room temperature. Bring the sour cream to room temperature. Bring the whole milk to room temperature. Soften the cream cheese. Trim and thinly slice the fresh strawberries.",
+      "secondary_message": "150 g unsalted butter\n3 large eggs\n1 cup sour cream\n½ cup whole milk\n60 g cream cheese\n85 g fresh strawberries"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 175°C (350°F). Spray a 9-by-33-cm baking pan with baking spray; set aside.",

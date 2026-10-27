@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 302,
-      "name": "sliced bacon, cut into 1/2-inch strips",
-      "quantity": "8 oz"
+      "name": "sliced bacon",
+      "quantity": "8 oz",
+      "prep": "cut into 1/2-inch strips"
     },
     {
       "ingredient_id": 152,
@@ -125,6 +126,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the sliced bacon into 1/2-inch strips.",
+      "secondary_message": "8 oz sliced bacon"
+    },
     {
       "id": 1,
       "primary_message": "In a large container, whisk together 2 quarts water and salt until salt has dissolved. Add beans, cover, and let stand overnight at room temperature. Drain and rinse beans.",

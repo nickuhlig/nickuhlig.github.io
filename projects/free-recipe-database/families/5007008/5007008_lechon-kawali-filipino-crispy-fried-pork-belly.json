@@ -40,13 +40,15 @@
   "ingredients": [
     {
       "ingredient_id": 1958,
-      "name": "boneless skin-on pork belly, cut in half",
-      "quantity": "2 lb"
+      "name": "boneless skin-on pork belly",
+      "quantity": "2 lb",
+      "prep": "cut in half"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed",
-      "quantity": "8 medium cloves"
+      "name": "garlic",
+      "quantity": "8 medium cloves",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 1747,
@@ -75,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the boneless skin-on pork belly in half. Smash the garlic.",
+      "secondary_message": "2 lb boneless skin-on pork belly\n8 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "In a large pot, place pork belly skin side down and add enough water to completely submerge meat. Add garlic, bay leaves, peppercorns, and soy sauce. Bring to a boil over medium-high heat, then lower heat and reduce to a simmer. Cover and cook until pork skin can be pierced with a knife with no resistance, about 1 hour. Transfer pork to a wire rack set in a rimmed baking sheet and season liberally with salt all over. Refrigerate pork until skin has completely dried, 6 hours or overnight.",

@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 1534,
-      "name": "black olives, cut in half",
-      "quantity": "113 g"
+      "name": "black olives",
+      "quantity": "113 g",
+      "prep": "cut in half"
     },
     {
       "ingredient_id": 1766,
@@ -72,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the black olives in half.",
+      "secondary_message": "113 g black olives"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 205°C (400°F). Line springform pan with parchment paper then grease liberally with olive oil.",

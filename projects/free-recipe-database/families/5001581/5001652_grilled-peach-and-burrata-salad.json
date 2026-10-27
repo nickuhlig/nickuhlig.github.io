@@ -53,8 +53,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "3 tbsp"
+      "name": "unsalted butter",
+      "quantity": "3 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 47,
@@ -78,8 +79,9 @@
     },
     {
       "ingredient_id": 2634,
-      "name": "burrata cheese, room temperature",
-      "quantity": "226 g"
+      "name": "burrata cheese",
+      "quantity": "226 g",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 28,
@@ -88,8 +90,9 @@
     },
     {
       "ingredient_id": 329,
-      "name": "thinly sliced prosciutto, torn into bite-size pieces",
-      "quantity": "60 g"
+      "name": "thinly sliced prosciutto",
+      "quantity": "60 g",
+      "prep": "torn into bite-size pieces"
     },
     {
       "ingredient_id": 72,
@@ -98,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Bring the burrata cheese to room temperature. Tear the thinly sliced prosciutto into bite-size pieces.",
+      "secondary_message": "3 tbsp unsalted butter\n226 g burrata cheese\n60 g thinly sliced prosciutto"
+    },
     {
       "id": 1,
       "primary_message": "For a Charcoal Grill: Open bottom vent completely. Fill large chimney starter 3/4 way full with charcoal briquettes (about 4 quarts coal) and light briquettes. When top coals are partially covered with grey ash, pour in an even layer over half of the grill grate. Set cooking grate in place, cover, and open lid vent fully. Heat covered until grill is hot, 5 minutes.\nFor a Gas Grill: Turn all burners to high, cover grill and heat until hot, about 15 minutes. Leave primary burner on high heat, and turn off other burner(s).",

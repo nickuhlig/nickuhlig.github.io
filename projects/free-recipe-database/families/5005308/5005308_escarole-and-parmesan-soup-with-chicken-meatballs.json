@@ -38,28 +38,33 @@
     },
     {
       "ingredient_id": 1725,
-      "name": "escarole, roughly chopped",
-      "quantity": "1 head"
+      "name": "escarole",
+      "quantity": "1 head",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely sliced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, finely chopped",
-      "quantity": "1 medium stalk"
+      "name": "celery",
+      "quantity": "1 medium stalk",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, peeled and diced into 1/2-inch pieces",
-      "quantity": "1 medium"
+      "name": "carrot",
+      "quantity": "1 medium",
+      "prep": "peeled and diced into 1/2-inch pieces"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1505,
@@ -78,8 +83,9 @@
     },
     {
       "ingredient_id": 44,
-      "name": "very cold boneless skinless chicken breast half, cut into 1-inch chunks, about 8 ounces",
-      "quantity": "1"
+      "name": "very cold boneless skinless chicken breast half, about 8 ounces",
+      "quantity": "1",
+      "prep": "cut into 1-inch chunks"
     },
     {
       "ingredient_id": 120,
@@ -118,6 +124,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the escarole. Finely slice the onion. Finely chop the celery. Peel and dice the carrot into 1/2-inch pieces. Thinly slice the garlic. Cut the very cold boneless skinless chicken breast half into 1-inch chunks.",
+      "secondary_message": "1 head escarole\n1 medium onion\n1 medium stalk celery\n1 medium carrot\n3 cloves garlic\n1 very cold boneless skinless chicken breast half, about 8 ounces"
+    },
     {
       "id": 1,
       "primary_message": "Heat olive oil in a large saucepan over medium heat until shimmering. Add escarole, onion, celery, carrot, and garlic and cook, stirring frequently, until vegetables are softened but not browned, about 15 minutes. Add chicken stock, bay leaf, and Parmesan rind. Bring to a boil, reduce to a bare simmer, and cook until vegetables are fully softened and flavors are developed, about 45 minutes.",

@@ -72,14 +72,16 @@
     },
     {
       "ingredient_id": 150,
-      "name": "red bell peppers, seeded and chopped",
+      "name": "red bell peppers",
       "quantity": "6",
-      "weigh_as": "0.91 kg"
+      "weigh_as": "0.91 kg",
+      "prep": "seeded and chopped"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, chopped",
-      "quantity": "1 small"
+      "name": "yellow onion",
+      "quantity": "1 small",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 47,
@@ -133,6 +135,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Seed and chop the red bell peppers. Chop the yellow onion.",
+      "secondary_message": "6 red bell peppers\n1 small yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "In the bowl of a food processor, process 1 cup walnuts until very finely chopped (do not process into a paste), about 30 seconds. Transfer to a large bowl and set aside.",

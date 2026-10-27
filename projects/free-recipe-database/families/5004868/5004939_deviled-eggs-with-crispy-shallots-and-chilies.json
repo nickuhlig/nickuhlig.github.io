@@ -37,8 +37,9 @@
   "ingredients": [
     {
       "ingredient_id": 3072,
-      "name": "hard boiled, peeled and halved lengthwise",
-      "quantity": "6"
+      "name": "hard-boiled eggs",
+      "quantity": "6",
+      "prep": "peeled and halved lengthwise"
     },
     {
       "ingredient_id": 267,
@@ -72,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and halve the hard-boiled eggs lengthwise.",
+      "secondary_message": "6 hard-boiled eggs"
+    },
     {
       "id": 1,
       "primary_message": "Place all of the yolks in a medium bowl. Select 8 of the best looking egg white halves and set aside. Reserve the remaining 4 for another use. Add mayonnaise, jalapeño or Thai bird chilies, lemon juice, and half of fried shallots. Using a stiff whisk, mash until thoroughly combined. Season to taste with salt and pepper.",

@@ -44,8 +44,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "5 medium cloves"
+      "name": "garlic",
+      "quantity": "5 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2837,
@@ -89,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the garlic.",
+      "secondary_message": "5 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Remove the ribs from collards and rinse leaves thoroughly. Line up leaves and roll them lengthwise like a cigar. Slice them into 1-inch ribbons.",

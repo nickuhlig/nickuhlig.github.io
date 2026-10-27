@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 1922,
-      "name": "boneless beef chuck, trimmed and cut into 1-inch cubes",
-      "quantity": "1 kg"
+      "name": "boneless beef chuck",
+      "quantity": "1 kg",
+      "prep": "trimmed and cut into 1-inch cubes"
     },
     {
       "ingredient_id": 88,
@@ -60,8 +61,9 @@
     },
     {
       "ingredient_id": 1866,
-      "name": "green cardamom pods, lightly crushed",
-      "quantity": "5"
+      "name": "green cardamom pods",
+      "quantity": "5",
+      "prep": "lightly crushed"
     },
     {
       "ingredient_id": 1784,
@@ -85,8 +87,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, unpeeled",
-      "quantity": "5 medium cloves"
+      "name": "garlic",
+      "quantity": "5 medium cloves",
+      "prep": "unpeeled"
     },
     {
       "ingredient_id": 359,
@@ -150,8 +153,9 @@
     },
     {
       "ingredient_id": 1079,
-      "name": "pita breads, cut in 1-inch squares",
-      "quantity": "4"
+      "name": "pita breads",
+      "quantity": "4",
+      "prep": "cut in 1-inch squares"
     },
     {
       "ingredient_id": 47,
@@ -190,8 +194,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "8 medium cloves"
+      "name": "garlic",
+      "quantity": "8 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1574,
@@ -245,6 +250,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim and cut the boneless beef chuck into 1-inch cubes. Lightly crush the green cardamom pods. Leave the garlic unpeeled. Cut the pita breads in 1-inch squares. Mince the garlic.",
+      "secondary_message": "1 kg boneless beef chuck\n5 green cardamom pods\n5 medium cloves garlic\n4 pita breads\n8 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Meat and Broth: Season beef with salt all over, set aside. In a large heavy bottomed pot or Dutch oven, heat ghee over medium heat until shimmering. Add the bay leaves, cardamom, mastic resin (if using), black peppercorns, allspice, and cinnamon, and cook, stirring constantly, until fragrant, about 30 seconds. Working in batches to avoid crowing the pot, add beef in a single layer (you can leave the whole spices in the pot). Increase heat to medium-high and cook, turning occasionally, until beef is browned all over, about 8 minutes. Transfer to a plate with the whole spices and repeat with remaining beef.",

@@ -78,8 +78,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, minced or grated, divided",
-      "quantity": "1 medium"
+      "name": "onion, divided",
+      "quantity": "1 medium",
+      "prep": "minced or grated"
     },
     {
       "ingredient_id": 2228,
@@ -138,6 +139,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince or grate the onion.",
+      "secondary_message": "1 medium onion, divided"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, combine bread with milk, tossing to coat. Let stand until bread is completely softened and most of the milk has been absorbed, about 10 minutes.",

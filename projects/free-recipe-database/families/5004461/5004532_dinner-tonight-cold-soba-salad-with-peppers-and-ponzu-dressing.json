@@ -49,8 +49,9 @@
     },
     {
       "ingredient_id": 228,
-      "name": "limes, juiced",
-      "quantity": "2"
+      "name": "limes",
+      "quantity": "2",
+      "prep": "juiced"
     },
     {
       "ingredient_id": 103,
@@ -59,18 +60,21 @@
     },
     {
       "ingredient_id": 150,
-      "name": "red bell pepper, stemmed, seeded, diced",
-      "quantity": "½"
+      "name": "red bell pepper",
+      "quantity": "½",
+      "prep": "stemmed, seeded, diced"
     },
     {
       "ingredient_id": 259,
-      "name": "orange bell pepper, stemmed, seeded, diced",
-      "quantity": "½"
+      "name": "orange bell pepper",
+      "quantity": "½",
+      "prep": "stemmed, seeded, diced"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, green parts only, thinly sliced",
-      "quantity": "4 medium"
+      "name": "scallions, green parts only",
+      "quantity": "4 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 181,
@@ -79,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the limes. Stem, seed, and dice the red bell pepper. Stem, seed, and dice the orange bell pepper. Thinly slice the scallions.",
+      "secondary_message": "2 limes\n½ red bell pepper\n½ orange bell pepper\n4 medium scallions, green parts only"
+    },
     {
       "id": 1,
       "primary_message": "Bring two quarts of water to a boil in a large pot. Add the noodles, stir well, and cook until al dente, about five minutes. Drain in a colander, and then rinse under cold water. Drain again.",

@@ -41,23 +41,27 @@
   "ingredients": [
     {
       "ingredient_id": 1713,
-      "name": "onion, roughly chopped",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, roughly chopped",
-      "quantity": "3"
+      "name": "scallions",
+      "quantity": "3",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, roughly chopped",
-      "quantity": "4 large"
+      "name": "garlic cloves",
+      "quantity": "4 large",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1993,
-      "name": "Scotch bonnet chiles, stemmed and seeded",
-      "quantity": "3"
+      "name": "Scotch bonnet chiles",
+      "quantity": "3",
+      "prep": "stemmed and seeded"
     },
     {
       "ingredient_id": 1421,
@@ -116,6 +120,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the onion. Roughly chop the scallions. Roughly chop the garlic cloves. Stem and seed the Scotch bonnet chiles.",
+      "secondary_message": "1 small onion\n3 scallions\n4 large garlic cloves\n3 Scotch bonnet chiles"
+    },
     {
       "id": 1,
       "primary_message": "Place onion, scallion, garlic, habaneros, lime juice, soy sauce, olive oil, salt, brown sugar, thyme, allspice, black pepper, nutmeg, and cinnamon in the jar of a blender and puree until smooth.",

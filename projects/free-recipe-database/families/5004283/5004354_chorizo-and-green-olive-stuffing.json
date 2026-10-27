@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 1174,
-      "name": "crusty bread, cut into 1/2 inch cubes",
-      "quantity": "14 cups"
+      "name": "crusty bread",
+      "quantity": "14 cups",
+      "prep": "cut into 1/2 inch cubes"
     },
     {
       "ingredient_id": 115,
@@ -45,8 +46,9 @@
     },
     {
       "ingredient_id": 1390,
-      "name": "chorizo, diced",
-      "quantity": "227 g"
+      "name": "chorizo",
+      "quantity": "227 g",
+      "prep": "diced"
     },
     {
       "ingredient_id": 478,
@@ -60,18 +62,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, diced fine",
-      "quantity": "2 cups"
+      "name": "onion",
+      "quantity": "2 cups",
+      "prep": "diced fine"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "6 cloves"
+      "name": "garlic",
+      "quantity": "6 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1600,
-      "name": "green olives, pitted and chopped fine",
-      "quantity": "2 cups"
+      "name": "green olives",
+      "quantity": "2 cups",
+      "prep": "pitted and chopped fine"
     },
     {
       "ingredient_id": 1231,
@@ -90,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the crusty bread into 1/2 inch cubes. Dice the chorizo. Dice the onion fine. Mince the garlic. Pit and chop the green olives fine.",
+      "secondary_message": "14 cups crusty bread\n227 g chorizo\n2 cups onion\n6 cloves garlic\n2 cups green olives"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 135°C (275°F). Arrange bread cubes on a baking sheet and bake until completely dried, about 45 minutes, then transfer to a large bowl. Increase oven temperature to 175°C (350°F).",

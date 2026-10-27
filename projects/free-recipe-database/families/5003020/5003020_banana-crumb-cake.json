@@ -73,8 +73,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "6 tbsp"
+      "name": "unsalted butter",
+      "quantity": "6 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 116,
@@ -138,6 +139,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter.",
+      "secondary_message": "6 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the crumb topping: In a medium bowl, whisk together flour, sugars and cinnamon until thoroughly combined. Drizzle melted butter over the flour mixture use a fork to incorporate and form a fine, sandy crumb (if you prefer a more compact crumb, please see instructions above). Set aside.",

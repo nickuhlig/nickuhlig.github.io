@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, sliced",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 1766,
@@ -85,11 +86,18 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, juiced",
-      "quantity": "½"
+      "name": "lemon",
+      "quantity": "½",
+      "prep": "juiced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the garlic. Juice the lemon.",
+      "secondary_message": "4 cloves garlic\n½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "In large zip-top bag, combine lamb, vadouvan, salt, and yogurt. Mix until thoroughly combined, then marinate 2 to 24 hours (longer is better).",

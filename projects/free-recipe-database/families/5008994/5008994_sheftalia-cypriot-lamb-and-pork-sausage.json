@@ -41,18 +41,21 @@
   "ingredients": [
     {
       "ingredient_id": 2718,
-      "name": "boneless lamb shoulder, cut into 1-inch cubes",
-      "quantity": "1 lb"
+      "name": "boneless lamb shoulder",
+      "quantity": "1 lb",
+      "prep": "cut into 1-inch cubes"
     },
     {
       "ingredient_id": 2164,
-      "name": "boneless pork shoulder, cut into 1-inch cubes",
-      "quantity": "1 lb"
+      "name": "boneless pork shoulder",
+      "quantity": "1 lb",
+      "prep": "cut into 1-inch cubes"
     },
     {
       "ingredient_id": 2660,
-      "name": "pork fatback, cut into 1-inch cubes",
-      "quantity": "½ lb"
+      "name": "pork fatback",
+      "quantity": "½ lb",
+      "prep": "cut into 1-inch cubes"
     },
     {
       "ingredient_id": 88,
@@ -61,8 +64,9 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, finely chopped",
-      "quantity": "1 cup"
+      "name": "red onion",
+      "quantity": "1 cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1808,
@@ -81,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the boneless lamb shoulder into 1-inch cubes. Cut the boneless pork shoulder into 1-inch cubes. Cut the pork fatback into 1-inch cubes. Finely chop the red onion.",
+      "secondary_message": "1 lb boneless lamb shoulder\n1 lb boneless pork shoulder\n½ lb pork fatback\n1 cup red onion"
+    },
     {
       "id": 1,
       "primary_message": "If grinding at home: Place lamb, pork, and fatback in a large bowl. Add salt and toss to coat evenly. Place in refrigerator until chilled, at least 30 minutes. Place meat grinder parts, including medium and small dies, in freezer to chill.",

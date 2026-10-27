@@ -56,13 +56,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "Asian shallots, roughly chopped",
-      "quantity": "2 small"
+      "name": "Asian shallots",
+      "quantity": "2 small",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, crushed",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 2328,
@@ -71,8 +73,9 @@
     },
     {
       "ingredient_id": 1810,
-      "name": "bird’s eye chiles, stemmed",
-      "quantity": "5"
+      "name": "bird’s eye chiles",
+      "quantity": "5",
+      "prep": "stemmed"
     },
     {
       "ingredient_id": 1820,
@@ -96,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the Asian shallots. Crush the garlic. Stem the bird’s eye chiles.",
+      "secondary_message": "2 small Asian shallots\n1 medium clove garlic\n5 bird’s eye chiles"
+    },
     {
       "id": 1,
       "primary_message": "If using roasted peanuts, process in a high-speed blender or food processor until a paste the texture of wet sand forms, 3 to 4 minutes. (It will be coarser than peanut butter; you will get about 1 cup. If using a mortar and pestle, grind roasted) Transfer peanut paste to a small bowl and set aside.",

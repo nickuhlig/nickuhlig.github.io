@@ -47,9 +47,10 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onions, halved and thinly sliced",
+      "name": "yellow onions",
       "quantity": "5 medium",
-      "weigh_as": "0.57 kg"
+      "weigh_as": "0.57 kg",
+      "prep": "halved and thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -63,13 +64,15 @@
     },
     {
       "ingredient_id": 1012,
-      "name": "baguette, cut into 3/4-inch cubes",
-      "quantity": "160 g"
+      "name": "baguette",
+      "quantity": "160 g",
+      "prep": "cut into 3/4-inch cubes"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1677,
@@ -83,8 +86,9 @@
     },
     {
       "ingredient_id": 1388,
-      "name": "butter beans, drained and rinsed",
-      "quantity": "2 (454 g) cans"
+      "name": "butter beans",
+      "quantity": "2 (454 g) cans",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 3687,
@@ -93,16 +97,24 @@
     },
     {
       "ingredient_id": 1060,
-      "name": "Gruyère cheese, shredded",
-      "quantity": "113 g"
+      "name": "Gruyère cheese",
+      "quantity": "113 g",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 120,
-      "name": "Parmigiano-Reggiano cheese, grated",
-      "quantity": "28 g"
+      "name": "Parmigiano-Reggiano cheese",
+      "quantity": "28 g",
+      "prep": "grated"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve and thinly slice the yellow onions. Cut the baguette into 3/4-inch cubes. Thinly slice the garlic. Drain and rinse the butter beans. Shred the Gruyère cheese. Grate the Parmigiano-Reggiano cheese.",
+      "secondary_message": "5 medium yellow onions\n160 g baguette\n2 medium cloves garlic\n2 (454 g) cans butter beans\n113 g Gruyère cheese\n28 g Parmigiano-Reggiano cheese"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 205°C (400°F). In a large skillet, melt butter over medium-high heat until foaming. Add onions, salt, and pepper, and cook, stirring occasionally, until softened, 6 to 8 minutes. Reduce heat to medium-low and cook, stirring frequently and scraping bottom of skillet with wooden spoon as needed to avoid scorching, until onions are sweet and deeply caramelized, about 45 minutes. If browned onion juices on bottom of skillet threaten to burn, add 1 tablespoon water, scrape up browned bits, and continue cooking.",

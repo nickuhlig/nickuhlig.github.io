@@ -109,8 +109,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "6 oz"
+      "name": "unsalted butter",
+      "quantity": "6 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 346,
@@ -129,8 +130,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 103,
@@ -169,13 +171,15 @@
     },
     {
       "ingredient_id": 2285,
-      "name": "semisweet chocolate, finely chopped",
-      "quantity": "12 oz"
+      "name": "semisweet chocolate",
+      "quantity": "12 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "4 oz"
+      "name": "bittersweet chocolate",
+      "quantity": "4 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2310,
@@ -184,6 +188,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter. Bring the eggs to room temperature. Finely chop the semisweet chocolate. Finely chop the bittersweet chocolate.",
+      "secondary_message": "6 oz unsalted butter\n2 large eggs\n12 oz semisweet chocolate\n4 oz bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "For the Cookies: In a small bowl, combine brandy, coffee, almond extract, and vanilla. Set aside.",

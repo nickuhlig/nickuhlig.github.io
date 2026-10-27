@@ -42,8 +42,9 @@
     },
     {
       "ingredient_id": 92,
-      "name": "chickpeas, drained, rinsed, and very well dried",
-      "quantity": "1 (15 ½ oz) can"
+      "name": "chickpeas, and very well dried",
+      "quantity": "1 (15 ½ oz) can",
+      "prep": "drained, rinsed"
     },
     {
       "ingredient_id": 1472,
@@ -52,11 +53,18 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested",
-      "quantity": "½"
+      "name": "lemon",
+      "quantity": "½",
+      "prep": "zested"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain and rinse the chickpeas. Zest the lemon.",
+      "secondary_message": "1 (15 ½ oz) can chickpeas, and very well dried\n½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "Fill a small saucepot half full with olive oil, and heat over medium heat until it reaches 350°F. Drop the garlic clove into the oil when it is cold, and remove it as it comes to temperature—just to infuse the flavor into the oil.",

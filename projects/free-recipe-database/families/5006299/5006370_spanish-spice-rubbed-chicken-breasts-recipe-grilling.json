@@ -97,8 +97,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 103,
@@ -127,6 +128,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the garlic.",
+      "secondary_message": "3 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Whisk together the ingredients for the brine until the salt and sugar are dissolved. Place the chicken breasts in the brine, using a plate to keep them submerged, and brine in the refrigerator for 30 to 60 minutes.",

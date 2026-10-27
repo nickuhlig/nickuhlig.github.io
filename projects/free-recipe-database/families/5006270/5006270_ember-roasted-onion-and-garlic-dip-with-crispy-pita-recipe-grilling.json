@@ -38,8 +38,9 @@
   "ingredients": [
     {
       "ingredient_id": 152,
-      "name": "yellow onions, cut in half through the stem",
-      "quantity": "2 medium"
+      "name": "yellow onions",
+      "quantity": "2 medium",
+      "prep": "cut in half through the stem"
     },
     {
       "ingredient_id": 24,
@@ -53,8 +54,9 @@
     },
     {
       "ingredient_id": 92,
-      "name": "garbanzo beans, rinsed",
-      "quantity": "1 (15 ½ oz) can"
+      "name": "garbanzo beans",
+      "quantity": "1 (15 ½ oz) can",
+      "prep": "rinsed"
     },
     {
       "ingredient_id": 1003,
@@ -103,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the yellow onions in half through the stem. Rinse the garbanzo beans.",
+      "secondary_message": "2 medium yellow onions\n1 (15 ½ oz) can garbanzo beans"
+    },
     {
       "id": 1,
       "primary_message": "Light one chimney full of charcoal. When all the charcoal is lit and covered with gray ash, pour out and spread coals out evenly.",

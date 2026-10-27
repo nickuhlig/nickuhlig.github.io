@@ -77,13 +77,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "15 medium cloves"
+      "name": "garlic",
+      "quantity": "15 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2654,
-      "name": "oil-packed bonito tuna, such as Ortiz, drained",
-      "quantity": "2 (8 ½ oz) cans"
+      "name": "oil-packed bonito tuna, such as Ortiz",
+      "quantity": "2 (8 ½ oz) cans",
+      "prep": "drained"
     },
     {
       "ingredient_id": 88,
@@ -97,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the garlic. Drain the oil-packed bonito tuna.",
+      "secondary_message": "15 medium cloves garlic\n2 (8 ½ oz) cans oil-packed bonito tuna, such as Ortiz"
+    },
     {
       "id": 1,
       "primary_message": "For the Dough: In a large bowl, mix together flour, salt, and yeast. Add water and olive oil and mix until fully incorporated. Continue mixing and kneading until a smooth, elastic dough forms, about 5 minutes. Grease a medium bowl with olive oil. Stretch dough ball by tucking it under itself to form a taut, smooth ball. Drizzle with olive oil, rub to coat, and transfer to greased bowl. Cover with plastic and set aside in a warm place until doubled in size, about 2 hours.",

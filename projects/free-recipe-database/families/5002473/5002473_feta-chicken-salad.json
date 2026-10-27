@@ -98,16 +98,24 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, thinly sliced",
-      "quantity": "3"
+      "name": "scallions",
+      "quantity": "3",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 32,
-      "name": "feta cheese, crumbled into about 1/2-inch pieces",
-      "quantity": "7 oz"
+      "name": "feta cheese",
+      "quantity": "7 oz",
+      "prep": "crumbled into about 1/2-inch pieces"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the scallions. Crumble the feta cheese into about 1/2-inch pieces.",
+      "secondary_message": "3 scallions\n7 oz feta cheese"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and heat oven to 400°F. Line a rimmed baking sheet with foil.",

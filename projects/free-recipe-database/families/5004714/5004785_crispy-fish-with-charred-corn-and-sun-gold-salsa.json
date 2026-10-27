@@ -58,23 +58,27 @@
     },
     {
       "ingredient_id": 260,
-      "name": "Sun Gold tomatoes, quartered",
-      "quantity": "3 cups"
+      "name": "Sun Gold tomatoes",
+      "quantity": "3 cups",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 151,
-      "name": "pepper jalapenos, stemmed, seeded, chopped",
-      "quantity": "1 to 2"
+      "name": "pepper jalapenos",
+      "quantity": "1 to 2",
+      "prep": "stemmed, seeded, chopped"
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, chopped",
-      "quantity": "½ large"
+      "name": "white onion",
+      "quantity": "½ large",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "2 medium"
+      "name": "garlic cloves",
+      "quantity": "2 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 188,
@@ -93,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Quarter the Sun Gold tomatoes. Stem, seed, and chop the pepper jalapenos. Chop the white onion. Mince the garlic cloves.",
+      "secondary_message": "3 cups Sun Gold tomatoes\n1 to 2 pepper jalapenos\n½ large white onion\n2 medium garlic cloves"
+    },
     {
       "id": 1,
       "primary_message": "Place fish fillets on a rimmed baking sheet and sprinkle with 2 tablespoons of lime juice and a couple pinches of salt. Set aside for at least 30 minutes.",

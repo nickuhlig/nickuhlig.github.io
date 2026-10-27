@@ -52,14 +52,16 @@
     },
     {
       "ingredient_id": 303,
-      "name": "sweet corn, shucked, kernels removed",
+      "name": "sweet corn",
       "quantity": "2 ½ cups",
-      "weigh_as": "408 g"
+      "weigh_as": "408 g",
+      "prep": "shucked, kernels removed"
     },
     {
       "ingredient_id": 32,
-      "name": "drained feta cheese, finely crumbled",
-      "quantity": "8 oz"
+      "name": "drained feta cheese",
+      "quantity": "8 oz",
+      "prep": "finely crumbled"
     },
     {
       "ingredient_id": 1061,
@@ -68,8 +70,9 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, thinly sliced",
-      "quantity": "½ small"
+      "name": "red onion",
+      "quantity": "½ small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 47,
@@ -78,13 +81,15 @@
     },
     {
       "ingredient_id": 3654,
-      "name": "fresh oregano leaves, finely chopped",
-      "quantity": "2 tbsp"
+      "name": "fresh oregano leaves",
+      "quantity": "2 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1721,
@@ -103,21 +108,30 @@
     },
     {
       "ingredient_id": 2012,
-      "name": "pitted Kalamata olives, halved",
-      "quantity": "½ cup"
+      "name": "pitted Kalamata olives",
+      "quantity": "½ cup",
+      "prep": "halved"
     },
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, thinly sliced",
-      "quantity": "½ cup"
+      "name": "cherry tomatoes",
+      "quantity": "½ cup",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 243,
-      "name": "fresh mint leaves, torn",
-      "quantity": "¼ cup"
+      "name": "fresh mint leaves",
+      "quantity": "¼ cup",
+      "prep": "torn"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shuck the sweet corn, then remove the kernels. Finely crumble the drained feta cheese. Thinly slice the red onion. Finely chop the fresh oregano leaves. Mince the garlic. Halve the pitted Kalamata olives. Thinly slice the cherry tomatoes. Tear the fresh mint leaves.",
+      "secondary_message": "2 ½ cups sweet corn\n8 oz drained feta cheese\n½ small red onion\n2 tbsp fresh oregano leaves\n1 medium clove garlic\n½ cup pitted Kalamata olives\n½ cup cherry tomatoes\n¼ cup fresh mint leaves"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350ºF (180ºC). Using your fingers, break up the cream cheese into dollops and evenly distribute around the bottom of an 8-inch square baking dish.",

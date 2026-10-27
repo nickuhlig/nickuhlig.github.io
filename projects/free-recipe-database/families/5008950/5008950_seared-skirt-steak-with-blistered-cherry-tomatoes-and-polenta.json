@@ -48,8 +48,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced , divided",
-      "quantity": "6 cloves"
+      "name": "garlic, divided",
+      "quantity": "6 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 47,
@@ -78,8 +79,9 @@
     },
     {
       "ingredient_id": 120,
-      "name": "Parmesan cheese, grated",
-      "quantity": "2 oz"
+      "name": "Parmesan cheese",
+      "quantity": "2 oz",
+      "prep": "grated"
     },
     {
       "ingredient_id": 277,
@@ -108,6 +110,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic. Grate the Parmesan cheese.",
+      "secondary_message": "6 cloves garlic, divided\n2 oz Parmesan cheese"
+    },
     {
       "id": 1,
       "primary_message": "Season steak generously with salt and pepper. Rub with 2 minced cloves garlic and 1 tablespoon olive oil. Set aside at room temperature.",

@@ -46,8 +46,9 @@
   "ingredients": [
     {
       "ingredient_id": 143,
-      "name": "sweet potatoes, peeled and cut into 1/2-inch chunks",
-      "quantity": "3 lb"
+      "name": "sweet potatoes",
+      "quantity": "3 lb",
+      "prep": "peeled and cut into 1/2-inch chunks"
     },
     {
       "ingredient_id": 1044,
@@ -96,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the sweet potatoes into 1/2-inch chunks.",
+      "secondary_message": "3 lb sweet potatoes"
+    },
     {
       "id": 1,
       "primary_message": "Place sweet potatoes in a large saucepan and cover with cold water. Heat water to 160°F as registered on an instant-read thermometer. Cover and set aside for 1 hour.",

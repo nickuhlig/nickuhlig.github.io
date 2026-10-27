@@ -70,8 +70,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, room temperature",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 346,
@@ -80,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the egg to room temperature.",
+      "secondary_message": "1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "In the bowl of a stand mixer, whisk together flour, yeast, and salt. In a 4-cup liquid measuring cup or large bowl, whisk water, oil, egg, and sugar until sugar is dissolved.",

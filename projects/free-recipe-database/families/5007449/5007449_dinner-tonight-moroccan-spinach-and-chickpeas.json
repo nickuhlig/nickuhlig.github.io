@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 1879,
-      "name": "fresh curly spinach, rinsed",
-      "quantity": "½ lb"
+      "name": "fresh curly spinach",
+      "quantity": "½ lb",
+      "prep": "rinsed"
     },
     {
       "ingredient_id": 88,
@@ -51,13 +52,15 @@
     },
     {
       "ingredient_id": 92,
-      "name": "chickpeas, drained and rinsed",
-      "quantity": "1 (15 oz) can"
+      "name": "chickpeas",
+      "quantity": "1 (15 oz) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 1174,
-      "name": "from a country loaf, cut into cubes",
-      "quantity": "1 (½ inch) slice"
+      "name": "from a country loaf",
+      "quantity": "1 (½ inch) slice",
+      "prep": "cut into cubes"
     },
     {
       "ingredient_id": 99,
@@ -66,8 +69,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 186,
@@ -96,11 +100,18 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, cut into wedges",
-      "quantity": "1"
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "cut into wedges"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse the fresh curly spinach. Drain and rinse the chickpeas. Cut the from a country loaf into cubes. Thinly slice the garlic. Cut the lemon into wedges.",
+      "secondary_message": "½ lb fresh curly spinach\n1 (15 oz) can chickpeas\n1 (½ inch) slice from a country loaf\n2 medium cloves garlic\n1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "Pour half of the oil into a large saucepan over medium heat. Add the spinach and a pinch of salt. Stir constantly, and cook until the leaves just wilt, about 4 minutes. Drain contents in a colander. Rinse out saucepan and dry with paper towel.",

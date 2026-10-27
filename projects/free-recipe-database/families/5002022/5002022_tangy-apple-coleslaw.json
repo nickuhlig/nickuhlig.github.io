@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 1004,
-      "name": "green cabbage, finely shredded",
-      "quantity": "1 large head"
+      "name": "green cabbage",
+      "quantity": "1 large head",
+      "prep": "finely shredded"
     },
     {
       "ingredient_id": 159,
@@ -101,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely shred the green cabbage.",
+      "secondary_message": "1 large head green cabbage"
+    },
     {
       "id": 1,
       "primary_message": "For the Slaw: In a large colander, combine cabbage, carrot, and apple. Sprinkle with sugar and salt and toss to combine. Let sit for 5 minutes, then rinse thoroughly under cold running water.",

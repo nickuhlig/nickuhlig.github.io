@@ -72,8 +72,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 53,
@@ -102,8 +103,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "6 medium cloves"
+      "name": "garlic cloves",
+      "quantity": "6 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1935,
@@ -127,8 +129,9 @@
     },
     {
       "ingredient_id": 2164,
-      "name": "boneless pork shoulder, cut into 1-inch cubes",
-      "quantity": "1.81 kg"
+      "name": "boneless pork shoulder",
+      "quantity": "1.81 kg",
+      "prep": "cut into 1-inch cubes"
     },
     {
       "ingredient_id": 3613,
@@ -137,6 +140,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the onion. Mince the garlic cloves. Cut the boneless pork shoulder into 1-inch cubes.",
+      "secondary_message": "1 medium onion\n6 medium cloves garlic cloves\n1.81 kg boneless pork shoulder"
+    },
     {
       "id": 1,
       "primary_message": "For the Marinade: In a medium saucepan, place all marinade ingredients and whisk to combine. Cook over low heat stirring occasionally, until just warm and sugar is dissolved, about 5 minutes. Remove from heat and let cool to room temperature, 1 to 1 1/2 hours.",

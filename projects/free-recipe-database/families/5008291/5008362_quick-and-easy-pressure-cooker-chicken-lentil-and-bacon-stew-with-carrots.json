@@ -44,18 +44,21 @@
     },
     {
       "ingredient_id": 302,
-      "name": "bacon, cut into 1/2-inch lardons",
-      "quantity": "227 g"
+      "name": "bacon",
+      "quantity": "227 g",
+      "prep": "cut into 1/2-inch lardons"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, diced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and roughly chopped",
-      "quantity": "2 medium"
+      "name": "carrots",
+      "quantity": "2 medium",
+      "prep": "peeled and roughly chopped"
     },
     {
       "ingredient_id": 420,
@@ -99,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the bacon into 1/2-inch lardons. Dice the onion. Peel and roughly chop the carrots.",
+      "secondary_message": "227 g bacon\n1 medium onion\n2 medium carrots"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in a pressure cooker over medium-high heat until shimmering. Add bacon and cook until starting to crisp around edges, about 1 minute. Add onions and cook, stirring, until softened but not browned, about 2 minutes longer. Add carrots, lentils, parsley stems, bay leaves, chicken legs, and chicken stock. Season gently with salt and pepper and stir to combine.",

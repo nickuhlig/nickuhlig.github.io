@@ -34,23 +34,27 @@
   "ingredients": [
     {
       "ingredient_id": 2712,
-      "name": "pork shoulder, cubed and trimmed of tough gristle",
-      "quantity": "5 lb"
+      "name": "pork shoulder",
+      "quantity": "5 lb",
+      "prep": "cubed and trimmed of tough gristle"
     },
     {
       "ingredient_id": 2660,
-      "name": "pork fat back, cubed",
-      "quantity": "1 ½ lb"
+      "name": "pork fat back",
+      "quantity": "1 ½ lb",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 43,
-      "name": "sharp cheddar, half cubed, half grated",
-      "quantity": "1 lb"
+      "name": "sharp cheddar",
+      "quantity": "1 lb",
+      "prep": "half cubed, half grated"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeños, seeded and chopped fine",
-      "quantity": "10 medium"
+      "name": "jalapeños",
+      "quantity": "10 medium",
+      "prep": "seeded and chopped fine"
     },
     {
       "ingredient_id": 88,
@@ -69,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cube and trim the pork shoulder of tough gristle. Cube the pork fat back. Cube and grate the half of the sharp cheddar. Seed and chop the jalapeños fine.",
+      "secondary_message": "5 lb pork shoulder\n1 ½ lb pork fat back\n1 lb sharp cheddar\n10 medium jalapeños"
+    },
     {
       "id": 1,
       "primary_message": "Using the fine die on your meat grinder, grind the pork shoulder, fat, and cheese cubes into a bowl set in ice water. Add in the grated cheese, jalapeños, and salt and pepper to taste. Using a stand mixer, mix on medium speed for 2 to 3 minutes.",

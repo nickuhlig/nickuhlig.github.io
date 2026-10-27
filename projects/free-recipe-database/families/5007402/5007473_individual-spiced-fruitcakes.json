@@ -80,8 +80,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, diced",
-      "quantity": "9 tbsp"
+      "name": "unsalted butter",
+      "quantity": "9 tbsp",
+      "prep": "diced"
     },
     {
       "ingredient_id": 2251,
@@ -115,6 +116,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the unsalted butter.",
+      "secondary_message": "9 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 175°C (350°F). Grease loaf tin. In a large bowl, combine flour, baking soda, salt, cinnamon, nutmeg, cloves, and allspice; set aside.",

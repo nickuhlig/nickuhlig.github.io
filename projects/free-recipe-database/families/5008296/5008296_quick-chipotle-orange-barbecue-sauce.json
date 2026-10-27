@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 1618,
-      "name": "chipotle chilis, canned in adobo sauce, finely chopped",
-      "quantity": "1 ½ tsp"
+      "name": "chipotle chilis, canned in adobo sauce",
+      "quantity": "1 ½ tsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2401,
@@ -60,6 +61,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the chipotle chilis.",
+      "secondary_message": "1 ½ tsp chipotle chilis, canned in adobo sauce"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, whisk together barbecue sauce, orange juice, honey, chipotles, and ancho chili powder. Use immediately or pour back in bottle and store in refrigerator for up to a month.",

@@ -67,8 +67,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, soft but cool, about 65°F",
-      "quantity": "227 g"
+      "name": "unsalted butter",
+      "quantity": "227 g",
+      "prep": "soft but cool, about 65°F"
     },
     {
       "ingredient_id": 346,
@@ -107,11 +108,18 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, straight from the fridge",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "straight from the fridge"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Let the unsalted butter soften slightly but keep it cool and bring it to 65°F. Keep the egg cold until you use it.",
+      "secondary_message": "227 g unsalted butter\n1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "Make the Dough: Adjust oven rack to middle position and preheat to 180°C (350°F). Set aside a handful of chopped chocolate (about 57 g; 55g) and place the remainder in a medium bowl. Sift flour on top and toss together. Combine butter, white sugar, brown sugar, vanilla, salt, baking soda, baking powder, and nutmeg in the bowl of a stand mixer fitted with a paddle attachment. Mix on low to moisten, then increase to medium and beat until light and fluffy, about 5 minutes. With mixer running, add egg and continue beating only until smooth. Reduce speed to low, add flour/chocolate all at once, and mix to form a stiff dough.",

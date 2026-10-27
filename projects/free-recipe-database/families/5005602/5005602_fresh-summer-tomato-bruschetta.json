@@ -40,8 +40,9 @@
     },
     {
       "ingredient_id": 1746,
-      "name": "basil leaves, thinly sliced into a chiffonade",
-      "quantity": "15 large"
+      "name": "basil leaves",
+      "quantity": "15 large",
+      "prep": "thinly sliced into a chiffonade"
     },
     {
       "ingredient_id": 47,
@@ -55,8 +56,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, halved",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "halved"
     },
     {
       "ingredient_id": 1472,
@@ -65,6 +67,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the basil leaves into a chiffonade. Halve the garlic.",
+      "secondary_message": "15 large basil leaves\n3 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, combine tomatoes with basil and enough olive oil to generously coat. If using wine vinegar, add a splash. Toss gently, taste, and add more wine vinegar if desired.",

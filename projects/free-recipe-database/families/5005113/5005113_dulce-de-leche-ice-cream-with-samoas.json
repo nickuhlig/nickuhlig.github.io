@@ -61,11 +61,18 @@
     },
     {
       "ingredient_id": 3231,
-      "name": "Samoa Girl Scout cookies, finely chopped and chilled in freezer",
-      "quantity": "1 cup"
+      "name": "Samoa Girl Scout cookies",
+      "quantity": "1 cup",
+      "prep": "finely chopped and chilled in freezer"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop and chill the Samoa Girl Scout cookies in freezer.",
+      "secondary_message": "1 cup Samoa Girl Scout cookies"
+    },
     {
       "id": 1,
       "primary_message": "In a heavy medium saucepan, whisk together egg yolks and dulce de leche until well combined. Slowly whisk in cream, a little at a time, until fully incorporated, then whisk in milk.",

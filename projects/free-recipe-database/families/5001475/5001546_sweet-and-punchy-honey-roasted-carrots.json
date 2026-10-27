@@ -41,9 +41,10 @@
   "ingredients": [
     {
       "ingredient_id": 159,
-      "name": "whole carrots, small, peeled and halved lengthwise",
+      "name": "whole carrots, small",
       "quantity": "7 medium",
-      "weigh_as": "0.45 kg"
+      "weigh_as": "0.45 kg",
+      "prep": "peeled and halved lengthwise"
     },
     {
       "ingredient_id": 103,
@@ -52,8 +53,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 1718,
@@ -82,6 +84,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and halve the whole carrots lengthwise. Melt the unsalted butter.",
+      "secondary_message": "7 medium whole carrots, small\n2 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position, and preheat oven to 220°C (425°F).",

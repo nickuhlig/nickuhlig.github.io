@@ -64,8 +64,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, thinly sliced",
-      "quantity": "3"
+      "name": "scallions",
+      "quantity": "3",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -84,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the scallions.",
+      "secondary_message": "3 scallions"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 425°F. Place sweet potato in an oven-safe vessel (such as a cast iron pan or a small baking dish) and roast until a knife or skewer inserted into its center meets no resistance, about 40 minutes. Remove from oven and allow to cool. Roasted sweet potato can be wrapped and stored in refrigerator for several days before you continue with the recipe.",

@@ -88,8 +88,9 @@
     },
     {
       "ingredient_id": 2760,
-      "name": "shelled, toasted, salted, chopped pistachio nuts",
-      "quantity": "½ cup"
+      "name": "shelled, salted",
+      "quantity": "½ cup",
+      "prep": "toasted, chopped pistachio nuts"
     },
     {
       "ingredient_id": 1684,
@@ -113,6 +114,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Toast the shelled. Chop the shelled pistachio nuts.",
+      "secondary_message": "½ cup shelled, salted"
+    },
     {
       "id": 1,
       "primary_message": "In a small saucepan, combine milk, cream, crème fraîche, chiles, salt, and pepper and bring to a boil. Remove from heat and set aside to steep, covered, for 1 hour.",

@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 468,
-      "name": "apricots, pitted and coarsely chopped",
-      "quantity": "4"
+      "name": "apricots",
+      "quantity": "4",
+      "prep": "pitted and coarsely chopped"
     },
     {
       "ingredient_id": 2265,
@@ -65,6 +66,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pit and coarsely chop the apricots.",
+      "secondary_message": "4 apricots"
+    },
     {
       "id": 1,
       "primary_message": "Score fat side of duck breasts with a sharp knife until it almost reaches the meat. Season duck with a good amount of salt and a sprinkle of pepper.",

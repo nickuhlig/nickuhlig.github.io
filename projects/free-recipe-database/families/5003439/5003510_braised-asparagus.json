@@ -44,9 +44,10 @@
     },
     {
       "ingredient_id": 26,
-      "name": "asparagus, trimmed and peeled",
+      "name": "asparagus",
       "quantity": "1 bunch",
-      "weigh_as": "0.45 kg"
+      "weigh_as": "0.45 kg",
+      "prep": "trimmed and peeled"
     },
     {
       "ingredient_id": 88,
@@ -70,6 +71,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim and peel the asparagus.",
+      "secondary_message": "1 bunch asparagus"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in a 30-cm straight-sided sauté pan over high heat until lightly smoking. Add asparagus in as close to a single layer as possible, season with salt and pepper, and cook without moving until lightly browned, about 1 1/2 minutes. Shake pan and cook until browned again, 1 1/2 minutes longer. Add stock and butter to pan and immediately cover.",

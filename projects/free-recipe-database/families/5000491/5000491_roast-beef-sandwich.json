@@ -38,8 +38,9 @@
   "ingredients": [
     {
       "ingredient_id": 2165,
-      "name": "boneless top round roast, trimmed and tied at 1-inch intervals",
-      "quantity": "3 lb"
+      "name": "boneless top round roast",
+      "quantity": "3 lb",
+      "prep": "trimmed and tied at 1-inch intervals"
     },
     {
       "ingredient_id": 88,
@@ -63,11 +64,18 @@
     },
     {
       "ingredient_id": 1142,
-      "name": "Kaiser rolls, split open",
-      "quantity": "6"
+      "name": "Kaiser rolls",
+      "quantity": "6",
+      "prep": "split open"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim and tie the boneless top round roast at 1-inch intervals. Split open the Kaiser rolls.",
+      "secondary_message": "3 lb boneless top round roast\n6 Kaiser rolls"
+    },
     {
       "id": 1,
       "primary_message": "For the Roast Beef: Sprinkle roast evenly with the salt and pepper and refrigerate on a wire rack set in a rimmed baking sheet uncovered for at least 1 hour or up to 24 hours.",

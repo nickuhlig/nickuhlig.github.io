@@ -55,13 +55,15 @@
     },
     {
       "ingredient_id": 14,
-      "name": "Brussels sprouts, trimmed and finely shredded",
-      "quantity": "227 g"
+      "name": "Brussels sprouts",
+      "quantity": "227 g",
+      "prep": "trimmed and finely shredded"
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely sliced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 121,
@@ -75,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim and finely shred the Brussels sprouts. Finely slice the shallot.",
+      "secondary_message": "227 g Brussels sprouts\n1 small shallot"
+    },
     {
       "id": 1,
       "primary_message": "Heat olive oil in a 25-cm skillet over medium-high heat until shimmering. Add sage leaves and cook, stirring occasionally, until leaves are crisp, about 1 minute. Transfer to a paper towel-lined plate and season with salt and pepper.",

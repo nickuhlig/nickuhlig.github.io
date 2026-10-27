@@ -69,13 +69,15 @@
     },
     {
       "ingredient_id": 2091,
-      "name": "cornichons, finely diced",
-      "quantity": "10"
+      "name": "cornichons",
+      "quantity": "10",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 15,
-      "name": "drained brined capers, minced",
-      "quantity": "2 tbsp"
+      "name": "drained brined capers",
+      "quantity": "2 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2211,
@@ -84,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the cornichons. Mince the drained brined capers.",
+      "secondary_message": "10 cornichons\n2 tbsp drained brined capers"
+    },
     {
       "id": 1,
       "primary_message": "Bring 3 quarts water to a boil in a large pot and prepare an ice bath. Carefully lower eggs into pot and continue to boil for 30 seconds. Cover tightly, reduce heat to low (water should maintain a bare simmer), and continue cooking for 9 minutes for jammy yolks or 11 minutes for hard-cooked yolks (see headnote above for guidance on how the degree of yolk doneness can affect the sauce). Immediately transfer eggs to ice water and allow to cool for at least 15 minutes, then peel under cool running water. Halve eggs lengthwise and scoop yolks into a medium mixing bowl, blender, or food processor. Finely dice egg whites.",

@@ -54,8 +54,9 @@
   "ingredients": [
     {
       "ingredient_id": 2506,
-      "name": "whole brisket, fat cap trimmed to 1/4 inch",
-      "quantity": "12 lb"
+      "name": "whole brisket",
+      "quantity": "12 lb",
+      "prep": "fat cap trimmed to 1/4 inch"
     },
     {
       "ingredient_id": 88,
@@ -69,6 +70,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the fat cap of the whole brisket to 1/4 inch.",
+      "secondary_message": "12 lb whole brisket"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, mix together salt and pepper. Coat the entire brisket in the rub and transfer to a wire rack set in a rimmed baking sheet. Refrigerate uncovered for 12 to 24 hours.",

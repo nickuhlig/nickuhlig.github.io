@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "peeled fresh ginger, sliced",
-      "quantity": "1 (2 ½ cm) knob"
+      "name": "peeled fresh ginger",
+      "quantity": "1 (2 ½ cm) knob",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 1514,
@@ -77,6 +78,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the peeled fresh ginger.",
+      "secondary_message": "1 (2 ½ cm) knob peeled fresh ginger"
+    },
     {
       "id": 1,
       "primary_message": "In a large zipper-lock bag, combine beer, oil, lemongrass, lemon zest, ginger, coriander seed, thyme, and salt. Swish until salt is dissolved.",

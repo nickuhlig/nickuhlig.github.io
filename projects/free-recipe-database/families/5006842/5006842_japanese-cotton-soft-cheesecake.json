@@ -57,13 +57,15 @@
   "ingredients": [
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "1 (8 oz) pkg"
+      "name": "cream cheese",
+      "quantity": "1 (8 oz) pkg",
+      "prep": "softened"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "4 tbsp (2 oz)"
+      "name": "unsalted butter",
+      "quantity": "4 tbsp (2 oz)",
+      "prep": "softened"
     },
     {
       "ingredient_id": 346,
@@ -77,8 +79,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, separated",
-      "quantity": "5 large"
+      "name": "eggs",
+      "quantity": "5 large",
+      "prep": "separated"
     },
     {
       "ingredient_id": 2346,
@@ -92,8 +95,9 @@
     },
     {
       "ingredient_id": 1003,
-      "name": "sour cream, at room temperature",
-      "quantity": "½ cup"
+      "name": "sour cream",
+      "quantity": "½ cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 2050,
@@ -112,6 +116,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the cream cheese. Soften the unsalted butter. Separate the eggs. Bring the sour cream to room temperature.",
+      "secondary_message": "1 (8 oz) pkg cream cheese\n4 tbsp (2 oz) unsalted butter\n5 large eggs\n½ cup sour cream"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower-middle position and preheat to 340°F. Grease the bottom and sides of an 8- by 3-inch springform pan and wrap the bottom half of the pan with foil to create a waterproof seal (see note). Set into a roasting pan.",

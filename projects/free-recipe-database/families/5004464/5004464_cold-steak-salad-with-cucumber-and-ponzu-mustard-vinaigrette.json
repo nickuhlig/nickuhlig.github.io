@@ -60,13 +60,15 @@
     },
     {
       "ingredient_id": 1980,
-      "name": "Asian cucumber, thinly sliced",
-      "quantity": "1 small"
+      "name": "Asian cucumber",
+      "quantity": "1 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, thinly sliced",
-      "quantity": "2"
+      "name": "scallions",
+      "quantity": "2",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -75,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the Asian cucumber. Thinly slice the scallions.",
+      "secondary_message": "1 small Asian cucumber\n2 scallions"
+    },
     {
       "id": 1,
       "primary_message": "For the Dressing: Combine ponzu, shallot, mustard, oil, and wasabi (if using) in a bowl and whisk thoroughly.",

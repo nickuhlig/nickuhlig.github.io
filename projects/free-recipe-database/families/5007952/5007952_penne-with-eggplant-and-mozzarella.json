@@ -38,8 +38,9 @@
     },
     {
       "ingredient_id": 18,
-      "name": "eggplant, cut into 1/4-inch dice",
-      "quantity": "1"
+      "name": "eggplant",
+      "quantity": "1",
+      "prep": "cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 260,
@@ -78,6 +79,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the eggplant into 1/4-inch dice.",
+      "secondary_message": "1 eggplant"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in a large saucepan over medium high heat. When oil is hot but not smoking, add eggplant. Sauté for two minutes, then add tomatoes and chili flakes. Reduce heat to low and simmer for 40 minutes.",

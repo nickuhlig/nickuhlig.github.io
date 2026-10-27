@@ -40,8 +40,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, thinly sliced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 85,
@@ -70,8 +71,9 @@
     },
     {
       "ingredient_id": 277,
-      "name": "grape tomatoes, halved",
-      "quantity": "1 pint"
+      "name": "grape tomatoes",
+      "quantity": "1 pint",
+      "prep": "halved"
     },
     {
       "ingredient_id": 1879,
@@ -80,8 +82,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, light green parts only, thinly sliced",
-      "quantity": "3"
+      "name": "scallions, light green parts only",
+      "quantity": "3",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 32,
@@ -100,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the shallot. Halve the grape tomatoes. Thinly slice the scallions.",
+      "secondary_message": "1 small shallot\n1 pint grape tomatoes\n3 scallions, light green parts only"
+    },
     {
       "id": 1,
       "primary_message": "Heat 1 tablespoon of olive oil in a 12-inch skillet over medium-high heat until shimmering. Add the shallots, the chili flakes, and a pinch of salt. Cook, stirring, until softened, about 2 minutes.",

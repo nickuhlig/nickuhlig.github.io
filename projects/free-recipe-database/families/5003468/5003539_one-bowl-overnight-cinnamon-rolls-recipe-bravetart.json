@@ -73,8 +73,9 @@
   "ingredients": [
     {
       "ingredient_id": 355,
-      "name": "plain full-fat cream cheese, softened to about 70°F",
-      "quantity": "113 g"
+      "name": "plain full-fat cream cheese",
+      "quantity": "113 g",
+      "prep": "softened to about 70°F"
     },
     {
       "ingredient_id": 353,
@@ -88,8 +89,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, creamy and soft, about 70°F",
-      "quantity": "113 g"
+      "name": "unsalted butter, creamy and soft",
+      "quantity": "113 g",
+      "prep": "about 70°F"
     },
     {
       "ingredient_id": 293,
@@ -113,8 +115,9 @@
     },
     {
       "ingredient_id": 327,
-      "name": "toasted pecan halves, roughly chopped , or more to taste",
-      "quantity": "113 g"
+      "name": "toasted pecan halves, or more to taste",
+      "quantity": "113 g",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 116,
@@ -158,6 +161,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the plain full-fat cream cheese to about 70°F. Bring the unsalted butter to 70°F. Roughly chop the toasted pecan halves.",
+      "secondary_message": "113 g plain full-fat cream cheese\n113 g unsalted butter, creamy and soft\n113 g toasted pecan halves, or more to taste"
+    },
     {
       "id": 1,
       "primary_message": "For the Frosting: Combine cream cheese and vanilla with half the powdered sugar in the bowl of a stand mixer fitted with a paddle attachment. Mix on low to moisten, then sprinkle in the rest of the sugar a little at a time. Once it is incorporated, increase to medium and beat until creamy and pale ivory, about 5 minutes. Transfer to a zip-top bag or disposable pastry bag and set aside until needed, up to 24 hours at room temperature. (If your kitchen is chilly and the frosting hardens in that time, briefly microwave the bag to restore its creamy texture before use.)",

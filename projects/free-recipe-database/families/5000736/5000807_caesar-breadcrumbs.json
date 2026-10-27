@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 2111,
-      "name": "anchovy paste, minced",
-      "quantity": "2 tsp"
+      "name": "anchovy paste",
+      "quantity": "2 tsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 24,
@@ -70,11 +71,18 @@
     },
     {
       "ingredient_id": 120,
-      "name": "Parmigiano-Reggiano, finely grated",
-      "quantity": "2 tbsp (¾ oz)"
+      "name": "Parmigiano-Reggiano",
+      "quantity": "2 tbsp (¾ oz)",
+      "prep": "finely grated"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the anchovy paste. Finely grate the Parmigiano-Reggiano.",
+      "secondary_message": "2 tsp anchovy paste\n2 tbsp (¾ oz) Parmigiano-Reggiano"
+    },
     {
       "id": 1,
       "primary_message": "In a medium nonstick skillet, melt butter over medium-low heat. Add anchovy paste and grated garlic and cook until fragrant, about 1 minute. Add breadcrumbs and, using a flexible spatula, toss to coat. Cook, stirring constantly, until breadcrumbs are golden brown, about 3 minutes. Off heat, stir in lemon zest and Parmigiano-Reggiano. Transfer to a bowl and let cool completely before serving or store in an airtight container at room temperature.",

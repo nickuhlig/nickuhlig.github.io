@@ -54,8 +54,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely diced",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 2488,
@@ -79,11 +80,18 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, lightly beaten",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "lightly beaten"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the onion. Lightly beat the eggs.",
+      "secondary_message": "1 small onion\n4 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "In a medium nonstick or cast iron skillet, heat olive oil over low heat until barely warm. Add paprika, oregano, onion, and peppers. Season with salt and a very generous amount of black pepper. Cook, stirring frequently, until very soft, about 8 minutes. Add tomatoes and continue to cook, stirring frequently, until deepened in color. Remove half of mixture and reserve.",

@@ -49,11 +49,18 @@
     },
     {
       "ingredient_id": 1316,
-      "name": "fresh cranberries, roughly chopped",
-      "quantity": "2 cups"
+      "name": "fresh cranberries",
+      "quantity": "2 cups",
+      "prep": "roughly chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the fresh cranberries.",
+      "secondary_message": "2 cups fresh cranberries"
+    },
     {
       "id": 1,
       "primary_message": "Combine water, sugar, and cranberries in a small saucepan over very low heat. Cook, stirring frequently and adjusting heat to maintain a bare simmer, until the cranberries have completely softened, 20 to 25 minutes.",

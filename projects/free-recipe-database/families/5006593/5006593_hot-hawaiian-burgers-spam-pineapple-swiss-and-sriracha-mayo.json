@@ -76,11 +76,18 @@
     },
     {
       "ingredient_id": 466,
-      "name": "English muffins, split",
-      "quantity": "4"
+      "name": "English muffins",
+      "quantity": "4",
+      "prep": "split"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the English muffins.",
+      "secondary_message": "4 English muffins"
+    },
     {
       "id": 1,
       "primary_message": "Divide meat into four even piles and shape into burger patties about 1/2-inch wider than English muffins. Season generously with salt and pepper and set aside.",

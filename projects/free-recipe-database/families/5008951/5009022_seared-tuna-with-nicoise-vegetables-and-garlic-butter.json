@@ -58,28 +58,33 @@
     },
     {
       "ingredient_id": 111,
-      "name": "haricots verts, trimmed",
-      "quantity": "0.11 kg"
+      "name": "haricots verts",
+      "quantity": "0.11 kg",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed and peeled",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "smashed and peeled"
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested, in strips",
-      "quantity": "½"
+      "name": "lemon, in strips",
+      "quantity": "½",
+      "prep": "zested"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, room temperature",
-      "quantity": "1 tbsp"
+      "name": "unsalted butter",
+      "quantity": "1 tbsp",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 1746,
-      "name": "fresh basil leaves, sliced",
-      "quantity": "12"
+      "name": "fresh basil leaves",
+      "quantity": "12",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 106,
@@ -98,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the haricots verts. Smash and peel the garlic. Zest the lemon. Bring the unsalted butter to room temperature. Slice the fresh basil leaves.",
+      "secondary_message": "0.11 kg haricots verts\n2 cloves garlic\n½ lemon, in strips\n1 tbsp unsalted butter\n12 fresh basil leaves"
+    },
     {
       "id": 1,
       "primary_message": "Adjust rack 15 cm from broiler element and preheat broiler to high. Preheat the broiler. Drizzle the tomatoes with about 1 teaspoon olive oil, season with salt and pepper, and place on a parchment-lined rimmed baking sheet. Broil for 8 minutes, or until just bursting.",

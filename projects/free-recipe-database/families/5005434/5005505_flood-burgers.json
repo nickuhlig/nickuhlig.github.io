@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 3584,
-      "name": "fresh ground, lean ground beef",
-      "quantity": "0.91 kg"
+      "name": "fresh ground",
+      "quantity": "0.91 kg",
+      "prep": "lean ground beef"
     },
     {
       "ingredient_id": 88,
@@ -50,11 +51,18 @@
     },
     {
       "ingredient_id": 1772,
-      "name": "hamburger buns, toasted",
-      "quantity": "4"
+      "name": "hamburger buns",
+      "quantity": "4",
+      "prep": "toasted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grind the lean of the fresh ground beef. Toast the hamburger buns.",
+      "secondary_message": "0.91 kg fresh ground\n4 hamburger buns"
+    },
     {
       "id": 1,
       "primary_message": "Measure four 57 g portions of beef and form into balls. Season generously with salt and pepper. Heat heavy-bottomed 30-cm cast-iron or stainless steel skillet (or carbon steel crepe pan) over high heat for at least 5 minutes. Place balls of beef on skillet. Smash beef balls with back of heavy-duty spatula sprayed with non-stick cooking spray until 0.5-cm thick and 10 to 13 cm wide. Cook for 1 minute. Using spatula, carefully scrape patties from skillet and flip, taking care to scrape up any browned bits from bottom of pan. Cook for one minute longer, then remove patties to plate and allow to cool for 3 minutes.",

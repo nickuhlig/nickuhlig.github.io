@@ -42,8 +42,9 @@
     },
     {
       "ingredient_id": 1746,
-      "name": "loosely packed basil leaves, very thinly sliced",
-      "quantity": "¼ cup"
+      "name": "loosely packed basil leaves",
+      "quantity": "¼ cup",
+      "prep": "very thinly sliced"
     },
     {
       "ingredient_id": 47,
@@ -102,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Very thinly slice the loosely packed basil leaves.",
+      "secondary_message": "¼ cup loosely packed basil leaves"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 150°C (300°F). Arrange tomato halves on rimmed baking sheet and bake until excess moisture has evaporated and tomatoes are a deeper red color, about 30 minutes. Let cool slightly.",

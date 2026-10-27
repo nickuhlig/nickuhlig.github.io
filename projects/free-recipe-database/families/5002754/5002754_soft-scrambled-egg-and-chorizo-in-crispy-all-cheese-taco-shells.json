@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, whisked",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "whisked"
     },
     {
       "ingredient_id": 1730,
@@ -82,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Whisk the eggs.",
+      "secondary_message": "4 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Place chorizo in a cold non-stick or cast iron skillet and place over medium-high heat. Cook, stirring occasionally, until crisp. Transfer to a paper towel and set aside. wipe out skillet and return to medium-low heat.",

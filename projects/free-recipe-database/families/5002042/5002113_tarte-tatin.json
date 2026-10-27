@@ -76,8 +76,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cubed",
-      "quantity": "8 tbsp"
+      "name": "unsalted butter",
+      "quantity": "8 tbsp",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 353,
@@ -86,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cube the unsalted butter.",
+      "secondary_message": "8 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower-middle position and place a rimmed baking sheet on it (this is to catch any drips when the tarte Tatin bakes). Preheat oven to 400ºF (205ºC). On a well-floured work surface, roll 1 sheet of thawed puff pastry into a circle roughly 28-cm in diameter. Using a fork or a docking tool, prick the dough all over to dock, then place on a rimmed baking sheet lined with parchment, loosely cover with plastic, and refrigerate while you prepare the tarte Tatin filling.",

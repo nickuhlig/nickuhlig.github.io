@@ -66,18 +66,21 @@
     },
     {
       "ingredient_id": 188,
-      "name": "fresh cilantro leaves, chopped",
-      "quantity": "1 handful"
+      "name": "fresh cilantro leaves",
+      "quantity": "1 handful",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, chopped",
-      "quantity": "½ medium"
+      "name": "white onion",
+      "quantity": "½ medium",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "1 clove"
+      "name": "garlic",
+      "quantity": "1 clove",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1618,
@@ -86,11 +89,18 @@
     },
     {
       "ingredient_id": 1914,
-      "name": "queso fresco, crumbled",
-      "quantity": "2 oz"
+      "name": "queso fresco",
+      "quantity": "2 oz",
+      "prep": "crumbled"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the fresh cilantro leaves. Chop the white onion. Mince the garlic. Crumble the queso fresco.",
+      "secondary_message": "1 handful fresh cilantro leaves\n½ medium white onion\n1 clove garlic\n2 oz queso fresco"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 400°F. Wrap rolls in aluminum foil and place in the oven to warm.",

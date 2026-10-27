@@ -84,8 +84,9 @@
   "ingredients": [
     {
       "ingredient_id": 152,
-      "name": "yellow onion, thinly sliced",
-      "quantity": "1 small"
+      "name": "yellow onion",
+      "quantity": "1 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 359,
@@ -104,8 +105,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "minced"
     },
     {
       "ingredient_id": 88,
@@ -139,14 +141,16 @@
     },
     {
       "ingredient_id": 272,
-      "name": "walnuts, lightly toasted and chopped, divided",
-      "quantity": "¼ cup"
+      "name": "walnuts, divided",
+      "quantity": "¼ cup",
+      "prep": "lightly toasted and chopped"
     },
     {
       "ingredient_id": 1039,
-      "name": "russet potatoes, peeled and cut into 1-inch chunks",
+      "name": "russet potatoes",
       "quantity": "1 medium",
-      "weigh_as": "8 oz"
+      "weigh_as": "8 oz",
+      "prep": "peeled and cut into 1-inch chunks"
     },
     {
       "ingredient_id": 88,
@@ -180,6 +184,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the yellow onion. Mince the garlic. Lightly toast and chop the walnuts. Peel and cut the russet potatoes into 1-inch chunks.",
+      "secondary_message": "1 small yellow onion\n1 medium clove garlic\n¼ cup walnuts, divided\n1 medium russet potatoes"
+    },
     {
       "id": 1,
       "primary_message": "For the Filling: In a medium saucepan, combine onion, water, dried currants, olive oil, garlic, and salt. Bring to a simmer over medium-high heat. Cover, reduce heat to medium, and cook, stirring occasionally, until onions are translucent and soft, about 10 minutes. Remove lid, increase heat to medium-high, and cook, stirring frequently, until water has evaporated and mixture begins to sizzle, 2 to 4 minutes. Add allspice, cinnamon, black pepper, and Aleppo pepper, and cook, stirring constantly, until mixture is fragrant, about 30 seconds. Transfer the mixture to a medium bowl, add tahini and 2 tablespoons walnuts, and stir until uniform. Set aside to cool, about 10 minutes. Rinse saucepan.",

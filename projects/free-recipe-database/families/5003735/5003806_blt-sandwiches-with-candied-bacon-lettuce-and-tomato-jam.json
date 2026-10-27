@@ -93,8 +93,9 @@
     },
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, halved",
-      "quantity": "0.68 kg"
+      "name": "cherry tomatoes",
+      "quantity": "0.68 kg",
+      "prep": "halved"
     },
     {
       "ingredient_id": 293,
@@ -103,13 +104,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, minced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "minced"
     },
     {
       "ingredient_id": 130,
@@ -163,6 +166,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the cherry tomatoes. Mince the garlic. Mince the shallot.",
+      "secondary_message": "0.68 kg cherry tomatoes\n3 medium cloves garlic\n1 small shallot"
+    },
     {
       "id": 1,
       "primary_message": "For the Candied Bacon: Adjust oven racks to upper middle and lower middle positions and preheat oven to 205°C (400°F). Line 2 rimmed baking sheets with foil. Arrange 8 bacon strips in single layer on each sheet. Combine brown sugar, cinnamon, ginger, and pepper in small bowl. Rub sugar mixture all over both sides of bacon strips and bake until crisp, 16 to 18 minutes, alternating sheets’ positions and turning bacon strips with tongs halfway through baking. Transfer sheets to cooling racks and transfer bacon to large plate. When cool enough to handle, discard rendered fat and foil.",

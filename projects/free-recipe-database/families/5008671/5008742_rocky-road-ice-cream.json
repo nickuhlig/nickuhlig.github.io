@@ -75,23 +75,27 @@
     },
     {
       "ingredient_id": 1716,
-      "name": "roasted hazelnuts, chopped",
-      "quantity": "57 g"
+      "name": "roasted hazelnuts",
+      "quantity": "57 g",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 29,
-      "name": "roasted almonds, chopped",
-      "quantity": "57 g"
+      "name": "roasted almonds",
+      "quantity": "57 g",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1729,
-      "name": "dark chocolate, chopped",
-      "quantity": "71 g"
+      "name": "dark chocolate",
+      "quantity": "71 g",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2581,
-      "name": "white chocolate, chopped",
-      "quantity": "71 g"
+      "name": "white chocolate",
+      "quantity": "71 g",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1033,
@@ -100,6 +104,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the roasted hazelnuts. Chop the roasted almonds. Chop the dark chocolate. Chop the white chocolate.",
+      "secondary_message": "57 g roasted hazelnuts\n57 g roasted almonds\n71 g dark chocolate\n71 g white chocolate"
+    },
     {
       "id": 1,
       "primary_message": "In a large, heavy saucepan whisk together egg yolks and cocoa until very smooth and no lumps remain. Slowly whisk in sugar. If mixture is too dry, whisk in 1 or 2 tablespoons of cream to make a smooth paste.",

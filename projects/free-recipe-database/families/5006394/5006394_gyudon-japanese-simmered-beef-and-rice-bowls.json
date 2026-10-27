@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 1713,
-      "name": "onion, slivered",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "slivered"
     },
     {
       "ingredient_id": 2112,
@@ -95,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Sliver the onion.",
+      "secondary_message": "1 small onion"
+    },
     {
       "id": 1,
       "primary_message": "Combine onion, dashi, sake, soy sauce, and sugar in a medium saucepan or saucier and bring to a simmer over medium heat. Cook, stirring occasionally, until onion is softened, about 5 minutes.",

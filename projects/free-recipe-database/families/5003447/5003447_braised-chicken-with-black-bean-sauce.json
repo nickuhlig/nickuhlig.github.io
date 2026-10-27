@@ -34,8 +34,9 @@
   "ingredients": [
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "6 large cloves"
+      "name": "garlic",
+      "quantity": "6 large cloves",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 2366,
@@ -69,8 +70,9 @@
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeños, sliced, or a few dried red chile peppers",
-      "quantity": "3"
+      "name": "jalapeños, or a few dried red chile peppers",
+      "quantity": "3",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 88,
@@ -84,11 +86,18 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, sliced",
-      "quantity": "6"
+      "name": "scallions",
+      "quantity": "6",
+      "prep": "sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the garlic. Slice the jalapeños. Slice the scallions.",
+      "secondary_message": "6 large cloves garlic\n3 jalapeños, or a few dried red chile peppers\n6 scallions"
+    },
     {
       "id": 1,
       "primary_message": "Mince garlic and fermented black beans together, until you have a mashed-up combination of the two.",

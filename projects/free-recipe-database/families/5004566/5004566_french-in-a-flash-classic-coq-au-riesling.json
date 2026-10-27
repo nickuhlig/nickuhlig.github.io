@@ -39,8 +39,9 @@
     },
     {
       "ingredient_id": 302,
-      "name": "thick-cut bacon, cut into lardons",
-      "quantity": "3 strips"
+      "name": "thick-cut bacon",
+      "quantity": "3 strips",
+      "prep": "cut into lardons"
     },
     {
       "ingredient_id": 1230,
@@ -54,13 +55,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, medium diced",
-      "quantity": "½"
+      "name": "onion",
+      "quantity": "½",
+      "prep": "medium diced"
     },
     {
       "ingredient_id": 230,
-      "name": "cremini mushrooms, quartered",
-      "quantity": "8 oz"
+      "name": "cremini mushrooms",
+      "quantity": "8 oz",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 2101,
@@ -84,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the thick-cut bacon into lardons. Dice the medium of the onion. Quarter the cremini mushrooms.",
+      "secondary_message": "3 strips thick-cut bacon\n½ onion\n8 oz cremini mushrooms"
+    },
     {
       "id": 1,
       "primary_message": "Melt butter in 12-inch, straight-sided sauté pan over medium high heat. Add bacon and cook, stirring occasionally, until crisp, about 8 minutes. Remove pan from heat. Using slotted spoon, transfer cooked bacon to paper-towel lined plate. Reserve fat in pan.",

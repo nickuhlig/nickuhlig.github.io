@@ -65,8 +65,9 @@
     },
     {
       "ingredient_id": 1752,
-      "name": "heavy cream, straight from the fridge",
-      "quantity": "10 oz"
+      "name": "heavy cream",
+      "quantity": "10 oz",
+      "prep": "straight from the fridge"
     },
     {
       "ingredient_id": 2742,
@@ -80,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the heavy cream cold until you use it.",
+      "secondary_message": "10 oz heavy cream"
+    },
     {
       "id": 1,
       "primary_message": "Combine water, sugar, and salt in a 3-quart stainless steel saucier over medium-high heat. Stir occasionally with a fork until sugar dissolves and syrup is bubbling hard, about 2 minutes. Stop stirring and simmer until syrup turns pale gold, like clover honey, roughly 8 minutes. Meanwhile, measure out cream so it will be ready to add at a moment's notice.",

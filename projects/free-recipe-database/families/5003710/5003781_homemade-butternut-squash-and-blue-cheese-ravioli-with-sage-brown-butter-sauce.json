@@ -62,8 +62,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed",
-      "quantity": "6 cloves"
+      "name": "garlic",
+      "quantity": "6 cloves",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 2015,
@@ -107,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Smash the garlic.",
+      "secondary_message": "6 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven racks to lower and upper middle positions and preheat oven to 205°C (400°F). Meanwhile, whisk orange juice, olive oil, and agave nectar together in a large bowl. Add butternut squash, onion, garlic, and whole sage sprigs. Season with salt and pepper. Stir until the squash and onion are evenly coated then transfer mixture onto 2 foil-lined rimmed baking sheets. Place sheet trays in the oven and roast until squash is completely tender and browned around the edges, about 40 minutes total, rotating pans half way through cooking.",

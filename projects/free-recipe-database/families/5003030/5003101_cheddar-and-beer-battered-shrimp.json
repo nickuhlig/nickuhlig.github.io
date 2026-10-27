@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 1811,
-      "name": "shrimp, large, peeled and deveined",
-      "quantity": "0.45 kg"
+      "name": "shrimp, large",
+      "quantity": "0.45 kg",
+      "prep": "peeled and deveined"
     },
     {
       "ingredient_id": 2210,
@@ -112,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and devein the shrimp.",
+      "secondary_message": "0.45 kg shrimp, large"
+    },
     {
       "id": 1,
       "primary_message": "For the brine: Combine the 1 cup of beer with the salt, sugar, and hot sauce in a medium bowl and stir to dissolve the salt and sugar. Add the shrimp to the brine and place in the refrigerator for 30 minutes. Drain the shrimp from the brine and set aside.",

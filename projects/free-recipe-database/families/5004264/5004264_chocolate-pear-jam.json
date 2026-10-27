@@ -68,11 +68,18 @@
     },
     {
       "ingredient_id": 1729,
-      "name": "extra-dark chocolate, chopped",
-      "quantity": "5 oz"
+      "name": "extra-dark chocolate",
+      "quantity": "5 oz",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the extra-dark chocolate.",
+      "secondary_message": "5 oz extra-dark chocolate"
+    },
     {
       "id": 1,
       "primary_message": "Combine the sugar and pectin in a medium bowl and whisk to blend.",

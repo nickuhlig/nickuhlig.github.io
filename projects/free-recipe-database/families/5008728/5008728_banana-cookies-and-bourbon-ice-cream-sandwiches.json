@@ -171,11 +171,18 @@
     },
     {
       "ingredient_id": 118,
-      "name": "milk, finely chopped",
-      "quantity": "12 oz"
+      "name": "milk",
+      "quantity": "12 oz",
+      "prep": "finely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the milk.",
+      "secondary_message": "12 oz milk"
+    },
     {
       "id": 1,
       "primary_message": "For the Bourbon Ice Cream: Pulse ice cream and bourbon in food processor until combined (mixture will be runny). Transfer to large bowl and freeze until set, 1 to 2 hours.",

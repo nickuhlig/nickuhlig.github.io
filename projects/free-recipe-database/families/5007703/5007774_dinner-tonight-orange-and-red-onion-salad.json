@@ -36,8 +36,9 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, thinly sliced",
-      "quantity": "¼ medium"
+      "name": "red onion",
+      "quantity": "¼ medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -56,6 +57,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the red onion.",
+      "secondary_message": "¼ medium red onion"
+    },
     {
       "id": 1,
       "primary_message": "Remove the peel of the oranges, along with as much of the pith as possible. Thinly slice the oranges into rounds, about 1/3 of inch thick. Place them on a plate.",

@@ -74,13 +74,15 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, pliable but cool, about 60°F",
-      "quantity": "113 g"
+      "name": "unsalted butter",
+      "quantity": "113 g",
+      "prep": "pliable but cool, about 60°F"
     },
     {
       "ingredient_id": 1848,
-      "name": "refined coconut oil, firm but creamy, about 70°F",
-      "quantity": "99 g"
+      "name": "refined coconut oil, firm but creamy",
+      "quantity": "99 g",
+      "prep": "about 70°F"
     },
     {
       "ingredient_id": 346,
@@ -114,8 +116,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, straight from the fridge",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "straight from the fridge"
     },
     {
       "ingredient_id": 116,
@@ -124,6 +127,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Let the unsalted butter soften slightly but keep it cool and bring it to 60°F. Bring the refined coconut oil to 70°F. Keep the egg cold until you use it.",
+      "secondary_message": "113 g unsalted butter\n99 g refined coconut oil, firm but creamy\n1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "Combine butter, coconut oil, sugar, salt, vanilla extract, vanilla seeds (if using), baking powder, baking soda, and almond extract in the bowl of a stand mixer fitted with a paddle attachment. Mix on low to moisten, then increase speed to medium and beat until fluffy and light, about 5 minutes. Pause to scrape the bowl with a flexible spatula, then beat a minute more. In chilly winter months, this process may take longer (see our guide to winter baking for more info).",

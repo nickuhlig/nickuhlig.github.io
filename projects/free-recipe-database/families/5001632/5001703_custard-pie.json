@@ -57,8 +57,9 @@
   "ingredients": [
     {
       "ingredient_id": 1938,
-      "name": "vanilla bean pod, split lengthwise",
-      "quantity": "1"
+      "name": "vanilla bean pod",
+      "quantity": "1",
+      "prep": "split lengthwise"
     },
     {
       "ingredient_id": 346,
@@ -102,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the vanilla bean pod lengthwise.",
+      "secondary_message": "1 vanilla bean pod"
+    },
     {
       "id": 1,
       "primary_message": "Cut vanilla bean in half lengthwise. Using tip of paring knife, scrape out vanilla seeds and transfer seeds into a medium bowl. Add sugar and rub seeds into sugar to break up clumps, then mix in salt; set aside.",

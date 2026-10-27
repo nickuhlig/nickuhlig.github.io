@@ -58,13 +58,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, thinly sliced or finely chopped by hand",
-      "quantity": "4 medium"
+      "name": "garlic cloves",
+      "quantity": "4 medium",
+      "prep": "thinly sliced or finely chopped by hand"
     },
     {
       "ingredient_id": 325,
-      "name": "anchovy fillets, finely chopped",
-      "quantity": "4 to 6"
+      "name": "anchovy fillets",
+      "quantity": "4 to 6",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1721,
@@ -73,8 +75,9 @@
     },
     {
       "ingredient_id": 15,
-      "name": "capers, drained and chopped",
-      "quantity": "¼ cup"
+      "name": "capers",
+      "quantity": "¼ cup",
+      "prep": "drained and chopped"
     },
     {
       "ingredient_id": 1534,
@@ -113,6 +116,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice or finely chop the garlic cloves by hand. Finely chop the anchovy fillets. Drain and chop the capers.",
+      "secondary_message": "4 medium garlic cloves\n4 to 6 anchovy fillets\n¼ cup capers"
+    },
     {
       "id": 1,
       "primary_message": "In a medium skillet, combine 4 tablespoons oil, garlic, anchovies, and red pepper flakes. Cook over medium heat until garlic is very lightly golden, about 5 minutes. (Adjust heat as necessary to keep it gently sizzling.) Add capers and olives and stir to combine.",

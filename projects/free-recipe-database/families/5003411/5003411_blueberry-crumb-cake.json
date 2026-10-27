@@ -68,8 +68,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "5 tbsp"
+      "name": "unsalted butter",
+      "quantity": "5 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 1809,
@@ -123,6 +124,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter.",
+      "secondary_message": "5 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Crumb Topping: Combine sugar and brown sugar in medium bowl. With fingertips, rub lemon zest into sugar until mixture is moist. Whisk in flour, salt, and dried blueberries. With fork, stir in melted butter; reserve.",

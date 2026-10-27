@@ -37,13 +37,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, peeled and sliced thinly lengthwise",
-      "quantity": "2 large"
+      "name": "shallots",
+      "quantity": "2 large",
+      "prep": "peeled and sliced thinly lengthwise"
     },
     {
       "ingredient_id": 151,
-      "name": "green jalapeño pepper, sliced thinly crosswise",
-      "quantity": "1"
+      "name": "green jalapeño pepper",
+      "quantity": "1",
+      "prep": "sliced thinly crosswise"
     },
     {
       "ingredient_id": 346,
@@ -88,11 +90,18 @@
     },
     {
       "ingredient_id": 44,
-      "name": "boneless skinless chicken breasts, cut into 2-inch cubes",
-      "quantity": "1 lb"
+      "name": "boneless skinless chicken breasts",
+      "quantity": "1 lb",
+      "prep": "cut into 2-inch cubes"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and slice the shallots thinly lengthwise. Slice the green jalapeño pepper thinly crosswise. Cut the boneless skinless chicken breasts into 2-inch cubes.",
+      "secondary_message": "2 large shallots\n1 green jalapeño pepper\n1 lb boneless skinless chicken breasts"
+    },
     {
       "id": 1,
       "primary_message": "Cut the half cucumber in half lengthwise. With the cut side down, cut each half crosswise into thin slices; place in a glass bowl. Add shallot (or red onion) slices and pepper slices to cucumber bowl; set aside.",

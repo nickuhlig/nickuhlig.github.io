@@ -38,8 +38,9 @@
   "ingredients": [
     {
       "ingredient_id": 43,
-      "name": "sharp cheddar cheese, grated",
-      "quantity": "0.23 kg"
+      "name": "sharp cheddar cheese",
+      "quantity": "0.23 kg",
+      "prep": "grated"
     },
     {
       "ingredient_id": 264,
@@ -78,6 +79,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the sharp cheddar cheese.",
+      "secondary_message": "0.23 kg sharp cheddar cheese"
+    },
     {
       "id": 1,
       "primary_message": "Place cheese in a medium bowl and toss with cornstarch until evenly coated. Set aside.",

@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 302,
-      "name": "slab bacon, cut into 1- by 1/2-inch lardons",
-      "quantity": "½ lb"
+      "name": "slab bacon",
+      "quantity": "½ lb",
+      "prep": "cut into 1- by 1/2-inch lardons"
     },
     {
       "ingredient_id": 115,
@@ -65,20 +66,23 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, roughly chopped",
-      "quantity": "8 medium"
+      "name": "garlic cloves",
+      "quantity": "8 medium",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, roughly chopped",
+      "name": "white onion",
       "quantity": "3 medium",
-      "weigh_as": "11 oz"
+      "weigh_as": "11 oz",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, peeled and roughly chopped",
+      "name": "fresh ginger",
       "quantity": "7 (1 inch) pieces",
-      "weigh_as": "2 ½ oz"
+      "weigh_as": "2 ½ oz",
+      "prep": "peeled and roughly chopped"
     },
     {
       "ingredient_id": 1800,
@@ -102,19 +106,22 @@
     },
     {
       "ingredient_id": 1664,
-      "name": "dried shiitakes, broken into roughly 1-inch pieces",
-      "quantity": "1 oz"
+      "name": "dried shiitakes",
+      "quantity": "1 oz",
+      "prep": "broken into roughly 1-inch pieces"
     },
     {
       "ingredient_id": 2887,
-      "name": "dried jujube dates, pitted",
-      "quantity": "1 oz"
+      "name": "dried jujube dates",
+      "quantity": "1 oz",
+      "prep": "pitted"
     },
     {
       "ingredient_id": 343,
-      "name": "red salad radishes, peeled",
+      "name": "red salad radishes",
       "quantity": "2 bunches",
-      "weigh_as": "9 oz"
+      "weigh_as": "9 oz",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 159,
@@ -133,6 +140,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the slab bacon into 1- by 1/2-inch lardons. Roughly chop the garlic cloves. Roughly chop the white onion. Peel and roughly chop the fresh ginger. Break the dried shiitakes into roughly 1-inch pieces. Pit the dried jujube dates. Peel the red salad radishes.",
+      "secondary_message": "½ lb slab bacon\n8 medium garlic cloves\n3 medium white onion\n7 (1 inch) pieces fresh ginger\n1 oz dried shiitakes\n1 oz dried jujube dates\n2 bunches red salad radishes"
+    },
     {
       "id": 1,
       "primary_message": "Season turkey pieces on all sides with salt and pepper. In a large Dutch oven, heat oil over high heat until just beginning to smoke. Working in batches to prevent crowding, add half the turkey pieces skin side down and cook, turning occasionally and lowering heat as needed to prevent skin from burning, until golden brown all over, about 4 minutes per side. Transfer to a platter and repeat browning process with remaining turkey pieces. Set aside.",

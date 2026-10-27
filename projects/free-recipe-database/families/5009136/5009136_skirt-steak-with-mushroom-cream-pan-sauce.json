@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 2286,
-      "name": "skirt steaks, cut into 4 even portions",
-      "quantity": "1 ¾ lb"
+      "name": "skirt steaks",
+      "quantity": "1 ¾ lb",
+      "prep": "cut into 4 even portions"
     },
     {
       "ingredient_id": 88,
@@ -60,8 +61,9 @@
     },
     {
       "ingredient_id": 230,
-      "name": "cremini mushrooms, washed and thinly sliced",
-      "quantity": "1 lb"
+      "name": "cremini mushrooms",
+      "quantity": "1 lb",
+      "prep": "washed and thinly sliced"
     },
     {
       "ingredient_id": 144,
@@ -70,8 +72,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1677,
@@ -95,6 +98,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the skirt steaks into 4 even portions. Wash and thinly slice the cremini mushrooms. Mince the garlic.",
+      "secondary_message": "1 ¾ lb skirt steaks\n1 lb cremini mushrooms\n2 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Season steak all over with salt and pepper. In 2 large stainless steel or cast iron skillets, heat 2 tablespoons oil in each over high heat until lightly smoking. Divide steaks between skillets and sear, turning frequently, until well browned on both sides and an instant-read thermometer registers 120 to 125°F (49 to 52°C) for medium-rare, about 7 minutes. Transfer steaks to a plate and keep warm.",

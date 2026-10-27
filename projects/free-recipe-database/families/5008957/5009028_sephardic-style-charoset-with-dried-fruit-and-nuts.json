@@ -52,13 +52,15 @@
     },
     {
       "ingredient_id": 356,
-      "name": "pitted Medjool dates, chopped",
-      "quantity": "227 g"
+      "name": "pitted Medjool dates",
+      "quantity": "227 g",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 215,
-      "name": "dried apricots, chopped",
-      "quantity": "113 g"
+      "name": "dried apricots",
+      "quantity": "113 g",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 74,
@@ -82,6 +84,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the pitted Medjool dates. Chop the dried apricots.",
+      "secondary_message": "227 g pitted Medjool dates\n113 g dried apricots"
+    },
     {
       "id": 1,
       "primary_message": "In a large saucepan, bring wine to a simmer over medium heat, then stir in fruit, cinnamon, and cloves. Cook uncovered until fruit is well hydrated and wine has been absorbed, about 5 minutes. Add salt to taste and set aside.",

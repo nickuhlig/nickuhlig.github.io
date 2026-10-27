@@ -52,9 +52,10 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, diced",
+      "name": "yellow onion",
       "quantity": "2 medium",
-      "weigh_as": "8 oz"
+      "weigh_as": "8 oz",
+      "prep": "diced"
     },
     {
       "ingredient_id": 88,
@@ -98,9 +99,10 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, sliced 1/4 inch thick",
+      "name": "yellow onion",
       "quantity": "2 medium",
-      "weigh_as": "8 oz"
+      "weigh_as": "8 oz",
+      "prep": "sliced 1/4 inch thick"
     },
     {
       "ingredient_id": 142,
@@ -109,8 +111,9 @@
     },
     {
       "ingredient_id": 92,
-      "name": "chickpeas, drained and rinsed",
-      "quantity": "1 (15 oz) can"
+      "name": "chickpeas",
+      "quantity": "1 (15 oz) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 47,
@@ -154,6 +157,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the yellow onion. Slice the yellow onion 1/4 inch thick. Drain and rinse the chickpeas.",
+      "secondary_message": "2 medium yellow onion\n2 medium yellow onion\n1 (15 oz) can chickpeas"
+    },
     {
       "id": 1,
       "primary_message": "For the Spiced Chicken Stock: In a large pot or stockpot of boiling water, boil chicken for 2 minutes. Transfer chicken to a platter, discard water and wash and dry pot. Add olive oil to pot and heat over medium-high heat until shimmering. Add the onion, salt, caraway, cumin, allspice, cinnamon, black pepper, tomato paste, and bay leaf and stir until the onion starts to soften and the spices become fragrant, about 2 minutes. Add 2 quarts water along with the reserved chicken and bring to a boil, skimming any foam from the surface, then lower heat to maintain a simmer and cook until chicken is fully cooked but not falling apart, about 1 hour. Carefully remove the chicken, making sure to keep the pieces intact, and set skin side up on a rimmed baking sheet. Strain stock, discarding solids.",

@@ -56,8 +56,9 @@
   "ingredients": [
     {
       "ingredient_id": 24,
-      "name": "garlic, grated or minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "grated or minced"
     },
     {
       "ingredient_id": 47,
@@ -126,8 +127,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic clove, grated",
-      "quantity": "1 small"
+      "name": "garlic clove",
+      "quantity": "1 small",
+      "prep": "grated"
     },
     {
       "ingredient_id": 88,
@@ -141,6 +143,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate or mince the garlic. Grate the garlic clove.",
+      "secondary_message": "3 medium cloves garlic\n1 small garlic clove"
+    },
     {
       "id": 1,
       "primary_message": "Light 1/2 chimney full of charcoal. When all charcoal is lit and covered with gray ash, pour out and arrange coals on one side of charcoal grate. Set cooking grate in place, cover grill, and allow to preheat for 5 minutes. Alternatively, set half the burners on a gas grill to medium heat setting, cover, and preheat for 10 minutes. Clean and oil grilling grate.",

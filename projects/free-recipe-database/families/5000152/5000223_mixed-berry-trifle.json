@@ -74,8 +74,9 @@
     },
     {
       "ingredient_id": 2032,
-      "name": "genoise sponge cake, cut into rectangles",
-      "quantity": "½ (20 cm) cake"
+      "name": "genoise sponge cake",
+      "quantity": "½ (20 cm) cake",
+      "prep": "cut into rectangles"
     },
     {
       "ingredient_id": 1908,
@@ -94,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the genoise sponge cake into rectangles.",
+      "secondary_message": "½ (20 cm) cake genoise sponge cake"
+    },
     {
       "id": 1,
       "primary_message": "Place a 2-quart glass trifle bowl in refrigerator to chill.",

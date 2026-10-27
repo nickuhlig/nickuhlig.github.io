@@ -77,8 +77,9 @@
     },
     {
       "ingredient_id": 2164,
-      "name": "boneless pork shoulder, cut into 1-inch cubes",
-      "quantity": "0.7 kg"
+      "name": "boneless pork shoulder",
+      "quantity": "0.7 kg",
+      "prep": "cut into 1-inch cubes"
     },
     {
       "ingredient_id": 88,
@@ -97,8 +98,9 @@
     },
     {
       "ingredient_id": 2378,
-      "name": "cemita buns, split open",
-      "quantity": "1 recipe"
+      "name": "cemita buns",
+      "quantity": "1 recipe",
+      "prep": "split open"
     },
     {
       "ingredient_id": 1377,
@@ -107,11 +109,18 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, thinly sliced",
-      "quantity": "½ small"
+      "name": "white onion",
+      "quantity": "½ small",
+      "prep": "thinly sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the boneless pork shoulder into 1-inch cubes. Split open the cemita buns. Thinly slice the white onion.",
+      "secondary_message": "0.7 kg boneless pork shoulder\n1 recipe cemita buns\n½ small white onion"
+    },
     {
       "id": 1,
       "primary_message": "For Smoking the Ribs: Place ribs, bone side up, on a cutting board. Using paper towels to grip, pull the transparent membrane off the bones. It should come off easily in one large strip (see photo for reference). Rub ribs generously on all surfaces with barbecue rub, then split them into 4- to 5-rib sections with a sharp chef's knife or boning knife. Transfer to a covered container and refrigerate for at least 4 hours and up to overnight.",

@@ -60,13 +60,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 1-tablespoon pieces",
-      "quantity": "6 tbsp"
+      "name": "unsalted butter",
+      "quantity": "6 tbsp",
+      "prep": "cut into 1-tablespoon pieces"
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, cut into wedges, plus more for serving",
-      "quantity": "1"
+      "name": "lemon, plus more for serving",
+      "quantity": "1",
+      "prep": "cut into wedges"
     },
     {
       "ingredient_id": 106,
@@ -75,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into 1-tablespoon pieces. Cut the lemon into wedges.",
+      "secondary_message": "6 tbsp unsalted butter\n1 lemon, plus more for serving"
+    },
     {
       "id": 1,
       "primary_message": "In a wide, shallow bowl or platter, spread flour in an even layer. Line a rimmed baking sheet with parchment paper. Season fish fillets all over with salt. Working with one piece of fish at a time, dredge fillets in flour, shaking off excess. Transfer to prepared baking sheet.",

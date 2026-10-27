@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 243,
-      "name": "mint, leaves picked",
-      "quantity": "21 g"
+      "name": "mint",
+      "quantity": "21 g",
+      "prep": "leaves picked"
     },
     {
       "ingredient_id": 1808,
@@ -76,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the leaves from the mint.",
+      "secondary_message": "21 g mint"
+    },
     {
       "id": 1,
       "primary_message": "Using a food processor or immersion blender, pulse pistachios, garlic, pinch of salt, and 2 tablespoons oil until nuts and garlic are finely ground. Add mint, parsley, both cheeses, and remaining oil and pulse, scraping down the side of container as needed, until very finely minced. Season with salt.",

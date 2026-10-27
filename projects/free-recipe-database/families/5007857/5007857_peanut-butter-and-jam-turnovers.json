@@ -45,8 +45,9 @@
   "ingredients": [
     {
       "ingredient_id": 1021,
-      "name": "puff pastry, thawed if frozen",
-      "quantity": "1 lb"
+      "name": "puff pastry",
+      "quantity": "1 lb",
+      "prep": "thawed if frozen"
     },
     {
       "ingredient_id": 1567,
@@ -60,11 +61,18 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "beaten"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thaw the puff pastry if frozen. Beat the egg.",
+      "secondary_message": "1 lb puff pastry\n1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat to 400°F.",

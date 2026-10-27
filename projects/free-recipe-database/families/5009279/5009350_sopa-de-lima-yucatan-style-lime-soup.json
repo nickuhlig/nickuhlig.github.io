@@ -54,8 +54,9 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, unpeeled",
-      "quantity": "1 large"
+      "name": "white onion",
+      "quantity": "1 large",
+      "prep": "unpeeled"
     },
     {
       "ingredient_id": 1230,
@@ -64,8 +65,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, unpeeled, divided",
-      "quantity": "8 large cloves"
+      "name": "garlic, divided",
+      "quantity": "8 large cloves",
+      "prep": "unpeeled"
     },
     {
       "ingredient_id": 1747,
@@ -114,8 +116,9 @@
     },
     {
       "ingredient_id": 3134,
-      "name": "Hungarian wax pepper, finely minced",
-      "quantity": "1"
+      "name": "Hungarian wax pepper",
+      "quantity": "1",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 88,
@@ -124,16 +127,24 @@
     },
     {
       "ingredient_id": 321,
-      "name": "corn tortillas, cut into strips",
-      "quantity": "6 small"
+      "name": "corn tortillas",
+      "quantity": "6 small",
+      "prep": "cut into strips"
     },
     {
       "ingredient_id": 188,
-      "name": "Small bunch fresh cilantro leaves, roughly chopped",
-      "quantity": ""
+      "name": "Small bunch fresh cilantro leaves",
+      "quantity": "",
+      "prep": "roughly chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Leave the white onion unpeeled. Leave the garlic unpeeled. Finely mince the Hungarian wax pepper. Cut the corn tortillas into strips. Roughly chop the Small bunch fresh cilantro leaves.",
+      "secondary_message": "1 large white onion\n8 large cloves garlic, divided\n1 Hungarian wax pepper\n6 small corn tortillas\nSmall bunch fresh cilantro leaves"
+    },
     {
       "id": 1,
       "primary_message": "Use a vegetable peeler to remove four 5-cm strips of lime zest and two 5-cm strips of grapefruit zest. Juice limes and grapefruit, setting aside 2 tablespoons of each juice. (Reserve remaining juice for another purpose.) Set aside zests and juice.",

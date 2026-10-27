@@ -71,8 +71,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onions, sliced",
-      "quantity": "4 large"
+      "name": "yellow onions",
+      "quantity": "4 large",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 188,
@@ -116,8 +117,9 @@
     },
     {
       "ingredient_id": 1954,
-      "name": "finely chopped preserved lemon, finely chopped",
-      "quantity": "½ cup"
+      "name": "finely chopped preserved lemon",
+      "quantity": "½ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2012,
@@ -126,6 +128,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the yellow onions. Finely chop the finely chopped preserved lemon.",
+      "secondary_message": "4 large yellow onions\n½ cup finely chopped preserved lemon"
+    },
     {
       "id": 1,
       "primary_message": "For the Marinade: In a large bowl, whisk together olive oil, lemon juice, ground turmeric, ground ginger, and salt. Add chicken leg quarters to marinade, and, using your hands or a spatula, turn to evenly coat chicken. Cover with plastic wrap and place in the fridge for at least 2 hours or up to overnight.",

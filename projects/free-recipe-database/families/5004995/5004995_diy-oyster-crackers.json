@@ -67,8 +67,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into 1/4-inch cubes",
-      "quantity": "2 tbsp"
+      "name": "cold unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "cut into 1/4-inch cubes"
     },
     {
       "ingredient_id": 359,
@@ -77,6 +78,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cold unsalted butter into 1/4-inch cubes.",
+      "secondary_message": "2 tbsp cold unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 375°F. Combine flour, salt, sugar, and baking powder into a medium bowl and whisk to combine. Add butter and using a pastry cutter or fingertips, work into flour until it resembles coarse meal. Add water and lightly knead dough until it comes together into a ball.",

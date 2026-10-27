@@ -88,18 +88,21 @@
     },
     {
       "ingredient_id": 1621,
-      "name": "halloumi cheese, cut into 3/4-inch cubes",
-      "quantity": "1 lb"
+      "name": "halloumi cheese",
+      "quantity": "1 lb",
+      "prep": "cut into 3/4-inch cubes"
     },
     {
       "ingredient_id": 2324,
-      "name": "zucchini, cut into 1/2-inch rounds",
-      "quantity": "2 medium"
+      "name": "zucchini",
+      "quantity": "2 medium",
+      "prep": "cut into 1/2-inch rounds"
     },
     {
       "ingredient_id": 184,
-      "name": "red onions, peeled and cut into 3/4-inch chunks",
-      "quantity": "2 medium"
+      "name": "red onions",
+      "quantity": "2 medium",
+      "prep": "peeled and cut into 3/4-inch chunks"
     },
     {
       "ingredient_id": 277,
@@ -108,6 +111,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the halloumi cheese into 3/4-inch cubes. Cut the zucchini into 1/2-inch rounds. Peel and cut the red onions into 3/4-inch chunks.",
+      "secondary_message": "1 lb halloumi cheese\n2 medium zucchini\n2 medium red onions"
+    },
     {
       "id": 1,
       "primary_message": "Whisk together oil, lemon juice, vinegar, garlic, oregano, and mint in a large bowl. Season with salt and pepper to taste.",

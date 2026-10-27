@@ -73,8 +73,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "8 tbsp"
+      "name": "unsalted butter",
+      "quantity": "8 tbsp",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 293,
@@ -88,13 +89,15 @@
     },
     {
       "ingredient_id": 3642,
-      "name": "egg whites, at room temperature, divided",
-      "quantity": "2 large"
+      "name": "egg whites, divided",
+      "quantity": "2 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 121,
-      "name": "egg, at room temperature",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 353,
@@ -103,8 +106,9 @@
     },
     {
       "ingredient_id": 334,
-      "name": "tahini, at room temperature and stirred well",
-      "quantity": "4 ¼ oz"
+      "name": "tahini",
+      "quantity": "4 ¼ oz",
+      "prep": "at room temperature and stirred well"
     },
     {
       "ingredient_id": 1792,
@@ -118,6 +122,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature. Bring the egg whites to room temperature. Bring the egg to room temperature. Stir the tahini well and bring it to room temperature.",
+      "secondary_message": "8 tbsp unsalted butter\n2 large egg whites, divided\n1 large egg\n4 ¼ oz tahini"
+    },
     {
       "id": 1,
       "primary_message": "Line 2 baking sheets with parchment paper and set aside. In a medium bowl, whisk flour, salt, and baking powder until combined.",

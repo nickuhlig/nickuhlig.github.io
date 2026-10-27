@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño, seeded",
-      "quantity": "½"
+      "name": "jalapeño",
+      "quantity": "½",
+      "prep": "seeded"
     },
     {
       "ingredient_id": 24,
@@ -81,21 +82,30 @@
     },
     {
       "ingredient_id": 139,
-      "name": "baby arugula, washed and dried",
-      "quantity": "1 bunch"
+      "name": "baby arugula",
+      "quantity": "1 bunch",
+      "prep": "washed and dried"
     },
     {
       "ingredient_id": 277,
-      "name": "grape tomatoes, halved",
-      "quantity": "½ pint"
+      "name": "grape tomatoes",
+      "quantity": "½ pint",
+      "prep": "halved"
     },
     {
       "ingredient_id": 443,
-      "name": "tortilla chips, broken into strips",
-      "quantity": "1 handful"
+      "name": "tortilla chips",
+      "quantity": "1 handful",
+      "prep": "broken into strips"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Seed the jalapeño. Wash and dry the baby arugula. Halve the grape tomatoes. Break the tortilla chips into strips.",
+      "secondary_message": "½ jalapeño\n1 bunch baby arugula\n½ pint grape tomatoes\n1 handful tortilla chips"
+    },
     {
       "id": 1,
       "primary_message": "To make the dressing, place extra-virgin olive oil, lime juice, cilantro, 1⁄2 teaspoon salt, jalapeno, and garlic in the jar of a blender. Puree until combined and cilantro, jalapeno, and garlic are thoroughly chopped. Set aside.",

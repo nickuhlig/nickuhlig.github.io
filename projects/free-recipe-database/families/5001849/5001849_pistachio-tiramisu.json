@@ -87,8 +87,9 @@
     },
     {
       "ingredient_id": 1442,
-      "name": "mascarpone cheese, chilled",
-      "quantity": "16 oz"
+      "name": "mascarpone cheese",
+      "quantity": "16 oz",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 2591,
@@ -112,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the mascarpone cheese cold until you use it.",
+      "secondary_message": "16 oz mascarpone cheese"
+    },
     {
       "id": 1,
       "primary_message": "In a shallow bowl, stir together coffee, rum, and 1/2 teaspoon almond extract; set aside.",

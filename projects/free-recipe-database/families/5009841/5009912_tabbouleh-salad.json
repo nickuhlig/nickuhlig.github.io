@@ -43,9 +43,10 @@
   "ingredients": [
     {
       "ingredient_id": 1541,
-      "name": "ripe plum tomatoes, finely diced",
+      "name": "ripe plum tomatoes",
       "quantity": "5",
-      "weigh_as": "0.34 kg"
+      "weigh_as": "0.34 kg",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 88,
@@ -89,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the ripe plum tomatoes.",
+      "secondary_message": "5 ripe plum tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "Season tomatoes with 1 teaspoon salt and toss to combine. Transfer to a fine-mesh strainer or colander set in a bowl and allow to drain for 20 minutes. Reserve liquid.",

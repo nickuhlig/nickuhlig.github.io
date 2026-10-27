@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 1621,
-      "name": "halloumi cheese, sliced into 1/2 inch tall strips",
-      "quantity": "0.45 kg"
+      "name": "halloumi cheese",
+      "quantity": "0.45 kg",
+      "prep": "sliced into 1/2 inch tall strips"
     },
     {
       "ingredient_id": 72,
@@ -55,6 +56,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the halloumi cheese into 1/2 inch tall strips.",
+      "secondary_message": "0.45 kg halloumi cheese"
+    },
     {
       "id": 1,
       "primary_message": "Light one chimney full of charcoal. While the charcoal is lighting, dice the watermelon into one-inch cubes and toss with the mint.",

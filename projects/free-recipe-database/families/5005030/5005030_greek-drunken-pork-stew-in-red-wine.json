@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 2164,
-      "name": "boneless pork shoulder, cut into 1-inch chunks",
-      "quantity": "1 ½ lb"
+      "name": "boneless pork shoulder",
+      "quantity": "1 ½ lb",
+      "prep": "cut into 1-inch chunks"
     },
     {
       "ingredient_id": 88,
@@ -65,13 +66,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, diced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1714,
@@ -110,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the boneless pork shoulder into 1-inch chunks. Dice the onion. Mince the garlic.",
+      "secondary_message": "1 ½ lb boneless pork shoulder\n1 medium onion\n3 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower-middle position and preheat oven to 275°F. Season meat generously with salt and pepper and toss with mustard to coat. Heat oil in Dutch oven over high heat until shimmering, add meat and sear it on all sides until well browned, about 8 minutes total. When meat is nearly finished browning, reduce heat to medium, and push meat off to the sides of the pan. Add onion and garlic to the center of the pan. Sauté until onions and garlic start softening and become translucent, about 4 minutes.",

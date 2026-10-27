@@ -62,8 +62,9 @@
     },
     {
       "ingredient_id": 2731,
-      "name": "mushrooms, cleaned and trimmed",
-      "quantity": "0.45 kg"
+      "name": "mushrooms",
+      "quantity": "0.45 kg",
+      "prep": "cleaned and trimmed"
     },
     {
       "ingredient_id": 47,
@@ -72,8 +73,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, minced",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1677,
@@ -102,16 +104,24 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "6 cloves"
+      "name": "garlic",
+      "quantity": "6 cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 107,
-      "name": "fresh mozzarella, torn into rough chunks and drained",
-      "quantity": "0.45 kg"
+      "name": "fresh mozzarella",
+      "quantity": "0.45 kg",
+      "prep": "torn into rough chunks and drained"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Clean and trim the mushrooms. Mince the shallot. Thinly slice the garlic. Tear the fresh mozzarella into rough chunks, then drain it.",
+      "secondary_message": "0.45 kg mushrooms\n1 medium shallot\n6 cloves garlic\n0.45 kg fresh mozzarella"
+    },
     {
       "id": 1,
       "primary_message": "Divide dough into 4 equal parts and place each in a covered quart-sized deli container or in a zipper-lock freezer bag. Allow to rest at room temperature for at least 2 hours before baking. Meanwhile, make mushroom mixture.",

@@ -42,8 +42,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 1 tablespoon pieces",
-      "quantity": "10 tbsp"
+      "name": "unsalted butter",
+      "quantity": "10 tbsp",
+      "prep": "cut into 1 tablespoon pieces"
     },
     {
       "ingredient_id": 1480,
@@ -62,6 +63,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into 1 tablespoon pieces.",
+      "secondary_message": "10 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Fill a medium saucepan with 2.5-cm of water and bring to a simmer over medium heat. Reduce heat to low.",

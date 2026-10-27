@@ -67,8 +67,9 @@
     },
     {
       "ingredient_id": 1938,
-      "name": "vanilla bean, split lengthwise",
-      "quantity": "1"
+      "name": "vanilla bean",
+      "quantity": "1",
+      "prep": "split lengthwise"
     },
     {
       "ingredient_id": 115,
@@ -82,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the vanilla bean lengthwise.",
+      "secondary_message": "1 vanilla bean"
+    },
     {
       "id": 1,
       "primary_message": "If you are going to preserve the jam, prepare the jars and lids: place 6 half-pint jars on a rack in a large pot. Add enough water to cover jars, and bring to boil over high heat. Boil for 10 minutes, then turn off heat and allow jars to rest in hot water. Meanwhile, put bands and lids in a small saucepan and cover with water. Heat over medium heat until water is simmering, then remove pan from heat and allow bands and lids to rest in hot water until ready to use.",

@@ -111,16 +111,24 @@
     },
     {
       "ingredient_id": 2818,
-      "name": "frozen phyllo dough sheets, thawed",
-      "quantity": "2 lb"
+      "name": "frozen phyllo dough sheets",
+      "quantity": "2 lb",
+      "prep": "thawed"
     },
     {
       "ingredient_id": 1267,
-      "name": "ghee, melted",
-      "quantity": "9 oz"
+      "name": "ghee",
+      "quantity": "9 oz",
+      "prep": "melted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thaw the frozen phyllo dough sheets. Melt the ghee.",
+      "secondary_message": "2 lb frozen phyllo dough sheets\n9 oz ghee"
+    },
     {
       "id": 1,
       "primary_message": "In a small saucepan, stir together 1 cup sugar, water, honey, and 1/2 cup brown sugar. Bring to a boil over medium heat. Once boiling, reduce heat to low and simmer, stirring occasionally, until sugar has dissolved, 2 to 3 minutes. Set aside to cool while preparing baklava.",

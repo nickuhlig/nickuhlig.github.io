@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 1762,
-      "name": "green Thai chile, stemmed and minced",
-      "quantity": "1 small"
+      "name": "green Thai chile",
+      "quantity": "1 small",
+      "prep": "stemmed and minced"
     },
     {
       "ingredient_id": 2346,
@@ -90,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem and mince the green Thai chile.",
+      "secondary_message": "1 small green Thai chile"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, combine reserved citrus juice, white scallion parts, cilantro stems, chile, lemon zest and juice, and honey. Whisking constantly, slowly drizzle in olive oil, followed by sesame oil (if using). Season to taste with salt.",

@@ -41,13 +41,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "6 medium cloves"
+      "name": "garlic",
+      "quantity": "6 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onions, sliced 1/4 inch thick",
-      "quantity": "2 medium"
+      "name": "yellow onions",
+      "quantity": "2 medium",
+      "prep": "sliced 1/4 inch thick"
     },
     {
       "ingredient_id": 150,
@@ -76,6 +78,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the garlic. Slice the yellow onions 1/4 inch thick.",
+      "secondary_message": "6 medium cloves garlic\n2 medium yellow onions"
+    },
     {
       "id": 1,
       "primary_message": "In a large pot or Dutch oven, heat 1/2 cup olive oil over medium heat until shimmering. Add garlic and cook, stirring, until just starting to turn golden, 3 to 4 minutes. Stir in onions, increase heat to medium-high, and cook for 2 minutes. Stir in peppers and cook, stirring occasionally, until starting to soften, about 20 minutes.",

@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 232,
-      "name": "oranges, zested",
-      "quantity": "2"
+      "name": "oranges",
+      "quantity": "2",
+      "prep": "zested"
     },
     {
       "ingredient_id": 1468,
@@ -81,8 +82,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced or pressed",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "minced or pressed"
     },
     {
       "ingredient_id": 188,
@@ -111,17 +113,25 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onions, thinly sliced",
+      "name": "red onions",
       "quantity": "4 medium",
-      "weigh_as": "1 lb"
+      "weigh_as": "1 lb",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 92,
-      "name": "chickpeas, drained and rinsed",
-      "quantity": "1 (15 oz) can"
+      "name": "chickpeas",
+      "quantity": "1 (15 oz) can",
+      "prep": "drained and rinsed"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the oranges. Mince or press the garlic. Thinly slice the red onions. Drain and rinse the chickpeas.",
+      "secondary_message": "2 oranges\n3 cloves garlic\n4 medium red onions\n1 (15 oz) can chickpeas"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to upper middle position and preheat oven to 425°F. Pat chicken dry with paper towels and season all over with 1 teaspoon salt and 1/4 teaspoon pepper; set aside.",

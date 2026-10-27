@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "8 cloves"
+      "name": "garlic",
+      "quantity": "8 cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 82,
@@ -66,8 +67,9 @@
     },
     {
       "ingredient_id": 1294,
-      "name": "whole peeled tomatoes, roughly chopped, juice reserved",
-      "quantity": "2 (28 oz) cans"
+      "name": "whole peeled tomatoes",
+      "quantity": "2 (28 oz) cans",
+      "prep": "roughly chopped, juice reserved"
     },
     {
       "ingredient_id": 88,
@@ -86,6 +88,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the garlic. Roughly chop the whole peeled tomatoes, then reserve the juice.",
+      "secondary_message": "8 cloves garlic\n2 (28 oz) cans whole peeled tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "Heat olive oil in a large saucepan over medium heat until shimmering. Add broccoli and cook, stirring occasionally, until lightly browned in spots, about 5 minutes. Add garlic, oregano, and chile flakes. Cook, stirring constantly, until fragrant, about 30 seconds. Add wine and cook until slightly reduced, about 2 minutes. Add tomatoes and reserved juice. Bring to a boil, reduce to a simmer, cover, and cook, stirring occasionally, until broccoli is completely tender and broken down, about 1 hour. Season to taste with salt.",

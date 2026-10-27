@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 26,
-      "name": "asparagus, trimmed and cut in thirds",
-      "quantity": "2 bunches"
+      "name": "asparagus",
+      "quantity": "2 bunches",
+      "prep": "trimmed and cut in thirds"
     },
     {
       "ingredient_id": 88,
@@ -75,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim and cut the asparagus in thirds.",
+      "secondary_message": "2 bunches asparagus"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 400°F. Whisk together the crème fraîche, wine, and mustards. Set aside.",

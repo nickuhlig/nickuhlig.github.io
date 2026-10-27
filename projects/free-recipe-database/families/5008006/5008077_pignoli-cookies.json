@@ -51,8 +51,9 @@
   "ingredients": [
     {
       "ingredient_id": 2677,
-      "name": "almond paste, crumbled",
-      "quantity": "2 (227 g) cans"
+      "name": "almond paste",
+      "quantity": "2 (227 g) cans",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 1710,
@@ -81,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Crumble the almond paste.",
+      "secondary_message": "2 (227 g) cans almond paste"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 175°C (350°F). Line two baking sheets with parchment paper.",

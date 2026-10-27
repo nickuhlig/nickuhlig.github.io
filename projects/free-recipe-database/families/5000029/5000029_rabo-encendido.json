@@ -38,8 +38,9 @@
   "ingredients": [
     {
       "ingredient_id": 1845,
-      "name": "oxtails, trimmed, rinsed, and patted dry",
-      "quantity": "4 lb"
+      "name": "oxtails",
+      "quantity": "4 lb",
+      "prep": "trimmed, rinsed, and patted dry"
     },
     {
       "ingredient_id": 88,
@@ -53,23 +54,27 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onions, minced",
-      "quantity": "2 medium"
+      "name": "yellow onions",
+      "quantity": "2 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 291,
-      "name": "green bell pepper, stemmed, seeded, and minced",
-      "quantity": "1"
+      "name": "green bell pepper",
+      "quantity": "1",
+      "prep": "stemmed, seeded, and minced"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell pepper, stemmed, seeded, and minced",
-      "quantity": "1"
+      "name": "red bell pepper",
+      "quantity": "1",
+      "prep": "stemmed, seeded, and minced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "6 medium cloves"
+      "name": "garlic",
+      "quantity": "6 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 323,
@@ -118,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim, rinse, and pat the oxtails dry. Mince the yellow onions. Stem, seed, and mince the green bell pepper. Stem, seed, and mince the red bell pepper. Mince the garlic.",
+      "secondary_message": "4 lb oxtails\n2 medium yellow onions\n1 green bell pepper\n1 red bell pepper\n6 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 300°F and set rack in middle position. Season oxtails all over with salt. In a large Dutch oven, heat 1 tablespoon olive oil over high heat until shimmering. Working in batches to avoid overcrowding the pan, cook oxtails until lightly browned all over, about 2 minutes per side. Transfer oxtails to plate, then repeat with remaining oil and oxtails. Set aside.",

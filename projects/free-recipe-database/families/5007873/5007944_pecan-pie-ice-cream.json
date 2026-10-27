@@ -52,13 +52,15 @@
     },
     {
       "ingredient_id": 1938,
-      "name": "vanilla bean, split and scraped",
-      "quantity": "1"
+      "name": "vanilla bean",
+      "quantity": "1",
+      "prep": "split and scraped"
     },
     {
       "ingredient_id": 327,
-      "name": "pecans, toasted and roughly chopped, divided",
-      "quantity": "2 cups (8 oz)"
+      "name": "pecans, divided",
+      "quantity": "2 cups (8 oz)",
+      "prep": "toasted and roughly chopped"
     },
     {
       "ingredient_id": 3641,
@@ -102,6 +104,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split and scrape the vanilla bean. Toast and roughly chop the pecans.",
+      "secondary_message": "1 vanilla bean\n2 cups (8 oz) pecans, divided"
+    },
     {
       "id": 1,
       "primary_message": "For Pecan-Vanilla Ice Cream: Bring cream and milk to a simmer in a heavy saucepan over medium heat. Add vanilla and 113 g pecans, turn off heat, cover, and let steep for 1 to 2 hours.",

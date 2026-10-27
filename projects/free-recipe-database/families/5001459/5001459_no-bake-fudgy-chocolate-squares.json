@@ -75,8 +75,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 1 tablespoon pieces, divided",
-      "quantity": "8 oz"
+      "name": "unsalted butter, divided",
+      "quantity": "8 oz",
+      "prep": "cut into 1 tablespoon pieces"
     },
     {
       "ingredient_id": 346,
@@ -110,6 +111,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into 1 tablespoon pieces.",
+      "secondary_message": "8 oz unsalted butter, divided"
+    },
     {
       "id": 1,
       "primary_message": "Lightly spray an 8- by 8-inch baking pan with cooking spray. Line bottom and sides with parchment paper, leaving a 2-inch overhang on 2 sides. Lightly spray parchment with cooking spray; set aside.",

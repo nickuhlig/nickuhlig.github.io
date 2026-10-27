@@ -38,14 +38,16 @@
   "ingredients": [
     {
       "ingredient_id": 260,
-      "name": "best-quality ripe tomatoes, mixed sizes, at room temperature",
+      "name": "best-quality ripe tomatoes, mixed sizes",
       "quantity": "6",
-      "weigh_as": "0.68 kg"
+      "weigh_as": "0.68 kg",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 107,
-      "name": "best-quality fresh mozzarella cheese, torn into bite-size chunks",
-      "quantity": "227 to 340 g"
+      "name": "best-quality fresh mozzarella cheese",
+      "quantity": "227 to 340 g",
+      "prep": "torn into bite-size chunks"
     },
     {
       "ingredient_id": 47,
@@ -69,6 +71,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the best-quality ripe tomatoes to room temperature. Tear the best-quality fresh mozzarella cheese into bite-size chunks.",
+      "secondary_message": "6 best-quality ripe tomatoes, mixed sizes\n227 to 340 g best-quality fresh mozzarella cheese"
+    },
     {
       "id": 1,
       "primary_message": "Cut tomatoes into an assortment of slices and chunks and spread over a large plate in a single, slightly overlapping layer. Tuck chunks of mozzarella among the tomato pieces. Drizzle generously with extra-virgin olive oil. Sprinkle with coarse sea salt and black pepper. Tear basil leaves into small pieces with your fingertips and spread them on top. Serve immediately.",

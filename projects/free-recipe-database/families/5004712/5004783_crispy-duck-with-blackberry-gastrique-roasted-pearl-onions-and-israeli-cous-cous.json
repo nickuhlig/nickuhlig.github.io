@@ -30,8 +30,9 @@
   "ingredients": [
     {
       "ingredient_id": 2627,
-      "name": "pearl onions, ends trimmed, skins removed",
-      "quantity": "12"
+      "name": "pearl onions",
+      "quantity": "12",
+      "prep": "ends trimmed, skins removed"
     },
     {
       "ingredient_id": 47,
@@ -95,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the ends of the pearl onions, then remove the skins.",
+      "secondary_message": "12 pearl onions"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 175°C (350°F). Toss onions and olive oil in medium bowl to coat. Season generously with salt and pepper. Transfer onions to rimmed baking sheet and roast until a knife tips slips easily in and out of the onion, about 35 minutes.",

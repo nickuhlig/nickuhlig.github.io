@@ -65,8 +65,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "grated"
     },
     {
       "ingredient_id": 144,
@@ -85,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the garlic.",
+      "secondary_message": "1 medium clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "In a large nonreactive bowl, whisk together lemon juice, lemon zest, mustard, honey, garlic, shallot, and salt. Slowly stream in olive oil, whisking vigorously and constantly, until emulsified and creamy. Alternately, place all ingredients in a jar, seal tightly, and shake until emulsified. If not serving immediately, pour into a small nonreactive container or jar; cover and refrigerate for up to 1 month.",

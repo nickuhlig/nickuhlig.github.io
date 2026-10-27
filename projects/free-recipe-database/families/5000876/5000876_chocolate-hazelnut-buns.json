@@ -109,8 +109,9 @@
     },
     {
       "ingredient_id": 2841,
-      "name": "plain unsweetened, strained Greek yogurt such as Fage",
-      "quantity": "8 oz"
+      "name": "plain unsweetened",
+      "quantity": "8 oz",
+      "prep": "strained Greek yogurt such as Fage"
     },
     {
       "ingredient_id": 2046,
@@ -119,8 +120,9 @@
     },
     {
       "ingredient_id": 1716,
-      "name": "skinned toasted hazelnuts, roughly chopped , or more to taste",
-      "quantity": "4 oz"
+      "name": "skinned toasted hazelnuts, or more to taste",
+      "quantity": "4 oz",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1442,
@@ -149,6 +151,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Strain the plain unsweetened Greek yogurt such as Fage. Roughly chop the skinned toasted hazelnuts.",
+      "secondary_message": "8 oz plain unsweetened\n4 oz skinned toasted hazelnuts, or more to taste"
+    },
     {
       "id": 1,
       "primary_message": "For the Dough: In the bowl of a stand mixer, combine flour, sugar, yeast, salt, and baking soda. Melt butter in a 2-quart saucier over low heat, then stir in milk and yogurt, warming to about 80°F. Add butter/milk/yogurt mixture to flour mixture and stir to form a very dry and shaggy dough. Using hook attachment, knead dough on low until silky-smooth and elastic, capable of being gently stretched into a thin but rough sheet without tearing, about 20 minutes.",

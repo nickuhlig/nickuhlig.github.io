@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 3321,
-      "name": "challah bread, cut into 1 1/2-inch cubes",
-      "quantity": "454 g"
+      "name": "challah bread",
+      "quantity": "454 g",
+      "prep": "cut into 1 1/2-inch cubes"
     },
     {
       "ingredient_id": 118,
@@ -91,9 +92,10 @@
     },
     {
       "ingredient_id": 317,
-      "name": "very ripe bananas, mashed",
+      "name": "very ripe bananas",
       "quantity": "6",
-      "weigh_as": "680 g"
+      "weigh_as": "680 g",
+      "prep": "mashed"
     },
     {
       "ingredient_id": 1809,
@@ -112,8 +114,9 @@
     },
     {
       "ingredient_id": 316,
-      "name": "heavy whipping cream, at room temperature",
-      "quantity": "½ cup"
+      "name": "heavy whipping cream",
+      "quantity": "½ cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 88,
@@ -122,6 +125,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the challah bread into 1 1/2-inch cubes. Mash the very ripe bananas. Bring the heavy whipping cream to room temperature.",
+      "secondary_message": "454 g challah bread\n6 very ripe bananas\n½ cup heavy whipping cream"
+    },
     {
       "id": 1,
       "primary_message": "For the Bread Pudding: Adjust oven rack to middle position. Preheat oven to 175°C (350°F). Arrange bread cubes in a single layer on a rimmed baking sheet and bake, stirring bread and rotating baking sheet halfway through, until bread is fully dry, about 10 minutes. Allow bread to cool, about 10 minutes.",

@@ -61,13 +61,15 @@
     },
     {
       "ingredient_id": 1929,
-      "name": "shiitake mushroom caps, thinly sliced",
-      "quantity": "4 oz"
+      "name": "shiitake mushroom caps",
+      "quantity": "4 oz",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2725,
-      "name": "Chinese chives, cut into 2-inch segments",
-      "quantity": "4 oz"
+      "name": "Chinese chives",
+      "quantity": "4 oz",
+      "prep": "cut into 2-inch segments"
     },
     {
       "ingredient_id": 24,
@@ -101,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the shiitake mushroom caps. Cut the Chinese chives into 2-inch segments.",
+      "secondary_message": "4 oz shiitake mushroom caps\n4 oz Chinese chives"
+    },
     {
       "id": 1,
       "primary_message": "Bring a large pot of salted water to a boil and cook noodles, stirring regularly with tongs or long chopsticks, until al dente and separated, about 1 minute. Drain and transfer to a large bowl. Toss with 1 tablespoon vegetable oil and set aside.",

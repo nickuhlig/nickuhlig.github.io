@@ -76,8 +76,9 @@
     },
     {
       "ingredient_id": 2121,
-      "name": "toasted macadamia nuts, roughly chopped",
-      "quantity": "142 g"
+      "name": "toasted macadamia nuts",
+      "quantity": "142 g",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1511,
@@ -111,8 +112,9 @@
     },
     {
       "ingredient_id": 1848,
-      "name": "refined coconut oil, solid but creamy, about 70°F",
-      "quantity": "227 g"
+      "name": "refined coconut oil, solid but creamy",
+      "quantity": "227 g",
+      "prep": "about 70°F"
     },
     {
       "ingredient_id": 346,
@@ -161,6 +163,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the toasted macadamia nuts. Bring the refined coconut oil to 70°F.",
+      "secondary_message": "142 g toasted macadamia nuts\n227 g refined coconut oil, solid but creamy"
+    },
     {
       "id": 1,
       "primary_message": "For the Dry Mix: In a large bowl, combine rolled oats, chocolate chips, macadamia nuts, oat flour, brewer's yeast powder, all-purpose flour, and flax meal, tossing with a flexible spatula until mixture is completely homogenized. Proceed immediately to the next step or transfer the dry mix to an airtight container and store at cool room temperature until the date stamped on the package of macadamia nuts.",

@@ -54,18 +54,21 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, thinly sliced",
-      "quantity": "8 to 12"
+      "name": "shallots",
+      "quantity": "8 to 12",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2402,
-      "name": "fresh red chiles, thinly sliced, or less to taste",
-      "quantity": "4"
+      "name": "fresh red chiles, or less to taste",
+      "quantity": "4",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "12 cloves"
+      "name": "garlic",
+      "quantity": "12 cloves",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 221,
@@ -99,11 +102,18 @@
     },
     {
       "ingredient_id": 153,
-      "name": "and thin green onions, sliced or shredded",
-      "quantity": "16 small"
+      "name": "and thin green onions",
+      "quantity": "16 small",
+      "prep": "sliced or shredded"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the shallots. Thinly slice the fresh red chiles. Roughly chop the garlic. Slice or shred the and thin green onions.",
+      "secondary_message": "8 to 12 shallots\n4 fresh red chiles, or less to taste\n12 cloves garlic\n16 small and thin green onions"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, spinkle the tofu with the cornstarch and toss well to lightly coat.",

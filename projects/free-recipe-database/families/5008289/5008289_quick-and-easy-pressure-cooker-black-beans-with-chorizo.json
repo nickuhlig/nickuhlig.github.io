@@ -53,8 +53,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "whole onion, split in half",
-      "quantity": "1"
+      "name": "whole onion",
+      "quantity": "1",
+      "prep": "split in half"
     },
     {
       "ingredient_id": 24,
@@ -63,8 +64,9 @@
     },
     {
       "ingredient_id": 232,
-      "name": "orange, split in half",
-      "quantity": "1"
+      "name": "orange",
+      "quantity": "1",
+      "prep": "split in half"
     },
     {
       "ingredient_id": 1747,
@@ -83,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the whole onion in half. Split the orange in half.",
+      "secondary_message": "1 whole onion\n1 orange"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in pressure cooker until shimmering. Add chorizo and cook, stirring, until it releases its fat and starts to crisp, about 2 minutes. Add beans, onion, garlic cloves, orange, bay leaves, chicken stock, and 2 teaspoons salt. Cover and cook at high pressure for 40 minutes.",

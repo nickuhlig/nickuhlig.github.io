@@ -93,8 +93,9 @@
     },
     {
       "ingredient_id": 2293,
-      "name": "strong black coffee, at about 170°F",
-      "quantity": "10 ¼ fl oz"
+      "name": "strong black coffee",
+      "quantity": "10 ¼ fl oz",
+      "prep": "at about 170°F"
     },
     {
       "ingredient_id": 267,
@@ -108,18 +109,21 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "7 oz"
+      "name": "unsalted butter",
+      "quantity": "7 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 333,
-      "name": "cocoa powder, sifted",
-      "quantity": "1 ½ oz"
+      "name": "cocoa powder",
+      "quantity": "1 ½ oz",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 1710,
-      "name": "confectioners' sugar, sifted",
-      "quantity": "14 ¾ oz"
+      "name": "confectioners' sugar",
+      "quantity": "14 ¾ oz",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 118,
@@ -133,6 +137,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the strong black coffee to 170°F. Soften the unsalted butter. Sift the cocoa powder. Sift the confectioners' sugar.",
+      "secondary_message": "10 ¼ fl oz strong black coffee\n7 oz unsalted butter\n1 ½ oz cocoa powder\n14 ¾ oz confectioners' sugar"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Adjust oven rack to middle position and preheat oven to 350°F. Using nonstick spray, grease a 9- by 13-inch baking pan, then dust with all-purpose flour, shaking out excess.",

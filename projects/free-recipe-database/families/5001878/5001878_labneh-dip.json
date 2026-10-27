@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions white and green parts, thinly sliced",
-      "quantity": "2"
+      "name": "scallions white and green parts",
+      "quantity": "2",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 47,
@@ -96,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the scallions white and green parts.",
+      "secondary_message": "2 scallions white and green parts"
+    },
     {
       "id": 1,
       "primary_message": "For the Herb Oil: In a medium pot, bring water to boil. Meanwhile, prepare an ice bath in a medium bowl. Add cilantro and scallions to boiling water and cook until bright green, about 30 seconds. Using a spider skimmer or slotted spoon, immediately transfer herbs to the prepared ice bath.",

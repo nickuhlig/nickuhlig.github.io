@@ -44,14 +44,16 @@
   "ingredients": [
     {
       "ingredient_id": 469,
-      "name": "plums, pitted and roughly chopped",
+      "name": "plums",
       "quantity": "3",
-      "weigh_as": "0.23 kg"
+      "weigh_as": "0.23 kg",
+      "prep": "pitted and roughly chopped"
     },
     {
       "ingredient_id": 215,
-      "name": "dried apricots, roughly chopped",
-      "quantity": "170 g"
+      "name": "dried apricots",
+      "quantity": "170 g",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1080,
@@ -90,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pit and roughly chop the plums. Roughly chop the dried apricots.",
+      "secondary_message": "3 plums\n170 g dried apricots"
+    },
     {
       "id": 1,
       "primary_message": "Place plums, apricots, apple juice, vinegar, sugar, soy sauce, ginger, mustard powder, and crushed red pepper in a medium saucepan. Bring to a boil over medium heat, then reduce to a simmer and let cook until fruit is completely softened and sauce thickens, about 30 minutes, stirring occasionally.",

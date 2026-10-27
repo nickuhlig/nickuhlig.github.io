@@ -48,8 +48,9 @@
   "ingredients": [
     {
       "ingredient_id": 2494,
-      "name": "crabmeat, picked over for shells",
-      "quantity": "230 g"
+      "name": "crabmeat",
+      "quantity": "230 g",
+      "prep": "picked over for shells"
     },
     {
       "ingredient_id": 267,
@@ -103,6 +104,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the crabmeat over for shells.",
+      "secondary_message": "230 g crabmeat"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 175°C (350°F). In a medium bowl, gently fold crabmeat with mayonnaise, mustard, parsley, and scallion until evenly mixed. Season with salt and pepper.",

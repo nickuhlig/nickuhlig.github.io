@@ -53,13 +53,15 @@
   "ingredients": [
     {
       "ingredient_id": 2414,
-      "name": "beef chuck, cut into 1-inch cubes",
-      "quantity": "0.68 kg"
+      "name": "beef chuck",
+      "quantity": "0.68 kg",
+      "prep": "cut into 1-inch cubes"
     },
     {
       "ingredient_id": 2489,
-      "name": "Creole andouille sausage, cut into 1/2-inch cubes",
-      "quantity": "227 g"
+      "name": "Creole andouille sausage",
+      "quantity": "227 g",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 267,
@@ -123,13 +125,15 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, thinly sliced crosswise",
-      "quantity": "½"
+      "name": "white onion",
+      "quantity": "½",
+      "prep": "thinly sliced crosswise"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell pepper, thinly sliced",
-      "quantity": "1 large"
+      "name": "red bell pepper",
+      "quantity": "1 large",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1044,
@@ -143,11 +147,18 @@
     },
     {
       "ingredient_id": 1239,
-      "name": "blue cheese, crumbled",
-      "quantity": "227 g"
+      "name": "blue cheese",
+      "quantity": "227 g",
+      "prep": "crumbled"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the beef chuck into 1-inch cubes. Cut the Creole andouille sausage into 1/2-inch cubes. Thinly slice the white onion crosswise. Thinly slice the red bell pepper. Crumble the blue cheese.",
+      "secondary_message": "0.68 kg beef chuck\n227 g Creole andouille sausage\n½ white onion\n1 large red bell pepper\n227 g blue cheese"
+    },
     {
       "id": 1,
       "primary_message": "Spread the beef in a single layer on a rimmed baking sheet or large plate. Freeze just until the meat begins to get stiff around the edges, about 20 minutes. Working in batches, place 1/3 of the beef in a food processor and pulse until very roughly chopped, about 10 pulses. Add 1/3 of the andouille and continue to pulse until the mixture is finely chopped and the andouille is well distributed, about 10 more short pulses. Repeat with remaining beef and andouille.",

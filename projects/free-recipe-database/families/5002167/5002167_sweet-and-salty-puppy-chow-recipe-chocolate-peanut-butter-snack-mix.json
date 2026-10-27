@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, chopped",
-      "quantity": "6 1/2 oz"
+      "name": "bittersweet chocolate",
+      "quantity": "6 1/2 oz",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1567,
@@ -82,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the bittersweet chocolate.",
+      "secondary_message": "6 1/2 oz bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "In a medium saucepan, heat butter over medium-high until melted. Continue to cook, stirring and swirling skillet frequently, until the butter begins to turn golden brown and smells nutty, 4 to 6 minutes. Stir in cayenne and quickly transfer to a small bowl; set aside. Do not clean saucepan.",

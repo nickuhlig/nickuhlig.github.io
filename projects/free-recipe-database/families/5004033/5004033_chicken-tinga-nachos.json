@@ -54,8 +54,9 @@
     },
     {
       "ingredient_id": 321,
-      "name": "corn tortillas, cut into quarters",
-      "quantity": "6 small"
+      "name": "corn tortillas",
+      "quantity": "6 small",
+      "prep": "cut into quarters"
     },
     {
       "ingredient_id": 88,
@@ -79,11 +80,18 @@
     },
     {
       "ingredient_id": 343,
-      "name": "radish, thinly sliced",
-      "quantity": "1"
+      "name": "radish",
+      "quantity": "1",
+      "prep": "thinly sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the corn tortillas into quarters. Thinly slice the radish.",
+      "secondary_message": "6 small corn tortillas\n1 radish"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 425°F. Heat oil in a 12-inch cast iron skillet, Dutch oven, or wok over medium-high heat until it registers 375°F on an instant-read thermometer. Adjust flame to maintain temperature. Working in 3 batches, add quartered tortillas and fry, agitating with a metal spider, until edges just start to brown. Flip chips over and continue to cook until crisp and light golden brown. Transfer chips to a paper towel–lined tray, sprinkle with salt to taste, and let sit for 2 to 3 minutes to drain. Repeat with remaining batches.",

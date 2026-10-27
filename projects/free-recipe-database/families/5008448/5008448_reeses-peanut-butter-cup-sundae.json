@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "6 oz"
+      "name": "bittersweet chocolate",
+      "quantity": "6 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2240,
@@ -116,6 +117,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the bittersweet chocolate.",
+      "secondary_message": "6 oz bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "Make Peanut Butter Sauce: In medium heavy duty saucepan, stir cream, sugar, butter, and salt over medium heat to dissolve. Continue to cook, stirring frequently, until mixture comes to boil. Boil one minute. Remove from heat and let cool until just warm. Stir in vanilla and peanut butter until smooth.",

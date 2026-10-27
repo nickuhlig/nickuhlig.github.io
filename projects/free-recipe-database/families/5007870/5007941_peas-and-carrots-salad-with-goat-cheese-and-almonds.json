@@ -73,8 +73,9 @@
     },
     {
       "ingredient_id": 275,
-      "name": "fresh shell peas, shucked",
-      "quantity": "0.23 kg"
+      "name": "fresh shell peas",
+      "quantity": "0.23 kg",
+      "prep": "shucked"
     },
     {
       "ingredient_id": 36,
@@ -93,8 +94,9 @@
     },
     {
       "ingredient_id": 3684,
-      "name": "Marcona almonds, toasted and cut in half",
-      "quantity": "½ cup"
+      "name": "Marcona almonds",
+      "quantity": "½ cup",
+      "prep": "toasted and cut in half"
     },
     {
       "ingredient_id": 103,
@@ -103,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shuck the fresh shell peas. Toast and cut the Marcona almonds in half.",
+      "secondary_message": "0.23 kg fresh shell peas\n½ cup Marcona almonds"
+    },
     {
       "id": 1,
       "primary_message": "Combine goat cheese, 2 tablespoon olive oil, and lemon zest in the bowl of a food processor. Process until smooth, about 15 seconds, scraping down sides as necessary. Season with salt and pepper and transfer to a small bowl. Store at room temperature until ready to use.",

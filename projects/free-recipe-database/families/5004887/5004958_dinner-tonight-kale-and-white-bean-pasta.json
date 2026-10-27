@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "1 clove"
+      "name": "garlic",
+      "quantity": "1 clove",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1721,
@@ -55,14 +56,16 @@
     },
     {
       "ingredient_id": 226,
-      "name": "kale, chopped into 1-inch pieces",
+      "name": "kale",
       "quantity": "3 bunches",
-      "weigh_as": "0.57 kg"
+      "weigh_as": "0.57 kg",
+      "prep": "chopped into 1-inch pieces"
     },
     {
       "ingredient_id": 1294,
-      "name": "canned tomatoes, chopped",
-      "quantity": "1 cup"
+      "name": "canned tomatoes",
+      "quantity": "1 cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1496,
@@ -81,8 +84,9 @@
     },
     {
       "ingredient_id": 91,
-      "name": "canned white cannellini beans, rinsed",
-      "quantity": "1 cup"
+      "name": "canned white cannellini beans",
+      "quantity": "1 cup",
+      "prep": "rinsed"
     },
     {
       "ingredient_id": 1751,
@@ -91,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic. Chop the kale into 1-inch pieces. Chop the canned tomatoes. Rinse the canned white cannellini beans.",
+      "secondary_message": "1 clove garlic\n3 bunches kale\n1 cup canned tomatoes\n1 cup canned white cannellini beans"
+    },
     {
       "id": 1,
       "primary_message": "Pour the oil into a skillet set over medium-high heat. Add the onion and cook, stirring occasionally, until soft. Then add the garlic, pepper flakes, and half of the kale. Cook for an additional 2 minutes.",

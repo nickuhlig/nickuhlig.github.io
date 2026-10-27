@@ -48,8 +48,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, roughly chopped",
-      "quantity": "½ medium"
+      "name": "yellow onion",
+      "quantity": "½ medium",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 24,
@@ -98,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the yellow onion.",
+      "secondary_message": "½ medium yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "In a blender, combine kimchi and its juices, onion, garlic, and ginger, and blend until a smooth puree forms (add a bit of water, if necessary, to help the blending process).",

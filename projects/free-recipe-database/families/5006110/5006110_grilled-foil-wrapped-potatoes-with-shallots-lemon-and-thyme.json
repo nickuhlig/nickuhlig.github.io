@@ -40,15 +40,17 @@
   "ingredients": [
     {
       "ingredient_id": 3064,
-      "name": "Yukon Gold potatoes, small, halved",
+      "name": "Yukon Gold potatoes, small",
       "quantity": "3 medium",
-      "weigh_as": "1 ½ lb"
+      "weigh_as": "1 ½ lb",
+      "prep": "halved"
     },
     {
       "ingredient_id": 149,
-      "name": "red potatoes, small, halved",
+      "name": "red potatoes, small",
       "quantity": "3 medium",
-      "weigh_as": "1 ½ lb"
+      "weigh_as": "1 ½ lb",
+      "prep": "halved"
     },
     {
       "ingredient_id": 47,
@@ -82,6 +84,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the Yukon Gold potatoes. Halve the red potatoes.",
+      "secondary_message": "3 medium Yukon Gold potatoes, small\n3 medium red potatoes, small"
+    },
     {
       "id": 1,
       "primary_message": "Tear off four 18-inch square pieces of heavy duty aluminum foil. In a large bowl, combine potatoes, oil, lemon juice, shallots, and thyme. Season with salt and pepper and toss to combine. Divide into four even batches, placing each batch in the center of one square of foil.",

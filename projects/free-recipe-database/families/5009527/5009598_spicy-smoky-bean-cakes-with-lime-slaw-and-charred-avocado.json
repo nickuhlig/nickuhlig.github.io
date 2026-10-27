@@ -38,18 +38,21 @@
     },
     {
       "ingredient_id": 188,
-      "name": "fresh cilantro leaves, chopped, divided",
-      "quantity": "¼ cup"
+      "name": "fresh cilantro leaves, divided",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, chopped, finely sliced, divided",
-      "quantity": "5"
+      "name": "scallions, divided",
+      "quantity": "5",
+      "prep": "chopped, finely sliced"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeno, seeded and finely chopped, divided",
-      "quantity": "1"
+      "name": "jalapeno, divided",
+      "quantity": "1",
+      "prep": "seeded and finely chopped"
     },
     {
       "ingredient_id": 228,
@@ -63,28 +66,33 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, chopped",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell pepper, roughly chopped",
-      "quantity": "½"
+      "name": "red bell pepper",
+      "quantity": "½",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 93,
-      "name": "kidney beans, drained and rinsed",
-      "quantity": "1 (425 g) can"
+      "name": "kidney beans",
+      "quantity": "1 (425 g) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 185,
-      "name": "black beans, drained and rinsed",
-      "quantity": "1 (425 g) can"
+      "name": "black beans",
+      "quantity": "1 (425 g) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 1618,
-      "name": "chipotle chilis, canned in adobo sauce, finely chopped",
-      "quantity": "1"
+      "name": "chipotle chilis, canned in adobo sauce",
+      "quantity": "1",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2747,
@@ -103,6 +111,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the fresh cilantro leaves. Chop and finely slice the scallions. Seed and finely chop the jalapeno. Chop the garlic. Roughly chop the red bell pepper. Drain and rinse the kidney beans. Drain and rinse the black beans. Finely chop the chipotle chilis.",
+      "secondary_message": "¼ cup fresh cilantro leaves, divided\n5 scallions, divided\n1 jalapeno, divided\n2 medium cloves garlic\n½ red bell pepper\n1 (425 g) can kidney beans\n1 (425 g) can black beans\n1 chipotle chilis, canned in adobo sauce"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 245°C (475°F). In large bowl, stir together the cabbage, half the cilantro, half the scallions, half the jalapeno, the juice and zest of 2 limes, mayonnaise, and salt to taste. Set aside.",

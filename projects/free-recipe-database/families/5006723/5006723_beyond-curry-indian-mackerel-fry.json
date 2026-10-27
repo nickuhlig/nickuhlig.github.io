@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 2584,
-      "name": "mackerels, cleaned and gutted",
-      "quantity": "2 medium"
+      "name": "mackerels",
+      "quantity": "2 medium",
+      "prep": "cleaned and gutted"
     },
     {
       "ingredient_id": 2610,
@@ -75,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Clean and gut the mackerels.",
+      "secondary_message": "2 medium mackerels"
+    },
     {
       "id": 1,
       "primary_message": "Gut the mackerel, keep it whole and make 2 or 3 diagonal slits along it's length on both sides.",

@@ -50,13 +50,15 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, thinly sliced",
-      "quantity": "2"
+      "name": "scallions",
+      "quantity": "2",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten",
-      "quantity": "½ large"
+      "name": "egg",
+      "quantity": "½ large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 264,
@@ -80,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the scallions. Beat the egg.",
+      "secondary_message": "2 scallions\n½ large egg"
+    },
     {
       "id": 1,
       "primary_message": "Heat 2 tablespoons of oil in a wok over medium heat until shimmering. Add the garlic, scallions and let brown, stirring occasionally, 3 to 5 minutes. Add the chile pepper flakes if using and stir until aromatic, about 30 seconds. Transfer oil and aromatics to a large metal bowl. Wipe wok clean with paper towel.",

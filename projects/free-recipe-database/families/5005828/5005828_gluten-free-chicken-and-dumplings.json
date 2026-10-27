@@ -38,18 +38,21 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and thinly sliced",
-      "quantity": "3 large"
+      "name": "carrots",
+      "quantity": "3 large",
+      "prep": "peeled and thinly sliced"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, thinly sliced",
-      "quantity": "3 stalks"
+      "name": "celery",
+      "quantity": "3 stalks",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -73,8 +76,9 @@
     },
     {
       "ingredient_id": 1702,
-      "name": "bone-in chicken thighs, skin removed",
-      "quantity": "3 lb"
+      "name": "bone-in chicken thighs",
+      "quantity": "3 lb",
+      "prep": "skin removed"
     },
     {
       "ingredient_id": 1505,
@@ -98,8 +102,9 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "fresh parsley leaves, finely chopped",
-      "quantity": "¼ cup"
+      "name": "fresh parsley leaves",
+      "quantity": "¼ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 331,
@@ -123,6 +128,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and thinly slice the carrots. Finely chop the onion. Thinly slice the celery. Remove the skin from the bone-in chicken thighs. Finely chop the fresh parsley leaves.",
+      "secondary_message": "3 large carrots\n1 medium onion\n3 stalks celery\n3 lb bone-in chicken thighs\n¼ cup fresh parsley leaves"
+    },
     {
       "id": 1,
       "primary_message": "For the Soup: In a large pot, heat the olive oil over medium-high heat until shimmering. Add the carrots and cook, stirring, until lightly softened, about 2 minutes. Add onion and celery. Cook, stirring, until vegetables are soft but not brown, about 7 minutes. Season lightly with salt and pepper. Add white rice flour and cook, stirring until flour just begins to brown, about 3 minutes. Whisk in the water in a slow, steady stream.",

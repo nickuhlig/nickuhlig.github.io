@@ -63,8 +63,9 @@
   "ingredients": [
     {
       "ingredient_id": 2048,
-      "name": "-thick slices milk bread, crusts removed",
-      "quantity": "8 (1 ½ cm)"
+      "name": "-thick slices milk bread",
+      "quantity": "8 (1 ½ cm)",
+      "prep": "crusts removed"
     },
     {
       "ingredient_id": 121,
@@ -98,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the crusts from the -thick slices milk bread.",
+      "secondary_message": "8 (1 ½ cm) -thick slices milk bread"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 200ºF (93ºC). Set a wire rack in a rimmed baking sheet. Arrange bread in a single layer on the rack and cook in oven, turning once, until dried but not toasted, about 10 minutes. Transfer to a plate and line a separate plate with a double layer of paper towels. Set baking sheet aside.",

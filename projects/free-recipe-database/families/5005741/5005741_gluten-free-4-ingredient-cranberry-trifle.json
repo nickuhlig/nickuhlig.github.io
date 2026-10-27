@@ -45,13 +45,15 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, at room temperature",
-      "quantity": "8 oz"
+      "name": "cream cheese",
+      "quantity": "8 oz",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 3529,
-      "name": "soft-baked gluten-free chocolate chip cookies, crumbled",
-      "quantity": "6"
+      "name": "soft-baked gluten-free chocolate chip cookies",
+      "quantity": "6",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 2044,
@@ -60,6 +62,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the cream cheese to room temperature. Crumble the soft-baked gluten-free chocolate chip cookies.",
+      "secondary_message": "8 oz cream cheese\n6 soft-baked gluten-free chocolate chip cookies"
+    },
     {
       "id": 1,
       "primary_message": "In medium bowl, combine 1/2 cup cranberry sauce and cream cheese. Beat with a hand mixer on medium speed until light and fluffy, about 30 seconds. Taste. If cranberry cream isn't sweet enough, add confectioner's sugar to taste.",

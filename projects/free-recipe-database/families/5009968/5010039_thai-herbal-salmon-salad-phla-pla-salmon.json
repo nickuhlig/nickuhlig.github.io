@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 6,
-      "name": "salmon fillet, cut into 1-inch cubes",
-      "quantity": "0.68 kg"
+      "name": "salmon fillet",
+      "quantity": "0.68 kg",
+      "prep": "cut into 1-inch cubes"
     },
     {
       "ingredient_id": 2244,
@@ -51,8 +52,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, peeled and sliced thinly lengthwise",
-      "quantity": "4 small"
+      "name": "shallots",
+      "quantity": "4 small",
+      "prep": "peeled and sliced thinly lengthwise"
     },
     {
       "ingredient_id": 1810,
@@ -76,6 +78,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the salmon fillet into 1-inch cubes. Peel and slice the shallots thinly lengthwise.",
+      "secondary_message": "0.68 kg salmon fillet\n4 small shallots"
+    },
     {
       "id": 1,
       "primary_message": "Bring 6 cups of water to a boil in a medium saucepan. Meanwhile, remove tough center vein from lime leaves. Stack trimmed leave together and roll tightly into a scroll. Slice as thinly as possible. Set aside. Remove tough outer leaves from lemongrass, trim off bottom, then thinly slice into rounds, stopping when purple inner leaves end and stalk starts to become fibrous.",

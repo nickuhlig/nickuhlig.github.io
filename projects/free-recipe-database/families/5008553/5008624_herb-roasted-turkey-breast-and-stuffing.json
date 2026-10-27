@@ -42,23 +42,27 @@
     },
     {
       "ingredient_id": 2728,
-      "name": "sage sausage, removed from casing",
-      "quantity": "0.68 kg"
+      "name": "sage sausage",
+      "quantity": "0.68 kg",
+      "prep": "removed from casing"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, finely chopped",
-      "quantity": "4 large stalks"
+      "name": "celery",
+      "quantity": "4 large stalks",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced or grated on microplane, divided",
-      "quantity": "4 cloves"
+      "name": "garlic, divided",
+      "quantity": "4 cloves",
+      "prep": "minced or grated on microplane"
     },
     {
       "ingredient_id": 2015,
@@ -102,11 +106,18 @@
     },
     {
       "ingredient_id": 2508,
-      "name": "whole bone-in skin-on turkey breast, patted dry",
-      "quantity": "1"
+      "name": "whole bone-in skin-on turkey breast",
+      "quantity": "1",
+      "prep": "patted dry"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the sage sausage from casing. Finely chop the onion. Finely chop the celery. Mince or grate the garlic on microplane. Pat the whole bone-in skin-on turkey breast dry.",
+      "secondary_message": "0.68 kg sage sausage\n1 large onion\n4 large stalks celery\n4 cloves garlic, divided\n1 whole bone-in skin-on turkey breast"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 230°C (450°F). In a large Dutch oven, melt 5 tablespoons butter over medium-high heat until foaming subsides (don't allow butter to brown), about 2 minutes. Add sausage and mash with stiff whisk or potato masher to break up into fine pieces (largest pieces should be no greater than 0.5-cm). Cook, stirring frequently until only a few bits of pink remain, about 8 minutes. Add onions, celery, garlic, and sage and cook, stirring frequently, until vegetables are softened, about 10 minutes. Remove from heat and add half of chicken stock.",

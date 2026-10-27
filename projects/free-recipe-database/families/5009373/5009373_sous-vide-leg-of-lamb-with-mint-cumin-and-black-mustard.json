@@ -76,28 +76,33 @@
     },
     {
       "ingredient_id": 243,
-      "name": "picked fresh mint leaves, finely chopped",
-      "quantity": "1 oz"
+      "name": "picked fresh mint leaves",
+      "quantity": "1 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 188,
-      "name": "picked fresh cilantro leaves, tender stems finely chopped",
-      "quantity": "1 oz"
+      "name": "picked fresh cilantro leaves",
+      "quantity": "1 oz",
+      "prep": "tender stems finely chopped"
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely minced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 151,
-      "name": "red jalapeño, finely minced",
-      "quantity": "1"
+      "name": "red jalapeño",
+      "quantity": "1",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 130,
@@ -111,6 +116,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the picked fresh mint leaves. Finely chop the tender stems of the picked fresh cilantro leaves. Finely mince the shallot. Finely mince the garlic. Finely mince the red jalapeño.",
+      "secondary_message": "1 oz picked fresh mint leaves\n1 oz picked fresh cilantro leaves\n1 small shallot\n1 medium clove garlic\n1 red jalapeño"
+    },
     {
       "id": 1,
       "primary_message": "Heat 2 tablespoons vegetable oil in a small skillet over medium-high heat until shimmering. Add mustard and cumin and cook, stirring constantly, until fragrant, about 30 seconds. Immediately transfer to an empty skillet or heatproof bowl and let rest until cool enough to handle. Season mixture generously with salt and pepper.",

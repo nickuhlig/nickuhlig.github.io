@@ -34,8 +34,9 @@
   "ingredients": [
     {
       "ingredient_id": 229,
-      "name": "ripe mangoes, peeled and diced",
-      "quantity": "3 medium"
+      "name": "ripe mangoes",
+      "quantity": "3 medium",
+      "prep": "peeled and diced"
     },
     {
       "ingredient_id": 2744,
@@ -54,8 +55,9 @@
     },
     {
       "ingredient_id": 228,
-      "name": "limes, juiced, to taste",
-      "quantity": "2"
+      "name": "limes, to taste",
+      "quantity": "2",
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -64,6 +66,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and dice the ripe mangoes. Juice the limes.",
+      "secondary_message": "3 medium ripe mangoes\n2 limes, to taste"
+    },
     {
       "id": 1,
       "primary_message": "Purée mangoes in blender or food processor on high for 30 seconds until smooth. Strain and measure out 1 1/2 cups of purée; reserve remainder for another use.",

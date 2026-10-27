@@ -77,8 +77,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into 1/4-inch pieces",
-      "quantity": "9 tbsp"
+      "name": "cold unsalted butter",
+      "quantity": "9 tbsp",
+      "prep": "cut into 1/4-inch pieces"
     },
     {
       "ingredient_id": 3641,
@@ -87,8 +88,9 @@
     },
     {
       "ingredient_id": 2285,
-      "name": "semi-sweet chocolate, finely chopped",
-      "quantity": "8 oz"
+      "name": "semi-sweet chocolate",
+      "quantity": "8 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1710,
@@ -112,8 +114,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, lightly beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 353,
@@ -122,6 +125,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cold unsalted butter into 1/4-inch pieces. Finely chop the semi-sweet chocolate. Lightly beat the egg.",
+      "secondary_message": "9 tbsp cold unsalted butter\n8 oz semi-sweet chocolate\n1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "In bowl of food processor, pulse flour, confectioners' sugar, cocoa, and salt until combined, about 3 one-second pulses. Add butter and pulse until mixture is consistency of wet sand, with no visible bits of butter remaining, about 10 to 15 quick pulses. Add yolk and pulse until dough just begins to come together. Wrap dough with plastic wrap into 5-inch disc and chill until firm, about 30 minutes.",

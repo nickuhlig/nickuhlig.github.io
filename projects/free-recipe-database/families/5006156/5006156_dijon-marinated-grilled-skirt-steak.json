@@ -69,11 +69,18 @@
     },
     {
       "ingredient_id": 2286,
-      "name": "skirt steak, trimmed",
-      "quantity": "1 lb"
+      "name": "skirt steak",
+      "quantity": "1 lb",
+      "prep": "trimmed"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the skirt steak.",
+      "secondary_message": "1 lb skirt steak"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, mix together mustard, champagne vinegar, rosemary, and black pepper.",

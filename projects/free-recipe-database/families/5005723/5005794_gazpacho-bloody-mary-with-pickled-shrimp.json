@@ -39,18 +39,21 @@
   "ingredients": [
     {
       "ingredient_id": 1811,
-      "name": "shrimp, medium, shelled and deveined",
-      "quantity": "0.45 kg"
+      "name": "shrimp, medium",
+      "quantity": "0.45 kg",
+      "prep": "shelled and deveined"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, thinly sliced",
-      "quantity": "¼ medium"
+      "name": "yellow onion",
+      "quantity": "¼ medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 133,
@@ -84,19 +87,22 @@
     },
     {
       "ingredient_id": 260,
-      "name": "very ripe tomatoes, cored and cut into 1-inch chunks",
+      "name": "very ripe tomatoes",
       "quantity": "7",
-      "weigh_as": "0.9 kg"
+      "weigh_as": "0.9 kg",
+      "prep": "cored and cut into 1-inch chunks"
     },
     {
       "ingredient_id": 155,
-      "name": "English cucumber, peeled and cut into 1-inch chunks",
-      "quantity": "½ large"
+      "name": "English cucumber",
+      "quantity": "½ large",
+      "prep": "peeled and cut into 1-inch chunks"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, peeled and cut into 1-inch chunks",
-      "quantity": "1 small"
+      "name": "red onion",
+      "quantity": "1 small",
+      "prep": "peeled and cut into 1-inch chunks"
     },
     {
       "ingredient_id": 150,
@@ -105,8 +111,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and smashed",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "peeled and smashed"
     },
     {
       "ingredient_id": 88,
@@ -155,6 +162,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shell and devein the shrimp. Thinly slice the yellow onion. Thinly slice the garlic. Core and cut the very ripe tomatoes into 1-inch chunks. Peel and cut the English cucumber into 1-inch chunks. Peel and cut the red onion into 1-inch chunks. Peel and smash the garlic.",
+      "secondary_message": "0.45 kg shrimp, medium\n¼ medium yellow onion\n3 cloves garlic\n7 very ripe tomatoes\n½ large English cucumber\n1 small red onion\n2 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "To Make the Pickled Shrimp: Bring a medium pot of water to a boil. Add shrimp and cook for 1 minute 30 seconds. Drain and shock in a large bowl of ice water. Drain and set aside.",

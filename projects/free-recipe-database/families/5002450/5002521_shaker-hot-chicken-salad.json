@@ -103,13 +103,15 @@
     },
     {
       "ingredient_id": 157,
-      "name": "celery, diced",
-      "quantity": "2 stalks"
+      "name": "celery",
+      "quantity": "2 stalks",
+      "prep": "diced"
     },
     {
       "ingredient_id": 327,
-      "name": "pecans, toasted and chopped",
-      "quantity": "½ cup"
+      "name": "pecans",
+      "quantity": "½ cup",
+      "prep": "toasted and chopped"
     },
     {
       "ingredient_id": 1260,
@@ -118,6 +120,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the celery. Toast and chop the pecans.",
+      "secondary_message": "2 stalks celery\n½ cup pecans"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 175°C (350°F). Lightly grease a 2–quart baking dish, such as an 8x8 pan.",

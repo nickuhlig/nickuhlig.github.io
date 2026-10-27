@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "8 medium cloves"
+      "name": "garlic",
+      "quantity": "8 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 277,
@@ -66,11 +67,18 @@
     },
     {
       "ingredient_id": 1746,
-      "name": "basil leaves, torn",
-      "quantity": "15 to 20"
+      "name": "basil leaves",
+      "quantity": "15 to 20",
+      "prep": "torn"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the garlic. Tear the basil leaves.",
+      "secondary_message": "8 medium cloves garlic\n15 to 20 basil leaves"
+    },
     {
       "id": 1,
       "primary_message": "In a pot of salted boiling water, cook pasta until very tender throughout, 2 to 3 minutes longer than al dente stage according to package. Drain in a colander, then chill under cold running water. Let drain well, then drizzle lightly with olive oil and toss to coat. Set aside.",

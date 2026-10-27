@@ -42,8 +42,9 @@
   "ingredients": [
     {
       "ingredient_id": 473,
-      "name": "beef flank steak, sliced across the grain 1/8 inch thick",
-      "quantity": "0.34 kg"
+      "name": "beef flank steak",
+      "quantity": "0.34 kg",
+      "prep": "sliced across the grain 1/8 inch thick"
     },
     {
       "ingredient_id": 53,
@@ -117,16 +118,24 @@
     },
     {
       "ingredient_id": 144,
-      "name": "whole shallots, sliced",
-      "quantity": "2"
+      "name": "whole shallots",
+      "quantity": "2",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, chopped very coarsely",
-      "quantity": "8 cloves"
+      "name": "garlic",
+      "quantity": "8 cloves",
+      "prep": "chopped very coarsely"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the beef flank steak across the grain 1/8 inch thick. Slice the whole shallots. Chop the garlic very coarsely.",
+      "secondary_message": "0.34 kg beef flank steak\n2 whole shallots\n8 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Beef and Marinade: In a medium bowl, combine beef with all marinade ingredients. Mix well and let stand 30 minutes.",

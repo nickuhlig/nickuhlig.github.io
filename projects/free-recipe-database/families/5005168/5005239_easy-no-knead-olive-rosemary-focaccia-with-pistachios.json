@@ -68,8 +68,9 @@
     },
     {
       "ingredient_id": 1600,
-      "name": "pitted green olives, sliced",
-      "quantity": "113 g"
+      "name": "pitted green olives",
+      "quantity": "113 g",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 2365,
@@ -78,8 +79,9 @@
     },
     {
       "ingredient_id": 286,
-      "name": "fresh rosemary leaves, very roughly chopped",
-      "quantity": "2 tbsp"
+      "name": "fresh rosemary leaves",
+      "quantity": "2 tbsp",
+      "prep": "very roughly chopped"
     },
     {
       "ingredient_id": 88,
@@ -88,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the pitted green olives. Very roughly chop the fresh rosemary leaves.",
+      "secondary_message": "113 g pitted green olives\n2 tbsp fresh rosemary leaves"
+    },
     {
       "id": 1,
       "primary_message": "Combine flour, salt, yeast, and water in a large bowl. Mix with hands or a wooden spoon until no dry flour remains. The bowl should be at least 4 to 6 times the volume of the dough to account for rising.",

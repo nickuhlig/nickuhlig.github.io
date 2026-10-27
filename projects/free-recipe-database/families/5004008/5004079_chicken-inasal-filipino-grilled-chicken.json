@@ -73,13 +73,15 @@
     },
     {
       "ingredient_id": 221,
-      "name": "peeled fresh ginger, grated",
-      "quantity": "1 (5 cm) knob"
+      "name": "peeled fresh ginger",
+      "quantity": "1 (5 cm) knob",
+      "prep": "grated"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "8 medium"
+      "name": "garlic cloves",
+      "quantity": "8 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 88,
@@ -128,6 +130,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the peeled fresh ginger. Mince the garlic cloves.",
+      "secondary_message": "1 (5 cm) knob peeled fresh ginger\n8 medium garlic cloves"
+    },
     {
       "id": 1,
       "primary_message": "For the Marinated Chicken: In a large mixing bowl, whisk together coconut vinegar, lemon or calamansi juice, Maggi seasoning, muscovado sugar, lemon-lime soda, lemongrass, ginger, garlic, salt, and black pepper until sugar and salt are completely dissolved, about 1 minute. Set aside.",

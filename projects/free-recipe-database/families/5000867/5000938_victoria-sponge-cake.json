@@ -93,8 +93,9 @@
   "ingredients": [
     {
       "ingredient_id": 121,
-      "name": "eggs, room temperature",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 346,
@@ -173,6 +174,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the eggs to room temperature.",
+      "secondary_message": "4 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Adjust rack to middle position and preheat oven to 350ºF (175ºC). Butter two 23-cm aluminum cake pans with unsalted butter, then dust with cake flour, shaking out excess.",

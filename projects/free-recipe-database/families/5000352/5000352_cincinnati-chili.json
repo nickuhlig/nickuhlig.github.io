@@ -38,13 +38,15 @@
     },
     {
       "ingredient_id": 1676,
-      "name": "sweet onions, finely minced",
-      "quantity": "2 medium"
+      "name": "sweet onions",
+      "quantity": "2 medium",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced or grated",
-      "quantity": "6 cloves"
+      "name": "garlic",
+      "quantity": "6 cloves",
+      "prep": "finely minced or grated"
     },
     {
       "ingredient_id": 323,
@@ -158,6 +160,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the sweet onions. Finely mince or grate the garlic.",
+      "secondary_message": "2 medium sweet onions\n6 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Chili: In a large Dutch oven, combine 1 quart cold water with the beef. Using a stiff whisk or potato masher, stir vigorously until beef is broken up and a thick slurry forms, about 2 minutes. Add 1 more quart water along with the onions, garlic, tomato paste, vinegar, Worcestershire sauce, bay leaves, salt, yeast, chili powder, paprika, allspice, cayenne, cinnamon, cumin, oregano, white pepper, cloves, and ground ginger and mix well.",

@@ -31,8 +31,9 @@
   "ingredients": [
     {
       "ingredient_id": 1897,
-      "name": "fingerling potatoes, scrubbed clean",
-      "quantity": "0.68 kg"
+      "name": "fingerling potatoes",
+      "quantity": "0.68 kg",
+      "prep": "scrubbed clean"
     },
     {
       "ingredient_id": 88,
@@ -51,6 +52,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Scrub the fingerling potatoes clean.",
+      "secondary_message": "0.68 kg fingerling potatoes"
+    },
     {
       "id": 1,
       "primary_message": "Cover potatoes with cold water in a saucepan. Add about 2 tablespoons kosher salt to taste. Bring to a boil over high heat. Reduce to a simmer and cook until potatoes are completely tender, about 10 minutes. Drain and allow to cool five minutes.",

@@ -87,8 +87,9 @@
     },
     {
       "ingredient_id": 1082,
-      "name": "cinnamon stick, broken into small pieces",
-      "quantity": "1"
+      "name": "cinnamon stick",
+      "quantity": "1",
+      "prep": "broken into small pieces"
     },
     {
       "ingredient_id": 1756,
@@ -127,6 +128,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Break the cinnamon stick into small pieces.",
+      "secondary_message": "1 cinnamon stick"
+    },
     {
       "id": 1,
       "primary_message": "With a sharp knife, gently score duck breast skin in a crosshatch pattern, with scores 1/4 inch apart. Be careful not to cut into the flesh.",

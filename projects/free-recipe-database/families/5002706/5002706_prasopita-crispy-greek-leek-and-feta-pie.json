@@ -113,8 +113,9 @@
     },
     {
       "ingredient_id": 32,
-      "name": "sheep’s-milk feta cheese, crumbled",
-      "quantity": "7 oz"
+      "name": "sheep’s-milk feta cheese",
+      "quantity": "7 oz",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 47,
@@ -123,6 +124,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Crumble the sheep’s-milk feta cheese.",
+      "secondary_message": "7 oz sheep’s-milk feta cheese"
+    },
     {
       "id": 1,
       "primary_message": "For the Phyllo Dough: In a large bowl, whisk together bread flour, whole wheat flour, and salt. Add vinegar, 3 tablespoons olive oil, and water, and mix by hand until a rough dough forms and no dry flour remains.",

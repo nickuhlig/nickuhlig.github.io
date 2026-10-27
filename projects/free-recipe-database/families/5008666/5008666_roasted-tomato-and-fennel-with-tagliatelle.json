@@ -40,18 +40,21 @@
     },
     {
       "ingredient_id": 2088,
-      "name": "fresh red chile, thinly sliced",
-      "quantity": "½"
+      "name": "fresh red chile",
+      "quantity": "½",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 470,
-      "name": "fennel bulb, thinly sliced",
-      "quantity": "1"
+      "name": "fennel bulb",
+      "quantity": "1",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced or chopped",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "thinly sliced or chopped"
     },
     {
       "ingredient_id": 243,
@@ -80,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the fresh red chile. Thinly slice the fennel bulb. Thinly slice or chop the garlic.",
+      "secondary_message": "½ fresh red chile\n1 fennel bulb\n3 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 350°F. In a large bowl, toss the tomatoes, chili, fennel, garlic, and half of mint with olive oil and season with salt and pepper. Transfer to a rimmed baking sheet. Cover tightly with foil, and roast for 30 minutes. Remove foil, increase heat to 400°F, and continue roasting until lightly browned, about 15 minutes longer.",

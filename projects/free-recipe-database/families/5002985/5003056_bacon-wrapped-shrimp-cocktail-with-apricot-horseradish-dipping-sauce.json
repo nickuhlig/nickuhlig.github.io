@@ -37,8 +37,9 @@
   "ingredients": [
     {
       "ingredient_id": 302,
-      "name": "bacon, cut in half",
-      "quantity": "12 strips"
+      "name": "bacon",
+      "quantity": "12 strips",
+      "prep": "cut in half"
     },
     {
       "ingredient_id": 1811,
@@ -72,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the bacon in half.",
+      "secondary_message": "12 strips bacon"
+    },
     {
       "id": 1,
       "primary_message": "Place bacon on paper towel and microwave until fat begins to render but bacon is still soft, about 40 seconds, then allow to cool completely. Wrap a halved piece of bacon around each shrimp and secure with a toothpick, reserve.",

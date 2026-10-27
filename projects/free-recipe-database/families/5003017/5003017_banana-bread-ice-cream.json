@@ -36,9 +36,10 @@
   "ingredients": [
     {
       "ingredient_id": 317,
-      "name": "very ripe bananas, sliced into coins",
+      "name": "very ripe bananas",
       "quantity": "4",
-      "weigh_as": "1 lb"
+      "weigh_as": "1 lb",
+      "prep": "sliced into coins"
     },
     {
       "ingredient_id": 2198,
@@ -87,6 +88,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the very ripe bananas into coins.",
+      "secondary_message": "4 very ripe bananas"
+    },
     {
       "id": 1,
       "primary_message": "Heat oven to 350°F. Toss banana slices with salt and sugar in a baking dish. Bake for 25 to 30 minutes, until sugar bubbles in a thick syrup and bananas are very aromatic.",

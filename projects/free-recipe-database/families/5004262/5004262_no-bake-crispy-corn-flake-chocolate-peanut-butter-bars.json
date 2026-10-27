@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 1992,
-      "name": "corn flakes, lightly crushed",
-      "quantity": "4 cups"
+      "name": "corn flakes",
+      "quantity": "4 cups",
+      "prep": "lightly crushed"
     },
     {
       "ingredient_id": 1420,
@@ -81,11 +82,18 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "4 oz"
+      "name": "bittersweet chocolate",
+      "quantity": "4 oz",
+      "prep": "finely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly crush the corn flakes. Finely chop the bittersweet chocolate.",
+      "secondary_message": "4 cups corn flakes\n4 oz bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "Line an 8- by 8-inch baking pan with foil (see notes). In a medium saucepan over medium heat, melt butter. Add peanut butter, corn syrup, brown sugar, and salt and continue to cook, stirring, until melted and smooth.",

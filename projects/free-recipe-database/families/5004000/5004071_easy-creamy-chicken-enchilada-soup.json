@@ -53,13 +53,15 @@
   "ingredients": [
     {
       "ingredient_id": 2885,
-      "name": "whole dried guajillo chiles, stems and seeds removed",
-      "quantity": "2"
+      "name": "whole dried guajillo chiles",
+      "quantity": "2",
+      "prep": "stems and seeds removed"
     },
     {
       "ingredient_id": 2541,
-      "name": "whole dried ancho chiles, stems and seeds removed",
-      "quantity": "2"
+      "name": "whole dried ancho chiles",
+      "quantity": "2",
+      "prep": "stems and seeds removed"
     },
     {
       "ingredient_id": 1505,
@@ -88,8 +90,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely diced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 88,
@@ -103,14 +106,16 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 303,
-      "name": "corn, kernels removed",
+      "name": "corn",
       "quantity": "1 ¼ cups",
-      "weigh_as": "204 g"
+      "weigh_as": "204 g",
+      "prep": "kernels removed"
     },
     {
       "ingredient_id": 97,
@@ -124,8 +129,9 @@
     },
     {
       "ingredient_id": 185,
-      "name": "black beans, drained and rinsed",
-      "quantity": "1 (400 g) can"
+      "name": "black beans",
+      "quantity": "1 (400 g) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 1156,
@@ -139,11 +145,18 @@
     },
     {
       "ingredient_id": 188,
-      "name": "picked fresh cilantro leaves, chopped",
-      "quantity": "½ cup"
+      "name": "picked fresh cilantro leaves",
+      "quantity": "½ cup",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the stems and seeds from the whole dried guajillo chiles. Remove the stems and seeds from the whole dried ancho chiles. Finely dice the yellow onion. Mince the garlic. Remove the kernels from the corn. Drain and rinse the black beans. Chop the picked fresh cilantro leaves.",
+      "secondary_message": "2 whole dried guajillo chiles\n2 whole dried ancho chiles\n1 medium yellow onion\n3 medium cloves garlic\n1 ¼ cups corn\n1 (400 g) can black beans\n½ cup picked fresh cilantro leaves"
+    },
     {
       "id": 1,
       "primary_message": "Place guajillo and ancho chiles on a microwave-safe plate and microwave on high at 15-second intervals until hot, pliable, and toasted-smelling, about 30 seconds total. Combine chicken stock, split chicken breast, and toasted chiles in a large saucepan or pot. Bring to a boil, reduce to lowest heat setting, cover, and cook until chicken breast is cooked through (an instant-read thermometer inserted into the center of the breast should register 155 to 71°C, or 68 to 71°C) and chiles are tender, about 15 minutes.",

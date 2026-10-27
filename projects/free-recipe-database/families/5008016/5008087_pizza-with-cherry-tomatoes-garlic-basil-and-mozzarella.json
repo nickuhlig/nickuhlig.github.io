@@ -62,18 +62,21 @@
     },
     {
       "ingredient_id": 107,
-      "name": "fresh mozzarella, torn into rough chunks and drained",
-      "quantity": "0.45 kg"
+      "name": "fresh mozzarella",
+      "quantity": "0.45 kg",
+      "prep": "torn into rough chunks and drained"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "8 medium cloves"
+      "name": "garlic",
+      "quantity": "8 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, split in half",
-      "quantity": "946 ml"
+      "name": "cherry tomatoes",
+      "quantity": "946 ml",
+      "prep": "split in half"
     },
     {
       "ingredient_id": 120,
@@ -92,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Tear the fresh mozzarella into rough chunks, then drain it. Thinly slice the garlic. Split the cherry tomatoes in half.",
+      "secondary_message": "0.45 kg fresh mozzarella\n8 medium cloves garlic\n946 ml cherry tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "Divide dough into 4 even parts and place each in a covered quart-sized deli container or in a zipper-lock freezer bag. Allow to rest at room temperature for at least 2 hours before baking. Transfer tomatoes to a medium bowl and roughly crush by hand. Season to taste with salt and set aside.",

@@ -81,9 +81,10 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled",
+      "name": "carrots",
       "quantity": "7 medium",
-      "weigh_as": "0.46 kg"
+      "weigh_as": "0.46 kg",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 2365,
@@ -92,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the carrots.",
+      "secondary_message": "7 medium carrots"
+    },
     {
       "id": 1,
       "primary_message": "On the large holes of a box grater, shred carrots. Alternatively, carrots can be shredded with disk attachment of a food processor. You should have about 3 1/2 cups shredded carrots.",

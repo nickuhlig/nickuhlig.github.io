@@ -107,11 +107,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "1 tbsp"
+      "name": "unsalted butter",
+      "quantity": "1 tbsp",
+      "prep": "melted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter.",
+      "secondary_message": "1 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Batter: In a small saucepan, bring water, butter, salt, sugar, and cinnamon to a simmer over high heat.",

@@ -94,13 +94,15 @@
     },
     {
       "ingredient_id": 150,
-      "name": "whole red bell pepper, thinly sliced",
-      "quantity": "1"
+      "name": "whole red bell pepper",
+      "quantity": "1",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 343,
-      "name": "radishes, thinly sliced",
-      "quantity": "6 to 8 small"
+      "name": "radishes",
+      "quantity": "6 to 8 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 111,
@@ -114,6 +116,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the whole red bell pepper. Thinly slice the radishes.",
+      "secondary_message": "1 whole red bell pepper\n6 to 8 small radishes"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, whisk together lemon juice and mustard. Slowly drizzle in three tablespoons olive oil, whisking constantly. Season with salt and pepper. Add scallions, bell peppers, and radishes, and set aside. In a separate bowl, toss the green beans with the remaining tablespoon olive oil and season with salt and pepper.",

@@ -69,8 +69,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, room temperature",
-      "quantity": "4 oz"
+      "name": "unsalted butter",
+      "quantity": "4 oz",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 346,
@@ -79,6 +80,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature.",
+      "secondary_message": "4 oz unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Sift the flour, salt, tea leaves, cardamom, ginger, nutmeg, cinnamon, and black pepper into a medium bowl.",

@@ -58,8 +58,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1810,
@@ -83,6 +84,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the garlic.",
+      "secondary_message": "4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Combine coriander seeds, cumin, black pepper, and cardamom seeds (if using) in a mortar and pestle and grind into a powder using a firm, circular motion. Add garlic, chiles, and salt and pound into a rough paste. Add cilantro and parsley one small handful at a time and continue pounding into a rough paste. (By the time you're done, there should be no pieces of chiles or herbs larger than 0.5 cm remaining.) Pounding constantly, slowly drizzle in olive oil to form an emulsion. Season to taste with more salt. Zhug can be served immediately or stored in an airtight container in the refrigerator for several weeks.",

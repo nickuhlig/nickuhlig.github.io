@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 242,
-      "name": "strawberries, hulled and quartered",
-      "quantity": "1 ¼ lb"
+      "name": "strawberries",
+      "quantity": "1 ¼ lb",
+      "prep": "hulled and quartered"
     },
     {
       "ingredient_id": 293,
@@ -75,11 +76,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted, plus extra for greasing dish",
-      "quantity": "2 tbsp (1 oz)"
+      "name": "unsalted butter, plus extra for greasing dish",
+      "quantity": "2 tbsp (1 oz)",
+      "prep": "melted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Hull and quarter the strawberries. Melt the unsalted butter.",
+      "secondary_message": "1 ¼ lb strawberries\n2 tbsp (1 oz) unsalted butter, plus extra for greasing dish"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350°F. Lightly grease shallow 2-quart baking dish. Scatter oats, almonds, and strawberries into baking dish.",

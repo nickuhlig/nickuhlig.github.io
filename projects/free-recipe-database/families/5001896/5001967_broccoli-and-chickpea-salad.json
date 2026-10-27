@@ -41,13 +41,15 @@
   "ingredients": [
     {
       "ingredient_id": 144,
-      "name": "shallot, thinly sliced",
-      "quantity": "1 large"
+      "name": "shallot",
+      "quantity": "1 large",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1373,
-      "name": "pickled jalapeño slices, chopped",
-      "quantity": "½ cup"
+      "name": "pickled jalapeño slices",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2934,
@@ -66,8 +68,9 @@
     },
     {
       "ingredient_id": 428,
-      "name": "broccoli florets, cut into 2-inch pieces",
-      "quantity": "0.68 kg"
+      "name": "broccoli florets",
+      "quantity": "0.68 kg",
+      "prep": "cut into 2-inch pieces"
     },
     {
       "ingredient_id": 88,
@@ -81,11 +84,18 @@
     },
     {
       "ingredient_id": 92,
-      "name": "chickpeas, drained and rinsed",
-      "quantity": "2 (425 g) cans"
+      "name": "chickpeas",
+      "quantity": "2 (425 g) cans",
+      "prep": "drained and rinsed"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the shallot. Chop the pickled jalapeño slices. Cut the broccoli florets into 2-inch pieces. Drain and rinse the chickpeas.",
+      "secondary_message": "1 large shallot\n½ cup pickled jalapeño slices\n0.68 kg broccoli florets\n2 (425 g) cans chickpeas"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, add shallot and reserved jalapeño brine and let sit for 10 minutes. Add half of avocado pieces and 3 tablespoons oil and use a fork or potato masher to mash until smooth and combined; set dressing aside.",

@@ -99,8 +99,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, lightly beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 1003,
@@ -109,8 +110,9 @@
     },
     {
       "ingredient_id": 359,
-      "name": "water, room temperature",
-      "quantity": "⅓ cup"
+      "name": "water",
+      "quantity": "⅓ cup",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 88,
@@ -119,11 +121,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened and cut into 4 pieces",
-      "quantity": "1 oz"
+      "name": "unsalted butter",
+      "quantity": "1 oz",
+      "prep": "softened and cut into 4 pieces"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly beat the egg. Bring the water to room temperature. Cut the unsalted butter into 4 pieces and soften it.",
+      "secondary_message": "1 large egg\n⅓ cup water\n1 oz unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Filling: Line a fine-mesh strainer with 4 layers of cheesecloth and set in a large mixing bowl. Place cottage cheese on cheesecloth and fold over and cover with overhanging cheesecloth. Place a heavy weight, such as a 28-ounce can tomatoes, on top. Refrigerate until cheese is slightly crumbly and no moisture remains, at least 24 hours or up to 48 hours.",

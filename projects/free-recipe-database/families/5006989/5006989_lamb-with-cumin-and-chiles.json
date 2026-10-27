@@ -44,13 +44,15 @@
     },
     {
       "ingredient_id": 1271,
-      "name": "cumin seeds, toasted till fragrant, divided",
-      "quantity": "4 tbsp"
+      "name": "cumin seeds, divided",
+      "quantity": "4 tbsp",
+      "prep": "toasted till fragrant"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, roughly chopped",
-      "quantity": "3 cloves"
+      "name": "garlic",
+      "quantity": "3 cloves",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 53,
@@ -64,21 +66,30 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, cut into short, thin slices",
-      "quantity": "1 small"
+      "name": "onion, thin slices",
+      "quantity": "1 small",
+      "prep": "cut into short"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, thinly sliced",
-      "quantity": "3"
+      "name": "scallions",
+      "quantity": "3",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeños, stemmed, seeded, and chopped",
-      "quantity": "2"
+      "name": "jalapeños",
+      "quantity": "2",
+      "prep": "stemmed, seeded, and chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Toast the cumin seeds till fragrant. Roughly chop the garlic. Cut the onion into short. Thinly slice the scallions. Stem, seed, and chop the jalapeños.",
+      "secondary_message": "4 tbsp cumin seeds, divided\n3 cloves garlic\n1 small onion, thin slices\n3 scallions\n2 jalapeños"
+    },
     {
       "id": 1,
       "primary_message": "Combine lamb, 1 tablespoon of oil, 3 tablespoons of the cumin seeds, garlic, soy sauce, and rice wine in a bowl. Let the lamb marinate while you prep your other ingredients, or up to half an hour.",

@@ -77,8 +77,9 @@
     },
     {
       "ingredient_id": 2365,
-      "name": "freshly toasted pistachios, chilled in freezer",
-      "quantity": "½ cup (2 oz)"
+      "name": "freshly toasted pistachios",
+      "quantity": "½ cup (2 oz)",
+      "prep": "chilled in freezer"
     },
     {
       "ingredient_id": 1708,
@@ -87,6 +88,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chill the freshly toasted pistachios in freezer.",
+      "secondary_message": "½ cup (2 oz) freshly toasted pistachios"
+    },
     {
       "id": 1,
       "primary_message": "Grind freshly toasted sesame seeds in blender on medium speed for 10 seconds, until they are mostly pulverized. Pour in about 1/2 cup milk and blend for another 10 seconds until a fine paste forms. Add remaining milk and cream and blend on high for 30 seconds, until well combined.",

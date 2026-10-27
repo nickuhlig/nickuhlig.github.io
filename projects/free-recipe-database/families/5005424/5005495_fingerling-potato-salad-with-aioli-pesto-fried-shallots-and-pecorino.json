@@ -75,13 +75,15 @@
     },
     {
       "ingredient_id": 1746,
-      "name": "packed fresh basil leaves, rinsed and dried",
-      "quantity": "1 cup"
+      "name": "packed fresh basil leaves",
+      "quantity": "1 cup",
+      "prep": "rinsed and dried"
     },
     {
       "ingredient_id": 216,
-      "name": "pine nuts, toasted",
-      "quantity": "⅛ cup"
+      "name": "pine nuts",
+      "quantity": "⅛ cup",
+      "prep": "toasted"
     },
     {
       "ingredient_id": 24,
@@ -135,6 +137,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse and dry the packed fresh basil leaves. Toast the pine nuts.",
+      "secondary_message": "1 cup packed fresh basil leaves\n⅛ cup pine nuts"
+    },
     {
       "id": 1,
       "primary_message": "For the Aioli: Process egg yolk, lemon juice, garlic, mustard, and salt in a food processor fitted with a steel blade until well blended, about 5 seconds. With processor running, drizzle in oil in a slow, steady stream, stopping to scrape down sides as necessary. Transfer aioli to container and refrigerate until ready to use.",

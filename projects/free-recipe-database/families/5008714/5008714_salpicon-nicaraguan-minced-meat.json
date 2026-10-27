@@ -58,8 +58,9 @@
   "ingredients": [
     {
       "ingredient_id": 2003,
-      "name": "beef round, cut into 1 1/2 inch cubes",
-      "quantity": "2 lb"
+      "name": "beef round",
+      "quantity": "2 lb",
+      "prep": "cut into 1 1/2 inch cubes"
     },
     {
       "ingredient_id": 291,
@@ -83,16 +84,24 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, peeled and smashed",
-      "quantity": "4 medium"
+      "name": "garlic cloves",
+      "quantity": "4 medium",
+      "prep": "peeled and smashed"
     },
     {
       "ingredient_id": 228,
-      "name": "lime, halved",
-      "quantity": "1"
+      "name": "lime",
+      "quantity": "1",
+      "prep": "halved"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the beef round into 1 1/2 inch cubes. Peel and smash the garlic cloves. Halve the lime.",
+      "secondary_message": "2 lb beef round\n4 medium garlic cloves\n1 lime"
+    },
     {
       "id": 1,
       "primary_message": "In a large pot, combine beef, half of the bell pepper, half of the onion, salt, peppercorns, and garlic. Add enough cold water to cover ingredients by 2 inches. Bring mixture to boil over medium-high heat, then immediately reduce heat to medium-low, and simmer until beef is cooked through, about 15 minutes.",

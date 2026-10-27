@@ -42,8 +42,9 @@
   "ingredients": [
     {
       "ingredient_id": 2414,
-      "name": "beef chuck, cut into 1/2-inch cubes",
-      "quantity": "1 lb"
+      "name": "beef chuck",
+      "quantity": "1 lb",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 1451,
@@ -112,8 +113,9 @@
     },
     {
       "ingredient_id": 302,
-      "name": "bacon, cut into 1-inch pieces",
-      "quantity": "½ lb"
+      "name": "bacon",
+      "quantity": "½ lb",
+      "prep": "cut into 1-inch pieces"
     },
     {
       "ingredient_id": 2397,
@@ -127,6 +129,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the beef chuck into 1/2-inch cubes. Cut the bacon into 1-inch pieces.",
+      "secondary_message": "1 lb beef chuck\n½ lb bacon"
+    },
     {
       "id": 1,
       "primary_message": "Combine meat, ginger paste, garlic paste, pepper, vinegar, and 2 teaspoons salt.",

@@ -134,8 +134,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, straight from the fridge",
-      "quantity": "6 large"
+      "name": "eggs",
+      "quantity": "6 large",
+      "prep": "straight from the fridge"
     },
     {
       "ingredient_id": 116,
@@ -154,6 +155,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the eggs cold until you use them.",
+      "secondary_message": "6 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Getting Ready: To better synchronize the downtime in both recipes, prepare the cream cheese buttercream before the cake. Adjust oven rack to the middle position and preheat to 350°F. Toast the pecans on a baking sheet until golden brown, about 10 minutes, and cool completely. Meanwhile, peel, trim, and shred the carrots, then measure out 24 ounces (6 cups, firmly packed). This can be refrigerated up to 1 week in a zip-top bag.",

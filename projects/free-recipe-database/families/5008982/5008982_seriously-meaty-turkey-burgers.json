@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 325,
-      "name": "anchovy filet, mashed to a paste",
-      "quantity": "1"
+      "name": "anchovy filet",
+      "quantity": "1",
+      "prep": "mashed to a paste"
     },
     {
       "ingredient_id": 1771,
@@ -71,11 +72,18 @@
     },
     {
       "ingredient_id": 2863,
-      "name": "boneless skinless turkey thighs, cut into 1-inch cubes",
-      "quantity": "1 lb"
+      "name": "boneless skinless turkey thighs",
+      "quantity": "1 lb",
+      "prep": "cut into 1-inch cubes"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mash the anchovy filet to a paste. Cut the boneless skinless turkey thighs into 1-inch cubes.",
+      "secondary_message": "1 anchovy filet\n1 lb boneless skinless turkey thighs"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 400°F and set rack to upper-middle position. Rub eggplant with olive oil until coated. Season with salt and pepper. Wrap with aluminum foil and set on rimmed baking sheet. Roast until completely tender, turning once, about 30 minutes. Allow to cool slightly, remove from foil, and scrape flesh away from skin. Chop flesh until fine purée is formed. There should be about 4-6 ounces of purée.",

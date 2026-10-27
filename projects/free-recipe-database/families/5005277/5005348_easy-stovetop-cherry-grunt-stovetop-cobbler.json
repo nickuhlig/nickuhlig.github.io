@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into cubes",
-      "quantity": "3 tbsp (1 ½ oz)"
+      "name": "cold unsalted butter",
+      "quantity": "3 tbsp (1 ½ oz)",
+      "prep": "cut into cubes"
     },
     {
       "ingredient_id": 118,
@@ -96,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cold unsalted butter into cubes.",
+      "secondary_message": "3 tbsp (1 ½ oz) cold unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Dumplings: Combine the flour, sugar, baking powder, and salt in a bowl. Rub the butter cubes into the flour mixture with fingertips until no visible pieces of butter remain but flour mixture is still fluffy and dry. Stir in milk and vanilla until mixture is just moistened. Do not overmix. Set aside.",

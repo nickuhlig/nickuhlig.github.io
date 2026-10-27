@@ -49,8 +49,9 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, thinly sliced",
-      "quantity": "1 small"
+      "name": "red onion",
+      "quantity": "1 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1579,
@@ -69,8 +70,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated on a microplane grater",
-      "quantity": "1 clove"
+      "name": "garlic",
+      "quantity": "1 clove",
+      "prep": "grated on a microplane grater"
     },
     {
       "ingredient_id": 117,
@@ -79,8 +81,9 @@
     },
     {
       "ingredient_id": 92,
-      "name": "chickpeas beans, drained and rinsed",
-      "quantity": "1 (14 oz) can"
+      "name": "chickpeas beans",
+      "quantity": "1 (14 oz) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 72,
@@ -89,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the red onion. Grate the garlic on a microplane grater. Drain and rinse the chickpeas beans.",
+      "secondary_message": "1 small red onion\n1 clove garlic\n1 (14 oz) can chickpeas beans"
+    },
     {
       "id": 1,
       "primary_message": "Combine kale leaves with olive oil and 1 teaspoon salt in a large bowl. Toss until evenly coated. Allow to rest at room temperature until kale is lightly wilted, about 1 hour.",

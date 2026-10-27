@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 2576,
-      "name": "ginger beer, thoroughly chilled",
-      "quantity": "0.68 kg"
+      "name": "ginger beer",
+      "quantity": "0.68 kg",
+      "prep": "thoroughly chilled"
     },
     {
       "ingredient_id": 2198,
@@ -71,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chill the thoroughly of the ginger beer.",
+      "secondary_message": "0.68 kg ginger beer"
+    },
     {
       "id": 1,
       "primary_message": "In large bowl whisk together ginger beer and sugar till foam subsides and sugar is completely dissolved, about 3 minutes. Whisk in coconut milk, salt, and ginger.",

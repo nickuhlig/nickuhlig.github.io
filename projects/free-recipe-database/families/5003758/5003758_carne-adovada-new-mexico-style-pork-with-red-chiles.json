@@ -46,13 +46,15 @@
   "ingredients": [
     {
       "ingredient_id": 2541,
-      "name": "whole dried ancho chiles, seeds and stems removed",
-      "quantity": "4"
+      "name": "whole dried ancho chiles",
+      "quantity": "4",
+      "prep": "seeds and stems removed"
     },
     {
       "ingredient_id": 2587,
-      "name": "whole dried pasilla chiles, seeds and stems removed",
-      "quantity": "4"
+      "name": "whole dried pasilla chiles",
+      "quantity": "4",
+      "prep": "seeds and stems removed"
     },
     {
       "ingredient_id": 1505,
@@ -86,8 +88,9 @@
     },
     {
       "ingredient_id": 2164,
-      "name": "boneless pork shoulder, trimmed and cut into 2-inch thick cubes",
-      "quantity": "3 lb"
+      "name": "boneless pork shoulder",
+      "quantity": "3 lb",
+      "prep": "trimmed and cut into 2-inch thick cubes"
     },
     {
       "ingredient_id": 1044,
@@ -96,13 +99,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, thinly sliced",
-      "quantity": "2 medium"
+      "name": "onions",
+      "quantity": "2 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "6 medium cloves"
+      "name": "garlic",
+      "quantity": "6 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 82,
@@ -126,6 +131,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the seeds and stems from the whole dried ancho chiles. Remove the seeds and stems from the whole dried pasilla chiles. Trim and cut the boneless pork shoulder into 2-inch thick cubes. Thinly slice the onions. Mince the garlic.",
+      "secondary_message": "4 whole dried ancho chiles\n4 whole dried pasilla chiles\n3 lb boneless pork shoulder\n2 medium onions\n6 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Add dried chiles to large heavy-bottomed Dutch oven or stock pot and cook over medium-high heat, stirring frequently, until slightly darkened with intense, roasted aroma, 2 to 5 minutes. Do not allow to smoke. Add chicken stock, raisins, orange juice concentrate, chipotles in adobo, white vinegar, and fish sauce. Bring to a boil over high heat, reduce to a bare simmer, and let cook until chiles are totally softened, about 15 minutes. Blend into a smooth puree using an immersion blender or by transferring to a countertop blender. Set aside.",

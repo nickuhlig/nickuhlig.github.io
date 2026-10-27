@@ -73,13 +73,15 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, lightly beaten",
-      "quantity": "4"
+      "name": "eggs",
+      "quantity": "4",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted and cooled",
-      "quantity": "16 tbsp"
+      "name": "unsalted butter",
+      "quantity": "16 tbsp",
+      "prep": "melted and cooled"
     },
     {
       "ingredient_id": 353,
@@ -93,8 +95,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, diced",
-      "quantity": "10 tbsp"
+      "name": "cold unsalted butter",
+      "quantity": "10 tbsp",
+      "prep": "diced"
     },
     {
       "ingredient_id": 293,
@@ -108,6 +111,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly beat the eggs. Melt the unsalted butter and let it cool. Dice the cold unsalted butter.",
+      "secondary_message": "4 eggs\n16 tbsp unsalted butter\n10 tbsp cold unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Muffins: Adjust oven rack to center position and preheat oven to 375°F. Butter muffin tins or line with paper holders. In a small bowl, combine rhubarb and sugar. Let stand 20 minutes.",

@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 224,
-      "name": "seedless grapes, preferably mixed colors, stemmed",
-      "quantity": "3 large bunches"
+      "name": "seedless grapes, preferably mixed colors",
+      "quantity": "3 large bunches",
+      "prep": "stemmed"
     },
     {
       "ingredient_id": 1044,
@@ -50,6 +51,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem the seedless grapes.",
+      "secondary_message": "3 large bunches seedless grapes, preferably mixed colors"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 225°F. Very lightly grease 2 rimmed baking sheets with oil, then scatter grapes all over. Bake, checking periodically for doneness, until grapes are nicely shriveled and semi-dried but still slightly plump, about 4 hours (see note). (The exact time will depend on your grapes, your oven, and your preferred degree of dryness.) Let cool. Use a thin metal spatula to free any grapes that are stuck to the baking sheet.",

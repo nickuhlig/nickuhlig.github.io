@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 2163,
-      "name": "whole pork loin, trimmed of silverskin and excess fat",
-      "quantity": "1"
+      "name": "whole pork loin",
+      "quantity": "1",
+      "prep": "trimmed of silverskin and excess fat"
     },
     {
       "ingredient_id": 1784,
@@ -107,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the whole pork loin of silverskin and excess fat.",
+      "secondary_message": "1 whole pork loin"
+    },
     {
       "id": 1,
       "primary_message": "To make the brine: In a large bowl, whisk together water, salt, and sugar until solids are dissolved. Submerge pork loin in brine. Place in refrigerator and brine for 2 hours.",

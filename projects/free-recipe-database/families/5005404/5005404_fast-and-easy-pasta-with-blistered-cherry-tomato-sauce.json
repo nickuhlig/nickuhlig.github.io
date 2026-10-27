@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 47,
@@ -72,8 +73,9 @@
     },
     {
       "ingredient_id": 1746,
-      "name": "fresh basil leaves, roughly chopped",
-      "quantity": "1 oz"
+      "name": "fresh basil leaves",
+      "quantity": "1 oz",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 72,
@@ -82,6 +84,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the garlic. Roughly chop the fresh basil leaves.",
+      "secondary_message": "4 medium cloves garlic\n1 oz fresh basil leaves"
+    },
     {
       "id": 1,
       "primary_message": "Place pasta in a large skillet or sauté pan and cover with water and a big pinch of salt. Bring to a boil over high heat, stirring occasionally. Boil until just shy of al dente, about 1 minute less than the package instructions recommend.",

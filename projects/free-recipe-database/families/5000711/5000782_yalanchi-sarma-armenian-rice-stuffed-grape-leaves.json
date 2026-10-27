@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 88,
@@ -82,8 +83,9 @@
     },
     {
       "ingredient_id": 1176,
-      "name": "long-grain white rice, rinsed and drained",
-      "quantity": "1 cup"
+      "name": "long-grain white rice",
+      "quantity": "1 cup",
+      "prep": "rinsed and drained"
     },
     {
       "ingredient_id": 359,
@@ -97,8 +99,9 @@
     },
     {
       "ingredient_id": 106,
-      "name": "flat-leaf parsley, chopped",
-      "quantity": "2 tbsp"
+      "name": "flat-leaf parsley",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 216,
@@ -117,6 +120,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the onion. Rinse and drain the long-grain white rice. Chop the flat-leaf parsley.",
+      "secondary_message": "1 large onion\n1 cup long-grain white rice\n2 tbsp flat-leaf parsley"
+    },
     {
       "id": 1,
       "primary_message": "In a 8- to 10-quart Dutch oven, combine 3/4 cup olive oil, onions, salt, pepper, and baking soda. Cook over medium-high heat, stirring frequently, until pan begins to sizzle. Reduce heat to medium and cook, stirring often, until onions are fully softened and beginning to stick to bottom of pot, 6 to 8 minutes.",

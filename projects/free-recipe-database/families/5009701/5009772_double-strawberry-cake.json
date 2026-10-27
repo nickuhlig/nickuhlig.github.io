@@ -93,13 +93,15 @@
     },
     {
       "ingredient_id": 2219,
-      "name": "hulled strawberries, brought to about 70°F",
-      "quantity": "0.57 kg"
+      "name": "hulled strawberries",
+      "quantity": "0.57 kg",
+      "prep": "brought to about 70°F"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, soft but cool, about 65°F",
-      "quantity": "340 g"
+      "name": "unsalted butter",
+      "quantity": "340 g",
+      "prep": "soft but cool, about 65°F"
     },
     {
       "ingredient_id": 346,
@@ -138,6 +140,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the hulled strawberries to about 70°F. Let the unsalted butter soften slightly but keep it cool and bring it to 65°F.",
+      "secondary_message": "0.57 kg hulled strawberries\n340 g unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "To Prepare: Combine cake flour and freeze-dried strawberries in a food processor and grind to form a powdery, pale pink flour with no visible pieces of fruit. Purée fresh strawberries with an immersion blender, food processor, or countertop blender until perfectly smooth; bring to about 21°C before using.",

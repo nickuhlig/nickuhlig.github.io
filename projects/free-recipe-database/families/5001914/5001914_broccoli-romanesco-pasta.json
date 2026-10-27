@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "5 medium cloves"
+      "name": "garlic",
+      "quantity": "5 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1721,
@@ -70,6 +71,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the garlic.",
+      "secondary_message": "5 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "In a large pot of salted boiling water, cook romanesco until tender, about 6 minutes.",

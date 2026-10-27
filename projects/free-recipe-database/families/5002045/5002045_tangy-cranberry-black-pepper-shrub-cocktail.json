@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 1784,
-      "name": "whole black peppercorns, lightly crushed",
-      "quantity": "1 tbsp"
+      "name": "whole black peppercorns",
+      "quantity": "1 tbsp",
+      "prep": "lightly crushed"
     },
     {
       "ingredient_id": 133,
@@ -96,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly crush the whole black peppercorns.",
+      "secondary_message": "1 tbsp whole black peppercorns"
+    },
     {
       "id": 1,
       "primary_message": "For the Cranberry-Black Pepper Shrub: In a nonreactive saucepan, combine cranberries, peppercorns, apple cider vinegar, sugar, and water. Stir to combine. Cover and place over medium-high heat. Cook, opening the lid and stirring occasionally, until sugar dissolves and some of the cranberries begin popping open, about 10 minutes. Remove from heat, uncover, and allow to cool to room temperature, about 30 minutes. Pour entire mixture into an airtight, nonreactive container. Refrigerate at least 8 and up to 12 hours. Using a fine-mesh sieve, strain mixture into an airtight container, and refrigerate for up to 1 month.",

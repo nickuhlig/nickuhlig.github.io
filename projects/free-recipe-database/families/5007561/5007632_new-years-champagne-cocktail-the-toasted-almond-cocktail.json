@@ -56,11 +56,18 @@
     },
     {
       "ingredient_id": 2406,
-      "name": "Champagne, chilled",
-      "quantity": ""
+      "name": "Champagne",
+      "quantity": "",
+      "prep": "chilled"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the Champagne cold until you use it.",
+      "secondary_message": "Champagne"
+    },
     {
       "id": 1,
       "primary_message": "Make the almond sugar by grinding the toasted almonds, sugar, and almond extract together in a mini food processor until the mixture is homogeneous.",

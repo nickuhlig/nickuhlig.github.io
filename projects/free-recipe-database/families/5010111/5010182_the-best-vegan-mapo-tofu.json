@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 19,
-      "name": "white button mushrooms, stems trimmed, quartered",
-      "quantity": "170 g"
+      "name": "white button mushrooms",
+      "quantity": "170 g",
+      "prep": "stems trimmed, quartered"
     },
     {
       "ingredient_id": 1044,
@@ -86,13 +87,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, grated on a microplane grater",
-      "quantity": "3"
+      "name": "garlic cloves",
+      "quantity": "3",
+      "prep": "grated on a microplane grater"
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, grated on a microplane grater",
-      "quantity": "1 tbsp"
+      "name": "fresh ginger",
+      "quantity": "1 tbsp",
+      "prep": "grated on a microplane grater"
     },
     {
       "ingredient_id": 153,
@@ -101,8 +104,9 @@
     },
     {
       "ingredient_id": 2725,
-      "name": "Chinese chives, cut into 1/2-inch segments",
-      "quantity": "12"
+      "name": "Chinese chives",
+      "quantity": "12",
+      "prep": "cut into 1/2-inch segments"
     },
     {
       "ingredient_id": 2543,
@@ -116,11 +120,18 @@
     },
     {
       "ingredient_id": 1610,
-      "name": "to firm silken tofu, medium, cut into 1/2-inch cubes",
-      "quantity": "0.68 kg"
+      "name": "to firm silken tofu, medium",
+      "quantity": "0.68 kg",
+      "prep": "cut into 1/2-inch cubes"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the stems of the white button mushrooms, then quarter them. Grate the garlic cloves on a microplane grater. Grate the fresh ginger on a microplane grater. Cut the Chinese chives into 1/2-inch segments. Cut the to firm silken tofu into 1/2-inch cubes.",
+      "secondary_message": "170 g white button mushrooms\n3 garlic cloves\n1 tbsp fresh ginger\n12 Chinese chives\n0.68 kg to firm silken tofu, medium"
+    },
     {
       "id": 1,
       "primary_message": "Combine dried mushrooms and kombu (if using) in a small bowl or liquid measuring cup and cover with water. Place a paper towel or kitchen towel directly on surface of water to keep mushrooms mostly submerged. Set aside for 10 minutes to rehydrate.",

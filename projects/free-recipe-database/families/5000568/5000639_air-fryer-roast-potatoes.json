@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely chopped",
-      "quantity": "2 (10 g) medium cloves"
+      "name": "garlic",
+      "quantity": "2 (10 g) medium cloves",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 286,
@@ -81,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the garlic.",
+      "secondary_message": "2 (10 g) medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "In a large pot, bring 2000 ml water to a boil over high heat. Add potatoes, baking soda, and 1 tablespoon salt and stir to combine. Return to a boil, then reduce to a simmer over medium-low. Simmer, adjusting heat as needed, until a knife meets little resistance when inserted into a potato chunk, 8 to 10 minutes.",

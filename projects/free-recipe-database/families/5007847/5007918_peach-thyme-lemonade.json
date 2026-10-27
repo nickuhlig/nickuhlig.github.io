@@ -33,8 +33,9 @@
   "ingredients": [
     {
       "ingredient_id": 234,
-      "name": "fresh peaches, pits discarded, flesh roughly chopped",
-      "quantity": "3"
+      "name": "fresh peaches",
+      "quantity": "3",
+      "prep": "pits discarded, flesh roughly chopped"
     },
     {
       "ingredient_id": 1480,
@@ -68,6 +69,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Discard the pits from the fresh peaches, then roughly chop the flesh.",
+      "secondary_message": "3 fresh peaches"
+    },
     {
       "id": 1,
       "primary_message": "Combine peaches, lemon juice, sugar, and salt in a blender. Blend on high speed until smooth, about 1 minute. Meanwhile, place thyme in bottom of pitcher and lightly muddle with wooden spoon. Strain peach puree through a fine mesh strainer into pitcher. Discard solids. Add cold water and whisk to combine. Add ice. Serve in ice-filled glasses garnished with peach slices and thyme leaves.",

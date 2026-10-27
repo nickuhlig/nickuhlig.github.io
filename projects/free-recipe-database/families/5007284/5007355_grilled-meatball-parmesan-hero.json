@@ -89,8 +89,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, lightly beaten",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 120,
@@ -119,16 +120,24 @@
     },
     {
       "ingredient_id": 57,
-      "name": "whole milk mozzarella cheese, thinly sliced or grated",
-      "quantity": "170 g"
+      "name": "whole milk mozzarella cheese",
+      "quantity": "170 g",
+      "prep": "thinly sliced or grated"
     },
     {
       "ingredient_id": 1141,
-      "name": "Italian hero rolls, halved",
-      "quantity": "4"
+      "name": "Italian hero rolls",
+      "quantity": "4",
+      "prep": "halved"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly beat the eggs. Thinly slice or grate the whole milk mozzarella cheese. Halve the Italian hero rolls.",
+      "secondary_message": "2 large eggs\n170 g whole milk mozzarella cheese\n4 Italian hero rolls"
+    },
     {
       "id": 1,
       "primary_message": "For the Sauce: place olive oil, garlic, and crushed red pepper in medium saucepan over medium heat. When oil starts to bubble around garlic, stir in tomatoes. Bring to a boil, then reduce to a simmer and cook until sauce has slightly thickened, about 15 minutes. Stir in basil; season with sugar, salt, and pepper to taste. Remove from heat and set aside.",

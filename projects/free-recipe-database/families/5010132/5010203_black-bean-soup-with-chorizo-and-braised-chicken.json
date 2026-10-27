@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 1390,
-      "name": "smoked Mexican chorizo, cut into 1/4-inch slices",
-      "quantity": "170 g"
+      "name": "smoked Mexican chorizo",
+      "quantity": "170 g",
+      "prep": "cut into 1/4-inch slices"
     },
     {
       "ingredient_id": 153,
@@ -66,8 +67,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 186,
@@ -76,8 +78,9 @@
     },
     {
       "ingredient_id": 1618,
-      "name": "chipotle chilis, canned in adobo sauce, finely minced",
-      "quantity": "2"
+      "name": "chipotle chilis, canned in adobo sauce",
+      "quantity": "2",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 2747,
@@ -96,11 +99,18 @@
     },
     {
       "ingredient_id": 228,
-      "name": "lime, cut into 8 wedges",
-      "quantity": "1"
+      "name": "lime",
+      "quantity": "1",
+      "prep": "cut into 8 wedges"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the smoked Mexican chorizo into 1/4-inch slices. Mince the garlic. Finely mince the chipotle chilis. Cut the lime into 8 wedges.",
+      "secondary_message": "170 g smoked Mexican chorizo\n4 medium cloves garlic\n2 chipotle chilis, canned in adobo sauce\n1 lime"
+    },
     {
       "id": 1,
       "primary_message": "Place black beans in a large bowl and cover with 1 gallon of water. Add 3 tablespoons salt and stir until dissolved. Cover and set aside at room temperature overnight. (See note).",

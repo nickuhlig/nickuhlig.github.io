@@ -37,13 +37,15 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely diced",
-      "quantity": "1 large"
+      "name": "yellow onion",
+      "quantity": "1 large",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 2066,
-      "name": "poblano peppers, finely diced",
-      "quantity": "2 medium"
+      "name": "poblano peppers",
+      "quantity": "2 medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 1390,
@@ -77,11 +79,18 @@
     },
     {
       "ingredient_id": 1772,
-      "name": "soft hamburger buns, toasted",
-      "quantity": "4"
+      "name": "soft hamburger buns",
+      "quantity": "4",
+      "prep": "toasted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the yellow onion. Finely dice the poblano peppers. Toast the soft hamburger buns.",
+      "secondary_message": "1 large yellow onion\n2 medium poblano peppers\n4 soft hamburger buns"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in a large skillet over medium-high heat until shimmering. Add onions and peppers and cook, stirring frequently, until softened and well-browned, about 10 minutes. Add chorizo and cook, breaking it up with a potato masher or whisk. Continue cook until meat is cooked through, abut 5 minutes.",

@@ -48,13 +48,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, diced",
-      "quantity": "2 medium"
+      "name": "onions",
+      "quantity": "2 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peel and coarsely chopped",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "peel and coarsely chopped"
     },
     {
       "ingredient_id": 133,
@@ -83,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the onions. Coarsely chop the peel and of the garlic.",
+      "secondary_message": "2 medium onions\n3 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Divide bacon between two large skillets and cook over medium-high heat, stirring frequently, until fat is rendered and bacon is lightly browned and starting to crisp, about 20 minutes.",

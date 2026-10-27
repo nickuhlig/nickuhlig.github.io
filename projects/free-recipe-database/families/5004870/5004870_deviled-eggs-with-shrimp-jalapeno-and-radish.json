@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 3072,
-      "name": "hard boiled, peeled and halved lengthwise",
-      "quantity": "6"
+      "name": "hard-boiled eggs",
+      "quantity": "6",
+      "prep": "peeled and halved lengthwise"
     },
     {
       "ingredient_id": 267,
@@ -81,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and halve the hard-boiled eggs lengthwise.",
+      "secondary_message": "6 hard-boiled eggs"
+    },
     {
       "id": 1,
       "primary_message": "Place all of the yolks in a medium bowl. Select 8 of the best looking egg white halves and set aside. Reserve the remaining 4 for another use. Add 2 tablespoons mayonnaise, 2 teaspoons lemon juice, half or cilantro, half of jalapeño, and half of radish and, using a sturdy whisk, mash until combined. Season to taste with salt and pepper.",

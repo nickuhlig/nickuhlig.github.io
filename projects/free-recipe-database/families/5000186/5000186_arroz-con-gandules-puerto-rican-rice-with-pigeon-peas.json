@@ -36,18 +36,21 @@
   "ingredients": [
     {
       "ingredient_id": 152,
-      "name": "yellow onion, cut into chunks",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "cut into chunks"
     },
     {
       "ingredient_id": 291,
-      "name": "pepper green bell pepper, cleaned and chopped",
-      "quantity": "½"
+      "name": "pepper green bell pepper",
+      "quantity": "½",
+      "prep": "cleaned and chopped"
     },
     {
       "ingredient_id": 150,
-      "name": "pepper red bell pepper, cleaned and chopped",
-      "quantity": "½"
+      "name": "pepper red bell pepper",
+      "quantity": "½",
+      "prep": "cleaned and chopped"
     },
     {
       "ingredient_id": 24,
@@ -56,13 +59,15 @@
     },
     {
       "ingredient_id": 188,
-      "name": "packed cilantro, roughly chopped",
-      "quantity": "1 cup"
+      "name": "packed cilantro",
+      "quantity": "1 cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 153,
-      "name": "green onions, trimmed and chopped",
-      "quantity": "3"
+      "name": "green onions",
+      "quantity": "3",
+      "prep": "trimmed and chopped"
     },
     {
       "ingredient_id": 2031,
@@ -76,8 +81,9 @@
     },
     {
       "ingredient_id": 1763,
-      "name": "smoked ham steak, diced",
-      "quantity": "½ cup"
+      "name": "smoked ham steak",
+      "quantity": "½ cup",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1965,
@@ -86,13 +92,15 @@
     },
     {
       "ingredient_id": 1966,
-      "name": "diced pimento peppers, drained",
-      "quantity": "2 tbsp"
+      "name": "diced pimento peppers",
+      "quantity": "2 tbsp",
+      "prep": "drained"
     },
     {
       "ingredient_id": 15,
-      "name": "capers, drained",
-      "quantity": "2 tbsp"
+      "name": "capers",
+      "quantity": "2 tbsp",
+      "prep": "drained"
     },
     {
       "ingredient_id": 2031,
@@ -106,8 +114,9 @@
     },
     {
       "ingredient_id": 1826,
-      "name": "chicken bouillon cube, crumbled",
-      "quantity": "1"
+      "name": "chicken bouillon cube",
+      "quantity": "1",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 1270,
@@ -116,13 +125,15 @@
     },
     {
       "ingredient_id": 1968,
-      "name": "green pigeon peas, drained and liquid reserved",
-      "quantity": "1 (15 oz) can"
+      "name": "green pigeon peas",
+      "quantity": "1 (15 oz) can",
+      "prep": "drained and liquid reserved"
     },
     {
       "ingredient_id": 319,
-      "name": "jasmine rice, rinsed and drained",
-      "quantity": "1 cup"
+      "name": "jasmine rice",
+      "quantity": "1 cup",
+      "prep": "rinsed and drained"
     },
     {
       "ingredient_id": 359,
@@ -141,6 +152,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the yellow onion into chunks. Clean and chop the pepper green bell pepper. Clean and chop the pepper red bell pepper. Roughly chop the packed cilantro. Trim and chop the green onions. Dice the smoked ham steak. Drain the diced pimento peppers. Drain the capers. Crumble the chicken bouillon cube. Drain the green pigeon peas, then reserve the liquid. Rinse and drain the jasmine rice.",
+      "secondary_message": "1 medium yellow onion\n½ pepper green bell pepper\n½ pepper red bell pepper\n1 cup packed cilantro\n3 green onions\n½ cup smoked ham steak\n2 tbsp diced pimento peppers\n2 tbsp capers\n1 chicken bouillon cube\n1 (15 oz) can green pigeon peas\n1 cup jasmine rice"
+    },
     {
       "id": 1,
       "primary_message": "For the Sofrito: In a food processor or blender, combine all of the ingredients together and pulse, adding 1 to 2 tablespoons of water if needed to create sauce, similar to pesto or salsa. Refrigerate for up to 5 days or portion into ice cube trays or containers and freeze for up to 6 months.",

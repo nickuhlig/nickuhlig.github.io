@@ -71,11 +71,18 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten",
-      "quantity": "1"
+      "name": "egg",
+      "quantity": "1",
+      "prep": "beaten"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Beat the egg.",
+      "secondary_message": "1 egg"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 190°C (375°F). Combine raisins, brandy, orange juice, cinnamon, nutmeg and sugar in a small saucepan and bring to a simmer over medium low heat. Cook until raisins are plump and liquid is absorbed, about 7 minutes. Allow to cool to room temperature.",

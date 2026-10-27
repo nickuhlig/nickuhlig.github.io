@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 3304,
-      "name": "chicken parmesan, fully cooked and warmed through",
-      "quantity": "1 batch"
+      "name": "chicken parmesan",
+      "quantity": "1 batch",
+      "prep": "fully cooked and warmed through"
     },
     {
       "ingredient_id": 57,
@@ -60,6 +61,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Fully cook and warm through the chicken parmesan.",
+      "secondary_message": "1 batch chicken parmesan"
+    },
     {
       "id": 1,
       "primary_message": "Adjust broiler rack to 20 cm below the heat source and preheat broiler to high. Place bread cut-side-up on a foil-lined rimmed baking sheet and drizzle lightly all over with olive oil, then broil until well browned and crisp, about 1 minute.",

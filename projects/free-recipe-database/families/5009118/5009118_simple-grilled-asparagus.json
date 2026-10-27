@@ -46,9 +46,10 @@
   "ingredients": [
     {
       "ingredient_id": 26,
-      "name": "asparagus, trimmed and peeled",
+      "name": "asparagus",
       "quantity": "1 bunch",
-      "weigh_as": "1 lb"
+      "weigh_as": "1 lb",
+      "prep": "trimmed and peeled"
     },
     {
       "ingredient_id": 47,
@@ -67,6 +68,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim and peel the asparagus.",
+      "secondary_message": "1 bunch asparagus"
+    },
     {
       "id": 1,
       "primary_message": "Light one chimney full of charcoal. When all charcoal is lit and covered with gray ash, pour out and spread coals evenly over half of the coal grate. Set cooking grate in place, cover grill and allow to preheat for 5 minutes. Clean and oil grilling grate. If using a gas grill, preheat half the grill to high.",

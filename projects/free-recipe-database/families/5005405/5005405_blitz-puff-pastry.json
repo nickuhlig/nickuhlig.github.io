@@ -34,8 +34,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cold, cut into 1/2-inch cubes",
-      "quantity": "20 tbsp (10 oz)"
+      "name": "unsalted butter",
+      "quantity": "20 tbsp (10 oz)",
+      "prep": "cold, cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 116,
@@ -49,8 +50,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "7 tbsp (3 ½ oz)"
+      "name": "unsalted butter",
+      "quantity": "7 tbsp (3 ½ oz)",
+      "prep": "softened"
     },
     {
       "ingredient_id": 359,
@@ -59,6 +61,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into 1/2-inch cubes and keep it cold until you use it. Soften the unsalted butter.",
+      "secondary_message": "20 tbsp (10 oz) unsalted butter\n7 tbsp (3 ½ oz) unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Place cold cubes of butter into freezer until semi-frozen, about 20 minutes. Place flour, salt, softened butter, and 3/4 cup ice water in mixer fitted with paddle attachment. Combine on low speed until just combined (add a tablespoon or two more of cold water if needed). Remove bowl from mixer and add semi-frozen butter cubes. Using hands, quickly incorporate butter chunks into dough (butter should still be solid). Place dough onto large piece of plastic wrap and press into an 8- by 10-inch rectangle that is about 1-inch thick. Wrap tightly and chill 1 hour.",

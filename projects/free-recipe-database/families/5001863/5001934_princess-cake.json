@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 2038,
-      "name": "cold salted butter, cubed",
-      "quantity": "43 g"
+      "name": "cold salted butter",
+      "quantity": "43 g",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 353,
@@ -87,13 +88,15 @@
     },
     {
       "ingredient_id": 2050,
-      "name": "bleached cake flour, sifted",
-      "quantity": "269 g"
+      "name": "bleached cake flour",
+      "quantity": "269 g",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "85 g"
+      "name": "unsalted butter",
+      "quantity": "85 g",
+      "prep": "melted"
     },
     {
       "ingredient_id": 353,
@@ -147,6 +150,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cube the cold salted butter. Sift the bleached cake flour. Melt the unsalted butter.",
+      "secondary_message": "43 g cold salted butter\n269 g bleached cake flour\n85 g unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Pastry Cream: Set a fine-mesh strainer into a large heatproof bowl. In a medium saucepan, whisk together sugar and cornstarch until well combined. Gradually whisk in milk and egg yolks until well combined. Cook over medium heat, whisking constantly, until mixture starts to bubble and thickens to a pudding-like consistency, 5 to 7 minutes. Off heat, whisk in cold butter and vanilla extract until smooth. Immediately strain through prepared strainer, using a flexible rubber spatula to press pudding through; discard any solids. Immediately place plastic wrap directly on surface of cream to prevent skin from forming. Refrigerate until cold, at least 3 hours and up to 24 hours.",

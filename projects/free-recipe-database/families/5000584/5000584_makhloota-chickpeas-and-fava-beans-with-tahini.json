@@ -42,8 +42,9 @@
   "ingredients": [
     {
       "ingredient_id": 2200,
-      "name": "dried chickpeas, rinsed and drained",
-      "quantity": "4 oz"
+      "name": "dried chickpeas",
+      "quantity": "4 oz",
+      "prep": "rinsed and drained"
     },
     {
       "ingredient_id": 1942,
@@ -52,8 +53,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, finely grated on a microplane",
-      "quantity": "4 medium"
+      "name": "garlic cloves",
+      "quantity": "4 medium",
+      "prep": "finely grated on a microplane"
     },
     {
       "ingredient_id": 1480,
@@ -97,8 +99,9 @@
     },
     {
       "ingredient_id": 106,
-      "name": "flat-leaf parsley leaves, finely chopped",
-      "quantity": "1 small handful"
+      "name": "flat-leaf parsley leaves",
+      "quantity": "1 small handful",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 47,
@@ -112,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse and drain the dried chickpeas. Finely grate the garlic cloves on a microplane. Finely chop the flat-leaf parsley leaves.",
+      "secondary_message": "4 oz dried chickpeas\n4 medium garlic cloves\n1 small handful flat-leaf parsley leaves"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, cover chickpeas with 4 cups cold water. In another medium bowl, cover fava beans with 4 cups cold water. Let stand at room temperature at least 8 hours. Using a colander, drain and rinse both thoroughly.",

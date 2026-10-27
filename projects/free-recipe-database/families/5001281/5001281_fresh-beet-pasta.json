@@ -50,8 +50,9 @@
   "ingredients": [
     {
       "ingredient_id": 13,
-      "name": "beets, rinsed and trimmed",
-      "quantity": "2 small"
+      "name": "beets",
+      "quantity": "2 small",
+      "prep": "rinsed and trimmed"
     },
     {
       "ingredient_id": 116,
@@ -80,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse and trim the beets.",
+      "secondary_message": "2 small beets"
+    },
     {
       "id": 1,
       "primary_message": "Bring a pot of water to a boil. Add rinsed and trimmed beets and cook until easily pierced with a fork, approximately 40 to 45 minutes. Drain and let cool. Peel beets and purée with a hand-blender or food processor until smooth.",

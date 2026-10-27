@@ -69,26 +69,36 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, chopped",
-      "quantity": "1"
+      "name": "carrot",
+      "quantity": "1",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, chopped",
-      "quantity": "1"
+      "name": "onion",
+      "quantity": "1",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, chopped",
-      "quantity": "1 stalk"
+      "name": "celery",
+      "quantity": "1 stalk",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic bulb, halved",
-      "quantity": "1"
+      "name": "garlic bulb",
+      "quantity": "1",
+      "prep": "halved"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the carrot. Chop the onion. Chop the celery. Halve the garlic bulb.",
+      "secondary_message": "1 carrot\n1 onion\n1 stalk celery\n1 garlic bulb"
+    },
     {
       "id": 1,
       "primary_message": "Put all the ingredient from the brine into a large saucepan and stir well over low heat until the sugar and salt have dissolved. Bring to a boil, then turn off the heat and leave to cool.",

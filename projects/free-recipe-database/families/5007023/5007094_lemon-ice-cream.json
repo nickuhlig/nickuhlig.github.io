@@ -67,8 +67,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemons, zested",
-      "quantity": "2"
+      "name": "lemons",
+      "quantity": "2",
+      "prep": "zested"
     },
     {
       "ingredient_id": 88,
@@ -102,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the lemons.",
+      "secondary_message": "2 lemons"
+    },
     {
       "id": 1,
       "primary_message": "For ice cream: In a medium, heavy-bottomed saucepan, whisk together egg yolks and sugar until well combined. Slowly whisk in cream and half and half until fully incorporated. Put on stove on medium heat and cook, stirring frequently, until a custard forms on the back of a spoon and a finger swiped across it leaves a clean line, 5 to 7 minutes. Strain into an airtight container and stir in lemon juice, zest, and salt to taste. Cover and chill overnight in refrigerator.",

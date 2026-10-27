@@ -32,8 +32,9 @@
   "ingredients": [
     {
       "ingredient_id": 2415,
-      "name": "goat chops, cut into individual chops",
-      "quantity": "0.91 kg"
+      "name": "goat chops",
+      "quantity": "0.91 kg",
+      "prep": "cut into individual chops"
     },
     {
       "ingredient_id": 88,
@@ -92,8 +93,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 1189,
@@ -107,6 +109,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the goat chops into individual chops. Beat the egg.",
+      "secondary_message": "0.91 kg goat chops\n1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "Season chops generously with salt, pepper, and turmeric. Set aside. In a heavy-bottomed saucepan, heat 1 tablespoon oil over medium heat until shimmering. Add onion, garlic, ginger, and Serrano peppers and cook, stirring often, untill fragrant and softened but not browned, about 5 minutes. Add the whole peppercorns, cloves, and bay leaf and stir until fragrant, about 2 minutes longer. Add the goat and cook in the spice mixture until lightly browned, about 5 minutes. Add 2 cups of water, bring to a simmer, reduce heat to low, cover, and simmer until cooked through, about 15 minutes.",

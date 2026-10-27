@@ -53,23 +53,27 @@
     },
     {
       "ingredient_id": 144,
-      "name": "whole shallots, minced",
-      "quantity": "2 to 3"
+      "name": "whole shallots",
+      "quantity": "2 to 3",
+      "prep": "minced"
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, grated",
-      "quantity": "1 (4 cm) knob"
+      "name": "ginger",
+      "quantity": "1 (4 cm) knob",
+      "prep": "grated"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "6 medium"
+      "name": "garlic cloves",
+      "quantity": "6 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1762,
-      "name": "Thai chiles, minced",
-      "quantity": "4"
+      "name": "Thai chiles",
+      "quantity": "4",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2688,
@@ -103,8 +107,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 153,
@@ -118,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the whole shallots. Grate the ginger. Mince the garlic cloves. Mince the Thai chiles. Beat the egg.",
+      "secondary_message": "2 to 3 whole shallots\n1 (4 cm) knob ginger\n6 medium garlic cloves\n4 Thai chiles\n1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "In small bowl, whisk cornstarch with 2 tablespoons water; set aside. In large wok with lid (or Dutch oven), heat oil over medium heat until shimmering. Stir in shallots, ginger, garlic, and chiles. Cook and stir until fragrant, about 1 minute.",

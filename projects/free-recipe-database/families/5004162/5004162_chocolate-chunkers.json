@@ -58,23 +58,27 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 3 pieces",
-      "quantity": "3 tbsp"
+      "name": "unsalted butter",
+      "quantity": "3 tbsp",
+      "prep": "cut into 3 pieces"
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, coarsely chopped",
-      "quantity": "6 oz"
+      "name": "bittersweet chocolate",
+      "quantity": "6 oz",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 1017,
-      "name": "unsweetened chocolate, coarsely chopped",
-      "quantity": "1 oz"
+      "name": "unsweetened chocolate",
+      "quantity": "1 oz",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -108,6 +112,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into 3 pieces. Coarsely chop the bittersweet chocolate. Coarsely chop the unsweetened chocolate. Bring the eggs to room temperature.",
+      "secondary_message": "3 tbsp unsalted butter\n6 oz bittersweet chocolate\n1 oz unsweetened chocolate\n2 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Center a rack in the oven and preheat the oven to 350°F. Line two baking sheets with parchment or silicone mats.",

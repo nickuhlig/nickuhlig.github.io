@@ -34,8 +34,9 @@
   "ingredients": [
     {
       "ingredient_id": 3642,
-      "name": "egg whites, left at room temperature for 30 minutes",
-      "quantity": "3"
+      "name": "egg whites",
+      "quantity": "3",
+      "prep": "left at room temperature for 30 minutes"
     },
     {
       "ingredient_id": 88,
@@ -54,6 +55,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Let the egg whites sit at room temperature for 30 minutes.",
+      "secondary_message": "3 egg whites"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower and middle positions and preheat oven to 275°F. Line two baking sheets with parchment paper.",

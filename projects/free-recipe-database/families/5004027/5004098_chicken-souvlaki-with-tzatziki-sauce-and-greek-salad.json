@@ -89,13 +89,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1980,
-      "name": "cucumber, peeled, seeded, cut into 1/4-inch cubes",
-      "quantity": "1 medium"
+      "name": "cucumber",
+      "quantity": "1 medium",
+      "prep": "peeled, seeded, cut into 1/4-inch cubes"
     },
     {
       "ingredient_id": 88,
@@ -104,8 +106,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "grated"
     },
     {
       "ingredient_id": 122,
@@ -124,18 +127,21 @@
     },
     {
       "ingredient_id": 260,
-      "name": "tomatoes, cut into wedges",
-      "quantity": "6 small"
+      "name": "tomatoes",
+      "quantity": "6 small",
+      "prep": "cut into wedges"
     },
     {
       "ingredient_id": 184,
-      "name": "red onions, sliced thin",
-      "quantity": "2 small"
+      "name": "red onions",
+      "quantity": "2 small",
+      "prep": "sliced thin"
     },
     {
       "ingredient_id": 1980,
-      "name": "cucumber, seeded and sliced into thin half moons",
-      "quantity": "1 medium"
+      "name": "cucumber",
+      "quantity": "1 medium",
+      "prep": "seeded and sliced into thin half moons"
     },
     {
       "ingredient_id": 2012,
@@ -159,6 +165,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the garlic. Peel, seed, and cut the cucumber into 1/4-inch cubes. Grate the garlic. Cut the tomatoes into wedges. Slice the red onions thin. Seed and slice the cucumber into thin half moons.",
+      "secondary_message": "4 medium cloves garlic\n1 medium cucumber\n1 medium clove garlic\n6 small tomatoes\n2 small red onions\n1 medium cucumber"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, whisk lemon juice, vinegar, olive oil, oregano, salt, and black pepper. Place chicken cubes in a separate medium bowl. Mix in grated garlic and 7 tablespoons of dressing. Toss chicken to coat evenly, cover, and refrigerate to marinate for about 2 hours, tossing occasionally. Set remaining dressing aside for salad.",

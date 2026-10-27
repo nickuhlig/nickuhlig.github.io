@@ -49,8 +49,9 @@
   "ingredients": [
     {
       "ingredient_id": 2275,
-      "name": "ramps, cleaned and trimmed",
-      "quantity": "32"
+      "name": "ramps",
+      "quantity": "32",
+      "prep": "cleaned and trimmed"
     },
     {
       "ingredient_id": 47,
@@ -69,6 +70,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Clean and trim the ramps.",
+      "secondary_message": "32 ramps"
+    },
     {
       "id": 1,
       "primary_message": "Place ramps on a rimmed baking sheet. Drizzle with olive oil and season with salt and pepper. Toss until well coated.",

@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 18,
-      "name": "eggplant, cut into 1/2-inch dice",
-      "quantity": "1 small"
+      "name": "eggplant",
+      "quantity": "1 small",
+      "prep": "cut into 1/2-inch dice"
     },
     {
       "ingredient_id": 88,
@@ -51,13 +52,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely diced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, finely diced",
-      "quantity": "2 stalks"
+      "name": "celery",
+      "quantity": "2 stalks",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 323,
@@ -66,8 +69,9 @@
     },
     {
       "ingredient_id": 15,
-      "name": "capers, rinsed, drained, and roughly chopped",
-      "quantity": "3 tbsp"
+      "name": "capers",
+      "quantity": "3 tbsp",
+      "prep": "rinsed, drained, and roughly chopped"
     },
     {
       "ingredient_id": 1268,
@@ -101,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the eggplant into 1/2-inch dice. Finely dice the onion. Finely dice the celery. Rinse, drain, and roughly chop the capers.",
+      "secondary_message": "1 small eggplant\n1 medium onion\n2 stalks celery\n3 tbsp capers"
+    },
     {
       "id": 1,
       "primary_message": "Place eggplant on a large plate lined with a triple layer of paper towels or a clean kitchen towel. Season with salt. Top with another triple layer of paper towels or a clean kitchen towel. Top with another large plate. Microwave on high power until eggplant has lost most of its moisture and appears slightly shriveled, about 8 minutes.",

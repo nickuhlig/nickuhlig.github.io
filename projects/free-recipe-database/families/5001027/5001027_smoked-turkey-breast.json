@@ -52,8 +52,9 @@
   "ingredients": [
     {
       "ingredient_id": 2508,
-      "name": "whole bone-in skin-on turkey breast, thawed",
-      "quantity": "7 lb"
+      "name": "whole bone-in skin-on turkey breast",
+      "quantity": "7 lb",
+      "prep": "thawed"
     },
     {
       "ingredient_id": 293,
@@ -82,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thaw the whole bone-in skin-on turkey breast.",
+      "secondary_message": "7 lb whole bone-in skin-on turkey breast"
+    },
     {
       "id": 1,
       "primary_message": "Pat turkey dry with paper towels. In a bowl, mix brown sugar, salt, and pepper. Loosen skin from turkey and rub entire turkey, under and over skin, with salt mixture. Rub baking powder all over turkey exterior. Transfer turkey breast to a wire rack set inside a large plate, platter, or rimmed baking sheet and refrigerate, uncovered, for at least 12 hours or up to 2 days.",

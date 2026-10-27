@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, melted and cooled",
-      "quantity": "3 tbsp"
+      "name": "butter",
+      "quantity": "3 tbsp",
+      "prep": "melted and cooled"
     },
     {
       "ingredient_id": 1752,
@@ -57,8 +58,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, room temperature",
-      "quantity": "8 oz"
+      "name": "cream cheese",
+      "quantity": "8 oz",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 1710,
@@ -82,6 +84,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the butter and let it cool. Bring the cream cheese to room temperature.",
+      "secondary_message": "3 tbsp butter\n8 oz cream cheese"
+    },
     {
       "id": 1,
       "primary_message": "Place the chocolate wafers in the bowl of a food processor and pulse until the cookies are pulverized into uniform crumbs. Add the melted butter and pulse for 15 seconds, scrape down the sides of the bowl, and pulse for an additional 5 seconds, until the crumbs are evenly coated with butter. Pour the mixture into the pie plate and press the crumbs to form an even crust along the bottom and sides of the plate. Chill for at least 20 minutes.",

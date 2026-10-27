@@ -44,18 +44,21 @@
     },
     {
       "ingredient_id": 452,
-      "name": "roasted red peppers, finely chopped",
-      "quantity": "¼ cup"
+      "name": "roasted red peppers",
+      "quantity": "¼ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, white parts, finely chopped",
-      "quantity": "3"
+      "name": "scallions, white parts",
+      "quantity": "3",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "1 clove"
+      "name": "garlic",
+      "quantity": "1 clove",
+      "prep": "minced"
     },
     {
       "ingredient_id": 478,
@@ -109,8 +112,9 @@
     },
     {
       "ingredient_id": 1198,
-      "name": "potato rolls, toasted",
-      "quantity": "4"
+      "name": "potato rolls",
+      "quantity": "4",
+      "prep": "toasted"
     },
     {
       "ingredient_id": 3665,
@@ -124,6 +128,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the roasted red peppers. Finely chop the scallions. Mince the garlic. Toast the potato rolls.",
+      "secondary_message": "¼ cup roasted red peppers\n3 scallions, white parts\n1 clove garlic\n4 potato rolls"
+    },
     {
       "id": 1,
       "primary_message": "In a bowl, combine cheese, red peppers, scallions, garlic, 1/2 teaspoon paprika, pepper and mayo. Finely chop 2 jalapeños, and add to cheese mixture. Using a fork, mash to combine mixture into a chunky paste. Add more mayo, if needed.",

@@ -67,8 +67,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic clove, minced",
-      "quantity": "1 medium"
+      "name": "garlic clove",
+      "quantity": "1 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 47,
@@ -107,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic clove.",
+      "secondary_message": "1 medium garlic clove"
+    },
     {
       "id": 1,
       "primary_message": "Combine olives, giardiniera, peppers, parsley, capers, and garlic in the bowl of a food processor. Pulse to chop until no pieces larger than 1.5-cm remain. Transfer to a bowl. Add olive oil and vinegar and stir to combine. For best results, let olive salad rest overnight before continuing to step 2.",

@@ -53,8 +53,9 @@
     },
     {
       "ingredient_id": 1938,
-      "name": "Tahitian vanilla bean, split and scraped",
-      "quantity": "1"
+      "name": "Tahitian vanilla bean",
+      "quantity": "1",
+      "prep": "split and scraped"
     },
     {
       "ingredient_id": 346,
@@ -73,6 +74,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split and scrape the Tahitian vanilla bean.",
+      "secondary_message": "1 Tahitian vanilla bean"
+    },
     {
       "id": 1,
       "primary_message": "Pour about 1/4 cup half-and-half in one small bowl and 2 tablespoons in another. Use a fork to whisk cornstarch into the first bowl until no lumps remain, and sprinkle gelatin in second bowl. Add remaining half and half to a saucepan along with vanilla bean, sugar, and salt. Bring to a boil, then turn off heat, cover, and let steep for one hour.",

@@ -31,8 +31,9 @@
   "ingredients": [
     {
       "ingredient_id": 1754,
-      "name": "Spanish-style dry-cured chorizo, cut into 1/2-inch dice",
-      "quantity": "113 g"
+      "name": "Spanish-style dry-cured chorizo",
+      "quantity": "113 g",
+      "prep": "cut into 1/2-inch dice"
     },
     {
       "ingredient_id": 47,
@@ -41,8 +42,9 @@
     },
     {
       "ingredient_id": 303,
-      "name": "fresh corn kernels, cut from 4 to 5 cobs of corn",
-      "quantity": "4 cups"
+      "name": "fresh corn kernels",
+      "quantity": "4 cups",
+      "prep": "cut from 4 to 5 cobs of corn"
     },
     {
       "ingredient_id": 188,
@@ -66,6 +68,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the Spanish-style dry-cured chorizo into 1/2-inch dice. Cut the fresh corn kernels from 4 to 5 cobs of corn.",
+      "secondary_message": "113 g Spanish-style dry-cured chorizo\n4 cups fresh corn kernels"
+    },
     {
       "id": 1,
       "primary_message": "Combine chorizo and olive oil in a large, heavy-bottomed skillet and cook over medium-low heat, stirring frequently, until chorizo has rendered most of its fat and is crisp all around, about 5 minutes. Add corn, increase heat to high, and cook, stirring and tossing frequently, until corn is cooked through and deeply browned in spots, about 4 minutes. Stir in cilantro and lime juice and season with salt and pepper. Serve.",

@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "10 medium cloves"
+      "name": "garlic",
+      "quantity": "10 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1337,
@@ -57,6 +58,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic.",
+      "secondary_message": "10 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Combine canola oil and garlic in a small saucepan and cook over medium-low heat, stirring, until it starts to brown. Reduce heat to low and continue to cook, stirring frequently, until garlic turns completely black, about 10 minutes (garlic will become very sticky in the process).",

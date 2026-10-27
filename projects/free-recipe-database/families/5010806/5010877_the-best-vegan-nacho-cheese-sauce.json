@@ -42,18 +42,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, thinly sliced",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño pepper, seeds and ribs removed, thinly sliced",
-      "quantity": "½"
+      "name": "jalapeño pepper",
+      "quantity": "½",
+      "prep": "seeds and ribs removed, thinly sliced"
     },
     {
       "ingredient_id": 186,
@@ -77,9 +80,10 @@
     },
     {
       "ingredient_id": 1039,
-      "name": "russet potato, peeled and thinly sliced",
+      "name": "russet potato",
       "quantity": "½ medium",
-      "weigh_as": "113 g"
+      "weigh_as": "113 g",
+      "prep": "peeled and thinly sliced"
     },
     {
       "ingredient_id": 108,
@@ -113,6 +117,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the onion. Thinly slice the garlic. Remove the seeds and ribs from the jalapeño pepper, then thinly slice it. Peel and thinly slice the russet potato.",
+      "secondary_message": "1 small onion\n2 medium cloves garlic\n½ jalapeño pepper\n½ medium russet potato"
+    },
     {
       "id": 1,
       "primary_message": "Melt shortening in a medium skillet over medium heat. Add onions, garlic, and jalapeños and cook, stirring, until completely softened but not browned, about 4 minutes. Add cumin, paprika, garlic powder, and chipotle (with sauce). Cook, stirring, until fragrant and mixture starts to sizzle, about 1 minute.",

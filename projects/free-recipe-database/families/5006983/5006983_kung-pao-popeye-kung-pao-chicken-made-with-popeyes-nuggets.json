@@ -74,8 +74,9 @@
     },
     {
       "ingredient_id": 1850,
-      "name": "long hot green pepper, sliced thinly on the bias",
-      "quantity": "1"
+      "name": "long hot green pepper",
+      "quantity": "1",
+      "prep": "sliced thinly on the bias"
     },
     {
       "ingredient_id": 309,
@@ -84,8 +85,9 @@
     },
     {
       "ingredient_id": 157,
-      "name": "celery, sliced on the bias into 1/4-inch slices",
-      "quantity": "1 large stalk"
+      "name": "celery",
+      "quantity": "1 large stalk",
+      "prep": "sliced on the bias into 1/4-inch slices"
     },
     {
       "ingredient_id": 1191,
@@ -119,6 +121,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the long hot green pepper thinly on the bias. Slice the celery on the bias into 1/4-inch slices.",
+      "secondary_message": "1 long hot green pepper\n1 large stalk celery"
+    },
     {
       "id": 1,
       "primary_message": "Combine stock, soy sauce, wine, vinegar, chili-bean paste, sugar, and cornstarch in a small bowl and whisk with a fork until combined and homogeneous.",

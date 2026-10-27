@@ -67,8 +67,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, minced",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 82,
@@ -97,13 +98,15 @@
     },
     {
       "ingredient_id": 1541,
-      "name": "Roma tomatoes, cored and cut into 1/4-inch thick slices",
-      "quantity": "5"
+      "name": "Roma tomatoes",
+      "quantity": "5",
+      "prep": "cored and cut into 1/4-inch thick slices"
     },
     {
       "ingredient_id": 470,
-      "name": "fennel bulb, tops and core removed, slice paper thin",
-      "quantity": "½"
+      "name": "fennel bulb, slice paper thin",
+      "quantity": "½",
+      "prep": "tops and core removed"
     },
     {
       "ingredient_id": 2532,
@@ -132,8 +135,9 @@
     },
     {
       "ingredient_id": 2544,
-      "name": "pepperoncinis, stems removed and cut into ¼-inch slices",
-      "quantity": "10"
+      "name": "pepperoncinis",
+      "quantity": "10",
+      "prep": "stems removed and cut into ¼-inch slices"
     },
     {
       "ingredient_id": 452,
@@ -142,11 +146,18 @@
     },
     {
       "ingredient_id": 25,
-      "name": "romaine lettuce, washed and dried",
-      "quantity": "5 leaves"
+      "name": "romaine lettuce",
+      "quantity": "5 leaves",
+      "prep": "washed and dried"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the shallot. Core and cut the Roma tomatoes into 1/4-inch thick slices. Remove the tops and core from the fennel bulb. Remove the stems from the pepperoncinis, then cut them into ¼-inch slices. Wash and dry the romaine lettuce.",
+      "secondary_message": "1 medium shallot\n5 Roma tomatoes\n½ fennel bulb, slice paper thin\n10 pepperoncinis\n5 leaves romaine lettuce"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, whisk together olive oil, red wine vinegar, balsamic vinegar, parsley, shallot, oregano, and red pepper flakes. Season heavily with salt and pepper.",

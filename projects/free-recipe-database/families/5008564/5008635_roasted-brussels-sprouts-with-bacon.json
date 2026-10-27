@@ -54,8 +54,9 @@
     },
     {
       "ingredient_id": 14,
-      "name": "Brussels sprouts, halved",
-      "quantity": "0.91 kg"
+      "name": "Brussels sprouts",
+      "quantity": "0.91 kg",
+      "prep": "halved"
     },
     {
       "ingredient_id": 47,
@@ -84,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the Brussels sprouts.",
+      "secondary_message": "0.91 kg Brussels sprouts"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center position and preheat oven to 175°C (350°F). Line a baking sheet with heavy duty aluminum foil.",

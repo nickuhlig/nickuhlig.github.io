@@ -85,8 +85,9 @@
     },
     {
       "ingredient_id": 1929,
-      "name": "shiitake mushrooms, stems removed, cut into 1/4-inch dice",
-      "quantity": "71 g"
+      "name": "shiitake mushrooms",
+      "quantity": "71 g",
+      "prep": "stems removed, cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 153,
@@ -95,24 +96,28 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, minced",
-      "quantity": "1 (2 ½ cm) knob"
+      "name": "ginger",
+      "quantity": "1 (2 ½ cm) knob",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2234,
-      "name": "jicama, peeled and cut into 1/4-inch dice",
-      "quantity": "113 g"
+      "name": "jicama",
+      "quantity": "113 g",
+      "prep": "peeled and cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, cut into 1/4-inch dice",
+      "name": "celery",
       "quantity": "1 ½ sticks",
-      "weigh_as": "57 g"
+      "weigh_as": "57 g",
+      "prep": "cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 188,
@@ -136,6 +141,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the stems from the shiitake mushrooms, then cut them into 1/4-inch dice. Mince the garlic. Mince the ginger. Peel and cut the jicama into 1/4-inch dice. Cut the celery into 1/4-inch dice.",
+      "secondary_message": "71 g shiitake mushrooms\n3 medium cloves garlic\n1 (2 ½ cm) knob ginger\n113 g jicama\n1 ½ sticks celery"
+    },
     {
       "id": 1,
       "primary_message": "Cut tofu into 0.5-cm slabs. Press firmly between paper towels to remove excess moisture, then cut into 0.5-cm dice. Set aside.",

@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 2414,
-      "name": "beef chuck, cut into 1-inch cubes",
-      "quantity": "0.68 kg"
+      "name": "beef chuck",
+      "quantity": "0.68 kg",
+      "prep": "cut into 1-inch cubes"
     },
     {
       "ingredient_id": 88,
@@ -76,8 +77,9 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, thinly sliced",
-      "quantity": "½ small"
+      "name": "white onion",
+      "quantity": "½ small",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 260,
@@ -91,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the beef chuck into 1-inch cubes. Thinly slice the white onion.",
+      "secondary_message": "0.68 kg beef chuck\n½ small white onion"
+    },
     {
       "id": 1,
       "primary_message": "Place pimento cheese in food processor. Pulse until finely chopped, 6 to 8 short pulses. Transfer to a small bowl with a rubber spatula and wash food processor bowl if using to grind meat (see step 3).",

@@ -82,8 +82,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, cut into 1/4-inch dice",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 47,
@@ -92,23 +93,27 @@
     },
     {
       "ingredient_id": 1039,
-      "name": "russet potato, peeled and cut into 1/4-inch dice",
-      "quantity": "1 small"
+      "name": "russet potato",
+      "quantity": "1 small",
+      "prep": "peeled and cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 2042,
-      "name": "tybo cheese, cut into 1/4-inch dice",
-      "quantity": "150 g"
+      "name": "tybo cheese",
+      "quantity": "150 g",
+      "prep": "cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 2039,
-      "name": "fontina cheese, shredded",
-      "quantity": "100 g"
+      "name": "fontina cheese",
+      "quantity": "100 g",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 126,
-      "name": "semi-hard goat cheese, like garrotxa, , shredded",
-      "quantity": "100 g"
+      "name": "semi-hard goat cheese, like garrotxa",
+      "quantity": "100 g",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 2082,
@@ -132,8 +137,9 @@
     },
     {
       "ingredient_id": 1993,
-      "name": "Scotch bonnet peppers, very finely diced",
-      "quantity": "2"
+      "name": "Scotch bonnet peppers",
+      "quantity": "2",
+      "prep": "very finely diced"
     },
     {
       "ingredient_id": 88,
@@ -152,6 +158,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the yellow onion into 1/4-inch dice. Peel and cut the russet potato into 1/4-inch dice. Cut the tybo cheese into 1/4-inch dice. Shred the fontina cheese. Shred the semi-hard goat cheese. Very finely dice the Scotch bonnet peppers.",
+      "secondary_message": "1 medium yellow onion\n1 small russet potato\n150 g tybo cheese\n100 g fontina cheese\n100 g semi-hard goat cheese, like garrotxa\n2 Scotch bonnet peppers"
+    },
     {
       "id": 1,
       "primary_message": "For the Dough: In a medium saucepan, melt the butter over medium heat. Add Spanish paprika and crushed red pepper flakes and whisk until the paprika infuses the butter, about 20 seconds. Remove from heat and set aside.",

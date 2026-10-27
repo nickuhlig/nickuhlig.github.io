@@ -82,8 +82,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "4 oz"
+      "name": "unsalted butter",
+      "quantity": "4 oz",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -92,8 +93,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, at room temperature",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 353,
@@ -102,13 +104,15 @@
     },
     {
       "ingredient_id": 1003,
-      "name": "sour cream, at room temperature",
-      "quantity": "2 oz"
+      "name": "sour cream",
+      "quantity": "2 oz",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 118,
-      "name": "whole milk, at room temperature",
-      "quantity": "2 oz"
+      "name": "whole milk",
+      "quantity": "2 oz",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 242,
@@ -117,8 +121,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "6 oz"
+      "name": "unsalted butter",
+      "quantity": "6 oz",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 88,
@@ -157,6 +162,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature. Bring the egg to room temperature. Bring the sour cream to room temperature. Bring the whole milk to room temperature. Bring the unsalted butter to room temperature.",
+      "secondary_message": "4 oz unsalted butter\n1 large egg\n2 oz sour cream\n2 oz whole milk\n6 oz unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position, and preheat to 350°F (175ºC). Line a 12-cup muffin pan with paper liners; set aside. Fit a piping bag with desired piping tip for frosting; set aside.",

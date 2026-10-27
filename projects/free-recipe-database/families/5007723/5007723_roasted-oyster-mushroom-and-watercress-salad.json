@@ -38,13 +38,15 @@
   "ingredients": [
     {
       "ingredient_id": 144,
-      "name": "shallot, minced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "minced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "1 small clove"
+      "name": "garlic",
+      "quantity": "1 small clove",
+      "prep": "minced"
     },
     {
       "ingredient_id": 117,
@@ -98,11 +100,18 @@
     },
     {
       "ingredient_id": 120,
-      "name": "Parmigiano-Reggiano Padano cheese, shaved with a vegetable peeler",
-      "quantity": "3 oz"
+      "name": "Parmigiano-Reggiano Padano cheese",
+      "quantity": "3 oz",
+      "prep": "shaved with a vegetable peeler"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the shallot. Mince the garlic. Shave the Parmigiano-Reggiano Padano cheese with a vegetable peeler.",
+      "secondary_message": "1 small shallot\n1 small clove garlic\n3 oz Parmigiano-Reggiano Padano cheese"
+    },
     {
       "id": 1,
       "primary_message": "Combine shallot, garlic, mustard, vinegar, water, and tarragon in a tall, narrow container. Using an immersion blender, blend until tarragon is finely chopped and incorporated into dressing base. Alternatively, mince tarragon finely by hand and add to the base. Transfer to a large bowl. Whisking constantly, slowly drizzle in olive oil. Season to taste with salt and pepper. Set aside.",

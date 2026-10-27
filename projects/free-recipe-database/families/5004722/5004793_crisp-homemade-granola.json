@@ -68,8 +68,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "113 g"
+      "name": "unsalted butter",
+      "quantity": "113 g",
+      "prep": "melted"
     },
     {
       "ingredient_id": 346,
@@ -108,8 +109,9 @@
     },
     {
       "ingredient_id": 215,
-      "name": "dried apricots, quartered",
-      "quantity": "113 g"
+      "name": "dried apricots",
+      "quantity": "113 g",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 2107,
@@ -123,6 +125,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Quarter the dried apricots.",
+      "secondary_message": "113 g unsalted butter\n113 g dried apricots"
+    },
     {
       "id": 1,
       "primary_message": "For the Granola: In a medium bowl, combine rolled oats, wheat germ, flax seeds (if using), and chia. Toss with a flexible spatula to combine, then stir in buttermilk and melted butter. Cover with plastic or a kitchen towel and set aside until oats are stiff and dry, about 20 minutes (the chia will look a little fuzzy, but that's normal). Stir in sugar and salt, cover, and let stand until the mixture looks loose and damp from the dissolved sugar, about 30 minutes.",

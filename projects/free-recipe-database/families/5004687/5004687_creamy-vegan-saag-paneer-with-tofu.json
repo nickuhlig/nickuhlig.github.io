@@ -95,18 +95,21 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, peeled and finely minced",
-      "quantity": "1 (1 inch) knob"
+      "name": "ginger",
+      "quantity": "1 (1 inch) knob",
+      "prep": "peeled and finely minced"
     },
     {
       "ingredient_id": 1762,
-      "name": "green Thai chiles, stemmed and finely minced",
-      "quantity": "1 to 4"
+      "name": "green Thai chiles",
+      "quantity": "1 to 4",
+      "prep": "stemmed and finely minced"
     },
     {
       "ingredient_id": 1514,
@@ -125,8 +128,9 @@
     },
     {
       "ingredient_id": 1882,
-      "name": "cardamom pod, smashed",
-      "quantity": "1"
+      "name": "cardamom pod",
+      "quantity": "1",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 1879,
@@ -140,6 +144,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the garlic. Peel and finely mince the ginger. Stem and finely mince the green Thai chiles. Smash the cardamom pod.",
+      "secondary_message": "4 medium cloves garlic\n1 (1 inch) knob ginger\n1 to 4 green Thai chiles\n1 cardamom pod"
+    },
     {
       "id": 1,
       "primary_message": "For the Tofu \"Paneer\": Adjust oven rack to center position and preheat oven to 375°F. Press tofu firmly between paper towels to remove excess moisture. Cut into 1 1/2–inch cubes and set aside. In a medium bowl, whisk together miso paste, 2 tablespoons lemon juice, lemon zest, and 1 tablespoon oil. Season generously with salt and pepper. Add tofu and toss to coat. Spread tofu evenly over a foil-lined rimmed baking sheet. Place in oven and bake until golden brown, about 20 minutes. Sauce may darken a little against the foil; this is fine. Set tofu aside.",

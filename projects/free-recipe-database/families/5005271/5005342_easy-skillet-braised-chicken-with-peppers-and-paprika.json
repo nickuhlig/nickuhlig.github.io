@@ -53,23 +53,27 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely sliced",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 291,
-      "name": "green bell pepper, finely sliced",
-      "quantity": "1"
+      "name": "green bell pepper",
+      "quantity": "1",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell pepper, finely sliced",
-      "quantity": "1"
+      "name": "red bell pepper",
+      "quantity": "1",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely sliced",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 1755,
@@ -103,6 +107,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely slice the onion. Finely slice the green bell pepper. Finely slice the red bell pepper. Finely slice the garlic.",
+      "secondary_message": "1 large onion\n1 green bell pepper\n1 red bell pepper\n2 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower middle position and preheat oven to 175°C (350°F) (175°C; see note). Lightly season chicken legs with salt and pepper. Heat oil in a 30-cm skillet or sauté pan over high heat until lightly smoking. Using tongs, carefully add chicken pieces skin-side-down. Cover with splatter screen or partially cover with lid to avoid splattering. Cook without moving until chicken is deep golden brown and skin is crisp, about 4 minutes. Flip chicken pieces and continue to cook until second side is golden brown, about 3 minutes longer. Transfer chicken to a large plate and set aside.",

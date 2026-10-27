@@ -101,8 +101,9 @@
     },
     {
       "ingredient_id": 1156,
-      "name": "Pepper Jack cheese, grated",
-      "quantity": "6 oz"
+      "name": "Pepper Jack cheese",
+      "quantity": "6 oz",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1794,
@@ -111,6 +112,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the Pepper Jack cheese.",
+      "secondary_message": "6 oz Pepper Jack cheese"
+    },
     {
       "id": 1,
       "primary_message": "Place a 10-inch cast iron skillet on middle rack in oven and preheat to 425°F. In a medium bowl, whisk together cornmeal, flour, sugar, baking powder, salt, and baking soda. In a separate medium bowl, whisk together sour cream, buttermilk, eggs, 3 tablespoons melted butter, and canola oil. Pour wet ingredients into bowl with dry ingredients and whisk until completely combined. Stir in cheese and jalapeños.",

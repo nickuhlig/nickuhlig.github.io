@@ -66,11 +66,18 @@
     },
     {
       "ingredient_id": 355,
-      "name": "plain full-fat cream cheese, cold",
-      "quantity": "227 g"
+      "name": "plain full-fat cream cheese",
+      "quantity": "227 g",
+      "prep": "cold"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the plain full-fat cream cheese cold until you use it.",
+      "secondary_message": "227 g plain full-fat cream cheese"
+    },
     {
       "id": 1,
       "primary_message": "With kitchen temperatures above 23°C, start by refrigerating the mixing bowl and sugar until they have cooled to 21°C. At elevated temperatures, these ingredients and equipment can act as a heat source to the cream, preventing full aeration.",

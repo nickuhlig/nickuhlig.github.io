@@ -39,8 +39,9 @@
   "ingredients": [
     {
       "ingredient_id": 1082,
-      "name": "cinnamon sticks, broken in half",
-      "quantity": "3"
+      "name": "cinnamon sticks",
+      "quantity": "3",
+      "prep": "broken in half"
     },
     {
       "ingredient_id": 1756,
@@ -104,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Break the cinnamon sticks in half.",
+      "secondary_message": "3 cinnamon sticks"
+    },
     {
       "id": 1,
       "primary_message": "For the Spiced Cranberry Cordial: Add cinnamon sticks, star anise, cardamom, and cloves to a saucepan and toast over medium heat, shaking pan frequently, until fragrant; make sure not to let them burn. Add water, sugar, orange peel, cranberries, lime juice, and salt and stir over medium-high heat until sugar dissolves. Bring to a simmer and cook, using a wooden spoon to smash fruit against side of pan, until all of the cranberries have popped. Remove from heat and let cool completely, 1 to 2 hours. Strain through a fine-mesh strainer into a resealable container. Cordial can be kept up to 3 weeks in the refrigerator.",

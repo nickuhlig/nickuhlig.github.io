@@ -61,19 +61,22 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, coarsely chopped",
-      "quantity": "1 large"
+      "name": "yellow onion",
+      "quantity": "1 large",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 2065,
-      "name": "bell peppers, coarsely chopped",
-      "quantity": "3 medium"
+      "name": "bell peppers",
+      "quantity": "3 medium",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 260,
-      "name": "green tomatoes, finely chopped",
+      "name": "green tomatoes",
       "quantity": "6",
-      "weigh_as": "1 ½ lb"
+      "weigh_as": "1 ½ lb",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 88,
@@ -117,6 +120,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Coarsely chop the yellow onion. Coarsely chop the bell peppers. Finely chop the green tomatoes.",
+      "secondary_message": "1 large yellow onion\n3 medium bell peppers\n6 green tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "In a food processor, pulse cabbage until finely chopped (pieces measure about ¼-inch), about 6 pulses. Transfer to a large nonreactive bowl (such as stainless steel or glass). In now-empty food processor, pulse the onion, red, green, and yellow bell peppers until finely chopped and add to bowl with cabbage. (Alternatively, use a sharp chef's knife to finely chop all ingredients by hand.) Stir tomatoes and salt into the bowl with cabbage until well combined. Let sit at room temperature until vegetables start to release moisture, about 20 minutes. Cover and refrigerate for at least 8 hours or up to 12 hours.",

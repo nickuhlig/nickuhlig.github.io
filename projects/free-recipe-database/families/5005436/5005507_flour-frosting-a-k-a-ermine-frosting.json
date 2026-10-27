@@ -75,8 +75,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened to about 65°F",
-      "quantity": "160 g"
+      "name": "unsalted butter",
+      "quantity": "160 g",
+      "prep": "softened to about 65°F"
     },
     {
       "ingredient_id": 353,
@@ -85,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter to about 65°F.",
+      "secondary_message": "160 g unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In a 25-cm skillet or 3-quart saucier, whisk together flour and milk. Place over medium heat, whisking constantly, and cook until thick and pudding-like, about 2 minutes. Off heat, add sugar and salt. Whisk until sugar has dissolved and the \"pudding\" is homogeneous but thin. Scrape mixture into a wide, shallow dish, such as a pie plate, and cool to approximately 21°C.",

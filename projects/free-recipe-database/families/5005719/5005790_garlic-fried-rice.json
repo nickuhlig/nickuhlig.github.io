@@ -48,8 +48,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, crushed and sliced thinly",
-      "quantity": "8 cloves"
+      "name": "garlic",
+      "quantity": "8 cloves",
+      "prep": "crushed and sliced thinly"
     },
     {
       "ingredient_id": 1905,
@@ -58,6 +59,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Crush and slice the garlic thinly.",
+      "secondary_message": "8 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "In a small saucepan, heat oil over medium heat until shimmering. Add garlic and cook, stirring constantly, until garlic softens, becomes very aromatic, and turns lightly golden, 30 seconds to 1 minute. Strain oil through a fine-mesh strainer directly into a wok; reserve cooked garlic and set aside.",

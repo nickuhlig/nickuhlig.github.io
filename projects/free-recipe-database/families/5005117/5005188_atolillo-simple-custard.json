@@ -64,8 +64,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 2 pieces",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "cut into 2 pieces"
     },
     {
       "ingredient_id": 353,
@@ -79,6 +80,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into 2 pieces.",
+      "secondary_message": "2 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Bring milk to boil on stovetop in small saucepan or in microwave-safe bowl in microwave.",

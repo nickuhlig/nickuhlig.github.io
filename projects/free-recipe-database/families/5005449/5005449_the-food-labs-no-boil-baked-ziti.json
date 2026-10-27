@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 1752,
@@ -100,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Beat the eggs.",
+      "secondary_message": "2 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Adjust an oven rack to the middle position and preheat the oven to 400°F. Place ziti in a large bowl and cover with hot salted water by 3 or 4 inches. Let sit at room temperature for 30 minutes, stirring after the first 5 minutes to prevent sticking. Drain.",

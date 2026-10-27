@@ -63,13 +63,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, sliced thin",
-      "quantity": "1"
+      "name": "shallot",
+      "quantity": "1",
+      "prep": "sliced thin"
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely minced",
-      "quantity": "1"
+      "name": "shallot",
+      "quantity": "1",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 1505,
@@ -113,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the shallot thin. Finely mince the shallot.",
+      "secondary_message": "1 shallot\n1 shallot"
+    },
     {
       "id": 1,
       "primary_message": "Season steaks generously on all surfaces with kosher salt and black pepper. Add vegetable oil to 12-inch, heavy-bottomed cast iron or stainless steel skillet. Heat over high heat until oil just begins to smoke. Add steaks to pan, and cook without moving until deep golden-brown crust develops on first side, three to four minutes. Flip steaks over.",

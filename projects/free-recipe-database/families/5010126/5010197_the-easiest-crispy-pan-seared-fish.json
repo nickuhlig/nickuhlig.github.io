@@ -68,8 +68,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 1684,
@@ -83,6 +84,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Beat the egg.",
+      "secondary_message": "1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center position and preheat oven to 150°C (300°F). Pat fish dry on paper towels and season generously with salt and pepper. Place flour, egg, and breadcrumbs in 3 separate shallow bowls or plates. Season each gently with salt and pepper. Working one piece at a time, lift fish and dip, presentation-side-down, in the flour, followed by the egg, followed by the breadcrumbs, pressing down firmly until a thick layer of breadcrumbs adheres. Place fish breaded-side-up on a clean plate and repeat with remaining fish.",

@@ -68,13 +68,15 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, cut into 1/4-inch dice",
-      "quantity": "½ small"
+      "name": "red onion",
+      "quantity": "½ small",
+      "prep": "cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 1541,
-      "name": "plum tomato, cut into 1/4-inch dice",
-      "quantity": "1"
+      "name": "plum tomato",
+      "quantity": "1",
+      "prep": "cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 291,
@@ -88,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the red onion into 1/4-inch dice. Cut the plum tomato into 1/4-inch dice.",
+      "secondary_message": "½ small red onion\n1 plum tomato"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, beat eggs vigorously with the salt and cayenne pepper until well mixed and frothy. Set aside for up to 15 minutes.",

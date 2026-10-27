@@ -44,8 +44,9 @@
   "ingredients": [
     {
       "ingredient_id": 2219,
-      "name": "hulled small strawberries, washed and dried",
-      "quantity": "24"
+      "name": "hulled small strawberries",
+      "quantity": "24",
+      "prep": "washed and dried"
     },
     {
       "ingredient_id": 359,
@@ -64,6 +65,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash and dry the hulled small strawberries.",
+      "secondary_message": "24 hulled small strawberries"
+    },
     {
       "id": 1,
       "primary_message": "Thread 2 to 3 strawberries, grapes, or a combination of fruits onto each skewer, leaving enough room to hold the skewer at the bottom; set aside. Line a rimmed baking sheet with parchment paper; set aside.",

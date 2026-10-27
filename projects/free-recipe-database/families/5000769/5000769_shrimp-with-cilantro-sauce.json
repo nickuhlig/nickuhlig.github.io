@@ -51,13 +51,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, roughly chopped",
-      "quantity": "4 medium"
+      "name": "garlic cloves",
+      "quantity": "4 medium",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1810,
-      "name": "Thai bird chiles, stemmed, to taste",
-      "quantity": "1 to 3"
+      "name": "Thai bird chiles, to taste",
+      "quantity": "1 to 3",
+      "prep": "stemmed"
     },
     {
       "ingredient_id": 1421,
@@ -91,8 +93,9 @@
     },
     {
       "ingredient_id": 1811,
-      "name": "shrimp, large or medium, peeled and deveined",
-      "quantity": "1 lb"
+      "name": "shrimp, large or medium",
+      "quantity": "1 lb",
+      "prep": "peeled and deveined"
     },
     {
       "ingredient_id": 1682,
@@ -111,11 +114,18 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, minced",
-      "quantity": "1 small"
+      "name": "white onion",
+      "quantity": "1 small",
+      "prep": "minced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the garlic cloves. Stem the Thai bird chiles. Peel and devein the shrimp. Mince the white onion.",
+      "secondary_message": "4 medium garlic cloves\n1 to 3 Thai bird chiles, to taste\n1 lb shrimp, large or medium\n1 small white onion"
+    },
     {
       "id": 1,
       "primary_message": "For the cilantro chutney and marinating the shrimp: In a blender, add 1/3 of the cilantro along with the garlic, chiles, 3 tablespoons lime juice, salt, and 1/4 cup water and blend, scraping down the sides of blender as needed, into a fine, soft paste, 30 to 60 seconds. Add remaining 2/3 of the cilantro, 1/4 cup water, remaining 3 tablespoons lime juice, cumin seeds, and sugar, and blend until smooth, scraping down the sides of the blender jar as needed, about 60 seconds. Season to taste with salt. The chutney should be smooth.",

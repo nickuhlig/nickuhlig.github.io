@@ -42,13 +42,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "grated"
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, peeled and grated",
-      "quantity": "1 tbsp"
+      "name": "fresh ginger",
+      "quantity": "1 tbsp",
+      "prep": "peeled and grated"
     },
     {
       "ingredient_id": 186,
@@ -82,8 +84,9 @@
     },
     {
       "ingredient_id": 228,
-      "name": "lime, cut into wedges",
-      "quantity": "1"
+      "name": "lime",
+      "quantity": "1",
+      "prep": "cut into wedges"
     },
     {
       "ingredient_id": 1682,
@@ -122,18 +125,21 @@
     },
     {
       "ingredient_id": 155,
-      "name": "English cucumber, trimmed, peeled, and sliced",
-      "quantity": "1 large"
+      "name": "English cucumber",
+      "quantity": "1 large",
+      "prep": "trimmed, peeled, and sliced"
     },
     {
       "ingredient_id": 92,
-      "name": "chickpeas, rinsed and drained",
-      "quantity": "1 (425 g) can"
+      "name": "chickpeas",
+      "quantity": "1 (425 g) can",
+      "prep": "rinsed and drained"
     },
     {
       "ingredient_id": 243,
-      "name": "fresh mint leaves, torn",
-      "quantity": "¼ cup"
+      "name": "fresh mint leaves",
+      "quantity": "¼ cup",
+      "prep": "torn"
     },
     {
       "ingredient_id": 188,
@@ -152,6 +158,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the garlic. Peel and grate the fresh ginger. Cut the lime into wedges. Trim, peel, and slice the English cucumber. Rinse and drain the chickpeas. Tear the fresh mint leaves.",
+      "secondary_message": "4 cloves garlic\n1 tbsp fresh ginger\n1 lime\n1 large English cucumber\n1 (425 g) can chickpeas\n¼ cup fresh mint leaves"
+    },
     {
       "id": 1,
       "primary_message": "For the Paneer: In a large mixing bowl, whisk the yogurt, garlic, ginger, cumin, paprika, turmeric, cayenne, and salt until smooth. Fold in the paneer pieces, cover the bowl with a lid or cling film and refrigerate for 1 hour, maximum overnight.",

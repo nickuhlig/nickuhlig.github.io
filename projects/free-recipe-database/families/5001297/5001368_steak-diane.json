@@ -56,8 +56,9 @@
   "ingredients": [
     {
       "ingredient_id": 1101,
-      "name": "center-cut filets mignon, 1 1/2 to 2 inches thick, trimmed",
-      "quantity": "0.45 kg"
+      "name": "center-cut filets mignon, 1 1/2 to 2 inches thick",
+      "quantity": "0.45 kg",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 88,
@@ -76,13 +77,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 4 pieces, divided",
-      "quantity": "4 tbsp"
+      "name": "unsalted butter, divided",
+      "quantity": "4 tbsp",
+      "prep": "cut into 4 pieces"
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, minced",
-      "quantity": "½ medium"
+      "name": "shallot",
+      "quantity": "½ medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 3687,
@@ -116,6 +119,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the center-cut filets mignon. Cut the unsalted butter into 4 pieces. Mince the shallot.",
+      "secondary_message": "0.45 kg center-cut filets mignon, 1 1/2 to 2 inches thick\n4 tbsp unsalted butter, divided\n½ medium shallot"
+    },
     {
       "id": 1,
       "primary_message": "Pat steaks dry with paper towels. Season liberally with salt. Allow to rest at room temperature for at least 40 minutes and up to 2 hours. Alternatively, place on a plate or on a wire rack over a baking sheet in the refrigerator for up to 24 hours.",

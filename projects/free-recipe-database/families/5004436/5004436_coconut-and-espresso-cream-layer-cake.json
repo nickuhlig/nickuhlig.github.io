@@ -104,8 +104,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "1 lb"
+      "name": "unsalted butter",
+      "quantity": "1 lb",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -124,13 +125,15 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 2475,
-      "name": "buttermilk, at room temperature",
-      "quantity": "1 cup"
+      "name": "buttermilk",
+      "quantity": "1 cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 353,
@@ -159,8 +162,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "3 oz"
+      "name": "cream cheese",
+      "quantity": "3 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1710,
@@ -174,8 +178,9 @@
     },
     {
       "ingredient_id": 1752,
-      "name": "heavy cream, chilled",
-      "quantity": "3 cups"
+      "name": "heavy cream",
+      "quantity": "3 cups",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 353,
@@ -184,6 +189,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature. Bring the eggs to room temperature. Bring the buttermilk to room temperature. Soften the cream cheese. Keep the heavy cream cold until you use it.",
+      "secondary_message": "1 lb unsalted butter\n4 large eggs\n1 cup buttermilk\n3 oz cream cheese\n3 cups heavy cream"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake Layers: Adjust oven racks to upper middle and lower middle positions and preheat oven to 350°F. Spray three 9-inch round baking pans with baking spray. Line bottoms of pans with parchment paper rounds and once again spray with baking spray.",

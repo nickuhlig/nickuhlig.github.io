@@ -52,18 +52,21 @@
     },
     {
       "ingredient_id": 1702,
-      "name": "skin-on boneless chicken thighs, cubed",
-      "quantity": "5 lb"
+      "name": "skin-on boneless chicken thighs",
+      "quantity": "5 lb",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 1554,
-      "name": "dried mango, finely chopped",
-      "quantity": "7 oz"
+      "name": "dried mango",
+      "quantity": "7 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 151,
-      "name": "finely chopped jalapeño, seeded",
-      "quantity": "¾ cup"
+      "name": "finely chopped jalapeño",
+      "quantity": "¾ cup",
+      "prep": "seeded"
     },
     {
       "ingredient_id": 188,
@@ -102,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cube the skin-on boneless chicken thighs. Finely chop the dried mango. Seed the finely chopped jalapeño.",
+      "secondary_message": "5 lb skin-on boneless chicken thighs\n7 oz dried mango\n¾ cup finely chopped jalapeño"
+    },
     {
       "id": 1,
       "primary_message": "Bring mango juice to a boil in a small saucepan over medium heat. Continue to boil until thickened and reduced to 1/4 cup. Remove from heat, cool to room temperature, then refrigerate until cold.",

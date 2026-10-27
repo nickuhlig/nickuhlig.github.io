@@ -64,18 +64,21 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "2 to 3 medium"
+      "name": "garlic cloves",
+      "quantity": "2 to 3 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2234,
-      "name": "jicama, peeled and cut into thin matchsticks",
-      "quantity": "4 oz"
+      "name": "jicama",
+      "quantity": "4 oz",
+      "prep": "peeled and cut into thin matchsticks"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and cut into thin matchsticks",
-      "quantity": "2 small"
+      "name": "carrots",
+      "quantity": "2 small",
+      "prep": "peeled and cut into thin matchsticks"
     },
     {
       "ingredient_id": 1971,
@@ -94,13 +97,15 @@
     },
     {
       "ingredient_id": 341,
-      "name": "ground pork, blotted dry to remove excess liquid",
-      "quantity": "8 oz"
+      "name": "ground pork",
+      "quantity": "8 oz",
+      "prep": "blotted dry to remove excess liquid"
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely chopped",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 153,
@@ -109,8 +114,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "5 medium"
+      "name": "garlic cloves",
+      "quantity": "5 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 346,
@@ -144,8 +150,9 @@
     },
     {
       "ingredient_id": 308,
-      "name": "butter lettuce, leaves separated",
-      "quantity": "1 head"
+      "name": "butter lettuce",
+      "quantity": "1 head",
+      "prep": "leaves separated"
     },
     {
       "ingredient_id": 2299,
@@ -164,6 +171,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic cloves. Peel and cut the jicama into thin matchsticks. Peel and cut the carrots into thin matchsticks. Blot the ground pork dry to remove excess liquid. Finely chop the shallot. Mince the garlic cloves. Separate the leaves of the butter lettuce.",
+      "secondary_message": "2 to 3 medium garlic cloves\n4 oz jicama\n2 small carrots\n8 oz ground pork\n1 small shallot\n5 medium garlic cloves\n1 head butter lettuce"
+    },
     {
       "id": 1,
       "primary_message": "For the Dipping Sauce: In a medium bowl, combine 1/2 cup warm water with the sugar, fish sauce, and lime juice and mix until sugar has fully dissolved. Stir in garlic and chile, if using, and set aside.",

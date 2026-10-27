@@ -158,8 +158,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, diced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 3686,
@@ -174,9 +175,10 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, grated on a box grater",
+      "name": "carrot",
       "quantity": "1 ¾ medium",
-      "weigh_as": "4 oz"
+      "weigh_as": "4 oz",
+      "prep": "grated on a box grater"
     },
     {
       "ingredient_id": 106,
@@ -220,6 +222,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the yellow onion. Grate the carrot on a box grater.",
+      "secondary_message": "1 medium yellow onion\n1 ¾ medium carrot"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower position and preheat oven to 300°F. In a small bowl, combine brown sugar, salt, garam masala, paprika, turmeric, ground ginger, onion powder, garlic powder, cumin, and cayenne pepper. If lamb is tied up, remove twine and unfurl on a work surface. Season lamb all over with 2 to 3 tablespoons spice mixture, making sure to rub it on all sides. Reserve remaining spice mixture.",

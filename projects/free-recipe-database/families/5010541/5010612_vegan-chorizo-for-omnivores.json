@@ -48,8 +48,9 @@
   "ingredients": [
     {
       "ingredient_id": 56,
-      "name": "extra-firm cottony tofu, drained and cut into 1-inch slices",
-      "quantity": "283 g"
+      "name": "extra-firm cottony tofu",
+      "quantity": "283 g",
+      "prep": "drained and cut into 1-inch slices"
     },
     {
       "ingredient_id": 2066,
@@ -58,8 +59,9 @@
     },
     {
       "ingredient_id": 2159,
-      "name": "black lentils, drained and rinsed",
-      "quantity": "1 (425 g) can"
+      "name": "black lentils",
+      "quantity": "1 (425 g) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 2839,
@@ -98,8 +100,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, diced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "diced"
     },
     {
       "ingredient_id": 88,
@@ -113,8 +116,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 3654,
@@ -143,8 +147,9 @@
     },
     {
       "ingredient_id": 1757,
-      "name": "cloves, toasted and ground",
-      "quantity": "3 whole"
+      "name": "cloves",
+      "quantity": "3 whole",
+      "prep": "toasted and ground"
     },
     {
       "ingredient_id": 1718,
@@ -163,6 +168,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain and cut the extra-firm cottony tofu into 1-inch slices. Drain and rinse the black lentils. Dice the onion. Mince the garlic. Toast and grind the cloves.",
+      "secondary_message": "283 g extra-firm cottony tofu\n1 (425 g) can black lentils\n1 medium onion\n3 medium cloves garlic\n3 whole cloves"
+    },
     {
       "id": 1,
       "primary_message": "Line a large plate with a double layer of paper towels. Place tofu on top in a single layer and transfer to freezer. Freeze for 15 minutes, then remove and let thaw while you prepare the other ingredients.",

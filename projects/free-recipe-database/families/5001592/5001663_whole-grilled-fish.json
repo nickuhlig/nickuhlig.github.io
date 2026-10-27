@@ -61,13 +61,15 @@
   "ingredients": [
     {
       "ingredient_id": 3670,
-      "name": "oil-cured olives, pitted",
-      "quantity": "142 g"
+      "name": "oil-cured olives",
+      "quantity": "142 g",
+      "prep": "pitted"
     },
     {
       "ingredient_id": 2012,
-      "name": "Kalamata olives, pitted",
-      "quantity": "½ cup"
+      "name": "Kalamata olives",
+      "quantity": "½ cup",
+      "prep": "pitted"
     },
     {
       "ingredient_id": 47,
@@ -81,8 +83,9 @@
     },
     {
       "ingredient_id": 1294,
-      "name": "whole peeled plum tomatoes from a can, minced",
-      "quantity": "2"
+      "name": "whole peeled plum tomatoes from a can",
+      "quantity": "2",
+      "prep": "minced"
     },
     {
       "ingredient_id": 3654,
@@ -121,6 +124,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pit the oil-cured olives. Pit the Kalamata olives. Mince the whole peeled plum tomatoes from a can.",
+      "secondary_message": "142 g oil-cured olives\n½ cup Kalamata olives\n2 whole peeled plum tomatoes from a can"
+    },
     {
       "id": 1,
       "primary_message": "For the Sauce: In a food processor, combine both types of olives, olive oil, and garlic and process to form a coarse paste. Stir in tomatoes and oregano and season with black pepper. Set aside.",

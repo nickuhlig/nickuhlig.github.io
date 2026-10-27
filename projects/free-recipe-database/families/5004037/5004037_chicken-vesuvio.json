@@ -35,18 +35,21 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "5 cloves"
+      "name": "garlic",
+      "quantity": "5 cloves",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 1039,
-      "name": "russet potatoes, peeled and cut into chunks",
-      "quantity": "2 large"
+      "name": "russet potatoes",
+      "quantity": "2 large",
+      "prep": "peeled and cut into chunks"
     },
     {
       "ingredient_id": 1230,
-      "name": "chicken, cut into 8 pieces",
-      "quantity": "4 lb"
+      "name": "chicken",
+      "quantity": "4 lb",
+      "prep": "cut into 8 pieces"
     },
     {
       "ingredient_id": 2101,
@@ -80,11 +83,18 @@
     },
     {
       "ingredient_id": 275,
-      "name": "frozen peas, thawed",
-      "quantity": "1 cup"
+      "name": "frozen peas",
+      "quantity": "1 cup",
+      "prep": "thawed"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the garlic. Peel and cut the russet potatoes into chunks. Cut the chicken into 8 pieces. Thaw the frozen peas.",
+      "secondary_message": "5 cloves garlic\n2 large russet potatoes\n4 lb chicken\n1 cup frozen peas"
+    },
     {
       "id": 1,
       "primary_message": "Heat an oven to 325°F. In a roasting pan (or a large (14-inch) oven-proof skillet), heat the olive oil over medium until shimmering. Add the potatoes and garlic and cook until golden brown, about 12 minutes. Remove to a plate, leaving behind as much oil as possible.",

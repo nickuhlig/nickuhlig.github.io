@@ -59,8 +59,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, room temperature",
-      "quantity": "8 tbsp"
+      "name": "butter",
+      "quantity": "8 tbsp",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 293,
@@ -84,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the butter to room temperature.",
+      "secondary_message": "8 tbsp butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Spiced Simple Syrup: Combine cinnamon, cloves, lemon, sugar, and water in a small saucepan and bring to a simmer over medium heat, stirring frequently. Cook until sugar has melted, remove from heat, and allow to cool to room temperature before straining. Syrup can be stored in an airtight container in the refrigerator for up to 5 days.",

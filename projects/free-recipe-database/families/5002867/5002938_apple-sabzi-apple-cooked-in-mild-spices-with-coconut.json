@@ -86,8 +86,9 @@
     },
     {
       "ingredient_id": 1692,
-      "name": "red apples cores removed, cut into 1/2-inch cubes",
-      "quantity": "2 medium"
+      "name": "red apples cores removed",
+      "quantity": "2 medium",
+      "prep": "cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 88,
@@ -101,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the red apples cores removed into 1/2-inch cubes.",
+      "secondary_message": "2 medium red apples cores removed"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in a medium saucepan over medium-high heat until shimmering. Add the black mustard seeds and the split black gram. Stir until they pop, about 1 minute. Add the curry leaves and step aside as they splutter. Stir until fragrant, about 10 seconds. Add the onions and cook, stirring frequently, until softened but not browned about 4 minutes. Add the coconut, green chills, chill powder, turmeric and coriander. Stir to coat the coconut with the spices and oil.",

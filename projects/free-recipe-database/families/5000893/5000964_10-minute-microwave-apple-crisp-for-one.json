@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into 4 pieces",
-      "quantity": "1 tbsp"
+      "name": "unsalted butter",
+      "quantity": "1 tbsp",
+      "prep": "cut into 4 pieces"
     },
     {
       "ingredient_id": 1692,
@@ -85,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into 4 pieces.",
+      "secondary_message": "1 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the topping: In a microwave-safe bowl, mix flour, sugar, oats, and salt together. Using fingers, rub butter into the flour mixture until the mixture has the texture of coarse breadcrumbs. Microwave on high power, stirring every 30 seconds, until golden and fragrant, 2 to 3 minutes. Transfer to a plate and let cool slightly while preparing the filling.",

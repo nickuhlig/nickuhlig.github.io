@@ -57,13 +57,15 @@
     },
     {
       "ingredient_id": 1385,
-      "name": "pork tenderloin, trimmed",
-      "quantity": "0.45 kg"
+      "name": "pork tenderloin",
+      "quantity": "0.45 kg",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 76,
@@ -77,11 +79,18 @@
     },
     {
       "ingredient_id": 428,
-      "name": "broccoli florets and stems, trimmed and cut into 1 inch pieces",
-      "quantity": "340 g"
+      "name": "broccoli florets and stems",
+      "quantity": "340 g",
+      "prep": "trimmed and cut into 1 inch pieces"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the pork tenderloin. Thinly slice the garlic. Trim and cut the broccoli florets and stems into 1 inch pieces.",
+      "secondary_message": "0.45 kg pork tenderloin\n2 cloves garlic\n340 g broccoli florets and stems"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position. Set a rimmed baking sheet on rack and preheat oven with empty sheet to 425℉ (220℃). In a medium bowl, toss sweet potatoes with 2 tablespoons oil, garam masala, and 1 3/4 teaspoons salt to combine. Working quickly, carefully spread into an even layer on preheated sheet and roast for 8 minutes, stirring once halfway through.",

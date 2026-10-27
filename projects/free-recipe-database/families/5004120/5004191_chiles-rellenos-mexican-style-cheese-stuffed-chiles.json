@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, split in half, unpeeled",
-      "quantity": "1 small"
+      "name": "yellow onion",
+      "quantity": "1 small",
+      "prep": "split in half, unpeeled"
     },
     {
       "ingredient_id": 1799,
@@ -71,8 +72,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, unpeeled",
-      "quantity": "6 medium cloves"
+      "name": "garlic",
+      "quantity": "6 medium cloves",
+      "prep": "unpeeled"
     },
     {
       "ingredient_id": 1231,
@@ -106,8 +108,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely diced",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 82,
@@ -141,8 +144,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, separated",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "separated"
     },
     {
       "ingredient_id": 2529,
@@ -151,6 +155,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Split the yellow onion in half, then leave unpeeled it. Leave the garlic unpeeled. Finely dice the onion. Separate the eggs.",
+      "secondary_message": "1 small yellow onion\n6 medium cloves garlic\n1 small onion\n4 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "For the Salsa Ranchera and Chiles: Adjust rack to 10 cm below broiler and preheat broiler to high. Place poblanos, tomatoes, onion, serranos, and garlic on a foil-lined rimmed baking sheet. Broil until chiles are blackened on top, about 5 minutes. Flip chiles to expose another un-blackened surface and continue broiling for another 5 minutes. Turn chiles one more time, flip tomatoes, and continue broiling until chiles are blackened all over, a few minutes longer.",

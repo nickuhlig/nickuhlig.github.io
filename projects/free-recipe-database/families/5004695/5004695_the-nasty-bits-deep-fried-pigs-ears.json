@@ -38,18 +38,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, peeled and washed",
-      "quantity": "1"
+      "name": "onion",
+      "quantity": "1",
+      "prep": "peeled and washed"
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, coarse chopped",
-      "quantity": "2"
+      "name": "carrots",
+      "quantity": "2",
+      "prep": "coarse chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "celery, chopped",
-      "quantity": "2 stalks"
+      "name": "celery",
+      "quantity": "2 stalks",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1008,
@@ -83,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and wash the onion. Coarsely chop the carrots. Chop the celery.",
+      "secondary_message": "1 onion\n2 carrots\n2 stalks celery"
+    },
     {
       "id": 1,
       "primary_message": "Bring a large pot of water to boil. Add the ears and let boil for 2 or 3 minutes to get rid of some of the impurities. Remove the ears from the pot and set aside.",

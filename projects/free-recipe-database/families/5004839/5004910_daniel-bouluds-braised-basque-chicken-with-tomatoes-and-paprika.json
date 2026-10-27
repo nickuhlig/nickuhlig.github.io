@@ -32,8 +32,9 @@
   "ingredients": [
     {
       "ingredient_id": 1754,
-      "name": "Spanish chorizo, sliced 1/4-inch thick",
-      "quantity": "113 g"
+      "name": "Spanish chorizo",
+      "quantity": "113 g",
+      "prep": "sliced 1/4-inch thick"
     },
     {
       "ingredient_id": 1986,
@@ -57,13 +58,15 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onions, sliced",
-      "quantity": "2 small"
+      "name": "red onions",
+      "quantity": "2 small",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, thinly sliced",
-      "quantity": "6 cloves"
+      "name": "garlic cloves",
+      "quantity": "6 cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 287,
@@ -77,8 +80,9 @@
     },
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, halved",
-      "quantity": "1 cup"
+      "name": "cherry tomatoes",
+      "quantity": "1 cup",
+      "prep": "halved"
     },
     {
       "ingredient_id": 83,
@@ -92,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the Spanish chorizo 1/4-inch thick. Slice the red onions. Thinly slice the garlic cloves. Halve the cherry tomatoes.",
+      "secondary_message": "113 g Spanish chorizo\n2 small red onions\n6 cloves garlic cloves\n1 cup cherry tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "Adjust the oven rack to the bottom-third position and preheat the oven to 175°C (350°F). Meanwhile, set a large ovenproof skillet over medium heat and add the chorizo. Cook, stirring occasionally, until chorizo has rendered some fat and is starting to brown. Remove chorizo with a slotted spoon and drain on some paper towels.",

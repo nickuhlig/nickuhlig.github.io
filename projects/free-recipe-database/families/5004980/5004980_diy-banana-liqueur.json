@@ -44,8 +44,9 @@
   "ingredients": [
     {
       "ingredient_id": 317,
-      "name": "bananas, peeled and sliced",
-      "quantity": "2"
+      "name": "bananas",
+      "quantity": "2",
+      "prep": "peeled and sliced"
     },
     {
       "ingredient_id": 1067,
@@ -64,6 +65,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and slice the bananas.",
+      "secondary_message": "2 bananas"
+    },
     {
       "id": 1,
       "primary_message": "Place banana slices in a sealable glass jar, then add rum. Seal and shake. Let mixture steep for 3 days at room temperature away from direct sunlight. Strain out the fruit, then filter mixture through two layers of cheesecloth, pressing down to extract liquid. Repeat the straining to get any debris that made it through the initial pass. (See notes.)",

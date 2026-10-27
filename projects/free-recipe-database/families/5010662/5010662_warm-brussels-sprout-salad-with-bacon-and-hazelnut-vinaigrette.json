@@ -49,8 +49,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely minced",
-      "quantity": "1 small"
+      "name": "shallot",
+      "quantity": "1 small",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 103,
@@ -69,8 +70,9 @@
     },
     {
       "ingredient_id": 302,
-      "name": "bacon, cut into 1/2-inch pieces",
-      "quantity": "3 oz"
+      "name": "bacon",
+      "quantity": "3 oz",
+      "prep": "cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 88,
@@ -84,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the shallot. Cut the bacon into 1/2-inch pieces.",
+      "secondary_message": "1 small shallot\n3 oz bacon"
+    },
     {
       "id": 1,
       "primary_message": "Trim off bottoms of Brussels sprouts and separate leaves that are released. Transfer leaves to a large bowl. Continue trimming off the bottom and removing released leaves until only the very central core remains.",

@@ -53,9 +53,10 @@
     },
     {
       "ingredient_id": 260,
-      "name": "very ripe tomatoes, cored and cut into rough 1-inch chunks",
+      "name": "very ripe tomatoes",
       "quantity": "11",
-      "weigh_as": "1.36 kg"
+      "weigh_as": "1.36 kg",
+      "prep": "cored and cut into rough 1-inch chunks"
     },
     {
       "ingredient_id": 88,
@@ -75,9 +76,10 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, peeled and cut into rough 1-inch chunks",
+      "name": "red onion",
       "quantity": "1 ⅓ medium",
-      "weigh_as": "0.15 kg"
+      "weigh_as": "0.15 kg",
+      "prep": "peeled and cut into rough 1-inch chunks"
     },
     {
       "ingredient_id": 291,
@@ -92,8 +94,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and smashed",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "peeled and smashed"
     },
     {
       "ingredient_id": 47,
@@ -107,6 +110,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Core and cut the very ripe tomatoes into rough 1-inch chunks. Peel and cut the red onion into rough 1-inch chunks. Peel and smash the garlic.",
+      "secondary_message": "11 very ripe tomatoes\n1 ⅓ medium red onion\n2 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Place bread in bottom of a large bowl. Add half of the tomatoes in an even layer on top and season generously with salt and pepper. Add cucumber, onion, bell pepper, and garlic. Sprinkle with oregano and season generously with salt and pepper. Add remaining tomatoes and sprinkle with more salt and pepper. Drizzle oil and vinegar over the top. Let rest at room temperature for 30 minutes.",

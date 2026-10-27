@@ -67,18 +67,21 @@
     },
     {
       "ingredient_id": 118,
-      "name": "whole milk, lukewarm",
-      "quantity": "4 ¼ fl oz"
+      "name": "whole milk",
+      "quantity": "4 ¼ fl oz",
+      "prep": "lukewarm"
     },
     {
       "ingredient_id": 359,
-      "name": "water, lukewarm",
-      "quantity": "4 ¼ fl oz"
+      "name": "water",
+      "quantity": "4 ¼ fl oz",
+      "prep": "lukewarm"
     },
     {
       "ingredient_id": 121,
-      "name": "egg, at room temperature",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -87,8 +90,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter unsalted butter, softened and cut into 3 pieces",
-      "quantity": "3 tbsp"
+      "name": "butter unsalted butter",
+      "quantity": "3 tbsp",
+      "prep": "softened and cut into 3 pieces"
     },
     {
       "ingredient_id": 1044,
@@ -112,9 +116,10 @@
     },
     {
       "ingredient_id": 260,
-      "name": "tomatoes, finely diced and lightly salted",
+      "name": "tomatoes",
       "quantity": "6",
-      "weigh_as": "1 ½ lb"
+      "weigh_as": "1 ½ lb",
+      "prep": "finely diced and lightly salted"
     },
     {
       "ingredient_id": 183,
@@ -123,13 +128,15 @@
     },
     {
       "ingredient_id": 479,
-      "name": "sauerkraut, drained",
-      "quantity": "1 (16 fl oz) jar"
+      "name": "sauerkraut",
+      "quantity": "1 (16 fl oz) jar",
+      "prep": "drained"
     },
     {
       "ingredient_id": 1199,
-      "name": "giardiniera, drained and finely chopped",
-      "quantity": "1 (16 fl oz) jar"
+      "name": "giardiniera",
+      "quantity": "1 (16 fl oz) jar",
+      "prep": "drained and finely chopped"
     },
     {
       "ingredient_id": 267,
@@ -153,6 +160,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Warm the whole milk until lukewarm. Warm the water until lukewarm. Bring the egg to room temperature. Cut the butter unsalted butter into 3 pieces and soften it. Finely dice and lightly salt the tomatoes. Drain the sauerkraut. Drain and finely chop the giardiniera.",
+      "secondary_message": "4 ¼ fl oz whole milk\n4 ¼ fl oz water\n1 large egg\n3 tbsp butter unsalted butter\n6 tomatoes\n1 (16 fl oz) jar sauerkraut\n1 (16 fl oz) jar giardiniera"
+    },
     {
       "id": 1,
       "primary_message": "For the Completo Buns: (If using store bought hoagie buns, skip to step 9) In the bowl of a stand mixer, whisk together flour, yeast, and salt. In a 4-cup liquid measuring cup or large bowl, whisk water, milk, egg, and sugar until sugar is dissolved.",

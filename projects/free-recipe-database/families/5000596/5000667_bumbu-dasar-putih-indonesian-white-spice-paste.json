@@ -58,8 +58,9 @@
   "ingredients": [
     {
       "ingredient_id": 2122,
-      "name": "whole candlenuts, crushed",
-      "quantity": "10"
+      "name": "whole candlenuts",
+      "quantity": "10",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 1514,
@@ -68,13 +69,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "Asian shallots, coarsely chopped",
-      "quantity": "16 small"
+      "name": "Asian shallots",
+      "quantity": "16 small",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and smashed",
-      "quantity": "8 medium cloves"
+      "name": "garlic",
+      "quantity": "8 medium cloves",
+      "prep": "peeled and smashed"
     },
     {
       "ingredient_id": 88,
@@ -93,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Crush the whole candlenuts. Coarsely chop the Asian shallots. Peel and smash the garlic.",
+      "secondary_message": "10 whole candlenuts\n16 small Asian shallots\n8 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "In a small stainless-steel skillet, toast candlenuts over medium heat, stirring occasionally, until lightly browned and aromatic, 5 to 6 minutes. Transfer toasted nuts to a small bowl and set aside.",

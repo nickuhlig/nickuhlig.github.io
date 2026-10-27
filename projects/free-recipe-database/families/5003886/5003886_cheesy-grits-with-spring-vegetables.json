@@ -115,8 +115,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely minced",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 2346,
@@ -145,11 +146,18 @@
     },
     {
       "ingredient_id": 121,
-      "name": "poached eggs, kept warm in a bowl of hot water",
-      "quantity": "4"
+      "name": "poached eggs",
+      "quantity": "4",
+      "prep": "kept warm in a bowl of hot water"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the shallot. Keep the poached eggs warm in a bowl of hot water.",
+      "secondary_message": "1 medium shallot\n4 poached eggs"
+    },
     {
       "id": 1,
       "primary_message": "Bring a large pot of salted water to a boil and prepare an ice bath. Add asparagus to water and cook until bright green and tender-crisp, about 2 minutes. Transfer to ice bath until chilled. Drain and transfer to a paper towel-lined tray. Repeat with fava beans, snap peas, and English peas. Cafefully peel outer shells from each fava bean and discard. Set all vegetables aside.",

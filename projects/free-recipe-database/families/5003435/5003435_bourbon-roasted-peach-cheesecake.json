@@ -79,8 +79,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "1 ¼ lb"
+      "name": "unsalted butter",
+      "quantity": "1 ¼ lb",
+      "prep": "melted"
     },
     {
       "ingredient_id": 1782,
@@ -104,13 +105,15 @@
     },
     {
       "ingredient_id": 327,
-      "name": "toasted pecans, finely chopped",
-      "quantity": "½ cup"
+      "name": "toasted pecans",
+      "quantity": "½ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "4 oz"
+      "name": "unsalted butter",
+      "quantity": "4 oz",
+      "prep": "melted"
     },
     {
       "ingredient_id": 293,
@@ -124,13 +127,15 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, separated and at room temperature",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "separated and at room temperature"
     },
     {
       "ingredient_id": 1938,
-      "name": "vanilla bean pods, seeds scraped out",
-      "quantity": "2"
+      "name": "vanilla bean pods",
+      "quantity": "2",
+      "prep": "seeds scraped out"
     },
     {
       "ingredient_id": 346,
@@ -154,6 +159,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Finely chop the toasted pecans. Melt the unsalted butter. Separate the eggs and bring them to room temperature. Scrape out the seeds from the vanilla bean pods.",
+      "secondary_message": "1 ¼ lb unsalted butter\n½ cup toasted pecans\n4 oz unsalted butter\n4 large eggs\n2 vanilla bean pods"
+    },
     {
       "id": 1,
       "primary_message": "For the Bourbon Roasted Peaches: Adjust oven racks to upper-middle and lower-middle positions and preheat oven to 450°F. Line 2 rimmed baking sheets with foil.",

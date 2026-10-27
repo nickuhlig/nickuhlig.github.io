@@ -69,8 +69,9 @@
     },
     {
       "ingredient_id": 216,
-      "name": "pine nuts, lightly toasted",
-      "quantity": "½ cup"
+      "name": "pine nuts",
+      "quantity": "½ cup",
+      "prep": "lightly toasted"
     },
     {
       "ingredient_id": 24,
@@ -89,8 +90,9 @@
     },
     {
       "ingredient_id": 120,
-      "name": "Parmesan cheese, grated, plus extra for serving on side",
-      "quantity": "85 g"
+      "name": "Parmesan cheese, plus extra for serving on side",
+      "quantity": "85 g",
+      "prep": "grated"
     },
     {
       "ingredient_id": 72,
@@ -109,6 +111,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly toast the pine nuts. Grate the Parmesan cheese.",
+      "secondary_message": "½ cup pine nuts\n85 g Parmesan cheese, plus extra for serving on side"
+    },
     {
       "id": 1,
       "primary_message": "In large container, dissolve 1/4 cup salt and 2 tablespoons sugar in 2 cups warm water. Place chicken in brine and chill for one hour.",

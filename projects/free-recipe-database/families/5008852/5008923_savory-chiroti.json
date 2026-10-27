@@ -85,8 +85,9 @@
     },
     {
       "ingredient_id": 1267,
-      "name": "ghee, melted",
-      "quantity": "2 tbsp"
+      "name": "ghee",
+      "quantity": "2 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 1936,
@@ -100,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the ghee.",
+      "secondary_message": "2 tbsp ghee"
+    },
     {
       "id": 1,
       "primary_message": "Start the Dough: In a medium mixing bowl, thoroughly whisk together all-purpose flour, semolina flour, salt, and pepper. Add ghee to bowl and, using your hand, rub it into dry ingredients until well incorporated. Slowly drizzle in water, while mixing with your hand, until a firm yet supple dough forms; add the water slowly and make sure to mix it well as you go, as you may need slightly more or less water to reach the desired dough consistency. Cover bowl with plastic wrap and allow dough to rest at room temperature for 1 hour.",

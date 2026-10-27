@@ -64,8 +64,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into 1/4-inch cubes and refrigerated",
-      "quantity": "113 g"
+      "name": "cold unsalted butter",
+      "quantity": "113 g",
+      "prep": "cut into 1/4-inch cubes and refrigerated"
     },
     {
       "ingredient_id": 118,
@@ -74,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cold unsalted butter into 1/4-inch cubes, then refrigerate it.",
+      "secondary_message": "113 g cold unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 200°C (400°F) and line a baking sheet with parchment paper; alternatively, grease the baking sheet with butter.",

@@ -37,8 +37,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, divided, melted",
-      "quantity": "10 tbsp (5 oz)"
+      "name": "unsalted butter, divided",
+      "quantity": "10 tbsp (5 oz)",
+      "prep": "melted"
     },
     {
       "ingredient_id": 293,
@@ -47,8 +48,9 @@
     },
     {
       "ingredient_id": 229,
-      "name": "mangoes, peeled, sliced",
-      "quantity": "2 large"
+      "name": "mangoes",
+      "quantity": "2 large",
+      "prep": "peeled, sliced"
     },
     {
       "ingredient_id": 346,
@@ -82,8 +84,9 @@
     },
     {
       "ingredient_id": 462,
-      "name": "shredded sweetened coconut, chopped",
-      "quantity": "¼ cup"
+      "name": "shredded sweetened coconut",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 331,
@@ -92,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Peel and slice the mangoes. Chop the shredded sweetened coconut.",
+      "secondary_message": "10 tbsp (5 oz) unsalted butter, divided\n2 large mangoes\n¼ cup shredded sweetened coconut"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350°F. Pour 4 tablespoons melted butter into 9-inch cake pan and swirl to coat bottom. Evenly sprinkle brown sugar into bottom of pan. Arrange mango slices in one even layer over sugar.",

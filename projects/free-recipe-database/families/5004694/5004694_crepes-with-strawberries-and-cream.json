@@ -42,8 +42,9 @@
   "ingredients": [
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 118,
@@ -77,8 +78,9 @@
     },
     {
       "ingredient_id": 242,
-      "name": "strawberries, quartered",
-      "quantity": "1 ½ lb (24 oz)"
+      "name": "strawberries",
+      "quantity": "1 ½ lb (24 oz)",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 346,
@@ -102,6 +104,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Beat the eggs. Quarter the strawberries.",
+      "secondary_message": "2 large eggs\n1 ½ lb (24 oz) strawberries"
+    },
     {
       "id": 1,
       "primary_message": "For the Strawberries and Cream: Combine cream and sugar in a large bowl. Using a hand blender or a whisk, whisk cream and sugar together until cream reaches stiff peaks. Cover and keep cool in the fridge.",

@@ -65,8 +65,9 @@
     },
     {
       "ingredient_id": 1692,
-      "name": "Pink Lady apples, cored and cut into 1/2-inch pieces",
-      "quantity": "2 large"
+      "name": "Pink Lady apples",
+      "quantity": "2 large",
+      "prep": "cored and cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 150,
@@ -90,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Core and cut the Pink Lady apples into 1/2-inch pieces.",
+      "secondary_message": "2 large Pink Lady apples"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, combine cucumber pieces and reserved seeds, scallion whites, sugar, red pepper flakes, 2 tablespoons rice vinegar, and 1 teaspoon kosher salt. Stir until evenly combined and let sit at room temperature until water is released from cucumbers, about 10 minutes.",

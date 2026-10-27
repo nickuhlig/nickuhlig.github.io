@@ -49,13 +49,15 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow Spanish onion, thinly sliced",
-      "quantity": "½ large"
+      "name": "yellow Spanish onion",
+      "quantity": "½ large",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced lengthwise",
-      "quantity": "12 cloves"
+      "name": "garlic",
+      "quantity": "12 cloves",
+      "prep": "thinly sliced lengthwise"
     },
     {
       "ingredient_id": 1776,
@@ -169,6 +171,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the yellow Spanish onion. Thinly slice the garlic lengthwise.",
+      "secondary_message": "½ large yellow Spanish onion\n12 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Fennel Sausage: Toast the fennel seeds in a small skillet over high heat, shaking the skillet to keep the seeds from burning, until they are fragrant, about 1 minute. Pour the seeds onto a plate and set aside to cool to room temperature.",

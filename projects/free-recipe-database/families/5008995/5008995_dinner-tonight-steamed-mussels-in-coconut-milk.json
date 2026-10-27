@@ -39,13 +39,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, thinly sliced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 221,
-      "name": "ginger, minced",
-      "quantity": "1 tbsp"
+      "name": "ginger",
+      "quantity": "1 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 76,
@@ -74,8 +76,9 @@
     },
     {
       "ingredient_id": 2132,
-      "name": "mussels, scrubbed and debearded",
-      "quantity": "3 lb"
+      "name": "mussels",
+      "quantity": "3 lb",
+      "prep": "scrubbed and debearded"
     },
     {
       "ingredient_id": 1480,
@@ -84,11 +87,18 @@
     },
     {
       "ingredient_id": 188,
-      "name": "fresh cilantro, chopped",
-      "quantity": "1 handful"
+      "name": "fresh cilantro",
+      "quantity": "1 handful",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the onion. Mince the ginger. Scrub and debeard the mussels. Chop the fresh cilantro.",
+      "secondary_message": "1 medium onion\n1 tbsp ginger\n3 lb mussels\n1 handful fresh cilantro"
+    },
     {
       "id": 1,
       "primary_message": "Pour the oil into a large pot over medium high heat. Toss in the onions and cook, stirring often, until lightly browned. Add the ginger and cook for 1 minute, stirring often. Add the coriander, turmeric, and cayenne and cook for another minute, again stirring often.",

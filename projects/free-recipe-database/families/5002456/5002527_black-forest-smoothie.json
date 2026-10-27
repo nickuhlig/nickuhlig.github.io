@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 317,
-      "name": "peeled frozen ripe banana, cut into 4 pieces",
-      "quantity": "1 large"
+      "name": "peeled frozen ripe banana",
+      "quantity": "1 large",
+      "prep": "cut into 4 pieces"
     },
     {
       "ingredient_id": 328,
@@ -71,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the peeled frozen ripe banana into 4 pieces.",
+      "secondary_message": "1 large peeled frozen ripe banana"
+    },
     {
       "id": 1,
       "primary_message": "In a blender, combine frozen cherries, banana, spinach (if using), milk, cocoa powder, cacao nibs, and salt. Pulse a few times to break the banana, then blend on high speed until smooth and creamy, stopping to scrape down sides as needed, 1 to 2 minutes. Divide evenly between 2 glasses. Top with extra cacao nibs and fresh cherries, if desired. Serve.",

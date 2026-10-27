@@ -52,30 +52,35 @@
     },
     {
       "ingredient_id": 1993,
-      "name": "Scotch bonnet peppers, stemmed",
-      "quantity": "227 to 340 g"
+      "name": "Scotch bonnet peppers",
+      "quantity": "227 to 340 g",
+      "prep": "stemmed"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, ends trimmed and roughly chopped",
+      "name": "scallions",
       "quantity": "2 ½ small bunches",
-      "weigh_as": "170 g"
+      "weigh_as": "170 g",
+      "prep": "ends trimmed and roughly chopped"
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, peeled and roughly chopped",
+      "name": "fresh ginger",
       "quantity": "11 (1 inch) pieces",
-      "weigh_as": "113 g"
+      "weigh_as": "113 g",
+      "prep": "peeled and roughly chopped"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, roughly chopped",
-      "quantity": "½ medium"
+      "name": "yellow onion",
+      "quantity": "½ medium",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, cloves peeled",
-      "quantity": "1 whole head"
+      "name": "garlic",
+      "quantity": "1 whole head",
+      "prep": "cloves peeled"
     },
     {
       "ingredient_id": 88,
@@ -84,8 +89,9 @@
     },
     {
       "ingredient_id": 287,
-      "name": "fresh thyme sprigs, thicker woody stems removed",
-      "quantity": "28 g"
+      "name": "fresh thyme sprigs",
+      "quantity": "28 g",
+      "prep": "thicker woody stems removed"
     },
     {
       "ingredient_id": 1865,
@@ -129,6 +135,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem the Scotch bonnet peppers. Trim the ends of the scallions, then roughly chop them. Peel and roughly chop the fresh ginger. Roughly chop the yellow onion. Peel the cloves from the garlic. Remove the thicker woody stems from the fresh thyme sprigs.",
+      "secondary_message": "227 to 340 g Scotch bonnet peppers\n2 ½ small bunches scallions\n11 (1 inch) pieces fresh ginger\n½ medium yellow onion\n1 whole head garlic\n28 g fresh thyme sprigs"
+    },
     {
       "id": 1,
       "primary_message": "For the Jerk Marinade: In a blender, combine water, Scotch bonnet peppers, scallions, ginger, onion, garlic, salt, thyme springs, allspice berries and browning, if using. Blend into a smooth puree, (in batches if needed), about 1 minute. (see notes)",

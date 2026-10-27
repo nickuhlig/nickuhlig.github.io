@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 183,
-      "name": "avocado, thinly sliced",
-      "quantity": "1"
+      "name": "avocado",
+      "quantity": "1",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1565,
@@ -61,6 +62,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the avocado.",
+      "secondary_message": "1 avocado"
+    },
     {
       "id": 1,
       "primary_message": "Toast bread to desired level of doneness. Top with refried beans and avocado (mash with a fork if desired). Add slivered onions, sprinkle with salt, and serve.",

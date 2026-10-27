@@ -36,9 +36,10 @@
   "ingredients": [
     {
       "ingredient_id": 26,
-      "name": "asparagus, trimmed and halved",
+      "name": "asparagus",
       "quantity": "¾ bunch",
-      "weigh_as": "12 oz"
+      "weigh_as": "12 oz",
+      "prep": "trimmed and halved"
     },
     {
       "ingredient_id": 47,
@@ -57,8 +58,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested",
-      "quantity": "¼"
+      "name": "lemon",
+      "quantity": "¼",
+      "prep": "zested"
     },
     {
       "ingredient_id": 88,
@@ -72,6 +74,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim and halve the asparagus. Zest the lemon.",
+      "secondary_message": "¾ bunch asparagus\n¼ lemon"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 425°F. Line a rimmed baking sheet with parchment paper. Toss the asparagus with all the other other ingredients on the baking sheet until combined. Roast for 10 to 12 minutes. Serve immediately.",

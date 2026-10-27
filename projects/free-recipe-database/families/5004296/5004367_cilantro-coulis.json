@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 188,
-      "name": "cilantro, washed, thick stems removed",
-      "quantity": "1 bunch"
+      "name": "cilantro",
+      "quantity": "1 bunch",
+      "prep": "washed, thick stems removed"
     },
     {
       "ingredient_id": 359,
@@ -65,11 +66,18 @@
     },
     {
       "ingredient_id": 2524,
-      "name": "Xanthan gum, 0.25% of total blended ingredients above",
-      "quantity": ""
+      "name": "Xanthan gum",
+      "quantity": "",
+      "prep": "0.25% of total blended ingredients above"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash the cilantro, then thickly remove the stems. Blend the 0.25% of total of the Xanthan gum ingredients above.",
+      "secondary_message": "1 bunch cilantro\nXanthan gum"
+    },
     {
       "id": 1,
       "primary_message": "Weigh blender on scale and note weight in grams.",

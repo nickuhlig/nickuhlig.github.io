@@ -57,8 +57,9 @@
   "ingredients": [
     {
       "ingredient_id": 2216,
-      "name": "stemmed and pitted cherries, roughly chopped",
-      "quantity": "2 cups"
+      "name": "stemmed and pitted cherries",
+      "quantity": "2 cups",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 346,
@@ -87,8 +88,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, lightly beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 1915,
@@ -97,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the stemmed and pitted cherries. Lightly beat the egg.",
+      "secondary_message": "2 cups stemmed and pitted cherries\n1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "In a medium sauce pan combine cherries, 1/4 cup sugar, and lemon zest. In a small bowl whisk together lemon juice, corn starch, and vanilla. Pour mixture over cherries and stir to incorporate. Heat cherries over medium high heat, stirring frequently until juices come together to form thick sauce. Remove from heat, cover and refrigerate until cool, at least 1 hour.",

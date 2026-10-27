@@ -66,13 +66,15 @@
     },
     {
       "ingredient_id": 1729,
-      "name": "dark chocolate, shaved fine with a vegetable peeler",
-      "quantity": "57 g"
+      "name": "dark chocolate",
+      "quantity": "57 g",
+      "prep": "shaved fine with a vegetable peeler"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "0.23 kg"
+      "name": "unsalted butter",
+      "quantity": "0.23 kg",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 293,
@@ -86,8 +88,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemons, zested",
-      "quantity": "3"
+      "name": "lemons",
+      "quantity": "3",
+      "prep": "zested"
     },
     {
       "ingredient_id": 88,
@@ -111,6 +114,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shave the dark chocolate fine with a vegetable peeler. Bring the unsalted butter to room temperature. Zest the lemons.",
+      "secondary_message": "57 g dark chocolate\n0.23 kg unsalted butter\n3 lemons"
+    },
     {
       "id": 1,
       "primary_message": "For basil chocolate chip ice cream: In a medium saucepan, bring half-and-half to a simmer, then add basil and salt. Cover and barely simmer for 10 to 15 minutes, stirring occasionally. Meanwhile, in a large bowl, whisk sugar into egg yolks until they lighten in color and become thick and ribbon-like.",

@@ -72,13 +72,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, finely minced",
-      "quantity": "4 small"
+      "name": "garlic cloves",
+      "quantity": "4 small",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, peeled and finely grated",
-      "quantity": "1 (1 ½ cm) (10 g) piece"
+      "name": "fresh ginger",
+      "quantity": "1 (1 ½ cm) (10 g) piece",
+      "prep": "peeled and finely grated"
     },
     {
       "ingredient_id": 1541,
@@ -112,6 +114,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the garlic cloves. Peel and finely grate the fresh ginger.",
+      "secondary_message": "4 small garlic cloves\n1 (1 ½ cm) (10 g) piece fresh ginger"
+    },
     {
       "id": 1,
       "primary_message": "For the Scrambled Eggs: In a medium bowl, thoroughly whisk together eggs with salt, water, and 2 teaspoons oil.",

@@ -68,16 +68,24 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely sliced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 1390,
-      "name": "chorizo, finely sliced or diced",
-      "quantity": "85 g"
+      "name": "chorizo",
+      "quantity": "85 g",
+      "prep": "finely sliced or diced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely slice the onion. Finely slice or dice the chorizo.",
+      "secondary_message": "1 medium onion\n85 g chorizo"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, whisk eggs together with 1 teaspoon salt and 1/2 teaspoon black pepper. Set aside.",

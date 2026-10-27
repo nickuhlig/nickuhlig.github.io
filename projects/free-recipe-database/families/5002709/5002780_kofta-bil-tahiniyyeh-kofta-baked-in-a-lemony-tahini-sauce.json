@@ -42,8 +42,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely chopped",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1808,
@@ -92,8 +93,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated or finely minced",
-      "quantity": "1 medium clove"
+      "name": "garlic",
+      "quantity": "1 medium clove",
+      "prep": "grated or finely minced"
     },
     {
       "ingredient_id": 88,
@@ -112,6 +114,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the yellow onion. Grate or finely mince the garlic.",
+      "secondary_message": "1 medium yellow onion\n1 medium clove garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Kofta: Adjust oven rack to middle position and preheat oven to 220°C (425°F).",

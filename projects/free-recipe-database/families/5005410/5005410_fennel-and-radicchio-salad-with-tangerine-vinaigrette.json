@@ -42,8 +42,9 @@
     },
     {
       "ingredient_id": 2520,
-      "name": "radicchio, halved, cored, and thinly sliced",
-      "quantity": "1 medium head"
+      "name": "radicchio",
+      "quantity": "1 medium head",
+      "prep": "halved, cored, and thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -67,6 +68,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve, core, and thinly slice the radicchio.",
+      "secondary_message": "1 medium head radicchio"
+    },
     {
       "id": 1,
       "primary_message": "In a large salad bowl, combine thinly sliced fennel and radicchio and season with salt and pepper. Whisk or shake vinaigrette to emulsify, then drizzle a small amount into salad bowl. Using clean hands, toss salad to coat, adding more vinaigrette as needed until fennel and radicchio are thoroughly coated but not dripping. Season with salt and pepper, if necessary, and serve immediately. Any leftover vinaigrette will keep in the refrigerator for up to 5 days.",

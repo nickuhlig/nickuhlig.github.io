@@ -53,9 +53,10 @@
   "ingredients": [
     {
       "ingredient_id": 260,
-      "name": "very ripe tomatoes, cored and cut into rough 1-inch chunks",
+      "name": "very ripe tomatoes",
       "quantity": "11",
-      "weigh_as": "3 lb"
+      "weigh_as": "3 lb",
+      "prep": "cored and cut into rough 1-inch chunks"
     },
     {
       "ingredient_id": 1980,
@@ -65,9 +66,10 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, peeled and cut into rough 1-inch chunks",
+      "name": "red onion",
       "quantity": "1 ⅓ medium",
-      "weigh_as": "⅓ lb"
+      "weigh_as": "⅓ lb",
+      "prep": "peeled and cut into rough 1-inch chunks"
     },
     {
       "ingredient_id": 291,
@@ -77,8 +79,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and smashed",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "peeled and smashed"
     },
     {
       "ingredient_id": 88,
@@ -112,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Core and cut the very ripe tomatoes into rough 1-inch chunks. Peel and cut the red onion into rough 1-inch chunks. Peel and smash the garlic.",
+      "secondary_message": "11 very ripe tomatoes\n1 ⅓ medium red onion\n2 cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Combine tomatoes, cucumber, onion, pepper, garlic, and salt in a large bowl and toss to coat thoroughly. Let sit at room temperature for 30 minutes. Drain juices into a large bowl and add the bread. Transfer the drained vegetables to a rimmed baking sheet and place in freezer until vegetables are frozen, about 30 minutes.",

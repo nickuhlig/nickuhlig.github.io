@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, diced",
-      "quantity": "7 tbsp (3 ½ oz)"
+      "name": "cold unsalted butter",
+      "quantity": "7 tbsp (3 ½ oz)",
+      "prep": "diced"
     },
     {
       "ingredient_id": 103,
@@ -90,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the cold unsalted butter.",
+      "secondary_message": "7 tbsp (3 ½ oz) cold unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "In the bowl of a food processor, combine whole wheat flour, all purpose flour, sugar, baking soda, and salt. Pulse to combine. Add butter and pulse until butter is the size of peas, about 4 to 6 one-second pulses.",

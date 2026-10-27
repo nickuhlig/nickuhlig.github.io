@@ -35,9 +35,10 @@
   "ingredients": [
     {
       "ingredient_id": 26,
-      "name": "asparagus stalks, fibrous root end trimmed",
+      "name": "asparagus stalks",
       "quantity": "2 bunches",
-      "weigh_as": "2 lb"
+      "weigh_as": "2 lb",
+      "prep": "fibrous root end trimmed"
     },
     {
       "ingredient_id": 88,
@@ -86,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the fibrous root end of the asparagus stalks.",
+      "secondary_message": "2 bunches asparagus stalks"
+    },
     {
       "id": 1,
       "primary_message": "Cut the top inch off of each asparagus stalk. Bring a large pot of salted water to a boil over high heat. Have a large ice bath ready. Add asparagus tips and cook until bright green and tender, about 1 minute. Transfer to ice bath until chilled. Dry carefully and reserve. Add asparagus stalks to water and cook until bright green and tender, about 2 minutes. Transfer to ice bath to chill. Transfer chilled stalks to jar of a blender.",

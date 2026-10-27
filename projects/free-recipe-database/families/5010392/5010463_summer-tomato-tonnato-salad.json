@@ -70,8 +70,9 @@
     },
     {
       "ingredient_id": 15,
-      "name": "capers, drained",
-      "quantity": "1 tsp"
+      "name": "capers",
+      "quantity": "1 tsp",
+      "prep": "drained"
     },
     {
       "ingredient_id": 1044,
@@ -80,8 +81,9 @@
     },
     {
       "ingredient_id": 2654,
-      "name": "oil-packed tuna, such as Ortiz, drained",
-      "quantity": "113 g"
+      "name": "oil-packed tuna, such as Ortiz",
+      "quantity": "113 g",
+      "prep": "drained"
     },
     {
       "ingredient_id": 47,
@@ -116,6 +118,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain the capers. Drain the oil-packed tuna.",
+      "secondary_message": "1 tsp capers\n113 g oil-packed tuna, such as Ortiz"
+    },
     {
       "id": 1,
       "primary_message": "For the Tonnato: Place egg, 2 tablespoons lemon juice, anchovies, mustard, and capers in the bottom of an immersion blender cup or another tall-sided container that just fits the head of your immersion blender. Pour vegetable oil on top and allow to settle for 15 seconds. Place head of immersion blender at bottom of cup and turn it on high speed. Do not pulse or move the head. As mayonnaise forms, slowly tilt and lift the head of the immersion blender until all oil is emulsified; this should take between 30 and 45 seconds.",

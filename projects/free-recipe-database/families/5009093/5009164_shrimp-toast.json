@@ -58,8 +58,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, finely sliced",
-      "quantity": "4"
+      "name": "scallions",
+      "quantity": "4",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 264,
@@ -78,13 +79,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated on a microplane grater",
-      "quantity": "1 clove"
+      "name": "garlic",
+      "quantity": "1 clove",
+      "prep": "grated on a microplane grater"
     },
     {
       "ingredient_id": 1216,
-      "name": "sandwich bread, crusts removed, split into 16 triangles",
-      "quantity": "8 slices"
+      "name": "sandwich bread",
+      "quantity": "8 slices",
+      "prep": "crusts removed, split into 16 triangles"
     },
     {
       "ingredient_id": 1828,
@@ -98,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely slice the scallions. Grate the garlic on a microplane grater. Remove the crusts from the sandwich bread, then split it into 16 triangles.",
+      "secondary_message": "4 scallions\n1 clove garlic\n8 slices sandwich bread"
+    },
     {
       "id": 1,
       "primary_message": "Combine shrimp, egg, soy sauce, scallions, cornstarch, cilantro, sesame oil, and garlic in the bowl of a food processor. Pulse until extremely finely minced. Alternatively, chop shrimp by hand with a knife until extremely finely minced, then fold in remaining ingredients in a medium mixing bowl.",

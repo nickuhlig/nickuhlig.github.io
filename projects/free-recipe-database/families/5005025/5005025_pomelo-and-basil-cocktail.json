@@ -49,8 +49,9 @@
     },
     {
       "ingredient_id": 1746,
-      "name": "fresh basil leaves, torn in half",
-      "quantity": "6 large"
+      "name": "fresh basil leaves",
+      "quantity": "6 large",
+      "prep": "torn in half"
     },
     {
       "ingredient_id": 3339,
@@ -69,6 +70,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Tear the fresh basil leaves in half.",
+      "secondary_message": "6 large fresh basil leaves"
+    },
     {
       "id": 1,
       "primary_message": "To make basil simple syrup: Combine sugar and water in a small saucepan over medium-high heat. Stir to dissolve sugar and bring to a boil. Add basil leaves, reduce to a simmer and continue to cook for 10 minutes. Remove from heat and let cool completely. Strain before bottling.",

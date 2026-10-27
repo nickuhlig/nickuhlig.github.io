@@ -38,8 +38,9 @@
   "ingredients": [
     {
       "ingredient_id": 3092,
-      "name": "duck tongue, rinsed and dried",
-      "quantity": "0.45 kg"
+      "name": "duck tongue",
+      "quantity": "0.45 kg",
+      "prep": "rinsed and dried"
     },
     {
       "ingredient_id": 53,
@@ -63,8 +64,9 @@
     },
     {
       "ingredient_id": 3642,
-      "name": "egg white, beaten",
-      "quantity": "½ large"
+      "name": "egg white",
+      "quantity": "½ large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 264,
@@ -78,6 +80,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse and dry the duck tongue. Beat the egg white.",
+      "secondary_message": "0.45 kg duck tongue\n½ large egg white"
+    },
     {
       "id": 1,
       "primary_message": "To prepare the marinade: Combine the soy sauce, rice wine, white pepper, and chili sauce in a bowl. Add the duck tongues and mix evenly. Leave them in the marinade for half an hour, turning occasionally.",

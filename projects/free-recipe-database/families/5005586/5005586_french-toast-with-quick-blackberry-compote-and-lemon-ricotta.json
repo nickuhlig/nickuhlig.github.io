@@ -47,8 +47,9 @@
   "ingredients": [
     {
       "ingredient_id": 34,
-      "name": "blackberries, carefully washed",
-      "quantity": "8 oz"
+      "name": "blackberries",
+      "quantity": "8 oz",
+      "prep": "carefully washed"
     },
     {
       "ingredient_id": 346,
@@ -122,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Carefully wash the blackberries.",
+      "secondary_message": "8 oz blackberries"
+    },
     {
       "id": 1,
       "primary_message": "For the Blackberry Compote: Combine blackberries, 3 tablespoons sugar, pinch salt, and 1/4 cup water in small saucepan or skillet over medium-high heat. Cook, smashing berries with potato masher or whisk, until dark, syrupy mash has formed, about 5 minutes. Stir in 1 teaspoon lemon zest and 1 tablespoon lemon juice. Add more sugar to taste, if needed. Compote should be sweet and tart. Set aside.",

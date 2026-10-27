@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 242,
-      "name": "fresh strawberries, washed, cored, and quartered",
-      "quantity": "1.13 kg"
+      "name": "fresh strawberries",
+      "quantity": "1.13 kg",
+      "prep": "washed, cored, and quartered"
     },
     {
       "ingredient_id": 346,
@@ -62,11 +63,18 @@
     },
     {
       "ingredient_id": 121,
-      "name": "Egg wash: 1 large egg, beaten with a pinch of salt",
-      "quantity": ""
+      "name": "Egg wash: 1 large egg",
+      "quantity": "",
+      "prep": "beaten with a pinch of salt"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Wash, core, and quarter the fresh strawberries. Beat the Egg wash: 1 large egg with a pinch of salt.",
+      "secondary_message": "1.13 kg fresh strawberries\nEgg wash: 1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower position and preheat oven to 220°C (425°F). Place quartered strawberries in large bowl. Whisk together sugar and starch to combine, then toss with berries until pieces are evenly coated. Allow mixture to sit for five minutes, then pour into pie shell. Remove the rolled out sheet of top dough from the fridge and cut into 1.5-cm strips. Weave a lattice pattern over the top of the pie. Crimp sides and chill the pie for 15 to 20 minutes. When ready to bake, remove pie from refrigerator, brush with egg wash, and sprinkle with raw sugar.",

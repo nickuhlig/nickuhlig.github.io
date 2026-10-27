@@ -42,13 +42,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, peeled and roughly diced",
-      "quantity": "2 medium"
+      "name": "onions",
+      "quantity": "2 medium",
+      "prep": "peeled and roughly diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "1 head"
+      "name": "garlic",
+      "quantity": "1 head",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 53,
@@ -107,13 +109,15 @@
     },
     {
       "ingredient_id": 150,
-      "name": "red bell peppers, stemmed, seeded, and thinly sliced",
-      "quantity": "6"
+      "name": "red bell peppers",
+      "quantity": "6",
+      "prep": "stemmed, seeded, and thinly sliced"
     },
     {
       "ingredient_id": 1676,
-      "name": "sweet onions, peeled and thinly sliced",
-      "quantity": "4 large"
+      "name": "sweet onions",
+      "quantity": "4 large",
+      "prep": "peeled and thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -122,8 +126,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, washed and root ends trimmed",
-      "quantity": "3 bunches"
+      "name": "scallions",
+      "quantity": "3 bunches",
+      "prep": "washed and root ends trimmed"
     },
     {
       "ingredient_id": 88,
@@ -142,11 +147,18 @@
     },
     {
       "ingredient_id": 1027,
-      "name": "Soft Bread Salami Rolls, split",
-      "quantity": ""
+      "name": "Soft Bread Salami Rolls",
+      "quantity": "",
+      "prep": "split"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and roughly dice the onions. Peel the garlic. Stem, seed, and thinly slice the red bell peppers. Peel and thinly slice the sweet onions. Wash the scallions, then trim the root ends. Split the Soft Bread Salami Rolls.",
+      "secondary_message": "2 medium onions\n1 head garlic\n6 red bell peppers\n4 large sweet onions\n3 bunches scallions\nSoft Bread Salami Rolls"
+    },
     {
       "id": 1,
       "primary_message": "For the Flavor Base: Combine all Flavor Base ingredients in a blender and turn it to low speed. Slowly increase speed to high. Puree mixture until smooth. Divide Flavor Base into two equal portions and reserve.",

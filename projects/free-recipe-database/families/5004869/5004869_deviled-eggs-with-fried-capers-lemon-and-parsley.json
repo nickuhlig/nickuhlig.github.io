@@ -43,8 +43,9 @@
   "ingredients": [
     {
       "ingredient_id": 15,
-      "name": "capers, rinsed and drained",
-      "quantity": "⅓ cup"
+      "name": "capers",
+      "quantity": "⅓ cup",
+      "prep": "rinsed and drained"
     },
     {
       "ingredient_id": 1044,
@@ -53,8 +54,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "hard-boiled eggs, peeled and halved lengthwise",
-      "quantity": "6 large"
+      "name": "hard-boiled eggs",
+      "quantity": "6 large",
+      "prep": "peeled and halved lengthwise"
     },
     {
       "ingredient_id": 267,
@@ -98,6 +100,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse and drain the capers. Peel and halve the hard-boiled eggs lengthwise.",
+      "secondary_message": "⅓ cup capers\n6 large hard-boiled eggs"
+    },
     {
       "id": 1,
       "primary_message": "Place capers on a double layer of paper towels. Fold towels over and press firmly to dry capers thoroughly. In a medium pot, heat oil to 350°F as registered on an instant read thermometer. Carefully add capers and stand back (they will bubble and spit). Cook, stirring with a metal spider, until bubbling slows to a steady stream, about 30 seconds. Immediately remove capers from oil and transfer to paper towel-lined plate. Set aside.",

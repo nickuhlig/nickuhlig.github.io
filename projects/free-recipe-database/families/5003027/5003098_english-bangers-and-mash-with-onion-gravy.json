@@ -42,8 +42,9 @@
   "ingredients": [
     {
       "ingredient_id": 1039,
-      "name": "russet potatoes, peeled and cut into 2-inch chunks",
-      "quantity": "4 medium"
+      "name": "russet potatoes",
+      "quantity": "4 medium",
+      "prep": "peeled and cut into 2-inch chunks"
     },
     {
       "ingredient_id": 88,
@@ -67,8 +68,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onions, thinly sliced",
-      "quantity": "3 medium"
+      "name": "onions",
+      "quantity": "3 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1270,
@@ -97,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the russet potatoes into 2-inch chunks. Thinly slice the onions.",
+      "secondary_message": "4 medium russet potatoes\n3 medium onions"
+    },
     {
       "id": 1,
       "primary_message": "Place potatoes in a saucepan and cover with cold water. Season well with salt. Bring to a boil over high heat, reduce to a simmer, and cook until potatoes are soft, about 10 minutes. Drain and place back in saucepan, add 3 tablespoons butter and ⅔ cup milk, and mash with a potato masher, adding more milk if a looser consistency is desired. Season to taste with salt and pepper. Keep warm.",

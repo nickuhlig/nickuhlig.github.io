@@ -58,18 +58,21 @@
     },
     {
       "ingredient_id": 1882,
-      "name": "cardamom pods, crushed",
-      "quantity": "4"
+      "name": "cardamom pods",
+      "quantity": "4",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 247,
-      "name": "Seckel pears, halved from pole to pole and cored",
-      "quantity": "4"
+      "name": "Seckel pears",
+      "quantity": "4",
+      "prep": "halved from pole to pole and cored"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "1 tbsp"
+      "name": "unsalted butter",
+      "quantity": "1 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 116,
@@ -98,8 +101,9 @@
     },
     {
       "ingredient_id": 118,
-      "name": "milk, at room temperature",
-      "quantity": "¼ cup"
+      "name": "milk",
+      "quantity": "¼ cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 353,
@@ -108,8 +112,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "8 tbsp (4 oz)"
+      "name": "unsalted butter",
+      "quantity": "8 tbsp (4 oz)",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -128,11 +133,18 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "at room temperature"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Crush the cardamom pods. Halve the Seckel pears from pole to pole, then core them. Soften the unsalted butter. Bring the milk to room temperature. Bring the unsalted butter to room temperature. Bring the eggs to room temperature.",
+      "secondary_message": "4 cardamom pods\n4 Seckel pears\n1 tbsp unsalted butter\n¼ cup milk\n8 tbsp (4 oz) unsalted butter\n2 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "For the Pears: In small saucepan, bring wine, water, sugar, lemon juice, and cardamom pods to boil over medium-high heat. Reduce heat to medium, add pears, and simmer, turning occasionally, until pears are just tender, 10 to 12 minutes. Remove pears from heat and cool (in syrup) to room temperature, at least 30 minutes.",

@@ -43,8 +43,9 @@
   "ingredients": [
     {
       "ingredient_id": 2285,
-      "name": "semi-sweet chocolate, chopped into small peices",
-      "quantity": "6 oz"
+      "name": "semi-sweet chocolate",
+      "quantity": "6 oz",
+      "prep": "chopped into small peices"
     },
     {
       "ingredient_id": 115,
@@ -83,8 +84,9 @@
     },
     {
       "ingredient_id": 1752,
-      "name": "heavy cream, chilled",
-      "quantity": "3 oz"
+      "name": "heavy cream",
+      "quantity": "3 oz",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 1710,
@@ -93,11 +95,18 @@
     },
     {
       "ingredient_id": 3422,
-      "name": "peppermint candy canes, chopped",
-      "quantity": "3"
+      "name": "peppermint candy canes",
+      "quantity": "3",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the semi-sweet chocolate into small peices. Keep the heavy cream cold until you use it. Chop the peppermint candy canes.",
+      "secondary_message": "6 oz semi-sweet chocolate\n3 oz heavy cream\n3 peppermint candy canes"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to the middle position and preheat oven to 325°F. While the oven is preheating, line the bottom of a springform pan with a round of parchment. Fill one third of a medium saucepan with water and set a large, heatproof bowl over the top. Combine chocolate and butter in the bowl, and set the saucepan with the bowl on top over medium heat. As the water begins to steam, it will melt the chocolate and butter. Stir the mixture until it is smooth and shiny, with no lumps. Whisk in the sugar and remove the bowl from the top of the saucepan. Allow it to cool until it is just warm to the touch.",

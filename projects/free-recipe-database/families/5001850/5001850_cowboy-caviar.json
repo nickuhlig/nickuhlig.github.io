@@ -40,8 +40,9 @@
   "ingredients": [
     {
       "ingredient_id": 2199,
-      "name": "dried black-eyed peas, picked through",
-      "quantity": "1 ¼ cups"
+      "name": "dried black-eyed peas",
+      "quantity": "1 ¼ cups",
+      "prep": "picked through"
     },
     {
       "ingredient_id": 88,
@@ -60,8 +61,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, cut into 6 wedges",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "cut into 6 wedges"
     },
     {
       "ingredient_id": 24,
@@ -85,8 +87,9 @@
     },
     {
       "ingredient_id": 27,
-      "name": "yellow corn, husked",
-      "quantity": "2 ears"
+      "name": "yellow corn",
+      "quantity": "2 ears",
+      "prep": "husked"
     },
     {
       "ingredient_id": 88,
@@ -135,18 +138,21 @@
     },
     {
       "ingredient_id": 277,
-      "name": "cherry tomatoes, quartered",
-      "quantity": "2 cups"
+      "name": "cherry tomatoes",
+      "quantity": "2 cups",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell peppers, finely chopped",
-      "quantity": "2 large"
+      "name": "red bell peppers",
+      "quantity": "2 large",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, chopped",
-      "quantity": "1 small"
+      "name": "red onion",
+      "quantity": "1 small",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 188,
@@ -160,11 +166,18 @@
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño pepper, seeded if desired, finely chopped",
-      "quantity": "1 large"
+      "name": "jalapeño pepper",
+      "quantity": "1 large",
+      "prep": "seeded if desired, finely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick through the dried black-eyed peas. Cut the yellow onion into 6 wedges. Husk the yellow corn. Quarter the cherry tomatoes. Finely chop the red bell peppers. Chop the red onion. Seed the jalapeño pepper if desired, then finely chop it.",
+      "secondary_message": "1 ¼ cups dried black-eyed peas\n1 medium yellow onion\n2 ears yellow corn\n2 cups cherry tomatoes\n2 large red bell peppers\n1 small red onion\n1 large jalapeño pepper"
+    },
     {
       "id": 1,
       "primary_message": "For the Black-Eyed Peas: In a large bowl, add black-eyed peas, 4 1/2 teaspoons kosher salt, baking soda, and 4 1/4 cups water. Soak for at least 8 hours or up to 12 hours at room temperature. Drain and rinse peas, discarding soaking water; set aside.",

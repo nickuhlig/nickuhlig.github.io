@@ -78,18 +78,21 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely chopped",
-      "quantity": "1"
+      "name": "onion",
+      "quantity": "1",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, finely chopped",
-      "quantity": "1 medium"
+      "name": "carrot",
+      "quantity": "1 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1720,
-      "name": "celery rib, finely chopped",
-      "quantity": "1"
+      "name": "celery rib",
+      "quantity": "1",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 73,
@@ -98,29 +101,34 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, finely chopped",
-      "quantity": "3 medium"
+      "name": "garlic cloves",
+      "quantity": "3 medium",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, finely grated",
-      "quantity": "2 ½ cm piece"
+      "name": "fresh ginger",
+      "quantity": "2 ½ cm piece",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 143,
-      "name": "sweet potato, peeled and cut into 1/4 inch pieces",
+      "name": "sweet potato",
       "quantity": "0.11 kg",
-      "weigh_as": "1"
+      "weigh_as": "1",
+      "prep": "peeled and cut into 1/4 inch pieces"
     },
     {
       "ingredient_id": 1692,
-      "name": "apple, peeled and cut into 1/4 inch pieces",
-      "quantity": "1"
+      "name": "apple",
+      "quantity": "1",
+      "prep": "peeled and cut into 1/4 inch pieces"
     },
     {
       "ingredient_id": 1541,
-      "name": "plum tomato, cut into 1/4 inch pieces",
-      "quantity": "1"
+      "name": "plum tomato",
+      "quantity": "1",
+      "prep": "cut into 1/4 inch pieces"
     },
     {
       "ingredient_id": 338,
@@ -134,6 +142,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the onion. Finely chop the carrot. Finely chop the celery rib. Finely chop the garlic cloves. Finely grate the fresh ginger. Peel and cut the sweet potato into 1/4 inch pieces. Peel and cut the apple into 1/4 inch pieces. Cut the plum tomato into 1/4 inch pieces.",
+      "secondary_message": "1 onion\n1 medium carrot\n1 celery rib\n3 medium garlic cloves\n2 ½ cm piece fresh ginger\n0.11 kg sweet potato\n1 apple\n1 plum tomato"
+    },
     {
       "id": 1,
       "primary_message": "Place mustard seeds, cumin seeds, and coriander seeds in a skillet and toast over high heat until spices begin to smell toasted, about 3 minutes. Transfer to a mortar and pestle or spice grinder and process until fine.",

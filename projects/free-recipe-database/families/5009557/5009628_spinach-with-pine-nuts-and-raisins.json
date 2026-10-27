@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced, about 2 teaspoons",
-      "quantity": "2 medium cloves"
+      "name": "garlic, about 2 teaspoons",
+      "quantity": "2 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 214,
@@ -81,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic.",
+      "secondary_message": "2 medium cloves garlic, about 2 teaspoons"
+    },
     {
       "id": 1,
       "primary_message": "Heat olive oil in a 30-cm heavy-bottomed stainless steel skillet over medium heat until shimmering. Add pinenuts and cook, stirring and shaking frequently until they begin to turn golden, about 2 minutes. Add raisins and cook, stirring often, until heated through, about 1 minute. Add garlic and cook, stirring constantly, until fragrant, about 1 minute. Add spinach to pan. Sprinkle with 2 teaspoons water. Cook, stirring constantly until spinach is wilted, about 2 minutes.",

@@ -47,28 +47,33 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "4 medium"
+      "name": "garlic cloves",
+      "quantity": "4 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2957,
-      "name": "squash, ends trimmed, cut into 1/2-inch cubes",
-      "quantity": "½ lb"
+      "name": "squash",
+      "quantity": "½ lb",
+      "prep": "ends trimmed, cut into 1/2-inch cubes"
     },
     {
       "ingredient_id": 1929,
-      "name": "shiitake mushrooms, ends removed, caps sliced",
-      "quantity": "½ lb"
+      "name": "shiitake mushrooms",
+      "quantity": "½ lb",
+      "prep": "ends removed, caps sliced"
     },
     {
       "ingredient_id": 226,
-      "name": "kale, ends trimmed, leaves roughly chopped",
-      "quantity": "1 bunch"
+      "name": "kale",
+      "quantity": "1 bunch",
+      "prep": "ends trimmed, leaves roughly chopped"
     },
     {
       "ingredient_id": 1214,
-      "name": "kimchi, roughly chopped",
-      "quantity": "2 cups"
+      "name": "kimchi",
+      "quantity": "2 cups",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1214,
@@ -107,11 +112,18 @@
     },
     {
       "ingredient_id": 1610,
-      "name": "soft tofu, cut into 1-inch cubes",
-      "quantity": "1 lb"
+      "name": "soft tofu",
+      "quantity": "1 lb",
+      "prep": "cut into 1-inch cubes"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the garlic cloves. Trim the ends of the squash, then cut it into 1/2-inch cubes. Remove the ends from the shiitake mushrooms, then slice the caps. Trim the ends of the kale, then roughly chop the leaves. Roughly chop the kimchi. Cut the soft tofu into 1-inch cubes.",
+      "secondary_message": "4 medium garlic cloves\n½ lb squash\n½ lb shiitake mushrooms\n1 bunch kale\n2 cups kimchi\n1 lb soft tofu"
+    },
     {
       "id": 1,
       "primary_message": "Warm sesame oil into a medium saucepan over medium-high heat. Add scallion whites and garlic and cook, stirring occasionally, until fragrant, about 30 seconds. Add squash and shiitakes, stir well, and cook until squash starts to soften, 3 to 5 minutes minutes. Add chopped kale and cook, stirring often, until leaves turn bright green and wilt slightly, about 2 minutes.",

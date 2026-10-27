@@ -44,13 +44,15 @@
   "ingredients": [
     {
       "ingredient_id": 3660,
-      "name": "dried black beans, rinsed and picked over",
-      "quantity": "0.45 kg"
+      "name": "dried black beans",
+      "quantity": "0.45 kg",
+      "prep": "rinsed and picked over"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled and smashed",
-      "quantity": "8 medium cloves"
+      "name": "garlic",
+      "quantity": "8 medium cloves",
+      "prep": "peeled and smashed"
     },
     {
       "ingredient_id": 152,
@@ -59,8 +61,9 @@
     },
     {
       "ingredient_id": 232,
-      "name": "juicing orange, rinsed and sliced in half",
-      "quantity": "1"
+      "name": "juicing orange",
+      "quantity": "1",
+      "prep": "rinsed and sliced in half"
     },
     {
       "ingredient_id": 88,
@@ -69,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse and pick the dried black beans over. Peel and smash the garlic. Rinse and slice the juicing orange in half.",
+      "secondary_message": "0.45 kg dried black beans\n8 medium cloves garlic\n1 juicing orange"
+    },
     {
       "id": 1,
       "primary_message": "Place beans in a large pot or Dutch oven and add water until beans are submerged by 8 to 10 cm. Add garlic and onion, squeeze in orange juice, then add squeezed orange halves. Cover and place over high heat until water comes to a boil, then uncover pot and reduce heat to a bare simmer. Cook until beans are completely tender and creamy, 1 to 2 hours, stirring occasionally, and adding water if tops of beans become exposed.",

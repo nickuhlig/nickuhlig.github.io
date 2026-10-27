@@ -60,13 +60,15 @@
     },
     {
       "ingredient_id": 3542,
-      "name": "Taiwanese meat sauce, warmed",
-      "quantity": "2 cups"
+      "name": "Taiwanese meat sauce",
+      "quantity": "2 cups",
+      "prep": "warmed"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated",
-      "quantity": "3 large cloves"
+      "name": "garlic",
+      "quantity": "3 large cloves",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1835,
@@ -80,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Warm the Taiwanese meat sauce. Grate the garlic.",
+      "secondary_message": "2 cups Taiwanese meat sauce\n3 large cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Place shrimp shells and heads, if using, in a medium pot with stock and bring to a boil over high heat. Reduce heat to a simmer and cook, uncovered, for at least 30 minutes or up to 1 hour. Strain broth, discarding shells and heads.",

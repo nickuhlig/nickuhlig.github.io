@@ -39,8 +39,9 @@
   "ingredients": [
     {
       "ingredient_id": 1270,
-      "name": "dry-packed bay, cut into 1/2-inch pieces",
-      "quantity": "0.23 kg"
+      "name": "dry-packed bay",
+      "quantity": "0.23 kg",
+      "prep": "cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 2346,
@@ -54,8 +55,9 @@
     },
     {
       "ingredient_id": 1811,
-      "name": "shrimp, large, peeled and deveined",
-      "quantity": "0.45 kg"
+      "name": "shrimp, large",
+      "quantity": "0.45 kg",
+      "prep": "peeled and deveined"
     },
     {
       "ingredient_id": 88,
@@ -69,8 +71,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, 2 crushed and 2 minced, divided",
-      "quantity": "4 medium cloves"
+      "name": "garlic, divided",
+      "quantity": "4 medium cloves",
+      "prep": "2 crushed and 2 minced"
     },
     {
       "ingredient_id": 47,
@@ -79,8 +82,9 @@
     },
     {
       "ingredient_id": 2132,
-      "name": "mussels, de-bearded and scrubbed",
-      "quantity": "1 kg"
+      "name": "mussels",
+      "quantity": "1 kg",
+      "prep": "de-bearded and scrubbed"
     },
     {
       "ingredient_id": 1784,
@@ -114,8 +118,9 @@
     },
     {
       "ingredient_id": 157,
-      "name": "celery, sliced thinly on the bias",
-      "quantity": "2 stalks"
+      "name": "celery",
+      "quantity": "2 stalks",
+      "prep": "sliced thinly on the bias"
     },
     {
       "ingredient_id": 470,
@@ -124,6 +129,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the dry-packed bay into 1/2-inch pieces. Peel and devein the shrimp. Crush 2 of the garlic and mince the other 2. De-beard and scrub the mussels. Slice the celery thinly on the bias.",
+      "secondary_message": "0.23 kg dry-packed bay\n0.45 kg shrimp, large\n4 medium cloves garlic, divided\n1 kg mussels\n2 stalks celery"
+    },
     {
       "id": 1,
       "primary_message": "In a nonreactive bowl, combine scallops with 6 tablespoons lemon juice and toss well. Refrigerate for at least 1 hour and up to 2 hours.",

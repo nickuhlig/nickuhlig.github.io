@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 2478,
-      "name": "firm tofu, drained of packing liquid",
-      "quantity": "1 lb"
+      "name": "firm tofu",
+      "quantity": "1 lb",
+      "prep": "drained of packing liquid"
     },
     {
       "ingredient_id": 292,
@@ -52,13 +53,15 @@
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, peeled and thinly sliced",
-      "quantity": "1 (1 ½ inch) knob"
+      "name": "fresh ginger",
+      "quantity": "1 (1 ½ inch) knob",
+      "prep": "peeled and thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "smashed"
     },
     {
       "ingredient_id": 1958,
@@ -97,6 +100,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain the firm tofu of packing liquid. Peel and thinly slice the fresh ginger. Smash the garlic.",
+      "secondary_message": "1 lb firm tofu\n1 (1 ½ inch) knob fresh ginger\n4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Place tofu in a sealed container or on a tray wrapped with plastic and freeze for at least 3 hours and up to 6 months. When fully frozen, the tofu will turn a darker shade of yellow/brown and become slightly translucent.",

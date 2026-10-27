@@ -45,8 +45,9 @@
   "ingredients": [
     {
       "ingredient_id": 1176,
-      "name": "uncooked long-grain rice, rinsed until water runs clear",
-      "quantity": "2 cups"
+      "name": "uncooked long-grain rice",
+      "quantity": "2 cups",
+      "prep": "rinsed until water runs clear"
     },
     {
       "ingredient_id": 181,
@@ -60,8 +61,9 @@
     },
     {
       "ingredient_id": 1082,
-      "name": "Mexican cinnamon stick, broken into large pieces",
-      "quantity": "1 large"
+      "name": "Mexican cinnamon stick",
+      "quantity": "1 large",
+      "prep": "broken into large pieces"
     },
     {
       "ingredient_id": 359,
@@ -80,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse the uncooked long-grain rice until water runs clear. Break the Mexican cinnamon stick into large pieces.",
+      "secondary_message": "2 cups uncooked long-grain rice\n1 large Mexican cinnamon stick"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, combine rice, black sesame seeds, shredded coconut, cinnamon, and 4 cups coconut water. Cover and refrigerate for at least 8 hours and up to 24 hours.",

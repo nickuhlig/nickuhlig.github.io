@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 3642,
-      "name": "egg whites, at room temperature",
-      "quantity": "4 large"
+      "name": "egg whites",
+      "quantity": "4 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 88,
@@ -65,8 +66,9 @@
     },
     {
       "ingredient_id": 3641,
-      "name": "egg yolks, at room temperature",
-      "quantity": "3 large"
+      "name": "egg yolks",
+      "quantity": "3 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -105,11 +107,18 @@
     },
     {
       "ingredient_id": 3681,
-      "name": "roasted and salted cashews, coarsely chopped",
-      "quantity": "1 ¼ cups"
+      "name": "roasted and salted cashews",
+      "quantity": "1 ¼ cups",
+      "prep": "coarsely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the egg whites to room temperature. Bring the egg yolks to room temperature. Coarsely chop the roasted and salted cashews.",
+      "secondary_message": "4 large egg whites\n3 large egg yolks\n1 ¼ cups roasted and salted cashews"
+    },
     {
       "id": 1,
       "primary_message": "For the Floating Islands: Line baking sheet with 2 layers of paper towels.",

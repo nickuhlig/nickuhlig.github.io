@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 242,
-      "name": "fresh strawberries, sliced",
-      "quantity": "2 ½ oz"
+      "name": "fresh strawberries",
+      "quantity": "2 ½ oz",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 1953,
@@ -65,6 +66,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the fresh strawberries.",
+      "secondary_message": "2 ½ oz fresh strawberries"
+    },
     {
       "id": 1,
       "primary_message": "In a cocktail shaker, muddle strawberries, simple syrup, lime juice, and balsamic syrup until strawberries are completely dissolved. Add mint leaves and gently tap 5 times with muddler. (Do not over-muddle mint or it will taste bitter and muddy.) Add tequila to shaker and fill 2/3 full with ice.",

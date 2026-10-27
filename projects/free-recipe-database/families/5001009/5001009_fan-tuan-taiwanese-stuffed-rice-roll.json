@@ -93,8 +93,9 @@
     },
     {
       "ingredient_id": 2469,
-      "name": "youtiao, cut to about 6 inches long",
-      "quantity": "2"
+      "name": "youtiao",
+      "quantity": "2",
+      "prep": "cut to about 6 inches long"
     },
     {
       "ingredient_id": 2481,
@@ -103,8 +104,9 @@
     },
     {
       "ingredient_id": 2478,
-      "name": "bean curd, diced",
-      "quantity": "3 oz"
+      "name": "bean curd",
+      "quantity": "3 oz",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1682,
@@ -128,6 +130,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the youtiao to about 6 inches long. Dice the bean curd.",
+      "secondary_message": "2 youtiao\n3 oz bean curd"
+    },
     {
       "id": 1,
       "primary_message": "Place long-grain glutinous rice and purple rice in a large bowl and cover by 2 inches of cool water. Using your hands, vigorously swish rice until water turns cloudy, about 30 seconds. Using a fine-mesh strainer, drain rice, discarding the cloudy soaking water. Refill bowl with cool water and repeat rinsing and draining process until water runs clear.",

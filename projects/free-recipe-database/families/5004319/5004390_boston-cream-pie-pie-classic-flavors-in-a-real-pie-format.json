@@ -42,8 +42,9 @@
   "ingredients": [
     {
       "ingredient_id": 2380,
-      "name": "easy pie dough, shaped and chilled in a pie plate",
-      "quantity": ""
+      "name": "easy pie dough",
+      "quantity": "",
+      "prep": "shaped and chilled in a pie plate"
     },
     {
       "ingredient_id": 118,
@@ -82,8 +83,9 @@
     },
     {
       "ingredient_id": 1729,
-      "name": "dark chocolate, chopped",
-      "quantity": "142 g"
+      "name": "dark chocolate",
+      "quantity": "142 g",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1752,
@@ -97,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shape and chill the easy pie dough in a pie plate. Chop the dark chocolate.",
+      "secondary_message": "easy pie dough\n142 g dark chocolate"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to lower-middle position and preheat oven to 220°C (425°F). When oven is ready, line chilled pie shell with foil or parchment paper and fill with weights (I reuse dried beans for this), and bake on lowest rack of oven for 15 minutes. Remove weights and liner, turn pie, and bake until bottom crust is a light golden brown, about 10 minutes more. Remove pie shell from oven and allow to cool completely.",

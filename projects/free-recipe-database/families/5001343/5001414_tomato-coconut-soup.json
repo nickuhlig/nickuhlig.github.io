@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, minced",
-      "quantity": "2 small"
+      "name": "shallots",
+      "quantity": "2 small",
+      "prep": "minced"
     },
     {
       "ingredient_id": 221,
@@ -91,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the shallots.",
+      "secondary_message": "2 small shallots"
+    },
     {
       "id": 1,
       "primary_message": "Add tomatoes to a blender jar with their juices. Rinse out now-empty tomato can with 1 cup water, swish it around to collect more tomato flavor in the water, then add water to the blender. Blend tomatoes on high speed into a very smooth puree, about 1 minute.",

@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 1010,
-      "name": "pre-made pizza dough, at room temperature",
-      "quantity": "1 ½ lb"
+      "name": "pre-made pizza dough",
+      "quantity": "1 ½ lb",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 116,
@@ -66,6 +67,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the pre-made pizza dough to room temperature.",
+      "secondary_message": "1 ½ lb pre-made pizza dough"
+    },
     {
       "id": 1,
       "primary_message": "Coat two mixing bowls with non-stick cooking spray. Divide dough into two even lumps. Shape into balls and place in separate bowls. Spray top surface with more nonstick cooking spray, cover tightly with plastic wrap, and let rise in warm place until approximately doubled in volume, about one hour.",

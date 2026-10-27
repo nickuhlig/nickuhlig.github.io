@@ -45,13 +45,15 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "8 oz"
+      "name": "cream cheese",
+      "quantity": "8 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 43,
-      "name": "cheddar cheese, grated",
-      "quantity": "4 oz"
+      "name": "cheddar cheese",
+      "quantity": "4 oz",
+      "prep": "grated"
     },
     {
       "ingredient_id": 302,
@@ -60,6 +62,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the cream cheese. Grate the cheddar cheese.",
+      "secondary_message": "8 oz cream cheese\n4 oz cheddar cheese"
+    },
     {
       "id": 1,
       "primary_message": "Cut off the tops of jalapeños and remove seeds and ribs using a jalapeño corer, apple corer, or small paring knife.",

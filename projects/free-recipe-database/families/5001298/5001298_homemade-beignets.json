@@ -85,8 +85,9 @@
   "ingredients": [
     {
       "ingredient_id": 359,
-      "name": "water, warmed to 100-110ºF",
-      "quantity": "⅔ cup"
+      "name": "water",
+      "quantity": "⅔ cup",
+      "prep": "warmed to 100-110ºF"
     },
     {
       "ingredient_id": 346,
@@ -100,13 +101,15 @@
     },
     {
       "ingredient_id": 2475,
-      "name": "buttermilk, at room temperature",
-      "quantity": "1 cup"
+      "name": "buttermilk",
+      "quantity": "1 cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten, at room temperature",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "beaten, at room temperature"
     },
     {
       "ingredient_id": 1124,
@@ -135,6 +138,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Warm the water to 100-110ºF. Bring the buttermilk to room temperature. Beat the egg and bring it to room temperature.",
+      "secondary_message": "⅔ cup water\n1 cup buttermilk\n1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "In the bowl of a stand mixer fitted with whisk attachment, mix water and 1 teaspoon granulated sugar until sugar is dissolved. Sprinkle yeast over surface and set aside until foamy, 5 to 10 minutes.",

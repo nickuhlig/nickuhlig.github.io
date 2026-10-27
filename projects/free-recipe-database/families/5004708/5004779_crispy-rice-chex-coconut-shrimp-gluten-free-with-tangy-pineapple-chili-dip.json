@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 1811,
-      "name": "shrimp, shelled and deveined",
-      "quantity": "0.91 kg"
+      "name": "shrimp",
+      "quantity": "0.91 kg",
+      "prep": "shelled and deveined"
     },
     {
       "ingredient_id": 264,
@@ -70,13 +71,15 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, lightly beaten",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 2946,
-      "name": "Rice Chex® cereal, crushed",
-      "quantity": "4 cups"
+      "name": "Rice Chex® cereal",
+      "quantity": "4 cups",
+      "prep": "crushed"
     },
     {
       "ingredient_id": 462,
@@ -95,6 +98,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shell and devein the shrimp. Lightly beat the eggs. Crush the Rice Chex® cereal.",
+      "secondary_message": "0.91 kg shrimp\n4 large eggs\n4 cups Rice Chex® cereal"
+    },
     {
       "id": 1,
       "primary_message": "Stir preserves, vinegar, cilantro, chili flakes, and 1 tablespoon water in a bowl until combined; set aside.",

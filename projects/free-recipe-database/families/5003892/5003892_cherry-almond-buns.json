@@ -96,8 +96,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, diced, at room temperature",
-      "quantity": "8 tbsp"
+      "name": "unsalted butter",
+      "quantity": "8 tbsp",
+      "prep": "diced, at room temperature"
     },
     {
       "ingredient_id": 3590,
@@ -116,8 +117,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "1 tbsp"
+      "name": "unsalted butter",
+      "quantity": "1 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 346,
@@ -131,6 +133,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the unsalted butter and bring it to room temperature. Melt the unsalted butter.",
+      "secondary_message": "8 tbsp unsalted butter\n1 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "Place warm water, yeast, and 1/4 teaspoon sugar together in the bowl of a stand mixer fitted with a paddle attachment. Let stand 5 minutes. Add flour, another 1/4 cup sugar, and salt and mix to combine. Add milk and yolks and beat to combine. Add diced butter to the bowl and beat on medium speed for 5 minutes. Scrape down the sides of the bowl, cover dough with a dish towel, and let rise in a warm place until doubled in volume, about 1 hour.",

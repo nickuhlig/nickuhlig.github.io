@@ -55,8 +55,9 @@
   "ingredients": [
     {
       "ingredient_id": 111,
-      "name": "fresh green beans, trimmed, cut into 1-inch pieces",
-      "quantity": "340 g"
+      "name": "fresh green beans",
+      "quantity": "340 g",
+      "prep": "trimmed, cut into 1-inch pieces"
     },
     {
       "ingredient_id": 133,
@@ -75,8 +76,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic clove, grated or finely minced",
-      "quantity": "1 large"
+      "name": "garlic clove",
+      "quantity": "1 large",
+      "prep": "grated or finely minced"
     },
     {
       "ingredient_id": 117,
@@ -105,23 +107,27 @@
     },
     {
       "ingredient_id": 2199,
-      "name": "black eyed peas, drained and rinsed",
-      "quantity": "1 (425 g) can"
+      "name": "black eyed peas",
+      "quantity": "1 (425 g) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 93,
-      "name": "kidney beans, drained and rinsed",
-      "quantity": "1 (425 g) can"
+      "name": "kidney beans",
+      "quantity": "1 (425 g) can",
+      "prep": "drained and rinsed"
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, finely chopped",
-      "quantity": "½ small"
+      "name": "red onion",
+      "quantity": "½ small",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1720,
-      "name": "celery stalks, thinly sliced on an angle",
-      "quantity": "2 small"
+      "name": "celery stalks",
+      "quantity": "2 small",
+      "prep": "thinly sliced on an angle"
     },
     {
       "ingredient_id": 106,
@@ -130,6 +136,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim and cut the fresh green beans into 1-inch pieces. Grate or finely mince the garlic clove. Drain and rinse the black eyed peas. Drain and rinse the kidney beans. Finely chop the red onion. Thinly slice the celery stalks on an angle.",
+      "secondary_message": "340 g fresh green beans\n1 large garlic clove\n1 (425 g) can black eyed peas\n1 (425 g) can kidney beans\n½ small red onion\n2 small celery stalks"
+    },
     {
       "id": 1,
       "primary_message": "Fill a large bowl with ice water; set aside. Bring a large pot of salted water to a boil. Add green beans to boiling water and cook until bright green and crisp-tender, 1 to 2 minutes. Use a slotted spoon or spider skimmer to transfer vegetables to prepared ice-bath. Let sit until cooled, about 5 minutes. Drain beans well; pat dry with paper towels.",

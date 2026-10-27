@@ -53,8 +53,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into small pieces and chilled",
-      "quantity": "3 tbsp"
+      "name": "unsalted butter",
+      "quantity": "3 tbsp",
+      "prep": "cut into small pieces and chilled"
     },
     {
       "ingredient_id": 2346,
@@ -83,8 +84,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 116,
@@ -148,6 +150,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the unsalted butter into small pieces and keep it cold until you use it. Bring the eggs to room temperature.",
+      "secondary_message": "3 tbsp unsalted butter\n3 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "For the Topping: Pulse sesame seeds, sugar, flour, butter, orange zest, and salt in food processor until crumbly; reserve.",

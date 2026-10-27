@@ -62,8 +62,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "fresh peeled ginger, grated",
-      "quantity": "1 (2 inch) knob"
+      "name": "fresh peeled ginger",
+      "quantity": "1 (2 inch) knob",
+      "prep": "grated"
     },
     {
       "ingredient_id": 117,
@@ -92,8 +93,9 @@
     },
     {
       "ingredient_id": 470,
-      "name": "fennel bulb, halved, cored, and thinly sliced",
-      "quantity": "1 medium"
+      "name": "fennel bulb",
+      "quantity": "1 medium",
+      "prep": "halved, cored, and thinly sliced"
     },
     {
       "ingredient_id": 2892,
@@ -102,16 +104,24 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallion, thinly sliced",
-      "quantity": "1 medium"
+      "name": "scallion",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 126,
-      "name": "fresh goat cheese, crumbled",
-      "quantity": "1 oz"
+      "name": "fresh goat cheese",
+      "quantity": "1 oz",
+      "prep": "crumbled"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the fresh peeled ginger. Halve, core, and thinly slice the fennel bulb. Thinly slice the scallion. Crumble the fresh goat cheese.",
+      "secondary_message": "1 (2 inch) knob fresh peeled ginger\n1 medium fennel bulb\n1 medium scallion\n1 oz fresh goat cheese"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 350°F. Place beet roots in an oven-safe skillet or roasting pan, drizzle with olive oil to coat lightly, and add a couple of tablespoons of water. Cover tightly with foil and roast until a fork can be easily inserted into the center of each beet, about 1 1/2 hours. Remove from oven, uncover, and let beets rest until cool enough to handle.",

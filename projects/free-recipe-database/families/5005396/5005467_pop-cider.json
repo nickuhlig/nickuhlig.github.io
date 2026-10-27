@@ -40,16 +40,24 @@
     },
     {
       "ingredient_id": 2150,
-      "name": "apple cider, chilled",
-      "quantity": "28 g"
+      "name": "apple cider",
+      "quantity": "28 g",
+      "prep": "chilled"
     },
     {
       "ingredient_id": 2405,
-      "name": "Prosecco, chilled",
-      "quantity": ""
+      "name": "Prosecco",
+      "quantity": "",
+      "prep": "chilled"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Keep the apple cider cold until you use it. Keep the Prosecco cold until you use it.",
+      "secondary_message": "28 g apple cider\nProsecco"
+    },
     {
       "id": 1,
       "primary_message": "Combine Benedictine and cider in a Champagne flute or coupe. Top with Prosecco. Garnish with rosemary or thyme, if desired.",

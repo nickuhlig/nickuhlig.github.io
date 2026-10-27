@@ -46,8 +46,9 @@
   "ingredients": [
     {
       "ingredient_id": 1702,
-      "name": "bone-in chicken thighs, skin removed and reserved",
-      "quantity": "2 ¾ lb"
+      "name": "bone-in chicken thighs",
+      "quantity": "2 ¾ lb",
+      "prep": "skin removed and reserved"
     },
     {
       "ingredient_id": 88,
@@ -61,18 +62,21 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "white onion, peeled and quartered",
-      "quantity": "½ large"
+      "name": "white onion",
+      "quantity": "½ large",
+      "prep": "peeled and quartered"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, peeled, trimmed, and halved crosswise",
-      "quantity": "1 large"
+      "name": "carrot",
+      "quantity": "1 large",
+      "prep": "peeled, trimmed, and halved crosswise"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "5 medium cloves"
+      "name": "garlic",
+      "quantity": "5 medium cloves",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 1270,
@@ -81,18 +85,21 @@
     },
     {
       "ingredient_id": 1799,
-      "name": "serrano chiles, stems removed",
-      "quantity": "4"
+      "name": "serrano chiles",
+      "quantity": "4",
+      "prep": "stems removed"
     },
     {
       "ingredient_id": 1541,
-      "name": "plum tomato, halved",
-      "quantity": "1"
+      "name": "plum tomato",
+      "quantity": "1",
+      "prep": "halved"
     },
     {
       "ingredient_id": 2069,
-      "name": "tomatillos, husks removed, halved",
-      "quantity": "2"
+      "name": "tomatillos",
+      "quantity": "2",
+      "prep": "husks removed, halved"
     },
     {
       "ingredient_id": 188,
@@ -101,8 +108,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "3 medium cloves"
+      "name": "garlic",
+      "quantity": "3 medium cloves",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 1784,
@@ -136,8 +144,9 @@
     },
     {
       "ingredient_id": 2238,
-      "name": "lard, softened",
-      "quantity": "1 cup"
+      "name": "lard",
+      "quantity": "1 cup",
+      "prep": "softened"
     },
     {
       "ingredient_id": 2246,
@@ -161,6 +170,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove and reserve the skin from the bone-in chicken thighs. Peel and quarter the white onion. Peel, trim, and halve the carrot crosswise. Peel the garlic. Remove the stems from the serrano chiles. Halve the plum tomato. Remove the husks from the tomatillos, then halve them. Peel the garlic. Soften the lard.",
+      "secondary_message": "2 ¾ lb bone-in chicken thighs\n½ large white onion\n1 large carrot\n5 medium cloves garlic\n4 serrano chiles\n1 plum tomato\n2 tomatillos\n3 medium cloves garlic\n1 cup lard"
+    },
     {
       "id": 1,
       "primary_message": "For the chicken, broth, and chicharrónes: Generously season the chicken with salt and pepper. In a large stock pot or large Dutch oven, add the chicken, onion, carrot, garlic, and bay leaf. Add water until the mixture is submerged by 3 inches. Bring to a simmer and cook until chicken is fork-tender, 45 minutes to 1 hour. Using tongs or a slotted spoon, transfer the chicken to a cutting board and let cool slightly, about 15 minutes.",

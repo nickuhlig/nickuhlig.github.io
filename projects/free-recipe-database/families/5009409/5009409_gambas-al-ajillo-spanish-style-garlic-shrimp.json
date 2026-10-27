@@ -42,8 +42,9 @@
     },
     {
       "ingredient_id": 1811,
-      "name": "shrimp, large, peeled, shells reserved",
-      "quantity": "1 lb"
+      "name": "shrimp, large",
+      "quantity": "1 lb",
+      "prep": "peeled, shells reserved"
     },
     {
       "ingredient_id": 47,
@@ -77,6 +78,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the shrimp, then reserve the shells.",
+      "secondary_message": "1 lb shrimp, large"
+    },
     {
       "id": 1,
       "primary_message": "Finely mince 4 garlic cloves and place in large bowl. Smash 4 cloves under the flat side of a knife and place in a large skillet. Thinly slice remaining four garlic cloves and set aside.",

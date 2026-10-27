@@ -52,8 +52,9 @@
     },
     {
       "ingredient_id": 47,
-      "name": "extra-virgin olive oil, melted butter, or ghee",
-      "quantity": "¼ cup"
+      "name": "extra-virgin olive oil, or ghee",
+      "quantity": "¼ cup",
+      "prep": "melted butter"
     },
     {
       "ingredient_id": 1469,
@@ -148,6 +149,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the extra-virgin olive oil butter.",
+      "secondary_message": "¼ cup extra-virgin olive oil, or ghee"
+    },
     {
       "id": 1,
       "primary_message": "For the Filling: In a large bowl, stir together the rice, olive oil (or butter/ghee), allspice, tomato paste, cinnamon, black pepper, nutmeg, and salt until thoroughly combined. Add the ground meat and mix until evenly incorporated.",

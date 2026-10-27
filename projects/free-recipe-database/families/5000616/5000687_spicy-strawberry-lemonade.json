@@ -45,8 +45,9 @@
   "ingredients": [
     {
       "ingredient_id": 242,
-      "name": "strawberries, hulled and cut into 1/2-inch pieces",
-      "quantity": "0.34 kg"
+      "name": "strawberries",
+      "quantity": "0.34 kg",
+      "prep": "hulled and cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 346,
@@ -55,9 +56,10 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemons, zested and halved",
+      "name": "lemons",
       "quantity": "8",
-      "weigh_as": "0.68 kg"
+      "weigh_as": "0.68 kg",
+      "prep": "zested and halved"
     },
     {
       "ingredient_id": 2088,
@@ -76,6 +78,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Hull and cut the strawberries into 1/2-inch pieces. Zest and halve the lemons.",
+      "secondary_message": "0.34 kg strawberries\n8 lemons"
+    },
     {
       "id": 1,
       "primary_message": "For the Strawberry Lemonade Concentrate: In a large nonreactive mixing bowl, toss the strawberries with granulated sugar, lemon zest, and minced chiles. Refrigerate, stirring occasionally, until sugar has completely dissolved and chiles have infused into the syrup, about 2 hours.",
