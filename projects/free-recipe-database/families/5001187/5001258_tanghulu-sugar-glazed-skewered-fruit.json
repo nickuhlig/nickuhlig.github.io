@@ -59,17 +59,25 @@
       "quantity": "1 cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 medium lemon",
-      "quantity": "¼ tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¼ tsp",
+          "name": "lemon juice, from 1 medium lemon"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Wash and dry the hulled small strawberries.",
-      "secondary_message": "24 hulled small strawberries"
+      "primary_message": "Wash and dry the hulled small strawberries. Juice the lemon.",
+      "secondary_message": "24 hulled small strawberries\n½ lemon"
     },
     {
       "id": 1,

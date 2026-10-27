@@ -51,11 +51,18 @@
     },
     {
       "ingredient_id": 29,
-      "name": "sliced almonds",
-      "quantity": "24"
+      "name": "almonds",
+      "quantity": "24",
+      "prep": "sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the almonds.",
+      "secondary_message": "24 almonds"
+    },
     {
       "id": 1,
       "primary_message": "Divide dough into 2 equal balls. Working with 1 dough ball at a time, on a piece of parchment paper, use a rolling pin to roll each portion out until 1/4-inch thick, keeping a roughly rectangular shape. Place dough and parchment paper on a rimmed baking sheet and cover with plastic wrap. Repeat rolling second dough ball and transfer to a second rimmed baking sheet. Refrigerate until dough is firm, for at least 1 hour or up to 1 day.",

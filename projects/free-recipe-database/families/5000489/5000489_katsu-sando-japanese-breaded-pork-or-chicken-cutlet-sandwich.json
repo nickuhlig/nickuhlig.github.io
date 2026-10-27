@@ -94,8 +94,9 @@
     },
     {
       "ingredient_id": 1004,
-      "name": "finely shredded green cabbage",
-      "quantity": "2 cups"
+      "name": "green cabbage",
+      "quantity": "2 cups",
+      "prep": "finely shredded"
     },
     {
       "ingredient_id": 181,
@@ -144,6 +145,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely shred the green cabbage.",
+      "secondary_message": "2 cups green cabbage"
+    },
     {
       "id": 1,
       "primary_message": "Using a sharp or serrated knife, trim ends of 4 pieces of milk bread so that no crust remains; discard trimmings. Cut trimmed bread lengthwise into 1 1/2-inch thick batons. Using a food processor fitted with the grater attachment, process bread into coarse flakes. Transfer fresh panko flakes to a large, shallow bowl or high-rimmed plate and set aside.",

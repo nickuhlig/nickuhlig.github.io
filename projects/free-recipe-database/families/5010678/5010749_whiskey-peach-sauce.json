@@ -46,8 +46,9 @@
   "ingredients": [
     {
       "ingredient_id": 234,
-      "name": "coarsely puréed very ripe peaches",
-      "quantity": "3 cups"
+      "name": "very ripe peaches",
+      "quantity": "3 cups",
+      "prep": "coarsely puréed"
     },
     {
       "ingredient_id": 293,
@@ -66,11 +67,18 @@
     },
     {
       "ingredient_id": 2346,
-      "name": "freshly grated lemon zest",
-      "quantity": "2 tsp"
+      "name": "lemon zest",
+      "quantity": "2 tsp",
+      "prep": "freshly grated"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Coarsely purée the very ripe peaches. Grate the zest from the lemon.",
+      "secondary_message": "3 cups very ripe peaches\n2 tsp lemon zest"
+    },
     {
       "id": 1,
       "primary_message": "Combine peaches, brown sugar, granulated sugar, whiskey, and lemon zest in a large, heavy-bottomed pot. Bring to a boil, stirring to dissolve sugar. Reduce heat and simmer, stirring occasionally, until sauce has thickened, 20 to 25 minutes.",

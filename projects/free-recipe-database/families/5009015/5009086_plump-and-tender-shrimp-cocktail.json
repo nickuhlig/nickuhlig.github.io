@@ -111,9 +111,17 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -130,8 +138,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Dice the celery. Dice the yellow onion. Smash the garlic. Peel and thinly slice the fresh ginger. Juice the lemon.",
-      "secondary_message": "2 ribs celery\n1 medium yellow onion\n3 medium cloves garlic\n1 (5 cm) knob fresh ginger\n1 lemon"
+      "primary_message": "Dice the celery. Dice the yellow onion. Smash the garlic. Peel and thinly slice the fresh ginger. Juice the lemon. Juice the lemon.",
+      "secondary_message": "2 ribs celery\n1 medium yellow onion\n3 medium cloves garlic\n1 (5 cm) knob fresh ginger\n1 lemon\n½ lemon"
     },
     {
       "id": 1,

@@ -75,9 +75,17 @@
       "quantity": "½ tsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -101,21 +109,23 @@
     },
     {
       "ingredient_id": 153,
-      "name": "Sliced scallion",
-      "quantity": ""
+      "name": "Scallion",
+      "quantity": "",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 1612,
-      "name": "Crumbled cotija cheese",
-      "quantity": ""
+      "name": "Cotija cheese",
+      "quantity": "",
+      "prep": "crumbled"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely chop the white onion. Finely chop the chipotle chilis. Don't drain the black beans.",
-      "secondary_message": "½ small white onion\n1 chipotle chilis, canned in adobo sauce\n1 (15 oz) can black beans"
+      "primary_message": "Finely chop the white onion. Finely chop the chipotle chilis. Don't drain the black beans. Juice the lime. Slice the scallion. Crumble the Cotija cheese.",
+      "secondary_message": "½ small white onion\n1 chipotle chilis, canned in adobo sauce\n1 (15 oz) can black beans\n½ lime\nScallion\nCotija cheese"
     },
     {
       "id": 1,

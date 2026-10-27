@@ -53,9 +53,17 @@
       "quantity": "5"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 1 whole lemon",
-      "quantity": "½ fl oz"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "½ fl oz",
+          "name": "fresh lemon juice, from 1 whole lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1953,
@@ -79,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "Add cucumber, lemon juice, and simple syrup to a cocktail shaker. Muddle until cucumber is broken up. Add vodka and elderflower liqueur and fill with ice. Shake until well chilled, about 15 seconds.",

@@ -95,9 +95,17 @@
       "quantity": "1 pinch"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 medium lemon divided",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice, from 1 medium lemon divided"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 115,
@@ -110,8 +118,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Bring the unsalted butter to room temperature. Cut the unsalted butter into 4 equal pieces.",
-      "secondary_message": "2 oz unsalted butter\n½ oz unsalted butter"
+      "primary_message": "Bring the unsalted butter to room temperature. Juice the lemon. Cut the unsalted butter into 4 equal pieces.",
+      "secondary_message": "2 oz unsalted butter\n½ lemon\n½ oz unsalted butter"
     },
     {
       "id": 1,

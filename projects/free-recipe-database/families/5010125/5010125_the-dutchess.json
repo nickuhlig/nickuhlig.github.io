@@ -44,9 +44,17 @@
       "quantity": "1 ½ oz"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice",
-      "quantity": "½ oz"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "½ oz",
+          "name": "freshly squeezed lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2265,
@@ -69,8 +77,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Strain the freshly squeezed pineapple juice.",
-      "secondary_message": "1 oz freshly squeezed pineapple juice"
+      "primary_message": "Juice the lemon. Strain the freshly squeezed pineapple juice.",
+      "secondary_message": "½ lemon\n1 oz freshly squeezed pineapple juice"
     },
     {
       "id": 1,

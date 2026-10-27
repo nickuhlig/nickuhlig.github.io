@@ -43,8 +43,9 @@
   "ingredients": [
     {
       "ingredient_id": 2463,
-      "name": "chopped rhubarb",
-      "quantity": "3 cups"
+      "name": "rhubarb",
+      "quantity": "3 cups",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 359,
@@ -78,6 +79,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the rhubarb.",
+      "secondary_message": "3 cups rhubarb"
+    },
     {
       "id": 1,
       "primary_message": "To make the rhubarb syrup, combine chopped rhubarb, water, and sugar in a heavy-bottomed pot. Cook over medium-low heat, stirring often, until rhubarb has broken into shreds. Let cool, strain, and refrigerate in a sealed container.",

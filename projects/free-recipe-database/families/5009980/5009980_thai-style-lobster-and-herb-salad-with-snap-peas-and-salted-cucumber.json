@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 2746,
-      "name": "picked lobster meat, from 1 whole steamed lobster",
-      "quantity": "4 to 5 oz"
+      "name": "lobster meat, from 1 whole steamed lobster",
+      "quantity": "4 to 5 oz",
+      "prep": "picked"
     },
     {
       "ingredient_id": 1980,
@@ -78,9 +79,17 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "¼ cup"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "¼ cup",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2299,
@@ -90,8 +99,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "roughly chopped fresh cilantro leaves",
-      "quantity": "¼ cup"
+      "name": "fresh cilantro leaves",
+      "quantity": "¼ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 144,
@@ -114,8 +124,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Seed and cut the cucumber into 1/2-inch cubes. Cut the snap peas on a sharp bias into 1/2-inch pieces. Finely slice the red Thai bird chiles. Finely mince the garlic. Roughly chop the fresh Thai basil leaves. Thinly slice the shallot.",
-      "secondary_message": "1 small cucumber\n4 oz snap peas\n2 red Thai bird chiles\n2 medium cloves garlic\n1/4 cup fresh Thai basil leaves\n1 small shallot"
+      "primary_message": "Pick the leaves of the lobster meat from the stems. Seed and cut the cucumber into 1/2-inch cubes. Cut the snap peas on a sharp bias into 1/2-inch pieces. Finely slice the red Thai bird chiles. Finely mince the garlic. Juice the limes. Pick the basil leaves from the stems and roughly chop them. Pick the cilantro leaves from the stems and roughly chop them. Thinly slice the shallot.",
+      "secondary_message": "4 to 5 oz lobster meat, from 1 whole steamed lobster\n1 small cucumber\n4 oz snap peas\n2 red Thai bird chiles\n2 medium cloves garlic\n2 limes\n1/4 cup fresh Thai basil leaves\n¼ cup fresh cilantro leaves\n1 small shallot"
     },
     {
       "id": 1,

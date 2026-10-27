@@ -49,23 +49,33 @@
     },
     {
       "ingredient_id": 144,
-      "name": "finely diced shallots",
-      "quantity": "2 tbsp"
+      "name": "shallots",
+      "quantity": "2 tbsp",
+      "prep": "finely diced"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from 1 whole lemon",
-      "quantity": "½ tsp"
-    },
-    {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 whole lemon",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice, from 1 whole lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "½ tsp",
+          "name": "lemon zest, from 1 whole lemon"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 270,
-      "name": "finely chopped chives",
-      "quantity": "1 tbsp"
+      "name": "chives",
+      "quantity": "1 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2746,
@@ -84,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the shallots. Zest and juice the lemon. Finely chop the chives.",
+      "secondary_message": "2 tbsp shallots\n1 lemon\n1 tbsp chives"
+    },
     {
       "id": 1,
       "primary_message": "To make the lemon-shallot butter: Heat 2 tablespoons of butter in a small saucepan over medium heat until foaming subsides. Stir in shallots and cook until softened but not browned, about 4 minutes. Stir in remaining butter, lemon juice, and lemon zest and cook until butter is melted and warm throughout, about 3 minutes. Remove from heat and stir chives. Season with salt and pepper to taste.",

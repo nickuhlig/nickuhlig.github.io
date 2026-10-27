@@ -47,9 +47,17 @@
       "prep": "cut into 1 tablespoon pieces"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -66,8 +74,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the unsalted butter into 1 tablespoon pieces.",
-      "secondary_message": "10 tbsp unsalted butter"
+      "primary_message": "Cut the unsalted butter into 1 tablespoon pieces. Juice the lemon.",
+      "secondary_message": "10 tbsp unsalted butter\n½ lemon"
     },
     {
       "id": 1,

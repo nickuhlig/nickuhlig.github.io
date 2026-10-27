@@ -88,8 +88,9 @@
     },
     {
       "ingredient_id": 234,
-      "name": "finely diced peaches, from about 3 medium peaches",
-      "quantity": "2 cups"
+      "name": "peaches, from about 3 medium peaches",
+      "quantity": "2 cups",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 347,
@@ -103,6 +104,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the peaches.",
+      "secondary_message": "2 cups peaches, from about 3 medium peaches"
+    },
     {
       "id": 1,
       "primary_message": "Arrange oven rack to middle and lower positions and preheat oven to 400°F. Line two baking sheets with parchment paper. Dice butter then place in a bowl and put in the freezer for 2 minutes.",

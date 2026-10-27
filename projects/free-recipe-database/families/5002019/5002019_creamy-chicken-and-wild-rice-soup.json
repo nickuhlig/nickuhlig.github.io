@@ -109,8 +109,9 @@
     },
     {
       "ingredient_id": 1677,
-      "name": "chopped fresh thyme leaves",
-      "quantity": "2 tsp"
+      "name": "fresh thyme leaves",
+      "quantity": "2 tsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 88,
@@ -138,22 +139,30 @@
       "quantity": "½ cup"
     },
     {
-      "ingredient_id": 2346,
-      "name": "grated lemon zest",
-      "quantity": "1 tsp"
-    },
-    {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 lemon",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice, from 1 lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tsp",
+          "name": "grated lemon zest"
+        }
+      ],
+      "prep": "zested and juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Roughly chop the celery stalks. Roughly chop the carrot. Halve and slice the carrot 1/4-inch thick. Chop the fennel bulb into 1/2 inch pieces. Mince the garlic.",
-      "secondary_message": "2 medium celery stalks\n1 large carrot\n1 large carrot\n1 medium fennel bulb\n3 medium cloves garlic"
+      "primary_message": "Roughly chop the celery stalks. Roughly chop the carrot. Halve and slice the carrot 1/4-inch thick. Chop the fennel bulb into 1/2 inch pieces. Mince the garlic. Pick the thyme leaves from the stems and chop them. Zest and juice the lemon.",
+      "secondary_message": "2 medium celery stalks\n1 large carrot\n1 large carrot\n1 medium fennel bulb\n3 medium cloves garlic\n2 tsp fresh thyme leaves\n1 lemon"
     },
     {
       "id": 1,

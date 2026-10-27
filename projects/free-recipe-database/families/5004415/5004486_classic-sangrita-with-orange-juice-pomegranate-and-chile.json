@@ -40,9 +40,17 @@
       "quantity": "30 ml"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "20 ml"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "20 ml",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2821,
@@ -61,6 +69,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "1 lime"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, combine orange juice, lime juice, pomegranate juice, sugar, and chile powder and stir until sugar is dissolved. Taste and adjust lime, sugar, chile powder, or other ingredients if desired. Chill in the refrigerator or by stirring with ice briefly and then straining. Serve in a shot glass alongside a good-quality silver tequila.",

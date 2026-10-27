@@ -73,18 +73,21 @@
     },
     {
       "ingredient_id": 144,
-      "name": "chopped shallot",
-      "quantity": "¼ cup"
+      "name": "shallot",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 153,
-      "name": "sliced scallions",
-      "quantity": "¼ cup"
+      "name": "scallions",
+      "quantity": "¼ cup",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "chopped garlic",
-      "quantity": "2 tbsp"
+      "name": "garlic",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 72,
@@ -135,13 +138,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "finely chopped shallot",
-      "quantity": "¼ cup"
+      "name": "shallot",
+      "quantity": "¼ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 153,
-      "name": "sliced scallions",
-      "quantity": "2 tbsp"
+      "name": "scallions",
+      "quantity": "2 tbsp",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 1821,
@@ -200,14 +205,23 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "fresh lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 24,
-      "name": "chopped garlic",
-      "quantity": "1 tbsp"
+      "name": "garlic",
+      "quantity": "1 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 153,
@@ -262,8 +276,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thinly slice the skin-on boneless pork butt 1/8-inch thick. Separate the eggs. Halve the boneless skinless pork butt. Slice the Lebanese cucumbers. Slice the tomatoes. Wash the butter lettuce, then separate the leaves.",
-      "secondary_message": "0.68 kg skin-on boneless pork butt\n3 large eggs\n340 g boneless skinless pork butt\n2 Lebanese cucumbers\n2 tomatoes\n1 head butter lettuce"
+      "primary_message": "Chop the shallot. Slice the scallions. Chop the garlic. Thinly slice the skin-on boneless pork butt 1/8-inch thick. Separate the eggs. Finely chop the shallot. Slice the scallions. Halve the boneless skinless pork butt. Juice the lime. Chop the garlic. Slice the Lebanese cucumbers. Slice the tomatoes. Wash the butter lettuce, then separate the leaves.",
+      "secondary_message": "¼ cup shallot\n¼ cup scallions\n2 tbsp garlic\n0.68 kg skin-on boneless pork butt\n3 large eggs\n¼ cup shallot\n2 tbsp scallions\n340 g boneless skinless pork butt\n½ lime\n1 tbsp garlic\n2 Lebanese cucumbers\n2 tomatoes\n1 head butter lettuce"
     },
     {
       "id": 1,

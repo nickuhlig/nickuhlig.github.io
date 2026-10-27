@@ -41,9 +41,17 @@
       "quantity": "2 large"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice",
-      "quantity": "3 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "3 tbsp",
+          "name": "freshly squeezed lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 24,
@@ -58,8 +66,9 @@
     },
     {
       "ingredient_id": 106,
-      "name": "chopped Italian parsley",
-      "quantity": "½ cup"
+      "name": "Italian parsley",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 88,
@@ -76,8 +85,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the garlic.",
-      "secondary_message": "3 cloves garlic"
+      "primary_message": "Juice the lemon. Mince the garlic. Pick the parsley leaves from the stems and chop them.",
+      "secondary_message": "1 lemon\n3 cloves garlic\n½ cup Italian parsley"
     },
     {
       "id": 1,

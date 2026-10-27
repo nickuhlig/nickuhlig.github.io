@@ -84,11 +84,18 @@
     },
     {
       "ingredient_id": 2010,
-      "name": "thinly sliced salami",
-      "quantity": "20 pieces"
+      "name": "salami",
+      "quantity": "20 pieces",
+      "prep": "thinly sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the salami.",
+      "secondary_message": "20 pieces salami"
+    },
     {
       "id": 1,
       "primary_message": "In a stand mixer fitted with the paddle, mix bread flour, all purpose flour, oat flour, sugar, salt, and yeast at low speed until well blended, about 10 seconds. Stop the mixer and add milk and water. Mix at low speed until mixture forms a wet dough and begins to pull away from the side of the bowl.",

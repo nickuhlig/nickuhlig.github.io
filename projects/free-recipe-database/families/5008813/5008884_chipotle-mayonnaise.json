@@ -57,12 +57,26 @@
       "quantity": "2"
     },
     {
-      "ingredient_id": 1421,
-      "name": "freshly squeezed lime juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tbsp",
+          "name": "freshly squeezed lime juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "1 lime"
+    },
     {
       "id": 1,
       "primary_message": "Place mayonnaise, sour cream, lime juice, and chipotles in a tall, narrow jar. Using an immersion blender, puree until chipotles are completely chopped and mayonnaise is smooth. Pour into an airtight container, cover, and store in the refrigerator until ready to use.",

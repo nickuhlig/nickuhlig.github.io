@@ -76,9 +76,17 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -133,13 +141,15 @@
     },
     {
       "ingredient_id": 43,
-      "name": "shredded sharp cheddar cheese",
-      "quantity": "1 cup"
+      "name": "sharp cheddar cheese",
+      "quantity": "1 cup",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 188,
-      "name": "chopped cilantro",
-      "quantity": "¼ cup"
+      "name": "cilantro",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 144,
@@ -173,8 +183,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Roughly chop the garlic. Chop the tender stems of the fresh cilantro leaves. Chop the Portuguese chouriço into 1-inch pieces. Mince the shallot. Split the Bolo buns horizontally through the middle.",
-      "secondary_message": "1 small clove garlic\n2 tbsp fresh cilantro leaves\n1 link Portuguese chouriço\n1 (50 g) small shallot\nBolo buns"
+      "primary_message": "Roughly chop the garlic. Chop the tender stems of the fresh cilantro leaves. Juice the lemon. Chop the Portuguese chouriço into 1-inch pieces. Shred the sharp cheddar cheese. Pick the cilantro leaves from the stems and chop them. Mince the shallot. Split the Bolo buns horizontally through the middle.",
+      "secondary_message": "1 small clove garlic\n2 tbsp fresh cilantro leaves\n½ lemon\n1 link Portuguese chouriço\n1 cup sharp cheddar cheese\n¼ cup cilantro\n1 (50 g) small shallot\nBolo buns"
     },
     {
       "id": 1,

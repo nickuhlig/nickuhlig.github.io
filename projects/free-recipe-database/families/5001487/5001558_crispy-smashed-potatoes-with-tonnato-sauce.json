@@ -62,9 +62,17 @@
       "quantity": "1 large"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, divided",
-      "quantity": "¼ cup"
+      "ingredient_id": 192,
+      "name": "lemons, divided",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¼ cup",
+          "name": "fresh lemon juice, divided"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 325,
@@ -78,8 +86,9 @@
     },
     {
       "ingredient_id": 15,
-      "name": "drained capers",
-      "quantity": "1 tsp"
+      "name": "capers",
+      "quantity": "1 tsp",
+      "prep": "drained"
     },
     {
       "ingredient_id": 1044,
@@ -129,21 +138,23 @@
     },
     {
       "ingredient_id": 1624,
-      "name": "drained and minced Quick-Pickled Red Onion",
-      "quantity": "2 tbsp"
+      "name": "Quick-Pickled Red Onion",
+      "quantity": "2 tbsp",
+      "prep": "drained and minced"
     },
     {
       "ingredient_id": 3076,
-      "name": "chopped Calabrian chiles in oil",
-      "quantity": "2 tbsp"
+      "name": "Calabrian chiles in oil",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Drain the oil-packed tuna.",
-      "secondary_message": "113 g oil-packed tuna"
+      "primary_message": "Juice the lemons. Drain the capers. Drain the oil-packed tuna. Drain and mince the Quick-Pickled Red Onion. Chop the Calabrian chiles in oil.",
+      "secondary_message": "1 ½ lemons, divided\n1 tsp capers\n113 g oil-packed tuna\n2 tbsp Quick-Pickled Red Onion\n2 tbsp Calabrian chiles in oil"
     },
     {
       "id": 1,

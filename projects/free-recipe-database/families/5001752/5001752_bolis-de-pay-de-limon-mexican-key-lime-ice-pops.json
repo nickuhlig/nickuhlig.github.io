@@ -81,8 +81,9 @@
     },
     {
       "ingredient_id": 2346,
-      "name": "grated zest, divided",
-      "quantity": "1 tbsp"
+      "name": "zest, divided",
+      "quantity": "1 tbsp",
+      "prep": "grated"
     },
     {
       "ingredient_id": 2377,
@@ -91,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the zest.",
+      "secondary_message": "1 tbsp zest, divided"
+    },
     {
       "id": 1,
       "primary_message": "In a countertop blender, process whole milk, condensed milk, cream cheese, sugar, vanilla, and salt until smooth, about 15 seconds. Add lime juice and immediately blend until thoroughly combined, about 10 seconds.",

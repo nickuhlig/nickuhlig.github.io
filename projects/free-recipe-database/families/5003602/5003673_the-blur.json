@@ -44,9 +44,17 @@
       "quantity": "43 g"
     },
     {
-      "ingredient_id": 1421,
-      "name": "freshly squeezed lime juice, from 1 to 2 whole limes",
-      "quantity": "43 g"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "43 g",
+          "name": "freshly squeezed lime juice, from 1 to 2 whole limes"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2406,
@@ -55,6 +63,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the limes.",
+      "secondary_message": "1 ½ limes"
+    },
     {
       "id": 1,
       "primary_message": "Add Chartreuse, maraschino, and lime to a cocktail shaker and fill with ice. Shake until well chilled, about 15 seconds. Strain into two Champagne flutes, dividing evenly. Top each flute with Cava and serve.",

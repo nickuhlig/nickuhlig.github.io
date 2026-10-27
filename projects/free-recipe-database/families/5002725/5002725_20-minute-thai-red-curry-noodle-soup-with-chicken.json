@@ -62,9 +62,17 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1744,
@@ -83,11 +91,18 @@
     },
     {
       "ingredient_id": 153,
-      "name": "sliced scallions",
-      "quantity": "1 handful"
+      "name": "scallions",
+      "quantity": "1 handful",
+      "prep": "sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime. Slice the scallions.",
+      "secondary_message": "1 lime\n1 handful scallions"
+    },
     {
       "id": 1,
       "primary_message": "Set a large stock pot of salted water over high heat and bring to a boil. Meanwhile, heat oil in a large saucepan over medium-high heat until shimmering. Add curry paste and cook, pressing it into the bottom of the pan with a wooden spoon until fragrant and sizzling, about 1 minute. Whisk in chicken broth, fish sauce, sugar, and lime juice. Add chicken breast halves.",

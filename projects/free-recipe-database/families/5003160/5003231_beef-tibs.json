@@ -85,17 +85,25 @@
       "quantity": "1 tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, to taste",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon, to taste",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "lemon juice, to taste"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Chop the onions medium. Mince the ginger. Mince the garlic.",
-      "secondary_message": "2 medium onions\n1 (7 ½ cm) knob ginger, about 2 tablespoons\n6 medium cloves garlic, about 2 tablespoons"
+      "primary_message": "Chop the onions medium. Mince the ginger. Mince the garlic. Juice the lemon.",
+      "secondary_message": "2 medium onions\n1 (7 ½ cm) knob ginger, about 2 tablespoons\n6 medium cloves garlic, about 2 tablespoons\n½ lemon, to taste"
     },
     {
       "id": 1,

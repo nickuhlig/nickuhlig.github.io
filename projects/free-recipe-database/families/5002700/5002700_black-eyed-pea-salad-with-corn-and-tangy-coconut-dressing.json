@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 1820,
-      "name": "finely chopped palm sugar",
-      "quantity": "2 tbsp"
+      "name": "palm sugar",
+      "quantity": "2 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 193,
@@ -66,13 +67,22 @@
     },
     {
       "ingredient_id": 2346,
-      "name": "grated lime zest",
-      "quantity": "1 tsp"
+      "name": "lime zest",
+      "quantity": "1 tsp",
+      "prep": "grated"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice, divided",
-      "quantity": "2 tbsp"
+      "ingredient_id": 228,
+      "name": "lime, divided",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tbsp",
+          "name": "fresh lime juice, divided"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -144,8 +154,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely chop the red onion. Core and cut the ripe plum into 1/2-inch pieces. Chop the red bell pepper. Chop the green bell pepper. Drain and rinse the black-eyed peas.",
-      "secondary_message": "1 small red onion\n2 ripe plum\n1 medium red bell pepper\n1 medium green bell pepper\n1 (15 ½ oz) can black-eyed peas"
+      "primary_message": "Finely chop the palm sugar. Grate the zest from the lime. Juice the lime. Finely chop the red onion. Core and cut the ripe plum into 1/2-inch pieces. Chop the red bell pepper. Chop the green bell pepper. Drain and rinse the black-eyed peas.",
+      "secondary_message": "2 tbsp palm sugar\n1 tsp lime zest\n1 lime, divided\n1 small red onion\n2 ripe plum\n1 medium red bell pepper\n1 medium green bell pepper\n1 (15 ½ oz) can black-eyed peas"
     },
     {
       "id": 1,

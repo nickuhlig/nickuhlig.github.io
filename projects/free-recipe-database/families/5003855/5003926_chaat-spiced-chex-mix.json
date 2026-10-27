@@ -90,9 +90,17 @@
       "quantity": "⅔ cup"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "¼ cup"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "¼ cup",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -106,6 +114,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the limes.",
+      "secondary_message": "2 limes"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 120°C (250°F). In a large mixing bowl, combine Chex cereals, peanuts, pretzels, bagel chips, and rice crackers.",

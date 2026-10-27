@@ -63,27 +63,37 @@
       "quantity": "½ tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 ½ tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 ½ tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 272,
-      "name": "chopped toasted walnuts",
-      "quantity": "¼ cup"
+      "name": "toasted walnuts",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 115,
-      "name": "melted butter",
-      "quantity": "2 tbsp"
+      "name": "butter",
+      "quantity": "2 tbsp",
+      "prep": "melted"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thaw the 17.3 ounce package frozen puff pastry. Pit and slice the peaches into 1/8-inch slices.",
-      "secondary_message": "½ 17.3 ounce package frozen puff pastry\n3 peaches"
+      "primary_message": "Thaw the 17.3 ounce package frozen puff pastry. Pit and slice the peaches into 1/8-inch slices. Juice the lemon. Chop the toasted walnuts. Melt the butter.",
+      "secondary_message": "½ 17.3 ounce package frozen puff pastry\n3 peaches\n½ lemon\n¼ cup toasted walnuts\n2 tbsp butter"
     },
     {
       "id": 1,

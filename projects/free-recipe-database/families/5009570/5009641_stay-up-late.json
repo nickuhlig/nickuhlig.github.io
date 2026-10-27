@@ -32,9 +32,17 @@
   "cookwares": [],
   "ingredients": [
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice",
-      "quantity": "21 g"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "21 g",
+          "name": "freshly squeezed lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1953,
@@ -63,6 +71,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "Add lemon juice, simple syrup, gin, and cognac to a cocktail shaker. Fill with ice, then shake briefly.",

@@ -54,8 +54,9 @@
     },
     {
       "ingredient_id": 1816,
-      "name": "roughly chopped fresh lemongrass",
-      "quantity": "1 tsp"
+      "name": "fresh lemongrass",
+      "quantity": "1 tsp",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1467,
@@ -68,9 +69,17 @@
       "quantity": "½ tsp"
     },
     {
-      "ingredient_id": 2346,
-      "name": "freshly grated lime zest, from 1 whole lime",
-      "quantity": "¼ tsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "¼ tsp",
+          "name": "freshly grated lime zest, from 1 whole lime"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 1260,
@@ -89,6 +98,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the lemongrass. Zest the lime.",
+      "secondary_message": "1 tsp fresh lemongrass\n1 lime"
+    },
     {
       "id": 1,
       "primary_message": "In an electric spice grinder or high-power blender, combine coconut, lime leaves, sugar, chili powder, lemongrass, powdered ginger, garlic powder, and lime zest and blend until a fine powder forms.",

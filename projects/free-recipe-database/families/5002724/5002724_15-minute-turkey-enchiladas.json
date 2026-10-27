@@ -44,8 +44,9 @@
     },
     {
       "ingredient_id": 1740,
-      "name": "picked roast turkey meat, per tortilla",
-      "quantity": "1 ½ oz"
+      "name": "roast turkey meat, per tortilla",
+      "quantity": "1 ½ oz",
+      "prep": "picked"
     },
     {
       "ingredient_id": 1044,
@@ -69,6 +70,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the leaves of the roast turkey meat from the stems.",
+      "secondary_message": "1 ½ oz roast turkey meat, per tortilla"
+    },
     {
       "id": 1,
       "primary_message": "Place a single tortilla on a cutting board. Add 1 1/2 ounces of turkey meat. Roll tightly into a cigar shape and rest on seam side. Repeat with remaining tortillas and turkey.",

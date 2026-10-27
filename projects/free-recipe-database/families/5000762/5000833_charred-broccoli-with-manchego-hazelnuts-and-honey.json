@@ -65,9 +65,17 @@
       "quantity": ""
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 103,
@@ -76,8 +84,9 @@
     },
     {
       "ingredient_id": 1716,
-      "name": "chopped toasted hazelnuts",
-      "quantity": "⅓ cup"
+      "name": "toasted hazelnuts",
+      "quantity": "⅓ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2035,
@@ -86,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon. Chop the toasted hazelnuts.",
+      "secondary_message": "½ lemon\n⅓ cup toasted hazelnuts"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the broiler to high and place a rimmed aluminum half-sheet pan 15 cm below it.",

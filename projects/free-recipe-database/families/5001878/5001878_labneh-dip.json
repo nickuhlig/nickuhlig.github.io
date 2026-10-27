@@ -81,14 +81,22 @@
       "quantity": "¼ cup"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest",
-      "quantity": "1 tsp"
-    },
-    {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 1 lemon",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "fresh lemon juice, from 1 lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tsp",
+          "name": "lemon zest"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 88,
@@ -100,8 +108,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thinly slice the scallions white and green parts.",
-      "secondary_message": "2 scallions white and green parts"
+      "primary_message": "Thinly slice the scallions white and green parts. Zest and juice the lemon.",
+      "secondary_message": "2 scallions white and green parts\n1 lemon"
     },
     {
       "id": 1,

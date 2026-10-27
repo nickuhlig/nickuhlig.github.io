@@ -44,19 +44,28 @@
   ],
   "ingredients": [
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from 1 to 2 lemons",
-      "quantity": "2 tbsp"
-    },
-    {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 to 2 lemons",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice, from 1 to 2 lemons"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "2 tbsp",
+          "name": "lemon zest, from 1 to 2 lemons"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 1808,
-      "name": "chopped fresh parsley leaves",
-      "quantity": "½ cup"
+      "name": "fresh parsley leaves",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 24,
@@ -122,8 +131,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the garlic. Finely dice the onion. Peel and finely dice the carrot. Finely dice the celery.",
-      "secondary_message": "6 medium cloves garlic\n1 medium onion\n1 large carrot\n2 stalks celery"
+      "primary_message": "Zest and juice the lemons. Pick the parsley leaves from the stems and chop them. Mince the garlic. Finely dice the onion. Peel and finely dice the carrot. Finely dice the celery.",
+      "secondary_message": "2 lemons\n½ cup fresh parsley leaves\n6 medium cloves garlic\n1 medium onion\n1 large carrot\n2 stalks celery"
     },
     {
       "id": 1,

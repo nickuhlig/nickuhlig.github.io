@@ -54,9 +54,17 @@
       "quantity": "1 pinch"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "6",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 cup",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 359,
@@ -73,8 +81,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Hull and split the strawberries in quarters lengthwise.",
-      "secondary_message": "1 quart strawberries"
+      "primary_message": "Hull and split the strawberries in quarters lengthwise. Juice the lemons.",
+      "secondary_message": "1 quart strawberries\n6 lemons"
     },
     {
       "id": 1,

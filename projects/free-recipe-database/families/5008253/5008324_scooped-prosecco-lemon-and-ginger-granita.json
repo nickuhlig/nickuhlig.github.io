@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "grated ginger, with its juice",
-      "quantity": "1 ½ tbsp"
+      "name": "ginger, with its juice",
+      "quantity": "1 ½ tbsp",
+      "prep": "grated"
     },
     {
       "ingredient_id": 88,
@@ -65,17 +66,25 @@
       "prep": "zested"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice",
-      "quantity": "5 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "5 tsp",
+          "name": "freshly squeezed lemon juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Zest the lemon.",
-      "secondary_message": "1 lemon"
+      "primary_message": "Grate the ginger. Zest the lemon. Juice the lemon.",
+      "secondary_message": "1 ½ tbsp ginger, with its juice\n1 lemon\n1 lemon"
     },
     {
       "id": 1,

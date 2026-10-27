@@ -53,9 +53,17 @@
       "quantity": "6 oz"
     },
     {
-      "ingredient_id": 1421,
-      "name": "freshly squeezed lime juice, from about 5 whole limes",
-      "quantity": "2 ½ oz"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "2 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 ½ oz",
+          "name": "freshly squeezed lime juice, from about 5 whole limes"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1953,
@@ -69,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the limes.",
+      "secondary_message": "2 ½ limes"
+    },
     {
       "id": 1,
       "primary_message": "8 hours in advance, make a large ice block (or extra-large ice cubes) for serving.",

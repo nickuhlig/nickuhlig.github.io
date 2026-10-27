@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 3654,
-      "name": "picked fresh oregano leaves",
-      "quantity": "2 tbsp"
+      "name": "fresh oregano leaves",
+      "quantity": "2 tbsp",
+      "prep": "picked"
     },
     {
       "ingredient_id": 1713,
@@ -88,14 +89,23 @@
       "quantity": "1 clove"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1808,
-      "name": "chopped parsley",
-      "quantity": "2 tbsp"
+      "name": "parsley",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1079,
@@ -105,18 +115,21 @@
     },
     {
       "ingredient_id": 260,
-      "name": "Chopped fresh tomato",
-      "quantity": ""
+      "name": "Fresh tomato",
+      "quantity": "",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1713,
-      "name": "Finely sliced onion",
-      "quantity": ""
+      "name": "Onion",
+      "quantity": "",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 1980,
-      "name": "Cubed peeled seeded cucumber",
-      "quantity": ""
+      "name": "Seeded cucumber",
+      "quantity": "",
+      "prep": "peeled and cubed"
     },
     {
       "ingredient_id": 448,
@@ -128,8 +141,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the onion into 1-inch chunks. Slice the garlic. Cut the slab bacon into 1-inch pieces. Soften the hand-pulled-style pita.",
-      "secondary_message": "½ medium onion\n1 clove garlic\n85 g slab bacon\n4 pieces hand-pulled-style pita"
+      "primary_message": "Pick the oregano leaves from the stems. Cut the onion into 1-inch chunks. Slice the garlic. Cut the slab bacon into 1-inch pieces. Juice the lemon. Pick the parsley leaves from the stems and chop them. Soften the hand-pulled-style pita. Chop the tomato. Finely slice the Onion. Peel and cube the seeded cucumber.",
+      "secondary_message": "2 tbsp fresh oregano leaves\n½ medium onion\n1 clove garlic\n85 g slab bacon\n½ lemon\n2 tbsp parsley\n4 pieces hand-pulled-style pita\nFresh tomato\nOnion\nSeeded cucumber"
     },
     {
       "id": 1,

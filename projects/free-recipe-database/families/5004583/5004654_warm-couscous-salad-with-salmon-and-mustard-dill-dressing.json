@@ -75,15 +75,23 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1932,
-      "name": "picked dill, plus more for garnish",
+      "name": "dill, plus more for garnish",
       "quantity": "½ cup",
-      "prep": "roughly chopped"
+      "prep": "picked, roughly chopped"
     },
     {
       "ingredient_id": 1879,
@@ -95,8 +103,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thinly slice the shallot. Roughly chop the picked dill.",
-      "secondary_message": "1 medium shallot\n½ cup picked dill, plus more for garnish"
+      "primary_message": "Thinly slice the shallot. Juice the lemon. Pick the dill fronds from the stems and roughly chop them.",
+      "secondary_message": "1 medium shallot\n1 lemon\n½ cup dill, plus more for garnish"
     },
     {
       "id": 1,

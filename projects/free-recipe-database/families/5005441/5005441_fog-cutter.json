@@ -40,9 +40,17 @@
       "quantity": "2 oz"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice",
-      "quantity": "1 oz"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 oz",
+          "name": "freshly squeezed lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2590,
@@ -71,6 +79,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "Add everything except sherry to a cocktail shaker and fill with ice. Shake well and strain into an ice-filled highball glass. Carefully pour the sherry on top of the drink; garnish with a sprig of mint.",

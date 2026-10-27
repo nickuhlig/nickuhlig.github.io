@@ -39,8 +39,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "lightly packed finely sliced scallions, green parts only",
-      "quantity": "½ cup"
+      "name": "lightly packed scallions, green parts only",
+      "quantity": "½ cup",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 3361,
@@ -64,6 +65,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely slice the scallions.",
+      "secondary_message": "½ cup lightly packed scallions, green parts only"
+    },
     {
       "id": 1,
       "primary_message": "Working in 2 batches on a large plate or bowl, microwave corn in husk on high until tender, 5 to 6 minutes. (Alternatively, use your favorite method for cooking corn on the cob.)",

@@ -82,9 +82,17 @@
       "prep": "chopped"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "fresh lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 186,
@@ -96,8 +104,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Scrub the sweet potatoes. Chop the cilantro.",
-      "secondary_message": "0.57 kg sweet potatoes\n3 tbsp cilantro"
+      "primary_message": "Scrub the sweet potatoes. Pick the cilantro leaves from the stems and chop them. Juice the lime.",
+      "secondary_message": "0.57 kg sweet potatoes\n3 tbsp cilantro\n½ lime"
     },
     {
       "id": 1,

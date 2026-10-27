@@ -45,14 +45,22 @@
       "quantity": "5 large"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 6-8 whole lemons divided",
-      "quantity": "1 tsp"
-    },
-    {
-      "ingredient_id": 2346,
-      "name": "lemon zest",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "8",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "lemon juice, from 6-8 whole lemons divided"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "2 tsp",
+          "name": "lemon zest"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 115,
@@ -80,8 +88,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Soften the unsalted butter.",
-      "secondary_message": "5 tbsp (2 ½ oz) unsalted butter"
+      "primary_message": "Zest and juice the lemons. Soften the unsalted butter.",
+      "secondary_message": "8 lemons\n5 tbsp (2 ½ oz) unsalted butter"
     },
     {
       "id": 1,

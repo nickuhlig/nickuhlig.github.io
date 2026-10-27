@@ -99,9 +99,17 @@
       "quantity": "1 ½ tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -113,8 +121,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Dice the red onion. Drain the oil-packed tuna. Cut the celery into 1/4-inch dice. Peel and shred the carrots.",
-      "secondary_message": "1 medium red onion\n4 (5 oz) cans oil-packed tuna\n2 ribs celery\n2 medium carrots"
+      "primary_message": "Dice the red onion. Drain the oil-packed tuna. Cut the celery into 1/4-inch dice. Peel and shred the carrots. Juice the lemon.",
+      "secondary_message": "1 medium red onion\n4 (5 oz) cans oil-packed tuna\n2 ribs celery\n2 medium carrots\n1 lemon"
     },
     {
       "id": 1,

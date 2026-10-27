@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 159,
-      "name": "packed grated carrots",
-      "quantity": "1 cup"
+      "name": "packed carrots",
+      "quantity": "1 cup",
+      "prep": "grated"
     },
     {
       "ingredient_id": 88,
@@ -86,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the carrots.",
+      "secondary_message": "1 cup packed carrots"
+    },
     {
       "id": 1,
       "primary_message": "Heat butter in a medium skillet on medium heat until it melts and foam subsides, then add carrots and 1/4 teaspoon of salt. Increase heat to high and cook, stirring frequently, until very soft and beginning to brown around the edges, about 5 minutes.",

@@ -48,9 +48,17 @@
       "quantity": "2 cups"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "6",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 cup",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 346,
@@ -77,8 +85,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the cucumber into rough chunks. Roughly chop the lemongrass.",
-      "secondary_message": "1 medium cucumber\n2 stalks lemongrass, bottom 4 inches only"
+      "primary_message": "Cut the cucumber into rough chunks. Roughly chop the lemongrass. Juice the lemons.",
+      "secondary_message": "1 medium cucumber\n2 stalks lemongrass, bottom 4 inches only\n6 lemons"
     },
     {
       "id": 1,

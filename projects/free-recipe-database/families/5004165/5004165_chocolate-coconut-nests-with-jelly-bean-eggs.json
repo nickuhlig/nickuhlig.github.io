@@ -31,8 +31,9 @@
   "ingredients": [
     {
       "ingredient_id": 2742,
-      "name": "finely chopped milk chocolate, semi-sweet chocolate, or white chocolate",
-      "quantity": "4 oz"
+      "name": "milk chocolate, semi-sweet chocolate, or white chocolate",
+      "quantity": "4 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 288,
@@ -46,6 +47,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the milk chocolate.",
+      "secondary_message": "4 oz milk chocolate, semi-sweet chocolate, or white chocolate"
+    },
     {
       "id": 1,
       "primary_message": "Line a baking sheet or large plate with parchment paper. In a heatproof bowl over a pan of barely simmering water, melt half of chocolate, stirring occasionally. Remove from heat and stir in remaining chocolate until chocolate is completely melted and smooth.",

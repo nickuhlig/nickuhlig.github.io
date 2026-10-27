@@ -81,9 +81,17 @@
       "prep": "trimmed and halved"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 lemon",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice, from 1 lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 346,
@@ -144,8 +152,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "melted butter",
-      "quantity": "6 tbsp"
+      "name": "butter",
+      "quantity": "6 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 3641,
@@ -182,8 +191,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Trim and halve the strawberries. Soften the cream cheese. Cut the butter into 4 pieces and soften it.",
-      "secondary_message": "1 lb strawberries\n8 oz cream cheese\n1 ½ tbsp butter"
+      "primary_message": "Trim and halve the strawberries. Juice the lemon. Soften the cream cheese. Cut the butter into 4 pieces and soften it. Melt the butter.",
+      "secondary_message": "1 lb strawberries\n1 lemon\n8 oz cream cheese\n1 ½ tbsp butter\n6 tbsp butter"
     },
     {
       "id": 1,

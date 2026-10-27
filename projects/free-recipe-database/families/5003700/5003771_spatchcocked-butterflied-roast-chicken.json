@@ -117,17 +117,25 @@
       "quantity": "3 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Roughly chop the onion. Peel and roughly chop the carrot. Roughly chop the celery.",
-      "secondary_message": "1 medium onion\n1 medium carrot\n1 medium rib celery"
+      "primary_message": "Roughly chop the onion. Peel and roughly chop the carrot. Roughly chop the celery. Juice the lemon.",
+      "secondary_message": "1 medium onion\n1 medium carrot\n1 medium rib celery\n½ lemon"
     },
     {
       "id": 1,

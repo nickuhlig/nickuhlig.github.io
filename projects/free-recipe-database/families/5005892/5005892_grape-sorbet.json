@@ -54,8 +54,9 @@
   "ingredients": [
     {
       "ingredient_id": 224,
-      "name": "rinsed grapes, such as Concord or Niagara",
-      "quantity": "2 lb"
+      "name": "grapes, such as Concord or Niagara",
+      "quantity": "2 lb",
+      "prep": "rinsed"
     },
     {
       "ingredient_id": 346,
@@ -68,12 +69,26 @@
       "quantity": "¼ tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "Lemon juice to taste, starting with 1/8 teaspoon",
-      "quantity": ""
+      "ingredient_id": 192,
+      "name": "Lemon, starting with 1/8 teaspoon, to taste",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "",
+          "name": "Lemon juice to taste, starting with 1/8 teaspoon"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse the grapes. Juice the lemon.",
+      "secondary_message": "2 lb grapes, such as Concord or Niagara\n1 Lemon, starting with 1/8 teaspoon, to taste"
+    },
     {
       "id": 1,
       "primary_message": "Place whole grapes in blender or food processor and pulse just until they liquify but the skins do not break down, about 10 seconds. Pour through a fine-mesh strainer into a work bowl, pressing down on skins and seeds with a spoon to release juices; you should have about 2 1/2 cups of purée.",

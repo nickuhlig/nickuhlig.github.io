@@ -50,9 +50,17 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh squeezed lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "fresh squeezed lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 116,
@@ -95,8 +103,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Dice the cold unsalted butter.",
-      "secondary_message": "16 tbsp cold unsalted butter"
+      "primary_message": "Juice the lemon. Dice the cold unsalted butter.",
+      "secondary_message": "½ lemon\n16 tbsp cold unsalted butter"
     },
     {
       "id": 1,

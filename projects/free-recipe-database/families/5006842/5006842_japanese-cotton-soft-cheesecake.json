@@ -84,14 +84,22 @@
       "prep": "separated"
     },
     {
-      "ingredient_id": 2346,
-      "name": "packed zest, from 1 lemon",
-      "quantity": "1 tsp"
-    },
-    {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 lemon",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice, from 1 lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tsp",
+          "name": "packed zest, from 1 lemon"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 1003,
@@ -119,8 +127,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Soften the cream cheese. Soften the unsalted butter. Separate the eggs. Bring the sour cream to room temperature.",
-      "secondary_message": "1 (8 oz) pkg cream cheese\n4 tbsp (2 oz) unsalted butter\n5 large eggs\n½ cup sour cream"
+      "primary_message": "Soften the cream cheese. Soften the unsalted butter. Separate the eggs. Zest and juice the lemon. Bring the sour cream to room temperature.",
+      "secondary_message": "1 (8 oz) pkg cream cheese\n4 tbsp (2 oz) unsalted butter\n5 large eggs\n1 lemon\n½ cup sour cream"
     },
     {
       "id": 1,

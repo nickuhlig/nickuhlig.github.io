@@ -63,14 +63,22 @@
   ],
   "ingredients": [
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest",
-      "quantity": "½ tsp"
-    },
-    {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 1 lemon",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "fresh lemon juice, from 1 lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "½ tsp",
+          "name": "lemon zest"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 117,
@@ -90,13 +98,15 @@
     },
     {
       "ingredient_id": 270,
-      "name": "minced fresh chives",
-      "quantity": "1 tbsp"
+      "name": "fresh chives",
+      "quantity": "1 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1746,
-      "name": "minced fresh basil leaves",
-      "quantity": "1 tbsp"
+      "name": "fresh basil leaves",
+      "quantity": "1 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 88,
@@ -173,8 +183,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely grate or mince the garlic. Halve the ripe but firm tomatoes lengthwise. Cut the red onions into 1/2-inch thick rounds.",
-      "secondary_message": "1 clove garlic\n5 ripe but firm tomatoes, large\n2 medium red onions"
+      "primary_message": "Zest and juice the lemon. Finely grate or mince the garlic. Mince the chives. Pick the basil leaves from the stems and mince them. Halve the ripe but firm tomatoes lengthwise. Cut the red onions into 1/2-inch thick rounds.",
+      "secondary_message": "1 lemon\n1 clove garlic\n1 tbsp fresh chives\n1 tbsp fresh basil leaves\n5 ripe but firm tomatoes, large\n2 medium red onions"
     },
     {
       "id": 1,

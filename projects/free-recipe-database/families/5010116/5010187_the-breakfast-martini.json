@@ -37,9 +37,17 @@
       "quantity": "50 g"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 1 whole lemon",
-      "quantity": "14 g"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "14 g",
+          "name": "fresh lemon juice, from 1 whole lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1699,
@@ -58,6 +66,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "Combine gin, lemon juice, Cointreau, and marmalade in cocktail shaker and stir to break up marmalade and mix it with the liquid ingredients. Fill shaker with ice, shake well for 10 seconds, and strain into chilled cocktail glass. Squeeze orange zest over drink so orange oil sprays over surface. Drop orange zest into cocktail to garnish, and serve.",

@@ -52,9 +52,17 @@
       "quantity": "½ cup (3 ½ oz)"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1882,
@@ -128,8 +136,9 @@
     },
     {
       "ingredient_id": 2346,
-      "name": "finely grated lemon zest",
-      "quantity": "1 tsp"
+      "name": "lemon zest",
+      "quantity": "1 tsp",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 121,
@@ -142,8 +151,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Crush the cardamom pods. Halve the Seckel pears from pole to pole, then core them. Soften the unsalted butter. Bring the milk to room temperature. Bring the unsalted butter to room temperature. Bring the eggs to room temperature.",
-      "secondary_message": "4 cardamom pods\n4 Seckel pears\n1 tbsp unsalted butter\n¼ cup milk\n8 tbsp (4 oz) unsalted butter\n2 large eggs"
+      "primary_message": "Juice the lemon. Crush the cardamom pods. Halve the Seckel pears from pole to pole, then core them. Soften the unsalted butter. Bring the milk to room temperature. Bring the unsalted butter to room temperature. Finely grate the zest from the lemon. Bring the eggs to room temperature.",
+      "secondary_message": "½ lemon\n4 cardamom pods\n4 Seckel pears\n1 tbsp unsalted butter\n¼ cup milk\n8 tbsp (4 oz) unsalted butter\n1 tsp lemon zest\n2 large eggs"
     },
     {
       "id": 1,

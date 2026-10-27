@@ -50,9 +50,17 @@
       "weigh_as": "21 g"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice",
-      "quantity": "21 g"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "21 g",
+          "name": "freshly squeezed lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 3583,
@@ -66,6 +74,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "In a cocktail shaker, combine apple brandy, King's Ginger, lemon, and Carpano Antica. If using egg white, add and shake dry, then add ice and shake further. (If not using egg white, add ice and shake.) Strain into a cocktail glass and garnish with lemon wheel.",

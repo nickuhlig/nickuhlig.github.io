@@ -51,9 +51,17 @@
       "quantity": ""
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 72,
@@ -88,8 +96,9 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "Sliced white onion",
-      "quantity": ""
+      "name": "White onion",
+      "quantity": "",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 1772,
@@ -101,8 +110,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Seed and cut the cucumber into fine dice. Seed and cut the ripe tomato into fine dice. Mince the garlic.",
-      "secondary_message": "1 small cucumber\n1 large ripe tomato\n1 medium clove garlic"
+      "primary_message": "Seed and cut the cucumber into fine dice. Seed and cut the ripe tomato into fine dice. Juice the lemon. Mince the garlic. Slice the White onion.",
+      "secondary_message": "1 small cucumber\n1 large ripe tomato\n½ lemon\n1 medium clove garlic\nWhite onion"
     },
     {
       "id": 1,

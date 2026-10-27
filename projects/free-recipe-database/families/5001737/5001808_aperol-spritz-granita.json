@@ -76,10 +76,17 @@
       "quantity": "74 ml"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "44 ml",
-      "prep": "freshly squeezed"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "juiced",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "44 ml",
+          "name": "lemon juice"
+        }
+      ]
     },
     {
       "ingredient_id": 346,
@@ -91,8 +98,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Freshly squeeze the lemon juice.",
-      "secondary_message": "44 ml lemon juice"
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "1 lemon"
     },
     {
       "id": 1,

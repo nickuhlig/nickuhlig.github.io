@@ -90,9 +90,17 @@
       "quantity": "1 cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice, from 2 lemons",
-      "quantity": "¼ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¼ cup",
+          "name": "freshly squeezed lemon juice, from 2 lemons"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 24,
@@ -106,9 +114,17 @@
       "quantity": "1 medium"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice, from 1 lemon",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "freshly squeezed lemon juice, from 1 lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -152,16 +168,17 @@
     },
     {
       "ingredient_id": 106,
-      "name": "finely chopped flat-leaf parsley",
-      "quantity": "2 tbsp"
+      "name": "flat-leaf parsley",
+      "quantity": "2 tbsp",
+      "prep": "finely chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the thin pita into 3/4-inch squares. Finely mince the garlic. Finely mince the garlic.",
-      "secondary_message": "255 g thin pita\n1 large clove garlic\n1 large clove garlic"
+      "primary_message": "Cut the thin pita into 3/4-inch squares. Finely mince the garlic. Juice the lemons. Finely mince the garlic. Juice the lemon. Pick the parsley leaves from the stems and finely chop them.",
+      "secondary_message": "255 g thin pita\n1 large clove garlic\n1 ½ lemons\n1 large clove garlic\n1 lemon\n2 tbsp flat-leaf parsley"
     },
     {
       "id": 1,

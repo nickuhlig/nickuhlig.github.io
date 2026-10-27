@@ -64,9 +64,17 @@
       "quantity": "½ oz"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice, from 1 to 2 limes",
-      "quantity": "1 oz"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 oz",
+          "name": "fresh lime juice, from 1 to 2 limes"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1785,
@@ -84,8 +92,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Peel the section English cucumber. Keep the seltzer cold until you use it.",
-      "secondary_message": "1 (2 inch) section English cucumber\n2 oz seltzer"
+      "primary_message": "Peel the section English cucumber. Juice the lime. Keep the seltzer cold until you use it.",
+      "secondary_message": "1 (2 inch) section English cucumber\n1 lime\n2 oz seltzer"
     },
     {
       "id": 1,

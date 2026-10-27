@@ -78,8 +78,9 @@
     },
     {
       "ingredient_id": 29,
-      "name": "chopped almonds",
-      "quantity": "1 cup"
+      "name": "almonds",
+      "quantity": "1 cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 288,
@@ -113,6 +114,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the almonds.",
+      "secondary_message": "1 cup almonds"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 175°C (350°F). Line an 8- by 20-cm baking dish with parchment paper, allowing some paper to overhang from the sides. In a large bowl, combine oats, sugar, salt, cinnamon, apricots, peanut butter chips, cranberries, raisins, almonds, and coconut; set aside.",

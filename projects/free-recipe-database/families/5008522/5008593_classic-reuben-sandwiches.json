@@ -62,14 +62,23 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1241,
-      "name": "grated horseradish from a jar",
-      "quantity": "1 tsp"
+      "name": "horseradish from a jar",
+      "quantity": "1 tsp",
+      "prep": "grated"
     },
     {
       "ingredient_id": 88,
@@ -83,8 +92,9 @@
     },
     {
       "ingredient_id": 2878,
-      "name": "sliced corned beef",
-      "quantity": "0.5 kg"
+      "name": "corned beef",
+      "quantity": "0.5 kg",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 115,
@@ -93,8 +103,9 @@
     },
     {
       "ingredient_id": 479,
-      "name": "drained sauerkraut",
-      "quantity": "0.23 kg"
+      "name": "sauerkraut",
+      "quantity": "0.23 kg",
+      "prep": "drained"
     },
     {
       "ingredient_id": 1240,
@@ -108,6 +119,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon. Grate the horseradish from a jar. Slice the corned beef. Drain the sauerkraut.",
+      "secondary_message": "½ lemon\n1 tsp horseradish from a jar\n0.5 kg corned beef\n0.23 kg sauerkraut"
+    },
     {
       "id": 1,
       "primary_message": "For the Russian Dressing: In a medium bowl, stir together mayonnaise, sour cream, ketchup, relish, lemon juice, and horseradish. Season dressing with salt and pepper and set aside.",

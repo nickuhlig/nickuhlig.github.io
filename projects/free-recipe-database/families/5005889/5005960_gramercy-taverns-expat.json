@@ -43,9 +43,17 @@
       "quantity": "14 g"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "7 g"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "7 g",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1953,
@@ -64,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "½ lime"
+    },
     {
       "id": 1,
       "primary_message": "Fill a cocktail shaker with ice, then add the rum, maraschino, lime juice, simple syrup, and bitters. Shake until well chilled, about 15 seconds.",

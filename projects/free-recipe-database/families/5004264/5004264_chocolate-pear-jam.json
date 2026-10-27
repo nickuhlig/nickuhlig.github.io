@@ -52,9 +52,17 @@
       "weigh_as": "2 ¼ lb"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice, from about 2 lemons",
-      "quantity": "¼ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¼ cup",
+          "name": "freshly squeezed lemon juice, from about 2 lemons"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2775,
@@ -77,8 +85,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Chop the extra-dark chocolate.",
-      "secondary_message": "5 oz extra-dark chocolate"
+      "primary_message": "Juice the lemons. Chop the extra-dark chocolate.",
+      "secondary_message": "1 ½ lemons\n5 oz extra-dark chocolate"
     },
     {
       "id": 1,

@@ -81,8 +81,9 @@
     },
     {
       "ingredient_id": 242,
-      "name": "diced fresh strawberries, divided",
-      "quantity": "¾ cup"
+      "name": "fresh strawberries, divided",
+      "quantity": "¾ cup",
+      "prep": "diced"
     },
     {
       "ingredient_id": 347,
@@ -101,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the strawberries.",
+      "secondary_message": "¾ cup fresh strawberries, divided"
+    },
     {
       "id": 1,
       "primary_message": "Remove container of ice cream from freezer. Set aside to soften until easily scoopable but not melted, about 10 to 15 minutes. Meanwhile, prepare the other components.",

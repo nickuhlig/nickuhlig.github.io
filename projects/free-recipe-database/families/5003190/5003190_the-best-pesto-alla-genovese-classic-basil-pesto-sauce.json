@@ -62,8 +62,9 @@
     },
     {
       "ingredient_id": 120,
-      "name": "grated Parmigiano Reggiano",
-      "quantity": "¾ oz"
+      "name": "Parmesan cheese",
+      "quantity": "¾ oz",
+      "prep": "grated"
     },
     {
       "ingredient_id": 2658,
@@ -77,6 +78,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the Parmesan cheese.",
+      "secondary_message": "¾ oz Parmesan cheese"
+    },
     {
       "id": 1,
       "primary_message": "Using a marble mortar and wooden pestle (see note), pound the garlic to a paste.",

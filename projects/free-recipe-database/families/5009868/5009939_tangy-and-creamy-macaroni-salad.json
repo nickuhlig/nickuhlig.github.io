@@ -58,9 +58,17 @@
       "quantity": "3 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 1 whole lemon",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "fresh lemon juice, from 1 whole lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 448,
@@ -95,8 +103,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "finely chopped shallots",
-      "quantity": "¼ cup"
+      "name": "shallots",
+      "quantity": "¼ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 153,
@@ -119,8 +128,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely chop the celery. Finely slice the scallions.",
-      "secondary_message": "1 rib celery\n4 scallions"
+      "primary_message": "Juice the lemon. Finely chop the celery. Finely chop the shallots. Finely slice the scallions.",
+      "secondary_message": "1 lemon\n1 rib celery\n¼ cup shallots\n4 scallions"
     },
     {
       "id": 1,

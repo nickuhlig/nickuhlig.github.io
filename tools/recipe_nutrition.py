@@ -617,6 +617,19 @@ def foods_of(db: dict) -> dict:
     return {**db["foods"], **db.get("batches", {})}
 
 
+def weighed_lines(recipe: dict):
+    """(index, line) pairs to weigh. A line with "weigh_parts" is weighed as those parts instead: "1 lemon"
+    (zested and juiced) -> the page's "3 tbsp lemon juice" and "2 tsp lemon zest", each as its own food."""
+    for index, ing in enumerate(recipe.get("ingredients", [])):
+        parts = ing.get("weigh_parts")
+        if not parts:
+            yield index, ing
+            continue
+        for p in parts:
+            yield index, {**ing, "ingredient_id": p["ingredient_id"], "weigh_as": None, "quantity": p.get("quantity") or "",
+                          "name": p.get("name") or ing.get("name"), "prep": None}
+
+
 def recipe_nutrition(recipe: dict, db: dict, skip_ids=()) -> dict:
     """Per-serving totals plus coverage: which lines were counted, zero, or left out and why.
     skip_ids: ingredient ids to leave out of the totals (validate uses SALT_IDS)."""
@@ -624,7 +637,7 @@ def recipe_nutrition(recipe: dict, db: dict, skip_ids=()) -> dict:
     foods = foods_of(db)
     drained_salt = drained_water_salt(recipe)
     override = db.get("recipe_overrides", {}).get(str(recipe.get("id")), {})
-    for index, ing in enumerate(recipe.get("ingredients", [])):
+    for index, ing in weighed_lines(recipe):
         iid = str(ing.get("ingredient_id"))
         if iid in skip_ids:
             continue

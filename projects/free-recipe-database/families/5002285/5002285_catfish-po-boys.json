@@ -112,13 +112,15 @@
     },
     {
       "ingredient_id": 1377,
-      "name": "minced dill pickles",
-      "quantity": "¼ cup"
+      "name": "dill pickles",
+      "quantity": "¼ cup",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1241,
-      "name": "drained prepared horseradish",
-      "quantity": "2 tbsp"
+      "name": "prepared horseradish",
+      "quantity": "2 tbsp",
+      "prep": "drained"
     },
     {
       "ingredient_id": 448,
@@ -136,9 +138,17 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 24,
@@ -161,8 +171,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Halve the catfish fillets lengthwise along natural seam. Thinly slice the tomatoes. Shred the iceberg lettuce. Mince the garlic.",
-      "secondary_message": "4 catfish fillets\n2 medium tomatoes\n1 small head iceberg lettuce\n1 clove garlic"
+      "primary_message": "Halve the catfish fillets lengthwise along natural seam. Thinly slice the tomatoes. Shred the iceberg lettuce. Mince the dill pickles. Drain the prepared horseradish. Juice the lemon. Mince the garlic.",
+      "secondary_message": "4 catfish fillets\n2 medium tomatoes\n1 small head iceberg lettuce\n¼ cup dill pickles\n2 tbsp prepared horseradish\n½ lemon\n1 clove garlic"
     },
     {
       "id": 1,

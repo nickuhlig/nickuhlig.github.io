@@ -62,8 +62,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "freshly grated ginger",
-      "quantity": "1 tbsp"
+      "name": "ginger",
+      "quantity": "1 tbsp",
+      "prep": "freshly grated"
     },
     {
       "ingredient_id": 88,
@@ -72,11 +73,18 @@
     },
     {
       "ingredient_id": 1081,
-      "name": "finely chopped crystallized ginger",
-      "quantity": "¼ cup"
+      "name": "crystallized ginger",
+      "quantity": "¼ cup",
+      "prep": "finely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Freshly grate the ginger. Finely chop the crystallized ginger.",
+      "secondary_message": "1 tbsp ginger\n¼ cup crystallized ginger"
+    },
     {
       "id": 1,
       "primary_message": "Combine cranberries, pears, white sugar, water, brown sugar, orange juice, grated ginger, and salt in a medium saucepan. Bring to a boil over medium-high heat. Cook, stirring occasionally, until berries start to pop, about 5 minutes. Press berries against side of pan with wooden spoon and continue to cook until berries have broken down and sauce thickens to a jam-like consistency, about 5 minutes more. Remove from heat and let cool for 30 minutes. Adjust consistency with water as needed. Stir in crystallized ginger. Serve immediately or place in an airtight container and store in the refrigerator. Can be served cold or reheated.",

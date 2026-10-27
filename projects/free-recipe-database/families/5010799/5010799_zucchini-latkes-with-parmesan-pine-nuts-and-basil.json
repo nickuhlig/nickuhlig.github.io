@@ -73,23 +73,34 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "chopped onion",
-      "quantity": "4 ½ cups"
+      "name": "onion",
+      "quantity": "4 ½ cups",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 120,
-      "name": "loosely packed grated parmesan cheese",
-      "quantity": "¾ cup"
+      "name": "loosely packed parmesan cheese",
+      "quantity": "¾ cup",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1746,
-      "name": "finely chopped basil leaves",
-      "quantity": "3 tbsp"
+      "name": "basil leaves",
+      "quantity": "3 tbsp",
+      "prep": "finely chopped"
     },
     {
-      "ingredient_id": 2346,
-      "name": "freshly grated lemon zest, from 1 whole lemon",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tbsp",
+          "name": "freshly grated lemon zest, from 1 whole lemon"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 216,
@@ -123,6 +134,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the onion. Grate the parmesan cheese. Pick the basil leaves from the stems and finely chop them. Zest the lemon.",
+      "secondary_message": "4 ½ cups onion\n¾ cup loosely packed parmesan cheese\n3 tbsp basil leaves\n1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "Working in roughly 2-cup batches, wrap zucchini, potato, and onion in cheesecloth that has been folded over twice. Tie corners around the handle of a wooden spoon and twist bundle until liquid flows out and vegetables are dry. Add squeezed vegetables to a large mixing bowl and toss to combine thoroughly.",

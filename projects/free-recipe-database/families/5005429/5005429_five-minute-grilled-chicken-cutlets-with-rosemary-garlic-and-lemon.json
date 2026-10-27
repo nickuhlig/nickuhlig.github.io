@@ -49,13 +49,22 @@
     },
     {
       "ingredient_id": 286,
-      "name": "minced fresh rosemary",
-      "quantity": "3 tbsp"
+      "name": "fresh rosemary",
+      "quantity": "3 tbsp",
+      "prep": "minced"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -83,8 +92,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the garlic. Cut the boneless skinless chicken breasts into 8 cutlets.",
-      "secondary_message": "3 medium cloves garlic\n4 boneless skinless chicken breasts"
+      "primary_message": "Mince the garlic. Pick the rosemary leaves from the stems and mince them. Juice the lemon. Cut the boneless skinless chicken breasts into 8 cutlets.",
+      "secondary_message": "3 medium cloves garlic\n3 tbsp fresh rosemary\n1 lemon\n4 boneless skinless chicken breasts"
     },
     {
       "id": 1,

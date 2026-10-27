@@ -61,9 +61,17 @@
       "quantity": "1 cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 6 to 8 whole lemons",
-      "quantity": "¾ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "4",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¾ cup",
+          "name": "lemon juice, from 6 to 8 whole lemons"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 192,
@@ -106,8 +114,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Zest the lemons.",
-      "secondary_message": "2 lemons"
+      "primary_message": "Juice the lemons. Zest the lemons.",
+      "secondary_message": "4 lemons\n2 lemons"
     },
     {
       "id": 1,

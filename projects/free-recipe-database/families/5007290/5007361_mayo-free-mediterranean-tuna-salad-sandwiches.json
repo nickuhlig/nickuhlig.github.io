@@ -69,14 +69,15 @@
     },
     {
       "ingredient_id": 15,
-      "name": "drained brined capers",
-      "quantity": "2 tbsp"
+      "name": "brined capers",
+      "quantity": "2 tbsp",
+      "prep": "drained"
     },
     {
       "ingredient_id": 1534,
-      "name": "drained pitted briny black olives",
+      "name": "pitted briny black olives",
       "quantity": "¼ cup",
-      "prep": "quartered lengthwise"
+      "prep": "drained, quartered lengthwise"
     },
     {
       "ingredient_id": 47,
@@ -84,9 +85,17 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 52,
@@ -113,8 +122,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thinly slice the red onion. Slice the celery thinly on the bias. Core and thinly slice the fennel. Roughly chop the flat-leaf parsley leaves. Quarter the drained pitted briny black olives lengthwise.",
-      "secondary_message": "½ medium red onion\n1 stalk celery\n¼ medium bulb fennel\n1 handful flat-leaf parsley leaves\n¼ cup drained pitted briny black olives"
+      "primary_message": "Thinly slice the red onion. Slice the celery thinly on the bias. Core and thinly slice the fennel. Pick the parsley leaves from the stems and roughly chop them. Drain the brined capers. Drain and quarter the pitted briny black olives lengthwise. Juice the lemon.",
+      "secondary_message": "½ medium red onion\n1 stalk celery\n¼ medium bulb fennel\n1 handful flat-leaf parsley leaves\n2 tbsp brined capers\n¼ cup pitted briny black olives\n1 lemon"
     },
     {
       "id": 1,

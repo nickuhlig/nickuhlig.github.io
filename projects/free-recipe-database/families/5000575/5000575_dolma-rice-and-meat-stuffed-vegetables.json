@@ -128,17 +128,25 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 whole lemon",
-      "quantity": "3 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "3 tbsp",
+          "name": "lemon juice, from 1 whole lemon"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely mince the yellow onion. Mince 4 of the garlic and crush the other 2. Chop the fresh parsley flat-leaf parsley leaves.",
-      "secondary_message": "1 medium yellow onion\n6 medium cloves garlic, divided\n2 tbsp fresh parsley flat-leaf parsley leaves"
+      "primary_message": "Finely mince the yellow onion. Mince 4 of the garlic and crush the other 2. Pick the parsley leaves from the stems and chop them. Juice the lemon.",
+      "secondary_message": "1 medium yellow onion\n6 medium cloves garlic, divided\n2 tbsp fresh parsley flat-leaf parsley leaves\n1 lemon"
     },
     {
       "id": 1,

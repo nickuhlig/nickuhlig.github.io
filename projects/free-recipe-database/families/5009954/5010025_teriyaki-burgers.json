@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "thinly sliced scallions",
-      "quantity": "1 cup"
+      "name": "scallions",
+      "quantity": "1 cup",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1685,
@@ -71,11 +72,18 @@
     },
     {
       "ingredient_id": 1004,
-      "name": "finely shredded green cabbage",
-      "quantity": "2 cups"
+      "name": "green cabbage",
+      "quantity": "2 cups",
+      "prep": "finely shredded"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the scallions. Finely shred the green cabbage.",
+      "secondary_message": "1 cup scallions\n2 cups green cabbage"
+    },
     {
       "id": 1,
       "primary_message": "Form beef into 4 patties, about 1.5 cm wider than the burger buns, with a slight depression in the center to account for bulging as they cook. Season generously with salt and togarashi and refrigerate until ready to cook. Sprinkle scallions evenly over a large plate or a cutting board.",

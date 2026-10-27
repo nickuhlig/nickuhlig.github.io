@@ -176,9 +176,17 @@
       "quantity": "1 handful"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 whole lemon",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "lemon juice, from 1 whole lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -195,8 +203,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Leave the carrots unpeeled. Mince the garlic. Slice the white onion. Mince the garlic. Thinly slice the radishes.",
-      "secondary_message": "7 medium carrots, small\n1 medium clove garlic\n½ small white onion, divided\n1 medium clove garlic\n4 radishes"
+      "primary_message": "Leave the carrots unpeeled. Mince the garlic. Slice the white onion. Mince the garlic. Thinly slice the radishes. Juice the lemon.",
+      "secondary_message": "7 medium carrots, small\n1 medium clove garlic\n½ small white onion, divided\n1 medium clove garlic\n4 radishes\n½ lemon"
     },
     {
       "id": 1,

@@ -53,13 +53,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "chopped onion",
-      "quantity": "2 tbsp"
+      "name": "onion",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "minced fresh garlic",
-      "quantity": "1 tsp"
+      "name": "fresh garlic",
+      "quantity": "1 tsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 273,
@@ -113,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the onion. Mince the garlic.",
+      "secondary_message": "2 tbsp onion\n1 tsp fresh garlic"
+    },
     {
       "id": 1,
       "primary_message": "Remove the membrane and trim the ribs. Rub each rack liberally with your favorite dry rub. Place ribs in the refrigerator overnight.",

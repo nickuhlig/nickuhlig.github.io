@@ -124,8 +124,9 @@
     },
     {
       "ingredient_id": 1850,
-      "name": "chopped green chiles",
-      "quantity": "1 (125 ml) can"
+      "name": "green chiles",
+      "quantity": "1 (125 ml) can",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 185,
@@ -135,27 +136,36 @@
     },
     {
       "ingredient_id": 1156,
-      "name": "grated Pepper Jack cheese",
-      "quantity": "0.23 kg"
+      "name": "Pepper Jack cheese",
+      "quantity": "0.23 kg",
+      "prep": "grated"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 188,
-      "name": "picked fresh cilantro leaves",
+      "name": "fresh cilantro leaves",
       "quantity": "½ cup",
-      "prep": "chopped"
+      "prep": "picked, chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Remove the stems and seeds from the whole dried guajillo chiles. Remove the stems and seeds from the whole dried ancho chiles. Finely dice the yellow onion. Mince the garlic. Remove the kernels from the corn. Drain and rinse the black beans. Chop the picked fresh cilantro leaves.",
-      "secondary_message": "2 whole dried guajillo chiles\n2 whole dried ancho chiles\n1 medium yellow onion\n3 medium cloves garlic\n1 ¼ cups corn\n1 (400 g) can black beans\n½ cup picked fresh cilantro leaves"
+      "primary_message": "Remove the stems and seeds from the whole dried guajillo chiles. Remove the stems and seeds from the whole dried ancho chiles. Finely dice the yellow onion. Mince the garlic. Remove the kernels from the corn. Chop the green chiles. Drain and rinse the black beans. Grate the Pepper Jack cheese. Juice the lime. Pick the cilantro leaves from the stems and chop them.",
+      "secondary_message": "2 whole dried guajillo chiles\n2 whole dried ancho chiles\n1 medium yellow onion\n3 medium cloves garlic\n1 ¼ cups corn\n1 (125 ml) can green chiles\n1 (400 g) can black beans\n0.23 kg Pepper Jack cheese\n½ lime\n½ cup fresh cilantro leaves"
     },
     {
       "id": 1,

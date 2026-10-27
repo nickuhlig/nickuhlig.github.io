@@ -47,13 +47,22 @@
     },
     {
       "ingredient_id": 188,
-      "name": "minced fresh cilantro, from 1 bunch",
-      "quantity": "¼ cup"
+      "name": "fresh cilantro, from 1 bunch",
+      "quantity": "¼ cup",
+      "prep": "minced"
     },
     {
-      "ingredient_id": 1421,
-      "name": "freshly squeezed lime juice, from 6 to 8 whole limes",
-      "quantity": "¾ cup"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "6",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "¾ cup",
+          "name": "freshly squeezed lime juice, from 6 to 8 whole limes"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2395,
@@ -87,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the cilantro leaves from the stems and mince them. Juice the limes.",
+      "secondary_message": "¼ cup fresh cilantro, from 1 bunch\n6 limes"
+    },
     {
       "id": 1,
       "primary_message": "In a large pitcher, combine tomato juice, vodka, cilantro, lime juice, sambal oelek, simple syrup, fish sauce, and olive juice. Stir well to combine. Add beer and stir gently to mix.",

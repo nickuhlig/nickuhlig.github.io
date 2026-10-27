@@ -44,8 +44,9 @@
     },
     {
       "ingredient_id": 3654,
-      "name": "chopped fresh oregano leaves, divided",
-      "quantity": "2 tbsp"
+      "name": "fresh oregano leaves, divided",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 47,
@@ -80,14 +81,22 @@
       "quantity": "425 g"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 whole lemon",
-      "quantity": "2 tbsp"
-    },
-    {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from 1 whole lemon",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice, from 1 whole lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "2 tsp",
+          "name": "lemon zest, from 1 whole lemon"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 32,
@@ -99,8 +108,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely chop the onion. Mince or grate the garlic with a microplane.",
-      "secondary_message": "1 medium onion\n2 medium cloves garlic"
+      "primary_message": "Pick the oregano leaves from the stems and chop them. Finely chop the onion. Mince or grate the garlic with a microplane. Zest and juice the lemon.",
+      "secondary_message": "2 tbsp fresh oregano leaves, divided\n1 medium onion\n2 medium cloves garlic\n1 lemon"
     },
     {
       "id": 1,

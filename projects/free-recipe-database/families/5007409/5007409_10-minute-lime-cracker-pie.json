@@ -45,9 +45,17 @@
       "quantity": "1 pint"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "½ cup"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "4",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "½ cup",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2346,
@@ -61,6 +69,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the limes.",
+      "secondary_message": "4 limes"
+    },
     {
       "id": 1,
       "primary_message": "Combine milk and heavy cream in a large bowl. Add lime juice and whisk until thickened, about 1 minute. Spread 1 cup filling on bottom of deep-dish pie plate, 11-inch oval casserole, or 2 shallow pie plates. Top with single layer of Ritz crackers. Repeat, alternating layers of filling and crackers until pie plate is full (finish with a layer of filling). Sprinkle with grated lime zest. Refrigerate at least 2 hours or up to overnight. Serve.",

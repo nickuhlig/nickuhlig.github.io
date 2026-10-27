@@ -86,11 +86,18 @@
     },
     {
       "ingredient_id": 2347,
-      "name": "thinly sliced vegetables",
-      "quantity": "4 cups"
+      "name": "vegetables",
+      "quantity": "4 cups",
+      "prep": "thinly sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the vegetables.",
+      "secondary_message": "4 cups vegetables"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil to 375°F in a large wok over high heat, then adjust heat as necessary to maintain the temperature. Line a large plate or baking sheet with a double layer of paper towels.",

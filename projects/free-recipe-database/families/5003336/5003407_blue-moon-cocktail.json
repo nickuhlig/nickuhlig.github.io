@@ -60,12 +60,26 @@
       "quantity": "14 g"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice",
-      "quantity": "14 g"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "14 g",
+          "name": "freshly squeezed lemon juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "Fill a cocktail shaker with ice. Add gin, crème de violette, and lemon juice. Shake and strain into a cocktail glass.",

@@ -51,14 +51,23 @@
       "quantity": "1 cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 to 2 lemons",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice, from 1 to 2 lemons"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 221,
-      "name": "minced fresh ginger",
-      "quantity": "1 tbsp"
+      "name": "fresh ginger",
+      "quantity": "1 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 151,
@@ -102,8 +111,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Keep the buttermilk cold until you use it. Seed and mince the fresh jalapeño. Roughly chop the fresh cilantro leaves.",
-      "secondary_message": "1 cup buttermilk\n½ fresh jalapeño\n½ cup fresh cilantro leaves"
+      "primary_message": "Keep the buttermilk cold until you use it. Juice the lemon. Mince the ginger. Seed and mince the fresh jalapeño. Pick the cilantro leaves from the stems and roughly chop them.",
+      "secondary_message": "1 cup buttermilk\n1 lemon\n1 tbsp fresh ginger\n½ fresh jalapeño\n½ cup fresh cilantro leaves"
     },
     {
       "id": 1,

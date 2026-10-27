@@ -100,26 +100,36 @@
     },
     {
       "ingredient_id": 2346,
-      "name": "grated lemon zest",
-      "quantity": "1 tsp"
+      "name": "lemon zest",
+      "quantity": "1 tsp",
+      "prep": "grated"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 120,
-      "name": "shredded Parmesan cheese, plus more for garnish",
-      "quantity": "3 tbsp"
+      "name": "Parmesan cheese, plus more for garnish",
+      "quantity": "3 tbsp",
+      "prep": "shredded"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Trim and cut the broccoli rabe into 1 1/2–inch pieces. Halve the cherry tomatoes.",
-      "secondary_message": "284 g broccoli rabe\n226 g cherry tomatoes"
+      "primary_message": "Trim and cut the broccoli rabe into 1 1/2–inch pieces. Halve the cherry tomatoes. Grate the zest from the lemon. Juice the lemon. Shred the Parmesan cheese.",
+      "secondary_message": "284 g broccoli rabe\n226 g cherry tomatoes\n1 tsp lemon zest\n1 lemon\n3 tbsp Parmesan cheese, plus more for garnish"
     },
     {
       "id": 1,

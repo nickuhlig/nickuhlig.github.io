@@ -44,8 +44,9 @@
   "ingredients": [
     {
       "ingredient_id": 221,
-      "name": "grated fresh ginger",
-      "quantity": "2 tsp"
+      "name": "fresh ginger",
+      "quantity": "2 tsp",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1718,
@@ -74,13 +75,15 @@
     },
     {
       "ingredient_id": 1929,
-      "name": "thinly sliced shiitake mushroom caps",
-      "quantity": "1 cup"
+      "name": "shiitake mushroom caps",
+      "quantity": "1 cup",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1879,
-      "name": "roughly torn fresh spinach leaves",
-      "quantity": "2 cups"
+      "name": "fresh spinach leaves",
+      "quantity": "2 cups",
+      "prep": "roughly torn"
     },
     {
       "ingredient_id": 181,
@@ -94,8 +97,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "minced fresh scallions",
-      "quantity": "1 cup"
+      "name": "fresh scallions",
+      "quantity": "1 cup",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2936,
@@ -104,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the ginger. Thinly slice the shiitake mushroom caps. Roughly tear the spinach leaves. Mince the scallions.",
+      "secondary_message": "2 tsp fresh ginger\n1 cup shiitake mushroom caps\n2 cups fresh spinach leaves\n1 cup fresh scallions"
+    },
     {
       "id": 1,
       "primary_message": "Divide ginger, miso, vegetable base, tahini, sesame seeds, soy sauce, carrots, mushrooms, spinach, and noodles evenly between 4 resealable glass jars. Season lightly with salt and pepper. Divide scallions and ginger between 4 small zipper-lock bags and seal bags, squeezing out all of the air. Tuck bags into jars and seal. Refrigerate for up to 4 days.",

@@ -31,9 +31,17 @@
   "cookwares": [],
   "ingredients": [
     {
-      "ingredient_id": 2346,
-      "name": "orange zest, from about 2 to 3 oranges",
-      "quantity": "2 tbsp"
+      "ingredient_id": 232,
+      "name": "oranges",
+      "quantity": "3",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "2 tbsp",
+          "name": "orange zest, from about 2 to 3 oranges"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 1468,
@@ -42,8 +50,9 @@
     },
     {
       "ingredient_id": 1766,
-      "name": "chopped rosemary leaves, divided",
-      "quantity": "1 tsp"
+      "name": "rosemary leaves, divided",
+      "quantity": "1 tsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 47,
@@ -118,8 +127,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Crumble the blue cheese. Toast and chop the walnuts. Peel and cut the oranges into supremês.",
-      "secondary_message": "113 g blue cheese\n⅔ cup walnuts\n2 oranges"
+      "primary_message": "Zest the oranges. Pick the rosemary leaves from the stems and chop them. Crumble the blue cheese. Toast and chop the walnuts. Peel and cut the oranges into supremês.",
+      "secondary_message": "3 oranges\n1 tsp rosemary leaves, divided\n113 g blue cheese\n⅔ cup walnuts\n2 oranges"
     },
     {
       "id": 1,

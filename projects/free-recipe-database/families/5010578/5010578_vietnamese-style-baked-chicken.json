@@ -74,9 +74,17 @@
       "prep": "tender stems finely chopped"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 ½ tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 ½ tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2346,
@@ -85,8 +93,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "minced peeled fresh ginger",
-      "quantity": "1 tbsp"
+      "name": "fresh ginger",
+      "quantity": "1 tbsp",
+      "prep": "peeled and minced"
     },
     {
       "ingredient_id": 2748,
@@ -104,8 +113,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely chop the tender stems of the packed fresh cilantro leaves. Mince or grate the garlic.",
-      "secondary_message": "2 tbsp packed fresh cilantro leaves\n3 medium cloves garlic"
+      "primary_message": "Finely chop the tender stems of the packed fresh cilantro leaves. Juice the lime. Peel and mince the ginger. Mince or grate the garlic.",
+      "secondary_message": "2 tbsp packed fresh cilantro leaves\n1 lime\n1 tbsp fresh ginger\n3 medium cloves garlic"
     },
     {
       "id": 1,

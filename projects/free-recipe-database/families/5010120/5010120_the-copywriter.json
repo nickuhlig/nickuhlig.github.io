@@ -55,9 +55,17 @@
       "quantity": "2 oz"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "¾ oz"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¾ oz",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1786,
@@ -80,8 +88,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Keep the Seltzer cold until you use it.",
-      "secondary_message": "Seltzer"
+      "primary_message": "Juice the lemon. Keep the Seltzer cold until you use it.",
+      "secondary_message": "½ lemon\nSeltzer"
     },
     {
       "id": 1,

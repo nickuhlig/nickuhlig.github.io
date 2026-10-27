@@ -38,9 +38,17 @@
       "quantity": "113 g"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "57 g"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "57 g",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 3248,
@@ -64,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemons.",
+      "secondary_message": "1 ½ lemons"
+    },
     {
       "id": 1,
       "primary_message": "Add Aperol, lemon juice, cane syrup, and egg white to cocktail shaker. Shake vigorously without for 15 seconds to emulsify egg white.",

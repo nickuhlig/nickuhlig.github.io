@@ -65,9 +65,17 @@
       "prep": "scrubbed and cleaned"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -81,16 +89,17 @@
     },
     {
       "ingredient_id": 188,
-      "name": "chopped cilantro",
-      "quantity": "¼ cup"
+      "name": "cilantro",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the garlic cloves. Scrub and clean the fresh Manila clams.",
-      "secondary_message": "4 medium garlic cloves\n0.91 kg fresh Manila clams"
+      "primary_message": "Mince the garlic cloves. Scrub and clean the fresh Manila clams. Juice the lime. Pick the cilantro leaves from the stems and chop them.",
+      "secondary_message": "4 medium garlic cloves\n0.91 kg fresh Manila clams\n½ lime\n¼ cup cilantro"
     },
     {
       "id": 1,

@@ -60,17 +60,25 @@
       "quantity": "¼ tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "Lemon juice, if needed, to taste",
-      "quantity": ""
+      "ingredient_id": 192,
+      "name": "Lemon, if needed, to taste",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "",
+          "name": "Lemon juice, if needed, to taste"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Pit and quarter the plums.",
-      "secondary_message": "12 plums"
+      "primary_message": "Pit and quarter the plums. Juice the lemon.",
+      "secondary_message": "12 plums\n1 Lemon, if needed, to taste"
     },
     {
       "id": 1,

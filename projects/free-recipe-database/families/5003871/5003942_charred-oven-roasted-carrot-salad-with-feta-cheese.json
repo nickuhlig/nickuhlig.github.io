@@ -69,9 +69,17 @@
       "quantity": ""
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh-squeezed lemon juice",
-      "quantity": "1 ½ tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 ½ tbsp",
+          "name": "fresh-squeezed lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 32,
@@ -84,8 +92,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Crumble the feta.",
-      "secondary_message": "57 g feta"
+      "primary_message": "Juice the lemon. Crumble the feta.",
+      "secondary_message": "½ lemon\n57 g feta"
     },
     {
       "id": 1,

@@ -86,11 +86,18 @@
     },
     {
       "ingredient_id": 2187,
-      "name": "grated coconut",
-      "quantity": "2 tbsp"
+      "name": "coconut",
+      "quantity": "2 tbsp",
+      "prep": "grated"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the coconut.",
+      "secondary_message": "2 tbsp coconut"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil over medium-high heat until shimmering in a heavy bottomed lidded saucepan. Reduce heat to medium, add mustard seeds and curry leaves. Stand back and stir as they splutter and release their fragrance, about 1 minute. Add the onions and chilies and stir fry until onions are softened but not brown, about 2 minutes.",

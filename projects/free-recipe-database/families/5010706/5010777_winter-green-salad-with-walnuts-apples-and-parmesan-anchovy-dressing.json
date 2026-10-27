@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 120,
-      "name": "finely grated parmesan cheese",
-      "quantity": "28 g"
+      "name": "parmesan cheese",
+      "quantity": "28 g",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 325,
@@ -60,9 +61,17 @@
       "quantity": "6"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 136,
@@ -86,8 +95,9 @@
     },
     {
       "ingredient_id": 2520,
-      "name": "shredded radicchio",
-      "quantity": "1 cup"
+      "name": "radicchio",
+      "quantity": "1 cup",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 2222,
@@ -101,8 +111,9 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "chopped fresh parsley leaves",
-      "quantity": "¼ cup"
+      "name": "fresh parsley leaves",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 272,
@@ -111,6 +122,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely grate the parmesan cheese. Juice the lemon. Shred the radicchio. Pick the parsley leaves from the stems and chop them.",
+      "secondary_message": "28 g parmesan cheese\n½ lemon\n1 cup radicchio\n¼ cup fresh parsley leaves"
+    },
     {
       "id": 1,
       "primary_message": "Combine mayonnaise, parmesan, mashed anchovy, lemon juice, and Worcestershire sauce in a medium bowl and whisk to combine. Season to taste with salt and pepper.",

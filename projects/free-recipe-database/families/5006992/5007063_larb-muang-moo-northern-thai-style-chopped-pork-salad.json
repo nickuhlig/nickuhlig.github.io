@@ -104,8 +104,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "chopped fresh cilantro leaves, fine stems",
-      "quantity": "¼ cup"
+      "name": "fresh cilantro leaves, fine stems",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 3194,
@@ -124,6 +125,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the cilantro leaves from the stems and chop them.",
+      "secondary_message": "¼ cup fresh cilantro leaves, fine stems"
+    },
     {
       "id": 1,
       "primary_message": "Combine hot chiles, coriander, Sichuan peppercorn, long pepper, cloves, star anise, mace, cinnamon, cardamom, and black pepper in wok. Heat over medium heat, stirring and tossing constantly, until toasted and fragrant, about 2 minutes. Transfer to a mortar and pestle or a spice grinder and grind into a fine powder.",

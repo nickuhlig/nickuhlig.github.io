@@ -53,9 +53,17 @@
       "quantity": "½ tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 ½ tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 ½ tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -93,8 +101,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Peel the garlic. Cut the red onion into 3/4-inch pieces.",
-      "secondary_message": "3 medium cloves garlic\n1 large red onion"
+      "primary_message": "Peel the garlic. Juice the lemon. Cut the red onion into 3/4-inch pieces.",
+      "secondary_message": "3 medium cloves garlic\n½ lemon\n1 large red onion"
     },
     {
       "id": 1,

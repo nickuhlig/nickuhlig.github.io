@@ -96,11 +96,6 @@
       "quantity": "1 tsp"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from about 1 lemon",
-      "quantity": "½ tsp"
-    },
-    {
       "ingredient_id": 115,
       "name": "cold unsalted butter",
       "quantity": "6 tbsp",
@@ -112,9 +107,22 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 1 lemon plus more if needed",
-      "quantity": "3 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "3 tsp",
+          "name": "fresh lemon juice, from 1 lemon plus more if needed"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "½ tsp",
+          "name": "lemon zest, from about 1 lemon"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 1579,
@@ -131,8 +139,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Remove the tops from the fresh strawberries, then quarter them. Cut the cold unsalted butter into 1/2-inch cubes.",
-      "secondary_message": "9 oz fresh strawberries\n6 tbsp cold unsalted butter"
+      "primary_message": "Remove the tops from the fresh strawberries, then quarter them. Cut the cold unsalted butter into 1/2-inch cubes. Zest and juice the lemon.",
+      "secondary_message": "9 oz fresh strawberries\n6 tbsp cold unsalted butter\n1 lemon"
     },
     {
       "id": 1,

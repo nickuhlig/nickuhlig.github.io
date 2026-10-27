@@ -54,18 +54,21 @@
   "ingredients": [
     {
       "ingredient_id": 291,
-      "name": "grated green pepper",
-      "quantity": "3 cups"
+      "name": "green pepper",
+      "quantity": "3 cups",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1980,
-      "name": "grated pickling cucumber",
-      "quantity": "3 cups"
+      "name": "pickling cucumber",
+      "quantity": "3 cups",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1713,
-      "name": "minced onion",
-      "quantity": "1 cup"
+      "name": "onion",
+      "quantity": "1 cup",
+      "prep": "minced"
     },
     {
       "ingredient_id": 133,
@@ -99,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the green pepper. Grate the pickling cucumber. Mince the onion.",
+      "secondary_message": "3 cups green pepper\n3 cups pickling cucumber\n1 cup onion"
+    },
     {
       "id": 1,
       "primary_message": "Combine prepared green pepper, cucumber, and onion in a large, non-reactive (stainless steel or enamel-coated) pot. Stir in one cup of apple cider vinegar and bring to a simmer. Simmer, stirring occasionally, until vegetables have cooked down and liquid is reduced by about 1/3, about 30 minutes. Drain vegetables, discard liquid, and return vegetables to pot.",

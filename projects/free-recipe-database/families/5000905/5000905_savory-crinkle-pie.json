@@ -78,8 +78,9 @@
     },
     {
       "ingredient_id": 287,
-      "name": "finely chopped fresh thyme, plus more leaves for garnish",
-      "quantity": "½ tsp"
+      "name": "fresh thyme, plus more leaves for garnish",
+      "quantity": "½ tsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1859,
@@ -131,9 +132,17 @@
       "prep": "at room temperature"
     },
     {
-      "ingredient_id": 2346,
-      "name": "grated lemon zest, from 1 lemon plus more for garnish",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "2 tsp",
+          "name": "grated lemon zest, from 1 lemon plus more for garnish"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 32,
@@ -151,8 +160,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thaw the phyllo pastry sheets. Thinly slice the shallots. Finely chop the garlic cloves. Stem and chop the lacinato kale. Bring the garlic and herb flavored Gournay cheese to room temperature. Crumble the feta cheese.",
-      "secondary_message": "12 oz phyllo pastry sheets\n2 large shallots\n2 medium garlic cloves\n¼ bunch lacinato kale\n1 (5.2 oz) pkg garlic and herb flavored Gournay cheese\n7 oz feta cheese"
+      "primary_message": "Thaw the phyllo pastry sheets. Thinly slice the shallots. Finely chop the garlic cloves. Pick the thyme leaves from the stems and finely chop them. Stem and chop the lacinato kale. Bring the garlic and herb flavored Gournay cheese to room temperature. Zest the lemon. Crumble the feta cheese.",
+      "secondary_message": "12 oz phyllo pastry sheets\n2 large shallots\n2 medium garlic cloves\n½ tsp fresh thyme, plus more leaves for garnish\n¼ bunch lacinato kale\n1 (5.2 oz) pkg garlic and herb flavored Gournay cheese\n1 lemon\n7 oz feta cheese"
     },
     {
       "id": 1,

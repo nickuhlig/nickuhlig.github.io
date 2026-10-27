@@ -43,8 +43,9 @@
     },
     {
       "ingredient_id": 2463,
-      "name": "diced rhubarb",
-      "quantity": "8 cups"
+      "name": "rhubarb",
+      "quantity": "8 cups",
+      "prep": "diced"
     },
     {
       "ingredient_id": 239,
@@ -52,14 +53,22 @@
       "quantity": "1 cup"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from 1 whole lemon",
-      "quantity": "1 tbsp"
-    },
-    {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 whole lemon",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice, from 1 whole lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tbsp",
+          "name": "lemon zest, from 1 whole lemon"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 2713,
@@ -68,16 +77,24 @@
     },
     {
       "ingredient_id": 1081,
-      "name": "minced crystallized ginger",
-      "quantity": "¼ cup"
+      "name": "crystallized ginger",
+      "quantity": "¼ cup",
+      "prep": "minced"
     },
     {
       "ingredient_id": 221,
-      "name": "grated fresh ginger",
-      "quantity": "1 tbsp"
+      "name": "fresh ginger",
+      "quantity": "1 tbsp",
+      "prep": "grated"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the rhubarb. Zest and juice the lemon. Mince the crystallized ginger. Grate the ginger.",
+      "secondary_message": "8 cups rhubarb\n1 lemon\n¼ cup crystallized ginger\n1 tbsp fresh ginger"
+    },
     {
       "id": 1,
       "primary_message": "Whisk the sugar and pectin in a medium bowl and set aside.",

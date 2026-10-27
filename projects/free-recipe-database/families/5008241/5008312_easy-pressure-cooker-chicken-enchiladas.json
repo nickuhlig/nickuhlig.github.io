@@ -113,9 +113,17 @@
       "quantity": ""
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 53,
@@ -124,8 +132,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "chopped fresh cilantro leaves, fine stems",
-      "quantity": "¼ cup"
+      "name": "fresh cilantro leaves, fine stems",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1007,
@@ -139,21 +148,23 @@
     },
     {
       "ingredient_id": 1069,
-      "name": "grated Jack cheese",
-      "quantity": "85 g"
+      "name": "Jack cheese",
+      "quantity": "85 g",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1612,
-      "name": "crumbled cotija cheese",
-      "quantity": "28 g"
+      "name": "cotija cheese",
+      "quantity": "28 g",
+      "prep": "crumbled"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Roughly slice the Serrano pepper. Roughly chop the roma tomatoes. Slice the onion. Smash the garlic.",
-      "secondary_message": "1 Serrano pepper\n7 roma tomatoes\n1 medium onion\n4 medium cloves garlic"
+      "primary_message": "Roughly slice the Serrano pepper. Roughly chop the roma tomatoes. Slice the onion. Smash the garlic. Juice the lime. Pick the cilantro leaves from the stems and chop them. Grate the Jack cheese. Crumble the cotija cheese.",
+      "secondary_message": "1 Serrano pepper\n7 roma tomatoes\n1 medium onion\n4 medium cloves garlic\n½ lime\n¼ cup fresh cilantro leaves, fine stems\n85 g Jack cheese\n28 g cotija cheese"
     },
     {
       "id": 1,

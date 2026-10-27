@@ -33,9 +33,17 @@
   "cookwares": [],
   "ingredients": [
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "20 ml"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "20 ml",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2454,
@@ -54,6 +62,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "1 lime"
+    },
     {
       "id": 1,
       "primary_message": "Add lime, Green Chartreuse, Gran Classico, and gin to a cocktail shaker and fill with ice. Shake until well chilled, about 12 seconds, then strain into a chilled cocktail glass.",

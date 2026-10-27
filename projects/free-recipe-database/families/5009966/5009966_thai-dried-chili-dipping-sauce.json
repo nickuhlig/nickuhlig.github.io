@@ -33,9 +33,17 @@
   "cookwares": [],
   "ingredients": [
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "½ cup"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "4",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "½ cup",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 52,
@@ -69,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the limes.",
+      "secondary_message": "4 limes"
+    },
     {
       "id": 1,
       "primary_message": "Combine all ingredients in a small bowl and mix. Serve.",

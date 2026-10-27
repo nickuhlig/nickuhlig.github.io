@@ -65,14 +65,30 @@
       "quantity": "1 ½ cups"
     },
     {
-      "ingredient_id": 2346,
-      "name": "Peeled zest, from 1 grapefruit",
-      "quantity": ""
+      "ingredient_id": 222,
+      "name": "Grapefruit",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "",
+          "name": "Peeled zest, from 1 grapefruit"
+        }
+      ],
+      "prep": "zested"
     },
     {
-      "ingredient_id": 2346,
-      "name": "Peeled zest, from 1 lemon",
-      "quantity": ""
+      "ingredient_id": 192,
+      "name": "Lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "",
+          "name": "Peeled zest, from 1 lemon"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 1067,
@@ -111,6 +127,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the grapefruit. Zest the lemon.",
+      "secondary_message": "1 Grapefruit\n1 Lemon"
+    },
     {
       "id": 1,
       "primary_message": "Place grapefruit and lemon zest in a sealable glass jar with the vodka. Seal and shake, then let the mixture steep overnight in a cool, dark place.",

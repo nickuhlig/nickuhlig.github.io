@@ -131,8 +131,9 @@
     },
     {
       "ingredient_id": 120,
-      "name": "finely grated Parmigiano Reggiano",
-      "quantity": "28 g"
+      "name": "Parmesan cheese",
+      "quantity": "28 g",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 1679,
@@ -151,13 +152,15 @@
     },
     {
       "ingredient_id": 344,
-      "name": "drained and quartered marinated artichoke hearts",
-      "quantity": "¼ cup"
+      "name": "marinated artichoke hearts",
+      "quantity": "¼ cup",
+      "prep": "drained and quartered"
     },
     {
       "ingredient_id": 15,
-      "name": "drained capers",
-      "quantity": "1 tbsp"
+      "name": "capers",
+      "quantity": "1 tbsp",
+      "prep": "drained"
     },
     {
       "ingredient_id": 3654,
@@ -171,8 +174,9 @@
     },
     {
       "ingredient_id": 325,
-      "name": "drained oil-packed anchovy fillets",
-      "quantity": "2"
+      "name": "oil-packed anchovy fillets",
+      "quantity": "2",
+      "prep": "drained"
     },
     {
       "ingredient_id": 117,
@@ -180,14 +184,17 @@
       "quantity": "1 tsp"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest",
-      "quantity": "1 tsp"
-    },
-    {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -205,14 +212,27 @@
       "quantity": "1 cup"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest",
-      "quantity": "2 tsp"
-    },
-    {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice, from 1 medium lemon",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "freshly squeezed lemon juice, from 1 medium lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tsp",
+          "name": "lemon zest"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "2 tsp",
+          "name": "lemon zest"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 88,
@@ -231,6 +251,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely grate the Parmesan cheese. Drain and quarter the marinated artichoke hearts. Drain the capers. Drain the oil-packed anchovy fillets. Juice the lemon. Zest and juice the lemon.",
+      "secondary_message": "28 g Parmesan cheese\n¼ cup marinated artichoke hearts\n1 tbsp capers\n2 oil-packed anchovy fillets\n½ lemon\n1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "For Prepping the Zucchini: Trim ends off the zucchini, then slice each in half crosswise. If the zucchini halves are very uneven or curved, trim a thin slice from each long side to square them off slightly. This will make it easier to cut relatively straight, even planks (though they don't need to be perfect). Cut each zucchini half lengthwise into 1-cm-thick planks.",

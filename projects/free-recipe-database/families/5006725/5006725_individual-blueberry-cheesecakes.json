@@ -56,9 +56,17 @@
       "quantity": "5 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "4 tbsp"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "4 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 353,
@@ -75,8 +83,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Melt the unsalted butter. Bring the cream cheese to room temperature.",
-      "secondary_message": "2 tbsp unsalted butter\n4 oz cream cheese"
+      "primary_message": "Melt the unsalted butter. Bring the cream cheese to room temperature. Juice the lemons.",
+      "secondary_message": "2 tbsp unsalted butter\n4 oz cream cheese\n1 ½ lemons"
     },
     {
       "id": 1,

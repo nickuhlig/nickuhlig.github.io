@@ -70,14 +70,23 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "freshly squeezed lime juice, from 1 lime",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "freshly squeezed lime juice, from 1 lime"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 24,
-      "name": "finely minced garlic",
-      "quantity": "1 tsp"
+      "name": "garlic",
+      "quantity": "1 tsp",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 1721,
@@ -100,8 +109,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thinly slice the scallions.",
-      "secondary_message": "2 scallions"
+      "primary_message": "Juice the lime. Finely mince the garlic. Thinly slice the scallions.",
+      "secondary_message": "½ lime\n1 tsp garlic\n2 scallions"
     },
     {
       "id": 1,

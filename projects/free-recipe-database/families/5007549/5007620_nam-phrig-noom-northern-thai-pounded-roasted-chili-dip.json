@@ -58,8 +58,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "roughly chopped cilantro, including the stems",
-      "quantity": "⅓ cup"
+      "name": "cilantro, including the stems",
+      "quantity": "⅓ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 88,
@@ -67,17 +68,25 @@
       "quantity": ""
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Leave the whole small shallots unpeeled. Leave the garlic unpeeled.",
-      "secondary_message": "4 whole small shallots\n5 medium cloves garlic"
+      "primary_message": "Leave the whole small shallots unpeeled. Leave the garlic unpeeled. Pick the cilantro leaves from the stems and roughly chop them. Juice the lime.",
+      "secondary_message": "4 whole small shallots\n5 medium cloves garlic\n⅓ cup cilantro, including the stems\n½ lime"
     },
     {
       "id": 1,

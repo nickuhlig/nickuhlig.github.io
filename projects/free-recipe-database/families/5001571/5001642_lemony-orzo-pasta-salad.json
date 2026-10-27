@@ -56,9 +56,17 @@
       "quantity": "¼ tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 24,
@@ -106,21 +114,23 @@
     },
     {
       "ingredient_id": 28,
-      "name": "chopped fresh basil",
-      "quantity": "½ cup"
+      "name": "fresh basil",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2935,
-      "name": "chopped pickled mild banana peppers",
-      "quantity": "¼ cup"
+      "name": "pickled mild banana peppers",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the garlic. Freshly grate the Parmesiano-Reggiano cheese on a microplane. Core and very finely dice the radicchio. Drain and rinse the chickpeas.",
-      "secondary_message": "1 clove garlic\n28 g Parmesiano-Reggiano cheese\n½ small head radicchio\n1 (425 g) can chickpeas"
+      "primary_message": "Juice the lemon. Mince the garlic. Freshly grate the Parmesiano-Reggiano cheese on a microplane. Core and very finely dice the radicchio. Drain and rinse the chickpeas. Pick the basil leaves from the stems and chop them. Chop the pickled mild banana peppers.",
+      "secondary_message": "1 lemon\n1 clove garlic\n28 g Parmesiano-Reggiano cheese\n½ small head radicchio\n1 (425 g) can chickpeas\n½ cup fresh basil\n¼ cup pickled mild banana peppers"
     },
     {
       "id": 1,

@@ -38,9 +38,17 @@
       "quantity": "1 ½ oz"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice",
-      "quantity": "½ oz"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "½ oz",
+          "name": "fresh lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2721,
@@ -54,6 +62,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "½ lime"
+    },
     {
       "id": 1,
       "primary_message": "Combine ingredients in a cocktail shaker and fill with ice. Shake well for 10 seconds and strain into a chilled cocktail glass. Garnish with a twist of orange peel.",

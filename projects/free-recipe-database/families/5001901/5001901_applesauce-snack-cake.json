@@ -109,13 +109,22 @@
     },
     {
       "ingredient_id": 221,
-      "name": "grated fresh ginger",
-      "quantity": "1 ½ tbsp"
+      "name": "fresh ginger",
+      "quantity": "1 ½ tbsp",
+      "prep": "grated"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from 1 lemon",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "2 tsp",
+          "name": "lemon zest, from 1 lemon"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 1609,
@@ -129,16 +138,17 @@
     },
     {
       "ingredient_id": 1081,
-      "name": "finely chopped crystallized ginger",
-      "quantity": "2 tbsp"
+      "name": "crystallized ginger",
+      "quantity": "2 tbsp",
+      "prep": "finely chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Bring the homemade applesauce to room temperature. Bring the eggs to room temperature.",
-      "secondary_message": "1 cup homemade applesauce\n2 large eggs"
+      "primary_message": "Bring the homemade applesauce to room temperature. Bring the eggs to room temperature. Grate the ginger. Zest the lemon. Finely chop the crystallized ginger.",
+      "secondary_message": "1 cup homemade applesauce\n2 large eggs\n1 ½ tbsp fresh ginger\n1 lemon\n2 tbsp crystallized ginger"
     },
     {
       "id": 1,

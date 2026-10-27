@@ -73,9 +73,17 @@
       "prep": "beaten"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 118,
@@ -87,8 +95,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the chilled unsalted butter into small pieces. Beat the egg.",
-      "secondary_message": "10 tbsp chilled unsalted butter\n1 large egg"
+      "primary_message": "Cut the chilled unsalted butter into small pieces. Beat the egg. Juice the lemon.",
+      "secondary_message": "10 tbsp chilled unsalted butter\n1 large egg\n1 lemon"
     },
     {
       "id": 1,

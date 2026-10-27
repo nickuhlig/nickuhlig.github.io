@@ -77,13 +77,22 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "chopped fresh parsley leaves",
-      "quantity": "½ cup"
+      "name": "fresh parsley leaves",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "¼ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¼ cup",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 115,
@@ -100,8 +109,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thinly slice the garlic.",
-      "secondary_message": "3 cloves garlic"
+      "primary_message": "Thinly slice the garlic. Pick the parsley leaves from the stems and chop them. Juice the lemons.",
+      "secondary_message": "3 cloves garlic\n½ cup fresh parsley leaves\n1 ½ lemons"
     },
     {
       "id": 1,

@@ -98,9 +98,17 @@
       "quantity": "1 cup"
     },
     {
-      "ingredient_id": 2346,
-      "name": "finely grated orange zest, from 1 orange",
-      "quantity": "½ tsp"
+      "ingredient_id": 232,
+      "name": "orange",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "½ tsp",
+          "name": "finely grated orange zest, from 1 orange"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 88,
@@ -124,8 +132,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the dried apricots. Chop the toasted pecans. Chop the toasted walnuts.",
-      "secondary_message": "¼ cup dried apricots\n½ cup toasted pecans\n½ cup toasted walnuts"
+      "primary_message": "Mince the dried apricots. Zest the orange. Chop the toasted pecans. Chop the toasted walnuts.",
+      "secondary_message": "¼ cup dried apricots\n1 orange\n½ cup toasted pecans\n½ cup toasted walnuts"
     },
     {
       "id": 1,

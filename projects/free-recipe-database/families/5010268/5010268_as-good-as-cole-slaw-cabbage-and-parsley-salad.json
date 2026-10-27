@@ -77,8 +77,9 @@
     },
     {
       "ingredient_id": 15,
-      "name": "finely chopped capers",
-      "quantity": "2 tbsp"
+      "name": "capers",
+      "quantity": "2 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 88,
@@ -92,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the capers.",
+      "secondary_message": "2 tbsp capers"
+    },
     {
       "id": 1,
       "primary_message": "Core the cabbage and slice into 6 wedges. Feed through the food processor, fitted with the thin slicing disk. Feed the parsley in after it.",

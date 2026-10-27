@@ -42,9 +42,17 @@
       "quantity": "¼ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 103,
@@ -93,8 +101,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Wash and roughly chop the escarole. Shave the fennel on a mandoline.",
-      "secondary_message": "1 head escarole\n1 large bulb fennel"
+      "primary_message": "Juice the lemon. Wash and roughly chop the escarole. Shave the fennel on a mandoline.",
+      "secondary_message": "½ lemon\n1 head escarole\n1 large bulb fennel"
     },
     {
       "id": 1,

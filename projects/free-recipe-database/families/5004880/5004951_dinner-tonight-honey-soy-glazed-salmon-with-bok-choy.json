@@ -41,15 +41,23 @@
       "quantity": "¼ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 221,
-      "name": "peeled fresh ginger",
+      "name": "fresh ginger",
       "quantity": "2 ½ cm",
-      "prep": "thinly sliced"
+      "prep": "peeled, thinly sliced"
     },
     {
       "ingredient_id": 24,
@@ -72,8 +80,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thinly slice the peeled fresh ginger. Trim off the root ends of the baby bok choy.",
-      "secondary_message": "2 ½ cm peeled fresh ginger\n4 to 6 heads baby bok choy"
+      "primary_message": "Juice the lemon. Peel and thinly slice the ginger. Trim off the root ends of the baby bok choy.",
+      "secondary_message": "1 lemon\n2 ½ cm fresh ginger\n4 to 6 heads baby bok choy"
     },
     {
       "id": 1,

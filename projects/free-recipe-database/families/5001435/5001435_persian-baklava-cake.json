@@ -127,9 +127,17 @@
       "quantity": "6 ¼ oz"
     },
     {
-      "ingredient_id": 2346,
-      "name": "Orange zest, from 1 orange",
-      "quantity": ""
+      "ingredient_id": 232,
+      "name": "Orange",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "",
+          "name": "Orange zest, from 1 orange"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 115,
@@ -162,9 +170,17 @@
       "quantity": "1 generous pinch"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 1 lemon",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "fresh lemon juice, from 1 lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1882,
@@ -173,6 +189,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the orange. Juice the lemon.",
+      "secondary_message": "1 Orange\n½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat the oven to 325°F. Lightly grease bottom and sides of a 9 x 13-inch baking pan and line bottom of pan with parchment paper; set aside.",

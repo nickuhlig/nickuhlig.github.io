@@ -43,9 +43,17 @@
       "quantity": "2 large"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "½ tsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "½ tsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 52,
@@ -69,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "½ lime"
+    },
     {
       "id": 1,
       "primary_message": "Combine eggs, lime juice or vinegar, fish sauce, water, and rice flour or cornstarch in a medium bowl. Beat with a fork until frothy. If the flour forms a few lumps, break up as many as possible with your fingers.",

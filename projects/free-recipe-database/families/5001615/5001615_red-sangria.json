@@ -54,9 +54,17 @@
       "quantity": "2"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2346,
@@ -90,8 +98,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Core and cut the apple into roughly 3/4-inch dice. Keep the club soda cold until you use it.",
-      "secondary_message": "1 large apple\n1 (12 oz) can club soda"
+      "primary_message": "Juice the lemon. Core and cut the apple into roughly 3/4-inch dice. Keep the club soda cold until you use it.",
+      "secondary_message": "1 lemon\n1 large apple\n1 (12 oz) can club soda"
     },
     {
       "id": 1,

@@ -81,9 +81,17 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2438,
@@ -95,8 +103,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Quarter the caps of the mixed mushrooms, then roughly chop the stems. Leave the garlic whole and in their paper jackets.",
-      "secondary_message": "369 g mixed mushrooms\n4 cloves garlic"
+      "primary_message": "Quarter the caps of the mixed mushrooms, then roughly chop the stems. Leave the garlic whole and in their paper jackets. Juice the lemon.",
+      "secondary_message": "369 g mixed mushrooms\n4 cloves garlic\n½ lemon"
     },
     {
       "id": 1,

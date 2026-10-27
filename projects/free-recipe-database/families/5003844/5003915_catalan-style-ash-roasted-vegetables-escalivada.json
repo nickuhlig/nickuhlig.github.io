@@ -75,8 +75,9 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "chopped fresh parsley leaves",
-      "quantity": "2 tbsp"
+      "name": "fresh parsley leaves",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1726,
@@ -85,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the parsley leaves from the stems and chop them.",
+      "secondary_message": "2 tbsp fresh parsley leaves"
+    },
     {
       "id": 1,
       "primary_message": "Toss eggplant, pepper, onion, and tomatoes (if using) with half of olive oil, rubbing them with your hands to coat them evenly. Season with salt and pepper. Wrap each vegetable individually in foil.",

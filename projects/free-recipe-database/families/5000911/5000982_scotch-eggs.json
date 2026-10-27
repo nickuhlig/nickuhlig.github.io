@@ -68,13 +68,15 @@
     },
     {
       "ingredient_id": 106,
-      "name": "finely chopped flat-leaf parsley",
-      "quantity": "¼ cup"
+      "name": "flat-leaf parsley",
+      "quantity": "¼ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 270,
-      "name": "finely chopped chives",
-      "quantity": "¼ cup"
+      "name": "chives",
+      "quantity": "¼ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1677,
@@ -113,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the parsley leaves from the stems and finely chop them. Finely chop the chives.",
+      "secondary_message": "¼ cup flat-leaf parsley\n¼ cup chives"
+    },
     {
       "id": 1,
       "primary_message": "Prepare an ice bath by filling a medium bowl halfway with ice cubes and cold water; set aside.",

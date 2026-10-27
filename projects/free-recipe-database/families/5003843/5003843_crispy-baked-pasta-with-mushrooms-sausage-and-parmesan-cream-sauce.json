@@ -46,18 +46,21 @@
     },
     {
       "ingredient_id": 120,
-      "name": "grated parmesan cheese",
-      "quantity": "6 oz"
+      "name": "parmesan cheese",
+      "quantity": "6 oz",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1808,
-      "name": "chopped fresh parsley leaves",
-      "quantity": "¼ cup"
+      "name": "fresh parsley leaves",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 270,
-      "name": "finely minced fresh chives",
-      "quantity": "2 tbsp"
+      "name": "fresh chives",
+      "quantity": "2 tbsp",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 144,
@@ -109,9 +112,17 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 116,
@@ -138,8 +149,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely mince the shallots. Mince the garlic. Remove the Italian sausage from casings. Clean and thinly slice the mixed mushrooms.",
-      "secondary_message": "2 small shallots\n2 medium cloves garlic\n8 oz Italian sausage\n1 lb mixed mushrooms"
+      "primary_message": "Grate the parmesan cheese. Pick the parsley leaves from the stems and chop them. Finely mince the chives. Finely mince the shallots. Mince the garlic. Remove the Italian sausage from casings. Clean and thinly slice the mixed mushrooms. Juice the lemon.",
+      "secondary_message": "6 oz parmesan cheese\n¼ cup fresh parsley leaves\n2 tbsp fresh chives\n2 small shallots\n2 medium cloves garlic\n8 oz Italian sausage\n1 lb mixed mushrooms\n½ lemon"
     },
     {
       "id": 1,

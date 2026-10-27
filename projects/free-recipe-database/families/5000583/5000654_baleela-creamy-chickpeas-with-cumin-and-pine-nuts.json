@@ -54,9 +54,17 @@
       "quantity": "½ tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 1 lemon",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "fresh lemon juice, from 1 lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -74,8 +82,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely mince the garlic. Toast the pine nuts until a light golden brown.",
-      "secondary_message": "1 large clove garlic\n2 tbsp pine nuts"
+      "primary_message": "Finely mince the garlic. Juice the lemon. Toast the pine nuts until a light golden brown.",
+      "secondary_message": "1 large clove garlic\n1 lemon\n2 tbsp pine nuts"
     },
     {
       "id": 1,

@@ -48,9 +48,17 @@
       "quantity": "½"
     },
     {
-      "ingredient_id": 1421,
-      "name": "freshly squeezed lime juice, from 1 to 2 limes",
-      "quantity": "¾ oz"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "¾ oz",
+          "name": "freshly squeezed lime juice, from 1 to 2 limes"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2148,
@@ -69,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "1 lime"
+    },
     {
       "id": 1,
       "primary_message": "In a cocktail shaker, muddle white peach, shiso leaves, lime juice, and agave syrup into a rough pulp.",

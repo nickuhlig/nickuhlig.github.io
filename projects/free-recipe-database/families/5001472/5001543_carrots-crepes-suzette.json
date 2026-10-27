@@ -112,9 +112,17 @@
       "quantity": "113 g"
     },
     {
-      "ingredient_id": 2346,
-      "name": "orange zest, from 2 medium oranges",
-      "quantity": "1 tsp"
+      "ingredient_id": 232,
+      "name": "oranges",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tsp",
+          "name": "orange zest, from 2 medium oranges"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 1468,
@@ -146,8 +154,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Peel and coarsely chop the carrots. Melt the unsalted butter.",
-      "secondary_message": "2 medium carrots\n43 g unsalted butter, plus more for skillet"
+      "primary_message": "Peel and coarsely chop the carrots. Melt the unsalted butter. Zest the oranges.",
+      "secondary_message": "2 medium carrots\n43 g unsalted butter, plus more for skillet\n2 oranges"
     },
     {
       "id": 1,

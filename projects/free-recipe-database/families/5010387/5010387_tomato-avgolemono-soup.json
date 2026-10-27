@@ -87,8 +87,9 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "chopped parsley",
-      "quantity": "½ cup"
+      "name": "parsley",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 3641,
@@ -96,9 +97,17 @@
       "quantity": "2"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "2 ½ tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 ½ tbsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -115,8 +124,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely chop the light green sections of the scallions. Finely chop the celery.",
-      "secondary_message": "6 scallions\n2 ribs celery"
+      "primary_message": "Finely chop the light green sections of the scallions. Finely chop the celery. Pick the parsley leaves from the stems and chop them. Juice the lemon.",
+      "secondary_message": "6 scallions\n2 ribs celery\n½ cup parsley\n1 lemon"
     },
     {
       "id": 1,

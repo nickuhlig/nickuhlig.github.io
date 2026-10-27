@@ -44,14 +44,23 @@
   ],
   "ingredients": [
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 3654,
-      "name": "chopped fresh oregano",
-      "quantity": "1 tbsp"
+      "name": "fresh oregano",
+      "quantity": "1 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1514,
@@ -146,14 +155,23 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1808,
-      "name": "chopped fresh parsley",
-      "quantity": "¼ cup"
+      "name": "fresh parsley",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 88,
@@ -187,8 +205,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Roughly chop the garlic. Trim the boneless skinless chicken thighs of excess fat. Shred the iceberg lettuce. Cut the tomato into wedges.",
-      "secondary_message": "3 cloves garlic\n2 lb boneless skinless chicken thighs\n1 head iceberg lettuce\n1 large tomato"
+      "primary_message": "Juice the lemon. Pick the oregano leaves from the stems and chop them. Roughly chop the garlic. Trim the boneless skinless chicken thighs of excess fat. Juice the lemon. Pick the parsley leaves from the stems and chop them. Shred the iceberg lettuce. Cut the tomato into wedges.",
+      "secondary_message": "1 lemon\n1 tbsp fresh oregano\n3 cloves garlic\n2 lb boneless skinless chicken thighs\n½ lemon\n¼ cup fresh parsley\n1 head iceberg lettuce\n1 large tomato"
     },
     {
       "id": 1,

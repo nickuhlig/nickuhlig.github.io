@@ -75,9 +75,17 @@
       "quantity": "57 g"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "21 g"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "21 g",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1953,
@@ -96,6 +104,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "1 lime"
+    },
     {
       "id": 1,
       "primary_message": "For the Lemongrass-Infused Vodka: Remove tough outer layer from each lemongrass stalk. Chop stalks into 2.5-cm pieces and bruise them by crushing them with the blunt side of a heavy knife. For slow infusion, add lemongrass pieces to an airtight container and cover with vodka. Seal and let stand at room temperature for 1 week, shaking daily. Taste after 1 week and continue to steep up to 2 weeks to desired flavor. Pour through fine-mesh strainer into an airtight container.",

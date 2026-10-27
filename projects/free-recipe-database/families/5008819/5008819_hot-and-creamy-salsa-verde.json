@@ -78,9 +78,17 @@
       "quantity": "¼ cup"
     },
     {
-      "ingredient_id": 1421,
-      "name": "freshly squeezed lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "freshly squeezed lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -92,8 +100,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Seed and roughly chop the poblano chile. Roughly chop the serrano chiles. Quarter the tomatillo.",
-      "secondary_message": "1 large poblano chile\n2 serrano chiles\n1 large tomatillo"
+      "primary_message": "Seed and roughly chop the poblano chile. Roughly chop the serrano chiles. Quarter the tomatillo. Juice the lime.",
+      "secondary_message": "1 large poblano chile\n2 serrano chiles\n1 large tomatillo\n½ lime"
     },
     {
       "id": 1,

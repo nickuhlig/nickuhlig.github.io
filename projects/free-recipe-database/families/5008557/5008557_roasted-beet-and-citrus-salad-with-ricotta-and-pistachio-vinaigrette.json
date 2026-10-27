@@ -79,9 +79,17 @@
       "quantity": "1 medium"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 144,
@@ -91,8 +99,9 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "minced fresh parsley, tarragon, or chervil",
-      "quantity": "2 tbsp"
+      "name": "fresh parsley, tarragon, or chervil",
+      "quantity": "2 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 103,
@@ -109,8 +118,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Leave unpeeled the beets, then remove the greens, then scrub them clean. Finely mince the shallot.",
-      "secondary_message": "11 medium beets\n1 small shallot"
+      "primary_message": "Leave unpeeled the beets, then remove the greens, then scrub them clean. Juice the lemon. Finely mince the shallot. Pick the herb leaves from the stems and mince them.",
+      "secondary_message": "11 medium beets\n½ lemon\n1 small shallot\n2 tbsp fresh parsley, tarragon, or chervil"
     },
     {
       "id": 1,

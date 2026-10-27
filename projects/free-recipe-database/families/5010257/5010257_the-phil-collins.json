@@ -53,9 +53,17 @@
       "quantity": "1 ½ oz"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice",
-      "quantity": "¾ oz"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "¾ oz",
+          "name": "fresh lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1953,
@@ -79,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "1 lime"
+    },
     {
       "id": 1,
       "primary_message": "Combine vodka, lime juice, simple syrup, chartreuse, and bitters in a shaker. Fill with ice and shake vigorously for 15 seconds. Strain into an ice-filled Collins glass. Top off with soda water and serve with a long spoon.",

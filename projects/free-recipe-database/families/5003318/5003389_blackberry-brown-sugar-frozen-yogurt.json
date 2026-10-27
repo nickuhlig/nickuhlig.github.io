@@ -53,14 +53,22 @@
       "quantity": "⅛ tsp"
     },
     {
-      "ingredient_id": 2346,
-      "name": "freshly grated lemon zest, from 1 whole lemon",
-      "quantity": "½ tsp"
-    },
-    {
-      "ingredient_id": 1480,
-      "name": "Freshly squeezed lemon juice, from 1 whole lemon to taste",
-      "quantity": ""
+      "ingredient_id": 192,
+      "name": "Lemon, to taste",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "",
+          "name": "Freshly squeezed lemon juice, from 1 whole lemon to taste"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "½ tsp",
+          "name": "freshly grated lemon zest, from 1 whole lemon"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 88,
@@ -69,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest and juice the lemon.",
+      "secondary_message": "1 Lemon, to taste"
+    },
     {
       "id": 1,
       "primary_message": "Combine blackberries, yogurt, sugar, and clove in a blender and purée on high speed until smooth, about 30 seconds. Pour through a fine mesh strainer into a mixing bowl, pressing on the purée with a ladle to strain out seeds. Stir in lemon zest. Add lemon juice and salt in 1/4 teaspoon increments until flavor tastes balanced between sweet and tart. Chill in an ice bath or refrigerate until yogurt registers at least 4°C on an instant-read thermometer.",

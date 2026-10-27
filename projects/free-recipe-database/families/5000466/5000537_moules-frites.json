@@ -83,18 +83,28 @@
     },
     {
       "ingredient_id": 2346,
-      "name": "grated lemon zest",
-      "quantity": "3 tsp"
+      "name": "lemon zest",
+      "quantity": "3 tsp",
+      "prep": "grated"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "4 tbsp"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "4 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 106,
-      "name": "finely chopped fresh flat-leaf parsley",
-      "quantity": "4 tbsp"
+      "name": "fresh flat-leaf parsley",
+      "quantity": "4 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2064,
@@ -106,8 +116,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely chop the shallots. Thinly slice the garlic. Scrub the fresh mussels.",
-      "secondary_message": "3 large shallots\n6 large cloves garlic\n1.8 kg fresh mussels"
+      "primary_message": "Finely chop the shallots. Thinly slice the garlic. Scrub the fresh mussels. Grate the zest from the lemon. Juice the lemons. Pick the parsley leaves from the stems and finely chop them.",
+      "secondary_message": "3 large shallots\n6 large cloves garlic\n1.8 kg fresh mussels\n3 tsp lemon zest\n1 ½ lemons\n4 tbsp fresh flat-leaf parsley"
     },
     {
       "id": 1,

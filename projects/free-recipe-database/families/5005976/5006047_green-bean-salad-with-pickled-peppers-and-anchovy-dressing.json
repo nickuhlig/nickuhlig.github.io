@@ -60,13 +60,22 @@
     },
     {
       "ingredient_id": 120,
-      "name": "finely grated parmesan cheese",
-      "quantity": "57 g"
+      "name": "parmesan cheese",
+      "quantity": "57 g",
+      "prep": "finely grated"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 136,
@@ -100,8 +109,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Trim the green beans. Chop the whole anchovy fillets into a paste. Drain the sliced peperoncini. Finely slice the shallots.",
-      "secondary_message": "1.02 kg green beans\n6 whole anchovy fillets\n½ cup sliced peperoncini\n2 medium shallots"
+      "primary_message": "Trim the green beans. Chop the whole anchovy fillets into a paste. Finely grate the parmesan cheese. Juice the lemon. Drain the sliced peperoncini. Finely slice the shallots.",
+      "secondary_message": "1.02 kg green beans\n6 whole anchovy fillets\n57 g parmesan cheese\n1 lemon\n½ cup sliced peperoncini\n2 medium shallots"
     },
     {
       "id": 1,

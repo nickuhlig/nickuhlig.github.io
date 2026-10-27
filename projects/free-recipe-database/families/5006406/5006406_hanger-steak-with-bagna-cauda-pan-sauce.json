@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 325,
-      "name": "chopped anchovy fillets",
-      "quantity": "2 tbsp"
+      "name": "anchovy fillets",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 115,
@@ -76,17 +77,25 @@
       "prep": "cubed"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cube the unsalted butter.",
-      "secondary_message": "4 tbsp unsalted butter"
+      "primary_message": "Chop the anchovy fillets. Cube the unsalted butter. Juice the lemon.",
+      "secondary_message": "2 tbsp anchovy fillets\n4 tbsp unsalted butter\n1 lemon"
     },
     {
       "id": 1,

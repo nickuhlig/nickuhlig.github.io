@@ -45,9 +45,17 @@
       "prep": "peeled and seeded"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "6",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 cup",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 346,
@@ -79,8 +87,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Peel and seed the lychees.",
-      "secondary_message": "1 lb lychees"
+      "primary_message": "Peel and seed the lychees. Juice the lemons.",
+      "secondary_message": "1 lb lychees\n6 lemons"
     },
     {
       "id": 1,

@@ -49,9 +49,17 @@
       "quantity": "3 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 27,
@@ -68,18 +76,21 @@
     },
     {
       "ingredient_id": 106,
-      "name": "roughly chopped fresh flat-leaf parsley leaves",
-      "quantity": "¼ cup"
+      "name": "fresh flat-leaf parsley leaves",
+      "quantity": "¼ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1746,
-      "name": "roughly chopped fresh basil leaves",
-      "quantity": "¼ cup"
+      "name": "fresh basil leaves",
+      "quantity": "¼ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 243,
-      "name": "roughly chopped fresh mint leaves",
-      "quantity": "¼ cup"
+      "name": "fresh mint leaves",
+      "quantity": "¼ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 32,
@@ -102,8 +113,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Remove the husks from the sweet corn. Cut the ripe tomatoes into bite-size chunks. Cut the feta cheese into 1/2-inch chunks.",
-      "secondary_message": "4 ears sweet corn\n7 ripe tomatoes\n8 oz feta cheese"
+      "primary_message": "Juice the lemon. Remove the husks from the sweet corn. Cut the ripe tomatoes into bite-size chunks. Pick the parsley leaves from the stems and roughly chop them. Pick the basil leaves from the stems and roughly chop them. Pick the mint leaves from the stems and roughly chop them. Cut the feta cheese into 1/2-inch chunks.",
+      "secondary_message": "½ lemon\n4 ears sweet corn\n7 ripe tomatoes\n¼ cup fresh flat-leaf parsley leaves\n¼ cup fresh basil leaves\n¼ cup fresh mint leaves\n8 oz feta cheese"
     },
     {
       "id": 1,

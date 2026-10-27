@@ -93,9 +93,17 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tbsp",
+          "name": "fresh lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1003,
@@ -104,13 +112,15 @@
     },
     {
       "ingredient_id": 355,
-      "name": "softened cream cheese",
-      "quantity": "12 oz"
+      "name": "cream cheese",
+      "quantity": "12 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1773,
-      "name": "finely shredded iceberg lettuce",
-      "quantity": "4 oz"
+      "name": "iceberg lettuce",
+      "quantity": "4 oz",
+      "prep": "finely shredded"
     },
     {
       "ingredient_id": 433,
@@ -147,16 +157,17 @@
     },
     {
       "ingredient_id": 188,
-      "name": "Chopped cilantro",
-      "quantity": ""
+      "name": "Cilantro",
+      "quantity": "",
+      "prep": "chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely chop the white onion. Dice the avocado into 1/4 inch pieces. Dice the plum tomatoes into 1/4-inch pieces.",
-      "secondary_message": "1 medium white onion\n1 avocado\n1 ¾ plum tomatoes"
+      "primary_message": "Finely chop the white onion. Juice the lime. Soften the cream cheese. Finely shred the iceberg lettuce. Dice the avocado into 1/4 inch pieces. Dice the plum tomatoes into 1/4-inch pieces. Pick the cilantro leaves from the stems and chop them.",
+      "secondary_message": "1 medium white onion\n1 lime\n12 oz cream cheese\n4 oz iceberg lettuce\n1 avocado\n1 ¾ plum tomatoes\nCilantro"
     },
     {
       "id": 1,

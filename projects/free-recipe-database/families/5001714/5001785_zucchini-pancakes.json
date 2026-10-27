@@ -78,18 +78,27 @@
     },
     {
       "ingredient_id": 120,
-      "name": "Parmigiano-Reggiano",
+      "name": "Parmesan cheese",
       "quantity": "¼ cup"
     },
     {
       "ingredient_id": 287,
-      "name": "minced fresh thyme oregano",
-      "quantity": "¼ tsp"
+      "name": "fresh thyme oregano",
+      "quantity": "¼ tsp",
+      "prep": "minced"
     },
     {
-      "ingredient_id": 2346,
-      "name": "finely grated lemon zest, from 1/2 medium lemon",
-      "quantity": "¼ tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "¼ tsp",
+          "name": "finely grated lemon zest, from 1/2 medium lemon"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 72,
@@ -116,8 +125,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely mince the garlic.",
-      "secondary_message": "1 medium clove garlic"
+      "primary_message": "Finely mince the garlic. Pick the herb leaves from the stems and mince them. Zest the lemon.",
+      "secondary_message": "1 medium clove garlic\n¼ tsp fresh thyme oregano\n½ lemon"
     },
     {
       "id": 1,

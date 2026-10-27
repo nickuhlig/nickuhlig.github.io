@@ -66,9 +66,17 @@
       "quantity": "¼ tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 lemon",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice, from 1 lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 117,
@@ -92,13 +100,15 @@
     },
     {
       "ingredient_id": 120,
-      "name": "finely grated Parmigiano-Reggiano",
-      "quantity": "2 tbsp"
+      "name": "Parmesan cheese",
+      "quantity": "2 tbsp",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 120,
-      "name": "shaved Parmigiano-Reggiano divided",
-      "quantity": "14 g"
+      "name": "Parmesan cheese divided",
+      "quantity": "14 g",
+      "prep": "shaved"
     },
     {
       "ingredient_id": 1422,
@@ -139,8 +149,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the garlic cloves. Wash, trim, and quarter the cremini mushrooms. Core and cut the red bell pepper into 1-inch pieces. Roughly chop the yellow onion. Wash and dry the baby green leaf lettuce.",
-      "secondary_message": "2 medium garlic cloves\n225 g cremini mushrooms\n1 medium red bell pepper\n1 medium yellow onion\n113 g baby green leaf lettuce"
+      "primary_message": "Mince the garlic cloves. Juice the lemon. Finely grate the Parmesan cheese. Shave the Parmesan cheese divided. Wash, trim, and quarter the cremini mushrooms. Core and cut the red bell pepper into 1-inch pieces. Roughly chop the yellow onion. Wash and dry the baby green leaf lettuce.",
+      "secondary_message": "2 medium garlic cloves\n1 lemon\n2 tbsp Parmesan cheese\n14 g Parmesan cheese divided\n225 g cremini mushrooms\n1 medium red bell pepper\n1 medium yellow onion\n113 g baby green leaf lettuce"
     },
     {
       "id": 1,

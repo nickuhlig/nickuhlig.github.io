@@ -38,9 +38,17 @@
   ],
   "ingredients": [
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "2 oz"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 oz",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2514,
@@ -74,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the limes.",
+      "secondary_message": "2 limes"
+    },
     {
       "id": 1,
       "primary_message": "For the Agave Sour Mix: Mix lime juice and agave nectar until dissolved.",

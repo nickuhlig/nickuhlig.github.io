@@ -49,9 +49,17 @@
       "quantity": "28 g"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "14 g"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "14 g",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2457,
@@ -60,6 +68,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "Combine gin, grapefruit juice, lemon juice, and elderflower liqueur in a cocktail shaker. Fill with ice and shake until well chilled, about 15 seconds.",

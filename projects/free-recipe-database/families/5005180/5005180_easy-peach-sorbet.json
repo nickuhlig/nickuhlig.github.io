@@ -45,9 +45,17 @@
       "prep": "diced"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 346,
@@ -64,8 +72,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Dice the fresh peaches.",
-      "secondary_message": "9 fresh peaches"
+      "primary_message": "Dice the fresh peaches. Juice the lime.",
+      "secondary_message": "9 fresh peaches\n½ lime"
     },
     {
       "id": 1,

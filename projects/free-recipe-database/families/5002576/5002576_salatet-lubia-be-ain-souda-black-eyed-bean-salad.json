@@ -39,9 +39,17 @@
       "quantity": "¼ cup"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice, from 1 lime",
-      "quantity": "2 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tbsp",
+          "name": "fresh lime juice, from 1 lime"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1574,
@@ -112,21 +120,23 @@
     },
     {
       "ingredient_id": 2012,
-      "name": "coarsely chopped pitted Kalamata olives",
-      "quantity": "¼ cup"
+      "name": "pitted Kalamata olives",
+      "quantity": "¼ cup",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 188,
-      "name": "finely chopped fresh cilantro",
-      "quantity": "¼ cup"
+      "name": "fresh cilantro",
+      "quantity": "¼ cup",
+      "prep": "finely chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the shallot. Mince the garlic. Drain and rinse the black-eyed peas. Halve the cherry tomatoes. Cut the green bell pepper into 1/4-inch pieces. Cut the yellow pepper into 1/4-inch pieces. Trim and cut the Persian cucumbers into 1/4-inch pieces.",
-      "secondary_message": "1 medium shallot\n1 large clove garlic\n1 (15 ½ oz) can black-eyed peas\n6 oz cherry tomatoes\n1 green bell pepper\n1 yellow pepper\n2 Persian cucumbers"
+      "primary_message": "Juice the lime. Mince the shallot. Mince the garlic. Drain and rinse the black-eyed peas. Halve the cherry tomatoes. Cut the green bell pepper into 1/4-inch pieces. Cut the yellow pepper into 1/4-inch pieces. Trim and cut the Persian cucumbers into 1/4-inch pieces. Coarsely chop the pitted Kalamata olives. Pick the cilantro leaves from the stems and finely chop them.",
+      "secondary_message": "1 lime\n1 medium shallot\n1 large clove garlic\n1 (15 ½ oz) can black-eyed peas\n6 oz cherry tomatoes\n1 green bell pepper\n1 yellow pepper\n2 Persian cucumbers\n¼ cup pitted Kalamata olives\n¼ cup fresh cilantro"
     },
     {
       "id": 1,

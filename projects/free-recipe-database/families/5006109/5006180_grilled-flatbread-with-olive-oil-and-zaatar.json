@@ -86,13 +86,15 @@
     },
     {
       "ingredient_id": 1677,
-      "name": "minced fresh thyme leaves",
-      "quantity": "2 tbsp"
+      "name": "fresh thyme leaves",
+      "quantity": "2 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 3448,
-      "name": "minced fresh savory",
-      "quantity": "2 tbsp"
+      "name": "fresh savory",
+      "quantity": "2 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 181,
@@ -121,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the thyme leaves from the stems and mince them. Pick the savory leaves from the stems and mince them.",
+      "secondary_message": "2 tbsp fresh thyme leaves\n2 tbsp fresh savory"
+    },
     {
       "id": 1,
       "primary_message": "For the Flatbread: In the bowl of a stand mixer, whisk together flour, salt, yeast, and sugar until well combined. Add olive oil and yogurt or milk and knead with dough hook at low speed until dough comes together into a smooth ball (dough should stick slightly to bottom of bowl as it kneads). If dough hasn't come together, add yogurt or milk, 1 tablespoon at a time, until dough forms a smooth ball. Continue to knead for 5 minutes. Alternatively, form dough in a food processor by adding all ingredients and processing until the dough rides around the blade. Transfer the dough to a clean bowl, cover tightly with plastic wrap, and allow to rise at room temperature until roughly doubled in volume, about 2 hours.",

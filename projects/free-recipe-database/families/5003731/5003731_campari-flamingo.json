@@ -38,9 +38,17 @@
   ],
   "ingredients": [
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "¾ oz"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "¾ oz",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1067,
@@ -59,6 +67,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "1 lime"
+    },
     {
       "id": 1,
       "primary_message": "Fill a cocktail shaker with ice. Add lime juice, rum, and Campari. Shake well.",

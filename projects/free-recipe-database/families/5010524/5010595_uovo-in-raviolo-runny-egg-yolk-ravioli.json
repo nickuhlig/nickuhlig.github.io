@@ -56,18 +56,28 @@
     },
     {
       "ingredient_id": 120,
-      "name": "freshly grated Parmesan cheese",
-      "quantity": "28 g"
+      "name": "Parmesan cheese",
+      "quantity": "28 g",
+      "prep": "freshly grated"
     },
     {
       "ingredient_id": 349,
-      "name": "freshly grated nutmeg",
-      "quantity": "1 pinch"
+      "name": "nutmeg",
+      "quantity": "1 pinch",
+      "prep": "freshly grated"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "½ tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "½ tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -112,17 +122,25 @@
       "quantity": "4 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, divided",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon, divided",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice, divided"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Roughly chop the pancetta. Finely chop the shallot.",
-      "secondary_message": "57 g pancetta, divided\n1 medium shallot, divided"
+      "primary_message": "Freshly grate the Parmesan cheese. Freshly grate the nutmeg. Juice the lemon. Roughly chop the pancetta. Finely chop the shallot. Juice the lemon.",
+      "secondary_message": "28 g Parmesan cheese\n1 pinch nutmeg\n½ lemon\n57 g pancetta, divided\n1 medium shallot, divided\n½ lemon, divided"
     },
     {
       "id": 1,

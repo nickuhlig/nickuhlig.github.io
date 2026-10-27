@@ -91,22 +91,31 @@
       "quantity": ""
     },
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from 1 lemon",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tsp",
+          "name": "lemon zest, from 1 lemon"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 120,
-      "name": "grated Parmigiano-Reggiano cheese, plus more to taste",
-      "quantity": "1 tbsp"
+      "name": "Parmesan cheese, plus more to taste",
+      "quantity": "1 tbsp",
+      "prep": "grated"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince or grate the garlic. Cut the broccoli florets into 1 1/2 to 2-inch pieces.",
-      "secondary_message": "1 small clove garlic\n1 lb broccoli florets"
+      "primary_message": "Mince or grate the garlic. Cut the broccoli florets into 1 1/2 to 2-inch pieces. Zest the lemon. Grate the Parmesan cheese.",
+      "secondary_message": "1 small clove garlic\n1 lb broccoli florets\n1 lemon\n1 tbsp Parmesan cheese, plus more to taste"
     },
     {
       "id": 1,

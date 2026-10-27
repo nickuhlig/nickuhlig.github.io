@@ -98,8 +98,9 @@
     },
     {
       "ingredient_id": 242,
-      "name": "chopped fresh strawberries",
-      "quantity": "12 oz"
+      "name": "fresh strawberries",
+      "quantity": "12 oz",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 264,
@@ -134,9 +135,17 @@
       "quantity": "1 tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "½ tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "½ tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 353,
@@ -164,8 +173,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Melt the unsalted butter. Bring the packages cream cheese to room temperature. Bring the goat cheese to room temperature. Bring the eggs to room temperature.",
-      "secondary_message": "4 oz unsalted butter\n1 ½ lb packages cream cheese\n8 oz goat cheese\n4 large eggs"
+      "primary_message": "Melt the unsalted butter. Chop the strawberries. Bring the packages cream cheese to room temperature. Bring the goat cheese to room temperature. Juice the lemon. Bring the eggs to room temperature.",
+      "secondary_message": "4 oz unsalted butter\n12 oz fresh strawberries\n1 ½ lb packages cream cheese\n8 oz goat cheese\n½ lemon\n4 large eggs"
     },
     {
       "id": 1,

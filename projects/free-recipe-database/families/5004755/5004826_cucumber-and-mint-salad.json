@@ -44,8 +44,9 @@
     },
     {
       "ingredient_id": 184,
-      "name": "chopped red onions",
-      "quantity": "¼ cup"
+      "name": "red onions",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 132,
@@ -74,11 +75,18 @@
     },
     {
       "ingredient_id": 243,
-      "name": "chopped fresh mint",
-      "quantity": "¼ cup"
+      "name": "fresh mint",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the red onions. Pick the mint leaves from the stems and chop them.",
+      "secondary_message": "¼ cup red onions\n¼ cup fresh mint"
+    },
     {
       "id": 1,
       "primary_message": "Cut cucumbers in half lengthwise. Use a teaspoon to scrape out seeds, then cut into thin slices. Toss cucumbers with salt in a colander. Let drain in sink for at least 30 minutes, then tap colander on base of sink to release any remaining water. Lay a clean dish towel flat on counter, and then dump cucumbers over top. Use edges of the towel to blot cucumbers dry.",

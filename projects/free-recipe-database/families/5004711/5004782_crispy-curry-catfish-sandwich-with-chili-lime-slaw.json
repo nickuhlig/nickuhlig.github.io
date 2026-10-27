@@ -38,9 +38,17 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 52,
@@ -59,18 +67,21 @@
     },
     {
       "ingredient_id": 310,
-      "name": "shredded red cabbage",
-      "quantity": "1 cup"
+      "name": "red cabbage",
+      "quantity": "1 cup",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 292,
-      "name": "shredded napa cabbage",
-      "quantity": "1 cup"
+      "name": "napa cabbage",
+      "quantity": "1 cup",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 188,
-      "name": "chopped cilantro",
-      "quantity": "¼ cup"
+      "name": "cilantro",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 73,
@@ -118,8 +129,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the catfish fillets in half.",
-      "secondary_message": "2 catfish fillets"
+      "primary_message": "Juice the lime. Shred the red cabbage. Shred the napa cabbage. Pick the cilantro leaves from the stems and chop them. Cut the catfish fillets in half.",
+      "secondary_message": "1 lime\n1 cup red cabbage\n1 cup napa cabbage\n¼ cup cilantro\n2 catfish fillets"
     },
     {
       "id": 1,

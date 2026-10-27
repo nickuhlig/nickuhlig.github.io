@@ -45,9 +45,17 @@
       "quantity": "1 cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1019,
@@ -102,8 +110,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Melt the butter. Bring the packages cream cheese to room temperature. Bring the eggs to room temperature.",
-      "secondary_message": "3 tbsp butter\n3 packages cream cheese\n4 large eggs"
+      "primary_message": "Juice the lemon. Melt the butter. Bring the packages cream cheese to room temperature. Bring the eggs to room temperature.",
+      "secondary_message": "½ lemon\n3 tbsp butter\n3 packages cream cheese\n4 large eggs"
     },
     {
       "id": 1,

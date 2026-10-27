@@ -52,9 +52,17 @@
       "quantity": "2 dashes"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "45 ml"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "45 ml",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1500,
@@ -63,6 +71,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the limes.",
+      "secondary_message": "1 ½ limes"
+    },
     {
       "id": 1,
       "primary_message": "Combine gin, tonic syrup, simple syrup, bitters, and lime juice in a resealable container. Seal and store in freezer at least 1 and up to 10 hours, then pour into blender.",

@@ -53,13 +53,22 @@
     },
     {
       "ingredient_id": 153,
-      "name": "sliced scallions",
-      "quantity": "¼ cup"
+      "name": "scallions",
+      "quantity": "¼ cup",
+      "prep": "sliced"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 346,
@@ -73,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the scallions. Juice the lime.",
+      "secondary_message": "¼ cup scallions\n½ lime"
+    },
     {
       "id": 1,
       "primary_message": "Whisk all ingredients together in a medium bowl. Serve with fried chicken.",

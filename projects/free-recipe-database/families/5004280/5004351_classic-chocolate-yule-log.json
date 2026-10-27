@@ -64,8 +64,9 @@
     },
     {
       "ingredient_id": 1729,
-      "name": "finely chopped dark chocolate, between 85% and 100%",
-      "quantity": "71 g"
+      "name": "dark chocolate, between 85% and 100%",
+      "quantity": "71 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 353,
@@ -119,8 +120,9 @@
     },
     {
       "ingredient_id": 1729,
-      "name": "finely chopped dark chocolate, between 55% and 75%, or a blend thereof",
-      "quantity": "340 g"
+      "name": "dark chocolate, between 55% and 75%, or a blend thereof",
+      "quantity": "340 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 88,
@@ -139,6 +141,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the dark chocolate. Finely chop the dark chocolate.",
+      "secondary_message": "71 g dark chocolate, between 85% and 100%\n340 g dark chocolate, between 55% and 75%, or a blend thereof"
+    },
     {
       "id": 1,
       "primary_message": "Getting Ready: Adjust oven rack to lower-middle position and preheat to 180°C (350°F). Line an aluminum half-sheet pan with parchment along the bottom, and grease with pan spray or oil.",

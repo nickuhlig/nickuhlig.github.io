@@ -88,8 +88,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "finely diced onion",
-      "quantity": "¾ cup"
+      "name": "onion",
+      "quantity": "¾ cup",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 24,
@@ -109,8 +110,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "finely chopped fresh cilantro leaves, fine stems",
-      "quantity": "½ cup"
+      "name": "fresh cilantro leaves, fine stems",
+      "quantity": "½ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 346,
@@ -135,8 +137,9 @@
     },
     {
       "ingredient_id": 1373,
-      "name": "finely chopped pickled jalapeños",
-      "quantity": "1 tbsp"
+      "name": "pickled jalapeños",
+      "quantity": "1 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 183,
@@ -156,13 +159,22 @@
     },
     {
       "ingredient_id": 188,
-      "name": "roughly chopped fresh cilantro leaves",
-      "quantity": "⅓ cup"
+      "name": "fresh cilantro leaves",
+      "quantity": "⅓ cup",
+      "prep": "roughly chopped"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -171,13 +183,15 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "finely chopped white onion",
-      "quantity": "½ cup"
+      "name": "white onion",
+      "quantity": "½ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 188,
-      "name": "roughly chopped cilantro",
-      "quantity": "¼ cup"
+      "name": "cilantro",
+      "quantity": "¼ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 343,
@@ -201,8 +215,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the tortilla corn tortillas into 6 wedges each. Halve, steem, and seed the jalapeño pepper. Husk, wash, and halve the tomatillos. Smash the garlic. Grate the pepper Jack cheese on large holes of a box grater. Seed and roughly dice the ripe Haas avocados. Very thinly slice the radish. Very thinly slice the jalapeño pepper.",
-      "secondary_message": "20 tortilla corn tortillas\n1 jalapeño pepper\n1 lb tomatillos\n3 medium cloves garlic\n8 oz pepper Jack cheese\n2 ripe Haas avocados\n1 large radish\n1 jalapeño pepper"
+      "primary_message": "Cut the tortilla corn tortillas into 6 wedges each. Halve, steem, and seed the jalapeño pepper. Husk, wash, and halve the tomatillos. Finely dice the onion. Smash the garlic. Pick the cilantro leaves from the stems and finely chop them. Grate the pepper Jack cheese on large holes of a box grater. Finely chop the pickled jalapeños. Seed and roughly dice the ripe Haas avocados. Pick the cilantro leaves from the stems and roughly chop them. Juice the lime. Finely chop the white onion. Pick the cilantro leaves from the stems and roughly chop them. Very thinly slice the radish. Very thinly slice the jalapeño pepper.",
+      "secondary_message": "20 tortilla corn tortillas\n1 jalapeño pepper\n1 lb tomatillos\n¾ cup onion\n3 medium cloves garlic\n½ cup fresh cilantro leaves, fine stems\n8 oz pepper Jack cheese\n1 tbsp pickled jalapeños\n2 ripe Haas avocados\n⅓ cup fresh cilantro leaves\n1 lime\n½ cup white onion\n¼ cup cilantro\n1 large radish\n1 jalapeño pepper"
     },
     {
       "id": 1,

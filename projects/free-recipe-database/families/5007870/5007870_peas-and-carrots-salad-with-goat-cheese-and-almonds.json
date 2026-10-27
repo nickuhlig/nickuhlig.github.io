@@ -47,14 +47,22 @@
       "quantity": "3 tbsp"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from 1 whole lemon",
-      "quantity": "1 tsp"
-    },
-    {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 whole lemon",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice, from 1 whole lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tsp",
+          "name": "lemon zest, from 1 whole lemon"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 88,
@@ -108,8 +116,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Shuck the fresh shell peas. Toast and cut the Marcona almonds in half.",
-      "secondary_message": "½ lb fresh shell peas\n½ cup Marcona almonds"
+      "primary_message": "Zest and juice the lemon. Shuck the fresh shell peas. Toast and cut the Marcona almonds in half.",
+      "secondary_message": "1 lemon\n½ lb fresh shell peas\n½ cup Marcona almonds"
     },
     {
       "id": 1,

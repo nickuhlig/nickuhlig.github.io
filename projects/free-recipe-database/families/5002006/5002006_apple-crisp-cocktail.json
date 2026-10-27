@@ -83,12 +83,26 @@
       "quantity": "1 oz"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "¾ oz"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¾ oz",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "For the Cardamom-Infused Bourbon: In a mortar and pestle, coarsely crush 1/4 cup cardamom pods. Place crushed cardamom pods in a resealable container or glass jar. Add bourbon, shake, and let sit until fragrant, about 1 1/2 hours at room temperature. Using a fine-mesh sieve, strain bourbon into a clean container or jar; set aside.",

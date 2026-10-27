@@ -36,14 +36,22 @@
   ],
   "ingredients": [
     {
-      "ingredient_id": 1421,
-      "name": "lime juice, from about 2 whole limes",
-      "quantity": "1 ½ tbsp"
-    },
-    {
-      "ingredient_id": 2346,
-      "name": "lime zest, from about 2 whole limes",
-      "quantity": "½ tsp"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 ½ tbsp",
+          "name": "lime juice, from about 2 whole limes"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "½ tsp",
+          "name": "lime zest, from about 2 whole limes"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 103,
@@ -120,16 +128,17 @@
     },
     {
       "ingredient_id": 188,
-      "name": "roughly chopped fresh cilantro leaves",
-      "quantity": "½ cup"
+      "name": "fresh cilantro leaves",
+      "quantity": "½ cup",
+      "prep": "roughly chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Shuck the corn, then cut off the kernels with a knife. Cut the red pepper into 1/2-inch squares. Finely mince the jalapeño pepper. Trim the ends of the green beans, then cut them into 1-inch lengths. Cut the radishes into bite-sized pieces. Peel and cut the jicama into 3/4-inch dice.",
-      "secondary_message": "1 ¾ cups corn\n1 red pepper\n1 jalapeño pepper\n4 oz green beans\n1 bunch radishes\n1 bulb jicama"
+      "primary_message": "Zest and juice the limes. Shuck the corn, then cut off the kernels with a knife. Cut the red pepper into 1/2-inch squares. Finely mince the jalapeño pepper. Trim the ends of the green beans, then cut them into 1-inch lengths. Cut the radishes into bite-sized pieces. Peel and cut the jicama into 3/4-inch dice. Pick the cilantro leaves from the stems and roughly chop them.",
+      "secondary_message": "2 limes\n1 ¾ cups corn\n1 red pepper\n1 jalapeño pepper\n4 oz green beans\n1 bunch radishes\n1 bulb jicama\n½ cup fresh cilantro leaves"
     },
     {
       "id": 1,

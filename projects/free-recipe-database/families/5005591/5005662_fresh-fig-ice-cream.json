@@ -58,12 +58,26 @@
       "quantity": "1 cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice, more to taste",
-      "quantity": "½ tsp"
+      "ingredient_id": 192,
+      "name": "lemon, more to taste",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "½ tsp",
+          "name": "freshly squeezed lemon juice, more to taste"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "½ lemon, more to taste"
+    },
     {
       "id": 1,
       "primary_message": "Remove the hard stem ends from the figs, then cut each fig into 8 pieces. Put the figs in a medium, nonreactive saucepan with the water, and zest the lemon directly into the saucepan. Cover and cook over medium heat, stirring occasionally, until the figs are tender, 8 to 10 minutes.",

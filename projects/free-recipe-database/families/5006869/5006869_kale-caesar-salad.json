@@ -87,7 +87,7 @@
     },
     {
       "ingredient_id": 120,
-      "name": "Parmigiano-Reggiano",
+      "name": "Parmesan cheese",
       "quantity": "1 ½ oz",
       "prep": "finely grated"
     },
@@ -97,9 +97,17 @@
       "quantity": "2 tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1565,
@@ -112,8 +120,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Roughly tear the hearty bread into 1-inch pieces. Mince the garlic. Finely grate the Parmigiano-Reggiano. Finely slice the white onion.",
-      "secondary_message": "5 oz hearty bread\n1 medium clove garlic\n1 ½ oz Parmigiano-Reggiano\n1 small white onion"
+      "primary_message": "Roughly tear the hearty bread into 1-inch pieces. Mince the garlic. Finely grate the Parmesan cheese. Juice the lemon. Finely slice the white onion.",
+      "secondary_message": "5 oz hearty bread\n1 medium clove garlic\n1 ½ oz Parmesan cheese\n1 lemon\n1 small white onion"
     },
     {
       "id": 1,

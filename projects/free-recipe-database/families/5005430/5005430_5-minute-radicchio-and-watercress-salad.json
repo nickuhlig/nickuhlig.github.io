@@ -52,9 +52,17 @@
       "prep": "very thinly sliced"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -71,8 +79,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Core the radicchio, then tear the leaves into bite-size pieces. Very thinly slice the radishes.",
-      "secondary_message": "4 oz radicchio\n2 radishes"
+      "primary_message": "Core the radicchio, then tear the leaves into bite-size pieces. Very thinly slice the radishes. Juice the lemon.",
+      "secondary_message": "4 oz radicchio\n2 radishes\n½ lemon"
     },
     {
       "id": 1,

@@ -53,8 +53,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "thinly sliced scallion greens",
-      "quantity": "2 cups"
+      "name": "scallion greens",
+      "quantity": "2 cups",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -73,13 +74,15 @@
     },
     {
       "ingredient_id": 153,
-      "name": "finely sliced scallion greens",
-      "quantity": "1 tbsp"
+      "name": "scallion greens",
+      "quantity": "1 tbsp",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 221,
-      "name": "grated fresh ginger",
-      "quantity": "½ tsp"
+      "name": "fresh ginger",
+      "quantity": "½ tsp",
+      "prep": "grated"
     },
     {
       "ingredient_id": 346,
@@ -88,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the scallion greens. Finely slice the scallion greens. Grate the ginger.",
+      "secondary_message": "2 cups scallion greens\n1 tbsp scallion greens\n½ tsp fresh ginger"
+    },
     {
       "id": 1,
       "primary_message": "For the Pancakes Place flour in bowl of food processor. With processor running, slowly drizzle in about 3/4 of boiling water. Process for 15 seconds. If dough does not come together and ride around the blade, drizzle in more water a tablespoon at a time until it just comes together. Transfer to a floured work surface and knead a few times to form a smooth ball. Transfer to a bowl, cover with a damp towel or plastic wrap, and allow to rest for 30 minutes at room temperature, or up to overnight in the fridge.",

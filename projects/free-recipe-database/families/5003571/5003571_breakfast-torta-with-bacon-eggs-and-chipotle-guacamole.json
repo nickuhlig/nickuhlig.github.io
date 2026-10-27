@@ -60,9 +60,17 @@
       "quantity": "2"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 188,
@@ -98,8 +106,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Chop the fresh cilantro leaves. Chop the white onion. Mince the garlic. Crumble the queso fresco.",
-      "secondary_message": "1 handful fresh cilantro leaves\n½ medium white onion\n1 clove garlic\n2 oz queso fresco"
+      "primary_message": "Juice the lime. Pick the cilantro leaves from the stems and chop them. Chop the white onion. Mince the garlic. Crumble the queso fresco.",
+      "secondary_message": "½ lime\n1 handful fresh cilantro leaves\n½ medium white onion\n1 clove garlic\n2 oz queso fresco"
     },
     {
       "id": 1,

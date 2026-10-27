@@ -34,9 +34,17 @@
   "cookwares": [],
   "ingredients": [
     {
-      "ingredient_id": 1421,
-      "name": "lime juice, plus more to taste",
-      "quantity": "2 tbsp"
+      "ingredient_id": 228,
+      "name": "lime, plus more to taste",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tbsp",
+          "name": "lime juice, plus more to taste"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1820,
@@ -76,13 +84,15 @@
     },
     {
       "ingredient_id": 292,
-      "name": "shredded napa cabbage",
-      "quantity": "2 cups"
+      "name": "napa cabbage",
+      "quantity": "2 cups",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 1761,
-      "name": "picked mung bean sprouts",
-      "quantity": "1 cup"
+      "name": "mung bean sprouts",
+      "quantity": "1 cup",
+      "prep": "picked"
     },
     {
       "ingredient_id": 217,
@@ -91,8 +101,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "roughly chopped fresh cilantro leaves, tender stems",
-      "quantity": "½ cup"
+      "name": "fresh cilantro leaves, tender stems",
+      "quantity": "½ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1944,
@@ -104,8 +115,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the garlic.",
-      "secondary_message": "1 medium clove garlic"
+      "primary_message": "Juice the lime. Mince the garlic. Shred the napa cabbage. Pick the leaves of the mung bean sprouts from the stems. Pick the cilantro leaves and tender stems from the thick stems and roughly chop them.",
+      "secondary_message": "1 lime, plus more to taste\n1 medium clove garlic\n2 cups napa cabbage\n1 cup mung bean sprouts\n½ cup fresh cilantro leaves, tender stems"
     },
     {
       "id": 1,

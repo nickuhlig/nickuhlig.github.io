@@ -96,11 +96,18 @@
     },
     {
       "ingredient_id": 115,
-      "name": "melted butter",
-      "quantity": "2 tsp"
+      "name": "butter",
+      "quantity": "2 tsp",
+      "prep": "melted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the butter.",
+      "secondary_message": "2 tsp butter"
+    },
     {
       "id": 1,
       "primary_message": "Mix the salt and white sugar in the cold water until completely dissolved to make the brine. Wash the chicken inside and out and place it in the brine breast side down, placing a weight on top of the chicken to keep it submerged. Brine the chicken in the refrigerator for 1 hour, then remove from the brine, wash again, and pat dry with paper towels. Place the chicken on a plate and put it back in the fridge to air dry overnight (optional).",

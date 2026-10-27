@@ -74,9 +74,17 @@
       "quantity": "¾ oz"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "¾ oz"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¾ oz",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2266,
@@ -88,8 +96,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Slice the ripe nectarine.",
-      "secondary_message": "½ ripe nectarine"
+      "primary_message": "Slice the ripe nectarine. Juice the lemon.",
+      "secondary_message": "½ ripe nectarine\n½ lemon"
     },
     {
       "id": 1,

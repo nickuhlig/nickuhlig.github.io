@@ -68,9 +68,17 @@
       "quantity": "1 oz"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "½ oz"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "½ oz",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 3507,
@@ -84,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "In a cocktail shaker, muddle cucumber and simple syrup 10 times, then add mint and tap gently with muddler 5 more times. Do not over-muddle mint. Fill cocktail shaker with ice. Add Aperol, apricot liqueur, lemon juice, and Pimm's. Shake well, then pour unstrained into highball glass.",

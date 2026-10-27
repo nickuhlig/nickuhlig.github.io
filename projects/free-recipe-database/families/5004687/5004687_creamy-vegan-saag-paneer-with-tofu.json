@@ -59,14 +59,22 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, divided",
-      "quantity": "3 tbsp"
-    },
-    {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from 2 to 3 lemons",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemons, divided",
+      "quantity": "3",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "3 tbsp",
+          "name": "lemon juice, divided"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tbsp",
+          "name": "lemon zest, from 2 to 3 lemons"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 1044,
@@ -147,8 +155,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely mince the garlic. Peel and finely mince the ginger. Stem and finely mince the green Thai chiles. Smash the cardamom pod.",
-      "secondary_message": "4 medium cloves garlic\n1 (1 inch) knob ginger\n1 to 4 green Thai chiles\n1 cardamom pod"
+      "primary_message": "Zest and juice the lemons. Finely mince the garlic. Peel and finely mince the ginger. Stem and finely mince the green Thai chiles. Smash the cardamom pod.",
+      "secondary_message": "3 lemons, divided\n4 medium cloves garlic\n1 (1 inch) knob ginger\n1 to 4 green Thai chiles\n1 cardamom pod"
     },
     {
       "id": 1,

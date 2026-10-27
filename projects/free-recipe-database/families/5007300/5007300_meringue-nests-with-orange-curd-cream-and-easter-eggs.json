@@ -53,9 +53,17 @@
       "quantity": "6 tbsp"
     },
     {
-      "ingredient_id": 2346,
-      "name": "orange zest, from 2 large oranges",
-      "quantity": "2 tbsp"
+      "ingredient_id": 232,
+      "name": "oranges",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "2 tbsp",
+          "name": "orange zest, from 2 large oranges"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 1468,
@@ -103,8 +111,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the cold unsalted butter into 1/2-inch cubes.",
-      "secondary_message": "6 ½ tbsp cold unsalted butter"
+      "primary_message": "Zest the oranges. Cut the cold unsalted butter into 1/2-inch cubes.",
+      "secondary_message": "2 oranges\n6 ½ tbsp cold unsalted butter"
     },
     {
       "id": 1,

@@ -133,9 +133,17 @@
       "quantity": "¼ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 medium lemon",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice, from 1 medium lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 346,
@@ -148,9 +156,17 @@
       "quantity": "½ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 medium lemon",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice, from 1 medium lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1752,
@@ -177,8 +193,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Bring the eggs to room temperature.",
-      "secondary_message": "4 large eggs"
+      "primary_message": "Bring the eggs to room temperature. Juice the lemon. Juice the lemon.",
+      "secondary_message": "4 large eggs\n½ lemon\n½ lemon"
     },
     {
       "id": 1,

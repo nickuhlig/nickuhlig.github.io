@@ -71,8 +71,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "finely chopped fresh cilantro",
-      "quantity": "2 tbsp"
+      "name": "fresh cilantro",
+      "quantity": "2 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2021,
@@ -81,9 +82,17 @@
       "prep": "seeded and finely minced"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 228,
@@ -96,8 +105,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Soften the butter. Seed and finely mince the serrano chile. Zest the lime.",
-      "secondary_message": "8 tbsp butter\n1 medium serrano chile\n1 lime"
+      "primary_message": "Soften the butter. Pick the cilantro leaves from the stems and finely chop them. Seed and finely mince the serrano chile. Juice the lime. Zest the lime.",
+      "secondary_message": "8 tbsp butter\n2 tbsp fresh cilantro\n1 medium serrano chile\n½ lime\n1 lime"
     },
     {
       "id": 1,

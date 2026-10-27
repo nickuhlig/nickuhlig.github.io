@@ -87,11 +87,18 @@
     },
     {
       "ingredient_id": 1414,
-      "name": "freshly chopped curly parsley",
-      "quantity": "4 tbsp"
+      "name": "curly parsley",
+      "quantity": "4 tbsp",
+      "prep": "freshly chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the parsley leaves from the stems and freshly chop them.",
+      "secondary_message": "4 tbsp curly parsley"
+    },
     {
       "id": 1,
       "primary_message": "Cover bacon in cold water in a large pot and bring slowly to a boil.",

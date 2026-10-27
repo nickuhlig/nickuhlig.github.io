@@ -77,9 +77,17 @@
       "quantity": "¼ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 1 lemon",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "fresh lemon juice, from 1 lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 117,
@@ -98,13 +106,15 @@
     },
     {
       "ingredient_id": 270,
-      "name": "minced chives, plus more to garnish",
-      "quantity": "2 tbsp"
+      "name": "chives, plus more to garnish",
+      "quantity": "2 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2221,
-      "name": "minced tarragon leaves",
-      "quantity": "1 tbsp"
+      "name": "tarragon leaves",
+      "quantity": "1 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 470,
@@ -113,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon. Mince the chives. Pick the tarragon leaves from the stems and mince them.",
+      "secondary_message": "½ lemon\n2 tbsp chives, plus more to garnish\n1 tbsp tarragon leaves"
+    },
     {
       "id": 1,
       "primary_message": "Add 1 quart water to a large saucepan. Add potatoes and 1 tablespoon kosher salt. Bring to a boil over high heat. Reduce to a simmer, and cook, stirring occasionally, until potatoes are tender, about 10 minutes. Using a slotted spoon, transfer potatoes to rimmed baking sheet. Spread into even layer and allow to cool to room temperature, about 30 minutes.",

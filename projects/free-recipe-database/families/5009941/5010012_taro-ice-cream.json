@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 2424,
-      "name": "grated taro",
-      "quantity": "0.3 kg"
+      "name": "taro",
+      "quantity": "0.3 kg",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1752,
@@ -75,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the taro.",
+      "secondary_message": "0.3 kg taro"
+    },
     {
       "id": 1,
       "primary_message": "In a heavy-bottomed medium saucepan, melt butter on medium heat. When butter has melted completely and foam has subsided, increase heat to high and add taro. Stir to coat with butter and cook until the taro turns slightly translucent, begins to color at the edges, and reduces in volume to a soft, starchy lump, about 5 minutes.",

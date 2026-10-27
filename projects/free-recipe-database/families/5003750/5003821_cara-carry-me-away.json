@@ -47,9 +47,17 @@
       "quantity": "28 g"
     },
     {
-      "ingredient_id": 1421,
-      "name": "freshly squeezed lime juice",
-      "quantity": "14 g"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "14 g",
+          "name": "freshly squeezed lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2148,
@@ -72,8 +80,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Keep the Club soda cold until you use it.",
-      "secondary_message": "Club soda"
+      "primary_message": "Juice the lime. Keep the Club soda cold until you use it.",
+      "secondary_message": "½ lime\nClub soda"
     },
     {
       "id": 1,

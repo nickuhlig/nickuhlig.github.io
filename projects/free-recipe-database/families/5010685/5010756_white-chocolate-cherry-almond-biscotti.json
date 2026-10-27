@@ -77,8 +77,9 @@
     },
     {
       "ingredient_id": 2581,
-      "name": "chopped white chocolate",
-      "quantity": "1 cup"
+      "name": "white chocolate",
+      "quantity": "1 cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2107,
@@ -92,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the white chocolate.",
+      "secondary_message": "1 cup white chocolate"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, combine flour, cornmeal, baking powder, and salt. Set aside.",

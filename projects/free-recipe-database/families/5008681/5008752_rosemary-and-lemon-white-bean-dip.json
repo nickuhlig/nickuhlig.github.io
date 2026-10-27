@@ -45,14 +45,22 @@
       "prep": "peeled"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice, from 1 lemon",
-      "quantity": "2 tsp"
-    },
-    {
-      "ingredient_id": 2346,
-      "name": "finely grated lemon zest, from 1 lemon",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "freshly squeezed lemon juice, from 1 lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tsp",
+          "name": "finely grated lemon zest, from 1 lemon"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 47,
@@ -61,8 +69,9 @@
     },
     {
       "ingredient_id": 286,
-      "name": "finely minced fresh rosemary",
-      "quantity": "2 tsp"
+      "name": "fresh rosemary",
+      "quantity": "2 tsp",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 88,
@@ -79,8 +88,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Drain and rinse the cannellini beans. Peel the garlic.",
-      "secondary_message": "1 (439 g) can cannellini beans\n2 medium cloves garlic"
+      "primary_message": "Drain and rinse the cannellini beans. Peel the garlic. Zest and juice the lemon. Pick the rosemary leaves from the stems and finely mince them.",
+      "secondary_message": "1 (439 g) can cannellini beans\n2 medium cloves garlic\n1 lemon\n2 tsp fresh rosemary"
     },
     {
       "id": 1,

@@ -53,13 +53,15 @@
     },
     {
       "ingredient_id": 188,
-      "name": "freshly picked cilantro leaves and small stems",
-      "quantity": "1 cup"
+      "name": "cilantro leaves and small stems",
+      "quantity": "1 cup",
+      "prep": "freshly picked"
     },
     {
       "ingredient_id": 1612,
-      "name": "grated cotija cheese",
-      "quantity": "2 tbsp"
+      "name": "cotija cheese",
+      "quantity": "2 tbsp",
+      "prep": "grated"
     },
     {
       "ingredient_id": 24,
@@ -78,9 +80,17 @@
       "quantity": "1 tsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "½ tsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "½ tsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 267,
@@ -102,8 +112,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the garlic.",
-      "secondary_message": "1 medium clove garlic"
+      "primary_message": "Pick the cilantro leaves from the stems. Grate the cotija cheese. Mince the garlic. Juice the lime.",
+      "secondary_message": "1 cup cilantro leaves and small stems\n2 tbsp cotija cheese\n1 medium clove garlic\n½ lime"
     },
     {
       "id": 1,

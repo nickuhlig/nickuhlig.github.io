@@ -70,8 +70,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "chopped yellow onion",
-      "quantity": "2 tbsp"
+      "name": "yellow onion",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2540,
@@ -104,9 +105,17 @@
       "quantity": "1 tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 1 medium lemon",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "fresh lemon juice, from 1 medium lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 478,
@@ -180,6 +189,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the yellow onion. Juice the lemon.",
+      "secondary_message": "2 tbsp yellow onion\n½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "For the Comeback Sauce: In a food processor, blend mayonnaise, onion, chili sauce, canola oil, ketchup, hot sauce, Worcestershire sauce, Dijon mustard, lemon juice, smoked paprika, freshly ground black pepper, salt, garlic powder, and onion powder until smooth, about 30 seconds. Transfer to a small bowl, cover, and refrigerate until ready to use.",

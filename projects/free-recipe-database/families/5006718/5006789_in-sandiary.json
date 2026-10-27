@@ -34,9 +34,17 @@
   "cookwares": [],
   "ingredients": [
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice",
-      "quantity": "28 g"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "28 g",
+          "name": "fresh lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -55,9 +63,9 @@
     },
     {
       "ingredient_id": 2727,
-      "name": "cubed ripe watermelon",
+      "name": "ripe watermelon",
       "quantity": "1 cup",
-      "prep": "seeds removed"
+      "prep": "cubed, seeds removed"
     },
     {
       "ingredient_id": 1785,
@@ -65,9 +73,17 @@
       "quantity": "57 g"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice",
-      "quantity": "14 g"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "14 g",
+          "name": "fresh lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1953,
@@ -84,8 +100,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Remove the seeds from the cubed ripe watermelon.",
-      "secondary_message": "1 cup cubed ripe watermelon"
+      "primary_message": "Juice the lime. Cube the ripe watermelon, then remove the seeds. Juice the lime.",
+      "secondary_message": "1 lime\n1 cup ripe watermelon\n½ lime"
     },
     {
       "id": 1,

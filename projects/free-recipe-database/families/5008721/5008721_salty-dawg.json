@@ -59,12 +59,26 @@
       "quantity": "3 oz"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice, from 1 whole lime",
-      "quantity": "½ oz"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "½ oz",
+          "name": "fresh lime juice, from 1 whole lime"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "½ lime"
+    },
     {
       "id": 1,
       "primary_message": "Add gin and grapefruit juice to a cocktail shaker and fill with ice. Shake until well chilled, about 20 seconds. Strain into ice-filled glass, add salt on top and serve.",

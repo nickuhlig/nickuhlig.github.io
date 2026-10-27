@@ -45,13 +45,15 @@
     },
     {
       "ingredient_id": 221,
-      "name": "grated fresh ginger",
-      "quantity": "2 tsp"
+      "name": "fresh ginger",
+      "quantity": "2 tsp",
+      "prep": "grated"
     },
     {
       "ingredient_id": 2346,
-      "name": "grated fresh orange zest",
-      "quantity": "2 tsp"
+      "name": "fresh orange zest",
+      "quantity": "2 tsp",
+      "prep": "grated"
     },
     {
       "ingredient_id": 88,
@@ -65,11 +67,18 @@
     },
     {
       "ingredient_id": 270,
-      "name": "minced chives",
-      "quantity": "3 tbsp"
+      "name": "chives",
+      "quantity": "3 tbsp",
+      "prep": "minced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the ginger. Grate the zest from the orange. Mince the chives.",
+      "secondary_message": "2 tsp fresh ginger\n2 tsp fresh orange zest\n3 tbsp chives"
+    },
     {
       "id": 1,
       "primary_message": "Carefully wash pumpkin seeds to remove all excess pulp. Transfer pumpkin seeds to a paper towel–lined rimmed baking sheet. Allow to rest at room temperature until completely dry, about 1 hour. To speed up the process, dry pumpkin seeds in a 200°F oven, stirring occasionally, or use a hair dryer.",

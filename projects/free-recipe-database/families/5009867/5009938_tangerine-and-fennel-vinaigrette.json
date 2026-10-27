@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 144,
-      "name": "finely minced shallot",
-      "quantity": "2 tbsp"
+      "name": "shallot",
+      "quantity": "2 tbsp",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 117,
@@ -46,8 +47,9 @@
     },
     {
       "ingredient_id": 2346,
-      "name": "finely grated zest, from 1 whole tangerine",
-      "quantity": "1 tsp"
+      "name": "zest, from 1 whole tangerine",
+      "quantity": "1 tsp",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 1480,
@@ -55,9 +57,17 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1566,
@@ -81,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the shallot. Finely grate the zest. Juice the lemon.",
+      "secondary_message": "2 tbsp shallot\n1 tsp zest, from 1 whole tangerine\n1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "Combine shallot, mustard, tangerine zest and juice, lemon juice, and fennel seed in a large bowl and whisk to combine. Whisking constantly, slowly drizzle in olive oil. Alternatively, place all ingredients in a tightly sealed jar, seal, and shake vigorously until emulsified. Season to taste with salt and pepper. Vinaigrette will keep in the refrigerator for up to 5 days.",

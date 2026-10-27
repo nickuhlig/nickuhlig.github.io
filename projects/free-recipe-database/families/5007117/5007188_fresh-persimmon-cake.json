@@ -114,9 +114,17 @@
       "prep": "seeds scraped out"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 3504,
@@ -138,8 +146,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Bring the unsalted butter to room temperature. Bring the mascarpone cheese to room temperature. Scrape out the seeds from the vanilla bean pod. Bring the eggs to room temperature. Bring the egg yolk to room temperature. Bring the milk to room temperature. Bring the mascarpone cheese to room temperature. Scrape out the seeds from the vanilla bean pod.",
-      "secondary_message": "8 tbsp (4 oz) unsalted butter\n2 tbsp mascarpone cheese\n½ vanilla bean pod\n2 large eggs\n1 large egg yolk\n½ cup milk\n¾ cup mascarpone cheese\n½ vanilla bean pod"
+      "primary_message": "Bring the unsalted butter to room temperature. Bring the mascarpone cheese to room temperature. Scrape out the seeds from the vanilla bean pod. Bring the eggs to room temperature. Bring the egg yolk to room temperature. Bring the milk to room temperature. Bring the mascarpone cheese to room temperature. Scrape out the seeds from the vanilla bean pod. Juice the lemon.",
+      "secondary_message": "8 tbsp (4 oz) unsalted butter\n2 tbsp mascarpone cheese\n½ vanilla bean pod\n2 large eggs\n1 large egg yolk\n½ cup milk\n¾ cup mascarpone cheese\n½ vanilla bean pod\n½ lemon"
     },
     {
       "id": 1,

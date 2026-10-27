@@ -62,18 +62,21 @@
     },
     {
       "ingredient_id": 1773,
-      "name": "Shredded iceberg lettuce",
-      "quantity": ""
+      "name": "Iceberg lettuce",
+      "quantity": "",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 260,
-      "name": "Chopped fresh tomatoes",
-      "quantity": ""
+      "name": "Fresh tomatoes",
+      "quantity": "",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1980,
-      "name": "Chopped cucumbers",
-      "quantity": ""
+      "name": "Cucumbers",
+      "quantity": "",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2491,
@@ -87,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shred the iceberg lettuce. Chop the tomatoes. Chop the cucumbers.",
+      "secondary_message": "Iceberg lettuce\nFresh tomatoes\nCucumbers"
+    },
     {
       "id": 1,
       "primary_message": "Using a small serrated knife, carefully split pitas into top and bottom halves. Spread about 1/3 cup of homemade falafel into a thin layer over each pita half.",

@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 184,
-      "name": "minced red onion",
-      "quantity": "¼ cup"
+      "name": "red onion",
+      "quantity": "¼ cup",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1879,
@@ -56,9 +57,17 @@
       "quantity": "85 g"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -87,11 +96,18 @@
     },
     {
       "ingredient_id": 2436,
-      "name": "Minced fresh herbs",
-      "quantity": ""
+      "name": "Fresh herbs",
+      "quantity": "",
+      "prep": "minced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the red onion. Juice the lemon. Pick the herb leaves from the stems and mince them.",
+      "secondary_message": "¼ cup red onion\n½ lemon\nFresh herbs"
+    },
     {
       "id": 1,
       "primary_message": "Heat olive oil in a 25-cm nonstick or well-seasoned cast iron or carbon steel skillet over medium heat until shimmering. Add onion and cook, stirring, until softened, about 4 minutes. Add spinach one handful at a time, cooking until wilted before adding next handful. Add lemon juice and season to taste with salt and pepper. Transfer to a medium bowl and fold in feta cheese.",

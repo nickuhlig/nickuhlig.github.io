@@ -125,9 +125,17 @@
       "quantity": "1 tsp"
     },
     {
-      "ingredient_id": 2346,
-      "name": "orange zest, from 1 orange",
-      "quantity": "2 tsp"
+      "ingredient_id": 232,
+      "name": "orange",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "2 tsp",
+          "name": "orange zest, from 1 orange"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 1468,
@@ -156,13 +164,15 @@
     },
     {
       "ingredient_id": 221,
-      "name": "minced fresh ginger piece",
-      "quantity": "2 tsp"
+      "name": "fresh ginger piece",
+      "quantity": "2 tsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 153,
-      "name": "thinly sliced scallion bottoms",
-      "quantity": "2 tsp"
+      "name": "scallion bottoms",
+      "quantity": "2 tsp",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1828,
@@ -174,8 +184,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the boneless skinless chicken thighs into 1/2- to 3/4-inch chunks.",
-      "secondary_message": "1 lb boneless skinless chicken thighs"
+      "primary_message": "Cut the boneless skinless chicken thighs into 1/2- to 3/4-inch chunks. Zest the orange. Mince the ginger piece. Thinly slice the scallion bottoms.",
+      "secondary_message": "1 lb boneless skinless chicken thighs\n1 orange\n2 tsp fresh ginger piece\n2 tsp scallion bottoms"
     },
     {
       "id": 1,

@@ -71,8 +71,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "chopped cilantro",
-      "quantity": "⅓ cup"
+      "name": "cilantro",
+      "quantity": "⅓ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 47,
@@ -80,9 +81,17 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 183,
@@ -101,8 +110,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Peel and slice the garlic. Peel and slice the white onion. Tear the romaine lettuce into pieces. Stem and roughly chop the jalapeño pepper. Slice the avocado. Warm the corn tortillas.",
-      "secondary_message": "1 large clove garlic\n¼ white onion\n1 leaf romaine lettuce\n½ jalapeño pepper\n1 avocado\n8 corn tortillas"
+      "primary_message": "Peel and slice the garlic. Peel and slice the white onion. Tear the romaine lettuce into pieces. Stem and roughly chop the jalapeño pepper. Pick the cilantro leaves from the stems and chop them. Juice the lime. Slice the avocado. Warm the corn tortillas.",
+      "secondary_message": "1 large clove garlic\n¼ white onion\n1 leaf romaine lettuce\n½ jalapeño pepper\n⅓ cup cilantro\n½ lime\n1 avocado\n8 corn tortillas"
     },
     {
       "id": 1,

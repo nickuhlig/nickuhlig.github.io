@@ -50,13 +50,15 @@
     },
     {
       "ingredient_id": 2872,
-      "name": "grated Comté cheese",
-      "quantity": "227 g"
+      "name": "Comté cheese",
+      "quantity": "227 g",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1740,
-      "name": "sliced roast turkey breast",
-      "quantity": "0.45 kg"
+      "name": "roast turkey breast",
+      "quantity": "0.45 kg",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 115,
@@ -80,11 +82,18 @@
     },
     {
       "ingredient_id": 2436,
-      "name": "chopped fresh herbs",
-      "quantity": "2 tbsp"
+      "name": "fresh herbs",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the Comté cheese. Slice the roast turkey breast. Pick the herb leaves from the stems and chop them.",
+      "secondary_message": "227 g Comté cheese\n0.45 kg roast turkey breast\n2 tbsp fresh herbs"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to 13 cm below broiler element and preheat broiler to low. Preheat a four-well Belgian waffle iron according to manufacturer's instructions. Spray with non-stick cooking spray and add 1 cup of stuffing to each well. Close waffle iron and cook, turning occasionally, until cooked through and crisp, 10 to 12 minutes. Set waffles aside.",

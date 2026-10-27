@@ -43,9 +43,17 @@
       "quantity": "4 fl oz"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 ½ fl oz"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 ½ fl oz",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 103,
@@ -69,6 +77,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the limes.",
+      "secondary_message": "1 ½ limes"
+    },
     {
       "id": 1,
       "primary_message": "Add grapefruit juice, lime juice, honey, mezcal, and salt to a resealable container. Shake or stir to mix; make sure all honey is dissolved. Place in freezer for at least 4 and up to 10 hours.",

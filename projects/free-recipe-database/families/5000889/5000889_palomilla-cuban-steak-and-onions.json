@@ -54,9 +54,17 @@
       "quantity": "1 tsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice, from 2 limes divided",
-      "quantity": "1 tsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tsp",
+          "name": "fresh lime juice, from 2 limes divided"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 24,
@@ -89,8 +97,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Grate or finely mince the garlic cloves.",
-      "secondary_message": "6 medium garlic cloves"
+      "primary_message": "Juice the lime. Grate or finely mince the garlic cloves.",
+      "secondary_message": "½ lime\n6 medium garlic cloves"
     },
     {
       "id": 1,

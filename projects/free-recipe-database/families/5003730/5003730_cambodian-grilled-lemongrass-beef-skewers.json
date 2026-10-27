@@ -49,8 +49,9 @@
   "ingredients": [
     {
       "ingredient_id": 1816,
-      "name": "minced fresh lemongrass from tender inner core of 2-4 stalks",
-      "quantity": "4 tbsp"
+      "name": "fresh lemongrass from tender inner core of 2-4 stalks",
+      "quantity": "4 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1747,
@@ -74,8 +75,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "diced fresh peeled ginger",
-      "quantity": "2 tsp"
+      "name": "fresh peeled ginger",
+      "quantity": "2 tsp",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
@@ -89,9 +91,17 @@
       "quantity": "1 ½ tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 ½ tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 ½ tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -129,8 +139,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Crush the garlic cloves. Slice the beef sirloin into 1/8-inch thick strips.",
-      "secondary_message": "8 medium garlic cloves\n1 lb beef sirloin"
+      "primary_message": "Mince the lemongrass from tender inner core of 2-4 stalks. Dice the peeled ginger. Crush the garlic cloves. Juice the lemon. Slice the beef sirloin into 1/8-inch thick strips.",
+      "secondary_message": "4 tbsp fresh lemongrass from tender inner core of 2-4 stalks\n2 tsp fresh peeled ginger\n8 medium garlic cloves\n½ lemon\n1 lb beef sirloin"
     },
     {
       "id": 1,

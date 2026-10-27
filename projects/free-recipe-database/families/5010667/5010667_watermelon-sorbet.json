@@ -47,9 +47,17 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "5 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "5 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -63,6 +71,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "Working in batches if necessary, combine watermelon and sugar in work bowl of a food processor and process until smooth, about 1 minute. Pour purée through a strainer into an airtight container; you should have 1 quart of strained purée. Stir in and lemon juice to taste, 1 teaspoon at a time (see note). Stir in alcohol, then salt to taste, just enough to bring out natural flavor of the watermelon, and transfer to refrigerator to chill until very cold, 2 to 3 hours.",

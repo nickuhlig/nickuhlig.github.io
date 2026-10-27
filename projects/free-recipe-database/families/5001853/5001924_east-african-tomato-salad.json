@@ -62,16 +62,31 @@
     },
     {
       "ingredient_id": 188,
-      "name": "roughly chopped fresh cilantro leaves, tender stems",
-      "quantity": "½ cup"
+      "name": "fresh cilantro leaves, tender stems",
+      "quantity": "½ cup",
+      "prep": "roughly chopped"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice, plus more to taste",
-      "quantity": "2 tbsp"
+      "ingredient_id": 228,
+      "name": "lime, plus more to taste",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tbsp",
+          "name": "fresh lime juice, plus more to taste"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the cilantro leaves and tender stems from the thick stems and roughly chop them. Juice the lime.",
+      "secondary_message": "½ cup fresh cilantro leaves, tender stems\n1 lime, plus more to taste"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, cover onion with hot water (110 to 130℉) and let sit for 1 minute. Drain with a colander, then briefly rinse under hot water, and transfer to a small bowl; set aside.",

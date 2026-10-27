@@ -49,8 +49,9 @@
   "ingredients": [
     {
       "ingredient_id": 242,
-      "name": "sliced fresh strawberries from approximately 5 medium berries",
-      "quantity": "71 g"
+      "name": "fresh strawberries from approximately 5 medium berries",
+      "quantity": "71 g",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 1953,
@@ -58,9 +59,17 @@
       "quantity": "14 g"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "14 g"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "14 g",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 243,
@@ -79,6 +88,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the strawberries from approximately 5 medium berries. Juice the lime.",
+      "secondary_message": "71 g fresh strawberries from approximately 5 medium berries\n½ lime"
+    },
     {
       "id": 1,
       "primary_message": "In a cocktail shaker, combine strawberries, simple syrup, and lime juice and muddle until strawberries are completely dissolved. Add mint leaves and gently tap 5 times with muddler. (Do not over-muddle mint or it will taste bitter and muddy.) Add vodka to shaker and fill 2/3 full with ice. Shake until well chilled, about 15 seconds.",

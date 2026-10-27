@@ -69,8 +69,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "Softened unsalted butter, for greasing the ramekins",
-      "quantity": ""
+      "name": "Unsalted butter, for greasing the ramekins",
+      "quantity": "",
+      "prep": "softened"
     },
     {
       "ingredient_id": 346,
@@ -129,8 +130,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Chop the 68-71% dark chocolate. Chop the unsweetened chocolate.",
-      "secondary_message": "50 g 68-71% dark chocolate\n50 g unsweetened chocolate"
+      "primary_message": "Soften the unsalted butter. Chop the 68-71% dark chocolate. Chop the unsweetened chocolate.",
+      "secondary_message": "Unsalted butter, for greasing the ramekins\n50 g 68-71% dark chocolate\n50 g unsweetened chocolate"
     },
     {
       "id": 1,
@@ -164,50 +165,52 @@
     }
   ],
   "nutrition": {
-    "energy": 169.47,
-    "ash": 1.02,
+    "energy": 182.2,
+    "ash": 1.03,
     "caffeine": 24.55,
-    "water": 18.13,
+    "water": 18.41,
     "carbs": 21.32,
     "fiber": 3.82,
     "sugars": 15.14,
-    "fat": 9.67,
-    "monounsaturated": 2.8,
-    "polyunsaturated": 0.34,
+    "fat": 11.11,
+    "monounsaturated": 3.22,
+    "polyunsaturated": 0.39,
     "omega_3": 0.03,
-    "omega_6": 0.27,
-    "saturated": 5.91,
-    "cholesterol": 10.51,
-    "protein": 2.73,
+    "omega_6": 0.3,
+    "saturated": 6.8,
+    "cholesterol": 14.33,
+    "protein": 2.75,
     "b1_thiamine": 0.02,
     "b2_riboflavin": 0.04,
     "b3_niacin": 0.28,
     "b5_pantothenic_acid": 0.09,
     "b6_pyridoxine": 0.01,
     "b12_cobalamin": 0.03,
-    "vitamin_a": 36.61,
-    "vitamin_e": 0.15,
-    "vitamin_k": 1.49,
-    "calcium": 24.51,
+    "vitamin_a": 48.75,
+    "vitamin_e": 0.19,
+    "vitamin_k": 1.61,
+    "calcium": 24.93,
     "copper": 0.52,
     "iron": 2.35,
-    "magnesium": 62.93,
+    "magnesium": 62.97,
     "manganese": 0.58,
-    "phosphorus": 91.6,
-    "potassium": 190.57,
-    "selenium": 2.25,
-    "sodium": 108.21,
+    "phosphorus": 92.03,
+    "potassium": 190.99,
+    "selenium": 2.27,
+    "sodium": 108.41,
     "zinc": 1.21
   },
   "nutrition_meta": {
     "source": "calculated",
-    "date": "2026-10-25",
+    "date": "2026-10-26",
     "lines": 11,
-    "counted": 8,
+    "counted": 9,
     "partial": false,
     "not_counted": [
-      "Softened unsalted butter, for greasing the ramekins",
       "Granulated sugar, for coating ramekins"
+    ],
+    "assumed": [
+      "Unsalted butter, for greasing the ramekins, softened"
     ],
     "estimated_share": 0.0,
     "omitted_fields": [

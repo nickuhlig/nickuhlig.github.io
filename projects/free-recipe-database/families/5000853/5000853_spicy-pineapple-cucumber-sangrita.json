@@ -50,9 +50,17 @@
       "quantity": "1 fl oz"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "¾ fl oz"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "¾ fl oz",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2217,
@@ -76,6 +84,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "1 lime"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, combine pineapple juice, lime juice, cucumber juice, sugar, and chile powder. Stir until sugar is completely dissolved. Season very lightly with salt. Taste and adjust ingredients as desired. Chill in the refrigerator or by stirring with ice briefly and then straining. Serve in a shot glass alongside a good-quality silver tequila.",

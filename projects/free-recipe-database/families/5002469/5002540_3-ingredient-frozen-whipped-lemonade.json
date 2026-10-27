@@ -39,13 +39,22 @@
   "ingredients": [
     {
       "ingredient_id": 2346,
-      "name": "grated lemon zest",
-      "quantity": "1 tbsp"
+      "name": "lemon zest",
+      "quantity": "1 tbsp",
+      "prep": "grated"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, plus additional zest for serving",
-      "quantity": "¾ cup"
+      "ingredient_id": 192,
+      "name": "lemons, plus additional zest for serving",
+      "quantity": "4",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¾ cup",
+          "name": "fresh lemon juice, plus additional zest for serving"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 346,
@@ -64,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the zest from the lemon. Zest and juice the lemons.",
+      "secondary_message": "1 tbsp lemon zest\n4 lemons, plus additional zest for serving"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, combine lemon zest and sugar. Using fingers, rub together until sugar feels damp and mixture is fragrant, about 1 minute. Let stand for 20 minutes, rubbing sugar mixture together every few minutes until very fragrant.",

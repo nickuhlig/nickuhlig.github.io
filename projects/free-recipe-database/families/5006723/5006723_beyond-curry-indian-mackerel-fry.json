@@ -60,9 +60,17 @@
       "quantity": "1 tsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -79,8 +87,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Clean and gut the mackerels.",
-      "secondary_message": "2 medium mackerels"
+      "primary_message": "Clean and gut the mackerels. Juice the lime.",
+      "secondary_message": "2 medium mackerels\n½ lime"
     },
     {
       "id": 1,

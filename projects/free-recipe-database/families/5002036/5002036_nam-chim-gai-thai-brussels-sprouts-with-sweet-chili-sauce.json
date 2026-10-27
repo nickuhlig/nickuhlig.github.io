@@ -45,9 +45,9 @@
     },
     {
       "ingredient_id": 2697,
-      "name": "diced pancetta",
+      "name": "pancetta",
       "quantity": "4 oz",
-      "prep": "cut into 1/4-inch strips"
+      "prep": "diced, cut into 1/4-inch strips"
     },
     {
       "ingredient_id": 1682,
@@ -90,17 +90,25 @@
       "quantity": "2 tsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice, from 1 lime",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice, from 1 lime"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Trim the stems of the Brussels sprouts, then cut them in half lengthwise. Cut the diced pancetta into 1/4-inch strips.",
-      "secondary_message": "2 lb Brussels sprouts\n4 oz diced pancetta"
+      "primary_message": "Trim the stems of the Brussels sprouts, then cut them in half lengthwise. Dice and cut the pancetta into 1/4-inch strips. Juice the lime.",
+      "secondary_message": "2 lb Brussels sprouts\n4 oz pancetta\n½ lime"
     },
     {
       "id": 1,

@@ -48,8 +48,9 @@
     },
     {
       "ingredient_id": 29,
-      "name": "chopped almonds",
-      "quantity": "¼ cup"
+      "name": "almonds",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1366,
@@ -78,6 +79,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the almonds.",
+      "secondary_message": "¼ cup almonds"
+    },
     {
       "id": 1,
       "primary_message": "Spray 9- by 33-cm baking dish with cooking spray. Set aside. In large bowl, toss together oats, crispy rice cereal, almonds, chocolate chips, and salt.",

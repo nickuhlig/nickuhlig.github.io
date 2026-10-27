@@ -56,14 +56,23 @@
       "quantity": "5 ¾ oz"
     },
     {
-      "ingredient_id": 2346,
-      "name": "freshly grated lemon zest, from 1 whole lemon",
-      "quantity": "1 ½ tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 ½ tsp",
+          "name": "freshly grated lemon zest, from 1 whole lemon"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 349,
-      "name": "freshly grated nutmeg",
-      "quantity": "1 tsp"
+      "name": "nutmeg",
+      "quantity": "1 tsp",
+      "prep": "freshly grated"
     },
     {
       "ingredient_id": 88,
@@ -111,8 +120,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the unsalted butter into small cubes and keep it cold until you use it.",
-      "secondary_message": "5 oz unsalted butter"
+      "primary_message": "Zest the lemon. Freshly grate the nutmeg. Cut the unsalted butter into small cubes and keep it cold until you use it.",
+      "secondary_message": "1 lemon\n1 tsp nutmeg\n5 oz unsalted butter"
     },
     {
       "id": 1,

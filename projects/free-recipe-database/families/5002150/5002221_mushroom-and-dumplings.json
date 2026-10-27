@@ -69,8 +69,9 @@
     },
     {
       "ingredient_id": 287,
-      "name": "minced fresh thyme",
-      "quantity": "1 tsp"
+      "name": "fresh thyme",
+      "quantity": "1 tsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 116,
@@ -103,9 +104,17 @@
       "quantity": "⅓ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, plus more to taste",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon, plus more to taste",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "fresh lemon juice, plus more to taste"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 116,
@@ -129,8 +138,9 @@
     },
     {
       "ingredient_id": 106,
-      "name": "finely chopped flat-leaf parsley",
-      "quantity": "3 tbsp"
+      "name": "flat-leaf parsley",
+      "quantity": "3 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2475,
@@ -153,8 +163,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely chop the leeks. Finely chop the celery. Mince the garlic. Melt the unsalted butter and let it cool slightly.",
-      "secondary_message": "2 medium leeks, light green parts only\n3 medium ribs celery\n2 medium cloves garlic\n3 tbsp unsalted butter"
+      "primary_message": "Finely chop the leeks. Finely chop the celery. Mince the garlic. Pick the thyme leaves from the stems and mince them. Juice the lemon. Pick the parsley leaves from the stems and finely chop them. Melt the unsalted butter and let it cool slightly.",
+      "secondary_message": "2 medium leeks, light green parts only\n3 medium ribs celery\n2 medium cloves garlic\n1 tsp fresh thyme\n½ lemon, plus more to taste\n3 tbsp flat-leaf parsley\n3 tbsp unsalted butter"
     },
     {
       "id": 1,

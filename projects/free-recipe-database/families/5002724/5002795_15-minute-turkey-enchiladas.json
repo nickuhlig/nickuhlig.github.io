@@ -44,8 +44,9 @@
     },
     {
       "ingredient_id": 1740,
-      "name": "picked roast turkey meat, per tortilla",
-      "quantity": "43 g"
+      "name": "roast turkey meat, per tortilla",
+      "quantity": "43 g",
+      "prep": "picked"
     },
     {
       "ingredient_id": 1044,
@@ -69,6 +70,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the leaves of the roast turkey meat from the stems.",
+      "secondary_message": "43 g roast turkey meat, per tortilla"
+    },
     {
       "id": 1,
       "primary_message": "Place a single tortilla on a cutting board. Add 43 g of turkey meat. Roll tightly into a cigar shape and rest on seam side. Repeat with remaining tortillas and turkey.",

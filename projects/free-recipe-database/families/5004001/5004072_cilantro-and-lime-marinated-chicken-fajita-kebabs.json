@@ -48,13 +48,22 @@
   "ingredients": [
     {
       "ingredient_id": 188,
-      "name": "packed coarsely chopped cilantro leaves, tender stems",
-      "quantity": "½ cup"
+      "name": "packed cilantro leaves, tender stems",
+      "quantity": "½ cup",
+      "prep": "coarsely chopped"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice, from about 6 limes",
-      "quantity": "⅓ cup"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "3",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "⅓ cup",
+          "name": "lime juice, from about 6 limes"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -113,8 +122,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Peel the garlic. Cut the skinless boneless chicken thighs into 1 1/2-inch cubes.",
-      "secondary_message": "4 medium cloves garlic\n0.91 kg skinless boneless chicken thighs"
+      "primary_message": "Pick the cilantro leaves and tender stems from the thick stems and coarsely chop them. Juice the limes. Peel the garlic. Cut the skinless boneless chicken thighs into 1 1/2-inch cubes.",
+      "secondary_message": "½ cup packed cilantro leaves, tender stems\n3 limes\n4 medium cloves garlic\n0.91 kg skinless boneless chicken thighs"
     },
     {
       "id": 1,

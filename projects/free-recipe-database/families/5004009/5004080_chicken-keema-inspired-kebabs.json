@@ -47,13 +47,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "finely grated onion",
-      "quantity": "2 tbsp"
+      "name": "onion",
+      "quantity": "2 tbsp",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 188,
-      "name": "chopped fresh cilantro",
-      "quantity": "2 tbsp"
+      "name": "fresh cilantro",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1191,
@@ -62,13 +64,15 @@
     },
     {
       "ingredient_id": 1762,
-      "name": "finely diced thai green chiles",
-      "quantity": "2 tsp"
+      "name": "thai green chiles",
+      "quantity": "2 tsp",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 221,
-      "name": "finely grated ginger",
-      "quantity": "1 ½ tsp"
+      "name": "ginger",
+      "quantity": "1 ½ tsp",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 90,
@@ -87,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely grate the onion. Pick the cilantro leaves from the stems and chop them. Finely dice the thai green chiles. Finely grate the ginger.",
+      "secondary_message": "2 tbsp onion\n2 tbsp fresh cilantro\n2 tsp thai green chiles\n1 ½ tsp ginger"
+    },
     {
       "id": 1,
       "primary_message": "Place cumin and coriander seeds in a cast iron skillet over medium heat and toast until fragrant, about 2 minutes. Transfer to a spice grinder and grind into a fine powder.",

@@ -48,14 +48,23 @@
       "quantity": "⅓ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 72,
-      "name": "Freshly grated black pepper",
-      "quantity": ""
+      "name": "Black pepper",
+      "quantity": "",
+      "prep": "freshly grated"
     },
     {
       "ingredient_id": 88,
@@ -64,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon. Freshly grate the Black pepper.",
+      "secondary_message": "½ lemon\nBlack pepper"
+    },
     {
       "id": 1,
       "primary_message": "Bring a pot of water to a boil; add salt. Cook the pasta or tortellini according to package instructions, then drain.",

@@ -126,9 +126,17 @@
       "quantity": "1 tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 448,
@@ -137,16 +145,17 @@
     },
     {
       "ingredient_id": 153,
-      "name": "chopped scallions",
-      "quantity": "1 tbsp"
+      "name": "scallions",
+      "quantity": "1 tbsp",
+      "prep": "chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the onion. Melt the unsalted butter.",
-      "secondary_message": "1 small onion\n1 tbsp (½ oz) unsalted butter"
+      "primary_message": "Mince the onion. Melt the unsalted butter. Juice the lemon. Chop the scallions.",
+      "secondary_message": "1 small onion\n1 tbsp (½ oz) unsalted butter\n½ lemon\n1 tbsp scallions"
     },
     {
       "id": 1,

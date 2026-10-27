@@ -57,13 +57,22 @@
   "ingredients": [
     {
       "ingredient_id": 2346,
-      "name": "packed grated lemon zest",
-      "quantity": "2 tbsp"
+      "name": "packed lemon zest",
+      "quantity": "2 tbsp",
+      "prep": "grated"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, divided",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon, divided",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice, divided"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 346,
@@ -114,9 +123,17 @@
       "quantity": "1 ¾ oz"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "¼ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¼ cup",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1710,
@@ -125,17 +142,25 @@
       "prep": "sifted"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Bring the eggs to room temperature. Soften the unsalted butter plus extra for greasing pan. Bring the whole milk to room temperature. Sift the confectioners' sugar.",
-      "secondary_message": "4 large eggs\n8 oz unsalted butter\n2 tbsp whole milk\n2 oz confectioners' sugar"
+      "primary_message": "Grate the zest from the lemon. Juice the lemon. Bring the eggs to room temperature. Soften the unsalted butter plus extra for greasing pan. Bring the whole milk to room temperature. Juice the lemons. Sift the confectioners' sugar. Juice the lemon.",
+      "secondary_message": "2 tbsp packed lemon zest\n½ lemon, divided\n4 large eggs\n8 oz unsalted butter\n2 tbsp whole milk\n1 ½ lemons\n2 oz confectioners' sugar\n½ lemon"
     },
     {
       "id": 1,

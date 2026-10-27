@@ -53,9 +53,17 @@
       "quantity": "30 ml"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "22 to 30 ml"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "22 to 30 ml",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1067,
@@ -73,8 +81,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Keep the white rum in freezer until freezer-cold.",
-      "secondary_message": "75 ml white rum"
+      "primary_message": "Juice the lime. Keep the white rum in freezer until freezer-cold.",
+      "secondary_message": "1 lime\n75 ml white rum"
     },
     {
       "id": 1,

@@ -45,9 +45,17 @@
       "quantity": "21 g"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "21 g"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "21 g",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2409,
@@ -56,6 +64,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "Fill a cocktail shaker with ice. Add bourbon, curacao, lemon juice, and Lillet Blanc. Shake until well chilled, about 15 seconds.",

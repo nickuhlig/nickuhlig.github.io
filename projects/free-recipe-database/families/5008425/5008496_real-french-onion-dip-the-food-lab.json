@@ -79,9 +79,17 @@
       "quantity": "½ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 136,
@@ -90,21 +98,23 @@
     },
     {
       "ingredient_id": 120,
-      "name": "finely grated Parmesan cheese",
-      "quantity": "15 g"
+      "name": "Parmesan cheese",
+      "quantity": "15 g",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 270,
-      "name": "finely sliced chives",
-      "quantity": "1 tbsp"
+      "name": "chives",
+      "quantity": "1 tbsp",
+      "prep": "finely sliced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely dice the yellow onions.",
-      "secondary_message": "3 large yellow onions"
+      "primary_message": "Finely dice the yellow onions. Juice the lemon. Finely grate the Parmesan cheese. Finely slice the chives.",
+      "secondary_message": "3 large yellow onions\n½ lemon\n15 g Parmesan cheese\n1 tbsp chives"
     },
     {
       "id": 1,

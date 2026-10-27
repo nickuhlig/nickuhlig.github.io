@@ -106,9 +106,17 @@
       "quantity": "5 tbsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2978,
@@ -122,16 +130,17 @@
     },
     {
       "ingredient_id": 1004,
-      "name": "finely shredded green cabbage",
-      "quantity": "1 cup"
+      "name": "green cabbage",
+      "quantity": "1 cup",
+      "prep": "finely shredded"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Shell and devein the shrimp. Mince the garlic. Thinly slice the hot red chile. Thinly slice the scallions.",
-      "secondary_message": "24 large shrimp\n2 medium cloves garlic, divided\n1 small hot red chile, such as Thai bird\n2 scallions"
+      "primary_message": "Shell and devein the shrimp. Mince the garlic. Thinly slice the hot red chile. Thinly slice the scallions. Juice the lime. Finely shred the green cabbage.",
+      "secondary_message": "24 large shrimp\n2 medium cloves garlic, divided\n1 small hot red chile, such as Thai bird\n2 scallions\n½ lime\n1 cup green cabbage"
     },
     {
       "id": 1,

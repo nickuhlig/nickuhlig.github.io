@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 1773,
-      "name": "finely shredded iceberg lettuce",
-      "quantity": "1 cup"
+      "name": "iceberg lettuce",
+      "quantity": "1 cup",
+      "prep": "finely shredded"
     },
     {
       "ingredient_id": 260,
@@ -81,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely shred the iceberg lettuce.",
+      "secondary_message": "1 cup iceberg lettuce"
+    },
     {
       "id": 1,
       "primary_message": "Place a griddle or skillet over medium-low heat. Add bacon and place a bacon press, skillet, or masonry trowel on top of it to keep it flat as it cooks. Cook until lightly browned on first side, about 5 minutes, then flip, cover again, and continue cooking until bacon is browned on both sides and fat has rendered, about 3 minutes longer. Transfer bacon to a paper towel–lined plate and set aside.",

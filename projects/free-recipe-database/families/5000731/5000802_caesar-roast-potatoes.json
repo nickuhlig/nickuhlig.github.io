@@ -80,9 +80,17 @@
       "quantity": "½ tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 72,
@@ -96,21 +104,23 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "minced fresh parsley leaves",
-      "quantity": "2 tbsp"
+      "name": "fresh parsley leaves",
+      "quantity": "2 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 120,
-      "name": "grated Parmigiano-Reggiano cheese, plus extra for serving",
-      "quantity": "½ cup (1 oz)"
+      "name": "Parmesan cheese, plus extra for serving",
+      "quantity": "½ cup (1 oz)",
+      "prep": "grated"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Peel and cut the russet Gold potatoes into 2- to 3-inch chunks. Mince the anchovy fillets packed in oil. Mince the garlic.",
-      "secondary_message": "9 medium russet Gold potatoes\n4 to 6 anchovy fillets packed in oil\n3 medium cloves garlic"
+      "primary_message": "Peel and cut the russet Gold potatoes into 2- to 3-inch chunks. Mince the anchovy fillets packed in oil. Mince the garlic. Juice the lemon. Pick the parsley leaves from the stems and mince them. Grate the Parmesan cheese.",
+      "secondary_message": "9 medium russet Gold potatoes\n4 to 6 anchovy fillets packed in oil\n3 medium cloves garlic\n½ lemon\n2 tbsp fresh parsley leaves\n½ cup (1 oz) Parmesan cheese, plus extra for serving"
     },
     {
       "id": 1,

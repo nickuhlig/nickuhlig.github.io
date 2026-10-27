@@ -54,9 +54,17 @@
       "quantity": "1 ½ oz"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice",
-      "quantity": "¾ oz"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "¾ oz",
+          "name": "fresh lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 3344,
@@ -70,6 +78,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "1 lime"
+    },
     {
       "id": 1,
       "primary_message": "Fill a cocktail shaker with ice. Add rum, lime juice, passion fruit syrup, and Fernet Branca. Shake 15 seconds. Strain into a cocktail glass. Garnish with mint leaf.",

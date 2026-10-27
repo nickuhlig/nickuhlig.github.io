@@ -71,11 +71,18 @@
     },
     {
       "ingredient_id": 29,
-      "name": "chopped almonds",
-      "quantity": "½ cup"
+      "name": "almonds",
+      "quantity": "½ cup",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the almonds.",
+      "secondary_message": "½ cup almonds"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 175°C (350°F). Line a baking sheet with parchment paper. In a small bowl, whisk together flour, baking powder, and salt; set aside.",

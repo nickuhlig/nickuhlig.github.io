@@ -51,13 +51,15 @@
     },
     {
       "ingredient_id": 2016,
-      "name": "diced low-moisture mozzarella",
-      "quantity": "2 cups"
+      "name": "low-moisture mozzarella",
+      "quantity": "2 cups",
+      "prep": "diced"
     },
     {
       "ingredient_id": 107,
-      "name": "diced fresh mozzarella, divided",
-      "quantity": "2 cups"
+      "name": "fresh mozzarella, divided",
+      "quantity": "2 cups",
+      "prep": "diced"
     },
     {
       "ingredient_id": 88,
@@ -76,11 +78,18 @@
     },
     {
       "ingredient_id": 120,
-      "name": "grated Parmigiano-Reggiano cheese",
-      "quantity": "2 oz"
+      "name": "Parmesan cheese",
+      "quantity": "2 oz",
+      "prep": "grated"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the low-moisture mozzarella. Dice the mozzarella. Grate the Parmesan cheese.",
+      "secondary_message": "2 cups low-moisture mozzarella\n2 cups fresh mozzarella, divided\n2 oz Parmesan cheese"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 400°F and position rack in center. Boil pasta in a medium pot of salted boiling water until about halfway cooked (about 6 1/2 minutes for pasta that will be al dente in 9 minutes). Reserve 1/2 cup pasta-cooking water, then drain pasta.",

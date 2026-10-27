@@ -57,13 +57,22 @@
     },
     {
       "ingredient_id": 2346,
-      "name": "grated lemon zest",
-      "quantity": "1 tsp"
+      "name": "lemon zest",
+      "quantity": "1 tsp",
+      "prep": "grated"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -122,8 +131,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Hull and halve the fresh strawberries. Cut the cold unsalted butter into small pieces. Cut the cold vegetable shortening into small pieces.",
-      "secondary_message": "0.91 kg fresh strawberries\n3 tbsp cold unsalted butter\n2 tbsp cold vegetable shortening"
+      "primary_message": "Hull and halve the fresh strawberries. Grate the zest from the lemon. Juice the lemon. Cut the cold unsalted butter into small pieces. Cut the cold vegetable shortening into small pieces.",
+      "secondary_message": "0.91 kg fresh strawberries\n1 tsp lemon zest\n½ lemon\n3 tbsp cold unsalted butter\n2 tbsp cold vegetable shortening"
     },
     {
       "id": 1,

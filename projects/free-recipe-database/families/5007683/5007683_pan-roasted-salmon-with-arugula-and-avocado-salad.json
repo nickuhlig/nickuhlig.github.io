@@ -65,9 +65,17 @@
       "quantity": "4 cups"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 183,
@@ -80,8 +88,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Pit and cut the ripe Hass avocado into 1/2-inch cubes.",
-      "secondary_message": "1 ripe Hass avocado"
+      "primary_message": "Juice the lemon. Pit and cut the ripe Hass avocado into 1/2-inch cubes.",
+      "secondary_message": "1 lemon\n1 ripe Hass avocado"
     },
     {
       "id": 1,

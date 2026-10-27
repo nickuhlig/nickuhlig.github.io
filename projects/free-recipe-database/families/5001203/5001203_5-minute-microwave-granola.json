@@ -52,8 +52,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "melted unsalted butter",
-      "quantity": "1 tbsp"
+      "name": "unsalted butter",
+      "quantity": "1 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 353,
@@ -72,8 +73,9 @@
     },
     {
       "ingredient_id": 1947,
-      "name": "chopped raw nuts seeds",
-      "quantity": "2 tbsp"
+      "name": "raw nuts seeds",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 214,
@@ -82,6 +84,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Chop the raw nuts seeds.",
+      "secondary_message": "1 tbsp unsalted butter\n2 tbsp raw nuts seeds"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, use a fork or small whisk to combine maple syrup, melted butter or oil, vanilla extract, salt, and cinnamon, if using. Add oats and nuts and toss to evenly coat. Transfer to a microwave-safe small plate and, using a spatula or back of a soup spoon, gently press mixture into a flat, even layer. Microwave on high power, stirring every 30 seconds, until oats are golden and fragrant, 2 to 3 minutes.",

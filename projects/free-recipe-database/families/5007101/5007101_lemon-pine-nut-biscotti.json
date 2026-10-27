@@ -92,14 +92,22 @@
       "quantity": "½ tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from about 1/2 lemon",
-      "quantity": "1 tbsp"
-    },
-    {
-      "ingredient_id": 2346,
-      "name": "packed lemon zest, from about 1 large lemon",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice, from about 1/2 lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "2 tsp",
+          "name": "packed lemon zest, from about 1 large lemon"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 216,
@@ -108,6 +116,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest and juice the lemon.",
+      "secondary_message": "1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350°F. Line a baking sheet with parchment paper. In a medium bowl, combine flour, baking powder, and salt; set aside.",

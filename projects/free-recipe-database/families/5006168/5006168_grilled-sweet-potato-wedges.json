@@ -82,11 +82,18 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "chopped fresh parsley leaves",
-      "quantity": "1 tbsp"
+      "name": "fresh parsley leaves",
+      "quantity": "1 tbsp",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the parsley leaves from the stems and chop them.",
+      "secondary_message": "1 tbsp fresh parsley leaves"
+    },
     {
       "id": 1,
       "primary_message": "To Make the Seasoning: Mix together paprika, cumin, chile powder, and cayenne pepper in a small bowl, set aside.",

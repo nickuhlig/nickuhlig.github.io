@@ -72,8 +72,9 @@
     },
     {
       "ingredient_id": 349,
-      "name": "freshly grated nutmeg",
-      "quantity": "1 pinch"
+      "name": "nutmeg",
+      "quantity": "1 pinch",
+      "prep": "freshly grated"
     },
     {
       "ingredient_id": 121,
@@ -92,11 +93,17 @@
     },
     {
       "ingredient_id": 120,
-      "name": "Parmigiano-Reggiano cheese",
+      "name": "Parmesan cheese",
       "quantity": "3 oz"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Freshly grate the nutmeg.",
+      "secondary_message": "1 pinch nutmeg"
+    },
     {
       "id": 1,
       "primary_message": "In a small saucepan, melt butter over medium-high heat (do not allow it to brown). Add flour and whisk to form a paste. Continue to cook, stirring, until raw flour scent is gone, about 1 minute. Whisking constantly, add milk in a thin, steady stream, or in increments of a couple of tablespoons at a time, whisking thoroughly and getting into all corners of the pan to maintain a homogeneous texture. Sauce will initially become very thick, then get very thin once all the milk is added.",

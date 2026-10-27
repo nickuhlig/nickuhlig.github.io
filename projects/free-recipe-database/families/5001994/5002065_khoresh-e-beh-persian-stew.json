@@ -84,9 +84,17 @@
       "quantity": "3 tbsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "fresh lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 346,
@@ -108,8 +116,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the boneless leg of lamb into 1 to 1 1/2-inch cubes. Chop the yellow onion.",
-      "secondary_message": "0.45 kg boneless leg of lamb\n1 small yellow onion"
+      "primary_message": "Cut the boneless leg of lamb into 1 to 1 1/2-inch cubes. Chop the yellow onion. Juice the lime.",
+      "secondary_message": "0.45 kg boneless leg of lamb\n1 small yellow onion\n½ lime"
     },
     {
       "id": 1,

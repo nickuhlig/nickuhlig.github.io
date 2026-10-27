@@ -39,9 +39,17 @@
       "quantity": "2 fl oz"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "½ fl oz"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "½ fl oz",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 103,
@@ -60,6 +68,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "½ lime"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, combine grapefruit juice, lime juice, honey, and chipotle chile powder and stir until honey is thoroughly combined. Season very lightly with salt, then taste and adjust any ingredients as desired. Chill in the refrigerator or by stirring with ice briefly and then straining. Serve in a shot glass alongside a good-quality silver tequila.",

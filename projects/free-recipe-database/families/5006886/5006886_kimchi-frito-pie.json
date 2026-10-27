@@ -89,8 +89,9 @@
     },
     {
       "ingredient_id": 1214,
-      "name": "roughly chopped kimchi",
-      "quantity": "2 cups"
+      "name": "kimchi",
+      "quantity": "2 cups",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1015,
@@ -99,6 +100,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the kimchi.",
+      "secondary_message": "2 cups kimchi"
+    },
     {
       "id": 1,
       "primary_message": "Heat both of the oils in a large wok over high heat until shimmering. Add the ginger, garlic, and the white parts of the onions and stir-fry just until the garlic begins to brown, 30 seconds to 1 minute.",

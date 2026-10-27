@@ -67,9 +67,17 @@
       "quantity": ""
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2610,
@@ -93,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "½ lime"
+    },
     {
       "id": 1,
       "primary_message": "Place peppercorns, curry leaves, fennel seeds, cumin seeds and coconut in a cast iron skillet and toast on low heat, stirring frequently, until fragrant, about 1 minute. Allow mixture to cool. Add turmeric and grind in a mortar and pestle or spice grinder.",

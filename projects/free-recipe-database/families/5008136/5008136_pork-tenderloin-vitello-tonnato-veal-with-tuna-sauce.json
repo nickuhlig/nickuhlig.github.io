@@ -81,9 +81,17 @@
       "quantity": "1 large"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, divided",
-      "quantity": "¼ cup"
+      "ingredient_id": 192,
+      "name": "lemons, divided",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¼ cup",
+          "name": "lemon juice, divided"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 117,
@@ -92,8 +100,9 @@
     },
     {
       "ingredient_id": 15,
-      "name": "drained capers",
-      "quantity": "1 tsp"
+      "name": "capers",
+      "quantity": "1 tsp",
+      "prep": "drained"
     },
     {
       "ingredient_id": 325,
@@ -111,8 +120,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Drain the tuna in olive oil.",
-      "secondary_message": "1 (5 oz) can tuna in olive oil"
+      "primary_message": "Juice the lemons. Drain the capers. Drain the tuna in olive oil.",
+      "secondary_message": "1 ½ lemons, divided\n1 tsp capers\n1 (5 oz) can tuna in olive oil"
     },
     {
       "id": 1,

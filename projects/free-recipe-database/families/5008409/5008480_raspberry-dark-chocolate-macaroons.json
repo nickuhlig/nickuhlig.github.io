@@ -75,8 +75,9 @@
     },
     {
       "ingredient_id": 29,
-      "name": "sliced almonds",
-      "quantity": "½ cup"
+      "name": "almonds",
+      "quantity": "½ cup",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 1729,
@@ -85,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the almonds.",
+      "secondary_message": "½ cup almonds"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven racks to middle and upper positions and preheat oven to 165°C (325°F). Line two baking sheets with parchment paper.",

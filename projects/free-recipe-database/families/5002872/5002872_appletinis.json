@@ -83,9 +83,17 @@
       "quantity": "1 ½ oz"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice",
-      "quantity": "1 ½ oz"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 ½ oz",
+          "name": "freshly squeezed lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1953,
@@ -99,6 +107,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "Make Cinnamon Simple Syrup: Place water and sugar in a small saucepan over medium heat. Stir frequently. When sugar has dissolved, add cinnamon stick and ground cinnamon. Bring to a boil, stirring, then reduce heat to a low simmer and let cook for 5 minutes. Pour through a fine-mesh strainer and let cool.",

@@ -87,14 +87,22 @@
       "quantity": "½ cup"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from about 3 lemons",
-      "quantity": "3 tbsp"
-    },
-    {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from about 3 lemons",
-      "quantity": "5 tbsp"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "3",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "5 tbsp",
+          "name": "lemon juice, from about 3 lemons"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "3 tbsp",
+          "name": "lemon zest, from about 3 lemons"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 353,
@@ -111,8 +119,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Separate the eggs.",
-      "secondary_message": "8 large eggs"
+      "primary_message": "Separate the eggs. Zest and juice the lemons.",
+      "secondary_message": "8 large eggs\n3 lemons"
     },
     {
       "id": 1,

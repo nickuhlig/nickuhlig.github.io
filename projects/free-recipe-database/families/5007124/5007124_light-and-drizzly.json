@@ -98,9 +98,17 @@
       "quantity": "½ oz"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 oz"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 oz",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2266,
@@ -113,8 +121,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Peel the fresh ginger. Keep the Seltzer cold until you use it.",
-      "secondary_message": "15 ¾ oz fresh ginger\nSeltzer"
+      "primary_message": "Peel the fresh ginger. Juice the lime. Keep the Seltzer cold until you use it.",
+      "secondary_message": "15 ¾ oz fresh ginger\n1 lime\nSeltzer"
     },
     {
       "id": 1,

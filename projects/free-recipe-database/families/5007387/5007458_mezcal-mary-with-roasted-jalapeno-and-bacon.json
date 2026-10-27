@@ -75,9 +75,17 @@
       "quantity": "1 ½ cups"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "¾ cup"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "6",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "¾ cup",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 3213,
@@ -86,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the limes.",
+      "secondary_message": "6 limes"
+    },
     {
       "id": 1,
       "primary_message": "To Make the Jalapeño Purée: Place jalapeños in an oven-safe dish lined with tinfoil and broil, turning at 5-minute intervals, until all sides are blackened and charred, 10 to 15 minutes. Let cool, then add to the jar of a blender. Blend until smooth.",

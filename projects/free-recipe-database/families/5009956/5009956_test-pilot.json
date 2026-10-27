@@ -36,9 +36,17 @@
   "cookwares": [],
   "ingredients": [
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice",
-      "quantity": "½ oz"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "½ oz",
+          "name": "fresh lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2750,
@@ -77,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "½ lime"
+    },
     {
       "id": 1,
       "primary_message": "Put all ingredients in a blender and blend at high speed for 5 seconds. Pour unstrained into a double old-fashioned glass, adding more crushed ice to fill. Garnish as desired.",

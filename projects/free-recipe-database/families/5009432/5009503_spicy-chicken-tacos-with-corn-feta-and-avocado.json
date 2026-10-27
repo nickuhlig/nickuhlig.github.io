@@ -101,9 +101,17 @@
       "quantity": "½ cup"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 321,
@@ -113,8 +121,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "picked cilantro leaves",
-      "quantity": "½ cup"
+      "name": "cilantro leaves",
+      "quantity": "½ cup",
+      "prep": "picked"
     },
     {
       "ingredient_id": 183,
@@ -127,8 +136,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thinly slice the red onion. Stem, seed, and roughly chop the jalapeño. Slice off the kernels of the corn. Warm the corn tortillas. Pit and slice the ripe avocados.",
-      "secondary_message": "1 red onion\n1 jalapeño\n1 ¼ cups corn\n8 corn tortillas\n2 ripe avocados"
+      "primary_message": "Thinly slice the red onion. Stem, seed, and roughly chop the jalapeño. Slice off the kernels of the corn. Juice the lime. Warm the corn tortillas. Pick the cilantro leaves from the stems. Pit and slice the ripe avocados.",
+      "secondary_message": "1 red onion\n1 jalapeño\n1 ¼ cups corn\n1 lime\n8 corn tortillas\n½ cup cilantro leaves\n2 ripe avocados"
     },
     {
       "id": 1,

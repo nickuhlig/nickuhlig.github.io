@@ -32,9 +32,17 @@
   "cookwares": [],
   "ingredients": [
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "3 tbsp"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "3 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 52,
@@ -85,13 +93,15 @@
     },
     {
       "ingredient_id": 188,
-      "name": "roughly chopped cilantro",
-      "quantity": "½ cup"
+      "name": "cilantro",
+      "quantity": "½ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 243,
-      "name": "roughly chopped mint leaves",
-      "quantity": "½ cup"
+      "name": "mint leaves",
+      "quantity": "½ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1980,
@@ -116,8 +126,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Stem, seed, and mince the fresh red Thai chiles. Remove the tough stems from the watercress. Cut the cucumber into matchsticks. Cut the carrots into matchsticks. Seed and cut the tomatoes into thin wedges.",
-      "secondary_message": "2 fresh red Thai chiles\n2 bunches watercress\n1 (4 inch) piece cucumber\n2 medium carrots\n2 large tomatoes"
+      "primary_message": "Juice the limes. Stem, seed, and mince the fresh red Thai chiles. Remove the tough stems from the watercress. Pick the cilantro leaves from the stems and roughly chop them. Pick the mint leaves from the stems and roughly chop them. Cut the cucumber into matchsticks. Cut the carrots into matchsticks. Seed and cut the tomatoes into thin wedges.",
+      "secondary_message": "1 ½ limes\n2 fresh red Thai chiles\n2 bunches watercress\n½ cup cilantro\n½ cup mint leaves\n1 (4 inch) piece cucumber\n2 medium carrots\n2 large tomatoes"
     },
     {
       "id": 1,

@@ -118,9 +118,17 @@
       "quantity": "1 ½ cups"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 lemon",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice, from 1 lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -137,8 +145,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely chop the garlic. Peel and finely chop the ginger.",
-      "secondary_message": "2 medium cloves garlic\n1 (2 ½ cm) piece ginger"
+      "primary_message": "Finely chop the garlic. Peel and finely chop the ginger. Juice the lemon.",
+      "secondary_message": "2 medium cloves garlic\n1 (2 ½ cm) piece ginger\n½ lemon"
     },
     {
       "id": 1,

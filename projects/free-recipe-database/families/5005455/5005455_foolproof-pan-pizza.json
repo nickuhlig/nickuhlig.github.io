@@ -77,11 +77,18 @@
     },
     {
       "ingredient_id": 2983,
-      "name": "grated full-fat, low moisture mozzarella cheese",
-      "quantity": "12 oz"
+      "name": "full-fat, low moisture mozzarella cheese",
+      "quantity": "12 oz",
+      "prep": "grated"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the full-fat.",
+      "secondary_message": "12 oz full-fat, low moisture mozzarella cheese"
+    },
     {
       "id": 1,
       "primary_message": "Combine flour, salt, yeast, water, and oil in a large bowl. Mix with hands or a wooden spoon until no dry flour remains. (The bowl should be at least 4 to 6 times the volume of the dough to account for rising.)",

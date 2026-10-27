@@ -64,9 +64,17 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh-squeezed lemon juice, from 1 lemon",
-      "quantity": "½ tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "½ tbsp",
+          "name": "fresh-squeezed lemon juice, from 1 lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 192,
@@ -91,8 +99,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "roughly chopped cilantro leaves, tender stems",
-      "quantity": "1 cup"
+      "name": "cilantro leaves, tender stems",
+      "quantity": "1 cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 107,
@@ -101,41 +110,47 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "roughly chopped parsley leaves, tender stems",
-      "quantity": "½ cup"
+      "name": "parsley leaves, tender stems",
+      "quantity": "½ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 28,
-      "name": "roughly chopped basil",
-      "quantity": "3 tbsp"
+      "name": "basil",
+      "quantity": "3 tbsp",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 243,
-      "name": "roughly chopped mint leaves",
-      "quantity": "3 tbsp"
+      "name": "mint leaves",
+      "quantity": "3 tbsp",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 3670,
-      "name": "roughly chopped pitted oil-cured olives",
-      "quantity": "2 tbsp"
+      "name": "pitted oil-cured olives",
+      "quantity": "2 tbsp",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 2012,
-      "name": "roughly chopped pitted kalamata olives",
-      "quantity": "2 tbsp"
+      "name": "pitted kalamata olives",
+      "quantity": "2 tbsp",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 3160,
-      "name": "picked lemon thyme",
-      "quantity": "1 tbsp"
+      "name": "lemon thyme",
+      "quantity": "1 tbsp",
+      "prep": "picked"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Halve the grape tomatoes. Zest the lemon.",
-      "secondary_message": "1 cup grape tomatoes\n½ lemon"
+      "primary_message": "Halve the grape tomatoes. Juice the lemon. Zest the lemon. Pick the cilantro leaves and tender stems from the thick stems and roughly chop them. Pick the parsley leaves and tender stems from the thick stems and roughly chop them. Pick the basil leaves from the stems and roughly chop them. Pick the mint leaves from the stems and roughly chop them. Roughly chop the pitted oil-cured olives. Roughly chop the pitted kalamata olives. Pick the herb leaves from the stems.",
+      "secondary_message": "1 cup grape tomatoes\n½ lemon\n½ lemon\n1 cup cilantro leaves, tender stems\n½ cup parsley leaves, tender stems\n3 tbsp basil\n3 tbsp mint leaves\n2 tbsp pitted oil-cured olives\n2 tbsp pitted kalamata olives\n1 tbsp lemon thyme"
     },
     {
       "id": 1,

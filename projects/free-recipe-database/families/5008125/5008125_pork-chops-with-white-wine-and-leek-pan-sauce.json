@@ -78,8 +78,9 @@
     },
     {
       "ingredient_id": 309,
-      "name": "chopped leeks, white and light green parts only",
-      "quantity": "1 ½ cups"
+      "name": "leeks, white and light green parts only",
+      "quantity": "1 ½ cups",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1191,
@@ -93,11 +94,18 @@
     },
     {
       "ingredient_id": 106,
-      "name": "finely chopped flat-leaf parsley",
-      "quantity": "2 tbsp"
+      "name": "flat-leaf parsley",
+      "quantity": "2 tbsp",
+      "prep": "finely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the leeks. Pick the parsley leaves from the stems and finely chop them.",
+      "secondary_message": "1 ½ cups leeks, white and light green parts only\n2 tbsp flat-leaf parsley"
+    },
     {
       "id": 1,
       "primary_message": "Pat pork chops dry with a paper towel. Combine salt and sugar in a small bowl. Season pork chops generously on all sides with salt/sugar mixture (you may have some seasoning mixture left over; reserve for another use or discard). Transfer to a wire rack set in a rimmed baking sheet. If dry-brining chops overnight, refrigerate, uncovered, at least 8 hours and up to 24; otherwise proceed immediately to Step 2.",

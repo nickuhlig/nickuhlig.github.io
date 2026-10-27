@@ -74,9 +74,17 @@
       "quantity": "1.2 oz"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 oz"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 oz",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 129,
@@ -93,8 +101,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Roughly chop the dried pears.",
-      "secondary_message": "12 oz dried pears"
+      "primary_message": "Roughly chop the dried pears. Juice the lemon.",
+      "secondary_message": "12 oz dried pears\n1 lemon"
     },
     {
       "id": 1,

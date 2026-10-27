@@ -110,12 +110,26 @@
       "quantity": "2 dashes"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice",
-      "quantity": "28 g"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "28 g",
+          "name": "freshly squeezed lemon juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "To make chile-hibiscus syrup: Bring water, sugar, hibiscus, and chiles to a boil for 1 minute. Remove from heat and allow to steep for 15 minutes. Stir in hot sauce. Strain through a fine-mesh strainer or cheesecloth. Seal and keep refrigerated for up to a week.",

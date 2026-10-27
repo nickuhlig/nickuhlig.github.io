@@ -49,14 +49,30 @@
       "quantity": "⅓ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 whole lemon",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice, from 1 whole lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice, from 1 whole lime",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice, from 1 whole lime"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 103,
@@ -65,8 +81,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "finely grated fresh ginger",
-      "quantity": "1 tsp"
+      "name": "fresh ginger",
+      "quantity": "1 tsp",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 448,
@@ -75,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon. Juice the lime. Finely grate the ginger.",
+      "secondary_message": "1 lemon\n½ lime\n1 tsp fresh ginger"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, whisk together barbecue sauce, mango juice, pineapple juice, lemon juice, lime juice, honey, ginger, and habanero hot sauce. Season with additional hot sauce to taste. Use immediately or pour back in bottle and store in refrigerator for up to a month.",

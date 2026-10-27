@@ -104,29 +104,40 @@
       "quantity": "6 fl oz"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from 1 lemon",
-      "quantity": "2 tsp"
-    },
-    {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 lemon",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "lemon juice, from 1 lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "2 tsp",
+          "name": "lemon zest, from 1 lemon"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 1746,
-      "name": "minced fresh basil leaves",
-      "quantity": "½ oz"
+      "name": "fresh basil leaves",
+      "quantity": "½ oz",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1808,
-      "name": "minced fresh parsley leaves",
-      "quantity": "½ oz"
+      "name": "fresh parsley leaves",
+      "quantity": "½ oz",
+      "prep": "minced"
     },
     {
       "ingredient_id": 120,
-      "name": "Freshly grated Parmigiano-Reggiano, to taste",
-      "quantity": ""
+      "name": "Parmesan cheese, to taste",
+      "quantity": "",
+      "prep": "freshly grated"
     },
     {
       "ingredient_id": 72,
@@ -138,8 +149,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Lightly smash the garlic with the side of a knife.",
-      "secondary_message": "2 whole cloves garlic"
+      "primary_message": "Lightly smash the garlic with the side of a knife. Zest and juice the lemon. Pick the basil leaves from the stems and mince them. Pick the parsley leaves from the stems and mince them. Freshly grate the Parmesan cheese.",
+      "secondary_message": "2 whole cloves garlic\n1 lemon\n½ oz fresh basil leaves\n½ oz fresh parsley leaves\nParmesan cheese, to taste"
     },
     {
       "id": 1,

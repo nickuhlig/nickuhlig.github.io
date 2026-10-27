@@ -42,9 +42,17 @@
       "quantity": "5 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, divided",
-      "quantity": "3 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon, divided",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "3 tbsp",
+          "name": "lemon juice, divided"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 24,
@@ -64,9 +72,10 @@
     },
     {
       "ingredient_id": 310,
-      "name": "finely shredded red cabbage",
+      "name": "red cabbage",
       "quantity": "⅔ small head",
-      "weigh_as": "0.34 kg"
+      "weigh_as": "0.34 kg",
+      "prep": "finely shredded"
     },
     {
       "ingredient_id": 184,
@@ -81,18 +90,21 @@
     },
     {
       "ingredient_id": 243,
-      "name": "roughly chopped fresh mint leaves",
-      "quantity": "½ cup"
+      "name": "fresh mint leaves",
+      "quantity": "½ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1808,
-      "name": "roughly chopped fresh parsley leaves",
-      "quantity": "½ cup"
+      "name": "fresh parsley leaves",
+      "quantity": "½ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 188,
-      "name": "roughly chopped fresh cilantro leaves",
-      "quantity": "½ cup"
+      "name": "fresh cilantro leaves",
+      "quantity": "½ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 181,
@@ -104,8 +116,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Shred the leftover grilled chicken breasts. Finely mince the garlic. Thinly slice the red onion.",
-      "secondary_message": "0.34 kg leftover grilled chicken breasts\n4 medium cloves garlic, divided\n1 small red onion"
+      "primary_message": "Shred the leftover grilled chicken breasts. Juice the lemon. Finely mince the garlic. Finely shred the red cabbage. Thinly slice the red onion. Pick the mint leaves from the stems and roughly chop them. Pick the parsley leaves from the stems and roughly chop them. Pick the cilantro leaves from the stems and roughly chop them.",
+      "secondary_message": "0.34 kg leftover grilled chicken breasts\n1 lemon, divided\n4 medium cloves garlic, divided\n⅔ small head red cabbage\n1 small red onion\n½ cup fresh mint leaves\n½ cup fresh parsley leaves\n½ cup fresh cilantro leaves"
     },
     {
       "id": 1,

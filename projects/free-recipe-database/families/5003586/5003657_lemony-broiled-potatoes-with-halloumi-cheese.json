@@ -61,9 +61,17 @@
       "quantity": ""
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "¼ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¼ cup",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1621,
@@ -81,8 +89,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Slice the Yukon Gold potatoes 1/8 inch thick. Thinly slice the halloumi cheese.",
-      "secondary_message": "2 medium Yukon Gold potatoes\n225 g halloumi cheese"
+      "primary_message": "Slice the Yukon Gold potatoes 1/8 inch thick. Juice the lemons. Thinly slice the halloumi cheese.",
+      "secondary_message": "2 medium Yukon Gold potatoes\n1 ½ lemons\n225 g halloumi cheese"
     },
     {
       "id": 1,

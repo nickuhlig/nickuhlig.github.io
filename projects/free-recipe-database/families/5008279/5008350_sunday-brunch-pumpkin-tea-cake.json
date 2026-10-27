@@ -59,8 +59,9 @@
     },
     {
       "ingredient_id": 349,
-      "name": "freshly grated nutmeg",
-      "quantity": "2 tsp"
+      "name": "nutmeg",
+      "quantity": "2 tsp",
+      "prep": "freshly grated"
     },
     {
       "ingredient_id": 351,
@@ -94,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Freshly grate the nutmeg.",
+      "secondary_message": "2 tsp nutmeg"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 165°C (325°F). Lightly butter the bottom and sides of a 9x5 inch loaf pan.",

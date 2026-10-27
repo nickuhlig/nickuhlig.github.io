@@ -77,8 +77,9 @@
     },
     {
       "ingredient_id": 349,
-      "name": "freshly grated nutmeg",
-      "quantity": "⅛ tsp"
+      "name": "nutmeg",
+      "quantity": "⅛ tsp",
+      "prep": "freshly grated"
     },
     {
       "ingredient_id": 351,
@@ -92,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Freshly grate the nutmeg.",
+      "secondary_message": "⅛ tsp nutmeg"
+    },
     {
       "id": 1,
       "primary_message": "Place all cranberries, white sugar, water, brown sugar, orange juice, orange zest, cinnamon, allspice, Kosher salt, nutmeg, and cloves in a medium sauce pan and bring to a boil over medium heat. Cook, stirring occasionally until berries start to pop, about 10 minutes.",

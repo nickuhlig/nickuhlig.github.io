@@ -61,9 +61,17 @@
       "quantity": "1 ½ tsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -98,8 +106,9 @@
     },
     {
       "ingredient_id": 229,
-      "name": "diced fresh mango",
-      "quantity": "2 cups"
+      "name": "fresh mango",
+      "quantity": "2 cups",
+      "prep": "diced"
     },
     {
       "ingredient_id": 221,
@@ -143,8 +152,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Seed and mince the jalapeño peppers. Dice the onion. Drain and rinse the chickpeas. Mince the ginger. Mince the garlic.",
-      "secondary_message": "3 jalapeño peppers, divided\n1 medium onion, divided\n1 (15 oz) can chickpeas, and dried\n2 tbsp ginger\n4 cloves garlic"
+      "primary_message": "Seed and mince the jalapeño peppers. Dice the onion. Juice the lime. Drain and rinse the chickpeas. Dice the mango. Mince the ginger. Mince the garlic.",
+      "secondary_message": "3 jalapeño peppers, divided\n1 medium onion, divided\n1 lime\n1 (15 oz) can chickpeas, and dried\n2 cups fresh mango\n2 tbsp ginger\n4 cloves garlic"
     },
     {
       "id": 1,

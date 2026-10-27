@@ -86,9 +86,17 @@
       "quantity": "½ tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "½ tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "½ tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 153,
@@ -116,8 +124,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thinly slice the scallions.",
-      "secondary_message": "2 scallions"
+      "primary_message": "Juice the lemon. Thinly slice the scallions.",
+      "secondary_message": "½ lemon\n2 scallions"
     },
     {
       "id": 1,

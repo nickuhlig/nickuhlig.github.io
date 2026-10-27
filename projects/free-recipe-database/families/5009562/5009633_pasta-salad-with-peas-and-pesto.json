@@ -54,18 +54,28 @@
     },
     {
       "ingredient_id": 1679,
-      "name": "freshly grated Pecorino Romano",
-      "quantity": "28 g"
+      "name": "Pecorino Romano",
+      "quantity": "28 g",
+      "prep": "freshly grated"
     },
     {
       "ingredient_id": 272,
-      "name": "chopped toasted walnuts, plus more for garnish",
-      "quantity": "3 tbsp"
+      "name": "toasted walnuts, plus more for garnish",
+      "quantity": "3 tbsp",
+      "prep": "chopped"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 1 to 2 lemons",
-      "quantity": "3 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "3 tbsp",
+          "name": "fresh lemon juice, from 1 to 2 lemons"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -99,8 +109,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Roughly chop the garlic clove. Drain the gemelli pasta and let it cool. Thaw the frozen green peas.",
-      "secondary_message": "1 large garlic clove\n0.23 kg gemelli pasta, cooked\n227 g frozen green peas"
+      "primary_message": "Roughly chop the garlic clove. Freshly grate the Pecorino Romano. Chop the toasted walnuts. Juice the lemon. Drain the gemelli pasta and let it cool. Thaw the frozen green peas.",
+      "secondary_message": "1 large garlic clove\n28 g Pecorino Romano\n3 tbsp toasted walnuts, plus more for garnish\n1 lemon\n0.23 kg gemelli pasta, cooked\n227 g frozen green peas"
     },
     {
       "id": 1,

@@ -54,8 +54,9 @@
     },
     {
       "ingredient_id": 287,
-      "name": "minced fresh thyme",
-      "quantity": "1 tsp"
+      "name": "fresh thyme",
+      "quantity": "1 tsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1260,
@@ -74,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the thyme leaves from the stems and mince them.",
+      "secondary_message": "1 tsp fresh thyme"
+    },
     {
       "id": 1,
       "primary_message": "In an electric spice grinder or high-power blender, combine nutritional yeast, dried mushrooms, lemon zest, garlic powder, and thyme and blend until a fine powder forms.",

@@ -92,13 +92,22 @@
     },
     {
       "ingredient_id": 2346,
-      "name": "grated lemon zest",
-      "quantity": "1 tbsp"
+      "name": "lemon zest",
+      "quantity": "1 tbsp",
+      "prep": "grated"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "⅔ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "4",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "⅔ cup",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -126,8 +135,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Melt the unsalted butter and let it cool. Keep the heavy cream cold until you use it.",
-      "secondary_message": "8 tbsp unsalted butter\n1 cup heavy cream"
+      "primary_message": "Melt the unsalted butter and let it cool. Grate the zest from the lemon. Juice the lemons. Keep the heavy cream cold until you use it.",
+      "secondary_message": "8 tbsp unsalted butter\n1 tbsp lemon zest\n4 lemons\n1 cup heavy cream"
     },
     {
       "id": 1,

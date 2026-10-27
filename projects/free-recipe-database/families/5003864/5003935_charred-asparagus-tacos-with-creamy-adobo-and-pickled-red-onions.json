@@ -93,9 +93,17 @@
       "quantity": "⅔ cup"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -143,8 +151,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Stem and seed the ancho chiles. Finely slice the onion. Grate the garlic on a microplane grater.",
-      "secondary_message": "2 ancho chiles\n1 small onion\n2 medium cloves garlic"
+      "primary_message": "Stem and seed the ancho chiles. Finely slice the onion. Grate the garlic on a microplane grater. Juice the lime.",
+      "secondary_message": "2 ancho chiles\n1 small onion\n2 medium cloves garlic\n½ lime"
     },
     {
       "id": 1,

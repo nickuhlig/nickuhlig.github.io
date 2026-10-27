@@ -54,9 +54,17 @@
       "quantity": "1 large"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, divided",
-      "quantity": "¼ cup"
+      "ingredient_id": 192,
+      "name": "lemons, divided",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¼ cup",
+          "name": "fresh lemon juice, divided"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 325,
@@ -108,8 +116,9 @@
     },
     {
       "ingredient_id": 3076,
-      "name": "chopped Calabrian chiles",
-      "quantity": "2 tbsp"
+      "name": "Calabrian chiles",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1746,
@@ -121,8 +130,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Drain the capers. Drain the oil-packed tuna.",
-      "secondary_message": "1 tsp capers\n4 oz oil-packed tuna, such as Ortiz"
+      "primary_message": "Juice the lemons. Drain the capers. Drain the oil-packed tuna. Chop the Calabrian chiles.",
+      "secondary_message": "1 ½ lemons, divided\n1 tsp capers\n4 oz oil-packed tuna, such as Ortiz\n2 tbsp Calabrian chiles"
     },
     {
       "id": 1,

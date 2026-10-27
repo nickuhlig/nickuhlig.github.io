@@ -43,9 +43,17 @@
       "quantity": "60 ml"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "20 ml"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "20 ml",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1953,
@@ -54,6 +62,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "1 lime"
+    },
     {
       "id": 1,
       "primary_message": "At least 8 hours before you plan to serve the drink, add rum, 21 g lime juice, and 21 g turbinado simple syrup to a resealable container or zipper-lock bag. Place batched mix in freezer until freezer-cold, about 8 hours.",

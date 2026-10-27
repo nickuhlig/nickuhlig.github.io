@@ -82,8 +82,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "finely chopped yellow onion",
-      "quantity": "1 cup"
+      "name": "yellow onion",
+      "quantity": "1 cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1191,
@@ -152,6 +153,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the yellow onion.",
+      "secondary_message": "1 cup yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "For the Chicken and Rub: Mix together salt, paprika, garlic powder, onion powder, and cayenne pepper in a small bowl. Season chicken halves all over with rub and refrigerate for at least 6 and up to 12 hours.",

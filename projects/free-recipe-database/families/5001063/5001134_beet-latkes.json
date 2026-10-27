@@ -83,8 +83,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "chopped onion",
-      "quantity": "4 cups"
+      "name": "onion",
+      "quantity": "4 cups",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1191,
@@ -93,8 +94,9 @@
     },
     {
       "ingredient_id": 272,
-      "name": "chopped walnuts",
-      "quantity": "½ cup"
+      "name": "walnuts",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 121,
@@ -123,6 +125,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the onion. Chop the walnuts.",
+      "secondary_message": "4 cups onion\n½ cup walnuts"
+    },
     {
       "id": 1,
       "primary_message": "For the Horseradish Sour Cream: In a small bowl, combine horseradish and sour cream. Stir to mix thoroughly and refrigerate until ready to use.",

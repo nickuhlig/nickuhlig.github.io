@@ -58,9 +58,17 @@
       "quantity": "¾ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 136,
@@ -149,8 +157,9 @@
     },
     {
       "ingredient_id": 120,
-      "name": "Cubed chunks of Parmesan cheese",
-      "quantity": ""
+      "name": "Chunks of Parmesan cheese",
+      "quantity": "",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 3665,
@@ -167,8 +176,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Keep the tomato juice cold until you use it.",
-      "secondary_message": "3 cups tomato juice"
+      "primary_message": "Keep the tomato juice cold until you use it. Juice the lemon. Cube the chunks of Parmesan cheese.",
+      "secondary_message": "3 cups tomato juice\n1 lemon\nChunks of Parmesan cheese"
     },
     {
       "id": 1,

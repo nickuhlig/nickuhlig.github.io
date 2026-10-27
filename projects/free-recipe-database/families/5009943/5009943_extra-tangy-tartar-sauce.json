@@ -43,29 +43,40 @@
     },
     {
       "ingredient_id": 1377,
-      "name": "minced dill pickles",
-      "quantity": "⅓ cup"
-    },
-    {
-      "ingredient_id": 144,
-      "name": "minced shallots",
-      "quantity": "3 tbsp"
-    },
-    {
-      "ingredient_id": 15,
-      "name": "drained capers",
-      "quantity": "2 tbsp",
+      "name": "dill pickles",
+      "quantity": "⅓ cup",
       "prep": "minced"
     },
     {
-      "ingredient_id": 106,
-      "name": "finely chopped Italian parsley",
-      "quantity": "2 tbsp"
+      "ingredient_id": 144,
+      "name": "shallots",
+      "quantity": "3 tbsp",
+      "prep": "minced"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 15,
+      "name": "capers",
+      "quantity": "2 tbsp",
+      "prep": "drained, minced"
+    },
+    {
+      "ingredient_id": 106,
+      "name": "Italian parsley",
+      "quantity": "2 tbsp",
+      "prep": "finely chopped"
+    },
+    {
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 117,
@@ -92,8 +103,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the drained capers.",
-      "secondary_message": "2 tbsp drained capers"
+      "primary_message": "Mince the dill pickles. Mince the shallots. Drain and mince the capers. Pick the parsley leaves from the stems and finely chop them. Juice the lemon.",
+      "secondary_message": "⅓ cup dill pickles\n3 tbsp shallots\n2 tbsp capers\n2 tbsp Italian parsley\n½ lemon"
     },
     {
       "id": 1,

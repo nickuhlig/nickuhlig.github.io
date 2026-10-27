@@ -75,8 +75,9 @@
     },
     {
       "ingredient_id": 1677,
-      "name": "minced fresh thyme leaves",
-      "quantity": "1 tsp"
+      "name": "fresh thyme leaves",
+      "quantity": "1 tsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 121,
@@ -94,9 +95,17 @@
       "quantity": "¾ cup"
     },
     {
-      "ingredient_id": 2346,
-      "name": "grated lemon zest, from 1 lemon",
-      "quantity": "¾ tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "¾ tsp",
+          "name": "grated lemon zest, from 1 lemon"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 88,
@@ -125,8 +134,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the bacon into 1/2-inch pieces. Finely chop the shallot. Mince the garlic. Shred the Gruyère cheese. Grate the Parmesan cheese.",
-      "secondary_message": "8 oz bacon\n1 large shallot\n2 cloves garlic\n3 oz Gruyère cheese\n1 oz Parmesan cheese"
+      "primary_message": "Cut the bacon into 1/2-inch pieces. Finely chop the shallot. Mince the garlic. Pick the thyme leaves from the stems and mince them. Zest the lemon. Shred the Gruyère cheese. Grate the Parmesan cheese.",
+      "secondary_message": "8 oz bacon\n1 large shallot\n2 cloves garlic\n1 tsp fresh thyme leaves\n1 lemon\n3 oz Gruyère cheese\n1 oz Parmesan cheese"
     },
     {
       "id": 1,

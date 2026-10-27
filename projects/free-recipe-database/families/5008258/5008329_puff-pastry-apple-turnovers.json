@@ -56,9 +56,17 @@
       "quantity": ""
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "¾ tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¾ tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -81,8 +89,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Beat the egg.",
-      "secondary_message": "1 large egg"
+      "primary_message": "Juice the lemon. Beat the egg.",
+      "secondary_message": "½ lemon\n1 large egg"
     },
     {
       "id": 1,

@@ -52,8 +52,9 @@
     },
     {
       "ingredient_id": 2015,
-      "name": "finely chopped sage",
-      "quantity": "2 tsp"
+      "name": "sage",
+      "quantity": "2 tsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 88,
@@ -67,6 +68,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the sage leaves from the stems and finely chop them.",
+      "secondary_message": "2 tsp sage"
+    },
     {
       "id": 1,
       "primary_message": "Melt butter over medium high heat in medium saucepan. Whisk in flour and cook, stirring frequently, until golden blonde, about 2 minutes.",

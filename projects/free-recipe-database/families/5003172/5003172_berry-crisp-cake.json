@@ -59,8 +59,9 @@
     },
     {
       "ingredient_id": 29,
-      "name": "sliced toasted almonds",
-      "quantity": "½ cup"
+      "name": "toasted almonds",
+      "quantity": "½ cup",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 88,
@@ -120,8 +121,9 @@
     },
     {
       "ingredient_id": 2346,
-      "name": "finely grated lemon zest",
-      "quantity": "2 tsp"
+      "name": "lemon zest",
+      "quantity": "2 tsp",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 121,
@@ -140,9 +142,17 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -154,8 +164,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the unsalted butter into small pieces and keep it cold until you use it. Bring the unsalted butter to room temperature. Bring the eggs to room temperature.",
-      "secondary_message": "6 tbsp unsalted butter\n1 lb unsalted butter\n3 large eggs"
+      "primary_message": "Cut the unsalted butter into small pieces and keep it cold until you use it. Slice the toasted almonds. Bring the unsalted butter to room temperature. Finely grate the zest from the lemon. Bring the eggs to room temperature. Juice the lemon.",
+      "secondary_message": "6 tbsp unsalted butter\n½ cup toasted almonds\n1 lb unsalted butter\n2 tsp lemon zest\n3 large eggs\n½ lemon"
     },
     {
       "id": 1,

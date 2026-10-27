@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 2731,
-      "name": "chopped mushrooms",
-      "quantity": "340 g"
+      "name": "mushrooms",
+      "quantity": "340 g",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 47,
@@ -61,11 +62,18 @@
     },
     {
       "ingredient_id": 120,
-      "name": "grated parmesan cheese",
-      "quantity": "½ cup"
+      "name": "parmesan cheese",
+      "quantity": "½ cup",
+      "prep": "grated"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the mushrooms. Grate the parmesan cheese.",
+      "secondary_message": "340 g mushrooms\n½ cup parmesan cheese"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 220°C (425°F). Toss the mushrooms and olive oil on a baking sheet, season with salt, spread in a single layer, and roast until golden-brown around the edges, about 15 minutes. Set aside to cool; lower the oven to 190°C (375°F).",

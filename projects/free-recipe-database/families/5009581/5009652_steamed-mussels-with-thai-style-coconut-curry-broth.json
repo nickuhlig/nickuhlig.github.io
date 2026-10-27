@@ -79,9 +79,17 @@
       "quantity": "1 tsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -129,8 +137,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thinly slice the garlic. Thinly slice the shallots. Thinly slice the Thai chile.",
-      "secondary_message": "4 medium cloves garlic\n2 small shallots\n1 small Thai chile"
+      "primary_message": "Thinly slice the garlic. Thinly slice the shallots. Juice the lime. Thinly slice the Thai chile.",
+      "secondary_message": "4 medium cloves garlic\n2 small shallots\n½ lime\n1 small Thai chile"
     },
     {
       "id": 1,

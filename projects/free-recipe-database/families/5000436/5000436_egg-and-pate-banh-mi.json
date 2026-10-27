@@ -70,9 +70,17 @@
       "prep": "roughly chopped"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -106,8 +114,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "chopped shallots",
-      "quantity": "½ cup"
+      "name": "shallots",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 24,
@@ -217,8 +226,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Bring the egg to room temperature. Roughly chop the garlic. Mince the garlic. Thinly slice the scallions. Finely chop the shallot.",
-      "secondary_message": "1 large egg\n2 medium cloves garlic\n5 medium cloves garlic\n2 scallions\n1 small shallot"
+      "primary_message": "Bring the egg to room temperature. Roughly chop the garlic. Juice the lemon. Chop the shallots. Mince the garlic. Thinly slice the scallions. Finely chop the shallot.",
+      "secondary_message": "1 large egg\n2 medium cloves garlic\n½ lemon\n½ cup shallots\n5 medium cloves garlic\n2 scallions\n1 small shallot"
     },
     {
       "id": 1,

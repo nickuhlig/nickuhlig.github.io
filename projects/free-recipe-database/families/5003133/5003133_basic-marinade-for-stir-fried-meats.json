@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 1629,
-      "name": "sliced chicken, pork, or beef",
-      "quantity": "½ lb"
+      "name": "chicken, pork, or beef",
+      "quantity": "½ lb",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 88,
@@ -75,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the chicken.",
+      "secondary_message": "½ lb chicken, pork, or beef"
+    },
     {
       "id": 1,
       "primary_message": "Combine all ingredients in a large bowl and mix with hands to coat thoroughly. Cover and refrigerate for 30 minutes before cooking.",

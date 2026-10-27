@@ -47,9 +47,17 @@
       "quantity": "0.45 kg"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -63,13 +71,15 @@
     },
     {
       "ingredient_id": 221,
-      "name": "grated ginger, divided",
-      "quantity": "1 ½ tbsp"
+      "name": "ginger, divided",
+      "quantity": "1 ½ tbsp",
+      "prep": "grated"
     },
     {
       "ingredient_id": 24,
-      "name": "grated garlic, divided",
-      "quantity": "2 tbsp"
+      "name": "garlic, divided",
+      "quantity": "2 tbsp",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1784,
@@ -133,6 +143,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime. Grate the ginger. Grate the garlic.",
+      "secondary_message": "½ lime\n1 ½ tbsp ginger, divided\n2 tbsp garlic, divided"
+    },
     {
       "id": 1,
       "primary_message": "Combine chicken, lime juice, 1/2 teaspoon kosher salt, ground black pepper, 1 tablespoon ginger, and 1 tablespoon garlic in a large bowl and toss to coat. Transfer to a plastic bag, refrigerate, and let marinate for at least 30 minutes and up to overnight.",

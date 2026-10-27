@@ -69,33 +69,39 @@
     },
     {
       "ingredient_id": 152,
-      "name": "finely chopped yellow onion",
-      "quantity": "½ cup"
+      "name": "yellow onion",
+      "quantity": "½ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 157,
-      "name": "finely chopped celery",
-      "quantity": "⅓ cup"
+      "name": "celery",
+      "quantity": "⅓ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 113,
-      "name": "peeled and finely chopped Granny Smith apple",
-      "quantity": "⅓ cup"
+      "name": "Granny Smith apple",
+      "quantity": "⅓ cup",
+      "prep": "peeled and finely chopped"
     },
     {
       "ingredient_id": 2015,
-      "name": "finely chopped fresh sage leaves",
-      "quantity": "2 tsp"
+      "name": "fresh sage leaves",
+      "quantity": "2 tsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 287,
-      "name": "finely chopped fresh thyme",
-      "quantity": "1 tsp"
+      "name": "fresh thyme",
+      "quantity": "1 tsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2975,
-      "name": "crumbled cornbread",
-      "quantity": "3 cups"
+      "name": "cornbread",
+      "quantity": "3 cups",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 1231,
@@ -119,6 +125,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the yellow onion. Finely chop the celery. Peel and finely chop the Granny Smith apple. Pick the sage leaves from the stems and finely chop them. Pick the thyme leaves from the stems and finely chop them. Crumble the cornbread.",
+      "secondary_message": "½ cup yellow onion\n⅓ cup celery\n⅓ cup Granny Smith apple\n2 tsp fresh sage leaves\n1 tsp fresh thyme\n3 cups cornbread"
+    },
     {
       "id": 1,
       "primary_message": "To make the brine: Combine water, salt, and sugar in a large bowl and whisk to dissolve. Submerge turkey breasts in brine and place in refrigerator for 1 hour.",

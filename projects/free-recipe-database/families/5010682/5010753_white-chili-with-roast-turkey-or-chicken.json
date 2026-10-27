@@ -92,8 +92,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "minced fresh cilantro leaves",
-      "quantity": "½ cup"
+      "name": "fresh cilantro leaves",
+      "quantity": "½ cup",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1740,
@@ -102,9 +103,17 @@
       "prep": "torn into rough bite-sized pieces"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -121,8 +130,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the onion. Mince the jalapeño peppers. Finely dice the poblano peppers. Mince the garlic. Tear the leftover turkey meat into rough bite-sized pieces.",
-      "secondary_message": "1 large onion\n2 jalapeño peppers\n2 poblano peppers\n4 medium cloves garlic\n0.91 kg leftover turkey meat"
+      "primary_message": "Mince the onion. Mince the jalapeño peppers. Finely dice the poblano peppers. Mince the garlic. Pick the cilantro leaves from the stems and mince them. Tear the leftover turkey meat into rough bite-sized pieces. Juice the lime.",
+      "secondary_message": "1 large onion\n2 jalapeño peppers\n2 poblano peppers\n4 medium cloves garlic\n½ cup fresh cilantro leaves\n0.91 kg leftover turkey meat\n1 lime"
     },
     {
       "id": 1,

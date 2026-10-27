@@ -56,9 +56,17 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "¼ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¼ cup",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1721,
@@ -92,11 +100,18 @@
     },
     {
       "ingredient_id": 153,
-      "name": "thinly sliced scallion",
-      "quantity": "1 tbsp"
+      "name": "scallion",
+      "quantity": "1 tbsp",
+      "prep": "thinly sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemons. Thinly slice the scallion.",
+      "secondary_message": "1 ½ lemons\n1 tbsp scallion"
+    },
     {
       "id": 1,
       "primary_message": "For the spicy miso: Place the miso, sugar, mirin, and sake in a medium pot and whisk until smooth. Place the pot over medium heat and bring it to a simmer.",

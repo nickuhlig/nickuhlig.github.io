@@ -75,20 +75,29 @@
       "prep": "diced"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 106,
-      "name": "minced flat-leaf parsley",
-      "quantity": "1 tbsp"
+      "name": "flat-leaf parsley",
+      "quantity": "1 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2715,
-      "name": "cored cabbage",
+      "name": "cabbage",
       "quantity": "¼ head",
-      "prep": "thinly shredded"
+      "prep": "cored, thinly shredded"
     },
     {
       "ingredient_id": 132,
@@ -112,17 +121,17 @@
     },
     {
       "ingredient_id": 121,
-      "name": "hard-boiled eggs",
+      "name": "eggs",
       "quantity": "4",
-      "prep": "peeled and sliced"
+      "prep": "hard-boiled, peeled and sliced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Core and dice the plum tomatoes. Slice the Italian eggplant into 1/2-inch-thick rounds. Dice the seedless cucumber. Thinly shred the cored cabbage. Peel and slice the hard-boiled eggs.",
-      "secondary_message": "2 medium plum tomatoes\n⅔ Italian eggplant\n½ large seedless cucumber\n¼ head cored cabbage\n4 hard-boiled eggs"
+      "primary_message": "Core and dice the plum tomatoes. Slice the Italian eggplant into 1/2-inch-thick rounds. Dice the seedless cucumber. Juice the lemon. Pick the parsley leaves from the stems and mince them. Core and thinly shred the cabbage. Hard-boil the eggs, then peel and slice them.",
+      "secondary_message": "2 medium plum tomatoes\n⅔ Italian eggplant\n½ large seedless cucumber\n1 lemon\n1 tbsp flat-leaf parsley\n¼ head cabbage\n4 eggs"
     },
     {
       "id": 1,

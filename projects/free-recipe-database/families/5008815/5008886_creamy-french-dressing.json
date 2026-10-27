@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "finely chopped onion",
-      "quantity": "½ cup"
+      "name": "onion",
+      "quantity": "½ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 267,
@@ -91,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the onion.",
+      "secondary_message": "½ cup onion"
+    },
     {
       "id": 1,
       "primary_message": "Place ketchup, onion, mayonnaise, vinegar, sugar, Worcestershire sauce, paprika, garlic powder, and salt in the jar of a blender. Purée until onion is completely chopped.",

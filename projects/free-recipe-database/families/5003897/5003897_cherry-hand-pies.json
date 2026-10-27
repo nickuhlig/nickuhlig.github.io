@@ -57,9 +57,9 @@
   "ingredients": [
     {
       "ingredient_id": 2216,
-      "name": "stemmed and pitted cherries",
+      "name": "and pitted cherries",
       "quantity": "2 cups",
-      "prep": "roughly chopped"
+      "prep": "stemmed, roughly chopped"
     },
     {
       "ingredient_id": 346,
@@ -67,14 +67,22 @@
       "quantity": "3 tbsp"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from about 2 lemons",
-      "quantity": "2 tsp"
-    },
-    {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from about 2 lemons",
-      "quantity": "3 tbsp"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "3 tbsp",
+          "name": "lemon juice, from about 2 lemons"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "2 tsp",
+          "name": "lemon zest, from about 2 lemons"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 264,
@@ -102,8 +110,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Roughly chop the stemmed and pitted cherries. Lightly beat the egg.",
-      "secondary_message": "2 cups stemmed and pitted cherries\n1 large egg"
+      "primary_message": "Stem and roughly chop the and pitted cherries. Zest and juice the lemons. Lightly beat the egg.",
+      "secondary_message": "2 cups and pitted cherries\n2 lemons\n1 large egg"
     },
     {
       "id": 1,

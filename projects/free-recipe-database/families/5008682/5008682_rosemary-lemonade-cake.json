@@ -59,8 +59,9 @@
     },
     {
       "ingredient_id": 1766,
-      "name": "chopped rosemary, plus more for garnish",
-      "quantity": "2 tbsp"
+      "name": "rosemary, plus more for garnish",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 116,
@@ -94,17 +95,25 @@
       "prep": "room temperature"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, strained and divided",
-      "quantity": "¾ cup"
+      "ingredient_id": 192,
+      "name": "lemons, strained and divided",
+      "quantity": "4",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¾ cup",
+          "name": "lemon juice, strained and divided"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Soften the butter. Bring the eggs to room temperature. Bring the plain yogurt to room temperature.",
-      "secondary_message": "½ lb butter\n4 eggs\n1 cup plain yogurt"
+      "primary_message": "Soften the butter. Bring the eggs to room temperature. Pick the rosemary leaves from the stems and chop them. Bring the plain yogurt to room temperature. Juice the lemons.",
+      "secondary_message": "½ lb butter\n4 eggs\n2 tbsp rosemary, plus more for garnish\n1 cup plain yogurt\n4 lemons, strained and divided"
     },
     {
       "id": 1,

@@ -68,13 +68,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "minced shallot",
-      "quantity": "2 tbsp"
+      "name": "shallot",
+      "quantity": "2 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1677,
-      "name": "minced thyme leaves, divided",
-      "quantity": "2 tsp"
+      "name": "thyme leaves, divided",
+      "quantity": "2 tsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2150,
@@ -88,11 +90,18 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "minced parsley",
-      "quantity": "2 tsp"
+      "name": "parsley",
+      "quantity": "2 tsp",
+      "prep": "minced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the shallot. Pick the thyme leaves from the stems and mince them. Pick the parsley leaves from the stems and mince them.",
+      "secondary_message": "2 tbsp shallot\n2 tsp thyme leaves, divided\n2 tsp parsley"
+    },
     {
       "id": 1,
       "primary_message": "Pat pork chops dry with a paper towel. Combine salt and sugar in a small bowl. Season pork chops generously on all sides with salt/sugar mixture (you may have some seasoning mixture left over; reserve for another use or discard). Transfer to a wire rack set in a rimmed baking sheet. If dry-brining chops overnight, refrigerate, uncovered, at least 8 hours and up to 24; otherwise proceed immediately to Step 2.",

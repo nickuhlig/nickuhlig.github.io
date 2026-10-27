@@ -66,13 +66,22 @@
     },
     {
       "ingredient_id": 2346,
-      "name": "grated lemon zest",
-      "quantity": "1 tsp"
+      "name": "lemon zest",
+      "quantity": "1 tsp",
+      "prep": "grated"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 24,
@@ -131,16 +140,17 @@
     },
     {
       "ingredient_id": 106,
-      "name": "finely chopped fresh flat-leaf parsley",
-      "quantity": "½ cup"
+      "name": "fresh flat-leaf parsley",
+      "quantity": "½ cup",
+      "prep": "finely chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Trim and cut the fresh green beans into 1-inch pieces. Grate or finely mince the garlic clove. Drain and rinse the black eyed peas. Drain and rinse the kidney beans. Finely chop the red onion. Thinly slice the celery stalks on an angle.",
-      "secondary_message": "340 g fresh green beans\n1 large garlic clove\n1 (425 g) can black eyed peas\n1 (425 g) can kidney beans\n½ small red onion\n2 small celery stalks"
+      "primary_message": "Trim and cut the fresh green beans into 1-inch pieces. Grate the zest from the lemon. Juice the lemon. Grate or finely mince the garlic clove. Drain and rinse the black eyed peas. Drain and rinse the kidney beans. Finely chop the red onion. Thinly slice the celery stalks on an angle. Pick the parsley leaves from the stems and finely chop them.",
+      "secondary_message": "340 g fresh green beans\n1 tsp lemon zest\n1 lemon\n1 large garlic clove\n1 (425 g) can black eyed peas\n1 (425 g) can kidney beans\n½ small red onion\n2 small celery stalks\n½ cup fresh flat-leaf parsley"
     },
     {
       "id": 1,

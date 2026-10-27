@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 106,
-      "name": "finely chopped flat-leaf parsley leaves",
-      "quantity": "2 cups"
+      "name": "flat-leaf parsley leaves",
+      "quantity": "2 cups",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2864,
@@ -65,8 +66,9 @@
     },
     {
       "ingredient_id": 243,
-      "name": "finely chopped fresh mint leaves",
-      "quantity": "1 cup"
+      "name": "fresh mint leaves",
+      "quantity": "1 cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 153,
@@ -79,9 +81,17 @@
       "quantity": "5 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 72,
@@ -93,8 +103,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely dice the ripe plum tomatoes.",
-      "secondary_message": "5 ripe plum tomatoes"
+      "primary_message": "Finely dice the ripe plum tomatoes. Pick the parsley leaves from the stems and finely chop them. Pick the mint leaves from the stems and finely chop them. Juice the lemon.",
+      "secondary_message": "5 ripe plum tomatoes\n2 cups flat-leaf parsley leaves\n1 cup fresh mint leaves\n1 lemon"
     },
     {
       "id": 1,

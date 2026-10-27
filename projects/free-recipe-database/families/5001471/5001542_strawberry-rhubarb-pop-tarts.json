@@ -84,8 +84,9 @@
   "ingredients": [
     {
       "ingredient_id": 2463,
-      "name": "chopped fresh rhubarb, from 4 large stalks",
-      "quantity": "340 g"
+      "name": "fresh rhubarb, from 4 large stalks",
+      "quantity": "340 g",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 346,
@@ -98,9 +99,17 @@
       "quantity": "1 tsp"
     },
     {
-      "ingredient_id": 2346,
-      "name": "grated orange zest, from 1 medium orange",
-      "quantity": "½ tsp"
+      "ingredient_id": 232,
+      "name": "orange",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "½ tsp",
+          "name": "grated orange zest, from 1 medium orange"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 88,
@@ -145,9 +154,17 @@
       "quantity": "170 g"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 1 small lemon",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "fresh lemon juice, from 1 small lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -169,8 +186,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely grind the freeze-dried strawberries. Cube the cold unsalted butter.",
-      "secondary_message": "21 g freeze-dried strawberries\n198 g cold unsalted butter"
+      "primary_message": "Chop the rhubarb. Zest the orange. Finely grind the freeze-dried strawberries. Cube the cold unsalted butter. Juice the lemon.",
+      "secondary_message": "340 g fresh rhubarb, from 4 large stalks\n1 orange\n21 g freeze-dried strawberries\n198 g cold unsalted butter\n½ lemon"
     },
     {
       "id": 1,

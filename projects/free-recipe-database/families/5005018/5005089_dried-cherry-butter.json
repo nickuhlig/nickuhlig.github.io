@@ -60,13 +60,22 @@
     },
     {
       "ingredient_id": 2346,
-      "name": "freshly grated lemon zest",
-      "quantity": "2 tbsp"
+      "name": "lemon zest",
+      "quantity": "2 tbsp",
+      "prep": "freshly grated"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice",
-      "quantity": "½ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "3",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "½ cup",
+          "name": "freshly squeezed lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -75,6 +84,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the zest from the lemon. Juice the lemons.",
+      "secondary_message": "2 tbsp lemon zest\n3 lemons"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, whisk together honey, cinnamon, and pectin until thoroughly combined. Set aside.",

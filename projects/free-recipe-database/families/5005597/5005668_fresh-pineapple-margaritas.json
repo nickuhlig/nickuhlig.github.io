@@ -43,14 +43,30 @@
       "quantity": "1 ½ cups"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "43 g"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "43 g",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "64 g"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "2 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "64 g",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1953,
@@ -79,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon. Juice the limes.",
+      "secondary_message": "1 lemon\n2 ½ limes"
+    },
     {
       "id": 1,
       "primary_message": "Add pineapple, lemon juice, lime juice, simple syrup, salt, tequila, and triple sec to a blender with 3 ice cubes. Blend until completely smooth and frothy. Pour into a pitcher if desired and refrigerate up to 3 hours. Serve over ice.",

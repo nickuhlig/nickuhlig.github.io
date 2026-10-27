@@ -69,9 +69,17 @@
       "quantity": "1 cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, divided",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon, divided",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice, divided"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -88,8 +96,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Quarter the cherry tomatoes. Seed and cut the cucumber into 3/4-inch chunks.",
-      "secondary_message": "0.23 kg cherry tomatoes\n1 cucumber"
+      "primary_message": "Quarter the cherry tomatoes. Seed and cut the cucumber into 3/4-inch chunks. Juice the lemon.",
+      "secondary_message": "0.23 kg cherry tomatoes\n1 cucumber\n½ lemon, divided"
     },
     {
       "id": 1,

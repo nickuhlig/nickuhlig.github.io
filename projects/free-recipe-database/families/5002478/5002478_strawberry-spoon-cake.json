@@ -54,13 +54,22 @@
     },
     {
       "ingredient_id": 2346,
-      "name": "grated lime zest",
-      "quantity": "2 tsp"
+      "name": "lime zest",
+      "quantity": "2 tsp",
+      "prep": "grated"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice, divided",
-      "quantity": "2 tbsp"
+      "ingredient_id": 228,
+      "name": "lime, divided",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tbsp",
+          "name": "lime juice, divided"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 346,
@@ -103,8 +112,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Melt the unsalted butter. Hull and slice the fresh strawberries. Heat the tap water.",
-      "secondary_message": "6 tbsp unsalted butter, divided\n1 lb fresh strawberries\n¾ cup tap water"
+      "primary_message": "Melt the unsalted butter. Hull and slice the fresh strawberries. Grate the zest from the lime. Juice the lime. Heat the tap water.",
+      "secondary_message": "6 tbsp unsalted butter, divided\n1 lb fresh strawberries\n2 tsp lime zest\n1 lime, divided\n¾ cup tap water"
     },
     {
       "id": 1,

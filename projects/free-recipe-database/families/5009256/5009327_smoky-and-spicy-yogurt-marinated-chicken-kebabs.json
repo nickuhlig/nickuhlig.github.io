@@ -51,9 +51,17 @@
       "quantity": "1 cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 2 lemons",
-      "quantity": "¼ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¼ cup",
+          "name": "lemon juice, from 2 lemons"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -62,8 +70,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "finely grated peeled fresh ginger",
-      "quantity": "1 tbsp"
+      "name": "fresh ginger",
+      "quantity": "1 tbsp",
+      "prep": "peeled and finely grated"
     },
     {
       "ingredient_id": 88,
@@ -107,6 +116,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemons. Peel and finely grate the ginger.",
+      "secondary_message": "1 ½ lemons\n1 tbsp fresh ginger"
+    },
     {
       "id": 1,
       "primary_message": "Whisk together yogurt, lemon juice, oil, ginger, salt, smoked paprika, hot paprika, garlic, black pepper, cumin, and cayenne pepper in a medium bowl. Place chicken in a large resealable plastic bag. Pour in marinade and seal bag, removing as much air as possible. Place in refrigerator and marinate for 4 to 8 hours.",

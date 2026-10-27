@@ -56,9 +56,17 @@
       "quantity": "3 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 287,
@@ -72,36 +80,48 @@
     },
     {
       "ingredient_id": 470,
-      "name": "thinly sliced fennel",
-      "quantity": "2 cups"
+      "name": "fennel",
+      "quantity": "2 cups",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2558,
-      "name": "thinly sliced celery root",
-      "quantity": "2 cups"
+      "name": "celery root",
+      "quantity": "2 cups",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 159,
-      "name": "thinly sliced carrot",
-      "quantity": "2 cups"
+      "name": "carrot",
+      "quantity": "2 cups",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 13,
-      "name": "thinly sliced beet",
-      "quantity": "2 cups"
+      "name": "beet",
+      "quantity": "2 cups",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 144,
-      "name": "thinly sliced shallots",
-      "quantity": "¾ cup"
+      "name": "shallots",
+      "quantity": "¾ cup",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 106,
-      "name": "roughly chopped flat-leaf parsley",
-      "quantity": "1 cup"
+      "name": "flat-leaf parsley",
+      "quantity": "1 cup",
+      "prep": "roughly chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon. Thinly slice the fennel. Thinly slice the celery root. Thinly slice the carrot. Thinly slice the beet. Thinly slice the shallots. Pick the parsley leaves from the stems and roughly chop them.",
+      "secondary_message": "½ lemon\n2 cups fennel\n2 cups celery root\n2 cups carrot\n2 cups beet\n¾ cup shallots\n1 cup flat-leaf parsley"
+    },
     {
       "id": 1,
       "primary_message": "Adjust an oven rack to the center position and preheat the oven to 150°C (300°F). Pat duck legs dry with paper towels, then season with salt and pepper. Set skin-side down in a wide, oven-safe non-stick or cast iron skillet. Set over medium heat and cook until the skin is golden brown and begins to crisp, about 8 minutes. Transfer the skillet to the oven. Roast for 1 hour, then flip the duck legs, and roast for another hour.",

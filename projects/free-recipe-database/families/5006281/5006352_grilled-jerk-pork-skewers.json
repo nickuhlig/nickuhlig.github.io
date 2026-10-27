@@ -72,8 +72,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "finely chopped fresh ginger",
-      "quantity": "2 tbsp"
+      "name": "fresh ginger",
+      "quantity": "2 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 346,
@@ -81,9 +82,17 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "fresh lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1469,
@@ -112,8 +121,9 @@
     },
     {
       "ingredient_id": 2346,
-      "name": "freshly grated lime zest",
-      "quantity": "½ tsp"
+      "name": "lime zest",
+      "quantity": "½ tsp",
+      "prep": "freshly grated"
     },
     {
       "ingredient_id": 47,
@@ -140,8 +150,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Seed the habanero bonnet chile. Lightly chop the scallions.",
-      "secondary_message": "1 habanero bonnet chile\n4 scallions, white and green parts"
+      "primary_message": "Seed the habanero bonnet chile. Lightly chop the scallions. Finely chop the ginger. Juice the lime. Grate the zest from the lime.",
+      "secondary_message": "1 habanero bonnet chile\n4 scallions, white and green parts\n2 tbsp fresh ginger\n½ lime\n½ tsp lime zest"
     },
     {
       "id": 1,

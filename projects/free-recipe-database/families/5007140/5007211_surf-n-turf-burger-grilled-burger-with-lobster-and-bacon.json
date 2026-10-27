@@ -45,14 +45,23 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 270,
-      "name": "finely chopped chives",
-      "quantity": "1 tbsp"
+      "name": "chives",
+      "quantity": "1 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 88,
@@ -94,8 +103,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Chop the cooked lobster meat into 1/4-inch pieces.",
-      "secondary_message": "0.23 kg cooked lobster meat"
+      "primary_message": "Chop the cooked lobster meat into 1/4-inch pieces. Juice the lemon. Finely chop the chives.",
+      "secondary_message": "0.23 kg cooked lobster meat\n½ lemon\n1 tbsp chives"
     },
     {
       "id": 1,

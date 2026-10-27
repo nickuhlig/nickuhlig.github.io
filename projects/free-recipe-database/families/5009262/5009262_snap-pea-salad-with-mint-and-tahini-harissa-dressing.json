@@ -52,14 +52,22 @@
       "quantity": "1 medium clove"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 lemon divided",
-      "quantity": "2 tbsp"
-    },
-    {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from 1 lemon divided",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice, from 1 lemon divided"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tsp",
+          "name": "lemon zest, from 1 lemon divided"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 334,
@@ -103,8 +111,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Pull off the ends and strings of the snap peas. Finely mince the shallot. Finely mince the mint leaves.",
-      "secondary_message": "1 lb snap peas\n1 small shallot\n12 mint leaves"
+      "primary_message": "Pull off the ends and strings of the snap peas. Zest and juice the lemon. Finely mince the shallot. Pick the mint leaves from the stems and finely mince them.",
+      "secondary_message": "1 lb snap peas\n1 lemon\n1 small shallot\n12 mint leaves"
     },
     {
       "id": 1,

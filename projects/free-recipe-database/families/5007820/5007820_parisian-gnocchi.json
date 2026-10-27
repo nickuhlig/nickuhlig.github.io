@@ -69,8 +69,9 @@
     },
     {
       "ingredient_id": 120,
-      "name": "freshly grated Parmesan cheese",
-      "quantity": "½ cup (1 oz)"
+      "name": "Parmesan cheese",
+      "quantity": "½ cup (1 oz)",
+      "prep": "freshly grated"
     },
     {
       "ingredient_id": 121,
@@ -79,13 +80,15 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "chopped fresh parsley leaves",
-      "quantity": "2 tbsp"
+      "name": "fresh parsley leaves",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 270,
-      "name": "finely sliced chives",
-      "quantity": "2 tbsp"
+      "name": "chives",
+      "quantity": "2 tbsp",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 47,
@@ -94,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Freshly grate the Parmesan cheese. Pick the parsley leaves from the stems and chop them. Finely slice the chives.",
+      "secondary_message": "½ cup (1 oz) Parmesan cheese\n2 tbsp fresh parsley leaves\n2 tbsp chives"
+    },
     {
       "id": 1,
       "primary_message": "Bring water, butter, and salt to a boil in a medium saucepan over high heat. Add flour all at once and stir with a wooden spoon until a smooth dough forms. Reduce heat to medium-low and continue to stir, beating dough forcefully and rapidly to prevent it from sticking to the pot. Continue cooking until dough pulls away from sides of pot leaving a thin layer and steams slightly.",

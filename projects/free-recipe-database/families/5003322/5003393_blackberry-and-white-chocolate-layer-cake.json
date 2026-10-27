@@ -46,14 +46,27 @@
       "quantity": "1 ¾ cups"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from 3 whole lemons",
-      "quantity": "2 tbsp"
-    },
-    {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 3 whole lemons",
-      "quantity": "¼ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "8",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¼ cup",
+          "name": "lemon juice, from 3 whole lemons"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "2 tbsp",
+          "name": "lemon zest, from 3 whole lemons"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tbsp",
+          "name": "lemon zest, from 6 to 8 whole lemons"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 2050,
@@ -104,14 +117,17 @@
       "quantity": "1 ½ cups"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from 6 to 8 whole lemons",
-      "quantity": "1 tbsp"
-    },
-    {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 6 to 8 whole lemons",
-      "quantity": "¾ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "4",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¾ cup",
+          "name": "lemon juice, from 6 to 8 whole lemons"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 116,
@@ -174,9 +190,17 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -193,8 +217,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Bring the milk to room temperature. Separate the eggs and bring them to room temperature. Bring the unsalted butter to room temperature.",
-      "secondary_message": "¾ cup milk\n4 large eggs\n0.45 kg unsalted butter"
+      "primary_message": "Zest and juice the lemons. Bring the milk to room temperature. Separate the eggs and bring them to room temperature. Bring the unsalted butter to room temperature. Juice the lemons. Juice the lemon.",
+      "secondary_message": "8 lemons\n¾ cup milk\n4 large eggs\n0.45 kg unsalted butter\n4 lemons\n½ lemon"
     },
     {
       "id": 1,

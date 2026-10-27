@@ -64,9 +64,17 @@
       "prep": "halved"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice, from 3 limes",
-      "quantity": "¼ cup"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "¼ cup",
+          "name": "fresh lime juice, from 3 limes"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -97,16 +105,17 @@
     },
     {
       "ingredient_id": 188,
-      "name": "chopped fresh cilantro leaves",
-      "quantity": "¼ cup"
+      "name": "fresh cilantro leaves",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the thick-cut bacon into 1/2-inch pieces. Shuck the fresh corn. Halve the tomato. Mince or grate the garlic. Halve the cherry tomatoes.",
-      "secondary_message": "6 slices thick-cut bacon\n6 ears fresh corn\n1 medium tomato\n1 small clove garlic\n10 oz cherry tomatoes"
+      "primary_message": "Cut the thick-cut bacon into 1/2-inch pieces. Shuck the fresh corn. Halve the tomato. Juice the limes. Mince or grate the garlic. Halve the cherry tomatoes. Pick the cilantro leaves from the stems and chop them.",
+      "secondary_message": "6 slices thick-cut bacon\n6 ears fresh corn\n1 medium tomato\n2 limes\n1 small clove garlic\n10 oz cherry tomatoes\n¼ cup fresh cilantro leaves"
     },
     {
       "id": 1,

@@ -73,8 +73,9 @@
     },
     {
       "ingredient_id": 120,
-      "name": "grated parmesan",
-      "quantity": "¼ cup"
+      "name": "parmesan",
+      "quantity": "¼ cup",
+      "prep": "grated"
     },
     {
       "ingredient_id": 115,
@@ -83,6 +84,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the parmesan.",
+      "secondary_message": "¼ cup parmesan"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 450°F. Pour a drizzle of olive oil into each of two gratin dishes, and use your fingers to grease the inside of the dish. Arrange the scallops and tomatoes in an even layer between the two dishes, and season with salt and pepper.",

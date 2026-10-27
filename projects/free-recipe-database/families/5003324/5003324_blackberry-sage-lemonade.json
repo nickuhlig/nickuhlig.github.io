@@ -42,9 +42,17 @@
       "quantity": "1 quart"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "6",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 cup",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 346,
@@ -73,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemons.",
+      "secondary_message": "6 lemons"
+    },
     {
       "id": 1,
       "primary_message": "Combine blackberries, lemon juice, sugar, and salt in a blender. Blend on high speed until smooth, about 1 minute. Meanwhile, place sage leaves in bottom of pitcher and muddle briefly with a wooden spoon. Strain blackberry puree through a fine mesh strainer into pitcher. Discard solids. Add cold water and whisk to combine. Add ice. Serve in ice-filled glasses garnished with blackberries and sage leaves clapped between your hands.",

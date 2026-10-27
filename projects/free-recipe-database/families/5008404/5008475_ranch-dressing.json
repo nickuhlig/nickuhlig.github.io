@@ -54,23 +54,34 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "finely chopped fresh parsley",
-      "quantity": "1 tbsp"
+      "name": "fresh parsley",
+      "quantity": "1 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 270,
-      "name": "finely chopped fresh chives",
-      "quantity": "1 tsp"
+      "name": "fresh chives",
+      "quantity": "1 tsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 320,
-      "name": "finely chopped fresh dill",
-      "quantity": "1 tsp"
+      "name": "fresh dill",
+      "quantity": "1 tsp",
+      "prep": "finely chopped"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 117,
@@ -94,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the parsley leaves from the stems and finely chop them. Finely chop the chives. Pick the dill fronds from the stems and finely chop them. Juice the lemon.",
+      "secondary_message": "1 tbsp fresh parsley\n1 tsp fresh chives\n1 tsp fresh dill\n½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, whisk together buttermilk, sour cream, and mayo. Mix in parsley, chives, dill, lemon juice, mustard, onion powder, salt, and black pepper. Place in an airtight container and refrigerate for at least one hour before using. Store up to one week in the refrigerator.",

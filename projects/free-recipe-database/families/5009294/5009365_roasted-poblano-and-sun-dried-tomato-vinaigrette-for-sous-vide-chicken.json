@@ -55,14 +55,23 @@
       "quantity": "½ tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 1 lemon",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "fresh lemon juice, from 1 lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 243,
-      "name": "minced fresh mint leaves",
-      "quantity": "1 tbsp"
+      "name": "fresh mint leaves",
+      "quantity": "1 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 144,
@@ -90,8 +99,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely mince the shallot.",
-      "secondary_message": "1 medium shallot"
+      "primary_message": "Juice the lemon. Pick the mint leaves from the stems and mince them. Finely mince the shallot.",
+      "secondary_message": "½ lemon\n1 tbsp fresh mint leaves\n1 medium shallot"
     },
     {
       "id": 1,

@@ -74,14 +74,23 @@
       "quantity": "½ tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "4 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "4 tsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2346,
-      "name": "grated lemon zest",
-      "quantity": "1 tsp"
+      "name": "lemon zest",
+      "quantity": "1 tsp",
+      "prep": "grated"
     },
     {
       "ingredient_id": 32,
@@ -98,8 +107,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thinly slice the garlic. Drain and rinse the cannellini beans. Cut the cold unsalted butter into small pieces.",
-      "secondary_message": "12 cloves garlic\n2 (425 g) cans cannellini beans\n2 tbsp cold unsalted butter"
+      "primary_message": "Thinly slice the garlic. Drain and rinse the cannellini beans. Cut the cold unsalted butter into small pieces. Juice the lemon. Grate the zest from the lemon.",
+      "secondary_message": "12 cloves garlic\n2 (425 g) cans cannellini beans\n2 tbsp cold unsalted butter\n½ lemon\n1 tsp lemon zest"
     },
     {
       "id": 1,

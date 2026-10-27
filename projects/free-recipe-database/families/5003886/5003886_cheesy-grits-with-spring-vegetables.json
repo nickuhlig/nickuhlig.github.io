@@ -100,8 +100,9 @@
     },
     {
       "ingredient_id": 120,
-      "name": "grated Parmigiano-Reggiano",
-      "quantity": "1 oz"
+      "name": "Parmesan cheese",
+      "quantity": "1 oz",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1044,
@@ -120,29 +121,40 @@
       "prep": "finely minced"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from 1 lemon",
-      "quantity": "1 tsp"
-    },
-    {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 lemon",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice, from 1 lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tsp",
+          "name": "lemon zest, from 1 lemon"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 270,
-      "name": "minced fresh chives",
-      "quantity": "2 tbsp"
+      "name": "fresh chives",
+      "quantity": "2 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1808,
-      "name": "minced fresh parsley leaves",
-      "quantity": "2 tbsp"
+      "name": "fresh parsley leaves",
+      "quantity": "2 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2221,
-      "name": "minced fresh tarragon",
-      "quantity": "2 tbsp"
+      "name": "fresh tarragon",
+      "quantity": "2 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 121,
@@ -155,8 +167,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely mince the shallot. Keep the poached eggs warm in a bowl of hot water.",
-      "secondary_message": "1 medium shallot\n4 poached eggs"
+      "primary_message": "Grate the Parmesan cheese. Finely mince the shallot. Zest and juice the lemon. Mince the chives. Pick the parsley leaves from the stems and mince them. Pick the tarragon leaves from the stems and mince them. Keep the poached eggs warm in a bowl of hot water.",
+      "secondary_message": "1 oz Parmesan cheese\n1 medium shallot\n1 lemon\n2 tbsp fresh chives\n2 tbsp fresh parsley leaves\n2 tbsp fresh tarragon\n4 poached eggs"
     },
     {
       "id": 1,

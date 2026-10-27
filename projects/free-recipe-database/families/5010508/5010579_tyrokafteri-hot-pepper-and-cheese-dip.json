@@ -69,17 +69,25 @@
       "quantity": "¼ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Crumble the feta cheese.",
-      "secondary_message": "0.3 kg feta cheese"
+      "primary_message": "Crumble the feta cheese. Juice the lemon.",
+      "secondary_message": "0.3 kg feta cheese\n1 lemon"
     },
     {
       "id": 1,

@@ -45,9 +45,17 @@
       "prep": "rind removed, cut into 1-inch chunks"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2346,
@@ -57,8 +65,9 @@
     },
     {
       "ingredient_id": 243,
-      "name": "roughly chopped fresh mint leaves",
-      "quantity": "¼ cup"
+      "name": "fresh mint leaves",
+      "quantity": "¼ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 47,
@@ -85,8 +94,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Remove the rind from the seedless watermelon, then cut it into 1-inch chunks. Remove the zest with a sharp vegetable peeler.",
-      "secondary_message": "3 lb seedless watermelon\n4 (2 inch) strips zest"
+      "primary_message": "Remove the rind from the seedless watermelon, then cut it into 1-inch chunks. Juice the lemon. Remove the zest with a sharp vegetable peeler. Pick the mint leaves from the stems and roughly chop them.",
+      "secondary_message": "3 lb seedless watermelon\n½ lemon\n4 (2 inch) strips zest\n¼ cup fresh mint leaves"
     },
     {
       "id": 1,

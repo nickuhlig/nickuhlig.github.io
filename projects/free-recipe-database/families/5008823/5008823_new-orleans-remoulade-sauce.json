@@ -47,14 +47,23 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "freshly squeezed lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 106,
-      "name": "finely chopped flat-leaf parsley",
-      "quantity": "1 tbsp"
+      "name": "flat-leaf parsley",
+      "quantity": "1 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 448,
@@ -109,8 +118,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the garlic. Roughly chop the capers. Finely chop the scallion.",
-      "secondary_message": "2 cloves garlic\n2 tsp capers\n1 scallion"
+      "primary_message": "Juice the lemon. Pick the parsley leaves from the stems and finely chop them. Mince the garlic. Roughly chop the capers. Finely chop the scallion.",
+      "secondary_message": "½ lemon\n1 tbsp flat-leaf parsley\n2 cloves garlic\n2 tsp capers\n1 scallion"
     },
     {
       "id": 1,

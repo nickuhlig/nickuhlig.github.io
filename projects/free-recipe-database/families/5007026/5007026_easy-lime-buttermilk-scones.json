@@ -67,9 +67,17 @@
       "prep": "cut into cubes"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lightly packed zest, from 2 whole limes",
-      "quantity": "2 tbsp"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "2 tbsp",
+          "name": "lightly packed zest, from 2 whole limes"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 121,
@@ -86,8 +94,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the cold unsalted butter into cubes.",
-      "secondary_message": "9 tbsp (4 ½ oz) cold unsalted butter"
+      "primary_message": "Cut the cold unsalted butter into cubes. Zest the limes.",
+      "secondary_message": "9 tbsp (4 ½ oz) cold unsalted butter\n2 limes"
     },
     {
       "id": 1,

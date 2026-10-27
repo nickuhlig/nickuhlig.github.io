@@ -59,14 +59,23 @@
       "prep": "minced"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice, plus 1 whole lime cut into 8 segments",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime, plus 1 whole lime cut into 8 segments",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice, plus 1 whole lime cut into 8 segments"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 188,
-      "name": "roughly chopped cilantro leaves, divided",
-      "quantity": "3 tbsp"
+      "name": "cilantro leaves, divided",
+      "quantity": "3 tbsp",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 27,
@@ -84,8 +93,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the garlic. Shuck the corn.",
-      "secondary_message": "2 medium cloves garlic\n8 ears corn"
+      "primary_message": "Mince the garlic. Juice the lime. Pick the cilantro leaves from the stems and roughly chop them. Shuck the corn.",
+      "secondary_message": "2 medium cloves garlic\n½ lime, plus 1 whole lime cut into 8 segments\n3 tbsp cilantro leaves, divided\n8 ears corn"
     },
     {
       "id": 1,

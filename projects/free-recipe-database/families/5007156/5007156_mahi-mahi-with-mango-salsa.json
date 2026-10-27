@@ -32,14 +32,15 @@
   "ingredients": [
     {
       "ingredient_id": 229,
-      "name": "peeled mango",
+      "name": "mango",
       "quantity": "2 ½ cups",
-      "prep": "chopped"
+      "prep": "peeled, chopped"
     },
     {
       "ingredient_id": 184,
-      "name": "diced red onion",
-      "quantity": "1 cup"
+      "name": "red onion",
+      "quantity": "1 cup",
+      "prep": "diced"
     },
     {
       "ingredient_id": 151,
@@ -53,19 +54,29 @@
       "quantity": "1 tsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "3 tbsp"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "3 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 150,
-      "name": "chopped red bell pepper",
-      "quantity": "1 ¼ cups"
+      "name": "red bell pepper",
+      "quantity": "1 ¼ cups",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 188,
-      "name": "chopped cilantro",
-      "quantity": "¼ cup"
+      "name": "cilantro",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 3164,
@@ -92,8 +103,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Chop the peeled mango. Finely dice the jalapeño.",
-      "secondary_message": "2 ½ cups peeled mango\n1 jalapeño"
+      "primary_message": "Peel and chop the mango. Dice the red onion. Finely dice the jalapeño. Juice the limes. Chop the red bell pepper. Pick the cilantro leaves from the stems and chop them.",
+      "secondary_message": "2 ½ cups mango\n1 cup red onion\n1 jalapeño\n1 ½ limes\n1 ¼ cups red bell pepper\n¼ cup cilantro"
     },
     {
       "id": 1,

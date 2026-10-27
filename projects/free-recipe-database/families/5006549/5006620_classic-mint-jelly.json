@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 243,
-      "name": "packed chopped fresh mint leaves and stems",
-      "quantity": "2 cups"
+      "name": "packed fresh mint leaves and stems",
+      "quantity": "2 cups",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 133,
@@ -81,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the mint leaves from the stems and chop them.",
+      "secondary_message": "2 cups packed fresh mint leaves and stems"
+    },
     {
       "id": 1,
       "primary_message": "Whisk the sugar and pectin together in a medium bowl. Set aside.",

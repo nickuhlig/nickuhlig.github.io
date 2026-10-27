@@ -42,9 +42,17 @@
       "quantity": "1 ½ oz"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "2 oz"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 oz",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1067,
@@ -58,6 +66,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the limes.",
+      "secondary_message": "2 limes"
+    },
     {
       "id": 1,
       "primary_message": "Place all ingredients in a blender and blend until smooth. Fill a cocktail shaker with ice, pour blended mixture into shaker, shake until very cold. Strain through fine-mesh strainer into 2 cocktail glasses.",

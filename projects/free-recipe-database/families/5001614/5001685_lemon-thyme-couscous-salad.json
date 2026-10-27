@@ -46,14 +46,23 @@
       "prep": "zested"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1677,
-      "name": "finely chopped fresh thyme leaves, plus more for garnish",
-      "quantity": "2 tbsp"
+      "name": "fresh thyme leaves, plus more for garnish",
+      "quantity": "2 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
@@ -83,21 +92,23 @@
     },
     {
       "ingredient_id": 29,
-      "name": "chopped toasted almonds, plus more for garnish",
-      "quantity": "½ cup"
+      "name": "toasted almonds, plus more for garnish",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 215,
-      "name": "chopped dried apricots",
-      "quantity": "½ cup"
+      "name": "dried apricots",
+      "quantity": "½ cup",
+      "prep": "chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Zest the lemons. Finely mince and grate the garlic.",
-      "secondary_message": "2 lemons\n2 cloves garlic, or pressed"
+      "primary_message": "Zest the lemons. Juice the lemon. Pick the thyme leaves from the stems and finely chop them. Finely mince and grate the garlic. Chop the toasted almonds. Chop the dried apricots.",
+      "secondary_message": "2 lemons\n1 lemon\n2 tbsp fresh thyme leaves, plus more for garnish\n2 cloves garlic, or pressed\n½ cup toasted almonds, plus more for garnish\n½ cup dried apricots"
     },
     {
       "id": 1,

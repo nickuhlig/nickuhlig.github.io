@@ -80,13 +80,15 @@
     },
     {
       "ingredient_id": 43,
-      "name": "finely shredded sharp cheddar cheese",
-      "quantity": "55 g"
+      "name": "sharp cheddar cheese",
+      "quantity": "55 g",
+      "prep": "finely shredded"
     },
     {
       "ingredient_id": 106,
-      "name": "finely chopped fresh flat-leaf parsley leaves",
-      "quantity": "2 tbsp"
+      "name": "fresh flat-leaf parsley leaves",
+      "quantity": "2 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 136,
@@ -140,6 +142,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely shred the sharp cheddar cheese. Pick the parsley leaves from the stems and finely chop them.",
+      "secondary_message": "55 g sharp cheddar cheese\n2 tbsp fresh flat-leaf parsley leaves"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack 15 cm from broiler element and preheat broiler on high setting. In a large bowl, combine bread and milk and let sit until bread is softened and milk is absorbed, about 5 minutes. Using a fork, mash bread mixture until it forms a paste. Add ground beef, ground pork, cheese, parsley, Worcestershire sauce, garlic powder, onion powder, and oregano. Using clean hands, gently mix until thoroughly combined.",

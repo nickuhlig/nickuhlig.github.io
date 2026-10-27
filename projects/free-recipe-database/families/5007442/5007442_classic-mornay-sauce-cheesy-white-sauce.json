@@ -66,11 +66,18 @@
     },
     {
       "ingredient_id": 1236,
-      "name": "finely grated Swiss cheese",
-      "quantity": "2 oz"
+      "name": "Swiss cheese",
+      "quantity": "2 oz",
+      "prep": "finely grated"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely grate the Swiss cheese.",
+      "secondary_message": "2 oz Swiss cheese"
+    },
     {
       "id": 1,
       "primary_message": "In a small saucepan, melt butter over medium-high heat (do not allow it to brown). Add flour and whisk to form a paste. Continue to cook, stirring, until raw flour scent is gone, about 1 minute. Whisking constantly, add milk in a thin, steady stream, or in increments of a couple of tablespoons at a time, whisking thoroughly and getting into all corners of the pan to maintain a homogeneous texture. Sauce will initially become very thick, then get very thin once all the milk is added.",

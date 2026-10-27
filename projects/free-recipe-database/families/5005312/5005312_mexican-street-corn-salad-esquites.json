@@ -71,8 +71,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "finely sliced scallions, green parts only",
-      "quantity": "½ cup"
+      "name": "scallions, green parts only",
+      "quantity": "½ cup",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 188,
@@ -98,9 +99,17 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice, from 1 lime",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "fresh lime juice, from 1 lime"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 75,
@@ -112,8 +121,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Shuck the fresh corn, then remove the kernels. Finely crumble the feta cheese. Finely chop the fresh cilantro leaves. Seed, stem, and finely chop the jalapeño pepper. Press or mince the garlic on a Microplane grater.",
-      "secondary_message": "2 ½ cups fresh corn\n2 oz feta cheese\n½ cup (½ oz) fresh cilantro leaves\n1 jalapeño pepper\n1 to 2 medium cloves garlic"
+      "primary_message": "Shuck the fresh corn, then remove the kernels. Finely crumble the feta cheese. Finely slice the scallions. Pick the cilantro leaves from the stems and finely chop them. Seed, stem, and finely chop the jalapeño pepper. Press or mince the garlic on a Microplane grater. Juice the lime.",
+      "secondary_message": "2 ½ cups fresh corn\n2 oz feta cheese\n½ cup scallions, green parts only\n½ cup (½ oz) fresh cilantro leaves\n1 jalapeño pepper\n1 to 2 medium cloves garlic\n½ lime"
     },
     {
       "id": 1,

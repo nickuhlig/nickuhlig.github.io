@@ -48,13 +48,22 @@
     },
     {
       "ingredient_id": 2346,
-      "name": "finely grated zest",
-      "quantity": "2 tsp"
+      "name": "zest",
+      "quantity": "2 tsp",
+      "prep": "finely grated"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "7 tbsp"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "2 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "7 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 24,
@@ -125,8 +134,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the shallot. Finely grate the garlic. Roughly chop the tender stems of the flat-leaf parsley leaves. Toast the walnut halves.",
-      "secondary_message": "1 medium shallot\n4 medium cloves garlic\n¼ cup flat-leaf parsley leaves\n1 cup walnut halves"
+      "primary_message": "Mince the shallot. Finely grate the zest. Juice the lemons. Finely grate the garlic. Roughly chop the tender stems of the flat-leaf parsley leaves. Toast the walnut halves.",
+      "secondary_message": "1 medium shallot\n2 tsp zest\n2 ½ lemons\n4 medium cloves garlic\n¼ cup flat-leaf parsley leaves\n1 cup walnut halves"
     },
     {
       "id": 1,

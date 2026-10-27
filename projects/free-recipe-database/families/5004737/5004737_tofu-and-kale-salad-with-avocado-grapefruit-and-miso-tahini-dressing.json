@@ -63,9 +63,17 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 103,
@@ -98,8 +106,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the firm tofu into 1- by 2- by 1/2-inch squares. Cut the avocado into 1/2-inch chunks.",
-      "secondary_message": "14 oz firm tofu\n1 large avocado"
+      "primary_message": "Cut the firm tofu into 1- by 2- by 1/2-inch squares. Juice the lemon. Cut the avocado into 1/2-inch chunks.",
+      "secondary_message": "14 oz firm tofu\n½ lemon\n1 large avocado"
     },
     {
       "id": 1,

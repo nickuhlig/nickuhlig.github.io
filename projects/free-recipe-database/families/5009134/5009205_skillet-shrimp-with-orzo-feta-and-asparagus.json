@@ -64,18 +64,28 @@
     },
     {
       "ingredient_id": 1811,
-      "name": "peeled and deveined medium shrimp",
-      "quantity": "0.68 kg"
+      "name": "and deveined medium shrimp",
+      "quantity": "0.68 kg",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 1746,
-      "name": "chopped fresh basil leaves",
-      "quantity": "½ cup"
+      "name": "fresh basil leaves",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "4 tbsp"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "4 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -92,8 +102,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the garlic.",
-      "secondary_message": "2 medium cloves garlic"
+      "primary_message": "Mince the garlic. Peel the and deveined medium shrimp. Pick the basil leaves from the stems and chop them. Juice the lemons.",
+      "secondary_message": "2 medium cloves garlic\n0.68 kg and deveined medium shrimp\n½ cup fresh basil leaves\n1 ½ lemons"
     },
     {
       "id": 1,

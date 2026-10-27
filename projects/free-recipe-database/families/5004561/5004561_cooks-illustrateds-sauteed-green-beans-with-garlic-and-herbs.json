@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 1677,
-      "name": "chopped fresh thyme leaves",
-      "quantity": "1 tsp"
+      "name": "fresh thyme leaves",
+      "quantity": "1 tsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 47,
@@ -74,22 +75,31 @@
       "quantity": "¼ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1808,
-      "name": "chopped fresh parsley leaves",
-      "quantity": "1 tbsp"
+      "name": "fresh parsley leaves",
+      "quantity": "1 tbsp",
+      "prep": "chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Soften the unsalted butter. Mince or press the garlic cloves through garlic press.",
-      "secondary_message": "1 tbsp unsalted butter\n3 medium garlic cloves"
+      "primary_message": "Soften the unsalted butter. Mince or press the garlic cloves through garlic press. Pick the thyme leaves from the stems and chop them. Juice the lemon. Pick the parsley leaves from the stems and chop them.",
+      "secondary_message": "1 tbsp unsalted butter\n3 medium garlic cloves\n1 tsp fresh thyme leaves\n½ lemon\n1 tbsp fresh parsley leaves"
     },
     {
       "id": 1,

@@ -112,9 +112,17 @@
       "quantity": "¼ tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 medium lemon",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice, from 1 medium lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 346,
@@ -126,8 +134,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the cream cheese into 1-inch cubes. Separate the yolks and whites of the eggs.",
-      "secondary_message": "1 (8 oz) pkg cream cheese\n6 large eggs"
+      "primary_message": "Cut the cream cheese into 1-inch cubes. Separate the yolks and whites of the eggs. Juice the lemon.",
+      "secondary_message": "1 (8 oz) pkg cream cheese\n6 large eggs\n½ lemon"
     },
     {
       "id": 1,

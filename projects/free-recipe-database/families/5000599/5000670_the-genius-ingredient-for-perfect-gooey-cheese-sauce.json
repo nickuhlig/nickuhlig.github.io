@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 2037,
-      "name": "shredded melting cheese",
-      "quantity": "1 ½ cups"
+      "name": "melting cheese",
+      "quantity": "1 ½ cups",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 1373,
@@ -80,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shred the melting cheese.",
+      "secondary_message": "1 ½ cups melting cheese"
+    },
     {
       "id": 1,
       "primary_message": "In a microwave-safe bowl, stir together water and Alka-Seltzer. Let stand until fizzing stops, about 1 minute.",

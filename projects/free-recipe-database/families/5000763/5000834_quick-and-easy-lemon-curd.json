@@ -55,19 +55,27 @@
   ],
   "ingredients": [
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from 6 medium lemons",
-      "quantity": "⅓ cup"
-    },
-    {
       "ingredient_id": 346,
       "name": "granulated sugar",
       "quantity": "¾ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 6 medium lemons",
-      "quantity": "1 cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "6",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 cup",
+          "name": "lemon juice, from 6 medium lemons"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "⅓ cup",
+          "name": "lemon zest, from 6 medium lemons"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 121,
@@ -95,8 +103,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Soften the unsalted butter.",
-      "secondary_message": "5 tbsp unsalted butter"
+      "primary_message": "Zest and juice the lemons. Soften the unsalted butter.",
+      "secondary_message": "6 lemons\n5 tbsp unsalted butter"
     },
     {
       "id": 1,

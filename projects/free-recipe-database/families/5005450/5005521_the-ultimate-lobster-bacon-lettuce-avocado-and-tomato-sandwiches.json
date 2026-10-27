@@ -48,14 +48,23 @@
       "quantity": "2 to 3 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 270,
-      "name": "finely sliced chives",
-      "quantity": "2 tbsp"
+      "name": "chives",
+      "quantity": "2 tbsp",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 88,
@@ -94,8 +103,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Split the ciabatta in half horizontally. Thinly slice the avocado.",
-      "secondary_message": "2 small loaves ciabatta\n1 avocado"
+      "primary_message": "Juice the lemon. Finely slice the chives. Split the ciabatta in half horizontally. Thinly slice the avocado.",
+      "secondary_message": "½ lemon\n2 tbsp chives\n2 small loaves ciabatta\n1 avocado"
     },
     {
       "id": 1,

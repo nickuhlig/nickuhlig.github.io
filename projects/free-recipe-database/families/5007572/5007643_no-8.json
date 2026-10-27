@@ -33,9 +33,17 @@
   "cookwares": [],
   "ingredients": [
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice",
-      "quantity": "14 g"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "14 g",
+          "name": "fresh lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2703,
@@ -64,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "½ lime"
+    },
     {
       "id": 1,
       "primary_message": "Add lime juice, grapefruit juice, King's Ginger, mezcal, and orange bitters to a cocktail shaker and fill with ice. Shake well. Strain into an ice-filled highball glass, garnish with orange twist or orange wheel and serve.",

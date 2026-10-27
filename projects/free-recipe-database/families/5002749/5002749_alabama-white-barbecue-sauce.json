@@ -63,9 +63,17 @@
       "quantity": "2 tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -84,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "Place mayonnaise, vinegar, apple juice, horseradish, black pepper, lemon juice, salt, mustard powder, and cayenne pepper in a medium bowl and whisk to combine. Let sit for 30 minutes, then use immediately or transfer to a jar and store in refrigerator for up to 2 weeks.",

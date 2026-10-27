@@ -44,14 +44,22 @@
   ],
   "ingredients": [
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "2 tbsp"
-    },
-    {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from 1 medium lemon",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "fresh lemon juice"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tsp",
+          "name": "lemon zest, from 1 medium lemon"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 117,
@@ -71,8 +79,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "finely chopped shallot, from 1 medium shallot",
-      "quantity": "2 tbsp"
+      "name": "shallot, from 1 medium shallot",
+      "quantity": "2 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 88,
@@ -89,8 +98,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Grate the garlic.",
-      "secondary_message": "1 medium clove garlic"
+      "primary_message": "Zest and juice the lemon. Grate the garlic. Finely chop the shallot.",
+      "secondary_message": "1 lemon\n1 medium clove garlic\n2 tbsp shallot, from 1 medium shallot"
     },
     {
       "id": 1,

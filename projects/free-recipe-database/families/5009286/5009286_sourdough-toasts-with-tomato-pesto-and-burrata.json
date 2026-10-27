@@ -75,14 +75,22 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from about half a lemon",
-      "quantity": "1 tbsp"
-    },
-    {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from about half a lemon",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "fresh lemon juice, from about half a lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tsp",
+          "name": "lemon zest, from about half a lemon"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 47,
@@ -132,8 +140,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Halve the ripe tomatoes, then core the stem ends. Slice the burrata into small pieces.",
-      "secondary_message": "3 ½ ripe tomatoes\n4 oz burrata"
+      "primary_message": "Zest and juice the lemon. Halve the ripe tomatoes, then core the stem ends. Slice the burrata into small pieces.",
+      "secondary_message": "½ lemon\n3 ½ ripe tomatoes\n4 oz burrata"
     },
     {
       "id": 1,

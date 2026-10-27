@@ -44,9 +44,17 @@
       "quantity": "1 oz"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "¼ cup"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "¼ cup",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 3509,
@@ -65,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the limes.",
+      "secondary_message": "2 limes"
+    },
     {
       "id": 1,
       "primary_message": "Use kitchen shears to trim stems from all chilies. Discard stems. Place chilies on a microwave-safe plate and microwave on high power until fragrant and pliable, about 20 seconds total, adding time in 5-second increments if chilies do not smell toasted after the initial 20.",

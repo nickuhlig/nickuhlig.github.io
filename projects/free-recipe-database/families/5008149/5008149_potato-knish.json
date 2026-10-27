@@ -70,9 +70,17 @@
       "quantity": "½ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 lemon",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "lemon juice, from 1 lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 359,
@@ -103,8 +111,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "finely sliced scallion whites and greens",
-      "quantity": "½ cup"
+      "name": "scallion whites and greens",
+      "quantity": "½ cup",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 121,
@@ -117,8 +126,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Beat the egg. Peel and cut the russet potatoes into 1 inch pieces. Beat the egg.",
-      "secondary_message": "1 large egg\n2 medium russet potatoes\n1 large egg"
+      "primary_message": "Beat the egg. Juice the lemon. Peel and cut the russet potatoes into 1 inch pieces. Finely slice the scallion whites and greens. Beat the egg.",
+      "secondary_message": "1 large egg\n½ lemon\n2 medium russet potatoes\n½ cup scallion whites and greens\n1 large egg"
     },
     {
       "id": 1,

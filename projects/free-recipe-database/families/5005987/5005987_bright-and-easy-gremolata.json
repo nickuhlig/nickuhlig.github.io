@@ -33,21 +33,30 @@
   "ingredients": [
     {
       "ingredient_id": 1808,
-      "name": "minced fresh parsley",
-      "quantity": "¼ cup"
+      "name": "fresh parsley",
+      "quantity": "¼ cup",
+      "prep": "minced"
     },
     {
       "ingredient_id": 24,
-      "name": "minced fresh garlic",
-      "quantity": "2 tsp"
+      "name": "fresh garlic",
+      "quantity": "2 tsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2346,
-      "name": "grated lemon zest",
-      "quantity": "2 tsp"
+      "name": "lemon zest",
+      "quantity": "2 tsp",
+      "prep": "grated"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the parsley leaves from the stems and mince them. Mince the garlic. Grate the zest from the lemon.",
+      "secondary_message": "¼ cup fresh parsley\n2 tsp fresh garlic\n2 tsp lemon zest"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl mix together parsley, garlic, and lemon zest. Use immediately.",

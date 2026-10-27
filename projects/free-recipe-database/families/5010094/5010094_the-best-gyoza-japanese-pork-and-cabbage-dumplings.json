@@ -36,9 +36,10 @@
   "ingredients": [
     {
       "ingredient_id": 292,
-      "name": "finely minced Napa cabbage",
+      "name": "Napa cabbage",
       "quantity": "½ medium head",
-      "weigh_as": "1 lb"
+      "weigh_as": "1 lb",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 88,
@@ -57,19 +58,22 @@
     },
     {
       "ingredient_id": 24,
-      "name": "minced fresh garlic",
-      "quantity": "1 tbsp"
+      "name": "fresh garlic",
+      "quantity": "1 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 221,
-      "name": "minced fresh ginger",
-      "quantity": "1 tsp"
+      "name": "fresh ginger",
+      "quantity": "1 tsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 153,
-      "name": "minced scallions",
+      "name": "scallions",
       "quantity": "¾ small bunch",
-      "weigh_as": "2 oz"
+      "weigh_as": "2 oz",
+      "prep": "minced"
     },
     {
       "ingredient_id": 346,
@@ -98,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the Napa cabbage. Mince the garlic. Mince the ginger. Mince the scallions.",
+      "secondary_message": "½ medium head Napa cabbage\n1 tbsp fresh garlic\n1 tsp fresh ginger\n¾ small bunch scallions"
+    },
     {
       "id": 1,
       "primary_message": "For the Dumplings: Combine cabbage and 2 teaspoons salt in a large bowl and toss to combine. Transfer to a fine mesh strainer and set over the bowl. Let stand at room temperature for 15 minutes.",

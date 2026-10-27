@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 2812,
-      "name": "shaved katsuobushi",
-      "quantity": "½ oz"
+      "name": "katsuobushi",
+      "quantity": "½ oz",
+      "prep": "shaved"
     },
     {
       "ingredient_id": 2971,
@@ -71,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shave the katsuobushi.",
+      "secondary_message": "½ oz katsuobushi"
+    },
     {
       "id": 1,
       "primary_message": "Combine vinegar, mirin, and kombu in a small saucepan. Bring to a simmer. Remove from heat and stir in katsuobushi. Cover and let steep for 10 minutes. Strain through a fine-mesh strainer and discard solids (or reserve to make a second batch, using some additional katsuobushi in the second batch). Allow liquid to cool completely.",

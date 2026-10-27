@@ -52,12 +52,26 @@
       "quantity": "14 g"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice, from 1 whole lemon",
-      "quantity": "14 g"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "14 g",
+          "name": "freshly squeezed lemon juice, from 1 whole lemon"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "Add rum, rye, brandy, grenadine, and lemon juice to a cocktail shaker filled with ice. Shake until well chilled. Strain into a cocktail glass. Garnish with a lemon twist and serve.",

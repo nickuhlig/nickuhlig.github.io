@@ -95,9 +95,17 @@
       "quantity": "1 tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "3 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "3 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1710,
@@ -109,8 +117,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Bring the butter to room temperature. Bring the eggs to room temperature.",
-      "secondary_message": "1 ½ sticks butter\n2 large eggs"
+      "primary_message": "Bring the butter to room temperature. Bring the eggs to room temperature. Juice the lemon.",
+      "secondary_message": "1 ½ sticks butter\n2 large eggs\n1 lemon"
     },
     {
       "id": 1,

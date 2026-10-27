@@ -54,9 +54,17 @@
       "quantity": "1 cup"
     },
     {
-      "ingredient_id": 2346,
-      "name": "orange zest, from 1 large orange",
-      "quantity": "3 (1 inch) strips"
+      "ingredient_id": 232,
+      "name": "orange",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "3 (1 inch) strips",
+          "name": "orange zest, from 1 large orange"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 293,
@@ -70,6 +78,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the orange.",
+      "secondary_message": "1 orange"
+    },
     {
       "id": 1,
       "primary_message": "In a large saucepan, add masa and set over medium heat. Immediately add water in a slow, thin stream while whisking constantly to avoid lumps. Bring to a simmer and whisk in milk, orange zest strips, star anise (if using), brown sugar, and a generous pinch of salt.",

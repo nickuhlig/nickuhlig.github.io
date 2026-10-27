@@ -50,9 +50,17 @@
       "quantity": ""
     },
     {
-      "ingredient_id": 1480,
-      "name": "Fresh lemon juice",
-      "quantity": ""
+      "ingredient_id": 192,
+      "name": "Lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "",
+          "name": "Fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -61,6 +69,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "1 Lemon"
+    },
     {
       "id": 1,
       "primary_message": "Pick over the leafy vegetables, discarding any wilted or damaged leaves. Cut lettuce leaves free of their cores, pick tender herbs from stems, and quarter, core, and slice tight leafy heads like radicchio and endive. Wash everything in several changes of water until no dirt or grit remains. Dry well in a salad spinner.",

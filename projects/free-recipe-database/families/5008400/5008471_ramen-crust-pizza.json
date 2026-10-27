@@ -48,8 +48,9 @@
     },
     {
       "ingredient_id": 57,
-      "name": "grated mozzarella cheese",
-      "quantity": "340 g"
+      "name": "mozzarella cheese",
+      "quantity": "340 g",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1126,
@@ -58,11 +59,18 @@
     },
     {
       "ingredient_id": 120,
-      "name": "grated parmesan cheese, divided",
-      "quantity": "57 g"
+      "name": "parmesan cheese, divided",
+      "quantity": "57 g",
+      "prep": "grated"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the mozzarella cheese. Grate the parmesan cheese.",
+      "secondary_message": "340 g mozzarella cheese\n57 g parmesan cheese, divided"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center position and preheat oven to 230°C (450°F). Bring a large pot of salted water to a boil. Add noodles and cook, breaking them apart with tongs, until flexible but not completely softened, about 2 minutes. Drain carefully.",

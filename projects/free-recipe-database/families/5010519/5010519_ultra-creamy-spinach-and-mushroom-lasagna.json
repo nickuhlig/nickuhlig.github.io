@@ -64,8 +64,9 @@
     },
     {
       "ingredient_id": 349,
-      "name": "freshly grated nutmeg",
-      "quantity": "½ tsp"
+      "name": "nutmeg",
+      "quantity": "½ tsp",
+      "prep": "freshly grated"
     },
     {
       "ingredient_id": 88,
@@ -89,8 +90,9 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "chopped fresh parsley, divided",
-      "quantity": "½ cup"
+      "name": "fresh parsley, divided",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 195,
@@ -111,8 +113,9 @@
     },
     {
       "ingredient_id": 287,
-      "name": "minced fresh thyme",
-      "quantity": "2 tsp"
+      "name": "fresh thyme",
+      "quantity": "2 tsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 53,
@@ -120,9 +123,17 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2529,
@@ -142,7 +153,7 @@
     },
     {
       "ingredient_id": 120,
-      "name": "Parmiggiano-Reggiano",
+      "name": "Parmesan cheese",
       "quantity": "2 oz",
       "prep": "grated"
     }
@@ -151,8 +162,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the garlic. Roughly chop the washed fresh spinach leaves. Remove the stems from the button mushrooms, then finely chop them. Finely chop the shallots. Grate the whole milk mozzarella. Grate the Parmiggiano-Reggiano.",
-      "secondary_message": "3 medium cloves garlic\n2 lb washed fresh spinach leaves\n1 ½ lb button mushrooms\n2 medium shallots\n12 oz whole milk mozzarella, divided\n2 oz Parmiggiano-Reggiano"
+      "primary_message": "Mince the garlic. Roughly chop the washed fresh spinach leaves. Freshly grate the nutmeg. Pick the parsley leaves from the stems and chop them. Remove the stems from the button mushrooms, then finely chop them. Finely chop the shallots. Pick the thyme leaves from the stems and mince them. Juice the lemon. Grate the whole milk mozzarella. Grate the Parmesan cheese.",
+      "secondary_message": "3 medium cloves garlic\n2 lb washed fresh spinach leaves\n½ tsp nutmeg\n½ cup fresh parsley, divided\n1 ½ lb button mushrooms\n2 medium shallots\n2 tsp fresh thyme\n½ lemon\n12 oz whole milk mozzarella, divided\n2 oz Parmesan cheese"
     },
     {
       "id": 1,

@@ -86,9 +86,17 @@
       "quantity": "3 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 medium lemon",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice, from 1 medium lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1752,
@@ -126,8 +134,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Quarter the fresh hulled strawberries. Hull and halve the fresh strawberries lengthwise.",
-      "secondary_message": "0.68 kg fresh hulled strawberries\n6 large fresh strawberries"
+      "primary_message": "Quarter the fresh hulled strawberries. Juice the lemon. Hull and halve the fresh strawberries lengthwise.",
+      "secondary_message": "0.68 kg fresh hulled strawberries\n½ lemon\n6 large fresh strawberries"
     },
     {
       "id": 1,

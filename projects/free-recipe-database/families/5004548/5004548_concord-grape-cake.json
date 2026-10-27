@@ -153,17 +153,25 @@
       "quantity": "1 cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Melt the unsalted butter. Bring the eggs to room temperature. Bring the sweet white wine to room temperature. Bring the milk to room temperature. Zest the lemon. Split the Concord grapes in half, then remove the seeds.",
-      "secondary_message": "3 tbsp unsalted butter\n2 large eggs\n⅓ cup sweet white wine\n⅓ cup milk\n1 lemon\n12 oz Concord grapes"
+      "primary_message": "Melt the unsalted butter. Bring the eggs to room temperature. Bring the sweet white wine to room temperature. Bring the milk to room temperature. Zest the lemon. Split the Concord grapes in half, then remove the seeds. Juice the lemon.",
+      "secondary_message": "3 tbsp unsalted butter\n2 large eggs\n⅓ cup sweet white wine\n⅓ cup milk\n1 lemon\n12 oz Concord grapes\n½ lemon"
     },
     {
       "id": 1,

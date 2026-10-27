@@ -53,8 +53,9 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "minced parsley",
-      "quantity": "2 tbsp"
+      "name": "parsley",
+      "quantity": "2 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 47,
@@ -84,9 +85,17 @@
       "prep": "rinsed if packed in oil"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh squeezed lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "fresh squeezed lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -104,8 +113,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the garlic. Rinse the anchovy fillets if packed in oil. Chop the parsley.",
-      "secondary_message": "2 cloves garlic\n4 anchovy fillets\n1 tbsp parsley"
+      "primary_message": "Pick the parsley leaves from the stems and mince them. Mince the garlic. Rinse the anchovy fillets if packed in oil. Juice the lemon. Pick the parsley leaves from the stems and chop them.",
+      "secondary_message": "2 tbsp parsley\n2 cloves garlic\n4 anchovy fillets\n½ lemon\n1 tbsp parsley"
     },
     {
       "id": 1,

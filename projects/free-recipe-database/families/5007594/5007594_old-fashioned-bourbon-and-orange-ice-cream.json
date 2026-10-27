@@ -70,9 +70,17 @@
       "quantity": "5 tbsp"
     },
     {
-      "ingredient_id": 2346,
-      "name": "orange zest, from 1 whole orange",
-      "quantity": "1 tsp"
+      "ingredient_id": 232,
+      "name": "orange",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tsp",
+          "name": "orange zest, from 1 whole orange"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 1736,
@@ -86,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the orange.",
+      "secondary_message": "1 orange"
+    },
     {
       "id": 1,
       "primary_message": "In a heavy saucepan, whisk egg yolks and sugar together until pale in color and thickened. Slowly whisk in cream, then milk. Once fully incorporated, put over medium heat and whisk frequently until a custard forms on the back of a spoon but a swiped finger across the back leaves a clean line.",

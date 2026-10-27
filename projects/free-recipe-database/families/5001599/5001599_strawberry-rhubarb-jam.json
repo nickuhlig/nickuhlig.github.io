@@ -82,9 +82,17 @@
       "prep": "cut into 1-inch pieces"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "3 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "3 tbsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 353,
@@ -96,8 +104,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Wash, hull, and quarter the strawberries. Cut the rhubarb into 1-inch pieces.",
-      "secondary_message": "2 lb strawberries\n2 lb rhubarb"
+      "primary_message": "Wash, hull, and quarter the strawberries. Cut the rhubarb into 1-inch pieces. Juice the lemon.",
+      "secondary_message": "2 lb strawberries\n2 lb rhubarb\n1 lemon"
     },
     {
       "id": 1,

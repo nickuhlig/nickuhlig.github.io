@@ -100,17 +100,25 @@
       "quantity": "½ tsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut through the green cabbage core.",
-      "secondary_message": "½ medium head green cabbage"
+      "primary_message": "Cut through the green cabbage core. Juice the lime.",
+      "secondary_message": "½ medium head green cabbage\n½ lime"
     },
     {
       "id": 1,

@@ -65,17 +65,25 @@
       "quantity": "1.25 kg"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 3 lemons",
-      "quantity": "85 g"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "85 g",
+          "name": "fresh lemon juice, from 3 lemons"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Halve and pit the firm-but-ripe freestone apricots.",
-      "secondary_message": "2.72 kg firm-but-ripe freestone apricots, such as Blenheims"
+      "primary_message": "Halve and pit the firm-but-ripe freestone apricots. Juice the lemons.",
+      "secondary_message": "2.72 kg firm-but-ripe freestone apricots, such as Blenheims\n2 lemons"
     },
     {
       "id": 1,

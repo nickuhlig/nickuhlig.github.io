@@ -46,9 +46,17 @@
       "quantity": "¼ cup"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "¼ cup"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "¼ cup",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 71,
@@ -76,8 +84,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the watermelon into 1-inch thick wedges.",
-      "secondary_message": "1 medium watermelon"
+      "primary_message": "Juice the limes. Cut the watermelon into 1-inch thick wedges.",
+      "secondary_message": "2 limes\n1 medium watermelon"
     },
     {
       "id": 1,

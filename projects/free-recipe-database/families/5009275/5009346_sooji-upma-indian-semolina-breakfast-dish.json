@@ -77,8 +77,9 @@
     },
     {
       "ingredient_id": 159,
-      "name": "diced boiled carrots",
-      "quantity": "¼ cup"
+      "name": "boiled carrots",
+      "quantity": "¼ cup",
+      "prep": "diced"
     },
     {
       "ingredient_id": 275,
@@ -107,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the boiled carrots.",
+      "secondary_message": "¼ cup boiled carrots"
+    },
     {
       "id": 1,
       "primary_message": "Place semolina in cast iron pan and cook over medium heat until toasty but not browned, about 2 minutes. Transfer to a bowl.",

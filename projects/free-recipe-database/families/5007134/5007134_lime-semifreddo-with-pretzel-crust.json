@@ -57,14 +57,23 @@
       "quantity": "1 (14 oz) can"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "½ cup"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "4",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "½ cup",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2346,
-      "name": "finely grated lime zest",
-      "quantity": "2 tsp"
+      "name": "lime zest",
+      "quantity": "2 tsp",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 346,
@@ -97,8 +106,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Melt the unsalted butter. Bring the egg whites to room temperature.",
-      "secondary_message": "5 tbsp unsalted butter\n4 large egg whites"
+      "primary_message": "Melt the unsalted butter. Juice the limes. Finely grate the zest from the lime. Bring the egg whites to room temperature.",
+      "secondary_message": "5 tbsp unsalted butter\n4 limes\n2 tsp lime zest\n4 large egg whites"
     },
     {
       "id": 1,

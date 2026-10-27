@@ -66,9 +66,17 @@
       "quantity": "2 tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, divided",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon, divided",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice, divided"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 72,
@@ -87,11 +95,18 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "picked fresh parsley",
-      "quantity": "¼ cup"
+      "name": "fresh parsley",
+      "quantity": "¼ cup",
+      "prep": "picked"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon. Pick the parsley leaves from the stems.",
+      "secondary_message": "1 lemon, divided\n¼ cup fresh parsley"
+    },
     {
       "id": 1,
       "primary_message": "Place noodles in a large saucepan or skillet and cover with room temperature tap water by 1 inch. Season lightly with salt. Bring to a boil over high heat and cook, stirring occasionally, until almost done (follow package directions for cook times). Drain all but 1 cup of water. Return to high heat and simmer until water is almost completely reduced.",

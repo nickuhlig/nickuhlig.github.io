@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 272,
-      "name": "roughly chopped walnuts",
-      "quantity": "¼ cup"
+      "name": "walnuts",
+      "quantity": "¼ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 24,
@@ -61,13 +62,22 @@
     },
     {
       "ingredient_id": 120,
-      "name": "finely grated fresh parmesan cheese",
-      "quantity": "½ cup"
+      "name": "fresh parmesan cheese",
+      "quantity": "½ cup",
+      "prep": "finely grated"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "freshly squeezed lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -84,8 +94,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Rinse and dry the packed fresh arugula leaves.",
-      "secondary_message": "2 cups packed fresh arugula leaves"
+      "primary_message": "Rinse and dry the packed fresh arugula leaves. Roughly chop the walnuts. Finely grate the parmesan cheese. Juice the lemon.",
+      "secondary_message": "2 cups packed fresh arugula leaves\n¼ cup walnuts\n½ cup fresh parmesan cheese\n½ lemon"
     },
     {
       "id": 1,

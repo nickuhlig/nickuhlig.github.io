@@ -107,8 +107,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "roughly chopped fresh cilantro leaves, tender stems",
-      "quantity": "½ cup"
+      "name": "fresh cilantro leaves, tender stems",
+      "quantity": "½ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 448,
@@ -116,9 +117,17 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "¼ cup"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "¼ cup",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 53,
@@ -132,8 +141,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "finely chopped fresh cilantro leaves, tender stems",
-      "quantity": "¼ cup"
+      "name": "fresh cilantro leaves, tender stems",
+      "quantity": "¼ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2485,
@@ -163,8 +173,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Peel and finely dice the carrots. Finely dice the onion. Finely dice the celery. Mince the garlic on a microplane grater. Grate the fresh ginger on a microplane grater. Mince the garlic on a microplane grater. Grate the fresh ginger on a microplane grater. Grate the orange zest on a microplane grater.",
-      "secondary_message": "2 medium carrots\n1 large onion\n2 stalks celery\n4 cloves garlic\n2 tsp fresh ginger\n2 cloves garlic\n1 tsp fresh ginger\n1 tbsp orange zest"
+      "primary_message": "Peel and finely dice the carrots. Finely dice the onion. Finely dice the celery. Mince the garlic on a microplane grater. Grate the fresh ginger on a microplane grater. Pick the cilantro leaves and tender stems from the thick stems and roughly chop them. Juice the limes. Pick the cilantro leaves and tender stems from the thick stems and finely chop them. Mince the garlic on a microplane grater. Grate the fresh ginger on a microplane grater. Grate the orange zest on a microplane grater.",
+      "secondary_message": "2 medium carrots\n1 large onion\n2 stalks celery\n4 cloves garlic\n2 tsp fresh ginger\n½ cup fresh cilantro leaves, tender stems\n2 limes\n¼ cup fresh cilantro leaves, tender stems\n2 cloves garlic\n1 tsp fresh ginger\n1 tbsp orange zest"
     },
     {
       "id": 1,

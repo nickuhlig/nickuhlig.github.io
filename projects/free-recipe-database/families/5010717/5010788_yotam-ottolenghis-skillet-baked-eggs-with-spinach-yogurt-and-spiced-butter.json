@@ -78,9 +78,17 @@
       "quantity": "0.45 kg"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 121,
@@ -94,16 +102,17 @@
     },
     {
       "ingredient_id": 3654,
-      "name": "chopped fresh oregano",
-      "quantity": "1 tsp"
+      "name": "fresh oregano",
+      "quantity": "1 tsp",
+      "prep": "chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince or press the garlic clove through a garlic press. Chop the leek. Chop the scallions.",
-      "secondary_message": "1 medium garlic clove\n1 large leek\n4 scallions"
+      "primary_message": "Mince or press the garlic clove through a garlic press. Chop the leek. Chop the scallions. Juice the lemon. Pick the oregano leaves from the stems and chop them.",
+      "secondary_message": "1 medium garlic clove\n1 large leek\n4 scallions\n½ lemon\n1 tsp fresh oregano"
     },
     {
       "id": 1,

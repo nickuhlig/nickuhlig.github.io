@@ -64,14 +64,23 @@
       "quantity": "½ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 320,
-      "name": "finely chopped fresh dill",
-      "quantity": "2 tbsp"
+      "name": "fresh dill",
+      "quantity": "2 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 186,
@@ -108,8 +117,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the yellow onions in half through the stem. Rinse the garbanzo beans.",
-      "secondary_message": "2 medium yellow onions\n1 (15 ½ oz) can garbanzo beans"
+      "primary_message": "Cut the yellow onions in half through the stem. Rinse the garbanzo beans. Juice the lemon. Pick the dill fronds from the stems and finely chop them.",
+      "secondary_message": "2 medium yellow onions\n1 (15 ½ oz) can garbanzo beans\n1 lemon\n2 tbsp fresh dill"
     },
     {
       "id": 1,

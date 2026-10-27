@@ -78,8 +78,9 @@
     },
     {
       "ingredient_id": 349,
-      "name": "freshly grated nutmeg",
-      "quantity": "¼ tsp"
+      "name": "nutmeg",
+      "quantity": "¼ tsp",
+      "prep": "freshly grated"
     },
     {
       "ingredient_id": 88,
@@ -143,17 +144,25 @@
       "weigh_as": "1 ¼ lb"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Melt the extra-virgin olive oil butter.",
-      "secondary_message": "¼ cup extra-virgin olive oil, or ghee"
+      "primary_message": "Melt the extra-virgin olive oil butter. Freshly grate the nutmeg. Juice the lemon.",
+      "secondary_message": "¼ cup extra-virgin olive oil, or ghee\n¼ tsp nutmeg\n1 lemon"
     },
     {
       "id": 1,

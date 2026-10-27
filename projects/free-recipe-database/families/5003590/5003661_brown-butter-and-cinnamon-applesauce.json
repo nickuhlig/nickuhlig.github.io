@@ -55,9 +55,17 @@
       "quantity": "⅓ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 74,
@@ -84,8 +92,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Peel, core, and quarter the Golden Delicious Apples. Peel, core, and quarter the Fuji Apples.",
-      "secondary_message": "0.91 kg Golden Delicious Apples\n5 Fuji Apples"
+      "primary_message": "Peel, core, and quarter the Golden Delicious Apples. Peel, core, and quarter the Fuji Apples. Juice the lemon.",
+      "secondary_message": "0.91 kg Golden Delicious Apples\n5 Fuji Apples\n½ lemon"
     },
     {
       "id": 1,

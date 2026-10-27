@@ -39,9 +39,17 @@
       "quantity": "1 cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1338,
@@ -50,8 +58,9 @@
     },
     {
       "ingredient_id": 339,
-      "name": "chopped fresh sage",
-      "quantity": "2 tsp"
+      "name": "fresh sage",
+      "quantity": "2 tsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 144,
@@ -87,16 +96,17 @@
     },
     {
       "ingredient_id": 329,
-      "name": "thinly sliced prosciutto",
-      "quantity": "170 g"
+      "name": "prosciutto",
+      "quantity": "170 g",
+      "prep": "thinly sliced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the shallot. Cut the boneless skinless chicken breasts into 1-inch cubes.",
-      "secondary_message": "1 small shallot\n0.68 kg boneless skinless chicken breasts"
+      "primary_message": "Juice the lemon. Pick the sage leaves from the stems and chop them. Mince the shallot. Cut the boneless skinless chicken breasts into 1-inch cubes. Thinly slice the prosciutto.",
+      "secondary_message": "1 lemon\n2 tsp fresh sage\n1 small shallot\n0.68 kg boneless skinless chicken breasts\n170 g prosciutto"
     },
     {
       "id": 1,

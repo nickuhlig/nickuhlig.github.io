@@ -53,8 +53,9 @@
     },
     {
       "ingredient_id": 270,
-      "name": "chopped chives, plus more for garnish",
-      "quantity": "2 tbsp"
+      "name": "chives, plus more for garnish",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1811,
@@ -93,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the chives.",
+      "secondary_message": "2 tbsp chives, plus more for garnish"
+    },
     {
       "id": 1,
       "primary_message": "Combine mayonnaise, gochujang, yuzu, and chives in medium bowl and whisk to combine. Lay shrimp on paper towel-lined baking sheet and blot to fully dry.",

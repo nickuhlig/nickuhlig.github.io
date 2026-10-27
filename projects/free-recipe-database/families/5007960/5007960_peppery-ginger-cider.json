@@ -48,9 +48,17 @@
       "quantity": "3 oz"
     },
     {
-      "ingredient_id": 1480,
-      "name": "Lemon juice to taste",
-      "quantity": ""
+      "ingredient_id": 192,
+      "name": "Lemon, to taste",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "",
+          "name": "Lemon juice to taste"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2245,
@@ -64,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "1 Lemon, to taste"
+    },
     {
       "id": 1,
       "primary_message": "Bring cider and bourbon to a simmer in a small saucepan. Stir in ginger liqueur and add lemon juice to taste. Divide cherries between 2 heatproof glasses or mugs and pour in cider combination. Sprinkle with pepper and serve immediately.",

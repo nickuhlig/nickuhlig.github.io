@@ -54,9 +54,17 @@
       "prep": "peeled and cut into 1/4-inch dice"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 346,
@@ -106,17 +114,25 @@
       "quantity": "2 medium"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Peel and cut the ripe but firm mangos into 1/4-inch dice. Bring the egg whites to room temperature. Scrape out the seeds from the vanilla bean.",
-      "secondary_message": "3 medium ripe but firm mangos\n4 large egg whites\n1 vanilla bean"
+      "primary_message": "Peel and cut the ripe but firm mangos into 1/4-inch dice. Juice the lime. Bring the egg whites to room temperature. Scrape out the seeds from the vanilla bean. Juice the lime.",
+      "secondary_message": "3 medium ripe but firm mangos\n½ lime\n4 large egg whites\n1 vanilla bean\n½ lime"
     },
     {
       "id": 1,

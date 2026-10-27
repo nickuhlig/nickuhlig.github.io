@@ -108,9 +108,17 @@
       "quantity": "¾ cup (5 ¼ oz)"
     },
     {
-      "ingredient_id": 2346,
-      "name": "grated orange zest, from 1 orange",
-      "quantity": "1 tbsp"
+      "ingredient_id": 232,
+      "name": "orange",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tbsp",
+          "name": "grated orange zest, from 1 orange"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 121,
@@ -130,8 +138,9 @@
     },
     {
       "ingredient_id": 1301,
-      "name": "coarsely grated yellow squash, from about one 8-ounce squash",
-      "quantity": "1 cup"
+      "name": "yellow squash, from about one 8-ounce squash",
+      "quantity": "1 cup",
+      "prep": "coarsely grated"
     },
     {
       "ingredient_id": 115,
@@ -170,8 +179,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Bring the eggs to room temperature. Bring the cream cheese to room temperature. Melt the bittersweet chocolate and let it cool slightly.",
-      "secondary_message": "2 large eggs\n227 g cream cheese\n113 g bittersweet chocolate"
+      "primary_message": "Zest the orange. Bring the eggs to room temperature. Coarsely grate the yellow squash. Bring the cream cheese to room temperature. Melt the bittersweet chocolate and let it cool slightly.",
+      "secondary_message": "1 orange\n2 large eggs\n1 cup yellow squash, from about one 8-ounce squash\n227 g cream cheese\n113 g bittersweet chocolate"
     },
     {
       "id": 1,

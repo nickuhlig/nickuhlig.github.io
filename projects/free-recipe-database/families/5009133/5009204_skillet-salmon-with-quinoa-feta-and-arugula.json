@@ -76,9 +76,17 @@
       "quantity": "½ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -87,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "Season the salmon with salt and pepper. Heat the canola oil in a 30-cm skillet over medium-high heat until hot. Add the salmon skin-side down and cook without moving until skin is crisp, 2-3 minutes. Carefully remove salmon with a thin metal fish spatula and set on a large plate skin-side-up.",

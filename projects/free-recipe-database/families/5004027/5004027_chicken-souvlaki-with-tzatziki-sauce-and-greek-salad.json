@@ -53,9 +53,17 @@
   ],
   "ingredients": [
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "5 tbsp"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "5 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 130,
@@ -69,8 +77,9 @@
     },
     {
       "ingredient_id": 3654,
-      "name": "chopped fresh oregano leaves",
-      "quantity": "2 tbsp"
+      "name": "fresh oregano leaves",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 88,
@@ -117,8 +126,9 @@
     },
     {
       "ingredient_id": 320,
-      "name": "chopped fresh dill",
-      "quantity": "1 tbsp"
+      "name": "fresh dill",
+      "quantity": "1 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 47,
@@ -155,8 +165,9 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "chopped parsley",
-      "quantity": "¼ cup"
+      "name": "parsley",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1079,
@@ -168,8 +179,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Grate the garlic. Peel, seed, and cut the cucumber into 1/4-inch cubes. Grate the garlic. Cut the tomatoes into wedges. Slice the red onions thin. Seed and slice the cucumber into thin half moons.",
-      "secondary_message": "4 medium cloves garlic\n1 medium cucumber\n1 medium clove garlic\n6 small tomatoes\n2 small red onions\n1 medium cucumber"
+      "primary_message": "Juice the lemons. Pick the oregano leaves from the stems and chop them. Grate the garlic. Peel, seed, and cut the cucumber into 1/4-inch cubes. Grate the garlic. Pick the dill fronds from the stems and chop them. Cut the tomatoes into wedges. Slice the red onions thin. Seed and slice the cucumber into thin half moons. Pick the parsley leaves from the stems and chop them.",
+      "secondary_message": "2 lemons\n2 tbsp fresh oregano leaves\n4 medium cloves garlic\n1 medium cucumber\n1 medium clove garlic\n1 tbsp fresh dill\n6 small tomatoes\n2 small red onions\n1 medium cucumber\n¼ cup parsley"
     },
     {
       "id": 1,

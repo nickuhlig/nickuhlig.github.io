@@ -42,13 +42,15 @@
     },
     {
       "ingredient_id": 15,
-      "name": "drained capers",
-      "quantity": "1 tbsp"
+      "name": "capers",
+      "quantity": "1 tbsp",
+      "prep": "drained"
     },
     {
       "ingredient_id": 325,
-      "name": "drained oil-packed anchovy fillets",
-      "quantity": "2"
+      "name": "oil-packed anchovy fillets",
+      "quantity": "2",
+      "prep": "drained"
     },
     {
       "ingredient_id": 24,
@@ -66,9 +68,17 @@
       "quantity": "1 tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -87,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain the capers. Drain the oil-packed anchovy fillets. Juice the lemon.",
+      "secondary_message": "1 tbsp capers\n2 oil-packed anchovy fillets\n½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "If using a food processor: Combine olives, capers, anchovies, garlic, basil (if using), other herbs, and mustard in the work bowl and process, scraping down the sides, until a finely chopped paste forms. Process in lemon juice. With the processor running, drizzle in just enough olive oil to loosen to a spreadable paste, about 2 tablespoons. Season with salt and pepper only if needed.",

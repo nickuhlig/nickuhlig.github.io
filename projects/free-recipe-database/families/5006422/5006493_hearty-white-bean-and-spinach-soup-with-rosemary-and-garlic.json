@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 286,
-      "name": "chopped fresh rosemary leaves",
-      "quantity": "1 tbsp"
+      "name": "fresh rosemary leaves",
+      "quantity": "1 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1496,
@@ -82,9 +83,17 @@
       "prep": "trimmed and washed"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -101,8 +110,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely slice the onion. Dice the celery. Thinly slice the garlic. Drain and rinse the white beans. Trim and wash the spinach.",
-      "secondary_message": "1 medium onion\n1 stalk celery\n6 medium cloves garlic\n1 (425 g) can white beans\n1 bunch spinach"
+      "primary_message": "Finely slice the onion. Dice the celery. Thinly slice the garlic. Pick the rosemary leaves from the stems and chop them. Drain and rinse the white beans. Trim and wash the spinach. Juice the lemon.",
+      "secondary_message": "1 medium onion\n1 stalk celery\n6 medium cloves garlic\n1 tbsp fresh rosemary leaves\n1 (425 g) can white beans\n1 bunch spinach\n½ lemon"
     },
     {
       "id": 1,

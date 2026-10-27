@@ -71,14 +71,22 @@
       "prep": "finely diced"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest",
-      "quantity": "½ tsp"
-    },
-    {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 1 lemon divided",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "fresh lemon juice, from 1 lemon divided"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "½ tsp",
+          "name": "lemon zest"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 24,
@@ -93,8 +101,9 @@
     },
     {
       "ingredient_id": 15,
-      "name": "drained capers",
-      "quantity": "2 tbsp"
+      "name": "capers",
+      "quantity": "2 tbsp",
+      "prep": "drained"
     },
     {
       "ingredient_id": 115,
@@ -103,21 +112,23 @@
     },
     {
       "ingredient_id": 1679,
-      "name": "finely grated Pecorino Romano cheese, plus more for serving",
-      "quantity": "⅓ cup"
+      "name": "Pecorino Romano cheese, plus more for serving",
+      "quantity": "⅓ cup",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 106,
-      "name": "finely chopped Italian parsley",
-      "quantity": "¼ cup"
+      "name": "Italian parsley",
+      "quantity": "¼ cup",
+      "prep": "finely chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the cauliflower into 1 1/2 inch florets. Finely dice the pancetta. Finely mince the garlic.",
-      "secondary_message": "1 medium head cauliflower\n4 oz pancetta\n3 cloves garlic"
+      "primary_message": "Cut the cauliflower into 1 1/2 inch florets. Finely dice the pancetta. Zest and juice the lemon. Finely mince the garlic. Drain the capers. Finely grate the Pecorino Romano cheese. Pick the parsley leaves from the stems and finely chop them.",
+      "secondary_message": "1 medium head cauliflower\n4 oz pancetta\n1 lemon\n3 cloves garlic\n2 tbsp capers\n⅓ cup Pecorino Romano cheese, plus more for serving\n¼ cup Italian parsley"
     },
     {
       "id": 1,

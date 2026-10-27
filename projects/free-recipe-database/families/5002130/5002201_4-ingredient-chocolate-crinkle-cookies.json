@@ -46,8 +46,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "melted unsalted butter, such as vegetable oil",
-      "quantity": "8 tbsp"
+      "name": "unsalted butter, such as vegetable oil",
+      "quantity": "8 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 121,
@@ -66,6 +67,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter.",
+      "secondary_message": "8 tbsp unsalted butter, such as vegetable oil"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl, whisk together butter and egg until smooth. Whisk in brownie mix and stir until mixture forms a dough and no dry flour pockets remain. Cover and refrigerate until chilled and no longer sticky to the touch, about 30 minutes.",

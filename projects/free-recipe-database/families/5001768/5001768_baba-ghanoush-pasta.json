@@ -108,21 +108,30 @@
     },
     {
       "ingredient_id": 120,
-      "name": "finely grated Parmigiano-Reggiano, plus more for serving",
-      "quantity": "3 oz"
+      "name": "Parmesan cheese, plus more for serving",
+      "quantity": "3 oz",
+      "prep": "finely grated"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, plus more to taste",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon, plus more to taste",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "fresh lemon juice, plus more to taste"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Slice the garlic.",
-      "secondary_message": "8 large cloves garlic, divided"
+      "primary_message": "Slice the garlic. Finely grate the Parmesan cheese. Juice the lemon.",
+      "secondary_message": "8 large cloves garlic, divided\n3 oz Parmesan cheese, plus more for serving\n1 lemon, plus more to taste"
     },
     {
       "id": 1,

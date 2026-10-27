@@ -46,9 +46,17 @@
       "quantity": "½ cup (4 oz)"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "4 tsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "4 tsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 243,
@@ -67,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "1 lime"
+    },
     {
       "id": 1,
       "primary_message": "Mix kale juice, parsnip juice, apple juice, lime juice, and mint juice well. Serve on ice with mint and lime wedge garnish.",

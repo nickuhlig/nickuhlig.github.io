@@ -66,14 +66,23 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, plus grated zest of 1/2 a lemon",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon, plus grated zest of 1/2 a lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice, plus grated zest of 1/2 a lemon"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 106,
-      "name": "minced fresh flat-leaf parsley",
-      "quantity": "2 tbsp"
+      "name": "fresh flat-leaf parsley",
+      "quantity": "2 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1187,
@@ -112,8 +121,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Pick the special crabmeat over for shells. Finely mince the shallot. Melt the unsalted butter.",
-      "secondary_message": "0.45 kg special crabmeat\n1 small shallot\n2 tbsp unsalted butter"
+      "primary_message": "Pick the special crabmeat over for shells. Zest and juice the lemon. Pick the parsley leaves from the stems and mince them. Finely mince the shallot. Melt the unsalted butter.",
+      "secondary_message": "0.45 kg special crabmeat\n½ lemon, plus grated zest of 1/2 a lemon\n2 tbsp fresh flat-leaf parsley\n1 small shallot\n2 tbsp unsalted butter"
     },
     {
       "id": 1,

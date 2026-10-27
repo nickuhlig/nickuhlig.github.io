@@ -43,9 +43,17 @@
   ],
   "ingredients": [
     {
-      "ingredient_id": 1421,
-      "name": "lime juice, divided",
-      "quantity": "3 tbsp"
+      "ingredient_id": 228,
+      "name": "limes, divided",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "3 tbsp",
+          "name": "lime juice, divided"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 52,
@@ -70,13 +78,15 @@
     },
     {
       "ingredient_id": 243,
-      "name": "chopped fresh mint leaves",
-      "quantity": "2 tbsp"
+      "name": "fresh mint leaves",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 188,
-      "name": "chopped fresh cilantro leaves, tender stems",
-      "quantity": "2 tbsp"
+      "name": "fresh cilantro leaves, tender stems",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1004,
@@ -104,8 +114,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely mince the garlic. Cut the green cabbage into 6 wedges, then leave the with core intact.",
-      "secondary_message": "3 medium cloves garlic\n1 medium head green cabbage"
+      "primary_message": "Juice the limes. Finely mince the garlic. Pick the mint leaves from the stems and chop them. Pick the cilantro leaves and tender stems from the thick stems and chop them. Cut the green cabbage into 6 wedges, then leave the with core intact.",
+      "secondary_message": "1 ½ limes, divided\n3 medium cloves garlic\n2 tbsp fresh mint leaves\n2 tbsp fresh cilantro leaves, tender stems\n1 medium head green cabbage"
     },
     {
       "id": 1,

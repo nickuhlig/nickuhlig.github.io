@@ -57,8 +57,9 @@
   "ingredients": [
     {
       "ingredient_id": 2463,
-      "name": "chopped rhubarb",
-      "quantity": "2 cups"
+      "name": "rhubarb",
+      "quantity": "2 cups",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2346,
@@ -122,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the rhubarb.",
+      "secondary_message": "2 cups rhubarb"
+    },
     {
       "id": 1,
       "primary_message": "Add rhubarb, lime zest, and lemon zest to a quart-sized jar. Add the vodka, seal, shake, and let sit for four days.",

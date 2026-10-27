@@ -48,9 +48,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "hard-boiled eggs",
+      "name": "eggs",
       "quantity": "4 large",
-      "prep": "diced"
+      "prep": "hard-boiled, diced"
     },
     {
       "ingredient_id": 3665,
@@ -102,9 +102,17 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 136,
@@ -136,8 +144,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Chop the Romaine lettuce hearts. Dice the hard-boiled eggs. Dice the cooked bacon. Peel, core, and slice the avocados. Cut the cherry tomatoes in half. Crumble the goat cheese.",
-      "secondary_message": "2 hearts Romaine lettuce hearts\n4 large hard-boiled eggs\n4 slices cooked bacon\n2 avocados\n237 ml cherry tomatoes\n85 g goat cheese"
+      "primary_message": "Chop the Romaine lettuce hearts. Hard-boil the eggs, then dice them. Dice the cooked bacon. Peel, core, and slice the avocados. Cut the cherry tomatoes in half. Crumble the goat cheese. Juice the lemon.",
+      "secondary_message": "2 hearts Romaine lettuce hearts\n4 large eggs\n4 slices cooked bacon\n2 avocados\n237 ml cherry tomatoes\n85 g goat cheese\n½ lemon"
     },
     {
       "id": 1,

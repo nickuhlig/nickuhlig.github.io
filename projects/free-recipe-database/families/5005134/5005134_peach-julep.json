@@ -60,9 +60,17 @@
       "quantity": "¾ oz"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "¾ oz"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¾ oz",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2448,
@@ -84,8 +92,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the overripe peach into slices.",
-      "secondary_message": "¼ overripe peach"
+      "primary_message": "Cut the overripe peach into slices. Juice the lemon.",
+      "secondary_message": "¼ overripe peach\n½ lemon"
     },
     {
       "id": 1,

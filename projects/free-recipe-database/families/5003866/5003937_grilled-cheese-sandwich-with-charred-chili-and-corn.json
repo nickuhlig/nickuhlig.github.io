@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 2036,
-      "name": "grated oaxaca cheese",
-      "quantity": "0.45 kg"
+      "name": "oaxaca cheese",
+      "quantity": "0.45 kg",
+      "prep": "grated"
     },
     {
       "ingredient_id": 88,
@@ -95,17 +96,25 @@
       "prep": "chopped"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Shuck the fresh corn. Split the crusty rolls lengthwise. Soften the unsalted butter. Finely dice the white onion. Chop the cilantro leaves.",
-      "secondary_message": "4 ears fresh corn\n4 crusty rolls\n2 tbsp unsalted butter\n1 small white onion\n½ cup cilantro leaves"
+      "primary_message": "Shuck the fresh corn. Grate the oaxaca cheese. Split the crusty rolls lengthwise. Soften the unsalted butter. Finely dice the white onion. Pick the cilantro leaves from the stems and chop them. Juice the lime.",
+      "secondary_message": "4 ears fresh corn\n0.45 kg oaxaca cheese\n4 crusty rolls\n2 tbsp unsalted butter\n1 small white onion\n½ cup cilantro leaves\n½ lime"
     },
     {
       "id": 1,

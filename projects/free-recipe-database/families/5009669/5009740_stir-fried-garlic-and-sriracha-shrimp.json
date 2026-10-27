@@ -39,9 +39,17 @@
   ],
   "ingredients": [
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1572,
@@ -88,16 +96,17 @@
     },
     {
       "ingredient_id": 188,
-      "name": "roughly chopped cilantro",
-      "quantity": "2 tbsp"
+      "name": "cilantro",
+      "quantity": "2 tbsp",
+      "prep": "roughly chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the garlic. Mince the shallot. Shell and devein the head-on shrimp.",
-      "secondary_message": "4 medium cloves garlic\n1 small shallot\n0.45 kg head-on shrimp, large"
+      "primary_message": "Juice the lime. Mince the garlic. Mince the shallot. Shell and devein the head-on shrimp. Pick the cilantro leaves from the stems and roughly chop them.",
+      "secondary_message": "½ lime\n4 medium cloves garlic\n1 small shallot\n0.45 kg head-on shrimp, large\n2 tbsp cilantro"
     },
     {
       "id": 1,

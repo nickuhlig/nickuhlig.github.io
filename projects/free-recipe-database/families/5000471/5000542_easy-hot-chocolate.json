@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 1729,
-      "name": "finely chopped dark chocolate",
-      "quantity": "28 to 57 g"
+      "name": "dark chocolate",
+      "quantity": "28 to 57 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 346,
@@ -70,7 +71,14 @@
       "quantity": ""
     }
   ],
-  "instructions": [],
+  "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the dark chocolate.",
+      "secondary_message": "28 to 57 g dark chocolate"
+    }
+  ],
   "nutrition": {
     "energy": 366.22,
     "ash": 2.86,

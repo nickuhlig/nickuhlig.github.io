@@ -100,16 +100,24 @@
     },
     {
       "ingredient_id": 2091,
-      "name": "finely chopped cornichons",
-      "quantity": "2 tbsp"
+      "name": "cornichons",
+      "quantity": "2 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 270,
-      "name": "finely chopped fresh chives, plus more for garnish",
-      "quantity": "2 tbsp"
+      "name": "fresh chives, plus more for garnish",
+      "quantity": "2 tbsp",
+      "prep": "finely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the cornichons. Finely chop the chives.",
+      "secondary_message": "2 tbsp cornichons\n2 tbsp fresh chives, plus more for garnish"
+    },
     {
       "id": 1,
       "primary_message": "Bring a large saucepan of water to a boil over high heat and fill 2 medium bowls with ice water. Carefully lower eggs into saucepan using a slotted spoon or spider skimmer, and boil for 30 seconds. Cover, reduce heat to low, and simmer, undisturbed, for 7 minutes. Transfer 3 eggs to 1 bowl of ice water. Continue simmering remaining 3 eggs, covered, for 3 minutes more; transfer to second bowl of ice water. Let eggs cool completely, about 15 minutes.",

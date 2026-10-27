@@ -74,17 +74,25 @@
       "quantity": ""
     },
     {
-      "ingredient_id": 1480,
-      "name": "Fresh lemon juice, to taste",
-      "quantity": ""
+      "ingredient_id": 192,
+      "name": "Lemon, to taste",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "",
+          "name": "Fresh lemon juice, to taste"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Dice the onion. Slice the garlic.",
-      "secondary_message": "1 medium onion\n4 medium cloves garlic"
+      "primary_message": "Dice the onion. Slice the garlic. Juice the lemon.",
+      "secondary_message": "1 medium onion\n4 medium cloves garlic\n1 Lemon, to taste"
     },
     {
       "id": 1,

@@ -44,9 +44,17 @@
       "quantity": "4 cups"
     },
     {
-      "ingredient_id": 1421,
-      "name": "freshly squeezed lime juice",
-      "quantity": "¼ cup"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "¼ cup",
+          "name": "freshly squeezed lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 115,
@@ -60,6 +68,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the limes.",
+      "secondary_message": "2 limes"
+    },
     {
       "id": 1,
       "primary_message": "Measure the sugar into a medium bowl and set aside.",

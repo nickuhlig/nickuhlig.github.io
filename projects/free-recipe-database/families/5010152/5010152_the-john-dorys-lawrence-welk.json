@@ -40,9 +40,17 @@
       "quantity": ""
     },
     {
-      "ingredient_id": 1421,
-      "name": "freshly squeezed lime juice",
-      "quantity": "½ oz"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "½ oz",
+          "name": "freshly squeezed lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1788,
@@ -66,6 +74,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "½ lime"
+    },
     {
       "id": 1,
       "primary_message": "Fill cocktail shaker with ice, add lime juice, bitters, Aperol, sweet vermouth, and tequila. Shake well and strain into a cocktail glass. Serve immediately.",

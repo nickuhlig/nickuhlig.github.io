@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "finely minced garlic",
-      "quantity": "1 tsp"
+      "name": "garlic",
+      "quantity": "1 tsp",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 88,
@@ -111,6 +112,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the garlic.",
+      "secondary_message": "1 tsp garlic"
+    },
     {
       "id": 1,
       "primary_message": "For the Dressing: In a small bowl, whisk together vinegar, sugar, oil, garlic, salt, black pepper, and celery seeds until sugar is dissolved.",

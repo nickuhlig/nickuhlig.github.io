@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 2187,
-      "name": "grated fresh coconut",
-      "quantity": "85 g"
+      "name": "fresh coconut",
+      "quantity": "85 g",
+      "prep": "grated"
     },
     {
       "ingredient_id": 24,
@@ -80,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the coconut.",
+      "secondary_message": "85 g fresh coconut"
+    },
     {
       "id": 1,
       "primary_message": "In a small heatproof bowl, combine tamarind pulp and 1/4 cup hot water. Using a fork, break tamarind into small pieces. Let soak until softened, about 15 minutes. Using a fork, squeeze and mash tamarind into water until combined. Set a fine-mesh strainer over a medium bowl. Strain tamarind mixture over prepared strainer, pressing on the solids with a rubber spatula to extract as much tamarind paste as possible; discard any fibrous bits or seeds.",

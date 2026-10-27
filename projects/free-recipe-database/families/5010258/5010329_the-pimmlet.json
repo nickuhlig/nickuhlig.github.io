@@ -63,12 +63,26 @@
       "quantity": "14 g"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice",
-      "quantity": "14 g"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "14 g",
+          "name": "fresh lime juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "½ lime"
+    },
     {
       "id": 1,
       "primary_message": "Place cucumber, mint leaves, and sugar in the bottom of a cocktail shaker. Muddle with a muddler until the sugar is dissolved, about 1 minute. Fill shaker with cracked ice and add remaining ingredients. Stir for 1 minute, then strain into chilled coupe or martini glass garnished with additional cucumber and mint.",

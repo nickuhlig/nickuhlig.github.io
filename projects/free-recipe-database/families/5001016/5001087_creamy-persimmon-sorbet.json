@@ -64,9 +64,17 @@
       "quantity": "½ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -78,8 +86,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Peel and chop the persimmons.",
-      "secondary_message": "4 to 5 large persimmons"
+      "primary_message": "Peel and chop the persimmons. Juice the lemon.",
+      "secondary_message": "4 to 5 large persimmons\n½ lemon"
     },
     {
       "id": 1,

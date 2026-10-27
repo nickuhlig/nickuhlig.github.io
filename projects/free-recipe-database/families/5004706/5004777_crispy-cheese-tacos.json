@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 120,
-      "name": "grated parmesan",
-      "quantity": "113 g"
+      "name": "parmesan",
+      "quantity": "113 g",
+      "prep": "grated"
     },
     {
       "ingredient_id": 321,
@@ -51,6 +52,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the parmesan.",
+      "secondary_message": "113 g parmesan"
+    },
     {
       "id": 1,
       "primary_message": "Arrange 14 g of cheese on one side of a nonstick skillet in a 5- by 5-cm rectangle. Turn heat to medium-low. When cheese begins to melt, place 1 tortilla on top of cheese so that roughly half the cheese is covered by the tortilla.",

@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 57,
-      "name": "grated mozzarella",
-      "quantity": "1 cup"
+      "name": "mozzarella",
+      "quantity": "1 cup",
+      "prep": "grated"
     },
     {
       "ingredient_id": 2151,
@@ -59,9 +60,17 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -75,8 +84,9 @@
     },
     {
       "ingredient_id": 277,
-      "name": "halved grape tomatoes",
-      "quantity": "½ cup"
+      "name": "grape tomatoes",
+      "quantity": "½ cup",
+      "prep": "halved"
     },
     {
       "ingredient_id": 329,
@@ -85,11 +95,18 @@
     },
     {
       "ingredient_id": 120,
-      "name": "Shaved Parmesan, to taste",
-      "quantity": ""
+      "name": "Parmesan, to taste",
+      "quantity": "",
+      "prep": "shaved"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the mozzarella. Juice the lemon. Halve the grape tomatoes. Shave the Parmesan.",
+      "secondary_message": "1 cup mozzarella\n½ lemon\n½ cup grape tomatoes\nParmesan, to taste"
+    },
     {
       "id": 1,
       "primary_message": "Heat 1 tablespoon of vegetable oil in a 12-inch skillet over medium-high heat until hot. Add the flatbread and cook until browned, about 2 minutes. Flip and then immediately top with the cheese, tomatoes, 2 or 3 pieces of prosciutto and cover and cook until the cheese melts, less than a minute.",

@@ -46,8 +46,9 @@
   "ingredients": [
     {
       "ingredient_id": 234,
-      "name": "diced peaches, from about 2 large peaches",
-      "quantity": "2 cups"
+      "name": "peaches, from about 2 large peaches",
+      "quantity": "2 cups",
+      "prep": "diced"
     },
     {
       "ingredient_id": 293,
@@ -75,9 +76,17 @@
       "quantity": "½ tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "¼ tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¼ tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1021,
@@ -95,8 +104,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Lightly beat the egg with 1 teaspoon water.",
-      "secondary_message": "1 egg"
+      "primary_message": "Dice the peaches. Juice the lemon. Lightly beat the egg with 1 teaspoon water.",
+      "secondary_message": "2 cups peaches, from about 2 large peaches\n½ lemon\n1 egg"
     },
     {
       "id": 1,

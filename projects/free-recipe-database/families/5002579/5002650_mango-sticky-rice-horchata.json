@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 229,
-      "name": "chopped ripe mango",
-      "quantity": "1 ½ cups"
+      "name": "ripe mango",
+      "quantity": "1 ½ cups",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1449,
@@ -81,9 +82,17 @@
       "prep": "shaken"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice, from 1 large lime",
-      "quantity": "2 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tbsp",
+          "name": "fresh lime juice, from 1 large lime"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 353,
@@ -100,8 +109,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Rinse the uncooked white jasmine rice until water runs clear. Crush the green cardamom pod. Shake the unsweetened canned coconut milk.",
-      "secondary_message": "1 cup uncooked white jasmine rice\n1 green cardamom pod\n1 (383 g) can unsweetened canned coconut milk"
+      "primary_message": "Rinse the uncooked white jasmine rice until water runs clear. Crush the green cardamom pod. Chop the ripe mango. Shake the unsweetened canned coconut milk. Juice the lime.",
+      "secondary_message": "1 cup uncooked white jasmine rice\n1 green cardamom pod\n1 ½ cups ripe mango\n1 (383 g) can unsweetened canned coconut milk\n1 lime"
     },
     {
       "id": 1,

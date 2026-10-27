@@ -44,8 +44,9 @@
     },
     {
       "ingredient_id": 1677,
-      "name": "minced fresh thyme leaves",
-      "quantity": "½ tsp"
+      "name": "fresh thyme leaves",
+      "quantity": "½ tsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2744,
@@ -53,9 +54,17 @@
       "quantity": "120 ml"
     },
     {
-      "ingredient_id": 2346,
-      "name": "fresh lemon zest, from about 1/4 lemon",
-      "quantity": "1 large pinch"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 large pinch",
+          "name": "fresh lemon zest, from about 1/4 lemon"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 88,
@@ -69,6 +78,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the thyme leaves from the stems and mince them. Zest the lemon.",
+      "secondary_message": "½ tsp fresh thyme leaves\n½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in a medium skillet over medium-high heat until shimmering. Add caraway and cook, stirring, until seeds sputter and smell toasty, about 30 seconds. Immediately add thyme and cook, stirring, until fragrant, about 30 seconds longer. Pour oil into a medium bowl and add yogurt. Stir in lemon zest and season with salt and pepper. Serve immediately or chill in the refrigerator before serving.",

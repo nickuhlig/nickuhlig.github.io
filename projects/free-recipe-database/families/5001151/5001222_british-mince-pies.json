@@ -112,14 +112,22 @@
       "quantity": "2 tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 medium lemon",
-      "quantity": "2 tbsp"
-    },
-    {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from 1 medium lemon",
-      "quantity": "½ tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice, from 1 medium lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "½ tsp",
+          "name": "lemon zest, from 1 medium lemon"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 3225,
@@ -171,8 +179,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Peel and grate the Granny Smith apple. Sift the all-purpose flour. Sift the confectioners’ sugar. Cube the unsalted butter and keep it cold until you use it. Lightly beat the egg. Lightly beat the egg yolk.",
-      "secondary_message": "1 large Granny Smith apple\n285 g all-purpose flour, plus more for dusting\n30 g confectioners’ sugar, plus more for dusting\n185 g unsalted butter\n1 large egg\n1 large egg yolk"
+      "primary_message": "Peel and grate the Granny Smith apple. Zest and juice the lemon. Sift the all-purpose flour. Sift the confectioners’ sugar. Cube the unsalted butter and keep it cold until you use it. Lightly beat the egg. Lightly beat the egg yolk.",
+      "secondary_message": "1 large Granny Smith apple\n1 lemon\n285 g all-purpose flour, plus more for dusting\n30 g confectioners’ sugar, plus more for dusting\n185 g unsalted butter\n1 large egg\n1 large egg yolk"
     },
     {
       "id": 1,

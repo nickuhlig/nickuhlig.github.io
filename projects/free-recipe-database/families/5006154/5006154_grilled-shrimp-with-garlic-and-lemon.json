@@ -82,19 +82,28 @@
       "quantity": "¼ cup"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from 1 lemon",
-      "quantity": "1 tsp"
-    },
-    {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 lemon",
-      "quantity": "4 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "4 tsp",
+          "name": "lemon juice, from 1 lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tsp",
+          "name": "lemon zest, from 1 lemon"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 1808,
-      "name": "minced fresh parsley leaves",
-      "quantity": "2 tbsp"
+      "name": "fresh parsley leaves",
+      "quantity": "2 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 72,
@@ -106,8 +115,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Peel and devein the shrimp. Mince the garlic.",
-      "secondary_message": "2 ½ lb shrimp, large\n4 medium cloves garlic, divided"
+      "primary_message": "Peel and devein the shrimp. Mince the garlic. Zest and juice the lemon. Pick the parsley leaves from the stems and mince them.",
+      "secondary_message": "2 ½ lb shrimp, large\n4 medium cloves garlic, divided\n1 lemon\n2 tbsp fresh parsley leaves"
     },
     {
       "id": 1,

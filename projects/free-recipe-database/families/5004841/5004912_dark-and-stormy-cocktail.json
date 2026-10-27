@@ -32,9 +32,17 @@
   "cookwares": [],
   "ingredients": [
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice, from 1 to 2 whole limes",
-      "quantity": "21 g"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "21 g",
+          "name": "fresh lime juice, from 1 to 2 whole limes"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2576,
@@ -48,6 +56,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "1 lime"
+    },
     {
       "id": 1,
       "primary_message": "Fill a highball glass with ice. Add, in layers, the lime juice, then the ginger beer, then the Goslings. Serve with a straw.",

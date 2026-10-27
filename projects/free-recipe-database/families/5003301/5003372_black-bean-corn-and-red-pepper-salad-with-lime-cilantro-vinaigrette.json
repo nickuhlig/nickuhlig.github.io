@@ -59,8 +59,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "minced shallots, from one medium shallot",
-      "quantity": "2 tbsp"
+      "name": "shallots, from one medium shallot",
+      "quantity": "2 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 88,
@@ -83,19 +84,28 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lime zest, from 5 to 6 limes",
-      "quantity": "1 tsp"
-    },
-    {
-      "ingredient_id": 1421,
-      "name": "lime juice, from 5 to 6 limes",
-      "quantity": "6 tbsp"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "6",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "6 tbsp",
+          "name": "lime juice, from 5 to 6 limes"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tsp",
+          "name": "lime zest, from 5 to 6 limes"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 188,
-      "name": "chopped fresh cilantro leaves, plus more for garnish",
-      "quantity": "½ cup"
+      "name": "fresh cilantro leaves, plus more for garnish",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 183,
@@ -108,8 +118,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Rinse and drain the black beans. Cut off the kernels of the fresh cooked corn the cob. Dice the red bell peppers. Mince the garlic. Chop the Hass avocados.",
-      "secondary_message": "2 (425 g) cans black beans\n1 ¾ cups fresh cooked corn\n2 red bell peppers\n2 medium cloves garlic\n2 Hass avocados"
+      "primary_message": "Rinse and drain the black beans. Cut off the kernels of the fresh cooked corn the cob. Dice the red bell peppers. Mince the garlic. Mince the shallots. Zest and juice the limes. Pick the cilantro leaves from the stems and chop them. Chop the Hass avocados.",
+      "secondary_message": "2 (425 g) cans black beans\n1 ¾ cups fresh cooked corn\n2 red bell peppers\n2 medium cloves garlic\n2 tbsp shallots, from one medium shallot\n6 limes\n½ cup fresh cilantro leaves, plus more for garnish\n2 Hass avocados"
     },
     {
       "id": 1,

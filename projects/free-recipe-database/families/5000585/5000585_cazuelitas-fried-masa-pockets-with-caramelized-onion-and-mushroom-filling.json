@@ -153,14 +153,23 @@
       "quantity": "1 tsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 188,
-      "name": "minced fresh cilantro leaves",
-      "quantity": "1 tbsp"
+      "name": "fresh cilantro leaves",
+      "quantity": "1 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 88,
@@ -177,8 +186,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Halve and thinly slice the yellow onions. Thinly slice the cremini button mushrooms. Peel and cut the russet potatoes into 1-inch chunks. Mince the garlic cloves.",
-      "secondary_message": "8 medium yellow onions\n1 lb cremini button mushrooms\n2 ½ medium russet potatoes\n4 medium garlic cloves"
+      "primary_message": "Halve and thinly slice the yellow onions. Thinly slice the cremini button mushrooms. Peel and cut the russet potatoes into 1-inch chunks. Mince the garlic cloves. Juice the lime. Pick the cilantro leaves from the stems and mince them.",
+      "secondary_message": "8 medium yellow onions\n1 lb cremini button mushrooms\n2 ½ medium russet potatoes\n4 medium garlic cloves\n1 lime\n1 tbsp fresh cilantro leaves"
     },
     {
       "id": 1,

@@ -63,8 +63,9 @@
     },
     {
       "ingredient_id": 2697,
-      "name": "diced pancetta, guanciale, or bacon",
-      "quantity": "4 oz"
+      "name": "pancetta, guanciale, or bacon",
+      "quantity": "4 oz",
+      "prep": "diced"
     },
     {
       "ingredient_id": 130,
@@ -73,8 +74,9 @@
     },
     {
       "ingredient_id": 106,
-      "name": "minced fresh flat-leaf parsley and chives",
-      "quantity": "1 tbsp"
+      "name": "fresh flat-leaf parsley and chives",
+      "quantity": "1 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 3641,
@@ -83,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the pancetta. Pick the parsley leaves from the stems and mince them.",
+      "secondary_message": "4 oz pancetta, guanciale, or bacon\n1 tbsp fresh flat-leaf parsley and chives"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 425°F. In a large bowl, toss sliced squash with 2 tablespoons olive oil and season with salt and pepper. Arrange in even layers on 2 rimmed baking sheets and roast until browned and tender, about 45 minutes. Let cool slightly.",

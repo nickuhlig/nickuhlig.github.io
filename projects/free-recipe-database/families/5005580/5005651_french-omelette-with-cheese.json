@@ -56,11 +56,18 @@
     },
     {
       "ingredient_id": 2471,
-      "name": "grated cheese, such as Gruyère, cheddar, or Swiss",
-      "quantity": "30 g"
+      "name": "cheese, such as Gruyère, cheddar, or Swiss",
+      "quantity": "30 g",
+      "prep": "grated"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the cheese.",
+      "secondary_message": "30 g cheese, such as Gruyère, cheddar, or Swiss"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, beat eggs with a disposable plastic or reusable wooden fork just until last traces of white are mixed in; season with salt and pepper.",

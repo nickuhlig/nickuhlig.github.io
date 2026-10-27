@@ -89,9 +89,17 @@
       "quantity": "½ tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2346,
@@ -113,8 +121,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Bring the unsalted butter to room temperature.",
-      "secondary_message": "8 tbsp unsalted butter"
+      "primary_message": "Bring the unsalted butter to room temperature. Juice the lemon.",
+      "secondary_message": "8 tbsp unsalted butter\n1 lemon"
     },
     {
       "id": 1,

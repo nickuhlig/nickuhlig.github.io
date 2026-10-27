@@ -61,9 +61,17 @@
       "quantity": "½ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "¼ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¼ cup",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -142,13 +150,22 @@
     },
     {
       "ingredient_id": 1241,
-      "name": "grated jarred horseradish",
-      "quantity": "2 tbsp"
+      "name": "jarred horseradish",
+      "quantity": "2 tbsp",
+      "prep": "grated"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice, from 1 lemon",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "freshly squeezed lemon juice, from 1 lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 136,
@@ -165,8 +182,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Shell and devein the shrimp. Thinly slice the yellow onion. Thinly slice the garlic. Core and cut the very ripe tomatoes into 1-inch chunks. Peel and cut the English cucumber into 1-inch chunks. Peel and cut the red onion into 1-inch chunks. Peel and smash the garlic.",
-      "secondary_message": "0.45 kg shrimp, medium\n¼ medium yellow onion\n3 cloves garlic\n7 very ripe tomatoes\n½ large English cucumber\n1 small red onion\n2 cloves garlic"
+      "primary_message": "Shell and devein the shrimp. Thinly slice the yellow onion. Thinly slice the garlic. Juice the lemons. Core and cut the very ripe tomatoes into 1-inch chunks. Peel and cut the English cucumber into 1-inch chunks. Peel and cut the red onion into 1-inch chunks. Peel and smash the garlic. Grate the jarred horseradish. Juice the lemon.",
+      "secondary_message": "0.45 kg shrimp, medium\n¼ medium yellow onion\n3 cloves garlic\n1 ½ lemons\n7 very ripe tomatoes\n½ large English cucumber\n1 small red onion\n2 cloves garlic\n2 tbsp jarred horseradish\n1 lemon"
     },
     {
       "id": 1,

@@ -57,9 +57,17 @@
       "quantity": "¼ cup"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice, from 1 lime",
-      "quantity": "2 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tbsp",
+          "name": "fresh lime juice, from 1 lime"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -88,8 +96,9 @@
     },
     {
       "ingredient_id": 243,
-      "name": "chopped fresh mint, dill, parsley, or cilantro",
-      "quantity": "¼ cup"
+      "name": "fresh mint, dill, parsley, or cilantro",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 153,
@@ -98,17 +107,17 @@
     },
     {
       "ingredient_id": 29,
-      "name": "sliced almonds",
+      "name": "almonds",
       "quantity": "¼ cup",
-      "prep": "toasted"
+      "prep": "sliced, toasted"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Drain and rinse the chickpeas. Toast the sliced almonds.",
-      "secondary_message": "2 (15 oz) cans chickpeas\n¼ cup sliced almonds"
+      "primary_message": "Drain and rinse the chickpeas. Juice the lime. Pick the herb leaves from the stems and chop them. Slice and toast the almonds.",
+      "secondary_message": "2 (15 oz) cans chickpeas\n1 lime\n¼ cup fresh mint, dill, parsley, or cilantro\n¼ cup almonds"
     },
     {
       "id": 1,

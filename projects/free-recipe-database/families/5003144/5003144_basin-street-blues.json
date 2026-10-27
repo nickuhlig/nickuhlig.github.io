@@ -63,9 +63,17 @@
       "quantity": "½ oz"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice, from 1 lemon",
-      "quantity": "½ oz"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "½ oz",
+          "name": "freshly squeezed lemon juice, from 1 lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1953,
@@ -79,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "Add Nardini, Pimm's, orange juice, lemon juice, and simple syrup to a cocktail shaker. Fill with ice and shake until well chilled, about 20 seconds.",

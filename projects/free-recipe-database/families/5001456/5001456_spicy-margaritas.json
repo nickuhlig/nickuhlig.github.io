@@ -83,17 +83,25 @@
       "quantity": "2 fl oz"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice, from 2 limes",
-      "quantity": "1 ½ fl oz"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 ½ fl oz",
+          "name": "fresh lime juice, from 2 limes"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Slice the jalapeño pepper crosswise into thin rounds.",
-      "secondary_message": "1 jalapeño pepper"
+      "primary_message": "Slice the jalapeño pepper crosswise into thin rounds. Juice the limes.",
+      "secondary_message": "1 jalapeño pepper\n1 ½ limes"
     },
     {
       "id": 1,

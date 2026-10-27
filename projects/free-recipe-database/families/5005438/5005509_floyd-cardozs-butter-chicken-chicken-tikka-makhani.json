@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "minced fresh ginger",
-      "quantity": "2 tbsp"
+      "name": "fresh ginger",
+      "quantity": "2 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 151,
@@ -70,9 +71,17 @@
       "prep": "seeded and chopped"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "3 tbsp"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "3 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1682,
@@ -182,8 +191,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Peel the garlic. Seed and chop the jalapeno chile. Chop the onion. Peel the garlic. Seed and chop the jalapeno chile.",
-      "secondary_message": "4 medium cloves garlic\n1 jalapeno chile\n1 large onion\n3 medium cloves garlic\n1 jalapeno chile"
+      "primary_message": "Peel the garlic. Mince the ginger. Seed and chop the jalapeno chile. Juice the limes. Chop the onion. Peel the garlic. Seed and chop the jalapeno chile.",
+      "secondary_message": "4 medium cloves garlic\n2 tbsp fresh ginger\n1 jalapeno chile\n1 ½ limes\n1 large onion\n3 medium cloves garlic\n1 jalapeno chile"
     },
     {
       "id": 1,

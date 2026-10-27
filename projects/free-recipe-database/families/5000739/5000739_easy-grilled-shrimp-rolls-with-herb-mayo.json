@@ -41,18 +41,28 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "minced fresh parsley leaves",
-      "quantity": "2 tbsp"
+      "name": "fresh parsley leaves",
+      "quantity": "2 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 270,
-      "name": "thinly sliced chives, plus more for garnishing",
-      "quantity": "2 tbsp"
+      "name": "chives, plus more for garnishing",
+      "quantity": "2 tbsp",
+      "prep": "thinly sliced"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 117,
@@ -130,8 +140,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Melt the unsalted butter.",
-      "secondary_message": "1 ½ oz unsalted butter"
+      "primary_message": "Pick the parsley leaves from the stems and mince them. Thinly slice the chives. Juice the lemon. Melt the unsalted butter.",
+      "secondary_message": "2 tbsp fresh parsley leaves\n2 tbsp chives, plus more for garnishing\n½ lemon\n1 ½ oz unsalted butter"
     },
     {
       "id": 1,

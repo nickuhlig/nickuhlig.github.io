@@ -51,19 +51,15 @@
     },
     {
       "ingredient_id": 188,
-      "name": "roughly chopped cilantro leaves, loosely packed",
-      "quantity": "½ cup"
+      "name": "cilantro leaves, loosely packed",
+      "quantity": "½ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 153,
       "name": "scallions",
       "quantity": "2",
       "prep": "roughly chopped"
-    },
-    {
-      "ingredient_id": 2346,
-      "name": "grated lemon zest, from 1 whole lemon",
-      "quantity": "1 tbsp"
     },
     {
       "ingredient_id": 24,
@@ -97,9 +93,22 @@
       "prep": "cored, and thinly sliced on a mandoline"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tbsp",
+          "name": "grated lemon zest, from 1 whole lemon"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 47,
@@ -128,17 +137,25 @@
       "quantity": "3 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Drain the chickpeas beans. Roughly chop the scallions. Core and thinly slice the fennel bulb on a mandoline. Toast the slider-sized potato rolls.",
-      "secondary_message": "1 (408 g) can chickpeas beans\n2 scallions\n½ fennel bulb\n12 slider-sized potato rolls"
+      "primary_message": "Drain the chickpeas beans. Pick the cilantro leaves from the stems and roughly chop them. Roughly chop the scallions. Core and thinly slice the fennel bulb on a mandoline. Zest and juice the lemon. Toast the slider-sized potato rolls. Juice the lemon.",
+      "secondary_message": "1 (408 g) can chickpeas beans\n½ cup cilantro leaves, loosely packed\n2 scallions\n½ fennel bulb\n1 lemon\n12 slider-sized potato rolls\n½ lemon"
     },
     {
       "id": 1,

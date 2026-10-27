@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 320,
-      "name": "chopped fresh dill",
-      "quantity": "2 tbsp"
+      "name": "fresh dill",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 47,
@@ -60,9 +61,17 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -85,8 +94,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Crumble the fresh goat cheese.",
-      "secondary_message": "85 g fresh goat cheese"
+      "primary_message": "Pick the dill fronds from the stems and chop them. Juice the lemon. Crumble the fresh goat cheese.",
+      "secondary_message": "2 tbsp fresh dill\n½ lemon\n85 g fresh goat cheese"
     },
     {
       "id": 1,

@@ -48,13 +48,22 @@
     },
     {
       "ingredient_id": 188,
-      "name": "roughly chopped fresh cilantro leaves, tender stems",
-      "quantity": "¼ cup"
+      "name": "fresh cilantro leaves, tender stems",
+      "quantity": "¼ cup",
+      "prep": "roughly chopped"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -71,8 +80,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the Spanish-style dry-cured chorizo into 1/2-inch dice. Cut the fresh corn kernels from 4 to 5 cobs of corn.",
-      "secondary_message": "4 oz Spanish-style dry-cured chorizo\n4 cups fresh corn kernels"
+      "primary_message": "Cut the Spanish-style dry-cured chorizo into 1/2-inch dice. Cut the fresh corn kernels from 4 to 5 cobs of corn. Pick the cilantro leaves and tender stems from the thick stems and roughly chop them. Juice the lime.",
+      "secondary_message": "4 oz Spanish-style dry-cured chorizo\n4 cups fresh corn kernels\n¼ cup fresh cilantro leaves, tender stems\n½ lime"
     },
     {
       "id": 1,

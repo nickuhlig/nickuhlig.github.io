@@ -54,9 +54,17 @@
       "quantity": "21 g"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "21 g"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "21 g",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2736,
@@ -70,6 +78,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "Combine applejack, grenadine, lemon juice, and bitters in a cocktail shaker. Fill shaker with ice and shake vigorously until well chilled, about 15 seconds. Strain into a chilled coupe or martini glass. Squeeze lemon twist over surface of drink, skin-side-out to release fragrant oils. Rub rim of glass with skin side of lemon twist and discard twist. Serve immediately.",

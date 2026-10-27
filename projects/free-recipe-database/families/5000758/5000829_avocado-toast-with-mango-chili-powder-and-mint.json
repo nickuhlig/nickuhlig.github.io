@@ -56,9 +56,17 @@
       "quantity": "6 (½ cm)"
     },
     {
-      "ingredient_id": 1480,
-      "name": "Freshly squeezed lemon juice to taste, from 1/2 lemon",
-      "quantity": ""
+      "ingredient_id": 192,
+      "name": "Lemon, to taste",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "",
+          "name": "Freshly squeezed lemon juice to taste, from 1/2 lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2401,
@@ -72,6 +80,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "½ Lemon, to taste"
+    },
     {
       "id": 1,
       "primary_message": "Lightly brush bread with olive oil and toast to desired level of doneness. Top with avocado and mash with a fork to cover entire surface. Add single layer of mango, sprinkle with a squeeze of lemon juice, and dust with a dash of chili powder. Garnish with mint and salt. Serve.",

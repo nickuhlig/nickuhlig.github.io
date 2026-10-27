@@ -85,17 +85,25 @@
       "quantity": "397 g"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, more to taste",
-      "quantity": "14 g"
+      "ingredient_id": 192,
+      "name": "lemon, more to taste",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "14 g",
+          "name": "lemon juice, more to taste"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Wash and stem the whole cherries but not pitted.",
-      "secondary_message": "1.59 kg whole cherries"
+      "primary_message": "Wash and stem the whole cherries but not pitted. Juice the lemon.",
+      "secondary_message": "1.59 kg whole cherries\n½ lemon, more to taste"
     },
     {
       "id": 1,

@@ -33,14 +33,22 @@
   "ingredients": [
     {
       "ingredient_id": 302,
-      "name": "sliced bacon",
+      "name": "bacon",
       "quantity": "8 oz",
-      "prep": "diced"
+      "prep": "sliced, diced"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 to 2 whole lemons",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice, from 1 to 2 whole lemons"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 117,
@@ -79,8 +87,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Dice the sliced bacon. Finely chop the watercress. Thinly slice the scallions.",
-      "secondary_message": "8 oz sliced bacon\n1 large bunch watercress\n1 bunch scallions"
+      "primary_message": "Slice and dice the bacon. Juice the lemon. Finely chop the watercress. Thinly slice the scallions.",
+      "secondary_message": "8 oz bacon\n1 lemon\n1 large bunch watercress\n1 bunch scallions"
     },
     {
       "id": 1,

@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 2284,
-      "name": "cubed ripe seedless watermelon",
-      "quantity": "4 cups"
+      "name": "ripe seedless watermelon",
+      "quantity": "4 cups",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 2101,
@@ -80,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cube the ripe seedless watermelon.",
+      "secondary_message": "4 cups ripe seedless watermelon"
+    },
     {
       "id": 1,
       "primary_message": "In a blender, purée watermelon cubes. Strain into a large pitcher. Add wine, rum, Cointreau, and simple syrup and stir.",

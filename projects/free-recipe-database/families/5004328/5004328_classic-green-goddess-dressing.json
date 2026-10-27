@@ -49,9 +49,17 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 359,
@@ -75,13 +83,15 @@
     },
     {
       "ingredient_id": 2221,
-      "name": "picked fresh tarragon leaves",
-      "quantity": "½ cup"
+      "name": "fresh tarragon leaves",
+      "quantity": "½ cup",
+      "prep": "picked"
     },
     {
       "ingredient_id": 2421,
-      "name": "picked fresh chervil leaves",
-      "quantity": "¼ cup"
+      "name": "fresh chervil leaves",
+      "quantity": "¼ cup",
+      "prep": "picked"
     },
     {
       "ingredient_id": 136,
@@ -100,8 +110,9 @@
     },
     {
       "ingredient_id": 270,
-      "name": "finely sliced chives",
-      "quantity": "¼ cup"
+      "name": "chives",
+      "quantity": "¼ cup",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 88,
@@ -115,6 +126,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon. Pick the tarragon leaves from the stems. Pick the chervil leaves from the stems. Finely slice the chives.",
+      "secondary_message": "½ lemon\n½ cup fresh tarragon leaves\n¼ cup fresh chervil leaves\n¼ cup chives"
+    },
     {
       "id": 1,
       "primary_message": "Combine egg yolk, mustard, lemon juice, 2 teaspoons water, anchovy filets, and garlic in the bowl of a food processor. With processor running, slowly drizzle in oil until a smooth, tight emulsion forms. If emulsion gets too thick and does not get sucked into processor blades, thin out with a few drops of water and continue with oil. When all oil has been incporporated, add tarragon, chervil, worcestershire, hot sauce, and water. Process until herbs are finely chopped.",

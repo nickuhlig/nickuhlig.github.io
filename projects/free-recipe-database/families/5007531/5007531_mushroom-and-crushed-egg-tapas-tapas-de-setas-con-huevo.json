@@ -68,13 +68,22 @@
     },
     {
       "ingredient_id": 1677,
-      "name": "picked thyme leaves",
-      "quantity": "1 tsp"
+      "name": "thyme leaves",
+      "quantity": "1 tsp",
+      "prep": "picked"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -91,8 +100,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the garlic on a microplane grater. Finely chop the shallot.",
-      "secondary_message": "1 medium clove garlic\n1 small shallot"
+      "primary_message": "Mince the garlic on a microplane grater. Finely chop the shallot. Pick the thyme leaves from the stems. Juice the lemon.",
+      "secondary_message": "1 medium clove garlic\n1 small shallot\n1 tsp thyme leaves\n½ lemon"
     },
     {
       "id": 1,

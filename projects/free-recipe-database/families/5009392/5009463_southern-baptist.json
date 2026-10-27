@@ -54,17 +54,25 @@
       "quantity": "21 g"
     },
     {
-      "ingredient_id": 1421,
-      "name": "freshly squeezed lime juice, from 1 to 2 limes",
-      "quantity": "28 g"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "28 g",
+          "name": "freshly squeezed lime juice, from 1 to 2 limes"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Peel the fresh ginger.",
-      "secondary_message": "4 (1 inch) pieces fresh ginger"
+      "primary_message": "Peel the fresh ginger. Juice the lime.",
+      "secondary_message": "4 (1 inch) pieces fresh ginger\n1 lime"
     },
     {
       "id": 1,

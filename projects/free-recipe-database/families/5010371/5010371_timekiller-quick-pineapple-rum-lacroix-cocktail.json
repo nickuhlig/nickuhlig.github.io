@@ -49,12 +49,26 @@
       "quantity": "1 fl oz"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice, to taste",
-      "quantity": "½ to ¾ fl oz"
+      "ingredient_id": 228,
+      "name": "lime, to taste",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "½ to ¾ fl oz",
+          "name": "lime juice, to taste"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "1 lime, to taste"
+    },
     {
       "id": 1,
       "primary_message": "Fill a Collins glass with ice. Add sparkling water, vermouth, rum, and 1/2 ounce lime. Stir gently. Taste and add more lime if desired. Garnish and serve immediately.",

@@ -38,9 +38,17 @@
       "quantity": "45 ml"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice, from 1 large",
-      "quantity": "20 ml"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "20 ml",
+          "name": "lime juice, from 1 large"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1707,
@@ -54,6 +62,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "1 lime"
+    },
     {
       "id": 1,
       "primary_message": "Add rum, lime juice, maple syrup, and Scotch to a cocktail shaker and fill 2/3 full with ice. Shake until well chilled, about 15 seconds.",

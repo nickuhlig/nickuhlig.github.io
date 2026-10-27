@@ -38,9 +38,22 @@
       "quantity": "1 cup"
     },
     {
-      "ingredient_id": 1421,
-      "name": "freshly squeezed lime juice, from about 9 limes",
-      "quantity": "¾ cup"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "9",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "¾ cup",
+          "name": "freshly squeezed lime juice, from about 9 limes"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 ½ tsp",
+          "name": "lime zest, from 1 lime"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 359,
@@ -53,14 +66,17 @@
       "quantity": "3 tbsp"
     },
     {
-      "ingredient_id": 2346,
-      "name": "orange zest, from 1 orange",
-      "quantity": "1 tbsp"
-    },
-    {
-      "ingredient_id": 2346,
-      "name": "lime zest, from 1 lime",
-      "quantity": "1 ½ tsp"
+      "ingredient_id": 232,
+      "name": "orange",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tbsp",
+          "name": "orange zest, from 1 orange"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 3394,
@@ -74,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest and juice the limes. Zest the orange.",
+      "secondary_message": "9 limes\n1 orange"
+    },
     {
       "id": 1,
       "primary_message": "Combine orange and lime juices with water, stir in sugar to taste until sugar dissolves. Base should not be especially sweet, but should have enough sugar to tone down the tartness of the citrus. Pour through a strainer into a wide, shallow container (preferably one with a lid) and stir in orange and lime zest. Cover, and place level in freezer on coldest setting.",

@@ -62,9 +62,17 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "¼ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¼ cup",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1007,
@@ -102,8 +110,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Trim the woody ends of the asparagus. Grate the fresh peeled ginger.",
-      "secondary_message": "1 bunch asparagus\n1 (1 ½ inch) knob fresh peeled ginger"
+      "primary_message": "Trim the woody ends of the asparagus. Juice the lemons. Grate the fresh peeled ginger.",
+      "secondary_message": "1 bunch asparagus\n1 ½ lemons\n1 (1 ½ inch) knob fresh peeled ginger"
     },
     {
       "id": 1,

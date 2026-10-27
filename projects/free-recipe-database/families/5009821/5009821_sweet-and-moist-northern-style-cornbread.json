@@ -90,8 +90,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "melted butter",
-      "quantity": "3 tbsp"
+      "name": "butter",
+      "quantity": "3 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 1007,
@@ -100,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the butter.",
+      "secondary_message": "3 tbsp butter"
+    },
     {
       "id": 1,
       "primary_message": "Place a 10-inch cast iron skillet on middle rack in oven and preheat to 425°F. In a medium bowl, whisk together cornmeal, flour, sugar, baking powder, salt, and baking soda. In a separate medium bowl, whisk together sour cream, buttermilk, eggs, 3 tablespoons melted butter, and canola oil. Pour wet ingredients into bowl with dry ingredients and whisk until completely combined.",

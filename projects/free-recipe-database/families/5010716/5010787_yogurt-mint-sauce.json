@@ -40,8 +40,9 @@
     },
     {
       "ingredient_id": 243,
-      "name": "finely chopped mint leaves",
-      "quantity": "½ cup"
+      "name": "mint leaves",
+      "quantity": "½ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
@@ -50,9 +51,17 @@
       "prep": "minced"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 1 lemon",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "fresh lemon juice, from 1 lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 186,
@@ -79,8 +88,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the garlic.",
-      "secondary_message": "2 medium cloves garlic"
+      "primary_message": "Pick the mint leaves from the stems and finely chop them. Mince the garlic. Juice the lemon.",
+      "secondary_message": "½ cup mint leaves\n2 medium cloves garlic\n½ lemon"
     },
     {
       "id": 1,

@@ -49,9 +49,17 @@
       "quantity": "1 clove"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -68,8 +76,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thaw the frozen baby sweet peas.",
-      "secondary_message": "0.45 kg frozen baby sweet peas"
+      "primary_message": "Thaw the frozen baby sweet peas. Juice the lemon.",
+      "secondary_message": "0.45 kg frozen baby sweet peas\n1 lemon"
     },
     {
       "id": 1,

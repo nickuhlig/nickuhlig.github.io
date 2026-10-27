@@ -58,9 +58,17 @@
       "quantity": "4 tbsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 3196,
@@ -83,8 +91,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thinly slice the bird's eye chile.",
-      "secondary_message": "1 bird's eye chile"
+      "primary_message": "Juice the lime. Thinly slice the bird's eye chile.",
+      "secondary_message": "½ lime\n1 bird's eye chile"
     },
     {
       "id": 1,

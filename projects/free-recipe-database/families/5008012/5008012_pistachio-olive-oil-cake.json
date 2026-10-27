@@ -63,8 +63,9 @@
     },
     {
       "ingredient_id": 2346,
-      "name": "finely grated orange zest",
-      "quantity": "1 tbsp"
+      "name": "orange zest",
+      "quantity": "1 tbsp",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 116,
@@ -88,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely grate the zest from the orange.",
+      "secondary_message": "1 tbsp orange zest"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 375°F. Spray 9- by 5-inch loaf pan with nonstick baking spray.",

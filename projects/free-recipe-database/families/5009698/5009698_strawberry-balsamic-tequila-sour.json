@@ -45,9 +45,17 @@
       "quantity": "½ oz"
     },
     {
-      "ingredient_id": 1421,
-      "name": "freshly squeezed lime juice, from 1 whole lime",
-      "quantity": "¾ oz"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "¾ oz",
+          "name": "freshly squeezed lime juice, from 1 whole lime"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1423,
@@ -69,8 +77,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Slice the fresh strawberries.",
-      "secondary_message": "2 ½ oz fresh strawberries"
+      "primary_message": "Slice the fresh strawberries. Juice the lime.",
+      "secondary_message": "2 ½ oz fresh strawberries\n1 lime"
     },
     {
       "id": 1,

@@ -38,18 +38,28 @@
   "ingredients": [
     {
       "ingredient_id": 188,
-      "name": "finely chopped fresh cilantro",
-      "quantity": "⅓ cup"
+      "name": "fresh cilantro",
+      "quantity": "⅓ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1808,
-      "name": "finely chopped fresh parsley",
-      "quantity": "⅓ cup"
+      "name": "fresh parsley",
+      "quantity": "⅓ cup",
+      "prep": "finely chopped"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice, from about 2 lemons",
-      "quantity": "¼ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¼ cup",
+          "name": "freshly squeezed lemon juice, from about 2 lemons"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -108,6 +118,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the cilantro leaves from the stems and finely chop them. Pick the parsley leaves from the stems and finely chop them. Juice the lemons.",
+      "secondary_message": "⅓ cup fresh cilantro\n⅓ cup fresh parsley\n1 ½ lemons"
+    },
     {
       "id": 1,
       "primary_message": "For the Herb Mixture: Combine cilantro, parsley, lemon juice, olive oil, and garlic in a medium bowl. Set aside.",

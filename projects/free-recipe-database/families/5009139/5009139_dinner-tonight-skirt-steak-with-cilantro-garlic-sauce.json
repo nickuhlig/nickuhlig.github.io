@@ -42,8 +42,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "coarsely chopped cilantro",
-      "quantity": "1 cup"
+      "name": "cilantro",
+      "quantity": "1 cup",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 47,
@@ -51,9 +52,17 @@
       "quantity": "¼ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 71,
@@ -86,8 +95,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the skirt steak to manageable grilling sizes.",
-      "secondary_message": "2 lb skirt steak"
+      "primary_message": "Pick the cilantro leaves from the stems and coarsely chop them. Juice the lemon. Cut the skirt steak to manageable grilling sizes.",
+      "secondary_message": "1 cup cilantro\n1 lemon\n2 lb skirt steak"
     },
     {
       "id": 1,

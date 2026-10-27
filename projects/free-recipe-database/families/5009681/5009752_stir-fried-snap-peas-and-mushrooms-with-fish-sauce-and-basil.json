@@ -49,9 +49,17 @@
       "quantity": "1 tsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 346,
@@ -89,8 +97,9 @@
     },
     {
       "ingredient_id": 28,
-      "name": "chopped fresh basil",
-      "quantity": "½ cup"
+      "name": "fresh basil",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 88,
@@ -102,8 +111,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Trim the bottoms of the packages hon-shimeji mushrooms. Finely mince the shallot. Mince or grate the garlic on a microplane grater. Trim the sugar snap peas, then remove the strings.",
-      "secondary_message": "2 packages hon-shimeji mushrooms\n1 medium shallot\n2 medium cloves garlic\n0.45 kg sugar snap peas"
+      "primary_message": "Juice the lime. Trim the bottoms of the packages hon-shimeji mushrooms. Finely mince the shallot. Mince or grate the garlic on a microplane grater. Trim the sugar snap peas, then remove the strings. Pick the basil leaves from the stems and chop them.",
+      "secondary_message": "½ lime\n2 packages hon-shimeji mushrooms\n1 medium shallot\n2 medium cloves garlic\n0.45 kg sugar snap peas\n½ cup fresh basil"
     },
     {
       "id": 1,

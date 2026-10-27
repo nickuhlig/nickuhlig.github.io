@@ -63,9 +63,17 @@
   ],
   "ingredients": [
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 117,
@@ -106,21 +114,23 @@
     },
     {
       "ingredient_id": 111,
-      "name": "trimmed green beans",
-      "quantity": "0.45 kg"
+      "name": "green beans",
+      "quantity": "0.45 kg",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 1808,
-      "name": "minced fresh parsley leaves",
-      "quantity": "1 small handful"
+      "name": "fresh parsley leaves",
+      "quantity": "1 small handful",
+      "prep": "minced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thinly slice the whole red bell pepper. Thinly slice the radishes.",
-      "secondary_message": "1 whole red bell pepper\n6 to 8 small radishes"
+      "primary_message": "Juice the lemon. Thinly slice the whole red bell pepper. Thinly slice the radishes. Trim the green beans. Pick the parsley leaves from the stems and mince them.",
+      "secondary_message": "½ lemon\n1 whole red bell pepper\n6 to 8 small radishes\n0.45 kg green beans\n1 small handful fresh parsley leaves"
     },
     {
       "id": 1,

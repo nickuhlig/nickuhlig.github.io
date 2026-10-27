@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "diced shallots",
-      "quantity": "¼ cup"
+      "name": "shallots",
+      "quantity": "¼ cup",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1574,
@@ -55,9 +56,17 @@
       "quantity": "¼ cup"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice, from 3 to 4 limes",
-      "quantity": "¼ cup"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "¼ cup",
+          "name": "lime juice, from 3 to 4 limes"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 293,
@@ -109,8 +118,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Peel, seed, and roughly dice the Caribbean red papaya. Stem and seed the habanero pepper.",
-      "secondary_message": "1 Caribbean red papaya\n1 habanero pepper"
+      "primary_message": "Peel, seed, and roughly dice the Caribbean red papaya. Stem and seed the habanero pepper. Dice the shallots. Juice the limes.",
+      "secondary_message": "1 Caribbean red papaya\n1 habanero pepper\n¼ cup shallots\n2 limes"
     },
     {
       "id": 1,

@@ -73,21 +73,37 @@
     },
     {
       "ingredient_id": 2346,
-      "name": "peeled zest",
-      "quantity": "1 strip"
+      "name": "zest",
+      "quantity": "1 strip",
+      "prep": "peeled"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice, from 1-2 lemons",
-      "quantity": "¼ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¼ cup",
+          "name": "freshly squeezed lemon juice, from 1-2 lemons"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2346,
-      "name": "peeled zest",
-      "quantity": "1 strip"
+      "name": "zest",
+      "quantity": "1 strip",
+      "prep": "peeled"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the zest. Juice the lemons. Peel the zest.",
+      "secondary_message": "1 strip zest\n1 ½ lemons\n1 strip zest"
+    },
     {
       "id": 1,
       "primary_message": "In a 4-quart saucepan, combine the water, sugar, cinnamon sticks, and cloves and bring to a boil over high heat. Let boil and steep until sugar is dissolved, mixture is very aromatic, and water has turned slightly brown, 5 minutes. Remove from heat.",

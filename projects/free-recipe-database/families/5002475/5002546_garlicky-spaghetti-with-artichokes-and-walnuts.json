@@ -94,7 +94,7 @@
     },
     {
       "ingredient_id": 120,
-      "name": "Parmigiano-Reggiano, plus extra for serving",
+      "name": "Parmesan cheese, plus extra for serving",
       "quantity": "28 g",
       "prep": "grated"
     },
@@ -105,22 +105,31 @@
       "prep": "toasted and chopped"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 106,
-      "name": "chopped flat-leaf parsley",
-      "quantity": "2 tbsp"
+      "name": "flat-leaf parsley",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the garlic. Drain and chop the canned artichoke hearts. Grate the Parmigiano-Reggiano. Toast and chop the walnuts.",
-      "secondary_message": "6 medium cloves garlic\n397 g canned artichoke hearts\n28 g Parmigiano-Reggiano, plus extra for serving\n½ cup walnuts"
+      "primary_message": "Mince the garlic. Drain and chop the canned artichoke hearts. Grate the Parmesan cheese. Toast and chop the walnuts. Juice the lemon. Pick the parsley leaves from the stems and chop them.",
+      "secondary_message": "6 medium cloves garlic\n397 g canned artichoke hearts\n28 g Parmesan cheese, plus extra for serving\n½ cup walnuts\n½ lemon\n2 tbsp flat-leaf parsley"
     },
     {
       "id": 1,

@@ -59,14 +59,22 @@
       "quantity": "¼ tsp"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lime zest, from 1 whole lime",
-      "quantity": "1 tsp"
-    },
-    {
-      "ingredient_id": 1421,
-      "name": "lime juice, from 1 whole lime",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice, from 1 whole lime"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tsp",
+          "name": "lime zest, from 1 whole lime"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 24,
@@ -81,8 +89,9 @@
     },
     {
       "ingredient_id": 243,
-      "name": "roughly chopped mint leaves, divided",
-      "quantity": "3 tbsp"
+      "name": "mint leaves, divided",
+      "quantity": "3 tbsp",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 88,
@@ -105,8 +114,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely mince the garlic. Shuck the corn.",
-      "secondary_message": "1 medium clove garlic\n8 ears corn"
+      "primary_message": "Zest and juice the lime. Finely mince the garlic. Pick the mint leaves from the stems and roughly chop them. Shuck the corn.",
+      "secondary_message": "1 lime\n1 medium clove garlic\n3 tbsp mint leaves, divided\n8 ears corn"
     },
     {
       "id": 1,

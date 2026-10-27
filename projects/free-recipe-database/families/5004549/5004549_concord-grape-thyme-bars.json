@@ -63,9 +63,17 @@
       "prep": "stemmed"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 346,
@@ -74,8 +82,9 @@
     },
     {
       "ingredient_id": 287,
-      "name": "chopped fresh thyme",
-      "quantity": "2 tsp"
+      "name": "fresh thyme",
+      "quantity": "2 tsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 116,
@@ -108,8 +117,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Stem the Concord grapes. Cut the unsalted butter into 1/4-inch pieces and keep it cold until you use it.",
-      "secondary_message": "1 lb Concord grapes\n16 tbsp (8 oz) unsalted butter"
+      "primary_message": "Stem the Concord grapes. Juice the lemon. Pick the thyme leaves from the stems and chop them. Cut the unsalted butter into 1/4-inch pieces and keep it cold until you use it.",
+      "secondary_message": "1 lb Concord grapes\n½ lemon\n2 tsp fresh thyme\n16 tbsp (8 oz) unsalted butter"
     },
     {
       "id": 1,

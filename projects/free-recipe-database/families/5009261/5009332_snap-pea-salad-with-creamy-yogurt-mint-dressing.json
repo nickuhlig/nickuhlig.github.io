@@ -60,9 +60,17 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "½ tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "½ tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 243,
@@ -72,9 +80,10 @@
     },
     {
       "ingredient_id": 144,
-      "name": "minced shallot",
+      "name": "shallot",
       "quantity": "⅓",
-      "weigh_as": "14 g"
+      "weigh_as": "14 g",
+      "prep": "minced"
     },
     {
       "ingredient_id": 72,
@@ -86,8 +95,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Trim the sugar snap peas. Mince the mint leaves.",
-      "secondary_message": "0.45 kg sugar snap peas\n8 mint leaves"
+      "primary_message": "Trim the sugar snap peas. Juice the lemon. Pick the mint leaves from the stems and mince them. Mince the shallot.",
+      "secondary_message": "0.45 kg sugar snap peas\n½ lemon\n8 mint leaves\n⅓ shallot"
     },
     {
       "id": 1,

@@ -96,17 +96,25 @@
       "quantity": "4 sprigs"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Slice the zucchini into thin rounds. Slice the yellow summer squash into thin rounds. Thinly slice the red onion. Thinly slice the lemon.",
-      "secondary_message": "2 medium zucchini\n2 medium yellow summer squash\n1 medium red onion\n1 lemon"
+      "primary_message": "Slice the zucchini into thin rounds. Slice the yellow summer squash into thin rounds. Thinly slice the red onion. Thinly slice the lemon. Juice the lemon.",
+      "secondary_message": "2 medium zucchini\n2 medium yellow summer squash\n1 medium red onion\n1 lemon\n½ lemon"
     },
     {
       "id": 1,

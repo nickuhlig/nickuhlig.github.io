@@ -59,9 +59,17 @@
       "quantity": "1 ½ oz"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice, from 1 large lime",
-      "quantity": "¾ oz"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "¾ oz",
+          "name": "fresh lime juice, from 1 large lime"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1953,
@@ -78,8 +86,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Peel and cut the ripe kiwi in half.",
-      "secondary_message": "1 ripe kiwi"
+      "primary_message": "Peel and cut the ripe kiwi in half. Juice the lime.",
+      "secondary_message": "1 ripe kiwi\n1 lime"
     },
     {
       "id": 1,

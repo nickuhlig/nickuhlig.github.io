@@ -67,8 +67,9 @@
     },
     {
       "ingredient_id": 43,
-      "name": "grated cheddar",
-      "quantity": "1 cup"
+      "name": "cheddar",
+      "quantity": "1 cup",
+      "prep": "grated"
     },
     {
       "ingredient_id": 118,
@@ -82,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the cheddar.",
+      "secondary_message": "1 cup cheddar"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 425°F and place a piece of parchment paper on a baking sheet. Whisk flour, baking powder and salt to combine. Cut 14 tablespoons (1 3/4 sticks) butter into the flour mixture and, using your fingers or a pastry blender, mix butter and flour together until mixture resembles wet sand. Add cheddar and toss until coated with flour, then add milk and buttermilk and mix until dough forms.",

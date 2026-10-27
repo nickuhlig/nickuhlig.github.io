@@ -44,23 +44,27 @@
     },
     {
       "ingredient_id": 28,
-      "name": "chopped fresh basil",
-      "quantity": "2 tbsp"
+      "name": "fresh basil",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 287,
-      "name": "chopped fresh thyme",
-      "quantity": "2 tbsp"
+      "name": "fresh thyme",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 3654,
-      "name": "chopped fresh oregano",
-      "quantity": "2 tbsp"
+      "name": "fresh oregano",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 106,
-      "name": "chopped flat leaf parsley",
-      "quantity": "2 tbsp"
+      "name": "flat leaf parsley",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 88,
@@ -79,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the basil leaves from the stems and chop them. Pick the thyme leaves from the stems and chop them. Pick the oregano leaves from the stems and chop them. Pick the parsley leaves from the stems and chop them.",
+      "secondary_message": "2 tbsp fresh basil\n2 tbsp fresh thyme\n2 tbsp fresh oregano\n2 tbsp flat leaf parsley"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, mix together basil, thyme, oregano, and parsley. Set aside.",

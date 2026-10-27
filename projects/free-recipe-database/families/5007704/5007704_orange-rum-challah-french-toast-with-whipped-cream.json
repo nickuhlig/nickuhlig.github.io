@@ -55,9 +55,17 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 2346,
-      "name": "loosely packed grated zest, from 1/2 medium orange",
-      "quantity": "½ tsp"
+      "ingredient_id": 232,
+      "name": "orange",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "½ tsp",
+          "name": "loosely packed grated zest, from 1/2 medium orange"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 353,
@@ -76,8 +84,9 @@
     },
     {
       "ingredient_id": 349,
-      "name": "freshly grated nutmeg",
-      "quantity": "1 pinch"
+      "name": "nutmeg",
+      "quantity": "1 pinch",
+      "prep": "freshly grated"
     },
     {
       "ingredient_id": 118,
@@ -96,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the orange. Freshly grate the nutmeg.",
+      "secondary_message": "½ orange\n1 pinch nutmeg"
+    },
     {
       "id": 1,
       "primary_message": "Set a wire rack on a rimmed baking sheet in the oven and preheat to 250°F. If using fresh bread, arrange slices in a single layer on rack and cook in oven, turning once, until lightly toasted, about 20 minutes. (If the bread is stale, you can skip this toasting step.)",

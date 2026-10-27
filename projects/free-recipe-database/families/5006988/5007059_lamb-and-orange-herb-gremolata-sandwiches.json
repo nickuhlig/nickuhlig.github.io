@@ -45,9 +45,17 @@
       "quantity": "2 cloves cloves"
     },
     {
-      "ingredient_id": 2346,
-      "name": "finely grated orange zest, from 2 oranges",
-      "quantity": "2 tbsp"
+      "ingredient_id": 232,
+      "name": "oranges",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "2 tbsp",
+          "name": "finely grated orange zest, from 2 oranges"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 3654,
@@ -100,8 +108,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thinly slice the firm sheep’s milk cheese.",
-      "secondary_message": "85 g firm sheep’s milk cheese"
+      "primary_message": "Zest the oranges. Thinly slice the firm sheep’s milk cheese.",
+      "secondary_message": "2 oranges\n85 g firm sheep’s milk cheese"
     },
     {
       "id": 1,

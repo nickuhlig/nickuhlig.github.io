@@ -53,9 +53,17 @@
       "quantity": "0.45 kg"
     },
     {
-      "ingredient_id": 1421,
-      "name": "freshly squeezed lime juice",
-      "quantity": "7 g"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "7 g",
+          "name": "freshly squeezed lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2315,
@@ -68,9 +76,17 @@
       "quantity": "35 g"
     },
     {
-      "ingredient_id": 1421,
-      "name": "freshly squeezed lime juice",
-      "quantity": "21 g"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "21 g",
+          "name": "freshly squeezed lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1953,
@@ -89,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime. Juice the lime.",
+      "secondary_message": "½ lime\n1 lime"
+    },
     {
       "id": 1,
       "primary_message": "Pull grapes from their stems. Set aside 4 whole grapes. Place rest of grapes in blender with 7 g lime juice (to prevent browning). Blend to completely purée the grapes. Strain the purée through a fine-mesh strainer, pushing it through with the back of a ladle.",

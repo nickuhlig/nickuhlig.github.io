@@ -52,9 +52,17 @@
       "quantity": "½ tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1061,
@@ -91,8 +99,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Slice the very ripe bananas into coins.",
-      "secondary_message": "4 very ripe bananas"
+      "primary_message": "Slice the very ripe bananas into coins. Juice the lemon.",
+      "secondary_message": "4 very ripe bananas\n½ lemon"
     },
     {
       "id": 1,

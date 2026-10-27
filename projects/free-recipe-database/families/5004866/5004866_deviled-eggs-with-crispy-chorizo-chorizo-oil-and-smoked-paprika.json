@@ -41,9 +41,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "hard-boiled eggs",
+      "name": "eggs",
       "quantity": "6 large",
-      "prep": "peeled and halved lengthwise"
+      "prep": "hard-boiled, peeled and halved lengthwise"
     },
     {
       "ingredient_id": 267,
@@ -52,13 +52,22 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "minced parsley, plus more for garnish",
-      "quantity": "1 ½ tsp"
+      "name": "parsley, plus more for garnish",
+      "quantity": "1 ½ tsp",
+      "prep": "minced"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 1 whole lemon",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "fresh lemon juice, from 1 whole lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1726,
@@ -85,8 +94,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely dice the dry-cured Spanish style chorizo. Peel and halve the hard-boiled eggs lengthwise.",
-      "secondary_message": "4 oz dry-cured Spanish style chorizo\n6 large hard-boiled eggs"
+      "primary_message": "Finely dice the dry-cured Spanish style chorizo. Hard-boil the eggs, then peel and halve them lengthwise. Pick the parsley leaves from the stems and mince them. Juice the lemon.",
+      "secondary_message": "4 oz dry-cured Spanish style chorizo\n6 large eggs\n1 ½ tsp parsley, plus more for garnish\n½ lemon"
     },
     {
       "id": 1,

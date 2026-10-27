@@ -97,17 +97,25 @@
       "quantity": "¼ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 lemon",
-      "quantity": "½ tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "½ tsp",
+          "name": "lemon juice, from 1 lemon"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Trim the ends of the onions, then quarter them. Trim the ends of the garlic. Reserve the stems of the parsley, then chop the leaves. Soften the unsalted butter.",
-      "secondary_message": "2 medium onions\n1 small head garlic\n1 bunch parsley, divided\n2 tbsp (1 oz) unsalted butter"
+      "primary_message": "Trim the ends of the onions, then quarter them. Trim the ends of the garlic. Reserve the stems of the parsley, then chop the leaves. Soften the unsalted butter. Juice the lemon.",
+      "secondary_message": "2 medium onions\n1 small head garlic\n1 bunch parsley, divided\n2 tbsp (1 oz) unsalted butter\n½ lemon"
     },
     {
       "id": 1,

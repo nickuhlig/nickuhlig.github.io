@@ -44,9 +44,17 @@
       "quantity": "1 large"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1191,
@@ -97,13 +105,15 @@
     },
     {
       "ingredient_id": 120,
-      "name": "finely grated fresh Parmiggiano-Reggiano cheese",
-      "quantity": "3 tbsp"
+      "name": "Parmesan cheese",
+      "quantity": "3 tbsp",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 144,
-      "name": "thinly sliced shallots",
-      "quantity": "¾ cup"
+      "name": "shallots",
+      "quantity": "¾ cup",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1007,
@@ -140,8 +150,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Rinse and dry the packed fresh basil leaves. Toast the pine nuts.",
-      "secondary_message": "1 cup packed fresh basil leaves\n⅛ cup pine nuts"
+      "primary_message": "Juice the lemon. Pick the basil leaves from the stems and rinse and dry them. Toast the pine nuts. Finely grate the Parmesan cheese. Thinly slice the shallots.",
+      "secondary_message": "½ lemon\n1 cup packed fresh basil leaves\n⅛ cup pine nuts\n3 tbsp Parmesan cheese\n¾ cup shallots"
     },
     {
       "id": 1,

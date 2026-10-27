@@ -84,27 +84,36 @@
       "prep": "cut into tablespoon-size pieces"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 lemon",
-      "quantity": "1 tbsp"
-    },
-    {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from 1 lemon",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice, from 1 lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tsp",
+          "name": "lemon zest, from 1 lemon"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 1808,
-      "name": "minced parsley, tarragon, and chives",
-      "quantity": "2 tsp"
+      "name": "parsley, tarragon, and chives",
+      "quantity": "2 tsp",
+      "prep": "minced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the unsalted butter into tablespoon-size pieces.",
-      "secondary_message": "3 tbsp unsalted butter"
+      "primary_message": "Cut the unsalted butter into tablespoon-size pieces. Zest and juice the lemon. Pick the herb leaves from the stems and mince them.",
+      "secondary_message": "3 tbsp unsalted butter\n1 lemon\n2 tsp parsley, tarragon, and chives"
     },
     {
       "id": 1,

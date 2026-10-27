@@ -53,17 +53,39 @@
       "quantity": "1 cup (8 oz)"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice",
-      "quantity": "1 cup (8 oz)"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "6",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 cup (8 oz)",
+          "name": "freshly squeezed lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
-      "ingredient_id": 1421,
-      "name": "freshly squeezed lime juice",
-      "quantity": "½ cup (4 oz)"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "4",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "½ cup (4 oz)",
+          "name": "freshly squeezed lime juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemons. Juice the limes.",
+      "secondary_message": "6 lemons\n4 limes"
+    },
     {
       "id": 1,
       "primary_message": "Make simple syrup by bringing the sugar and water to a boil and stirring to dissolve sugar, about 7 minutes. Remove from heat and let cool.",

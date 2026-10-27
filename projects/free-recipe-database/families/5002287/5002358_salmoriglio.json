@@ -43,14 +43,22 @@
   ],
   "ingredients": [
     {
-      "ingredient_id": 2346,
-      "name": "finely grated lemon zest",
-      "quantity": "½ tsp"
-    },
-    {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 2 medium lemons",
-      "quantity": "¼ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¼ cup",
+          "name": "lemon juice, from 2 medium lemons"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "½ tsp",
+          "name": "finely grated lemon zest"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 88,
@@ -90,8 +98,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the garlic. Finely mince the fresh oregano leaves. Finely mince the fresh parsley leaves.",
-      "secondary_message": "2 cloves garlic\n¾ cup fresh oregano leaves\n¾ cup fresh parsley leaves"
+      "primary_message": "Zest and juice the lemons. Mince the garlic. Pick the oregano leaves from the stems and finely mince them. Pick the parsley leaves from the stems and finely mince them.",
+      "secondary_message": "2 lemons\n2 cloves garlic\n¾ cup fresh oregano leaves\n¾ cup fresh parsley leaves"
     },
     {
       "id": 1,

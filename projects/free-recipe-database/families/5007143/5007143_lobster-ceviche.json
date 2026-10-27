@@ -52,18 +52,28 @@
     },
     {
       "ingredient_id": 188,
-      "name": "chopped fresh cilantro",
-      "quantity": "2 tbsp"
+      "name": "fresh cilantro",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 151,
-      "name": "finely minced jalapeno pepper",
-      "quantity": "1 tbsp"
+      "name": "jalapeno pepper",
+      "quantity": "1 tbsp",
+      "prep": "finely minced"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 ½ tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 ½ tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -75,8 +85,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the shallot.",
-      "secondary_message": "1 small shallot"
+      "primary_message": "Mince the shallot. Pick the cilantro leaves from the stems and chop them. Finely mince the jalapeno pepper. Juice the lime.",
+      "secondary_message": "1 small shallot\n2 tbsp fresh cilantro\n1 tbsp jalapeno pepper\n1 lime"
     },
     {
       "id": 1,

@@ -42,9 +42,9 @@
   "ingredients": [
     {
       "ingredient_id": 1802,
-      "name": "sliced blanched almonds",
+      "name": "blanched almonds",
       "quantity": "6 oz",
-      "prep": "finely chopped"
+      "prep": "sliced, finely chopped"
     },
     {
       "ingredient_id": 116,
@@ -52,9 +52,17 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 2346,
-      "name": "orange zest, from 1 medium orange",
-      "quantity": "1 tbsp"
+      "ingredient_id": 232,
+      "name": "orange",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tbsp",
+          "name": "orange zest, from 1 medium orange"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 88,
@@ -92,8 +100,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely chop the sliced blanched almonds. Bring the unsalted butter to room temperature.",
-      "secondary_message": "6 oz sliced blanched almonds\n5 tbsp unsalted butter"
+      "primary_message": "Slice and finely chop the blanched almonds. Zest the orange. Bring the unsalted butter to room temperature.",
+      "secondary_message": "6 oz blanched almonds\n1 orange\n5 tbsp unsalted butter"
     },
     {
       "id": 1,

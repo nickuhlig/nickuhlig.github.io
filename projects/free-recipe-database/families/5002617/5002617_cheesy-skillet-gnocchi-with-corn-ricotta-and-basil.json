@@ -51,18 +51,28 @@
     },
     {
       "ingredient_id": 28,
-      "name": "chopped fresh basil, plus more for garnish",
-      "quantity": "2 tbsp"
+      "name": "fresh basil, plus more for garnish",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
-      "ingredient_id": 2346,
-      "name": "grated lemon zest, from 1 lemon",
-      "quantity": "½ tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "½ tsp",
+          "name": "grated lemon zest, from 1 lemon"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 120,
-      "name": "grated Parmesan cheese, divided",
-      "quantity": "¼ cup"
+      "name": "Parmesan cheese, divided",
+      "quantity": "¼ cup",
+      "prep": "grated"
     },
     {
       "ingredient_id": 88,
@@ -94,8 +104,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Shred the low-moisture mozzarella cheese.",
-      "secondary_message": "4 oz low-moisture mozzarella cheese"
+      "primary_message": "Shred the low-moisture mozzarella cheese. Pick the basil leaves from the stems and chop them. Zest the lemon. Grate the Parmesan cheese.",
+      "secondary_message": "4 oz low-moisture mozzarella cheese\n2 tbsp fresh basil, plus more for garnish\n1 lemon\n¼ cup Parmesan cheese, divided"
     },
     {
       "id": 1,

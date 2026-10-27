@@ -57,9 +57,17 @@
       "quantity": "0.68 kg"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 1 lemon",
-      "quantity": "3 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "3 tbsp",
+          "name": "fresh lemon juice, from 1 lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 103,
@@ -108,8 +116,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the apples into 1/2-inch pieces. Coarsely chop the almonds. Cut the cold unsalted butter into 1-tablespoon pieces.",
-      "secondary_message": "3 ½ apples\n⅔ cup almonds\n8 tbsp cold unsalted butter"
+      "primary_message": "Cut the apples into 1/2-inch pieces. Juice the lemon. Coarsely chop the almonds. Cut the cold unsalted butter into 1-tablespoon pieces.",
+      "secondary_message": "3 ½ apples\n1 lemon\n⅔ cup almonds\n8 tbsp cold unsalted butter"
     },
     {
       "id": 1,

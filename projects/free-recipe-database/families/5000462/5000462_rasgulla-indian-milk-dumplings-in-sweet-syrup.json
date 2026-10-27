@@ -48,9 +48,17 @@
       "quantity": "4 cups"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 359,
@@ -78,8 +86,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Lightly crush or split the cardamom pods.",
-      "secondary_message": "4 cardamom pods"
+      "primary_message": "Juice the lemon. Lightly crush or split the cardamom pods.",
+      "secondary_message": "1 lemon\n4 cardamom pods"
     },
     {
       "id": 1,

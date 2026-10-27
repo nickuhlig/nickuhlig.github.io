@@ -60,9 +60,17 @@
       "quantity": "½"
     },
     {
-      "ingredient_id": 2346,
-      "name": "orange zest, from 1 large orange",
-      "quantity": "2 (2 ½ cm) strips"
+      "ingredient_id": 232,
+      "name": "orange",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "2 (2 ½ cm) strips",
+          "name": "orange zest, from 1 large orange"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 88,
@@ -81,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the orange.",
+      "secondary_message": "1 orange"
+    },
     {
       "id": 1,
       "primary_message": "In a 2-quart saucier or saucepan, combine milk, vanilla bean and scraped seeds (or extract), orange zest (if using), and salt. Set over medium-low heat and cook, stirring frequently with a rubber spatula, until milk registers 190ºF (88ºC) on an instant-read thermometer, 3 to 5 minutes. Remove from heat, cover, and set aside to steep for 30 minutes.",

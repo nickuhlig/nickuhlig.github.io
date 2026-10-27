@@ -61,9 +61,17 @@
       "quantity": "½ tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 72,
@@ -81,8 +89,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Sliver the almonds. Thinly slice the garlic. Tear the goat cheese into small bits.",
-      "secondary_message": "⅓ cup almonds\n1 clove garlic\n2 oz goat cheese"
+      "primary_message": "Sliver the almonds. Thinly slice the garlic. Juice the lemon. Tear the goat cheese into small bits.",
+      "secondary_message": "⅓ cup almonds\n1 clove garlic\n½ lemon\n2 oz goat cheese"
     },
     {
       "id": 1,

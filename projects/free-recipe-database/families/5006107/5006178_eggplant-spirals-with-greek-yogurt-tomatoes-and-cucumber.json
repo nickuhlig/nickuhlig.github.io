@@ -47,28 +47,40 @@
     },
     {
       "ingredient_id": 32,
-      "name": "finely grated feta cheese",
-      "quantity": "½ cup"
+      "name": "feta cheese",
+      "quantity": "½ cup",
+      "prep": "finely grated"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 3654,
-      "name": "finely minced fresh oregano",
-      "quantity": "1 tbsp"
+      "name": "fresh oregano",
+      "quantity": "1 tbsp",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 243,
-      "name": "finely minced fresh mint",
-      "quantity": "1 tsp"
+      "name": "fresh mint",
+      "quantity": "1 tsp",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 320,
-      "name": "finely minced fresh dill",
-      "quantity": "1 tsp"
+      "name": "fresh dill",
+      "quantity": "1 tsp",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 1191,
@@ -121,8 +133,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Seed and cut the English cucumber into 1/4-inch dice.",
-      "secondary_message": "1 English cucumber"
+      "primary_message": "Finely grate the feta cheese. Juice the lemon. Pick the oregano leaves from the stems and finely mince them. Pick the mint leaves from the stems and finely mince them. Pick the dill fronds from the stems and finely mince them. Seed and cut the English cucumber into 1/4-inch dice.",
+      "secondary_message": "½ cup feta cheese\n½ lemon\n1 tbsp fresh oregano\n1 tsp fresh mint\n1 tsp fresh dill\n1 English cucumber"
     },
     {
       "id": 1,

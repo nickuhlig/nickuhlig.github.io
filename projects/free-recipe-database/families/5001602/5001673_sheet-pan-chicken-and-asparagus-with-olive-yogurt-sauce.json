@@ -74,9 +74,17 @@
       "quantity": "1 medium bulb"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "1 ½ tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 ½ tbsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 243,
@@ -89,8 +97,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Trim the woody ends of the asparagus. Trim the root and dark-green ends of the scallions. Tear the mint leaves.",
-      "secondary_message": "2 bunches asparagus\n6 to 8 medium scallions\n15 mint leaves"
+      "primary_message": "Trim the woody ends of the asparagus. Trim the root and dark-green ends of the scallions. Juice the lemon. Tear the mint leaves.",
+      "secondary_message": "2 bunches asparagus\n6 to 8 medium scallions\n½ lemon\n15 mint leaves"
     },
     {
       "id": 1,

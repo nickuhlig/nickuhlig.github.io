@@ -69,11 +69,18 @@
     },
     {
       "ingredient_id": 188,
-      "name": "finely chopped fresh cilantro leaves",
-      "quantity": "2 tbsp"
+      "name": "fresh cilantro leaves",
+      "quantity": "2 tbsp",
+      "prep": "finely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the cilantro leaves from the stems and finely chop them.",
+      "secondary_message": "2 tbsp fresh cilantro leaves"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center position and preheat oven to 190°C (375°F). Place carrots in a large pot, cover with water, and season heavily with salt. Heat over high heat until boiling. Reduce to a simmer and cook until barely tender, about 5 minutes. Drain and allow to dry for 5 minutes. Set aside. Season crème fraîche with salt to taste and refrigerate until ready to use.",

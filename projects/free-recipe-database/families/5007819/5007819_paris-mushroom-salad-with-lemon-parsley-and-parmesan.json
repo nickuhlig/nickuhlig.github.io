@@ -41,7 +41,7 @@
   "ingredients": [
     {
       "ingredient_id": 120,
-      "name": "Parmigiano-Reggiano",
+      "name": "Parmesan cheese",
       "quantity": "2 oz"
     },
     {
@@ -67,9 +67,17 @@
       "quantity": ""
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 132,
@@ -91,8 +99,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Wipe the button mushrooms clean. Zest the lemon.",
-      "secondary_message": "9 oz button mushrooms\n1 lemon"
+      "primary_message": "Wipe the button mushrooms clean. Zest the lemon. Juice the lemon.",
+      "secondary_message": "9 oz button mushrooms\n1 lemon\n½ lemon"
     },
     {
       "id": 1,

@@ -48,9 +48,17 @@
       "quantity": "6 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 359,
@@ -68,9 +76,17 @@
       "quantity": "¼ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "¼ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¼ cup",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2006,
@@ -90,6 +106,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon. Juice the lemons.",
+      "secondary_message": "½ lemon\n1 ½ lemons"
+    },
     {
       "id": 1,
       "primary_message": "For the Raspberry Sauce: In a medium saucepan, combine raspberries, water, sugar, and lemon juice over medium heat. Simmer for 10 to 12 minutes, stirring occasionally, until sugar is dissolved, raspberries are broken down, and sauce is slightly thickened. Using a fine-mesh sieve, strain sauce into a medium bowl; discard solids and set sauce aside.",

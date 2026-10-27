@@ -41,14 +41,23 @@
       "quantity": "3 tbsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice",
-      "quantity": "3 tbsp"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "3 tbsp",
+          "name": "fresh lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 153,
-      "name": "thinly sliced green onions",
-      "quantity": "1 tbsp"
+      "name": "green onions",
+      "quantity": "1 tbsp",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 52,
@@ -67,18 +76,21 @@
     },
     {
       "ingredient_id": 153,
-      "name": "thinly sliced green onions",
-      "quantity": "¼ cup"
+      "name": "green onions",
+      "quantity": "¼ cup",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 243,
-      "name": "finely chopped fresh mint",
-      "quantity": "1 tbsp"
+      "name": "fresh mint",
+      "quantity": "1 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1762,
-      "name": "finely chopped Thai chilis",
-      "quantity": "1 tbsp"
+      "name": "Thai chilis",
+      "quantity": "1 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 52,
@@ -107,6 +119,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the limes. Thinly slice the green onions. Thinly slice the green onions. Pick the mint leaves from the stems and finely chop them. Finely chop the Thai chilis.",
+      "secondary_message": "1 ½ limes\n1 tbsp green onions\n¼ cup green onions\n1 tbsp fresh mint\n1 tbsp Thai chilis"
+    },
     {
       "id": 1,
       "primary_message": "Mix all the ingredients for the sauce in a small bowl until the sugar has dissolved.",

@@ -58,9 +58,17 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -82,8 +90,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Rinse and drain the chickpeas. Peel and chop the garlic.",
-      "secondary_message": "1 (539 g) can chickpeas\n1 clove garlic"
+      "primary_message": "Rinse and drain the chickpeas. Peel and chop the garlic. Juice the lemon.",
+      "secondary_message": "1 (539 g) can chickpeas\n1 clove garlic\n1 lemon"
     },
     {
       "id": 1,

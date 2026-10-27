@@ -45,19 +45,29 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 221,
-      "name": "grated peeled fresh ginger",
-      "quantity": "1 tsp"
+      "name": "fresh ginger",
+      "quantity": "1 tsp",
+      "prep": "peeled and grated"
     },
     {
       "ingredient_id": 188,
-      "name": "minced cilantro leaves, tender stems",
-      "quantity": "2 tsp"
+      "name": "cilantro leaves, tender stems",
+      "quantity": "2 tsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 334,
@@ -71,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon. Peel and grate the ginger. Pick the cilantro leaves and tender stems from the thick stems and mince them.",
+      "secondary_message": "½ lemon\n1 tsp fresh ginger\n2 tsp cilantro leaves, tender stems"
+    },
     {
       "id": 1,
       "primary_message": "Bring a pot of salted water to a boil and fill a large bowl with ice water. Add carrots and cook until tender-crisp, about 3 minutes. Immediately transfer to ice water bath to chill.",

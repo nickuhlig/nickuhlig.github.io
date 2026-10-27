@@ -73,9 +73,17 @@
       "quantity": "2"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from about 1 whole lemon",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tbsp",
+          "name": "lemon zest, from about 1 whole lemon"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 118,
@@ -93,8 +101,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Bring the unsalted butter to room temperature. Halve the pitted cherries.",
-      "secondary_message": "6 tbsp unsalted butter\n1 cup pitted"
+      "primary_message": "Bring the unsalted butter to room temperature. Zest the lemon. Halve the pitted cherries.",
+      "secondary_message": "6 tbsp unsalted butter\n1 lemon\n1 cup pitted"
     },
     {
       "id": 1,

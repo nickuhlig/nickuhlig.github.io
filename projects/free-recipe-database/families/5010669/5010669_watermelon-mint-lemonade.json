@@ -36,9 +36,17 @@
       "quantity": "2 quart"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "6",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 cup",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 346,
@@ -67,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemons.",
+      "secondary_message": "6 lemons"
+    },
     {
       "id": 1,
       "primary_message": "Place watermelon, lemon juice, sugar, and salt in a blender and blend on high speed until smooth, about 1 minute. Strain through a fine mesh strainer into 1-quart liquid measuring cup. Add cold water to equal 1 quart.",

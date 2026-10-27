@@ -72,12 +72,26 @@
       "quantity": "15 ml"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice",
-      "quantity": "22 ml"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "22 ml",
+          "name": "fresh lime juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "1 lime"
+    },
     {
       "id": 1,
       "primary_message": "Fill a small, shallow dish with a thin layer of Tajín or salt or a half-and-half combination of each. Run lime wedge around the outer rim of a rocks glass and dip rim in Tajín/salt. Set aside.",

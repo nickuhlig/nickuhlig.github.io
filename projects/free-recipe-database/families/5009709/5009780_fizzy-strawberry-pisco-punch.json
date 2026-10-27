@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 242,
-      "name": "quartered strawberries",
-      "quantity": "½ cup"
+      "name": "strawberries",
+      "quantity": "½ cup",
+      "prep": "quartered"
     },
     {
       "ingredient_id": 287,
@@ -69,9 +70,17 @@
       "quantity": "180 ml"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "180 ml"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "4",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "180 ml",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2406,
@@ -84,8 +93,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Keep the dry sparkling wine cold until you use it.",
-      "secondary_message": "1 (750 ml) bottle dry sparkling wine"
+      "primary_message": "Quarter the strawberries. Juice the lemons. Keep the dry sparkling wine cold until you use it.",
+      "secondary_message": "½ cup strawberries\n4 lemons\n1 (750 ml) bottle dry sparkling wine"
     },
     {
       "id": 1,

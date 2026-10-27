@@ -40,9 +40,17 @@
       "quantity": "2 tsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2187,
@@ -57,8 +65,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "chopped fresh cilantro leaves, tender stems",
-      "quantity": "2 tbsp"
+      "name": "fresh cilantro leaves, tender stems",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 24,
@@ -108,8 +117,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "finely chopped onion",
-      "quantity": "1 cup"
+      "name": "onion",
+      "quantity": "1 cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 269,
@@ -127,8 +137,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Split the serrano chiles lengthwise. Grate the ginger. Rinse and drain the Basmati rice.",
-      "secondary_message": "3 serrano chiles\n1 ½ cm piece ginger\n2 cups Basmati rice"
+      "primary_message": "Juice the lime. Split the serrano chiles lengthwise. Pick the cilantro leaves and tender stems from the thick stems and chop them. Grate the ginger. Finely chop the onion. Rinse and drain the Basmati rice.",
+      "secondary_message": "½ lime\n3 serrano chiles\n2 tbsp fresh cilantro leaves, tender stems\n1 ½ cm piece ginger\n1 cup onion\n2 cups Basmati rice"
     },
     {
       "id": 1,

@@ -55,9 +55,17 @@
       "quantity": "2 cups"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 74,
@@ -84,8 +92,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Peel, core, and cut the mixed good cooking apples into large chunks.",
-      "secondary_message": "8 mixed good cooking apples"
+      "primary_message": "Peel, core, and cut the mixed good cooking apples into large chunks. Juice the lemon.",
+      "secondary_message": "8 mixed good cooking apples\n1 lemon"
     },
     {
       "id": 1,

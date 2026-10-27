@@ -58,8 +58,9 @@
     },
     {
       "ingredient_id": 1816,
-      "name": "finely chopped lemongrass, tender white bottom section only",
-      "quantity": "1 tbsp"
+      "name": "lemongrass, tender white bottom section only",
+      "quantity": "1 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1762,
@@ -68,9 +69,17 @@
       "prep": "thinly sliced"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 52,
@@ -84,16 +93,17 @@
     },
     {
       "ingredient_id": 188,
-      "name": "chopped fresh cilantro leaves",
-      "quantity": "2 tbsp"
+      "name": "fresh cilantro leaves",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Clean and quarter the white button mushrooms. Mince the garlic cloves. Thinly slice the Thai bird chile pepper.",
-      "secondary_message": "0.45 kg white button mushrooms\n2 medium garlic cloves\n1 Thai bird chile pepper"
+      "primary_message": "Clean and quarter the white button mushrooms. Mince the garlic cloves. Finely chop the lemongrass. Thinly slice the Thai bird chile pepper. Juice the lime. Pick the cilantro leaves from the stems and chop them.",
+      "secondary_message": "0.45 kg white button mushrooms\n2 medium garlic cloves\n1 tbsp lemongrass, tender white bottom section only\n1 Thai bird chile pepper\n½ lime\n2 tbsp fresh cilantro leaves"
     },
     {
       "id": 1,

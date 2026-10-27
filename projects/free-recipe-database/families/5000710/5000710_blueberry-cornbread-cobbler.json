@@ -51,14 +51,27 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 2346,
-      "name": "fresh lemon zest, from 1 whole lemon",
-      "quantity": "2 tsp"
-    },
-    {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 whole lemon",
-      "quantity": "3 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "3 tbsp",
+          "name": "lemon juice, from 1 whole lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "2 tsp",
+          "name": "fresh lemon zest, from 1 whole lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tsp",
+          "name": "fresh lemon zest"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 74,
@@ -106,11 +119,6 @@
       "quantity": "½ tsp"
     },
     {
-      "ingredient_id": 2346,
-      "name": "fresh lemon zest",
-      "quantity": "1 tsp"
-    },
-    {
       "ingredient_id": 115,
       "name": "unsalted butter melted and cooled slightly, divided",
       "quantity": "9 tbsp"
@@ -127,6 +135,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest and juice the lemon.",
+      "secondary_message": "1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "For the filling: Adjust oven rack to middle position and preheat oven to 350°F (175ºC). In a large bowl, whisk sugar, cornstarch, lemon zest, cinnamon, and salt, to combine. Add 6 cups of the blueberries and the lemon juice and toss to combine; set aside.",

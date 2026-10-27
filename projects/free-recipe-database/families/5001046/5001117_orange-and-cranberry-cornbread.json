@@ -95,9 +95,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "melted butter, divided",
+      "name": "butter, divided",
       "quantity": "4 tbsp",
-      "prep": "cooled slightly"
+      "prep": "melted, cooled slightly"
     },
     {
       "ingredient_id": 1007,
@@ -106,21 +106,30 @@
     },
     {
       "ingredient_id": 1316,
-      "name": "roughly chopped fresh cranberries",
-      "quantity": "1 cup"
+      "name": "fresh cranberries",
+      "quantity": "1 cup",
+      "prep": "roughly chopped"
     },
     {
-      "ingredient_id": 2346,
-      "name": "finely grated orange zest, from 1 orange",
-      "quantity": "1 tbsp"
+      "ingredient_id": 232,
+      "name": "orange",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tbsp",
+          "name": "finely grated orange zest, from 1 orange"
+        }
+      ],
+      "prep": "zested"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cool the melted butter slightly.",
-      "secondary_message": "4 tbsp melted butter, divided"
+      "primary_message": "Melt and cool the butter slightly. Roughly chop the cranberries. Zest the orange.",
+      "secondary_message": "4 tbsp butter, divided\n1 cup fresh cranberries\n1 orange"
     },
     {
       "id": 1,

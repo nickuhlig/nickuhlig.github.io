@@ -98,14 +98,23 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 188,
-      "name": "finely minced cilantro leaves",
-      "quantity": "2 tbsp"
+      "name": "cilantro leaves",
+      "quantity": "2 tbsp",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 1044,
@@ -117,8 +126,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thaw the frozen spring roll wrappers.",
-      "secondary_message": "30 to 40 (12 ½ cm) frozen spring roll wrappers"
+      "primary_message": "Thaw the frozen spring roll wrappers. Juice the lime. Pick the cilantro leaves from the stems and finely mince them.",
+      "secondary_message": "30 to 40 (12 ½ cm) frozen spring roll wrappers\n½ lime\n2 tbsp cilantro leaves"
     },
     {
       "id": 1,

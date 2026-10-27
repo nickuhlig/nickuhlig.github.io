@@ -95,9 +95,17 @@
       "quantity": "1 tsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice, from 2 whole limes plus more to taste",
-      "quantity": "1 tsp"
+      "ingredient_id": 228,
+      "name": "lime, to taste",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tsp",
+          "name": "fresh lime juice, from 2 whole limes plus more to taste"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 277,
@@ -113,21 +121,23 @@
     },
     {
       "ingredient_id": 243,
-      "name": "roughly chopped fresh mint leaves",
-      "quantity": "1 cup"
+      "name": "fresh mint leaves",
+      "quantity": "1 cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 28,
-      "name": "roughly chopped fresh basil",
-      "quantity": "1 cup"
+      "name": "fresh basil",
+      "quantity": "1 cup",
+      "prep": "roughly chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely chop the green Thai chile. Slice the cherry tomatoes in half lengthwise. Thinly slice the red onion.",
-      "secondary_message": "1 small green Thai chile\n180 g cherry tomatoes\n½ small red onion"
+      "primary_message": "Finely chop the green Thai chile. Juice the lime. Slice the cherry tomatoes in half lengthwise. Thinly slice the red onion. Pick the mint leaves from the stems and roughly chop them. Pick the basil leaves from the stems and roughly chop them.",
+      "secondary_message": "1 small green Thai chile\n½ lime, to taste\n180 g cherry tomatoes\n½ small red onion\n1 cup fresh mint leaves\n1 cup fresh basil"
     },
     {
       "id": 1,

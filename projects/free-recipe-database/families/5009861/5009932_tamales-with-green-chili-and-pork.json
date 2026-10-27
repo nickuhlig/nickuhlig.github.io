@@ -53,8 +53,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "packed roughly chopped fresh cilantro leaves, tender stems",
-      "quantity": "1 cup"
+      "name": "packed fresh cilantro leaves, tender stems",
+      "quantity": "1 cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 3686,
@@ -62,9 +63,17 @@
       "quantity": "1 cup"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -78,8 +87,9 @@
     },
     {
       "ingredient_id": 2939,
-      "name": "shredded pork carnitas",
-      "quantity": "4 cups"
+      "name": "pork carnitas",
+      "quantity": "4 cups",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 2779,
@@ -97,8 +107,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Husk, wash, and halve the tomatillos. Smash and peel the garlic. Soak the dried corn husks in water for at least 1 hour.",
-      "secondary_message": "0.45 kg tomatillos\n3 medium cloves garlic\n3 dozen dried corn husks"
+      "primary_message": "Husk, wash, and halve the tomatillos. Smash and peel the garlic. Pick the cilantro leaves and tender stems from the thick stems and roughly chop them. Juice the lime. Shred the pork carnitas. Soak the dried corn husks in water for at least 1 hour.",
+      "secondary_message": "0.45 kg tomatillos\n3 medium cloves garlic\n1 cup packed fresh cilantro leaves, tender stems\n1 lime\n4 cups pork carnitas\n3 dozen dried corn husks"
     },
     {
       "id": 1,

@@ -138,8 +138,9 @@
     },
     {
       "ingredient_id": 327,
-      "name": "finely chopped toasted pecans",
-      "quantity": "170 g"
+      "name": "toasted pecans",
+      "quantity": "170 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 288,
@@ -169,9 +170,17 @@
       "quantity": "2 tsp"
     },
     {
-      "ingredient_id": 2346,
-      "name": "finely grated orange zest, from 1 medium orange",
-      "quantity": "1 tsp"
+      "ingredient_id": 232,
+      "name": "orange",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tsp",
+          "name": "finely grated orange zest, from 1 medium orange"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 88,
@@ -209,8 +218,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Bring the egg whites to room temperature. Bring the unsalted butter to room temperature. Bring the whole milk to room temperature. Bring the unsalted butter to room temperature. Finely chop the golden raisins. Finely chop the dried sweetened tart cherries. Soften the unsalted butter cut into 1-inch size pieces.",
-      "secondary_message": "8 large egg whites\n227 g unsalted butter\n1 ½ cups whole milk\n170 g unsalted butter\n170 g golden raisins\n170 g dried sweetened tart cherries\n283 g unsalted butter"
+      "primary_message": "Bring the egg whites to room temperature. Bring the unsalted butter to room temperature. Bring the whole milk to room temperature. Bring the unsalted butter to room temperature. Finely chop the toasted pecans. Finely chop the golden raisins. Finely chop the dried sweetened tart cherries. Zest the orange. Soften the unsalted butter cut into 1-inch size pieces.",
+      "secondary_message": "8 large egg whites\n227 g unsalted butter\n1 ½ cups whole milk\n170 g unsalted butter\n170 g toasted pecans\n170 g golden raisins\n170 g dried sweetened tart cherries\n1 orange\n283 g unsalted butter"
     },
     {
       "id": 1,

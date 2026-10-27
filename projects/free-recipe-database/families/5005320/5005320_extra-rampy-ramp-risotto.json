@@ -39,13 +39,15 @@
     },
     {
       "ingredient_id": 270,
-      "name": "chopped fresh chives",
-      "quantity": "2 tbsp"
+      "name": "fresh chives",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1808,
-      "name": "chopped fresh parsley leaves",
-      "quantity": "1 tbsp"
+      "name": "fresh parsley leaves",
+      "quantity": "1 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 88,
@@ -90,26 +92,35 @@
     },
     {
       "ingredient_id": 120,
-      "name": "finely grated parmesan cheese",
-      "quantity": "2 oz"
+      "name": "parmesan cheese",
+      "quantity": "2 oz",
+      "prep": "finely grated"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from 1 lemon",
-      "quantity": "1 tsp"
-    },
-    {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 lemon",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "lemon juice, from 1 lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tsp",
+          "name": "lemon zest, from 1 lemon"
+        }
+      ],
+      "prep": "zested and juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Rinse and trim the ramps.",
-      "secondary_message": "24 ramps"
+      "primary_message": "Chop the chives. Pick the parsley leaves from the stems and chop them. Rinse and trim the ramps. Finely grate the parmesan cheese. Zest and juice the lemon.",
+      "secondary_message": "2 tbsp fresh chives\n1 tbsp fresh parsley leaves\n24 ramps\n2 oz parmesan cheese\n1 lemon"
     },
     {
       "id": 1,

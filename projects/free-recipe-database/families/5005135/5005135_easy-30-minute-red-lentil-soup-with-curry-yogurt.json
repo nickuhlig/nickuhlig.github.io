@@ -107,9 +107,17 @@
       "quantity": "2"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 2 whole lemons",
-      "quantity": "¼ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¼ cup",
+          "name": "lemon juice, from 2 whole lemons"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -128,8 +136,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "chopped fresh cilantro leaves",
-      "quantity": "3 tbsp"
+      "name": "fresh cilantro leaves",
+      "quantity": "3 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 73,
@@ -141,8 +150,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Peel and roughly chop the carrot. Roughly chop the celery. Roughly chop the scallions. Split the garlic in half. Peel and roughly chop the ginger. Roughly chop the jalapeño chile.",
-      "secondary_message": "1 small carrot\n1 stalk celery\n6 scallions, white parts only\n2 cloves garlic\n1 (1 inch) knob ginger\n1 jalapeño chile"
+      "primary_message": "Peel and roughly chop the carrot. Roughly chop the celery. Roughly chop the scallions. Split the garlic in half. Peel and roughly chop the ginger. Roughly chop the jalapeño chile. Juice the lemons. Pick the cilantro leaves from the stems and chop them.",
+      "secondary_message": "1 small carrot\n1 stalk celery\n6 scallions, white parts only\n2 cloves garlic\n1 (1 inch) knob ginger\n1 jalapeño chile\n1 ½ lemons\n3 tbsp fresh cilantro leaves"
     },
     {
       "id": 1,

@@ -76,8 +76,9 @@
     },
     {
       "ingredient_id": 29,
-      "name": "sliced almonds",
-      "quantity": "2 tbsp"
+      "name": "almonds",
+      "quantity": "2 tbsp",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 26,
@@ -96,9 +97,17 @@
       "quantity": "¼ lb"
     },
     {
-      "ingredient_id": 2346,
-      "name": "grated lemon zest, from 1 lemon",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tsp",
+          "name": "grated lemon zest, from 1 lemon"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 1811,
@@ -108,8 +117,9 @@
     },
     {
       "ingredient_id": 270,
-      "name": "finely chopped chives",
-      "quantity": "1 tbsp"
+      "name": "chives",
+      "quantity": "1 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 130,
@@ -123,8 +133,9 @@
     },
     {
       "ingredient_id": 2221,
-      "name": "finely chopped tarragon",
-      "quantity": "1 tbsp"
+      "name": "tarragon",
+      "quantity": "1 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 47,
@@ -159,8 +170,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely chop the shallot. Peel and devein the shrimp. Thinly slice the radishes. Core and thinly slice the pear. Quarter the beefsteak tomatoes.",
-      "secondary_message": "1 small shallot\n½ lb shrimp, medium\n6 radishes\n1 pear\n2 beefsteak tomatoes"
+      "primary_message": "Slice the almonds. Finely chop the shallot. Zest the lemon. Peel and devein the shrimp. Finely chop the chives. Pick the tarragon leaves from the stems and finely chop them. Thinly slice the radishes. Core and thinly slice the pear. Quarter the beefsteak tomatoes.",
+      "secondary_message": "2 tbsp almonds\n1 small shallot\n1 lemon\n½ lb shrimp, medium\n1 tbsp chives\n1 tbsp tarragon\n6 radishes\n1 pear\n2 beefsteak tomatoes"
     },
     {
       "id": 1,

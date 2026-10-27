@@ -37,9 +37,17 @@
       "quantity": "4 cups"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from about 24 whole lemons",
-      "quantity": "3 cups"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "16",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "3 cups",
+          "name": "fresh lemon juice, from about 24 whole lemons"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2447,
@@ -77,8 +85,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the lemons into slivers.",
-      "secondary_message": "6 lemons, peel only"
+      "primary_message": "Juice the lemons. Cut the lemons into slivers.",
+      "secondary_message": "16 lemons\n6 lemons, peel only"
     },
     {
       "id": 1,

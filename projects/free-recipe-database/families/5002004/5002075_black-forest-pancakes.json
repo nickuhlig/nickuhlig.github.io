@@ -67,13 +67,22 @@
     },
     {
       "ingredient_id": 2346,
-      "name": "grated lemon zest",
-      "quantity": "¼ tsp"
+      "name": "lemon zest",
+      "quantity": "¼ tsp",
+      "prep": "grated"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 115,
@@ -148,8 +157,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cube the unsalted butter. Bring the eggs to room temperature. Bring the whole milk to room temperature.",
-      "secondary_message": "1 tbsp unsalted butter\n2 large eggs\n1 ¼ cups whole milk"
+      "primary_message": "Grate the zest from the lemon. Juice the lemon. Cube the unsalted butter. Bring the eggs to room temperature. Bring the whole milk to room temperature.",
+      "secondary_message": "¼ tsp lemon zest\n½ lemon\n1 tbsp unsalted butter\n2 large eggs\n1 ¼ cups whole milk"
     },
     {
       "id": 1,

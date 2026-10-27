@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 339,
-      "name": "finely chopped fresh sage",
-      "quantity": "1 tbsp"
+      "name": "fresh sage",
+      "quantity": "1 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 88,
@@ -75,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the sage leaves from the stems and finely chop them.",
+      "secondary_message": "1 tbsp fresh sage"
+    },
     {
       "id": 1,
       "primary_message": "Place pine nuts in a cast iron skillet over medium-high heat. Toast until fragrant and lightly browned. Transfer pine nuts to a small bowl and set aside.",

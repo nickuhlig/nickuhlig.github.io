@@ -53,8 +53,9 @@
     },
     {
       "ingredient_id": 120,
-      "name": "finely grated Parmesan cheese, plus more for serving",
-      "quantity": "28 g"
+      "name": "Parmesan cheese, plus more for serving",
+      "quantity": "28 g",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 116,
@@ -98,11 +99,18 @@
     },
     {
       "ingredient_id": 2436,
-      "name": "Minced fresh herbs, such as basil, parsley, or chives",
-      "quantity": ""
+      "name": "Fresh herbs, such as basil, parsley, or chives",
+      "quantity": "",
+      "prep": "minced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely grate the Parmesan cheese. Pick the herb leaves from the stems and mince them.",
+      "secondary_message": "28 g Parmesan cheese, plus more for serving\nFresh herbs, such as basil, parsley, or chives"
+    },
     {
       "id": 1,
       "primary_message": "Line a large plate with three layers of paper towels or a clean dish towel. Transfer ricotta directly to paper towels and spread with a rubber spatula. Place another triple layer of paper towels or a clean dish towel on top and press down firmly with the palms of your hands to blot excess moisture. Peel off upper paper towels.",

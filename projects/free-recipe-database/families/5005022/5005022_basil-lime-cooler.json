@@ -63,9 +63,17 @@
       "quantity": "1 oz"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "½ oz"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "½ oz",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2315,
@@ -84,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "½ lime"
+    },
     {
       "id": 1,
       "primary_message": "For the Basil Syrup: Combine water, sugar, and basil leaves in a small saucepan. Heat over high heat until boiling, stirring to dissolve sugar. Reduce to a simmer and continue to cook for 10 minutes. Remove from heat and let cool. Strain through a fine-mesh strainer. Basil syrup will keep for 1 week in a sealed container in the refrigerator.",

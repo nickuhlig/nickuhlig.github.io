@@ -58,9 +58,17 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "3 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "3 tsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1721,
@@ -72,8 +80,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Wash and trim the broccoli rabe.",
-      "secondary_message": "0.45 kg broccoli rabe"
+      "primary_message": "Wash and trim the broccoli rabe. Juice the lemon.",
+      "secondary_message": "0.45 kg broccoli rabe\n½ lemon"
     },
     {
       "id": 1,

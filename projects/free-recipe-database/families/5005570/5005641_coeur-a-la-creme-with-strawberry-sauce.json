@@ -80,17 +80,25 @@
       "quantity": "3 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "½ tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "½ tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Bring the cream cheese to room temperature. Scrape the vanilla bean of its seeds.",
-      "secondary_message": "113 g cream cheese\n½ (14 cm) vanilla bean"
+      "primary_message": "Bring the cream cheese to room temperature. Scrape the vanilla bean of its seeds. Juice the lemon.",
+      "secondary_message": "113 g cream cheese\n½ (14 cm) vanilla bean\n½ lemon"
     },
     {
       "id": 1,

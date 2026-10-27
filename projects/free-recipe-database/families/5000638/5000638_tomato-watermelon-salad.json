@@ -48,9 +48,17 @@
       "quantity": "½ tsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice, divided",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime, divided",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "fresh lime juice, divided"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 103,
@@ -104,16 +112,17 @@
     },
     {
       "ingredient_id": 243,
-      "name": "torn fresh mint leaves",
-      "quantity": "3 tbsp"
+      "name": "fresh mint leaves",
+      "quantity": "3 tbsp",
+      "prep": "torn"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thinly slice the shallot crosswise into rounds. Quarter the cocktail tomatoes. Halve the red cherry tomatoes. Cut the seedless watermelon into 3/4-inch cubes. Crumble the sheep’s milk feta cheese.",
-      "secondary_message": "1 small shallot\n10 oz cocktail tomatoes\n6 oz red cherry tomatoes\n3 lb seedless watermelon\n4 oz sheep’s milk feta cheese"
+      "primary_message": "Juice the lime. Thinly slice the shallot crosswise into rounds. Quarter the cocktail tomatoes. Halve the red cherry tomatoes. Cut the seedless watermelon into 3/4-inch cubes. Crumble the sheep’s milk feta cheese. Tear the mint leaves.",
+      "secondary_message": "½ lime, divided\n1 small shallot\n10 oz cocktail tomatoes\n6 oz red cherry tomatoes\n3 lb seedless watermelon\n4 oz sheep’s milk feta cheese\n3 tbsp fresh mint leaves"
     },
     {
       "id": 1,

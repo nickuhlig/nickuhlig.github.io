@@ -61,9 +61,17 @@
       "quantity": "1 ¾ lb"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 1 small lemon",
-      "quantity": "1 oz"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 oz",
+          "name": "fresh lemon juice, from 1 small lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 346,
@@ -112,6 +120,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "For the Filling: Combine pitted cherries, lemon juice, sugar, salt, and tapioca starch in a large bowl, folding with a flexible spatula until well combined. Scrape into prepared pie shell and top with remaining dough, using a solid sheet, cutouts, or a lattice-top design. (Check out my tutorials here.) Trim away excess dough and refrigerate pie to ensure top crust is completely chilled, about 30 minutes. Meanwhile, adjust oven rack to lower-middle position and preheat to 400°F.",

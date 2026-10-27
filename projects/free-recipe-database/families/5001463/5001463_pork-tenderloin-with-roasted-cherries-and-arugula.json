@@ -108,8 +108,9 @@
     },
     {
       "ingredient_id": 1385,
-      "name": "trimmed pork tenderloin",
-      "quantity": "1 ¼ lb"
+      "name": "pork tenderloin",
+      "quantity": "1 ¼ lb",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 1682,
@@ -137,9 +138,17 @@
       "quantity": "2 tbsp (⅔ oz)"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 24,
@@ -166,8 +175,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Pit the fresh sweet cherries.",
-      "secondary_message": "4 cups fresh sweet cherries"
+      "primary_message": "Pit the fresh sweet cherries. Trim the pork tenderloin. Juice the lemon.",
+      "secondary_message": "4 cups fresh sweet cherries\n1 ¼ lb pork tenderloin\n½ lemon"
     },
     {
       "id": 1,

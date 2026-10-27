@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 2633,
-      "name": "grated bonito flakes",
-      "quantity": "½ oz"
+      "name": "bonito flakes",
+      "quantity": "½ oz",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1044,
@@ -99,9 +100,17 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -144,8 +153,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Dice the leek. Dice the carrots. Slice the garlic. Peel, core, and dice the crisp apple.",
-      "secondary_message": "1 medium leek, white and light green parts only\n2 medium carrots\n2 medium cloves garlic\n1 large crisp apple, such as Fuji"
+      "primary_message": "Grate the bonito flakes. Dice the leek. Dice the carrots. Slice the garlic. Juice the lemon. Peel, core, and dice the crisp apple.",
+      "secondary_message": "½ oz bonito flakes\n1 medium leek, white and light green parts only\n2 medium carrots\n2 medium cloves garlic\n½ lemon\n1 large crisp apple, such as Fuji"
     },
     {
       "id": 1,

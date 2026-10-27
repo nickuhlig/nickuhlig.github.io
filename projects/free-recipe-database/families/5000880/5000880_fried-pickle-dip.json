@@ -53,8 +53,9 @@
     },
     {
       "ingredient_id": 1377,
-      "name": "drained and chopped dill pickles",
-      "quantity": "¾ cup"
+      "name": "dill pickles",
+      "quantity": "¾ cup",
+      "prep": "drained and chopped"
     },
     {
       "ingredient_id": 2090,
@@ -63,8 +64,9 @@
     },
     {
       "ingredient_id": 320,
-      "name": "finely chopped fresh dill",
-      "quantity": "2 tbsp"
+      "name": "fresh dill",
+      "quantity": "2 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 115,
@@ -83,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain and chop the dill pickles. Pick the dill fronds from the stems and finely chop them.",
+      "secondary_message": "¾ cup dill pickles\n2 tbsp fresh dill"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, whisk sour cream, mayonnaise, ranch dressing mix, 1/2 cup chopped pickles, 1/4 cup pickle juice, and dill in a medium bowl to combine. Cover and chill dip until thickened slightly, about 30 minutes.",

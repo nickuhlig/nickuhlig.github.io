@@ -86,8 +86,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "chopped fresh cilantro",
-      "quantity": "¾ cup"
+      "name": "fresh cilantro",
+      "quantity": "¾ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1420,
@@ -101,9 +102,17 @@
       "prep": "finely chopped"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice, from 1 lime",
-      "quantity": "4 tsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "4 tsp",
+          "name": "fresh lime juice, from 1 lime"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 52,
@@ -122,9 +131,17 @@
       "quantity": "2 ½ tbsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tbsp",
+          "name": "fresh lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1743,
@@ -146,8 +163,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Trim the bone-in skin-on chicken thighs. Cut the broccoli florets into 1 1/2- to 2-inch pieces. Finely chop the red Thai chile. Stir the canned unsweetened coconut milk and shake it well.",
-      "secondary_message": "1 ¾ lb bone-in skin-on chicken thighs\n12 oz broccoli florets\n1 large red Thai chile\n½ cup canned unsweetened coconut milk"
+      "primary_message": "Trim the bone-in skin-on chicken thighs. Cut the broccoli florets into 1 1/2- to 2-inch pieces. Pick the cilantro leaves from the stems and chop them. Finely chop the red Thai chile. Juice the lime. Stir the canned unsweetened coconut milk and shake it well. Juice the lime.",
+      "secondary_message": "1 ¾ lb bone-in skin-on chicken thighs\n12 oz broccoli florets\n¾ cup fresh cilantro\n1 large red Thai chile\n1 lime\n½ cup canned unsweetened coconut milk\n1 lime"
     },
     {
       "id": 1,

@@ -41,18 +41,21 @@
   "ingredients": [
     {
       "ingredient_id": 188,
-      "name": "packed roughly chopped fresh cilantro leaves, tender stems",
-      "quantity": "2 cups"
+      "name": "packed fresh cilantro leaves, tender stems",
+      "quantity": "2 cups",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 243,
-      "name": "packed roughly chopped fresh mint leaves",
-      "quantity": "1 cup"
+      "name": "packed fresh mint leaves",
+      "quantity": "1 cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 184,
-      "name": "chopped red onion",
-      "quantity": "½ cup"
+      "name": "red onion",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2187,
@@ -60,9 +63,17 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1850,
@@ -78,8 +89,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "freshly grated ginger",
-      "quantity": "1 tsp"
+      "name": "ginger",
+      "quantity": "1 tsp",
+      "prep": "freshly grated"
     },
     {
       "ingredient_id": 359,
@@ -96,8 +108,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Stem the hot green chilies. Mince the garlic.",
-      "secondary_message": "1 to 2 small hot green chilies\n2 medium cloves garlic"
+      "primary_message": "Pick the cilantro leaves and tender stems from the thick stems and roughly chop them. Pick the mint leaves from the stems and roughly chop them. Chop the red onion. Juice the lemon. Stem the hot green chilies. Mince the garlic. Freshly grate the ginger.",
+      "secondary_message": "2 cups packed fresh cilantro leaves, tender stems\n1 cup packed fresh mint leaves\n½ cup red onion\n½ lemon\n1 to 2 small hot green chilies\n2 medium cloves garlic\n1 tsp ginger"
     },
     {
       "id": 1,

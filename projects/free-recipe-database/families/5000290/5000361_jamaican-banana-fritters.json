@@ -35,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 317,
-      "name": "mashed overripe bananas, from 4 medium bananas",
-      "quantity": "1 ½ cups"
+      "name": "overripe bananas, from 4 medium bananas",
+      "quantity": "1 ½ cups",
+      "prep": "mashed"
     },
     {
       "ingredient_id": 353,
@@ -80,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mash the overripe bananas.",
+      "secondary_message": "1 ½ cups overripe bananas, from 4 medium bananas"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, stir bananas, vanilla extract, and nutmeg to combine. Whisk in flour, followed by milk or water, until a thick and slightly lumpy batter begins to form. (Exactly how thick varies from cook to cook, but a general goal is a batter that’s thicker than pancake batter, spreadable, but not free-flowing.) If needed, add additional liquid, 1 tablespoon at a time, to achieve the desired texture.",

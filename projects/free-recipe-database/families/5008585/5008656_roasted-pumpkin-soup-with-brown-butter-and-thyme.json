@@ -75,8 +75,9 @@
     },
     {
       "ingredient_id": 1677,
-      "name": "picked thyme leaves",
-      "quantity": "1 tbsp"
+      "name": "thyme leaves",
+      "quantity": "1 tbsp",
+      "prep": "picked"
     },
     {
       "ingredient_id": 115,
@@ -110,17 +111,25 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely slice the yellow onion.",
-      "secondary_message": "1 small yellow onion"
+      "primary_message": "Pick the thyme leaves from the stems. Finely slice the yellow onion. Juice the lemon.",
+      "secondary_message": "1 tbsp thyme leaves\n1 small yellow onion\n½ lemon"
     },
     {
       "id": 1,

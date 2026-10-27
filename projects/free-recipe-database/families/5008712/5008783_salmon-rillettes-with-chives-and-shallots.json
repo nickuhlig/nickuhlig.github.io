@@ -47,9 +47,17 @@
       "quantity": ""
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, plus juice from 1 lemon, divided",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon, plus juice, divided",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice, plus juice from 1 lemon, divided"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 309,
@@ -75,8 +83,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "minced shallot",
-      "quantity": "¼ cup"
+      "name": "shallot",
+      "quantity": "¼ cup",
+      "prep": "minced"
     },
     {
       "ingredient_id": 267,
@@ -85,8 +94,9 @@
     },
     {
       "ingredient_id": 270,
-      "name": "minced chives",
-      "quantity": "2 tbsp"
+      "name": "chives",
+      "quantity": "2 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1514,
@@ -113,8 +123,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the boneless skinless salmon fillet into 1-inch pieces. Halve the leek. Cut the celery into large pieces.",
-      "secondary_message": "0.55 kg boneless skinless salmon fillet\n1 medium leek\n1 large stalk celery"
+      "primary_message": "Cut the boneless skinless salmon fillet into 1-inch pieces. Juice the lemon. Halve the leek. Cut the celery into large pieces. Mince the shallot. Mince the chives.",
+      "secondary_message": "0.55 kg boneless skinless salmon fillet\n1 lemon, plus juice, divided\n1 medium leek\n1 large stalk celery\n¼ cup shallot\n2 tbsp chives"
     },
     {
       "id": 1,

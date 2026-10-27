@@ -80,13 +80,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "chopped onion",
-      "quantity": "6 cups"
+      "name": "onion",
+      "quantity": "6 cups",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 221,
-      "name": "grated fresh ginger",
-      "quantity": "4 tsp"
+      "name": "fresh ginger",
+      "quantity": "4 tsp",
+      "prep": "grated"
     },
     {
       "ingredient_id": 478,
@@ -130,6 +132,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the onion. Grate the ginger.",
+      "secondary_message": "6 cups onion\n4 tsp fresh ginger"
+    },
     {
       "id": 1,
       "primary_message": "Working in roughly 2-cup batches, wrap carrots, squash, sweet potato, russet potato, and onion in cheesecloth that has been folded over twice. Tie corners around the handle of a wooden spoon and twist bundle until liquid flows out and vegetables are dry. Add squeezed vegetables to a large mixing bowl and toss to combine thoroughly.",

@@ -63,8 +63,9 @@
     },
     {
       "ingredient_id": 43,
-      "name": "grated sharp cheddar cheese",
-      "quantity": "0.68 kg"
+      "name": "sharp cheddar cheese",
+      "quantity": "0.68 kg",
+      "prep": "grated"
     },
     {
       "ingredient_id": 448,
@@ -88,8 +89,9 @@
     },
     {
       "ingredient_id": 1060,
-      "name": "grated Gruyère cheese",
-      "quantity": "227 g"
+      "name": "Gruyère cheese",
+      "quantity": "227 g",
+      "prep": "grated"
     },
     {
       "ingredient_id": 119,
@@ -98,6 +100,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the sharp cheddar cheese. Grate the Gruyère cheese.",
+      "secondary_message": "0.68 kg sharp cheddar cheese\n227 g Gruyère cheese"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 175°C (350°F). In a medium pot of salted boiling water, cook elbow macaroni until just shy of al dente, about 2 minutes less than cooking time indicated on package. Drain, then transfer pasta to a large mixing bowl and toss with 2 tablespoons butter until butter is melted and pasta is evenly coated. Set aside.",

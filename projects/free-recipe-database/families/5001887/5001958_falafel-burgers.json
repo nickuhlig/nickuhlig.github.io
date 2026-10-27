@@ -60,13 +60,15 @@
     },
     {
       "ingredient_id": 188,
-      "name": "lightly packed coarsely chopped fresh cilantro",
-      "quantity": "¾ cup"
+      "name": "lightly packed fresh cilantro",
+      "quantity": "¾ cup",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 1808,
-      "name": "lightly packed coarsely chopped fresh parsley",
-      "quantity": "¾ cup"
+      "name": "lightly packed fresh parsley",
+      "quantity": "¾ cup",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 152,
@@ -116,9 +118,17 @@
       "quantity": "¼ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "3 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "3 tbsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -140,8 +150,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Chop the yellow onion. Finely chop the garlic cloves.",
-      "secondary_message": "½ small yellow onion\n2 medium garlic cloves"
+      "primary_message": "Pick the cilantro leaves from the stems and coarsely chop them. Pick the parsley leaves from the stems and coarsely chop them. Chop the yellow onion. Finely chop the garlic cloves. Juice the lemon.",
+      "secondary_message": "¾ cup lightly packed fresh cilantro\n¾ cup lightly packed fresh parsley\n½ small yellow onion\n2 medium garlic cloves\n1 lemon"
     },
     {
       "id": 1,

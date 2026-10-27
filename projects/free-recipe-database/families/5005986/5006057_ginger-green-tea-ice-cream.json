@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "finely grated ginger, with juice",
-      "quantity": "3 tbsp"
+      "name": "ginger, with juice",
+      "quantity": "3 tbsp",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 3641,
@@ -66,6 +67,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely grate the ginger.",
+      "secondary_message": "3 tbsp ginger, with juice"
+    },
     {
       "id": 1,
       "primary_message": "Add matcha powder to a heavy-bottomed saucepan and very slowly whisk in half and half, stopping frequently to smooth out any lumps. Lumps will not cook out.",

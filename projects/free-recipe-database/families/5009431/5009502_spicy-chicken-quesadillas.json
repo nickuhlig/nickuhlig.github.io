@@ -35,23 +35,27 @@
   "ingredients": [
     {
       "ingredient_id": 3664,
-      "name": "shredded cooked chicken breast",
-      "quantity": "85 g"
+      "name": "cooked chicken breast",
+      "quantity": "85 g",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 1373,
-      "name": "minced pickled jalapeño",
-      "quantity": "1 tbsp"
+      "name": "pickled jalapeño",
+      "quantity": "1 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 188,
-      "name": "minced fresh cilantro leaves",
-      "quantity": "1 tbsp"
+      "name": "fresh cilantro leaves",
+      "quantity": "1 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1156,
-      "name": "shredded Pepper Jack cheese",
-      "quantity": "115 g"
+      "name": "Pepper Jack cheese",
+      "quantity": "115 g",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 187,
@@ -70,6 +74,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shred the cooked chicken breast. Mince the pickled jalapeño. Pick the cilantro leaves from the stems and mince them. Shred the Pepper Jack cheese.",
+      "secondary_message": "85 g cooked chicken breast\n1 tbsp pickled jalapeño\n1 tbsp fresh cilantro leaves\n115 g Pepper Jack cheese"
+    },
     {
       "id": 1,
       "primary_message": "Combine chicken, jalapeño, cilantro, and pepper Jack in a medium bowl and mix to combine. Spread half of mixture evenly over half of one tortilla, leaving a 1.5-cm border. Fold tortilla over and seal edges by pressing down firmly. Repeat with remaining filling and second tortilla.",

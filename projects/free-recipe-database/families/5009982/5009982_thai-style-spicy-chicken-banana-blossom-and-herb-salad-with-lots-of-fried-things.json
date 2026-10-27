@@ -117,9 +117,17 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice, from 2 limes plus more to taste",
-      "quantity": "2 tbsp"
+      "ingredient_id": 228,
+      "name": "lime, to taste",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tbsp",
+          "name": "fresh lime juice, from 2 limes plus more to taste"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 3143,
@@ -133,21 +141,23 @@
     },
     {
       "ingredient_id": 188,
-      "name": "roughly chopped fresh cilantro leaves",
-      "quantity": "⅓ cup"
+      "name": "fresh cilantro leaves",
+      "quantity": "⅓ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 243,
-      "name": "roughly chopped mint leaves",
-      "quantity": "⅓ cup"
+      "name": "mint leaves",
+      "quantity": "⅓ cup",
+      "prep": "roughly chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thinly slice the European shallots. Roughly smash the standard garlic in a mortar and pestle. Roughly chop the Thai chiles.",
-      "secondary_message": "3 medium European shallots\n4 large cloves standard garlic\n4 to 10 Thai chiles"
+      "primary_message": "Thinly slice the European shallots. Roughly smash the standard garlic in a mortar and pestle. Roughly chop the Thai chiles. Juice the lime. Pick the cilantro leaves from the stems and roughly chop them. Pick the mint leaves from the stems and roughly chop them.",
+      "secondary_message": "3 medium European shallots\n4 large cloves standard garlic\n4 to 10 Thai chiles\n1 lime, to taste\n⅓ cup fresh cilantro leaves\n⅓ cup mint leaves"
     },
     {
       "id": 1,

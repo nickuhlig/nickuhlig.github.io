@@ -73,9 +73,17 @@
       "quantity": "10 oz"
     },
     {
-      "ingredient_id": 2346,
-      "name": "orange zest, from 1 large orange",
-      "quantity": "1 tbsp"
+      "ingredient_id": 232,
+      "name": "orange",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tbsp",
+          "name": "orange zest, from 1 large orange"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 88,
@@ -139,8 +147,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Lightly beat the egg. Lightly toast and coarsely chop the unsalted pistachios.",
-      "secondary_message": "1 large egg\n2 oz unsalted pistachios"
+      "primary_message": "Zest the orange. Lightly beat the egg. Lightly toast and coarsely chop the unsalted pistachios.",
+      "secondary_message": "1 orange\n1 large egg\n2 oz unsalted pistachios"
     },
     {
       "id": 1,

@@ -65,8 +65,9 @@
     },
     {
       "ingredient_id": 1677,
-      "name": "picked fresh thyme leaves, plus more for garnish",
-      "quantity": "2 tsp"
+      "name": "fresh thyme leaves, plus more for garnish",
+      "quantity": "2 tsp",
+      "prep": "picked"
     },
     {
       "ingredient_id": 2517,
@@ -74,9 +75,17 @@
       "quantity": "4 cups"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1730,
@@ -88,8 +97,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Peel and cut the beets into 1 1/2-inch dice.",
-      "secondary_message": "5 medium beets"
+      "primary_message": "Peel and cut the beets into 1 1/2-inch dice. Pick the thyme leaves from the stems. Juice the lemon.",
+      "secondary_message": "5 medium beets\n2 tsp fresh thyme leaves, plus more for garnish\n½ lemon"
     },
     {
       "id": 1,

@@ -89,8 +89,9 @@
     },
     {
       "ingredient_id": 270,
-      "name": "thinly sliced chives",
-      "quantity": "3 tbsp"
+      "name": "chives",
+      "quantity": "3 tbsp",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 85,
@@ -104,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the chives.",
+      "secondary_message": "3 tbsp chives"
+    },
     {
       "id": 1,
       "primary_message": "Add 1 tray of ice cubes to a large bowl and fill with water. Fill a large pot with 2.5 cm of water. Place steamer insert inside, cover, and bring to a boil over high heat. Add eggs to steamer basket, cover, and continue cooking over high heat for 12 minutes. Immediately place eggs in bowl of ice water and allow to cool for at least 15 minutes before peeling under cool running water. Slice each egg in half lengthwise.",

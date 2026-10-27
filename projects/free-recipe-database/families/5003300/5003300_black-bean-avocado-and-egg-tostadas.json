@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "chopped fresh cilantro leaves, plus more for garnish",
-      "quantity": "1 tbsp"
+      "name": "fresh cilantro leaves, plus more for garnish",
+      "quantity": "1 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 186,
@@ -76,9 +77,17 @@
       "quantity": ""
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1044,
@@ -118,8 +127,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely chop the onion. Finely chop the jalapeño pepper. Soak the dried black beans overnight. Slice the avocados. Thinly slice the scallions. Cut the lime into wedges.",
-      "secondary_message": "1 medium onion\n½ jalapeño pepper\n½ lb dried black beans\n2 avocados\n4 scallions\n1 lime"
+      "primary_message": "Finely chop the onion. Finely chop the jalapeño pepper. Pick the cilantro leaves from the stems and chop them. Soak the dried black beans overnight. Juice the lime. Slice the avocados. Thinly slice the scallions. Cut the lime into wedges.",
+      "secondary_message": "1 medium onion\n½ jalapeño pepper\n1 tbsp fresh cilantro leaves, plus more for garnish\n½ lb dried black beans\n½ lime\n2 avocados\n4 scallions\n1 lime"
     },
     {
       "id": 1,

@@ -81,11 +81,18 @@
     },
     {
       "ingredient_id": 43,
-      "name": "grated cheddar cheese",
-      "quantity": "2 oz"
+      "name": "cheddar cheese",
+      "quantity": "2 oz",
+      "prep": "grated"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the cheddar cheese.",
+      "secondary_message": "2 oz cheddar cheese"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 400°F. Line baking sheet with parchment paper and set aside.",

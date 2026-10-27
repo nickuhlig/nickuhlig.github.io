@@ -49,9 +49,17 @@
       "quantity": "1 cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "¼ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¼ cup",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2346,
@@ -114,8 +122,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the boneless leg of lamb into 1 1/2-inch cubes.",
-      "secondary_message": "2 lb boneless leg of lamb"
+      "primary_message": "Juice the lemons. Cut the boneless leg of lamb into 1 1/2-inch cubes.",
+      "secondary_message": "1 ½ lemons\n2 lb boneless leg of lamb"
     },
     {
       "id": 1,

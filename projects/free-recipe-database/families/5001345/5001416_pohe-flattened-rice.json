@@ -89,22 +89,31 @@
       "weigh_as": "226 g"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice, from 1 medium lime plus more for serving",
-      "quantity": "2 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tbsp",
+          "name": "lime juice, from 1 medium lime plus more for serving"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 188,
-      "name": "finely chopped fresh cilantro leaves",
-      "quantity": "¼ cup"
+      "name": "fresh cilantro leaves",
+      "quantity": "¼ cup",
+      "prep": "finely chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Stem and mince the fresh green Thai chiles.",
-      "secondary_message": "2 small fresh green Thai chiles"
+      "primary_message": "Stem and mince the fresh green Thai chiles. Juice the lime. Pick the cilantro leaves from the stems and finely chop them.",
+      "secondary_message": "2 small fresh green Thai chiles\n1 lime\n¼ cup fresh cilantro leaves"
     },
     {
       "id": 1,

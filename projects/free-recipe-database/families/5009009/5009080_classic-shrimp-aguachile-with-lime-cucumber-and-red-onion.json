@@ -57,9 +57,17 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "4 tbsp"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "4 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 72,
@@ -68,21 +76,23 @@
     },
     {
       "ingredient_id": 184,
-      "name": "thinly sliced red onion",
-      "quantity": "¼ cup"
+      "name": "red onion",
+      "quantity": "¼ cup",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1980,
-      "name": "diced seeded cucumber",
-      "quantity": "2 tbsp"
+      "name": "seeded cucumber",
+      "quantity": "2 tbsp",
+      "prep": "diced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Stem and cut the serrano chiles into 1/4-inch pieces.",
-      "secondary_message": "2 serrano chiles"
+      "primary_message": "Stem and cut the serrano chiles into 1/4-inch pieces. Juice the limes. Thinly slice the red onion. Dice the seeded cucumber.",
+      "secondary_message": "2 serrano chiles\n2 limes\n¼ cup red onion\n2 tbsp seeded cucumber"
     },
     {
       "id": 1,

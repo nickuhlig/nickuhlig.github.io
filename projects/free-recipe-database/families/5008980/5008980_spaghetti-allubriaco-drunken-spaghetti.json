@@ -70,8 +70,9 @@
     },
     {
       "ingredient_id": 106,
-      "name": "chopped flat leaf Italian parsley",
-      "quantity": "¼ cup"
+      "name": "flat leaf Italian parsley",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1679,
@@ -80,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the parsley leaves from the stems and chop them.",
+      "secondary_message": "¼ cup flat leaf Italian parsley"
+    },
     {
       "id": 1,
       "primary_message": "Add the water and red wine to a 6-quart stock pot and place it over medium-high heat. Season the liquid generously with kosher salt and cover the pot to bring it to a boil.",

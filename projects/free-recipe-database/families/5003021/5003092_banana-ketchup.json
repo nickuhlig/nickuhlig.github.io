@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 1676,
-      "name": "finely chopped sweet onion",
-      "quantity": "½ cup"
+      "name": "sweet onion",
+      "quantity": "½ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1191,
@@ -57,13 +58,15 @@
     },
     {
       "ingredient_id": 151,
-      "name": "finely chopped seeded jalapeño",
-      "quantity": "1 tbsp"
+      "name": "seeded jalapeño",
+      "quantity": "1 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 221,
-      "name": "freshly grated ginger",
-      "quantity": "2 tsp"
+      "name": "ginger",
+      "quantity": "2 tsp",
+      "prep": "freshly grated"
     },
     {
       "ingredient_id": 90,
@@ -77,8 +80,9 @@
     },
     {
       "ingredient_id": 317,
-      "name": "mashed ripe bananas",
-      "quantity": "1 ¼ cups"
+      "name": "ripe bananas",
+      "quantity": "1 ¼ cups",
+      "prep": "mashed"
     },
     {
       "ingredient_id": 1574,
@@ -117,6 +121,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the sweet onion. Finely chop the seeded jalapeño. Freshly grate the ginger. Mash the ripe bananas.",
+      "secondary_message": "½ cup sweet onion\n1 tbsp seeded jalapeño\n2 tsp ginger\n1 ¼ cups ripe bananas"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in a medium saucepan over medium heat until shimmering. Add onions and cook, stirring occasionally, until onions have softened, about 5 minutes. Add garlic, jalapeño, ginger, turmeric, and allspice and cook until fragrant, about 30 seconds.",

@@ -84,22 +84,31 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "½ tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "½ tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1808,
-      "name": "minced fresh parsley leaves",
-      "quantity": "1 tbsp"
+      "name": "fresh parsley leaves",
+      "quantity": "1 tbsp",
+      "prep": "minced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the shallot.",
-      "secondary_message": "1 small shallot"
+      "primary_message": "Mince the shallot. Juice the lemon. Pick the parsley leaves from the stems and mince them.",
+      "secondary_message": "1 small shallot\n½ lemon\n1 tbsp fresh parsley leaves"
     },
     {
       "id": 1,

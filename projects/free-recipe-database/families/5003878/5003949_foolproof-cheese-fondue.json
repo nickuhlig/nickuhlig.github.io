@@ -69,9 +69,17 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -88,8 +96,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the garlic in half. Grate the Emmentaler cheese. Grate the Gruyère cheese.",
-      "secondary_message": "1 medium clove garlic\n0.23 kg Emmentaler cheese\n0.23 kg Gruyère cheese"
+      "primary_message": "Cut the garlic in half. Grate the Emmentaler cheese. Grate the Gruyère cheese. Juice the lemon.",
+      "secondary_message": "1 medium clove garlic\n0.23 kg Emmentaler cheese\n0.23 kg Gruyère cheese\n½ lemon"
     },
     {
       "id": 1,

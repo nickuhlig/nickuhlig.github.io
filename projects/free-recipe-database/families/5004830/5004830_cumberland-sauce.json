@@ -72,9 +72,17 @@
       "quantity": "½ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice, from about 2 whole lemons",
-      "quantity": "¼ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¼ cup",
+          "name": "freshly squeezed lemon juice, from about 2 whole lemons"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 117,
@@ -91,8 +99,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely julienne the orange. Finely julienne the lemon.",
-      "secondary_message": "1 orange, peel only\n1 lemon, peel only"
+      "primary_message": "Finely julienne the orange. Finely julienne the lemon. Juice the lemons.",
+      "secondary_message": "1 orange, peel only\n1 lemon, peel only\n1 ½ lemons"
     },
     {
       "id": 1,

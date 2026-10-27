@@ -93,9 +93,17 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 228,
@@ -105,26 +113,29 @@
     },
     {
       "ingredient_id": 1612,
-      "name": "crumbled cotija cheese",
-      "quantity": "½ cup"
+      "name": "cotija cheese",
+      "quantity": "½ cup",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 153,
-      "name": "thinly sliced scallions, white and light green parts only",
-      "quantity": "½ cup"
+      "name": "scallions, white and light green parts only",
+      "quantity": "½ cup",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 188,
-      "name": "roughly chopped fresh cilantro leaves",
-      "quantity": "½ cup"
+      "name": "fresh cilantro leaves",
+      "quantity": "½ cup",
+      "prep": "roughly chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the carrot into 3-inch segments. Split the onion in half. Cut the celery into 3-inch segments. Cut the bacon into 1/2-inch pieces. Thinly slice the shallot. Mince the garlic. Cut the extra lime into wedges.",
-      "secondary_message": "1 carrot\n1 onion\n1 stalk celery, divided\n4 oz bacon\n1 shallot\n1 medium clove garlic\n1 extra lime"
+      "primary_message": "Cut the carrot into 3-inch segments. Split the onion in half. Cut the celery into 3-inch segments. Cut the bacon into 1/2-inch pieces. Thinly slice the shallot. Mince the garlic. Juice the lime. Cut the extra lime into wedges. Crumble the cotija cheese. Thinly slice the scallions. Pick the cilantro leaves from the stems and roughly chop them.",
+      "secondary_message": "1 carrot\n1 onion\n1 stalk celery, divided\n4 oz bacon\n1 shallot\n1 medium clove garlic\n1 lime\n1 extra lime\n½ cup cotija cheese\n½ cup scallions, white and light green parts only\n½ cup fresh cilantro leaves"
     },
     {
       "id": 1,

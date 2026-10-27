@@ -54,8 +54,9 @@
     },
     {
       "ingredient_id": 120,
-      "name": "finely grated Parmesan cheese",
-      "quantity": "2 tbsp"
+      "name": "Parmesan cheese",
+      "quantity": "2 tbsp",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 325,
@@ -68,9 +69,17 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice, from 1 whole lemon",
-      "quantity": "4 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "4 tsp",
+          "name": "freshly squeezed lemon juice, from 1 whole lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1191,
@@ -99,6 +108,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely grate the Parmesan cheese. Juice the lemon.",
+      "secondary_message": "2 tbsp Parmesan cheese\n½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "Place egg yolk, basil, parmesan, anchovies, water, lemon juice, garlic, and mustard in the work bowl of a food processor fitted with a steel blade. Pulse until basil is finely chopped and all ingredients are thoroughly combined.",

@@ -45,13 +45,22 @@
     },
     {
       "ingredient_id": 242,
-      "name": "coarsely chopped strawberries",
-      "quantity": "4 cups"
+      "name": "strawberries",
+      "quantity": "4 cups",
+      "prep": "coarsely chopped"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2713,
@@ -70,6 +79,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Coarsely chop the strawberries. Juice the lemon.",
+      "secondary_message": "4 cups strawberries\n½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "Whisk the sugar and pectin a medium bowl and set aside.",

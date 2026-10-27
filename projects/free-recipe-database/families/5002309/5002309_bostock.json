@@ -73,9 +73,17 @@
       "quantity": "7 oz"
     },
     {
-      "ingredient_id": 2346,
-      "name": "orange zest, from 2 medium oranges",
-      "quantity": "1 ½ tsp"
+      "ingredient_id": 232,
+      "name": "oranges",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 ½ tsp",
+          "name": "orange zest, from 2 medium oranges"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 116,
@@ -130,16 +138,17 @@
     },
     {
       "ingredient_id": 29,
-      "name": "sliced almonds",
-      "quantity": "2 oz"
+      "name": "almonds",
+      "quantity": "2 oz",
+      "prep": "sliced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Bring the unsalted butter to room temperature. Bring the eggs to room temperature.",
-      "secondary_message": "6 oz unsalted butter\n2 large eggs"
+      "primary_message": "Bring the unsalted butter to room temperature. Zest the oranges. Bring the eggs to room temperature. Slice the almonds.",
+      "secondary_message": "6 oz unsalted butter\n2 oranges\n2 large eggs\n2 oz almonds"
     },
     {
       "id": 1,

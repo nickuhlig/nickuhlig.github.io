@@ -46,9 +46,17 @@
       "prep": "peeled and crushed"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "½ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "3",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "½ cup",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 243,
@@ -101,8 +109,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Peel and crush the garlic. Thinly slice the lemons.",
-      "secondary_message": "2 cloves garlic\n3 lemons"
+      "primary_message": "Peel and crush the garlic. Juice the lemons. Thinly slice the lemons.",
+      "secondary_message": "2 cloves garlic\n3 lemons\n3 lemons"
     },
     {
       "id": 1,

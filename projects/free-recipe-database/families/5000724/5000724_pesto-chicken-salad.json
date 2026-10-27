@@ -73,9 +73,17 @@
       "quantity": "½ cup (4 oz)"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 1 lemon",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "fresh lemon juice, from 1 lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 162,
@@ -89,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "In a large saucepan, combine water and salt, and stir to dissolve salt. Add chicken and set over medium-high heat until water temperature registers between 150 and 160°F (65.5 to 71°C) on an instant-read thermometer; adjust heat to maintain water temperature in the 150–160°F range. (It's okay if the temperature bounces around a little, but try to keep it above 150 and below 170°F.) Cook until thickest part of chicken registers 150°F (65.5°C) on an instant-read thermometer, 25 to 30 minutes. Remove chicken and let rest until cool enough to handle, about 5 minutes. Using two forks or clean hands, shred chicken into bite-size pieces and set aside.",

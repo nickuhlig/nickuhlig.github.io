@@ -91,9 +91,17 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lime zest, from 1 lime",
-      "quantity": "⅛ tsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "⅛ tsp",
+          "name": "lime zest, from 1 lime"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 3396,
@@ -103,16 +111,17 @@
     },
     {
       "ingredient_id": 106,
-      "name": "chopped flat-leaf parsley",
-      "quantity": "1 tbsp"
+      "name": "flat-leaf parsley",
+      "quantity": "1 tbsp",
+      "prep": "chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the bluefish fillets into 4 even portions.",
-      "secondary_message": "1 ½ lb bluefish fillets"
+      "primary_message": "Zest the lime. Cut the bluefish fillets into 4 even portions. Pick the parsley leaves from the stems and chop them.",
+      "secondary_message": "1 lime\n1 ½ lb bluefish fillets\n1 tbsp flat-leaf parsley"
     },
     {
       "id": 1,

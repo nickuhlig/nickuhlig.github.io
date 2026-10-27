@@ -68,16 +68,24 @@
     },
     {
       "ingredient_id": 215,
-      "name": "diced dried apricots",
-      "quantity": "1 cup"
+      "name": "dried apricots",
+      "quantity": "1 cup",
+      "prep": "diced"
     },
     {
       "ingredient_id": 272,
-      "name": "chopped walnuts",
-      "quantity": "⅓ cup"
+      "name": "walnuts",
+      "quantity": "⅓ cup",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the dried apricots. Chop the walnuts.",
+      "secondary_message": "1 cup dried apricots\n⅓ cup walnuts"
+    },
     {
       "id": 1,
       "primary_message": "In the bowl of a stand mixer, whisk together yeast, flour, and salt. Add water, maple syrup, and olive oil to the bowl and stir until a shaggy dough forms. Stir in apricots and walnuts; let rest 10 minutes.",

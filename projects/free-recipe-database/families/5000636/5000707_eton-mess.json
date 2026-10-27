@@ -65,10 +65,17 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest",
-      "quantity": "1 tsp",
-      "prep": "finely grated from 1 lemon"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "zested",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tsp",
+          "name": "lemon zest"
+        }
+      ]
     },
     {
       "ingredient_id": 2063,
@@ -100,8 +107,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Wash, hull, and quarter the strawberries. Finely grate the lemon zest from 1 lemon.",
-      "secondary_message": "0.45 kg strawberries\n1 tsp lemon zest"
+      "primary_message": "Wash, hull, and quarter the strawberries. Zest the lemon.",
+      "secondary_message": "0.45 kg strawberries\n1 lemon"
     },
     {
       "id": 1,

@@ -31,9 +31,17 @@
   "cookwares": [],
   "ingredients": [
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "6",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 cup",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 346,
@@ -57,6 +65,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemons.",
+      "secondary_message": "6 lemons"
+    },
     {
       "id": 1,
       "primary_message": "Combine lemon juice and sugar and whisk or blend until sugar is completely dissolved. Add salt and water and stir to combine. Pour into a pitcher with ice. Serve in ice-filled glasses.",

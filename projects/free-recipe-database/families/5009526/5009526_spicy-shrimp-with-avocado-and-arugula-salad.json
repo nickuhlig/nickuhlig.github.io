@@ -60,13 +60,22 @@
     },
     {
       "ingredient_id": 1811,
-      "name": "peeled and deveined shrimp",
-      "quantity": "6 large"
+      "name": "and deveined shrimp",
+      "quantity": "6 large",
+      "prep": "peeled"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 1 lemon",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "fresh lemon juice, from 1 lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 139,
@@ -98,22 +107,30 @@
     },
     {
       "ingredient_id": 1746,
-      "name": "picked basil leaves",
+      "name": "basil leaves",
       "quantity": "6 to 8",
-      "prep": "roughly chopped"
+      "prep": "picked, roughly chopped"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice, from about 1 lime",
-      "quantity": "2 tsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tsp",
+          "name": "fresh lime juice, from about 1 lime"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thinly slice the shallot. Slice the ripe Hass avocado. Halve the Sun Gold. Roughly chop the picked basil leaves.",
-      "secondary_message": "1 medium shallot\n1 ripe Hass avocado\n1 cup Sun Gold\n6 to 8 picked basil leaves"
+      "primary_message": "Peel the and deveined shrimp. Juice the lemon. Thinly slice the shallot. Slice the ripe Hass avocado. Halve the Sun Gold. Pick the basil leaves from the stems and roughly chop them. Juice the lime.",
+      "secondary_message": "6 large and deveined shrimp\n1 lemon\n1 medium shallot\n1 ripe Hass avocado\n1 cup Sun Gold\n6 to 8 basil leaves\n½ lime"
     },
     {
       "id": 1,

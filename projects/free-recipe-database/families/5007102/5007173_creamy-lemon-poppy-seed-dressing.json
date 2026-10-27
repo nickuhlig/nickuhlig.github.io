@@ -63,9 +63,17 @@
       "quantity": "28 g"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 small lemon",
-      "quantity": "28 g"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "28 g",
+          "name": "lemon juice, from 1 small lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -84,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "In a small pitcher, squeeze bottle, or jar, combine fresh lemon syrup, oil, buttermilk, lemon juice, salt, poppy seeds, and black pepper. Stir or close lid and shake well to combine, then adjust seasoning to taste. Use immediately to dress a salad, or refrigerate in an airtight container up to 1 month.",

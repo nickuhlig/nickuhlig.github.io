@@ -42,9 +42,17 @@
       "quantity": "1 quart"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 cup"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "8",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 cup",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 346,
@@ -68,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the limes.",
+      "secondary_message": "8 limes"
+    },
     {
       "id": 1,
       "primary_message": "Combine raspberries, lime juice, sugar, and salt in a blender. Blend on high speed until smooth, about 1 minute. Strain through a fine mesh strainer into a pitcher. Discard solids. Add cold water and whisk to combine. Add ice. Serve in ice-filled glasses garnished with raspberries and lime wedges.",

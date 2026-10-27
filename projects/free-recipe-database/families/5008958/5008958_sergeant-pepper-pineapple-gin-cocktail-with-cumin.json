@@ -81,9 +81,17 @@
       "quantity": "1 fl oz"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 fl oz"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 fl oz",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 3049,
@@ -107,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "1 lime"
+    },
     {
       "id": 1,
       "primary_message": "For the Cumin-Pepper Syrup: In a small saucepan, toast cumin seeds over medium heat until fragrant and just beginning to darken. Add water, sugar, and black peppercorns, stirring to dissolve sugar. Simmer for 15 minutes, strain, and let cool before using.",

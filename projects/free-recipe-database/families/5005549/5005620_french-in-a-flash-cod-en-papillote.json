@@ -59,8 +59,9 @@
     },
     {
       "ingredient_id": 2346,
-      "name": "grated lemon zest",
-      "quantity": "½ tsp"
+      "name": "lemon zest",
+      "quantity": "½ tsp",
+      "prep": "grated"
     },
     {
       "ingredient_id": 88,
@@ -74,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the zest from the lemon.",
+      "secondary_message": "½ tsp lemon zest"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 205°C (400°F). In the center of a large square of heavy duty foil, place 1 teaspoon butter. Season the fish with salt and pepper on both sides, and place on the butter. Top with a good amount of herbs, zest, white wine, and crème fraiche. Seal the bundle, and place on a baking sheet.",

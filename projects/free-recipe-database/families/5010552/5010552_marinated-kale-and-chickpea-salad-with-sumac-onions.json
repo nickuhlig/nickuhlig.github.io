@@ -64,9 +64,17 @@
       "quantity": "½ tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 24,
@@ -95,8 +103,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thinly slice the red onion. Grate the garlic on a microplane grater. Drain and rinse the chickpeas beans.",
-      "secondary_message": "1 small red onion\n1 clove garlic\n1 (14 oz) can chickpeas beans"
+      "primary_message": "Thinly slice the red onion. Juice the lemon. Grate the garlic on a microplane grater. Drain and rinse the chickpeas beans.",
+      "secondary_message": "1 small red onion\n½ lemon\n1 clove garlic\n1 (14 oz) can chickpeas beans"
     },
     {
       "id": 1,

@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 120,
-      "name": "grated parmesan cheese",
-      "quantity": "¼ cup"
+      "name": "parmesan cheese",
+      "quantity": "¼ cup",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1932,
@@ -65,9 +66,17 @@
       "prep": "minced"
     },
     {
-      "ingredient_id": 1480,
-      "name": "Lemon juice, if desired",
-      "quantity": ""
+      "ingredient_id": 192,
+      "name": "Lemon, if desired",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "",
+          "name": "Lemon juice, if desired"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -79,8 +88,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the shallots. Mince the dill.",
-      "secondary_message": "3 shallots\n1 large bunch dill"
+      "primary_message": "Mince the shallots. Grate the parmesan cheese. Pick the dill fronds from the stems and mince them. Juice the lemon.",
+      "secondary_message": "3 shallots\n¼ cup parmesan cheese\n1 large bunch dill\n1 Lemon, if desired"
     },
     {
       "id": 1,

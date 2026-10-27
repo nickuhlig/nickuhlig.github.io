@@ -49,9 +49,17 @@
       "quantity": "1 cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -66,13 +74,15 @@
     },
     {
       "ingredient_id": 243,
-      "name": "roughly chopped fresh mint leaves",
-      "quantity": "¼ cup"
+      "name": "fresh mint leaves",
+      "quantity": "¼ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1808,
-      "name": "roughly chopped fresh parsley leaves",
-      "quantity": "¼ cup"
+      "name": "fresh parsley leaves",
+      "quantity": "¼ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 88,
@@ -95,8 +105,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the garlic. Cut the green cabbage into 6 wedges, then leave the with core intact.",
-      "secondary_message": "2 medium cloves garlic\n1 medium head green cabbage"
+      "primary_message": "Juice the lemon. Mince the garlic. Pick the mint leaves from the stems and roughly chop them. Pick the parsley leaves from the stems and roughly chop them. Cut the green cabbage into 6 wedges, then leave the with core intact.",
+      "secondary_message": "1 lemon\n2 medium cloves garlic\n¼ cup fresh mint leaves\n¼ cup fresh parsley leaves\n1 medium head green cabbage"
     },
     {
       "id": 1,

@@ -78,9 +78,17 @@
       "quantity": "¼ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -153,8 +161,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thinly slice the red onion. Roughly chop the fresh parsley leaves. Roughly chop the garlic.",
-      "secondary_message": "½ small red onion\n1 cup fresh parsley leaves\n1 medium clove garlic"
+      "primary_message": "Thinly slice the red onion. Pick the parsley leaves from the stems and roughly chop them. Juice the lemon. Roughly chop the garlic.",
+      "secondary_message": "½ small red onion\n1 cup fresh parsley leaves\n1 lemon\n1 medium clove garlic"
     },
     {
       "id": 1,

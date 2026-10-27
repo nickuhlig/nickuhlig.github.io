@@ -74,8 +74,9 @@
     },
     {
       "ingredient_id": 1267,
-      "name": "melted clarified butter, homemade or store-bought",
-      "quantity": "6 tbsp"
+      "name": "clarified butter, homemade or store-bought",
+      "quantity": "6 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 359,
@@ -84,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the clarified butter.",
+      "secondary_message": "6 tbsp clarified butter, homemade or store-bought"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven racks to second-from-top and second-from bottom positions. Preheat to 350ºF (175ºC).",

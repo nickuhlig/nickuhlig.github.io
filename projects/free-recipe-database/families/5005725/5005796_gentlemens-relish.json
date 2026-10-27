@@ -67,9 +67,17 @@
       "quantity": "1 dash"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, plus more to taste",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon, plus more to taste",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "fresh lemon juice, plus more to taste"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -86,8 +94,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Bring the butter to room temperature. Drain the flat anchovies.",
-      "secondary_message": "227 g butter\n227 g flat anchovies"
+      "primary_message": "Bring the butter to room temperature. Drain the flat anchovies. Juice the lemon.",
+      "secondary_message": "227 g butter\n227 g flat anchovies\n½ lemon, plus more to taste"
     },
     {
       "id": 1,

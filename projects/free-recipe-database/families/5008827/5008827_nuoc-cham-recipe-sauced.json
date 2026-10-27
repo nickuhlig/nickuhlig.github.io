@@ -41,9 +41,17 @@
       "quantity": "½ cup"
     },
     {
-      "ingredient_id": 1421,
-      "name": "freshly squeezed lime juice",
-      "quantity": "½ cup"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "4",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "½ cup",
+          "name": "freshly squeezed lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 52,
@@ -61,8 +69,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the garlic.",
-      "secondary_message": "2 medium cloves garlic"
+      "primary_message": "Juice the limes. Mince the garlic.",
+      "secondary_message": "4 limes\n2 medium cloves garlic"
     },
     {
       "id": 1,

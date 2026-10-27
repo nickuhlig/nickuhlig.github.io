@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 356,
-      "name": "chopped Medjool dates",
-      "quantity": "1 cup"
+      "name": "Medjool dates",
+      "quantity": "1 cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 272,
@@ -66,6 +67,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the Medjool dates.",
+      "secondary_message": "1 cup Medjool dates"
+    },
     {
       "id": 1,
       "primary_message": "In the bowl of a food processor combine dates and walnuts and process until finely chopped and sticking together, about 1 minute 30 seconds. Add coconut flakes, honey, sesame seeds, and salt, and pulse until forms a thick paste, about 1 minute more.",

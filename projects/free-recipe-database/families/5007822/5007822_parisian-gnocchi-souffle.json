@@ -46,21 +46,30 @@
     },
     {
       "ingredient_id": 120,
-      "name": "grated Parmesan cheese",
-      "quantity": "½ cup"
+      "name": "Parmesan cheese",
+      "quantity": "½ cup",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1808,
-      "name": "chopped parsley",
-      "quantity": "1 tbsp"
+      "name": "parsley",
+      "quantity": "1 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 270,
-      "name": "chopped fresh chives",
-      "quantity": "1 tbsp"
+      "name": "fresh chives",
+      "quantity": "1 tbsp",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the Parmesan cheese. Pick the parsley leaves from the stems and chop them. Chop the chives.",
+      "secondary_message": "½ cup Parmesan cheese\n1 tbsp parsley\n1 tbsp fresh chives"
+    },
     {
       "id": 1,
       "primary_message": "Adjust rack to 6 to 8 inches below broiler element and preheat broiler to high. Heat butter in a 12-inch cast iron skillet or two 10-inch cast iron skillets over medium-high heat until foaming subsides and butter starts to brown. Add gnocchi in a single layer and toss to coat with browned butter. Cover with cheese, then transfer to broiler. Cook until puffed and golden brown, about 10 minutes. Sprinkle with herbs and serve.",

@@ -84,9 +84,17 @@
       "prep": "thinly sliced"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 ½ tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 ½ tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 72,
@@ -98,8 +106,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Trim the green beans. Thinly slice the garlic. Thinly slice the shallot.",
-      "secondary_message": "1 lb green beans\n2 medium cloves garlic\n1 medium shallot"
+      "primary_message": "Trim the green beans. Thinly slice the garlic. Thinly slice the shallot. Juice the lemon.",
+      "secondary_message": "1 lb green beans\n2 medium cloves garlic\n1 medium shallot\n½ lemon"
     },
     {
       "id": 1,

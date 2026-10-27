@@ -85,8 +85,9 @@
     },
     {
       "ingredient_id": 1060,
-      "name": "grated Gruyère cheese",
-      "quantity": "1 cup"
+      "name": "Gruyère cheese",
+      "quantity": "1 cup",
+      "prep": "grated"
     },
     {
       "ingredient_id": 72,
@@ -128,9 +129,17 @@
       "prep": "cubed"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1760,
@@ -142,8 +151,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Shell the shrimp. Dice the thick-cut bacon. Mince the shallot. Mince the garlic. Cube the unsalted butter.",
-      "secondary_message": "0.45 kg shrimp, large\n4 slices thick-cut bacon\n1 medium shallot\n2 medium cloves garlic\n2 tbsp unsalted butter"
+      "primary_message": "Shell the shrimp. Grate the Gruyère cheese. Dice the thick-cut bacon. Mince the shallot. Mince the garlic. Cube the unsalted butter. Juice the lemon.",
+      "secondary_message": "0.45 kg shrimp, large\n1 cup Gruyère cheese\n4 slices thick-cut bacon\n1 medium shallot\n2 medium cloves garlic\n2 tbsp unsalted butter\n½ lemon"
     },
     {
       "id": 1,

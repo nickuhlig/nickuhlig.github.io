@@ -51,9 +51,17 @@
       "quantity": "7 ½ cups"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice",
-      "quantity": "¼ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¼ cup",
+          "name": "freshly squeezed lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1782,
@@ -86,8 +94,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Split the vanilla bean lengthwise.",
-      "secondary_message": "1 vanilla bean"
+      "primary_message": "Juice the lemons. Split the vanilla bean lengthwise.",
+      "secondary_message": "1 ½ lemons\n1 vanilla bean"
     },
     {
       "id": 1,

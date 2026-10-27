@@ -58,9 +58,17 @@
       "prep": "stemmed and seeded"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "¼ cup"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "¼ cup",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 24,
@@ -92,8 +100,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Peel, devein, and rinse the shrimp. Stem and seed the jalapeño pepper.",
-      "secondary_message": "0.68 kg shrimp, large\n1 small jalapeño pepper"
+      "primary_message": "Peel, devein, and rinse the shrimp. Stem and seed the jalapeño pepper. Juice the limes.",
+      "secondary_message": "0.68 kg shrimp, large\n1 small jalapeño pepper\n2 limes"
     },
     {
       "id": 1,

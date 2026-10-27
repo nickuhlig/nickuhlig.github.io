@@ -109,9 +109,17 @@
       "quantity": "¾ cup"
     },
     {
-      "ingredient_id": 2346,
-      "name": "orange zest, from about 1 medium orange",
-      "quantity": "1 tbsp"
+      "ingredient_id": 232,
+      "name": "orange",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tbsp",
+          "name": "orange zest, from about 1 medium orange"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 1468,
@@ -148,8 +156,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Stem the seedless purple grapes. Lightly beat the eggs.",
-      "secondary_message": "2 cups seedless purple grapes\n4 large eggs"
+      "primary_message": "Stem the seedless purple grapes. Lightly beat the eggs. Zest the orange.",
+      "secondary_message": "2 cups seedless purple grapes\n4 large eggs\n1 orange"
     },
     {
       "id": 1,

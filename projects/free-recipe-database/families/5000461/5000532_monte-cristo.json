@@ -91,8 +91,9 @@
     },
     {
       "ingredient_id": 1060,
-      "name": "shredded Gruyère cheese, divided",
-      "quantity": "113 g"
+      "name": "Gruyère cheese, divided",
+      "quantity": "113 g",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 1091,
@@ -106,6 +107,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shred the Gruyère cheese.",
+      "secondary_message": "113 g Gruyère cheese, divided"
+    },
     {
       "id": 1,
       "primary_message": "For the batter: In a shallow baking dish or pie plate, whisk flour, baking powder, salt, and nutmeg until combined. In a small bowl, whisk milk and egg until combined. Whisk milk mixture into the flour mixture until a smooth batter is formed. Batter should be thick enough to coat the back of a spoon; set aside until ready to use.",

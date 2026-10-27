@@ -51,9 +51,17 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tbsp",
+          "name": "fresh lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 323,
@@ -106,8 +114,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Stem the dried árbol chiles.",
-      "secondary_message": "4 small dried árbol chiles"
+      "primary_message": "Juice the lime. Stem the dried árbol chiles.",
+      "secondary_message": "1 lime\n4 small dried árbol chiles"
     },
     {
       "id": 1,

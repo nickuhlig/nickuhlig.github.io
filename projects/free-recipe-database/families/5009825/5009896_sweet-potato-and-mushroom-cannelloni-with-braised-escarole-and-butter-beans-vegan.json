@@ -101,8 +101,9 @@
     },
     {
       "ingredient_id": 1677,
-      "name": "picked fresh thyme leaves",
-      "quantity": "2 tsp"
+      "name": "fresh thyme leaves",
+      "quantity": "2 tsp",
+      "prep": "picked"
     },
     {
       "ingredient_id": 53,
@@ -110,9 +111,17 @@
       "quantity": "2 tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, divided",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon, divided",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice, divided"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1008,
@@ -132,16 +141,17 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "chopped fresh parsley leaves",
-      "quantity": "2 tbsp"
+      "name": "fresh parsley leaves",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Peel and roughly cube the sweet potato. Mince the shallot. Mince the garlic. Drain the butter beans but not rinsed.",
-      "secondary_message": "0.15 kg sweet potato\n1 small shallot\n1 medium clove garlic\n2 (425 g) cans large butter beans"
+      "primary_message": "Peel and roughly cube the sweet potato. Mince the shallot. Mince the garlic. Pick the thyme leaves from the stems. Juice the lemon. Drain the butter beans but not rinsed. Pick the parsley leaves from the stems and chop them.",
+      "secondary_message": "0.15 kg sweet potato\n1 small shallot\n1 medium clove garlic\n2 tsp fresh thyme leaves\n½ lemon, divided\n2 (425 g) cans large butter beans\n2 tbsp fresh parsley leaves"
     },
     {
       "id": 1,

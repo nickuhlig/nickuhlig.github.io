@@ -38,13 +38,15 @@
   "ingredients": [
     {
       "ingredient_id": 243,
-      "name": "picked fresh mint leaves",
-      "quantity": "½ cup"
+      "name": "fresh mint leaves",
+      "quantity": "½ cup",
+      "prep": "picked"
     },
     {
       "ingredient_id": 1808,
-      "name": "picked fresh parsley leaves",
-      "quantity": "1 cup"
+      "name": "fresh parsley leaves",
+      "quantity": "1 cup",
+      "prep": "picked"
     },
     {
       "ingredient_id": 24,
@@ -59,14 +61,22 @@
       "prep": "drained and rinsed"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 whole lemon",
-      "quantity": "1 ½ tbsp"
-    },
-    {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from 1 whole lemon",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 ½ tbsp",
+          "name": "lemon juice, from 1 whole lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tsp",
+          "name": "lemon zest, from 1 whole lemon"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 1468,
@@ -104,8 +114,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the garlic. Drain and rinse the capers. Mince the shallot.",
-      "secondary_message": "2 medium cloves garlic\n¼ cup capers\n1 small shallot"
+      "primary_message": "Pick the mint leaves from the stems. Pick the parsley leaves from the stems. Mince the garlic. Drain and rinse the capers. Zest and juice the lemon. Mince the shallot.",
+      "secondary_message": "½ cup fresh mint leaves\n1 cup fresh parsley leaves\n2 medium cloves garlic\n¼ cup capers\n1 lemon\n1 small shallot"
     },
     {
       "id": 1,

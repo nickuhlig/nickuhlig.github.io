@@ -39,13 +39,22 @@
   "ingredients": [
     {
       "ingredient_id": 2346,
-      "name": "finely grated lemon zest",
-      "quantity": "1 tsp"
+      "name": "lemon zest",
+      "quantity": "1 tsp",
+      "prep": "finely grated"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, divided",
-      "quantity": "5 ½ tbsp"
+      "ingredient_id": 192,
+      "name": "lemons, divided",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "5 ½ tbsp",
+          "name": "fresh lemon juice, divided"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 103,
@@ -85,8 +94,9 @@
     },
     {
       "ingredient_id": 320,
-      "name": "chopped fresh dill, divided, plus more for serving",
-      "quantity": "2 tsp"
+      "name": "fresh dill, divided, plus more for serving",
+      "quantity": "2 tsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 111,
@@ -114,8 +124,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely grate the garlic. Drain and rinse the chickpeas.",
-      "secondary_message": "2 medium cloves garlic, divided\n1 (15 oz) can chickpeas"
+      "primary_message": "Finely grate the zest from the lemon. Juice the lemons. Finely grate the garlic. Pick the dill fronds from the stems and chop them. Drain and rinse the chickpeas.",
+      "secondary_message": "1 tsp lemon zest\n2 lemons, divided\n2 medium cloves garlic, divided\n2 tsp fresh dill, divided, plus more for serving\n1 (15 oz) can chickpeas"
     },
     {
       "id": 1,

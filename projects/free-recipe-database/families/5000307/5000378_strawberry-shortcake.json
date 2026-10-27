@@ -96,9 +96,17 @@
       "quantity": "½ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 116,
@@ -171,8 +179,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Hull and cut the strawberries into 3/4-inch pieces. Cut the cold unsalted butter into 3/4-inch cubes.",
-      "secondary_message": "0.8 kg strawberries\n10 tbsp cold unsalted butter"
+      "primary_message": "Hull and cut the strawberries into 3/4-inch pieces. Juice the lemon. Cut the cold unsalted butter into 3/4-inch cubes.",
+      "secondary_message": "0.8 kg strawberries\n½ lemon\n10 tbsp cold unsalted butter"
     },
     {
       "id": 1,

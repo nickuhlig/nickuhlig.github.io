@@ -123,9 +123,17 @@
       "quantity": "1 tsp"
     },
     {
-      "ingredient_id": 2346,
-      "name": "orange zest, from 1/2 large orange",
-      "quantity": "½ tsp"
+      "ingredient_id": 232,
+      "name": "orange",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "½ tsp",
+          "name": "orange zest, from 1/2 large orange"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 121,
@@ -149,8 +157,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Bring the unsalted butter to room temperature. Bring the eggs to room temperature. Bring the sour cream to room temperature.",
-      "secondary_message": "4 oz unsalted butter\n2 large eggs\n4 oz sour cream"
+      "primary_message": "Bring the unsalted butter to room temperature. Zest the orange. Bring the eggs to room temperature. Bring the sour cream to room temperature.",
+      "secondary_message": "4 oz unsalted butter\n½ orange\n2 large eggs\n4 oz sour cream"
     },
     {
       "id": 1,

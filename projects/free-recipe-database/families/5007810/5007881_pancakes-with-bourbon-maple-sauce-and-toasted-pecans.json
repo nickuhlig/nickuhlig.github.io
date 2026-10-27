@@ -81,8 +81,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "melted butter, divided",
-      "quantity": "6 tbsp"
+      "name": "butter, divided",
+      "quantity": "6 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 2475,
@@ -96,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the butter.",
+      "secondary_message": "6 tbsp butter, divided"
+    },
     {
       "id": 1,
       "primary_message": "For the Bourbon Maple Sauce: Heat maple syrup and Bourbon in a medium-sized saucepan over medium-high until boiling. Reduce heat to very low to maintain a slow simmer. Let this simmer while you prepare everything else.",

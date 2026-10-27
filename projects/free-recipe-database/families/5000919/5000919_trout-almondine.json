@@ -71,26 +71,36 @@
     },
     {
       "ingredient_id": 2346,
-      "name": "grated lemon zest",
-      "quantity": "1 tsp"
+      "name": "lemon zest",
+      "quantity": "1 tsp",
+      "prep": "grated"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "4 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "4 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 106,
-      "name": "finely chopped flat-leaf parsley leaves, tender stems",
-      "quantity": "2 tbsp"
+      "name": "flat-leaf parsley leaves, tender stems",
+      "quantity": "2 tbsp",
+      "prep": "finely chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the unsalted butter into 8 pieces.",
-      "secondary_message": "8 tbsp unsalted butter"
+      "primary_message": "Cut the unsalted butter into 8 pieces. Grate the zest from the lemon. Juice the lemon. Pick the parsley leaves and tender stems from the thick stems and finely chop them.",
+      "secondary_message": "8 tbsp unsalted butter\n1 tsp lemon zest\n½ lemon\n2 tbsp flat-leaf parsley leaves, tender stems"
     },
     {
       "id": 1,

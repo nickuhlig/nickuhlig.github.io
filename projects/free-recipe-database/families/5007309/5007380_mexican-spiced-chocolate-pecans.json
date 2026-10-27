@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 1729,
-      "name": "minced dark chocolate",
-      "quantity": "2 tbsp"
+      "name": "dark chocolate",
+      "quantity": "2 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 88,
@@ -66,8 +67,9 @@
     },
     {
       "ingredient_id": 349,
-      "name": "freshly grated nutmeg",
-      "quantity": "¼ tsp"
+      "name": "nutmeg",
+      "quantity": "¼ tsp",
+      "prep": "freshly grated"
     },
     {
       "ingredient_id": 1469,
@@ -91,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the dark chocolate. Freshly grate the nutmeg.",
+      "secondary_message": "2 tbsp dark chocolate\n¼ tsp nutmeg"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 150°C (300°F), position rack in middle position, and grease a rimmed baking sheet with oil or nonstick cooking spray. In a medium bowl, stir together sugar, cocoa powder, chocolate, salt, cinnamon, cayenne, nutmeg, allspice, and ginger.",

@@ -35,9 +35,17 @@
   "cookwares": [],
   "ingredients": [
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 lemon",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice, from 1 lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -72,16 +80,17 @@
     },
     {
       "ingredient_id": 272,
-      "name": "roughly chopped walnuts",
-      "quantity": "2 tbsp"
+      "name": "walnuts",
+      "quantity": "2 tbsp",
+      "prep": "roughly chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mash the ripe avocados.",
-      "secondary_message": "2 small ripe avocados"
+      "primary_message": "Juice the lemon. Mash the ripe avocados. Roughly chop the walnuts.",
+      "secondary_message": "½ lemon\n2 small ripe avocados\n2 tbsp walnuts"
     },
     {
       "id": 1,

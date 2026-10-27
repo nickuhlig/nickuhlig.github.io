@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 482,
-      "name": "thinly sliced roast beef",
-      "quantity": "1 lb"
+      "name": "roast beef",
+      "quantity": "1 lb",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1071,
@@ -77,13 +78,22 @@
     },
     {
       "ingredient_id": 270,
-      "name": "minced chives",
-      "quantity": "2 tbsp"
+      "name": "chives",
+      "quantity": "2 tbsp",
+      "prep": "minced"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice, from 1 whole lemon",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "freshly squeezed lemon juice, from 1 whole lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -100,8 +110,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Grate the extra sharp cheddar cheese. Split the pretzel buns.",
-      "secondary_message": "8 oz extra sharp cheddar cheese\n4 pretzel buns"
+      "primary_message": "Grate the extra sharp cheddar cheese. Thinly slice the roast beef. Split the pretzel buns. Mince the chives. Juice the lemon.",
+      "secondary_message": "8 oz extra sharp cheddar cheese\n1 lb roast beef\n4 pretzel buns\n2 tbsp chives\n½ lemon"
     },
     {
       "id": 1,

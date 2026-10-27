@@ -47,19 +47,28 @@
     },
     {
       "ingredient_id": 1692,
-      "name": "peeled apples",
+      "name": "apples",
       "quantity": "3 cups",
-      "prep": "chopped"
+      "prep": "peeled, chopped"
     },
     {
       "ingredient_id": 2463,
-      "name": "diced rhubarb",
-      "quantity": "2 cups"
+      "name": "rhubarb",
+      "quantity": "2 cups",
+      "prep": "diced"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2713,
@@ -79,16 +88,17 @@
     },
     {
       "ingredient_id": 215,
-      "name": "diced dried apricots",
-      "quantity": "½ cup"
+      "name": "dried apricots",
+      "quantity": "½ cup",
+      "prep": "diced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Chop the peeled apples. Toast and coarsely chop the slivered almonds.",
-      "secondary_message": "3 cups peeled apples\n½ cup slivered almonds"
+      "primary_message": "Peel and chop the apples. Dice the rhubarb. Juice the lemon. Toast and coarsely chop the slivered almonds. Dice the dried apricots.",
+      "secondary_message": "3 cups apples\n2 cups rhubarb\n1 lemon\n½ cup slivered almonds\n½ cup dried apricots"
     },
     {
       "id": 1,

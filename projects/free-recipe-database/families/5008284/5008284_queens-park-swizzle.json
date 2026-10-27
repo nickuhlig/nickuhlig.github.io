@@ -43,9 +43,17 @@
       "quantity": "½ oz"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice",
-      "quantity": "½ oz"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "½ oz",
+          "name": "fresh lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1736,
@@ -59,6 +67,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "½ lime"
+    },
     {
       "id": 1,
       "primary_message": "Using a wooden muddler or the back of a wooden spoon, lightly bruise the mint leaves in the bottom of a tall chimney or highball glass, gently rubbing the leaves along the sides of the glass to coat with the fragrant oil. Add remaining ingredients to the glass and fill with crushed ice. Using a bar spoon, swizzle the drink by gently twirling the spoon between the palms of your hands, adding additional crushed ice as needed. Continue until a layer of frost develops on the outside of the glass. Garnish with a sprig of mint, spear with a straw and do what comes natural.",

@@ -60,8 +60,9 @@
     },
     {
       "ingredient_id": 452,
-      "name": "drained canned red bell pepper strips, plus extra for garnish",
-      "quantity": "⅔ cup"
+      "name": "canned red bell pepper strips, plus extra for garnish",
+      "quantity": "⅔ cup",
+      "prep": "drained"
     },
     {
       "ingredient_id": 355,
@@ -75,8 +76,9 @@
     },
     {
       "ingredient_id": 1373,
-      "name": "drained canned pickled sliced jalapeño peppers",
-      "quantity": "⅓ cup (2 oz)"
+      "name": "canned pickled sliced jalapeño peppers",
+      "quantity": "⅓ cup (2 oz)",
+      "prep": "drained"
     },
     {
       "ingredient_id": 88,
@@ -90,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain the canned red bell pepper strips. Drain the canned pickled sliced jalapeño peppers.",
+      "secondary_message": "⅔ cup canned red bell pepper strips, plus extra for garnish\n⅓ cup (2 oz) canned pickled sliced jalapeño peppers"
+    },
     {
       "id": 1,
       "primary_message": "In a blender, combine tuna, media crema, pepper strips, cream cheese, and American cheese and blend until smooth, scraping down sides halfway through with a flexible spatula, about 1 minute. Working in batches, blend in jalapeño peppers until desired heat level is reached and a completely smooth sauce has formed. Season with salt to taste. Transfer sauce to a medium bowl.",

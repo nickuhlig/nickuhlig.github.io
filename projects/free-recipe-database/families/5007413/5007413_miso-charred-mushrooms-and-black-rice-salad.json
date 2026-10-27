@@ -54,8 +54,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "grated fresh ginger",
-      "quantity": "2 tsp"
+      "name": "fresh ginger",
+      "quantity": "2 tsp",
+      "prep": "grated"
     },
     {
       "ingredient_id": 231,
@@ -69,9 +70,17 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 53,
@@ -108,8 +117,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "chopped fresh cilantro leaves",
-      "quantity": "2 tbsp"
+      "name": "fresh cilantro leaves",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 181,
@@ -121,8 +131,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Rinse the forbidden black rice. Wipe the Portobello mushroom caps clean. Slice the Savoy cabbage into very thin strips. Very thinly slice the scallions. Mince the jalapeño.",
-      "secondary_message": "½ cup forbidden black rice\n4 Portobello mushroom caps\n3 leaves Savoy cabbage\n2 scallions\n¼ jalapeño"
+      "primary_message": "Rinse the forbidden black rice. Grate the ginger. Wipe the Portobello mushroom caps clean. Juice the lime. Slice the Savoy cabbage into very thin strips. Very thinly slice the scallions. Mince the jalapeño. Pick the cilantro leaves from the stems and chop them.",
+      "secondary_message": "½ cup forbidden black rice\n2 tsp fresh ginger\n4 Portobello mushroom caps\n½ lime\n3 leaves Savoy cabbage\n2 scallions\n¼ jalapeño\n2 tbsp fresh cilantro leaves"
     },
     {
       "id": 1,

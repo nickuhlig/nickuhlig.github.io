@@ -51,14 +51,22 @@
       "quantity": "1 pint"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tbsp"
-    },
-    {
-      "ingredient_id": 2346,
-      "name": "Freshly grated lime zest, from 1/2 lime",
-      "quantity": ""
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "",
+          "name": "Freshly grated lime zest, from 1/2 lime"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 293,
@@ -96,8 +104,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cube the plain full-fat cream cheese.",
-      "secondary_message": "4 oz plain full-fat cream cheese"
+      "primary_message": "Zest and juice the lime. Cube the plain full-fat cream cheese.",
+      "secondary_message": "½ lime\n4 oz plain full-fat cream cheese"
     },
     {
       "id": 1,

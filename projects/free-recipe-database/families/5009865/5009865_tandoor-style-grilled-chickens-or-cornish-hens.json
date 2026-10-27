@@ -106,9 +106,17 @@
       "quantity": "2 cups"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "½ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "3",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "½ cup",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -117,13 +125,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "Thinly sliced raw onion",
-      "quantity": ""
+      "name": "Raw onion",
+      "quantity": "",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 188,
-      "name": "roughly chopped cilantro leaves",
-      "quantity": "½ cup"
+      "name": "cilantro leaves",
+      "quantity": "½ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 192,
@@ -136,8 +146,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Grate the garlic on a microplane grater. Grate the fresh ginger on a microplane grater. Cut the lemons into wedges.",
-      "secondary_message": "8 cloves garlic\n2 tbsp fresh ginger\n2 lemons"
+      "primary_message": "Grate the garlic on a microplane grater. Grate the fresh ginger on a microplane grater. Juice the lemons. Thinly slice the raw onion. Pick the cilantro leaves from the stems and roughly chop them. Cut the lemons into wedges.",
+      "secondary_message": "8 cloves garlic\n2 tbsp fresh ginger\n3 lemons\nRaw onion\n½ cup cilantro leaves\n2 lemons"
     },
     {
       "id": 1,

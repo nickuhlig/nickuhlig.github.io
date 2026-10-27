@@ -75,11 +75,18 @@
     },
     {
       "ingredient_id": 29,
-      "name": "sliced almonds",
-      "quantity": "¾ cup (6 ¾ oz)"
+      "name": "almonds",
+      "quantity": "¾ cup (6 ¾ oz)",
+      "prep": "sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the almonds.",
+      "secondary_message": "¾ cup (6 ¾ oz) almonds"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven racks to upper and lower middle position and preheat oven to 325°F. Line two baking sheets with parchment paper.",

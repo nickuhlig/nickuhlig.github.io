@@ -79,11 +79,18 @@
     },
     {
       "ingredient_id": 349,
-      "name": "freshly grated nutmeg",
-      "quantity": "¾ tsp"
+      "name": "nutmeg",
+      "quantity": "¾ tsp",
+      "prep": "freshly grated"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Freshly grate the nutmeg.",
+      "secondary_message": "¾ tsp nutmeg"
+    },
     {
       "id": 1,
       "primary_message": "Combine coriander, mace, cardamom, star anise, allspice, and peppercorns in a spice or coffee grinder. Process to a fine powder, in multiple batches if need be.",

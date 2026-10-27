@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 2498,
-      "name": "diced guanciale, pancetta, or bacon",
-      "quantity": "½ cup"
+      "name": "guanciale, pancetta, or bacon",
+      "quantity": "½ cup",
+      "prep": "diced"
     },
     {
       "ingredient_id": 47,
@@ -75,13 +76,15 @@
     },
     {
       "ingredient_id": 1679,
-      "name": "grated Pecorino Romano, plus more for serving",
-      "quantity": "¼ cup"
+      "name": "Pecorino Romano, plus more for serving",
+      "quantity": "¼ cup",
+      "prep": "grated"
     },
     {
       "ingredient_id": 120,
-      "name": "grated Parmigiano-Reggiano, plus more for serving",
-      "quantity": "¼ cup"
+      "name": "Parmesan cheese, plus more for serving",
+      "quantity": "¼ cup",
+      "prep": "grated"
     },
     {
       "ingredient_id": 72,
@@ -90,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the guanciale. Grate the Pecorino Romano. Grate the Parmesan cheese.",
+      "secondary_message": "½ cup guanciale, pancetta, or bacon\n¼ cup Pecorino Romano, plus more for serving\n¼ cup Parmesan cheese, plus more for serving"
+    },
     {
       "id": 1,
       "primary_message": "Bring a pot of salted water to a boil. Add pasta and cook, stirring, until al dente.",

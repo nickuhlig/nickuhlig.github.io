@@ -63,9 +63,17 @@
       "quantity": "1 cup"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice, from one lime",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice, from one lime"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1044,
@@ -123,8 +131,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Butter and toast the brioche hamburger buns.",
-      "secondary_message": "2 brioche hamburger buns"
+      "primary_message": "Juice the lime. Butter and toast the brioche hamburger buns.",
+      "secondary_message": "½ lime\n2 brioche hamburger buns"
     },
     {
       "id": 1,

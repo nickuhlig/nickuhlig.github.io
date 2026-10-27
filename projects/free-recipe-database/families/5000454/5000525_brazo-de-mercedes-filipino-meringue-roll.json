@@ -91,8 +91,9 @@
     },
     {
       "ingredient_id": 2346,
-      "name": "finely grated lemon zest",
-      "quantity": "4 tsp"
+      "name": "lemon zest",
+      "quantity": "4 tsp",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 353,
@@ -131,6 +132,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely grate the zest from the lemon.",
+      "secondary_message": "4 tsp lemon zest"
+    },
     {
       "id": 1,
       "primary_message": "For the Custard: In a food processor, pulse cashews with the sugar, scraping down as needed, until cashews are finely ground, about 6 pulses. Reserve 1/4 cup ground cashews and save remaining ground cashews for another use. Wash and dry food processor bowl and blade, then set aside.",

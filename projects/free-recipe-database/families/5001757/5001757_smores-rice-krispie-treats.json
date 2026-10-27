@@ -68,8 +68,9 @@
     },
     {
       "ingredient_id": 1729,
-      "name": "coarsely chopped dark chocolate, 70% cacao",
-      "quantity": "5 ¼ oz"
+      "name": "dark chocolate, 70% cacao",
+      "quantity": "5 ¼ oz",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 1472,
@@ -78,6 +79,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Coarsely chop the dark chocolate.",
+      "secondary_message": "5 ¼ oz dark chocolate, 70% cacao"
+    },
     {
       "id": 1,
       "primary_message": "Line a 9-x9-inch baking pan with parchment paper, leaving a 2-inch overhang on 2 opposite sides; set aside.",

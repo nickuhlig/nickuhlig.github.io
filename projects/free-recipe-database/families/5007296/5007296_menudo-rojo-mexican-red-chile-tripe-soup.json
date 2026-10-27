@@ -46,9 +46,17 @@
       "quantity": "2 lb"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tbsp",
+          "name": "fresh lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -106,8 +114,9 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "Chopped white onion",
-      "quantity": ""
+      "name": "White onion",
+      "quantity": "",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 188,
@@ -116,16 +125,17 @@
     },
     {
       "ingredient_id": 1799,
-      "name": "Sliced serrano chiles",
-      "quantity": ""
+      "name": "Serrano chiles",
+      "quantity": "",
+      "prep": "sliced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Halve the pork trotter lengthwise. Crush the garlic. Chop the white onion. Drain the white hominy.",
-      "secondary_message": "1 pork trotter\n10 medium cloves garlic, divided\n1 large white onion, divided\n1 (29 oz) can white hominy"
+      "primary_message": "Juice the lime. Halve the pork trotter lengthwise. Crush the garlic. Chop the white onion. Drain the white hominy. Chop the White onion. Slice the Serrano chiles.",
+      "secondary_message": "1 lime\n1 pork trotter\n10 medium cloves garlic, divided\n1 large white onion, divided\n1 (29 oz) can white hominy\nWhite onion\nSerrano chiles"
     },
     {
       "id": 1,

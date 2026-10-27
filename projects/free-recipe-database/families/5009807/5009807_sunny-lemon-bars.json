@@ -80,11 +80,6 @@
       "quantity": "¼ tsp"
     },
     {
-      "ingredient_id": 2346,
-      "name": "freshly grated lemon zest",
-      "quantity": "⅛ oz"
-    },
-    {
       "ingredient_id": 115,
       "name": "cold unsalted butter",
       "quantity": "4 oz",
@@ -107,27 +102,40 @@
       "quantity": "4 ¾ oz"
     },
     {
-      "ingredient_id": 2346,
-      "name": "freshly grated lemon zest",
-      "quantity": "¼ oz"
-    },
-    {
       "ingredient_id": 88,
       "name": "kosher salt",
       "quantity": "1 pinch"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from about 8 large lemons",
-      "quantity": "11 oz"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "8",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "11 oz",
+          "name": "lemon juice, from about 8 large lemons"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "⅛ oz",
+          "name": "freshly grated lemon zest"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "¼ oz",
+          "name": "freshly grated lemon zest"
+        }
+      ],
+      "prep": "zested and juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the cold unsalted butter into 1/4-inch dice. Keep the eggs cold until you use them.",
-      "secondary_message": "4 oz cold unsalted butter\n3 large eggs"
+      "primary_message": "Cut the cold unsalted butter into 1/4-inch dice. Keep the eggs cold until you use them. Zest and juice the lemons.",
+      "secondary_message": "4 oz cold unsalted butter\n3 large eggs\n8 lemons"
     },
     {
       "id": 1,

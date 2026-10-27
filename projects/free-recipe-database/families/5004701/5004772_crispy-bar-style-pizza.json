@@ -92,16 +92,24 @@
     },
     {
       "ingredient_id": 120,
-      "name": "finely grated parmesan",
-      "quantity": "57 g"
+      "name": "parmesan",
+      "quantity": "57 g",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 2016,
-      "name": "grated low-moisture mozzarella cheese",
-      "quantity": "0.45 to 0.68 kg"
+      "name": "low-moisture mozzarella cheese",
+      "quantity": "0.45 to 0.68 kg",
+      "prep": "grated"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely grate the parmesan. Grate the low-moisture mozzarella cheese.",
+      "secondary_message": "57 g parmesan\n0.45 to 0.68 kg low-moisture mozzarella cheese"
+    },
     {
       "id": 1,
       "primary_message": "Combine flour, sugar, salt, and yeast in the bowl of a food processor. Pulse 3 to 4 times until incorporated. Add olive oil and water. Run food processor until mixture forms a ball that rides around the bowl above the blade, about 15 seconds. Continue processing 15 seconds longer. Alternatively, combine ingredients in a stand mixer and mix on low speed for 10 minutes.",

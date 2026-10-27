@@ -55,9 +55,17 @@
       "quantity": "¼ tsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "3 oz"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "3",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "3 oz",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2457,
@@ -74,8 +82,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the seedless watermelon into rough 1/2-inch cubes.",
-      "secondary_message": "4 ½ cups seedless watermelon"
+      "primary_message": "Cut the seedless watermelon into rough 1/2-inch cubes. Juice the limes.",
+      "secondary_message": "4 ½ cups seedless watermelon\n3 limes"
     },
     {
       "id": 1,

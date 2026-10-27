@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 2474,
-      "name": "grated Longhorn, Colby, jack, cheddar, or Oaxaca cheese",
-      "quantity": "57 to 113 g"
+      "name": "Longhorn, Colby, jack, cheddar, or Oaxaca cheese",
+      "quantity": "57 to 113 g",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1373,
@@ -56,6 +57,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the Longhorn.",
+      "secondary_message": "57 to 113 g Longhorn, Colby, jack, cheddar, or Oaxaca cheese"
+    },
     {
       "id": 1,
       "primary_message": "Place chips on a microwave-safe plate in a single layer. Microwave on high power until they smell nice and toasty, about 30 seconds to 1 minute. Remove from microwave and top each chip with 1 teaspoon of beans, a little shredded cheese, and a jalapeño slice. Return to microwave and cook for 30 seconds. Continue to cook in 15-second intervals until all the cheese is melted and bubbly. Eat and repeat as necessary.",

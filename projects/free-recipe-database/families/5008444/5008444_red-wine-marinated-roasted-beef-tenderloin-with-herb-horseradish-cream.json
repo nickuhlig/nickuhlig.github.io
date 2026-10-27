@@ -53,9 +53,17 @@
       "quantity": "½ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, divided",
-      "quantity": "1 ½ tbsp"
+      "ingredient_id": 192,
+      "name": "lemon, divided",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 ½ tbsp",
+          "name": "lemon juice, divided"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -115,21 +123,23 @@
     },
     {
       "ingredient_id": 106,
-      "name": "minced fresh flat-leaf parsley",
-      "quantity": "2 tbsp"
+      "name": "fresh flat-leaf parsley",
+      "quantity": "2 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 243,
-      "name": "minced fresh mint leaves",
-      "quantity": "2 tsp"
+      "name": "fresh mint leaves",
+      "quantity": "2 tsp",
+      "prep": "minced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Trim the whole beef tenderloin of visible fat and silver skin. Mince the garlic.",
-      "secondary_message": "1 whole beef tenderloin\n3 medium cloves garlic"
+      "primary_message": "Trim the whole beef tenderloin of visible fat and silver skin. Juice the lemon. Mince the garlic. Pick the parsley leaves from the stems and mince them. Pick the mint leaves from the stems and mince them.",
+      "secondary_message": "1 whole beef tenderloin\n½ lemon, divided\n3 medium cloves garlic\n2 tbsp fresh flat-leaf parsley\n2 tsp fresh mint leaves"
     },
     {
       "id": 1,

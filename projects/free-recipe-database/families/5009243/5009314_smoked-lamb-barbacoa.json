@@ -130,8 +130,9 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "finely chopped white onion",
-      "quantity": "½ cup"
+      "name": "white onion",
+      "quantity": "½ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
@@ -181,9 +182,17 @@
       "quantity": "2"
     },
     {
-      "ingredient_id": 1421,
-      "name": "freshly squeezed lime juice, from 2 limes",
-      "quantity": "¼ cup"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "¼ cup",
+          "name": "freshly squeezed lime juice, from 2 limes"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -195,8 +204,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Tie the boneless lamb shoulder roast. Stem and seed the ancho chile. Stem and seed the guajillo chiles. Smash and peel the garlic. Finely chop the chipotle chilis.",
-      "secondary_message": "2.27 kg boneless lamb shoulder roast\n1 ancho chile\n2 guajillo chiles\n4 medium cloves garlic\n3 tbsp chipotle chilis, canned in adobo sauce"
+      "primary_message": "Tie the boneless lamb shoulder roast. Stem and seed the ancho chile. Stem and seed the guajillo chiles. Finely chop the white onion. Smash and peel the garlic. Finely chop the chipotle chilis. Juice the limes.",
+      "secondary_message": "2.27 kg boneless lamb shoulder roast\n1 ancho chile\n2 guajillo chiles\n½ cup white onion\n4 medium cloves garlic\n3 tbsp chipotle chilis, canned in adobo sauce\n2 limes"
     },
     {
       "id": 1,

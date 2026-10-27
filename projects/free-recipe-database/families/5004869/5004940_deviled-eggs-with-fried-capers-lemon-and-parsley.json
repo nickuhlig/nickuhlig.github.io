@@ -54,9 +54,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "hard-boiled eggs",
+      "name": "eggs",
       "quantity": "6 large",
-      "prep": "peeled and halved lengthwise"
+      "prep": "hard-boiled, peeled and halved lengthwise"
     },
     {
       "ingredient_id": 267,
@@ -69,14 +69,22 @@
       "quantity": "1 tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 whole lemon",
-      "quantity": "2 tsp"
-    },
-    {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from 1 whole lemon",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice, from 1 whole lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tsp",
+          "name": "lemon zest, from 1 whole lemon"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 47,
@@ -85,8 +93,9 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "minced fresh parsley leaves, plus more for garnish",
-      "quantity": "2 tbsp"
+      "name": "fresh parsley leaves, plus more for garnish",
+      "quantity": "2 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 88,
@@ -103,8 +112,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Rinse and drain the capers. Peel and halve the hard-boiled eggs lengthwise.",
-      "secondary_message": "⅓ cup capers\n6 large hard-boiled eggs"
+      "primary_message": "Rinse and drain the capers. Hard-boil the eggs, then peel and halve them lengthwise. Zest and juice the lemon. Pick the parsley leaves from the stems and mince them.",
+      "secondary_message": "⅓ cup capers\n6 large eggs\n1 lemon\n2 tbsp fresh parsley leaves, plus more for garnish"
     },
     {
       "id": 1,

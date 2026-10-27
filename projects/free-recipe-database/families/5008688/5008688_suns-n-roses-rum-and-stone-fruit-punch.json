@@ -68,8 +68,9 @@
     },
     {
       "ingredient_id": 234,
-      "name": "diced fresh peach",
-      "quantity": "¼ cup"
+      "name": "fresh peach",
+      "quantity": "¼ cup",
+      "prep": "diced"
     },
     {
       "ingredient_id": 3296,
@@ -88,17 +89,25 @@
       "prep": "cooled"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 6 to 8 medium lemons",
-      "quantity": "6 ½ fl oz"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "5",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "6 ½ fl oz",
+          "name": "fresh lemon juice, from 6 to 8 medium lemons"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Split the vanilla bean. Dice the dried apricots. Cool the brewed white tea.",
-      "secondary_message": "¼ vanilla bean\n¼ cup dried apricots\n12 fl oz brewed white tea"
+      "primary_message": "Split the vanilla bean. Dice the dried apricots. Dice the peach. Cool the brewed white tea. Juice the lemons.",
+      "secondary_message": "¼ vanilla bean\n¼ cup dried apricots\n¼ cup fresh peach\n12 fl oz brewed white tea\n5 lemons"
     },
     {
       "id": 1,

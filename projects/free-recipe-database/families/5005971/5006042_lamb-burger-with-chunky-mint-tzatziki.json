@@ -43,18 +43,21 @@
     },
     {
       "ingredient_id": 243,
-      "name": "roughly chopped mint leaves",
-      "quantity": "¼ cup"
+      "name": "mint leaves",
+      "quantity": "¼ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 270,
-      "name": "roughly chopped chives, divided",
-      "quantity": "1 bunch"
+      "name": "chives, divided",
+      "quantity": "1 bunch",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 3654,
-      "name": "roughly chopped fresh oregano",
-      "quantity": "3 tbsp"
+      "name": "fresh oregano",
+      "quantity": "3 tbsp",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 24,
@@ -63,9 +66,17 @@
       "prep": "minced"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -97,8 +108,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the garlic.",
-      "secondary_message": "3 medium cloves garlic"
+      "primary_message": "Pick the mint leaves from the stems and roughly chop them. Roughly chop the chives. Pick the oregano leaves from the stems and roughly chop them. Mince the garlic. Juice the lemon.",
+      "secondary_message": "¼ cup mint leaves\n1 bunch chives, divided\n3 tbsp fresh oregano\n3 medium cloves garlic\n½ lemon"
     },
     {
       "id": 1,

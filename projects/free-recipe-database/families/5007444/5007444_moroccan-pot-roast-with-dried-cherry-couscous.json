@@ -89,9 +89,17 @@
       "quantity": "1 (14 ½ oz) can"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2702,
@@ -105,8 +113,9 @@
     },
     {
       "ingredient_id": 243,
-      "name": "chopped fresh mint",
-      "quantity": "1 tbsp"
+      "name": "fresh mint",
+      "quantity": "1 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 24,
@@ -154,8 +163,9 @@
     },
     {
       "ingredient_id": 106,
-      "name": "finely chopped flat-leaf parsley leaves, tender stems",
-      "quantity": "1 tbsp"
+      "name": "flat-leaf parsley leaves, tender stems",
+      "quantity": "1 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2346,
@@ -167,8 +177,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Quarter the onion. Peel and cut the carrots into big chunks. Cut the celery into large chunks. Roughly chop the garlic. Pierce the whole lemon several times with a fork. Smash the garlic. Chop the dried tart cherries.",
-      "secondary_message": "1 medium onion\n2 large carrots\n1 stalk celery\n3 medium cloves garlic\n1 whole lemon\n2 medium cloves garlic\n½ cup dried tart cherries"
+      "primary_message": "Quarter the onion. Peel and cut the carrots into big chunks. Cut the celery into large chunks. Juice the lemon. Pick the mint leaves from the stems and chop them. Roughly chop the garlic. Pierce the whole lemon several times with a fork. Smash the garlic. Chop the dried tart cherries. Pick the parsley leaves and tender stems from the thick stems and finely chop them.",
+      "secondary_message": "1 medium onion\n2 large carrots\n1 stalk celery\n1 lemon\n1 tbsp fresh mint\n3 medium cloves garlic\n1 whole lemon\n2 medium cloves garlic\n½ cup dried tart cherries\n1 tbsp flat-leaf parsley leaves, tender stems"
     },
     {
       "id": 1,

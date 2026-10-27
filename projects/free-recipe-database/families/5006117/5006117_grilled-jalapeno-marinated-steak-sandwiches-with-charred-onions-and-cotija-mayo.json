@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 1612,
-      "name": "finely grated cotija cheese",
-      "quantity": "⅓ cup"
+      "name": "cotija cheese",
+      "quantity": "⅓ cup",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 1003,
@@ -56,9 +57,17 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice, from 1 lime",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice, from 1 lime"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 75,
@@ -71,9 +80,17 @@
       "quantity": "½ tsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "⅓ cup"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "3",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "⅓ cup",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -146,8 +163,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Stem and roughly chop the jalapeños.",
-      "secondary_message": "2 medium jalapeños"
+      "primary_message": "Finely grate the cotija cheese. Juice the lime. Juice the limes. Stem and roughly chop the jalapeños.",
+      "secondary_message": "⅓ cup cotija cheese\n½ lime\n3 limes\n2 medium jalapeños"
     },
     {
       "id": 1,

@@ -102,8 +102,9 @@
     },
     {
       "ingredient_id": 317,
-      "name": "Sliced bananas",
-      "quantity": ""
+      "name": "Bananas",
+      "quantity": "",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 114,
@@ -117,11 +118,18 @@
     },
     {
       "ingredient_id": 1947,
-      "name": "Chopped nuts",
-      "quantity": ""
+      "name": "Nuts",
+      "quantity": "",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the bananas. Chop the nuts.",
+      "secondary_message": "Bananas\nNuts"
+    },
     {
       "id": 1,
       "primary_message": "In small bowl, mash together bananas and sugar with a fork. Allow to stand for ten minutes. In a medium bowl, whisk together brown rice flour, sweet rice flour, baking powder, salt, and xanthan gum. Add milk, eggs, vegetable oil, vanilla extract, and banana mixture. Stir until batter forms. If batter is thick, add an additional tablespoon of milk.",

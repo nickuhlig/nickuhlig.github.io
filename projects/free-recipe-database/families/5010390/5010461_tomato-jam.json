@@ -46,14 +46,23 @@
       "quantity": "2 cups"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice",
-      "quantity": "¼ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¼ cup",
+          "name": "freshly squeezed lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 221,
-      "name": "freshly grated ginger",
-      "quantity": "1 tbsp"
+      "name": "ginger",
+      "quantity": "1 tbsp",
+      "prep": "freshly grated"
     },
     {
       "ingredient_id": 1721,
@@ -80,8 +89,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Core and chop the best quality tomatoes.",
-      "secondary_message": "11 best quality tomatoes"
+      "primary_message": "Core and chop the best quality tomatoes. Juice the lemons. Freshly grate the ginger.",
+      "secondary_message": "11 best quality tomatoes\n1 ½ lemons\n1 tbsp ginger"
     },
     {
       "id": 1,

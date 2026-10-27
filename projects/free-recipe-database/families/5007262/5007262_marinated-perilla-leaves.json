@@ -73,11 +73,18 @@
     },
     {
       "ingredient_id": 24,
-      "name": "finely minced garlic",
-      "quantity": "2 tsp"
+      "name": "garlic",
+      "quantity": "2 tsp",
+      "prep": "finely minced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the garlic.",
+      "secondary_message": "2 tsp garlic"
+    },
     {
       "id": 1,
       "primary_message": "Wash and dry the perilla leaves. To make the marinade, mix everything together in a small bowl, adding more stock as needed so that the paste has a smooth consistency.",

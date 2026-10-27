@@ -90,9 +90,17 @@
       "quantity": "255 g"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 74,
@@ -116,8 +124,9 @@
     },
     {
       "ingredient_id": 272,
-      "name": "chopped walnuts",
-      "quantity": "½ cup"
+      "name": "walnuts",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2058,
@@ -146,8 +155,9 @@
     },
     {
       "ingredient_id": 317,
-      "name": "mashed ripe banana",
-      "quantity": "½ cup"
+      "name": "ripe banana",
+      "quantity": "½ cup",
+      "prep": "mashed"
     },
     {
       "ingredient_id": 121,
@@ -180,8 +190,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely chop the milk.",
-      "secondary_message": "340 g milk"
+      "primary_message": "Juice the lemon. Chop the walnuts. Mash the ripe banana. Finely chop the milk.",
+      "secondary_message": "½ lemon\n½ cup walnuts\n½ cup ripe banana\n340 g milk"
     },
     {
       "id": 1,

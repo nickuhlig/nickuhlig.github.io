@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 188,
-      "name": "chopped fresh cilantro leaves and stems chopped",
-      "quantity": "½ cup"
+      "name": "fresh cilantro leaves and stems chopped",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 88,
@@ -67,9 +68,17 @@
       "quantity": "2 tsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1864,
@@ -91,8 +100,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely chop the green bird chiles. Finely chop the garlic.",
-      "secondary_message": "4 green bird chiles\n10 medium cloves garlic"
+      "primary_message": "Pick the cilantro leaves from the stems and chop them. Finely chop the green bird chiles. Finely chop the garlic. Juice the lime.",
+      "secondary_message": "½ cup fresh cilantro leaves and stems chopped\n4 green bird chiles\n10 medium cloves garlic\n½ lime"
     },
     {
       "id": 1,

@@ -99,9 +99,17 @@
       "quantity": "3"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 53,
@@ -113,8 +121,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the garlic. Grate the Parmesan cheese.",
-      "secondary_message": "6 cloves garlic, divided\n57 g Parmesan cheese"
+      "primary_message": "Mince the garlic. Grate the Parmesan cheese. Juice the lemon.",
+      "secondary_message": "6 cloves garlic, divided\n57 g Parmesan cheese\n½ lemon"
     },
     {
       "id": 1,

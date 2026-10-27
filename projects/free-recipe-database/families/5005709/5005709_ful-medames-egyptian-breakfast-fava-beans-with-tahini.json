@@ -67,17 +67,25 @@
       "quantity": "3 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 2 lemons or more to taste",
-      "quantity": "2 to 3 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon, to taste",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 to 3 tbsp",
+          "name": "lemon juice, from 2 lemons or more to taste"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Freshly toast the cumin seeds.",
-      "secondary_message": "1 tsp cumin seeds"
+      "primary_message": "Freshly toast the cumin seeds. Juice the lemon.",
+      "secondary_message": "1 tsp cumin seeds\n1 lemon, to taste"
     },
     {
       "id": 1,

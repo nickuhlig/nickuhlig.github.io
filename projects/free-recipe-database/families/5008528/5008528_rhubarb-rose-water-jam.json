@@ -48,9 +48,17 @@
       "prep": "diced"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "4 tbsp"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "4 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1591,
@@ -67,8 +75,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Dice the rhubarb.",
-      "secondary_message": "2 lb rhubarb"
+      "primary_message": "Dice the rhubarb. Juice the lemons.",
+      "secondary_message": "2 lb rhubarb\n1 ½ lemons"
     },
     {
       "id": 1,

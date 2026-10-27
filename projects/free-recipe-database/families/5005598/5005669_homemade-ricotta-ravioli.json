@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 120,
-      "name": "freshly grated Parmesan cheese",
-      "quantity": "113 g"
+      "name": "Parmesan cheese",
+      "quantity": "113 g",
+      "prep": "freshly grated"
     },
     {
       "ingredient_id": 349,
@@ -70,9 +71,17 @@
       "quantity": "¼ tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -91,6 +100,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Freshly grate the Parmesan cheese. Juice the lemon.",
+      "secondary_message": "113 g Parmesan cheese\n½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "Lay a clean kitchen towel or a triple layer of lint-free paper towels on a rimmed baking sheet. Spread ricotta evenly over surface of towels. Top with a second clean kitchen towel or triple layer of paper towels. Press with hands or a second rimmed baking sheet and let rest 5 minutes. Transfer ricotta to a medium bowl (it should come right off the towels).",

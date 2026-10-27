@@ -72,9 +72,17 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 151,
@@ -89,8 +97,9 @@
     },
     {
       "ingredient_id": 1612,
-      "name": "grated cotija, romano, or feta cheese",
-      "quantity": "2 tbsp"
+      "name": "cotija, romano, or feta cheese",
+      "quantity": "2 tbsp",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1828,
@@ -102,8 +111,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Remove the stems and seeds from the jalapeño pepper, then roughly chop it.",
-      "secondary_message": "1 jalapeño pepper"
+      "primary_message": "Juice the lime. Remove the stems and seeds from the jalapeño pepper, then roughly chop it. Grate the cotija.",
+      "secondary_message": "½ lime\n1 jalapeño pepper\n2 tbsp cotija, romano, or feta cheese"
     },
     {
       "id": 1,

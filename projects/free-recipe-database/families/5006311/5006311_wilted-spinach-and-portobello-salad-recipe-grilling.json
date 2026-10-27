@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 339,
-      "name": "chopped fresh sage",
-      "quantity": "1 tsp"
+      "name": "fresh sage",
+      "quantity": "1 tsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 72,
@@ -72,9 +73,17 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 130,
@@ -86,8 +95,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Scrub the fresh portobellos clean, then remove the stems. Remove the stems from the spinach.",
-      "secondary_message": "5 caps fresh portobellos\n10 oz spinach"
+      "primary_message": "Scrub the fresh portobellos clean, then remove the stems. Pick the sage leaves from the stems and chop them. Remove the stems from the spinach. Juice the lemon.",
+      "secondary_message": "5 caps fresh portobellos\n1 tsp fresh sage\n10 oz spinach\n½ lemon"
     },
     {
       "id": 1,

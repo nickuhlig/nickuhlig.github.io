@@ -64,8 +64,9 @@
     },
     {
       "ingredient_id": 320,
-      "name": "chopped fresh dill",
-      "quantity": "2 tbsp"
+      "name": "fresh dill",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 88,
@@ -94,11 +95,18 @@
     },
     {
       "ingredient_id": 342,
-      "name": "thinly sliced smoked salmon",
-      "quantity": "8 oz"
+      "name": "smoked salmon",
+      "quantity": "8 oz",
+      "prep": "thinly sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the dill fronds from the stems and chop them. Thinly slice the smoked salmon.",
+      "secondary_message": "2 tbsp fresh dill\n8 oz smoked salmon"
+    },
     {
       "id": 1,
       "primary_message": "For the Yorkshire Pudding: Adjust oven rack to middle position and preheat oven to 450°F. Combine the eggs, flour, milk, and garlic in a blender and blend until smooth, about 30 seconds. Transfer to a medium bowl. Mix in chopped dill and season with salt and pepper. Cover and set aside.",

@@ -93,8 +93,9 @@
     },
     {
       "ingredient_id": 1932,
-      "name": "finely chopped dill",
-      "quantity": "2 tbsp"
+      "name": "dill",
+      "quantity": "2 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1241,
@@ -102,9 +103,17 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1003,
@@ -131,8 +140,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Coarsely chop the onions. Quarter the lemons.",
-      "secondary_message": "2 onions\n2 lemons"
+      "primary_message": "Coarsely chop the onions. Quarter the lemons. Pick the dill fronds from the stems and finely chop them. Juice the lemon.",
+      "secondary_message": "2 onions\n2 lemons\n2 tbsp dill\n1 lemon"
     },
     {
       "id": 1,

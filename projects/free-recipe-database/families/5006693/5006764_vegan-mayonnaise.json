@@ -53,9 +53,17 @@
       "quantity": "1 small clove"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 117,
@@ -77,8 +85,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Pat the soft silken tofu dry.",
-      "secondary_message": "113 g soft silken tofu"
+      "primary_message": "Pat the soft silken tofu dry. Juice the lemon.",
+      "secondary_message": "113 g soft silken tofu\n½ lemon"
     },
     {
       "id": 1,

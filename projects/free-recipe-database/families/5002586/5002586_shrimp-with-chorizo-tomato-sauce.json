@@ -113,22 +113,31 @@
       "prep": "cut into four pieces"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 188,
-      "name": "roughly chopped fresh cilantro leaves",
-      "quantity": "¼ cup"
+      "name": "fresh cilantro leaves",
+      "quantity": "¼ cup",
+      "prep": "roughly chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince 2 of the garlic and smash the other 3. Chop the yellow onion. Core and chop the plum tomatoes. Cut the unsalted butter into four pieces.",
-      "secondary_message": "5 medium cloves garlic, divided\n1 small yellow onion\n2 plum tomatoes\n4 tbsp unsalted butter"
+      "primary_message": "Mince 2 of the garlic and smash the other 3. Chop the yellow onion. Core and chop the plum tomatoes. Cut the unsalted butter into four pieces. Juice the lemon. Pick the cilantro leaves from the stems and roughly chop them.",
+      "secondary_message": "5 medium cloves garlic, divided\n1 small yellow onion\n2 plum tomatoes\n4 tbsp unsalted butter\n½ lemon\n¼ cup fresh cilantro leaves"
     },
     {
       "id": 1,

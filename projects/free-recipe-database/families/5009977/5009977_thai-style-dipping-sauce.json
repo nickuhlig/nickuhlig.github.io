@@ -33,8 +33,9 @@
   "ingredients": [
     {
       "ingredient_id": 24,
-      "name": "finely minced garlic",
-      "quantity": "8 tsp"
+      "name": "garlic",
+      "quantity": "8 tsp",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 52,
@@ -42,9 +43,17 @@
       "quantity": "4 tbsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "4 tbsp"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "4 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 293,
@@ -53,8 +62,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "finely chopped fresh cilantro leaves, fine stems",
-      "quantity": "2 tbsp"
+      "name": "fresh cilantro leaves, fine stems",
+      "quantity": "2 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1721,
@@ -63,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely mince the garlic. Juice the limes. Pick the cilantro leaves from the stems and finely chop them.",
+      "secondary_message": "8 tsp garlic\n2 limes\n2 tbsp fresh cilantro leaves, fine stems"
+    },
     {
       "id": 1,
       "primary_message": "Combine garlic, fish sauce, lime juice, brown sugar, cilanto, and chile flakes in a small bowl and stir until sugar is dissolved. Serve.",

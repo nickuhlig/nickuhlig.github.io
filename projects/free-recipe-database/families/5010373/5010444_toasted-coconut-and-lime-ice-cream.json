@@ -59,9 +59,17 @@
       "quantity": "¾ cup"
     },
     {
-      "ingredient_id": 2346,
-      "name": "grated lime zest, from 2 limes",
-      "quantity": "2 tsp"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "2 tsp",
+          "name": "grated lime zest, from 2 limes"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 88,
@@ -70,6 +78,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the limes.",
+      "secondary_message": "2 limes"
+    },
     {
       "id": 1,
       "primary_message": "Heat oven to 175°C (350°F) with an oven rack positioned in the middle. Spread coconut thinly and very evenly across a half sheet pan and toast just until coconut edges begin to brown and turn aromatic, 2 to 4 minutes. Do not overbake coconut or ice cream will taste burnt.",

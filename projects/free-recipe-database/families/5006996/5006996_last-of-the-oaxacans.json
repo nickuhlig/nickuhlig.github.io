@@ -40,9 +40,17 @@
       "quantity": "¾ oz"
     },
     {
-      "ingredient_id": 1421,
-      "name": "freshly squeezed lime juice, from 1 to 2 whole limes",
-      "quantity": "¾ oz"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "¾ oz",
+          "name": "freshly squeezed lime juice, from 1 to 2 whole limes"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2456,
@@ -61,6 +69,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "1 lime"
+    },
     {
       "id": 1,
       "primary_message": "Add mezcal, lime juice, maraschino, Chartreuse, and serrano pepper to a cocktail shaker. Fill 2/3 full with ice and shake vigorously until the outside of the shaker begins to frost, about 20 seconds.",

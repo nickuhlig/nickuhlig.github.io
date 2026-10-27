@@ -41,9 +41,17 @@
       "quantity": "57 g"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "7 g"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "7 g",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -77,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "Combine ingredients in a mixing glass and fill with ice. Gently roll from one glass to another until chilled (if you shake a Bloody Mary, the tomato juice will foam, and if you simply build it over ice in a glass, the ice will melt faster and the drink will become insipid before you have a chance to finish it). Strain into a Collins glass filled with fresh ice. Garnish with a slice of lemon or lime or—who am I kidding?—pretty much anything short of the Hoover Dam.",

@@ -67,19 +67,29 @@
     },
     {
       "ingredient_id": 152,
-      "name": "finely diced yellow onion",
+      "name": "yellow onion",
       "quantity": "¾ medium",
-      "weigh_as": "75 g"
+      "weigh_as": "75 g",
+      "prep": "finely diced"
     },
     {
-      "ingredient_id": 2346,
-      "name": "grated lemon zest, from 1 whole lemon",
-      "quantity": "½ tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "½ tsp",
+          "name": "grated lemon zest, from 1 whole lemon"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 221,
-      "name": "grated fresh ginger",
-      "quantity": "½ tsp"
+      "name": "fresh ginger",
+      "quantity": "½ tsp",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1086,
@@ -88,13 +98,15 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "finely chopped fresh parsley leaves",
-      "quantity": "¼ cup"
+      "name": "fresh parsley leaves",
+      "quantity": "¼ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 349,
-      "name": "grated nutmeg",
-      "quantity": "¼ tsp"
+      "name": "nutmeg",
+      "quantity": "¼ tsp",
+      "prep": "grated"
     },
     {
       "ingredient_id": 2628,
@@ -117,8 +129,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Soak and rinse the Hog casing.",
-      "secondary_message": "Hog casing"
+      "primary_message": "Finely dice the yellow onion. Zest the lemon. Grate the ginger. Pick the parsley leaves from the stems and finely chop them. Grate the nutmeg. Soak and rinse the Hog casing.",
+      "secondary_message": "¾ medium yellow onion\n1 lemon\n½ tsp fresh ginger\n¼ cup fresh parsley leaves\n¼ tsp nutmeg\nHog casing"
     },
     {
       "id": 1,

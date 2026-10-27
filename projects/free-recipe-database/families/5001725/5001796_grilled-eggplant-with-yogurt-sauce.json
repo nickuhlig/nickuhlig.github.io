@@ -77,18 +77,27 @@
     },
     {
       "ingredient_id": 243,
-      "name": "chopped fresh mint, cilantro, or basil",
-      "quantity": "3 tbsp"
+      "name": "fresh mint, cilantro, or basil",
+      "quantity": "3 tbsp",
+      "prep": "chopped"
     },
     {
-      "ingredient_id": 2346,
-      "name": "grated lemon zest",
-      "quantity": "1 tsp"
-    },
-    {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 lemon",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice, from 1 lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tsp",
+          "name": "grated lemon zest"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 88,
@@ -111,8 +120,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the garlic.",
-      "secondary_message": "4 (20 g) cloves garlic"
+      "primary_message": "Mince the garlic. Pick the herb leaves from the stems and chop them. Zest and juice the lemon.",
+      "secondary_message": "4 (20 g) cloves garlic\n3 tbsp fresh mint, cilantro, or basil\n1 lemon"
     },
     {
       "id": 1,

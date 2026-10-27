@@ -102,9 +102,17 @@
       "quantity": "1 large"
     },
     {
-      "ingredient_id": 2346,
-      "name": "grated orange zest, from 1 small orange",
-      "quantity": "½ tsp"
+      "ingredient_id": 232,
+      "name": "orange",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "½ tsp",
+          "name": "grated orange zest, from 1 small orange"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 88,
@@ -138,8 +146,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Melt the unsalted butter. Soften the unsalted butter. Soften the cream cheese.",
-      "secondary_message": "1 oz unsalted butter\n4 oz unsalted butter\n3 oz cream cheese"
+      "primary_message": "Melt the unsalted butter. Zest the orange. Soften the unsalted butter. Soften the cream cheese.",
+      "secondary_message": "1 oz unsalted butter\n1 orange\n4 oz unsalted butter\n3 oz cream cheese"
     },
     {
       "id": 1,

@@ -42,9 +42,17 @@
       "quantity": "20 ml"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "15 ml"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "15 ml",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1468,
@@ -58,6 +66,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "½ lime"
+    },
     {
       "id": 1,
       "primary_message": "Add Campari, simple syrup, lime juice, and orange juice to a large wine glass. Fill glass 2/3 full with ice and stir to mix. Top with LaCroix Tangerine, stir gently, and serve immediately, garnished with a lime wheel if desired.",

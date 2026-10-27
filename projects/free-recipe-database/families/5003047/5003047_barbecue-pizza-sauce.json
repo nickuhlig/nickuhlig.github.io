@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "finely chopped onion",
-      "quantity": "½ cup"
+      "name": "onion",
+      "quantity": "½ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1191,
@@ -117,6 +118,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the onion.",
+      "secondary_message": "½ cup onion"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in a medium saucepan over medium heat until shimmering. Add onion and cook until softened, about 5 minutes. Stir in garlic and red pepper flakes and cook until fragrant, about 30 seconds.",

@@ -130,13 +130,22 @@
     },
     {
       "ingredient_id": 188,
-      "name": "chopped fresh cilantro",
-      "quantity": "¼ cup"
+      "name": "fresh cilantro",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice, from 1 lime",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "fresh lime juice, from 1 lime"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 43,
@@ -149,8 +158,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Peel the yellow onion. Leave the garlic cloves unpeeled. Don't drain the fire-roasted diced tomatoes. Drain and rinse the pinto beans. Seed and chop the fresh tomatoes. Shred the Cheddar cheese.",
-      "secondary_message": "1 small yellow onion\n4 medium garlic cloves\n2 (411 g) (411 g) cans fire-roasted diced tomatoes, divided\n2 (439 g) (439 g) cans pinto beans\n2 ½ fresh tomatoes\n170 g Cheddar cheese, medium"
+      "primary_message": "Peel the yellow onion. Leave the garlic cloves unpeeled. Don't drain the fire-roasted diced tomatoes. Drain and rinse the pinto beans. Seed and chop the fresh tomatoes. Pick the cilantro leaves from the stems and chop them. Juice the lime. Shred the Cheddar cheese.",
+      "secondary_message": "1 small yellow onion\n4 medium garlic cloves\n2 (411 g) (411 g) cans fire-roasted diced tomatoes, divided\n2 (439 g) (439 g) cans pinto beans\n2 ½ fresh tomatoes\n¼ cup fresh cilantro\n½ lime\n170 g Cheddar cheese, medium"
     },
     {
       "id": 1,

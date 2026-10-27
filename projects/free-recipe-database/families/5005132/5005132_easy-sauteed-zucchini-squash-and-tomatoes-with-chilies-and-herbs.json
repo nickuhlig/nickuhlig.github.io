@@ -78,27 +78,37 @@
       "prep": "split in half"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1808,
-      "name": "chopped fresh parsley",
-      "quantity": "2 tbsp"
+      "name": "fresh parsley",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 270,
-      "name": "minced fresh chives",
-      "quantity": "2 tbsp"
+      "name": "fresh chives",
+      "quantity": "2 tbsp",
+      "prep": "minced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely mince the serrano chile. Finely mince the shallot. Split the cherry tomatoes in half.",
-      "secondary_message": "1 serrano chile\n1 small shallot\n1 cup cherry tomatoes"
+      "primary_message": "Finely mince the serrano chile. Finely mince the shallot. Split the cherry tomatoes in half. Juice the lemon. Pick the parsley leaves from the stems and chop them. Mince the chives.",
+      "secondary_message": "1 serrano chile\n1 small shallot\n1 cup cherry tomatoes\n½ lemon\n2 tbsp fresh parsley\n2 tbsp fresh chives"
     },
     {
       "id": 1,

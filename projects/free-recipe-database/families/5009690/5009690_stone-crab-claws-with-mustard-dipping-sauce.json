@@ -59,9 +59,17 @@
       "quantity": "1 tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "1 ½ tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 ½ tsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 3250,
@@ -74,8 +82,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Keep the stone crab claws cold until you use them.",
-      "secondary_message": "4 lb stone crab claws"
+      "primary_message": "Juice the lemon. Keep the stone crab claws cold until you use them.",
+      "secondary_message": "½ lemon\n4 lb stone crab claws"
     },
     {
       "id": 1,

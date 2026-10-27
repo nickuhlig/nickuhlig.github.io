@@ -100,8 +100,9 @@
     },
     {
       "ingredient_id": 1677,
-      "name": "minced thyme leaves, plus more for garnish",
-      "quantity": "1 tbsp"
+      "name": "thyme leaves, plus more for garnish",
+      "quantity": "1 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2101,
@@ -119,17 +120,25 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the shallot.",
-      "secondary_message": "1 small shallot"
+      "primary_message": "Mince the shallot. Pick the thyme leaves from the stems and mince them. Juice the lemon.",
+      "secondary_message": "1 small shallot\n1 tbsp thyme leaves, plus more for garnish\n½ lemon"
     },
     {
       "id": 1,

@@ -33,13 +33,22 @@
   "ingredients": [
     {
       "ingredient_id": 188,
-      "name": "coarsely chopped fresh cilantro",
-      "quantity": "⅓ cup"
+      "name": "fresh cilantro",
+      "quantity": "⅓ cup",
+      "prep": "coarsely chopped"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "¼ cup"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "¼ cup",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1191,
@@ -115,8 +124,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Pound the boneless skinless chicken breasts to 1/2-inch thick. Cut the red bell pepper into 1/4-inch strips. Cut the green bell pepper into 1/4-inch strips. Cut the white onion into 1/4-inch strips.",
-      "secondary_message": "3 boneless skinless chicken breasts\n1 large red bell pepper\n1 large green bell pepper\n1 large white onion"
+      "primary_message": "Pick the cilantro leaves from the stems and coarsely chop them. Juice the limes. Pound the boneless skinless chicken breasts to 1/2-inch thick. Cut the red bell pepper into 1/4-inch strips. Cut the green bell pepper into 1/4-inch strips. Cut the white onion into 1/4-inch strips.",
+      "secondary_message": "⅓ cup fresh cilantro\n2 limes\n3 boneless skinless chicken breasts\n1 large red bell pepper\n1 large green bell pepper\n1 large white onion"
     },
     {
       "id": 1,

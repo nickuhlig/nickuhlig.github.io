@@ -48,9 +48,17 @@
       "quantity": "2 fl oz"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice, from 4 to 5 limes",
-      "quantity": "2 ½ fl oz"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "2 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 ½ fl oz",
+          "name": "lime juice, from 4 to 5 limes"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1953,
@@ -64,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the limes.",
+      "secondary_message": "2 ½ limes"
+    },
     {
       "id": 1,
       "primary_message": "At Least 8 Hours Before Serving: Combine tequila, triple sec, lime juice, and simple syrup in a sealable container that will fit in your freezer. Seal and place in freezer for at least 8 hours and up to 1 week (the mixture will remain completely liquid).",

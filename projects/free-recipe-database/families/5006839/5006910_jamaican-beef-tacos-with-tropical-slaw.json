@@ -32,18 +32,21 @@
   "ingredients": [
     {
       "ingredient_id": 229,
-      "name": "diced mango",
-      "quantity": "½ cup"
+      "name": "mango",
+      "quantity": "½ cup",
+      "prep": "diced"
     },
     {
       "ingredient_id": 236,
-      "name": "diced fresh pineapple",
-      "quantity": "½ cup"
+      "name": "fresh pineapple",
+      "quantity": "½ cup",
+      "prep": "diced"
     },
     {
       "ingredient_id": 184,
-      "name": "diced red onion",
-      "quantity": "½ cup"
+      "name": "red onion",
+      "quantity": "½ cup",
+      "prep": "diced"
     },
     {
       "ingredient_id": 343,
@@ -58,13 +61,22 @@
     },
     {
       "ingredient_id": 310,
-      "name": "thinly sliced red cabbage",
-      "quantity": "⅔ cup"
+      "name": "red cabbage",
+      "quantity": "⅔ cup",
+      "prep": "thinly sliced"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 ½ tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 ½ tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 346,
@@ -168,8 +180,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thinly slice the radishes. Finely chop the yellow onion. Mince the garlic.",
-      "secondary_message": "3 small radishes\n1 small yellow onion\n4 medium cloves garlic"
+      "primary_message": "Dice the mango. Dice the pineapple. Dice the red onion. Thinly slice the radishes. Thinly slice the red cabbage. Juice the lime. Finely chop the yellow onion. Mince the garlic.",
+      "secondary_message": "½ cup mango\n½ cup fresh pineapple\n½ cup red onion\n3 small radishes\n⅔ cup red cabbage\n1 lime\n1 small yellow onion\n4 medium cloves garlic"
     },
     {
       "id": 1,

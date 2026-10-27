@@ -62,8 +62,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "finely diced onion",
-      "quantity": "1 cup"
+      "name": "onion",
+      "quantity": "1 cup",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 1191,
@@ -97,6 +98,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the onion.",
+      "secondary_message": "1 cup onion"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 175°C (350°F). Place chile on baking sheet and place in oven until puffed and aromatic, about 5 minutes. Remove from oven and let cool for 5 minutes. Stem and seed chile. Tear into large pieces.",

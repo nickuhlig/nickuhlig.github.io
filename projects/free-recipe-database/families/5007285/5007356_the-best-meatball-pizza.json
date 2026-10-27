@@ -69,8 +69,9 @@
     },
     {
       "ingredient_id": 2016,
-      "name": "grated full-fat dry mozzarella cheese",
-      "quantity": "0.45 kg"
+      "name": "full-fat dry mozzarella cheese",
+      "quantity": "0.45 kg",
+      "prep": "grated"
     },
     {
       "ingredient_id": 88,
@@ -79,11 +80,18 @@
     },
     {
       "ingredient_id": 1679,
-      "name": "finely grated Pecorino Romano cheese",
-      "quantity": "45 g"
+      "name": "Pecorino Romano cheese",
+      "quantity": "45 g",
+      "prep": "finely grated"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the full-fat dry mozzarella cheese. Finely grate the Pecorino Romano cheese.",
+      "secondary_message": "0.45 kg full-fat dry mozzarella cheese\n45 g Pecorino Romano cheese"
+    },
     {
       "id": 1,
       "primary_message": "Set aside 1/2 cup meatball mixture. Form remaining mixture into small balls, roughly 2 cm in diameter. Set aside on a plate in the refrigerator.",

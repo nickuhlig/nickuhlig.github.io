@@ -36,8 +36,9 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "melted butter, plus more for greasing pan",
-      "quantity": "3 tbsp"
+      "name": "butter, plus more for greasing pan",
+      "quantity": "3 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 118,
@@ -61,6 +62,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the butter.",
+      "secondary_message": "3 tbsp butter, plus more for greasing pan"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 450°F. Grease popover pan well with butter.",

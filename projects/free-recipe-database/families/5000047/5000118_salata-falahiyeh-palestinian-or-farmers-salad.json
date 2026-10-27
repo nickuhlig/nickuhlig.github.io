@@ -54,8 +54,9 @@
     },
     {
       "ingredient_id": 243,
-      "name": "finely chopped fresh mint leaves",
-      "quantity": "3 tbsp"
+      "name": "fresh mint leaves",
+      "quantity": "3 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 47,
@@ -63,9 +64,17 @@
       "quantity": "3 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice",
-      "quantity": "3 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "3 tbsp",
+          "name": "freshly squeezed lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -77,8 +86,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the ripe tomatoes into 1/4-inch dice. Cut the Persian cucumbers into 1/4-inch dice. Cut the yellow onion into 1/4-inch dice.",
-      "secondary_message": "6 ripe tomatoes\n2 Persian cucumbers\n1 small yellow onion"
+      "primary_message": "Cut the ripe tomatoes into 1/4-inch dice. Cut the Persian cucumbers into 1/4-inch dice. Cut the yellow onion into 1/4-inch dice. Pick the mint leaves from the stems and finely chop them. Juice the lemon.",
+      "secondary_message": "6 ripe tomatoes\n2 Persian cucumbers\n1 small yellow onion\n3 tbsp fresh mint leaves\n1 lemon"
     },
     {
       "id": 1,

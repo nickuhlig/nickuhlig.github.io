@@ -96,14 +96,23 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 to 2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 to 2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1808,
-      "name": "chopped fresh parsley leaves",
-      "quantity": "2 tbsp"
+      "name": "fresh parsley leaves",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 47,
@@ -115,8 +124,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Dice the carrot. Dice the celery. Dice the Yukon Gold potato. Rinse and drain the cooked chickpeas. Thickly remove the stems from the kale, then roughly tear the leaves.",
-      "secondary_message": "1 medium carrot\n2 stalks celery\n1 large Yukon Gold potato\n1 cup cooked chickpeas\n1 small bunch kale"
+      "primary_message": "Dice the carrot. Dice the celery. Dice the Yukon Gold potato. Rinse and drain the cooked chickpeas. Thickly remove the stems from the kale, then roughly tear the leaves. Juice the lemon. Pick the parsley leaves from the stems and chop them.",
+      "secondary_message": "1 medium carrot\n2 stalks celery\n1 large Yukon Gold potato\n1 cup cooked chickpeas\n1 small bunch kale\n1 lemon\n2 tbsp fresh parsley leaves"
     },
     {
       "id": 1,

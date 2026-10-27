@@ -52,8 +52,9 @@
     },
     {
       "ingredient_id": 57,
-      "name": "grated mozzarella cheese",
-      "quantity": "3 oz"
+      "name": "mozzarella cheese",
+      "quantity": "3 oz",
+      "prep": "grated"
     },
     {
       "ingredient_id": 88,
@@ -62,8 +63,9 @@
     },
     {
       "ingredient_id": 120,
-      "name": "grated parmesan cheese",
-      "quantity": "½ oz"
+      "name": "parmesan cheese",
+      "quantity": "½ oz",
+      "prep": "grated"
     },
     {
       "ingredient_id": 47,
@@ -77,6 +79,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the mozzarella cheese. Grate the parmesan cheese.",
+      "secondary_message": "3 oz mozzarella cheese\n½ oz parmesan cheese"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to center position and preheat oven to 500°F. Place tomatoes in a fine-mesh strainer and break apart with your fingers into rough 1/2-inch chunks. Toss in strainer over sink to drain all excess liquid.",

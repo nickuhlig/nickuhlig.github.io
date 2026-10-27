@@ -69,13 +69,22 @@
     },
     {
       "ingredient_id": 270,
-      "name": "minced fresh chives",
-      "quantity": "1 tbsp"
+      "name": "fresh chives",
+      "quantity": "1 tbsp",
+      "prep": "minced"
     },
     {
-      "ingredient_id": 1480,
-      "name": "Fresh lemon juice, to taste",
-      "quantity": ""
+      "ingredient_id": 192,
+      "name": "Lemon, to taste",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "",
+          "name": "Fresh lemon juice, to taste"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 72,
@@ -97,8 +106,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Shell and devein the shrimp. Finely dice the celery.",
-      "secondary_message": "0.56 kg shrimp\n1 rib celery"
+      "primary_message": "Shell and devein the shrimp. Finely dice the celery. Mince the chives. Juice the lemon.",
+      "secondary_message": "0.56 kg shrimp\n1 rib celery\n1 tbsp fresh chives\n1 Lemon, to taste"
     },
     {
       "id": 1,

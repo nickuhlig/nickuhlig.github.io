@@ -65,9 +65,17 @@
       "quantity": "1 cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "½ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "3",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "½ cup",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 359,
@@ -91,9 +99,17 @@
       "quantity": "1 ½ cups"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "fresh lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 353,
@@ -121,9 +137,17 @@
       "quantity": "1 cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1500,
@@ -135,8 +159,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thaw and drain the fresh raspberries well. Thaw and drain the fresh pitted dark cherries well.",
-      "secondary_message": "2 cups fresh raspberries\n3 cups fresh pitted dark cherries"
+      "primary_message": "Thaw and drain the fresh raspberries well. Juice the lemons. Thaw and drain the fresh pitted dark cherries well. Juice the lime. Juice the lemon.",
+      "secondary_message": "2 cups fresh raspberries\n3 lemons\n3 cups fresh pitted dark cherries\n½ lime\n1 lemon"
     },
     {
       "id": 1,

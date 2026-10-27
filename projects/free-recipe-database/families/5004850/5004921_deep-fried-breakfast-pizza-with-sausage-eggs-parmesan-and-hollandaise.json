@@ -75,8 +75,9 @@
     },
     {
       "ingredient_id": 120,
-      "name": "grated Parmigiano-Reggiano",
-      "quantity": "57 g"
+      "name": "Parmesan cheese",
+      "quantity": "57 g",
+      "prep": "grated"
     },
     {
       "ingredient_id": 2897,
@@ -86,16 +87,17 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "chopped fresh parsley leaves",
-      "quantity": "2 tbsp"
+      "name": "fresh parsley leaves",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Warm the hollandaise sauce.",
-      "secondary_message": "1 recipe hollandaise sauce"
+      "primary_message": "Grate the Parmesan cheese. Warm the hollandaise sauce. Pick the parsley leaves from the stems and chop them.",
+      "secondary_message": "57 g Parmesan cheese\n1 recipe hollandaise sauce\n2 tbsp fresh parsley leaves"
     },
     {
       "id": 1,
@@ -134,7 +136,7 @@
     }
   ],
   "nutrition": {
-    "energy": 641.32,
+    "energy": 631.93,
     "alcohol": 0.0,
     "ash": 3.01,
     "caffeine": 0.0,
@@ -142,12 +144,12 @@
     "carbs": 43.11,
     "fiber": 1.58,
     "sugars": 0.59,
-    "fat": 44.39,
-    "monounsaturated": 12.55,
-    "polyunsaturated": 13.99,
-    "omega_3": 1.43,
-    "omega_6": 12.2,
-    "saturated": 14.67,
+    "fat": 43.33,
+    "monounsaturated": 12.31,
+    "polyunsaturated": 13.38,
+    "omega_3": 1.36,
+    "omega_6": 11.67,
+    "saturated": 14.5,
     "cholesterol": 195.42,
     "protein": 17.42,
     "alanine": 0.79,
@@ -178,8 +180,8 @@
     "folate": 200.89,
     "vitamin_a": 182.98,
     "vitamin_c": 1.49,
-    "vitamin_e": 2.84,
-    "vitamin_k": 52.57,
+    "vitamin_e": 2.76,
+    "vitamin_k": 50.62,
     "calcium": 97.09,
     "copper": 0.15,
     "iron": 3.46,
@@ -192,7 +194,7 @@
   },
   "nutrition_meta": {
     "source": "calculated",
-    "date": "2026-10-25",
+    "date": "2026-10-26",
     "lines": 10,
     "counted": 10,
     "partial": false,

@@ -102,22 +102,30 @@
       "prep": "finely chopped"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 whole lemon",
-      "quantity": "1 tbsp"
-    },
-    {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from 1 whole lemon",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice, from 1 whole lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "2 tsp",
+          "name": "lemon zest, from 1 whole lemon"
+        }
+      ],
+      "prep": "zested and juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the sugar snap peas into 1/2-inch segments on the bias. Split the baby zucchini in half lengthwise. Grate the garlic on a microplane grater. Finely mince the shallots. Finely chop the fresh parsley leaves.",
-      "secondary_message": "½ lb sugar snap peas\n½ lb baby zucchini\n2 medium cloves garlic\n2 small shallots\n¼ cup fresh parsley leaves"
+      "primary_message": "Cut the sugar snap peas into 1/2-inch segments on the bias. Split the baby zucchini in half lengthwise. Grate the garlic on a microplane grater. Finely mince the shallots. Pick the parsley leaves from the stems and finely chop them. Zest and juice the lemon.",
+      "secondary_message": "½ lb sugar snap peas\n½ lb baby zucchini\n2 medium cloves garlic\n2 small shallots\n¼ cup fresh parsley leaves\n1 lemon"
     },
     {
       "id": 1,

@@ -51,9 +51,17 @@
       "quantity": "½ oz"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "½ oz"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "½ oz",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2266,
@@ -62,6 +70,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "To make the barrel-aged simple syrup: Combine sugar and water in a nonreactive container and allow to combine. Give it a few shakes if necessary. Transfer the syrup to the Tuthilltown Distillery container (with stave for flavoring) and let rest for 2 days at room temperature. Use or transfer to the fridge after two days and store there for up to a week.",

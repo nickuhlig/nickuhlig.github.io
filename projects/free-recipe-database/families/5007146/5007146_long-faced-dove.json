@@ -47,9 +47,17 @@
       "quantity": "4 ½ oz"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice, from about 9 whole limes",
-      "quantity": "4 ½ oz"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "5",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "4 ½ oz",
+          "name": "lime juice, from about 9 whole limes"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1953,
@@ -63,6 +71,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the limes.",
+      "secondary_message": "5 limes"
+    },
     {
       "id": 1,
       "primary_message": "Combine tequila, Campari, grapefruit juice, lime juice, and simple syrup in a serving pitcher. Add 2 cups ice and stir for 15 seconds. Add ginger beer and stir gently.",

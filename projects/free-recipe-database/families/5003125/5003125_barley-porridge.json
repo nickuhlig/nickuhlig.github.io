@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 272,
-      "name": "chopped toasted walnuts",
-      "quantity": "2 tbsp"
+      "name": "toasted walnuts",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1752,
@@ -65,6 +66,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the toasted walnuts.",
+      "secondary_message": "2 tbsp toasted walnuts"
+    },
     {
       "id": 1,
       "primary_message": "Combine barley, milk, brown sugar, and cinnamon in a medium saucepan over medium heat. Cook, stirring occasionally, until milk has almost been all absorbed, about 15 minutes. Divide barley between two bowls. Top with chopped walnuts, a generous drizzle of heavy cream, and chopped fresh fruit if desired.",

@@ -36,13 +36,15 @@
   "ingredients": [
     {
       "ingredient_id": 1408,
-      "name": "diced cantaloupe",
-      "quantity": "2 cups"
+      "name": "cantaloupe",
+      "quantity": "2 cups",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1396,
-      "name": "diced honeydew melon",
-      "quantity": "2 cups"
+      "name": "honeydew melon",
+      "quantity": "2 cups",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1677,
@@ -60,12 +62,26 @@
       "quantity": "1 tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the cantaloupe. Dice the honeydew melon. Juice the lemon.",
+      "secondary_message": "2 cups cantaloupe\n2 cups honeydew melon\n½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "Toss cantaloupe, honeydew, thyme, salt, liqueur, and lemon together in a medium bowl; cover and refrigerate 1 hour to allow flavors to meld, then toss again to serve. Pair with fresh ricotta as a salad, with thin slices of prosciutto as canapé, or with panna cotta as dessert.",

@@ -56,9 +56,10 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "coarsely chopped onion",
+      "name": "onion",
       "quantity": "2 medium",
-      "weigh_as": "227 g"
+      "weigh_as": "227 g",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 24,
@@ -73,8 +74,9 @@
     },
     {
       "ingredient_id": 2015,
-      "name": "roughly chopped fresh sage leaves",
-      "quantity": "¼ cup"
+      "name": "fresh sage leaves",
+      "quantity": "¼ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 88,
@@ -102,17 +104,25 @@
       "quantity": "170 g"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Smash the garlic.",
-      "secondary_message": "6 cloves garlic"
+      "primary_message": "Coarsely chop the onion. Smash the garlic. Pick the sage leaves from the stems and roughly chop them. Juice the lemon.",
+      "secondary_message": "2 medium onion\n6 cloves garlic\n¼ cup fresh sage leaves\n½ lemon"
     },
     {
       "id": 1,

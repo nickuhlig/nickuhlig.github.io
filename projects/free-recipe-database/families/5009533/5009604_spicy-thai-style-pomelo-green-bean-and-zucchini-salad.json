@@ -61,15 +61,23 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 111,
-      "name": "trimmed green beans",
+      "name": "green beans",
       "quantity": "340 g",
-      "prep": "cut into 1-inch segments"
+      "prep": "trimmed, cut into 1-inch segments"
     },
     {
       "ingredient_id": 2324,
@@ -89,16 +97,17 @@
     },
     {
       "ingredient_id": 243,
-      "name": "roughly chopped fresh mint leaves",
-      "quantity": "½ cup"
+      "name": "fresh mint leaves",
+      "quantity": "½ cup",
+      "prep": "roughly chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely chop the green Thai chili. Cut the trimmed green beans into 1-inch segments. Thinly slice the shallot.",
-      "secondary_message": "1 small green Thai chili\n340 g trimmed green beans\n1 medium shallot"
+      "primary_message": "Finely chop the green Thai chili. Juice the lime. Trim and cut the green beans into 1-inch segments. Thinly slice the shallot. Pick the mint leaves from the stems and roughly chop them.",
+      "secondary_message": "1 small green Thai chili\n½ lime\n340 g green beans\n1 medium shallot\n½ cup fresh mint leaves"
     },
     {
       "id": 1,

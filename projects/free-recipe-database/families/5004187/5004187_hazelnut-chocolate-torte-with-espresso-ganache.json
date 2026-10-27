@@ -70,9 +70,17 @@
       "quantity": "1 ½ cups (7 ½ oz)"
     },
     {
-      "ingredient_id": 2346,
-      "name": "packed zest, from 1 orange",
-      "quantity": "1 tbsp"
+      "ingredient_id": 232,
+      "name": "orange",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tbsp",
+          "name": "packed zest, from 1 orange"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 115,
@@ -116,8 +124,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Separate the eggs. Soften the unsalted butter. Finely chop the bittersweet chocolate.",
-      "secondary_message": "8 large eggs\n12 tbsp (6 oz) unsalted butter\n6 oz bittersweet chocolate"
+      "primary_message": "Separate the eggs. Zest the orange. Soften the unsalted butter. Finely chop the bittersweet chocolate.",
+      "secondary_message": "8 large eggs\n1 orange\n12 tbsp (6 oz) unsalted butter\n6 oz bittersweet chocolate"
     },
     {
       "id": 1,

@@ -51,14 +51,23 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2346,
-      "name": "grated zest",
-      "quantity": "1 large pinch"
+      "name": "zest",
+      "quantity": "1 large pinch",
+      "prep": "grated"
     },
     {
       "ingredient_id": 144,
@@ -86,8 +95,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thinly slice the shallot.",
-      "secondary_message": "1 small shallot"
+      "primary_message": "Juice the lemon. Grate the zest. Thinly slice the shallot.",
+      "secondary_message": "½ lemon\n1 large pinch zest\n1 small shallot"
     },
     {
       "id": 1,

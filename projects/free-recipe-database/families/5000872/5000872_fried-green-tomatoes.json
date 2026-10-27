@@ -45,13 +45,15 @@
     },
     {
       "ingredient_id": 106,
-      "name": "chopped fresh flat-leaf parsley",
-      "quantity": "1 ½ tbsp"
+      "name": "fresh flat-leaf parsley",
+      "quantity": "1 ½ tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 15,
-      "name": "chopped drained capers",
-      "quantity": "1 tbsp"
+      "name": "capers",
+      "quantity": "1 tbsp",
+      "prep": "drained and chopped"
     },
     {
       "ingredient_id": 448,
@@ -75,13 +77,22 @@
     },
     {
       "ingredient_id": 2346,
-      "name": "grated fresh lemon zest",
-      "quantity": "½ tsp"
+      "name": "fresh lemon zest",
+      "quantity": "½ tsp",
+      "prep": "grated"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 ½ tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 ½ tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 24,
@@ -139,8 +150,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely mince the garlic clove.",
-      "secondary_message": "1 small garlic clove"
+      "primary_message": "Pick the parsley leaves from the stems and chop them. Drain and chop the capers. Grate the zest from the lemon. Juice the lemon. Finely mince the garlic clove.",
+      "secondary_message": "1 ½ tbsp fresh flat-leaf parsley\n1 tbsp capers\n½ tsp fresh lemon zest\n½ lemon\n1 small garlic clove"
     },
     {
       "id": 1,

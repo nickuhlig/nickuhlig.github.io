@@ -37,9 +37,17 @@
       "quantity": "½ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 1 whole lemon",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "fresh lemon juice, from 1 whole lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 164,
@@ -48,8 +56,9 @@
     },
     {
       "ingredient_id": 1239,
-      "name": "crumbled mild blue cheese",
-      "quantity": "⅔ cup"
+      "name": "mild blue cheese",
+      "quantity": "⅔ cup",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 267,
@@ -97,9 +106,17 @@
       "quantity": "1 ½ tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 1 whole lemon",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "fresh lemon juice, from 1 whole lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 159,
@@ -116,28 +133,33 @@
     },
     {
       "ingredient_id": 310,
-      "name": "thinly sliced red cabbage, from 1 medium cabbage",
-      "quantity": "1 cup"
+      "name": "red cabbage, from 1 medium cabbage",
+      "quantity": "1 cup",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 157,
-      "name": "thinly sliced celery, from 2 medium ribs celery",
-      "quantity": "1 cup"
+      "name": "celery, from 2 medium ribs celery",
+      "quantity": "1 cup",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 277,
-      "name": "halved cherry tomatoes",
-      "quantity": "1 cup"
+      "name": "cherry tomatoes",
+      "quantity": "1 cup",
+      "prep": "halved"
     },
     {
       "ingredient_id": 1399,
-      "name": "thinly sliced Persian cucumber, from about 1 whole cucumber",
-      "quantity": "½ cup"
+      "name": "Persian cucumber, from about 1 whole cucumber",
+      "quantity": "½ cup",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 184,
-      "name": "very thinly sliced red onion, from 1 small onion",
-      "quantity": "¼ cup"
+      "name": "red onion, from 1 small onion",
+      "quantity": "¼ cup",
+      "prep": "very thinly sliced"
     },
     {
       "ingredient_id": 183,
@@ -150,8 +172,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Peel and trim the carrots. Thinly slice the romaine lettuce hearts. Pit and thinly slice the ripe Hass avocado.",
-      "secondary_message": "2 medium carrots\n2 ½ hearts romaine lettuce hearts\n1 medium ripe Hass avocado"
+      "primary_message": "Juice the lemon. Crumble the mild blue cheese. Juice the lemon. Peel and trim the carrots. Thinly slice the romaine lettuce hearts. Thinly slice the red cabbage. Thinly slice the celery. Halve the cherry tomatoes. Thinly slice the Persian cucumber. Very thinly slice the red onion. Pit and thinly slice the ripe Hass avocado.",
+      "secondary_message": "½ lemon\n⅔ cup mild blue cheese\n½ lemon\n2 medium carrots\n2 ½ hearts romaine lettuce hearts\n1 cup red cabbage, from 1 medium cabbage\n1 cup celery, from 2 medium ribs celery\n1 cup cherry tomatoes\n½ cup Persian cucumber, from about 1 whole cucumber\n¼ cup red onion, from 1 small onion\n1 medium ripe Hass avocado"
     },
     {
       "id": 1,

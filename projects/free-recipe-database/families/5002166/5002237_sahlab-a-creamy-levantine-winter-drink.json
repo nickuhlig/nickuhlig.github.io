@@ -70,11 +70,18 @@
     },
     {
       "ingredient_id": 2365,
-      "name": "Very finely chopped raw pistachios",
-      "quantity": ""
+      "name": "Raw pistachios",
+      "quantity": "",
+      "prep": "very finely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Very finely chop the raw pistachios.",
+      "secondary_message": "Raw pistachios"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, stir cornstarch with 3 tablespoons cold water to form a smooth slurry. In a medium saucepan, whisk milk, sugar, salt, and cornstarch slurry until well combined. Bring mixture to a boil, whisking occasionally and making sure the milk does not boil over. Reduce heat to a simmer and cook, whisking often and scraping the bottom of the pan to prevent the milk from sticking and scorching, until the mixture has thickened and no raw cornstarch flavor remains, 2 to 4 minutes. Off heat, whisk in orange blossom water and vanilla.",

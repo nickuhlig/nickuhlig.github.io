@@ -44,13 +44,22 @@
     },
     {
       "ingredient_id": 242,
-      "name": "coarsely chopped strawberries",
-      "quantity": "4 cups"
+      "name": "strawberries",
+      "quantity": "4 cups",
+      "prep": "coarsely chopped"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "freshly squeezed lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2713,
@@ -64,11 +73,18 @@
     },
     {
       "ingredient_id": 2221,
-      "name": "chopped fresh tarragon",
-      "quantity": "¼ cup"
+      "name": "fresh tarragon",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Coarsely chop the strawberries. Juice the lemon. Pick the tarragon leaves from the stems and chop them.",
+      "secondary_message": "4 cups strawberries\n½ lemon\n¼ cup fresh tarragon"
+    },
     {
       "id": 1,
       "primary_message": "Whisk sugar and pectin a medium bowl and set aside.",

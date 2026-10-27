@@ -94,21 +94,30 @@
     },
     {
       "ingredient_id": 188,
-      "name": "roughly chopped fresh cilantro leaves, plus more for garnish",
-      "quantity": "½ cup"
+      "name": "fresh cilantro leaves, plus more for garnish",
+      "quantity": "½ cup",
+      "prep": "roughly chopped"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice, plus 1 whole lime divided into 8 wedges",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime, plus 1 whole lime divided into 8 wedges",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "fresh lime juice, plus 1 whole lime divided into 8 wedges"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Rinse and pick the white beans over. Thinly slice the onion. Thinly slice the garlic.",
-      "secondary_message": "1 lb white beans, small\n1 large onion\n4 medium cloves garlic"
+      "primary_message": "Rinse and pick the white beans over. Thinly slice the onion. Thinly slice the garlic. Pick the cilantro leaves from the stems and roughly chop them. Juice the lime.",
+      "secondary_message": "1 lb white beans, small\n1 large onion\n4 medium cloves garlic\n½ cup fresh cilantro leaves, plus more for garnish\n½ lime, plus 1 whole lime divided into 8 wedges"
     },
     {
       "id": 1,

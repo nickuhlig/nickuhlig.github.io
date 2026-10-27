@@ -55,18 +55,27 @@
     },
     {
       "ingredient_id": 1679,
-      "name": "freshly grated Pecorino Romano cheese",
-      "quantity": "60 g"
+      "name": "Pecorino Romano cheese",
+      "quantity": "60 g",
+      "prep": "freshly grated"
     },
     {
-      "ingredient_id": 2346,
-      "name": "Zest, from 1/2 of a large lemon",
-      "quantity": ""
-    },
-    {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "fresh lemon juice"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "",
+          "name": "Zest, from 1/2 of a large lemon"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 47,
@@ -80,6 +89,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Freshly grate the Pecorino Romano cheese. Zest and juice the lemon.",
+      "secondary_message": "60 g Pecorino Romano cheese\n½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "Bring a pot of salted water to a boil. Trim root ends from ramps, being careful not to remove more of the white bulb than necessary. Separate white and green parts, then roughly chop white parts. Set white and green ramp parts aside separately.",

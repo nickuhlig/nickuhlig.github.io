@@ -50,9 +50,17 @@
   ],
   "ingredients": [
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 52,
@@ -88,13 +96,15 @@
     },
     {
       "ingredient_id": 236,
-      "name": "diced pineapple",
-      "quantity": "¾ cup"
+      "name": "pineapple",
+      "quantity": "¾ cup",
+      "prep": "diced"
     },
     {
       "ingredient_id": 188,
-      "name": "packed roughly chopped fresh cilantro leaves",
-      "quantity": "½ cup"
+      "name": "packed fresh cilantro leaves",
+      "quantity": "½ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 2554,
@@ -116,8 +126,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely chop the Thai chiles. Finely slice the red onion.",
-      "secondary_message": "1 to 2 small Thai chiles\n1 small red onion"
+      "primary_message": "Juice the lime. Finely chop the Thai chiles. Finely slice the red onion. Dice the pineapple. Pick the cilantro leaves from the stems and roughly chop them.",
+      "secondary_message": "1 lime\n1 to 2 small Thai chiles\n1 small red onion\n¾ cup pineapple\n½ cup packed fresh cilantro leaves"
     },
     {
       "id": 1,

@@ -47,9 +47,17 @@
       "prep": "broken into individual unpeeled cloves"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "⅔ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "4",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "⅔ cup",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 186,
@@ -76,8 +84,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Break the garlic into individual unpeeled cloves.",
-      "secondary_message": "1 whole head garlic"
+      "primary_message": "Break the garlic into individual unpeeled cloves. Juice the lemons.",
+      "secondary_message": "1 whole head garlic\n4 lemons"
     },
     {
       "id": 1,

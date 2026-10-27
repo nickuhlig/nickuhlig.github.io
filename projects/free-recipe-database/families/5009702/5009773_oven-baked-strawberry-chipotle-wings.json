@@ -79,8 +79,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "minced fresh ginger",
-      "quantity": "½ tsp"
+      "name": "fresh ginger",
+      "quantity": "½ tsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 293,
@@ -130,9 +131,17 @@
       "quantity": "½ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 118,
@@ -149,8 +158,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the chicken wings into drumettes and flats. Hull and halve the fresh strawberries. Mince the garlic. Mince the chipotle chilis. Halve and pit the Hass avocado.",
-      "secondary_message": "0.91 kg chicken wings\n227 g fresh strawberries\n2 medium cloves garlic\n1 medium chipotle chilis, canned in adobo sauce\n1 Hass avocado"
+      "primary_message": "Cut the chicken wings into drumettes and flats. Hull and halve the fresh strawberries. Mince the garlic. Mince the ginger. Mince the chipotle chilis. Halve and pit the Hass avocado. Juice the lemon.",
+      "secondary_message": "0.91 kg chicken wings\n227 g fresh strawberries\n2 medium cloves garlic\n½ tsp fresh ginger\n1 medium chipotle chilis, canned in adobo sauce\n1 Hass avocado\n½ lemon"
     },
     {
       "id": 1,

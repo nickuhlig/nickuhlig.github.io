@@ -69,12 +69,26 @@
       "quantity": "2 lb"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 oz"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 oz",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemons.",
+      "secondary_message": "1 ½ lemons"
+    },
     {
       "id": 1,
       "primary_message": "Divide plums halves into two equal portions. In a non-reactive mixing bowl, mix first group of plum halves with 1 pound 4 ounces of sugar. Cut the remaining plum halves in half to make quarters. In a separate bowl, mix plum quarters with remaining 12 ounces sugar. Cover both bowls tightly and let stand at room temperature overnight.",

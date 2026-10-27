@@ -45,13 +45,22 @@
     },
     {
       "ingredient_id": 2015,
-      "name": "chopped fresh sage leaves, plus more for garnishing",
-      "quantity": "2 tbsp"
+      "name": "fresh sage leaves, plus more for garnishing",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -65,6 +74,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the sage leaves from the stems and chop them. Juice the lemon.",
+      "secondary_message": "2 tbsp fresh sage leaves, plus more for garnishing\n½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "Carefully wash pumpkin seeds to remove all excess pulp. Transfer pumpkin seeds to a paper towel–lined rimmed baking sheet. Allow to rest at room temperature until completely dry, about 1 hour. To speed up the process, dry pumpkin seeds in a 90°C (200°F) oven, stirring occasionally, or use a hair dryer.",

@@ -40,8 +40,9 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "finely chopped white onion",
-      "quantity": "¾ cup"
+      "name": "white onion",
+      "quantity": "¾ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1618,
@@ -56,13 +57,22 @@
     },
     {
       "ingredient_id": 188,
-      "name": "finely chopped fresh cilantro leaves, tender stems",
-      "quantity": "¼ cup"
+      "name": "fresh cilantro leaves, tender stems",
+      "quantity": "¼ cup",
+      "prep": "finely chopped"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -79,8 +89,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Husk, rinse, and halve the tomatillos. Finely chop the chipotle chilis.",
-      "secondary_message": "0.45 kg tomatillos\n1 tbsp chipotle chilis, canned in adobo sauce"
+      "primary_message": "Husk, rinse, and halve the tomatillos. Finely chop the white onion. Finely chop the chipotle chilis. Pick the cilantro leaves and tender stems from the thick stems and finely chop them. Juice the lime.",
+      "secondary_message": "0.45 kg tomatillos\n¾ cup white onion\n1 tbsp chipotle chilis, canned in adobo sauce\n¼ cup fresh cilantro leaves, tender stems\n½ lime"
     },
     {
       "id": 1,

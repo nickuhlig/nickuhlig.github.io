@@ -71,9 +71,17 @@
       "quantity": "9 fl oz"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "¾ cup"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "6",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "¾ cup",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1067,
@@ -90,8 +98,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Split the vanilla bean pods, then scrape the seeds.",
-      "secondary_message": "2 vanilla bean pods"
+      "primary_message": "Split the vanilla bean pods, then scrape the seeds. Juice the limes.",
+      "secondary_message": "2 vanilla bean pods\n6 limes"
     },
     {
       "id": 1,

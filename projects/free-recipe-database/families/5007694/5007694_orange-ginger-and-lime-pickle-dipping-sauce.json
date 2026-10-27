@@ -52,16 +52,24 @@
     },
     {
       "ingredient_id": 221,
-      "name": "peeled ginger",
-      "quantity": "1 (½ inch) knob"
+      "name": "ginger",
+      "quantity": "1 (½ inch) knob",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 153,
-      "name": "sliced scallions",
-      "quantity": "2 tbsp"
+      "name": "scallions",
+      "quantity": "2 tbsp",
+      "prep": "sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the ginger. Slice the scallions.",
+      "secondary_message": "1 (½ inch) knob ginger\n2 tbsp scallions"
+    },
     {
       "id": 1,
       "primary_message": "Combine lime pickle, orange juice, and ginger in a blender. Blend until smooth, about 1 minute, scraping down sides and watering down with water as necessary. Transfer to a dipping bowl, garnish with scallions, and serve with fried chicken.",

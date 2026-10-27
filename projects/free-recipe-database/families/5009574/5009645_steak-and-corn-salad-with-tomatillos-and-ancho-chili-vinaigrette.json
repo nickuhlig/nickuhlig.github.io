@@ -64,9 +64,17 @@
       "quantity": "¼ cup"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 115,
@@ -80,8 +88,9 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "thinly sliced white onion",
-      "quantity": "½ cup"
+      "name": "white onion",
+      "quantity": "½ cup",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2069,
@@ -96,8 +105,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "roughly chopped fresh cilantro leaves, tender stems",
-      "quantity": "¼ cup"
+      "name": "fresh cilantro leaves, tender stems",
+      "quantity": "¼ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1612,
@@ -109,8 +119,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thinly slice the serrano chili.",
-      "secondary_message": "1 small serrano chili"
+      "primary_message": "Juice the lime. Thinly slice the white onion. Thinly slice the serrano chili. Pick the cilantro leaves and tender stems from the thick stems and roughly chop them.",
+      "secondary_message": "½ lime\n½ cup white onion\n1 small serrano chili\n¼ cup fresh cilantro leaves, tender stems"
     },
     {
       "id": 1,

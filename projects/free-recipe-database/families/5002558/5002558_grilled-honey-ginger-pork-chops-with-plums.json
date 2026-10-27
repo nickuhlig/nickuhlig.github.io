@@ -46,13 +46,15 @@
     },
     {
       "ingredient_id": 221,
-      "name": "grated fresh ginger",
-      "quantity": "1 tbsp"
+      "name": "fresh ginger",
+      "quantity": "1 tbsp",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1677,
-      "name": "minced fresh thyme leaves",
-      "quantity": "2 tsp"
+      "name": "fresh thyme leaves",
+      "quantity": "2 tsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 88,
@@ -87,17 +89,25 @@
       "prep": "halved and pitted"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 lemon",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice, from 1 lemon"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Trim the bone-in pork rib. Halve and pit the plums.",
-      "secondary_message": "1 ½ lb bone-in pork rib, 1/2-inch thick\n4 plums"
+      "primary_message": "Grate the ginger. Pick the thyme leaves from the stems and mince them. Trim the bone-in pork rib. Halve and pit the plums. Juice the lemon.",
+      "secondary_message": "1 tbsp fresh ginger\n2 tsp fresh thyme leaves\n1 ½ lb bone-in pork rib, 1/2-inch thick\n4 plums\n½ lemon"
     },
     {
       "id": 1,

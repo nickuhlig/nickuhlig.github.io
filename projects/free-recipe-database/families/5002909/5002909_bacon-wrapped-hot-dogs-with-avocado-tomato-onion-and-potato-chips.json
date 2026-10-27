@@ -96,9 +96,17 @@
       "prep": "diced"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -118,16 +126,17 @@
     },
     {
       "ingredient_id": 188,
-      "name": "chopped fresh cilantro leaves",
-      "quantity": "1 cup"
+      "name": "fresh cilantro leaves",
+      "quantity": "1 cup",
+      "prep": "chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Toast or steam the hot dog buns. Dice the avocado. Dice the white onion. Dice the tomato. Dice the pickled jalapeño peppers. Crush the potato chips.",
-      "secondary_message": "8 hot dog buns\n1 avocado\n1 small white onion\n1 large tomato\n3 to 4 pickled jalapeño peppers\n1 small bag potato chips"
+      "primary_message": "Toast or steam the hot dog buns. Dice the avocado. Dice the white onion. Dice the tomato. Dice the pickled jalapeño peppers. Juice the lime. Crush the potato chips. Pick the cilantro leaves from the stems and chop them.",
+      "secondary_message": "8 hot dog buns\n1 avocado\n1 small white onion\n1 large tomato\n3 to 4 pickled jalapeño peppers\n½ lime\n1 small bag potato chips\n1 cup fresh cilantro leaves"
     },
     {
       "id": 1,

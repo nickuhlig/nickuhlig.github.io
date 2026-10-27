@@ -77,8 +77,9 @@
     },
     {
       "ingredient_id": 1879,
-      "name": "roughly chopped spinach",
-      "quantity": "2 cups"
+      "name": "spinach",
+      "quantity": "2 cups",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 153,
@@ -92,22 +93,31 @@
       "quantity": "½ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 28,
-      "name": "chopped fresh basil",
-      "quantity": "½ cup"
+      "name": "fresh basil",
+      "quantity": "½ cup",
+      "prep": "chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thinly slice the shallot. Halve the grape tomatoes. Thinly slice the scallions.",
-      "secondary_message": "1 small shallot\n473 ml grape tomatoes\n3 scallions, light green parts only"
+      "primary_message": "Thinly slice the shallot. Halve the grape tomatoes. Roughly chop the spinach. Thinly slice the scallions. Juice the lemon. Pick the basil leaves from the stems and chop them.",
+      "secondary_message": "1 small shallot\n473 ml grape tomatoes\n2 cups spinach\n3 scallions, light green parts only\n1 lemon\n½ cup fresh basil"
     },
     {
       "id": 1,

@@ -68,13 +68,22 @@
     },
     {
       "ingredient_id": 115,
-      "name": "softened butter",
-      "quantity": "4 tbsp"
+      "name": "butter",
+      "quantity": "4 tbsp",
+      "prep": "softened"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 27,
@@ -84,16 +93,17 @@
     },
     {
       "ingredient_id": 153,
-      "name": "finely sliced scallions",
-      "quantity": "¼ cup"
+      "name": "scallions",
+      "quantity": "¼ cup",
+      "prep": "finely sliced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the garlic on a Microplane grater. Mince the fresh ginger on a Microplane grater. Shuck the corn.",
-      "secondary_message": "2 medium cloves garlic\n1 (1 inch) knob fresh ginger\n8 ears corn"
+      "primary_message": "Mince the garlic on a Microplane grater. Mince the fresh ginger on a Microplane grater. Soften the butter. Juice the lemon. Shuck the corn. Finely slice the scallions.",
+      "secondary_message": "2 medium cloves garlic\n1 (1 inch) knob fresh ginger\n4 tbsp butter\n½ lemon\n8 ears corn\n¼ cup scallions"
     },
     {
       "id": 1,

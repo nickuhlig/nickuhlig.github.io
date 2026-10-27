@@ -43,9 +43,17 @@
       "quantity": "⅓ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "3 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "3 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1191,
@@ -70,18 +78,21 @@
     },
     {
       "ingredient_id": 287,
-      "name": "finely chopped fresh thyme",
-      "quantity": "1 tbsp"
+      "name": "fresh thyme",
+      "quantity": "1 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 339,
-      "name": "finely chopped fresh sage",
-      "quantity": "1 tbsp"
+      "name": "fresh sage",
+      "quantity": "1 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 286,
-      "name": "finely chopped fresh rosemary",
-      "quantity": "2 tsp"
+      "name": "fresh rosemary",
+      "quantity": "2 tsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 117,
@@ -93,8 +104,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the boneless leg of lamb into 1-inch cubes.",
-      "secondary_message": "2 lb boneless leg of lamb"
+      "primary_message": "Juice the lemon. Cut the boneless leg of lamb into 1-inch cubes. Pick the thyme leaves from the stems and finely chop them. Pick the sage leaves from the stems and finely chop them. Pick the rosemary leaves from the stems and finely chop them.",
+      "secondary_message": "1 lemon\n2 lb boneless leg of lamb\n1 tbsp fresh thyme\n1 tbsp fresh sage\n2 tsp fresh rosemary"
     },
     {
       "id": 1,

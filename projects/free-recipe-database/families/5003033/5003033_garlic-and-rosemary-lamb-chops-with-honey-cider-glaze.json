@@ -59,13 +59,15 @@
     },
     {
       "ingredient_id": 286,
-      "name": "chopped fresh rosemary",
-      "quantity": "2 tsp"
+      "name": "fresh rosemary",
+      "quantity": "2 tsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 144,
-      "name": "minced shallots",
-      "quantity": "1 tbsp"
+      "name": "shallots",
+      "quantity": "1 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2150,
@@ -84,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the rosemary leaves from the stems and chop them. Mince the shallots.",
+      "secondary_message": "2 tsp fresh rosemary\n1 tbsp shallots"
+    },
     {
       "id": 1,
       "primary_message": "Place the lamb chops in a shallow dish, then season the lamb chops on all sides with salt and pepper. Combine the 1/4 cup olive oil, garlic, and rosemary in a small bowl, then pour over the lamb chops. Marinate the lamb chops in the refrigerator for 1 hour, turning the chops over once midway through.",

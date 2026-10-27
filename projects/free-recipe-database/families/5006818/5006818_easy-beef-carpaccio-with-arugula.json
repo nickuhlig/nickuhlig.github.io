@@ -77,9 +77,17 @@
       "quantity": ""
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "3 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "3 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 117,
@@ -96,8 +104,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Wash and dry the fresh baby arugula.",
-      "secondary_message": "1 (5 oz) box fresh baby arugula"
+      "primary_message": "Wash and dry the fresh baby arugula. Juice the lemon.",
+      "secondary_message": "1 (5 oz) box fresh baby arugula\n1 lemon"
     },
     {
       "id": 1,

@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 470,
-      "name": "finely chopped fennel, from 1 large bulb",
-      "quantity": "1 cup"
+      "name": "fennel, from 1 large bulb",
+      "quantity": "1 cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 159,
@@ -111,13 +112,22 @@
     },
     {
       "ingredient_id": 320,
-      "name": "chopped fresh dill, plus more for serving",
-      "quantity": "2 tbsp"
+      "name": "fresh dill, plus more for serving",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 1 medium lemon",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "fresh lemon juice, from 1 medium lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 122,
@@ -129,8 +139,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely chop the red onion. Peel and finely chop the carrot. Mince the garlic. Drain the diced tomatoes. Drain and rinse the black-eyed peas. Stem and chop the Swiss Chard.",
-      "secondary_message": "1 medium red onion\n1 medium carrot\n4 medium cloves garlic\n1 (15 oz) can diced tomatoes\n2 (15 oz) cans black-eyed peas\n1 medium bunch Swiss Chard"
+      "primary_message": "Finely chop the red onion. Finely chop the fennel. Peel and finely chop the carrot. Mince the garlic. Drain the diced tomatoes. Drain and rinse the black-eyed peas. Stem and chop the Swiss Chard. Pick the dill fronds from the stems and chop them. Juice the lemon.",
+      "secondary_message": "1 medium red onion\n1 cup fennel, from 1 large bulb\n1 medium carrot\n4 medium cloves garlic\n1 (15 oz) can diced tomatoes\n2 (15 oz) cans black-eyed peas\n1 medium bunch Swiss Chard\n2 tbsp fresh dill, plus more for serving\n1 lemon"
     },
     {
       "id": 1,

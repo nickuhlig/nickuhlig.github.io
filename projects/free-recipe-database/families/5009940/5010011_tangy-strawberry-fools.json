@@ -44,9 +44,17 @@
       "quantity": "6 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1752,
@@ -68,8 +76,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Wash, hull, and chop the fresh strawberries.",
-      "secondary_message": "0.68 kg fresh strawberries"
+      "primary_message": "Wash, hull, and chop the fresh strawberries. Juice the lemon.",
+      "secondary_message": "0.68 kg fresh strawberries\n½ lemon"
     },
     {
       "id": 1,

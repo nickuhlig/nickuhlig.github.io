@@ -43,14 +43,23 @@
       "prep": "cored and coarsely chopped"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 221,
-      "name": "grated fresh ginger",
-      "quantity": "1 tsp"
+      "name": "fresh ginger",
+      "quantity": "1 tsp",
+      "prep": "grated"
     },
     {
       "ingredient_id": 346,
@@ -105,8 +114,9 @@
     },
     {
       "ingredient_id": 1145,
-      "name": "shredded provolone cheese",
-      "quantity": "½ cup"
+      "name": "provolone cheese",
+      "quantity": "½ cup",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 107,
@@ -134,8 +144,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Core and coarsely chop the plum tomatoes. Mince the garlic. Drain and thinly slice the fresh mozzarella.",
-      "secondary_message": "11 plum tomatoes\n4 medium cloves garlic\n1 lb fresh mozzarella"
+      "primary_message": "Core and coarsely chop the plum tomatoes. Juice the lemon. Grate the ginger. Mince the garlic. Shred the provolone cheese. Drain and thinly slice the fresh mozzarella.",
+      "secondary_message": "11 plum tomatoes\n1 lemon\n1 tsp fresh ginger\n4 medium cloves garlic\n½ cup provolone cheese\n1 lb fresh mozzarella"
     },
     {
       "id": 1,

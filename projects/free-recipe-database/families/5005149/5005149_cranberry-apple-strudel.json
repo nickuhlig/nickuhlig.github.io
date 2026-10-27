@@ -43,9 +43,9 @@
     },
     {
       "ingredient_id": 113,
-      "name": "sliced granny smith apples",
+      "name": "granny smith apples",
       "quantity": "3 cups",
-      "prep": "peeled, cored, and thinly sliced"
+      "prep": "sliced, peeled, cored, and thinly sliced"
     },
     {
       "ingredient_id": 346,
@@ -69,13 +69,22 @@
     },
     {
       "ingredient_id": 272,
-      "name": "chopped walnuts",
-      "quantity": "¼ cup"
+      "name": "walnuts",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 ½ tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 ½ tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 121,
@@ -92,8 +101,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thaw the package of puff pastry. Peel, core, and thinly slice the sliced granny smith apples.",
-      "secondary_message": "8 ⅝ oz package of puff pastry\n3 cups sliced granny smith apples"
+      "primary_message": "Thaw the package of puff pastry. Core, thinly slice, and slice the peeled, of the granny smith apples. Chop the walnuts. Juice the lemon.",
+      "secondary_message": "8 ⅝ oz package of puff pastry\n3 cups granny smith apples\n¼ cup walnuts\n½ lemon"
     },
     {
       "id": 1,

@@ -128,14 +128,22 @@
       "quantity": "7 oz"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lime zest, from about 4 small limes",
-      "quantity": "¼ oz"
-    },
-    {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice, from about 5 small limes",
-      "quantity": "5 oz"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "5",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "5 oz",
+          "name": "fresh lime juice, from about 5 small limes"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "¼ oz",
+          "name": "lime zest, from about 4 small limes"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 264,
@@ -167,8 +175,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Melt the vegan buttery sticks. Drain the silken tofu.",
-      "secondary_message": "4 oz vegan buttery sticks\n12 oz silken tofu"
+      "primary_message": "Melt the vegan buttery sticks. Drain the silken tofu. Zest and juice the limes.",
+      "secondary_message": "4 oz vegan buttery sticks\n12 oz silken tofu\n5 limes"
     },
     {
       "id": 1,

@@ -116,8 +116,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "thinly sliced scallion",
-      "quantity": "½ cup"
+      "name": "scallion",
+      "quantity": "½ cup",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -131,26 +132,36 @@
     },
     {
       "ingredient_id": 188,
-      "name": "chopped cilantro leaves, tender stems",
-      "quantity": "¼ cup"
+      "name": "cilantro leaves, tender stems",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 217,
-      "name": "chopped unsalted peanuts",
-      "quantity": "½ cup"
+      "name": "unsalted peanuts",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Roughly chop the lemongrass. Roughly chop the shallots. Seed and mince the jalapeños. Peel and cut the fresh ginger into 1/2-inch pieces.",
-      "secondary_message": "4 stalks lemongrass\n3 medium shallots\n3 medium jalapeños\n1 (3 inch) knob fresh ginger"
+      "primary_message": "Roughly chop the lemongrass. Roughly chop the shallots. Seed and mince the jalapeños. Peel and cut the fresh ginger into 1/2-inch pieces. Thinly slice the scallion. Pick the cilantro leaves and tender stems from the thick stems and chop them. Chop the unsalted peanuts. Juice the lime.",
+      "secondary_message": "4 stalks lemongrass\n3 medium shallots\n3 medium jalapeños\n1 (3 inch) knob fresh ginger\n½ cup scallion\n¼ cup cilantro leaves, tender stems\n½ cup unsalted peanuts\n1 lime"
     },
     {
       "id": 1,

@@ -120,8 +120,9 @@
     },
     {
       "ingredient_id": 2346,
-      "name": "finely grated lemon zest",
-      "quantity": "½ tsp"
+      "name": "lemon zest",
+      "quantity": "½ tsp",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 121,
@@ -154,9 +155,17 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -168,8 +177,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Melt the unsalted butter. Quarter the pitted prunes.",
-      "secondary_message": "5 tbsp unsalted butter\n8 oz pitted prunes"
+      "primary_message": "Melt the unsalted butter. Quarter the pitted prunes. Finely grate the zest from the lemon. Juice the lemon.",
+      "secondary_message": "5 tbsp unsalted butter\n8 oz pitted prunes\n½ tsp lemon zest\n½ lemon"
     },
     {
       "id": 1,

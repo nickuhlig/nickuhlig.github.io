@@ -45,13 +45,15 @@
     },
     {
       "ingredient_id": 2365,
-      "name": "coarsely chopped pistachios",
-      "quantity": "1 cup"
+      "name": "pistachios",
+      "quantity": "1 cup",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 29,
-      "name": "coarsely chopped almonds",
-      "quantity": "1 cup"
+      "name": "almonds",
+      "quantity": "1 cup",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 1007,
@@ -80,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Coarsely chop the pistachios. Coarsely chop the almonds.",
+      "secondary_message": "1 cup pistachios\n1 cup almonds"
+    },
     {
       "id": 1,
       "primary_message": "Position a rack in the center of the oven and preheat the oven to 325°. Line a baking sheet with parchment paper.",

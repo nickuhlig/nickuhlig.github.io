@@ -52,14 +52,22 @@
       "quantity": "170 g"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest",
-      "quantity": "32 g"
-    },
-    {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 4 lemons",
-      "quantity": "3 tbsp"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "4",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "3 tbsp",
+          "name": "lemon juice, from 4 lemons"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "32 g",
+          "name": "lemon zest"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 116,
@@ -104,9 +112,17 @@
       "prep": "room temperature"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1710,
@@ -118,8 +134,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Bring the eggs to room temperature. Bring the whole milk to room temperature.",
-      "secondary_message": "2 large eggs\n¾ cup whole milk"
+      "primary_message": "Zest and juice the lemons. Bring the eggs to room temperature. Bring the whole milk to room temperature. Juice the lemon.",
+      "secondary_message": "4 lemons\n2 large eggs\n¾ cup whole milk\n1 lemon"
     },
     {
       "id": 1,

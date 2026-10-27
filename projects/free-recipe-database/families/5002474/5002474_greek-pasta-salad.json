@@ -57,9 +57,17 @@
       "quantity": "¼ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "3 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "3 tbsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 117,
@@ -123,9 +131,9 @@
     },
     {
       "ingredient_id": 1624,
-      "name": "sliced pickled red onions",
+      "name": "pickled red onions",
       "quantity": "⅓ cup",
-      "prep": "roughly chopped"
+      "prep": "sliced, roughly chopped"
     },
     {
       "ingredient_id": 32,
@@ -135,16 +143,17 @@
     },
     {
       "ingredient_id": 320,
-      "name": "chopped fresh dill, plus more for serving",
-      "quantity": "⅓ cup"
+      "name": "fresh dill, plus more for serving",
+      "quantity": "⅓ cup",
+      "prep": "chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Grate or mince the garlic. Halve the cherry tomatoes. Chop the Persian cucumbers. Halve the pitted mixed Greek olives. Drain the jarred sliced pepperoncini peppers. Roughly chop the sliced pickled red onions. Crumble the block feta cheese packed in brine.",
-      "secondary_message": "1 medium clove garlic\n¾ lb cherry tomatoes\n3 medium Persian cucumbers\n1 cup pitted mixed Greek olives\n¾ cup jarred sliced pepperoncini peppers\n⅓ cup sliced pickled red onions\n8 oz block feta cheese packed in brine"
+      "primary_message": "Juice the lemon. Grate or mince the garlic. Halve the cherry tomatoes. Chop the Persian cucumbers. Halve the pitted mixed Greek olives. Drain the jarred sliced pepperoncini peppers. Slice and roughly chop the pickled red onions. Crumble the block feta cheese packed in brine. Pick the dill fronds from the stems and chop them.",
+      "secondary_message": "1 lemon\n1 medium clove garlic\n¾ lb cherry tomatoes\n3 medium Persian cucumbers\n1 cup pitted mixed Greek olives\n¾ cup jarred sliced pepperoncini peppers\n⅓ cup pickled red onions\n8 oz block feta cheese packed in brine\n⅓ cup fresh dill, plus more for serving"
     },
     {
       "id": 1,

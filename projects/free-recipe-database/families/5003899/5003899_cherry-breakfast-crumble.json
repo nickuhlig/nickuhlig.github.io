@@ -37,8 +37,9 @@
   "ingredients": [
     {
       "ingredient_id": 2216,
-      "name": "halved pitted cherries",
-      "quantity": "6 cups"
+      "name": "pitted cherries",
+      "quantity": "6 cups",
+      "prep": "halved"
     },
     {
       "ingredient_id": 346,
@@ -57,8 +58,9 @@
     },
     {
       "ingredient_id": 29,
-      "name": "sliced almonds",
-      "quantity": "¼ cup"
+      "name": "almonds",
+      "quantity": "¼ cup",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 88,
@@ -72,6 +74,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the pitted cherries. Slice the almonds.",
+      "secondary_message": "6 cups pitted cherries\n¼ cup almonds"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350°F. Butter a 9-inch baking dish. In a medium bowl, toss together cherries and sugar until well combined. Pour into prepared baking dish.",

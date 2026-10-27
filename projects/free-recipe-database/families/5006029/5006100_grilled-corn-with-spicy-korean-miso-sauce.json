@@ -62,19 +62,29 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 188,
-      "name": "roughly chopped fresh cilantro leaves, divided",
-      "quantity": "¼ cup"
+      "name": "fresh cilantro leaves, divided",
+      "quantity": "¼ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 153,
-      "name": "finely sliced scallions, divided",
-      "quantity": "¼ cup"
+      "name": "scallions, divided",
+      "quantity": "¼ cup",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 27,
@@ -87,8 +97,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Shuck the corn.",
-      "secondary_message": "8 ears corn"
+      "primary_message": "Juice the lemon. Pick the cilantro leaves from the stems and roughly chop them. Finely slice the scallions. Shuck the corn.",
+      "secondary_message": "½ lemon\n¼ cup fresh cilantro leaves, divided\n¼ cup scallions, divided\n8 ears corn"
     },
     {
       "id": 1,

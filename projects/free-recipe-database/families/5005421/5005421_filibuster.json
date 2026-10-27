@@ -44,9 +44,17 @@
       "quantity": "1 ½ oz"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice, from 1 whole lemon",
-      "quantity": "¾ oz"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¾ oz",
+          "name": "freshly squeezed lemon juice, from 1 whole lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1707,
@@ -65,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "Add rye, lemon, maple syrup, and egg white to a cocktail shaker. Dry shake (without ice) for 20 seconds to emulsify egg. Add ice and shake hard for 10 seconds, until chilled. Strain into coupe, garnish with Angostura bitters, serve immediately.",

@@ -96,14 +96,22 @@
       "quantity": "4 large"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lime zest, from about 4 limes",
-      "quantity": "¼ oz"
-    },
-    {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice, from about 8 limes",
-      "quantity": "8 oz"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "8",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "8 oz",
+          "name": "fresh lime juice, from about 8 limes"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "¼ oz",
+          "name": "lime zest, from about 4 limes"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 118,
@@ -112,6 +120,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest and juice the limes.",
+      "secondary_message": "8 limes"
+    },
     {
       "id": 1,
       "primary_message": "Getting Ready: In a 9-inch glass pie dish, prepare and blind-bake the whole wheat pie crust according to the directions in the recipe. This can be done up to a week in advance; crust can be held at room temperature if wrapped tightly in plastic.",

@@ -48,18 +48,21 @@
     },
     {
       "ingredient_id": 15,
-      "name": "drained capers",
-      "quantity": "57 g"
+      "name": "capers",
+      "quantity": "57 g",
+      "prep": "drained"
     },
     {
       "ingredient_id": 325,
-      "name": "drained oil-packed anchovy fillets",
-      "quantity": "28 g"
+      "name": "oil-packed anchovy fillets",
+      "quantity": "28 g",
+      "prep": "drained"
     },
     {
       "ingredient_id": 2654,
-      "name": "drained oil-packed tuna",
-      "quantity": "28 g"
+      "name": "oil-packed tuna",
+      "quantity": "28 g",
+      "prep": "drained"
     },
     {
       "ingredient_id": 47,
@@ -68,6 +71,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain the capers. Drain the oil-packed anchovy fillets. Drain the oil-packed tuna.",
+      "secondary_message": "57 g capers\n28 g oil-packed anchovy fillets\n28 g oil-packed tuna"
+    },
     {
       "id": 1,
       "primary_message": "If using a food processor: In the processor work bowl, combine olives, capers, anchovies, and tuna; add herbs and mustard, if using. Process, scraping down the sides, until a finely chopped paste forms. With the processor running, drizzle in just enough olive oil to loosen to a spreadable paste, about 2 tablespoons. Process in Cognac, if using. Serve.",

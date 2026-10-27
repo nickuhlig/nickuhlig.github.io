@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 272,
-      "name": "chopped walnuts",
-      "quantity": "½ cup"
+      "name": "walnuts",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2310,
@@ -75,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the walnuts.",
+      "secondary_message": "½ cup walnuts"
+    },
     {
       "id": 1,
       "primary_message": "Cream butter to soften, then thoroughly cream butter, shortening, and sugar. Mix in water and vanilla, then flour and nuts.",

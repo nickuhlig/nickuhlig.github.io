@@ -54,9 +54,9 @@
   "ingredients": [
     {
       "ingredient_id": 1802,
-      "name": "sliced blanched almonds",
+      "name": "blanched almonds",
       "quantity": "½ cup",
-      "prep": "toasted and cooled"
+      "prep": "sliced, toasted and cooled"
     },
     {
       "ingredient_id": 116,
@@ -90,9 +90,17 @@
       "quantity": "1"
     },
     {
-      "ingredient_id": 2346,
-      "name": "packed blood orange zest, from about 1 small blood orange",
-      "quantity": "1 tsp"
+      "ingredient_id": 232,
+      "name": "orange",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tsp",
+          "name": "packed blood orange zest, from about 1 small blood orange"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 1609,
@@ -106,8 +114,9 @@
     },
     {
       "ingredient_id": 1802,
-      "name": "sliced blanched almonds",
-      "quantity": "1 ½ cups"
+      "name": "blanched almonds",
+      "quantity": "1 ½ cups",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 1710,
@@ -119,8 +128,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Toast the sliced blanched almonds and let them cool. Bring the unsalted butter to room temperature.",
-      "secondary_message": "½ cup sliced blanched almonds\n16 tbsp unsalted butter"
+      "primary_message": "Slice and toast the blanched almonds and let them cool. Bring the unsalted butter to room temperature. Zest the orange. Slice the blanched almonds.",
+      "secondary_message": "½ cup blanched almonds\n16 tbsp unsalted butter\n1 orange\n1 ½ cups blanched almonds"
     },
     {
       "id": 1,

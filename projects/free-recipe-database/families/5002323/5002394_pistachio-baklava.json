@@ -60,9 +60,17 @@
       "quantity": "1 cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1950,
@@ -96,8 +104,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Melt the unsalted butter. Thaw the phyllo dough.",
-      "secondary_message": "227 g unsalted butter\n0.45 kg phyllo dough"
+      "primary_message": "Juice the lemon. Melt the unsalted butter. Thaw the phyllo dough.",
+      "secondary_message": "½ lemon\n227 g unsalted butter\n0.45 kg phyllo dough"
     },
     {
       "id": 1,

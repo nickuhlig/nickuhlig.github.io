@@ -52,18 +52,21 @@
     },
     {
       "ingredient_id": 153,
-      "name": "chopped fresh scallion greens and whites",
-      "quantity": "¼ cup"
+      "name": "fresh scallion greens and whites",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 106,
-      "name": "chopped fresh flat leaf parsley",
-      "quantity": "3 tbsp"
+      "name": "fresh flat leaf parsley",
+      "quantity": "3 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 243,
-      "name": "chopped fresh mint",
-      "quantity": "3 tbsp"
+      "name": "fresh mint",
+      "quantity": "3 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 304,
@@ -82,6 +85,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the scallion greens and whites. Pick the parsley leaves from the stems and chop them. Pick the mint leaves from the stems and chop them.",
+      "secondary_message": "¼ cup fresh scallion greens and whites\n3 tbsp fresh flat leaf parsley\n3 tbsp fresh mint"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 400 degrees F. Bring the coconut milk to a boil in a medium stockpot. Add the couscous and season with salt and pepper. Cover the pot, remove from the heat, and let stand 10 minutes. Finally, stir in the scallion, parsley, mint, and pumpkin seeds.",

@@ -47,9 +47,17 @@
       "quantity": "3 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 115,
@@ -72,8 +80,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Halve and pit the ripe but firm peaches.",
-      "secondary_message": "6 medium ripe but firm peaches"
+      "primary_message": "Juice the lemon. Halve and pit the ripe but firm peaches.",
+      "secondary_message": "½ lemon\n6 medium ripe but firm peaches"
     },
     {
       "id": 1,

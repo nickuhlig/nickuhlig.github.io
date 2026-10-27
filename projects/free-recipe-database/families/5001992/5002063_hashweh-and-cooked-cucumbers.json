@@ -133,8 +133,9 @@
     },
     {
       "ingredient_id": 243,
-      "name": "finely chopped mint",
-      "quantity": "3 tbsp"
+      "name": "mint",
+      "quantity": "3 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
@@ -148,9 +149,17 @@
       "quantity": "1 tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "1 ½ tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 ½ tbsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -162,8 +171,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Rinse the grain rice until water runs clear. Finely chop the yellow onion. Finely grate or mince the garlic.",
-      "secondary_message": "2 cups grain rice, medium\n1 large yellow onion\n1 medium clove garlic"
+      "primary_message": "Rinse the grain rice until water runs clear. Finely chop the yellow onion. Pick the mint leaves from the stems and finely chop them. Finely grate or mince the garlic. Juice the lemon.",
+      "secondary_message": "2 cups grain rice, medium\n1 large yellow onion\n3 tbsp mint\n1 medium clove garlic\n½ lemon"
     },
     {
       "id": 1,

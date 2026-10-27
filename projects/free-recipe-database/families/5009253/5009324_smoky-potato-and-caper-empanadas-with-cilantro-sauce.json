@@ -99,8 +99,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "minced cilantro leaves",
-      "quantity": "2 tbsp"
+      "name": "cilantro leaves",
+      "quantity": "2 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 116,
@@ -148,17 +149,25 @@
       "quantity": "1 clove"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the potatoes into 1/4-inch dice. Grate the garlic on a microplane grater. Finely chop the chipotle chilis. Drain and roughly chop the capers.",
-      "secondary_message": "2 medium potatoes\n2 cloves garlic\n1 chipotle chilis, canned in adobo sauce\n2 tbsp capers"
+      "primary_message": "Cut the potatoes into 1/4-inch dice. Grate the garlic on a microplane grater. Finely chop the chipotle chilis. Drain and roughly chop the capers. Pick the cilantro leaves from the stems and mince them. Juice the lime.",
+      "secondary_message": "2 medium potatoes\n2 cloves garlic\n1 chipotle chilis, canned in adobo sauce\n2 tbsp capers\n2 tbsp cilantro leaves\n1 lime"
     },
     {
       "id": 1,

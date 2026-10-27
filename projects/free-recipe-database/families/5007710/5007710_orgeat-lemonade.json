@@ -34,9 +34,17 @@
   "cookwares": [],
   "ingredients": [
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 1 lemon",
-      "quantity": "1 oz"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 oz",
+          "name": "fresh lemon juice, from 1 lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2590,
@@ -50,6 +58,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "Add lemon juice, orgeat, and water to a cocktail shaker and fill with ice. Shake until well chilled, about 15 seconds. Strain into a highball glass over crushed ice. Garnish with lemon peel or fresh herbs if desired.",

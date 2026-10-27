@@ -96,14 +96,22 @@
       "quantity": "0.45 kg"
     },
     {
-      "ingredient_id": 2346,
-      "name": "grated lime zest",
-      "quantity": "2 tsp"
-    },
-    {
-      "ingredient_id": 1421,
-      "name": "lime juice, from 1 whole lime divided",
-      "quantity": "2 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tbsp",
+          "name": "lime juice, from 1 whole lime divided"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "2 tsp",
+          "name": "grated lime zest"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 188,
@@ -116,8 +124,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Stem, devein, and seed the serrano chiles if desired. Mince the loosely packed fresh cilantro leaves.",
-      "secondary_message": "5 serrano chiles\n1 cup loosely packed fresh cilantro leaves"
+      "primary_message": "Stem, devein, and seed the serrano chiles if desired. Zest and juice the lime. Pick the cilantro leaves from the stems and mince them.",
+      "secondary_message": "5 serrano chiles\n1 lime\n1 cup loosely packed fresh cilantro leaves"
     },
     {
       "id": 1,

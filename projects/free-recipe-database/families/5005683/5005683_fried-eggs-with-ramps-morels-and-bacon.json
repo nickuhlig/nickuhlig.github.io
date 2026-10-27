@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 302,
-      "name": "diced bacon",
-      "quantity": "4 oz"
+      "name": "bacon",
+      "quantity": "4 oz",
+      "prep": "diced"
     },
     {
       "ingredient_id": 2564,
@@ -65,9 +66,17 @@
       "quantity": "½ tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1007,
@@ -96,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the bacon. Juice the lemon.",
+      "secondary_message": "4 oz bacon\n½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "Heat bacon along with 1 tablespoon water in a medium cast iron or stainless steel skillet over medium heat, stirring, until water evaporates, bacon fat renders, and bacon is completely crisp, about 5 minutes. Using a slotted spoon, transfer bacon to a bowl and set aside.",

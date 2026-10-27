@@ -47,8 +47,9 @@
   "ingredients": [
     {
       "ingredient_id": 120,
-      "name": "grated Parmigiano Reggiano cheese, plus more for sprinkling",
-      "quantity": "140 g"
+      "name": "Parmesan cheese, plus more for sprinkling",
+      "quantity": "140 g",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1752,
@@ -97,11 +98,18 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "Minced fresh parsley",
-      "quantity": ""
+      "name": "Fresh parsley",
+      "quantity": "",
+      "prep": "minced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the Parmesan cheese. Pick the parsley leaves from the stems and mince them.",
+      "secondary_message": "140 g Parmesan cheese, plus more for sprinkling\nFresh parsley"
+    },
     {
       "id": 1,
       "primary_message": "Combine cheese, heavy cream, egg, cornstarch, olive oil, and lemon zest (if using) in a large bowl. Season lightly with salt and heavily with black pepper and whisk to combine. Set aside.",

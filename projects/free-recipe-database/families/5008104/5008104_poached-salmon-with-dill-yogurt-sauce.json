@@ -50,9 +50,17 @@
       "quantity": ""
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 309,
@@ -93,18 +101,28 @@
     },
     {
       "ingredient_id": 144,
-      "name": "minced shallot, from 1 small shallot",
-      "quantity": "1 tbsp"
+      "name": "shallot, from 1 small shallot",
+      "quantity": "1 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 320,
-      "name": "minced fresh dill",
-      "quantity": "1 tbsp"
+      "name": "fresh dill",
+      "quantity": "1 tbsp",
+      "prep": "minced"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -131,8 +149,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Halve the leek. Cut the celery into large pieces.",
-      "secondary_message": "1 medium leek\n1 large stalk celery"
+      "primary_message": "Juice the lemon. Halve the leek. Cut the celery into large pieces. Mince the shallot. Pick the dill fronds from the stems and mince them. Juice the lemon.",
+      "secondary_message": "1 lemon\n1 medium leek\n1 large stalk celery\n1 tbsp shallot, from 1 small shallot\n1 tbsp fresh dill\n1 lemon"
     },
     {
       "id": 1,

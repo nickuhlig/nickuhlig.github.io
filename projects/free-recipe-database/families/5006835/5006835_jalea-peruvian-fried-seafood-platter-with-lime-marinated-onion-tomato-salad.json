@@ -71,8 +71,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "loosely packed chopped cilantro leaves, tender stems",
-      "quantity": "¼ cup"
+      "name": "loosely packed cilantro leaves, tender stems",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2392,
@@ -87,9 +88,17 @@
       "prep": "minced"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "¼ cup"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "¼ cup",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -156,8 +165,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Very thinly slice the red onion. Dice the plum tomatoes. Stem, seed, and mince the fresh aji amarillo pepper. Mince the garlic.",
-      "secondary_message": "½ large red onion\n2 medium plum tomatoes\n1 fresh aji amarillo pepper\n1 medium clove garlic"
+      "primary_message": "Very thinly slice the red onion. Dice the plum tomatoes. Pick the cilantro leaves and tender stems from the thick stems and chop them. Stem, seed, and mince the fresh aji amarillo pepper. Mince the garlic. Juice the limes.",
+      "secondary_message": "½ large red onion\n2 medium plum tomatoes\n¼ cup loosely packed cilantro leaves, tender stems\n1 fresh aji amarillo pepper\n1 medium clove garlic\n2 limes"
     },
     {
       "id": 1,

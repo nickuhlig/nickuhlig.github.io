@@ -123,13 +123,15 @@
     },
     {
       "ingredient_id": 1122,
-      "name": "tightly packed chopped candied orange rind",
-      "quantity": "½ cup"
+      "name": "tightly packed candied orange rind",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1081,
-      "name": "tightly packed chopped crystallized ginger",
-      "quantity": "¼ cup"
+      "name": "tightly packed crystallized ginger",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 115,
@@ -178,6 +180,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the candied orange rind. Chop the crystallized ginger.",
+      "secondary_message": "½ cup tightly packed candied orange rind\n¼ cup tightly packed crystallized ginger"
+    },
     {
       "id": 1,
       "primary_message": "For the Dough: Preheat oven to 175°C (350°F). Spread hazelnuts on a baking sheet and toast until the skins blister, about 14 minutes. Let cool slightly, then transfer nuts to a clean kitchen towel and rub together to remove the skins. Transfer nuts to a food processor and cool completely. Pulse until finely ground. Transfer to a bowl along with the almond meal, flour, cocoa, baking powder, baking soda, cinnamon, powdered ginger, nutmeg, cloves, allspice, cardamom, and salt.",

@@ -50,13 +50,22 @@
     },
     {
       "ingredient_id": 242,
-      "name": "quartered strawberries",
-      "quantity": "2 cups"
+      "name": "strawberries",
+      "quantity": "2 cups",
+      "prep": "quartered"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice",
-      "quantity": "3 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "3 tbsp",
+          "name": "freshly squeezed lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2713,
@@ -73,8 +82,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Dice the rhubarb.",
-      "secondary_message": "0.79 kg rhubarb"
+      "primary_message": "Dice the rhubarb. Quarter the strawberries. Juice the lemon.",
+      "secondary_message": "0.79 kg rhubarb\n2 cups strawberries\n1 lemon"
     },
     {
       "id": 1,

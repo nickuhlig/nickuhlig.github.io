@@ -50,9 +50,17 @@
       "quantity": "1"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 24,
@@ -77,8 +85,9 @@
     },
     {
       "ingredient_id": 349,
-      "name": "freshly grated nutmeg",
-      "quantity": "⅛ tsp"
+      "name": "nutmeg",
+      "quantity": "⅛ tsp",
+      "prep": "freshly grated"
     },
     {
       "ingredient_id": 1044,
@@ -101,8 +110,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the garlic. Beat the eggs.",
-      "secondary_message": "2 medium cloves garlic\n4 eggs"
+      "primary_message": "Juice the lemon. Mince the garlic. Freshly grate the nutmeg. Beat the eggs.",
+      "secondary_message": "½ lemon\n2 medium cloves garlic\n⅛ tsp nutmeg\n4 eggs"
     },
     {
       "id": 1,

@@ -65,9 +65,17 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice, from 1 lime",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice, from 1 lime"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 346,
@@ -76,8 +84,9 @@
     },
     {
       "ingredient_id": 2187,
-      "name": "freshly grated coconut flesh",
-      "quantity": "2 tbsp"
+      "name": "coconut flesh",
+      "quantity": "2 tbsp",
+      "prep": "freshly grated"
     },
     {
       "ingredient_id": 88,
@@ -86,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime. Freshly grate the coconut flesh.",
+      "secondary_message": "½ lime\n2 tbsp coconut flesh"
+    },
     {
       "id": 1,
       "primary_message": "Heat oil in a non-stick skillet over medium heat until shimmering. Step back and add the mustard seeds. Let them splutter. Add the Serrano chilli and stir until fragrant, about 30 seconds. Add curry leaves (if using) and allow them to sputter, about 30 seconds. Transfer infused oil to a small bowl to cool.",

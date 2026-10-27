@@ -78,11 +78,6 @@
       "quantity": "1 cup"
     },
     {
-      "ingredient_id": 2346,
-      "name": "grated lemon zest, from 2 to 3 lemons",
-      "quantity": "1 tbsp"
-    },
-    {
       "ingredient_id": 1044,
       "name": "vegetable oil",
       "quantity": "½ cup"
@@ -98,14 +93,27 @@
       "quantity": "¾ cup"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from about 4 to 6 lemons",
-      "quantity": "2 tbsp"
-    },
-    {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from about 4 to 6 lemons",
-      "quantity": "6 tbsp"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "6",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "6 tbsp",
+          "name": "lemon juice, from about 4 to 6 lemons"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tbsp",
+          "name": "grated lemon zest, from 2 to 3 lemons"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "2 tbsp",
+          "name": "lemon zest, from about 4 to 6 lemons"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 347,
@@ -114,17 +122,25 @@
       "prep": "sifted"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Sift the powdered sugar.",
-      "secondary_message": "1 ⅓ cups powdered sugar"
+      "primary_message": "Zest and juice the lemons. Sift the powdered sugar. Juice the lemon.",
+      "secondary_message": "6 lemons\n1 ⅓ cups powdered sugar\n1 lemon"
     },
     {
       "id": 1,

@@ -57,9 +57,17 @@
       "quantity": "30 ml"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "30 ml"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "30 ml",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 3070,
@@ -73,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "1 lime"
+    },
     {
       "id": 1,
       "primary_message": "Chill 2 martini glasses. Thread 2 cocktail picks with 2 olives each.",

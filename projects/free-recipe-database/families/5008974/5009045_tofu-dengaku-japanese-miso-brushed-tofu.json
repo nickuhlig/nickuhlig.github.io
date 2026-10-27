@@ -68,8 +68,9 @@
     },
     {
       "ingredient_id": 192,
-      "name": "Grated lemon",
-      "quantity": ""
+      "name": "Lemon",
+      "quantity": "",
+      "prep": "grated"
     },
     {
       "ingredient_id": 3120,
@@ -78,6 +79,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the Lemon.",
+      "secondary_message": "Lemon"
+    },
     {
       "id": 1,
       "primary_message": "To make the miso sauce: Nest a bowl on top of simmering water, or use a double boiler if you have one. Put the miso in the bowl along with the egg yolks, sake, mirin, and sugar. If you cannot find mirin, a type of sweet sake used for cooking, replace it with one more tablespoon of sugar.",

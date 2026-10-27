@@ -32,8 +32,9 @@
   "ingredients": [
     {
       "ingredient_id": 2286,
-      "name": "trimmed skirt steak",
-      "quantity": "2 lb"
+      "name": "skirt steak",
+      "quantity": "2 lb",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 88,
@@ -57,6 +58,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the skirt steak.",
+      "secondary_message": "2 lb skirt steak"
+    },
     {
       "id": 1,
       "primary_message": "Season steak all over with salt and pepper. Set steak on a wire rack set in a rimmed baking sheet and refrigerate, uncovered, for at least 30 minutes and up to 8 hours before cooking.",

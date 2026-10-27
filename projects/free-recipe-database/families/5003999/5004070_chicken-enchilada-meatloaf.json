@@ -81,8 +81,9 @@
     },
     {
       "ingredient_id": 277,
-      "name": "chopped grape tomatoes",
-      "quantity": "½ cup"
+      "name": "grape tomatoes",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 88,
@@ -111,9 +112,17 @@
       "prep": "chopped"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice, from 1 whole lime",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice, from 1 whole lime"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1505,
@@ -144,8 +153,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely chop the onion. Finely chop the red bell pepper. Halve, seed, and finely chop the jalapeno peppers. Mince the garlic. Grind the cumin seeds with spice grinder. Chop the cilantro leaves. Grate the cheddar cheese on box grater. Finely crush the tortilla chips. Pulse the tomatillos in processor until crushed.",
-      "secondary_message": "1 large onion\n1 large red bell pepper\n2 jalapeno peppers\n2 medium cloves garlic\n1 tbsp cumin seeds\n½ cup cilantro leaves\n170 g cheddar cheese\n255 g tortilla chips\n7 tomatillos"
+      "primary_message": "Finely chop the onion. Finely chop the red bell pepper. Halve, seed, and finely chop the jalapeno peppers. Mince the garlic. Grind the cumin seeds with spice grinder. Chop the grape tomatoes. Pick the cilantro leaves from the stems and chop them. Juice the lime. Grate the cheddar cheese on box grater. Finely crush the tortilla chips. Pulse the tomatillos in processor until crushed.",
+      "secondary_message": "1 large onion\n1 large red bell pepper\n2 jalapeno peppers\n2 medium cloves garlic\n1 tbsp cumin seeds\n½ cup grape tomatoes\n½ cup cilantro leaves\n½ lime\n170 g cheddar cheese\n255 g tortilla chips\n7 tomatillos"
     },
     {
       "id": 1,

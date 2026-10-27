@@ -67,13 +67,15 @@
     },
     {
       "ingredient_id": 188,
-      "name": "packed roughly chopped fresh cilantro leaves",
-      "quantity": "½ cup"
+      "name": "packed fresh cilantro leaves",
+      "quantity": "½ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1808,
-      "name": "packed roughly chopped fresh parsley leaves",
-      "quantity": "¼ cup"
+      "name": "packed fresh parsley leaves",
+      "quantity": "¼ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 1574,
@@ -81,9 +83,17 @@
       "quantity": "¼ cup"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice, from 1 whole lime",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice, from 1 whole lime"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -105,8 +115,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Seed and roughly dice the ripe Haas avocados. Quarter the onion. Stem, seed, and roughly chop the green bell pepper.",
-      "secondary_message": "2 ripe Haas avocados\n1 small onion\n1 small green bell pepper"
+      "primary_message": "Seed and roughly dice the ripe Haas avocados. Quarter the onion. Stem, seed, and roughly chop the green bell pepper. Pick the cilantro leaves from the stems and roughly chop them. Pick the parsley leaves from the stems and roughly chop them. Juice the lime.",
+      "secondary_message": "2 ripe Haas avocados\n1 small onion\n1 small green bell pepper\n½ cup packed fresh cilantro leaves\n¼ cup packed fresh parsley leaves\n½ lime"
     },
     {
       "id": 1,

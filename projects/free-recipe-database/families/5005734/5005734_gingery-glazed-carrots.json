@@ -76,17 +76,25 @@
       "quantity": "½ tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Peel and cut the ginger into julienne.",
-      "secondary_message": "1 (1 inch) piece ginger"
+      "primary_message": "Peel and cut the ginger into julienne. Juice the lemon.",
+      "secondary_message": "1 (1 inch) piece ginger\n½ lemon"
     },
     {
       "id": 1,

@@ -90,9 +90,17 @@
       "quantity": "3 dashes"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "90 ml"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "90 ml",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1468,
@@ -101,6 +109,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemons.",
+      "secondary_message": "2 lemons"
+    },
     {
       "id": 1,
       "primary_message": "In a small saucepan, bring 130 ml water to a boil over medium-high heat, then add marmalade and whisk until fully incorporated. Remove from heat and let cool. (If you prefer a punch without any orange bits in it, use an immersion blender to blend until smooth.) Refrigerate in a sealed container up to 1 week.",

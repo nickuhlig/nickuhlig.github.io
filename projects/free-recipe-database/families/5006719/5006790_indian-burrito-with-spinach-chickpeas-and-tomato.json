@@ -69,8 +69,9 @@
     },
     {
       "ingredient_id": 260,
-      "name": "chopped tomatoes",
-      "quantity": "1 cup"
+      "name": "tomatoes",
+      "quantity": "1 cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 92,
@@ -94,9 +95,17 @@
       "prep": "well rinsed, and chopped"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1905,
@@ -113,8 +122,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Chop the onion. Stem, seed, and chop the whole jalapeño. Mince the fresh ginger. Mince the garlic cloves. Well rinse the spinach. Chop the spinach.",
-      "secondary_message": "½ medium onion\n1 whole jalapeño\n1 tsp fresh ginger\n2 medium garlic cloves\n0.45 kg spinach, dried"
+      "primary_message": "Chop the onion. Stem, seed, and chop the whole jalapeño. Mince the fresh ginger. Mince the garlic cloves. Chop the tomatoes. Well rinse and chop the spinach. Juice the lime.",
+      "secondary_message": "½ medium onion\n1 whole jalapeño\n1 tsp fresh ginger\n2 medium garlic cloves\n1 cup tomatoes\n0.45 kg spinach, dried\n½ lime"
     },
     {
       "id": 1,

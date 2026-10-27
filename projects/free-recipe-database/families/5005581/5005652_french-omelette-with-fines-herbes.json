@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 2436,
-      "name": "minced delicate fresh herbs",
-      "quantity": "1 large pinch"
+      "name": "delicate fresh herbs",
+      "quantity": "1 large pinch",
+      "prep": "minced"
     },
     {
       "ingredient_id": 88,
@@ -61,6 +62,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the herb leaves from the stems and mince them.",
+      "secondary_message": "1 large pinch delicate fresh herbs"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, beat eggs with a disposable plastic or reusable wooden fork just until last traces of white are mixed in; mix in herbs and season with salt and pepper.",

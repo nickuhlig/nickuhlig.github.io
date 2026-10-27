@@ -60,9 +60,17 @@
       "prep": "minced"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 83,
@@ -99,8 +107,9 @@
     },
     {
       "ingredient_id": 1811,
-      "name": "peeled and deveined large shrimp",
-      "quantity": "0.45 kg"
+      "name": "and deveined large shrimp",
+      "quantity": "0.45 kg",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 275,
@@ -114,16 +123,17 @@
     },
     {
       "ingredient_id": 2346,
-      "name": "finely grated lemon zest",
-      "quantity": "1 tsp"
+      "name": "lemon zest",
+      "quantity": "1 tsp",
+      "prep": "finely grated"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely chop the tender stems of the cilantro leaves. Finely chop the tender stems of the flat-leaf parsley leaves. Mince the garlic. Trim and halve the green beans crosswise. Trim and cut the asparagus into 2-inch pieces.",
-      "secondary_message": "1 cup cilantro leaves\n1 cup flat-leaf parsley leaves\n3 large cloves garlic\n340 g green beans\n¾ bunch asparagus"
+      "primary_message": "Finely chop the tender stems of the cilantro leaves. Finely chop the tender stems of the flat-leaf parsley leaves. Mince the garlic. Juice the lemon. Trim and halve the green beans crosswise. Trim and cut the asparagus into 2-inch pieces. Peel the and deveined large shrimp. Finely grate the zest from the lemon.",
+      "secondary_message": "1 cup cilantro leaves\n1 cup flat-leaf parsley leaves\n3 large cloves garlic\n1 lemon\n340 g green beans\n¾ bunch asparagus\n0.45 kg and deveined large shrimp\n1 tsp lemon zest"
     },
     {
       "id": 1,

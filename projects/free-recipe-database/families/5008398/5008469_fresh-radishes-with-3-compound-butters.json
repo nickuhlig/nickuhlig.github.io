@@ -43,8 +43,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "freshly grated peeled ginger",
-      "quantity": "¼ to ½ tsp"
+      "name": "ginger",
+      "quantity": "¼ to ½ tsp",
+      "prep": "peeled and freshly grated"
     },
     {
       "ingredient_id": 73,
@@ -53,8 +54,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "softened unsalted butter",
-      "quantity": "3 tbsp"
+      "name": "unsalted butter",
+      "quantity": "3 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 88,
@@ -93,13 +95,15 @@
     },
     {
       "ingredient_id": 1760,
-      "name": "minced mixed fresh tender herbs",
-      "quantity": "2 tbsp"
+      "name": "mixed fresh tender herbs",
+      "quantity": "2 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 115,
-      "name": "softened unsalted butter",
-      "quantity": "3 tbsp"
+      "name": "unsalted butter",
+      "quantity": "3 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 88,
@@ -113,6 +117,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and freshly grate the ginger. Soften the unsalted butter. Pick the herb leaves from the stems and mince them. Soften the unsalted butter.",
+      "secondary_message": "¼ to ½ tsp ginger\n3 tbsp unsalted butter\n2 tbsp mixed fresh tender herbs\n3 tbsp unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Ginger-Curry Butter: In a small bowl, stir together crème fraîche, ginger, and curry powder until thoroughly combined. Using a silicone spatula, fold in the butter until well mixed. Season with salt.",

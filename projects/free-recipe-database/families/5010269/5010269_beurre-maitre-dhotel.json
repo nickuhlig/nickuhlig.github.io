@@ -41,13 +41,22 @@
     },
     {
       "ingredient_id": 106,
-      "name": "finely chopped flat leaf parsley",
-      "quantity": "2 tbsp"
+      "name": "flat leaf parsley",
+      "quantity": "2 tbsp",
+      "prep": "finely chopped"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -64,8 +73,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Bring the good unsalted butter to room temperature.",
-      "secondary_message": "4 tbsp good unsalted butter"
+      "primary_message": "Bring the good unsalted butter to room temperature. Pick the parsley leaves from the stems and finely chop them. Juice the lemon.",
+      "secondary_message": "4 tbsp good unsalted butter\n2 tbsp flat leaf parsley\n½ lemon"
     },
     {
       "id": 1,

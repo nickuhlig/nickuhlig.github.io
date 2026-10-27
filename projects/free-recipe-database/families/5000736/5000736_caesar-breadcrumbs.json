@@ -61,17 +61,26 @@
     },
     {
       "ingredient_id": 24,
-      "name": "grated garlic",
-      "quantity": "1 tsp"
+      "name": "garlic",
+      "quantity": "1 tsp",
+      "prep": "grated"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from 1 whole lemon",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "2 tsp",
+          "name": "lemon zest, from 1 whole lemon"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 120,
-      "name": "Parmigiano-Reggiano",
+      "name": "Parmesan cheese",
       "quantity": "2 tbsp (¾ oz)",
       "prep": "finely grated"
     }
@@ -80,8 +89,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the anchovy paste. Finely grate the Parmigiano-Reggiano.",
-      "secondary_message": "2 tsp anchovy paste\n2 tbsp (¾ oz) Parmigiano-Reggiano"
+      "primary_message": "Mince the anchovy paste. Grate the garlic. Zest the lemon. Finely grate the Parmesan cheese.",
+      "secondary_message": "2 tsp anchovy paste\n1 tsp garlic\n1 lemon\n2 tbsp (¾ oz) Parmesan cheese"
     },
     {
       "id": 1,

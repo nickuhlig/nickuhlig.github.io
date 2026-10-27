@@ -63,13 +63,15 @@
     },
     {
       "ingredient_id": 43,
-      "name": "grated sharp white cheddar cheese",
-      "quantity": "85 g"
+      "name": "sharp white cheddar cheese",
+      "quantity": "85 g",
+      "prep": "grated"
     },
     {
       "ingredient_id": 120,
-      "name": "grated parmesan",
-      "quantity": "57 g"
+      "name": "parmesan",
+      "quantity": "57 g",
+      "prep": "grated"
     },
     {
       "ingredient_id": 88,
@@ -83,13 +85,22 @@
     },
     {
       "ingredient_id": 226,
-      "name": "finely shredded kale",
-      "quantity": "3 cups"
+      "name": "kale",
+      "quantity": "3 cups",
+      "prep": "finely shredded"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 121,
@@ -98,16 +109,17 @@
     },
     {
       "ingredient_id": 153,
-      "name": "finely sliced scallion whites and light greens",
-      "quantity": "¼ cup"
+      "name": "scallion whites and light greens",
+      "quantity": "¼ cup",
+      "prep": "finely sliced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely mince the garlic cloves. Drain and rinse the white beans.",
-      "secondary_message": "2 medium garlic cloves\n2 (425 g) cans white beans"
+      "primary_message": "Finely mince the garlic cloves. Drain and rinse the white beans. Grate the sharp white cheddar cheese. Grate the parmesan. Finely shred the kale. Juice the lemon. Finely slice the scallion whites and light greens.",
+      "secondary_message": "2 medium garlic cloves\n2 (425 g) cans white beans\n85 g sharp white cheddar cheese\n57 g parmesan\n3 cups kale\n½ lemon\n¼ cup scallion whites and light greens"
     },
     {
       "id": 1,

@@ -44,9 +44,17 @@
       "quantity": "150 g"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from about 3 whole lemons",
-      "quantity": "90 ml"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "90 ml",
+          "name": "fresh lemon juice, from about 3 whole lemons"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2266,
@@ -65,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemons.",
+      "secondary_message": "2 lemons"
+    },
     {
       "id": 1,
       "primary_message": "For the Fresh Grapefruit Soda: Bring grapefruits to room temperature, then roll firmly against the counter to soften their rinds. Halve or quarter and juice one grapefruit; set aside others for juicing later. Pour juice into a sealable container and refrigerate. Cut juiced grapefruit rind into 2.5-cm chunks. Toss with sugar in a large nonreactive mixing bowl, cover tightly with plastic, and let stand at room temperature, stirring once every 45 minutes or so, until sugar has completely dissolved, about 3 hours. (You can let the mixture stand up to 12 hours, if desired.)",

@@ -64,13 +64,22 @@
     },
     {
       "ingredient_id": 1081,
-      "name": "finely chopped crystallized ginger",
-      "quantity": "2 tbsp"
+      "name": "crystallized ginger",
+      "quantity": "2 tbsp",
+      "prep": "finely chopped"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 264,
@@ -108,8 +117,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Keep the unsalted butter cold until you use it. Pit and slice the ripe but firm plums into 1-inch wedges. Keep the buttermilk cold until you use it.",
-      "secondary_message": "7 tbsp unsalted butter\n5 cups ripe but firm plums\n¾ cup buttermilk"
+      "primary_message": "Keep the unsalted butter cold until you use it. Pit and slice the ripe but firm plums into 1-inch wedges. Finely chop the crystallized ginger. Juice the lemon. Keep the buttermilk cold until you use it.",
+      "secondary_message": "7 tbsp unsalted butter\n5 cups ripe but firm plums\n2 tbsp crystallized ginger\n½ lemon\n¾ cup buttermilk"
     },
     {
       "id": 1,

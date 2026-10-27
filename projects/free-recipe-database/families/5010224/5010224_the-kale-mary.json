@@ -67,9 +67,17 @@
       "quantity": "2 tbsp (1 oz)"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 2 lemons",
-      "quantity": "2 tbsp (1 oz)"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp (1 oz)",
+          "name": "lemon juice, from 2 lemons"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 448,
@@ -78,6 +86,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "Mix horseradish and soy sauce in a glass. Add tomato juice and stir well until horseradish is well distributed. Add kale juice, celery juice, lemon juice, and hot sauce. Stir well. Serve with celery rib garnish, over ice if desired.",

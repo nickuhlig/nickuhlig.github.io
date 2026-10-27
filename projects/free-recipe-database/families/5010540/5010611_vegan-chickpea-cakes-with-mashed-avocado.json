@@ -102,17 +102,25 @@
       "quantity": "1"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Roughly chop the garlic.",
-      "secondary_message": "1 medium clove garlic"
+      "primary_message": "Roughly chop the garlic. Juice the lime.",
+      "secondary_message": "1 medium clove garlic\n½ lime"
     },
     {
       "id": 1,

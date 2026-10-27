@@ -61,14 +61,17 @@
       "quantity": "9 ½ oz"
     },
     {
-      "ingredient_id": 2346,
-      "name": "packed grated lemon zest",
-      "quantity": "2 tbsp"
-    },
-    {
-      "ingredient_id": 1480,
-      "name": "lemon juice, divided",
-      "quantity": "1 ½ tbsp"
+      "ingredient_id": 192,
+      "name": "lemon, divided",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 ½ tbsp",
+          "name": "lemon juice, divided"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 115,
@@ -108,9 +111,22 @@
       "quantity": "5 oz"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 1 large lemon",
-      "quantity": "3 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "3 tbsp",
+          "name": "fresh lemon juice, from 1 large lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "2 tbsp",
+          "name": "packed grated lemon zest"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 353,
@@ -122,8 +138,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Soften the unsalted butter. Bring the egg to room temperature.",
-      "secondary_message": "8 oz unsalted butter\n1 large egg"
+      "primary_message": "Juice the lemon. Soften the unsalted butter. Bring the egg to room temperature. Zest and juice the lemon.",
+      "secondary_message": "½ lemon, divided\n8 oz unsalted butter\n1 large egg\n1 lemon"
     },
     {
       "id": 1,

@@ -79,9 +79,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "peeled fresh ginger",
+      "name": "fresh ginger",
       "quantity": "1 (2 inch) knob",
-      "prep": "thinly sliced"
+      "prep": "peeled, thinly sliced"
     },
     {
       "ingredient_id": 1816,
@@ -104,17 +104,25 @@
       "quantity": ""
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice, plus extra wedges for serving",
-      "quantity": "2 tbsp"
+      "ingredient_id": 228,
+      "name": "lime, plus extra wedges for serving",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tbsp",
+          "name": "lime juice, plus extra wedges for serving"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the shallots. Roughly chop the garlic. Stem and thinly slice the fresh Thai red chile. Thinly slice the peeled fresh ginger.",
-      "secondary_message": "2 medium shallots\n3 medium cloves garlic\n1 fresh Thai red chile\n1 (2 inch) knob peeled fresh ginger"
+      "primary_message": "Mince the shallots. Roughly chop the garlic. Stem and thinly slice the fresh Thai red chile. Peel and thinly slice the ginger. Juice the lime.",
+      "secondary_message": "2 medium shallots\n3 medium cloves garlic\n1 fresh Thai red chile\n1 (2 inch) knob fresh ginger\n1 lime, plus extra wedges for serving"
     },
     {
       "id": 1,

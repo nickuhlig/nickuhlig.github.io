@@ -76,17 +76,25 @@
       "quantity": "1 tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, if desired",
-      "quantity": "1 to 2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon, if desired",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 to 2 tsp",
+          "name": "lemon juice, if desired"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thinly slice the garlic. Zest the orange. Thinly slice the mint leaves.",
-      "secondary_message": "6 cloves garlic\n1 orange\n20 to 30 mint leaves"
+      "primary_message": "Thinly slice the garlic. Zest the orange. Pick the mint leaves from the stems and thinly slice them. Juice the lemon.",
+      "secondary_message": "6 cloves garlic\n1 orange\n20 to 30 mint leaves\n½ lemon, if desired"
     },
     {
       "id": 1,

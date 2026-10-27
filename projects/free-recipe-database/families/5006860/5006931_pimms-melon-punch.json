@@ -52,9 +52,17 @@
       "quantity": "14 g"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice, from 1 whole lemon",
-      "quantity": "7 g"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "7 g",
+          "name": "freshly squeezed lemon juice, from 1 whole lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 3338,
@@ -73,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "For the Cardamom Syrup: Pulse cardamom pods in a spice grinder or small food processor until broken into chunks, about 30 seconds. Combine water and cardamom in a small pot and bring to a boil. Remove from heat and let cardamom steep for 10 minutes. Add sugar and stir until completely dissolved. Let steep at room temperature, 2 hours, then fine strain. Syrup can be kept in refrigerator up to 1 week.",

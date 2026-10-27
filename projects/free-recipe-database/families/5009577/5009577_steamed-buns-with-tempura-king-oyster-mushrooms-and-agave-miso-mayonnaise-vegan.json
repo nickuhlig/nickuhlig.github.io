@@ -113,8 +113,9 @@
     },
     {
       "ingredient_id": 1773,
-      "name": "finely shredded iceberg lettuce",
-      "quantity": "1 ½ cups"
+      "name": "iceberg lettuce",
+      "quantity": "1 ½ cups",
+      "prep": "finely shredded"
     },
     {
       "ingredient_id": 153,
@@ -123,11 +124,18 @@
     },
     {
       "ingredient_id": 188,
-      "name": "picked fresh cilantro leaves",
-      "quantity": "½ cup"
+      "name": "fresh cilantro leaves",
+      "quantity": "½ cup",
+      "prep": "picked"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely shred the iceberg lettuce. Pick the cilantro leaves from the stems.",
+      "secondary_message": "1 ½ cups iceberg lettuce\n½ cup fresh cilantro leaves"
+    },
     {
       "id": 1,
       "primary_message": "Combine soy sauce, sake, sugar, mirin, and 1 cup water in a medium saucepan and whisk until sugar is dissolved. Add king oyster mushrooms. Place a clean, lint-free paper towel or kitchen towel directly on the surface of the liquid, pressing down until it is completely saturated and keeps the mushrooms partially submerged. Bring to a simmer over high heat, then reduce to maintain a bare simmer. Cook until mushrooms are completely tender (a cake tester or paring knife inserted should meet little resistance as it goes through), about 30 minutes, flipping mushrooms once halfway through cooking.",

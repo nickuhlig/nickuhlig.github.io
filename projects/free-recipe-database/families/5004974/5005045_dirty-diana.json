@@ -42,9 +42,17 @@
       "quantity": "43 g"
     },
     {
-      "ingredient_id": 1421,
-      "name": "freshly-squeezed lime juice",
-      "quantity": "21 g"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "21 g",
+          "name": "freshly-squeezed lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2514,
@@ -63,6 +71,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "1 lime"
+    },
     {
       "id": 1,
       "primary_message": "Fill a cocktail shaker with ice. Add rum, lime juice, agave, grapefruit juice, and bitters and shake well. Strain into an ice-filled Collins glass.",

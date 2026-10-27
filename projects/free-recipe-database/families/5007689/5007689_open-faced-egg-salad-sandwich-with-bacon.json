@@ -46,14 +46,23 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 153,
-      "name": "thinly sliced scallions",
-      "quantity": "2 tbsp"
+      "name": "scallions",
+      "quantity": "2 tbsp",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 157,
@@ -81,8 +90,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Trim the ends of the celery, then chop it.",
-      "secondary_message": "2 stalks celery"
+      "primary_message": "Juice the lemon. Thinly slice the scallions. Trim the ends of the celery, then chop it.",
+      "secondary_message": "½ lemon\n2 tbsp scallions\n2 stalks celery"
     },
     {
       "id": 1,

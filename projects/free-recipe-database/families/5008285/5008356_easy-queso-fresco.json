@@ -56,9 +56,17 @@
       "quantity": "3785 ml"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "⅔ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "4",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "⅔ cup",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -67,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemons.",
+      "secondary_message": "4 lemons"
+    },
     {
       "id": 1,
       "primary_message": "Line colander with four layers of cheesecloth, a sackcloth towel, or 2 layers of food-safe paper towels and set over large bowl. Heat milk in a large pot over medium-low heat, stirring frequently, until it registers 165 to 82°C (74 to 82°C) on an instant-read thermometer. Add the lemon juice or vinegar 1 tablespoon at a time, stirring gently after each addition. Stop adding the acid when the curds separate from the whey: you will see white clumps of curd suspended in a pale translucent whey. Let sit uncovered for at least 5 minutes and up to 20 while the separation finishes.",

@@ -63,9 +63,17 @@
       "quantity": "1 large"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 325,
@@ -120,8 +128,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Drain the capers. Drain the oil-packed tuna.",
-      "secondary_message": "1 tsp capers\n113 g oil-packed tuna, such as Ortiz"
+      "primary_message": "Juice the lemon. Drain the capers. Drain the oil-packed tuna.",
+      "secondary_message": "1 lemon\n1 tsp capers\n113 g oil-packed tuna, such as Ortiz"
     },
     {
       "id": 1,

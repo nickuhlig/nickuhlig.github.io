@@ -69,9 +69,17 @@
       "quantity": "1 ½ tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -85,21 +93,23 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "chopped parsley",
-      "quantity": "½ cup"
+      "name": "parsley",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 32,
-      "name": "chopped feta cheese",
-      "quantity": "1 ½ cups"
+      "name": "feta cheese",
+      "quantity": "1 ½ cups",
+      "prep": "chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the garlic. Quarter the red potatoes. Pit the kalamata olives.",
-      "secondary_message": "2 cloves garlic\n2 medium red potatoes, small\n1 cup kalamata olives"
+      "primary_message": "Mince the garlic. Quarter the red potatoes. Pit the kalamata olives. Juice the lemon. Pick the parsley leaves from the stems and chop them. Chop the feta cheese.",
+      "secondary_message": "2 cloves garlic\n2 medium red potatoes, small\n1 cup kalamata olives\n½ lemon\n½ cup parsley\n1 ½ cups feta cheese"
     },
     {
       "id": 1,

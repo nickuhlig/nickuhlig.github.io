@@ -57,9 +57,17 @@
       "quantity": "4 ribs"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice",
-      "quantity": "½ cup"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "4",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "½ cup",
+          "name": "fresh lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 52,
@@ -98,6 +106,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the limes.",
+      "secondary_message": "4 limes"
+    },
     {
       "id": 1,
       "primary_message": "Mix together the soy sauce, oyster sauce, brown sugar, and vegetable oil in a medium mixing bowl. Coat the steaks with the soy sauce mixture and let them marinate while you work on the dipping sauce.",

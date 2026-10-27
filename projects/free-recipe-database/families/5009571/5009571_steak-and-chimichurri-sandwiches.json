@@ -44,18 +44,21 @@
   "ingredients": [
     {
       "ingredient_id": 1808,
-      "name": "chopped fresh parsley leaves",
-      "quantity": "1 cup"
+      "name": "fresh parsley leaves",
+      "quantity": "1 cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 188,
-      "name": "chopped fresh cilantro leaves, tender stems",
-      "quantity": "½ cup"
+      "name": "fresh cilantro leaves, tender stems",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 3654,
-      "name": "chopped fresh oregano",
-      "quantity": "1 tbsp"
+      "name": "fresh oregano",
+      "quantity": "1 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 153,
@@ -70,9 +73,17 @@
       "prep": "minced"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from 1 lemon",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tsp",
+          "name": "lemon zest, from 1 lemon"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 47,
@@ -109,8 +120,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thinly slice the green onion. Mince the garlic.",
-      "secondary_message": "1 green onion\n5 medium cloves garlic"
+      "primary_message": "Pick the parsley leaves from the stems and chop them. Pick the cilantro leaves and tender stems from the thick stems and chop them. Pick the oregano leaves from the stems and chop them. Thinly slice the green onion. Mince the garlic. Zest the lemon.",
+      "secondary_message": "1 cup fresh parsley leaves\n½ cup fresh cilantro leaves, tender stems\n1 tbsp fresh oregano\n1 green onion\n5 medium cloves garlic\n1 lemon"
     },
     {
       "id": 1,

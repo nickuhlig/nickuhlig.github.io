@@ -58,9 +58,17 @@
       "quantity": "½ cup"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "½ cup"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "4",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "½ cup",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 3509,
@@ -135,16 +143,17 @@
     },
     {
       "ingredient_id": 188,
-      "name": "Minced fresh cilantro leaves, tender stems",
-      "quantity": ""
+      "name": "Fresh cilantro leaves, tender stems",
+      "quantity": "",
+      "prep": "minced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Peel the red onion, then trim the ends, then thinly slice it. Stem and thinly slice the habaneros. Cut the bacon into thin pieces. Stem and thinly slice the Thai chiles into rings. Grate the queso Oaxaca. Grate the extra-sharp white cheddar.",
-      "secondary_message": "1 medium red onion\n2 to 4 habaneros\n4 strips bacon\n2 Thai chiles\n113 g queso Oaxaca\n113 g extra-sharp white cheddar"
+      "primary_message": "Juice the limes. Peel the red onion, then trim the ends, then thinly slice it. Stem and thinly slice the habaneros. Cut the bacon into thin pieces. Stem and thinly slice the Thai chiles into rings. Grate the queso Oaxaca. Grate the extra-sharp white cheddar. Pick the cilantro leaves and tender stems from the thick stems and mince them.",
+      "secondary_message": "4 limes\n1 medium red onion\n2 to 4 habaneros\n4 strips bacon\n2 Thai chiles\n113 g queso Oaxaca\n113 g extra-sharp white cheddar\nFresh cilantro leaves, tender stems"
     },
     {
       "id": 1,

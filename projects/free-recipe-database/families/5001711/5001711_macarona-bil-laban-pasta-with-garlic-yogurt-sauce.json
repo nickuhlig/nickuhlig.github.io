@@ -64,9 +64,17 @@
       "quantity": "2 tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1751,
@@ -126,21 +134,23 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "chopped fresh parsley leaves",
-      "quantity": "¼ cup"
+      "name": "fresh parsley leaves",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 243,
-      "name": "chopped fresh mint leaves",
-      "quantity": "3 tbsp"
+      "name": "fresh mint leaves",
+      "quantity": "3 tbsp",
+      "prep": "chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely grate or mince the garlic. Finely chop the yellow onion.",
-      "secondary_message": "2 large cloves garlic\n1 large yellow onion"
+      "primary_message": "Finely grate or mince the garlic. Juice the lemon. Finely chop the yellow onion. Pick the parsley leaves from the stems and chop them. Pick the mint leaves from the stems and chop them.",
+      "secondary_message": "2 large cloves garlic\n½ lemon\n1 large yellow onion\n¼ cup fresh parsley leaves\n3 tbsp fresh mint leaves"
     },
     {
       "id": 1,

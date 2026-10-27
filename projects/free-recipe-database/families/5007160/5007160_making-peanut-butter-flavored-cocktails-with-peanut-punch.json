@@ -60,11 +60,18 @@
     },
     {
       "ingredient_id": 349,
-      "name": "grated nutmeg",
-      "quantity": "½ tsp"
+      "name": "nutmeg",
+      "quantity": "½ tsp",
+      "prep": "grated"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the nutmeg.",
+      "secondary_message": "½ tsp nutmeg"
+    },
     {
       "id": 1,
       "primary_message": "Put all of the ingredients a blender and mix on high speed until smooth. Serve chilled or over ice.",

@@ -78,14 +78,22 @@
       "quantity": "⅓ cup"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest",
-      "quantity": "1 tsp"
-    },
-    {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 lemon",
-      "quantity": "3 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "3 tbsp",
+          "name": "lemon juice, from 1 lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tsp",
+          "name": "lemon zest"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 24,
@@ -105,8 +113,9 @@
     },
     {
       "ingredient_id": 286,
-      "name": "chopped fresh rosemary",
-      "quantity": "4 tsp"
+      "name": "fresh rosemary",
+      "quantity": "4 tsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2697,
@@ -127,8 +136,9 @@
     },
     {
       "ingredient_id": 106,
-      "name": "chopped flat-leaf parsley leaves, tender stems",
-      "quantity": "2 tbsp"
+      "name": "flat-leaf parsley leaves, tender stems",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 117,
@@ -140,8 +150,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the garlic cloves. Roughly chop the pancetta. Roughly chop the dried cherries.",
-      "secondary_message": "6 medium garlic cloves\n3 oz pancetta\n⅓ cup dried cherries"
+      "primary_message": "Zest and juice the lemon. Mince the garlic cloves. Pick the rosemary leaves from the stems and chop them. Roughly chop the pancetta. Roughly chop the dried cherries. Pick the parsley leaves and tender stems from the thick stems and chop them.",
+      "secondary_message": "1 lemon\n6 medium garlic cloves\n4 tsp fresh rosemary\n3 oz pancetta\n⅓ cup dried cherries\n2 tbsp flat-leaf parsley leaves, tender stems"
     },
     {
       "id": 1,

@@ -120,9 +120,17 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice, from about 1 lime",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "fresh lime juice, from about 1 lime"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1810,
@@ -148,13 +156,15 @@
     },
     {
       "ingredient_id": 1004,
-      "name": "thinly shredded green cabbage",
-      "quantity": "2 cups"
+      "name": "green cabbage",
+      "quantity": "2 cups",
+      "prep": "thinly shredded"
     },
     {
       "ingredient_id": 2272,
-      "name": "thinly shredded purple cabbage",
-      "quantity": "2 cups"
+      "name": "purple cabbage",
+      "quantity": "2 cups",
+      "prep": "thinly shredded"
     },
     {
       "ingredient_id": 159,
@@ -169,21 +179,23 @@
     },
     {
       "ingredient_id": 2312,
-      "name": "chopped Vietnamese coriander",
-      "quantity": "½ cup"
+      "name": "Vietnamese coriander",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2264,
-      "name": "chopped perilla",
-      "quantity": "¼ cup"
+      "name": "perilla",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Trim the ends of the scallions. Peel and smash the fresh ginger. Thinly slice the red onion. Mince the garlic cloves. Stem and thinly slice the bird’s eye chile. Slice the shallots into 1/16-inch-thick rounds. Cut the carrot into matchsticks.",
-      "secondary_message": "2 scallions\n1 (5 cm) knob fresh ginger\n¼ medium red onion\n3 medium garlic cloves\n1 bird’s eye chile\n3 medium shallots\n1 medium carrot"
+      "primary_message": "Trim the ends of the scallions. Peel and smash the fresh ginger. Thinly slice the red onion. Mince the garlic cloves. Juice the lime. Stem and thinly slice the bird’s eye chile. Slice the shallots into 1/16-inch-thick rounds. Thinly shred the green cabbage. Thinly shred the purple cabbage. Cut the carrot into matchsticks. Chop the Vietnamese coriander. Pick the perilla leaves from the stems and chop them.",
+      "secondary_message": "2 scallions\n1 (5 cm) knob fresh ginger\n¼ medium red onion\n3 medium garlic cloves\n½ lime\n1 bird’s eye chile\n3 medium shallots\n2 cups green cabbage\n2 cups purple cabbage\n1 medium carrot\n½ cup Vietnamese coriander\n¼ cup perilla"
     },
     {
       "id": 1,

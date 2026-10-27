@@ -51,9 +51,17 @@
       "quantity": "4 large"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice",
-      "quantity": "¾ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "4",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¾ cup",
+          "name": "freshly squeezed lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 115,
@@ -75,8 +83,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Zest the lemons.",
-      "secondary_message": "3 lemons"
+      "primary_message": "Zest the lemons. Juice the lemons.",
+      "secondary_message": "3 lemons\n4 lemons"
     },
     {
       "id": 1,

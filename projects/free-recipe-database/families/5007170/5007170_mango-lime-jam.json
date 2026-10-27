@@ -47,18 +47,28 @@
     },
     {
       "ingredient_id": 3165,
-      "name": "pureed chopped mango",
-      "quantity": "4 cups"
+      "name": "mango",
+      "quantity": "4 cups",
+      "prep": "chopped and pureed"
     },
     {
-      "ingredient_id": 1421,
-      "name": "freshly squeezed lime juice",
-      "quantity": "½ cup"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "4",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "½ cup",
+          "name": "freshly squeezed lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2346,
-      "name": "freshly grated lime zest",
-      "quantity": "1 tbsp"
+      "name": "lime zest",
+      "quantity": "1 tbsp",
+      "prep": "freshly grated"
     },
     {
       "ingredient_id": 2713,
@@ -77,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop and puree the mango. Juice the limes. Grate the zest from the lime.",
+      "secondary_message": "4 cups mango\n4 limes\n1 tbsp lime zest"
+    },
     {
       "id": 1,
       "primary_message": "Whisk the sugar and pectin a medium bowl and set aside.",

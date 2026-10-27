@@ -46,8 +46,9 @@
   "ingredients": [
     {
       "ingredient_id": 272,
-      "name": "roughly chopped walnuts",
-      "quantity": "1 cup"
+      "name": "walnuts",
+      "quantity": "1 cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 2210,
@@ -101,8 +102,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "melted butter",
-      "quantity": "3 tbsp"
+      "name": "butter",
+      "quantity": "3 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 1007,
@@ -111,6 +113,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the walnuts. Melt the butter.",
+      "secondary_message": "1 cup walnuts\n3 tbsp butter"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 425°F. Place walnuts in a 10-inch cast iron skillet over medium-high heat and toast until fragrant, 3 to 5 minutes. Transfer walnuts to a bowl and place skillet in oven.",

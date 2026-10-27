@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "finely chopped shallots",
-      "quantity": "3 tbsp"
+      "name": "shallots",
+      "quantity": "3 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1008,
@@ -61,13 +62,22 @@
     },
     {
       "ingredient_id": 2039,
-      "name": "shredded Italian fontina cheese, divided",
-      "quantity": "½ cup"
+      "name": "Italian fontina cheese, divided",
+      "quantity": "½ cup",
+      "prep": "shredded"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice, from 1 whole lemon",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "freshly squeezed lemon juice, from 1 whole lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 83,
@@ -106,8 +116,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Wipe the crimini mushrooms clean, then remove the stems.",
-      "secondary_message": "1 lb crimini mushrooms"
+      "primary_message": "Finely chop the shallots. Shred the Italian fontina cheese. Juice the lemon. Wipe the crimini mushrooms clean, then remove the stems.",
+      "secondary_message": "3 tbsp shallots\n½ cup Italian fontina cheese, divided\n½ lemon\n1 lb crimini mushrooms"
     },
     {
       "id": 1,

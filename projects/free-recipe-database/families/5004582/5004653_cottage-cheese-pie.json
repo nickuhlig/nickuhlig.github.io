@@ -108,14 +108,22 @@
       "quantity": "2 cups"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from 1 whole lemon",
-      "quantity": "½ tsp"
-    },
-    {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 whole lemon",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice, from 1 whole lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "½ tsp",
+          "name": "lemon zest, from 1 whole lemon"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 1752,
@@ -132,8 +140,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Beat the eggs.",
-      "secondary_message": "2 medium eggs"
+      "primary_message": "Beat the eggs. Zest and juice the lemon.",
+      "secondary_message": "2 medium eggs\n1 lemon"
     },
     {
       "id": 1,

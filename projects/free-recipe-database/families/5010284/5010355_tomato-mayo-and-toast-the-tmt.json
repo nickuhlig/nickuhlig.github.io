@@ -52,9 +52,17 @@
       "quantity": "2 large"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 117,
@@ -109,8 +117,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely mince or grate the garlic. Toast the high-quality bread. Core and slice the ripe tomato into irregular wedges.",
-      "secondary_message": "1 small clove garlic\n4 slices high-quality bread\n1 large ripe tomato"
+      "primary_message": "Juice the lemon. Finely mince or grate the garlic. Toast the high-quality bread. Core and slice the ripe tomato into irregular wedges.",
+      "secondary_message": "½ lemon\n1 small clove garlic\n4 slices high-quality bread\n1 large ripe tomato"
     },
     {
       "id": 1,

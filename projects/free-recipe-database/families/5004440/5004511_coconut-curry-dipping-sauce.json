@@ -45,9 +45,17 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "2 ½ tsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 ½ tsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 53,
@@ -66,11 +74,18 @@
     },
     {
       "ingredient_id": 221,
-      "name": "grated fresh peeled ginger",
-      "quantity": "1 tsp"
+      "name": "fresh peeled ginger",
+      "quantity": "1 tsp",
+      "prep": "grated"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime. Grate the peeled ginger.",
+      "secondary_message": "½ lime\n1 tsp fresh peeled ginger"
+    },
     {
       "id": 1,
       "primary_message": "Combine coconut milk and curry paste in a small saucepan over medium heat and bring to a simmer. Cook, stirring, until slightly thickened and fragrant, about 30 seconds. Remove from heat and set aside.",

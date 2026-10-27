@@ -48,9 +48,17 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1828,
@@ -116,16 +124,17 @@
     },
     {
       "ingredient_id": 270,
-      "name": "finely sliced chives",
-      "quantity": "1 tbsp"
+      "name": "chives",
+      "quantity": "1 tbsp",
+      "prep": "finely sliced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Trim the bottoms of the Enoki mushrooms. Finely slice the onion.",
-      "secondary_message": "2 (99 g) pkgs Enoki mushrooms\n1 medium onion"
+      "primary_message": "Juice the lime. Trim the bottoms of the Enoki mushrooms. Finely slice the onion. Finely slice the chives.",
+      "secondary_message": "½ lime\n2 (99 g) pkgs Enoki mushrooms\n1 medium onion\n1 tbsp chives"
     },
     {
       "id": 1,

@@ -58,8 +58,9 @@
     },
     {
       "ingredient_id": 120,
-      "name": "grated Parmesan, divided",
-      "quantity": "1 cup"
+      "name": "Parmesan, divided",
+      "quantity": "1 cup",
+      "prep": "grated"
     },
     {
       "ingredient_id": 115,
@@ -88,11 +89,18 @@
     },
     {
       "ingredient_id": 1746,
-      "name": "finely sliced fresh basil leaves",
-      "quantity": "¼ cup"
+      "name": "fresh basil leaves",
+      "quantity": "¼ cup",
+      "prep": "finely sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the Parmesan. Pick the basil leaves from the stems and finely slice them.",
+      "secondary_message": "1 cup Parmesan, divided\n¼ cup fresh basil leaves"
+    },
     {
       "id": 1,
       "primary_message": "Bring chicken stock to a boil in a medium saucepan over high heat. Slowly whisk in cornmeal. Reduce heat to low and simmer until mixture has thickened, 30 to 45 minutes, stirring occasionally. Stir in 1/2 cup of Parmesan and butter. Season to taste with salt and pepper.",

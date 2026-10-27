@@ -34,9 +34,17 @@
   "cookwares": [],
   "ingredients": [
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "¼ cup"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "¼ cup",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1785,
@@ -45,8 +53,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "chopped fresh cilantro leaves",
-      "quantity": "2 tbsp"
+      "name": "fresh cilantro leaves",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 88,
@@ -85,8 +94,9 @@
     },
     {
       "ingredient_id": 1069,
-      "name": "grated monterey jack cheese",
-      "quantity": "1 cup"
+      "name": "monterey jack cheese",
+      "quantity": "1 cup",
+      "prep": "grated"
     },
     {
       "ingredient_id": 187,
@@ -95,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the limes. Pick the cilantro leaves from the stems and chop them. Grate the monterey jack cheese.",
+      "secondary_message": "2 limes\n2 tbsp fresh cilantro leaves\n1 cup monterey jack cheese"
+    },
     {
       "id": 1,
       "primary_message": "Combine lime juice, tequlia, cilantro, salt, pepper, cumin, and pepper flakes in a medium bowl and whisk until well combined. Place the chicken thighs in a large zip-top bag, then pour in the marinade and seal the bag, squeezing out as much air as possible. Marinate the chicken in the refrigerator overnight, turning occasionally.",

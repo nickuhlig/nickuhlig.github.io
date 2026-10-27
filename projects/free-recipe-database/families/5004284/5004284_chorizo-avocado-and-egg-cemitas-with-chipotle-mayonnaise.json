@@ -38,9 +38,17 @@
       "quantity": "¼ cup"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice, from 1 lime",
-      "quantity": "1 tsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tsp",
+          "name": "fresh lime juice, from 1 lime"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1618,
@@ -71,8 +79,9 @@
     },
     {
       "ingredient_id": 1773,
-      "name": "shredded iceberg lettuce",
-      "quantity": "½ cup"
+      "name": "iceberg lettuce",
+      "quantity": "½ cup",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 260,
@@ -90,8 +99,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Chop the chipotle chilis. Tear the Oaxacan cheese into pieces. Slice the tomato.",
-      "secondary_message": "1 chipotle chilis, canned in adobo sauce, plus 1 tablespoon adobo sauce\n2 oz Oaxacan cheese\n1 small tomato"
+      "primary_message": "Juice the lime. Chop the chipotle chilis. Tear the Oaxacan cheese into pieces. Shred the iceberg lettuce. Slice the tomato.",
+      "secondary_message": "½ lime\n1 chipotle chilis, canned in adobo sauce, plus 1 tablespoon adobo sauce\n2 oz Oaxacan cheese\n½ cup iceberg lettuce\n1 small tomato"
     },
     {
       "id": 1,

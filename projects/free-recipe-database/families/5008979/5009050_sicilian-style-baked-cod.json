@@ -79,18 +79,21 @@
     },
     {
       "ingredient_id": 106,
-      "name": "finely chopped fresh flat-leaf parsley",
-      "quantity": "1 tbsp"
+      "name": "fresh flat-leaf parsley",
+      "quantity": "1 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 243,
-      "name": "finely chopped fresh mint",
-      "quantity": "1 tsp"
+      "name": "fresh mint",
+      "quantity": "1 tsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 28,
-      "name": "finely chopped fresh basil",
-      "quantity": "2 tsp"
+      "name": "fresh basil",
+      "quantity": "2 tsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1008,
@@ -104,6 +107,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the parsley leaves from the stems and finely chop them. Pick the mint leaves from the stems and finely chop them. Pick the basil leaves from the stems and finely chop them.",
+      "secondary_message": "1 tbsp fresh flat-leaf parsley\n1 tsp fresh mint\n2 tsp fresh basil"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat the oven to 205°C (400°F) (200ºC).",

@@ -84,17 +84,25 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thinly slice the garlic.",
-      "secondary_message": "5 medium cloves garlic"
+      "primary_message": "Thinly slice the garlic. Juice the lemon.",
+      "secondary_message": "5 medium cloves garlic\n½ lemon"
     },
     {
       "id": 1,

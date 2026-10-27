@@ -66,24 +66,34 @@
       "quantity": "3 tbsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "3 tbsp"
-    },
-    {
-      "ingredient_id": 2346,
-      "name": "lime zest, from 3 large limes",
-      "quantity": "½ tsp"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "3",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "3 tbsp",
+          "name": "lime juice"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "½ tsp",
+          "name": "lime zest, from 3 large limes"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 188,
-      "name": "finely chopped cilantro",
-      "quantity": "3 tbsp"
+      "name": "cilantro",
+      "quantity": "3 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "finely minced garlic",
-      "quantity": "1 tbsp"
+      "name": "garlic",
+      "quantity": "1 tbsp",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 186,
@@ -126,8 +136,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Stem, seed, and finely dice the jalapeño.",
-      "secondary_message": "1 large jalapeño"
+      "primary_message": "Zest and juice the limes. Pick the cilantro leaves from the stems and finely chop them. Finely mince the garlic. Stem, seed, and finely dice the jalapeño.",
+      "secondary_message": "3 limes\n3 tbsp cilantro\n1 tbsp garlic\n1 large jalapeño"
     },
     {
       "id": 1,

@@ -37,9 +37,17 @@
   ],
   "ingredients": [
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "6",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 cup",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 103,
@@ -68,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemons.",
+      "secondary_message": "6 lemons"
+    },
     {
       "id": 1,
       "primary_message": "Combine lemon juice, honey, basil leaves, and salt in a blender. Blend on high speed until smooth, about 1 minute. Strain through a fine mesh strainer into a pitcher. Discard solids. Add cold water and whisk to combine. Add ice. Serve in ice-filled glasses garnished with basil leaves.",

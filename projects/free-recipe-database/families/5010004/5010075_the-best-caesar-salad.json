@@ -73,8 +73,9 @@
     },
     {
       "ingredient_id": 120,
-      "name": "finely grated parmesan cheese, divided",
-      "quantity": "57 g"
+      "name": "parmesan cheese, divided",
+      "quantity": "57 g",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 88,
@@ -92,9 +93,17 @@
       "quantity": "1 large"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 325,
@@ -121,8 +130,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the garlic. Cut the hearty bread into 3/4-inch cubes.",
-      "secondary_message": "2 medium cloves garlic\n3 cups hearty bread"
+      "primary_message": "Mince the garlic. Cut the hearty bread into 3/4-inch cubes. Finely grate the parmesan cheese. Juice the lemon.",
+      "secondary_message": "2 medium cloves garlic\n3 cups hearty bread\n57 g parmesan cheese, divided\n½ lemon"
     },
     {
       "id": 1,

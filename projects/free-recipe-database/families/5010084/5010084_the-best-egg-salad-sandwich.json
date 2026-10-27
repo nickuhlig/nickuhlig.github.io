@@ -41,9 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 121,
-      "name": "hard steamed eggs",
+      "name": "eggs",
       "quantity": "6 large",
-      "prep": "chilled and peeled"
+      "prep": "hard-steamed, chilled and peeled"
     },
     {
       "ingredient_id": 267,
@@ -51,29 +51,40 @@
       "quantity": "¼ cup"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from 1 lemon",
-      "quantity": "½ tsp"
-    },
-    {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 lemon",
-      "quantity": "½ tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "½ tsp",
+          "name": "lemon juice, from 1 lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "½ tsp",
+          "name": "lemon zest, from 1 lemon"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 157,
-      "name": "finely diced celery",
-      "quantity": "⅓ cup"
+      "name": "celery",
+      "quantity": "⅓ cup",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 153,
-      "name": "finely sliced scallions, white and pale green parts only",
-      "quantity": "¼ cup"
+      "name": "scallions, white and pale green parts only",
+      "quantity": "¼ cup",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 1808,
-      "name": "minced fresh parsley leaves",
-      "quantity": "1 tbsp"
+      "name": "fresh parsley leaves",
+      "quantity": "1 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 88,
@@ -90,8 +101,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Peel the hard steamed eggs and keep them cold until you use them.",
-      "secondary_message": "6 large hard steamed eggs"
+      "primary_message": "Hard-steam the eggs, then peel them and keep them cold until you use them. Zest and juice the lemon. Finely dice the celery. Finely slice the scallions. Pick the parsley leaves from the stems and mince them.",
+      "secondary_message": "6 large eggs\n1 lemon\n⅓ cup celery\n¼ cup scallions, white and pale green parts only\n1 tbsp fresh parsley leaves"
     },
     {
       "id": 1,

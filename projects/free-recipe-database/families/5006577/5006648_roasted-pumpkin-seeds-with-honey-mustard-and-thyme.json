@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 1677,
-      "name": "picked fresh thyme leaves",
-      "quantity": "1 tsp"
+      "name": "fresh thyme leaves",
+      "quantity": "1 tsp",
+      "prep": "picked"
     },
     {
       "ingredient_id": 88,
@@ -71,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the thyme leaves from the stems.",
+      "secondary_message": "1 tsp fresh thyme leaves"
+    },
     {
       "id": 1,
       "primary_message": "Carefully wash pumpkin seeds to remove all excess pulp. Transfer pumpkin seeds to a paper towel–lined rimmed baking sheet. Allow to rest at room temperature until completely dry, about 1 hour. To speed up the process, dry pumpkin seeds in a 90°C (200°F) oven, stirring occasionally, or use a hair dryer.",

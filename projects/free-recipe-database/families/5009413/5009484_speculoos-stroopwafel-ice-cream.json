@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "freshly grated ginger",
-      "quantity": "2 tsp"
+      "name": "ginger",
+      "quantity": "2 tsp",
+      "prep": "freshly grated"
     },
     {
       "ingredient_id": 1084,
@@ -71,11 +72,18 @@
     },
     {
       "ingredient_id": 3538,
-      "name": "finely chopped stroopwafel, from 4 to 6 large cookies",
-      "quantity": "1 ½ cups"
+      "name": "stroopwafel, from 4 to 6 large cookies",
+      "quantity": "1 ½ cups",
+      "prep": "finely chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Freshly grate the ginger. Finely chop the stroopwafel.",
+      "secondary_message": "2 tsp ginger\n1 ½ cups stroopwafel, from 4 to 6 large cookies"
+    },
     {
       "id": 1,
       "primary_message": "In a curved saucepan or large bowl, whisk together egg yolks, speculoos, sugar, and about 1 cup half and half until a smooth paste forms. Add remaining ingredients and whisk till smooth.",

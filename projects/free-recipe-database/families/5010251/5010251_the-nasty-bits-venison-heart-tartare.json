@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 15,
-      "name": "diced capers",
-      "quantity": "1 tbsp"
+      "name": "capers",
+      "quantity": "1 tbsp",
+      "prep": "diced"
     },
     {
       "ingredient_id": 136,
@@ -65,6 +66,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the capers.",
+      "secondary_message": "1 tbsp capers"
+    },
     {
       "id": 1,
       "primary_message": "Trim the heart for use: remove the tissue and the sinew, as well as the fat around the edges of the heart and inside the separate chambers. Use the majority of the heart for a cooked preparation, if you so desire, and reserve about 4 ounces for the tartare.",

@@ -62,8 +62,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "chopped fresh cilantro leaves",
-      "quantity": "2 tbsp"
+      "name": "fresh cilantro leaves",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1850,
@@ -72,13 +73,15 @@
     },
     {
       "ingredient_id": 152,
-      "name": "finely chopped yellow onion",
-      "quantity": "1 ½ tbsp"
+      "name": "yellow onion",
+      "quantity": "1 ½ tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 260,
-      "name": "finely chopped tomato",
-      "quantity": "1 tbsp"
+      "name": "tomato",
+      "quantity": "1 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1044,
@@ -87,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the cilantro leaves from the stems and chop them. Finely chop the yellow onion. Finely chop the tomato.",
+      "secondary_message": "2 tbsp fresh cilantro leaves\n1 ½ tbsp yellow onion\n1 tbsp tomato"
+    },
     {
       "id": 1,
       "primary_message": "Whisk the eggs with a pinch of salt. Add chili powder, ciilantro, chilies, onion, and tomato. Whisk until aerated and frothy, about 2 minutes.",

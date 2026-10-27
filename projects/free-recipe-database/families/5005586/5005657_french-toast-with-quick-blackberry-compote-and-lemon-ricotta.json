@@ -67,9 +67,17 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 37,
@@ -103,8 +111,9 @@
     },
     {
       "ingredient_id": 350,
-      "name": "freshly grated cardamom",
-      "quantity": "1 pinch"
+      "name": "cardamom",
+      "quantity": "1 pinch",
+      "prep": "freshly grated"
     },
     {
       "ingredient_id": 118,
@@ -126,8 +135,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Carefully wash the blackberries.",
-      "secondary_message": "225 g blackberries"
+      "primary_message": "Carefully wash the blackberries. Juice the lemon. Freshly grate the cardamom.",
+      "secondary_message": "225 g blackberries\n½ lemon\n1 pinch cardamom"
     },
     {
       "id": 1,

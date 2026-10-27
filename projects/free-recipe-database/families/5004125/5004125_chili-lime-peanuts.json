@@ -36,9 +36,17 @@
   "cookwares": [],
   "ingredients": [
     {
-      "ingredient_id": 1421,
-      "name": "freshly squeezed lime juice",
-      "quantity": "¼ cup"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "¼ cup",
+          "name": "freshly squeezed lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 228,
@@ -76,8 +84,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Zest the lime.",
-      "secondary_message": "1 lime"
+      "primary_message": "Juice the limes. Zest the lime.",
+      "secondary_message": "2 limes\n1 lime"
     },
     {
       "id": 1,

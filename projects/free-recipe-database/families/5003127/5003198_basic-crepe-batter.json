@@ -58,8 +58,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "melted unsalted butter, plus more for cooking",
-      "quantity": "1 tbsp"
+      "name": "unsalted butter, plus more for cooking",
+      "quantity": "1 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 88,
@@ -73,6 +74,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter.",
+      "secondary_message": "1 tbsp unsalted butter, plus more for cooking"
+    },
     {
       "id": 1,
       "primary_message": "For the Batter: Combine eggs, milk, flour, melted butter or oil, salt, and sugar (if using) in a blender. Start blender on low speed and increase to high. Blend until smooth, about 10 seconds. Add herbs (if using) and pulse to combine. (Alternatively, you can combine the ingredients in a mixing bowl and whisk vigorously until smooth.)",

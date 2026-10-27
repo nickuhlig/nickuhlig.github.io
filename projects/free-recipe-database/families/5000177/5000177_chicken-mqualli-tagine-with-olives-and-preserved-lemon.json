@@ -40,9 +40,17 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "3 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "3 tbsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 90,
@@ -77,8 +85,9 @@
     },
     {
       "ingredient_id": 188,
-      "name": "packed finely chopped fresh cilantro",
-      "quantity": "¼ cup"
+      "name": "packed fresh cilantro",
+      "quantity": "¼ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
@@ -117,9 +126,9 @@
     },
     {
       "ingredient_id": 1954,
-      "name": "finely chopped preserved lemon",
+      "name": "preserved lemon",
       "quantity": "½ cup",
-      "prep": "finely chopped"
+      "prep": "finely chopped, finely chopped"
     },
     {
       "ingredient_id": 2012,
@@ -131,8 +140,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Slice the yellow onions. Finely chop the finely chopped preserved lemon.",
-      "secondary_message": "4 large yellow onions\n½ cup finely chopped preserved lemon"
+      "primary_message": "Juice the lemon. Slice the yellow onions. Pick the cilantro leaves from the stems and finely chop them. Finely chop and finely chop the preserved lemon.",
+      "secondary_message": "1 lemon\n4 large yellow onions\n¼ cup packed fresh cilantro\n½ cup preserved lemon"
     },
     {
       "id": 1,

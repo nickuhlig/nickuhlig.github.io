@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 2633,
-      "name": "grated bonito flakes",
-      "quantity": "14 g"
+      "name": "bonito flakes",
+      "quantity": "14 g",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1718,
@@ -66,6 +67,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the bonito flakes.",
+      "secondary_message": "14 g bonito flakes"
+    },
     {
       "id": 1,
       "primary_message": "Combine water, kombu, and bonito flakes in a large saucepan and bring to a boil over high heat. Reduce to a bare simmer and cook for 5 minutes. Remove from heat, let cool for 5 minutes, then strain through a fine-mesh strainer. Discard solids.",

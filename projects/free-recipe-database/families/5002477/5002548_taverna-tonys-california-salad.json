@@ -59,9 +59,17 @@
       "quantity": "¼ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 lemon",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice, from 1 lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -113,8 +121,9 @@
     },
     {
       "ingredient_id": 162,
-      "name": "drained and thinly sliced oil-packed sun-dried tomatoes",
-      "quantity": "½ cup"
+      "name": "oil-packed sun-dried tomatoes",
+      "quantity": "½ cup",
+      "prep": "drained and thinly sliced"
     },
     {
       "ingredient_id": 183,
@@ -138,8 +147,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the garlic. Cut the red bell pepper into 1/4- by 2-inch strips. Cut the green bell pepper into 1/4- by 2-inch strips. Crumble the goat cheese into large pieces. Chop the toasted walnuts.",
-      "secondary_message": "1 medium clove garlic\n½ red bell pepper\n½ green bell pepper\n113 g goat cheese\n⅔ cup toasted walnuts"
+      "primary_message": "Juice the lemon. Mince the garlic. Cut the red bell pepper into 1/4- by 2-inch strips. Cut the green bell pepper into 1/4- by 2-inch strips. Drain and thinly slice the oil-packed sun-dried tomatoes. Crumble the goat cheese into large pieces. Chop the toasted walnuts.",
+      "secondary_message": "½ lemon\n1 medium clove garlic\n½ red bell pepper\n½ green bell pepper\n½ cup oil-packed sun-dried tomatoes\n113 g goat cheese\n⅔ cup toasted walnuts"
     },
     {
       "id": 1,

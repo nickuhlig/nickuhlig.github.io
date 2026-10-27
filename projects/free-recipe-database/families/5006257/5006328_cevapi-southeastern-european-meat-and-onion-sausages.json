@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "finely grated onion",
-      "quantity": "3 tbsp"
+      "name": "onion",
+      "quantity": "3 tbsp",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 1191,
@@ -77,6 +78,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely grate the onion.",
+      "secondary_message": "3 tbsp onion"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, mix together beef, lamb, onion, garlic, paprika, salt, pepper, and baking soda by hand until thoroughly combined.",

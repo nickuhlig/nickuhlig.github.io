@@ -86,9 +86,17 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 1 lemon",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "fresh lemon juice, from 1 lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 103,
@@ -122,13 +130,15 @@
     },
     {
       "ingredient_id": 188,
-      "name": "finely chopped cilantro leaves, tender stems stems and leaves",
-      "quantity": "½ cup"
+      "name": "cilantro leaves, tender stems stems and leaves",
+      "quantity": "½ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1932,
-      "name": "finely chopped dill leaves, tender stems stems and leaves",
-      "quantity": "¼ cup"
+      "name": "dill leaves, tender stems stems and leaves",
+      "quantity": "¼ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1850,
@@ -145,8 +155,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Trim and cut the Brussels sprouts in half lengthwise.",
-      "secondary_message": "0.45 kg Brussels sprouts"
+      "primary_message": "Trim and cut the Brussels sprouts in half lengthwise. Juice the lemon. Pick the cilantro leaves and tender stems from the thick stems and finely chop them. Pick the dill fronds and tender stems from the thick stems and finely chop them.",
+      "secondary_message": "0.45 kg Brussels sprouts\n1 lemon\n½ cup cilantro leaves, tender stems stems and leaves\n¼ cup dill leaves, tender stems stems and leaves"
     },
     {
       "id": 1,

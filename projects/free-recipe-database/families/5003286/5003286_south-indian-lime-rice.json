@@ -78,9 +78,17 @@
       "quantity": "1 tsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "2 ½ tbsp"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 ½ tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -107,8 +115,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Stem and halve the fresh Serrano chiles lengthwise. Roughly chop the roasted peanuts.",
-      "secondary_message": "2 fresh Serrano chiles\n2 tbsp roasted peanuts"
+      "primary_message": "Stem and halve the fresh Serrano chiles lengthwise. Roughly chop the roasted peanuts. Juice the limes.",
+      "secondary_message": "2 fresh Serrano chiles\n2 tbsp roasted peanuts\n1 ½ limes"
     },
     {
       "id": 1,

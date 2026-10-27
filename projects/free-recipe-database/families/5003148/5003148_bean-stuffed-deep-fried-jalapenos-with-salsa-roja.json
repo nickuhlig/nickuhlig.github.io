@@ -41,13 +41,15 @@
     },
     {
       "ingredient_id": 1850,
-      "name": "chopped green chiles",
-      "quantity": "1 (4 oz) can"
+      "name": "green chiles",
+      "quantity": "1 (4 oz) can",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 188,
-      "name": "chopped cilantro",
-      "quantity": "2 tbsp"
+      "name": "cilantro",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 151,
@@ -76,6 +78,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the green chiles. Pick the cilantro leaves from the stems and chop them.",
+      "secondary_message": "1 (4 oz) can green chiles\n2 tbsp cilantro"
+    },
     {
       "id": 1,
       "primary_message": "Combine beans, chiles, and cilantro in a small bowl. Spoon mixture into jalapeño halves. Set aside.",

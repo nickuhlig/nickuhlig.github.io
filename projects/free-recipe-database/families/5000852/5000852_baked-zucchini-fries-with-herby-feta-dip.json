@@ -66,9 +66,17 @@
       "prep": "coarsely chopped"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1677,
@@ -97,8 +105,9 @@
     },
     {
       "ingredient_id": 120,
-      "name": "grated Parmigiano-Reggiano cheese",
-      "quantity": "1 cup"
+      "name": "Parmesan cheese",
+      "quantity": "1 cup",
+      "prep": "grated"
     },
     {
       "ingredient_id": 47,
@@ -125,8 +134,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Coarsely chop the garlic clove.",
-      "secondary_message": "1 small garlic clove"
+      "primary_message": "Coarsely chop the garlic clove. Juice the lemon. Grate the Parmesan cheese.",
+      "secondary_message": "1 small garlic clove\n½ lemon\n1 cup Parmesan cheese"
     },
     {
       "id": 1,

@@ -130,9 +130,17 @@
       "quantity": "2 ½ oz"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "½ oz"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "½ oz",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1448,
@@ -146,6 +154,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "For the Dough: Adjust oven rack to lower-middle position and preheat to 350°F. In the bowl of a stand mixer fitted with a paddle attachment, combine sugar, butter, molasses, ginger, baking soda, cinnamon, nutmeg, salt, and lemon zest. Mix on low until moistened, then increase to medium and cream until soft and light, about 5 minutes. Reduce speed to low and add flour all at once, then drizzle in cream and mix until fully incorporated.",

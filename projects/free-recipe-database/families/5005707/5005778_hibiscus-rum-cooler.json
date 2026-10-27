@@ -48,9 +48,17 @@
       "quantity": "4 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "½ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "3",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "½ cup",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2447,
@@ -73,8 +81,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cool the brewed hibiscus tea.",
-      "secondary_message": "4 ½ cups brewed hibiscus tea"
+      "primary_message": "Juice the lemons. Cool the brewed hibiscus tea.",
+      "secondary_message": "3 lemons\n4 ½ cups brewed hibiscus tea"
     },
     {
       "id": 1,

@@ -60,11 +60,18 @@
     },
     {
       "ingredient_id": 286,
-      "name": "roughly chopped fresh rosemary",
-      "quantity": "1 tbsp"
+      "name": "fresh rosemary",
+      "quantity": "1 tbsp",
+      "prep": "roughly chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the rosemary leaves from the stems and roughly chop them.",
+      "secondary_message": "1 tbsp fresh rosemary"
+    },
     {
       "id": 1,
       "primary_message": "Cut off the stem of each fig, then cut two slits from the top of the fig to 3/4-way down in an X-pattern, creating a pocket in the middle of the fig. Stuff each fig with about 1 teaspoon of goat cheese.",

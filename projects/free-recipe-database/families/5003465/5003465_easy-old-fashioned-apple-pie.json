@@ -82,8 +82,9 @@
     },
     {
       "ingredient_id": 349,
-      "name": "grated nutmeg",
-      "quantity": "¼ tsp"
+      "name": "nutmeg",
+      "quantity": "¼ tsp",
+      "prep": "grated"
     },
     {
       "ingredient_id": 351,
@@ -128,6 +129,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the nutmeg.",
+      "secondary_message": "¼ tsp nutmeg"
+    },
     {
       "id": 1,
       "primary_message": "For the Filling: Combine brown sugar, cinnamon, salt, ginger, nutmeg, and cloves in a gallon-sized zip-top bag (do not add tapioca at this time). Peel, quarter, and core the apples, then slice into 1/2-inch wedges; significant deviation can change the consistency of the filling.",

@@ -77,9 +77,17 @@
       "quantity": "149 g"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "21 g"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "21 g",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 353,
@@ -107,8 +115,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Melt the unsalted butter. Wash and dry the fresh fruit.",
-      "secondary_message": "71 g unsalted butter\n340 g fresh fruit"
+      "primary_message": "Melt the unsalted butter. Juice the lemon. Wash and dry the fresh fruit.",
+      "secondary_message": "71 g unsalted butter\n½ lemon\n340 g fresh fruit"
     },
     {
       "id": 1,

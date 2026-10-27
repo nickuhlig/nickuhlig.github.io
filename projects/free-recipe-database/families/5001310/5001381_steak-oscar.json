@@ -70,13 +70,15 @@
     },
     {
       "ingredient_id": 270,
-      "name": "minced fresh chives",
-      "quantity": "1 tbsp"
+      "name": "fresh chives",
+      "quantity": "1 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2346,
-      "name": "grated lemon zest",
-      "quantity": "¼ tsp"
+      "name": "lemon zest",
+      "quantity": "¼ tsp",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1721,
@@ -169,13 +171,22 @@
     },
     {
       "ingredient_id": 270,
-      "name": "minced fresh chives, plus more for garnish",
-      "quantity": "1 tbsp"
+      "name": "fresh chives, plus more for garnish",
+      "quantity": "1 tbsp",
+      "prep": "minced"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 115,
@@ -194,17 +205,25 @@
       "quantity": "0.23 kg"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Trim the center-cut filets mignon. Thinly slice the shallot. Trim the woody ends of the fresh asparagus. Mince the garlic.",
-      "secondary_message": "0.45 kg center-cut filets mignon, 1 1/2 to 2 inches thick\n½ large shallot\n½ bunch fresh asparagus\n1 clove garlic"
+      "primary_message": "Mince the chives. Grate the zest from the lemon. Trim the center-cut filets mignon. Thinly slice the shallot. Trim the woody ends of the fresh asparagus. Mince the chives. Juice the lemon. Mince the garlic. Juice the lemon.",
+      "secondary_message": "1 tbsp fresh chives\n¼ tsp lemon zest\n0.45 kg center-cut filets mignon, 1 1/2 to 2 inches thick\n½ large shallot\n½ bunch fresh asparagus\n1 tbsp fresh chives, plus more for garnish\n½ lemon\n1 clove garlic\n½ lemon"
     },
     {
       "id": 1,

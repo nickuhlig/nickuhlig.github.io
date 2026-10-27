@@ -85,8 +85,9 @@
     },
     {
       "ingredient_id": 1677,
-      "name": "picked fresh thyme leaves",
-      "quantity": "1 tsp"
+      "name": "fresh thyme leaves",
+      "quantity": "1 tsp",
+      "prep": "picked"
     },
     {
       "ingredient_id": 53,
@@ -94,17 +95,25 @@
       "quantity": "1 tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Trim and peel the cipollini onions. Trim the green beans. Wash, trim, and cut the button mushrooms into quarters. Finely chop the shallot. Mince the garlic.",
-      "secondary_message": "0.45 kg cipollini onions\n0.91 kg green beans\n0.45 kg button mushrooms\n1 medium shallot\n4 medium cloves garlic"
+      "primary_message": "Trim and peel the cipollini onions. Trim the green beans. Wash, trim, and cut the button mushrooms into quarters. Finely chop the shallot. Mince the garlic. Pick the thyme leaves from the stems. Juice the lemon.",
+      "secondary_message": "0.45 kg cipollini onions\n0.91 kg green beans\n0.45 kg button mushrooms\n1 medium shallot\n4 medium cloves garlic\n1 tsp fresh thyme leaves\n½ lemon"
     },
     {
       "id": 1,

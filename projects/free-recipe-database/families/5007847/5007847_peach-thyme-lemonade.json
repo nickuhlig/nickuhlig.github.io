@@ -38,9 +38,17 @@
       "prep": "pits discarded, flesh roughly chopped"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "6",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 cup",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 346,
@@ -72,8 +80,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Discard the pits from the fresh peaches, then roughly chop the flesh.",
-      "secondary_message": "3 fresh peaches"
+      "primary_message": "Discard the pits from the fresh peaches, then roughly chop the flesh. Juice the lemons.",
+      "secondary_message": "3 fresh peaches\n6 lemons"
     },
     {
       "id": 1,

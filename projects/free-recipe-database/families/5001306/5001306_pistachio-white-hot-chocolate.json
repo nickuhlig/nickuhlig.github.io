@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 2581,
-      "name": "finely chopped white chocolate",
-      "quantity": "2 oz"
+      "name": "white chocolate",
+      "quantity": "2 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2591,
@@ -81,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the white chocolate.",
+      "secondary_message": "2 oz white chocolate"
+    },
     {
       "id": 1,
       "primary_message": "For the Hot Chocolate: In a small saucepan, bring pistachio milk to a simmer over medium heat. Add white chocolate and whisk constantly until chocolate is melted, about 1 minute. Turn off heat.",

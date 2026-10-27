@@ -124,14 +124,22 @@
       "quantity": "⅛ tsp"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lime zest, from 12 whole Key limes",
-      "quantity": "2 tbsp"
-    },
-    {
-      "ingredient_id": 1421,
-      "name": "lime juice, from 12 whole Key limes",
-      "quantity": "¾ cup"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "12",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "¾ cup",
+          "name": "lime juice, from 12 whole Key limes"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "2 tbsp",
+          "name": "lime zest, from 12 whole Key limes"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 1449,
@@ -169,8 +177,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Bring the buttermilk to room temperature. Bring the unsalted butter to room temperature. Bring the eggs to room temperature. Melt the unsalted butter and let it cool slightly. Bring the egg yolks to room temperature. Bring the cream cheese to room temperature.",
-      "secondary_message": "1 cup buttermilk\n1 lb unsalted butter\n3 large eggs\n2 oz unsalted butter\n6 large egg yolks\n2 oz cream cheese"
+      "primary_message": "Bring the buttermilk to room temperature. Bring the unsalted butter to room temperature. Bring the eggs to room temperature. Melt the unsalted butter and let it cool slightly. Bring the egg yolks to room temperature. Zest and juice the limes. Bring the cream cheese to room temperature.",
+      "secondary_message": "1 cup buttermilk\n1 lb unsalted butter\n3 large eggs\n2 oz unsalted butter\n6 large egg yolks\n12 limes\n2 oz cream cheese"
     },
     {
       "id": 1,

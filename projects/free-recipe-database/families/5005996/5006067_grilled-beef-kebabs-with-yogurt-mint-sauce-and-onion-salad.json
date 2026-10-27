@@ -80,8 +80,9 @@
     },
     {
       "ingredient_id": 106,
-      "name": "minced flat-leaf parsley, divided",
-      "quantity": "5 ½ tbsp"
+      "name": "flat-leaf parsley, divided",
+      "quantity": "5 ½ tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 186,
@@ -154,22 +155,31 @@
       "quantity": "1 ½ tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from about 2 lemons divided",
-      "quantity": "3 ½ tbsp"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "3 ½ tbsp",
+          "name": "lemon juice, from about 2 lemons divided"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 243,
-      "name": "minced fresh mint",
-      "quantity": "2 tbsp"
+      "name": "fresh mint",
+      "quantity": "2 tbsp",
+      "prep": "minced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Lightly beat the egg.",
-      "secondary_message": "1 large egg"
+      "primary_message": "Lightly beat the egg. Pick the parsley leaves from the stems and mince them. Juice the lemons. Pick the mint leaves from the stems and mince them.",
+      "secondary_message": "1 large egg\n5 ½ tbsp flat-leaf parsley, divided\n1 ½ lemons\n2 tbsp fresh mint"
     },
     {
       "id": 1,

@@ -60,9 +60,17 @@
       "quantity": "1 lb (16 oz)"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 79,
@@ -106,6 +114,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "1 lime"
+    },
     {
       "id": 1,
       "primary_message": "Wearing gloves if you have them, trim off and discard the top and bottom of each jalapeño. Cut each jalapeño crosswise into 1-inch rings. Remove seeds and white inner ribs from each ring (a small melon-baller works well for this).",

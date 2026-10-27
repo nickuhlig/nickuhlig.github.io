@@ -53,13 +53,22 @@
     },
     {
       "ingredient_id": 1241,
-      "name": "grated horseradish",
-      "quantity": "½ tsp"
+      "name": "horseradish",
+      "quantity": "½ tsp",
+      "prep": "grated"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -76,8 +85,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the bacon in half.",
-      "secondary_message": "12 strips bacon"
+      "primary_message": "Cut the bacon in half. Grate the horseradish. Juice the lime.",
+      "secondary_message": "12 strips bacon\n½ tsp horseradish\n½ lime"
     },
     {
       "id": 1,

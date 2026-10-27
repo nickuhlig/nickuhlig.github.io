@@ -75,13 +75,15 @@
     },
     {
       "ingredient_id": 184,
-      "name": "minced red onion, from about 1 small onion",
-      "quantity": "¾ cup"
+      "name": "red onion, from about 1 small onion",
+      "quantity": "¾ cup",
+      "prep": "minced"
     },
     {
       "ingredient_id": 270,
-      "name": "minced fresh chives",
-      "quantity": "2 tbsp"
+      "name": "fresh chives",
+      "quantity": "2 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1505,
@@ -100,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the red onion. Mince the chives.",
+      "secondary_message": "¾ cup red onion, from about 1 small onion\n2 tbsp fresh chives"
+    },
     {
       "id": 1,
       "primary_message": "Place sliced potatoes in a large saucier or Dutch oven and cover with water. Season generously with salt. Place potato skins in a fine-mesh strainer and place on top of pot. Add just enough water to submerge potato skins. Bring to a boil over high heat and simmer until potatoes are tender, about 15 minutes.",

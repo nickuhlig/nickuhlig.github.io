@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 1676,
-      "name": "finely diced sweet onion",
-      "quantity": "½ cup"
+      "name": "sweet onion",
+      "quantity": "½ cup",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 1191,
@@ -57,8 +58,9 @@
     },
     {
       "ingredient_id": 234,
-      "name": "roughly chopped peeled fresh peaches",
-      "quantity": "1 ½ cups"
+      "name": "fresh peaches",
+      "quantity": "1 ½ cups",
+      "prep": "peeled and roughly chopped"
     },
     {
       "ingredient_id": 273,
@@ -112,6 +114,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the sweet onion. Peel and roughly chop the peaches.",
+      "secondary_message": "½ cup sweet onion\n1 ½ cups fresh peaches"
+    },
     {
       "id": 1,
       "primary_message": "Melt butter in a medium saucepan over medium heat. When foaming subsides, add onion and cook until softened, about 5 minutes. Add garlic and cook until fragrant, about 30 seconds.",

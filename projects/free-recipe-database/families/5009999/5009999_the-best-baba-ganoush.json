@@ -69,9 +69,17 @@
       "prep": "pricked all over with a fork"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 lemon plus more as desired",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice, from 1 lemon plus more as desired"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 24,
@@ -91,8 +99,9 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "chopped fresh parsley leaves",
-      "quantity": "¼ cup"
+      "name": "fresh parsley leaves",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 88,
@@ -104,8 +113,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Prick the Italian eggplants all over with a fork. Mince the garlic.",
-      "secondary_message": "3 medium Italian eggplants\n3 medium cloves garlic"
+      "primary_message": "Prick the Italian eggplants all over with a fork. Juice the lemon. Mince the garlic. Pick the parsley leaves from the stems and chop them.",
+      "secondary_message": "3 medium Italian eggplants\n1 lemon\n3 medium cloves garlic\n¼ cup fresh parsley leaves"
     },
     {
       "id": 1,

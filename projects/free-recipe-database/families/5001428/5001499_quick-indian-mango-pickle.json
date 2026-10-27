@@ -64,8 +64,9 @@
     },
     {
       "ingredient_id": 2232,
-      "name": "crumbled jaggery",
-      "quantity": "28 g"
+      "name": "jaggery",
+      "quantity": "28 g",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 1682,
@@ -94,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Crumble the jaggery.",
+      "secondary_message": "28 g jaggery"
+    },
     {
       "id": 1,
       "primary_message": "In a large metal bowl, toss diced mangoes with salt and jaggery or sugar until combined; set aside.",

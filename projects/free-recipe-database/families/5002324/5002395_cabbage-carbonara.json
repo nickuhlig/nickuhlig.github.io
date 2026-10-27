@@ -62,8 +62,9 @@
     },
     {
       "ingredient_id": 2498,
-      "name": "diced guanciale, pancetta, or bacon",
-      "quantity": "¼ cup"
+      "name": "guanciale, pancetta, or bacon",
+      "quantity": "¼ cup",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1004,
@@ -83,13 +84,15 @@
     },
     {
       "ingredient_id": 1679,
-      "name": "finely grated Pecorino Romano cheese, plus more for garnish",
-      "quantity": "28 g"
+      "name": "Pecorino Romano cheese, plus more for garnish",
+      "quantity": "28 g",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 120,
-      "name": "finely grated Parmesan cheese, plus more for garnish",
-      "quantity": "28 g"
+      "name": "Parmesan cheese, plus more for garnish",
+      "quantity": "28 g",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 72,
@@ -98,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the guanciale. Finely grate the Pecorino Romano cheese. Finely grate the Parmesan cheese.",
+      "secondary_message": "¼ cup guanciale, pancetta, or bacon\n28 g Pecorino Romano cheese, plus more for garnish\n28 g Parmesan cheese, plus more for garnish"
+    },
     {
       "id": 1,
       "primary_message": "In a small bowl, stir together water and cornstarch until smooth to make a slurry. Transfer slurry to a medium saucepan and cook over medium-high heat, stirring constantly, until thickened into a clear gel, about 1 minute. Remove from heat, and use a spatula to return to small bowl; set aside. Wipe saucepan clean.",

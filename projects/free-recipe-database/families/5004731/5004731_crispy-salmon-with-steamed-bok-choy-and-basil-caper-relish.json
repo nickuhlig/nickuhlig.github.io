@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 1746,
-      "name": "chopped fresh basil leaves",
-      "quantity": "½ cup"
+      "name": "fresh basil leaves",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 153,
@@ -78,9 +79,17 @@
       "quantity": "1 tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 131,
@@ -124,8 +133,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Drain, rinse, and roughly chop the capers. Mince the shallot. Seed and chop the Thai bird. Finely slice the scallions. Finely chop the anchovy fillets. Clean and rinse the leaves of the baby bok choy.",
-      "secondary_message": "2 tbsp capers\n1 small shallot\n1 Thai bird\n2 scallions\n3 anchovy fillets\n7 baby bok choy, but not dried"
+      "primary_message": "Drain, rinse, and roughly chop the capers. Mince the shallot. Seed and chop the Thai bird. Pick the basil leaves from the stems and chop them. Finely slice the scallions. Finely chop the anchovy fillets. Juice the lemon. Clean and rinse the leaves of the baby bok choy.",
+      "secondary_message": "2 tbsp capers\n1 small shallot\n1 Thai bird\n½ cup fresh basil leaves\n2 scallions\n3 anchovy fillets\n½ lemon\n7 baby bok choy, but not dried"
     },
     {
       "id": 1,

@@ -81,9 +81,17 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "1 ½ tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 ½ tsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1472,
@@ -132,8 +140,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Roughly chop the tender stems of the flat-leaf parsley leaves. Thinly slice the scallions.",
-      "secondary_message": "¼ cup flat-leaf parsley leaves\n2 scallions"
+      "primary_message": "Juice the lemon. Roughly chop the tender stems of the flat-leaf parsley leaves. Thinly slice the scallions.",
+      "secondary_message": "½ lemon\n¼ cup flat-leaf parsley leaves\n2 scallions"
     },
     {
       "id": 1,

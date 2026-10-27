@@ -91,9 +91,17 @@
       "prep": "grated"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "fresh lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 56,
@@ -134,16 +142,17 @@
     },
     {
       "ingredient_id": 188,
-      "name": "coarsely chopped fresh cilantro leaves, tender stems",
-      "quantity": "2 tbsp"
+      "name": "fresh cilantro leaves, tender stems",
+      "quantity": "2 tbsp",
+      "prep": "coarsely chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Grate the fresh ginger. Grate the garlic. Drain and cut the extra-firm tofu into 1-inch cubes. Finely chop the red onion.",
-      "secondary_message": "1 (2 inch) fresh ginger, divided\n6 medium cloves garlic, divided\n1 (16 oz) pack extra-firm tofu\n1 large red onion"
+      "primary_message": "Grate the fresh ginger. Grate the garlic. Juice the lime. Drain and cut the extra-firm tofu into 1-inch cubes. Finely chop the red onion. Pick the cilantro leaves and tender stems from the thick stems and coarsely chop them.",
+      "secondary_message": "1 (2 inch) fresh ginger, divided\n6 medium cloves garlic, divided\n½ lime\n1 (16 oz) pack extra-firm tofu\n1 large red onion\n2 tbsp fresh cilantro leaves, tender stems"
     },
     {
       "id": 1,

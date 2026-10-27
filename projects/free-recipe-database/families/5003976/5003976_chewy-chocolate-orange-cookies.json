@@ -82,17 +82,25 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 2346,
-      "name": "orange zest, from 1 whole orange",
-      "quantity": "1 tsp"
+      "ingredient_id": 232,
+      "name": "orange",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tsp",
+          "name": "orange zest, from 1 whole orange"
+        }
+      ],
+      "prep": "zested"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Bring the unsalted butter to room temperature.",
-      "secondary_message": "8 tbsp unsalted butter"
+      "primary_message": "Bring the unsalted butter to room temperature. Zest the orange.",
+      "secondary_message": "8 tbsp unsalted butter\n1 orange"
     },
     {
       "id": 1,

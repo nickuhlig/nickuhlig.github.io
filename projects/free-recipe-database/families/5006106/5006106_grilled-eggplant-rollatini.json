@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 28,
-      "name": "finely chopped fresh basil",
-      "quantity": "3 tbsp"
+      "name": "fresh basil",
+      "quantity": "3 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 88,
@@ -76,18 +77,21 @@
     },
     {
       "ingredient_id": 107,
-      "name": "grated fresh mozzarella, divided",
-      "quantity": "1 cup"
+      "name": "fresh mozzarella, divided",
+      "quantity": "1 cup",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1145,
-      "name": "grated sharp provolone",
-      "quantity": "⅓ cup"
+      "name": "sharp provolone",
+      "quantity": "⅓ cup",
+      "prep": "grated"
     },
     {
       "ingredient_id": 120,
-      "name": "finely grated Parmigiano-Reggiano cheese, divided",
-      "quantity": "⅔ cup"
+      "name": "Parmesan cheese, divided",
+      "quantity": "⅔ cup",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 121,
@@ -96,8 +100,9 @@
     },
     {
       "ingredient_id": 28,
-      "name": "finely chopped fresh basil, plus more for garnish",
-      "quantity": "¼ cup"
+      "name": "fresh basil, plus more for garnish",
+      "quantity": "¼ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 18,
@@ -121,6 +126,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the basil leaves from the stems and finely chop them. Grate the mozzarella. Grate the sharp provolone. Finely grate the Parmesan cheese. Pick the basil leaves from the stems and finely chop them.",
+      "secondary_message": "3 tbsp fresh basil\n1 cup fresh mozzarella, divided\n⅓ cup sharp provolone\n⅔ cup Parmesan cheese, divided\n¼ cup fresh basil, plus more for garnish"
+    },
     {
       "id": 1,
       "primary_message": "For the Marinara: Place oil, garlic, and red pepper flakes in a medium saucepan over medium heat. Cook until fragrant and bubbles start to form around garlic, 30-60 seconds. Stir in crushed tomatoes and bring to a boil. Reduce heat to low and simmer until slightly thickened, about 20 minutes. Remove from heat and stir in basil. Season with salt and pepper. Set aside.",

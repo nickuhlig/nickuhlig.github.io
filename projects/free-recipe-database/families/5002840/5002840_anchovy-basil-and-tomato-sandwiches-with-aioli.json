@@ -41,9 +41,17 @@
       "quantity": "1 large"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -99,8 +107,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely mince the garlic clove. Slice the tomato. Drain the anchovy fillets packed in oil. Drain the capers.",
-      "secondary_message": "1 medium garlic clove\n1 large tomato\n8 to 10 anchovy fillets packed in oil\n2 tsp capers"
+      "primary_message": "Juice the lemon. Finely mince the garlic clove. Slice the tomato. Drain the anchovy fillets packed in oil. Drain the capers.",
+      "secondary_message": "½ lemon\n1 medium garlic clove\n1 large tomato\n8 to 10 anchovy fillets packed in oil\n2 tsp capers"
     },
     {
       "id": 1,

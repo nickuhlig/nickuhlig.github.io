@@ -68,19 +68,28 @@
       "prep": "halved"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from 1 lemon",
-      "quantity": "2 tsp"
-    },
-    {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 lemon",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice, from 1 lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "2 tsp",
+          "name": "lemon zest, from 1 lemon"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 1677,
-      "name": "picked fresh thyme leaves",
-      "quantity": "1 tsp"
+      "name": "fresh thyme leaves",
+      "quantity": "1 tsp",
+      "prep": "picked"
     },
     {
       "ingredient_id": 267,
@@ -105,13 +114,15 @@
     },
     {
       "ingredient_id": 277,
-      "name": "halved baby grape tomatoes",
-      "quantity": "½ cup"
+      "name": "baby grape tomatoes",
+      "quantity": "½ cup",
+      "prep": "halved"
     },
     {
       "ingredient_id": 2099,
-      "name": "chopped Niçoise olives",
-      "quantity": "3 tbsp"
+      "name": "Niçoise olives",
+      "quantity": "3 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 184,
@@ -138,8 +149,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Halve the garlic. Cut the blanched and cooled haricots verts into 1/2-inch lengths.",
-      "secondary_message": "1 medium clove garlic\n6 tbsp blanched and cooled haricots verts"
+      "primary_message": "Halve the garlic. Zest and juice the lemon. Pick the thyme leaves from the stems. Cut the blanched and cooled haricots verts into 1/2-inch lengths. Halve the baby grape tomatoes. Chop the Niçoise olives.",
+      "secondary_message": "1 medium clove garlic\n1 lemon\n1 tsp fresh thyme leaves\n6 tbsp blanched and cooled haricots verts\n½ cup baby grape tomatoes\n3 tbsp Niçoise olives"
     },
     {
       "id": 1,

@@ -80,8 +80,9 @@
     },
     {
       "ingredient_id": 2521,
-      "name": "shredded red leaf lettuce",
-      "quantity": "1 cup"
+      "name": "red leaf lettuce",
+      "quantity": "1 cup",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 1679,
@@ -95,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shred the red leaf lettuce.",
+      "secondary_message": "1 cup red leaf lettuce"
+    },
     {
       "id": 1,
       "primary_message": "Bring a medium pot of salted water to a boil. Meanwhile, combine vinegar, 3/4 cups water, sugar, and a large pinch salt in a medium saucepan. Bring to a boil, stirring. Remove from heat, then add cucumber, onions, and mushrooms to pot and cover with a clean dish towel or paper towel directly in contact with the surface. Set aside for ten minutes.",

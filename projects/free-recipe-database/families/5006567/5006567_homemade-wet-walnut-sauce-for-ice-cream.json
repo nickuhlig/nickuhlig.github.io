@@ -66,9 +66,17 @@
       "prep": "finely chopped fresh ginger"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "½ tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "½ tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 272,
@@ -81,8 +89,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely chop the peeled fresh ginger. Toast and coarsely chop the walnuts.",
-      "secondary_message": "¼ cup peeled\n1 ¼ cups walnuts"
+      "primary_message": "Finely chop the peeled fresh ginger. Juice the lemon. Toast and coarsely chop the walnuts.",
+      "secondary_message": "¼ cup peeled\n½ lemon\n1 ¼ cups walnuts"
     },
     {
       "id": 1,

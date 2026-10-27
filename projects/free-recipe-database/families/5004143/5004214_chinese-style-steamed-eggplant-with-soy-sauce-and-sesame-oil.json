@@ -84,8 +84,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "Finely chopped scallions",
-      "quantity": ""
+      "name": "Scallions",
+      "quantity": "",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 181,
@@ -94,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the scallions.",
+      "secondary_message": "Scallions"
+    },
     {
       "id": 1,
       "primary_message": "Halve eggplants and place in a steamer. Steam until flesh feels soft and saturated with moisture, about 20 minutes. Remove from steamer and let cool. When the eggplants are cool enough to handle, scoop out the flesh in long segments, leaving out as best you can the pockets of seeds in the eggplant.",

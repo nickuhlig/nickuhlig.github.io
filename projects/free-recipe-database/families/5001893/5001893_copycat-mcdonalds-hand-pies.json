@@ -110,9 +110,17 @@
       "quantity": "2 tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 1/2 lemon",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "fresh lemon juice, from 1/2 lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 74,
@@ -165,8 +173,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Beat the egg with 1 tablespoon water.",
-      "secondary_message": "1 large egg"
+      "primary_message": "Juice the lemon. Beat the egg with 1 tablespoon water.",
+      "secondary_message": "½ lemon\n1 large egg"
     },
     {
       "id": 1,

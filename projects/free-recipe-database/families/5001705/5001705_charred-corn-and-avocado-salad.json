@@ -50,13 +50,22 @@
     },
     {
       "ingredient_id": 2346,
-      "name": "grated lime zest",
-      "quantity": "½ tsp"
+      "name": "lime zest",
+      "quantity": "½ tsp",
+      "prep": "grated"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "¼ cup"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "¼ cup",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 188,
@@ -98,16 +107,17 @@
     },
     {
       "ingredient_id": 1914,
-      "name": "crumbled queso fresco",
-      "quantity": "½ cup"
+      "name": "queso fresco",
+      "quantity": "½ cup",
+      "prep": "crumbled"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Husk the fresh corn. Finely chop the tender stems of the cilantro leaves. Thinly slice the serrano chile. Mince the garlic.",
-      "secondary_message": "3 ears fresh corn\n¼ cup cilantro leaves\n1 serrano chile\n2 cloves garlic"
+      "primary_message": "Husk the fresh corn. Grate the zest from the lime. Juice the limes. Finely chop the tender stems of the cilantro leaves. Thinly slice the serrano chile. Mince the garlic. Crumble the queso fresco.",
+      "secondary_message": "3 ears fresh corn\n½ tsp lime zest\n2 limes\n¼ cup cilantro leaves\n1 serrano chile\n2 cloves garlic\n½ cup queso fresco"
     },
     {
       "id": 1,

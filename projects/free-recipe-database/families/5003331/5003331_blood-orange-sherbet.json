@@ -50,9 +50,17 @@
       "prep": "strained"
     },
     {
-      "ingredient_id": 2346,
-      "name": "blood orange zest, from about 14 blood oranges",
-      "quantity": "1 tsp"
+      "ingredient_id": 232,
+      "name": "oranges",
+      "quantity": "14",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tsp",
+          "name": "blood orange zest, from about 14 blood oranges"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 2472,
@@ -79,8 +87,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Strain the blood orange juice.",
-      "secondary_message": "2 cups blood orange juice"
+      "primary_message": "Strain the blood orange juice. Zest the oranges.",
+      "secondary_message": "2 cups blood orange juice\n14 oranges"
     },
     {
       "id": 1,

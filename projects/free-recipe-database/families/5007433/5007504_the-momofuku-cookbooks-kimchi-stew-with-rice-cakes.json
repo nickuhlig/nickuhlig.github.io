@@ -48,8 +48,9 @@
     },
     {
       "ingredient_id": 3680,
-      "name": "sliced rice cakes",
-      "quantity": "1 cup"
+      "name": "rice cakes",
+      "quantity": "1 cup",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 153,
@@ -73,6 +74,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the rice cakes.",
+      "secondary_message": "1 cup rice cakes"
+    },
     {
       "id": 1,
       "primary_message": "Bring the stock to a boil in a pot. Add the kimchi and simmer for 5 to 6 minutes.",

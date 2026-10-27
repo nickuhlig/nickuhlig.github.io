@@ -76,9 +76,17 @@
       "quantity": "1 oz"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice",
-      "quantity": "¾ oz"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "¾ oz",
+          "name": "fresh lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2750,
@@ -110,8 +118,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Crush the cinnamon stick.",
-      "secondary_message": "1 cinnamon stick"
+      "primary_message": "Crush the cinnamon stick. Juice the lime.",
+      "secondary_message": "1 cinnamon stick\n1 lime"
     },
     {
       "id": 1,

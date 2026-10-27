@@ -57,11 +57,18 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "chopped parsley",
-      "quantity": "1 tbsp"
+      "name": "parsley",
+      "quantity": "1 tbsp",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the parsley leaves from the stems and chop them.",
+      "secondary_message": "1 tbsp parsley"
+    },
     {
       "id": 1,
       "primary_message": "Combine the 3/4 cup vinegar with the peanuts in a medium bowl. Soak the peanuts for 1 hour, stirring occasionally. Drain the peanuts, then dry the peanuts by spreading them onto a sheet pan lined with paper towels.",

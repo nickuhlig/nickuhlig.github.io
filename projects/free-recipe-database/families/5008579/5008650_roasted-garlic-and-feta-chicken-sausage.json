@@ -85,13 +85,15 @@
     },
     {
       "ingredient_id": 144,
-      "name": "finely chopped shallots",
-      "quantity": "¼ cup"
+      "name": "shallots",
+      "quantity": "¼ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 3654,
-      "name": "finely chopped fresh oregano",
-      "quantity": "2 tbsp"
+      "name": "fresh oregano",
+      "quantity": "2 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 88,
@@ -110,10 +112,17 @@
       "prep": "chilled"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp",
-      "prep": "chilled"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "juiced",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ]
     },
     {
       "ingredient_id": 2628,
@@ -125,8 +134,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cube the skin on boneless chicken thighs. Crumble the feta cheese. Keep the red wine vinegar cold until you use it. Keep the lemon juice cold until you use it.",
-      "secondary_message": "1.81 kg skin on boneless chicken thighs\n283 g feta cheese, divided\n2 tbsp red wine vinegar\n2 tbsp lemon juice"
+      "primary_message": "Cube the skin on boneless chicken thighs. Crumble the feta cheese. Finely chop the shallots. Pick the oregano leaves from the stems and finely chop them. Keep the red wine vinegar cold until you use it. Juice the lemon.",
+      "secondary_message": "1.81 kg skin on boneless chicken thighs\n283 g feta cheese, divided\n¼ cup shallots\n2 tbsp fresh oregano\n2 tbsp red wine vinegar\n1 lemon"
     },
     {
       "id": 1,

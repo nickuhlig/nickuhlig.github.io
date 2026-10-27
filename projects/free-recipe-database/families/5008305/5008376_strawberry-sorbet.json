@@ -54,9 +54,17 @@
       "quantity": "1 cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, to taste",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon, to taste",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice, to taste"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -68,8 +76,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Wash the strawberries.",
-      "secondary_message": "1893 ml strawberries"
+      "primary_message": "Wash the strawberries. Juice the lemon.",
+      "secondary_message": "1893 ml strawberries\n½ lemon, to taste"
     },
     {
       "id": 1,

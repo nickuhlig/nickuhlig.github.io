@@ -38,8 +38,9 @@
     },
     {
       "ingredient_id": 1677,
-      "name": "picked thyme leaves",
-      "quantity": "2 tsp"
+      "name": "thyme leaves",
+      "quantity": "2 tsp",
+      "prep": "picked"
     },
     {
       "ingredient_id": 192,
@@ -48,9 +49,17 @@
       "prep": "thinly sliced"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2346,
@@ -87,8 +96,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thinly slice the lemon.",
-      "secondary_message": "1/2 lemon"
+      "primary_message": "Pick the thyme leaves from the stems. Thinly slice the lemon. Juice the lemon.",
+      "secondary_message": "2 tsp thyme leaves\n1/2 lemon\n½ lemon"
     },
     {
       "id": 1,

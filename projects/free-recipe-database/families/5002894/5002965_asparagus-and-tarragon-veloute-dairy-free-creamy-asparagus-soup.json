@@ -76,13 +76,22 @@
     },
     {
       "ingredient_id": 2221,
-      "name": "minced fresh tarragon leaves, plus more for serving",
-      "quantity": "1 small handful"
+      "name": "fresh tarragon leaves, plus more for serving",
+      "quantity": "1 small handful",
+      "prep": "minced"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 72,
@@ -94,8 +103,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Trim and thinly slice the fennel bulb. Trim and cut the asparagus into 1 1/2–inch lengths.",
-      "secondary_message": "1 fennel bulb\n2 bunches asparagus"
+      "primary_message": "Trim and thinly slice the fennel bulb. Trim and cut the asparagus into 1 1/2–inch lengths. Pick the tarragon leaves from the stems and mince them. Juice the lemon.",
+      "secondary_message": "1 fennel bulb\n2 bunches asparagus\n1 small handful fresh tarragon leaves, plus more for serving\n1 lemon"
     },
     {
       "id": 1,

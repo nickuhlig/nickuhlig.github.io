@@ -48,18 +48,21 @@
   "ingredients": [
     {
       "ingredient_id": 1980,
-      "name": "thickly sliced pickling cucumbers",
-      "quantity": "4 cups"
+      "name": "pickling cucumbers",
+      "quantity": "4 cups",
+      "prep": "thickly sliced"
     },
     {
       "ingredient_id": 150,
-      "name": "sliced red bell peppers",
-      "quantity": "1 cup"
+      "name": "red bell peppers",
+      "quantity": "1 cup",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 1713,
-      "name": "sliced onion",
-      "quantity": "1 cup"
+      "name": "onion",
+      "quantity": "1 cup",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 88,
@@ -98,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thickly slice the pickling cucumbers. Slice the red bell peppers. Slice the onion.",
+      "secondary_message": "4 cups pickling cucumbers\n1 cup red bell peppers\n1 cup onion"
+    },
     {
       "id": 1,
       "primary_message": "Combine the sliced cucumbers, bell peppers, onion, and pickling salt in a colander set in a large bowl. Refrigerate for one hour to remove excess liquid. Meanwhile, prepare two pint jars and a small canning pot. Rinse vegetables and discard liquid.",

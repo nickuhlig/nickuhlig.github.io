@@ -53,8 +53,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "grated fresh ginger",
-      "quantity": "3 tbsp"
+      "name": "fresh ginger",
+      "quantity": "3 tbsp",
+      "prep": "grated"
     },
     {
       "ingredient_id": 24,
@@ -69,9 +70,17 @@
       "prep": "stemmed and chopped"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice, from 2 limes",
-      "quantity": "¼ cup"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "¼ cup",
+          "name": "fresh lime juice, from 2 limes"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 257,
@@ -159,8 +168,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Chop the garlic. Stem and chop the red pepper. Pick the French green lentils over, then rinse them. Pit and cut the ripe but firm medium peaches into wedges. Roughly chop the loosely packed fresh mint leaves. Roughly tear the loosely packed fresh Thai leaves. Roughly chop the tender stems of the loosely packed fresh cilantro leaves. Thinly slice the red chile peppers.",
-      "secondary_message": "2 medium cloves garlic\n1 small red pepper\n1 ½ cups French green lentils\n2 ripe but firm medium peaches\n⅓ cup loosely packed fresh mint leaves\n⅓ cup loosely packed fresh Thai leaves\n⅓ cup loosely packed fresh cilantro leaves\n1 to 2 small red chile peppers"
+      "primary_message": "Grate the ginger. Chop the garlic. Stem and chop the red pepper. Juice the limes. Pick the French green lentils over, then rinse them. Pit and cut the ripe but firm medium peaches into wedges. Pick the mint leaves from the stems and roughly chop them. Roughly tear the loosely packed fresh Thai leaves. Roughly chop the tender stems of the loosely packed fresh cilantro leaves. Thinly slice the red chile peppers.",
+      "secondary_message": "3 tbsp fresh ginger\n2 medium cloves garlic\n1 small red pepper\n2 limes\n1 ½ cups French green lentils\n2 ripe but firm medium peaches\n⅓ cup loosely packed fresh mint leaves\n⅓ cup loosely packed fresh Thai leaves\n⅓ cup loosely packed fresh cilantro leaves\n1 to 2 small red chile peppers"
     },
     {
       "id": 1,

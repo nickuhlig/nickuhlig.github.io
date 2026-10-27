@@ -71,9 +71,17 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "Lemon juice to taste",
-      "quantity": ""
+      "ingredient_id": 192,
+      "name": "Lemon, to taste",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "",
+          "name": "Lemon juice to taste"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -90,8 +98,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Melt the rendered beef fat.",
-      "secondary_message": "¼ cup rendered beef fat"
+      "primary_message": "Melt the rendered beef fat. Juice the lemon.",
+      "secondary_message": "¼ cup rendered beef fat\n1 Lemon, to taste"
     },
     {
       "id": 1,

@@ -46,10 +46,17 @@
       "quantity": ""
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "60 ml",
-      "prep": "half a juiced lime reserved for the rim"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "2",
+      "prep": "juiced",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "60 ml",
+          "name": "lime juice"
+        }
+      ]
     },
     {
       "ingredient_id": 448,
@@ -71,8 +78,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Juice the half a of the lime juice lime reserved for the rim.",
-      "secondary_message": "60 ml lime juice"
+      "primary_message": "Juice the limes.",
+      "secondary_message": "2 limes"
     },
     {
       "id": 1,

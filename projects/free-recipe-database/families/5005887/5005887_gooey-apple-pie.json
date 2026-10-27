@@ -87,14 +87,22 @@
       "quantity": "½ tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 lemon",
-      "quantity": "2 tsp"
-    },
-    {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from 1 lemon",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice, from 1 lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tsp",
+          "name": "lemon zest, from 1 lemon"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 2380,
@@ -111,8 +119,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Peel, core, and slice the apples 1/2 inch thick.",
-      "secondary_message": "5 lb apples"
+      "primary_message": "Peel, core, and slice the apples 1/2 inch thick. Zest and juice the lemon.",
+      "secondary_message": "5 lb apples\n1 lemon"
     },
     {
       "id": 1,

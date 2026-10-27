@@ -80,8 +80,9 @@
     },
     {
       "ingredient_id": 151,
-      "name": "minced jalapeño, plus more to taste",
-      "quantity": "1 tsp"
+      "name": "jalapeño, plus more to taste",
+      "quantity": "1 tsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 24,
@@ -125,17 +126,25 @@
       "quantity": "12.16 kg"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 1 whole lemon",
-      "quantity": "3 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "3 tbsp",
+          "name": "fresh lemon juice, from 1 whole lemon"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Crack the coriander seeds. Finely chop the red onion. Mince the garlic.",
-      "secondary_message": "1 tbsp coriander seeds\n1 medium red onion\n2 cloves garlic"
+      "primary_message": "Crack the coriander seeds. Finely chop the red onion. Mince the jalapeño. Mince the garlic. Juice the lemon.",
+      "secondary_message": "1 tbsp coriander seeds\n1 medium red onion\n1 tsp jalapeño, plus more to taste\n2 cloves garlic\n1 lemon"
     },
     {
       "id": 1,

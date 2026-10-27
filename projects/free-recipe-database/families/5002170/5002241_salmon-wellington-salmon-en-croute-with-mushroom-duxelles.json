@@ -77,13 +77,15 @@
     },
     {
       "ingredient_id": 320,
-      "name": "minced fresh dill",
-      "quantity": "2 tbsp"
+      "name": "fresh dill",
+      "quantity": "2 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 270,
-      "name": "minced fresh chives",
-      "quantity": "1 tbsp"
+      "name": "fresh chives",
+      "quantity": "1 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 117,
@@ -91,14 +93,27 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest",
-      "quantity": "½ tsp"
-    },
-    {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 lemon",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice, from 1 lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "½ tsp",
+          "name": "lemon zest"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "½ tsp",
+          "name": "finely grated lemon zest"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 88,
@@ -145,13 +160,9 @@
     },
     {
       "ingredient_id": 287,
-      "name": "minced fresh thyme",
-      "quantity": "1 tsp"
-    },
-    {
-      "ingredient_id": 2346,
-      "name": "finely grated lemon zest",
-      "quantity": "½ tsp"
+      "name": "fresh thyme",
+      "quantity": "1 tsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 117,
@@ -160,8 +171,9 @@
     },
     {
       "ingredient_id": 1932,
-      "name": "minced dill",
-      "quantity": "1 tbsp"
+      "name": "dill",
+      "quantity": "1 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 6,
@@ -186,8 +198,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Trim and quarter the cremini mushrooms. Chop the shallots. Peel and chop the garlic. Remove the bones from the skinless center-cut salmon fillet. Thaw the puff pastry. Lightly beat the egg.",
-      "secondary_message": "0.45 kg cremini mushrooms\n2 shallots\n2 cloves garlic\n1 skinless center-cut salmon fillet\n2 (23 cm) sheets puff pastry\n1 egg"
+      "primary_message": "Pick the dill fronds from the stems and mince them. Mince the chives. Zest and juice the lemon. Trim and quarter the cremini mushrooms. Chop the shallots. Peel and chop the garlic. Pick the thyme leaves from the stems and mince them. Pick the dill fronds from the stems and mince them. Remove the bones from the skinless center-cut salmon fillet. Thaw the puff pastry. Lightly beat the egg.",
+      "secondary_message": "2 tbsp fresh dill\n1 tbsp fresh chives\n1 lemon\n0.45 kg cremini mushrooms\n2 shallots\n2 cloves garlic\n1 tsp fresh thyme\n1 tbsp dill\n1 skinless center-cut salmon fillet\n2 (23 cm) sheets puff pastry\n1 egg"
     },
     {
       "id": 1,

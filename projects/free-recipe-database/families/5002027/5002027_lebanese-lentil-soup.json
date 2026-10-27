@@ -96,21 +96,30 @@
     },
     {
       "ingredient_id": 471,
-      "name": "chopped Swiss chard",
-      "quantity": "4 cups"
+      "name": "Swiss chard",
+      "quantity": "4 cups",
+      "prep": "chopped"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, plus more to taste",
-      "quantity": "5 tbsp"
+      "ingredient_id": 192,
+      "name": "lemons, plus more to taste",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "5 tbsp",
+          "name": "fresh lemon juice, plus more to taste"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Pick the brown lentils over, then rinse them. Finely chop the white onions. Mince the garlic. Chop the fresh cilantro. Cut the waxy potatoes into 1/2-inch pieces.",
-      "secondary_message": "1 lb brown lentils\n1 ½ large white onions\n2 large cloves garlic\n1 cup fresh cilantro\n1 medium waxy potatoes"
+      "primary_message": "Pick the brown lentils over, then rinse them. Finely chop the white onions. Mince the garlic. Pick the cilantro leaves from the stems and chop them. Cut the waxy potatoes into 1/2-inch pieces. Chop the Swiss chard. Juice the lemons.",
+      "secondary_message": "1 lb brown lentils\n1 ½ large white onions\n2 large cloves garlic\n1 cup fresh cilantro\n1 medium waxy potatoes\n4 cups Swiss chard\n2 lemons, plus more to taste"
     },
     {
       "id": 1,

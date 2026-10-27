@@ -45,9 +45,17 @@
       "quantity": "7 ml"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice, from 1",
-      "quantity": "22 ml"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "22 ml",
+          "name": "lime juice, from 1"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2929,
@@ -71,6 +79,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "1 lime"
+    },
     {
       "id": 1,
       "primary_message": "Add simple syrup, lime juice, curaçao, rum, and Angostura bitters to a cocktail shaker and fill with ice. Shake until well-chilled, about 12 seconds. Strain into a Champagne flute and top with sparkling wine.",

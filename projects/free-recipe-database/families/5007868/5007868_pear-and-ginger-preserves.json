@@ -54,27 +54,43 @@
       "quantity": "⅓ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 lemon",
-      "quantity": "2 tbsp"
-    },
-    {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from 1 lemon",
-      "quantity": "½ tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice, from 1 lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "½ tsp",
+          "name": "lemon zest, from 1 lemon"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 1081,
-      "name": "finely chopped crystallized ginger",
-      "quantity": "2 tbsp"
+      "name": "crystallized ginger",
+      "quantity": "2 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 221,
-      "name": "minced fresh ginger",
-      "quantity": "1 tbsp"
+      "name": "fresh ginger",
+      "quantity": "1 tbsp",
+      "prep": "minced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest and juice the lemon. Finely chop the crystallized ginger. Mince the ginger.",
+      "secondary_message": "1 lemon\n2 tbsp crystallized ginger\n1 tbsp fresh ginger"
+    },
     {
       "id": 1,
       "primary_message": "Place pears, white sugar, brown sugar, lemon juice, lemon zest, crystallized ginger, and minced ginger in a medium saucepan. Bring to a boil over medium-high heat. Reduce heat to medium and continue to cook, stirring occasionally, until thickened and sauce has gelled, 20 to 30 minutes. Remove from heat.",

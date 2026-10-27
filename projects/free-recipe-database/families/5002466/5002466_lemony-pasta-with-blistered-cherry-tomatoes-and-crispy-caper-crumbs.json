@@ -82,13 +82,9 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "minced fresh parsley",
-      "quantity": "¼ cup"
-    },
-    {
-      "ingredient_id": 2346,
-      "name": "grated lemon zest, from 1 lemon",
-      "quantity": "1 tsp"
+      "name": "fresh parsley",
+      "quantity": "¼ cup",
+      "prep": "minced"
     },
     {
       "ingredient_id": 325,
@@ -124,14 +120,27 @@
       "quantity": "4 ½ tsp"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest",
-      "quantity": "½ tsp"
-    },
-    {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 lemon",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice, from 1 lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tsp",
+          "name": "grated lemon zest, from 1 lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "½ tsp",
+          "name": "lemon zest"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 1721,
@@ -154,8 +163,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Rinse and pat the capers dry. Rinse and pat the anchovy fillet dry, then mince it. Thinly slice the garlic. Rinse and pat the anchovy fillets dry, then mince them. Roughly tear the fresh basil leaves into 1-inch pieces.",
-      "secondary_message": "⅓ cup capers\n1 anchovy fillet\n3 cloves garlic\n2 anchovy fillets\n½ cup fresh basil leaves"
+      "primary_message": "Rinse and pat the capers dry. Pick the parsley leaves from the stems and mince them. Rinse and pat the anchovy fillet dry, then mince it. Thinly slice the garlic. Rinse and pat the anchovy fillets dry, then mince them. Zest and juice the lemon. Roughly tear the fresh basil leaves into 1-inch pieces.",
+      "secondary_message": "⅓ cup capers\n¼ cup fresh parsley\n1 anchovy fillet\n3 cloves garlic\n2 anchovy fillets\n1 lemon\n½ cup fresh basil leaves"
     },
     {
       "id": 1,

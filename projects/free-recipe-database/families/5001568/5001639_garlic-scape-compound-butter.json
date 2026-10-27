@@ -42,9 +42,17 @@
       "quantity": "¼ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 115,
@@ -62,8 +70,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Soften the unsalted butter.",
-      "secondary_message": "0.23 kg unsalted butter"
+      "primary_message": "Juice the lemon. Soften the unsalted butter.",
+      "secondary_message": "½ lemon\n0.23 kg unsalted butter"
     },
     {
       "id": 1,

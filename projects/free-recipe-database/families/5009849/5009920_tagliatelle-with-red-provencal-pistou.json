@@ -52,8 +52,9 @@
     },
     {
       "ingredient_id": 120,
-      "name": "grated Parmigiano Reggiano",
-      "quantity": "¼ cup"
+      "name": "Parmesan cheese",
+      "quantity": "¼ cup",
+      "prep": "grated"
     },
     {
       "ingredient_id": 47,
@@ -77,6 +78,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the Parmesan cheese.",
+      "secondary_message": "¼ cup Parmesan cheese"
+    },
     {
       "id": 1,
       "primary_message": "Bring a large pot of water to boil. While the water is heating, make the pistou. Add the garlic to the food processor, and blitz it to smithereens. Add the basil, sundried tomato, Parmigiano Reggiano, olive oil, and salt and pepper to taste. Blitz in the food processor until you have the consistency of a pesto, scraping down the sides of the bowl once to make sure everything is evenly incorporated.",

@@ -87,9 +87,17 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 medium lemon",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice, from 1 medium lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1729,
@@ -157,8 +165,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thaw and coarsely chop the frozen pitted sweet cherries. Separate the eggs.",
-      "secondary_message": "1 lb frozen pitted sweet cherries\n3 large eggs"
+      "primary_message": "Thaw and coarsely chop the frozen pitted sweet cherries. Juice the lemon. Separate the eggs.",
+      "secondary_message": "1 lb frozen pitted sweet cherries\n½ lemon\n3 large eggs"
     },
     {
       "id": 1,

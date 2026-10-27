@@ -62,8 +62,9 @@
     },
     {
       "ingredient_id": 2017,
-      "name": "grated Gruyère",
-      "quantity": "170 g"
+      "name": "Gruyère",
+      "quantity": "170 g",
+      "prep": "grated"
     },
     {
       "ingredient_id": 88,
@@ -92,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the Gruyère.",
+      "secondary_message": "170 g Gruyère"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 180°C (350°F). In a small saucepan, heat 1 1/2 tablespoons butter with flour over medium-high heat, until butter has melted and formed a paste with flour. Continue to cook, stirring, until raw flour scent is gone, about 1 minute. Whisk in milk until smooth and cook, whisking, until sauce comes to a simmer and begins to thicken slightly. Lower heat to low and cook, stirring, until sauce is thick enough to coat the back of a wooden spoon, about 3 minutes. Whisk in 113 g cheese (reserving the rest for inside the sandwiches) until smooth, moving saucepan on and off heat to keep it hot enough to melt cheese but not so hot that it bubbles rapidly. Season Mornay sauce with salt and pepper and keep warm.",

@@ -53,8 +53,9 @@
   "ingredients": [
     {
       "ingredient_id": 470,
-      "name": "chopped fennel bulb, from 1 medium bulb",
-      "quantity": "1 cup"
+      "name": "fennel bulb, from 1 medium bulb",
+      "quantity": "1 cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 47,
@@ -83,6 +84,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the fennel bulb.",
+      "secondary_message": "1 cup fennel bulb, from 1 medium bulb"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 400°F. On a rimmed baking sheet, toss fennel with a drizzle of olive oil and roast, stirring occasionally, until softened and lightly browned, about 12 minutes. Meanwhile, scatter almonds on another rimmed baking sheet and bake, tossing occasionally, until lightly toasted, about 5 minutes. Let fennel and almonds cool slightly.",

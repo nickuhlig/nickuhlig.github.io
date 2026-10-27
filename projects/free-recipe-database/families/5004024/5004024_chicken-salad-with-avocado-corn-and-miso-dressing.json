@@ -77,9 +77,17 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1801,
@@ -124,8 +132,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thinly slice the ginger. Mince the garlic. Cut the whole avocado into 1/2-inch dice.",
-      "secondary_message": "1 (1 inch) knob ginger\n1 small clove garlic\n1 ¼ whole avocado"
+      "primary_message": "Thinly slice the ginger. Juice the lemon. Mince the garlic. Cut the whole avocado into 1/2-inch dice.",
+      "secondary_message": "1 (1 inch) knob ginger\n½ lemon\n1 small clove garlic\n1 ¼ whole avocado"
     },
     {
       "id": 1,

@@ -68,9 +68,17 @@
       "quantity": "1"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "¼ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¼ cup",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 3670,
@@ -93,8 +101,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thinly slice the fennel bulb.",
-      "secondary_message": "1 fennel bulb"
+      "primary_message": "Juice the lemons. Thinly slice the fennel bulb.",
+      "secondary_message": "1 ½ lemons\n1 fennel bulb"
     },
     {
       "id": 1,

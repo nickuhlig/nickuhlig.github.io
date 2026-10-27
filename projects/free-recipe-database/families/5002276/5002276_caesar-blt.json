@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 120,
-      "name": "finely grated Parmigiano-Reggiano cheese, divided",
-      "quantity": "6 tbsp"
+      "name": "Parmesan cheese, divided",
+      "quantity": "6 tbsp",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 3568,
@@ -81,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely grate the Parmesan cheese.",
+      "secondary_message": "6 tbsp Parmesan cheese, divided"
+    },
     {
       "id": 1,
       "primary_message": "Place a griddle or skillet over medium-low heat. Add bacon and place a bacon press, skillet, or masonry trowel on top of it to keep it flat as it cooks. Cook until lightly browned on first side, about 5 minutes, then flip, cover again, and continue cooking until bacon is browned on both sides and fat has rendered, about 3 minutes longer. Transfer bacon to a paper towel–lined plate and set aside.",

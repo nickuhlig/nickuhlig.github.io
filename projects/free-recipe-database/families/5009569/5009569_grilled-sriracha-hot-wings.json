@@ -78,13 +78,22 @@
     },
     {
       "ingredient_id": 188,
-      "name": "finely chopped cilantro",
-      "quantity": "1 tbsp"
+      "name": "cilantro",
+      "quantity": "1 tbsp",
+      "prep": "finely chopped"
     },
     {
-      "ingredient_id": 1421,
-      "name": "freshly squeezed lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "freshly squeezed lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 257,
@@ -96,8 +105,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the chicken wings into drumettes and flats.",
-      "secondary_message": "4 lb chicken wings"
+      "primary_message": "Cut the chicken wings into drumettes and flats. Pick the cilantro leaves from the stems and finely chop them. Juice the lime.",
+      "secondary_message": "4 lb chicken wings\n1 tbsp cilantro\n½ lime"
     },
     {
       "id": 1,

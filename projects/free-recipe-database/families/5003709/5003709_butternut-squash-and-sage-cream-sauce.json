@@ -69,8 +69,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "minced shallots",
-      "quantity": "⅓ cup"
+      "name": "shallots",
+      "quantity": "⅓ cup",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1505,
@@ -79,8 +80,9 @@
     },
     {
       "ingredient_id": 120,
-      "name": "finely grated parmesan cheese",
-      "quantity": "¼ cup"
+      "name": "parmesan cheese",
+      "quantity": "¼ cup",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 1752,
@@ -99,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the shallots. Finely grate the parmesan cheese.",
+      "secondary_message": "⅓ cup shallots\n¼ cup parmesan cheese"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 425°F. Place squash in a large bowl and toss with olive oil until evenly coated. Transfer squash to a rimmed baking sheet, arranging in a single layer, and place in oven until browned around the edges, about 30 minutes, tossing halfway through. Remove from oven and set aside.",

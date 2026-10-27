@@ -50,8 +50,9 @@
     },
     {
       "ingredient_id": 184,
-      "name": "finely chopped red onion, from 1 red onion",
-      "quantity": "⅓ cup"
+      "name": "red onion, from 1 red onion",
+      "quantity": "⅓ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1600,
@@ -75,9 +76,17 @@
       "quantity": "½ tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "3 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "3 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -104,8 +113,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Dice the red bell peppers. Seed and dice the tomatoes. Pit and quarter the Greek green olives.",
-      "secondary_message": "2 red bell peppers\n2 large tomatoes\n½ cup Greek green olives"
+      "primary_message": "Dice the red bell peppers. Seed and dice the tomatoes. Finely chop the red onion. Pit and quarter the Greek green olives. Juice the lemon.",
+      "secondary_message": "2 red bell peppers\n2 large tomatoes\n⅓ cup red onion, from 1 red onion\n½ cup Greek green olives\n1 lemon"
     },
     {
       "id": 1,

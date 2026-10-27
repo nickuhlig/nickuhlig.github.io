@@ -55,8 +55,9 @@
     },
     {
       "ingredient_id": 1679,
-      "name": "grated Pecorino Romano cheese",
-      "quantity": "3 oz"
+      "name": "Pecorino Romano cheese",
+      "quantity": "3 oz",
+      "prep": "grated"
     },
     {
       "ingredient_id": 88,
@@ -85,8 +86,9 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "minced parsley leaves",
-      "quantity": "1 tbsp"
+      "name": "parsley leaves",
+      "quantity": "1 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 83,
@@ -95,6 +97,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the Pecorino Romano cheese. Pick the parsley leaves from the stems and mince them.",
+      "secondary_message": "3 oz Pecorino Romano cheese\n1 tbsp parsley leaves"
+    },
     {
       "id": 1,
       "primary_message": "Preheat broiler or toaster oven to high. Melt butter in a small saucepan over medium-high heat. Add flour and whisk to combine. Continue to cook, whisking constantly until pale golden blond, about 1 minute. Slowly pour in heavy cream, whisking constantly. Bring to a simmer then remove from heat. Whisk in grated cheese, then season to taste with salt and pepper.",

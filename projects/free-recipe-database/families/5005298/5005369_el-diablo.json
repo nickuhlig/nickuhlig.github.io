@@ -38,9 +38,17 @@
       "quantity": "43 g"
     },
     {
-      "ingredient_id": 1421,
-      "name": "freshly squeezed lime juice, from 1 whole lime",
-      "quantity": "14 g"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "14 g",
+          "name": "freshly squeezed lime juice, from 1 whole lime"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2835,
@@ -59,6 +67,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lime.",
+      "secondary_message": "½ lime"
+    },
     {
       "id": 1,
       "primary_message": "Combine tequila, lime juice, triple sec, and Pimm’s in a cocktail shaker filled with ice. Shake until well chilled, about 20 seconds. Strain contents into a Collins glass filled with ice and top with ginger ale.",

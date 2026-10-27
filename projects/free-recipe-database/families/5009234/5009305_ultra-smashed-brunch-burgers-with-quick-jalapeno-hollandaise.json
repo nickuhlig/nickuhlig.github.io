@@ -66,9 +66,17 @@
       "quantity": "1 tsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -133,8 +141,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Stem, seed, and chop the jalapeño. Split, toast, and butter the English muffins. Pit and slice the avocado.",
-      "secondary_message": "1 jalapeño, divided\n4 English muffins\n¼ avocado"
+      "primary_message": "Juice the lime. Stem, seed, and chop the jalapeño. Split, toast, and butter the English muffins. Pit and slice the avocado.",
+      "secondary_message": "½ lime\n1 jalapeño, divided\n4 English muffins\n¼ avocado"
     },
     {
       "id": 1,

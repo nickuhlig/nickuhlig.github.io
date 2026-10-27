@@ -93,8 +93,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "minced fresh ginger",
-      "quantity": "4 tsp"
+      "name": "fresh ginger",
+      "quantity": "4 tsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1191,
@@ -113,6 +114,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the ginger.",
+      "secondary_message": "4 tsp fresh ginger"
+    },
     {
       "id": 1,
       "primary_message": "Combine 1/2 cup kosher salt with 2 quarts water in a medium bowl. Add eggplant pieces, skin-side up, and set aside to soak for at least 10 and up to 20 minutes.",

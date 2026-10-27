@@ -48,8 +48,9 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "finely chopped fresh parsley, plus more for serving",
-      "quantity": "¾ cup"
+      "name": "fresh parsley, plus more for serving",
+      "quantity": "¾ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 74,
@@ -87,9 +88,17 @@
       "quantity": "1 cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 6 lemons",
-      "quantity": "¾ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "4",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¾ cup",
+          "name": "fresh lemon juice, from 6 lemons"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 24,
@@ -117,8 +126,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely chop the yellow onion. Grate or finely mince the garlic.",
-      "secondary_message": "1 medium yellow onion\n1 medium clove garlic"
+      "primary_message": "Finely chop the yellow onion. Pick the parsley leaves from the stems and finely chop them. Juice the lemons. Grate or finely mince the garlic.",
+      "secondary_message": "1 medium yellow onion\n¾ cup fresh parsley, plus more for serving\n4 lemons\n1 medium clove garlic"
     },
     {
       "id": 1,

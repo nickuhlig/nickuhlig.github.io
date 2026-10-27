@@ -59,17 +59,25 @@
       "quantity": "3 tbsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tbsp",
+          "name": "fresh lime juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely mince the red Thai bird chiles. Finely mince the garlic.",
-      "secondary_message": "10 to 12 red Thai bird chiles\n4 cloves garlic"
+      "primary_message": "Finely mince the red Thai bird chiles. Finely mince the garlic. Juice the lime.",
+      "secondary_message": "10 to 12 red Thai bird chiles\n4 cloves garlic\n1 lime"
     },
     {
       "id": 1,

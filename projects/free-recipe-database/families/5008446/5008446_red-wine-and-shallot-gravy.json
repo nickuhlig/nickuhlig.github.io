@@ -39,8 +39,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "finely chopped shallots",
-      "quantity": "⅓ cup"
+      "name": "shallots",
+      "quantity": "⅓ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2529,
@@ -64,8 +65,9 @@
     },
     {
       "ingredient_id": 287,
-      "name": "finely minced fresh thyme",
-      "quantity": "1 tbsp"
+      "name": "fresh thyme",
+      "quantity": "1 tbsp",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 88,
@@ -79,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the shallots. Pick the thyme leaves from the stems and finely mince them.",
+      "secondary_message": "⅓ cup shallots\n1 tbsp fresh thyme"
+    },
     {
       "id": 1,
       "primary_message": "Melt butter over medium high heat in medium saucepan. When foaming subsides, add in shallots and cook, stirring occasionally, until softened, about 5 minutes.",

@@ -45,8 +45,9 @@
     },
     {
       "ingredient_id": 2017,
-      "name": "grated Gruyère",
-      "quantity": "1 cup"
+      "name": "Gruyère",
+      "quantity": "1 cup",
+      "prep": "grated"
     },
     {
       "ingredient_id": 88,
@@ -65,6 +66,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the Gruyère.",
+      "secondary_message": "1 cup Gruyère"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 375°F. Blanch the broccoli in salted boiling water for 2 minutes. Drain.",

@@ -48,14 +48,22 @@
       "quantity": "4 cups"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from about 8 whole lemons",
-      "quantity": "1 cup"
-    },
-    {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from about 8 whole lemons",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "8",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 cup",
+          "name": "lemon juice, from about 8 whole lemons"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tbsp",
+          "name": "lemon zest, from about 8 whole lemons"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 1448,
@@ -64,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest and juice the lemons.",
+      "secondary_message": "8 lemons"
+    },
     {
       "id": 1,
       "primary_message": "In a large bowl or measuring cup, dissolve sugar in boiling water. Whisk in lemon juice, lemon zest, and lemon extract. Refrigerate and chill completely, 2 to 3 hours.",

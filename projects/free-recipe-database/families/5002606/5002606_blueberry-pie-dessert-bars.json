@@ -100,9 +100,17 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "3 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "3 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 76,
@@ -119,8 +127,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Melt the unsalted butter.",
-      "secondary_message": "1 ¼ cups unsalted butter"
+      "primary_message": "Melt the unsalted butter. Juice the lemon.",
+      "secondary_message": "1 ¼ cups unsalted butter\n1 lemon"
     },
     {
       "id": 1,

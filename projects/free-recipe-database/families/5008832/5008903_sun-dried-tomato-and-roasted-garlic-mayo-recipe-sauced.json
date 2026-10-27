@@ -54,8 +54,9 @@
     },
     {
       "ingredient_id": 162,
-      "name": "roughly chopped sun-dried tomatoes",
-      "quantity": "¼ cup"
+      "name": "sun-dried tomatoes",
+      "quantity": "¼ cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 359,
@@ -74,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the sun-dried tomatoes.",
+      "secondary_message": "¼ cup sun-dried tomatoes"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 350 degrees. Cut off top 1/3 of garlic, exposing tops of each clove. Place garlic, cut side down, on sheet of aluminum foil and drizzle with olive oil. Crimp foil closed and place garlic in oven and roast until completely soft, about 45 minutes. Remove from oven and let stand until cool enough to handle.",

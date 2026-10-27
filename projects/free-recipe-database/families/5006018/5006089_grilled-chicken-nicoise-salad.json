@@ -76,9 +76,17 @@
       "quantity": "½ tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 346,
@@ -87,13 +95,15 @@
     },
     {
       "ingredient_id": 287,
-      "name": "minced fresh thyme",
-      "quantity": "1 tsp"
+      "name": "fresh thyme",
+      "quantity": "1 tsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2221,
-      "name": "minced fresh tarragon",
-      "quantity": "2 tbsp"
+      "name": "fresh tarragon",
+      "quantity": "2 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 47,
@@ -161,8 +171,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the shallot. Mince the garlic. Scrub and quarter the red new potatoes. Trim the haricots verts. Clean the Boston lettuce, then separate and tear the with leaves. Halve the grape tomatoes. Remove the stems from the caper berries, then halve them.",
-      "secondary_message": "½ small shallot\n1 medium clove garlic\n2 medium red new potatoes, small\n0.34 kg haricots verts\n1 head Boston lettuce\n473 ml grape tomatoes\n8 caper berries"
+      "primary_message": "Mince the shallot. Mince the garlic. Juice the lemon. Pick the thyme leaves from the stems and mince them. Pick the tarragon leaves from the stems and mince them. Scrub and quarter the red new potatoes. Trim the haricots verts. Clean the Boston lettuce, then separate and tear the with leaves. Halve the grape tomatoes. Remove the stems from the caper berries, then halve them.",
+      "secondary_message": "½ small shallot\n1 medium clove garlic\n½ lemon\n1 tsp fresh thyme\n2 tbsp fresh tarragon\n2 medium red new potatoes, small\n0.34 kg haricots verts\n1 head Boston lettuce\n473 ml grape tomatoes\n8 caper berries"
     },
     {
       "id": 1,

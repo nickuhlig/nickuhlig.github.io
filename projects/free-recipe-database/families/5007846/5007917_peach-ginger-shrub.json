@@ -56,8 +56,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "grated fresh ginger",
-      "quantity": "⅓ cup"
+      "name": "fresh ginger",
+      "quantity": "⅓ cup",
+      "prep": "grated"
     },
     {
       "ingredient_id": 131,
@@ -71,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the ginger.",
+      "secondary_message": "⅓ cup fresh ginger"
+    },
     {
       "id": 1,
       "primary_message": "Remove pits from peaches and mash in a medium-sized bowl. Add sugar and ginger, stir well. Cover and refrigerate overnight.",

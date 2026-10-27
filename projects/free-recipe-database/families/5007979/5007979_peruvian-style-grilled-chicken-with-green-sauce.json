@@ -86,9 +86,17 @@
       "quantity": "¼ cup"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1574,
@@ -156,8 +164,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Roughly chop the whole jalapeño chiles. Mince the garlic.",
-      "secondary_message": "3 whole jalapeño chiles\n3 medium cloves garlic"
+      "primary_message": "Roughly chop the whole jalapeño chiles. Juice the lime. Mince the garlic.",
+      "secondary_message": "3 whole jalapeño chiles\n½ lime\n3 medium cloves garlic"
     },
     {
       "id": 1,

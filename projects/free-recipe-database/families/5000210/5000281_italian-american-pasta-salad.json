@@ -72,9 +72,17 @@
       "prep": "finely chopped"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "1 ½ tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 ½ tbsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 130,
@@ -120,18 +128,21 @@
     },
     {
       "ingredient_id": 2011,
-      "name": "chopped mild banana pepper rings",
-      "quantity": "½ cup"
+      "name": "mild banana pepper rings",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2012,
-      "name": "coarsely chopped pitted kalamata olives",
-      "quantity": "½ cup"
+      "name": "pitted kalamata olives",
+      "quantity": "½ cup",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 15,
-      "name": "drained non-pareil capers",
-      "quantity": "2 tbsp"
+      "name": "non-pareil capers",
+      "quantity": "2 tbsp",
+      "prep": "drained"
     },
     {
       "ingredient_id": 107,
@@ -141,16 +152,17 @@
     },
     {
       "ingredient_id": 28,
-      "name": "roughly chopped fresh basil",
-      "quantity": "1 cup"
+      "name": "fresh basil",
+      "quantity": "1 cup",
+      "prep": "roughly chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Halve the grape tomatoes. Finely chop the shallot. Thinly slice the garlic. Cut the Genoa salami slices into 1/2-inch-thick strips. Tear the fresh mozzarella cheese into small bite-size pieces.",
-      "secondary_message": "2 cups grape tomatoes\n1 large shallot\n5 medium cloves garlic\n170 g Genoa salami slices, divided\n0.45 kg fresh mozzarella cheese"
+      "primary_message": "Halve the grape tomatoes. Finely chop the shallot. Juice the lemon. Thinly slice the garlic. Cut the Genoa salami slices into 1/2-inch-thick strips. Chop the mild banana pepper rings. Coarsely chop the pitted kalamata olives. Drain the non-pareil capers. Tear the fresh mozzarella cheese into small bite-size pieces. Pick the basil leaves from the stems and roughly chop them.",
+      "secondary_message": "2 cups grape tomatoes\n1 large shallot\n½ lemon\n5 medium cloves garlic\n170 g Genoa salami slices, divided\n½ cup mild banana pepper rings\n½ cup pitted kalamata olives\n2 tbsp non-pareil capers\n0.45 kg fresh mozzarella cheese\n1 cup fresh basil"
     },
     {
       "id": 1,

@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 3654,
-      "name": "minced fresh oregano leaves",
-      "quantity": "¼ cup"
+      "name": "fresh oregano leaves",
+      "quantity": "¼ cup",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1468,
@@ -75,9 +76,17 @@
       "quantity": "½ cup"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice, from 3 to 4 whole limes",
-      "quantity": "¼ cup"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "¼ cup",
+          "name": "fresh lime juice, from 3 to 4 whole limes"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -97,21 +106,23 @@
     },
     {
       "ingredient_id": 243,
-      "name": "finely chopped fresh mint leaves",
-      "quantity": "¼ cup"
+      "name": "fresh mint leaves",
+      "quantity": "¼ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 3654,
-      "name": "finely chopped fresh oregano leaves",
-      "quantity": "3 tbsp"
+      "name": "fresh oregano leaves",
+      "quantity": "3 tbsp",
+      "prep": "finely chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the garlic cloves. Remove the rind from the boneless pork shoulder roast.",
-      "secondary_message": "8 medium garlic cloves\n3.5 kg boneless pork shoulder roast"
+      "primary_message": "Mince the garlic cloves. Pick the oregano leaves from the stems and mince them. Juice the limes. Remove the rind from the boneless pork shoulder roast. Pick the mint leaves from the stems and finely chop them. Pick the oregano leaves from the stems and finely chop them.",
+      "secondary_message": "8 medium garlic cloves\n¼ cup fresh oregano leaves\n2 limes\n3.5 kg boneless pork shoulder roast\n¼ cup fresh mint leaves\n3 tbsp fresh oregano leaves"
     },
     {
       "id": 1,

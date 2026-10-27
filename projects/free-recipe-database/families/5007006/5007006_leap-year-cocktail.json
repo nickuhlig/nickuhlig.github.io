@@ -50,12 +50,26 @@
       "quantity": "½ oz"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "1 dash"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 dash",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "Pour ingredients into a cocktail shaker and fill with ice. Shake well for 10 seconds and strain into a chilled cocktail glass. Twist a piece of lemon peel over the drink and use for garnish.",

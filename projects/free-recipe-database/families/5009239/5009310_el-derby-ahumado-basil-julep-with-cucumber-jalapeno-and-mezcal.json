@@ -51,8 +51,9 @@
   "ingredients": [
     {
       "ingredient_id": 1980,
-      "name": "peeled cucumber",
-      "quantity": "1 (1 ½ cm) round"
+      "name": "cucumber",
+      "quantity": "1 (1 ½ cm) round",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 151,
@@ -86,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the cucumber.",
+      "secondary_message": "1 (1 ½ cm) round cucumber"
+    },
     {
       "id": 1,
       "primary_message": "In a julep cup or large rocks glass, muddle cucumber round and jalapeño until they are well crushed and juices are expressed. Add basil leaves and agave syrup and muddle until basil is lightly bruised, then swab the glass's sides with the basil's aromatic oils. Add mezcal and stir well. Half-fill glass with crushed ice and stir to combine. Fill glass completely with crushed ice and stir until outside of glass frosts. Add more crushed ice, heaping generously, then garnish with sprigs of fresh basil and cucumber stick. Serve, adding a short straw if desired so that the fragrance of the basil bouquet will greet the drinker with each sip.",

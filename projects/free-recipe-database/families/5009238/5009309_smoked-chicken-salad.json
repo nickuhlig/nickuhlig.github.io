@@ -63,18 +63,28 @@
     },
     {
       "ingredient_id": 157,
-      "name": "finely chopped celery",
-      "quantity": "¾ cup (2 ½ oz)"
+      "name": "celery",
+      "quantity": "¾ cup (2 ½ oz)",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 153,
-      "name": "finely sliced scallion",
-      "quantity": "⅓ cup (¾ oz)"
+      "name": "scallion",
+      "quantity": "⅓ cup (¾ oz)",
+      "prep": "finely sliced"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 1 lemon",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "fresh lemon juice, from 1 lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 133,
@@ -111,8 +121,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Halve the whole chicken.",
-      "secondary_message": "1 whole chicken"
+      "primary_message": "Halve the whole chicken. Finely chop the celery. Finely slice the scallion. Juice the lemon.",
+      "secondary_message": "1 whole chicken\n¾ cup (2 ½ oz) celery\n⅓ cup (¾ oz) scallion\n½ lemon"
     },
     {
       "id": 1,

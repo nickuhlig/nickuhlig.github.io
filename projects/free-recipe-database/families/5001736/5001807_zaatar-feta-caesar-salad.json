@@ -70,18 +70,14 @@
     },
     {
       "ingredient_id": 24,
-      "name": "finely grated garlic",
-      "quantity": "1 tsp"
+      "name": "garlic",
+      "quantity": "1 tsp",
+      "prep": "finely grated"
     },
     {
       "ingredient_id": 2018,
       "name": "za’atar",
       "quantity": "2 tbsp"
-    },
-    {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from 1 whole lemon",
-      "quantity": "2 tsp"
     },
     {
       "ingredient_id": 88,
@@ -100,9 +96,22 @@
       "prep": "crumbled"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 1 whole lemon",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "fresh lemon juice, from 1 whole lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "2 tsp",
+          "name": "lemon zest, from 1 whole lemon"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 2018,
@@ -165,8 +174,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Crumble the feta cheese. Mince the garlic.",
-      "secondary_message": "85 g feta cheese\n2 large cloves garlic"
+      "primary_message": "Finely grate the garlic. Crumble the feta cheese. Zest and juice the lemon. Mince the garlic.",
+      "secondary_message": "1 tsp garlic\n85 g feta cheese\n1 lemon\n2 large cloves garlic"
     },
     {
       "id": 1,

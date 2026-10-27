@@ -44,13 +44,22 @@
   "ingredients": [
     {
       "ingredient_id": 2219,
-      "name": "roughly chopped hulled strawberries",
-      "quantity": "4 cups (22 oz)"
+      "name": "hulled strawberries",
+      "quantity": "4 cups (22 oz)",
+      "prep": "roughly chopped"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, plus more if needed",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon, plus more if needed",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice, plus more if needed"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 346,
@@ -64,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the hulled strawberries. Juice the lemon.",
+      "secondary_message": "4 cups (22 oz) hulled strawberries\n1 lemon, plus more if needed"
+    },
     {
       "id": 1,
       "primary_message": "Combine strawberries and lemon juice in a large nonreactive saucepan and set over medium heat until simmering. Stir in sugar and bring mixture to a full boil over medium-high heat, then reduce to a simmer. Stir in pectin until dissolved, return heat to medium-high and bring to a full rolling boil. As soon as mixture reaches a full boil, cook for 1 minute, then remove from heat. Let stand 5 minutes.",

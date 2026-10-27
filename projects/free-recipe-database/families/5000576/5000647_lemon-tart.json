@@ -92,13 +92,22 @@
     },
     {
       "ingredient_id": 2346,
-      "name": "grated lemon zest",
-      "quantity": "¼ cup"
+      "name": "lemon zest",
+      "quantity": "¼ cup",
+      "prep": "grated"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "¾ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "4",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¾ cup",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -121,8 +130,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Melt and cool the unsalted butter slightly. Cut the unsalted butter into ½-inch pieces.",
-      "secondary_message": "8 tbsp unsalted butter\n4 tbsp unsalted butter"
+      "primary_message": "Melt and cool the unsalted butter slightly. Grate the zest from the lemon. Juice the lemons. Cut the unsalted butter into ½-inch pieces.",
+      "secondary_message": "8 tbsp unsalted butter\n¼ cup lemon zest\n4 lemons\n4 tbsp unsalted butter"
     },
     {
       "id": 1,

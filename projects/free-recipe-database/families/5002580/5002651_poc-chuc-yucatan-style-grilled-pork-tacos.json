@@ -69,8 +69,9 @@
     },
     {
       "ingredient_id": 180,
-      "name": "thinly sliced boneless pork loin chops",
-      "quantity": "0.9 kg"
+      "name": "boneless pork loin chops",
+      "quantity": "0.9 kg",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 152,
@@ -101,9 +102,17 @@
       "quantity": "¼ cup"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice, from 1 lime",
-      "quantity": "2 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tbsp",
+          "name": "fresh lime juice, from 1 lime"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -120,8 +129,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Peel and quarter the yellow onion. Peel the garlic. Stem the habanero.",
-      "secondary_message": "1 medium yellow onion\n5 medium cloves garlic\n½ to 1 habanero"
+      "primary_message": "Thinly slice the boneless pork loin chops. Peel and quarter the yellow onion. Peel the garlic. Stem the habanero. Juice the lime.",
+      "secondary_message": "0.9 kg boneless pork loin chops\n1 medium yellow onion\n5 medium cloves garlic\n½ to 1 habanero\n1 lime"
     },
     {
       "id": 1,

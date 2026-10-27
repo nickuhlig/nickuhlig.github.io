@@ -56,22 +56,31 @@
       "quantity": "2 (14 oz) cans"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "1 cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "6",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 cup",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2346,
-      "name": "freshly grated lemon zest",
-      "quantity": "1 ½ tsp"
+      "name": "lemon zest",
+      "quantity": "1 ½ tsp",
+      "prep": "freshly grated"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Melt the unsalted butter.",
-      "secondary_message": "4 tbsp unsalted butter"
+      "primary_message": "Melt the unsalted butter. Juice the lemons. Grate the zest from the lemon.",
+      "secondary_message": "4 tbsp unsalted butter\n6 lemons\n1 ½ tsp lemon zest"
     },
     {
       "id": 1,

@@ -70,22 +70,30 @@
       "quantity": "1"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lime zest, from about 4 small key limes",
-      "quantity": "2 tsp"
-    },
-    {
-      "ingredient_id": 1421,
-      "name": "lime juice, from about 4 small key limes",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "4",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice, from about 4 small key limes"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "2 tsp",
+          "name": "lime zest, from about 4 small key limes"
+        }
+      ],
+      "prep": "zested and juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Bring the unsalted butter to room temperature.",
-      "secondary_message": "1 stick unsalted butter"
+      "primary_message": "Bring the unsalted butter to room temperature. Zest and juice the limes.",
+      "secondary_message": "1 stick unsalted butter\n4 limes"
     },
     {
       "id": 1,

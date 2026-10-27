@@ -32,10 +32,17 @@
   "cookwares": [],
   "ingredients": [
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 cup",
-      "prep": "chilled"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "6",
+      "prep": "juiced",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 cup",
+          "name": "lemon juice"
+        }
+      ]
     },
     {
       "ingredient_id": 2346,
@@ -68,8 +75,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Keep the lemon juice cold until you use it. Keep the water cold until you use it.",
-      "secondary_message": "1 cup lemon juice\n1 ½ cups water"
+      "primary_message": "Juice the lemons. Keep the water cold until you use it.",
+      "secondary_message": "6 lemons\n1 ½ cups water"
     },
     {
       "id": 1,

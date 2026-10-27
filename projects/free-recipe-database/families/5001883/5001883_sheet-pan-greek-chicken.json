@@ -38,9 +38,17 @@
   ],
   "ingredients": [
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 130,
@@ -49,8 +57,9 @@
     },
     {
       "ingredient_id": 287,
-      "name": "chopped fresh thyme",
-      "quantity": "2 tsp"
+      "name": "fresh thyme",
+      "quantity": "2 tsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 82,
@@ -101,8 +110,9 @@
     },
     {
       "ingredient_id": 243,
-      "name": "chopped fresh mint, plus more for garnish",
-      "quantity": "2 tbsp"
+      "name": "fresh mint, plus more for garnish",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 184,
@@ -137,8 +147,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Grate the garlic cloves. Halve the thicker stems of the fresh Broccolini lengthwise. Drain the pitted kalamata olives. Crumble the feta cheese into 1/2-inch pieces.",
-      "secondary_message": "4 medium garlic cloves, divided\n8 oz fresh Broccolini\n⅔ cup pitted kalamata olives\n3 oz feta cheese"
+      "primary_message": "Juice the lemon. Pick the thyme leaves from the stems and chop them. Grate the garlic cloves. Pick the mint leaves from the stems and chop them. Halve the thicker stems of the fresh Broccolini lengthwise. Drain the pitted kalamata olives. Crumble the feta cheese into 1/2-inch pieces.",
+      "secondary_message": "1 lemon\n2 tsp fresh thyme\n4 medium garlic cloves, divided\n2 tbsp fresh mint, plus more for garnish\n8 oz fresh Broccolini\n⅔ cup pitted kalamata olives\n3 oz feta cheese"
     },
     {
       "id": 1,

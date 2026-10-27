@@ -104,8 +104,9 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "minced fresh parsley leaves",
-      "quantity": "¼ cup"
+      "name": "fresh parsley leaves",
+      "quantity": "¼ cup",
+      "prep": "minced"
     },
     {
       "ingredient_id": 115,
@@ -113,9 +114,17 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 475,
@@ -127,8 +136,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Dice the hard dry fennel salami. Thinly slice the fennel. Thinly slice the onion. Thinly slice the garlic. Remove the white pith from the orange zest.",
-      "secondary_message": "113 g hard dry fennel salami\n1 small bulb fennel\n1 small onion\n4 medium cloves garlic\n1 (5 cm) piece orange zest"
+      "primary_message": "Dice the hard dry fennel salami. Thinly slice the fennel. Thinly slice the onion. Thinly slice the garlic. Remove the white pith from the orange zest. Pick the parsley leaves from the stems and mince them. Juice the lemon.",
+      "secondary_message": "113 g hard dry fennel salami\n1 small bulb fennel\n1 small onion\n4 medium cloves garlic\n1 (5 cm) piece orange zest\n¼ cup fresh parsley leaves\n½ lemon"
     },
     {
       "id": 1,

@@ -91,21 +91,30 @@
     },
     {
       "ingredient_id": 2463,
-      "name": "sliced rhubarb",
-      "quantity": "14 oz"
+      "name": "rhubarb",
+      "quantity": "14 oz",
+      "prep": "sliced"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the butter into 6 pieces and keep it cold until you use it.",
-      "secondary_message": "4 oz butter"
+      "primary_message": "Cut the butter into 6 pieces and keep it cold until you use it. Slice the rhubarb. Juice the lemon.",
+      "secondary_message": "4 oz butter\n14 oz rhubarb\n½ lemon"
     },
     {
       "id": 1,

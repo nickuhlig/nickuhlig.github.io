@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "peeled onion",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 24,
@@ -77,6 +78,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the onion.",
+      "secondary_message": "1 small onion"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 375°.",

@@ -44,9 +44,17 @@
       "quantity": "½ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -60,6 +68,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "Bring 4 quarts water to a boil in a large pot and prepare an ice bath. Carefully lower eggs into pot and continue to boil for 30 seconds. Cover tightly, reduce heat to low (water should maintain a bare simmer), and continue cooking for 12 minutes for hard-cooked yolks. Immediately transfer eggs to ice water and allow to cool for at least 15 minutes, then peel under cool running water. Halve eggs lengthwise and scoop yolks into a medium mixing bowl; reserve egg white halves.",

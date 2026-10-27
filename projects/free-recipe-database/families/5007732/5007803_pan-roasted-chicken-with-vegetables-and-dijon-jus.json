@@ -120,8 +120,9 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "minced fresh parsley leaves",
-      "quantity": "2 tbsp"
+      "name": "fresh parsley leaves",
+      "quantity": "2 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 115,
@@ -134,9 +135,17 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 52,
@@ -148,8 +157,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Scrub the fingerling new potatoes. Split the Brussels sprouts in half. Split the whole onion in half. Roughly chop the celery. Thinly slice the shallot.",
-      "secondary_message": "16 fingerling new potatoes\n0.3 kg Brussels sprouts\n1 whole onion\n1 stalk celery\n1 medium shallot"
+      "primary_message": "Scrub the fingerling new potatoes. Split the Brussels sprouts in half. Split the whole onion in half. Roughly chop the celery. Thinly slice the shallot. Pick the parsley leaves from the stems and mince them. Juice the lemon.",
+      "secondary_message": "16 fingerling new potatoes\n0.3 kg Brussels sprouts\n1 whole onion\n1 stalk celery\n1 medium shallot\n2 tbsp fresh parsley leaves\n½ lemon"
     },
     {
       "id": 1,

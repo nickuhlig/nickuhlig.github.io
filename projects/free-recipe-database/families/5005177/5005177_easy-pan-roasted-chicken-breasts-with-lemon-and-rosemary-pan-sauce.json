@@ -82,18 +82,28 @@
     },
     {
       "ingredient_id": 286,
-      "name": "minced fresh rosemary leaves",
-      "quantity": "1 tbsp"
+      "name": "fresh rosemary leaves",
+      "quantity": "1 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2346,
-      "name": "peeled zest",
-      "quantity": "1 (1 ½ inch) piece"
+      "name": "zest",
+      "quantity": "1 (1 ½ inch) piece",
+      "prep": "peeled"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 ½ tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 ½ tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 115,
@@ -110,8 +120,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the shallot.",
-      "secondary_message": "1 small shallot"
+      "primary_message": "Mince the shallot. Pick the rosemary leaves from the stems and mince them. Peel the zest. Juice the lemon.",
+      "secondary_message": "1 small shallot\n1 tbsp fresh rosemary leaves\n1 (1 ½ inch) piece zest\n½ lemon"
     },
     {
       "id": 1,

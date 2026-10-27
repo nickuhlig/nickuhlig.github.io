@@ -81,11 +81,18 @@
     },
     {
       "ingredient_id": 43,
-      "name": "grated cheddar cheese",
-      "quantity": "57 g"
+      "name": "cheddar cheese",
+      "quantity": "57 g",
+      "prep": "grated"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the cheddar cheese.",
+      "secondary_message": "57 g cheddar cheese"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 205°C (400°F). Line baking sheet with parchment paper and set aside.",

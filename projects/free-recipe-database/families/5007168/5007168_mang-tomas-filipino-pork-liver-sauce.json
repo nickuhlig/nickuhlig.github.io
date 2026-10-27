@@ -52,8 +52,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "finely chopped yellow onion",
-      "quantity": "⅓ cup"
+      "name": "yellow onion",
+      "quantity": "⅓ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1191,
@@ -92,6 +93,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the yellow onion.",
+      "secondary_message": "⅓ cup yellow onion"
+    },
     {
       "id": 1,
       "primary_message": "Place liver in the workbowl of a food processor. Pulse until chopped into a fine paste, stopping to scrape down sides of bowl as necessary.",

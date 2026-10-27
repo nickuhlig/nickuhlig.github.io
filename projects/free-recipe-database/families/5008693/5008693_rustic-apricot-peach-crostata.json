@@ -57,9 +57,17 @@
       "quantity": "½ tsp"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from 1 whole lemon",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tsp",
+          "name": "lemon zest, from 1 whole lemon"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 115,
@@ -119,8 +127,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Dice the cold unsalted butter. Microwave the apricot jam for 30 seconds to loosen. Slice the peaches into 1/4 inch wedges.",
-      "secondary_message": "¾ cup cold unsalted butter\n1 cup apricot jam\n4 peaches"
+      "primary_message": "Zest the lemon. Dice the cold unsalted butter. Microwave the apricot jam for 30 seconds to loosen. Slice the peaches into 1/4 inch wedges.",
+      "secondary_message": "1 lemon\n¾ cup cold unsalted butter\n1 cup apricot jam\n4 peaches"
     },
     {
       "id": 1,

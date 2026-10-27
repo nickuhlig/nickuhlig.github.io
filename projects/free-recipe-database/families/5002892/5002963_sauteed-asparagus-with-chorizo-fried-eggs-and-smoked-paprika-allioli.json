@@ -54,9 +54,17 @@
       "quantity": "1 tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 24,
@@ -128,8 +136,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the garlic. Finely dice the Spanish-style dry-cured chorizo. Trim and cut the thin asparagus into 2-inch lengths. Finely slice the garlic.",
-      "secondary_message": "1 medium clove garlic\n113 g Spanish-style dry-cured chorizo\n¾ bunch thin asparagus\n2 medium cloves garlic"
+      "primary_message": "Juice the lemon. Mince the garlic. Finely dice the Spanish-style dry-cured chorizo. Trim and cut the thin asparagus into 2-inch lengths. Finely slice the garlic.",
+      "secondary_message": "½ lemon\n1 medium clove garlic\n113 g Spanish-style dry-cured chorizo\n¾ bunch thin asparagus\n2 medium cloves garlic"
     },
     {
       "id": 1,

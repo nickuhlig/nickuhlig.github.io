@@ -44,9 +44,17 @@
       "prep": "minced"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice",
-      "quantity": "3 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "3 tbsp",
+          "name": "freshly squeezed lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -68,8 +76,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Remove the skin from the halibut fillets. Mince the garlic.",
-      "secondary_message": "0.45 kg halibut fillets\n2 cloves garlic"
+      "primary_message": "Remove the skin from the halibut fillets. Mince the garlic. Juice the lemon.",
+      "secondary_message": "0.45 kg halibut fillets\n2 cloves garlic\n1 lemon"
     },
     {
       "id": 1,

@@ -149,21 +149,30 @@
     },
     {
       "ingredient_id": 2436,
-      "name": "finely chopped fresh soft herbs, such as parsley or chives",
-      "quantity": "2 tbsp"
+      "name": "fresh soft herbs, such as parsley or chives",
+      "quantity": "2 tbsp",
+      "prep": "finely chopped"
     },
     {
-      "ingredient_id": 1480,
-      "name": "Fresh lemon juice, to taste",
-      "quantity": ""
+      "ingredient_id": 192,
+      "name": "Lemon, to taste",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "",
+          "name": "Fresh lemon juice, to taste"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the shallot. Peel and devein the shrimp. Mince the shallot. Mince the garlic. Halve the cherry tomatoes. Roughly chop the arugula.",
-      "secondary_message": "½ medium shallot\n225 g shrimp, medium\n1 medium shallot\n2 medium cloves garlic\n170 g cherry tomatoes\n57 g arugula"
+      "primary_message": "Mince the shallot. Peel and devein the shrimp. Mince the shallot. Mince the garlic. Halve the cherry tomatoes. Roughly chop the arugula. Pick the herb leaves from the stems and finely chop them. Juice the lemon.",
+      "secondary_message": "½ medium shallot\n225 g shrimp, medium\n1 medium shallot\n2 medium cloves garlic\n170 g cherry tomatoes\n57 g arugula\n2 tbsp fresh soft herbs, such as parsley or chives\n1 Lemon, to taste"
     },
     {
       "id": 1,

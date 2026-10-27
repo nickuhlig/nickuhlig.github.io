@@ -45,9 +45,17 @@
       "quantity": "3 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 1 lemon",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "fresh lemon juice, from 1 lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 359,
@@ -105,8 +113,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Hull and quarter the fresh strawberries. Keep the heavy whipping cream cold until you use it.",
-      "secondary_message": "1 lb fresh strawberries\n1 cup heavy whipping cream"
+      "primary_message": "Hull and quarter the fresh strawberries. Juice the lemon. Keep the heavy whipping cream cold until you use it.",
+      "secondary_message": "1 lb fresh strawberries\n½ lemon\n1 cup heavy whipping cream"
     },
     {
       "id": 1,

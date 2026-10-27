@@ -50,9 +50,17 @@
       "prep": "softened"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 2 lemons",
-      "quantity": "¼ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¼ cup",
+          "name": "lemon juice, from 2 lemons"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 478,
@@ -88,16 +96,17 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "chopped parsley, for garnishd",
-      "quantity": "1 tbsp"
+      "name": "parsley, for garnishd",
+      "quantity": "1 tbsp",
+      "prep": "chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Soften the unsalted butter. Finely mince or press the garlic. Shuck the corn.",
-      "secondary_message": "8 tbsp unsalted butter\n3 cloves garlic\n6 ears corn"
+      "primary_message": "Soften the unsalted butter. Juice the lemons. Finely mince or press the garlic. Shuck the corn. Pick the parsley leaves from the stems and chop them.",
+      "secondary_message": "8 tbsp unsalted butter\n1 ½ lemons\n3 cloves garlic\n6 ears corn\n1 tbsp parsley, for garnishd"
     },
     {
       "id": 1,

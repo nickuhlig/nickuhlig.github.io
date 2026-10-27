@@ -65,8 +65,9 @@
     },
     {
       "ingredient_id": 1794,
-      "name": "finely chopped seeded fresh jalapeño",
-      "quantity": "¼ cup"
+      "name": "seeded fresh jalapeño",
+      "quantity": "¼ cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 88,
@@ -80,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the seeded fresh jalapeño.",
+      "secondary_message": "¼ cup seeded fresh jalapeño"
+    },
     {
       "id": 1,
       "primary_message": "Combine cranberries, sugar, water, lime juice, lime zest, jalapeños, and salt in a medium saucepan. Bring to a boil over medium-high heat. Cook, stirring occasionally, until berries start to pop, about 5 minutes. Press berries against side of pan with a wooden spoon and continue to cook until berries have broken down and sauce thickens to a jam-like consistency, about 5 minutes more.",

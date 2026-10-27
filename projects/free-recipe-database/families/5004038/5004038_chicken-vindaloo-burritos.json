@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "peeled fresh ginger",
-      "quantity": "1 (1 inch) piece"
+      "name": "fresh ginger",
+      "quantity": "1 (1 inch) piece",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 44,
@@ -108,8 +109,9 @@
     },
     {
       "ingredient_id": 148,
-      "name": "diced yellow potatoes",
-      "quantity": "2 cups"
+      "name": "yellow potatoes",
+      "quantity": "2 cups",
+      "prep": "diced"
     },
     {
       "ingredient_id": 323,
@@ -142,9 +144,17 @@
       "quantity": "¼ tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -178,8 +188,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Dice the onion. Dice the tomato. Crumble the paneer cheese.",
-      "secondary_message": "1 large onion\n1 large tomato\n6 oz paneer cheese"
+      "primary_message": "Peel the ginger. Dice the onion. Dice the yellow potatoes. Juice the lemon. Dice the tomato. Crumble the paneer cheese.",
+      "secondary_message": "1 (1 inch) piece fresh ginger\n1 large onion\n2 cups yellow potatoes\n½ lemon\n1 large tomato\n6 oz paneer cheese"
     },
     {
       "id": 1,

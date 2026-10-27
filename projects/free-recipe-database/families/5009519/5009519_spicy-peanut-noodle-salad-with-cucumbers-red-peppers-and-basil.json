@@ -57,9 +57,17 @@
       "quantity": "3 tbsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 51,
@@ -123,8 +131,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Grate the garlic on a microplane grater. Slice the red bell peppers into thin strips.",
-      "secondary_message": "1 clove garlic\n2 large red bell peppers"
+      "primary_message": "Juice the lime. Grate the garlic on a microplane grater. Slice the red bell peppers into thin strips.",
+      "secondary_message": "1 lime\n1 clove garlic\n2 large red bell peppers"
     },
     {
       "id": 1,

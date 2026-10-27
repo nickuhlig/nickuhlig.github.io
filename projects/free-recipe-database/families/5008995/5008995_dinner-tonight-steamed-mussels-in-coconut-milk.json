@@ -81,9 +81,17 @@
       "prep": "scrubbed and debearded"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 188,
@@ -96,8 +104,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Thinly slice the onion. Mince the ginger. Scrub and debeard the mussels. Chop the fresh cilantro.",
-      "secondary_message": "1 medium onion\n1 tbsp ginger\n3 lb mussels\n1 handful fresh cilantro"
+      "primary_message": "Thinly slice the onion. Mince the ginger. Scrub and debeard the mussels. Juice the lemon. Pick the cilantro leaves from the stems and chop them.",
+      "secondary_message": "1 medium onion\n1 tbsp ginger\n3 lb mussels\n½ lemon\n1 handful fresh cilantro"
     },
     {
       "id": 1,

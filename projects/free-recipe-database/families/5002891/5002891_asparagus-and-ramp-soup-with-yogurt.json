@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 2275,
-      "name": "trimmed ramps, divided",
-      "quantity": "1 lb"
+      "name": "ramps, divided",
+      "quantity": "1 lb",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 115,
@@ -76,22 +77,31 @@
       "quantity": "¼ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 243,
-      "name": "chopped mint",
-      "quantity": "2 tbsp"
+      "name": "mint",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Trim the fibrous root end of the asparagus stalks.",
-      "secondary_message": "2 bunches asparagus stalks"
+      "primary_message": "Trim the fibrous root end of the asparagus stalks. Trim the ramps. Juice the lemon. Pick the mint leaves from the stems and chop them.",
+      "secondary_message": "2 bunches asparagus stalks\n1 lb ramps, divided\n½ lemon\n2 tbsp mint"
     },
     {
       "id": 1,

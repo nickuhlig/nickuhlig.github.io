@@ -50,11 +50,18 @@
     },
     {
       "ingredient_id": 270,
-      "name": "chopped snipped chives",
-      "quantity": "1 tbsp"
+      "name": "snipped chives",
+      "quantity": "1 tbsp",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the snipped chives.",
+      "secondary_message": "1 tbsp snipped chives"
+    },
     {
       "id": 1,
       "primary_message": "Drizzle toast with olive oil. Top with mushrooms and their pan sauce. Garnish with chives and drizzle with a little more olive oil before serving.",

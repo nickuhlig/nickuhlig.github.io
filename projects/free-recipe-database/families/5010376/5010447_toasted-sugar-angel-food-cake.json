@@ -75,9 +75,17 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "28 g"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "28 g",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -86,6 +94,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to the middle position and preheat to 175°C (350°F). Sift cake flour and set aside. Combine egg whites, sugar, and vanilla extract (or seeds) in the bowl of a stand mixer fitted with the whisk attachment. Mix on low to loosen, about 1 minute, then increase to medium-low (4 on a KitchenAid) and whip 3 minutes; the whites will be dense and dark.",

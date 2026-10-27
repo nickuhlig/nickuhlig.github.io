@@ -95,9 +95,17 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice, from 1 small lemon",
-      "quantity": "28 g"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "28 g",
+          "name": "freshly squeezed lemon juice, from 1 small lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -106,6 +114,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to the middle position and preheat to 180°C (350°F). Sift tapioca flour or arrowroot starch, white rice flour, cornstarch, coconut flour, and baking powder into a large bowl. Whisk together until homogeneous, then sift mixture one more time to ensure total uniformity prior to mixing.",

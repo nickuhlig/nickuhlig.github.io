@@ -50,12 +50,13 @@
     },
     {
       "ingredient_id": 29,
-      "name": "sliced almonds",
-      "quantity": "3 tbsp"
+      "name": "almonds",
+      "quantity": "3 tbsp",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 120,
-      "name": "Parmigiano Reggiano",
+      "name": "Parmesan cheese",
       "quantity": "¼ cup"
     },
     {
@@ -80,6 +81,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the almonds.",
+      "secondary_message": "3 tbsp almonds"
+    },
     {
       "id": 1,
       "primary_message": "In the food processor, combine breadcrumbs, garlic, rosemary, almonds, and Parmigiano Reggiano. Season to taste with salt and pepper and pulse until just combined, about 5 one-second pulses. Add 1 tablespoon of butter, and pulse until the butter is evenly distributed into the crumbs, about 5 more pulses. Place the mixture in a sauté pan over medium heat, and toast, stirring often, until the crumbs are golden brown, about 10 minutes.",

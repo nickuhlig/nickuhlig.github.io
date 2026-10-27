@@ -54,9 +54,17 @@
       "quantity": "12 oz"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice",
-      "quantity": "¼ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¼ cup",
+          "name": "freshly squeezed lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2713,
@@ -94,8 +102,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Dice the rhubarb. Split the vanilla bean.",
-      "secondary_message": "1 lb rhubarb\n½ vanilla bean"
+      "primary_message": "Dice the rhubarb. Juice the lemons. Split the vanilla bean.",
+      "secondary_message": "1 lb rhubarb\n1 ½ lemons\n½ vanilla bean"
     },
     {
       "id": 1,

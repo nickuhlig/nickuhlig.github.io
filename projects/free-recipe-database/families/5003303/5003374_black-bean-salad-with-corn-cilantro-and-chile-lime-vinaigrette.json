@@ -39,8 +39,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "minced yellow onion",
-      "quantity": "2 tbsp"
+      "name": "yellow onion",
+      "quantity": "2 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 303,
@@ -66,9 +67,17 @@
       "quantity": ""
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice, from 1 whole lime",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice, from 1 whole lime"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -92,21 +101,23 @@
     },
     {
       "ingredient_id": 1535,
-      "name": "crumbled corn chips",
-      "quantity": "¼ cup"
+      "name": "corn chips",
+      "quantity": "¼ cup",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 188,
-      "name": "minced cilantro leaves, tender stems",
-      "quantity": "1 ½ tbsp"
+      "name": "cilantro leaves, tender stems",
+      "quantity": "1 ½ tbsp",
+      "prep": "minced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Drain and rinse the black beans. Boil and shuck the corn, then slice off the kernels. Finely chop the jalapeño.",
-      "secondary_message": "1 (411 g) can black beans\n⅔ cup corn\n1 jalapeño"
+      "primary_message": "Drain and rinse the black beans. Mince the yellow onion. Boil and shuck the corn, then slice off the kernels. Finely chop the jalapeño. Juice the lime. Crumble the corn chips. Pick the cilantro leaves and tender stems from the thick stems and mince them.",
+      "secondary_message": "1 (411 g) can black beans\n2 tbsp yellow onion\n⅔ cup corn\n1 jalapeño\n½ lime\n¼ cup corn chips\n1 ½ tbsp cilantro leaves, tender stems"
     },
     {
       "id": 1,

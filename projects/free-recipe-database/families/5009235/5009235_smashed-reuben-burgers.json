@@ -57,14 +57,23 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1241,
-      "name": "grated horseradish from a jar",
-      "quantity": "1 tsp"
+      "name": "horseradish from a jar",
+      "quantity": "1 tsp",
+      "prep": "grated"
     },
     {
       "ingredient_id": 88,
@@ -99,8 +108,9 @@
     },
     {
       "ingredient_id": 479,
-      "name": "drained sauerkraut",
-      "quantity": "½ cup"
+      "name": "sauerkraut",
+      "quantity": "½ cup",
+      "prep": "drained"
     },
     {
       "ingredient_id": 1236,
@@ -112,8 +122,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Soften the unsalted butter.",
-      "secondary_message": "3 tbsp unsalted butter"
+      "primary_message": "Juice the lemon. Grate the horseradish from a jar. Soften the unsalted butter. Drain the sauerkraut.",
+      "secondary_message": "½ lemon\n1 tsp horseradish from a jar\n3 tbsp unsalted butter\n½ cup sauerkraut"
     },
     {
       "id": 1,

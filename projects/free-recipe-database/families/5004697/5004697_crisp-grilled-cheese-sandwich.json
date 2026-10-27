@@ -44,8 +44,9 @@
     },
     {
       "ingredient_id": 120,
-      "name": "grated parmesan cheese",
-      "quantity": "2 oz"
+      "name": "parmesan cheese",
+      "quantity": "2 oz",
+      "prep": "grated"
     },
     {
       "ingredient_id": 43,
@@ -54,6 +55,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the parmesan cheese.",
+      "secondary_message": "2 oz parmesan cheese"
+    },
     {
       "id": 1,
       "primary_message": "Spread each slice of bread on both sides with butter. Arrange four slices in large skillet and cook over medium heat until turning light golden, 2 to 3 minutes.",

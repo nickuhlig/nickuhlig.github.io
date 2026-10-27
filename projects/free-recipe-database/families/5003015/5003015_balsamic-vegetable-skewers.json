@@ -47,13 +47,22 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "finely chopped parsley",
-      "quantity": "1 tbsp"
+      "name": "parsley",
+      "quantity": "1 tbsp",
+      "prep": "finely chopped"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1191,
@@ -67,8 +76,9 @@
     },
     {
       "ingredient_id": 1994,
-      "name": "finely chopped thyme",
-      "quantity": "2 tsp"
+      "name": "thyme",
+      "quantity": "2 tsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 88,
@@ -107,6 +117,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the parsley leaves from the stems and finely chop them. Juice the lemon. Pick the thyme leaves from the stems and finely chop them.",
+      "secondary_message": "1 tbsp parsley\n½ lemon\n2 tsp thyme"
+    },
     {
       "id": 1,
       "primary_message": "For the Vinaigrette: Whisk together balsamic vinegar, oil, parsley, lemon juice, garlic, mustard, and thyme in a small bowl. Season with salt and pepper. Place all vegetables in a large bowl, add vinaigrette, and toss to coat.",

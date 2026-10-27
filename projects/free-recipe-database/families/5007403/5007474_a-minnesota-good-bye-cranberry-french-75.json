@@ -79,9 +79,17 @@
       "quantity": "2 cups"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 cup"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "8",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 cup",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -108,8 +116,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Break the cinnamon sticks in half.",
-      "secondary_message": "3 cinnamon sticks"
+      "primary_message": "Break the cinnamon sticks in half. Juice the limes.",
+      "secondary_message": "3 cinnamon sticks\n8 limes"
     },
     {
       "id": 1,

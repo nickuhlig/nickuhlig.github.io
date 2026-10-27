@@ -87,9 +87,17 @@
       "quantity": "¼ cup"
     },
     {
-      "ingredient_id": 2346,
-      "name": "orange zest, from 1 medium orange divided",
-      "quantity": "1 tbsp"
+      "ingredient_id": 232,
+      "name": "orange",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tbsp",
+          "name": "orange zest, from 1 medium orange divided"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 2365,
@@ -103,8 +111,9 @@
     },
     {
       "ingredient_id": 243,
-      "name": "very thinly sliced fresh mint leaves",
-      "quantity": "2 tbsp"
+      "name": "fresh mint leaves",
+      "quantity": "2 tbsp",
+      "prep": "very thinly sliced"
     },
     {
       "ingredient_id": 71,
@@ -121,8 +130,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Peel and cut the sweet potato into 1/2-inch dice. Peel and dice the carrots. Chop the onion. Crush the garlic.",
-      "secondary_message": "1.81 kg sweet potato\n4 medium carrots\n1 medium onion\n5 cloves garlic"
+      "primary_message": "Peel and cut the sweet potato into 1/2-inch dice. Peel and dice the carrots. Chop the onion. Crush the garlic. Zest the orange. Pick the mint leaves from the stems and very thinly slice them.",
+      "secondary_message": "1.81 kg sweet potato\n4 medium carrots\n1 medium onion\n5 cloves garlic\n1 orange\n2 tbsp fresh mint leaves"
     },
     {
       "id": 1,

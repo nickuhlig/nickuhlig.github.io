@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 349,
-      "name": "freshly grated nutmeg",
-      "quantity": "1 dash"
+      "name": "nutmeg",
+      "quantity": "1 dash",
+      "prep": "freshly grated"
     },
     {
       "ingredient_id": 74,
@@ -71,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Freshly grate the nutmeg.",
+      "secondary_message": "1 dash nutmeg"
+    },
     {
       "id": 1,
       "primary_message": "Crack the eggs into a large bowl and beat until smooth. Whisk in 3 cups of milk, then add vanilla, nutmeg, and cinnamon.",

@@ -170,9 +170,17 @@
       "quantity": "3 cups"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -189,8 +197,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the carrots into large dice. Cut the celery into large dice. Cut the yellow onion into large dice. Crush the garlic. Chop the oil-packed anchovy fillets. Slice the celery thinly on the bias. Core and very thinly slice the red endive crosswise.",
-      "secondary_message": "3 medium carrots\n2 large stalks celery\n1 medium yellow onion\n4 medium cloves garlic\n3 oil-packed anchovy fillets\n1 large stalk celery\n2 small heads red endive"
+      "primary_message": "Cut the carrots into large dice. Cut the celery into large dice. Cut the yellow onion into large dice. Crush the garlic. Chop the oil-packed anchovy fillets. Slice the celery thinly on the bias. Core and very thinly slice the red endive crosswise. Juice the lemon.",
+      "secondary_message": "3 medium carrots\n2 large stalks celery\n1 medium yellow onion\n4 medium cloves garlic\n3 oil-packed anchovy fillets\n1 large stalk celery\n2 small heads red endive\n½ lemon"
     },
     {
       "id": 1,

@@ -64,13 +64,15 @@
     },
     {
       "ingredient_id": 349,
-      "name": "freshly grated nutmeg",
-      "quantity": "1 small pinch"
+      "name": "nutmeg",
+      "quantity": "1 small pinch",
+      "prep": "freshly grated"
     },
     {
       "ingredient_id": 2017,
-      "name": "grated Gruyère, divided",
-      "quantity": "5 tbsp"
+      "name": "Gruyère, divided",
+      "quantity": "5 tbsp",
+      "prep": "grated"
     },
     {
       "ingredient_id": 326,
@@ -89,11 +91,18 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "chopped fresh parsley leaves",
-      "quantity": "2 tbsp"
+      "name": "fresh parsley leaves",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Freshly grate the nutmeg. Grate the Gruyère. Pick the parsley leaves from the stems and chop them.",
+      "secondary_message": "1 small pinch nutmeg\n5 tbsp Gruyère, divided\n2 tbsp fresh parsley leaves"
+    },
     {
       "id": 1,
       "primary_message": "Arrange rack 6 inches from broiler element and preheat broiler to high. Heat olive oil in a small nonstick skillet over medium-high heat until shimmering. Add mushrooms. Cook, stirring often, until the mushrooms are golden brown but not quite cooked through, about 5 minutes. Transfer mushrooms to a small plate.",

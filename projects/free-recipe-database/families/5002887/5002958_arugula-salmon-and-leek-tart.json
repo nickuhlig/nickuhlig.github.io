@@ -88,17 +88,25 @@
       "quantity": "1 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 whole lemon",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "lemon juice, from 1 whole lemon"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Skin and cut the salmon into 1 inch pieces. Beat the eggs.",
-      "secondary_message": "0.34 kg salmon\n3 eggs"
+      "primary_message": "Skin and cut the salmon into 1 inch pieces. Beat the eggs. Juice the lemon.",
+      "secondary_message": "0.34 kg salmon\n3 eggs\n½ lemon"
     },
     {
       "id": 1,

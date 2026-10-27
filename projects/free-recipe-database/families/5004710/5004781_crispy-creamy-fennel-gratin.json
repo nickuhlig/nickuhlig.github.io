@@ -65,13 +65,15 @@
     },
     {
       "ingredient_id": 1679,
-      "name": "grated Pecorino Romano cheese",
-      "quantity": "¼ cup"
+      "name": "Pecorino Romano cheese",
+      "quantity": "¼ cup",
+      "prep": "grated"
     },
     {
       "ingredient_id": 106,
-      "name": "chopped flat-leaf parsley",
-      "quantity": "2 tbsp"
+      "name": "flat-leaf parsley",
+      "quantity": "2 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 47,
@@ -80,6 +82,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the Pecorino Romano cheese. Pick the parsley leaves from the stems and chop them.",
+      "secondary_message": "¼ cup Pecorino Romano cheese\n2 tbsp flat-leaf parsley"
+    },
     {
       "id": 1,
       "primary_message": "Adjust an oven rack to the middle position and preheat the oven to 205°C (400°F). In large skillet combine fennel, cream, and water. Season with salt and pepper. In a large bowl, mix together the breadcrumbs, Pecorino Romano, parsley, olive oil, and salt and pepper to taste.",

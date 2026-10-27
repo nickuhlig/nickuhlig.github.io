@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 153,
-      "name": "sliced scallions",
-      "quantity": "1 tbsp"
+      "name": "scallions",
+      "quantity": "1 tbsp",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 1260,
@@ -66,6 +67,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the scallions.",
+      "secondary_message": "1 tbsp scallions"
+    },
     {
       "id": 1,
       "primary_message": "Beat eggs and scallions in a large bowl. Gently fold potato chips into eggs, trying to break as few as possible. Season with salt.",

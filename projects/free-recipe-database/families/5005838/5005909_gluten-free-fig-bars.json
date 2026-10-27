@@ -120,9 +120,17 @@
       "quantity": "3 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice, from 1 whole lemon",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "freshly squeezed lemon juice, from 1 whole lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -131,6 +139,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "For the Cookie: In medium mixing bowl, whisk together brown rice flour, cornstarch, sweet rice flour, baking soda, xanthan gum, and salt. In bowl of stand mixer fitted with paddle attachment, beat together vegetable shortening, granulated sugar, and brown sugar at medium-high speed until well combined, about 30 seconds. Add eggs, one at a time, and mix at medium speed for 30 seconds. Scrape down sides of bowl, then mix for an additional 15 seconds. With mixer off, add dry ingredients and orange oil, then mix at medium-low speed until a dough forms.",

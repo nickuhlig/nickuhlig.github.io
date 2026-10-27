@@ -56,9 +56,10 @@
   "ingredients": [
     {
       "ingredient_id": 221,
-      "name": "peeled ginger root",
+      "name": "ginger root",
       "quantity": "4 (1 inch) pieces",
-      "weigh_as": "40 g"
+      "weigh_as": "40 g",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 359,
@@ -97,6 +98,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the ginger root.",
+      "secondary_message": "4 (1 inch) pieces ginger root"
+    },
     {
       "id": 1,
       "primary_message": "To Make the Ginger-Cardamom Syrup: If using a juicer, juice ginger (yields will vary), then measure out 2 tablespoons fresh ginger juice and mix with water. Proceed to step 2. If using an immersion blender, chop ginger roughly, then add to blender jar with water and blend thoroughly. Strain through a fine-mesh strainer; mixture should yield 4 tablespoons ginger liquid.",

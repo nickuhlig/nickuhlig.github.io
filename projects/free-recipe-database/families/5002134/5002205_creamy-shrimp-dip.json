@@ -43,8 +43,9 @@
   "ingredients": [
     {
       "ingredient_id": 1811,
-      "name": "peeled and deveined shrimp",
-      "quantity": "0.45 kg"
+      "name": "and deveined shrimp",
+      "quantity": "0.45 kg",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 88,
@@ -63,13 +64,22 @@
     },
     {
       "ingredient_id": 2346,
-      "name": "grated lemon zest",
-      "quantity": "1 tsp"
+      "name": "lemon zest",
+      "quantity": "1 tsp",
+      "prep": "grated"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 ½ tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 ½ tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1720,
@@ -89,23 +99,27 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "minced fresh parsley leaves, tender stems",
-      "quantity": "1 tbsp"
+      "name": "fresh parsley leaves, tender stems",
+      "quantity": "1 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 320,
-      "name": "minced fresh dill",
-      "quantity": "2 tsp"
+      "name": "fresh dill",
+      "quantity": "2 tsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 270,
-      "name": "minced chives",
-      "quantity": "2 tsp"
+      "name": "chives",
+      "quantity": "2 tsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1241,
-      "name": "drained preserved horseradish",
-      "quantity": "2 tsp"
+      "name": "preserved horseradish",
+      "quantity": "2 tsp",
+      "prep": "drained"
     },
     {
       "ingredient_id": 1514,
@@ -122,8 +136,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Dice the celery rib.",
-      "secondary_message": "1 medium celery rib"
+      "primary_message": "Peel the and deveined shrimp. Grate the zest from the lemon. Juice the lemon. Dice the celery rib. Pick the parsley leaves and tender stems from the thick stems and mince them. Pick the dill fronds from the stems and mince them. Mince the chives. Drain the preserved horseradish.",
+      "secondary_message": "0.45 kg and deveined shrimp\n1 tsp lemon zest\n½ lemon\n1 medium celery rib\n1 tbsp fresh parsley leaves, tender stems\n2 tsp fresh dill\n2 tsp chives\n2 tsp preserved horseradish"
     },
     {
       "id": 1,

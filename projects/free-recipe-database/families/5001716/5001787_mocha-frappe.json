@@ -65,8 +65,9 @@
     },
     {
       "ingredient_id": 1840,
-      "name": "cubed ice",
-      "quantity": "1 cup"
+      "name": "ice",
+      "quantity": "1 cup",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 1365,
@@ -75,6 +76,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cube the ice.",
+      "secondary_message": "1 cup ice"
+    },
     {
       "id": 1,
       "primary_message": "In a tall glass or large measuring cup, combine cold water, brown sugar, instant coffee, cocoa powder, and vanilla. Place the metal whisk end of the milk frother into the liquid just below the surface to avoid splashing. Move the frother vertically up and down while keeping it submerged; froth for 30 seconds to 1 minute, until very foamy. Season to taste with more sugar, if desired, then froth again.",

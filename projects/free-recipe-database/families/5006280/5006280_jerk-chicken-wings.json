@@ -64,9 +64,17 @@
       "prep": "stemmed and seeded"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice",
-      "quantity": "¼ cup"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "2",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "¼ cup",
+          "name": "fresh lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 47,
@@ -105,8 +113,9 @@
     },
     {
       "ingredient_id": 349,
-      "name": "freshly grated nutmeg",
-      "quantity": "¾ tsp"
+      "name": "nutmeg",
+      "quantity": "¾ tsp",
+      "prep": "freshly grated"
     },
     {
       "ingredient_id": 74,
@@ -123,8 +132,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Roughly chop the onion. Roughly chop the scallions. Roughly chop the garlic cloves. Stem and seed the Scotch bonnet chiles.",
-      "secondary_message": "1 small onion\n3 scallions\n4 large garlic cloves\n3 Scotch bonnet chiles"
+      "primary_message": "Roughly chop the onion. Roughly chop the scallions. Roughly chop the garlic cloves. Stem and seed the Scotch bonnet chiles. Juice the limes. Freshly grate the nutmeg.",
+      "secondary_message": "1 small onion\n3 scallions\n4 large garlic cloves\n3 Scotch bonnet chiles\n2 limes\n¾ tsp nutmeg"
     },
     {
       "id": 1,

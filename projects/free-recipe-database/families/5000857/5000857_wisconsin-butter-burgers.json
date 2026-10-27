@@ -85,9 +85,17 @@
       "quantity": ""
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from about 1/2 lemon",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice, from about 1/2 lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1682,
@@ -104,8 +112,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Soften the unsalted butter. Dice the yellow onion.",
-      "secondary_message": "8 tbsp unsalted butter\n1 medium yellow onion"
+      "primary_message": "Soften the unsalted butter. Dice the yellow onion. Juice the lemon.",
+      "secondary_message": "8 tbsp unsalted butter\n1 medium yellow onion\n½ lemon"
     },
     {
       "id": 1,

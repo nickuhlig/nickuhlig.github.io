@@ -56,9 +56,17 @@
       "quantity": "⅓ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 lemon",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice, from 1 lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2569,
@@ -132,8 +140,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Dice the cold unsalted butter. Cut the unsalted butter into pieces and soften it.",
-      "secondary_message": "8 tbsp cold unsalted butter, plus more for greasing the pan\n12 tbsp unsalted butter"
+      "primary_message": "Juice the lemon. Dice the cold unsalted butter. Cut the unsalted butter into pieces and soften it.",
+      "secondary_message": "½ lemon\n8 tbsp cold unsalted butter, plus more for greasing the pan\n12 tbsp unsalted butter"
     },
     {
       "id": 1,

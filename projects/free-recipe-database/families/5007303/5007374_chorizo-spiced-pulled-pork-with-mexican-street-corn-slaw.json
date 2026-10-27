@@ -46,9 +46,10 @@
     },
     {
       "ingredient_id": 1004,
-      "name": "finely shredded green cabbage",
+      "name": "green cabbage",
       "quantity": "½ small head",
-      "weigh_as": "397 g"
+      "weigh_as": "397 g",
+      "prep": "finely shredded"
     },
     {
       "ingredient_id": 24,
@@ -80,9 +81,17 @@
       "prep": "tender stems chopped"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 267,
@@ -197,8 +206,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Mince the garlic. Seed and mince the jalapeño peppers. Crumble the cotija cheese. Chop the tender stems of the fresh cilantro leaves. Cut the boneless pork shoulder into 3-inch chunks. Dice the yellow onion. Mince the garlic.",
-      "secondary_message": "2 medium cloves garlic\n1 to 2 jalapeño peppers\n85 g cotija cheese\n½ cup fresh cilantro leaves\n1.59 kg boneless pork shoulder\n1 medium yellow onion\n5 medium cloves garlic"
+      "primary_message": "Finely shred the green cabbage. Mince the garlic. Seed and mince the jalapeño peppers. Crumble the cotija cheese. Chop the tender stems of the fresh cilantro leaves. Juice the lime. Cut the boneless pork shoulder into 3-inch chunks. Dice the yellow onion. Mince the garlic.",
+      "secondary_message": "½ small head green cabbage\n2 medium cloves garlic\n1 to 2 jalapeño peppers\n85 g cotija cheese\n½ cup fresh cilantro leaves\n1 lime\n1.59 kg boneless pork shoulder\n1 medium yellow onion\n5 medium cloves garlic"
     },
     {
       "id": 1,

@@ -58,9 +58,17 @@
       "quantity": "¼ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "freshly squeezed lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 192,
@@ -98,8 +106,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Core and chop the peeled Granny Smith apples. Zest the lemon.",
-      "secondary_message": "6 cups peeled\n1 lemon"
+      "primary_message": "Core and chop the peeled Granny Smith apples. Juice the lemon. Zest the lemon.",
+      "secondary_message": "6 cups peeled\n1 lemon\n1 lemon"
     },
     {
       "id": 1,

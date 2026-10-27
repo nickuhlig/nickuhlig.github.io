@@ -63,9 +63,17 @@
       "quantity": "½ cup"
     },
     {
-      "ingredient_id": 2346,
-      "name": "orange zest, from 1 whole orange",
-      "quantity": "1 tsp"
+      "ingredient_id": 232,
+      "name": "orange",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tsp",
+          "name": "orange zest, from 1 whole orange"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 2275,
@@ -80,8 +88,9 @@
     },
     {
       "ingredient_id": 1808,
-      "name": "finely minced fresh parsley leaves",
-      "quantity": "2 tbsp"
+      "name": "fresh parsley leaves",
+      "quantity": "2 tbsp",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 72,
@@ -98,8 +107,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Clean, trim, and finely slice the ramps.",
-      "secondary_message": "10 ramps"
+      "primary_message": "Zest the orange. Clean, trim, and finely slice the ramps. Pick the parsley leaves from the stems and finely mince them.",
+      "secondary_message": "1 orange\n10 ramps\n2 tbsp fresh parsley leaves"
     },
     {
       "id": 1,

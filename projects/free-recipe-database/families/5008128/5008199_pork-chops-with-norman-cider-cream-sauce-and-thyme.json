@@ -47,8 +47,9 @@
     },
     {
       "ingredient_id": 287,
-      "name": "chopped fresh thyme",
-      "quantity": "1 tsp"
+      "name": "fresh thyme",
+      "quantity": "1 tsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 47,
@@ -72,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the thyme leaves from the stems and chop them.",
+      "secondary_message": "1 tsp fresh thyme"
+    },
     {
       "id": 1,
       "primary_message": "Take the pork out of the fridge 15 minutes before you want to use it. Cut off the fatty rind if there is one. Season the chops all over with salt, pepper, and thyme, pressing the seasoning gently into the meat so it sticks.",

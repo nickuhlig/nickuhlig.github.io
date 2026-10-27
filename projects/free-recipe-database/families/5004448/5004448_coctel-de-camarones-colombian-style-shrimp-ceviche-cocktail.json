@@ -38,8 +38,9 @@
   "ingredients": [
     {
       "ingredient_id": 1811,
-      "name": "peeled small shrimp",
-      "quantity": "1 lb"
+      "name": "small shrimp",
+      "quantity": "1 lb",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 88,
@@ -52,9 +53,17 @@
       "quantity": "¼ tsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "2 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 267,
@@ -73,8 +82,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "finely minced onion",
-      "quantity": "¼ cup"
+      "name": "onion",
+      "quantity": "¼ cup",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 448,
@@ -88,6 +98,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the small shrimp. Juice the lime. Finely mince the onion.",
+      "secondary_message": "1 lb small shrimp\n1 lime\n¼ cup onion"
+    },
     {
       "id": 1,
       "primary_message": "Combine shrimp, 1 teaspoon kosher salt, and baking soda in a medium bowl and toss to coat. Place in refrigerator and let rest for 15 minutes.",

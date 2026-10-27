@@ -85,13 +85,22 @@
     },
     {
       "ingredient_id": 106,
-      "name": "chopped flat-leaf parsley, leaves and tender stems",
-      "quantity": "1 tbsp"
+      "name": "flat-leaf parsley, leaves and tender stems",
+      "quantity": "1 tbsp",
+      "prep": "chopped"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 71,
@@ -156,8 +165,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cut the beef chuck into 1-inch cubes. Cut the Creole andouille sausage into 1/2-inch cubes. Thinly slice the white onion crosswise. Thinly slice the red bell pepper. Crumble the blue cheese.",
-      "secondary_message": "1 ½ lb beef chuck\n8 oz Creole andouille sausage\n½ white onion\n1 large red bell pepper\n8 oz blue cheese"
+      "primary_message": "Cut the beef chuck into 1-inch cubes. Cut the Creole andouille sausage into 1/2-inch cubes. Pick the parsley leaves and tender stems from the thick stems and chop them. Juice the lemon. Thinly slice the white onion crosswise. Thinly slice the red bell pepper. Crumble the blue cheese.",
+      "secondary_message": "1 ½ lb beef chuck\n8 oz Creole andouille sausage\n1 tbsp flat-leaf parsley, leaves and tender stems\n½ lemon\n½ white onion\n1 large red bell pepper\n8 oz blue cheese"
     },
     {
       "id": 1,

@@ -129,18 +129,21 @@
     },
     {
       "ingredient_id": 157,
-      "name": "thinly sliced celery",
-      "quantity": "¾ cup"
+      "name": "celery",
+      "quantity": "¾ cup",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 309,
-      "name": "thinly sliced leek",
-      "quantity": "1 ½ cups"
+      "name": "leek",
+      "quantity": "1 ½ cups",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 291,
-      "name": "thinly sliced green bell pepper",
-      "quantity": "¾ cup"
+      "name": "green bell pepper",
+      "quantity": "¾ cup",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 121,
@@ -149,21 +152,30 @@
     },
     {
       "ingredient_id": 2346,
-      "name": "grated lemon zest",
-      "quantity": "½ tsp"
+      "name": "lemon zest",
+      "quantity": "½ tsp",
+      "prep": "grated"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Stem, seed, and chop the serrano chile. Finely chop the garlic.",
-      "secondary_message": "1 (3 ½ inch) serrano chile\n3 medium cloves garlic"
+      "primary_message": "Stem, seed, and chop the serrano chile. Finely chop the garlic. Thinly slice the celery. Thinly slice the leek. Thinly slice the green bell pepper. Grate the zest from the lemon. Juice the lemon.",
+      "secondary_message": "1 (3 ½ inch) serrano chile\n3 medium cloves garlic\n¾ cup celery\n1 ½ cups leek\n¾ cup green bell pepper\n½ tsp lemon zest\n½ lemon"
     },
     {
       "id": 1,

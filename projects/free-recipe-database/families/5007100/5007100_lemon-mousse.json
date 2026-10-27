@@ -44,9 +44,17 @@
       "prep": "finely grated"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "¾ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "4",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¾ cup",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 121,
@@ -68,8 +76,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Finely grate the lemon zest.",
-      "secondary_message": "1 ½ tbsp lemon zest"
+      "primary_message": "Finely grate the lemon zest. Juice the lemons.",
+      "secondary_message": "1 ½ tbsp lemon zest\n4 lemons"
     },
     {
       "id": 1,

@@ -70,13 +70,15 @@
     },
     {
       "ingredient_id": 1565,
-      "name": "finely chopped white onion",
-      "quantity": "1 cup"
+      "name": "white onion",
+      "quantity": "1 cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1794,
-      "name": "finely chopped seeded fresh jalapeños",
-      "quantity": "3 tbsp"
+      "name": "seeded fresh jalapeños",
+      "quantity": "3 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1191,
@@ -120,18 +122,28 @@
     },
     {
       "ingredient_id": 1722,
-      "name": "finely chopped fire-roasted tomatoes, from 1 can",
-      "quantity": "1 cup"
+      "name": "fire-roasted tomatoes, from 1 can",
+      "quantity": "1 cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 188,
-      "name": "finely chopped fresh cilantro leaves, tender stems",
-      "quantity": "¼ cup"
+      "name": "fresh cilantro leaves, tender stems",
+      "quantity": "¼ cup",
+      "prep": "finely chopped"
     },
     {
-      "ingredient_id": 1421,
-      "name": "lime juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "lime juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1773,
@@ -141,8 +153,9 @@
     },
     {
       "ingredient_id": 43,
-      "name": "grated Longhorn cheddar, mild cheddar, or Monterey Jack cheese",
-      "quantity": "170 g"
+      "name": "Longhorn cheddar, mild cheddar, or Monterey Jack cheese",
+      "quantity": "170 g",
+      "prep": "grated"
     },
     {
       "ingredient_id": 1565,
@@ -161,8 +174,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Cover the fresh masa for tortillas. Shred the iceberg lettuce. Finely dice the white onion. Seed and finely dice the Roma tomatoes.",
-      "secondary_message": "0.45 kg fresh masa for tortillas, for 15 minutes\n½ head iceberg lettuce\n1 small white onion\n2 Roma tomatoes"
+      "primary_message": "Cover the fresh masa for tortillas. Finely chop the white onion. Finely chop the seeded fresh jalapeños. Finely chop the fire-roasted tomatoes. Pick the cilantro leaves and tender stems from the thick stems and finely chop them. Juice the lime. Shred the iceberg lettuce. Grate the Longhorn cheddar. Finely dice the white onion. Seed and finely dice the Roma tomatoes.",
+      "secondary_message": "0.45 kg fresh masa for tortillas, for 15 minutes\n1 cup white onion\n3 tbsp seeded fresh jalapeños\n1 cup fire-roasted tomatoes, from 1 can\n¼ cup fresh cilantro leaves, tender stems\n½ lime\n½ head iceberg lettuce\n170 g Longhorn cheddar, mild cheddar, or Monterey Jack cheese\n1 small white onion\n2 Roma tomatoes"
     },
     {
       "id": 1,

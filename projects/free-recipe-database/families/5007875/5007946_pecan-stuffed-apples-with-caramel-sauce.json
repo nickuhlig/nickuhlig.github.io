@@ -34,8 +34,9 @@
   "ingredients": [
     {
       "ingredient_id": 327,
-      "name": "finely chopped pecans",
-      "quantity": "1 cup"
+      "name": "pecans",
+      "quantity": "1 cup",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 293,
@@ -54,8 +55,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "melted unsalted butter, divided",
-      "quantity": "5 tbsp"
+      "name": "unsalted butter, divided",
+      "quantity": "5 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 88,
@@ -68,9 +70,17 @@
       "quantity": "4"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1351,
@@ -83,8 +93,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Warm the Caramel sauce.",
-      "secondary_message": "Caramel sauce"
+      "primary_message": "Finely chop the pecans. Melt the unsalted butter. Juice the lemon. Warm the Caramel sauce.",
+      "secondary_message": "1 cup pecans\n5 tbsp unsalted butter, divided\n1 lemon\nCaramel sauce"
     },
     {
       "id": 1,

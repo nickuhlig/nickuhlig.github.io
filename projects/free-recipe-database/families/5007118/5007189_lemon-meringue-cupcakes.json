@@ -58,14 +58,27 @@
       "quantity": "⅛ tsp"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from 3 large lemons",
-      "quantity": "2 tbsp"
-    },
-    {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 3 large lemons",
-      "quantity": "¾ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "4",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¾ cup",
+          "name": "lemon juice, from 3 large lemons"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "2 tbsp",
+          "name": "lemon zest, from 3 large lemons"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "2 tbsp",
+          "name": "lemon zest, from 2 large lemons"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 115,
@@ -84,14 +97,17 @@
       "quantity": "1 ¾ cups"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from 2 large lemons",
-      "quantity": "2 tbsp"
-    },
-    {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 2 large lemons",
-      "quantity": "¼ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¼ cup",
+          "name": "lemon juice, from 2 large lemons"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 116,
@@ -172,8 +188,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Bring the eggs to room temperature. Bring the egg yolks to room temperature. Cut the unsalted butter into small pieces. Bring the milk to room temperature. Separate the eggs and bring them to room temperature. Bring the unsalted butter to room temperature. Bring the egg whites to room temperature.",
-      "secondary_message": "4 large eggs\n3 large egg yolks\n8 tbsp unsalted butter\n¾ cup milk\n4 large eggs\n0.45 kg unsalted butter\n6 large egg whites"
+      "primary_message": "Bring the eggs to room temperature. Bring the egg yolks to room temperature. Zest and juice the lemons. Cut the unsalted butter into small pieces. Juice the lemons. Bring the milk to room temperature. Separate the eggs and bring them to room temperature. Bring the unsalted butter to room temperature. Bring the egg whites to room temperature.",
+      "secondary_message": "4 large eggs\n3 large egg yolks\n4 lemons\n8 tbsp unsalted butter\n1 ½ lemons\n¾ cup milk\n4 large eggs\n0.45 kg unsalted butter\n6 large egg whites"
     },
     {
       "id": 1,
