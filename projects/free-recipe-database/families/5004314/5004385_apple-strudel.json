@@ -16,16 +16,9 @@
   "rating_count": 1,
   "allowed_type_ids": [
     1,
-    2,
-    3,
-    4
+    3
   ],
-  "violated_restriction_ids": [
-    1,
-    2,
-    6,
-    14
-  ],
+  "violated_restriction_ids": null,
   "variety_tag_ids": [
     35,
     47
@@ -59,7 +52,7 @@
     {
       "ingredient_id": 1044,
       "name": "vegetable oil",
-      "quantity": "½ tsp"
+      "quantity": "3 tbsp plus 1/2 tsp"
     },
     {
       "ingredient_id": 359,
@@ -78,19 +71,18 @@
     },
     {
       "ingredient_id": 1716,
-      "name": "toasted hazelnuts",
-      "quantity": "⅓ cup (1 ¾ oz)",
-      "prep": "finely chopped"
+      "name": "toasted hazelnuts, finely chopped",
+      "quantity": "⅓ cup (1 ¾ oz)"
     },
     {
-      "ingredient_id": 346,
-      "name": "granulated sugar, divided",
-      "quantity": "1 tbsp"
+      "ingredient_id": null,
+      "name": "plus 1 tablespoon granulated sugar, divided",
+      "quantity": "¾ cup (5 ¼ oz)"
     },
     {
       "ingredient_id": 74,
       "name": "cinnamon",
-      "quantity": "⅛ tsp"
+      "quantity": "¼ tsp plus 1/8 tsp"
     },
     {
       "ingredient_id": 88,
@@ -108,31 +100,17 @@
       "quantity": "½ cup"
     },
     {
-      "ingredient_id": 192,
-      "name": "lemons",
-      "quantity": "2",
-      "weigh_parts": [
-        {
-          "ingredient_id": 1480,
-          "quantity": "5 tsp",
-          "name": "lemon juice, from 1 to 2 lemons"
-        },
-        {
-          "ingredient_id": 2346,
-          "quantity": "1 tsp",
-          "name": "lemon zest, from 1 to 2 lemons"
-        }
-      ],
-      "prep": "zested and juiced"
+      "ingredient_id": 1480,
+      "name": "lemon juice, from 1 to 2 lemons",
+      "quantity": "5 tsp"
+    },
+    {
+      "ingredient_id": 2346,
+      "name": "lemon zest, from 1 to 2 lemons",
+      "quantity": "1 tsp"
     }
   ],
   "instructions": [
-    {
-      "id": 0,
-      "kind": "prep",
-      "primary_message": "Finely chop the toasted hazelnuts. Zest and juice the lemons.",
-      "secondary_message": "⅓ cup (1 ¾ oz) toasted hazelnuts\n2 lemons"
-    },
     {
       "id": 1,
       "primary_message": "For the Strudel Dough: Stir flour, salt, 3 tablespoons oil, and 10 tablespoons water in a large bowl until almost combined and the mixture looks shaggy. If the mixture appears dry, add more water, one tablespoon at a time. You should have a dough that is soft and tacky, but not sticky.",
@@ -150,12 +128,12 @@
     },
     {
       "id": 4,
-      "primary_message": "Adjust oven rack to middle position and preheat oven to 220°C (425°F). Place a large sheet of parchment paper on your work surface, then cover the table with a large clean cloth. On a lightly floured cutting board, roll dough into a 10- by 30-cm rectangle. Flip the board and the dough onto the center of the cloth and remove board.",
+      "primary_message": "Adjust oven rack to middle position and preheat oven to 220°C (425°F). Place a large sheet of parchment paper on your work surface, then cover the table with a large clean cloth. On a lightly floured cutting board, roll dough into a 25-by-30-cm rectangle. Flip the board and the dough onto the center of the cloth and remove board.",
       "secondary_message": null
     },
     {
       "id": 5,
-      "primary_message": "Working carefully, begin to stretch dough from the center out. This can be achieved by placing your hand, palm down, underneath the dough and gently pulling out to the edge. You can also place your fingertips under the dough to gently stretch. Avoid tearing the dough. If the dough does tear, gently patch together. Stretch the dough until it is a rectangle of approximately 18- by 76-cm and paper thin. The dough should be of even thickness throughout, and thin enough to see through it. Trim off any thick edges with kitchen sheers.",
+      "primary_message": "Working carefully, begin to stretch dough from the center out. This can be achieved by placing your hand, palm down, underneath the dough and gently pulling out to the edge. You can also place your fingertips under the dough to gently stretch. Avoid tearing the dough. If the dough does tear, gently patch together. Stretch the dough until it is a rectangle of approximately 46-by-76-cm and paper thin. The dough should be of even thickness throughout, and thin enough to see through it. Trim off any thick edges with kitchen sheers.",
       "secondary_message": null
     },
     {
@@ -180,82 +158,15 @@
     }
   ],
   "nutrition": {
-    "energy": 324.99,
-    "alcohol": 0.0,
-    "ash": 0.93,
-    "caffeine": 0.0,
-    "water": 102.34,
-    "carbs": 42.67,
-    "fiber": 3.76,
-    "sugars": 15.2,
-    "fat": 16.25,
-    "monounsaturated": 5.46,
-    "polyunsaturated": 1.12,
-    "omega_3": 0.09,
-    "omega_6": 0.94,
-    "saturated": 8.67,
-    "cholesterol": 35.62,
-    "protein": 4.39,
-    "alanine": 0.15,
-    "arginine": 0.22,
-    "aspartic_acid": 0.28,
-    "cystine": 0.08,
-    "glutamic_acid": 1.27,
-    "glycine": 0.15,
-    "histidine": 0.1,
-    "isoleucine": 0.15,
-    "leucine": 0.29,
-    "lysine": 0.12,
-    "methionine": 0.07,
-    "phenylalanine": 0.2,
-    "proline": 0.41,
-    "serine": 0.21,
-    "threonine": 0.12,
-    "tryptophan": 0.05,
-    "tyrosine": 0.12,
-    "valine": 0.18,
-    "b1_thiamine": 0.29,
-    "b2_riboflavin": 0.19,
-    "b3_niacin": 2.05,
-    "b5_pantothenic_acid": 0.25,
-    "b6_pyridoxine": 0.09,
-    "b12_cobalamin": 0.04,
-    "choline": 11.92,
-    "folate": 91.17,
-    "vitamin_a": 116.14,
-    "vitamin_c": 5.65,
-    "vitamin_d": 0.0,
-    "vitamin_e": 1.08,
-    "vitamin_k": 4.62,
-    "calcium": 30.57,
-    "copper": 0.15,
-    "iron": 1.82,
-    "magnesium": 20.42,
-    "manganese": 0.47,
-    "phosphorus": 65.5,
-    "potassium": 209.77,
-    "selenium": 10.31,
-    "sodium": 149.83,
-    "zinc": 0.41
-  },
-  "nutrition_meta": {
-    "source": "calculated",
-    "date": "2026-10-25",
-    "lines": 14,
-    "counted": 14,
-    "partial": false,
-    "estimated_share": 0.0,
-    "omitted_fields": [
-      "starch",
-      "fructose",
-      "galactose",
-      "glucose",
-      "lactose",
-      "maltose",
-      "sucrose",
-      "sugar_alcohol",
-      "transfats"
-    ]
+    "energy": 406.0,
+    "fat": 20.0,
+    "saturated": 9.0,
+    "carbs": 53.0,
+    "fiber": 3.0,
+    "sugars": 23.0,
+    "protein": 5.0,
+    "sodium": 148.0,
+    "cholesterol": 36.0
   },
   "schema_metadata": {
     "category": [

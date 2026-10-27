@@ -16,9 +16,7 @@
   "rating_count": 0,
   "allowed_type_ids": [
     1,
-    3,
-    7,
-    8
+    3
   ],
   "violated_restriction_ids": [
     1,
@@ -101,9 +99,8 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic",
-      "quantity": "1 medium clove",
-      "prep": "minced"
+      "name": "garlic, minced",
+      "quantity": "1 medium clove"
     },
     {
       "ingredient_id": 3642,
@@ -133,7 +130,7 @@
     {
       "ingredient_id": 53,
       "name": "soy sauce, such as Kikkoman or Kimlan",
-      "quantity": "1 tbsp"
+      "quantity": "¼ cup plus 1 tbsp"
     },
     {
       "ingredient_id": 1833,
@@ -147,15 +144,13 @@
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger",
-      "quantity": "1 (2 ½ cm) piece",
-      "prep": "unpeeled and sliced 1/2-inch thick"
+      "name": "fresh ginger, unpeeled and sliced 1/2-inch thick",
+      "quantity": "1 (2 ½ cm) piece"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic",
-      "quantity": "3 medium cloves",
-      "prep": "peeled and smashed"
+      "name": "garlic, peeled and smashed",
+      "quantity": "3 medium cloves"
     },
     {
       "ingredient_id": 153,
@@ -174,12 +169,6 @@
     }
   ],
   "instructions": [
-    {
-      "id": 0,
-      "kind": "prep",
-      "primary_message": "Mince the garlic. Leave unpeeled and slice the fresh ginger 1/2-inch thick. Peel and smash the garlic.",
-      "secondary_message": "1 medium clove garlic\n1 (2 ½ cm) piece fresh ginger\n3 medium cloves garlic"
-    },
     {
       "id": 1,
       "primary_message": "In a large bowl, whisk soy sauce, rice wine, sugar, sesame oil, white pepper, five-spice powder, salt, garlic, and egg white to combine; set aside.",
@@ -217,88 +206,15 @@
     }
   ],
   "nutrition": {
-    "energy": 637.67,
-    "alcohol": 0.0,
-    "ash": 2.95,
-    "caffeine": 0.0,
-    "water": 232.84,
-    "carbs": 7.82,
-    "fiber": 0.46,
-    "sugars": 5.52,
-    "fat": 53.86,
-    "monounsaturated": 31.93,
-    "polyunsaturated": 13.92,
-    "omega_3": 4.04,
-    "omega_6": 9.66,
-    "saturated": 6.57,
-    "transfats": 0.26,
-    "cholesterol": 86.77,
-    "protein": 29.86,
-    "alanine": 1.73,
-    "arginine": 1.98,
-    "aspartic_acid": 2.92,
-    "cystine": 0.36,
-    "glutamic_acid": 4.77,
-    "glycine": 1.33,
-    "histidine": 1.25,
-    "isoleucine": 1.47,
-    "leucine": 2.52,
-    "lysine": 2.7,
-    "methionine": 0.81,
-    "phenylalanine": 1.27,
-    "proline": 1.22,
-    "serine": 1.32,
-    "threonine": 1.32,
-    "tryptophan": 0.32,
-    "tyrosine": 1.13,
-    "valine": 1.57,
-    "b1_thiamine": 0.88,
-    "b2_riboflavin": 0.3,
-    "b3_niacin": 10.61,
-    "b5_pantothenic_acid": 1.01,
-    "b6_pyridoxine": 1.0,
-    "b12_cobalamin": 0.69,
-    "choline": 78.34,
-    "folate": 6.63,
-    "vitamin_a": 5.04,
-    "vitamin_c": 2.5,
-    "vitamin_d": 0.52,
-    "vitamin_e": 7.85,
-    "vitamin_k": 46.84,
-    "calcium": 28.08,
-    "copper": 0.11,
-    "iron": 0.98,
-    "magnesium": 45.38,
-    "manganese": 0.17,
-    "phosphorus": 315.79,
-    "potassium": 575.67,
-    "selenium": 45.08,
-    "sodium": 639.32,
-    "zinc": 2.17
-  },
-  "nutrition_meta": {
-    "source": "calculated",
-    "date": "2026-10-25",
-    "lines": 21,
-    "counted": 18,
-    "partial": true,
-    "missing": [
-      "thick sweet potato starch"
-    ],
-    "not_counted": [
-      "Cooked short-grain white rice"
-    ],
-    "estimated_share": 0.0,
-    "omitted_fields": [
-      "starch",
-      "fructose",
-      "galactose",
-      "glucose",
-      "lactose",
-      "maltose",
-      "sucrose",
-      "sugar_alcohol"
-    ]
+    "energy": 456.0,
+    "fat": 24.0,
+    "saturated": 4.0,
+    "carbs": 30.0,
+    "fiber": 2.0,
+    "sugars": 6.0,
+    "protein": 27.0,
+    "sodium": 588.0,
+    "cholesterol": 115.0
   },
   "schema_metadata": {
     "category": [

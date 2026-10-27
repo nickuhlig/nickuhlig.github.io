@@ -61,9 +61,8 @@
     },
     {
       "ingredient_id": 44,
-      "name": "boneless skinless chicken breasts",
-      "quantity": "1 lb",
-      "prep": "cut into 1-inch pieces"
+      "name": "boneless skinless chicken breasts, cut into 1-inch pieces",
+      "quantity": "1 lb"
     },
     {
       "ingredient_id": 115,
@@ -72,9 +71,8 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots",
-      "quantity": "3 small",
-      "prep": "peeled and chopped"
+      "name": "carrots, peeled and chopped",
+      "quantity": "3 small"
     },
     {
       "ingredient_id": 1720,
@@ -83,9 +81,8 @@
     },
     {
       "ingredient_id": 309,
-      "name": "leek",
-      "quantity": "1 medium",
-      "prep": "washed and rinsed of any grit, sliced"
+      "name": "leek, washed and rinsed of any grit, sliced",
+      "quantity": "1 medium"
     },
     {
       "ingredient_id": 24,
@@ -110,7 +107,7 @@
     {
       "ingredient_id": 116,
       "name": "all-purpose flour",
-      "quantity": "2 tbsp"
+      "quantity": "¼ cup plus 2 tbsp"
     },
     {
       "ingredient_id": 1231,
@@ -120,7 +117,7 @@
     {
       "ingredient_id": 1752,
       "name": "heavy cream, divided",
-      "quantity": "1 tsp"
+      "quantity": "¼ cup plus 1 tsp"
     },
     {
       "ingredient_id": 275,
@@ -128,17 +125,9 @@
       "quantity": "1 ½ cups"
     },
     {
-      "ingredient_id": 192,
-      "name": "lemon",
-      "quantity": "1",
-      "prep": "zested",
-      "weigh_parts": [
-        {
-          "ingredient_id": 2346,
-          "quantity": "2 tsp",
-          "name": "lemon zest"
-        }
-      ]
+      "ingredient_id": 2346,
+      "name": "lemon zest, finely grated from 1 lemon",
+      "quantity": "2 tsp"
     },
     {
       "ingredient_id": 1021,
@@ -152,12 +141,6 @@
     }
   ],
   "instructions": [
-    {
-      "id": 0,
-      "kind": "prep",
-      "primary_message": "Cut the boneless skinless chicken breasts into 1-inch pieces. Peel and chop the carrots. Wash and rinse the leek of any grit, then slice it. Zest the lemon.",
-      "secondary_message": "1 lb boneless skinless chicken breasts\n3 small carrots\n1 medium leek\n1 lemon"
-    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 400°F (205ºC). Heat oil in a 10-inch cast iron skillet over medium heat until just shimmering. Add chicken; cook, stirring occasionally, until cooked through, about 6 minutes. Using a slotted spoon, remove chicken from skillet, and transfer to a plate.",
@@ -185,82 +168,15 @@
     }
   ],
   "nutrition": {
-    "energy": 486.23,
-    "alcohol": 0.0,
-    "ash": 3.91,
-    "caffeine": 0.0,
-    "water": 226.49,
-    "carbs": 31.69,
-    "fiber": 4.09,
-    "sugars": 4.77,
-    "fat": 29.06,
-    "monounsaturated": 13.62,
-    "polyunsaturated": 3.17,
-    "omega_3": 0.21,
-    "omega_6": 2.87,
-    "saturated": 9.97,
-    "cholesterol": 109.14,
-    "protein": 24.58,
-    "b1_thiamine": 0.4,
-    "b2_riboflavin": 0.43,
-    "b3_niacin": 10.43,
-    "b5_pantothenic_acid": 1.46,
-    "b6_pyridoxine": 0.8,
-    "b12_cobalamin": 0.27,
-    "choline": 107.35,
-    "folate": 112.17,
-    "vitamin_a": 328.13,
-    "vitamin_c": 19.98,
-    "vitamin_e": 1.72,
-    "vitamin_k": 31.9,
-    "calcium": 55.49,
-    "copper": 0.2,
-    "iron": 2.7,
-    "magnesium": 51.95,
-    "manganese": 0.54,
-    "phosphorus": 270.06,
-    "potassium": 549.66,
-    "selenium": 32.11,
-    "sodium": 851.6,
-    "zinc": 1.5
-  },
-  "nutrition_meta": {
-    "source": "calculated",
-    "date": "2026-10-25",
-    "lines": 17,
-    "counted": 17,
-    "partial": false,
-    "estimated_share": 0.0,
-    "omitted_fields": [
-      "starch",
-      "fructose",
-      "galactose",
-      "glucose",
-      "lactose",
-      "maltose",
-      "sucrose",
-      "sugar_alcohol",
-      "transfats",
-      "alanine",
-      "arginine",
-      "aspartic_acid",
-      "cystine",
-      "glutamic_acid",
-      "glycine",
-      "histidine",
-      "isoleucine",
-      "leucine",
-      "lysine",
-      "methionine",
-      "phenylalanine",
-      "proline",
-      "serine",
-      "threonine",
-      "tryptophan",
-      "tyrosine",
-      "valine",
-      "vitamin_d"
-    ]
+    "energy": 797.0,
+    "fat": 49.0,
+    "saturated": 13.0,
+    "carbs": 55.0,
+    "fiber": 5.0,
+    "sugars": 5.0,
+    "protein": 34.0,
+    "sodium": 1040.0,
+    "cholesterol": 128.0
   },
   "schema_metadata": {
     "category": [

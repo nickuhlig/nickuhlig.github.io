@@ -16,9 +16,7 @@
   "rating_count": 0,
   "allowed_type_ids": [
     1,
-    3,
-    7,
-    8
+    3
   ],
   "violated_restriction_ids": [
     1,
@@ -92,9 +90,8 @@
     },
     {
       "ingredient_id": 1922,
-      "name": "boneless chuck",
-      "quantity": "2 ½ to 3 lb",
-      "prep": "cut into 1 1/2 to 2-inch cubes"
+      "name": "boneless chuck, cut into 1 1/2 to 2-inch cubes",
+      "quantity": "2 ½ to 3 lb"
     },
     {
       "ingredient_id": 184,
@@ -114,7 +111,7 @@
     {
       "ingredient_id": 3657,
       "name": "Kashmiri red chile powder",
-      "quantity": "1 tsp"
+      "quantity": "1 tbsp plus 1 tsp"
     },
     {
       "ingredient_id": 90,
@@ -138,9 +135,8 @@
     },
     {
       "ingredient_id": 1850,
-      "name": "Indian green chiles, divided",
-      "quantity": "6",
-      "prep": "split in half lengthwise"
+      "name": "Indian green chiles, split in half lengthwise, divided",
+      "quantity": "6"
     },
     {
       "ingredient_id": 1574,
@@ -179,15 +175,13 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion",
-      "quantity": "½ medium",
-      "prep": "thinly sliced lengthwise"
+      "name": "red onion, thinly sliced lengthwise",
+      "quantity": "½ medium"
     },
     {
       "ingredient_id": 155,
-      "name": "English cucumber",
-      "quantity": "1",
-      "prep": "thinly sliced cross-wise"
+      "name": "English cucumber, thinly sliced cross-wise",
+      "quantity": "1"
     },
     {
       "ingredient_id": 3673,
@@ -196,18 +190,11 @@
     },
     {
       "ingredient_id": 1850,
-      "name": "Indian green chiles",
-      "quantity": "2 to 3",
-      "prep": "thinly sliced cross-wise"
+      "name": "Indian green chiles, thinly sliced cross-wise",
+      "quantity": "2 to 3"
     }
   ],
   "instructions": [
-    {
-      "id": 0,
-      "kind": "prep",
-      "primary_message": "Cut the boneless chuck into 1 1/2 to 2-inch cubes. Split the Indian green chiles in half lengthwise. Thinly slice the red onion lengthwise. Thinly slice the English cucumber cross-wise. Thinly slice the Indian green chiles cross-wise.",
-      "secondary_message": "2 ½ to 3 lb boneless chuck\n6 Indian green chiles, divided\n½ medium red onion\n1 English cucumber\n2 to 3 Indian green chiles"
-    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat to 300ºF (150ºC).",
@@ -244,91 +231,7 @@
       "secondary_message": null
     }
   ],
-  "nutrition": {
-    "energy": 908.04,
-    "ash": 4.22,
-    "water": 231.55,
-    "carbs": 13.35,
-    "fiber": 3.22,
-    "sugars": 3.97,
-    "fat": 76.55,
-    "monounsaturated": 38.84,
-    "polyunsaturated": 9.53,
-    "omega_3": 2.65,
-    "omega_6": 6.87,
-    "saturated": 20.01,
-    "protein": 42.55,
-    "alanine": 2.43,
-    "arginine": 2.65,
-    "aspartic_acid": 3.73,
-    "cystine": 0.52,
-    "glutamic_acid": 6.22,
-    "glycine": 2.44,
-    "histidine": 1.28,
-    "isoleucine": 1.82,
-    "leucine": 3.19,
-    "lysine": 3.37,
-    "methionine": 1.03,
-    "phenylalanine": 1.6,
-    "proline": 1.94,
-    "serine": 1.59,
-    "threonine": 1.6,
-    "tryptophan": 0.28,
-    "tyrosine": 1.28,
-    "valine": 2.0,
-    "b1_thiamine": 0.22,
-    "b2_riboflavin": 0.37,
-    "b3_niacin": 9.52,
-    "b5_pantothenic_acid": 1.41,
-    "b6_pyridoxine": 1.06,
-    "b12_cobalamin": 3.72,
-    "folate": 38.4,
-    "vitamin_a": 19.29,
-    "vitamin_c": 27.15,
-    "calcium": 121.0,
-    "copper": 0.34,
-    "iron": 7.15,
-    "magnesium": 84.18,
-    "manganese": 0.92,
-    "phosphorus": 430.98,
-    "potassium": 930.7,
-    "selenium": 45.64,
-    "sodium": 797.96,
-    "zinc": 10.18
-  },
-  "nutrition_meta": {
-    "source": "calculated",
-    "date": "2026-10-25",
-    "lines": 30,
-    "counted": 24,
-    "partial": true,
-    "missing": [
-      "panch phoron"
-    ],
-    "not_counted": [
-      "Steamed rice, such as basmati or jasmine",
-      "Lime wedges"
-    ],
-    "estimated_share": 0.004,
-    "omitted_fields": [
-      "alcohol",
-      "caffeine",
-      "starch",
-      "fructose",
-      "galactose",
-      "glucose",
-      "lactose",
-      "maltose",
-      "sucrose",
-      "sugar_alcohol",
-      "transfats",
-      "cholesterol",
-      "choline",
-      "vitamin_d",
-      "vitamin_e",
-      "vitamin_k"
-    ]
-  },
+  "nutrition": {},
   "schema_metadata": {
     "category": [
       "Entree"

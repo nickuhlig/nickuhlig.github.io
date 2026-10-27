@@ -298,8 +298,8 @@ def needs_fetch(row: dict) -> bool:
 
 
 def select_rows(rows: dict, predicate, *, limit: int | None, match: str | None, ids: set[int] | None,
-                sample: int | None = None, seed: int | None = None) -> list[dict]:
-    chosen = sorted((r for (src, _), r in rows.items() if src == SOURCE and predicate(r)), key=lambda r: int(r["id"]))
+                sample: int | None = None, seed: int | None = None, source: str = SOURCE) -> list[dict]:
+    chosen = sorted((r for (src, _), r in rows.items() if src == source and predicate(r)), key=lambda r: int(r["id"]))
     if match:
         chosen = [r for r in chosen if match in r["url"]]
     if ids:
@@ -359,15 +359,15 @@ def note_thumbnail(result: str, row: dict) -> None:
 
 
 def run_thumbnails(session: requests.Session, rows: dict, raw_dir: Path, out_dir: Path, *, delay: float,
-                   limit: int | None, match: str | None, ids: set[int] | None) -> None:
+                   limit: int | None, match: str | None, ids: set[int] | None, source: str = SOURCE, parse=parse_page) -> None:
     """Fills in the missing thumbnail.jpg of every recipe that has a saved page (the picture's address is read from it)."""
-    todo = [r for r in select_rows(rows, lambda r: r["status"] == "ok", limit=None, match=match, ids=ids)
+    todo = [r for r in select_rows(rows, lambda r: r["status"] == "ok", limit=None, match=match, ids=ids, source=source)
             if raw_path(raw_dir, r).exists() and not (out_dir / "families" / r["id"] / THUMB_NAME).exists()]
     todo = todo[:limit] if limit is not None else todo
     print(f"{len(todo)} recipe(s) without a thumbnail")
     for n, row in enumerate(todo, start=1):
         try:
-            parsed = parse_page(gzip.decompress(raw_path(raw_dir, row).read_bytes()).decode("utf-8", errors="replace"), row["url"])
+            parsed = parse(gzip.decompress(raw_path(raw_dir, row).read_bytes()).decode("utf-8", errors="replace"), row["url"])
         except Exception as exc:  # noqa: BLE001  a page with no recipe data (like the two without an ingredient list) must not stop the run
             print(f"    -> skipped {row['id']} {row['url']}: {type(exc).__name__}: {exc}")
             continue
@@ -381,9 +381,10 @@ def run_thumbnails(session: requests.Session, rows: dict, raw_dir: Path, out_dir
             time.sleep(delay * random.uniform(0.5, 1.0))
 
 
-def run_align(rows: dict, raw_dir: Path, aligner, *, limit: int | None, match: str | None, ids: set[int] | None) -> int:
+def run_align(rows: dict, raw_dir: Path, aligner, *, limit: int | None, match: str | None, ids: set[int] | None,
+              source: str = SOURCE) -> int:
     """Re-aligns pages already saved on disk -- no network. This is the loop for improving the rules."""
-    todo = [r for r in select_rows(rows, lambda r: r["status"] == "ok", limit=limit, match=match, ids=ids)
+    todo = [r for r in select_rows(rows, lambda r: r["status"] == "ok", limit=limit, match=match, ids=ids, source=source)
             if raw_path(raw_dir, r).exists()]
     print(f"{len(todo)} saved page(s) to align")
     failed = 0
@@ -401,8 +402,8 @@ def run_align(rows: dict, raw_dir: Path, aligner, *, limit: int | None, match: s
 def run_fetch(session: requests.Session, rows: dict, registry_path: Path, raw_dir: Path, *, delay: float,
               limit: int | None, match: str | None, ids: set[int] | None,
               keep_raw: bool = True, on_page=None, retry_wait: float = RETRY_WAIT,
-              sample: int | None = None, seed: int | None = None) -> dict[str, int]:
-    todo = select_rows(rows, needs_fetch, limit=limit, match=match, ids=ids, sample=sample, seed=seed)
+              sample: int | None = None, seed: int | None = None, source: str = SOURCE) -> dict[str, int]:
+    todo = select_rows(rows, needs_fetch, limit=limit, match=match, ids=ids, sample=sample, seed=seed, source=source)
     print(f"{len(todo)} page(s) to fetch")
     counts: dict[str, int] = {}
     consecutive_blocks = 0
@@ -457,12 +458,12 @@ def make_session() -> requests.Session:
     return session
 
 
-def print_status(rows: dict) -> None:
-    mine = [r for (src, _), r in rows.items() if src == SOURCE]
+def print_status(rows: dict, source: str = SOURCE) -> None:
+    mine = [r for (src, _), r in rows.items() if src == source]
     counts: dict[str, int] = {}
     for r in mine:
         counts[r["status"]] = counts.get(r["status"], 0) + 1
-    print(f"{SOURCE}: {len(mine)} recipe URL(s) in the registry")
+    print(f"{source}: {len(mine)} recipe URL(s) in the registry")
     for status in ("new", "stale", "ok", "norecipe", "gone", "error"):
         if counts.get(status):
             print(f"  {status:9} {counts[status]}")

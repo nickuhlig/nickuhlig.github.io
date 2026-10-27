@@ -16,16 +16,9 @@
   "rating_count": 0,
   "allowed_type_ids": [
     1,
-    2,
-    3,
-    4
+    3
   ],
-  "violated_restriction_ids": [
-    2,
-    6,
-    13,
-    14
-  ],
+  "violated_restriction_ids": null,
   "variety_tag_ids": [
     49
   ],
@@ -48,19 +41,17 @@
     {
       "ingredient_id": 159,
       "name": "carrots",
-      "quantity": "6 medium",
-      "weigh_as": "12 oz"
+      "quantity": "12 oz"
     },
     {
       "ingredient_id": 13,
       "name": "red medium beets",
-      "quantity": "6 medium",
-      "weigh_as": "1 lb"
+      "quantity": "1 lb"
     },
     {
-      "ingredient_id": 47,
-      "name": "extra-virgin olive oil, divided",
-      "quantity": "2 tbsp"
+      "ingredient_id": null,
+      "name": "plus 2 tablespoons extra-virgin olive oil, divided",
+      "quantity": "¼ cup"
     },
     {
       "ingredient_id": 88,
@@ -74,9 +65,8 @@
     },
     {
       "ingredient_id": 327,
-      "name": "toasted pecans",
-      "quantity": "2 tbsp",
-      "prep": "chopped"
+      "name": "chopped toasted pecans",
+      "quantity": "½ cup plus 2 tbsp"
     },
     {
       "ingredient_id": 133,
@@ -95,25 +85,16 @@
     },
     {
       "ingredient_id": 1723,
-      "name": "lacinato kale",
-      "quantity": "1 ⅔ bunches",
-      "weigh_as": "12 oz",
-      "prep": "ribs removed and cut into 2-inch pieces"
+      "name": "lacinato kale, ribs removed and cut into 2-inch pieces",
+      "quantity": "12 oz"
     },
     {
       "ingredient_id": 126,
-      "name": "goat cheese",
-      "quantity": "3 oz",
-      "prep": "crumbled"
+      "name": "goat cheese, crumbled",
+      "quantity": "3 oz"
     }
   ],
   "instructions": [
-    {
-      "id": 0,
-      "kind": "prep",
-      "primary_message": "Chop the toasted pecans. Remove the ribs from the lacinato kale, then cut it into 2-inch pieces. Crumble the goat cheese.",
-      "secondary_message": "2 tbsp toasted pecans\n1 ⅔ bunches lacinato kale\n3 oz goat cheese"
-    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat the oven to 425°F. In a medium bowl, toss carrots with 1 tablespoon oil, 1/2 teaspoon kosher salt, and 1/8 teaspoon pepper to combine, then arrange in a single layer on half of a rimmed baking sheet. In now-empty bowl, toss beets with 1 tablespoon oil, 1/2 teaspoon kosher salt, and 1/8 teaspoon pepper and arrange in single layer on the second half of rimmed baking sheet. Roast until vegetables are tender and lightly browned at edges, 20 to 25 minutes. Let cool to room temperature, about 15 minutes.",
@@ -136,82 +117,15 @@
     }
   ],
   "nutrition": {
-    "energy": 143.71,
-    "alcohol": 0.0,
-    "ash": 2.73,
-    "caffeine": 0.0,
-    "water": 140.03,
-    "carbs": 15.28,
-    "fiber": 4.82,
-    "sugars": 9.43,
-    "fat": 7.87,
-    "monounsaturated": 3.84,
-    "polyunsaturated": 1.21,
-    "omega_3": 0.23,
-    "omega_6": 0.97,
-    "saturated": 2.24,
-    "cholesterol": 4.99,
-    "protein": 4.82,
-    "alanine": 0.19,
-    "arginine": 0.21,
-    "aspartic_acid": 0.37,
-    "cystine": 0.07,
-    "glutamic_acid": 0.94,
-    "glycine": 0.13,
-    "histidine": 0.16,
-    "isoleucine": 0.22,
-    "leucine": 0.35,
-    "lysine": 0.3,
-    "methionine": 0.09,
-    "phenylalanine": 0.2,
-    "proline": 0.37,
-    "serine": 0.19,
-    "threonine": 0.24,
-    "tryptophan": 0.05,
-    "tyrosine": 0.17,
-    "valine": 0.27,
-    "b1_thiamine": 0.12,
-    "b2_riboflavin": 0.3,
-    "b3_niacin": 1.2,
-    "b5_pantothenic_acid": 0.46,
-    "b6_pyridoxine": 0.19,
-    "b12_cobalamin": 0.02,
-    "choline": 9.8,
-    "folate": 98.27,
-    "vitamin_a": 489.46,
-    "vitamin_c": 45.02,
-    "vitamin_d": 0.04,
-    "vitamin_e": 1.14,
-    "vitamin_k": 174.08,
-    "calcium": 155.88,
-    "copper": 0.19,
-    "iron": 1.6,
-    "magnesium": 39.42,
-    "manganese": 0.92,
-    "phosphorus": 97.68,
-    "potassium": 499.44,
-    "selenium": 2.54,
-    "sodium": 453.92,
-    "zinc": 0.74
-  },
-  "nutrition_meta": {
-    "source": "calculated",
-    "date": "2026-10-25",
-    "lines": 11,
-    "counted": 11,
-    "partial": false,
-    "estimated_share": 0.0,
-    "omitted_fields": [
-      "starch",
-      "fructose",
-      "galactose",
-      "glucose",
-      "lactose",
-      "maltose",
-      "sucrose",
-      "sugar_alcohol",
-      "transfats"
-    ]
+    "energy": 137.0,
+    "fat": 7.0,
+    "saturated": 2.0,
+    "carbs": 15.0,
+    "fiber": 4.0,
+    "sugars": 10.0,
+    "protein": 4.0,
+    "sodium": 464.0,
+    "cholesterol": 5.0
   },
   "schema_metadata": {
     "category": [

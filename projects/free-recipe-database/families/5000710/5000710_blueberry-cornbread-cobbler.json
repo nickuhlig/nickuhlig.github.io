@@ -51,27 +51,14 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 192,
-      "name": "lemon",
-      "quantity": "1",
-      "weigh_parts": [
-        {
-          "ingredient_id": 1480,
-          "quantity": "3 tbsp",
-          "name": "lemon juice, from 1 whole lemon"
-        },
-        {
-          "ingredient_id": 2346,
-          "quantity": "2 tsp",
-          "name": "fresh lemon zest, from 1 whole lemon"
-        },
-        {
-          "ingredient_id": 2346,
-          "quantity": "1 tsp",
-          "name": "fresh lemon zest"
-        }
-      ],
-      "prep": "zested and juiced"
+      "ingredient_id": 2346,
+      "name": "fresh lemon zest, from 1 whole lemon",
+      "quantity": "2 tsp"
+    },
+    {
+      "ingredient_id": 1480,
+      "name": "lemon juice, from 1 whole lemon",
+      "quantity": "3 tbsp"
     },
     {
       "ingredient_id": 74,
@@ -96,7 +83,7 @@
     {
       "ingredient_id": 346,
       "name": "granulated sugar, divided",
-      "quantity": "1 tbsp"
+      "quantity": "⅔ cup plus 1 tbsp"
     },
     {
       "ingredient_id": 2210,
@@ -119,6 +106,11 @@
       "quantity": "½ tsp"
     },
     {
+      "ingredient_id": 2346,
+      "name": "fresh lemon zest",
+      "quantity": "1 tsp"
+    },
+    {
       "ingredient_id": 115,
       "name": "unsalted butter melted and cooled slightly, divided",
       "quantity": "9 tbsp"
@@ -135,12 +127,6 @@
     }
   ],
   "instructions": [
-    {
-      "id": 0,
-      "kind": "prep",
-      "primary_message": "Zest and juice the lemon.",
-      "secondary_message": "1 lemon"
-    },
     {
       "id": 1,
       "primary_message": "For the filling: Adjust oven rack to middle position and preheat oven to 350°F (175ºC). In a large bowl, whisk sugar, cornstarch, lemon zest, cinnamon, and salt, to combine. Add 6 cups of the blueberries and the lemon juice and toss to combine; set aside.",
@@ -168,82 +154,15 @@
     }
   ],
   "nutrition": {
-    "energy": 384.48,
-    "alcohol": 0.0,
-    "ash": 1.48,
-    "caffeine": 0.0,
-    "water": 117.49,
-    "carbs": 51.76,
-    "fiber": 3.34,
-    "sugars": 25.05,
-    "fat": 18.87,
-    "monounsaturated": 5.17,
-    "polyunsaturated": 1.09,
-    "omega_3": 0.14,
-    "omega_6": 0.79,
-    "saturated": 10.77,
-    "cholesterol": 71.76,
-    "protein": 4.59,
-    "alanine": 0.22,
-    "arginine": 0.21,
-    "aspartic_acid": 0.33,
-    "cystine": 0.08,
-    "glutamic_acid": 1.07,
-    "glycine": 0.16,
-    "histidine": 0.11,
-    "isoleucine": 0.19,
-    "leucine": 0.41,
-    "lysine": 0.19,
-    "methionine": 0.1,
-    "phenylalanine": 0.23,
-    "proline": 0.41,
-    "serine": 0.25,
-    "threonine": 0.16,
-    "tryptophan": 0.05,
-    "tyrosine": 0.15,
-    "valine": 0.24,
-    "b1_thiamine": 0.22,
-    "b2_riboflavin": 0.23,
-    "b3_niacin": 1.87,
-    "b5_pantothenic_acid": 0.45,
-    "b6_pyridoxine": 0.1,
-    "b12_cobalamin": 0.13,
-    "choline": 34.77,
-    "folate": 90.4,
-    "vitamin_a": 153.12,
-    "vitamin_c": 13.03,
-    "vitamin_d": 0.12,
-    "vitamin_e": 1.13,
-    "vitamin_k": 20.72,
-    "calcium": 84.88,
-    "copper": 0.1,
-    "iron": 1.66,
-    "magnesium": 16.79,
-    "manganese": 0.48,
-    "phosphorus": 130.83,
-    "potassium": 157.33,
-    "selenium": 9.55,
-    "sodium": 289.88,
-    "zinc": 0.52
-  },
-  "nutrition_meta": {
-    "source": "calculated",
-    "date": "2026-10-25",
-    "lines": 17,
-    "counted": 17,
-    "partial": false,
-    "estimated_share": 0.0,
-    "omitted_fields": [
-      "starch",
-      "fructose",
-      "galactose",
-      "glucose",
-      "lactose",
-      "maltose",
-      "sucrose",
-      "sugar_alcohol",
-      "transfats"
-    ]
+    "energy": 456.0,
+    "fat": 20.0,
+    "saturated": 11.0,
+    "carbs": 68.0,
+    "fiber": 4.0,
+    "sugars": 40.0,
+    "protein": 5.0,
+    "sodium": 333.0,
+    "cholesterol": 75.0
   },
   "schema_metadata": {
     "category": [

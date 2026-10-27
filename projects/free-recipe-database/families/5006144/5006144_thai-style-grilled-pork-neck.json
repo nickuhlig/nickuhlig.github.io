@@ -17,7 +17,8 @@
   "allowed_type_ids": [
     1,
     3,
-    7
+    7,
+    8
   ],
   "violated_restriction_ids": [
     1,
@@ -45,7 +46,7 @@
     {
       "ingredient_id": 52,
       "name": "fish sauce, divided",
-      "quantity": "1 tsp"
+      "quantity": "¼ cup plus 1 tsp"
     },
     {
       "ingredient_id": 53,
@@ -58,17 +59,9 @@
       "quantity": "4 tbsp"
     },
     {
-      "ingredient_id": 228,
-      "name": "lime",
-      "quantity": "½",
-      "weigh_parts": [
-        {
-          "ingredient_id": 1421,
-          "quantity": "1 tbsp",
-          "name": "lime juice"
-        }
-      ],
-      "prep": "juiced"
+      "ingredient_id": 1421,
+      "name": "lime juice",
+      "quantity": "1 tbsp"
     },
     {
       "ingredient_id": 3196,
@@ -82,18 +75,11 @@
     },
     {
       "ingredient_id": 1810,
-      "name": "bird's eye chile",
-      "quantity": "1",
-      "prep": "thinly sliced"
+      "name": "bird's eye chile, thinly sliced",
+      "quantity": "1"
     }
   ],
   "instructions": [
-    {
-      "id": 0,
-      "kind": "prep",
-      "primary_message": "Juice the lime. Thinly slice the bird's eye chile.",
-      "secondary_message": "½ lime\n1 bird's eye chile"
-    },
     {
       "id": 1,
       "primary_message": "In a small mixing bowl, combine 1/4 cup fish sauce, soy sauce, 3 tablespoons brown sugar, and lime juice. Place pork neck in a nonreactive container, then pour in all the marinade and mix to distribute evenly. Cover, refrigerate, and allow to marinate at least overnight and up to 2 days.",
@@ -111,85 +97,15 @@
     }
   ],
   "nutrition": {
-    "energy": 619.19,
-    "alcohol": 0.0,
-    "ash": 3.57,
-    "caffeine": 0.0,
-    "water": 158.34,
-    "carbs": 21.34,
-    "fiber": 1.02,
-    "sugars": 16.34,
-    "fat": 40.95,
-    "monounsaturated": 18.21,
-    "polyunsaturated": 4.38,
-    "omega_3": 0.3,
-    "omega_6": 3.88,
-    "saturated": 14.21,
-    "cholesterol": 161.03,
-    "protein": 40.01,
-    "lysine": 3.52,
-    "methionine": 1.01,
-    "tryptophan": 0.48,
-    "b1_thiamine": 1.82,
-    "b2_riboflavin": 0.66,
-    "b3_niacin": 9.22,
-    "b5_pantothenic_acid": 1.69,
-    "b6_pyridoxine": 0.82,
-    "b12_cobalamin": 1.68,
-    "choline": 140.55,
-    "folate": 15.66,
-    "vitamin_a": 5.16,
-    "vitamin_c": 3.49,
-    "vitamin_d": 3.86,
-    "vitamin_e": 0.46,
-    "vitamin_k": 0.59,
-    "calcium": 58.2,
-    "copper": 0.21,
-    "iron": 3.07,
-    "magnesium": 65.01,
-    "phosphorus": 443.92,
-    "potassium": 845.92,
-    "selenium": 58.31,
-    "sodium": 526.83,
-    "zinc": 6.2
-  },
-  "nutrition_meta": {
-    "source": "calculated",
-    "date": "2026-10-25",
-    "lines": 7,
-    "counted": 7,
-    "partial": false,
-    "stand_ins": [
-      "pork neck"
-    ],
-    "estimated_share": 0.0,
-    "omitted_fields": [
-      "starch",
-      "fructose",
-      "galactose",
-      "glucose",
-      "lactose",
-      "maltose",
-      "sucrose",
-      "sugar_alcohol",
-      "transfats",
-      "alanine",
-      "arginine",
-      "aspartic_acid",
-      "cystine",
-      "glutamic_acid",
-      "glycine",
-      "histidine",
-      "isoleucine",
-      "leucine",
-      "phenylalanine",
-      "proline",
-      "serine",
-      "threonine",
-      "tyrosine",
-      "valine",
-      "manganese"
-    ]
+    "energy": 658.0,
+    "fat": 43.0,
+    "saturated": 16.0,
+    "carbs": 11.0,
+    "fiber": 0.0,
+    "sugars": 10.0,
+    "protein": 54.0,
+    "sodium": 1483.0,
+    "cholesterol": 195.0
   },
   "schema_metadata": {
     "category": [

@@ -16,7 +16,8 @@
   "rating_count": 4,
   "allowed_type_ids": [
     1,
-    3
+    3,
+    7
   ],
   "violated_restriction_ids": [
     1,
@@ -35,14 +36,13 @@
   "ingredients": [
     {
       "ingredient_id": 2163,
-      "name": "boneless pork loin",
-      "quantity": "227 g",
-      "prep": "sliced 1/8-inch thick"
+      "name": "boneless pork loin, sliced 1/8-inch thick",
+      "quantity": "227 g"
     },
     {
       "ingredient_id": 52,
       "name": "fish sauce, divided",
-      "quantity": "2 tsp"
+      "quantity": "1 tbsp plus 2 tsp"
     },
     {
       "ingredient_id": 1086,
@@ -111,24 +111,16 @@
     },
     {
       "ingredient_id": 188,
-      "name": "cilantro",
-      "quantity": "5 (10 g) sprigs",
-      "prep": "cut into 1/2-inch pieces"
+      "name": "cilantro, cut into 1/2-inch pieces",
+      "quantity": "5 (10 g) sprigs"
     },
     {
       "ingredient_id": 1720,
-      "name": "Chinese celery leaves and stalks",
-      "quantity": "5 (10 g) sprigs",
-      "prep": "cut into 1/2-inch pieces"
+      "name": "Chinese celery leaves and stalks, cut into 1/2-inch pieces",
+      "quantity": "5 (10 g) sprigs"
     }
   ],
   "instructions": [
-    {
-      "id": 0,
-      "kind": "prep",
-      "primary_message": "Slice the boneless pork loin 1/8-inch thick. Cut the cilantro into 1/2-inch pieces. Cut the Chinese celery leaves and stalks into 1/2-inch pieces.",
-      "secondary_message": "227 g boneless pork loin\n5 (10 g) sprigs cilantro\n5 (10 g) sprigs Chinese celery leaves and stalks"
-    },
     {
       "id": 1,
       "primary_message": "For the Marinated Pork and Meatballs: In a mixing bowl, toss sliced pork with 2 teaspoons fish sauce (10ml), 1/8 teaspoon white pepper, and a pinch of salt until evenly coated. Set aside.",
@@ -171,88 +163,15 @@
     }
   ],
   "nutrition": {
-    "energy": 533.54,
-    "water": 397.06,
-    "carbs": 53.67,
-    "fat": 16.26,
-    "monounsaturated": 7.81,
-    "polyunsaturated": 3.24,
-    "omega_3": 0.17,
-    "omega_6": 2.38,
-    "saturated": 4.85,
-    "cholesterol": 155.31,
-    "protein": 39.72,
-    "alanine": 2.23,
-    "arginine": 2.33,
-    "aspartic_acid": 2.87,
-    "glutamic_acid": 7.52,
-    "glycine": 3.27,
-    "histidine": 1.18,
-    "isoleucine": 1.58,
-    "leucine": 2.75,
-    "lysine": 2.43,
-    "methionine": 0.81,
-    "phenylalanine": 1.55,
-    "serine": 1.5,
-    "threonine": 1.36,
-    "tryptophan": 0.42,
-    "tyrosine": 1.21,
-    "valine": 1.7,
-    "b1_thiamine": 1.07,
-    "b2_riboflavin": 0.74,
-    "b3_niacin": 10.59,
-    "b5_pantothenic_acid": 1.41,
-    "b6_pyridoxine": 0.98,
-    "b12_cobalamin": 1.08,
-    "folate": 280.16,
-    "vitamin_a": 106.53,
-    "vitamin_c": 25.12,
-    "calcium": 69.71,
-    "copper": 0.52,
-    "iron": 4.78,
-    "magnesium": 120.39,
-    "manganese": 0.71,
-    "phosphorus": 420.03,
-    "potassium": 769.06,
-    "sodium": 2313.41,
-    "zinc": 4.27
-  },
-  "nutrition_meta": {
-    "source": "calculated",
-    "date": "2026-10-25",
-    "lines": 17,
-    "counted": 16,
-    "partial": true,
-    "missing": [
-      "Chinese celery leaves and stalks, cut into 1/2-inch pieces"
-    ],
-    "stand_ins": [
-      "Nam Cheua Gradook Moo"
-    ],
-    "estimated_share": 0.356,
-    "omitted_fields": [
-      "alcohol",
-      "ash",
-      "caffeine",
-      "fiber",
-      "starch",
-      "sugars",
-      "fructose",
-      "galactose",
-      "glucose",
-      "lactose",
-      "maltose",
-      "sucrose",
-      "sugar_alcohol",
-      "transfats",
-      "cystine",
-      "proline",
-      "choline",
-      "vitamin_d",
-      "vitamin_e",
-      "vitamin_k",
-      "selenium"
-    ]
+    "energy": 554.0,
+    "fat": 35.0,
+    "saturated": 11.0,
+    "carbs": 19.0,
+    "fiber": 2.0,
+    "sugars": 6.0,
+    "protein": 37.0,
+    "sodium": 2922.0,
+    "cholesterol": 119.0
   },
   "schema_metadata": {
     "category": [
@@ -272,7 +191,7 @@
   "source": "seriouseats",
   "backfill_bonus_fields": null,
   "description": "This Thai soup features a clear, savory pork stock with marinated sliced pork, rustic meatballs, garlicky noodles, and an array of final garnish and seasonings.",
-  "notes": "Optional or for serving: 2 teaspoons garlic oil from Crispy Fried Garlic, plus crispy fried garlic for serving; Ground white pepper, for serving; Ground roasted Thai chile flakes, for serving; Granulated sugar, for serving\n\nOptional substitutions: boneless pork loin → boneless skinless pork shoulder\n\nNotes: You can substitute rice noodles for the egg noodles. The types that are typically served with this dish are thin rice noodles (known as sen mee), medium rice noodles (sen lek), or wide rice noodles (sen yai).\nA Holland chile and Fresno chile will have a similar mild heat level balanced with a sweet finish, while a fresh Cayenne chile will be spicier. A jalapeño chile may also be substituted in this recipe.\nIf Golden Mountain Seasoning Soy Sauce is unavailable, Maggi seasoning or Thai light soy sauce are the best substitutions.\n\nMake-ahead and storage: The chile vinegar can be refrigerated in an airtight container for up to 2 months.",
+  "notes": "Optional or for serving: 2 tablespoons plus 2 teaspoons garlic oil from Crispy Fried Garlic, plus crispy fried garlic for serving; Ground white pepper, for serving; Ground roasted Thai chile flakes, for serving; Granulated sugar, for serving\n\nOptional substitutions: boneless pork loin → boneless skinless pork shoulder\n\nNotes: You can substitute rice noodles for the egg noodles. The types that are typically served with this dish are thin rice noodles (known as sen mee), medium rice noodles (sen lek), or wide rice noodles (sen yai).\nA Holland chile and Fresno chile will have a similar mild heat level balanced with a sweet finish, while a fresh Cayenne chile will be spicier. A jalapeño chile may also be substituted in this recipe.\nIf Golden Mountain Seasoning Soy Sauce is unavailable, Maggi seasoning or Thai light soy sauce are the best substitutions.\n\nMake-ahead and storage: The chile vinegar can be refrigerated in an airtight container for up to 2 months.",
   "author": [
     "Derek Lucci"
   ],

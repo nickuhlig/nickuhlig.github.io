@@ -55,7 +55,7 @@ MASTER_FILENAME = "ingredient_master.json"
 # split in half") -- so the index's learn-every-spelling pass must skip them, or the master would fill
 # with thousands of one-off prep phrases. The restriction backfill, by contrast, DOES cover them: it
 # completes violated_restriction_ids once the master has decided the new ingredients.
-EXTERNAL_SOURCES = {"seriouseats"}
+EXTERNAL_SOURCES = {"seriouseats", "nytcooking"}
 
 
 def master_path_for(recipes_dir: Path) -> Path:

@@ -17,8 +17,7 @@
   "allowed_type_ids": [
     1,
     3,
-    7,
-    8
+    7
   ],
   "violated_restriction_ids": [
     3,
@@ -61,7 +60,7 @@
     {
       "ingredient_id": 52,
       "name": "fish sauce",
-      "quantity": "2 tsp"
+      "quantity": "1 tbsp plus 2 tsp"
     },
     {
       "ingredient_id": 346,
@@ -75,18 +74,11 @@
     },
     {
       "ingredient_id": 1818,
-      "name": "fresh makrut lime leaves",
-      "quantity": "10",
-      "prep": "mid-ribs removed, thinly sliced"
+      "name": "fresh makrut lime leaves, mid-ribs removed, thinly sliced",
+      "quantity": "10"
     }
   ],
   "instructions": [
-    {
-      "id": 0,
-      "kind": "prep",
-      "primary_message": "Remove the mid-ribs from the fresh makrut lime leaves, then thinly slice them.",
-      "secondary_message": "10 fresh makrut lime leaves"
-    },
     {
       "id": 1,
       "primary_message": "Using a sharp knife, cut chicken thighs into 1/2-inch-thick slices, then cut slices crosswise to form 1/2-inch cubes. Spread cubed chicken in an even layer on cutting board. Chop chicken, working the knife across the cutting board in a continuous motion, occasionally lifting and folding the meat over on the board to expose larger pieces of meat, until coarsely minced, about 3 minutes. Set aside.",
@@ -109,85 +101,15 @@
     }
   ],
   "nutrition": {
-    "energy": 141.5,
-    "alcohol": 0.0,
-    "caffeine": 0.0,
-    "water": 49.85,
-    "carbs": 1.36,
-    "fiber": 0.15,
-    "sugars": 0.46,
-    "sugar_alcohol": 0.0,
-    "fat": 9.74,
-    "monounsaturated": 2.58,
-    "polyunsaturated": 4.62,
-    "omega_3": 0.47,
-    "omega_6": 4.06,
-    "saturated": 1.88,
-    "transfats": 0.06,
-    "cholesterol": 54.42,
-    "protein": 11.6,
-    "alanine": 0.68,
-    "arginine": 0.8,
-    "aspartic_acid": 1.12,
-    "cystine": 0.14,
-    "glutamic_acid": 1.87,
-    "glycine": 0.52,
-    "histidine": 0.34,
-    "isoleucine": 0.55,
-    "leucine": 0.98,
-    "lysine": 1.07,
-    "methionine": 0.33,
-    "phenylalanine": 0.46,
-    "proline": 0.46,
-    "serine": 0.48,
-    "threonine": 0.54,
-    "tryptophan": 0.13,
-    "tyrosine": 0.43,
-    "valine": 0.56,
-    "b1_thiamine": 0.06,
-    "b2_riboflavin": 0.12,
-    "b3_niacin": 3.26,
-    "b6_pyridoxine": 0.28,
-    "b12_cobalamin": 0.36,
-    "choline": 31.55,
-    "folate": 5.3,
-    "vitamin_a": 19.09,
-    "vitamin_c": 0.16,
-    "vitamin_e": 0.77,
-    "vitamin_k": 15.65,
-    "calcium": 8.26,
-    "copper": 0.05,
-    "iron": 0.56,
-    "magnesium": 19.79,
-    "phosphorus": 107.35,
-    "potassium": 164.61,
-    "selenium": 14.01,
-    "sodium": 589.4,
-    "zinc": 0.94
-  },
-  "nutrition_meta": {
-    "source": "calculated",
-    "date": "2026-10-25",
-    "lines": 7,
-    "counted": 5,
-    "partial": false,
-    "stand_ins": [
-      "Southern Thai curry paste"
-    ],
-    "estimated_share": 0.101,
-    "omitted_fields": [
-      "ash",
-      "starch",
-      "fructose",
-      "galactose",
-      "glucose",
-      "lactose",
-      "maltose",
-      "sucrose",
-      "b5_pantothenic_acid",
-      "vitamin_d",
-      "manganese"
-    ]
+    "energy": 150.0,
+    "fat": 10.0,
+    "saturated": 2.0,
+    "carbs": 4.0,
+    "fiber": 0.0,
+    "sugars": 1.0,
+    "protein": 11.0,
+    "sodium": 920.0,
+    "cholesterol": 51.0
   },
   "schema_metadata": {
     "category": [

@@ -16,7 +16,8 @@
   "rating_count": 9,
   "allowed_type_ids": [
     1,
-    3
+    3,
+    7
   ],
   "violated_restriction_ids": [
     3
@@ -39,7 +40,7 @@
     {
       "ingredient_id": 1007,
       "name": "canola oil, divided",
-      "quantity": "3 tbsp"
+      "quantity": "½ cup plus 3 tbsp"
     },
     {
       "ingredient_id": 1191,
@@ -48,15 +49,13 @@
     },
     {
       "ingredient_id": 164,
-      "name": "boneless skinless chicken thighs",
-      "quantity": "1 ½ lb",
-      "prep": "cut into bite-size pieces"
+      "name": "boneless skinless chicken thighs, cut into bite-size pieces",
+      "quantity": "1 ½ lb"
     },
     {
       "ingredient_id": 1713,
-      "name": "onion",
-      "quantity": "1 medium",
-      "prep": "thinly sliced"
+      "name": "onion, thinly sliced",
+      "quantity": "1 medium"
     },
     {
       "ingredient_id": 1330,
@@ -74,7 +73,7 @@
       "quantity": "1 tsp"
     },
     {
-      "ingredient_id": 1905,
+      "ingredient_id": 319,
       "name": "uncooked jasmine rice",
       "quantity": "1 cup"
     },
@@ -95,24 +94,16 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions",
-      "quantity": "4",
-      "prep": "thinly sliced"
+      "name": "scallions, thinly sliced",
+      "quantity": "4"
     },
     {
       "ingredient_id": 228,
-      "name": "fresh limes",
-      "quantity": "2",
-      "prep": "quartered"
+      "name": "fresh limes, quartered",
+      "quantity": "2"
     }
   ],
   "instructions": [
-    {
-      "id": 0,
-      "kind": "prep",
-      "primary_message": "Cut the boneless skinless chicken thighs into bite-size pieces. Thinly slice the onion. Thinly slice the scallions. Quarter the fresh limes.",
-      "secondary_message": "1 ½ lb boneless skinless chicken thighs\n1 medium onion\n4 scallions\n2 fresh limes"
-    },
     {
       "id": 1,
       "primary_message": "Place 1/2 cup oil and 2/3 of garlic in a small saucepan over medium heat. Cook, stirring occasionally, until garlic turns light golden brown. Transfer garlic to fine-mesh strainer and drain. Spread garlic out on a paper towel-lined plate and set aside.",
@@ -135,85 +126,15 @@
     }
   ],
   "nutrition": {
-    "energy": 519.8,
-    "alcohol": 0.0,
-    "ash": 5.45,
-    "caffeine": 0.0,
-    "water": 568.77,
-    "carbs": 34.93,
-    "fiber": 2.32,
-    "sugars": 8.13,
-    "fat": 21.76,
-    "monounsaturated": 11.1,
-    "polyunsaturated": 5.31,
-    "omega_3": 1.05,
-    "omega_6": 4.1,
-    "saturated": 3.84,
-    "cholesterol": 170.69,
-    "protein": 45.25,
-    "b1_thiamine": 0.39,
-    "b2_riboflavin": 0.68,
-    "b3_niacin": 16.1,
-    "b6_pyridoxine": 1.21,
-    "b12_cobalamin": 1.06,
-    "choline": 132.62,
-    "folate": 83.81,
-    "vitamin_a": 24.09,
-    "vitamin_c": 19.17,
-    "vitamin_d": 0.0,
-    "vitamin_e": 2.38,
-    "vitamin_k": 45.34,
-    "calcium": 75.29,
-    "copper": 0.41,
-    "iron": 3.33,
-    "magnesium": 77.93,
-    "phosphorus": 463.54,
-    "potassium": 984.11,
-    "selenium": 51.84,
-    "sodium": 1036.07,
-    "zinc": 3.65
-  },
-  "nutrition_meta": {
-    "source": "calculated",
-    "date": "2026-10-25",
-    "lines": 13,
-    "counted": 12,
-    "partial": false,
-    "not_counted": [
-      "Kosher salt"
-    ],
-    "estimated_share": 0.0,
-    "omitted_fields": [
-      "starch",
-      "fructose",
-      "galactose",
-      "glucose",
-      "lactose",
-      "maltose",
-      "sucrose",
-      "sugar_alcohol",
-      "transfats",
-      "alanine",
-      "arginine",
-      "aspartic_acid",
-      "cystine",
-      "glutamic_acid",
-      "glycine",
-      "histidine",
-      "isoleucine",
-      "leucine",
-      "lysine",
-      "methionine",
-      "phenylalanine",
-      "proline",
-      "serine",
-      "threonine",
-      "tryptophan",
-      "tyrosine",
-      "valine",
-      "b5_pantothenic_acid",
-      "manganese"
-    ]
+    "energy": 497.0,
+    "fat": 24.0,
+    "saturated": 5.0,
+    "carbs": 25.0,
+    "fiber": 3.0,
+    "sugars": 3.0,
+    "protein": 49.0,
+    "sodium": 1728.0,
+    "cholesterol": 208.0
   },
   "schema_metadata": {
     "category": [

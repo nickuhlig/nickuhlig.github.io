@@ -16,8 +16,7 @@
   "rating_count": 0,
   "allowed_type_ids": [
     1,
-    3,
-    7
+    3
   ],
   "violated_restriction_ids": [
     1,
@@ -42,15 +41,13 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion",
-      "quantity": "1 small",
-      "prep": "chopped"
+      "name": "onion, chopped",
+      "quantity": "1 small"
     },
     {
       "ingredient_id": 291,
-      "name": "green bell pepper",
-      "quantity": "1 small",
-      "prep": "chopped"
+      "name": "green bell pepper, chopped",
+      "quantity": "1 small"
     },
     {
       "ingredient_id": 1483,
@@ -64,9 +61,8 @@
     },
     {
       "ingredient_id": 1670,
-      "name": "pimento-filled green olives",
-      "quantity": "¾ cup",
-      "prep": "sliced"
+      "name": "pimento-filled green olives, sliced",
+      "quantity": "¾ cup"
     },
     {
       "ingredient_id": 214,
@@ -95,21 +91,18 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs",
-      "quantity": "2 large",
-      "prep": "separated"
+      "name": "eggs, separated",
+      "quantity": "2 large"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter",
-      "quantity": "8 tbsp",
-      "prep": "at room temperature"
+      "name": "unsalted butter, at room temperature",
+      "quantity": "8 tbsp"
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese",
-      "quantity": "4 oz",
-      "prep": "at room temperature"
+      "name": "cream cheese, at room temperature",
+      "quantity": "4 oz"
     },
     {
       "ingredient_id": 1752,
@@ -119,7 +112,7 @@
     {
       "ingredient_id": 116,
       "name": "all-purpose flour, plus more for rolling the dough",
-      "quantity": "2 tbsp"
+      "quantity": "1 ½ cups plus 2 tbsp"
     },
     {
       "ingredient_id": 88,
@@ -128,12 +121,6 @@
     }
   ],
   "instructions": [
-    {
-      "id": 0,
-      "kind": "prep",
-      "primary_message": "Chop the onion. Chop the green bell pepper. Slice the pimento-filled green olives. Separate the eggs. Bring the unsalted butter to room temperature. Bring the cream cheese to room temperature.",
-      "secondary_message": "1 small onion\n1 small green bell pepper\n¾ cup pimento-filled green olives\n2 large eggs\n8 tbsp unsalted butter\n4 oz cream cheese"
-    },
     {
       "id": 1,
       "primary_message": "To make the filling, heat a large skillet over medium heat, and then swirl in the olive oil. Add the onion and bell pepper. Saute until the onion is translucent, 3 to 4 minutes. Raise the heat to high and add the beef. Cook, stirring constantly, to brown, about 5 to 7 minutes. Add the cumin and cook for another minute.",
@@ -181,82 +168,15 @@
     }
   ],
   "nutrition": {
-    "energy": 343.68,
-    "alcohol": 0.0,
-    "ash": 2.33,
-    "caffeine": 0.0,
-    "water": 72.67,
-    "carbs": 12.94,
-    "fiber": 1.2,
-    "sugars": 8.93,
-    "fat": 28.3,
-    "monounsaturated": 10.76,
-    "polyunsaturated": 1.33,
-    "omega_3": 0.12,
-    "omega_6": 1.06,
-    "saturated": 13.57,
-    "cholesterol": 112.01,
-    "protein": 10.84,
-    "b1_thiamine": 0.06,
-    "b2_riboflavin": 0.18,
-    "b3_niacin": 2.21,
-    "b6_pyridoxine": 0.23,
-    "b12_cobalamin": 1.11,
-    "choline": 65.02,
-    "folate": 17.28,
-    "vitamin_a": 158.95,
-    "vitamin_c": 9.29,
-    "vitamin_d": 0.34,
-    "vitamin_e": 1.24,
-    "vitamin_k": 4.32,
-    "calcium": 48.81,
-    "copper": 0.1,
-    "iron": 1.6,
-    "magnesium": 18.59,
-    "phosphorus": 127.82,
-    "potassium": 280.1,
-    "selenium": 11.88,
-    "sodium": 601.24,
-    "zinc": 2.2
-  },
-  "nutrition_meta": {
-    "source": "calculated",
-    "date": "2026-10-25",
-    "lines": 17,
-    "counted": 17,
-    "partial": false,
-    "estimated_share": 0.0,
-    "omitted_fields": [
-      "starch",
-      "fructose",
-      "galactose",
-      "glucose",
-      "lactose",
-      "maltose",
-      "sucrose",
-      "sugar_alcohol",
-      "transfats",
-      "alanine",
-      "arginine",
-      "aspartic_acid",
-      "cystine",
-      "glutamic_acid",
-      "glycine",
-      "histidine",
-      "isoleucine",
-      "leucine",
-      "lysine",
-      "methionine",
-      "phenylalanine",
-      "proline",
-      "serine",
-      "threonine",
-      "tryptophan",
-      "tyrosine",
-      "valine",
-      "b5_pantothenic_acid",
-      "manganese"
-    ]
+    "energy": 381.0,
+    "fat": 24.0,
+    "saturated": 12.0,
+    "carbs": 28.0,
+    "fiber": 2.0,
+    "sugars": 9.0,
+    "protein": 14.0,
+    "sodium": 281.0,
+    "cholesterol": 110.0
   },
   "schema_metadata": {
     "category": [

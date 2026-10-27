@@ -16,16 +16,9 @@
   "rating_count": 0,
   "allowed_type_ids": [
     1,
-    2,
-    3,
-    4,
-    6
+    3
   ],
-  "violated_restriction_ids": [
-    1,
-    6,
-    10
-  ],
+  "violated_restriction_ids": null,
   "variety_tag_ids": [
     37
   ],
@@ -61,9 +54,9 @@
   ],
   "ingredients": [
     {
-      "ingredient_id": 272,
-      "name": "unroasted walnuts, divided",
-      "quantity": "2 tbsp (¾ oz)"
+      "ingredient_id": null,
+      "name": "plus 2 tablespoons unroasted walnuts, divided",
+      "quantity": "1 cup (4 oz)"
     },
     {
       "ingredient_id": 1684,
@@ -72,16 +65,13 @@
     },
     {
       "ingredient_id": 150,
-      "name": "red bell peppers",
-      "quantity": "6",
-      "weigh_as": "2 lb",
-      "prep": "seeded and chopped"
+      "name": "red bell peppers, seeded and chopped",
+      "quantity": "2 lb"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion",
-      "quantity": "1 small",
-      "prep": "chopped"
+      "name": "yellow onion, chopped",
+      "quantity": "1 small"
     },
     {
       "ingredient_id": 47,
@@ -91,7 +81,7 @@
     {
       "ingredient_id": 1991,
       "name": "Middle Eastern jarred mild red pepper paste",
-      "quantity": "1 tsp"
+      "quantity": "¼ cup plus 1 tsp"
     },
     {
       "ingredient_id": 1708,
@@ -99,17 +89,9 @@
       "quantity": "¼ cup"
     },
     {
-      "ingredient_id": 192,
-      "name": "lemon",
-      "quantity": "½",
-      "weigh_parts": [
-        {
-          "ingredient_id": 1480,
-          "quantity": "2 tsp",
-          "name": "fresh lemon juice"
-        }
-      ],
-      "prep": "juiced"
+      "ingredient_id": 1480,
+      "name": "fresh lemon juice",
+      "quantity": "2 tsp"
     },
     {
       "ingredient_id": 88,
@@ -144,12 +126,6 @@
   ],
   "instructions": [
     {
-      "id": 0,
-      "kind": "prep",
-      "primary_message": "Seed and chop the red bell peppers. Chop the yellow onion. Juice the lemon.",
-      "secondary_message": "6 red bell peppers\n1 small yellow onion\n½ lemon"
-    },
-    {
       "id": 1,
       "primary_message": "In the bowl of a food processor, process 1 cup walnuts until very finely chopped (do not process into a paste), about 30 seconds. Transfer to a large bowl and set aside.",
       "secondary_message": null
@@ -176,85 +152,15 @@
     }
   ],
   "nutrition": {
-    "energy": 178.3,
-    "carbs": 19.48,
-    "fiber": 3.2,
-    "sugars": 10.31,
-    "fat": 10.72,
-    "monounsaturated": 6.86,
-    "polyunsaturated": 1.89,
-    "omega_3": 0.26,
-    "omega_6": 1.63,
-    "saturated": 1.49,
-    "cholesterol": 0.0,
-    "protein": 2.46,
-    "alanine": 0.07,
-    "arginine": 0.12,
-    "aspartic_acid": 0.41,
-    "cystine": 0.04,
-    "glutamic_acid": 0.58,
-    "glycine": 0.08,
-    "histidine": 0.05,
-    "isoleucine": 0.07,
-    "leucine": 0.12,
-    "lysine": 0.08,
-    "methionine": 0.03,
-    "phenylalanine": 0.11,
-    "proline": 0.13,
-    "serine": 0.12,
-    "threonine": 0.08,
-    "tryptophan": 0.03,
-    "tyrosine": 0.04,
-    "valine": 0.09,
-    "vitamin_c": 147.78,
-    "calcium": 44.63,
-    "iron": 1.74,
-    "sodium": 445.78
-  },
-  "nutrition_meta": {
-    "source": "calculated",
-    "date": "2026-10-25",
-    "lines": 14,
-    "counted": 14,
-    "partial": false,
-    "stand_ins": [
-      "ground Aleppo pepper"
-    ],
-    "estimated_share": 0.065,
-    "omitted_fields": [
-      "alcohol",
-      "ash",
-      "caffeine",
-      "water",
-      "starch",
-      "fructose",
-      "galactose",
-      "glucose",
-      "lactose",
-      "maltose",
-      "sucrose",
-      "sugar_alcohol",
-      "transfats",
-      "b1_thiamine",
-      "b2_riboflavin",
-      "b3_niacin",
-      "b5_pantothenic_acid",
-      "b6_pyridoxine",
-      "b12_cobalamin",
-      "choline",
-      "folate",
-      "vitamin_a",
-      "vitamin_d",
-      "vitamin_e",
-      "vitamin_k",
-      "copper",
-      "magnesium",
-      "manganese",
-      "phosphorus",
-      "potassium",
-      "selenium",
-      "zinc"
-    ]
+    "energy": 201.0,
+    "fat": 12.0,
+    "saturated": 2.0,
+    "carbs": 24.0,
+    "fiber": 3.0,
+    "sugars": 15.0,
+    "protein": 3.0,
+    "sodium": 479.0,
+    "cholesterol": 0.0
   },
   "schema_metadata": {
     "category": [

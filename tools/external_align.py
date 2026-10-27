@@ -261,8 +261,8 @@ def normalize_raw(raw: str) -> str:
     s = re.sub(rf"^({NUMBER_WORD_RE})\b(?=\s+[\d(a-z])", lambda m: str(NUMBER_WORDS[m.group(1).lower()]), s, flags=re.I)
     s = re.sub(r"^(?:and|to|plus)\s+(?=\d)", "", s, flags=re.I)                           # "and 1 teaspoon Cajun seasoning"
     s = re.sub(rf"^half of ({NUM})\s+", lambda m: f"{fmt_number((parse_number(m.group(1)) or 0) / 2)} ", s, flags=re.I)   # "Half of 1 yellow onion"
-    s = re.sub(rf"^(\d+)\s+pounds?\s+({NUM})\s+ounces?\b",                                  # "1 pound 10.5 ounces" -> "26.5 ounces"
-               lambda m: f"{int(m.group(1)) * 16 + (parse_number(m.group(2)) or 0):g} ounces", s, flags=re.I)
+    s = re.sub(rf"^({NUM})\s+pounds?\s+(?:(?:plus|and)\s+)?({NUM})\s+ounces?\b",                # "1 pound 10.5 ounces", "1 pound plus 2 ounces" -> one weight
+               lambda m: f"{(parse_number(m.group(1)) or 0) * 16 + (parse_number(m.group(2)) or 0):g} ounces", s, flags=re.I)
     s = re.sub(r"^(\d+(?:\.\d+)?)(g|kg|ml)\b", r"\1 \2", s)                              # "555g flour" -> "555 g flour"
     s = re.sub(r"\((\d+(?:\.\d+)?)\)\s?(g|kg|ml)\b", r"(\1 \2)", s)                       # "8 tablespoons (113)g butter" -> "(113 g)"
     s = re.sub(r"\b(small|medium|large|big|good|average)[- ]size[d]?\b", r"\1", s, flags=re.I)                   # "1 medium-sized eggplant": a size, not a name
@@ -331,6 +331,8 @@ def split_plus_clause(raw: str) -> list[str]:
         return [raw]
     before, after = raw[:m.start()].strip(), raw[m.end():].strip()
     first, second = parse_line(before), parse_line(after)
+    if not first.name:                                      # "2 tablespoons plus 1 teaspoon cornstarch": one amount, not two lines
+        return [raw]
     words_first = set(re.findall(r"[a-z]+", first.name.lower()))
     words_second = re.findall(r"[a-z]+", second.name.lower())
     if not second.name or second.name.lower() in ("divided", "more", "extra") or re.match(r"(?:and\s+)?more\b", second.name.lower()) or re.match(r"(?:for|to|if|as|so)\b", second.name.lower()):
@@ -372,7 +374,7 @@ def parse_line(raw: str) -> Line:
         tokens = TOKEN_RE.findall(s)
         i = 0
     else:
-        minus = re.match(rf"^({NUM}\s+(?:{PROSE_UNIT}))\s+(minus\s+{NUM}\s+(?:{PROSE_UNIT}))\b", s, re.I)    # "1/4 cup minus 1 teaspoon (55 g) milk"
+        minus = re.match(rf"^({NUM}\s+(?:{PROSE_UNIT}))\s+((?:minus|plus)\s+{NUM}\s+(?:{PROSE_UNIT}))\b", s, re.I)    # "1/4 cup minus 1 teaspoon (55 g) milk", "1 cup plus 2 tablespoons flour"
         if minus:
             s = s[:minus.start(2)] + s[minus.end(2):]
             line.extra = re.sub(r"\s+", " ", localize_units_short(minus.group(2)))
@@ -836,10 +838,30 @@ def _c_from_f(f: float, baking: bool) -> int:
     return int(round(c / 5) * 5) if baking else int(round(c))
 
 
+# "425 to 450°F": both ends are temperatures (else the Metric text reads "425 to 230°C")
+TEMPERATURE_RANGE = re.compile(r"\b(?P<a>\d{3})\s*(?:to|-|–)\s*(?P<b>\d{3})\s*°\s*F\b")
+# "9-by-13-inch (23-by-33-cm)", "9 x 13 inches": both sides are measures (else the Metric text reads "9-by-33-cm")
+DIMENSIONS = re.compile(r"\b(?P<a>\d+(?:\.\d+)?)(?:[\s-]*inch(?:es)?)?(?P<sep>[\s-]*(?:by|x|×)[\s-]*)(?P<b>\d+(?:\.\d+)?)(?P<hy>[\s-]*)inch(?:es)?\b"
+                        r"(?:\s*\((?P<paren>[^()]*?\d[^()]*?(?:cm|centimet(?:er|re)s?))\))?")
+
+
+def localize_dimensions(m: re.Match, system: str) -> str:
+    written = m.group(0)[: m.start("paren") - m.start() - 1].rstrip(" (") if m["paren"] else m.group(0)
+    if system == "US":
+        return written
+    given = re.findall(r"\d+(?:\.\d+)?", m["paren"] or "")
+    cms = [float(x) for x in given[:2]] if len(given) >= 2 else [float(m["a"]) * CM_PER_INCH, float(m["b"]) * CM_PER_INCH]
+    a, b = (f"{round(c) if c >= 5 else round_half_cm(c):g}" for c in cms)
+    by = "x" if "x" in m["sep"] or "×" in m["sep"] else "by"
+    return f"{a}-{by}-{b}-cm" if "-" in m["hy"] else f"{a} {by} {b} cm"
+
+
 def localize_text(text: str, system: str) -> str:
     """Rewrites the measures in running text for one unit system ("US" or "Metric")."""
     if not text:
         return text
+    text = TEMPERATURE_RANGE.sub(lambda m: f"{m['a']}°F to {m['b']}°F", text)
+    text = DIMENSIONS.sub(lambda m: localize_dimensions(m, system), text)
 
     def is_baking(m) -> bool:
         return bool(BAKING_WORDS.search(text[max(0, m.start() - 100): m.end() + 30]))
@@ -982,8 +1004,8 @@ def suspicious_name(name: str) -> bool:
 
 
 class Resolver:
-    def __init__(self, master: IngredientMaster):
-        self.master = master
+    def __init__(self, master: IngredientMaster, source: str = SOURCE):
+        self.master, self.source = master, source
         self.lookup: dict[str, int] = {}
         self.new: dict[int, str] = {}                  # ids created this run -> first recipe name
         self.cleaned: Counter = Counter()              # (page name, matched master name) of non-direct matches
@@ -1111,7 +1133,7 @@ class Resolver:
         ing_id, how = self.master.resolve_or_create(clean)
         if how == "new":
             entry = self.master.entries[str(ing_id)]
-            entry["note"] = entry.get("note") or f"from {SOURCE}: {recipe_name}"[:120]
+            entry["note"] = entry.get("note") or f"from {self.source}: {recipe_name}"[:120]
             self.new[ing_id] = recipe_name
             self._index_name(clean, ing_id)
         return ing_id, how
@@ -1465,8 +1487,11 @@ class Aligner:
     are written; it is the library itself in real use, or a scratch copy while developing the rules (its master
     is then a copy of the library's, so experimental runs never touch the real one)."""
 
-    def __init__(self, library_dir: Path, out_dir: Path, review_path: Path):
+    def __init__(self, library_dir: Path, out_dir: Path, review_path: Path, *, source: str = SOURCE, parse=parse_page):
+        """source and parse pick the site: the `source` value its records carry, and the function that reads its pages
+        into parse_page()'s shape (nytcooking_scraper.parse_nyt_page for NYT Cooking)."""
         self.out_dir, self.review_path, self.aligned = out_dir, review_path, 0
+        self.source, self.parse = source, parse
         source, self.master_path = master_path_for(library_dir), master_path_for(out_dir)
         if self.master_path != source and not self.master_path.exists():
             out_dir.mkdir(parents=True, exist_ok=True)
@@ -1474,13 +1499,13 @@ class Aligner:
         self.master = IngredientMaster(load_master(self.master_path))
         self._before = json.dumps(self.master.data, sort_keys=True)
         fill_missing_flags(self.master)                       # decided entries get their diet_flags (the master is where the importer reads them); saved by finish()
-        self.ctx = Context(Resolver(self.master), overrides=load_overrides(library_dir), servings=load_servings(library_dir))
+        self.ctx = Context(Resolver(self.master, source), overrides=load_overrides(library_dir), servings=load_servings(library_dir))
 
     def align(self, row: dict, page: bytes) -> dict:
         """Writes the family's records. Returns {"family_dir", "image_url", "previous_url"} so the caller can fetch the
         thumbnail (a network step, kept out of here so re-aligning saved pages stays offline)."""
-        parsed = parse_page(page.decode("utf-8", errors="replace"), row["url"])
-        records = align_page(parsed, int(row["id"]), self.ctx, row["url"])
+        parsed = self.parse(page.decode("utf-8", errors="replace"), row["url"])
+        records = align_page(parsed, int(row["id"]), self.ctx, row["url"], source=self.source)
         fdir = self.out_dir / "families" / str(row["id"])
         fdir.mkdir(parents=True, exist_ok=True)
         previous_url = None
@@ -1504,7 +1529,7 @@ class Aligner:
         return review
 
 
-def align_page(parsed: dict, family_id: int, ctx: Context, source_url: str | None = None) -> list[dict]:
+def align_page(parsed: dict, family_id: int, ctx: Context, source_url: str | None = None, source: str = SOURCE) -> list[dict]:
     """parse_page() output -> [US record, Metric record]."""
     name = parsed["name"]
     tag_ids = tag_ids_for(parsed["categories"], parsed["keywords"], name)
@@ -1570,7 +1595,7 @@ def align_page(parsed: dict, family_id: int, ctx: Context, source_url: str | Non
             "schema_metadata": {"category": parsed["categories"], "cuisine": parsed["cuisines"], "keywords": parsed["keywords"]},
             "sibling_variant_ids": [family_id, metric_id(family_id)],
             "family_dir": f"families/{family_id}/",
-            "source": SOURCE,
+            "source": source,
             "backfill_bonus_fields": None,
             "description": localize_text(parsed["description"], system) if parsed["description"] else None,
             "notes": build_notes(parsed, optional, subs, system),

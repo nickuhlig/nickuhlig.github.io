@@ -43,7 +43,7 @@ import sys
 import unicodedata
 from pathlib import Path
 
-SOURCES = ("seriouseats",)
+SOURCES = ("seriouseats", "nytcooking")
 
 # Ids for imported recipes. Every recipe gets a family id from one block starting at 5,000,000 and its Metric
 # twin is family id + 71. The block is laid out 71 family ids, then 71 numbers left free for their Metric twins,
@@ -67,6 +67,12 @@ def family_index(family_id: int) -> int:
     """Inverse of nth_family_id (how many family ids come before this one)."""
     offset = family_id - ID_BLOCK_START
     return (offset // (2 * METRIC_ID_OFFSET)) * METRIC_ID_OFFSET + offset % (2 * METRIC_ID_OFFSET)
+
+
+# Each site gets its own stretch of the block, so their numbering never collides: a site's n-th recipe is
+# nth_family_id(its offset + n). Serious Eats starts at 0 (5,000,000); NYT Cooking at slot 500,053 = 7,043 x 71,
+# the first family slot at or past 6,000,000 (id 6,000,106), which leaves Serious Eats room for 500,053 recipes.
+SOURCE_INDEX_OFFSET = {"seriouseats": 0, "nytcooking": 7_043 * METRIC_ID_OFFSET}
 
 
 def metric_id(family_id: int) -> int:
