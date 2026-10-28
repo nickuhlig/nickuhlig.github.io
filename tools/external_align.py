@@ -49,6 +49,7 @@ from collections import Counter
 from dataclasses import dataclass, field
 from pathlib import Path
 
+from compound_amounts import single_amount
 from diet_rules import fill_missing_flags, recipe_menu_types, suggest_flags
 from external_recipes import active_minutes, metric_id, parse_page, slugify, total_time_note
 from fetch_albertsons_native_recipes import format_quantity_number
@@ -1366,6 +1367,18 @@ class Context:
 FROM_ABOVE_RE = re.compile(r"\bfrom\s+above\b|\(\s*(?:above|below)\s*\)", re.I)
 
 
+def single_amount_line(ing: dict, units: str) -> dict:
+    """A compound amount ("1 tbsp plus 2 tsp") becomes one amount (compound_amounts.py); when that one is rounded,
+    the page's amount stays in "weigh_as" for nutrition."""
+    res = single_amount(ing["quantity"], ing["name"], units)
+    if res:
+        page = ing["quantity"]
+        ing["quantity"] = res[0]
+        if not res[1]:
+            ing["weigh_as"] = page
+    return ing
+
+
 def build_ingredients(parsed: dict, ctx: Context, recipe_name: str, is_drink: bool = False):
     """(US ingredients, Metric ingredients, optional-line texts, restriction ids or None).
     In a drink recipe the brand names stay in the shown ingredient names; the match is on the generic ingredient either way."""
@@ -1456,8 +1469,8 @@ def build_ingredients(parsed: dict, ctx: Context, recipe_name: str, is_drink: bo
         ing_id = ctx.resolver.resolve(generic, recipe_name)[0]
         ids.append(ing_id)
         name = f"{shown}, {prep}" if prep else shown
-        us.append({"ingredient_id": ing_id, "name": name, "quantity": render_us(line)})
-        metric.append({"ingredient_id": ing_id, "name": name, "quantity": render_metric(line)})
+        us.append(single_amount_line({"ingredient_id": ing_id, "name": name, "quantity": render_us(line)}, "US"))
+        metric.append(single_amount_line({"ingredient_id": ing_id, "name": name, "quantity": render_metric(line)}, "Metric"))
         if alternatives:
             subs.append(Substitution(main=shown, alts=alternatives))
             ctx.review["substitutions"].append((recipe_name, subs[-1].text("US")))

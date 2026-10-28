@@ -17,7 +17,8 @@
   "allowed_type_ids": [
     1,
     3,
-    7
+    7,
+    8
   ],
   "violated_restriction_ids": [
     1,
@@ -69,7 +70,7 @@
     {
       "ingredient_id": 1044,
       "name": "vegetable oil, divided",
-      "quantity": "1 tsp plus 3 tbsp"
+      "quantity": "10 tsp"
     },
     {
       "ingredient_id": 264,
@@ -123,7 +124,7 @@
     }
   ],
   "nutrition": {
-    "energy": 184.81,
+    "energy": 305.03,
     "alcohol": 0.0,
     "ash": 1.69,
     "caffeine": 0.0,
@@ -138,13 +139,13 @@
     "lactose": 0.0,
     "maltose": 0.0,
     "sucrose": 0.74,
-    "fat": 8.08,
-    "monounsaturated": 5.26,
-    "polyunsaturated": 2.5,
-    "omega_3": 0.21,
-    "omega_6": 1.51,
-    "saturated": 2.38,
-    "transfats": 0.07,
+    "fat": 21.68,
+    "monounsaturated": 8.35,
+    "polyunsaturated": 10.3,
+    "omega_3": 1.1,
+    "omega_6": 8.33,
+    "saturated": 4.45,
+    "transfats": 0.16,
     "cholesterol": 48.38,
     "protein": 18.56,
     "alanine": 1.05,
@@ -171,18 +172,16 @@
     "b5_pantothenic_acid": 0.83,
     "b6_pyridoxine": 0.75,
     "b12_cobalamin": 0.41,
-    "choline": 62.01,
+    "choline": 62.03,
     "folate": 37.77,
     "vitamin_a": 41.2,
     "vitamin_c": 15.15,
-    "vitamin_d": 0.38,
-    "vitamin_e": 0.68,
-    "vitamin_k": 51.59,
+    "vitamin_e": 1.8,
+    "vitamin_k": 76.6,
     "calcium": 55.2,
     "copper": 0.14,
     "iron": 1.67,
     "magnesium": 48.62,
-    "manganese": 0.33,
     "phosphorus": 214.52,
     "potassium": 533.43,
     "selenium": 21.31,
@@ -200,7 +199,9 @@
     ],
     "estimated_share": 0.0,
     "omitted_fields": [
-      "sugar_alcohol"
+      "sugar_alcohol",
+      "vitamin_d",
+      "manganese"
     ]
   },
   "schema_metadata": {

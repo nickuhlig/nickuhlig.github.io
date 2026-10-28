@@ -114,6 +114,15 @@ def parse_quantity(q: str) -> dict:
     q = re.sub(r"^(about|approx\.?|approximately|roughly|generous|heaping|scant)\s+", "", (q or "").strip(), flags=re.I)
     if not q:
         return {"kind": "empty"}
+    # a compound amount ("1 cup (8 oz) plus 2 tbsp", "¼ cup minus 1 tsp"): the parts add up when they're all
+    # volumes or all weights
+    pieces = re.split(r"\s+(plus|minus)\s+(?=[\d½¼¾⅓⅔⅛⅜⅝⅞])", q, flags=re.I)
+    if len(pieces) > 1:
+        parts = [parse_quantity(p) for p in pieces[::2]]
+        signs = [1] + [-1 if op.lower() == "minus" else 1 for op in pieces[1::2]]
+        for kind, key in (("volume", "ml"), ("weight", "grams")):
+            if all(p["kind"] == kind and not p.get("vague") for p in parts):
+                return {**parts[0], key: sum(s * p[key] for s, p in zip(signs, parts))}
     m = re.match(rf"^\s*{AMOUNT}\s*(?P<rest>.*)$", q)
     if not m:
         return {"kind": "unknown", "text": q}
