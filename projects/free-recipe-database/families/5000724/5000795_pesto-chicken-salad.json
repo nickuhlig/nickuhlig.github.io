@@ -73,9 +73,17 @@
       "quantity": "½ cup (4 oz)"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 1 lemon",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tsp",
+          "name": "fresh lemon juice, from 1 lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 162,
@@ -90,8 +98,14 @@
   ],
   "instructions": [
     {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon.",
+      "secondary_message": "½ lemon"
+    },
+    {
       "id": 1,
-      "primary_message": "In a large saucepan, combine water and salt, and stir to dissolve salt. Add chicken and set over medium-high heat until water temperature registers between 150 and 71°C (65.5 to 71°C) on an instant-read thermometer; adjust heat to maintain water temperature in the 66°C to 71°C range. (It's okay if the temperature bounces around a little, but try to keep it above 150 and below 77°C.) Cook until thickest part of chicken registers 66°C (65.5°C) on an instant-read thermometer, 25 to 30 minutes. Remove chicken and let rest until cool enough to handle, about 5 minutes. Using two forks or clean hands, shred chicken into bite-size pieces and set aside.",
+      "primary_message": "In a large saucepan, combine water and salt, and stir to dissolve salt. Add chicken and set over medium-high heat until water temperature registers between 150 and 71°C (65.5 to 71°C) on an instant-read thermometer; adjust heat to maintain water temperature in the 150–71°C range. (It's okay if the temperature bounces around a little, but try to keep it above 150 and below 77°C.) Cook until thickest part of chicken registers 66°C (65.5°C) on an instant-read thermometer, 25 to 30 minutes. Remove chicken and let rest until cool enough to handle, about 5 minutes. Using two forks or clean hands, shred chicken into bite-size pieces and set aside.",
       "secondary_message": null
     },
     {
@@ -101,15 +115,85 @@
     }
   ],
   "nutrition": {
-    "energy": 288.0,
-    "fat": 20.0,
-    "saturated": 4.0,
-    "carbs": 5.0,
-    "fiber": 1.0,
-    "sugars": 1.0,
-    "protein": 21.0,
-    "sodium": 900.0,
-    "cholesterol": 57.0
+    "energy": 337.8,
+    "ash": 3.2,
+    "water": 351.07,
+    "carbs": 3.36,
+    "fiber": 0.69,
+    "sugars": 1.11,
+    "fructose": 0.02,
+    "galactose": 0.02,
+    "glucose": 0.05,
+    "lactose": 0.94,
+    "maltose": 0.0,
+    "sucrose": 0.07,
+    "fat": 20.79,
+    "monounsaturated": 7.35,
+    "polyunsaturated": 7.92,
+    "omega_3": 0.98,
+    "omega_6": 6.78,
+    "saturated": 3.62,
+    "transfats": 0.1,
+    "cholesterol": 105.08,
+    "protein": 32.63,
+    "alanine": 1.8,
+    "arginine": 2.09,
+    "aspartic_acid": 2.94,
+    "cystine": 0.33,
+    "glutamic_acid": 4.68,
+    "glycine": 1.37,
+    "histidine": 1.15,
+    "isoleucine": 1.52,
+    "leucine": 2.56,
+    "lysine": 2.96,
+    "methionine": 0.8,
+    "phenylalanine": 1.25,
+    "proline": 0.99,
+    "serine": 1.19,
+    "threonine": 1.39,
+    "tryptophan": 0.39,
+    "tyrosine": 1.11,
+    "valine": 1.6,
+    "b1_thiamine": 0.17,
+    "b2_riboflavin": 0.38,
+    "b3_niacin": 13.39,
+    "b5_pantothenic_acid": 2.36,
+    "b6_pyridoxine": 1.15,
+    "b12_cobalamin": 0.3,
+    "folate": 17.29,
+    "vitamin_a": 30.98,
+    "vitamin_c": 7.49,
+    "vitamin_d": 0.03,
+    "vitamin_e": 2.36,
+    "vitamin_k": 46.29,
+    "calcium": 66.59,
+    "copper": 0.12,
+    "iron": 0.81,
+    "magnesium": 53.64,
+    "manganese": 0.14,
+    "phosphorus": 345.23,
+    "potassium": 654.14,
+    "selenium": 31.53,
+    "sodium": 407.23,
+    "zinc": 1.23
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-25",
+    "lines": 8,
+    "counted": 7,
+    "partial": false,
+    "not_counted": [
+      "Freshly ground black pepper"
+    ],
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "alcohol",
+      "caffeine",
+      "starch",
+      "sugar_alcohol",
+      "choline"
+    ]
   },
   "schema_metadata": {
     "category": [

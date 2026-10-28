@@ -83,8 +83,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "2 sticks"
+      "name": "unsalted butter",
+      "quantity": "2 sticks",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 121,
@@ -93,8 +94,9 @@
     },
     {
       "ingredient_id": 1746,
-      "name": "finely chopped fresh basil leaves",
-      "quantity": "3 tbsp"
+      "name": "fresh basil leaves",
+      "quantity": "3 tbsp",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1585,
@@ -103,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature. Pick the basil leaves from the stems and finely chop them.",
+      "secondary_message": "2 sticks unsalted butter\n3 tbsp fresh basil leaves"
+    },
     {
       "id": 1,
       "primary_message": "In a medium bowl, whisk together cornmeal, flour, baking powder, and salt; set aside.",
@@ -130,15 +138,82 @@
     }
   ],
   "nutrition": {
-    "energy": 307.0,
-    "fat": 9.0,
-    "saturated": 5.0,
-    "carbs": 51.0,
-    "fiber": 2.0,
-    "sugars": 9.0,
-    "protein": 6.0,
-    "sodium": 63.0,
-    "cholesterol": 36.0
+    "energy": 188.16,
+    "alcohol": 0.0,
+    "ash": 0.33,
+    "caffeine": 0.0,
+    "water": 9.71,
+    "carbs": 26.25,
+    "fiber": 0.75,
+    "sugars": 8.58,
+    "fat": 8.36,
+    "monounsaturated": 2.42,
+    "polyunsaturated": 0.5,
+    "omega_3": 0.04,
+    "omega_6": 0.41,
+    "saturated": 4.93,
+    "cholesterol": 35.75,
+    "protein": 2.4,
+    "b1_thiamine": 0.14,
+    "b2_riboflavin": 0.11,
+    "b3_niacin": 1.12,
+    "b5_pantothenic_acid": 0.14,
+    "b6_pyridoxine": 0.04,
+    "b12_cobalamin": 0.05,
+    "choline": 16.01,
+    "folate": 69.1,
+    "vitamin_a": 74.06,
+    "vitamin_c": 0.65,
+    "vitamin_d": 0.08,
+    "vitamin_e": 0.29,
+    "vitamin_k": 2.08,
+    "calcium": 11.54,
+    "copper": 0.03,
+    "iron": 1.06,
+    "magnesium": 7.09,
+    "manganese": 0.08,
+    "phosphorus": 36.83,
+    "potassium": 41.19,
+    "selenium": 5.56,
+    "sodium": 62.88,
+    "zinc": 0.21
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 9,
+    "counted": 9,
+    "partial": false,
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine"
+    ]
   },
   "schema_metadata": {
     "category": [

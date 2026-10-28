@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, diced",
-      "quantity": "1 small"
+      "name": "yellow onion",
+      "quantity": "1 small",
+      "prep": "diced"
     },
     {
       "ingredient_id": 26,
@@ -76,16 +77,31 @@
     },
     {
       "ingredient_id": 243,
-      "name": "loosely packed torn mint leaves, from about 10 sprigs",
-      "quantity": "½ cup"
+      "name": "loosely packed fresh mint, from about 10 sprigs",
+      "quantity": "½ cup",
+      "prep": "torn"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 1 whole lemon",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "fresh lemon juice, from 1 whole lemon"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the yellow onion. Tear the mint. Juice the lemon.",
+      "secondary_message": "1 small yellow onion\n½ cup loosely packed fresh mint, from about 10 sprigs\n½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "Adjust broiler rack to 10 inches from heat source and preheat broiler to high. Beat eggs in a large bowl with 2 generous pinches of salt. Set aside. In a medium oven-proof non-stick skillet, heat 2 tablespoons oil over medium-high heat until shimmering. Add onion and cook, stirring, until just translucent, about 2 minutes. Add diced asparagus and peas, season with salt and pepper, and cook, stirring, until tender but not browned, about 6 minutes.",
@@ -108,15 +124,86 @@
     }
   ],
   "nutrition": {
-    "energy": 266.0,
-    "fat": 19.0,
-    "saturated": 4.0,
-    "carbs": 10.0,
-    "fiber": 4.0,
-    "sugars": 3.0,
-    "protein": 14.0,
-    "sodium": 185.0,
-    "cholesterol": 310.0
+    "energy": 245.96,
+    "alcohol": 0.0,
+    "ash": 1.79,
+    "caffeine": 0.0,
+    "water": 180.64,
+    "carbs": 9.64,
+    "fiber": 3.93,
+    "sugars": 4.04,
+    "fat": 17.2,
+    "monounsaturated": 9.63,
+    "polyunsaturated": 2.66,
+    "omega_3": 0.2,
+    "omega_6": 2.39,
+    "saturated": 3.92,
+    "transfats": 0.03,
+    "cholesterol": 310.0,
+    "protein": 14.09,
+    "alanine": 0.78,
+    "arginine": 0.89,
+    "aspartic_acid": 1.67,
+    "cystine": 0.26,
+    "glutamic_acid": 1.85,
+    "glycine": 0.5,
+    "histidine": 0.33,
+    "isoleucine": 0.69,
+    "leucine": 1.12,
+    "lysine": 0.95,
+    "methionine": 0.36,
+    "phenylalanine": 0.7,
+    "proline": 0.54,
+    "serine": 0.96,
+    "threonine": 0.6,
+    "tryptophan": 0.18,
+    "tyrosine": 0.5,
+    "valine": 0.9,
+    "b1_thiamine": 0.23,
+    "b2_riboflavin": 0.54,
+    "b3_niacin": 1.45,
+    "b5_pantothenic_acid": 1.62,
+    "b6_pyridoxine": 0.29,
+    "b12_cobalamin": 0.74,
+    "choline": 266.31,
+    "folate": 108.86,
+    "vitamin_a": 191.78,
+    "vitamin_c": 22.43,
+    "vitamin_d": 1.67,
+    "vitamin_e": 3.1,
+    "vitamin_k": 45.52,
+    "calcium": 92.97,
+    "copper": 0.28,
+    "iron": 4.61,
+    "magnesium": 36.93,
+    "manganese": 0.37,
+    "phosphorus": 243.57,
+    "potassium": 400.14,
+    "selenium": 27.88,
+    "sodium": 124.38,
+    "zinc": 1.91
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 10,
+    "counted": 8,
+    "partial": false,
+    "not_counted": [
+      "Kosher salt",
+      "Freshly ground black pepper"
+    ],
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol"
+    ]
   },
   "schema_metadata": {
     "category": [

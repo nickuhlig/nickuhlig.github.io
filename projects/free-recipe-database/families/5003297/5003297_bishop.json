@@ -60,11 +60,18 @@
     },
     {
       "ingredient_id": 221,
-      "name": "of fresh grated ginger",
-      "quantity": "1 pinch"
+      "name": "ginger root",
+      "quantity": "1 pinch",
+      "prep": "grated"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the ginger.",
+      "secondary_message": "1 pinch ginger root"
+    },
     {
       "id": 1,
       "primary_message": "Wash the orange and pierce the skin with the cloves, leaving the buds protruding from the orange skin. Continue until the orange is well studded with cloves.",

@@ -70,8 +70,9 @@
     },
     {
       "ingredient_id": 2526,
-      "name": "black coffee, cooled slightly",
-      "quantity": "6 tbsp"
+      "name": "black coffee",
+      "quantity": "6 tbsp",
+      "prep": "cooled slightly"
     },
     {
       "ingredient_id": 116,
@@ -125,11 +126,18 @@
     },
     {
       "ingredient_id": 1729,
-      "name": "dark chocolate, 60 to 70% cocoa , roughly chopped",
-      "quantity": "4 ½ oz"
+      "name": "dark chocolate, 60 to 70% cocoa",
+      "quantity": "4 ½ oz",
+      "prep": "roughly chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cool the black coffee slightly. Roughly chop the dark chocolate.",
+      "secondary_message": "6 tbsp black coffee\n4 ½ oz dark chocolate, 60 to 70% cocoa"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Adjust oven rack to lower-middle position and preheat to 350°F. Lightly grease one 9- by 4-inch aluminum Pullman loaf pan with neutral oil and line with parchment cross-wise so that there is a 1-inch overhang on both sides. (See notes below if you do not have a Pullman loaf pan.)",
@@ -172,15 +180,82 @@
     }
   ],
   "nutrition": {
-    "energy": 656.0,
-    "fat": 39.0,
-    "saturated": 12.0,
-    "carbs": 70.0,
-    "fiber": 3.0,
-    "sugars": 39.0,
-    "protein": 7.0,
-    "sodium": 480.0,
-    "cholesterol": 80.0
+    "energy": 653.32,
+    "ash": 2.37,
+    "water": 83.01,
+    "carbs": 72.73,
+    "fiber": 5.12,
+    "sugars": 40.87,
+    "fat": 38.98,
+    "monounsaturated": 17.66,
+    "polyunsaturated": 6.52,
+    "omega_3": 1.93,
+    "omega_6": 4.47,
+    "saturated": 12.66,
+    "cholesterol": 78.47,
+    "protein": 7.63,
+    "b1_thiamine": 0.23,
+    "b2_riboflavin": 0.28,
+    "b3_niacin": 1.94,
+    "b5_pantothenic_acid": 0.5,
+    "b6_pyridoxine": 0.05,
+    "b12_cobalamin": 0.2,
+    "vitamin_a": 88.66,
+    "vitamin_e": 3.96,
+    "vitamin_k": 20.44,
+    "calcium": 92.52,
+    "copper": 0.61,
+    "iron": 4.46,
+    "magnesium": 81.98,
+    "manganese": 0.78,
+    "phosphorus": 227.25,
+    "potassium": 296.59,
+    "selenium": 15.92,
+    "sodium": 392.91,
+    "zinc": 1.43
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 16,
+    "counted": 16,
+    "partial": false,
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "alcohol",
+      "caffeine",
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine",
+      "choline",
+      "folate",
+      "vitamin_c",
+      "vitamin_d"
+    ]
   },
   "schema_metadata": {
     "category": [

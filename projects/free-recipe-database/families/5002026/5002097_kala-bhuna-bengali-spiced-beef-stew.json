@@ -16,7 +16,9 @@
   "rating_count": 0,
   "allowed_type_ids": [
     1,
-    3
+    3,
+    7,
+    8
   ],
   "violated_restriction_ids": [
     1,
@@ -90,8 +92,9 @@
     },
     {
       "ingredient_id": 1922,
-      "name": "boneless chuck, cut into 1 1/2 to 2-inch cubes",
-      "quantity": "1.13 to 1.36 kg"
+      "name": "boneless chuck",
+      "quantity": "1.13 to 1.36 kg",
+      "prep": "cut into 1 1/2 to 2-inch cubes"
     },
     {
       "ingredient_id": 184,
@@ -135,8 +138,9 @@
     },
     {
       "ingredient_id": 1850,
-      "name": "Indian green chiles, split in half lengthwise, divided",
-      "quantity": "6"
+      "name": "Indian green chiles, divided",
+      "quantity": "6",
+      "prep": "split in half lengthwise"
     },
     {
       "ingredient_id": 1574,
@@ -175,13 +179,15 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, thinly sliced lengthwise",
-      "quantity": "½ medium"
+      "name": "red onion",
+      "quantity": "½ medium",
+      "prep": "thinly sliced lengthwise"
     },
     {
       "ingredient_id": 155,
-      "name": "English cucumber, thinly sliced cross-wise",
-      "quantity": "1"
+      "name": "English cucumber",
+      "quantity": "1",
+      "prep": "thinly sliced cross-wise"
     },
     {
       "ingredient_id": 3673,
@@ -190,11 +196,18 @@
     },
     {
       "ingredient_id": 1850,
-      "name": "Indian green chiles, thinly sliced cross-wise",
-      "quantity": "2 to 3"
+      "name": "Indian green chiles",
+      "quantity": "2 to 3",
+      "prep": "thinly sliced cross-wise"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the boneless chuck into 1 1/2 to 2-inch cubes. Split the Indian green chiles in half lengthwise. Thinly slice the red onion lengthwise. Thinly slice the English cucumber cross-wise. Thinly slice the Indian green chiles cross-wise.",
+      "secondary_message": "1.13 to 1.36 kg boneless chuck\n6 Indian green chiles, divided\n½ medium red onion\n1 English cucumber\n2 to 3 Indian green chiles"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat to 300ºF (150ºC).",
@@ -231,7 +244,91 @@
       "secondary_message": null
     }
   ],
-  "nutrition": {},
+  "nutrition": {
+    "energy": 910.15,
+    "ash": 4.28,
+    "water": 231.63,
+    "carbs": 13.76,
+    "fiber": 3.48,
+    "sugars": 4.04,
+    "fat": 76.64,
+    "monounsaturated": 38.85,
+    "polyunsaturated": 9.59,
+    "omega_3": 2.66,
+    "omega_6": 6.93,
+    "saturated": 20.02,
+    "protein": 42.66,
+    "alanine": 2.43,
+    "arginine": 2.66,
+    "aspartic_acid": 3.75,
+    "cystine": 0.52,
+    "glutamic_acid": 6.23,
+    "glycine": 2.44,
+    "histidine": 1.28,
+    "isoleucine": 1.83,
+    "leucine": 3.2,
+    "lysine": 3.37,
+    "methionine": 1.03,
+    "phenylalanine": 1.6,
+    "proline": 1.96,
+    "serine": 1.59,
+    "threonine": 1.61,
+    "tryptophan": 0.28,
+    "tyrosine": 1.28,
+    "valine": 2.01,
+    "b1_thiamine": 0.22,
+    "b2_riboflavin": 0.38,
+    "b3_niacin": 9.6,
+    "b5_pantothenic_acid": 1.43,
+    "b6_pyridoxine": 1.07,
+    "b12_cobalamin": 3.72,
+    "folate": 38.77,
+    "vitamin_a": 37.76,
+    "vitamin_c": 27.15,
+    "calcium": 122.72,
+    "copper": 0.34,
+    "iron": 7.31,
+    "magnesium": 85.51,
+    "manganese": 0.93,
+    "phosphorus": 433.33,
+    "potassium": 947.8,
+    "selenium": 45.69,
+    "sodium": 798.47,
+    "zinc": 10.21
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 30,
+    "counted": 24,
+    "partial": true,
+    "missing": [
+      "panch phoron"
+    ],
+    "not_counted": [
+      "Steamed rice, such as basmati or jasmine",
+      "Lime wedges"
+    ],
+    "estimated_share": 0.004,
+    "omitted_fields": [
+      "alcohol",
+      "caffeine",
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "cholesterol",
+      "choline",
+      "vitamin_d",
+      "vitamin_e",
+      "vitamin_k"
+    ]
+  },
   "schema_metadata": {
     "category": [
       "Entree"

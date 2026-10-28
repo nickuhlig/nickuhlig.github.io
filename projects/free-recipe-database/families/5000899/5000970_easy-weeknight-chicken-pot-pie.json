@@ -61,8 +61,9 @@
     },
     {
       "ingredient_id": 44,
-      "name": "boneless skinless chicken breasts, cut into 1-inch pieces",
-      "quantity": "0.45 kg"
+      "name": "boneless skinless chicken breasts",
+      "quantity": "0.45 kg",
+      "prep": "cut into 1-inch pieces"
     },
     {
       "ingredient_id": 115,
@@ -71,18 +72,21 @@
     },
     {
       "ingredient_id": 159,
-      "name": "carrots, peeled and chopped",
-      "quantity": "3 small"
+      "name": "carrots",
+      "quantity": "3 small",
+      "prep": "peeled and chopped"
     },
     {
       "ingredient_id": 1720,
-      "name": "celery ribs chopped",
-      "quantity": "2"
+      "name": "celery ribs",
+      "quantity": "2",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 309,
-      "name": "leek, washed and rinsed of any grit, sliced",
-      "quantity": "1 medium"
+      "name": "leek",
+      "quantity": "1 medium",
+      "prep": "washed and rinsed of any grit, sliced"
     },
     {
       "ingredient_id": 24,
@@ -125,9 +129,17 @@
       "quantity": "1 ½ cups"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lemon zest, finely grated from 1 lemon",
-      "quantity": "2 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "prep": "zested",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "2 tsp",
+          "name": "lemon zest"
+        }
+      ]
     },
     {
       "ingredient_id": 1021,
@@ -141,6 +153,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the boneless skinless chicken breasts into 1-inch pieces. Peel and chop the carrots. Chop the celery ribs. Wash and rinse the leek of any grit, then slice it. Zest the lemon.",
+      "secondary_message": "0.45 kg boneless skinless chicken breasts\n3 small carrots\n2 celery ribs\n1 medium leek\n1 lemon"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 205°C (400°F) (205ºC). Heat oil in a 25-cm cast iron skillet over medium heat until just shimmering. Add chicken; cook, stirring occasionally, until cooked through, about 6 minutes. Using a slotted spoon, remove chicken from skillet, and transfer to a plate.",
@@ -168,15 +186,82 @@
     }
   ],
   "nutrition": {
-    "energy": 797.0,
-    "fat": 49.0,
-    "saturated": 13.0,
-    "carbs": 55.0,
-    "fiber": 5.0,
-    "sugars": 5.0,
-    "protein": 34.0,
-    "sodium": 1040.0,
-    "cholesterol": 128.0
+    "energy": 526.58,
+    "alcohol": 0.0,
+    "ash": 3.97,
+    "caffeine": 0.0,
+    "water": 232.04,
+    "carbs": 33.93,
+    "fiber": 4.16,
+    "sugars": 5.05,
+    "fat": 32.36,
+    "monounsaturated": 14.45,
+    "polyunsaturated": 3.32,
+    "omega_3": 0.22,
+    "omega_6": 2.97,
+    "saturated": 12.07,
+    "cholesterol": 119.41,
+    "protein": 25.11,
+    "b1_thiamine": 0.43,
+    "b2_riboflavin": 0.46,
+    "b3_niacin": 10.59,
+    "b5_pantothenic_acid": 1.51,
+    "b6_pyridoxine": 0.8,
+    "b12_cobalamin": 0.28,
+    "choline": 109.14,
+    "folate": 120.09,
+    "vitamin_a": 365.46,
+    "vitamin_c": 20.03,
+    "vitamin_e": 1.81,
+    "vitamin_k": 32.2,
+    "calcium": 61.88,
+    "copper": 0.21,
+    "iron": 2.83,
+    "magnesium": 53.15,
+    "manganese": 0.56,
+    "phosphorus": 278.13,
+    "potassium": 561.07,
+    "selenium": 33.27,
+    "sodium": 854.1,
+    "zinc": 1.54
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 17,
+    "counted": 17,
+    "partial": false,
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine",
+      "vitamin_d"
+    ]
   },
   "schema_metadata": {
     "category": [

@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "6 tbsp (3 oz)"
+      "name": "unsalted butter",
+      "quantity": "6 tbsp (3 oz)",
+      "prep": "melted"
     },
     {
       "ingredient_id": 353,
@@ -72,11 +73,18 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, melted",
-      "quantity": "85 g"
+      "name": "bittersweet chocolate",
+      "quantity": "85 g",
+      "prep": "melted"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Melt the bittersweet chocolate.",
+      "secondary_message": "6 tbsp (3 oz) unsalted butter\n85 g bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "In medium bowl, whisk sugar, flour, and salt to combine. Stir in butter, vanilla, and whites until smooth. Chill until thickened, about 1 hour.",
@@ -84,7 +92,7 @@
     },
     {
       "id": 2,
-      "primary_message": "Adjust oven rack to middle position and preheat oven to 190°C (375°F). Line baking sheet with a silpat-style non-stick baking sheet liner (see note). Spread 2 or 3 scant tablespoon sized portions of batter into a 10-by-15-cm oval. The batter should be spread evenly and should be practically transparent.",
+      "primary_message": "Adjust oven rack to middle position and preheat oven to 190°C (375°F). Line baking sheet with a silpat-style non-stick baking sheet liner (see note). Spread 2 or 3 scant tablespoon sized portions of batter into a 4- by 15-cm oval. The batter should be spread evenly and should be practically transparent.",
       "secondary_message": null
     },
     {
@@ -109,15 +117,82 @@
     }
   ],
   "nutrition": {
-    "energy": 120.0,
-    "fat": 7.0,
-    "saturated": 4.0,
-    "carbs": 13.0,
-    "fiber": 1.0,
-    "sugars": 7.0,
-    "protein": 2.0,
-    "sodium": 25.0,
-    "cholesterol": 10.0
+    "energy": 98.73,
+    "ash": 0.19,
+    "caffeine": 4.06,
+    "water": 6.13,
+    "carbs": 10.73,
+    "fiber": 0.47,
+    "sugars": 7.23,
+    "fat": 5.69,
+    "monounsaturated": 1.66,
+    "polyunsaturated": 0.21,
+    "omega_3": 0.02,
+    "omega_6": 0.17,
+    "saturated": 3.44,
+    "cholesterol": 10.46,
+    "protein": 1.29,
+    "b1_thiamine": 0.03,
+    "b2_riboflavin": 0.05,
+    "b3_niacin": 0.25,
+    "b5_pantothenic_acid": 0.05,
+    "b6_pyridoxine": 0.0,
+    "b12_cobalamin": 0.02,
+    "vitamin_a": 32.52,
+    "vitamin_e": 0.14,
+    "vitamin_k": 0.68,
+    "calcium": 5.05,
+    "copper": 0.07,
+    "iron": 0.47,
+    "magnesium": 9.79,
+    "manganese": 0.09,
+    "phosphorus": 18.0,
+    "potassium": 40.88,
+    "selenium": 2.75,
+    "sodium": 27.54,
+    "zinc": 0.16
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 7,
+    "counted": 7,
+    "partial": false,
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "alcohol",
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine",
+      "choline",
+      "folate",
+      "vitamin_c",
+      "vitamin_d"
+    ]
   },
   "schema_metadata": {
     "category": [

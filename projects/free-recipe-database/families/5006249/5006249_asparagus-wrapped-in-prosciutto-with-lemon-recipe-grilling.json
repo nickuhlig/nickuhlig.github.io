@@ -41,8 +41,9 @@
     },
     {
       "ingredient_id": 2346,
-      "name": "lemon zested",
-      "quantity": "1 tbsp"
+      "name": "lemon",
+      "quantity": "1 tbsp",
+      "prep": "zested"
     },
     {
       "ingredient_id": 47,
@@ -61,6 +62,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the lemon.",
+      "secondary_message": "1 tbsp lemon"
+    },
     {
       "id": 1,
       "primary_message": "Wrap each asparagus spear in 1 slice of prosciutto, or 1/2 a slice if the slices are large. Thread spears onto the skewers, with 1 skewer going through the bottom of the asparagus and the other going through the top. Drizzle olive oil over the skewered asparagus, and season with black pepper to taste.",

@@ -66,8 +66,9 @@
     },
     {
       "ingredient_id": 243,
-      "name": "mint leaves",
-      "quantity": "10"
+      "name": "fresh mint",
+      "quantity": "10",
+      "prep": "leaves picked"
     },
     {
       "ingredient_id": 2406,
@@ -86,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the leaves from the mint.",
+      "secondary_message": "10 fresh mint"
+    },
     {
       "id": 1,
       "primary_message": "For the Raspberry Mint Syrup: In a medium saucepan, combine raspberries, sugar, and water. Using a wooden spoon, mash raspberries to break up. Bring to a boil over medium-high heat; remove from heat, add mint leaves, stirring to combine. Cover and let stand until syrup is fragrant, about 30 minutes. Using a fine-mesh sieve, strain syrup into an airtight container.",

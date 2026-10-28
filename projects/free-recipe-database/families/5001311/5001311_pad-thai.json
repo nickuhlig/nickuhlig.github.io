@@ -85,8 +85,9 @@
     },
     {
       "ingredient_id": 2478,
-      "name": "pressed tofu, cut into 1- by 1/2- by 1/4-inch pieces",
-      "quantity": "2 ½ oz"
+      "name": "pressed tofu",
+      "quantity": "2 ½ oz",
+      "prep": "cut into 1- by 1/2- by 1/4-inch pieces"
     },
     {
       "ingredient_id": 3495,
@@ -100,8 +101,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "Asian shallot, cut into 1/4-inch dice",
-      "quantity": "1 small"
+      "name": "Asian shallot",
+      "quantity": "1 small",
+      "prep": "cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 121,
@@ -115,8 +117,9 @@
     },
     {
       "ingredient_id": 2224,
-      "name": "Chinese flat garlic chives, cut into 1 1/2–inch pieces , divided",
-      "quantity": "1 ½ oz"
+      "name": "Chinese flat garlic chives, divided",
+      "quantity": "1 ½ oz",
+      "prep": "cut into 1 1/2–inch pieces"
     },
     {
       "ingredient_id": 1761,
@@ -130,6 +133,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the pressed tofu into 1- by 1/2- by 1/4-inch pieces. Cut the Asian shallot into 1/4-inch dice. Cut the Chinese flat garlic chives into 1 1/2–inch pieces.",
+      "secondary_message": "2 ½ oz pressed tofu\n1 small Asian shallot\n1 ½ oz Chinese flat garlic chives, divided"
+    },
     {
       "id": 1,
       "primary_message": "For the Rice Noodles: In a medium bowl, cover noodles with slightly warm water (about 110°F; 43°C). Allow noodles to hydrate until pliable, about 30 minutes.",
@@ -177,15 +186,85 @@
     }
   ],
   "nutrition": {
-    "energy": 657.0,
-    "fat": 39.0,
-    "saturated": 8.0,
-    "carbs": 49.0,
-    "fiber": 5.0,
-    "sugars": 25.0,
-    "protein": 31.0,
-    "sodium": 2283.0,
-    "cholesterol": 154.0
+    "energy": 738.33,
+    "water": 243.06,
+    "carbs": 75.52,
+    "fiber": 5.51,
+    "sugars": 23.16,
+    "fat": 35.12,
+    "monounsaturated": 18.15,
+    "polyunsaturated": 7.52,
+    "omega_3": 1.44,
+    "omega_6": 5.89,
+    "saturated": 6.83,
+    "cholesterol": 170.63,
+    "protein": 32.01,
+    "b1_thiamine": 0.64,
+    "b2_riboflavin": 0.51,
+    "b3_niacin": 6.03,
+    "b12_cobalamin": 1.13,
+    "folate": 143.42,
+    "vitamin_c": 19.59,
+    "calcium": 253.01,
+    "copper": 0.53,
+    "iron": 5.49,
+    "magnesium": 150.01,
+    "manganese": 1.24,
+    "phosphorus": 457.92,
+    "potassium": 786.09,
+    "selenium": 51.37,
+    "sodium": 2406.45,
+    "zinc": 3.83
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 17,
+    "counted": 16,
+    "partial": true,
+    "missing": [
+      "packed sweet preserved radish"
+    ],
+    "estimated_share": 0.073,
+    "omitted_fields": [
+      "alcohol",
+      "ash",
+      "caffeine",
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine",
+      "b5_pantothenic_acid",
+      "b6_pyridoxine",
+      "choline",
+      "vitamin_a",
+      "vitamin_d",
+      "vitamin_e",
+      "vitamin_k"
+    ]
   },
   "schema_metadata": {
     "category": [

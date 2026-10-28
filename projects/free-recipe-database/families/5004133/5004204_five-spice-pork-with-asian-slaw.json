@@ -45,7 +45,7 @@
     {
       "ingredient_id": 1901,
       "name": "Chinese five-spice powder, divided",
-      "quantity": "1 tbsp plus 1/2 tsp"
+      "quantity": "1 tbsp plus ½ tsp"
     },
     {
       "ingredient_id": 1044,
@@ -79,18 +79,21 @@
     },
     {
       "ingredient_id": 1004,
-      "name": "shredded green cabbage",
-      "quantity": "946 ml"
+      "name": "green cabbage",
+      "quantity": "946 ml",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 153,
-      "name": "green onions, finely sliced",
-      "quantity": "4"
+      "name": "green onions",
+      "quantity": "4",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 188,
-      "name": "roughly chopped fresh cilantro",
-      "quantity": "1 cup"
+      "name": "fresh cilantro",
+      "quantity": "1 cup",
+      "prep": "roughly chopped"
     },
     {
       "ingredient_id": 72,
@@ -99,11 +102,18 @@
     },
     {
       "ingredient_id": 1420,
-      "name": "salted roasted peanuts, roughly chopped",
-      "quantity": "½ cup"
+      "name": "salted roasted peanuts",
+      "quantity": "½ cup",
+      "prep": "roughly chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Shred the green cabbage. Finely slice the green onions. Pick the cilantro leaves from the stems and roughly chop them. Roughly chop the salted roasted peanuts.",
+      "secondary_message": "946 ml green cabbage\n4 green onions\n1 cup fresh cilantro\n½ cup salted roasted peanuts"
+    },
     {
       "id": 1,
       "primary_message": "Arrange the oven rack in the center of the oven, and preheat the oven to 425 degrees F. Season the pork with salt, and coat in 1 tablespoon five-spice powder. Preheat oil in a heavy stainless steel skillet over medium-high heat until shimmering. Add pork and cook until first side is well-colored, about 4 minutes. Flip pork.",
@@ -126,15 +136,86 @@
     }
   ],
   "nutrition": {
-    "energy": 887.0,
-    "fat": 57.0,
-    "saturated": 11.0,
-    "carbs": 24.0,
-    "fiber": 8.0,
-    "sugars": 6.0,
-    "protein": 75.0,
-    "sodium": 747.0,
-    "cholesterol": 187.0
+    "energy": 825.37,
+    "alcohol": 0.0,
+    "ash": 6.01,
+    "caffeine": 0.0,
+    "water": 410.99,
+    "carbs": 24.64,
+    "fiber": 9.66,
+    "sugars": 10.03,
+    "fat": 55.02,
+    "monounsaturated": 28.31,
+    "polyunsaturated": 18.38,
+    "omega_3": 1.29,
+    "omega_6": 14.66,
+    "saturated": 11.91,
+    "transfats": 0.27,
+    "cholesterol": 150.95,
+    "protein": 62.66,
+    "alanine": 3.43,
+    "arginine": 4.49,
+    "aspartic_acid": 6.19,
+    "glutamic_acid": 10.38,
+    "glycine": 2.86,
+    "histidine": 2.4,
+    "isoleucine": 2.83,
+    "leucine": 4.9,
+    "lysine": 4.99,
+    "methionine": 1.49,
+    "phenylalanine": 2.64,
+    "proline": 2.52,
+    "serine": 2.71,
+    "threonine": 2.64,
+    "tryptophan": 0.65,
+    "tyrosine": 2.29,
+    "valine": 3.17,
+    "b1_thiamine": 1.2,
+    "b2_riboflavin": 0.88,
+    "b3_niacin": 21.14,
+    "b5_pantothenic_acid": 3.49,
+    "b6_pyridoxine": 2.12,
+    "b12_cobalamin": 1.27,
+    "choline": 188.34,
+    "folate": 134.79,
+    "vitamin_a": 68.28,
+    "vitamin_c": 63.15,
+    "vitamin_d": 1.3,
+    "vitamin_e": 4.14,
+    "vitamin_k": 229.36,
+    "calcium": 138.05,
+    "copper": 0.61,
+    "iron": 3.83,
+    "magnesium": 158.31,
+    "manganese": 1.23,
+    "phosphorus": 745.58,
+    "potassium": 1691.62,
+    "selenium": 71.17,
+    "sodium": 589.4,
+    "zinc": 5.8
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 14,
+    "counted": 12,
+    "partial": false,
+    "not_counted": [
+      "Kosher salt",
+      "Freshly ground black pepper"
+    ],
+    "estimated_share": 0.014,
+    "omitted_fields": [
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "cystine"
+    ]
   },
   "schema_metadata": {
     "category": [

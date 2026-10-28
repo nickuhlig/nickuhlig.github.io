@@ -88,8 +88,9 @@
     },
     {
       "ingredient_id": 2744,
-      "name": "whole fat plain yogurt, lightly beaten",
-      "quantity": "¾ cup"
+      "name": "whole fat plain yogurt",
+      "quantity": "¾ cup",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 121,
@@ -103,8 +104,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated or finely minced, divided",
-      "quantity": "3 cloves"
+      "name": "garlic, divided",
+      "quantity": "3 cloves",
+      "prep": "grated or finely minced"
     },
     {
       "ingredient_id": 1267,
@@ -113,6 +115,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly beat the whole fat plain yogurt. Grate or finely mince the garlic.",
+      "secondary_message": "¾ cup whole fat plain yogurt\n3 cloves garlic, divided"
+    },
     {
       "id": 1,
       "primary_message": "Using a fine-mesh strainer set over a large bowl, sift flour and baking powder into bowl. Whisk in yeast, sugar, and salt to combine.",
@@ -165,15 +173,82 @@
     }
   ],
   "nutrition": {
-    "energy": 364.0,
-    "fat": 14.0,
-    "saturated": 6.0,
-    "carbs": 50.0,
-    "fiber": 2.0,
-    "sugars": 4.0,
-    "protein": 9.0,
-    "sodium": 412.0,
-    "cholesterol": 44.0
+    "energy": 330.19,
+    "alcohol": 0.0,
+    "ash": 1.84,
+    "caffeine": 0.0,
+    "water": 50.62,
+    "carbs": 48.82,
+    "fiber": 1.91,
+    "sugars": 3.33,
+    "fat": 10.82,
+    "monounsaturated": 4.21,
+    "polyunsaturated": 1.55,
+    "omega_3": 0.42,
+    "omega_6": 1.12,
+    "saturated": 4.38,
+    "cholesterol": 40.56,
+    "protein": 8.82,
+    "alanine": 0.32,
+    "arginine": 0.37,
+    "aspartic_acid": 0.51,
+    "cystine": 0.16,
+    "glutamic_acid": 2.53,
+    "glycine": 0.3,
+    "histidine": 0.21,
+    "isoleucine": 0.35,
+    "leucine": 0.66,
+    "lysine": 0.36,
+    "methionine": 0.18,
+    "phenylalanine": 0.45,
+    "proline": 0.91,
+    "serine": 0.48,
+    "threonine": 0.28,
+    "tryptophan": 0.1,
+    "tyrosine": 0.3,
+    "valine": 0.43,
+    "b1_thiamine": 0.6,
+    "b2_riboflavin": 0.43,
+    "b3_niacin": 3.96,
+    "b5_pantothenic_acid": 0.68,
+    "b6_pyridoxine": 0.08,
+    "b12_cobalamin": 0.23,
+    "choline": 32.56,
+    "folate": 202.45,
+    "vitamin_a": 65.88,
+    "vitamin_c": 0.47,
+    "vitamin_d": 0.41,
+    "vitamin_e": 0.85,
+    "vitamin_k": 3.14,
+    "calcium": 108.16,
+    "copper": 0.1,
+    "iron": 2.96,
+    "magnesium": 19.55,
+    "manganese": 0.43,
+    "phosphorus": 180.63,
+    "potassium": 149.38,
+    "selenium": 23.3,
+    "sodium": 346.92,
+    "zinc": 0.81
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 11,
+    "counted": 11,
+    "partial": false,
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats"
+    ]
   },
   "schema_metadata": {
     "category": [

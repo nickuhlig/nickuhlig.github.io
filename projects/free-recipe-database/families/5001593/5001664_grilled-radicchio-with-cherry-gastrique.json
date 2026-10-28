@@ -50,8 +50,9 @@
   "ingredients": [
     {
       "ingredient_id": 2216,
-      "name": "sweet red cherries, halved and pitted",
-      "quantity": "0.45 kg"
+      "name": "sweet red cherries",
+      "quantity": "0.45 kg",
+      "prep": "halved and pitted"
     },
     {
       "ingredient_id": 346,
@@ -75,8 +76,9 @@
     },
     {
       "ingredient_id": 2520,
-      "name": "radicchio, quartered, cores left intact",
-      "quantity": "0.68 kg"
+      "name": "radicchio",
+      "quantity": "0.68 kg",
+      "prep": "quartered, cores left intact"
     },
     {
       "ingredient_id": 47,
@@ -85,6 +87,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve and pit the sweet red cherries. Quarter the radicchio, then leave the cores intact.",
+      "secondary_message": "0.45 kg sweet red cherries\n0.68 kg radicchio"
+    },
     {
       "id": 1,
       "primary_message": "Light 1 chimney full of charcoal. When all charcoal is lit and covered with gray ash, pour out and spread coals evenly over half of coal grate. Alternatively, set half the burners of a gas grill to high heat. Set cooking grate in place, cover grill, and allow to preheat for 5 minutes. Clean and oil grilling grate.",
@@ -107,15 +115,89 @@
     }
   ],
   "nutrition": {
-    "energy": 97.0,
-    "fat": 0.0,
-    "saturated": 0.0,
-    "carbs": 23.0,
-    "fiber": 2.0,
-    "sugars": 16.0,
-    "protein": 2.0,
-    "sodium": 131.0,
-    "cholesterol": 0.0
+    "energy": 128.09,
+    "alcohol": 0.0,
+    "ash": 1.17,
+    "caffeine": 0.0,
+    "water": 177.05,
+    "carbs": 25.61,
+    "fiber": 2.61,
+    "sugars": 18.69,
+    "fat": 2.69,
+    "monounsaturated": 1.69,
+    "polyunsaturated": 0.4,
+    "omega_3": 0.05,
+    "omega_6": 0.35,
+    "saturated": 0.41,
+    "transfats": 0.0,
+    "cholesterol": 0.0,
+    "protein": 2.43,
+    "arginine": 0.13,
+    "histidine": 0.04,
+    "isoleucine": 0.11,
+    "leucine": 0.09,
+    "lysine": 0.09,
+    "methionine": 0.02,
+    "phenylalanine": 0.06,
+    "threonine": 0.06,
+    "tryptophan": 0.04,
+    "valine": 0.09,
+    "b1_thiamine": 0.04,
+    "b2_riboflavin": 0.06,
+    "b3_niacin": 0.41,
+    "b5_pantothenic_acid": 0.46,
+    "b6_pyridoxine": 0.1,
+    "b12_cobalamin": 0.0,
+    "choline": 16.98,
+    "folate": 71.06,
+    "vitamin_a": 3.4,
+    "vitamin_c": 14.41,
+    "vitamin_d": 0.0,
+    "vitamin_e": 2.94,
+    "vitamin_k": 292.34,
+    "calcium": 32.08,
+    "copper": 0.43,
+    "iron": 0.96,
+    "magnesium": 23.31,
+    "manganese": 0.21,
+    "phosphorus": 61.83,
+    "potassium": 512.53,
+    "selenium": 1.08,
+    "sodium": 25.57,
+    "zinc": 0.76
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 7,
+    "counted": 5,
+    "partial": false,
+    "not_counted": [
+      "Kosher salt",
+      "freshly ground black pepper"
+    ],
+    "assumed": [
+      "Extra-virgin olive oil, for drizzling"
+    ],
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "alanine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "proline",
+      "serine",
+      "tyrosine"
+    ]
   },
   "schema_metadata": {
     "category": [

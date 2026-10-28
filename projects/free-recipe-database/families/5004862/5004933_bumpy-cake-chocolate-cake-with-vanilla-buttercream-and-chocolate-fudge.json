@@ -97,8 +97,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, lightly beaten",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 293,
@@ -137,8 +138,9 @@
     },
     {
       "ingredient_id": 2475,
-      "name": "buttermilk, room temperature",
-      "quantity": "½ cup"
+      "name": "buttermilk",
+      "quantity": "½ cup",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 1710,
@@ -172,14 +174,21 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cut into tablespoon-sized pieces",
-      "quantity": "16 tbsp"
+      "name": "unsalted butter",
+      "quantity": "16 tbsp",
+      "prep": "cut into tablespoon-sized pieces"
     }
   ],
   "instructions": [
     {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly beat the eggs. Bring the buttermilk to room temperature. Cut the unsalted butter into tablespoon-sized pieces.",
+      "secondary_message": "2 large eggs\n½ cup buttermilk\n16 tbsp unsalted butter"
+    },
+    {
       "id": 1,
-      "primary_message": "Set oven rack to the middle position and preheat oven to 190°C (375°F). Grease a 23-by-33-cm pan or baking dish with butter. Add 2 tablespoons cocoa powder to pan and shake and tap pan gently until the butter is completely coated in cocoa. Tip out excess.",
+      "primary_message": "Set oven rack to the middle position and preheat oven to 190°C (375°F). Grease a 9- by 33-cm pan or baking dish with butter. Add 2 tablespoons cocoa powder to pan and shake and tap pan gently until the butter is completely coated in cocoa. Tip out excess.",
       "secondary_message": null
     },
     {
@@ -219,15 +228,82 @@
     }
   ],
   "nutrition": {
-    "energy": 788.0,
-    "fat": 35.0,
-    "saturated": 15.0,
-    "carbs": 115.0,
-    "fiber": 2.0,
-    "sugars": 94.0,
-    "protein": 6.0,
-    "sodium": 381.0,
-    "cholesterol": 88.0
+    "energy": 767.52,
+    "alcohol": 0.6,
+    "ash": 1.56,
+    "caffeine": 17.75,
+    "water": 53.63,
+    "carbs": 112.42,
+    "fiber": 2.78,
+    "sugars": 92.34,
+    "fat": 35.57,
+    "monounsaturated": 13.95,
+    "polyunsaturated": 4.76,
+    "omega_3": 1.0,
+    "omega_6": 3.49,
+    "saturated": 15.25,
+    "cholesterol": 85.65,
+    "protein": 5.63,
+    "b1_thiamine": 0.19,
+    "b2_riboflavin": 0.23,
+    "b3_niacin": 1.44,
+    "b5_pantothenic_acid": 0.42,
+    "b6_pyridoxine": 0.05,
+    "b12_cobalamin": 0.18,
+    "choline": 39.27,
+    "folate": 69.07,
+    "vitamin_a": 187.59,
+    "vitamin_c": 0.31,
+    "vitamin_d": 0.17,
+    "vitamin_e": 2.53,
+    "vitamin_k": 10.7,
+    "calcium": 71.21,
+    "copper": 0.29,
+    "iron": 2.14,
+    "magnesium": 41.86,
+    "manganese": 0.4,
+    "phosphorus": 118.19,
+    "potassium": 208.57,
+    "selenium": 12.2,
+    "sodium": 383.81,
+    "zinc": 0.83
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 24,
+    "counted": 24,
+    "partial": false,
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine"
+    ]
   },
   "schema_metadata": {
     "category": [

@@ -18,7 +18,8 @@
     1,
     2,
     3,
-    4
+    4,
+    7
   ],
   "violated_restriction_ids": [
     1,
@@ -102,13 +103,16 @@
     },
     {
       "ingredient_id": 349,
-      "name": "Freshly grated nutmeg, to taste",
-      "quantity": ""
+      "name": "Nutmeg, to taste",
+      "quantity": "",
+      "prep": "freshly grated"
     },
     {
       "ingredient_id": 3064,
-      "name": "Yukon Gold potatoes, peeled and cut into 1-inch cubes",
-      "quantity": "0.46 kg"
+      "name": "Yukon Gold potatoes",
+      "quantity": "2 medium",
+      "weigh_as": "0.46 kg",
+      "prep": "peeled and cut into 1-inch cubes"
     },
     {
       "ingredient_id": 359,
@@ -122,8 +126,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "3 tbsp"
+      "name": "unsalted butter",
+      "quantity": "3 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 72,
@@ -132,13 +137,15 @@
     },
     {
       "ingredient_id": 116,
-      "name": "all-purpose flour, transferred to a shallow bowl",
-      "quantity": "½ cup"
+      "name": "all-purpose flour",
+      "quantity": "½ cup",
+      "prep": "transferred to a shallow bowl"
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten in a shallow bowl",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "beaten in a shallow bowl"
     },
     {
       "ingredient_id": 1684,
@@ -152,6 +159,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Freshly grate the nutmeg. Peel and cut the Yukon Gold potatoes into 1-inch cubes. Melt the unsalted butter. Transfer the all-purpose flour to a shallow bowl. Beat the eggs in a shallow bowl.",
+      "secondary_message": "Nutmeg, to taste\n2 medium Yukon Gold potatoes\n3 tbsp unsalted butter\n½ cup all-purpose flour\n2 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "For the Béchamel: In a small saucepan, melt butter over medium-high heat until foaming. Add flour and whisk to form a paste. Lower heat to medium and cook, whisking constantly, until raw flour smell is gone but flour has not browned, about 1 minute. While whisking constantly, slowly pour milk in a thin, steady stream until all of it has been added, and continue to cook, stirring often, until béchamel is thick enough to coat the back of a spoon, about 2 minutes. Season with salt, pepper, and nutmeg to taste. Transfer to small bowl and cover with plastic wrap, pressing plastic against surface to prevent a skin from forming. Set aside.",
@@ -194,15 +207,88 @@
     }
   ],
   "nutrition": {
-    "energy": 493.0,
-    "fat": 37.0,
-    "saturated": 9.0,
-    "carbs": 33.0,
-    "fiber": 2.0,
-    "sugars": 3.0,
-    "protein": 8.0,
-    "sodium": 798.0,
-    "cholesterol": 113.0
+    "energy": 992.2,
+    "alcohol": 0.0,
+    "ash": 3.5,
+    "caffeine": 0.0,
+    "water": 411.21,
+    "carbs": 49.18,
+    "fiber": 3.52,
+    "sugars": 3.98,
+    "fructose": 1.08,
+    "galactose": 0.0,
+    "glucose": 0.95,
+    "lactose": 1.03,
+    "maltose": 0.69,
+    "sucrose": 0.13,
+    "fat": 84.98,
+    "monounsaturated": 19.96,
+    "polyunsaturated": 43.3,
+    "omega_3": 4.91,
+    "omega_6": 37.83,
+    "saturated": 17.28,
+    "cholesterol": 84.39,
+    "protein": 10.38,
+    "alanine": 0.41,
+    "arginine": 0.48,
+    "aspartic_acid": 0.97,
+    "cystine": 0.19,
+    "glutamic_acid": 2.6,
+    "glycine": 0.35,
+    "histidine": 0.23,
+    "isoleucine": 0.44,
+    "leucine": 0.75,
+    "lysine": 0.47,
+    "methionine": 0.21,
+    "phenylalanine": 0.51,
+    "proline": 0.84,
+    "serine": 0.56,
+    "threonine": 0.36,
+    "tryptophan": 0.13,
+    "tyrosine": 0.34,
+    "valine": 0.53,
+    "b1_thiamine": 0.52,
+    "b2_riboflavin": 0.34,
+    "b3_niacin": 3.92,
+    "b5_pantothenic_acid": 0.81,
+    "b6_pyridoxine": 0.31,
+    "b12_cobalamin": 0.38,
+    "choline": 69.42,
+    "folate": 113.61,
+    "vitamin_a": 100.77,
+    "vitamin_c": 14.89,
+    "vitamin_e": 6.42,
+    "vitamin_k": 138.88,
+    "calcium": 120.99,
+    "copper": 0.24,
+    "iron": 3.21,
+    "magnesium": 42.84,
+    "phosphorus": 167.5,
+    "potassium": 456.58,
+    "selenium": 19.31,
+    "sodium": 676.11,
+    "zinc": 1.16
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 15,
+    "counted": 11,
+    "partial": false,
+    "not_counted": [
+      "Kosher salt",
+      "freshly ground black pepper",
+      "Nutmeg, to taste, freshly grated",
+      "Freshly ground black pepper"
+    ],
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "starch",
+      "sugar_alcohol",
+      "transfats",
+      "vitamin_d",
+      "manganese"
+    ]
   },
   "schema_metadata": {
     "category": [

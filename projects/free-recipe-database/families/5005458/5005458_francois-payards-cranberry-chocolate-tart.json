@@ -33,8 +33,9 @@
   "ingredients": [
     {
       "ingredient_id": 3261,
-      "name": "tart shell, baked and cooled",
-      "quantity": "1 (9 inch)"
+      "name": "tart shell",
+      "quantity": "1 (9 inch)",
+      "prep": "baked and cooled"
     },
     {
       "ingredient_id": 1831,
@@ -58,13 +59,15 @@
     },
     {
       "ingredient_id": 2183,
-      "name": "61% chocolate, chopped",
-      "quantity": "5 oz"
+      "name": "61% chocolate",
+      "quantity": "5 oz",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2742,
-      "name": "34% chocolate, chopped",
-      "quantity": "1 ¾ oz"
+      "name": "34% chocolate",
+      "quantity": "1 ¾ oz",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2240,
@@ -89,6 +92,12 @@
   ],
   "instructions": [
     {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bake the tart shell and let it cool. Chop the 61% chocolate. Chop the 34% chocolate.",
+      "secondary_message": "1 (9 inch) tart shell\n5 oz 61% chocolate\n1 ¾ oz 34% chocolate"
+    },
+    {
       "id": 1,
       "primary_message": "For the geleé: Sprinkle the gelatin over 3 tablespoons of the cranberry juice, let stand for 3 to 5 minutes. Combine the remaining juice, the sugar and cranberry sauce in a medium saucepan over medium-high heat, and bring to a boil. Whisk to break down the jelly. Remove the pan from the heat, and stir the gelatin into the hot liquid. Pour the geleé in the prepared tart shell, filling about a fourth of it, and refrigerate the tart for about 30 minutes to let the geleé set.",
       "secondary_message": null
@@ -100,15 +109,82 @@
     }
   ],
   "nutrition": {
-    "energy": 546.0,
-    "fat": 32.0,
-    "saturated": 17.0,
-    "carbs": 61.0,
-    "fiber": 3.0,
-    "sugars": 35.0,
-    "protein": 6.0,
-    "sodium": 207.0,
-    "cholesterol": 44.0
+    "energy": 440.44,
+    "ash": 1.02,
+    "water": 40.01,
+    "carbs": 41.8,
+    "fiber": 2.08,
+    "fat": 29.38,
+    "monounsaturated": 8.95,
+    "polyunsaturated": 1.82,
+    "saturated": 16.44,
+    "protein": 3.92,
+    "calcium": 49.15,
+    "copper": 0.29,
+    "iron": 1.68,
+    "magnesium": 40.73,
+    "phosphorus": 92.38,
+    "potassium": 187.49,
+    "sodium": 139.74,
+    "zinc": 0.8
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 11,
+    "counted": 11,
+    "partial": false,
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "alcohol",
+      "caffeine",
+      "starch",
+      "sugars",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "omega_3",
+      "omega_6",
+      "transfats",
+      "cholesterol",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine",
+      "b1_thiamine",
+      "b2_riboflavin",
+      "b3_niacin",
+      "b5_pantothenic_acid",
+      "b6_pyridoxine",
+      "b12_cobalamin",
+      "choline",
+      "folate",
+      "vitamin_a",
+      "vitamin_c",
+      "vitamin_d",
+      "vitamin_e",
+      "vitamin_k",
+      "manganese",
+      "selenium"
+    ]
   },
   "schema_metadata": {
     "category": [

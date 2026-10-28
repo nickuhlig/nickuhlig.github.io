@@ -48,18 +48,21 @@
   "ingredients": [
     {
       "ingredient_id": 44,
-      "name": "boneless skinless chicken breasts, each breast cut into 3 pieces",
-      "quantity": "1.13 kg"
+      "name": "boneless skinless chicken breasts",
+      "quantity": "1.13 kg",
+      "prep": "each breast cut into 3 pieces"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, halved and peeled",
-      "quantity": "1 small"
+      "name": "yellow onion",
+      "quantity": "1 small",
+      "prep": "halved and peeled"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed and peeled",
-      "quantity": "4 cloves"
+      "name": "garlic",
+      "quantity": "4 cloves",
+      "prep": "smashed and peeled"
     },
     {
       "ingredient_id": 88,
@@ -118,11 +121,12 @@
     },
     {
       "ingredient_id": 1176,
-      "name": "long-grain white rice, rinsed",
-      "quantity": "2 cups"
+      "name": "long-grain white rice",
+      "quantity": "2 cups",
+      "prep": "rinsed"
     },
     {
-      "ingredient_id": 1231,
+      "ingredient_id": 3686,
       "name": "reserved chicken broth from cooking chicken above",
       "quantity": "4 cups"
     },
@@ -138,8 +142,9 @@
     },
     {
       "ingredient_id": 43,
-      "name": "shredded cheddar cheese",
-      "quantity": "2 ½ cups"
+      "name": "cheddar cheese",
+      "quantity": "2 ½ cups",
+      "prep": "shredded"
     },
     {
       "ingredient_id": 267,
@@ -148,6 +153,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the breast of the boneless skinless chicken breasts into 3 pieces. Halve and peel the yellow onion. Smash and peel the garlic. Rinse the long-grain white rice. Shred the cheddar cheese.",
+      "secondary_message": "1.13 kg boneless skinless chicken breasts\n1 small yellow onion\n4 cloves garlic\n2 cups long-grain white rice\n2 ½ cups cheddar cheese"
+    },
     {
       "id": 1,
       "primary_message": "For the Chicken: In a large pot, place chicken, onion, garlic, 1 1/2 teaspoons salt, sazón with coriander and annatto, garlic powder, cumin, oregano, pepper, bay leaf, and 2 quarts cold water. (Chicken should be submerged 5 cm; add more water if necessary.) Bring to a boil over medium heat, then reduce heat to medium-low and simmer until chicken is cooked through and an instant-read thermometer inserted into thickest part of breast registers 71°C, about 10 minutes.",

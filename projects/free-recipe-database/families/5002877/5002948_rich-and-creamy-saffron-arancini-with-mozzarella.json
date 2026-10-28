@@ -70,8 +70,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, finely diced",
-      "quantity": "1 medium"
+      "name": "yellow onion",
+      "quantity": "1 medium",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 1930,
@@ -115,13 +116,15 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 2016,
-      "name": "low-moisture mozzarella, diced",
-      "quantity": "0.45 kg"
+      "name": "low-moisture mozzarella",
+      "quantity": "0.45 kg",
+      "prep": "diced"
     },
     {
       "ingredient_id": 1044,
@@ -130,6 +133,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely dice the yellow onion. Beat the eggs. Dice the low-moisture mozzarella.",
+      "secondary_message": "1 medium yellow onion\n2 large eggs\n0.45 kg low-moisture mozzarella"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 150°C (300°F). Place bread cubes on a rack set in a rimmed baking sheet and bake in oven until completely dried out, about 30 minutes.",
@@ -187,15 +196,86 @@
     }
   ],
   "nutrition": {
-    "energy": 232.0,
-    "fat": 14.0,
-    "saturated": 3.0,
-    "carbs": 19.0,
-    "fiber": 1.0,
-    "sugars": 3.0,
-    "protein": 7.0,
-    "sodium": 220.0,
-    "cholesterol": 34.0
+    "energy": 609.79,
+    "ash": 2.46,
+    "water": 112.66,
+    "carbs": 43.53,
+    "fat": 39.99,
+    "monounsaturated": 10.7,
+    "polyunsaturated": 17.34,
+    "omega_3": 1.94,
+    "omega_6": 15.14,
+    "saturated": 9.62,
+    "cholesterol": 50.43,
+    "protein": 16.58,
+    "b1_thiamine": 0.29,
+    "b2_riboflavin": 0.36,
+    "b3_niacin": 3.03,
+    "b6_pyridoxine": 0.18,
+    "b12_cobalamin": 0.59,
+    "folate": 75.74,
+    "vitamin_c": 0.67,
+    "calcium": 242.35,
+    "copper": 0.2,
+    "iron": 1.9,
+    "magnesium": 30.81,
+    "phosphorus": 264.02,
+    "potassium": 215.02,
+    "sodium": 485.8,
+    "zinc": 1.94
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 16,
+    "counted": 14,
+    "partial": false,
+    "not_counted": [
+      "Kosher salt",
+      "freshly ground black pepper"
+    ],
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "alcohol",
+      "caffeine",
+      "fiber",
+      "starch",
+      "sugars",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine",
+      "b5_pantothenic_acid",
+      "choline",
+      "vitamin_a",
+      "vitamin_d",
+      "vitamin_e",
+      "vitamin_k",
+      "manganese",
+      "selenium"
+    ]
   },
   "schema_metadata": {
     "category": [

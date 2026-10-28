@@ -110,9 +110,17 @@
       "quantity": "1 tbsp plus 2 tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 1/2 lemon",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "fresh lemon juice, from 1/2 lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 74,
@@ -136,8 +144,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, beaten with 1 tablespoon water",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "beaten with 1 tablespoon water"
     },
     {
       "ingredient_id": 1682,
@@ -161,6 +170,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemon. Beat the egg with 1 tablespoon water.",
+      "secondary_message": "½ lemon\n1 large egg"
+    },
     {
       "id": 1,
       "primary_message": "Line a rimmed baking sheet with parchment paper; set aside. Remove pie dough from refrigerator. If using homemade dough, let stand at room temperature until slightly softened, 5 to 10 minutes.",
@@ -223,15 +238,85 @@
     }
   ],
   "nutrition": {
-    "energy": 353.0,
-    "fat": 24.0,
-    "saturated": 5.0,
-    "carbs": 33.0,
-    "fiber": 2.0,
-    "sugars": 18.0,
-    "protein": 2.0,
-    "sodium": 153.0,
-    "cholesterol": 21.0
+    "energy": 454.01,
+    "ash": 0.53,
+    "water": 55.88,
+    "carbs": 34.36,
+    "fiber": 1.31,
+    "sugars": 17.93,
+    "fructose": 2.52,
+    "galactose": 0.0,
+    "glucose": 0.92,
+    "lactose": 0.0,
+    "maltose": 0.0,
+    "sucrose": 14.42,
+    "fat": 34.66,
+    "transfats": 0.07,
+    "protein": 2.77,
+    "b1_thiamine": 0.16,
+    "b2_riboflavin": 0.13,
+    "b3_niacin": 1.16,
+    "b5_pantothenic_acid": 0.2,
+    "b6_pyridoxine": 0.04,
+    "choline": 20.01,
+    "folate": 58.71,
+    "vitamin_a": 153.01,
+    "vitamin_e": 3.53,
+    "vitamin_k": 14.07,
+    "calcium": 15.22,
+    "copper": 0.05,
+    "iron": 1.03,
+    "magnesium": 7.47,
+    "manganese": 0.18,
+    "phosphorus": 37.84,
+    "potassium": 75.47,
+    "selenium": 8.02,
+    "sodium": 120.17,
+    "zinc": 0.23
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 15,
+    "counted": 14,
+    "partial": false,
+    "not_counted": [
+      "All-purpose flour, for dusting work surface"
+    ],
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "alcohol",
+      "caffeine",
+      "starch",
+      "sugar_alcohol",
+      "monounsaturated",
+      "polyunsaturated",
+      "omega_3",
+      "omega_6",
+      "saturated",
+      "cholesterol",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine",
+      "b12_cobalamin",
+      "vitamin_c",
+      "vitamin_d"
+    ]
   },
   "schema_metadata": {
     "category": [

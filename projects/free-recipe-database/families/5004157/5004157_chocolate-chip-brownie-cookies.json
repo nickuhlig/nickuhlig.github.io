@@ -48,13 +48,15 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "70% bittersweet chocolate, finely chopped",
-      "quantity": "5 oz"
+      "name": "70% bittersweet chocolate",
+      "quantity": "5 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1017,
-      "name": "unsweetened chocolate, finely chopped",
-      "quantity": "1 oz"
+      "name": "unsweetened chocolate",
+      "quantity": "1 oz",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 121,
@@ -94,6 +96,12 @@
   ],
   "instructions": [
     {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the 70% bittersweet chocolate. Finely chop the unsweetened chocolate.",
+      "secondary_message": "5 oz 70% bittersweet chocolate\n1 oz unsweetened chocolate"
+    },
+    {
       "id": 1,
       "primary_message": "In heatproof bowl, melt butter, 70% chocolate, and unsweetened chocolate in the microwave or over a pan of barely simmering water until just-melted and smooth. Let cool slightly.",
       "secondary_message": null
@@ -115,15 +123,82 @@
     }
   ],
   "nutrition": {
-    "energy": 366,
-    "fat": 24,
-    "saturated": 14,
-    "carbs": 32,
-    "fiber": 3.8,
-    "sugars": 14,
-    "protein": 6.0,
-    "sodium": 73,
-    "cholesterol": 70
+    "energy": 245.9,
+    "ash": 0.79,
+    "caffeine": 14.52,
+    "water": 9.46,
+    "carbs": 30.7,
+    "fiber": 2.03,
+    "sugars": 22.34,
+    "fat": 12.24,
+    "monounsaturated": 3.73,
+    "polyunsaturated": 0.6,
+    "omega_3": 0.04,
+    "omega_6": 0.52,
+    "saturated": 7.03,
+    "cholesterol": 46.85,
+    "protein": 3.34,
+    "b1_thiamine": 0.06,
+    "b2_riboflavin": 0.09,
+    "b3_niacin": 0.57,
+    "b5_pantothenic_acid": 0.25,
+    "b6_pyridoxine": 0.03,
+    "b12_cobalamin": 0.14,
+    "vitamin_a": 42.41,
+    "vitamin_e": 0.32,
+    "vitamin_k": 2.1,
+    "calcium": 33.06,
+    "copper": 0.31,
+    "iron": 2.33,
+    "magnesium": 42.13,
+    "manganese": 0.41,
+    "phosphorus": 98.19,
+    "potassium": 154.99,
+    "selenium": 6.6,
+    "sodium": 69.9,
+    "zinc": 0.84
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 10,
+    "counted": 10,
+    "partial": false,
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "alcohol",
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine",
+      "choline",
+      "folate",
+      "vitamin_c",
+      "vitamin_d"
+    ]
   },
   "schema_metadata": {
     "category": [

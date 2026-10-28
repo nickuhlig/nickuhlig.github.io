@@ -92,8 +92,9 @@
     },
     {
       "ingredient_id": 113,
-      "name": "Granny Smith apple, peeled and grated",
-      "quantity": "1 large"
+      "name": "Granny Smith apple",
+      "quantity": "1 large",
+      "prep": "peeled and grated"
     },
     {
       "ingredient_id": 3007,
@@ -111,14 +112,22 @@
       "quantity": "¼ cup plus 2 tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice, from 1 medium lemon",
-      "quantity": "2 tbsp"
-    },
-    {
-      "ingredient_id": 2346,
-      "name": "lemon zest, from 1 medium lemon",
-      "quantity": "½ tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice, from 1 medium lemon"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "½ tsp",
+          "name": "lemon zest, from 1 medium lemon"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 3225,
@@ -132,23 +141,27 @@
     },
     {
       "ingredient_id": 116,
-      "name": "all-purpose flour, sifted, plus more for dusting",
-      "quantity": "285 g"
+      "name": "all-purpose flour, plus more for dusting",
+      "quantity": "285 g",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 1710,
-      "name": "confectioners’ sugar, sifted, plus more for dusting",
-      "quantity": "30 g"
+      "name": "confectioners’ sugar, plus more for dusting",
+      "quantity": "30 g",
+      "prep": "sifted"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cold and cubed",
-      "quantity": "185 g"
+      "name": "unsalted butter",
+      "quantity": "185 g",
+      "prep": "cold and cubed"
     },
     {
       "ingredient_id": 121,
-      "name": "egg, lightly beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 359,
@@ -157,11 +170,18 @@
     },
     {
       "ingredient_id": 3641,
-      "name": "egg yolk, lightly beaten",
-      "quantity": "1 large"
+      "name": "egg yolk",
+      "quantity": "1 large",
+      "prep": "lightly beaten"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and grate the Granny Smith apple. Zest and juice the lemon. Sift the all-purpose flour. Sift the confectioners’ sugar. Cube the unsalted butter and keep it cold until you use it. Lightly beat the egg. Lightly beat the egg yolk.",
+      "secondary_message": "1 large Granny Smith apple\n1 lemon\n285 g all-purpose flour, plus more for dusting\n30 g confectioners’ sugar, plus more for dusting\n185 g unsalted butter\n1 large egg\n1 large egg yolk"
+    },
     {
       "id": 1,
       "primary_message": "For the Mincemeat: In a large bowl, toss currants, raisins, sultanas, dark brown sugar, apple, beef or vegetable suet, candied orange peel, orange juice and zest, lemon juice and zest, and mixed spice. Drizzle brandy over fruit and, using a flexible spatula, stir until evenly distributed. Cover bowl tightly with plastic wrap and refrigerate for 24 hours, stirring 2 to 3 times during this period.",
@@ -213,7 +233,84 @@
       "secondary_message": null
     }
   ],
-  "nutrition": {},
+  "nutrition": {
+    "energy": 422.34,
+    "ash": 0.86,
+    "water": 41.05,
+    "carbs": 57.35,
+    "fiber": 2.58,
+    "sugars": 30.79,
+    "fat": 19.16,
+    "protein": 4.51,
+    "b1_thiamine": 0.24,
+    "b2_riboflavin": 0.19,
+    "b3_niacin": 1.78,
+    "b6_pyridoxine": 0.1,
+    "choline": 33.9,
+    "folate": 77.89,
+    "vitamin_a": 119.1,
+    "vitamin_e": 0.61,
+    "vitamin_k": 2.95,
+    "calcium": 41.21,
+    "copper": 0.14,
+    "iron": 1.87,
+    "magnesium": 19.14,
+    "manganese": 0.29,
+    "phosphorus": 75.66,
+    "potassium": 297.15,
+    "selenium": 10.58,
+    "sodium": 20.93,
+    "zinc": 0.4
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 18,
+    "counted": 18,
+    "partial": false,
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "alcohol",
+      "caffeine",
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "monounsaturated",
+      "polyunsaturated",
+      "omega_3",
+      "omega_6",
+      "saturated",
+      "transfats",
+      "cholesterol",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine",
+      "b5_pantothenic_acid",
+      "b12_cobalamin",
+      "vitamin_c",
+      "vitamin_d"
+    ]
+  },
   "schema_metadata": {
     "category": [
       "Dessert",

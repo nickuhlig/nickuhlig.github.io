@@ -49,8 +49,9 @@
     },
     {
       "ingredient_id": 243,
-      "name": "fresh mint leaves",
-      "quantity": "25"
+      "name": "fresh mint",
+      "quantity": "25",
+      "prep": "leaves picked"
     },
     {
       "ingredient_id": 346,
@@ -69,6 +70,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the leaves from the mint.",
+      "secondary_message": "25 fresh mint"
+    },
     {
       "id": 1,
       "primary_message": "Place lemon half, and sugar into cocktail shaker. Muddle to release lemon juice and oil. Add mint leaves and muddle gently, do not grind. Add Pimm's and fill shaker with ice.",

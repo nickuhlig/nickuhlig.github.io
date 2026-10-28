@@ -52,8 +52,9 @@
   "ingredients": [
     {
       "ingredient_id": 243,
-      "name": "mint leaves",
-      "quantity": "4"
+      "name": "fresh mint",
+      "quantity": "4",
+      "prep": "leaves picked"
     },
     {
       "ingredient_id": 131,
@@ -77,6 +78,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the leaves from the mint.",
+      "secondary_message": "4 fresh mint"
+    },
     {
       "id": 1,
       "primary_message": "Add mint, white balsamic vinegar, Amaro Lucano, and salt to a cocktail shaker and fill with ice. Shake vigorously until well chilled, about 12 seconds. Double-strain into 2 Champagne flutes (you'll have about 1 1/2 ounces or 45ml of the mix in each glass).",

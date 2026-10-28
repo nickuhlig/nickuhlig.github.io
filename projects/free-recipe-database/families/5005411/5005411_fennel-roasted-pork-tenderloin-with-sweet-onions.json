@@ -31,13 +31,15 @@
   "ingredients": [
     {
       "ingredient_id": 470,
-      "name": "fennel, cut into sixths",
-      "quantity": "2 medium bulbs"
+      "name": "fennel",
+      "quantity": "2 medium bulbs",
+      "prep": "cut into sixths"
     },
     {
       "ingredient_id": 184,
-      "name": "red onions, cut into sixths",
-      "quantity": "2 medium"
+      "name": "red onions",
+      "quantity": "2 medium",
+      "prep": "cut into sixths"
     },
     {
       "ingredient_id": 47,
@@ -77,6 +79,12 @@
   ],
   "instructions": [
     {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the fennel into sixths. Cut the red onions into sixths.",
+      "secondary_message": "2 medium bulbs fennel\n2 medium red onions"
+    },
+    {
       "id": 1,
       "primary_message": "Adjust rack to middle position and place an empty 13- by 9-inch baking dish in the middle. Preheat the oven to 425°F.",
       "secondary_message": null
@@ -98,15 +106,86 @@
     }
   ],
   "nutrition": {
-    "energy": 442.0,
-    "fat": 23.0,
-    "saturated": 4.0,
-    "carbs": 19.0,
-    "fiber": 5.0,
-    "sugars": 8.0,
-    "protein": 40.0,
-    "sodium": 958.0,
-    "cholesterol": 103.0
+    "energy": 418.68,
+    "alcohol": 0.0,
+    "ash": 3.98,
+    "caffeine": 0.0,
+    "water": 337.73,
+    "carbs": 21.56,
+    "fiber": 7.85,
+    "sugars": 10.04,
+    "fat": 20.43,
+    "monounsaturated": 12.63,
+    "polyunsaturated": 2.72,
+    "omega_3": 0.14,
+    "omega_6": 2.53,
+    "saturated": 4.05,
+    "transfats": 0.06,
+    "cholesterol": 109.42,
+    "protein": 38.23,
+    "b1_thiamine": 1.72,
+    "b2_riboflavin": 0.66,
+    "b3_niacin": 12.47,
+    "b5_pantothenic_acid": 1.87,
+    "b6_pyridoxine": 1.47,
+    "b12_cobalamin": 0.88,
+    "choline": 159.27,
+    "folate": 56.77,
+    "vitamin_a": 78.96,
+    "vitamin_c": 27.52,
+    "vitamin_d": 0.51,
+    "vitamin_e": 3.23,
+    "vitamin_k": 106.39,
+    "calcium": 157.71,
+    "copper": 0.33,
+    "iron": 4.04,
+    "magnesium": 97.39,
+    "manganese": 0.7,
+    "phosphorus": 529.86,
+    "potassium": 1495.81,
+    "selenium": 52.46,
+    "sodium": 176.63,
+    "zinc": 3.76
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 9,
+    "counted": 7,
+    "partial": false,
+    "not_counted": [
+      "Kosher salt",
+      "freshly ground black pepper"
+    ],
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine"
+    ]
   },
   "schema_metadata": {
     "category": [

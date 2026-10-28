@@ -102,8 +102,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "20 tbsp"
+      "name": "unsalted butter",
+      "quantity": "20 tbsp",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1710,
@@ -132,11 +133,18 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, melted and cooled",
-      "quantity": "280 g"
+      "name": "bittersweet chocolate",
+      "quantity": "280 g",
+      "prep": "melted and cooled"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soften the unsalted butter. Melt the bittersweet chocolate and let it cool.",
+      "secondary_message": "20 tbsp unsalted butter\n280 g bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Adjust oven rack to middle position and preheat oven to 175°C (350°F). Line bottoms of two 23-cm cake pans with parchment paper and lightly coat the inside with nonstick cooking spray.",
@@ -169,15 +177,82 @@
     }
   ],
   "nutrition": {
-    "energy": 646.0,
-    "fat": 43.0,
-    "saturated": 21.0,
-    "carbs": 60.0,
-    "fiber": 5.0,
-    "sugars": 39.0,
-    "protein": 7.0,
-    "sodium": 156.0,
-    "cholesterol": 83.0
+    "energy": 611.13,
+    "ash": 1.31,
+    "caffeine": 37.4,
+    "water": 27.49,
+    "carbs": 64.14,
+    "fiber": 4.84,
+    "sugars": 45.98,
+    "fat": 39.79,
+    "monounsaturated": 10.85,
+    "polyunsaturated": 7.16,
+    "omega_3": 0.78,
+    "omega_6": 6.14,
+    "saturated": 18.89,
+    "cholesterol": 81.52,
+    "protein": 5.63,
+    "b1_thiamine": 0.13,
+    "b2_riboflavin": 0.17,
+    "b3_niacin": 1.18,
+    "b5_pantothenic_acid": 0.35,
+    "b6_pyridoxine": 0.04,
+    "b12_cobalamin": 0.17,
+    "vitamin_a": 172.05,
+    "vitamin_e": 1.59,
+    "vitamin_k": 22.45,
+    "calcium": 53.23,
+    "copper": 0.58,
+    "iron": 3.13,
+    "magnesium": 80.53,
+    "phosphorus": 156.03,
+    "potassium": 286.95,
+    "selenium": 10.65,
+    "sodium": 147.21,
+    "zinc": 1.4
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 17,
+    "counted": 17,
+    "partial": false,
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "alcohol",
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine",
+      "choline",
+      "folate",
+      "vitamin_c",
+      "vitamin_d",
+      "manganese"
+    ]
   },
   "schema_metadata": {
     "category": [

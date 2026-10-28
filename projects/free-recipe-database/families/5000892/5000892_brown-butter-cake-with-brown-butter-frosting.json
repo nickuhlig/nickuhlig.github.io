@@ -54,13 +54,14 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "5 large"
+      "name": "eggs",
+      "quantity": "5 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 116,
       "name": "all-purpose flour",
-      "quantity": "2 cups plus 2 1/2 tsp"
+      "quantity": "2 cups plus 2 ½ tsp"
     },
     {
       "ingredient_id": 88,
@@ -104,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the eggs to room temperature.",
+      "secondary_message": "5 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "First make the cake: Heat the butter in a heavy-bottomed and preferably light-colored saucepan over low heat, stirring occasionally, until melted. Continue cooking, stirring frequently, until foaming subsides and butter starts to smell nutty and milk solids are a deep golden brown, about 5 minutes.",
@@ -151,15 +158,82 @@
     }
   ],
   "nutrition": {
-    "energy": 292.0,
-    "fat": 6.0,
-    "saturated": 3.0,
-    "carbs": 53.0,
-    "fiber": 1.0,
-    "sugars": 34.0,
-    "protein": 5.0,
-    "sodium": 225.0,
-    "cholesterol": 89.0
+    "energy": 435.4,
+    "alcohol": 0.12,
+    "ash": 1.34,
+    "caffeine": 0.0,
+    "water": 34.21,
+    "carbs": 47.36,
+    "fiber": 0.56,
+    "sugars": 31.04,
+    "fat": 25.55,
+    "monounsaturated": 7.52,
+    "polyunsaturated": 1.36,
+    "omega_3": 0.12,
+    "omega_6": 1.07,
+    "saturated": 15.21,
+    "cholesterol": 139.58,
+    "protein": 5.33,
+    "alanine": 0.24,
+    "arginine": 0.28,
+    "aspartic_acid": 0.41,
+    "cystine": 0.11,
+    "glutamic_acid": 1.2,
+    "glycine": 0.18,
+    "histidine": 0.13,
+    "isoleucine": 0.25,
+    "leucine": 0.43,
+    "lysine": 0.28,
+    "methionine": 0.13,
+    "phenylalanine": 0.28,
+    "proline": 0.41,
+    "serine": 0.34,
+    "threonine": 0.2,
+    "tryptophan": 0.07,
+    "tyrosine": 0.2,
+    "valine": 0.3,
+    "b1_thiamine": 0.18,
+    "b2_riboflavin": 0.23,
+    "b3_niacin": 1.27,
+    "b5_pantothenic_acid": 0.48,
+    "b6_pyridoxine": 0.05,
+    "b12_cobalamin": 0.28,
+    "choline": 70.17,
+    "folate": 71.78,
+    "vitamin_a": 232.27,
+    "vitamin_c": 0.0,
+    "vitamin_d": 0.55,
+    "vitamin_e": 0.9,
+    "vitamin_k": 2.14,
+    "calcium": 104.13,
+    "copper": 0.05,
+    "iron": 1.47,
+    "magnesium": 9.11,
+    "manganese": 0.15,
+    "phosphorus": 174.17,
+    "potassium": 72.49,
+    "selenium": 14.3,
+    "sodium": 204.08,
+    "zinc": 0.48
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 12,
+    "counted": 12,
+    "partial": false,
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats"
+    ]
   },
   "schema_metadata": {
     "category": [

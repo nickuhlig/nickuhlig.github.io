@@ -67,18 +67,21 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, cut crosswise into 1/4-inch-thick slices",
-      "quantity": "¼ medium"
+      "name": "yellow onion",
+      "quantity": "¼ medium",
+      "prep": "cut crosswise into 1/4-inch-thick slices"
     },
     {
       "ingredient_id": 188,
-      "name": "lightly packed cilantro stems, cut into 2-inch pieces",
-      "quantity": "¼ cup"
+      "name": "lightly packed cilantro stems",
+      "quantity": "¼ cup",
+      "prep": "cut into 2-inch pieces"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, peeled",
-      "quantity": "5 medium cloves"
+      "name": "garlic",
+      "quantity": "5 medium cloves",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 1756,
@@ -128,6 +131,12 @@
   ],
   "instructions": [
     {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the yellow onion crosswise into 1/4-inch-thick slices. Cut the lightly packed cilantro stems into 2-inch pieces. Peel the garlic.",
+      "secondary_message": "¼ medium yellow onion\n¼ cup lightly packed cilantro stems\n5 medium cloves garlic"
+    },
+    {
       "id": 1,
       "primary_message": "In a medium heatproof bowl, combine chile flakes with 2 tablespoons oil. Stir with a large spoon until all the chile flakes are evenly moistened; set aside.",
       "secondary_message": null
@@ -169,15 +178,82 @@
     }
   ],
   "nutrition": {
-    "energy": 71.0,
-    "fat": 7.0,
-    "saturated": 1.0,
-    "carbs": 1.0,
-    "fiber": 0.0,
-    "sugars": 0.0,
-    "protein": 0.0,
-    "sodium": 20.0,
-    "cholesterol": 0.0
+    "energy": 103.1,
+    "alcohol": 0.0,
+    "ash": 0.23,
+    "caffeine": 0.0,
+    "water": 1.38,
+    "carbs": 1.84,
+    "fiber": 0.74,
+    "sugars": 0.38,
+    "fat": 10.92,
+    "monounsaturated": 6.64,
+    "polyunsaturated": 3.2,
+    "omega_3": 0.94,
+    "omega_6": 2.23,
+    "saturated": 0.87,
+    "cholesterol": 0.0,
+    "protein": 0.46,
+    "b1_thiamine": 0.02,
+    "b2_riboflavin": 0.02,
+    "b3_niacin": 0.23,
+    "b6_pyridoxine": 0.06,
+    "b12_cobalamin": 0.0,
+    "choline": 1.44,
+    "folate": 3.18,
+    "vitamin_a": 41.8,
+    "vitamin_c": 1.8,
+    "vitamin_d": 0.0,
+    "vitamin_e": 2.37,
+    "vitamin_k": 9.21,
+    "calcium": 14.61,
+    "copper": 0.05,
+    "iron": 0.33,
+    "magnesium": 6.93,
+    "manganese": 0.08,
+    "phosphorus": 13.1,
+    "potassium": 51.57,
+    "selenium": 0.56,
+    "sodium": 19.58,
+    "zinc": 0.13
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 14,
+    "counted": 12,
+    "partial": false,
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine",
+      "b5_pantothenic_acid"
+    ]
   },
   "schema_metadata": {
     "category": [

@@ -35,38 +35,45 @@
   "ingredients": [
     {
       "ingredient_id": 3654,
-      "name": "oregano, finely chopped",
-      "quantity": "2 sprigs"
+      "name": "oregano",
+      "quantity": "2 sprigs",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1994,
-      "name": "thyme, finely chopped",
-      "quantity": "3 sprigs"
+      "name": "thyme",
+      "quantity": "3 sprigs",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2221,
-      "name": "tarragon, finely chopped",
-      "quantity": "1 sprig"
+      "name": "tarragon",
+      "quantity": "1 sprig",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 188,
-      "name": "cilantro, finely chopped",
-      "quantity": "5 sprigs"
+      "name": "cilantro",
+      "quantity": "5 sprigs",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1808,
-      "name": "parsley, finely chopped",
-      "quantity": "3 sprigs"
+      "name": "parsley",
+      "quantity": "3 sprigs",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely chopped",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1762,
-      "name": "whole Thai chile, finely chopped",
-      "quantity": "1"
+      "name": "whole Thai chile",
+      "quantity": "1",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 47,
@@ -75,8 +82,9 @@
     },
     {
       "ingredient_id": 228,
-      "name": "lime, juiced",
-      "quantity": "1"
+      "name": "lime",
+      "quantity": "1",
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -95,8 +103,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, beaten",
-      "quantity": "8"
+      "name": "eggs",
+      "quantity": "8",
+      "prep": "beaten"
     },
     {
       "ingredient_id": 115,
@@ -115,6 +124,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the oregano leaves from the stems and finely chop them. Pick the thyme leaves from the stems and finely chop them. Pick the tarragon leaves from the stems and finely chop them. Pick the cilantro leaves from the stems and finely chop them. Pick the parsley leaves from the stems and finely chop them. Finely chop the garlic. Finely chop the whole Thai chile. Juice the lime. Beat the eggs.",
+      "secondary_message": "2 sprigs oregano\n3 sprigs thyme\n1 sprig tarragon\n5 sprigs cilantro\n3 sprigs parsley\n2 cloves garlic\n1 whole Thai chile\n1 lime\n8 eggs"
+    },
     {
       "id": 1,
       "primary_message": "For the Steak: In a large bowl, mix together oregano, thyme, tarragon, cilantro, parsley, garlic, chile, olive oil, and lime juice until all ingredients are evenly incorporated, then season to taste with salt and pepper. Or, combine all ingredients in a food processor and pulse until an even paste is formed.",
@@ -142,15 +157,88 @@
     }
   ],
   "nutrition": {
-    "energy": 594.0,
-    "fat": 41.0,
-    "saturated": 8.0,
-    "carbs": 7.0,
-    "fiber": 1.0,
-    "sugars": 1.0,
-    "protein": 47.0,
-    "sodium": 665.0,
-    "cholesterol": 488.0
+    "energy": 638.8,
+    "alcohol": 0.0,
+    "ash": 2.97,
+    "caffeine": 0.0,
+    "water": 209.04,
+    "carbs": 3.31,
+    "fiber": 0.71,
+    "sugars": 0.73,
+    "fat": 47.61,
+    "monounsaturated": 23.61,
+    "polyunsaturated": 4.28,
+    "omega_3": 0.48,
+    "omega_6": 3.69,
+    "saturated": 15.52,
+    "cholesterol": 507.21,
+    "protein": 47.46,
+    "lysine": 3.84,
+    "methionine": 1.28,
+    "tryptophan": 0.4,
+    "b1_thiamine": 0.16,
+    "b2_riboflavin": 0.64,
+    "b3_niacin": 10.36,
+    "b5_pantothenic_acid": 2.6,
+    "b6_pyridoxine": 1.15,
+    "b12_cobalamin": 2.68,
+    "choline": 440.47,
+    "folate": 70.89,
+    "vitamin_a": 199.86,
+    "vitamin_c": 8.24,
+    "vitamin_e": 3.8,
+    "vitamin_k": 32.53,
+    "calcium": 111.63,
+    "copper": 0.21,
+    "iron": 4.64,
+    "magnesium": 51.22,
+    "manganese": 0.09,
+    "phosphorus": 524.83,
+    "potassium": 723.25,
+    "selenium": 70.0,
+    "sodium": 233.6,
+    "zinc": 7.4
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 16,
+    "counted": 12,
+    "partial": false,
+    "not_counted": [
+      "Kosher salt",
+      "cracked black pepper",
+      "Kosher salt",
+      "cracked black pepper"
+    ],
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tyrosine",
+      "valine",
+      "vitamin_d"
+    ]
   },
   "schema_metadata": {
     "category": [

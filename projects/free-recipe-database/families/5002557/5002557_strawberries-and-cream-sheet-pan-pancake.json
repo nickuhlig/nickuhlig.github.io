@@ -57,8 +57,9 @@
     },
     {
       "ingredient_id": 242,
-      "name": "fresh strawberries, hulled and halved lengthwise",
-      "quantity": "1 lb"
+      "name": "fresh strawberries",
+      "quantity": "1 lb",
+      "prep": "hulled and halved lengthwise"
     },
     {
       "ingredient_id": 346,
@@ -66,9 +67,17 @@
       "quantity": "¾ cup plus 2 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -92,13 +101,15 @@
     },
     {
       "ingredient_id": 1701,
-      "name": "full-fat buttermilk, room temperature",
-      "quantity": "2 cups"
+      "name": "full-fat buttermilk",
+      "quantity": "2 cups",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, room temperature",
-      "quantity": "3 large"
+      "name": "eggs",
+      "quantity": "3 large",
+      "prep": "room temperature"
     },
     {
       "ingredient_id": 353,
@@ -107,8 +118,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "½ cup"
+      "name": "cream cheese",
+      "quantity": "½ cup",
+      "prep": "softened"
     },
     {
       "ingredient_id": 347,
@@ -122,6 +134,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Hull and halve the fresh strawberries lengthwise. Juice the lemon. Bring the full-fat buttermilk to room temperature. Bring the eggs to room temperature. Soften the cream cheese.",
+      "secondary_message": "1 lb fresh strawberries\n½ lemon\n2 cups full-fat buttermilk\n3 large eggs\n½ cup cream cheese"
+    },
     {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position. Preheat oven to 425°F. Coat an 18- by 13-inch rimmed baking sheet with cooking spray.",
@@ -164,15 +182,85 @@
     }
   ],
   "nutrition": {
-    "energy": 533.0,
-    "fat": 23.0,
-    "saturated": 14.0,
-    "carbs": 70.0,
-    "fiber": 2.0,
-    "sugars": 32.0,
-    "protein": 11.0,
-    "sodium": 619.0,
-    "cholesterol": 131.0
+    "energy": 445.14,
+    "alcohol": 0.54,
+    "ash": 2.84,
+    "caffeine": 0.0,
+    "water": 144.15,
+    "carbs": 66.94,
+    "fiber": 2.41,
+    "sugars": 28.95,
+    "fat": 14.81,
+    "monounsaturated": 3.9,
+    "polyunsaturated": 1.21,
+    "omega_3": 0.16,
+    "omega_6": 0.89,
+    "saturated": 8.19,
+    "cholesterol": 107.94,
+    "protein": 10.87,
+    "alanine": 0.42,
+    "arginine": 0.47,
+    "aspartic_acid": 0.81,
+    "cystine": 0.18,
+    "glutamic_acid": 2.72,
+    "glycine": 0.34,
+    "histidine": 0.27,
+    "isoleucine": 0.47,
+    "leucine": 0.87,
+    "lysine": 0.56,
+    "methionine": 0.25,
+    "phenylalanine": 0.55,
+    "proline": 1.0,
+    "serine": 0.62,
+    "threonine": 0.38,
+    "tryptophan": 0.14,
+    "tyrosine": 0.42,
+    "valine": 0.58,
+    "b1_thiamine": 0.42,
+    "b2_riboflavin": 0.5,
+    "b3_niacin": 3.09,
+    "b5_pantothenic_acid": 0.95,
+    "b6_pyridoxine": 0.12,
+    "b12_cobalamin": 0.5,
+    "choline": 78.62,
+    "folate": 164.17,
+    "vitamin_a": 165.15,
+    "vitamin_c": 34.17,
+    "vitamin_d": 1.41,
+    "vitamin_e": 0.7,
+    "vitamin_k": 2.41,
+    "calcium": 206.24,
+    "copper": 0.13,
+    "iron": 2.93,
+    "magnesium": 29.16,
+    "manganese": 0.55,
+    "phosphorus": 291.87,
+    "potassium": 283.58,
+    "selenium": 25.97,
+    "sodium": 552.93,
+    "zinc": 1.0
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 14,
+    "counted": 13,
+    "partial": false,
+    "not_counted": [
+      "Cooking spray"
+    ],
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats"
+    ]
   },
   "schema_metadata": {
     "category": [

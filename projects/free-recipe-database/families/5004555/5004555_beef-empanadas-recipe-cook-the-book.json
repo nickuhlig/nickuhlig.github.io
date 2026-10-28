@@ -41,13 +41,15 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, chopped",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 291,
-      "name": "green bell pepper, chopped",
-      "quantity": "1 small"
+      "name": "green bell pepper",
+      "quantity": "1 small",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1483,
@@ -61,8 +63,9 @@
     },
     {
       "ingredient_id": 1670,
-      "name": "pimento-filled green olives, sliced",
-      "quantity": "¾ cup"
+      "name": "pimento-filled green olives",
+      "quantity": "¾ cup",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 214,
@@ -91,18 +94,21 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, separated",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "separated"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "8 tbsp"
+      "name": "unsalted butter",
+      "quantity": "8 tbsp",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, at room temperature",
-      "quantity": "4 oz"
+      "name": "cream cheese",
+      "quantity": "4 oz",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1752,
@@ -121,6 +127,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the onion. Chop the green bell pepper. Slice the pimento-filled green olives. Separate the eggs. Bring the unsalted butter to room temperature. Bring the cream cheese to room temperature.",
+      "secondary_message": "1 small onion\n1 small green bell pepper\n¾ cup pimento-filled green olives\n2 large eggs\n8 tbsp unsalted butter\n4 oz cream cheese"
+    },
     {
       "id": 1,
       "primary_message": "To make the filling, heat a large skillet over medium heat, and then swirl in the olive oil. Add the onion and bell pepper. Saute until the onion is translucent, 3 to 4 minutes. Raise the heat to high and add the beef. Cook, stirring constantly, to brown, about 5 to 7 minutes. Add the cumin and cook for another minute.",
@@ -168,15 +180,82 @@
     }
   ],
   "nutrition": {
-    "energy": 381.0,
-    "fat": 24.0,
-    "saturated": 12.0,
-    "carbs": 28.0,
-    "fiber": 2.0,
-    "sugars": 9.0,
-    "protein": 14.0,
-    "sodium": 281.0,
-    "cholesterol": 110.0
+    "energy": 406.25,
+    "alcohol": 0.0,
+    "ash": 2.41,
+    "caffeine": 0.0,
+    "water": 74.72,
+    "carbs": 26.05,
+    "fiber": 1.66,
+    "sugars": 8.98,
+    "fat": 28.47,
+    "monounsaturated": 10.77,
+    "polyunsaturated": 1.4,
+    "omega_3": 0.12,
+    "omega_6": 1.12,
+    "saturated": 13.59,
+    "cholesterol": 112.01,
+    "protein": 12.62,
+    "b1_thiamine": 0.2,
+    "b2_riboflavin": 0.27,
+    "b3_niacin": 3.23,
+    "b6_pyridoxine": 0.24,
+    "b12_cobalamin": 1.11,
+    "choline": 66.81,
+    "folate": 67.31,
+    "vitamin_a": 158.95,
+    "vitamin_c": 9.29,
+    "vitamin_d": 0.34,
+    "vitamin_e": 1.25,
+    "vitamin_k": 4.37,
+    "calcium": 51.39,
+    "copper": 0.12,
+    "iron": 2.4,
+    "magnesium": 22.37,
+    "phosphorus": 146.39,
+    "potassium": 298.49,
+    "selenium": 17.71,
+    "sodium": 601.58,
+    "zinc": 2.32
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 17,
+    "counted": 17,
+    "partial": false,
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine",
+      "b5_pantothenic_acid",
+      "manganese"
+    ]
   },
   "schema_metadata": {
     "category": [

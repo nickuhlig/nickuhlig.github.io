@@ -69,8 +69,9 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion thinly sliced",
-      "quantity": "1 large"
+      "name": "red onion",
+      "quantity": "1 large",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 88,
@@ -119,6 +120,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the red onion.",
+      "secondary_message": "1 large red onion"
+    },
     {
       "id": 1,
       "primary_message": "For the Yorkshire Pudding Batter: In a medium mixing bowl, whisk together eggs, flour, milk, water, and salt until well blended and smooth. (A few lumps are OK.) Let batter rest for 30 minutes at room temperature or up to 3 days in the refrigerator. (For best results, let batter rest for at least 24 hours.)",

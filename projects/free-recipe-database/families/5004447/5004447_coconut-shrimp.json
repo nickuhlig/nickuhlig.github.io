@@ -38,7 +38,7 @@
   "ingredients": [
     {
       "ingredient_id": 1811,
-      "name": "jumbo shrimp, peeled and deveined",
+      "name": "raw peeled jumbo shrimp, fresh or frozen",
       "quantity": "24"
     },
     {
@@ -68,8 +68,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, grated on a microplane",
-      "quantity": "2 cloves"
+      "name": "garlic",
+      "quantity": "2 cloves",
+      "prep": "grated on a microplane"
     },
     {
       "ingredient_id": 85,
@@ -109,6 +110,12 @@
   ],
   "instructions": [
     {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Grate the garlic on a microplane.",
+      "secondary_message": "2 cloves garlic"
+    },
+    {
       "id": 1,
       "primary_message": "Season shrimp with salt and set aside. Mix coconut and panko in a large mixing bowl and whisk to combine. Mix eggs and 2 tablespoons flour in a large mixing bowl and whisk until homogenous. Place remaining flour in a large mixing bowl.",
       "secondary_message": null
@@ -135,15 +142,85 @@
     }
   ],
   "nutrition": {
-    "energy": 448.0,
-    "fat": 25.0,
-    "saturated": 8.0,
-    "carbs": 31.0,
-    "fiber": 2.0,
-    "sugars": 18.0,
-    "protein": 24.0,
-    "sodium": 1298.0,
-    "cholesterol": 221.0
+    "energy": 516.75,
+    "water": 88.62,
+    "carbs": 39.85,
+    "fiber": 3.6,
+    "sugars": 17.54,
+    "fat": 34.71,
+    "monounsaturated": 16.0,
+    "polyunsaturated": 7.41,
+    "omega_3": 2.21,
+    "omega_6": 5.08,
+    "saturated": 10.12,
+    "cholesterol": 126.4,
+    "protein": 14.2,
+    "calcium": 63.54,
+    "copper": 0.34,
+    "iron": 2.27,
+    "magnesium": 42.93,
+    "manganese": 0.67,
+    "phosphorus": 183.08,
+    "potassium": 276.61,
+    "sodium": 380.41,
+    "zinc": 1.32
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 14,
+    "counted": 13,
+    "partial": false,
+    "not_counted": [
+      "Kosher salt"
+    ],
+    "estimated_share": 0.199,
+    "omitted_fields": [
+      "alcohol",
+      "ash",
+      "caffeine",
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine",
+      "b1_thiamine",
+      "b2_riboflavin",
+      "b3_niacin",
+      "b5_pantothenic_acid",
+      "b6_pyridoxine",
+      "b12_cobalamin",
+      "choline",
+      "folate",
+      "vitamin_a",
+      "vitamin_c",
+      "vitamin_d",
+      "vitamin_e",
+      "vitamin_k",
+      "selenium"
+    ]
   },
   "schema_metadata": {
     "category": [

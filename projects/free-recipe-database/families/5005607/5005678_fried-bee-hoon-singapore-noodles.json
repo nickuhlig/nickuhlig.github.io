@@ -75,33 +75,38 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, peeled and finely sliced",
-      "quantity": "4 medium"
+      "name": "shallots",
+      "quantity": "4 medium",
+      "prep": "peeled and finely sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic sliced thinly",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1929,
-      "name": "shiitake mushrooms, sliced",
-      "quantity": "85 g"
+      "name": "shiitake mushrooms",
+      "quantity": "85 g",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 285,
-      "name": "baby bok choy leaves",
-      "quantity": "113 g"
+      "name": "baby bok choy, leaves only",
+      "quantity": "1 ¼",
+      "weigh_as": "113 g"
     },
     {
       "ingredient_id": 1811,
-      "name": "raw shrimp, medium, peeled, deveined, tail left on",
+      "name": "raw peeled medium shrimp, fresh or frozen, tail on",
       "quantity": "226 g"
     },
     {
       "ingredient_id": 1827,
-      "name": "dried rice vermicelli, soaked in hot water for 15 minutes",
-      "quantity": "145 g"
+      "name": "dried rice vermicelli",
+      "quantity": "145 g",
+      "prep": "soaked in hot water for 15 minutes"
     },
     {
       "ingredient_id": 1086,
@@ -115,6 +120,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and finely slice the shallots. Thinly slice the garlic. Slice the shiitake mushrooms. Soak the dried rice vermicelli in hot water for 15 minutes.",
+      "secondary_message": "4 medium shallots\n4 medium cloves garlic\n85 g shiitake mushrooms\n145 g dried rice vermicelli"
+    },
     {
       "id": 1,
       "primary_message": "Place sliced chiles in a small bowl. Pour boiling water over to cover. Let sit for 10 minutes, then drain. Add vinegar, 1 teaspoon soy sauce, sugar, and 1/2 teaspoon salt and stir to combine and sugar has dissolved. Chill for at least 30 minutes. For best results, refrigerate overnight. Chiles can be stored in an airtight container in the refrigerator for up to 1 month.",
@@ -137,15 +148,85 @@
     }
   ],
   "nutrition": {
-    "energy": 365.0,
-    "fat": 22.0,
-    "saturated": 3.0,
-    "carbs": 25.0,
-    "fiber": 3.0,
-    "sugars": 7.0,
-    "protein": 18.0,
-    "sodium": 1396.0,
-    "cholesterol": 120.0
+    "energy": 418.08,
+    "water": 312.07,
+    "carbs": 41.61,
+    "fiber": 3.44,
+    "sugars": 6.42,
+    "fat": 21.22,
+    "protein": 16.77,
+    "calcium": 102.64,
+    "copper": 0.4,
+    "iron": 1.8,
+    "magnesium": 53.83,
+    "phosphorus": 260.88,
+    "potassium": 532.2,
+    "sodium": 237.96,
+    "zinc": 1.66
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 15,
+    "counted": 14,
+    "partial": false,
+    "not_counted": [
+      "Kosher salt"
+    ],
+    "estimated_share": 0.076,
+    "omitted_fields": [
+      "alcohol",
+      "ash",
+      "caffeine",
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "monounsaturated",
+      "polyunsaturated",
+      "omega_3",
+      "omega_6",
+      "saturated",
+      "transfats",
+      "cholesterol",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine",
+      "b1_thiamine",
+      "b2_riboflavin",
+      "b3_niacin",
+      "b5_pantothenic_acid",
+      "b6_pyridoxine",
+      "b12_cobalamin",
+      "choline",
+      "folate",
+      "vitamin_a",
+      "vitamin_c",
+      "vitamin_d",
+      "vitamin_e",
+      "vitamin_k",
+      "manganese",
+      "selenium"
+    ]
   },
   "schema_metadata": {
     "category": [

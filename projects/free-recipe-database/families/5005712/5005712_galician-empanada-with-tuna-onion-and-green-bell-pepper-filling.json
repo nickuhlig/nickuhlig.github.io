@@ -67,23 +67,27 @@
     },
     {
       "ingredient_id": 291,
-      "name": "diced green bell pepper",
-      "quantity": "4 cups (1 inch)"
+      "name": "green bell pepper",
+      "quantity": "4 cups (1 inch)",
+      "prep": "diced"
     },
     {
       "ingredient_id": 152,
-      "name": "diced yellow onion",
-      "quantity": "4 cups (1 inch)"
+      "name": "yellow onion",
+      "quantity": "4 cups (1 inch)",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "15 medium cloves"
+      "name": "garlic",
+      "quantity": "15 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2654,
-      "name": "oil-packed bonito tuna, such as Ortiz, drained",
-      "quantity": "2 (8 ½ oz) cans"
+      "name": "oil-packed bonito tuna, such as Ortiz",
+      "quantity": "2 (8 ½ oz) cans",
+      "prep": "drained"
     },
     {
       "ingredient_id": 88,
@@ -97,6 +101,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the green bell pepper. Dice the yellow onion. Thinly slice the garlic. Drain the oil-packed bonito tuna.",
+      "secondary_message": "4 cups (1 inch) green bell pepper\n4 cups (1 inch) yellow onion\n15 medium cloves garlic\n2 (8 ½ oz) cans oil-packed bonito tuna, such as Ortiz"
+    },
     {
       "id": 1,
       "primary_message": "For the Dough: In a large bowl, mix together flour, salt, and yeast. Add water and olive oil and mix until fully incorporated. Continue mixing and kneading until a smooth, elastic dough forms, about 5 minutes. Grease a medium bowl with olive oil. Stretch dough ball by tucking it under itself to form a taut, smooth ball. Drizzle with olive oil, rub to coat, and transfer to greased bowl. Cover with plastic and set aside in a warm place until doubled in size, about 2 hours.",
@@ -134,15 +144,85 @@
     }
   ],
   "nutrition": {
-    "energy": 306.0,
-    "fat": 9.0,
-    "saturated": 1.0,
-    "carbs": 37.0,
-    "fiber": 2.0,
-    "sugars": 4.0,
-    "protein": 19.0,
-    "sodium": 249.0,
-    "cholesterol": 23.0
+    "energy": 305.98,
+    "alcohol": 0.0,
+    "ash": 2.05,
+    "caffeine": 0.0,
+    "water": 159.92,
+    "carbs": 37.98,
+    "fiber": 3.28,
+    "sugars": 4.29,
+    "fat": 11.05,
+    "monounsaturated": 6.82,
+    "polyunsaturated": 1.9,
+    "omega_3": 0.14,
+    "omega_6": 1.76,
+    "saturated": 1.69,
+    "cholesterol": 5.21,
+    "protein": 13.82,
+    "alanine": 0.68,
+    "arginine": 0.77,
+    "aspartic_acid": 1.24,
+    "cystine": 0.18,
+    "glutamic_acid": 2.86,
+    "glycine": 0.59,
+    "histidine": 0.35,
+    "isoleucine": 0.56,
+    "leucine": 1.0,
+    "lysine": 0.93,
+    "methionine": 0.33,
+    "phenylalanine": 0.6,
+    "proline": 0.76,
+    "serine": 0.59,
+    "threonine": 0.52,
+    "tryptophan": 0.16,
+    "tyrosine": 0.42,
+    "valine": 0.64,
+    "b1_thiamine": 0.41,
+    "b2_riboflavin": 0.27,
+    "b3_niacin": 6.27,
+    "b5_pantothenic_acid": 0.48,
+    "b6_pyridoxine": 0.32,
+    "b12_cobalamin": 0.64,
+    "choline": 20.61,
+    "folate": 134.26,
+    "vitamin_a": 17.38,
+    "vitamin_c": 54.06,
+    "vitamin_d": 1.94,
+    "vitamin_e": 1.67,
+    "vitamin_k": 22.45,
+    "calcium": 39.01,
+    "copper": 0.15,
+    "iron": 2.55,
+    "magnesium": 30.85,
+    "manganese": 0.48,
+    "phosphorus": 168.9,
+    "potassium": 318.27,
+    "selenium": 35.23,
+    "sodium": 317.33,
+    "zinc": 0.79
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 12,
+    "counted": 11,
+    "partial": false,
+    "not_counted": [
+      "freshly ground black pepper"
+    ],
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats"
+    ]
   },
   "schema_metadata": {
     "category": [

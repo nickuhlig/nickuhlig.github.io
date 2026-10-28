@@ -82,8 +82,9 @@
     },
     {
       "ingredient_id": 56,
-      "name": "extra-firm tofu, cut into 3/4-inch cubes, carefully dried",
-      "quantity": "0.45 kg"
+      "name": "extra-firm tofu, carefully dried",
+      "quantity": "0.45 kg",
+      "prep": "cut into 3/4-inch cubes"
     },
     {
       "ingredient_id": 359,
@@ -122,8 +123,9 @@
     },
     {
       "ingredient_id": 221,
-      "name": "minced fresh ginger",
-      "quantity": "1 tbsp"
+      "name": "ginger root",
+      "quantity": "1 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1837,
@@ -158,6 +160,12 @@
   ],
   "instructions": [
     {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the extra-firm tofu into 3/4-inch cubes. Mince the ginger.",
+      "secondary_message": "0.45 kg extra-firm tofu, carefully dried\n1 tbsp ginger root"
+    },
+    {
       "id": 1,
       "primary_message": "Heat oil in a wok to 177°C. Whisk together 1/2 cup cornstarch, flour, baking powder, and 1 teaspoon kosher salt. Add water and vodka and whisk until a smooth batter is formed, adding up to 2 tablespoons additional water if batter is too thick. It should have the consistency of thin paint and fall off of the whisk in thin ribbons that instantly disappear as they hit the surface of the batter in the bowl.",
       "secondary_message": null
@@ -184,15 +192,85 @@
     }
   ],
   "nutrition": {
-    "energy": 541.0,
-    "fat": 34.0,
-    "saturated": 6.0,
-    "carbs": 45.0,
-    "fiber": 8.0,
-    "sugars": 7.0,
-    "protein": 20.0,
-    "sodium": 695.0,
-    "cholesterol": 1.0
+    "energy": 743.51,
+    "alcohol": 9.29,
+    "ash": 4.03,
+    "water": 221.82,
+    "carbs": 45.24,
+    "fiber": 4.97,
+    "sugars": 6.39,
+    "fat": 49.22,
+    "monounsaturated": 13.74,
+    "polyunsaturated": 23.74,
+    "omega_3": 2.47,
+    "omega_6": 21.03,
+    "saturated": 7.51,
+    "cholesterol": 0.0,
+    "protein": 19.7,
+    "alanine": 0.79,
+    "arginine": 1.57,
+    "aspartic_acid": 2.09,
+    "glutamic_acid": 3.85,
+    "glycine": 0.86,
+    "histidine": 0.46,
+    "isoleucine": 0.82,
+    "leucine": 1.4,
+    "lysine": 0.84,
+    "methionine": 0.24,
+    "phenylalanine": 0.91,
+    "proline": 1.16,
+    "serine": 1.03,
+    "threonine": 0.76,
+    "tryptophan": 0.23,
+    "tyrosine": 0.72,
+    "valine": 0.88,
+    "b1_thiamine": 0.25,
+    "b2_riboflavin": 0.24,
+    "b3_niacin": 4.4,
+    "b5_pantothenic_acid": 1.35,
+    "b6_pyridoxine": 0.33,
+    "b12_cobalamin": 0.0,
+    "folate": 109.62,
+    "vitamin_c": 11.36,
+    "calcium": 448.76,
+    "copper": 0.42,
+    "iron": 4.85,
+    "magnesium": 98.75,
+    "phosphorus": 309.22,
+    "potassium": 535.74,
+    "selenium": 23.24,
+    "sodium": 481.29,
+    "zinc": 2.06
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 22,
+    "counted": 21,
+    "partial": false,
+    "not_counted": [
+      "Kosher salt"
+    ],
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "caffeine",
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "cystine",
+      "choline",
+      "vitamin_a",
+      "vitamin_d",
+      "vitamin_e",
+      "vitamin_k",
+      "manganese"
+    ]
   },
   "schema_metadata": {
     "category": [

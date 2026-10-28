@@ -75,8 +75,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, minced",
-      "quantity": "1 small"
+      "name": "onion",
+      "quantity": "1 small",
+      "prep": "minced"
     },
     {
       "ingredient_id": 2475,
@@ -85,8 +86,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "1 tbsp (½ oz)"
+      "name": "unsalted butter",
+      "quantity": "1 tbsp (½ oz)",
+      "prep": "melted"
     },
     {
       "ingredient_id": 448,
@@ -124,9 +126,17 @@
       "quantity": "1 tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 448,
@@ -135,11 +145,18 @@
     },
     {
       "ingredient_id": 153,
-      "name": "chopped scallions",
-      "quantity": "1 tbsp"
+      "name": "scallions",
+      "quantity": "1 tbsp",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mince the onion. Melt the unsalted butter. Juice the lemon. Chop the scallions.",
+      "secondary_message": "1 small onion\n1 tbsp (½ oz) unsalted butter\n½ lemon\n1 tbsp scallions"
+    },
     {
       "id": 1,
       "primary_message": "Make Remoulade sauce: Stir all ingredients in a bowl until combined. Season to taste and set aside.",
@@ -157,15 +174,82 @@
     }
   ],
   "nutrition": {
-    "energy": 599.0,
-    "fat": 44.0,
-    "saturated": 7.0,
-    "carbs": 47.0,
-    "fiber": 3.0,
-    "sugars": 8.0,
-    "protein": 6.0,
-    "sodium": 1154.0,
-    "cholesterol": 21.0
+    "energy": 653.69,
+    "alcohol": 0.0,
+    "ash": 4.46,
+    "caffeine": 0.0,
+    "water": 63.52,
+    "carbs": 51.53,
+    "fiber": 2.41,
+    "sugars": 7.39,
+    "fat": 47.37,
+    "monounsaturated": 10.89,
+    "polyunsaturated": 25.81,
+    "omega_3": 2.98,
+    "omega_6": 22.55,
+    "saturated": 8.79,
+    "cholesterol": 20.45,
+    "protein": 6.03,
+    "alanine": 0.33,
+    "arginine": 0.23,
+    "aspartic_acid": 0.39,
+    "cystine": 0.11,
+    "glutamic_acid": 1.45,
+    "glycine": 0.18,
+    "histidine": 0.15,
+    "isoleucine": 0.23,
+    "leucine": 0.64,
+    "lysine": 0.2,
+    "methionine": 0.13,
+    "phenylalanine": 0.3,
+    "proline": 0.6,
+    "serine": 0.31,
+    "threonine": 0.18,
+    "tryptophan": 0.06,
+    "tyrosine": 0.19,
+    "valine": 0.29,
+    "b1_thiamine": 0.37,
+    "b2_riboflavin": 0.29,
+    "b3_niacin": 2.96,
+    "b5_pantothenic_acid": 0.33,
+    "b6_pyridoxine": 0.12,
+    "b12_cobalamin": 0.11,
+    "choline": 22.22,
+    "folate": 185.11,
+    "vitamin_a": 42.59,
+    "vitamin_c": 4.96,
+    "vitamin_e": 2.99,
+    "vitamin_k": 90.22,
+    "calcium": 219.87,
+    "copper": 0.08,
+    "iron": 2.97,
+    "magnesium": 24.01,
+    "phosphorus": 326.64,
+    "potassium": 178.06,
+    "selenium": 11.29,
+    "sodium": 1032.3,
+    "zinc": 0.6
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 19,
+    "counted": 19,
+    "partial": false,
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "vitamin_d",
+      "manganese"
+    ]
   },
   "schema_metadata": {
     "category": [

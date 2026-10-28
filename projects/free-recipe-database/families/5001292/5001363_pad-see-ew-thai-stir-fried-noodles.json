@@ -16,8 +16,7 @@
   "rating_count": 3,
   "allowed_type_ids": [
     1,
-    3,
-    7
+    3
   ],
   "violated_restriction_ids": [
     1,
@@ -147,8 +146,9 @@
     },
     {
       "ingredient_id": 2180,
-      "name": "Chinese broccoli, sliced on a bias into 1-inch pieces",
-      "quantity": "240 g"
+      "name": "Chinese broccoli",
+      "quantity": "240 g",
+      "prep": "sliced on a bias into 1-inch pieces"
     },
     {
       "ingredient_id": 1682,
@@ -157,8 +157,9 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, smashed and roughly chopped, divided",
-      "quantity": "10 cloves"
+      "name": "garlic, divided",
+      "quantity": "10 cloves",
+      "prep": "smashed and roughly chopped"
     },
     {
       "ingredient_id": 121,
@@ -167,6 +168,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the Chinese broccoli on a bias into 1-inch pieces. Smash and roughly chop the garlic.",
+      "secondary_message": "240 g Chinese broccoli\n10 cloves garlic, divided"
+    },
     {
       "id": 1,
       "primary_message": "For the Chile Vinegar: In a small saucepan, bring vinegar and salt to a boil over high heat. Remove from heat and add chiles. Let steep for at least 30 minutes or up to 1 day (vinegar will be best after 1 day). Store in an airtight container.",
@@ -229,15 +236,85 @@
     }
   ],
   "nutrition": {
-    "energy": 540.0,
-    "fat": 36.0,
-    "saturated": 6.0,
-    "carbs": 29.0,
-    "fiber": 5.0,
-    "sugars": 5.0,
-    "protein": 25.0,
-    "sodium": 1246.0,
-    "cholesterol": 237.0
+    "energy": 640.77,
+    "alcohol": 0.0,
+    "ash": 5.45,
+    "caffeine": 0.0,
+    "water": 332.45,
+    "carbs": 51.64,
+    "fiber": 3.53,
+    "sugars": 9.39,
+    "fat": 37.28,
+    "monounsaturated": 19.73,
+    "polyunsaturated": 8.55,
+    "omega_3": 2.15,
+    "omega_6": 6.22,
+    "saturated": 6.88,
+    "cholesterol": 226.26,
+    "protein": 21.68,
+    "b1_thiamine": 0.58,
+    "b2_riboflavin": 0.55,
+    "b3_niacin": 3.69,
+    "b6_pyridoxine": 0.51,
+    "b12_cobalamin": 0.93,
+    "choline": 205.55,
+    "folate": 98.77,
+    "vitamin_a": 138.71,
+    "vitamin_c": 37.87,
+    "vitamin_d": 1.96,
+    "vitamin_e": 4.62,
+    "vitamin_k": 70.23,
+    "calcium": 139.26,
+    "copper": 0.25,
+    "iron": 3.14,
+    "magnesium": 51.94,
+    "phosphorus": 303.87,
+    "potassium": 564.02,
+    "selenium": 40.12,
+    "sodium": 1798.7,
+    "zinc": 3.06
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 25,
+    "counted": 25,
+    "partial": false,
+    "stand_ins": [
+      "fresh rice noodle sheets"
+    ],
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine",
+      "b5_pantothenic_acid",
+      "manganese"
+    ]
   },
   "schema_metadata": {
     "category": [

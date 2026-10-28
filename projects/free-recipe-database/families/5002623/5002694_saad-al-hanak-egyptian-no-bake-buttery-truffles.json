@@ -51,8 +51,9 @@
     },
     {
       "ingredient_id": 1866,
-      "name": "green cardamom pods, lightly crushed",
-      "quantity": "3"
+      "name": "green cardamom pods",
+      "quantity": "3",
+      "prep": "lightly crushed"
     },
     {
       "ingredient_id": 1757,
@@ -81,16 +82,24 @@
     },
     {
       "ingredient_id": 2365,
-      "name": "Finely chopped pistachios",
-      "quantity": ""
+      "name": "Pistachios",
+      "quantity": "",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1692,
-      "name": "Sliced apples, sliced pears, or fruit skewers",
-      "quantity": ""
+      "name": "Apples, or fruit skewers",
+      "quantity": "",
+      "prep": "sliced, sliced pears"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly crush the green cardamom pods. Finely chop the pistachios. Slice and slice the Apples pears.",
+      "secondary_message": "3 green cardamom pods\nPistachios\nApples, or fruit skewers"
+    },
     {
       "id": 1,
       "primary_message": "For the Syrup: In a medium saucepan, combine sugar, water, cardamom, and cloves. Bring to a boil over medium-high heat, stirring occasionally to dissolve the sugar. Once sugar is dissolved, reduce heat to medium-low to maintain a gentle simmer and cook for 3 minutes. Remove from heat, stir in orange blossom water, and set aside for at least 10 minutes to cool slightly. Strain syrup through a fine-mesh strainer into a heatproof liquid measuring cup; discard cardamom and cloves.",
@@ -118,15 +127,86 @@
     }
   ],
   "nutrition": {
-    "energy": 275.0,
-    "fat": 11.0,
-    "saturated": 7.0,
-    "carbs": 44.0,
-    "fiber": 0.0,
-    "sugars": 33.0,
-    "protein": 2.0,
-    "sodium": 56.0,
-    "cholesterol": 27.0
+    "energy": 254.49,
+    "alcohol": 0.0,
+    "ash": 0.22,
+    "caffeine": 0.0,
+    "water": 31.26,
+    "carbs": 43.97,
+    "fiber": 0.39,
+    "sugars": 33.3,
+    "fat": 8.63,
+    "monounsaturated": 2.46,
+    "polyunsaturated": 0.37,
+    "omega_3": 0.13,
+    "omega_6": 0.25,
+    "saturated": 5.31,
+    "cholesterol": 21.85,
+    "protein": 1.47,
+    "alanine": 0.05,
+    "arginine": 0.06,
+    "aspartic_acid": 0.06,
+    "cystine": 0.03,
+    "glutamic_acid": 0.49,
+    "glycine": 0.05,
+    "histidine": 0.03,
+    "isoleucine": 0.05,
+    "leucine": 0.1,
+    "lysine": 0.03,
+    "methionine": 0.03,
+    "phenylalanine": 0.07,
+    "proline": 0.17,
+    "serine": 0.07,
+    "threonine": 0.04,
+    "tryptophan": 0.02,
+    "tyrosine": 0.04,
+    "valine": 0.06,
+    "b1_thiamine": 0.11,
+    "b2_riboflavin": 0.08,
+    "b3_niacin": 0.82,
+    "b5_pantothenic_acid": 0.06,
+    "b6_pyridoxine": 0.01,
+    "b12_cobalamin": 0.0,
+    "choline": 3.35,
+    "folate": 40.4,
+    "vitamin_a": 71.68,
+    "vitamin_c": 0.01,
+    "vitamin_d": 0.0,
+    "vitamin_e": 0.25,
+    "vitamin_k": 0.78,
+    "calcium": 3.93,
+    "copper": 0.03,
+    "iron": 0.67,
+    "magnesium": 3.5,
+    "manganese": 0.11,
+    "phosphorus": 15.37,
+    "potassium": 16.7,
+    "selenium": 4.91,
+    "sodium": 47.2,
+    "zinc": 0.11
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 10,
+    "counted": 7,
+    "partial": false,
+    "not_counted": [
+      "Pistachios, finely chopped",
+      "Apples, or fruit skewers, sliced, sliced pears"
+    ],
+    "estimated_share": 0.009,
+    "omitted_fields": [
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats"
+    ]
   },
   "schema_metadata": {
     "category": [

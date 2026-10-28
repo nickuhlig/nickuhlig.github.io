@@ -53,7 +53,7 @@
     {
       "ingredient_id": 2380,
       "name": "easy pie dough",
-      "quantity": "½ recipe"
+      "quantity": ""
     },
     {
       "ingredient_id": 359,
@@ -61,9 +61,17 @@
       "quantity": "1 ¾ cups plus 1 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "freshly squeezed lemon juice",
-      "quantity": "½ cup plus 1 tsp"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "3",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "½ cup plus 1 tsp",
+          "name": "freshly squeezed lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2346,
@@ -92,8 +100,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into 1/2-inch pieces",
-      "quantity": "3 tbsp"
+      "name": "cold unsalted butter",
+      "quantity": "3 tbsp",
+      "prep": "cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 3642,
@@ -122,6 +131,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemons. Cut the cold unsalted butter into 1/2-inch pieces.",
+      "secondary_message": "3 lemons\n3 tbsp cold unsalted butter"
+    },
     {
       "id": 1,
       "primary_message": "For the Crust: Adjust oven racks to upper middle position (about 8-inches from broiler) and lowest position and preheat the oven to 425°F. Lightly prick chilled pie shell all over bottom in 1/2-inch intervals. Line pie shell with a double layer of 14-inch square of parchment paper or aluminum foil, covering edges to prevent burning. Fill with sugar, pie weights, or dried beans.",
@@ -164,15 +179,82 @@
     }
   ],
   "nutrition": {
-    "energy": 366.0,
-    "fat": 14.0,
-    "saturated": 6.0,
-    "carbs": 56.0,
-    "fiber": 1.0,
-    "sugars": 35.0,
-    "protein": 6.0,
-    "sodium": 258.0,
-    "cholesterol": 102.0
+    "energy": 382.45,
+    "alcohol": 0.07,
+    "ash": 0.75,
+    "caffeine": 0.0,
+    "water": 77.85,
+    "carbs": 54.27,
+    "fiber": 0.56,
+    "sugars": 36.71,
+    "fructose": 0.15,
+    "galactose": 0.01,
+    "glucose": 0.18,
+    "lactose": 0.01,
+    "maltose": 0.01,
+    "sucrose": 36.24,
+    "fat": 16.98,
+    "monounsaturated": 5.13,
+    "polyunsaturated": 0.91,
+    "omega_3": 0.08,
+    "omega_6": 0.74,
+    "saturated": 9.99,
+    "cholesterol": 113.41,
+    "protein": 4.51,
+    "b1_thiamine": 0.15,
+    "b2_riboflavin": 0.19,
+    "b3_niacin": 1.05,
+    "b5_pantothenic_acid": 0.34,
+    "b6_pyridoxine": 0.04,
+    "b12_cobalamin": 0.18,
+    "choline": 61.83,
+    "folate": 63.49,
+    "vitamin_a": 152.0,
+    "vitamin_c": 4.98,
+    "vitamin_d": 0.37,
+    "vitamin_e": 0.63,
+    "vitamin_k": 1.39,
+    "calcium": 19.63,
+    "copper": 0.04,
+    "iron": 1.05,
+    "magnesium": 7.31,
+    "manganese": 0.13,
+    "phosphorus": 53.02,
+    "potassium": 69.12,
+    "selenium": 12.8,
+    "sodium": 173.67,
+    "zinc": 0.32
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 14,
+    "counted": 14,
+    "partial": false,
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "starch",
+      "sugar_alcohol",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine"
+    ]
   },
   "schema_metadata": {
     "category": [

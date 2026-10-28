@@ -33,8 +33,9 @@
   "ingredients": [
     {
       "ingredient_id": 243,
-      "name": "fresh mint leaves",
-      "quantity": "1 ½ cups"
+      "name": "fresh mint",
+      "quantity": "1 ½ cups",
+      "prep": "leaves picked"
     },
     {
       "ingredient_id": 2315,
@@ -53,6 +54,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the leaves from the mint.",
+      "secondary_message": "1 ½ cups fresh mint"
+    },
     {
       "id": 1,
       "primary_message": "Measure out 1 cup of mint leaves and tear them in quarters. Place mint leaves in a sealable glass jar and pour vodka on top. Shake and let steep for 12 hours.",

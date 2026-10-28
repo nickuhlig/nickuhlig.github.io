@@ -58,8 +58,9 @@
     },
     {
       "ingredient_id": 2157,
-      "name": "center-cut trimmed beef tenderloin",
-      "quantity": "1"
+      "name": "center-cut beef tenderloin",
+      "quantity": "1",
+      "prep": "trimmed"
     },
     {
       "ingredient_id": 3069,
@@ -68,6 +69,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the beef tenderloin.",
+      "secondary_message": "1 center-cut beef tenderloin"
+    },
     {
       "id": 1,
       "primary_message": "Dip a clean dish towel in a bowl of cold water or run it briefly under a cold tap, then wring it thoroughly so it is just slightly damp. Lay it on your work surface, with the short edge parallel to the counter edge. Spread a layer of salt at least 1/2 inch thick on the towel, starting about 1 inch up from the leading edge and progressing back about 12 inches, leaving a 2-inch space on either side. Scatter with herbs and place beef directly on the salt on the edge closest to you.",

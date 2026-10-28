@@ -38,18 +38,20 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "1 tbsp plus 1/2 cup"
+      "name": "unsalted butter",
+      "quantity": "1 tbsp plus ½ cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 286,
-      "name": "finely minced fresh rosemary leaves",
-      "quantity": "2 tsp plus 4 tsp"
+      "name": "fresh rosemary leaves",
+      "quantity": "2 tsp plus 4 tsp",
+      "prep": "finely minced"
     },
     {
       "ingredient_id": 289,
       "name": "polenta",
-      "quantity": "2 tbsp plus 3/4 cup"
+      "quantity": "2 tbsp plus ¾ cup"
     },
     {
       "ingredient_id": 116,
@@ -73,8 +75,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "5 large"
+      "name": "eggs",
+      "quantity": "5 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 3641,
@@ -93,6 +96,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature. Pick the rosemary leaves from the stems and finely mince them. Bring the eggs to room temperature.",
+      "secondary_message": "1 tbsp plus ½ cup unsalted butter\n2 tsp plus 4 tsp fresh rosemary leaves\n5 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Preheat the oven to 175°C (350°F).",
@@ -125,15 +134,82 @@
     }
   ],
   "nutrition": {
-    "energy": 379.0,
-    "fat": 22.0,
-    "saturated": 8.0,
-    "carbs": 40.0,
-    "fiber": 1.0,
-    "sugars": 22.0,
-    "protein": 6.0,
-    "sodium": 359.0,
-    "cholesterol": 149.0
+    "energy": 257.86,
+    "alcohol": 0.06,
+    "ash": 1.39,
+    "caffeine": 0.0,
+    "water": 19.18,
+    "carbs": 31.92,
+    "fiber": 0.36,
+    "sugars": 22.33,
+    "fat": 12.83,
+    "monounsaturated": 7.95,
+    "polyunsaturated": 1.56,
+    "omega_3": 0.1,
+    "omega_6": 1.43,
+    "saturated": 2.78,
+    "cholesterol": 110.79,
+    "protein": 4.27,
+    "alanine": 0.22,
+    "arginine": 0.25,
+    "aspartic_acid": 0.37,
+    "cystine": 0.09,
+    "glutamic_acid": 0.79,
+    "glycine": 0.15,
+    "histidine": 0.1,
+    "isoleucine": 0.21,
+    "leucine": 0.36,
+    "lysine": 0.25,
+    "methionine": 0.11,
+    "phenylalanine": 0.22,
+    "proline": 0.26,
+    "serine": 0.3,
+    "threonine": 0.17,
+    "tryptophan": 0.05,
+    "tyrosine": 0.16,
+    "valine": 0.26,
+    "b1_thiamine": 0.1,
+    "b2_riboflavin": 0.17,
+    "b3_niacin": 0.71,
+    "b5_pantothenic_acid": 0.46,
+    "b6_pyridoxine": 0.05,
+    "b12_cobalamin": 0.24,
+    "choline": 85.92,
+    "folate": 49.85,
+    "vitamin_a": 52.54,
+    "vitamin_c": 0.02,
+    "vitamin_d": 0.57,
+    "vitamin_e": 1.62,
+    "vitamin_k": 5.61,
+    "calcium": 74.4,
+    "copper": 0.04,
+    "iron": 1.15,
+    "magnesium": 5.87,
+    "manganese": 0.08,
+    "phosphorus": 141.55,
+    "potassium": 46.81,
+    "selenium": 11.83,
+    "sodium": 289.36,
+    "zinc": 0.42
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 11,
+    "counted": 11,
+    "partial": false,
+    "estimated_share": 0.003,
+    "omitted_fields": [
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats"
+    ]
   },
   "schema_metadata": {
     "category": [

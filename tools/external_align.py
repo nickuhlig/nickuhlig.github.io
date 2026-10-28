@@ -374,10 +374,17 @@ def parse_line(raw: str) -> Line:
         tokens = TOKEN_RE.findall(s)
         i = 0
     else:
-        minus = re.match(rf"^({NUM}\s+(?:{PROSE_UNIT}))\s+((?:minus|plus)\s+{NUM}\s+(?:{PROSE_UNIT}))\b", s, re.I)    # "1/4 cup minus 1 teaspoon (55 g) milk", "1 cup plus 2 tablespoons flour"
-        if minus:
-            s = s[:minus.start(2)] + s[minus.end(2):]
-            line.extra = re.sub(r"\s+", " ", localize_units_short(minus.group(2)))
+        extras = []                                         # "1/4 cup minus 1 teaspoon (55 g) milk", "¾ cup (5 ¼ ounces) plus 1 tablespoon sugar",
+        while True:                                         # "1/2 cup plus 3 tablespoons plus 1 teaspoon flour": every part is kept
+            minus = re.match(rf"^{NUM}\s+(?:{PROSE_UNIT})(?:\s*\([^()]*\))?\s+(?P<extra>(?P<op>minus|plus)\s+(?P<n>{NUM})\s+(?P<u>{PROSE_UNIT}))\b", s, re.I)
+            if not minus:
+                break
+            s = s[:minus.start("extra")] + s[minus.end("extra"):]
+            n = parse_number(minus["n"])
+            unit = _canon_prose_unit(minus["u"])
+            unit = "cups" if unit == "cup" and (n or 0) > 1.01 else unit      # "2 tablespoons plus 3 cups water"
+            extras.append(f"{minus['op'].lower()} {fmt_number(n) if n is not None else minus['n']} {unit}")
+        line.extra = " ".join(extras)
         m = AMOUNT_RE.match(s)
         tokens = TOKEN_RE.findall(s[m.end():] if m else s)
         i = 0

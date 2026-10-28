@@ -42,8 +42,9 @@
   "ingredients": [
     {
       "ingredient_id": 3403,
-      "name": "brains soaked in changes of water and drained",
-      "quantity": "8 oz"
+      "name": "brains",
+      "quantity": "8 oz",
+      "prep": "soaked in changes of water and drained"
     },
     {
       "ingredient_id": 121,
@@ -67,6 +68,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Soak the brains in changes of water, then drain them.",
+      "secondary_message": "8 oz brains"
+    },
     {
       "id": 1,
       "primary_message": "Place a stainless steel skillet over high heat and wait until it's very hot but not smoking. Melt butter in the pan and place brains into pan. Let brains brown for a minute, then stir lobes around in the pan until they are browned but not cooked all the way through, about 2 minutes.",

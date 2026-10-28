@@ -61,18 +61,28 @@
     },
     {
       "ingredient_id": 277,
-      "name": "grape tomatoes, halved",
-      "quantity": "2 cups"
+      "name": "grape tomatoes",
+      "quantity": "2 cups",
+      "prep": "halved"
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, finely chopped",
-      "quantity": "1 large"
+      "name": "shallot",
+      "quantity": "1 large",
+      "prep": "finely chopped"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "1 ½ tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 ½ tbsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 130,
@@ -106,41 +116,54 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, thinly sliced",
-      "quantity": "5 medium cloves"
+      "name": "garlic",
+      "quantity": "5 medium cloves",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2010,
-      "name": "Genoa salami slices, cut into 1/2-inch-thick strips , divided",
-      "quantity": "170 g"
+      "name": "Genoa salami slices, divided",
+      "quantity": "170 g",
+      "prep": "cut into 1/2-inch-thick strips"
     },
     {
       "ingredient_id": 2011,
-      "name": "chopped mild banana pepper rings",
-      "quantity": "½ cup"
+      "name": "mild banana pepper rings",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2012,
-      "name": "coarsely chopped pitted kalamata olives",
-      "quantity": "½ cup"
+      "name": "pitted kalamata olives",
+      "quantity": "½ cup",
+      "prep": "coarsely chopped"
     },
     {
       "ingredient_id": 15,
-      "name": "drained non-pareil capers",
-      "quantity": "2 tbsp"
+      "name": "non-pareil capers",
+      "quantity": "2 tbsp",
+      "prep": "drained"
     },
     {
       "ingredient_id": 107,
-      "name": "fresh mozzarella cheese, torn into small bite-size pieces",
-      "quantity": "0.45 kg"
+      "name": "fresh mozzarella cheese",
+      "quantity": "0.45 kg",
+      "prep": "torn into small bite-size pieces"
     },
     {
       "ingredient_id": 28,
-      "name": "roughly chopped fresh basil",
-      "quantity": "1 cup"
+      "name": "fresh basil",
+      "quantity": "1 cup",
+      "prep": "roughly chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Halve the grape tomatoes. Finely chop the shallot. Juice the lemon. Thinly slice the garlic. Cut the Genoa salami slices into 1/2-inch-thick strips. Chop the mild banana pepper rings. Coarsely chop the pitted kalamata olives. Drain the non-pareil capers. Tear the fresh mozzarella cheese into small bite-size pieces. Pick the basil leaves from the stems and roughly chop them.",
+      "secondary_message": "2 cups grape tomatoes\n1 large shallot\n½ lemon\n5 medium cloves garlic\n170 g Genoa salami slices, divided\n½ cup mild banana pepper rings\n½ cup pitted kalamata olives\n2 tbsp non-pareil capers\n0.45 kg fresh mozzarella cheese\n1 cup fresh basil"
+    },
     {
       "id": 1,
       "primary_message": "Working directly over the flame of a gas burner or under a broiler, cook the red bell peppers, turning occasionally, until deeply charred all over, about 10 minutes. Transfer to a heatproof bowl, cover with plastic, and let stand 5 minutes. Place in a medium bowl and cover with plastic wrap. Let stand at room temperature until cool enough to handle, about 15 minutes. Peel charred skin from bell peppers; discard skin and seeds. Slice peppers into 0.5-cm strips.",
@@ -168,15 +191,82 @@
     }
   ],
   "nutrition": {
-    "energy": 355.0,
-    "fat": 25.0,
-    "saturated": 8.0,
-    "carbs": 20.0,
-    "fiber": 2.0,
-    "sugars": 4.0,
-    "protein": 15.0,
-    "sodium": 1385.0,
-    "cholesterol": 41.0
+    "energy": 407.67,
+    "alcohol": 0.0,
+    "water": 414.74,
+    "carbs": 33.17,
+    "fiber": 2.78,
+    "sugars": 3.5,
+    "fructose": 1.06,
+    "galactose": 0.01,
+    "glucose": 0.94,
+    "lactose": 0.0,
+    "maltose": 0.74,
+    "sucrose": 0.19,
+    "fat": 23.71,
+    "monounsaturated": 11.74,
+    "polyunsaturated": 2.14,
+    "omega_3": 0.17,
+    "omega_6": 1.45,
+    "saturated": 8.56,
+    "cholesterol": 33.26,
+    "protein": 15.99,
+    "b1_thiamine": 0.51,
+    "b2_riboflavin": 0.38,
+    "b3_niacin": 4.04,
+    "b5_pantothenic_acid": 0.55,
+    "b6_pyridoxine": 0.31,
+    "b12_cobalamin": 1.04,
+    "folate": 176.82,
+    "vitamin_a": 167.87,
+    "vitamin_c": 39.44,
+    "vitamin_d": 0.08,
+    "vitamin_e": 2.45,
+    "calcium": 179.85,
+    "copper": 0.22,
+    "iron": 2.44,
+    "magnesium": 43.63,
+    "manganese": 0.51,
+    "phosphorus": 226.49,
+    "potassium": 314.01,
+    "selenium": 30.05,
+    "sodium": 743.71,
+    "zinc": 2.37
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-25",
+    "lines": 17,
+    "counted": 17,
+    "partial": false,
+    "estimated_share": 0.01,
+    "omitted_fields": [
+      "ash",
+      "caffeine",
+      "starch",
+      "sugar_alcohol",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine",
+      "choline",
+      "vitamin_k"
+    ]
   },
   "schema_metadata": {
     "category": [

@@ -51,13 +51,15 @@
   "ingredients": [
     {
       "ingredient_id": 221,
-      "name": "quarter-size rounds peeled fresh ginger, thin",
-      "quantity": "2"
+      "name": "ginger root",
+      "quantity": "2",
+      "prep": "peeled, cut into thin quarter-size rounds"
     },
     {
       "ingredient_id": 243,
-      "name": "mint leaves",
-      "quantity": "10"
+      "name": "fresh mint",
+      "quantity": "10",
+      "prep": "leaves picked"
     },
     {
       "ingredient_id": 1707,
@@ -76,6 +78,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and cut the ginger into thin quarter-size rounds. Pick the leaves from the mint.",
+      "secondary_message": "2 ginger root\n10 fresh mint"
+    },
     {
       "id": 1,
       "primary_message": "In a julep cup or large rocks glass, muddle ginger until it is well crushed and juices are expressed. Add mint leaves and maple syrup and muddle until mint is lightly bruised, then swab the glass's sides with the mint's aromatic oils. Add rum and stir well. Half-fill glass with crushed ice and stir to combine. Fill glass completely with crushed ice and stir until outside of glass frosts. Add more crushed ice, heaping generously, then garnish with sprigs of fresh mint. Serve, adding a short straw if desired so that the fragrance of the mint bouquet will greet the drinker with each sip.",

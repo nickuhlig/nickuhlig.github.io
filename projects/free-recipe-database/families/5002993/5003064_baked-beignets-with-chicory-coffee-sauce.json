@@ -83,8 +83,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1710,
@@ -103,8 +104,9 @@
     },
     {
       "ingredient_id": 1729,
-      "name": "dark chocolate, chopped",
-      "quantity": "170 g"
+      "name": "dark chocolate",
+      "quantity": "170 g",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 88,
@@ -124,6 +126,12 @@
   ],
   "instructions": [
     {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature. Chop the dark chocolate.",
+      "secondary_message": "2 tbsp unsalted butter\n170 g dark chocolate"
+    },
+    {
       "id": 1,
       "primary_message": "To Make the Beignets: In a small saucepan, heat milk over medium-low heat until warm to the touch, then take off heat. Whisk in buttermilk, 1 teaspoon sugar, and yeast. Let stand 5 minutes.",
       "secondary_message": null
@@ -140,7 +148,7 @@
     },
     {
       "id": 4,
-      "primary_message": "On a lightly floured surface, roll dough out into a 1.5-cm thick rectangle. Cut dough into rectangles measuring approximately 2.5 by 5 cm.",
+      "primary_message": "On a lightly floured surface, roll dough out into a 1.5-cm thick rectangle. Cut dough into rectangles measuring approximately 1 by 5 cm.",
       "secondary_message": null
     },
     {
@@ -170,15 +178,85 @@
     }
   ],
   "nutrition": {
-    "energy": 140.0,
-    "fat": 6.0,
-    "saturated": 4.0,
-    "carbs": 19.0,
-    "fiber": 1.0,
-    "sugars": 11.0,
-    "protein": 2.0,
-    "sodium": 60.0,
-    "cholesterol": 12.0
+    "energy": 138.2,
+    "ash": 0.45,
+    "caffeine": 6.66,
+    "water": 15.98,
+    "carbs": 16.47,
+    "fiber": 1.1,
+    "sugars": 7.6,
+    "fat": 7.06,
+    "monounsaturated": 1.94,
+    "polyunsaturated": 0.33,
+    "omega_3": 0.03,
+    "omega_6": 0.26,
+    "saturated": 4.19,
+    "cholesterol": 11.81,
+    "protein": 2.38,
+    "b1_thiamine": 0.13,
+    "b2_riboflavin": 0.1,
+    "b3_niacin": 0.98,
+    "b5_pantothenic_acid": 0.19,
+    "b6_pyridoxine": 0.02,
+    "b12_cobalamin": 0.06,
+    "vitamin_a": 41.62,
+    "vitamin_e": 0.18,
+    "vitamin_k": 0.89,
+    "calcium": 21.78,
+    "copper": 0.15,
+    "iron": 1.31,
+    "magnesium": 20.35,
+    "manganese": 0.22,
+    "phosphorus": 45.62,
+    "potassium": 84.49,
+    "selenium": 5.0,
+    "sodium": 63.31,
+    "zinc": 0.4
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 15,
+    "counted": 14,
+    "partial": false,
+    "not_counted": [
+      "Confectioners' sugar"
+    ],
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "alcohol",
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine",
+      "choline",
+      "folate",
+      "vitamin_c",
+      "vitamin_d"
+    ]
   },
   "schema_metadata": {
     "category": [

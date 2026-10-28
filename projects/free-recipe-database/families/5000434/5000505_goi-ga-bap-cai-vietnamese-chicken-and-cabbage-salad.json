@@ -62,13 +62,15 @@
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, ends trimmed",
-      "quantity": "2"
+      "name": "scallions",
+      "quantity": "2",
+      "prep": "ends trimmed"
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger, peeled and smashed",
-      "quantity": "1 (5 cm) knob"
+      "name": "ginger root",
+      "quantity": "1 (5 cm) knob",
+      "prep": "peeled and smashed"
     },
     {
       "ingredient_id": 1574,
@@ -87,13 +89,15 @@
     },
     {
       "ingredient_id": 184,
-      "name": "red onion, thinly sliced",
-      "quantity": "¼ medium"
+      "name": "red onion",
+      "quantity": "¼ medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, minced",
-      "quantity": "3 medium"
+      "name": "garlic cloves",
+      "quantity": "3 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 1330,
@@ -116,14 +120,23 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1421,
-      "name": "fresh lime juice, from about 1 lime",
-      "quantity": "1 tbsp"
+      "ingredient_id": 228,
+      "name": "lime",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "1 tbsp",
+          "name": "fresh lime juice, from about 1 lime"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1810,
-      "name": "bird’s eye chile, stemmed and thinly sliced",
-      "quantity": "1"
+      "name": "bird’s eye chile",
+      "quantity": "1",
+      "prep": "stemmed and thinly sliced"
     },
     {
       "ingredient_id": 1682,
@@ -132,8 +145,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallots, sliced into 1/16-inch-thick rounds",
-      "quantity": "3 medium"
+      "name": "shallots",
+      "quantity": "3 medium",
+      "prep": "sliced into 1/16-inch-thick rounds"
     },
     {
       "ingredient_id": 88,
@@ -142,18 +156,21 @@
     },
     {
       "ingredient_id": 1004,
-      "name": "thinly shredded green cabbage",
-      "quantity": "2 cups"
+      "name": "green cabbage",
+      "quantity": "2 cups",
+      "prep": "thinly shredded"
     },
     {
       "ingredient_id": 2272,
-      "name": "thinly shredded purple cabbage",
-      "quantity": "2 cups"
+      "name": "purple cabbage",
+      "quantity": "2 cups",
+      "prep": "thinly shredded"
     },
     {
       "ingredient_id": 159,
-      "name": "carrot, cut into matchsticks",
-      "quantity": "1 medium"
+      "name": "carrot",
+      "quantity": "1 medium",
+      "prep": "cut into matchsticks"
     },
     {
       "ingredient_id": 2133,
@@ -162,19 +179,27 @@
     },
     {
       "ingredient_id": 2312,
-      "name": "chopped Vietnamese coriander",
-      "quantity": "½ cup"
+      "name": "Vietnamese coriander",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 2264,
-      "name": "chopped perilla",
-      "quantity": "¼ cup"
+      "name": "perilla",
+      "quantity": "¼ cup",
+      "prep": "chopped"
     }
   ],
   "instructions": [
     {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the ends of the scallions. Peel and smash the ginger. Thinly slice the red onion. Mince the garlic cloves. Juice the lime. Stem and thinly slice the bird’s eye chile. Slice the shallots into 1/16-inch-thick rounds. Thinly shred the green cabbage. Thinly shred the purple cabbage. Cut the carrot into matchsticks. Chop the Vietnamese coriander. Chop the perilla.",
+      "secondary_message": "2 scallions\n1 (5 cm) knob ginger root\n¼ medium red onion\n3 medium garlic cloves\n½ lime\n1 bird’s eye chile\n3 medium shallots\n2 cups green cabbage\n2 cups purple cabbage\n1 medium carrot\n½ cup Vietnamese coriander\n¼ cup perilla"
+    },
+    {
       "id": 1,
-      "primary_message": "For the Chicken: In a large saucepan, combine water and salt, stirring until salt dissolves. Add chicken, scallion, and ginger and set over medium-high heat until water temperature reaches between 150 and 71°C (65 to 70°C) on an instant-read thermometer. Cook, adjusting heat to maintain water temperature in the 66°C to 82°C (65–80°C) range, until the thickest part of chicken registers 65°C on an instant-read thermometer, about 1 hour. Remove chicken from broth and let rest until cool enough to handle. Strain broth and reserve for another use. Remove and discard chicken skin, then shred meat with your hands and set aside.",
+      "primary_message": "For the Chicken: In a large saucepan, combine water and salt, stirring until salt dissolves. Add chicken, scallion, and ginger and set over medium-high heat until water temperature reaches between 150 and 71°C (65 to 70°C) on an instant-read thermometer. Cook, adjusting heat to maintain water temperature in the 150–82°C (65–80°C) range, until the thickest part of chicken registers 65°C on an instant-read thermometer, about 1 hour. Remove chicken from broth and let rest until cool enough to handle. Strain broth and reserve for another use. Remove and discard chicken skin, then shred meat with your hands and set aside.",
       "secondary_message": null
     },
     {
@@ -209,15 +234,88 @@
     }
   ],
   "nutrition": {
-    "energy": 399.0,
-    "fat": 17.0,
-    "saturated": 2.0,
-    "carbs": 39.0,
-    "fiber": 7.0,
-    "sugars": 22.0,
-    "protein": 27.0,
-    "sodium": 1758.0,
-    "cholesterol": 51.0
+    "energy": 1086.12,
+    "alcohol": 0.0,
+    "ash": 6.8,
+    "caffeine": 0.0,
+    "water": 704.8,
+    "carbs": 30.42,
+    "fiber": 5.24,
+    "sugars": 19.96,
+    "fat": 98.28,
+    "monounsaturated": 59.07,
+    "polyunsaturated": 27.43,
+    "omega_3": 7.53,
+    "omega_6": 19.56,
+    "saturated": 9.48,
+    "transfats": 0.41,
+    "cholesterol": 55.68,
+    "protein": 25.75,
+    "alanine": 1.32,
+    "arginine": 1.85,
+    "aspartic_acid": 2.44,
+    "glutamic_acid": 4.17,
+    "glycine": 1.44,
+    "histidine": 0.71,
+    "isoleucine": 1.17,
+    "leucine": 1.76,
+    "lysine": 1.78,
+    "methionine": 0.57,
+    "phenylalanine": 1.04,
+    "proline": 1.15,
+    "serine": 0.97,
+    "threonine": 1.02,
+    "tryptophan": 0.28,
+    "tyrosine": 0.84,
+    "valine": 1.18,
+    "b1_thiamine": 0.26,
+    "b2_riboflavin": 0.18,
+    "b3_niacin": 11.63,
+    "b5_pantothenic_acid": 1.36,
+    "b6_pyridoxine": 0.86,
+    "b12_cobalamin": 0.34,
+    "choline": 87.49,
+    "folate": 96.92,
+    "vitamin_a": 197.23,
+    "vitamin_c": 41.89,
+    "vitamin_d": 0.35,
+    "vitamin_e": 16.3,
+    "vitamin_k": 134.8,
+    "calcium": 110.73,
+    "copper": 0.38,
+    "iron": 2.69,
+    "magnesium": 98.69,
+    "manganese": 0.77,
+    "phosphorus": 277.35,
+    "potassium": 729.69,
+    "selenium": 17.9,
+    "sodium": 1632.39,
+    "zinc": 1.79
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-25",
+    "lines": 25,
+    "counted": 24,
+    "partial": false,
+    "not_counted": [
+      "Kosher salt"
+    ],
+    "stand_ins": [
+      "chopped Vietnamese coriander"
+    ],
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "cystine"
+    ]
   },
   "schema_metadata": {
     "category": [

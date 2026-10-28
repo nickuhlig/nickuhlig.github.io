@@ -88,8 +88,9 @@
     },
     {
       "ingredient_id": 243,
-      "name": "fresh mint leaves",
-      "quantity": "85 g"
+      "name": "fresh mint",
+      "quantity": "85 g",
+      "prep": "leaves picked"
     },
     {
       "ingredient_id": 346,
@@ -98,6 +99,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the leaves from the mint.",
+      "secondary_message": "85 g fresh mint"
+    },
     {
       "id": 1,
       "primary_message": "For the First Fermentation: In a large 4-quart or larger pot, combine 4 cups water with the sugar and bring to a boil over high heat, stirring occasionally to help fully dissolve sugar. Off heat, stir in tea leaves and let steep until tea registers roughly 65°C on an instant-read thermometer, about 15 minutes. Stir in remaining 8 cups water and let cool until tea registers 85 to 32°C (30 to 32°C).",

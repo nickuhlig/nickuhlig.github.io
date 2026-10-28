@@ -43,8 +43,9 @@
     },
     {
       "ingredient_id": 349,
-      "name": "nutmeg, freshly ground",
-      "quantity": "1 tsp"
+      "name": "nutmeg",
+      "quantity": "1 tsp",
+      "prep": "freshly ground"
     },
     {
       "ingredient_id": 2475,
@@ -53,8 +54,9 @@
     },
     {
       "ingredient_id": 1869,
-      "name": "dried green Thai bird chiles, seeds removed and freshly ground",
-      "quantity": "6 to 8"
+      "name": "dried green Thai bird chiles",
+      "quantity": "6 to 8",
+      "prep": "seeds removed and freshly ground"
     },
     {
       "ingredient_id": 2529,
@@ -68,6 +70,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Freshly grind the nutmeg. Remove the seeds from the dried green Thai bird chiles, then freshly grind them.",
+      "secondary_message": "1 tsp nutmeg\n6 to 8 dried green Thai bird chiles"
+    },
     {
       "id": 1,
       "primary_message": "In a large airtight container or zip-top freezer bag, combine chicken, 4 tablespoons salt, and nutmeg. Rub salt and nutmeg into chicken well, then pour over with buttermilk. Seal and let brine overnight.",
@@ -90,15 +98,85 @@
     }
   ],
   "nutrition": {
-    "energy": 616.0,
-    "fat": 34.0,
-    "saturated": 7.0,
-    "carbs": 11.0,
-    "fiber": 1.0,
-    "sugars": 4.0,
-    "protein": 63.0,
-    "sodium": 3299.0,
-    "cholesterol": 268.0
+    "energy": 674.78,
+    "alcohol": 0.0,
+    "ash": 7.55,
+    "caffeine": 0.0,
+    "water": 172.61,
+    "carbs": 4.51,
+    "fiber": 0.25,
+    "sugars": 4.62,
+    "fat": 59.35,
+    "monounsaturated": 17.7,
+    "polyunsaturated": 25.37,
+    "omega_3": 2.63,
+    "omega_6": 22.38,
+    "saturated": 12.55,
+    "cholesterol": 115.76,
+    "protein": 30.69,
+    "alanine": 1.73,
+    "arginine": 1.83,
+    "aspartic_acid": 2.73,
+    "cystine": 0.39,
+    "glutamic_acid": 4.69,
+    "glycine": 1.89,
+    "histidine": 0.9,
+    "isoleucine": 1.53,
+    "leucine": 2.28,
+    "lysine": 2.49,
+    "methionine": 0.81,
+    "phenylalanine": 1.22,
+    "proline": 1.64,
+    "serine": 1.15,
+    "threonine": 1.27,
+    "tryptophan": 0.35,
+    "tyrosine": 1.03,
+    "valine": 1.53,
+    "b1_thiamine": 0.12,
+    "b2_riboflavin": 0.31,
+    "b3_niacin": 10.3,
+    "b5_pantothenic_acid": 1.59,
+    "b6_pyridoxine": 0.56,
+    "b12_cobalamin": 0.64,
+    "choline": 104.59,
+    "folate": 13.67,
+    "vitamin_a": 80.67,
+    "vitamin_c": 3.41,
+    "vitamin_e": 3.43,
+    "vitamin_k": 68.65,
+    "calcium": 113.47,
+    "copper": 0.09,
+    "iron": 1.46,
+    "magnesium": 40.25,
+    "phosphorus": 294.87,
+    "potassium": 419.41,
+    "selenium": 23.26,
+    "sodium": 2396.81,
+    "zinc": 2.33
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 7,
+    "counted": 6,
+    "partial": false,
+    "not_counted": [
+      "Flour, as needed, for dredging"
+    ],
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "vitamin_d",
+      "manganese"
+    ]
   },
   "schema_metadata": {
     "category": [

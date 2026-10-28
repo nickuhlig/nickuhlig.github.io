@@ -73,9 +73,17 @@
       "quantity": "10 oz"
     },
     {
-      "ingredient_id": 2346,
-      "name": "orange zest, from 1 large orange",
-      "quantity": "1 tbsp"
+      "ingredient_id": 232,
+      "name": "orange",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tbsp",
+          "name": "orange zest, from 1 large orange"
+        }
+      ],
+      "prep": "zested"
     },
     {
       "ingredient_id": 88,
@@ -89,8 +97,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "egg, lightly beaten",
-      "quantity": "1 large"
+      "name": "egg",
+      "quantity": "1 large",
+      "prep": "lightly beaten"
     },
     {
       "ingredient_id": 1442,
@@ -119,8 +128,9 @@
     },
     {
       "ingredient_id": 256,
-      "name": "unsalted pistachios, lightly toasted and coarsely chopped",
-      "quantity": "2 oz"
+      "name": "unsalted pistachios",
+      "quantity": "2 oz",
+      "prep": "lightly toasted and coarsely chopped"
     },
     {
       "ingredient_id": 2184,
@@ -135,8 +145,14 @@
   ],
   "instructions": [
     {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the orange. Lightly beat the egg. Lightly toast and coarsely chop the unsalted pistachios.",
+      "secondary_message": "1 orange\n1 large egg\n2 oz unsalted pistachios"
+    },
+    {
       "id": 1,
-      "primary_message": "For the Scald: Place sweet rice flour in a medium bowl. In a small saucepan, combine whole milk and honey, and bring to a boil over medium heat, 3 to 5 minutes. Pour boiling milk and honey over sweet rice flour and rapidly whisk until mixture thickens to a pudding-like consistency and registers between 155°F to 170°F (68 to 77°C).",
+      "primary_message": "For the Scald: Place sweet rice flour in a medium bowl. In a small saucepan, combine whole milk and honey, and bring to a boil over medium heat, 3 to 5 minutes. Pour boiling milk and honey over sweet rice flour and rapidly whisk until mixture thickens to a pudding-like consistency and registers between 155 to 170°F (68 to 77°C).",
       "secondary_message": null
     },
     {
@@ -201,15 +217,86 @@
     }
   ],
   "nutrition": {
-    "energy": 527.0,
-    "fat": 30.0,
-    "saturated": 13.0,
-    "carbs": 54.0,
-    "fiber": 2.0,
-    "sugars": 11.0,
-    "protein": 11.0,
-    "sodium": 404.0,
-    "cholesterol": 122.0
+    "energy": 479.71,
+    "alcohol": 0.05,
+    "caffeine": 0.0,
+    "water": 62.14,
+    "carbs": 43.86,
+    "fiber": 2.01,
+    "sugars": 9.51,
+    "fat": 29.82,
+    "monounsaturated": 11.76,
+    "polyunsaturated": 3.02,
+    "omega_3": 0.18,
+    "omega_6": 2.44,
+    "saturated": 13.43,
+    "cholesterol": 100.18,
+    "protein": 9.89,
+    "alanine": 0.41,
+    "arginine": 0.5,
+    "aspartic_acid": 0.72,
+    "cystine": 0.17,
+    "glutamic_acid": 2.64,
+    "glycine": 0.37,
+    "histidine": 0.24,
+    "isoleucine": 0.44,
+    "leucine": 0.79,
+    "lysine": 0.45,
+    "methionine": 0.21,
+    "phenylalanine": 0.5,
+    "proline": 0.93,
+    "serine": 0.56,
+    "threonine": 0.35,
+    "tryptophan": 0.13,
+    "tyrosine": 0.35,
+    "valine": 0.53,
+    "b1_thiamine": 0.43,
+    "b2_riboflavin": 0.39,
+    "b3_niacin": 3.22,
+    "b5_pantothenic_acid": 0.77,
+    "b6_pyridoxine": 0.22,
+    "b12_cobalamin": 0.36,
+    "choline": 51.47,
+    "folate": 125.21,
+    "vitamin_a": 211.03,
+    "vitamin_c": 1.57,
+    "vitamin_d": 1.12,
+    "vitamin_e": 1.9,
+    "vitamin_k": 5.67,
+    "calcium": 95.9,
+    "copper": 0.19,
+    "iron": 2.15,
+    "magnesium": 28.3,
+    "manganese": 0.48,
+    "phosphorus": 158.53,
+    "potassium": 218.55,
+    "selenium": 21.32,
+    "sodium": 322.37,
+    "zinc": 0.98
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 19,
+    "counted": 17,
+    "partial": false,
+    "not_counted": [
+      "Chocolate curls",
+      "Candied citrus"
+    ],
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "ash",
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats"
+    ]
   },
   "schema_metadata": {
     "category": [

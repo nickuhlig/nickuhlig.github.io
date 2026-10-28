@@ -51,8 +51,9 @@
   "ingredients": [
     {
       "ingredient_id": 243,
-      "name": "mint leaves",
-      "quantity": "10"
+      "name": "fresh mint",
+      "quantity": "10",
+      "prep": "leaves picked"
     },
     {
       "ingredient_id": 2684,
@@ -71,6 +72,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the leaves from the mint.",
+      "secondary_message": "10 fresh mint"
+    },
     {
       "id": 1,
       "primary_message": "In a julep cup or large rocks glass, gently muddle mint leaves until lightly bruised, then swab the glass's sides with the mint's aromatic oils. Add crème de cacao and bourbon or rye and stir well. Half-fill glass with crushed ice and stir to combine. Fill glass completely with crushed ice and stir until outside of glass frosts. Add more crushed ice, heaping generously, then garnish with sprigs of fresh mint. Serve, adding a short straw if desired so that the fragrance of the mint bouquet will greet the drinker with each sip.",

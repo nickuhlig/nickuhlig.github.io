@@ -78,13 +78,15 @@
     },
     {
       "ingredient_id": 115,
-      "name": "cold unsalted butter, cut into large cubes",
-      "quantity": "4 oz"
+      "name": "cold unsalted butter",
+      "quantity": "4 oz",
+      "prep": "cut into large cubes"
     },
     {
       "ingredient_id": 355,
-      "name": "cold cream cheese, cut into large cubes",
-      "quantity": "4 oz"
+      "name": "cold cream cheese",
+      "quantity": "4 oz",
+      "prep": "cut into large cubes"
     },
     {
       "ingredient_id": 88,
@@ -93,13 +95,14 @@
     },
     {
       "ingredient_id": 272,
-      "name": "walnuts, toasted and finely chopped",
-      "quantity": "2 ¼ oz"
+      "name": "walnuts",
+      "quantity": "2 ¼ oz",
+      "prep": "toasted and finely chopped"
     },
     {
       "ingredient_id": 346,
       "name": "granulated sugar, divided",
-      "quantity": "2 tbsp plus 1/2 tsp"
+      "quantity": "2 tbsp plus ½ tsp"
     },
     {
       "ingredient_id": 103,
@@ -118,8 +121,9 @@
     },
     {
       "ingredient_id": 349,
-      "name": "freshly grated nutmeg",
-      "quantity": "⅛ tsp"
+      "name": "nutmeg",
+      "quantity": "⅛ tsp",
+      "prep": "freshly grated"
     },
     {
       "ingredient_id": 1189,
@@ -128,11 +132,18 @@
     },
     {
       "ingredient_id": 3641,
-      "name": "egg yolk, whisked with 1 teaspoon cold water",
-      "quantity": "1 large"
+      "name": "egg yolk",
+      "quantity": "1 large",
+      "prep": "whisked with 1 teaspoon cold water"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the cold unsalted butter into large cubes. Cut the cold cream cheese into large cubes. Toast and finely chop the walnuts. Freshly grate the nutmeg. Whisk the egg yolk with 1 teaspoon cold water.",
+      "secondary_message": "4 oz cold unsalted butter\n4 oz cold cream cheese\n2 ¼ oz walnuts\n⅛ tsp nutmeg\n1 large egg yolk"
+    },
     {
       "id": 1,
       "primary_message": "For the Dough: In the work bowl of a food processor, combine flour, butter, cream cheese, and salt. Pulse 4 to 5 times, then turn the processor on and process until the dough forms a shaggy ball, about 1 minute.",
@@ -170,15 +181,82 @@
     }
   ],
   "nutrition": {
-    "energy": 201.0,
-    "fat": 15.0,
-    "saturated": 7.0,
-    "carbs": 14.0,
-    "fiber": 1.0,
-    "sugars": 4.0,
-    "protein": 3.0,
-    "sodium": 62.0,
-    "cholesterol": 61.0
+    "energy": 195.7,
+    "alcohol": 0.0,
+    "ash": 0.37,
+    "caffeine": 0.0,
+    "water": 10.19,
+    "carbs": 13.59,
+    "fiber": 0.77,
+    "sugars": 4.25,
+    "fat": 14.93,
+    "monounsaturated": 3.72,
+    "polyunsaturated": 3.06,
+    "omega_3": 0.53,
+    "omega_6": 2.43,
+    "saturated": 7.18,
+    "cholesterol": 45.23,
+    "protein": 2.91,
+    "alanine": 0.11,
+    "arginine": 0.21,
+    "aspartic_acid": 0.23,
+    "cystine": 0.04,
+    "glutamic_acid": 0.71,
+    "glycine": 0.11,
+    "histidine": 0.07,
+    "isoleucine": 0.12,
+    "leucine": 0.23,
+    "lysine": 0.13,
+    "methionine": 0.06,
+    "phenylalanine": 0.14,
+    "proline": 0.26,
+    "serine": 0.17,
+    "threonine": 0.1,
+    "tryptophan": 0.03,
+    "tyrosine": 0.1,
+    "valine": 0.15,
+    "b1_thiamine": 0.11,
+    "b2_riboflavin": 0.1,
+    "b3_niacin": 0.75,
+    "b5_pantothenic_acid": 0.19,
+    "b6_pyridoxine": 0.05,
+    "b12_cobalamin": 0.07,
+    "choline": 19.36,
+    "folate": 39.93,
+    "vitamin_a": 99.35,
+    "vitamin_c": 0.73,
+    "vitamin_d": 0.08,
+    "vitamin_e": 0.39,
+    "vitamin_k": 1.17,
+    "calcium": 23.94,
+    "copper": 0.11,
+    "iron": 0.75,
+    "magnesium": 12.52,
+    "manganese": 0.29,
+    "phosphorus": 49.45,
+    "potassium": 57.0,
+    "selenium": 5.68,
+    "sodium": 49.75,
+    "zinc": 0.35
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 12,
+    "counted": 12,
+    "partial": false,
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats"
+    ]
   },
   "schema_metadata": {
     "category": [

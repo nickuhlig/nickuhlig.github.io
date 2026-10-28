@@ -45,13 +45,15 @@
   "ingredients": [
     {
       "ingredient_id": 2818,
-      "name": "frozen phyllo dough, thawed",
-      "quantity": "4 sheets"
+      "name": "frozen phyllo dough",
+      "quantity": "4 sheets",
+      "prep": "thawed"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "2 tbsp"
+      "name": "unsalted butter",
+      "quantity": "2 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 122,
@@ -60,8 +62,9 @@
     },
     {
       "ingredient_id": 242,
-      "name": "chopped strawberries",
-      "quantity": "¾ cup"
+      "name": "strawberries",
+      "quantity": "¾ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 103,
@@ -70,6 +73,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thaw the frozen phyllo dough. Melt the unsalted butter. Chop the strawberries.",
+      "secondary_message": "4 sheets frozen phyllo dough\n2 tbsp unsalted butter\n¾ cup strawberries"
+    },
     {
       "id": 1,
       "primary_message": "Place oven rack in upper middle position and preheat oven to 175°C (350°F). Grease a 12-well muffin tin tray. Lay one sheet phyllo dough on a clean work surface. Brush all over with butter. Lay second sheet over phyllo on top and brush with butter. Cut into 12 squares. Place in prepared muffin tin. Butter a remaining sheet of phyllo and top it with final sheet. Brush all over with butter and cut into 12 squares. Place a square in each muffin tin, alternating corner points with first square. Bake until phyllo is golden, about 6 minutes.",
@@ -82,15 +91,82 @@
     }
   ],
   "nutrition": {
-    "energy": 401,
-    "fat": 22,
-    "saturated": 8.6,
-    "carbs": 48,
-    "fiber": 1.7,
-    "sugars": 7.0,
-    "protein": 4.8,
-    "sodium": 332,
-    "cholesterol": 6.2
+    "energy": 82.11,
+    "alcohol": 0.0,
+    "ash": 0.32,
+    "caffeine": 0.0,
+    "water": 33.67,
+    "carbs": 11.09,
+    "fiber": 0.42,
+    "sugars": 7.35,
+    "fat": 3.38,
+    "monounsaturated": 1.2,
+    "polyunsaturated": 0.25,
+    "omega_3": 0.03,
+    "omega_6": 0.16,
+    "saturated": 1.79,
+    "cholesterol": 7.78,
+    "protein": 2.45,
+    "b1_thiamine": 0.04,
+    "b2_riboflavin": 0.09,
+    "b3_niacin": 0.37,
+    "b5_pantothenic_acid": 0.11,
+    "b6_pyridoxine": 0.02,
+    "b12_cobalamin": 0.16,
+    "choline": 4.99,
+    "folate": 13.4,
+    "vitamin_a": 16.75,
+    "vitamin_c": 8.56,
+    "vitamin_d": 0.0,
+    "vitamin_e": 0.1,
+    "vitamin_k": 0.64,
+    "calcium": 24.71,
+    "copper": 0.02,
+    "iron": 0.29,
+    "magnesium": 5.3,
+    "manganese": 0.09,
+    "phosphorus": 37.03,
+    "potassium": 60.3,
+    "selenium": 3.62,
+    "sodium": 38.52,
+    "zinc": 0.18
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 5,
+    "counted": 5,
+    "partial": false,
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine"
+    ]
   },
   "schema_metadata": {
     "category": [

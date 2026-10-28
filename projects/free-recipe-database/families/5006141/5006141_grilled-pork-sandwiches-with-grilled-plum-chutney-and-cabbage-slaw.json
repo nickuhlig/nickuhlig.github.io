@@ -41,8 +41,9 @@
   "ingredients": [
     {
       "ingredient_id": 2163,
-      "name": "boneless pork loin, cut into 8 portions",
-      "quantity": "1 ¼ lb"
+      "name": "boneless pork loin",
+      "quantity": "1 ¼ lb",
+      "prep": "cut into 8 portions"
     },
     {
       "ingredient_id": 88,
@@ -56,8 +57,10 @@
     },
     {
       "ingredient_id": 1004,
-      "name": "green cabbage, cored and thinly sliced",
-      "quantity": "¾ lb"
+      "name": "green cabbage",
+      "quantity": "½ small head",
+      "weigh_as": "¾ lb",
+      "prep": "cored and thinly sliced"
     },
     {
       "ingredient_id": 257,
@@ -71,13 +74,16 @@
     },
     {
       "ingredient_id": 469,
-      "name": "firm but ripe plums, halved and pitted",
-      "quantity": "¾ lb"
+      "name": "firm but ripe plums",
+      "quantity": "4",
+      "weigh_as": "¾ lb",
+      "prep": "halved and pitted"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, ends trimmed",
-      "quantity": "2"
+      "name": "scallions",
+      "quantity": "2",
+      "prep": "ends trimmed"
     },
     {
       "ingredient_id": 151,
@@ -96,8 +102,9 @@
     },
     {
       "ingredient_id": 243,
-      "name": "chopped fresh mint leaves",
-      "quantity": "3 tbsp"
+      "name": "fresh mint",
+      "quantity": "3 tbsp",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 103,
@@ -111,11 +118,18 @@
     },
     {
       "ingredient_id": 1027,
-      "name": "crusty sandwich rolls, split",
-      "quantity": "4"
+      "name": "crusty sandwich rolls",
+      "quantity": "4",
+      "prep": "split"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the boneless pork loin into 8 portions. Core and thinly slice the green cabbage. Halve and pit the firm but ripe plums. Trim the ends of the scallions. Pick the mint leaves from the stems and chop them. Split the crusty sandwich rolls.",
+      "secondary_message": "1 ¼ lb boneless pork loin\n½ small head green cabbage\n4 firm but ripe plums\n2 scallions\n3 tbsp fresh mint\n4 crusty sandwich rolls"
+    },
     {
       "id": 1,
       "primary_message": "For the Pork: Working 1 piece at a time, sandwich pork between layers of plastic wrap and pound with a meat pounder or heavy skillet until about 1/4 inch thick. Season generously with salt and pepper and set aside.",
@@ -153,15 +167,89 @@
     }
   ],
   "nutrition": {
-    "energy": 612.0,
-    "fat": 19.0,
-    "saturated": 4.0,
-    "carbs": 79.0,
-    "fiber": 10.0,
-    "sugars": 48.0,
-    "protein": 36.0,
-    "sodium": 690.0,
-    "cholesterol": 85.0
+    "energy": 522.28,
+    "alcohol": 0.0,
+    "ash": 3.94,
+    "caffeine": 0.0,
+    "water": 305.01,
+    "carbs": 54.08,
+    "fiber": 5.06,
+    "sugars": 29.94,
+    "fructose": 9.65,
+    "galactose": 0.45,
+    "glucose": 10.61,
+    "maltose": 1.35,
+    "sucrose": 7.74,
+    "fat": 17.82,
+    "monounsaturated": 10.6,
+    "polyunsaturated": 5.84,
+    "omega_3": 0.42,
+    "omega_6": 3.94,
+    "saturated": 4.92,
+    "transfats": 0.15,
+    "cholesterol": 90.86,
+    "protein": 37.29,
+    "b1_thiamine": 0.94,
+    "b2_riboflavin": 0.48,
+    "b3_niacin": 10.48,
+    "b5_pantothenic_acid": 1.62,
+    "b6_pyridoxine": 1.21,
+    "b12_cobalamin": 0.86,
+    "choline": 102.4,
+    "folate": 110.18,
+    "vitamin_a": 48.86,
+    "vitamin_c": 45.96,
+    "vitamin_d": 0.71,
+    "vitamin_e": 1.11,
+    "vitamin_k": 95.94,
+    "calcium": 132.63,
+    "copper": 0.24,
+    "iron": 3.63,
+    "magnesium": 69.67,
+    "manganese": 0.54,
+    "phosphorus": 405.1,
+    "potassium": 907.88,
+    "selenium": 52.02,
+    "sodium": 511.67,
+    "zinc": 3.25
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 15,
+    "counted": 13,
+    "partial": false,
+    "not_counted": [
+      "Kosher salt",
+      "freshly ground black pepper"
+    ],
+    "assumed": [
+      "Vegetable oil"
+    ],
+    "estimated_share": 0.048,
+    "omitted_fields": [
+      "starch",
+      "lactose",
+      "sugar_alcohol",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine"
+    ]
   },
   "schema_metadata": {
     "category": [

@@ -34,28 +34,34 @@
   "ingredients": [
     {
       "ingredient_id": 185,
-      "name": "black beans, rinsed and drained",
-      "quantity": "2 (15 oz) cans"
+      "name": "black beans",
+      "quantity": "2 (15 oz) cans",
+      "prep": "rinsed and drained"
     },
     {
-      "ingredient_id": 27,
-      "name": "fresh cooked corn, kernels cut off the cob",
-      "quantity": "3 ears"
+      "ingredient_id": 303,
+      "name": "fresh cooked corn",
+      "quantity": "1 ¾ cups",
+      "weigh_as": "306 g",
+      "prep": "kernels cut off the cob"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell peppers, diced",
-      "quantity": "2"
+      "name": "red bell peppers",
+      "quantity": "2",
+      "prep": "diced"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, minced",
-      "quantity": "2 medium cloves"
+      "name": "garlic",
+      "quantity": "2 medium cloves",
+      "prep": "minced"
     },
     {
       "ingredient_id": 144,
-      "name": "minced shallots, from one medium shallot",
-      "quantity": "2 tbsp"
+      "name": "shallots, from one medium shallot",
+      "quantity": "2 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 88,
@@ -78,27 +84,43 @@
       "quantity": "½ cup plus 1 tbsp"
     },
     {
-      "ingredient_id": 2346,
-      "name": "lime zest, from 5 to 6 limes",
-      "quantity": "1 tsp"
-    },
-    {
-      "ingredient_id": 1421,
-      "name": "lime juice, from 5 to 6 limes",
-      "quantity": "6 tbsp"
+      "ingredient_id": 228,
+      "name": "limes",
+      "quantity": "6",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1421,
+          "quantity": "6 tbsp",
+          "name": "lime juice, from 5 to 6 limes"
+        },
+        {
+          "ingredient_id": 2346,
+          "quantity": "1 tsp",
+          "name": "lime zest, from 5 to 6 limes"
+        }
+      ],
+      "prep": "zested and juiced"
     },
     {
       "ingredient_id": 188,
-      "name": "chopped fresh cilantro leaves, plus more for garnish",
-      "quantity": "½ cup"
+      "name": "fresh cilantro leaves, plus more for garnish",
+      "quantity": "½ cup",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 183,
-      "name": "Hass avocados, chopped",
-      "quantity": "2"
+      "name": "Avocados",
+      "quantity": "2",
+      "prep": "chopped"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Rinse and drain the black beans. Cut off the kernels of the fresh cooked corn the cob. Dice the red bell peppers. Mince the garlic. Mince the shallots. Zest and juice the limes. Chop the fresh cilantro leaves. Chop the avocados.",
+      "secondary_message": "2 (15 oz) cans black beans\n1 ¾ cups fresh cooked corn\n2 red bell peppers\n2 medium cloves garlic\n2 tbsp shallots, from one medium shallot\n6 limes\n½ cup fresh cilantro leaves, plus more for garnish\n2 Avocados"
+    },
     {
       "id": 1,
       "primary_message": "Combine black beans, corn, red peppers, garlic, shallots, and salt in a large bowl and mix well.",
@@ -116,15 +138,82 @@
     }
   ],
   "nutrition": {
-    "energy": 337.0,
-    "fat": 19.0,
-    "saturated": 3.0,
-    "carbs": 38.0,
-    "fiber": 10.0,
-    "sugars": 9.0,
-    "protein": 9.0,
-    "sodium": 941.0,
-    "cholesterol": 0.0
+    "energy": 337.72,
+    "alcohol": 0.0,
+    "ash": 4.14,
+    "caffeine": 0.0,
+    "water": 184.55,
+    "carbs": 35.81,
+    "fiber": 11.94,
+    "sugars": 9.06,
+    "fat": 19.74,
+    "monounsaturated": 13.63,
+    "polyunsaturated": 2.43,
+    "omega_3": 0.23,
+    "omega_6": 2.19,
+    "saturated": 2.84,
+    "cholesterol": 0.0,
+    "protein": 8.87,
+    "alanine": 0.45,
+    "arginine": 0.46,
+    "aspartic_acid": 1.11,
+    "cystine": 0.09,
+    "glutamic_acid": 1.47,
+    "glycine": 0.36,
+    "histidine": 0.24,
+    "isoleucine": 0.39,
+    "leucine": 0.74,
+    "lysine": 0.57,
+    "methionine": 0.13,
+    "phenylalanine": 0.49,
+    "proline": 0.53,
+    "serine": 0.53,
+    "threonine": 0.33,
+    "tryptophan": 0.1,
+    "tyrosine": 0.22,
+    "valine": 0.49,
+    "b1_thiamine": 0.23,
+    "b2_riboflavin": 0.24,
+    "b3_niacin": 2.38,
+    "b5_pantothenic_acid": 0.97,
+    "b6_pyridoxine": 0.36,
+    "b12_cobalamin": 0.0,
+    "folate": 128.73,
+    "vitamin_a": 65.36,
+    "vitamin_c": 60.75,
+    "vitamin_d": 0.0,
+    "vitamin_k": 23.62,
+    "calcium": 51.31,
+    "copper": 0.31,
+    "iron": 2.7,
+    "magnesium": 61.42,
+    "manganese": 0.42,
+    "phosphorus": 175.61,
+    "potassium": 700.43,
+    "selenium": 2.02,
+    "sodium": 1006.0,
+    "zinc": 1.08
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 13,
+    "counted": 13,
+    "partial": false,
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "choline",
+      "vitamin_e"
+    ]
   },
   "schema_metadata": {
     "category": [

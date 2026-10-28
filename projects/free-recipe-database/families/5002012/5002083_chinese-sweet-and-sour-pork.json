@@ -48,8 +48,9 @@
   "ingredients": [
     {
       "ingredient_id": 1385,
-      "name": "pork tenderloin, cut into 3/4-inch cubes",
-      "quantity": "340 g"
+      "name": "pork tenderloin",
+      "quantity": "340 g",
+      "prep": "cut into 3/4-inch cubes"
     },
     {
       "ingredient_id": 1833,
@@ -114,17 +115,20 @@
     {
       "ingredient_id": 236,
       "name": "pineapple",
-      "quantity": "170 g"
+      "quantity": "¼ small",
+      "weigh_as": "170 g"
     },
     {
       "ingredient_id": 291,
-      "name": "green bell pepper, roughly cut into 1-inch pieces",
-      "quantity": "½ large"
+      "name": "green bell pepper",
+      "quantity": "½ large",
+      "prep": "roughly cut into 1-inch pieces"
     },
     {
       "ingredient_id": 150,
-      "name": "red bell pepper, roughly cut into 1-inch pieces",
-      "quantity": "½ large"
+      "name": "red bell pepper",
+      "quantity": "½ large",
+      "prep": "roughly cut into 1-inch pieces"
     },
     {
       "ingredient_id": 273,
@@ -158,6 +162,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the pork tenderloin into 3/4-inch cubes. Roughly cut the green bell pepper into 1-inch pieces. Roughly cut the red bell pepper into 1-inch pieces.",
+      "secondary_message": "340 g pork tenderloin\n½ large green bell pepper\n½ large red bell pepper"
+    },
     {
       "id": 1,
       "primary_message": "For the Marinade: In a medium bowl, whisk Shaoxing wine, egg, egg white, baking soda, white pepper, oil, potato starch or cornstarch, and salt to combine. Add pork and toss to coat evenly. Let sit for at least 15 minutes or up to 2 hours in the refrigerator.",
@@ -205,15 +215,82 @@
     }
   ],
   "nutrition": {
-    "energy": 445.0,
-    "fat": 25.0,
-    "saturated": 3.0,
-    "carbs": 29.0,
-    "fiber": 2.0,
-    "sugars": 18.0,
-    "protein": 25.0,
-    "sodium": 989.0,
-    "cholesterol": 109.0
+    "energy": 620.53,
+    "alcohol": 0.0,
+    "ash": 3.23,
+    "water": 198.29,
+    "carbs": 36.89,
+    "fiber": 1.77,
+    "sugars": 17.2,
+    "fructose": 3.6,
+    "galactose": 0.01,
+    "glucose": 3.76,
+    "lactose": 0.01,
+    "maltose": 0.01,
+    "sucrose": 9.31,
+    "fat": 43.77,
+    "monounsaturated": 26.51,
+    "polyunsaturated": 11.89,
+    "omega_3": 3.66,
+    "omega_6": 8.05,
+    "saturated": 4.34,
+    "transfats": 0.19,
+    "cholesterol": 101.78,
+    "protein": 20.99,
+    "alanine": 1.22,
+    "arginine": 1.35,
+    "aspartic_acid": 2.19,
+    "cystine": 0.28,
+    "glutamic_acid": 3.35,
+    "glycine": 0.91,
+    "histidine": 0.84,
+    "isoleucine": 1.03,
+    "leucine": 1.75,
+    "lysine": 1.85,
+    "methionine": 0.57,
+    "phenylalanine": 0.93,
+    "proline": 0.83,
+    "serine": 0.99,
+    "threonine": 0.93,
+    "tryptophan": 0.23,
+    "tyrosine": 0.78,
+    "valine": 1.12,
+    "b1_thiamine": 0.91,
+    "b2_riboflavin": 0.46,
+    "b3_niacin": 6.55,
+    "b6_pyridoxine": 0.88,
+    "b12_cobalamin": 0.56,
+    "choline": 112.45,
+    "vitamin_a": 70.51,
+    "vitamin_c": 73.19,
+    "vitamin_d": 0.51,
+    "vitamin_e": 7.99,
+    "calcium": 52.44,
+    "copper": 0.2,
+    "iron": 1.72,
+    "magnesium": 40.17,
+    "manganese": 0.51,
+    "phosphorus": 292.1,
+    "potassium": 573.65,
+    "selenium": 31.56,
+    "sodium": 757.41,
+    "zinc": 1.97
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 22,
+    "counted": 22,
+    "partial": false,
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "caffeine",
+      "starch",
+      "sugar_alcohol",
+      "b5_pantothenic_acid",
+      "folate",
+      "vitamin_k"
+    ]
   },
   "schema_metadata": {
     "category": [

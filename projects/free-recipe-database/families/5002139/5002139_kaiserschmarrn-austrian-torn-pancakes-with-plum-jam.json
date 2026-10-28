@@ -38,7 +38,8 @@
     {
       "ingredient_id": 469,
       "name": "red plums",
-      "quantity": "2 lb"
+      "quantity": "12",
+      "weigh_as": "2 lb"
     },
     {
       "ingredient_id": 346,
@@ -67,13 +68,22 @@
     },
     {
       "ingredient_id": 192,
-      "name": "lemon, zested",
-      "quantity": "½"
+      "name": "lemon",
+      "quantity": "½",
+      "prep": "zested"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice",
-      "quantity": "3 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "3 tbsp",
+          "name": "fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 116,
@@ -87,8 +97,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, separated",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "separated"
     },
     {
       "ingredient_id": 1938,
@@ -112,6 +123,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Zest the lemon. Juice the lemon. Separate the eggs.",
+      "secondary_message": "½ lemon\n1 lemon\n4 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "For the Plum Jam (If Making): Cut the plums into 1/2-inch-thick wedges, discarding the pits. Add plum slices to a 3- or 4-quart saucepan along with the granulated sugar, brown sugar, cinnamon stick, reserved scraped vanilla pod (or extract), salt, and 1/4 cup water.",
@@ -179,15 +196,85 @@
     }
   ],
   "nutrition": {
-    "energy": 587.0,
-    "fat": 19.0,
-    "saturated": 10.0,
-    "carbs": 93.0,
-    "fiber": 3.0,
-    "sugars": 67.0,
-    "protein": 13.0,
-    "sodium": 148.0,
-    "cholesterol": 223.0
+    "energy": 647.23,
+    "alcohol": 0.0,
+    "ash": 2.16,
+    "caffeine": 0.0,
+    "water": 315.86,
+    "carbs": 109.81,
+    "fiber": 5.09,
+    "sugars": 80.45,
+    "fat": 19.26,
+    "monounsaturated": 5.98,
+    "polyunsaturated": 1.74,
+    "omega_3": 0.15,
+    "omega_6": 1.47,
+    "saturated": 9.97,
+    "cholesterol": 222.63,
+    "protein": 13.31,
+    "b1_thiamine": 0.36,
+    "b2_riboflavin": 0.56,
+    "b3_niacin": 2.93,
+    "b5_pantothenic_acid": 1.51,
+    "b6_pyridoxine": 0.21,
+    "b12_cobalamin": 0.74,
+    "choline": 167.3,
+    "folate": 132.84,
+    "vitamin_a": 243.85,
+    "vitamin_c": 31.54,
+    "vitamin_d": 1.79,
+    "vitamin_e": 1.54,
+    "vitamin_k": 15.94,
+    "calcium": 133.99,
+    "copper": 0.24,
+    "iron": 2.92,
+    "magnesium": 38.05,
+    "manganese": 0.37,
+    "phosphorus": 226.89,
+    "potassium": 589.68,
+    "selenium": 28.81,
+    "sodium": 142.82,
+    "zinc": 1.35
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 15,
+    "counted": 13,
+    "partial": false,
+    "not_counted": [
+      "Scraped seeds, from 1 vanilla bean pod"
+    ],
+    "estimated_share": 0.003,
+    "omitted_fields": [
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine"
+    ]
   },
   "schema_metadata": {
     "category": [

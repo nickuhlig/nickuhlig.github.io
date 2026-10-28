@@ -67,13 +67,15 @@
     },
     {
       "ingredient_id": 215,
-      "name": "dried apricots, diced",
-      "quantity": "½ cup"
+      "name": "dried apricots",
+      "quantity": "½ cup",
+      "prep": "diced"
     },
     {
       "ingredient_id": 2106,
-      "name": "pitted prunes, diced",
-      "quantity": "½ cup"
+      "name": "pitted prunes",
+      "quantity": "½ cup",
+      "prep": "diced"
     },
     {
       "ingredient_id": 2365,
@@ -87,8 +89,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, minced",
-      "quantity": "1 medium"
+      "name": "onion",
+      "quantity": "1 medium",
+      "prep": "minced"
     },
     {
       "ingredient_id": 76,
@@ -97,13 +100,15 @@
     },
     {
       "ingredient_id": 2530,
-      "name": "warm cooked Israeli couscous, fluffed",
-      "quantity": "4 cups"
+      "name": "warm cooked Israeli couscous",
+      "quantity": "4 cups",
+      "prep": "fluffed"
     },
     {
       "ingredient_id": 1808,
-      "name": "minced parsley",
-      "quantity": "¾ cup"
+      "name": "parsley",
+      "quantity": "¾ cup",
+      "prep": "minced"
     },
     {
       "ingredient_id": 88,
@@ -117,8 +122,9 @@
     },
     {
       "ingredient_id": 243,
-      "name": "packed fresh mint leaves",
-      "quantity": "1 cup"
+      "name": "packed fresh mint",
+      "quantity": "1 cup",
+      "prep": "leaves picked"
     },
     {
       "ingredient_id": 1808,
@@ -146,12 +152,26 @@
       "quantity": ""
     },
     {
-      "ingredient_id": 1480,
-      "name": "Fresh lemon juice",
-      "quantity": ""
+      "ingredient_id": 192,
+      "name": "Lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "",
+          "name": "Fresh lemon juice"
+        }
+      ],
+      "prep": "juiced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Dice the dried apricots. Dice the pitted prunes. Mince the onion. Fluff the warm cooked Israeli couscous. Mince the parsley. Pick the leaves from the mint. Juice the Lemon.",
+      "secondary_message": "½ cup dried apricots\n½ cup pitted prunes\n1 medium onion\n4 cups warm cooked Israeli couscous\n¾ cup parsley\n1 cup packed fresh mint\n1 Lemon"
+    },
     {
       "id": 1,
       "primary_message": "Preheat oven to 200°F and position oven rack low enough to fit crown roast in oven. Generously season crown roast all over with salt and pepper. Place roast on a rack set in a rimmed baking sheet and roast until lamb registers 115°F on an instant-read thermometer inserted into center of loin, 1 to 1 1/2 hours.",
@@ -169,7 +189,7 @@
     },
     {
       "id": 4,
-      "primary_message": "When lamb reaches 115°F, remove from oven. Increase oven to highest possible temperature (broil setting on some ovens, or about 500°F/260°C on others) and allow to heat fully. Cover lamb rib bones with foil. Roast lamb, checking temperature every 5 minutes and then more frequently as it approaches doneness, until lamb is browned and an instant-read thermometer inserted into thickest part of lamb registers 125°F to 130°F (52 to 54°C) for medium-rare, or 130°F to 135°F (54 to 57°C) for medium, about 10 minutes. Let lamb rest for 15 minutes.",
+      "primary_message": "When lamb reaches 115°F, remove from oven. Increase oven to highest possible temperature (broil setting on some ovens, or about 500°F/260°C on others) and allow to heat fully. Cover lamb rib bones with foil. Roast lamb, checking temperature every 5 minutes and then more frequently as it approaches doneness, until lamb is browned and an instant-read thermometer inserted into thickest part of lamb registers 125 to 130°F (52 to 54°C) for medium-rare, or 130 to 135°F (54 to 57°C) for medium, about 10 minutes. Let lamb rest for 15 minutes.",
       "secondary_message": null
     },
     {
@@ -179,15 +199,91 @@
     }
   ],
   "nutrition": {
-    "energy": 1349.0,
-    "fat": 111.0,
-    "saturated": 26.0,
-    "carbs": 42.0,
-    "fiber": 5.0,
-    "sugars": 16.0,
-    "protein": 48.0,
-    "sodium": 715.0,
-    "cholesterol": 168.0
+    "energy": 1755.21,
+    "ash": 6.0,
+    "water": 308.37,
+    "carbs": 136.41,
+    "fiber": 13.24,
+    "fat": 101.69,
+    "monounsaturated": 59.99,
+    "polyunsaturated": 11.19,
+    "omega_3": 1.08,
+    "omega_6": 9.71,
+    "saturated": 22.0,
+    "cholesterol": 169.74,
+    "protein": 77.93,
+    "b1_thiamine": 0.61,
+    "b2_riboflavin": 0.73,
+    "b3_niacin": 19.92,
+    "b5_pantothenic_acid": 3.68,
+    "b6_pyridoxine": 1.23,
+    "b12_cobalamin": 2.81,
+    "vitamin_a": 154.21,
+    "vitamin_c": 25.3,
+    "vitamin_d": 0.27,
+    "calcium": 154.81,
+    "copper": 1.03,
+    "iron": 9.99,
+    "magnesium": 176.59,
+    "manganese": 1.67,
+    "phosphorus": 881.76,
+    "potassium": 1789.38,
+    "sodium": 385.27,
+    "zinc": 8.03
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 21,
+    "counted": 14,
+    "partial": false,
+    "not_counted": [
+      "Kosher salt",
+      "freshly ground black pepper",
+      "Kosher salt",
+      "freshly ground black pepper",
+      "Kosher salt",
+      "freshly ground black pepper",
+      "Fresh lemon juice"
+    ],
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "alcohol",
+      "caffeine",
+      "starch",
+      "sugars",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine",
+      "choline",
+      "folate",
+      "vitamin_e",
+      "vitamin_k",
+      "selenium"
+    ]
   },
   "schema_metadata": {
     "category": [

@@ -39,13 +39,15 @@
   "ingredients": [
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, cubed, plus more for greasing",
-      "quantity": "⅓ cup plus 1 tbsp"
+      "name": "unsalted butter, plus more for greasing",
+      "quantity": "⅓ cup plus 1 tbsp",
+      "prep": "cubed"
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -54,8 +56,8 @@
     },
     {
       "ingredient_id": 116,
-      "name": "plus 1 teaspoon all-purpose flour",
-      "quantity": "½ cup plus 3 tbsp"
+      "name": "all-purpose flour",
+      "quantity": "½ cup plus 3 tbsp plus 1 tsp"
     },
     {
       "ingredient_id": 331,
@@ -84,8 +86,9 @@
     },
     {
       "ingredient_id": 29,
-      "name": "sliced almonds",
-      "quantity": "2 tbsp"
+      "name": "almonds",
+      "quantity": "2 tbsp",
+      "prep": "sliced"
     },
     {
       "ingredient_id": 1585,
@@ -99,6 +102,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cube the unsalted butter. Bring the eggs to room temperature. Slice the almonds.",
+      "secondary_message": "⅓ cup plus 1 tbsp unsalted butter, plus more for greasing\n2 large eggs\n2 tbsp almonds"
+    },
     {
       "id": 1,
       "primary_message": "For the Madeleines: Heat the butter in a heavy-bottomed and preferably light-colored medium saucepan over low heat, stirring occasionally, until melted. Continue cooking, stirring frequently, until foaming subsides and butter starts to smell nutty and milk solids are a deep golden brown, 4 to 5 minutes. Pour brown butter into a heatproof container and set aside to cool.",
@@ -131,15 +140,82 @@
     }
   ],
   "nutrition": {
-    "energy": 109,
-    "fat": 5.7,
-    "saturated": 3.1,
-    "carbs": 13,
-    "fiber": 0.2,
-    "sugars": 8.1,
-    "protein": 1.7,
-    "sodium": 47,
-    "cholesterol": 35
+    "energy": 95.88,
+    "alcohol": 0.05,
+    "ash": 0.35,
+    "caffeine": 0.0,
+    "water": 9.6,
+    "carbs": 11.99,
+    "fiber": 0.21,
+    "sugars": 8.01,
+    "fat": 4.88,
+    "monounsaturated": 1.58,
+    "polyunsaturated": 0.37,
+    "omega_3": 0.02,
+    "omega_6": 0.32,
+    "saturated": 2.64,
+    "cholesterol": 33.57,
+    "protein": 1.45,
+    "b1_thiamine": 0.04,
+    "b2_riboflavin": 0.06,
+    "b3_niacin": 0.27,
+    "b5_pantothenic_acid": 0.13,
+    "b6_pyridoxine": 0.01,
+    "b12_cobalamin": 0.07,
+    "choline": 20.25,
+    "folate": 14.87,
+    "vitamin_a": 43.4,
+    "vitamin_c": 0.33,
+    "vitamin_d": 0.14,
+    "vitamin_e": 0.37,
+    "vitamin_k": 0.37,
+    "calcium": 30.79,
+    "copper": 0.02,
+    "iron": 0.37,
+    "magnesium": 4.07,
+    "manganese": 0.05,
+    "phosphorus": 51.02,
+    "potassium": 24.23,
+    "selenium": 3.49,
+    "sodium": 39.24,
+    "zinc": 0.14
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 12,
+    "counted": 12,
+    "partial": false,
+    "estimated_share": 0.002,
+    "omitted_fields": [
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine"
+    ]
   },
   "schema_metadata": {
     "category": [

@@ -33,8 +33,9 @@
   "ingredients": [
     {
       "ingredient_id": 2164,
-      "name": "boneless skinless pork shoulder, cut into 1-inch cubes",
-      "quantity": "1.4 kg"
+      "name": "boneless skinless pork shoulder",
+      "quantity": "1.4 kg",
+      "prep": "cut into 1-inch cubes"
     },
     {
       "ingredient_id": 88,
@@ -53,18 +54,21 @@
     },
     {
       "ingredient_id": 2069,
-      "name": "tomatillos, husks removed",
-      "quantity": "0.91 kg"
+      "name": "tomatillos",
+      "quantity": "0.91 kg",
+      "prep": "husks removed"
     },
     {
       "ingredient_id": 24,
-      "name": "whole garlic, peeled",
-      "quantity": "6 cloves"
+      "name": "whole garlic",
+      "quantity": "6 cloves",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 151,
-      "name": "jalapeño peppers, stems removed, split in half lengthwise",
-      "quantity": "2"
+      "name": "jalapeño peppers",
+      "quantity": "2",
+      "prep": "stems removed, split in half lengthwise"
     },
     {
       "ingredient_id": 1044,
@@ -83,8 +87,9 @@
     },
     {
       "ingredient_id": 1713,
-      "name": "onion, finely diced",
-      "quantity": "1 large"
+      "name": "onion",
+      "quantity": "1 large",
+      "prep": "finely diced"
     },
     {
       "ingredient_id": 186,
@@ -98,6 +103,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the boneless skinless pork shoulder into 1-inch cubes. Remove the husks from the tomatillos. Peel the whole garlic. Remove the stems from the jalapeño peppers, then split them in half lengthwise. Finely dice the onion.",
+      "secondary_message": "1.4 kg boneless skinless pork shoulder\n0.91 kg tomatillos\n6 cloves whole garlic\n2 jalapeño peppers\n1 large onion"
+    },
     {
       "id": 1,
       "primary_message": "In large bowl, toss pork with 2 tablespoons salt until thoroughly coated. Set aside at room temperature for 1 hour.",
@@ -135,15 +146,85 @@
     }
   ],
   "nutrition": {
-    "energy": 528.0,
-    "fat": 36.0,
-    "saturated": 12.0,
-    "carbs": 16.0,
-    "fiber": 3.0,
-    "sugars": 7.0,
-    "protein": 36.0,
-    "sodium": 1179.0,
-    "cholesterol": 125.0
+    "energy": 419.94,
+    "alcohol": 0.0,
+    "ash": 3.04,
+    "caffeine": 0.0,
+    "water": 315.93,
+    "carbs": 12.08,
+    "fiber": 4.04,
+    "sugars": 6.47,
+    "fat": 29.99,
+    "monounsaturated": 12.09,
+    "polyunsaturated": 5.46,
+    "omega_3": 0.47,
+    "omega_6": 4.84,
+    "saturated": 9.31,
+    "cholesterol": 97.61,
+    "protein": 25.95,
+    "b1_thiamine": 1.16,
+    "b2_riboflavin": 0.48,
+    "b3_niacin": 7.7,
+    "b5_pantothenic_acid": 1.29,
+    "b6_pyridoxine": 0.8,
+    "b12_cobalamin": 1.02,
+    "choline": 96.95,
+    "folate": 31.48,
+    "vitamin_a": 35.48,
+    "vitamin_c": 84.33,
+    "vitamin_d": 2.31,
+    "vitamin_e": 1.54,
+    "vitamin_k": 33.82,
+    "calcium": 53.04,
+    "copper": 0.28,
+    "iron": 2.88,
+    "magnesium": 58.51,
+    "manganese": 0.34,
+    "phosphorus": 316.81,
+    "potassium": 890.08,
+    "selenium": 35.83,
+    "sodium": 390.93,
+    "zinc": 4.14
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-25",
+    "lines": 13,
+    "counted": 12,
+    "partial": false,
+    "not_counted": [
+      "Freshly ground black pepper"
+    ],
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine"
+    ]
   },
   "schema_metadata": {
     "category": [

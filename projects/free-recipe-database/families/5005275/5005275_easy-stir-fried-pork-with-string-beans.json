@@ -16,7 +16,8 @@
   "rating_count": 5,
   "allowed_type_ids": [
     1,
-    3
+    3,
+    7
   ],
   "violated_restriction_ids": [
     1,
@@ -77,21 +78,29 @@
     },
     {
       "ingredient_id": 111,
-      "name": "string beans, ends trimmed",
-      "quantity": "12 oz"
+      "name": "string beans",
+      "quantity": "12 oz",
+      "prep": "ends trimmed"
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger",
+      "name": "ginger root",
       "quantity": "1 (¼ inch) slice"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic, finely minced",
-      "quantity": "4 medium cloves"
+      "name": "garlic",
+      "quantity": "4 medium cloves",
+      "prep": "finely minced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Trim the ends of the string beans. Finely mince the garlic.",
+      "secondary_message": "12 oz string beans\n4 medium cloves garlic"
+    },
     {
       "id": 1,
       "primary_message": "Place pork in a large bowl. Add 1/4 teaspoon salt, sugar, ground white pepper, Shaoxing wine, soy sauce, 1 teaspoon oil, and cornstarch. Mix well and transfer to refrigerator for 30 minutes.",
@@ -114,15 +123,85 @@
     }
   ],
   "nutrition": {
-    "energy": 359.0,
-    "fat": 21.0,
-    "saturated": 3.0,
-    "carbs": 26.0,
-    "fiber": 4.0,
-    "sugars": 5.0,
-    "protein": 19.0,
-    "sodium": 288.0,
-    "cholesterol": 45.0
+    "energy": 184.81,
+    "alcohol": 0.0,
+    "ash": 1.69,
+    "caffeine": 0.0,
+    "water": 159.14,
+    "carbs": 10.27,
+    "fiber": 3.2,
+    "starch": 1.0,
+    "sugars": 4.14,
+    "fructose": 1.58,
+    "galactose": 0.0,
+    "glucose": 1.72,
+    "lactose": 0.0,
+    "maltose": 0.0,
+    "sucrose": 0.74,
+    "fat": 8.08,
+    "monounsaturated": 5.26,
+    "polyunsaturated": 2.5,
+    "omega_3": 0.21,
+    "omega_6": 1.51,
+    "saturated": 2.38,
+    "transfats": 0.07,
+    "cholesterol": 48.38,
+    "protein": 18.56,
+    "alanine": 1.05,
+    "arginine": 1.19,
+    "aspartic_acid": 1.89,
+    "cystine": 0.21,
+    "glutamic_acid": 2.84,
+    "glycine": 0.81,
+    "histidine": 0.74,
+    "isoleucine": 0.88,
+    "leucine": 1.52,
+    "lysine": 1.61,
+    "methionine": 0.47,
+    "phenylalanine": 0.77,
+    "proline": 0.74,
+    "serine": 0.82,
+    "threonine": 0.82,
+    "tryptophan": 0.2,
+    "tyrosine": 0.67,
+    "valine": 0.96,
+    "b1_thiamine": 0.42,
+    "b2_riboflavin": 0.26,
+    "b3_niacin": 5.09,
+    "b5_pantothenic_acid": 0.83,
+    "b6_pyridoxine": 0.75,
+    "b12_cobalamin": 0.41,
+    "choline": 62.01,
+    "folate": 37.77,
+    "vitamin_a": 41.2,
+    "vitamin_c": 15.15,
+    "vitamin_d": 0.38,
+    "vitamin_e": 0.68,
+    "vitamin_k": 51.59,
+    "calcium": 55.2,
+    "copper": 0.14,
+    "iron": 1.67,
+    "magnesium": 48.62,
+    "manganese": 0.33,
+    "phosphorus": 214.52,
+    "potassium": 533.43,
+    "selenium": 21.31,
+    "sodium": 98.17,
+    "zinc": 1.64
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 11,
+    "counted": 10,
+    "partial": false,
+    "not_counted": [
+      "Kosher salt"
+    ],
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "sugar_alcohol"
+    ]
   },
   "schema_metadata": {
     "category": [

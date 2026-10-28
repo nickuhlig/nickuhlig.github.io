@@ -85,8 +85,9 @@
     },
     {
       "ingredient_id": 2478,
-      "name": "pressed tofu, cut into 1- by 1/2- by 1/4-inch pieces",
-      "quantity": "70 g"
+      "name": "pressed tofu",
+      "quantity": "70 g",
+      "prep": "cut into 1- by 1/2- by 1/4-inch pieces"
     },
     {
       "ingredient_id": 3495,
@@ -100,8 +101,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "Asian shallot, cut into 1/4-inch dice",
-      "quantity": "1 small"
+      "name": "Asian shallot",
+      "quantity": "1 small",
+      "prep": "cut into 1/4-inch dice"
     },
     {
       "ingredient_id": 121,
@@ -115,8 +117,9 @@
     },
     {
       "ingredient_id": 2224,
-      "name": "Chinese flat garlic chives, cut into 1 1/2–inch pieces , divided",
-      "quantity": "40 g"
+      "name": "Chinese flat garlic chives, divided",
+      "quantity": "40 g",
+      "prep": "cut into 1 1/2–inch pieces"
     },
     {
       "ingredient_id": 1761,
@@ -130,6 +133,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cut the pressed tofu into 1- by 1/2- by 1/4-inch pieces. Cut the Asian shallot into 1/4-inch dice. Cut the Chinese flat garlic chives into 1 1/2–inch pieces.",
+      "secondary_message": "70 g pressed tofu\n1 small Asian shallot\n40 g Chinese flat garlic chives, divided"
+    },
     {
       "id": 1,
       "primary_message": "For the Rice Noodles: In a medium bowl, cover noodles with slightly warm water (about 43°C; 43°C). Allow noodles to hydrate until pliable, about 30 minutes.",
@@ -177,15 +186,85 @@
     }
   ],
   "nutrition": {
-    "energy": 657.0,
-    "fat": 39.0,
-    "saturated": 8.0,
-    "carbs": 49.0,
-    "fiber": 5.0,
-    "sugars": 25.0,
-    "protein": 31.0,
-    "sodium": 2283.0,
-    "cholesterol": 154.0
+    "energy": 738.33,
+    "water": 243.06,
+    "carbs": 75.52,
+    "fiber": 5.51,
+    "sugars": 23.16,
+    "fat": 35.12,
+    "monounsaturated": 18.15,
+    "polyunsaturated": 7.52,
+    "omega_3": 1.44,
+    "omega_6": 5.89,
+    "saturated": 6.83,
+    "cholesterol": 170.63,
+    "protein": 32.01,
+    "b1_thiamine": 0.64,
+    "b2_riboflavin": 0.51,
+    "b3_niacin": 6.03,
+    "b12_cobalamin": 1.13,
+    "folate": 143.42,
+    "vitamin_c": 19.59,
+    "calcium": 253.01,
+    "copper": 0.53,
+    "iron": 5.49,
+    "magnesium": 150.01,
+    "manganese": 1.24,
+    "phosphorus": 457.92,
+    "potassium": 786.09,
+    "selenium": 51.37,
+    "sodium": 2406.45,
+    "zinc": 3.83
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 17,
+    "counted": 16,
+    "partial": true,
+    "missing": [
+      "packed sweet preserved radish"
+    ],
+    "estimated_share": 0.073,
+    "omitted_fields": [
+      "alcohol",
+      "ash",
+      "caffeine",
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine",
+      "b5_pantothenic_acid",
+      "b6_pyridoxine",
+      "choline",
+      "vitamin_a",
+      "vitamin_d",
+      "vitamin_e",
+      "vitamin_k"
+    ]
   },
   "schema_metadata": {
     "category": [
@@ -204,7 +283,7 @@
   "source": "seriouseats",
   "backfill_bonus_fields": null,
   "description": "Maybe the most famous Thai noodle dish outside of Thailand, a well-made pad Thai has a balance of salty, sour, and sweet flavors. Here, we break down how to make great pad Thai at home with an in-depth look of its key components: aromatics, noodles, sauce, and fresh finishing touches.",
-  "notes": "Optional or for serving: Lime wedges, for serving; Thai chile powder, for serving; Fish sauce, for serving\n\nNotes: You can buy boneless pork shoulder and slice it very thinly yourself; par-freezing helps for thinner slices. You want roughly 0.5 cm–thick slices that are about 2.5 x 4 cm in size. You can also buy pre-sliced pork as it is sold in Asian markets for hot pot instead.\nLook for tamarind concentrate from a Thai brand; Indian and other South Asian brands of tamarind concentrate or tamarind paste are not a good substitute here. Alternatively, you can buy a block of tamarind pulp and prepare it as follows: Remove any seeds, then soak the pulp in an equal volume of boiling water; let stand until softened, then squeeze by hand until tamarind and water are fully blended.\n\nMake-ahead and storage: The noodles can be rehydrated and stored in a zip-top bag in the refrigerator up to 2 days in advance.\nThe sauce can be made up to 2 weeks in advance and refrigerated.\nThe pork can be marinated up to 1 day in advance and stored in an airtight container in the refrigerator.\nPad Thai is best served immediately, but leftovers can safely be stored for up to 3 days in an airtight container in the refrigerator.",
+  "notes": "Optional or for serving: Lime wedges, for serving; Thai chile powder, for serving; Fish sauce, for serving\n\nNotes: You can buy boneless pork shoulder and slice it very thinly yourself; par-freezing helps for thinner slices. You want roughly 0.5 cm–thick slices that are about 1x1.5 inches in size. You can also buy pre-sliced pork as it is sold in Asian markets for hot pot instead.\nLook for tamarind concentrate from a Thai brand; Indian and other South Asian brands of tamarind concentrate or tamarind paste are not a good substitute here. Alternatively, you can buy a block of tamarind pulp and prepare it as follows: Remove any seeds, then soak the pulp in an equal volume of boiling water; let stand until softened, then squeeze by hand until tamarind and water are fully blended.\n\nMake-ahead and storage: The noodles can be rehydrated and stored in a zip-top bag in the refrigerator up to 2 days in advance.\nThe sauce can be made up to 2 weeks in advance and refrigerated.\nThe pork can be marinated up to 1 day in advance and stored in an airtight container in the refrigerator.\nPad Thai is best served immediately, but leftovers can safely be stored for up to 3 days in an airtight container in the refrigerator.",
   "author": [
     "Derek Lucci"
   ],

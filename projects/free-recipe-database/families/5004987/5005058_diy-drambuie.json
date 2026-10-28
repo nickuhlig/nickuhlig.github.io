@@ -64,8 +64,9 @@
     },
     {
       "ingredient_id": 1766,
-      "name": "fresh picked rosemary leaves",
-      "quantity": "1 tbsp"
+      "name": "fresh rosemary leaves",
+      "quantity": "1 tbsp",
+      "prep": "picked"
     },
     {
       "ingredient_id": 2573,
@@ -74,6 +75,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the rosemary leaves from the stems.",
+      "secondary_message": "1 tbsp fresh rosemary leaves"
+    },
     {
       "id": 1,
       "primary_message": "Break up fennel seeds using a mortar and pestle or under a heavy skillet. Cook honey, water, fennel, and rosemary over medium heat stirring frequently, until it is integrated into a syrup, about 5 minutes. Let cool, with the fennel and rosemary still in the pot. Scrape off any white foam.",

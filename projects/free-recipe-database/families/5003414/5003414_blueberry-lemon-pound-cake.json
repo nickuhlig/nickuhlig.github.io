@@ -69,8 +69,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, at room temperature",
-      "quantity": "8 tbsp"
+      "name": "unsalted butter",
+      "quantity": "8 tbsp",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -88,9 +89,17 @@
       "quantity": "½ tsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 2346,
@@ -110,6 +119,12 @@
   ],
   "instructions": [
     {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the unsalted butter to room temperature. Juice the lemon.",
+      "secondary_message": "8 tbsp unsalted butter\n1 lemon"
+    },
+    {
       "id": 1,
       "primary_message": "Adjust oven rack to middle position and preheat oven to 350°F. Butter and flour an 8 1/2 by 4 1/2-inch loaf pan. In a small bowl, whisk together flour, baking powder, baking soda, and salt; set aside.",
       "secondary_message": null
@@ -126,15 +141,82 @@
     }
   ],
   "nutrition": {
-    "energy": 267.0,
-    "fat": 11.0,
-    "saturated": 6.0,
-    "carbs": 40.0,
-    "fiber": 1.0,
-    "sugars": 23.0,
-    "protein": 4.0,
-    "sodium": 180.0,
-    "cholesterol": 62.0
+    "energy": 258.12,
+    "alcohol": 0.07,
+    "ash": 0.74,
+    "caffeine": 0.0,
+    "water": 39.32,
+    "carbs": 38.25,
+    "fiber": 1.11,
+    "sugars": 22.72,
+    "fat": 10.5,
+    "monounsaturated": 3.07,
+    "polyunsaturated": 0.65,
+    "omega_3": 0.06,
+    "omega_6": 0.51,
+    "saturated": 6.13,
+    "cholesterol": 61.87,
+    "protein": 3.68,
+    "alanine": 0.15,
+    "arginine": 0.18,
+    "aspartic_acid": 0.25,
+    "cystine": 0.07,
+    "glutamic_acid": 0.91,
+    "glycine": 0.13,
+    "histidine": 0.09,
+    "isoleucine": 0.16,
+    "leucine": 0.28,
+    "lysine": 0.16,
+    "methionine": 0.08,
+    "phenylalanine": 0.19,
+    "proline": 0.31,
+    "serine": 0.22,
+    "threonine": 0.13,
+    "tryptophan": 0.05,
+    "tyrosine": 0.13,
+    "valine": 0.19,
+    "b1_thiamine": 0.16,
+    "b2_riboflavin": 0.17,
+    "b3_niacin": 1.22,
+    "b5_pantothenic_acid": 0.3,
+    "b6_pyridoxine": 0.04,
+    "b12_cobalamin": 0.12,
+    "choline": 36.09,
+    "folate": 61.93,
+    "vitamin_a": 95.24,
+    "vitamin_c": 4.17,
+    "vitamin_d": 0.2,
+    "vitamin_e": 0.52,
+    "vitamin_k": 5.17,
+    "calcium": 28.95,
+    "copper": 0.05,
+    "iron": 1.14,
+    "magnesium": 7.9,
+    "manganese": 0.21,
+    "phosphorus": 62.13,
+    "potassium": 67.77,
+    "selenium": 9.81,
+    "sodium": 180.44,
+    "zinc": 0.34
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 12,
+    "counted": 12,
+    "partial": false,
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats"
+    ]
   },
   "schema_metadata": {
     "category": [

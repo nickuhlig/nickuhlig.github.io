@@ -16,7 +16,8 @@
   "rating_count": 5,
   "allowed_type_ids": [
     1,
-    3
+    3,
+    7
   ],
   "violated_restriction_ids": [
     10,
@@ -86,8 +87,9 @@
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onions, thinly sliced",
-      "quantity": "2 medium"
+      "name": "yellow onions",
+      "quantity": "2 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 1008,
@@ -111,8 +113,9 @@
     },
     {
       "ingredient_id": 479,
-      "name": "good-quality sauerkraut, drained",
-      "quantity": "2.25 kg"
+      "name": "good-quality sauerkraut",
+      "quantity": "2.25 kg",
+      "prep": "drained"
     },
     {
       "ingredient_id": 313,
@@ -131,6 +134,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the yellow onions. Drain the good-quality sauerkraut.",
+      "secondary_message": "2 medium yellow onions\n2.25 kg good-quality sauerkraut"
+    },
     {
       "id": 1,
       "primary_message": "Generously season pork loin and shoulder all over with salt. You can either proceed with the rest of the recipe right away, or, if you have time, place both cuts on a wire rack set over a rimmed baking sheet and refrigerate, uncovered, for up to 2 days. (Pre-salting the fresh cuts of pork will season them deeply and help them retain juiciness later.)",
@@ -188,15 +197,88 @@
     }
   ],
   "nutrition": {
-    "energy": 1074.0,
-    "fat": 66.0,
-    "saturated": 24.0,
-    "carbs": 43.0,
-    "fiber": 10.0,
-    "sugars": 9.0,
-    "protein": 72.0,
-    "sodium": 5448.0,
-    "cholesterol": 239.0
+    "energy": 767.61,
+    "alcohol": 4.85,
+    "ash": 9.88,
+    "caffeine": 0.0,
+    "water": 480.34,
+    "carbs": 29.34,
+    "fiber": 8.74,
+    "sugars": 7.29,
+    "fat": 51.49,
+    "monounsaturated": 22.98,
+    "polyunsaturated": 8.22,
+    "omega_3": 0.43,
+    "omega_6": 6.85,
+    "saturated": 17.15,
+    "cholesterol": 144.48,
+    "protein": 38.86,
+    "b1_thiamine": 0.96,
+    "b2_riboflavin": 0.45,
+    "b3_niacin": 11.46,
+    "b5_pantothenic_acid": 1.88,
+    "b6_pyridoxine": 1.34,
+    "b12_cobalamin": 1.43,
+    "choline": 152.87,
+    "folate": 76.66,
+    "vitamin_a": 27.68,
+    "vitamin_c": 52.08,
+    "vitamin_d": 2.26,
+    "vitamin_e": 1.38,
+    "vitamin_k": 31.71,
+    "calcium": 106.45,
+    "copper": 0.46,
+    "iron": 5.83,
+    "magnesium": 92.05,
+    "manganese": 0.58,
+    "phosphorus": 461.46,
+    "potassium": 1436.96,
+    "selenium": 47.21,
+    "sodium": 2438.11,
+    "zinc": 4.71
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 13,
+    "counted": 11,
+    "partial": true,
+    "missing": [
+      "ham hock"
+    ],
+    "not_counted": [
+      "Kosher salt"
+    ],
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine"
+    ]
   },
   "schema_metadata": {
     "category": [

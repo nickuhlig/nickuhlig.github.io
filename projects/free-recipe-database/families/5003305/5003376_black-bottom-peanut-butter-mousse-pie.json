@@ -42,13 +42,15 @@
   "ingredients": [
     {
       "ingredient_id": 1019,
-      "name": "full-size graham crackers, pulverized to crumbs",
-      "quantity": "8"
+      "name": "full-size graham crackers",
+      "quantity": "8",
+      "prep": "pulverized to crumbs"
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "4 tbsp"
+      "name": "unsalted butter",
+      "quantity": "4 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 2183,
@@ -88,6 +90,12 @@
   ],
   "instructions": [
     {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pulverize the full-size graham crackers to crumbs. Melt the unsalted butter.",
+      "secondary_message": "8 full-size graham crackers\n4 tbsp unsalted butter"
+    },
+    {
       "id": 1,
       "primary_message": "Make the crust: Preheat the oven to 175°C (350°F). Combine the graham cracker crumbs and melted butter in a bowl and stir to combine. Press the mixture evenly into the bottom and sides of the pie plate. Bake for 15 minutes, until the crust gets slightly browned. Allow the crust to cool completely.",
       "secondary_message": null
@@ -109,15 +117,82 @@
     }
   ],
   "nutrition": {
-    "energy": 455.0,
-    "fat": 37.0,
-    "saturated": 18.0,
-    "carbs": 27.0,
-    "fiber": 2.0,
-    "sugars": 21.0,
-    "protein": 8.0,
-    "sodium": 174.0,
-    "cholesterol": 69.0
+    "energy": 487.35,
+    "ash": 1.74,
+    "caffeine": 21.34,
+    "water": 36.63,
+    "carbs": 39.91,
+    "fiber": 3.68,
+    "sugars": 26.61,
+    "fat": 33.94,
+    "monounsaturated": 12.52,
+    "polyunsaturated": 4.6,
+    "omega_3": 0.16,
+    "omega_6": 4.27,
+    "saturated": 14.51,
+    "cholesterol": 30.24,
+    "protein": 9.38,
+    "b1_thiamine": 0.1,
+    "b2_riboflavin": 0.18,
+    "b3_niacin": 4.16,
+    "b5_pantothenic_acid": 0.59,
+    "b6_pyridoxine": 0.16,
+    "b12_cobalamin": 0.21,
+    "vitamin_a": 102.61,
+    "vitamin_e": 2.94,
+    "vitamin_k": 4.45,
+    "calcium": 81.11,
+    "copper": 0.45,
+    "iron": 2.5,
+    "magnesium": 95.81,
+    "manganese": 0.88,
+    "phosphorus": 206.47,
+    "potassium": 357.27,
+    "selenium": 5.49,
+    "sodium": 210.67,
+    "zinc": 1.59
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 9,
+    "counted": 9,
+    "partial": false,
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "alcohol",
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine",
+      "choline",
+      "folate",
+      "vitamin_c",
+      "vitamin_d"
+    ]
   },
   "schema_metadata": {
     "category": [

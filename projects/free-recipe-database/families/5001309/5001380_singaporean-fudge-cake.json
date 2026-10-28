@@ -70,8 +70,9 @@
     },
     {
       "ingredient_id": 2526,
-      "name": "black coffee, cooled slightly",
-      "quantity": "6 tbsp"
+      "name": "black coffee",
+      "quantity": "6 tbsp",
+      "prep": "cooled slightly"
     },
     {
       "ingredient_id": 116,
@@ -125,14 +126,21 @@
     },
     {
       "ingredient_id": 1729,
-      "name": "dark chocolate, 60 to 70% cocoa , roughly chopped",
-      "quantity": "128 g"
+      "name": "dark chocolate, 60 to 70% cocoa",
+      "quantity": "128 g",
+      "prep": "roughly chopped"
     }
   ],
   "instructions": [
     {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Cool the black coffee slightly. Roughly chop the dark chocolate.",
+      "secondary_message": "6 tbsp black coffee\n128 g dark chocolate, 60 to 70% cocoa"
+    },
+    {
       "id": 1,
-      "primary_message": "For the Cake: Adjust oven rack to lower-middle position and preheat to 180°C (350°F). Lightly grease one 23-by-10-cm aluminum Pullman loaf pan with neutral oil and line with parchment cross-wise so that there is a 2.5-cm overhang on both sides. (See notes below if you do not have a Pullman loaf pan.)",
+      "primary_message": "For the Cake: Adjust oven rack to lower-middle position and preheat to 180°C (350°F). Lightly grease one 9- by 10-cm aluminum Pullman loaf pan with neutral oil and line with parchment cross-wise so that there is a 2.5-cm overhang on both sides. (See notes below if you do not have a Pullman loaf pan.)",
       "secondary_message": null
     },
     {
@@ -172,15 +180,82 @@
     }
   ],
   "nutrition": {
-    "energy": 656.0,
-    "fat": 39.0,
-    "saturated": 12.0,
-    "carbs": 70.0,
-    "fiber": 3.0,
-    "sugars": 39.0,
-    "protein": 7.0,
-    "sodium": 480.0,
-    "cholesterol": 80.0
+    "energy": 653.32,
+    "ash": 2.37,
+    "water": 83.01,
+    "carbs": 72.73,
+    "fiber": 5.12,
+    "sugars": 40.87,
+    "fat": 38.98,
+    "monounsaturated": 17.66,
+    "polyunsaturated": 6.52,
+    "omega_3": 1.93,
+    "omega_6": 4.47,
+    "saturated": 12.66,
+    "cholesterol": 78.47,
+    "protein": 7.63,
+    "b1_thiamine": 0.23,
+    "b2_riboflavin": 0.28,
+    "b3_niacin": 1.94,
+    "b5_pantothenic_acid": 0.5,
+    "b6_pyridoxine": 0.05,
+    "b12_cobalamin": 0.2,
+    "vitamin_a": 88.66,
+    "vitamin_e": 3.96,
+    "vitamin_k": 20.44,
+    "calcium": 92.52,
+    "copper": 0.61,
+    "iron": 4.46,
+    "magnesium": 81.98,
+    "manganese": 0.78,
+    "phosphorus": 227.25,
+    "potassium": 296.59,
+    "selenium": 15.92,
+    "sodium": 392.91,
+    "zinc": 1.43
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 16,
+    "counted": 16,
+    "partial": false,
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "alcohol",
+      "caffeine",
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine",
+      "choline",
+      "folate",
+      "vitamin_c",
+      "vitamin_d"
+    ]
   },
   "schema_metadata": {
     "category": [
@@ -199,7 +274,7 @@
   "source": "seriouseats",
   "backfill_bonus_fields": null,
   "description": "In Singapore, people flock to Lana Cakes for a taste of their famous chocolate fudge cake. What sets it apart isn’t just the cake’s tenderness and intense chocolate flavor—it’s also the dessert’s unique frosting, which resembles chocolate pudding. Here's how to make the cake at home.",
-  "notes": "Total time, including resting: 2 hr 45 min.\n\nNotes: This recipe was developed using a 23-by-10-cm Pullman loaf pan. If you don’t have a Pullman loaf pan, you can use a regular 23-by-10-cm loaf pan, however, because a regular loaf pan is shorter, you’ll have to remove 1/2 cup of the cake batter before baking to prevent the cake from spilling over as it bakes. You can place the remaining cake batter in a greased ramekin and bake until just firm to the touch, 15 to 20 minutes.\n\nMake-ahead and storage: The cooled, unfrosted cake can be made up to 1 day in advance.\nThe frosting must be used immediately after it’s made, as the gelatin will set as the frosting cools and make it impossible to spread, but the frosted cake can be refrigerated in an airtight container for up to 3 days or kept at room temperature for up to 1 day.",
+  "notes": "Total time, including resting: 2 hr 45 min.\n\nNotes: This recipe was developed using a 9- by 10-cm Pullman loaf pan. If you don’t have a Pullman loaf pan, you can use a regular 9- by 10-cm loaf pan, however, because a regular loaf pan is shorter, you’ll have to remove 1/2 cup of the cake batter before baking to prevent the cake from spilling over as it bakes. You can place the remaining cake batter in a greased ramekin and bake until just firm to the touch, 15 to 20 minutes.\n\nMake-ahead and storage: The cooled, unfrosted cake can be made up to 1 day in advance.\nThe frosting must be used immediately after it’s made, as the gelatin will set as the frosting cools and make it impossible to spread, but the frosted cake can be refrigerated in an airtight container for up to 3 days or kept at room temperature for up to 1 day.",
   "author": [
     "Pamelia Chia"
   ],

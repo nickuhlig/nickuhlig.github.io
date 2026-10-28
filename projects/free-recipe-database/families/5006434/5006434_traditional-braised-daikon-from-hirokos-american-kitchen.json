@@ -56,9 +56,17 @@
       "quantity": "¼ cup plus 2 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "¼ cup"
+      "ingredient_id": 192,
+      "name": "lemons",
+      "quantity": "1 ½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "¼ cup",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1721,
@@ -92,11 +100,18 @@
     },
     {
       "ingredient_id": 153,
-      "name": "thinly sliced scallion",
-      "quantity": "1 tbsp"
+      "name": "scallion",
+      "quantity": "1 tbsp",
+      "prep": "thinly sliced"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Juice the lemons. Thinly slice the scallion.",
+      "secondary_message": "1 ½ lemons\n1 tbsp scallion"
+    },
     {
       "id": 1,
       "primary_message": "For the spicy miso: Place the miso, sugar, mirin, and sake in a medium pot and whisk until smooth. Place the pot over medium heat and bring it to a simmer.",
@@ -124,15 +139,85 @@
     }
   ],
   "nutrition": {
-    "energy": 89.0,
-    "fat": 1.0,
-    "saturated": 0.0,
-    "carbs": 17.0,
-    "fiber": 3.0,
-    "sugars": 10.0,
-    "protein": 2.0,
-    "sodium": 436.0,
-    "cholesterol": 0.0
+    "energy": 462.74,
+    "carbs": 83.55,
+    "fat": 6.02,
+    "monounsaturated": 1.22,
+    "polyunsaturated": 2.84,
+    "omega_3": 0.39,
+    "omega_6": 2.45,
+    "saturated": 1.03,
+    "transfats": 0.0,
+    "protein": 12.59,
+    "sodium": 3665.19
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 12,
+    "counted": 12,
+    "partial": false,
+    "stand_ins": [
+      "spicy miso sauce"
+    ],
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "alcohol",
+      "ash",
+      "caffeine",
+      "water",
+      "fiber",
+      "starch",
+      "sugars",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "cholesterol",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine",
+      "b1_thiamine",
+      "b2_riboflavin",
+      "b3_niacin",
+      "b5_pantothenic_acid",
+      "b6_pyridoxine",
+      "b12_cobalamin",
+      "choline",
+      "folate",
+      "vitamin_a",
+      "vitamin_c",
+      "vitamin_d",
+      "vitamin_e",
+      "vitamin_k",
+      "calcium",
+      "copper",
+      "iron",
+      "magnesium",
+      "manganese",
+      "phosphorus",
+      "potassium",
+      "selenium",
+      "zinc"
+    ]
   },
   "schema_metadata": {
     "category": [

@@ -54,18 +54,21 @@
     },
     {
       "ingredient_id": 150,
-      "name": "red bell pepper, stemmed, seeded, and very thinly sliced",
-      "quantity": "1 medium"
+      "name": "red bell pepper",
+      "quantity": "1 medium",
+      "prep": "stemmed, seeded, and very thinly sliced"
     },
     {
       "ingredient_id": 291,
-      "name": "green bell pepper, stemmed, seeded, and very thinly sliced",
-      "quantity": "1 medium"
+      "name": "green bell pepper",
+      "quantity": "1 medium",
+      "prep": "stemmed, seeded, and very thinly sliced"
     },
     {
       "ingredient_id": 152,
-      "name": "yellow onion, thinly sliced",
-      "quantity": "1 large"
+      "name": "yellow onion",
+      "quantity": "1 large",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 115,
@@ -100,6 +103,12 @@
   ],
   "instructions": [
     {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Stem, seed, and very thinly slice the red bell pepper. Stem, seed, and very thinly slice the green bell pepper. Thinly slice the yellow onion.",
+      "secondary_message": "1 medium red bell pepper\n1 medium green bell pepper\n1 large yellow onion"
+    },
+    {
       "id": 1,
       "primary_message": "Season pork chops all over with salt and set on a wire rack set in a rimmed baking sheet for at least 40 minutes or refrigerate, uncovered, for up to 24 hours.",
       "secondary_message": null
@@ -121,7 +130,7 @@
     },
     {
       "id": 5,
-      "primary_message": "Nestle pork chops in the vegetables, reduce heat to low to maintain a simmer and cook until pork chops register 130°F to 140°F (54 to 60°C) on an instant-read thermometer for medium and sauce has thickened to a gravy-like consistency (add water, if needed, if the vegetables are too dry), about 10 minutes. Add frozen peas and cook until warmed through, about 5 minutes.",
+      "primary_message": "Nestle pork chops in the vegetables, reduce heat to low to maintain a simmer and cook until pork chops register 130 to 140°F (54 to 60°C) on an instant-read thermometer for medium and sauce has thickened to a gravy-like consistency (add water, if needed, if the vegetables are too dry), about 10 minutes. Add frozen peas and cook until warmed through, about 5 minutes.",
       "secondary_message": null
     },
     {
@@ -131,15 +140,85 @@
     }
   ],
   "nutrition": {
-    "energy": 851.0,
-    "fat": 52.0,
-    "saturated": 20.0,
-    "carbs": 19.0,
-    "fiber": 4.0,
-    "sugars": 8.0,
-    "protein": 69.0,
-    "sodium": 603.0,
-    "cholesterol": 365.0
+    "energy": 456.73,
+    "alcohol": 6.06,
+    "ash": 2.25,
+    "caffeine": 0.0,
+    "water": 273.63,
+    "carbs": 12.94,
+    "fiber": 3.67,
+    "sugars": 5.98,
+    "fat": 25.74,
+    "monounsaturated": 8.21,
+    "polyunsaturated": 2.13,
+    "omega_3": 0.14,
+    "omega_6": 1.9,
+    "saturated": 7.62,
+    "transfats": 0.1,
+    "cholesterol": 100.77,
+    "protein": 32.5,
+    "b1_thiamine": 0.8,
+    "b2_riboflavin": 0.36,
+    "b3_niacin": 10.51,
+    "b5_pantothenic_acid": 1.28,
+    "b6_pyridoxine": 1.32,
+    "b12_cobalamin": 0.81,
+    "choline": 98.1,
+    "folate": 45.52,
+    "vitamin_a": 125.73,
+    "vitamin_c": 89.51,
+    "vitamin_d": 1.03,
+    "vitamin_e": 1.65,
+    "vitamin_k": 18.01,
+    "calcium": 73.55,
+    "copper": 0.2,
+    "iron": 2.06,
+    "magnesium": 61.99,
+    "manganese": 0.36,
+    "phosphorus": 366.94,
+    "potassium": 804.84,
+    "selenium": 53.15,
+    "sodium": 91.86,
+    "zinc": 3.33
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 12,
+    "counted": 11,
+    "partial": false,
+    "not_counted": [
+      "Kosher salt"
+    ],
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine"
+    ]
   },
   "schema_metadata": {
     "category": [

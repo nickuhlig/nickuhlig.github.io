@@ -18,7 +18,8 @@
     1,
     3,
     4,
-    7
+    7,
+    8
   ],
   "violated_restriction_ids": [
     2,
@@ -61,7 +62,7 @@
     {
       "ingredient_id": 1044,
       "name": "vegetable oil, divided, plus extra for drizzling",
-      "quantity": "1 tbsp"
+      "quantity": "¼ cup plus 1 tbsp"
     },
     {
       "ingredient_id": 1746,
@@ -125,18 +126,18 @@
     }
   ],
   "nutrition": {
-    "energy": 206.17,
+    "energy": 326.4,
     "ash": 2.84,
     "water": 236.09,
     "carbs": 10.28,
     "fiber": 2.21,
     "sugars": 3.97,
-    "fat": 13.58,
-    "monounsaturated": 3.42,
-    "polyunsaturated": 5.19,
-    "omega_3": 0.63,
-    "omega_6": 4.43,
-    "saturated": 3.65,
+    "fat": 27.18,
+    "monounsaturated": 6.51,
+    "polyunsaturated": 12.99,
+    "omega_3": 1.52,
+    "omega_6": 11.25,
+    "saturated": 5.72,
     "cholesterol": 27.81,
     "protein": 14.76,
     "alanine": 0.93,
@@ -163,18 +164,16 @@
     "b5_pantothenic_acid": 3.39,
     "b6_pyridoxine": 0.44,
     "b12_cobalamin": 0.3,
-    "choline": 73.53,
+    "choline": 73.56,
     "folate": 68.85,
     "vitamin_a": 112.99,
     "vitamin_c": 17.87,
-    "vitamin_d": 2.67,
-    "vitamin_e": 1.52,
-    "vitamin_k": 205.09,
+    "vitamin_e": 2.64,
+    "vitamin_k": 230.1,
     "calcium": 62.67,
     "copper": 1.0,
     "iron": 2.19,
     "magnesium": 59.93,
-    "manganese": 0.85,
     "phosphorus": 345.77,
     "potassium": 1035.34,
     "selenium": 56.65,
@@ -183,7 +182,7 @@
   },
   "nutrition_meta": {
     "source": "calculated",
-    "date": "2026-10-25",
+    "date": "2026-10-27",
     "lines": 12,
     "counted": 10,
     "partial": false,
@@ -203,7 +202,9 @@
       "maltose",
       "sucrose",
       "sugar_alcohol",
-      "transfats"
+      "transfats",
+      "vitamin_d",
+      "manganese"
     ]
   },
   "schema_metadata": {

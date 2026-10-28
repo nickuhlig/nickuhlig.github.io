@@ -88,8 +88,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 118,
@@ -98,8 +99,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "melted unsalted butter",
-      "quantity": "3 tbsp"
+      "name": "unsalted butter",
+      "quantity": "3 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 118,
@@ -108,8 +110,9 @@
     },
     {
       "ingredient_id": 2285,
-      "name": "semi-sweet chocolate, finely chopped",
-      "quantity": "142 g"
+      "name": "semi-sweet chocolate",
+      "quantity": "142 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 353,
@@ -118,6 +121,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the eggs to room temperature. Melt the unsalted butter. Finely chop the semi-sweet chocolate.",
+      "secondary_message": "2 large eggs\n3 tbsp unsalted butter\n142 g semi-sweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "For the Chocolate Pancakes: Using a fine-mesh strainer set over a large bowl, sift together flour, cocoa, sugar, baking powder, salt, and baking soda. In a medium bowl, whisk eggs, milk, melted butter, and espresso powder (if using) until well combined. Pour liquid ingredients into dry and gently mix until batter is just combined and moistened (there will still be lumps). Do not overmix the batter.",
@@ -135,15 +144,82 @@
     }
   ],
   "nutrition": {
-    "energy": 376.0,
-    "fat": 17.0,
-    "saturated": 9.0,
-    "carbs": 51.0,
-    "fiber": 3.0,
-    "sugars": 29.0,
-    "protein": 8.0,
-    "sodium": 386.0,
-    "cholesterol": 83.0
+    "energy": 388.36,
+    "alcohol": 0.24,
+    "ash": 2.53,
+    "caffeine": 25.68,
+    "water": 71.64,
+    "carbs": 54.99,
+    "fiber": 3.92,
+    "sugars": 28.74,
+    "fat": 17.34,
+    "monounsaturated": 5.37,
+    "polyunsaturated": 1.02,
+    "omega_3": 0.11,
+    "omega_6": 0.86,
+    "saturated": 9.87,
+    "cholesterol": 83.36,
+    "protein": 8.88,
+    "alanine": 0.37,
+    "arginine": 0.42,
+    "aspartic_acid": 0.71,
+    "cystine": 0.14,
+    "glutamic_acid": 1.98,
+    "glycine": 0.3,
+    "histidine": 0.21,
+    "isoleucine": 0.39,
+    "leucine": 0.68,
+    "lysine": 0.48,
+    "methionine": 0.19,
+    "phenylalanine": 0.45,
+    "proline": 0.7,
+    "serine": 0.51,
+    "threonine": 0.33,
+    "tryptophan": 0.12,
+    "tyrosine": 0.34,
+    "valine": 0.5,
+    "b1_thiamine": 0.27,
+    "b2_riboflavin": 0.35,
+    "b3_niacin": 1.92,
+    "b5_pantothenic_acid": 0.65,
+    "b6_pyridoxine": 0.08,
+    "b12_cobalamin": 0.43,
+    "choline": 67.69,
+    "folate": 96.55,
+    "vitamin_a": 103.29,
+    "vitamin_c": 0.0,
+    "vitamin_d": 1.13,
+    "vitamin_e": 0.47,
+    "vitamin_k": 2.26,
+    "calcium": 182.81,
+    "copper": 0.42,
+    "iron": 3.14,
+    "magnesium": 66.0,
+    "manganese": 0.57,
+    "phosphorus": 296.45,
+    "potassium": 295.68,
+    "selenium": 18.62,
+    "sodium": 331.61,
+    "zinc": 1.35
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 12,
+    "counted": 12,
+    "partial": false,
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats"
+    ]
   },
   "schema_metadata": {
     "category": [

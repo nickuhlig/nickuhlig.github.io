@@ -17,8 +17,7 @@
   "allowed_type_ids": [
     1,
     3,
-    4,
-    7
+    4
   ],
   "violated_restriction_ids": [
     1,
@@ -56,8 +55,9 @@
     },
     {
       "ingredient_id": 144,
-      "name": "shallot, thinly sliced",
-      "quantity": "1 medium"
+      "name": "shallot",
+      "quantity": "1 medium",
+      "prep": "thinly sliced"
     },
     {
       "ingredient_id": 2530,
@@ -75,14 +75,23 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "2 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "1",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "2 tbsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 1932,
-      "name": "picked dill, roughly chopped, plus more for garnish",
-      "quantity": "½ cup"
+      "name": "dill, plus more for garnish",
+      "quantity": "½ cup",
+      "prep": "picked, roughly chopped"
     },
     {
       "ingredient_id": 1879,
@@ -91,6 +100,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Thinly slice the shallot. Juice the lemon. Pick the dill fronds from the stems and roughly chop them.",
+      "secondary_message": "1 medium shallot\n1 lemon\n½ cup dill, plus more for garnish"
+    },
     {
       "id": 1,
       "primary_message": "Season salmon with salt and pepper. Heat 1/3 cup oil in a 30-cm stainless steel skillet over medium-high heat until shimmering. Add salmon, skin-side down, and immediately reduce heat to medium-low. Cook, pressing down gently with a spatula to ensure contact, until skin is rendered and crisp, about 6 minutes. If skin shows resistance when attempting to lift with a spatula, allow it to continue to cook until it lifts easily.",
@@ -113,15 +128,86 @@
     }
   ],
   "nutrition": {
-    "energy": 551.0,
-    "fat": 39.0,
-    "saturated": 6.0,
-    "carbs": 20.0,
-    "fiber": 4.0,
-    "sugars": 3.0,
-    "protein": 30.0,
-    "sodium": 511.0,
-    "cholesterol": 71.0
+    "energy": 586.45,
+    "ash": 3.59,
+    "water": 271.1,
+    "carbs": 37.49,
+    "fiber": 2.74,
+    "fat": 34.53,
+    "monounsaturated": 17.9,
+    "polyunsaturated": 6.66,
+    "omega_3": 3.09,
+    "omega_6": 3.13,
+    "saturated": 6.14,
+    "cholesterol": 62.4,
+    "protein": 30.14,
+    "b1_thiamine": 0.37,
+    "b2_riboflavin": 0.28,
+    "b3_niacin": 11.69,
+    "b5_pantothenic_acid": 2.45,
+    "b6_pyridoxine": 0.85,
+    "b12_cobalamin": 3.66,
+    "folate": 67.4,
+    "vitamin_a": 142.77,
+    "vitamin_c": 12.99,
+    "vitamin_d": 12.47,
+    "calcium": 58.72,
+    "copper": 0.21,
+    "iron": 1.75,
+    "magnesium": 70.46,
+    "manganese": 0.54,
+    "phosphorus": 373.84,
+    "potassium": 641.61,
+    "sodium": 745.49,
+    "zinc": 1.01
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 11,
+    "counted": 9,
+    "partial": false,
+    "not_counted": [
+      "Kosher salt",
+      "freshly ground black pepper"
+    ],
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "alcohol",
+      "caffeine",
+      "starch",
+      "sugars",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine",
+      "choline",
+      "vitamin_e",
+      "vitamin_k",
+      "selenium"
+    ]
   },
   "schema_metadata": {
     "category": [

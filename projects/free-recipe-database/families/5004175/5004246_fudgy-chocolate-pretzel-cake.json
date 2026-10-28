@@ -48,8 +48,9 @@
   "ingredients": [
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, finely chopped",
-      "quantity": "113 g"
+      "name": "bittersweet chocolate",
+      "quantity": "113 g",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 2526,
@@ -113,18 +114,20 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, softened",
-      "quantity": "13 tbsp (6 ½ oz)"
+      "name": "unsalted butter",
+      "quantity": "13 tbsp (6 ½ oz)",
+      "prep": "softened"
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, melted and slightly cooled",
-      "quantity": "142 g"
+      "name": "bittersweet chocolate",
+      "quantity": "142 g",
+      "prep": "melted and slightly cooled"
     },
     {
       "ingredient_id": 1003,
       "name": "sour cream",
-      "quantity": "⅔ cup plus 1/4 cup"
+      "quantity": "⅔ cup plus ¼ cup"
     },
     {
       "ingredient_id": 333,
@@ -143,11 +146,18 @@
     },
     {
       "ingredient_id": 2466,
-      "name": "pretzel knots, crushed, divided",
-      "quantity": "85 g"
+      "name": "pretzel knots, divided",
+      "quantity": "85 g",
+      "prep": "crushed"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the bittersweet chocolate. Soften the unsalted butter. Melt the bittersweet chocolate and let it cool slightly. Crush the pretzel knots.",
+      "secondary_message": "113 g bittersweet chocolate\n13 tbsp (6 ½ oz) unsalted butter\n142 g bittersweet chocolate\n85 g pretzel knots, divided"
+    },
     {
       "id": 1,
       "primary_message": "For the cake: Adjust oven rack to middle position and preheat oven to 175°C (350°F). Grease two 23-cm cake pans and line with parchment paper.",
@@ -175,15 +185,82 @@
     }
   ],
   "nutrition": {
-    "energy": 976.0,
-    "fat": 50.0,
-    "saturated": 21.0,
-    "carbs": 122.0,
-    "fiber": 7.0,
-    "sugars": 79.0,
-    "protein": 12.0,
-    "sodium": 596.0,
-    "cholesterol": 107.0
+    "energy": 894.64,
+    "ash": 3.32,
+    "caffeine": 62.22,
+    "water": 73.0,
+    "carbs": 122.91,
+    "fiber": 7.69,
+    "sugars": 85.68,
+    "fat": 44.51,
+    "monounsaturated": 11.94,
+    "polyunsaturated": 9.27,
+    "omega_3": 1.01,
+    "omega_6": 7.98,
+    "saturated": 19.65,
+    "cholesterol": 101.3,
+    "protein": 9.92,
+    "b1_thiamine": 0.27,
+    "b2_riboflavin": 0.35,
+    "b3_niacin": 2.47,
+    "b5_pantothenic_acid": 0.7,
+    "b6_pyridoxine": 0.08,
+    "b12_cobalamin": 0.25,
+    "vitamin_a": 168.85,
+    "vitamin_e": 1.93,
+    "vitamin_k": 28.82,
+    "calcium": 127.4,
+    "copper": 0.88,
+    "iron": 5.27,
+    "magnesium": 123.21,
+    "phosphorus": 276.37,
+    "potassium": 486.25,
+    "selenium": 19.73,
+    "sodium": 536.94,
+    "zinc": 2.07
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 20,
+    "counted": 20,
+    "partial": false,
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "alcohol",
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine",
+      "choline",
+      "folate",
+      "vitamin_c",
+      "vitamin_d",
+      "manganese"
+    ]
   },
   "schema_metadata": {
     "category": [

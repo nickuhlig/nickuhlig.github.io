@@ -49,8 +49,9 @@
   "ingredients": [
     {
       "ingredient_id": 3504,
-      "name": "persimmons, peeled and chopped",
-      "quantity": "4 to 5 large"
+      "name": "persimmons",
+      "quantity": "4 to 5 large",
+      "prep": "peeled and chopped"
     },
     {
       "ingredient_id": 346,
@@ -63,9 +64,17 @@
       "quantity": "½ cup"
     },
     {
-      "ingredient_id": 1480,
-      "name": "lemon juice",
-      "quantity": "1 tsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tsp",
+          "name": "lemon juice"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 88,
@@ -74,6 +83,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and chop the persimmons. Juice the lemon.",
+      "secondary_message": "4 to 5 large persimmons\n½ lemon"
+    },
     {
       "id": 1,
       "primary_message": "In a blender or food processor, combine persimmons with sugar. Blend on high speed until very smooth, about 30 seconds. Using a fine-mesh sieve, strain mixture; measure out 2 cups of purée, and reserve remainder for another use.",
@@ -91,15 +106,82 @@
     }
   ],
   "nutrition": {
-    "energy": 140.0,
-    "fat": 0.0,
-    "saturated": 0.0,
-    "carbs": 37.0,
-    "fiber": 3.0,
-    "sugars": 31.0,
-    "protein": 1.0,
-    "sodium": 106.0,
-    "cholesterol": 0.0
+    "energy": 183.95,
+    "alcohol": 0.0,
+    "ash": 0.81,
+    "caffeine": 3.95,
+    "water": 157.09,
+    "carbs": 48.4,
+    "fiber": 6.13,
+    "sugars": 37.97,
+    "fructose": 9.47,
+    "glucose": 9.26,
+    "sucrose": 19.26,
+    "fat": 0.33,
+    "monounsaturated": 0.06,
+    "polyunsaturated": 0.07,
+    "omega_3": 0.01,
+    "omega_6": 0.07,
+    "saturated": 0.03,
+    "transfats": 0.0,
+    "cholesterol": 0.0,
+    "protein": 0.99,
+    "alanine": 0.05,
+    "arginine": 0.04,
+    "aspartic_acid": 0.1,
+    "cystine": 0.02,
+    "glutamic_acid": 0.13,
+    "glycine": 0.04,
+    "histidine": 0.02,
+    "isoleucine": 0.04,
+    "leucine": 0.07,
+    "lysine": 0.06,
+    "methionine": 0.01,
+    "phenylalanine": 0.04,
+    "proline": 0.04,
+    "serine": 0.04,
+    "threonine": 0.05,
+    "tryptophan": 0.02,
+    "tyrosine": 0.03,
+    "valine": 0.05,
+    "b1_thiamine": 0.05,
+    "b2_riboflavin": 0.04,
+    "b3_niacin": 0.17,
+    "b6_pyridoxine": 0.17,
+    "b12_cobalamin": 0.0,
+    "choline": 13.05,
+    "folate": 14.76,
+    "vitamin_a": 137.78,
+    "vitamin_c": 13.09,
+    "vitamin_d": 0.0,
+    "vitamin_e": 1.24,
+    "vitamin_k": 4.42,
+    "calcium": 13.88,
+    "copper": 0.2,
+    "iron": 0.27,
+    "magnesium": 15.95,
+    "manganese": 0.65,
+    "phosphorus": 29.18,
+    "potassium": 282.39,
+    "selenium": 1.12,
+    "sodium": 92.9,
+    "zinc": 0.19
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 5,
+    "counted": 5,
+    "partial": false,
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "starch",
+      "galactose",
+      "lactose",
+      "maltose",
+      "sugar_alcohol",
+      "b5_pantothenic_acid"
+    ]
   },
   "schema_metadata": {
     "category": [

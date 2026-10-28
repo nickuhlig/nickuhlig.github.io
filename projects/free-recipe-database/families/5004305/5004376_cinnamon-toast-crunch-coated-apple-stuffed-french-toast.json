@@ -84,7 +84,7 @@
     {
       "ingredient_id": 88,
       "name": "salt",
-      "quantity": "¼ tsp plus 1/8 tsp"
+      "quantity": "¼ tsp plus ⅛ tsp"
     },
     {
       "ingredient_id": 353,
@@ -93,18 +93,21 @@
     },
     {
       "ingredient_id": 2382,
-      "name": "Cinnamon Toast Crunch® cereal, lightly crushed, divided",
-      "quantity": "3 cups"
+      "name": "Cinnamon Toast Crunch® cereal, divided",
+      "quantity": "3 cups",
+      "prep": "lightly crushed"
     },
     {
       "ingredient_id": 29,
-      "name": "sliced almonds, crushed",
-      "quantity": "⅓ cup"
+      "name": "almonds",
+      "quantity": "⅓ cup",
+      "prep": "sliced, crushed"
     },
     {
       "ingredient_id": 1442,
-      "name": "mascarpone cheese, softened",
-      "quantity": "113 g"
+      "name": "mascarpone cheese",
+      "quantity": "113 g",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1012,
@@ -113,6 +116,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Lightly crush the Cinnamon Toast Crunch® cereal. Slice and crush the almonds. Soften the mascarpone cheese.",
+      "secondary_message": "3 cups Cinnamon Toast Crunch® cereal, divided\n⅓ cup almonds\n113 g mascarpone cheese"
+    },
     {
       "id": 1,
       "primary_message": "Heat 3 tablespoons butter in large nonstick skillet over medium heat. When the foaming subsides, add apples and cook, stirring occasionally, until apples have softened and are beginning to caramelize, 8 to 10 minutes. Sprinkle 2 tablespoons granulated sugar and 1⁄4 teaspoon cinnamon over apples. Cook until apples are golden, about 2 minutes more. Transfer apples to bowl and let cool.",
@@ -135,15 +144,82 @@
     }
   ],
   "nutrition": {
-    "energy": 959.0,
-    "fat": 52.0,
-    "saturated": 27.0,
-    "carbs": 104.0,
-    "fiber": 6.0,
-    "sugars": 37.0,
-    "protein": 23.0,
-    "sodium": 1085.0,
-    "cholesterol": 253.0
+    "energy": 965.6,
+    "water": 260.69,
+    "carbs": 100.95,
+    "fiber": 8.68,
+    "sugars": 49.39,
+    "fat": 55.36,
+    "protein": 18.21,
+    "b1_thiamine": 0.92,
+    "b2_riboflavin": 1.17,
+    "b3_niacin": 8.64,
+    "b6_pyridoxine": 0.74,
+    "choline": 148.51,
+    "folate": 475.5,
+    "vitamin_a": 605.89,
+    "vitamin_e": 4.08,
+    "vitamin_k": 9.93,
+    "calcium": 305.69,
+    "copper": 0.32,
+    "iron": 12.75,
+    "magnesium": 71.98,
+    "phosphorus": 359.17,
+    "potassium": 561.9,
+    "selenium": 40.6,
+    "sodium": 767.34,
+    "zinc": 5.63
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 14,
+    "counted": 14,
+    "partial": false,
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "alcohol",
+      "ash",
+      "caffeine",
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "monounsaturated",
+      "polyunsaturated",
+      "omega_3",
+      "omega_6",
+      "saturated",
+      "transfats",
+      "cholesterol",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine",
+      "b5_pantothenic_acid",
+      "b12_cobalamin",
+      "vitamin_c",
+      "vitamin_d",
+      "manganese"
+    ]
   },
   "schema_metadata": {
     "category": [

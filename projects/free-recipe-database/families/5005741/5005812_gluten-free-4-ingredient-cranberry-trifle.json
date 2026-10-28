@@ -45,13 +45,15 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, at room temperature",
-      "quantity": "227 g"
+      "name": "cream cheese",
+      "quantity": "227 g",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 3529,
-      "name": "soft-baked gluten-free chocolate chip cookies, crumbled",
-      "quantity": "6"
+      "name": "soft-baked gluten-free chocolate chip cookies",
+      "quantity": "6",
+      "prep": "crumbled"
     },
     {
       "ingredient_id": 2044,
@@ -60,6 +62,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the cream cheese to room temperature. Crumble the soft-baked gluten-free chocolate chip cookies.",
+      "secondary_message": "227 g cream cheese\n6 soft-baked gluten-free chocolate chip cookies"
+    },
     {
       "id": 1,
       "primary_message": "In medium bowl, combine 1/2 cup cranberry sauce and cream cheese. Beat with a hand mixer on medium speed until light and fluffy, about 30 seconds. Taste. If cranberry cream isn't sweet enough, add confectioner's sugar to taste.",
@@ -72,15 +80,82 @@
     }
   ],
   "nutrition": {
-    "energy": 413.0,
-    "fat": 25.0,
-    "saturated": 13.0,
-    "carbs": 46.0,
-    "fiber": 2.0,
-    "sugars": 31.0,
-    "protein": 5.0,
-    "sodium": 216.0,
-    "cholesterol": 46.0
+    "energy": 342.06,
+    "water": 48.13,
+    "carbs": 37.02,
+    "fiber": 0.89,
+    "sugars": 24.46,
+    "fat": 20.74,
+    "monounsaturated": 5.97,
+    "polyunsaturated": 1.17,
+    "saturated": 11.67,
+    "cholesterol": 44.26,
+    "protein": 4.04,
+    "vitamin_a": 132.16,
+    "vitamin_c": 0.35,
+    "calcium": 50.9,
+    "copper": 0.09,
+    "iron": 1.48,
+    "magnesium": 13.68,
+    "manganese": 0.16,
+    "phosphorus": 67.27,
+    "potassium": 112.56,
+    "sodium": 203.88,
+    "zinc": 0.39
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 4,
+    "counted": 4,
+    "partial": false,
+    "estimated_share": 0.271,
+    "omitted_fields": [
+      "alcohol",
+      "ash",
+      "caffeine",
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "omega_3",
+      "omega_6",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine",
+      "b1_thiamine",
+      "b2_riboflavin",
+      "b3_niacin",
+      "b5_pantothenic_acid",
+      "b6_pyridoxine",
+      "b12_cobalamin",
+      "choline",
+      "folate",
+      "vitamin_d",
+      "vitamin_e",
+      "vitamin_k",
+      "selenium"
+    ]
   },
   "schema_metadata": {
     "category": [

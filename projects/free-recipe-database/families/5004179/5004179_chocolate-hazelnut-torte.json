@@ -43,8 +43,9 @@
   "ingredients": [
     {
       "ingredient_id": 1729,
-      "name": "dark chocolate, chopped",
-      "quantity": "6 oz"
+      "name": "dark chocolate",
+      "quantity": "6 oz",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1716,
@@ -53,8 +54,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "butter, at room temperature",
-      "quantity": "½ cup"
+      "name": "butter",
+      "quantity": "½ cup",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 346,
@@ -63,8 +65,9 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "4 large"
+      "name": "eggs",
+      "quantity": "4 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1609,
@@ -88,6 +91,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Chop the dark chocolate. Bring the butter to room temperature. Bring the eggs to room temperature.",
+      "secondary_message": "6 oz dark chocolate\n½ cup butter\n4 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "Set oven rack to the middle of your oven, and preheat to 400°F. Grease an 8-inch round cheesecake pan with butter and set aside. (An 8-inch springform pan will work just fine as well.)",
@@ -125,15 +134,82 @@
     }
   ],
   "nutrition": {
-    "energy": 368.0,
-    "fat": 27.0,
-    "saturated": 11.0,
-    "carbs": 26.0,
-    "fiber": 3.0,
-    "sugars": 18.0,
-    "protein": 6.0,
-    "sodium": 264.0,
-    "cholesterol": 99.0
+    "energy": 352.95,
+    "ash": 1.42,
+    "caffeine": 13.61,
+    "water": 18.77,
+    "carbs": 22.89,
+    "fiber": 3.38,
+    "sugars": 14.85,
+    "fat": 27.01,
+    "monounsaturated": 12.04,
+    "polyunsaturated": 2.07,
+    "omega_3": 0.07,
+    "omega_6": 1.92,
+    "saturated": 11.16,
+    "cholesterol": 99.33,
+    "protein": 6.38,
+    "b1_thiamine": 0.13,
+    "b2_riboflavin": 0.14,
+    "b3_niacin": 0.64,
+    "b5_pantothenic_acid": 0.53,
+    "b6_pyridoxine": 0.12,
+    "b12_cobalamin": 0.24,
+    "vitamin_a": 110.2,
+    "vitamin_e": 2.71,
+    "vitamin_k": 4.16,
+    "calcium": 44.55,
+    "copper": 0.57,
+    "iron": 3.21,
+    "magnesium": 65.35,
+    "manganese": 1.26,
+    "phosphorus": 139.3,
+    "potassium": 253.37,
+    "selenium": 8.87,
+    "sodium": 211.57,
+    "zinc": 1.2
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 9,
+    "counted": 9,
+    "partial": false,
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "alcohol",
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine",
+      "choline",
+      "folate",
+      "vitamin_c",
+      "vitamin_d"
+    ]
   },
   "schema_metadata": {
     "category": [

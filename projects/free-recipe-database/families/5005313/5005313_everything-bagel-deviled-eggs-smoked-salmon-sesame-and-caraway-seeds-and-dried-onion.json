@@ -37,8 +37,9 @@
   "ingredients": [
     {
       "ingredient_id": 121,
-      "name": "hard-boiled eggs, peeled and halved lengthwise",
-      "quantity": "6 large"
+      "name": "eggs",
+      "quantity": "6 large",
+      "prep": "hard-boiled, peeled and halved lengthwise"
     },
     {
       "ingredient_id": 355,
@@ -51,9 +52,17 @@
       "quantity": "2 tbsp"
     },
     {
-      "ingredient_id": 1480,
-      "name": "fresh lemon juice, from 1 whole lemon",
-      "quantity": "1 tbsp"
+      "ingredient_id": 192,
+      "name": "lemon",
+      "quantity": "½",
+      "weigh_parts": [
+        {
+          "ingredient_id": 1480,
+          "quantity": "1 tbsp",
+          "name": "fresh lemon juice, from 1 whole lemon"
+        }
+      ],
+      "prep": "juiced"
     },
     {
       "ingredient_id": 181,
@@ -72,8 +81,9 @@
     },
     {
       "ingredient_id": 342,
-      "name": "minced smoked salmon, plus more for garnish",
-      "quantity": "¼ cup plus 2 tbsp"
+      "name": "smoked salmon, plus more for garnish",
+      "quantity": "¼ cup plus 2 tbsp",
+      "prep": "minced"
     },
     {
       "ingredient_id": 88,
@@ -82,6 +92,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Hard-boil the eggs, then peel and halve them lengthwise. Juice the lemon. Mince the smoked salmon.",
+      "secondary_message": "6 large eggs\n½ lemon\n¼ cup plus 2 tbsp smoked salmon, plus more for garnish"
+    },
     {
       "id": 1,
       "primary_message": "Place all of the yolks in a medium bowl. Select 8 of the best looking egg white halves and set aside. Reserve the remaining 4 for another use. Add cream cheese, mayonnaise, lemon juice, sesame seeds, dehydrated onion, caraway seeds, and smoked salmon to yolks and, using a sturdy whisk, mash and stir together until thoroughly combined. Season with salt.",
@@ -94,15 +110,85 @@
     }
   ],
   "nutrition": {
-    "energy": 114.0,
-    "fat": 8.0,
-    "saturated": 2.0,
-    "carbs": 1.0,
-    "fiber": 0.0,
-    "sugars": 1.0,
-    "protein": 8.0,
-    "sodium": 415.0,
-    "cholesterol": 148.0
+    "energy": 98.26,
+    "alcohol": 0.0,
+    "ash": 0.65,
+    "caffeine": 0.0,
+    "water": 36.07,
+    "carbs": 0.92,
+    "fiber": 0.09,
+    "sugars": 0.42,
+    "fructose": 0.02,
+    "galactose": 0.0,
+    "glucose": 0.16,
+    "lactose": 0.14,
+    "maltose": 0.0,
+    "sucrose": 0.02,
+    "fat": 7.78,
+    "monounsaturated": 2.44,
+    "polyunsaturated": 2.44,
+    "omega_3": 0.25,
+    "omega_6": 2.12,
+    "saturated": 2.38,
+    "cholesterol": 145.59,
+    "protein": 5.85,
+    "alanine": 0.34,
+    "arginine": 0.38,
+    "aspartic_acid": 0.61,
+    "cystine": 0.11,
+    "glutamic_acid": 0.82,
+    "glycine": 0.21,
+    "histidine": 0.15,
+    "isoleucine": 0.31,
+    "leucine": 0.5,
+    "lysine": 0.44,
+    "methionine": 0.18,
+    "phenylalanine": 0.3,
+    "proline": 0.25,
+    "serine": 0.42,
+    "threonine": 0.26,
+    "tryptophan": 0.08,
+    "tyrosine": 0.23,
+    "valine": 0.38,
+    "b1_thiamine": 0.02,
+    "b2_riboflavin": 0.19,
+    "b3_niacin": 0.26,
+    "b5_pantothenic_acid": 0.64,
+    "b6_pyridoxine": 0.09,
+    "b12_cobalamin": 0.48,
+    "choline": 116.43,
+    "folate": 19.31,
+    "vitamin_a": 72.84,
+    "vitamin_c": 0.91,
+    "vitamin_d": 1.48,
+    "vitamin_e": 0.6,
+    "vitamin_k": 5.82,
+    "calcium": 30.01,
+    "copper": 0.06,
+    "iron": 0.77,
+    "magnesium": 7.41,
+    "manganese": 0.03,
+    "phosphorus": 89.33,
+    "potassium": 72.68,
+    "selenium": 13.43,
+    "sodium": 115.22,
+    "zinc": 0.56
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 9,
+    "counted": 8,
+    "partial": false,
+    "not_counted": [
+      "Kosher salt"
+    ],
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "starch",
+      "sugar_alcohol",
+      "transfats"
+    ]
   },
   "schema_metadata": {
     "category": [

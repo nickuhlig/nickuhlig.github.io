@@ -17,7 +17,8 @@
   "allowed_type_ids": [
     1,
     3,
-    7
+    7,
+    8
   ],
   "violated_restriction_ids": [
     1,
@@ -48,8 +49,9 @@
   "ingredients": [
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, peeled",
-      "quantity": "2 small"
+      "name": "garlic cloves",
+      "quantity": "2 small",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 88,
@@ -58,8 +60,9 @@
     },
     {
       "ingredient_id": 1762,
-      "name": "fresh Thai red chiles, stemmed",
-      "quantity": "6"
+      "name": "fresh Thai red chiles",
+      "quantity": "6",
+      "prep": "stemmed"
     },
     {
       "ingredient_id": 346,
@@ -78,13 +81,15 @@
     },
     {
       "ingredient_id": 1814,
-      "name": "coriander roots, cleaned",
-      "quantity": "4"
+      "name": "coriander roots",
+      "quantity": "4",
+      "prep": "cleaned"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic cloves, peeled",
-      "quantity": "5 small"
+      "name": "garlic cloves",
+      "quantity": "5 small",
+      "prep": "peeled"
     },
     {
       "ingredient_id": 88,
@@ -143,11 +148,18 @@
     },
     {
       "ingredient_id": 121,
-      "name": "soft-boiled eggs, peeled",
-      "quantity": "7 large"
+      "name": "eggs",
+      "quantity": "7 large",
+      "prep": "soft-boiled, peeled"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel the garlic cloves. Stem the fresh Thai red chiles. Clean the coriander roots. Peel the garlic cloves. Soft-boil the eggs, then peel them.",
+      "secondary_message": "2 small garlic cloves\n6 fresh Thai red chiles\n4 coriander roots\n5 small garlic cloves\n7 large eggs"
+    },
     {
       "id": 1,
       "primary_message": "For the Dipping Sauce: In a granite mortar and pestle, combine garlic, a small pinch of kosher salt, and chiles and pound until a coarse paste forms, about 30 seconds. Add sugar and continue to pound into a mostly fine paste (some larger pieces are okay), about 1 minute. Stir in vinegar, transfer to a small bowl, and set aside. Wipe out mortar and pestle.",
@@ -185,15 +197,88 @@
     }
   ],
   "nutrition": {
-    "energy": 508.0,
-    "fat": 30.0,
-    "saturated": 10.0,
-    "carbs": 24.0,
-    "fiber": 2.0,
-    "sugars": 20.0,
-    "protein": 34.0,
-    "sodium": 1573.0,
-    "cholesterol": 307.0
+    "energy": 938.28,
+    "alcohol": 0.0,
+    "caffeine": 0.0,
+    "water": 124.31,
+    "carbs": 15.74,
+    "fiber": 0.65,
+    "sugars": 13.28,
+    "fat": 86.57,
+    "monounsaturated": 39.68,
+    "polyunsaturated": 10.13,
+    "omega_3": 0.84,
+    "omega_6": 9.23,
+    "saturated": 31.19,
+    "cholesterol": 325.86,
+    "protein": 22.73,
+    "b1_thiamine": 0.65,
+    "b2_riboflavin": 0.66,
+    "b3_niacin": 7.61,
+    "b5_pantothenic_acid": 1.35,
+    "b6_pyridoxine": 0.38,
+    "b12_cobalamin": 1.83,
+    "folate": 35.43,
+    "vitamin_a": 104.2,
+    "vitamin_c": 4.61,
+    "vitamin_e": 1.32,
+    "vitamin_k": 7.27,
+    "calcium": 59.07,
+    "copper": 0.16,
+    "iron": 2.41,
+    "magnesium": 33.0,
+    "manganese": 0.28,
+    "phosphorus": 297.08,
+    "potassium": 449.91,
+    "selenium": 31.64,
+    "sodium": 1302.3,
+    "zinc": 2.43
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 20,
+    "counted": 17,
+    "partial": false,
+    "not_counted": [
+      "Kosher salt"
+    ],
+    "stand_ins": [
+      "coriander roots, cleaned"
+    ],
+    "estimated_share": 0.033,
+    "omitted_fields": [
+      "ash",
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine",
+      "choline",
+      "vitamin_d"
+    ]
   },
   "schema_metadata": {
     "category": [

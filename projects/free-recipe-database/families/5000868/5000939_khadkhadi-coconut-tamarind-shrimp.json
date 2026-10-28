@@ -56,8 +56,9 @@
   "ingredients": [
     {
       "ingredient_id": 1811,
-      "name": "shrimp, peeled, deveined, and tails removed",
-      "quantity": "0.45 kg"
+      "name": "raw peeled shrimp, fresh or frozen",
+      "quantity": "0.45 kg",
+      "prep": "tails removed"
     },
     {
       "ingredient_id": 88,
@@ -81,8 +82,9 @@
     },
     {
       "ingredient_id": 2334,
-      "name": "peeled, skinned, seedless tamarind fruit pulp",
-      "quantity": "57 g"
+      "name": "peeled, seedless tamarind fruit pulp",
+      "quantity": "57 g",
+      "prep": "skinned"
     },
     {
       "ingredient_id": 359,
@@ -91,13 +93,15 @@
     },
     {
       "ingredient_id": 2187,
-      "name": "frozen grated fresh coconut, thawed",
-      "quantity": "90 g"
+      "name": "frozen grated fresh coconut",
+      "quantity": "90 g",
+      "prep": "thawed"
     },
     {
       "ingredient_id": 24,
-      "name": "garlic clove, chopped",
-      "quantity": "1 medium"
+      "name": "garlic clove",
+      "quantity": "1 medium",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 359,
@@ -131,6 +135,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Remove the tails from the raw peeled shrimp. Skin the peeled. Thaw the frozen grated fresh coconut. Chop the garlic clove.",
+      "secondary_message": "0.45 kg raw peeled shrimp, fresh or frozen\n57 g peeled, seedless tamarind fruit pulp\n90 g frozen grated fresh coconut\n1 medium garlic clove"
+    },
     {
       "id": 1,
       "primary_message": "For brining the shrimp: In a large metal or glass bowl, toss the shrimp with salt, chile powder, turmeric, and baking soda until combined and refrigerate for 30 to 45 minutes before cooking.",
@@ -168,15 +178,85 @@
     }
   ],
   "nutrition": {
-    "energy": 310.0,
-    "fat": 16.0,
-    "saturated": 8.0,
-    "carbs": 15.0,
-    "fiber": 3.0,
-    "sugars": 7.0,
-    "protein": 27.0,
-    "sodium": 1793.0,
-    "cholesterol": 239.0
+    "energy": 366.5,
+    "ash": 3.99,
+    "water": 148.36,
+    "carbs": 20.14,
+    "fiber": 5.29,
+    "sugars": 9.46,
+    "fat": 22.43,
+    "monounsaturated": 2.35,
+    "polyunsaturated": 4.35,
+    "omega_3": 0.53,
+    "omega_6": 3.72,
+    "saturated": 14.29,
+    "cholesterol": 182.57,
+    "protein": 25.31,
+    "calcium": 106.32,
+    "copper": 0.68,
+    "iron": 2.53,
+    "magnesium": 73.76,
+    "phosphorus": 325.93,
+    "potassium": 613.94,
+    "sodium": 768.96,
+    "zinc": 2.14
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-25",
+    "lines": 15,
+    "counted": 14,
+    "partial": false,
+    "stand_ins": [
+      "coconut-garlic paste"
+    ],
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "alcohol",
+      "caffeine",
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine",
+      "b1_thiamine",
+      "b2_riboflavin",
+      "b3_niacin",
+      "b5_pantothenic_acid",
+      "b6_pyridoxine",
+      "b12_cobalamin",
+      "choline",
+      "folate",
+      "vitamin_a",
+      "vitamin_c",
+      "vitamin_d",
+      "vitamin_e",
+      "vitamin_k",
+      "manganese",
+      "selenium"
+    ]
   },
   "schema_metadata": {
     "category": [

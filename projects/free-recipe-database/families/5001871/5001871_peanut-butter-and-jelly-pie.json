@@ -87,8 +87,9 @@
     },
     {
       "ingredient_id": 217,
-      "name": "roasted unsalted peanuts, roughly chopped and frozen",
-      "quantity": "½ cup"
+      "name": "roasted unsalted peanuts",
+      "quantity": "½ cup",
+      "prep": "roughly chopped and frozen"
     },
     {
       "ingredient_id": 359,
@@ -107,8 +108,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened",
-      "quantity": "4 oz"
+      "name": "cream cheese",
+      "quantity": "4 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 1752,
@@ -127,8 +129,9 @@
     },
     {
       "ingredient_id": 2792,
-      "name": "Concord grapes, stemmed",
-      "quantity": "1 ½ lb"
+      "name": "Concord grapes",
+      "quantity": "1 ½ lb",
+      "prep": "stemmed"
     },
     {
       "ingredient_id": 2346,
@@ -157,6 +160,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Roughly chop the roasted unsalted peanuts and keep them frozen until you use them. Soften the cream cheese. Stem the Concord grapes.",
+      "secondary_message": "½ cup roasted unsalted peanuts\n4 oz cream cheese\n1 ½ lb Concord grapes"
+    },
     {
       "id": 1,
       "primary_message": "For the Peanut Pie Dough: In a food processor, pulse 6 tablespoons flour, sugar, salt, and nuts until finely ground, about 30 seconds. Add half the cubed butter and process until a homogeneous paste forms, about 30 seconds. Using your hands, carefully break paste into roughly 2-inch chunks and redistribute evenly around processor blade. Add remaining flour and pulse until mixture is broken into pieces no larger than 1 inch (most pieces will be much smaller), 4 to 5 pulses. Transfer mixture to bowl. Add remaining butter cubes and toss until butter pieces are separated and coated with flour, then use fingers to press gently to flatten butter cubes into small pieces no larger than the size of a pea.",
@@ -214,15 +223,88 @@
     }
   ],
   "nutrition": {
-    "energy": 500,
-    "fat": 25,
-    "saturated": 11,
-    "carbs": 67,
-    "fiber": 4.5,
-    "sugars": 41,
-    "protein": 7.2,
-    "sodium": 329,
-    "cholesterol": 40
+    "energy": 469.68,
+    "alcohol": 0.0,
+    "ash": 1.74,
+    "caffeine": 0.0,
+    "water": 79.07,
+    "carbs": 52.33,
+    "fiber": 2.31,
+    "sugars": 39.72,
+    "fat": 28.0,
+    "monounsaturated": 10.03,
+    "polyunsaturated": 3.14,
+    "omega_3": 0.1,
+    "omega_6": 2.83,
+    "saturated": 12.76,
+    "cholesterol": 49.32,
+    "protein": 7.19,
+    "alanine": 0.27,
+    "arginine": 0.67,
+    "aspartic_acid": 0.79,
+    "cystine": 0.09,
+    "glutamic_acid": 1.67,
+    "glycine": 0.36,
+    "histidine": 0.18,
+    "isoleucine": 0.24,
+    "leucine": 0.5,
+    "lysine": 0.27,
+    "methionine": 0.12,
+    "phenylalanine": 0.36,
+    "proline": 0.51,
+    "serine": 0.4,
+    "threonine": 0.21,
+    "tryptophan": 0.08,
+    "tyrosine": 0.27,
+    "valine": 0.3,
+    "b1_thiamine": 0.17,
+    "b2_riboflavin": 0.18,
+    "b3_niacin": 3.52,
+    "b5_pantothenic_acid": 0.41,
+    "b6_pyridoxine": 0.18,
+    "b12_cobalamin": 0.06,
+    "choline": 24.9,
+    "folate": 50.51,
+    "vitamin_a": 164.95,
+    "vitamin_c": 3.64,
+    "vitamin_d": 0.19,
+    "vitamin_e": 2.14,
+    "vitamin_k": 11.41,
+    "calcium": 44.12,
+    "copper": 0.14,
+    "iron": 1.07,
+    "magnesium": 42.42,
+    "manganese": 0.9,
+    "phosphorus": 108.6,
+    "potassium": 289.85,
+    "selenium": 6.06,
+    "sodium": 291.34,
+    "zinc": 0.73
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 18,
+    "counted": 16,
+    "partial": true,
+    "missing": [
+      "good-quality store-bought grape jelly"
+    ],
+    "not_counted": [
+      "whipped cream"
+    ],
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats"
+    ]
   },
   "schema_metadata": {
     "category": [

@@ -66,23 +66,27 @@
     },
     {
       "ingredient_id": 1135,
-      "name": "fresh pineapple chunks, drained",
-      "quantity": "½ cup"
+      "name": "fresh pineapple chunks",
+      "quantity": "½ cup",
+      "prep": "drained"
     },
     {
       "ingredient_id": 355,
-      "name": "softened cream cheese",
-      "quantity": "8 oz"
+      "name": "cream cheese",
+      "quantity": "8 oz",
+      "prep": "softened"
     },
     {
       "ingredient_id": 2494,
-      "name": "picked crab meat",
-      "quantity": "6 oz"
+      "name": "crab meat",
+      "quantity": "6 oz",
+      "prep": "picked"
     },
     {
       "ingredient_id": 153,
-      "name": "scallions, whites only, finely sliced",
-      "quantity": "6"
+      "name": "scallions, whites only",
+      "quantity": "6",
+      "prep": "finely sliced"
     },
     {
       "ingredient_id": 2056,
@@ -101,6 +105,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Drain the fresh pineapple chunks. Soften the cream cheese. Pick the leaves of the crab meat from the stems. Finely slice the scallions.",
+      "secondary_message": "½ cup fresh pineapple chunks\n8 oz cream cheese\n6 oz crab meat\n6 scallions, whites only"
+    },
     {
       "id": 1,
       "primary_message": "Combine vinegar, brown sugar, ketchup, chile flakes, and 1/2 cup water in a small saucepan and bring to a simmer over medium-high heat, whisking to combine until sugar is dissolved. Combine remaining tablespoon water and cornstarch in a small bowl and whisk with a fork to form a slurry. Whisk into sauce and bring to a boil. Allow to cool while you form the crab rangoon.",
@@ -123,15 +133,88 @@
     }
   ],
   "nutrition": {
-    "energy": 458.0,
-    "fat": 26.0,
-    "saturated": 8.0,
-    "carbs": 41.0,
-    "fiber": 1.0,
-    "sugars": 18.0,
-    "protein": 14.0,
-    "sodium": 737.0,
-    "cholesterol": 75.0
+    "energy": 314.7,
+    "alcohol": 0.0,
+    "caffeine": 0.0,
+    "water": 69.8,
+    "carbs": 21.91,
+    "fiber": 0.45,
+    "sugars": 19.63,
+    "fat": 23.93,
+    "monounsaturated": 9.4,
+    "polyunsaturated": 5.51,
+    "omega_3": 0.07,
+    "omega_6": 5.33,
+    "saturated": 7.32,
+    "cholesterol": 39.41,
+    "protein": 4.75,
+    "b1_thiamine": 0.03,
+    "b2_riboflavin": 0.09,
+    "b3_niacin": 0.67,
+    "b5_pantothenic_acid": 0.33,
+    "b6_pyridoxine": 0.07,
+    "b12_cobalamin": 0.62,
+    "choline": 21.95,
+    "folate": 17.94,
+    "vitamin_a": 82.94,
+    "vitamin_c": 3.84,
+    "vitamin_d": 0.0,
+    "vitamin_e": 3.21,
+    "vitamin_k": 19.69,
+    "calcium": 60.8,
+    "copper": 0.17,
+    "iron": 0.44,
+    "magnesium": 14.31,
+    "phosphorus": 70.82,
+    "potassium": 152.59,
+    "selenium": 9.63,
+    "sodium": 204.65,
+    "zinc": 0.83
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 13,
+    "counted": 11,
+    "partial": true,
+    "missing": [
+      "square wonton wrappers"
+    ],
+    "not_counted": [
+      "Kosher salt"
+    ],
+    "estimated_share": 0.098,
+    "omitted_fields": [
+      "ash",
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine",
+      "manganese"
+    ]
   },
   "schema_metadata": {
     "category": [

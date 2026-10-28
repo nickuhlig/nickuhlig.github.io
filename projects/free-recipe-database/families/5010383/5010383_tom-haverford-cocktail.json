@@ -57,16 +57,16 @@
     {
       "ingredient_id": 2242,
       "name": "Root liqueur",
-      "quantity": "2 tbsp"
+      "quantity": "1 cup plus 2 tbsp"
     },
     {
       "ingredient_id": 192,
-      "name": "lemon",
-      "quantity": "½",
+      "name": "lemons",
+      "quantity": "3",
       "weigh_parts": [
         {
           "ingredient_id": 1480,
-          "quantity": "1 tbsp",
+          "quantity": "½ cup plus 1 tbsp",
           "name": "freshly squeezed lemon juice"
         }
       ],
@@ -82,8 +82,8 @@
     {
       "id": 0,
       "kind": "prep",
-      "primary_message": "Juice the lemon.",
-      "secondary_message": "½ lemon"
+      "primary_message": "Juice the lemons.",
+      "secondary_message": "3 lemons"
     },
     {
       "id": 1,
@@ -92,55 +92,46 @@
     }
   ],
   "nutrition": {
-    "energy": 112.24,
-    "alcohol": 4.28,
-    "ash": 0.29,
-    "caffeine": 0.0,
-    "water": 106.34,
-    "carbs": 21.11,
-    "fiber": 0.49,
-    "sugars": 19.89,
-    "fat": 0.03,
-    "monounsaturated": 0.0,
+    "energy": 217.11,
+    "alcohol": 12.42,
+    "ash": 0.7,
+    "water": 140.77,
+    "carbs": 33.33,
+    "fiber": 0.54,
+    "sugars": 31.21,
+    "fat": 0.07,
+    "monounsaturated": 0.01,
     "polyunsaturated": 0.01,
     "omega_3": 0.0,
-    "omega_6": 0.0,
-    "saturated": 0.0,
+    "omega_6": 0.01,
+    "saturated": 0.01,
     "transfats": 0.0,
     "cholesterol": 0.0,
-    "protein": 0.22,
+    "protein": 0.28,
     "b1_thiamine": 0.02,
     "b2_riboflavin": 0.02,
-    "b3_niacin": 0.12,
-    "b5_pantothenic_acid": 0.06,
-    "b6_pyridoxine": 0.03,
+    "b3_niacin": 0.14,
+    "b6_pyridoxine": 0.04,
     "b12_cobalamin": 0.0,
-    "choline": 3.49,
-    "folate": 6.8,
+    "choline": 4.39,
     "vitamin_a": 2.2,
-    "vitamin_c": 11.63,
+    "vitamin_c": 18.51,
     "vitamin_d": 0.0,
-    "vitamin_e": 0.04,
+    "vitamin_e": 0.07,
     "vitamin_k": 0.12,
-    "calcium": 12.43,
-    "copper": 0.02,
-    "iron": 0.17,
-    "magnesium": 6.27,
-    "manganese": 0.04,
-    "phosphorus": 9.77,
-    "potassium": 76.49,
-    "selenium": 0.26,
-    "sodium": 4.1,
-    "zinc": 0.07
+    "copper": 0.03,
+    "sodium": 7.0,
+    "zinc": 0.14
   },
   "nutrition_meta": {
     "source": "calculated",
-    "date": "2026-10-25",
+    "date": "2026-10-27",
     "lines": 6,
     "counted": 6,
     "partial": false,
     "estimated_share": 0.0,
     "omitted_fields": [
+      "caffeine",
       "starch",
       "fructose",
       "galactose",
@@ -166,7 +157,16 @@
       "threonine",
       "tryptophan",
       "tyrosine",
-      "valine"
+      "valine",
+      "b5_pantothenic_acid",
+      "folate",
+      "calcium",
+      "iron",
+      "magnesium",
+      "manganese",
+      "phosphorus",
+      "potassium",
+      "selenium"
     ]
   },
   "schema_metadata": {

@@ -16,8 +16,7 @@
   "rating_count": 4,
   "allowed_type_ids": [
     1,
-    3,
-    7
+    3
   ],
   "violated_restriction_ids": [
     1,
@@ -36,8 +35,9 @@
   "ingredients": [
     {
       "ingredient_id": 2163,
-      "name": "boneless pork loin, sliced 1/8-inch thick",
-      "quantity": "8 oz"
+      "name": "boneless pork loin",
+      "quantity": "8 oz",
+      "prep": "sliced 1/8-inch thick"
     },
     {
       "ingredient_id": 52,
@@ -111,16 +111,24 @@
     },
     {
       "ingredient_id": 188,
-      "name": "cilantro, cut into 1/2-inch pieces",
-      "quantity": "5 sprigs"
+      "name": "cilantro",
+      "quantity": "5 sprigs",
+      "prep": "cut into 1/2-inch pieces"
     },
     {
       "ingredient_id": 1720,
-      "name": "Chinese celery leaves and stalks, cut into 1/2-inch pieces",
-      "quantity": "5 sprigs"
+      "name": "Chinese celery leaves and stalks",
+      "quantity": "5 sprigs",
+      "prep": "cut into 1/2-inch pieces"
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Slice the boneless pork loin 1/8-inch thick. Cut the cilantro into 1/2-inch pieces. Cut the Chinese celery leaves and stalks into 1/2-inch pieces.",
+      "secondary_message": "8 oz boneless pork loin\n5 sprigs cilantro\n5 sprigs Chinese celery leaves and stalks"
+    },
     {
       "id": 1,
       "primary_message": "For the Marinated Pork and Meatballs: In a mixing bowl, toss sliced pork with 2 teaspoons fish sauce, 1/8 teaspoon white pepper, and a pinch of salt until evenly coated. Set aside.",
@@ -163,15 +171,88 @@
     }
   ],
   "nutrition": {
-    "energy": 554.0,
-    "fat": 35.0,
-    "saturated": 11.0,
-    "carbs": 19.0,
-    "fiber": 2.0,
-    "sugars": 6.0,
-    "protein": 37.0,
-    "sodium": 2922.0,
-    "cholesterol": 119.0
+    "energy": 534.07,
+    "water": 398.13,
+    "carbs": 53.72,
+    "fat": 16.26,
+    "monounsaturated": 7.81,
+    "polyunsaturated": 3.24,
+    "omega_3": 0.17,
+    "omega_6": 2.38,
+    "saturated": 4.85,
+    "cholesterol": 155.31,
+    "protein": 39.79,
+    "alanine": 2.23,
+    "arginine": 2.33,
+    "aspartic_acid": 2.87,
+    "glutamic_acid": 7.52,
+    "glycine": 3.27,
+    "histidine": 1.18,
+    "isoleucine": 1.58,
+    "leucine": 2.75,
+    "lysine": 2.43,
+    "methionine": 0.81,
+    "phenylalanine": 1.55,
+    "serine": 1.5,
+    "threonine": 1.36,
+    "tryptophan": 0.42,
+    "tyrosine": 1.21,
+    "valine": 1.7,
+    "b1_thiamine": 1.07,
+    "b2_riboflavin": 0.74,
+    "b3_niacin": 10.62,
+    "b5_pantothenic_acid": 1.41,
+    "b6_pyridoxine": 0.98,
+    "b12_cobalamin": 1.09,
+    "folate": 280.93,
+    "vitamin_a": 106.59,
+    "vitamin_c": 25.13,
+    "calcium": 70.35,
+    "copper": 0.52,
+    "iron": 4.79,
+    "magnesium": 123.01,
+    "manganese": 0.72,
+    "phosphorus": 420.14,
+    "potassium": 773.38,
+    "sodium": 2431.18,
+    "zinc": 4.28
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 17,
+    "counted": 16,
+    "partial": true,
+    "missing": [
+      "Chinese celery leaves and stalks, cut into 1/2-inch pieces"
+    ],
+    "stand_ins": [
+      "Nam Cheua Gradook Moo"
+    ],
+    "estimated_share": 0.355,
+    "omitted_fields": [
+      "alcohol",
+      "ash",
+      "caffeine",
+      "fiber",
+      "starch",
+      "sugars",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "cystine",
+      "proline",
+      "choline",
+      "vitamin_d",
+      "vitamin_e",
+      "vitamin_k",
+      "selenium"
+    ]
   },
   "schema_metadata": {
     "category": [

@@ -54,8 +54,9 @@
     },
     {
       "ingredient_id": 243,
-      "name": "fresh mint leaves",
-      "quantity": "6"
+      "name": "fresh mint",
+      "quantity": "6",
+      "prep": "leaves picked"
     },
     {
       "ingredient_id": 286,
@@ -94,6 +95,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Pick the leaves from the mint.",
+      "secondary_message": "6 fresh mint"
+    },
     {
       "id": 1,
       "primary_message": "Grind the herbs and spices (including gentian root) with a mortar and pestle until roughly broken up. (Or pulse a few times in a food processor.) Transfer to a sealable glass jar and pour in the alcohol. Let steep at room temperature for 3 weeks, shaking frequently.",

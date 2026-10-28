@@ -52,8 +52,9 @@
     },
     {
       "ingredient_id": 115,
-      "name": "unsalted butter, melted",
-      "quantity": "1 tbsp"
+      "name": "unsalted butter",
+      "quantity": "1 tbsp",
+      "prep": "melted"
     },
     {
       "ingredient_id": 1752,
@@ -67,8 +68,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened at room temperature",
-      "quantity": "141 g"
+      "name": "cream cheese",
+      "quantity": "141 g",
+      "prep": "softened at room temperature"
     },
     {
       "ingredient_id": 2046,
@@ -92,8 +94,9 @@
     },
     {
       "ingredient_id": 355,
-      "name": "cream cheese, softened at room temperature",
-      "quantity": "141 g"
+      "name": "cream cheese",
+      "quantity": "141 g",
+      "prep": "softened at room temperature"
     },
     {
       "ingredient_id": 333,
@@ -107,8 +110,9 @@
     },
     {
       "ingredient_id": 1716,
-      "name": "Crushed toasted hazelnuts",
-      "quantity": ""
+      "name": "toasted hazelnuts",
+      "quantity": "",
+      "prep": "Crushed"
     },
     {
       "ingredient_id": 1655,
@@ -117,6 +121,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Melt the unsalted butter. Soften the cream cheese at room temperature. Soften the cream cheese at room temperature. Crush the toasted hazelnuts.",
+      "secondary_message": "1 tbsp unsalted butter\n141 g cream cheese\n141 g cream cheese\ntoasted hazelnuts"
+    },
     {
       "id": 1,
       "primary_message": "For the Crust: In a food processor, pulse Oreos until finely ground. Add melted butter and pulse for another few seconds until evenly coated. Alternatively, put the cookies in a zipper-lock bag and crush with a rolling pin before adding the melted butter. Spoon Oreo mixture into 4 to 6 serving glasses in an even layer. Set aside.",
@@ -144,15 +154,87 @@
     }
   ],
   "nutrition": {
-    "energy": 673.0,
-    "fat": 50.0,
-    "saturated": 29.0,
-    "carbs": 53.0,
-    "fiber": 3.0,
-    "sugars": 41.0,
-    "protein": 8.0,
-    "sodium": 260.0,
-    "cholesterol": 96.0
+    "energy": 587.12,
+    "alcohol": 0.0,
+    "ash": 1.74,
+    "caffeine": 21.75,
+    "water": 45.25,
+    "carbs": 48.19,
+    "fiber": 4.07,
+    "sugars": 36.97,
+    "fat": 43.69,
+    "monounsaturated": 10.88,
+    "polyunsaturated": 2.02,
+    "omega_3": 0.19,
+    "omega_6": 1.43,
+    "saturated": 27.53,
+    "cholesterol": 90.14,
+    "protein": 7.24,
+    "b1_thiamine": 0.08,
+    "b2_riboflavin": 0.27,
+    "b3_niacin": 0.73,
+    "b5_pantothenic_acid": 0.55,
+    "b6_pyridoxine": 0.07,
+    "b12_cobalamin": 0.21,
+    "choline": 28.74,
+    "folate": 27.96,
+    "vitamin_a": 297.85,
+    "vitamin_c": 0.2,
+    "vitamin_d": 0.53,
+    "vitamin_e": 2.14,
+    "vitamin_k": 7.87,
+    "calcium": 102.64,
+    "copper": 0.43,
+    "iron": 3.96,
+    "magnesium": 66.06,
+    "manganese": 0.58,
+    "phosphorus": 167.21,
+    "potassium": 332.46,
+    "selenium": 7.92,
+    "sodium": 229.97,
+    "zinc": 1.19
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 14,
+    "counted": 11,
+    "partial": false,
+    "not_counted": [
+      "Whipped cream",
+      "toasted hazelnuts, Crushed",
+      "Crushed Oreos"
+    ],
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine"
+    ]
   },
   "schema_metadata": {
     "category": [

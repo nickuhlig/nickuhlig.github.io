@@ -141,8 +141,9 @@
     },
     {
       "ingredient_id": 3641,
-      "name": "egg yolks, at room temperature",
-      "quantity": "3 large"
+      "name": "egg yolks",
+      "quantity": "3 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 1044,
@@ -161,8 +162,9 @@
     },
     {
       "ingredient_id": 3642,
-      "name": "egg whites, at room temperature",
-      "quantity": "4 large"
+      "name": "egg whites",
+      "quantity": "4 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 88,
@@ -186,12 +188,14 @@
     },
     {
       "ingredient_id": 234,
-      "name": "frozen peaches, thawed",
-      "quantity": "8 oz"
+      "name": "frozen peaches",
+      "quantity": "1 ½",
+      "weigh_as": "8 oz",
+      "prep": "thawed"
     },
     {
       "ingredient_id": 221,
-      "name": "fresh ginger",
+      "name": "ginger root",
       "quantity": "2 tbsp"
     },
     {
@@ -236,8 +240,9 @@
     },
     {
       "ingredient_id": 2442,
-      "name": "bittersweet chocolate, chopped",
-      "quantity": "9 oz"
+      "name": "bittersweet chocolate",
+      "quantity": "9 oz",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 1312,
@@ -246,6 +251,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Bring the egg yolks to room temperature. Bring the egg whites to room temperature. Thaw the frozen peaches. Chop the bittersweet chocolate.",
+      "secondary_message": "3 large egg yolks\n4 large egg whites\n1 ½ frozen peaches\n9 oz bittersweet chocolate"
+    },
     {
       "id": 1,
       "primary_message": "For the Cake: Adjust oven rack to middle position and preheat oven to 325°F. Lightly coat springform pan with baking spray. Line bottom with parchment paper and once again lightly coat with baking spray.",
@@ -348,15 +359,85 @@
     }
   ],
   "nutrition": {
-    "energy": 1292,
-    "fat": 56,
-    "saturated": 22,
-    "carbs": 182,
-    "fiber": 9.6,
-    "sugars": 110,
-    "protein": 21,
-    "sodium": 944,
-    "cholesterol": 110
+    "energy": 1129.95,
+    "ash": 4.94,
+    "caffeine": 39.84,
+    "water": 109.52,
+    "carbs": 132.72,
+    "fiber": 6.09,
+    "sugars": 93.37,
+    "fat": 31.17,
+    "monounsaturated": 9.86,
+    "polyunsaturated": 5.45,
+    "omega_3": 0.54,
+    "omega_6": 4.76,
+    "saturated": 13.63,
+    "cholesterol": 87.89,
+    "protein": 87.18,
+    "b1_thiamine": 0.22,
+    "b2_riboflavin": 0.62,
+    "b3_niacin": 2.69,
+    "b5_pantothenic_acid": 0.8,
+    "b6_pyridoxine": 0.11,
+    "b12_cobalamin": 0.24,
+    "vitamin_a": 90.92,
+    "vitamin_e": 1.66,
+    "vitamin_k": 17.25,
+    "calcium": 200.17,
+    "copper": 2.71,
+    "iron": 7.55,
+    "magnesium": 135.17,
+    "manganese": 1.54,
+    "phosphorus": 331.4,
+    "potassium": 578.94,
+    "selenium": 52.67,
+    "sodium": 791.42,
+    "zinc": 1.91
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 27,
+    "counted": 26,
+    "partial": false,
+    "not_counted": [
+      "Baking spray"
+    ],
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "alcohol",
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine",
+      "choline",
+      "folate",
+      "vitamin_c",
+      "vitamin_d"
+    ]
   },
   "schema_metadata": {
     "category": [

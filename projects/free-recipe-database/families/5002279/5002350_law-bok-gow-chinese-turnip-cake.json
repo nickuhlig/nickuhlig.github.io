@@ -46,8 +46,9 @@
     },
     {
       "ingredient_id": 2196,
-      "name": "daikon radish, peeled and finely grated on a box grater",
-      "quantity": "1.3 kg"
+      "name": "daikon radish",
+      "quantity": "1.3 kg",
+      "prep": "peeled and finely grated on a box grater"
     },
     {
       "ingredient_id": 293,
@@ -56,18 +57,21 @@
     },
     {
       "ingredient_id": 2787,
-      "name": "Chinese bacon, such as lap yuk, diced",
-      "quantity": "85 g"
+      "name": "Chinese bacon, such as lap yuk",
+      "quantity": "85 g",
+      "prep": "diced"
     },
     {
       "ingredient_id": 2724,
-      "name": "Chinese sausages, such as lap cheong, diced",
-      "quantity": "2"
+      "name": "Chinese sausages, such as lap cheong",
+      "quantity": "2",
+      "prep": "diced"
     },
     {
       "ingredient_id": 3644,
-      "name": "dried shrimp, small, rinsed and patted dry",
-      "quantity": "¼ cup"
+      "name": "dried shrimp, small",
+      "quantity": "¼ cup",
+      "prep": "rinsed and patted dry"
     },
     {
       "ingredient_id": 53,
@@ -86,6 +90,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Peel and finely grate the daikon radish on a box grater. Dice the Chinese bacon. Dice the Chinese sausages. Rinse and pat the dried shrimp dry.",
+      "secondary_message": "1.3 kg daikon radish\n85 g Chinese bacon, such as lap yuk\n2 Chinese sausages, such as lap cheong\n¼ cup dried shrimp, small"
+    },
     {
       "id": 1,
       "primary_message": "Place dried shiitakes in a heatproof bowl and pour over enough hot water to cover. Soak until rehydrated and plump, about 30 minutes. Drain mushrooms, rinse under cold running water, and squeeze out excess water. Trim and discard stems and dice caps.",
@@ -108,7 +118,7 @@
     },
     {
       "id": 5,
-      "primary_message": "Scrape mixture into two 18-by-13-cm baking dishes (greased with cooking spray) or disposable aluminum baking trays. Set up a steamer large enough to hold one of the baking dishes, then, working 1 baking dish at a time, steam turnip cake until cooked through, 25 to 30 minutes. Repeat with remaining baking dish. Let cooked turnip cakes rest 20 minutes. Loosen the sides with an offset spatula or butter knife and turn it out onto a cutting board. Slice each cake into 9 even squares.",
+      "primary_message": "Scrape mixture into two 7- by 13-cm baking dishes (greased with cooking spray) or disposable aluminum baking trays. Set up a steamer large enough to hold one of the baking dishes, then, working 1 baking dish at a time, steam turnip cake until cooked through, 25 to 30 minutes. Repeat with remaining baking dish. Let cooked turnip cakes rest 20 minutes. Loosen the sides with an offset spatula or butter knife and turn it out onto a cutting board. Slice each cake into 9 even squares.",
       "secondary_message": null
     },
     {
@@ -123,15 +133,86 @@
     }
   ],
   "nutrition": {
-    "energy": 231.0,
-    "fat": 7.0,
-    "saturated": 2.0,
-    "carbs": 34.0,
-    "fiber": 4.0,
-    "sugars": 7.0,
-    "protein": 7.0,
-    "sodium": 341.0,
-    "cholesterol": 18.0
+    "energy": 217.51,
+    "alcohol": 0.0,
+    "ash": 2.12,
+    "caffeine": 0.0,
+    "water": 175.86,
+    "carbs": 37.1,
+    "fiber": 4.33,
+    "sugars": 6.25,
+    "fat": 4.93,
+    "monounsaturated": 1.99,
+    "polyunsaturated": 0.87,
+    "omega_3": 0.1,
+    "omega_6": 0.69,
+    "saturated": 1.62,
+    "cholesterol": 26.18,
+    "protein": 7.23,
+    "b1_thiamine": 0.13,
+    "b2_riboflavin": 0.15,
+    "b3_niacin": 2.7,
+    "b5_pantothenic_acid": 2.09,
+    "b6_pyridoxine": 0.31,
+    "b12_cobalamin": 0.24,
+    "choline": 34.31,
+    "folate": 65.63,
+    "vitamin_a": 3.04,
+    "vitamin_c": 38.38,
+    "vitamin_d": 0.33,
+    "vitamin_e": 0.1,
+    "vitamin_k": 8.3,
+    "calcium": 99.47,
+    "copper": 0.64,
+    "iron": 1.83,
+    "magnesium": 61.08,
+    "manganese": 0.55,
+    "phosphorus": 137.22,
+    "potassium": 578.97,
+    "selenium": 17.36,
+    "sodium": 395.5,
+    "zinc": 1.33
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 9,
+    "counted": 9,
+    "partial": false,
+    "stand_ins": [
+      "Chinese bacon, such as lap yuk, diced",
+      "Chinese sausages, such as lap cheong, diced"
+    ],
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "starch",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "transfats",
+      "alanine",
+      "arginine",
+      "aspartic_acid",
+      "cystine",
+      "glutamic_acid",
+      "glycine",
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "proline",
+      "serine",
+      "threonine",
+      "tryptophan",
+      "tyrosine",
+      "valine"
+    ]
   },
   "schema_metadata": {
     "category": [

@@ -71,13 +71,15 @@
     },
     {
       "ingredient_id": 24,
-      "name": "garlic chopped fine",
-      "quantity": "10 cloves"
+      "name": "garlic",
+      "quantity": "10 cloves",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 221,
-      "name": "ginger chopped fine",
-      "quantity": "1 (1 inch) piece"
+      "name": "ginger root",
+      "quantity": "1 (1 inch) piece",
+      "prep": "finely chopped"
     },
     {
       "ingredient_id": 1850,
@@ -126,6 +128,12 @@
     }
   ],
   "instructions": [
+    {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Finely chop the garlic. Finely chop the ginger.",
+      "secondary_message": "10 cloves garlic\n1 (1 inch) piece ginger root"
+    },
     {
       "id": 1,
       "primary_message": "Make the Spice Paste: Combine the peppercorns, red chile, cinnamon, cloves, cumin seeds (or powder), and half of the vinegar in a blender. Blend on high speed, scraping down sides as necessary, until a smooth red paste is formed. Set aside.",

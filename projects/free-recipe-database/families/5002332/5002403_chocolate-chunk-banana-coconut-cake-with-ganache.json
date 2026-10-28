@@ -86,8 +86,9 @@
     },
     {
       "ingredient_id": 317,
-      "name": "mashed ripe bananas",
-      "quantity": "½ cup"
+      "name": "ripe bananas",
+      "quantity": "½ cup",
+      "prep": "mashed"
     },
     {
       "ingredient_id": 41,
@@ -101,8 +102,9 @@
     },
     {
       "ingredient_id": 129,
-      "name": "unrefined coconut oil, solid but soft, about 70°F",
-      "quantity": "99 g"
+      "name": "unrefined coconut oil, solid but soft",
+      "quantity": "99 g",
+      "prep": "about 70°F"
     },
     {
       "ingredient_id": 346,
@@ -111,18 +113,21 @@
     },
     {
       "ingredient_id": 121,
-      "name": "eggs, at room temperature",
-      "quantity": "2 large"
+      "name": "eggs",
+      "quantity": "2 large",
+      "prep": "at room temperature"
     },
     {
       "ingredient_id": 2285,
-      "name": "semi-sweet chocolate, chopped, divided",
-      "quantity": "170 g"
+      "name": "semi-sweet chocolate, divided",
+      "quantity": "170 g",
+      "prep": "chopped"
     },
     {
       "ingredient_id": 462,
-      "name": "sweetened shredded coconut, toasted, divided",
-      "quantity": "¾ cup"
+      "name": "sweetened shredded coconut, divided",
+      "quantity": "¾ cup",
+      "prep": "toasted"
     },
     {
       "ingredient_id": 2240,
@@ -132,8 +137,14 @@
   ],
   "instructions": [
     {
+      "id": 0,
+      "kind": "prep",
+      "primary_message": "Mash the ripe bananas. Bring the unrefined coconut oil to 70°F. Bring the eggs to room temperature. Chop the semi-sweet chocolate. Toast the sweetened shredded coconut.",
+      "secondary_message": "½ cup ripe bananas\n99 g unrefined coconut oil, solid but soft\n2 large eggs\n170 g semi-sweet chocolate, divided\n¾ cup sweetened shredded coconut, divided"
+    },
+    {
       "id": 1,
-      "primary_message": "Adjust oven rack to lower-middle position and preheat oven to 175°C (350°F). Spray bottom and sides of a 9-by-5-­inch metal loaf pan with cooking spray. Line the long sides with a 18-by-33-cm sheet of parchment paper, with overhang. In a large bowl, whisk flour, baking powder, and salt together. In a second bowl, whisk together mashed banana, 1/2 cup coconut milk, vanilla, and coconut extract, if using.",
+      "primary_message": "Adjust oven rack to lower-middle position and preheat oven to 175°C (350°F). Spray bottom and sides of a 9-by-5-­inch metal loaf pan with cooking spray. Line the long sides with a 7-by-33-cm sheet of parchment paper, with overhang. In a large bowl, whisk flour, baking powder, and salt together. In a second bowl, whisk together mashed banana, 1/2 cup coconut milk, vanilla, and coconut extract, if using.",
       "secondary_message": null
     },
     {
@@ -163,15 +174,85 @@
     }
   ],
   "nutrition": {
-    "energy": 445.0,
-    "fat": 18.0,
-    "saturated": 14.0,
-    "carbs": 68.0,
-    "fiber": 3.0,
-    "sugars": 45.0,
-    "protein": 5.0,
-    "sodium": 200.0,
-    "cholesterol": 37.0
+    "energy": 466.99,
+    "ash": 1.19,
+    "water": 29.11,
+    "carbs": 68.08,
+    "fat": 21.06,
+    "monounsaturated": 2.92,
+    "polyunsaturated": 0.69,
+    "omega_6": 0.65,
+    "saturated": 15.9,
+    "cholesterol": 37.2,
+    "protein": 5.11,
+    "alanine": 0.22,
+    "arginine": 0.3,
+    "aspartic_acid": 0.37,
+    "cystine": 0.1,
+    "glutamic_acid": 1.26,
+    "glycine": 0.19,
+    "histidine": 0.12,
+    "isoleucine": 0.2,
+    "leucine": 0.37,
+    "lysine": 0.21,
+    "methionine": 0.1,
+    "phenylalanine": 0.26,
+    "proline": 0.4,
+    "serine": 0.28,
+    "threonine": 0.17,
+    "tryptophan": 0.07,
+    "tyrosine": 0.17,
+    "valine": 0.26,
+    "b1_thiamine": 0.22,
+    "b2_riboflavin": 0.2,
+    "b3_niacin": 1.74,
+    "b5_pantothenic_acid": 0.39,
+    "b6_pyridoxine": 0.1,
+    "b12_cobalamin": 0.09,
+    "choline": 39.16,
+    "folate": 84.05,
+    "vitamin_a": 16.34,
+    "vitamin_c": 1.14,
+    "vitamin_d": 0.2,
+    "calcium": 44.28,
+    "copper": 0.22,
+    "iron": 2.46,
+    "magnesium": 38.22,
+    "manganese": 0.6,
+    "phosphorus": 123.8,
+    "potassium": 192.88,
+    "sodium": 146.39,
+    "zinc": 0.8
+  },
+  "nutrition_meta": {
+    "source": "calculated",
+    "date": "2026-10-27",
+    "lines": 13,
+    "counted": 12,
+    "partial": false,
+    "not_counted": [
+      "Cooking spray"
+    ],
+    "estimated_share": 0.0,
+    "omitted_fields": [
+      "alcohol",
+      "caffeine",
+      "fiber",
+      "starch",
+      "sugars",
+      "fructose",
+      "galactose",
+      "glucose",
+      "lactose",
+      "maltose",
+      "sucrose",
+      "sugar_alcohol",
+      "omega_3",
+      "transfats",
+      "vitamin_e",
+      "vitamin_k",
+      "selenium"
+    ]
   },
   "schema_metadata": {
     "category": [
