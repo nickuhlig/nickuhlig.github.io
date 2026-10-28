@@ -85,7 +85,8 @@ SIZE_RE = r"small|medium|large|extra[- ]large|jumbo|big"
 LEADING_ADJECTIVES = {"cubed", "sweet", "ripe", "fresh", "firm", "soft", "hard", "hot", "mild", "spicy", "bitter", "sour", "crisp", "crunchy",
                       "tender", "juicy", "sliced", "chopped", "diced", "minced", "shredded", "grated", "dried", "raw", "cooked", "frozen",
                       "large", "small", "medium", "thick", "thin", "lean", "fatty", "young", "baby", "mini", "whole", "toasted", "roasted",
-                      "packed", "loosely", "firmly", "tightly", "lightly", "roughly", "finely", "coarsely", "thinly", "freshly"}
+                      "packed", "loosely", "firmly", "tightly", "lightly", "roughly", "finely", "coarsely", "thinly", "freshly",
+                      "extra-virgin", "fruity", "red", "green", "yellow", "orange", "white", "black", "purple", "golden"}
 # (singular, plural) the library's way: "1 clove", "2 cloves"
 COUNT_FORMS = {}
 for _s, _p in [("clove", "cloves"), ("head", "heads"), ("sprig", "sprigs"), ("stalk", "stalks"), ("slice", "slices"),
@@ -225,7 +226,7 @@ CROSS_REF_RE = re.compile(r"\bmade through step \d+\b|\(\s*(?:see|below|above)[^
 _LIST_ITEM = r"(?![^,]*\b(?!\w*seed\b)\w{3,}(?:ed|ly)\b)[A-Za-z][A-Za-z' -]{1,30}?"      # (grapeseed is a name, not a participle)
 # preparation described after the name without a comma: "onion grated on a microplane grater", "potatoes peeled and cut into chunks"
 PREPARED_TAIL = (r"\s+(?:(?:(?:lightly|well|finely|roughly|coarsely|thinly)\s+)?(?:grated|peeled|trimmed|cored|seeded|halved|quartered|cubed|crushed|drained|rinsed|thawed|softened|beaten|sifted)"
-                 r"\s+(?:on|and|into|in|at|to|with|lengthwise|crosswise|if)|cut\s+(?:into|in|at|to)|"
+                 r"\s+(?:on|and|into|in|at|to|with|lengthwise|crosswise|if)|(?:cut|sliced|diced|chopped|julienned)\s+(?:into|in|at|to|lengthwise|crosswise)|"
                  r"(?:stirred|mixed|whisked|dissolved|combined|blended)\s+(?:in|into|with)|dissolved\b)\b.*$")
 LIST_OF_ALTERNATIVES_RE = re.compile(rf"^((?:{_LIST_ITEM}, ){{1,4}}(?:and/or |or ){_LIST_ITEM}(?= *(?:,|$)))( ?.*)$")
 GARNISH_LINE_RE = re.compile(r"^\s*(?:garnish(?:es)?\s*:|toppings?\b)|\bof your choice\b|\bany of the following\b|\bcomposed of\b", re.I)
@@ -257,6 +258,7 @@ def normalize_raw(raw: str) -> str:
     'One 16-ounce can beans' -> '1 (16-ounce) can beans'; 'Four 5- to 6-ounce each thighs' -> '4 (5- to 6-ounce) thighs';
     'boneless, skinless' / 'bone-in, skin-on' pairs lose their comma so they are not read as 'name, prep'."""
     s = " ".join(raw.replace("\xa0", " ").split())
+    s = re.sub(r"(\d)-inch-(?:square|long|thick|wide)\b", r"\1-inch", s, flags=re.I)                                         # "1 4-inch-square piece konbu"
     s = re.sub(rf"^(?:about|approximately|roughly|scant|generous|heaping|rounded|a scant|a generous|just over|just under)\s+(?=\d|[{VG}])", "", s, flags=re.I)
     s = re.sub(rf"(?<=[\d/{VG}])\s+(?:scant|heaping|generous|rounded|level)\s+(?=(?:tablespoons?|teaspoons?|cups?)\b)", " ", s, flags=re.I)
     s = re.sub(rf"^({NUMBER_WORD_RE})\b(?=\s+[\d(a-z])", lambda m: str(NUMBER_WORDS[m.group(1).lower()]), s, flags=re.I)
@@ -286,7 +288,13 @@ def normalize_raw(raw: str) -> str:
     s = re.sub(r"\b(tablespoons?|teaspoons?|cups?|ounces?|pounds?|grams?|pieces?|slices?|strips?|\d|\))\s+(bone-in|boneless|skin-on|skin on|skinless|creamy|crunchy|smooth|full-fat|low-fat|nonfat|reduced-fat|plump|pure|thick-cut|thin-cut|thick cut|unsalted|salted|unsweetened|sweetened|plain|ripe|firm|mild|spicy|lean|crusty|fresh|dried|frozen|canned|good-quality|high-quality|mixed|assorted|unflavored|low-protein|short)\s*,\s+(?=[a-z])", r"\1 \2 ", s, flags=re.I)   # "3 tablespoons creamy, unsweetened peanut butter"
     s = re.sub(r"\s*\*+\s*$", "", s)                                                                                          # "falernum*"
     s = re.sub(r"\s*\([^()]*\([^()]*\)[^()]*\b(?:bags?|packages?|cans?|jars?|containers?|boxes?)\)", "", s, flags=re.I)        # "(two 5.2-ounce (150g) bags)", "(2 (8-ounce) packages)"
-    s = re.sub(r"^(?:a\s+few|several)\s+(?=(?:dash|dashes|drops?|pinch|pinches|splash|splashes)\b)", "3 ", s, flags=re.I)                 # "Several dashes hot sauce"
+    s = re.sub(r"^(?:a\s+few|few|several)\s+(?=(?:dash|dashes|drops?|pinch|pinches|splash|splashes|shakes?|sprigs?|grinds?|leaves)\b)", "3 ", s, flags=re.I)   # "Several dashes hot sauce", "Few shakes salt"
+    s = re.sub(r"^(\d+)\s+shakes?\s+", r"\1 dashes ", s, flags=re.I)                                                   # a shake is a dash
+    s = re.sub(r"^scant\s+(?=(?:cups?|tablespoons?|teaspoons?)\b)", "1 ", s, flags=re.I)                                   # "Scant cup walnuts"
+    s = re.sub(r"^(\d+)\s+and\s+(?=[½¼¾⅓⅔⅛⅜⅝⅞]|\d+/\d+)", r"\1 ", s)                                                    # "3 and ½ ounces"
+    s = re.sub(r"^(\S+)\s+(?:(?:lightly|loosely|firmly|tightly|well)\s+)?packed\s+(?=(?:cups?|tablespoons?|teaspoons?)\b)", r"\1 ", s, flags=re.I)   # "1 lightly packed cup"
+    s = re.sub(r"^(?:the\s+)?seeds\s+(?:scraped\s+)?(?:from|of)\s+(\d+|an?|one)\s+(?:split\s+)?(vanilla\s+beans?)\b", r"\1 \2, seeds scraped", s, flags=re.I)   # "Seeds from 1 split vanilla bean"
+    s = re.sub(r"(?<![,(])(?<!\bor)\s+(to taste|if desired)\b", r", \1", s, flags=re.I)                                             # "Salt to taste if desired"
     s = re.sub(r"^a\s+couple\s+(?:of\s+)?", "2 ", s, flags=re.I)
     s = re.sub(r"^(\d+|an?|one)\s+(limes?|lemons?|oranges?)\s+yields?\s+(?:fresh\s+)?(?:lime\s+|lemon\s+|orange\s+)?juice\b", r"juice of \1 \2", s, flags=re.I)   # "1 lime yields fresh lime juice, to taste"
     s = re.sub(r"^a\s+half\s+dozen\s+", "6 ", s, flags=re.I)                                                              # "A half dozen dried red whole chiles"
@@ -358,6 +366,7 @@ class Line:
     tail: list = field(default_factory=list)          # size / count words ("medium", "cloves")
     name: str = ""                                    # clean name, no prep
     prep: str | None = None
+    link: str | None = None                           # the page's link on this line (NYT: another recipe, "Harissa sauce (see recipe)")
 
 
 def _is_prefix_word(tok: str) -> bool:
@@ -950,7 +959,7 @@ MODIFIERS = ("bone in skin on", "boneless skinless", "unsalted", "salted", "bone
 GENERIC_HEADS = {"lettuce", "oil", "cheese", "sauce", "vinegar", "sugar", "flour", "salt", "milk", "cream", "butter", "broth", "paste", "powder",
                  "seeds", "beans", "rice", "noodles", "wine", "juice", "syrup", "mustard", "yogurt", "stock", "bread", "pasta", "rolls", "buns", "crackers",
                  "chorizo", "sausage", "sausages", "chiles", "chilies", "chillies", "peppers", "olives", "oregano", "chocolate", "clams", "potatoes", "peas"}
-ALT_ADJECTIVES = {"whole", "green", "red", "white", "black", "yellow", "orange", "brown", "purple", "pink", "golden", "sweet", "hot", "mild", "spicy", "dark", "light", "regular", "plain", "smoked",
+ALT_ADJECTIVES = {"candied", "whole", "green", "red", "white", "black", "yellow", "orange", "brown", "purple", "pink", "golden", "sweet", "hot", "mild", "spicy", "dark", "light", "regular", "plain", "smoked",
                   "large", "small", "baby", "wild", "fresh", "dried", "frozen", "ripe", "firm", "natural", "unsweetened", "flat", "short", "long",
                   "Chinese", "Japanese", "Italian", "Thai", "Greek", "Mexican", "Spanish", "Hungarian", "French", "Korean", "Indian", "American"}
 HEAD_NOUNS = GENERIC_HEADS | {"ghee", "schmaltz", "tallow", "drippings", "fat", "lard", "shortening", "margarine", "creamer", "spray", "mayonnaise", "mayo", "ketchup", "honey",
@@ -1122,6 +1131,15 @@ class Resolver:
                         return self.lookup[key], "cleaned"
         return None, "new"
 
+    def known(self, name: str) -> int | None:
+        """The master id this name already matches, or None. Never creates an entry."""
+        ing_id, _ = self._lookup(name)
+        if ing_id is None:
+            clean = self.entry_name(name)
+            if clean and clean != name:
+                ing_id, _ = self._lookup(clean)
+        return ing_id
+
     def resolve(self, name: str, recipe_name: str = "") -> tuple[int | None, str]:
         """(master id, how). id is None for a name that is really a sentence fragment: it is reported and left out of
         the master instead of becoming an entry."""
@@ -1152,7 +1170,7 @@ class Resolver:
         n = re.split(r",|\bsuch as\b", name)[0].strip()
         n = re.sub(r"\s+or\s*$", "", n)                                               # "neutral oil or" (the rest was cut as prep)
         parts = [re.sub(r"^(?:other|any other)\s+", "", p.strip()) for p in re.split(r"\s+or\s+", n) if p.strip()]    # "peanut or other neutral oil"
-        parts = [p for p in parts if not re.match(r"(?:an?|any)\s+(?:mix|combination|blend)\b", p, re.I)]   # "white or black sesame seeds or a mix"
+        parts = [p for p in parts if not re.match(r"(?:(?:an?|any)\s+)?(?:mix|combination|blend)\b|both\b", p, re.I)]   # "white or black sesame seeds or a mix", "red or green cherries or combination"
         if len(parts) < 2:
             return [parts[0] if parts else n]
         last = parts[-1].split()
@@ -1160,8 +1178,11 @@ class Resolver:
         for p in parts[:-1]:
             pw = p.split()
             complete = pw[-1].lower() in HEAD_NOUNS or pw[-1].lower().endswith(("milk", "cream", "butter", "cheese", "yogurt"))   # "sour cream", "buttermilk": already a whole ingredient
+            complete = complete or (len(pw) == 1 and re.match(r"^[a-z]{3,}(?<!s)s$", pw[0]) is not None and pw[0] not in ALT_ADJECTIVES)   # "raisins or dried cranberries"
             if complete:
                 out.append(p)
+            elif pw[-1][:1].isupper() and last[0][:1].isupper() and len(last) >= 2 and not last[-1][:1].isupper():
+                out.append(f"{p} {last[-1]}")                           # "ripe Bartlett or Anjou pears" -> "ripe Bartlett pears"
             elif (len(pw) == 1 or (all(w.lower() in ADVERB_OR_PREP_WORDS or w in ALT_ADJECTIVES or w.lower() in ALT_ADJECTIVES for w in pw[:-1]) and (pw[-1] in ALT_ADJECTIVES or pw[-1].lower() in ALT_ADJECTIVES))) and len(last) >= 2 and not (last[0][:1].isupper() and last[-1][:1].isupper()):   # not "curacao or Grand Marnier" -> "curacao Marnier"
                 tail = last[1:] if len(pw) == 1 else last[-1:]           # "sweet Hungarian or smoked Spanish paprika" -> "sweet Hungarian paprika"
                 out.append(f"{p} {' '.join(tail)}")                     # "vegetable or canola oil" -> "vegetable oil"
@@ -1288,6 +1309,7 @@ def build_review(ctx: "Context", aligned: int) -> dict:
         "categories_without_a_tag": dict(review["unmapped_categories"].most_common()),
         "recipes_without_servings": review["no_servings"],
         "nutrition_divided": review.get("nutrition_divided", []),
+        "sub_recipes": review.get("sub_recipes", []),                 # linked recipes standing in for a line; aligned=False: re-align once they are
     }
 
 
@@ -1360,8 +1382,11 @@ class Context:
     overrides: dict = field(default_factory=dict)
     servings: dict = field(default_factory=dict)
     page_cookware: list = field(default_factory=list)       # equipment found among the ingredient lines of the page being aligned
+    sub_recipe_id: object = None                            # url -> family id of a linked recipe in the registry (None: not one of ours)
+    sub_recipe_ingredients: object = None                   # family id -> its ingredient ids, or None while it is not aligned yet
+    page_sub_ids: list = field(default_factory=list)        # ingredient ids inherited from the page's sub-recipes (None = not aligned yet)
     review: dict = field(default_factory=lambda: {"optional": [], "substitutions": [], "dropped_prep": [], "split_lines": [], "unknown_units": Counter(),
-                                                  "unmapped_categories": Counter(), "no_servings": [], "twins": 0})
+                                                  "unmapped_categories": Counter(), "no_servings": [], "twins": 0, "sub_recipes": []})
 
 
 FROM_ABOVE_RE = re.compile(r"\bfrom\s+above\b|\(\s*(?:above|below)\s*\)", re.I)
@@ -1385,7 +1410,7 @@ def build_ingredients(parsed: dict, ctx: Context, recipe_name: str, is_drink: bo
     lines = []
     optional = []
     override_subs = []
-    ctx.page_cookware = []
+    ctx.page_cookware, ctx.page_sub_ids = [], []
     for section in parsed["ingredient_sections"]:
         for item in section["items"]:
             whole = item["raw"]
@@ -1420,6 +1445,7 @@ def build_ingredients(parsed: dict, ctx: Context, recipe_name: str, is_drink: bo
                     ctx.review["optional"].append((recipe_name, raw.strip()))
                     continue
                 line = parse_line(raw)
+                line.link = item.get("link")
                 if not line.name:
                     continue
                 if EQUIPMENT_LINE_RE.match(line.name):                         # "Cheesecloth", "Kitchen twine", "Aluminum foil": cookware, not food
@@ -1466,9 +1492,18 @@ def build_ingredients(parsed: dict, ctx: Context, recipe_name: str, is_drink: bo
             alternatives.append((alt_line, keep_brand(Resolver.split_alternatives(alt_line.name)[0])))
         generic = match_as or strip_brands(first)
         shown = first if match_as else keep_brand(first)
+        name = f"{shown}, {prep}" if prep else shown
+        sub_id = ctx.sub_recipe_id(line.link) if line.link and ctx.sub_recipe_id else None
+        if sub_id is not None and (re.search(r"\(see (?:the )?recipe\)", line.raw, re.I) or ctx.resolver.known(generic) is None):  # "1 Three-Bean Chili Filling (see recipe)": the linked recipe's ingredients count
+            inherited = ctx.sub_recipe_ingredients(sub_id)
+            ids.extend(inherited if inherited is not None else [None])        # not aligned yet: unknown, like an undecided ingredient
+            ctx.page_sub_ids.extend(inherited if inherited is not None else [None])
+            ctx.review["sub_recipes"].append({"recipe": recipe_name, "line": name, "linked_id": sub_id, "aligned": inherited is not None})
+            us.append({"ingredient_id": None, "name": name, "quantity": render_us(line), "sub_recipe_id": sub_id})
+            metric.append({"ingredient_id": None, "name": name, "quantity": render_metric(line), "sub_recipe_id": sub_id})
+            continue
         ing_id = ctx.resolver.resolve(generic, recipe_name)[0]
         ids.append(ing_id)
-        name = f"{shown}, {prep}" if prep else shown
         us.append(single_amount_line({"ingredient_id": ing_id, "name": name, "quantity": render_us(line)}, "US"))
         metric.append(single_amount_line({"ingredient_id": ing_id, "name": name, "quantity": render_metric(line)}, "Metric"))
         if alternatives:
@@ -1520,6 +1555,29 @@ class Aligner:
         self._before = json.dumps(self.master.data, sort_keys=True)
         fill_missing_flags(self.master)                       # decided entries get their diet_flags (the master is where the importer reads them); saved by finish()
         self.ctx = Context(Resolver(self.master, source), overrides=load_overrides(library_dir), servings=load_servings(library_dir))
+        registry = library_dir / "source_registry.csv"
+        url_ids = {}
+        if registry.exists():
+            with registry.open(newline="", encoding="utf-8") as handle:
+                url_ids = {r["url"]: int(r["id"]) for r in csv.DictReader(handle)}
+
+        def linked_ingredients(family_id: int, depth: int = 0) -> list | None:
+            for base in (out_dir, library_dir):
+                found = sorted((base / "families" / str(family_id)).glob(f"{family_id}_*.json"))
+                if found:
+                    rec = json.loads(found[0].read_text(encoding="utf-8"))
+                    ids = []
+                    for ing in rec.get("ingredients") or []:
+                        if ing.get("sub_recipe_id") and depth < 3:            # a sub-recipe of the sub-recipe
+                            inner = linked_ingredients(ing["sub_recipe_id"], depth + 1)
+                            ids += inner if inner is not None else [None]
+                        else:
+                            ids.append(ing.get("ingredient_id"))
+                    return ids
+            return None
+
+        self.ctx.sub_recipe_id = lambda url: url_ids.get(url.split("?")[0].split("#")[0])
+        self.ctx.sub_recipe_ingredients = linked_ingredients
 
     def align(self, row: dict, page: bytes) -> dict:
         """Writes the family's records. Returns {"family_dir", "image_url", "previous_url"} so the caller can fetch the
@@ -1578,7 +1636,7 @@ def align_page(parsed: dict, family_id: int, ctx: Context, source_url: str | Non
         if cat.lower() not in CATEGORY_TAGS and cat.lower() not in UNTAGGED_CATEGORIES:
             ctx.review["unmapped_categories"][cat] += 1
     rating = parsed.get("rating")
-    menu_types = recipe_menu_types([i["ingredient_id"] for i in us_ings], ctx.resolver.master, parsed["nutrition"])       # vegetarian / pescatarian / vegan / paleo from the ingredients, low carb / keto from the nutrition
+    menu_types = recipe_menu_types([i["ingredient_id"] for i in us_ings if not i.get("sub_recipe_id")] + ctx.page_sub_ids, ctx.resolver.master, parsed["nutrition"])       # vegetarian / pescatarian / vegan / paleo from the ingredients, low carb / keto from the nutrition
     equipment = [{"id": None, "name": e, "slug": slugify(e)}
                  for e in split_equipment((parsed.get("extra_sections") or {}).get("Special Equipment")) + ctx.page_cookware]
     slug = slugify(name) or "recipe"

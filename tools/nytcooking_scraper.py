@@ -164,7 +164,7 @@ BLOCK_TYPES = {"paragraph", "list_item", "h3", "step", "heading"}
 METRIC_UNIT = r"(?:kilograms?|grams?|milli(?:liter|litre)s?|lit(?:er|re)s?|centimet(?:er|re)s?|millimet(?:er|re)s?|kg|g|ml|l|cm|mm)"
 # "cup/120 milliliters", "cup/6 ounces": a slash after a word (never "1/2", a fraction) and a measure
 SLASH_METRIC_RE = re.compile(r"(?<=[A-Za-z)])\s*/\s*(\d[\d.,½¼¾⅓⅔⅛ ]*(?:\s*(?:to|-|–)\s*\d[\d.,]*|[\s-]*(?:by|x|×)[\s-]*\d[\d.,]*)*[\s-]*"
-                             r"(?:" + METRIC_UNIT + r"|ounces?|pounds?|sticks?))\b")
+                             r"(?:" + METRIC_UNIT + r"|ounces?|pounds?|sticks?|tablespoons?|teaspoons?|cups?))\b")   # "2 envelopes/2 tablespoons gelatin"
 BARE_DEGREES_RE = re.compile(r"\b([2-5]\d\d)(\s*(?:to|-|–)\s*[2-5]\d\d)?\s*degrees(?:\s+Fahrenheit)?\b(?!\s*(?:F\b|C\b|Celsius))", re.I)
 SHORT_UNITS = [(r"kilograms?", "kg"), (r"grams?", "g"), (r"milli(?:liter|litre)s?", "ml"), (r"lit(?:er|re)s?", "l"),
                (r"centimet(?:er|re)s?", "cm"), (r"millimet(?:er|re)s?", "mm")]
@@ -228,8 +228,20 @@ def doc_children(field) -> list:
     return nodes
 
 
+def recipe_link(node) -> str | None:
+    """The NYT recipe an ingredient line links to ("Harissa sauce (see recipe)" -> its URL), if any."""
+    if isinstance(node, list):
+        return next((u for u in map(recipe_link, node) if u), None)
+    if not isinstance(node, dict):
+        return None
+    href = re.sub(r"^http://", "https://", ((node.get("attrs") or {}).get("href") or "").split("?")[0].split("#")[0].rstrip("/"))   # older pages link with http://
+    if node.get("type") == "link" and RECIPE_URL_RE.match(href):
+        return href
+    return recipe_link((node.get("marks") or []) + (node.get("content") or []))        # a link is a mark on the text node
+
+
 def ingredient_sections(scoop: dict) -> list[dict]:
-    """[{'section': 'For the Vinaigrette' | None, 'items': [{'raw', 'name', 'quantity', 'note'}]}] in page order."""
+    """[{"section": "For the Vinaigrette" | None, "items": [{"raw", "name", "quantity", "note", "link"}]}] in page order."""
     sections, heading = [], None
     for node in doc_children(scoop.get("ingredients")):
         if node.get("type") in ("h3", "heading"):
@@ -241,7 +253,7 @@ def ingredient_sections(scoop: dict) -> list[dict]:
             for li in node.get("content") or []:
                 raw = metric_in_brackets(clean(rich_text(li)).replace("\n", " "))
                 if raw:
-                    items.append({"raw": raw, "name": raw, "quantity": None, "note": None})
+                    items.append({"raw": raw, "name": raw, "quantity": None, "note": None, "link": recipe_link(li)})
             if items:
                 sections.append({"section": heading, "items": items})
             heading = None
@@ -400,7 +412,10 @@ def main() -> int:
     aligner = None
     if args.command == "align" or args.align or args.command == "run":
         aligner = Aligner(args.library_dir, args.out_dir or args.library_dir, args.review_file, source=SOURCE, parse=parse_nyt_page)
-    ids = {int(x) for x in args.ids.split(",")} if args.ids else None
+    ids = {int(x) for x in args.ids.split(",") if x.strip()} if args.ids is not None else None
+    if ids is not None and not ids:                                         # an empty list must never mean "everything"
+        print("\nERROR: --ids was given but holds no ids")
+        return se.EXIT_ERROR
     try:
         if args.command in ("discover", "run"):
             new, changed, renamed, total = discover(session, rows, args.urls_file)
