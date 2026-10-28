@@ -1,7 +1,7 @@
 """Compound amounts from imported pages ("1 tbsp plus 2 tsp", "¼ cup minus 1 tsp", "1 cup (8 oz) plus 2 tbsp") as one
 amount, by the user's rules (these lines only):
   under 1 cup   a tsp part -> tsp (5 tsp, 11 tsp), but over ¼ cup -> tbsp to the nearest ½;
-                cup + tbsp only -> a clean ⅛ cup when it is one, else tbsp
+                cup + tbsp only -> a clean ⅛ cup when it is one, else tbsp to the nearest ½
   over 1 cup    US: liquids in fl oz to the nearest ½, everything else cups to the nearest ⅛;
                 Metric: mL to the nearest 5
 single_amount() says whether the result is exact; when it isn't, the caller keeps the page's amount in "weigh_as"
@@ -88,7 +88,8 @@ def single_amount(q, name, units):
             return f"{fmt(x)} tbsp", x * 3 == tot
         if (tot / 6).denominator == 1:                             # a whole number of ⅛ cups
             return f"{fmt(tot / 48)} cup", True
-        return f"{fmt(tot / 3)} tbsp", True
+        x = _nearest(tot / 3, F(1, 2))                             # '⅓ cup plus 2 tbsp' -> 7 ½ tbsp, not 7 ⅓
+        return f"{fmt(x)} tbsp", x * 3 == tot
     if units == "Metric":
         return f"{5 * round(float(tot) * TSP_ML / 5)} ml", False
     if LIQUID.search(name or ""):
