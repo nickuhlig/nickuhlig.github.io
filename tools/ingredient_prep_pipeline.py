@@ -59,7 +59,9 @@ NC_NUTS = re.compile(r"pistachio|peanut|almond|walnut|\bnuts?\b|hazelnut|olive|c
 # bought that way (the user's rulings on the Serious Eats lines): deli meats, nuts, olives, chile powder, frozen edamame
 NC_KEEP = re.compile(r"\b(sliced|cooked)\b.*\b(ham|turkey)\b|\b(skinned|pitted|shelled|toasted|roasted)\b.*\b(almonds?|hazelnuts?|"
                      r"olives?|pistachios?|peanuts?|edamame)\b|\b(almonds?|hazelnuts?|olives?)\b.*\b(skinned|pitted)\b|"
-                     r"\bcrushed\b.*\b(chile|chili|pepper)\s+(powder|flakes)\b|\breserved from\b", re.I)
+                     r"\bcrushed\b.*\b(chile|chili|pepper)\s+(powder|flakes)\b|\breserved from\b|"
+                     # grated = shredded coconut, bought that way -- unless it's a fresh coconut you grate yourself
+                     r"^(?!.*\b(fresh|freshly|flesh)\b).*\b(grated|shredded|desiccated|flaked)\b.*\bcoconut\b", re.I)
 NC_HEAD = re.compile(r"\s(" + "|".join(sorted(NC_MOVE | NC_STATE | {"patted", "pushed"}, key=len, reverse=True)) + r")\b", re.I)
 SHRIMP_SIZES = r"(?:small|medium|large|extra-large|jumbo|colossal|\d+/\d+)"
 
@@ -153,8 +155,16 @@ def _join_prep(*parts):
 def _round1(g):
     """-> (name, prep) with prep/state comma tails moved out of the name."""
     item, groups = ip.prep_groups(g["name"])
+    sold = lambda o: re.fullmatch(r"(?:\w+ly\s+)?\w+ed", o) and NC_KEEP.search(f"{o} {item}")     # one word, e.g. 'grated'
+    groups = [("descriptor", t, o) if k in ("prep", "state") and sold(o) else (k, t, o) for k, t, o in groups]
+    keep = [o for k, t, o in groups if k == "descriptor" and sold(o)]
+    if keep:                                              # 'coconut, grated' is bought that way: 'grated coconut'
+        item = " ".join(keep + [item])
+        groups = [x for x in groups if x[2] not in keep]
     moving = [(t, o) for k, t, o in groups if k in ("prep", "state")]
     if not moving or not all(ip.to_sentence(item, t) for t, _ in moving):
+        if keep:
+            return ", ".join([item] + [o for k, t, o in groups if k not in ("prep", "state")]), g.get("prep")
         return g["name"], g.get("prep")
     name = ", ".join([item] + [o for k, t, o in groups if k not in ("prep", "state")])
     return name, _join_prep(g.get("prep"), ", ".join(o for _, o in moving))
