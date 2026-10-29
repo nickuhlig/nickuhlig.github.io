@@ -54,6 +54,7 @@ from diet_rules import fill_missing_flags, recipe_menu_types, suggest_flags
 from external_recipes import active_minutes, metric_id, parse_page, slugify, total_time_note
 from fetch_albertsons_native_recipes import format_quantity_number
 from ingredient_master import IngredientMaster, load_master, master_path_for, name_key, protected_qualifiers, save_master
+from ingredient_prep_pipeline import prep_records
 
 SOURCE = "seriouseats"
 VULGAR = {"½": .5, "⅓": 1 / 3, "⅔": 2 / 3, "¼": .25, "¾": .75, "⅕": .2, "⅖": .4, "⅗": .6, "⅘": .8,
@@ -1189,7 +1190,10 @@ class Resolver:
             elif pw[-1][:1].isupper() and last[0][:1].isupper() and len(last) >= 2 and not last[-1][:1].isupper():
                 out.append(f"{p} {last[-1]}")                           # "ripe Bartlett or Anjou pears" -> "ripe Bartlett pears"
             elif (len(pw) == 1 or (all(w.lower() in ADVERB_OR_PREP_WORDS or w in ALT_ADJECTIVES or w.lower() in ALT_ADJECTIVES for w in pw[:-1]) and (pw[-1] in ALT_ADJECTIVES or pw[-1].lower() in ALT_ADJECTIVES))) and len(last) >= 2 and not (last[0][:1].isupper() and last[-1][:1].isupper()):   # not "curacao or Grand Marnier" -> "curacao Marnier"
-                tail = last[1:] if len(pw) == 1 else last[-1:]           # "sweet Hungarian or smoked Spanish paprika" -> "sweet Hungarian paprika"
+                rest = list(last)                                       # the other option's noun, after its own adjectives:
+                while len(rest) > 1 and (rest[0] in ALT_ADJECTIVES or rest[0].lower() in ALT_ADJECTIVES):
+                    rest.pop(0)                                         # "smoked Spanish paprika" -> "paprika", "green bird chilies" -> "bird chilies"
+                tail = last[1:] if len(pw) == 1 else rest               # "sweet Hungarian or smoked Spanish paprika" -> "sweet Hungarian paprika"
                 out.append(f"{p} {' '.join(tail)}")                     # "vegetable or canola oil" -> "vegetable oil"
             elif len([w for w in pw if not (w.lower() in ADVERB_OR_PREP_WORDS or w.lower().endswith("ly"))]) <= 2 and last and last[-1] in GENERIC_HEADS and pw[-1] != last[-1]:
                 out.append(f"{p} {last[-1]}")                           # "peanut, rice bran, or neutral oil" -> "rice bran oil"
@@ -1685,5 +1689,15 @@ def align_page(parsed: dict, family_id: int, ctx: Context, source_url: str | Non
             "author": parsed["authors"],
             "thumbnail_image_url": parsed["image_url"],
         })
+    # prep out of the names into a Prep step, citrus juice as fruit counts (the processed library's form); it can change
+    # ingredient ids (lemon juice -> lemon), so restrictions and menu types are worked out again from the final lines
+    us_rec, metric_rec = prep_records(variants[0], variants[1], ctx.resolver.master.entries)
+    ids = [i["ingredient_id"] for i in us_rec["ingredients"] if not i.get("sub_recipe_id")] + ctx.page_sub_ids
+    master = ctx.resolver.master
+    flags = [None if i is None else master.violates(i) for i in ids]
+    violated = None if not ids or any(f is None for f in flags) else sorted(set().union(*flags))
+    menu_types = list(recipe_menu_types(ids, master, parsed["nutrition"]))
+    for rec in (us_rec, metric_rec):
+        rec["violated_restriction_ids"], rec["allowed_type_ids"] = violated, list(menu_types)
     ctx.review["twins"] += 1
-    return variants
+    return [us_rec, metric_rec]
