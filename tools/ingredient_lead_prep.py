@@ -14,7 +14,8 @@ PACKED = re.compile(r"^((?:loosely|lightly|firmly|tightly|well)\s+)?packed\s+", 
 _mv = "|".join(sorted(MOVE, key=len, reverse=True)); _ad = "|".join(ADV)
 LEAD = re.compile(r"^((?:(?:%s)\s+)*(?:%s)(?:\s*(?:,|and|or|&)\s*(?:(?:%s)\s+)*(?:%s))*)\s+(.+)$" % (_ad, _mv, _ad, _mv), re.I)
 KEEP_ITEM = re.compile(r"^(hard|soft)[- ]?(boiled|cooked|steamed)\b|^fried shallots?\b|^tonic\b", re.I)   # decided elsewhere
-FIRST = re.compile(r"^(drained|rinsed|thawed|peeled|trimmed|stemmed)\b", re.I)   # done before cutting
+FIRST = re.compile(r"^(drained|rinsed|thawed|washed|scrubbed|cleaned|peeled|trimmed|stemmed|seeded|deseeded|cored|pitted|"
+                   r"shelled|deveined)\b", re.I)   # done before cutting
 
 HERBS = ["lemon thyme", "thyme", "rosemary", "oregano", "marjoram", "sage", "tarragon", "mint", "basil", "parsley",
          "cilantro", "dill", "chervil", "savory", "epazote", "lovage", "shiso", "perilla", "curry leaves"]
