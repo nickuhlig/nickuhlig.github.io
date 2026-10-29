@@ -86,7 +86,8 @@ LEADING_ADJECTIVES = {"cubed", "sweet", "ripe", "fresh", "firm", "soft", "hard",
                       "tender", "juicy", "sliced", "chopped", "diced", "minced", "shredded", "grated", "dried", "raw", "cooked", "frozen",
                       "large", "small", "medium", "thick", "thin", "lean", "fatty", "young", "baby", "mini", "whole", "toasted", "roasted",
                       "packed", "loosely", "firmly", "tightly", "lightly", "roughly", "finely", "coarsely", "thinly", "freshly",
-                      "extra-virgin", "fruity", "red", "green", "yellow", "orange", "white", "black", "purple", "golden"}
+                      "extra-virgin", "fruity", "red", "green", "yellow", "orange", "white", "black", "purple", "golden",
+                      "trimmed", "peeled", "seeded", "cored", "stemmed", "pitted", "halved", "quartered", "deveined", "scrubbed"}
 # (singular, plural) the library's way: "1 clove", "2 cloves"
 COUNT_FORMS = {}
 for _s, _p in [("clove", "cloves"), ("head", "heads"), ("sprig", "sprigs"), ("stalk", "stalks"), ("slice", "slices"),
@@ -454,11 +455,15 @@ def parse_line(raw: str) -> Line:
     cut = re.search(r"[,;]", text)                       # name ends at the first comma or semicolon; the rest is prep
     head, prep = (text[:cut.start()], text[cut.end():]) if cut else (text, "")
     line.name = re.sub(r"\s+", " ", head).strip(" .,;:")
-    if prep.strip() and line.name and all(w in LEADING_ADJECTIVES for w in line.name.lower().split()):
+    leading = []
+    while prep.strip() and line.name and all(w in LEADING_ADJECTIVES for w in line.name.lower().split()):
         noun, _, rest = prep.strip().partition(",")                               # "cubed sweet, ripe mango, from 2 mangoes": the noun follows the comma
-        if noun.strip():
-            prep = ", ".join(x for x in (line.name, rest.strip()) if x)
-            line.name = noun.strip()
+        if not noun.strip():
+            break
+        leading.append(line.name)                                                 # "trimmed, peeled, finely shredded carrot": every one before the noun
+        line.name, prep = noun.strip(), rest
+    if leading:
+        prep = ", ".join(x for x in (*leading, prep.strip()) if x)
     if line.unit and line.amount is not None:                                      # "1 pound large or medium shrimp": sizes are prep, not the name
         sizes = re.match(rf"^((?:{SIZE_RE})(?:\s+or\s+(?:{SIZE_RE}))*)\s+(?=\S)", line.name, re.I)
         if sizes:
