@@ -99,7 +99,7 @@ for _s, _p in [("clove", "cloves"), ("head", "heads"), ("sprig", "sprigs"), ("st
                ("round", "rounds"), ("handful", "handfuls"), ("bottle", "bottles"), ("bag", "bags"), ("box", "boxes"),
                ("container", "containers"), ("cube", "cubes"), ("drop", "drops"), ("serving", "servings"),
                ("scoop", "scoops"), ("shot", "shots"), ("block", "blocks"), ("envelope", "envelopes"), ("packet", "packets"),
-               ("dozen", "dozen"), ("loaf", "loaves"), ("rack", "racks"), ("portion", "portions"), ("chunk", "chunks"), ("link", "links"), ("foot", "feet"), ("slab", "slabs"), ("pack", "packs")]:
+               ("dozen", "dozen"), ("loaf", "loaves"), ("rack", "racks"), ("portion", "portions"), ("chunk", "chunks"), ("link", "links"), ("foot", "feet"), ("slab", "slabs"), ("pack", "packs"), ("grinding", "grindings")]:
     COUNT_FORMS[_s] = (_s if _s != "package" else "pkg", _p)
     COUNT_FORMS[_p] = COUNT_FORMS[_s]
 ADVERB_OR_PREP_WORDS = {"sliced", "chopped", "diced", "minced", "grated", "shredded", "crushed", "peeled", "trimmed",
@@ -293,6 +293,17 @@ def normalize_raw(raw: str) -> str:
     s = re.sub(r"^(?:a\s+few|few|several)\s+(?=(?:dash|dashes|drops?|pinch|pinches|splash|splashes|shakes?|sprigs?|grinds?|leaves)\b)", "3 ", s, flags=re.I)   # "Several dashes hot sauce", "Few shakes salt"
     s = re.sub(r"^(\d+)\s+shakes?\s+", r"\1 dashes ", s, flags=re.I)                                                   # a shake is a dash
     s = re.sub(r"^scant\s+(?=(?:cups?|tablespoons?|teaspoons?)\b)", "1 ", s, flags=re.I)                                   # "Scant cup walnuts"
+    s = re.sub(r"\btablepsoons?\b", "tablespoons", s, flags=re.I)                                                         # typos on the page
+    s = re.sub(r"\bmillil[ei]ters?\b", "milliliter", s, flags=re.I)
+    s = re.sub(r"^(\d+)\s+(\d+)[- ]?(milliliter|ml|liter)\s+(bottles?|cans?|jars?)\b", r"\1 (\2 \3) \4", s, flags=re.I)   # "2 750-milliliter bottles light dessert wine"
+    s = re.sub(rf"^((?:{NUM})\s+(?:cups?|tablespoons?|teaspoons?))\s+(\S.*?)\s+less\s+((?:{NUM})\s+(?:cups?|tablespoons?|teaspoons?))\b", r"\1 minus \3 \2", s, flags=re.I)   # "⅔ cup sugar less 1 tablespoon" -> "⅔ cup minus 1 tablespoon sugar"
+    s = re.sub(r"^(\d+)\s+(\d+)[- ]?to[- ](\d+)[- ]pounds?\s+", r"\1 (\2- to \3-pound) ", s, flags=re.I)              # "1 17-to-20-pound ready-to-cook turkey"
+    s = re.sub(r"^(?:pie\s+)?pastry\s+(?:dough\s+)?for\s+(?:an?\s+|one\s+)?(.+)$", r"1 pie dough, for \1", s, flags=re.I)   # "Pastry for a one-crust 10-inch pie"
+    s = re.sub(r"\bpepp+er\b", "pepper", s, flags=re.I)
+    s = re.sub(r"\bto aste\b", "to taste", s, flags=re.I)
+    s = re.sub(rf"^((?:{NUM})(?:\s+(?:tablespoons?|teaspoons?|cups?|slices?|pounds?|ounces?))?)\s+or\s+(?:less|more)\b", r"\1", s, flags=re.I)   # "2 tablespoons or less whole milk"
+    s = re.sub(rf"^({NUM})[\s-]+(ounces?|pounds?)\s+(cans?|jars?|packages?|bags?|boxes?)\b", r"1 (\1-\2) \3", s, flags=re.I)   # "14 ½ ounce can diced tomatoes"
+    s = re.sub(r"\b(?:grated\s+)?rind\s+(?=(?:of|from)\s+(?:\d+|an?|one|two|½)\s+(?:lemons?|limes?|oranges?)\b)", "zest ", s, flags=re.I)   # "grated rind of one orange"
     s = re.sub(r"^(\d+)\s+and\s+(?=[½¼¾⅓⅔⅛⅜⅝⅞]|\d+/\d+)", r"\1 ", s)                                                    # "3 and ½ ounces"
     s = re.sub(r"^(\S+)\s+(?:(?:lightly|loosely|firmly|tightly|well)\s+)?packed\s+(?=(?:cups?|tablespoons?|teaspoons?)\b)", r"\1 ", s, flags=re.I)   # "1 lightly packed cup"
     s = re.sub(r"^(?:the\s+)?seeds\s+(?:scraped\s+)?(?:from|of)\s+(\d+|an?|one)\s+(?:split\s+)?(vanilla\s+beans?)\b", r"\1 \2, seeds scraped", s, flags=re.I)   # "Seeds from 1 split vanilla bean"
@@ -501,6 +512,10 @@ def parse_line(raw: str) -> Line:
                     r"\s+(?:tough\s+)?stems?\s+(?:removed|trimmed|discarded)\b.*$",                       # "kale tough stems removed"
                     r"\s+at\s+room\s+temperature\b.*$",
                     r"\s+tied\s+(?:together|with|up)\b.*$",
+                    r"\s+in\s+(?:[\d/½¼¾⅓⅔⅛ -]+-inch|small|medium|large|fine|coarse)\s+dice\b.*$",            # "carrot in ¼-inch dice"
+                    r"\s+with\s+(?:a\s+little|very\s+little|some|most|no|all)\s+(?:of\s+(?:the|its)\s+)?fat\b.*$",     # "pork butt with very little fat left on"
+                    r"\s+(?:well\s+|lightly\s+)?(?:beaten|melted|softened)$",                                       # "eggs well beaten", "butter melted"
+                    r"\s+(?:tossed|dredged|dusted|coated)\s+(?:in|with)\b.*$",                                       # "raisins tossed in flour and shaken"
                     r"\s+(?:divided|cut)\s+(?:lengthwise\s+)?into\s+\d+\b.*$",                                      # "1 whole lime divided into 8 wedges"                                  # "thyme tied together"
                     r"\s+for\s+(?:the\s+)?(?:pasta|boiling|cooking|blanching|poaching)\s+water\b.*$",   # "kosher salt for pasta water"
                     PREPARED_TAIL):                                                  # "onion grated on a microplane grater"
@@ -583,7 +598,7 @@ class Substitution:
 FRUITS = r"limes?|lemons?|oranges?|grapefruits?"
 # "juice from about 2 limes", "freshly squeezed juice from 1 whole lemon", "zest of 1 orange", "zest and juice from 1 lime"
 FRUIT_SOURCE_RE = re.compile(
-    rf"^(?:the\s+)?(?:(?:fresh|freshly[- ]squeezed|squeezed|grated|finely grated|freshly grated)\s+)*(?P<kind>juice|zest|peels?|rinds?)(?:\s+and\s+(?:juice|zest))?\s+(?:(?:from|of)\s+)?"
+    rf"^(?:the\s+)?(?:(?:fresh|freshly[- ]squeezed|squeezed|grated|finely grated|freshly grated)\s+)*(?P<kind>juice|zest|peels?|rinds?)(?:\s+and\s+(?:(?:finely\s+|freshly\s+)?grated\s+)?(?:juice|zest))?\s+(?:(?:from|of)\s+)?"
     rf"(?:about\s+|approximately\s+|roughly\s+)?(?:(?P<n>\d+(?:\s+\d+/\d+)?|\d+/\d+|{NUMBER_WORD_RE}|half(?:\s+an?)?|an?)\s+(?:to\s+\d+\s+)?(?:an?\s+)?)?"
     rf"(?:(?:whole|large|medium|small|big|navel|Meyer|fruit|ripe)\s+)*(?P<fruit>{FRUITS})\b", re.I)
 # chipotles that come from a can of chipotles in adobo, however the author words it
@@ -964,8 +979,9 @@ MODIFIERS = ("bone in skin on", "boneless skinless", "unsalted", "salted", "bone
              "smoked", "light", "dark", "reduced sodium", "low sodium")
 GENERIC_HEADS = {"lettuce", "oil", "cheese", "sauce", "vinegar", "sugar", "flour", "salt", "milk", "cream", "butter", "broth", "paste", "powder",
                  "seeds", "beans", "rice", "noodles", "wine", "juice", "syrup", "mustard", "yogurt", "stock", "bread", "pasta", "rolls", "buns", "crackers",
-                 "chorizo", "sausage", "sausages", "chiles", "chilies", "chillies", "peppers", "olives", "oregano", "chocolate", "clams", "potatoes", "peas"}
-ALT_ADJECTIVES = {"candied", "whole", "green", "red", "white", "black", "yellow", "orange", "brown", "purple", "pink", "golden", "sweet", "hot", "mild", "spicy", "dark", "light", "regular", "plain", "smoked",
+                 "chorizo", "sausage", "sausages", "chiles", "chilies", "chillies", "peppers", "olives", "oregano", "chocolate", "clams", "potatoes", "peas",
+                 "cider", "meat"}
+ALT_ADJECTIVES = {"candied", "ground", "whole", "green", "red", "white", "black", "yellow", "orange", "brown", "purple", "pink", "golden", "sweet", "hot", "mild", "spicy", "dark", "light", "regular", "plain", "smoked",
                   "large", "small", "baby", "wild", "fresh", "dried", "frozen", "ripe", "firm", "natural", "unsweetened", "flat", "short", "long",
                   "Chinese", "Japanese", "Italian", "Thai", "Greek", "Mexican", "Spanish", "Hungarian", "French", "Korean", "Indian", "American"}
 HEAD_NOUNS = GENERIC_HEADS | {"ghee", "schmaltz", "tallow", "drippings", "fat", "lard", "shortening", "margarine", "creamer", "spray", "mayonnaise", "mayo", "ketchup", "honey",
@@ -1374,7 +1390,7 @@ def line_key(raw: str) -> str:
 
 def load_overrides(library_dir: Path) -> dict:
     """external_line_overrides.csv (next to the registry): hand-written answers for one-off ingredient lines the parser
-    can't read. Columns: raw_line, kind (ingredient | cookware | drop), name, match_as (the master entry), us_quantity,
+    can't read. Columns: raw_line, kind (ingredient | cookware | drop | note | substitution | sub_recipe), name, match_as (the master entry), us_quantity,
     metric_quantity (blank = same as US). Several rows with the same raw_line give several ingredients."""
     path = library_dir / OVERRIDES_FILENAME
     table: dict[str, list] = {}
@@ -1435,6 +1451,10 @@ def build_ingredients(parsed: dict, ctx: Context, recipe_name: str, is_drink: bo
                     elif row["kind"] == "note":                         # not an ingredient: goes to the notes at the top ("Optional or for serving")
                         optional.append(row["name"].strip())
                         ctx.review["optional"].append((recipe_name, row["name"].strip()))
+                    elif row["kind"] == "sub_recipe":                  # an unlinked "Shiitake and lotus seed stuffing": match_as = that recipe's family id
+                        lines.append((Line(raw=whole, name=row["name"].strip(), fixed_us=(row["us_quantity"] or "").strip(),
+                                           fixed_metric=(row.get("metric_quantity") or row["us_quantity"] or "").strip(),
+                                           link=f"id:{row['match_as'].strip()}"), None))
                     elif row["kind"] == "ingredient":
                         us_text = (row["us_quantity"] or "").strip()
                         metric_text = (row.get("metric_quantity") or "").strip()
@@ -1585,7 +1605,20 @@ class Aligner:
                     return ids
             return None
 
-        self.ctx.sub_recipe_id = lambda url: url_ids.get(url.split("?")[0].split("#")[0])
+        site_numbers = {}                                     # NYT's own recipe number: a link may use an old slug ("178-corn-bread")
+        for url, family_id in url_ids.items():
+            m = re.search(r"/recipes/(\d+)-", url)
+            if m:
+                site_numbers[m.group(1)] = family_id
+
+        def sub_recipe_id(url: str) -> int | None:
+            if url.startswith("id:"):                         # set by hand in external_line_overrides.csv (kind sub_recipe)
+                return int(url[3:])
+            url = url.split("?")[0].split("#")[0]
+            m = re.search(r"/recipes/(\d+)-", url)
+            return url_ids.get(url) or (site_numbers.get(m.group(1)) if m else None)
+
+        self.ctx.sub_recipe_id = sub_recipe_id
         self.ctx.sub_recipe_ingredients = linked_ingredients
 
     def align(self, row: dict, page: bytes) -> dict:
