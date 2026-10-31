@@ -139,7 +139,7 @@ def _skip(g):
 
 def _sentence(name, prep):
     """The Prep-step sentence for a line's name + prep."""
-    s = lp.line_sentence(name, prep.replace(", and ", " and ").replace(", ", " and "))
+    s = lp.line_sentence(name, prep.replace(", then ", " and ").replace(", and ", " and ").replace(", ", " and "))   # ("soft, then julienned": not "and then")
     if not s:
         item, groups = ip.prep_groups(f"{name}, {prep}")
         s = " ".join(x for x in (ip.to_sentence(item, t) for k, t, o in groups if k in ("prep", "state")) if x) or None

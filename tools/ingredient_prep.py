@@ -34,7 +34,7 @@ IRREGULAR = {"cut": "cut", "torn": "tear", "ground": "grind", "split": "split", 
              "hulled": "hull", "tied": "tie", "untied": "untie", "boned": "bone", "deboned": "debone", "unpeeled": "leave unpeeled"}
 VERBS_E = {"mince", "slice", "dice", "grate", "rinse", "juice", "squeeze", "crumble", "score", "shave", "cube", "halve",
            "separate", "core", "remove", "reserve", "discard", "pierce", "prick", "scrape", "cure", "pickle", "pare",
-           "debone", "bone", "julienne", "puree", "purée", "crumble", "dredge", "smoke", "bake", "massage", "drizzle",
+           "debone", "bone", "degrease", "julienne", "puree", "purée", "crumble", "dredge", "smoke", "bake", "massage", "drizzle",
            "squeeze", "seize", "temper", "use", "save", "measure", "size", "trace", "ice", "brine", "fine", "glaze",
            "segregate", "carve", "shape", "wedge", "devein", "tease", "toss", "loosen", "sauté", "saute", "charge",
            "hydrate", "rehydrate", "marinate", "macerate", "caramelize", "dissolve", "sliver", "pulse", "chiffonade",
