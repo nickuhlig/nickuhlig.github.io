@@ -163,7 +163,7 @@ JSONLD_RE = re.compile(r'<script[^>]*type="application/ld\+json"[^>]*>.*?</scrip
 BLOCK_TYPES = {"paragraph", "list_item", "h3", "step", "heading"}
 METRIC_UNIT = r"(?:kilograms?|grams?|milli(?:liter|litre)s?|lit(?:er|re)s?|centimet(?:er|re)s?|millimet(?:er|re)s?|kg|g|ml|l|cm|mm)"
 # "cup/120 milliliters", "cup/6 ounces": a slash after a word (never "1/2", a fraction) and a measure
-SLASH_METRIC_RE = re.compile(r"(?<=[A-Za-z)])\s*/\s*(\d[\d.,½¼¾⅓⅔⅛ ]*(?:\s*(?:to|-|–)\s*\d[\d.,]*|[\s-]*(?:by|x|×)[\s-]*\d[\d.,]*)*[\s-]*"
+SLASH_METRIC_RE = re.compile(r"(?<=[A-Za-z)])\s*/\s*([\d½¼¾⅓⅔⅛][\d.,½¼¾⅓⅔⅛ ]*(?:\s*(?:to|-|–)\s*\d[\d.,]*|[\s-]*(?:by|x|×)[\s-]*\d[\d.,]*)*[\s-]*"
                              r"(?:" + METRIC_UNIT + r"|ounces?|pounds?|sticks?|tablespoons?|teaspoons?|cups?))\b")   # "2 envelopes/2 tablespoons gelatin"
 BARE_DEGREES_RE = re.compile(r"\b([2-5]\d\d)(\s*(?:to|-|–)\s*[2-5]\d\d)?\s*degrees(?:\s+Fahrenheit)?\b(?!\s*(?:F\b|C\b|Celsius))", re.I)
 SHORT_UNITS = [(r"kilograms?", "kg"), (r"grams?", "g"), (r"milli(?:liter|litre)s?", "ml"), (r"lit(?:er|re)s?", "l"),

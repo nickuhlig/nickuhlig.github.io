@@ -80,7 +80,7 @@ UNIT_MAP = {
     "inch": "inch", "inches": "inch", "cm": "cm", "centimeter": "cm", "centimeters": "cm",
 }
 SPELLED_OUT = {"tbsp", "tsp", "cup", "oz", "lb", "quart", "pint", "gallon", "inch"}   # US units that may need converting
-SIZE_WORDS = {"small", "medium", "large", "extra-large", "big", "generous"}   # "whole" is handled separately: "2 whole heads" vs "whole peeled tomatoes"
+SIZE_WORDS = {"small", "medium", "large", "extra-large", "big", "generous", "fat"}   # "whole" is handled separately: "2 whole heads" vs "whole peeled tomatoes"
 SIZE_RE = r"small|medium|large|extra[- ]large|jumbo|big"
 # words that only describe (no noun): a name made of nothing else is really the start of "adjectives, noun"
 LEADING_ADJECTIVES = {"cubed", "sweet", "ripe", "fresh", "firm", "soft", "hard", "hot", "mild", "spicy", "bitter", "sour", "crisp", "crunchy",
@@ -88,7 +88,8 @@ LEADING_ADJECTIVES = {"cubed", "sweet", "ripe", "fresh", "firm", "soft", "hard",
                       "large", "small", "medium", "thick", "thin", "lean", "fatty", "young", "baby", "mini", "whole", "toasted", "roasted",
                       "packed", "loosely", "firmly", "tightly", "lightly", "roughly", "finely", "coarsely", "thinly", "freshly",
                       "extra-virgin", "fruity", "red", "green", "yellow", "orange", "white", "black", "purple", "golden",
-                      "trimmed", "peeled", "seeded", "cored", "stemmed", "pitted", "halved", "quartered", "deveined", "scrubbed"}
+                      "trimmed", "peeled", "seeded", "cored", "stemmed", "pitted", "halved", "quartered", "deveined", "scrubbed",
+                      "shucked", "crusty", "prepared", "round", "plump", "unbroken", "oval-shaped"}
 # (singular, plural) the library's way: "1 clove", "2 cloves"
 COUNT_FORMS = {}
 for _s, _p in [("clove", "cloves"), ("head", "heads"), ("sprig", "sprigs"), ("stalk", "stalks"), ("slice", "slices"),
@@ -99,9 +100,10 @@ for _s, _p in [("clove", "cloves"), ("head", "heads"), ("sprig", "sprigs"), ("st
                ("round", "rounds"), ("handful", "handfuls"), ("bottle", "bottles"), ("bag", "bags"), ("box", "boxes"),
                ("container", "containers"), ("cube", "cubes"), ("drop", "drops"), ("serving", "servings"),
                ("scoop", "scoops"), ("shot", "shots"), ("block", "blocks"), ("envelope", "envelopes"), ("packet", "packets"),
-               ("dozen", "dozen"), ("loaf", "loaves"), ("rack", "racks"), ("portion", "portions"), ("chunk", "chunks"), ("link", "links"), ("foot", "feet"), ("slab", "slabs"), ("pack", "packs"), ("grinding", "grindings")]:
+               ("dozen", "dozen"), ("loaf", "loaves"), ("rack", "racks"), ("portion", "portions"), ("chunk", "chunks"), ("link", "links"), ("foot", "feet"), ("slab", "slabs"), ("pack", "packs"), ("grinding", "grindings"), ("brick", "bricks")]:
     COUNT_FORMS[_s] = (_s if _s != "package" else "pkg", _p)
     COUNT_FORMS[_p] = COUNT_FORMS[_s]
+COUNT_FORMS["packages"] = COUNT_FORMS["package"]                  # "2 (16-ounce) packages potato gnocchi"
 ADVERB_OR_PREP_WORDS = {"sliced", "chopped", "diced", "minced", "grated", "shredded", "crushed", "peeled", "trimmed",
                         "halved", "quartered", "cubed", "torn", "cored", "seeded", "drained", "rinsed", "thinly", "thickly",
                         "finely", "roughly", "coarsely", "very", "freshly", "lightly", "firmly", "loosely", "skin-on",
@@ -230,7 +232,7 @@ _LIST_ITEM = r"(?![^,]*\b(?!\w*seed\b)\w{3,}(?:ed|ly)\b)[A-Za-z][A-Za-z' -]{1,30
 PREPARED_TAIL = (r"\s+(?:(?:(?:lightly|well|finely|roughly|coarsely|thinly)\s+)?(?:grated|peeled|trimmed|cored|seeded|halved|quartered|cubed|crushed|drained|rinsed|thawed|softened|beaten|sifted)"
                  r"\s+(?:on|and|into|in|at|to|with|lengthwise|crosswise|if)|(?:cut|sliced|diced|chopped|julienned)\s+(?:into|in|at|to|lengthwise|crosswise)|"
                  r"(?:stirred|mixed|whisked|dissolved|combined|blended)\s+(?:in|into|with)|dissolved\b)\b.*$")
-LIST_OF_ALTERNATIVES_RE = re.compile(rf"^((?:{_LIST_ITEM}, ){{1,4}}(?:and/or |or ){_LIST_ITEM}(?= *(?:,|$)))( ?.*)$")
+LIST_OF_ALTERNATIVES_RE = re.compile(rf"^((?:{_LIST_ITEM}, ){{1,4}}(?:{_LIST_ITEM} )?(?:and/or |or ){_LIST_ITEM}(?= *(?:,|$)))( ?.*)$")
 GARNISH_LINE_RE = re.compile(r"^\s*(?:garnish(?:es)?\s*:|toppings?\b)|\bof your choice\b|\bany of the following\b|\bcomposed of\b", re.I)
 # "Garnish: mint sprig", "Toppings of your choice, ...", "Vegetables of your choice"
 
@@ -254,12 +256,19 @@ PRODUCT_ATTRIBUTES = r"boneless|skinless|bone-in|skin-on|shell-on|head-on|boned-
 PLUS_AMOUNT_RE = re.compile(rf"(?:,\s*|\s+)plus\s+(?=(?:\d|[{VG}]|a\s|an\s|(?:{NUMBER_WORD_RE})\s))", re.I)
 
 
+PREP_VERBS = "sliced|chopped|minced|slivered|diced|grated|shredded|julienned|crushed|torn|cubed|shaved"   # a choice of cut: "slivered or chopped"
+
+
 def normalize_raw(raw: str) -> str:
     """Spelled-out counts and package sizes, as the page wrote them, into the forms the parser reads:
     'Two (12-ounce; 334 g) pork chops' -> '2 (12-ounce; 334 g) pork chops';
     'One 16-ounce can beans' -> '1 (16-ounce) can beans'; 'Four 5- to 6-ounce each thighs' -> '4 (5- to 6-ounce) thighs';
     'boneless, skinless' / 'bone-in, skin-on' pairs lose their comma so they are not read as 'name, prep'."""
     s = " ".join(raw.replace("\xa0", " ").split())
+    s = re.sub(r"\b(one|two|three|four|five|six|seven|eight|nine|ten|twelve|fourteen|fifteen|sixteen|twenty|twenty-eight)-(ounce|pound|inch)\b",
+               lambda m: f"{['one','two','three','four','five','six','seven','eight','nine','ten'].index(m.group(1).lower()) + 1 if m.group(1).lower() in ['one','two','three','four','five','six','seven','eight','nine','ten'] else {'twelve': 12, 'fourteen': 14, 'fifteen': 15, 'sixteen': 16, 'twenty': 20, 'twenty-eight': 28}[m.group(1).lower()]}-{m.group(2)}", s, flags=re.I)   # "1 six-ounce can"
+    s = re.sub(r"^(\d+)\s+(\d+(?:\.\d+)?)-inch\s+(?:length|piece|chunk)\s+of\s+", r"\1 (\2-inch) piece ", s, flags=re.I)   # "1 2-inch length of raw carrot"
+    s = re.sub(r"\b(brick|block|piece|slice|wedge|chunk)\s+or\s+(?:brick|block|piece|slice|wedge|chunk)\s+of\s+", r"\1 ", s, flags=re.I)   # "1 brick or slice of feta"
     s = re.sub(r"(\d)-inch-(?:square|long|thick|wide)\b", r"\1-inch", s, flags=re.I)                                         # "1 4-inch-square piece konbu"
     s = re.sub(rf"^(?:about|approximately|roughly|scant|generous|heaping|rounded|a scant|a generous|just over|just under)\s+(?=\d|[{VG}])", "", s, flags=re.I)
     s = re.sub(rf"(?<=[\d/{VG}])\s+(?:scant|heaping|generous|rounded|level)\s+(?=(?:tablespoons?|teaspoons?|cups?)\b)", " ", s, flags=re.I)
@@ -294,6 +303,20 @@ def normalize_raw(raw: str) -> str:
     s = re.sub(r"^(\d+)\s+shakes?\s+", r"\1 dashes ", s, flags=re.I)                                                   # a shake is a dash
     s = re.sub(r"^scant\s+(?=(?:cups?|tablespoons?|teaspoons?)\b)", "1 ", s, flags=re.I)                                   # "Scant cup walnuts"
     s = re.sub(r"\btablepsoons?\b", "tablespoons", s, flags=re.I)                                                         # typos on the page
+    s = re.sub(r"\btablepoons?\b", "tablespoons", s, flags=re.I)
+    s = re.sub(r"\bteapoons?\b", "teaspoon", s, flags=re.I)
+    s = re.sub(r"\bgroundblack\b", "ground black", s, flags=re.I)
+    s = re.sub(r"\bredpepper\b", "red pepper", s, flags=re.I)
+    s = re.sub(r"^(\d+)\s+spring\s+(rosemary|thyme|sage|mint|parsley)\b", r"\1 sprig \2", s, flags=re.I)
+    s = re.sub(r"^(\d+)\s+or\s+(\d+)\s+(?=\D)", r"\1 to \2 ", s)                                                        # "2 or 3 red, ripe tomatoes"
+    s = re.sub(r"^(\d+)\s+full\s+(?=(?:cups?|tablespoons?|teaspoons?)\b)", r"\1 ", s, flags=re.I)                          # "1 full cup cilantro"
+    # lower-fat dairy is written as the full-fat kind the library (Mealime) uses (the user's rule)
+    s = re.sub(r"(?<!evaporated )(?<!condensed )\b(?:low[- ]?fat|reduced[- ]fat|non[- ]?fat|fat[- ]free|skim|part[- ]skim|1%|2%)\s+(?:plain\s+)?(?:,\s*)?(?:unflavored\s+)?(?:greek\s+)?(yogurt|milk|sour cream)\b",
+               lambda m: {"yogurt": "plain Greek yogurt", "milk": "whole milk", "sour cream": "sour cream"}[m.group(1).lower()], s, flags=re.I)
+    s = re.sub(r"^(?=(?:teaspoons?|tablespoons?|cups?)\s+\S)", "1 ", s, flags=re.I)                                           # "teaspoon tomato paste": the page left out the 1
+    s = re.sub(rf"^((?:{NUM})\s+(?:(?:tablespoons?|teaspoons?|cups?|pounds?|ounces?)\s+)?)((?:{PREP_VERBS})\s+or\s+(?:{PREP_VERBS}))\s+(.+)$",
+               r"\1\3, \2", s, flags=re.I)                                                                                     # "1 tablespoon slivered or chopped fresh sage"
+    s = re.sub(r"^kernels\s+(?:cut\s+)?(?:from|of)\s+(\d+)\s+ears?\s+(?:of\s+)?(?:fresh\s+)?corn\b", r"\1 ears corn, kernels cut off", s, flags=re.I)   # "Kernels from 4 ears corn"
     s = re.sub(r"\bmillil[ei]ters?\b", "milliliter", s, flags=re.I)
     s = re.sub(r"^(\d+)\s+(\d+)[- ]?(milliliter|ml|liter)\s+(bottles?|cans?|jars?)\b", r"\1 (\2 \3) \4", s, flags=re.I)   # "2 750-milliliter bottles light dessert wine"
     s = re.sub(rf"^((?:{NUM})\s+(?:cups?|tablespoons?|teaspoons?))\s+(\S.*?)\s+less\s+((?:{NUM})\s+(?:cups?|tablespoons?|teaspoons?))\b", r"\1 minus \3 \2", s, flags=re.I)   # "⅔ cup sugar less 1 tablespoon" -> "⅔ cup minus 1 tablespoon sugar"
@@ -458,7 +481,7 @@ def parse_line(raw: str) -> Line:
     text = re.sub(r"^\d+(?:[/.]\d+)?[- ]inch\s+", "", text, flags=re.I)                                        # "1/4-inch diced butternut squash"                                                     # "2 teaspoons each chopped ...": a distribution word, not a name   # "1 cup your favorite dry rub": the cook's own choice, not a name
     text = re.sub(r"^(fresh|ripe|dry|dried|raw|cooked|frozen|whole),\s+", r"\1 ", text, flags=re.I)  # "fresh, crustless bread"
     text = re.sub(r"\b(?:homemade or store[- ]bought|store[- ]bought or homemade)\s+", "", text, flags=re.I)   # either is fine: no alternative
-    such_as = re.search(r",?\s+such as\b.*$", text, re.I)                      # "neutral oil, such as peanut, canola, or vegetable oil": examples, not alternatives
+    such_as = re.search(r",?\s+(?:such as|like)\s+(?=[A-Z]|\w+\s+or\b).*$", text) or re.search(r",?\s+such as\b.*$", text, re.I)                      # "neutral oil, such as peanut, canola, or vegetable oil": examples, not alternatives
     examples = ""
     if such_as:
         text, examples = text[:such_as.start()], such_as.group(0).strip(" ,")
@@ -495,7 +518,7 @@ def parse_line(raw: str) -> Line:
         line.alts.append(lead_or.group(1))
         line.name = parse_line(lead_or.group(1)).name
     # an alternative with its own amount ("... or four 8-ounce bone-in thighs") is kept for the substitutions note
-    alt = re.search(rf"\s+or\s+((?:\d[\d/ ]*|(?:{NUMBER_WORD_RE}))\s+\S.*)$", line.name, re.I)
+    alt = re.search(rf"\s+or\s+((?:\d[\d/ {VG}]*|[{VG}]|(?:{NUMBER_WORD_RE}))\s+\S.*)$", line.name, re.I)
     if alt and alt.start() > 0:
         line.alts.append(alt.group(1).strip())
         line.name = line.name[:alt.start()].strip()
@@ -980,8 +1003,8 @@ MODIFIERS = ("bone in skin on", "boneless skinless", "unsalted", "salted", "bone
 GENERIC_HEADS = {"lettuce", "oil", "cheese", "sauce", "vinegar", "sugar", "flour", "salt", "milk", "cream", "butter", "broth", "paste", "powder",
                  "seeds", "beans", "rice", "noodles", "wine", "juice", "syrup", "mustard", "yogurt", "stock", "bread", "pasta", "rolls", "buns", "crackers",
                  "chorizo", "sausage", "sausages", "chiles", "chilies", "chillies", "peppers", "olives", "oregano", "chocolate", "clams", "potatoes", "peas",
-                 "cider", "meat"}
-ALT_ADJECTIVES = {"candied", "ground", "whole", "green", "red", "white", "black", "yellow", "orange", "brown", "purple", "pink", "golden", "sweet", "hot", "mild", "spicy", "dark", "light", "regular", "plain", "smoked",
+                 "cider", "meat", "lentils"}
+ALT_ADJECTIVES = {"candied", "ground", "canned", "bottled", "jarred", "whole", "green", "red", "white", "black", "yellow", "orange", "brown", "purple", "pink", "golden", "sweet", "hot", "mild", "spicy", "dark", "light", "regular", "plain", "smoked",
                   "large", "small", "baby", "wild", "fresh", "dried", "frozen", "ripe", "firm", "natural", "unsweetened", "flat", "short", "long",
                   "Chinese", "Japanese", "Italian", "Thai", "Greek", "Mexican", "Spanish", "Hungarian", "French", "Korean", "Indian", "American"}
 HEAD_NOUNS = GENERIC_HEADS | {"ghee", "schmaltz", "tallow", "drippings", "fat", "lard", "shortening", "margarine", "creamer", "spray", "mayonnaise", "mayo", "ketchup", "honey",
@@ -1195,9 +1218,12 @@ class Resolver:
         parts = [p for p in parts if not re.match(r"(?:(?:an?|any)\s+)?(?:mix|combination|blend)\b|both\b", p, re.I)]   # "white or black sesame seeds or a mix", "red or green cherries or combination"
         if len(parts) < 2:
             return [parts[0] if parts else n]
-        last = parts[-1].split()
         out = []
-        for p in parts[:-1]:
+        for i, p in enumerate(parts[:-1]):
+            # the noun comes from the nearest later option that has one: "red or white wine or stock" -> "red wine"
+            later = [q.split() for q in parts[i + 1:]]
+            last = next((q for q in later if len(q) >= 2 and q[-1].lower() in HEAD_NOUNS), None) \
+                or next((q for q in later if len(q) >= 2), parts[-1].split())    # "peanut, rice bran, … or grape seed oil" -> "peanut oil"
             pw = p.split()
             complete = pw[-1].lower() in HEAD_NOUNS or pw[-1].lower().endswith(("milk", "cream", "butter", "cheese", "yogurt"))   # "sour cream", "buttermilk": already a whole ingredient
             complete = complete or (len(pw) == 1 and re.match(r"^[a-z]{3,}(?<!s)s$", pw[0]) is not None and pw[0] not in ALT_ADJECTIVES)   # "raisins or dried cranberries"
@@ -1206,10 +1232,20 @@ class Resolver:
             elif pw[-1][:1].isupper() and last[0][:1].isupper() and len(last) >= 2 and not last[-1][:1].isupper():
                 out.append(f"{p} {last[-1]}")                           # "ripe Bartlett or Anjou pears" -> "ripe Bartlett pears"
             elif (len(pw) == 1 or (all(w.lower() in ADVERB_OR_PREP_WORDS or w in ALT_ADJECTIVES or w.lower() in ALT_ADJECTIVES for w in pw[:-1]) and (pw[-1] in ALT_ADJECTIVES or pw[-1].lower() in ALT_ADJECTIVES))) and len(last) >= 2 and not (last[0][:1].isupper() and last[-1][:1].isupper()):   # not "curacao or Grand Marnier" -> "curacao Marnier"
-                rest = list(last)                                       # the other option's noun, after its own adjectives:
-                while len(rest) > 1 and (rest[0] in ALT_ADJECTIVES or rest[0].lower() in ALT_ADJECTIVES):
-                    rest.pop(0)                                         # "smoked Spanish paprika" -> "paprika", "green bird chilies" -> "bird chilies"
-                tail = last[1:] if len(pw) == 1 else rest               # "sweet Hungarian or smoked Spanish paprika" -> "sweet Hungarian paprika"
+                own = [w for w in pw if not (w.lower() in ADVERB_OR_PREP_WORDS or w.lower().endswith("ly"))]   # "finely chopped red" -> ["red"]
+                lead = 0                                                # the other option's own adjectives, as many as the first option has:
+                while lead < len(last) - 1 and lead < max(1, len(own)) and (last[lead] in ALT_ADJECTIVES or last[lead].lower() in ALT_ADJECTIVES):
+                    lead += 1                                           # "smoked Spanish paprika" -> "paprika", "dark brown sugar" -> "brown sugar"
+                tail = last[1:] if len(pw) == 1 else last[max(lead, 1):]   # "sweet Hungarian or smoked Spanish paprika" -> "sweet Hungarian paprika"
+                forms = [i for i, w in enumerate(last) if w.lower() in ("fillets", "fillet", "steaks", "chops", "thighs", "breasts", "legs", "wings")]
+                if len(pw) == 1 and forms and forms[0] >= 2:
+                    tail = last[forms[0]:]                              # "cod or striped bass fillets with skin" -> "cod fillets with skin"
+                elif len(pw) == 1 and not (pw[0] in ALT_ADJECTIVES or pw[0].lower() in ALT_ADJECTIVES) and len(last) > 2:
+                    if last[-1].lower() in GENERIC_HEADS:               # "balsamic or apple cider vinegar" -> "balsamic vinegar"
+                        out.append(f"{p} {last[-1]}")
+                    else:
+                        out.append(p)                                   # "eggplant, zucchini or baby pattypan squash": "eggplant" is already a food
+                    continue
                 out.append(f"{p} {' '.join(tail)}")                     # "vegetable or canola oil" -> "vegetable oil"
             elif len([w for w in pw if not (w.lower() in ADVERB_OR_PREP_WORDS or w.lower().endswith("ly"))]) <= 2 and last and last[-1] in GENERIC_HEADS and pw[-1] != last[-1]:
                 out.append(f"{p} {last[-1]}")                           # "peanut, rice bran, or neutral oil" -> "rice bran oil"
@@ -1590,15 +1626,18 @@ class Aligner:
             with registry.open(newline="", encoding="utf-8") as handle:
                 url_ids = {r["url"]: int(r["id"]) for r in csv.DictReader(handle)}
 
-        def linked_ingredients(family_id: int, depth: int = 0) -> list | None:
+        def linked_ingredients(family_id: int, depth: int = 0, seen: frozenset = frozenset()) -> list | None:
+            seen = seen | {family_id}                         # two recipes can link to each other (a sauce and its dish)
             for base in (out_dir, library_dir):
                 found = sorted((base / "families" / str(family_id)).glob(f"{family_id}_*.json"))
                 if found:
                     rec = json.loads(found[0].read_text(encoding="utf-8"))
                     ids = []
                     for ing in rec.get("ingredients") or []:
+                        if ing.get("sub_recipe_id") in seen:
+                            continue                                          # already counted further up the chain
                         if ing.get("sub_recipe_id") and depth < 3:            # a sub-recipe of the sub-recipe
-                            inner = linked_ingredients(ing["sub_recipe_id"], depth + 1)
+                            inner = linked_ingredients(ing["sub_recipe_id"], depth + 1, seen)
                             ids += inner if inner is not None else [None]
                         else:
                             ids.append(ing.get("ingredient_id"))
