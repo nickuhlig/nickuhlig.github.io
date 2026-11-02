@@ -1,0 +1,488 @@
+{
+ "about": "Rules for tiering new-ingredient proposals during external-site batch reviews (nyt_work/tier.py). Auto = applied without asking (listed in a skim file); Confirm = one table, silence means yes; Ask = needs the user's call. Every correction the user makes becomes a word below or a case in 'cases'; tier.py --backtest checks no case ever lands in Auto. Default words (fresh, whole, ripe, raw) are neutral: only the MARKED form (dried, ground, underripe...) makes a different product. A capitalised word counts as a possible variety/brand only if the master never uses it as an ordinary lowercase word (so 'Garlic croutons' is not flagged).",
+ "ask_words": {
+  "form (dried/canned/fresh etc. are separate products)": [
+   "dried",
+   "dehydrated",
+   "frozen",
+   "canned",
+   "tinned",
+   "jarred",
+   "smoked",
+   "cured",
+   "salt-cured",
+   "salted",
+   "pickled",
+   "preserved",
+   "fermented",
+   "candied",
+   "sun-dried",
+   "powdered",
+   "powder",
+   "ground",
+   "crushed",
+   "flakes",
+   "instant",
+   "precooked",
+   "evaporated",
+   "condensed",
+   "concentrate",
+   "paste",
+   "juice",
+   "zest",
+   "peel",
+   "extract",
+   "oil-packed",
+   "tea"
+  ],
+  "ripeness / age": [
+   "unripe",
+   "underripe",
+   "overripe",
+   "young",
+   "aged",
+   "new",
+   "baby",
+   "mini",
+   "jumbo"
+  ],
+  "heat / flavour": [
+   "hot",
+   "sweet",
+   "mild",
+   "spicy",
+   "bitter",
+   "sour",
+   "flavored",
+   "vanilla"
+  ],
+  "part of the animal or plant": [
+   "bone-in",
+   "bone",
+   "boneless",
+   "skin-on",
+   "skinless",
+   "breast",
+   "thigh",
+   "leg",
+   "wing",
+   "loin",
+   "shoulder",
+   "chop",
+   "shell",
+   "roe",
+   "coral",
+   "liver",
+   "fillet",
+   "steak",
+   "stem",
+   "floret",
+   "top",
+   "head",
+   "seed",
+   "kernel",
+   "pod"
+  ],
+  "known varieties": [
+   "vidalia",
+   "mcintosh",
+   "braeburn",
+   "honeycrisp",
+   "granny",
+   "bing",
+   "yukon",
+   "russet",
+   "roma",
+   "marzano",
+   "meyer",
+   "key",
+   "medjool",
+   "romano",
+   "riesling",
+   "zinfandel",
+   "merlot",
+   "anjou",
+   "bartlett",
+   "bosc",
+   "comice",
+   "anthotyro",
+   "graviera",
+   "gravieri",
+   "melba"
+  ]
+ },
+ "confirm_words": {
+  "colour (often a variety, sometimes not)": [
+   "white",
+   "red",
+   "yellow",
+   "black",
+   "golden",
+   "purple",
+   "brown",
+   "orange",
+   "pink",
+   "rainbow",
+   "dark",
+   "green"
+  ],
+  "ambiguous": [
+   "seeded",
+   "plain",
+   "lean",
+   "light",
+   "heavy",
+   "pure",
+   "real",
+   "toasted",
+   "roasted",
+   "shelled",
+   "peeled",
+   "unpeeled",
+   "long",
+   "short",
+   "slender",
+   "tiny",
+   "fine",
+   "coarse",
+   "regional",
+   "macaroon"
+  ],
+  "merged before (dry wine/couscous, stale/day-old bread)": [
+   "dry",
+   "day-old",
+   "stale"
+  ]
+ },
+ "ask_phrases": {
+  "shell-on / bone-in said in words": [
+   "\\bin (?:the |their )?shells?\\b",
+   "\\bon the bone\\b",
+   "\\bwith (?:the )?(?:skin|bones?|shells?)\\b"
+  ],
+  "part of the animal said in words": [
+   "\\b(?:white|dark) meat\\b"
+  ]
+ },
+ "neutral_words": [
+  "large",
+  "small",
+  "medium",
+  "big",
+  "extra-large",
+  "chopped",
+  "minced",
+  "diced",
+  "sliced",
+  "slice",
+  "slices",
+  "slivered",
+  "shaved",
+  "cubed",
+  "torn",
+  "halved",
+  "quartered",
+  "thick",
+  "thickly",
+  "thinly",
+  "chunk",
+  "piece",
+  "trimmed",
+  "rinsed",
+  "drained",
+  "divided",
+  "optional",
+  "good",
+  "quality",
+  "high-quality",
+  "best",
+  "organic",
+  "homemade",
+  "store-bought",
+  "leftover",
+  "cold",
+  "warm",
+  "room",
+  "temperature",
+  "chilled",
+  "very",
+  "plump",
+  "firm",
+  "nice",
+  "favorite",
+  "unflavored",
+  "cultivated",
+  "untoasted",
+  "leaves",
+  "leaf",
+  "sprig",
+  "bunch",
+  "handful",
+  "fresh",
+  "whole",
+  "ripe",
+  "raw",
+  "meat",
+  "thin",
+  "smooth",
+  "unbleached"
+ ],
+ "regional_words": [
+  "italian",
+  "french",
+  "japanese",
+  "chinese",
+  "mexican",
+  "spanish",
+  "greek",
+  "thai",
+  "korean",
+  "indian",
+  "american",
+  "english",
+  "turkish",
+  "friulian"
+ ],
+ "prep_words": [
+  "precooked",
+  "cooked",
+  "cleaned",
+  "split",
+  "crumbled",
+  "boned",
+  "deboned",
+  "soaked",
+  "steeped",
+  "brewed",
+  "trussed",
+  "butterflied",
+  "dressed",
+  "blanched",
+  "steamed",
+  "grilled",
+  "poached",
+  "braised",
+  "roasted",
+  "toasted",
+  "rinsed",
+  "cut",
+  "shaved",
+  "slivered",
+  "pulverized",
+  "day-old",
+  "pureed",
+  "puréed",
+  "melted",
+  "buttered",
+  "brewed"
+ ],
+ "brand_dependent_words": [
+  "wine",
+  "vinegar",
+  "sausage",
+  "sauce",
+  "seasoning",
+  "mix",
+  "chocolate",
+  "liqueur",
+  "spread",
+  "dressing",
+  "crackers",
+  "chips",
+  "candy",
+  "pesto",
+  "curry",
+  "taralli"
+ ],
+ "standing_rulings": [
+  "Low-fat / reduced-fat / nonfat / skim / 1% / 2% milk, yogurt, sour cream, cottage cheese, ricotta, cream cheese -> the regular product (parser rule, not evaporated/condensed).",
+  "A different variety, ripeness, or form (ground vs whole, dried vs fresh, hot vs sweet, smoked, roe) gets its own entry; nutrition may stand in for the base product.",
+  "Generic pasta shapes -> pasta; most blue cheeses -> blue cheese; rich/well-seasoned broths -> chicken broth; veal bones -> beef bones; fruity red wine is NOT dry red wine.",
+  "Prep in a wording (precooked, dried and crumbled, cleaned and split, rinsed and boned) becomes a Prep step: the name stays the bought product.",
+  "Brand-dependent restrictions (verjus sulfite, baking powder sulfite) = none; restrictions err conservative otherwise.",
+  "Never merge away a Mealime-sourced id.",
+  "Snails (escargot) count as shellfish [4].",
+  "Cooking by-products (pasta cooking water) are not ingredients: a 'note' override row, no entry, no restriction.",
+  "A regional cheese that differs from its stand-in in key aspects gets its own entry (anthotyro is not ricotta); almond macaroons are not amaretti; Melba toast is its own product.",
+  "Any prep inside an override name (pureed, melted, toasted and buttered, steeped) must come out as a Prep sentence: check it with prepcheck after the re-align."
+ ],
+ "cases": [
+  {
+   "batch": 1,
+   "wording": "mini cucumbers",
+   "proposed": "cucumbers",
+   "ruling": "mini (Persian) cucumber"
+  },
+  {
+   "batch": 1,
+   "wording": "onions white pearl",
+   "proposed": "white onion",
+   "ruling": "pearl onions"
+  },
+  {
+   "batch": 2,
+   "wording": "dry apricots",
+   "proposed": "apricots",
+   "ruling": "dried apricots"
+  },
+  {
+   "batch": 2,
+   "wording": "dried hot red pepper",
+   "proposed": "fresh red chilis",
+   "ruling": "dried red chilis"
+  },
+  {
+   "batch": 3,
+   "wording": "shrimp in the shell",
+   "proposed": "shrimp shells",
+   "ruling": "raw shrimp, shell on"
+  },
+  {
+   "batch": 4,
+   "wording": "dried tomatoes",
+   "proposed": "tomatoes",
+   "ruling": "sun-dried tomatoes, dry-packed"
+  },
+  {
+   "batch": 4,
+   "wording": "hot sausage",
+   "proposed": "sausage",
+   "ruling": "hot Italian sausage (own entry)"
+  },
+  {
+   "batch": 4,
+   "wording": "dried hot chili",
+   "proposed": "chilis",
+   "ruling": "dried red chilis"
+  },
+  {
+   "batch": 4,
+   "wording": "crushed dried chili",
+   "proposed": "chilis",
+   "ruling": "crushed red pepper"
+  },
+  {
+   "batch": 4,
+   "wording": "white meat chicken",
+   "proposed": "chicken",
+   "ruling": "boneless skinless chicken breasts"
+  },
+  {
+   "batch": 4,
+   "wording": "lobster coral",
+   "proposed": "lobster",
+   "ruling": "lobster roe (own entry)"
+  },
+  {
+   "batch": 4,
+   "wording": "ground star anise",
+   "proposed": "star anise",
+   "ruling": "own entry"
+  },
+  {
+   "batch": 4,
+   "wording": "vanilla sugar",
+   "proposed": "granulated sugar",
+   "ruling": "own entry, nutrition = granulated sugar"
+  },
+  {
+   "batch": 4,
+   "wording": "McIntosh apples",
+   "proposed": "apple",
+   "ruling": "own entry, nutrition = apple"
+  },
+  {
+   "batch": 4,
+   "wording": "strong hibiscus tea",
+   "proposed": "NEW",
+   "ruling": "dried hibiscus flowers + steep prep"
+  },
+  {
+   "batch": 4,
+   "wording": "Romano beans",
+   "proposed": "NEW",
+   "ruling": "line reworded 'runner bean pods' -> green beans"
+  },
+  {
+   "batch": 5,
+   "wording": "dried hominy",
+   "proposed": "hominy",
+   "ruling": "own entry"
+  },
+  {
+   "batch": 5,
+   "wording": "Vidalia onions",
+   "proposed": "onion",
+   "ruling": "sweet onion"
+  },
+  {
+   "batch": 5,
+   "wording": "underripe bananas",
+   "proposed": "bananas",
+   "ruling": "own entry, nutrition = bananas"
+  },
+  {
+   "batch": 5,
+   "wording": "Braeburn apples",
+   "proposed": "apple",
+   "ruling": "own entry, nutrition = apple"
+  },
+  {
+   "batch": 5,
+   "wording": "precooked couscous",
+   "proposed": "dry couscous",
+   "ruling": "couscous + prep step"
+  },
+  {
+   "batch": 5,
+   "wording": "dried crumbled pumpernickel bread",
+   "proposed": "NEW",
+   "ruling": "pumpernickel bread + prep 'dried and crumbled'"
+  },
+  {
+   "batch": 6,
+   "wording": "canned snails",
+   "proposed": "NEW",
+   "ruling": "new entry, shellfish [4]"
+  },
+  {
+   "batch": 6,
+   "wording": "Greek anthotyro cheese",
+   "proposed": "ricotta cheese",
+   "ruling": "own entry anthotyro cheese [2]"
+  },
+  {
+   "batch": 6,
+   "wording": "Melba toast",
+   "proposed": "white bread",
+   "ruling": "own entry [1]"
+  },
+  {
+   "batch": 6,
+   "wording": "Pasta water",
+   "proposed": "NEW",
+   "ruling": "not an ingredient: note row"
+  },
+  {
+   "batch": 6,
+   "wording": "almond macaroons",
+   "proposed": "amaretti cookies",
+   "ruling": "own entry [6, 11]"
+  },
+  {
+   "batch": 6,
+   "wording": "unsalted melted butter",
+   "proposed": "butter, unsalted",
+   "ruling": "unsalted butter + prep 'melted'"
+  },
+  {
+   "batch": 6,
+   "wording": "pureed fresh apricots",
+   "proposed": "apricots",
+   "ruling": "apricots + prep 'pureed'"
+  }
+ ],
+ "neutral_phrases": [
+  "\\b(?:very\\s+)?hot\\s+(?:strong\\s+)?(?:brewed\\s+)?(?:coffee|espresso|water|tea|milk|broth|stock)\\b"
+ ]
+}

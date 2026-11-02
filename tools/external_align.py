@@ -89,7 +89,7 @@ LEADING_ADJECTIVES = {"cubed", "sweet", "ripe", "fresh", "firm", "soft", "hard",
                       "packed", "loosely", "firmly", "tightly", "lightly", "roughly", "finely", "coarsely", "thinly", "freshly",
                       "extra-virgin", "fruity", "red", "green", "yellow", "orange", "white", "black", "purple", "golden",
                       "trimmed", "peeled", "seeded", "cored", "stemmed", "pitted", "halved", "quartered", "deveined", "scrubbed",
-                      "shucked", "crusty", "prepared", "round", "plump", "unbroken", "oval-shaped", "dense"}
+                      "shucked", "crusty", "prepared", "round", "plump", "good", "unbroken", "oval-shaped", "dense", "stale", "crustless", "cold", "defrosted", "thawed", "very"}
 # (singular, plural) the library's way: "1 clove", "2 cloves"
 COUNT_FORMS = {}
 for _s, _p in [("clove", "cloves"), ("head", "heads"), ("sprig", "sprigs"), ("stalk", "stalks"), ("slice", "slices"),
@@ -100,7 +100,7 @@ for _s, _p in [("clove", "cloves"), ("head", "heads"), ("sprig", "sprigs"), ("st
                ("round", "rounds"), ("handful", "handfuls"), ("bottle", "bottles"), ("bag", "bags"), ("box", "boxes"),
                ("container", "containers"), ("cube", "cubes"), ("drop", "drops"), ("serving", "servings"),
                ("scoop", "scoops"), ("shot", "shots"), ("block", "blocks"), ("envelope", "envelopes"), ("packet", "packets"),
-               ("dozen", "dozen"), ("loaf", "loaves"), ("rack", "racks"), ("portion", "portions"), ("chunk", "chunks"), ("link", "links"), ("foot", "feet"), ("slab", "slabs"), ("pack", "packs"), ("grinding", "grindings"), ("brick", "bricks"), ("hunk", "hunks")]:
+               ("dozen", "dozen"), ("loaf", "loaves"), ("rack", "racks"), ("portion", "portions"), ("chunk", "chunks"), ("link", "links"), ("foot", "feet"), ("slab", "slabs"), ("pack", "packs"), ("grinding", "grindings"), ("brick", "bricks"), ("hunk", "hunks"), ("grind", "grinds"), ("log", "logs"), ("square", "squares")]:
     COUNT_FORMS[_s] = (_s if _s != "package" else "pkg", _p)
     COUNT_FORMS[_p] = COUNT_FORMS[_s]
 COUNT_FORMS["packages"] = COUNT_FORMS["package"]                  # "2 (16-ounce) packages potato gnocchi"
@@ -267,11 +267,15 @@ def normalize_raw(raw: str) -> str:
     s = " ".join(raw.replace("\xa0", " ").split())
     s = re.sub(r"\b(one|two|three|four|five|six|seven|eight|nine|ten|twelve|fourteen|fifteen|sixteen|twenty|twenty-eight)-(ounce|pound|inch)\b",
                lambda m: f"{['one','two','three','four','five','six','seven','eight','nine','ten'].index(m.group(1).lower()) + 1 if m.group(1).lower() in ['one','two','three','four','five','six','seven','eight','nine','ten'] else {'twelve': 12, 'fourteen': 14, 'fifteen': 15, 'sixteen': 16, 'twenty': 20, 'twenty-eight': 28}[m.group(1).lower()]}-{m.group(2)}", s, flags=re.I)   # "1 six-ounce can"
+    s = re.sub(r"\b(one|two|three|four|five|six|seven|eight|nine|ten)-to-(?=\w+-(?:pound|ounce)\b)",
+               lambda m: f"{['one','two','three','four','five','six','seven','eight','nine','ten'].index(m.group(1).lower()) + 1}-to-", s, flags=re.I)   # "1 five-to-six-pound duck"
+    s = re.sub(r"\bone-(half|third|quarter)\b", lambda m: {"half": "1/2", "third": "1/3", "quarter": "1/4"}[m.group(1).lower()], s, flags=re.I)   # "plus one-half cup"
+    s = re.sub(r"^(\d+)\s+(\d+)-(\d+(?:\s*[½¼¾])?)\s*-?\s*(pound|ounce)s?\s+", r"\1 (\2- to \3-\4) ", s, flags=re.I)   # "1 2-2 ½ pound pheasant"
     s = re.sub(r"^(\d+)\s+(\d+(?:\.\d+)?)-inch\s+(?:length|piece|chunk)\s+of\s+", r"\1 (\2-inch) piece ", s, flags=re.I)   # "1 2-inch length of raw carrot"
     s = re.sub(r"\b(brick|block|piece|slice|wedge|chunk)\s+or\s+(?:brick|block|piece|slice|wedge|chunk)\s+of\s+", r"\1 ", s, flags=re.I)   # "1 brick or slice of feta"
-    s = re.sub(r"(\d)-inch-(?:square|long|thick|wide)\b", r"\1-inch", s, flags=re.I)                                         # "1 4-inch-square piece konbu"
+    s = re.sub(r"([\d½¼¾⅓⅔⅛])-inch-(?:square|long|thick|wide)\b", r"\1-inch", s, flags=re.I)                                        # "1 4-inch-square piece konbu"
     s = re.sub(rf"^(?:about|approximately|roughly|scant|generous|heaping|rounded|a scant|a generous|just over|just under)\s+(?=\d|[{VG}])", "", s, flags=re.I)
-    s = re.sub(rf"(?<=[\d/{VG}])\s+(?:scant|heaping|generous|rounded|level)\s+(?=(?:tablespoons?|teaspoons?|cups?)\b)", " ", s, flags=re.I)
+    s = re.sub(rf"(?<=[\d/{VG}])\s+(?:scant|heaping|heaped|generous|rounded|level)\s+(?=(?:tablespoons?|teaspoons?|cups?)\b)", " ", s, flags=re.I)
     s = re.sub(rf"^({NUMBER_WORD_RE})\b(?=\s+[\d(a-z])", lambda m: str(NUMBER_WORDS[m.group(1).lower()]), s, flags=re.I)
     s = re.sub(r"^(?:and|to|plus)\s+(?=\d)", "", s, flags=re.I)                           # "and 1 teaspoon Cajun seasoning"
     s = re.sub(rf"^half of ({NUM})\s+", lambda m: f"{fmt_number((parse_number(m.group(1)) or 0) / 2)} ", s, flags=re.I)   # "Half of 1 yellow onion"
@@ -296,7 +300,7 @@ def normalize_raw(raw: str) -> str:
     s = re.sub(r"\s*[—–]\s*(?:for dry hopping[^,]*|\d+\s+minutes?)$", "", s, flags=re.I)                    # "Centennial Hops—60 minutes"
     s = re.sub(r"\b(\w+)-\s+or\s+\w+-(\w+)\b", r"\1-\2", s)                                                 # "oil- or salt-packed" -> "oil-packed"
     s = re.sub(r"\b(torn|cubed|diced|crumbled)\s+pieces\s+of\s+", "", s, flags=re.I)                         # "6 cups torn pieces of babka"
-    s = re.sub(r"\b(tablespoons?|teaspoons?|cups?|ounces?|pounds?|grams?|pieces?|slices?|strips?|\d|\))\s+(bone-in|boneless|skin-on|skin on|skinless|creamy|crunchy|smooth|full-fat|low-fat|nonfat|reduced-fat|plump|pure|thick-cut|thin-cut|thick cut|unsalted|salted|unsweetened|sweetened|plain|ripe|firm|mild|spicy|lean|crusty|fresh|dried|frozen|canned|good-quality|high-quality|mixed|assorted|unflavored|low-protein|short)\s*,\s+(?=[a-z])", r"\1 \2 ", s, flags=re.I)   # "3 tablespoons creamy, unsweetened peanut butter"
+    s = re.sub(r"\b(tablespoons?|teaspoons?|cups?|ounces?|pounds?|grams?|pieces?|slices?|strips?|cans?|jars?|\d|\))\s+(dark|unripe|whole|bone-in|boneless|skin-on|skin on|skinless|creamy|crunchy|smooth|full-fat|low-fat|nonfat|reduced-fat|plump|pure|thick-cut|thin-cut|thick cut|unsalted|salted|unsweetened|sweetened|plain|ripe|firm|mild|spicy|lean|crusty|fresh|dried|frozen|canned|good-quality|high-quality|mixed|assorted|unflavored|low-protein|short)\s*,\s+(?=[a-z])", r"\1 \2 ", s, flags=re.I)   # "3 tablespoons creamy, unsweetened peanut butter"
     s = re.sub(r"\s*\*+\s*$", "", s)                                                                                          # "falernum*"
     s = re.sub(r"\s*\([^()]*\([^()]*\)[^()]*\b(?:bags?|packages?|cans?|jars?|containers?|boxes?)\)", "", s, flags=re.I)        # "(two 5.2-ounce (150g) bags)", "(2 (8-ounce) packages)"
     s = re.sub(r"^(?:a\s+few|few|several)\s+(?=(?:dash|dashes|drops?|pinch|pinches|splash|splashes|shakes?|sprigs?|grinds?|leaves)\b)", "3 ", s, flags=re.I)   # "Several dashes hot sauce", "Few shakes salt"
@@ -311,7 +315,7 @@ def normalize_raw(raw: str) -> str:
     s = re.sub(r"^(\d+)\s+or\s+(\d+)\s+(?=\D)", r"\1 to \2 ", s)                                                        # "2 or 3 red, ripe tomatoes"
     s = re.sub(r"^(\d+)\s+full\s+(?=(?:cups?|tablespoons?|teaspoons?)\b)", r"\1 ", s, flags=re.I)                          # "1 full cup cilantro"
     # lower-fat dairy is written as the full-fat kind the library (Mealime) uses (the user's rule)
-    s = re.sub(r"(?<!evaporated )(?<!condensed )(?<![\w-])(?:(?:low[- ]?fat|reduced[- ]fat|non[- ]?fat|fat[- ]free|skim|part[- ]skim|[12]%|[12]-percent)\s+)+(?:plain\s+)?(?:,\s*)?(?:unflavored\s+)?(?:greek\s+)?(yogurt|milk|sour cream|cottage cheese|ricotta(?: cheese)?|cream cheese)\b",
+    s = re.sub(r"(?<!evaporated )(?<!condensed )(?<![\w-])(?:(?:low[- ]?fat|reduced[- ]fat|non[- ]?fat|fat[- ]free|skim[- ]milk|skim|part[- ]skim|[12]%|[12]-percent)\s+(?:or\s+)?)+(?:plain\s+)?(?:,\s*)?(?:unflavored\s+)?(?:greek\s+)?(?:cow['’]s\s+)?(yogurt|milk|sour cream|cottage cheese|ricotta(?: cheese)?|cream cheese)\b",
                lambda m: {"yogurt": "plain Greek yogurt", "milk": "whole milk"}.get(m.group(1).lower(), m.group(1)), s, flags=re.I)   # (also cottage cheese, ricotta, cream cheese)
     s = re.sub(r"^(?=(?:teaspoons?|tablespoons?|cups?)\s+\S)", "1 ", s, flags=re.I)                                           # "teaspoon tomato paste": the page left out the 1
     s = re.sub(rf"^((?:{NUM})\s+(?:(?:tablespoons?|teaspoons?|cups?|pounds?|ounces?)\s+)?)((?:{PREP_VERBS})\s+or\s+(?:{PREP_VERBS}))\s+(.+)$",
@@ -352,7 +356,7 @@ def normalize_raw(raw: str) -> str:
     s = re.sub(r"\b((?:to\s+)?\d+\s+(?:(?:fresh|large|small|medium|ripe)\s+)?(?:tart|crisp|juicy|tender|young|sweet|sour)),\s+(?=[a-z])", r"\1 ", s, flags=re.I)   # "3 to 4 fresh tart, crisp apples"
     s = re.sub(r"^half\s+(?:an?\s+)?(?=(?:pound|cup|ounce|teaspoon|tablespoon|quart|pint|gallon)s?\b)", "1/2 ", s, flags=re.I)   # "Half pound dry elbow macaroni"
     s = re.sub(r"^quarter\s+of\s+1\s+", "1/4 ", s, flags=re.I)                                                            # "Quarter of 1 Spanish onion"
-    s = re.sub(r"\b(?:nickel|thumb|quarter|golf[- ]ball|walnut|egg|fist)-sized\s+", "", s, flags=re.I)                       # "10 nickel-sized slices ginger"
+    s = re.sub(r"\b(?:nickel|thumb|quarter|golf[- ]ball|walnut|egg|fist)-size[d]?\s+", "", s, flags=re.I)                       # "10 nickel-sized slices ginger"
     s = re.sub(r"\bvery\s+(?=(?:large|small|big)\b)", "", s, flags=re.I)                                                    # "1 very large shallot"
     s = re.sub(r"\s*;\s*(?:for\s+table\s+salt|use\s+half\s+as\s+much)\b.*$", "", s, flags=re.I)                            # "kosher salt; for table salt, use half as much"
     s = re.sub(rf"^({NUM})\s+(?:additional|extra)\s+(?=(?:tablespoons?|teaspoons?|cups?)\b)", r"\1 ", s, flags=re.I)         # "1 additional tablespoon for pan"
@@ -372,13 +376,39 @@ def normalize_raw(raw: str) -> str:
     s = re.sub(r"\bhoney\s+nut\b(?=\s+(?:or\s+\w+\s+)?squash\b)", "honeynut", s, flags=re.I)                                 # "honey nut or butternut squash"
     s = re.sub(r"\b(?:a\s+)?mix\s+of\s+(?=[a-z])", "mixed ", s, flags=re.I)                                                  # "1 pound mix of mushrooms"
     s = re.sub(r"\bloosely\s+packed\s+(?=[a-z])", "", s, flags=re.I)                                                         # "loosely packed saffron stems"
-    s = re.sub(rf"\b(?:[\d/{VG} ]+-inch|bite-size[d]?)\s+(?:pieces|chunks|cubes)\s+of\s+(?=[a-z])", "", s, flags=re.I)       # "2 cups chopped, ½-inch pieces of fresh pineapple"
+    s = re.sub(rf"(?<!\S)(?:[\d/{VG}][\d/{VG} ]*-inch|bite-size[d]?)\s+(?:pieces|chunks|cubes)\s+(?:of\s+)?(?=[a-z])", "", s, flags=re.I)       # "2 cups chopped, ½-inch pieces of fresh pineapple"
     s = re.sub(rf"^({NUM})\s+({PROSE_UNIT}),\s+plus\s+({NUM})\s+({PROSE_UNIT}),?\s+", r"\1 \2 plus \3 \4 ", s, flags=re.I)   # "1 teaspoon, plus 3 tablespoons, butter"
     s = re.sub(r"\b([a-z]+)\s+plus\s+\1\s+(?=for\s)", r"\1, plus more ", s, flags=re.I)                                     # "1 cup flour plus flour for dusting"
     s = re.sub(rf"\s+to\s+yield\s+(?:about\s+)?(?:{NUM})\s+(?:{PROSE_UNIT})\b\s*([a-z]+)?", lambda m: f", {m.group(1)}" if m.group(1) else "", s, flags=re.I)   # "1 small red onion to yield 2 tablespoons minced"
     s = re.sub(r"(\w):\s+(?=\d+\s+\w+(?:ed|ly)\b)", r"\1, ", s)                                                              # "7 garlic cloves: 4 smashed, 3 thinly sliced"
     s = re.sub(r"^(\d+)\s+each\s+((?:[a-z]+,\s+)+[a-z]+,?\s+and\s+[a-z]+)\s+([^,(]+)",                                       # "1 each red, green and yellow bell peppers"
                lambda m: f"{int(m.group(1)) * len(re.split(r',\s*(?:and\s+)?|\s+and\s+', m.group(2)))} {m.group(3).strip()}, {m.group(2)}", s, flags=re.I)
+    s = re.sub(r"^an?\s+([\d/½¼¾]+)-inch\s+(piece|length|chunk)\s+(?:of\s+)?", r"1 (\1-inch) \2 ", s, flags=re.I)      # "A 1-inch piece vanilla bean"
+    s = re.sub(rf"^(\d+)\s+to\s+({NUMBER_WORD_RE})\b", lambda m: f"{m.group(1)} to {NUMBER_WORDS[m.group(2).lower()]}", s, flags=re.I)   # "4 to six 6-ounce hake fillets"
+    s = re.sub(r"\b(cups?|tablespoons?|teaspoons?)\s+\1\b", r"\1", s, flags=re.I)                                              # "⅓ cup cup stock"
+    s = re.sub(r"(?<![\d/.])([1-9])([13])/([248])\b", r"\1 \2/\3", s)                                                         # "11/2 pounds": a lost space
+    s = re.sub(r"^1-(\d+(?:\s*[½¼¾])?)-(ounce|pound)\s+(?=cans?|jars?|packages?|bags?|boxes?)", r"1 (\1-\2) ", s, flags=re.I)   # "1-14 ½-ounce can"
+    s = re.sub(r"^(\d+\s+to\s+\d+)\s+(\d+(?:\.\d+)?)-(ounce|pound)\s+", r"\1 (\2-\3) ", s, flags=re.I)                     # "4 to 6 6-ounce hake fillets"
+    s = re.sub(r"^(\d+\s+(?:small|medium|large)\s+[a-z]+)\s+(?:about\s+)?[\d½¼¾⅓⅔⅛][\d½¼¾⅓⅔⅛/ ]*\s*(?:pounds?|ounces?|lbs?)\b,?\s*",
+               r"\1, ", s, flags=re.I)                                                                                       # "1 large eggplant 1 ½ pounds cut into chunks"
+    s = re.sub(r"^(\d+)\s+sticks?\s+plus\s+(\d+)\s+tablespoons?\b", lambda m: f"{int(m.group(1)) * 8 + int(m.group(2))} tablespoons", s, flags=re.I)   # "1 stick plus 1 tablespoon butter"
+    s = re.sub(r"^(?:a\s+few|few|several)\s+(?=(?:\S+\s+){1,2}sprigs\b)", "3 ", s, flags=re.I)                                   # "Several large thyme sprigs"
+    s = re.sub(r"^leaves\s+(?:picked\s+)?(?:from|of)\s+(\d+|an?|one)\s+((?:small|medium|large)\s+)?bunch(?:es)?\s+(?:of\s+)?([^,]+)",
+               lambda m: f"{1 if not m.group(1)[0].isdigit() else m.group(1)} {m.group(2) or ''}bunch {m.group(3)}, leaves picked", s, flags=re.I)   # "Leaves of 1 small bunch parsley"
+    s = re.sub(r"\b(?:passed|pushed|put|run)\s+through\s+a\s+garlic\s+press\b", "pressed", s, flags=re.I)                  # "garlic, passed through a garlic press"
+    s = re.sub(r"\bbutter\s+milk\b", "buttermilk", s, flags=re.I)
+    s = re.sub(r"\bbranch(es)?\s+(?:of\s+)?broccoli\b", lambda m: "heads broccoli" if m.group(1) else "head broccoli", s, flags=re.I)
+    s = re.sub(rf"^((?:{NUM})\s+(?:{PROSE_UNIT}))\s*,\s*approximately\s*,\s*", r"\1 ", s, flags=re.I)                       # "¾ pound, approximately, bitter greens"
+    s = re.sub(r",\s*approximately\s*(?=,|$)", "", s, flags=re.I)                                                             # "4 tablespoons butter, approximately, plus butter for greasing"
+    s = re.sub(r"\s+if\s+(?:necessary|needed)\b", "", s, flags=re.I)                                                         # "Salt if needed"
+    s = re.sub(r"\s*--\s*or\b.*$", "", s, flags=re.I)                                                                         # "(advieh; see note) -- or ½ teaspoon cumin,"
+    s = re.sub(r"\s+to\s+sprinkle\s+(?:on|over)\b.*$", ", for sprinkling", s, flags=re.I)                                    # "Sesame seeds to sprinkle on top of pie"
+    s = re.sub(r"\bextra[- ]virgin\s+olive\b(?!\s+oil)", "extra virgin olive oil", s, flags=re.I)                           # "⅓ cup extra virgin olive, plus more"
+    s = re.sub(r"(?<=[a-z])\s+(\d+(?:\.\d+)?)\s+grams?\b(?=,|$)", r" (\1 g)", s, flags=re.I)                              # "1 ½ cups all-purpose flour 182 grams, more"
+    s = re.sub(r"\b(?:[5-9]\d|100)\s*(?:%|percent)\s+(?=(?:dark|bittersweet|semisweet|milk)\b)", "", s, flags=re.I)      # "4 ounces (115 g) 70 percent dark chocolate"
+    s = re.sub(rf"^((?:{NUM})\s+(?:{PROSE_UNIT}))\s+plus\s+a\s+pinch\s+(?:of\s+)?", r"\1 ", s, flags=re.I)                # "1 tablespoon plus a pinch of granulated sugar"
+    s = re.sub(r"\s+from\s+young\s+lamb\b", "", s, flags=re.I)                                                             # "4 lamb shanks from young lamb"
+    s = re.sub(r",\s+or\s+use\s+(?=[\d½¼¾⅓⅔⅛])", " or ", s, flags=re.I)                                                                 # "unsalted butter, or use ¼ cup grapeseed oil"
     return s
 
 
@@ -389,6 +419,8 @@ def split_plus_clause(raw: str) -> list[str]:
     if not m:
         return [raw]
     before, after = raw[:m.start()].strip(), raw[m.end():].strip()
+    if re.fullmatch(r"\d+\s+sticks?", before, re.I):          # "1 stick plus 1 tablespoon butter": one amount (normalize_raw)
+        return [raw]
     first, second = parse_line(before), parse_line(after)
     if not first.name:                                      # "2 tablespoons plus 1 teaspoon cornstarch": one amount, not two lines
         return [raw]
@@ -507,9 +539,10 @@ def parse_line(raw: str) -> Line:
     leading = []
     while prep.strip() and line.name and all(w in LEADING_ADJECTIVES for w in line.name.lower().split()):
         noun, _, rest = prep.strip().partition(",")                               # "cubed sweet, ripe mango, from 2 mangoes": the noun follows the comma
-        if not noun.strip():
-            break
-        leading.append(line.name)                                                 # "trimmed, peeled, finely shredded carrot": every one before the noun
+        prepish = lambda s: all(w in ADVERB_OR_PREP_WORDS or w.endswith("ly") for w in s.lower().split())
+        if not noun.strip() or (prepish(noun) and not prepish(line.name)):
+            break                                                                 # "1 orange, halved": 'orange' is the fruit, 'halved' the prep
+        leading.append(line.name)                                                # "trimmed, peeled, finely shredded carrot": every one before the noun
         line.name, prep = noun.strip(), rest
     if leading:
         prep = ", ".join(x for x in (*leading, prep.strip()) if x)
@@ -542,7 +575,9 @@ def parse_line(raw: str) -> Line:
                     r"\s+per\s+(?:pound|ounce|cup|quart|serving|portion)s?\s+of\s+.*$",                  # "Frank's RedHot per pound of chicken wings"
                     r"\s+per\s+\w+(?:\s+\w+)?$",                                     # "mole poblano per tortilla"
                     r"\s+plus\s+(?:more|extra|additional)\b.*$",                     # "kosher salt plus more for seasoning"
-                    r"\s+for\s+(?:deep[- ])?(?:frying|coating|greasing|brushing|dusting|drizzling|rubbing|seasoning)\b.*$",
+                    r"\s+for\s+(?:deep[- ])?(?:frying|coating|greasing|brushing|dusting|drizzling|rubbing|seasoning|basting)\b.*$",
+                    r"\s+(?:for|to\s+grease)\s+(?:the\s+)?(?:pans?|dish|skillet|baking\s+sheet)\b.*$",                     # "Butter for pan", "Melted butter to grease pan"
+                    r"\s+(?:about\s+)?[\d½¼¾⅓⅔⅛][\d½¼¾⅓⅔⅛/ ]*\s*(?:pounds?|ounces?|lbs?)\b.*$",                       # "eggplant 1 ½ pounds", "zucchini ¾ pound"
                     r"\s+from\s+the\s+.+$",                                          # "seasoning oil from the chinese vinaigrette"
                     r"\s+about\s+\d[\d/ ]*\s*(?:inch|inches|cm|-inch)\b.*$",         # "French bread about 12 inches long"
                     r"\s+and\s+(?:tender|fine|thin|soft|young)\s+stems?\b.*$",       # "cilantro leaves and fine stems"
@@ -638,7 +673,7 @@ class Substitution:
 FRUITS = r"limes?|lemons?|oranges?|grapefruits?|yuzus?"
 # "juice from about 2 limes", "freshly squeezed juice from 1 whole lemon", "zest of 1 orange", "zest and juice from 1 lime"
 FRUIT_SOURCE_RE = re.compile(
-    rf"^(?:the\s+)?(?:(?:fresh|freshly[- ]squeezed|squeezed|grated|finely grated|freshly grated)\s+)*(?P<kind>juice|zest|peels?|rinds?)(?:\s+and\s+(?:(?:finely\s+|freshly\s+)?grated\s+)?(?:juice|zest))?\s+(?:(?:from|of)\s+)?"
+    rf"^(?:the\s+)?(?:(?:fresh|freshly[- ]squeezed|squeezed|grated|finely grated|freshly grated|finely chopped|finely minced|chopped|minced)\s+)*(?P<kind>juice|zest|peels?|rinds?)(?:\s+and\s+(?:(?:finely\s+|freshly\s+)?grated\s+)?(?:juice|zest))?\s+(?:(?:from|of)\s+)?"
     rf"(?:about\s+|approximately\s+|roughly\s+)?(?:(?P<n>\d+(?:\s+\d+/\d+)?|\d+/\d+|\d*\s*[{VG}]|{NUMBER_WORD_RE}|half(?:\s+an?)?|an?)\s+(?:to\s+\d+\s+)?(?:an?\s+)?)?"
     rf"(?:(?:whole|large|medium|small|big|navel|Meyer|fruit|ripe)\s+)*(?P<fruit>{FRUITS})\b", re.I)
 # chipotles that come from a can of chipotles in adobo, however the author words it
@@ -1275,7 +1310,8 @@ class Resolver:
                         out.append(p)                                   # "eggplant, zucchini or baby pattypan squash": "eggplant" is already a food
                     continue
                 out.append(f"{p} {' '.join(tail)}")                     # "vegetable or canola oil" -> "vegetable oil"
-            elif len([w for w in pw if not (w.lower() in ADVERB_OR_PREP_WORDS or w.lower().endswith("ly"))]) <= 2 and last and last[-1] in GENERIC_HEADS and pw[-1] != last[-1]:
+            elif len([w for w in pw if not (w.lower() in ADVERB_OR_PREP_WORDS or w.lower().endswith("ly"))]) <= 2 and last and last[-1] in GENERIC_HEADS and pw[-1] != last[-1] \
+                    and not pw[-1].lower().endswith(last[-1].lower()) and not pw[-1].lower().startswith("fra"):   # not "flaxseeds seeds", "creme fraiche cream"
                 out.append(f"{p} {last[-1]}")                           # "peanut, rice bran, or neutral oil" -> "rice bran oil"
             elif last[-1].lower() in ("fillets", "steaks") and pw[-1].lower() not in ("fillets", "fillet", "steaks", "steak"):
                 out.append(f"{p} {last[-1]}")                           # "silver hake, cod, haddock or bass fillets" -> "silver hake fillets"
