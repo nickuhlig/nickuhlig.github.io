@@ -939,6 +939,9 @@ def cmd_write(db: dict, library_dir: Path, apply: bool, missing_only: bool = Fal
         if "energy" not in nutrition:           # nothing countable (a strained stock): keep what the recipe has
             stats[(r["source"], "skipped: nothing countable")] += 1
             continue
+        old_meta = r.get("nutrition_meta") or {}
+        if r.get("nutrition") == nutrition and {**old_meta, "date": today} == meta:
+            meta = {**meta, "date": old_meta.get("date", today)}     # unchanged: keep the date it was calculated on
         stats[(r["source"], "written, partial" if bad else "written, complete")] += 1
         for tpath, t in twins:
             tm = recipe_nutrition(t, db)["per_serving"].get("energy", 0)
@@ -956,6 +959,7 @@ def cmd_write(db: dict, library_dir: Path, apply: bool, missing_only: bool = Fal
                 new_types = None
         if apply:
             for tpath, t in [(path, r)] + twins:
+                before = json.dumps(t, indent=2, ensure_ascii=False)
                 if new_types is not None:
                     t["allowed_type_ids"] = sorted(new_types)
                     rel = tpath.relative_to(library_dir).as_posix()
@@ -970,7 +974,9 @@ def cmd_write(db: dict, library_dir: Path, apply: bool, missing_only: bool = Fal
                         out["nutrition_meta"] = meta
                 if "nutrition" not in t:
                     out["nutrition"], out["nutrition_meta"] = nutrition, meta
-                tpath.write_text(json.dumps(out, indent=2, ensure_ascii=False), encoding="utf-8")
+                text = json.dumps(out, indent=2, ensure_ascii=False)
+                if text != before:                     # don't rewrite files that come out the same
+                    tpath.write_text(text, encoding="utf-8")
     if apply and labels:
         manifest_path.write_text(json.dumps(manifest, separators=(",", ":"), ensure_ascii=False), encoding="utf-8")
     print(("WROTE" if apply else "DRY RUN") + f" ({today}); US recipes by source:")
