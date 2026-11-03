@@ -89,7 +89,7 @@ LEADING_ADJECTIVES = {"cubed", "sweet", "ripe", "fresh", "firm", "soft", "hard",
                       "packed", "loosely", "firmly", "tightly", "lightly", "roughly", "finely", "coarsely", "thinly", "freshly",
                       "extra-virgin", "fruity", "red", "green", "yellow", "orange", "white", "black", "purple", "golden",
                       "trimmed", "peeled", "seeded", "cored", "stemmed", "pitted", "halved", "quartered", "deveined", "scrubbed",
-                      "shucked", "crusty", "prepared", "round", "plump", "good", "scaled", "gutted", "slivered", "mashed", "spotty", "tart", "underripe", "slightly", "unbroken", "oval-shaped", "dense", "stale", "crustless", "cold", "defrosted", "thawed", "very"}
+                      "shucked", "crusty", "prepared", "round", "plump", "good", "scaled", "gutted", "slivered", "mashed", "spotty", "tart", "underripe", "slightly", "scraped", "unbroken", "oval-shaped", "dense", "stale", "crustless", "cold", "defrosted", "thawed", "very"}
 # (singular, plural) the library's way: "1 clove", "2 cloves"
 COUNT_FORMS = {}
 for _s, _p in [("clove", "cloves"), ("head", "heads"), ("sprig", "sprigs"), ("stalk", "stalks"), ("slice", "slices"),
@@ -382,6 +382,8 @@ def normalize_raw(raw: str) -> str:
     s = re.sub(rf"(?<!\S)(?:[\d/{VG}][\d/{VG} ]*-inch|bite-size[d]?)\s+(?:pieces|chunks|cubes)\s+(?:of\s+)?(?=[a-z])", "", s, flags=re.I)       # "2 cups chopped, ½-inch pieces of fresh pineapple"
     s = re.sub(rf"^({NUM})\s+({PROSE_UNIT}),\s+plus\s+({NUM})\s+({PROSE_UNIT}),?\s+", r"\1 \2 plus \3 \4 ", s, flags=re.I)   # "1 teaspoon, plus 3 tablespoons, butter"
     s = re.sub(r"\b([a-z]+)\s+plus\s+\1\s+(?=for\s)", r"\1, plus more ", s, flags=re.I)                                     # "1 cup flour plus flour for dusting"
+    s = re.sub(rf"^enough\s+(.+?)\s+to\s+yield\s+((?:{NUM})\s+(?:{PROSE_UNIT}))\s*(.*)$",
+               lambda m: f"{m.group(2)} {m.group(1)}" + (f", {m.group(3)}" if m.group(3) else ""), s, flags=re.I)               # "Enough fresh ginger to yield 1 tablespoon coarsely grated"
     s = re.sub(rf"\s+to\s+yield\s+(?:about\s+)?(?:{NUM})\s+(?:{PROSE_UNIT})\b\s*([a-z]+)?", lambda m: f", {m.group(1)}" if m.group(1) else "", s, flags=re.I)   # "1 small red onion to yield 2 tablespoons minced"
     s = re.sub(r"(\w):\s+(?=\d+\s+\w+(?:ed|ly)\b)", r"\1, ", s)                                                              # "7 garlic cloves: 4 smashed, 3 thinly sliced"
     s = re.sub(r"^(\d+)\s+each\s+((?:[a-z]+,\s+)+[a-z]+,?\s+and\s+[a-z]+)\s+([^,(]+)",                                       # "1 each red, green and yellow bell peppers"
@@ -431,6 +433,9 @@ def normalize_raw(raw: str) -> str:
     s = re.sub(r"^(?:a\s+few|few|several)\s+branch(?:es)?\s+(?:of\s+)?", "3 sprigs ", s, flags=re.I)                         # "Several branches of fresh thyme"
     s = re.sub(r"\bbranch(?:es)?\s+(?:of\s+)?(?=(?:fresh\s+)?(?:flat-leaf\s+|italian\s+)?(?:parsley|thyme|dill|rosemary|sage|tarragon|oregano|mint|basil|cilantro)\b)", "sprigs ", s, flags=re.I)   # "8 branches flat-leaf parsley"
     s = re.sub(r"(?<!,)(?<!\bcut)\s+in\s+([\d½¼¾⅓⅔/ ]+-inch)\s+(rings|slices|pieces|dice|cubes)\b", r", cut in \1 \2", s, flags=re.I)  # "1 white onion in ½-inch rings"
+    s = re.sub(r",\s*home-?made\s+or\s+[^,]*?\b(?:canned|store-bought)(?=,|$)", "", s, flags=re.I)                          # "chicken broth, homemade or low-sodium canned"
+    s = re.sub(r"\bhome-?made\s+or\s+(?:(?:low-?\s*sodium|canned|store-bought)\s+)*", "", s, flags=re.I)                    # "homemade or low- sodium chicken stock"
+    s = re.sub(r"^(\d+)\*\s+", r"\1 ", s)                                                                                    # "2* pounds small artichokes"
     return s
 
 

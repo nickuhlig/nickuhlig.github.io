@@ -35,7 +35,13 @@
    "oil-packed",
    "tea",
    "glutinous",
-   "semolina"
+   "semolina",
+   "no-salt",
+   "no-salt-added",
+   "low-sodium",
+   "reduced-sodium",
+   "unsalted",
+   "salt-free"
   ],
   "ripeness / age": [
    "unripe",
@@ -284,7 +290,8 @@
   "steamed",
   "well-cooked",
   "slant-cut",
-  "ground"
+  "ground",
+  "boiled"
  ],
  "brand_dependent_words": [
   "wine",
@@ -320,7 +327,11 @@
   "Semolina and cornmeal are different products: never merge one into the other.",
   "Roasted oils (roasted walnut oil) are a different product from the plain oil; roasted/salted nuts and seeds are not (they join the plain entry).",
   "Generic 'X fruit' wordings go to a generic mixed entry (freeze-dried mixed fruit), not to one example fruit.",
-  "Any prep word inside a wording (slivered, steamed, well-cooked, ground, slant-cut) must survive as a Prep sentence: write an override row, never a bare join."
+  "Any prep word inside a wording (slivered, steamed, well-cooked, ground, slant-cut) must survive as a Prep sentence: write an override row, never a bare join.",
+  "No-salt-added / low-sodium versions are their own entries (they matter to a recipe's flavor), e.g. 'diced tomatoes, no salt added'. Batch 8 ruling; older merges of no-salt wordings may need revisiting.",
+  "Lower-fat dairy rule extends to evaporated skim milk -> evaporated milk and reduced-fat goat cheese -> goat cheese.",
+  "'X or Y' where Y is a close cousin: take the simpler, common one (mackerel or sardines -> sardines).",
+  "Plant-based meat substitutes -> the existing 'veggie ground, plant based' entry."
  ],
  "cases": [
   {
@@ -556,6 +567,24 @@
    "wording": "lime leaves",
    "proposed": "lime",
    "ruling": "makrut lime leaves (leaves of a fruit tree are their own product)"
+  },
+  {
+   "batch": 8,
+   "wording": "no-salt-added chopped canned tomatoes",
+   "proposed": "diced tomatoes",
+   "ruling": "new 'diced tomatoes, no salt added'"
+  },
+  {
+   "batch": 8,
+   "wording": "boiled potatoes",
+   "proposed": "potatoes",
+   "ruling": "potatoes + prep 'boiled until tender'"
+  },
+  {
+   "batch": 8,
+   "wording": "plant-based vegan ground beef",
+   "proposed": "NEW",
+   "ruling": "veggie ground, plant based"
   }
  ],
  "neutral_phrases": [
