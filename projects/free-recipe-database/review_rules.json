@@ -33,7 +33,9 @@
    "peel",
    "extract",
    "oil-packed",
-   "tea"
+   "tea",
+   "glutinous",
+   "semolina"
   ],
   "ripeness / age": [
    "unripe",
@@ -162,6 +164,9 @@
   ],
   "part of the animal said in words": [
    "\\b(?:white|dark) meat\\b"
+  ],
+  "leaves that are their own product": [
+   "\\b(?:lime|lemon|citrus|orange|banana|fig|grape|vine|kaffir|makrut|curry|avocado|shiso|pandan)\\s+lea(?:f|ves)\\b"
   ]
  },
  "neutral_words": [
@@ -274,7 +279,12 @@
   "puréed",
   "melted",
   "buttered",
-  "brewed"
+  "brewed",
+  "slivered",
+  "steamed",
+  "well-cooked",
+  "slant-cut",
+  "ground"
  ],
  "brand_dependent_words": [
   "wine",
@@ -304,7 +314,13 @@
   "Snails (escargot) count as shellfish [4].",
   "Cooking by-products (pasta cooking water) are not ingredients: a 'note' override row, no entry, no restriction.",
   "A regional cheese that differs from its stand-in in key aspects gets its own entry (anthotyro is not ricotta); almond macaroons are not amaretti; Melba toast is its own product.",
-  "Any prep inside an override name (pureed, melted, toasted and buttered, steeped) must come out as a Prep sentence: check it with prepcheck after the re-align."
+  "Any prep inside an override name (pureed, melted, toasted and buttered, steeped) must come out as a Prep sentence: check it with prepcheck after the re-align.",
+  "Paprika: sweet (the 'paprika' entry), hot, smoked and hot smoked are separate entries with the same nutrition (different culinary use).",
+  "A distinct type of grain gets its own entry even when a close one exists (black glutinous rice is not forbidden black rice).",
+  "Semolina and cornmeal are different products: never merge one into the other.",
+  "Roasted oils (roasted walnut oil) are a different product from the plain oil; roasted/salted nuts and seeds are not (they join the plain entry).",
+  "Generic 'X fruit' wordings go to a generic mixed entry (freeze-dried mixed fruit), not to one example fruit.",
+  "Any prep word inside a wording (slivered, steamed, well-cooked, ground, slant-cut) must survive as a Prep sentence: write an override row, never a bare join."
  ],
  "cases": [
   {
@@ -480,6 +496,66 @@
    "wording": "pureed fresh apricots",
    "proposed": "apricots",
    "ruling": "apricots + prep 'pureed'"
+  },
+  {
+   "batch": 7,
+   "wording": "hot Hungarian paprika",
+   "proposed": "paprika",
+   "ruling": "own entry hot paprika (sweet / hot / smoked / hot smoked are separate)"
+  },
+  {
+   "batch": 7,
+   "wording": "black glutinous rice",
+   "proposed": "forbidden black rice",
+   "ruling": "own entry"
+  },
+  {
+   "batch": 7,
+   "wording": "Semolina cornmeal",
+   "proposed": "polenta (cornmeal)",
+   "ruling": "semolina (the line was 'Semolina or fine cornmeal')"
+  },
+  {
+   "batch": 7,
+   "wording": "ground freeze-dried fruit",
+   "proposed": "freeze-dried strawberries",
+   "ruling": "new freeze-dried mixed fruit + prep 'finely ground'"
+  },
+  {
+   "batch": 7,
+   "wording": "roasted walnut oil",
+   "proposed": "walnut oil",
+   "ruling": "own entry [6]"
+  },
+  {
+   "batch": 7,
+   "wording": "well-cooked bacon",
+   "proposed": "bacon",
+   "ruling": "bacon + prep 'fried until crisp'"
+  },
+  {
+   "batch": 7,
+   "wording": "slivered basil",
+   "proposed": "fresh basil",
+   "ruling": "fresh basil + prep 'slivered'"
+  },
+  {
+   "batch": 7,
+   "wording": "slivered Gruyere cheese",
+   "proposed": "Gruyère cheese",
+   "ruling": "Gruyère + prep 'slivered'"
+  },
+  {
+   "batch": 7,
+   "wording": "slant-cut scallion tops",
+   "proposed": "green onions (scallions)",
+   "ruling": "scallions + prep 'finely slivered on a slant'"
+  },
+  {
+   "batch": 7,
+   "wording": "lime leaves",
+   "proposed": "lime",
+   "ruling": "makrut lime leaves (leaves of a fruit tree are their own product)"
   }
  ],
  "neutral_phrases": [
