@@ -532,7 +532,7 @@ def parse_line(raw: str) -> Line:
                 continue
             if bare == "whole" and i + 1 < len(tokens) and tokens[i + 1].strip(".,;:").lower() in COUNT_FORMS:
                 line.tail.append(bare); i += 1; continue
-            if bare in COUNT_FORMS and line.unit not in ("lb", "oz", "g", "kg") and i + 1 < len(tokens) and not tok.endswith(","):     # (not after a weight: "1 pound strip steak")    # "24 whole cloves, divided": cloves IS the name
+            if bare in COUNT_FORMS and line.unit not in ("lb", "oz", "g", "kg") and any(not t.startswith("(") for t in tokens[i + 1:]) and not tok.endswith(","):     # (not after a weight: "1 pound strip steak")    # "24 whole cloves, divided": cloves IS the name; so is the last word before only brackets ("2 whole cloves (1 g)")
                 line.tail.append(bare); i += 1; continue
             j = i
             while j < len(tokens) and j - i < 3 and _is_prefix_word(tokens[j]):
@@ -650,14 +650,22 @@ def bracket_is_total(line: Line, text: str) -> bool:
     '4 (5 g) medium cloves'), and the nutrition calculator multiplies it by the count -- so a total is divided by the count
     when the line is written. Not touched: packages, a bracket that says 'each', a size range, a size given alongside a
     metric weight ('(3-ounce; 85 g)'), and ranges of counts."""
-    if line.amount is None or line.amount_hi is not None or line.unit is not None or line.amount <= 1 or len(line.parens) != 1:
-        return False                                                      # (two brackets: a size AND a weight -- left as the page wrote them)
+    if line.amount is None or line.amount_hi is not None or line.unit is not None or line.amount <= 1 or text not in line.parens:
+        return False
+    rest = list(line.parens)
+    rest.remove(text)
+    if any(not (imperial_part(o) and imperial_part(o)[1] == "inch" and not metric_part(o)) for o in rest):
+        return False                                                      # (another bracket that is not a length -- a size AND a weight: left as the page wrote them)
     if any(w in PER_ITEM_PACKAGES for w in line.tail) or re.search(r"\b(?:each|per)\b", text, re.I) or paren_range(text):
         return False
     mp, imp = metric_part(text), imperial_part(text)
     if mp and not IMPERIAL_WORD_RE.search(text):
         return True                                                       # "(20g)", "(about 15g)"; not "(1 1/4-pound; 560g)", a size
     return bool(imp and not mp and imp[1] in ("oz", "lb") and re.match(r"\s*(?:about|approximately|roughly|~)\s", text, re.I))
+
+
+def _is_garlic_clove(line: Line) -> bool:
+    return bool(re.search(r"\bgarlic\b", line.name, re.I) and any(re.match(r"cloves?\b", w) for w in [*line.tail, *line.name.lower().split()]))
 
 
 def per_item_g_text(grams: float) -> str:
@@ -854,7 +862,10 @@ def _paren_us_item(line: Line, text: str) -> str | None:
         if imp:
             ounces = max(0.25, round(imp[0] * (16 if imp[1] == "lb" else 1) / line.amount * 4) / 4)        # to the nearest 1/4 oz
             return f"({fmt_number(ounces)} oz)"
-    return _paren_us(text)
+    us = _paren_us(text)
+    if us and us.endswith(" oz)") and any((mp := metric_part(t)) and mp[0] and mp[1] in ("ml", "l") for t in line.parens):
+        us = us[:-4] + " fl oz)"                       # "One 12-ounce (355ml) can root beer": the ounces are fluid ounces, not a weight
+    return us
 
 
 def localize_units_short(text: str) -> str:
@@ -955,24 +966,33 @@ def render_metric(line: Line) -> str:
         return " ".join(parts)
     # no unit: a count, optionally with a package size in brackets ("1 (15 ounce) can")
     parts = [_amount_text(line)]
+    items = []                                               # (who wrote it, bracket): ONE bracket is kept, the library's "one item's size"
     for text in line.parens:
         rng = paren_range(text)
         imp = imperial_part(text)
         mp = metric_part(text)
         if rng:                                              # a size range: converted from the table (the author's bracket would give one end)
             lo, hi = convert_us_to_metric(rng[0], rng[2]), convert_us_to_metric(rng[1], rng[2])
-            parts.append(f"({lo.rsplit(' ', 1)[0]} to {hi})" if lo and hi else f"({fmt_number(rng[0])} to {fmt_number(rng[1])} {rng[2]})")
+            items.append(("table", f"({lo.rsplit(' ', 1)[0]} to {hi})" if lo and hi else f"({fmt_number(rng[0])} to {fmt_number(rng[1])} {rng[2]})"))
         elif any(paren_range(t) for t in line.parens):
             continue
         elif bracket_is_total(line, text) and mp and mp[1] in ("g", "kg"):         # the page's total -> one item's weight
-            parts.append(f"({per_item_g_text(mp[0] * (1000 if mp[1] == 'kg' else 1) / line.amount)})")
+            each = 5.0 if _is_garlic_clove(line) else mp[0] * (1000 if mp[1] == "kg" else 1) / line.amount     # the library's rule: a clove is 5 g
+            items.append(("author", f"({per_item_g_text(each)})"))
         elif bracket_is_total(line, text) and imp:
-            parts.append(f"({per_item_g_text((imp[0] * (G_PER_LB if imp[1] == 'lb' else G_PER_OZ)) / line.amount)})")
+            items.append(("author", f"({per_item_g_text((imp[0] * (G_PER_LB if imp[1] == 'lb' else G_PER_OZ)) / line.amount)})"))
         elif mp:
-            parts.append(f"({metric_value_to_library(mp[0], mp[1], imp[1] if imp else 'oz')})")
+            items.append(("author", f"({metric_value_to_library(mp[0], mp[1], imp[1] if imp else 'oz')})"))
         elif imp:
             conv = convert_us_to_metric(imp[0], imp[1])
-            parts.append(f"({conv})" if conv else f"({fmt_number(imp[0])} {imp[1]})")
+            items.append(("table", f"({conv})" if conv else f"({fmt_number(imp[0])} {imp[1]})"))
+    if items:
+        # "One 28-ounce (794g) can" has a bracket for the size and one for the weight: they say the same thing, so keep one --
+        # the author's own metric figure when there is one ("(15.5-ounce each) cans (880 g)": 'each' means the size is per can, the weight a total)
+        authors = [t for who, t in items if who == "author"]
+        tables = [t for who, t in items if who == "table"]
+        each = any(re.search(r"\beach\b", t, re.I) for t in line.parens)
+        parts.append((tables or authors)[0] if each else (authors or tables)[0])
     parts += [_pluralize(w, top, line.unit) if w in COUNT_FORMS else w for w in line.tail]
     return " ".join(parts)
 

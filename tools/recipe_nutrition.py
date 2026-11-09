@@ -318,10 +318,11 @@ def count_grams(food: dict, line_name: str = ""):
     return (items[0]["grams"] / items[0]["amount"], items[0]["unit"]) if items else (None, None)
 
 
-def line_grams(parsed: dict, food: dict, line_name: str = "", measures: dict = None):
+def line_grams(parsed: dict, food: dict, line_name: str = "", measures: dict = None, already_drained: bool = False):
     """(grams, how) for one parsed line, or (None, reason). measures: the ingredient's reviewed
     overrides from nutrition_foods.json ("small bunch": 30, "inch": 6, "item": 25, "density": 1.01),
-    consulted before the food's own portion data."""
+    consulted before the food's own portion data. already_drained: the can's weight is a drained weight
+    (see twin_drained), so it is not drained a second time."""
     measures = measures or {}
     kind = parsed["kind"]
     if kind == "empty":
@@ -334,7 +335,7 @@ def line_grams(parsed: dict, food: dict, line_name: str = "", measures: dict = N
         drained = measures.get("drained") or (DRAINED_YIELD if "drained" in (food.get("name") or "").lower() else None)
         if drained and re.match(r"(can|jar|tin)", parsed["what"]):
             each = parsed.get("grams_each") or parsed["ml_each"] * CAN_G_PER_ML
-            if 245 <= each <= 265:       # "(255 g) can": Mealime's metric cans give the drained weight
+            if already_drained or 245 <= each <= 265:       # "(255 g) can": Albertsons' metric cans give the drained weight
                 return parsed["count"] * each, "can, drained weight given"
             return parsed["count"] * each * drained, f"can/jar, drained ({drained:.0%} of contents)"
         if "grams_each" in parsed:
@@ -658,10 +659,27 @@ def twin_fallback(us_res: dict, metric_res: dict) -> dict:
     return out
 
 
-def recipe_nutrition(recipe: dict, db: dict, skip_ids=(), fallback: dict | None = None) -> dict:
+def twin_drained(us_res: dict, metric_res: dict) -> set:
+    """Line indexes whose Metric can/jar weight is already a DRAINED weight. Albertsons' Metric twin lists beans at
+    "(258 g) can" and "(266 g) can" for the US "15 oz can" (425 g): the drained part. Both records drain a can of
+    beans to 60% of the figure given, which would drain the Metric one twice, so a Metric can that is well under the
+    US can (under 85% of it, before draining) is taken as drained already. A Metric can at or above the US one
+    ("442 g" for a 15 oz can) is an undrained weight and is drained as usual."""
+    metric = {l["index"]: l for l in metric_res["lines"]}
+    out = set()
+    for l in us_res["lines"]:
+        m = metric.get(l["index"])
+        if (m and (l.get("how") or "").startswith("can/jar, drained") and (m.get("how") or "").startswith("can/jar, drained")
+                and l.get("grams") and m.get("grams") and m["grams"] < 0.85 * l["grams"]):
+            out.add(l["index"])
+    return out
+
+
+def recipe_nutrition(recipe: dict, db: dict, skip_ids=(), fallback: dict | None = None, drained_given: set | None = None) -> dict:
     """Per-serving totals plus coverage: which lines were counted, zero, or left out and why.
     skip_ids: ingredient ids to leave out of the totals (validate uses SALT_IDS).
-    fallback: {line index: (grams, how)} for lines this record could not convert (see twin_fallback)."""
+    fallback: {line index: (grams, how)} for lines this record could not convert (see twin_fallback).
+    drained_given: indexes of can/jar lines whose weight is already drained (see twin_drained)."""
     totals, lines = {}, []
     foods = foods_of(db)
     drained_salt = drained_water_salt(recipe)
@@ -736,7 +754,7 @@ def recipe_nutrition(recipe: dict, db: dict, skip_ids=(), fallback: dict | None 
                 lines.append(entry)
                 continue
         food = foods[ref]
-        grams, how = line_grams(parsed, food, line_name, measures)
+        grams, how = line_grams(parsed, food, line_name, measures, already_drained=index in (drained_given or ()))
         if entry.get("assumed"):
             how = f"{how} (amount not given; assumed {entry['assumed']})"
         if grams and parsed["kind"] in ("weight", "package") and not measures.get("package yield"):
@@ -974,7 +992,9 @@ def cmd_write(db: dict, library_dir: Path, apply: bool, missing_only: bool = Fal
             meta = {**meta, "date": old_meta.get("date", today)}     # unchanged: keep the date it was calculated on
         stats[(r["source"], "written, partial" if bad else "written, complete")] += 1
         for tpath, t in twins:
-            tm = recipe_nutrition(t, db)["per_serving"].get("energy", 0)
+            base = recipe_nutrition(t, db)
+            dg = twin_drained(res, base)               # the cross-check reads the Metric cans as the drained weights they are
+            tm = (recipe_nutrition(t, db, drained_given=dg) if dg else base)["per_serving"].get("energy", 0)
             if nutrition.get("energy") and abs(tm - nutrition["energy"]) > TWIN_GAP * nutrition["energy"]:
                 gaps.append((rid, r["name"][:50], nutrition["energy"], round(tm, 1)))
         old = (r.get("nutrition") or {}).get("energy")
