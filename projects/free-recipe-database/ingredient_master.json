@@ -11043,7 +11043,8 @@
     "crusty country bread",
     "thick slices country bread",
     "crusty white bread",
-    "½-inch slices of crusty bread"
+    "½-inch slices of crusty bread",
+    "French bread, sliced or unsliced"
    ],
    "exact_only": [],
    "violates": [
@@ -12173,7 +12174,8 @@
     "broiling chicken",
     "frying chickens",
     "kosher chicken",
-    "roasting chicken with its liver"
+    "roasting chicken with its liver",
+    "whole chicken, fresh"
    ],
    "exact_only": [],
    "violates": [],
@@ -21241,7 +21243,9 @@
     "full-bodied red wine",
     "Friulian merlot",
     "good red wine",
-    "Oregon pinot noir"
+    "Oregon pinot noir",
+    "red wine (such as Cabernet Sauvignon)",
+    "light-bodied red wine (such as pinot noir)"
    ],
    "exact_only": [],
    "violates": [
@@ -26872,7 +26876,8 @@
     "oat milk": 1
    },
    "aliases": [
-    "unsweetened plant-based milk"
+    "unsweetened plant-based milk",
+    "oat milk, original unsweetened"
    ],
    "exact_only": [],
    "violates": [],
@@ -34021,7 +34026,8 @@
    },
    "aliases": [
     "brut Prosecco",
-    "Prosecco wine"
+    "Prosecco wine",
+    "prosecco (brut-style)"
    ],
    "exact_only": [],
    "violates": [
@@ -39786,7 +39792,8 @@
     "pumpkin pie spice": 1
    },
    "aliases": [
-    "pumpkin spice"
+    "pumpkin spice",
+    "pumpkin pie spice mix"
    ],
    "exact_only": [],
    "violates": [],
@@ -39975,7 +39982,8 @@
    },
    "aliases": [
     "American whiskey",
-    "Zeppelin Bend Straight Whiskey"
+    "Zeppelin Bend Straight Whiskey",
+    "blended whiskey"
    ],
    "exact_only": [],
    "violates": [],
@@ -51490,7 +51498,9 @@
    "aliases": [
     "bone-in half ham",
     "whole ready-to-eat bone-in ham",
-    "presliced quarter-ham"
+    "presliced quarter-ham",
+    "ham, bone-in",
+    "whole ham, spiral cut, bone-in"
    ],
    "exact_only": [],
    "violates": [],
@@ -60164,11 +60174,17 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [
+    2
+   ],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-08"
+   "note": "decided by the user 2026-11-08 (weekly Albertsons review)",
+   "added": "2026-11-08",
+   "diet_flags": [
+    "dairy",
+    "not_paleo"
+   ]
   },
   "3906": {
    "name": "blended whiskey",
@@ -60177,11 +60193,12 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-08"
+   "note": "decided by the user 2026-11-08 (weekly Albertsons review) - merged into 2734 (whiskey); lines re-pointed there",
+   "added": "2026-11-08",
+   "diet_flags": []
   },
   "3907": {
    "name": "vegan butter, plant-based",
@@ -60190,11 +60207,14 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-08"
+   "note": "decided by the user 2026-11-08 (weekly Albertsons review)",
+   "added": "2026-11-08",
+   "diet_flags": [
+    "not_paleo"
+   ]
   },
   "3908": {
    "name": "French bread, sliced or unsliced",
@@ -60203,11 +60223,16 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [
+    1
+   ],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-08"
+   "note": "decided by the user 2026-11-08 (weekly Albertsons review) - merged into 1174 (French bread); lines re-pointed there",
+   "added": "2026-11-08",
+   "diet_flags": [
+    "not_paleo"
+   ]
   },
   "3909": {
    "name": "ham, bone-in",
@@ -60216,11 +60241,15 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-08"
+   "note": "decided by the user 2026-11-08 (weekly Albertsons review) - merged into 3399 (bone-in ham); lines re-pointed there",
+   "added": "2026-11-08",
+   "diet_flags": [
+    "meat",
+    "not_paleo"
+   ]
   },
   "3910": {
    "name": "water crackers",
@@ -60229,11 +60258,16 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [
+    1
+   ],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-08"
+   "note": "decided by the user 2026-11-08 (weekly Albertsons review)",
+   "added": "2026-11-08",
+   "diet_flags": [
+    "not_paleo"
+   ]
   },
   "3911": {
    "name": "turkey breast, bone-in",
@@ -60242,11 +60276,14 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-08"
+   "note": "decided by the user 2026-11-08 (weekly Albertsons review)",
+   "added": "2026-11-08",
+   "diet_flags": [
+    "meat"
+   ]
   },
   "3912": {
    "name": "prosecco (brut-style)",
@@ -60255,11 +60292,16 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [
+    14
+   ],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-08"
+   "note": "decided by the user 2026-11-08 (weekly Albertsons review) - merged into 2405 (prosecco); lines re-pointed there",
+   "added": "2026-11-08",
+   "diet_flags": [
+    "not_paleo"
+   ]
   },
   "3913": {
    "name": "pumpkin pie spice mix",
@@ -60268,11 +60310,12 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-08"
+   "note": "decided by the user 2026-11-08 (weekly Albertsons review) - merged into 2723 (pumpkin pie spice); lines re-pointed there",
+   "added": "2026-11-08",
+   "diet_flags": []
   },
   "3914": {
    "name": "dungeness crab cluster (pre-cooked), thawed if frozen",
@@ -60281,11 +60324,16 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [
+    4
+   ],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-08"
+   "note": "decided by the user 2026-11-08 (weekly Albertsons review)",
+   "added": "2026-11-08",
+   "diet_flags": [
+    "shellfish"
+   ]
   },
   "3915": {
    "name": "cinnamon raisin bread",
@@ -60294,11 +60342,16 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [
+    1
+   ],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-08"
+   "note": "decided by the user 2026-11-08 (weekly Albertsons review)",
+   "added": "2026-11-08",
+   "diet_flags": [
+    "not_paleo"
+   ]
   },
   "3916": {
    "name": "eggnog",
@@ -60307,11 +60360,18 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [
+    2,
+    11
+   ],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-08"
+   "note": "decided by the user 2026-11-08 (weekly Albertsons review)",
+   "added": "2026-11-08",
+   "diet_flags": [
+    "dairy",
+    "egg"
+   ]
   },
   "3917": {
    "name": "whole ham, spiral cut, bone-in",
@@ -60320,11 +60380,15 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-08"
+   "note": "decided by the user 2026-11-08 (weekly Albertsons review) - merged into 3399 (bone-in ham); lines re-pointed there",
+   "added": "2026-11-08",
+   "diet_flags": [
+    "meat",
+    "not_paleo"
+   ]
   },
   "3918": {
    "name": "wholegrain mustard",
@@ -60333,11 +60397,15 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [
+    13,
+    14
+   ],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-08"
+   "note": "decided by the user 2026-11-08 (weekly Albertsons review)",
+   "added": "2026-11-08",
+   "diet_flags": []
   },
   "3919": {
    "name": "light-bodied red wine (such as pinot noir)",
@@ -60346,11 +60414,16 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [
+    14
+   ],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-08"
+   "note": "decided by the user 2026-11-08 (weekly Albertsons review) - merged into 1714 (dry red wine); lines re-pointed there",
+   "added": "2026-11-08",
+   "diet_flags": [
+    "not_paleo"
+   ]
   },
   "3920": {
    "name": "sparkling orange beverage, lightly sweetened",
@@ -60359,11 +60432,12 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-08"
+   "note": "decided by the user 2026-11-08 (weekly Albertsons review)",
+   "added": "2026-11-08",
+   "diet_flags": []
   },
   "3921": {
    "name": "four fruit preserves (cherry, strawberry, current & raspberry)",
@@ -60372,11 +60446,14 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-08"
+   "note": "decided by the user 2026-11-08 (weekly Albertsons review)",
+   "added": "2026-11-08",
+   "diet_flags": [
+    "not_paleo"
+   ]
   },
   "3922": {
    "name": "Aperol Aperitivo Liqueur",
@@ -60385,11 +60462,12 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-08"
+   "note": "decided by the user 2026-11-08 (weekly Albertsons review)",
+   "added": "2026-11-08",
+   "diet_flags": []
   },
   "3923": {
    "name": "Campari Aperitivo Liqueur",
@@ -60398,11 +60476,12 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-08"
+   "note": "decided by the user 2026-11-08 (weekly Albertsons review)",
+   "added": "2026-11-08",
+   "diet_flags": []
   },
   "3924": {
    "name": "whole chicken, fresh",
@@ -60411,11 +60490,14 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-08"
+   "note": "decided by the user 2026-11-08 (weekly Albertsons review) - merged into 1230 (whole chicken); lines re-pointed there",
+   "added": "2026-11-08",
+   "diet_flags": [
+    "meat"
+   ]
   },
   "3925": {
    "name": "oat milk, original unsweetened",
@@ -60424,11 +60506,14 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-08"
+   "note": "decided by the user 2026-11-08 (weekly Albertsons review) - merged into 2007 (oat milk); lines re-pointed there",
+   "added": "2026-11-08",
+   "diet_flags": [
+    "not_paleo"
+   ]
   },
   "3926": {
    "name": "wild rice mix",
@@ -60437,11 +60522,14 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-08"
+   "note": "decided by the user 2026-11-08 (weekly Albertsons review)",
+   "added": "2026-11-08",
+   "diet_flags": [
+    "not_paleo"
+   ]
   },
   "3927": {
    "name": "alcohol-removed dry white wine",
@@ -60450,11 +60538,16 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [
+    14
+   ],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-08"
+   "note": "decided by the user 2026-11-08 (weekly Albertsons review)",
+   "added": "2026-11-08",
+   "diet_flags": [
+    "not_paleo"
+   ]
   },
   "3928": {
    "name": "Fuyu persimmon",
@@ -60463,11 +60556,12 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-08"
+   "note": "decided by the user 2026-11-08 (weekly Albertsons review)",
+   "added": "2026-11-08",
+   "diet_flags": []
   },
   "3929": {
    "name": "red wine (such as Cabernet Sauvignon)",
@@ -60476,11 +60570,16 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [
+    14
+   ],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-08"
+   "note": "decided by the user 2026-11-08 (weekly Albertsons review) - merged into 1714 (dry red wine); lines re-pointed there",
+   "added": "2026-11-08",
+   "diet_flags": [
+    "not_paleo"
+   ]
   }
  }
 }
