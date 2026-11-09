@@ -50,7 +50,9 @@ from library_paths import DEFAULT_LIBRARY_DIR
 
 FRACTIONS = {"½": 0.5, "¼": 0.25, "¾": 0.75, "⅓": 1 / 3, "⅔": 2 / 3, "⅛": 0.125, "⅜": 0.375, "⅝": 0.625, "⅞": 0.875,
              "⅙": 1 / 6, "⅚": 5 / 6, "⅕": 0.2, "⅖": 0.4, "⅗": 0.6, "⅘": 0.8}
-NUM = r"(?:\d+(?:[.,]\d+)?(?:\s*[½¼¾⅓⅔⅛⅜⅝⅞⅙⅚⅕⅖⅗⅘])?|[½¼¾⅓⅔⅛⅜⅝⅞⅙⅚⅕⅖⅗⅘]|\d+\s*/\s*\d+|\d+\s+\d+\s*/\s*\d+)"
+# the written-out fractions come FIRST: alternation takes the first branch that matches, so with the plain
+# number first "1 1/2 lb" was read as "1" followed by the unparseable "1/2 lb"
+NUM = r"(?:\d+\s+\d+\s*/\s*\d+|\d+\s*/\s*\d+|\d+(?:[.,]\d+)?(?:\s*[½¼¾⅓⅔⅛⅜⅝⅞⅙⅚⅕⅖⅗⅘])?|[½¼¾⅓⅔⅛⅜⅝⅞⅙⅚⅕⅖⅗⅘])"
 AMOUNT = rf"(?P<a>{NUM})(?:\s*(?:-|–|to)\s*(?P<b>{NUM}))?"
 
 GRAMS_PER = {"g": 1.0, "kg": 1000.0, "oz": 28.3495, "lb": 453.592}
@@ -639,9 +641,27 @@ def weighed_lines(recipe: dict):
                           "name": p.get("name") or ing.get("name"), "prep": None}
 
 
-def recipe_nutrition(recipe: dict, db: dict, skip_ids=()) -> dict:
+def twin_fallback(us_res: dict, metric_res: dict) -> dict:
+    """{line index: (grams, how)} for lines the US record could not convert but its Metric twin could ("1 bottle"
+    of rum next to the Metric "1 (750 ml) bottle"). Only unambiguous Metric amounts are borrowed: a weight, a
+    volume, a single package, or liquid packages. "4 (20 g) medium cloves" is left alone: whether 20 g is the
+    weight of one clove or of all four is exactly what a person has to decide."""
+    out = {}
+    metric = {l["index"]: l for l in metric_res["lines"]}
+    for l in us_res["lines"]:
+        m = metric.get(l["index"])
+        if l["status"] != "not converted" or not m or m["status"] != "counted" or not m.get("grams"):
+            continue
+        p = parse_quantity(m.get("quantity"))
+        if p["kind"] in ("weight", "volume") or (p["kind"] == "package" and ("ml_each" in p or p["count"] == 1)):
+            out[l["index"]] = (m["grams"], f"from the Metric twin's line '{m.get('quantity')}': {m.get('how')}")
+    return out
+
+
+def recipe_nutrition(recipe: dict, db: dict, skip_ids=(), fallback: dict | None = None) -> dict:
     """Per-serving totals plus coverage: which lines were counted, zero, or left out and why.
-    skip_ids: ingredient ids to leave out of the totals (validate uses SALT_IDS)."""
+    skip_ids: ingredient ids to leave out of the totals (validate uses SALT_IDS).
+    fallback: {line index: (grams, how)} for lines this record could not convert (see twin_fallback)."""
     totals, lines = {}, []
     foods = foods_of(db)
     drained_salt = drained_water_salt(recipe)
@@ -730,6 +750,10 @@ def recipe_nutrition(recipe: dict, db: dict, skip_ids=()) -> dict:
         entry.update(grams=None if grams is None else round(grams, 1), how=how, ref=ref,
                      status="counted" if grams else ("zero" if grams == 0 else "not converted"))
         lines.append(entry)
+    for l in lines:
+        if fallback and l["status"] == "not converted" and l["index"] in fallback and l.get("ref"):
+            l["grams"], l["how"] = fallback[l["index"]]
+            l["status"], l["from_twin"] = "counted", True
     by_index = {l["index"]: l for l in lines}
     for idx, factor in override.get("scale", {}).items():      # e.g. one of five alternative glazes
         l = by_index.get(int(idx), {})
@@ -891,6 +915,7 @@ def nutrition_record(res: dict, db: dict, today: str) -> tuple[dict, dict]:
             "missing": names(lambda l: l["status"] not in ("counted", "zero")),
             "not_counted": names(lambda l: l["status"] == "zero" and l.get("how", "").startswith(("to taste", "served"))),
             "assumed": names(lambda l: l.get("assumed")),
+            "from_metric_twin": names(lambda l: l.get("from_twin")),
             "stand_ins": names(lambda l: l["status"] == "counted" and db["ingredients"].get(l["ingredient_id"], {}).get("flag")),
             "estimated_share": round(estimated / total_g, 3) if total_g else 0.0,
             "omitted_fields": omitted}
@@ -931,6 +956,11 @@ def cmd_write(db: dict, library_dir: Path, apply: bool, missing_only: bool = Fal
                  and recs[s][1].get("serving_count") == r.get("serving_count")
                  and [g.get("ingredient_id") for g in recs[s][1]["ingredients"]] == ids]
         res = recipe_nutrition(r, db)
+        if twins and any(l["status"] == "not converted" for l in res["lines"]):
+            fb = twin_fallback(res, recipe_nutrition(twins[0][1], db))
+            if fb:
+                res = recipe_nutrition(r, db, fallback=fb)
+                stats[(r["source"], "lines borrowed from the Metric twin")] += len(fb)
         bad = [l for l in res["lines"] if l["status"] not in ("counted", "zero")]
         if len(bad) > 1:
             stats[(r["source"], "skipped: 2+ lines not converted")] += 1

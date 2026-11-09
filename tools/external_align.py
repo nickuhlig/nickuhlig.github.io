@@ -365,7 +365,7 @@ def normalize_raw(raw: str) -> str:
     s = re.sub(rf"^({NUM})\s+(?:additional|extra)\s+(?=(?:tablespoons?|teaspoons?|cups?)\b)", r"\1 ", s, flags=re.I)         # "1 additional tablespoon for pan"
     s = re.sub(r"^(\d+)\s+(large|medium|small)\s+pound\s+(?=[a-z])", r"\1 \2 ", s, flags=re.I)             # "1 large pound butternut squash": a typo for "1 large butternut squash"
     s = re.sub(r"\bfresh or frozen(?: and thawed)?\b", "fresh", s, flags=re.I)                                    # either is fine: no alternative
-    s = re.sub(r"^\.(?=\d)", "0.", s)                                                                       # ".4 ounces kosher salt"
+    s = re.sub(r"(?<![\w.])\.(?=\d)", "0.", s)                                                              # ".4 ounces kosher salt", "1 (.25-ounce) package", "(.5 ounces, about 1 tbsp)"
     s = re.sub(r"\b(black|white|green|red|pink|yellow|brown|golden)\s+or\s+([a-z]+(?: [a-z]+)?)\s+(pepper|peppercorns|olives|plums|grapes|raisins|currants|figs|lentils)\b",
                r"\1 \3 or \2 \3", s, flags=re.I)                                                         # "black or white pepper" -> "black pepper or white pepper"
     s = re.sub(r"\b(cans?|bottles?)\s+or\s+(?:cans?|bottles?)\b", r"\1", s, flags=re.I)           # "1 (12 ounce) can or bottle beer": the first container
@@ -636,6 +636,35 @@ CONTAINER_WORDS = {"can", "cans", "pkg", "pkgs", "package", "jar", "jars", "bott
                    "packet", "packets", "pack", "packs"}
 
 
+# Packages keep the page's bracket as written ("2 (15 ounce) cans": the bracket is one can's size). Bunches are NOT in
+# this set: their bracket is a size when hyphenated ("2 3-ounce bunches") but the total otherwise.
+PER_ITEM_PACKAGES = (CONTAINER_WORDS - {"bunch", "bunches"}) | {"block", "blocks", "pouch", "pouches", "log", "logs",
+                                                                "tube", "tubes", "bar", "bars", "patty", "patties",
+                                                                "packages", "pkg", "pkgs"}
+IMPERIAL_WORD_RE = re.compile(r"\b(?:ounces?|oz|pounds?|lbs?)\b|\d\s*[-–]\s*(?:ounce|pound)", re.I)
+
+
+def bracket_is_total(line: Line, text: str) -> bool:
+    """Serious Eats writes the weight of the WHOLE count in brackets: '4 medium cloves (20g) garlic', '3 bunches (about
+    2 1/2 pounds) broccoli rabe'. The library's convention is the opposite -- a bracket is ONE item's size ('2 (15 oz) cans',
+    '4 (5 g) medium cloves'), and the nutrition calculator multiplies it by the count -- so a total is divided by the count
+    when the line is written. Not touched: packages, a bracket that says 'each', a size range, a size given alongside a
+    metric weight ('(3-ounce; 85 g)'), and ranges of counts."""
+    if line.amount is None or line.amount_hi is not None or line.unit is not None or line.amount <= 1 or len(line.parens) != 1:
+        return False                                                      # (two brackets: a size AND a weight -- left as the page wrote them)
+    if any(w in PER_ITEM_PACKAGES for w in line.tail) or re.search(r"\b(?:each|per)\b", text, re.I) or paren_range(text):
+        return False
+    mp, imp = metric_part(text), imperial_part(text)
+    if mp and not IMPERIAL_WORD_RE.search(text):
+        return True                                                       # "(20g)", "(about 15g)"; not "(1 1/4-pound; 560g)", a size
+    return bool(imp and not mp and imp[1] in ("oz", "lb") and re.match(r"\s*(?:about|approximately|roughly|~)\s", text, re.I))
+
+
+def per_item_g_text(grams: float) -> str:
+    """One item's weight: whole grams, or a decimal under 10 g (a sprig is 2.4 g, not 2)."""
+    return f"{round(grams, 1):g} g" if grams < 10 else g_text(grams)
+
+
 def collapse_package_weight(line: Line) -> None:
     """'Four 5- to 6-ounce chicken thighs' -> 24 oz (the higher end of a range, times the count); 'Two 8-ounce potatoes' ->
     16 oz. The author's own metric figure is scaled the same way. Packages (cans, jars...) keep 'N (size) cans'."""
@@ -818,6 +847,16 @@ def _paren_us(text: str) -> str | None:
     return None                       # metric-only or free-text brackets are dropped from a US quantity
 
 
+def _paren_us_item(line: Line, text: str) -> str | None:
+    """_paren_us, but a page total ('3 bunches (about 2 1/2 pounds)') is written as one item's size ('3 (13 oz) bunches')."""
+    if bracket_is_total(line, text):
+        imp = imperial_part(text)
+        if imp:
+            ounces = max(0.25, round(imp[0] * (16 if imp[1] == "lb" else 1) / line.amount * 4) / 4)        # to the nearest 1/4 oz
+            return f"({fmt_number(ounces)} oz)"
+    return _paren_us(text)
+
+
 def localize_units_short(text: str) -> str:
     """'minus 1 teaspoon' -> 'minus 1 tsp' (the library's short unit names)."""
     return re.sub(rf"\b({PROSE_UNIT})\b", lambda m: _canon_prose_unit(m.group(1)), text, flags=re.I)
@@ -875,7 +914,7 @@ def render_us(line: Line) -> str:
     parts = [_amount_text(line)]
     if line.unit:
         parts.append("cups" if line.unit == "cup" and top > 1.01 else line.unit)
-    parts += [p for p in (_paren_us(t) for t in line.parens) if p]
+    parts += [p for p in (_paren_us_item(line, t) for t in line.parens) if p]
     parts += [_pluralize(w, top, line.unit) if w in COUNT_FORMS else w for w in line.tail]
     if line.extra:
         parts.append(line.extra)
@@ -925,6 +964,10 @@ def render_metric(line: Line) -> str:
             parts.append(f"({lo.rsplit(' ', 1)[0]} to {hi})" if lo and hi else f"({fmt_number(rng[0])} to {fmt_number(rng[1])} {rng[2]})")
         elif any(paren_range(t) for t in line.parens):
             continue
+        elif bracket_is_total(line, text) and mp and mp[1] in ("g", "kg"):         # the page's total -> one item's weight
+            parts.append(f"({per_item_g_text(mp[0] * (1000 if mp[1] == 'kg' else 1) / line.amount)})")
+        elif bracket_is_total(line, text) and imp:
+            parts.append(f"({per_item_g_text((imp[0] * (G_PER_LB if imp[1] == 'lb' else G_PER_OZ)) / line.amount)})")
         elif mp:
             parts.append(f"({metric_value_to_library(mp[0], mp[1], imp[1] if imp else 'oz')})")
         elif imp:
