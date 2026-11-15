@@ -157,7 +157,7 @@ def cm_text(cm: float) -> str:
     return f"{fmt_number(round_half_cm(cm))} cm"
 
 
-METRIC_RE = re.compile(r"(?:~|about\s+|approximately\s+|approx\.?\s+)?(\d+(?:\.\d+)?)\s*(kg|g|ml|l|cm|mm|grams?|kilograms?|milliliters?|millilitres?|liters?|litres?)\b", re.I)
+METRIC_RE = re.compile(r"(?:~|about\s+|approximately\s+|approx\.?\s+)?(\d+\s+\d+/\d+|\d+/\d+|\d+(?:\.\d+)?)\s*(kg|g|ml|l|cm|mm|grams?|kilograms?|milliliters?|millilitres?|liters?|litres?)\b", re.I)
 METRIC_UNIT = {"kg": "kg", "kilogram": "kg", "kilograms": "kg", "g": "g", "gram": "g", "grams": "g", "ml": "ml", "milliliter": "ml",
                "milliliters": "ml", "millilitre": "ml", "millilitres": "ml", "l": "l", "liter": "l", "liters": "l", "litre": "l",
                "litres": "l", "cm": "cm", "mm": "mm"}
@@ -166,7 +166,7 @@ METRIC_UNIT = {"kg": "kg", "kilogram": "kg", "kilograms": "kg", "g": "g", "gram"
 def metric_part(text: str) -> tuple[float, str] | None:
     """The metric measure inside a bracket's text ("3-ounce; 85 g" -> (85, 'g'); '15 ml' -> (15, 'ml'))."""
     m = METRIC_RE.search(text)
-    return (float(m.group(1)), METRIC_UNIT[m.group(2).lower()]) if m else None
+    return (parse_number(m.group(1)) or 0.0, METRIC_UNIT[m.group(2).lower()]) if m else None
 
 
 IMPERIAL_IN_PAREN = re.compile(rf"({NUM})\s*-?\s*(fluid ounces?|fl\.? ?oz\.?|ounces?|oz\.?|pounds?|lbs?\.?|inch(?:es)?|cups?|quarts?|pints?)\b", re.I)
@@ -855,15 +855,22 @@ def _paren_us(text: str) -> str | None:
     return None                       # metric-only or free-text brackets are dropped from a US quantity
 
 
+# Drinks and liquid cooking ingredients, whose "12-ounce can" is fluid ounces; a "14-ounce can diced tomatoes" is a weight even when
+# the page also gives its volume in ml.
+LIQUID_NAME_RE = re.compile(r"\b(beer|lager|ale|stout|cider|soda|seltzer|cola|water|milk|cream|juice|stock|broth|wine|sake|rum|vodka|"
+                            r"whiske?y|bourbon|liqueur|vinegar|clamato|syrup)\b", re.I)
+
+
 def _paren_us_item(line: Line, text: str) -> str | None:
     """_paren_us, but a page total ('3 bunches (about 2 1/2 pounds)') is written as one item's size ('3 (13 oz) bunches')."""
     if bracket_is_total(line, text):
         imp = imperial_part(text)
         if imp:
-            ounces = max(0.25, round(imp[0] * (16 if imp[1] == "lb" else 1) / line.amount * 4) / 4)        # to the nearest 1/4 oz
+            ounces = max(0.25, round(imp[0] * (16 if imp[1] == "lb" else 1) / (line.amount_hi or line.amount) * 4) / 4)        # to the nearest 1/4 oz
             return f"({fmt_number(ounces)} oz)"
     us = _paren_us(text)
-    if us and us.endswith(" oz)") and any((mp := metric_part(t)) and mp[0] and mp[1] in ("ml", "l") for t in line.parens):
+    if (us and us.endswith(" oz)") and not us.endswith(" fl oz)") and line.unit is None and LIQUID_NAME_RE.search(line.name)
+            and any((mp := metric_part(t)) and mp[0] and mp[1] in ("ml", "l") for t in line.parens)):
         us = us[:-4] + " fl oz)"                       # "One 12-ounce (355ml) can root beer": the ounces are fluid ounces, not a weight
     return us
 
@@ -977,10 +984,10 @@ def render_metric(line: Line) -> str:
         elif any(paren_range(t) for t in line.parens):
             continue
         elif bracket_is_total(line, text) and mp and mp[1] in ("g", "kg"):         # the page's total -> one item's weight
-            each = 5.0 if _is_garlic_clove(line) else mp[0] * (1000 if mp[1] == "kg" else 1) / line.amount     # the library's rule: a clove is 5 g
+            each = 5.0 if _is_garlic_clove(line) else mp[0] * (1000 if mp[1] == "kg" else 1) / top     # the library's rule: a clove is 5 g
             items.append(("author", f"({per_item_g_text(each)})"))
         elif bracket_is_total(line, text) and imp:
-            items.append(("author", f"({per_item_g_text((imp[0] * (G_PER_LB if imp[1] == 'lb' else G_PER_OZ)) / line.amount)})"))
+            items.append(("author", f"({per_item_g_text((imp[0] * (G_PER_LB if imp[1] == 'lb' else G_PER_OZ)) / top)})"))
         elif mp:
             items.append(("author", f"({metric_value_to_library(mp[0], mp[1], imp[1] if imp else 'oz')})"))
         elif imp:

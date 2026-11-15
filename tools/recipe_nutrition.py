@@ -335,12 +335,12 @@ def line_grams(parsed: dict, food: dict, line_name: str = "", measures: dict = N
         drained = measures.get("drained") or (DRAINED_YIELD if "drained" in (food.get("name") or "").lower() else None)
         if drained and re.match(r"(can|jar|tin)", parsed["what"]):
             each = parsed.get("grams_each") or parsed["ml_each"] * CAN_G_PER_ML
-            if already_drained or 245 <= each <= 265:       # "(255 g) can": Albertsons' metric cans give the drained weight
+            if already_drained:       # "(258 g) can": Albertsons' metric cans give the drained weight (see twin_drained)
                 return parsed["count"] * each, "can, drained weight given"
             return parsed["count"] * each * drained, f"can/jar, drained ({drained:.0%} of contents)"
         if "grams_each" in parsed:
             grams = parsed["count"] * parsed["grams_each"]
-            if "package yield" in measures:      # "1 (30 oz) whole rotisserie chicken": bones
+            if "package yield" in measures and not already_drained:      # "1 (30 oz) whole rotisserie chicken": bones
                 return grams * measures["package yield"], f"package weight x reviewed yield {measures['package yield']}"
             return grams, "package weight"
         d, label = (measures["density"], "reviewed density") if "density" in measures else density(food, line_name)
@@ -499,13 +499,13 @@ FRYING_OIL = re.compile(r"for (deep[- ]?)?fry|deep[- ]?fry|for frying|frying (oi
 FAT_FOOD_MIN = 90              # g fat per 100 g: oils, lard, shortening, ghee, schmaltz
 FRYING_ALWAYS_G = 800          # ~1 quart of oil (about 860 g): no recipe eats that much, so it is frying oil
 FRYING_WITH_STEP_G = 100       # ~1/2 cup: frying oil when the steps show it is a frying medium
-FRY_MEDIUM = re.compile(r"paper towel|drain (them |it |well )?on|\b3[2-9]\d ?(°|degrees|F\b)|oil (to|reaches|registers|is) (about )?3\d\d|"
+FRY_MEDIUM = re.compile(r"paper towel|drain (them |it |well )?on|\b3[2-9]\d ?(°|degrees|F\b)|oil (to|reaches|registers|is) (about )?(3\d\d|1[6-9]\d ?°? ?C)|"
                         r"in batches|deep[- ]?fr|shallow[- ]?fr|pan[- ]?fr|until (golden|crisp)\w*,? (about )?\d+ (to \d+ )?min|"
                         r"hot (fat|oil)|wire rack|slotted spoon|spider|a (few|couple)( of)?( \w+)? at a time", re.I)
 OIL_KEPT = re.compile(r"reserv\w* (the )?(frying |cooking )?oil|strain (the )?oil|pour (the )?(hot |infused |chile |chili )?oil over|"
                       r"oil (in|into|to) a (jar|heatproof|bowl|container)|infused|chili oil|chile oil", re.I)
 OIL_PRODUCT_NAME = re.compile(r"\boil\b|salsa macha|vinaigrette|dressing|mayo|aioli|pesto|chimichurri|crisp\b", re.I)
-FRY_STEP = re.compile(r"\b(deep[- ]?)?(fry|fries|fried|frying)\b|\boil (to|reaches|registers) 3\d\d", re.I)
+FRY_STEP = re.compile(r"\b(deep[- ]?)?(fry|fries|fried|frying)\b|\boil (to|reaches|registers) (about )?(3\d\d|1[6-9]\d ?°? ?C)", re.I)   # 350°F, or 175°C (350°F) in the Metric steps
 SIDE_COMPONENT = re.compile(r"^\s*for (the )?[^:]{0,40}\b(sauce|dip|dipping|dressing|glaze|salsa|aioli|mayo|"
                             r"mayonnaise|topping|garnish|slaw|salad|relish|chutney|syrup|serving|pickles?)\b[^:]{0,20}:", re.I)
 OIL_ABSORBED = 0.15            # user rule: deep-fried items absorb oil equal to 15% of their weight
@@ -644,9 +644,8 @@ def weighed_lines(recipe: dict):
 
 def twin_fallback(us_res: dict, metric_res: dict) -> dict:
     """{line index: (grams, how)} for lines the US record could not convert but its Metric twin could ("1 bottle"
-    of rum next to the Metric "1 (750 ml) bottle"). Only unambiguous Metric amounts are borrowed: a weight, a
-    volume, a single package, or liquid packages. "4 (20 g) medium cloves" is left alone: whether 20 g is the
-    weight of one clove or of all four is exactly what a person has to decide."""
+    of rum next to the Metric "1 (750 ml) bottle"). The library's bracket is always one item's size ("4 (5 g)
+    medium cloves" is four cloves of 5 g), so any Metric weight, volume or package amount can be borrowed."""
     out = {}
     metric = {l["index"]: l for l in metric_res["lines"]}
     for l in us_res["lines"]:
@@ -654,13 +653,36 @@ def twin_fallback(us_res: dict, metric_res: dict) -> dict:
         if l["status"] != "not converted" or not m or m["status"] != "counted" or not m.get("grams"):
             continue
         p = parse_quantity(m.get("quantity"))
-        if p["kind"] in ("weight", "volume") or (p["kind"] == "package" and ("ml_each" in p or p["count"] == 1)):
+        if p["kind"] in ("weight", "volume") or (p["kind"] == "package" and ("ml_each" in p or "grams_each" in p)):
             out[l["index"]] = (m["grams"], f"from the Metric twin's line '{m.get('quantity')}': {m.get('how')}")
     return out
 
 
+def albertsons_grams(us_res: dict, metric_res: dict, drained: set) -> dict:
+    """Albertsons' Metric twin is our relabeling of the grams Albertsons itself computed for each line (amount.inG), so
+    for a can or a rotisserie chicken whose Metric figure is the net part (see twin_drained) those grams ARE the amount
+    in the recipe: use them instead of estimating a drain or a yield from the US label."""
+    metric = {l["index"]: l for l in metric_res["lines"]}
+    return {i: (metric[i]["grams"], f"Albertsons' own grams for this line (Metric twin '{metric[i].get('quantity')}')")
+            for i in drained if i in metric and metric[i].get("grams")}
+
+
+def lines_disagree(us_res: dict, metric_res: dict) -> bool:
+    """Do any two matching lines differ by more than LINE_TOL in grams (or count on one side only)? A recipe whose lines
+    all agree within the rounding of the source page ("2 lb" next to "1 kg") is not a US/Metric gap."""
+    metric = {l["index"]: l for l in metric_res["lines"]}
+    for l in us_res["lines"]:
+        m = metric.get(l["index"])
+        a, b = (l.get("grams") or 0), ((m or {}).get("grams") or 0)
+        kinds = {(x.get("how") or "")[:6] for x in (l, m or {})}
+        tol = DENSITY_TOL if kinds == {"volume", "weight"} else LINE_TOL      # cups against grams: a density table against an author's scale
+        if max(a, b) >= 5 and abs(a - b) > tol * max(a, b):
+            return True
+    return False
+
+
 def twin_drained(us_res: dict, metric_res: dict) -> set:
-    """Line indexes whose Metric can/jar weight is already a DRAINED weight. Albertsons' Metric twin lists beans at
+    """Line indexes whose Metric can/jar/chicken weight is already NET (drained, or the edible meat). Albertsons' Metric twin lists beans at
     "(258 g) can" and "(266 g) can" for the US "15 oz can" (425 g): the drained part. Both records drain a can of
     beans to 60% of the figure given, which would drain the Metric one twice, so a Metric can that is well under the
     US can (under 85% of it, before draining) is taken as drained already. A Metric can at or above the US one
@@ -669,17 +691,20 @@ def twin_drained(us_res: dict, metric_res: dict) -> set:
     out = set()
     for l in us_res["lines"]:
         m = metric.get(l["index"])
-        if (m and (l.get("how") or "").startswith("can/jar, drained") and (m.get("how") or "").startswith("can/jar, drained")
+        net = ("can/jar, drained", "package weight x reviewed yield")        # both sides take a share of the figure given
+        if (m and (l.get("how") or "").startswith(net) and (m.get("how") or "").startswith(net)
                 and l.get("grams") and m.get("grams") and m["grams"] < 0.85 * l["grams"]):
             out.add(l["index"])
     return out
 
 
-def recipe_nutrition(recipe: dict, db: dict, skip_ids=(), fallback: dict | None = None, drained_given: set | None = None) -> dict:
+def recipe_nutrition(recipe: dict, db: dict, skip_ids=(), fallback: dict | None = None, drained_given: set | None = None,
+                     grams_given: dict | None = None) -> dict:
     """Per-serving totals plus coverage: which lines were counted, zero, or left out and why.
     skip_ids: ingredient ids to leave out of the totals (validate uses SALT_IDS).
     fallback: {line index: (grams, how)} for lines this record could not convert (see twin_fallback).
-    drained_given: indexes of can/jar lines whose weight is already drained (see twin_drained)."""
+    drained_given: indexes of can/jar lines whose weight is already drained (see twin_drained).
+    grams_given: {line index: (grams, how)} that replace a line's own conversion (see albertsons_grams)."""
     totals, lines = {}, []
     foods = foods_of(db)
     drained_salt = drained_water_salt(recipe)
@@ -706,7 +731,8 @@ def recipe_nutrition(recipe: dict, db: dict, skip_ids=(), fallback: dict | None 
             lines.append(entry)
             continue
         parsed = parse_quantity(quantity)
-        if assign.get("removed_when_whole") and parsed["kind"] in ("count", "piece", "size"):
+        if assign.get("removed_when_whole") and (parsed["kind"] in ("count", "piece", "size") or (
+                parsed["kind"] == "package" and not re.match(r"(can|jar|tin|pkg|package|bag|bottle|box|carton|container|packet|envelope|tub|tube|pouch)", parsed["what"]))):
             # whole spices that are fished out ("2 bay leaves", "1 cinnamon stick", "2 stalks
             # lemongrass"); measured by volume or weight ("2 tbsp minced lemongrass") they count
             entry.update(grams=0.0, how="whole spice, removed before eating (counted as zero)",
@@ -769,7 +795,10 @@ def recipe_nutrition(recipe: dict, db: dict, skip_ids=(), fallback: dict | None 
                      status="counted" if grams else ("zero" if grams == 0 else "not converted"))
         lines.append(entry)
     for l in lines:
-        if fallback and l["status"] == "not converted" and l["index"] in fallback and l.get("ref"):
+        if grams_given and l["index"] in grams_given and l.get("ref"):
+            l["grams"], l["how"] = grams_given[l["index"]]
+            l["status"], l["from_twin"] = "counted", True
+        elif fallback and l["status"] == "not converted" and l["index"] in fallback and l.get("ref"):
             l["grams"], l["how"] = fallback[l["index"]]
             l["status"], l["from_twin"] = "counted", True
     by_index = {l["index"]: l for l in lines}
@@ -888,6 +917,9 @@ def cmd_build_batches(db: dict, library_dir: Path) -> None:
 # (missing = unknown, not zero); the US result goes to both twins and >3% US/Metric gaps are reported.
 WRITE_SOURCES = ("seriouseats", "albertsons_native", "albertsons_native_gap_fill")
 FIELD_COVERAGE = 0.95
+LINE_TOL = 0.15      # a pair of lines within 15% of each other is rounding on the source page (4 lb / 1.8 kg), not a gap
+MIN_GAP_KCAL = 5     # nor is a few kcal a serving
+DENSITY_TOL = 0.30    # a cup of flour is 125 to 150 g depending on who weighs it
 TWIN_GAP = 0.03
 # A food with no value for a field still covers it when the field's parent is zero in that food: oil
 # and sugar have no protein, so their amino acids are known to be zero, not unknown.
@@ -974,11 +1006,18 @@ def cmd_write(db: dict, library_dir: Path, apply: bool, missing_only: bool = Fal
                  and recs[s][1].get("serving_count") == r.get("serving_count")
                  and [g.get("ingredient_id") for g in recs[s][1]["ingredients"]] == ids]
         res = recipe_nutrition(r, db)
+        fb, net = None, set()
         if twins and any(l["status"] == "not converted" for l in res["lines"]):
             fb = twin_fallback(res, recipe_nutrition(twins[0][1], db))
             if fb:
                 res = recipe_nutrition(r, db, fallback=fb)
                 stats[(r["source"], "lines borrowed from the Metric twin")] += len(fb)
+        if twins and r["source"].startswith("albertsons"):      # cans and chickens: Albertsons' own grams, not a guessed drain / yield
+            net = twin_drained(res, recipe_nutrition(twins[0][1], db))
+            if net:
+                given = albertsons_grams(res, recipe_nutrition(twins[0][1], db, drained_given=net), net)
+                res = recipe_nutrition(r, db, fallback=fb, grams_given=given)
+                stats[(r["source"], "lines taken from Albertsons' own grams")] += len(given)
         bad = [l for l in res["lines"] if l["status"] not in ("counted", "zero")]
         if len(bad) > 1:
             stats[(r["source"], "skipped: 2+ lines not converted")] += 1
@@ -993,9 +1032,11 @@ def cmd_write(db: dict, library_dir: Path, apply: bool, missing_only: bool = Fal
         stats[(r["source"], "written, partial" if bad else "written, complete")] += 1
         for tpath, t in twins:
             base = recipe_nutrition(t, db)
-            dg = twin_drained(res, base)               # the cross-check reads the Metric cans as the drained weights they are
-            tm = (recipe_nutrition(t, db, drained_given=dg) if dg else base)["per_serving"].get("energy", 0)
-            if nutrition.get("energy") and abs(tm - nutrition["energy"]) > TWIN_GAP * nutrition["energy"]:
+            dg = net or twin_drained(res, base)        # the cross-check reads the Metric cans as the drained weights they are
+            tres = recipe_nutrition(t, db, drained_given=dg) if dg else base
+            tm = tres["per_serving"].get("energy", 0)
+            if (nutrition.get("energy") and abs(tm - nutrition["energy"]) > max(TWIN_GAP * nutrition["energy"], MIN_GAP_KCAL)
+                    and lines_disagree(res, tres)):
                 gaps.append((rid, r["name"][:50], nutrition["energy"], round(tm, 1)))
         old = (r.get("nutrition") or {}).get("energy")
         if old:
