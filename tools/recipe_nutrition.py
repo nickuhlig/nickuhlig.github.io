@@ -642,19 +642,25 @@ def weighed_lines(recipe: dict):
                           "name": p.get("name") or ing.get("name"), "prep": None}
 
 
+def line_key(l: dict) -> tuple:
+    """A recipe line's identity across its US and Metric records: its position AND its name, because a line that is
+    split into parts ("lemon" = juice + zest) has several entries at one position."""
+    return (l["index"], l.get("name"))
+
+
 def twin_fallback(us_res: dict, metric_res: dict) -> dict:
-    """{line index: (grams, how)} for lines the US record could not convert but its Metric twin could ("1 bottle"
+    """{line key: (grams, how)} for lines the US record could not convert but its Metric twin could ("1 bottle"
     of rum next to the Metric "1 (750 ml) bottle"). The library's bracket is always one item's size ("4 (5 g)
     medium cloves" is four cloves of 5 g), so any Metric weight, volume or package amount can be borrowed."""
     out = {}
-    metric = {l["index"]: l for l in metric_res["lines"]}
+    metric = {line_key(l): l for l in metric_res["lines"]}
     for l in us_res["lines"]:
-        m = metric.get(l["index"])
+        m = metric.get(line_key(l))
         if l["status"] != "not converted" or not m or m["status"] != "counted" or not m.get("grams"):
             continue
         p = parse_quantity(m.get("quantity"))
         if p["kind"] in ("weight", "volume") or (p["kind"] == "package" and ("ml_each" in p or "grams_each" in p)):
-            out[l["index"]] = (m["grams"], f"from the Metric twin's line '{m.get('quantity')}': {m.get('how')}")
+            out[line_key(l)] = (m["grams"], f"from the Metric twin's line '{m.get('quantity')}': {m.get('how')}")
     return out
 
 
@@ -662,17 +668,26 @@ def albertsons_grams(us_res: dict, metric_res: dict, drained: set) -> dict:
     """Albertsons' Metric twin is our relabeling of the grams Albertsons itself computed for each line (amount.inG), so
     for a can or a rotisserie chicken whose Metric figure is the net part (see twin_drained) those grams ARE the amount
     in the recipe: use them instead of estimating a drain or a yield from the US label."""
-    metric = {l["index"]: l for l in metric_res["lines"]}
+    metric = {line_key(l): l for l in metric_res["lines"]}
     return {i: (metric[i]["grams"], f"Albertsons' own grams for this line (Metric twin '{metric[i].get('quantity')}')")
             for i in drained if i in metric and metric[i].get("grams")}
+
+
+def twin_plain_packages(us_res: dict, metric_res: dict) -> set:
+    """Keys of package lines both records weigh from the figure given ("32 oz tub" against "562 g tub"): for Albertsons the
+    Metric figure is Albertsons' own gram count for that line, so it replaces the US label's ounces."""
+    metric = {line_key(l): l for l in metric_res["lines"]}
+    return {line_key(l) for l in us_res["lines"]
+            if l.get("how") == "package weight" and (metric.get(line_key(l)) or {}).get("how") == "package weight"
+            and l.get("grams") and metric[line_key(l)].get("grams")}
 
 
 def lines_disagree(us_res: dict, metric_res: dict) -> bool:
     """Do any two matching lines differ by more than LINE_TOL in grams (or count on one side only)? A recipe whose lines
     all agree within the rounding of the source page ("2 lb" next to "1 kg") is not a US/Metric gap."""
-    metric = {l["index"]: l for l in metric_res["lines"]}
+    metric = {line_key(l): l for l in metric_res["lines"]}
     for l in us_res["lines"]:
-        m = metric.get(l["index"])
+        m = metric.get(line_key(l))
         a, b = (l.get("grams") or 0), ((m or {}).get("grams") or 0)
         kinds = {(x.get("how") or "")[:6] for x in (l, m or {})}
         tol = DENSITY_TOL if kinds == {"volume", "weight"} else LINE_TOL      # cups against grams: a density table against an author's scale
@@ -687,14 +702,14 @@ def twin_drained(us_res: dict, metric_res: dict) -> set:
     beans to 60% of the figure given, which would drain the Metric one twice, so a Metric can that is well under the
     US can (under 85% of it, before draining) is taken as drained already. A Metric can at or above the US one
     ("442 g" for a 15 oz can) is an undrained weight and is drained as usual."""
-    metric = {l["index"]: l for l in metric_res["lines"]}
+    metric = {line_key(l): l for l in metric_res["lines"]}
     out = set()
     for l in us_res["lines"]:
-        m = metric.get(l["index"])
+        m = metric.get(line_key(l))
         net = ("can/jar, drained", "package weight x reviewed yield")        # both sides take a share of the figure given
         if (m and (l.get("how") or "").startswith(net) and (m.get("how") or "").startswith(net)
                 and l.get("grams") and m.get("grams") and m["grams"] < 0.85 * l["grams"]):
-            out.add(l["index"])
+            out.add(line_key(l))
     return out
 
 
@@ -780,7 +795,7 @@ def recipe_nutrition(recipe: dict, db: dict, skip_ids=(), fallback: dict | None 
                 lines.append(entry)
                 continue
         food = foods[ref]
-        grams, how = line_grams(parsed, food, line_name, measures, already_drained=index in (drained_given or ()))
+        grams, how = line_grams(parsed, food, line_name, measures, already_drained=(index, line_name) in (drained_given or ()))
         if entry.get("assumed"):
             how = f"{how} (amount not given; assumed {entry['assumed']})"
         if grams and parsed["kind"] in ("weight", "package") and not measures.get("package yield"):
@@ -795,11 +810,11 @@ def recipe_nutrition(recipe: dict, db: dict, skip_ids=(), fallback: dict | None 
                      status="counted" if grams else ("zero" if grams == 0 else "not converted"))
         lines.append(entry)
     for l in lines:
-        if grams_given and l["index"] in grams_given and l.get("ref"):
-            l["grams"], l["how"] = grams_given[l["index"]]
+        if grams_given and line_key(l) in grams_given and l.get("ref"):
+            l["grams"], l["how"] = grams_given[line_key(l)]
             l["status"], l["from_twin"] = "counted", True
-        elif fallback and l["status"] == "not converted" and l["index"] in fallback and l.get("ref"):
-            l["grams"], l["how"] = fallback[l["index"]]
+        elif fallback and l["status"] == "not converted" and line_key(l) in fallback and l.get("ref"):
+            l["grams"], l["how"] = fallback[line_key(l)]
             l["status"], l["from_twin"] = "counted", True
     by_index = {l["index"]: l for l in lines}
     for idx, factor in override.get("scale", {}).items():      # e.g. one of five alternative glazes
@@ -1013,9 +1028,11 @@ def cmd_write(db: dict, library_dir: Path, apply: bool, missing_only: bool = Fal
                 res = recipe_nutrition(r, db, fallback=fb)
                 stats[(r["source"], "lines borrowed from the Metric twin")] += len(fb)
         if twins and r["source"].startswith("albertsons"):      # cans and chickens: Albertsons' own grams, not a guessed drain / yield
-            net = twin_drained(res, recipe_nutrition(twins[0][1], db))
-            if net:
-                given = albertsons_grams(res, recipe_nutrition(twins[0][1], db, drained_given=net), net)
+            base_m = recipe_nutrition(twins[0][1], db)
+            net = twin_drained(res, base_m)
+            take = net | twin_plain_packages(res, base_m)
+            if take:
+                given = albertsons_grams(res, recipe_nutrition(twins[0][1], db, drained_given=net) if net else base_m, take)
                 res = recipe_nutrition(r, db, fallback=fb, grams_given=given)
                 stats[(r["source"], "lines taken from Albertsons' own grams")] += len(given)
         bad = [l for l in res["lines"] if l["status"] not in ("counted", "zero")]
