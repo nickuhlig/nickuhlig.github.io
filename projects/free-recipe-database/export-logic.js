@@ -798,11 +798,16 @@ function pickWinner(entries, menu) {
 // the without-kale one get rescued even when a servings=4 request already had a perfectly good
 // answer (the kale one). Applies to every export format now, not just Norish -- silently dropping
 // a single-serving-count recipe is just as wrong for html/json/orf/paprika as for Norish.
-function selectMenuWinners(manifest, menu, avoidIds, servings) {
+//
+// `sources` (a Set of the manifest's `src` codes: ml/ab/se/nyt, or null for all) is applied before everything else,
+// exactly as the local tool's --source: a recipe from a source that wasn't picked is not a candidate at all, so it can
+// neither win a slot nor stop another source's recipe from winning it.
+function selectMenuWinners(manifest, menu, avoidIds, servings, sources) {
   const menuTypeId = MENU_NAME_TO_TYPE_ID[menu];
   const allFamilies = new Set();
   const grouped = new Map();  // "recipeId|units" -> [entry, ...] (entry carries its own numeric id)
   for (const [idStr, e] of Object.entries(manifest.entries)) {
+    if (sources && !sources.has(e.src)) continue;
     allFamilies.add(e.recipe_id);
     const violated = e.violated_restriction_ids;
     if (avoidIds.size && (violated == null || violated.some(r => avoidIds.has(r)))) continue;
@@ -888,6 +893,8 @@ document.getElementById("export-btn").addEventListener("click", async () => {
   const selectedMenu = document.querySelector('input[name="menu"]:checked').value;
   const avoidIds = new Set([...document.querySelectorAll('input[name="restriction"]:checked')].map(el => Number(el.value)));
   const selectedFormats = [...document.querySelectorAll('input[name="formats"]:checked')].map(el => el.value);
+  const selectedSources = new Set([...document.querySelectorAll('input[name="sources"]:checked')].map(el => el.value));
+  if (!selectedSources.size) { log("Select at least one source."); return; }
   if (!selectedUnits.length || !selectedServings.length) { log("Select at least one unit system and serving size."); return; }
   if (!selectedFormats.length) { log("Select at least one export format."); return; }
 
@@ -914,9 +921,14 @@ document.getElementById("export-btn").addEventListener("click", async () => {
           "labeled recipe when several tie on type (falls back to position/id alone). Regenerate "+
           "the manifest to include it.");
     }
+    // A manifest from before the source field existed can't be filtered by source: say so, and use everything.
+    const sourcesKnown = !sampleEntry || sampleEntry.src !== undefined;
+    if (!sourcesKnown) {
+      log("Note: manifest.json has no source data, so the source selection is ignored. Regenerate the manifest to include it.");
+    }
     const requestedServings = selectedServings.length === 1 ? selectedServings[0] : null;
     const { winners: menuWinners, totalFamilies, familiesWithWinner } =
-        selectMenuWinners(manifest, selectedMenu, avoidIds, requestedServings);
+        selectMenuWinners(manifest, selectedMenu, avoidIds, requestedServings, sourcesKnown ? selectedSources : null);
     log(`${familiesWithWinner} of ${totalFamilies} families have a recipe satisfying menu=${selectedMenu} `+
         `avoid=[${[...avoidIds].join(",") || "none"}]; ${totalFamilies - familiesWithWinner} excluded entirely.`);
 

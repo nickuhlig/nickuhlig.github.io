@@ -1821,7 +1821,8 @@
     "blanched and cooled haricots verts",
     "Romano beans",
     "runner bean pods",
-    "slender green beans"
+    "slender green beans",
+    "frozen green beans, pieces"
    ],
    "exact_only": [],
    "violates": [],
@@ -7800,7 +7801,8 @@
     "ny style pizza dough",
     "pre-made pizza dough",
     "square pan pizza dough",
-    "ball New York-style pizza dough"
+    "ball New York-style pizza dough",
+    "refrigerated pizza crust"
    ],
    "exact_only": [],
    "violates": [
@@ -12623,7 +12625,8 @@
     "jarred pepperoncini salad peppers",
     "peperoncini",
     "jarred peperoncini",
-    "pickled pepperoncini"
+    "pickled pepperoncini",
+    "pepperoncini, sliced"
    ],
    "exact_only": [],
    "violates": [
@@ -15243,7 +15246,9 @@
    "names": {
     "condensed cream of celery soup": 4
    },
-   "aliases": [],
+   "aliases": [
+    "Campbell’s® condensed cream of celery soup"
+   ],
    "exact_only": [],
    "violates": [
     1,
@@ -17423,7 +17428,9 @@
    "names": {
     "shredded cheese, pizza blend": 2
    },
-   "aliases": [],
+   "aliases": [
+    "shredded cheese, mozzarella & provolone blend"
+   ],
    "exact_only": [],
    "violates": [
     2
@@ -23437,7 +23444,8 @@
     "chicken bouillon cube",
     "granulated chicken bouillon",
     "chicken bouillon powder",
-    "chicken-flavored bouillon powder"
+    "chicken-flavored bouillon powder",
+    "bouillon cube, chicken"
    ],
    "exact_only": [],
    "violates": [],
@@ -51329,7 +51337,8 @@
     "beef bouillon": 1
    },
    "aliases": [
-    "beef bouillon cubes"
+    "beef bouillon cubes",
+    "bouillon cube, beef"
    ],
    "exact_only": [],
    "violates": [],
@@ -60597,11 +60606,18 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [
+    1,
+    11
+   ],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-15"
+   "note": "decided by the user 2026-11-15 (weekly Albertsons review)",
+   "added": "2026-11-15",
+   "diet_flags": [
+    "egg",
+    "not_paleo"
+   ]
   },
   "3931": {
    "name": "deli potato salad",
@@ -60610,11 +60626,19 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [
+    10,
+    11,
+    13
+   ],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-15"
+   "note": "decided by the user 2026-11-15 (weekly Albertsons review)",
+   "added": "2026-11-15",
+   "diet_flags": [
+    "egg",
+    "not_paleo"
+   ]
   },
   "3932": {
    "name": "shredded cheese, mozzarella & provolone blend",
@@ -60623,11 +60647,16 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [
+    2
+   ],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-15"
+   "note": "decided by the user 2026-11-15 (weekly Albertsons review) - merged into 1512 (shredded cheese, pizza blend); lines re-pointed there",
+   "added": "2026-11-15",
+   "diet_flags": [
+    "dairy"
+   ]
   },
   "3933": {
    "name": "pepperoncini, sliced",
@@ -60636,11 +60665,15 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [
+    10,
+    14
+   ],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-15"
+   "note": "decided by the user 2026-11-15 (weekly Albertsons review) - merged into 1253 (pepperoncini peppers, sliced); lines re-pointed there",
+   "added": "2026-11-15",
+   "diet_flags": []
   },
   "3934": {
    "name": "bouillon cube, chicken",
@@ -60649,11 +60682,14 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-15"
+   "note": "decided by the user 2026-11-15 (weekly Albertsons review) - merged into 1826 (chicken bouillon); lines re-pointed there",
+   "added": "2026-11-15",
+   "diet_flags": [
+    "meat"
+   ]
   },
   "3935": {
    "name": "bouillon cube, beef",
@@ -60662,11 +60698,14 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-15"
+   "note": "decided by the user 2026-11-15 (weekly Albertsons review) - merged into 3389 (beef bouillon); lines re-pointed there",
+   "added": "2026-11-15",
+   "diet_flags": [
+    "meat"
+   ]
   },
   "3936": {
    "name": "frozen green beans, pieces",
@@ -60675,11 +60714,12 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-15"
+   "note": "decided by the user 2026-11-15 (weekly Albertsons review) - merged into 111 (green beans); lines re-pointed there",
+   "added": "2026-11-15",
+   "diet_flags": []
   },
   "3937": {
    "name": "mini sweet bell peppers",
@@ -60688,11 +60728,14 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [
+    10
+   ],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-15"
+   "note": "decided by the user 2026-11-15 (weekly Albertsons review)",
+   "added": "2026-11-15",
+   "diet_flags": []
   },
   "3938": {
    "name": "frozen strawberries & bananas",
@@ -60701,11 +60744,12 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-15"
+   "note": "decided by the user 2026-11-15 (weekly Albertsons review) - split into strawberries (242) and bananas (317) in its one recipe; no longer used",
+   "added": "2026-11-15",
+   "diet_flags": []
   },
   "3939": {
    "name": "potato chips, wavy cut",
@@ -60714,11 +60758,16 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [
+    10
+   ],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-15"
+   "note": "decided by the user 2026-11-15 (weekly Albertsons review)",
+   "added": "2026-11-15",
+   "diet_flags": [
+    "not_paleo"
+   ]
   },
   "3940": {
    "name": "Campbell’s® condensed cream of celery soup",
@@ -60727,11 +60776,18 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [
+    1,
+    2
+   ],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-15"
+   "note": "decided by the user 2026-11-15 (weekly Albertsons review) - merged into 1392 (condensed cream of celery soup); lines re-pointed there",
+   "added": "2026-11-15",
+   "diet_flags": [
+    "dairy",
+    "not_paleo"
+   ]
   },
   "3941": {
    "name": "refrigerated pizza crust",
@@ -60740,11 +60796,16 @@
    },
    "aliases": [],
    "exact_only": [],
-   "violates": null,
-   "source": "auto",
+   "violates": [
+    1
+   ],
+   "source": "curated",
    "recipes_seen": 0,
-   "note": null,
-   "added": "2026-11-15"
+   "note": "decided by the user 2026-11-15 (weekly Albertsons review) - merged into 1010 (pizza dough); lines re-pointed there",
+   "added": "2026-11-15",
+   "diet_flags": [
+    "not_paleo"
+   ]
   }
  }
 }

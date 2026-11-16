@@ -302,6 +302,18 @@ def pluralize_measuring_unit(unit: str, amount: float) -> str:
     return unit
 
 
+SPONSORED_ID_SLUG_RE = re.compile(r"^RECIPE[0-9A-Z]{20,}$")
+
+
+def usable_slug(data: dict) -> str:
+    """Albertsons' own slug, except for its sponsored recipes (the Campbell's ones), whose "slug" is just their internal id
+    ("RECIPE01HSVXFZDV7DQD2C7QTX2N0J6H") -- those get a slug made from the recipe's name, like every other recipe's file name."""
+    slug = data["slug"]
+    if SPONSORED_ID_SLUG_RE.match(slug):
+        return re.sub(r"[^a-z0-9]+", "-", re.sub(r"[’'`]", "", data["name"].lower())).strip("-")
+    return slug
+
+
 def convert_ingredient_quantity(item: dict, scale_factor: float, target_units: str,
                                  base_num_override: float | None = None) -> str:
     """Scales one bundle.items entry to a target serving ratio and, for Metric, converts
@@ -702,7 +714,7 @@ def build_variants(data: dict, record: dict, parent_id: int) -> list[dict]:
             "id": variant_id,
             "recipe_id": parent_id,
             "name": data["name"],
-            "slug": data["slug"],
+            "slug": usable_slug(data),
             "source_url": None,
             "canonical_variant_url": None,
             "serving_count": servings,
@@ -844,7 +856,7 @@ def build_single_native_gap_variant(data: dict, record: dict, parent_id: int, fd
     true sibling over the discovery sweep's own per-legacy_id guess -- see existing_true_sibling()'s
     docstring for why that guess is confirmed unreliable here."""
     legacy_id = data["legacyId"]
-    clean_slug = strip_disambiguating_suffix(data["slug"])
+    clean_slug = strip_disambiguating_suffix(usable_slug(data))
     servings = (data.get("yield") or {}).get("servings")
     cooking_minutes = data.get("cookingMinutes")
     allowed_type_ids = diets_to_allowed_type_ids(data.get("diets") or [])

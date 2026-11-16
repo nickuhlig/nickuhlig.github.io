@@ -199,3 +199,21 @@ def decode_types(type_ids):
 
 def decode_restrictions(restriction_ids):
     return [RESTRICTIONS.get(i, f"unknown({i})") for i in restriction_ids]
+
+
+# --- Recipe sources ----------------------------------------------------------------------------------------------
+# The export lets people choose where recipes come from, under deliberately terse labels (ML, AB, SE, NYT). A recipe file's
+# own "source" field maps to one of these codes, and the manifest carries the code on every entry. Albertsons' "gap-fill"
+# recipes are Mealime's own variants that Albertsons' public catalog omits, so they count as ML. Any source not listed
+# here gets "other", which no checkbox selects (and mealime_generate_manifest.py warns about it).
+SOURCE_CODES = ("ml", "ab", "se", "nyt")
+RECORD_SOURCE_TO_CODE = {
+    None: "ml", "authenticated_backfill": "ml", "albertsons_native_gap_fill": "ml",
+    "albertsons_native": "ab",
+    "seriouseats": "se",
+    "nytcooking": "nyt",
+}
+
+
+def source_code(record_source) -> str:
+    return RECORD_SOURCE_TO_CODE.get(record_source, "other")

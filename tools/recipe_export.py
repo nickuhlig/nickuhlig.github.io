@@ -163,7 +163,7 @@ from pathlib import Path
 
 import yaml
 
-from mealime_id_reference import MENU_TYPES, RESTRICTIONS, VARIETY_TAGS, decode_restrictions, decode_types
+from mealime_id_reference import MENU_TYPES, RESTRICTIONS, SOURCE_CODES, VARIETY_TAGS, decode_restrictions, decode_types, source_code
 from mealime_library_subset import normalize_units
 
 from library_paths import DEFAULT_LIBRARY_DIR as DEFAULT_RECIPES_DIR
@@ -306,7 +306,8 @@ def _pick_winner(records: list[dict], menu: str) -> dict:
 
 
 def select_menu_winners(recipes_dir: Path, menu: str, avoid: set[int],
-                         servings: int | None = None) -> dict[tuple[int, str | None, int | None], int]:
+                         servings: int | None = None,
+                         sources: set[str] | None = None) -> dict[tuple[int, str | None, int | None], int]:
     """Pre-pass (whole-library scan) deciding, for every (recipe_id, units, serving_count) slot,
     which single file wins under the given --menu/--avoid -- so a family with several diet-swap
     siblings of the same underlying recipe (Classic, Vegan, a gluten-free version, ...) never
@@ -343,10 +344,15 @@ def select_menu_winners(recipes_dir: Path, menu: str, avoid: set[int],
     Returns {(recipe_id, units, serving_count): winning_id} -- the third element is the winner's
     OWN actual serving_count, which only differs from a requested `servings` in the fallback case.
     A (recipe_id, units) group with no candidate surviving steps 1-2 at all contributes nothing --
-    that family/units combo exports nothing under this menu/avoid."""
+    that family/units combo exports nothing under this menu/avoid.
+
+    sources (a set of ml/ab/se/nyt codes, None = all) is applied FIRST, before everything else: a recipe from a source
+    that wasn't picked is not a candidate at all, so it can neither win a slot nor stop another source's recipe from
+    winning it."""
     print(f"Scanning library to select one recipe per (family, units) group for "
           f"menu={menu!r} avoid={sorted(avoid) or None}"
-          + (f" servings={servings}" if servings is not None else "") + "...")
+          + (f" servings={servings}" if servings is not None else "")
+          + (f" sources={sorted(sources)}" if sources is not None else "") + "...")
     menu_type_id = MENU_NAME_TO_TYPE_ID[menu]
     all_families: set[int] = set()
     grouped: dict[tuple[int, str | None], list[dict]] = defaultdict(list)
@@ -360,6 +366,8 @@ def select_menu_winners(recipes_dir: Path, menu: str, avoid: set[int],
         except (json.JSONDecodeError, OSError):
             continue
         if not isinstance(record, dict) or "recipe_id" not in record or "name" not in record:
+            continue
+        if sources is not None and source_code(record.get("source")) not in sources:
             continue
         all_families.add(record["recipe_id"])
         violated = record.get("violated_restriction_ids")
@@ -1174,7 +1182,8 @@ def run(recipes_dir: Path, out_dir: Path, formats: set[str],
         units: str | None = None, servings: int | None = None,
         menu: str = "classic", avoid: set[int] | None = None, dry_run: bool = False,
         norish_exporter_name: str | None = None,
-        norish_exporter_origin: str = NORISH_DEFAULT_EXPORTER_ORIGIN) -> None:
+        norish_exporter_origin: str = NORISH_DEFAULT_EXPORTER_ORIGIN,
+        sources: set[str] | None = None) -> None:
     avoid = avoid or set()
     if not dry_run:
         out_dir.mkdir(parents=True, exist_ok=True)
@@ -1203,7 +1212,7 @@ def run(recipes_dir: Path, out_dir: Path, formats: set[str],
     # servings -- always computed now that --menu has no "no filter" state (see
     # select_menu_winners()'s docstring, including its --servings fallback, and the module
     # docstring's SELECTION section).
-    menu_winners = select_menu_winners(recipes_dir, menu, avoid, servings)
+    menu_winners = select_menu_winners(recipes_dir, menu, avoid, servings, sources)
 
     print("Converting..." if not dry_run else "Converting (dry run -- nothing will be written)...")
     try:
@@ -1409,6 +1418,9 @@ def parse_args():
     parser.add_argument("--avoid", nargs="+", choices=AVOID_CHOICES, default=None,
                         help="Also drop any candidate that violates one of these restrictions "
                              "(composes with --menu; see the module docstring)")
+    parser.add_argument("--source", nargs="+", choices=SOURCE_CODES, default=None,
+                        help="Only export recipes from these sources: ml (Mealime, gap-fill included), ab, se, nyt "
+                             "(default: all). Applied before --menu/--avoid, so an unpicked source never wins a family")
     parser.add_argument("--dry-run", action="store_true",
                         help="Report what would be exported (including --menu/--avoid's effect) "
                              "without writing any files")
@@ -1425,7 +1437,8 @@ def main():
     avoid_ids = {AVOID_NAME_TO_RESTRICTION_ID[name] for name in (args.avoid or [])}
     run(args.recipes_dir, args.out_dir, set(args.formats), units=args.units, servings=args.servings,
         menu=args.menu, avoid=avoid_ids, dry_run=args.dry_run,
-        norish_exporter_name=args.norish_exporter_name, norish_exporter_origin=args.norish_exporter_origin)
+        norish_exporter_name=args.norish_exporter_name, norish_exporter_origin=args.norish_exporter_origin,
+        sources=set(args.source) if args.source else None)
 
 
 if __name__ == "__main__":

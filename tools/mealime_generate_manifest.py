@@ -25,6 +25,7 @@ import sys
 from pathlib import Path
 
 from library_paths import DEFAULT_LIBRARY_DIR as DEFAULT_RECIPES_DIR
+from mealime_id_reference import source_code
 NON_RECIPE_FILENAMES = {"alt_variants.json", "authenticated_index.json", "ingredient_index.json",
                         "ingredient_master.json", "manifest.json"}
 
@@ -39,6 +40,7 @@ def find_recipe_files(recipes_dir: Path):
 def build_manifest(recipes_dir: Path) -> dict:
     entries = {}
     families_with_thumbnail = set()
+    unknown_sources = set()
 
     # Sorted everywhere below: the output must be byte-identical wherever and whenever it is built
     # (filesystem order differs between Windows and Linux, and a set has no order), or every
@@ -56,6 +58,8 @@ def build_manifest(recipes_dir: Path) -> dict:
             # sources (Mealime, Albertsons, imported sites) must never overlap.
             print(f"WARNING: duplicate recipe id {record['id']}: {path} replaces "
                   f"{entries[str(record['id'])]['path']}", file=sys.stderr)
+        if source_code(record.get("source")) == "other":
+            unknown_sources.add(record.get("source"))
         entries[str(record["id"])] = {
             "recipe_id": record["recipe_id"],
             # Lets the site tell which variants belong to one dish ((recipe_id, group_label, name) --
@@ -66,6 +70,9 @@ def build_manifest(recipes_dir: Path) -> dict:
             # true base recipe) -- the ranking signal export-logic.js's dish-collapsing logic uses.
             "position": record.get("position"),
             "slug": record["slug"],
+            # Where the recipe comes from: ml (Mealime, gap-fill included), ab, se or nyt -- what the site's
+            # source checkboxes filter on (see mealime_id_reference.RECORD_SOURCE_TO_CODE).
+            "src": source_code(record.get("source")),
             "name": record["name"],
             "units": record.get("units"),
             "serving_count": record.get("serving_count"),
@@ -77,6 +84,11 @@ def build_manifest(recipes_dir: Path) -> dict:
             # "-1"/"-2"... suffix its filename lacks, and a rebuilt path then 404s on the site.
             "path": path.relative_to(recipes_dir).as_posix(),
         }
+
+    unknown = sorted({str(record_source) for record_source in unknown_sources})
+    if unknown:
+        print(f"WARNING: recipes from sources with no code ({', '.join(unknown)}) are marked \"other\" and no source checkbox selects them; "
+              f"add them to mealime_id_reference.RECORD_SOURCE_TO_CODE", file=sys.stderr)
 
     for family_dir in recipes_dir.glob("families/*"):
         if not family_dir.is_dir():
