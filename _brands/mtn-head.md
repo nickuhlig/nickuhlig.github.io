@@ -1,5 +1,5 @@
 ---
-title: "MTN.HEAD (formerly Muttonhead)"
+title: "MTN.HEAD"
 website: https://www.mtnhead.com/
 locations: ["Toronto, ON"]
 items: ["general-apparel", "shirts", "hats", "outerwear"]

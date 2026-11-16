@@ -1,5 +1,5 @@
 ---
-title: "Piña Ukee (formerly Piña Styles)"
+title: "Piña Ukee"
 website: https://pinaukee.com/
 locations: ["Ucluelet, BC"]
 items: ["general-apparel"]

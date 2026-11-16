@@ -1,5 +1,5 @@
 ---
-title: "Yoga Jeans (formerly Second Jeans)"
+title: "Yoga Jeans"
 website: https://yogajeans.ca/
 locations: ["Saint-Côme-Linière, QC"]
 items: ["pants-denim", "general-apparel"]
