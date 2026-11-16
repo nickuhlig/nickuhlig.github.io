@@ -17,6 +17,8 @@ layout: null
       "status": {{ b.status | jsonify }},
       "acquired_by": {{ b.acquired_by | jsonify }},
       "acquired_by_website": {{ b.acquired_by_website | jsonify }},
+      "part_of": {{ b.part_of | jsonify }},
+      "part_of_website": {{ b.part_of_website | jsonify }},
       "ownership": {{ b.ownership | jsonify }},
       "last_checked": {{ b.last_checked | date: "%Y-%m-%d" | jsonify }},
       "description": {{ b.content | markdownify | strip | jsonify }}

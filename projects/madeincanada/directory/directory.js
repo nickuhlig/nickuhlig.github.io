@@ -17,7 +17,7 @@
   ];
   var NOT_SET = '(not specified)';
 
-  var vocab, brands, labels = {}, selected = {};
+  var vocab, brands, labels = {}, selected = {}, rendered = {};
   var $ = function (id) { return document.getElementById(id); };
 
   function arr(v) {
@@ -177,18 +177,35 @@
     if (mic) out.push('<span class="badge">Made in Canada: ' + esc(label('made_in_canada', mic).toLowerCase()) + '</span>');
     var st = b.status[0];
     if (st === 'acquired' && b.acquired_by) {
-      // link to the buyer's entry here if it has one, else to its website
-      var buyer = brands.filter(function (x) { return x.title.toLowerCase() === String(b.acquired_by).toLowerCase(); })[0];
-      var href = buyer ? '#brand-' + buyer.id : b.acquired_by_website;
-      var who = href ? '<a href="' + esc(href) + '">' + esc(b.acquired_by) + '</a>' : esc(b.acquired_by);
-      out.push('<span class="badge acquired">Acquired by ' + who + '</span>');
+      out.push('<span class="badge acquired">Acquired by ' + brandLink(b.acquired_by, b.acquired_by_website) + '</span>');
     } else if (st && st !== 'confirmed') {
       out.push('<span class="badge ' + esc(st === 'unknown' ? 'unknown-status' : st) + '">' + esc(label('status', st)) + '</span>');
     }
+    if (b.part_of) out.push('<span class="badge">Part of ' + brandLink(b.part_of, b.part_of_website) + '</span>');
     var own = b.ownership[0];
     if (own && own !== 'unknown') out.push('<span class="badge">' + esc(label('ownership', own)) + '-owned</span>');
     if (b.business.indexOf('manufacturer') !== -1) out.push('<span class="badge">' + esc(label('business', 'manufacturer')) + '</span>');
     return out.join('');
+  }
+
+  // a company named on another card (buyer, parent): link to its card here if it has one, else to its website
+  function brandLink(name, website) {
+    var target = brands.filter(function (x) { return x.title.toLowerCase() === String(name).toLowerCase(); })[0];
+    if (target) return '<a href="#brand-' + esc(target.id) + '" data-goto="' + esc(target.id) + '">' + esc(name) + '</a>';
+    return website ? '<a href="' + esc(website) + '">' + esc(name) + '</a>' : esc(name);
+  }
+
+  // jump to a brand's card, clearing the filters first if they're hiding it
+  function goTo(id) {
+    if (!document.getElementById('brand-' + id)) {
+      var target = brands.filter(function (x) { return x.id === id; })[0];
+      $('search').value = '';
+      defaults();
+      if (target && target.status[0] && selected.status.indexOf(target.status[0]) === -1) selected.status.push(target.status[0]);
+      update();
+    }
+    var el = document.getElementById('brand-' + id);
+    if (el) el.scrollIntoView({ behavior: 'instant', block: 'start' });
   }
 
   function where(b) {
@@ -201,7 +218,10 @@
       .concat(b.items.map(function (v) { return label('items', v); }))
       .concat(b.audience.map(function (v) { return label('audience', v); }))
       .concat(b.style.map(function (v) { return label('style', v); }));
-    return '<article class="brand" id="brand-' + esc(b.id) + '">' +
+    // a brand under several headings only gets its id (the jump target) the first time
+    var idAttr = rendered[b.id] ? '' : ' id="brand-' + esc(b.id) + '"';
+    rendered[b.id] = true;
+    return '<article class="brand"' + idAttr + '>' +
       '<h3>' + name + '</h3>' +
       '<p class="where">' + esc(where(b)) + '</p>' +
       '<div>' + badges(b) + '</div>' +
@@ -244,6 +264,7 @@
       $('results').innerHTML = '<p class="hint">Nothing matches. Try unticking something.</p>';
       return;
     }
+    rendered = {};
     $('results').innerHTML = gs.map(function (g) {
       return (g.name ? '<h2>' + esc(g.name) + ' <span class="count">' + g.brands.length + '</span></h2>' : '') +
         g.brands.map(card).join('');
@@ -275,7 +296,7 @@
 
   function exportCsv() {
     var cols = ['title', 'website', 'locations', 'items', 'audience', 'style', 'business',
-      'made_in_canada', 'status', 'acquired_by', 'ownership', 'last_checked', 'description'];
+      'made_in_canada', 'status', 'acquired_by', 'part_of', 'ownership', 'last_checked', 'description'];
     var rows = [cols.join(',')];
     filtered().forEach(function (b) {
       rows.push(cols.map(function (c) {
@@ -324,6 +345,12 @@
     var typing;
     $('search').addEventListener('input', function () { clearTimeout(typing); typing = setTimeout(update, 150); });
     $('reset').addEventListener('click', function () { $('search').value = ''; defaults(); update(); });
+    $('results').addEventListener('click', function (e) {
+      var a = e.target.closest && e.target.closest('a[data-goto]');
+      if (!a) return;
+      e.preventDefault();
+      goTo(a.getAttribute('data-goto'));
+    });
     $('export-csv').addEventListener('click', exportCsv);
     $('export-md').addEventListener('click', exportMarkdown);
     $('export-print').addEventListener('click', function () { window.print(); });

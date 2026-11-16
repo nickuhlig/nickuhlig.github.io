@@ -6,7 +6,7 @@ The module defines BRANDS = [dict(id=..., title=..., ...), ...]; description is 
 import importlib.util, os, sys
 
 FIELDS = ['website', 'locations', 'items', 'audience', 'style', 'business',
-          'made_in_canada', 'status', 'acquired_by', 'acquired_by_website', 'ownership', 'last_checked']
+          'made_in_canada', 'status', 'acquired_by', 'acquired_by_website', 'part_of', 'part_of_website', 'ownership', 'last_checked']
 LISTS = {'locations', 'items', 'audience', 'style', 'business'}
 
 
@@ -23,11 +23,11 @@ def render(b):
             # quote everything in lists: province codes like ON would otherwise parse as booleans
             out.append(f + ': [' + ', '.join(q(x) for x in v) + ']')
         elif v is None:
-            if f in ('acquired_by', 'acquired_by_website'):
+            if f in ('acquired_by', 'acquired_by_website', 'part_of', 'part_of_website'):
                 continue
             out.append(f + ':')
         else:
-            out.append(f + ': ' + (q(v) if f in ('acquired_by',) else str(v)))
+            out.append(f + ': ' + (q(v) if f in ('acquired_by', 'part_of') else str(v)))
     out += ['---', b['description'].strip(), '']
     return '\n'.join(out)
 

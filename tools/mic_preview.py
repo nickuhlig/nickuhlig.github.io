@@ -28,7 +28,7 @@ for path in sorted(glob.glob(os.path.join(repo, '_brands', '*.md'))):
         'title': fm.get('title'),
         'website': fm.get('website'),
         **{k: fm.get(k) for k in ('locations', 'items', 'audience', 'style', 'business',
-                                   'made_in_canada', 'status', 'acquired_by', 'acquired_by_website', 'ownership')},
+                                   'made_in_canada', 'status', 'acquired_by', 'acquired_by_website', 'part_of', 'part_of_website', 'ownership')},
         'last_checked': lc.isoformat() if isinstance(lc, datetime.date) else lc,
         'description': markdown.markdown(body).strip(),
     })
