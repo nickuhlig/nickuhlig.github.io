@@ -346,10 +346,11 @@
     $('search').addEventListener('input', function () { clearTimeout(typing); typing = setTimeout(update, 150); });
     $('reset').addEventListener('click', function () { $('search').value = ''; defaults(); update(); });
     $('results').addEventListener('click', function (e) {
-      var a = e.target.closest && e.target.closest('a[data-goto]');
+      // badges carry data-goto; descriptions can link to another card as [Name](#brand-<id>)
+      var a = e.target.closest && e.target.closest('a[data-goto], a[href^="#brand-"]');
       if (!a) return;
       e.preventDefault();
-      goTo(a.getAttribute('data-goto'));
+      goTo(a.getAttribute('data-goto') || a.getAttribute('href').slice('#brand-'.length));
     });
     $('export-csv').addEventListener('click', exportCsv);
     $('export-md').addEventListener('click', exportMarkdown);
