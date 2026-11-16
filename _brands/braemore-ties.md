@@ -1,14 +1,16 @@
 ---
 title: "Braemore Ties"
-website: http://www.braemoreties.com/
+website:
 locations: ["Toronto, ON"]
-items: [ties]
-audience: [men]
-style: [tailored]
-business: [brand]
+items: ["ties"]
+audience: ["men"]
+style: ["tailored"]
+business: ["brand"]
 made_in_canada: all
-status: confirmed
-ownership: unknown
-last_checked: 2019-07-01
+status: defunct
+ownership: canadian
+last_checked: 2026-11-16
 ---
-Made in Toronto, ON. Established in 1937. As far as I know, all they make are nice ties. Despite being up to date, their website is fairly atrocious. It might be more worth your while to find stockists.
+**Update (2026):** braemoreties.com no longer loads, and I couldn't find any current trace of the company.
+
+Made in Toronto, ON. Established in 1937. As far as I know, all they made were nice ties.
