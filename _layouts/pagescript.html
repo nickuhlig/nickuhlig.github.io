@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<div class="content">
+<script type="text/javascript">
+  // random header photo (used by /projects/madeincanada/)
+  (function () {
+    var images = ['farine5roses_1.jpg', 'lynncanyon_1.jpg', 'maligne_1.jpg', 'nipekamewriversaskatchewan_1.jpg', 'openicenunavut_1.jpg', 'torontoskyline_1.jpg', 'woodbinehotelwinnipeg_1.jpg'];
+    var img = images[Math.floor(Math.random() * images.length)];
+    document.write('<img src="/res/' + img + '" alt="">');
+  })();
+</script>
+  {{ content }}
+</div>
+{% include autoreload-in-debug.html %}
