@@ -72,6 +72,8 @@ status:
   - { id: probable, label: "Probable", shown: true }
   - { id: unknown, label: "Unknown", shown: true }
   - { id: watchlist, label: "Watchlist", shown: true }
+  # bought by another company; set acquired_by (and acquired_by_website if the buyer has no entry here)
+  - { id: acquired, label: "Acquired", shown: true }
   - { id: wall-of-shame, label: "Wall of shame", shown: false }
   - { id: defunct, label: "Defunct", shown: false }
 

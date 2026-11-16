@@ -12,7 +12,7 @@
     { key: 'province', legend: 'Province' },
     { key: 'city', legend: 'City', hint: 'Tick a province to choose cities in it.' },
     { key: 'made_in_canada', legend: 'How much is made in Canada' },
-    { key: 'status', legend: 'Status', hint: 'Wall of shame: brands that moved all production out of Canada. Defunct: brands that no longer exist.' },
+    { key: 'status', legend: 'Status', hint: 'Watchlist: still makes some things here, but moving production abroad. Acquired: bought by another company. Wall of shame: moved all production out of Canada. Defunct: no longer exists.' },
     { key: 'ownership', legend: 'Ownership' }
   ];
   var NOT_SET = '(not specified)';
@@ -176,7 +176,13 @@
     var mic = b.made_in_canada[0];
     if (mic) out.push('<span class="badge">Made in Canada: ' + esc(label('made_in_canada', mic).toLowerCase()) + '</span>');
     var st = b.status[0];
-    if (st && st !== 'confirmed') {
+    if (st === 'acquired' && b.acquired_by) {
+      // link to the buyer's entry here if it has one, else to its website
+      var buyer = brands.filter(function (x) { return x.title.toLowerCase() === String(b.acquired_by).toLowerCase(); })[0];
+      var href = buyer ? '#brand-' + buyer.id : b.acquired_by_website;
+      var who = href ? '<a href="' + esc(href) + '">' + esc(b.acquired_by) + '</a>' : esc(b.acquired_by);
+      out.push('<span class="badge acquired">Acquired by ' + who + '</span>');
+    } else if (st && st !== 'confirmed') {
       out.push('<span class="badge ' + esc(st === 'unknown' ? 'unknown-status' : st) + '">' + esc(label('status', st)) + '</span>');
     }
     var own = b.ownership[0];
@@ -269,7 +275,7 @@
 
   function exportCsv() {
     var cols = ['title', 'website', 'locations', 'items', 'audience', 'style', 'business',
-      'made_in_canada', 'status', 'ownership', 'last_checked', 'description'];
+      'made_in_canada', 'status', 'acquired_by', 'ownership', 'last_checked', 'description'];
     var rows = [cols.join(',')];
     filtered().forEach(function (b) {
       rows.push(cols.map(function (c) {
@@ -291,7 +297,8 @@
       g.brands.forEach(function (b) {
         var name = b.website ? '[' + b.title + '](' + b.website + ')' : b.title;
         var notes = [label('made_in_canada', b.made_in_canada[0] || 'unknown').toLowerCase() + ' made in Canada'];
-        if (b.status[0] && b.status[0] !== 'confirmed') notes.push(label('status', b.status[0]).toLowerCase());
+        if (b.status[0] === 'acquired' && b.acquired_by) notes.push('acquired by ' + b.acquired_by);
+        else if (b.status[0] && b.status[0] !== 'confirmed') notes.push(label('status', b.status[0]).toLowerCase());
         out.push('- **' + name + '** (' + where(b) + '; ' + notes.join(', ') + ')  ', '  ' + textOf(b.description));
       });
       out.push('');
