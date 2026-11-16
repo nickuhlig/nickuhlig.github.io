@@ -9,6 +9,11 @@ include: [".well-known"]
 # default list, so the usual suspects are repeated here.
 exclude: [tools, Gemfile, Gemfile.lock, node_modules, vendor]
 encoding: UTF-8
+# one file per made-in-Canada brand; no page each, they're read by
+# projects/madeincanada/brands.json (allowed values: _data/madeincanada.yml)
+collections:
+  brands:
+    output: false
 kramdown:
   input: GFM
   auto_ids: true

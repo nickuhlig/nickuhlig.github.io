@@ -1,0 +1,23 @@
+---
+layout: null
+---
+{
+  "vocab": {{ site.data.madeincanada | jsonify }},
+  "brands": [{% for b in site.brands %}
+    {
+      "id": {{ b.slug | jsonify }},
+      "title": {{ b.title | jsonify }},
+      "website": {{ b.website | jsonify }},
+      "locations": {{ b.locations | jsonify }},
+      "items": {{ b.items | jsonify }},
+      "audience": {{ b.audience | jsonify }},
+      "style": {{ b.style | jsonify }},
+      "business": {{ b.business | jsonify }},
+      "made_in_canada": {{ b.made_in_canada | jsonify }},
+      "status": {{ b.status | jsonify }},
+      "ownership": {{ b.ownership | jsonify }},
+      "last_checked": {{ b.last_checked | date: "%Y-%m-%d" | jsonify }},
+      "description": {{ b.content | markdownify | strip | jsonify }}
+    }{% unless forloop.last %},{% endunless %}{% endfor %}
+  ]
+}

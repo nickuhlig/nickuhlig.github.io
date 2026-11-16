@@ -1,0 +1,55 @@
+---
+layout: page
+title: Made in Canada directory
+description: A filterable directory of clothing and accessory brands made in Canada.
+---
+<style type="text/css">
+  #filters fieldset legend { padding: 0 0.3em; }
+  #filters label.opt { margin-bottom: 0.2em; }
+  #filters .count { color: #aaa; font-size: 14px; }
+  .toolbar { display: flex; flex-wrap: wrap; gap: 0.6em 1.2em; align-items: center; margin: 1em 0; }
+  .toolbar input[type=search] { font: inherit; font-size: 16px; padding: 0.2em 0.4em; min-width: 14em; }
+  .toolbar select, .toolbar button { font: inherit; font-size: 16px; }
+  #summary { color: #666; font-size: 14px; }
+  #results h2 { margin-top: 1.4em; }
+  #results h2 .count { color: #aaa; font-size: 18px; }
+  .brand { margin: 1.2em 0 1.6em; }
+  .brand h3 { margin: 0 0 0.1em; font-size: 20px; }
+  .brand .where { color: #666; font-size: 15px; margin: 0; }
+  .brand .tags { color: #888; font-size: 14px; margin: 0.3em 0; }
+  .brand .desc p { margin: 0.4em 0; font-size: 16px; }
+  .brand .checked { color: #aaa; font-size: 13px; margin: 0.2em 0 0; }
+  .badge { display: inline-block; font-size: 13px; line-height: 1.3; padding: 0 0.4em; margin: 0.15em 0.3em 0.15em 0; border: 1px solid #ccc; border-radius: 3px; color: #555; white-space: nowrap; }
+  .badge.watchlist { border-color: #d9a300; color: #8a6800; background: #fff8e0; }
+  .badge.wall-of-shame { border-color: #c33; color: #a00; background: #fdeaea; }
+  .badge.defunct { border-color: #999; color: #777; background: #f2f2f2; }
+  .badge.probable, .badge.unknown-status { border-style: dashed; }
+  #data-check { color: #a00; font-size: 14px; }
+  @media print {
+    header, footer, #filters, .toolbar, #intro, #data-check { display: none !important; }
+    .brand { break-inside: avoid; }
+    a[href] { background: none; text-shadow: none; }
+  }
+</style>
+
+<h1 id="intro-title">MADE IN CANADA DIRECTORY</h1>
+<div id="intro">
+<p class="hint">Clothing, accessories and toiletries made in Canada. Tick what you're looking for: within a group any ticked option matches (boots <em>or</em> jackets), and across groups every group must match (footwear <em>and</em> Québec). Leave a group empty to not filter on it. Most entries come from the 2019 edition of <a href="/projects/madeincanada/">my guide</a> and haven't been re-checked since; the date on each entry says when it was.</p>
+</div>
+
+<div id="filters"><p class="hint">Loading brands…</p></div>
+
+<div class="toolbar">
+  <input type="search" id="search" placeholder="Search names and descriptions" aria-label="Search names and descriptions">
+  <span>Export:
+    <button type="button" id="export-csv">CSV</button>
+    <button type="button" id="export-md">Markdown</button>
+    <button type="button" id="export-print">Print / PDF</button>
+  </span>
+  <button type="button" id="reset">Reset filters</button>
+</div>
+<p id="summary"></p>
+<div id="results"></div>
+<p id="data-check"></p>
+
+<script src="directory.js"></script>

@@ -1,0 +1,81 @@
+# Allowed values for the made-in-Canada brand files in _brands/.
+# The directory page builds its checklists from these lists, in this order,
+# and flags any brand value that isn't listed here.
+
+items:
+  - { id: general-apparel, label: "General apparel" }
+  - { id: shirts, label: "Shirts" }
+  - { id: knitwear, label: "Knitwear & sweaters" }
+  - { id: pants-denim, label: "Pants & denim" }
+  - { id: suits-tailoring, label: "Suits & tailoring" }
+  - { id: activewear, label: "Activewear & swimwear" }
+  - { id: outerwear, label: "Outerwear" }
+  - { id: footwear, label: "Footwear" }
+  - { id: leather-goods, label: "Leather goods" }
+  - { id: underwear, label: "Underwear & lingerie" }
+  - { id: socks, label: "Socks" }
+  - { id: baby-gear, label: "Diapers & baby gear" }
+  - { id: bags, label: "Bags" }
+  - { id: hats, label: "Hats" }
+  - { id: ties, label: "Ties & neckwear" }
+  - { id: jewellery, label: "Jewellery" }
+  - { id: watches, label: "Watches" }
+  - { id: cosmetics, label: "Cosmetics & toiletries" }
+  - { id: blanks, label: "Blank garments" }
+  - { id: fabric, label: "Fabric" }
+
+audience:
+  - { id: men, label: "Men" }
+  - { id: women, label: "Women" }
+  - { id: unisex, label: "Unisex" }
+  - { id: kids, label: "Kids" }
+  - { id: babies, label: "Babies" }
+
+style:
+  - { id: casual, label: "Casual" }
+  - { id: minimalist, label: "Minimalist" }
+  - { id: tailored, label: "Tailored & dress" }
+  - { id: streetwear, label: "Streetwear" }
+  - { id: athletic, label: "Athletic" }
+  - { id: outdoor, label: "Outdoor" }
+  - { id: workwear, label: "Workwear" }
+  - { id: western, label: "Western" }
+
+business:
+  - { id: brand, label: "Brand" }
+  - { id: manufacturer, label: "Manufacturer / mill" }
+
+province:
+  - { id: "BC", label: "British Columbia" }
+  - { id: "AB", label: "Alberta" }
+  - { id: "SK", label: "Saskatchewan" }
+  - { id: "MB", label: "Manitoba" }
+  - { id: "ON", label: "Ontario" }
+  - { id: "QC", label: "Québec" }
+  - { id: "NB", label: "New Brunswick" }
+  - { id: "NS", label: "Nova Scotia" }
+  - { id: "PE", label: "Prince Edward Island" }
+  - { id: "NL", label: "Newfoundland & Labrador" }
+  - { id: "YT", label: "Yukon" }
+  - { id: "NT", label: "Northwest Territories" }
+  - { id: "NU", label: "Nunavut" }
+
+made_in_canada:
+  - { id: all, label: "All" }
+  - { id: most, label: "Most" }
+  - { id: some, label: "Some" }
+  - { id: unknown, label: "Unknown" }
+
+# shown: whether the status is ticked when the page loads
+status:
+  - { id: confirmed, label: "Confirmed", shown: true }
+  - { id: probable, label: "Probable", shown: true }
+  - { id: unknown, label: "Unknown", shown: true }
+  - { id: watchlist, label: "Watchlist", shown: true }
+  - { id: wall-of-shame, label: "Wall of shame", shown: false }
+  - { id: defunct, label: "Defunct", shown: false }
+
+ownership:
+  - { id: canadian, label: "Canadian" }
+  - { id: foreign, label: "Foreign" }
+  - { id: unknown, label: "Unknown" }
