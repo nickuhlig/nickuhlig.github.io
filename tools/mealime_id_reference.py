@@ -208,7 +208,7 @@ def decode_restrictions(restriction_ids):
 # here gets "other", which no checkbox selects (and mealime_generate_manifest.py warns about it).
 SOURCE_CODES = ("ml", "ab", "se", "nyt")
 RECORD_SOURCE_TO_CODE = {
-    None: "ml", "authenticated_backfill": "ml", "albertsons_native_gap_fill": "ml",
+    None: "ml", "marketing_site": "ml", "authenticated_backfill": "ml", "albertsons_native_gap_fill": "ml",
     "albertsons_native": "ab",
     "seriouseats": "se",
     "nytcooking": "nyt",
