@@ -5,7 +5,7 @@ locations: ["Guernsey Cove, PE"]
 items: ["eyewear"]
 audience: ["unisex"]
 style: []
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: defunct
 ownership: canadian

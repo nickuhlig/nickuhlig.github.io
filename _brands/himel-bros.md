@@ -5,7 +5,7 @@ locations: ["Toronto, ON"]
 items: ["outerwear", "leather-goods", "bags"]
 audience: ["men"]
 style: ["casual"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: confirmed
 ownership: canadian

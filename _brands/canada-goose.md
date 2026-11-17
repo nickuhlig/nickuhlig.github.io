@@ -5,7 +5,7 @@ locations: ["Toronto, ON", "Winnipeg, MB"]
 items: ["outerwear"]
 audience: ["men", "women"]
 style: ["outdoor"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: most
 status: watchlist
 acquired_by: "Bain Capital"

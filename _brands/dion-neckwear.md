@@ -5,7 +5,7 @@ locations: ["Toronto, ON"]
 items: ["ties", "socks"]
 audience: ["men"]
 style: ["tailored"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: most
 status: probable
 ownership: canadian

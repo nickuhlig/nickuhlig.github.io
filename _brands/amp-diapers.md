@@ -5,7 +5,7 @@ locations: ["Winnipeg, MB"]
 items: ["baby-gear"]
 audience: ["babies"]
 style: []
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: probable
 ownership: canadian

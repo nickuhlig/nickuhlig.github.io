@@ -5,7 +5,7 @@ locations: ["Kelowna, BC"]
 items: ["cosmetics"]
 audience: ["women", "unisex"]
 style: []
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: confirmed
 ownership: canadian

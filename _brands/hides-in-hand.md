@@ -5,7 +5,7 @@ locations: ["Rockwood, ON"]
 items: ["footwear", "leather-goods", "hats", "bags"]
 audience: ["men", "women", "kids"]
 style: ["casual", "outdoor"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: confirmed
 ownership: canadian

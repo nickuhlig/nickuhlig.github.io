@@ -5,7 +5,7 @@ locations: ["Ottawa, ON"]
 items: ["eyewear"]
 audience: ["unisex"]
 style: ["casual", "streetwear"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: confirmed
 ownership: canadian

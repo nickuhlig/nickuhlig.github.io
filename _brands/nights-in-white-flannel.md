@@ -5,7 +5,7 @@ locations: ["Durham, ON"]
 items: ["underwear"]
 audience: ["men", "women"]
 style: ["casual"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: confirmed
 ownership: canadian

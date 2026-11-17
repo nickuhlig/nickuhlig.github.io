@@ -5,7 +5,7 @@ locations: ["Kitchener, ON"]
 items: ["activewear", "shirts", "socks"]
 audience: ["men", "women"]
 style: ["athletic", "casual"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: confirmed
 ownership: canadian

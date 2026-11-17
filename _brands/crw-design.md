@@ -5,7 +5,7 @@ locations: ["Toronto, ON"]
 items: ["general-apparel"]
 audience: []
 style: []
-business: ["manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: confirmed
 ownership: unknown

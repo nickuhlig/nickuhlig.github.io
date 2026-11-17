@@ -5,7 +5,7 @@ locations: ["Vancouver, BC"]
 items: ["outerwear", "activewear"]
 audience: ["men", "women"]
 style: ["outdoor"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: probable
 ownership: canadian

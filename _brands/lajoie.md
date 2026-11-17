@@ -5,7 +5,7 @@ locations: ["Montréal, QC"]
 items: ["leather-goods", "bags"]
 audience: ["unisex"]
 style: []
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: defunct
 ownership: canadian

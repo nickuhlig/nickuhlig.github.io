@@ -5,7 +5,7 @@ locations: ["Montréal, QC"]
 items: ["footwear", "outerwear"]
 audience: ["women"]
 style: ["casual"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: some
 status: confirmed
 ownership: canadian

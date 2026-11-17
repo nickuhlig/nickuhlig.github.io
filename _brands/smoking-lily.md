@@ -5,7 +5,7 @@ locations: ["Victoria, BC"]
 items: ["general-apparel", "bags"]
 audience: ["women", "men", "kids"]
 style: ["casual"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: confirmed
 ownership: canadian

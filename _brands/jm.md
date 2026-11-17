@@ -5,7 +5,7 @@ locations: ["Montréal, QC"]
 items: ["underwear", "activewear"]
 audience: ["men", "women"]
 style: []
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: confirmed
 ownership: canadian

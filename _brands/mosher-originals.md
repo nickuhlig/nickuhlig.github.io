@@ -5,7 +5,7 @@ locations: ["Toronto, ON"]
 items: ["bags"]
 audience: ["unisex", "kids"]
 style: ["outdoor"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: probable
 ownership: canadian

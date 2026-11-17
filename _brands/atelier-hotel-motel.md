@@ -5,7 +5,7 @@ locations: ["Montréal, QC"]
 items: ["footwear", "bags", "leather-goods"]
 audience: ["unisex"]
 style: ["minimalist", "casual"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: confirmed
 ownership: canadian

@@ -45,7 +45,9 @@ style:
 
 business:
   - { id: brand, label: "Brand" }
-  - { id: manufacturer, label: "Manufacturer / mill" }
+  # manufacturer: mills and makers that do private-label or contract work for other brands,
+  # not brands that simply make their own goods
+  - { id: manufacturer, label: "Manufacturer / mill (makes for other brands)" }
 
 province:
   - { id: "BC", label: "British Columbia" }

@@ -5,7 +5,7 @@ locations: ["Toronto, ON"]
 items: ["outerwear", "knitwear", "hats"]
 audience: ["men", "women"]
 style: ["outdoor"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: confirmed
 ownership: canadian

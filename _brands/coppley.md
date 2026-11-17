@@ -5,7 +5,7 @@ locations: ["Hamilton, ON"]
 items: ["suits-tailoring", "shirts"]
 audience: ["men"]
 style: ["tailored"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: confirmed
 ownership: canadian

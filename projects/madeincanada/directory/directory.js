@@ -248,7 +248,8 @@
       '</article>';
   }
 
-  // [{ name, brands }]: results under item headings; a brand with several items appears under each
+  // [{ name, brands }]: results under item headings. Each brand appears once, under its main item
+  // (the first one listed in its file), or under the first of its items that's ticked in the Item filter.
   function groups(list) {
     var key = 'items';
     var order = (vocab[key] || []).map(function (o) { return o.id; });
@@ -256,9 +257,9 @@
     var byId = {};
     list.forEach(function (b) {
       var vals = b[key].length ? b[key] : [NOT_SET];
-      // grouping by something that's also filtered: only the ticked headings
       if (want.length) vals = vals.filter(function (v) { return want.indexOf(v) !== -1; });
-      vals.forEach(function (v) { (byId[v] = byId[v] || []).push(b); });
+      var v = vals[0] || NOT_SET;
+      (byId[v] = byId[v] || []).push(b);
     });
     return Object.keys(byId).sort(function (a, b) {
       var ia = order.indexOf(a), ib = order.indexOf(b);

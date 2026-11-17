@@ -5,7 +5,7 @@ locations: ["Vancouver, BC"]
 items: ["ties"]
 audience: ["men"]
 style: ["tailored"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: defunct
 ownership: canadian

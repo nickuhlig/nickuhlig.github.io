@@ -5,7 +5,7 @@ locations: ["Edmonton, AB"]
 items: ["footwear", "leather-goods"]
 audience: ["men", "women"]
 style: ["casual", "workwear"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: defunct
 ownership: canadian

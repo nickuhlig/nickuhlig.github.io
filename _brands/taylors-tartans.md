@@ -5,7 +5,7 @@ locations: ["Plaster Rock, NB"]
 items: ["hats", "ties", "general-apparel"]
 audience: ["unisex"]
 style: []
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: most
 status: confirmed
 ownership: canadian

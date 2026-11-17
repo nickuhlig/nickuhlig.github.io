@@ -5,7 +5,7 @@ locations: ["Saint-Côme-Linière, QC"]
 items: ["pants-denim", "general-apparel"]
 audience: ["women"]
 style: ["casual"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: some
 status: watchlist
 ownership: canadian

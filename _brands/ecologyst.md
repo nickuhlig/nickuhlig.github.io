@@ -5,7 +5,7 @@ locations: ["Victoria, BC", "Vancouver, BC", "ON", "QC"]
 items: ["general-apparel", "shirts", "outerwear", "pants-denim"]
 audience: ["men", "women"]
 style: ["outdoor", "casual"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: most
 status: confirmed
 ownership: canadian

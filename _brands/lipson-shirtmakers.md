@@ -5,7 +5,7 @@ locations: ["Toronto, ON"]
 items: ["shirts"]
 audience: ["men"]
 style: ["tailored"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: acquired
 acquired_by: "Samuelsohn"

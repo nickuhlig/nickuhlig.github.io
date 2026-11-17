@@ -5,7 +5,7 @@ locations: ["Toronto, ON"]
 items: ["cosmetics"]
 audience: ["women"]
 style: []
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: defunct
 acquired_by: "Kendo (LVMH)"

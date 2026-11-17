@@ -5,7 +5,7 @@ locations: ["Toronto, ON"]
 items: ["outerwear"]
 audience: ["women", "men"]
 style: ["outdoor"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: unknown
 status: unknown
 ownership: canadian

@@ -5,7 +5,7 @@ locations: ["Toronto, ON"]
 items: ["underwear", "general-apparel"]
 audience: ["women", "men"]
 style: []
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: probable
 ownership: canadian

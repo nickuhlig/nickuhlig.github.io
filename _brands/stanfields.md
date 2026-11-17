@@ -5,7 +5,7 @@ locations: ["Truro, NS"]
 items: ["underwear", "socks", "general-apparel"]
 audience: ["men", "women", "kids"]
 style: []
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: most
 status: watchlist
 ownership: canadian

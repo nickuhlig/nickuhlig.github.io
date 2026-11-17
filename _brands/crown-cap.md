@@ -5,7 +5,7 @@ locations: ["Winnipeg, MB"]
 items: ["hats"]
 audience: ["unisex"]
 style: ["workwear"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: some
 status: watchlist
 ownership: canadian

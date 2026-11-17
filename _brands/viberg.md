@@ -5,7 +5,7 @@ locations: ["Victoria, BC"]
 items: ["footwear"]
 audience: ["men", "women"]
 style: ["workwear", "casual"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: confirmed
 ownership: canadian

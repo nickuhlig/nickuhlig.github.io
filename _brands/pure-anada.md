@@ -5,7 +5,7 @@ locations: ["Morden, MB"]
 items: ["cosmetics"]
 audience: ["women", "men"]
 style: []
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: most
 status: confirmed
 ownership: canadian

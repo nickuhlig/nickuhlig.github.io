@@ -5,7 +5,7 @@ locations: ["Louiseville, QC"]
 items: ["shirts"]
 audience: ["men"]
 style: ["tailored", "workwear"]
-business: ["manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: acquired
 acquired_by: "Au Noir"

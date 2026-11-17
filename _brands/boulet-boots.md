@@ -5,7 +5,7 @@ locations: ["Saint-Tite, QC"]
 items: ["footwear"]
 audience: ["men", "women", "kids"]
 style: ["western", "workwear"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: confirmed
 ownership: canadian

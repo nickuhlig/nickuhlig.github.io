@@ -5,7 +5,7 @@ locations: ["Toronto, ON"]
 items: ["socks"]
 audience: ["men", "women"]
 style: []
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: some
 status: confirmed
 ownership: canadian

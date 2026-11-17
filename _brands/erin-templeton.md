@@ -5,7 +5,7 @@ locations: ["Vancouver, BC"]
 items: ["bags", "leather-goods"]
 audience: ["women"]
 style: []
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: confirmed
 ownership: canadian

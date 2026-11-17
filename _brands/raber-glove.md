@@ -5,7 +5,7 @@ locations: ["Winnipeg, MB"]
 items: ["gloves"]
 audience: ["men", "women"]
 style: ["workwear", "outdoor"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: confirmed
 ownership: canadian

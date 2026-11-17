@@ -5,7 +5,7 @@ locations: ["Hamilton, ON"]
 items: ["activewear"]
 audience: ["men", "women", "kids"]
 style: ["athletic"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: confirmed
 ownership: canadian

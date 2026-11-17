@@ -5,7 +5,7 @@ locations: ["Windsor, ON"]
 items: ["suits-tailoring"]
 audience: ["men", "women"]
 style: ["tailored"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: probable
 ownership: canadian

@@ -5,7 +5,7 @@ locations: ["Saint-Léonard, QC"]
 items: ["footwear"]
 audience: ["men", "women"]
 style: ["athletic"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: some
 status: defunct
 ownership: canadian

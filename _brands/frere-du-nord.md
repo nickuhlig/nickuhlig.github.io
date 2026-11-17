@@ -5,7 +5,7 @@ locations: ["Oshawa, ON"]
 items: ["general-apparel", "pants-denim"]
 audience: ["men", "women"]
 style: ["streetwear", "casual"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: confirmed
 ownership: canadian

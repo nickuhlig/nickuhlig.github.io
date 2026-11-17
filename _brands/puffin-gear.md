@@ -5,7 +5,7 @@ locations: ["Toronto, ON"]
 items: ["hats"]
 audience: ["men", "women", "kids"]
 style: ["outdoor"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: confirmed
 ownership: canadian

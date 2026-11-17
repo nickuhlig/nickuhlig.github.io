@@ -5,7 +5,7 @@ locations: ["Toronto, ON"]
 items: ["leather-goods", "jewellery", "ties"]
 audience: ["men"]
 style: ["tailored"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: some
 status: confirmed
 ownership: canadian

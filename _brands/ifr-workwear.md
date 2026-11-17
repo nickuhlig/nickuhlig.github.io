@@ -5,7 +5,7 @@ locations: ["Red Deer, AB"]
 items: ["outerwear", "general-apparel"]
 audience: ["men", "women"]
 style: ["workwear"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: unknown
 status: wall-of-shame
 acquired_by: "Portwest"

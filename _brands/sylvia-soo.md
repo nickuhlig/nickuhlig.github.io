@@ -5,7 +5,7 @@ locations: ["Edmonton, AB"]
 items: ["bags", "leather-goods"]
 audience: ["women"]
 style: ["minimalist"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: unknown
 ownership: canadian

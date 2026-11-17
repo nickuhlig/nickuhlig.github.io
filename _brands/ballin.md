@@ -5,7 +5,7 @@ locations: ["Montréal, QC"]
 items: ["pants-denim"]
 audience: ["men"]
 style: ["tailored", "casual"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: probable
 ownership: canadian

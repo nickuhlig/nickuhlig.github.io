@@ -5,7 +5,7 @@ locations: ["North Vancouver, BC"]
 items: ["footwear"]
 audience: ["men", "women", "kids", "babies"]
 style: ["casual"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: confirmed
 ownership: canadian

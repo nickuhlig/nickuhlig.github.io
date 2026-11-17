@@ -5,7 +5,7 @@ locations: ["Calgary, AB"]
 items: ["watches"]
 audience: ["unisex"]
 style: ["minimalist"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: confirmed
 ownership: canadian

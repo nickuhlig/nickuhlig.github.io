@@ -5,7 +5,7 @@ locations: ["New Westminster, BC"]
 items: ["outerwear", "activewear", "bags"]
 audience: ["men", "women"]
 style: ["outdoor", "athletic"]
-business: ["brand", "manufacturer"]
+business: ["brand"]
 made_in_canada: some
 status: wall-of-shame
 acquired_by: "Amer Sports"

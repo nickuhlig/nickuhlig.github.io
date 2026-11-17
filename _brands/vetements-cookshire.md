@@ -5,7 +5,7 @@ locations: ["Cookshire-Eaton, QC"]
 items: ["suits-tailoring", "outerwear"]
 audience: ["men", "women"]
 style: ["tailored"]
-business: ["manufacturer"]
+business: ["brand"]
 made_in_canada: all
 status: confirmed
 ownership: unknown
