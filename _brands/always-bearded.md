@@ -1,14 +1,16 @@
 ---
 title: "Always Bearded"
-website: https://alwaysbearded.com/
+website:
 locations: ["Barrie, ON"]
-items: [cosmetics]
-audience: [men]
+items: ["cosmetics"]
+audience: ["men"]
 style: []
-business: [brand]
+business: ["brand"]
 made_in_canada: all
-status: confirmed
-ownership: unknown
-last_checked: 2019-07-01
+status: defunct
+ownership: canadian
+last_checked: 2026-11-16
 ---
-Made in Barrie, ON. Beard care products ranging from shampoo to balm to anti-static combs. All products are CertClean certified and use only natural ingredients.
+**Update (2026):** the domain now shows only a web host's default page, and the brand appears to have closed.
+
+Made in Barrie, ON. Beard care products ranging from shampoo to balm to anti-static combs. All products were CertClean certified and used only natural ingredients.
