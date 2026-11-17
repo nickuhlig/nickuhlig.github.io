@@ -22,7 +22,7 @@ hide_subdirindex: true
   <ul class="minimal">
   {% for subpage in site.pages %}
     {% capture subpage_key %}:{{ subpage.url }}{% endcapture %}
-    {% if subpage_key contains key_prefix and subpage.url != page.url %}
+    {% if subpage_key contains key_prefix and subpage.url != page.url and subpage.hide_from_index != true %}
       {% if page.hide_subdirindex != true or subpage.title %}
       <li>
         <a href="{{ subpage.url | remove_first:'index.html' }}">
