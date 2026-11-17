@@ -4,9 +4,14 @@ title: Made in Canada directory
 description: A filterable directory of clothing and accessory brands made in Canada.
 ---
 <style type="text/css">
-  #filters fieldset legend { padding: 0 0.3em; }
+  #filters details.group { border: 1px solid #ddd; border-radius: 4px; margin: 0 0 0.5em; padding: 0.35em 0.7em; }
+  #filters details.group summary { cursor: pointer; font-weight: bold; }
+  #filters details.group[open] summary { margin-bottom: 0.4em; }
+  #filters details.group .opts { padding: 0 0 0.3em; }
   #filters label.opt { margin-bottom: 0.2em; }
-  #filters .count { color: #aaa; font-size: 14px; }
+  #filters .count { color: #aaa; font-size: 14px; font-weight: normal; }
+  #show { font-weight: bold; padding: 0.25em 0.9em; }
+  #show:disabled { font-weight: normal; }
   .toolbar { display: flex; flex-wrap: wrap; gap: 0.6em 1.2em; align-items: center; margin: 1em 0; }
   .toolbar input[type=search] { font: inherit; font-size: 16px; padding: 0.2em 0.4em; min-width: 14em; }
   .toolbar select, .toolbar button { font: inherit; font-size: 16px; }
@@ -36,19 +41,20 @@ description: A filterable directory of clothing and accessory brands made in Can
 
 <h1 id="intro-title">MADE IN CANADA DIRECTORY</h1>
 <div id="intro">
-<p class="hint">Clothing, accessories and toiletries made in Canada. Tick what you're looking for: within a group any ticked option matches (boots <em>or</em> jackets), and across groups every group must match (footwear <em>and</em> Québec). Leave a group empty to not filter on it. Most entries come from the 2019 edition of <a href="/projects/madeincanada/">my guide</a> and haven't been re-checked since; the date on each entry says when it was.</p>
+<p class="hint">Clothing, accessories and toiletries made in Canada. Open a group and tick what you're looking for, then press <strong>Display results</strong>. Within a group any ticked option matches (boots <em>or</em> jackets), and across groups every group must match (footwear <em>and</em> Québec). Leave a group alone to not filter on it. The entries come from the 2019 edition of <a href="/projects/madeincanada/">my guide</a>, and every one was re-checked in 2026; the date on each entry says when.</p>
 </div>
 
 <div id="filters"><p class="hint">Loading brands…</p></div>
 
 <div class="toolbar">
   <input type="search" id="search" placeholder="Search names and descriptions" aria-label="Search names and descriptions">
-  <span>Export:
+  <button type="button" id="show">Display results</button>
+  <button type="button" id="reset">Reset filters</button>
+  <span id="exports" hidden>Export:
     <button type="button" id="export-csv">CSV</button>
     <button type="button" id="export-md">Markdown</button>
     <button type="button" id="export-print">Print / PDF</button>
   </span>
-  <button type="button" id="reset">Reset filters</button>
 </div>
 <p id="summary"></p>
 <div id="results"></div>

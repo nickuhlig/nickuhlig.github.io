@@ -18,6 +18,8 @@
   var NOT_SET = '(not specified)';
 
   var vocab, brands, labels = {}, selected = {}, rendered = {};
+  // open: filter groups the visitor expanded; shown: results are on screen; stale: filters changed since
+  var open = {}, shown = false, stale = false;
   var $ = function (id) { return document.getElementById(id); };
 
   function arr(v) {
@@ -105,10 +107,11 @@
     selected.status = vocab.status.filter(function (s) { return s.shown; }).map(function (s) { return s.id; });
   }
 
+  // returns true if the URL carried filters (a shared or bookmarked search), so the results show right away
   function readHash() {
     defaults();
     var h = location.hash.replace(/^#/, '');
-    if (!h) return;
+    if (!h || /^brand-/.test(h)) return false;
     h.split('&').forEach(function (part) {
       var kv = part.split('=');
       var key = decodeURIComponent(kv[0]);
@@ -116,6 +119,7 @@
       if (key === 'q') $('search').value = val;
       else if (GROUPS.some(function (g) { return g.key === key; })) selected[key] = val ? val.split(',') : [];
     });
+    return true;
   }
 
   function writeHash() {
@@ -129,7 +133,8 @@
     });
     var q = $('search').value.trim();
     if (q) parts.push('q=' + encodeURIComponent(q));
-    history.replaceState(null, '', parts.length ? '#' + parts.join('&') : location.pathname);
+    // a non-empty hash means "show results" when the link is opened, so the default search gets one too
+    history.replaceState(null, '', '#' + (parts.length ? parts.join('&') : 'all'));
   }
 
   // ---------------------------------------------------------------- filtering
@@ -158,7 +163,10 @@
     GROUPS.forEach(function (g) {
       var opts = optionsFor(g.key);
       var want = selected[g.key] || [];
-      html += '<fieldset><legend> ' + esc(g.legend) + ' </legend>';
+      // collapsed unless the visitor opened it; the summary says how much is ticked inside
+      var ticked = want.length ? want.length + ' of ' + opts.length + ' ticked' : 'any';
+      html += '<details class="group" data-key="' + esc(g.key) + '"' + (open[g.key] ? ' open' : '') + '>' +
+        '<summary>' + esc(g.legend) + ' <span class="count">' + esc(ticked) + '</span></summary><div class="opts">';
       opts.forEach(function (o) {
         // how many brands this option would show, given every other group's ticks
         var n = brands.filter(function (b) { return b[g.key].indexOf(o.id) !== -1 && matches(b, g.key); }).length;
@@ -166,9 +174,17 @@
           (want.indexOf(o.id) !== -1 ? ' checked' : '') + '> ' + esc(o.label) + ' <span class="count">' + n + '</span></label>';
       });
       if (g.hint && (g.key !== 'city' || !opts.length)) html += '<p class="hint">' + esc(g.hint) + '</p>';
-      html += '</fieldset>';
+      html += '</div></details>';
     });
     $('filters').innerHTML = html;
+  }
+
+  // the live match count on the button; results only change when it's pressed
+  function renderCount() {
+    var n = filtered().length;
+    $('show').textContent = 'Display ' + n + ' result' + (n === 1 ? '' : 's');
+    $('show').disabled = !n;
+    if (shown && stale) $('summary').textContent = 'Filters changed. Press "Display ' + n + ' result' + (n === 1 ? '' : 's') + '" to update the list.';
   }
 
   function badges(b) {
@@ -203,6 +219,7 @@
       defaults();
       if (target && target.status[0] && selected.status.indexOf(target.status[0]) === -1) selected.status.push(target.status[0]);
       update();
+      showResults();
     }
     var el = document.getElementById('brand-' + id);
     if (el) el.scrollIntoView({ behavior: 'instant', block: 'start' });
@@ -271,10 +288,36 @@
     }).join('');
   }
 
+  // after any filter change: refresh the checkboxes and the count, but leave the results alone
   function update() {
     renderFilters();
+    if (shown) stale = true;
+    renderCount();
+  }
+
+  function showResults() {
+    shown = true;
+    stale = false;
     renderResults();
+    renderCount();
     writeHash();
+    $('exports').hidden = false;
+  }
+
+  // back to the blank start: default ticks, groups collapsed, no results
+  function reset() {
+    $('search').value = '';
+    defaults();
+    open = {};
+    shown = false;
+    stale = false;
+    rendered = {};
+    $('results').innerHTML = '';
+    $('summary').textContent = '';
+    $('exports').hidden = true;
+    history.replaceState(null, '', location.pathname);
+    renderFilters();
+    renderCount();
   }
 
   // ---------------------------------------------------------------- exports
@@ -331,9 +374,19 @@
 
   function init(data) {
     load(data);
-    readHash();
+    var fromLink = readHash();
     update();
+    if (fromLink) showResults();
 
+    // remember which groups are open, since the filters are re-drawn on every tick ('toggle' doesn't bubble)
+    $('filters').addEventListener('toggle', function (e) {
+      var d = e.target;
+      if (d.dataset && d.dataset.key) open[d.dataset.key] = d.open;
+    }, true);
+    $('show').addEventListener('click', showResults);
+    $('search').addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') { clearTimeout(typing); update(); showResults(); }
+    });
     $('filters').addEventListener('change', function (e) {
       var box = e.target;
       if (!box.dataset || !box.dataset.key) return;
@@ -344,7 +397,7 @@
     });
     var typing;
     $('search').addEventListener('input', function () { clearTimeout(typing); typing = setTimeout(update, 150); });
-    $('reset').addEventListener('click', function () { $('search').value = ''; defaults(); update(); });
+    $('reset').addEventListener('click', reset);
     $('results').addEventListener('click', function (e) {
       // badges carry data-goto; descriptions can link to another card as [Name](#brand-<id>)
       var a = e.target.closest && e.target.closest('a[data-goto], a[href^="#brand-"]');
