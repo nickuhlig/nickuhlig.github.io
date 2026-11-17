@@ -21,7 +21,8 @@ The primary goal is to help people avoid clothing that is made using unscrupulou
 
 ### Contributing
 
-Own a company that manufactures its clothing within Canada? Know of one that I haven't listed? [Contact me](mailto:clothingfromcanada@gmail.com) or [make a pull request]([https://github.com/nickuhlig/nickuhlig.github.io](https://github.com/nickuhlig/nickuhlig.github.io/tree/master/_brands)).
+Own a company that manufactures its clothing within Canada? Know of one that I haven't listed? [Contact me](mailto:clothingfromcanada@gmail.com) or 
+[make a pull request](https://github.com/nickuhlig/nickuhlig.github.io/tree/master/_brands).
 
 ### Buy me a coffee
 
