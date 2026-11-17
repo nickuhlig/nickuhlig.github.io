@@ -5,7 +5,7 @@ title: Made in Canada - a guide.
 
 ## Made in Canada — a guide.
 
-**Note: this project has not been updated sionce 2019 and should be considered deprecated. I apologize to anyone who has contacted me at the below e-mail address and not received a reply.**
+**Update (2026): the guide now lives on as a [searchable, filterable directory](/projects/madeincanada/directory/), with every brand re-checked in 2026. The PDFs below are the 2019 edition and are no longer updated. I apologize to anyone who has contacted me at the below e-mail address and not received a reply.**
 
 I have compiled a list of clothing labels and companies that manufacture their products (at least some of them) in Canada. 
 
@@ -34,6 +34,8 @@ The primary goal is to help people avoid clothing that is made using unscrupulou
 In the future I plan to convert this to a searchable blog, something like a tumblr, using tags to allow sorting. I also plan on hosting the information as a markdown document on Github to allow public edits.
 
 This won't happen until I have time, but when it does, I will probably post about it to reddit again.
+
+*2026: the searchable version is here: the [Made in Canada directory](/projects/madeincanada/directory/).*
 
 ### Contributing
 
