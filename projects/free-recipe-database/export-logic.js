@@ -573,8 +573,36 @@ const NORISH_SYSTEM_USED = { "US": "us", "Metric": "metric" };
 const NORISH_ARCHIVE_FORMAT = "norish-recipes";
 const NORISH_ARCHIVE_FORMAT_VERSION = 1;
 const NORISH_EXPORTER_ORIGIN = "https://recipe-export.invalid";
-// tbsp counts that convert to a cup fraction instead of staying in tbsp.
-const TBSP_TO_CUP_FRACTION = { 4: 1 / 4, 5: 1 / 3, 6: 1 / 3, 8: 1 / 2 };
+// tbsp counts that convert to a cup fraction instead of staying in tbsp: only the two that ARE an exact cup
+// fraction (4 tbsp = 1/4 cup, 8 tbsp = 1/2 cup). 5 and 6 tbsp used to be rounded to 1/3 cup (7% and 11% off), so
+// they stay in tbsp now. And only for an ingredient used in ONE step -- see rescaleNorishAmount()'s allowCup.
+// Mirrors the local tool's TBSP_TO_CUP_FRACTION.
+const TBSP_TO_CUP_FRACTION = { 4: 1 / 4, 8: 1 / 2 };
+
+// Units a callout line or an ingredient total can be written in: [family, factor to the family's base unit (tsp for
+// volumes, g for weights)]. Lets "1/4 cup" used in a step of a "6 tbsp" ingredient be compared as 12 tsp / 18 tsp
+// instead of 0.25 / 6. Mirrors the local tool's _UNIT_TO_BASE.
+const UNIT_TO_BASE = [
+  [/^(?:tsp|teaspoons?)\b/i, ["vol", 1]],
+  [/^(?:tbsp|tablespoons?)\b/i, ["vol", 3]],
+  [/^cups?\b/i, ["vol", 48]],
+  [/^(?:fl\.? ?oz|fluid ounces?)\b/i, ["vol", 6]],
+  [/^(?:ml|milliliters?|millilitres?)\b/i, ["vol", 1 / 4.92892]],
+  [/^(?:l|liters?|litres?)\b/i, ["vol", 202.884]],
+  [/^(?:kg|kilograms?)\b/i, ["wt", 1000]],
+  [/^(?:oz|ounces?)\b/i, ["wt", 28.3495]],
+  [/^(?:lbs?|pounds?)\b/i, ["wt", 453.592]],
+  [/^(?:g|grams?)\b/i, ["wt", 1]],
+];
+
+// [family, amount in that family's base unit] when `rest` starts with a known volume or weight unit, else null.
+function inBaseUnit(amount, rest) {
+  const text = rest.trim();
+  for (const [pattern, [family, factor]] of UNIT_TO_BASE) {
+    if (pattern.test(text)) return [family, amount * factor];
+  }
+  return null;
+}
 const NUMERIC_6_2_LIMIT = 9999.99;  // numeric(6,2)'s largest magnitude: fat/carbs/protein overflow beyond it
 
 // Python-style round(): exact halves go to the even neighbour (774.5 -> 774), unlike Math.round.
@@ -645,7 +673,12 @@ function buildNorishStepIngredients(record) {
       const stepParsed = parseLeadingNumber(line);
       const totalParsed = parseLeadingNumber(ingredients[ingredientOrder].quantity || "");
       if (stepParsed && totalParsed && totalParsed[0]) {
-        const ratio = pyRound(Math.min(stepParsed[0] / totalParsed[0], 1.0), 4);
+        let [stepAmount, stepRest] = stepParsed;
+        let [totalAmount, totalRest] = totalParsed;
+        // Same family of unit (both volumes, or both weights) but not the same unit: compare in the base unit.
+        const stepBase = inBaseUnit(stepAmount, stepRest), totalBase = inBaseUnit(totalAmount, totalRest);
+        if (stepBase && totalBase && stepBase[0] === totalBase[0]) { stepAmount = stepBase[1]; totalAmount = totalBase[1]; }
+        const ratio = pyRound(Math.min(stepAmount / totalAmount, 1.0), 4);
         if (ratio > 0) share = ratio;
       }
       chips.push({ ingredientOrder, share, order: chips.length });
@@ -656,7 +689,10 @@ function buildNorishStepIngredients(record) {
 
 // Friendlier display units, since Norish has no rescaling of its own: kg -> g below 1 kg, L -> mL
 // below 1 L, tbsp -> tsp below 1 tbsp and to a cup fraction at the counts in TBSP_TO_CUP_FRACTION.
-function rescaleNorishAmount(amount, unit) {
+//
+// allowCup=false keeps tbsp as tbsp: buildNorishRecipe() passes it for an ingredient that recipe steps use a PART of.
+// Norish works a step's amount out as share x total, so a 1 tbsp step of a "1/4 cup" total came out as "1/16 cup".
+function rescaleNorishAmount(amount, unit, allowCup = true) {
   if (unit === null) return [amount, unit];
   const unitLower = unit.trim().toLowerCase();
   if (unitLower === "kg") return amount < 1 ? [pyRound(amount * 1000, 3), "g"] : [pyRound(amount, 2), "kg"];
@@ -666,7 +702,7 @@ function rescaleNorishAmount(amount, unit) {
   if (unitLower === "tbsp") {
     if (amount < 1) return [pyRound(amount * 3, 3), "tsp"];
     const nearestWhole = pyRound(amount);
-    if (Math.abs(amount - nearestWhole) < 0.001 && nearestWhole in TBSP_TO_CUP_FRACTION) {
+    if (allowCup && Math.abs(amount - nearestWhole) < 0.001 && nearestWhole in TBSP_TO_CUP_FRACTION) {
       return [pyRound(TBSP_TO_CUP_FRACTION[nearestWhole], 3), "cup"];
     }
     return [amount, "tbsp"];
@@ -687,9 +723,20 @@ function buildNorishRecipe(record) {
   const nutrition = record.nutrition || {};
   const stepChips = buildNorishStepIngredients(record);
 
+  // Ingredients the steps use only a PART of (two or more steps, or one step with a share under 1): their tbsp stay
+  // tbsp, because Norish shows each step as share x total and a cup total makes odd cup fractions.
+  const uses = new Map();
+  for (const chips of stepChips) {
+    for (const chip of chips) {
+      if (!uses.has(chip.ingredientOrder)) uses.set(chip.ingredientOrder, []);
+      uses.get(chip.ingredientOrder).push(chip.share);
+    }
+  }
+  const splitIngredients = new Set([...uses].filter(([, shares]) => shares.length > 1 || shares[0] < 1.0).map(([order]) => order));
+
   const recipeIngredients = (record.ingredients || []).map((ing, i) => {
     const [parsedAmount, unitText] = parseQuantity(ing.quantity);
-    const [amount, unit] = rescaleNorishAmount(parsedAmount, unitText.trim() || null);
+    const [amount, unit] = rescaleNorishAmount(parsedAmount, unitText.trim() || null, !splitIngredients.has(i));
     return {
       ingredientId: null,
       ingredientName: ing.name,

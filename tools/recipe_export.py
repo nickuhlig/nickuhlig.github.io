@@ -990,8 +990,13 @@ def build_norish_step_ingredients(record: dict) -> list[list[dict]]:
             step_parsed = _parse_leading_number(line)
             total_parsed = _parse_leading_number(ing.get("quantity") or "")
             if step_parsed is not None and total_parsed is not None:
-                step_amount, _ = step_parsed
-                total_amount, _ = total_parsed
+                step_amount, step_rest = step_parsed
+                total_amount, total_rest = total_parsed
+                # Same family of unit (both volumes, or both weights) but not the same unit: compare in the
+                # base unit. "1/4 cup" of a "6 tbsp" ingredient is 12 tsp of 18, not 0.25 of 6.
+                step_base, total_base = _in_base_unit(step_amount, step_rest), _in_base_unit(total_amount, total_rest)
+                if step_base and total_base and step_base[0] == total_base[0]:
+                    step_amount, total_amount = step_base[1], total_base[1]
                 if total_amount:
                     ratio = round(min(step_amount / total_amount, 1.0), 4)
                     if ratio > 0:
@@ -1008,16 +1013,40 @@ def build_norish_step_ingredients(record: dict) -> list[list[dict]]:
     return per_step
 
 
-# tbsp counts that convert to a cup fraction instead of staying in tbsp --
-# snapped to the nearest fraction a measuring cup actually offers rather than
-# tbsp/16's exact (and uglier) division, e.g. 6 tbsp is exactly 0.375 cup but
-# reads as the 1/3 cup measure, same as 5 tbsp. Deliberately only these four
-# exact counts (an explicit ask) -- 7, 9-15, 16, and non-whole tbsp amounts
-# stay in tbsp rather than guessing at a fuller table.
-TBSP_TO_CUP_FRACTION = {4: 1 / 4, 5: 1 / 3, 6: 1 / 3, 8: 1 / 2}
+# tbsp counts that convert to a cup fraction instead of staying in tbsp. Only the
+# two counts that ARE an exact cup fraction (4 tbsp = 1/4 cup, 8 tbsp = 1/2 cup):
+# 5 and 6 tbsp used to be rounded to 1/3 cup, which is 7% and 11% off, so they stay
+# in tbsp now, like 7, 9-15 and non-whole amounts. And only for an ingredient used
+# in ONE step -- see _rescale_norish_amount()'s allow_cup.
+TBSP_TO_CUP_FRACTION = {4: 1 / 4, 8: 1 / 2}
+
+# Units a callout line or an ingredient total can be written in, as (family, factor to the
+# family's base unit: tsp for volumes, g for weights). Lets "1/4 cup" used in a step of a
+# "6 tbsp" ingredient be compared as 12 tsp / 18 tsp instead of 0.25 / 6.
+_UNIT_TO_BASE = [
+    (re.compile(r"^(?:tsp|teaspoons?)\b", re.I), ("vol", 1.0)),
+    (re.compile(r"^(?:tbsp|tablespoons?)\b", re.I), ("vol", 3.0)),
+    (re.compile(r"^cups?\b", re.I), ("vol", 48.0)),
+    (re.compile(r"^(?:fl\.? ?oz|fluid ounces?)\b", re.I), ("vol", 6.0)),
+    (re.compile(r"^(?:ml|milliliters?|millilitres?)\b", re.I), ("vol", 1 / 4.92892)),
+    (re.compile(r"^(?:l|liters?|litres?)\b", re.I), ("vol", 202.884)),
+    (re.compile(r"^(?:kg|kilograms?)\b", re.I), ("wt", 1000.0)),
+    (re.compile(r"^(?:oz|ounces?)\b", re.I), ("wt", 28.3495)),
+    (re.compile(r"^(?:lbs?|pounds?)\b", re.I), ("wt", 453.592)),
+    (re.compile(r"^(?:g|grams?)\b", re.I), ("wt", 1.0)),
+]
 
 
-def _rescale_norish_amount(amount: float, unit: str | None) -> tuple[float, str | None]:
+def _in_base_unit(amount: float, rest: str) -> tuple[str, float] | None:
+    """(family, amount in that family's base unit) when `rest` starts with a known volume or weight unit."""
+    rest = rest.strip()
+    for pattern, (family, factor) in _UNIT_TO_BASE:
+        if pattern.match(rest):
+            return family, amount * factor
+    return None
+
+
+def _rescale_norish_amount(amount: float, unit: str | None, allow_cup: bool = True) -> tuple[float, str | None]:
     """Rescale a mass/volume/spoon amount to a friendlier display unit, per an
     explicit ask: kg collapses to g below 1 kg, and stays kg (rounded to 2
     decimals) at or above 1; L collapses to mL below 1 L, same rounding above;
@@ -1031,7 +1060,11 @@ def _rescale_norish_amount(amount: float, unit: str | None) -> tuple[float, str 
     confirmed by reading its actual unit-formatting code, which only picks
     singular/plural wording, never a different unit in the same family -- so
     this has to happen here, before export. Every other unit (already-small
-    forms, cups, pieces, counts, etc.) passes through untouched."""
+    forms, cups, pieces, counts, etc.) passes through untouched.
+
+    allow_cup=False keeps tbsp as tbsp: build_norish_recipe() passes it for an ingredient that
+    recipe steps use a PART of. Norish works a step's amount out as share x total, so a 1 tbsp
+    step of a "1/4 cup" total came out as "1/16 cup" and 3 tbsp as "3/16 cup"."""
     if unit is None:
         return amount, unit
     unit_lower = unit.strip().lower()
@@ -1044,7 +1077,7 @@ def _rescale_norish_amount(amount: float, unit: str | None) -> tuple[float, str 
         if amount < 1:
             return round(amount * 3, 3), "tsp"
         nearest_whole = round(amount)
-        if abs(amount - nearest_whole) < 0.001 and nearest_whole in TBSP_TO_CUP_FRACTION:
+        if allow_cup and abs(amount - nearest_whole) < 0.001 and nearest_whole in TBSP_TO_CUP_FRACTION:
             return round(TBSP_TO_CUP_FRACTION[nearest_whole], 3), "cup"
         return amount, "tbsp"
 
@@ -1106,10 +1139,18 @@ def build_norish_recipe(record: dict) -> dict:
     nutrition = record.get("nutrition") or {}
     step_chips = build_norish_step_ingredients(record)
 
+    # Ingredients the steps use only a PART of (two or more steps, or one step with a share under 1): their
+    # tbsp stay tbsp, because Norish shows each step as share x total and a cup total makes odd cup fractions.
+    uses: dict[int, list[float]] = defaultdict(list)
+    for chips in step_chips:
+        for chip in chips:
+            uses[chip["ingredientOrder"]].append(chip["share"])
+    split_ingredients = {order for order, shares in uses.items() if len(shares) > 1 or shares[0] < 1.0}
+
     recipe_ingredients = []
     for i, ing in enumerate(record.get("ingredients") or []):
         amount, unit_text = parse_quantity(ing.get("quantity"))
-        amount, unit = _rescale_norish_amount(amount, unit_text.strip() or None)
+        amount, unit = _rescale_norish_amount(amount, unit_text.strip() or None, allow_cup=i not in split_ingredients)
         recipe_ingredients.append({
             "ingredientId": None,
             "ingredientName": ing["name"],
