@@ -154,7 +154,8 @@
    "fine",
    "coarse",
    "regional",
-   "macaroon"
+   "macaroon",
+   "full-fat"
   ],
   "merged before (dry wine/couscous, stale/day-old bread)": [
    "dry",
@@ -331,7 +332,8 @@
   "No-salt-added / low-sodium versions are their own entries (they matter to a recipe's flavor), e.g. 'diced tomatoes, no salt added'. Batch 8 ruling; older merges of no-salt wordings may need revisiting.",
   "Lower-fat dairy rule extends to evaporated skim milk -> evaporated milk and reduced-fat goat cheese -> goat cheese.",
   "'X or Y' where Y is a close cousin: take the simpler, common one (mackerel or sardines -> sardines).",
-  "Plant-based meat substitutes -> the existing 'veggie ground, plant based' entry."
+  "Plant-based meat substitutes -> the existing 'veggie ground, plant based' entry.",
+  "Shark is banned (unethical): recipes using it are excluded from the library, not reviewed."
  ],
  "cases": [
   {
@@ -585,9 +587,39 @@
    "wording": "plant-based vegan ground beef",
    "proposed": "NEW",
    "ruling": "veggie ground, plant based"
+  },
+  {
+   "batch": 9,
+   "wording": "hard Bosc pears",
+   "proposed": "pears",
+   "ruling": "own entry; all pear varieties split out (Bosc, Bartlett, Comice, Anjou)"
+  },
+  {
+   "batch": 9,
+   "wording": "pulverized ground bay leaves",
+   "proposed": "bay leaves",
+   "ruling": "own entry ground bay leaves"
+  },
+  {
+   "batch": 9,
+   "wording": "full-fat oat milk",
+   "proposed": "oat milk",
+   "ruling": "own entry (nutrition differs)"
+  },
+  {
+   "batch": 9,
+   "wording": "chick peas",
+   "proposed": "dried chickpeas",
+   "ruling": "dried chickpeas + prep 'soaked overnight'"
   }
  ],
  "neutral_phrases": [
   "\\b(?:very\\s+)?hot\\s+(?:strong\\s+)?(?:brewed\\s+)?(?:coffee|espresso|water|tea|milk|broth|stock)\\b"
- ]
+ ],
+ "banned_ingredients": {
+  "why": "User ruling 2026-11-17: never suggest seeking, buying or eating these. A recipe that uses one is set to status 'excluded' in source_registry.csv (never fetched) and listed in excluded_recipes.csv.",
+  "patterns": [
+   "\\bshark\\b"
+  ]
+ }
 }

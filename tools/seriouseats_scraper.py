@@ -464,7 +464,7 @@ def print_status(rows: dict, source: str = SOURCE) -> None:
     for r in mine:
         counts[r["status"]] = counts.get(r["status"], 0) + 1
     print(f"{source}: {len(mine)} recipe URL(s) in the registry")
-    for status in ("new", "stale", "ok", "norecipe", "gone", "error"):
+    for status in ("new", "stale", "ok", "norecipe", "gone", "error", "excluded"):   # excluded = never fetched (excluded_recipes.csv says why)
         if counts.get(status):
             print(f"  {status:9} {counts[status]}")
     print(f"  to fetch next run: {sum(1 for r in mine if needs_fetch(r))}")
