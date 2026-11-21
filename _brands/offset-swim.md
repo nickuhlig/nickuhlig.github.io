@@ -7,8 +7,8 @@ audience: ["unisex"]
 style: []
 business: ["brand"]
 made_in_canada: all
-status: probable
+status: confirmed
 ownership: unknown
 last_checked: 2026-11-20
 ---
-Swimwear. Listed by Made in CA as manufactured in Sarnia, Ontario ([Made in CA](https://madeinca.ca/swimwear-offset-swim/)). The brand's [site](https://offsetswim.com/) is live but doesn't say where its products are made.
+Swimwear. Each suit is hand cut, sewn, and constructed in Sarnia, Ontario ([site](https://offsetswim.com/)).

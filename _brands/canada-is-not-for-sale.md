@@ -7,8 +7,8 @@ audience: ["unisex"]
 style: []
 business: ["brand"]
 made_in_canada: all
-status: probable
+status: confirmed
 ownership: unknown
 last_checked: 2026-11-20
 ---
-Hats, Apparel. Listed by Made in CA as manufactured in Montreal, Toronto, Vancouver ([Made in CA](https://madeinca.ca/hats-apparel-canada-is-not-for-sale/)). The brand's [site](https://www.canadaisnotforsale.ca/) is live but doesn't say where its products are made.
+Hats, Apparel. The company says its products are now 100% manufactured in Canada ([CTV News](https://vancouverisland.ctvnews.ca/ottawa/article/canada-is-not-for-sale-hats-now-made-in-canada-ottawa-based-company-says)).

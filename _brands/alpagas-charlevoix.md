@@ -7,8 +7,8 @@ audience: ["unisex"]
 style: []
 business: ["brand"]
 made_in_canada: all
-status: probable
+status: confirmed
 ownership: unknown
 last_checked: 2026-11-20
 ---
-Clothing made of alpaga wool. Listed by Made in CA as manufactured in Les Éboulements, Quebec ([Made in CA](https://madeinca.ca/alpaca-products-alpagas-charlevoix/)). The brand's [site](https://alpagascharlevoix.com/) is live but doesn't say where its products are made.
+Clothing made of alpaga wool. Its pieces are made by hand by local artisans ([site](https://alpagascharlevoix.com/)).

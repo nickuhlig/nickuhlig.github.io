@@ -7,8 +7,8 @@ audience: ["men"]
 style: []
 business: ["brand"]
 made_in_canada: all
-status: probable
+status: confirmed
 ownership: unknown
 last_checked: 2026-11-20
 ---
-Men’s swimwear. Listed by Made in CA as manufactured in Ottawa, Ontario ([Made in CA](https://madeinca.ca/swimwear-coast-beachwear/)). The brand's [site](https://coastbeachwear.com/) is live but doesn't say where its products are made.
+Men’s swimwear. The brand says it makes its clothes locally in Canada ([site](https://coastbeachwear.com/)).

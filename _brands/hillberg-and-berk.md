@@ -7,8 +7,8 @@ audience: ["unisex"]
 style: []
 business: ["brand"]
 made_in_canada: most
-status: probable
+status: confirmed
 ownership: unknown
 last_checked: 2026-11-20
 ---
-Earrings, necklaces, bracelets, rings. Listed by Made in CA as manufactured in Regina, Saskatchewan (about 80%) ([Made in CA](https://madeinca.ca/jewellery-hillberg-berk/)). The brand's [site](https://hillbergandberk.com/) is live but doesn't say where its products are made.
+Earrings, necklaces, bracelets, rings. Designed in Canada, with most pieces made in Regina using imported materials; it also works with outside manufacturers ([site](https://hillbergandberk.com/)).
