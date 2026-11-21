@@ -6,9 +6,9 @@ items: ["jewellery"]
 audience: ["unisex"]
 style: []
 business: ["brand"]
-made_in_canada: all
-status: probable
+made_in_canada: some
+status: confirmed
 ownership: unknown
 last_checked: 2026-11-20
 ---
-Gold and silver jewellery. Listed by Made in CA as manufactured in Huntsville, Ontario ([Made in CA](https://madeinca.ca/jewellery-the-hunt-house-fine-jewellers/)). The brand's [site](https://www.thehunthouse.ca/) is live but doesn't say where its products are made.
+Gold and silver jewellery. Custom pieces are handcrafted in its Huntsville workshop; it also stocks premade jewellery ([site](https://www.thehunthouse.ca/)).

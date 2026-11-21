@@ -7,8 +7,8 @@ audience: ["women"]
 style: []
 business: ["brand"]
 made_in_canada: most
-status: probable
+status: confirmed
 ownership: unknown
 last_checked: 2026-11-20
 ---
-Women’s dresses, wedding dresses, bridesmaids dresses. Listed by Made in CA as manufactured in Vancouver, Canada (1/8th of production in China) ([Made in CA](https://madeinca.ca/formal-dresses-park-fifth-co/)). The brand's [site](https://parkandfifthco.com/) is live but doesn't say where its products are made.
+Women’s dresses, wedding dresses, bridesmaids dresses. Much of the line is produced in and around Vancouver; seven of its eight production partners are Canadian, and one is in China ([site](https://parkandfifthco.com/pages/sustainability)).

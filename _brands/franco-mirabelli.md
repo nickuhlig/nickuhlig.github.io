@@ -7,8 +7,8 @@ audience: ["women"]
 style: []
 business: ["brand"]
 made_in_canada: all
-status: probable
+status: confirmed
 ownership: unknown
 last_checked: 2026-11-20
 ---
-Women’s Clothing. Listed by Made in CA as manufactured in Toronto, Ontario ([Made in CA](https://madeinca.ca/franco-mirabelli-%f0%9f%8d%81/)). The brand's [site](https://mirabelli.com/) is live but doesn't say where its products are made.
+Women’s Clothing. Its site says its clothes are made in Canada, and the Canadian Encyclopedia describes Mirabelli as a Toronto designer and manufacturer ([Canadian Encyclopedia](https://thecanadianencyclopedia.ca/en/article/franco-mirabelli)).

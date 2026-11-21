@@ -6,9 +6,11 @@ items: ["general-apparel"]
 audience: ["women"]
 style: []
 business: ["brand"]
-made_in_canada: all
-status: probable
+made_in_canada: unknown
+status: wall-of-shame
 ownership: unknown
 last_checked: 2026-11-20
 ---
-Pants, tops. Listed by Made in CA as manufactured in Montreal, Quebec ([Made in CA](https://madeinca.ca/womens-clothing-lisette-l/)). The brand's [site](https://lisettel.ca/) is live but doesn't say where its products are made.
+**Update (2026):** no longer made in Canada. Once produced entirely in Québec ([McCord Stewart Museum](https://encyclomodeqc.musee-mccord-stewart.ca/en/?p=2180)), the brand's site now makes no made-in-Canada claim.
+
+Pants and tops for women, from Montréal.

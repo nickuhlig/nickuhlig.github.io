@@ -7,8 +7,8 @@ audience: ["unisex"]
 style: []
 business: ["brand"]
 made_in_canada: all
-status: probable
+status: confirmed
 ownership: unknown
 last_checked: 2026-11-20
 ---
-Jewellery. Listed by Made in CA as manufactured in Winnipeg, Manitoba ([Made in CA](https://madeinca.ca/jewellery-hilary-druxman/)). The brand's [site](https://hilarydruxman.com/) is live but doesn't say where its products are made.
+Jewellery. Handcrafted at its Winnipeg studio by a small team of jewellers and goldsmiths ([Exchange District](https://exchangedistrict.org/2024/01/18/hilary-druxman-jewelry-celebrates-30-years-of-brilliance)).

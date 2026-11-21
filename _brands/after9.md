@@ -7,8 +7,8 @@ audience: ["women"]
 style: []
 business: ["brand"]
 made_in_canada: all
-status: probable
+status: confirmed
 ownership: unknown
 last_checked: 2026-11-20
 ---
-Maternity/nursing activewear. Listed by Made in CA as manufactured in Toronto, Ontario ([Made in CA](https://madeinca.ca/activewear-after9-%f0%9f%8d%81/)). The brand's [site](https://wearafter9.com/) is live but doesn't say where its products are made.
+Maternity/nursing activewear. Product pages say made in Canada, and the founder describes it as a made-in-Canada business ([site](https://wearafter9.com/)).

@@ -2,13 +2,13 @@
 title: "Discovery Fabrics"
 website: https://discoveryfabrics.com/
 locations: ["Campbell River, BC"]
-items: ["activewear"]
+items: ["activewear", "fabric"]
 audience: ["unisex"]
 style: []
-business: ["brand"]
-made_in_canada: all
-status: probable
+business: ["brand", "manufacturer"]
+made_in_canada: some
+status: confirmed
 ownership: unknown
 last_checked: 2026-11-20
 ---
-Ultralight “Alpha Direct” Hoodies for travel, hiking, & active lifestyle. Listed by Made in CA as manufactured in Campbell River, BC ([Made in CA](https://madeinca.ca/active-lifestyle-hoodies-discovery-fabrics/)). The brand's [site](https://discoveryfabrics.com/) is live but doesn't say where its products are made.
+Ultralight “Alpha Direct” Hoodies for travel, hiking, & active lifestyle. A Campbell River fabric seller that also makes some of its own products, including ultralight hoodies ([site](https://discoveryfabrics.com/pages/about-us)).

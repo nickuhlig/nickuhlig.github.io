@@ -6,9 +6,9 @@ items: ["jewellery"]
 audience: ["unisex"]
 style: []
 business: ["brand"]
-made_in_canada: all
-status: probable
+made_in_canada: some
+status: confirmed
 ownership: unknown
 last_checked: 2026-11-20
 ---
-Custom-designed jewellery. Listed by Made in CA as manufactured in Prince Rupert, British Columbia ([Made in CA](https://madeinca.ca/jewellery-harris-wick-goldsmiths-ltd/)). The brand's [site](https://www.harrisandwick.com/) is live but doesn't say where its products are made.
+Custom-designed jewellery. A custom goldsmith shop in Prince Rupert that also sells other jewellery ([site](https://www.harrisandwick.com/)).

@@ -6,9 +6,9 @@ items: ["general-apparel"]
 audience: ["women"]
 style: []
 business: ["brand"]
-made_in_canada: all
-status: probable
+made_in_canada: some
+status: confirmed
 ownership: unknown
 last_checked: 2026-11-20
 ---
-Women’s Clothing. Listed by Made in CA as manufactured in Vancouver, BC ([Made in CA](https://madeinca.ca/womens-clothing-devil-may-wear/)). The brand's [site](https://devilmaywear.ca/) is live but doesn't say where its products are made.
+Women’s Clothing. Its own line is made locally in Vancouver, while the shop also carries imported pieces, including jewellery from South Korea ([site](https://devilmaywear.ca/)).
