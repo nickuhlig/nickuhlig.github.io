@@ -100,7 +100,7 @@ for _s, _p in [("clove", "cloves"), ("head", "heads"), ("sprig", "sprigs"), ("st
                ("round", "rounds"), ("handful", "handfuls"), ("bottle", "bottles"), ("bag", "bags"), ("box", "boxes"),
                ("container", "containers"), ("cube", "cubes"), ("drop", "drops"), ("serving", "servings"),
                ("scoop", "scoops"), ("shot", "shots"), ("block", "blocks"), ("envelope", "envelopes"), ("packet", "packets"),
-               ("dozen", "dozen"), ("loaf", "loaves"), ("rack", "racks"), ("portion", "portions"), ("chunk", "chunks"), ("link", "links"), ("foot", "feet"), ("slab", "slabs"), ("pack", "packs"), ("grinding", "grindings"), ("brick", "bricks"), ("hunk", "hunks"), ("grind", "grinds"), ("log", "logs"), ("square", "squares"), ("pod", "pods")]:
+               ("dozen", "dozen"), ("loaf", "loaves"), ("rack", "racks"), ("portion", "portions"), ("chunk", "chunks"), ("link", "links"), ("foot", "feet"), ("slab", "slabs"), ("pack", "packs"), ("grinding", "grindings"), ("brick", "bricks"), ("hunk", "hunks"), ("grind", "grinds"), ("log", "logs"), ("square", "squares"), ("pod", "pods"), ("vessel", "vessels")]:
     COUNT_FORMS[_s] = (_s if _s != "package" else "pkg", _p)
     COUNT_FORMS[_p] = COUNT_FORMS[_s]
 COUNT_FORMS["packages"] = COUNT_FORMS["package"]                  # "2 (16-ounce) packages potato gnocchi"
@@ -320,7 +320,7 @@ def normalize_raw(raw: str) -> str:
     s = re.sub(r"^(\d+)\s+or\s+(\d+)\s+(?=\D)", r"\1 to \2 ", s)                                                        # "2 or 3 red, ripe tomatoes"
     s = re.sub(r"^(\d+)\s+full\s+(?=(?:cups?|tablespoons?|teaspoons?)\b)", r"\1 ", s, flags=re.I)                          # "1 full cup cilantro"
     # lower-fat dairy is written as the full-fat kind the library (Mealime) uses (the user's rule)
-    s = re.sub(r"(?<!evaporated )(?<!condensed )(?<![\w-])(?:(?:low[- ]?fat|reduced[- ]fat|non[- ]?fat|fat[- ]free|skim[- ]milk|skim|part[- ]skim|[12]%|[12]-percent)\s+(?:or\s+)?)+(?:plain\s+)?(?:,\s*)?(?:unflavored\s+)?(?:greek\s+)?(?:cow['’]s\s+)?(yogurt|milk|sour cream|cottage cheese|ricotta(?: cheese)?|cream cheese)\b",
+    s = re.sub(r"(?<!evaporated )(?<!condensed )(?<![\w-])(?:(?:low[- ]?fat|reduced[- ]fat|non[- ]?fat|fat[- ]free|part[- ]skim[- ]milk|skim[- ]milk|skim|part[- ]skim|[12]%|[12][- ]percent[- ]fat|[12]-percent)\s+(?:or\s+)?)+(?:plain\s+)?(?:,\s*)?(?:unflavored\s+)?(?:greek\s+)?(?:cow['’]s\s+)?(yogurt|milk|sour cream|cottage cheese|ricotta(?: cheese)?|cream cheese)\b",
                lambda m: {"yogurt": "plain Greek yogurt", "milk": "whole milk"}.get(m.group(1).lower(), m.group(1)), s, flags=re.I)   # (also cottage cheese, ricotta, cream cheese)
     s = re.sub(r"^(?=(?:teaspoons?|tablespoons?|cups?)\s+\S)", "1 ", s, flags=re.I)                                           # "teaspoon tomato paste": the page left out the 1
     s = re.sub(rf"^((?:{NUM})\s+(?:(?:tablespoons?|teaspoons?|cups?|pounds?|ounces?)\s+)?)((?:{PREP_VERBS})\s+or\s+(?:{PREP_VERBS}))\s+(.+)$",
@@ -442,7 +442,14 @@ def normalize_raw(raw: str) -> str:
     s = re.sub(r"^meat\s+(?:from|of)\s+(\d+|an?|one)\s+([^,]+)", lambda m: f"{1 if not m.group(1)[0].isdigit() else m.group(1)} {m.group(2)}, meat picked", s, flags=re.I)   # "Meat from 1 cooked lobster"
     s = re.sub(r",\s*(?:although|though)\s+[^,]*$", "", s, flags=re.I)                                                    # "wild mushrooms, preferably porcini, although cultivated mushrooms may be used"
     s = re.sub(r"(?<![\d/.])00\s+flour\b", "tipo 00 flour", s, flags=re.I)                                                 # "12 ounces 00 flour"
-    s = re.sub(r"^(\d+)\*\s+", r"\1 ", s)                                                                                  # "2* pounds small artichokes"
+    s = re.sub(r"\btablesooons?\b", "tablespoon", s, flags=re.I)                                                             # typos on the page
+    s = re.sub(r"\begg\s+yokes\b", "egg yolks", s, flags=re.I)
+    s = re.sub(r"\bwhitewine\b", "white wine", s, flags=re.I)
+    s = re.sub(rf"^((?:{NUM})\s+(?:ounces?|cups?))/(?:\d+\s+(?:(?:small|medium|large)\s+)?bunch(?:es)?\s+|\d+\s+(?=[a-z]))", r"\1 ", s, flags=re.I)   # "5 ounces/1 medium bunch baby kale", "2 cups/247 confectioner’s sugar"
+    s = re.sub(r"\bplus\s+a\s+little\s+more\b", "plus more", s, flags=re.I)                                                   # "1 ¾ cups flour, plus a little more if batter is too thin"
+    s = re.sub(rf"^((?:{NUM})\s+(?:cups?|tablespoons?))\s+([\d½¼¾⅓⅔⅛/]+)-inch-diced\s+([^,]+)", r"\1 \3, cut in \2-inch dice", s, flags=re.I)   # "1 cup ½-inch-diced carrots"
+    s = re.sub(r"^(\d+)\s+shy\s+(?=cups?\b)", r"\1 ", s, flags=re.I)                                                         # "1 shy cup mayonnaise"
+    s = re.sub(r"^(\d+)\*\s+", r"\1 ", s)                                                                                 # "2* pounds small artichokes"
     return s
 
 
@@ -1751,7 +1758,7 @@ def build_ingredients(parsed: dict, ctx: Context, recipe_name: str, is_drink: bo
                 if EQUIPMENT_LINE_RE.match(line.name):                         # "Cheesecloth", "Kitchen twine", "Aluminum foil": cookware, not food
                     ctx.page_cookware.append(line.name.strip())
                     continue
-                if line.amount is None and re.search(r"\sand\s", line.name) and not FRUIT_SOURCE_RE.match(line.name):   # "Zest and juice of two lemons" is ONE line
+                if line.amount is None and not line.link and re.search(r"\sand\s", line.name) and not FRUIT_SOURCE_RE.match(line.name):   # "Zest and juice of two lemons" is ONE line; "Braised potatoes and carrots (see recipe)" is a linked recipe
                     for piece in re.split(r"\s+and\s+", line.name):             # "salt and pepper" -> two lines
                         lines.append((Line(raw=raw, name=piece.strip(), prep=None), None))
                     ctx.review["split_lines"].append((recipe_name, raw))
